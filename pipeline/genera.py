@@ -22,7 +22,7 @@ import argparse, json, os, pathlib, re, subprocess, sys, tempfile, time
 
 R = pathlib.Path(__file__).resolve().parent.parent
 PROVEEDOR = 'openai' if os.environ.get('OPENAI_API_KEY') else 'anthropic' if os.environ.get('ANTHROPIC_API_KEY') else None
-MODELO = os.environ.get('PAUSIBLE_MODELO') or {'openai': 'gpt-5', 'anthropic': 'claude-sonnet-5-5'}.get(PROVEEDOR, '')
+MODELO = os.environ.get('PAUSIBLE_MODELO') or {'openai': 'gpt-6-luna', 'anthropic': 'claude-sonnet-5-5'}.get(PROVEEDOR, '')
 
 
 def llm_openai(system, user, temperatura=0.3, max_tokens=8000):
@@ -31,7 +31,9 @@ def llm_openai(system, user, temperatura=0.3, max_tokens=8000):
     import requests
     razona = re.match(r'^(gpt-[5-9]|o\d)', MODELO) is not None
     body = {'model': MODELO, 'messages': [{'role': 'system', 'content': system}, {'role': 'user', 'content': user}], 'response_format': {'type': 'json_object'}}
-    if razona: body['max_completion_tokens'] = max_tokens * 3
+    if razona:
+        body['max_completion_tokens'] = max_tokens * 3
+        body['reasoning_effort'] = os.environ.get('PAUSIBLE_ESFUERZO') or 'high'   # modelo barato + razonar más = menos errores de cálculo
     else: body.update(max_tokens=max_tokens, temperature=temperatura)
     for intento in range(4):
         r = requests.post('https://api.openai.com/v1/chat/completions', timeout=600, json=body,

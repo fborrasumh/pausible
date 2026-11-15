@@ -39,7 +39,7 @@ Todo lo hace un GitHub Action (`.github/workflows/corpus.yml`), porque las webs 
 
 Esto reduce mucho los errores, pero no los elimina: la app lo dice y pide avisar de cualquier error en las *issues* de GitHub.
 
-Para activar la generación: **Settings → Secrets and variables → Actions → New repository secret** con nombre `OPENAI_API_KEY`. Opcional: variable `PAUSIBLE_MODELO` (por defecto `gpt-5`; un modelo de razonamiento resuelve mejor los problemas de cálculo). Cada ejecución genera como máximo 20 exámenes nuevos (configurable al lanzar el Action a mano).
+Para activar la generación: **Settings → Secrets and variables → Actions → New repository secret** con nombre `OPENAI_API_KEY`. Opcional: variable `PAUSIBLE_MODELO` (por defecto `gpt-6-luna`, el más económico de OpenAI, con razonamiento `high`; se puede cambiar con la variable `PAUSIBLE_ESFUERZO`). Cada ejecución genera como máximo 20 exámenes nuevos (configurable al lanzar el Action a mano).
 
 ## Cómo se usa la IA en la app
 
