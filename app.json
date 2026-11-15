@@ -1,0 +1,67 @@
+{
+  "slug": "pausible",
+  "name": "PAUsible",
+  "tagline": "El examen más PAUsible de 2027, por comunidad y materia",
+  "description": "Predicción de temas de la PAU 2027 para cada comunidad autónoma y materia a partir de los exámenes oficiales 2022-2026, con exámenes probables resueltos y verificados.",
+  "eyebrow": "Selectividad 2027 · 17 comunidades · exámenes oficiales 2022-2026",
+  "h1": "Tu examen de la PAU 2027, *el más PAUsible*",
+  "lede": "Elige tu comunidad y tu materia. PAUsible analiza los exámenes oficiales de los últimos cinco años, te dice qué temas tienen más probabilidad de caer y te da un examen probable con la solución comprobada.",
+  "logo_icon": "sparkles",
+  "ia": true,
+  "lang": "es",
+  "langs": [
+    "es",
+    "en",
+    "pt"
+  ],
+  "modules": [
+    "00-utils",
+    "10-persist",
+    "20-providers",
+    "30-verify",
+    "60-nav",
+    "65-i18n"
+  ],
+  "connect_extra": [
+    "'self'"
+  ],
+  "app_js": [
+    "datos.js",
+    "nucleo.js",
+    "app.js"
+  ],
+  "i18n": {
+    "en": {
+      "title": "PAUsible · The most likely 2027 university entrance exam, by region and subject",
+      "eyebrow": "Spain's PAU 2027 · 17 regions · official exams 2022-2026",
+      "h1": "Your 2027 PAU exam, *the most PAUsible one*",
+      "lede": "Pick your region and subject. PAUsible analyses the last five years of official exams, tells you which topics are most likely to come up and gives you a probable exam with a checked solution."
+    },
+    "pt": {
+      "title": "PAUsible · O exame de acesso à universidade 2027 mais provável, por comunidade e disciplina",
+      "eyebrow": "PAU 2027 de Espanha · 17 comunidades · exames oficiais 2022-2026",
+      "h1": "O teu exame da PAU 2027, *o mais PAUsível*",
+      "lede": "Escolhe a tua comunidade e a tua disciplina. O PAUsible analisa os exames oficiais dos últimos cinco anos, diz-te que temas têm mais probabilidade de sair e dá-te um exame provável com a solução verificada."
+    }
+  },
+  "authors": [
+    {
+      "name": "Fernando Borrás Rocher",
+      "orcid": "0000-0002-5519-4573",
+      "affiliation": "Universidad Miguel Hernández de Elche"
+    }
+  ],
+  "idea_credit": "",
+  "catalog": {
+    "cat": "doc",
+    "icon": "ti-sparkles",
+    "sub_es": "Predicción PAU 2027",
+    "desc_es": "Temas más probables y exámenes probables resueltos de la PAU 2027 por comunidad y materia.",
+    "sub_en": "PAU 2027 prediction",
+    "desc_en": "Most likely topics and solved probable exams for Spain's 2027 university entrance exam, by region and subject.",
+    "tit_es": "PAUsible",
+    "comp_es": "Selectividad",
+    "tit_en": "PAUsible",
+    "comp_en": "University entrance"
+  }
+}

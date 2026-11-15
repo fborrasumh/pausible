@@ -1,0 +1,51 @@
+name: Corpus y predicciones PAU
+# Descarga los exámenes oficiales 2022-2026 de las 17 comunidades, extrae su texto, recalcula las predicciones
+# y, si existe el secreto ANTHROPIC_API_KEY, genera los exámenes probables verificados que falten.
+on:
+  workflow_dispatch:
+    inputs:
+      ccaa: {description: 'Solo esta comunidad (vacío = todas)', required: false, default: ''}
+      max_examenes: {description: 'Máximo de exámenes probables nuevos a generar', required: false, default: '20'}
+  push:
+    branches: [main]
+    paths: ['pipeline/fuentes.json', 'pipeline/temario.json', 'pipeline/crawl.py', 'pipeline/analiza.py']
+  schedule:
+    - cron: '17 4 1 * *'        # el día 1 de cada mes
+    - cron: '17 4 * 6,7 1'      # y cada lunes de junio y julio, cuando se publican los exámenes nuevos
+permissions:
+  contents: write
+concurrency: {group: corpus, cancel-in-progress: false}
+jobs:
+  corpus:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Herramientas (pdftotext y OCR)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-spa tesseract-ocr-cat tesseract-ocr-glg tesseract-ocr-eus >/dev/null
+      - run: pip install -q requests sympy
+      - name: Pruebas del pipeline
+        run: python3 tests/test_pipeline.py
+      - name: Rastrear y descargar
+        run: python3 pipeline/crawl.py ${{ github.event.inputs.ccaa && format('--ccaa {0}', github.event.inputs.ccaa) || '' }}
+      - name: Predicciones
+        run: python3 pipeline/analiza.py
+      - name: Exámenes probables (multiagente)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PAUSIBLE_MODELO: ${{ vars.PAUSIBLE_MODELO || 'claude-sonnet-5-5' }}
+        run: python3 pipeline/genera.py --max ${{ github.event.inputs.max_examenes || '20' }}
+      - name: Guardar en el repositorio
+        run: |
+          git config user.name "pausible-bot"; git config user.email "actions@users.noreply.github.com"
+          git add corpus data
+          git diff --cached --quiet || (git commit -q -m "Corpus y predicciones $(date +%F)" && git pull -q --rebase && git push -q)
+      - name: PDF originales a una Release (no se suben al repo para no inflar GitHub Pages)
+        env: {GH_TOKEN: '${{ github.token }}'}
+        run: |
+          [ -d pdf ] || exit 0
+          cd pdf && for d in */; do zip -qr "../pau-${d%/}-$(date +%F).zip" "$d"; done; cd ..
+          gh release view corpus >/dev/null 2>&1 || gh release create corpus --title "Exámenes oficiales PAU 2022-2026 (PDF)" --notes "PDF originales descargados de las webs oficiales de cada comunidad (un zip por comunidad y fecha de descarga: cada zip trae solo los PDF nuevos de esa ejecución). Las URL de origen están en data/corpus.json."
+          gh release upload corpus pau-*.zip --clobber

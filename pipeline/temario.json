@@ -1,0 +1,173 @@
+{
+  "_nota": "Materias de la PAU (LOMLOE) y temas de cada una. 'patrones': palabras (sin tildes, en minúscula) que identifican la materia en el nombre del PDF, el texto del enlace o el título de la sección; el orden importa (se prueba de arriba abajo). 'kw' de cada tema: raíces que delatan ese tema en el enunciado (es/ca/gl/eu cuando difieren). Un tema cuenta como presente en un examen si suma al menos 2 apariciones.",
+  "materias": [
+    {"id": "matccss", "nombre": "Matemáticas Aplicadas a las CC. Sociales II", "patrones": ["matematicas aplicadas", "matematiques aplicades", "matematicas aplicadas", "ciencias sociales ii", "ccss", "mat_ccss", "macs", "mccss", "matematicas ccss", "ciencies socials"],
+     "temas": [
+      {"id": "matrices", "nombre": "Matrices y sistemas", "kw": ["matriz", "matrice", "matriu", "sistema de ecuaciones", "sistema d'equacions", "determinante", "inversa", "gauss"]},
+      {"id": "progl", "nombre": "Programación lineal", "kw": ["programacion lineal", "programacio lineal", "region factible", "regio factible", "restricciones", "funcion objetivo", "maximizar", "minimizar", "vertices"]},
+      {"id": "funciones", "nombre": "Funciones y derivadas", "kw": ["derivada", "extremos", "maximo relativo", "minimo relativo", "monotonia", "crecimiento", "asintota", "continuidad", "beneficio"]},
+      {"id": "integrales", "nombre": "Integrales y áreas", "kw": ["integral", "primitiva", "area del recinto", "area limitada", "barrow"]},
+      {"id": "probabilidad", "nombre": "Probabilidad", "kw": ["probabilidad", "probabilitat", "bayes", "independientes", "sucesos", "esdeveniment", "diagrama de arbol", "probabilidad total"]},
+      {"id": "inferencia", "nombre": "Inferencia y distribución normal", "kw": ["intervalo de confianza", "interval de confianca", "nivel de confianza", "distribucion normal", "tamano de la muestra", "muestra aleatoria", "binomial", "media muestral", "desviacion tipica"]}
+    ]},
+    {"id": "matematicas2", "nombre": "Matemáticas II", "patrones": ["matematicas ii", "matematiques ii", "matematicas 2", "matematica ii", "matematicas_ii", "mat_ii", "matii", "mat2", "matematicas-ii", "matematiques-ii", "matematicas"],
+     "temas": [
+      {"id": "matrices", "nombre": "Matrices y determinantes", "kw": ["matriz", "matrice", "matriu", "determinante", "determinant", "inversa", "rango", "rang "]},
+      {"id": "sistemas", "nombre": "Sistemas de ecuaciones (discusión)", "kw": ["sistema de ecuaciones", "sistema d'equacions", "discute", "discutir", "compatible", "incompatible", "rouche", "parametro"]},
+      {"id": "geometria", "nombre": "Geometría en el espacio", "kw": ["recta", "plano", "pla ", "vector", "producto vectorial", "producto escalar", "perpendicular", "paralel", "distancia", "simetrico", "proyeccion"]},
+      {"id": "limites", "nombre": "Límites y continuidad", "kw": ["limite", "limit", "continuidad", "continua", "l'hopital", "lhopital", "asintota", "bolzano"]},
+      {"id": "derivadas", "nombre": "Derivadas y aplicaciones", "kw": ["derivada", "derivable", "optimizacion", "maximo", "minimo", "monotonia", "punto de inflexion", "recta tangente", "rolle", "valor medio"]},
+      {"id": "integrales", "nombre": "Integrales y áreas", "kw": ["integral", "primitiva", "area", "recinto", "barrow", "por partes"]},
+      {"id": "probabilidad", "nombre": "Probabilidad y distribuciones", "kw": ["probabilidad", "probabilitat", "bayes", "binomial", "distribucion normal", "sucesos", "independientes", "variable aleatoria"]}
+    ]},
+    {"id": "fisica", "nombre": "Física", "patrones": ["fisica", "física", "fisika"],
+     "temas": [
+      {"id": "gravitacion", "nombre": "Campo gravitatorio", "kw": ["gravitat", "satelite", "orbita", "planeta", "kepler", "velocidad de escape", "energia potencial gravitatoria"]},
+      {"id": "electrico", "nombre": "Campo eléctrico", "kw": ["campo electrico", "camp electric", "carga", "carrega", "coulomb", "potencial electrico", "condensador"]},
+      {"id": "magnetico", "nombre": "Campo magnético e inducción", "kw": ["campo magnetico", "camp magnetic", "lorentz", "induccion", "faraday", "lenz", "espira", "flujo magnetico", "solenoide"]},
+      {"id": "ondas", "nombre": "Ondas y sonido", "kw": ["onda", "ona ", "armonico", "frecuencia", "longitud de onda", "sonido", "intensidad sonora", "decibel", "doppler"]},
+      {"id": "optica", "nombre": "Óptica", "kw": ["lente", "espejo", "refraccion", "snell", "reflexion total", "imagen", "dioptria", "focal"]},
+      {"id": "moderna", "nombre": "Física moderna (cuántica, nuclear, relatividad)", "kw": ["fotoelectrico", "foton", "de broglie", "planck", "nuclear", "desintegracion", "semivida", "periodo de semidesintegracion", "relatividad", "radiactiv"]}
+    ]},
+    {"id": "quimica", "nombre": "Química", "patrones": ["quimica", "química", "kimika"],
+     "temas": [
+      {"id": "estructura", "nombre": "Estructura atómica y tabla periódica", "kw": ["configuracion electronica", "numeros cuanticos", "radio atomico", "energia de ionizacion", "electronegatividad", "afinidad electronica", "orbital"]},
+      {"id": "enlace", "nombre": "Enlace químico", "kw": ["enlace", "enllac", "lewis", "trepev", "hibridacion", "geometria molecular", "polaridad", "fuerzas intermoleculares"]},
+      {"id": "termo", "nombre": "Termoquímica y espontaneidad", "kw": ["entalpia", "entropia", "gibbs", "espontane", "hess", "exotermic", "endotermic"]},
+      {"id": "cinetica", "nombre": "Cinética química", "kw": ["velocidad de reaccion", "orden de reaccion", "energia de activacion", "catalizador", "ecuacion de velocidad"]},
+      {"id": "equilibrio", "nombre": "Equilibrio químico y solubilidad", "kw": ["equilibrio", "equilibri", "kc", "kp", "le chatelier", "solubilidad", "producto de solubilidad", "kps"]},
+      {"id": "acidobase", "nombre": "Ácido-base", "kw": ["acido", "base", "ph", "ka", "kb", "hidrolisis", "valoracion", "neutralizacion", "tampon", "disolucion reguladora"]},
+      {"id": "redox", "nombre": "Redox y electroquímica", "kw": ["redox", "oxidacion", "reduccion", "pila", "electrolisis", "potencial de reduccion", "faraday", "ajusta"]},
+      {"id": "organica", "nombre": "Química orgánica", "kw": ["organica", "isomer", "formula", "alcohol", "ester", "polimero", "reaccion de adicion", "sustitucion", "eliminacion", "grupo funcional"]}
+    ]},
+    {"id": "biologia", "nombre": "Biología", "patrones": ["biologia", "biología", "biologia"],
+     "temas": [
+      {"id": "biomoleculas", "nombre": "Biomoléculas", "kw": ["glucido", "lipido", "proteina", "enzima", "aminoacido", "monosacarido", "acido graso", "biomolecula", "vitamina"]},
+      {"id": "celula", "nombre": "La célula", "kw": ["membrana", "orgánulo", "organulo", "mitocondria", "cloroplasto", "reticulo", "golgi", "citoesqueleto", "celula eucariota"]},
+      {"id": "metabolismo", "nombre": "Metabolismo", "kw": ["metabolismo", "glucolisis", "krebs", "fotosintesis", "respiracion celular", "fermentacion", "atp", "calvin", "beta-oxidacion"]},
+      {"id": "division", "nombre": "División celular", "kw": ["mitosis", "meiosis", "ciclo celular", "cromosoma", "fase s", "interfase"]},
+      {"id": "genetica", "nombre": "Genética mendeliana", "kw": ["mendel", "herencia", "alelo", "genotipo", "fenotipo", "cruce", "ligado al sexo", "dominante", "recesivo"]},
+      {"id": "molecular", "nombre": "Genética molecular y biotecnología", "kw": ["adn", "dna", "arn", "replicacion", "transcripcion", "traduccion", "codigo genetico", "mutacion", "crispr", "pcr", "biotecnolog", "transgenic"]},
+      {"id": "microbiologia", "nombre": "Microbiología", "kw": ["bacteria", "virus", "microorganismo", "hongo", "protozoo", "prion", "microbiolog"]},
+      {"id": "inmunologia", "nombre": "Inmunología", "kw": ["inmun", "anticuerpo", "antigeno", "linfocito", "vacuna", "suero", "autoinmun", "alergia"]}
+    ]},
+    {"id": "geologia", "nombre": "Geología y Ciencias Ambientales", "patrones": ["geologia", "ciencias ambientales", "ciencies ambientals", "ctma"],
+     "temas": [
+      {"id": "tectonica", "nombre": "Tectónica y riesgos geológicos", "kw": ["placa", "tectonica", "sismo", "terremoto", "volcan", "falla", "pliegue"]},
+      {"id": "minerales", "nombre": "Minerales y rocas", "kw": ["mineral", "roca", "magmatica", "metamorfica", "sedimentaria"]},
+      {"id": "procesos", "nombre": "Procesos externos y mapas geológicos", "kw": ["erosion", "meteorizacion", "corte geologico", "mapa geologico", "estratigraf", "datacion"]},
+      {"id": "recursos", "nombre": "Recursos y medio ambiente", "kw": ["recurso", "contaminacion", "acuifero", "residuo", "sostenib", "cambio climatico", "impacto ambiental"]}
+    ]},
+    {"id": "filosofia", "nombre": "Historia de la Filosofía", "patrones": ["historia de la filosofia", "historia de la filosofía", "historia filosofia", "hfil", "filosofia", "filosofía", "filosofia"],
+     "temas": [
+      {"id": "platon", "nombre": "Platón", "kw": ["platon", "plato", "republica", "caverna", "idea del bien", "mundo inteligible"]},
+      {"id": "aristoteles", "nombre": "Aristóteles", "kw": ["aristoteles", "aristotil", "etica a nicomaco", "acto y potencia", "eudaimonia"]},
+      {"id": "medieval", "nombre": "Agustín de Hipona / Tomás de Aquino", "kw": ["agustin", "tomas de aquino", "aquino", "fe y razon", "cinco vias"]},
+      {"id": "descartes", "nombre": "Descartes", "kw": ["descartes", "cogito", "discurso del metodo", "duda metodica"]},
+      {"id": "empirismo", "nombre": "Hume / Locke", "kw": ["hume", "locke", "empirismo", "impresiones", "causalidad"]},
+      {"id": "kant", "nombre": "Kant", "kw": ["kant", "imperativo categorico", "ilustracion", "critica de la razon"]},
+      {"id": "marx", "nombre": "Marx", "kw": ["marx", "alienacion", "plusvalia", "materialismo historico", "lucha de clases"]},
+      {"id": "nietzsche", "nombre": "Nietzsche", "kw": ["nietzsche", "superhombre", "voluntad de poder", "muerte de dios", "nihilismo"]},
+      {"id": "ortega", "nombre": "Ortega y Gasset", "kw": ["ortega", "raciovitalismo", "perspectivismo", "yo soy yo y mi circunstancia"]},
+      {"id": "contemporanea", "nombre": "Filosofía contemporánea (Arendt, Wittgenstein, Beauvoir…)", "kw": ["arendt", "wittgenstein", "beauvoir", "zambrano", "habermas", "rawls", "sartre"]}
+    ]},
+    {"id": "historiaarte", "nombre": "Historia del Arte", "patrones": ["historia del arte", "historia de l'art", "historia da arte", "hart"],
+     "temas": [
+      {"id": "clasico", "nombre": "Arte clásico (Grecia y Roma)", "kw": ["grecia", "griego", "roma", "romano", "partenon", "panteon", "orden dorico"]},
+      {"id": "medieval", "nombre": "Románico y gótico", "kw": ["romanico", "gotico", "catedral", "prerromanico", "mudejar", "islamico"]},
+      {"id": "renacimiento", "nombre": "Renacimiento", "kw": ["renacimiento", "renaixement", "brunelleschi", "miguel angel", "leonardo", "rafael", "quattrocento"]},
+      {"id": "barroco", "nombre": "Barroco", "kw": ["barroco", "bernini", "velazquez", "caravaggio", "rubens", "rembrandt"]},
+      {"id": "sigloxix", "nombre": "Goya y siglo XIX", "kw": ["goya", "neoclasic", "romanticismo", "realismo", "impresionismo", "monet", "rodin", "modernismo", "gaudi"]},
+      {"id": "vanguardias", "nombre": "Vanguardias y siglo XX", "kw": ["picasso", "cubismo", "dali", "surrealismo", "vanguardia", "expresionismo", "bauhaus", "le corbusier", "pop art"]}
+    ]},
+    {"id": "historia", "nombre": "Historia de España", "patrones": ["historia de espana", "historia de espanya", "historia de españa", "historia d'espanya", "historia", "hes", "hesp"],
+     "temas": [
+      {"id": "antigua", "nombre": "Prehistoria a Edad Media (Al-Ándalus, reinos cristianos)", "kw": ["al-andalus", "al andalus", "reconquista", "romanizacion", "visigodo", "califato", "reinos cristianos"]},
+      {"id": "moderna", "nombre": "Monarquía hispánica (Reyes Católicos, Austrias, Borbones s. XVIII)", "kw": ["reyes catolicos", "austrias", "felipe ii", "carlos v", "imperio", "decretos de nueva planta", "ilustracion", "borbones"]},
+      {"id": "liberalismo", "nombre": "Crisis del Antiguo Régimen y liberalismo (1808-1874)", "kw": ["cortes de cadiz", "constitucion de 1812", "fernando vii", "isabel ii", "carlis", "desamortizacion", "sexenio", "1868", "primera republica"]},
+      {"id": "restauracion", "nombre": "Restauración (1874-1931)", "kw": ["restauracion", "canovas", "turnismo", "caciquismo", "1898", "desastre", "primo de rivera", "regeneracionismo"]},
+      {"id": "republica", "nombre": "Segunda República (1931-1936)", "kw": ["segunda republica", "ii republica", "constitucion de 1931", "bienio", "frente popular", "azana"]},
+      {"id": "guerracivil", "nombre": "Guerra Civil (1936-1939)", "kw": ["guerra civil", "golpe de estado de 1936", "bando sublevado", "bando republicano", "1936", "1939"]},
+      {"id": "franquismo", "nombre": "Franquismo (1939-1975)", "kw": ["franquismo", "franco", "dictadura", "autarquia", "desarrollismo", "represion", "plan de estabilizacion"]},
+      {"id": "transicion", "nombre": "Transición y democracia", "kw": ["transicion", "constitucion de 1978", "suarez", "democracia", "estado de las autonomias", "23-f", "ue", "union europea"]}
+    ]},
+    {"id": "geografia", "nombre": "Geografía", "patrones": ["geografia", "geografía", "geografia"],
+     "temas": [
+      {"id": "relieve", "nombre": "Relieve", "kw": ["relieve", "unidades de relieve", "meseta", "cordillera", "litologia"]},
+      {"id": "clima", "nombre": "Clima y aguas", "kw": ["clima", "climograma", "precipitacion", "temperatura", "mapa del tiempo", "isobara", "rio", "cuenca hidrografica", "embalse"]},
+      {"id": "poblacion", "nombre": "Población", "kw": ["poblacion", "piramide", "natalidad", "mortalidad", "migracion", "envejecimiento", "crecimiento vegetativo"]},
+      {"id": "urbano", "nombre": "Espacio urbano", "kw": ["ciudad", "urbano", "plano urbano", "ensanche", "casco historico", "urbanizacion"]},
+      {"id": "sectores", "nombre": "Sectores económicos", "kw": ["agrario", "industria", "turismo", "servicios", "sector primario", "sector secundario", "sector terciario", "transporte"]},
+      {"id": "territorio", "nombre": "Organización territorial y Europa", "kw": ["comunidades autonomas", "organizacion territorial", "desequilibrios", "union europea", "fondos europeos", "provincia"]}
+    ]},
+    {"id": "lengua", "nombre": "Lengua Castellana y Literatura II", "patrones": ["lengua castellana", "llengua castellana", "lingua castela", "castellano", "gaztelania", "lengua y literatura", "lcl"],
+     "temas": [
+      {"id": "comprension", "nombre": "Comprensión y resumen del texto", "kw": ["resumen", "resume", "tema del texto", "idea principal", "estructura del texto", "intencion comunicativa"]},
+      {"id": "argumentacion", "nombre": "Texto argumentativo / opinión", "kw": ["argumenta", "opinion", "texto argumentativo", "valoracion critica", "comentario critico", "postura"]},
+      {"id": "sintaxis", "nombre": "Sintaxis (oración compuesta)", "kw": ["sintactic", "oracion", "subordinada", "coordinada", "proposicion", "funcion sintactica", "complemento"]},
+      {"id": "morfologia", "nombre": "Léxico, morfología y semántica", "kw": ["morfolog", "lexema", "derivacion", "sinonimo", "categoria gramatical", "significado", "connotacion", "palabra"]},
+      {"id": "lit98", "nombre": "Literatura: Modernismo y 98, novecentismo", "kw": ["generacion del 98", "modernismo", "unamuno", "baroja", "machado", "valle-inclan", "ruben dario", "azorin"]},
+      {"id": "lit27", "nombre": "Literatura: 27, Lorca, poesía de posguerra", "kw": ["generacion del 27", "lorca", "alberti", "cernuda", "salinas", "miguel hernandez", "posguerra"]},
+      {"id": "novela", "nombre": "Novela del siglo XX y actual", "kw": ["novela", "cela", "delibes", "martin gaite", "laforet", "realismo social", "novela experimental", "luis martin-santos"]},
+      {"id": "teatro", "nombre": "Teatro del siglo XX", "kw": ["teatro", "buero vallejo", "drama", "dramaturg", "escena"]}
+    ]},
+    {"id": "ingles", "nombre": "Lengua Extranjera II: Inglés", "patrones": ["ingles", "inglés", "angles", "anglés", "english", "ingelesa"],
+     "temas": [
+      {"id": "reading", "nombre": "Comprensión lectora (true/false, preguntas)", "kw": ["true or false", "according to the text", "justify", "reading", "answer the following questions"]},
+      {"id": "vocab", "nombre": "Vocabulario (sinónimos, definiciones)", "kw": ["synonym", "find in the text", "words or phrases", "meaning", "definition", "vocabulary"]},
+      {"id": "grammar", "nombre": "Gramática (reescritura, transformaciones)", "kw": ["rewrite", "complete the sentence", "passive", "reported speech", "conditional", "relative", "begin with", "transformation"]},
+      {"id": "writing", "nombre": "Redacción (opinión, carta, email)", "kw": ["write an essay", "write a composition", "opinion", "email", "letter", "words", "for and against", "writing"]},
+      {"id": "mediation", "nombre": "Mediación", "kw": ["mediation", "mediacion", "explain to", "summarise for"]}
+    ]},
+    {"id": "empresa", "nombre": "Empresa y Diseño de Modelos de Negocio / Economía de la Empresa", "patrones": ["empresa y diseno", "diseno de modelos de negocio", "economia de la empresa", "economia de l'empresa", "empresa"],
+     "temas": [
+      {"id": "financiacion", "nombre": "Inversión y financiación (VAN, TIR, payback)", "kw": ["van", "valor actual neto", "tir", "payback", "plazo de recuperacion", "inversion", "financiacion"]},
+      {"id": "contabilidad", "nombre": "Balance y análisis financiero (ratios)", "kw": ["balance", "patrimonio", "activo", "pasivo", "ratio", "fondo de maniobra", "cuenta de resultados", "rentabilidad"]},
+      {"id": "produccion", "nombre": "Producción, costes y umbral de rentabilidad", "kw": ["umbral de rentabilidad", "punto muerto", "costes fijos", "costes variables", "productividad", "produccion"]},
+      {"id": "marketing", "nombre": "Marketing", "kw": ["marketing", "segmentacion", "precio", "promocion", "distribucion", "marketing mix", "cuota de mercado"]},
+      {"id": "modelonegocio", "nombre": "Modelo de negocio y emprendimiento (Canvas)", "kw": ["canvas", "modelo de negocio", "propuesta de valor", "emprend", "startup", "lean"]},
+      {"id": "organizacion", "nombre": "Organización y dirección", "kw": ["organigrama", "direccion", "liderazgo", "recursos humanos", "motivacion", "planificacion", "funciones directivas"]}
+    ]},
+    {"id": "dibujo", "nombre": "Dibujo Técnico II", "patrones": ["dibujo tecnico", "dibuix tecnic", "debuxo tecnico", "marrazketa teknikoa"],
+     "temas": [
+      {"id": "geometriaplana", "nombre": "Geometría plana (tangencias, transformaciones)", "kw": ["tangente", "tangencia", "homologia", "afinidad", "inversion", "potencia"]},
+      {"id": "conicas", "nombre": "Cónicas", "kw": ["elipse", "hiperbola", "parabola", "conica"]},
+      {"id": "diedrico", "nombre": "Sistema diédrico", "kw": ["diedrico", "abatimiento", "verdadera magnitud", "traza", "cambio de plano"]},
+      {"id": "axonometrico", "nombre": "Axonométrico y perspectiva", "kw": ["isometric", "axonometr", "caballera", "perspectiva conica"]},
+      {"id": "normalizacion", "nombre": "Normalización y vistas", "kw": ["vistas", "acotacion", "acota", "normalizacion", "croquis", "corte"]}
+    ]},
+    {"id": "latin", "nombre": "Latín II", "patrones": ["latin", "latín", "llati", "llatí"],
+     "temas": [
+      {"id": "traduccion", "nombre": "Traducción", "kw": ["traduce", "traduccion", "tradueix", "texto latino"]},
+      {"id": "morfosintaxis", "nombre": "Morfosintaxis", "kw": ["analisis morfologico", "analisis sintactico", "caso", "declinacion", "ablativo absoluto", "infinitivo"]},
+      {"id": "lexico", "nombre": "Léxico y etimología", "kw": ["etimolog", "evolucion fonetica", "cultismo", "palabra patrimonial", "derivado"]},
+      {"id": "literatura", "nombre": "Literatura latina", "kw": ["genero literario", "epica", "virgilio", "historiografia", "lirica", "ciceron", "teatro latino"]}
+    ]},
+    {"id": "griego", "nombre": "Griego II", "patrones": ["griego", "grec ", "grego"],
+     "temas": [
+      {"id": "traduccion", "nombre": "Traducción", "kw": ["traduce", "traduccion", "tradueix"]},
+      {"id": "morfosintaxis", "nombre": "Morfosintaxis", "kw": ["analisis morfologico", "analisis sintactico", "participio", "infinitivo", "aoristo"]},
+      {"id": "lexico", "nombre": "Léxico y etimología", "kw": ["etimolog", "helenismo", "derivado", "compuesto"]},
+      {"id": "literatura", "nombre": "Literatura griega", "kw": ["homero", "epica", "tragedia", "comedia", "historiografia", "lirica"]}
+    ]},
+    {"id": "valenciano", "nombre": "Valencià: Llengua i Literatura II", "patrones": ["valencia: llengua", "valencia llengua", "valenciano", "valencià"], "temas": []},
+    {"id": "catalan", "nombre": "Llengua Catalana i Literatura", "patrones": ["llengua catalana", "catala", "català", "lengua catalana"], "temas": []},
+    {"id": "gallego", "nombre": "Lingua Galega e Literatura II", "patrones": ["lingua galega", "galego", "gallego"], "temas": []},
+    {"id": "euskera", "nombre": "Euskara eta Literatura II", "patrones": ["euskara", "euskera"], "temas": []},
+    {"id": "frances", "nombre": "Lengua Extranjera II: Francés", "patrones": ["frances", "francés", "frances", "french"], "temas": []},
+    {"id": "aleman", "nombre": "Lengua Extranjera II: Alemán", "patrones": ["aleman", "alemán", "alemany", "german"], "temas": []},
+    {"id": "italiano", "nombre": "Lengua Extranjera II: Italiano", "patrones": ["italiano", "italia"], "temas": []},
+    {"id": "portugues", "nombre": "Lengua Extranjera II: Portugués", "patrones": ["portugues", "portugués"], "temas": []},
+    {"id": "dibujoartistico", "nombre": "Dibujo Artístico II", "patrones": ["dibujo artistico", "dibuix artistic"], "temas": []},
+    {"id": "diseno", "nombre": "Diseño", "patrones": ["diseno", "diseño", "disseny"], "temas": []},
+    {"id": "musica", "nombre": "Análisis Musical II / Historia de la Música", "patrones": ["analisis musical", "historia de la musica", "musica"], "temas": []},
+    {"id": "audiovisual", "nombre": "Cultura Audiovisual", "patrones": ["cultura audiovisual", "audiovisual"], "temas": []},
+    {"id": "escenicas", "nombre": "Artes Escénicas II", "patrones": ["artes escenicas", "arts esceniques"], "temas": []},
+    {"id": "tecnologia", "nombre": "Tecnología e Ingeniería II", "patrones": ["tecnologia e ingenieria", "tecnologia i enginyeria", "tecnologia", "tecnologia industrial"], "temas": []},
+    {"id": "matgenerales", "nombre": "Matemáticas Generales", "patrones": ["matematicas generales", "matematiques generals"], "temas": []},
+    {"id": "ciencias", "nombre": "Ciencias Generales", "patrones": ["ciencias generales", "ciencies generals"], "temas": []},
+    {"id": "movimientos", "nombre": "Movimientos Culturales y Artísticos", "patrones": ["movimientos culturales", "moviments culturals"], "temas": []},
+    {"id": "literaturadram", "nombre": "Literatura Dramática", "patrones": ["literatura dramatica"], "temas": []},
+    {"id": "graficoplastica", "nombre": "Técnicas de Expresión Gráfico-Plástica", "patrones": ["grafico-plastica", "graficoplastica", "grafico plastica", "graficoplastica"], "temas": []}
+  ]
+}

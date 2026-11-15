@@ -1,0 +1,1948 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0F2237">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src data: blob:; media-src blob: data:; connect-src https://api.openai.com https://generativelanguage.googleapis.com https://api.anthropic.com 'self'; base-uri 'none'; form-action 'none'">
+<meta name="author" content="Fernando Borrás Rocher">
+<meta name="description" content="Predicción de temas de la PAU 2027 para cada comunidad autónoma y materia a partir de los exámenes oficiales 2022-2026, con exámenes probables resueltos y verificados.">
+<meta property="og:type" content="website"><meta property="og:title" content="PAUsible · El examen más PAUsible de 2027, por comunidad y materia"><meta property="og:description" content="Predicción de temas de la PAU 2027 para cada comunidad autónoma y materia a partir de los exámenes oficiales 2022-2026, con exámenes probables resueltos y verificados."><meta property="og:url" content="https://fborrasumh.github.io/pausible/"><meta property="og:image" content="https://fborrasumh.github.io/pausible/og.png"><meta name="twitter:card" content="summary_large_image">
+<title>PAUsible · El examen más PAUsible de 2027, por comunidad y materia</title><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --tinta:#0F2237; --acero:#2E4B6B; --acero-claro:#7C93AC; --gris:#5D7691;
+  --papel:#F3F6FA; --blanco:#FFFFFF; --linea:#D8E0E9; --linea-2:#E8EEF4;
+  --brasa:#E4572E; --brasa-osc:#C9441F; --brasa-suave:#FDEBE4;
+  --forjado:#0E7C6B; --forjado-suave:#E0F3EE; --aviso:#8A3617;
+  --c-ctx:#1F6FB2; --c-comp:#6B4FD8; --c-rda:#0E8C7A; --c-tema:#C98200; --c-eval:#E4572E; --c-final:#2E4B6B;
+  --sombra:0 1px 0 rgba(15,34,55,.05), 0 14px 34px -22px rgba(15,34,55,.45);
+  --sombra-alta:0 2px 0 rgba(15,34,55,.04), 0 22px 50px -24px rgba(15,34,55,.55);
+  --r:14px;
+  --display:"Bricolage Grotesque",Georgia,serif;
+  --texto:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--papel);color:var(--tinta);font-family:var(--texto);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;padding-bottom:84px}
+a{color:var(--acero)}
+:focus-visible{outline:3px solid var(--brasa);outline-offset:2px;border-radius:6px}
+.hidden{display:none!important}
+svg.i{width:1.15em;height:1.15em;vertical-align:-.2em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+code{font-family:var(--mono);font-size:.85em;background:var(--linea-2);padding:1px 5px;border-radius:5px}
+
+/* Barra superior */
+.topbar{position:sticky;top:0;z-index:40;background:var(--tinta);color:#EAF1F7;box-shadow:0 6px 24px -14px rgba(0,0,0,.6)}
+.tb-in{max-width:1180px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:14px}
+.logo{background:none;border:0;color:#fff;font-family:var(--display);font-weight:800;font-size:24px;letter-spacing:-.03em;cursor:pointer;padding:2px 4px;display:flex;align-items:center;gap:8px}
+.logo em{font-style:normal;color:var(--brasa)}
+.logo .anv{width:30px;height:30px;border-radius:9px;background:var(--brasa);display:grid;place-items:center;color:#fff}
+.stepper{flex:1;display:flex;align-items:center;justify-content:center;min-width:0}
+.sdot{display:flex;align-items:center;gap:7px;background:none;border:0;color:#8FA7BE;font:600 13px var(--texto);padding:6px;cursor:pointer;border-radius:10px;white-space:nowrap}
+.sdot:disabled{cursor:not-allowed;opacity:.45}
+.sdot .n{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;border:2px solid #3E5C7D;font-size:12px;color:#A9C0D4;transition:all .2s}
+.sdot .n svg{width:14px;height:14px}
+.sdot[data-state="done"] .n{background:var(--forjado);border-color:var(--forjado);color:#fff}
+.sdot[data-state="now"]{color:#fff}
+.sdot[data-state="now"] .n{background:var(--brasa);border-color:var(--brasa);color:#fff;box-shadow:0 0 0 4px rgba(228,87,46,.25)}
+.sdot:not(:disabled):hover{background:rgba(255,255,255,.06)}
+.sline{flex:0 1 26px;height:2px;background:#2F4A68;min-width:6px}
+.sline.on{background:var(--forjado)}
+.tb-tools{display:flex;gap:6px}
+.tb-btn{background:transparent;border:1px solid #3E5C7D;color:#C9D8E6;border-radius:9px;padding:6px 10px;font:600 13px var(--texto);cursor:pointer;display:flex;align-items:center;gap:6px}
+.tb-btn:hover{border-color:var(--brasa);color:#fff}
+.progress{height:4px;background:#1E3550}
+.progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--brasa),#F59E0B);transition:width .4s}
+@media(max-width:960px){.sdot .lbl{display:none}.sdot[data-state="now"] .lbl{display:inline}}
+@media(max-width:720px){
+  .tb-in{flex-wrap:wrap;gap:8px}
+  .stepper{order:3;flex-basis:100%;justify-content:space-between}
+  .sdot[data-state="now"] .lbl{display:none}
+  .tb-btn .lbl{display:none}
+}
+
+/* Pantallas */
+main{max-width:1180px;margin:0 auto;padding:26px 16px 40px}
+.screen{display:none}
+.screen.on{display:block}
+@media(prefers-reduced-motion:no-preference){.screen.on{animation:rise .35s cubic-bezier(.2,.7,.3,1) both}@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}}
+.sh{display:flex;gap:18px;align-items:flex-start;margin:4px 0 22px}
+.sh-ico{width:64px;height:64px;border-radius:18px;background:var(--c,var(--brasa));color:#fff;display:grid;place-items:center;flex:none;box-shadow:0 12px 24px -14px var(--c,var(--brasa))}
+.sh-ico svg{width:32px;height:32px}
+.sh-step{font:600 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--acero-claro);margin:4px 0}
+.sh h2{font-family:var(--display);font-weight:800;font-size:clamp(26px,3.6vw,38px);letter-spacing:-.025em;line-height:1.05;margin:0 0 6px}
+.sh-lede{margin:0;color:var(--gris);font-size:16.5px;max-width:70ch}
+@media(max-width:600px){.sh-ico{width:48px;height:48px;border-radius:14px}.sh-ico svg{width:24px;height:24px}}
+
+.card{background:var(--blanco);border:1px solid var(--linea);border-radius:var(--r);box-shadow:var(--sombra);padding:20px;margin-bottom:18px}
+.card h3{font-family:var(--display);font-weight:700;font-size:19px;letter-spacing:-.01em;margin:0 0 4px;display:flex;align-items:center;gap:9px}
+.card h3 .num{width:26px;height:26px;border-radius:8px;background:var(--tinta);color:#fff;font:700 13px var(--mono);display:grid;place-items:center}
+.card .sub{margin:0 0 14px;color:var(--gris);font-size:14px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.cols{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:20px;align-items:start}
+.sticky{position:sticky;top:96px}
+@media(max-width:900px){.cols{grid-template-columns:1fr}.sticky{position:static}}
+@media(max-width:640px){.grid2{grid-template-columns:1fr}}
+
+label,.lab{display:block;font-size:13.5px;font-weight:600;margin:0 0 6px;color:var(--acero)}
+label small,.lab small{font-weight:500;color:var(--acero-claro)}
+input[type=text],input[type=password],input[type=number],textarea,select{width:100%;padding:11px 13px;border:1.5px solid var(--linea);border-radius:10px;font-family:var(--texto);font-size:15px;color:var(--tinta);background:#fff;transition:border-color .15s,box-shadow .15s}
+input:focus,textarea:focus,select:focus{outline:none;border-color:var(--acero-claro);box-shadow:0 0 0 4px rgba(124,147,172,.18)}
+input.bad{border-color:var(--brasa);box-shadow:0 0 0 4px rgba(228,87,46,.15)}
+textarea{resize:vertical;min-height:96px;line-height:1.5}
+input::placeholder,textarea::placeholder{color:#9DB0C2}
+.field{margin-bottom:16px}
+.help{font-size:12.8px;color:var(--gris);margin:6px 0 0}
+.help b{color:var(--acero)}
+
+button{font-family:var(--texto);cursor:pointer}
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:11px;font-weight:600;font-size:15px;border:1.5px solid transparent;padding:11px 18px;transition:transform .08s,background .15s,border-color .15s;text-decoration:none;line-height:1.2}
+.btn:active{transform:translateY(1px)}
+.btn-primary{background:var(--brasa);color:#fff;box-shadow:0 8px 18px -10px var(--brasa)}
+.btn-primary:hover{background:var(--brasa-osc)}
+.btn-big{font-size:17px;padding:14px 24px;border-radius:13px}
+.btn-dark{background:var(--tinta);color:#fff}
+.btn-dark:hover{background:#1c3656}
+.btn-ghost{background:#fff;border-color:var(--linea);color:var(--acero)}
+.btn-ghost:hover{border-color:var(--acero-claro);background:#F7FAFC}
+.btn-ok{background:var(--forjado);color:#fff}
+.btn-ok:hover{background:#0b6457}
+.btn-word{background:#2B579A;color:#fff}
+.btn-word:hover{background:#1e3f7a}
+.btn-sm{padding:7px 12px;font-size:13.5px;border-radius:9px}
+.btn:disabled{opacity:.55;cursor:not-allowed}
+.actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{background:#fff;border:1.5px solid var(--linea);border-radius:999px;padding:7px 13px;font-size:13.5px;color:var(--acero);cursor:pointer;display:inline-flex;align-items:center;gap:6px;line-height:1.25;text-align:left}
+.chip:hover{border-color:var(--brasa);color:var(--brasa)}
+.chip[aria-pressed="true"]{background:var(--tinta);border-color:var(--tinta);color:#fff}
+.chip.mini-ex{font-size:12.5px;padding:4px 10px;border-style:dashed}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.seg button{border:1.5px solid var(--linea);background:#fff;border-radius:9px;padding:7px 11px;font-size:13.5px;font-weight:600;color:var(--acero)}
+.seg button:hover{border-color:var(--acero-claro)}
+.seg button[aria-pressed="true"]{background:var(--tinta);border-color:var(--tinta);color:#fff}
+
+.meto{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px}
+.meto button{text-align:left;background:#fff;border:1.5px solid var(--linea);border-radius:12px;padding:10px 12px;color:var(--tinta)}
+.meto button b{display:block;font-size:14px}
+.meto button span{display:block;font-size:12.3px;color:var(--gris);line-height:1.35;margin-top:2px}
+.meto button:hover{border-color:var(--acero-claro)}
+.meto button[aria-pressed="true"]{border-color:var(--tinta);box-shadow:0 0 0 2px var(--tinta);background:var(--papel)}
+
+.tip{display:flex;gap:12px;background:#FFF8E6;border:1px solid #F3DDA0;border-radius:12px;padding:13px 15px;font-size:14px;color:#6B4E00;margin-bottom:18px}
+.tip svg{width:22px;height:22px;color:#C98200;flex:none;margin-top:1px}
+.tip strong{color:#523B00}
+.aviso{background:var(--brasa-suave);border:1px solid #F3C7B5;border-radius:12px;padding:13px 15px;font-size:14px;color:var(--aviso);margin-bottom:16px}
+.okbox{background:var(--forjado-suave);border:1px solid #A9DCCF;border-radius:12px;padding:13px 15px;font-size:14px;color:#0B5A4E;margin-bottom:16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+
+/* Inicio */
+.hero{background:var(--tinta);color:#EAF1F7;border-radius:22px;padding:40px 36px;position:relative;overflow:hidden;margin-bottom:26px;box-shadow:var(--sombra-alta)}
+.hero::before{content:"";position:absolute;right:-80px;top:-80px;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(228,87,46,.55),transparent 65%)}
+.hero::after{content:"";position:absolute;left:30%;bottom:-140px;width:420px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(14,140,122,.35),transparent 65%)}
+.hero>*{position:relative;z-index:1}
+@media(max-width:600px){.hero{padding:28px 20px;border-radius:18px}}
+.eyebrow{font:600 11.5px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:#8FA7BE;margin:0 0 14px}
+.hero h1{font-family:var(--display);font-weight:800;font-size:clamp(34px,5.4vw,58px);line-height:.98;letter-spacing:-.035em;margin:0 0 16px;max-width:17ch}
+.hero h1 em{font-style:normal;color:var(--brasa)}
+.hero p.lede{max-width:62ch;font-size:18px;color:#C3D3E2;margin:0 0 24px}
+.hero .actions .btn-ghost{background:transparent;color:#fff;border-color:#4A6787}
+.hero .actions .btn-ghost:hover{border-color:#fff}
+.draft{margin-top:18px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);border-radius:12px;padding:12px 14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;font-size:14.5px}
+.sec-title{font-family:var(--display);font-weight:800;font-size:24px;letter-spacing:-.02em;margin:34px 0 6px}
+.sec-sub{color:var(--gris);margin:0 0 16px}
+.journey{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.jstop{background:#fff;border:1px solid var(--linea);border-radius:14px;padding:16px;position:relative}
+.jstop .ji{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;color:#fff;background:var(--c);margin-bottom:10px}
+.jstop .ji svg{width:20px;height:20px}
+.jstop b{display:block;font-size:15px;margin-bottom:2px}
+.jstop span{display:block;font-size:13px;color:var(--gris);line-height:1.45}
+.jstop .jn{position:absolute;top:12px;right:14px;font:700 12px var(--mono);color:var(--acero-claro)}
+@media(max-width:900px){.journey{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.journey{grid-template-columns:1fr}}
+
+.parts{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.part{display:flex;gap:12px;align-items:flex-start;background:#fff;border:1px solid var(--linea);border-radius:12px;padding:12px 14px}
+.part .pi{width:34px;height:34px;border-radius:10px;background:color-mix(in srgb,var(--c) 14%,#fff);color:var(--c);display:grid;place-items:center;flex:none}
+.part b{display:block;font-size:14.5px}
+.part span{display:block;font-size:12.8px;color:var(--gris);line-height:1.4}
+
+.examples{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.excard{background:#fff;border:1px solid var(--linea);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:8px;box-shadow:var(--sombra);position:relative;overflow:hidden;text-align:left;font:inherit;color:inherit;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.excard:hover{transform:translateY(-3px);box-shadow:var(--sombra-alta)}
+.excard::before{content:"";position:absolute;left:0;top:0;right:0;height:5px;background:var(--c)}
+.excard .emo{font-size:32px;line-height:1}
+.excard .area{font:700 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--acero-claro)}
+.excard b{font-family:var(--display);font-size:18px;letter-spacing:-.01em;line-height:1.15}
+.excard p{margin:0;font-size:13.5px;color:var(--gris);flex:1}
+.badge{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:700;color:var(--c);background:color-mix(in srgb,var(--c) 12%,#fff);border-radius:999px;padding:3px 9px;align-self:flex-start}
+
+/* Clave */
+.keyrow{display:flex;gap:8px}
+.keyrow input{flex:1;font-family:var(--mono);font-size:14px}
+.eye{width:46px;flex:none;border:1.5px solid var(--linea);background:#fff;border-radius:10px;color:var(--acero);display:grid;place-items:center}
+.light{display:flex;align-items:center;gap:10px;padding:12px 14px;border-radius:12px;background:var(--papel);margin-top:14px;font-size:14.5px;font-weight:600}
+.light .bulbo{width:14px;height:14px;border-radius:50%;background:#B8C5D3;box-shadow:0 0 0 4px rgba(184,197,211,.3);flex:none}
+.light[data-s="ok"] .bulbo{background:#16A34A;box-shadow:0 0 0 4px rgba(22,163,74,.22)}
+.light[data-s="err"] .bulbo{background:var(--brasa);box-shadow:0 0 0 4px rgba(228,87,46,.22)}
+.light[data-s="wait"] .bulbo{background:#F59E0B;box-shadow:0 0 0 4px rgba(245,158,11,.25)}
+.olsteps{list-style:none;padding:0;margin:0;counter-reset:o;display:flex;flex-direction:column;gap:12px}
+.olsteps li{counter-increment:o;display:flex;gap:12px;font-size:14.5px;align-items:flex-start}
+.olsteps li::before{content:counter(o);width:28px;height:28px;border-radius:50%;background:var(--brasa-suave);color:var(--brasa);font:700 13px var(--mono);display:grid;place-items:center;flex:none}
+
+/* Acordeones */
+.acc{background:#fff;border:1px solid var(--linea);border-radius:var(--r);margin-bottom:12px;box-shadow:var(--sombra);overflow:hidden}
+.acc>summary{list-style:none;cursor:pointer;padding:15px 18px;display:flex;align-items:center;gap:12px}
+.acc>summary::-webkit-details-marker{display:none}
+.acc>summary .ai{width:36px;height:36px;border-radius:10px;background:var(--papel);color:var(--acero);display:grid;place-items:center;flex:none}
+.acc[open]>summary .ai{background:var(--tinta);color:#fff}
+.acc>summary b{font-family:var(--display);font-size:17px;display:block}
+.acc>summary small{display:block;color:var(--gris);font-size:13px}
+.acc>summary .chev{margin-left:auto;transition:transform .2s;color:var(--acero-claro)}
+.acc[open]>summary .chev{transform:rotate(180deg)}
+.acc .inner{padding:4px 18px 18px;border-top:1px solid var(--linea-2)}
+.acc .inner>*:first-child{margin-top:14px}
+.prompt-ta{font-family:var(--mono);font-size:12.3px;min-height:130px;background:#FBFDFE}
+
+/* Resumen lateral */
+.sum h3{margin-bottom:10px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
+.stat{background:var(--papel);border-radius:12px;padding:10px 12px}
+.stat b{display:block;font:800 24px var(--display);letter-spacing:-.02em;line-height:1.1}
+.stat span{font-size:12.3px;color:var(--gris)}
+.checks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:14px}
+.checks li{display:flex;gap:9px;align-items:center;color:var(--gris)}
+.checks li .ck{width:20px;height:20px;border-radius:50%;border:2px solid var(--linea);display:grid;place-items:center;flex:none}
+.checks li.on{color:var(--tinta)}
+.checks li.on .ck{background:var(--forjado);border-color:var(--forjado);color:#fff}
+.checks li .ck svg{width:12px;height:12px}
+.docname{margin-top:14px;padding:11px 13px;border-radius:11px;background:var(--tinta);color:#C3D3E2;font-size:13.5px}
+.docname b{color:#fff}
+
+/* Generación */
+.agents{display:flex;flex-direction:column;gap:10px}
+.agent{background:#fff;border:1px solid var(--linea);border-radius:var(--r);box-shadow:var(--sombra);overflow:hidden;transition:border-color .2s}
+.agent-h{display:flex;align-items:center;gap:14px;padding:14px 16px;cursor:pointer}
+.agent .ai{width:42px;height:42px;border-radius:12px;background:color-mix(in srgb,var(--c) 14%,#fff);color:var(--c);display:grid;place-items:center;flex:none;transition:all .2s}
+.agent .ai svg{width:20px;height:20px}
+.agent-t{flex:1;min-width:0}
+.agent-t b{display:block;font-family:var(--display);font-size:16.5px}
+.agent-t span{display:block;font-size:13px;color:var(--gris)}
+.pill{font-size:12.5px;font-weight:700;border-radius:999px;padding:4px 10px;background:var(--linea-2);color:var(--gris);white-space:nowrap}
+.agent[data-s="run"]{border-color:#F59E0B}
+.agent[data-s="run"] .ai{background:var(--c);color:#fff;animation:pulse 1s infinite alternate}
+.agent[data-s="run"] .pill{background:#FFF1D6;color:#8A5A00}
+.agent[data-s="ok"] .ai{background:var(--c);color:#fff}
+.agent[data-s="ok"] .pill{background:var(--forjado-suave);color:var(--forjado)}
+.agent[data-s="err"]{border-color:var(--brasa)}
+.agent[data-s="err"] .pill{background:var(--brasa-suave);color:var(--brasa)}
+.agent-b{display:none;padding:4px 18px 16px 72px;font-size:14px;border-top:1px solid var(--linea-2);background:#FBFDFE}
+.agent.open .agent-b{display:block}
+@media(max-width:600px){.agent-b{padding-left:18px}}
+@keyframes pulse{from{transform:scale(1);box-shadow:0 0 0 0 rgba(228,87,46,.5)}to{transform:scale(1.06);box-shadow:0 0 0 10px rgba(228,87,46,0)}}
+.forging{display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:14px;background:var(--tinta);color:#fff;margin-bottom:16px}
+.forging .spark{width:44px;height:44px;border-radius:12px;background:var(--brasa);display:grid;place-items:center;flex:none;animation:pulse 1s infinite alternate}
+.forging.done .spark{background:var(--forjado);animation:none}
+.forging.err .spark{animation:none}
+.forging b{font-family:var(--display);font-size:18px;display:block}
+.forging span{font-size:14px;color:#C3D3E2}
+.mini-list{margin:10px 0 0;padding:0;list-style:none}
+.mini-list li{padding:5px 0;border-bottom:1px solid var(--linea-2)}
+.mini-list li:last-child{border-bottom:0}
+.code{display:inline-block;font:700 11px var(--mono);border-radius:5px;padding:1px 6px;margin-right:6px;background:var(--linea-2);color:var(--acero)}
+
+/* Guía */
+.res-head{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-bottom:16px}
+.res-head h2{font-family:var(--display);font-weight:800;font-size:clamp(24px,3vw,32px);letter-spacing:-.02em;margin:0;flex:1;min-width:240px;line-height:1.1}
+.doc{background:#fff;border:1px solid var(--linea);border-radius:18px;box-shadow:var(--sombra-alta);padding:40px 44px;max-width:900px;margin:0 auto}
+@media(max-width:700px){.doc{padding:22px 16px}}
+.doc-h{border-bottom:3px solid var(--tinta);padding-bottom:18px;margin-bottom:26px}
+.doc-kind{font:600 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--brasa);margin:0 0 6px}
+.doc-h h1{font-family:var(--display);font-weight:800;font-size:clamp(26px,3.4vw,36px);letter-spacing:-.025em;line-height:1.05;margin:0 0 12px}
+.meta{display:flex;flex-wrap:wrap;gap:6px}
+.meta span{font-size:12.8px;font-weight:600;background:var(--papel);color:var(--acero);border-radius:999px;padding:4px 11px}
+.dsec{margin-bottom:28px}
+.dsec h2{font-family:var(--display);font-weight:700;font-size:20px;letter-spacing:-.01em;margin:0 0 10px;display:flex;align-items:center;gap:10px}
+.dsec h2 .num{width:28px;height:28px;border-radius:8px;background:var(--tinta);color:#fff;font:700 13px var(--mono);display:grid;place-items:center;flex:none}
+.dsec p{margin:0 0 10px;max-width:75ch}
+.sublab{font-size:13px;font-weight:700;color:var(--acero-claro);margin:14px 0 6px}
+.row{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid var(--linea-2);font-size:14.5px;align-items:flex-start}
+.row:last-child{border-bottom:0}
+.row .code{margin-top:2px;flex:none}
+.code.cg{background:#E6F0FA;color:var(--c-ctx)}
+.code.ce{background:#EEEAFB;color:var(--c-comp)}
+.code.bl{background:var(--forjado-suave);color:var(--forjado)}
+.code.tm{background:var(--tinta);color:#fff}
+.row .hrs{margin-left:auto;font-size:12.5px;color:var(--gris);white-space:nowrap}
+.blk{font-weight:700;margin:16px 0 4px;display:flex;gap:8px;align-items:baseline}
+.blk small{font-weight:500;color:var(--gris)}
+.tbl-wrap{overflow-x:auto}
+table.t{width:100%;border-collapse:collapse;font-size:14px}
+table.t th{background:var(--tinta);color:#fff;text-align:left;padding:9px 11px;font-size:12.5px;font-weight:700}
+table.t td{padding:9px 11px;border-bottom:1px solid var(--linea-2);vertical-align:top}
+table.t tr:nth-child(even) td{background:#FAFCFE}
+.peso{font-weight:800;color:var(--brasa);white-space:nowrap}
+.note{margin-top:12px;padding:11px 14px;background:var(--papel);border-left:4px solid var(--forjado);border-radius:8px;font-size:14px}
+.demo-flag{background:#FFF8E6;border:1px solid #F3DDA0;color:#6B4E00;border-radius:12px;padding:11px 15px;font-size:14px;margin:0 auto 16px;max-width:900px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.demo-flag svg{color:#C98200}
+
+/* Navegación inferior */
+.bottomnav{position:fixed;left:0;right:0;bottom:0;z-index:35;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--linea)}
+.bn-in{max-width:1180px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:12px}
+.bn-hint{flex:1;text-align:center;font-size:14px;color:var(--gris)}
+.bn-hint b{color:var(--tinta)}
+@media(max-width:600px){.bn-hint{display:none}.bn-in{justify-content:space-between}}
+
+/* Modal */
+.modal{position:fixed;inset:0;z-index:60;background:rgba(15,34,55,.55);display:none;align-items:flex-start;justify-content:center;padding:6vh 16px;overflow:auto}
+.modal.on{display:flex}
+.modal-box{background:#fff;border-radius:18px;max-width:760px;width:100%;box-shadow:var(--sombra-alta);overflow:hidden}
+.modal-head{display:flex;align-items:center;gap:12px;padding:16px 20px;background:var(--tinta);color:#fff}
+.modal-head h2{font-family:var(--display);font-size:22px;margin:0;flex:1}
+.modal-head button{background:transparent;border:1px solid #4A6787;color:#fff;border-radius:9px;padding:6px 10px}
+.modal-body{padding:18px 20px 22px}
+.glos{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:600px){.glos{grid-template-columns:1fr}}
+.glos div{background:var(--papel);border-radius:12px;padding:12px 14px}
+.glos b{display:block;font-family:var(--display);font-size:16px;margin-bottom:2px}
+.glos span{font-size:13.8px;color:var(--acero)}
+.hist{display:flex;align-items:center;gap:12px;padding:12px 14px;border:1px solid var(--linea);border-radius:12px;margin-bottom:8px}
+.hist-t{flex:1;min-width:0;cursor:pointer}
+.hist-t b{display:block;font-size:15px}
+.hist-t span{font-size:12.8px;color:var(--gris)}
+.hist:hover{border-color:var(--acero-claro)}
+.iconbtn{width:34px;height:34px;border-radius:9px;border:1.5px solid var(--linea);background:#fff;color:var(--acero);display:grid;place-items:center;padding:0}
+.iconbtn:hover{border-color:var(--brasa);color:var(--brasa)}
+.empty{text-align:center;color:var(--gris);padding:30px 10px}
+
+.toast{position:fixed;left:50%;bottom:96px;transform:translateX(-50%) translateY(20px);background:var(--tinta);color:#fff;padding:11px 18px;border-radius:12px;font-size:14.5px;font-weight:600;opacity:0;pointer-events:none;transition:all .25s;z-index:70;max-width:90vw;text-align:center;box-shadow:var(--sombra-alta)}
+.toast.on{opacity:1;transform:translateX(-50%)}
+footer{max-width:1180px;margin:0 auto;padding:0 16px 30px;font-size:13px;color:#6E8299}
+footer hr{border:0;border-top:1px solid var(--linea);margin:0 0 14px}
+
+@media print{
+  body{background:#fff;padding:0}
+  .topbar,.bottomnav,.res-head,.demo-flag,.okbox,footer,.toast,.modal{display:none!important}
+  main{padding:0;max-width:none}
+  .screen{display:none!important}
+  
+  .doc{box-shadow:none;border:0;padding:0;max-width:none}
+  .dsec{break-inside:avoid-page}
+  table.t th{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+/* ══ v2 ══ */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(max-width:640px){.grid3{grid-template-columns:1fr}}
+.feats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+@media(max-width:960px){.feats{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.feats{grid-template-columns:1fr}}
+.feat{background:#fff;border:1px solid var(--linea);border-radius:14px;padding:16px;border-top:4px solid var(--c)}
+.feat .pi{width:38px;height:38px;border-radius:11px;background:color-mix(in srgb,var(--c) 14%,#fff);color:var(--c);display:grid;place-items:center;margin-bottom:10px}
+.feat b{display:block;font-family:var(--display);font-size:17px;margin-bottom:3px}
+.feat span{display:block;font-size:13.5px;color:var(--gris);line-height:1.45}
+.importbar{display:flex;gap:14px;align-items:center;flex-wrap:wrap;background:var(--tinta);color:#EAF1F7;border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
+.importbar .pi{width:40px;height:40px;border-radius:11px;background:var(--brasa);display:grid;place-items:center;flex:none}
+.importbar b{display:block;font-size:15px}
+.importbar span{display:block;font-size:13.3px;color:#A9C0D4}
+.importbar .btn-dark{background:#fff;color:var(--tinta)}
+.importbar .btn-dark:hover{background:#EAF1F7}
+.inacc{border-top:1px solid var(--linea-2);margin-top:4px;padding-top:12px}
+.inacc>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;font-size:14px;font-weight:600;color:var(--acero)}
+.inacc>summary::-webkit-details-marker{display:none}
+.inacc>summary .chev{margin-left:auto;transition:transform .2s;color:var(--acero-claro)}
+.inacc[open]>summary .chev{transform:rotate(180deg)}
+.rec{display:inline-block;font:700 11px var(--texto);background:var(--forjado-suave);color:var(--forjado);border-radius:999px;padding:2px 8px;vertical-align:2px;margin-left:4px}
+.checkgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media(max-width:560px){.checkgrid{grid-template-columns:1fr}}
+.checkgrid label{display:flex;gap:9px;align-items:center;margin:0;padding:9px 11px;border-radius:10px;background:var(--papel);font-weight:500;color:var(--tinta);cursor:pointer;font-size:14px}
+.checkgrid input{width:18px;height:18px;accent-color:var(--forjado);margin:0}
+.checkgrid label:has(input:checked){background:var(--forjado-suave)}
+.drop{display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center;border:2px dashed var(--linea);border-radius:14px;padding:24px;cursor:pointer;color:var(--acero);margin:0;font-weight:500}
+.drop svg{width:30px;height:30px;color:var(--brasa)}
+.drop b{font-size:15px;color:var(--tinta)}
+.drop span{font-size:13px;color:var(--gris)}
+.drop.over,.drop:hover{border-color:var(--brasa);background:var(--brasa-suave)}
+
+
+
+/* selector de idioma (65-i18n) */
+.tb-lang{display:flex;align-items:center}.tb-sel{background:transparent;border:1px solid #3E5C7D;color:#C9D8E6;border-radius:9px;padding:6px 8px;font:600 13px var(--texto);cursor:pointer;max-width:120px}.tb-sel:hover{border-color:var(--brasa);color:#fff}.tb-sel:focus-visible{outline:2px solid var(--brasa);outline-offset:2px}.tb-sel option{color:#0F2237;background:#fff}
+/* ══ Estilos propios de la app (se añaden a forja-base.css). Prefijo fa- para no chocar con clases de Forja ══ */
+.logo .anv{background:linear-gradient(135deg,var(--brasa),#C98200)}
+.hero{padding:44px 38px 30px}.hero h1{max-width:20ch}.fa-inicio{margin:14px 0 0;font-size:14px;color:#C3D3E2}.fa-inicio:empty{display:none}.fa-inicio b{color:#fff}
+/* autores con ORCID */
+.fa-autores{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:24px;padding-top:20px;border-top:1px solid rgba(255,255,255,.14)}.fa-autores-cap{font:600 11px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:#8FA7BE;width:100%;margin-bottom:-4px}
+.fa-autor{display:flex;gap:11px;align-items:center}.fa-autor b{display:block;color:#fff;font:700 16px var(--display)}.fa-autor small{display:block;color:#9DB6CD;font-size:12.5px;max-width:34ch}.fa-av{width:44px;height:44px;border-radius:14px;background:var(--c);color:#fff;display:grid;place-items:center;font:800 15px var(--display);flex:none;box-shadow:0 10px 20px -12px var(--c)}.fa-x{font:300 26px var(--display);color:#5D7C9B}
+.fa-orcid{display:block;margin-top:2px;font:600 11.5px var(--mono);letter-spacing:.02em;color:#7FD6C4!important;text-decoration:none}.fa-orcid:hover{text-decoration:underline}.fa-idea{width:100%;margin:2px 0 0;font-size:13px;color:#9DB6CD;max-width:72ch}
+/* zonas «dónde va cada cosa» */
+.zonas{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:760px){.zonas{grid-template-columns:1fr}}.zona{border-radius:16px;padding:14px 16px;border:2px solid}.zona.l{border-color:#9FD9C4;background:var(--forjado-suave)}.zona.n{border-color:#E9C46A;background:#FFF8E6}.zona h4{margin:0 0 6px;font-family:var(--display);font-size:18px}.zona ul{margin:0;padding-left:18px;font-size:14px;line-height:1.7}
+.sec-title+.zonas,.sec-title+.journey{margin-top:14px}
+/* formularios y utilidades */
+.field input[type=text],.field input[type=number],.field select,.field textarea{width:100%;padding:10px 12px;border:1.5px solid var(--linea);border-radius:10px;font:15px var(--texto);background:#fff;color:var(--tinta)}.field textarea{line-height:1.55;resize:vertical}.field label{display:block;font:700 13px var(--texto);color:var(--acero);margin-bottom:5px}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--brasa);box-shadow:0 0 0 3px rgba(228,87,46,.18)}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:760px){.grid3,.grid2{grid-template-columns:1fr}}
+.card .actions{margin-top:12px}.card h3{margin-top:0}.fa-chk{display:flex;gap:8px;align-items:center;font:500 14.5px var(--texto);cursor:pointer}
+.fa-chip{display:inline-block;font:700 11.5px var(--texto);border-radius:999px;padding:3px 10px;background:var(--linea-2);color:var(--acero)}.fa-chip.ok{background:var(--forjado-suave);color:#0B5A4E}.fa-chip.aviso{background:#FFF1D6;color:#7A4B00}.fa-chip.error{background:var(--brasa-suave);color:var(--aviso)}
+.fa-pre{white-space:pre-wrap;font:12.5px/1.5 var(--mono);background:#0B1C2E;color:#D6E4F0;border-radius:12px;padding:12px;max-height:300px;overflow:auto}
+.spin{display:inline-block;width:14px;height:14px;border:2px solid var(--linea);border-top-color:var(--brasa);border-radius:50%;animation:fa-s .8s linear infinite;vertical-align:-2px}@keyframes fa-s{to{transform:rotate(360deg)}}
+.fa-foot{max-width:1180px;margin:10px auto 0;padding:0 16px 110px}.fa-foot hr{border:0;border-top:1px solid var(--linea);margin:0 0 16px}.fa-foot p{margin:0;font-size:12.8px;color:#6E8299;max-width:76ch;line-height:1.55}
+.glos div{display:block;margin-bottom:12px}.glos b{display:block}
+table{border-collapse:collapse;width:100%;font-size:13.8px}th{background:var(--papel);color:var(--acero);font:700 11px var(--mono);letter-spacing:.07em;text-transform:uppercase;text-align:left}td,th{padding:10px 12px;border-bottom:1px solid var(--linea-2);vertical-align:top}.table-wrap{overflow-x:auto}
+/* barra superior con muchos pasos: solo el actual lleva nombre (evita desbordes) */
+.tb-in{gap:10px}.stepper{min-width:0;flex:1 1 auto;justify-content:center;gap:2px}.sdot:not([data-state="now"]) .lbl{display:none}.sdot{padding-left:4px;padding-right:4px}.sline{min-width:8px;flex:0 1 22px}.logo,.tb-tools{flex:none}
+@media(max-width:900px){.tb-btn .lbl{display:none}}@media(max-width:720px){.hero{padding:28px 20px 24px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+/* ══ PAUsible ══ */
+.logo .anv{background:linear-gradient(135deg,#6B4FD8,#E4572E)}
+.reto{border:2px solid #6B4FD8;background:#F3EFFF}.reto b{font-family:var(--display);font-size:18px}
+.ccaa-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px}
+.ccaa-grid button{min-height:48px;text-align:left;padding:10px 14px;border-radius:12px;border:1.5px solid var(--linea);background:#fff;font:600 14.5px var(--texto);color:var(--tinta);cursor:pointer}
+.ccaa-grid button[aria-checked="true"]{border-color:#6B4FD8;background:#F3EFFF;box-shadow:inset 0 0 0 1px #6B4FD8}
+.ccaa-grid button:focus-visible,.pa-sol summary:focus-visible{outline:3px solid #6B4FD8;outline-offset:2px}
+.ccaa-grid small{display:block;font-weight:500;color:var(--acero);font-size:12px}
+.cuenta{margin-top:12px;font:700 22px var(--display);color:#2A1A6E}.cuenta:empty{display:none}.cuenta small{display:block;font:500 13px var(--texto);color:var(--acero)}
+.pa-tema{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:12px 0;border-bottom:1px solid var(--linea-2)}.pa-tema:last-child{border-bottom:0}
+.pa-tema b{font-size:15.5px}.pa-p{font:800 20px var(--display);color:#2A1A6E;text-align:right}
+.pa-bar{grid-column:1/-1;height:10px;border-radius:99px;background:var(--linea-2);overflow:hidden}.pa-bar span{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#6B4FD8,#E4572E)}
+.pa-meta{grid-column:1/-1;font-size:13px;color:var(--acero)}.pa-muestra{grid-column:1/-1;font-size:13px;background:var(--papel);border-left:3px solid #6B4FD8;padding:8px 10px;border-radius:6px;margin-top:4px}
+.pa-preg{margin-bottom:14px}.pa-preg h3{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}.pa-enun{white-space:pre-wrap;line-height:1.6;font-size:15.5px}
+.pa-sol{margin-top:12px;border:1.5px solid var(--linea);border-radius:12px;padding:0 14px}.pa-sol summary{cursor:pointer;padding:12px 0;font-weight:700;min-height:44px}
+.pa-sol .md{padding-bottom:12px;line-height:1.6}.pa-auto{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:10px}.pa-auto input{width:90px;padding:8px;border:1.5px solid var(--linea);border-radius:8px;font:16px var(--texto)}
+.pa-nota{font:800 54px var(--display);color:#2A1A6E}
+.comp{display:grid;grid-template-columns:minmax(0,320px) 1fr;gap:22px;align-items:start}@media(max-width:760px){.comp{grid-template-columns:1fr}}
+.tarjeta{width:100%;max-width:320px;aspect-ratio:9/16;border-radius:18px;box-shadow:var(--sombra)}
+.pa-rank{display:grid;grid-template-columns:28px 1fr auto;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid var(--linea-2)}.pa-rank:last-child{border-bottom:0}.pa-rank span:first-child{font:800 16px var(--display);color:#6B4FD8}
+.pa-crono{font:800 28px var(--mono);color:#2A1A6E}
+</style></head>
+<body>
+<svg style="display:none" aria-hidden="true">
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="7.5" cy="15.5" r="5.5"/><path d="m21 2-9.6 9.6"/><path d="m15.5 7.5 3 3L22 7l-3-3"/></symbol>
+  <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></symbol>
+  <symbol id="i-pencil" viewBox="0 0 24 24"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/></symbol>
+  <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m10 8 6 4-6 4z"/></symbol>
+  <symbol id="i-rocket" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 13h5"/></symbol>
+  <symbol id="i-quiz" viewBox="0 0 24 24"><path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8M13 12h8M13 18h8"/></symbol>
+  <symbol id="i-cards" viewBox="0 0 24 24"><rect x="8" y="8" width="14" height="14" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></symbol>
+  <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6M10 22h4"/></symbol>
+  <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3M12 17h.01"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></symbol>
+  <symbol id="i-upload" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></symbol>
+  <symbol id="i-save" viewBox="0 0 24 24"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><path d="M17 21v-8H7v8M7 3v5h8"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></symbol>
+  <symbol id="i-archive" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="5" rx="1"/><path d="M4 8v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8M10 12h4"/></symbol>
+  <symbol id="i-bookmark" viewBox="0 0 24 24"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+  <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 3v4M17 5h4M5 17v4M3 19h4"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="m18 15-6-6-6 6"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></symbol>
+  <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></symbol>
+  <symbol id="i-form" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></symbol>
+  <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></symbol>
+  <symbol id="i-tablet" viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M12 18h.01"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M12 18h.01"/></symbol>
+  <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></symbol>
+  <symbol id="i-flame" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.07-2.14-.22-4.05 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.15.43-2.29 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></symbol>
+  <symbol id="i-folder" viewBox="0 0 24 24"><path d="M6 14l1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 24 24"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><path d="M9 7h7M9 11h5"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+  <symbol id="i-print" viewBox="0 0 24 24"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+  <symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18M7 21h10M5 7h14M5 7l-3 7a3 3 0 0 0 6 0zM19 7l-3 7a3 3 0 0 0 6 0z"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></symbol>
+<symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+<symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></symbol>
+</svg>
+<div class="topbar">
+  <div class="tb-in">
+    <button class="logo" id="goHome" type="button" aria-label="Inicio" data-i18n-attr="aria-label:Inicio"><span class="anv"><svg class="i"><use href="#i-sparkles"/></svg></span><span>PAUsible</span></button>
+    <nav class="stepper" id="stepper" aria-label="Pasos" data-i18n-attr="aria-label:Pasos"></nav>
+    <div class="tb-tools"><div class="tb-lang" id="langBox"><select id="selLang" class="tb-sel" aria-label="Idioma" data-i18n-attr="aria-label:Idioma"></select></div><button class="tb-btn" id="btnIA" type="button"><svg class="i"><use href="#i-key"/></svg><span class="lbl" data-i18n="IA">IA</span></button><button class="tb-btn" id="btnHelp" type="button"><svg class="i"><use href="#i-help"/></svg><span class="lbl" data-i18n="Ayuda">Ayuda</span></button></div>
+  </div>
+  <div class="progress"><span id="progBar"></span></div>
+</div>
+
+<main id="app">
+<!-- 0 · INICIO -->
+<section class="screen" data-step="0">
+  <div class="card reto" id="retoBanner" hidden></div>
+  <div class="hero">
+    <p class="eyebrow" data-i18n="hero.eyebrow">Selectividad 2027 · 17 comunidades · exámenes oficiales 2022-2026</p>
+    <h1 data-i18n="hero.h1">Tu examen de la PAU 2027, <em>el más PAUsible</em></h1>
+    <p class="lede" data-i18n="hero.lede">Elige tu comunidad y tu materia. PAUsible analiza los exámenes oficiales de los últimos cinco años, te dice qué temas tienen más probabilidad de caer y te da un examen probable con la solución comprobada.</p>
+    <div class="actions"><button class="btn btn-primary btn-big" id="btnStart" type="button"><svg class="i"><use href="#i-play"/></svg><span data-i18n="s.elegir">Elegir mi comunidad</span></button><button class="btn btn-ghost btn-big" id="btnEjemplo" type="button"><svg class="i"><use href="#i-eye"/></svg><span data-i18n="s.ejemplo">Ver un ejemplo</span></button><button class="btn btn-ghost btn-big" id="btnRanking" type="button"><svg class="i"><use href="#i-chart"/></svg><span data-i18n="s.ranking">Ranking de España</span></button></div>
+    <p class="fa-inicio" id="inicioProj"></p>
+    <p class="help" id="estadoDatos"></p>
+    <div class="fa-autores"><span class="fa-autores-cap" data-i18n="Realizada por">Realizada por</span>
+      <div class="fa-autor"><span class="fa-av" style="--c:#E4572E">FB</span><div><b>Fernando Borrás Rocher</b><small>Universidad Miguel Hernández de Elche</small><a class="fa-orcid" href="https://orcid.org/0000-0002-5519-4573" target="_blank" rel="noopener">ORCID 0000-0002-5519-4573</a></div></div>
+      </div>
+  </div>
+  <h2 class="sec-title" data-i18n="Cómo funciona">Cómo funciona</h2>
+  <div class="journey" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr))">
+    <div class="jstop" style="--c:#6B4FD8"><span class="jn">1</span><div class="ji"><svg class="i"><use href="#i-search"/></svg></div><b data-i18n="s.j1b">Leemos los exámenes oficiales</b><span data-i18n="s.j1s">Todos los publicados por tu comunidad entre 2022 y 2026, con enlace al PDF original.</span></div>
+    <div class="jstop" style="--c:#E4572E"><span class="jn">2</span><div class="ji"><svg class="i"><use href="#i-chart"/></svg></div><b data-i18n="s.j2b">Calculamos la probabilidad</b><span data-i18n="s.j2s">Frecuencia, tendencia y rotación de cada tema, y comprobamos si el método habría acertado el año pasado.</span></div>
+    <div class="jstop" style="--c:#0E8C7A"><span class="jn">3</span><div class="ji"><svg class="i"><use href="#i-check"/></svg></div><b data-i18n="s.j3b">Examen probable, resuelto dos veces</b><span data-i18n="s.j3s">Dos IA lo resuelven por separado y solo se publica lo que coincide (y, en cálculo, lo que confirma el código).</span></div>
+  </div>
+  <h2 class="sec-title" data-i18n="Dónde va cada cosa">Dónde va cada cosa</h2>
+  <div class="zonas"><div class="zona l"><h4 data-i18n="Siempre en tu ordenador">Siempre en tu ordenador</h4><ul data-i18n="s.zl">
+<li>Tu comunidad, tus materias y tus notas de simulacro</li><li>Tu clave de IA, si decides usar una</li><li>La tarjeta que compartes: se dibuja en tu móvil</li></ul></div>
+    <div class="zona n"><h4 data-i18n="Sale hacia tu proveedor de IA">Sale hacia tu proveedor de IA</h4><ul data-i18n="s.zn">
+<li>Solo si generas un examen nuevo con tu propia clave: la materia, la comunidad y la lista de temas</li><li>Nada personal: no hay registro ni datos tuyos</li></ul></div></div>
+</section>
+
+<!-- 1 · TU PAU -->
+<section class="screen" data-step="1">
+  <header class="sh" style="--c:#6B4FD8"><div class="sh-ico"><svg class="i"><use href="#i-pin"/></svg></div><div><p class="sh-step" data-i18n="s.paso1">Paso 1 de 4</p><h2 data-i18n="s.tupau">Tu PAU</h2><p class="sh-lede" data-i18n="s.tupau.lede">Elige la comunidad donde te examinas y la materia.</p></div></header>
+  <div class="card"><h3 data-i18n="Comunidad autónoma">Comunidad autónoma</h3><div class="ccaa-grid" id="ccaaGrid" role="radiogroup" aria-label="Comunidad autónoma" data-i18n-attr="aria-label:Comunidad autónoma"></div></div>
+  <div class="card"><div class="field"><label for="selMat" data-i18n="Materia">Materia</label><select id="selMat"></select></div><p class="help" id="matInfo"></p><div class="cuenta" id="cuenta"></div></div>
+</section>
+
+<!-- 2 · PREDICCIÓN -->
+<section class="screen" data-step="2">
+  <header class="sh" style="--c:#E4572E"><div class="sh-ico"><svg class="i"><use href="#i-chart"/></svg></div><div><p class="sh-step" data-i18n="s.paso2">Paso 2 de 4</p><h2 id="predTit" data-i18n="Predicción">Predicción</h2><p class="sh-lede" data-i18n="s.pred.lede">Probabilidad de que cada tema aparezca en tu examen de 2027. Ningún tema baja del 5 %: esto ordena tu estudio, no te autoriza a saltarte temas.</p></div></header>
+  <div class="card" id="predAviso"></div>
+  <div class="card" id="predTemas"></div>
+  <div class="card" id="predValid"></div>
+  <div class="card" id="predFuentes"></div>
+</section>
+
+<!-- 3 · EXAMEN PROBABLE -->
+<section class="screen" data-step="3">
+  <header class="sh" style="--c:#0E8C7A"><div class="sh-ico"><svg class="i"><use href="#i-pencil"/></svg></div><div><p class="sh-step" data-i18n="s.paso3">Paso 3 de 4</p><h2 data-i18n="Examen probable">Examen probable</h2><p class="sh-lede" data-i18n="s.ex.lede">Hazlo en 90 minutos, sin mirar. Después abre cada solución, ponte nota con los criterios y compártela.</p></div></header>
+  <div class="card" id="exCab"></div>
+  <div id="exPreg"></div>
+  <div class="card" id="exNota"></div>
+</section>
+
+<!-- 4 · COMPARTE -->
+<section class="screen" data-step="4">
+  <header class="sh" style="--c:#C2185B"><div class="sh-ico"><svg class="i"><use href="#i-share"/></svg></div><div><p class="sh-step" data-i18n="s.paso4">Paso 4 de 4</p><h2 data-i18n="Comparte y reta">Comparte y reta</h2><p class="sh-lede" data-i18n="s.comp.lede">Tu tarjeta para historias y un enlace para retar a tus amigos con el mismo examen.</p></div></header>
+  <div class="card comp"><canvas id="cvTarjeta" class="tarjeta" aria-label="Tarjeta para compartir" data-i18n-attr="aria-label:Tarjeta para compartir"></canvas>
+    <div><div class="actions" style="margin-top:0;flex-direction:column;align-items:stretch">
+      <button class="btn btn-primary" id="btnShare" type="button"><svg class="i"><use href="#i-share"/></svg><span data-i18n="Compartir tarjeta">Compartir tarjeta</span></button>
+      <button class="btn btn-ghost" id="btnPng" type="button"><svg class="i"><use href="#i-download"/></svg><span data-i18n="Descargar imagen">Descargar imagen</span></button>
+      <a class="btn btn-ghost" id="btnWa" target="_blank" rel="noopener"><span data-i18n="Retar por WhatsApp">Retar por WhatsApp</span></a>
+      <button class="btn btn-ghost" id="btnLink" type="button"><span data-i18n="Copiar enlace de reto">Copiar enlace de reto</span></button></div>
+      <p class="help" id="compTxt"></p></div></div>
+</section>
+
+<!-- 5 · RANKING (sección fuera del recorrido) -->
+<section class="screen" data-step="5">
+  <header class="sh" style="--c:#2A1A6E"><div class="sh-ico"><svg class="i"><use href="#i-chart"/></svg></div><div><h2 data-i18n="Ranking de España">Ranking de España</h2><p class="sh-lede" data-i18n="s.rank.lede">¿Qué comunidad tiene la PAU más previsible? ¿Qué temas caen en casi toda España?</p></div></header>
+  <div class="card" id="rankCCAA"></div>
+  <div class="card"><div class="field"><label for="selMatRank" data-i18n="Materia">Materia</label><select id="selMatRank"></select></div><div id="rankTemas"></div></div>
+</section>
+</main>
+
+<footer class="fa-foot"><hr><p><b>PAUsible</b> · Fernando Borrás Rocher · Universidad Miguel Hernández de Elche. <span data-i18n="f.pie2">PAUsible no es oficial ni tiene relación con las comisiones de la PAU. Las predicciones son probabilidades calculadas con exámenes anteriores: estudia todo el temario. Código abierto (MIT) en <a href="https://github.com/fborrasumh/pausible">GitHub</a>.</span></p></footer>
+<div class="bottomnav"><div class="bn-in"><button class="btn btn-ghost" id="navBack" type="button"><svg class="i"><use href="#i-left"/></svg><span data-i18n="Atrás">Atrás</span></button><div class="bn-hint" id="navHint"></div><button class="btn btn-primary" id="navNext" type="button"><span id="navNextTxt">Siguiente</span><svg class="i"><use href="#i-right"/></svg></button></div></div>
+
+<div class="modal" id="mIA" role="dialog" aria-modal="true" aria-labelledby="mIAT"><div class="modal-box"><div class="modal-head"><h2 id="mIAT" data-i18n="Inteligencia artificial">Inteligencia artificial</h2><button type="button" data-close data-i18n="Cerrar">Cerrar</button></div><div class="modal-body">
+  <div class="field"><label for="selProv" data-i18n="Proveedor">Proveedor</label><select id="selProv"><option value="openai">OpenAI</option><option value="gemini">Google Gemini</option><option value="anthropic">Anthropic Claude</option></select></div>
+  <div class="field"><label for="apiKey" data-i18n="Tu clave de API">Tu clave de API</label><div class="keyrow"><input type="password" id="apiKey" autocomplete="off"><button class="eye" id="btnEye" type="button" aria-label="Ver" data-i18n-attr="aria-label:Ver"><svg class="i"><use href="#i-eye"/></svg></button></div></div>
+  <div class="field"><label for="selModelo" data-i18n="Modelo">Modelo</label><select id="selModelo"></select><input type="text" id="modelo" hidden autocomplete="off" placeholder="Escribe el nombre exacto del modelo" data-i18n-attr="placeholder:Escribe el nombre exacto del modelo" style="margin-top:8px"></div>
+  <div class="actions"><button class="btn btn-ghost btn-sm" id="btnModelos" type="button" data-i18n="Ver los modelos de mi clave">Ver los modelos de mi clave</button></div>
+  <p class="help" id="iaEstado" data-i18n="f.ia.ayuda">La clave se guarda solo en este navegador y se envía únicamente a tu proveedor. Cada persona usa la suya y paga su propio uso. Elige un modelo económico: este uso no necesita el más potente.</p></div></div></div>
+<div class="modal" id="mHelp" role="dialog" aria-modal="true" aria-labelledby="mHelpT"><div class="modal-box"><div class="modal-head"><h2 id="mHelpT" data-i18n="Ayuda">Ayuda</h2><button type="button" data-close data-i18n="Cerrar">Cerrar</button></div><div class="modal-body"><div class="glos" id="glos"></div></div></div></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>const APP="pausible";const APP_NAME="PAUsible";const LOGO_ICON="sparkles";const LANGS_ON=["es", "en", "pt"];
+"use strict";
+/* ── utilidades comunes (todas las apps Forja) ──────────────────────────────
+   Requiere que la app defina antes:  const APP = 'miapp';  (prefijo de almacenamiento)  */
+const $ = id => document.getElementById(id), $$ = s => [...document.querySelectorAll(s)];
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const ico = n => `<svg class="i"><use href="#i-${n}"/></svg>`;
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+const uid = (p = '') => p + Math.random().toString(36).slice(2, 8);
+const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+const wc = s => (String(s || '').trim().match(/[\p{L}\p{N}]+/gu) || []).length;
+const chunk = (a, n) => { const o = []; for (let i = 0; i < a.length; i += n) o.push(a.slice(i, i + n)); return o; };
+const nf = n => Math.round(n).toLocaleString(typeof locale === 'function' ? locale() : 'es-ES');
+const mmss = s => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, '0')}`;
+const slug = s => norm(s).replace(/ /g, '_').slice(0, 40) || 'x';
+function toast(m, ms = 4200) { const t = $('toast'); t.textContent = m; t.classList.add('on'); clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove('on'), ms); }
+function dl(nombre, contenido, tipo) { const b = contenido instanceof Blob ? contenido : new Blob([contenido], {type: tipo}); const u = URL.createObjectURL(b); const a = document.createElement('a'); a.href = u; a.download = nombre; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(u), 2500); }
+
+/* librerías externas (solo para LEER ficheros: Word, PDF, PowerPoint). Escribir Word/ZIP no necesita ninguna (70-report).
+   Cada librería tiene un espejo: si cdnjs falla (URL retirada, bloqueador, proxy), se prueba jsDelivr con la misma versión.
+   La CSP de build.py admite los dos orígenes. Las URLs están comprobadas contra el paquete npm de esa versión. */
+const LIB = {
+  mammoth: 'https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js',
+  jszip: 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js',
+  pdf: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js',
+  pdfw: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js',
+  docx: 'https://cdn.jsdelivr.net/npm/docx@8.5.0/build/index.umd.js'   // obsoleto: usa wordDeMarkdown / wordDeXml (sin red)
+};
+const LIB_ESPEJO = {
+  [LIB.mammoth]: 'https://cdn.jsdelivr.net/npm/mammoth@1.6.0/mammoth.browser.min.js',
+  [LIB.jszip]: 'https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js',
+  [LIB.pdf]: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js',
+  [LIB.pdfw]: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js'
+};
+const LIB_GLOBAL = {[LIB.mammoth]: 'mammoth', [LIB.jszip]: 'JSZip', [LIB.pdf]: 'pdfjsLib', [LIB.docx]: 'docx'};
+const _libNombre = u => (u.match(/\/(?:libs|npm)\/([^/@]+)/) || [, 'externa'])[1];
+const _cargaScript = u => new Promise((ok, ko) => { const s = document.createElement('script'); s.src = u; const tm = setTimeout(() => { s.remove(); ko(); }, 20000); s.onload = () => { clearTimeout(tm); ok(); }; s.onerror = () => { clearTimeout(tm); s.remove(); ko(); }; document.head.appendChild(s); });
+const _libCargadas = {};
+/* cargaLib([LIB.x, …]) carga en orden; cada una prueba cdnjs y luego su espejo; no recarga lo ya cargado */
+async function cargaLib(urls) {
+  for (const u of urls) {
+    const g = LIB_GLOBAL[u]; if ((g && window[g]) || _libCargadas[u]) continue;
+    let hecho = false, v_ok = u;
+    for (const v of [u, LIB_ESPEJO[u]].filter(Boolean)) { try { await _cargaScript(v); hecho = true; v_ok = v; break; } catch {} }
+    if (!hecho) throw new Error(navigator.onLine === false ? t('Sin conexión: hace falta internet para abrir este tipo de fichero la primera vez.') : t('No se pudo cargar la librería {0}. Puede que un bloqueador o la red de tu institución la impida; prueba otra red o desactiva el bloqueador en esta página.', _libNombre(u)));
+    _libCargadas[u] = v_ok;
+  }
+}
+
+/* huella SHA-256 (con alternativa para file:// sin contexto seguro) y canonización estable */
+const canon = v => v === null || typeof v !== 'object' ? JSON.stringify(v) : Array.isArray(v) ? '[' + v.map(canon).join(',') + ']' : '{' + Object.keys(v).filter(k => v[k] !== undefined).sort().map(k => JSON.stringify(k) + ':' + canon(v[k])).join(',') + '}';
+function sha256js(bytes) {
+  const pr = []; for (let n = 2; pr.length < 64; n++) if (pr.every(p => n % p)) pr.push(n);
+  const fr = x => Math.floor((x - Math.floor(x)) * 4294967296), K = pr.map(p => fr(Math.cbrt(p))), H = pr.slice(0, 8).map(p => fr(Math.sqrt(p)));
+  const l = bytes.length, pad = new Uint8Array(((l + 9 + 63) >> 6) << 6); pad.set(bytes); pad[l] = 0x80;
+  const dv = new DataView(pad.buffer); dv.setUint32(pad.length - 8, Math.floor(l * 8 / 4294967296)); dv.setUint32(pad.length - 4, (l * 8) >>> 0);
+  const rr = (x, n) => (x >>> n) | (x << (32 - n)), W = new Uint32Array(64);
+  for (let i = 0; i < pad.length; i += 64) {
+    for (let t = 0; t < 16; t++) W[t] = dv.getUint32(i + t * 4);
+    for (let t = 16; t < 64; t++) { const s0 = rr(W[t - 15], 7) ^ rr(W[t - 15], 18) ^ (W[t - 15] >>> 3), s1 = rr(W[t - 2], 17) ^ rr(W[t - 2], 19) ^ (W[t - 2] >>> 10); W[t] = (W[t - 16] + s0 + W[t - 7] + s1) >>> 0; }
+    let [a, b, c, d, e, f, g, hh] = H;
+    for (let t = 0; t < 64; t++) { const S1 = rr(e, 6) ^ rr(e, 11) ^ rr(e, 25), ch = (e & f) ^ (~e & g), t1 = (hh + S1 + ch + K[t] + W[t]) >>> 0, S0 = rr(a, 2) ^ rr(a, 13) ^ rr(a, 22), mj = (a & b) ^ (a & c) ^ (b & c), t2 = (S0 + mj) >>> 0; hh = g; g = f; f = e; e = (d + t1) >>> 0; d = c; c = b; b = a; a = (t1 + t2) >>> 0; }
+    [a, b, c, d, e, f, g, hh].forEach((v, j) => H[j] = (H[j] + v) >>> 0);
+  }
+  return H.map(v => v.toString(16).padStart(8, '0')).join('');
+}
+async function sha256(str) {
+  const b = new TextEncoder().encode(str);
+  if (window.crypto?.subtle) { try { return [...new Uint8Array(await crypto.subtle.digest('SHA-256', b))].map(x => x.toString(16).padStart(2, '0')).join(''); } catch {} }
+  return sha256js(b);
+}
+
+/* ── persistencia local (IndexedDB). La app define:  let S = {...};  y opcionalmente  const KEYP = () => 'main';  ── */
+const dbP = new Promise((ok, ko) => { const r = indexedDB.open(APP, 1); r.onupgradeneeded = () => r.result.createObjectStore('kv'); r.onsuccess = () => ok(r.result); r.onerror = () => ko(r.error); });
+const kv = async (mode, fn) => { const d = await dbP; return new Promise((ok, ko) => { const tx = d.transaction('kv', mode), q = fn(tx.objectStore('kv')); tx.oncomplete = () => ok(q && q.result); tx.onerror = () => ko(tx.error); }); };
+const _key = () => (typeof KEYP === 'function' ? KEYP() : 'main');
+let _g;
+function guarda() { clearTimeout(_g); _g = setTimeout(() => kv('readwrite', s => s.put(S, _key())).catch(() => toast(t('No se pudo guardar en el navegador (¿demasiado material?)'))), 500); }
+/* guardado inmediato: úsalo justo después de pagar una llamada a la IA, para no perder el resultado si se cierra la pestaña */
+const guardaYa = () => { clearTimeout(_g); return kv('readwrite', s => s.put(S, _key())).catch(() => toast(t('No se pudo guardar en el navegador'))); };
+window.addEventListener('pagehide', () => { clearTimeout(_g); try { kv('readwrite', s => s.put(S, _key())); } catch {} });
+async function cargaEstado(key = _key()) { try { const p = await kv('readonly', s => s.get(key)); return p || null; } catch { return null; } }
+
+/* ── proveedores de IA con la clave de cada persona: OpenAI, Google Gemini, Anthropic Claude ──────────────
+   Mensajes: [{role:'system'|'user'|'assistant', content: string | [{t:'text',v}, {t:'img',mime,data:'data:...'}]}]
+   Uso:   const texto = await llm(msgs, {max: 2800});      const obj = await llmJSON(msgs, {max: 3500});
+   Las claves viven solo en localStorage de este navegador. La clave de OpenAI es compartida por todo el catálogo ('ia_openai_key'). */
+const PROV = {
+  openai: {n: 'OpenAI', m: 'gpt-6-luna', k: 'ia_openai_key'},
+  gemini: {n: 'Google Gemini', m: 'gemini-2.5-flash', k: APP + '_key_gemini'},
+  anthropic: {n: 'Anthropic Claude', m: 'claude-haiku-4-5-20251001', k: APP + '_key_anthropic'}
+};
+const getProv = () => PROV[localStorage.getItem(APP + '_prov')] ? localStorage.getItem(APP + '_prov') : 'openai';
+const getKey = (p = getProv()) => localStorage.getItem(PROV[p].k) || '';
+const getMod = (p = getProv()) => localStorage.getItem(APP + '_model_' + p) || PROV[p].m;
+const parseJ = tx => { tx = String(tx || '').trim().replace(/^```(?:json)?|```$/g, '').trim(); try { return JSON.parse(tx); } catch { const m = tx.match(/\{[\s\S]*\}/); if (m) try { return JSON.parse(m[0]); } catch {} } return null; };
+const partes = c => typeof c === 'string' ? [{t: 'text', v: c}] : c;
+function agrupa(msgs, rolA) { const o = []; for (const m of msgs.filter(m => m.role !== 'system')) { const r = m.role === 'assistant' ? rolA : 'user'; if (o.length && o.at(-1).role === r) o.at(-1).parts.push({t: 'text', v: '\n\n'}, ...partes(m.content)); else o.push({role: r, parts: [...partes(m.content)]}); } if (o.length && o[0].role !== 'user') o.unshift({role: 'user', parts: [{t: 'text', v: '.'}]}); return o; }
+const sysDe = msgs => msgs.filter(m => m.role === 'system').map(m => typeof m.content === 'string' ? m.content : m.content.map(p => p.v || '').join('')).join('\n\n');
+function httpErr(st, tx, pv, mod) {
+  if (st === 401 || st === 403 || (pv === 'gemini' && st === 400 && /API key|API_KEY/i.test(tx))) return new Error(t('{0} no reconoce tu clave. Revísala en el botón «IA».', PROV[pv].n));
+  if (st === 404 || /model_not_found|not found|does not exist/i.test(tx)) return new Error(t('Tu clave no tiene acceso al modelo «{0}». Elige otro en el botón «IA».', mod));
+  if (st === 429 && /quota|billing|credit|RESOURCE_EXHAUSTED/i.test(tx)) return new Error(t('Tu cuenta de {0} no tiene saldo o ha alcanzado su límite.', PROV[pv].n));
+  if (st === 400 && /image|vision|multimodal|modalit/i.test(tx)) return new Error(t('El modelo «{0}» no admite imágenes. Elige uno con visión.', mod));
+  return new Error(`${PROV[pv].n} ${st}: ${String(tx).slice(0, 180)}`);
+}
+async function conReintentos(fn, pv) {
+  for (let k = 0; k < 5; k++) {
+    let r; try { r = await fn(); } catch { if (k >= 2) throw new Error(t('No hay conexión con {0}.', PROV[pv].n)); await sleep(1500); continue; }
+    if (r.ok) return r;
+    if (r.status === 429 || r.status >= 500) { const tx = await r.clone().text(); if (r.status === 429 && /quota|billing|credit/i.test(tx)) return r; await sleep(2 ** (k + 1) * 1000); continue; }
+    return r;
+  }
+  throw new Error(t('{0} no responde ahora mismo. Inténtalo de nuevo en un momento.', PROV[pv].n));
+}
+async function llm(msgs, {json = false, max = 2800} = {}) {
+  const pv = getProv(), key = getKey(pv), mod = getMod(pv);
+  if (!key) throw new Error(t('Falta tu clave de IA. Pulsa el botón «IA», arriba.'));
+  if (pv === 'openai') {
+    /* los modelos nuevos rechazan max_tokens/temperature: se prueban variantes según el error */
+    const razona = /^(gpt-[56]|o\d)/.test(mod), o = {json, reasoning: razona, comp: razona, temp: !razona};
+    const mm = msgs.map(m => ({role: m.role, content: typeof m.content === 'string' ? m.content : m.content.map(p => p.t === 'text' ? {type: 'text', text: p.v} : {type: 'image_url', image_url: {url: p.data}})}));
+    for (let k = 0; k < 6; k++) {
+      const body = {model: mod, messages: mm};
+      if (o.json) body.response_format = {type: 'json_object'};
+      if (o.comp) body.max_completion_tokens = max * (o.reasoning ? 2 : 1); else body.max_tokens = max;
+      if (o.reasoning) body.reasoning_effort = 'low';
+      if (o.temp) body.temperature = 0.4;
+      const r = await conReintentos(() => fetch('https://api.openai.com/v1/chat/completions', {method: 'POST', headers: {'Content-Type': 'application/json', Authorization: 'Bearer ' + key}, body: JSON.stringify(body)}), pv);
+      if (r.ok) return (await r.json()).choices?.[0]?.message?.content || '';
+      const tx = await r.text();
+      if (r.status === 400) {
+        if (/reasoning_effort/i.test(tx) && o.reasoning) { o.reasoning = false; continue; }
+        if (/max_completion_tokens/i.test(tx) && o.comp) { o.comp = false; continue; }
+        if (/max_tokens/i.test(tx) && !o.comp) { o.comp = true; continue; }
+        if (/temperature/i.test(tx) && o.temp) { o.temp = false; continue; }
+        if (/response_format|json/i.test(tx) && o.json) { o.json = false; const u = mm.at(-1); if (typeof u.content === 'string') u.content += '\nResponde SOLO con JSON válido.'; else u.content.push({type: 'text', text: 'Responde SOLO con JSON válido.'}); continue; }
+      }
+      throw httpErr(r.status, tx, pv, mod);
+    }
+    throw new Error(t('OpenAI no responde ahora mismo.'));
+  }
+  if (pv === 'gemini') {
+    const sys = sysDe(msgs), cont = agrupa(msgs, 'model').map(m => ({role: m.role, parts: m.parts.map(p => p.t === 'text' ? {text: p.v} : {inline_data: {mime_type: p.mime, data: p.data.split(',')[1]}})}));
+    const body = {contents: cont, generationConfig: {maxOutputTokens: max, temperature: 0.4}};
+    if (sys) body.systemInstruction = {parts: [{text: sys}]};
+    if (json) body.generationConfig.responseMimeType = 'application/json';
+    const r = await conReintentos(() => fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(mod)}:generateContent`, {method: 'POST', headers: {'Content-Type': 'application/json', 'x-goog-api-key': key}, body: JSON.stringify(body)}), pv);
+    const tx = await r.text(); if (!r.ok) throw httpErr(r.status, tx, pv, mod);
+    const j = JSON.parse(tx), txt = (j.candidates?.[0]?.content?.parts || []).map(p => p.text || '').join('');
+    if (!txt && j.promptFeedback?.blockReason) throw new Error(t('El proveedor ha bloqueado la respuesta ({0}).', j.promptFeedback.blockReason));
+    return txt;
+  }
+  const sys = sysDe(msgs), mm = agrupa(msgs, 'assistant').map(m => ({role: m.role, content: m.parts.map(p => p.t === 'text' ? {type: 'text', text: p.v} : {type: 'image', source: {type: 'base64', media_type: p.mime, data: p.data.split(',')[1]}})}));
+  if (json) mm.at(-1).content.push({type: 'text', text: '\n\nResponde SOLO con un objeto JSON válido, sin texto alrededor.'});
+  const r = await conReintentos(() => fetch('https://api.anthropic.com/v1/messages', {method: 'POST', headers: {'Content-Type': 'application/json', 'x-api-key': key, 'anthropic-version': '2023-06-01', 'anthropic-dangerous-direct-browser-access': 'true'}, body: JSON.stringify({model: mod, max_tokens: max, system: sys, messages: mm})}), pv);
+  const tx = await r.text(); if (!r.ok) throw httpErr(r.status, tx, pv, mod);
+  return (JSON.parse(tx).content || []).filter(b => b.type === 'text').map(b => b.text).join('');
+}
+async function llmJSON(msgs, o = {}) { for (let k = 0; k < 2; k++) { const j = parseJ(await llm(msgs, {...o, json: true})); if (j && typeof j === 'object') return j; } throw new Error(t('La IA no devolvió una respuesta con el formato esperado. Inténtalo de nuevo.')); }
+async function listaModelos(pv = getProv()) {
+  const key = getKey(pv); if (!key) throw new Error(t('Primero pega tu clave.')); let r;
+  try {
+    if (pv === 'openai') r = await fetch('https://api.openai.com/v1/models', {headers: {Authorization: 'Bearer ' + key}});
+    else if (pv === 'gemini') r = await fetch('https://generativelanguage.googleapis.com/v1beta/models?pageSize=100', {headers: {'x-goog-api-key': key}});
+    else r = await fetch('https://api.anthropic.com/v1/models?limit=100', {headers: {'x-api-key': key, 'anthropic-version': '2023-06-01', 'anthropic-dangerous-direct-browser-access': 'true'}});
+  } catch { throw new Error(t('No hay conexión con {0}.', PROV[pv].n)); }
+  const tx = await r.text(); if (!r.ok) throw httpErr(r.status, tx, pv, ''); const j = JSON.parse(tx);
+  if (pv === 'openai') return (j.data || []).map(m => m.id).filter(id => /^(gpt-|o\d|chatgpt-)/.test(id) && !/(audio|realtime|transcribe|tts|image|embedding|moderation|search|instruct|whisper|dall|davinci|babbage|codex|computer-use)/i.test(id)).sort();
+  if (pv === 'gemini') return (j.models || []).filter(m => (m.supportedGenerationMethods || []).includes('generateContent')).map(m => m.name.replace(/^models\//, '')).sort();
+  return (j.data || []).map(m => m.id).sort();
+}
+
+/* ── verificación por código de lo que dice la IA, anonimización y Markdown seguro ──────────────────────────
+   Principio: la IA propone, el código comprueba. Nunca muestres como hecho una cita, una cifra o un recuento
+   que la IA afirme sin haberlo contrastado con el texto de origen. */
+
+/* texto normalizado con mapa a las posiciones originales */
+function normMap(s) {
+  let n = ''; const map = []; let sp = true;
+  for (let i = 0; i < s.length; i++) {
+    const c = s[i].toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    if (/[\p{L}\p{N}]/u.test(c)) { for (const ch of c) { n += ch; map.push(i); } sp = false; }
+    else if (!sp) { n += ' '; map.push(i); sp = true; }
+  }
+  return {n, map};
+}
+let _nm = null;
+const nmat = mat => { if (!_nm || _nm.src !== mat) _nm = {src: mat, ...normMap(mat)}; return _nm; };
+/* ¿aparece la cita (literal, ignorando mayúsculas, tildes y puntuación) en el material? */
+function localiza(mat, cita, minLen = 12) { const q = norm(cita); if (q.length < minLen) return null; const m = nmat(mat), i = m.n.indexOf(q); return i < 0 ? null : [m.map[i], m.map[Math.min(i + q.length - 1, m.map.length - 1)]]; }
+const esFiel = (mat, cita) => !!localiza(mat, cita);
+/* extractos del material alrededor de las citas (para dar contexto sin enviar todo) */
+function ventanas(mat, citas, rad = 700, tope = 4200) {
+  const r = citas.map(c => localiza(mat, c)).filter(Boolean).map(([a, b]) => [Math.max(0, a - rad), Math.min(mat.length, b + rad)]).sort((x, y) => x[0] - y[0]), m = [];
+  for (const v of r) { const l = m.at(-1); if (l && v[0] <= l[1]) l[1] = Math.max(l[1], v[1]); else m.push([...v]); }
+  const t = m.map(([a, b]) => mat.slice(a, b).trim()).join('\n[…]\n'); return t.length > tope ? t.slice(0, tope) : t;
+}
+/* cifras que la IA menciona y no están en el material (ignora números pequeños) */
+const CIFRA_RX = /\d{1,3}(?:[.,]\d{3})+(?:[.,]\d+)?|\d+(?:[.,]\d+)?/g;
+function cifraNorm(x) { const m = x.match(/^(\d{1,3}(?:[.,]\d{3})+)([.,]\d+)?$/); if (m) return m[1].replace(/[.,]/g, '') + (m[2] ? '.' + m[2].slice(1) : ''); return x.replace(',', '.'); }
+const numsDe = t => new Set((String(t).match(CIFRA_RX) || []).map(cifraNorm));
+function numerosNuevos(texto, mat) { const m = numsDe(mat); return [...new Set(String(texto).match(CIFRA_RX) || [])].filter(x => { const n = cifraNorm(x); return !m.has(n) && parseFloat(n) > 12; }); }
+
+/* datos personales: se enmascaran antes de enviar nada a un proveedor externo */
+const PII = [['CORREO', /[\w.+-]+@[\w-]+\.[\w.-]+/g], ['ID', /\b\d{8}[A-HJ-NP-TV-Z]\b|\b[XYZ]\d{7}[A-Z]\b/gi], ['TELÉFONO', /(?:\+\d{2}\s?)?\b[6-9]\d{2}[\s.-]?\d{3}[\s.-]?\d{3}\b/g]];
+function scrub(txt, nombre = '') {
+  let n = 0, t = String(txt ?? ''); PII.forEach(([tag, rx]) => { t = t.replace(rx, () => { n++; return `[${tag}]`; }); });
+  const nm = new Set(norm(nombre).split(' ').filter(w => w.length >= 3));
+  t = t.replace(/[\p{L}][\p{L}'’-]*/gu, w => nm.has(norm(w)) ? (n++, '[PERSONA]') : w);
+  return {t, n};
+}
+const cuentaPII = txt => PII.reduce((n, [, rx]) => n + ((String(txt).match(rx) || []).length), 0);
+
+/* Markdown mínimo y seguro (escapa antes de formatear) */
+function md(s) {
+  const inl = x => esc(x).replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>').replace(/(^|[\s(])\*([^*\n]+)\*/g, '$1<i>$2</i>').replace(/`([^`]+)`/g, '<code>$1</code>');
+  const out = []; let lst = null; const cierra = () => { if (lst) { out.push(`</${lst}>`); lst = null; } };
+  for (const raw of String(s || '').split('\n')) {
+    const l = raw.trimEnd(); let m; if (!l.trim()) { cierra(); continue; }
+    if (m = l.match(/^#{1,4}\s+(.*)/)) { cierra(); out.push(`<h4>${inl(m[1])}</h4>`); continue; }
+    if (m = l.match(/^\s*[-*•]\s+(.*)/)) { if (lst !== 'ul') { cierra(); out.push('<ul>'); lst = 'ul'; } out.push(`<li>${inl(m[1])}</li>`); continue; }
+    if (m = l.match(/^\s*\d+[.)]\s+(.*)/)) { if (lst !== 'ol') { cierra(); out.push('<ol>'); lst = 'ol'; } out.push(`<li>${inl(m[1])}</li>`); continue; }
+    cierra(); out.push(`<p>${inl(l)}</p>`);
+  }
+  cierra(); return out.join('');
+}
+
+/* ── navegación Forja: barra superior, stepper, barra inferior, ventanas, ayuda y ajustes de IA ─────────────
+   La app define (en app.js; se leen al ejecutar, no al cargar el módulo) y llama a iniciaUI() al arrancar:
+     const STEPS  = ['Inicio', 'Paso 1', ...];                   // etiquetas del stepper (la actual se muestra con nombre)
+     const NAV    = [['Empezar',''], ['Siguiente: …','pista'], …]; // [texto del botón «siguiente», pista de la barra inferior] por pantalla
+     const RENDER = {0: pintaInicio, 1: pintaX, …};               // funciones que pintan cada pantalla al entrar
+     const GLOS   = [['Título','Texto'], …];                       // ayuda
+   Idiomas: STEPS, NAV, GLOS y HUBS se escriben en español y se traducen con t() (módulo 65-i18n; diccionario I18N en src/i18n.js).
+   Opcionales:  const CAN_NEXT = i => true|'mensaje';  // validación antes de avanzar
+                const HUBS = ['Glosario', 'Progreso'];  // secciones fuera del recorrido lineal: pantallas con data-step = STEPS.length + k.
+                // Al entrar en una sección el stepper muestra solo su nombre, la barra de progreso se vacía y «Atrás»/«Siguiente» vuelven al inicio. */
+let step = 0;
+const esHub = i => i >= STEPS.length;
+function buildStepper() {
+  if (esHub(step)) {
+    const nombre = (typeof HUBS !== 'undefined' && HUBS[step - STEPS.length]) || '';
+    $('stepper').innerHTML = `<button class="sdot" type="button" data-go="0" data-state="done"><span class="n">${ico('left')}</span><span class="lbl">${esc(t('Inicio'))}</span></button><span class="sline on"></span><button class="sdot" type="button" data-state="now" aria-current="page"><span class="n">${ico(typeof LOGO_ICON === 'string' ? LOGO_ICON : 'bulb')}</span><span class="lbl">${esc(t(nombre))}</span></button>`;
+    $$('#stepper [data-go]').forEach(b => b.onclick = () => go(+b.dataset.go)); return;
+  }
+  $('stepper').innerHTML = STEPS.map((s, i) => `${i ? `<span class="sline${i <= step ? ' on' : ''}"></span>` : ''}<button class="sdot" type="button" data-go="${i}" data-state="${i < step ? 'done' : i === step ? 'now' : ''}" ${i === step ? 'aria-current="step"' : ''}><span class="n">${i < step ? ico('check') : i === 0 ? ico(typeof LOGO_ICON === 'string' ? LOGO_ICON : 'bulb') : i}</span><span class="lbl">${esc(t(s))}</span></button>`).join('');
+  $$('#stepper [data-go]').forEach(b => b.onclick = () => go(+b.dataset.go));
+}
+function updateNav() { const N = NAV[step] || ['Volver al inicio', '']; $('navBack').classList.toggle('hidden', step === 0 || esHub(step)); $('navNextTxt').textContent = t(N[0]); $('navHint').textContent = N[1] ? t(N[1]) : ''; }
+function go(i) {
+  step = i; $$('.screen').forEach(s => s.classList.toggle('on', +s.dataset.step === i)); $('progBar').style.width = esHub(i) ? '0%' : (i / (STEPS.length - 1) * 100) + '%';
+  (RENDER[i] || (() => {}))(); buildStepper(); updateNav(); window.scrollTo({top: 0, behavior: 'instant'});
+}
+$('goHome').onclick = () => go(0);
+$('navBack').onclick = () => { if (step > 0) go(step - 1); };
+$('navNext').onclick = () => { if (esHub(step)) return go(0); const ok = typeof CAN_NEXT === 'function' ? CAN_NEXT(step) : true; if (ok !== true && ok) return toast(ok); go(step === STEPS.length - 1 ? 0 : step + 1); };
+
+/* ventanas modales (Escape y clic fuera cierran; data-close en el botón) */
+const _cierres = {};   // id de modal → función a ejecutar al cerrar
+$$('.modal').forEach(m => m.addEventListener('click', ev => { if (ev.target === m || ev.target.hasAttribute('data-close')) { m.classList.remove('on'); _cierres[m.id]?.(); } }));
+document.addEventListener('keydown', e => { if (e.key === 'Escape') $$('.modal.on').forEach(m => { m.classList.remove('on'); _cierres[m.id]?.(); }); });
+/* Ajustes de IA. El modelo se elige en un <select> (no en <input list>: un <datalist> con el campo ya relleno solo muestra
+   las opciones que coinciden con lo escrito, y la lista «no se carga» a ojos de la persona). «Otro modelo…» abre un campo libre. */
+const OTRO_MODELO = '__otro';
+function pintaModelos(pv = getProv()) {
+  const sel = $('selModelo'); if (!sel) return;
+  let ml = []; try { ml = JSON.parse(localStorage.getItem(APP + '_models_' + pv) || '[]'); } catch {}
+  const act = getMod(pv), lista = [...new Set([act, ...ml, PROV[pv].m])].filter(Boolean);
+  sel.innerHTML = lista.map(m => `<option value="${esc(m)}">${esc(m)}${m === act ? ' · ' + esc(t('actual')) : ''}${ml.length && !ml.includes(m) ? ' · ' + esc(t('no aparece en tu clave')) : ''}</option>`).join('')
+    + `<option value="${OTRO_MODELO}">${esc(t('Otro modelo (escribirlo)…'))}</option>`;
+  sel.value = act; $('modelo').value = act; $('modelo').hidden = true;
+}
+function cargaIA() { const pv = getProv(); $('selProv').value = pv; $('apiKey').value = getKey(pv); $('apiKey').placeholder = KPH[pv]; pintaModelos(pv); }
+/* pide a la API del proveedor los modelos de ESA clave y los pone en el desplegable (silencio: sin mensaje si falta la clave) */
+async function cargaModelos(silencio = false) {
+  const st = $('iaEstado'), pv = getProv();
+  if (!getKey(pv)) { if (!silencio) st.textContent = t('Primero pega tu clave.'); return []; }
+  st.textContent = t('Cargando los modelos de tu clave…');
+  try {
+    const l = await listaModelos(pv); if (pv !== getProv()) return l;
+    localStorage.setItem(APP + '_models_' + pv, JSON.stringify(l)); pintaModelos(pv);
+    st.textContent = l.length ? t('{0} modelos disponibles en tu clave: elígelo en el desplegable.', l.length) : t('Tu clave no devolvió ningún modelo de texto. Escribe el nombre con «Otro modelo».');
+    return l;
+  } catch (e) { st.textContent = e.message; return []; }
+}
+const KPH = {openai: 'sk-proj-…', gemini: 'AIza…', anthropic: 'sk-ant-…'};
+/* iniciaUI(): llámala UNA vez desde app.js, al final, justo antes de go(0). Enlaza la ayuda y los ajustes de IA.
+   (No se hace al cargar el módulo porque GLOS y el resto de constantes de la app aún no existen en ese momento.) */
+function iniciaUI() {
+  if (typeof initI18n === 'function') initI18n();
+  window.addEventListener('langchange', () => { if ($('btnHelp')) $('glos').innerHTML = (typeof GLOS !== 'undefined' ? GLOS : []).map(g => `<div><b>${esc(t(g[0]))}</b><span>${esc(t(g[1]))}</span></div>`).join(''); (RENDER[step] || (() => {}))(); buildStepper(); updateNav(); if ($('mIA') && $('mIA').classList.contains('on')) cargaIA(); });
+  if ($('btnHelp')) { $('glos').innerHTML = (typeof GLOS !== 'undefined' ? GLOS : []).map(g => `<div><b>${esc(t(g[0]))}</b><span>${esc(t(g[1]))}</span></div>`).join(''); $('btnHelp').onclick = () => $('mHelp').classList.add('on'); }
+  if ($('btnIA')) {
+    const sinLista = () => { try { return !JSON.parse(localStorage.getItem(APP + '_models_' + getProv()) || '[]').length; } catch { return true; } };
+    $('selProv').onchange = () => { localStorage.setItem(APP + '_prov', $('selProv').value); cargaIA(); if (getKey() && sinLista()) cargaModelos(true); };
+    let _kt; $('apiKey').oninput = () => { const pv = getProv(); localStorage.setItem(PROV[pv].k, $('apiKey').value.trim()); localStorage.removeItem(APP + '_models_' + pv); clearTimeout(_kt); _kt = setTimeout(() => { if ($('apiKey').value.trim().length >= 20) cargaModelos(true); }, 900); };
+    $('selModelo').onchange = () => { const v = $('selModelo').value; if (v === OTRO_MODELO) { $('modelo').hidden = false; $('modelo').value = ''; $('modelo').focus(); return; } $('modelo').hidden = true; localStorage.setItem(APP + '_model_' + getProv(), v); };
+    $('modelo').oninput = () => localStorage.setItem(APP + '_model_' + getProv(), $('modelo').value.trim() || PROV[getProv()].m);
+    $('modelo').onchange = () => pintaModelos();
+    $('btnEye').onclick = () => { const k = $('apiKey'); k.type = k.type === 'password' ? 'text' : 'password'; };
+    $('btnModelos').onclick = () => cargaModelos(false);
+    $('btnIA').onclick = () => { cargaIA(); $('mIA').classList.add('on'); if (getKey() && sinLista()) cargaModelos(true); };
+  }
+}
+/* ¿hay clave? si no, abre los ajustes de IA y avisa */
+function pideClave() { if (getKey()) return true; if ($('mIA')) { cargaIA(); $('mIA').classList.add('on'); } toast(t('Pega tu clave de IA para continuar')); return false; }
+
+/* ── idiomas: español (por defecto), inglés y portugués; opcionales: català, euskara y galego (app.json → langs) ─────────────────────────────────────────────────
+   El español es el idioma de origen: está escrito en el HTML y en el JS. Las demás lenguas se traducen con diccionarios.
+   Dos formas de marcar texto traducible (una sola función, t(), y un diccionario por idioma):
+     · HTML estático:   <span data-i18n="clave">Texto en español</span>
+                        <input data-i18n-attr="placeholder:clave;aria-label:otra" placeholder="…">
+       En español se conserva el texto del HTML; en los demás idiomas se sustituye por I18N[lang][clave] (HTML de confianza: nunca metas
+       datos de la persona en el diccionario). Envuelve en <span> solo el texto, no los iconos ni los botones enteros.
+     · JavaScript:      t('Texto en español con {0} huecos', valor)   → la propia frase en español es la clave (estilo gettext)
+                        t('msg.clave')                                → clave corta; su texto en español va en I18N.es['msg.clave']
+   La app define (en src/i18n.js, se lee al ejecutar):   const I18N = {en: {…}, pt: {…}, es: {…solo claves cortas…}};
+   Este módulo trae I18N_BASE con todo lo que ponen los módulos de Forja (errores de IA, ajustes, avisos); la app puede sobrescribirlo.
+   build.py inyecta  const LANGS_ON = ["es","en","pt"]  desde app.json → langs  (con un solo idioma el selector no se muestra).
+   Reglas que evitan fallos reales:
+     · Guarda DATOS en el estado, no frases ya traducidas; traduce al pintar (si no, al cambiar de idioma quedan frases viejas).
+     · Cada pantalla se repinta al cambiar de idioma (evento «langchange» → RENDER[step]).
+     · A la IA se le pide el idioma con INSTR_IDIOMA(); las citas literales del material se copian en su idioma original. */
+const LANGS = {es: 'Español', ca: 'Català', eu: 'Euskara', gl: 'Galego', en: 'English', pt: 'Português'};   // ca, eu y gl: opcionales (lenguas cooficiales de España)
+const IA_LANG = {es: 'español', ca: 'català', eu: 'euskara (vasco)', gl: 'galego (gallego)', en: 'English', pt: 'português'};   // cómo se le nombra el idioma a la IA
+const LOCALE = {es: 'es-ES', ca: 'ca-ES', eu: 'eu-ES', gl: 'gl-ES', en: 'en-GB', pt: 'pt-PT'};            // formatos de número y fecha
+const langsOn = () => (typeof LANGS_ON !== 'undefined' ? LANGS_ON : ['es', 'en', 'pt']).filter(l => LANGS[l]);
+let LANG = 'es', _D = null;
+const locale = () => LOCALE[LANG] || 'es-ES';
+const langIA = () => IA_LANG[LANG] || 'español';
+/* frase para añadir a CADA prompt cuya respuesta ve la persona: la IA escribe en su idioma, pero ids, claves JSON y citas literales no se tocan */
+const INSTR_IDIOMA = () => `Escribe todos los textos de tu respuesta (los valores de los campos JSON) en ${langIA()}. No traduzcas los nombres de las claves JSON, los identificadores ni las citas literales del material: cópialas en su idioma original, sin cambiar nada.`;
+
+const I18N_BASE = {
+  en: {
+    'Inicio': 'Home', 'Ayuda': 'Help', 'IA': 'AI', 'Pasos': 'Steps', 'Atrás': 'Back', 'Siguiente': 'Next', 'Cerrar': 'Close', 'Cancelar': 'Cancel', 'Idioma': 'Language',
+    'Volver al inicio': 'Back to the start', 'Inteligencia artificial': 'Artificial intelligence', 'Proveedor': 'Provider', 'Tu clave de API': 'Your API key', 'Ver': 'Show', 'Modelo': 'Model',
+    'Ver los modelos de mi clave': 'Show the models available for my key',
+    'f.ia.ayuda': 'The key is stored only in this browser and sent only to your provider. Each person uses their own key and pays for their own use. Choose an inexpensive model: this use does not need the most powerful one.',
+    'Esto es lo que saldría hacia tu proveedor de IA': 'This is what would be sent to your AI provider',
+    'f.envio.chk': 'I have reviewed the sample and confirm that it may leave my computer.',
+    'Muestra del envío:': 'Sample of what is sent:', 'Realizada entre': 'Created by', 'Realizada por': 'Created by',
+    'Cómo funciona': 'How it works', 'Dónde va cada cosa': 'Where everything goes',
+    'Siempre en tu ordenador': 'Always on your computer', 'Sale hacia tu proveedor de IA': 'Sent to your AI provider',
+    'No se pudo cargar la librería {0}. Puede que un bloqueador o la red de tu institución la impida; prueba otra red o desactiva el bloqueador en esta página.': "Could not load the {0} library. A content blocker or your institution's network may be preventing it; try another network or disable the blocker on this page.",
+    'Sin conexión: hace falta internet para abrir este tipo de fichero la primera vez.': "Offline: an internet connection is needed to open this type of file the first time.",
+    'No se pudo guardar en el navegador (¿demasiado material?)': 'Could not save in the browser (too much material?)', 'No se pudo guardar en el navegador': 'Could not save in the browser',
+    '{0} no reconoce tu clave. Revísala en el botón «IA».': '{0} does not recognise your key. Check it with the “AI” button.',
+    'Tu clave no tiene acceso al modelo «{0}». Elige otro en el botón «IA».': 'Your key has no access to the model “{0}”. Choose another one with the “AI” button.',
+    'Tu cuenta de {0} no tiene saldo o ha alcanzado su límite.': 'Your {0} account has no balance or has reached its limit.',
+    'El modelo «{0}» no admite imágenes. Elige uno con visión.': 'The model “{0}” does not accept images. Choose one with vision.',
+    'No hay conexión con {0}.': 'No connection to {0}.', '{0} no responde ahora mismo. Inténtalo de nuevo en un momento.': '{0} is not responding right now. Please try again in a moment.',
+    'Falta tu clave de IA. Pulsa el botón «IA», arriba.': 'Your AI key is missing. Press the “AI” button at the top.', 'OpenAI no responde ahora mismo.': 'OpenAI is not responding right now.',
+    'El proveedor ha bloqueado la respuesta ({0}).': 'The provider blocked the response ({0}).',
+    'La IA no devolvió una respuesta con el formato esperado. Inténtalo de nuevo.': 'The AI did not return a response in the expected format. Please try again.',
+    'Primero pega tu clave.': 'Paste your key first.', '{0} modelos disponibles en tu clave; escribe o elige uno.': '{0} models available for your key; type or choose one.',
+    'Pega tu clave de IA para continuar': 'Paste your AI key to continue',
+    'El PowerPoint no tiene diapositivas': 'The PowerPoint has no slides', 'Formato no admitido (usa Word, PDF, PowerPoint, texto, imágenes, audio o vídeo)': 'Unsupported format (use Word, PDF, PowerPoint, text, images, audio or video)',
+    '«{0}» pesa más de 600 MB: exporta solo el audio (MP3 o WAV) y súbelo en su lugar.': '“{0}” is larger than 600 MB: export only the audio (MP3 or WAV) and upload that instead.',
+    'No se pudo leer el audio de «{0}». Prueba a exportarlo como MP3 o WAV.': 'Could not read the audio of “{0}”. Try exporting it as MP3 or WAV.',
+    'Para transcribir necesitas una clave de OpenAI o de Gemini (Claude no transcribe audio). Añádela en el botón «IA».': 'To transcribe you need an OpenAI or Gemini key (Claude does not transcribe audio). Add it with the “AI” button.',
+    'actual': "current",
+    'no aparece en tu clave': "not available for your key",
+    'Otro modelo (escribirlo)…': "Another model (type it)…",
+    'Escribe el nombre exacto del modelo': "Type the exact model name",
+    'Cargando los modelos de tu clave…': "Loading the models for your key…",
+    '{0} modelos disponibles en tu clave: elígelo en el desplegable.': "{0} models available for your key: choose one from the drop-down list.",
+    'Tu clave no devolvió ningún modelo de texto. Escribe el nombre con «Otro modelo».': "Your key returned no text models. Type the name with “Another model”."
+  },
+  pt: {
+    'Inicio': 'Início', 'Ayuda': 'Ajuda', 'IA': 'IA', 'Pasos': 'Passos', 'Atrás': 'Voltar', 'Siguiente': 'Seguinte', 'Cerrar': 'Fechar', 'Cancelar': 'Cancelar', 'Idioma': 'Idioma',
+    'Volver al inicio': 'Voltar ao início', 'Inteligencia artificial': 'Inteligência artificial', 'Proveedor': 'Fornecedor', 'Tu clave de API': 'A sua chave de API', 'Ver': 'Mostrar', 'Modelo': 'Modelo',
+    'Ver los modelos de mi clave': 'Ver os modelos disponíveis na minha chave',
+    'f.ia.ayuda': 'A chave é guardada apenas neste navegador e enviada apenas ao seu fornecedor. Cada pessoa usa a sua própria chave e paga a sua utilização. Escolha um modelo económico: esta utilização não precisa do mais potente.',
+    'Esto es lo que saldría hacia tu proveedor de IA': 'Isto é o que seria enviado ao seu fornecedor de IA',
+    'f.envio.chk': 'Revi a amostra e confirmo que pode sair do meu computador.',
+    'Muestra del envío:': 'Amostra do que é enviado:', 'Realizada entre': 'Realizada por', 'Realizada por': 'Realizada por',
+    'Cómo funciona': 'Como funciona', 'Dónde va cada cosa': 'Para onde vai cada coisa',
+    'Siempre en tu ordenador': 'Sempre no seu computador', 'Sale hacia tu proveedor de IA': 'Enviado ao seu fornecedor de IA',
+    'No se pudo cargar la librería {0}. Puede que un bloqueador o la red de tu institución la impida; prueba otra red o desactiva el bloqueador en esta página.': "Não foi possível carregar a biblioteca {0}. Um bloqueador ou a rede da sua instituição pode estar a impedi-la; experimente outra rede ou desative o bloqueador nesta página.",
+    'Sin conexión: hace falta internet para abrir este tipo de fichero la primera vez.': "Sem ligação: é preciso internet para abrir este tipo de ficheiro pela primeira vez.",
+    'No se pudo guardar en el navegador (¿demasiado material?)': 'Não foi possível guardar no navegador (demasiado material?)', 'No se pudo guardar en el navegador': 'Não foi possível guardar no navegador',
+    '{0} no reconoce tu clave. Revísala en el botón «IA».': '{0} não reconhece a sua chave. Verifique-a no botão «IA».',
+    'Tu clave no tiene acceso al modelo «{0}». Elige otro en el botón «IA».': 'A sua chave não tem acesso ao modelo «{0}». Escolha outro no botão «IA».',
+    'Tu cuenta de {0} no tiene saldo o ha alcanzado su límite.': 'A sua conta {0} não tem saldo ou atingiu o limite.',
+    'El modelo «{0}» no admite imágenes. Elige uno con visión.': 'O modelo «{0}» não aceita imagens. Escolha um com visão.',
+    'No hay conexión con {0}.': 'Sem ligação a {0}.', '{0} no responde ahora mismo. Inténtalo de nuevo en un momento.': '{0} não está a responder neste momento. Tente novamente daqui a pouco.',
+    'Falta tu clave de IA. Pulsa el botón «IA», arriba.': 'Falta a sua chave de IA. Prima o botão «IA», em cima.', 'OpenAI no responde ahora mismo.': 'A OpenAI não está a responder neste momento.',
+    'El proveedor ha bloqueado la respuesta ({0}).': 'O fornecedor bloqueou a resposta ({0}).',
+    'La IA no devolvió una respuesta con el formato esperado. Inténtalo de nuevo.': 'A IA não devolveu uma resposta no formato esperado. Tente novamente.',
+    'Primero pega tu clave.': 'Cole primeiro a sua chave.', '{0} modelos disponibles en tu clave; escribe o elige uno.': '{0} modelos disponíveis na sua chave; escreva ou escolha um.',
+    'Pega tu clave de IA para continuar': 'Cole a sua chave de IA para continuar',
+    'El PowerPoint no tiene diapositivas': 'O PowerPoint não tem diapositivos', 'Formato no admitido (usa Word, PDF, PowerPoint, texto, imágenes, audio o vídeo)': 'Formato não suportado (use Word, PDF, PowerPoint, texto, imagens, áudio ou vídeo)',
+    '«{0}» pesa más de 600 MB: exporta solo el audio (MP3 o WAV) y súbelo en su lugar.': '«{0}» tem mais de 600 MB: exporte apenas o áudio (MP3 ou WAV) e carregue-o em vez disso.',
+    'No se pudo leer el audio de «{0}». Prueba a exportarlo como MP3 o WAV.': 'Não foi possível ler o áudio de «{0}». Tente exportá-lo como MP3 ou WAV.',
+    'Para transcribir necesitas una clave de OpenAI o de Gemini (Claude no transcribe audio). Añádela en el botón «IA».': 'Para transcrever precisa de uma chave da OpenAI ou do Gemini (o Claude não transcreve áudio). Adicione-a no botão «IA».',
+    'actual': "atual",
+    'no aparece en tu clave': "não aparece na sua chave",
+    'Otro modelo (escribirlo)…': "Outro modelo (escrevê-lo)…",
+    'Escribe el nombre exacto del modelo': "Escreva o nome exato do modelo",
+    'Cargando los modelos de tu clave…': "A carregar os modelos da sua chave…",
+    '{0} modelos disponibles en tu clave: elígelo en el desplegable.': "{0} modelos disponíveis na sua chave: escolha-o na lista pendente.",
+    'Tu clave no devolvió ningún modelo de texto. Escribe el nombre con «Otro modelo».': "A sua chave não devolveu nenhum modelo de texto. Escreva o nome com «Outro modelo»."
+  },
+  ca: {
+    'Inicio': "Inici",
+    'Ayuda': "Ajuda",
+    'IA': "IA",
+    'Pasos': "Passos",
+    'Atrás': "Enrere",
+    'Siguiente': "Següent",
+    'Cerrar': "Tancar",
+    'Cancelar': "Cancel·lar",
+    'Idioma': "Idioma",
+    'Volver al inicio': "Tornar a l’inici",
+    'Inteligencia artificial': "Intel·ligència artificial",
+    'Proveedor': "Proveïdor",
+    'Tu clave de API': "La teva clau d’API",
+    'Ver': "Veure",
+    'Modelo': "Model",
+    'Ver los modelos de mi clave': "Veure els models de la meva clau",
+    'f.ia.ayuda': "La clau es desa només en aquest navegador i s’envia únicament al teu proveïdor. Cada persona fa servir la seva i paga el seu ús. Tria un model econòmic: aquest ús no necessita el més potent.",
+    'Esto es lo que saldría hacia tu proveedor de IA': "Això és el que sortiria cap al teu proveïdor d’IA",
+    'f.envio.chk': "He revisat la mostra i confirmo que pot sortir del meu ordinador.",
+    'Muestra del envío:': "Mostra de l’enviament:",
+    'Realizada entre': "Realitzada per",
+    'Realizada por': "Realitzada per",
+    'Cómo funciona': "Com funciona",
+    'Dónde va cada cosa': "On va cada cosa",
+    'Siempre en tu ordenador': "Sempre al teu ordinador",
+    'Sale hacia tu proveedor de IA': "Surt cap al teu proveïdor d’IA",
+    'No se pudo cargar la librería {0}. Puede que un bloqueador o la red de tu institución la impida; prueba otra red o desactiva el bloqueador en esta página.': "No s’ha pogut carregar la biblioteca {0}. Potser un bloquejador o la xarxa de la teua institució ho impedeix; prova una altra xarxa o desactiva el bloquejador en aquesta pàgina.",
+    'Sin conexión: hace falta internet para abrir este tipo de fichero la primera vez.': "Sense connexió: cal internet per a obrir aquest tipus de fitxer la primera vegada.",
+    'No se pudo guardar en el navegador (¿demasiado material?)': "No s’ha pogut desar al navegador (massa material?)",
+    'No se pudo guardar en el navegador': "No s’ha pogut desar al navegador",
+    '{0} no reconoce tu clave. Revísala en el botón «IA».': "{0} no reconeix la teva clau. Revisa-la al botó «IA».",
+    'Tu clave no tiene acceso al modelo «{0}». Elige otro en el botón «IA».': "La teva clau no té accés al model «{0}». Tria’n un altre al botó «IA».",
+    'Tu cuenta de {0} no tiene saldo o ha alcanzado su límite.': "El teu compte de {0} no té saldo o ha arribat al límit.",
+    'El modelo «{0}» no admite imágenes. Elige uno con visión.': "El model «{0}» no admet imatges. Tria’n un amb visió.",
+    'No hay conexión con {0}.': "No hi ha connexió amb {0}.",
+    '{0} no responde ahora mismo. Inténtalo de nuevo en un momento.': "{0} no respon ara mateix. Torna-ho a provar d’aquí a un moment.",
+    'Falta tu clave de IA. Pulsa el botón «IA», arriba.': "Falta la teva clau d’IA. Prem el botó «IA», a dalt.",
+    'OpenAI no responde ahora mismo.': "OpenAI no respon ara mateix.",
+    'El proveedor ha bloqueado la respuesta ({0}).': "El proveïdor ha bloquejat la resposta ({0}).",
+    'La IA no devolvió una respuesta con el formato esperado. Inténtalo de nuevo.': "La IA no ha retornat una resposta amb el format esperat. Torna-ho a provar.",
+    'Primero pega tu clave.': "Primer enganxa la teva clau.",
+    '{0} modelos disponibles en tu clave; escribe o elige uno.': "{0} models disponibles amb la teva clau; escriu-ne o tria’n un.",
+    'Pega tu clave de IA para continuar': "Enganxa la teva clau d’IA per continuar",
+    'El PowerPoint no tiene diapositivas': "El PowerPoint no té diapositives",
+    'Formato no admitido (usa Word, PDF, PowerPoint, texto, imágenes, audio o vídeo)': "Format no admès (fes servir Word, PDF, PowerPoint, text, imatges, àudio o vídeo)",
+    '«{0}» pesa más de 600 MB: exporta solo el audio (MP3 o WAV) y súbelo en su lugar.': "«{0}» pesa més de 600 MB: exporta només l’àudio (MP3 o WAV) i puja’l en lloc seu.",
+    'No se pudo leer el audio de «{0}». Prueba a exportarlo como MP3 o WAV.': "No s’ha pogut llegir l’àudio de «{0}». Prova d’exportar-lo com a MP3 o WAV.",
+    'Para transcribir necesitas una clave de OpenAI o de Gemini (Claude no transcribe audio). Añádela en el botón «IA».': "Per transcriure necessites una clau d’OpenAI o de Gemini (Claude no transcriu àudio). Afegeix-la al botó «IA».",
+    'actual': "actual",
+    'no aparece en tu clave': "no apareix a la teva clau",
+    'Otro modelo (escribirlo)…': "Un altre model (escriure’l)…",
+    'Escribe el nombre exacto del modelo': "Escriu el nom exacte del model",
+    'Cargando los modelos de tu clave…': "Carregant els models de la teva clau…",
+    '{0} modelos disponibles en tu clave: elígelo en el desplegable.': "{0} models disponibles amb la teva clau: tria’l al desplegable.",
+    'Tu clave no devolvió ningún modelo de texto. Escribe el nombre con «Otro modelo».': "La teva clau no ha retornat cap model de text. Escriu el nom amb «Un altre model»."
+  },
+  eu: {
+    'Inicio': "Hasiera",
+    'Ayuda': "Laguntza",
+    'IA': "AA",
+    'Pasos': "Urratsak",
+    'Atrás': "Atzera",
+    'Siguiente': "Hurrengoa",
+    'Cerrar': "Itxi",
+    'Cancelar': "Utzi",
+    'Idioma': "Hizkuntza",
+    'Volver al inicio': "Hasierara itzuli",
+    'Inteligencia artificial': "Adimen artifiziala",
+    'Proveedor': "Hornitzailea",
+    'Tu clave de API': "Zure API gakoa",
+    'Ver': "Ikusi",
+    'Modelo': "Eredua",
+    'Ver los modelos de mi clave': "Nire gakoaren ereduak ikusi",
+    'f.ia.ayuda': "Gakoa nabigatzaile honetan bakarrik gordetzen da eta zure hornitzaileari bakarrik bidaltzen zaio. Pertsona bakoitzak berea erabiltzen du eta bere erabilera ordaintzen du. Aukeratu eredu merke bat: erabilera honek ez du ahaltsuena behar.",
+    'Esto es lo que saldría hacia tu proveedor de IA': "Hau bidaliko litzateke zure AA hornitzailera",
+    'f.envio.chk': "Lagina berrikusi dut eta baieztatzen dut nire ordenagailutik atera daitekeela.",
+    'Muestra del envío:': "Bidalketaren lagina:",
+    'Realizada entre': "Egileak",
+    'Realizada por': "Egilea",
+    'Cómo funciona': "Nola dabilen",
+    'Dónde va cada cosa': "Non dagoen bakoitza",
+    'Siempre en tu ordenador': "Beti zure ordenagailuan",
+    'Sale hacia tu proveedor de IA': "Zure AA hornitzailera bidaltzen da",
+    'No se pudo cargar la librería {0}. Puede que un bloqueador o la red de tu institución la impida; prueba otra red o desactiva el bloqueador en esta página.': "Ezin izan da {0} liburutegia kargatu. Agian blokeatzaile batek edo zure erakundearen sareak eragozten du; probatu beste sare bat edo desaktibatu blokeatzailea orri honetan.",
+    'Sin conexión: hace falta internet para abrir este tipo de fichero la primera vez.': "Konexiorik gabe: internet behar da fitxategi mota hau lehen aldiz irekitzeko.",
+    'No se pudo guardar en el navegador (¿demasiado material?)': "Ezin izan da nabigatzailean gorde (material gehiegi?)",
+    'No se pudo guardar en el navegador': "Ezin izan da nabigatzailean gorde",
+    '{0} no reconoce tu clave. Revísala en el botón «IA».': "{0}k ez du zure gakoa ezagutzen. Egiaztatu «AA» botoian.",
+    'Tu clave no tiene acceso al modelo «{0}». Elige otro en el botón «IA».': "Zure gakoak ez du «{0}» eredurako sarbiderik. Aukeratu beste bat «AA» botoian.",
+    'Tu cuenta de {0} no tiene saldo o ha alcanzado su límite.': "Zure {0} kontuak ez du saldorik edo mugara iritsi da.",
+    'El modelo «{0}» no admite imágenes. Elige uno con visión.': "«{0}» ereduak ez du irudirik onartzen. Aukeratu ikusmena duen bat.",
+    'No hay conexión con {0}.': "Ez dago konexiorik {0}-rekin.",
+    '{0} no responde ahora mismo. Inténtalo de nuevo en un momento.': "{0}k ez du erantzuten oraintxe. Saiatu berriro geroxeago.",
+    'Falta tu clave de IA. Pulsa el botón «IA», arriba.': "Zure AA gakoa falta da. Sakatu goiko «AA» botoia.",
+    'OpenAI no responde ahora mismo.': "OpenAIk ez du erantzuten oraintxe.",
+    'El proveedor ha bloqueado la respuesta ({0}).': "Hornitzaileak erantzuna blokeatu du ({0}).",
+    'La IA no devolvió una respuesta con el formato esperado. Inténtalo de nuevo.': "AAk ez du espero zen formatuko erantzunik itzuli. Saiatu berriro.",
+    'Primero pega tu clave.': "Lehenik itsatsi zure gakoa.",
+    '{0} modelos disponibles en tu clave; escribe o elige uno.': "{0} eredu daude erabilgarri zure gakoarekin; idatzi edo aukeratu bat.",
+    'Pega tu clave de IA para continuar': "Itsatsi zure AA gakoa jarraitzeko",
+    'El PowerPoint no tiene diapositivas': "PowerPointak ez du diapositibarik",
+    'Formato no admitido (usa Word, PDF, PowerPoint, texto, imágenes, audio o vídeo)': "Formatu onartezina (erabili Word, PDF, PowerPoint, testua, irudiak, audioa edo bideoa)",
+    '«{0}» pesa más de 600 MB: exporta solo el audio (MP3 o WAV) y súbelo en su lugar.': "«{0}»k 600 MB baino gehiago ditu: esportatu audioa bakarrik (MP3 edo WAV) eta igo hori.",
+    'No se pudo leer el audio de «{0}». Prueba a exportarlo como MP3 o WAV.': "Ezin izan da «{0}»ren audioa irakurri. Saiatu MP3 edo WAV gisa esportatzen.",
+    'Para transcribir necesitas una clave de OpenAI o de Gemini (Claude no transcribe audio). Añádela en el botón «IA».': "Transkribatzeko OpenAI edo Gemini gako bat behar duzu (Claudek ez du audiorik transkribatzen). Gehitu «AA» botoian.",
+    'actual': "oraingoa",
+    'no aparece en tu clave': "ez dago zure gakoan",
+    'Otro modelo (escribirlo)…': "Beste eredu bat (idatzi)…",
+    'Escribe el nombre exacto del modelo': "Idatzi ereduaren izen zehatza",
+    'Cargando los modelos de tu clave…': "Zure gakoaren ereduak kargatzen…",
+    '{0} modelos disponibles en tu clave: elígelo en el desplegable.': "{0} eredu daude zure gakoarekin: aukeratu zabaltzen den zerrendan.",
+    'Tu clave no devolvió ningún modelo de texto. Escribe el nombre con «Otro modelo».': "Zure gakoak ez du testu-eredurik itzuli. Idatzi izena «Beste eredu bat» aukerarekin."
+  },
+  gl: {
+    'Inicio': "Inicio",
+    'Ayuda': "Axuda",
+    'IA': "IA",
+    'Pasos': "Pasos",
+    'Atrás': "Atrás",
+    'Siguiente': "Seguinte",
+    'Cerrar': "Pechar",
+    'Cancelar': "Cancelar",
+    'Idioma': "Idioma",
+    'Volver al inicio': "Volver ao inicio",
+    'Inteligencia artificial': "Intelixencia artificial",
+    'Proveedor': "Provedor",
+    'Tu clave de API': "A túa clave de API",
+    'Ver': "Ver",
+    'Modelo': "Modelo",
+    'Ver los modelos de mi clave': "Ver os modelos da miña clave",
+    'f.ia.ayuda': "A clave gárdase só neste navegador e envíase unicamente ao teu provedor. Cada persoa usa a súa e paga o seu uso. Escolle un modelo económico: este uso non precisa o máis potente.",
+    'Esto es lo que saldría hacia tu proveedor de IA': "Isto é o que sairía cara ao teu provedor de IA",
+    'f.envio.chk': "Revisei a mostra e confirmo que pode saír do meu ordenador.",
+    'Muestra del envío:': "Mostra do envío:",
+    'Realizada entre': "Realizada por",
+    'Realizada por': "Realizada por",
+    'Cómo funciona': "Como funciona",
+    'Dónde va cada cosa': "Onde vai cada cousa",
+    'Siempre en tu ordenador': "Sempre no teu ordenador",
+    'Sale hacia tu proveedor de IA': "Sae cara ao teu provedor de IA",
+    'No se pudo cargar la librería {0}. Puede que un bloqueador o la red de tu institución la impida; prueba otra red o desactiva el bloqueador en esta página.': "Non se puido cargar a biblioteca {0}. Quizais un bloqueador ou a rede da túa institución o impida; proba outra rede ou desactiva o bloqueador nesta páxina.",
+    'Sin conexión: hace falta internet para abrir este tipo de fichero la primera vez.': "Sen conexión: cómpre internet para abrir este tipo de ficheiro a primeira vez.",
+    'No se pudo guardar en el navegador (¿demasiado material?)': "Non se puido gardar no navegador (demasiado material?)",
+    'No se pudo guardar en el navegador': "Non se puido gardar no navegador",
+    '{0} no reconoce tu clave. Revísala en el botón «IA».': "{0} non recoñece a túa clave. Revísaa no botón «IA».",
+    'Tu clave no tiene acceso al modelo «{0}». Elige otro en el botón «IA».': "A túa clave non ten acceso ao modelo «{0}». Escolle outro no botón «IA».",
+    'Tu cuenta de {0} no tiene saldo o ha alcanzado su límite.': "A túa conta de {0} non ten saldo ou alcanzou o seu límite.",
+    'El modelo «{0}» no admite imágenes. Elige uno con visión.': "O modelo «{0}» non admite imaxes. Escolle un con visión.",
+    'No hay conexión con {0}.': "Non hai conexión con {0}.",
+    '{0} no responde ahora mismo. Inténtalo de nuevo en un momento.': "{0} non responde agora mesmo. Ténteo de novo nun momento.",
+    'Falta tu clave de IA. Pulsa el botón «IA», arriba.': "Falta a túa clave de IA. Preme o botón «IA», arriba.",
+    'OpenAI no responde ahora mismo.': "OpenAI non responde agora mesmo.",
+    'El proveedor ha bloqueado la respuesta ({0}).': "O provedor bloqueou a resposta ({0}).",
+    'La IA no devolvió una respuesta con el formato esperado. Inténtalo de nuevo.': "A IA non devolveu unha resposta co formato esperado. Ténteo de novo.",
+    'Primero pega tu clave.': "Primeiro pega a túa clave.",
+    '{0} modelos disponibles en tu clave; escribe o elige uno.': "{0} modelos dispoñibles na túa clave; escribe ou escolle un.",
+    'Pega tu clave de IA para continuar': "Pega a túa clave de IA para continuar",
+    'El PowerPoint no tiene diapositivas': "O PowerPoint non ten diapositivas",
+    'Formato no admitido (usa Word, PDF, PowerPoint, texto, imágenes, audio o vídeo)': "Formato non admitido (usa Word, PDF, PowerPoint, texto, imaxes, audio ou vídeo)",
+    '«{0}» pesa más de 600 MB: exporta solo el audio (MP3 o WAV) y súbelo en su lugar.': "«{0}» pesa máis de 600 MB: exporta só o audio (MP3 ou WAV) e súbeo no seu lugar.",
+    'No se pudo leer el audio de «{0}». Prueba a exportarlo como MP3 o WAV.': "Non se puido ler o audio de «{0}». Proba a exportalo como MP3 ou WAV.",
+    'Para transcribir necesitas una clave de OpenAI o de Gemini (Claude no transcribe audio). Añádela en el botón «IA».': "Para transcribir precisas unha clave de OpenAI ou de Gemini (Claude non transcribe audio). Engádea no botón «IA».",
+    'actual': "actual",
+    'no aparece en tu clave': "non aparece na túa clave",
+    'Otro modelo (escribirlo)…': "Outro modelo (escribilo)…",
+    'Escribe el nombre exacto del modelo': "Escribe o nome exacto do modelo",
+    'Cargando los modelos de tu clave…': "Cargando os modelos da túa clave…",
+    '{0} modelos disponibles en tu clave: elígelo en el desplegable.': "{0} modelos dispoñibles na túa clave: escólleo no despregable.",
+    'Tu clave no devolvió ningún modelo de texto. Escribe el nombre con «Otro modelo».': "A túa clave non devolveu ningún modelo de texto. Escribe o nome con «Outro modelo»."
+  }
+};
+
+const _dict = l => ({...(I18N_BASE[l] || {}), ...((typeof I18N !== 'undefined' && I18N && I18N[l]) || {})});
+const D = () => _D || (_D = _dict(LANG));
+/* t(clave, ...args): traduce y rellena {0}, {1}…  Si falta la traducción devuelve el español (la clave o I18N.es[clave]): nunca texto vacío. */
+function t(k, ...a) {
+  let s = D()[k];
+  if (s === undefined && typeof I18N !== 'undefined' && I18N && I18N.es) s = I18N.es[k];
+  if (s === undefined) s = k;
+  return a.length ? String(s).replace(/\{(\d+)\}/g, (m, i) => a[+i] ?? m) : String(s);
+}
+function applyI18n(root = document) {
+  document.documentElement.lang = LANG;
+  root.querySelectorAll('[data-i18n]').forEach(el => {
+    if (el._es === undefined) el._es = el.innerHTML;                       // el español original, tal como está en el HTML
+    const v = LANG === 'es' ? undefined : D()[el.dataset.i18n];
+    el.innerHTML = v !== undefined ? v : el._es;
+  });
+  root.querySelectorAll('[data-i18n-attr]').forEach(el => {
+    el._esA = el._esA || {};
+    el.dataset.i18nAttr.split(';').forEach(par => {
+      const [at, k] = par.split(':').map(x => x.trim()); if (!at || !k) return;
+      if (!(at in el._esA)) el._esA[at] = el.getAttribute(at) ?? '';
+      const v = LANG === 'es' ? undefined : D()[k]; el.setAttribute(at, v !== undefined ? v : el._esA[at]);
+    });
+  });
+  if (applyI18n._tit === undefined) applyI18n._tit = document.title;
+  const tit = LANG === 'es' ? undefined : D()['title']; document.title = tit !== undefined ? tit : applyI18n._tit;
+}
+function setLang(l) {
+  if (!langsOn().includes(l)) l = langsOn()[0];
+  LANG = l; _D = null; try { localStorage.setItem(APP + '_lang', l); } catch {}
+  applyI18n(); const s = $('selLang'); if (s) s.value = l;
+  window.dispatchEvent(new CustomEvent('langchange', {detail: l}));
+}
+/* llamada UNA vez desde iniciaUI(). Orden de preferencia: ?lang=xx en la URL (para compartir enlaces) → elección guardada → español. */
+function initI18n() {
+  let l = 'es'; try { l = localStorage.getItem(APP + '_lang') || 'es'; } catch {}
+  const q = new URLSearchParams(location.search).get('lang'); if (q) l = q;
+  LANG = langsOn().includes(l) ? l : 'es'; _D = null;
+  const sel = $('selLang');
+  if (sel) { sel.innerHTML = langsOn().map(x => `<option value="${x}">${LANGS[x]}</option>`).join(''); sel.value = LANG; sel.onchange = () => setLang(sel.value); }
+  if (langsOn().length < 2 && $('langBox')) $('langBox').remove();
+  applyI18n();
+}
+/* Para las pruebas: claves del HTML, pasos, botones y glosario que no tienen traducción en algún idioma activo ([] = completo). */
+function i18nFaltan() {
+  const keys = new Set(), lit = [];
+  document.querySelectorAll('[data-i18n]').forEach(el => keys.add(el.dataset.i18n));
+  document.querySelectorAll('[data-i18n-attr]').forEach(el => el.dataset.i18nAttr.split(';').forEach(p => { const k = (p.split(':')[1] || '').trim(); if (k) keys.add(k); }));
+  if (typeof STEPS !== 'undefined') lit.push(...STEPS);
+  if (typeof NAV !== 'undefined') NAV.forEach(n => lit.push(n[0], n[1]));
+  if (typeof GLOS !== 'undefined') GLOS.forEach(g => lit.push(g[0], g[1]));
+  if (typeof HUBS !== 'undefined') lit.push(...HUBS);
+  const out = [];
+  langsOn().filter(l => l !== 'es').forEach(l => { const d = _dict(l); [...keys, ...lit.filter(Boolean)].forEach(k => { if (d[k] === undefined) out.push(l + ': ' + String(k).slice(0, 60)); }); });
+  return out;
+}
+
+/* ══ Diccionarios de la app (español = idioma de origen, ya está en el HTML y en el JS). ══
+   Claves: · data-i18n="clave" del HTML (las de Forja ya vienen en I18N_BASE de 65-i18n.js; aquí solo las de esta app)
+           · la propia frase en español para t('…') del JS
+   Si falta una traducción, la app muestra el español y la prueba i18nFaltan() lo señala: no publiques con huecos.
+   Los valores del HTML pueden llevar etiquetas (<b>, <em>, <li>…); nunca metas aquí datos de la persona. ══ */
+const I18N = {
+  en: {
+    "title": "PAUsible · The most likely 2027 university entrance exam, by region and subject",
+    "hero.eyebrow": "Spain's PAU 2027 · 17 regions · official exams 2022-2026",
+    "hero.h1": "Your 2027 PAU exam, <em>the most PAUsible one</em>",
+    "hero.lede": "Pick your region and subject. PAUsible analyses the last five years of official exams, tells you which topics are most likely to come up and gives you a probable exam with a checked solution.",
+    "Elige comunidad y materia": "Choose your region and subject",
+    "Te han retado: {0} en el examen PAUsible de {1}.": "You've been challenged: {0} in the PAUsible {1} exam.",
+    "Te han retado con el examen PAUsible de {0}.": "You've been challenged with the PAUsible {0} exam.",
+    "¿Lo superas?": "Can you beat it?",
+    "Aceptar el reto": "Accept the challenge",
+    "Cargando datos…": "Loading data…",
+    "Corpus: {0} combinaciones comunidad × materia con exámenes oficiales · actualizado el {1}.": "Corpus: {0} region × subject combinations with official exams · updated {1}.",
+    "Todavía no se ha descargado el corpus de exámenes oficiales: de momento puedes ver el ejemplo.": "The official exam corpus has not been downloaded yet: for now you can see the example.",
+    "Tu última consulta:": "Your last search:",
+    "Seguir": "Continue",
+    "Ejemplo con datos ficticios: no es una predicción real": "Example with fictitious data: not a real prediction",
+    "{0} materias": "{0} subjects",
+    "Elige materia…": "Choose a subject…",
+    "Primero elige tu comunidad.": "First choose your region.",
+    "Aún no hay corpus descargado: las predicciones aparecerán cuando se cargue.": "No corpus downloaded yet: predictions will appear once it loads.",
+    "{0} exámenes oficiales analizados ({1}).": "{0} official exams analysed ({1}).",
+    "Faltan {0} días": "{0} days to go",
+    "PAU 2027 en {0}: fecha oficial publicada.": "PAU 2027 in {0}: official date published.",
+    "Fecha estimada: {0} aún no ha publicado el calendario de 2027.": "Estimated date: {0} has not yet published its 2027 calendar.",
+    "Ejemplo · {0}": "Example · {0}",
+    "Matemáticas II": "Mathematics II",
+    "Elige comunidad y materia.": "Choose your region and subject.",
+    "Aún no hay exámenes oficiales de esta materia en el corpus de esta comunidad.": "There are no official exams for this subject in this region's corpus yet.",
+    "Confianza alta": "High confidence",
+    "Confianza media": "Medium confidence",
+    "Confianza baja": "Low confidence",
+    "Sin temario por temas": "No topic breakdown",
+    "Datos ficticios de demostración": "Fictitious demo data",
+    "{0} exámenes oficiales · {1}": "{0} official exams · {1}",
+    "Pocos exámenes o un patrón débil: úsalo para ordenar el estudio, no para descartar temas.": "Few exams or a weak pattern: use it to order your study, not to drop topics.",
+    "Esta materia todavía no tiene temario por temas en PAUsible: puedes consultar los exámenes oficiales enlazados abajo.": "This subject has no topic breakdown in PAUsible yet: you can check the official exams linked below.",
+    "Temas por probabilidad": "Topics by probability",
+    "Salió en {0} de {1} exámenes": "Came up in {0} of {1} exams",
+    "último: {0}": "last: {0}",
+    "tendencia": "trend",
+    "Así salió:": "How it came up:",
+    "PDF oficial": "Official PDF",
+    "¿Habría acertado PAUsible?": "Would PAUsible have got it right?",
+    "Ocultamos el examen de {0} y lo predijimos con los anteriores: de los {1} temas que cayeron, {2} estaban en nuestro top {1}. Al azar se acertarían {3} %.": "We hid the {0} exam and predicted it from the earlier ones: of the {1} topics that came up, {2} were in our top {1}. Chance would get {3} %.",
+    "Aún no hay suficientes exámenes para comprobar el método en esta combinación.": "There are not enough exams yet to test the method for this combination.",
+    "Exámenes oficiales analizados": "Official exams analysed",
+    "En el ejemplo no hay enlaces: con datos reales verás aquí cada PDF oficial.": "The example has no links: with real data you will see each official PDF here.",
+    "en España: {0}": "in Spain: {0}",
+    "Cargando…": "Loading…",
+    "Todavía no hay examen probable para esta combinación": "There is no probable exam for this combination yet",
+    "Puedes generarlo ahora con tu clave de IA: un ponente lo redacta con los temas más probables y dos resolutores lo resuelven por separado; solo se queda lo que coincide.": "You can generate it now with your AI key: a setter writes it with the most likely topics and two solvers work it out separately; only what matches is kept.",
+    "Generar con mi clave": "Generate with my key",
+    "Hace falta antes una predicción por temas para esta materia.": "A topic prediction for this subject is needed first.",
+    "O prueba el ejemplo de Matemáticas II, que no necesita clave.": "Or try the Mathematics II example, which needs no key.",
+    "Ejemplo: soluciones comprobadas, temas ficticios": "Example: checked solutions, fictitious topics",
+    "Generado con tu clave": "Generated with your key",
+    "Parar cronómetro": "Stop timer",
+    "Empezar cronómetro de {0} min": "Start {0}-min timer",
+    "Se descartaron {0} pregunta(s) porque los resolutores no coincidieron.": "{0} question(s) were dropped because the solvers did not agree.",
+    "Pregunta {0}": "Question {0}",
+    "{0} puntos": "{0} points",
+    "Ver solución y criterios": "See solution and marking criteria",
+    "Resultado:": "Result:",
+    "Criterios:": "Criteria:",
+    "Mi nota en esta pregunta": "My mark on this question",
+    "Dos resoluciones independientes y su código coinciden": "Two independent solutions and their code agree",
+    "comprobada por código": "checked by code",
+    "Dos resoluciones independientes coinciden": "Two independent solutions agree",
+    "doble resolución": "double-solved",
+    "sin verificar": "unverified",
+    "Cuando te corrijas, aquí verás tu nota del simulacro.": "Once you mark yourself, your mock-exam grade will appear here.",
+    "Tu nota del simulacro": "Your mock-exam grade",
+    "{0} de {1} preguntas corregidas": "{0} of {1} questions marked",
+    "Compartir mi resultado": "Share my result",
+    "¡Tiempo! Deja el boli y corrígete.": "Time's up! Put the pen down and mark yourself.",
+    "El ponente redacta el examen…": "The setter is writing the exam…",
+    "Pregunta {0} de {1}: {2}": "Question {0} of {1}: {2}",
+    "Ninguna pregunta superó la doble resolución. Prueba otra vez o con otro modelo.": "No question passed the double solution. Try again or with another model.",
+    "Mi PAU 2027": "My PAU 2027",
+    "ejemplo": "example",
+    "Lo más probable que caiga": "Most likely to come up",
+    "Mi nota en el examen probable": "My grade on the probable exam",
+    "¿Me superas? → pausible": "Can you beat me? → pausible",
+    "He sacado un {0} en el examen PAUsible de {1} ({2}). ¿Me superas?": "I got {0} in the PAUsible {1} exam ({2}). Can you beat me?",
+    "Esto es lo más probable que caiga en la PAU 2027 de {0}. Míralo:": "This is what's most likely to come up in the 2027 PAU for {0}. Have a look:",
+    "Quien abra tu enlace hará el mismo examen probable y podrá comparar su nota con la tuya.": "Whoever opens your link will take the same probable exam and can compare their grade with yours.",
+    "Imagen descargada: súbela a tu historia": "Image downloaded: post it to your story",
+    "Enlace copiado": "Link copied",
+    "El ranking aparecerá cuando se cargue el corpus de exámenes oficiales.": "The ranking will appear once the official exam corpus loads.",
+    "PAU más previsible": "Most predictable PAU",
+    "Porcentaje medio de temas del último examen que el método habría acertado con los exámenes anteriores.": "Average share of topics in the latest exam that the method would have predicted from the earlier exams.",
+    "Lo más probable en toda España": "Most likely across Spain",
+    "{0} comunidades": "{0} regions",
+    "resolutor A": "solver A",
+    "resolutor B": "solver B",
+    "desempate": "tie-break",
+    "tribunal": "examining board",
+    "Elegir mi comunidad": "Choose my region",
+    "Prueba el ejemplo: no necesita clave ni datos.": "Try the example: no key or data needed.",
+    "Ver la predicción": "See the prediction",
+    "Hacer el examen probable": "Take the probable exam",
+    "Estudia primero lo de arriba.": "Study the top topics first.",
+    "Abre cada solución y ponte nota.": "Open each solution and mark yourself.",
+    "Volver al inicio": "Back to start",
+    "Comparte la tarjeta o reta a un amigo.": "Share the card or challenge a friend.",
+    "¿Qué hace PAUsible?": "What does PAUsible do?",
+    "Lee los exámenes oficiales de la PAU publicados por cada comunidad entre 2022 y 2026, calcula qué temas tienen más probabilidad de caer en 2027 y te ofrece un examen probable resuelto.": "It reads the official PAU exams published by each region from 2022 to 2026, calculates which topics are most likely to come up in 2027 and gives you a solved probable exam.",
+    "¿Cómo se calcula la probabilidad?": "How is the probability calculated?",
+    "Por código, sin IA: se cuenta en qué exámenes aparece cada tema, pesando más 2025 y 2026 (el modelo de examen cambió en 2025). Un tema frecuente que no salió el último año sube un poco. Ningún tema baja del 5 %.": "By code, without AI: it counts which exams each topic appears in, weighting 2025 and 2026 more (the exam model changed in 2025). A frequent topic that did not come up last year goes up a little. No topic drops below 5 %.",
+    "¿Acierta?": "Does it get it right?",
+    "Cada predicción se pone a prueba ocultando el último examen y prediciéndolo con los anteriores. Ves cuántos temas habría acertado y cuántos acertaría el azar. Si la confianza es baja, se dice.": "Each prediction is tested by hiding the latest exam and predicting it from the earlier ones. You see how many topics it would have got right and how many chance would. If confidence is low, it says so.",
+    "¿Las soluciones están bien?": "Are the solutions right?",
+    "Cada pregunta la resuelven dos IA por separado. Solo se publica si coinciden; en cálculo, además, un programa comprueba el resultado. Es mucho más fiable que una sola IA, pero no es infalible: si ves un error, avísanos en GitHub.": "Each question is solved by two AIs separately. It is only published if they agree; in calculations, a program also checks the result. Much more reliable than a single AI, but not infallible: if you spot an error, tell us on GitHub.",
+    "¿Es oficial?": "Is it official?",
+    "No. PAUsible no tiene relación con las universidades ni con las comisiones de la PAU. Los exámenes reales enlazados son los oficiales; los exámenes probables son originales y no anticipan el examen real.": "No. PAUsible has no connection with the universities or the PAU boards. The real exams linked are the official ones; the probable exams are original and do not anticipate the real exam.",
+    "Generar con tu clave": "Generate with your key",
+    "Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI, Gemini o Claude. Sale la comunidad, la materia y la lista de temas; nada personal.": "If your combination has no probable exam yet, you can generate it with your OpenAI, Gemini or Claude key. Only the region, subject and topic list are sent; nothing personal.",
+    "Privacidad": "Privacy",
+    "No hay registro. Tu comunidad, materia y notas se guardan solo en este navegador. La tarjeta para compartir se dibuja en tu dispositivo.": "No sign-up. Your region, subject and grades are stored only in this browser. The share card is drawn on your device.",
+    "ordinaria": "ordinary sitting",
+    "extraordinaria": "resit",
+    "modelo": "sample exam",
+    "Inicio": "Start",
+    "Tu PAU": "Your PAU",
+    "Predicción": "Prediction",
+    "Examen": "Exam",
+    "Comparte": "Share",
+    "Ranking de España": "Spain ranking",
+    "s.elegir": "Choose my region",
+    "s.ejemplo": "See an example",
+    "s.ranking": "Spain ranking",
+    "s.j1b": "We read the official exams",
+    "s.j1s": "Every exam your region published from 2022 to 2026, linked to the original PDF.",
+    "s.j2b": "We calculate the probability",
+    "s.j2s": "Frequency, trend and rotation of each topic, and we check whether the method would have been right last year.",
+    "s.j3b": "Probable exam, solved twice",
+    "s.j3s": "Two AIs solve it separately and only what matches is published (and, in calculations, what the code confirms).",
+    "s.zl": "<li>Your region, your subjects and your mock-exam grades</li><li>Your AI key, if you choose to use one</li><li>The card you share: it is drawn on your phone</li>",
+    "s.zn": "<li>Only if you generate a new exam with your own key: the subject, the region and the topic list</li><li>Nothing personal: no sign-up and no data about you</li>",
+    "s.paso1": "Step 1 of 4",
+    "s.tupau": "Your PAU",
+    "s.tupau.lede": "Choose the region where you sit the exam and the subject.",
+    "Comunidad autónoma": "Region",
+    "Materia": "Subject",
+    "s.paso2": "Step 2 of 4",
+    "s.pred.lede": "Probability that each topic appears in your 2027 exam. No topic drops below 5 %: this orders your study, it does not let you skip topics.",
+    "s.paso3": "Step 3 of 4",
+    "Examen probable": "Probable exam",
+    "s.ex.lede": "Do it in 90 minutes without peeking. Then open each solution, mark yourself with the criteria and share your grade.",
+    "s.paso4": "Step 4 of 4",
+    "Comparte y reta": "Share and challenge",
+    "s.comp.lede": "Your card for stories and a link to challenge your friends with the same exam.",
+    "Compartir tarjeta": "Share card",
+    "Descargar imagen": "Download image",
+    "Retar por WhatsApp": "Challenge on WhatsApp",
+    "Copiar enlace de reto": "Copy challenge link",
+    "s.rank.lede": "Which region has the most predictable PAU? Which topics come up almost everywhere in Spain?",
+    "f.pie2": "PAUsible is not official and has no connection with the PAU boards. Predictions are probabilities calculated from past exams: study the whole syllabus. Open source (MIT) on <a href=\"https://github.com/fborrasumh/pausible\">GitHub</a>.",
+    "Tarjeta para compartir": "Share card"
+  },
+  pt: {
+    "title": "PAUsible · O exame de acesso à universidade 2027 mais provável, por comunidade e disciplina",
+    "hero.eyebrow": "PAU 2027 de Espanha · 17 comunidades · exames oficiais 2022-2026",
+    "hero.h1": "O teu exame da PAU 2027, <em>o mais PAUsível</em>",
+    "hero.lede": "Escolhe a tua comunidade e a tua disciplina. O PAUsible analisa os exames oficiais dos últimos cinco anos, diz-te que temas têm mais probabilidade de sair e dá-te um exame provável com a solução verificada.",
+    "Elige comunidad y materia": "Escolhe comunidade e disciplina",
+    "Te han retado: {0} en el examen PAUsible de {1}.": "Foste desafiado: {0} no exame PAUsible de {1}.",
+    "Te han retado con el examen PAUsible de {0}.": "Foste desafiado com o exame PAUsible de {0}.",
+    "¿Lo superas?": "Consegues superar?",
+    "Aceptar el reto": "Aceitar o desafio",
+    "Cargando datos…": "A carregar dados…",
+    "Corpus: {0} combinaciones comunidad × materia con exámenes oficiales · actualizado el {1}.": "Corpus: {0} combinações comunidade × disciplina com exames oficiais · atualizado a {1}.",
+    "Todavía no se ha descargado el corpus de exámenes oficiales: de momento puedes ver el ejemplo.": "O corpus de exames oficiais ainda não foi descarregado: por agora podes ver o exemplo.",
+    "Tu última consulta:": "A tua última consulta:",
+    "Seguir": "Continuar",
+    "Ejemplo con datos ficticios: no es una predicción real": "Exemplo com dados fictícios: não é uma previsão real",
+    "{0} materias": "{0} disciplinas",
+    "Elige materia…": "Escolhe a disciplina…",
+    "Primero elige tu comunidad.": "Primeiro escolhe a tua comunidade.",
+    "Aún no hay corpus descargado: las predicciones aparecerán cuando se cargue.": "Ainda não há corpus descarregado: as previsões aparecerão quando for carregado.",
+    "{0} exámenes oficiales analizados ({1}).": "{0} exames oficiais analisados ({1}).",
+    "Faltan {0} días": "Faltam {0} dias",
+    "PAU 2027 en {0}: fecha oficial publicada.": "PAU 2027 em {0}: data oficial publicada.",
+    "Fecha estimada: {0} aún no ha publicado el calendario de 2027.": "Data estimada: {0} ainda não publicou o calendário de 2027.",
+    "Ejemplo · {0}": "Exemplo · {0}",
+    "Matemáticas II": "Matemática II",
+    "Elige comunidad y materia.": "Escolhe comunidade e disciplina.",
+    "Aún no hay exámenes oficiales de esta materia en el corpus de esta comunidad.": "Ainda não há exames oficiais desta disciplina no corpus desta comunidade.",
+    "Confianza alta": "Confiança alta",
+    "Confianza media": "Confiança média",
+    "Confianza baja": "Confiança baixa",
+    "Sin temario por temas": "Sem temário por temas",
+    "Datos ficticios de demostración": "Dados fictícios de demonstração",
+    "{0} exámenes oficiales · {1}": "{0} exames oficiais · {1}",
+    "Pocos exámenes o un patrón débil: úsalo para ordenar el estudio, no para descartar temas.": "Poucos exames ou um padrão fraco: usa-o para ordenar o estudo, não para descartar temas.",
+    "Esta materia todavía no tiene temario por temas en PAUsible: puedes consultar los exámenes oficiales enlazados abajo.": "Esta disciplina ainda não tem temário por temas no PAUsible: podes consultar os exames oficiais ligados abaixo.",
+    "Temas por probabilidad": "Temas por probabilidade",
+    "Salió en {0} de {1} exámenes": "Saiu em {0} de {1} exames",
+    "último: {0}": "último: {0}",
+    "tendencia": "tendência",
+    "Así salió:": "Assim saiu:",
+    "PDF oficial": "PDF oficial",
+    "¿Habría acertado PAUsible?": "O PAUsible teria acertado?",
+    "Ocultamos el examen de {0} y lo predijimos con los anteriores: de los {1} temas que cayeron, {2} estaban en nuestro top {1}. Al azar se acertarían {3} %.": "Escondemos o exame de {0} e previmo-lo com os anteriores: dos {1} temas que saíram, {2} estavam no nosso top {1}. Ao acaso acertar-se-iam {3} %.",
+    "Aún no hay suficientes exámenes para comprobar el método en esta combinación.": "Ainda não há exames suficientes para testar o método nesta combinação.",
+    "Exámenes oficiales analizados": "Exames oficiais analisados",
+    "En el ejemplo no hay enlaces: con datos reales verás aquí cada PDF oficial.": "No exemplo não há ligações: com dados reais verás aqui cada PDF oficial.",
+    "en España: {0}": "em Espanha: {0}",
+    "Cargando…": "A carregar…",
+    "Todavía no hay examen probable para esta combinación": "Ainda não há exame provável para esta combinação",
+    "Puedes generarlo ahora con tu clave de IA: un ponente lo redacta con los temas más probables y dos resolutores lo resuelven por separado; solo se queda lo que coincide.": "Podes gerá-lo agora com a tua chave de IA: um autor redige-o com os temas mais prováveis e dois resolvedores resolvem-no em separado; só fica o que coincide.",
+    "Generar con mi clave": "Gerar com a minha chave",
+    "Hace falta antes una predicción por temas para esta materia.": "Primeiro é preciso uma previsão por temas para esta disciplina.",
+    "O prueba el ejemplo de Matemáticas II, que no necesita clave.": "Ou experimenta o exemplo de Matemática II, que não precisa de chave.",
+    "Ejemplo: soluciones comprobadas, temas ficticios": "Exemplo: soluções verificadas, temas fictícios",
+    "Generado con tu clave": "Gerado com a tua chave",
+    "Parar cronómetro": "Parar cronómetro",
+    "Empezar cronómetro de {0} min": "Iniciar cronómetro de {0} min",
+    "Se descartaron {0} pregunta(s) porque los resolutores no coincidieron.": "Foram descartadas {0} pergunta(s) porque os resolvedores não coincidiram.",
+    "Pregunta {0}": "Pergunta {0}",
+    "{0} puntos": "{0} pontos",
+    "Ver solución y criterios": "Ver solução e critérios",
+    "Resultado:": "Resultado:",
+    "Criterios:": "Critérios:",
+    "Mi nota en esta pregunta": "A minha nota nesta pergunta",
+    "Dos resoluciones independientes y su código coinciden": "Duas resoluções independentes e o seu código coincidem",
+    "comprobada por código": "verificada por código",
+    "Dos resoluciones independientes coinciden": "Duas resoluções independentes coincidem",
+    "doble resolución": "dupla resolução",
+    "sin verificar": "sem verificar",
+    "Cuando te corrijas, aquí verás tu nota del simulacro.": "Quando te corrigires, verás aqui a tua nota do simulado.",
+    "Tu nota del simulacro": "A tua nota do simulado",
+    "{0} de {1} preguntas corregidas": "{0} de {1} perguntas corrigidas",
+    "Compartir mi resultado": "Partilhar o meu resultado",
+    "¡Tiempo! Deja el boli y corrígete.": "Tempo! Pousa a caneta e corrige-te.",
+    "El ponente redacta el examen…": "O autor está a redigir o exame…",
+    "Pregunta {0} de {1}: {2}": "Pergunta {0} de {1}: {2}",
+    "Ninguna pregunta superó la doble resolución. Prueba otra vez o con otro modelo.": "Nenhuma pergunta passou a dupla resolução. Tenta outra vez ou com outro modelo.",
+    "Mi PAU 2027": "A minha PAU 2027",
+    "ejemplo": "exemplo",
+    "Lo más probable que caiga": "O mais provável de sair",
+    "Mi nota en el examen probable": "A minha nota no exame provável",
+    "¿Me superas? → pausible": "Consegues superar-me? → pausible",
+    "He sacado un {0} en el examen PAUsible de {1} ({2}). ¿Me superas?": "Tirei {0} no exame PAUsible de {1} ({2}). Consegues superar-me?",
+    "Esto es lo más probable que caiga en la PAU 2027 de {0}. Míralo:": "Isto é o mais provável de sair na PAU 2027 de {0}. Vê:",
+    "Quien abra tu enlace hará el mismo examen probable y podrá comparar su nota con la tuya.": "Quem abrir a tua ligação fará o mesmo exame provável e poderá comparar a nota com a tua.",
+    "Imagen descargada: súbela a tu historia": "Imagem descarregada: publica-a na tua história",
+    "Enlace copiado": "Ligação copiada",
+    "El ranking aparecerá cuando se cargue el corpus de exámenes oficiales.": "O ranking aparecerá quando o corpus de exames oficiais for carregado.",
+    "PAU más previsible": "PAU mais previsível",
+    "Porcentaje medio de temas del último examen que el método habría acertado con los exámenes anteriores.": "Percentagem média de temas do último exame que o método teria acertado com os exames anteriores.",
+    "Lo más probable en toda España": "O mais provável em toda a Espanha",
+    "{0} comunidades": "{0} comunidades",
+    "resolutor A": "resolvedor A",
+    "resolutor B": "resolvedor B",
+    "desempate": "desempate",
+    "tribunal": "júri",
+    "Elegir mi comunidad": "Escolher a minha comunidade",
+    "Prueba el ejemplo: no necesita clave ni datos.": "Experimenta o exemplo: não precisa de chave nem de dados.",
+    "Ver la predicción": "Ver a previsão",
+    "Hacer el examen probable": "Fazer o exame provável",
+    "Estudia primero lo de arriba.": "Estuda primeiro o que está em cima.",
+    "Abre cada solución y ponte nota.": "Abre cada solução e dá-te nota.",
+    "Volver al inicio": "Voltar ao início",
+    "Comparte la tarjeta o reta a un amigo.": "Partilha o cartão ou desafia um amigo.",
+    "¿Qué hace PAUsible?": "O que faz o PAUsible?",
+    "Lee los exámenes oficiales de la PAU publicados por cada comunidad entre 2022 y 2026, calcula qué temas tienen más probabilidad de caer en 2027 y te ofrece un examen probable resuelto.": "Lê os exames oficiais da PAU publicados por cada comunidade entre 2022 e 2026, calcula que temas têm mais probabilidade de sair em 2027 e oferece-te um exame provável resolvido.",
+    "¿Cómo se calcula la probabilidad?": "Como se calcula a probabilidade?",
+    "Por código, sin IA: se cuenta en qué exámenes aparece cada tema, pesando más 2025 y 2026 (el modelo de examen cambió en 2025). Un tema frecuente que no salió el último año sube un poco. Ningún tema baja del 5 %.": "Por código, sem IA: conta-se em que exames aparece cada tema, pesando mais 2025 e 2026 (o modelo de exame mudou em 2025). Um tema frequente que não saiu no último ano sobe um pouco. Nenhum tema desce abaixo de 5 %.",
+    "¿Acierta?": "Acerta?",
+    "Cada predicción se pone a prueba ocultando el último examen y prediciéndolo con los anteriores. Ves cuántos temas habría acertado y cuántos acertaría el azar. Si la confianza es baja, se dice.": "Cada previsão é testada escondendo o último exame e prevendo-o com os anteriores. Vês quantos temas teria acertado e quantos acertaria o acaso. Se a confiança for baixa, diz-se.",
+    "¿Las soluciones están bien?": "As soluções estão certas?",
+    "Cada pregunta la resuelven dos IA por separado. Solo se publica si coinciden; en cálculo, además, un programa comprueba el resultado. Es mucho más fiable que una sola IA, pero no es infalible: si ves un error, avísanos en GitHub.": "Cada pergunta é resolvida por duas IA em separado. Só se publica se coincidirem; no cálculo, um programa verifica ainda o resultado. É muito mais fiável do que uma só IA, mas não é infalível: se vires um erro, avisa-nos no GitHub.",
+    "¿Es oficial?": "É oficial?",
+    "No. PAUsible no tiene relación con las universidades ni con las comisiones de la PAU. Los exámenes reales enlazados son los oficiales; los exámenes probables son originales y no anticipan el examen real.": "Não. O PAUsible não tem relação com as universidades nem com as comissões da PAU. Os exames reais ligados são os oficiais; os exames prováveis são originais e não antecipam o exame real.",
+    "Generar con tu clave": "Gerar com a tua chave",
+    "Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI, Gemini o Claude. Sale la comunidad, la materia y la lista de temas; nada personal.": "Se a tua combinação ainda não tem exame provável, podes gerá-lo com a tua chave de OpenAI, Gemini ou Claude. Sai a comunidade, a disciplina e a lista de temas; nada pessoal.",
+    "Privacidad": "Privacidade",
+    "No hay registro. Tu comunidad, materia y notas se guardan solo en este navegador. La tarjeta para compartir se dibuja en tu dispositivo.": "Não há registo. A tua comunidade, disciplina e notas ficam só neste navegador. O cartão para partilhar é desenhado no teu dispositivo.",
+    "ordinaria": "ordinária",
+    "extraordinaria": "extraordinária",
+    "modelo": "modelo",
+    "Inicio": "Início",
+    "Tu PAU": "A tua PAU",
+    "Predicción": "Previsão",
+    "Examen": "Exame",
+    "Comparte": "Partilha",
+    "Ranking de España": "Ranking de Espanha",
+    "s.elegir": "Escolher a minha comunidade",
+    "s.ejemplo": "Ver um exemplo",
+    "s.ranking": "Ranking de Espanha",
+    "s.j1b": "Lemos os exames oficiais",
+    "s.j1s": "Todos os publicados pela tua comunidade entre 2022 e 2026, com ligação ao PDF original.",
+    "s.j2b": "Calculamos a probabilidade",
+    "s.j2s": "Frequência, tendência e rotação de cada tema, e verificamos se o método teria acertado no ano passado.",
+    "s.j3b": "Exame provável, resolvido duas vezes",
+    "s.j3s": "Duas IA resolvem-no em separado e só se publica o que coincide (e, no cálculo, o que o código confirma).",
+    "s.zl": "<li>A tua comunidade, as tuas disciplinas e as tuas notas de simulado</li><li>A tua chave de IA, se decidires usar uma</li><li>O cartão que partilhas: é desenhado no teu telemóvel</li>",
+    "s.zn": "<li>Só se gerares um exame novo com a tua própria chave: a disciplina, a comunidade e a lista de temas</li><li>Nada pessoal: não há registo nem dados teus</li>",
+    "s.paso1": "Passo 1 de 4",
+    "s.tupau": "A tua PAU",
+    "s.tupau.lede": "Escolhe a comunidade onde fazes o exame e a disciplina.",
+    "Comunidad autónoma": "Comunidade autónoma",
+    "Materia": "Disciplina",
+    "s.paso2": "Passo 2 de 4",
+    "s.pred.lede": "Probabilidade de cada tema aparecer no teu exame de 2027. Nenhum tema desce abaixo de 5 %: isto ordena o teu estudo, não te autoriza a saltar temas.",
+    "s.paso3": "Passo 3 de 4",
+    "Examen probable": "Exame provável",
+    "s.ex.lede": "Faz em 90 minutos, sem espreitar. Depois abre cada solução, dá-te nota com os critérios e partilha-a.",
+    "s.paso4": "Passo 4 de 4",
+    "Comparte y reta": "Partilha e desafia",
+    "s.comp.lede": "O teu cartão para histórias e uma ligação para desafiar os teus amigos com o mesmo exame.",
+    "Compartir tarjeta": "Partilhar cartão",
+    "Descargar imagen": "Descarregar imagem",
+    "Retar por WhatsApp": "Desafiar pelo WhatsApp",
+    "Copiar enlace de reto": "Copiar ligação de desafio",
+    "s.rank.lede": "Que comunidade tem a PAU mais previsível? Que temas saem em quase toda a Espanha?",
+    "f.pie2": "O PAUsible não é oficial nem tem relação com as comissões da PAU. As previsões são probabilidades calculadas com exames anteriores: estuda todo o temário. Código aberto (MIT) no <a href=\"https://github.com/fborrasumh/pausible\">GitHub</a>.",
+    "Tarjeta para compartir": "Cartão para partilhar"
+  },
+};
+
+/* ══ Datos fijos de PAUsible. Los datos reales (predicciones y exámenes) los genera el pipeline en data/ y se cargan al abrir. ══ */
+const URL_APP = 'https://fborrasumh.github.io/pausible/';
+/* Fechas PAU 2027: solo las publicadas oficialmente (oct. 2026: Andalucía y Canarias, 1-4 jun.). El resto se estima y se dice. */
+const FECHA_ESTIMADA = '2027-06-01';
+const CCAA = [
+  ['andalucia', 'Andalucía', '2027-06-01'], ['aragon', 'Aragón'], ['asturias', 'Principado de Asturias'], ['baleares', 'Illes Balears'],
+  ['canarias', 'Canarias', '2027-06-01'], ['cantabria', 'Cantabria'], ['castillalamancha', 'Castilla-La Mancha'], ['castillaleon', 'Castilla y León'],
+  ['cataluna', 'Cataluña'], ['valenciana', 'Comunitat Valenciana'], ['extremadura', 'Extremadura'], ['galicia', 'Galicia'], ['rioja', 'La Rioja'],
+  ['madrid', 'Comunidad de Madrid'], ['murcia', 'Región de Murcia'], ['navarra', 'Comunidad Foral de Navarra'], ['paisvasco', 'País Vasco']
+].map(([id, nombre, fecha]) => ({id, nombre, fecha: fecha || FECHA_ESTIMADA, oficial: !!fecha}));
+const MATERIAS = {
+  lengua: 'Lengua Castellana y Literatura II', historia: 'Historia de España', filosofia: 'Historia de la Filosofía', ingles: 'Inglés II',
+  matematicas2: 'Matemáticas II', matccss: 'Matemáticas Aplicadas a las CC. Sociales II', fisica: 'Física', quimica: 'Química', biologia: 'Biología',
+  geologia: 'Geología y Ciencias Ambientales', dibujo: 'Dibujo Técnico II', empresa: 'Empresa y Diseño de Modelos de Negocio', geografia: 'Geografía',
+  historiaarte: 'Historia del Arte', latin: 'Latín II', griego: 'Griego II', valenciano: 'Valencià: Llengua i Literatura II', catalan: 'Llengua Catalana i Literatura',
+  gallego: 'Lingua Galega e Literatura II', euskera: 'Euskara eta Literatura II', frances: 'Francés II', aleman: 'Alemán II', italiano: 'Italiano II', portugues: 'Portugués II',
+  dibujoartistico: 'Dibujo Artístico II', diseno: 'Diseño', musica: 'Análisis Musical II', audiovisual: 'Cultura Audiovisual', escenicas: 'Artes Escénicas II',
+  tecnologia: 'Tecnología e Ingeniería II', matgenerales: 'Matemáticas Generales', ciencias: 'Ciencias Generales', movimientos: 'Movimientos Culturales y Artísticos',
+  literaturadram: 'Literatura Dramática', graficoplastica: 'Técnicas de Expresión Gráfico-Plástica'
+};
+const CALCULO = new Set(['matematicas2', 'matccss', 'fisica', 'quimica', 'empresa', 'matgenerales', 'tecnologia']);
+
+/* ── Ejemplo sin clave y sin red: predicción FICTICIA (marcada como tal) + examen probable cuyas soluciones se han
+      comprobado con sympy (inversa y AX=B; distancia y simétrico; V=x(12−2x)² → x=2, V=128; ∫₀²(2x−x²)=4/3; Bayes 3/8). ── */
+const EJ_PRED = {nombre: 'Matemáticas II', n_examenes: 10, anios: [2022, 2023, 2024, 2025, 2026], confianza: 'media', ficticio: true,
+  validacion: {anio: 2026, k: 4, aciertos: 3, tasa: 0.75, azar: 0.57},
+  temas: [
+    {id: 'derivadas', nombre: 'Derivadas y aplicaciones', p: 0.92, veces: 10, de: 10, ultimo: 2026, tendencia: 'estable'},
+    {id: 'geometria', nombre: 'Geometría en el espacio', p: 0.88, veces: 9, de: 10, ultimo: 2026, tendencia: 'estable'},
+    {id: 'matrices', nombre: 'Matrices y determinantes', p: 0.81, veces: 8, de: 10, ultimo: 2025, tendencia: 'estable'},
+    {id: 'probabilidad', nombre: 'Probabilidad y distribuciones', p: 0.78, veces: 7, de: 10, ultimo: 2026, tendencia: 'sube'},
+    {id: 'integrales', nombre: 'Integrales y áreas', p: 0.74, veces: 8, de: 10, ultimo: 2024, tendencia: 'estable'},
+    {id: 'sistemas', nombre: 'Sistemas de ecuaciones (discusión)', p: 0.55, veces: 6, de: 10, ultimo: 2025, tendencia: 'baja'},
+    {id: 'limites', nombre: 'Límites y continuidad', p: 0.31, veces: 3, de: 10, ultimo: 2023, tendencia: 'baja'}]};
+const EJ_EXAMEN = {
+  es: {titulo: 'Matemáticas II · examen probable (ejemplo)', duracion_min: 90, instrucciones: 'Responde a las cinco preguntas. Se permite calculadora no programable. Justifica todas las respuestas.', ficticio: true,
+    preguntas: [
+      {n: '1', tema: 'matrices', puntos: 2, tipo: 'calculo', enunciado: 'Sea A la matriz 2×2 de filas (2, 1) y (1, 1), y B la matriz columna (1, 2).\na) Calcula la inversa de A.\nb) Resuelve la ecuación matricial A·X = B.', resultado: 'A⁻¹ = filas (1, −1) y (−1, 2); X = (−1, 3)', solucion: '**a)** det(A) = 2·1 − 1·1 = 1 ≠ 0, luego A es invertible. A⁻¹ = (1/det A)·adj(A)ᵗ = filas (1, −1) y (−1, 2).\n\n**b)** X = A⁻¹·B = (1·1 − 1·2, −1·1 + 2·2) = (−1, 3).\n\nComprobación: A·X = (2·(−1) + 3, −1 + 3) = (1, 2) = B.', criterios: 'a) 1 punto (determinante 0,25; inversa 0,75). b) 1 punto.', verificacion: 'codigo', resoluciones: 2},
+      {n: '2', tema: 'geometria', puntos: 2, tipo: 'calculo', enunciado: 'Una antena está en el punto P(1, 2, 3) y el tejado de un edificio está contenido en el plano π: x + 2y + 2z = 4.\na) Calcula la distancia de la antena al tejado.\nb) Halla el punto simétrico de P respecto de π.', resultado: 'd = 7/3; P′ = (−5/9, −10/9, −1/9)', solucion: '**a)** d(P, π) = |1 + 4 + 6 − 4| / √(1 + 4 + 4) = 7/3 u.\n\n**b)** Recta perpendicular por P: (1 + t, 2 + 2t, 3 + 2t). Al sustituir en π: 9t + 7 = 0 → t = −7/9, punto medio M. El simétrico es P′ = P + 2t·(1, 2, 2) = (1 − 14/9, 2 − 28/9, 3 − 28/9) = (−5/9, −10/9, −1/9).', criterios: 'a) 0,75 puntos. b) 1,25 puntos (recta 0,5; punto medio 0,25; simétrico 0,5).', verificacion: 'codigo', resoluciones: 2},
+      {n: '3', tema: 'derivadas', puntos: 2, tipo: 'calculo', enunciado: 'Con una lámina cuadrada de cartón de 12 cm de lado se quiere fabricar una caja sin tapa cortando un cuadrado de lado x en cada esquina y doblando los bordes. ¿Qué valor de x hace máximo el volumen? ¿Cuál es ese volumen?', resultado: 'x = 2 cm; V = 128 cm³', solucion: 'V(x) = x·(12 − 2x)², con 0 < x < 6.\n\nV′(x) = (12 − 2x)² − 4x(12 − 2x) = (12 − 2x)(12 − 6x) = 0 → x = 2 (x = 6 no es válido).\n\nV″(x) = 24x − 96 → V″(2) = −48 < 0: máximo. V(2) = 2·8² = 128 cm³.', criterios: 'Función 0,75; derivada y puntos críticos 0,75; justificación del máximo y valor 0,5.', verificacion: 'codigo', resoluciones: 2},
+      {n: '4', tema: 'integrales', puntos: 2, tipo: 'calculo', enunciado: 'Calcula el área del recinto limitado por la parábola y = x² y la recta y = 2x.', resultado: 'Área = 4/3 u²', solucion: 'Cortes: x² = 2x → x = 0 y x = 2. En (0, 2) la recta va por encima.\n\nÁrea = ∫₀² (2x − x²) dx = [x² − x³/3]₀² = 4 − 8/3 = 4/3 u².', criterios: 'Puntos de corte 0,5; planteamiento 0,75; cálculo 0,75.', verificacion: 'codigo', resoluciones: 2},
+      {n: '5', tema: 'probabilidad', puntos: 2, tipo: 'calculo', enunciado: 'Una fábrica tiene dos máquinas. La A produce el 60 % de las piezas y la B el 40 %. El 2 % de las piezas de A y el 5 % de las de B son defectuosas.\na) ¿Qué probabilidad hay de que una pieza elegida al azar sea defectuosa?\nb) Si una pieza es defectuosa, ¿qué probabilidad hay de que la haya fabricado A?', resultado: 'a) 0,032; b) 0,375', solucion: '**a)** Probabilidad total: P(D) = 0,6·0,02 + 0,4·0,05 = 0,012 + 0,020 = 0,032.\n\n**b)** Bayes: P(A|D) = 0,012 / 0,032 = 0,375.', criterios: 'a) 1 punto. b) 1 punto.', verificacion: 'codigo', resoluciones: 2}]},
+  en: {titulo: 'Mathematics II · probable exam (example)', duracion_min: 90, instrucciones: 'Answer all five questions. A non-programmable calculator is allowed. Justify every answer.', ficticio: true,
+    preguntas: [
+      {n: '1', tema: 'matrices', puntos: 2, tipo: 'calculo', enunciado: 'Let A be the 2×2 matrix with rows (2, 1) and (1, 1), and B the column matrix (1, 2).\na) Find the inverse of A.\nb) Solve the matrix equation A·X = B.', resultado: 'A⁻¹ = rows (1, −1) and (−1, 2); X = (−1, 3)', solucion: '**a)** det(A) = 2·1 − 1·1 = 1 ≠ 0, so A is invertible. A⁻¹ = rows (1, −1) and (−1, 2).\n\n**b)** X = A⁻¹·B = (1·1 − 1·2, −1·1 + 2·2) = (−1, 3).\n\nCheck: A·X = (2·(−1) + 3, −1 + 3) = (1, 2) = B.', criterios: 'a) 1 point (determinant 0.25; inverse 0.75). b) 1 point.', verificacion: 'codigo', resoluciones: 2},
+      {n: '2', tema: 'geometria', puntos: 2, tipo: 'calculo', enunciado: 'An antenna is at point P(1, 2, 3) and a building\'s roof lies on the plane π: x + 2y + 2z = 4.\na) Find the distance from the antenna to the roof.\nb) Find the point symmetric to P with respect to π.', resultado: 'd = 7/3; P′ = (−5/9, −10/9, −1/9)', solucion: '**a)** d(P, π) = |1 + 4 + 6 − 4| / √(1 + 4 + 4) = 7/3 u.\n\n**b)** Perpendicular line through P: (1 + t, 2 + 2t, 3 + 2t). Substituting into π: 9t + 7 = 0 → t = −7/9 (midpoint M). The symmetric point is P′ = P + 2t·(1, 2, 2) = (−5/9, −10/9, −1/9).', criterios: 'a) 0.75 points. b) 1.25 points (line 0.5; midpoint 0.25; symmetric point 0.5).', verificacion: 'codigo', resoluciones: 2},
+      {n: '3', tema: 'derivadas', puntos: 2, tipo: 'calculo', enunciado: 'From a square sheet of cardboard with 12 cm sides, an open box is made by cutting a square of side x from each corner and folding up the edges. Which value of x maximises the volume? What is that volume?', resultado: 'x = 2 cm; V = 128 cm³', solucion: 'V(x) = x·(12 − 2x)², with 0 < x < 6.\n\nV′(x) = (12 − 2x)(12 − 6x) = 0 → x = 2 (x = 6 is not valid).\n\nV″(x) = 24x − 96 → V″(2) = −48 < 0: maximum. V(2) = 2·8² = 128 cm³.', criterios: 'Function 0.75; derivative and critical points 0.75; justification and value 0.5.', verificacion: 'codigo', resoluciones: 2},
+      {n: '4', tema: 'integrales', puntos: 2, tipo: 'calculo', enunciado: 'Find the area of the region bounded by the parabola y = x² and the line y = 2x.', resultado: 'Area = 4/3 u²', solucion: 'Intersections: x² = 2x → x = 0 and x = 2. On (0, 2) the line lies above.\n\nArea = ∫₀² (2x − x²) dx = [x² − x³/3]₀² = 4 − 8/3 = 4/3 u².', criterios: 'Intersections 0.5; set-up 0.75; calculation 0.75.', verificacion: 'codigo', resoluciones: 2},
+      {n: '5', tema: 'probabilidad', puntos: 2, tipo: 'calculo', enunciado: 'A factory has two machines. A makes 60 % of the parts and B 40 %. 2 % of A\'s parts and 5 % of B\'s are defective.\na) What is the probability that a part chosen at random is defective?\nb) If a part is defective, what is the probability that A made it?', resultado: 'a) 0.032; b) 0.375', solucion: '**a)** Total probability: P(D) = 0.6·0.02 + 0.4·0.05 = 0.012 + 0.020 = 0.032.\n\n**b)** Bayes: P(A|D) = 0.012 / 0.032 = 0.375.', criterios: 'a) 1 point. b) 1 point.', verificacion: 'codigo', resoluciones: 2}]},
+  pt: {titulo: 'Matemática II · exame provável (exemplo)', duracion_min: 90, instrucciones: 'Responde às cinco perguntas. É permitida calculadora não programável. Justifica todas as respostas.', ficticio: true,
+    preguntas: [
+      {n: '1', tema: 'matrices', puntos: 2, tipo: 'calculo', enunciado: 'Seja A a matriz 2×2 de linhas (2, 1) e (1, 1), e B a matriz coluna (1, 2).\na) Calcula a inversa de A.\nb) Resolve a equação matricial A·X = B.', resultado: 'A⁻¹ = linhas (1, −1) e (−1, 2); X = (−1, 3)', solucion: '**a)** det(A) = 2·1 − 1·1 = 1 ≠ 0, logo A é invertível. A⁻¹ = linhas (1, −1) e (−1, 2).\n\n**b)** X = A⁻¹·B = (1·1 − 1·2, −1·1 + 2·2) = (−1, 3).\n\nVerificação: A·X = (2·(−1) + 3, −1 + 3) = (1, 2) = B.', criterios: 'a) 1 ponto (determinante 0,25; inversa 0,75). b) 1 ponto.', verificacion: 'codigo', resoluciones: 2},
+      {n: '2', tema: 'geometria', puntos: 2, tipo: 'calculo', enunciado: 'Uma antena está no ponto P(1, 2, 3) e o telhado de um edifício está contido no plano π: x + 2y + 2z = 4.\na) Calcula a distância da antena ao telhado.\nb) Determina o ponto simétrico de P em relação a π.', resultado: 'd = 7/3; P′ = (−5/9, −10/9, −1/9)', solucion: '**a)** d(P, π) = |1 + 4 + 6 − 4| / √(1 + 4 + 4) = 7/3 u.\n\n**b)** Reta perpendicular por P: (1 + t, 2 + 2t, 3 + 2t). Substituindo em π: 9t + 7 = 0 → t = −7/9 (ponto médio M). O simétrico é P′ = P + 2t·(1, 2, 2) = (−5/9, −10/9, −1/9).', criterios: 'a) 0,75 pontos. b) 1,25 pontos (reta 0,5; ponto médio 0,25; simétrico 0,5).', verificacion: 'codigo', resoluciones: 2},
+      {n: '3', tema: 'derivadas', puntos: 2, tipo: 'calculo', enunciado: 'Com uma folha quadrada de cartão de 12 cm de lado quer-se fazer uma caixa sem tampa, cortando um quadrado de lado x em cada canto e dobrando as abas. Que valor de x torna o volume máximo? Qual é esse volume?', resultado: 'x = 2 cm; V = 128 cm³', solucion: 'V(x) = x·(12 − 2x)², com 0 < x < 6.\n\nV′(x) = (12 − 2x)(12 − 6x) = 0 → x = 2 (x = 6 não é válido).\n\nV″(x) = 24x − 96 → V″(2) = −48 < 0: máximo. V(2) = 2·8² = 128 cm³.', criterios: 'Função 0,75; derivada e pontos críticos 0,75; justificação e valor 0,5.', verificacion: 'codigo', resoluciones: 2},
+      {n: '4', tema: 'integrales', puntos: 2, tipo: 'calculo', enunciado: 'Calcula a área da região limitada pela parábola y = x² e pela reta y = 2x.', resultado: 'Área = 4/3 u²', solucion: 'Interseções: x² = 2x → x = 0 e x = 2. Em (0, 2) a reta está por cima.\n\nÁrea = ∫₀² (2x − x²) dx = [x² − x³/3]₀² = 4 − 8/3 = 4/3 u².', criterios: 'Interseções 0,5; equação 0,75; cálculo 0,75.', verificacion: 'codigo', resoluciones: 2},
+      {n: '5', tema: 'probabilidad', puntos: 2, tipo: 'calculo', enunciado: 'Uma fábrica tem duas máquinas. A produz 60 % das peças e B 40 %. 2 % das peças de A e 5 % das de B são defeituosas.\na) Qual é a probabilidade de uma peça escolhida ao acaso ser defeituosa?\nb) Se uma peça é defeituosa, qual é a probabilidade de ter sido fabricada por A?', resultado: 'a) 0,032; b) 0,375', solucion: '**a)** Probabilidade total: P(D) = 0,6·0,02 + 0,4·0,05 = 0,012 + 0,020 = 0,032.\n\n**b)** Bayes: P(A|D) = 0,012 / 0,032 = 0,375.', criterios: 'a) 1 ponto. b) 1 ponto.', verificacion: 'codigo', resoluciones: 2}]}
+};
+
+/* ══ Núcleo de PAUsible: lógica pura (sin DOM salvo la tarjeta), probada en Node. ══ */
+let DATOS = {pred: null, idx: [], cargado: false};
+
+async function cargaDatos() {
+  try {
+    const r = await fetch('data/predicciones.json', {cache: 'no-cache'});
+    if (r.ok) DATOS.pred = await r.json();
+  } catch {}
+  try {
+    const r = await fetch('data/examenes/index.json', {cache: 'no-cache'});
+    if (r.ok) DATOS.idx = await r.json();
+  } catch {}
+  DATOS.cargado = true;
+  return DATOS;
+}
+const hayDatos = () => !!(DATOS.pred && Object.keys(DATOS.pred.ccaa || {}).length);
+const nombreCCAA = id => (CCAA.find(c => c.id === id) || {}).nombre || id;
+const nombreMat = id => MATERIAS[id] || id;
+function materiasDe(cid) {
+  const m = hayDatos() && DATOS.pred.ccaa[cid] ? Object.keys(DATOS.pred.ccaa[cid].materias) : [];
+  return m.sort((a, b) => Object.keys(MATERIAS).indexOf(a) - Object.keys(MATERIAS).indexOf(b));
+}
+const prediccionDe = (cid, mid) => (hayDatos() && DATOS.pred.ccaa[cid] && DATOS.pred.ccaa[cid].materias[mid]) || null;
+const tieneExamen = (cid, mid) => DATOS.idx.includes(`${cid}__${mid}`);
+async function cargaExamen(cid, mid) {
+  try { const r = await fetch(`data/examenes/${cid}__${mid}.json`, {cache: 'no-cache'}); return r.ok ? await r.json() : null; } catch { return null; }
+}
+
+/* días hasta la PAU de esa comunidad (fecha oficial si se ha publicado; si no, estimada y así se dice) */
+function diasHasta(fecha, hoy = new Date()) {
+  const f = new Date(fecha + 'T09:00:00'), d = Math.ceil((f - hoy) / 864e5);
+  return Math.max(0, d);
+}
+
+/* nota del simulacro a partir de la autoevaluación con los criterios (cada pregunta: puntos obtenidos) */
+function notaDe(preguntas, auto) {
+  const tot = preguntas.reduce((s, p) => s + (+p.puntos || 0), 0) || 1;
+  const sac = preguntas.reduce((s, p, i) => s + Math.min(+p.puntos || 0, Math.max(0, +(auto[i] ?? 0))), 0);
+  return Math.round(sac / tot * 1000) / 100;
+}
+
+/* reto: enlace que abre la misma comunidad y materia con la nota de quien reta */
+function enlaceReto({c, m, n}, base = URL_APP) { const q = new URLSearchParams({c, m}); if (n != null) q.set('n', String(n)); return base + '?' + q.toString(); }
+function leeReto(search) {
+  const q = new URLSearchParams(search || '');
+  const c = q.get('c'), m = q.get('m'), n = q.get('n');
+  if (!c || !CCAA.some(x => x.id === c) || !m || !MATERIAS[m]) return null;
+  const nota = n != null && /^\d{1,2}(\.\d{1,2})?$/.test(n) && +n <= 10 ? +n : null;
+  return {c, m, n: nota};
+}
+
+/* LaTeX ligero → texto legible (sin librerías: la CSP no deja cargar nada y la app ha de ir sin red) */
+function latexLite(s) {
+  let x = String(s || '');
+  const SUP = {'0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹', '-': '⁻', '+': '⁺', 'n': 'ⁿ', 'x': 'ˣ'};
+  const SUB = {'0': '₀', '1': '₁', '2': '₂', '3': '₃', '4': '₄', '5': '₅', '6': '₆', '7': '₇', '8': '₈', '9': '₉'};
+  const sup = t => [...t].every(ch => SUP[ch]) ? [...t].map(ch => SUP[ch]).join('') : '^(' + t + ')';
+  const sub = t => [...t].every(ch => SUB[ch]) ? [...t].map(ch => SUB[ch]).join('') : '_(' + t + ')';
+  for (let k = 0; k < 3; k++) x = x.replace(/\\[dt]?frac\{([^{}]*)\}\{([^{}]*)\}/g, '($1)/($2)').replace(/\\sqrt\{([^{}]*)\}/g, '√($1)');
+  const MAP = {'\\cdot': '·', '\\times': '×', '\\leq': '≤', '\\le': '≤', '\\geq': '≥', '\\ge': '≥', '\\neq': '≠', '\\infty': '∞', '\\pi': 'π', '\\alpha': 'α', '\\beta': 'β', '\\lambda': 'λ', '\\mu': 'μ', '\\sigma': 'σ', '\\theta': 'θ', '\\Delta': 'Δ', '\\int': '∫', '\\sum': '∑', '\\to': '→', '\\rightarrow': '→', '\\Rightarrow': '⇒', '\\pm': '±', '\\approx': '≈', '\\in': '∈', '\\mathbb{R}': 'ℝ', '\\lim': 'lím', '\\ln': 'ln', '\\log': 'log', '\\sin': 'sen', '\\cos': 'cos', '\\tan': 'tg', '\\left': '', '\\right': '', '\\,': ' ', '\\;': ' ', '\\!': ''};
+  for (const [k, v] of Object.entries(MAP).sort((a, b) => b[0].length - a[0].length)) x = x.split(k).join(v);
+  x = x.replace(/\^\{([^{}]*)\}/g, (_, t) => sup(t)).replace(/\^(\w)/g, (_, t) => sup(t)).replace(/_\{([^{}]*)\}/g, (_, t) => sub(t)).replace(/_(\d)/g, (_, t) => sub(t));
+  return x.replace(/\$\$?/g, '').replace(/\\text\{([^{}]*)\}/g, '$1').replace(/\\\\/g, '\n');
+}
+
+/* igualdad numérica con tolerancia relativa (misma regla que pipeline/genera.py) */
+function iguales(a, b, tol = 1e-3) {
+  if (!Array.isArray(a) || !Array.isArray(b) || !a.length || a.length !== b.length) return false;
+  return a.every((x, i) => Number.isFinite(+x) && Number.isFinite(+b[i]) && Math.abs(x - b[i]) <= tol * Math.max(1, Math.abs(x), Math.abs(b[i])));
+}
+
+/* ── Generación con tu clave: ponente + dos resolutores independientes + desempate/tribunal (como el pipeline, sin ejecutar código) ── */
+const SYS_PAU = 'Eres miembro de la comisión que elabora la PAU (selectividad) en España. Eres riguroso y respondes SOLO con JSON válido.';
+const P_PONENTE = (cc, mat, temas) => `Redacta un examen ORIGINAL de «${mat}» para la PAU 2027 de ${cc}, con el formato del modelo vigente desde 2025 (modelo único, 90 minutos, parte competencial con situaciones contextualizadas). Reparte las preguntas según estas probabilidades de tema, priorizando las más altas:
+${temas.map(t => `- ${t.nombre}: ${Math.round(t.p * 100)} %`).join('\n')}
+Cada pregunta debe tener UNA solución inequívoca; en cálculo, datos que den resultados limpios.
+Devuelve SOLO JSON: {"titulo":"…","duracion_min":90,"instrucciones":"…","preguntas":[{"n":"1","tema":"id","puntos":2.5,"tipo":"calculo|abierta","enunciado":"…"}]}
+Ids de tema válidos: ${temas.map(t => t.id).join(', ')}
+${INSTR_IDIOMA()}`;
+const P_RESOL = (mat, p, variante) => `Resuelve esta pregunta de la PAU de «${mat}» como la comisión correctora, paso a paso. ${variante}
+Devuelve SOLO JSON: {"solucion":"desarrollo en Markdown","resultado":"resultado final en una línea","numeros":[resultados finales como números, en orden; [] si no es de cálculo],"claves":["afirmaciones que una respuesta correcta debe contener"],"criterios":"reparto de puntos"}
+${INSTR_IDIOMA()}
+
+PREGUNTA (${p.puntos} puntos):
+${p.enunciado}`;
+const P_TRIB = (mat, p, sols) => `Eres el tribunal de la PAU de «${mat}». Compara estas resoluciones independientes. ¿Coinciden en lo esencial? ¿Alguna tiene un error de contenido?
+Devuelve SOLO JSON: {"coinciden":true|false,"errores":["…"],"mejor":"A|B|ninguna"}
+PREGUNTA: ${p.enunciado}
+${sols.map((s, i) => `--- ${'AB'[i]} ---\n${s.solucion}\nClaves: ${JSON.stringify(s.claves || [])}`).join('\n\n')}`;
+const VARIANTES = ['', 'Resuélvela por un método distinto al más habitual si existe y comprueba el resultado al final.', 'Sé especialmente cuidadoso con signos, unidades y casos particulares.'];
+
+/* resuelve(): devuelve {sol, nivel} o null. «ask» es la función de IA (inyectable en las pruebas). */
+async function resuelvePregunta(ask, mat, p, onPaso = () => {}) {
+  const nums = s => (s.numeros || []).map(Number).filter(Number.isFinite);
+  const sols = [];
+  for (let k = 0; k < 2; k++) { onPaso(k); sols.push(await ask(P_RESOL(mat, p, VARIANTES[k]))); }
+  if (p.tipo === 'calculo') {
+    if (iguales(nums(sols[0]), nums(sols[1]))) return {sol: sols[0], nivel: 'consenso', n: 2};
+    onPaso(2); sols.push(await ask(P_RESOL(mat, p, VARIANTES[2])));
+    for (const [i, j] of [[0, 2], [1, 2]]) if (iguales(nums(sols[i]), nums(sols[j]))) return {sol: sols[i], nivel: 'consenso', n: 3};
+    return null;
+  }
+  onPaso(3);
+  const tr = await ask(P_TRIB(mat, p, sols));
+  if (tr && tr.coinciden && !(tr.errores || []).length && (tr.mejor === 'A' || tr.mejor === 'B')) return {sol: sols[tr.mejor === 'A' ? 0 : 1], nivel: 'consenso', n: 2};
+  return null;
+}
+async function generaExamen(ask, cc, mat, temas, onPaso = () => {}) {
+  const ex = await ask(P_PONENTE(cc, mat, temas));
+  const preguntas = [], descartadas = [];
+  for (const [i, p] of (ex.preguntas || []).entries()) {
+    const r = await resuelvePregunta(ask, mat, p, k => onPaso(i, k, ex.preguntas.length));
+    if (r) preguntas.push({...p, solucion: r.sol.solucion, resultado: r.sol.resultado || '', criterios: r.sol.criterios || '', verificacion: r.nivel, resoluciones: r.n});
+    else descartadas.push(p.n);
+  }
+  return {titulo: ex.titulo || mat, duracion_min: ex.duracion_min || 90, instrucciones: ex.instrucciones || '', preguntas, descartadas, propio: true, generado: new Date().toISOString().slice(0, 10)};
+}
+
+/* ── Tarjeta para compartir (formato historia 1080×1920) ── */
+function tarjeta(cv, d) {
+  const W = 1080, H = 1920; cv.width = W; cv.height = H;
+  const x = cv.getContext('2d');
+  const g = x.createLinearGradient(0, 0, W, H); g.addColorStop(0, '#2A1A6E'); g.addColorStop(0.55, '#6B4FD8'); g.addColorStop(1, '#E4572E');
+  x.fillStyle = g; x.fillRect(0, 0, W, H);
+  x.fillStyle = 'rgba(255,255,255,.08)'; for (let i = 0; i < 9; i++) { x.beginPath(); x.arc(980 - i * 40, 220 + i * 170, 120 + i * 18, 0, 7); x.fill(); }
+  const F = (w, s) => `${w} ${s}px "Inter", "Segoe UI", system-ui, sans-serif`;
+  const txt = (t, X, Y, f, c = '#fff', al = 'left') => { x.font = f; x.fillStyle = c; x.textAlign = al; x.fillText(t, X, Y); };
+  const corta = (t, max, f) => { x.font = f; let s = String(t); while (x.measureText(s).width > max && s.length > 3) s = s.slice(0, -2); return s === String(t) ? s : s.trimEnd() + '…'; };
+  txt('PAUsible', 90, 170, F(800, 84));
+  txt(d.cabecera, 90, 240, F(600, 40), 'rgba(255,255,255,.85)');
+  txt(corta(d.materia, 900, F(800, 64)), 90, 420, F(800, 64));
+  txt(corta(d.ccaa, 900, F(500, 46)), 90, 490, F(500, 46), 'rgba(255,255,255,.9)');
+  txt(d.titTop, 90, 640, F(700, 40), '#FFD166');
+  d.top.slice(0, 3).forEach((tm, i) => {
+    const Y = 720 + i * 190;
+    x.fillStyle = 'rgba(255,255,255,.14)'; x.beginPath(); x.roundRect(90, Y, 900, 150, 28); x.fill();
+    txt(`${Math.round(tm.p * 100)}%`, 130, Y + 98, F(800, 64), '#FFD166');
+    txt(corta(tm.nombre, 600, F(600, 40)), 330, Y + 92, F(600, 40));
+  });
+  let y = 1340;
+  if (d.nota != null) { txt(d.titNota, 90, y, F(600, 40), 'rgba(255,255,255,.85)'); txt(d.notaTxt, 90, y + 120, F(800, 140)); y += 230; }
+  txt(d.dias, 90, y + 40, F(700, 48), '#fff');
+  x.fillStyle = '#fff'; x.beginPath(); x.roundRect(90, 1700, 900, 120, 60); x.fill();
+  txt(d.cta, W / 2, 1777, F(800, 42), '#2A1A6E', 'center');
+  return cv;
+}
+
+if (typeof module !== 'undefined') module.exports = {notaDe, enlaceReto, leeReto, latexLite, iguales, resuelvePregunta, generaExamen, diasHasta};
+
+/* ══ PAUsible · interfaz ══ */
+const STEPS = ['Inicio', 'Tu PAU', 'Predicción', 'Examen', 'Comparte'];
+const HUBS = ['Ranking de España'];
+const NAV = [['Elegir mi comunidad', 'Prueba el ejemplo: no necesita clave ni datos.'], ['Ver la predicción', 'Elige comunidad y materia.'], ['Hacer el examen probable', 'Estudia primero lo de arriba.'], ['Compartir mi resultado', 'Abre cada solución y ponte nota.'], ['Volver al inicio', 'Comparte la tarjeta o reta a un amigo.']];
+const RENDER = {0: pintaInicio, 1: pintaTuPau, 2: pintaPred, 3: pintaExamen, 4: pintaComparte, 5: pintaRanking};
+const CAN_NEXT = i => i === 1 && !(S.c && S.m) ? t('Elige comunidad y materia') : true;
+const GLOS = [
+  ['¿Qué hace PAUsible?', 'Lee los exámenes oficiales de la PAU publicados por cada comunidad entre 2022 y 2026, calcula qué temas tienen más probabilidad de caer en 2027 y te ofrece un examen probable resuelto.'],
+  ['¿Cómo se calcula la probabilidad?', 'Por código, sin IA: se cuenta en qué exámenes aparece cada tema, pesando más 2025 y 2026 (el modelo de examen cambió en 2025). Un tema frecuente que no salió el último año sube un poco. Ningún tema baja del 5 %.'],
+  ['¿Acierta?', 'Cada predicción se pone a prueba ocultando el último examen y prediciéndolo con los anteriores. Ves cuántos temas habría acertado y cuántos acertaría el azar. Si la confianza es baja, se dice.'],
+  ['¿Las soluciones están bien?', 'Cada pregunta la resuelven dos IA por separado. Solo se publica si coinciden; en cálculo, además, un programa comprueba el resultado. Es mucho más fiable que una sola IA, pero no es infalible: si ves un error, avísanos en GitHub.'],
+  ['¿Es oficial?', 'No. PAUsible no tiene relación con las universidades ni con las comisiones de la PAU. Los exámenes reales enlazados son los oficiales; los exámenes probables son originales y no anticipan el examen real.'],
+  ['Generar con tu clave', 'Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI, Gemini o Claude. Sale la comunidad, la materia y la lista de temas; nada personal.'],
+  ['Privacidad', 'No hay registro. Tu comunidad, materia y notas se guardan solo en este navegador. La tarjeta para compartir se dibuja en tu dispositivo.']
+];
+let S = {c: '', m: '', auto: {}, examen: null, ejemplo: false, crono: null};
+const MEM = {examenes: {}};
+const ejemploOn = () => S.ejemplo;
+const predActual = () => ejemploOn() ? EJ_PRED : prediccionDe(S.c, S.m);
+const examenActual = () => ejemploOn() ? EJ_EXAMEN[LANG] || EJ_EXAMEN.es : (S.examen && S.examen.c === S.c && S.examen.m === S.m ? S.examen.ex : MEM.examenes[`${S.c}__${S.m}`] || null);
+const cc = () => CCAA.find(c => c.id === S.c);
+const fmtP = p => Math.round(p * 100) + ' %';
+const fmtN = n => (+n).toLocaleString(locale(), {minimumFractionDigits: 1, maximumFractionDigits: 2});
+const RETO = leeReto(location.search);
+const TEND = {sube: '↑', baja: '↓', estable: '→'};
+
+/* ── 0 · inicio ── */
+function pintaInicio() {
+  const b = $('retoBanner');
+  if (RETO) {
+    b.hidden = false;
+    b.innerHTML = `<b>${esc(RETO.n != null ? t('Te han retado: {0} en el examen PAUsible de {1}.', fmtN(RETO.n), nombreMat(RETO.m)) : t('Te han retado con el examen PAUsible de {0}.', nombreMat(RETO.m)))}</b><p class="sub" style="margin:4px 0 10px">${esc(nombreCCAA(RETO.c))} · ${esc(t('¿Lo superas?'))}</p><button class="btn btn-primary" id="btnReto" type="button">${esc(t('Aceptar el reto'))}</button>`;
+  } else b.hidden = true;
+  $('estadoDatos').textContent = !DATOS.cargado ? t('Cargando datos…') : hayDatos()
+    ? t('Corpus: {0} combinaciones comunidad × materia con exámenes oficiales · actualizado el {1}.', nf(Object.values(DATOS.pred.ccaa).reduce((s, c) => s + Object.keys(c.materias).length, 0)), DATOS.pred.generado)
+    : t('Todavía no se ha descargado el corpus de exámenes oficiales: de momento puedes ver el ejemplo.');
+  $('inicioProj').innerHTML = S.c && S.m && !S.ejemplo ? `${esc(t('Tu última consulta:'))} <b>${esc(nombreMat(S.m))} · ${esc(nombreCCAA(S.c))}</b> <button class="btn btn-ghost btn-sm" id="btnCont" type="button">${esc(t('Seguir'))}</button>` : '';
+}
+$('btnStart').onclick = () => { S.ejemplo = false; guarda(); go(1); };
+$('btnEjemplo').onclick = () => { S.ejemplo = true; S.auto = {}; guarda(); go(2); toast(t('Ejemplo con datos ficticios: no es una predicción real')); };
+$('btnRanking').onclick = () => go(5);
+document.addEventListener('click', e => {
+  if (e.target.id === 'btnCont') go(2);
+  if (e.target.id === 'btnReto') { S.c = RETO.c; S.m = RETO.m; S.ejemplo = false; S.auto = {}; guarda(); go(3); }
+});
+
+/* ── 1 · tu PAU ── */
+function pintaTuPau() {
+  $('ccaaGrid').innerHTML = CCAA.map(c => {
+    const n = materiasDe(c.id).length;
+    return `<button type="button" role="radio" aria-checked="${S.c === c.id}" data-c="${c.id}">${esc(c.nombre)}<small>${hayDatos() ? esc(t('{0} materias', n)) : ''}</small></button>`;
+  }).join('');
+  $$('#ccaaGrid button').forEach(b => b.onclick = () => { S.c = b.dataset.c; S.ejemplo = false; if (hayDatos() && !materiasDe(S.c).includes(S.m)) S.m = ''; S.auto = {}; guarda(); pintaTuPau(); });
+  const mats = S.c && hayDatos() ? materiasDe(S.c) : Object.keys(MATERIAS);
+  $('selMat').innerHTML = `<option value="">${esc(t('Elige materia…'))}</option>` + mats.map(m => `<option value="${m}">${esc(nombreMat(m))}</option>`).join('');
+  $('selMat').value = S.m; $('selMat').disabled = !S.c;
+  const reg = prediccionDe(S.c, S.m);
+  $('matInfo').textContent = !S.c ? t('Primero elige tu comunidad.') : !hayDatos() ? t('Aún no hay corpus descargado: las predicciones aparecerán cuando se cargue.')
+    : reg ? t('{0} exámenes oficiales analizados ({1}).', reg.n_examenes, reg.anios.join(', ')) : '';
+  const c = cc();
+  $('cuenta').innerHTML = c ? `${esc(t('Faltan {0} días', diasHasta(c.fecha)))}<small>${esc(c.oficial ? t('PAU 2027 en {0}: fecha oficial publicada.', c.nombre) : t('Fecha estimada: {0} aún no ha publicado el calendario de 2027.', c.nombre))}</small>` : '';
+}
+$('selMat').onchange = () => { S.m = $('selMat').value; S.auto = {}; guarda(); pintaTuPau(); };
+
+/* ── 2 · predicción ── */
+function pintaPred() {
+  const reg = predActual();
+  $('predTit').textContent = ejemploOn() ? t('Ejemplo · {0}', t('Matemáticas II')) : `${nombreMat(S.m)} · ${nombreCCAA(S.c)}`;
+  const aviso = $('predAviso');
+  if (!reg) {
+    aviso.innerHTML = `<p style="margin:0">${esc(!S.c || !S.m ? t('Elige comunidad y materia.') : t('Aún no hay exámenes oficiales de esta materia en el corpus de esta comunidad.'))}</p>`;
+    ['predTemas', 'predValid', 'predFuentes'].forEach(id => { $(id).innerHTML = ''; $(id).hidden = true; }); return;
+  }
+  ['predTemas', 'predValid', 'predFuentes'].forEach(id => $(id).hidden = false);
+  const CONF = {alta: ['ok', t('Confianza alta')], media: ['aviso', t('Confianza media')], baja: ['error', t('Confianza baja')], sin_temario: ['', t('Sin temario por temas')]};
+  const [cls, lbl] = CONF[reg.confianza] || CONF.baja;
+  aviso.innerHTML = `${reg.ficticio ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Datos ficticios de demostración'))}</p>` : ''}<span class="fa-chip ${cls}">${esc(lbl)}</span> <span class="sub">${esc(t('{0} exámenes oficiales · {1}', reg.n_examenes, (reg.anios || []).join(', ')))}</span>`
+    + (reg.confianza === 'baja' ? `<p class="help">${esc(t('Pocos exámenes o un patrón débil: úsalo para ordenar el estudio, no para descartar temas.'))}</p>` : '');
+  if (!reg.temas || !reg.temas.length) { $('predTemas').innerHTML = `<p>${esc(t('Esta materia todavía no tiene temario por temas en PAUsible: puedes consultar los exámenes oficiales enlazados abajo.'))}</p>`; }
+  else $('predTemas').innerHTML = `<h3>${esc(t('Temas por probabilidad'))}</h3>` + reg.temas.map(tm => `<div class="pa-tema"><b>${esc(tm.nombre)}</b><span class="pa-p">${fmtP(tm.p)}</span>
+    <div class="pa-bar" role="img" aria-label="${fmtP(tm.p)}"><span style="width:${Math.round(tm.p * 100)}%"></span></div>
+    <span class="pa-meta">${esc(t('Salió en {0} de {1} exámenes', tm.veces, tm.de))}${tm.ultimo ? ' · ' + esc(t('último: {0}', tm.ultimo)) : ''} · ${esc(t('tendencia'))} ${TEND[tm.tendencia] || '→'}${nacionalDe(tm.id)}</span>
+    ${tm.muestra ? `<div class="pa-muestra">${esc(t('Así salió:'))} «${esc(tm.muestra)}» ${tm.muestra_url ? `<a href="${esc(tm.muestra_url)}" target="_blank" rel="noopener">${esc(t('PDF oficial'))}</a>` : ''}</div>` : ''}</div>`).join('');
+  const v = reg.validacion;
+  $('predValid').innerHTML = `<h3>${esc(t('¿Habría acertado PAUsible?'))}</h3>` + (v
+    ? `<p>${esc(t('Ocultamos el examen de {0} y lo predijimos con los anteriores: de los {1} temas que cayeron, {2} estaban en nuestro top {1}. Al azar se acertarían {3} %.', v.anio, v.k, v.aciertos, Math.round(v.azar * 100)))}</p>`
+    : `<p>${esc(t('Aún no hay suficientes exámenes para comprobar el método en esta combinación.'))}</p>`);
+  $('predFuentes').innerHTML = reg.examenes && reg.examenes.length ? `<h3>${esc(t('Exámenes oficiales analizados'))}</h3><ul>${reg.examenes.map(e => `<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${e.anio} · ${esc(t(e.conv === 'ord' ? 'ordinaria' : e.conv === 'ext' ? 'extraordinaria' : 'modelo'))}</a></li>`).join('')}</ul>` : `<p class="help">${esc(t('En el ejemplo no hay enlaces: con datos reales verás aquí cada PDF oficial.'))}</p>`;
+}
+function nacionalDe(tid) {
+  const n = hayDatos() && !ejemploOn() && DATOS.pred.nacional && (DATOS.pred.nacional[S.m] || []).find(x => x.id === tid);
+  return n ? ' · ' + esc(t('en España: {0}', fmtP(n.p))) : '';
+}
+
+/* ── 3 · examen probable ── */
+async function pintaExamen() {
+  if (!ejemploOn() && S.c && S.m && !MEM.examenes[`${S.c}__${S.m}`] && tieneExamen(S.c, S.m)) {
+    $('exCab').innerHTML = `<span class="spin"></span> ${esc(t('Cargando…'))}`;
+    const ex = await cargaExamen(S.c, S.m); if (ex) MEM.examenes[`${S.c}__${S.m}`] = ex;
+  }
+  const ex = examenActual();
+  if (!ex) {
+    const reg = prediccionDe(S.c, S.m);
+    $('exCab').innerHTML = `<h3>${esc(t('Todavía no hay examen probable para esta combinación'))}</h3><p>${esc(t('Puedes generarlo ahora con tu clave de IA: un ponente lo redacta con los temas más probables y dos resolutores lo resuelven por separado; solo se queda lo que coincide.'))}</p>`
+      + (reg && reg.temas && reg.temas.length ? `<div class="actions"><button class="btn btn-primary" id="btnGenera" type="button">${ico('sparkles')}<span>${esc(t('Generar con mi clave'))}</span></button></div><p class="help" id="genEstado"></p>` : `<p class="help">${esc(t('Hace falta antes una predicción por temas para esta materia.'))}</p>`)
+      + `<p class="help">${esc(t('O prueba el ejemplo de Matemáticas II, que no necesita clave.'))}</p>`;
+    $('exPreg').innerHTML = ''; $('exNota').innerHTML = ''; $('exNota').hidden = true; return;
+  }
+  $('exNota').hidden = false;
+  $('exCab').innerHTML = `${ex.ficticio ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Ejemplo: soluciones comprobadas, temas ficticios'))}</p>` : ''}${ex.propio ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Generado con tu clave'))}</p>` : ''}<h3>${esc(latexLite(ex.titulo))}</h3><p>${esc(latexLite(ex.instrucciones))}</p>
+    <div class="actions"><button class="btn btn-ghost" id="btnCrono" type="button">${ico('clock')}<span>${esc(S.crono ? t('Parar cronómetro') : t('Empezar cronómetro de {0} min', ex.duracion_min || 90))}</span></button><span class="pa-crono" id="crono" aria-live="off"></span></div>
+    ${ex.descartadas && ex.descartadas.length ? `<p class="help">${esc(t('Se descartaron {0} pregunta(s) porque los resolutores no coincidieron.', ex.descartadas.length))}</p>` : ''}`;
+  $('exPreg').innerHTML = ex.preguntas.map((p, i) => `<div class="card pa-preg"><h3>${esc(t('Pregunta {0}', p.n || i + 1))} <span class="fa-chip">${esc(t('{0} puntos', fmtN(p.puntos)))}</span> ${insignia(p)}</h3>
+    <div class="pa-enun">${esc(latexLite(p.enunciado))}</div>
+    <details class="pa-sol"><summary>${esc(t('Ver solución y criterios'))}</summary><div class="md">${p.resultado ? `<p><b>${esc(t('Resultado:'))}</b> ${esc(latexLite(p.resultado))}</p>` : ''}${md(latexLite(p.solucion || ''))}${p.criterios ? `<p class="help"><b>${esc(t('Criterios:'))}</b> ${esc(latexLite(p.criterios))}</p>` : ''}</div></details>
+    <div class="pa-auto"><label for="auto${i}">${esc(t('Mi nota en esta pregunta'))}</label><input id="auto${i}" data-i="${i}" type="number" min="0" max="${p.puntos}" step="0.25" inputmode="decimal" value="${S.auto[i] ?? ''}"><span class="sub">/ ${fmtN(p.puntos)}</span></div></div>`).join('');
+  $$('.pa-auto input').forEach(inp => inp.oninput = () => { const v = inp.value === '' ? undefined : Math.min(+inp.max, Math.max(0, +inp.value)); if (v === undefined) delete S.auto[inp.dataset.i]; else S.auto[inp.dataset.i] = v; guarda(); pintaNota(ex); });
+  pintaNota(ex); tic();
+}
+const insignia = p => p.verificacion === 'codigo' ? `<span class="fa-chip ok" title="${esc(t('Dos resoluciones independientes y su código coinciden'))}">✓ ${esc(t('comprobada por código'))}</span>`
+  : p.verificacion === 'consenso' ? `<span class="fa-chip ok" title="${esc(t('Dos resoluciones independientes coinciden'))}">✓ ${esc(t('doble resolución'))}</span>` : `<span class="fa-chip aviso">${esc(t('sin verificar'))}</span>`;
+function pintaNota(ex) {
+  const hechas = Object.keys(S.auto).length;
+  if (!hechas) { $('exNota').innerHTML = `<p class="help" style="margin:0">${esc(t('Cuando te corrijas, aquí verás tu nota del simulacro.'))}</p>`; return; }
+  S.nota = notaDe(ex.preguntas, S.auto);
+  $('exNota').innerHTML = `<h3>${esc(t('Tu nota del simulacro'))}</h3><div class="pa-nota">${fmtN(S.nota)}</div><p class="sub">${esc(t('{0} de {1} preguntas corregidas', hechas, ex.preguntas.length))}</p><div class="actions"><button class="btn btn-primary" id="btnACompartir" type="button">${ico('share')}<span>${esc(t('Compartir mi resultado'))}</span></button></div>`;
+}
+document.addEventListener('click', async e => {
+  const b = e.target.closest('button'); if (!b) return;
+  if (b.id === 'btnACompartir') go(4);
+  if (b.id === 'btnCrono') { S.crono = S.crono ? null : Date.now() + (examenActual().duracion_min || 90) * 60000; pintaExamen(); }
+  if (b.id === 'btnGenera') generaConClave(b);
+});
+function tic() {
+  clearTimeout(tic._t); const el = $('crono'); if (!el) return;
+  if (!S.crono) { el.textContent = ''; return; }
+  const q = Math.max(0, (S.crono - Date.now()) / 1000); el.textContent = mmss(q);
+  if (q <= 0) { S.crono = null; toast(t('¡Tiempo! Deja el boli y corrígete.')); return; }
+  if (step === 3) tic._t = setTimeout(tic, 1000);
+}
+let busy = false;
+async function generaConClave(b) {
+  if (busy) return;
+  if (!pideClave()) return;
+  const reg = prediccionDe(S.c, S.m); if (!reg) return;
+  busy = true; b.disabled = true; const st = $('genEstado');
+  const ask = async prompt => llmJSON([{role: 'system', content: SYS_PAU}, {role: 'user', content: prompt}], {max: 6000});
+  try {
+    st.innerHTML = `<span class="spin"></span> ${esc(t('El ponente redacta el examen…'))}`;
+    const ex = await generaExamen(ask, nombreCCAA(S.c), nombreMat(S.m), reg.temas.slice(0, 8), (i, k, n) => {
+      st.innerHTML = `<span class="spin"></span> ${esc(t('Pregunta {0} de {1}: {2}', i + 1, n, t(['resolutor A', 'resolutor B', 'desempate', 'tribunal'][k])))}`;
+    });
+    if (!ex.preguntas.length) throw new Error(t('Ninguna pregunta superó la doble resolución. Prueba otra vez o con otro modelo.'));
+    S.examen = {c: S.c, m: S.m, ex}; S.auto = {}; await guardaYa(); pintaExamen();
+  } catch (e) { st.textContent = e.message; toast(e.message, 8000); }
+  finally { busy = false; b.disabled = false; }
+}
+
+/* ── 4 · comparte ── */
+function datosTarjeta() {
+  const reg = predActual() || {temas: []}, ex = examenActual(), c = cc();
+  const notaOk = Object.keys(S.auto).length && ex;
+  return {cabecera: t('Mi PAU 2027'), materia: ejemploOn() ? t('Matemáticas II') + ' · ' + t('ejemplo') : nombreMat(S.m), ccaa: ejemploOn() ? t('Datos ficticios de demostración') : nombreCCAA(S.c),
+    titTop: t('Lo más probable que caiga'), top: reg.temas || [], nota: notaOk ? S.nota : null, titNota: t('Mi nota en el examen probable'), notaTxt: notaOk ? fmtN(S.nota) : '',
+    dias: c && !ejemploOn() ? t('Faltan {0} días', diasHasta(c.fecha)) : '', cta: t('¿Me superas? → pausible')};
+}
+function enlaceActual() { return ejemploOn() ? URL_APP : enlaceReto({c: S.c, m: S.m, n: Object.keys(S.auto).length ? S.nota : null}); }
+function textoReto() {
+  const n = Object.keys(S.auto).length ? fmtN(S.nota) : null;
+  return n ? t('He sacado un {0} en el examen PAUsible de {1} ({2}). ¿Me superas?', n, ejemploOn() ? t('Matemáticas II') : nombreMat(S.m), ejemploOn() ? t('ejemplo') : nombreCCAA(S.c))
+    : t('Esto es lo más probable que caiga en la PAU 2027 de {0}. Míralo:', ejemploOn() ? t('Matemáticas II') : nombreMat(S.m));
+}
+function pintaComparte() {
+  tarjeta($('cvTarjeta'), datosTarjeta());
+  const url = enlaceActual();
+  $('btnWa').href = 'https://wa.me/?text=' + encodeURIComponent(textoReto() + ' ' + url);
+  $('compTxt').textContent = t('Quien abra tu enlace hará el mismo examen probable y podrá comparar su nota con la tuya.');
+}
+const pngBlob = () => new Promise(r => $('cvTarjeta').toBlob(r, 'image/png'));
+$('btnPng').onclick = async () => dl('pausible.png', await pngBlob());
+$('btnShare').onclick = async () => {
+  const f = new File([await pngBlob()], 'pausible.png', {type: 'image/png'}), url = enlaceActual();
+  try {
+    if (navigator.canShare && navigator.canShare({files: [f]})) await navigator.share({files: [f], text: textoReto() + ' ' + url});
+    else if (navigator.share) await navigator.share({text: textoReto(), url});
+    else { dl('pausible.png', f); toast(t('Imagen descargada: súbela a tu historia')); }
+  } catch (e) { if (e.name !== 'AbortError') toast(e.message); }
+};
+$('btnLink').onclick = async () => { try { await navigator.clipboard.writeText(textoReto() + ' ' + enlaceActual()); toast(t('Enlace copiado')); } catch { toast(enlaceActual(), 9000); } };
+
+/* ── 5 · ranking ── */
+function pintaRanking() {
+  if (!hayDatos()) { $('rankCCAA').innerHTML = `<p>${esc(t('El ranking aparecerá cuando se cargue el corpus de exámenes oficiales.'))}</p>`; $('rankTemas').innerHTML = ''; $('selMatRank').innerHTML = ''; return; }
+  const filas = Object.entries(DATOS.pred.ccaa).filter(([, c]) => c.predecibilidad != null).sort((a, b) => b[1].predecibilidad - a[1].predecibilidad);
+  $('rankCCAA').innerHTML = `<h3>${esc(t('PAU más previsible'))}</h3><p class="help">${esc(t('Porcentaje medio de temas del último examen que el método habría acertado con los exámenes anteriores.'))}</p>`
+    + filas.map(([id, c], i) => `<div class="pa-rank"><span>${i + 1}</span><span>${esc(c.nombre)}</span><b>${fmtP(c.predecibilidad)}</b></div>`).join('');
+  const mats = Object.keys(DATOS.pred.nacional || {});
+  const sel = $('selMatRank'); if (!sel.options.length || sel.dataset.n !== String(mats.length)) { sel.innerHTML = mats.map(m => `<option value="${m}">${esc(nombreMat(m))}</option>`).join(''); sel.dataset.n = mats.length; sel.value = mats.includes(S.m) ? S.m : mats[0] || ''; }
+  const lista = DATOS.pred.nacional[sel.value] || [];
+  $('rankTemas').innerHTML = `<h3>${esc(t('Lo más probable en toda España'))}</h3>` + lista.map((x, i) => `<div class="pa-rank"><span>${i + 1}</span><span>${esc(x.nombre)} <small class="sub">· ${esc(t('{0} comunidades', x.ccaa))}</small></span><b>${fmtP(x.p)}</b></div>`).join('');
+}
+$('selMatRank').onchange = pintaRanking;
+
+window.addEventListener('langchange', () => { if (step === 4) pintaComparte(); });
+(async () => {
+  const prev = await cargaEstado(); if (prev) S = {...S, ...prev, crono: null};
+  iniciaUI(); go(0);
+  await cargaDatos(); (RENDER[step] || (() => {}))();
+  if (RETO && step === 0) pintaInicio();
+})();
+
+</script>
+</body></html>
