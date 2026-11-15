@@ -14,14 +14,32 @@ Solo se publica lo que pasa el filtro, y cada pregunta lleva su nivel de verific
   'consenso'  pregunta abierta: dos resoluciones coinciden en los puntos clave y el tribunal no ve errores.
 Nada de esto es una garantía: es mucho más fiable que una sola respuesta de IA, y la app lo dice así.
 
-Uso (en GitHub Actions, con el secreto ANTHROPIC_API_KEY):
+Uso (en GitHub Actions, con el secreto OPENAI_API_KEY; también acepta ANTHROPIC_API_KEY):
   python3 pipeline/genera.py --max 20                 # las combinaciones que aún no tienen examen
   python3 pipeline/genera.py --ccaa madrid --materia matematicas2 --forzar
 """
 import argparse, json, os, pathlib, re, subprocess, sys, tempfile, time
 
 R = pathlib.Path(__file__).resolve().parent.parent
-MODELO = os.environ.get('PAUSIBLE_MODELO', 'claude-sonnet-5-5')
+PROVEEDOR = 'openai' if os.environ.get('OPENAI_API_KEY') else 'anthropic' if os.environ.get('ANTHROPIC_API_KEY') else None
+MODELO = os.environ.get('PAUSIBLE_MODELO') or {'openai': 'gpt-5', 'anthropic': 'claude-sonnet-5-5'}.get(PROVEEDOR, '')
+
+
+def llm_openai(system, user, temperatura=0.3, max_tokens=8000):
+    """OpenAI Chat Completions. Los modelos de razonamiento (gpt-5*, o*) no admiten temperature ni max_tokens:
+    ahí la diversidad entre resolutores sale de las instrucciones distintas que recibe cada uno."""
+    import requests
+    razona = re.match(r'^(gpt-[5-9]|o\d)', MODELO) is not None
+    body = {'model': MODELO, 'messages': [{'role': 'system', 'content': system}, {'role': 'user', 'content': user}], 'response_format': {'type': 'json_object'}}
+    if razona: body['max_completion_tokens'] = max_tokens * 3
+    else: body.update(max_tokens=max_tokens, temperature=temperatura)
+    for intento in range(4):
+        r = requests.post('https://api.openai.com/v1/chat/completions', timeout=600, json=body,
+                          headers={'Authorization': 'Bearer ' + os.environ['OPENAI_API_KEY'], 'Content-Type': 'application/json'})
+        if r.status_code == 200: return r.json()['choices'][0]['message']['content'] or ''
+        if r.status_code in (429, 500, 502, 503): time.sleep(20 * (intento + 1)); continue
+        raise RuntimeError(f'OpenAI {r.status_code}: {r.text[:300]}')
+    raise RuntimeError('OpenAI sin respuesta')
 
 
 def llm_anthropic(system, user, temperatura=0.3, max_tokens=8000):
@@ -155,8 +173,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--ccaa'); ap.add_argument('--materia'); ap.add_argument('--max', type=int, default=20); ap.add_argument('--forzar', action='store_true')
     a = ap.parse_args()
-    if not os.environ.get('ANTHROPIC_API_KEY'):
-        print('Sin ANTHROPIC_API_KEY: no se generan exámenes (añádela en Settings → Secrets → Actions).'); return
+    if not PROVEEDOR:
+        print('Sin OPENAI_API_KEY: no se generan exámenes (añádela en Settings → Secrets and variables → Actions).'); return
+    llm = llm_openai if PROVEEDOR == 'openai' else llm_anthropic
+    print(f'Proveedor: {PROVEEDOR} · modelo: {MODELO}')
     pred = json.loads((R / 'data' / 'predicciones.json').read_text(encoding='utf-8'))
     corpus = {d['url']: d for d in json.loads((R / 'data' / 'corpus.json').read_text(encoding='utf-8'))['documentos']}
     od = R / 'data' / 'examenes'; od.mkdir(parents=True, exist_ok=True)
@@ -173,7 +193,7 @@ def main():
                 if d and (R / d['txt']).exists(): refs.append({**e, 'texto': (R / d['txt']).read_text(encoding='utf-8', errors='ignore')})
             print(f'· {c["nombre"]} · {reg["nombre"]}', flush=True)
             try:
-                ex = genera_uno(llm_anthropic, cid, c['nombre'], mid, reg, refs)
+                ex = genera_uno(llm, cid, c['nombre'], mid, reg, refs)
             except Exception as e:
                 print(f'  error: {e}'); continue
             if ex:

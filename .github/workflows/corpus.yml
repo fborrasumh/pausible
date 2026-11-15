@@ -1,6 +1,6 @@
 name: Corpus y predicciones PAU
 # Descarga los exámenes oficiales 2022-2026 de las 17 comunidades, extrae su texto, recalcula las predicciones
-# y, si existe el secreto ANTHROPIC_API_KEY, genera los exámenes probables verificados que falten.
+# y, si existe el secreto OPENAI_API_KEY, genera los exámenes probables verificados que falten.
 on:
   workflow_dispatch:
     inputs:
@@ -34,8 +34,8 @@ jobs:
         run: python3 pipeline/analiza.py
       - name: Exámenes probables (multiagente)
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          PAUSIBLE_MODELO: ${{ vars.PAUSIBLE_MODELO || 'claude-sonnet-5-5' }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PAUSIBLE_MODELO: ${{ vars.PAUSIBLE_MODELO }}
         run: python3 pipeline/genera.py --max ${{ github.event.inputs.max_examenes || '20' }}
       - name: Guardar en el repositorio
         run: |

@@ -23,7 +23,7 @@ Todo lo hace un GitHub Action (`.github/workflows/corpus.yml`), porque las webs 
 |---|---|---|
 | 1 | `crawl.py` | Parte de las páginas oficiales de cada comunidad (`fuentes.json`), sigue los enlaces del mismo dominio, localiza los PDF 2022-2026, los clasifica por materia, año, convocatoria y tipo (examen / criterios), los descarga, extrae el texto (pdftotext; OCR con tesseract si es un escaneo) y escribe `data/corpus.json` y `data/cobertura.json`. |
 | 2 | `analiza.py` | Etiqueta cada examen por temas (`temario.json`) y calcula la predicción con validación ciega → `data/predicciones.json`. Determinista, sin IA. |
-| 3 | `genera.py` | Exámenes probables con agentes (solo si existe el secreto `ANTHROPIC_API_KEY`) → `data/examenes/`. |
+| 3 | `genera.py` | Exámenes probables con agentes (solo si existe el secreto `OPENAI_API_KEY`) → `data/examenes/`. |
 
 - El **texto** de cada examen y el manifiesto con la **URL oficial** se guardan en el repositorio (`corpus/`, `data/`).
 - Los **PDF originales** se suben a la Release `corpus` (un zip por comunidad y fecha), no al repositorio, para no pasar del límite de 1 GB de GitHub Pages.
@@ -39,7 +39,7 @@ Todo lo hace un GitHub Action (`.github/workflows/corpus.yml`), porque las webs 
 
 Esto reduce mucho los errores, pero no los elimina: la app lo dice y pide avisar de cualquier error en las *issues* de GitHub.
 
-Para activar la generación: **Settings → Secrets and variables → Actions → New repository secret** con nombre `ANTHROPIC_API_KEY`. Opcional: variable `PAUSIBLE_MODELO` (por defecto `claude-sonnet-5-5`). Cada ejecución genera como máximo 20 exámenes nuevos (configurable al lanzar el Action a mano).
+Para activar la generación: **Settings → Secrets and variables → Actions → New repository secret** con nombre `OPENAI_API_KEY`. Opcional: variable `PAUSIBLE_MODELO` (por defecto `gpt-5`; un modelo de razonamiento resuelve mejor los problemas de cálculo). Cada ejecución genera como máximo 20 exámenes nuevos (configurable al lanzar el Action a mano).
 
 ## Cómo se usa la IA en la app
 
