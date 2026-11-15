@@ -179,6 +179,8 @@ def main():
         print('Sin OPENAI_API_KEY: no se generan exámenes (añádela en Settings → Secrets and variables → Actions).'); return
     llm = llm_openai if PROVEEDOR == 'openai' else llm_anthropic
     print(f'Proveedor: {PROVEEDOR} · modelo: {MODELO}')
+    if not (R / 'data' / 'predicciones.json').exists():
+        print('Aún no hay data/predicciones.json: se generará cuando termine «Corpus y predicciones PAU».'); return
     pred = json.loads((R / 'data' / 'predicciones.json').read_text(encoding='utf-8'))
     corpus = {d['url']: d for d in json.loads((R / 'data' / 'corpus.json').read_text(encoding='utf-8'))['documentos']}
     od = R / 'data' / 'examenes'; od.mkdir(parents=True, exist_ok=True)

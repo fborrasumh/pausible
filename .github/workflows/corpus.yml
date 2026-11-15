@@ -1,11 +1,10 @@
 name: Corpus y predicciones PAU
 # Descarga los exámenes oficiales 2022-2026 de las 17 comunidades, extrae su texto, recalcula las predicciones
-# y, si existe el secreto OPENAI_API_KEY, genera los exámenes probables verificados que falten.
+# Al terminar, se lanza solo «Exámenes probables» (genera.yml).
 on:
   workflow_dispatch:
     inputs:
       ccaa: {description: 'Solo esta comunidad (vacío = todas)', required: false, default: ''}
-      max_examenes: {description: 'Máximo de exámenes probables nuevos a generar', required: false, default: '20'}
   push:
     branches: [main]
     paths: ['pipeline/fuentes.json', 'pipeline/temario.json', 'pipeline/crawl.py', 'pipeline/analiza.py']
@@ -32,11 +31,6 @@ jobs:
         run: python3 pipeline/crawl.py ${{ github.event.inputs.ccaa && format('--ccaa {0}', github.event.inputs.ccaa) || '' }}
       - name: Predicciones
         run: python3 pipeline/analiza.py
-      - name: Exámenes probables (multiagente)
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          PAUSIBLE_MODELO: ${{ vars.PAUSIBLE_MODELO }}
-        run: python3 pipeline/genera.py --max ${{ github.event.inputs.max_examenes || '20' }}
       - name: Guardar en el repositorio
         run: |
           git config user.name "pausible-bot"; git config user.email "actions@users.noreply.github.com"

@@ -1,0 +1,39 @@
+name: Exámenes probables (multiagente)
+# Genera los exámenes probables que falten con OPENAI_API_KEY (ponente + dos resolutores + comprobación por código).
+# Se lanza solo al terminar «Corpus y predicciones PAU», a mano, o al cambiar el generador.
+on:
+  workflow_run:
+    workflows: ['Corpus y predicciones PAU']
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      max_examenes: {description: 'Máximo de exámenes nuevos', required: false, default: '20'}
+      ccaa: {description: 'Solo esta comunidad (vacío = todas)', required: false, default: ''}
+  push:
+    branches: [main]
+    paths: ['pipeline/genera.py', '.github/workflows/genera.yml']
+permissions:
+  contents: write
+concurrency: {group: genera, cancel-in-progress: false}
+jobs:
+  genera:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -q requests sympy
+      - name: Generar
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PAUSIBLE_MODELO: ${{ vars.PAUSIBLE_MODELO }}
+          PAUSIBLE_ESFUERZO: ${{ vars.PAUSIBLE_ESFUERZO }}
+        run: python3 pipeline/genera.py --max ${{ github.event.inputs.max_examenes || '20' }} ${{ github.event.inputs.ccaa && format('--ccaa {0}', github.event.inputs.ccaa) || '' }}
+      - name: Guardar en el repositorio
+        run: |
+          git config user.name "pausible-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/examenes 2>/dev/null || true
+          git diff --cached --quiet || (git commit -q -m "Exámenes probables $(date +%F)" && git pull -q --rebase && git push -q)
