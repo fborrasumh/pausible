@@ -15,7 +15,7 @@
     <p class="eyebrow" data-i18n="hero.eyebrow">Selectividad 2027 · 17 comunidades · exámenes oficiales 2022-2026</p>
     <h1 data-i18n="hero.h1">Tu examen de la PAU 2027, <em>el más PAUsible</em></h1>
     <p class="lede" data-i18n="hero.lede">Elige tu comunidad y tu materia. PAUsible analiza los exámenes oficiales de los últimos cinco años, te dice qué temas tienen más probabilidad de caer y te da un examen probable con la solución comprobada.</p>
-    <div class="actions"><button class="btn btn-primary btn-big" id="btnStart" type="button"><svg class="i"><use href="#i-play"/></svg><span data-i18n="s.elegir">Elegir mi comunidad</span></button><button class="btn btn-ghost btn-big" id="btnEjemplo" type="button"><svg class="i"><use href="#i-eye"/></svg><span data-i18n="s.ejemplo">Ver un ejemplo</span></button><button class="btn btn-ghost btn-big" id="btnRanking" type="button"><svg class="i"><use href="#i-chart"/></svg><span data-i18n="s.ranking">Ranking de España</span></button></div>
+    <div class="actions"><button class="btn btn-primary btn-big" id="btnStart" type="button"><svg class="i"><use href="#i-play"/></svg><span data-i18n="s.elegir">Elegir mi comunidad</span></button><button class="btn btn-ghost btn-big" id="btnEjemplo" type="button"><svg class="i"><use href="#i-eye"/></svg><span data-i18n="s.ejemplo">Ver un ejemplo</span></button><button class="btn btn-ghost btn-big" id="btnRanking" type="button"><svg class="i"><use href="#i-chart"/></svg><span data-i18n="s.ranking">Ranking de España</span></button><button class="btn btn-ghost btn-big" id="btnBib" type="button" hidden><svg class="i"><use href="#i-pencil"/></svg><span data-i18n="Mis exámenes">Mis exámenes</span> <span class="fa-chip" id="btnBibN">0</span></button></div>
     <p class="fa-inicio" id="inicioProj"></p>
     <p class="help"><label class="pa-fich"><span data-i18n="¿Te han enviado un examen como fichero?">¿Te han enviado un examen como fichero?</span> <span class="pa-fich-btn" data-i18n="Ábrelo aquí">Ábrelo aquí</span><input type="file" id="fichReto" accept=".json,application/json"></label></p>
     <p class="help" id="estadoDatos"></p>
@@ -81,6 +81,15 @@
   <h2 class="sec-title" data-i18n="¿Clave de API o suscripción mensual?">¿Clave de API o suscripción mensual?</h2>
   <div class="cols2"><div class="card" id="claveChat"></div><div class="card pa-api" id="claveApi"></div></div>
   <p class="help" id="claveNota"></p>
+</section>
+
+<!-- 7 · MIS EXÁMENES (sección fuera del recorrido) -->
+<section class="screen" data-step="7">
+  <header class="sh" style="--c:#6B4FD8"><div class="sh-ico"><svg class="i"><use href="#i-pencil"/></svg></div><div><h2 data-i18n="Mis exámenes">Mis exámenes</h2><p class="sh-lede" data-i18n="s.bib.lede">Todos los exámenes que has generado con tu clave o recibido en un reto, con tus intentos y tu mejor nota. Se guardan solo en este navegador.</p></div></header>
+  <div class="card"><div class="pa-bib-filtros"><div class="field"><label for="bibMat" data-i18n="Materia">Materia</label><select id="bibMat"></select></div><div class="field"><label for="bibOrig" data-i18n="Origen">Origen</label><select id="bibOrig"></select></div></div>
+    <p class="help" id="bibResumen"></p>
+    <div class="actions"><button class="btn btn-ghost btn-sm" id="btnBibExp" type="button"><svg class="i"><use href="#i-download"/></svg><span data-i18n="Exportar copia de seguridad">Exportar copia de seguridad</span></button><label class="btn btn-ghost btn-sm pa-fich"><span data-i18n="Importar copia">Importar copia</span><input type="file" id="fichBib" accept=".json,application/json"></label></div></div>
+  <div id="bibLista"></div>
 </section>
 
 <!-- 5 · RANKING (sección fuera del recorrido) -->

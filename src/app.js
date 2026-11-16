@@ -1,8 +1,8 @@
 /* ══ PAUsible · interfaz ══ */
 const STEPS = ['Inicio', 'Tu PAU', 'Predicción', 'Examen', 'Comparte'];
-const HUBS = ['Ranking de España', 'Tu clave de IA'];
+const HUBS = ['Ranking de España', 'Tu clave de IA', 'Mis exámenes'];
 const NAV = [['Elegir mi comunidad', 'Prueba el ejemplo: no necesita clave ni datos.'], ['Ver la predicción', 'Elige comunidad y materia.'], ['Hacer el examen probable', 'Estudia primero lo de arriba.'], ['Compartir mi resultado', 'Abre cada solución y ponte nota.'], ['Volver al inicio', 'Comparte la tarjeta o reta a un amigo.']];
-const RENDER = {0: pintaInicio, 1: pintaTuPau, 2: pintaPred, 3: pintaExamen, 4: pintaComparte, 5: pintaRanking, 6: pintaClave};
+const RENDER = {0: pintaInicio, 1: pintaTuPau, 2: pintaPred, 3: pintaExamen, 4: pintaComparte, 5: pintaRanking, 6: pintaClave, 7: pintaBiblioteca};
 const CAN_NEXT = i => i === 1 && !(S.c && S.m) ? t('Elige comunidad y materia') : true;
 const GLOS = [
   ['¿Qué hace PAUsible?', 'Lee los exámenes oficiales de la PAU publicados por cada comunidad entre 2022 y 2026, calcula qué temas tienen más probabilidad de caer en 2027 y te ofrece un examen probable resuelto.'],
@@ -17,25 +17,31 @@ const GLOS = [
    Si alguien lo tenía elegido, vuelve a OpenAI y se borra su clave de Gemini de este navegador. */
 delete PROV.gemini;
 try { if (localStorage.getItem(APP + '_prov') === 'gemini') localStorage.removeItem(APP + '_prov'); localStorage.removeItem(APP + '_key_gemini'); } catch {}
-let S = {c: '', m: '', auto: {}, ejemplo: false, crono: null, propios: {}, retos: {}, fuente: {}};
-const MEM = {examenes: {}, version: {}};
-const MAX_PROPIOS = 5;   // exámenes generados con tu clave que se guardan por comunidad y materia
+let S = {c: '', m: '', auto: {}, ejemplo: false, crono: null, fuente: {}, intento: null};
+const MEM = {examenes: {}, version: {}, bib: [], bibId: {}};
 const clave = () => `${S.c}__${S.m}`;
 let LINK = '';           // enlace de reto ya calculado (comprimir es asíncrono)
 const ejemploOn = () => S.ejemplo;
 const predActual = () => ejemploOn() ? EJ_PRED : prediccionDe(S.c, S.m);
-/* De dónde sale el examen de esta comunidad y materia: el oficial de PAUsible, uno recibido en un reto o uno tuyo */
+/* De dónde sale el examen de esta comunidad y materia: el oficial de PAUsible o uno de «Mis exámenes» (tuyo o de un reto) */
+async function recargaBib() { try { MEM.bib = await bibTodos(); } catch { MEM.bib = []; } MEM.bibId = Object.fromEntries(MEM.bib.map(r => [r.id, r])); }
+const bibDe = (c, m) => MEM.bib.filter(r => r.c === c && r.m === m);
 function fuenteActual() {
   const k = clave(), f = S.fuente[k];
-  if (f === 'reto' && S.retos[k]) return f;
-  if (f && f.startsWith('propio:') && (S.propios[k] || [])[+f.slice(7)]) return f;
   if (f === 'oficial' && MEM.examenes[k]) return f;
-  return S.retos[k] ? 'reto' : MEM.examenes[k] ? 'oficial' : (S.propios[k] || []).length ? 'propio:0' : 'oficial';
+  if (f && f.startsWith('bib:')) { const r = MEM.bibId[f.slice(4)]; if (r && r.c === S.c && r.m === S.m) return f; }
+  if (MEM.examenes[k]) return 'oficial';
+  const r = bibDe(S.c, S.m)[0]; return r ? 'bib:' + r.id : 'oficial';
 }
+const recActual = () => { const f = ejemploOn() ? '' : fuenteActual(); return f.startsWith('bib:') ? MEM.bibId[f.slice(4)] : null; };
 function examenActual() {
   if (ejemploOn()) return EJ_EXAMEN[LANG] || EJ_EXAMEN.es;
-  const k = clave(), f = fuenteActual();
-  return f === 'reto' ? S.retos[k] : f.startsWith('propio:') ? S.propios[k][+f.slice(7)] : MEM.examenes[k] || null;
+  const r = recActual(); return r ? r.ex : MEM.examenes[clave()] || null;
+}
+async function alBib(c, m, ex, origen, extra) {
+  const r = bibNuevo(c, m, ex, origen, extra); await bibGuarda(r); await recargaBib(); pidePersistencia();
+  if (MEM.bib.length > BIB_AVISO) toast(t('Tienes {0} exámenes guardados: exporta una copia y borra los que ya no uses.', MEM.bib.length), 8000);
+  return r;
 }
 const cc = () => CCAA.find(c => c.id === S.c);
 const fmtP = p => Math.round(p * 100) + ' %';
@@ -53,10 +59,11 @@ function pintaInicio() {
   $('estadoDatos').textContent = !DATOS.cargado ? t('Cargando datos…') : hayDatos()
     ? t('Corpus: {0} combinaciones comunidad × materia con exámenes oficiales · actualizado el {1}.', nf(Object.values(DATOS.pred.ccaa).reduce((s, c) => s + Object.keys(c.materias).length, 0)), DATOS.pred.generado)
     : t('Todavía no se ha descargado el corpus de exámenes oficiales: de momento puedes ver el ejemplo.');
+  $('btnBib').hidden = !MEM.bib.length; $('btnBibN').textContent = MEM.bib.length;
   $('inicioProj').innerHTML = S.c && S.m && !S.ejemplo ? `${esc(t('Tu última consulta:'))} <b>${esc(nombreMat(S.m))} · ${esc(nombreCCAA(S.c))}</b> <button class="btn btn-ghost btn-sm" id="btnCont" type="button">${esc(t('Seguir'))}</button>` : '';
 }
 $('btnStart').onclick = () => { S.ejemplo = false; guarda(); go(1); };
-$('btnEjemplo').onclick = () => { S.ejemplo = true; S.auto = {}; guarda(); go(2); toast(t('Ejemplo con datos ficticios: no es una predicción real')); };
+$('btnEjemplo').onclick = () => { S.ejemplo = true; S.auto = {}; S.intento = null; guarda(); go(2); toast(t('Ejemplo con datos ficticios: no es una predicción real')); };
 $('btnRanking').onclick = () => go(5);
 document.addEventListener('click', e => {
   if (e.target.id === 'btnCont') go(2);
@@ -64,10 +71,10 @@ document.addEventListener('click', e => {
 });
 
 async function aceptaReto() {
-  S.c = RETO.c; S.m = RETO.m; S.ejemplo = false; S.auto = {}; const k = clave();
+  S.c = RETO.c; S.m = RETO.m; S.ejemplo = false; S.auto = {}; S.intento = null; const k = clave();
   if (RETO.x) {
     const ex = await descomprimeExamen(RETO.x);
-    if (ex) { S.retos[k] = ex; S.fuente[k] = 'reto'; } else toast(t('El examen del enlace está dañado o incompleto: se abre el examen oficial.'), 7000);
+    if (ex) { const r = await alBib(S.c, S.m, ex, 'reto', {reto_nota: RETO.n}); S.fuente[k] = 'bib:' + r.id; } else toast(t('El examen del enlace está dañado o incompleto: se abre el examen oficial.'), 7000);
   } else { S.fuente[k] = 'oficial'; if (RETO.v) { MEM.version[k] = RETO.v; delete MEM.examenes[k]; } }
   await guardaYa(); history.replaceState(null, '', location.pathname); go(3);
 }
@@ -78,7 +85,7 @@ $('fichReto').onchange = async e => {
     const j = JSON.parse(await f.text());
     if (!j || !CCAA.some(x => x.id === j.c) || !MATERIAS[j.m] || !j.x) throw 0;
     const ex = await descomprimeExamen(j.x); if (!ex) throw 0;
-    S.c = j.c; S.m = j.m; S.ejemplo = false; S.auto = {}; S.retos[clave()] = ex; S.fuente[clave()] = 'reto';
+    S.c = j.c; S.m = j.m; S.ejemplo = false; S.auto = {}; S.intento = null; const r = await alBib(j.c, j.m, ex, 'reto', {reto_nota: j.n ?? null}); S.fuente[clave()] = 'bib:' + r.id;
     await guardaYa(); go(3);
     if (j.n != null) toast(t('Te han retado: {0} en el examen PAUsible de {1}.', fmtN(j.n), nombreMat(j.m)), 7000);
   } catch { toast(t('Ese fichero no es un examen de PAUsible.'), 6000); }
@@ -90,7 +97,7 @@ function pintaTuPau() {
     const n = materiasDe(c.id).length;
     return `<button type="button" role="radio" aria-checked="${S.c === c.id}" data-c="${c.id}">${esc(c.nombre)}<small>${hayDatos() ? esc(t('{0} materias', n)) : ''}</small></button>`;
   }).join('');
-  $$('#ccaaGrid button').forEach(b => b.onclick = () => { S.c = b.dataset.c; S.ejemplo = false; if (hayDatos() && !materiasDe(S.c).includes(S.m)) S.m = ''; S.auto = {}; guarda(); pintaTuPau(); });
+  $$('#ccaaGrid button').forEach(b => b.onclick = () => { S.c = b.dataset.c; S.ejemplo = false; if (hayDatos() && !materiasDe(S.c).includes(S.m)) S.m = ''; S.auto = {}; S.intento = null; guarda(); pintaTuPau(); });
   const mats = S.c && hayDatos() ? materiasDe(S.c) : Object.keys(MATERIAS);
   $('selMat').innerHTML = `<option value="">${esc(t('Elige materia…'))}</option>` + mats.map(m => `<option value="${m}">${esc(nombreMat(m))}</option>`).join('');
   $('selMat').value = S.m; $('selMat').disabled = !S.c;
@@ -100,7 +107,7 @@ function pintaTuPau() {
   const c = cc();
   $('cuenta').innerHTML = c ? `${esc(t('Faltan {0} días', diasHasta(c.fecha)))}<small>${esc(c.oficial ? t('PAU 2027 en {0}: fecha oficial publicada.', c.nombre) : t('Fecha estimada: {0} aún no ha publicado el calendario de 2027.', c.nombre))}</small>` : '';
 }
-$('selMat').onchange = () => { S.m = $('selMat').value; S.auto = {}; guarda(); pintaTuPau(); };
+$('selMat').onchange = () => { S.m = $('selMat').value; S.auto = {}; S.intento = null; guarda(); pintaTuPau(); };
 
 /* ── 2 · predicción ── */
 function pintaPred() {
@@ -149,12 +156,13 @@ async function pintaExamen() {
   }
   $('exNota').hidden = false;
   const f = ejemploOn() ? '' : fuenteActual();
-  const opciones = ejemploOn() ? [] : [...(MEM.examenes[k] ? [['oficial', t('Examen de PAUsible')]] : []), ...(S.retos[k] ? [['reto', t('Reto recibido')]] : []),
-    ...(S.propios[k] || []).map((e, i) => ['propio:' + i, t('Mío {0}', i + 1) + (e.generado ? ' · ' + e.generado.slice(5) : '')])];
-  const selector = opciones.length > 1 ? `<div class="pa-fuentes" role="group" aria-label="${esc(t('Qué examen hacer'))}">${opciones.map(([v, l]) => `<button type="button" class="btn btn-sm ${v === f ? 'btn-primary' : 'btn-ghost'}" data-fuente="${v}" aria-pressed="${v === f}">${esc(l)}</button>`).join('')}</div>` : '';
-  const avisoReto = f === 'reto' ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Generado con la clave de quien te reta · doble resolución · no revisado por PAUsible'))}</p>` : '';
+  const mios = ejemploOn() ? [] : bibDe(S.c, S.m), rec = recActual();
+  const opciones = ejemploOn() ? [] : [...(MEM.examenes[k] ? [['oficial', t('Examen de PAUsible')]] : []),
+    ...mios.slice(0, 6).map(r => ['bib:' + r.id, (r.origen === 'reto' ? t('Reto') : t('Mío')) + ' · ' + fechaCorta(r.creado) + (mejorNota(r) != null ? ' · ' + fmtN(mejorNota(r)) : '')])];
+  const selector = opciones.length > 1 || mios.length ? `<div class="pa-fuentes" role="group" aria-label="${esc(t('Qué examen hacer'))}">${opciones.map(([v, l]) => `<button type="button" class="btn btn-sm ${v === f ? 'btn-primary' : 'btn-ghost'}" data-fuente="${v}" aria-pressed="${v === f}">${esc(l)}</button>`).join('')}${mios.length ? `<button type="button" class="btn btn-sm btn-ghost" id="btnVerBib">${esc(t('Ver todos mis exámenes ({0})', MEM.bib.length))}</button>` : ''}</div>` : '';
+  const avisoReto = rec && rec.origen === 'reto' ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Generado con la clave de quien te reta · doble resolución · no revisado por PAUsible'))}</p>` : '';
   const avisoVersion = f === 'oficial' && ex.version_distinta ? `<p class="help">${esc(t('Este examen se ha actualizado desde que te retaron: las notas pueden no ser comparables.'))}</p>` : '';
-  $('exCab').innerHTML = `${selector}${avisoReto}${avisoVersion}${ex.ficticio ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Ejemplo: soluciones comprobadas, temas ficticios'))}</p>` : ''}${f.startsWith('propio:') ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Generado con tu clave'))}</p>` : ''}<h3>${conFormulas(ex.titulo)}</h3><p>${conFormulas(ex.instrucciones)}</p>
+  $('exCab').innerHTML = `${selector}${avisoReto}${avisoVersion}${ex.ficticio ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Ejemplo: soluciones comprobadas, temas ficticios'))}</p>` : ''}${rec && rec.origen === 'propio' ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Generado con tu clave'))}</p>` : ''}${rec && (rec.intentos || []).length ? `<p class="help">${esc(t('Intentos: {0} · mejor nota: {1}', rec.intentos.length, mejorNota(rec) != null ? fmtN(mejorNota(rec)) : '–'))}</p>` : ''}<h3>${conFormulas(ex.titulo)}</h3><p>${conFormulas(ex.instrucciones)}</p>
     <div class="actions"><button class="btn btn-ghost" id="btnCrono" type="button">${ico('clock')}<span>${esc(S.crono ? t('Parar cronómetro') : t('Empezar cronómetro de {0} min', ex.duracion_min || 90))}</span></button><span class="pa-crono" id="crono" aria-live="off"></span>${!ejemploOn() && (prediccionDe(S.c, S.m) || {temas: []}).temas.length ? `<button class="btn btn-ghost" id="btnGeneraOtro" type="button">${ico('sparkles')}<span>${esc(t('Generar otro con mi clave'))}</span></button>` : ''}</div><p class="help" id="genEstado"></p>
     ${ex.descartadas && ex.descartadas.length ? `<p class="help">${esc(t('Se descartaron {0} pregunta(s) porque los resolutores no coincidieron.', ex.descartadas.length))}</p>` : ''}`;
   $('exPreg').innerHTML = ex.preguntas.map((p, i) => `<div class="card pa-preg"><h3>${esc(t('Pregunta {0}', p.n || i + 1))} <span class="fa-chip">${esc(t('{0} puntos', fmtN(p.puntos)))}</span> ${insignia(p)}</h3>
@@ -166,10 +174,21 @@ async function pintaExamen() {
 }
 const insignia = p => p.verificacion === 'codigo' ? `<span class="fa-chip ok" title="${esc(t('Dos resoluciones independientes y su código coinciden'))}">✓ ${esc(t('comprobada por código'))}</span>`
   : p.verificacion === 'consenso' ? `<span class="fa-chip ok" title="${esc(t('Dos resoluciones independientes coinciden'))}">✓ ${esc(t('doble resolución'))}</span>` : `<span class="fa-chip aviso">${esc(t('sin verificar'))}</span>`;
+/* Cada vez que el estudiante se corrige un examen de «Mis exámenes» se guarda el intento (fecha y nota) */
+let _int;
+function registraIntento(hechas, de) {
+  const r = recActual(); if (!r) return;
+  if (!S.intento || S.intento.rec !== r.id) { S.intento = {rec: r.id, id: nuevoId()}; r.intentos = [...(r.intentos || []), {id: S.intento.id, fecha: new Date().toISOString()}]; }
+  const i = r.intentos.find(x => x.id === S.intento.id); if (!i) return;
+  Object.assign(i, {nota: S.nota, hechas, de});
+  clearTimeout(_int); _int = setTimeout(() => bibGuarda(r).catch(() => {}), 400);
+}
+const fechaCorta = iso => { try { return new Date(iso).toLocaleDateString(locale(), {day: 'numeric', month: 'short'}); } catch { return ''; } };
 function pintaNota(ex) {
   const hechas = Object.keys(S.auto).length;
   if (!hechas) { $('exNota').innerHTML = `<p class="help" style="margin:0">${esc(t('Cuando te corrijas, aquí verás tu nota del simulacro.'))}</p>`; return; }
   S.nota = notaDe(ex.preguntas, S.auto);
+  registraIntento(hechas, ex.preguntas.length);
   $('exNota').innerHTML = `<h3>${esc(t('Tu nota del simulacro'))}</h3><div class="pa-nota">${fmtN(S.nota)}</div><p class="sub">${esc(t('{0} de {1} preguntas corregidas', hechas, ex.preguntas.length))}</p><div class="actions"><button class="btn btn-primary" id="btnACompartir" type="button">${ico('share')}<span>${esc(t('Compartir mi resultado'))}</span></button></div>`;
 }
 document.addEventListener('click', async e => {
@@ -177,7 +196,8 @@ document.addEventListener('click', async e => {
   if (b.id === 'btnACompartir') go(4);
   if (b.id === 'btnCrono') { S.crono = S.crono ? null : Date.now() + (examenActual().duracion_min || 90) * 60000; pintaExamen(); }
   if (b.id === 'btnGenera' || b.id === 'btnGeneraOtro') generaConClave(b);
-  if (b.dataset.fuente) { S.fuente[clave()] = b.dataset.fuente; S.auto = {}; S.crono = null; guarda(); pintaExamen(); }
+  if (b.id === 'btnVerBib') go(7);
+  if (b.dataset.fuente) { S.fuente[clave()] = b.dataset.fuente; S.auto = {}; S.intento = null; S.crono = null; guarda(); pintaExamen(); }
 });
 function tic() {
   clearTimeout(tic._t); const el = $('crono'); if (!el) return;
@@ -201,8 +221,7 @@ async function generaConClave(b) {
     }, ctx);
     if (ctx) ex.con_contexto = true;
     if (!ex.preguntas.length) throw new Error(t('Ninguna pregunta superó la doble resolución. Prueba otra vez o con otro modelo.'));
-    const k = clave(); S.propios[k] = [ex, ...(S.propios[k] || [])].slice(0, MAX_PROPIOS);
-    S.fuente[k] = 'propio:0'; S.auto = {}; await guardaYa(); pintaExamen();
+    const r = await alBib(S.c, S.m, ex, 'propio'); S.fuente[clave()] = 'bib:' + r.id; S.auto = {}; S.intento = null; await guardaYa(); pintaExamen();
   } catch (e) { st.textContent = e.message; toast(e.message, 8000); }
   finally { busy = false; b.disabled = false; }
 }
@@ -297,14 +316,63 @@ function pintaClave() {
     'Por API, OpenAI no usa tus datos para entrenar sus modelos por defecto.']);
   $('claveNota').textContent = t('Son complementarios: el chatbot va bien para preguntar dudas; la clave en PAUsible, para generar exámenes completos con solución revisada dos veces. Y recuerda: no hace falta ninguna de las dos para usar las predicciones ni los exámenes ya generados.');
 }
+/* ── 7 · Mis exámenes ── */
+function pintaBiblioteca() {
+  const todos = MEM.bib;
+  const mats = [...new Set(todos.map(r => r.m))].sort((a, b) => nombreMat(a).localeCompare(nombreMat(b)));
+  const selM = $('bibMat'), selO = $('bibOrig'), vm = selM.value, vo = selO.value;
+  selM.innerHTML = `<option value="">${esc(t('Todas las materias'))}</option>` + mats.map(m => `<option value="${m}">${esc(nombreMat(m))}</option>`).join('');
+  selM.value = mats.includes(vm) ? vm : '';
+  selO.innerHTML = [['', t('Todos')], ['propio', t('Generados por mí')], ['reto', t('Retos recibidos')]].map(([v, l]) => `<option value="${v}">${esc(l)}</option>`).join('');
+  selO.value = vo || '';
+  const lista = todos.filter(r => (!selM.value || r.m === selM.value) && (!selO.value || r.origen === selO.value));
+  $('bibResumen').textContent = todos.length ? t('{0} exámenes guardados en este navegador. Si borras los datos del navegador se pierden: exporta una copia de vez en cuando.', todos.length) : '';
+  $('bibLista').innerHTML = !todos.length ? `<div class="card"><p style="margin:0">${esc(t('Aún no tienes exámenes guardados. Aparecen aquí los que generas con tu clave y los que recibes en un reto.'))}</p></div>`
+    : !lista.length ? `<div class="card"><p style="margin:0">${esc(t('Ningún examen con estos filtros.'))}</p></div>`
+    : lista.map(r => {
+      const pr = r.ex.preguntas || [], cod = pr.filter(p => p.verificacion === 'codigo').length, mn = mejorNota(r);
+      return `<div class="card pa-bib"><div class="pa-bib-cab"><div><b>${conFormulas(r.ex.titulo || nombreMat(r.m))}</b><div class="sub">${esc(nombreMat(r.m))} · ${esc(nombreCCAA(r.c))} · ${esc(fechaCorta(r.creado))}</div></div>
+        <div class="pa-bib-nota">${mn != null ? fmtN(mn) : '–'}<small>${esc(t('mejor nota'))}</small></div></div>
+        <p class="pa-bib-meta"><span class="fa-chip ${r.origen === 'reto' ? 'aviso' : ''}">${esc(r.origen === 'reto' ? t('Reto recibido') : t('Generado por mí'))}</span> <span class="fa-chip">${esc(t('{0} preguntas', pr.length))}</span>${cod ? ` <span class="fa-chip ok">✓ ${esc(t('{0} comprobadas por código', cod))}</span>` : ''} <span class="sub">${esc(t('{0} intentos', (r.intentos || []).length))}${r.reto_nota != null ? ' · ' + esc(t('nota de quien te retó: {0}', fmtN(r.reto_nota))) : ''}</span></p>
+        <div class="actions" style="margin-top:8px"><button class="btn btn-primary btn-sm" type="button" data-abrir="${r.id}">${esc(t('Hacer de nuevo'))}</button><button class="btn btn-ghost btn-sm" type="button" data-retar="${r.id}">${esc(t('Retar con este examen'))}</button><button class="btn btn-ghost btn-sm" type="button" data-borrar="${r.id}">${esc(t('Borrar'))}</button></div></div>`;
+    }).join('');
+}
+$('bibMat').onchange = pintaBiblioteca; $('bibOrig').onchange = pintaBiblioteca;
+function abreDeBib(id) { const r = MEM.bibId[id]; if (!r) return false; S.c = r.c; S.m = r.m; S.ejemplo = false; S.fuente[`${r.c}__${r.m}`] = 'bib:' + id; S.auto = {}; S.intento = null; S.crono = null; guarda(); return true; }
+document.addEventListener('click', async e => {
+  const b = e.target.closest('button'); if (!b) return;
+  if (b.dataset.abrir && abreDeBib(b.dataset.abrir)) go(3);
+  if (b.dataset.retar && abreDeBib(b.dataset.retar)) go(4);
+  if (b.dataset.borrar) {
+    if (b.dataset.seguro !== '1') { b.dataset.seguro = '1'; b.textContent = t('¿Seguro? Pulsa otra vez'); b.classList.add('btn-danger'); setTimeout(() => { if (b.isConnected) { b.dataset.seguro = ''; b.textContent = t('Borrar'); b.classList.remove('btn-danger'); } }, 4000); return; }
+    await bibBorra(b.dataset.borrar); await recargaBib(); pintaBiblioteca(); toast(t('Examen borrado'));
+  }
+  if (b.id === 'btnBib') go(7);
+});
+$('btnBibExp').onclick = async () => { const j = await bibExporta(); dl(`pausible-mis-examenes-${new Date().toISOString().slice(0, 10)}.json`, new Blob([JSON.stringify(j)], {type: 'application/json'})); toast(t('Copia de seguridad descargada: {0} exámenes', j.n)); };
+$('fichBib').onchange = async e => {
+  const f = e.target.files[0]; e.target.value = ''; if (!f) return;
+  try { const n = await bibImporta(JSON.parse(await f.text())); await recargaBib(); pintaBiblioteca(); toast(t('Importados {0} exámenes', n)); }
+  catch { toast(t('Ese fichero no es una copia de «Mis exámenes».'), 6000); }
+};
+
 $('btnGuiaClave').onclick = () => { $('mIA').classList.remove('on'); go(6); };
 document.addEventListener('click', e => { if (e.target.closest('#lnkClave')) { e.preventDefault(); go(6); } });
 
 window.addEventListener('langchange', () => { if (step === 4) pintaComparte(); });
 (async () => {
   const prev = await cargaEstado(); if (prev) S = {...S, ...prev, crono: null};
-  S.propios = S.propios || {}; S.retos = S.retos || {}; S.fuente = S.fuente || {};
-  if (S.examen && S.examen.ex) { const k = `${S.examen.c}__${S.examen.m}`; S.propios[k] = [S.examen.ex, ...(S.propios[k] || [])].slice(0, MAX_PROPIOS); delete S.examen; }   // versión anterior: un solo examen
+  S.fuente = S.fuente || {}; S.intento = null;
+  // versiones anteriores: exámenes dentro del estado (S.examen, S.propios, S.retos) → «Mis exámenes»
+  try {
+    const viejos = [];
+    if (S.examen && S.examen.ex) viejos.push([S.examen.c, S.examen.m, S.examen.ex, 'propio']);
+    for (const [k, l] of Object.entries(S.propios || {})) for (const ex of [...l].reverse()) viejos.push([...k.split('__'), ex, 'propio']);
+    for (const [k, ex] of Object.entries(S.retos || {})) viejos.push([...k.split('__'), ex, 'reto']);
+    for (const [c, m, ex, o] of viejos) await bibGuarda(bibNuevo(c, m, ex, o));
+    if (viejos.length || S.propios || S.retos || S.examen) { delete S.examen; delete S.propios; delete S.retos; for (const k in S.fuente) if (!/^(oficial|bib:)/.test(S.fuente[k])) delete S.fuente[k]; await guardaYa(); }
+  } catch {}
+  await recargaBib();
   iniciaUI(); go(0);
   await cargaDatos(); (RENDER[step] || (() => {}))();
   if (RETO && step === 0) pintaInicio();

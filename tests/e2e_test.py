@@ -77,7 +77,7 @@ async def main():
         assert await pg.evaluate("document.querySelectorAll('.pa-enun .katex').length") > 0    # fórmula del enunciado con KaTeX
         # historial: un segundo examen con la clave → «Mío 1» y «Mío 2»
         await pg.click('#btnGeneraOtro'); await pg.wait_for_function("document.querySelectorAll('[data-fuente]').length >= 2", timeout=15000)
-        assert await pg.locator('[data-fuente^="propio:"]').count() == 2
+        assert await pg.locator('[data-fuente^="bib:"]').count() == 2
         # reto con examen propio: viaja comprimido en el #fragmento y el amigo recibe exactamente el mismo
         await pg.fill('#auto0', '4'); await pg.click('#btnACompartir'); await pg.wait_for_function('LINK.length > 0')
         link = await pg.evaluate('LINK'); assert '#e=z' in link and len(link) < 6000, link[:120]
@@ -95,6 +95,32 @@ async def main():
         otro = await ctx.new_page(); await otro.goto(base); await otro.wait_for_function('DATOS.cargado')
         await otro.set_input_files('#fichReto', fich); await otro.wait_for_selector('.pa-preg')
         assert await otro.evaluate("examenActual().preguntas.map(p => p.enunciado)") == enun
+        # «Mis exámenes»: el amigo tiene el reto guardado con la nota de quien le retó, y el intento se registra al corregirse
+        await amigo.fill('#auto0', '3'); await amigo.wait_for_timeout(700)
+        await amigo.click('#goHome'); await amigo.click('#btnBib'); await amigo.wait_for_selector('.pa-bib')
+        txtb = await amigo.inner_text('#bibLista'); assert 'Reto recibido' in txtb and '1 intentos' in txtb and 'nota de quien te retó: 8' in txtb, txtb
+        # yo: dos exámenes generados, exportar → borrar uno → importar lo recupera sin duplicar
+        # (mismo contexto de navegador = misma base: aquí también están los retos del amigo)
+        await pg.click('#goHome'); await pg.click('#btnBib'); await pg.wait_for_selector('.pa-bib')
+        await pg.evaluate('recargaBib().then(pintaBiblioteca)')
+        n = await pg.locator('.pa-bib').count(); assert n >= 2 and n == await pg.evaluate('MEM.bib.length')
+        await pg.select_option('#bibOrig', 'propio'); assert await pg.locator('.pa-bib').count() == 2; await pg.select_option('#bibOrig', '')
+        async with pg.expect_download() as d2: await pg.click('#btnBibExp')
+        copia = await (await d2.value).path()
+        borrar = pg.locator('[data-borrar]').first; await borrar.click(); await borrar.click(); await pg.wait_for_timeout(300)
+        assert await pg.locator('.pa-bib').count() == n - 1
+        await pg.set_input_files('#fichBib', copia); await pg.wait_for_timeout(500)
+        assert await pg.locator('.pa-bib').count() == n
+        await pg.set_input_files('#fichBib', copia); await pg.wait_for_timeout(500)
+        assert await pg.locator('.pa-bib').count() == n                       # importar dos veces no duplica
+        await pg.select_option('#bibOrig', 'propio')
+        await pg.locator('[data-abrir]').first.click(); await pg.wait_for_selector('.pa-preg')
+        assert 'Generado con tu clave' in await pg.inner_text('#exCab')
+        # migración: un estado antiguo con exámenes dentro (S.propios) pasa a «Mis exámenes»
+        mig = await ctx.new_page(); await mig.goto(base); await mig.wait_for_function('DATOS.cargado')
+        await mig.evaluate("kv('readwrite', s => s.put({...S, propios: {'madrid__matematicas2': [EJ_EXAMEN.es]}, retos: {}}, 'main'))")
+        await mig.reload(); await mig.wait_for_function('DATOS.cargado')
+        assert await mig.evaluate("MEM.bib.length") == n + 1 and await mig.evaluate("S.propios === undefined")
         # reto con examen oficial: lleva la huella de la versión
         await pg.click('#goHome'); await pg.click('#btnStart'); await pg.click('[data-c="madrid"]'); await pg.select_option('#selMat', 'matematicas2')
         await pg.click('#navNext'); await pg.click('#navNext'); await pg.wait_for_selector('.pa-preg'); await pg.fill('#auto0', '2')

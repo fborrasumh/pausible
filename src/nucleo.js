@@ -77,6 +77,7 @@ function leeReto(search, hash = '') {
 function paqueteExamen(ex) {
   const P = ['n', 'tema', 'puntos', 'tipo', 'enunciado', 'resultado', 'solucion', 'criterios', 'verificacion', 'resoluciones'];
   return {titulo: ex.titulo, duracion_min: ex.duracion_min, instrucciones: ex.instrucciones, generado: ex.generado,
+    ...(Array.isArray(ex.descartadas) && ex.descartadas.length ? {descartadas: ex.descartadas.slice(0, 20)} : {}), ...(ex.con_contexto ? {con_contexto: true} : {}),
     preguntas: (ex.preguntas || []).map(p => Object.fromEntries(P.filter(k => p[k] != null).map(k => [k, p[k]])))};
 }
 const b64url = u8 => btoa(String.fromCharCode(...u8)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
