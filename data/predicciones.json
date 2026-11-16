@@ -5884,6 +5884,870 @@
    },
    "predecibilidad": null
   },
+  "baleares": {
+   "nombre": "Illes Balears",
+   "materias": {
+    "biologia": {
+     "nombre": "Biología",
+     "n_examenes": 2,
+     "anios": [
+      2022,
+      2024
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/700/700903_entregable_propcontract_67_2022_ca.pdf"
+      },
+      {
+       "anio": 2024,
+       "conv": "modelo",
+       "url": "https://investigacio.uib.cat/digitalAssets/754/754286_75_2024.pdf"
+      }
+     ],
+     "temas": [
+      {
+       "id": "biomoleculas",
+       "nombre": "Biomoléculas",
+       "p": 0.489,
+       "veces": 1,
+       "de": 2,
+       "ultimo": 2024,
+       "tendencia": "estable",
+       "muestra": "Datos sobre el contrato Objeto del contrato La persona seleccionada deberá integrarse en el grupo de investigación de Biomedicina Molecular y Celular de la UIB para desarrollar actividades relacionadas con terapia lipídica en el deterioro cognitivo asociado a síndrome de Down (SD…",
+       "muestra_url": "https://investigacio.uib.cat/digitalAssets/754/754286_75_2024.pdf"
+      },
+      {
+       "id": "molecular",
+       "nombre": "Genética molecular y biotecnología",
+       "p": 0.489,
+       "veces": 1,
+       "de": 2,
+       "ultimo": 2024,
+       "tendencia": "estable",
+       "muestra": "Activitats d'investigació concretes que haurà de desenvolupar la persona que es contractarà: 1. Manipular rosegadors transgènics de la desviació estàndard (DE) (Ts65Dn) i soques associades, i manteniment de colònies estables a les instal·lacions de l’estabulari de la UIB. 2. Gest…",
+       "muestra_url": "https://investigacio.uib.cat/digitalAssets/754/754286_75_2024.pdf"
+      },
+      {
+       "id": "microbiologia",
+       "nombre": "Microbiología",
+       "p": 0.411,
+       "veces": 1,
+       "de": 2,
+       "ultimo": 2022,
+       "tendencia": "estable",
+       "muestra": "Oferta de contractació Títol de l'oferta 67/2022 - Contracte postdoctoral per donar suport al grup de recerca de Microbiologia de la UIB",
+       "muestra_url": "https://investigacio.uib.cat/digitalAssets/700/700903_entregable_propcontract_67_2022_ca.pdf"
+      },
+      {
+       "id": "celula",
+       "nombre": "La célula",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "metabolismo",
+       "nombre": "Metabolismo",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "division",
+       "nombre": "División celular",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "genetica",
+       "nombre": "Genética mendeliana",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "inmunologia",
+       "nombre": "Inmunología",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "catalan": {
+     "nombre": "Llengua Catalana i Literatura",
+     "n_examenes": 81,
+     "anios": [
+      2023
+     ],
+     "examenes": [
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/713/713174_2022-23_6_40-cat.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/713/713170_2022-23_6_44-cat.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/713/713182_2022-23_6_45-cat.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/713/713172_2022-23_6_46-cat.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/713/713173_2022-23_6_48-cat.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/713/713176_2022-23_6_49-cat.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/713/713207_2022-23_6_50-cat.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/713/713180_2022-23_6_57-cat.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/713/713179_2022-23_6_58-cat.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/713/713181_2022-23_6_59-cat.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/708/708353_2022-23_5_21-cat.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705789_2022-23_4_97-llista-provisional-damesos-i-exclosos.-AnglAs-CatalA.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706546_2022-23_4_97-llista-definitiva-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705792_2022-23_4_98--llista-provisional-damesos-i-exclosos.-AnglAs-CatalA.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706547_2022-23_4_98--llista-definitiva-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705730_2022-23_4_99-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706589_2022-23_4_99-llista-definitiva-damesos-i-exclosos.-AnglAs-CatalA.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705731_2022-23_4_100-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706548_2022-23_4_100-llista-definitiva-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705732_2022-23_4_101-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706553_2022-23_4_101-llista-definitiva-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705735_2022-23_4_102-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706549_2022-23_4_102-llista-definitiva-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705803_2022-23_4_103-llista-provisional-damesos-i-exclosos.-AnglAs-CatalA.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706592_2022-23_4_103-llista-definiiva-damesos-i-exclosos.-AnglAs-CatalA.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705734_2022-23_4_104-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706550_2022-23_4_104-llista-definitiva-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705720_2022-23_4_3-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706539_2022-23_4_3-llista-definitiva-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705727_2022-23_4_5-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706537_2022-23_4_5-llista-definitiva-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705726_2022-23_4_6-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706566_2022-23_4_6-llista-definitiva-damesos-i-exclosos.-AnglAs-CatalA.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705722_2022-23_4_7-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706536_2022-23_4_7-llista-definitiva-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705724_2022-23_4_8-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706540_2022-23_4_8-llista-definitiva-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705723_2022-23_4_12-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706538_2022-23_4_12-llista-definitiva-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706542_2022-23_4_13-llista-definitiva-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705721_2022-23_4_15-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706541_2022-23_4_15-llista-definitiva-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705725_2022-23_4_16-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706543_2022-23_4_16-llista-definitiva-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705728_2022-23_4_17-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706544_2022-23_4_17-llista-definitiva-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/705/705729_2022-23_4_19-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/706/706545_2022-23_4_19-llista-definitiva-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697782_2022-23_2_32-plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697783_2022-23_2_33plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697784_2022-23_2_36-plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697785_2022-23_2_39plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697786_2022-23_2_40plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697787_2022-23_2_41plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697788_2022-23_2_42plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697789_2022-23_2_43plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697790_2022-23_2_45plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697817_2022-23_2_46-plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697818_2022-23_2_47plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697819_2022-23_2_48-plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697820_2022-23_2_49-plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697821_2022-23_2_50-plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697822_2022-23_2_51-plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697823_2022-23_2_52plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697824_2022-23_2_53plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697825_2022-23_2_54plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697826_2022-23_2_55plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697827_2022-23_2_56plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697828_2022-23_2_57-plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697829_2022-23_2_58plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697831_2022-23_2_60-plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697832_2022-23_2_61plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/697/697833_2022-23_2_62-plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/694/694081_plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/694/694136_plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/694/694093_llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/694/694094_llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/694/694095_llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/694/694096_2022-23_1_29-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/694/694098_plantilla-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      },
+      {
+       "anio": 2023,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/694/694099_2022-23_1_35-llista-provisional-damesos-i-exclosos.-anglas-catala.pdf"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "diseno": {
+     "nombre": "Diseño",
+     "n_examenes": 2,
+     "anios": [
+      2023,
+      2024
+     ],
+     "examenes": [
+      {
+       "anio": 2023,
+       "conv": "modelo",
+       "url": "https://investigacio.uib.cat/digitalAssets/713/713238_2022-23_6_56-ca.pdf"
+      },
+      {
+       "anio": 2024,
+       "conv": "modelo",
+       "url": "https://investigacio.uib.cat/digitalAssets/754/754281_77_2024.pdf"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "empresa": {
+     "nombre": "Empresa y Diseño de Modelos de Negocio / Economía de la Empresa",
+     "n_examenes": 2,
+     "anios": [
+      2022
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/701/701019_entregable_propcontract_77_2022_ca.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "nd",
+       "url": "https://investigacio.uib.cat/digitalAssets/701/701023_entregable_propcontract_78_2022_ca.pdf"
+      }
+     ],
+     "temas": [
+      {
+       "id": "financiacion",
+       "nombre": "Inversión y financiación (VAN, TIR, payback)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "contabilidad",
+       "nombre": "Balance y análisis financiero (ratios)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "produccion",
+       "nombre": "Producción, costes y umbral de rentabilidad",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "marketing",
+       "nombre": "Marketing",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "modelonegocio",
+       "nombre": "Modelo de negocio y emprendimiento (Canvas)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "organizacion",
+       "nombre": "Organización y dirección",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "fisica": {
+     "nombre": "Física",
+     "n_examenes": 2,
+     "anios": [
+      2022
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "modelo",
+       "url": "https://investigacio.uib.cat/digitalAssets/700/700399_entregable_propcontract_79_2022_ca.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "modelo",
+       "url": "https://investigacio.uib.cat/digitalAssets/700/700398_entregable_propcontract_80_2022_ca.pdf"
+      }
+     ],
+     "temas": [
+      {
+       "id": "gravitacion",
+       "nombre": "Campo gravitatorio",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "electrico",
+       "nombre": "Campo eléctrico",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "magnetico",
+       "nombre": "Campo magnético e inducción",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "ondas",
+       "nombre": "Ondas y sonido",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "optica",
+       "nombre": "Óptica",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "moderna",
+       "nombre": "Física moderna (cuántica, nuclear, relatividad)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "lengua": {
+     "nombre": "Lengua Castellana y Literatura II",
+     "n_examenes": 1,
+     "anios": [
+      2023
+     ],
+     "examenes": [
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "https://investigacio.uib.cat/digitalAssets/708/708343_2022-23_5_18-cast.pdf"
+      }
+     ],
+     "temas": [
+      {
+       "id": "comprension",
+       "nombre": "Comprensión y resumen del texto",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "argumentacion",
+       "nombre": "Texto argumentativo / opinión",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "sintaxis",
+       "nombre": "Sintaxis (oración compuesta)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "morfologia",
+       "nombre": "Léxico, morfología y semántica",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "lit98",
+       "nombre": "Literatura: Modernismo y 98, novecentismo",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "lit27",
+       "nombre": "Literatura: 27, Lorca, poesía de posguerra",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "novela",
+       "nombre": "Novela del siglo XX y actual",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "teatro",
+       "nombre": "Teatro del siglo XX",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "valenciano": {
+     "nombre": "Valencià: Llengua i Literatura II",
+     "n_examenes": 2,
+     "anios": [
+      2022
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://investigacio.uib.cat/digitalAssets/686/686271_resultat-133-2022.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://investigacio.uib.cat/digitalAssets/686/686265_resultat-129-2022.pdf"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    }
+   },
+   "predecibilidad": null
+  },
   "canarias": {
    "nombre": "Canarias",
    "materias": {
@@ -45092,50 +45956,50 @@
    {
     "id": "molecular",
     "nombre": "Genética molecular y biotecnología",
-    "p": 0.797,
-    "ccaa": 12
+    "p": 0.794,
+    "ccaa": 13
    },
    {
     "id": "biomoleculas",
     "nombre": "Biomoléculas",
-    "p": 0.774,
-    "ccaa": 12
+    "p": 0.771,
+    "ccaa": 13
    },
    {
     "id": "metabolismo",
     "nombre": "Metabolismo",
-    "p": 0.717,
-    "ccaa": 12
+    "p": 0.71,
+    "ccaa": 13
    },
    {
     "id": "inmunologia",
     "nombre": "Inmunología",
-    "p": 0.696,
-    "ccaa": 12
+    "p": 0.689,
+    "ccaa": 13
    },
    {
     "id": "celula",
     "nombre": "La célula",
-    "p": 0.618,
-    "ccaa": 12
+    "p": 0.612,
+    "ccaa": 13
    },
    {
     "id": "microbiologia",
     "nombre": "Microbiología",
-    "p": 0.573,
-    "ccaa": 12
+    "p": 0.571,
+    "ccaa": 13
    },
    {
     "id": "division",
     "nombre": "División celular",
-    "p": 0.473,
-    "ccaa": 12
+    "p": 0.469,
+    "ccaa": 13
    },
    {
     "id": "genetica",
     "nombre": "Genética mendeliana",
-    "p": 0.291,
-    "ccaa": 12
+    "p": 0.288,
+    "ccaa": 13
    }
   ],
   "dibujo": [
@@ -45174,38 +46038,38 @@
    {
     "id": "contabilidad",
     "nombre": "Balance y análisis financiero (ratios)",
-    "p": 0.797,
-    "ccaa": 13
+    "p": 0.788,
+    "ccaa": 14
    },
    {
     "id": "marketing",
     "nombre": "Marketing",
-    "p": 0.762,
-    "ccaa": 13
+    "p": 0.754,
+    "ccaa": 14
    },
    {
     "id": "financiacion",
     "nombre": "Inversión y financiación (VAN, TIR, payback)",
-    "p": 0.722,
-    "ccaa": 13
+    "p": 0.714,
+    "ccaa": 14
    },
    {
     "id": "produccion",
     "nombre": "Producción, costes y umbral de rentabilidad",
-    "p": 0.68,
-    "ccaa": 13
+    "p": 0.672,
+    "ccaa": 14
    },
    {
     "id": "modelonegocio",
     "nombre": "Modelo de negocio y emprendimiento (Canvas)",
-    "p": 0.445,
-    "ccaa": 13
+    "p": 0.44,
+    "ccaa": 14
    },
    {
     "id": "organizacion",
     "nombre": "Organización y dirección",
-    "p": 0.397,
-    "ccaa": 13
+    "p": 0.393,
+    "ccaa": 14
    }
   ],
   "filosofia": [
@@ -45274,38 +46138,38 @@
    {
     "id": "gravitacion",
     "nombre": "Campo gravitatorio",
-    "p": 0.744,
-    "ccaa": 12
+    "p": 0.736,
+    "ccaa": 13
    },
    {
     "id": "optica",
     "nombre": "Óptica",
-    "p": 0.623,
-    "ccaa": 12
+    "p": 0.617,
+    "ccaa": 13
    },
    {
     "id": "ondas",
     "nombre": "Ondas y sonido",
-    "p": 0.616,
-    "ccaa": 12
+    "p": 0.61,
+    "ccaa": 13
    },
    {
     "id": "moderna",
     "nombre": "Física moderna (cuántica, nuclear, relatividad)",
-    "p": 0.612,
-    "ccaa": 12
+    "p": 0.606,
+    "ccaa": 13
    },
    {
     "id": "electrico",
     "nombre": "Campo eléctrico",
-    "p": 0.606,
-    "ccaa": 12
+    "p": 0.6,
+    "ccaa": 13
    },
    {
     "id": "magnetico",
     "nombre": "Campo magnético e inducción",
-    "p": 0.588,
-    "ccaa": 12
+    "p": 0.582,
+    "ccaa": 13
    }
   ],
   "geografia": [
@@ -45511,49 +46375,49 @@
     "id": "morfologia",
     "nombre": "Léxico, morfología y semántica",
     "p": 0.44,
-    "ccaa": 12
+    "ccaa": 13
    },
    {
     "id": "sintaxis",
     "nombre": "Sintaxis (oración compuesta)",
-    "p": 0.334,
-    "ccaa": 12
+    "p": 0.333,
+    "ccaa": 13
    },
    {
     "id": "argumentacion",
     "nombre": "Texto argumentativo / opinión",
     "p": 0.311,
-    "ccaa": 12
+    "ccaa": 13
    },
    {
     "id": "comprension",
     "nombre": "Comprensión y resumen del texto",
-    "p": 0.228,
-    "ccaa": 12
+    "p": 0.227,
+    "ccaa": 13
    },
    {
     "id": "novela",
     "nombre": "Novela del siglo XX y actual",
     "p": 0.219,
-    "ccaa": 12
+    "ccaa": 13
    },
    {
     "id": "teatro",
     "nombre": "Teatro del siglo XX",
     "p": 0.177,
-    "ccaa": 12
+    "ccaa": 13
    },
    {
     "id": "lit27",
     "nombre": "Literatura: 27, Lorca, poesía de posguerra",
     "p": 0.15,
-    "ccaa": 12
+    "ccaa": 13
    },
    {
     "id": "lit98",
     "nombre": "Literatura: Modernismo y 98, novecentismo",
     "p": 0.122,
-    "ccaa": 12
+    "ccaa": 13
    }
   ],
   "matccss": [
