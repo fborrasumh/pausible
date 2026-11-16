@@ -1,0 +1,198 @@
+{
+ "ccaa": "andalucia",
+ "materia": "empresa",
+ "titulo": "PAU 2027 Andalucía — Empresa y Diseño de Modelos de Negocio (propuesta original)",
+ "duracion_min": 90,
+ "instrucciones": "Duración: 1 hora y 30 minutos. El examen consta de dos partes y suma 10 puntos. En la primera parte, responda obligatoriamente los dos problemas, de 2 puntos cada uno. En la segunda parte, de preguntas competenciales contextualizadas, responda una pregunta del bloque A, una del B, dos del C, una del D y una del E. Cada pregunta teórica vale 1 punto. Se corregirán únicamente las respuestas requeridas, siguiendo el orden en que aparezcan. Responda en el papel destinado a la realización del examen.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "contabilidad",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "La cooperativa andaluza CampoClaro presenta los siguientes elementos patrimoniales a 31 de diciembre (en euros): maquinaria, 70.000; amortización acumulada del inmovilizado material, 15.000; aplicaciones informáticas, 5.000; existencias, 15.000; clientes, 20.000; inversiones financieras a corto plazo, 5.000; bancos, 20.000; deudas a largo plazo con entidades de crédito, 30.000; proveedores, 12.000; deudas a corto plazo con entidades de crédito, 8.000; reservas, 10.000; resultado del ejercicio (beneficio), 5.000; capital social, X. Se pide: a) Elabore el balance de situación, ordenado según el modelo del PGC, y calcule el capital social. b) Calcule el fondo de maniobra y el ratio de liquidez, definido como activo corriente dividido entre pasivo corriente. c) Calcule el ratio de garantía, definido como activo total dividido entre deuda total.",
+   "solucion": "### a) Balance de situación a 31 de diciembre\n\nLa maquinaria se presenta por su valor neto contable: $70.000-15.000=55.000$ euros. El activo total es $60.000+60.000=120.000$ euros.\n\nEl capital social se obtiene como partida de equilibrio entre el activo y el patrimonio neto y pasivo:\n\n$120.000=X+10.000+5.000+30.000+8.000+12.000$\n\nPor tanto, $X=55.000$ euros.\n\n| ACTIVO | Euros | PATRIMONIO NETO Y PASIVO | Euros |\n|---|---:|---|---:|\n| **A) Activo no corriente** | **60.000** | **A) Patrimonio neto** | **70.000** |\n| Aplicaciones informáticas | 5.000 | Capital social | 55.000 |\n| Maquinaria | 70.000 | Reservas | 10.000 |\n| Amortización acumulada del inmovilizado material | -15.000 | Resultado del ejercicio | 5.000 |\n| **B) Activo corriente** | **60.000** | **B) Pasivo no corriente** | **30.000** |\n| Existencias | 15.000 | Deudas a largo plazo con entidades de crédito | 30.000 |\n| Clientes | 20.000 | **C) Pasivo corriente** | **20.000** |\n| Inversiones financieras a corto plazo | 5.000 | Deudas a corto plazo con entidades de crédito | 8.000 |\n| Bancos | 20.000 | Proveedores | 12.000 |\n| **TOTAL ACTIVO** | **120.000** | **TOTAL PATRIMONIO NETO Y PASIVO** | **120.000** |\n\n### b) Fondo de maniobra y ratio de liquidez\n\nActivo corriente: $15.000+20.000+5.000+20.000=60.000$ euros. Pasivo corriente: $8.000+12.000=20.000$ euros.\n\n- Fondo de maniobra: $60.000-20.000=40.000$ euros.\n- Ratio de liquidez: $60.000/20.000=3$.\n\n### c) Ratio de garantía\n\nDeuda total: $30.000+8.000+12.000=50.000$ euros.\n\nRatio de garantía: $120.000/50.000=2,4$.",
+   "resultado": "Capital social: 55.000 €; fondo de maniobra: 40.000 €; ratio de liquidez: 3; ratio de garantía: 2,4.",
+   "criterios": "Puntuación total: 2 puntos. a) 1,1 puntos: 0,6 por clasificar y ordenar correctamente las partidas en el balance conforme al PGC, incluyendo la amortización acumulada como menor valor del inmovilizado; 0,5 por calcular el capital social y comprobar que el balance cuadra. b) 0,6 puntos: 0,3 por el fondo de maniobra y 0,3 por el ratio de liquidez, con fórmulas y resultados correctos. c) 0,3 puntos: identificación de la deuda total y cálculo correcto del ratio de garantía. Se aceptan formatos equivalentes del balance y se valorará el procedimiento correcto aunque haya un error aritmético aislado.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "financiacion",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Una empresa de servicios de mantenimiento de instalaciones estudia adquirir equipos para ofrecer un nuevo servicio. El desembolso inicial es de 23.100 €. Los flujos netos de caja previstos, que se reciben al final de cada año, son: año 1, 11.000 €; año 2, 12.100 €; año 3, 13.310 €. El tipo de actualización anual es del 10 %. Se pide: a) Calcule el plazo de recuperación o payback. b) Calcule el VAN aplicando $VAN=-I_0+\\sum_{t=1}^{3}\\frac{FNC_t}{(1+i)^t}$ e indique si conviene realizar la inversión según este criterio.",
+   "solucion": "**a) Plazo de recuperación (payback).** Se acumulan los flujos netos de caja hasta recuperar el desembolso inicial: al final del año 1 se han recuperado $11.000$ €, por lo que quedan $23.100-11.000=12.100$ €; al final del año 2 se recuperan otros $12.100$ €. Por tanto, el desembolso se recupera exactamente al final del segundo año: **payback = 2 años**.\\n\\n**b) VAN.** Aplicando la expresión indicada: $VAN=-23.100+\\frac{11.000}{1,10}+\\frac{12.100}{(1,10)^2}+\\frac{13.310}{(1,10)^3}=-23.100+10.000+10.000+10.000=6.900$ €. Como el VAN es positivo, **conviene realizar la inversión según el criterio del VAN**.",
+   "resultado": "Payback: 2 años; VAN: 6.900 €; conviene realizar la inversión.",
+   "criterios": "Total: 2 puntos. a) 1 punto: acumulación correcta de los flujos (0,5) e identificación del plazo de recuperación exacto de 2 años (0,5). b) 1 punto: aplicación correcta de la fórmula y cálculo del VAN de 6.900 € (0,75); conclusión de que conviene invertir porque el VAN es positivo (0,25). Se otorgará puntuación parcial por planteamientos correctos aunque haya errores aritméticos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "A.1",
+   "tema": "modelonegocio",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una almazara mantiene su aceite, envase y mercados actuales, pero instala sensores que ajustan automáticamente la temperatura durante la molturación para reducir el consumo energético y obtener una calidad más constante. Indique si se trata de una innovación y clasifíquela según el objeto de la innovación: producto o proceso. Justifique la respuesta con un dato del caso.",
+   "solucion": "**1. ¿Es una innovación?** Sí. La almazara incorpora sensores que automatizan el ajuste de la temperatura durante la molturación, introduciendo una mejora en la forma de producir.\n\n**2. Clasificación según el objeto:** Es una **innovación de proceso**, no de producto. La actuación mejora el proceso de molturación al reducir el consumo energético y favorecer una calidad más constante; no modifica el aceite, el envase ni los mercados actuales.\n\n**Dato justificativo:** Los sensores ajustan automáticamente la temperatura **durante la molturación**.",
+   "resultado": "Sí: es una innovación de proceso, porque los sensores mejoran la molturación sin cambiar el producto.",
+   "criterios": "1 punto: 0,25 por identificar que es una innovación; 0,50 por clasificarla correctamente como innovación de proceso; 0,25 por justificarlo con un dato del caso, como el ajuste automático de la temperatura durante la molturación o la reducción del consumo energético. No se concede la puntuación de clasificación si se responde «producto».",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "A.2",
+   "tema": "modelonegocio",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Lucía crea una empresa que ofrece formación digital gratuita a personas desempleadas de larga duración. La empresa vende servicios de consultoría a otras organizaciones y destina sus excedentes a financiar esa formación y la inserción laboral de las personas participantes. Identifique el tipo de emprendimiento atendiendo a su finalidad principal y justifique la clasificación con un dato del caso.",
+   "solucion": "**1. Identificación:** Se trata de un **emprendimiento social**.\n\n**2. Justificación:** Aunque la empresa obtiene ingresos vendiendo servicios de consultoría, su finalidad principal no es maximizar el beneficio privado: destina sus excedentes a financiar formación digital gratuita y favorecer la inserción laboral de personas desempleadas de larga duración. Ese dato del caso muestra que prioriza un objetivo social.\n\n**Comprobación:** La existencia de ventas no cambia la clasificación; lo determinante es la finalidad principal y el destino de los excedentes.",
+   "resultado": "Emprendimiento social: prioriza la formación e inserción laboral de personas desempleadas de larga duración y reinvierte en ello sus excedentes.",
+   "criterios": "1 punto: 0,5 por identificar correctamente el emprendimiento social y 0,5 por justificarlo con un dato concreto del caso. No se exige cálculo numérico.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "B.1",
+   "tema": "modelonegocio",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una empresa andaluza que fabrica mobiliario escolar considera estos cuatro cambios: 1) entra en vigor una nueva normativa estatal sobre seguridad de los muebles; 2) un competidor abre una fábrica en la misma provincia; 3) sube el índice general de precios en España; 4) su principal proveedor comunica un aumento del precio de la madera. Clasifique cada cambio como elemento del macroentorno o del microentorno.",
+   "solucion": "Se distingue entre **macroentorno**, que comprende factores generales externos que afectan a las empresas, y **microentorno**, formado por agentes próximos que se relacionan directamente con la empresa.\n\n1. La nueva normativa estatal sobre seguridad de los muebles es un factor del **macroentorno**: es una regulación general.\n2. La apertura de una fábrica por un competidor es un factor del **microentorno**: afecta directamente a la competencia de la empresa.\n3. La subida del índice general de precios en España es un factor del **macroentorno**: es una variable económica general.\n4. El aumento del precio de la madera por parte del proveedor es un factor del **microentorno**: afecta a una relación directa de suministro.",
+   "resultado": "1) Macroentorno; 2) Microentorno; 3) Macroentorno; 4) Microentorno.",
+   "criterios": "1 punto en total: 0,25 puntos por cada clasificación correcta. No se asignará la puntuación de cada apartado si la clasificación es incorrecta.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "B.2",
+   "tema": "modelonegocio",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "La empresa local FríoSur, que fabrica cámaras frigoríficas, contempla dos alternativas: a) ampliar su propia fábrica y contratar personal para producir más unidades; b) adquirir el 100 % de otra empresa fabricante del mismo producto. Clasifique cada alternativa como crecimiento interno o crecimiento externo, respectivamente, y justifique cada clasificación indicando en qué consiste la vía de crecimiento.",
+   "solucion": "1. **Alternativa a): crecimiento interno.** FríoSur aumenta su capacidad productiva mediante la ampliación de sus propias instalaciones y la contratación de personal. El crecimiento se realiza dentro de la empresa, desarrollando sus recursos y capacidades.\n\n2. **Alternativa b): crecimiento externo.** FríoSur adquiere el 100 % de otra empresa que ya fabrica el mismo producto. El crecimiento se produce mediante la adquisición e integración de una empresa existente, no mediante la creación o ampliación de capacidad propia. Al fabricar ambas el mismo producto, se trata además de crecimiento externo horizontal.",
+   "resultado": "a) Crecimiento interno; b) crecimiento externo.",
+   "criterios": "1 punto en total: 0,5 puntos por clasificar la alternativa a) como crecimiento interno y justificar que se desarrolla mediante la ampliación de los recursos o la capacidad propios; 0,5 puntos por clasificar la alternativa b) como crecimiento externo y justificar que se realiza mediante la adquisición de una empresa existente. La mención de que es crecimiento horizontal puede valorarse como precisión, pero no es imprescindible.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "C.1",
+   "tema": "modelonegocio",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "La iniciativa Aceite Circular recoge aceite usado de restaurantes y cafeterías de la provincia de Cádiz mediante citas solicitadas en una aplicación y les entrega un informe de trazabilidad ambiental. Además, vende detergente elaborado con parte del aceite recuperado. Obtiene ingresos mediante una cuota mensual de recogida y la venta de detergente. Indique qué bloque del modelo Canvas corresponde a cada uno de estos datos: a) restaurantes y cafeterías; b) recogida programada e informe de trazabilidad; c) aplicación para solicitar la recogida; d) cuota mensual y venta de detergente. Utilice, una vez cada uno, estos bloques: segmento de clientes, propuesta de valor, canales y fuentes de ingresos.",
+   "solucion": "### Clasificación mediante la función de cada dato\n1. **¿A quién se dirige la iniciativa?** A restaurantes y cafeterías: son el **segmento de clientes**.\n2. **¿Qué ofrece a esos clientes?** La recogida programada y el informe de trazabilidad ambiental: constituyen la **propuesta de valor**.\n3. **¿Por qué medio se solicita el servicio?** Mediante la aplicación: es un **canal**.\n4. **¿De dónde obtiene ingresos?** De la cuota mensual de recogida y de la venta de detergente: son **fuentes de ingresos**.\n\n**Comprobación:** se ha asignado cada dato a un bloque distinto y se han utilizado una sola vez los cuatro bloques indicados.",
+   "resultado": "a) Segmento de clientes; b) Propuesta de valor; c) Canales; d) Fuentes de ingresos.",
+   "criterios": "1 punto: 0,25 puntos por cada correspondencia correcta. Se aceptará la respuesta si identifica inequívocamente cada dato con el bloque Canvas indicado.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "C.2",
+   "tema": "produccion",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Una empresa que fabrica cajas reutilizables tiene unos costes fijos anuales de 24.000 € y un coste variable de 4 € por caja. Cada caja se vende a 10 €. Suponga que se vende toda la producción. Calcule el umbral de rentabilidad anual en número de cajas y el beneficio si se venden 5.500 cajas.",
+   "solucion": "### 1. Umbral de rentabilidad\nEl margen de contribución por caja es el precio de venta menos el coste variable unitario:\n$$10-4=6\\text{ € por caja}$$\nEl umbral de rentabilidad se calcula dividiendo los costes fijos entre ese margen:\n$$Q^*=\\frac{24.000}{10-4}=4.000\\text{ cajas}$$\n\n### 2. Beneficio al vender 5.500 cajas\n$$B=(10-4)\\cdot 5.500-24.000=33.000-24.000=9.000\\text{ €}$$\nPor tanto, con 5.500 cajas vendidas, la empresa obtiene un beneficio de 9.000 €.",
+   "resultado": "Umbral de rentabilidad: 4.000 cajas; beneficio con 5.500 cajas: 9.000 €.",
+   "criterios": "1 punto en total: 0,5 puntos por plantear correctamente el margen de contribución y calcular el umbral de rentabilidad (4.000 cajas); 0,5 puntos por calcular correctamente el beneficio con 5.500 cajas (9.000 €).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "C.3",
+   "tema": "organizacion",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una empresa, las personas trabajadoras están agrupadas en los departamentos de producción, comercialización y administración. Cada departamento está especializado en una función y depende directamente de la dirección general. Identifique el tipo de estructura organizativa descrito y señale el criterio que se ha utilizado para agrupar los departamentos.",
+   "solucion": "1. Los departamentos de producción, comercialización y administración corresponden a funciones distintas de la empresa. 2. Como cada departamento depende directamente de la dirección general, se trata de una estructura organizativa funcional. 3. El criterio de agrupación es la función o actividad especializada que realiza cada departamento. Comprobación: no se agrupan por productos, zonas geográficas ni tipos de clientes, sino por funciones.",
+   "resultado": "Estructura funcional; agrupación por funciones o actividades.",
+   "criterios": "1 punto: 0,5 por identificar correctamente la estructura funcional y 0,5 por señalar que el criterio de agrupación son las funciones o actividades. Se aceptan formulaciones equivalentes.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "D.1",
+   "tema": "marketing",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una empresa de infusiones realiza cuatro acciones: a) incorpora una nueva variedad de hierbas a su catálogo; b) fija un precio de lanzamiento de 4 € por caja; c) publica anuncios en redes sociales; d) empieza a vender en farmacias además de en su tienda en línea. Asigne a cada acción el instrumento del marketing mix correspondiente: producto, precio, promoción o distribución.",
+   "solucion": "### Asignación de las acciones al marketing mix\n\n1. **a) Incorporar una nueva variedad de hierbas al catálogo → Producto.** Modifica la oferta de bienes de la empresa.\n2. **b) Fijar un precio de lanzamiento de 4 € por caja → Precio.** Determina cuánto paga el cliente por el producto.\n3. **c) Publicar anuncios en redes sociales → Promoción.** Comunica y da a conocer la oferta.\n4. **d) Vender también en farmacias → Distribución.** Amplía los canales o puntos de venta.\n\n**Comprobación:** cada acción se asocia al instrumento del marketing mix que corresponde a su finalidad: oferta, importe, comunicación o canal de venta.",
+   "resultado": "a) Producto; b) Precio; c) Promoción; d) Distribución.",
+   "criterios": "1 punto en total: 0,25 puntos por cada asignación correcta. No se descuentan puntos por una respuesta incorrecta.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "D.2",
+   "tema": "marketing",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Una sala de escalada reduce el precio de la entrada diaria de 20 € a 16 €. Como consecuencia, las entradas vendidas al mes aumentan de 800 a 1.000. Calcule la elasticidad-precio de la demanda usando como base los valores iniciales y la fórmula $E_p=\\frac{\\%\\Delta Q}{\\%\\Delta P}$. Indique si la demanda es elástica, inelástica o de elasticidad unitaria.",
+   "solucion": "Variación porcentual de la cantidad demandada, tomando como base el valor inicial:\n$$\\%\\Delta Q=\\frac{1.000-800}{800}\\times 100=25\\%$$\nVariación porcentual del precio, tomando como base el valor inicial:\n$$\\%\\Delta P=\\frac{16-20}{20}\\times 100=-20\\%$$\nAplicando la fórmula indicada:\n$$E_p=\\frac{25\\%}{-20\\%}=-1,25$$\nLa elasticidad tiene signo negativo porque el precio y la cantidad demandada varían en sentidos opuestos. Como $|E_p|=1,25>1$, la demanda es **elástica**.",
+   "resultado": "Ep = −1,25; |Ep| = 1,25 > 1, por tanto, la demanda es elástica.",
+   "criterios": "1 punto en total: cálculo de la variación porcentual de la cantidad demandada (0,25); cálculo de la variación porcentual del precio, usando como base el valor inicial (0,25); aplicación correcta de la fórmula y obtención de Ep = −1,25 (0,25); clasificación como demanda elástica al comprobar que |Ep| > 1 (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "E.1",
+   "tema": "modelonegocio",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una empresa andaluza de reparación de electrodomésticos analiza estos factores: 1) cuenta con personal técnico con certificaciones especializadas; 2) depende de un único proveedor para un componente esencial; 3) se anuncia una subvención pública para alargar la vida útil de los productos; 4) una cadena nacional de reparación anuncia su entrada en la zona. Clasifique cada factor como fortaleza, debilidad, oportunidad o amenaza, respectivamente.",
+   "solucion": "### Clasificación mediante el análisis interno y externo\n\nSe distingue entre factores **internos** de la empresa (fortalezas o debilidades) y factores **externos** (oportunidades o amenazas). Después, se valora si cada factor resulta favorable o desfavorable:\n\n| Factor | Análisis | Clasificación |\n|---|---|---|\n| 1) Personal técnico con certificaciones especializadas | Factor interno favorable: aporta conocimientos y cualificación. | **Fortaleza** |\n| 2) Dependencia de un único proveedor para un componente esencial | Factor interno desfavorable: genera dependencia y riesgo de suministro. | **Debilidad** |\n| 3) Anuncio de una subvención pública para alargar la vida útil de los productos | Factor externo favorable: puede impulsar la demanda de reparación. | **Oportunidad** |\n| 4) Entrada de una cadena nacional de reparación en la zona | Factor externo desfavorable: aumenta la competencia. | **Amenaza** |\n\n**Comprobación:** los dos primeros factores corresponden al ámbito interno y los dos últimos al externo; dentro de cada ámbito, se ha distinguido entre efecto favorable y desfavorable.",
+   "resultado": "1) Fortaleza; 2) Debilidad; 3) Oportunidad; 4) Amenaza.",
+   "criterios": "1 punto: 0,25 por cada clasificación correcta. No se otorga la puntuación correspondiente si se confunde el carácter interno o externo del factor.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "E.2",
+   "tema": "modelonegocio",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una empresa de calzado ofrece hormas y ajustes personalizados, utiliza materiales exclusivos y presta un servicio posventa individualizado. Su precio es superior al de las marcas de calzado estándar y su propuesta se dirige a clientes que valoran la personalización y la calidad. Identifique la estrategia competitiva genérica que describe el caso y justifique la respuesta con dos características del enunciado.",
+   "solucion": "La estrategia es de **enfoque o especialización basada en la diferenciación**. La empresa se dirige a un segmento concreto de clientes que valora la personalización y la calidad, en lugar de competir para todo el mercado. Además, ofrece atributos singulares —hormas y ajustes personalizados, materiales exclusivos y servicio posventa individualizado— que la distinguen de las marcas estándar. El precio superior es coherente con esa propuesta diferenciada.",
+   "resultado": "Estrategia de enfoque basada en la diferenciación.",
+   "criterios": "1 punto: 0,5 por identificar correctamente la estrategia de enfoque basada en la diferenciación; 0,25 por justificarla con una característica concreta del enunciado y 0,25 por una segunda característica. Se aceptará como identificación equivalente «diferenciación dirigida a un segmento específico».",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "contabilidad",
+   "p": 0.9
+  },
+  {
+   "id": "marketing",
+   "p": 0.9
+  },
+  {
+   "id": "modelonegocio",
+   "p": 0.9
+  },
+  {
+   "id": "financiacion",
+   "p": 0.756
+  },
+  {
+   "id": "produccion",
+   "p": 0.756
+  },
+  {
+   "id": "organizacion",
+   "p": 0.18
+  }
+ ],
+ "referencias": [
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_empresa_diseno.zip#Empresa/Ordinaria_Titular/Examen Titular Empresa y Diseño de Modelos de Negocio.pdf",
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_empresa_diseno.zip#Empresa/Extraordinaria_Incidencias/Examen Suplente 2_Empresa y Diseño de Modelos de Negocio_Ex.pdf"
+ ]
+}
