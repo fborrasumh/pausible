@@ -1,0 +1,217 @@
+                                       PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                       CONVOCATORIA EXTRAORDINARIA DE 2026
+                                       EJERCICIO DE: MATEMÁTICAS APLICADAS A LAS CC. SS. II
+                                       TIEMPO DISPONIBLE: 1 hora 30 minutos
+
+PUNTUACIÓN QUE SE OTORGARÁ A ESTE EJERCICIO: (véanse las distintas partes del examen)
+
+
+   Las tres primeras preguntas son obligatorias. En la cuarta pregunta deberán elegirse solo DOS de las
+   TRES cuestiones planteadas. En caso de responder a las tres, solo se corregirán las dos que aparezcan
+   contestadas en primer lugar.
+   Cada ejercicio del examen es independiente y se califica sobre 10 puntos. Las cuatro preguntas tienen el
+   mismo peso en la nota final (2,5 puntos cada una), que se obtendrá sumando las puntuaciones de los
+   ejercicios y dividiendo el total entre 4.
+   Las respuestas deben expresarse de forma razonada, mostrando con rigor y precisión el proceso seguido
+   en la resolución. Se deberá emplear el lenguaje, la notación y los símbolos matemáticos adecuados, así
+   como argumentos, justificaciones, explicaciones y razonamientos explícitos y coherentes. La mera
+   descripción del planteamiento, sin llevar a cabo de manera efectiva la resolución, no será suficiente para
+   obtener una valoración completa de la pregunta o tarea.
+   La tabla de la distribución normal está disponible al final del examen, aunque es posible que no sea
+   necesaria en ninguna pregunta.
+
+   1.- (10 puntos) Una promotora organiza un festival con dos tipos de actuaciones: grupos internacionales y
+       grupos locales. Cada grupo internacional emplea cuatro horas de actuación en escenario y dos horas para
+       pruebas de sonido, mientras que cada grupo local emplea una hora de actuación en escenario y una hora
+       de pruebas de sonido. En total, la organización dispone de veinticuatro horas de escenario y dieciocho horas
+       de pruebas de sonido. La promotora pretende realizar al menos 6 actuaciones en total (internacionales y
+       locales). La recaudación estimada es de ocho mil euros por cada grupo internacional y de tres mil euros por
+       cada grupo local.
+          (8 puntos) Determine la combinación óptima de grupos internacionales y locales que maximiza la
+          recaudación cumpliendo todas las restricciones del enunciado. ¿Cuál es la recaudación máxima?
+          (2 puntos) Si la recaudación por cada grupo local fuese de 4.000 euros, determine todas las soluciones
+          óptimas enteras en la nueva situación. ¿Sería razonable programar solo grupos locales? Justifique la
+          respuesta.
+
+   2.- (10 puntos) La promotora que organiza el festival ha estudiado datos de ediciones anteriores y ha construido
+       un modelo matemático que aproxima el comportamiento de los compradores. Según este modelo, el número
+       de entradas vendidas para un concierto 𝐸𝐸(𝑝𝑝), expresado en decenas, depende del precio (𝑝𝑝) en euros de
+       la siguiente forma:
+
+                                                               2.000 𝑝𝑝
+                                                   𝐸𝐸(𝑝𝑝) =
+                                                               25 + 𝑝𝑝2
+          (6 puntos) Determine el precio al que se deben vender las entradas para que el número vendido sea un
+          máximo relativo, indicando cuántas se venderían en ese caso. Calcule, además, el beneficio neto que
+          obtendría la promotora, en euros, suponiendo que todas las entradas se vendiesen a dicho precio y que
+          cada una tiene un coste fijo de 1 € para la promotora (gastos de organización, personal, etc.).
+          (4 puntos) Calcule el valor de:
+                                                   15
+                                                        2.000 𝑝𝑝
+                                                  �              𝑑𝑑𝑑𝑑
+                                                        25 + 𝑝𝑝2
+                                                  5
+
+   3.- (10 puntos) La promotora del festival, antes de cerrar la contratación de los grupos que formarán parte del
+       cartel, decide realizar una encuesta entre las personas que ya han reservado su sitio en el evento, con el
+       objetivo de conocer a qué tipos de conciertos asistirán.
+          (6 puntos) En una muestra aleatoria simple de 400 personas, 260 declaran que acudirán a los conciertos
+          de rock. Calcule un intervalo de confianza al 94% para la proporción de asistentes que acudirán a los
+          conciertos de rock. Una revista de eventos afirmó que «el 75% del público acudirá a los conciertos de
+          rock». A partir del intervalo de confianza obtenido, determine si los datos respaldan o ponen en duda
+          esta afirmación.
+          (4 puntos) Determine el tamaño mínimo de muestra necesario para estimar la proporción de asistentes
+          a conciertos de música country, con un nivel de confianza del 94%, un error máximo del 4% y sabiendo
+          que, en una muestra piloto, la proporción estimada fue del 25%.
+
+   CONTINÚA AL DORSO
+  4.- (10 puntos) Elija únicamente dos opciones de las tres posibles Q1, Q2 y Q3.
+
+  Q1 (5 puntos)
+      La promotora que organiza el festival está ajustando el presupuesto (en decenas de miles de euros) para la
+      iluminación y el sonido de los conciertos. Estos cálculos se representan mediante una ecuación matricial de la
+                                           4 3          4 −2         1 1
+      forma 𝐴𝐴𝐴𝐴 + 𝐵𝐵 = 𝐶𝐶, siendo A =          , B =         , C =        . La matriz 𝐴𝐴 representa la planificación
+                                           5 4         1 0           2 3
+      inicial, 𝐵𝐵 es la matriz de ajustes adicionales, 𝐶𝐶 es la matriz de presupuesto final y 𝑋𝑋 es la matriz de gastos
+      desconocidos. Resuelva la ecuación despejando previamente 𝑋𝑋 .
+
+  Q2 (5 puntos)
+      La promotora musical estudia la evolución de la función de beneficios netos (en miles de euros) del festival en
+      función de un indicador (𝑥𝑥) que mide la intensidad de la campaña publicitaria (𝑥𝑥 ∈ [0,3]). Se propone el
+      modelo 𝑓𝑓(𝑥𝑥) = 2𝑥𝑥 3 + 𝑏𝑏𝑥𝑥 2 + 𝑐𝑐𝑐𝑐 + 𝑑𝑑 . Se sabe que sin campaña (intensidad nula) el beneficio es de 8.000
+      euros, cuando la campaña tiene intensidad 2 el beneficio es de 16.000 euros, y que además en 𝑥𝑥 = 2 la función
+      tiene un punto crítico. Calcule los valores de 𝑏𝑏, 𝑐𝑐 y 𝑑𝑑, para que se satisfagan las condiciones del enunciado.
+      Justifique si en 𝑥𝑥 = 2 la función tiene un máximo o un mínimo relativo.
+
+  Q3 (5 puntos)
+      Para promocionar el festival se ofrecen tres tipos de tarifas: para estudiantes, para abonados y para el público
+      general. El 30% usa la tarifa de estudiantes, el 50% la de abonados y el resto compra la entrada general. La
+      probabilidad de que un asistente vuelva a otro concierto es del 6% en el caso de los estudiantes, del 80% para
+      los abonados y del 70% para el público general. Si se seleccionan tres asistentes al azar con reemplazamiento,
+      calcule la probabilidad de que los tres vuelvan a otro concierto.
+
+  Tabla de la distribución normal (puede no ser necesaria para el examen):
+k           0,00          0,01          0,02                        0,03          0,04          0,05           0,06          0,07          0,08          0,09            k
+0,0        0,5000        0,5040        0,5080                      0,5120        0,5160        0,5199         0,5239        0,5279        0,5319        0,5359          0,0
+0,1        0,5398        0,5438        0,5478                      0,5517        0,5557        0,5596         0,5636        0,5675        0,5714        0,5753          0,1
+0,2        0,5793        0,5832        0,5871                      0,5910        0,5948        0,5987         0,6026        0,6064        0,6103        0,6141          0,2
+0,3        0,6179        0,6217        0,6255                      0,6293        0,6331        0,6368         0,6406        0,6443        0,6480        0,6517          0,3
+0,4        0,6554        0,6591        0,6628                      0,6664        0,6700        0,6736         0,6772        0,6808        0,6844        0,6879          0,4
+0,5        0,6915        0,6950        0,6985                      0,7019        0,7054        0,7088         0,7123        0,7157        0,7190        0,7224          0,5
+0,6        0,7257        0,7291        0,7324                      0,7357        0,7389        0,7422         0,7454        0,7486        0,7517        0,7549          0,6
+0,7        0,7580        0,7611        0,7642                      0,7673        0,7704        0,7734         0,7764        0,7794        0,7823        0,7852          0,7
+0,8        0,7881        0,7910        0,7939                      0,7967        0,7995        0,8023         0,8051        0,8078        0,8106        0,8133          0,8
+0,9        0,8159        0,8186        0,8212                      0,8238        0,8264        0,8289         0,8315        0,8340        0,8365        0,8389          0,9
+1,0        0,8413        0,8438        0,8461                      0,8485        0,8508        0,8531         0,8554        0,8577        0,8599        0,8621          1,0
+1,1        0,8643        0,8665        0,8686                      0,8708        0,8729        0,8749         0,8770        0,8790        0,8810        0,8830          1,1
+1,2        0,8849        0,8869        0,8888                      0,8907        0,8925        0,8944         0,8962        0,8980        0,8997        0,9015          1,2
+1,3        0,9032        0,9049        0,9066                      0,9082        0,9099        0,9115         0,9131        0,9147        0,9162        0,9177          1,3
+1,4        0,9192        0,9207        0,9222                      0,9236        0,9251        0,9265         0,9279        0,9292        0,9306        0,9319          1,4
+1,5        0,9332        0,9345        0,9357                      0,9370        0,9382        0,9394         0,9406        0,9418        0,9429        0,9441          1,5
+1,6        0,9452        0,9463        0,9474                      0,9484        0,9495        0,9505         0,9515        0,9525        0,9535        0,9545          1,6
+1,7        0,9554        0,9564        0,9573                      0,9582        0,9591        0,9599         0,9608        0,9616        0,9625        0,9633          1,7
+1,8        0,9641        0,9649        0,9656                      0,9664        0,9671        0,9678         0,9686        0,9693        0,9699        0,9706          1,8
+1,9        0,9713        0,9719        0,9726                      0,9732        0,9738        0,9744         0,9750        0,9756        0,9761        0,9767          1,9
+2,0        0,9772        0,9778        0,9783                      0,9788        0,9793        0,9798         0,9803        0,9808        0,9812        0,9817          2,0
+2,1        0,9821        0,9826        0,9830                      0,9834        0,9838        0,9842         0,9846        0,9850        0,9854        0,9857          2,1
+2,2        0,9861        0,9864        0,9868                      0,9871        0,9875        0,9878         0,9881        0,9884        0,9887        0,9890          2,2
+2,3        0,9893        0,9896        0,9898                      0,9901        0,9904        0,9906         0,9909        0,9911        0,9913        0,9916          2,3
+2,4        0,9918        0,9920        0,9922                      0,9925        0,9927        0,9929         0,9931        0,9932        0,9934        0,9936          2,4
+2,5        0,9938        0,9940        0,9941                      0,9943        0,9945        0,9946         0,9948        0,9949        0,9951        0,9952          2,5
+2,6        0,9953        0,9955        0,9956                      0,9957        0,9959        0,9960         0,9961        0,9962        0,9963        0,9964          2,6
+2,7        0,9965        0,9966        0,9967                      0,9968        0,9969        0,9970         0,9971        0,9972        0,9973        0,9974          2,7
+2,8        0,9974        0,9975        0,9976                      0,9977        0,9977        0,9978         0,9979        0,9979        0,9980        0,9981          2,8
+2,9        0,9981        0,9982        0,9982                      0,9983        0,9984        0,9984         0,9985        0,9985        0,9986        0,9986          2,9
+3,0        0,9987        0,9987        0,9987                      0,9988        0,9988        0,9989         0,9989        0,9989        0,9990        0,9990          3,0
+3,1        0,9990        0,9991        0,9991                      0,9991        0,9992        0,9992         0,9992        0,9992        0,9993        0,9993          3,1
+3,2        0,9993        0,9993        0,9994                      0,9994        0,9994        0,9994         0,9994        0,9995        0,9995        0,9995          3,2
+3,3        0,9995        0,9995        0,9995                      0,9996        0,9996        0,9996         0,9996        0,9996        0,9996        0,9997          3,3
+3,4        0,9997        0,9997        0,9997                      0,9997        0,9997        0,9997         0,9997        0,9997        0,9997        0,9998          3,4
+3,5        0,9998        0,9998        0,9998                      0,9998        0,9998        0,9998         0,9998        0,9998        0,9998        0,9998          3,5
+3,6        0,9998        0,9998        0,9999                      0,9999        0,9999        0,9999         0,9999        0,9999        0,9999        0,9999          3,6
+      NOTA: En la tabla figuran los valores de 𝑃𝑃(𝑍𝑍 ≤ 𝑘𝑘) para una distribución normal de media 0 y desviación típica 1. Si no encuentra el valor en la tabla, elija
+      el más próximo y en el caso de que las diferencias de los valores por exceso y por defecto sean iguales considere la media aritmética de los valores
+      correspondientes.
+                                    PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                    CONVOCATORIA EXTRAORDINARIA DE 2026
+
+                                    CRITERIOS ESPECÍFICOS DE CORRECCIÓN
+                                    EJERCICIO DE: MATEMÁTICAS APLICADAS A LAS CC. SS. II
+
+
+                               CRITERIOS ESPECÍFICOS DE CORRECCIÓN
+
+CUESTIONES GENERALES
+⸺ En los criterios de evaluación se indican las puntuaciones para las distintas fases de realización de los
+  ejercicios. Cuando existe más de una forma de resolverlos se establecen criterios según cada método
+  de resolución. Aun así, pueden existir otras maneras de resolver los problemas que no estén
+  contempladas en los criterios expuestos. En este caso, la puntuación queda a criterio del corrector.
+⸺ Debe darse por válida cualquier forma de resolución de los ejercicios, siempre que sea correcta (salvo
+  que se pida un método concreto) y esté suficientemente razonada, por inusual o larga que sea.
+⸺ Como regla general, un pequeño error puntual de cuentas se penalizará con 0,5/10 puntos. Si el error
+  se produce en un paso intermedio, el resto del ejercicio se corregirá dando como válido el valor
+  (erróneo) obtenido por el estudiante y no se le penalizará por ello en el resto del ejercicio, a no ser
+  que el error dé lugar a un ejercicio significativamente más sencillo que el original, en cuyo caso la
+  puntuación queda a criterio del corrector. Si el error conduce a un resultado sin sentido, las
+  penalizaciones se tratarán en la reunión de armonización.
+
+(10 puntos) Ejercicio 1
+
+a) (8 puntos) Definir las variables de decisión (0,25 puntos) y la condición de no negatividad (0,25 puntos).
+   Definir la función objetivo (0,5 puntos) y definir las tres restricciones del enunciado (1,5 puntos = 0,5*3).
+   Representar la región factible (3 puntos) y cálculo de la solución óptima (2,5 puntos). El desglose será:
+    •   (3 puntos) Representación de la región factible. Representación de las rectas correspondientes a
+        las restricciones y justificación de que la región cumple cada inecuación (2 puntos). Identificación y
+        señalización correcta de la intersección de todas ellas (1 punto).
+    •   (2,5 puntos) Solución óptima:
+           ⸺ Método algebraico.
+            Calcular las coordenadas de los vértices (1,6 puntos = 0,4*4), Evaluar la función objetivo en los
+            vértices (0,4 puntos = 0,1*4). Determinar el vértice donde se alcanza el máximo y del valor
+            óptimo correspondiente (0,5 puntos).
+           ⸺ Método gráfico.
+            Representar dos rectas de nivel (1 punto), la dirección de mejora (0,5 puntos). Razonar
+            gráficamente el vértice donde se alcanza la solución (0,5 puntos). Determinar analíticamente
+            las coordenadas del máximo y su valor (0,5 puntos).
+ b) (2 puntos) Evaluar la función objetivo en los vértices e identificar que se trata de una solución óptima
+    de tipo segmento rectilíneo (0,5 puntos). Determinar las soluciones óptimas enteras (1 punto).
+    Responder a la cuestión planteada (0,5 puntos).
+
+(10 puntos) Ejercicio 2
+
+ a) (6 puntos) Calcular 𝐸𝐸′(𝑝𝑝) (2 puntos). Obtener las raíces de la ecuación (1 punto) y analizar el
+    carácter del punto crítico (1 punto). Calcular el valor máximo (1 punto). Responder al valor del
+    beneficio neto (1 punto).
+    Penalizaciones:
+        ⸺ Se penalizará con (0,5 puntos) si se incluyen intervalos con valores negativos asociados a la
+          raíz (𝑝𝑝 = −5) (ya que no tiene sentido en el contexto del problema).
+        ⸺ Si un estudiante ha calculado incorrectamente la primera derivada, se podrá valorar el resto del
+          ejercicio, siempre y cuando los resultados obtenidos sean coherentes con el contexto del
+          problema. En ese caso tendría como máximo 4/6 puntos. Si los resultados obtenidos no tienen
+          sentido y el estudiante no lo indica (por ejemplo, valores negativos en el número de entradas) se
+          aplicará una penalización adicional de (0,5 puntos), dado que esto afecta la validez de la
+          solución en el marco del problema planteado. Además, se tendrá en cuenta la penalización
+          sobre un pequeño error puntual de cuentas con 0,5 puntos/10.
+ b) (4 puntos) Cálculo de la integral indefinida (3 puntos). Aplicar la Regla de Barrow (1 punto).
+(10 puntos) Ejercicio 3
+
+ a) (6 puntos) Identificar el cuantil correspondiente y calcular su valor (1,5 puntos), calcular n, 𝑝𝑝̂ (1 punto),
+    Poner la fórmula del intervalo de confianza y calcularlo (2,5 puntos). Utilizar lo anterior para responder
+    a la cuestión formulada (1 punto).
+ b) (4 puntos) Escribir la fórmula para calcular el tamaño de la muestra en función del error (1 punto).
+    Sustituir los valores conocidos para cada uno de los parámetros y calcular el valor de n (3 puntos). Si
+    se deja el valor n no entero o se toma el anterior en vez del posterior, se resta 1 punto.
+
+
+(10 puntos) Ejercicio 4
+
+ Q1) (5 puntos) Despejar la matriz, X = A - 1(C - B ) (1 punto). Calcular la inversa (2 puntos), calcular
+     (C - B ) (1 punto), multiplicar y llegar al resultado final (1 punto).
+
+ Q2) (5 puntos) Plantear las ecuaciones para determinar los coeficientes 𝑏𝑏, 𝑐𝑐 y 𝑑𝑑 (3 puntos). Determinar
+     los valores de los parámetros (1 punto). Justificar el carácter del punto crítico (1 punto).
+ Q3) (5 puntos) Definir los sucesos que intervienen en el enunciado (1 punto). Calcular la probabilidad de
+     que una persona vuelva a otro concierto (2 puntos). Conocida la probabilidad anterior, calcular la
+     probabilidad de que tres vuelvan a otro concierto (2 puntos). Se penalizará con (1 punto) no utilizar
+     notación matemática. Se penalizará con (1 punto) no utilizar notación matemática.
+

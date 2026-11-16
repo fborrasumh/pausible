@@ -1,0 +1,337 @@
+                                        PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                        CONVOCATORIA EXTRAORDINARIA DE 2026
+                                        EJERCICIO DE: TECNOLOGÍA E INGENIERÍA II
+                                        TIEMPO DISPONIBLE: 1 hora 30 minutos
+
+PUNTUACIÓN QUE SE OTORGARÁ A ESTE EJERCICIO: (véanse las distintas partes del examen)
+
+  Se debe responder a los cuatro apartados para alcanzar la máxima puntuación. En los apartados 3 y 4 se
+  tiene que elegir una de las dos preguntas (opción A u opción B). Si se contesta a más preguntas, sólo se
+  corregirá la primera que aparezca en el tríptico. Para evitar confusiones, se recomienda numerarlo. La
+  nota final será el resultado de sumar las puntuaciones obtenidas en las preguntas realizadas.
+   APARTADO 1 (2,5 puntos)
+    a) Materiales y fabricación (1,25 puntos)
+       En el estudio de las aleaciones hierro-carbono (aceros y fundiciones), el diagrama de equilibrio hierro-carbono
+       (Fe-C) es la herramienta clave para entender sus propiedades y tratamientos térmicos. El punto eutectoide es
+       la transformación más importante dentro de la zona de los aceros. A partir del diagrama simplificado Fe-C:
+
+
+
+
+           a. Indique el porcentaje de Carbono (en peso) que tiene la composición eutectoide (0,5 puntos).
+           b. Indique la temperatura a la que ocurre esta transformación (0,5 puntos).
+           c. Nombre el constituyente que se forma y sus fases al enfriarse por debajo de esta temperatura (0,25
+              puntos).
+    b) Sistemas automáticos (1,25 puntos)
+       En una línea de montaje, se utiliza un sistema de control para mantener la velocidad de giro de un motor DC
+       constante, a pesar de las variaciones de carga. El sistema se ha modelado mediante el siguiente diagrama
+       de bloques, donde R(s) es la referencia de velocidad y C(s) es la velocidad real del motor. Simplifique el
+       diagrama de bloques, detallando todos los pasos, y obtenga la función de transferencia G(s) = C(s)/R(s)
+       (1,25 puntos).
+
+
+
+
+   CONTINÚA AL DORSO
+APARTADO 2 (2,5 puntos)
+Sistemas mecánicos: Máquinas térmicas:
+   a. Explique cómo funciona el motor de explosión de cuatro tiempos,
+      apoyándose en esquemas y en el ciclo termodinámico de la figura (2 puntos).
+   b. Especifique qué nombre recibe este ciclo termodinámico (0,25 puntos).
+   c. Explique qué es el punto muerto superior (PMS) y el punto muerto inferior
+      (PMI) (0,25 puntos).
+APARTADO 3 (2,5 puntos)
+Sistemas mecánicos: Elegir una opción:
+   Opción A: Estructuras.
+   Para la viga representada en la figura:
+     a. Calcule las reacciones en los apoyos (0,5 puntos).
+     b. Obtenga las ecuaciones de los momentos flectores y
+        esfuerzos cortantes (1 punto).
+     c. Elabore los diagramas de momentos flectores y de
+        esfuerzos cortantes correspondientes (0,75 puntos).
+     d. Describa una situación real en la que se pueda
+        observar este tipo de estructura sometida al mismo tipo de esfuerzo (0,25 puntos).
+   Tome la distancia x a lo largo de la viga a partir del punto A. Considere los siguientes datos: P1=600 N;
+   P2=800 N; L1= L2= 5 m y L3=2 m.
+   Opción B: Neumática e hidráulica.
+   Un cilindro neumático de simple efecto y retorno por muelle se utiliza en una máquina estampadora para
+   ejercer una fuerza útil (Fcarga) de 400 N al final de su carrera. El cilindro opera con una presión de trabajo
+   (manométrica) de P = 6 bar y tiene un diámetro de émbolo de D = 40 mm y una carrera de L = 100 mm. Se
+   sabe que, debido al diseño y las empaquetaduras, la fuerza de rozamiento total en el avance es de 50 N. La
+   frecuencia de trabajo del cilindro es de 10 ciclos/min. Se pide:
+     a. Calcular la fuerza de empuje generada por la presión del aire en el émbolo (0,5 puntos).
+     b. Determinar la fuerza que ejerce el muelle al final de la carrera, cuando el cilindro está completamente
+        extendido. Se debe asumir que, al alcanzar esta posición, el sistema está en equilibrio de fuerzas (0,75
+        puntos).
+     c. Determinar el trabajo útil desarrollado por el cilindro durante el avance (0,5 puntos).
+     d. Calcular el consumo de aire del cilindro en condiciones normales en l/min (0,75 puntos).
+   Suponga la presión atmosférica de 1 bar.
+APARTADO 4 (2,5 puntos)
+Sistemas eléctricos y electrónicos Elegir una opción:
+ Opción A: Corriente Alterna.
+ En un laboratorio de ensayos eléctricos, se monta un circuito experimental para estudiar el comportamiento de
+ las impedancias en serie bajo una red de corriente alterna (230 V eficaces, 50 Hz). El circuito consta de una
+ resistencia (que simula una carga térmica), una bobina y un condensador, todos conectados en serie. El circuito
+ R-L-C resultante tiene los siguientes parámetros conocidos: Inductancia de la bobina: L = 0,3 H; Capacidad del
+ condensador: C = 20 µF. Además, se ha medido la intensidad eficaz que circula por el circuito, que es 1,5 A.
+     a. Dibuje el circuito identificando los componentes (0,25 puntos).
+     b. Calcule la resistencia (R) del circuito (1 punto).
+     c. Calcule el factor de potencia (0,25 puntos).
+     d. Calcule la potencia activa, la potencia reactiva y la potencia aparente (0,75 puntos).
+     e. Dibuje y etiquete claramente el triángulo de potencias del circuito (0,25 puntos).
+ Opción B: Electrónica digital.
+ Una empresa de servicios tecnológicos diseña el sistema de control para una sala de servidores (Data Center)
+ con el objetivo de minimizar el consumo eléctrico y garantizar la operación. El sistema de alimentación de
+ emergencia (S), que utiliza generadores de respaldo, solo debe activarse (S=1) cuando exista un riesgo crítico
+ basado en la combinación de fallos (A, B, C). Concretamente, debe activarse si se cumplen dos o más
+ condiciones de fallo simultáneamente. Las tres entradas binarias monitorizadas son:
+ A: Fallo en el sistema de refrigeración principal (A=1). B: El consumo eléctrico de la sala supera el 90% de la
+ capacidad (B=1). C: Fluctuación crítica de la tensión de línea (C=1). Con esta información:
+     a. Construya la tabla de verdad completa del sistema, con A, B, y C como entradas y S como salida, y
+        escriba la expresión algebraica por suma de Minterms de la función lógica (0,75 puntos).
+     b. Simplifique la función lógica utilizando el Mapa de Karnaugh (0,75 puntos).
+     c. Dibuje el esquema del circuito empleando la expresión lógica simplificada y utilizando el menor número
+        posible de puertas lógicas AND, OR, NOT (0,75 puntos).
+     d. Un técnico informa que el sistema de refrigeración principal ha fallado y que la tensión de línea es
+        estable. Según la lógica diseñada, ¿qué debería ocurrir con el sistema de alimentación de emergencia
+        (S) si el consumo eléctrico de la sala sube repentinamente al 95%? (0,25 puntos).
+                                    PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                    CONVOCATORIA EXTRAORDINARIA DE 2026
+
+                                    CRITERIOS ESPECÍFICOS DE CORRECCIÓN
+                                    EJERCICIO DE: TECNOLOGÍA E INGENIERÍA II
+
+
+
+                               CRITERIOS ESPECÍFICOS DE CORRECCIÓN
+
+Se debe responder a los cuatro apartados para alcanzar la máxima puntuación. En los apartados 3 y 4 se
+tiene que elegir una de las dos preguntas (opción A u opción B). Si se contesta a más preguntas, sólo se
+corregirá la primera que aparezca en el tríptico. Para evitar confusiones, se recomienda numerarlo. La nota
+final será el resultado de sumar las puntuaciones obtenidas en las preguntas realizadas.
+A cada apartado se podrá atribuir un máximo de 2,5 puntos, de acuerdo con el desglose de puntuación que
+se indica en el enunciado. Si no se especifica dicha distribución, el corrector deberá asumir la que considere
+más conveniente. La calificación del ejercicio (sobre 10 puntos) se obtendrá sumando los puntos otorgados
+a cada apartado.
+Para calificar las respuestas se tendrá en cuenta lo siguiente:
+En las cuestiones teóricas:
+     • Se valorarán el conocimiento y la comprensión de los conceptos y sistemas.
+     • Se valorará la capacidad de expresión técnica: claridad, orden, coherencia, vocabulario y sintaxis.
+     • En el documento del que disponen los/las correctores se incluyen extractos de libros con respuestas
+     completas a las preguntas. Estos extractos se corresponden con el máximo que puede responder el
+     alumnado. No es necesario que el alumnado ofrezca una respuesta idéntica o tan completa como la
+     que se presenta aquí, sino que sea correcta y utilice un lenguaje y una redacción adecuados.
+     • Aunque el alumnado puede adjuntar ejemplos si lo desea, no hacerlo no debe restar puntuación (a
+     no ser que se pida expresamente).
+En las cuestiones prácticas:
+    • Se valorarán el planteamiento correcto y la adecuada comprensión y aplicación de las ecuaciones.
+    • Se valorará la destreza en el manejo de herramientas matemáticas y la correcta utilización de las
+    unidades de medida, así como la claridad en esquemas, figuras y representaciones gráficas.
+    • Se valorarán el orden de ejecución y la interpretación de resultados.
+    • Si un resultado se presenta sin unidades o con unidades incorrectas, se restará el 25% de la
+    puntuación máxima del apartado (véase cada apartado para el reparto de puntuación).
+    • En determinados apartados se indican puntuaciones para la solución mediante algunos de los
+    métodos más habituales. En todo caso, si se resuelve un apartado con un método distinto, se otorgará
+    la puntuación máxima siempre que el método y la solución sean correctos (salvo que se haya pedido
+    usar un método en concreto).
+    • Como regla general, un pequeño error puntual en cuentas algebraicas se penalizará con 0,1 puntos.
+    • En los problemas donde haya que resolver varios apartados en los que la solución obtenida en uno
+    de ellos sea imprescindible para la resolución del siguiente, se puntuará éste independientemente del
+    resultado del anterior, excepto si alguno de los resultados es absolutamente incoherente. Se tendrá en
+    cuenta que el alumno reconozca el error en el resultado.
+    • En el caso de que un error en un apartado simplifique el apartado siguiente, se ajustarán los
+    criterios de forma que en ningún caso esa equivocación suponga una ventaja respecto al que lo ha
+    realizado correctamente.
+    • Concretamente, si en el enunciado no se especificase la manera de averiguar la influencia o
+    magnitud de alguna propiedad sobre la que se infiera algún resultado, se valorará muy positivamente el
+    establecimiento de criterios propios, basados en situaciones generales o en soluciones convenidas.
+    • Se exigirá que todos los resultados analíticos y gráficos estén paso a paso justificados.
+APARTADO 1 (2,5 puntos)
+ a) Materiales y fabricación (1,25 puntos)
+    En el estudio de las aleaciones hierro-carbono (aceros y fundiciones), el diagrama de equilibrio hierro-
+    carbono (Fe-C) es la herramienta clave para entender sus propiedades y tratamientos térmicos. El punto
+    eutectoide es la transformación más importante dentro de la zona de los aceros. A partir del diagrama
+    simplificado Fe-C:
+
+
+
+
+       a. Indique el porcentaje de Carbono (en peso) que tiene la composición eutectoide (0,5 puntos).
+            0,8%
+       b. Indique la temperatura a la que ocurre esta transformación (0,5 puntos).
+            723ºC
+       c. Nombre el constituyente que se forma y sus fases al enfriarse por debajo de esta temperatura (0,25
+          puntos).
+          El constituyente que se forma al enfriarse la Austenita por debajo de 723ºC se denomina Perlita
+          (0,125 puntos). Está compuesta por (la mezcla laminar de) Ferrita y Cementita (0,125 puntos).
+ b) Sistemas automáticos (1,25 puntos)
+    En una línea de montaje, se utiliza un sistema de control para mantener la velocidad de giro de un motor
+    DC constante, a pesar de las variaciones de carga. El sistema se ha modelado mediante el siguiente
+    diagrama de bloques, donde R(s) es la referencia de velocidad y C(s) es la velocidad real del motor.
+    Simplifique el diagrama de bloques, detallando todos los pasos, y obtenga la función de transferencia
+    G(s) = C(s)/R(s) (1,25 puntos).
+
+
+
+
+   Paso 1
+   (0,25
+   puntos):
+   Paso 2 (0,5 puntos):
+
+
+
+
+   Solución correcta (0,5 puntos):
+                                          𝐶𝐶(𝑠𝑠)   (𝐺𝐺1 − (𝐺𝐺1 + 𝐺𝐺2) · 𝐺𝐺3) · 𝐺𝐺4
+                                 𝐺𝐺(𝑠𝑠)          =
+                                          𝑅𝑅(𝑠𝑠) 1 + 𝐻𝐻1 · (𝐺𝐺1 − (𝐺𝐺1 + 𝐺𝐺2) · 𝐺𝐺3)
+
+APARTADO 2 (2,5 puntos)
+Sistemas mecánicos: Máquinas térmicas:
+   a. Explique cómo funciona el motor de explosión de cuatro tiempos,
+      apoyándose en esquemas y en el ciclo termodinámico de la figura
+      (2 puntos).
+           Descripción de las etapas/tiempos: 1 punto.
+           Esquema del motor: 0,5 puntos.
+           Relacionar las etapas/tiempos con el ciclo termodinámico de
+             Otto: 0,5 puntos.
+   b. Especifique qué nombre recibe este ciclo termodinámico (0,25
+      puntos).
+           Decir que es el ciclo de Otto: 0,25 puntos.
+   c. Explique qué es el punto muerto superior (PMS) y el punto muerto
+      inferior (PMI) (0,25 puntos).
+          Definición de PMS y PMI: 0,25 puntos.
+APARTADO 3 (2,5 puntos)
+Sistemas mecánicos: Elegir una opción:
+   Opción A: Estructuras.
+   Para la viga representada en la figura:
+     a. Calcule las reacciones en los apoyos (0,5
+        puntos).
+         Reacciones en los apoyos: 0,5 puntos.
+     b. Obtenga las ecuaciones de los momentos
+        flectores y esfuerzos cortantes (1 punto).
+         Ecuaciones del esfuerzo cortante: 0,5
+            puntos.
+         Ecuaciones del momento flector: 0,5 puntos.
+     c. Elabore los diagramas de momentos flectores y de esfuerzos cortantes correspondientes (0,75 puntos).
+         Diagramas: 0,75 puntos.
+     d. Describa una situación real en la que se pueda observar este tipo de estructura sometida al mismo
+        tipo de esfuerzo (0,25 puntos).
+         Describir situación real: 0,25 puntos.
+   Tome la distancia x a lo largo de la viga a partir del punto A. Considere los siguientes datos: P1=600 N;
+   P2=800 N; L1= L2= 5 m y L3=2 m.
+   Opción B: Neumática e hidráulica.
+   Un cilindro neumático de simple efecto y retorno por muelle se utiliza en una máquina estampadora para
+   ejercer una fuerza útil (Fcarga) de 400 N al final de su carrera. El cilindro opera con una presión de trabajo
+   (manométrica) de P = 6 bar y tiene un diámetro de émbolo de D = 40 mm y una carrera de L = 100 mm.
+   Se sabe que, debido al diseño y las empaquetaduras, la fuerza de rozamiento total en el avance es de
+   50 N. La frecuencia de trabajo del cilindro es de 10 ciclos/min. Se pide:
+     a. Calcular la fuerza de empuje generada por la presión del aire en el émbolo (0,5 puntos).
+                                                               𝐷𝐷2        0,042
+            Área del émbolo: 𝐴𝐴 = 𝜋𝜋 · = 𝜋𝜋 ·                                          = 0,001257 𝑚𝑚2
+                                                              4                 4
+            Fuerza de empuje: 𝐹𝐹𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 = 𝑃𝑃 · 𝐴𝐴 = 6 · 105 𝑃𝑃𝑃𝑃 · 0,001257 𝑚𝑚2 = 754,2 𝑁𝑁
+      b. Determinar la fuerza que ejerce el muelle al final de la carrera, cuando el cilindro está
+         completamente extendido. Se debe asumir que, al alcanzar esta posición, el sistema está en
+         equilibrio de fuerzas (0,75 puntos).
+            𝐹𝐹𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 = 𝐹𝐹𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 + 𝐹𝐹𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 + 𝐹𝐹𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚,𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓
+            𝐹𝐹𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚,𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓 = 754,2 𝑁𝑁 − 400𝑁𝑁 − 50𝑁𝑁 = 304,2 N
+      c. Determinar el trabajo útil desarrollado por el cilindro durante el avance (0,5 puntos).
+            𝑊𝑊ú𝑡𝑡𝑡𝑡𝑡𝑡 = 𝐹𝐹ú𝑡𝑡𝑡𝑡𝑡𝑡 · 𝐿𝐿 = 400 𝑁𝑁 · 0.1 𝑚𝑚 = 40 𝐽𝐽
+      d. Calcular el consumo de aire del cilindro en condiciones normales en l/min (0,75 puntos).
+            𝑉𝑉𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 𝑝𝑝𝑝𝑝𝑝𝑝 𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 = 𝐴𝐴 · 𝐿𝐿 = 0,001257 𝑚𝑚2 · 0,1𝑚𝑚 = 0,0001257 𝑚𝑚3 /𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 = 0,1257 𝑙𝑙/𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 a
+            Pabsoluta=6+1 =7bar
+                                                                                                                 𝑃𝑃                       𝑙𝑙
+            𝑉𝑉𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 𝑝𝑝𝑝𝑝𝑝𝑝 𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 (𝑎𝑎 1 𝑏𝑏𝑏𝑏𝑏𝑏) = 𝑉𝑉𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 𝑝𝑝𝑝𝑝𝑝𝑝 𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 (𝑎𝑎 7 𝑏𝑏𝑏𝑏𝑏𝑏) · 𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎 = 0,1257  7 𝑏𝑏𝑏𝑏𝑏𝑏 = 0,8799 𝑙𝑙/𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 a 1
+                                                                                                       𝑃𝑃𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛             𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐
+                                                                                                                                               1 𝑏𝑏𝑏𝑏𝑏𝑏
+         bar
+                                                                                                               𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐
+          𝑄𝑄𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 (𝑎𝑎 1 𝑏𝑏𝑏𝑏𝑏𝑏 𝑒𝑒𝑒𝑒 𝑙𝑙/𝑚𝑚𝑚𝑚𝑚𝑚) = 𝑉𝑉𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 𝑝𝑝𝑝𝑝𝑝𝑝 𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 (𝑎𝑎 1𝑏𝑏𝑏𝑏𝑏𝑏) · 10              = 8,8 𝑙𝑙/𝑚𝑚𝑚𝑚𝑚𝑚
+                                                                                                                 𝑚𝑚𝑚𝑚𝑚𝑚
+ Suponga la presión atmosférica de 1 bar.
+
+APARTADO 4 (2,5 puntos)
+Sistemas eléctricos y electrónicos Elegir una opción:
+ Opción A: Corriente Alterna.
+ En un laboratorio de ensayos eléctricos, se monta un circuito experimental para estudiar el comportamiento
+ de las impedancias en serie bajo una red de corriente alterna (230 V eficaces, 50 Hz). El circuito consta de
+ una resistencia (que simula una carga térmica), una bobina y un condensador, todos conectados en serie. El
+ circuito R-L-C resultante tiene los siguientes parámetros conocidos: Inductancia de la bobina: L = 0,3 H;
+ Capacidad del condensador: C = 20 µF. Además, se ha medido la intensidad eficaz que circula por el
+ circuito, que es 1,5 A.
+     a. Dibuje el circuito identificando los componentes (0,25 puntos).
+
+
+
+
+      b. Calcule la resistencia (R) del circuito (1 punto).
+             𝜔𝜔 = 2𝜋𝜋𝜋𝜋 = 2𝜋𝜋 · 50 𝐻𝐻𝐻𝐻
+             𝑋𝑋𝐿𝐿 = 𝜔𝜔𝜔𝜔 = 2𝜋𝜋𝜋𝜋𝜋𝜋 = 2𝜋𝜋 · 50 𝐻𝐻𝐻𝐻 · 0,3 𝐻𝐻 = 94,25 𝛺𝛺 (0,25 puntos)
+                     1      1               1
+             𝑋𝑋𝐶𝐶 =     =
+                            𝜔𝜔𝜔𝜔
+                                =
+                                        2𝜋𝜋𝜋𝜋𝜋𝜋  −6 = 159,15 𝛺𝛺 (0,25 puntos)
+                                                      2𝜋𝜋·50 𝐻𝐻𝐻𝐻·20·10   F
+                          𝑉𝑉𝑒𝑒𝑒𝑒       230 𝑉𝑉
+                   𝑍𝑍 =            =              = 153,33 𝛺𝛺 (0,25 puntos)
+                          𝐼𝐼𝑒𝑒𝑒𝑒       1,5 𝐴𝐴
+
+                   𝑍𝑍𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 = �𝑅𝑅2 + (𝑋𝑋𝐿𝐿 − 𝑋𝑋𝐶𝐶 )2 →
+                   𝑅𝑅 = �𝑍𝑍𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 2 − (𝑋𝑋𝐿𝐿 − 𝑋𝑋𝐶𝐶 )2 = �153,332 − (94,25 − 159,15)2 = 138,92 𝛺𝛺 (0,25 puntos)
+      c. Calcule el factor de potencia (0,25 puntos).
+                              R   138,92
+             FP = cos(𝜑𝜑) = =            = 0,906
+                                                  Z     153,33
+                   El factor de potencia es Capacitivo (la corriente adelanta a la tensión) ya que XC > XL.
+   d. Calcule la potencia activa, la potencia reactiva y la potencia aparente (0,75 puntos).
+          Potencia Aparente: S = 𝑉𝑉𝑒𝑒𝑒𝑒 · 𝐼𝐼𝑒𝑒𝑒𝑒 = 230 V·1,5 A = 345 VA (0,25 puntos).
+          Potencia Activa: P = S · cos(𝜑𝜑)= 345 VA·0,906=312,57 W. También se puede calcular como P
+          = Ieff2 · R = (1,5)2 · 138,92 = 312,57 W (0,25 puntos).
+          Potencia Reactiva: Q = S·sin(𝜑𝜑)=345VA·(-0,4233)=-146,04 VAr. El signo negativo indica el
+          carácter capacitivo de la potencia reactiva neta (0,25 puntos).
+   e. Dibuje y etiquete claramente el triángulo de potencias del circuito (0,25 puntos).
+
+
+
+
+Opción B: Electrónica digital.
+Una empresa de servicios tecnológicos diseña el sistema de control para una sala de servidores (Data
+Center) con el objetivo de minimizar el consumo eléctrico y garantizar la operación. El sistema de
+alimentación de emergencia (S), que utiliza generadores de respaldo, solo debe activarse (S=1) cuando
+exista un riesgo crítico basado en la combinación de fallos (A, B, C). Concretamente, debe activarse si se
+cumplen dos o más condiciones de fallo simultáneamente. Las tres entradas binarias monitorizadas son:
+A: Fallo en el sistema de refrigeración principal (A=1). B: El consumo eléctrico de la sala supera el 90% de
+la capacidad (B=1). C: Fluctuación crítica de la tensión de línea (C=1). Con esta información:
+    a. Construya la tabla de verdad completa del sistema, con A, B, y C como entradas y S como salida, y
+       escriba la expresión algebraica por suma de Minterms de la función lógica (0,75 puntos).
+
+                              Dec         A         B         C          S
+                               0          0         0         0          0
+                               1          0         0         1          0
+                               2          0         1         0          0
+                               3          0         1         1          1
+                               4          1         0         0          0
+                               5          1         0         1          1
+                               6          1         1         0          1
+                               7          1         1         1          1
+          Minterms:
+          𝐹𝐹 = 𝑎𝑎�𝑏𝑏𝑏𝑏 + 𝑎𝑎𝑏𝑏�𝑐𝑐 + 𝑎𝑎𝑎𝑎𝑐𝑐̅ + 𝑎𝑎𝑎𝑎𝑎𝑎
+   b. Simplifique la función lógica utilizando el Mapa de Karnaugh (0,75 puntos).
+
+                                       a/bc    00  01      11      10
+                                         0      0   0       1       0
+                                         1      0   1       1       1
+           𝐹𝐹 = 𝑏𝑏𝑏𝑏 + 𝑎𝑎𝑎𝑎 + 𝑎𝑎𝑎𝑎 =a(b+c) +bc
+   c. Dibuje el esquema del circuito empleando la expresión lógica simplificada y utilizando el menor
+      número posible de puertas lógicas AND, OR, NOT (0,75 puntos).
+      0,75 puntos si se hace el esquema con el menor número de puertas lógicas posibles. Si se hace
+      otro esquema válido, pero con más puertas, como máximo 0,5 puntos.
+   d. Un técnico informa que el sistema de refrigeración principal ha fallado y que la tensión de línea es
+      estable. Según la lógica diseñada, ¿qué debería ocurrir con el sistema de alimentación de
+      emergencia (S) si el consumo eléctrico de la sala sube repentinamente al 95%? (0,25 puntos).
+      Se activa el sistema (S=1) porque hay dos fallos activos (A y B), cumpliendo la condición de dos o
+      más fallos (0,25 puntos).
+

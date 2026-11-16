@@ -1,0 +1,176 @@
+                                           EVALUACIÓN DE BACHILLERATO PARA EL ACCESO A LA UNIVERSIDAD
+                                           CONVOCATORIA ORDINARIA DE 2024
+                                           EJERCICIO DE: MATEMÁTICAS II
+                                           TIEMPO DISPONIBLE: 1 hora 30 minutos
+
+PUNTUACIÓN QUE SE OTORGARÁ A ESTE EJERCICIO: (véanse las distintas partes del examen)
+
+   En total el examen consta de 10 preguntas optativas del mismo valor, de las que el/la estudiante deberá
+   elegir un máximo de 5 preguntas, cualesquiera de ellas. Cada pregunta vale 2 puntos en total y puede
+   contener distintos apartados, cuyas puntuaciones se indican.
+   El/la estudiante debe indicar claramente, en la primera página del tríptico, cuáles han sido las 5
+   preguntas elegidas. (Si no se indica, y se han respondido más de 5 preguntas, sólo se corregirán las 5
+   preguntas que se han respondido en primer lugar).
+                          Justifica los pasos realizados para llegar a la solución obtenida.
+
+
+
+        1. Dada la siguiente función
+                                                   
+                                                    e2x − 1
+                                           f (x) =              si   x 6= 0 ,     a ∈ R.
+                                                    a x        si   x=0
+
+              (a) (1 punto) Estudia su continuidad en R según los valores de a.
+              (b) (1 punto) Para el valor de a = 1, calcula los puntos de corte de la recta tangente a la curva en
+                  x = 1, con los ejes OX y OY .
+        2. Calcula justificadamente el siguiente límite
+                                                           hp                i
+                                                   lı́m      x2 + 5 − (x + 2) .
+                                                  x→+∞
+
+
+        3.    (a) (1,2 puntos) Calcula a, b y c ∈ R tales que la función
+
+                                                   f (x) = a x + b sen(x)cos(x) + c
+
+                  sea una primitiva de g(x) = sen2 (x).
+                  (Nota: recuerda que sen2 (x) + cos2 (x) = 1 ∀x ∈ R.)
+              (b) (0,8 puntos) Sabiendo que sen(2x) = 2sen(x)cos(x), demuestra que
+
+                                                    cos(2x) = cos2 (x) − sen2 (x).
+
+        4. Demuestra que, entre todos los rectángulos de perímetro P cm, el de mayor área es el cuadrado.
+
+        5. Dadas las siguientes matrices:
+                                                                       
+                                      −2 1          1                   0
+                                  A= 2  0 , B =  0                   1  , C = AT · B + I2 ,
+                                      0 −1          −1                  0
+
+             donde AT es la matriz traspuesta de A, e I2 es la matriz identidad de orden 2.
+
+              (a) (0,8 puntos) Calcula C 2n , con n ∈ N.
+              (b) (1,2 puntos) Resuelve la ecuación C · X = 5(AT · B).
+                                           
+                                 2 −3   4
+        6. Dada la matriz A =  −4 6 m − 6 , con m ∈ R un parámetro.
+                                 2 −3 m + 6
+
+              (a) (1,2 puntos) Estudia el rango de la matriz A en función del parámetro m ∈ R.
+              (b) (0,8 puntos) Resuelve, si es posible, el sistema homogéneo A · X = 0 cuando m = 6.
+ 7. Analizamos en un comercio los precios de tres artículos A, B y C. El producto A, es de primera nece-
+    sidad y tiene un tipo superreducido de IVA del 4 %; el producto B es de alimentación y tiene un tipo
+    reducido de IVA del 10 % y el artículo C es un pequeño electrodoméstico cuyo tipo de IVA es del 21 %.
+    El precio total sin IVA de la compra de 1 artículo A de primera necesidad, 2 productos B de alimenta-
+    ción y 5 pequeños electrodomésticos C es de 483 e. Mientras que el total de IVA correspondiente a la
+    compra de 100 artículos de primera necesidad A, 10 productos de alimentación B y 100 pequeños elec-
+    trodomésticos C, es de 1954 e. Además, se sabe que el precio sin IVA del pequeño electrodoméstico
+    es igual al precio sin IVA de cuatro artículos de primera necesidad más ocho artículos de alimentación.
+    Calcula los precios a la venta de los tres artículos, teniendo en cuenta que el precio a la venta es el
+    precio con IVA incluido.
+
+ 8. Dados los puntos P1 (−2, 1, 1), P2 (0, a, −2), P3 (−1, 1, −1) y P4 (1, 3, −3), se pide:
+
+     (a) (1,2 puntos) Calcula los valores de a ∈ R para que el tetraedro con vértices P1 , P2 , P3 y P4 tenga
+         volumen 1/3.
+     (b) (0,8 puntos) Calcula el valor de a ∈ R para que los cuatro puntos sean coplanarios.
+
+ 9. Una asignatura de matemáticas de la Escuela de Ingeniería y Arquitectura de la Universidad de Zara-
+    goza tiene 99 personas matriculadas (54 alumnas y 45 alumnos). En primera convocatoria aprueban la
+    asignatura 49 personas (28 alumnas y 21 alumnos).
+
+     (a) (1,2 puntos) ¿Cuál es el porcentaje de alumnas que aprueban la asignatura en primera convoca-
+         toria?, ¿y de alumnos?
+     (b) (0,8 puntos) Si elegimos aleatoriamente a una persona que haya aprobado la asignatura en pri-
+         mera convocatoria, ¿cuál es la probabilidad de que sea una mujer?
+
+10. Vamos a suponer que durante el año 2023, las llegadas de turistas a nuestro país se realizaron de la
+    siguiente forma: un 55 % llegó en avión, un 30 % llegó en tren, un 10 % llegó en autobús y un 5 % llegó
+    en barco. Además, sabemos que, de todos estos viajeros, visitaron Aragón el 50 % de los que vinieron
+    en avión, el 60 % de los que vinieron en tren, el total de los que viajaron en autobús, y un 20 % de los
+    que vinieron en barco. Con estos datos, se pide:
+
+     (a) (1 punto) Calcula la probabilidad de que un turista seleccionado al azar entre los que visitaron
+         España en 2023 haya visitado Aragón.
+     (b) (1 punto) Calcula la probabilidad de que un turista visitante de Aragón haya hecho su viaje a
+         España en autobús o en tren.
+                                   EVALUACIÓN DE BACHILLERATO PARA EL ACCESO A LA UNIVERSIDAD
+                                   CONVOCATORIA DE ORDINARIA EXTRAORDINARIA DE 2024
+
+                                   CRITERIOS ESPECÍFICOS DE CORRECCIÓN
+                                   EJERCICIO DE: MATEMÁTICAS II
+
+
+                              CRITERIOS ESPECÍFICOS DE CORRECCIÓN
+
+CUESTIONES GENERALES
+
+Como norma general se valorará positivamente la exposición lógica, ordenada y coherente de las
+respuestas.
+Si en el desarrollo de un problema se detecta un error numérico, que no sea manifiestamente inconsistente
+con la cuestión, y el desarrollo posterior es coherente con dicho error, no se debe dar especial relevancia a
+éste, siempre y cuando el problema no haya quedado reducido a uno trivial o el resultado sea inconsistente
+de forma evidente con el problema a resolver.
+En determinados apartados se dan puntuaciones para la solución por alguno de los métodos más
+habituales. En todo caso, la resolución de un apartado utilizando un método distinto otorgará la puntuación
+máxima, siempre que el método sea correcto y lo sea también su solución.
+De acuerdo con las normas generales que aparecen en la información pública, los correctores pueden
+bonificar hasta con un máximo de un punto, el buen uso de la lengua o el desarrollo técnico de los
+ejercicios.
+    1. (2 puntos)
+           a. (1 punto) Aplicación de la definición de continuidad correctamente en todo el dominio. Si
+               sólo se centra en el 0 para calcular el valor de “a” y no indica la continuidad en el resto del
+               dominio se penalizará con 0,4 puntos.
+           b. (1 punto) Recta tangente 0,5 puntos. Cálculo de puntos de corte 0,25*2. Si no escribe los
+               puntos con las coordenadas (x,y) se penalizará con 0,25 puntos.
+    2. (2 puntos) Los pasos en el cálculo del límite deben estar claros y justificarse. Y la calificación debe
+       tenerlos en cuenta. Por errores leves se podrá descontar hasta 0,25 puntos.
+    3. (2 puntos)
+           a. (1,2 puntos) Cálculo correcto de la derivada de f(x), 0,5 puntos. Planteamiento de la
+               ecuación que se debe cumplir, 0,2 puntos. Cálculo de a y b, 2*0,15 puntos. Explicar que c
+               queda libre, 0,2 puntos.
+           b. (0,8 puntos) Si se realizan manipulaciones correctas de las expresiones dadas, pero no se
+               llega a la demostración solicitada, se puntuará con 0,4 puntos.
+    4. (2 puntos) Obtención de la relación entre x e y a partir del enunciado, 0,6 puntos. Expresión correcta
+       del área a maximizar en función de una sola variable, 0,2 puntos. Derivada del área, 0,3 puntos.
+       Cálculo del máximo y comprobación de que lo es, 0,5 puntos. Conclusión que justifique la
+       demostración pedida, 0,4 puntos.
+    5. (2 puntos)
+           a. (0,8 puntos) Cálculo de C, 0,2 puntos. Si el desarrollo está bien, pero la fórmula final no es
+               correcta, se descontará 0,4 puntos. Si se aproxima “bastante” a la fórmula final, se
+               descuenta 0,2 puntos.
+           b. (1,2 puntos) 0,2 puntos plantear bien la solución despejando X. Si obtiene (por el
+               procedimiento que sea) la inversa de C, 0,5. Algún error leve que no simplifique se podrá
+               descontar hasta 0,2 puntos.
+    6. (2 puntos)
+           a. (1,2 puntos) Si se aplica Gauss y se llega a la matriz escalonada, 0,6 puntos. Si no se
+               diferencia el caso 𝑚𝑚 ≠ −2, se penalizará 0,3 puntos.
+               Si se trabaja con menores, el cálculo del determinante 0,4 puntos. No puede ser rango 3,
+               0,2 puntos. Encontrar un menor de orden 2 para justificar el rango 2 en el caso 𝑚𝑚 ≠ −2, 0,3
+               puntos. Si no se diferencia el caso 𝑚𝑚 ≠ −2, se penalizará 0,3 puntos.
+           b. (0,8 puntos) Si la solución obtenida no queda dependiente de un parámetro, la nota máxima
+               (en función del proceso realizado) será 0,3 puntos. Si hay algún error leve de cálculo, se
+               podrá descontar un máximo de 0,2 puntos.
+    7. (2 puntos) Plantear las tres ecuaciones de forma correcta, 0,2*3 puntos. Resolver el sistema (por
+       cualquier procedimiento correcto), 0,8 puntos. Obtener los precios de venta y dar la respuesta final
+       (en euros), 0,6 puntos.
+8. (2 puntos)
+        a. (1,2 puntos) Obtener el valor del volumen del tetraedro en función de a, 0,8 puntos. Deducir
+            los dos valores de a, 0,2*2 puntos. Por errores leves y aislados, se penalizará 0,2 puntos. Si
+            el volumen no es un número, la puntuación será 0. Si falta dividir por 6 en la fórmula del
+            volumen, se penalizará con 0,2 puntos.
+        b. (0,8 puntos) Si hay algún error leve de cálculo se podrá descontar un máximo de 0,2 puntos.
+9. (2 puntos) Válida cualquier estrategia para determinar la probabilidad, si es coherente y correcta.
+    Por pequeños errores de cálculo se quitará un máximo de 0,2 puntos en cada apartado.
+        a. (1,2 puntos) Debe contestarse en porcentaje. Si no se da el porcentaje, se descontará
+            0,25 puntos.
+        b. (0,8 puntos) Debe contestarse en probabilidad. Si no se da la probabilidad, se descontará
+            0,15 puntos.
+10. (2 puntos) Válida cualquier estrategia para determinar la probabilidad, si es coherente y correcta.
+    Por pequeños errores de cálculo se quitará un máximo de 0,2 puntos en cada apartado.
+        a. (1 punto) Debe contestarse en probabilidad. Si no se da la probabilidad, se descontará
+            0,2 puntos.
+        b. (1 punto) Debe contestarse en probabilidad. Si no se da la probabilidad, se descontará
+            0,2 puntos.
+

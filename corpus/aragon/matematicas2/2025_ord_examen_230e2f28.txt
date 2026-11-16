@@ -1,0 +1,223 @@
+                                       PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                       CONVOCATORIA ORDINARIA DE 2025
+                                       EJERCICIO DE: MATEMÁTICAS II
+                                       TIEMPO DISPONIBLE: 1 hora 30 minutos
+
+PUNTUACIÓN QUE SE OTORGARÁ A ESTE EJERCICIO: (véanse las distintas partes del examen)
+
+   El examen consta de cuatro preguntas. Cada pregunta tiene una valoración de 2,5 puntos. La primera
+   pregunta es obligatoria, mientras que en las tres últimas se deberá elegir entre Opción 1 y Opción 2,
+   respondiendo únicamente a una de las dos. En caso de contestar cuestiones de ambas opciones, solo
+   se corregirá la opción que aparezca en primer lugar en el tríptico.
+   El/la estudiante debe indicar claramente, en la primera página del tríptico, cuáles han sido las opciones
+   elegidas en las preguntas 2, 3 y 4. (Si no se indica, y se han respondido dos opciones de una misma
+   pregunta, sólo se corregirá la opción que se haya respondido en primer lugar).
+                        Justifica los pasos realizados para llegar a la solución obtenida.
+
+        1. Queremos encriptar el mensaje “HOLA” con un sistema de encriptado que consta de los siguientes
+           pasos:
+       Paso 1: Convertimos cada carácter del mensaje a encriptar (en nuestro caso la palabra “HOLA”) en
+               un número según la tabla siguiente:
+                A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z
+                1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27
+
+       Paso 2: Construimos una matriz columna, Mc , con los cuatro números obtenidos en el paso anterior.
+                                                                                  
+                                                                  1   1    1    1
+                                                               −1 0 −1 −1 
+       Paso 3: Multiplicamos la matriz de encriptado, ME =                        
+                                                               −1 −1 0 −1 , por la matriz Mc
+                                                                 −1 −1 −1 0
+               obtenida en el paso anterior.
+
+           El resultado del último paso, Mf inal , es el mensaje encriptado.
+
+             a) (0,5 puntos) Obtén el mensaje encriptado al que se llega a partir del mensaje “HOLA” inicial.
+             b) (0,5 puntos) Explica cómo podríamos realizar el proceso de desencriptado para recuperar
+                un mensaje a partir de un mensaje encriptado recibido.
+                                                                                     
+                                                                                 30
+                                                                               −21 
+             c) (1 punto) Si hemos obtenido el mensaje encriptado Mf inal =          
+                                                                               −25  con el proceso
+                                                                                −16
+                descrito arriba, ¿cuál es el mensaje original?
+             d) (0,5 puntos) Si quisiéramos utilizar otra matriz de encriptado, del mismo tamaño que ME ,
+                ¿qué condición debería cumplir dicha matriz para poder realizar el proceso completo de
+                encriptado y desencriptado sin problemas?
+
+        2. Elige entre 2.1 y 2.2, respondiendo únicamente uno de los dos.
+
+            2.1 (2,5 puntos) Sean u y v dos vectores no nulos de R perpendiculares entre sí y w = u × v
+                                                                       3
+
+                su producto vectorial. Se definen a = (u × v) + w, b = v × (v × w) y c = u · (v × w). Indica si
+                a, b y c son vectores o escalares (números). Para aquellos que sean vectores, justifica si son
+                paralelos o perpendiculares a cada uno de los vectores u, v y w.
+
+            2.2 a) (1 punto) Halla las ecuaciones paramétricas de la recta s que pasa por el punto P (4, −3, 0)
+                   y es perpendicular al plano π ≡ x − 2y + z − 1 = 0.
+                b) (1,5 puntos) Halla la ecuación del plano que contiene al punto Q(1, 2, 3) y a la recta
+                                                         {
+                                                           x + y + z = 1,
+                                                    r≡
+                                                              x − 2y = 0.
+
+
+
+
+   CONTINÚA AL DORSO
+3. Elige entre 3.1 y 3.2, respondiendo únicamente uno de los dos.
+
+   3.1 Queremos aproximar la función f (x) = ex , con x en el intervalo [0, 1], por otra función
+       gm (x) = mx con m un parámetro en R. Definimos como error de la aproximación la expresión
+                                             ∫ 1
+                                   err(m) =       (f (x) − gm (x))2 dx.
+                                                    0
+
+                                                 e2   1          m2
+        a) (1,5 puntos) Comprueba que err(m) =      − − 2m +         con m ∈ R.
+                                                  2   2           3
+        b) (1 punto) ¿Cuál es el valor de m ∈ R que minimiza el error? ¿Cuál será el valor mínimo
+           del error?
+
+   3.2 a) (1,25 puntos) Calcula
+                                                     x2 − sen(x2 )
+                                                   lím             .
+                                                  x→0 1 − cos(x)
+
+        b) (1,25 puntos) Calcula el área de la región limitada por la gráfica de la función
+
+                                        f (x) = cos2 (x) sen(x),       x ∈ [0, π]
+
+            y el eje de abscisas.
+
+
+
+4. Elige entre 4.1 y 4.2, respondiendo únicamente uno de los dos.
+
+   4.1 En un juego se cuenta con el siguiente tablero, de manera que una ficha puede desplazarse
+       de la casilla 1 a la 2; de la 2 puede desplazarse a las casillas 1 y 3; y de la casilla 3 a la casilla
+       2.
+
+
+
+                                    1              2               3
+
+
+       Para decidir el movimiento a realizar en cada turno, se lanza una moneda equilibrada (misma
+       probabilidad de cara y cruz). Si sale cara, se intenta desplazar la ficha a la izquierda; si sale
+       cruz, a la derecha. En caso de no poder realizar el desplazamiento correspondiente, la ficha
+       se queda en la casilla en la que está durante ese turno.
+        a) (0,5 puntos) Construye un árbol (o una tabla) que muestre las probabilidades de pasar
+           de una casilla a otra en un turno.
+        b) (1 punto) Si la ficha se encuentra en la casilla 1, ¿cuál es la probabilidad de que tras tres
+           turnos se encuentre de nuevo en la casilla 1?
+        c) (1 punto) Para comenzar el juego, se procede a un sorteo para ver dónde comienza la
+           ficha. Si la probabilidad de empezar en la casilla 1 es 1/2 y la probabilidad de empezar
+           en la casilla 2 y en la 3 es de 1/4 para cada una, ¿cuál es la probabilidad de que la ficha
+           esté en cada una de las tres casillas dos turnos después de empezar?
+
+   4.2 Dados dos sucesos aleatorios de los que se sabe que P (A|B) = 2/3 y P (B|A) = 3/4.
+                                                                         ∪
+        a) (1 punto) Si A y B fueran independientes, ¿cuánto valdría P (A B)?
+                               ∪                                                            ∪
+        b) (1,5 puntos) Si P (A B) = 5/6, ¿cuáles son las probabilidades P (A), P (B) y P (A B)?
+                                    PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                    CONVOCATORIA ORDINARIA DE 2025
+
+                                    CRITERIOS ESPECÍFICOS DE CORRECCIÓN
+                                    EJERCICIO DE: MATEMÁTICAS II
+
+
+                               CRITERIOS ESPECÍFICOS DE CORRECCIÓN
+
+CUESTIONES GENERALES
+
+El diseño de esta prueba no solo se centra en evaluar la adquisición de conocimientos matemáticos, sino
+también en valorar la integración de los saberes y las competencias específicas. Entre ellas, destaca la
+capacidad de modelización y resolución de problemas, y su aplicación para abordar y resolver situaciones
+de la vida cotidiana y del ámbito científico. Los estudiantes deberán justificar sus procedimientos y cómo
+llegaron a sus conclusiones, explicando por qué estas son válidas dentro del contexto del problema.
+Aquí se valorará especialmente que los estudiantes puedan explicar procedimientos de forma comprensible.
+En conjunto, la evaluación no solo tomará en cuenta la corrección de los procedimientos utilizados, sino
+también la capacidad de los estudiantes para conectar ideas matemáticas y aplicar los saberes adquiridos a
+contextos reales, alineando su aprendizaje con los criterios de evaluación establecidos en el currículo.
+Criterios adicionales:
+    •   Planteamiento y explicaciones: En las respuestas primará el correcto planteamiento del problema
+        y se valorarán positivamente las explicaciones claras y precisas, y negativamente la ausencia de
+        explicaciones o las explicaciones incorrectas. En ningún caso se otorgará la calificación máxima
+        cuando únicamente se dé el resultado sin aportar ningún cálculo ni explicación. También se evaluará
+        negativamente (con, hasta un máximo de un punto en el examen) la falta de rigor matemático, un mal
+        uso de los símbolos matemáticos o del lenguaje y explicaciones poco claras.
+    •   Errores y coherencia: Si se comete un error en una parte de la pregunta que afecta a los resultados
+        posteriores, se valorará si hay coherencia con el resultado erróneo. En tal caso, se valorará el resto
+        de las cuestiones de la misma pregunta, aunque si el error conduce a problemas más simples de los
+        inicialmente propuestos disminuirá la calificación. Como regla general, un pequeño error puntual de
+        cuentas se penalizará con 0,1 puntos. Resultados absurdos, como 3,5 personas o probabilidades
+        mayores que uno o negativas, serán penalizados. Sin embargo, si los estudiantes reconocen y
+        justifican que estos resultados no son posibles y pueden deberse a errores en cálculos anteriores, la
+        penalización será menor.
+1. (2,5 puntos)
+             a) (0,5 puntos) Por errores en la conversión con la tabla se penalizará 0,1 puntos. Si el producto
+                que realizan (formalmente) no es adecuado, se puntuará con 0 el apartado.
+             b) (0,5 puntos) Decir que se resuelve el sistema ME Mc = Mfinal donde Mc es el vector de incógnitas
+                y después se usa la tabla para convertir las componentes de Mc en letras y obtener el
+                mensaje. La explicación puede ser con palabras o con uso de expresiones matemáticas. La
+                puntuación no depende de que expliciten un método concreto de resolución del sistema.
+             c) (1 punto) Plantear correctamente el sistema a resolver 0,2 puntos. Resolver correctamente el
+                sistema (por cualquier método válido) 0,7 puntos. Obtener el mensaje final 0,1 puntos. Si, al
+                resolver el problema, obtienen algún valor que no esté en la tabla y no dicen nada al respecto,
+                se penalizará con 0,3 puntos (además de la penalización que corresponda por el error del
+                que venga el mal resultado).
+             d) (0,5 puntos) Justificación de que es necesario que sea regular para que el sistema tenga
+                solución única. Si la justificación que se da es para que el sistema sea compatible, la
+                respuesta no se dará por válida.
+
+2.1. (2,5 puntos) Clasificación correcta como vector o escalar 0,2 por cada uno. a paralelo a w 0,5 puntos. a
+perpendicular a los otros dos vectores 0,3 puntos. b paralelo a w 0,8 puntos. b perpendicular a los otros dos
+vectores 0,3 puntos.
+
+2.2. (2,5 puntos)
+             a) (1 punto) Obtener el vector normal al plano 0,5 puntos.
+             b) (1,5 puntos) Obtener el vector director de la recta r 0,5 puntos. Obtener un segundo vector
+                 director del plano 0,5 puntos. La resolución será válida por cualquier método correcto y
+                 justificado.
+3.1. (2,5 puntos)
+             a) (1,5 puntos) Expresar adecuadamente el cuadrado de la diferencia 0,2 puntos. Cálculo
+                 correcto de la primitiva 0,8 puntos. Uso correcto de la regla de Barrow 0,5 puntos. Si el
+                 resultado final no se corresponde con la expresión correcta y no se dice nada al respecto, se
+                 penalizará con 0,3 puntos (además de la penalización que corresponda por el error del que
+                 venga el mal resultado).
+             b) (1 punto) Cálculo correcto de la derivada 0,3 puntos. Cálculo del valor donde la derivada se
+                 anula 0,2 puntos. Comprobación de que es un mínimo 0,3 puntos. Evaluación correcta de
+                 err(m) para obtener el error mínimo 0,2 puntos.
+
+3.2. (2,5 puntos)
+             a) (1,25 puntos) Los pasos en el cálculo del límite deben estar claros y la calificación debe
+                 tenerlos en cuenta.
+             b) (1,25 puntos) Comprobación del signo de la función en el intervalo 0,25 puntos. Cálculo
+                 correcto de la primitiva 0,8 puntos. Uso correcto de la regla de Barrow 0,2 puntos. Si no pone
+                 las unidades, se penalizará 0,1 puntos.
+
+4.1. (2,5 puntos)
+             a) (0,5 puntos) No hay puntuaciones intermedias.
+             b) (1 punto) Válida cualquier estrategia para determinar la probabilidad, si es coherente y
+                 correcta. Debe contestarse en probabilidad. Si no se da la probabilidad, se descontará 0,3
+                 puntos.
+             c) (1 punto) Válida cualquier estrategia para determinar la probabilidad, si es coherente y
+                 correcta. Debe contestarse en probabilidad. Si no se da la probabilidad, se descontará 0,3
+                 puntos. Si sólo se proporciona la probabilidad de una de las tres casillas 0,4 puntos. Si la
+                 suma de las tres probabilidades obtenidas no es 1 y no se dice nada al respecto, se
+                 penalizará con 0,3 puntos.
+
+4.2. (2,5 puntos)
+             a) (1 punto) Razonar que, si son independientes, P(A)=P(A|B) y P(B)=P(B|A) 0,3 puntos.
+                  Cálculo de la probabilidad de la intersección 0,3 puntos.
+             b) (1,5 puntos) Válida cualquier estrategia para determinar la probabilidad, si es coherente y
+                  correcta. Cálculo de cada una de las tres probabilidades pedidas 0,5 puntos. Si alguna de
+                  las probabilidades pedidas no es calculada, pero se obtiene algún valor que podría servir
+                  como paso intermedio, se valorará parcialmente. Si alguna de las probabilidades obtenidas
+                  toma un valor fuera del intervalo [0,1] y no se dice nada al respecto, se penalizará con 0,5
+                  puntos (además de las penalizaciones correspondientes a los errores asociados).
+
