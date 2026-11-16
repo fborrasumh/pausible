@@ -1,0 +1,90 @@
+{
+ "ccaa": "andalucia",
+ "materia": "fisica",
+ "titulo": "Modelo original de examen PAU 2027 de Física — Andalucía",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro ejercicios, uno por cada bloque A, B, C y D. Responda los cuatro: el bloque A es obligatorio y, en cada uno de los bloques B, C y D, elija una sola alternativa del apartado a (a1 o a2) y una sola del apartado b (b1 o b2). Cada ejercicio se calificará con un máximo de 2,5 puntos: el apartado a vale hasta 1 punto y el apartado b hasta 1,5 puntos. Justifique los razonamientos y utilice únicamente los datos proporcionados en cada enunciado. Duración: 90 minutos. Se permite regla, compás y calculadora no programable, no gráfica y sin capacidad para almacenar o transmitir datos.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "gravitacion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "A) CAMPO GRAVITATORIO. Responda a los apartados a) y b).\na) Un satélite de masa $m$ describe una órbita circular de radio $r$ alrededor de un planeta de masa $M$. Si pasa a otra órbita circular de radio $2r$, determine, justificando la respuesta: i) la relación entre sus energías cinéticas en las dos órbitas (0,5 puntos); ii) la relación entre sus energías mecánicas, indicando el signo de estas (0,5 puntos).\nb) En una instalación de conservación de espacios naturales, un contenedor de masa $10\\,\\mathrm{kg}$ desciende desde el reposo por una rampa de $5\\,\\mathrm{m}$ de longitud y $3\\,\\mathrm{m}$ de altura. La rampa forma un triángulo rectángulo de lados $3\\,\\mathrm{m}$, $4\\,\\mathrm{m}$ y $5\\,\\mathrm{m}$. El coeficiente de rozamiento dinámico entre el contenedor y la rampa es $0,30$. Tome $g=10\\,\\mathrm{m\\,s^{-2}}$. i) Represente las fuerzas que actúan sobre el contenedor y calcule sus módulos (0,5 puntos). ii) Calcule el trabajo realizado por cada fuerza y el trabajo total (0,5 puntos). iii) Determine la rapidez del contenedor al llegar al final de la rampa (0,5 puntos).",
+   "solucion": "### a) Órbitas circulares\n\nPara una órbita circular de radio $R$, la fuerza gravitatoria proporciona la fuerza centrípeta:\n\n$$\\frac{GMm}{R^2}=\\frac{mv^2}{R},\\qquad v^2=\\frac{GM}{R}.$$\n\n**i) Energía cinética.** En consecuencia, $K=\\frac12mv^2=\\frac{GMm}{2R}$. Al comparar las órbitas de radios $r$ y $2r$:\n\n$$\\frac{K_{2r}}{K_r}=\\frac{GMm/(4r)}{GMm/(2r)}=\\frac12.$$\n\nLa energía cinética en la órbita de radio $2r$ es la mitad.\n\n**ii) Energía mecánica.** La energía potencial gravitatoria es $U=-GMm/R$, por lo que la energía mecánica en una órbita circular es\n\n$$E=K+U=-\\frac{GMm}{2R}<0.$$\n\nAsí, $E_r=-GMm/(2r)$ y $E_{2r}=-GMm/(4r)$, de modo que $E_{2r}/E_r=1/2$. Ambas energías son negativas; al pasar a la órbita exterior, la energía mecánica aumenta algebraicamente (se hace menos negativa).\n\n### b) Descenso por la rampa\n\n**i) Fuerzas.** Actúan el peso, vertical hacia abajo; la normal, perpendicular a la rampa; y el rozamiento, paralelo a la rampa y hacia arriba, opuesto al movimiento. Del triángulo, $\\sin\\theta=3/5$ y $\\cos\\theta=4/5$. Por tanto:\n\n$$P=mg=100\\ \\mathrm{N},\\qquad N=mg\\cos\\theta=100\\cdot\\frac45=80\\ \\mathrm{N},$$\n\n$$f=\\mu N=0{,}30\\cdot80=24\\ \\mathrm{N}.$$\n\nLa componente del peso paralela a la rampa es $mg\\sin\\theta=60\\ \\mathrm{N}$, hacia abajo.\n\n**ii) Trabajos.** El desplazamiento es de $5\\ \\mathrm{m}$ a lo largo de la rampa y el descenso vertical es de $3\\ \\mathrm{m}$. El trabajo del peso es $W_P=mgh=10\\cdot10\\cdot3=300\\ \\mathrm{J}$. La normal es perpendicular al desplazamiento, así que $W_N=0$. El rozamiento es contrario al desplazamiento, por lo que $W_f=-fL=-24\\cdot5=-120\\ \\mathrm{J}$. Entonces:\n\n$$W_{\\mathrm{total}}=300+0-120=180\\ \\mathrm{J}.$$\n\n**iii) Rapidez final.** Por el teorema trabajo-energía, partiendo del reposo:\n\n$$W_{\\mathrm{total}}=\\Delta K=\\frac12mv^2,\\qquad v=\\sqrt{\\frac{2\\cdot180}{10}}=6\\ \\mathrm{m\\,s^{-1}}.$$\n\n",
+   "resultado": "K_{2r}/K_r=1/2; E_{2r}/E_r=1/2 y ambas energías mecánicas son negativas. Rampa: P=100 N, N=80 N, f=24 N; trabajos: peso=300 J, normal=0 J, rozamiento=-120 J, total=180 J; rapidez final=6 m/s.",
+   "criterios": "Total: 2,5 puntos. a.i) 0,5 puntos: plantea la condición de órbita circular y obtiene K=GMm/(2R), concluyendo que K(2r)/K(r)=1/2. a.ii) 0,5 puntos: obtiene E=-GMm/(2R), la relación E(2r)/E(r)=1/2 y señala correctamente que ambas energías son negativas. b.i) 0,5 puntos: identifica peso, normal y rozamiento con dirección y sentido correctos, y calcula sus módulos (100 N, 80 N y 24 N). b.ii) 0,5 puntos: calcula los trabajos del peso (300 J), normal (0 J) y rozamiento (-120 J), y el trabajo total (180 J). b.iii) 0,5 puntos: aplica el teorema trabajo-energía desde el reposo y obtiene v=6 m/s.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "magnetico",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "B) CAMPO ELECTROMAGNÉTICO. Responda a una opción del apartado a) y a una opción del apartado b).\na1) Una espira conductora fija tiene su normal orientada según el eje $+z$. La atraviesa un campo magnético uniforme, perpendicular a su plano y dirigido según $+z$, cuyo módulo disminuye linealmente desde $B_0$ hasta cero durante un intervalo $T$. i) Razone si se induce una fuerza electromotriz y una corriente durante ese intervalo (0,5 puntos). ii) Indique el sentido de la corriente inducida, visto desde el lado $+z$, y justifique la respuesta (0,5 puntos).\na2) Un protón se libera desde el reposo en un campo eléctrico uniforme dirigido según el eje $+x$. Indique y justifique: i) la dirección y el sentido de su aceleración (0,5 puntos); ii) cómo varían su energía cinética y su energía potencial eléctrica mientras se desplaza (0,5 puntos).\nb1) En un sistema de carga inalámbrica, una bobina de $25$ espiras, cada una de área $4,0\\times10^{-3}\\,\\mathrm{m^2}$, está en un campo magnético uniforme perpendicular a las espiras, dado por $B(t)=0,20\\cos(50\\pi t)\\,\\mathrm{T}$. La resistencia total de la bobina es $2,0\\,\\Omega$. Tome como sentido positivo de circulación el asociado, por la regla de la mano derecha, a la normal $+z$. i) Obtenga la expresión del flujo magnético por espira y de la fuerza electromotriz inducida (0,75 puntos). ii) Determine la intensidad inducida en función del tiempo y su valor máximo (0,75 puntos).\nb2) Dos cargas puntuales iguales de $+2,0\\,\\mu\\mathrm{C}$ están situadas en los puntos $(-3,0)\\,\\mathrm{m}$ y $(3,0)\\,\\mathrm{m}$. En el punto $P=(0,4)\\,\\mathrm{m}$: i) calcule el vector campo eléctrico (0,75 puntos); ii) calcule el potencial eléctrico (0,75 puntos). Use $k=9,0\\times10^9\\,\\mathrm{N\\,m^2\\,C^{-2}}$.",
+   "solucion": "### Opción elegida: a1\n\n1. **Fuerza electromotriz y corriente inducidas.** El flujo magnético a través de la espira es $\\Phi_B(t)=A B(t)$, porque el campo es uniforme y perpendicular al plano. Durante el intervalo $T$, el campo disminuye linealmente, por lo que $d\\Phi_B/dt\\ne 0$. Por la ley de Faraday, $\\mathcal{E}=-d\\Phi_B/dt\\ne 0$. Al ser una espira conductora cerrada, también circula corriente inducida.\n2. **Sentido de la corriente.** El flujo externo según $+z$ está disminuyendo. Por la ley de Lenz, la corriente induce un campo magnético que se opone a esa disminución, es decir, también según $+z$. Por la regla de la mano derecha, la corriente se ve **antihoraria desde el lado $+z$**.\n\n### Opción elegida: b1\n\nTomamos como positivo el sentido asociado a la normal $+z$. Usamos el **enlace de flujo** $N\\Phi_B$ para obtener la fem total.\n\n1. **Flujo por espira y fem.** El campo es perpendicular a cada espira, así que\n   $$\\Phi_B(t)=A B(t)=(4,0\\times10^{-3})(0,20)\\cos(50\\pi t)=8,0\\times10^{-4}\\cos(50\\pi t)\\ \\mathrm{Wb}.$$\n   El enlace de flujo es $N\\Phi_B(t)=0,020\\cos(50\\pi t)\\ \\mathrm{Wb\\,espira}$. Por Faraday,\n   $$\\mathcal{E}(t)=-\\frac{d(N\\Phi_B)}{dt}=\\pi\\sin(50\\pi t)\\ \\mathrm{V}.$$\n2. **Intensidad y máximo.** Aplicando la ley de Ohm a la bobina,\n   $$I(t)=\\frac{\\mathcal{E}(t)}{R}=\\frac{\\pi}{2}\\sin(50\\pi t)\\ \\mathrm{A}.$$\n   Por tanto, la intensidad máxima (valor absoluto máximo) es $I_{\\max}=\\pi/2\\ \\mathrm{A}\\approx1,57\\ \\mathrm{A}$.\n\n**Comprobación:** la amplitud del enlace de flujo es $0,020\\ \\mathrm{Wb\\,espira}$; al multiplicarla por la frecuencia angular $50\\pi\\ \\mathrm{rad\\,s^{-1}}$ se obtiene una fem de amplitud $\\pi\\ \\mathrm{V}$. Dividirla por $2,0\\ \\Omega$ da $\\pi/2\\ \\mathrm{A}$, como en la expresión de la corriente.\n\nLos números se listan en este orden: amplitud del flujo por espira, amplitud de la fem, coeficiente de la corriente sinusoidal e intensidad máxima.",
+   "resultado": "a1: se induce fem y corriente; la corriente es antihoraria vista desde +z. b1: ΦB(t)=8,0×10⁻⁴ cos(50πt) Wb; ε(t)=π sin(50πt) V; I(t)=(π/2) sin(50πt) A; Imax=π/2 A≈1,57 A.",
+   "criterios": "Puntuación total: 2,5 puntos. a1 (1,0 punto): 0,5 por aplicar la ley de Faraday y concluir que hay fem y corriente mientras varía el flujo; 0,5 por aplicar la ley de Lenz y dar el sentido antihorario visto desde +z. b1 (1,5 puntos): 0,75 por el flujo por espira (0,25) y la fem inducida, con signo y dependencia temporal correctos (0,50); 0,75 por la expresión de la corriente (0,50) y su valor máximo (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "3",
+   "tema": "ondas",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "C) VIBRACIONES, ONDAS Y ÓPTICA. Responda a una opción del apartado a) y a una opción del apartado b).\na1) Un sonido de frecuencia $800\\,\\mathrm{Hz}$ pasa de un medio en el que se propaga a $320\\,\\mathrm{m\\,s^{-1}}$ a otro en el que se propaga a $640\\,\\mathrm{m\\,s^{-1}}$. i) Razone si cambia la frecuencia al cruzar la interfaz (0,5 puntos). ii) Calcule la longitud de onda en cada medio (0,5 puntos).\na2) Dibuje el trazado de rayos principales para un objeto real situado delante de una lente divergente. Describa razonadamente la posición y las características de la imagen (virtual o real, derecha o invertida, aumentada o reducida) (1 punto).\nb1) En un conducto, el desplazamiento longitudinal de las partículas de un medio debido a un sonido se describe mediante $y(x,t)=2,0\\times10^{-6}\\sin(4\\pi x-6000\\pi t)\\,\\mathrm{m}$, con $x$ en metros y $t$ en segundos. i) Indique el sentido de propagación de la onda (0,25 puntos). ii) Calcule su longitud de onda, frecuencia y velocidad de propagación (0,75 puntos). iii) Determine la velocidad máxima de oscilación de las partículas del medio (0,5 puntos).\nb2) Un objeto luminoso de altura $2,0\\,\\mathrm{cm}$ se sitúa a $15\\,\\mathrm{cm}$ delante de una lente convergente de distancia focal $10\\,\\mathrm{cm}$. Use la convención en la que las distancias de objetos e imágenes reales son positivas y $1/f=1/s+1/s'$. i) Determine la posición y la naturaleza de la imagen (1 punto). ii) Calcule su tamaño e indique si queda derecha o invertida (0,5 puntos).",
+   "solucion": "Se eligen las opciones **a1** y **b1**.\n\n### a1) Cambio de medio\n\n**i) Frecuencia.** Al atravesar una interfaz estacionaria, la frecuencia del sonido no cambia: viene determinada por la oscilación de la fuente y debe mantenerse la continuidad temporal de la onda en la interfaz. Por tanto, $f=800\\,\\mathrm{Hz}$ en ambos medios.\n\n**ii) Longitudes de onda.** Usamos $\\lambda=v/f$:\n\n- Primer medio: $\\lambda_1=\\dfrac{320}{800}=0{,}40\\,\\mathrm{m}$.\n- Segundo medio: $\\lambda_2=\\dfrac{640}{800}=0{,}80\\,\\mathrm{m}$.\n\nLa frecuencia se conserva, mientras que la longitud de onda se duplica al duplicarse la velocidad.\n\n### b1) Onda sonora\n\nLa expresión se compara con $y(x,t)=A\\sin(kx-\\omega t)$, de donde $A=2{,}0\\times10^{-6}\\,\\mathrm{m}$, $k=4\\pi\\,\\mathrm{rad\\,m^{-1}}$ y $\\omega=6000\\pi\\,\\mathrm{rad\\,s^{-1}}$.\n\n**i) Sentido de propagación.** La fase $kx-\\omega t$ corresponde a una onda que se propaga en el sentido positivo del eje $x$.\n\n**ii) Longitud de onda, frecuencia y velocidad.**\n\n$$\\lambda=\\frac{2\\pi}{k}=\\frac{2\\pi}{4\\pi}=0{,}50\\,\\mathrm{m},\\qquad f=\\frac{\\omega}{2\\pi}=3000\\,\\mathrm{Hz}.$$\n\nLa velocidad de propagación es\n\n$$v=\\frac{\\omega}{k}=\\frac{6000\\pi}{4\\pi}=1500\\,\\mathrm{m\\,s^{-1}}.$$\n\n**iii) Velocidad máxima de oscilación de las partículas.** Derivando respecto del tiempo,\n\n$$v_y=\\frac{\\partial y}{\\partial t}=-A\\omega\\cos(kx-\\omega t),$$\n\npor lo que\n\n$$v_{y,\\max}=A\\omega=(2{,}0\\times10^{-6})(6000\\pi)=0{,}012\\pi\\simeq3{,}77\\times10^{-2}\\,\\mathrm{m\\,s^{-1}}.$$\n\nEn la lista de números, $+1$ codifica el sentido de propagación $+x$.",
+   "resultado": "a1: frecuencia invariable, 800 Hz; longitudes de onda 0,40 m y 0,80 m. b1: propagación en +x; λ = 0,50 m, f = 3000 Hz, v = 1500 m/s y velocidad máxima de las partículas = 0,012π m/s ≈ 0,0377 m/s.",
+   "criterios": "Total: 2,5 puntos. a1 (1,0 punto): i) 0,5 por indicar y justificar que la frecuencia no cambia; ii) 0,25 por cada longitud de onda correcta (0,40 m y 0,80 m), aplicando λ = v/f. b1 (1,5 puntos): i) 0,25 por identificar la propagación en el sentido +x a partir de la fase kx − ωt; ii) 0,75 en total: 0,25 por cada valor correcto de λ = 0,50 m, f = 3000 Hz y v = 1500 m/s, con identificación de k y ω; iii) 0,5 por obtener la velocidad máxima de oscilación mediante Aω y dar 0,012π m/s ≈ 0,0377 m/s.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "4",
+   "tema": "moderna",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "D) FÍSICA MODERNA. Responda a una opción del apartado a) y a una opción del apartado b).\na1) Razone la veracidad de las siguientes afirmaciones sobre el efecto fotoeléctrico: i) si la frecuencia de la luz incidente es inferior a la frecuencia umbral, puede producirse emisión de electrones aumentando suficientemente la intensidad de la luz (0,5 puntos); ii) para una frecuencia superior a la umbral, aumentar la intensidad aumenta la energía cinética máxima de los fotoelectrones (0,5 puntos).\na2) Considere un protón y un electrón, y suponga que sus velocidades son no relativistas. Compare sus longitudes de onda de De Broglie: i) si ambas partículas tienen la misma rapidez, indique cuál tiene menor longitud de onda (0,5 puntos); ii) si tienen la misma longitud de onda, indique cuál tiene mayor rapidez (0,5 puntos).\nb1) En una célula fotoeléctrica inciden radiaciones de frecuencias $f_1=1,0\\times10^{15}\\,\\mathrm{Hz}$ y $f_2=5,0\\times10^{14}\\,\\mathrm{Hz}$. El trabajo de extracción del material es $4,63\\times10^{-19}\\,\\mathrm{J}$. Determine cuál de las radiaciones produce emisión fotoeléctrica y calcule la rapidez máxima de los electrones emitidos (1,5 puntos). Use $h=6,63\\times10^{-34}\\,\\mathrm{J\\,s}$ y $m_e=9,1\\times10^{-31}\\,\\mathrm{kg}$.\nb2) Un radioisótopo empleado como trazador tiene un periodo de semidesintegración de $6,0\\,\\mathrm{h}$ y una actividad inicial de $640\\,\\mathrm{Bq}$. Determine, transcurridas $18\\,\\mathrm{h}$, su actividad y el porcentaje de núcleos iniciales que se ha desintegrado (1,5 puntos).",
+   "solucion": "### Opción elegida: a1\n\n**i)** La afirmación es **falsa**. La energía de cada fotón es $E=hf$. Si $f<f_0$, donde $hf_0=W$, cada fotón tiene menos energía que el trabajo de extracción $W$ y no puede arrancar un electrón. Aumentar la intensidad incrementa el número de fotones, pero no la energía de cada uno.\n\n**ii)** La afirmación es **falsa**. Para $f>f_0$, la ecuación fotoeléctrica es $K_{\\max}=hf-W$. La energía cinética máxima depende de la frecuencia, no de la intensidad. Aumentar la intensidad aumenta, en general, el número de fotoelectrones emitidos y la corriente.\n\n### Opción elegida: b1\n\nLa frecuencia umbral es\n\n$$f_0=\\frac{W}{h}=\\frac{4{,}63\\times10^{-19}}{6{,}63\\times10^{-34}}=6{,}98\\times10^{14}\\ \\mathrm{Hz}.$$\n\nComo $f_1=1{,}0\\times10^{15}\\ \\mathrm{Hz}>f_0$, esta radiación produce emisión fotoeléctrica. En cambio, $f_2=5{,}0\\times10^{14}\\ \\mathrm{Hz}<f_0$, por lo que no la produce.\n\nLa energía cinética máxima de los electrones emitidos por la radiación de frecuencia $f_1$ es\n\n$$K_{\\max}=hf_1-W=(6{,}63\\times10^{-34})(1{,}0\\times10^{15})-4{,}63\\times10^{-19}=2{,}00\\times10^{-19}\\ \\mathrm{J}.$$\n\nSu rapidez máxima, usando la expresión no relativista, es\n\n$$v_{\\max}=\\sqrt{\\frac{2K_{\\max}}{m_e}}=\\sqrt{\\frac{2(2{,}00\\times10^{-19})}{9{,}1\\times10^{-31}}}=6{,}63\\times10^5\\ \\mathrm{m\\,s^{-1}}.$$\n\n",
+   "resultado": "a1: ambas afirmaciones son falsas. b1: produce emisión f1 = 1,0×10^15 Hz; rapidez máxima = 6,63×10^5 m·s⁻¹.",
+   "criterios": "Opción a1 (1,0 punto): 0,5 por indicar que i) es falsa y justificar que la intensidad no aumenta la energía de cada fotón; 0,5 por indicar que ii) es falsa y justificar con K_max = hf − W que la energía cinética máxima no depende de la intensidad. Opción b1 (1,5 puntos): 0,5 por determinar la frecuencia umbral y decidir correctamente qué radiación produce emisión; 0,5 por calcular K_max mediante la ecuación fotoeléctrica; 0,5 por aplicar la relación no relativista entre energía cinética y rapidez y obtener el resultado con unidades.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "magnetico",
+   "p": 0.9
+  },
+  {
+   "id": "ondas",
+   "p": 0.9
+  },
+  {
+   "id": "gravitacion",
+   "p": 0.654
+  },
+  {
+   "id": "electrico",
+   "p": 0.623
+  },
+  {
+   "id": "optica",
+   "p": 0.623
+  },
+  {
+   "id": "moderna",
+   "p": 0.623
+  }
+ ],
+ "referencias": [
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_fisica.zip#Fisica/Ordinaria_Titular/Examen Titular Física.pdf",
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_fisica.zip#Fisica/Extraordinaria_Titular/Examen Titular Física_Ex.pdf"
+ ]
+}
