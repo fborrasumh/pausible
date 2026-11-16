@@ -22,8 +22,27 @@ function materiasDe(cid) {
 }
 const prediccionDe = (cid, mid) => (hayDatos() && DATOS.pred.ccaa[cid] && DATOS.pred.ccaa[cid].materias[mid]) || null;
 const tieneExamen = (cid, mid) => DATOS.idx.includes(`${cid}__${mid}`);
-async function cargaExamen(cid, mid) {
-  try { const r = await fetch(`data/examenes/${cid}__${mid}.json`, {cache: 'no-cache'}); return r.ok ? await r.json() : null; } catch { return null; }
+/* Huella de un examen del repositorio: primeros 10 caracteres del SHA-1 del fichero tal cual (igual que pipeline/genera.py).
+   Va en el enlace del reto; si el examen se regenera, la versión antigua queda en data/examenes/archivo/. */
+async function huella(texto) {
+  try {
+    const b = await crypto.subtle.digest('SHA-1', new TextEncoder().encode(texto));
+    return [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, '0')).join('').slice(0, 10);
+  } catch { return ''; }
+}
+async function cargaExamen(cid, mid, version = '') {
+  const urls = [`data/examenes/${cid}__${mid}.json`];
+  if (version) urls.unshift(`data/examenes/archivo/${cid}__${mid}__${version}.json`);
+  for (const u of urls) {
+    try {
+      const r = await fetch(u, {cache: 'no-cache'}); if (!r.ok) continue;
+      const txt = await r.text(), ex = JSON.parse(txt);
+      ex.version = await huella(txt); ex.origen = 'pausible';
+      if (!version || ex.version === version || u.includes('/archivo/')) return ex;
+      ex.version_distinta = true; return ex;        // no se encontró la versión pedida: se usa la actual y se avisa
+    } catch {}
+  }
+  return null;
 }
 
 /* días hasta la PAU de esa comunidad (fecha oficial si se ha publicado; si no, estimada y así se dice) */
@@ -40,14 +59,46 @@ function notaDe(preguntas, auto) {
 }
 
 /* reto: enlace que abre la misma comunidad y materia con la nota de quien reta */
-function enlaceReto({c, m, n}, base = URL_APP) { const q = new URLSearchParams({c, m}); if (n != null) q.set('n', String(n)); return base + '?' + q.toString(); }
-function leeReto(search) {
+/* Enlace de reto. Examen del repositorio → ?v=<huella>. Examen generado por un estudiante → el examen entero,
+   comprimido, en el #fragmento (no llega a ningún servidor: lo lee solo el navegador de quien abre el enlace). */
+function enlaceReto({c, m, n, v, x}, base = URL_APP) {
+  const q = new URLSearchParams({c, m}); if (n != null) q.set('n', String(n)); if (v) q.set('v', v);
+  return base + '?' + q.toString() + (x ? '#e=' + x : '');
+}
+function leeReto(search, hash = '') {
   const q = new URLSearchParams(search || '');
-  const c = q.get('c'), m = q.get('m'), n = q.get('n');
+  const c = q.get('c'), m = q.get('m'), n = q.get('n'), v = q.get('v');
   if (!c || !CCAA.some(x => x.id === c) || !m || !MATERIAS[m]) return null;
   const nota = n != null && /^\d{1,2}(\.\d{1,2})?$/.test(n) && +n <= 10 ? +n : null;
-  return {c, m, n: nota};
+  const e = (String(hash).match(/[#&]e=([A-Za-z0-9_-]+)/) || [])[1] || '';
+  return {c, m, n: nota, v: /^[0-9a-f]{6,40}$/.test(v || '') ? v : '', x: e};
 }
+/* Solo lo necesario para hacer y corregir el examen */
+function paqueteExamen(ex) {
+  const P = ['n', 'tema', 'puntos', 'tipo', 'enunciado', 'resultado', 'solucion', 'criterios', 'verificacion', 'resoluciones'];
+  return {titulo: ex.titulo, duracion_min: ex.duracion_min, instrucciones: ex.instrucciones, generado: ex.generado,
+    preguntas: (ex.preguntas || []).map(p => Object.fromEntries(P.filter(k => p[k] != null).map(k => [k, p[k]])))};
+}
+const b64url = u8 => btoa(String.fromCharCode(...u8)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+const deB64url = s => Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g, '/') + '==='.slice((s.length + 3) % 4)), ch => ch.charCodeAt(0));
+async function flujo(bytes, Clase) { return new Uint8Array(await new Response(new Blob([bytes]).stream().pipeThrough(new Clase('deflate-raw'))).arrayBuffer()); }
+/* 'z' + deflate (navegadores actuales) o 'j' + JSON sin comprimir (si el navegador no sabe comprimir) */
+async function comprimeExamen(ex) {
+  const bytes = new TextEncoder().encode(JSON.stringify(paqueteExamen(ex)));
+  try { if (typeof CompressionStream !== 'undefined') return 'z' + b64url(await flujo(bytes, CompressionStream)); } catch {}
+  let bin = ''; for (const b of bytes) bin += String.fromCharCode(b);
+  return 'j' + btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+async function descomprimeExamen(x) {
+  try {
+    const bytes = x[0] === 'z' ? await flujo(deB64url(x.slice(1)), DecompressionStream) : deB64url(x.slice(1));
+    const ex = JSON.parse(new TextDecoder().decode(bytes));
+    if (!Array.isArray(ex.preguntas) || !ex.preguntas.length || ex.preguntas.length > 30) return null;
+    ex.preguntas = ex.preguntas.filter(p => p && typeof p.enunciado === 'string').map(p => ({...p, puntos: Math.min(10, Math.max(0, +p.puntos || 0))}));
+    return {...ex, origen: 'estudiante'};
+  } catch { return null; }
+}
+const ENLACE_MAX = 6000;   // por encima, algunos sitios cortan el enlace: se ofrece además el fichero
 
 /* LaTeX ligero → texto legible (sin librerías: la CSP no deja cargar nada y la app ha de ir sin red) */
 function latexLite(s) {
@@ -186,4 +237,4 @@ function tarjeta(cv, d) {
   return cv;
 }
 
-if (typeof module !== 'undefined') module.exports = {conFormulas, notaDe, enlaceReto, leeReto, latexLite, iguales, resuelvePregunta, generaExamen, diasHasta};
+if (typeof module !== 'undefined') module.exports = {conFormulas, paqueteExamen, comprimeExamen, descomprimeExamen, notaDe, enlaceReto, leeReto, latexLite, iguales, resuelvePregunta, generaExamen, diasHasta};

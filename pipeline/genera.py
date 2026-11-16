@@ -18,7 +18,7 @@ Uso (en GitHub Actions, con el secreto OPENAI_API_KEY; también acepta ANTHROPIC
   python3 pipeline/genera.py --max 20                 # las combinaciones que aún no tienen examen
   python3 pipeline/genera.py --ccaa madrid --materia matematicas2 --forzar
 """
-import argparse, json, os, pathlib, re, subprocess, sys, tempfile, time
+import argparse, hashlib, json, os, pathlib, re, subprocess, sys, tempfile, time
 
 R = pathlib.Path(__file__).resolve().parent.parent
 PROVEEDOR = 'openai' if os.environ.get('OPENAI_API_KEY') else 'anthropic' if os.environ.get('ANTHROPIC_API_KEY') else None
@@ -73,7 +73,7 @@ def p_ponente(cc, mat, temas, referencias, evitar=''):
 No copies enunciados reales: mismos tipos de tarea, datos y contextos nuevos. Incluye el enfoque competencial (situaciones contextualizadas) del modelo vigente desde 2025.
 Cada pregunta debe tener UNA solución inequívoca (en cálculo, datos que den resultados limpios y comprobables).{evitar}
 Devuelve SOLO este JSON:
-{{"titulo":"…","duracion_min":90,"instrucciones":"…","preguntas":[{{"n":"1","tema":"id del tema","puntos":2.5,"tipo":"calculo|abierta","enunciado":"texto completo (fórmulas en LaTeX SIEMPRE entre $…$ o $$…$$; química con $\\ce{…}$)"}}]}}
+{{"titulo":"…","duracion_min":90,"instrucciones":"…","preguntas":[{{"n":"1","tema":"id del tema","puntos":2.5,"tipo":"calculo|abierta","enunciado":"texto completo (fórmulas en LaTeX SIEMPRE entre $…$ o $$…$$; química con $\\ce{{…}}$)"}}]}}
 Ids de tema válidos: {', '.join(t['id'] for t in temas)}
 
 {refs}"""
@@ -177,7 +177,7 @@ def sube(f, msg):
     idx = sorted(p.stem for p in f.parent.glob('*__*.json'))
     (f.parent / 'index.json').write_text(json.dumps(idx), encoding='utf-8')
     g = lambda *a: subprocess.run(['git', *a], cwd=R, capture_output=True, text=True)
-    g('add', str(f), str(f.parent / 'index.json')); g('commit', '-q', '-m', msg)
+    g('add', str(f), str(f.parent / 'index.json')); g('add', str(f.parent / 'archivo')); g('commit', '-q', '-m', msg)
     for _ in range(6):
         if g('push', '-q').returncode == 0: return
         g('pull', '-q', '--rebase'); time.sleep(5)
@@ -214,6 +214,9 @@ def main():
             except Exception as e:
                 print(f'  error: {e}'); continue
             if ex:
+                if f.exists():   # la versión anterior se archiva: los retos enviados con ?v=<huella> la siguen abriendo
+                    viejo = f.read_bytes(); arch = od / 'archivo'; arch.mkdir(exist_ok=True)
+                    (arch / f'{cid}__{mid}__{hashlib.sha1(viejo).hexdigest()[:10]}.json').write_bytes(viejo)
                 f.write_text(json.dumps(ex, ensure_ascii=False, indent=1), encoding='utf-8'); hechos += 1
                 sube(f, f'Examen probable: {c["nombre"]} · {reg["nombre"]}')
                 print(f'  ✓ {len(ex["preguntas"])} preguntas verificadas')

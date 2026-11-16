@@ -11,7 +11,10 @@ El examen más PAUsible de la PAU 2027 (selectividad), por comunidad autónoma y
 1. **Predicción por comunidad y materia.** Para cada una de las 17 comunidades y cada materia de la PAU, calcula la probabilidad de que cada tema aparezca en el examen de 2027 a partir de los exámenes oficiales de 2022 a 2026. Enseña cuántas veces salió cada tema, cuándo fue la última, su tendencia, un fragmento del enunciado real con enlace al PDF oficial y la probabilidad media en toda España.
 2. **Validación ciega visible.** Cada predicción se pone a prueba ocultando el último examen ordinario y prediciéndolo con los anteriores; el estudiante ve cuántos temas habría acertado el método y cuántos acertaría el azar. De ahí sale la confianza (alta, media o baja).
 3. **Examen probable con solución verificada.** Exámenes originales con el formato de la comunidad, centrados en los temas más probables, resueltos por varios agentes de IA que se vigilan entre sí (ver abajo). Cronómetro de 90 minutos opcional, solución y criterios por pregunta, y autocorrección que calcula la nota del simulacro.
-4. **Compartir y retar.** Tarjeta en formato historia (1080×1920) dibujada en el propio dispositivo, botón de compartir nativo, WhatsApp y un enlace de reto (`?c=madrid&m=matematicas2&n=7.5`) que abre a tu amigo el mismo examen con tu nota.
+4. **Compartir y retar.** Tarjeta en formato historia (1080×1920) dibujada en el propio dispositivo, botón de compartir nativo, WhatsApp y un enlace de reto que abre a tu amigo **exactamente el mismo examen** con tu nota:
+   - examen de PAUsible → `?c=madrid&m=matematicas2&n=7.5&v=<huella>`; si el examen se regenera, la versión anterior queda en `data/examenes/archivo/` y el reto la sigue abriendo;
+   - examen generado por el estudiante con su clave → el examen entero, comprimido, en el `#fragmento` del enlace (no pasa por ningún servidor ni se sube al repositorio). Si el enlace es demasiado largo para algún sitio, se puede enviar como fichero `.json` y abrirlo desde la portada.
+   - Cada estudiante conserva en su navegador hasta 5 exámenes generados por comunidad y materia.
 5. **Ranking de España.** Qué comunidad tiene la PAU más previsible y qué temas caen en casi toda España en cada materia.
 6. **Ejemplo sin clave ni datos** (Matemáticas II), con predicción ficticia marcada como tal y soluciones comprobadas con sympy.
 

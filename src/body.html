@@ -17,6 +17,7 @@
     <p class="lede" data-i18n="hero.lede">Elige tu comunidad y tu materia. PAUsible analiza los exámenes oficiales de los últimos cinco años, te dice qué temas tienen más probabilidad de caer y te da un examen probable con la solución comprobada.</p>
     <div class="actions"><button class="btn btn-primary btn-big" id="btnStart" type="button"><svg class="i"><use href="#i-play"/></svg><span data-i18n="s.elegir">Elegir mi comunidad</span></button><button class="btn btn-ghost btn-big" id="btnEjemplo" type="button"><svg class="i"><use href="#i-eye"/></svg><span data-i18n="s.ejemplo">Ver un ejemplo</span></button><button class="btn btn-ghost btn-big" id="btnRanking" type="button"><svg class="i"><use href="#i-chart"/></svg><span data-i18n="s.ranking">Ranking de España</span></button></div>
     <p class="fa-inicio" id="inicioProj"></p>
+    <p class="help"><label class="pa-fich"><span data-i18n="¿Te han enviado un examen como fichero?">¿Te han enviado un examen como fichero?</span> <span class="pa-fich-btn" data-i18n="Ábrelo aquí">Ábrelo aquí</span><input type="file" id="fichReto" accept=".json,application/json"></label></p>
     <p class="help" id="estadoDatos"></p>
     <div class="fa-autores"><span class="fa-autores-cap" data-i18n="Realizada por">Realizada por</span>
       <div class="fa-autor"><span class="fa-av" style="--c:#E4572E">FB</span><div><b>Fernando Borrás Rocher</b><small>Universidad Miguel Hernández de Elche</small><a class="fa-orcid" href="https://orcid.org/0000-0002-5519-4573" target="_blank" rel="noopener">ORCID 0000-0002-5519-4573</a></div></div>
@@ -67,7 +68,8 @@
       <button class="btn btn-primary" id="btnShare" type="button"><svg class="i"><use href="#i-share"/></svg><span data-i18n="Compartir tarjeta">Compartir tarjeta</span></button>
       <button class="btn btn-ghost" id="btnPng" type="button"><svg class="i"><use href="#i-download"/></svg><span data-i18n="Descargar imagen">Descargar imagen</span></button>
       <a class="btn btn-ghost" id="btnWa" target="_blank" rel="noopener"><span data-i18n="Retar por WhatsApp">Retar por WhatsApp</span></a>
-      <button class="btn btn-ghost" id="btnLink" type="button"><span data-i18n="Copiar enlace de reto">Copiar enlace de reto</span></button></div>
+      <button class="btn btn-ghost" id="btnLink" type="button"><span data-i18n="Copiar enlace de reto">Copiar enlace de reto</span></button>
+      <button class="btn btn-ghost" id="btnExJson" type="button" hidden><svg class="i"><use href="#i-download"/></svg><span data-i18n="Descargar el examen como fichero">Descargar el examen como fichero</span></button></div>
       <p class="help" id="compTxt"></p></div></div>
 </section>
 

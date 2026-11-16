@@ -1,6 +1,6 @@
 """Prueba de extremo a extremo de PAUsible en Chromium (Playwright), con datos sintéticos servidos por HTTP y la IA simulada.
 Uso: python3 tests/e2e_test.py /ruta/al/sitio   (carpeta con index.html y data/)"""
-import asyncio, http.server, json, sys, threading, functools, pathlib
+import asyncio, http.server, json, re, sys, threading, functools, pathlib
 from playwright.async_api import async_playwright
 SITE = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else '.').resolve()
 OUT = pathlib.Path('/tmp/e2e/shots'); OUT.mkdir(parents=True, exist_ok=True)
@@ -10,7 +10,8 @@ def sirve():
     h.log_message = lambda *a: None
     s = http.server.ThreadingHTTPServer(('127.0.0.1', 0), h); threading.Thread(target=s.serve_forever, daemon=True).start(); return s
 
-RESOL = {'A': iter([[9], [6]]), 'B': iter([[9], [7]]), 'C': iter([[8]])}
+import itertools
+RESOL = {'A': itertools.cycle([[9], [6]]), 'B': itertools.cycle([[9], [7]]), 'C': itertools.cycle([[8]])}
 def ia(user):
     if 'Redacta un examen ORIGINAL' in user:
         return {'titulo': 'Mates II · probable', 'duracion_min': 90, 'instrucciones': 'Responde.', 'preguntas': [
@@ -70,6 +71,31 @@ async def main():
         await pg.wait_for_selector('.pa-preg', timeout=15000)
         assert await pg.locator('.pa-preg').count() == 1 and 'Se descartaron 1' in await pg.inner_text('#exCab')
         assert await pg.evaluate("document.querySelectorAll('.pa-enun .katex').length") > 0    # fórmula del enunciado con KaTeX
+        # historial: un segundo examen con la clave → «Mío 1» y «Mío 2»
+        await pg.click('#btnGeneraOtro'); await pg.wait_for_function("document.querySelectorAll('[data-fuente]').length >= 2", timeout=15000)
+        assert await pg.locator('[data-fuente^="propio:"]').count() == 2
+        # reto con examen propio: viaja comprimido en el #fragmento y el amigo recibe exactamente el mismo
+        await pg.fill('#auto0', '4'); await pg.click('#btnACompartir'); await pg.wait_for_function('LINK.length > 0')
+        link = await pg.evaluate('LINK'); assert '#e=z' in link and len(link) < 6000, link[:120]
+        enun = await pg.evaluate("examenActual().preguntas.map(p => p.enunciado)")
+        async with pg.expect_download() as dlinfo: await pg.click('#btnExJson')
+        fich = await (await dlinfo.value).path()
+        amigo = await ctx.new_page(); amigo.on('pageerror', lambda e: errores.append(str(e)))
+        await amigo.goto(link.replace('https://fborrasumh.github.io/pausible/', base)); await amigo.wait_for_function('DATOS.cargado')
+        assert '8' in await amigo.inner_text('#retoBanner')
+        await amigo.click('#btnReto'); await amigo.wait_for_selector('.pa-preg')
+        assert 'Generado con la clave de quien te reta' in await amigo.inner_text('#exCab')
+        assert await amigo.evaluate("examenActual().preguntas.map(p => p.enunciado)") == enun
+        assert '#' not in amigo.url                                   # el examen no se queda en la barra de direcciones
+        # y como fichero, por si el enlace se corta
+        otro = await ctx.new_page(); await otro.goto(base); await otro.wait_for_function('DATOS.cargado')
+        await otro.set_input_files('#fichReto', fich); await otro.wait_for_selector('.pa-preg')
+        assert await otro.evaluate("examenActual().preguntas.map(p => p.enunciado)") == enun
+        # reto con examen oficial: lleva la huella de la versión
+        await pg.click('#goHome'); await pg.click('#btnStart'); await pg.click('[data-c="madrid"]'); await pg.select_option('#selMat', 'matematicas2')
+        await pg.click('#navNext'); await pg.click('#navNext'); await pg.wait_for_selector('.pa-preg'); await pg.fill('#auto0', '2')
+        await pg.click('#btnACompartir'); await pg.wait_for_function("LINK.includes('madrid')")
+        assert re.search(r'[?&]v=[0-9a-f]{10}', await pg.evaluate('LINK')) and '#e=' not in await pg.evaluate('LINK')
         # 4) idiomas y ranking
         for l in ('en', 'pt', 'es'):
             await pg.select_option('#selLang', l); await pg.click('#goHome'); await pg.click('#btnRanking'); await pg.wait_for_selector('.pa-rank')

@@ -13,15 +13,30 @@ const GLOS = [
   ['Generar con tu clave', 'Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI, Gemini o Claude. Sale la comunidad, la materia y la lista de temas; nada personal.'],
   ['Privacidad', 'No hay registro. Tu comunidad, materia y notas se guardan solo en este navegador. La tarjeta para compartir se dibuja en tu dispositivo.']
 ];
-let S = {c: '', m: '', auto: {}, examen: null, ejemplo: false, crono: null};
-const MEM = {examenes: {}};
+let S = {c: '', m: '', auto: {}, ejemplo: false, crono: null, propios: {}, retos: {}, fuente: {}};
+const MEM = {examenes: {}, version: {}};
+const MAX_PROPIOS = 5;   // exámenes generados con tu clave que se guardan por comunidad y materia
+const clave = () => `${S.c}__${S.m}`;
+let LINK = '';           // enlace de reto ya calculado (comprimir es asíncrono)
 const ejemploOn = () => S.ejemplo;
 const predActual = () => ejemploOn() ? EJ_PRED : prediccionDe(S.c, S.m);
-const examenActual = () => ejemploOn() ? EJ_EXAMEN[LANG] || EJ_EXAMEN.es : (S.examen && S.examen.c === S.c && S.examen.m === S.m ? S.examen.ex : MEM.examenes[`${S.c}__${S.m}`] || null);
+/* De dónde sale el examen de esta comunidad y materia: el oficial de PAUsible, uno recibido en un reto o uno tuyo */
+function fuenteActual() {
+  const k = clave(), f = S.fuente[k];
+  if (f === 'reto' && S.retos[k]) return f;
+  if (f && f.startsWith('propio:') && (S.propios[k] || [])[+f.slice(7)]) return f;
+  if (f === 'oficial' && MEM.examenes[k]) return f;
+  return S.retos[k] ? 'reto' : MEM.examenes[k] ? 'oficial' : (S.propios[k] || []).length ? 'propio:0' : 'oficial';
+}
+function examenActual() {
+  if (ejemploOn()) return EJ_EXAMEN[LANG] || EJ_EXAMEN.es;
+  const k = clave(), f = fuenteActual();
+  return f === 'reto' ? S.retos[k] : f.startsWith('propio:') ? S.propios[k][+f.slice(7)] : MEM.examenes[k] || null;
+}
 const cc = () => CCAA.find(c => c.id === S.c);
 const fmtP = p => Math.round(p * 100) + ' %';
 const fmtN = n => (+n).toLocaleString(locale(), {minimumFractionDigits: 1, maximumFractionDigits: 2});
-const RETO = leeReto(location.search);
+const RETO = leeReto(location.search, location.hash);
 const TEND = {sube: '↑', baja: '↓', estable: '→'};
 
 /* ── 0 · inicio ── */
@@ -41,8 +56,29 @@ $('btnEjemplo').onclick = () => { S.ejemplo = true; S.auto = {}; guarda(); go(2)
 $('btnRanking').onclick = () => go(5);
 document.addEventListener('click', e => {
   if (e.target.id === 'btnCont') go(2);
-  if (e.target.id === 'btnReto') { S.c = RETO.c; S.m = RETO.m; S.ejemplo = false; S.auto = {}; guarda(); go(3); }
+  if (e.target.id === 'btnReto') aceptaReto();
 });
+
+async function aceptaReto() {
+  S.c = RETO.c; S.m = RETO.m; S.ejemplo = false; S.auto = {}; const k = clave();
+  if (RETO.x) {
+    const ex = await descomprimeExamen(RETO.x);
+    if (ex) { S.retos[k] = ex; S.fuente[k] = 'reto'; } else toast(t('El examen del enlace está dañado o incompleto: se abre el examen oficial.'), 7000);
+  } else { S.fuente[k] = 'oficial'; if (RETO.v) { MEM.version[k] = RETO.v; delete MEM.examenes[k]; } }
+  await guardaYa(); history.replaceState(null, '', location.pathname); go(3);
+}
+/* Examen recibido como fichero (cuando el enlace era demasiado largo para el sitio donde se compartió) */
+$('fichReto').onchange = async e => {
+  const f = e.target.files[0]; e.target.value = ''; if (!f) return;
+  try {
+    const j = JSON.parse(await f.text());
+    if (!j || !CCAA.some(x => x.id === j.c) || !MATERIAS[j.m] || !j.x) throw 0;
+    const ex = await descomprimeExamen(j.x); if (!ex) throw 0;
+    S.c = j.c; S.m = j.m; S.ejemplo = false; S.auto = {}; S.retos[clave()] = ex; S.fuente[clave()] = 'reto';
+    await guardaYa(); go(3);
+    if (j.n != null) toast(t('Te han retado: {0} en el examen PAUsible de {1}.', fmtN(j.n), nombreMat(j.m)), 7000);
+  } catch { toast(t('Ese fichero no es un examen de PAUsible.'), 6000); }
+};
 
 /* ── 1 · tu PAU ── */
 function pintaTuPau() {
@@ -94,9 +130,10 @@ function nacionalDe(tid) {
 
 /* ── 3 · examen probable ── */
 async function pintaExamen() {
-  if (!ejemploOn() && S.c && S.m && !MEM.examenes[`${S.c}__${S.m}`] && tieneExamen(S.c, S.m)) {
+  const k = clave();
+  if (!ejemploOn() && S.c && S.m && !MEM.examenes[k] && tieneExamen(S.c, S.m)) {
     $('exCab').innerHTML = `<span class="spin"></span> ${esc(t('Cargando…'))}`;
-    const ex = await cargaExamen(S.c, S.m); if (ex) MEM.examenes[`${S.c}__${S.m}`] = ex;
+    const ex = await cargaExamen(S.c, S.m, MEM.version[k] || ''); if (ex) MEM.examenes[k] = ex;
   }
   const ex = examenActual();
   if (!ex) {
@@ -107,8 +144,14 @@ async function pintaExamen() {
     $('exPreg').innerHTML = ''; $('exNota').innerHTML = ''; $('exNota').hidden = true; return;
   }
   $('exNota').hidden = false;
-  $('exCab').innerHTML = `${ex.ficticio ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Ejemplo: soluciones comprobadas, temas ficticios'))}</p>` : ''}${ex.propio ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Generado con tu clave'))}</p>` : ''}<h3>${conFormulas(ex.titulo)}</h3><p>${conFormulas(ex.instrucciones)}</p>
-    <div class="actions"><button class="btn btn-ghost" id="btnCrono" type="button">${ico('clock')}<span>${esc(S.crono ? t('Parar cronómetro') : t('Empezar cronómetro de {0} min', ex.duracion_min || 90))}</span></button><span class="pa-crono" id="crono" aria-live="off"></span></div>
+  const f = ejemploOn() ? '' : fuenteActual();
+  const opciones = ejemploOn() ? [] : [...(MEM.examenes[k] ? [['oficial', t('Examen de PAUsible')]] : []), ...(S.retos[k] ? [['reto', t('Reto recibido')]] : []),
+    ...(S.propios[k] || []).map((e, i) => ['propio:' + i, t('Mío {0}', i + 1) + (e.generado ? ' · ' + e.generado.slice(5) : '')])];
+  const selector = opciones.length > 1 ? `<div class="pa-fuentes" role="group" aria-label="${esc(t('Qué examen hacer'))}">${opciones.map(([v, l]) => `<button type="button" class="btn btn-sm ${v === f ? 'btn-primary' : 'btn-ghost'}" data-fuente="${v}" aria-pressed="${v === f}">${esc(l)}</button>`).join('')}</div>` : '';
+  const avisoReto = f === 'reto' ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Generado con la clave de quien te reta · doble resolución · no revisado por PAUsible'))}</p>` : '';
+  const avisoVersion = f === 'oficial' && ex.version_distinta ? `<p class="help">${esc(t('Este examen se ha actualizado desde que te retaron: las notas pueden no ser comparables.'))}</p>` : '';
+  $('exCab').innerHTML = `${selector}${avisoReto}${avisoVersion}${ex.ficticio ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Ejemplo: soluciones comprobadas, temas ficticios'))}</p>` : ''}${f.startsWith('propio:') ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Generado con tu clave'))}</p>` : ''}<h3>${conFormulas(ex.titulo)}</h3><p>${conFormulas(ex.instrucciones)}</p>
+    <div class="actions"><button class="btn btn-ghost" id="btnCrono" type="button">${ico('clock')}<span>${esc(S.crono ? t('Parar cronómetro') : t('Empezar cronómetro de {0} min', ex.duracion_min || 90))}</span></button><span class="pa-crono" id="crono" aria-live="off"></span>${!ejemploOn() && (prediccionDe(S.c, S.m) || {temas: []}).temas.length ? `<button class="btn btn-ghost" id="btnGeneraOtro" type="button">${ico('sparkles')}<span>${esc(t('Generar otro con mi clave'))}</span></button>` : ''}</div><p class="help" id="genEstado"></p>
     ${ex.descartadas && ex.descartadas.length ? `<p class="help">${esc(t('Se descartaron {0} pregunta(s) porque los resolutores no coincidieron.', ex.descartadas.length))}</p>` : ''}`;
   $('exPreg').innerHTML = ex.preguntas.map((p, i) => `<div class="card pa-preg"><h3>${esc(t('Pregunta {0}', p.n || i + 1))} <span class="fa-chip">${esc(t('{0} puntos', fmtN(p.puntos)))}</span> ${insignia(p)}</h3>
     <div class="pa-enun">${conFormulas(p.enunciado)}</div>
@@ -129,7 +172,8 @@ document.addEventListener('click', async e => {
   const b = e.target.closest('button'); if (!b) return;
   if (b.id === 'btnACompartir') go(4);
   if (b.id === 'btnCrono') { S.crono = S.crono ? null : Date.now() + (examenActual().duracion_min || 90) * 60000; pintaExamen(); }
-  if (b.id === 'btnGenera') generaConClave(b);
+  if (b.id === 'btnGenera' || b.id === 'btnGeneraOtro') generaConClave(b);
+  if (b.dataset.fuente) { S.fuente[clave()] = b.dataset.fuente; S.auto = {}; S.crono = null; guarda(); pintaExamen(); }
 });
 function tic() {
   clearTimeout(tic._t); const el = $('crono'); if (!el) return;
@@ -151,7 +195,8 @@ async function generaConClave(b) {
       st.innerHTML = `<span class="spin"></span> ${esc(t('Pregunta {0} de {1}: {2}', i + 1, n, t(['resolutor A', 'resolutor B', 'desempate', 'tribunal'][k])))}`;
     });
     if (!ex.preguntas.length) throw new Error(t('Ninguna pregunta superó la doble resolución. Prueba otra vez o con otro modelo.'));
-    S.examen = {c: S.c, m: S.m, ex}; S.auto = {}; await guardaYa(); pintaExamen();
+    const k = clave(); S.propios[k] = [ex, ...(S.propios[k] || [])].slice(0, MAX_PROPIOS);
+    S.fuente[k] = 'propio:0'; S.auto = {}; await guardaYa(); pintaExamen();
   } catch (e) { st.textContent = e.message; toast(e.message, 8000); }
   finally { busy = false; b.disabled = false; }
 }
@@ -164,29 +209,45 @@ function datosTarjeta() {
     titTop: t('Lo más probable que caiga'), top: reg.temas || [], nota: notaOk ? S.nota : null, titNota: t('Mi nota en el examen probable'), notaTxt: notaOk ? fmtN(S.nota) : '',
     dias: c && !ejemploOn() ? t('Faltan {0} días', diasHasta(c.fecha)) : '', cta: t('¿Me superas? → pausible')};
 }
-function enlaceActual() { return ejemploOn() ? URL_APP : enlaceReto({c: S.c, m: S.m, n: Object.keys(S.auto).length ? S.nota : null}); }
+async function enlaceActual() {
+  if (ejemploOn()) return URL_APP;
+  const ex = examenActual(), f = fuenteActual(), n = Object.keys(S.auto).length ? S.nota : null;
+  if (!ex) return enlaceReto({c: S.c, m: S.m, n});
+  if (f === 'oficial') return enlaceReto({c: S.c, m: S.m, n, v: ex.version || ''});
+  return enlaceReto({c: S.c, m: S.m, n, x: await comprimeExamen(ex)});   // examen de un estudiante: viaja dentro del enlace
+}
+async function ficheroExamen() {
+  const ex = examenActual(); if (!ex) return;
+  const j = {pausible: 1, c: S.c, m: S.m, n: Object.keys(S.auto).length ? S.nota : null, x: await comprimeExamen(ex)};
+  dl(`pausible-${S.c}-${S.m}.json`, new Blob([JSON.stringify(j)], {type: 'application/json'}));
+}
 function textoReto() {
   const n = Object.keys(S.auto).length ? fmtN(S.nota) : null;
   return n ? t('He sacado un {0} en el examen PAUsible de {1} ({2}). ¿Me superas?', n, ejemploOn() ? t('Matemáticas II') : nombreMat(S.m), ejemploOn() ? t('ejemplo') : nombreCCAA(S.c))
     : t('Esto es lo más probable que caiga en la PAU 2027 de {0}. Míralo:', ejemploOn() ? t('Matemáticas II') : nombreMat(S.m));
 }
-function pintaComparte() {
+async function pintaComparte() {
   tarjeta($('cvTarjeta'), datosTarjeta());
-  const url = enlaceActual();
-  $('btnWa').href = 'https://wa.me/?text=' + encodeURIComponent(textoReto() + ' ' + url);
-  $('compTxt').textContent = t('Quien abra tu enlace hará el mismo examen probable y podrá comparar su nota con la tuya.');
+  LINK = await enlaceActual();
+  $('btnWa').href = 'https://wa.me/?text=' + encodeURIComponent(textoReto() + ' ' + LINK);
+  const propio = !ejemploOn() && examenActual() && fuenteActual() !== 'oficial';
+  $('btnExJson').hidden = !propio;
+  $('compTxt').textContent = t('Quien abra tu enlace hará el mismo examen probable y podrá comparar su nota con la tuya.')
+    + (propio ? ' ' + t('Tu examen va dentro del enlace: no se sube a ningún sitio.') : '')
+    + (LINK.length > ENLACE_MAX ? ' ' + t('El enlace es largo: si el sitio donde lo compartes lo corta, envía también el examen como fichero.') : '');
 }
+$('btnExJson').onclick = ficheroExamen;
 const pngBlob = () => new Promise(r => $('cvTarjeta').toBlob(r, 'image/png'));
 $('btnPng').onclick = async () => dl('pausible.png', await pngBlob());
 $('btnShare').onclick = async () => {
-  const f = new File([await pngBlob()], 'pausible.png', {type: 'image/png'}), url = enlaceActual();
+  const f = new File([await pngBlob()], 'pausible.png', {type: 'image/png'}), url = LINK || await enlaceActual();
   try {
     if (navigator.canShare && navigator.canShare({files: [f]})) await navigator.share({files: [f], text: textoReto() + ' ' + url});
     else if (navigator.share) await navigator.share({text: textoReto(), url});
     else { dl('pausible.png', f); toast(t('Imagen descargada: súbela a tu historia')); }
   } catch (e) { if (e.name !== 'AbortError') toast(e.message); }
 };
-$('btnLink').onclick = async () => { try { await navigator.clipboard.writeText(textoReto() + ' ' + enlaceActual()); toast(t('Enlace copiado')); } catch { toast(enlaceActual(), 9000); } };
+$('btnLink').onclick = async () => { const url = LINK || await enlaceActual(); try { await navigator.clipboard.writeText(textoReto() + ' ' + url); toast(t('Enlace copiado')); } catch { toast(url, 9000); } };
 
 /* ── 5 · ranking ── */
 function pintaRanking() {
@@ -204,6 +265,8 @@ $('selMatRank').onchange = pintaRanking;
 window.addEventListener('langchange', () => { if (step === 4) pintaComparte(); });
 (async () => {
   const prev = await cargaEstado(); if (prev) S = {...S, ...prev, crono: null};
+  S.propios = S.propios || {}; S.retos = S.retos || {}; S.fuente = S.fuente || {};
+  if (S.examen && S.examen.ex) { const k = `${S.examen.c}__${S.examen.m}`; S.propios[k] = [S.examen.ex, ...(S.propios[k] || [])].slice(0, MAX_PROPIOS); delete S.examen; }   // versión anterior: un solo examen
   iniciaUI(); go(0);
   await cargaDatos(); (RENDER[step] || (() => {}))();
   if (RETO && step === 0) pintaInicio();
