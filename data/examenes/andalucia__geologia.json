@@ -1,0 +1,142 @@
+{
+ "ccaa": "andalucia",
+ "materia": "geologia",
+ "titulo": "PAU 2027 Andalucía — Geología y Ciencias Ambientales",
+ "duracion_min": 90,
+ "instrucciones": "a) Todas las cuestiones deben responderse en el papel destinado al examen. b) El examen consta de cinco bloques (A, B, C, D y E). El bloque A es obligatorio. En cada uno de los bloques B, C, D y E se debe responder solamente a uno de los dos ejercicios propuestos. Si se responde a más ejercicios de los requeridos, solo se tendrán en cuenta los primeros. c) Cada ejercicio vale 2 puntos y consta de dos apartados de 1 punto cada uno. La puntuación máxima del examen es de 10 puntos. d) Los enunciados describen todos los datos y esquemas necesarios para responder.",
+ "preguntas": [
+  {
+   "n": "A",
+   "tema": "tectonica",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En el corte geológico de una zona donde se proyecta construir un túnel se observan tres unidades sedimentarias: A, lutitas en la base; B, calizas sobre A; y C, areniscas sobre B. Las tres unidades están plegadas. Una falla inclinada hacia el este corta las unidades plegadas; el bloque situado al este de la falla, que corresponde al bloque techo, está descendido 20 m. Una superficie erosiva corta las unidades y la falla, y sobre ella se dispone horizontalmente una unidad de conglomerados D. a) Ordene cronológicamente los principales acontecimientos geológicos, desde la formación de A hasta la deposición de D, e indique el tipo de contacto entre las unidades plegadas y D. (1 punto) b) Clasifique la falla, indique el tipo de esfuerzo que la originó y razone si es anterior o posterior a la deposición de D. (1 punto)",
+   "solucion": "### a) Secuencia y contacto\n1. Se depositan las unidades sedimentarias en orden, de más antigua a más reciente: **A (lutitas) → B (calizas) → C (areniscas)**.\n2. Las tres unidades se pliegan.\n3. La falla corta los estratos ya plegados, por lo que el fallamiento es posterior al plegamiento.\n4. Se produce erosión, que corta tanto las unidades plegadas como la falla.\n5. Se deposita horizontalmente el conglomerado **D** sobre la superficie erosiva.\n\nEl contacto de D con las unidades plegadas es una **discordancia angular erosiva**: los estratos inferiores están plegados y truncados, mientras que D se dispone horizontalmente.\n\n### b) Falla, esfuerzo y edad\nEl bloque situado al este es el bloque techo porque la falla buza hacia el este. Al estar descendido 20 m respecto del bloque muro, se trata de una **falla normal** (salto vertical indicado: **20 m**). Una falla normal se origina por esfuerzos tectónicos distensivos o extensionales.\n\nLa falla es **anterior a la deposición de D**: la superficie erosiva la corta y D se apoya sobre esa superficie sin quedar cortado por la falla.\n\n**Comprobación final:** la relación de corte confirma que la falla es posterior al plegamiento y anterior a la erosión que generó la superficie sobre la que se depositó D; por tanto, la secuencia y la clasificación son coherentes.",
+   "resultado": "A → B → C → plegamiento → falla normal por distensión → erosión → discordancia angular erosiva → depósito horizontal de D; la falla es anterior a D y el bloque techo está descendido 20 m.",
+   "criterios": "Puntuación total: 2 puntos. a) 0,60 puntos por ordenar correctamente los acontecimientos (deposición A-B-C, plegamiento, fallamiento, erosión y depósito de D); 0,40 puntos por identificar y justificar el contacto como discordancia angular erosiva. b) 0,40 puntos por clasificarla como falla normal usando el descenso del bloque techo; 0,30 puntos por relacionarla con esfuerzos distensivos; 0,30 puntos por indicar y justificar que es anterior a D porque la superficie erosiva la trunca. Respuesta completa y correctamente razonada: 2/2 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "B.1",
+   "tema": "tectonica",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Un observatorio costero estudia una zona de subducción. La distancia se mide desde la fosa hacia el interior del continente. Se han registrado terremotos con estos datos: a 25 km de la fosa, focos a 12 km de profundidad; a 75 km, focos a 48 km; y a 150 km, focos a 105 km. En la zona hay una placa oceánica O bajo una placa continental C y una cadena volcánica situada tierra adentro. a) Identifique el tipo de límite de placas y explique qué indica el aumento de profundidad de los focos sísmicos hacia el continente. (1 punto) b) Indique qué placa subduce y explique por qué puede formarse una cadena volcánica tierra adentro. (1 punto)",
+   "solucion": "### a) Tipo de límite e interpretación sísmica\n1. La distancia desde la fosa aumenta de $25$ a $75$ y $150\\,\\text{km}$, y la profundidad de los focos aumenta de $12$ a $48$ y $105\\,\\text{km}$, respectivamente.\n2. La zona es un **límite convergente de subducción**. El incremento de profundidad hacia el continente indica que los terremotos se producen a lo largo de una zona sísmica inclinada —la zona de Wadati-Benioff— asociada a una placa que desciende bajo el continente.\n\n### b) Placa que subduce y origen de la cadena volcánica\n1. La placa oceánica **O** subduce bajo la placa continental **C**. En general, la litosfera oceánica es más densa que la continental, lo que favorece su hundimiento.\n2. Al descender, la placa oceánica libera fluidos por deshidratación. Estos favorecen la fusión parcial del manto situado sobre la placa subducida; los magmas generados ascienden y pueden formar una cadena volcánica tierra adentro, aproximadamente paralela a la fosa.\n\n### Comprobación\nLa tendencia de los tres datos es coherente con una placa que se hunde hacia el interior continental. La posición tierra adentro de la cadena volcánica también concuerda con la generación de magmas sobre la placa subducida, no necesariamente en la propia fosa. No hace falta obtener un resultado numérico para responder; el método pertinente es interpretar conjuntamente la distribución de profundidades y el contexto tectónico.",
+   "resultado": "Límite convergente con subducción de O bajo C; los focos definen una zona sísmica que profundiza hacia el continente y los fluidos de la placa subducida favorecen el vulcanismo tierra adentro.",
+   "criterios": "Puntuación máxima: 2 puntos. a) 1 punto: 0,5 por identificar el límite convergente de subducción y 0,5 por interpretar el aumento de profundidad como una zona sísmica inclinada que desciende hacia el continente. b) 1 punto: 0,5 por identificar O como la placa que subduce bajo C y 0,5 por explicar la liberación de fluidos, la fusión parcial del manto suprayacente y la formación de volcanes tierra adentro. Se aceptarán formulaciones equivalentes científicamente correctas; no se requiere cálculo numérico.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "B.2",
+   "tema": "tectonica",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Dos placas están separadas por una falla recta de dirección norte-sur. Las mediciones GPS indican que la placa P se desplaza hacia el norte, paralelamente a la falla, a 3 cm/año, mientras que la placa Q se desplaza hacia el sur, también paralelamente a la falla, a 2 cm/año. a) Calcule la velocidad relativa de desplazamiento entre ambas placas. (1 punto) b) Identifique el tipo de límite de placas y señale si se esperan principalmente terremotos de foco superficial o profundo. (1 punto)",
+   "solucion": "Tomamos el norte como sentido positivo. Las velocidades son $v_P=+3$ cm/año y $v_Q=-2$ cm/año. La velocidad de P respecto de Q es $v_{P/Q}=v_P-v_Q=(+3)-(-2)=+5$ cm/año; por tanto, la velocidad relativa (su módulo) es **5 cm/año**.\n\nComo ambas placas se desplazan paralelas a la falla y en sentidos opuestos, el límite es **transformante o conservativo**, con deslizamiento lateral. No se puede determinar si es dextral o sinistral sin saber a qué lado de la falla está cada placa. En este tipo de límite se esperan principalmente terremotos de **foco superficial**.",
+   "resultado": "5 cm/año; límite transformante (conservativo) y terremotos principalmente de foco superficial.",
+   "criterios": "Total: 2 puntos. a) 1 punto: 0,5 por plantear correctamente la velocidad relativa como diferencia de velocidades con signo; 0,5 por obtener 5 cm/año e indicar la unidad. b) 0,5 por identificar el límite transformante o conservativo; 0,5 por señalar que se esperan principalmente terremotos de foco superficial.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "C.1",
+   "tema": "procesos",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Un equipo ambiental cartografía un meandro para delimitar las zonas de erosión y acumulación. En el esquema descrito, A señala la orilla cóncava exterior de una curva; B, la orilla convexa interior; y C, un antiguo tramo curvo del cauce que ha quedado aislado y conserva agua. a) Nombre las formas señaladas A, B y C. (1 punto) b) Indique cuál de las formas A y B se asocia principalmente a la erosión y cuál a la acumulación, y explique cómo se pudo originar C. (1 punto)",
+   "solucion": "### a) Identificación de las formas\n- **A:** margen cóncava exterior del meandro, o **orilla de erosión** (talud o escarpe de erosión).\n- **B:** margen convexa interior, donde se forma una **barra de meandro** o depósito de sedimentación.\n- **C:** **meandro abandonado**; si conserva agua, constituye una laguna o lago en herradura.\n\n### b) Procesos\nEn **A** predomina la **erosión**, porque la corriente suele ser más rápida junto a la orilla exterior y socava el cauce. En **B** predomina la **acumulación o sedimentación**, al disminuir la velocidad del agua en la parte interior de la curva y depositarse sedimentos.\n\n**C** pudo originarse cuando la erosión lateral fue estrechando el cuello del meandro hasta que, durante una crecida, el río abrió un cauce más directo. La corriente dejó aislada la curva; la sedimentación pudo cerrar sus extremos y el tramo aislado conservó agua.",
+   "resultado": "A: orilla exterior de erosión; B: barra interior de acumulación; C: meandro abandonado con agua (laguna en herradura).",
+   "criterios": "Total: 2 puntos. a) 1 punto: 0,33 por identificar A como margen exterior de erosión; 0,33 por identificar B como barra o margen interior de acumulación; 0,34 por identificar C como meandro abandonado o laguna en herradura. b) 1 punto: 0,25 por asociar A con la erosión; 0,25 por asociar B con la acumulación; 0,50 por explicar el corte del cuello y el aislamiento del antiguo tramo, con cierre por sedimentación si se menciona. Se aceptan denominaciones equivalentes correctas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "C.2",
+   "tema": "procesos",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Para diseñar una red de drenaje, un equipo mide dos puntos de un mismo cauce en un mapa topográfico. El punto A, situado aguas arriba, está a 540 m de altitud; el punto B, situado a 3,0 km de distancia siguiendo el cauce, está a 390 m. a) Calcule el gradiente medio del cauce en m/km y en porcentaje, usando $P=\\frac{\\Delta h}{L}\\times 100$ para expresarlo en porcentaje, con las unidades coherentes. (1 punto) b) Indique hacia qué punto fluye el agua y justifique la respuesta con las altitudes. (1 punto)",
+   "solucion": "### a) Gradiente medio\nLa diferencia de altitud entre los puntos es $\\Delta h=540-390=150\\ \\text{m}$. La distancia siguiendo el cauce es $L=3{,}0\\ \\text{km}$, por lo que el gradiente medio es\n$$\\frac{\\Delta h}{L}=\\frac{150\\ \\text{m}}{3{,}0\\ \\text{km}}=50\\ \\text{m/km}.$$\nPara expresarlo en porcentaje, se emplean unidades coherentes: $3{,}0\\ \\text{km}=3000\\ \\text{m}$. Así,\n$$P=\\frac{150\\ \\text{m}}{3000\\ \\text{m}}\\times100=5\\%.$$\n\n### b) Sentido del flujo\nEl agua fluye desde **A hacia B**, porque A se encuentra a mayor altitud ($540\\ \\text{m}$) que B ($390\\ \\text{m}$).",
+   "resultado": "Gradiente medio: 50 m/km, equivalente al 5 %; el agua fluye de A hacia B.",
+   "criterios": "a) 1 punto: 0,25 por calcular la diferencia de altitud (150 m); 0,35 por obtener el gradiente de 50 m/km; 0,40 por convertir la distancia a metros y obtener correctamente el 5 %. b) 1 punto: 0,50 por indicar que el agua fluye de A hacia B; 0,50 por justificarlo comparando sus altitudes y señalar que el flujo va de mayor a menor altitud.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "D.1",
+   "tema": "minerales",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En un laboratorio se analiza un mineral transparente, de brillo vítreo, dureza 7 en la escala de Mohs, raya blanca, sin exfoliación y con fractura concoidea. a) Identifique el mineral. (1 punto) b) Indique a qué gran grupo de silicatos pertenece y describa cómo se enlazan los tetraedros de silicio y oxígeno en su estructura. (1 punto)",
+   "solucion": "### a) Identificación\n\n1. La combinación de dureza 7, brillo vítreo, raya blanca, ausencia de exfoliación y fractura concoidea es característica del **cuarzo**.\n2. Como comprobación por una vía de descarte, la dureza elevada y la fractura concoidea, junto con la falta de exfoliación, permiten diferenciarlo de minerales comunes con exfoliación marcada o menor dureza, como la calcita y muchos feldespatos.\n\n### b) Grupo de silicatos y estructura\n\nEl cuarzo pertenece a los **tectosilicatos** o silicatos de armazón. Los tetraedros $SiO_4$ se enlazan entre sí compartiendo sus cuatro vértices (átomos de oxígeno) con tetraedros vecinos. Así forman una estructura tridimensional continua. Como cada oxígeno se comparte entre dos tetraedros, la proporción global es $Si:O=1:2$, correspondiente a la fórmula $SiO_2$.\n\n### Comprobación\n\nLa fórmula $SiO_2$ concuerda con el armazón de tetraedros que comparten los cuatro oxígenos; además, las propiedades físicas descritas son coherentes con el cuarzo.",
+   "resultado": "Cuarzo; tectosilicato de armazón tridimensional formado por tetraedros $SiO_4$ que comparten sus cuatro vértices.",
+   "criterios": "2 puntos en total. a) 1 punto por identificar correctamente el cuarzo; la justificación con sus propiedades diagnósticas puede valorarse como crédito parcial. b) 0,5 puntos por clasificarlo como tectosilicato y 0,5 puntos por explicar que los tetraedros comparten los cuatro vértices y forman un armazón tridimensional.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "D.2",
+   "tema": "minerales",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Durante la revisión de una cantera se encuentra una roca formada por cristales de calcita recristalizados e interconectados, sin foliación. Se sabe que procede de una caliza calentada junto a una intrusión magmática, sin fusión de la roca. a) Identifique la roca encontrada y la roca de la que procede. (1 punto) b) Indique el tipo de metamorfismo responsable y describa el proceso principal que transformó la roca original. (1 punto)",
+   "solucion": "### a) Identificación\n1. La calcita recristalizada en cristales interconectados indica una textura granoblástica. La ausencia de foliación es compatible con una roca metamórfica dominada por un mineral no laminar.\n2. La roca encontrada es **mármol** y la roca original (protolito) es **caliza**.\n\n### b) Tipo y proceso de metamorfismo\n3. La proximidad de una intrusión magmática y el calentamiento de la caliza, sin que esta llegue a fundirse, identifican un **metamorfismo de contacto o térmico**.\n4. El proceso principal es la **recristalización en estado sólido**: el calor favorece que los cristales de calcita crezcan y se interconecten. Así, la caliza adquiere una textura cristalina granoblástica y se transforma en mármol, sin fusión.\n\n### Comprobación\nLa identificación concuerda con los datos: el mármol procede del metamorfismo de una caliza, está compuesto principalmente por calcita recristalizada y puede carecer de foliación; además, el calentamiento junto a una intrusión es propio del metamorfismo de contacto.",
+   "resultado": "Mármol, procedente de caliza; metamorfismo de contacto con recristalización de la calcita en estado sólido.",
+   "criterios": "Total: 2 puntos. a) 1 punto: 0,5 por identificar el mármol y 0,5 por identificar la caliza como protolito. b) 1 punto: 0,5 por indicar metamorfismo de contacto o térmico y 0,5 por describir la recristalización de la calcita en estado sólido, sin fusión.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "E.1",
+   "tema": "recursos",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Una explotación minera dispone de una reserva probada de 12 millones de toneladas de cobre recuperable y mantiene una extracción constante de 0,4 millones de toneladas al año. a) Calcule cuántos años duraría la reserva si no cambiaran la extracción ni la cantidad disponible, usando $T=R/E$. (1 punto) b) En la misma explotación, los estériles con pirita generan escorrentía de pH 3 al quedar expuestos al agua y al oxígeno. Elija la actuación adecuada y justifique su mecanismo: 1) cubrir o aislar los estériles y recoger el drenaje para neutralizarlo con cal; 2) conducir la escorrentía directamente al río; 3) triturar y airear los estériles. (1 punto)",
+   "solucion": "### a) Duración de la reserva\nSe aplica $T=R/E$. Como ambas cantidades están expresadas en millones de toneladas, las unidades se cancelan:\n\n$$T=\\frac{12\\ \\text{millones de toneladas}}{0{,}4\\ \\text{millones de toneladas/año}}=30\\ \\text{años}.$$\n\nLa reserva duraría **30 años**, suponiendo que no varíen la cantidad disponible ni el ritmo de extracción.\n\n### b) Tratamiento de los estériles con pirita\nLa actuación adecuada es la **1)**: cubrir o aislar los estériles y recoger el drenaje para neutralizarlo con cal. El aislamiento limita el contacto de la pirita con el agua y el oxígeno, que favorece la generación de drenaje ácido. La recogida evita que la escorrentía de pH 3 llegue directamente al medio; la cal neutraliza la acidez y puede favorecer la precipitación de algunos metales disueltos, cuyos residuos deben gestionarse adecuadamente. Conducir el agua ácida directamente al río contaminaría el cauce, y triturar y airear los estériles aumentaría su exposición y podría intensificar la oxidación de la pirita.",
+   "resultado": "a) 30 años; b) actuación 1: aislar los estériles, recoger el drenaje y neutralizarlo con cal.",
+   "criterios": "Total: 2 puntos. a) 1 punto: planteamiento correcto de T=R/E (0,5 puntos) y cálculo de 30 años con unidades (0,5 puntos). b) 1 punto: selección de la actuación 1 (0,5 puntos) y justificación del aislamiento frente al agua y al oxígeno, la recogida del drenaje y la neutralización de la acidez con cal (0,5 puntos).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "E.2",
+   "tema": "procesos",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En una carretera de montaña, un corte deja al descubierto capas sedimentarias inclinadas 35° hacia el valle. Tras varios días de lluvia, una masa de terreno se desplaza como un bloque coherente siguiendo uno de esos planos de estratificación, que aflora en la ladera. a) Identifique el tipo de movimiento en masa descrito. (1 punto) b) Explique cómo influyen en la inestabilidad tanto la orientación de las capas respecto a la ladera como la saturación por agua. (1 punto)",
+   "solucion": "### a) Tipo de movimiento\nSe trata de un **deslizamiento traslacional planar** (o deslizamiento de bloque): la masa se desplaza de forma coherente sobre una superficie aproximadamente plana, que en este caso coincide con un plano de estratificación.\n\n### b) Factores que favorecen la inestabilidad\n**Orientación de las capas.** Las capas buzan 35° hacia el valle, en la misma dirección general que la pendiente, y el plano de estratificación aflora en la ladera. Por tanto, el plano queda expuesto hacia el exterior (*daylighting*) y puede actuar como superficie de deslizamiento. La geometría es favorable al movimiento; para establecer la estabilidad cuantitativamente habría que conocer, entre otros datos, la inclinación de la ladera y la resistencia al corte del plano.\n\n**Saturación por agua — explicación mediante el esfuerzo efectivo.** El agua infiltrada puede elevar la presión de poros $u$. Así disminuye el esfuerzo normal efectivo sobre el plano, $\\sigma'_n=\\sigma_n-u$, y, con él, la resistencia al corte disponible: $\\tau_f=c'+\\sigma'_n\\tan\\varphi'$. Además, el agua puede aumentar el peso de la masa y, por tanto, la componente de las fuerzas que impulsa el deslizamiento ladera abajo. Ambos efectos favorecen la ruptura y el movimiento.\n\n**Comprobación final:** la descripción de una masa coherente que se desplaza por un único plano de estratificación corresponde a un movimiento traslacional planar, no a un flujo ni a un deslizamiento rotacional. La orientación hacia el valle permite que el plano aflore en la ladera y la saturación reduce la resistencia efectiva; ambos factores son compatibles con la inestabilidad descrita.",
+   "resultado": "Deslizamiento traslacional planar por un plano de estratificación que buza hacia el valle; el afloramiento del plano y la saturación favorecen el movimiento.",
+   "criterios": "2 puntos en total. a) 1 punto: 0,5 por identificar el deslizamiento traslacional planar (o de bloque) y 0,5 por señalar que ocurre siguiendo un plano de estratificación. b) 1 punto: 0,5 por explicar que las capas buzan hacia el valle y afloran en la ladera, favoreciendo el deslizamiento; 0,5 por explicar que la saturación aumenta la presión de poros, reduce el esfuerzo efectivo y la resistencia al corte. Se puede conceder crédito por mencionar el aumento del peso de la masa. No se exige cálculo numérico: faltan datos para determinar la estabilidad cuantitativamente.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "tectonica",
+   "p": 0.9
+  },
+  {
+   "id": "minerales",
+   "p": 0.9
+  },
+  {
+   "id": "procesos",
+   "p": 0.9
+  },
+  {
+   "id": "recursos",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_geologia_ciencias_ambientales.zip#Geologia/Ordinaria_Titular/Examen Titular Geología y Ciencias Ambientales.pdf",
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_geologia_ciencias_ambientales.zip#Geologia/Extraordinaria_Titular/Examen Titular Geología y Ciencias Ambientales_Ex.pdf"
+ ]
+}
