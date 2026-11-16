@@ -1,0 +1,102 @@
+{
+ "ccaa": "andalucia",
+ "materia": "quimica",
+ "titulo": "Examen original de Química — PAU Andalucía 2027",
+ "duracion_min": 90,
+ "instrucciones": "Responda a una sola alternativa de las preguntas 1, 2, 3 y 4 (A o B). Responda a todos los apartados de la pregunta 5. Las preguntas 1, 2 y 4 valen 2 puntos, distribuidos a razón de 0,5 puntos por apartado; la pregunta 3 vale 2 puntos, 1 por apartado; y la pregunta 5 vale 2 puntos, 0,5 por apartado. La calificación máxima es de 10 puntos. Puede responder en el orden que desee. Si responde a más alternativas de las requeridas, se tendrán en cuenta primero las respondidas hasta alcanzar el máximo exigido. Se permite el uso de calculadoras no programables, gráficas ni con capacidad para almacenar o transmitir datos. Constantes: R = 0,082 atm·L·mol^{-1}·K^{-1} = 8,314 J·mol^{-1}·K^{-1}; F = 96500 C·mol^{-1}; Kw (298 K) = 10^{-14}.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "estructura",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Responda a UNA de las alternativas siguientes (1A o 1B). Cada apartado vale 0,5 puntos. 1A. En un laboratorio se revisa la interpretación de los orbitales de un átomo. Indique si cada afirmación es correcta o incorrecta y justifique brevemente: a) La combinación de números cuánticos $(4,3,-2,-1/2)$ es posible. b) La combinación $(3,3,0,+1/2)$ es posible. c) La capa con número cuántico principal $n=3$ puede contener como máximo 18 electrones. d) Un subnivel $3d$ contiene cinco orbitales. 1B. Un equipo debe seleccionar materiales para un dispositivo de tratamiento de agua. Indique si cada afirmación es verdadera o falsa y justifique: a) El cloruro de sodio sólido conduce la corriente eléctrica porque contiene iones. b) El cloruro de sodio fundido conduce la corriente eléctrica. c) La molécula de $CO_2$ tiene enlaces polares, pero es apolar por su geometría lineal. d) El $SiO_2$ sólido está formado por moléculas discretas unidas entre sí por fuerzas intermoleculares.",
+   "solucion": "Se elige la alternativa 1A, ya que el enunciado pide responder a una sola alternativa.\n\nPara comprobar si una combinación de números cuánticos es admisible, se aplican sus intervalos permitidos: $n$ debe ser entero positivo; $l=0,1,\\ldots,n-1$; $m_l=-l,\\ldots,+l$; y $m_s=\\pm\\frac{1}{2}$.\n\n**a) Correcta.** Para $n=4$, $l$ puede valer $0,1,2,3$. Con $l=3$, $m_l=-2$ está entre $-3$ y $+3$, y $m_s=-\\frac{1}{2}$ es posible. Por tanto, la combinación es admisible.\n\n**b) Incorrecta.** Para $n=3$, $l$ solo puede valer $0,1,2$. El valor $l=3$ no está permitido, aunque los otros números cuánticos considerados sí estén dentro de sus intervalos.\n\n**c) Correcta.** En la capa $n=3$ hay subniveles con $l=0,1,2$, que contienen respectivamente $1,3,5$ orbitales. En total son $9$ orbitales y cada uno admite $2$ electrones: $9\\times2=18$. Así, el máximo es $18$ electrones.\n\n**d) Correcta.** En un subnivel $3d$, $l=2$. Los valores posibles de $m_l$ son $-2,-1,0,+1,+2$, por lo que hay cinco orbitales.\n\n**Comprobación final:** la fórmula de capacidad de una capa, $2n^2$, da $2(3)^2=18$ electrones para $n=3$. Además, el subnivel $d$ tiene $2l+1=2(2)+1=5$ orbitales. Ambos resultados confirman c) y d).",
+   "resultado": "1A: a) correcta; b) incorrecta; c) correcta; d) correcta.",
+   "criterios": "Total: 2 puntos. Cada apartado vale 0,5 puntos: 0,25 por indicar correctamente si la afirmación es correcta o incorrecta y 0,25 por justificarlo con el intervalo de números cuánticos, el recuento de orbitales o la capacidad electrónica pertinente. Se asignará la puntuación correspondiente si la respuesta es correcta aunque la justificación sea equivalente.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "termo",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Responda a UNA de las alternativas siguientes (2A o 2B). Cada apartado vale 0,5 puntos. 2A. Una planta piloto compara cuatro transformaciones para optimizar la recuperación de energía. Suponiendo que ΔH y ΔS permanecen constantes en el intervalo estudiado, determine para qué temperaturas es espontánea cada transformación, usando ΔG = ΔH − TΔS: a) A: ΔH = +40 kJ·mol^{-1}; ΔS = +100 J·mol^{-1}·K^{-1}. b) B: ΔH = −30 kJ·mol^{-1}; ΔS = −60 J·mol^{-1}·K^{-1}. c) C: ΔH = −20 kJ·mol^{-1}; ΔS = +40 J·mol^{-1}·K^{-1}. d) D: ΔH = +15 kJ·mol^{-1}; ΔS = −50 J·mol^{-1}·K^{-1}. Exprese las temperaturas en kelvin. 2B. En un reactor se estudia el paso elemental irreversible $A+2B \\rightarrow P$, con energía de activación positiva. Indique si las afirmaciones son verdaderas o falsas y justifique: a) La ley de velocidad es $v=k[A][B]^2$. b) Si se duplica $[A]$ y se reduce a la mitad $[B]$, la velocidad inicial se reduce a la mitad. c) La adición de un catalizador modifica la constante de equilibrio de la reacción. d) Al aumentar la temperatura, aumenta la constante de velocidad.",
+   "solucion": "### 2A\n\nUsamos el criterio de espontaneidad $\\Delta G<0$. Para mostrarlo mediante un método de umbral, calculamos en cada caso la temperatura $T_0=\\Delta H/\\Delta S$ en la que $\\Delta G=0$ y determinamos el signo a cada lado. Primero expresamos todas las entropías en $\\mathrm{kJ\\,mol^{-1}\\,K^{-1}}$.\n\n**a) Transformación A**\n\n$\\Delta S=+0{,}100\\ \\mathrm{kJ\\,mol^{-1}\\,K^{-1}}$ y $T_0=40/0{,}100=400\\ \\mathrm{K}$. Así, $\\Delta G=40-0{,}100T=0{,}100(400-T)$. Es negativa si $T>400\\ \\mathrm{K}$; a $400\\ \\mathrm{K}$ hay equilibrio.\n\n**b) Transformación B**\n\n$\\Delta S=-0{,}060\\ \\mathrm{kJ\\,mol^{-1}\\,K^{-1}}$ y $T_0=(-30)/(-0{,}060)=500\\ \\mathrm{K}$. Así, $\\Delta G=-30+0{,}060T=0{,}060(T-500)$. Es negativa si $0<T<500\\ \\mathrm{K}$; a $500\\ \\mathrm{K}$ hay equilibrio.\n\n**c) Transformación C**\n\n$\\Delta S=+0{,}040\\ \\mathrm{kJ\\,mol^{-1}\\,K^{-1}}$ y $T_0=(-20)/(0{,}040)=-500\\ \\mathrm{K}$. Así, $\\Delta G=-20-0{,}040T=0{,}040(-500-T)$, que es negativa para toda temperatura física $T>0\\ \\mathrm{K}$. Por tanto, es espontánea a cualquier temperatura física.\n\n**d) Transformación D**\n\n$\\Delta S=-0{,}050\\ \\mathrm{kJ\\,mol^{-1}\\,K^{-1}}$ y $T_0=(15)/(-0{,}050)=-300\\ \\mathrm{K}$. Así, $\\Delta G=15+0{,}050T=0{,}050(T+300)$, positiva para toda temperatura física $T>0\\ \\mathrm{K}$. Por tanto, no es espontánea a ninguna temperatura física.\n\n**Comprobación:** tomando valores de prueba, para A a $500\\ \\mathrm{K}$ se obtiene $\\Delta G=-10\\ \\mathrm{kJ\\,mol^{-1}}$; para B a $400\\ \\mathrm{K}$, $-6\\ \\mathrm{kJ\\,mol^{-1}}$; para C a $300\\ \\mathrm{K}$, $-32\\ \\mathrm{kJ\\,mol^{-1}}$; y para D a $300\\ \\mathrm{K}$, $+30\\ \\mathrm{kJ\\,mol^{-1}}$. Los signos confirman los intervalos obtenidos. En las temperaturas de umbral $\\Delta G=0$, por lo que no se consideran espontáneas.",
+   "resultado": "A: T > 400 K; B: 0 < T < 500 K; C: espontánea para todo T > 0 K; D: no espontánea para ninguna temperatura física.",
+   "criterios": "Total: 2,0 puntos. Para cada transformación (0,5 puntos): 0,25 por expresar correctamente las unidades y plantear o resolver ΔG < 0; 0,25 por indicar correctamente el intervalo de espontaneidad y el caso límite ΔG = 0. Se aceptan métodos equivalentes si se justifican los signos y se identifican como no físicas las temperaturas negativas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "equilibrio",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Responda a UNO de los problemas siguientes (3A o 3B). Cada apartado vale 1 punto. 3A. En un recipiente cerrado de 1,00 L se introducen 1,00 mol de $N_2O_4(g)$ y se mantiene el sistema a 300 K. Se establece el equilibrio $N_2O_4(g) \\rightleftharpoons 2NO_2(g)$, para el que $K_c=0,20$. a) Calcule las concentraciones de $N_2O_4$ y $NO_2$ en el equilibrio. b) Calcule $K_p$ y la presión total de la mezcla en el equilibrio. 3B. En un laboratorio se analiza una muestra de limpieza que contiene ácido clorhídrico, considerado un ácido fuerte. a) Calcule el pH de una disolución de HCl 0,100 M. b) Calcule el volumen de NaOH 0,250 M necesario para neutralizar completamente 25,0 mL de esa disolución.",
+   "solucion": "### 3A\n\n**a) Concentraciones en el equilibrio**\n\nEl volumen es $1{,}00\\ \\mathrm{L}$, por lo que la concentración inicial de $N_2O_4$ es $1{,}00\\ \\mathrm{M}$. Sea $x$ la concentración de $N_2O_4$ que se disocia:\n\n|  | $N_2O_4$ | $NO_2$ |\n|---|---:|---:|\n| Inicial (M) | $1{,}00$ | $0$ |\n| Variación (M) | $-x$ | $+2x$ |\n| Equilibrio (M) | $1-x$ | $2x$ |\n\nAplicando la expresión de la constante:\n\n$$K_c=\\frac{[NO_2]^2}{[N_2O_4]}=\\frac{(2x)^2}{1-x}=0{,}20$$\n\nDe aquí, $20x^2+x-1=0$. Sus soluciones son $x=0{,}20$ y $x=-0{,}25$; se descarta la negativa por no ser físicamente posible. Por tanto:\n\n$$[N_2O_4]_{eq}=1-0{,}20=\\boxed{0{,}800\\ \\mathrm{M}},\\qquad [NO_2]_{eq}=2(0{,}20)=\\boxed{0{,}400\\ \\mathrm{M}}$$\n\n**b) $K_p$ y presión total**\n\nPara $N_2O_4(g)\\rightleftharpoons 2NO_2(g)$, $\\Delta n=2-1=1$. Usando $R=0{,}082057\\ \\mathrm{L\\ atm\\ mol^{-1}\\ K^{-1}}$:\n\n$$K_p=K_c(RT)^{\\Delta n}=0{,}20(0{,}082057\\times300)=\\boxed{4{,}923\\text{ (con presiones en atm)}}$$\n\nLa concentración total en el equilibrio es $0{,}800+0{,}400=1{,}200\\ \\mathrm{mol\\ L^{-1}}$. Así,\n\n$$P_{total}=c_{total}RT=1{,}200(0{,}082057)(300)=\\boxed{29{,}541\\ \\mathrm{atm}}$$",
+   "resultado": "[N₂O₄]eq = 0,800 M; [NO₂]eq = 0,400 M; Kp = 4,923 (con presiones en atm); Ptotal = 29,541 atm.",
+   "criterios": "Puntuación total: 2 puntos. **a) 1 punto:** 0,25 por establecer correctamente las concentraciones de equilibrio según la estequiometría; 0,35 por plantear y resolver la expresión de $K_c$, descartando la raíz no física; 0,40 por las dos concentraciones correctas con unidades. **b) 1 punto:** 0,50 por usar correctamente $K_p=K_c(RT)^{\\Delta n}$ e identificar $\\Delta n=1$; 0,50 por calcular la presión total mediante la ley de los gases ideales y expresarla en atm. Se aceptan redondeos razonables.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "organica",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Responda a UNA de las alternativas siguientes (4A o 4B). Cada apartado vale 0,5 puntos. En un laboratorio se comprueban etiquetas y reacciones de sustancias orgánicas. 4A. a) Nombre $CH_3CH_2COOCH_3$. b) Escriba la fórmula semidesarrollada del pent-2-ino. c) Escriba el producto orgánico mayoritario y nombre el tipo de reacción de $CH_3CH=CH_2$ con HBr, en ausencia de peróxidos. d) Indique la hibridación de cada átomo de carbono en $CH_3C\\equiv CCH_2OH$. 4B. a) Escriba la fórmula semidesarrollada del butan-2-ona. b) Nombre $CH_3CH_2CH_2COOH$. c) Complete la reacción de esterificación entre ácido etanoico y propan-1-ol, indicando el nombre del éster formado. d) Escriba ajustada la reacción de combustión completa del etanol.",
+   "solucion": "### Alternativa 4A\n\n**a) Nombre de $CH_3CH_2COOCH_3$**\n\nEs un éster. La parte $CH_3CH_2COO-$ procede del ácido propanoico y el grupo unido al oxígeno es metilo. Su nombre es **propanoato de metilo**.\n\n**b) Fórmula semidesarrollada del pent-2-ino**\n\nLa cadena principal tiene cinco carbonos y el triple enlace comienza en el carbono 2:\n\n$$CH_3-C\\equiv C-CH_2-CH_3$$\n\n**c) Reacción de $CH_3CH=CH_2$ con HBr, en ausencia de peróxidos**\n\nLa reacción es una **adición electrófila**. Para determinar el producto mayoritario, se considera la protonación del doble enlace: se favorece la vía que forma el carbocatión secundario, más estable que el primario. A continuación, el ion bromuro se une a ese carbono. Por tanto:\n\n$$CH_3CH=CH_2 + HBr \\longrightarrow CH_3CHBrCH_3$$\n\nEl producto mayoritario es **2-bromopropano** (adición de Markovnikov).\n\n**d) Hibridación de cada carbono en $CH_3C\\equiv CCH_2OH$**\n\nDe izquierda a derecha:\n\n- Carbono del grupo $CH_3$: **$sp^3$**, porque forma cuatro enlaces sencillos.\n- Primer carbono del triple enlace: **$sp$**, porque tiene dos regiones de enlace (un enlace sencillo y el triple enlace).\n- Segundo carbono del triple enlace: **$sp$**, por el mismo criterio.\n- Carbono del grupo $CH_2OH$: **$sp^3$**, porque forma cuatro enlaces sencillos.\n\n**Comprobación final:** la cadena del pent-2-ino tiene cinco carbonos y el triple enlace entre C2 y C3; en la adición de HBr se conserva el esqueleto de tres carbonos y Br queda en C2; las hibridaciones corresponden a los dos carbonos del triple enlace ($sp$) y a los dos carbonos saturados ($sp^3$).",
+   "resultado": "4A: a) propanoato de metilo; b) CH₃–C≡C–CH₂–CH₃; c) 2-bromopropano, por adición electrófila de Markovnikov; d) de izquierda a derecha: sp³, sp, sp, sp³.",
+   "criterios": "Puntuación total: 2 puntos. Apartado a): 0,5 puntos por el nombre correcto, propanoato de metilo. Apartado b): 0,5 puntos por la fórmula semidesarrollada correcta, con cinco carbonos y el triple enlace entre C2 y C3. Apartado c): 0,5 puntos por el producto mayoritario correcto (2-bromopropano) y la identificación de la adición; se admite la denominación de Markovnikov. Apartado d): 0,5 puntos por asignar correctamente las cuatro hibridaciones, en el orden indicado.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "redox",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Un sensor portátil de calidad del agua utiliza una pila galvánica con electrodos de cinc y cobre, conectados mediante un puente salino. En condiciones estándar, $E^\\circ(Cu^{2+}/Cu)=+0,34$ V y $E^\\circ(Zn^{2+}/Zn)=−0,76$ V. Responda a TODOS los apartados; cada uno vale 0,5 puntos. a) Identifique el ánodo y el cátodo e indique el sentido del flujo de electrones por el circuito externo. b) Escriba la reacción iónica global ajustada de la pila. c) Calcule la fuerza electromotriz estándar y determine si la reacción global es espontánea tal como está escrita. d) Calcule la carga eléctrica transferida cuando se oxidan 0,0100 mol de cinc.",
+   "solucion": "**a)** El cinc se oxida, por lo que es el ánodo; el cobre es el cátodo, donde se reduce el ion $\\mathrm{Cu^{2+}}$. Los electrones circulan por el circuito externo desde el electrodo de cinc hacia el de cobre.\n\n**b)** Semirreacciones: $\\mathrm{Zn(s) \\rightarrow Zn^{2+}(aq) + 2e^-}$ y $\\mathrm{Cu^{2+}(aq) + 2e^- \\rightarrow Cu(s)}$. Al sumarlas, la reacción iónica global ajustada es:\n\n$\\mathrm{Zn(s) + Cu^{2+}(aq) \\rightarrow Zn^{2+}(aq) + Cu(s)}$.\n\n**c)** El cinc es el ánodo y el cobre el cátodo, así que:\n\n$E^\\circ_{\\text{pila}} = E^\\circ_{\\text{cátodo}} - E^\\circ_{\\text{ánodo}} = 0{,}34 - (-0{,}76) = 1{,}10\\ \\mathrm{V}$.\n\nComo $E^\\circ_{\\text{pila}}$ es positivo, la reacción global escrita es espontánea en condiciones estándar.\n\n**d)** Por cada mol de Zn oxidado se transfieren $2$ mol de electrones. Por tanto, $n(e^-) = 2(0{,}0100) = 0{,}0200\\ \\mathrm{mol}$. La carga transferida, en magnitud, es:\n\n$Q = n(e^-)F = (0{,}0200)(96485) = 1929{,}7\\ \\mathrm{C} \\approx 1{,}93\\times10^3\\ \\mathrm{C}$.",
+   "resultado": "Ánodo: Zn; cátodo: Cu; electrones de Zn a Cu; Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s); E° = 1,10 V, espontánea; Q = 1,93 × 10³ C.",
+   "criterios": "Total: 2,0 puntos. a) 0,5 puntos: identifica Zn como ánodo (0,2), Cu como cátodo (0,15) e indica que los electrones fluyen externamente de Zn a Cu (0,15). b) 0,5 puntos: escribe la reacción global iónica correcta y ajustada, incluidos estados físicos (0,5). c) 0,5 puntos: calcula E°pila = 1,10 V mediante E°cátodo − E°ánodo (0,3) y concluye que la reacción escrita es espontánea porque E°pila > 0 (0,2). d) 0,5 puntos: relaciona la oxidación de Zn con 2 mol de electrones por mol de Zn y obtiene 0,0200 mol de electrones (0,2); calcula la carga transferida, aproximadamente 1,93 × 10³ C (0,3).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 3,
+ "temas_base": [
+  {
+   "id": "equilibrio",
+   "p": 0.9
+  },
+  {
+   "id": "acidobase",
+   "p": 0.9
+  },
+  {
+   "id": "organica",
+   "p": 0.9
+  },
+  {
+   "id": "estructura",
+   "p": 0.756
+  },
+  {
+   "id": "redox",
+   "p": 0.756
+  },
+  {
+   "id": "termo",
+   "p": 0.676
+  }
+ ],
+ "referencias": [
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_quimica.zip#Quimica/Ordinaria_Titular/Examen Titular Quínica.pdf",
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_quimica.zip#Quimica/Extraordinaria_Incidencias/Examen Suplente 2 Química_Ex.pdf"
+ ]
+}
