@@ -1,0 +1,130 @@
+{
+ "ccaa": "canarias",
+ "materia": "latin",
+ "titulo": "PAU 2027 Canarias — Latín II (modelo original)",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de tres bloques y suma 10 puntos. En el bloque 1, elige la opción A o la B y responde a sus tres apartados: traducción (5 puntos), morfología (0,5 puntos) y análisis sintáctico (0,5 puntos). En el bloque 2 responde a las tres preguntas, sin optatividad (2 puntos). En el bloque 3 elige uno de los dos textos literarios y responde a sus preguntas; elige también una de las dos láminas esquemáticas y responde a la pregunta correspondiente (2 puntos). Las situaciones y materiales propuestos requieren aplicar los conocimientos lingüísticos y culturales a contextos concretos.",
+ "preguntas": [
+  {
+   "n": "1.1",
+   "tema": "traduccion",
+   "puntos": 5,
+   "tipo": "abierta",
+   "enunciado": "Traduce al español el texto de la opción que hayas elegido.\n\nOPCIÓN A. Durante una visita de interpretación de una infraestructura hidráulica, se explica cómo se resolvió una avería en una ciudad romana.\n\nPostquam pars aquaeductus corruit atque aquae cursum impedivit, magistratus fabros arcessit. Iis imperat ut locum diligenter inspiciant et damnum statim reficiant. Fabri lapides fractos removent, novum canalem ponunt atque aquam in urbem ducunt, ne cives ea careant.\n\nNotas: aquaeductus, -us: acueducto; faber, fabri: trabajador especializado; arcesso: llamar; careo + ablativo: carecer de.\n\nOPCIÓN B. Una comunidad agrícola afronta una larga sequía y organiza una conducción de agua para salvar los cultivos.\n\nCum longa siccitas agros vexaret, Lucius agricolas convocavit. Iis imperavit ut aquam ex flumine ad agros ducerent. Agricolae fossam novam aperuerunt et saxa e via sustulerunt. Post paucos dies aqua ad arva pervenit; frumentum crevit et incolae deos pro beneficio laudaverunt.\n\nNotas: siccitas, -atis: sequía; impero: ordenar; fossa, -ae: zanja; tollo: retirar.",
+   "solucion": "### Opción elegida: A\n\n**Método:** en vez de traducir palabra por palabra, primero se identifican los verbos y las relaciones entre las oraciones; después se expresa cada unidad sintáctica en un español natural.\n\n1. **Marco temporal:** *Postquam* introduce «después de que». El sujeto de *corruit* e *impedivit* es *pars* («una parte»); *aquaeductus* depende de *pars*, y *aquae cursum* significa «el curso del agua».\n2. **Acción del magistrado:** *magistratus* es el sujeto singular de *arcessit* e *imperat*. *Fabros* es el complemento directo de «llama» y *iis* («a ellos») el complemento indirecto de «ordena». La construcción *ut* + subjuntivo expresa la orden indirecta.\n3. **Reparación y finalidad:** *fabri* es el sujeto de los verbos en presente histórico *removent*, *ponunt* y *ducunt*, que se traducen naturalmente en pasado. *Ne* introduce una finalidad negativa; *ea* se refiere al agua y va en ablativo con *careant*, como exige *careo*.\n\n**Traducción:** Después de que una parte del acueducto se derrumbó e impidió el curso del agua, el magistrado llamó a los trabajadores especializados. Les ordenó que inspeccionaran cuidadosamente el lugar y repararan de inmediato el daño. Los trabajadores retiraron las piedras rotas, instalaron un canal nuevo y condujeron el agua a la ciudad para que los ciudadanos no carecieran de ella.\n\n**Comprobación:** la traducción conserva la secuencia temporal, la orden dirigida a los trabajadores y las dos acciones que se les encomiendan. En la última oración, «ella» retoma correctamente «el agua», y *ne* mantiene el sentido negativo de la finalidad.",
+   "resultado": "Después de que una parte del acueducto se derrumbó e impidió el curso del agua, el magistrado llamó a los trabajadores especializados. Les ordenó que inspeccionaran cuidadosamente el lugar y repararan de inmediato el daño. Los trabajadores retiraron las piedras rotas, instalaron un canal nuevo y condujeron el agua a la ciudad para que los ciudadanos no carecieran de ella.",
+   "criterios": "Propuesta de corrección sobre 5 puntos: 1,25 por la oración temporal y la llamada del magistrado; 1,50 por la orden indirecta y sus dos acciones; 1,50 por la traducción de las acciones de los trabajadores; 0,75 por la finalidad negativa, el referente de *ea* y la corrección y coherencia del español. Se admiten formulaciones equivalentes que respeten la sintaxis y el sentido.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "1.2",
+   "tema": "morfosintaxis",
+   "puntos": 0.5,
+   "tipo": "abierta",
+   "enunciado": "Responde únicamente a los dos apartados de la opción elegida. Cada apartado vale 0,25 puntos.\n\nOPCIÓN A:\na) De inspiciant, indica clase de palabra, persona, número, tiempo y modo.\nb) De lapides, indica clase de palabra, caso que tiene en el texto y número.\n\nOPCIÓN B:\na) De ducerent, indica clase de palabra, persona, número, tiempo y modo.\nb) De agricolae, indica clase de palabra, caso que tiene en el texto y número.",
+   "solucion": "No se indica qué opción se ha elegido ni se incluye el texto latino. Por ello, se dan los análisis posibles de ambas opciones; el caso concreto de los sustantivos no puede fijarse sin el contexto.\n\n**Opción A**\n- **a) _inspiciant_**: forma verbal de _inspicio, inspicere_; tercera persona del plural, presente de subjuntivo, voz activa.\n- **b) _lapides_**: sustantivo masculino de la tercera declinación, plural. Puede ser nominativo, acusativo o vocativo; el caso que tiene en el texto requiere el contexto.\n\n**Opción B**\n- **a) _ducerent_**: forma verbal de _duco, ducere_; tercera persona del plural, pretérito imperfecto de subjuntivo, voz activa.\n- **b) _agricolae_**: sustantivo masculino de la primera declinación, con forma plural o singular según el caso. Puede ser genitivo singular, dativo singular, nominativo plural o vocativo plural; el caso que tiene en el texto requiere el contexto.",
+   "resultado": "A: inspiciant = 3.ª persona plural, presente de subjuntivo; lapides = plural, caso no determinable sin texto. B: ducerent = 3.ª persona plural, pretérito imperfecto de subjuntivo; agricolae = caso no determinable sin texto.",
+   "criterios": "La pregunta asigna 0,25 puntos a cada apartado y 0,5 puntos en total. En los apartados verbales, se valora identificar la clase de palabra y precisar persona, número, tiempo y modo. En los nominales, se valora identificar la clase de palabra, el caso contextual y el número. Como no se proporciona el texto, no se puede determinar ni corregir de forma unívoca el caso de lapides o agricolae.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "1.3",
+   "tema": "morfosintaxis",
+   "puntos": 0.5,
+   "tipo": "abierta",
+   "enunciado": "Analiza la oración correspondiente a la opción elegida. Delimita las proposiciones, clasifica la subordinada e indica el nexo y la función sintáctica de las palabras señaladas.\n\nOPCIÓN A: Iis imperat ut locum diligenter inspiciant et damnum statim reficiant. Analiza Iis, locum y damnum.\n\nOPCIÓN B: Iis imperavit ut aquam ex flumine ad agros ducerent. Analiza Iis y aquam.",
+   "solucion": "Como no se indica qué opción se ha elegido, se resuelven ambas; en el examen bastaría con responder una.\n\n### Método\nLocalizamos primero los verbos conjugados para delimitar las proposiciones y, después, usamos las desinencias y el régimen de *impero* para determinar las funciones sintácticas.\n\n### Opción A\n**Delimitación:** [*Iis imperat*] [*ut locum diligenter inspiciant*] et [*(ut) damnum statim reficiant*]. La segunda proposición subordinada comparte el nexo *ut*, que no se repite. *Et* coordina las dos proposiciones (o, equivalentemente, sus predicados).\n\n- *Iis*: pronombre demostrativo, dativo plural; complemento indirecto de *imperat* («les ordena»).\n- *Ut*: conjunción subordinante completiva; introduce el contenido de la orden.\n- *Ut locum diligenter inspiciant et (ut) damnum statim reficiant*: subordinada sustantiva completiva de mandato, en función de complemento directo —o complemento del contenido ordenado— de *imperat*. Los verbos están en subjuntivo. Su sujeto, omitido, es plural y se sobreentiende por el contexto.\n- *Locum*: acusativo singular masculino; complemento directo de *inspiciant*.\n- *Damnum*: acusativo singular neutro; complemento directo de *reficiant*.\n\n### Opción B\n**Delimitación:** [*Iis imperavit*] [*ut aquam ex flumine ad agros ducerent*].\n\n- *Iis*: pronombre demostrativo, dativo plural; complemento indirecto de *imperavit* («les ordenó»).\n- *Ut*: conjunción subordinante completiva; introduce el contenido de la orden.\n- *Ut aquam ex flumine ad agros ducerent*: subordinada sustantiva completiva de mandato, en función de complemento directo —o complemento del contenido ordenado— de *imperavit*. El verbo está en subjuntivo y su sujeto plural está omitido.\n- *Aquam*: acusativo singular femenino; complemento directo de *ducerent*.\n\n**Comprobación:** *impero* lleva en dativo a la persona a quien se da la orden (*iis*); los acusativos *locum*, *damnum* y *aquam* son los objetos directos de los verbos subordinados correspondientes.",
+   "resultado": "A: iis = CI; locum = CD de inspiciant; damnum = CD de reficiant. B: iis = CI; aquam = CD de ducerent. En ambas, ut introduce una subordinada completiva de mandato.",
+   "criterios": "Propuesta de reparto para los 0,5 puntos, al no darse un desglose oficial: 0,25 por delimitar las proposiciones, clasificar la subordinada e identificar el nexo (incluida la coordinación con et en A); 0,25 por las funciones de las palabras señaladas. En A, estos últimos 0,25 se distribuyen entre iis, locum y damnum; en B, entre iis y aquam. Se acepta como equivalente a CD la formulación complemento del contenido ordenado o complemento exigido por impero, siempre que la relación sintáctica quede correctamente explicada.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.1",
+   "tema": "lexico",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Completa las frases con la expresión latina adecuada. Hay una expresión que no se utiliza: bis, per capita, in vitro, status quo, bona fide.\n\n1. El informe compara el consumo de agua __________ en los distintos barrios, es decir, el consumo medio por habitante.\n2. El laboratorio explicó que la fecundación se había realizado __________, fuera del organismo.\n3. El acuerdo no introduce cambios y mantiene el __________ jurídico actual.\n4. Al finalizar la pieza, el público pidió que la violinista la interpretara de nuevo y el programa añadió __________.",
+   "solucion": "1. **per capita**: significa «por habitante».\n2. **in vitro**: indica que algo se realiza fuera del organismo.\n3. **status quo**: alude al estado o situación actual.\n4. **bis**: se utiliza para pedir o indicar la repetición de una interpretación.\n\nLa expresión que no se utiliza es **bona fide**, que significa «de buena fe».",
+   "resultado": "per capita; in vitro; status quo; bis. Expresión no utilizada: bona fide.",
+   "criterios": "1 punto en total: 0,25 puntos por cada expresión correctamente colocada. No se otorga puntuación por expresiones incorrectas o por dejar una frase sin completar.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.2",
+   "tema": "lexico",
+   "puntos": 0.5,
+   "tipo": "abierta",
+   "enunciado": "En un texto sobre la gestión del agua aparece la palabra acuífero. Explica su significado a partir de sus componentes de origen latino: aqua («agua») y -fer, relacionado con ferre («llevar»).",
+   "solucion": "1. **Descomposición:** *aqua* significa «agua» y *-fer* procede de *ferre*, «llevar». 2. **Composición del significado:** *acuífero* significa literalmente «que lleva agua» o «portador de agua». 3. **Aplicación al contexto:** en geología, un acuífero es una formación permeable del subsuelo capaz de almacenar y transmitir agua subterránea. 4. **Comprobación:** la definición geológica concuerda con la idea etimológica de una formación que «lleva» agua. No hay un método alternativo de resolución que aporte una interpretación distinta: basta el análisis de los componentes.",
+   "resultado": "Acuífero significa literalmente «que lleva agua» y designa una formación permeable del subsuelo que almacena y transmite agua subterránea.",
+   "criterios": "0,25 puntos por identificar correctamente el significado de *aqua* y de *-fer*; 0,25 puntos por deducir el sentido de «que lleva agua» y aplicarlo correctamente al significado de *acuífero*. Se acepta una formulación equivalente.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.3",
+   "tema": "lexico",
+   "puntos": 0.5,
+   "tipo": "abierta",
+   "enunciado": "Explica la evolución fonética al español de la palabra latina noctem. Señala la pérdida de la consonante final y el resultado del grupo -ct-.",
+   "solucion": "La evolución es **$noctem > nocte > noche$**.\n\n1. Se pierde la consonante final **$-m$**, propia del acusativo latino: **$noctem > nocte$**.\n2. El grupo consonántico **$-ct-$** evoluciona al sonido representado por **$ch$** en español: **$nocte > noche$**.\n\nPor tanto, **$noctem$** da en español **noche**.",
+   "resultado": "noctem > nocte > noche",
+   "criterios": "0,25 puntos por señalar la pérdida de la -m final; 0,25 puntos por explicar la evolución de -ct- a ch e indicar el resultado noche.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.1",
+   "tema": "literatura",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "Elige uno de los textos y responde a sus tres apartados.\n\nA. «Qué vuelve fértiles los campos, bajo qué astro conviene arar la tierra y enlazar las vides a los olmos: de esto, Mecenas, empezaré a cantar».\n\nB. «Vivamos, Lesbia, y querámonos; que los rumores de los viejos severos nos importen menos que una moneda. Los soles pueden ponerse y volver; pero, cuando para nosotros se extinga la breve luz, nos aguarda una noche sin término. Dame mil besos, después cien…».\n\n1) Indica el autor y el género literario del texto elegido (0,25 puntos).\n2) Expón cuatro características propias de ese género literario (1 punto).\n3) Señala un rasgo del género o del autor que se aprecie en el fragmento y justifícalo con una referencia concreta al texto (0,25 puntos).",
+   "solucion": "### 1) Autor y género (0,25 puntos)\nEl fragmento A pertenece a las *Geórgicas*, de **Virgilio**. Su género es la **poesía didáctica**, concretamente poesía didáctica de tema agrícola.\n\n### 2) Cuatro características del género (1 punto)\n1. Tiene una intención **didáctica**: busca transmitir conocimientos y consejos sobre una materia.\n2. Trata un **tema especializado**; en este caso, las labores del campo y la agricultura.\n3. Está compuesto en **hexámetros dactílicos**, el metro propio de la poesía épica y didáctica latina.\n4. Presenta la materia con elaboración literaria y estilo elevado, y puede incluir apelaciones al destinatario, invocaciones y digresiones poéticas.\n\n### 3) Rasgo apreciable en el fragmento (0,25 puntos)\nEl texto anuncia desde el comienzo su **programa didáctico**: plantea qué hace fértiles los campos y cuándo conviene arar y unir las vides a los olmos. Además, la apelación a **«Mecenas»** identifica al destinatario y es un ejemplo concreto de la intervención del poeta en la exposición.",
+   "resultado": "Virgilio; poesía didáctica agrícola: las Geórgicas.",
+   "criterios": "Total: 1,5 puntos. Apartado 1: 0,25 puntos por identificar correctamente autor y género. Apartado 2: 1 punto, distribuido en 0,25 por cada una de cuatro características pertinentes y correctamente explicadas. Apartado 3: 0,25 puntos por señalar un rasgo del género o del autor y justificarlo con una referencia concreta al fragmento. Se aceptan formulaciones equivalentes. Los números indican, en orden, la puntuación máxima de los apartados 1, 2 y 3, y la puntuación total.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.2",
+   "tema": "literatura",
+   "puntos": 0.5,
+   "tipo": "abierta",
+   "enunciado": "Elige una de las dos láminas esquemáticas. Lámina A: conducción de agua sobre una sucesión de arcos, con un canal en la parte superior que lleva el agua hacia la ciudad. Lámina B: edificio de planta oval, con una arena central rodeada por gradas. Identifica la obra romana representada y señala su función principal.",
+   "solucion": "Elijo la **lámina A**. La pista funcional es el canal elevado que conduce agua hacia la ciudad; la sucesión de arcos sirve para sostenerlo y mantener su recorrido a través de un terreno irregular. Por tanto, la obra representada es un **acueducto romano**, cuya función principal era transportar y abastecer de agua a las ciudades. **Comprobación:** la presencia del canal superior y de los arcos de soporte concuerda con la estructura y la función propias de un acueducto.",
+   "resultado": "Lámina A: acueducto romano; su función principal era llevar agua a la ciudad.",
+   "criterios": "0,25 puntos por identificar correctamente el acueducto romano y 0,25 puntos por señalar que su función principal era conducir agua hasta la ciudad.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "traduccion",
+   "p": 0.9
+  },
+  {
+   "id": "morfosintaxis",
+   "p": 0.9
+  },
+  {
+   "id": "lexico",
+   "p": 0.9
+  },
+  {
+   "id": "literatura",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/bachillerato/_galerias/descargas/pau-2026/examenes-PAU-junio-2026/examen-latin-ii-pau-junio-26.pdf",
+  "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/bachillerato/_galerias/descargas/pau-2026/examenes-pau-julio-2026/examen-latin-pau-julio-26.pdf"
+ ]
+}
