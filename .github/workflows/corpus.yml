@@ -1,5 +1,6 @@
 name: Corpus y predicciones PAU
-# 1) rastreo: 17 tareas en paralelo, una por comunidad; cada una guarda su parte al terminar (máx. 45 min).
+# 1) rastreo: una tarea por comunidad en paralelo (máx. 45 min); cada una sube lo reunido cada 5 min y los PDF a la Release.
+#    Cada 3 horas, una ronda corta rastrea solo las comunidades con PDF pendientes; si no queda ninguna, no hace nada.
 # 2) analisis: junta lo reunido y recalcula las predicciones.
 # 3) examenes: genera con OPENAI_API_KEY los exámenes probables que falten (cada uno se sube al generarse).
 on:
@@ -7,25 +8,49 @@ on:
     inputs:
       ccaa: {description: 'Solo esta comunidad (vacío = todas)', required: false, default: ''}
       max_examenes: {description: 'Máximo de exámenes probables nuevos', required: false, default: '20'}
+      solo_pendientes: {description: 'Solo las comunidades con PDF pendientes', type: boolean, default: false}
   push:
     branches: [main]
-    paths: ['pipeline/fuentes.json', 'pipeline/temario.json', 'pipeline/crawl.py', 'pipeline/analiza.py', 'pipeline/une.py', '.github/workflows/corpus.yml', 'manual/**']
+    paths: ['pipeline/fuentes.json', 'manual/**']   # cambiar el código no relanza el rastreo (las ejecuciones nuevas cancelaban a las que esperaban)
   schedule:
     - cron: '17 4 1 * *'        # el día 1 de cada mes
     - cron: '17 4 * 6,7 1'      # y cada lunes de junio y julio, cuando se publican los exámenes nuevos
+    - cron: '23 */3 * * *'      # ronda corta: solo comunidades con PDF pendientes (si no hay, termina en segundos)
 permissions:
   contents: write
 jobs:
   preparar:
     runs-on: ubuntu-latest
+    outputs:
+      ccaa: ${{ steps.lista.outputs.ccaa }}
     steps:
       - uses: actions/checkout@v4
+      - name: Qué comunidades tocan
+        id: lista
+        env:
+          SOLO: ${{ github.event.inputs.ccaa }}
+          PEND: ${{ github.event.schedule == '23 */3 * * *' || github.event.inputs.solo_pendientes == 'true' }}
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os, pathlib
+          todas = list(json.loads(pathlib.Path('pipeline/fuentes.json').read_text())['ccaa'])
+          def pend(c):
+              p = pathlib.Path(f'data/corpus/{c}.json')
+              return json.loads(p.read_text()).get('pendientes', 0) if p.exists() else 0
+          if os.environ['SOLO']: l = [os.environ['SOLO']]
+          elif os.environ['PEND'] == 'true': l = [c for c in todas if pend(c) > 0]
+          else: l = todas
+          print('ccaa=' + json.dumps(l))
+          PY
+          cat "$GITHUB_OUTPUT"
       - name: Release para los PDF originales
+        if: steps.lista.outputs.ccaa != '[]'
         env: {GH_TOKEN: '${{ github.token }}'}
         run: gh release view corpus >/dev/null 2>&1 || gh release create corpus --title "Exámenes oficiales PAU 2022-2026 (PDF)" --notes "PDF originales descargados de las webs oficiales de cada comunidad (un zip por comunidad y fecha; cada zip trae los PDF nuevos de esa ejecución). Las URL de origen están en data/corpus.json."
 
   rastreo:
     needs: preparar
+    if: needs.preparar.outputs.ccaa != '[]'
     concurrency: {group: 'rastreo-${{ matrix.ccaa }}', cancel-in-progress: false}
     runs-on: ubuntu-latest
     timeout-minutes: 45
@@ -33,27 +58,23 @@ jobs:
       fail-fast: false
       max-parallel: 17
       matrix:
-        ccaa: ["andalucia", "aragon", "asturias", "baleares", "canarias", "cantabria", "castillalamancha", "castillaleon", "cataluna", "valenciana", "extremadura", "galicia", "rioja", "madrid", "murcia", "navarra", "paisvasco"]
+        ccaa: ${{ fromJSON(needs.preparar.outputs.ccaa) }}
     steps:
-      - name: ¿Toca esta comunidad?
-        id: toca
-        run: echo "si=${{ !github.event.inputs.ccaa || github.event.inputs.ccaa == matrix.ccaa }}" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
-        if: steps.toca.outputs.si == 'true'
         with: {ref: main}
       - uses: actions/setup-python@v5
-        if: steps.toca.outputs.si == 'true'
         with: {python-version: '3.12'}
       - name: Herramientas (pdftotext y OCR)
-        if: steps.toca.outputs.si == 'true'
         run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-spa tesseract-ocr-cat tesseract-ocr-glg tesseract-ocr-eus >/dev/null && pip install -q requests
       - name: Rastrear y descargar (33 min como máximo)
-        if: steps.toca.outputs.si == 'true'
         timeout-minutes: 40
         continue-on-error: true
-        run: python3 pipeline/crawl.py --ccaa ${{ matrix.ccaa }} --tiempo 1980
+        env: {PAUSIBLE_GIT: '1', GH_TOKEN: '${{ github.token }}'}
+        run: |
+          git config user.name "pausible-bot"; git config user.email "actions@users.noreply.github.com"
+          python3 pipeline/crawl.py --ccaa ${{ matrix.ccaa }} --tiempo 1980
       - name: Guardar esta comunidad en el repositorio
-        if: always() && steps.toca.outputs.si == 'true'
+        if: always()
         run: |
           C=${{ matrix.ccaa }}
           git config user.name "pausible-bot"; git config user.email "actions@users.noreply.github.com"
@@ -64,7 +85,7 @@ jobs:
           for i in 1 2 3 4 5 6 7 8; do git push -q && exit 0; sleep $((RANDOM % 15 + 5)); git pull -q --rebase; done
           exit 1
       - name: PDF originales a la Release
-        if: always() && steps.toca.outputs.si == 'true'
+        if: always()
         env: {GH_TOKEN: '${{ github.token }}'}
         run: |
           C=${{ matrix.ccaa }}
@@ -73,8 +94,8 @@ jobs:
           gh release upload corpus pau-$C-*.zip --clobber
 
   analisis:
-    needs: rastreo
-    if: always()
+    needs: [preparar, rastreo]
+    if: always() && needs.preparar.outputs.ccaa != '[]'
     concurrency: {group: analisis, cancel-in-progress: false}
     runs-on: ubuntu-latest
     steps:
@@ -96,7 +117,7 @@ jobs:
   examenes:
     needs: analisis
     concurrency: {group: examenes, cancel-in-progress: false}
-    if: always() && needs.analisis.result == 'success'
+    if: always() && needs.analisis.result == 'success' && github.event.schedule != '23 */3 * * *'   # las rondas cortas no gastan en IA
     runs-on: ubuntu-latest
     timeout-minutes: 340
     steps:

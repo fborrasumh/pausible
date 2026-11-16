@@ -17,7 +17,7 @@ Salidas:
 Con --tiempo, el rastreo de páginas usa como mucho el 40 % del tiempo y las descargas el resto; al agotarse,
 se guarda lo conseguido (el manifiesto se escribe también cada 10 descargas, por si el proceso muere antes).
 """
-import argparse, hashlib, html, json, pathlib, re, subprocess, sys, time, unicodedata
+import argparse, hashlib, html, json, os, pathlib, re, subprocess, sys, time, unicodedata, zipfile
 from collections import defaultdict, deque
 from urllib.parse import urljoin, urlparse, unquote
 
@@ -250,11 +250,38 @@ def clasifica(url, info, anios):
     return mat, anio, conv, tipo
 
 
-def guarda_manifiesto(cid, docs, logl):
+_SUBIDA = {'t': 0.0}
+def sube(cid, forzar=False):
+    """Con PAUSIBLE_GIT=1 (Actions), sube al repositorio lo reunido de esta comunidad cada 5 min como mucho, y los PDF
+    originales nuevos a la Release «corpus»: si la tarea se corta, se pierden como mucho 5 minutos de trabajo."""
+    if os.environ.get('PAUSIBLE_GIT') != '1' or (not forzar and time.time() - _SUBIDA['t'] < 300): return
+    _SUBIDA['t'] = time.time()
+    g = lambda *a: subprocess.run(['git', *a], cwd=R, capture_output=True, text=True)
+    try:
+        g('add', f'data/corpus/{cid}.json', f'data/logs/{cid}.log')
+        if (R / 'corpus' / cid).exists(): g('add', f'corpus/{cid}')
+        if g('diff', '--cached', '--quiet').returncode:
+            g('commit', '-q', '-m', f'Corpus: {cid} {time.strftime("%Y-%m-%d %H:%M")}')
+            for i in range(6):
+                if g('push', '-q').returncode == 0: break
+                time.sleep(5 + 5 * i); g('pull', '-q', '--rebase', '--autostash')
+        pdfs = sorted((R / 'pdf' / cid).rglob('*.pdf')) if (R / 'pdf' / cid).exists() else []
+        if pdfs and os.environ.get('GH_TOKEN'):
+            z = R / f'pau-{cid}-{time.strftime("%Y-%m-%d-%H%M%S")}.zip'
+            with zipfile.ZipFile(z, 'w', zipfile.ZIP_DEFLATED) as f:
+                for q in pdfs: f.write(q, q.relative_to(R / 'pdf'))
+            if subprocess.run(['gh', 'release', 'upload', 'corpus', str(z), '--clobber'], cwd=R, capture_output=True).returncode == 0:
+                for q in pdfs: q.unlink(missing_ok=True)
+            z.unlink(missing_ok=True)
+    except Exception as e: print(f'  (no se pudo subir: {type(e).__name__}: {e})', flush=True)
+
+
+def guarda_manifiesto(cid, docs, logl, pendientes=None):
     lista = sorted(docs.values(), key=lambda d: (d['materia'] or '~', d['anio'], d['conv'], d['tipo']))
     for sub in ('corpus', 'logs'): (R / 'data' / sub).mkdir(parents=True, exist_ok=True)
-    (R / 'data' / 'corpus' / f'{cid}.json').write_text(json.dumps({'ccaa': cid, 'generado': time.strftime('%Y-%m-%d %H:%M'), 'n': len(lista), 'documentos': lista}, ensure_ascii=False, indent=1), encoding='utf-8')
+    (R / 'data' / 'corpus' / f'{cid}.json').write_text(json.dumps({'ccaa': cid, 'generado': time.strftime('%Y-%m-%d %H:%M'), 'n': len(lista), **({'pendientes': pendientes} if pendientes is not None else {}), 'documentos': lista}, ensure_ascii=False, indent=1), encoding='utf-8')
     (R / 'data' / 'logs' / f'{cid}.log').write_text('\n'.join(logl), encoding='utf-8')
+    sube(cid)
 
 
 def completa_con_texto(d, texto, anios):
@@ -379,6 +406,7 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
     pend.sort(key=lambda x: (x[2], x[0]['tipo'] != 'examen', x[0]['materia'] is None, -x[0]['anio']))
     log(f'  {len(pend)} PDF por descargar')
     hechos = 0
+    quedan = lambda: sum(1 for x in pend[hechos:] if not x[2])   # lo que falta (sin contar las URL de plantilla, que casi siempre dan 404)
     rd = Rastreador(s, cfg, log, silencio_404=True)
     for d, rel, de_plantilla in pend:
         if time.time() > fin:
@@ -387,7 +415,7 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
         if r is not None and r.content[:2] == b'PK':        # ZIP (Andalucía: un zip por materia y año con todos sus exámenes)
             hechos += 1; time.sleep(cfg.get('pausa', 0.2))
             for dz in desde_zip(d, rel, r.content, anios, log, fin): docs[dz['url']] = dz
-            guarda_manifiesto(cid, docs, logl)            # un ZIP puede traer 15 PDF: se guarda tras cada uno
+            guarda_manifiesto(cid, docs, logl, quedan())  # un ZIP puede traer 15 PDF: se guarda tras cada uno
             continue
         if r is not None and r.content[:4] != b'%PDF' and 'download' not in d['url']:
             r = rd.get(d['url'] + ('&' if '?' in d['url'] else '?') + 'download=true', silencio=de_plantilla)   # visor → descarga directa
@@ -403,10 +431,10 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
         except Exception as e: log(f'  sin texto ({type(e).__name__}): {d["url"]}'); d['chars'] = 0; t = ''
         if NO_PAU.search(norm(t[:800] if d['chars'] else '')): txt.unlink(missing_ok=True); continue
         d['bytes'] = len(r.content); docs[d['url']] = d
-        if hechos % 10 == 0: guarda_manifiesto(cid, docs, logl)
+        if hechos % 10 == 0: guarda_manifiesto(cid, docs, logl, quedan())
     try: ingesta_manual(cid, docs, anios, log)
     except Exception as e: log(f'  error en manual/{cid}: {type(e).__name__}: {e}')
-    guarda_manifiesto(cid, docs, logl)
+    guarda_manifiesto(cid, docs, logl, quedan()); sube(cid, forzar=True)
     log(f'✓ {cc["nombre"]}: {len(docs)} documentos en {round((time.time() - t0) / 60)} min')
 
 
