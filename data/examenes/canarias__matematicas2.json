@@ -1,0 +1,126 @@
+{
+ "ccaa": "canarias",
+ "materia": "matematicas2",
+ "titulo": "Propuesta original de examen PAU 2027 de Canarias — Matemáticas II",
+ "duracion_min": 90,
+ "instrucciones": "Debe responder un máximo de 5 preguntas: las 3 obligatorias (1, 2 y 3), una de las dos opciones del bloque 4 (4A o 4B) y una de las dos opciones del bloque 5 (5A o 5B). Si responde las dos opciones de un mismo bloque, solo se corregirá la primera. Cada pregunta vale 2 puntos. Detalle y explique los procedimientos empleados; se valorarán el planteamiento matemático, la interpretación de los resultados y su justificación. Se puede utilizar una calculadora científica no programable y sin conexión a internet.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "derivadas",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Una comunidad energética insular estudia la potencia suministrada por un sistema de almacenamiento tras un episodio de alta producción solar. Durante las $t$ horas posteriores al episodio, la potencia, en megavatios, se modeliza mediante $P(t)=\\dfrac{32t}{t^2+16}$, con $t\\geq 0$.\\n\\n a) Estudie los intervalos de crecimiento y decrecimiento de $P$ y determine cuándo alcanza su valor máximo. ¿Cuál es ese valor? (1,5 puntos)\\n\\n b) El inversor instalado admite una potencia máxima de $3\\,\\mathrm{MW}$. Según el modelo, ¿se supera ese límite? Justifique la respuesta. (0,5 puntos)",
+   "solucion": "### a) Crecimiento, decrecimiento y máximo\n\nPara $t\\geq 0$, derivamos usando la regla del cociente:\n\n$$\nP'(t)=\\frac{32(t^2+16)-32t(2t)}{(t^2+16)^2}\n=\\frac{32(16-t^2)}{(t^2+16)^2}.\n$$\n\nEl denominador es siempre positivo. El numerador es positivo si $0\\leq t<4$, nulo en $t=4$ y negativo si $t>4$. Por tanto, $P$ es creciente en $[0,4]$ y decreciente en $[4,+\\infty)$; alcanza su máximo en $t=4$ horas. Su valor es\n\n$$\nP(4)=\\frac{32\\cdot4}{4^2+16}=4\\ \\mathrm{MW}.\n$$\n\n### b) Límite del inversor\n\nComo el máximo del modelo es $4\\ \\mathrm{MW}$ y $4>3$, sí se supera el límite del inversor. En el máximo, la potencia excede el límite en $4-3=1\\ \\mathrm{MW}$.\n\nEn el orden indicado en `numeros` y en la salida del programa: instante del máximo (h), potencia máxima (MW) y exceso sobre el límite (MW).",
+   "resultado": "P crece en [0, 4] y decrece en [4, +∞); alcanza 4 MW en t = 4 h y supera el límite de 3 MW en 1 MW.",
+   "criterios": "Total: 2 puntos. a) 1,5 puntos: 0,5 por calcular correctamente la derivada; 0,5 por estudiar su signo y determinar los intervalos de crecimiento y decrecimiento; 0,5 por localizar el máximo en t = 4 h y calcular P(4) = 4 MW. b) 0,5 puntos: comparar el máximo con 3 MW, concluir que sí se supera y justificarlo (el exceso máximo es 1 MW).",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "2",
+   "tema": "matrices",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Para planificar la distribución de tres recursos en una instalación, se plantea el sistema $A(k)\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}6\\\\6\\\\7\\end{pmatrix}$, donde $x,y,z$ representan las cantidades de cada recurso y $k$ es un parámetro de calibración, con $k\\in\\mathbb{R}$. La matriz de coeficientes es $A(k)=\\begin{pmatrix}1&1&1\\\\1&k&1\\\\1&1&k\\end{pmatrix}$.\\n\\n a) Calcule $\\det A(k)$ y discuta, según los valores de $k$, si el sistema tiene solución única, infinitas soluciones o ninguna solución. (1,25 puntos)\\n\\n b) Resuelva el sistema para $k=2$. (0,75 puntos)",
+   "solucion": "### a) Determinante y discusión\n\nPara calcular el determinante, restamos la primera fila a la segunda y a la tercera, operaciones que no alteran el determinante:\n\n$$\n\\det A(k)=\\begin{vmatrix}1&1&1\\\\0&k-1&0\\\\0&0&k-1\\end{vmatrix}=(k-1)^2.\n$$\n\n- Si $k\\ne 1$, el determinante es distinto de cero y el sistema tiene solución única. Restando las ecuaciones:\n  $$\n  (k-1)y=0,\\qquad (k-1)z=1,\n  $$\n  de donde $y=0$, $z=\\dfrac{1}{k-1}$ y, usando $x+y+z=6$,\n  $$\n  x=6-\\frac{1}{k-1}.\n  $$\n- Si $k=1$, las tres ecuaciones tienen el mismo lado izquierdo $x+y+z$, pero exigen que valga simultáneamente $6$, $6$ y $7$. El sistema es incompatible y no tiene solución.\n\nPor tanto, no hay ningún valor de $k$ para el que existan infinitas soluciones.\n\n### b) Caso $k=2$\n\nSustituyendo en la solución para $k\\ne1$:\n$$\ny=0,\\qquad z=1,\\qquad x=5.\n$$\nComprobación en el sistema original: $5+0+1=6$, $5+2\\cdot0+1=6$ y $5+0+2\\cdot1=7$. Se satisfacen las tres ecuaciones.",
+   "resultado": "$\\det A(k)=(k-1)^2$; si $k\\ne1$, hay solución única $(x,y,z)=(6-\\frac1{k-1},0,\\frac1{k-1})$; si $k=1$, no hay solución. Para $k=2$: $(x,y,z)=(5,0,1)$.",
+   "criterios": "a) 1,25 puntos: 0,40 por calcular correctamente el determinante; 0,45 por establecer que para $k\\ne1$ hay solución única y obtenerla; 0,40 por analizar $k=1$, concluir que no hay solución y descartar soluciones infinitas. b) 0,75 puntos: 0,55 por resolver correctamente el sistema para $k=2$ y 0,20 por comprobar el resultado en las ecuaciones originales.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "geometria",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Un dron de cartografía sigue la trayectoria rectilínea $r:(x,y,z)=(0,0,0)+t(1,1,1)$, con $t\\in\\mathbb{R}$. La superficie de referencia de un sensor se representa mediante el plano $\\pi:2x-y+2z=6$.\\n\\n a) Determine las coordenadas del punto en el que la trayectoria corta al plano. (1 punto)\\n\\n b) Calcule el ángulo agudo que forman la trayectoria y el plano. (1 punto)",
+   "solucion": "### a) Punto de corte\nLa trayectoria se puede escribir como $(x,y,z)=(t,t,t)$. Al sustituir estas coordenadas en el plano:\n$$2t-t+2t=6 \\quad\\Longrightarrow\\quad 3t=6 \\quad\\Longrightarrow\\quad t=2.$$\nPor tanto, el punto de corte es $(2,2,2)$.\n\n### b) Ángulo entre la recta y el plano\nUn vector director de la trayectoria es $v=(1,1,1)$ y un vector normal al plano es $n=(2,-1,2)$. Si $\\alpha$ es el ángulo agudo entre la recta y el plano, se cumple\n$$\\sin\\alpha=\\frac{|v\\cdot n|}{\\|v\\|\\,\\|n\\|}.$$\nCalculamos $v\\cdot n=3$, $\\|v\\|=\\sqrt{3}$ y $\\|n\\|=3$. Así,\n$$\\sin\\alpha=\\frac{3}{3\\sqrt{3}}=\\frac{1}{\\sqrt{3}},\\qquad \\alpha=\\arcsin\\left(\\frac{1}{\\sqrt{3}}\\right)\\approx 35.2644^\\circ.$$\n",
+   "resultado": "$(2,2,2)$; ángulo agudo $\\alpha=\\arcsin(1/\\sqrt{3})\\approx 35.2644^\\circ$.",
+   "criterios": "a) 1 punto: 0,5 por sustituir la parametrización en la ecuación del plano y obtener t=2; 0,5 por dar correctamente el punto (2,2,2). b) 1 punto: 0,5 por identificar un vector director y un vector normal y aplicar correctamente la relación sin α=|v·n|/(||v|| ||n||); 0,5 por calcular y expresar el ángulo agudo, aproximadamente 35,2644°.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4A",
+   "tema": "integrales",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Durante una prueba de una batería, la potencia instantánea consumida por un equipo, en kilovatios, viene dada por $P(t)=3t^2+2t$, donde $t$ es el tiempo en horas y $0\\leq t\\leq 2$. Calcule la energía total consumida por el equipo durante esas dos horas, expresada en kilovatios-hora.",
+   "solucion": "La energía consumida es la integral de la potencia respecto del tiempo:\n\n$$E=\\int_0^2 P(t)\\,dt=\\int_0^2(3t^2+2t)\\,dt.$$\n\nUna primitiva es $t^3+t^2$. Por tanto,\n\n$$E=\\left[t^3+t^2\\right]_0^2=(8+4)-0=12.$$\n\nLa energía total consumida es $12\\,\\text{kWh}$.",
+   "resultado": "12 kWh",
+   "criterios": "Total: 2 puntos. Planteamiento de la energía como integral definida de la potencia entre 0 y 2 horas: 0,75 puntos. Cálculo correcto de una primitiva: 0,5 puntos. Evaluación correcta en los límites: 0,5 puntos. Expresión del resultado con la unidad kWh: 0,25 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4B",
+   "tema": "limites",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Un sensor proporciona una lectura $f(x)$ según la escala de calibración $x$. Para ajustar la transición entre dos modos de medida, se propone el modelo $f(x)=\\begin{cases}\\dfrac{x^2-1}{x-1},&x<1,\\\\ ax+b,&x\\geq 1,\\end{cases}$ con $a,b\\in\\mathbb{R}$.\\n\\n a) Determine los valores de $a$ y $b$ para que la lectura sea continua y derivable en todo $\\mathbb{R}$. (1,5 puntos)\\n\\n b) Escriba la función resultante. (0,5 puntos)",
+   "solucion": "### a) Continuidad y derivabilidad\nPara $x<1$, factorizamos y simplificamos:\n\n$(x²−1)/(x−1)=((x−1)(x+1))/(x−1)=x+1$.\n\nPor tanto, el límite por la izquierda en $x=1$ es $2$. Como $f(1)=a+b$, la continuidad exige $a+b=2$.\n\nPara imponer la derivabilidad, comparamos los cocientes incrementales laterales en $x=1$. Si $h<0$, entonces $f(1+h)=2+h$, y, usando $a+b=2$,\n\n$[f(1+h)−f(1)]/h=[(2+h)−(a+b)]/h=1$.\n\nSi $h>0$, entonces $f(1+h)=a(1+h)+b$, de modo que\n\n$[f(1+h)−f(1)]/h=[a(1+h)+b−(a+b)]/h=a$.\n\nLa igualdad de las derivadas laterales requiere $a=1$. De la condición de continuidad, $a+b=2$, obtenemos entonces $b=1$.\n\n### b) Función resultante\n\nCon estos valores, la rama para $x≥1$ es $x+1$, igual que la rama para $x<1$. Por tanto, $f(x)=x+1$ para todo $x∈ℝ$.\n\n### Comprobación\nEn $x=1$, el límite por la izquierda y el valor de la función son ambos $2$. Además, la expresión resultante tiene derivada $1$ a ambos lados de $1$ (y en todo $ℝ$), por lo que es continua y derivable.",
+   "resultado": "a=1, b=1; f(x)=x+1 para todo x∈ℝ.",
+   "criterios": "Total: 2 puntos. (a) 1,5 puntos: 0,75 por simplificar la rama izquierda y establecer la condición de continuidad a+b=2; 0,50 por calcular las derivadas laterales y exigir su igualdad; 0,25 por obtener a=1 y b=1. (b) 0,5 puntos por escribir correctamente f(x)=x+1 para todo x∈ℝ.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5A",
+   "tema": "probabilidad",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "El tiempo de carga de cierto modelo de batería, medido en minutos, se puede aproximar mediante una distribución normal de media $40$ y desviación típica $5$. Se registran $1600$ ciclos de carga independientes.\\n\\n a) Estime cuántos ciclos duran entre $35$ y $45$ minutos. (1,25 puntos)\\n\\n b) Calcule el porcentaje de ciclos que duran más de $50$ minutos. (0,75 puntos)",
+   "solucion": "Sea $X$ el tiempo de carga. Entonces $X\\sim N(40,5)$, donde la desviación típica es $5$ minutos.\n\n**a)** Estandarizamos los extremos:\n$$z_1=\\frac{35-40}{5}=-1,\\qquad z_2=\\frac{45-40}{5}=1.$$\nPor tanto,\n$$P(35<X<45)=P(-1<Z<1)=\\Phi(1)-\\Phi(-1)\\approx 0{,}6827.$$\nEl número esperado de ciclos en ese intervalo es\n$$1600\\cdot 0{,}6827\\approx 1092{,}3.$$\nAsí pues, se estima que duran entre $35$ y $45$ minutos unos **1092 ciclos**.\n\n**b)**\n$$P(X>50)=P\\!\\left(Z>\\frac{50-40}{5}\\right)=P(Z>2)=1-\\Phi(2)\\approx 0{,}02275.$$\nEn porcentaje, esto equivale a\n$$0{,}02275\\cdot100\\approx 2{,}275\\%.$$\n",
+   "resultado": "a) ≈1092 ciclos; b) ≈2,275 %.",
+   "criterios": "a) 1,25 puntos: 0,25 por estandarizar correctamente los límites; 0,50 por obtener la probabilidad del intervalo (aprox. 0,6827); 0,50 por multiplicar por 1600 y expresar la estimación (aprox. 1092 ciclos). b) 0,75 puntos: 0,25 por estandarizar 50 minutos y obtener z=2; 0,25 por calcular la probabilidad de cola (aprox. 0,02275); 0,25 por expresarla como porcentaje (aprox. 2,275 %).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5B",
+   "tema": "probabilidad",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En un ensayo de restauración de vegetación, cada planta joven tiene una probabilidad de supervivencia de $0,75$ durante el primer año, independientemente de las demás. Se seleccionan $8$ plantas del ensayo.\\n\\n a) Calcule la probabilidad de que sobrevivan exactamente $6$ plantas. (1,25 puntos)\\n\\n b) Calcule la probabilidad de que sobrevivan al menos $7$ plantas. (0,75 puntos)",
+   "solucion": "Sea $X$ el número de plantas que sobreviven. Por independencia y porque cada planta sobrevive con probabilidad $p=0{,}75=\\frac34$, se tiene $X\\sim\\operatorname{Bin}(8,\\frac34)$.\n\n**a) Exactamente 6 plantas**\n\\[\nP(X=6)=\\binom{8}{6}\\left(\\frac34\\right)^6\\left(\\frac14\\right)^2\n=\\frac{5103}{16384}\\approx 0{,}311706543.\n\\]\n\n**b) Al menos 7 plantas**\n\\[\n\\begin{aligned}\nP(X\\ge 7)&=P(X=7)+P(X=8)\\\\\n&=\\binom{8}{7}\\left(\\frac34\\right)^7\\left(\\frac14\\right)+\\binom{8}{8}\\left(\\frac34\\right)^8\\\\\n&=\\frac{24057}{65536}\\approx 0{,}367080688.\n\\end{aligned}\n\\]",
+   "resultado": "a) $P(X=6)=\\frac{5103}{16384}\\approx 0{,}311706543$. b) $P(X\\ge 7)=\\frac{24057}{65536}\\approx 0{,}367080688$.",
+   "criterios": "Total: 2 puntos. a) (1,25 puntos): identificación del modelo binomial $X\\sim B(8,0{,}75)$ y uso de la probabilidad de la binomial (0,25); expresión correcta para $P(X=6)$ (0,50); cálculo y resultado (0,50). b) (0,75 puntos): planteamiento de $P(X\\ge7)=P(X=7)+P(X=8)$ (0,25); expresiones binomiales correctas (0,25); cálculo y resultado (0,25). Se admitirán resultados equivalentes correctamente expresados.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "geometria",
+   "p": 0.9
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.9
+  },
+  {
+   "id": "matrices",
+   "p": 0.596
+  },
+  {
+   "id": "derivadas",
+   "p": 0.513
+  },
+  {
+   "id": "sistemas",
+   "p": 0.49
+  },
+  {
+   "id": "integrales",
+   "p": 0.185
+  }
+ ],
+ "referencias": [
+  "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/bachillerato/_galerias/descargas/pau-2026/examenes-PAU-junio-2026/examen-matematicas-ii-pau-junio-26.pdf",
+  "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/bachillerato/_galerias/descargas/pau-2026/examenes-pau-julio-2026/examen-matematicas-ii-pau-julio-26.pdf"
+ ]
+}
