@@ -13,6 +13,7 @@ on:
   schedule:
     - cron: '17 4 1 * *'        # el día 1 de cada mes
     - cron: '17 4 * 6,7 1'      # y cada lunes de junio y julio, cuando se publican los exámenes nuevos
+    - cron: '40 19 16 11 *'     # ejecución extra el 16 de noviembre a las 20:40 (Madrid) para completar Andalucía y Galicia; se puede borrar
 permissions:
   contents: write
 jobs:
