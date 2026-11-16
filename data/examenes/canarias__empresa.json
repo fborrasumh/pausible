@@ -1,0 +1,102 @@
+{
+ "ccaa": "canarias",
+ "materia": "empresa",
+ "titulo": "PAU 2027 Canarias — Empresa y Diseño de Modelos de Negocio (examen original de práctica)",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de 5 preguntas y suma 10 puntos. Las preguntas 1, 4 y 5 son obligatorias. En la pregunta 2 elija una opción (2A o 2B) y en la pregunta 3 elija una opción (3A o 3B); no se pueden combinar apartados de opciones distintas. Indique con claridad el código de cada pregunta. En los ejercicios de cálculo, muestre las fórmulas y las operaciones realizadas.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "organizacion",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "La cooperativa canaria Aula Nube ofrece cursos en línea. Para el próximo año, su gerencia fija el objetivo de captar 300 nuevas suscripciones y establece un calendario de acciones. Después asigna responsables y presupuesto a los equipos de contenidos, atención al cliente y publicidad. Cada mes compara las suscripciones conseguidas con el objetivo y, si detecta desviaciones, modifica la asignación de recursos. Identifique las tres funciones directivas descritas y justifique cada identificación con un dato del texto. (0,50 puntos por función).",
+   "solucion": "1. **Planificación:** la gerencia fija el objetivo de captar 300 nuevas suscripciones y establece un calendario de acciones. Esto corresponde a definir objetivos y las actuaciones para alcanzarlos.\n2. **Organización:** asigna responsables y presupuesto a los equipos de contenidos, atención al cliente y publicidad. Esto supone distribuir tareas y recursos.\n3. **Control:** cada mes compara las suscripciones conseguidas con el objetivo y, si detecta desviaciones, modifica la asignación de recursos. Esto implica medir resultados, compararlos con lo previsto y aplicar medidas correctoras.",
+   "resultado": "Planificación, organización y control.",
+   "criterios": "0,50 puntos por cada función correctamente identificada y justificada con un dato del texto: 0,50 por planificación; 0,50 por organización; 0,50 por control. Total: 1,50 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "marketing",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "Esta pregunta tiene dos opciones (2A y 2B). Elija una opción. No se pueden combinar apartados de ambas opciones.\n\n2A. MareaSolar comercializa una crema solar formulada para quienes buscan una protección que resista el agua durante largas sesiones de surf. La empresa ha agrupado a sus posibles compradores únicamente según el beneficio que buscan en el producto. a. Explique qué significa segmentar un mercado. (0,50 puntos). b. Identifique el segmento al que se dirige MareaSolar y el criterio de segmentación empleado. (1 punto).\n\n2B. La empresa Tostadora Atlántica vende café en supermercados y a través de su propia página web. Además, contrata anuncios en redes sociales para dar a conocer una nueva variedad. Identifique la variable del marketing mix a la que corresponden las vías de venta y la variable a la que corresponde la campaña de anuncios. Justifique cada respuesta con información del caso. (0,75 puntos por identificación justificada).",
+   "solucion": "### Opción elegida: 2A\n\n**a. Concepto de segmentación de mercados (0,50 puntos)**\n\nSegmentar un mercado consiste en dividir el conjunto de compradores potenciales en grupos relativamente homogéneos, cuyos integrantes comparten necesidades, características o comportamientos y pueden responder de forma similar a las acciones de marketing.\n\n**b. Segmento y criterio de segmentación (1 punto)**\n\n1. **Segmento al que se dirige:** consumidores que buscan una crema solar cuya protección resista el agua durante sesiones prolongadas de surf.\n2. **Criterio empleado:** el beneficio buscado en el producto. Es un criterio de segmentación **conductual o comportamental**, porque agrupa a los compradores según la respuesta o utilidad concreta que esperan obtener del producto.\n\n**Comprobación:** el caso indica que la agrupación se realiza únicamente según el beneficio buscado. Por tanto, el segmento se define por la resistencia al agua que desean los compradores, y no, por ejemplo, por su edad, lugar de residencia o nivel de renta. No hay un método alternativo de cálculo, ya que es una cuestión conceptual; se ha identificado el criterio a partir de la variable que utiliza la empresa.",
+   "resultado": "MareaSolar se dirige a quienes buscan protección solar resistente al agua para sesiones prolongadas de surf; emplea la segmentación conductual por beneficios buscados.",
+   "criterios": "Total: 1,50 puntos. Apartado a: 0,50 puntos por explicar que segmentar consiste en dividir el mercado en grupos relativamente homogéneos con necesidades, características o respuestas similares. Apartado b: 0,50 puntos por identificar el segmento de compradores que buscan protección solar resistente al agua durante sesiones prolongadas de surf y 0,50 puntos por señalar el criterio de beneficios buscados, clasificable como conductual o comportamental. Se acepta una formulación equivalente que exprese correctamente estas ideas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "modelonegocio",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Esta pregunta tiene dos opciones (3A y 3B). Elija una opción. No se pueden combinar apartados de ambas opciones.\n\n3A. Un emprendimiento vende kits para cultivar hierbas aromáticas en casa. Su clientela principal son personas que viven en pisos y quieren disponer de hierbas frescas. Los kits incluyen semillas, recipientes y una guía sencilla. Se venden en la página web del emprendimiento y en tiendas de jardinería; además, se ofrece una suscripción mensual para recibir semillas de temporada. Identifique los bloques del lienzo Canvas correspondientes a propuesta de valor, segmentos de clientes, canales y fuentes de ingresos. Justifique cada respuesta con un dato del caso. (0,50 puntos por bloque).\n\n3B. Una empresa presenta estos datos de balance: activo no corriente, 90.000 €; activo corriente, 60.000 €; patrimonio neto, 75.000 €; pasivo no corriente, 45.000 €; pasivo corriente, 30.000 €. Calcule e interprete el ratio de liquidez corriente, definido como activo corriente dividido entre pasivo corriente, y el ratio de endeudamiento total, definido como pasivo total dividido entre activo total. Exprese el ratio de endeudamiento también en porcentaje. (1 punto por ratio, incluido su cálculo e interpretación).",
+   "solucion": "### Opción elegida: 3B\n\n**1. Ratio de liquidez corriente**\n\nSe calcula dividiendo el activo corriente entre el pasivo corriente:\n\n$$\\text{Ratio de liquidez} = \\frac{60.000}{30.000} = 2$$\n\nLa empresa dispone de **2 € de activo corriente por cada euro de deuda a corto plazo**. El valor indica una capacidad adecuada para atender sus obligaciones corrientes.\n\n**2. Ratio de endeudamiento total**\n\nPrimero, calculamos el pasivo total y el activo total:\n\n$$\\text{Pasivo total} = 45.000 + 30.000 = 75.000\\text{ €}$$\n\n$$\\text{Activo total} = 90.000 + 60.000 = 150.000\\text{ €}$$\n\nPor tanto:\n\n$$\\text{Ratio de endeudamiento} = \\frac{75.000}{150.000} = 0,5 = 50\\%$$\n\nEl **50 % del activo está financiado con deuda**; el otro 50 % se financia con patrimonio neto.",
+   "resultado": "Liquidez corriente: 2; endeudamiento total: 0,5 = 50 %.",
+   "criterios": "Total: 2 puntos. Ratio de liquidez (1 punto): 0,5 por aplicar correctamente activo corriente/pasivo corriente y obtener 2; 0,5 por interpretarlo como 2 € de activo corriente por cada euro de deuda a corto plazo y valorar su capacidad de pago. Ratio de endeudamiento (1 punto): 0,5 por calcular correctamente pasivo total (75.000 €), activo total (150.000 €) y su cociente (0,5); 0,5 por expresarlo como 50 % e interpretarlo como la proporción del activo financiada con deuda.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "produccion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "La empresa ReVaso fabrica vasos reutilizables. En un año soporta costes fijos de 42.000 €, y el coste variable de fabricación es de 9 € por vaso. Cada vaso se vende a 16 €. Se supone que toda la producción se vende y que no existen otros costes. a. Calcule el umbral de rentabilidad en unidades y los ingresos por ventas correspondientes a ese umbral. (1,75 puntos). b. Si la empresa fabrica y vende 8.000 vasos en el año, calcule su beneficio anual. (0,75 puntos).",
+   "solucion": "### a) Umbral de rentabilidad e ingresos correspondientes\n\nEl margen de contribución unitario es el precio de venta menos el coste variable unitario:\n\n$$m = 16 - 9 = 7\\text{ € por vaso}.$$\n\nEl umbral de rentabilidad en unidades se obtiene dividiendo los costes fijos entre ese margen:\n\n$$Q_{0} = \\frac{42.000}{7} = 6.000\\text{ vasos}.$$\n\nLos ingresos por ventas en el umbral son:\n\n$$I_{0} = 6.000\\cdot 16 = 96.000\\text{ €}.$$\n\nEn ese nivel de producción, los ingresos igualan los costes totales: $96.000 = 42.000 + 9\\cdot 6.000$.\n\n### b) Beneficio anual para 8.000 vasos\n\n$$B = I - C_{T} = 16\\cdot 8.000 - (42.000 + 9\\cdot 8.000) = 128.000 - 114.000 = 14.000\\text{ €}.$$\n\nLa empresa obtiene un beneficio anual de $14.000\\text{ €}$.",
+   "resultado": "Umbral: 6.000 vasos; ingresos en el umbral: 96.000 €; beneficio con 8.000 vasos: 14.000 €.",
+   "criterios": "a) 1,75 puntos: 0,50 por determinar correctamente el margen unitario (16 − 9 = 7 €); 0,75 por calcular el umbral de rentabilidad (42.000/7 = 6.000 vasos); 0,50 por calcular los ingresos correspondientes (6.000 × 16 = 96.000 €). b) 0,75 puntos: 0,50 por plantear correctamente el beneficio como ingresos menos costes totales; 0,25 por obtener el resultado de 14.000 €. Se valoran el procedimiento y las unidades; los errores aritméticos coherentes se penalizan sin duplicar la penalización.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "financiacion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una empresa dispone de beneficios retenidos para financiar un proyecto y debe elegir entre las alternativas A y B. Cada proyecto requiere un desembolso inicial de 10.000 € y genera los siguientes flujos netos de caja:\n\nProyecto A: año 1, 5.500 €; año 2, 6.050 €.\nProyecto B: año 1, 6.000 €; año 2, 7.200 €.\n\nLa tasa de actualización para calcular el VAN es del 10 %. Para el payback, suponga que los flujos se generan uniformemente durante cada año. a. Indique si los beneficios retenidos constituyen financiación interna o externa y propia o ajena. (0,25 puntos). b. Calcule el payback de ambos proyectos y señale cuál recupera antes el desembolso. (0,75 puntos). c. Calcule el VAN de cada proyecto y recomiende uno según este criterio. (0,75 puntos). d. Calcule la TIR de cada proyecto y recomiende uno según este criterio. (0,75 puntos).",
+   "solucion": "### a. Clasificación de la financiación\nLos beneficios retenidos son **financiación interna**, porque proceden de recursos generados por la propia empresa, y **financiación propia**, porque pertenecen a la empresa y no generan una obligación de devolución frente a terceros.\n\n### b. Payback\nComo los flujos se generan uniformemente durante cada año, se calcula la fracción del segundo año necesaria para recuperar el importe pendiente tras el primer año.\n\n- **Proyecto A:** al final del año 1 quedan por recuperar $10.000-5.500=4.500$ €. Por tanto, $Payback_A=1+\\frac{4.500}{6.050}=1,7438$ años.\n- **Proyecto B:** al final del año 1 quedan por recuperar $10.000-6.000=4.000$ €. Por tanto, $Payback_B=1+\\frac{4.000}{7.200}=1,5556$ años.\n\nEl proyecto **B** recupera antes el desembolso inicial.\n\n### c. VAN\nSe aplica $VAN=-I_0+\\sum_{t=1}^{2}\\frac{F_t}{(1+0,10)^t}$.\n\n- **Proyecto A:** $VAN_A=-10.000+\\frac{5.500}{1,10}+\\frac{6.050}{(1,10)^2}=0$ €.\n- **Proyecto B:** $VAN_B=-10.000+\\frac{6.000}{1,10}+\\frac{7.200}{(1,10)^2}=1.404,96$ €.\n\nSegún el VAN, se recomienda **B**, cuyo VAN es mayor y positivo.\n\n### d. TIR\nLa TIR es el tipo $r$ que hace que el VAN sea cero.\n\n- **Proyecto A:** $-10.000+\\frac{5.500}{1+r}+\\frac{6.050}{(1+r)^2}=0$. Para $r=0,10$, los flujos actualizados suman $5.000+5.000=10.000$ €, por lo que $TIR_A=10\\%$.\n- **Proyecto B:** $-10.000+\\frac{6.000}{1+r}+\\frac{7.200}{(1+r)^2}=0$. Tomando $x=1+r$, resulta $10.000x^2-6.000x-7.200=0$, cuya raíz positiva es $x=1,2$. Así, $TIR_B=0,2=20\\%$.\n\nSegún la TIR, se recomienda **B**, ya que presenta una rentabilidad superior.",
+   "resultado": "Financiación interna y propia; payback: A = 1,7438 años y B = 1,5556 años (recupera antes B); VAN: A = 0 € y B = 1.404,96 € (se recomienda B); TIR: A = 10 % y B = 20 % (se recomienda B).",
+   "criterios": "Puntuación total: 2,5 puntos. a) 0,25: identifica correctamente que los beneficios retenidos constituyen financiación interna (0,125) y propia (0,125). b) 0,75: cálculo del payback de A (0,25), cálculo del payback de B (0,25) y comparación/conclusión correcta (0,25). c) 0,75: aplicación correcta de la fórmula del VAN (0,15), cálculo de VAN de A (0,20), cálculo de VAN de B (0,20) y recomendación justificada (0,20). d) 0,75: planteamiento correcto de la ecuación de la TIR (0,15), cálculo de la TIR de A (0,20), cálculo de la TIR de B (0,20) y recomendación justificada (0,20). Se admitirán diferencias menores de redondeo.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "financiacion",
+   "p": 0.9
+  },
+  {
+   "id": "produccion",
+   "p": 0.789
+  },
+  {
+   "id": "marketing",
+   "p": 0.789
+  },
+  {
+   "id": "contabilidad",
+   "p": 0.593
+  },
+  {
+   "id": "modelonegocio",
+   "p": 0.585
+  },
+  {
+   "id": "organizacion",
+   "p": 0.482
+  }
+ ],
+ "referencias": [
+  "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/bachillerato/_galerias/descargas/pau-2026/examenes-PAU-junio-2026/examen-empresa-pau-junio-26.pdf",
+  "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/bachillerato/_galerias/descargas/pau-2026/examenes-pau-julio-2026/examen-empresa-modelos-negocio-pau-julio-26.pdf"
+ ]
+}
