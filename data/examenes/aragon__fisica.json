@@ -1,0 +1,198 @@
+{
+ "ccaa": "aragon",
+ "materia": "fisica",
+ "titulo": "Prueba de Acceso a la Universidad 2027 — Física — Aragón",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro bloques y suma 10 puntos. Bloque 1: conteste obligatoriamente 1a y elija una entre 1b y 1c. Bloque 2: conteste obligatoriamente 2a y elija una entre 2b y 2c. Bloque 3: conteste obligatoriamente 3a y elija dos entre 3b, 3c y 3d. Bloque 4: conteste obligatoriamente 4a y elija una entre 4b y 4c. Se valorarán el planteamiento, el uso correcto de las unidades y la justificación de las respuestas. En los cálculos, exprese los resultados con tres cifras significativas cuando proceda.",
+ "preguntas": [
+  {
+   "n": "1a",
+   "tema": "gravitacion",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Un equipo de seguimiento de incendios utiliza un satélite en órbita circular alrededor de un planeta. A partir de la ley de gravitación universal y de la condición de movimiento circular, deduzca una expresión para la rapidez orbital $v$ en función de la masa del planeta $M$ y de la distancia $r$ entre el satélite y el centro del planeta.",
+   "solucion": "La fuerza gravitatoria proporciona la aceleración radial del satélite. A partir de la ley de gravitación universal, su módulo es\n\n$$a_g=\\frac{F_g}{m}=\\frac{GMm/r^2}{m}=\\frac{GM}{r^2},$$\n\ndonde $m$ es la masa del satélite. En una órbita circular, la aceleración centrípeta vale\n\n$$a_c=\\frac{v^2}{r}.$$\n\nIgualando ambas aceleraciones, pues la gravedad es la responsable del movimiento circular:\n\n$$\\frac{v^2}{r}=\\frac{GM}{r^2}\\quad\\Longrightarrow\\quad v^2=\\frac{GM}{r}.$$\n\nComo la rapidez es positiva,\n\n$$\\boxed{v=\\sqrt{\\frac{GM}{r}}}.$$\n\nComprobación: al sustituir esta expresión en $a_c=v^2/r$ se obtiene $a_c=GM/r^2$, que coincide con la aceleración gravitatoria. Además, $[GM/r]=\\mathrm{m^2\\,s^{-2}}$, por lo que la expresión de $v$ tiene unidades de rapidez. La masa del satélite se cancela.",
+   "resultado": "$v=\\sqrt{GM/r}$",
+   "criterios": "1,00 punto: 0,25 por obtener la aceleración gravitatoria desde la ley de gravitación universal; 0,20 por expresar la aceleración centrípeta; 0,35 por igualarlas y despejar correctamente; 0,10 por indicar la raíz positiva y la independencia respecto de la masa del satélite; 0,10 por una comprobación dimensional o por sustitución.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "1b",
+   "tema": "gravitacion",
+   "puntos": 1.5,
+   "tipo": "calculo",
+   "enunciado": "Un satélite de observación de masas forestales, de masa $m=1.00\\times10^3\\ \\mathrm{kg}$, describe una órbita circular de radio $r=1.00\\times10^7\\ \\mathrm{m}$ alrededor de un planeta de masa $M=6.00\\times10^{24}\\ \\mathrm{kg}$. Use $G=6.67\\times10^{-11}\\ \\mathrm{N\\,m^2/kg^2}$. Calcule la rapidez orbital del satélite y su energía mecánica total en esa órbita. (0,75 puntos cada resultado).",
+   "solucion": "Para una órbita circular, la fuerza gravitatoria proporciona la fuerza centrípeta:\n\n$\\displaystyle \\frac{GMm}{r^2}=\\frac{mv^2}{r}$.\n\nDespejando la rapidez orbital (se cancela la masa del satélite):\n\n$\\displaystyle v=\\sqrt{\\frac{GM}{r}}=\\sqrt{\\frac{(6.67\\times10^{-11})(6.00\\times10^{24})}{1.00\\times10^7}}=6.33\\times10^3\\ \\mathrm{m/s}$.\n\nLa energía mecánica total es la suma de la energía cinética y la potencial gravitatoria. En una órbita circular, $K=GMm/(2r)$ y $U=-GMm/r$, por lo que:\n\n$\\displaystyle E_m=K+U=-\\frac{GMm}{2r}=-\\frac{(6.67\\times10^{-11})(6.00\\times10^{24})(1.00\\times10^3)}{2(1.00\\times10^7)}=-2.00\\times10^{10}\\ \\mathrm{J}$.\n\nEl signo negativo indica que el satélite está ligado gravitatoriamente al planeta.",
+   "resultado": "Rapidez orbital: $6.33\\times10^3\\ \\mathrm{m/s}$; energía mecánica total: $-2.00\\times10^{10}\\ \\mathrm{J}$.",
+   "criterios": "Total: 1,50 puntos. Rapidez orbital (0,75): 0,25 por plantear la igualdad entre fuerza gravitatoria y centrípeta; 0,25 por despejar y sustituir correctamente los datos; 0,25 por el valor numérico y sus unidades. Energía mecánica total (0,75): 0,25 por expresar la energía como $K+U$ o usar correctamente $E_m=-GMm/(2r)$ para órbita circular; 0,25 por sustituir y calcular; 0,25 por el resultado negativo con unidades. Se aceptan valores equivalentes con redondeo razonable.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "1c",
+   "tema": "gravitacion",
+   "puntos": 1.5,
+   "tipo": "calculo",
+   "enunciado": "Una sonda de inspección se prepara para operar en la superficie de un planeta esférico de masa $M=6.00\\times10^{24}\\ \\mathrm{kg}$ y radio $R=6.00\\times10^6\\ \\mathrm{m}$. Despreciando la rotación y la atmósfera, calcule la intensidad del campo gravitatorio en la superficie y la rapidez mínima de lanzamiento para escapar del planeta. Use $G=6.67\\times10^{-11}\\ \\mathrm{N\\,m^2/kg^2}$. (0,75 puntos cada resultado).",
+   "solucion": "### 1. Intensidad del campo gravitatorio en la superficie\n\nPara un planeta esférico, la intensidad del campo gravitatorio a una distancia $R$ de su centro es\n\n$$g=\\frac{GM}{R^2}.$$\n\nSustituyendo los datos:\n\n$$g=\\frac{(6{,}67\\times10^{-11})(6{,}00\\times10^{24})}{(6{,}00\\times10^6)^2}\n=11{,}1167\\ \\mathrm{m\\,s^{-2}}\\approx 11{,}1\\ \\mathrm{m\\,s^{-2}}.$$\n\n### 2. Rapidez mínima de escape\n\nLa rapidez mínima de escape corresponde a que la sonda llegue al infinito con rapidez final nula. Por conservación de la energía mecánica:\n\n$$\\frac12 mv_{\\mathrm{esc}}^2-\\frac{GMm}{R}=0,$$\n\nde donde\n\n$$v_{\\mathrm{esc}}=\\sqrt{\\frac{2GM}{R}}.$$\n\nSustituyendo:\n\n$$v_{\\mathrm{esc}}=\\sqrt{\\frac{2(6{,}67\\times10^{-11})(6{,}00\\times10^{24})}{6{,}00\\times10^6}}\n=1{,}15499\\times10^4\\ \\mathrm{m\\,s^{-1}}\\approx 1{,}15\\times10^4\\ \\mathrm{m\\,s^{-1}}.$$\n\nSe han despreciado la rotación y la atmósfera, tal como indica el enunciado.",
+   "resultado": "$g=11{,}1\\ \\mathrm{m\\,s^{-2}}$; $v_{\\mathrm{esc}}=1{,}15\\times10^4\\ \\mathrm{m\\,s^{-1}}$.",
+   "criterios": "1) Intensidad del campo gravitatorio (0,75 puntos): 0,25 por aplicar correctamente $g=GM/R^2$; 0,25 por sustituir los datos y calcular; 0,25 por expresar el resultado con unidad correcta. 2) Rapidez de escape (0,75 puntos): 0,25 por plantear la conservación de la energía y obtener $v_{\\mathrm{esc}}=\\sqrt{2GM/R}$; 0,25 por sustituir los datos y calcular; 0,25 por expresar el resultado con unidad correcta.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2a",
+   "tema": "electrico",
+   "puntos": 1.5,
+   "tipo": "calculo",
+   "enunciado": "Un sensor de partículas registra dos cargas puntuales situadas sobre el eje $x$: $q_1=+4.0\\ \\mathrm{nC}$ en $x=-0.30\\ \\mathrm{m}$ y $q_2=-4.0\\ \\mathrm{nC}$ en $x=+0.30\\ \\mathrm{m}$. Calcule el vector campo eléctrico total en el origen y la fuerza eléctrica sobre una partícula de prueba de carga $+2.0\\ \\mathrm{nC$ colocada allí. Use $K=9.0\\times10^9\\ \\mathrm{N\\,m^2/C^2}$. (0,75 puntos cada resultado).",
+   "solucion": "### Campo eléctrico mediante el potencial\n\nComo el origen está entre las cargas, para un punto de coordenada $x$ cercano al origen las distancias a $q_1$ y $q_2$ son, respectivamente, $x+0.30$ y $0.30-x$. El potencial en ese intervalo es\n\n$$V(x)=K\\left(\\frac{q_1}{x+0.30}+\\frac{q_2}{0.30-x}\\right).$$\n\nCon $q_1=+q$ y $q_2=-q$, donde $q=4.0\\times10^{-9}\\,\\mathrm C$, queda\n\n$$V(x)=Kq\\left(\\frac{1}{x+0.30}-\\frac{1}{0.30-x}\\right).$$\n\nPor definición, $\\vec E=-\\nabla V$. En este problema solo puede haber componente en el eje $x$, y\n\n$$E_x(0)=-\\left.\\frac{dV}{dx}\\right|_{x=0}\n=Kq\\left[\\frac{1}{(x+0.30)^2}+\\frac{1}{(0.30-x)^2}\\right]_{x=0}\n=\\frac{2Kq}{(0.30)^2}.$$\n\nSustituyendo los datos:\n\n$$E_x(0)=\\frac{2(9.0\\times10^9)(4.0\\times10^{-9})}{0.090}=8.0\\times10^2\\,\\mathrm{N/C}.$$\n\nPor tanto,\n\n$$\\boxed{\\vec E(0)=(8.0\\times10^2,\\,0,\\,0)\\,\\mathrm{N/C}}.$$\n\nLa fuerza sobre la carga de prueba $q_p=+2.0\\times10^{-9}\\,\\mathrm C$ es\n\n$$\\vec F=q_p\\vec E=(2.0\\times10^{-9})(8.0\\times10^2)\\,\\hat{\\imath}\n=\\boxed{(1.6\\times10^{-6},\\,0,\\,0)\\,\\mathrm N}.$$\n\n### Comprobación\n\nPor la ley de Coulomb, cada carga produce en el origen un campo de magnitud $K(4.0\\times10^{-9})/(0.30)^2=4.0\\times10^2\\,\\mathrm{N/C}$. El campo de la carga positiva apunta alejándose de ella y el de la negativa apunta hacia ella: ambos apuntan en $+x$. Su suma es $8.0\\times10^2\\,\\mathrm{N/C}$ en $+x$, en concordancia con el cálculo mediante el potencial. La fuerza también apunta en $+x$ porque la carga de prueba es positiva.",
+   "resultado": "\\vec E(0)=(800,0,0)\\,\\mathrm{N/C};\\quad \\vec F=(1.6\\times10^{-6},0,0)\\,\\mathrm N.",
+   "criterios": "Total: 1,5 puntos. Campo eléctrico (0,75): 0,25 por plantear correctamente el potencial y obtener el campo mediante E_x=-dV/dx (se acepta como alternativa el cálculo directo de Coulomb); 0,25 por establecer correctamente las direcciones y sumar las contribuciones; 0,25 por el valor numérico y las unidades del vector campo. Fuerza (0,75): 0,25 por aplicar correctamente \\vec F=q_p\\vec E; 0,25 por el cálculo numérico; 0,25 por indicar correctamente el vector, el sentido y las unidades.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "2b",
+   "tema": "magnetico",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "En una instalación de carga inalámbrica, una bobina de $200$ espiras y área $0.010\\ \\mathrm{m^2}$ está atravesada perpendicularmente por un campo magnético dirigido hacia dentro del papel. El campo aumenta uniformemente de $0.20\\ \\mathrm{T}$ a $0.80\\ \\mathrm{T}$ en $0.030\\ \\mathrm{s}$. La resistencia total de la bobina es $20\\ \\Omega$. Calcule la fuerza electromotriz inducida y la intensidad de corriente. Indique, además, el sentido de la corriente visto de frente. (0,50 puntos, 0,25 puntos y 0,25 puntos, respectivamente).",
+   "solucion": "Tomamos como normal positiva la que apunta hacia el observador. Así, una corriente positiva circula en sentido antihorario.\n\nEl campo apunta hacia dentro del papel, por lo que el flujo por espira es negativo. Como su módulo aumenta uniformemente,\n\n$$\\frac{\\Delta B}{\\Delta t}=\\frac{0.80-0.20}{0.030}=20\\ \\mathrm{T/s}.$$\n\nEn lugar de aplicar directamente la fórmula a los módulos, calculamos el cambio del flujo enlazado con las $200$ espiras:\n\n$$\\Delta(N\\Phi)=200\\,(0.010)\\,[-(0.80-0.20)]=-1.2\\ \\mathrm{Wb}.$$\n\nPor la ley de Faraday, la fem inducida es\n\n$$\\mathcal{E}=-\\frac{\\Delta(N\\Phi)}{\\Delta t}=-\\frac{-1.2}{0.030}=40\\ \\mathrm{V}.$$\n\nLa corriente se obtiene con la ley de Ohm:\n\n$$I=\\frac{\\mathcal{E}}{R}=\\frac{40}{20}=2.0\\ \\mathrm{A}.$$\n\nComprobación: el cambio de flujo por espira es $0.010(0.60)=0.006\\ \\mathrm{Wb}$; al multiplicar por $200$ espiras y dividir por $0.030\\ \\mathrm{s}$ se obtiene de nuevo $40\\ \\mathrm{V}$. Además, la corriente inducida debe oponerse al aumento del campo entrante, creando un campo saliente; por la regla de la mano derecha, circula en sentido antihorario visto de frente.",
+   "resultado": "Fem inducida: 40 V; intensidad: 2,0 A; sentido: antihorario visto de frente.",
+   "criterios": "0,50 puntos por determinar correctamente la fem inducida mediante la ley de Faraday (incluido el cambio de flujo enlazado por las espiras); 0,25 puntos por aplicar la ley de Ohm y obtener la intensidad; 0,25 puntos por indicar, justificándolo con la ley de Lenz o la regla de la mano derecha, que el sentido es antihorario visto de frente.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "2c",
+   "tema": "electrico",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Un equipo de deposición electrostática utiliza dos placas paralelas separadas $3.0\\ \\mathrm{cm}$, entre las que hay una diferencia de potencial de $600\\ \\mathrm{V}$. Calcule el módulo del campo eléctrico uniforme entre las placas. Determine también el trabajo realizado por el campo al desplazar una carga positiva de $2.0\\ \\mathrm{nC}$ desde la placa de mayor potencial hasta la de menor potencial. (0,50 puntos cada resultado).",
+   "solucion": "La separación entre placas es $d=3{,}0\\ \\mathrm{cm}=3{,}0\\times10^{-2}\\ \\mathrm{m}$. Para un campo uniforme, el módulo del campo eléctrico es $E=\\frac{\\Delta V}{d}=\\frac{600\\ \\mathrm{V}}{3{,}0\\times10^{-2}\\ \\mathrm{m}}=2{,}0\\times10^{4}\\ \\mathrm{V/m}$.\n\nEl trabajo realizado por el campo al trasladar la carga desde la placa de mayor potencial a la de menor potencial es $W=q(V_i-V_f)=q\\Delta V$. Por tanto, $W=(2{,}0\\times10^{-9}\\ \\mathrm{C})(600\\ \\mathrm{V})=1{,}2\\times10^{-6}\\ \\mathrm{J}$. El signo es positivo porque una carga positiva se desplaza espontáneamente en el sentido del campo, hacia potenciales menores.",
+   "resultado": "$E=2{,}0\\times10^{4}\\ \\mathrm{V/m}$; $W=1{,}2\\times10^{-6}\\ \\mathrm{J}$.",
+   "criterios": "Campo eléctrico (0,50 puntos): conversión correcta de la distancia a unidades del SI y aplicación de $E=\\Delta V/d$ (0,25); resultado con módulo y unidades correctos (0,25). Trabajo (0,50 puntos): uso de $W=q(V_i-V_f)$ con el signo coherente para el desplazamiento de mayor a menor potencial (0,25); resultado positivo y unidades correctas (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3a",
+   "tema": "optica",
+   "puntos": 1.5,
+   "tipo": "calculo",
+   "enunciado": "Para proyectar instrucciones de evacuación, se emplea una lente convergente de distancia focal $f=20\\ \\mathrm{cm}$. Se coloca un objeto luminoso a $60\\ \\mathrm{cm}$ de la lente. Usando la ecuación de las lentes delgadas, calcule la posición de la imagen y el aumento lateral. Indique si la imagen es real o virtual y si está derecha o invertida. (0,75 puntos, 0,50 puntos y 0,25 puntos, respectivamente).",
+   "solucion": "### Datos y ecuación\nLente convergente: $f=20\\,\\mathrm{cm}$; distancia del objeto: $s=60\\,\\mathrm{cm}$. Usamos la ecuación de las lentes delgadas:\n$$\\frac{1}{f}=\\frac{1}{s}+\\frac{1}{s'}$$\n\n### Posición de la imagen\n$$\\frac{1}{s'}=\\frac{1}{20}-\\frac{1}{60}=\\frac{2}{60}=\\frac{1}{30}$$\nPor tanto, $s'=30\\,\\mathrm{cm}$. El signo positivo indica que la imagen se forma al otro lado de la lente y, por ello, es real.\n\n### Aumento lateral\n$$m=-\\frac{s'}{s}=-\\frac{30}{60}=-0{,}50$$\nEl aumento negativo indica que la imagen está invertida; su tamaño es la mitad del del objeto.\n\n**Conclusión:** la imagen se forma a $30\\,\\mathrm{cm}$ de la lente, es real e invertida, y el aumento lateral es $-0{,}50$.",
+   "resultado": "Posición de la imagen: 30 cm; aumento lateral: −0,50; imagen real e invertida.",
+   "criterios": "Posición de la imagen (0,75 puntos): plantea correctamente la ecuación de las lentes delgadas (0,25) y obtiene $s'=30\\,\\mathrm{cm}$ con el signo e interpretación adecuados (0,50). Aumento lateral (0,50 puntos): aplica $m=-s'/s$ (0,25) y obtiene $m=-0{,}50$ (0,25). Naturaleza y orientación (0,25 puntos): identifica la imagen como real e invertida.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3b",
+   "tema": "ondas",
+   "puntos": 0.75,
+   "tipo": "calculo",
+   "enunciado": "En el control de calidad de una cuerda de instrumento, se estudian ondas estacionarias en una cuerda de longitud $L=0.60\\ \\mathrm{m}$, fija por ambos extremos. Las ondas transversales se propagan a $v=12\\ \\mathrm{m/s}$. Calcule la frecuencia fundamental y la del tercer armónico. (0,375 puntos cada resultado).",
+   "solucion": "Para una cuerda fija por ambos extremos, las longitudes de onda permitidas cumplen $L=n\\lambda_n/2$, con $n=1,2,3,\\ldots$. Por tanto, $\\lambda_n=2L/n$ y $f_n=v/\\lambda_n=nv/(2L)$.\n\nCon $L=0.60\\ \\mathrm{m}$ y $v=12\\ \\mathrm{m/s}$:\n\n- Frecuencia fundamental ($n=1$): $f_1=\\frac{12}{2(0.60)}=10\\ \\mathrm{Hz}$.\n- Tercer armónico ($n=3$): $f_3=\\frac{3(12)}{2(0.60)}=30\\ \\mathrm{Hz}$.\n\n",
+   "resultado": "Frecuencia fundamental: $10\\ \\mathrm{Hz}$; frecuencia del tercer armónico: $30\\ \\mathrm{Hz}$.",
+   "criterios": "0,375 puntos por la frecuencia fundamental: aplicar la condición de ondas estacionarias con ambos extremos fijos y obtener $f_1=v/(2L)=10\\ \\mathrm{Hz}$. 0,375 puntos por el tercer armónico: usar $f_3=3v/(2L)=3f_1=30\\ \\mathrm{Hz}$. Se requiere indicar correctamente las unidades.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3c",
+   "tema": "ondas",
+   "puntos": 0.75,
+   "tipo": "calculo",
+   "enunciado": "Un avisador acústico omnidireccional instalado en un centro de emergencias emite una potencia sonora de $P=4\\pi\\ \\mathrm{W}$. Suponiendo que no hay absorción, calcule la intensidad y el nivel sonoro a $10\\ \\mathrm{m}$ de distancia. Use $I_0=1.0\\times10^{-12}\\ \\mathrm{W/m^2}$ y la expresión $\\beta=10\\log_{10}(I/I_0)$. (0,25 puntos y 0,50 puntos, respectivamente).",
+   "solucion": "La emisión es omnidireccional y no hay absorción, por lo que la potencia se distribuye uniformemente sobre una esfera de radio $r=10\\,\\mathrm{m}$.\n\nEl área de esa esfera es $4\\pi r^2$, así que la intensidad resulta:\n\n$$I=\\frac{P}{4\\pi r^2}=\\frac{4\\pi\\,\\mathrm{W}}{4\\pi(10\\,\\mathrm{m})^2}=1.0\\times10^{-2}\\,\\mathrm{W/m^2}.$$\n\nCon la expresión dada para el nivel sonoro:\n\n$$\\beta=10\\log_{10}\\left(\\frac{I}{I_0}\\right)=10\\log_{10}\\left(\\frac{1.0\\times10^{-2}}{1.0\\times10^{-12}}\\right)=10\\log_{10}(10^{10})=100\\,\\mathrm{dB}.$$\n\nPor tanto, a $10\\,\\mathrm{m}$ la intensidad es $1.0\\times10^{-2}\\,\\mathrm{W/m^2}$ y el nivel sonoro es $100\\,\\mathrm{dB}$.",
+   "resultado": "I = 1.0×10⁻² W/m²; β = 100 dB.",
+   "criterios": "Total: 0,75 puntos. Intensidad (0,25): 0,10 por aplicar la distribución esférica I=P/(4πr²) y 0,15 por obtener 1,0×10⁻² W/m² con unidades correctas. Nivel sonoro (0,50): 0,15 por plantear β=10 log₁₀(I/I₀), 0,20 por calcular correctamente I/I₀=10¹⁰ y 0,15 por obtener 100 dB. Se aceptan redondeos equivalentes.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3d",
+   "tema": "ondas",
+   "puntos": 0.75,
+   "tipo": "calculo",
+   "enunciado": "Un dispositivo de vigilancia transmite una onda transversal por una cuerda en el sentido positivo del eje $x$. La onda tiene amplitud $A=0.040\\ \\mathrm{m}$, longitud de onda $\\lambda=2.0\\ \\mathrm{m}$ y frecuencia $f=5.0\\ \\mathrm{Hz}$; en $t=0$ y $x=0$ su fase es nula. Calcule el número de onda y la frecuencia angular, y escriba la ecuación de la onda en unidades del SI. (0,25 puntos cada apartado).",
+   "solucion": "### 1. Número de onda\nEl número de onda es $k=\\dfrac{2\\pi}{\\lambda}$. Con $\\lambda=2.0\\,\\mathrm{m}$:\n$$k=\\frac{2\\pi}{2.0\\,\\mathrm{m}}=\\pi\\,\\mathrm{rad\\,m^{-1}}\\approx 3.14\\,\\mathrm{rad\\,m^{-1}}.$$\n\n### 2. Frecuencia angular\nLa frecuencia angular es $\\omega=2\\pi f$. Para $f=5.0\\,\\mathrm{Hz}$:\n$$\\omega=2\\pi(5.0\\,\\mathrm{Hz})=10\\pi\\,\\mathrm{rad\\,s^{-1}}\\approx 31.4\\,\\mathrm{rad\\,s^{-1}}.$$\n\n### 3. Ecuación de la onda\nPara una onda que se propaga en el sentido positivo de $x$, la fase puede escribirse como $kx-\\omega t+\\phi_0$. Como la fase en $x=0$, $t=0$ es nula, $\\phi_0=0$. Usando la forma sinusoidal $y(x,t)=A\\sin(kx-\\omega t+\\phi_0)$:\n$$y(x,t)=0.040\\sin(\\pi x-10\\pi t)\\ \\mathrm{m},$$\ncon $x$ en metros y $t$ en segundos.",
+   "resultado": "$k=\\pi\\,\\mathrm{rad\\,m^{-1}}$; $\\omega=10\\pi\\,\\mathrm{rad\\,s^{-1}}$; $y(x,t)=0.040\\sin(\\pi x-10\\pi t)\\,\\mathrm{m}$.",
+   "criterios": "0,25 puntos: cálculo correcto del número de onda, con expresión y unidad. 0,25 puntos: cálculo correcto de la frecuencia angular, con expresión y unidad. 0,25 puntos: ecuación de onda correcta, con amplitud, fase inicial nula y sentido de propagación positivo del eje x.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4a",
+   "tema": "moderna",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Un detector fotoeléctrico transforma luz en una señal eléctrica. Explique qué se entiende por frecuencia umbral y qué ocurre con la emisión de electrones si la frecuencia de la luz incidente es inferior a ella. Indique también qué efecto tiene aumentar la intensidad de la luz cuando su frecuencia sí supera la frecuencia umbral. (0,50 puntos cada aspecto).",
+   "solucion": "La **frecuencia umbral** $\\nu_0$ es la frecuencia mínima que debe tener la luz para que sus fotones aporten energía suficiente para extraer electrones del material. Si $W$ es la función de trabajo, se cumple $h\\nu_0=W$. Cuando $\\nu<\\nu_0$, la energía de cada fotón es menor que $W$ y **no se emiten electrones**, por elevada que sea la intensidad de la luz.\n\nSi $\\nu>\\nu_0$, al aumentar la intensidad —manteniendo fija la frecuencia— aumenta el número de fotones incidentes por unidad de tiempo y, por tanto, aumenta el número de electrones emitidos por unidad de tiempo y la corriente fotoeléctrica. La energía cinética máxima de los electrones no aumenta por ello: viene determinada por la frecuencia, según $K_{\\max}=h\\nu-W$.\n\n**Comprobación:** esto concuerda con la ecuación fotoeléctrica: la frecuencia determina la energía por electrón y la intensidad, por encima del umbral, afecta a cuántos electrones se emiten.",
+   "resultado": "Por debajo de la frecuencia umbral no hay emisión; por encima, aumentar la intensidad aumenta la corriente fotoeléctrica, no la energía cinética máxima de los electrones.",
+   "criterios": "0,50 puntos: define correctamente la frecuencia umbral y señala que por debajo de ella no hay emisión, independientemente de la intensidad. 0,50 puntos: indica que, si la frecuencia supera la umbral, al aumentar la intensidad aumenta el número de electrones emitidos por unidad de tiempo o la corriente fotoeléctrica. No atribuir a la intensidad un aumento de la energía cinética máxima.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4b",
+   "tema": "moderna",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Una nave de rescate tiene una longitud propia de $100\\ \\mathrm{m}$ y se desplaza respecto a una estación a $0.60c$, paralelamente a su eje longitudinal. Calcule el factor de Lorentz y la longitud de la nave medida desde la estación. (0,25 puntos y 0,75 puntos, respectivamente).",
+   "solucion": "La velocidad relativa es $v=0.60c$, por lo que $\\beta=v/c=0.60$. El factor de Lorentz es\n$$\n\\gamma=\\frac{1}{\\sqrt{1-\\beta^2}}=\\frac{1}{\\sqrt{1-(0.60)^2}}=1.25.\n$$\nLa longitud propia de la nave es $L_0=100\\ \\mathrm{m}$. Como se mide desde la estación, donde la nave está en movimiento paralelo a su eje longitudinal, se observa la contracción de longitudes:\n$$\nL=\\frac{L_0}{\\gamma}=\\frac{100\\ \\mathrm{m}}{1.25}=80\\ \\mathrm{m}.\n$$",
+   "resultado": "Factor de Lorentz: 1,25; longitud medida desde la estación: 80 m.",
+   "criterios": "1,00 punto en total: cálculo correcto del factor de Lorentz a partir de β = 0,60 (0,25 puntos); aplicación de la contracción de longitudes L = L₀/γ, sustitución de los datos y obtención de 80 m (0,75 puntos).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4c",
+   "tema": "moderna",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "En un centro hospitalario se utiliza un trazador radiactivo de periodo de semidesintegración $2.0\\ \\mathrm{h}$. Una muestra tiene inicialmente una actividad de $16\\ \\mathrm{MBq}$. Calcule su actividad al cabo de $6.0\\ \\mathrm{h}$ y la fracción de núcleos radiactivos que permanece sin desintegrarse en ese instante. (0,50 puntos cada resultado).",
+   "solucion": "El número de semiperiodos transcurridos es $n=t/T_{1/2}=6.0/2.0=3$. La actividad disminuye en el mismo factor que el número de núcleos sin desintegrar:\n\n$$A(t)=A_0\\left(\\frac12\\right)^n=16\\left(\\frac12\\right)^3=2.0\\ \\mathrm{MBq}.$$\n\nLa fracción de núcleos que permanece sin desintegrarse es:\n\n$$f=\\frac{N(t)}{N_0}=\\left(\\frac12\\right)^n=\\left(\\frac12\\right)^3=0.125=\\frac18.$$\n\nPor tanto, al cabo de $6.0\\ \\mathrm{h}$ la actividad es $2.0\\ \\mathrm{MBq}$ y permanece sin desintegrarse el $12.5\\%$ de los núcleos iniciales.",
+   "resultado": "$A=2.0\\ \\mathrm{MBq};\\quad f=0.125$ (12.5 %)",
+   "criterios": "Total: 1,00 punto. Actividad (0,50): 0,25 por aplicar la ley de desintegración o contar correctamente los tres semiperiodos; 0,25 por obtener $2,0\\ \\mathrm{MBq}$. Fracción no desintegrada (0,50): 0,25 por aplicar la relación $N/N_0=(1/2)^n$; 0,25 por obtener $0,125$ (o $1/8$, equivalente al 12,5 %).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "gravitacion",
+   "p": 0.9
+  },
+  {
+   "id": "electrico",
+   "p": 0.9
+  },
+  {
+   "id": "ondas",
+   "p": 0.9
+  },
+  {
+   "id": "optica",
+   "p": 0.9
+  },
+  {
+   "id": "moderna",
+   "p": 0.9
+  },
+  {
+   "id": "magnetico",
+   "p": 0.78
+  }
+ ],
+ "referencias": [
+  "https://academico.unizar.es/sites/academico/files/archivos/acceso/accespau/exame/26ord/fisica.pdf",
+  "https://academico.unizar.es/sites/academico/files/archivos/acceso/accespau/exame/26extra/fisica.pdf"
+ ]
+}
