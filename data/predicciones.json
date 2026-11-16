@@ -39575,7 +39575,7 @@
     },
     "latin": {
      "nombre": "Latín II",
-     "n_examenes": 13,
+     "n_examenes": 14,
      "anios": [
       2022,
       2023,
@@ -39588,6 +39588,11 @@
        "anio": 2022,
        "conv": "ord",
        "url": "https://www.ehu.eus/documents/38889400/40419845/Latin+II_eus.pdf/26032fa8-c974-863f-ffd9-206ba09e07ab?t=1655376517594"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.ehu.eus/documents/38889400/40419837/Lat%C3%ADn+II_cas.pdf/963748d9-c9b0-5804-21e1-d4c7dd82929c?t=1655376470576"
       },
       {
        "anio": 2023,
@@ -39654,9 +39659,9 @@
       {
        "id": "traduccion",
        "nombre": "Traducción",
-       "p": 0.746,
-       "veces": 10,
-       "de": 13,
+       "p": 0.752,
+       "veces": 11,
+       "de": 14,
        "ultimo": 2026,
        "tendencia": "sube",
        "muestra": "1.ª pregunta: Traduce el siguiente texto (con diccionario):",
@@ -39665,9 +39670,9 @@
       {
        "id": "lexico",
        "nombre": "Léxico y etimología",
-       "p": 0.746,
-       "veces": 10,
-       "de": 13,
+       "p": 0.752,
+       "veces": 11,
+       "de": 14,
        "ultimo": 2026,
        "tendencia": "sube",
        "muestra": "EH 1 punto a) Palabras del castellano relacionadas con los términos latinos oculum y clamare; para cada una de ellas da al menos un ejemplo de término patrimonial y otro de cultismo. b) Palabras del castellano relacionadas con los términos latinos clavem y laborare: para cada una…",
@@ -39676,9 +39681,9 @@
       {
        "id": "morfosintaxis",
        "nombre": "Morfosintaxis",
-       "p": 0.549,
-       "veces": 8,
-       "de": 13,
+       "p": 0.563,
+       "veces": 9,
+       "de": 14,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "NOTA: Algunos diccionarios de latín adjuntan un anexo gramatical (cuadros de declinaciones y verbos, etc.). Se permitirá su uso junto con el diccionario, ya sea que dicho anexo esté en las propias páginas de este o se trate de un cuadernillo independiente. Por otra parte, se perm…",
@@ -39687,9 +39692,9 @@
       {
        "id": "literatura",
        "nombre": "Literatura latina",
-       "p": 0.534,
-       "veces": 8,
-       "de": 13,
+       "p": 0.549,
+       "veces": 9,
+       "de": 14,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "EH 5 puntos La llamada conjuración de Lucio Sergio Catilina es un episodio de la historia de Roma que a lo largo de los siglos ha sido objeto de infinidad de reflexiones, discusiones y recreaciones por parte de intelectuales y activistas de toda Europa. La revuelta encabezada por…",
@@ -39719,7 +39724,7 @@
     },
     "lengua": {
      "nombre": "Lengua Castellana y Literatura II",
-     "n_examenes": 28,
+     "n_examenes": 33,
      "anios": [
       2022,
       2023,
@@ -39795,6 +39800,21 @@
       },
       {
        "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.ehu.eus/documents/38889400/40419856/Ingl%C3%A9s+castellano.pdf/8ceb626f-8034-2b4a-558a-30a95b1a9a11?t=1663234081930"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.ehu.eus/documents/38889400/40419856/Lat%C3%ADn+castellano.pdf/4b51115f-9c74-fb26-2409-890da9521e0a?t=1663234082244"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.ehu.eus/documents/38889400/40419856/Lengua+castellana+castellano.pdf/486fd02c-3a94-1a83-91a7-36f7677da68c?t=1663234082461"
+      },
+      {
+       "anio": 2022,
        "conv": "ord",
        "url": "https://www.ehu.eus/documents/38889400/40419845/Lengua+Castellana+y+Literatura+II_eus.pdf/c5ef08c4-e57a-7b82-7b61-ae3d89013da4?t=1655376517822"
       },
@@ -39802,6 +39822,16 @@
        "anio": 2022,
        "conv": "ord",
        "url": "https://www.ehu.eus/documents/38889400/40419837/Fundamentos+de+Arte+II_cas.pdf/b63b6986-bdb1-ae4f-1398-675b15948065?t=1655376468369"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.ehu.eus/documents/38889400/40419837/Lengua+Castellana+y+Literatura+II_cas.pdf/7b516861-4479-b3c4-b557-bb5c7977a0c5?t=1655376470749"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.ehu.eus/documents/38889400/40419837/Lengua+Vasca+y+Literatura+II_cas.pdf/60a0e407-d5e7-847d-7baa-6eccdaf46161?t=1655465664358"
       },
       {
        "anio": 2023,
@@ -39873,9 +39903,9 @@
       {
        "id": "morfologia",
        "nombre": "Léxico, morfología y semántica",
-       "p": 0.728,
-       "veces": 21,
-       "de": 28,
+       "p": 0.725,
+       "veces": 25,
+       "de": 33,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "1. Resuma el contenido del texto con una extensión de unas 100 palabras. (1 punto)",
@@ -39884,9 +39914,9 @@
       {
        "id": "argumentacion",
        "nombre": "Texto argumentativo / opinión",
-       "p": 0.65,
-       "veces": 17,
-       "de": 28,
+       "p": 0.655,
+       "veces": 21,
+       "de": 33,
        "ultimo": 2026,
        "tendencia": "sube",
        "muestra": "4. Elabore un texto en el que desarrolle una opinión personal relacionada con la temática del texto de Ana Bernal-Triviño, argumentando a favor, en contra, o a",
@@ -39895,9 +39925,9 @@
       {
        "id": "sintaxis",
        "nombre": "Sintaxis (oración compuesta)",
-       "p": 0.626,
-       "veces": 16,
-       "de": 28,
+       "p": 0.616,
+       "veces": 19,
+       "de": 33,
        "ultimo": 2026,
        "tendencia": "sube",
        "muestra": "U favor y en contra. Se valorará la adecuación al registro, la coherencia y cohesión del texto, la riqueza léxica, la variedad sintáctica y la corrección ortográfica. (250 palabras) (2 puntos)",
@@ -39906,9 +39936,9 @@
       {
        "id": "novela",
        "nombre": "Novela del siglo XX y actual",
-       "p": 0.587,
-       "veces": 14,
-       "de": 28,
+       "p": 0.564,
+       "veces": 16,
+       "de": 33,
        "ultimo": 2026,
        "tendencia": "sube",
        "muestra": "7.A. Indique si los siguientes enunciados, relacionados con el fragmento y la obra de Carmen Laforet, Nada, son verdaderos (V) o falsos (F): (1 punto)",
@@ -39917,9 +39947,9 @@
       {
        "id": "lit27",
        "nombre": "Literatura: 27, Lorca, poesía de posguerra",
-       "p": 0.505,
-       "veces": 11,
-       "de": 28,
+       "p": 0.501,
+       "veces": 13,
+       "de": 33,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "7.A. Indique si los siguientes enunciados, relacionados con el fragmento y la obra de Federico García Lorca, La casa de Bernarda Alba, son verdaderos (V) o falsos (F): (1 punto)",
@@ -39928,9 +39958,9 @@
       {
        "id": "lit98",
        "nombre": "Literatura: Modernismo y 98, novecentismo",
-       "p": 0.283,
-       "veces": 6,
-       "de": 28,
+       "p": 0.27,
+       "veces": 7,
+       "de": 33,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "7.B. Indique si son verdaderas (V) o falsas (F) las siguientes afirmaciones, en relación con el fragmento y la obra de Antonio Machado. (1 punto)",
@@ -39939,9 +39969,9 @@
       {
        "id": "teatro",
        "nombre": "Teatro del siglo XX",
-       "p": 0.244,
-       "veces": 7,
-       "de": 28,
+       "p": 0.236,
+       "veces": 8,
+       "de": 33,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "EH a) Esta escena pertenece al tercer acto de la obra La casa de Bernarda Alba. b) María Josefa es la madre de Antonio María Benavides. c) María Josefa aparece de nuevo en la escena final de la obra. d) Durante la mayor parte de la obra, María Josefa permanece encerrada por volun…",
@@ -39950,9 +39980,9 @@
       {
        "id": "comprension",
        "nombre": "Comprensión y resumen del texto",
-       "p": 0.144,
+       "p": 0.128,
        "veces": 4,
-       "de": 28,
+       "de": 33,
        "ultimo": 2025,
        "tendencia": "sube",
        "muestra": "Resumen de los resultados de la PAU en 2025 Datos generales de la convocatoria ordinaria (Bachillerato)",
@@ -40214,7 +40244,7 @@
     },
     "matematicas2": {
      "nombre": "Matemáticas II",
-     "n_examenes": 14,
+     "n_examenes": 16,
      "anios": [
       2022,
       2023,
@@ -40275,6 +40305,16 @@
       },
       {
        "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/matematicas_modelo_enun_criterios-2-pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/matematicas_modelo_enun_criterios-pdf"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "https://www.ehu.eus/documents/d/unibertsitaterako-sarbidea/matematicas-ii-examen-ord-2025"
       },
@@ -40298,9 +40338,9 @@
       {
        "id": "matrices",
        "nombre": "Matrices y determinantes",
-       "p": 0.837,
-       "veces": 13,
-       "de": 14,
+       "p": 0.844,
+       "veces": 15,
+       "de": 16,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "EH No se podrán usar calculadoras que tengan alguna de las siguientes presta- ciones: pantalla gráfica, posibilidad de transmitir datos, programable, resolución de ecuaciones, operaciones con matrices, cálculo de determinantes,",
@@ -40309,9 +40349,9 @@
       {
        "id": "geometria",
        "nombre": "Geometría en el espacio",
-       "p": 0.837,
-       "veces": 13,
-       "de": 14,
+       "p": 0.844,
+       "veces": 15,
+       "de": 16,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "CUARTO EJERCICIO (2 puntos). Responde solo a una de las opciones. (4A) Sean la recta r ≡ x = y − 1 = −z, y el plano π ≡ −x + 2y + z + A = 0.",
@@ -40320,9 +40360,9 @@
       {
        "id": "integrales",
        "nombre": "Integrales y áreas",
-       "p": 0.837,
-       "veces": 13,
-       "de": 14,
+       "p": 0.844,
+       "veces": 15,
+       "de": 16,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "U cálculo de derivadas e integrales, almacenamiento de datos alfanuméricos.",
@@ -40331,9 +40371,9 @@
       {
        "id": "derivadas",
        "nombre": "Derivadas y aplicaciones",
-       "p": 0.812,
-       "veces": 12,
-       "de": 14,
+       "p": 0.832,
+       "veces": 14,
+       "de": 16,
        "ultimo": 2026,
        "tendencia": "baja",
        "muestra": "U cálculo de derivadas e integrales, almacenamiento de datos alfanuméricos.",
@@ -40342,9 +40382,9 @@
       {
        "id": "limites",
        "nombre": "Límites y continuidad",
-       "p": 0.8,
-       "veces": 12,
-       "de": 14,
+       "p": 0.81,
+       "veces": 14,
+       "de": 16,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "N (0, 1) kurbak −∞-tik z-raino mugatutako azalerak Áreas limitadas por la curva N (0, 1) desde −∞ hasta z z",
@@ -40353,9 +40393,9 @@
       {
        "id": "sistemas",
        "nombre": "Sistemas de ecuaciones (discusión)",
-       "p": 0.737,
-       "veces": 12,
-       "de": 14,
+       "p": 0.754,
+       "veces": 14,
+       "de": 16,
        "ultimo": 2026,
        "tendencia": "baja",
        "muestra": "SEGUNDO EJERCICIO (2 puntos). Dado a ̸= 0, se tiene el siguiente sistema de ecuaciones lineales:   x + ay = 1, ",
@@ -40364,9 +40404,9 @@
       {
        "id": "probabilidad",
        "nombre": "Probabilidad y distribuciones",
-       "p": 0.737,
-       "veces": 12,
-       "de": 14,
+       "p": 0.754,
+       "veces": 14,
+       "de": 16,
        "ultimo": 2026,
        "tendencia": "baja",
        "muestra": "PRIMER EJERCICIO (2 puntos). Se considera un gas ideal clásico en equilibrio térmico a temperatura T . El sistema viene descrito por la estadística de Maxwell-Boltzmann. A pesar de que el módulo de la velocidad de las moléculas del gas no es gaussiano, cada componente cartesiana …",
@@ -45444,25 +45484,25 @@
    {
     "id": "traduccion",
     "nombre": "Traducción",
-    "p": 0.644,
+    "p": 0.645,
     "ccaa": 10
    },
    {
     "id": "morfosintaxis",
     "nombre": "Morfosintaxis",
-    "p": 0.617,
+    "p": 0.618,
     "ccaa": 10
    },
    {
     "id": "lexico",
     "nombre": "Léxico y etimología",
-    "p": 0.512,
+    "p": 0.514,
     "ccaa": 10
    },
    {
     "id": "literatura",
     "nombre": "Literatura latina",
-    "p": 0.458,
+    "p": 0.46,
     "ccaa": 10
    }
   ],
@@ -45470,31 +45510,31 @@
    {
     "id": "morfologia",
     "nombre": "Léxico, morfología y semántica",
-    "p": 0.437,
+    "p": 0.44,
     "ccaa": 12
    },
    {
     "id": "sintaxis",
     "nombre": "Sintaxis (oración compuesta)",
-    "p": 0.331,
+    "p": 0.334,
     "ccaa": 12
    },
    {
     "id": "argumentacion",
     "nombre": "Texto argumentativo / opinión",
-    "p": 0.307,
+    "p": 0.311,
     "ccaa": 12
    },
    {
     "id": "comprension",
     "nombre": "Comprensión y resumen del texto",
-    "p": 0.23,
+    "p": 0.228,
     "ccaa": 12
    },
    {
     "id": "novela",
     "nombre": "Novela del siglo XX y actual",
-    "p": 0.217,
+    "p": 0.219,
     "ccaa": 12
    },
    {
@@ -45506,13 +45546,13 @@
    {
     "id": "lit27",
     "nombre": "Literatura: 27, Lorca, poesía de posguerra",
-    "p": 0.147,
+    "p": 0.15,
     "ccaa": 12
    },
    {
     "id": "lit98",
     "nombre": "Literatura: Modernismo y 98, novecentismo",
-    "p": 0.121,
+    "p": 0.122,
     "ccaa": 12
    }
   ],
@@ -45558,43 +45598,43 @@
    {
     "id": "probabilidad",
     "nombre": "Probabilidad y distribuciones",
-    "p": 0.813,
+    "p": 0.814,
     "ccaa": 12
    },
    {
     "id": "geometria",
     "nombre": "Geometría en el espacio",
-    "p": 0.794,
+    "p": 0.795,
     "ccaa": 12
    },
    {
     "id": "matrices",
     "nombre": "Matrices y determinantes",
-    "p": 0.692,
+    "p": 0.695,
     "ccaa": 12
    },
    {
     "id": "sistemas",
     "nombre": "Sistemas de ecuaciones (discusión)",
-    "p": 0.656,
+    "p": 0.658,
     "ccaa": 12
    },
    {
     "id": "derivadas",
     "nombre": "Derivadas y aplicaciones",
-    "p": 0.645,
+    "p": 0.648,
     "ccaa": 12
    },
    {
     "id": "integrales",
     "nombre": "Integrales y áreas",
-    "p": 0.64,
+    "p": 0.643,
     "ccaa": 12
    },
    {
     "id": "limites",
     "nombre": "Límites y continuidad",
-    "p": 0.533,
+    "p": 0.537,
     "ccaa": 12
    }
   ],
