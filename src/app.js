@@ -150,7 +150,7 @@ async function pintaExamen() {
   if (!ex) {
     const reg = prediccionDe(S.c, S.m);
     $('exCab').innerHTML = `<h3>${esc(t('Todavía no hay examen probable para esta combinación'))}</h3><p>${esc(t('Puedes generarlo ahora con tu clave de IA: un ponente lo redacta con los temas más probables y dos resolutores lo resuelven por separado; solo se queda lo que coincide.'))}</p>`
-      + (reg && reg.temas && reg.temas.length ? `<div class="actions"><button class="btn btn-primary" id="btnGenera" type="button">${ico('sparkles')}<span>${esc(t('Generar con mi clave'))}</span></button></div><p class="help" id="genEstado"></p><p class="help"><a href="#" id="lnkClave">${esc(t('¿No tienes clave? Así se consigue (y lo que cuesta)'))}</a></p>` : `<p class="help">${esc(t('Hace falta antes una predicción por temas para esta materia.'))}</p>`)
+      + (reg && reg.n_examenes ? `${!(reg.temas || []).length ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Sin predicción de temas'))}</p><p class="help">${esc(t('Esta materia aún no tiene temario por temas en PAUsible: el examen imitará el formato de los exámenes reales de tu comunidad y repartirá las preguntas por el currículo oficial, sin priorizar temas.'))}</p>` : ''}<div class="actions"><button class="btn btn-primary" id="btnGenera" type="button">${ico('sparkles')}<span>${esc(t('Generar con mi clave'))}</span></button></div><p class="help" id="genEstado"></p><p class="help"><a href="#" id="lnkClave">${esc(t('¿No tienes clave? Así se consigue (y lo que cuesta)'))}</a></p>` : `<p class="help">${esc(t('Todavía no hay exámenes reales de esta materia en tu comunidad para tomar como modelo.'))}</p>`)
       + `<p class="help">${esc(t('O prueba el ejemplo de Matemáticas II, que no necesita clave.'))}</p>`;
     $('exPreg').innerHTML = ''; $('exNota').innerHTML = ''; $('exNota').hidden = true; return;
   }
@@ -162,8 +162,8 @@ async function pintaExamen() {
   const selector = opciones.length > 1 || mios.length ? `<div class="pa-fuentes" role="group" aria-label="${esc(t('Qué examen hacer'))}">${opciones.map(([v, l]) => `<button type="button" class="btn btn-sm ${v === f ? 'btn-primary' : 'btn-ghost'}" data-fuente="${v}" aria-pressed="${v === f}">${esc(l)}</button>`).join('')}${mios.length ? `<button type="button" class="btn btn-sm btn-ghost" id="btnVerBib">${esc(t('Ver todos mis exámenes ({0})', MEM.bib.length))}</button>` : ''}</div>` : '';
   const avisoReto = rec && rec.origen === 'reto' ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Generado con la clave de quien te reta · doble resolución · no revisado por PAUsible'))}</p>` : '';
   const avisoVersion = f === 'oficial' && ex.version_distinta ? `<p class="help">${esc(t('Este examen se ha actualizado desde que te retaron: las notas pueden no ser comparables.'))}</p>` : '';
-  $('exCab').innerHTML = `${selector}${avisoReto}${avisoVersion}${ex.ficticio ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Ejemplo: soluciones comprobadas, temas ficticios'))}</p>` : ''}${rec && rec.origen === 'propio' ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Generado con tu clave'))}</p>` : ''}${rec && (rec.intentos || []).length ? `<p class="help">${esc(t('Intentos: {0} · mejor nota: {1}', rec.intentos.length, mejorNota(rec) != null ? fmtN(mejorNota(rec)) : '–'))}</p>` : ''}<h3>${conFormulas(ex.titulo)}</h3><p>${conFormulas(ex.instrucciones)}</p>
-    <div class="actions"><button class="btn btn-ghost" id="btnCrono" type="button">${ico('clock')}<span>${esc(S.crono ? t('Parar cronómetro') : t('Empezar cronómetro de {0} min', ex.duracion_min || 90))}</span></button><span class="pa-crono" id="crono" aria-live="off"></span>${!ejemploOn() && (prediccionDe(S.c, S.m) || {temas: []}).temas.length ? `<button class="btn btn-ghost" id="btnGeneraOtro" type="button">${ico('sparkles')}<span>${esc(t('Generar otro con mi clave'))}</span></button>` : ''}</div><p class="help" id="genEstado"></p>
+  $('exCab').innerHTML = `${selector}${avisoReto}${avisoVersion}${ex.ficticio ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Ejemplo: soluciones comprobadas, temas ficticios'))}</p>` : ''}${rec && rec.origen === 'propio' ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Generado con tu clave'))}</p>` : ''}${ex.sin_prediccion ? `<p class="fa-chip" style="margin:0 0 8px">${esc(t('Sin predicción de temas: formato real y currículo oficial'))}</p>` : ''}${rec && (rec.intentos || []).length ? `<p class="help">${esc(t('Intentos: {0} · mejor nota: {1}', rec.intentos.length, mejorNota(rec) != null ? fmtN(mejorNota(rec)) : '–'))}</p>` : ''}<h3>${conFormulas(ex.titulo)}</h3><p>${conFormulas(ex.instrucciones)}</p>
+    <div class="actions"><button class="btn btn-ghost" id="btnCrono" type="button">${ico('clock')}<span>${esc(S.crono ? t('Parar cronómetro') : t('Empezar cronómetro de {0} min', ex.duracion_min || 90))}</span></button><span class="pa-crono" id="crono" aria-live="off"></span>${!ejemploOn() && (prediccionDe(S.c, S.m) || {}).n_examenes ? `<button class="btn btn-ghost" id="btnGeneraOtro" type="button">${ico('sparkles')}<span>${esc(t('Generar otro con mi clave'))}</span></button>` : ''}</div><p class="help" id="genEstado"></p>
     ${ex.descartadas && ex.descartadas.length ? `<p class="help">${esc(t('Se descartaron {0} pregunta(s) porque los resolutores no coincidieron.', ex.descartadas.length))}</p>` : ''}`;
   $('exPreg').innerHTML = ex.preguntas.map((p, i) => `<div class="card pa-preg"><h3>${esc(t('Pregunta {0}', p.n || i + 1))} <span class="fa-chip">${esc(t('{0} puntos', fmtN(p.puntos)))}</span> ${insignia(p)}</h3>
     <div class="pa-enun">${conFormulas(p.enunciado)}</div>
@@ -210,7 +210,7 @@ let busy = false;
 async function generaConClave(b) {
   if (busy) return;
   if (!pideClave()) return;
-  const reg = prediccionDe(S.c, S.m); if (!reg) return;
+  const reg = prediccionDe(S.c, S.m); if (!reg || !reg.n_examenes) return;
   busy = true; b.disabled = true; const st = $('genEstado');
   const ask = async prompt => llmJSON([{role: 'system', content: SYS_PAU}, {role: 'user', content: prompt}], {max: 6000});
   try {
@@ -220,6 +220,7 @@ async function generaConClave(b) {
       st.innerHTML = `<span class="spin"></span> ${esc(t('Pregunta {0} de {1}: {2}', i + 1, n, t(['resolutor A', 'resolutor B', 'desempate', 'tribunal'][k])))}`;
     }, ctx);
     if (ctx) ex.con_contexto = true;
+    if (!(reg.temas || []).length) ex.sin_prediccion = true;
     if (!ex.preguntas.length) throw new Error(t('Ninguna pregunta superó la doble resolución. Prueba otra vez o con otro modelo.'));
     const r = await alBib(S.c, S.m, ex, 'propio'); S.fuente[clave()] = 'bib:' + r.id; S.auto = {}; S.intento = null; await guardaYa(); pintaExamen();
   } catch (e) { st.textContent = e.message; toast(e.message, 8000); }

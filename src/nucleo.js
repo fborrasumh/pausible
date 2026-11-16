@@ -77,7 +77,7 @@ function leeReto(search, hash = '') {
 function paqueteExamen(ex) {
   const P = ['n', 'tema', 'puntos', 'tipo', 'enunciado', 'resultado', 'solucion', 'criterios', 'verificacion', 'resoluciones'];
   return {titulo: ex.titulo, duracion_min: ex.duracion_min, instrucciones: ex.instrucciones, generado: ex.generado,
-    ...(Array.isArray(ex.descartadas) && ex.descartadas.length ? {descartadas: ex.descartadas.slice(0, 20)} : {}), ...(ex.con_contexto ? {con_contexto: true} : {}),
+    ...(Array.isArray(ex.descartadas) && ex.descartadas.length ? {descartadas: ex.descartadas.slice(0, 20)} : {}), ...(ex.con_contexto ? {con_contexto: true} : {}), ...(ex.sin_prediccion ? {sin_prediccion: true} : {}),
     preguntas: (ex.preguntas || []).map(p => Object.fromEntries(P.filter(k => p[k] != null).map(k => [k, p[k]])))};
 }
 const b64url = u8 => btoa(String.fromCharCode(...u8)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
@@ -178,11 +178,11 @@ function bloqueContexto(ctx, temas, maxTemas = 8) {
 async function cargaContexto(cid, mid) {
   try { const r = await fetch(`data/contexto/${cid}__${mid}.json`, {cache: 'no-cache'}); return r.ok ? await r.json() : null; } catch { return null; }
 }
-const P_PONENTE = (cc, mat, temas, ctx) => `Redacta un examen ORIGINAL de «${mat}» para la PAU 2027 de ${cc}, con el formato del modelo vigente desde 2025 (modelo único, 90 minutos, parte competencial con situaciones contextualizadas)${ctx && (ctx.formato || []).length ? ' y con el mismo formato, número de preguntas, puntuación y optatividad que los exámenes reales que te doy' : ''}. Reparte las preguntas según estas probabilidades de tema, priorizando las más altas:
-${temas.map(t => `- ${t.nombre}: ${Math.round(t.p * 100)} %`).join('\n')}
+const P_PONENTE = (cc, mat, temas, ctx) => `Redacta un examen ORIGINAL de «${mat}» para la PAU 2027 de ${cc}, con el formato del modelo vigente desde 2025 (modelo único, 90 minutos, parte competencial con situaciones contextualizadas)${ctx && (ctx.formato || []).length ? ' y con el mismo formato, número de preguntas, puntuación y optatividad que los exámenes reales que te doy' : ''}. ${temas.length ? `Reparte las preguntas según estas probabilidades de tema, priorizando las más altas:
+${temas.map(t => `- ${t.nombre}: ${Math.round(t.p * 100)} %`).join('\n')}` : 'No hay predicción de temas para esta materia: reparte las preguntas entre los bloques de contenido del currículo oficial vigente (LOMLOE) de la materia, sin repetir bloque si se puede, y ajusta el tipo de tareas al de los exámenes reales.'}
 ${ctx ? 'Usa las preguntas reales de años anteriores como guía de estilo, dificultad, tipo de tarea y forma de puntuar de esta comunidad, pero NO las copies ni las parafrasees: datos, contextos y situaciones nuevas. Evita repetir el planteamiento exacto del último año.\n' : ''}Cada pregunta debe tener UNA solución inequívoca; en cálculo, datos que den resultados limpios.
 Devuelve SOLO JSON: {"titulo":"…","duracion_min":90,"instrucciones":"…","preguntas":[{"n":"1","tema":"id","puntos":2.5,"tipo":"calculo|abierta","enunciado":"… (fórmulas en LaTeX entre $…$)"}]}
-Ids de tema válidos: ${temas.map(t => t.id).join(', ')}
+${temas.length ? `Ids de tema válidos: ${temas.map(t => t.id).join(', ')}` : 'En "tema" pon el bloque del currículo en pocas palabras.'}
 ${INSTR_IDIOMA()}
 
 ${bloqueContexto(ctx, temas)}`;

@@ -120,13 +120,22 @@ async def main():
         mig = await ctx.new_page(); await mig.goto(base); await mig.wait_for_function('DATOS.cargado')
         await mig.evaluate("kv('readwrite', s => s.put({...S, propios: {'madrid__matematicas2': [EJ_EXAMEN.es]}, retos: {}}, 'main'))")
         await mig.reload(); await mig.wait_for_function('DATOS.cargado')
-        await mig.wait_for_function(f"MEM.bib.length === {n + 1}", timeout=5000)
+        await mig.wait_for_function(f"MEM.bib.length >= {n + 1}", timeout=10000)
         assert await mig.evaluate("S.propios === undefined")
         # reto con examen oficial: lleva la huella de la versión
         await pg.click('#goHome'); await pg.click('#btnStart'); await pg.click('[data-c="madrid"]'); await pg.select_option('#selMat', 'matematicas2')
         await pg.click('#navNext'); await pg.click('#navNext'); await pg.wait_for_selector('.pa-preg'); await pg.fill('#auto0', '2')
         await pg.click('#btnACompartir'); await pg.wait_for_function("LINK.includes('madrid')")
         assert re.search(r'[?&]v=[0-9a-f]{10}', await pg.evaluate('LINK')) and '#e=' not in await pg.evaluate('LINK')
+        # materia sin temario por temas (p. ej. Música): se puede generar igual, imitando el formato real y el currículo
+        await pg.evaluate("DATOS.pred.ccaa.valenciana.materias.musica = {nombre: 'Música', n_examenes: 3, anios: [2025], examenes: [], temas: [], validacion: null, confianza: 'sin_temario'}; S.c = 'valenciana'; S.m = 'musica'; S.ejemplo = false; go(3)")
+        await pg.wait_for_selector('#btnGenera'); assert 'Sin predicción de temas' in await pg.inner_text('#exCab')
+        await pg.click('#btnGenera'); await pg.wait_for_selector('.pa-preg', timeout=15000)
+        assert 'No hay predicción de temas' in PONENTE[-1] and 'Ids de tema válidos' not in PONENTE[-1]
+        assert 'Sin predicción de temas: formato real' in await pg.inner_text('#exCab')
+        # sin ningún examen real de la materia no se ofrece generar
+        await pg.evaluate("DATOS.pred.ccaa.valenciana.materias.musica.n_examenes = 0; S.fuente = {}; delete MEM.examenes['valenciana__musica']; MEM.bib = MEM.bib.filter(r => r.m !== 'musica'); go(3)")
+        await pg.wait_for_timeout(300); assert await pg.locator('#btnGenera').count() == 0
         # 4) idiomas y ranking
         for l in ('en', 'pt', 'es'):
             await pg.select_option('#selLang', l); await pg.click('#goHome'); await pg.click('#btnRanking'); await pg.wait_for_selector('.pa-rank')

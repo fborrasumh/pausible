@@ -5,6 +5,10 @@
    Los valores del HTML pueden llevar etiquetas (<b>, <em>, <li>…); nunca metas aquí datos de la persona. ══ */
 const I18N = {
   en: {
+    "Sin predicción de temas": "No topic prediction",
+    "Esta materia aún no tiene temario por temas en PAUsible: el examen imitará el formato de los exámenes reales de tu comunidad y repartirá las preguntas por el currículo oficial, sin priorizar temas.": "This subject has no topic list in PAUsible yet: the exam will copy the format of your region's real exams and spread the questions across the official curriculum, without prioritising topics.",
+    "Todavía no hay exámenes reales de esta materia en tu comunidad para tomar como modelo.": "There are no real exams of this subject in your region yet to use as a model.",
+    "Sin predicción de temas: formato real y currículo oficial": "No topic prediction: real format and official curriculum",
     "Mis exámenes": "My exams",
     "s.bib.lede": "All the exams you have generated with your key or received in a challenge, with your attempts and best grade. They are stored only in this browser.",
     "Origen": "Source",
@@ -131,7 +135,6 @@ const I18N = {
     "Todavía no hay examen probable para esta combinación": "There is no probable exam for this combination yet",
     "Puedes generarlo ahora con tu clave de IA: un ponente lo redacta con los temas más probables y dos resolutores lo resuelven por separado; solo se queda lo que coincide.": "You can generate it now with your AI key: a setter writes it with the most likely topics and two solvers work it out separately; only what matches is kept.",
     "Generar con mi clave": "Generate with my key",
-    "Hace falta antes una predicción por temas para esta materia.": "A topic prediction for this subject is needed first.",
     "O prueba el ejemplo de Matemáticas II, que no necesita clave.": "Or try the Mathematics II example, which needs no key.",
     "Ejemplo: soluciones comprobadas, temas ficticios": "Example: checked solutions, fictitious topics",
     "Generado con tu clave": "Generated with your key",
@@ -240,6 +243,10 @@ const I18N = {
     "Tarjeta para compartir": "Share card"
   },
   pt: {
+    "Sin predicción de temas": "Sem previsão de temas",
+    "Esta materia aún no tiene temario por temas en PAUsible: el examen imitará el formato de los exámenes reales de tu comunidad y repartirá las preguntas por el currículo oficial, sin priorizar temas.": "Esta disciplina ainda não tem temário por temas no PAUsible: o exame imitará o formato dos exames reais da tua comunidade e distribuirá as perguntas pelo currículo oficial, sem priorizar temas.",
+    "Todavía no hay exámenes reales de esta materia en tu comunidad para tomar como modelo.": "Ainda não há exames reais desta disciplina na tua comunidade para usar como modelo.",
+    "Sin predicción de temas: formato real y currículo oficial": "Sem previsão de temas: formato real e currículo oficial",
     "Mis exámenes": "Os meus exames",
     "s.bib.lede": "Todos os exames que geraste com a tua chave ou recebeste num desafio, com as tuas tentativas e a tua melhor nota. Ficam só neste navegador.",
     "Origen": "Origem",
@@ -366,7 +373,6 @@ const I18N = {
     "Todavía no hay examen probable para esta combinación": "Ainda não há exame provável para esta combinação",
     "Puedes generarlo ahora con tu clave de IA: un ponente lo redacta con los temas más probables y dos resolutores lo resuelven por separado; solo se queda lo que coincide.": "Podes gerá-lo agora com a tua chave de IA: um autor redige-o com os temas mais prováveis e dois resolvedores resolvem-no em separado; só fica o que coincide.",
     "Generar con mi clave": "Gerar com a minha chave",
-    "Hace falta antes una predicción por temas para esta materia.": "Primeiro é preciso uma previsão por temas para esta disciplina.",
     "O prueba el ejemplo de Matemáticas II, que no necesita clave.": "Ou experimenta o exemplo de Matemática II, que não precisa de chave.",
     "Ejemplo: soluciones comprobadas, temas ficticios": "Exemplo: soluções verificadas, temas fictícios",
     "Generado con tu clave": "Gerado com a tua chave",

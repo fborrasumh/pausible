@@ -1234,6 +1234,10 @@ function i18nFaltan() {
    Los valores del HTML pueden llevar etiquetas (<b>, <em>, <li>…); nunca metas aquí datos de la persona. ══ */
 const I18N = {
   en: {
+    "Sin predicción de temas": "No topic prediction",
+    "Esta materia aún no tiene temario por temas en PAUsible: el examen imitará el formato de los exámenes reales de tu comunidad y repartirá las preguntas por el currículo oficial, sin priorizar temas.": "This subject has no topic list in PAUsible yet: the exam will copy the format of your region's real exams and spread the questions across the official curriculum, without prioritising topics.",
+    "Todavía no hay exámenes reales de esta materia en tu comunidad para tomar como modelo.": "There are no real exams of this subject in your region yet to use as a model.",
+    "Sin predicción de temas: formato real y currículo oficial": "No topic prediction: real format and official curriculum",
     "Mis exámenes": "My exams",
     "s.bib.lede": "All the exams you have generated with your key or received in a challenge, with your attempts and best grade. They are stored only in this browser.",
     "Origen": "Source",
@@ -1360,7 +1364,6 @@ const I18N = {
     "Todavía no hay examen probable para esta combinación": "There is no probable exam for this combination yet",
     "Puedes generarlo ahora con tu clave de IA: un ponente lo redacta con los temas más probables y dos resolutores lo resuelven por separado; solo se queda lo que coincide.": "You can generate it now with your AI key: a setter writes it with the most likely topics and two solvers work it out separately; only what matches is kept.",
     "Generar con mi clave": "Generate with my key",
-    "Hace falta antes una predicción por temas para esta materia.": "A topic prediction for this subject is needed first.",
     "O prueba el ejemplo de Matemáticas II, que no necesita clave.": "Or try the Mathematics II example, which needs no key.",
     "Ejemplo: soluciones comprobadas, temas ficticios": "Example: checked solutions, fictitious topics",
     "Generado con tu clave": "Generated with your key",
@@ -1469,6 +1472,10 @@ const I18N = {
     "Tarjeta para compartir": "Share card"
   },
   pt: {
+    "Sin predicción de temas": "Sem previsão de temas",
+    "Esta materia aún no tiene temario por temas en PAUsible: el examen imitará el formato de los exámenes reales de tu comunidad y repartirá las preguntas por el currículo oficial, sin priorizar temas.": "Esta disciplina ainda não tem temário por temas no PAUsible: o exame imitará o formato dos exames reais da tua comunidade e distribuirá as perguntas pelo currículo oficial, sem priorizar temas.",
+    "Todavía no hay exámenes reales de esta materia en tu comunidad para tomar como modelo.": "Ainda não há exames reais desta disciplina na tua comunidade para usar como modelo.",
+    "Sin predicción de temas: formato real y currículo oficial": "Sem previsão de temas: formato real e currículo oficial",
     "Mis exámenes": "Os meus exames",
     "s.bib.lede": "Todos os exames que geraste com a tua chave ou recebeste num desafio, com as tuas tentativas e a tua melhor nota. Ficam só neste navegador.",
     "Origen": "Origem",
@@ -1595,7 +1602,6 @@ const I18N = {
     "Todavía no hay examen probable para esta combinación": "Ainda não há exame provável para esta combinação",
     "Puedes generarlo ahora con tu clave de IA: un ponente lo redacta con los temas más probables y dos resolutores lo resuelven por separado; solo se queda lo que coincide.": "Podes gerá-lo agora com a tua chave de IA: um autor redige-o com os temas mais prováveis e dois resolvedores resolvem-no em separado; só fica o que coincide.",
     "Generar con mi clave": "Gerar com a minha chave",
-    "Hace falta antes una predicción por temas para esta materia.": "Primeiro é preciso uma previsão por temas para esta disciplina.",
     "O prueba el ejemplo de Matemáticas II, que no necesita clave.": "Ou experimenta o exemplo de Matemática II, que não precisa de chave.",
     "Ejemplo: soluciones comprobadas, temas ficticios": "Exemplo: soluções verificadas, temas fictícios",
     "Generado con tu clave": "Gerado com a tua chave",
@@ -1846,7 +1852,7 @@ function leeReto(search, hash = '') {
 function paqueteExamen(ex) {
   const P = ['n', 'tema', 'puntos', 'tipo', 'enunciado', 'resultado', 'solucion', 'criterios', 'verificacion', 'resoluciones'];
   return {titulo: ex.titulo, duracion_min: ex.duracion_min, instrucciones: ex.instrucciones, generado: ex.generado,
-    ...(Array.isArray(ex.descartadas) && ex.descartadas.length ? {descartadas: ex.descartadas.slice(0, 20)} : {}), ...(ex.con_contexto ? {con_contexto: true} : {}),
+    ...(Array.isArray(ex.descartadas) && ex.descartadas.length ? {descartadas: ex.descartadas.slice(0, 20)} : {}), ...(ex.con_contexto ? {con_contexto: true} : {}), ...(ex.sin_prediccion ? {sin_prediccion: true} : {}),
     preguntas: (ex.preguntas || []).map(p => Object.fromEntries(P.filter(k => p[k] != null).map(k => [k, p[k]])))};
 }
 const b64url = u8 => btoa(String.fromCharCode(...u8)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
@@ -1947,11 +1953,11 @@ function bloqueContexto(ctx, temas, maxTemas = 8) {
 async function cargaContexto(cid, mid) {
   try { const r = await fetch(`data/contexto/${cid}__${mid}.json`, {cache: 'no-cache'}); return r.ok ? await r.json() : null; } catch { return null; }
 }
-const P_PONENTE = (cc, mat, temas, ctx) => `Redacta un examen ORIGINAL de «${mat}» para la PAU 2027 de ${cc}, con el formato del modelo vigente desde 2025 (modelo único, 90 minutos, parte competencial con situaciones contextualizadas)${ctx && (ctx.formato || []).length ? ' y con el mismo formato, número de preguntas, puntuación y optatividad que los exámenes reales que te doy' : ''}. Reparte las preguntas según estas probabilidades de tema, priorizando las más altas:
-${temas.map(t => `- ${t.nombre}: ${Math.round(t.p * 100)} %`).join('\n')}
+const P_PONENTE = (cc, mat, temas, ctx) => `Redacta un examen ORIGINAL de «${mat}» para la PAU 2027 de ${cc}, con el formato del modelo vigente desde 2025 (modelo único, 90 minutos, parte competencial con situaciones contextualizadas)${ctx && (ctx.formato || []).length ? ' y con el mismo formato, número de preguntas, puntuación y optatividad que los exámenes reales que te doy' : ''}. ${temas.length ? `Reparte las preguntas según estas probabilidades de tema, priorizando las más altas:
+${temas.map(t => `- ${t.nombre}: ${Math.round(t.p * 100)} %`).join('\n')}` : 'No hay predicción de temas para esta materia: reparte las preguntas entre los bloques de contenido del currículo oficial vigente (LOMLOE) de la materia, sin repetir bloque si se puede, y ajusta el tipo de tareas al de los exámenes reales.'}
 ${ctx ? 'Usa las preguntas reales de años anteriores como guía de estilo, dificultad, tipo de tarea y forma de puntuar de esta comunidad, pero NO las copies ni las parafrasees: datos, contextos y situaciones nuevas. Evita repetir el planteamiento exacto del último año.\n' : ''}Cada pregunta debe tener UNA solución inequívoca; en cálculo, datos que den resultados limpios.
 Devuelve SOLO JSON: {"titulo":"…","duracion_min":90,"instrucciones":"…","preguntas":[{"n":"1","tema":"id","puntos":2.5,"tipo":"calculo|abierta","enunciado":"… (fórmulas en LaTeX entre $…$)"}]}
-Ids de tema válidos: ${temas.map(t => t.id).join(', ')}
+${temas.length ? `Ids de tema válidos: ${temas.map(t => t.id).join(', ')}` : 'En "tema" pon el bloque del currículo en pocas palabras.'}
 ${INSTR_IDIOMA()}
 
 ${bloqueContexto(ctx, temas)}`;
@@ -2224,7 +2230,7 @@ async function pintaExamen() {
   if (!ex) {
     const reg = prediccionDe(S.c, S.m);
     $('exCab').innerHTML = `<h3>${esc(t('Todavía no hay examen probable para esta combinación'))}</h3><p>${esc(t('Puedes generarlo ahora con tu clave de IA: un ponente lo redacta con los temas más probables y dos resolutores lo resuelven por separado; solo se queda lo que coincide.'))}</p>`
-      + (reg && reg.temas && reg.temas.length ? `<div class="actions"><button class="btn btn-primary" id="btnGenera" type="button">${ico('sparkles')}<span>${esc(t('Generar con mi clave'))}</span></button></div><p class="help" id="genEstado"></p><p class="help"><a href="#" id="lnkClave">${esc(t('¿No tienes clave? Así se consigue (y lo que cuesta)'))}</a></p>` : `<p class="help">${esc(t('Hace falta antes una predicción por temas para esta materia.'))}</p>`)
+      + (reg && reg.n_examenes ? `${!(reg.temas || []).length ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Sin predicción de temas'))}</p><p class="help">${esc(t('Esta materia aún no tiene temario por temas en PAUsible: el examen imitará el formato de los exámenes reales de tu comunidad y repartirá las preguntas por el currículo oficial, sin priorizar temas.'))}</p>` : ''}<div class="actions"><button class="btn btn-primary" id="btnGenera" type="button">${ico('sparkles')}<span>${esc(t('Generar con mi clave'))}</span></button></div><p class="help" id="genEstado"></p><p class="help"><a href="#" id="lnkClave">${esc(t('¿No tienes clave? Así se consigue (y lo que cuesta)'))}</a></p>` : `<p class="help">${esc(t('Todavía no hay exámenes reales de esta materia en tu comunidad para tomar como modelo.'))}</p>`)
       + `<p class="help">${esc(t('O prueba el ejemplo de Matemáticas II, que no necesita clave.'))}</p>`;
     $('exPreg').innerHTML = ''; $('exNota').innerHTML = ''; $('exNota').hidden = true; return;
   }
@@ -2236,8 +2242,8 @@ async function pintaExamen() {
   const selector = opciones.length > 1 || mios.length ? `<div class="pa-fuentes" role="group" aria-label="${esc(t('Qué examen hacer'))}">${opciones.map(([v, l]) => `<button type="button" class="btn btn-sm ${v === f ? 'btn-primary' : 'btn-ghost'}" data-fuente="${v}" aria-pressed="${v === f}">${esc(l)}</button>`).join('')}${mios.length ? `<button type="button" class="btn btn-sm btn-ghost" id="btnVerBib">${esc(t('Ver todos mis exámenes ({0})', MEM.bib.length))}</button>` : ''}</div>` : '';
   const avisoReto = rec && rec.origen === 'reto' ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Generado con la clave de quien te reta · doble resolución · no revisado por PAUsible'))}</p>` : '';
   const avisoVersion = f === 'oficial' && ex.version_distinta ? `<p class="help">${esc(t('Este examen se ha actualizado desde que te retaron: las notas pueden no ser comparables.'))}</p>` : '';
-  $('exCab').innerHTML = `${selector}${avisoReto}${avisoVersion}${ex.ficticio ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Ejemplo: soluciones comprobadas, temas ficticios'))}</p>` : ''}${rec && rec.origen === 'propio' ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Generado con tu clave'))}</p>` : ''}${rec && (rec.intentos || []).length ? `<p class="help">${esc(t('Intentos: {0} · mejor nota: {1}', rec.intentos.length, mejorNota(rec) != null ? fmtN(mejorNota(rec)) : '–'))}</p>` : ''}<h3>${conFormulas(ex.titulo)}</h3><p>${conFormulas(ex.instrucciones)}</p>
-    <div class="actions"><button class="btn btn-ghost" id="btnCrono" type="button">${ico('clock')}<span>${esc(S.crono ? t('Parar cronómetro') : t('Empezar cronómetro de {0} min', ex.duracion_min || 90))}</span></button><span class="pa-crono" id="crono" aria-live="off"></span>${!ejemploOn() && (prediccionDe(S.c, S.m) || {temas: []}).temas.length ? `<button class="btn btn-ghost" id="btnGeneraOtro" type="button">${ico('sparkles')}<span>${esc(t('Generar otro con mi clave'))}</span></button>` : ''}</div><p class="help" id="genEstado"></p>
+  $('exCab').innerHTML = `${selector}${avisoReto}${avisoVersion}${ex.ficticio ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Ejemplo: soluciones comprobadas, temas ficticios'))}</p>` : ''}${rec && rec.origen === 'propio' ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Generado con tu clave'))}</p>` : ''}${ex.sin_prediccion ? `<p class="fa-chip" style="margin:0 0 8px">${esc(t('Sin predicción de temas: formato real y currículo oficial'))}</p>` : ''}${rec && (rec.intentos || []).length ? `<p class="help">${esc(t('Intentos: {0} · mejor nota: {1}', rec.intentos.length, mejorNota(rec) != null ? fmtN(mejorNota(rec)) : '–'))}</p>` : ''}<h3>${conFormulas(ex.titulo)}</h3><p>${conFormulas(ex.instrucciones)}</p>
+    <div class="actions"><button class="btn btn-ghost" id="btnCrono" type="button">${ico('clock')}<span>${esc(S.crono ? t('Parar cronómetro') : t('Empezar cronómetro de {0} min', ex.duracion_min || 90))}</span></button><span class="pa-crono" id="crono" aria-live="off"></span>${!ejemploOn() && (prediccionDe(S.c, S.m) || {}).n_examenes ? `<button class="btn btn-ghost" id="btnGeneraOtro" type="button">${ico('sparkles')}<span>${esc(t('Generar otro con mi clave'))}</span></button>` : ''}</div><p class="help" id="genEstado"></p>
     ${ex.descartadas && ex.descartadas.length ? `<p class="help">${esc(t('Se descartaron {0} pregunta(s) porque los resolutores no coincidieron.', ex.descartadas.length))}</p>` : ''}`;
   $('exPreg').innerHTML = ex.preguntas.map((p, i) => `<div class="card pa-preg"><h3>${esc(t('Pregunta {0}', p.n || i + 1))} <span class="fa-chip">${esc(t('{0} puntos', fmtN(p.puntos)))}</span> ${insignia(p)}</h3>
     <div class="pa-enun">${conFormulas(p.enunciado)}</div>
@@ -2284,7 +2290,7 @@ let busy = false;
 async function generaConClave(b) {
   if (busy) return;
   if (!pideClave()) return;
-  const reg = prediccionDe(S.c, S.m); if (!reg) return;
+  const reg = prediccionDe(S.c, S.m); if (!reg || !reg.n_examenes) return;
   busy = true; b.disabled = true; const st = $('genEstado');
   const ask = async prompt => llmJSON([{role: 'system', content: SYS_PAU}, {role: 'user', content: prompt}], {max: 6000});
   try {
@@ -2294,6 +2300,7 @@ async function generaConClave(b) {
       st.innerHTML = `<span class="spin"></span> ${esc(t('Pregunta {0} de {1}: {2}', i + 1, n, t(['resolutor A', 'resolutor B', 'desempate', 'tribunal'][k])))}`;
     }, ctx);
     if (ctx) ex.con_contexto = true;
+    if (!(reg.temas || []).length) ex.sin_prediccion = true;
     if (!ex.preguntas.length) throw new Error(t('Ninguna pregunta superó la doble resolución. Prueba otra vez o con otro modelo.'));
     const r = await alBib(S.c, S.m, ex, 'propio'); S.fuente[clave()] = 'bib:' + r.id; S.auto = {}; S.intento = null; await guardaYa(); pintaExamen();
   } catch (e) { st.textContent = e.message; toast(e.message, 8000); }
