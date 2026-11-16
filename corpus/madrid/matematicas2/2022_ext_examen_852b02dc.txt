@@ -1,0 +1,423 @@
+                       UNIVERSIDADES PÚBLICAS DE LA COMUNIDAD DE MADRID
+                           EVALUACIÓN PARA EL ACCESO A LAS ENSEÑANZAS
+                                UNIVERSITARIAS OFICIALES DE GRADO
+
+                                           Curso 2021-2022
+                       MATERIA: MATEMÁTICAS II
+
+                             INSTRUCCIONES GENERALES Y CALIFICACIÓN
+Después de leer atentamente el examen, responda razonadamente cuatro preguntas cualesquiera a elegir entre
+las ocho que se proponen. Todas las respuestas deberán estar debidamente justificadas.
+CALIFICACIÓN: La valoración de cada ejercicio se especifica en el enunciado.
+TIEMPO: 90 minutos.
+
+
+
+A. 1. Calificación máxima: 2.5 puntos.
+Dado el siguiente sistema de ecuaciones lineales dependientes del parámetro real m:
+                                          
+                                           x − 2my + z =       1
+                                             mx + 2y − z = −1 .
+                                             x−y+z        =     1
+                                          
+
+  a) (2 puntos) Discuta el sistema en función de los valores de m.
+                                                             1
+  b) (0.5 puntos) Resuelva el sistema para el valor m =        .
+                                                             2
+A. 2. Calificación máxima: 2.5 puntos.
+                                  2
+                          x3 e−1/x    si x ̸= 0
+Sea la función f (x) =                         .
+                              0       si x = 0
+
+  a) (1 punto) Estudie la continuidad y derivabilidad de f (x) en x = 0.
+  b) (0.5 puntos) Estudie si f (x) presenta algún tipo de simetrı́a par o impar.
+                                                  Z 2
+                                                       f (x)
+  c) (1 punto) Calcule la siguiente integral:                dx.
+                                                    1   x6
+A. 3. Calificación máxima: 2.5 puntos.
+Con un dispositivo láser situado en el puntoP (1, 1, 1) se ha podido seguir la trayectoria de una partı́cula que se
+                                               2x − y = 10
+desplaza sobre la recta de ecuaciones r ≡                      .
+                                               x − z = −90
+
+  a) (0.5 puntos) Calcule un vector director de r y la posición de la partı́cula cuando su trayectoria incide con el
+     plano z = 0.
+  b) (1.25 puntos) Calcule la posición más próxima de la partı́cula al dispositivo láser.
+  c) (0.75 puntos) Determine el ángulo entre el plano de ecuación x + y = 2 y la recta r.
+
+A. 4. Calificación máxima: 2.5 puntos.
+Según el Instituto Nacional de Estadı́stica, durante el último trimestre de 2020, el porcentaje de mujeres que
+pertenecı́a al conjunto de Consejos de Administración de las empresas que componen el Ibex-35 fue del 27.7 %.
+Se reunieron 10 de estos consejeros.
+
+  a) (0.75 puntos) Halle la probabilidad de que la mitad fueran mujeres.
+  b) (0.75 puntos) Calcule la probabilidad de que hubiese al menos un hombre.
+  c) (1 punto) Determine, aproximando mediante una distribución normal, la probabilidad de que en un congreso
+     de doscientos consejeros de estas empresas hubiera como mı́nimo un 35 % de representación femenina.
+B. 1. Calificación máxima: 2.5 puntos.
+Tres primos, Pablo, Alejandro y Alicia, se van a repartir un premio de 9450 euros de forma directamente propor-
+cional a sus edades. La suma de las edades de Pablo y Alejandro excede en tres años al doble de la edad de
+Alicia. Además, la edad de los tres primos juntos es de 45 años. Sabiendo que en el reparto del premio Pablo
+recibe 420 euros más que Alicia, calcule las edades de los tres primos y el dinero que recibe cada uno por el
+premio.
+
+B. 2. Calificación máxima: 2.5 puntos.
+                          x
+Sea la función f (x) = 2     .
+                        x +1
+  a) (0.5 puntos) Compruebe si f (x) verifica las hipótesis del Teorema de Bolzano en el intervalo [−1, 1].
+  b) (1 punto) Calcule y clasifique los extremos relativos de f (x) en R.
+  c) (1 punto) Determine el área comprendida entre la gráfica de la función f (x) y el eje OX en el intervalo
+     [−1, 1].
+
+
+B. 3. Calificación máxima: 2.5 puntos.
+                                               
+                                                x=1+λ
+Sean el plano π ≡ x + y + z = 1, la recta r1 ≡   y = 1 − λ, λ ∈ R y el punto P (0, 1, 0).
+                                                 z = −1
+                                               
+
+  a) (0.5 puntos) Verifique que la recta r1 está contenida en el plano π y que el punto P pertenece al mismo
+     plano.
+  b) (0.75 puntos) Halle una ecuación de la recta contenida en el plano π que pase por P y sea perpendicular a
+     r1 .
+  c) (1.25 puntos) Calcule una ecuación de la recta, r2 , que pase por P y sea paralela a r1 . Halle el área de un
+     cuadrado que tenga dos de sus lados sobre las rectas r1 y r2 .
+
+
+B. 4. Calificación máxima: 2.5 puntos.
+De una cesta con 6 sombreros blancos y 3 negros se elige uno al azar. Si el sombrero es blanco, se toma, al azar,
+un pañuelo de un cajón que contiene 2 blancos, 2 negros y 5 con cuadros blancos y negros. Si el sombrero es
+negro, se elige, al azar, un pañuelo de otro cajón que contiene 2 pañuelos blancos, 4 negros y 4 con cuadros
+blancos y negros. Se pide:
+  a) (1 punto) Calcular la probabilidad de que en el pañuelo aparezca algún color que no sea el del sombrero.
+  b) (0.5 puntos) Calcular la probabilidad de que en al menos uno de los complementos (sombrero o pañuelo)
+     aparezca el color negro.
+
+  c) (1 punto) Calcular la probabilidad de que el sombrero haya sido negro, sabiendo que el pañuelo ha sido de
+     cuadros.
+                                      Distribución Normal
+
+
+
+
+                                                                          z
+Ejemplo: si Z tiene distribución N(0, 1), P (Z < 0,45) = 0,6736.
+
+
+z       0,00       0,01       0,02       0,03       0,04       0,05     0,06     0,07     0,08     0,09
+0,0   0,5000     0,5040     0,5080     0,5120     0,5160     0,5199   0,5239   0,5279   0,5319   0,5359
+0,1   0,5398     0,5438     0,5478     0,5517     0,5557     0,5596   0,5636   0,5675   0,5714   0,5753
+0,2   0,5793     0,5832     0,5871     0,5910     0,5948     0,5987   0,6026   0,6064   0,6103   0,6141
+0,3   0,6179     0,6217     0,6255     0,6293     0,6331     0,6368   0,6406   0,6443   0,6480   0,6517
+0,4   0,6554     0,6591     0,6628     0,6664     0,6700     0,6736   0,6772   0,6808   0,6844   0,6879
+0,5   0,6915     0,6950     0,6985     0,7019     0,7054     0,7088   0,7123   0,7157   0,7190   0,7224
+
+0,6   0,7257     0,7291     0,7324     0,7357     0,7389     0,7422   0,7454   0,7486   0,7517   0,7549
+0,7   0,7580     0,7611     0,7642     0,7673     0,7704     0,7734   0,7764   0,7794   0,7823   0,7852
+0,8   0,7881     0,7910     0,7939     0,7967     0,7995     0,8023   0,8051   0,8078   0,8106   0,8133
+0,9   0,8159     0,8186     0,8212     0,8238     0,8264     0,8289   0,8315   0,8340   0,8365   0,8389
+1,0   0,8413     0,8438     0,8461     0,8485     0,8508     0,8531   0,8554   0,8577   0,8599   0,8621
+
+1,1   0,8643     0,8665     0,8686     0,8708     0,8729     0,8749   0,8770   0,8790   0,8810   0,8830
+1,2   0,8849     0,8869     0,8888     0,8907     0,8925     0,8944   0,8962   0,8980   0,8997   0,9015
+1,3   0,9032     0,9049     0,9066     0,9082     0,9099     0,9115   0,9131   0,9147   0,9162   0,9177
+1,4   0,9192     0,9207     0,9222     0,9236     0,9251     0,9265   0,9279   0,9292   0,9306   0,9319
+1,5   0,9332     0,9345     0,9357     0,9370     0,9382     0,9394   0,9406   0,9418   0,9429   0,9441
+
+1,6   0,9452     0,9463     0,9474     0,9484     0,9495     0,9505   0,9515   0,9525   0,9535   0,9545
+1,7   0,9554     0,9564     0,9573     0,9582     0,9591     0,9599   0,9608   0,9616   0,9625   0,9633
+1,8   0,9641     0,9649     0,9656     0,9664     0,9671     0,9678   0,9686   0,9693   0,9699   0,9706
+1,9   0,9713     0,9719     0,9726     0,9732     0,9738     0,9744   0,9750   0,9756   0,9761   0,9767
+2,0   0,9772     0,9778     0,9783     0,9788     0,9793     0,9798   0,9803   0,9808   0,9812   0,9817
+
+2,1   0,9821     0,9826     0,9830     0,9834     0,9838     0,9842   0,9846   0,9850   0,9854   0,9857
+2,2   0,9861     0,9864     0,9868     0,9871     0,9875     0,9878   0,9881   0,9884   0,9887   0,9890
+2,3   0,9893     0,9896     0,9898     0,9901     0,9904     0,9906   0,9909   0,9911   0,9913   0,9916
+2,4   0,9918     0,9920     0,9922     0,9925     0,9927     0,9929   0,9931   0,9932   0,9934   0,9936
+2,5   0,9938     0,9940     0,9941     0,9943     0,9945     0,9946   0,9948   0,9949   0,9951   0,9952
+
+2,6   0,9953     0,9955     0,9956     0,9957     0,9959     0,9960   0,9961   0,9962   0,9963   0,9964
+2,7   0,9965     0,9966     0,9967     0,9968     0,9969     0,9970   0,9971   0,9972   0,9973   0,9974
+2,8   0,9974     0,9975     0,9976     0,9977     0,9977     0,9978   0,9979   0,9979   0,9980   0,9981
+2,9   0,9981     0,9982     0,9982     0,9983     0,9984     0,9984   0,9985   0,9985   0,9986   0,9986
+3,0   0,9987     0,9987     0,9987     0,9988     0,9988     0,9989   0,9989   0,9989   0,9990   0,9990
+                                                 MATEMÁTICAS II
+    CRITERIOS ESPECÍFICOS DE CORRECCIÓN Y ESTÁNDARES EVALUADOS EN CADA PREGUNTA
+Todas las respuestas deberán estar debidamente justificadas.
+En cada ejercicio, aunque el procedimiento seguido sea diferente al propuesto en las soluciones, cualquier argu-
+mento válido que conduzca a la solución será valorado con la puntuación asignada.
+Los estándares de aprendizaje del bloque 1 se evaluarán transversalmente en todos los ejercicios, pena-
+lizando en la calificación de cada respuesta la falta de justificación razonada o de precisión y valorando
+las estrategias, razonamientos y toma adecuada de decisiones.
+
+
+A. 1.
+a) Cálculo correcto de los valores a estudiar: 0.5 puntos. Estudio correcto de cada caso: 0.5 puntos.
+b) Planteamiento: 0.25 puntos. Resolución: 0.25 puntos.
+Estándares de aprendizaje evaluados: Utiliza el lenguaje matricial para representar datos facilitados mediante
+tablas o grafos y para representar sistemas de ecuaciones lineales. Determina el rango de una matriz, hasta
+orden 4, aplicando el método de Gauss o determinantes. Resuelve problemas susceptibles de ser representados
+matricialmente e interpreta los resultados obtenidos. Formula algebraicamente las restricciones indicadas en una
+situación de la vida real, estudia y clasifica el sistema de ecuaciones lineales planteado, lo resuelve en los casos
+que sea posible, y lo aplica para resolver problemas.
+
+
+
+A. 2.
+a) Continuidad: 0.5 puntos. Derivabilidad: 0.5 puntos.
+b) Planteamiento: 0.25 puntos. Resolución: 0.25 puntos.
+c) Planteamiento: 0.25 puntos. Cálculo de la primitiva: 0.5 puntos. Regla de Barrow: 0.25 puntos.
+Estándares de aprendizaje evaluados: Conoce las propiedades de las funciones continuas y representa la
+función en un entorno de los puntos de discontinuidad. Aplica los conceptos de lı́mite y de derivada, ası́ como los
+teoremas relacionados, a la resolución de problemas. Aplica los métodos básicos para el cálculo de primitivas de
+funciones.
+
+
+A. 3.
+a) Cálculo del vector: 0.25 puntos. Determinación del punto: 0.25 puntos.
+b) Planteamiento: 0.75 puntos. Resolución: 0.5 puntos.
+c) Planteamiento: 0.5 puntos. Resolución: 0.25 puntos.
+Estándares de aprendizaje evaluados: Establece conexiones entre el problema del mundo real y el mundo
+matemático: identificando el problema o problemas matemáticos que subyacen en él, ası́ como los conocimientos
+matemáticos necesarios. Obtiene las ecuaciones de rectas y planos en diferentes situaciones. Maneja el producto
+escalar y vectorial de dos vectores, significado geométrico, expresión analı́tica y propiedades. Determina ángulos,
+distancias, áreas y volúmenes utilizando los productos escalar, vectorial y mixto, aplicándolos en cada caso a la
+resolución de problemas geométricos.
+
+
+A. 4.
+a) Planteamiento: 0.5 puntos. Resolución: 0.25 puntos.
+b) Planteamiento: 0.5 puntos. Resolución: 0.25 puntos.
+c) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+Estándares de aprendizaje evaluados: Identifica fenómenos que pueden modelizarse mediante la distribución
+binomial, obtiene sus parámetros y calcula su media y desviación tı́pica. Calcula probabilidades asociadas a una
+distribución binomial a partir de su función de probabilidad, de la tabla de la distribución o mediante calculadora.
+Calcula probabilidades de sucesos asociados a fenómenos que pueden modelizarse mediante la distribución
+binomial a partir de su aproximación por la normal valorando si se dan las condiciones necesarias para que sea
+válida. Utiliza un vocabulario adecuado para describir situaciones relacionadas con el azar.
+                                                 MATEMÁTICAS II
+    CRITERIOS ESPECÍFICOS DE CORRECCIÓN Y ESTÁNDARES EVALUADOS EN CADA PREGUNTA
+Todas las respuestas deberán estar debidamente justificadas.
+En cada ejercicio, aunque el procedimiento seguido sea diferente al propuesto en las soluciones, cualquier argu-
+mento válido que conduzca a la solución será valorado con la puntuación asignada.
+Los estándares de aprendizaje del bloque 1 se evaluarán transversalmente en todos los ejercicios, pena-
+lizando en la calificación de cada respuesta la falta de justificación razonada o de precisión y valorando
+las estrategias, razonamientos y toma adecuada de decisiones.
+
+
+B. 1.
+Correcto planteamiento del problema: 1.5 puntos (Se darán 0.5 puntos por cada ecuación bien planteada).
+Resolución correcta del sistema planteado: 0.5 puntos.
+Cálculo correcto de las tres edades y del dinero que les corresponde: 0.5 puntos.
+En caso de resolución correcta de un sistema con alguna ecuación mal planteada, se valorará con hasta 0.5
+puntos.
+Estándares de aprendizaje evaluados: Utiliza el lenguaje matricial para representar datos facilitados mediante
+tablas o grafos y para representar sistemas de ecuaciones lineales. Formula algebraicamente las restricciones
+indicadas en una situación de la vida real, estudia y clasifica el sistema de ecuaciones lineales planteado, lo
+resuelve en los casos que sea posible, y lo aplica para resolver problemas.
+
+
+B. 2.
+a) Resolución: 0.5 puntos.
+b) Resolución: 1 punto (cálculo de la derivada de f (x): 0.25 puntos; resolución de f ′ (x) = 0: 0.25 puntos;
+clasificación de los extremos relativos: 0.25 puntos por cada extremo).
+c) Planteamiento: 0.25 puntos. Cálculo de la primitiva: 0.5 puntos. Cálculo correcto del área: 0.25 puntos.
+Estándares de aprendizaje evaluados: Conoce las propiedades de las funciones continuas, y representa la
+función en un entorno de los puntos de discontinuidad. Aplica los conceptos de lı́mite y de derivada, ası́ como los
+teoremas relacionados, a la resolución de problemas. Aplica los métodos básicos para el cálculo de primitivas de
+funciones. Calcula el área de recintos limitados por rectas y curvas sencillas o por dos curvas.
+
+
+B. 3.
+a) Por cada verificación: 0.25 puntos.
+b) Planteamiento: 0.5 puntos. Resolución: 0.25 puntos.
+c) Cálculo de una ecuación de la recta: 0.5 puntos (planteamiento: 0.25 puntos; resolución: 0.25 puntos). Área
+del cuadrado: 0.75 puntos (planteamiento: 0.5 puntos; resolución: 0.25 puntos).
+Estándares de aprendizaje evaluados: Obtiene las ecuaciones de rectas y planos en diferentes situaciones.
+Determina ángulos, distancias, áreas y volúmenes utilizando los productos escalar, vectorial y mixto, aplicándolos
+en cada caso a la resolución de problemas geométricos.
+
+
+B. 4.
+a) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+b) Planteamiento: 0.25 puntos. Resolución: 0.25 puntos.
+c) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+Estándares de aprendizaje evaluados: Calcula probabilidades a partir de los sucesos que constituyen una
+partición del espacio muestral. Calcula la probabilidad final de un suceso aplicando la fórmula de Bayes. Utiliza
+un vocabulario adecuado para describir situaciones relacionadas con el azar.
+                                          MATEMÁTICAS II—SOLUCIONES
+                                           Documento de trabajo orientativo
+A.1.
+
+a)
+                                 1 −2m  1                                       
+                                                                               1
+                                 m   2 −1         = 2m2 + m − 1 = 2(m + 1) m −     .
+                                                                               2
+                                 1  −1  1
+            1
+Si m ̸= −1,   el sistema es compatible determinado. Si m = −1 el sistema es compatible indeterminado (la matriz
+            2
+                                                       1
+de coeficientes y la ampliada tienen rango 2). Si m = también es SCI (ambas matrices tienen rango 2).
+                                                       2
+b) La tercera ecuación del sistema es igual a la primera.
+                                                          El sistema se
+                                                                       reduce pues a dos ecuaciones indepen-
+                                                         2          5
+dientes. Las soluciones vienen dadas por (x, y, z) = − λ, λ, 1 + λ , λ ∈ R.
+                                                         3          3
+
+
+A.2.
+                             2
+a) lim f (x) = lim x3 e−1/x = 0 = f (0), por lo que la función es continua en x = 0.
+     x→0         x→0
+
+                                              2
+               f (0 + h) − f (0)       h3 e−1/h               2
+f ′ (0) = lim                    = lim          = lim h2 e−1/h = 0, por lo que la función es derivable en x = 0.
+           h→0         h           h→0     h      h→0
+
+                        2
+b) f (−x) = −x3 e−1/x = −f (x). Por tanto, la función presenta simetrı́a impar.
+      Z 2            Z 2 −1/x2                  2
+          f (x)         e              1 −1/x2          1  −1/4     −1
+                                                                        
+c)              dx =           dx =      e           =     e     − e      .
+       1   x6         1   x3           2                2
+                                                      1
+
+
+
+
+A.3.
+
+a) Un vector director de la recta es −
+                                     →
+                                     u = (1, 2, 1) y las coordenadas del punto de incidencia son (−90, −190, 0).
+b) El punto Q buscado viene dado por la intersección de la trayectoria con el plano π perpendicular a la misma
+que pasa por P ; como π ≡ x + 2y + z − 4 = 0, se tiene que Q (−11, −32, 79).
+c) Un vector normal al plano dado es − →v = (1, 1, 0). Como −  →
+                                                               u ·−
+                                                                  →
+                                                                  v = 3, se tiene que
+                                                                           √
+                                          →
+                                          −   →
+                                              −           3          3        3
+                                      cos( u , v ) = −          =√ √ =          .
+                                                     |→
+                                                      u | · |−
+                                                             →
+                                                             v|     6 2      2
+                                              √ !
+                                π               3      π
+Por tanto, el ángulo pedido es − arccos            = radianes.
+                                2              2       3
+
+
+A.4.
+
+a) Sea X = “n      de mujeres en 10 consejeros”, X ∼ B(10; 0.277).
+             úmero
+                10
+P (X = 5) =         0.2775 · (1 − 0.277)5 ≈ 0.0811878.
+                5
+b) 1 − P (X = 10) = 1 − 0.27710 ≈ 0.999997.
+c) Tenemos que p = 0.277, q = 0.723 y n = 200. Como np > 5 ⇒ la variable X se puede aproximar por
+X ′ ∼ N (55.4; 6.33)
+P (X ⩾ 70) = P (X ′ ⩾ 69.5) = P (Z ⩾ 2.23) = 1 − 0.9871 = 0.0129.
+                                                 SOLUCIONES
+                                          Documento de trabajo orientativo
+B.1.
+
+Denotemos por x, y , z las edades de Pablo, Alejandro y Alicia, respectivamente. Estas variables deben satisfacer
+el siguiente sistema de ecuaciones lineales:
+                                              
+                                               x + y + z = 45
+                                                 x + y − 2z = 3 .
+                                                 x−z =2
+                                              
+
+Pablo tiene 16 años y le corresponden 3360 euros, Alejandro tiene 15 años y le corresponden 3150 euros y Alicia
+tiene 14 años y le corresponden 2940 euros.
+
+
+
+B.2.
+                                                                                             1              1
+a) f (x) es continua en [−1, 1] (propiedades de las funciones continuas), f (−1) = −           < 0, f (1) =   > 0. Sı́
+                                                                                             2              2
+verifica las hipótesis.
+                −x2 + 1
+b) f ′ (x) = 2           = 0 ⇐⇒ x = ±1. La función alcanza un mı́nimo relativo en x = −1 y un máximo relativo en
+               (x + 1)2
+x = 1.
+   Z 1                  Z 1                       1
+             x                 x          2
+                                                    = ln 2 u2 .
+                                                
+c)         2
+                 dx = 2      2
+                                 dx = ln(x + 1)
+    −1 x + 1             0 x +1
+                                                     0
+
+
+B.3.
+
+a) Sustituyendo la expresión de la recta r1 en la ecuación del plano π nos queda 1+λ+1−λ−1 = 1, y sustituyendo
+el punto P en π tenemos la identidad 0 + 1 + 0 = 1. Por tanto, se verifica que la recta r1 está contenida en el
+plano y que el punto P pertenece al mismo.
+b) La recta buscada será la intersección del plano π con el plano que tenga como vector normal al vector director
+de la recta r1 y pase por P . Por lo tanto, sustituyendo
+                                                         P en x − y = D nos queda D = −1. Con esto tenemos la
+                                                       x+y+z =1
+ecuación de la recta buscada en forma implı́cita:                        .
+                                                       x − y = −1
+c) Si r2 y r1 son paralelas
+                             tendrán el mismo vector director ⃗v = (1, −1, 0) y como pasa por el punto P , una
+                       x =  λ
+ecuación de r2 será   y = 1 − λ, λ ∈ R.
+                        z=0
+                      
+La longitud de los lados del cuadrado se puede hallar calculando
+                                                             r          la distancia de P a r1 . El punto intersección de
+                                            
+                                     1 3                        3                            3
+r1 con el plano x − y = −1 es Q       , , −1 y, d(P, r1 ) =       . El área pedida es A = u2 .
+                                     2 2                        2                            2
+
+
+B.4.
+
+a) Se tienen 6 posibles sucesos elementales incompatibles, Bb, Bn, Bc, Nb, Nn y Nc, donde la primera letra indica
+el color del sombrero (Blanco o Negro), y la segunda cómo es el pañuelo (blanco, negro o de cuadros). Se pide
+calcular la probabilidad del suceso Bn ∪ Bc ∪ Nb ∪ Nc. Puesto que los sucesos son incompatibles,
+                                                                                 
+                                                                      2 2 1 2           97
+                      P (Bn ∪ Bc ∪ Nb ∪ Nc) = 1 − P (Bb ∪ Nn) = 1 −     · + ·        =     .
+                                                                      3 9 3 5          135
+
+b) El suceso del que piden la probabilidad es el contrario del suceso Bb, y ası́
+                                                                                       2 2  27 − 4   23
+           P (en algún complemento aparece el color negro) = 1 − P (Bb) = 1 −          · =        =    .
+                                                                                       3 9    27     27
+c) Por la regla de Bayes, se tiene:
+                                                                                                       1 2
+                                                                              
+                                       P sombrero negro y pañuelo de cuadros         P (Nc)            ·        9
+                                                                                                  = 2 53 51 2 =
+                                      
+P sombrero negro|pañuelo de cuadros =                                          =                                  .
+                                              P (pañuelo de cuadros)             P (Bc) + P (Nc)    ·
+                                                                                                    3 9 +  ·
+                                                                                                          3 5
+                                                                                                                34
+

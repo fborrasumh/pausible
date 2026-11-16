@@ -1,0 +1,560 @@
+                         UNIVERSIDADES PÚBLICAS DE LA COMUNIDAD DE MADRID
+                            EVALUACION PARA EL ACCESO A LAS ENSEÑANZAS
+                                 UNIVERSITARIAS OFICIALES DE GRADO
+                                           Curso 2023-2024
+                                 MATERIA: TECNOLOGÍA E INGENIERÍA II
+
+                            INSTRUCCIONES GENERALES Y CALIFICACIÓN
+   Lea atentamente el examen y responda a cinco cuestiones a elegir entre las diez que se proponen.
+   TIEMPO Y CALIFICACIÓN: 90 minutos. Todas las preguntas se calificarán sobre 2 puntos.
+
+
+Cuestión nº1. Una empresa de aerogeneradores está pensando instalarse en una zona de España. Para ello
+ha contratado una oficina de ingeniería para preparar el proyecto técnico y que le aprueben su instalación.
+a) ¿Qué documentos tiene un proyecto técnico? Defina en profundidad uno de ellos. (0,5 puntos)
+b) Para el desarrollo del proyecto con el cliente se ha trabajado una metodología Agile. Cite sus características
+   y beneficios. (0,5 puntos)
+c) ¿Qué es el análisis de viabilidad? (0,5 puntos)
+d) Para que lo apruebe la administración han debido realizar un informe de evaluación de impacto ambiental.
+   ¿Qué es el informe (estudio) de impacto ambiental? Comente alguno de los documentos que debería
+   contener. (0,5 puntos)
+
+
+Cuestión nº2. Sobre una probeta metálica rectangular de 4 mm de espesor y 20 mm de ancho se ha realizado
+un ensayo de tracción uniaxial, utilizando un extensómetro de 50 mm de longitud base, obteniéndose la curva
+carga-alargamiento que se muestra a continuación.
+         80
+
+         70
+
+         60
+
+         50
+
+F (kN)   40
+
+         30
+
+         20
+
+         10
+
+          0
+              0    1          2          3           4              5    6           7          8          9
+                                                           L (mm)
+a) Obtenga, razonando cada paso de la respuesta, el módulo de elasticidad del material (en GPa). (0,75 puntos)
+b) Determine razonadamente el diámetro que debería tener una barra cilíndrica de un sistema que trabaja a
+   tracción uniaxial para no romper en servicio al ser sometido a una carga de tracción 255 kN, con un
+   coeficiente de seguridad de 2,2. (0,75 puntos)
+c) Calcule la deformación total (en %) que experimentó la probeta durante el ensayo, razonando si el material
+   es dúctil o frágil a partir del resultado obtenido. (0,5 puntos)
+Cuestión nº3. Dado el diagrama de equilibrio para el sistema Pb-Sn de la figura, responda razonadamente a
+las siguientes cuestiones.
+
+
+
+
+                                       18,3                                 97,8
+
+
+
+
+a) Indique si alguno de los elementos puros del diagrama presenta cambios alotrópicos (0,25 puntos). Indique
+   cuál sería la solubilidad máxima del estaño en el plomo. (0,25 puntos)
+b) Calcule el porcentaje de fases α y β presentes a 100 ºC en una aleación con un 30% de Sn. (0,5 puntos)
+c) Describa el proceso de enfriamiento desde 300 ºC hasta 180 ºC para una aleación con un 61,9% de Sn. (0,5
+   puntos)
+d) Sabiendo que la aleación con un 61,9% de Sn se puede utilizar para fabricar piezas mediante moldeo,
+   explique tres ventajas y tres inconvenientes de obtener una pieza mediante fabricación aditiva en lugar de
+   mediante moldeo convencional. (0,5 puntos)
+
+
+Cuestión nº4. De la viga que se muestra en la figura:
+a) Indique de qué tipo de viga se trata según sus apoyos. (0,5 puntos)
+b) Calcule las reacciones en los apoyos. (0,5 puntos)
+c) Represente los diagramas del esfuerzo cortante y del momento flector. (1 punto)
+
+
+
+
+Cuestión nº5. En una zona de la ciudad donde la temperatura media exterior es de 12 °C se quiere habilitar
+un local para oficina. Para que la habitabilidad para el trabajo sea adecuada se requiere el empleo de una
+bomba de calor de 100 kW de potencia para mantener la temperatura en su interior a 22 °C. Sabiendo que la
+bomba de calor funciona conforme a un ciclo de Carnot reversible, calcule:
+a) La eficiencia de la máquina. (0,5 puntos)
+b) El calor aportado al interior del local. (0,75 puntos)
+c) El calor retirado del exterior. (0,75 puntos)
+
+
+Cuestión nº6. Se tiene un cilindro de doble efecto con un radio de émbolo de 40 mm, un radio de vástago de
+10 mm y una carrera del pistón de 60 mm. La presión de trabajo es de 6 bar y se considera una fuerza de
+rozamiento del 10% de la fuerza teórica.
+a) Calcule la fuerza efectiva del émbolo tanto en el avance como en el retroceso. (1 punto)
+b) Obtenga el volumen del cilindro completo (expresado en mm3). (0,5 puntos)
+c) Suponiendo una presión atmosférica de 1 bar, calcule el consumo de aire que necesita el cilindro para
+   funcionar correctamente (expresado en mm3). (0,5 puntos)
+Cuestión nº7. Un generador E de tensión alterna sinusoidal, tiene una tensión entre sus bornes cuyo valor
+eficaz es 25 V, trabaja a una frecuencia de 50 Hz y se conecta a un conjunto de impedancias según el siguiente
+esquema:
+
+
+
+
+                                   Datos:     R1=25 Ω ; R2=6,66 Ω ; L=16 mH
+
+Nota: Para todo el problema, considere como origen de fases la tensión del generador.
+a) Determine el valor de la expresión temporal, e(t) del generador. (0,5 puntos)
+b) Determine el valor eficaz de la corriente que circula por la rama 2. (0,5 puntos)
+c) Determine el valor del desfase entre la corriente de la rama 2 y la tensión del generador. (0,25 puntos)
+d) Determine el valor de la potencia activa y factor de potencia en el generador. (0,75 puntos)
+
+
+Cuestión nº8. Tras el análisis de cierto problema de control, se ha llegado a la siguiente       A   B    C     D   F
+tabla de verdad para el diseño de un sistema combinacional. Las X en algunos valores de          0   0    0     0   1
+la función de salida indican que para esas combinaciones de las señales de entrada, el           0   0    0     1   X
+valor de la salida es indiferente.                                                               0   0    1     0   X
+a) Obtenga la expresión de la función lógica de la función F en su forma canónica como           0   0    1     1   X
+    suma de productos (minterms). (0,5 puntos)                                                   0   1    0     0   1
+b) Simplifique la función de salida mediante el Método de Karnaugh. (1 punto)                    0   1    0     1   X
+c) Implemente el circuito usando puertas lógicas. (0,5 puntos)                                   0   1    1     0   0
+                                                                                                 0   1    1     1   X
+                                                                                                 1   0    0     0   1
+                                                                                                 1   0    0     1   X
+                                                                                                 1   0    1     0   X
+                                                                                                 1   0    1     1   X
+                                                                                                 1   1    0     0   1
+                                                                                                 1   1    0     1   X
+                                                                                                 1   1    1     0   1
+                                                                                                 1   1    1     1   0
+
+Cuestión nº9.
+a) Comente las diferencias, ventajas e inconvenientes de las bases de datos distribuidas y las bases de datos
+   relacionales. (1 punto)
+b) Defina los siguientes cinco conceptos: ciberseguridad, phishing, virus troyano, spam y cortafuegos o firewall.
+   (1 punto)
+
+
+Cuestión nº10. Se desea construir un sistema de control realimentado sobre un proceso cuya función de
+transferencia es G. Para ello, se cierra el lazo de realimentación incluyendo un controlador C.
+
+
+
+
+a) Identifique en la figura las siguientes señales: error, referencia, salida, señal de control. (0,5 puntos)
+b) Calcule la función de transferencia entre 1 y 2. (0,75 puntos)
+c) Calcule la función de transferencia entre 1 y 4. (0,75 puntos)
+                                   TECNOLOGÍA E INGENIERIA II
+                              CRITERIOS ESPECIFICOS DE CORRECCION
+
+Se tendrá en cuenta en la calificación de la prueba:
+1.- Claridad de comprensión y aplicación de conceptos.
+2.- Capacidad de análisis y relación.
+3.- Desarrollo de la resolución de forma coherente y uso correcto de unidades.
+
+Cada pregunta se podrá calificar con un máximo de 2 puntos con la siguiente distribución:
+
+Cuestión nº1: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 0,5 puntos
+       Apartado b: 0,5 puntos
+       Apartado c: 0,5 puntos
+       Apartado d: 0,5 puntos
+Cuestión nº 2: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 0,75 puntos
+       Apartado b: 0,75 puntos
+       Apartado c: 0,5 puntos
+Cuestión nº 3: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 0,5 puntos
+       Apartado b: 0,5 puntos
+       Apartado c: 0,5 puntos
+       Apartado d: 0,5 puntos
+Cuestión nº 4: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 0,5 puntos
+       Apartado b: 0,5 puntos
+       Apartado c: 1,0 puntos
+Cuestión nº 5: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 0,5 puntos
+       Apartado b: 0,75 puntos
+       Apartado c: 0,75 puntos
+Cuestión nº 6: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 1,0 puntos
+       Apartado b: 0,5 puntos
+       Apartado c: 0,5 puntos
+Cuestión nº 7: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 0,5 puntos
+       Apartado b: 0,5 puntos
+       Apartado c: 0,25 puntos
+       Apartado d: 0,75 puntos
+Cuestión nº 8: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 0,5 puntos
+       Apartado b: 1,0 puntos
+       Apartado c: 0,5 puntos
+Cuestión nº 9: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 1,0 puntos
+       Apartado b: 1,0 puntos
+Cuestión nº 10: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 0,5 puntos
+       Apartado b: 0,75 puntos
+       Apartado c: 0,75 puntos
+                                               SOLUCIONES
+                                        TECNOLOGÍA E INGENIERIA II
+                                      (Documento de Trabajo Orientativo)
+
+Cuestión nº1.
+
+a) Los documentos en los que se divide un proyecto técnico son:
+    1. Memoria: Es un documento que describe de forma clara los objetivos del proyecto, las soluciones
+       posibles planteadas, la solución escogida y las razones para escogerla.
+    2. Planos: Los planos son la representación gráfica de un proyecto e indican lo que se tiene que construir
+       o instalar. Comprenden todos los dibujos, esquemas y figuras que ayudan a entender de forma visual
+       el proyecto.
+    3. Pliego de Condiciones: En el pliego de condiciones se establecen las condiciones en que debe
+       ejecutarse un proyecto, los plazos y el detalle de actividades. Se considera un elemento contractual, por
+       lo que su redacción debe ser rigurosa.
+    4. Mediciones y Presupuesto: Las mediciones son las unidades en que se va a realizar el proyecto. El
+       presupuesto es el documento en el que se recoge el coste total del mismo.
+    5. Anexos: Se incluyen todos los documentos que pueden ser requeridos por exigencias legales. Por
+       ejemplo: Estudio de seguridad y salud y estudio de impacto ambiental.
+
+b) Metodologías Agile. Se denominan metodologías agile o ágiles a un conjunto de estrategias de trabajo en
+equipo que buscan flexibilidad y la inmediatez en el desarrollo de un proyecto.
+Características: Las metodologías ágiles están basadas en cuatro principios de trabajo fundamentales:
+    1. Fragmentación: En lugar de intentar resolver todo el problema el equipo divide el proyecto en pequeñas
+       partes que se tratan de resolver de forma muy rápida para que los avances sean más eficientes.
+    2. Cooperación: Todos los implicados interaccionan y trabajan como un único equipo.
+    3. Sencillez: Se documenta todo el proceso de forma suficiente y se utilizan métodos y herramientas
+       sencillas.
+    4. Adaptación: Se tratan conjuntamente la planificación y la ejecución para poder responder de forma
+       eficaz a los cambios que se produzcan a lo largo del proyecto.
+Beneficios: Buscan la inmediatez y la flexibilidad, para lo cual adaptan la forma de trabajar a las condiciones
+del proyecto. De esta forma se puede dar una respuesta rápida, adecuando el proyecto a las circunstancias
+que vayan surgiendo durante su desarrollo.
+
+c) El análisis de viabilidad de un proyecto consiste en un grupo de informes que se realizan para decidir si la
+empresa se debe embarcar en el proyecto. El análisis de viabilidad debe incluir al menos las siguientes
+evaluaciones:
+    1. Evaluación de la viabilidad económica.
+    2. Evaluación de la viabilidad legal.
+    3. Evaluación de la viabilidad técnica.
+    4. Evaluación de la viabilidad operativa.
+
+d) El informe de evaluación del impacto ambiental es el documento técnico en que se recoge todo el proceso
+administrativo, establecido por la ley, en el cual se analizan los efectos que tiene sobre el medio ambiente el
+desarrollo de un proyecto.
+El estudio de impacto ambiental debe contener:
+    1. Una descripción detallada del proyecto y una estimación de los residuos y emisiones que su desarrollo
+        generaría a lo largo del tiempo.
+    2. Principales alternativas estudiadas y justificación de la elección del proyecto planteado.
+    3. Relación pormenorizada de todos los efectos que el proyecto tendrá sobre la población, la salud, la
+        vegetación, la fauna, el agua, el aire, los acuíferos subterráneos, el patrimonio histórico y artístico, etc.
+    4. Medidas propuestas para minimizar los efectos negativos previstos.
+    5. Programa de vigilancia ambiental que garantice el cumplimiento de las medidas contempladas en el
+        estudio.
+    6. Resumen y conclusiones.
+Cuestión nº2.
+
+a) El módulo elástico es la constante de proporcionalidad entre la tensión aplicada y la deformación que
+experimenta el material en el régimen elástico. Se obtiene por tanto tomando un valor de tensión en el tramo
+elástico y dividiendo entre la deformación correspondiente producida.
+Eligiendo, por ejemplo, una carga de 50 kN, y dado que la sección transversal inicial de la probeta es S0 = 4 x
+20 mm2 = 80 mm2 la tensión correspondiente sería:
+                                     = F / S0 = 50000 N / 80 mm2 = 625 MPa
+Para ese valor de fuerza, el alargamiento que experimenta la probeta, según se ve en el gráfico, es de 0,4 mm.
+Como la longitud base del extensómetro utilizado para tomar datos es Le = 50 mm, la deformación se obtiene
+como:
+                                   = L / Le = 0,4 mm / 50 mm = 0,008 mm/mm
+Finalmente, el módulo elástico será:
+                                 E = / = 625 MPa / 0,008 mm/mm = 78,1 GPa.
+
+b) El material romperá en servicio al aplicar una carga de tracción cuando se alcance la resistencia a tracción
+(o tensión de rotura) del mismo. La resistencia a tracción se obtiene como el cociente entre la carga máxima
+soportada en el ensayo de tracción y la superficie transversal inicial de la probeta.
+                                 Rm = R = Fmax / S0 = 76000 N / 80 mm2 = 950 MPa
+Si debe soportar 255 KN con un coeficiente de seguridad de 2,2, implica que la rotura no debe producirse
+cuando se le apliquen 2,2 * 255 kN = 561 kN. La sección transversal de la barra que debe soportar esas cargas
+se obtiene como:
+                                            R = 950 MPa = 561000 N / Sbarra
+                                       Sbarra = 561000 N / 950 MPa = 590,5 mm2
+Y al tratarse de una barra de sección circular, Sbarra =  r2, luego el radio de dicha barra será 13,7 mm.
+
+c) Según la curva carga-alargamiento el material habría experimentado un alargamiento máximo antes de la
+rotura L = 8,5 mm con lo que la deformación total que experimentó la probeta de ensayo fue:
+                                      max = Lmax / Le = 8,5 mm / 50 mm = 0,17
+                                                      max = 17 %
+A la vista de ese valor puede decirse que el material es dúctil, esto es, capaz de deformarse plásticamente de
+forma apreciable bajo la acción de cargas y previo a la rotura.
+
+
+Cuestión nº3.
+
+a) No, ni el estaño ni el plomo como elementos puros presentan cambios alotrópicos, la única temperatura a la
+que se produce un cambio de fase en el diagrama en el Pb puro en el Sn puro es su respectiva temperatura de
+fusión.
+La solubilidad máxima del estaño en el plomo es del 18,3% Sn (a 183 ºC), siendo la máxima composición a la
+que se puede tener una solución sólida α homogénea.
+
+b) A 150 ºC las fases presentes en equilibrio son α (5% Sn) y Sn puro. Aplicando la regla de la palanca para
+una aleación del 30% Sn:
+                                                  100 − 30
+                                           %𝛼 =            100 = 73,7 %
+                                                   100 − 5
+                                          30 − 5
+                                  %Sn =           100 = 26,3 %
+                                          100 − 5
+
+c) La aleación de Pb con un 61,9% de Sn es una aleación eutéctica. A 300 ºC el material
+estará en estado líquido. Al bajar la temperatura, se mantiene el estado líquido hasta los
+183 ºC. A esa temperatura el material solidifica, transformándose en equilibrio en fase α
+(18,3% Sn) y fase β (97,8% Sn), con una morfología de láminas alternas de ambas fases,
+característica de las transformaciones eutécticas, que será la microestructura que se
+observará a 180ºC. (Se puede dibujar la microestructura como parte de la explicación).
+d) Deben comentarse tres de entre las diferentes ventajas de la fabricación aditiva:
+  1. Permite realizar geometrías específicas que optimizan la distribución de cargas soportadas por las
+      estructuras, con un importante ahorro de material y reducción de peso final.
+  2. Al no necesitar muchas operaciones de mecanizado posterior al moldeo (en las que se produce
+      eliminación de material), se reduce el residuo generado y se minimiza el impacto ambiental.
+  3. Permite el acceso a geometrías imposibles por técnicas de moldeo (ejemplo, piezas sin acceso a huecos
+      internos).
+  4. Permite fabricar piezas y elementos completos reduciendo la necesidad de realizar uniones (soldaduras,
+      ensambles mecánicos, etc.), lo que reduce la complejidad del sistema, los gastos de mantenimiento y el
+      riesgo de fallo asociado a la mala calidad de las uniones.
+  5. Se reducen las etapas de fabricación frente a técnicas más convencionales.
+  6. Por tanto, permite personalizar y modificar fácilmente el producto final, realizar series pequeñas a medida
+      con precios más bajos y acercar la producción al consumidor final.
+  7. Se reducen los costes de material, fabricación y transporte, así como la emisión de gases de efecto
+      invernadero, siendo un método de producción más sostenible.
+Entre los inconvenientes:
+  1. Puede requerir equipos de alto coste inicial de inversión, así como técnicos cualificados para su manejo
+      y mantenimiento, sobre todo en el caso de materiales metálicos.
+  2. Solo está desarrollada la tecnología para ciertos tipos de materiales.
+  3. Puede ser difícil controlar las tolerancias dimensionales o el acabado superficial, o las propiedades en
+      determinadas direcciones según la técnica de fabricación.
+  4. Puede no ser adecuado para piezas de gran tamaño, o para ciertas geometrías (chapas, barras…).
+  5. Puede no ser adecuado para producción en serie.
+
+
+Cuestión nº4.
+
+a) Se trata de una viga simplemente apoyada, con un apoyo simple en el extremo A, y un apoyo articulado en
+el apoyo B.
+
+b) En ambos apoyos aparecen reacciones verticales: 𝑅𝐴 y 𝑅𝐵 .
+
+
+
+
+   Por equilibrio de fuerzas verticales:
+                                               𝑅𝐴 + 𝑅𝐵 = 40 𝑘𝑁
+
+   Por equilibrio de momentos en el apoyo A:
+                                                40 − 𝑅𝐵 · 4 = 0
+
+   Se tiene así un sistema de dos ecuaciones con dos incógnitas:
+                                                  𝑅𝐴 = 30 𝑘𝑁
+                                                  𝑅𝐵 = 10 𝑘𝑁
+
+c) Diagramas de esfuerzos cortantes y momentos flectores:
+
+   -   Tramo: 0 𝑚 ≤ 𝑥 ≤ 1 𝑚
+                                                   𝑉(𝑥) = 𝑅𝐴 = 30 𝑘𝑁
+
+                                             𝑀(𝑥) = 𝑅𝐴 · 𝑥 = 30𝑥 𝑘𝑁 · 𝑚
+
+    -   Tramo: 1 𝑚 ≤ 𝑥 ≤ 4 𝑚
+                                             𝑉(𝑥) = 𝑅𝐴 − 40 = −10 𝑘𝑁
+
+                                   𝑀(𝑥) = 𝑅𝐴 · 𝑥 − 40(𝑥 − 1) = 40 − 10𝑥 𝑘𝑁 · 𝑚
+
+
+
+
+Cuestión nº5.
+
+En primer lugar, ponemos el valor de las temperaturas en Kelvin:
+                                      𝑇𝑒𝑥𝑡𝑒𝑟𝑖𝑜𝑟 = 𝑇𝑓 = 12 + 273 = 285 𝐾
+                                      𝑇𝑖𝑛𝑡𝑒𝑟𝑖𝑜𝑟 = 𝑇𝑐 = 22 + 273 = 295 𝐾
+
+a) Para una bomba de calor de Carnot la eficiencia de la máquina:
+                                                            𝑇𝑐            295
+                                                   𝜀′ =             =               = 29,5
+                                                          𝑇𝑐 − 𝑇𝑓       295 − 285
+
+b) El calor aportado al interior del local es:
+                                                  𝑄𝑐 = 𝜀 ′ · 𝑊 = 29,5 · 100 = 2950 𝑘𝑊
+
+c) El calor retirado del exterior es:
+                                                 𝑄𝑓 = 𝑄𝑐 − 𝑊 = 2950 − 100 = 2850 𝑘𝑊
+Cuestión nº6.
+
+a) Fuerza en el avance:
+                                       2                           2
+                           𝐹𝑎𝑣𝑎 = 𝜋 · 𝑅𝑒𝑚𝑏 · 𝑃 − 𝐹𝑟𝑜𝑧 = 0,9 · 𝜋 · 𝑅𝑒𝑚𝑏 · 𝑃 = 2714 𝑁
+
+Fuerza en el retroceso:
+                              2      2 )                          2      2 )
+                𝐹𝑟𝑒𝑡𝑟 = 𝜋 · (𝑅𝑒𝑚𝑏 − 𝑅𝑣𝑎𝑠 · 𝑃 − 𝐹𝑟𝑜𝑧 = 0,9 · 𝜋 · (𝑅𝑒𝑚𝑏 − 𝑅𝑣𝑎𝑠 · 𝑃 = 2545 𝑁
+
+b) Volumen del cilindro completo:
+                                         𝜋       2      2 )
+                                𝑉𝑐𝑖𝑙 =     (2 · 𝐷𝑒𝑚𝑏 − 𝐷𝑣𝑎𝑠 · 𝐿 = 584336 𝑚𝑚3
+                                         4
+c) Consumo de aire:
+                                                   𝑃𝑎𝑏𝑠 = 𝑃 + 𝑃𝑎𝑡𝑚
+
+Aplicando la ley de Boyle-Mariotte:
+                                               𝑃𝑎𝑏𝑠 · 𝑉𝑐𝑖𝑙 = 𝑃𝑎𝑡𝑚 · 𝑉𝑎𝑖𝑟𝑒
+
+                                      𝑃𝑎𝑏𝑠 · 𝑉𝑐𝑖𝑙 (𝑃 + 𝑃𝑎𝑡𝑚 ) · 𝑉𝑐𝑖𝑙
+                            𝑉𝑎𝑖𝑟𝑒 =              =                   = 4090353 𝑚𝑚3
+                                        𝑃𝑎𝑡𝑚           𝑃𝑎𝑡𝑚
+
+
+Cuestión nº7.
+
+a)
+                                              𝑒(𝑡) = 𝐸𝑚𝑎𝑥 · 𝑠𝑒𝑛(𝜔 · 𝑡)
+Donde:
+                          𝐸𝑚𝑎𝑥 = 𝐴𝑚𝑝𝑙𝑖𝑡𝑢𝑑 = √2 · 𝑉𝑎𝑙𝑜𝑟 𝑒𝑓𝑖𝑐𝑎𝑧               y   𝜔 = 2𝜋 · 𝑓
+Por lo tanto:
+                                          𝑒(𝑡) = √2 · 25 · 𝑠𝑒𝑛 (100𝜋 · 𝑡)
+
+b)
+                                              𝐸
+                                       𝐼2 =     ; 𝑍 = √𝑅22 + 𝑋𝐿2 ; 𝑋𝐿 = 𝜔 · 𝐿
+                                              𝑍
+
+                          𝑋𝐿 = 100𝜋 · 16 · 10−3 = 5 Ω ; Z = √6,662 + 52 = 8,33 Ω
+
+                                                            25
+                                                    𝐼2 =        =3𝐴
+                                                           8,33
+c)
+                               𝑋𝐿
+           𝑑𝑒𝑠𝑓𝑎𝑠𝑒 = 𝑎𝑟𝑐𝑡𝑔 (      ) = 36,87° (𝑒𝑛 𝑟𝑒𝑡𝑟𝑎𝑠𝑜, 𝑝𝑜𝑟 𝑡𝑟𝑎𝑡𝑎𝑟𝑠𝑒 𝑑𝑒 𝑢𝑛𝑎 𝑟𝑎𝑚𝑎 𝑖𝑛𝑑𝑢𝑐𝑡𝑖𝑣𝑎)
+                               𝑅2
+
+b y c) Solución con números complejos:
+
+                                          𝑍2 = 𝑅2 + 𝑗𝑋𝐿 ;       𝑋𝐿 = 𝜔 · 𝐿
+
+                          𝑋𝐿 = 100𝜋 · 16 · 10−3 = 5 Ω ; Z2 = 6,66 + 𝑗 5 = 8,33⌊36,87°
+
+                                         𝐸⌊0°      25⌊0°
+                                 𝐼2 =         =             = 3⌊−36,87° = 2,4 − 𝑗 1,8
+                                         𝑍2     8,33⌊36,87°
+
+Valor eficaz = 3 A
+Desfase = −36,87°
+ d)
+                        𝑃𝑔𝑒𝑛 = 𝑃𝑅1 + 𝑃𝑅 2 = 𝐼12 · 𝑅1 + 𝐼22 · 𝑅2 = 12 · 25 + 32 · 6,66 = 85 𝑊
+
+                                𝑄𝑔𝑒𝑛 = 𝑄𝐿 = 𝐼22 · 𝑋𝐿 = 32 · 5 = 45 𝑣𝑎𝑟 (𝑖𝑛𝑑𝑢𝑐𝑡𝑖𝑣𝑎)
+
+                                                    2 + 𝑄2
+                                          𝑆𝑔𝑒𝑛 = √𝑃𝑔𝑒𝑛   𝑔𝑒𝑛 = 96,18 𝑉𝐴
+
+                                                             𝑃𝑔𝑒𝑛
+                                                 𝑓. 𝑑. 𝑝 =        = 0,883
+                                                             𝑆𝑔𝑒𝑛
+
+ d) Solución con números complejos:
+                                                   𝐸   25⌊0°
+                                            𝐼1 =     =       = 1 ⌊0° = 1 + 𝑗 0
+                                                   𝑅1 25⌊0°
+
+                         ⃗⃗⃗⃗⃗⃗⃗
+                         𝐼𝑔𝑒𝑛 = ⃗⃗𝐼1 + ⃗⃗⃗
+                                       𝐼2 = (1 + 𝑗 0) + (2,4 − 𝑗 1,8) = 3,4 − 𝑗1,8 = 3,84⌊−27,89°
+
+                                 𝑃𝑔𝑒𝑛 = 𝐸 · 𝐼 · cos 𝜑 = 25 · 3,84 · cos(−27,89°) = 85 𝑊
+
+                                         𝑓. 𝑑. 𝑝. = cos 𝜑 = cos(−27,89°) = 0,883
+
+
+ Cuestión nº8.
+
+ a) La expresión de la función, como suma de minterms, es:
+
+          𝐹(𝐴, 𝐵, 𝐶, 𝐷) = (𝐴̅𝐵̅ 𝐶̅ 𝐷
+                                   ̅ ) + (𝐴̅𝐵𝐶̅ 𝐷
+                                                ̅ ) + (𝐴𝐵̅ 𝐶̅ 𝐷
+                                                              ̅ ) + (𝐴𝐵𝐶̅ 𝐷
+                                                                          ̅ ) + (𝐴𝐵𝐶𝐷
+                                                                                    ̅)
+
+          O también F(A,B,C,D)= m(0, 4, 8, 12, 14)
+
+
+ b) Simplificar por Karnaugh (cualquiera de las dos soluciones es válida)
+
+        Agrupando 1s (suma de productos)                       Agrupando 0s (producto de sumas)
+
+
+
+
+      La ecuación es 𝐹(𝐴, 𝐵, 𝐶, 𝐷) = 𝐶̅ + 𝐴𝐷
+                                           ̅                                                ̅ (𝐴 + 𝐶̅ )
+                                                             La ecuación es 𝐹(𝐴, 𝐵, 𝐶, 𝐷) = 𝐷
+
+d) Implementación del esquemático (solo se usan puertas NOT, AND y OR):
+
+               Suma de productos                               Producto de sumas
+Cuestión nº9.
+
+a) La principal propiedad de las bases de datos distribuidas es la escalabilidad y la facilidad de acceso, por lo
+que tiene un alto rendimiento cuando el número de datos es muy grande.
+Las bases de datos relacionales almacenan y proporcionan acceso a puntos de datos relacionados entre sí.
+Son menos voluminosas y más sencillas de manejar, pero tienen peor rendimiento y no son escalables.
+b) Ciberseguridad: Es la práctica de proteger sistemas informáticos, redes de ordenadores y programas de
+ataques digitales. Estos ciberataques suelen tener como objetivo acceder, cambiar o destruir información
+sensible; extorsionar a los usuarios o interrumpir los procesos comerciales normales.
+Phishing: Técnica de ingeniería social que consiste en el envío de correos electrónicos o sitios web falsos para
+suplantar la identidad de compañías u organismos públicos y conseguir información personal del usuario. Muy
+utilizado en entornos bancarios.
+Virus troyano: Virus que instala una aplicación en el ordenador infectado y que permite acceder a él de forma
+remota.
+Spam: Es cualquier forma de comunicación no solicitada que se envía de forma masiva. Suele ser habitual en
+correos electrónicos.
+Cortafuegos o firewall: Sistema cuya función es prevenir y proteger los accesos a la red de intrusiones o ataques
+de otras redes, bloqueándole el acceso. Permite tráfico entrante y saliente entre redes u ordenadores de una
+misma red siempre que cumpla con una serie de reglas previamente especificadas, si no las cumple este tráfico
+se bloquea.
+
+
+Cuestión nº10.
+
+a) 1:referencia; 2:error; 3:señal de control; 4:salida
+
+
+
+
+b) Los bloques que están en serie se agrupan multiplicando, 𝐶 · 𝐺 . Teniendo en cuenta que la salida (punto 4)
+es 𝑌 = 𝐶 · 𝐺 · 𝐸 y que en el punto de suma el error (punto 2) es 𝐸 = 𝑅 − 𝑌 (siendo R el valor de referencia,
+punto 1), combinando ambas expresiones se obtiene 𝐸 = 𝑅 − 𝐶 · 𝐺 · 𝐸 . Finalmente, despejando, se obtiene:
+                                                           1
+                                                 𝐸/𝑅 =
+                                                         1+𝐶·𝐺
+
+c) Siguiendo el mismo razonamiento anterior, se obtiene 𝑌 = 𝐶 · 𝐺 · 𝐸 = 𝐶 · 𝐺 · (𝑅 − 𝑌), y despejando:
+                                                          𝐶·𝐺
+                                                 𝑌/𝑅 =
+                                                         1+𝐶·𝐺
+                                                         .
+                                               ORIENTACIONES
+
+Este modelo de examen se ha preparado de acuerdo a la descripción de bloques y contenidos de la asignatura
+que establece el decreto 64/2022.
+
+El modelo consiste en 10 preguntas de 2 puntos cada una (el alumno elige 5) con la siguiente distribución
+respecto de los bloques de contenidos de la asignatura:
+
+1. Proyectos de investigación y desarrollo + Tecnología sostenible.
+2. Materiales y fabricación: Estructura, propiedades y ensayos.
+3. Materiales y fabricación: Tratamientos y técnicas de fabricación.
+4. Sistemas mecánicos: Estructuras.
+5. Sistemas mecánicos: Máquinas térmicas.
+6. Sistemas mecánicos: Neumática e hidráulica.
+7. Sistemas eléctricos y electrónicos: Circuitos de corriente alterna.
+8. Sistemas eléctricos y electrónicos: Electrónica digital.
+9. Sistemas informáticos emergentes.
+10. Sistemas automáticos.
+

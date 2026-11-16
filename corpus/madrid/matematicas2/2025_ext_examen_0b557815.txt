@@ -1,0 +1,293 @@
+                       UNIVERSIDADES PÚBLICAS DE LA COMUNIDAD DE MADRID
+                                    PRUEBA DE ACCESO A LA UNIVERSIDAD                                          C
+                                              Curso 2024-2025
+                                         MATERIA: MATEMÁTICAS II
+                               INSTRUCCIONES GENERALES Y CALIFICACIÓN
+Después de leer atentamente el examen, responda razonadamente a una pregunta en cada uno de los cuatro
+bloques, tres de ellos con optatividad y uno sin optatividad. Todas las respuestas deberán estar debidamente
+justificadas.
+CALIFICACIÓN: Cada bloque se calificará sobre 2.5 puntos.
+TIEMPO: 90 minutos.
+
+
+
+Bloque 1. (Calificación máxima: 2.5 puntos) Responda a una de las dos preguntas siguientes:
+
+Pregunta 1.1. (2.5 puntos) En una granja se crı́an conejos, gallinas y pavos. El coste diario de la comida por
+animal es de 1.50 euros si es conejo, de 4 céntimos de euro si es gallina, y de 30 céntimos de euro si se trata de
+un pavo. El coste diario en comida para estos animales en la granja asciende a 44 euros. Se sabe que hay tantas
+gallinas como cuatro veces el número de pavos más la cuarta parte de los conejos. Además el doble del número
+de gallinas es igual a la suma de conejos y pavos más diez veces el número de conejos. Se pide averiguar el
+número de animales de cada tipo en la granja.
+                                                                               
+                                                  0 1 2                  1 3 0
+Pregunta 1.2. Dadas las matrices reales A =  1 3 a  y B =  a 1 0 , se pide:
+                                                  a 0 0                  0 0 1
+
+  a) (1.25 puntos) Estudiar para qué valores del parámetro real a la matriz AB tiene rango 3.
+  b) (1.25 puntos) Calcular la inversa de B para los valores de a en los que sea posible.
+
+
+
+Bloque 2. (Calificación máxima: 2.5 puntos) Responda a una de las dos preguntas siguientes:
+                                                 e                   1
+Pregunta 2.1. Sean las funciones: f (x) =            ,     g(x) =       .
+                                              ex − e                x−1
+  a) (1 punto) Calcule el lı́mite lı́m (f (x) − g(x)).
+                                  x→1
+
+  b) (0.75 puntos) Estudie el crecimiento y decrecimiento de f (x) en su dominio.
+  c) (0.75 puntos) Estudie las ası́ntotas de la función g(x) + g(−x).
+
+Pregunta 2.2. Sea la parábola gráfica de la función f (x) = −x2 + 4.
+
+  a) (1 punto) Halle el área de la región acotada delimitada por y = 0 y la gráfica de la función f (x).
+  b) (1.5 puntos) Halle las dimensiones del rectángulo de mayor área apoyado sobre el eje OX que se puede
+     inscribir en la parábola de manera que los lados sean paralelos dos a dos con los ejes de coordenadas.
+     ¿Cuál es el área de dicho rectángulo?
+Bloque 3. (Calificación máxima: 2.5 puntos) Responda a una de las dos preguntas siguientes:
+                                                       x−1  y  z−2
+Pregunta 3.1. Sean el punto A(1, 2, 3), la recta r ≡       = =     y el plano π : x + 2y − 2z = 1. Se pide:
+                                                        2   0   1
+  a) (0.75 puntos) Calcular la distancia de la recta r al plano π.
+  b) (0.75 puntos) Hallar la proyección ortogonal del punto A sobre la recta r.
+  c) (1 punto) Calcular el volumen del tetraedro formado por el origen de coordenadas y los puntos de corte con
+     los ejes coordenados de un plano que pasa por A y es paralelo a π.
+
+Pregunta 3.2. Sea S el segmento de recta que une los puntos A(0, 1, 0) y B(1, 0, 1). Se pide:
+
+  a) (1.5 puntos) Hallar un punto sobre S que cumpla que su distancia al punto A sea el doble que su distancia
+     al punto B.
+  b) (1 punto) Hallar una ecuación del plano perpendicular a S que pasa por el punto medio de S.
+
+
+
+Bloque 4. (Calificación: 2.5 puntos) Responda a la pregunta siguiente:
+
+Pregunta 4. Una compañı́a ferroviaria tiene el siguiente compromiso de puntualidad en sus trenes de larga
+distancia: si un tren llega a destino con un retraso de entre 30 y 60 minutos devuelve la mitad del importe del
+billete a sus usuarios. Si el retraso es de más de una hora, devuelve el importe completo del billete. En los
+trayectos entre las ciudades A y B, según la compañı́a, el 80 por ciento de los trenes llegan puntuales o con
+retraso inferior a la media hora, el 15 por ciento con retraso de entre 30 y 60 minutos y el resto con retraso superior
+a una hora.
+
+  a) (1 punto) Un usuario enfurecido escribe este post en una red social: ”De los cuarenta trayectos que hice el
+     año pasado entre A y B, en diez trayectos llegué con retraso de más de una hora. Según mis cálculos, esto
+     deberı́a haber ocurrido con una probabilidad menor de una entre un millón.”¿Ha hecho bien los cálculos el
+     usuario enfurecido?
+
+  b) (1.5 puntos) En enero de 2025 la compañı́a ha realizado seis trayectos entre A y B cada dı́a. Asumiendo
+     la veracidad de los datos de la compañı́a y aproximando por una normal, calcular la probabilidad de que
+     como mucho en una sexta parte de los trayectos la compañı́a ferroviaria haya tenido que devolver dinero a
+     los usuarios.
+                                      Distribución Normal
+
+
+
+
+                                                                          z
+Ejemplo: si Z tiene distribución N(0, 1), P (Z < 0,45) = 0,6736.
+
+
+z       0,00       0,01       0,02       0,03       0,04       0,05     0,06     0,07     0,08     0,09
+0,0   0,5000     0,5040     0,5080     0,5120     0,5160     0,5199   0,5239   0,5279   0,5319   0,5359
+0,1   0,5398     0,5438     0,5478     0,5517     0,5557     0,5596   0,5636   0,5675   0,5714   0,5753
+0,2   0,5793     0,5832     0,5871     0,5910     0,5948     0,5987   0,6026   0,6064   0,6103   0,6141
+0,3   0,6179     0,6217     0,6255     0,6293     0,6331     0,6368   0,6406   0,6443   0,6480   0,6517
+0,4   0,6554     0,6591     0,6628     0,6664     0,6700     0,6736   0,6772   0,6808   0,6844   0,6879
+0,5   0,6915     0,6950     0,6985     0,7019     0,7054     0,7088   0,7123   0,7157   0,7190   0,7224
+
+0,6   0,7257     0,7291     0,7324     0,7357     0,7389     0,7422   0,7454   0,7486   0,7517   0,7549
+0,7   0,7580     0,7611     0,7642     0,7673     0,7704     0,7734   0,7764   0,7794   0,7823   0,7852
+0,8   0,7881     0,7910     0,7939     0,7967     0,7995     0,8023   0,8051   0,8078   0,8106   0,8133
+0,9   0,8159     0,8186     0,8212     0,8238     0,8264     0,8289   0,8315   0,8340   0,8365   0,8389
+1,0   0,8413     0,8438     0,8461     0,8485     0,8508     0,8531   0,8554   0,8577   0,8599   0,8621
+
+1,1   0,8643     0,8665     0,8686     0,8708     0,8729     0,8749   0,8770   0,8790   0,8810   0,8830
+1,2   0,8849     0,8869     0,8888     0,8907     0,8925     0,8944   0,8962   0,8980   0,8997   0,9015
+1,3   0,9032     0,9049     0,9066     0,9082     0,9099     0,9115   0,9131   0,9147   0,9162   0,9177
+1,4   0,9192     0,9207     0,9222     0,9236     0,9251     0,9265   0,9279   0,9292   0,9306   0,9319
+1,5   0,9332     0,9345     0,9357     0,9370     0,9382     0,9394   0,9406   0,9418   0,9429   0,9441
+
+1,6   0,9452     0,9463     0,9474     0,9484     0,9495     0,9505   0,9515   0,9525   0,9535   0,9545
+1,7   0,9554     0,9564     0,9573     0,9582     0,9591     0,9599   0,9608   0,9616   0,9625   0,9633
+1,8   0,9641     0,9649     0,9656     0,9664     0,9671     0,9678   0,9686   0,9693   0,9699   0,9706
+1,9   0,9713     0,9719     0,9726     0,9732     0,9738     0,9744   0,9750   0,9756   0,9761   0,9767
+2,0   0,9772     0,9778     0,9783     0,9788     0,9793     0,9798   0,9803   0,9808   0,9812   0,9817
+
+2,1   0,9821     0,9826     0,9830     0,9834     0,9838     0,9842   0,9846   0,9850   0,9854   0,9857
+2,2   0,9861     0,9864     0,9868     0,9871     0,9875     0,9878   0,9881   0,9884   0,9887   0,9890
+2,3   0,9893     0,9896     0,9898     0,9901     0,9904     0,9906   0,9909   0,9911   0,9913   0,9916
+2,4   0,9918     0,9920     0,9922     0,9925     0,9927     0,9929   0,9931   0,9932   0,9934   0,9936
+2,5   0,9938     0,9940     0,9941     0,9943     0,9945     0,9946   0,9948   0,9949   0,9951   0,9952
+
+2,6   0,9953     0,9955     0,9956     0,9957     0,9959     0,9960   0,9961   0,9962   0,9963   0,9964
+2,7   0,9965     0,9966     0,9967     0,9968     0,9969     0,9970   0,9971   0,9972   0,9973   0,9974
+2,8   0,9974     0,9975     0,9976     0,9977     0,9977     0,9978   0,9979   0,9979   0,9980   0,9981
+2,9   0,9981     0,9982     0,9982     0,9983     0,9984     0,9984   0,9985   0,9985   0,9986   0,9986
+3,0   0,9987     0,9987     0,9987     0,9988     0,9988     0,9989   0,9989   0,9989   0,9990   0,9990
+                                                  MATEMÁTICAS II
+                                  CRITERIOS ESPECÍFICOS DE CORRECCIÓN
+En cada pregunta, aunque el procedimiento seguido sea diferente al propuesto en el documento soluciones,
+cualquier argumento válido que conduzca a la solución será valorado con la puntuación asignada.
+Los contenidos correspondientes al bloque F se evaluarán transversalmente en cualquiera de los ejerci-
+cios. Se penalizará en la calificación de cada respuesta la falta de justificación razonada o de precisión y
+se valorarán las estrategias, razonamientos y toma adecuada de decisiones.
+
+
+1.1.
+Por cada ecuación correctamente planteada: 0.5 puntos. Resolución correcta del sistema planteado: 1 punto.
+En caso de resolución correcta de un sistema con alguna ecuación mal planteada, se valorará con hasta 0.5
+puntos.
+
+1.2.
+a) Planteamiento: 0.75 puntos. Resolución: 0.5 puntos.
+b) Planteamiento: 0.75 puntos. Resolución: 0.5 puntos.
+
+2.1.
+a) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+b) Cálculo de la derivada: 0.25 puntos. Determinar que la función es decreciente en su dominio: 0.5 puntos.
+c) Cada ası́ntota: 0.25 puntos.
+
+2.2.
+a) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+b) Función de área en una variable: 0.5 puntos. Punto crı́tico: 0.5 puntos. Discusión del máximo local: 0.25 puntos.
+Valor del área correcta: 0.25 puntos.
+
+3.1.
+a) Planteamiento: 0.5 puntos. Resolución: 0.25 puntos.
+b) Planteamiento: 0.5 puntos. Resolución: 0.25 puntos.
+c) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+
+3.2.
+a) Planteamiento: 1 punto. Resolución: 0.5 puntos. Penalizar con 0.25 puntos si dan un punto fuera del segmento
+como solución.
+b) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+
+4.
+a) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+b) Cálculo de los parámetros de la normal: 0.25 puntos por cada uno. Cálculo de la probabilidad: 1 punto (plan-
+teamiento: 0.5 puntos; resolución: 0.5 puntos). En el caso de no aplicar la corrección por continuidad se restarán
+0.25 puntos.
+                                            MATEMÁTICAS II–SOLUCIONES
+                                           (Documento de trabajo orientativo)
+1.1.
+
+Si x es el número de conejos, y el de gallinas y z el de pavos en la granja, del enunciado se plantea el siguiente
+sistema lineal de ecuaciones en estas incógnitas
+                                                                  
+                     150x + 4y + 30z = 4400                        4y + 150x + 30z = 4400
+                           1
+                           4 x − y + 4z =  0       que  equivale a    4y − x − 16z = 0
+                          11x − 2y + z = 0                            4y − 22x − 2z = 0.
+                                                                  
+
+Resolviendo el sistema se obtiene que en la granja hay z = 30 pavos, x = 20 conejos e y = 125 gallinas.
+
+1.2.
+
+a) La matriz AB tiene rango 3 si, y sólo si, A y B tienen rango 3. Como A tiene rango 3 si, y sólo si, a 6= 0, 6 y B
+tiene rango 3 si, y sólo si, a 6= 1/3, la matriz AB tiene rango 3 si, y sólo si, a 6= 0, 1/3, 6.
+b) La inversa de la matriz B cuando a 6= 1/3 es
+                                                                               
+                                                             1 −3         0
+                                                     1
+                                           B −1 =         −a 1           0     .
+                                                  1 − 3a
+                                                             0    0 1 − 3a
+
+2.1.
+
+a) lı́m (f (x) − g(x)) = ∞ − ∞. Resolvemos la indeterminación aplicando L’Hôpital:
+  x→1
+
+                                       e(x − 1) − ex + e (L’Hôpital)      e − ex (L’Hôpital)       −ex      1
+              lı́m (f (x) − g(x)) = lı́m                     =        lı́m            =        lı́m         =− .
+             x→1                    x→1 (x − 1)(ex − e)               x→1 xex − e              x→1 ex + xex   2
+
+                                             −e · ex
+b) El dominio f (x) es R − {1}. f 0 (x) =             < 0. Por lo tanto, f (x) no tiene puntos crı́ticos. Se tiene que
+                                            (ex − e)2
+f 0 (x) < 0 en su dominio. Luego f (x) es decreciente en (−∞, 1) y en (1, ∞).
+                                   2                                                                       2
+c) La función g(x) + g(−x) = 2         tiene dos ası́ntotas verticales x = 1 y x = −1 ya que lı́m 2            = +∞,
+                                x −1                                                            x→1+ x − 1
+          2                      2                        2
+ lı́m          = −∞, lı́m + 2          = −∞, lı́m − 2          = ∞. Tiene una ası́ntota horizontal y = 0 ya que
+x→1− x2 − 1            x→−1 x − 1               x→−1 x − 1
+           2
+  lı́m          = 0.
+x→±∞ x2 − 1
+
+2.2.
+
+a) Los puntos de corte de la parábola con el eje OX son (±2, 0). El área se calcula con la integral:
+                                           Z 2          3     2
+                                                  2      x           32
+                                    A=    (−x + 4) dx = − + 4x     =    .
+                                       −2                3      −2    3
+
+b) Los vértices del rectángulo son de la forma (±x, 0), (±x, −x2 + 4). El área del rectángulo es base, 2x, por
+altura, −x2 + 4, y se puede expresar en función de x: A(x) = 2x(−x2 + 4) con x ∈ [0, 2] para que el valor sea no
+negativo.
+Derivamos para obtener los valores crı́ticos:
+                                                                       √
+                                                                      2 3
+                                       A0 (x) = −6x2 + 8 = 0 ⇔ x = ±      .
+                                                                       3
+                     √                                    √
+Como A(0) = 0, A( 2 3 3 ) = 6.158 y A(2) = 0, en x = 2 3 3 se alcanza un máximo.
+                                      √
+                                    32 3                              √
+El área máxima del rectángulo es       = 6.158 con dimensiones 4 3 3 de base y 38 de altura.
+                                      9
+3.1.
+
+a) Recta y plano son paralelos, basta calcular la distancia de un punto de la recta al plano. Tomando el punto
+P (1, 0, 2) en r se obtiene
+                                                |1 · 1 + 2 · 0 − 2 · 2 − 1|  4
+                                   dist(P, π) = p                           = .
+                                                       2     2
+                                                      1 + 2 + (−2)     2     3
+b) El plano 2x + z − 5 = 0 pasa por A y es perpendicular a r. La proyección viene dada por la intersección de
+dicho plano con la recta r. Resolvemos 2(1 + 2λ) + 0(0) + (2 + λ) − 5 = 0, obteniendo λ = 1/5. Ası́ pues, el punto
+buscado es P (7/5, 0, 11/5).
+c) El plano π 0 : x+2y −2z = −1 pasa por A y es paralelo a π. Los puntos de corte con los ejes de π 0 son (−1, 0, 0),
+(0, −1/2, 0) y (0, 0, 1/2). Luego el volumen pedido es:
+                                                                  
+                                                    −1    0      0
+                                             1                            1
+                                         V =   det  0 −1/2 0  =           .
+                                             6                           24
+                                                     0    0     1/2
+
+3.2.
+
+
+          √ sobre S son (x, y, z) = (λ, 1 p
+a) Los puntos                              − λ, λ) con λ ∈ [0, 1]. Sea P un punto de S,√la distancia
+                                                                                                   p de P a A viene
+dada por λ2 + λ2 + λ2 y la de P a B por (λ − 1)2 + (λ − 1)2 + (λ − 1)2 , por tanto 3λ2 = 2 3(λ − 1)2 . Luego
+λ = 2 o λ = 32 . Como λ < 1 el punto buscado es ( 32 , 13 , 23 ).
+                                                                                              −−→
+b) El punto medio del segmento S es M ( 12 , 21 , 12 ), el vector normal del plano buscado es BA = (1, −1, 1) y el plano
+es: x − y + z = 21 .
+
+
+4.
+
+
+a) La probabilidad de que diez de los cuarenta trayectos lleguen con retraso superior a una hora es igual a
+ 40
+ 10 · 0.05
+           10
+              · 0.9530 = 1.78 · 10−5 que no es menor que 10−6 . Por lo tanto, el usuario enfurecido no ha hecho bien
+los cálculos.
+b) La variable aleatoria X=“número de trayectos en los que la compañı́a devolvió dinero en enero de 2025” sigue
+una distribución binomial de parámetros p = 0.2, q = 0.8 y n = 6 · 31 = 186 que podemos aproximar por una
+                                                0
+                                                  −37.2
+normal X 0 ≈ N (37.2, 5.46). Tipificando Z = X 5.46     , se tiene utilizando la corrección de Yates que
+
+                    P (X ≤ 31) ≈ P (X 0 ≤ 31.5) ≈ P (Z ≤ −1.04) = 1 − P (Z ≤ 1.04) = 0.1492.
+

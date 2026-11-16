@@ -1,0 +1,357 @@
+                      UNIVERSIDADES PÚBLICAS DE LA COMUNIDAD DE MADRID
+                               PRUEBA DE ACCESO A LA UNIVERSIDAD                                          Modelo
+                                         Curso 2025-2026                                                 orientativo
+                                    MATERIA: MATEMÁTICAS II
+                               INSTRUCCIONES GENERALES Y CALIFICACIÓN
+Después de leer atentamente el examen, responda razonadamente a cinco preguntas, tres de ellas obligatorias
+y dos de ellas a escoger entre dos opciones. Todas las respuestas deberán estar debidamente justificadas.
+CALIFICACIÓN: Cada pregunta se calificará sobre 2 puntos.
+TIEMPO: 90 minutos.
+
+
+
+Responda a las tres preguntas siguientes (calificación: 2 puntos por pregunta):
+
+Pregunta 1. Un equipo de ingenieros está trabajando en un nuevo modelo de dron para tomar fotografı́as del
+estado del tráfico. Elegido un sistema de coordenadas, el dron tiene A(1, 0, 2) como punto de partida y un
+cierto tramo de autopista está contenido en el plano π : x + y + 2z + 1 = 0. Las fotografı́as se deben tomar
+perpendicularmente al plano π. Se toma el punto C(0, −3, 1) de π para calibrar el dron.
+
+  a) (1 punto) Determine la distancia del dron en el punto de partida A al plano π y halle una ecuación del plano
+     en el que el dron vuela manteniendo en todo momento la misma distancia al plano π. Este plano recibe el
+     nombre de plano de vuelo.
+  b) (1 punto) Responda solo a uno de los dos apartados siguientes:
+
+      b1) El dron se mueve en lı́nea recta en el plano de vuelo desde el punto de partida A al punto más cercano
+          a C. Halle una ecuación de la recta que contiene la trayectoria lineal que recorre el dron para fotografiar
+          C.
+      b2) La fotografı́a obtenida de C a esa distancia no tiene buena definición. Se decide acercar el dron desde
+          el punto de partida A descendiendo perpendicularmente al plano π para situarse en A′ , a la mitad de
+          la distancia original. Calcule el ángulo formado por el plano π y la recta que pasa por C y A′ .
+
+                            x2 + 1
+Pregunta 2. Dada f (x) =            , se pide:
+                            |x| + 1
+
+  a) (1 punto) Analizar la paridad y los extremos relativos de f (x).
+                      Z 0
+  b) (1 punto) Hallar     f (x) dx.
+                       −1
+
+
+
+Pregunta 3. Una envasadora de aceitunas comercializa bolsas con 12 aceitunas. La cosecha de este año ha sido
+atacada por el hongo Sphaeropsis dalmatica y una de cada veinte aceitunas presenta la enfermedad escudete.
+Se pide:
+
+  a) (1 punto) Calcular la probabilidad de que una bolsa no tenga aceitunas con la enfermedad.
+  b) (1 punto) Los controles sanitarios han fallado y se han distribuido 100 bolsas de aceitunas de esta cosecha.
+     Calcular, aproximando por una distribución normal adecuada, la probabilidad de que al menos el 60% de las
+     bolsas distribuidas tenga alguna aceituna con escudete.
+Responda a una de las dos preguntas siguientes (calificación máxima: 2 puntos) :
+                                                  
+                                2a −2           1 2
+Pregunta 4.1. Sean a ∈ R, A =          yB=             . Se pide:
+                                a  1           −1 2
+
+  a) (1 punto) Calcular, si existen, los valores de a tales que la matriz AAt sea una matriz diagonal.
+  b) (1 punto) Calcular, si existen, los valores de a tales que (A − B)(A + B) = A2 − B 2 .
+                                                
+                                                 x + 2y − z = 2
+Pregunta 4.2. Sea el sistema de ecuaciones         2x + λy + z = 7 . Se pide:
+                                                   x + 2y + λz = 2
+                                                
+
+  a) (1 punto) Discutir el sistema en función del parámetro real λ.
+  b) (1 punto) Resolver el sistema si λ = −1.
+
+
+Responda a una de las dos preguntas siguientes (calificación máxima: 2 puntos) :
+
+Pregunta 5.1. Sea la función:
+                                             1                          π
+                                           
+                                            2 (−8 + cos x) si 0 ≤ x < 2
+                                           
+                                           
+                                                                π
+                                   f (x) =   a sen (x) + 4  si    ≤x<π .
+                                           
+                                                               2
+                                             2 sen (2x) + b si π ≤ x ≤ 2π
+                                           
+
+  a) (1 punto) Halle los valores de a y b para que se verifiquen las hipótesis del Teorema de Bolzano en [0, 2π].
+  b) (1 punto) Justifique razonadamente que la función f (x) tiene una única raı́z en el intervalo (0, 2π) y calcule
+     dicha raı́z.
+                                               
+                                                ln (x2 + 1)
+Pregunta 5.2. Se considera la función f (x) =                  si x ̸= 0 . Se pide:
+                                                0    x
+                                                                si x = 0
+
+  a) (1 punto) Determinar si f (x) es continua en todo R.
+  b) (1 punto) Determinar si f (x) es derivable en el punto x = 0 y, si existe, calcular la ecuación de la recta
+     tangente a la gráfica de f (x) para x = 0.
+                                      Distribución Normal
+
+
+
+
+                                                                          z
+Ejemplo: si Z tiene distribución N(0, 1), P (Z < 0,45) = 0,6736.
+
+
+z       0,00       0,01       0,02       0,03       0,04       0,05     0,06     0,07     0,08     0,09
+0,0   0,5000     0,5040     0,5080     0,5120     0,5160     0,5199   0,5239   0,5279   0,5319   0,5359
+0,1   0,5398     0,5438     0,5478     0,5517     0,5557     0,5596   0,5636   0,5675   0,5714   0,5753
+0,2   0,5793     0,5832     0,5871     0,5910     0,5948     0,5987   0,6026   0,6064   0,6103   0,6141
+0,3   0,6179     0,6217     0,6255     0,6293     0,6331     0,6368   0,6406   0,6443   0,6480   0,6517
+0,4   0,6554     0,6591     0,6628     0,6664     0,6700     0,6736   0,6772   0,6808   0,6844   0,6879
+0,5   0,6915     0,6950     0,6985     0,7019     0,7054     0,7088   0,7123   0,7157   0,7190   0,7224
+
+0,6   0,7257     0,7291     0,7324     0,7357     0,7389     0,7422   0,7454   0,7486   0,7517   0,7549
+0,7   0,7580     0,7611     0,7642     0,7673     0,7704     0,7734   0,7764   0,7794   0,7823   0,7852
+0,8   0,7881     0,7910     0,7939     0,7967     0,7995     0,8023   0,8051   0,8078   0,8106   0,8133
+0,9   0,8159     0,8186     0,8212     0,8238     0,8264     0,8289   0,8315   0,8340   0,8365   0,8389
+1,0   0,8413     0,8438     0,8461     0,8485     0,8508     0,8531   0,8554   0,8577   0,8599   0,8621
+
+1,1   0,8643     0,8665     0,8686     0,8708     0,8729     0,8749   0,8770   0,8790   0,8810   0,8830
+1,2   0,8849     0,8869     0,8888     0,8907     0,8925     0,8944   0,8962   0,8980   0,8997   0,9015
+1,3   0,9032     0,9049     0,9066     0,9082     0,9099     0,9115   0,9131   0,9147   0,9162   0,9177
+1,4   0,9192     0,9207     0,9222     0,9236     0,9251     0,9265   0,9279   0,9292   0,9306   0,9319
+1,5   0,9332     0,9345     0,9357     0,9370     0,9382     0,9394   0,9406   0,9418   0,9429   0,9441
+
+1,6   0,9452     0,9463     0,9474     0,9484     0,9495     0,9505   0,9515   0,9525   0,9535   0,9545
+1,7   0,9554     0,9564     0,9573     0,9582     0,9591     0,9599   0,9608   0,9616   0,9625   0,9633
+1,8   0,9641     0,9649     0,9656     0,9664     0,9671     0,9678   0,9686   0,9693   0,9699   0,9706
+1,9   0,9713     0,9719     0,9726     0,9732     0,9738     0,9744   0,9750   0,9756   0,9761   0,9767
+2,0   0,9772     0,9778     0,9783     0,9788     0,9793     0,9798   0,9803   0,9808   0,9812   0,9817
+
+2,1   0,9821     0,9826     0,9830     0,9834     0,9838     0,9842   0,9846   0,9850   0,9854   0,9857
+2,2   0,9861     0,9864     0,9868     0,9871     0,9875     0,9878   0,9881   0,9884   0,9887   0,9890
+2,3   0,9893     0,9896     0,9898     0,9901     0,9904     0,9906   0,9909   0,9911   0,9913   0,9916
+2,4   0,9918     0,9920     0,9922     0,9925     0,9927     0,9929   0,9931   0,9932   0,9934   0,9936
+2,5   0,9938     0,9940     0,9941     0,9943     0,9945     0,9946   0,9948   0,9949   0,9951   0,9952
+
+2,6   0,9953     0,9955     0,9956     0,9957     0,9959     0,9960   0,9961   0,9962   0,9963   0,9964
+2,7   0,9965     0,9966     0,9967     0,9968     0,9969     0,9970   0,9971   0,9972   0,9973   0,9974
+2,8   0,9974     0,9975     0,9976     0,9977     0,9977     0,9978   0,9979   0,9979   0,9980   0,9981
+2,9   0,9981     0,9982     0,9982     0,9983     0,9984     0,9984   0,9985   0,9985   0,9986   0,9986
+3,0   0,9987     0,9987     0,9987     0,9988     0,9988     0,9989   0,9989   0,9989   0,9990   0,9990
+                                                                                                          Modelo
+                                                 MATEMÁTICAS II
+                                 CRITERIOS ESPECÍFICOS DE CORRECCIÓN
+En cada pregunta, aunque el procedimiento seguido sea diferente al propuesto en el documento soluciones,
+cualquier argumento válido que conduzca a la solución será valorado con la puntuación asignada.
+Los contenidos correspondientes al bloque F se evaluarán transversalmente en cualquiera de los ejerci-
+cios. Se penalizará en la calificación de cada respuesta la falta de justificación razonada o de precisión y
+se valorarán las estrategias, razonamientos y toma adecuada de decisiones.
+
+
+1.
+a) Distancia: 0.5 puntos. Ecuación del plano: 0.5 puntos.
+b1) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+b2) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+
+
+2.
+a) Paridad: 0.5 puntos. Extremos relativos: 0.5 puntos.
+b) Planteamiento: 0.3 puntos. Cálculo de la primitiva: 0.5 puntos. Regla de Barrow: 0.2 puntos.
+
+
+3.
+a) Distribución correcta: 0.5 puntos. Cálculo correcto de la probabilidad: 0.5 puntos.
+b) Distribución correcta: 0.2 puntos. Planteamiento correcto de la aproximación por una normal: 0.5 puntos.
+Cálculo correcto de la aproximación: 0.3 puntos. El cálculo sin corrección por continuidad, o una incorrecta, se
+penalizará con 0.2 puntos. Si la solución de a) es incorrecta, pero el planteamiento y resolución de b) con el dato
+erróneo es correcta, se otorga la puntuación máxima en b).
+
+
+4.1.
+a) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+b) Planteamiento: 0.5 puntos. Cálculo del valor de a: 0.5 puntos.
+
+
+4.2.
+a) Cálculo de los valores de λ para la discusión: 0.1 puntos. Por cada caso correctamente resuelto: 0.3 puntos.
+b) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+
+
+5.1.
+a) Cálculo de a y b para que se verifique el Teorema de Bolzano: 0.5 puntos. Comprobación del resto de hipótesis
+del Teorema: 0.5 puntos.
+b) Respuesta razonada: 0.5 puntos. Cálculo de la raı́z de la función: 0.5 puntos.
+
+
+5.2.
+a) Continuidad en x ̸= 0: 0.3 puntos. Continuidad en x = 0: 0.7 puntos.
+b) Planteamiento: 0.2 puntos. Cálculo de f ′ (0): 0.3 puntos. Ecuación de la recta tangente: 0.5 puntos.
+                                                                                                              Modelo
+                                             MATEMÁTICAS II–SOLUCIONES
+                                            (Documento de trabajo orientativo)
+1.
+
+
+a) La distancia del punto A al plano π es
+
+                                                             |1 + 0 + 2 · 2 + 1| √
+                                                 d(A, π) =     √                = 6.
+                                                                 12 + 12 + 22
+El dron vuela en un plano paralelo a π que pasa por A con ecuación x + y + 2z − 5 = 0.
+b1) El punto desde el que se fotografı́a C es B(1, −2, 3), punto de corte de la recta perpendicular al plano π por
+C, (x, y, z) = (µ, −3 + µ, 1 + 2µ), µ ∈ R y el plano de vuelo del apartado anterior. Una ecuación de la recta que
+contiene la trayectoria lineal del dron es la recta que pasa por A y B: (x, y, z) = (1, −2λ, 2 + λ).
+b2) La proyección ortogonal de A sobre el plano π es el punto P (0, −1, 0). El punto medio de A y P es el punto
+                                                                         −−→ −−→
+A′ (1/2, −1/2, 1). El ángulo que se pide es el formado por los vectores CA′ y CP .
+                                      −−→ −−→        √                    √      !
+                                     |CA′ · CP |       130                   130
+                          cos(α) = −−→ −−→ =               ⇔ α = arccos            = 28.71◦ .
+                                         ′
+                                    ∥CA ∥ ∥CP ∥       13                    13
+
+
+
+2.
+
+                                                                                                                    2
+a) f (x) es una función con simetrı́a par, f (−x) = f (x), derivable si x > 0 y x < 0, y su derivada es f ′ (x) = x(x+1)
+                                                                                                                     +2x−1
+                                                                                                                         2
+                2
+                 −2x−1
+y f ′ (x) = − x(1−x) 2 en cada uno de los conjuntos anteriores. Además, si x > 0, f ′ (x) = 0 si x2 + 2x − 1 = 0 ⇒
+                  √             √
+x = x1 = −1 + 2 o x = −1 − 2, descartando esta última por ser menor que 0. Por la paridad de la función f (x),
+f ′ (−x1 ) = 0 y x2 = −x1 es otro extremo relativo. Estudiando el signo de f ′ (x), tenemos que f (x) √ es√creciente
+si x > √       si x2 < x < 0, y decreciente si 0 < x < x1 y x < x2 . Por lo tanto, los puntos (1 − 2, 2 2 − 2) y
+          x1 y √
+(−1 + 2, 2 2 − 2) son mı́nimos locales de f (x) y (0, 1) es un máximo local de f (x).
+b) Por la paridad de la función f (x):
+         Z 0                 Z 1                 Z 1                          2                   1
+                                   x2 + 1
+                                                                     
+                                                              2                x                               1
+                f (x) dx =                dx =          x−1+             dx =     − x + 2 ln (x + 1) = 2 ln 2 − .
+           −1                 0    x+1            0          x+1                2                    0         2
+
+
+
+3.
+
+a) La variable aleatoria X =“número de aceitunas de entre las 12 que al azar conforman una bolsa que no tienen
+la enfermedad” sigue una distribución Binomial(n = 12, pe = 0.95). Se pide
+
+                                             P (X = 12) = p12
+                                                           e = 0.95
+                                                                    12
+                                                                       ≈ 0.5404.
+
+b) Sea T la variable aleatoria “número de bolsas con alguna aceituna con escudete entre las 100 bolsas empa-
+quetadas sin control sanitario”. Esta es una variable con distribución Binomial(n = 100, p) con
+
+                       p = P (bolsa con alguna aceituna con escudete) = 1 − 0.9512 ≈ 0.4596 .
+                                                                  p
+Esta distribución tiene media n · p = 45.96 y desviación tı́pica n · p · (1 − p) ≈ 4.98 y ası́ podemos aproximar
+
+                                        P (T ≥ 0.6 · 100) = P (T ≥ 60) ≈ P (Y ≥ 59.5),
+
+mediante la aproximación de Yates, siendo Y una variable aleatoria normal de media 45.96 y desviación tı́pica
+4.98. Tipificando Y y utilizando la tabla de la normal Z de media 0 y desviación tı́pica 1, se obtiene
+
+       P (T ≥ 60) ≈ P (Y ≥ 59.5) ≈ P Z ≥ 13.54
+                                                    
+                                               4.98   ≈ P (Z ≥ 2.72) = 1 − P (Z ≤ 2.72) = 1 − 0.9967 = 0.0033.
+4.1.
+                    2
+                    4a + 4 2a2 − 2
+                                   
+                 t
+a) La matriz AA es                   y la matriz será diagonal si 2a2 − 2 = 0, es decir, si a = 1 o a = −1.
+                    2a2 − 2 a2 + 1
+b) El producto
+              (A − B)(A
+                       + B) = A2 +                    2                  2      2
+                                      AB − BA − B y será igual a A − B solo si AB = BA. Como
+        2a + 2 4a − 4          4a 0
+AB =                   y BA =         , solo si a = 1 se da la igualdad (A − B)(A + B) = A2 − B 2 .
+         a − 1 2a + 2           0 4
+
+
+4.2.
+
+
+a) La matriz ampliada del sistema es
+                                                                                           
+                      1 2 −1 2                                   1                    2  −1 2
+                    2 λ       1 7  equivalente por filas con  0                  λ−4   3 3 .
+                      1 2      λ 2                               0                    0 λ+1 0
+
+Si λ ∈
+     / {−1, 4} el sistema es compatible determinado; si λ = −1 es compatible indeterminado y es incompatible
+si λ = 4.
+                                                                             3
+b) Para λ = −1 el sistema es compatible indeterminado con soluciones 16
+                                                                                 
+                                                                       5 , − 5 , 0 + t(1, −3, −5) | t ∈ R .
+
+
+
+
+5.1.
+
+a) Cada una de las funciones que definen f son continuas en R. Si a = −8, f (x) es continua en x = π2 . Si b = 4,
+f (x) es continua en x = π. Entonces si a = −8 y b = 4, f (x) es continua en [0, 2π], f (0) = − 72 < 0, f (2π) = 4 > 0.
+Por lo tanto, se cumplen las hipótesis del Teorema de Bolzano.
+b) El Teorema de Bolzano garantiza que existe un valor c ∈ (0, 2π) tal que f (c) = 0. Puesto que las funciones
+coseno y seno toman valores en [−1, 1], solo la función −8 sen (x) + 4 corta al eje de abscisas. Por lo tanto, la raı́z
+c pertenece al intervalo ( π2 , π) y cumple que sen (c) = 12 . El único valor de c posible es 5π
+                                                                                                6 .
+
+
+
+
+5.2.
+
+a) Si x ̸= 0, f (x) es continua por las propiedades de las funciones continuas. Dado que
+
+                                                     ln (x2 + 1) (L’Hôpital)
+                                                 lim                 = 0 = f (0),
+                                                 x→0      x
+la función es continua en x = 0. Se concluye que la función es continua en todo R.
+                               ln (h2 +1)
+                                            −0         ln (h2 + 1)
+                                                          = 1, luego f (x) es derivable en x = 0 y, además, f ′ (0) =
+                                                      (L’Hôpital)
+b) Por la definición f ′ (0) = lim h
+                                        = lim
+                                h→0   h   h→0    h2
+1. La ecuación de la recta tangente pedida es y = x.
+                       Documento de orientaciones para la PAU 2026
+                               MATEMÁTICAS II–Curso 2025/26
+
+El examen constará de siete problemas distribuidos en cuatro bloques correspondientes a
+Álgebra, Geometrı́a, Análisis y Probabilidad. El bloque de Análisis tendrá una ponderación del
+40% y los otros tres bloques del 20% cada uno.
+Habrá tres preguntas obligatorias, una de ellas de Análisis. Como mı́nimo una de las tres
+preguntas obligatorias será de carácter competencial. La pregunta competencial puede co-
+rresponder a cualquiera de los cuatro bloques mencionados anteriormente.
+Habrá dos preguntas de Análisis optativas y se deberá responder a una pregunta de las dos
+dadas. Si se respondiese a ambas preguntas solo se corregirá la pregunta que aparezca
+fı́sicamente primero.
+Habrá dos preguntas optativas del bloque que todavı́a no haya aparecido en el examen. Se
+deberá responder a una pregunta de las dos dadas. Si se respondiese a ambas preguntas
+solo se corregirá la pregunta que aparezca fı́sicamente primero.
+Para garantizar que un 50% de la calificación total del examen corresponda a apartados o ejer-
+cicios optativos, en una de las tres preguntas obligatorias se tendrá que escoger un apartado
+de entre dos posibles, tal y como aparece en el modelo orientativo.
+Los problemas estarán diseñados para evaluar las competencias especı́ficas que figuran en el
+Real Decreto 243/2022, de 5 de abril, por el que se establecen la ordenación y las enseñanzas
+mı́nimas del Bachillerato, y en el Decreto 64/2022 (BOCM de 26 de Julio) por el que se es-
+tablecen para la Comunidad de Madrid la ordenación y el currı́culo del Bachillerato.
+Se podrá pedir en los problemas la realización de tareas acerca de los contenidos correspon-
+dientes a la materia Matemáticas II, tal y como aparecen en el Decreto 64/2022.
+La extensión y nivel de dificultad de los problemas propuestos serán similares a los de cursos
+anteriores.
+

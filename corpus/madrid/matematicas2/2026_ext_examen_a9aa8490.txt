@@ -1,0 +1,276 @@
+                  UNIVERSIDADES PÚBLICAS DE LA COMUNIDAD DE MADRID
+                                                                                                    B
+                              PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                        Curso 2025-2026
+                                   MATERIA: MATEMÁTICAS II
+
+                          INSTRUCCIONES GENERALES Y CALIFICACIÓN
+Después de leer atentamente el examen, responda razonadamente a cinco preguntas, tres de ellas
+obligatorias y dos de ellas a escoger entre dos opciones. Todas las respuestas deberán estar debi-
+damente justificadas.
+CALIFICACIÓN: Cada pregunta se calificará sobre 2 puntos.
+TIEMPO: 90 minutos.
+
+Responda a las tres preguntas siguientes (calificación máxima por pregunta: 2 puntos):
+
+Pregunta 1. Un virus estomacal presenta como sı́ntomas diarreas y fiebres en un 95 % de los infecta-
+dos. En un momento de presión asistencial en la Comunidad de Madrid, 40 de cada mil habitantes están
+infectados por dicho virus. Por otro lado, un 0.5 % de la población no infectada por el virus presenta los
+mismos sı́ntomas por otras causas.
+
+  a) (1 punto) Una persona tiene los sı́ntomas. ¿Cuál es la probabilidad de que esté infectado por el
+     virus estomacal?
+
+  b) (1 punto) Dadas dos personas que tienen los sı́ntomas, ¿cuál es la probabilidad de que al menos
+     una de ellas tenga el virus?
+
+Pregunta 2. La potencia instantánea en el momento t, P (t), es la derivada de la energı́a producida
+hasta el momento t. Una instalación fotovoltaica doméstica en un dı́a despejado genera una potencia
+en kilowatios (kW) que se modeliza por la siguiente función con respecto a la hora del dı́a t ∈ [0, 24):
+                                  
+                                   0
+                                                            si 0 ≤ t < 8
+                                                π
+                                                         
+                          P (t) =    3 + 3 sen 8 (t − 12)    si 8 ≤ t ≤ 20 .
+                                  
+                                   0                        si 20 < t < 24
+
+  a) (1 punto) Determine cuándo esa potencia aumenta y cuándo disminuye. ¿Cuál es el momento del
+     dı́a en que la instalación entrega su potencia máxima?
+
+  b) (1 punto) Halle la energı́a producida a lo largo del dı́a en kilowatios hora (kWh).
+
+Pregunta 3. Sea S el conjunto formado por todas las matrices reales 2 × 2 triangulares superiores para
+las que el elemento que ocupa el lugar (2, 2) de la matriz es la suma de los elementos de su primera
+fila, es decir,                     (             !                )
+                                        a      b
+                                 S=                  con a, b ∈ R .
+                                        0 a+b
+
+  a) (1 punto) Pruebe que si A y B son dos matrices cualesquiera del conjunto S, AB está en S.
+
+  b) (1 punto) Responda solo a uno de los dos apartados siguientes:
+
+      b1) Determine para qué valores de a y b las matrices de S son invertibles. Pruebe que si una
+          matriz de S tiene inversa, esta es también una matriz de S.
+      b2) Calcule todas las matrices A de S tales que A2 = A.
+Responda a una de las dos preguntas siguientes (calificación máxima: 2 puntos) :
+
+Pregunta 4.1. Sean la recta r ≡ (x, y, z) = (1 + t, 1 + t, 1 + t), t ∈ R, y el plano π : x + y + z = 0.
+
+  a) (1 punto) Determine la posición relativa de la recta r y el plano π.
+                                                                                √
+  b) (1 punto) Halle los puntos de la recta r que se encuentran a distancia         3 del plano π.
+
+Pregunta 4.2. Sea la recta r ≡ (x, y, z) = (t, 1, t), t ∈ R. Se pide:
+
+  a) (1 punto) Hallar dos planos que se corten en la recta r, que formen entre sı́ un ángulo de 90◦ y
+     uno de ellos pase por el punto (0, 0, 1).
+
+  b) (1 punto) Justificar que todas las rectas contenidas en los dos planos obtenidos en el apartado
+     anterior que no tienen puntos en común con la recta r son necesariamente paralelas entre sı́.
+
+
+
+Responda a una de las dos preguntas siguientes (calificación máxima: 2 puntos) :
+
+                                        x2 − 1
+Pregunta 5.1. Sea la función f (x) =          , donde a es un parámetro real.
+                                        3x − a
+  a) (1 punto) Halle el valor de a para que la gráfica de f (x) presente una ası́ntota vertical en x = 2.
+     Para dicho valor, estudie el resto de ası́ntotas de la gráfica.
+
+  b) (1 punto) Obtenga los valores de a para los cuales la gráfica de la función no presenta ası́ntotas
+     verticales.
+
+Pregunta 5.2. (2 puntos) Para la función f (x) = sen(π|x2 − 1|), calcule
+                                               Z 2
+                                                     xf (x) dx .
+                                                0
+                                             MATEMÁTICAS II
+                             CRITERIOS ESPECÍFICOS DE CORRECCIÓN
+En cada pregunta, aunque el procedimiento seguido sea diferente al propuesto en el documento solucio-
+nes, cualquier argumento válido que conduzca a la solución será valorado con la puntuación asignada.
+Los contenidos correspondientes al bloque F se evaluarán transversalmente en cualquiera de los
+ejercicios. Se penalizará en la calificación de cada respuesta la falta de justificación razonada o
+de precisión y se valorarán las estrategias, razonamientos y toma adecuada de decisiones.
+
+1.
+a) Identificación de datos: 0.3 puntos (0.1 puntos por cada probabilidad correcta). Identificación del
+suceso: 0.1 puntos. Probabilidad total: 0.3 puntos (uso de la fórmula: 0.2 puntos, respuesta correcta:
+0.1 puntos). Probabilidad condicionada: 0.3 puntos (uso de la fórmula: 0.2 puntos, respuesta correcta:
+0.1 puntos).
+b) Identificación de la binomial: 0.1 puntos. Parámetros correctos de la binomial: 0.2 puntos. Identifica-
+ción del suceso: 0.3 puntos. Cálculo de la probabilidad: 0.4 puntos (planteamiento: 0.2 puntos, respuesta
+correcta: 0.2 puntos). (Si el valor hallado en a) es erróneo, las calificaciones se otorgan en b) para dicho
+valor).
+
+2.
+a) Intervalos de crecimiento y decrecimiento: 0.5 puntos. Tiempo de potencia máxima: 0.5 puntos.
+b) Planteamiento de la integral: 0.2 puntos. Primitiva correcta: 0.3 puntos. Regla de Barrow: 0.3 puntos.
+Respuesta correcta: 0.2 puntos.
+
+3.
+a) Elección de dos matrices generales de S: 0.2 puntos. Multiplicación AB: 0.3 puntos. Probar que AB
+está en S: 0.5 puntos. Si toman A = B y comprueban correctamente que AB está en S se otorgan
+como máximo 0.4 puntos.
+b1) Determinación de los valores a y b: 0.2 puntos. Cálculo de la inversa: 0.5 puntos. Comprobar que la
+matriz inversa está en S: 0.3 puntos.
+b2) Matriz nula: 0.2 puntos. Matriz identidad: 0.2 puntos. Para las otras dos matrices: 0.3 puntos cada
+matriz (planteamiento: 0.2 puntos, resolución: 0.1 puntos).
+
+4.1.
+a) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+b) Utilización de la fórmula de la distancia de un punto al plano: 0.2 puntos. Ecuación con valor absoluto:
+0.2 puntos. Obtención de las dos ecuaciones a resolver: 0.2 puntos. Cada valor de t: 0.1 puntos. Cada
+punto correcto: 0.1 puntos.
+
+4.2.
+a) Justificación de que el vector director de la recta r está en ambos planos: 0.2 puntos. Determinación
+de los otros dos vectores directores para obtener los planos: 0.2 puntos por vector. Ecuación de los
+planos: 0.2 puntos por plano (planteamiento: 0.1 puntos, respuesta correcta: 0.1 puntos).
+b) Justificación de que cada recta descrita de los planos es paralela a r: 0.5 puntos. Justificación de
+paralelismo entre las rectas: 0.5 puntos.
+
+5.1.
+a) Planteamiento para la obtención de a: 0.3 puntos. Obtención de a: 0.2 puntos. Justificación de que
+solo puede haber otra ası́ntota y esta es oblicua: 0.1 puntos. Obtención de la pendiente de la ası́ntota
+oblicua: 0.2 puntos. Obtención de la ordenada del origen: 0.2 puntos.
+b) Justificación: 0.4 puntos. Obtención de algún valor de a: 0.4 puntos. Obtención del otro valor de a:
+0.2 puntos.
+
+5.2.
+Integral a resolver escrita como suma de dos integrales: 0.8 puntos. Primitivas correctas: 0.8 puntos.
+Regla de Barrow: 0.2 puntos. Respuesta correcta: 0.2 puntos.
+                                      MATEMÁTICAS II–SOLUCIONES
+                                     (Documento de trabajo orientativo)
+1.
+
+
+a) Sea V el suceso tener el virus, S tener los sı́ntomas, V no tener el virus. De los datos se sabe que
+P (V ) = 0.04, P (S|V ) = 0.95, P (V ) = 0.96, P (S|V ) = 0.005. Por el Teorema de Probabilidad Total se
+halla la probabilidad de tener los sı́ntomas:
+
+                              P (S) = P (S|V ) · P (V ) + P (S|V ) · P (V ) = 0.0428 .
+
+Por la definición de probabilidad condicionada:
+
+                                             P (V ∩ S)   P (S|V ) · P (V )
+                                P (V |S) =             =                   ≈ 0.8879.
+                                               P (S)          P (S)
+
+b) Sea X ∼ B(2, p) con p = 0.8879, se tiene que calcular P (X ≥ 1) = 1 − P (X = 0) = 1 − (1 − p)2 ≈
+0.9874.
+
+
+
+2.
+
+
+a) A partir de la gráfica de P (t) o de su derivada se deduce que la potencia crece de (8, 16) horas,
+decrece (16, 20). La máxima potencia se obtiene a las 16 horas.
+
+b) La energı́a producida al dı́a es
+          Z 20            π             
+                                                  24     π         20        24
+     E=            3 + 3 sen   (t − 12) dt = 3t −    cos    (t − 12)     = 36 +    ≈ 43.6394 kWh.
+            8                8                    π       8           8         π
+
+
+
+3.
+                                                                                     
+                a  b                     c  d                         ac   ad + bc + bd
+a) Si A =                     yB =                  , se tiene AB =                         que es una
+                0 a+b                    0 c+d                        0 ac + ad + bc + bd
+matriz de S.
+
+b1) Las matrices de S que   ! tienen inversa son aquellas para las que a ̸= 0 y a ̸= −b. En ese caso, la
+              1        b
+              a − a(a+b)                                            1       b         1
+inversa es           1       , que es una matriz de S puesto que −                =      .
+              0     a+b                                             a a(a + b)      a+b
+                                 2               
+              a    b         2       a b(2a + b)
+b2) Si A =                 ,A =                      . Para que A = A2 , se tienen que dar las condiciones
+              0 a+b                   0 (a + b)2
+a2 = a, (a + b)2 = a + b y b = b(2a + b). De la última ecuación se deduce que b = 0 o 2a + b = 1. Para
+b = 0, se obtienen lasmatrices   nulae identidad
+                                                   (a debe ser 1 o 0). Si 2a + b = 1, como a = 0 o 1, se
+                          1 −1           0 1
+obtienen las matrices                y           .
+                          0 0            0 1
+4.1.
+
+
+a) El vector director de la recta r es (1, 1, 1), que coincide con el vector normal del plano π. Por tanto, la
+recta y el plano se cortan en punto que es el (0, 0, 0).
+                                                                                √
+b) La distancia de un punto de r, (1 + t, 1 + t, 1 + t), al plano es 3|1+t|
+                                                                       √
+                                                                         3
+                                                                            =       3 ⇒ |1 + t| = 1 ⇒ t = 0 o
+t = −2. Los puntos son (1, 1, 1) y (−1, −1, −1).
+
+
+
+4.2.
+
+
+a) Uno de los planos, π1 , tendrá como primer vector director al de la recta (1, 0, 1), y como segundo
+vector director a (0, 0, 1) − (0, 1, 0) = (0, −1, 1). El vector normal a π1 se obtiene como el producto
+vectorial −
+          → = (0, −1, 1) × (1, 0, 1) = (−1, 1, 1). Dado que el plano pasa por el punto (0, 1, 0) de
+          n 1
+r su ecuación es −x + y + z = 1. El segundo plano pasa también por el punto (0, 1, 0) de la recta
+y tiene como vector normal − → = (−1, 1, 1)×(1, 0, 1) = (1, 2, −1), por lo que su ecuación es x+2y−z = 2.
+                             n 2
+
+
+b) Sean π1 y π2 los dos planos del apartado anterior. Si r1 es una recta contenida en π1 , como la recta
+r está también contenida en π1 y no tiene puntos en común con r1 , entonces r1 y r son paralelas. De
+la misma manera si r2 es una recta contenida en π2 , esta tiene que ser paralela a r. Por lo tanto r1 es
+paralela a r2 puesto que ambas son paralelas a r.
+
+
+
+5.1.
+
+a) Para que exista una ası́ntota vertical en x = 2, el denominador debe anularse en ese punto
+(y el numerador debe ser distinto de cero). Luego, 3 · 2 − a = 0 y a = 6. No hay más ası́nto-
+tas verticales. Ası́ntotas horizontales no tiene. Ası́ntotas oblicuas, sı́ tiene: m = lı́m f (x)
+                                                                                             x   = 31 y
+                                                                                             x→∞
+n = lı́m (f (x) − mx) = 23 , es decir, y = 31 x + 23 .
+       x→∞
+
+b) Para que no haya ası́ntota vertical, el numerador (x2 − 1) debe anularse donde lo hace el denomi-
+nador, es decir, en x = a/3. Las raı́ces del numerador son x = 1 y x = −1, luego basta con que el
+denominador se anule en uno de estos puntos para tener una discontinuidad evitable, es decir, a puede
+tomar los valores 3 y −3.
+
+
+
+5.2.
+
+Como función a trozos en el intervalo [0, 2]
+
+                                            sen(π(1 − x2 )) si 0 ≤ x ≤ 1
+                                        (
+                                f (x) =                                  .
+                                            sen(π(x2 − 1)) si 1 ≤ x ≤ 2
+
+Por lo tanto,
+    Z 2             Z 1                         Z 2
+                                        2
+        xf (x) dx =       x sen(π(1 − x )) dx +     x sen(π(x2 − 1)) dx
+     0                0                          1
+                                         1                     2
+                       1              2           1         2            1               1
+                  =        cos(π(1 − x )) + − cos(π(x − 1)) =              (1 − (−1)) −    (−1 − 1)
+                      2π                   0     2π                 1   2π              2π
+                    2
+                  =     .
+                    π
+

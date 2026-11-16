@@ -1,0 +1,424 @@
+                       UNIVERSIDADES PÚBLICAS DE LA COMUNIDAD DE MADRID
+                           EVALUACIÓN PARA EL ACCESO A LAS ENSEÑANZAS
+                                UNIVERSITARIAS OFICIALES DE GRADO                                     Modelo
+                                           Curso 2020-2021                                           orientativo
+                       MATERIA: MATEMÁTICAS II
+
+                                INSTRUCCIONES GENERALES Y CALIFICACIÓN
+Después de leer atentamente el examen, responda razonadamente cuatro preguntas cualesquiera a elegir entre
+las ocho que se proponen.
+TIEMPO Y CALIFICACIÓN: 90 minutos. Cada pregunta se calificará sobre 2.5 puntos.
+
+A.1 Calificación máxima: 2.5 puntos.
+                                                     0 31 − 13
+                                                             
+                            0    1     x
+Dadas las matrices A =  1       0 x − 1 y B = 0 1         0 , se pide:
+                         x+1 0         3             1 3 − 23
+                                                         2
+
+  a) (0.5 puntos) Determinar los valores de x ∈ R para los cuales A tiene inversa.
+  b) (0.75 puntos) Para x = −1, calcular la inversa de A.
+  c) (1.25 puntos) Para x = 1, calcular (AB t )2020 .
+
+A.2 Calificación máxima: 2.5 puntos.
+Sea la función
+                                                           2
+                                                    
+                                                    
+                                                                si x ≤ 1
+                                                        x+1
+                                                    
+                                             f (x) =
+                                                        ln x
+                                                     
+                                                                si x > 1
+                                                        x−1
+  a) (0.5 puntos) Estudia la continuidad de f .
+  b) (1 punto) Halla las ası́ntotas de f .
+  c) (1 punto) Determina el valor de x0 < 1 que verifica que la recta tangente a la gráfica de f en el punto
+                                    −1
+     (x0 , f (x0 )) tiene pendiente    . Escribe la ecuación de dicha recta tangente.
+                                     2
+A.3 Calificación máxima: 2.5 puntos.
+Se consideran los puntos A(3, 1, 2), B(0, 3, 4) y P (−1, 1, 0). Se pide:
+                                                                                      −−→ −−→
+  a) (0.75 puntos) Determinar las coordenadas de un punto Q sabiendo que los vectores AB y P Q son lineal-
+     mente dependientes, tienen sentidos opuestos y tienen el mismo módulo.
+
+  b) (1 punto) Determinar las coordenadas del punto de intersección de la recta r que contiene a A y P , y de la
+     recta s que contiene a B y al punto C(2, −1, −2).
+                                                              −→ −−→
+  c) (0.75 puntos) Calcular el coseno del ángulo formado por P A y P B.
+
+A.4 Calificación máxima: 2.5 puntos.
+En un instituto uno de cada cuatro alumnos practica baloncesto. Se eligen 6 alumnos al azar y se considera la
+variable aleatoria X que representa el número de estudiantes entre estos 6 que práctican baloncesto. Se pide:
+  a) (1 punto) Identificar la distribución de la variable aleatoria X y calcular P (X = 0).
+  b) (0.75 puntos) Calcular la probabilidad de que al menos 5 de los 6 elegidos practiquen baloncesto.
+  c) (0.75 puntos) Calcular la probabilidad de que al menos 1 de los 6 practique baloncesto.
+B.1 Calificación máxima: 2.5 puntos.
+                                                    
+                         0     1 −1                   0
+Dados la matriz A =  a       −3 a  y el vector B = 1 , determinar el valor o valores de a para los que se
+                       a − 1 −3 a                     2
+verifica:
+a) (0.5 puntos) B t (A + At ) B = 6.
+b) (1.0 puntos) El sistema de A X = B no tiene solución.
+
+c) (1.0 puntos) A = A−1 .
+
+B.2 Calificación máxima: 2.5 puntos.
+Dada la función f (x) = x6 − 4x4 , se pide:
+
+  a) (0.5 puntos) Estudiar sus intervalos de crecimiento y decrecimiento.
+  b) (1 punto) Encontrar sus máximos y mı́nimos locales, y determinar si son o no globales.
+  c) (1 punto) Hallar el área de la región acotada limitada por el eje y = 0 y la gráfica de f .
+
+B.3 Calificación máxima: 2.5 puntos.
+                                     
+                                     x = −3 + 2λ
+                     (               
+                      x + 2z = 1
+Dadas las rectas r :             ys: y =2−λ
+                       y+z =2        
+                                       z =1+λ
+                                     
+
+  a) (0.75 puntos) Hallar la distancia del origen a la recta s.
+
+  b) (0.5 punto) Determinar la posición relativa de r y s.
+  c) (1.25 puntos) Escribir la ecuación de una recta perpendicular común a ambas rectas.
+
+B.4 Calificación máxima: 2.5 puntos.
+Una médico experto diagnóstica posibles enfermos de una dolencia, fallando en reconocerla en el 5% de los
+casos que la padecen y diagnosticándola equivocadamente en el 10% de los sanos. Las estadı́sticas muestran
+que dicha enfermedad es padecida por 50 de cada diez mil personas. Si una persona al azar se somete a
+reconocimiento, calcule la probabilidad de:
+  a) (0.5 puntos) Que sea diagnosticada como enferma.
+  b) (1 punto) Que esté enferma si la diagnostican como tal.
+  c) (0.5 puntos) Que no esté enferma si la diagnostican sana.
+  d) (0.5 puntos) Que sea mal diagnosticada.
+                                                                                                                Modelo
+                                                   MATEMÁTICAS II
+                                   CRITERIOS ESPECÍFICOS DE CORRECCIÓN
+Todas las respuestas deberán estar debidamente justificadas.
+En cada ejercicio, aunque el procedimiento seguido sea diferente al propuesto en las soluciones, cualquier argu-
+mento válido que conduzca a la solución será valorado con la puntuación asignada.
+
+
+A.1.
+a) 0.5 puntos (repartidos entre planteamiento: 0.25 y resolución: 0.25).
+b) 0.75 puntos (repartidos entre proceso: 0.5 y resultado: 0.25).
+c) 1.25 puntos (repartidos entre cálculo de AB t : 0.25, cálculo de (AB t )3 : 0.5 y resultado final: 0.5).
+Estándares de aprendizaje evaluados: Determina las condiciones para que una matriz tenga inversa y la
+calcula empleando el método más adecuado. Realiza operaciones con matrices y aplica las propiedades de
+estas operaciones adecuadamente.
+
+A.2.
+a) 0.25 Por estudiar correctamente x = 1; 0.25 por el estudio del resto, incluyendo x = −1.
+b) 0.25 por plantear qué ası́ntotas pueden existir, 0.25 por cada ası́ntota.
+c) 0.25 por interpretar correctamente la pregunta; 0.5 por encontrar x0 (0.25 planteamiento, 0.25 resolución); 0.25
+por escribir la recta tangente.
+Estándares de aprendizaje evaluados: Conoce las propiedades de las funciones continuas, y representa la
+función en un entorno de los puntos de discontinuidad. Aplica los conceptos de lı́mite y de derivada, ası́ como los
+teoremas relacionados, a la resolución de problemas. Aplica la regla de L’Hôpital para resolver indeterminaciones
+en el cálculo de lı́mites.
+
+A.3.
+a) Procedimiento: 0.5 puntos. Cálculos: 0.25 puntos.
+b) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+c) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+Estándares de aprendizaje evaluados: Realiza operaciones elementales con vectores, manejando correcta-
+mente los conceptos de base y de dependencia e independencia lineal. Maneja el producto escalar y vectorial
+de dos vectores, significado geométrico, expresión analı́tica y propiedades. Determina ángulos, distancias, áreas
+y volúmenes utilizando los productos escalar, vectorial y mixto, aplicándolos en cada caso a la resolución de
+problemas geométricos.
+
+A.4.
+a) Saber que es una binomial e identificar los parámetros:0.5 puntos. Cálcular la probabilidad: 0.5 puntos.
+b) Planteamiento 0.5 puntos. Resolución 0.25 puntos.
+c) Planteamiento 0.5 puntos. Resolución 0.25 puntos.
+                                                                                                           Modelo
+                                                MATEMÁTICAS II
+                                 CRITERIOS ESPECÍFICOS DE CORRECCIÓN
+Todas las respuestas deberán estar debidamente justificadas.
+En cada ejercicio, aunque el procedimiento seguido sea diferente al propuesto en las soluciones, cualquier argu-
+mento válido que conduzca a la solución será valorado con la puntuación asignada.
+
+B.1.
+a) Realizar correctamente las multiplicaciones de matrices: 0.25 puntos. Obtener los valores de a: 0.25 puntos.
+b) Procedimiento: 0.5 puntos. Cálculos: 0.5 puntos. c) Procedimiento: 0.5 puntos. Cálculos: 0.5 puntos.
+Estándar de aprendizaje evaluado:
+Realiza operaciones con matrices y aplica las propiedades de estas operaciones adecuadamente.Determina el
+rango de una matriz, hasta orden 4, aplicando el método de Gauss o determinantes. Estudia, clasifica y resuelve
+sistemas de ecuaciones lineales.
+
+B.2.
+a) 0.25 puntos planteamiento; 0.25 puntos resolución.
+b) 0.5 puntos por los máximos y mı́nimos locales, 0.5 puntos por distinguir correctamente entre locales y globales.
+c) 0.5 puntos planteamiento; 0.5 puntos resolución.
+Estándares de aprendizaje evaluados:
+
+B.3.
+a) Planteamiento: 0.5 puntos. Resolución: 0.25 puntos.
+b) Planteamiento: 0.25 puntos. Resolución: 0.25 puntos.
+c) Planteamiento: 0.75 puntos. Resolución: 0.5 puntos.
+Estándares de aprendizaje evaluados: Expresa la ecuación de la recta de sus distintas formas, pasando de
+una a otra correctamente, identificando en cada caso sus elementos caracterı́sticos, y resolviendo los problemas
+afines entre rectas. Obtiene las ecuaciones de rectas y planos en diferentes situaciones. Obtiene la ecuación del
+plano en sus distintas formas, pasando de una a otra correctamente. Maneja el producto escalar y vectorial de
+dos vectores, significado geométrico, expresión analı́tica y propiedades.
+
+B.4.
+a) 0.25 planteamiento, 0.25 resolución.
+b) 0.5 planteamiento, 0.5 resolución.
+c) 0.25 planteamiento, 0.25 resolución.
+d) 0.25 planteamiento, 0.25 resolución.
+Estándares de aprendizaje evaluados: Calcula la probabilidad de sucesos en experimentos simples y com-
+puestos mediante la regla de Laplace, las fórmulas derivadas de la axiomática de Kolmogorov y diferentes
+técnicas de recuento. Calcula la probabilidad final de un suceso aplicando la fórmula de Bayes. Utiliza el vo-
+cabulario adecuado para describir situaciones relacionadas con el azar.
+                                                                                                               Modelo
+                                         MATEMÁTICAS II—SOLUCIONES
+                                         (Documento de trabajo orientativo)
+A.1.
+
+
+a) La matriz A no posee inversa si su determinante se anula. |A| = 0 ⇒ x2 − 4 = 0 ⇒ x = ±2. Por lo tanto A
+tiene inversa ∀x ∈ < −    {±2}.    
+                             0 3 2
+                         1
+b) Si x = −1, A−1 = 3 0 1.
+                         3
+                           0 0 1                            
+                            0 1 0                      0   0 1
+c) Si x = 1, AB t =  0 0 1 ⇒ (AB t )2 = −1 0 0 ⇒ (AB t )3 = −I. Por lo tanto (AB t )2020 =
+                            −1 0 0                    0 −1  0
+                                                   0 −1 0
+((AB t )3 )673 · AB t = (−I)673 · AB t = −AB t = 0 0 −1.
+                                                   1 0   0
+A.2.
+¯
+a) En cada intervalo de definición, f es cociente de funciones continuas, y por tanto es continua excepto donde
+se anula el denominador (x = −1). En el punto de yuxtaposición, se verifica que f (1) = limx→1− f (x) = 1,
+                             ln x
+limx→1+ f (x) = limx→1+ x−1       = 1, usando la regla de L’Hôpital. Por tanto, f es continua en R − {−1}.
+                                                                                                                  2
+b) Sólo en x = −1 puede existir una ası́ntota vertical; de hecho, este es el caso, puesto que limx→−1−               =
+                                                                                                               x+1
+                    2                                                  2
+−∞, limx→−1+             = ∞. Además, puesto que limx→−∞                   = 0, f tiene una ası́ntota horizontal por la
+                  x+1                                                x+1
+                                               ln x
+izquierda, y = 0; y como además limx→∞             = 0, (usando de nuevo L’Hôpital), y = 0 es una ası́ntota horizontal
+                                              x−1
+de f por la derecha.
+c) La pendiente de la tangente a la gráfica de f en (x0 , f (x0 )) es f 0 (x0 ). Como x0 < 1, tenemos que f 0 (x0 ) =
+    −2
+           . Igualando esta expresión a −1                             2
+                                             2 , obtenemos (x0 + 1) = 4, es decir, x0 = ±2 − 1. AL ser x0 < 1,
+ (x0 + 1)2
+debe ser x0 = −3. Ahora, f (−3) = − 21 , la recta tangente a la gráfica de f en el punto (−3, 12 ) tiene ecuación
+y = − 21 − 12 (x + 3) = − x2 − 2.
+
+A.3.
+
+   −−→              −−→    −−→
+a) AB = (−3, 2, 2). P Q = −AB = (3, −2, −2). Luego el punto Q es (−1, 1, 0) + (3, −2, −2) = (2, −1, −2).
+b) Tenemos que                 
+                                x = −1 + 4λ                 x     y−3       z−4
+                            r≡   y=1                    s≡      =         =        .
+                                                             −2      4         6
+                                 z = 2λ
+                               
+
+El punto que se pide es la intersección de ambas, que se corresponde con λ = 1/2, es decir, M (1, 1, 1) .
+c)
+                    −→                −−→                       (4, 0, 2) · (1, 2, 4)    12
+                    P A = (4, 0, 2), P B = (1, 2, 4), cos α =                         =√ √
+                                                              |(4, 0, −2)||(1, 2, 4)|   20 21
+
+A.4.
+
+
+a) Se trata de una distribución binomial X ∼
+                                             B(6, 0.25), P (X  = 0) = 0.756 ≈ 0.18.
+                                           6    5            6     6
+b) P (X > 4) = P (X = 5) + P (X = 6) = 5 0.25 · 0.75 + 6 0.25 ≈ 0.004638
+c) P (X ≥ 1) = 1 − P (X = 0) = 1 − 0.756 ≈ 0.82
+                                                                                                                    Modelo
+                                                   SOLUCIONES
+                                           (Documento de trabajo orientativo)
+B.1.
+
+
+a) Operando: B t (A + At ) B = 12a − 18 = 6; luego a = 2 .
+b) El sistema debe ser incompatible (rango(A) <rango(A|B)). Dado que det(A)=3 − a y que para a = 3:
+rango(A|B)=3>rango(A)=2, se concluye a = 3 .
+c) Dado que A = A−1 tenemos que A2 = I con lo que det(A) debe ser 1 o −1. Ası́ pues, los posibles valores de
+                                          2                    2
+                                0 1 −1                     0 1 −1
+a son 2 o 4. Basta probar que 4 −3 4  = I y que 2 −3 2  6= I, luego a = 4 .
+                                3 −3 4                     1 −3 2
+B.2.
+
+                                                         p            p
+a) f 0 (x) p
+           = 6x5 − 16xp 3
+                          = 6x3 (x2 − 8/3) = 6x  3
+                                               p (x − 2 2/3)(x
+                                                             p + 2 2/3) . Por tanto, f es decreciente en
+(−∞, −2 2/3) ∪ (0, 2 2/3) y creciente en (−2 2/3, 0) ∪ (2 2/3, ∞)             p
+b) La función f tiene un máximo local en x = 0, y mı́nimos locales en x = ±2 2/3. Además, f es continua y
+derivable en todo R, y lim f (x) = +∞. Por tanto, no tiene máximo global, y los mı́nimos locales también son
+                         x→±∞
+mı́nimos globales.
+c) El área pedida es
+                                             Z 2
+                                                   4x4 − x6 dx = · · · = 512/35.
+                                              −2
+
+
+B.3.
+
+                                                             −−→
+a) La distancia del origen a s es el módulo del vector OO0 , siendo O0 el corte de s con el plano normal a s por O.
+El vector director de s es − →
+                             vs = (2, −1, 1), luego el plano normal a s por el origen tiene ecuación 2x − y + z = 0.
+Introduciendo en esta ecuación la expresión paramétrica de un punto de s, obtenemos            que la intersecci  ón debe
+ser 2(2λ − 3) − (2 − λ) + (1 + λ) = 0, es decir, λ = 67 , O0 = −3 + 2 76 , 2 − 76 , 1 + 76 = −4      5 13
+                                                                                                         
+                                                                                                   ,
+                                                                                                 6 6 6,     y la distancia es
+√              √
+  16+25+169      210
+     6       = 6 .
+b) El vector director de las recta r es −    →
+                                             vr = (1, 0, 2) × (0, 1, 1) = (−2, −1, 1). Y dos puntos pertenecientes a las
+mismas pueden ser Pr (1, 2, 0) y Qs (−3, 2, 1). Las rectas tienen distinta dirección y por tanto se cruzarán o serán
+                                                  −−−→
+secantes. Se comprueba que los vectores Pr Qs = (−4, 0, 1), −          →
+                                                                       vr y −
+                                                                            →
+                                                                            vs son linealmente independientes ⇒ r y s se
+cruzan.
+c) Para hallar la perpendicular común basta escribirla como intersección del plano que pasa por Pr y tiene
+vectores directores ~vr y ~vr × ~vs = (0, 4, 4) y el plano que pasa por Qs con vectores directores ~vs y ~vr × ~vs . De este
+modo obtenemos la recta solución                       (
+                                                         x−y+z+1=0
+                                                    r:
+                                                         x+y−z+2=0
+
+B.4.
+
+
+Sean E “enfermo”, D “diagnosticado como enfermo” y F “fallidamente diagnosticado”.
+a)P (D) = P (D/E)P (E) + P (D/noE)p(noE) = 0.95 × 0.005 + 0.1 × 0.995 = 0.1042
+                         P (D/E)P (E)                      0.95 × 0.005
+b) P (E/D) =                                     =                             = 0.0455
+               P (D/E)P (E) + P (D/noE)P (noE)      0.95 × 0.005 + 0.1 × 0.995
+                   P (noD/noE)P (noE)     0.9 × 0.995
+c) P (noE/noD) =                       =               = 0.999
+                         P (noD)          1 − 0.1042
+d) p(F ) = P (D ∩ noE) + P (noD ∩ E) = P (D/noE)P (noE) + P (noD/E)P (E) = 0.0997.
+              DOCUMENTO DE ORIENTACIONES PARA LA EvAU
+
+                             Matemáticas II. Curso
+                                 2020/2021
+
+                           ESTRUCTURA DEL EXAMEN
+
+El examen constará de ocho problemas, de entre los cuales cada estudiante
+deberá contestar a cuatro cualesquiera de su elección, teniendo la evaluación
+de cada uno de los cuatro problemas la misma ponderación. Entre los ocho
+problemas propuestos habrá dos de ellos relativos a c a d a uno de los cuatro
+bloques con contenido específico del currículo oficial de MATEMÁTICAS II, 2º
+Bachillerato: ÁLGEBRA, ANÁLISIS, GEOMETRÍA y PROBABILIDAD.
+
+                                    CONTENIDOS
+
+ Las pruebas se elaborarán teniendo en cuenta el Real Decreto 1105/2014, de 26 de
+ diciembre, por el que se establece el currículo básico de la Educación Secundaria
+ Obligatoria y del Bachillerato, y Orden PCM/2/2021, de 11 de enero, por la que se
+ determinan las características, el diseño y el contenido de la evaluación de
+ Bachillerato para el acceso a la Universidad, y las fechas máximas de realización y
+ de resolución de los procedimientos de revisión de las calificaciones obtenidas en el
+ curso 2020-2021.
+ Se podrá pedir en las mismas la realización de tareas similares a las siguientes:
+
+ÁLGEBRA
+
+    •   Usar matrices como herramienta para representar datos estructurados y
+        sistemas de ecuaciones lineales.
+    •   Realizar operaciones con matrices y aplicar propiedades.
+    •   Calcular determinantes de orden menor o igual que 4 y manejar las
+        propiedades elementales.
+    •   Calcular la inversa de una matriz cuadrada de orden no superior a tres. Usar
+        adecuadamente las propiedades de la matriz inversa.
+    •   Calcular el rango de una matriz de orden no superior a 4, por determinantes
+        o por el método de Gauss. Estudiar el rango de una matriz que dependa
+        como máximo de un parámetro.
+    •   Resolver sistemas de ecuaciones lineales. Discutir las soluciones de un
+        sistema lineal, dependiente de un parámetro.
+    •   Plantear y resolver problemas que simulen situaciones de la vida real, cuya
+        solución pueda obtenerse a partir de un sistema lineal de, como máximo, tres
+        ecuaciones con tres incógnitas.
+
+ANÁLISIS
+
+    •   Calcular el límite de una función en un punto y en el infinito. Calcular límites
+        laterales y resolver indeterminaciones sencillas.
+    •   Interpretar el significado de la continuidad y la discontinuidad. Identificar
+        funciones continuas y tipos de discontinuidad. Manejar operaciones
+        algebraicas con funciones continuas y composición de funciones continuas.
+    •   Usar el teorema de Bolzano para localizar soluciones de una ecuación.
+    •   Manejar y saber interpretar el concepto de derivada de una función en un
+        punto. Manejar las propiedades de la derivación y calcular derivadas.
+  • Usar derivadas       para estudiar intervalos de crecimiento y
+    decrecimiento y valores extremos. Plantear y resolver de problemas de
+    optimización.
+  • Conocer y aplicar los resultados del Teorema de Rolle, el Teorema del
+    Valor Medio y la regla de L’Hôpital.
+  • Calcular primitivas inmediatas y de funciones que sean derivadas de
+    una función compuesta. Integrar por partes y mediante cambio de
+    variables (ejemplos simples). Integrar funciones racionales (con
+    denominador de grado no mayor que dos).
+  • Calcular áreas de recintos limitados por rectas o curvas sencillas.
+
+GEOMETRÍA
+
+  • Operar con vectores del espacio tridimensional. Estudiar la
+      dependencia e independencia lineal. Manejar los conceptos de base
+      y coordenadas.
+  •   Manejar el producto escalar: definición, propiedades e interpretación
+      geométrica; vectores unitarios, ortogonales y ortonormales.
+  •   Calcular el ángulo entre dos vectores.
+  •   Manejar el producto vectorial: definición, propiedades e
+      interpretación geométrica.
+  •   Manejar el producto mixto de tres vectores: definición, propiedades
+      e interpretación geométrica.
+  •   Aplicar los distintos productos al cálculo de áreas y volúmenes.
+  •   Obtener ecuaciones de rectas en el espacio, en cualquiera de sus
+      formas. Obtener ecuaciones de planos. E stu d ia r la posición relativa
+      de puntos,      rectas y planos en el espacio.
+  •   Resolver problemas de geometría afín con rectas y planos.
+  •   Calcular distancias entre puntos rectas y planos, así como ángulos
+      entre dos planos, entre dos rectas que se corten y entre una recta y un
+      plano.
+
+
+PROBABILIDAD
+
+ •    Calcular la probabilidad de sucesos aleatorios, mediante la regla de
+      Laplace o las fórmulas de la axiomática de Kolmogorov.
+ •    Calcular probabilidades condicionadas. Usar el teorema de probabilidad
+      total y la fórmula de Bayes.
+ •    Identificar variables aleatorias discretas. Calcular probabilidades de
+      sucesos asociados a una distribución binomial. Calcular la media y la
+      desviación típica de una variable aleatoria con distribución binomial.
+ •    Calcular probabilidades de sucesos que se puedan modelizar mediante
+      una distribución binomial, a partir de su aproximación por la normal.
+ •    Calcular probabilidades de sucesos que pueden modelizarse
+      mediante una distribución normal.
+

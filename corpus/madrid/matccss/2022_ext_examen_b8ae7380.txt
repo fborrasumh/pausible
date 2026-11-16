@@ -1,0 +1,402 @@
+                      UNIVERSIDADES PÚBLICAS DE LA COMUNIDAD DE MADRID
+                         EVALUACIÓN PARA EL ACCESO A LAS ENSEÑANZAS
+                              UNIVERSITARIAS OFICIALES DE GRADO
+                                               Curso 2021-2022
+                 MATERIA: MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+                               INSTRUCCIONES GENERALES Y CALIFICACIÓN
+Después de leer atentamente todas las preguntas, el alumno deberá responder razonadamente a cinco preguntas
+cualesquiera a elegir entre las diez que se proponen.
+Cada ejercicio se valorará sobre 2 puntos, y si consta de dos apartados, cada apartado se valorará sobre 1 punto.
+DURACIÓN: 90 minutos.
+
+A.1. (2 puntos) Se consideran las matrices
+                                                      
+                                                 0 1 0
+                                             A= 1 0 0 
+                                                 0 1 0
+     y B = A + aI , donde I es la matriz identidad de orden 3 y a es un número real.
+      a) Calcule A(A2 − A4 )
+      b) Calcule los valores de a para que las matrices B y AB sean invertibles.
+
+A.2. (2 puntos) Un almacén de legumbres al por mayor tiene sacos de dos tipos, con capacidad para 5 kg
+     de peso y con capacidad para 10 kg de peso. Solo tiene 180 sacos de capacidad 10 kg. Debe poner a
+     la venta como mucho 2000 kg de alubias en sacos de ambos tipos. Por cada 3 sacos de 10 kg puede
+     vender como mucho 2 sacos de 5 kg, y como mínimo tiene que poner a la venta 20 sacos de 5 kg y 60 de
+     10 kg. Por cada saco de 10 kg obtiene un beneficio de 5e y por cada saco de 5 kg obtiene un beneficio
+     de 2e. Determine cuántos sacos de cada tipo debe vender para obtener el máximo beneficio y calcule el
+     beneficio que se obtiene.
+
+A.3. (2 puntos) Se considera la función real de variable real
+                                            
+                                            2x − a, si x < −2
+                                            
+                                     f (x) = x2 ,    si − 2 ≤ x ≤ 1
+                                            
+                                             x + b,  si 1 < x
+                                            
+
+      a) Determine los valores de a y b que hacen que f sea continua en R.
+      b) Para a = b = −8, calcule              Z   0
+                                                       f (x) dx.
+                                                 −3
+
+A.4. (2 puntos) Sean A y B sucesos independientes de un experimento aleatorio con P (B) = 1/2.
+      a) Calcule P (A) para el caso en que P (A ∪ B) = 3/4.
+      b) Calcule P (A) para el caso en que P (A ∩ B c ) = 1/4.
+         Nota: B c denota el suceso complementario de B .
+
+A.5. (2 puntos) Para estimar la proporción poblacional de las familias que tienen internet en una determinada
+     ciudad se ha tomado una muestra de familias al azar.
+      a) Si la proporción poblacional fuese P = 0,8, determine el tamaño mínimo necesario de la muestra
+         de familias para garantizar que, con una confianza del 99 %, el margen de error en la estimación no
+         supera el 6 %.
+      b) Tomada al azar una muestra de 200 familias, se encontró que 170 tenían internet. Determine un
+         intervalo de confianza al 95 % para la proporción de familias que tienen internet.
+B.1. (2 puntos) Se considera el sistema de ecuaciones lineales dependiente del parámetro a ∈ R:
+                                                             
+                                             2ax + z = 1     
+                                          ax − y + z = 0
+                                              ay + z = a + 1
+                                                             
+
+     a) Discuta la compatibilidad del sistema para diferentes valores de a.
+     b) Resuelva el sistema para a = 0.
+
+B.2. (2 puntos) La siguiente figura representa la gráfica de una función lineal a trozos f : [0, 6] → R
+
+
+
+
+                                                                    R3
+     a) Determine razonadamente el valor de la integral definida
+                                  R3              R6                 0 f (x) dx.
+     b) ¿Cuál número es mayor,     0 f (x) dx o   0 f (x) dx ? Razone tu respuesta.
+
+B.3. (2 puntos) Considere la función real de variable real dada por la siguiente expresión:
+                                                          x3
+                                             f (x) =            .
+                                                       (x − K)2
+     a) Obtenga el valor de la constante K para que la recta tangente a la función en x = 9 sea paralela al
+        eje de las x. Indique la expresión de dicha recta.
+     b) Para K = 3, señale los intervalos de crecimiento y decrecimiento de la función f (x) y clasifique los
+        extremos relativos de esta función.
+
+B.4. (2 puntos) Ganar en el juego del gambón depende de la actitud de los participantes. El 50 % de ellos son
+     pesimistas y se sienten perdedores antes de haber jugado. El 30 % no lo ve claro y el resto son optimistas
+     y se sienten ganadores antes de jugar. La probabilidad de que ganen los primeros es 0,5, de que ganen
+     los segundos es 0,7 y de que ganen los últimos es 0,9.
+      a) ¿Cuál es la probabilidad de que un jugador escogido al azar gane el juego?
+      b) ¿Cuál es la probabilidad de que el ganador sea alguien que se haya sentido un perdedor antes de
+         haber jugado el juego?
+
+B.5. (2 puntos) Sea una población donde observamos la variable aleatoria X con distribución normal de media
+     20 y desviación típica 5. Sea X la media muestral de una muestra aleatoria de tamaño 25.
+      a) ¿Cuál es la distribución de X ?
+      b) Calcule P (19 < X < 22).
+                         Matemáticas Aplicadas a las Ciencias Sociales
+
+
+
+
+            ÁREAS BAJO LA DISTRIBUCIÓN DE PROBABILIDAD NORMAL ESTÁNDAR
+
+Los valores en la tabla representan el área
+bajo la curva normal hasta un valor positivo
+de z.
+
+
+                                                                                z
+
+
+
+
+z     ,00       ,01       ,02      ,03      ,04      ,05      ,06      ,07          ,08      ,09
+
+0,0   0,5000    0,5040    0,5080   0,5120   0,5160   0,5199   0,5239   0,5279       0,5319   0,5359
+0,1   0,5398    0,5438    0,5478   0,5517   0,5557   0,5596   0,5636   0,5675       0,5714   0,5753
+0,2   0,5793    0,5832    0,5871   0,5910   0,5948   0,5987   0,6026   0,6064       0,6103   0,6141
+0,3   0,6179    0,6217    0,6255   0,6293   0,6331   0,6368   0,6406   0,6443       0,6480   0,6517
+0,4   0,6554    0,6591    0,6628   0,6664   0,6700   0,6736   0,6772   0,6808       0,6844   0,6879
+
+0,5   0,6915    0,6950    0,6985   0,7019   0,7054   0,7088   0,7123   0,7157       0,7190   0,7224
+0,6   0,7257    0,7291    0,7324   0,7357   0,7389   0,7422   0,7454   0,7486       0,7517   0,7549
+0,7   0,7580    0,7611    0,7642   0,7673   0,7703   0,7734   0,7764   0,7794       0,7823   0,7852
+0,8   0,7881    0,7910    0,7939   0,7967   0,7995   0,8023   0,8051   0,8078       0,8106   0,8133
+0,9   0,8159    0,8186    0,8212   0,8238   0,8264   0,8289   0,8315   0,8340       0,8365   0,8389
+
+1,0   0,8413    0,8438    0,8461   0,8485   0,8508   0,8531   0,8554   0,8577       0,8599   0,8621
+1,1   0,8643    0,8665    0,8686   0,8708   0,8729   0,8749   0,8770   0,8790       0,8810   0,8830
+1,2   0,8849    0,8869    0,8888   0,8907   0,8925   0,8944   0,8962   0,8980       0,8997   0,9015
+1,3   0,9032    0,9049    0,9066   0,9082   0,9099   0,9115   0,9131   0,9147       0,9162   0,9177
+1,4   0,9192    0,9207    0,9222   0,9236   0,9251   0,9265   0,9279   0,9292       0,9306   0,9319
+
+1,5   0,9332    0,9345    0,9357   0,9370   0,9382   0,9394   0,9406   0,9418       0,9429   0,9441
+1,6   0,9452    0,9463    0,9474   0,9484   0,9495   0,9505   0,9515   0,9525       0,9535   0,9545
+1,7   0,9554    0,9564    0,9573   0,9582   0,9591   0,9599   0,9608   0,9616       0,9625   0,9633
+1,8   0,9641    0,9649    0,9656   0,9664   0,9671   0,9678   0,9686   0,9693       0,9699   0,9706
+1,9   0,9713    0,9719    0,9726   0,9732   0,9738   0,9744   0,9750   0,9756       0,9761   0,9767
+
+2,0   0,9772    0,9778    0,9783   0,9788   0,9793   0,9798   0,9803   0,9808       0,9812   0,9817
+2,1   0,9821    0,9826    0,9830   0,9834   0,9838   0,9842   0,9846   0,9850       0,9854   0,9857
+2,2   0,9861    0,9864    0,9868   0,9871   0,9875   0,9878   0,9881   0,9884       0,9887   0,9890
+2,3   0,9893    0,9896    0,9898   0,9901   0,9904   0,9906   0,9909   0,9911       0,9913   0,9916
+2,4   0,9918    0,9920    0,9922   0,9925   0,9927   0,9929   0,9931   0,9932       0,9934   0,9936
+
+2,5   0,9938    0,9940    0,9941   0,9943   0,9945   0,9946   0,9948   0,9949       0,9951   0,9952
+2,6   0,9953    0,9954    0,9956   0,9957   0,9959   0,9960   0,9961   0,9962       0,9963   0,9964
+2,7   0,9965    0,9966    0,9967   0,9968   0,9969   0,9970   0,9971   0,9972       0,9973   0,9974
+2,8   0,9974    0,9975    0,9976   0,9977   0,9977   0,9978   0,9979   0,9979       0,9980   0,9981
+2,9   0,9981    0,9982    0,9982   0,9983   0,9984   0,9984   0,9985   0,9985       0,9986   0,9986
+
+3,0   0,9987    0,9987    0,9987   0,9988   0,9988   0,9989   0,9989   0,9989       0,9990   0,9990
+                          MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+          CRITERIOS ESPECÍFICOS DE CORRECCIÓN Y CALIFICACIÓN
+ATENCIÓN: La calificación debe hacerse en múltiplos de 0,25 puntos. En todos los casos, se valorará el
+                                     razonamiento correcto.
+
+Ejercicio A.1. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Cálculo correcto de A2 ............................................................................ 0,25 puntos.
+       Cálculo correcto de A4 ............................................................................ 0,25 puntos.
+       Cálculo correcto de A(A2- A4) ................................................................. 0,50 puntos.
+Apartado (b): 1 punto.
+       Determinación correcta de los valores del parámetro............................. 0,50 puntos.
+       Discusión correcta ................................................................................. 0,50 puntos.
+Estándares de aprendizaje evaluables: Realiza operaciones con matrices y aplica las propiedades de estas operaciones
+adecuadamente de forma manual. Analiza y comprende el enunciado a resolver (datos, relaciones entre los datos,
+condiciones, conocimientos matemáticos necesarios, etc.).
+
+
+Ejercicio A.2. (Puntuación máxima: 2 puntos)
+       Identificación de las variables................................................................. 0,25 puntos.
+       Expresión correcta de la función objetivo .............................................. 0,25 puntos.
+       Establecer correctamente las restricciones ............................................ 0,50 puntos.
+       Representación correcta de la región factible ......................................... 0,50 puntos
+       Determinar correctamente las cantidades pedidas .................................. 0,25 puntos
+         Obtención correcta del beneficio obtenido ............................................ 0,25 puntos
+Estándares de aprendizaje evaluables: Aplica las técnicas gráficas de programación lineal bidimensional para resolver
+problemas de optimización de funciones lineales que están sujetas a restricciones e interpreta los resultados obtenidos
+en el contexto del problema.
+
+
+Ejercicio A.3. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Estudio de la continuidad si x no es -2 o 1 ............................................. 0,25 puntos.
+       Planteamiento de la condición de continuidad en x=-2 y x=1 ............... 0,25 puntos.
+       Cálculo de los límites laterales y conclusión .......................................... 0,50 puntos.
+Apartado (b): 1 punto
+       Planteamiento ......................................................................................... 0,25 puntos.
+       Cálculo correcto de la primitiva.............................................................. 0,50 puntos.
+       Cálculo el área (regla de Barrow ............................................................ 0,25 puntos.
+Estándares de aprendizaje evaluables: Extrae conclusiones a partir de datos relativos a propiedades locales o globales.
+Aplica los conceptos de límite y derivadas. Usa el lenguaje, la notación y los símbolos matemáticos adecuados al
+contexto y a la situación. Aplica la regla de Barrow al cálculo de integrales definidas de funciones elementales
+inmediatas. Estudia la continuidad en un punto de una función definida a trozos utilizando el concepto de límite.
+
+
+Ejercicio A.4. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Planteamiento correcto de la condición de independencia ..................... 0,25 puntos.
+       Planteamiento correcto de la probabilidad de la unión ........................... 0,25 puntos.
+       Cálculo correcto de la probabilidad ........................................................ 0,50 puntos.
+Apartado (b): 1 punto.
+       Planteamiento correcto de la probabilidad de la intersección................. 0,50 puntos.
+       Cálculo correcto de la probabilidad ........................................................ 0,50 puntos.
+Estándares de aprendizaje evaluables: Calcula la probabilidad de sucesos en experimentos simples y compuestos mediante
+la regla de Laplace, las fórmulas derivadas de la axiomática de Kolmogorov y diferentes técnicas de recuento. Calcula la
+probabilidad final de un suceso aplicando la fórmula de Bayes.
+
+
+Ejercicio A.5. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+         Cálculo correcto de za / 2 ......................................................................... 0,25 puntos.
+      Expresión correcta del error .................................................................... 0,25 puntos.
+      Determinación correcta del tamaño de la muestra .................................. 0,50 puntos.
+Apartado (b): 1 punto.
+         Cálculo correcto de za / 2 ......................................................................... 0,25 puntos.
+         Planteamiento correcto ........................................................................... 0,25 puntos.
+         Obtención correcta del intervalo ............................................................. 0,50 puntos.
+Estándares de aprendizaje evaluables: Calcula probabilidades asociadas a la distribución de la media muestral o de la
+proporción, aproximándolas por la distribución normal de parámetros adecuados a cada situación, y lo aplica a problemas
+de situaciones reales. Construye, en contextos reales, un intervalo de confianza para la media poblacional y para la
+proporción en el caso de muestras grandes. Relaciona el error y la confianza de un intervalo de confianza con el tamaño
+muestral y calcula cada uno de estos tres elementos conocidos los otros dos y lo aplica en situaciones reales
+
+
+Ejercicio B.1. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Cálculo correcto de los valores críticos .................................................. 0,50 puntos.
+       Discusión correcta .................................................................................. 0,50 puntos.
+Apartado (b): 1 punto.
+       Solución correcta del sistema ................................................................. 0,50 puntos.
+       Planteamiento del problema.................................................................... 0,50 puntos.
+Estándares de aprendizaje evaluables: Manipula el sistema de ecuaciones lineales de tres ecuaciones y tres incógnitas y
+lo resuelve en los casos en que sea posible. Usa el lenguaje, la notación y los símbolos matemáticos adecuados al
+contexto y a la situación. El sistema de ecuaciones lineales planteado (como máximo de tres ecuaciones y tres
+incógnitas), lo resuelve en los casos que sea posible, y lo aplica para resolver problemas en contextos reales.
+
+
+Ejercicio B.2. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Identificar la integral definida con el área del recinto ............................ 0,50 puntos.
+       Cálculo correcto de la integral definida .................................................. 0,50 puntos.
+Apartado (b): 1 punto.
+       Planteamiento ......................................................................................... 0,50 puntos
+       Discusión correcta .................................................................................. 0,50 puntos.
+Estándares de aprendizaje evaluables: Aplica el concepto de integral definida para calcular el área de recintos planos
+delimitados por una o dos curvas.
+Ejercicio B.3. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Planteamiento de la condición de paralelismo........................................ 0,25 puntos.
+       Expresión correcta de la derivada ........................................................... 0,25 puntos.
+       Obtención del valor de la constante ........................................................ 0,25puntos.
+       Obtención correcta de la ecuación de la recta......................................... 0,25puntos.
+Apartado (b): 1 punto.
+       Obtención de los puntos críticos ............................................................. 0,25 puntos.
+       Determinación de los intervalos pedidos ................................................ 0,50 puntos.
+       Clasificación de los puntos críticos ........................................................ 0,25 puntos.
+
+Estándares de aprendizaje evaluados: Aplica los conceptos de derivada a la resolución de problemas. Extrae
+conclusiones a partir de datos relativos a propiedades locales o globales. Usa el lenguaje, la notación y los símbolos
+matemáticos adecuados al contexto y a la situación.
+
+
+
+Ejercicio B.4. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Planteamiento correcto de la probabilidad.............................................. 0,50 puntos.
+       Cálculo correcto de la probabilidad ........................................................ 0,50 puntos.
+Apartado (b): 1 punto.
+       Planteamiento correcto de la probabilidad.............................................. 0,50 puntos.
+       Cálculo correcto de la probabilidad ........................................................ 0,50 puntos.
+Estándares de aprendizaje evaluables: Calcula la probabilidad de sucesos en experimentos simples y compuestos mediante
+la regla de Laplace, las fórmulas derivadas de la axiomática de Kolmogorov y diferentes técnicas de recuento. Calcula la
+probabilidad final de un suceso aplicando la fórmula de Bayes.
+
+
+Ejercicio B.5. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Expresión de la distribución de la media ................................................ 0,50 puntos.
+       Obtención correcta de la distribución de la media.................................. 0,50 puntos.
+Apartado (b): 1 punto.
+       Tipificación correcta de la variable ........................................................ 0,50 puntos.
+       Obtención correcta de la probabilidad .................................................... 0,50 puntos.
+Estándares de aprendizaje evaluables: Calcula probabilidades asociadas a la distribución de la media muestral y de la
+proporción, aproximándolas por la distribución normal de parámetros adecuados a cada situación, y lo aplica a problemas
+de situaciones reales. Construye, en contextos reales, un intervalo de confianza para la media poblacional de una
+distribución normal con desviación típica conocida.
+
+
+NOTA: La resolución de los ejercicios por cualquier otro procedimiento correcto, diferente al
+propuesto por los coordinadores, ha de valorarse con los criterios convenientemente
+adaptados
+                            MATEMÁTICAS ACS II SOLUCIONES (Documento de trabajo orientativo)
+
+A.1. a)
+                                                             
+                                                        1 0 0
+                                            A2 = A4 =  0 1 0 
+                                                        1 0 0
+
+          Entonces A(A2 − A4 ) = 0, donde 0 es la matriz de ceros de tres por tres.
+     b)
+                                                           
+                                                      a 1 0
+                                                  B= 1 a 0 
+                                                      0 1 a
+
+          El determinante es |B| = a3 − a, que será igual a 0 si a = 1, a = 0 y a = −1. La matriz B es invertible
+          si a 6= −1, 0 y 1. El determinante es |AB| = |A| |B| = 0, ya que el |A| = 0. La matriz AB no es
+          invertible para ningún valor de a.
+
+A.2. Sea x la variable que representa el número de sacos de 5 kg. Sea y el número de sacos de 10 kg. La
+     región del plano viene definida por las restricciones:
+
+                            y ≤ 180;   2y ≥ 3x;    x ≥ 20;      y ≥ 60;   5x + 10y ≤ 2000
+
+    La función objetivo es f (x, y) = 2x + 5y y la región S dibujada es
+
+
+
+
+    La región está determinada por los vértices A(20, 60), B(20, 180), C(40, 180), D(100, 150) y
+    E(40, 60). La región es cerrada y acotada; para calcular el valor máximo de la función f (x, y) = 2x + 5y
+    se evalúa en los vértices de S :
+    f (20, 60) = 2 · 20 + 5 · 60 = 340
+    f (20, 180) = 2 · 20 + 5 · 180 = 940
+    f (40, 180) = 2 · 40 + 5 · 180 = 980
+    f (100, 150) = 2 · 100 + 5 · 150 = 950
+    f (40, 60) = 2 · 40 + 5 · 60 = 380
+    El punto de la región en el cuál se alcanza el máximo es C , siendo 980 el valor máximo alcanzado.
+
+A.3. a) Los únicos puntos donde la función puede ser discontinua son x = −2 y x = 1. El límite por la
+        derecha en x = −2 es 4 mientras que el límite por la izquierda es −4 − a. Para que la función sea
+        continua ha de ser a = −8. El límite por la izquierda en x = 1 es 1 mientras que el límite por la
+                 en ese punto es b + 1. Para que la función sea continua ha de ser b = 0.
+        Rderecha
+          0            R −2           R0              R −2              R0                       x3 0
+     b) −3 f (x) dx = −3 f (x) dx + −2 f (x) dx = −3 (2x + 8) dx + −2 x2 dx = [x2 + 8x]−2  −3 + [ 3 ]−2 =
+          3 + 83 = 17
+                    3 .
+
+A.4. a) De la fórmula de inclusión y exclusión para P (A ∪ B) y de la independencia de A y B se obtiene
+        3/4 = P (A) + 1/2 − P (A)/2, de donde se deduce P (A) = 1/2.
+     b) 1/4 = P (A ∩ B c ) = P (A) − P (A ∩ B) = P (A) − P (A)P (B) = P (A) − [P (A)]2 = P (A)(1 − P (A)),
+        de donde se obtiene P (A) = 1/2.
+
+                                               (2,575)2 · 0,8 · 0,2
+                    q
+                          p(1−p)
+A.5. a) ε = zα/2             n , zα/2 = 2,575,    n =               = 294,7. El mínimo tamaño muestral es
+                                                    (0,06)2
+        n = 295.                                          r
+                                                             0,85 · 0,15
+     b) pb = 0,85, n = 200, zα/2 = 1,96, IC = 0,85 ± 1,96                = (0,801; 0,899)
+                                                                 200
+B.1. a) La matriz del sistema es
+                                                                               
+                                2a 0 1           2a 0 1                        1
+                          A =  a −1 1  y A =  a −1 1                        0 
+                                 0 a 1            0 a 1                       a+1
+        Su determinante es |A| = −a2 − 2a, que será igual a 0 si a = −2 o 0. Entonces,
+           a = −2,    rg(A) = 2, rg(A) = 2         Sistema compatible indeterminado
+            a = 0,    rg(A) = 2, rg(A) = 2 =⇒ Sistema compatible indeterminado
+         a 6= −2 o 0, rg(A) = 3, rg(A) = 3         Sistema compatible determinado
+     b) Para a = 0                                        
+                                                  z = 1 
+                                            −y + z = 0
+                                                  z = 1
+                                                          
+        Entonces la solución es x = λ; y = 1; z = 1
+                   R3
+B.2. a) La integral 0 f (x) dx se corresponde con el área del triángulo con vértices en (0,0), (0,4) y (3,0).
+        Ese valor es 6. Alternativamente se podría deducir la ecuación de la recta que pasa por (0,4) y (3,0)
+        e integrar esa expresión.
+                                      R6            R3           R6                 R6
+     b) Debemos tener en cuenta que 0 f (x) dx = 0 f (x) dx + 3 f (x) dx. Como 3 f (x) dx es la integral
+                                                                      R6                R3
+          de una función negativa es un número negativo. Por tanto       0 f (x) dx <   0 f (x) dx
+
+B.3. a)
+                                                        x2 (x − 3K)
+                                             f 0 (x) =
+                                                         (x − K)3
+        La recta tangente a la gráfica de la función en x = 9 es horizontal si f 0 (9) = 0, y esto ocurre si y solo
+        si K = 3. La recta es y = 81/4.
+     b) f 0 (x) = 0 ⇐⇒ x = 0 o x = 9. En (−∞, 3) ∪ (9, ∞), f 0 (x) > 0 y por tanto f (x) es creciente. En
+        (3, 9), f 0 (x) < 0 y por tanto f (x) es decreciente. De lo anterior, la función tiene un mínimo relativo en
+        x = 9.
+B.4. a) Sea G = {Ganar}, L = {Pesimista}, O = {Optimista}, N = {Ni Optimista ni Pesimista}.
+                                P (G) = 0,5 · 0,5 + 0,7 · 0,3 + 0,9 · 0,2 = 0,64
+     b)
+                                                     0,5 · 0,5
+                                         P (L|G) =             = 0,391
+                                                       0,64
+
+B.5. a) La variable X sigue una distribución normal de media 20 y desviación típica √5 = 1
+                                                                                             25
+     b) P (19 < X < 22) = P ( 19−20
+                                1   < Z < 22−20
+                                            1 ) = P (−1 < Z < 2) = P (Z < 2) − (1 − P (Z ≤ 1)) =
+          0,9772 + 0,8413 − 1 = 0,8185
+

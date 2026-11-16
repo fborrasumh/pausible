@@ -1,0 +1,380 @@
+                        UNIVERSIDADES PÚBLICAS DE LA COMUNIDAD DE MADRID
+                                PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                                                                        C
+                                        Curso 2024-2025
+                   MATERIA: MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+
+                              INSTRUCCIONES GENERALES Y CALIFICACIÓN
+ El examen consta de 4 ejercicios: el primero sin apartados optativos y los tres siguientes con posibilidad
+ de elección. Todas las respuestas deben ser razonadamente justificadas.
+ CALIFICACIÓN: cada ejercicio se valorará sobre 2,5 puntos.
+ DURACIÓN: 90 minutos.
+
+
+
+
+E JERCICIO 1 (2,5 puntos) Responda los dos apartados. Este ejercicio no tiene opcionalidad.
+El famoso youtuber Pepe Fogones ha decidido emprender una nueva aventura empresarial y se ha unido con su
+amigo Cocinauta para lanzar al mercado una exclusiva variedad de té matcha ecológico. Ambos han invertido
+parte de sus ahorros en una plantación de té y están analizando los costes de recolección, procesamiento y
+envasado del té para su distribución. El grupo de asesores contratado por Pepe Fogones y Cocinauta ha logrado
+modelar los costes marginales mensuales, en euros, mediante la siguiente función:
+                                                x + 10
+                                       c(x) =            ,      0 < x < 100
+                                                   50
+siendo x la cantidad mensual, en kilos, de té matcha envasado.
+Los asesores contratados por Pepe Fogones y su socio han hecho, además, un estudio de los beneficios que
+obtiene con sus redes sociales, representados en euros mediante la siguiente función de beneficios:
+                                                       800000
+                                            B(t) =               , t≥0
+                                                    (t − 1)2 + 2
+siendo t el tiempo transcurrido a partir del momento en que han hecho el estudio.
+  1.a) (1 punto) Calcule el coste de envasar x kilos de té matcha sabiendo que el coste de envasar el primer kilo
+       es de 121, 21 euros. Tenga en cuenta que la función de costes marginales es la derivada de la función de
+       costes.
+  1.b) (1,5 puntos) Analice si, con el transcurso del tiempo, el beneficio que obtiene Pepe Fogones con sus redes
+       sociales crece o no, cuál es el máximo beneficio y en qué momento se alcanza. Estudie qué pasaría con
+       el beneficio a largo plazo.
+
+E JERCICIO 2 (2,5 puntos) Responda únicamente a una de las dos preguntas, o bien 2.1 o 2.2.
+   Pregunta 2.1
+   Se consideran las matrices A y B dadas por:
+                                                                           
+                                         1 −1                     1 −1  1
+                                A=                  y   B=
+                                         0 −1                    −1  1 −1
+      2.1.a) (1,25 puntos) Calcule las matrices A20 y A21 .
+      2.1.b) (1,25 puntos) Calcule la matriz X que verifique la igualdad XA = BB t A−1 , donde B t indica la
+      matriz traspuesta de B .
+   Pregunta 2.2
+   Se considera el siguiente sistema de ecuaciones lineales dependiente del parámetro real a:
+                                         
+                                          ax  +y     = a+1
+                                               ay +z = −2a
+                                           −ax    +az = −2
+                                         
+
+       2.2.a) (1,5 puntos) Discuta el sistema en función de los valores del parámetro a.
+       2.2.b) (1 punto) Resuelva el sistema de ecuaciones para a = −1.
+E JERCICIO 3 (2,5 puntos) Responda únicamente a una de las dos preguntas, o bien 3.1 o 3.2.
+
+Una organización no gubernamental (ONG) quiere saber qué cantidad de dinero dedican las familias a
+actividades de interés social y en qué tipo de actividades están interesadas. Para ello se selecciona un municipio
+al azar.
+   Pregunta 3.1
+   La cantidad anual donada por familia a actividades de interés social se puede aproximar por una variable
+   aleatoria con distribución normal de media µ euros y desviación típica de 40 euros.
+        3.1.a) (1,25 puntos) Para una muestra aleatoria de 64 familias resultó que la donación media fue de 360
+       euros. Obtenga un intervalo de confianza del 90 % para estimar la cantidad media donada por familia a
+       actividades de interés social.
+        3.1.b) (1,25 puntos) Determine el tamaño mínimo necesario de una muestra de familias del municipio
+       para garantizar, con un nivel de confianza del 95 %, que el margen de error en la estimación de la cantidad
+       media donada por familia no supere los 10 euros.
+
+   Pregunta 3.2
+   Se sabe que el 70 % de las familias del municipio destina una parte de su presupuesto a actividades de
+   interés social. Si se seleccionan 200 familias al azar:
+        3.2.a) (1 punto) Indique la distribución de la variable aleatoria X =”número de familias que no destinan
+       ninguna cantidad a actividades de interés social”. Determine el número esperado de familias con esta
+       propiedad.
+        3.2.b) (1,5 puntos) Mediante la aproximación por una distribución normal, calcule la probabilidad de que
+       el número de familias de la muestra que destinan una parte de su presupuesto a actividades de interés
+       social esté comprendido entre 138 y 145 familias, ambas incluidas.
+
+
+E JERCICIO 4 (2,5 puntos) Responda únicamente a una de las dos preguntas, o bien 4.1 o 4.2.
+   Pregunta 4.1
+   Sean A y B dos sucesos resultado de un experimento aleatorio tales que P (A) = 0,5, P (B̄) = 0,4 y
+   P (A ∪ B) = 0,8, siendo B̄ el suceso complementario de B .
+       4.1.a) (1 punto) Calcule P (B | Ā), siendo Ā el suceso complementario de A.
+       4.1.b) (0,75 puntos) Calcule P (Ā ∩ B̄).
+       4.1.c) (0,75 puntos) Justifique si los sucesos A y B son independientes o no.
+
+   Pregunta 4.2
+   Un ayuntamiento ha sacado a concurso una convocatoria para la construcción de un Centro de Salud de
+   Atención Primaria. Al concurso se han presentado tres constructoras, Horizon, Vértice XXI y CuadraNova,
+   que tienen una probabilidad de conseguir el contrato de 0,5; 0,3 y 0,2 respectivamente. La probabilidad de
+   que el Centro de Salud esté terminado en la fecha prevista es de 0,6 si la obra se le encarga a Horizon, 0,2
+   si se le adjudica a Vértice XXI y 0,9 si la realiza CuadraNova.
+       4.2.a) (1,25 puntos) Calcule la probabilidad de que el Centro de Salud esté terminado en la fecha prevista.
+       4.2.b) (1,25 puntos) Transcurrido el plazo previsto para la ejecución de la obra se constató que el Centro
+       de Salud de Atención Primaria no estaba terminado. Obtenga la probabilidad de que la obra hubiera sido
+       adjudicada a Vértice XXI.
+                         Matemáticas Aplicadas a las Ciencias Sociales
+
+
+
+
+            ÁREAS BAJO LA DISTRIBUCIÓN DE PROBABILIDAD NORMAL ESTÁNDAR
+
+Los valores en la tabla representan el área
+bajo la curva normal hasta un valor positivo
+de z.
+
+
+                                                                                z
+
+
+
+
+z     ,00       ,01       ,02      ,03      ,04      ,05      ,06      ,07          ,08      ,09
+
+0,0   0,5000    0,5040    0,5080   0,5120   0,5160   0,5199   0,5239   0,5279       0,5319   0,5359
+0,1   0,5398    0,5438    0,5478   0,5517   0,5557   0,5596   0,5636   0,5675       0,5714   0,5753
+0,2   0,5793    0,5832    0,5871   0,5910   0,5948   0,5987   0,6026   0,6064       0,6103   0,6141
+0,3   0,6179    0,6217    0,6255   0,6293   0,6331   0,6368   0,6406   0,6443       0,6480   0,6517
+0,4   0,6554    0,6591    0,6628   0,6664   0,6700   0,6736   0,6772   0,6808       0,6844   0,6879
+
+0,5   0,6915    0,6950    0,6985   0,7019   0,7054   0,7088   0,7123   0,7157       0,7190   0,7224
+0,6   0,7257    0,7291    0,7324   0,7357   0,7389   0,7422   0,7454   0,7486       0,7517   0,7549
+0,7   0,7580    0,7611    0,7642   0,7673   0,7703   0,7734   0,7764   0,7794       0,7823   0,7852
+0,8   0,7881    0,7910    0,7939   0,7967   0,7995   0,8023   0,8051   0,8078       0,8106   0,8133
+0,9   0,8159    0,8186    0,8212   0,8238   0,8264   0,8289   0,8315   0,8340       0,8365   0,8389
+
+1,0   0,8413    0,8438    0,8461   0,8485   0,8508   0,8531   0,8554   0,8577       0,8599   0,8621
+1,1   0,8643    0,8665    0,8686   0,8708   0,8729   0,8749   0,8770   0,8790       0,8810   0,8830
+1,2   0,8849    0,8869    0,8888   0,8907   0,8925   0,8944   0,8962   0,8980       0,8997   0,9015
+1,3   0,9032    0,9049    0,9066   0,9082   0,9099   0,9115   0,9131   0,9147       0,9162   0,9177
+1,4   0,9192    0,9207    0,9222   0,9236   0,9251   0,9265   0,9279   0,9292       0,9306   0,9319
+
+1,5   0,9332    0,9345    0,9357   0,9370   0,9382   0,9394   0,9406   0,9418       0,9429   0,9441
+1,6   0,9452    0,9463    0,9474   0,9484   0,9495   0,9505   0,9515   0,9525       0,9535   0,9545
+1,7   0,9554    0,9564    0,9573   0,9582   0,9591   0,9599   0,9608   0,9616       0,9625   0,9633
+1,8   0,9641    0,9649    0,9656   0,9664   0,9671   0,9678   0,9686   0,9693       0,9699   0,9706
+1,9   0,9713    0,9719    0,9726   0,9732   0,9738   0,9744   0,9750   0,9756       0,9761   0,9767
+
+2,0   0,9772    0,9778    0,9783   0,9788   0,9793   0,9798   0,9803   0,9808       0,9812   0,9817
+2,1   0,9821    0,9826    0,9830   0,9834   0,9838   0,9842   0,9846   0,9850       0,9854   0,9857
+2,2   0,9861    0,9864    0,9868   0,9871   0,9875   0,9878   0,9881   0,9884       0,9887   0,9890
+2,3   0,9893    0,9896    0,9898   0,9901   0,9904   0,9906   0,9909   0,9911       0,9913   0,9916
+2,4   0,9918    0,9920    0,9922   0,9925   0,9927   0,9929   0,9931   0,9932       0,9934   0,9936
+
+2,5   0,9938    0,9940    0,9941   0,9943   0,9945   0,9946   0,9948   0,9949       0,9951   0,9952
+2,6   0,9953    0,9954    0,9956   0,9957   0,9959   0,9960   0,9961   0,9962       0,9963   0,9964
+2,7   0,9965    0,9966    0,9967   0,9968   0,9969   0,9970   0,9971   0,9972       0,9973   0,9974
+2,8   0,9974    0,9975    0,9976   0,9977   0,9977   0,9978   0,9979   0,9979       0,9980   0,9981
+2,9   0,9981    0,9982    0,9982   0,9983   0,9984   0,9984   0,9985   0,9985       0,9986   0,9986
+
+3,0   0,9987    0,9987    0,9987   0,9988   0,9988   0,9989   0,9989   0,9989       0,9990   0,9990
+                                                   SOLUCIONES
+ E JERCICIO 1
+
+1.a) La función de costes es la primitiva de la función de costes marginales:
+
+                                                             (x + 10)2
+                                             Z      
+                                              x + 10
+                                C(x) =                 dx =             +k
+                                                50              100
+       Como 121, 21 = C(1) = k + 1, 21, entonces k = 120 y la función de coste total de envasar x kilos es:
+                                            (x + 10)2           x2     x
+                                    C(x) =             + 120 =      + + 121
+                                               100              100 5
+1.b) Se analiza el crecimiento/decrecimiento de la función de beneficio, B(t) para t > 0.
+                                                        (
+                                ′                         (0, 1) B es creciente
+                               B (t) = 0 ⇐⇒ t = 1 =⇒
+                                                          (1, ∞) B es decreciente
+     Por tanto, el beneficio que consigue Pepe Fogones con sus redes sociales aumenta solo a lo largo del primer
+     año a partir del momento del estudio. Al cabo del primer año obtiene el máximo beneficio, siendo este de
+     400000 C. A partir de ese momento el beneficio decrece.
+        lı́m B(t) = 0. El beneficio tiende a 0 y Pepe Fogones a largo plazo apenas obtendría beneficios por sus
+       x→∞
+     redes sociales.
+
+ E JERCICIO 2
+    Pregunta 2.1
+        2.1.a)                                                     
+                               2               1 −1        1 −1     1 0
+                             A =A·A=                    ·        =        =I
+                                               0 −1        0 −1     0 1
+        entonces A = A−1
+                                              A3 = A2 · A = I · A = A
+        y así sucesivamente se obtiene que A20 = I y A21 = A
+         2.1.b) La matriz A verifica la igualdad A = A−1 . Por tanto, X = BB t
+                                                                      
+                                                     t         3 −3
+                                              X = BB =
+                                                            −3      3
+     Pregunta 2.2
+         2.2.a) |A| = a3 − a = 0 ⇐⇒ a = 0, a = ±1
+
+        Si a ̸= ±1, 0 =⇒ Rg(A) = Rg(A|B) = 3 =⇒ Sistema Compatible Determinado.
+        Si a = 0                                           
+                                                   0 1 0     1
+                                        (A|B) =  0 0 1      0 
+                                                   0 0 0 −2
+                            =⇒ Rg(A) = 2 ̸= Rg(A|B) = 3 =⇒ Sistema Incompatible.
+
+        Si a = 1                                                        
+                                          1 1 0    2             1 1 0   0
+                                                        f3 +f1
+                             (A|B) =  0 1 1 −2  −→  0 1 1 −2 
+                                       −1 0 1 −2                 0 1 1   0
+                            =⇒ Rg(A) = 2 ̸= Rg(A|B) = 3 =⇒ Sistema Incompatible.
+
+        Si a = −1                                                             
+                                     −1    1   0    0            −1  1     0   0
+                                                        f3 +f1
+                         (A|B) =  0 −1        1    2  −→  0 −1          1   2 
+                                       1   0 −1 −2                0  1 −1 −2
+                       =⇒ Rg(A) = 2 ̸= Rg(A|B) = 2 =⇒ Sistema Compatible Indeterminado.
+         2.2.b)                                                   
+                                                 −1     1    0   0
+                                        (A|B) =  0 −1       1   2 
+                                                   0    1 −1 −2
+                                             =⇒ x = y, z = y + 2
+        Por tanto, la solución es x = λ, y = λ, z = λ + 2.
+E JERCICIO 3
+   Pregunta 3.1
+       3.1.a) La variable aleatoria X =”Cantidad anual donada por familia a actividades de interés social” sigue
+      una distribución N (µ, 40).
+      Para obtener el intervalo de confianza del 90 % para la media usamos la fórmula:
+                                                                    σ
+                                                          x̄ ± z α2 √
+                                                                      n
+      Sustituyendo los valores:
+                                                    40
+                                       360 ± 1,645 √ = 360 ± 1,645 · 5
+                                                     64
+      Por lo tanto, el intervalo de confianza del 90 % para la media de las donaciones anuales de las familias
+      es (351,775; 368,225).
+      3.1.b) Para calcular el tamaño mínimo de muestra n, utilizamos la fórmula:
+                                                       α 2
+                                                        z2σ
+                                                  n≥
+                                                         E
+      Sustituyendo los valores:
+                                                                    2
+                                                         1,96 · 40
+                                                n≥                        = 61,47
+                                                            10
+      Por lo tanto, el tamaño mínimo de muestra necesario es de 62 familias.
+   Pregunta 3.2
+      3.2.a) Si X ="Número de familias que no destina parte de su presupuesto a actividades de interés social",
+      X sigue una distribución B(n = 200, p = 0, 3) con esperanza E(X) = n · p = 60. El número de esperado
+      de familias que no destina parte de su presupuesto a actividades de interés social es de 60.
+       3.2.b)
+                                                             140
+                                                     p̂ =        = 0,7
+                                                             200
+      Se cumple que n ≥ 30, np ≥ 5 y nq ≥ 5, por lo tanto, podemos utilizar la aproximación a la distribución
+      normal y tenemos que Y ∼ N (140; 6,481). Aplicando la corrección por continuidad, la probabilidad
+      pedida puede calcularse, entonces, como:
+                                                                    
+                                     137,5 − 140         145,5 − 140
+         P (137,5 < Y < 145,5) = P               <Z<                   =
+                                        6,481               6,481
+                               = P (−0,386 < Z < 0,849) = P (Z < 0,849) − P (Z < −0,386) =
+                               = P (Z < 0,849) − (1 − P (Z < 0,386)) = 0,454.
+
+E JERCICIO 4
+   Pregunta 4.1
+   Se verifica que que P (A) = 0,5, P (B̄) = 0,4 y P (A ∪ B) = 0,8.
+   Además P (A ∩ B) = P (A) + P (B) − P (A ∪ B) = 0,3
+                             P (Ā∩B)
+       4.1.a) P (B | Ā) =     P (Ā)
+                                      = P (B)−P  (A∩B)
+                                             P (Ā)
+                                                         0,3
+                                                       = 0,5 = 0,6.
+       4.1.b) P (Ā ∩ B̄) = 1 − P (A ∪ B) = 0,2.
+       4.1.c)P (A ∩ B) = P (A) · P (B), entonces A y B son sucesos independientes.
+   Pregunta 4.2
+   Definimos los sucesos A=“Contratar Horizon”, B =“Contratar Vértice XXI”, C =“Contratar Cuadranova” y
+   T =”Estar terminado en la fecha prevista”.
+       4.2.a) La probabilidad pedida es:
+                    P (T ) = P (T | A) · P (A) + P (T | B) · P (B) + P (T | C) · P (C) =
+                           = 0,6 · 0,5 + 0,2 · 0,3 + 0,9 · 0,2 = 0,54.
+       4.2.b) La probabilidad pedida es:
+                                                P (T̄ | B) · P (B)   0,8 · 0,3
+                                P (B | T̄ ) =                      =           = 0,522.
+                                                       P (T̄ )         0,46
+                        MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+          CRITERIOS ESPECÍFICOS DE CORRECCIÓN Y CALIFICACIÓN
+                      ATENCIÓN: La calificación debe hacerse en múltiplos de 0,25 puntos
+
+Ejercicio 1. (Puntuación máxima: 2,5 puntos)
+  Apartado (1.a): 1 punto.
+       Cálculo correcto de la primitiva ............................................................. 0,50 puntos.
+       Cálculo correcto de la constante ............................................................ 0,25 puntos.
+       Expresión correcta de 𝐶𝐶(𝑥𝑥) ................................................................... 0,25 puntos.
+  Apartado (1.b): 1,5 puntos.
+       Estudio correcto de los intervalos de crecimiento y decrecimiento ...... 0,50 puntos.
+       Cálculo correcto del máximo y su valor ................................................ 0,50 puntos.
+      Estudio correcto del beneficio a largo plazo .......................................... 0,25 puntos.
+      Contextualización de las soluciones ...................................................... 0,25 puntos.
+
+
+Ejercicio 2. (Puntuación máxima: 2,5 puntos)
+
+   Pregunta 2.1 Puntuación máxima: 2,5 puntos
+       Apartado (2.1.a): 1,25 puntos.
+          Cálculo correcto de 𝐴𝐴2 ..................................................................... 0,50 puntos.
+          Cálculo correcto de 𝐴𝐴20 .................................................................... 0,50 puntos.
+         Cálculo correcto de 𝐴𝐴21 .................................................................... 0,25 puntos.
+       Apartado (2.1.b): 1,25 puntos.
+          Identificación de 𝐴𝐴 como 𝐴𝐴−1 .......................................................... 0,25 puntos.
+          Cálculo correcto de la expresión de 𝑋𝑋 ............................................ 0,25 puntos.
+          Obtención correcta de la matriz 𝑋𝑋 .................................................... 0,75 puntos.
+
+
+   Pregunta 2.2 Puntuación máxima: 2,5 puntos
+       Apartado (2.2.a): 1,5 puntos.
+          Cálculo correcto de los valores críticos ............................................ 0,50 puntos.
+          Discusión correcta del sistema ......................................................... 1 punto.
+       Apartado (2.2.b): 1 puntos.
+          Obtención de la solución del sistema ...............................................     1 punto.
+
+
+Ejercicio 3. (Puntuación máxima: 2,5 puntos)
+
+   Pregunta 3.1 Puntuación máxima: 2,5 puntos
+       Apartado (3.1.a): 1,25 punto.
+             Determinación del valor 𝑧𝑧𝛼𝛼⁄2 ........................................................... 0,25 puntos.
+           Aplicación de la fórmula del error y obtención del mismo ............... 0,75 puntos.
+           Determinación correcta del intervalo de confianza .......................... 0,25 puntos.
+         Apartado (3.1.b): 1,25 puntos.
+             Determinación del valor crítico 𝑧𝑧𝛼𝛼⁄2 ................................................. 0,25 puntos.
+             Planteamiento con la aplicación de la fórmula del error ................... 0,50 puntos.
+             Cálculo correcto del tamaño mínimo de la muestra ......................... 0,50 puntos.
+
+
+NOTA: La resolución de los ejercicios por cualquier otro procedimiento correcto, diferente al propuesto
+por los coordinadores, ha de valorarse con los criterios convenientemente adaptados.
+   Pregunta 3.2 Puntuación máxima: 2,5 puntos
+      Apartado (3.2.a): 1 punto.
+         Determinación de la distribución y sus parámetros ........................... 0,50 puntos.
+         Cálculo correcto del número esperado de familias pedido ............... 0,50 puntos.
+      Apartado (3.2.b): 1,5 puntos.
+         Aproximación correcta y justificada a la distribución normal .......... 0,50 puntos.
+         Cálculo correcto de la probabilidad pedida ...................................... 1 punto.
+
+
+Ejercicio 4. (Puntuación máxima: 2,5 puntos)
+
+ Pregunta 4.1 Puntuación máxima: 2,5 puntos
+     Apartado (4.1.a): 1 punto.
+        Planteamiento correcto de la probabilidad ........................................ 0,50 puntos.
+        Cálculo correcto de la probabilidad................................................... 0,50 puntos.
+     Apartado (4.1.b): 0,75 puntos.
+       Planteamiento correcto de la probabilidad ......................................... 0,50 puntos.
+       Cálculo correcto de la probabilidad.................................................... 0,25 puntos.
+     Apartado (4.1.c): 0,75 puntos.
+       Justificación correcta de la independencia de los sucesos .................. 0,75 puntos.
+
+  Pregunta 4.2 (Puntuación máxima: 2,5 puntos)
+      Apartado (4.2.a): 1,25 puntos.
+        Planteamiento correcto de la probabilidad ........................................ 0,75 puntos.
+        Cálculo correcto de la probabilidad................................................... 0,50 puntos.
+      Apartado (4.2.b): 1,25 puntos.
+        Planteamiento correcto de la probabilidad ......................................... 0,75 puntos.
+        Cálculo correcto de la probabilidad.................................................... 0,50 puntos.
+La NO definición de los sucesos se penalizará con 0,25 puntos en la puntuación total de la pregunta.
+
+
+
+
+NOTA: La resolución de los ejercicios por cualquier otro procedimiento correcto, diferente al propuesto
+por los coordinadores, ha de valorarse con los criterios convenientemente adaptados.
+

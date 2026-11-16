@@ -1,0 +1,425 @@
+                      UNIVERSIDADES PÚBLICAS DE LA COMUNIDAD DE MADRID
+                         EVALUACIÓN PARA EL ACCESO A LAS ENSEÑANZAS
+                              UNIVERSITARIAS OFICIALES DE GRADO                                      H
+                                                   Curso 2023-2024
+                 MATERIA: MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+                               INSTRUCCIONES GENERALES Y CALIFICACIÓN
+Después de leer atentamente todas las preguntas, el alumno deberá responder razonadamente a cinco preguntas
+cualesquiera a elegir entre las diez que se le proponen.
+Cada ejercicio se valorará sobre 2 puntos, y si consta de dos apartados, cada apartado se valorará sobre 1 punto.
+DURACIÓN: 90 minutos.
+
+
+
+
+  1. (2 puntos) Se consideran las matrices A y B dadas por:
+                                                                          
+                                       1 −2 −1                             1
+                                A =  −1  0 −1                      B =  0 .
+                                      −2  2  0                            −1
+      a) Calcule A·B y A3 ·B .
+      b) Determine el valor del determinante de la matriz A−2I , donde I denota la matriz identidad de tamaño
+         3 × 3.
+  2. (2 puntos) La siguiente derivada de una función real de variable real representa la tasa de variación
+     instantánea de una sustancia disuelta en agua:
+                                                              
+                                              ′    3       1 2
+                                          f (t) =      t− t ,
+                                                   2       2
+     siendo t ≥ 0 el tiempo en horas desde que se prepara la disolución.
+      a) Encuentre la función que proporciona la cantidad de sustancia disuelta en función del tiempo,
+         sabiendo que en t = 0 la cantidad disuelta es nula.
+      b) Determine el instante de tiempo en el que la sustancia disuelta es máxima.
+
+  3. (2 puntos) Se considera la función real de variable real definida por la siguiente expresión:
+                                                   
+                                                   
+                                                    ex−1       si   x≤1
+                                                   
+                                         f (x) =
+                                                  −x2
+                                               
+                                                         si x > 1
+                                                   x−2
+      a) Determine el dominio de f (x) y estudie la continuidad en el punto x = 1.
+      b) Analice los intervalos de crecimiento y decrecimiento de f (x).
+
+  4. (2 puntos) Se considera la siguiente función real de variable real:
+                                                            x5 − 1
+                                                  f (x) =           .
+                                                            x4 − 16
+      a) Determine las asíntotas de esta función.
+      b) Obtenga la ecuación de la recta tangente a la función en el punto de abscisa x = 0.
+
+  5. (2 puntos) Se desea vender limonada y naranjada caseras en una verbena popular. Además de agua,
+     de la que disponemos sin limitaciones, cada litro de limonada necesita 4 limones y 80 gramos de azúcar.
+     Cada litro de naranjada necesita 6 naranjas, 1 limón y 50 gramos de azúcar. Se dispone de 80 limones,
+     72 naranjas y 1720 gramos de azúcar para la elaboración. Cada litro de limonada se venderá a 2 euros
+     y cada litro de naranjada a 2,5 euros. Determine los litros que se deben elaborar de cada una de las dos
+     bebidas para maximizar los ingresos de la venta.
+ 6. (2 puntos) Alba, Benito y Charo son socios de una empresa de reformas. Por un trabajo realizado
+    recibieron 6200 euros que se repartieron en función del tiempo dedicado. La cantidad percibida por Alba
+    excede en 200 euros al total recibido conjuntamente por los otros dos socios. Por otra parte, se sabe
+    que para que Alba y Benito percibieran lo mismo Alba debería entregar a Benito 600 euros. Plantee un
+    sistema de ecuaciones y determine la cantidad percibida por cada socio.
+
+ 7. (2 puntos) Se considera el siguiente sistema de ecuaciones lineales dependiente del parámetro real a:
+                                    
+                                     x + y + az           =  2
+                                      x+y +z               =  a
+                                      −2x + 2a y + 8 z     = −13
+                                    
+
+    a) Discuta el sistema en función de los valores del parámetro a.
+    b) Resuelva el sistema de ecuaciones para a = 0.
+
+ 8. (2 puntos) Sean A y B dos sucesos tales que P (A) = 0,7 y P (B) = 0,15. Además, se sabe que
+    P (B̄ | A) = 0,8 donde B̄ es el suceso complementario de B . Calcule:
+     a) P (A ∪ B)
+     b) P (Ā ∪ B̄)
+
+ 9. (2 puntos) El tiempo que las películas permanecen en cartelera se puede aproximar por una variable
+    aleatoria con distribución normal de media µ y desviación típica σ = 2 semanas.
+     a) Determine el tamaño mínimo que debe tener una muestra aleatoria simple de películas para que el
+        error máximo cometido en la estimación de µ sea menor de una semana con un nivel de confianza
+        del 95 %.
+     b) Suponga que µ = 5 semanas. Calcule la probabilidad de que al tomar una muestra aleatoria simple
+        de tamaño n = 16 películas el tiempo medio que han permanecido en cartelera, X̄ , sea mayor de 6
+        semanas.
+
+10. (2 puntos) En la base de datos de Spotify el 80 % de las canciones incluidas son de artistas procedentes
+    de EEUU. El 30 % de las canciones de artistas procedentes de EEUU incluidas pueden clasificarse
+    como electrónica, el 20 % como música urbana y el 50 % restante como pertenecientes a otros
+    estilos musicales. Si el artista no procede de EEUU esas probabilidades son de 10 %, 50 % y 40 %
+    respectivamente. Eligiendo al azar una canción de la base de Spotify, calcule la probabilidad de que:
+     a) La canción pueda clasificarse como música urbana.
+     b) Sabiendo que la canción puede clasificarse como música urbana, sea de un artista no procedente de
+        EEUU.
+                         Matemáticas Aplicadas a las Ciencias Sociales
+
+
+
+
+            ÁREAS BAJO LA DISTRIBUCIÓN DE PROBABILIDAD NORMAL ESTÁNDAR
+
+Los valores en la tabla representan el área
+bajo la curva normal hasta un valor positivo
+de z.
+
+
+                                                                                z
+
+
+
+
+z     ,00       ,01       ,02      ,03      ,04      ,05      ,06      ,07          ,08      ,09
+
+0,0   0,5000    0,5040    0,5080   0,5120   0,5160   0,5199   0,5239   0,5279       0,5319   0,5359
+0,1   0,5398    0,5438    0,5478   0,5517   0,5557   0,5596   0,5636   0,5675       0,5714   0,5753
+0,2   0,5793    0,5832    0,5871   0,5910   0,5948   0,5987   0,6026   0,6064       0,6103   0,6141
+0,3   0,6179    0,6217    0,6255   0,6293   0,6331   0,6368   0,6406   0,6443       0,6480   0,6517
+0,4   0,6554    0,6591    0,6628   0,6664   0,6700   0,6736   0,6772   0,6808       0,6844   0,6879
+
+0,5   0,6915    0,6950    0,6985   0,7019   0,7054   0,7088   0,7123   0,7157       0,7190   0,7224
+0,6   0,7257    0,7291    0,7324   0,7357   0,7389   0,7422   0,7454   0,7486       0,7517   0,7549
+0,7   0,7580    0,7611    0,7642   0,7673   0,7703   0,7734   0,7764   0,7794       0,7823   0,7852
+0,8   0,7881    0,7910    0,7939   0,7967   0,7995   0,8023   0,8051   0,8078       0,8106   0,8133
+0,9   0,8159    0,8186    0,8212   0,8238   0,8264   0,8289   0,8315   0,8340       0,8365   0,8389
+
+1,0   0,8413    0,8438    0,8461   0,8485   0,8508   0,8531   0,8554   0,8577       0,8599   0,8621
+1,1   0,8643    0,8665    0,8686   0,8708   0,8729   0,8749   0,8770   0,8790       0,8810   0,8830
+1,2   0,8849    0,8869    0,8888   0,8907   0,8925   0,8944   0,8962   0,8980       0,8997   0,9015
+1,3   0,9032    0,9049    0,9066   0,9082   0,9099   0,9115   0,9131   0,9147       0,9162   0,9177
+1,4   0,9192    0,9207    0,9222   0,9236   0,9251   0,9265   0,9279   0,9292       0,9306   0,9319
+
+1,5   0,9332    0,9345    0,9357   0,9370   0,9382   0,9394   0,9406   0,9418       0,9429   0,9441
+1,6   0,9452    0,9463    0,9474   0,9484   0,9495   0,9505   0,9515   0,9525       0,9535   0,9545
+1,7   0,9554    0,9564    0,9573   0,9582   0,9591   0,9599   0,9608   0,9616       0,9625   0,9633
+1,8   0,9641    0,9649    0,9656   0,9664   0,9671   0,9678   0,9686   0,9693       0,9699   0,9706
+1,9   0,9713    0,9719    0,9726   0,9732   0,9738   0,9744   0,9750   0,9756       0,9761   0,9767
+
+2,0   0,9772    0,9778    0,9783   0,9788   0,9793   0,9798   0,9803   0,9808       0,9812   0,9817
+2,1   0,9821    0,9826    0,9830   0,9834   0,9838   0,9842   0,9846   0,9850       0,9854   0,9857
+2,2   0,9861    0,9864    0,9868   0,9871   0,9875   0,9878   0,9881   0,9884       0,9887   0,9890
+2,3   0,9893    0,9896    0,9898   0,9901   0,9904   0,9906   0,9909   0,9911       0,9913   0,9916
+2,4   0,9918    0,9920    0,9922   0,9925   0,9927   0,9929   0,9931   0,9932       0,9934   0,9936
+
+2,5   0,9938    0,9940    0,9941   0,9943   0,9945   0,9946   0,9948   0,9949       0,9951   0,9952
+2,6   0,9953    0,9954    0,9956   0,9957   0,9959   0,9960   0,9961   0,9962       0,9963   0,9964
+2,7   0,9965    0,9966    0,9967   0,9968   0,9969   0,9970   0,9971   0,9972       0,9973   0,9974
+2,8   0,9974    0,9975    0,9976   0,9977   0,9977   0,9978   0,9979   0,9979       0,9980   0,9981
+2,9   0,9981    0,9982    0,9982   0,9983   0,9984   0,9984   0,9985   0,9985       0,9986   0,9986
+
+3,0   0,9987    0,9987    0,9987   0,9988   0,9988   0,9989   0,9989   0,9989       0,9990   0,9990
+                        MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+          CRITERIOS ESPECÍFICOS DE CORRECCIÓN Y CALIFICACIÓN
+                      ATENCIÓN: La calificación debe hacerse en múltiplos de 0,25 puntos
+
+Ejercicio 1. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+      Cálculo correcto de 𝐴 · 𝐵 ....................................................................... 0,50 puntos.
+      Cálculo correcto de 𝐴3 · 𝐵 ..................................................................... 0,50 puntos.
+Apartado (b): 1 punto.
+      Obtención correcta de la matriz 𝐴 − 2𝐼 ................................................. 0,50 puntos.
+      Cálculo correcto del determinante .......................................................... 0,50 puntos.
+
+Ejercicio 2. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+      Cálculo correcto de la integral ............................................................... 0,50 puntos.
+      Obtención correcta de la constante de integración ................................. 0,25 puntos.
+      Expresión correcta de la función para la cantidad de sustancia ............. 0,25 puntos.
+Apartado (b): 1 punto.
+      Cálculo correcto de los valores críticos ................................................. 0,25 puntos.
+      Exclusión justificada de 𝑡 = 0 ................................................................ 0,25 puntos.
+      Obtención justificada del máximo .......................................................... 0,50 puntos.
+
+Ejercicio 3. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+      Determinación del dominio de la función ............................................. 0,25 puntos.
+      Estudio de la existencia de la función en 𝑥 = 1 .................................... 0,25 puntos.
+      Estudio correcto de la continuidad en x = 1 .......................................... 0,50 puntos.
+Apartado (b): 1 punto.
+      Cálculo de la derivada y de los valores que la anulan ........................... 0,50 puntos.
+      Determinación de los intervalos de crecimiento y decrecimiento ......... 0,50 puntos.
+
+Ejercicio 4. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+      Obtención de las asíntotas verticales ...................................................... 0,25 puntos.
+      Justificación de la no existencia de asíntota horizontal .......................... 0,25 puntos.
+      Cálculo correcto de asíntota oblicua ....................................................... 0,50 puntos.
+Apartado (b): 1 punto.
+      Planteamiento correcto de la ecuación de la recta tangente ................... 0,25 puntos.
+      Cálculo correcto de la pendiente de la recta ........................................... 0,50 puntos.
+      Obtención de la expresión de la recta tangente ...................................... 0,25 puntos.
+
+Ejercicio 5. (Puntuación máxima: 2 puntos)
+      Determinación de las variables y de la función objetivo ........................ 0,25 puntos.
+      Determinación correcta de las restricciones .......................................... 0,50 puntos.
+      Representación correcta de la región factible ......................................... 0,50 puntos.
+      Cálculo correcto de los vértices de la región factible ............................. 0,50 puntos.
+      Obtención de la solución contextualizada (litros e ingreso de la venta) 0,25 puntos.
+
+
+
+
+NOTA: La resolución de los ejercicios por cualquier otro procedimiento correcto, diferente al propuesto
+por los coordinadores ha de valorarse con los criterios convenientemente adaptados.
+Ejercicio 6. (Puntuación máxima: 2 puntos)
+      Descripción correcta de las tres incógnitas............................................. 0,25 puntos.
+      Planteamiento del sistema de ecuaciones .............................................. 0,75 puntos.
+      Resolución correcta del sistema ............................................................. 0,75 puntos.
+      Obtención correcta de la solución contextualizada ................................ 0,25 puntos.
+
+Ejercicio 7. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+      Cálculo correcto de los valores críticos .................................................. 0,25 puntos.
+      Discusión correcta del sistema ............................................................... 0,75 puntos.
+Apartado (b): 1 punto.
+      Obtención de la solución del sistema ..................................................... 1 punto.
+
+Ejercicio 8. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+      Planteamiento correcto de la probabilidad ............................................. 0,50 puntos.
+      Cálculo correcto de la probabilidad ........................................................ 0,50 puntos.
+Apartado (b): 1 punto.
+      Planteamiento correcto de la probabilidad ............................................. 0,50 puntos.
+      Cálculo correcto de la probabilidad ........................................................ 0,50 puntos.
+
+Ejercicio 9. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+        Cálculo correcto de 𝑧𝛼⁄2 ......................................................................... 0,25 puntos.
+      Planteamiento correcto de la fórmula del error ..................................... 0,25 puntos.
+      Determinación correcta del tamaño de la muestra ................................. 0,50 puntos.
+Apartado (b): 1 punto.
+      Determinación de la distribución de la media muestral ......................... 0,50 puntos.
+      Cálculo correcto de la probabilidad solicitada ...................................... 0,50 puntos.
+
+Ejercicio 10. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+      Planteamiento correcto de la probabilidad ............................................. 0,50 puntos.
+      Cálculo correcto de la probabilidad ........................................................ 0,50 puntos.
+Apartado (b): 1 punto.
+      Planteamiento correcto de la probabilidad ............................................. 0,50 puntos.
+      Cálculo correcto de la probabilidad ........................................................ 0,50 puntos.
+
+
+
+
+NOTA: La resolución de los ejercicios por cualquier otro procedimiento correcto, diferente al propuesto
+por los coordinadores ha de valorarse con los criterios convenientemente adaptados.
+                                                          SOLUCIONES
+
+
+
+1. a)                                                 
+                                     1 −2 −1     1       2
+                          A · B =  −1  0 −1   0  =  0  = 2B
+                                    −2  2  0    −1      −2
+                                                                                           
+                                                                                        8
+   A3 · B = A2 · (A · B) = A2 · (2B) = 2(A · (A · B)) = 2(A · (2B)) = 4(A · B) = 8B =  0 
+                                                                                       −8
+   b)
+                                                            −1 −2 −1
+                                          |A − 2I| =        −1 −2 −1    =0
+                                                            −2  2 −2
+
+2. a) La cantidad de sustancia en la mezcla vendrá dada por una primitiva F (t) sabiendo que en t = 0, no
+      hay sustancia en el agua, es decir, F (0) = 0.
+                                              Z      
+                                              1 2 3     3      1
+                            F (t) =       t − t dt = t2 − t3 + K
+                                              2   2     4      4
+        Como 0 = F (0) = 0 − 0 + K , entonces K = 0 y la función que determina la cantidad de sustancia
+        en función del tiempo es:
+
+                                                             3    1
+                                                      F (t) = t2 − t3
+                                                             4    4
+   b) El máximo de sustancia en la disolución será el máximo de la función F (t). Pero F ′ (t) = f ′ (t). Por
+      tanto, los puntos críticos de F (t) se obtienen de la expresión:
+                                                            
+                                          3       1    3     1
+                    F ′ (t) = f ′ (t) =        t − t2 = t 1 − t = 0          ⇔   t = 0, 2
+                                          2       2    2     2
+        Como en t = 0, F (0) = 0, se analiza en t = 2:
+        En (0, 2), F ′ (t) = f ′ (t) > 0, entonces F (t) crece.
+        En (2, +∞), F ′ (t) = f ′ (t) < 0, entonces F (t) decrece.
+
+        Por tanto, la función F (t) alcanza un máximo en t = 2 y la cantidad de sustancia será máxima a las
+        dos horas de realizarse la disolución.
+
+3. a) D(f ) = R \ {2}.
+      En x = 1:
+                 e0 = 1
+        ∃f (1) = 
+                   −x2
+                                  lı́mx→1− ex−1 = 1
+                                                 
+        lı́mx→1+ x−2     =1      y
+        En consecuencia, la función es continua en x = 1.
+
+   b) f1′ (x) = ex−1 > 0 ∀x ∈ R por lo que f1 (x) = ex−1 es una función creciente ∀x ∈ R y f (x) es
+      creciente ∀x ∈ (−∞, 1).
+                      2
+        f2′ (x) = (x−2)
+                  4x−x
+                       2
+
+        En (1, 2), (2, 4), f2′ (x) > 0 ⇒ f2 crece en (1, 2), (2, 4).
+        En (4, +∞), f2′ (x) < 0 ⇒ f2 decrece en (4, +∞).
+4. a)
+                                                         x5 − 1
+                                              f (x) =
+                                                         x4 − 16
+        Asíntotas verticales:
+                                    lı́m f (x) = +∞          lı́m f (x) = −∞
+                                   x→2+                     x→2−
+
+                                   lı́m f (x) = +∞               lı́m f (x) = −∞
+                                  x→−2+                     x→−2−
+        Por tanto, tiene asíntotas verticales en x = −2 y en x = 2.
+        Asíntotas horizontales:
+                                     x5 − 1                                       x5 − 1
+               lı́m f (x) = lı́m             = +∞                lı́m f (x) = lı́m        = −∞
+              x→+∞              x→+∞ x4 − 16                x→−∞             x→−∞ x4 − 16
+        La función f (x) no tiene asíntota horizontal.
+        Asíntota oblicua: y = mx + n
+                                                         x5 −1
+                                    f (x)            4             x5 − 1
+                      m = lı́m            = lı́m x −16 = lı́m 5            =1
+                            x→±∞ x          x→±∞       x     x→±∞ x − 16x
+                                                   5           
+                                                     x −1                 16x − 1
+              n = lı́m (f (x) − mx) = lı́m             4
+                                                             − x = lı́m 4         =0
+                    x→±∞                   x→±∞ x − 16             x→±∞ x − 16
+      Entonces, la función f (x) tiene asíntota oblicua en y = x.
+   b) Ecuación de la recta tangente a la gráfica en x0 = 0 :
+                                          y − y0 = f ′ (x0 )(x − x0 )
+                                              y0 = f (0) = 1/16
+                                                   x8 − 80x4 + 4x3
+                                        f ′ (x) =
+                                                      (x4 − 16)2
+                                                    ′
+                                                  f (0) = 0
+        La ecuación de la recta tangente a la gráfica de f (x) en x0 = 0 será:
+                                                         1
+                                                   y=
+                                                        16
+5. Sea x = litros de limonada elaborados, e y = litros de naranjada elaborados. Entonces:
+                      S = {4x + y ≤ 80, 6y ≤ 72, 80x + 50y ≤ 1720, x ≥ 0, y ≥ 0} ,
+     con vértices A = (0, 12), B = (14, 12), C = (19, 4) , D = (20, 0) y E = (0, 0).
+
+
+
+
+     La función de ingreso es B(x, y) = 2x+2,5y . Evaluamos en los vértices de la región factible obtenidos:
+      B(0, 12) = 30
+      B(14, 12) = 58 → Máximo
+      B(19, 4) = 48
+      B(20, 0) = 40
+      B(0, 0) = 0
+     Se deben elaborar 14 litros de limonada y 12 litros de naranjada. El ingreso obtenido será de 58 euros.
+ 6. Sea x = cantidad recibida por Alba, y = cantidad recibida por Benito y z = cantidad recibida por Charo.
+                                                       
+                        x + y + z = 6200                x + y + z = 6200
+                            x = y + z + 200      =⇒        x − y − z = 200
+                          x − 600 = y + 600                   x − y = 1200
+                                                       
+       La solución del sistema es x = 3200 , y = 2000 , z = 1000. Por tanto, Alba recibe 3200 euros, Benito
+    recibe 2000 euros y Charo recibe 1000 euros.
+
+ 7. a) |A| = 2a2 − 2 = 0 ⇐⇒ a = ±1
+
+       Si a ̸= ±1 =⇒ Rg(A) = Rg(A|B) = 3 =⇒ Sistema Compatible Determinado.
+       Si a = 1
+                                 
+                        1 1 1   2
+              (A|B) =  1 1 1   1  =⇒ Rg(A) ̸= Rg(A|B) =⇒ Incompatible.
+                       −2 2 8 −13
+
+       Si a = −1
+                         
+              1  1 −1   2
+    (A|B) =  1  1  1 −1  =⇒ Rg(A) = Rg(A|B) = 2 =⇒ Compatible indeterminado.
+             −2 −2  8 −13
+
+
+    b) Si a = 0                                                  
+                                  1 1 0      2    f2 −f1   1 1 0  2
+                                                 f3 +2f1
+                       (A|B) =  1 1 1       0  −→  0 0 1 −2 
+                                −2 0 8 −13                 0 2 8 −9
+       Por tanto, x = −3/2, y = 7/2, z = −2.
+
+ 8. a) Por definición P (A ∪ B) = P (A) + P (B) − P (A ∩ B),
+
+               P (A ∩ B) = P (B | A) · P (A) = (1 − P (B̄ | A)) · P (A) = 0,2 · 0,7 = 0,14,
+       entonces,
+                                   P (A ∪ B) = 0,7 + 0,15 − 0,14 = 0,71.
+    b) La probabilidad pedida es:
+                      P (Ā ∪ B̄) = P (A ∩ B) = 1 − P (A ∩ B) = 1 − 0,14 = 0,86.
+
+ 9. a) Se tiene E < 1, σ = 2 y zα/2 = 1,96.
+                                        σ                 2
+                              E = Zα/2 √ ⇒ 1 > 1,96 √ ⇒ n > 15,3664.
+                                         n                 n
+       Luego el tamaño mínimo de la muestra debe ser de n √    = 16 películas.
+    b) La variable aleatoria X̄ sigue una distribución N (5, 2/ 16)
+                                                
+                                          6−5
+              P (X̄ > 6) = 1 − P Z <        √      = 1 − P (Z < 2) = 1 − 0,9772 = 0,0228.
+                                         2/ 16
+
+10. Definimos los sucesos: A = ’el artista procede de EEUU’, Ā= ’El artista no procede de EEUU’, E1 = ’La
+    canción puede clasificarse como electrónica’, E2 = ’la canción puede clasificarse como música urbana’
+    y E3 = ’la canción puede clasificarse como perteneciente a otros estilos’.
+     a) La probabilidad pedida es:
+                              P (E2 ) = P (E2 | A)P (A) + P (E2 | Ā)P (Ā)
+                                      = 0,8 · 0,2 + 0,2 · 0,5 = 0,26.
+    b) La probabilidad pedida es:
+                                             P (E2 | Ā)P (Ā)   0,2 · 0,5
+                            P (Ā | E2 ) =                     =           = 0,3846.
+                                                 P (E2 )           0,26
+

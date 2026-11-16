@@ -1,0 +1,472 @@
+                         UNIVERSIDADES PÚBLICAS DE LA COMUNIDAD DE MADRID                          modelo
+                                 PRUEBA DE ACCESO A LA UNIVERSIDAD
+
+                                                 Curso 2024-2025
+
+                                    MATERIA: TECNOLOGÍA E INGENIERÍA II
+
+                             INSTRUCCIONES GENERALES Y CALIFICACIÓN
+
+Lea atentamente el examen y responda a las cuestiones tal y como se indica en cada bloque.
+La cuestión correspondiente al Bloque 1 es única (sin opcionalidad) y con carácter competencial.
+En el resto de los bloques, debe contestarse a una cuestión de cada bloque; en caso de responder a dos
+cuestiones de un mismo bloque sólo se corregirá la primera a la que se haya contestado.
+TIEMPO Y CALIFICACIÓN: 90 minutos. Todas las preguntas se calificarán sobre 2 puntos.
+
+
+BLOQUE 1. PROYECTOS DE INVESTIGACIÓN Y DESARROLLO Y TECNOLOGÍA SOSTENIBLE
+
+Cuestión 1. La empresa Colusant SL, situada en la provincia de Almería, ha ganado un concurso para el
+desarrollo e instalación de unos dispositivos IoT para la gestión de recogida de basuras. Estos dispositivos
+consisten en contenedores inteligentes que detectan cuando se ha acumulado un nivel de basura suficiente, o
+surge alguna circunstancia (como olores) que lo aconseje, comunicándolo a una central para que se programe
+su recogida. Los contenedores disponen de una serie de actuadores, de forma que cuando están libres de
+basura puedan liberar un producto que higienice dichos contenedores. En la central se debe crear un software
+con inteligencia artificial que analice el comportamiento de llenado, en función de la información recibida por
+los sensores de los dispositivos IoT, y pueda ayudar a los responsables de gestión de basuras de una ciudad.
+Para la ejecución del proyecto, la empresa cuenta con diferentes equipos de personal:
+    - Grupo de Electrónica y Mecánica: serán los encargados de los sensores y actuadores del proyecto.
+    - Grupo de microcontroladores y comunicación: serán los encargados de la gestión software del
+       contenedor inteligente y la comunicación con la central.
+    - Grupo de Software e Inteligencia Artificial: desarrollarán el software de la central.
+    - Grupo de Producción: se encargan de la producción a gran escala de los modelos escogidos
+    - Grupo de Instalación: se encargan de la instalación de los contenedores inteligentes de acuerdo con las
+       necesidades del cliente.
+Responda a las siguientes preguntas:
+
+   a) Justifique qué metodología emplearía en el proyecto, indicando claramente los aspectos de la
+      metodología por los que puede ser adecuada para este proyecto concreto. (1 punto)
+   b) Llegado el momento de la elaboración y presentación del proyecto técnico: razone qué documentos
+      debería contener dicho trabajo. Indique qué apartados redactaría en la documentación del proyecto,
+      indicando qué aspectos debe considerar en cada uno de ellos. (0,5 puntos)
+   c) Analice en qué aspectos se puede incidir para mejorar la sostenibilidad del proyecto (0,5 puntos)
+
+
+BLOQUE 2. MATERIALES Y FABRICACIÓN
+Responda a una de las dos cuestiones siguientes:
+
+Cuestión 2.1. El níquel cristaliza en la red cúbica centrada en las caras (FCC), tiene un radio atómico medio
+de 0,124 nm y una masa atómica de 58,69 g/mol. Determine:
+a) El índice de coordinación y el número de átomos de cada celdilla. (0,5 puntos)
+b) El volumen de la celdilla unitaria. (0,5 puntos)
+c) El volumen que ocupan los átomos de la celdilla unitaria y el factor de empaquetamiento. (0,5 puntos)
+d) La densidad teórica del níquel, en g/cm3. (0,5 puntos)
+Nota: Considere el número de Avogadro como 6,023·1023 átomos/mol.
+Cuestión 2.2. A la vista del siguiente diagrama de fases simplificado del sistema hierro – carbono:
+
+                           1.500
+                           1.300
+                           1.100
+                              900
+                       T ºC
+                              700
+                              500
+                              300
+
+
+                                       0,9      2,0       % peso      4,3              6,7
+a)   Justifique si las aleaciones con un 0,7% y un 5,0%Cde carbono son aceros o fundiciones. (0,5 puntos)
+b)   Indique la proporción de hierro y de carbono de la aleación de composición eutéctica. ¿Qué fases se
+     formarán al producirse la solidificación del líquido para esa composición? (0,5 puntos)
+c)   Describa el proceso de enfriamiento de una aleación con un 1,0% de carbono desde los 1.600ºC hasta la
+     temperatura ambiente. (0,5 puntos)
+d)   Determine la proporción de los constituyentes de equilibrio de una aleación con un 0,5% de carbono a
+     temperatura ambiente. (0,5 puntos)
+
+
+
+
+BLOQUE 3. SISTEMAS MECÁNICOS
+Responda a una de las dos cuestiones siguientes:
+
+Cuestión 3.1. De la viga que se muestra en la figura:
+a) Indique de qué tipo de viga se trata según sus apoyos. (0,5 puntos)
+b) Calcule las reacciones en los apoyos. (0,5 puntos)
+c) Represente los diagramas de esfuerzo cortante y momento flector. (1 punto)
+
+
+
+
+Cuestión 3.2. Para la climatización de una caravana se emplea una bomba de calor que funciona según el
+ciclo de Carnot reversible entre dos focos a temperaturas de 8ºC y 28ºC. Si la potencia útil del compresor es
+de 2,7 kW, calcule:
+a) La eficiencia de la bomba si funciona como una máquina calorífica. (0,5 puntos)
+b) La eficiencia de la bomba si funciona como una máquina frigorífica. (0,5 puntos)
+c) El calor por unidad de tiempo aportado a la caravana cuando la bomba funciona como máquina calorífica.
+    (0,5 puntos)
+d) El calor por unidad de tiempo retirado de la caravana cuando la bomba funciona como máquina frigorífica.
+    (0,5 puntos)
+BLOQUE 4. SISTEMAS ELÉCTRICOS Y ELECTRÓNICOS
+Responda a una de las dos cuestiones siguientes:
+
+Cuestión 4.1. Dado el circuito eléctrico en corriente alterna de la figura, determine:
+a) Valor eficaz de la corriente que circula por cada uno de los componentes pasivos. (1 punto)
+b) Potencia activa y reactiva en el generador. (0,5 puntos)
+c) Valor eficaz de la corriente que circula por el generador. (0,5 puntos)
+
+
+
+
+                     R1=80 Ω ; R2=120 Ω ; L1=80 mH ; L2=20 mH ; C1=150 µF ; C2=75 µF
+                                       E = 230 V (valor eficaz) , 50 Hz
+
+Cuestión 4.2. Dada la función lógica F(A,B,C,D) = M (2,4,5,10,11,12,13):
+a) Obtenga la forma más simplificada de la función, como suma de productos, usando el método de Karnaugh.
+   (1,5 puntos)
+b) Dibuje el circuito simplificado correspondiente, usando el menor número de puertas, con el número de
+   entradas que corresponda (se pueden usar solo puertas NOT, OR o AND). (0,5 puntos)
+
+
+
+
+BLOQUE 5. SISTEMAS INFORMÁTICOS EMERGENTES Y SISTEMAS AUTOMÁTICOS
+Responda a una de las dos cuestiones siguientes:
+
+Cuestión 5.1.
+a) Defina qué es una Base de Datos Distribuida (BDD). (1 punto)
+b) Indique dos ventajas de las BDDs. (0,5 puntos).
+c) Indique dos desventajas de las BDDs. (0,5 puntos).
+
+Cuestión 5.2. Dado el diagrama de bloques de la figura:
+a) Obtenga la función de transferencia Y/R. (1 punto)
+b) Si la señal R de entrada toma el valor 1 y P1=P3=1 ¿qué valor tiene la función de transferencia P2 para que
+   Y sea 1? (1 punto)
+                                   TECNOLOGÍA E INGENIERÍA II
+                              CRITERIOS ESPECÍFICOS DE CORRECCIÓN
+
+Se tendrá en cuenta en la calificación de la prueba:
+1.- Claridad de comprensión y aplicación de conceptos.
+2.- Capacidad de análisis y relación.
+3.- Desarrollo de la resolución de forma coherente y uso correcto de unidades.
+
+Cada pregunta se podrá calificar con un máximo de 2 puntos con la siguiente distribución:
+
+Cuestión 1.: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 1,0 puntos
+       Apartado b: 0,5 puntos
+       Apartado c: 0.5 puntos
+Cuestión 2.1: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 0,5 puntos
+       Apartado b: 0,5 puntos
+       Apartado c: 0,5 puntos
+       Apartado d: 0,5 puntos
+Cuestión 2.2: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 0,5 puntos
+       Apartado b: 0,5 puntos
+       Apartado c: 0,5 puntos
+       Apartado d: 0,5 puntos
+Cuestión 3.1: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 0,5 puntos
+       Apartado b: 0,5 puntos
+       Apartado c: 1,0 puntos
+Cuestión 3.2: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 0,5 puntos
+       Apartado b: 0,5 puntos
+       Apartado c: 0,5 puntos
+       Apartado d: 0,5 puntos
+Cuestión 4.1: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 1,0 puntos
+       Apartado b: 0,5 puntos
+       Apartado c: 0,5 puntos
+Cuestión 4.2: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 1,5 puntos
+       Apartado b: 0,5 puntos
+Cuestión 5.1: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 1,0 puntos
+       Apartado b: 0,5 puntos
+       Apartado c: 0,5 puntos
+Cuestión 5.2: 2 PUNTOS, repartidos de la siguiente forma:
+       Apartado a: 1,0 puntos
+       Apartado b: 1,0 puntos
+                                    SOLUCIONES
+                             TECNOLOGÍA E INGENIERÍA II
+                           (Documento de Trabajo Orientativo)
+BLOQUE 1. PROYECTOS DE INVESTIGACIÓN Y DESARROLLO Y TECNOLOGÍA SOSTENIBLE
+
+Cuestión 1.
+
+  a) Se podría utilizar cualquier metodología, pero la que más se ajusta al proyecto planteado es la
+  metodología Agile, consistente en un conjunto de técnicas y estrategias de trabajo en equipo que buscan
+  flexibilidad y la inmediatez en el desarrollo de un proyecto, para lo cual adaptan la forma de trabajar a las
+  condiciones del proyecto. De esta forma se puede dar una respuesta rápida, mejorando y adecuando el
+  proyecto a las circunstancias que vayan surgiendo durante su desarrollo.
+
+  Esta metodología donde más se aplica es en el desarrollo de software, de productos de hardware o de
+  dispositivos de IoT y en el desarrollo de infraestructura tecnológica (redes, centros de datos, etc.). También
+  ayuda a que haya una mayor adaptabilidad y colaboración estrecha entre los equipos involucrados.
+  Este tipo de metodologías está basado en cuatro principios de trabajo fundamentales:
+      Fragmentación: La empresa ya cuenta con equipos especializados en cada una de las tareas, por lo
+      que su propia facilita este aspecto. En lugar de intentar resolver todo el problema, la empresa divide el
+      proyecto en los diferentes grupos de personal, tal y como se indica en el enunciado, para que el avance
+      sea más rápido.
+       Cooperación: Para que la metodología pueda funcionar es necesario crear mecanismos de cooperación
+       entre los grupos. Una posibilidad es nombrar a un responsable de cada uno de los grupos y establecer
+       una planificación semanal de reuniones, donde todos los responsables sean conscientes de los
+       problemas. Por ejemplo, si el grupo de electrónica y mecánica detecta que han tenido dificultad para
+       encontrar los sensores, el grupo de producción tiene que estar alerta para evitar posibles problemas
+       futuros. Es decir, que todos los grupos interaccionan y trabajan como un único grupo. Se promueve el
+       trabajo colaborativo, se harán reuniones de 5 o 10 minutos con los diferentes responsables de grupo
+       diariamente, donde se mencionan los avances y los problemas que han aparecido, se decide como se
+       resuelven los problemas y en caso de que no haya, en función de los resultados, se proponen los
+       siguientes pasos de trabajo.
+       Sencillez: Cada grupo debe contar con tareas sencillas y bien documentadas. De nuevo, el hecho de
+       que la empresa esté dividida por grupos especializados hace fácil cumplir con este aspecto de la
+       metodología. Se debería realizar un seguimiento del proyecto de forma regular utilizando métodos y
+       herramientas sencillas. Se puede utilizar la herramienta visual Trello para gestionar el proyecto, el flujo
+       de trabajo y supervisar tareas.
+       Adaptación: En parte del proyecto existe cierta incertidumbre sobre lo que quiere el cliente (ubicación y
+       número de contenedores, qué va a hacer el software de inteligencia artificial, qué situaciones aconsejan
+       que se mande comunicación para que se recoja la basura). El proceso en una metodología Agile es
+       cíclico e incluye una realimentación. Así, es importante hacer una fase de pruebas en las que se instalará
+       algún contenedor piloto y se irán rectificando los requerimientos del proyecto. Se tratan conjuntamente
+       la planificación y la ejecución para poder responder de forma eficaz a los cambios que se vayan
+       produciendo a lo largo del proyecto. Así, en lugar de seguir un plan fijo, éste es adaptable y se puede
+       responder rápidamente a los cambios.
+
+   b) El proyecto debe contener toda la información relativa al total del trabajo realizado y debe estar formado
+   por una serie de documentos técnicos. La norma UNE 157001:2014 es la que regula los criterios generales
+   para la elaboración formal de los documentos que constituyen un proyecto técnico, y se podrían resumir en:
+
+   -   Índice: en el que van a organizar los contenidos del proyecto y va a permitir localizar fácilmente todos
+       los contenidos.
+   -   Memoria: en la que se describa claramente cuáles eran los objetivos planteados, las diferentes
+       soluciones planteadas y el software final creado y escogido, aclarando la razones de escogerlo.
+   -   Planos: en los que se represente gráficamente cómo van a estar construido y ubicados los actuadores
+       colocados en las instalaciones de basura, y cómo van a ser los receptores. Debe ser un documento
+       normalizado y a escala. Se incluirán los dibujos, esquemas y figuras que sean necesarios.
+
+   -   Pliego de condiciones: en el que se especifique de forma detallada el desarrollo y las condiciones de
+       las actividades realizadas para la ejecución del trabajo. Se establecerán las condiciones dadas en el
+       concurso ganado por la empresa, los plazos y la fecha final de entrega de los contenedores inteligentes.
+       Estos datos son contractuales y su redacción debe ser rigurosa.
+   -   Presupuesto: en el que se detalle el coste global del proyecto. Incluirá las mediciones o diferentes partes
+       en las que se ha dividido el proyecto, por ejemplo: desarrollo del software, coste del material de los
+       contenedores, instalación de sensores y actuadores, mano de obra…
+   -   Anexos del proyecto: en el que se detalle entre otros documentos legales, el estudio de impacto
+       ambiental por la mejora en el sistema de recogida de residuos, aunque también el de la instalación de
+       contenedores nuevos.
+
+   c) Para mejorar la sostenibilidad del proyecto se puede atender a diferentes aspectos. Por ejemplo,
+   atendiendo a la ubicación de la empresa, Almería, que es una zona con muchos días de sol, se podría
+   aprovechar la energía solar para la fabricación del producto y para la alimentación de los contenedores. De
+   este modo, se facilitaría el aprovechamiento de energías renovables y se minimizaría el impacto ambiental
+   que pueden producir los contenedores.
+   Otro aspecto para considerar en el ámbito de la sostenibilidad del proyecto es relativo al uso del IoT de esta
+   empresa para la recolección de residuos, puede extenderse a la recolección inteligente. En muchas
+   ocasiones, las personas no terminan de conocer con detalle la clasificación de los residuos a la hora de
+   reciclar. Una de las funcionalidades que se puede dar a los contenedores es la de guiar a los usuarios. Esto
+   puede hacerse instalando luces o pantallas que inciten al ciudadano depositar el residuo en el compartimento
+   adecuado de manera sencilla. De esta manera, no sólo se fomenta la participación ciudadana, sino que
+   también se reduce la contaminación cruzada de residuos.
+
+   También relativo a la sostenibilidad del proyecto propuesto, puede considerarse que, al optimizar la
+   recolección, promover el reciclaje y mejorar la eficiencia, el IoT contribuye a la reducción del impacto
+   ambiental asociado con la generación y gestión de residuos. Además, se fomenta la conservación de
+   recursos y la economía circular.
+
+BLOQUE 2. MATERIALES Y FABRICACIÓN
+
+Cuestión 2.1.
+
+a) El índice de coordinación para la red FCC es IC = 12.
+El número de átomos por celdilla es igual a 4: un átomo en cada vértice del cubo (compartido cada uno de ellos
+por ocho celdillas unitarias), y 6 en las caras del cubo (compartido cada uno por dos celdillas). En total habrá n
+= 8·(1/8)+6·(1/2) = 4 átomos.
+
+b) Al ser una red cúbica, V = a3, siendo a la constante reticular (longitud de la arista del cubo).
+En la red FCC los átomos están en contacto directo en las diagonales de las caras, por lo que será a = 4r/2,
+y en el caso del níquel, a = 4·(0,124 nm)/2 = 0,351 nm.
+Luego el volumen de la celda unitaria será Vceldilla = (0,351 nm)3 = 0,043 nm3.
+
+c) Dado que hay cuatro átomos en total en la celda unidad, el volumen ocupado por átomos sería:
+ Vat = 4·[4/3··r3].Como r = 0,124 nm, entonces Vat = 31,95·10-3 nm3.
+El factor de empaquetamiento es la fracción de volumen de celdilla unitaria ocupada por átomos:
+                                f = Vat/Vceldilla = Vat / a3 = 31,95·10-3/(0,351)3 = 0,74.
+
+d) La densidad se obtiene como el cociente entre la masa y el volumen. Si se considera el volumen de la celdilla
+unitaria, y la masa de los cuatro átomos de níquel correspondientes a esa celdilla:
+ = mat/Vceldilla = [4 átomos·(58,69 g/mol)/(6,023·1023 átomos/mol)] / (0,351·10-7 cm)3
+                                                    = 9,01 g/cm3
+Cuestión 2.2.
+
+a) La proporción de carbono de un acero ha de estar comprendida entre el 0,025% y el 2%, luego la aleación
+con un 0,7% de carbono es un acero. Las fundiciones tienen una concentración de carbono comprendida entre
+el 2% y el 6,67%, luego la aleación con un 5% de carbono es una fundición.
+
+b) La eutéctica corresponde a la aleación que contiene un 4,3% de carbono y un 95,7% de hierro. Al solidificar,
+se formarán austenita y cementita.
+
+c) Se trata de un acero, que a 1600ºC estará en estado líquido. Al ir bajando la temperatura, empezará a
+solidificar a 1400ºC y finaliza la solidificación a 1300ºC, estando formado en ese momento por un 100% de
+austenita. Al continuar enfriando, la austenita se mantiene hasta los 750ºC, donde empieza a formarse
+cementita. Finalmente, a 700 ºC la austenita restante se transforma, a través de una reacción eutectoide, en
+ferrita y cementita, manteniéndose ya esta microestructura hasta temperatura ambiente.
+
+d) A temperatura ambiente, las fases presentes en equilibrio para esa composición serán ferrita y cementita.
+Aplicando la regla de la palanca:
+% ferrita = 100·(6,67-0,5)/(6,67-0) = 92,5%, luego habrá un 7,5% de cementita.
+
+
+BLOQUE 3. SISTEMAS MECÁNICOS
+
+Cuestión 3.1.
+
+a) Se trata de una viga simplemente apoyada, con un apoyo simple en el extremo A, y un apoyo articulado en
+el apoyo B.
+
+b) En ambos apoyos aparecen reacciones verticales: 𝑅𝐴 y 𝑅𝐵 .
+
+
+
+
+   Por equilibrio de fuerzas verticales:
+
+                                           𝑅𝐴 + 𝑅𝐵 = 1300 − 800 = 500 𝑁
+
+   Por equilibrio de momentos en el apoyo A:
+
+                                           1300 · 5 − 800 · 7 − 𝑅𝐵 · 12 = 0
+
+   Se tiene así un sistema de dos ecuaciones con dos incógnitas:
+
+                                                     𝑅𝐴 = 425 𝑁
+                                                     𝑅𝐵 = 75 𝑁
+
+c) Diagramas de esfuerzo cortante y momento flector:
+
+       -   Tramo: 0 𝑚 ≤ 𝑥 ≤ 5 𝑚
+                                𝑉(𝑥) = 𝑅𝐴 = 425 𝑁; 𝑀(𝑥) = 𝑅𝐴 · 𝑥 = 425𝑥 𝑁 · 𝑚
+       -   Tramo: 5 𝑚 ≤ 𝑥 ≤ 7 𝑚
+                                          𝑉(𝑥) = 𝑅𝐴 − 1300 = −875 𝑁;
+                                𝑀(𝑥) = 𝑅𝐴 · 𝑥 − 1300(𝑥 − 5) = −875𝑥 + 6500 𝑁 · 𝑚
+
+       -   Tramo: 7 𝑚 ≤ 𝑥 ≤ 12 𝑚
+                                     𝑉(𝑥) = 𝑅𝐴 − 1300 + 800 = −75 𝑁;
+                       𝑀(𝑥) = 𝑅𝐴 · 𝑥 − 1300(𝑥 − 5) + 800(𝑥 − 7) = −75𝑥 + 900 𝑁 · 𝑚
+
+
+
+
+Cuestión 3.2.
+
+En primer lugar, ponemos el valor de las temperaturas en Kelvin:
+                                           𝑇1 = 28 + 273 = 301 𝐾
+                                            𝑇2 = 8 + 273 = 281 𝐾
+
+Q1 = calor aportado al foco caliente por unidad de tiempo
+Q2 = calor eliminado del foco frío por unidad de tiempo
+W = trabajo realizado sobre el sistema por unidad de tiempo
+Q1 = Q 2 + W
+
+a) Para una bomba de calor operando como máquina calorífica la eficiencia es:
+
+                    bc = Q1 / W = Q1 / (Q1 – Q2) = T1 / (T1 – T2) = 301 / (301 – 281) = 15,1
+
+b) Como máquina frigorífica :
+
+                    mf = Q2 / W = Q2 / (Q1 – Q2) = T2 / (T1 – T2) = 281 / (301 – 281) = 14,1
+
+c) El calor por unidad de tiempo aportado a la caravana cuando la bomba funciona como máquina calorífica:
+
+                                       Q1 = bc · W = 15,1 · 2,7 = 40,8 kW
+
+d) El calor por unidad de tiempo retirado de la caravana cuando la bomba funciona como máquina frigorífica:
+
+                                       Q2 = mf · W = 14,1 · 2,7 = 38,1 kW
+BLOQUE 4. SISTEMAS ELÉCTRICOS Y ELECTRÓNICOS
+
+Cuestión 4.1.
+a)
+                                             𝑈𝑅1 230
+                                          𝐼𝑅1 =   =      = 2,875 𝐴
+                                              𝑅1    80
+                                             𝑈𝑅     230
+                                       𝐼𝑅2 = 2 =         = 1,916 𝐴
+                                              𝑅2    120
+              𝐿𝑒𝑞 = 𝐿1 + 𝐿2 = 100 𝑚𝐻 ; 𝑋𝐿𝑒𝑞 = 𝜔 · 𝐿𝑒𝑞 = 2 · 𝜋 · 50 · 100 · 10−3 = 31,41 Ω
+                                                   𝑈𝐿𝑒𝑞    230
+                                𝐼𝐿𝑒𝑞 = 𝐼𝐿1 = 𝐼𝐿2 =      =       = 7,32 𝐴
+                                                   𝑋𝐿𝑒𝑞 31,41
+              1    1    1                               1              1
+                = +        ; 𝐶𝑒𝑞 = 50 𝜇𝐹 ; 𝑋𝐶𝑒𝑞 =           =                      = 63,66 Ω
+             𝐶𝑒𝑞 𝐶1 𝐶2                              𝜔 · 𝐶𝑒𝑞 2 · 𝜋 · 50 · 50 · 10−6
+                                                   𝑈𝐶𝑒𝑞    230
+                                𝐼𝐶𝑒𝑞 = 𝐼𝐶1 = 𝐼𝐶2 =      =       = 3,61 𝐴
+                                                   𝑋𝐶𝑒𝑞 63,66
+
+b)
+        𝑃𝑔𝑒𝑛 = 𝑃𝑅1 + 𝑃𝑅2 = 𝐼𝑅21 · 𝑅1 + 𝐼𝑅22 · 𝑅2 = 2,8752 · 80 + 1,9162 · 120 = 1101 𝑊
+
+                                                𝑈𝐿2𝑒𝑞       𝑈𝐶2𝑒𝑞       2302   2302
+                     𝑄𝑔𝑒𝑛 = 𝑄𝑋𝐿𝑒𝑞 − 𝑄𝑋𝐶𝑒𝑞 =             −           =        −      = 853,2 𝑣𝑎𝑟
+                                                𝑋𝐿𝑒𝑞        𝑋𝐶𝑒𝑞        31,41 63,66
+c)
+                                                2 + 𝑄2
+                                      𝑆𝑔𝑒𝑛 = √𝑃𝑔𝑒𝑛   𝑔𝑒𝑛 = 1392,9 𝑉𝐴
+
+                                                   𝑆𝑔𝑒𝑛 1392,9
+                                          𝐼𝑔𝑒𝑛 =        =      = 6𝐴
+                                                   𝑈𝑔𝑒𝑛   230
+Cuestión 4.2.
+
+a) Dado que se parte de la forma canónica, se rellena directamente la tabla de Karnaugh. Según el enunciado,
+se resuelve haciendo agrupación de unos (suma de productos), en los que salen dos grupos de 4 y uno de 2.
+
+
+
+
+Valoración propuesta:
+       - Rellenar de forma correcta el mapa de Karnaugh: 0,25 puntos.
+       - Elección de las agrupaciones óptimas: 0,25 puntos.
+       - Obtener la expresión lógica correspondiente: 0,5 puntos.
+       - Si las agrupaciones no son las óptimas o se han hecho las agrupaciones con ceros pero la
+           expresión lógica es coherente, puntuar con 0,5 puntos la expresión lógica.
+b) A continuación se muestra el circuito correspondiente:
+
+
+                                           Valoración propuesta:
+                                           - Cada puerta incorrecta restar 0,25 puntos.
+BLOQUE 5. SISTEMAS INFORMÁTICOS EMERGENTES Y SISTEMAS AUTOMÁTICOS
+
+
+Cuestión 5.1.
+
+a) Una Base de Datos Distribuida (BDD) es una colección de datos distribuidos en diferentes nodos de una red
+de computadoras, interconectados entre sí por una red de comunicaciones y cada nodo cuenta con la
+capacidad de realizar procesamientos autónomos, que permiten realizar operaciones locales o distribuidas.
+
+b) Algunas de las ventajas de los sistemas de bases de datos distribuidos tienen
+          a. Rendimiento, al permitir localizar los datos en un lugar más cercano.
+          b. Escalabilidad horizontal, ya que se pueden añadir nodos según la demanda.
+          c. Disponibilidad, al no existir un único punto de falla es más tolerante, en caso de caída de un
+              nodo el sistema puede seguir en funcionamiento.
+          d. Modularidad, es más flexible a la hora de realizar modificaciones en una parte del sistema sin
+              afectar al resto.
+          e. Localidad, ya que los datos pueden estar controlados por el departamento o grupo a quién
+              pertenece.
+
+c) Algunas desventajas de las Bases de Datos Distribuidas:
+          a. Complejidad, debido a la naturaleza distribuida. El diseño de la base de datos y el mantenimiento
+              se hace más costoso.
+          b. Integridad, es más difícil y costoso garantizar la integridad de los datos.
+          c. Seguridad, al tener los datos distribuidos existe más riesgo de exposición a amenazas y es más
+              difícil garantizar la seguridad.
+
+Cuestión 5.2.
+
+a) La salida Y será la suma de dos términos, el término correspondiente al camino que contiene 𝑃2 , más el del
+camino que contiene a 𝑃1 y 𝑃3 .
+
+El primer término es simplemente 𝑃2 , mientras que el segundo será el producto de 𝑃3 por el lazo de
+                                           𝑃1
+realimentación unitario en 𝑃1 , es decir, 1+𝑃 .
+                                          1
+
+                                                  𝑌       𝑃 𝑃
+Finalmente, sumando ambos términos nos queda        = 𝑃2 + 1 3 .
+                                                  𝑅       1+𝑃1
+
+                                                        1                1
+b) Sustituyendo en la función de transferencia, 1 = 𝑃2 + , por tanto 𝑃2 = .
+                                                        2                2
+

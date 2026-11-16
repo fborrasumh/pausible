@@ -1,0 +1,362 @@
+                      UNIVERSIDADES PÚBLICAS DE LA COMUNIDAD DE MADRID
+                               PRUEBA DE ACCESO A LA UNIVERSIDAD                                       Modelo
+                                         Curso 2024-2025                                              orientativo
+                                    MATERIA: MATEMÁTICAS II
+                               INSTRUCCIONES GENERALES Y CALIFICACIÓN
+Después de leer atentamente el examen, responda razonadamente a una pregunta en cada uno de los cuatro
+bloques, tres de ellos con optatividad y uno sin optatividad. Todas las respuestas deberán estar debidamente
+justificadas.
+CALIFICACIÓN: Cada bloque se calificará sobre 2.5 puntos.
+TIEMPO: 90 minutos.
+
+
+
+
+Bloque 1. (Calificación máxima: 2.5 puntos) Responda a una de las dos preguntas siguientes:
+                                                                                               
+                                                                                         1 λ
+                                                                       λ 1 λ
+Pregunta 1.1. Sea λ un número real y considérense las matrices A =             y B =  0 −1 . Se
+                                                                       0 λ −1
+                                                                                           1 −λ
+pide:
+
+  a) (0.5 puntos) Estudiar si existe algún valor de λ para el cual la matriz AB no tenga inversa.
+
+  b) (1 punto) Estudiar el rango de la matriz BA en función del parámetro λ.
+                                                           2 
+                                                        x          a
+  c) (1 punto) Para λ = 1, discutir el sistema (At A)  y  =  a2  según los valores de a.
+                                                        z          2a
+
+Pregunta 1.2 . (2.5 puntos) Se tienen garrafas de tres tamaños diferentes para llenar un aljibe. Con seis garrafas
+pequeñas y 2 L se llenan exactamente una garrafa mediana y una grande. Con dos garrafas grandes llenamos
+dos medianas, una pequeña y sobra 1 L. El aljibe se llena al completo bien con catorce garrafas pequeñas más
+seis medianas, bien con cinco medianas junto con cinco grandes. Se pide calcular la capacidad de cada tipo de
+garrafa y, una vez conocidas estas, la del aljibe.
+
+
+
+Bloque 2. (Calificación máxima: 2.5 puntos) Responda a una de las dos preguntas siguientes:
+                                       2
+                                       x − 6x + 11 si x < 2
+                                       √
+Pregunta 2.1. Sea la función f (x) =                        .
+                                         5x − 1    si x ≥ 2
+
+  a) (0.5 puntos) Estudie la continuidad de la función en R.
+
+  b) (1 punto) Estudie los extremos relativos de la función en el intervalo (1, 3).
+  c) (1 punto) Calcule el área encerrada por la función y el eje OX entre x = 1 y x = 3.
+                                             π 
+Pregunta 2.2. Dada la función f (x) = sen        x , se pide:
+                                                2
+                                                                     
+  a) (0.5 puntos) Estudiar la paridad de la función g(x) = f x f (x) .
+                              p
+                                 4 + 3f (x) − 2
+  b) (1 punto) Calcular lim                     .
+                        x→0           x
+                        Z 1
+  c) (1 punto) Calcular      x f (x) dx.
+                          0
+Bloque 3. (Calificación máxima: 2.5 puntos) Responda a una de las dos preguntas siguientes:
+
+Pregunta 3.1. Sean los puntos A(0, 0, 0) y B(1, 1, 1), y la recta r ≡ (x, y, z) = (λ, λ, λ + 1), λ ∈ R.
+
+  a) (1 punto) Halle una ecuación del plano respecto del cual los puntos A y B son simétricos.
+  b) (1 punto) Halle una ecuación del plano que contiene a la recta r y pasa por el punto B.
+
+  c) (0.5 puntos) Halle una ecuación de una recta que sea paralela a r y pase por A.
+
+Pregunta 3.2. Dados los tres planos π1 : −2x − 2y + z = 0; π2 : −2x + y − 2z = 0 y π3 : x − 2y − 2z = 0, se pide:
+
+  a) (1 punto) Determinar el ángulo que forman los planos dos a dos. Determinar la intersección de los tres
+     planos.
+  b) (1.5 puntos) Determinar el punto P en el espacio del que se sabe que su proyección ortogonal sobre π1 es el
+     punto Q1 (1/3, 4/3, 10/3) y que su proyección ortogonal sobre π2 es el punto Q2 (−1/3, 8/3, 5/3). Determinar
+     la proyección ortogonal Q3 del punto P sobre el plano π3 .
+
+
+
+Bloque 4. (Calificación: 2.5 puntos) Responda a la pregunta siguiente:
+
+Pregunta 4. Según los datos de la Comunidad de Madrid, en la temporada 2021-2022 la cobertura de la vacuna
+de la gripe entre mayores de 65 años fue de un 73.2 %.
+  a) (1.5 puntos) Ante una situación de brote epidémico, las autoridades deciden restringir aquellas reuniones
+     en las que la probabilidad de que haya más de una persona no vacunada sea mayor de 0.5. Suponiendo
+     que los asistentes a una reunión suponen una muestra aleatoria, ¿se deberı́an restringir las reuniones de 5
+     personas mayores de 65 años? ¿Y las reuniones de 7 personas mayores de 65 años?
+  b) (1 punto) Se toma una muestra aleatoria de 500 personas mayores de 65 años. Calcule, aproximando por
+     la distribución normal adecuada, la probabilidad de que al menos 350 de ellos estén vacunados contra la
+     gripe.
+                                      Distribución Normal
+
+
+
+
+                                                                          z
+Ejemplo: si Z tiene distribución N(0, 1), P (Z < 0,45) = 0,6736.
+
+
+z       0,00       0,01       0,02       0,03       0,04       0,05     0,06     0,07     0,08     0,09
+0,0   0,5000     0,5040     0,5080     0,5120     0,5160     0,5199   0,5239   0,5279   0,5319   0,5359
+0,1   0,5398     0,5438     0,5478     0,5517     0,5557     0,5596   0,5636   0,5675   0,5714   0,5753
+0,2   0,5793     0,5832     0,5871     0,5910     0,5948     0,5987   0,6026   0,6064   0,6103   0,6141
+0,3   0,6179     0,6217     0,6255     0,6293     0,6331     0,6368   0,6406   0,6443   0,6480   0,6517
+0,4   0,6554     0,6591     0,6628     0,6664     0,6700     0,6736   0,6772   0,6808   0,6844   0,6879
+0,5   0,6915     0,6950     0,6985     0,7019     0,7054     0,7088   0,7123   0,7157   0,7190   0,7224
+
+0,6   0,7257     0,7291     0,7324     0,7357     0,7389     0,7422   0,7454   0,7486   0,7517   0,7549
+0,7   0,7580     0,7611     0,7642     0,7673     0,7704     0,7734   0,7764   0,7794   0,7823   0,7852
+0,8   0,7881     0,7910     0,7939     0,7967     0,7995     0,8023   0,8051   0,8078   0,8106   0,8133
+0,9   0,8159     0,8186     0,8212     0,8238     0,8264     0,8289   0,8315   0,8340   0,8365   0,8389
+1,0   0,8413     0,8438     0,8461     0,8485     0,8508     0,8531   0,8554   0,8577   0,8599   0,8621
+
+1,1   0,8643     0,8665     0,8686     0,8708     0,8729     0,8749   0,8770   0,8790   0,8810   0,8830
+1,2   0,8849     0,8869     0,8888     0,8907     0,8925     0,8944   0,8962   0,8980   0,8997   0,9015
+1,3   0,9032     0,9049     0,9066     0,9082     0,9099     0,9115   0,9131   0,9147   0,9162   0,9177
+1,4   0,9192     0,9207     0,9222     0,9236     0,9251     0,9265   0,9279   0,9292   0,9306   0,9319
+1,5   0,9332     0,9345     0,9357     0,9370     0,9382     0,9394   0,9406   0,9418   0,9429   0,9441
+
+1,6   0,9452     0,9463     0,9474     0,9484     0,9495     0,9505   0,9515   0,9525   0,9535   0,9545
+1,7   0,9554     0,9564     0,9573     0,9582     0,9591     0,9599   0,9608   0,9616   0,9625   0,9633
+1,8   0,9641     0,9649     0,9656     0,9664     0,9671     0,9678   0,9686   0,9693   0,9699   0,9706
+1,9   0,9713     0,9719     0,9726     0,9732     0,9738     0,9744   0,9750   0,9756   0,9761   0,9767
+2,0   0,9772     0,9778     0,9783     0,9788     0,9793     0,9798   0,9803   0,9808   0,9812   0,9817
+
+2,1   0,9821     0,9826     0,9830     0,9834     0,9838     0,9842   0,9846   0,9850   0,9854   0,9857
+2,2   0,9861     0,9864     0,9868     0,9871     0,9875     0,9878   0,9881   0,9884   0,9887   0,9890
+2,3   0,9893     0,9896     0,9898     0,9901     0,9904     0,9906   0,9909   0,9911   0,9913   0,9916
+2,4   0,9918     0,9920     0,9922     0,9925     0,9927     0,9929   0,9931   0,9932   0,9934   0,9936
+2,5   0,9938     0,9940     0,9941     0,9943     0,9945     0,9946   0,9948   0,9949   0,9951   0,9952
+
+2,6   0,9953     0,9955     0,9956     0,9957     0,9959     0,9960   0,9961   0,9962   0,9963   0,9964
+2,7   0,9965     0,9966     0,9967     0,9968     0,9969     0,9970   0,9971   0,9972   0,9973   0,9974
+2,8   0,9974     0,9975     0,9976     0,9977     0,9977     0,9978   0,9979   0,9979   0,9980   0,9981
+2,9   0,9981     0,9982     0,9982     0,9983     0,9984     0,9984   0,9985   0,9985   0,9986   0,9986
+3,0   0,9987     0,9987     0,9987     0,9988     0,9988     0,9989   0,9989   0,9989   0,9990   0,9990
+                                                                                                         Modelo
+                                                MATEMÁTICAS II
+                                 CRITERIOS ESPECÍFICOS DE CORRECCIÓN
+En cada pregunta, aunque el procedimiento seguido sea diferente al propuesto en el documento soluciones,
+cualquier argumento válido que conduzca a la solución será valorado con la puntuación asignada.
+Los contenidos correspondientes al bloque F se evaluarán transversalmente en cualquiera de los ejerci-
+cios. Se penalizará en la calificación de cada respuesta la falta de justificación razonada o de precisión y
+se valorarán las estrategias, razonamientos y toma adecuada de decisiones.
+
+
+1.1.
+a) Cálculo correcto de AB: 0.25 puntos. Discusión correcta de la existencia de inversa: 0.25 puntos.
+b) Cálculo correcto de BA: 0.25 puntos. Discusión correcta del rango: 0.75 puntos.
+c) Cálculo correcto de At A: 0.25 puntos. Discusión correcta del sistema: 0.75 puntos.
+
+
+1.2.
+Correcto planteamiento del problema: 1.5 puntos (0.5 puntos por cada ecuación bien planteada). Resolución
+correcta del sistema planteado y cálculo correcto de la capacidad del aljibe: 1 punto. En caso de resolución
+correcta de un sistema con alguna ecuación mal planteada, se valorará con hasta 0.5 puntos.
+
+
+2.1.
+a) Por la continuidad para x ̸= 2: 0.25 puntos. Por la continuidad en x = 2: 0.25 puntos.
+b) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+c) Planteamiento: 0.25 puntos. Cálculo de primitivas: 0.5 puntos (0.25 puntos cada una). Aplicación correcta de
+la regla de Barrow: 0.25 puntos.
+
+
+2.2.
+a) Planteamiento : 0.25 puntos. Identificación de la paridad : 0.25 puntos.
+b) Planteamiento : 0.5 puntos. Obtención del lı́mite: 0.5 puntos.
+c) Obtención de la primitiva: 0.75 puntos. Aplicación correcta de la regla de Barrow: 0.25 puntos.
+
+
+3.1.
+a) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+b) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+c) Planteamiento: 0.25 puntos. Resolución: 0.25 puntos.
+
+
+3.2.
+a) Cálculo de los ángulos: 0.5 puntos. Cálculo de la intersección: 0.5 puntos. En ambos casos, 0.25 puntos por
+el planteamiento y 0.25 puntos por la solución.
+b) Planteamiento del problema para determinar P : 0.5 puntos. Resolución para encontrar P : 0.5 puntos.
+Planteamiento del problema para determinar Q3 : 0.25 puntos. Resolución para encontrar Q3 : 0.25 puntos.
+
+
+4.
+a) Identificación de la distribución binomial: 0.25 puntos. Para cada uno de los dos casos: 0.5 puntos
+(planteamiento correcto de las probabilidades a calcular: 0.25 puntos; cálculo correcto de las probabilidades:
+0.25 puntos). Respuesta final correcta a la pregunta: 0.25 puntos.
+b) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos. El cálculo sin corrección por continuidad, o una incorrecta,
+se penalizará con 0.25 puntos.
+                                                                                                                     Modelo
+                                                    MATEMÁTICAS II–SOLUCIONES
+                                                   (Documento de trabajo orientativo)
+1.1.
+                                      
+                          2λ      −1
+a) La matriz AB =         −1 tiene determinante −1 ̸= 0 para cualquier λ, de manera que no existe ningún valor
+                                  0
+                                                    
+                                               2λ −1
+de λ con el que AB no sea invertible. AB = −1      0
+                   λ 1 + λ2
+                                 
+                                0
+                                                                                     1 + λ2 0        2
+b) La matriz BA = 0                 tiene determinante 0. Puesto que el determinante        1 = 1 + λ , de uno
+                        −λ      1
+                           2                                                           −λ
+                          λ       1−λ       2λ
+de sus menores 2 × 2, nose anula
+                                para ning      de λ,el rango de A es 2 para cualquier λ.
+                                            ún valor
+                          1  0                     1 1 1
+                 t                 1 1    1
+c) Para λ = 1, A A = 1 1           0 1 −1 =
+                                                   1 2 0 , de manera que el sistema planteado tiene matriz
+                                       1   −1                       1   0   2
+ampliada
+                                                 a2                                               a2
+                                                                                                     
+                            1 1 1                                               1 1        1
+                           1 2 0                a2  equivalente por filas a  0 1       −1      0     .
+                            1 0 2                2a                             0 0        0   a(2 − a)
+Se tiene ası́ que rango(AAt ) = 2 por lo que el sistema será compatible indeterminado para a = 0 o a = 2 e
+incompatible si a ∈
+                  / {0, 2}.
+
+
+
+1.2.
+
+
+Si x es la capacidad (en litros) de cada garrafa grande, y la de las intermedias, y z la de las pequeñas, las
+ecuaciones que se plantean son 6z + 2 = x + y, 2x = 2y + z + 1 y 14z + 6y = 5y + 5x, de manera que x, y, z son
+las soluciones al sistema                 
+                                           x + y − 6z      = 2
+                                              2x − 2y − z = 1 .
+                                             5x − y − 14z = 0
+                                          
+
+Al resolver el sistema se obtiene que la capacidad de cada garrafa de las grandes es de 37 L, 31 L la de las
+intermedias, y 11 L las pequeñas. El aljibe se llena con 14 · 11 + 6 · 31 = 5 · 31 + 5 · 37 = 340 L.
+
+
+
+2.1.
+
+
+      x ̸= 2 la función es continua por las propiedades de las funciones continuas. En x = 2, dado que f (2) =
+a) Si √
+ lim+ 5x − 1 = lim− x2 − 6x + 11 = 3, la función es continua en R.
+x→2                x→2
+b) La derivada de f en (1, 2) es f ′ (x) = 2x − 6, que es negativa en todo el intervalo. La derivada de f en (2, 3) es
+    5
+ √        , que es positiva en todo el intervalo. Por tanto, el único extremo relativo de f (x) en el intervalo (1, 3) se
+2 5x − 1
+alcanza en x = 2 y es un mı́nimo.
+c) La función es positiva entre dichos valores por lo que el área requerida es
+
+       Z 3                Z 2                           Z 3                     "            #2 "                  #3
+                                   2
+                                                              √               x3      2             2          3/2
+  A=         f (x) dx =           x − 6x + 11 dx +                5x − 1 dx =    − 3x + 11x +         (5x − 1)
+        1                     1                          2                    3                    15
+                                                                                              1                     2
+                                                                                                            !
+                                                                                       13   2                      11 28 √
+                                                                                    =     +     (14)3/2 − 27 =        +    14.
+                                                                                        3   15                     15 15
+2.2.
+
+
+a) Dado que f (x) es impar (f (−x) = −f (x)), tenemos que
+                                                                      
+                        g(−x) = f (−x)f (−x) = f (−x)(−f (x)) = f xf (x) = g(x),
+
+luego gpes par.
+          4 + 3f (x) − 2  0        L’Hôpital        3f ′ (x)            3(π/2) cos(πx/2)    3π
+b) lim                   = (indet.) = lim p                      = lim p                   =    .
+   x→0         x          0                   x→0 2( 4 + 3f (x))   x→0 2( 4 + 3sen (πx/2))    8
+c) Integrando por partes,
+                             Z 1                  "                                #1
+                                                        2x     π    4     π             4
+                                   x f (x) dx =       −    cos    x + 2 sen    x        =      .
+                              0                         π       2    π       2              π2
+                                                                                    0
+
+
+
+
+3.1.
+
+a) El plano buscado tendrá como vector normal a (1, 1, 1), que es el vector director de la recta que pasa por A y
+B; el punto medio del segmento AB es ( 21 , 12 , 21 ). Por tanto, el plano es x + y + z = 23 .
+b) Sea P (1, 1, 2) un punto de r. El vector normal del plano buscado es (1, 1, 1) × (0, 0, 1) = (1, −1, 0), donde
+                                                                  −−→
+(1, 1, 1) es vector director de la recta y (0, 0, 1) es el vector BP . Por tanto el plano buscado es x − y = 0.
+c) La recta buscada es (x, y, z) = (λ, λ, λ), λ ∈ R.
+
+
+
+3.2.
+
+a) Los vectores ⃗n1 = (−2, −2, 1), ⃗n2 = (−2, 1, −2) y ⃗n3 = (1, −2, −2) son vectores normales de los planos π1 , π2
+y π3 respectivamente. Se tiene que ⃗ni · ⃗nj = 0, para todo i ̸= j. Ası́ los planos son perpendiculares dos a dos.
+El punto de corte satisface el sistema                               
+                                                 −2x − 2y + z = 0 
+                                                 −2x + y − 2z = 0
+                                                  x − 2y − 2z = 0
+                                                                     
+
+Tres planos perpendiculares sólo pueden tener un único punto de corte, por lo que ya sabemos que el sistema
+es compatible determinado. Como es homogéneo, la única solución es (0, 0, 0).
+b) La recta que pasa por Q1 y es perpendicular a π1 es (1/3 − 2λ, 4/3 − 2λ, 10/3 + λ). La recta que pasa por
+Q2 y es perpendicular a π2 es (−1/3 − 2µ, 8/3 + µ, 5/3 − 2µ). La intersección de ambas se da para λ = −1/3 y
+µ = −2/3, que es el punto P (1, 2, 3).
+La proyección de P en π3 es el resultado de la intersección de la recta (1 + λ, 2 − 2λ, 3 − 2λ) con x − 2y − 2z = 0,
+que da como solución λ = 1, es decir, el punto Q3 (2, 0, 1).
+
+
+
+4.
+
+
+a) La variable aleatoria X = “número de personas mayores no vacunadas de gripe en una muestra de m per-
+sonas” sigue una distribución Binomial(n = m, p = 1 − 0.732 = 0.268). Una reunión de m personas debe
+restringirse si P (X > 1) > 0.5. Para una reunión de 5 personas,
+
+                 P (X > 1) = 1 − P (X = 0) − P (X = 1) = 1 − 0.7325 − 5 · 0.268 · 0.7324 ≈ 0.405,
+
+y la reunión no debe restringirse.
+Para una reunión de 7 personas, P (X > 1) = 1 − 0.7327 − 7 · 0.268 · 0.7326 ≈ 0.599, y sı́ debe restringirse.
+b) Para n = 500,√la variable aleatoria X sigue una distribución Binomial(n = 500, p = 0.268), de media 134 y
+desviación tı́pica 98.088 ≈ 9.90. La probabilidad buscada es P (X ≤ 150). Aproximando X por una distribución
+normal Y = N (134, 9.90) y tipificando a Z = N (0, 1) obtenemos
+
+                    P (X ≤ 150) ≈ P (Y ≤ 150.5) = P Z ≤ 150.5−134
+                                                                    
+                                                             9.90     ≈ P (Z ≤ 1.67) ≈ 0.9525.
+                      Documento de orientaciones para la PAU 2025
+                              MATEMÁTICAS II–Curso 2024/25
+
+El examen constará de siete problemas distribuidos en cuatro bloques correspondientes a
+Álgebra, Geometrı́a, Análisis y Probabilidad. La evaluación de cada uno de los bloques tendrá
+la misma ponderación.
+En uno de los cuatro bloques habrá una pregunta obligatoria de carácter competencial. La
+pregunta competencial puede corresponder a cualquiera de los cuatro bloques mencionados
+anteriormente.
+En los tres bloques restantes se deberá responder exclusivamente a una pregunta de las dos
+dadas. Si se respondiese a ambas preguntas solo se corregirá la pregunta que aparezca
+fı́sicamente primero.
+Los problemas estarán diseñados para evaluar las competencias especı́ficas que figuran en el
+Real Decreto 243/2022, de 5 de abril, por el que se establecen la ordenación y las enseñanzas
+mı́nimas del Bachillerato, y en el Decreto 64/2022 (BOCM de 26 de Julio) por el que se es-
+tablecen para la Comunidad de Madrid la ordenación y el currı́culo del Bachillerato.
+Se podrá pedir en los problemas la realización de tareas acerca de los contenidos correspon-
+dientes a la materia Matemáticas II, tal y como aparecen en el Decreto 64/2022.
+La extensión y nivel de dificultad de los problemas propuestos serán similares a los de cursos
+anteriores.
+

@@ -1,0 +1,353 @@
+                       UNIVERSIDADES PÚBLICAS DE LA COMUNIDAD DE MADRID
+                             EVALUACIÓN PARA EL ACCESO A LAS ENSEÑANZAS                                      H
+                                  UNIVERSITARIAS OFICIALES DE GRADO
+                                            Curso 2023-2024
+                                        MATERIA: MATEMÁTICAS II
+
+                             INSTRUCCIONES GENERALES Y CALIFICACIÓN
+Después de leer atentamente el examen, responda razonadamente cuatro preguntas cualesquiera a elegir entre
+las ocho que se proponen. Todas las respuestas deberán estar debidamente justificadas.
+CALIFICACIÓN: Cada pregunta se calificará sobre 2.5 puntos.
+TIEMPO: 90 minutos.
+
+
+
+A.1. Calificación máxima: 2.5 puntos.
+Tras una gran cosecha de sandı́as en una comarca, la producción se mete en cajas cúbicas de 1m de lado que
+se amontonan en una gran pila compacta en forma de ortoedro. Al doble del largo de este ortoedro le faltan 2m
+para llegar a ser la suma del ancho y el alto. Pero el largo supera en 8m al ancho menos el alto. El perı́metro de
+la base es 54m. ¿Cuántas cajas de sandı́as ha producido esta cosecha?
+
+
+A.2. Calificación máxima: 2.5 puntos.
+                        x3 − 1
+Dada la función f (x) = 2     , se pide:
+                        x −1
+  a) (1.25 puntos) Hallar su dominio y estudiar las ası́ntotas de su gráfica.
+  b) (0.75 puntos) Calcular la recta tangente a la gráfica de f en el punto (2, 7/3).
+  c) (0.5 puntos) Encontrar, si es posible, algún punto x0 tal que la pendiente de la recta tangente a la gráfica de
+     f en el punto (x0 , f (x0 )) sea 1.
+
+
+
+A.3. Calificación máxima: 2.5 puntos.
+                                                                               x+1   y−2   z−0
+Dados el punto P (−1, 2, 6), el plano π : 3x − 2y + z − 5 = 0 y la recta s ≡       =     =     :
+                                                                                2     1     −1
+  a) (1.5 puntos) Halle una ecuación de la recta que pasa por P , es secante a s y paralela al plano π.
+  b) (1 punto) Halle el simétrico del punto P respecto al plano π.
+
+
+A.4. Calificación máxima: 2.5 puntos.
+Para conocer la opinión de los usuarios sobre su servicio, la empresa de transporte público de una ciudad ha
+realizado una encuesta. De esa encuesta se desprende que la nota global otorgada al servicio por sus usuarios
+se puede considerar una normal de media 6.7 y de desviación tı́pica 1.25. Si un usuario da una nota menor que
+5 se considera que ve como insatisfactorio el servicio; si la nota está entre 5 y 7.5, que para el usuario el servicio
+es satisfactorio; y si la nota es mayor que 7.5, que el servicio es excelente.
+
+  a) (0.75 puntos) Elegido un usuario al azar, ¿qué probabilidad hay de que crea que el servicio de la empresa
+     de transportes es excelente?
+  b) (1 punto) Elegido un usuario al azar, ¿qué probabilidad hay de que crea que el servicio de la empresa de
+     transportes es satisfactorio?
+  c) (0.75 puntos) Para conocer de forma más directa la opinión de sus usuarios, de entre todos ellos la empresa
+     convoca a 25 elegidos al azar. ¿Cuál es la probabilidad de que al menos dos de entre los convocados
+     consideren el servicio insatisfactorio?
+B.1. Calificación máxima: 2.5 puntos.
+Sean X eY dos matrices
+                       reales
+                              y cuadradas
+                                           de orden dos tales que 5X − 3Y = A y 3X + 6Y = B,
+          0 −1               39    2
+con A =            yB=                  . Se pide:
+          1 0                −15 13
+
+  a) (1.5 puntos) Hallar X, Y y X −1 .
+  b) (1 punto) Calcular A127 .
+
+
+B.2. Calificación máxima: 2.5 puntos.
+                |x|
+Sea f (x) =          .
+              x2 + 1
+  a) (1.5 puntos) Analice la monotonı́a y los extremos relativos de f (x).
+  b) (1 punto) Halle el área de la región acotada delimitada por la recta y = 12 y la gráfica de f (x).
+
+
+B.3. Calificación máxima: 2.5 puntos.
+En el punto A(1, 0, −1) se encuentra un emisor láser que dispara un rayo de luz (unidimensional) apuntando hacia
+                                                                    x=2−α
+el punto B(3, 1, 0). Dicho rayo incide en un punto P del plano π :    y = 2 + 2β , α, β ∈ R. Llamamos al punto P
+                                                                      z = α − 2β
+                                                                   
+el punto de incidencia del rayo de luz sobre el plano π. Se pide:
+  a) (1.25 puntos) Calcular una ecuación del plano de incidencia, es decir, el plano perpendicular a π que con-
+     tiene al rayo de luz.
+  b) (0.75 puntos) Calcular la distancia que recorre el rayo de luz desde el emisor hasta el punto P .
+  c) (0.5 puntos) Calcular el ángulo que deberı́a girar el emisor para que la distancia entre él y el nuevo punto
+     de incidencia sobre π sea mı́nima.
+
+
+B.4. Calificación máxima: 2.5 puntos.
+En la sección de idiomas de una biblioteca municipal se tienen libros, en franceś o inglés, de tres categorı́as: el
+50 % son cuentos infantiles, el 30 %, novelas históricas y el resto, manuales técnicos. Uno de cada cinco de los
+cuentos está en francés y una de cada tres de las novelas, en inglés. Por otra parte, uno de cada siete de los
+libros en francés es un manual técnico. Se toma un libro al azar y se pide:
+  a) (1.25 puntos) Calcular la probabilidad de que esté en francés si no es un manual técnico.
+
+  b) (1.25 puntos) Calcular la probabilidad de que esté escrito en francés, y la probabilidad de que si está en
+     inglés sea una novela histórica.
+                                      Distribución Normal
+
+
+
+
+                                                                          z
+Ejemplo: si Z tiene distribución N(0, 1), P (Z < 0,45) = 0,6736.
+
+
+z       0,00       0,01       0,02       0,03       0,04       0,05     0,06     0,07     0,08     0,09
+0,0   0,5000     0,5040     0,5080     0,5120     0,5160     0,5199   0,5239   0,5279   0,5319   0,5359
+0,1   0,5398     0,5438     0,5478     0,5517     0,5557     0,5596   0,5636   0,5675   0,5714   0,5753
+0,2   0,5793     0,5832     0,5871     0,5910     0,5948     0,5987   0,6026   0,6064   0,6103   0,6141
+0,3   0,6179     0,6217     0,6255     0,6293     0,6331     0,6368   0,6406   0,6443   0,6480   0,6517
+0,4   0,6554     0,6591     0,6628     0,6664     0,6700     0,6736   0,6772   0,6808   0,6844   0,6879
+0,5   0,6915     0,6950     0,6985     0,7019     0,7054     0,7088   0,7123   0,7157   0,7190   0,7224
+
+0,6   0,7257     0,7291     0,7324     0,7357     0,7389     0,7422   0,7454   0,7486   0,7517   0,7549
+0,7   0,7580     0,7611     0,7642     0,7673     0,7704     0,7734   0,7764   0,7794   0,7823   0,7852
+0,8   0,7881     0,7910     0,7939     0,7967     0,7995     0,8023   0,8051   0,8078   0,8106   0,8133
+0,9   0,8159     0,8186     0,8212     0,8238     0,8264     0,8289   0,8315   0,8340   0,8365   0,8389
+1,0   0,8413     0,8438     0,8461     0,8485     0,8508     0,8531   0,8554   0,8577   0,8599   0,8621
+
+1,1   0,8643     0,8665     0,8686     0,8708     0,8729     0,8749   0,8770   0,8790   0,8810   0,8830
+1,2   0,8849     0,8869     0,8888     0,8907     0,8925     0,8944   0,8962   0,8980   0,8997   0,9015
+1,3   0,9032     0,9049     0,9066     0,9082     0,9099     0,9115   0,9131   0,9147   0,9162   0,9177
+1,4   0,9192     0,9207     0,9222     0,9236     0,9251     0,9265   0,9279   0,9292   0,9306   0,9319
+1,5   0,9332     0,9345     0,9357     0,9370     0,9382     0,9394   0,9406   0,9418   0,9429   0,9441
+
+1,6   0,9452     0,9463     0,9474     0,9484     0,9495     0,9505   0,9515   0,9525   0,9535   0,9545
+1,7   0,9554     0,9564     0,9573     0,9582     0,9591     0,9599   0,9608   0,9616   0,9625   0,9633
+1,8   0,9641     0,9649     0,9656     0,9664     0,9671     0,9678   0,9686   0,9693   0,9699   0,9706
+1,9   0,9713     0,9719     0,9726     0,9732     0,9738     0,9744   0,9750   0,9756   0,9761   0,9767
+2,0   0,9772     0,9778     0,9783     0,9788     0,9793     0,9798   0,9803   0,9808   0,9812   0,9817
+
+2,1   0,9821     0,9826     0,9830     0,9834     0,9838     0,9842   0,9846   0,9850   0,9854   0,9857
+2,2   0,9861     0,9864     0,9868     0,9871     0,9875     0,9878   0,9881   0,9884   0,9887   0,9890
+2,3   0,9893     0,9896     0,9898     0,9901     0,9904     0,9906   0,9909   0,9911   0,9913   0,9916
+2,4   0,9918     0,9920     0,9922     0,9925     0,9927     0,9929   0,9931   0,9932   0,9934   0,9936
+2,5   0,9938     0,9940     0,9941     0,9943     0,9945     0,9946   0,9948   0,9949   0,9951   0,9952
+
+2,6   0,9953     0,9955     0,9956     0,9957     0,9959     0,9960   0,9961   0,9962   0,9963   0,9964
+2,7   0,9965     0,9966     0,9967     0,9968     0,9969     0,9970   0,9971   0,9972   0,9973   0,9974
+2,8   0,9974     0,9975     0,9976     0,9977     0,9977     0,9978   0,9979   0,9979   0,9980   0,9981
+2,9   0,9981     0,9982     0,9982     0,9983     0,9984     0,9984   0,9985   0,9985   0,9986   0,9986
+3,0   0,9987     0,9987     0,9987     0,9988     0,9988     0,9989   0,9989   0,9989   0,9990   0,9990
+                                                                                                                 6
+                                                MATEMÁTICAS II
+                                 CRITERIOS ESPECÍFICOS DE CORRECCIÓN
+En cada pregunta, aunque el procedimiento seguido sea diferente al propuesto en el documento soluciones,
+cualquier argumento válido que conduzca a la solución será valorado con la puntuación asignada.
+Los contenidos correspondientes al bloque F se evaluarán transversalmente en cualquiera de los ejerci-
+cios. Se penalizará en la calificación de cada respuesta la falta de justificación razonada o de precisión y
+se valorarán las estrategias, razonamientos y toma adecuada de decisiones.
+
+
+A.1.
+Cada ecuación bien escrita: 0.5 puntos. Resolución correcta del sistema: 0.75 puntos (si se resuelve correc-
+tamente un sistema incorrecto, se podrán dar hasta 0.5 puntos). Respuesta a la pregunta del problema: 0.25
+puntos.
+
+
+A.2.
+a) Dominio: 0.25 puntos. Ası́ntota vertical: 0.25 puntos. Ası́ntota oblicua: 0.5 puntos. Inexistencia de ası́ntotas
+horizontales: 0.25 puntos.
+b) Planteamiento: 0.5 puntos. Resolución: 0.25 puntos.
+c) Planteamiento: 0.25 puntos. Conclusión: 0.25 puntos.
+
+
+A.3.
+a) Planteamiento: 0.75 puntos. Obtención correcta de la recta pedida: 0.75 puntos.
+b) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+
+
+A.4.
+a) Planteamiento: 0.5 puntos. Resolución: 0.25 puntos.
+b) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+c) Planteamiento: 0.5 puntos. Resolución: 0.25 puntos.
+
+B.1.
+a) Por cada una de las soluciones de X, Y , X −1 : 0.5 puntos (planteamiento 0.25 puntos, resolución 0.25 puntos).
+b) Planteamiento: 0.75 puntos. Resolución: 0.25 puntos.
+
+
+B.2.
+a) Cálculo de la derivada: 0.5 puntos. Monotonı́a: 0.5 puntos. Extremos relativos 0.5 puntos.
+b) Planteamiento: 0.5 puntos. Resolver la integral: 0.5 puntos.
+
+
+B.3.
+a) Planteamiento: 0.75 puntos. Obtención de una ecuación del plano: 0.5 puntos.
+b) Planteamiento: 0.25 puntos. Obtención de P : 0.25 puntos. Obtención de la distancia: 0.25 puntos.
+c) Planteamiento: 0.25 puntos. Obtención del ángulo: 0.25 puntos.
+
+
+B.4.
+a) Planteamiento: 0.75 puntos. Resolución: 0.5 puntos.
+b) Probabilidad de que el libro esté en francés: 0.75 puntos (planteamiento 0.5 puntos, resolución 0.25 puntos).
+Probabilidad de que si el libro está en inglés sea una novela histórica: 0.5 puntos (planteamiento 0.25 puntos,
+resolución 0.25 puntos).
+                                                                                                                         6
+                                          MATEMÁTICAS II – SOLUCIONES
+                                         (Documento de trabajo orientativo)
+A.1.
+
+Sean x, y, z las dimensiones del ancho, largo y alto del ortoedro respectivamente, medidas en metros. El sistema
+que se deduce del enunciado es                                      
+                                              x − 2y + z = 2 
+                                               x − y − z = −8
+                                                2(x + y) = 54
+                                                                    
+
+La matriz de coeficientes tiene determinante igual a 10. Es un sistema compatible determinado. La solución es
+x = 15, y = 12, z = 11. La respuesta al problema es 15 · 12 · 11 = 1980 cajas.
+
+
+A.2.
+
+a) Puesto que f es un cociente de funciones polinómicas, estará definida y será continua siempre que no se
+                                                                                    x3 − 1
+anule el denominador, x2 − 1. Por tanto, Dom(f ) = R − {−1, 1}. Puesto que lim + 2          = ∞, hay una ası́ntota
+                                                                            x→−1 x − 1
+                              3               2
+                             x −1          3x     3
+vertical en x = −1. Pero lim 2      = lim       = , por lo que no hay ası́ntota vertical en x = 1. Además
+                         x→1 x − 1     x→1 2x     2
+                                         x3 − 1   x3 − x + x − 1      1
+                                          2
+                                                =                =x+     ,
+                                         x −1         x2 − 1         x+1
+por lo que hay una ası́ntota oblicua, y = x, para x → ±∞. Se deduce de ello que no hay ası́ntotas horizontales.
+                                                                        1
+b) Puesto que f (x) = x + x+11
+                                , la derivada de f es f ′ (x) = 1 −          . Para x = 2, se tiene que f ′ (2) = 89 . Por
+                                                                    (x + 1)2
+lo tanto, la recta tangente buscada es y − 37 = 89 (x − 2).
+                                                                                                                    1
+c) La pendiente de la recta tangente a la gráfica de f en (x0 , f (x0 )) es f ′ (x0 ). Puesto que f ′ (x) = 1 −          ,
+                                                                                                                 (x + 1)2
+                                                                                   1
+no es posible encontrar x0 tal que f ′ (x0 ) = 1, ya que en ese caso serı́a               = 0, que es imposible.
+                                                                             (x0 + 1)2
+
+A.3.
+
+a) Es suficiente calcular el vector director de la recta solución r. El vector normal al plano es −
+                                                                                                   n→
+                                                                                                    π = (3, −2, 1). El
+                                                                       →
+                                                                       −    −−→
+punto genérico de la recta s es Ps (−1 + 2α, 2 + α, −α). El vector vr = P Ps es perpendicular al vector normal al
+plano, por lo que el producto escalar es cero: −  →
+                                                  vr · −
+                                                       n→
+                                                        π = 0. Ası́ se obtiene el punto de intersección de la recta s
+                                              →
+                                              −    −−→
+con la recta pedida, (3, 4, −2). Calculamos vr = P Ps = (2, 1, −4). La ecuación paramétrica de la recta pedida es:
+(x, y, z) = (−1 + 2α, 2 + α, 6 − 4α), α ∈ R.
+ La rectat perpendicular al plano dado es t ≡ (x, y, z) = (−1 + 3α, 2 − 2α, 6 + α), α ∈ R. El puntoQ = t ∩ π es
+b)                                                                                                                  
+  2 8 45                                                                                                  11 2 48
+    , ,      . Puesto que Q es el punto medio de P y su simétrico, las coordenadas del simétrico son       , ,      .
+  7 7 7                                                                                                   7 7 7
+
+A.4.
+
+Sea X = “nota global otorgada al servicio por un usuario”.
+a) La probabilidad pedida es P (X > 7.5) = P (Z > 0.64) ≈ 0.2611.
+b) La probabilidad pedida es P (5 ≤ X ≤ 7.5) = P (−1.36 ≤ Z ≤ 0.64) ≈ 0.652.
+c) Sea T =“número de entre 25 usuarios elegidos al azar que consideran el servicio insatisfactorio”. T se rige
+por una binomial con p ≈ 0.0869 (1 − 0.2611 − 0.652 = 0.0869), y n = 25. Por lo tanto,
+
+        P (T ≥ 2) = 1 − P (T = 0) − P (T = 1) ≈ 1 − (1 − 0.0869)25 − 25 · 0.0869 · (1 − 0.0869)24 ≈ 0.6518.
+B.1.
+
+
+a) Resolviendo el sistema
+                         matricial,
+                                    por ejemplo por 
+                                                     reducción enY , se obtienen las matrices X e Y :
+                        3  0                            5 1/3
+     1
+X = 13 (2A + B) =              ; Y = 13 (5X − A) =                 .
+                       −1 1                            −2 5/3
+                                            
+                                      1/3 0
+Finalmente se obtiene que X −1 =                .
+                                      1/3 1
+                                                                                        
+                                                                                   0 1
+b) Se observa que A2 = −I2 y por tanto A127 = (A2 )63 A = (−I2 )63 A = −A =                .
+                                                                                  −1 0
+
+
+B.2.
+
+
+a) La función f (x) es continua para todo x ∈ R, por ser división de funciones continuas donde no se anula
+                                                                             2
+el denominador, además tiene simetrı́a par. Para x > 0, f ′ (x) = (x1−x 2 +1)2 , por lo que que f (x) es creciente si
+
+0 < x < 1 y decreciente si x > 1. Por simetrı́a, f también es creciente si x < −1 y decreciente si −1 < x < 0. Por
+lo tanto f alcanza un mı́nimo relativo en x = 0 y dos máximos relativos en x = ±1.
+b) f (x) = 12 para x = ±1, donde se alcanzan los máximos, por tanto f (x) ≤ 21 y por la simetrı́a, tenemos que el
+área va estar dada por:
+                  Z 1                     Z 1              
+                        1     |x|                  1      x                             1
+                                                                dx = x − ln (x2 + 1) 0 = 1 − ln 2.
+                                                                      
+                          − 2        dx = 2          − 2
+                    −1  2 x +1                0    2 x +1
+
+
+
+B.3.
+
+ a) El plano de incidencia contiene al punto A = (1, 0, −1) y tiene como vectores directores el normal al plano π,
+                                                           −−→
+⃗n = (−1, 0, 1) × (0, 1, −1) = (−1, −1, −1), y el vector AB = (3, 1, 0) − (1, 0, −1) = (2, 1, 1), por lo que dicho plano
+ será (x, y, z) = (1 + α + 2β, α + β, −1 + α + β), α, β ∈ R.
+                                                                                        −−→
+ b) El punto P es la intersección de la recta que pasa por A y tiene vector director AB, (x, y, z) = (1+2α, α, −1+α),
+                                                                                                             −→       √
+ con el plano π, x + y + z = 4. Ası́, P (3, 1, 0) por lo que la distancia desde el emisor hasta P es d = |AP | = 6.
+ c) Para que la distancia sea mı́nima, la luz debe incidir perpendicularmente. Ası́, el emisor        debe girar el ángulo
+                                                                                                 !           √
+                                                  −−→                 |(−1, −1, −1) · (2, 1, 1)|            2 2
+ que forman la normal del plano π y el vector AB, α = arccos                                       = arccos      ≈ 19.5o .
+                                                                     ∥(−1, −1, −1)∥∥(2, 1, 1)∥               3
+
+
+B.4.
+
+
+Con la notación F R para libros en francés, I N, en inglés, C, cuentos infantiles, N H, novelas históricas y M T para
+manuales técnicos se tiene: P (C) = 0.5, P (N H) = 0.3, P (M T) = 0.2, P (F R|C) = 15 = 0.2, P (I N|C) = 45 = 0.8,
+P (I N|N H) = 13 , P (F R|N H) = 23 y P (M T|F R) = 17 .
+a) Por la definición de probabilidad condicionada y puesto que M T = C ∪ N H (unión de incompatibles) se tiene
+                                                                            1
+                              P (F R ∩ M T)   P (F R ∩ C) + P (F R ∩ N H)     · 0.5 + 23 · 0.3  3
+              P (F R|M T) =                 =                             = 5                  = = 0.375.
+                                 P (M T)                P (M T)                  1 − 0.2        8
+
+b) Aplicando la regla de probabilidad total y las identidades P (F R|M T)·P (M T) = P (F R ∩M T) = P (M T|F R)·P (F R),
+se tiene P (F R) = P (F R|C) · P (C) + P (F R|N H) · P (N H) + P (F R|M T) · P (M T) y ası́
+                                  1        2       1                                       7
+                      P (F R) =     · 0.5 + · 0.3 + · P (F R),     de donde P (F R) =        = 0.35.
+                                  5        3       7                                      20
+                                                                           1
+                                                    P (I N|N H) · P (N H)   3 ·0.3  2
+Finalmente, por la regla de Bayes, P (N H|I N) =                          = 13 =      .
+                                                           P (I N)           20
+                                                                                   13
+

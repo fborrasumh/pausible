@@ -1,0 +1,401 @@
+                       UNIVERSIDADES PÚBLICAS DE LA COMUNIDAD DE MADRID
+                                                                                                           E
+                          EVALUACIÓN PARA EL ACCESO A LAS ENSEÑANZAS
+                               UNIVERSITARIAS OFICIALES DE GRADO
+                                           Curso 2022-2023
+                   MATERIA: MATEMÁTICAS II
+
+                             INSTRUCCIONES GENERALES Y CALIFICACIÓN
+Después de leer atentamente el examen, responda razonadamente cuatro preguntas cualesquiera a elegir entre
+las ocho que se proponen. Todas las respuestas deberán estar debidamente justificadas
+CALIFICACIÓN: Cada pregunta se calificará sobre 2.5 puntos.
+TIEMPO: 90 minutos.
+
+
+
+A.1. Calificación máxima:
+                         2.5 puntos.
+                                           
+                          2 1 0          b 0
+Dadas las matrices A =             yB=         , se pide:
+                         −1 0 2          1 b
+
+  a) (0.5 puntos) Calcular el determinante de At A.
+  b) (0.5 puntos) Calcular el rango de BA en función de b.
+  c) (0.75 puntos) Calcular B −1 para b = 2.
+  d) (0.75 puntos) Para b = 1, calcular B 5 .
+
+
+A.2. Calificación máxima: 2.5 puntos.
+Un equipo de ingenieros realiza pruebas de consumo de un nuevo vehı́culo hı́brido. El gasto en litros de com-
+bustible por cada 100 kilómetros en función de la velocidad, medida en decenas de kilómetros por hora, es
+                                                5v
+                                             
+                                             
+                                                               si 0 ≤ v < 3
+                                     c(v) =      3           2
+                                              14 − 4v + v
+                                             
+                                                                si v ≥ 3.
+                                                            3
+  a) (1 punto) Si en una primera prueba el vehı́culo tiene que circular a más de 3 decenas de kilómetros por
+     hora, ¿a qué velocidad debe ir el vehı́culo para obtener un consumo mı́nimo?
+  b) (1.5 puntos) Si en otra prueba el vehı́culo debe circular a una velocidad v tal que 1 ≤ v ≤ 8, ¿cuáles serán
+     el máximo y el mı́nimo consumo posibles del vehı́culo?
+
+
+A.3. Calificación máxima: 2.5 puntos.
+Sean el plano π : z = 1, los puntos P (1, 1, 1) y Q(0, 0, 1) y la recta r que pasa por los puntos P y Q.
+
+  a) (0.25 puntos) Verifique que los puntos P y Q pertenecen al plano π.
+  b) (1 punto) Halle una recta paralela a r contenida en el plano z = 0.
+
+  c) (1.25 puntos) Halle una recta que pase por P y tal que su proyección ortogonal sobre el plano π sea la
+                                             π
+     recta r, con la cual forme un ángulo de radianes.
+                                             4
+
+
+A.4. Calificación máxima: 2.5 puntos.
+Sabiendo que P (A) = 0.5, P (A|B) = 0.625 y P (A ∪ B) = 0.65, se pide calcular:
+
+  a) (1.5 puntos) P (B) y P (A ∩ B).
+  b) (1 punto) P (A|A ∪ B) y P (A ∩ B|A ∪ B).
+B.1. Calificación máxima: 2.5 puntos.
+                 
+                  −2x + y + kz = 1
+Dado el sistema         kx − y − z = 0 , se pide:
+                    −y + (k − 1)z = 3
+                 
+
+
+  a) (1.25 puntos) Discutirlo en función del parámetro k.
+
+  b) (0.5 puntos) Resolverlo para k = 3.
+  c) (0.75 puntos) Resolverlo para k = 3/2 y especificar, si es posible, una solución particular con x = 2.
+
+
+B.2. Calificación máxima: 2.5 puntos.
+Dadas las funciones
+                              f (x) = 2 + 2x − 2x2    y       g(x) = 2 − 6x + 4x2 + 2x3 ,
+se pide:
+  a) (1 punto) Estudiar la derivabilidad de h(x) = f (x) .
+  b) (1.5 puntos) Hallar el área de la región acotada por las curvas y = f (x), y = g(x), x = 0 y x = 2.
+
+
+B.3. Calificación máxima: 2.5 puntos.
+                                                          
+                                                              x=2
+Dados el plano π : x + 3y + 2z + 14 = 0 y la recta r ≡            , se pide:
+                                                              z=5
+
+  a) (0.5 puntos) Hallar el punto del plano π más próximo al origen de coordenadas.
+  b) (1 punto) Calcular la proyección ortogonal del eje OZ sobre el plano π.
+  c) (1 punto) Hallar la recta con dirección perpendicular a r, que esté contenida en π, y que corte al eje OZ.
+
+
+B.4. Calificación máxima: 2.5 puntos.
+El 65 % de los universitarios de 18 años que intentan superar el examen práctico de conducir lo consigue a la
+primera. Se escogen al azar 10 universitarios de 18 años que ya han superado el examen práctico de conducir.
+Se pide:
+
+  a) (0.75 puntos) Calcular la probabilidad de que exactamente 3 de ellos necesitaran más de un intento para
+     superar el examen práctico de conducir.
+  b) (0.75 puntos) Calcular la probabilidad de que alguno de ellos haya necesitado más de un intento para
+     superar el examen práctico de conducir.
+  c) (1 punto) Aproximando por una distribución normal, determinar la probabilidad de que, dados 60 de estos
+     universitarios, como mı́nimo la mitad superase el examen práctico de conducir a la primera.
+                                      Distribución Normal
+
+
+
+
+                                                                          z
+Ejemplo: si Z tiene distribución N(0, 1), P (Z < 0,45) = 0,6736.
+
+
+z       0,00       0,01       0,02       0,03       0,04       0,05     0,06     0,07     0,08     0,09
+0,0   0,5000     0,5040     0,5080     0,5120     0,5160     0,5199   0,5239   0,5279   0,5319   0,5359
+0,1   0,5398     0,5438     0,5478     0,5517     0,5557     0,5596   0,5636   0,5675   0,5714   0,5753
+0,2   0,5793     0,5832     0,5871     0,5910     0,5948     0,5987   0,6026   0,6064   0,6103   0,6141
+0,3   0,6179     0,6217     0,6255     0,6293     0,6331     0,6368   0,6406   0,6443   0,6480   0,6517
+0,4   0,6554     0,6591     0,6628     0,6664     0,6700     0,6736   0,6772   0,6808   0,6844   0,6879
+0,5   0,6915     0,6950     0,6985     0,7019     0,7054     0,7088   0,7123   0,7157   0,7190   0,7224
+
+0,6   0,7257     0,7291     0,7324     0,7357     0,7389     0,7422   0,7454   0,7486   0,7517   0,7549
+0,7   0,7580     0,7611     0,7642     0,7673     0,7704     0,7734   0,7764   0,7794   0,7823   0,7852
+0,8   0,7881     0,7910     0,7939     0,7967     0,7995     0,8023   0,8051   0,8078   0,8106   0,8133
+0,9   0,8159     0,8186     0,8212     0,8238     0,8264     0,8289   0,8315   0,8340   0,8365   0,8389
+1,0   0,8413     0,8438     0,8461     0,8485     0,8508     0,8531   0,8554   0,8577   0,8599   0,8621
+
+1,1   0,8643     0,8665     0,8686     0,8708     0,8729     0,8749   0,8770   0,8790   0,8810   0,8830
+1,2   0,8849     0,8869     0,8888     0,8907     0,8925     0,8944   0,8962   0,8980   0,8997   0,9015
+1,3   0,9032     0,9049     0,9066     0,9082     0,9099     0,9115   0,9131   0,9147   0,9162   0,9177
+1,4   0,9192     0,9207     0,9222     0,9236     0,9251     0,9265   0,9279   0,9292   0,9306   0,9319
+1,5   0,9332     0,9345     0,9357     0,9370     0,9382     0,9394   0,9406   0,9418   0,9429   0,9441
+
+1,6   0,9452     0,9463     0,9474     0,9484     0,9495     0,9505   0,9515   0,9525   0,9535   0,9545
+1,7   0,9554     0,9564     0,9573     0,9582     0,9591     0,9599   0,9608   0,9616   0,9625   0,9633
+1,8   0,9641     0,9649     0,9656     0,9664     0,9671     0,9678   0,9686   0,9693   0,9699   0,9706
+1,9   0,9713     0,9719     0,9726     0,9732     0,9738     0,9744   0,9750   0,9756   0,9761   0,9767
+2,0   0,9772     0,9778     0,9783     0,9788     0,9793     0,9798   0,9803   0,9808   0,9812   0,9817
+
+2,1   0,9821     0,9826     0,9830     0,9834     0,9838     0,9842   0,9846   0,9850   0,9854   0,9857
+2,2   0,9861     0,9864     0,9868     0,9871     0,9875     0,9878   0,9881   0,9884   0,9887   0,9890
+2,3   0,9893     0,9896     0,9898     0,9901     0,9904     0,9906   0,9909   0,9911   0,9913   0,9916
+2,4   0,9918     0,9920     0,9922     0,9925     0,9927     0,9929   0,9931   0,9932   0,9934   0,9936
+2,5   0,9938     0,9940     0,9941     0,9943     0,9945     0,9946   0,9948   0,9949   0,9951   0,9952
+
+2,6   0,9953     0,9955     0,9956     0,9957     0,9959     0,9960   0,9961   0,9962   0,9963   0,9964
+2,7   0,9965     0,9966     0,9967     0,9968     0,9969     0,9970   0,9971   0,9972   0,9973   0,9974
+2,8   0,9974     0,9975     0,9976     0,9977     0,9977     0,9978   0,9979   0,9979   0,9980   0,9981
+2,9   0,9981     0,9982     0,9982     0,9983     0,9984     0,9984   0,9985   0,9985   0,9986   0,9986
+3,0   0,9987     0,9987     0,9987     0,9988     0,9988     0,9989   0,9989   0,9989   0,9990   0,9990
+                                                MATEMÁTICAS II
+    CRITERIOS ESPECÍFICOS DE CORRECCIÓN Y ESTÁNDARES EVALUADOS EN CADA PREGUNTA
+En cada pregunta, aunque el procedimiento seguido sea diferente al propuesto en el documento soluciones,
+cualquier argumento válido que conduzca a la solución será valorado con la puntuación asignada.
+Los estándares de aprendizaje del bloque 1 se evaluarán transversalmente en todos los ejercicios, pena-
+lizando en la calificación de cada respuesta la falta de justificación razonada o de precisión y valorando
+las estrategias, razonamientos y toma adecuada de decisiones.
+
+
+A.1.
+a) 0.25 puntos por obtener la matriz y 0.25 puntos por calcular el determinante.
+b) 0.25 puntos por obtener la matriz y 0.25 puntos por calcular el rango.
+c) Planteamiento: 0.5 puntos, resolución 0.25 puntos.
+d) Planteamiento: 0.5 puntos, resolución 0.25 puntos.
+Estándares de aprendizaje evaluados: Realiza operaciones con matrices y aplica las propiedades de estas
+operaciones adecuadamente. Determina el rango de una matriz, hasta orden 4, aplicando el método de Gauss o
+determinantes. Determina las condiciones para que una matriz tenga inversa y la calcula empleando el método
+más adecuado.
+
+
+A.2.
+a) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+b) Identificación de c(v = 3) como posible extremo: 0.5 puntos. Identificación, como posibles extremos, de
+c(v = 1), c(v = 8) y c(v = 6): 0.75 puntos (0.25 por cada uno de ellos). Cálculo de los consumos pedidos: 0.25
+puntos.
+Estándares de aprendizaje evaluados: Conoce las propiedades de las funciones continuas, y representa la
+función en un entorno de los puntos de discontinuidad. Aplica los conceptos de lı́mite y de derivada, ası́ como
+los teoremas relacionados, a la resolución de problemas. Plantea problemas de optimización relacionados con la
+geometrı́a o con las ciencias experimentales y sociales, los resuelve e interpreta el resultado obtenido dentro del
+contexto.
+
+
+A.3.
+a) Verificación 0.25 puntos.
+b) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+c) Planteamiento: 0.75 puntos. Resolución: 0.5 puntos.
+Estándares de aprendizaje evaluados: Determina ángulos, distancias, áreas y volúmenes utilizando los pro-
+ductos escalar, vectorial y mixto, aplicándolos en cada caso a la resolución de problemas geométricos. Obtiene
+las ecuaciones de rectas y planos en diferentes situaciones.
+
+
+A.4.
+a) Planteamiento de cada probabilidad: 0.5 puntos. Resolución de cada probabilidad: 0.25 puntos.
+b) Planteamiento de cada probabilidad: 0.25 puntos. Resolución de cada probabilidad: 0.25 puntos. Se conside-
+rará correcto el cálculo de P (A ∩ B|A ∪ B) a partir de un valor incorrecto de P (A ∩ B) procedente del apartado
+anterior.
+Estándares de aprendizaje evaluados: Calcula la probabilidad de sucesos en experimentos simples y com-
+puestos mediante la regla de Laplace, las fórmulas derivadas de la axiomática de Kolmogorov y diferentes
+técnicas de recuento. Calcula probabilidades a partir de los sucesos que constituyen una partición del espa-
+cio muestral. Calcula la probabilidad final de un suceso aplicando la fórmula de Bayes.
+B.1.
+a) Cálculo de los valores a estudiar: 0.5 puntos (0.25 puntos por el planteamiento y 0.25 puntos por la solución).
+Discusión del sistema: 0.75 puntos (0.25 puntos por cada uno de los tres casos).
+b) 0.25 puntos por el planteamiento y 0.25 puntos por la solución.
+c) 0.5 puntos por la solución paramétrica del sistema y 0.25 puntos por la solución particular.
+Estándares de aprendizaje evaluados: Determina el rango de una matriz, hasta orden 4, aplicando el método
+de Gauss o determinantes. Formula algebraicamente las restricciones indicadas en una situación de la vida real,
+estudia y clasifica el sistema de ecuaciones lineales planteado, lo resuelve en los casos que sea posible, y lo
+aplica para resolver problemas.
+
+
+B.2.
+a) Planteamiento: 0.5 puntos. Resolución: 0.5 puntos.
+b) Planteamiento: 1 punto. Resolución: 0.5 puntos.
+Estándares de aprendizaje evaluados: Conoce las propiedades de las funciones continuas, y representa la
+función en un entorno de los puntos de discontinuidad. Aplica los conceptos de lı́mite y de derivada, ası́ como los
+teoremas relacionados, a la resolución de problemas. Aplica los métodos básicos para el cálculo de primitivas de
+funciones. Calcula el área de recintos limitados por rectas y curvas sencillas o por dos curvas.
+
+
+B.3.
+a) Planteamiento: 0.25 puntos. Resolución: 0.25 puntos.
+b) Planteamiento: 0.5 puntos. Hallar la proyección: 0.5 puntos.
+c) Planteamiento: 0.5 puntos. Cálculo del vector director: 0.25 puntos. Solución: 0.25 puntos.
+Estándares de aprendizaje evaluados: Utiliza argumentos, justificaciones, explicaciones y razonamientos
+explı́citos y coherentes. Expresa la ecuación de la recta de sus distintas formas, pasando de una a otra co-
+rrectamente, identificando en cada caso sus elementos caracterı́sticos, y resolviendo los problemas afines entre
+rectas. Obtiene las ecuaciones de rectas y planos en diferentes situaciones. Maneja el producto escalar y vectorial
+de dos vectores, significado geométrico, expresión analı́tica y propiedades.
+
+
+B.4.
+a) Planteamiento: 0.5 puntos. Resolución: 0.25 puntos.
+b) Planteamiento: 0.5 puntos. Resolución: 0.25 puntos.
+c) Planteamiento correcto de la distribución normal: 0.5 puntos. Cálculo de la probabilidad: 0.5 puntos. Una
+corrección por continuidad ausente o defectuosa se penalizará con 0.25 puntos.
+Estándares de aprendizaje evaluados: Identifica fenómenos que pueden modelizarse mediante la distribución
+binomial, obtiene sus parámetros y calcula su media y desviación tı́pica. Calcula probabilidades asociadas a una
+distribución binomial a partir de su función de probabilidad, de la tabla de la distribución o mediante calculadora.
+Calcula probabilidades de sucesos asociados a fenómenos que pueden modelizarse mediante la distribución
+binomial a partir de su aproximación por la normal valorando si se dan las condiciones necesarias para que sea
+válida. Utiliza un vocabulario adecuado para describir situaciones relacionadas con el azar.
+                                       MATEMÁTICAS II–SOLUCIONES
+                                      (Documento de trabajo orientativo)
+A.1.
+
+a) Se tiene                                                                 
+                                     2 −1                         5 2 −2
+                                                  2   1  0
+                          At A = 1 0                        =  2 1 0  ⇒ |At A| = 0.
+                                                 −1 0 2
+                                     0 2                           −2 0 4
+                       
+             2b    b 0
+b) BA =                   . El menor de las dos últimas columnas es 2b2 , por lo que si b ̸= 0 entonces el rango de
+            2 − b 1 2b
+BA es 2. Por otra parte,
+                       si b = 0 entonces
+                                              la primera fila se anula y la segunda no, por lo que el rango es 1.
+                         1/2       0
+c) Para b = 2, B −1 =                  .
+                        −1/4 1/2
+                                                     
+                       1 0                           1 0
+d) Para b = 1, B 2 =          , B 5 = (B 2 )2 B =          .
+                       2 1                           5 1
+
+
+A.2.
+
+                                                                        v2
+a) Dado que v > 3 basta deteminar el mı́nimo cuando c(v) = 14 − 4v +       . Este se alcanza cuando v = 6 decenas
+                                                                        3
+de kilometros por hora.
+b) La función c(v) es continua para v ≥ 0 pero no es derivable en v = 3. Para determinar los val-
+ores máximos y mı́nimos del consumo, podemos utilizar el Teorema de Weierstrass (al ser c(v) una función
+continua en un intervalo cerrado y acotado). Por tanto, los valores extremos debemos elegirlos de entre
+{c(1) = 5/3, c(3) = 5, c(6) = 2, c(8) = 10/3}. Ası́ pues, los consumos mı́nimo y máximo son, respectivamente:
+5/3 l/100km y 5 l/100km.
+Alternativamente, puede estudiarse el crecimiento y decrecimiento de c en el intervalo [1, 8].
+
+
+
+A.3.
+
+a) Como la última componente de los puntos P y Q es 1, los dos puntos pertenecen al plano z = 1.
+b) La recta buscada tendrá como vector director el mismo de la recta r, v = (1, 1, 0) y como está sobre el plano
+z = 0 pasará por el punto (0, 0, 0), por lo que su ecuación será (x, y, z) = (λ, λ, 0), λ ∈ R.
+c) La recta r es (x, y, z) = (λ, λ, 1), λ ∈ R. La recta buscada, s, está contenida en el plano que tiene vector
+                                                                                                            π
+normal n = (1, 1, 0) × (0, 0, 1) = (1, −1, 0), y = x, por tanto su vector director es v = (1, 1, v3 ). Como   es el
+                                                                                                            4
+ángulo que forman r y s se tiene que
+                                                       √
+                     π  |(1, 1, v ) · (1, 1, 0)|
+                                     3                   2       2
+                                                                              q                     √
+                cos      =                           ⇒     =√ p           ⇒     2 + v32 = 2 ⇒ v3 = ± 2.
+                      4     |(1, 1, v3 )||(1, 1, 0)|    2    2 2 + v3   2
+
+                                                                              √
+       √ la recta buscada podrı́a ser s ≡ (x, y, z) = (1 + λ, 1 + λ, 1 + 2λ), λ ∈ R o s ≡ (x, y, z) = (1 + λ, 1 +
+Por tanto
+λ, 1 − 2λ), λ ∈ R.
+
+
+
+A.4.
+
+              P (A ∩ B)
+a) P (A|B) =             ⇒ P (A ∩ B) = 0.625P (B). Además P (A ∪ B) = P (A) + P (B) − P (A ∩ B), por lo que
+                P (B)
+0.65 = 0.5 + P (B) − 0.625P (B) ⇒ 0.15 = 0.375P (B) ⇒ P (B) = 0.4 y P (A ∩ B) = 0.625 · 0.4 = 0.25.
+
+                 P (A ∩ (A ∪ B))   P (A)     0.5   10
+b) P (A|A ∪ B) =                 =        =      =    .
+                    P (A ∪ B)       0.65    0.65   13
+                  P ((A ∩ B) ∩ (A ∪ B))    P (A ∩ B)    0.25    5
+P (A ∩ B|A ∪ B) =                        =           =       =    .
+                         P (A ∪ B)         P (A ∪ B)    0.65   13
+B.1.
+
+a) Sea A la matriz de los coeficientes y A′ la matriz ampliada, |A| = 3k − 2k 2 , que se anula para k = 0, k = 3/2.
+Para k ̸= 0 y k ̸= 3/2 ⇒ rangoA = rangoA′ = 3 = nº de incógnitas ⇒ Sistema compatible determinado.
+Para k = 0 ⇒ rangoA = 2 ̸= rangoA′ = 3 ⇒ Sistema incompatible.
+Para k = 3/2 ⇒ rangoA = rangoA′ = 2 < nº de incógnitas ⇒ Sistema compatible indeterminado.
+b) Para k = 3 se tiene que la solución es x = −1/3, y = −5/3, z = 2/3.
+c) Para k = 3/2 la solución es x = λ, y = (1/2)λ − 2, z = 2 + λ, ∀λ ∈ R. Si queremos que x = 2, tomamos
+λ = 2 y obtenemos la solución particular x = 2, y = −1, z = 4.
+
+
+B.2.
+
+
+a) La gráfica de la función f (x) = 2 + 2x − 2x2 es una parábola invertida, con valor f (0) = 2 > 0, luego se
+anula en dos valores digamos a < 0, b > 0. Ası́ la función h(x) será f (x) si x ∈ (a, b) y −f (x) en otro caso. Por
+ser ambas expresiones polinómicas, la función h(x) es derivable en todos los puntos salvo quizás en los puntos
+crı́ticos x = a o x = b. Para ser derivable en estos valores ha de ocurrir que coincidan las derivadas de f (x) y
+−f (x) en ellos. Se tiene que f ′ (x) = 2 − 4x y (−f (x))′ = −(f ′ (x)) = 4x − 2 solo coinciden si x = 21 . Como
+f (1/2) = 2 + 2 12 − 2 14 ̸= 0 se deduce que la función h(x) = |f (x)| es derivable en todos los puntos salvo en las
+                                            √
+dos raı́ces de 2 + 2x − 2x2 que son 21 (1 ± 5).
+
+b) La función diferencia f (x) − g(x) es 2 + 2x − 2x2 − (2 − 6x + 4x2 + 2x3 ) = 2x(x + 4)(1 − x), que es positiva en
+(0, 1) y negativa en (1, 2). Ası́
+             Z 2                        Z 1                            Z 2
+                                                                                                     3 19
+                   (f (x) − g(x) dx =         (8x − 6x2 − 2x3 ) dx +         (2x3 + 6x2 − 8x) dx =     +   = 11.
+              0                          0                              1                            2   2
+
+
+B.3.
+
+a) El punto pedido es el pie de la recta s perpendicular a π que pasa por el origen de coordenadas. Ası́,
+                                                              
+                                   → −
+                                   −                           x=λ
+                                   ds = n→π = (1, 3, 2) ⇒ s ≡   y = 3λ , λ ∈ R.
+                                                                z = 2λ
+                                                              
+
+Sea {P } = s ∩ π. Como λ + 9λ + 4λ + 14 = 0 ⇒ λ = −1 ⇒ P (−1, −3, −2).
+                                   
+                                       π : x + 3y + 2z = −14
+b) La proyección buscada es p ≡                                 , siendo π ′ el plano ortogonal a π que contiene al
+                                       π ′ : 3x − y      =0
+eje OZ ⇒ − n→      → −−→
+                   −
+             π ′ = nπ × dOZ = (3, −1, 0).
+                                                    → −
+                                                    −   → )
+                                            t⊥r ⇒ dt ⊥dr         → −
+                                                                 −     → →
+c) Sea t la recta que buscamos. Como                 → −
+                                                     −   →     ⇒ dt = dr × − nπ = (2, 0, −1).
+                                            t ⊂ π ⇒ dt ⊥nπ
+Como además t ⊂ π y corta al eje OZ ⇒ t pasa por el punto {Q} = OZ ∩ π ⇒ Q(0, 0, −7):
+                                                 
+                                                  x = 2λ
+                                              t≡     y=0        , λ ∈ R.
+                                                     z = −7 − λ
+                                                 
+
+
+
+B.4.
+
+a) X = “número de universitarios, de entre 10, que aprueban a la primera el examen práctico del carnet de conducir” ∼
+B(10; 0.65).                                     
+                                                 10
+                                   P (X = 7) =       0.657 · (1 − 0.65)3 ≈ 0.252.
+                                                  7
+b) 1 − P (X = 10) = 1 − 0.6510 ≈ 0.987.
+                                                                                                      √
+c) Tenemos que p = 0.65, q = 0.35 y n = 60. Sea Y ∼ B(60; 0.65). Y se puede aproximar por Y ′ ∼ N (np; npq) =
+N (39; 3.69),
+                     P (Y ⩾ 30) ≈ P (Y ′ ⩾ 29.5) = P (Z ⩾ −2.57) = P (Z ⩽ 2.57) = 0.9949.
+

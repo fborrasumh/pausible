@@ -1,0 +1,476 @@
+                       UNIVERSIDADES PÚBLICAS DE LA COMUNIDAD DE MADRID
+                               PRUEBA DE ACCESO A LA UNIVERSIDAD
+
+                                        Curso 2025-2026
+                   MATERIA: MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+
+                              INSTRUCCIONES GENERALES Y CALIFICACIÓN
+ El examen consta de 4 preguntas: la primera sin apartados optativos y las tres siguientes con posibilidad
+ de elección. Todas las respuestas deben ser razonadamente justificadas.
+ CALIFICACIÓN: cada pregunta se valorará sobre 2,5 puntos.
+ DURACIÓN: 90 minutos.
+
+
+
+P REGUNTA 1 (2,5 puntos) Responda los dos apartados. Esta pregunta no tiene opcionalidad.
+Una empresa textil fabrica dos tipos de pantalones: premium y básicos. La dirección necesita optimizar la
+producción para maximizar los beneficios del próximo mes. Cada pantalón premium requiere 1, 5 kg de algodón
+y 40 minutos de mano de obra, generando un beneficio de 25 euros. Cada pantalón básico requiere 1 kg de
+algodón y 10 minutos de mano de obra para generar un beneficio de 10 euros. La producción debe someterse a
+las siguientes restricciones:
+       Disponibilidad de algodón: 600 kg.
+       Tiempo de trabajo disponible: 12000 minutos.
+       Por contrato con un cliente mayorista, deben producir al menos 100 pantalones premium.
+       La demanda de pantalones básicos es limitada: no más de 360 unidades.
+
+      1.a) (1,2 puntos) Defina las variables de decisión y plantee la función objetivo que representa el beneficio
+      total. Plantee también todas las restricciones del problema. Represente gráficamente la región factible.
+      1.b) (1,3 puntos) Determine cuántos pantalones de cada tipo debe producir la empresa para maximizar
+      el beneficio. ¿Cuál es el beneficio máximo?
+
+
+
+P REGUNTA 2 (2,5 puntos) Responda únicamente a una de las dos opciones, o bien 2.1 o bien 2.2.
+
+      2.1 Tenemos una baraja de dorso azul que contiene 60 cartas de diamantes y 40 cartas de tréboles y otra
+      baraja de dorso verde que contiene 30 cartas de diamantes y 70 cartas de tréboles. Además, tenemos
+      una bolsa con 2 bolas azules y 4 bolas verdes.
+      Se saca una bola de la bolsa. Si la bola es azul, se saca una carta al azar de la baraja azul. Si la bola es
+      verde, se saca una carta al azar de la baraja de dorso verde.
+          2.1.a) (1,5 puntos) Calcule la probabilidad de que se saque una carta de diamantes.
+          2.1.b) (1 punto) Si la carta extraída es de tréboles, ¿cuál es la probabilidad de que su dorso sea
+          verde?
+
+                                                                          2           1                1
+      2.2 Sean A y B dos sucesos de un experimento aleatorio, siendo P (A) =, P (B) = y P (A ∩ B) = .
+                                                                          3           3                6
+      Calcule, razonadamente e indicando qué resultados matemáticos se usan, las probabilidades pedidas a
+      continuación:
+         2.2.a) (0,5 puntos) P (A ∪ B)
+         2.2.b) (0,5 puntos) P (A ∩ B)
+         2.2.c) (0,5 puntos) P (B | A)
+         2.2.d) (0,5 puntos) P (A | A ∩ B)
+         2.2.e) (0,5 puntos) P (A | B)
+      Nota: A denota al suceso contrario (o complementario) del suceso A.
+P REGUNTA 3 (2,5 puntos) Responda únicamente a una de las dos opciones, o bien 3.1 o bien 3.2.
+      3.1 Consideremos la función
+                                                  2x+3
+                                                 
+                                                 e               si x ≤ 1
+                                                 
+                                       f (x) =
+                                                    2
+                                                  x + 5x + 2
+                                                 
+                                                                  si x > 1
+                                                 
+                                                      2x + 3
+          3.1.a) (1 punto) Calcule el área limitada por la función dada y el eje de abscisas en el intervalo [−1, 1].
+          3.1.b) (0,5 puntos) Estudie la continuidad de la función.
+          3.1.c) (1 punto) Estudie el crecimiento y decrecimiento de la función en el intervalo (1, ∞).
+
+
+      3.2 Dada la función g(x) = x3 + bx2 − 9x + d (b y d son números reales).
+           3.2.a) (1 punto) Calcule qué valores deben tomar b y d para que g(x) tenga un extremo relativo en
+          x = 3 y la gráfica de g(x) pase por el punto (2, 10).
+           3.2.b) (1,5 puntos) Para b = 3 y d = 0, calcule los máximos y mínimos, relativos y absolutos, de la
+          función en el intervalo cerrado [−4, 2].
+
+
+
+P REGUNTA 4 (2,5 puntos) Responda únicamente a una de las dos opciones, o bien 4.1 o bien 4.2.
+
+      4.1 Una cadena de gimnasios quiere estudiar el perfil de sus clientes. Se asume que la edad de sus
+      clientes sigue una distribución normal con media µ = 35 años y desviación típica σ = 12 años.
+           4.1.a) (1 punto) Calcule la probabilidad de que un cliente elegido al azar tenga entre 30 y 45 años,
+          ambos inclusive.
+           4.1.b) (1,5 puntos) Se ha tomado una muestra aleatoria de 150 clientes y se ha observado que, para
+          dicha muestra, la edad media es de 36, 5 años. Calcule el intervalo de confianza al 92 % para la edad
+          media de los clientes del gimnasio. Si el nivel de confianza para la edad media de los clientes del
+          gimnasio fuera del 98 % justifique si la amplitud del intervalo sería mayor o menor.
+
+      4.2 El peso de los paquetes de pipas de girasol que produce una determinada empresa sigue una
+      distribución normal con media µ = 250 gramos y desviación típica σ = 8 gramos.
+           4.2.a) (1 punto) ¿Qué porcentaje de paquetes tienen un peso comprendido entre 240 y 255 gramos?
+           4.2.b) (1,5 puntos) La empresa quiere establecer un control de calidad rechazando aquellos paquetes
+          cuyo peso se desvíe excesivamente del peso medio. Si decide rechazar el 5 % de los paquetes (el
+          2, 5 % de los más ligeros y el 2, 5 % de los más pesados), ¿entre qué valores debe estar el peso de
+          un paquete para ser aceptado?
+                         Matemáticas Aplicadas a las Ciencias Sociales
+
+
+
+
+            ÁREAS BAJO LA DISTRIBUCIÓN DE PROBABILIDAD NORMAL ESTÁNDAR
+
+Los valores en la tabla representan el área
+bajo la curva normal hasta un valor positivo
+de z.
+
+
+                                                                                z
+
+
+
+
+z     ,00       ,01       ,02      ,03      ,04      ,05      ,06      ,07          ,08      ,09
+
+0,0   0,5000    0,5040    0,5080   0,5120   0,5160   0,5199   0,5239   0,5279       0,5319   0,5359
+0,1   0,5398    0,5438    0,5478   0,5517   0,5557   0,5596   0,5636   0,5675       0,5714   0,5753
+0,2   0,5793    0,5832    0,5871   0,5910   0,5948   0,5987   0,6026   0,6064       0,6103   0,6141
+0,3   0,6179    0,6217    0,6255   0,6293   0,6331   0,6368   0,6406   0,6443       0,6480   0,6517
+0,4   0,6554    0,6591    0,6628   0,6664   0,6700   0,6736   0,6772   0,6808       0,6844   0,6879
+
+0,5   0,6915    0,6950    0,6985   0,7019   0,7054   0,7088   0,7123   0,7157       0,7190   0,7224
+0,6   0,7257    0,7291    0,7324   0,7357   0,7389   0,7422   0,7454   0,7486       0,7517   0,7549
+0,7   0,7580    0,7611    0,7642   0,7673   0,7703   0,7734   0,7764   0,7794       0,7823   0,7852
+0,8   0,7881    0,7910    0,7939   0,7967   0,7995   0,8023   0,8051   0,8078       0,8106   0,8133
+0,9   0,8159    0,8186    0,8212   0,8238   0,8264   0,8289   0,8315   0,8340       0,8365   0,8389
+
+1,0   0,8413    0,8438    0,8461   0,8485   0,8508   0,8531   0,8554   0,8577       0,8599   0,8621
+1,1   0,8643    0,8665    0,8686   0,8708   0,8729   0,8749   0,8770   0,8790       0,8810   0,8830
+1,2   0,8849    0,8869    0,8888   0,8907   0,8925   0,8944   0,8962   0,8980       0,8997   0,9015
+1,3   0,9032    0,9049    0,9066   0,9082   0,9099   0,9115   0,9131   0,9147       0,9162   0,9177
+1,4   0,9192    0,9207    0,9222   0,9236   0,9251   0,9265   0,9279   0,9292       0,9306   0,9319
+
+1,5   0,9332    0,9345    0,9357   0,9370   0,9382   0,9394   0,9406   0,9418       0,9429   0,9441
+1,6   0,9452    0,9463    0,9474   0,9484   0,9495   0,9505   0,9515   0,9525       0,9535   0,9545
+1,7   0,9554    0,9564    0,9573   0,9582   0,9591   0,9599   0,9608   0,9616       0,9625   0,9633
+1,8   0,9641    0,9649    0,9656   0,9664   0,9671   0,9678   0,9686   0,9693       0,9699   0,9706
+1,9   0,9713    0,9719    0,9726   0,9732   0,9738   0,9744   0,9750   0,9756       0,9761   0,9767
+
+2,0   0,9772    0,9778    0,9783   0,9788   0,9793   0,9798   0,9803   0,9808       0,9812   0,9817
+2,1   0,9821    0,9826    0,9830   0,9834   0,9838   0,9842   0,9846   0,9850       0,9854   0,9857
+2,2   0,9861    0,9864    0,9868   0,9871   0,9875   0,9878   0,9881   0,9884       0,9887   0,9890
+2,3   0,9893    0,9896    0,9898   0,9901   0,9904   0,9906   0,9909   0,9911       0,9913   0,9916
+2,4   0,9918    0,9920    0,9922   0,9925   0,9927   0,9929   0,9931   0,9932       0,9934   0,9936
+
+2,5   0,9938    0,9940    0,9941   0,9943   0,9945   0,9946   0,9948   0,9949       0,9951   0,9952
+2,6   0,9953    0,9954    0,9956   0,9957   0,9959   0,9960   0,9961   0,9962       0,9963   0,9964
+2,7   0,9965    0,9966    0,9967   0,9968   0,9969   0,9970   0,9971   0,9972       0,9973   0,9974
+2,8   0,9974    0,9975    0,9976   0,9977   0,9977   0,9978   0,9979   0,9979       0,9980   0,9981
+2,9   0,9981    0,9982    0,9982   0,9983   0,9984   0,9984   0,9985   0,9985       0,9986   0,9986
+
+3,0   0,9987    0,9987    0,9987   0,9988   0,9988   0,9989   0,9989   0,9989       0,9990   0,9990
+                SOLUCIONES-MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+
+P REGUNTA 1
+         1.a)
+            Las variables de decisión son:
+            x = número de pantalones premium
+            y = número de pantalones básicos
+           El enunciado del problema nos da las siguientes restricciones:
+
+(1)                                             1, 5x + y ≤ 600
+(2)                                            40x + 10y ≤ 12000
+(3)                                                     y ≤ 360
+(4)                                                     x ≥ 100
+(5)                                                     y  ≥0
+           La función objetivo es f (x, y) = 25x + 10y.
+
+
+                                           y
+                                                               r2
+
+                                     400
+                                                D         B                              r3
+
+                                     300
+
+                                               r4                   A
+                                     200
+
+
+
+
+                                     100                                      r1
+
+                                                E                         C
+                                       0                                                      x r5
+                                           0        100       200       300        400
+
+
+         1.b) Lo más sencillo es evaluar en los vértices de la región factible la función. Calcularemos las
+         intersecciones
+           r1 ∩ r2 :   1, 5x + y = 600, 4x + y = 1200 ⇒ A(240, 240)
+           r1 ∩ r3 :   1, 5x + y = 600, y = 360 ⇒ B(160, 360)
+           r2 ∩ r5 :   4x + y = 1200, y = 0 ⇒ C(300, 0)
+           r3 ∩ r4 :   D(100, 360)
+           r5 ∩ r4 :   E(100, 0)
+
+      f (A) = 8400, f (B) = 7600, f (C) = 7500, f (D) = 6100, f (E) = 2500 (todo esto expresado en euros).
+            El beneficio máximo es de 8400, que se corresponde con una producción de 240 pantalones de cada
+         tipo.
+
+
+
+P REGUNTA 2
+         Opción 2.1
+           2.1.a) Consideremos los sucesos
+                A = extraer una bola azul de la bolsa
+                V = extraer una bola verde de la bolsa
+                D = extraer una carta de diamantes
+                T = extraer una carta de tréboles
+          Las condiciones del enunciado se traducen en que
+                1              2              3                     2                          3                      7
+         P (A) = ,     P (V ) = ,    P (D|A) = ,          P (T |A) = ,         P (D|V ) =        ,      P (T |V ) =      .
+                3              3              5                     5                         10                      10
+          La cuestión puede resolverse utilizando el diagrama de árbol y, a partir de él, el teorema de la
+          probabilidad total:
+
+                                                                   Bolsa
+
+
+                                         P (A) = 62 = 13                       P (V ) = 46 = 32
+
+
+
+                                           Baraja azul                              Baraja verde
+
+
+
+
+                                   6   3                  4   2                3                   7
+                                  10 = 5                 10 = 5                10                  10
+
+
+
+                                 Diamantes           Tréboles              Diamantes         Tréboles
+
+                                                                               3 1  3 2 2
+                       P (D) = P (D|A) · P (A) + P (D|V ) · P (V ) =            · +  · = .
+                                                                               5 3 10 3 5
+          2.1.b) Aplicamos el teorema de Bayes
+                                                     P (V ∩ T )   2
+                                                                    · 7   7
+                                     P (V | T ) =               = 3 3 10 = .
+                                                       P (T )       5
+                                                                          9
+
+      Opción 2.2
+        2.2.a) P (A ∪ B) = P (A ∩ B) = 16 ⇒ P (A ∪ B) = 65 .
+        2.2.b) P (A ∩ B) = P (A) + P (B) − P (A ∪ B) = 16 .
+                                                               2
+                             P (B ∩ A)    P (A) − P (A ∩ B)      −1
+          2.2.c) P (B | A) =           =                    = 3 2 6 = 34 .
+                               P (A)             P (A)            3
+          2.2.d) Es 0 porque condicionado a A no puede ocurrir A.
+                                          1
+                             P (B ∩ A)         1
+          2.2.e) P (A | B) =           = 62 = .
+                               P (B)      3
+                                               4
+
+
+
+P REGUNTA 3
+      Opción 3.1
+         3.1.a)
+         La función es positiva y, por tanto, no corta al eje de abscisas.
+
+                                                             1 2x+3 1
+                                           Z 1
+                                                                          e5 − e
+                                                                  
+                                                 2x+3
+                                Área =           e      dx =   e        =        .
+                                            −1               2       −1      2
+          3.1.b) Se resuelve fácilmente calculando límites laterales. Las dos ramas de la función son continuas
+          en (−∞, 1) y (1, ∞) (el problema que podría presentarse en x = −3    2 al anularse un denominador no
+          ha lugar puesto que ese punto está fuera de la zona donde interviene esa función). Por tanto, para
+          ver si es continua o no, hay que estudiar el punto de “empalme” x = 1. Tomando límites laterales se
+          concluye fácilmente que
+                                                                                8
+                                      lı́m f (x) = e5      y        lı́m f (x) = .
+                                     x→1−                          x→1  +       5
+          lo que implica que la función no es continua en ese punto.
+                                                                               2x2 + 6x + 11
+          3.1.c) En el intervalo considerado se tiene que f ′ (x) =                          y esa función es siempre
+                                                                                 (2x + 3)2
+          positiva, por lo que la función es creciente en ese intervalo.
+     Opción 3.2
+       3.2.a) Para que presente un extremo relativo en x = 3 ha de verificarse que g ′ (3) = 0. Como
+       g ′ (x) = 3x2 + 2bx − 9 la condición nos lleva a que b = −3.
+       Que la gráfica pase por (2, 10) implica que g(2) = 10 y, por tanto, d = 32.
+        3.2.b) Para los valores b = 3 y d = 0 la función dada se convierte en g(x) = x3 + 3x2 − 9x y, por
+        tanto, g ′ (x) = 3x2 + 6x − 9. Igualando a 0 y simplificando para hallar los puntos críticos tenemos que
+                                                   √
+                                           −2 ±       4 + 12   −2 ± 4
+                                         x=                  =
+                                                    2            2
+        Y, por ello, los puntos críticos son: x1 = −3 y x2 = 1.
+        La primera derivada es un polinomio de segundo grado y es fácil estudiar su signo. Vemos que g es
+        creciente en el intervalo (−∞, −3), decreciente en el intervalo (−3, 1) y creciente a partir de x = 1.
+        Por tanto en x = −3 presenta un máximo relativo y en x = 1 un mínimo relativo.
+        Para estudiar los extremos absolutos debemos tener en cuenta los puntos críticos y los extremos del
+        intervalo.
+        g(−4) = 20, g(−3) = 27, g(1) = −5, g(2) = 2
+        En (−3, 27) está el máximo absoluto y en (1, −5) el mínimo absoluto.
+        Como la función crece a la derecha de −4 hay un mínimo relativo en (−4, 20) y como decrece a la
+        izquierda de 2 hay un máximo relativo en (2, 2).
+
+
+
+P REGUNTA 4
+     Opción 4.1
+       4.1.a) Tipificamos usando la transformación Z = X−µ
+                                                        σ :
+                                                                             
+                                                       30 − 35     45 − 35
+                            P (30 < X < 45) = P                <Z<
+                                                          12         12
+                                                  
+                                      −5     10
+                             =P          <Z<           = P (−0,42 < Z < 0,83)
+                                      12     12
+
+                                    = P (Z < 0,83) − P (Z < −0,42)
+        Buscando en la tabla de la normal, vemos que P (Z < 0,83) = 0,7967 y P (Z < −0,42) =
+        1 − P (Z < 0, 42) = 1 − 0, 6628 = 0,3372, por lo que
+
+                               P (30 < X < 45) = 0,7967 − 0,3372 = 0,4595
+        4.1.b) El intervalo de confianza para la media con σ conocida viene dado por
+                                                                      
+                                                     σ              σ
+                                  IC = x̄ − zα/2 · √ , x̄ + zα/2 · √
+                                                      n              n
+
+        Si el nivel de confianza es 0,92 tenemos que α = 1 − 0,92 = 0,08 y por ello α2 = 0,04.
+        Por tanto: P (Z ≤ zα/2 ) = 1 − 0,04 = 0,96 y buscando en la tabla encontramos que zα/2 = 1,75
+        El error máximo viene dado por
+                            σ           12              12
+                 E = zα/2 · √ = 1,75 · √     = 1,75 ·        = 1,75 · 0,9798 ≈ 1,715
+                             n           150          12,247
+
+        Así el límite inferior del intervalo es 36,5 − 1,715 = 34,785 y el superior 36,5 + 1,715 = 38,215. Por
+        tanto, el intervalo de confianza al 92 % es (34,79, 38,22) años.
+        El intervalo de confianza al 98 % es más amplio que el intervalo al 92 %. Esto es lógico porque mayor
+        nivel de confianza implica mayor amplitud del intervalo: para estar más seguros de que el intervalo
+        contiene la media poblacional, necesitamos un intervalo más amplio.
+        Si ahora el nivel de confianza es 0,98, los cálculos para ese nivel de confianza serían α = 1 − 0,98 =
+        0,02 y entonces α2 = 0,01. Por tanto P (Z ≤ zα/2 ) = 1 − 0,01 = 0,99. Miramos en la tabla para ver
+        que ese valor se corresponde con zα/2 = 2,33
+        Ahora calculamos el error máximo
+
+                                     σ           12
+                          E = zα/2 · √ = 2,33 · √     = 2,33 · 0,9798 ≈ 2,283
+                                      n           150
+   Razonando como en el apartado anterior llegamos a que el intervalo de confianza al 98 % es
+   (34,22, 38,78) años, aunque no era necesario calcular dicho intervalo para justificar la respuesta.
+
+Opción 4.2
+  Sea X = “peso de un paquete de pipas” ⇒ X ∼ N (250, 8)
+   4.2.a) Debemos calcular P (240 < X < 255).
+   Tipificamos ambos valores:
+                                          240 − 250
+                                     Z1 =           = −1, 25
+                                              8
+                                          255 − 250
+                                     Z2 =           = 0, 625
+                                              8
+
+                       P (240 < X < 255) = P (−1, 25 < Z < 0, 625)
+                                            = P (Z < 0,625) − P (Z < −1,25)
+                                            = 0, 7340 − 0, 1056 = 0, 6284.
+   El 62, 84 % de los paquetes pesan entre 240 y 255 gramos.
+   4.2.b) Buscamos k1 y k2 tales que:
+                     P (X < k1 ) = 0, 025 ⇒ P (Z < z1 ) = 0, 025 ⇒ z1 = −1, 96
+                     P (X > k2 ) = 0, 025 ⇒ P (Z > z2 ) = 0, 025 ⇒ z2 = 1, 96
+   Destipificamos:
+             k1 = µ + z1 · σ = 250 + (−1, 96) · 8 = 250 − 15, 68 = 234, 32 gramos
+             k2 = µ + z2 · σ = 250 + 1, 96 · 8 = 250 + 15, 68 = 265, 68 gramos
+   Los paquetes aceptados deben pesar entre 234, 32 y 265, 68 gramos.
+                         MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+             CRITERIOS ESPECÍFICOS DE CORRECCIÓN Y CALIFICACIÓN
+                     ATENCIÓN: La calificación debe hacerse en múltiplos de 0,1 puntos
+
+Pregunta 1. (Puntuación máxima: 2,5 puntos)
+Apartado (1.a): 1,2 puntos.
+       Definición de las variables y expresión correcta de la función objetivo.......... 0,2 puntos.
+       Determinación correcta de las restricciones.................................................... 0,5 puntos.
+       Representación correcta de la región factible................................................. 0,5 puntos.
+Apartado (1.b): 1,3 puntos.
+       Cálculo de los vértices de la región factible (*).............................................. 0,5 puntos.
+       Obtención correcta y contextualizada del nº de pantalones de cada tipo..... 0,5 puntos.
+       Obtención correcta y contextualizada del beneficio máximo......................... 0,3 puntos.
+ (*) Se penalizará con 0,1 puntos por cada vértice que falte o mal calculado
+
+
+Pregunta 2. (Puntuación máxima: 2,5 puntos)
+
+   Opción 2.1 Puntuación máxima: 2,5 puntos
+      Apartado (2.1.a): 1,5 puntos.
+        Definición correcta de los sucesos............................................................. 0,3 puntos
+        Planteamiento correcto de la probabilidad................................................... 0,7 puntos.
+        Cálculo correcto de la probabilidad............................................................. 0,5 puntos.
+      Apartado (2.1.b): 1 punto.
+        Planteamiento correcto de la probabilidad.................................................. 0,5 puntos.
+        Cálculo correcto de la probabilidad............................................................. 0,5 puntos.
+
+   Opción 2.2 Puntuación máxima: 2,5 puntos
+      Apartado (2.2.a): 0,5 puntos.
+        Planteamiento correcto de la probabilidad.................................................. 0,3 puntos.
+        Cálculo correcto de la probabilidad............................................................. 0,2 puntos.
+      Apartado (2.2.b): 0,5 puntos.
+        Planteamiento correcto de la probabilidad.................................................. 0,3 puntos.
+        Cálculo correcto de la probabilidad............................................................. 0,2 puntos.
+      Apartado (2.2.c): 0,5 puntos.
+        Planteamiento correcto de la probabilidad................................................. 0,3 puntos.
+        Cálculo correcto de la probabilidad............................................................ 0,2 puntos.
+      Apartado (2.2.d): 0,5 puntos.
+        Justificación correcta del valor de la probabilidad pedida……………...……0,5 puntos
+      Apartado (2.2.e): 0,5 puntos.
+        Planteamiento correcto de la probabilidad.................................................. 0,3 puntos.
+        Cálculo correcto de la probabilidad............................................................. 0,2 puntos.
+
+
+Pregunta 3. (Puntuación máxima: 2,5 puntos)
+
+  Opción 3.1 Puntuación máxima: 2,5 puntos
+     Apartado (3.1.a): 1 punto.
+        Justificación de que no corta al eje de abscisas......................................... 0,3 puntos.
+        Cálculo correcto de la integral.................................................................... 0,4 puntos.
+        Cálculo correcto del área............................................................................ 0,3 puntos.
+No se penalizará por no dar el área en u2
+      Apartado (3.1.b): 0,5 puntos.
+         Justificación correcta de la continuidad en x <1..................... 0,1 puntos.
+         Justificación correcta de la continuidad en x >1..................... 0,1 puntos.
+         Aplicación correcta de la definición de continuidad en x=1... 0,2 puntos.
+         Determinación de la no continuidad de f ( x )en x=1............ 0,1 puntos.
+      Apartado (3.1.c): 1 punto.
+        Cálculo correcto de la derivada............................................... 0,5 puntos.
+        Cálculo correcto del intervalo de crecimiento.......................... 0,5 puntos.
+
+Opción 3.2 Puntuación máxima: 2,5 puntos
+     Apartado (3.2.a): 1 punto.
+         Cálculo correcto de b................................................................ 0,5 puntos.
+         Cálculo correcto de d ................................................................ 0,5 puntos.
+      Apartado (3.2.b): 1,5 puntos.
+        Cálculo correcto de los valores que anula la derivada............. 0,3 puntos.
+        Cálculo correcto de los extremos relativos............................... 0,6 puntos.
+        Cálculo correcto de los extremos absolutos............................. 0,6 puntos.
+        (Para los extremos vale con proporcionar la abscisa correcta)
+
+Pregunta 4. (Puntuación máxima: 2,5 puntos)
+
+  Opción 4.1 Puntuación máxima: 2,5 puntos
+     Apartado (4.1.a): 1 punto.
+       Definición de la probabilidad pedida y tipificación correcta..... 0,4 puntos.
+       Cálculo correcto de la probabilidad pedida ............................. 0,6 puntos.
+     Apartado (4.1.b): 1,5 puntos.
+         Determinación del valor z α /2 ................................................... 0,4 puntos.
+         Aplicación de la fórmula del error y obtención del mismo....... 0,4 puntos.
+         Determinación correcta del intervalo de confianza al 92%...... 0,3 puntos.
+         Justificación correcta de la mayor amplitud del intervalo........ 0,4 puntos.
+
+ Opción 4.2 Puntuación máxima: 2,5 puntos
+
+      Apartado (4.2.a): 1 punto.
+          Planteamiento correcto de la probabilidad............................ 0,4 puntos.
+          Cálculo correcto de la probabilidad....................................... 0,4 puntos.
+          Cálculo correcto del porcentaje pedido................................. 0,2 puntos.
+      Apartado (4.2.b): 1,5 puntos.
+          Planteamiento correcto......................................................... 0,5 puntos.
+          Obtención correcta del valor inferior..................................... 0,5 puntos.
+          Obtención correcta del valor superior................................... 0,5 puntos.
+
