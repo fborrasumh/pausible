@@ -1,0 +1,114 @@
+{
+ "ccaa": "canarias",
+ "materia": "fisica",
+ "titulo": "Prueba de Acceso a la Universidad (PAU) 2027 — Física — Canarias",
+ "duracion_min": 90,
+ "instrucciones": "Se proponen seis preguntas. Responde cuatro, a tu elección. Cada pregunta vale 2,5 puntos; la puntuación máxima es de 10 puntos. Justifica los procedimientos, expresa las unidades y redondea los resultados finales a tres cifras significativas cuando sea necesario. Usa $G=6,67\\times10^{-11}\\ \\mathrm{N\\,m^2/kg^2}$, $h=6,63\\times10^{-34}\\ \\mathrm{J\\,s}$, $c=3,00\\times10^8\\ \\mathrm{m/s}$, $e=1,60\\times10^{-19}\\ \\mathrm{C}$ y $k=9,0\\times10^9\\ \\mathrm{N\\,m^2/C^2}$.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "optica",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "En una salida de campo, un equipo de investigación usa una lente convergente de distancia focal $10\\ \\mathrm{cm}$ para observar una muestra situada a $15\\ \\mathrm{cm}$ de la lente. a) (1,5 puntos) Calcula la posición de la imagen y el aumento lateral, e indica si la imagen es real o virtual y derecha o invertida. b) (1 punto) Para calibrar un sensor óptico, un rayo pasa del aire ($n_1=1,00$) a un bloque transparente ($n_2=1,50$) con un ángulo de incidencia de $30,0^\\circ$. Calcula el ángulo de refracción.",
+   "solucion": "Tomamos la convención habitual: las distancias del objeto real y de la imagen real son positivas, y el aumento lateral es $m=-s'/s$.\n\n**a) Posición y características de la imagen**\n\nLa ecuación de las lentes delgadas es\n$$\\frac{1}{f}=\\frac{1}{s}+\\frac{1}{s'}.$$\nCon $f=10\\,\\mathrm{cm}$ y $s=15\\,\\mathrm{cm}$:\n$$\\frac{1}{s'}=\\frac{1}{10}-\\frac{1}{15}=\\frac{1}{30}\\,\\mathrm{cm}^{-1},$$\npor lo que $s'=30\\,\\mathrm{cm}$. El signo positivo indica que la imagen se forma al otro lado de la lente y es **real**.\n\nEl aumento lateral es\n$$m=-\\frac{s'}{s}=-\\frac{30}{15}=-2.$$\nEl signo negativo indica que la imagen es **invertida**; su tamaño es el doble que el del objeto.\n\n**b) Ángulo de refracción**\n\nAplicamos la ley de Snell:\n$$n_1\\sin\\theta_1=n_2\\sin\\theta_2.$$\nAsí,\n$$\\sin\\theta_2=\\frac{n_1}{n_2}\\sin 30,0^\\circ=\\frac{1,00}{1,50}\\cdot 0,5=\\frac{1}{3},$$\n$$\\theta_2=\\arcsin\\left(\\frac{1}{3}\\right)\\approx 19,47^\\circ.$$\n\n**Resultados:** $s'=30\\,\\mathrm{cm}$, $m=-2$ (imagen real e invertida) y $\\theta_2\\approx19,47^\\circ$.",
+   "resultado": "Imagen a 30 cm (real e invertida), aumento lateral $m=-2$; ángulo de refracción: $19,47^\\circ$.",
+   "criterios": "Total: 2,5 puntos. a) (1,5 puntos): 0,5 por plantear correctamente la ecuación de la lente y sustituir los datos; 0,5 por obtener la posición de la imagen, $s'=30\\,\\mathrm{cm}$; 0,25 por calcular el aumento $m=-2$; 0,25 por indicar que la imagen es real e invertida. b) (1 punto): 0,5 por aplicar correctamente la ley de Snell y despejar el seno del ángulo refractado; 0,5 por calcular $\\theta_2\\approx19,47^\\circ$.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "ondas",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un equipo de vigilancia ambiental registra en el aire el sonido de una llamada de cetáceo reproducida para una prueba acústica. La frecuencia del tono es $680\\ \\mathrm{Hz}$ y la rapidez del sonido es $340\\ \\mathrm{m/s}$. Dos micrófonos están alineados con la dirección de propagación y separados $0,250\\ \\mathrm{m}$. a) (1,5 puntos) Calcula la longitud de onda. b) (1 punto) Determina la diferencia de fase entre las señales recibidas y explica si, en ese punto, las oscilaciones están en fase o en oposición de fase.",
+   "solucion": "### a) Longitud de onda\nLa relación entre la rapidez de propagación, la frecuencia y la longitud de onda es $v=f\\lambda$. Por tanto,\n\\[\n\\lambda=\\frac{v}{f}=\\frac{340\\ \\mathrm{m/s}}{680\\ \\mathrm{Hz}}=0{,}500\\ \\mathrm{m}.\n\\]\n\n### b) Diferencia de fase\nPara dos puntos separados una distancia $d$ en la dirección de propagación, la diferencia de fase, en módulo, es\n\\[\n\\lvert\\Delta\\varphi\\rvert=\\frac{2\\pi d}{\\lambda}\n=\\frac{2\\pi(0{,}250\\ \\mathrm{m})}{0{,}500\\ \\mathrm{m}}\n=\\pi\\ \\mathrm{rad}=180^\\circ.\n\\]\nLa diferencia de fase es media vuelta, por lo que las señales están en **oposición de fase**. Si se asigna el signo según el sentido de propagación, la fase del micrófono situado más adelante respecto al primero puede escribirse como $-\\pi\\ \\mathrm{rad}$; su diferencia de fase en módulo es $\\pi\\ \\mathrm{rad}$.",
+   "resultado": "a) $\\lambda=0{,}500\\ \\mathrm{m}$. b) $\\lvert\\Delta\\varphi\\rvert=\\pi\\ \\mathrm{rad}=180^\\circ$; las señales están en oposición de fase.",
+   "criterios": "Total: 2,5 puntos. a) 1,5 puntos: planteamiento correcto de $\\lambda=v/f$ (0,5); cálculo numérico (0,75); resultado con unidad (0,25). b) 1 punto: relación $\\lvert\\Delta\\varphi\\rvert=2\\pi d/\\lambda$ (0,4); cálculo de $\\pi$ rad o $180^\\circ$ (0,35); identificación y explicación de la oposición de fase (0,25). Se acepta un signo negativo para la diferencia de fase si se justifica la convención; se valora su módulo.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "gravitacion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una misión estudia un planeta esférico de masa $6,00\\times10^{24}\\ \\mathrm{kg}$ y radio $1,00\\times10^7\\ \\mathrm{m}$. Se supone que el planeta no tiene atmósfera y que puede tratarse como una masa puntual para calcular el campo exterior. Una sonda se encuentra a una altura igual al radio del planeta sobre la superficie. a) (1,5 puntos) Calcula la intensidad del campo gravitatorio en la posición de la sonda. b) (1 punto) Calcula el módulo de la fuerza gravitatoria sobre un instrumento de $1,50\\times10^3\\ \\mathrm{kg}$ situado allí.",
+   "solucion": "### Datos y distancia al centro\nLa altura de la sonda es igual al radio del planeta, $h=R$. Por tanto, su distancia al centro es\n\\[\nr=R+h=2R=2,00\\times10^7\\ \\mathrm{m}.\n\\]\nSe toma $G=6,67\\times10^{-11}\\ \\mathrm{N\\,m^2/kg^2}$.\n\n### a) Intensidad del campo gravitatorio\nAl tratarse de un punto exterior al planeta, el módulo del campo es\n\\[\ng=\\frac{GM}{r^2}\n=\\frac{(6,67\\times10^{-11})(6,00\\times10^{24})}{(2,00\\times10^7)^2}\n=1,0005\\ \\mathrm{N/kg}.\n\\]\nEl campo está dirigido hacia el centro del planeta. Con tres cifras significativas, $g=1,00\\ \\mathrm{N/kg}$ (equivalentemente, $1,00\\ \\mathrm{m/s^2}$).\n\n### b) Fuerza sobre el instrumento\n\\[\nF=mg=(1,50\\times10^3)(1,0005)=1,50075\\times10^3\\ \\mathrm{N}.\n\\]\nCon tres cifras significativas, el módulo de la fuerza es $F=1,50\\times10^3\\ \\mathrm{N}$.",
+   "resultado": "$g=1,00\\ \\mathrm{m/s^2}$; $F=1,50\\times10^3\\ \\mathrm{N}$.",
+   "criterios": "Total: 2,5 puntos. a) 1,5 puntos: 0,25 por obtener correctamente la distancia al centro, r=R+h=2R; 0,50 por plantear y sustituir correctamente g=GM/r²; 0,50 por el cálculo numérico; 0,25 por la unidad correcta (N/kg o m/s²) y el sentido del campo hacia el centro. b) 1,0 punto: 0,25 por plantear F=mg; 0,50 por sustituir y calcular; 0,25 por expresar el módulo con unidades correctas. Se aceptan resultados equivalentes por redondeo razonable.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "magnetico",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "En un prototipo de generador para una estación costera, una varilla conductora de longitud $0,50\\ \\mathrm{m}$ se desliza hacia la derecha a $4,0\\ \\mathrm{m/s}$ sobre dos raíles que forman un circuito cerrado de resistencia total $1,2\\ \\Omega$. El campo magnético uniforme, de módulo $0,30\\ \\mathrm{T}$, entra perpendicularmente en el plano del circuito. La varilla móvil constituye el lado derecho del circuito, cuya área aumenta al deslizarse. a) (1,5 puntos) Calcula la fuerza electromotriz inducida y la intensidad de corriente. b) (1 punto) Indica el sentido de la corriente inducida y justifícalo mediante la ley de Lenz.",
+   "solucion": "### a) Fuerza electromotriz e intensidad\n\nEl flujo magnético entrante aumenta porque crece el área del circuito. Su variación por unidad de tiempo es $dA/dt=Lv$. Por la ley de Faraday, el módulo de la fuerza electromotriz inducida es\n\n$$|\\mathcal{E}|=B\\frac{dA}{dt}=BLv=(0{,}30)(0{,}50)(4{,}0)=0{,}60\\ \\mathrm{V}.$$\n\nAplicando la ley de Ohm al circuito cerrado:\n\n$$I=\\frac{|\\mathcal{E}|}{R}=\\frac{0{,}60}{1{,}2}=0{,}50\\ \\mathrm{A}.$$\n\n### b) Sentido de la corriente\n\nEl flujo magnético externo, dirigido hacia dentro del plano, está aumentando. Según la ley de Lenz, la corriente inducida debe crear un campo que se oponga a ese aumento; por tanto, su campo apunta hacia fuera del plano. Con la regla de la mano derecha, esto corresponde a una corriente **antihoraria** (vista de frente al plano del circuito). En la varilla móvil, la corriente va hacia arriba.",
+   "resultado": "\\(|\\mathcal{E}|=0{,}60\\ \\mathrm{V}\\); \\(I=0{,}50\\ \\mathrm{A}\\); corriente antihoraria (en la varilla, hacia arriba).",
+   "criterios": "Total: 2,5 puntos. a) 1,5 puntos: planteamiento de Faraday y relación dA/dt=Lv (0,50); cálculo de la fem inducida, 0,60 V (0,25); aplicación de la ley de Ohm (0,50); cálculo de la intensidad, 0,50 A (0,25). b) 1,0 punto: identificar que el flujo entrante aumenta y aplicar correctamente la ley de Lenz (0,50); indicar el sentido antihorario —hacia arriba por la varilla— usando la regla de la mano derecha (0,50).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "moderna",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un sensor fotoeléctrico de una estación de observación tiene una frecuencia umbral de $5,00\\times10^{14}\\ \\mathrm{Hz}$. Se ilumina con luz monocromática de frecuencia $8,00\\times10^{14}\\ \\mathrm{Hz}$. a) (1 punto) Calcula la longitud de onda umbral del sensor. b) (1,5 puntos) Calcula la energía cinética máxima de los electrones emitidos y el potencial de frenado necesario para detenerlos.",
+   "solucion": "### a) Longitud de onda umbral\nLa longitud de onda correspondiente a la frecuencia umbral es\n$$\\lambda_0=\\frac{c}{f_0}=\\frac{2{,}99792458\\times10^8}{5{,}00\\times10^{14}}=5{,}99584916\\times10^{-7}\\ \\mathrm{m}$$\nPor tanto, con tres cifras significativas, $\\lambda_0=6{,}00\\times10^{-7}\\ \\mathrm{m}$ (600 nm).\n\n### b) Energía cinética máxima y potencial de frenado\nLa función de trabajo del sensor es $W_0=hf_0$. Aplicando la ecuación de Einstein del efecto fotoeléctrico:\n$$K_{\\max}=hf-W_0=h(f-f_0)$$\n$$K_{\\max}=(6{,}62607015\\times10^{-34})(8{,}00\\times10^{14}-5{,}00\\times10^{14})=1{,}987821045\\times10^{-19}\\ \\mathrm{J}$$\nAsí, $K_{\\max}=1{,}99\\times10^{-19}\\ \\mathrm{J}$, equivalente a aproximadamente $1{,}24\\ \\mathrm{eV}$.\n\nEl potencial de frenado se obtiene de $eV_f=K_{\\max}$:\n$$V_f=\\frac{K_{\\max}}{e}=\\frac{1{,}987821045\\times10^{-19}}{1{,}602176634\\times10^{-19}}=1{,}240700309\\ \\mathrm{V}$$\nPor tanto, el potencial de frenado necesario es $1{,}24\\ \\mathrm{V}$.",
+   "resultado": "\\lambda_0=6,00\\times10^{-7}\\ \\mathrm{m};\\quad K_{\\max}=1,99\\times10^{-19}\\ \\mathrm{J};\\quad V_f=1,24\\ \\mathrm{V}.",
+   "criterios": "Total: 2,5 puntos. a) Longitud de onda umbral (1 punto): 0,5 por plantear correctamente \\lambda_0=c/f_0 y sustituir los datos; 0,5 por el resultado con unidad y redondeo adecuado. b) Energía cinética máxima y potencial de frenado (1,5 puntos): 0,5 por aplicar la ecuación de Einstein, K_max=h(f-f_0); 0,5 por calcular K_max con unidad; 0,5 por relacionar el potencial de frenado mediante eV_f=K_max y obtenerlo con unidad. Se aceptan resultados equivalentes con redondeo correcto; no se penalizará dos veces un mismo error de cálculo.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "6",
+   "tema": "electrico",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "En un detector de partículas se fijan dos cargas puntuales: $+4,0\\ \\mathrm{nC}$ en $x=-0,30\\ \\mathrm{m}$ y $-4,0\\ \\mathrm{nC}$ en $x=+0,30\\ \\mathrm{m}$. Se desprecia la influencia de cualquier otra carga. a) (1,5 puntos) Calcula el campo eléctrico resultante en el punto medio y especifica su dirección y sentido. b) (1 punto) Determina la fuerza eléctrica sobre una carga de prueba de $+2,0\\ \\mathrm{nC}$ colocada en ese punto.",
+   "solucion": "### a) Campo eléctrico en el punto medio\n\nEl punto medio está en $x=0$. La distancia desde cada carga hasta ese punto es $r=0,30\\ \\mathrm{m}$. El módulo del campo producido por cada carga es\n\n$$E_1=E_2=k\\frac{|q|}{r^2}=(8,99\\times10^9)\\frac{4,0\\times10^{-9}}{(0,30)^2}=3,996\\times10^2\\ \\mathrm{N/C}.$$\n\nEn el punto medio, el campo de la carga positiva apunta alejándose de ella, hacia $+x$. El campo de la carga negativa apunta hacia ella, también hacia $+x$. Por superposición,\n\n$$\\vec E=(E_1+E_2)\\,\\hat{\\mathbf{x}}=7,991\\times10^2\\,\\hat{\\mathbf{x}}\\ \\mathrm{N/C}\\approx 8,0\\times10^2\\ \\mathrm{N/C},$$\n\nhacia la derecha, en el sentido positivo del eje $x$.\n\n### b) Fuerza sobre la carga de prueba\n\nLa carga de prueba es $q_0=+2,0\\times10^{-9}\\ \\mathrm{C}$. Por tanto,\n\n$$\\vec F=q_0\\vec E=(2,0\\times10^{-9})(7,991\\times10^2)\\,\\hat{\\mathbf{x}}\\ \\mathrm{N}=1,598\\times10^{-6}\\,\\hat{\\mathbf{x}}\\ \\mathrm{N}\\approx 1,6\\times10^{-6}\\ \\mathrm{N}.$$\n\nComo la carga de prueba es positiva, la fuerza tiene el mismo sentido que el campo: hacia $+x$.",
+   "resultado": "E = 8,0×10² N/C hacia +x; F = 1,6×10⁻⁶ N hacia +x.",
+   "criterios": "Total: 2,5 puntos. a) (1,5 puntos): 0,5 por calcular correctamente el módulo del campo de cada carga; 0,5 por establecer que ambos campos apuntan hacia +x; 0,5 por sumarlos y expresar el resultado con unidad y sentido. b) (1,0 punto): 0,5 por aplicar correctamente la relación vectorial F = q₀E; 0,5 por obtener el módulo y señalar que, al ser positiva la carga de prueba, la fuerza apunta hacia +x. Se aceptan pequeñas diferencias de redondeo.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "optica",
+   "p": 0.482
+  },
+  {
+   "id": "ondas",
+   "p": 0.285
+  },
+  {
+   "id": "gravitacion",
+   "p": 0.241
+  },
+  {
+   "id": "magnetico",
+   "p": 0.241
+  },
+  {
+   "id": "moderna",
+   "p": 0.211
+  },
+  {
+   "id": "electrico",
+   "p": 0.206
+  }
+ ],
+ "referencias": [
+  "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/bachillerato/_galerias/descargas/pau-2026/examenes-PAU-junio-2026/examen-coro-tecnica-vocal-pau-junio-26.pdf",
+  "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/bachillerato/_galerias/descargas/pau-2026/examenes-PAU-junio-2026/examen-fundamentos-artisticos-pau-junio-26.pdf"
+ ]
+}
