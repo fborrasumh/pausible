@@ -1,0 +1,118 @@
+{
+ "ccaa": "aragon",
+ "materia": "geologia",
+ "titulo": "PAU Aragón 2027 — Geología y Ciencias Ambientales (modelo original orientativo)",
+ "duracion_min": 90,
+ "instrucciones": "El bloque 1 es obligatorio. En cada uno de los bloques 2, 3 y 4, responda únicamente a una de las dos opciones propuestas. Cada bloque respondido vale 2 puntos; la puntuación de sus apartados se indica en el enunciado. En los cálculos, muestre las operaciones y exprese el resultado con las unidades correspondientes.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "tectonica",
+   "puntos": 2.0,
+   "tipo": "abierta",
+   "enunciado": "En un corte geológico de una zona del valle del Ebro se reconocen estos materiales y estructuras: un basamento cristalino B; sobre una superficie erosiva del basamento se depositó una arenisca fluvial A, cubierta concordantemente por una caliza marina somera L y después por una lutita de medio marino más profundo M. A, L y M forman un anticlinal abierto, con los dos flancos inclinados en sentidos opuestos. Una falla normal F corta y desplaza el pliegue y los tres estratos. Un dique ígneo D corta el basamento, los estratos y la falla. Una superficie erosiva corta los materiales inclinados, la falla y el dique; encima se dispone horizontalmente un conglomerado aluvial C. El cauce actual incide en todos ellos. I) Ordene cronológicamente, de más antiguo a más reciente, los materiales y acontecimientos geológicos descritos (1 punto). II) Identifique el tipo de esfuerzo asociado al plegamiento y al movimiento de F, e indique si representan una o más etapas de deformación (0,5 puntos). III) Nombre las dos discontinuidades estratigráficas descritas (0,25 puntos). IV) Indique la tendencia del nivel relativo del mar durante la sedimentación de A, L y M, y el cambio de ambiente que representa C respecto a M (0,25 puntos).",
+   "solucion": "### I) Orden cronológico\n\nAplicando las relaciones de superposición y de corte, se obtiene la siguiente secuencia, de más antigua a más reciente:\n\n1. Formación del basamento cristalino $B$.\n2. Erosión del basamento y formación de la superficie sobre la que se apoya la cubierta sedimentaria.\n3. Depósito fluvial de la arenisca $A$.\n4. Depósito concordante de la caliza marina somera $L$.\n5. Depósito de la lutita marina más profunda $M$.\n6. Plegamiento compresivo de $A$, $L$ y $M$, que forma el anticlinal.\n7. Formación y desplazamiento de la falla normal $F$: es posterior al plegamiento porque corta el pliegue y los estratos.\n8. Intrusión del dique $D$: es posterior a $F$ porque corta también la falla, además del basamento y los estratos.\n9. Erosión que trunca los estratos inclinados, la falla y el dique.\n10. Depósito horizontal del conglomerado aluvial $C$ sobre esa superficie erosiva.\n11. Incisión del cauce actual, que corta todos los materiales y estructuras anteriores.\n\nLa secuencia de precedencia puede resumirse como $B \\to$ erosión basal $\\to A \\to L \\to M \\to$ plegamiento $\\to F \\to D \\to$ erosión angular $\\to C \\to$ incisión actual.\n\n### II) Esfuerzos y etapas de deformación\n\nEl anticlinal se asocia a un esfuerzo compresivo. La falla normal $F$ se asocia a un régimen extensional. Como la falla corta el pliegue y ambos reflejan regímenes distintos, representan al menos dos etapas de deformación: primero la compresiva y después la extensional.\n\n### III) Discontinuidades estratigráficas\n\n- Entre el basamento cristalino y la arenisca sedimentaria $A$: inconformidad o discordancia entre basamento cristalino y cobertura sedimentaria.\n- Bajo el conglomerado $C$: discordancia angular, pues la superficie erosiva trunca materiales inclinados y sobre ella se deposita una unidad horizontal.\n\n### IV) Nivel relativo del mar y ambiente de $C$\n\nLa sucesión $A$ (fluvial), $L$ (marino somero) y $M$ (marino más profundo) indica una tendencia transgresiva, con aumento del nivel relativo del mar. $C$ representa un cambio desde el ambiente marino profundo de $M$ a un ambiente continental aluvial; es compatible con regresión o emersión. La discordancia indica además un intervalo de erosión, por lo que no se puede atribuir necesariamente el cambio solo a una caída eustática del nivel del mar.",
+   "resultado": "Orden: B → erosión basal → A → L → M → plegamiento compresivo → falla normal F → intrusión del dique D → erosión angular → depósito de C → incisión actual. El plegamiento es compresivo y F extensional; hay al menos dos etapas de deformación. Las discontinuidades son una inconformidad basal y una discordancia angular. A-L-M refleja transgresión; C indica retorno a un ambiente continental aluvial.",
+   "criterios": "Puntuación total: 2,0 puntos. I) 1,0 punto: orden correcto de B y erosión basal (0,20); sucesión A-L-M (0,15); plegamiento posterior a la sedimentación (0,15); F posterior al pliegue (0,10); D posterior a F (0,10); erosión posterior a las estructuras que trunca (0,10); C posterior a la erosión y horizontal (0,10); incisión actual como acontecimiento más reciente (0,10). II) 0,5 puntos: compresión asociada al pliegue (0,20); extensión asociada a la falla normal (0,20); reconocimiento de al menos dos etapas (0,10). III) 0,25 puntos: inconformidad basal (0,125) y discordancia angular bajo C (0,125). IV) 0,25 puntos: tendencia transgresiva durante A-L-M (0,125) y cambio de M marino profundo a C aluvial continental (0,125).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.A",
+   "tema": "tectonica",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Una comisión municipal evalúa el riesgo sísmico de dos localidades usando el índice definido para este ejercicio: $R=H\\times E\\times V$, donde H es un índice de peligrosidad entre 0 y 1, E es la población expuesta expresada en miles de habitantes y V es un índice de vulnerabilidad entre 0 y 1. I) Identifique el tipo de límite de placas correspondiente a cada situación: a) dos placas se separan en una dorsal oceánica y se crea litosfera; b) una placa oceánica desciende bajo una continental, con fosa y arco volcánico; c) dos placas se desplazan lateralmente una respecto a la otra y producen terremotos superficiales (1 punto). II) Para la localidad A, H=0,8, E=5 y V=0,4; para la localidad B, H=0,5, E=8 y V=0,5. Calcule R en ambas localidades e indique cuál tiene el índice de riesgo más alto (1 punto).",
+   "solucion": "### I) Tipos de límites de placas\n\n- **a)** Cuando dos placas se separan y se crea litosfera en una dorsal oceánica, el límite es **divergente o constructivo**.\n- **b)** Cuando una placa oceánica desciende bajo una continental, formando una fosa y un arco volcánico, el límite es **convergente o destructivo, con subducción**.\n- **c)** Cuando dos placas se desplazan lateralmente y generan terremotos superficiales, el límite es **transformante o conservativo**.\n\n### II) Cálculo del índice de riesgo\n\nSe aplica $R=H\\times E\\times V$.\n\nPara A:\n$$R_A=0{,}8\\times5\\times0{,}4=1{,}6.$$\n\nPara B:\n$$R_B=0{,}5\\times8\\times0{,}5=2{,}0.$$\n\nComo $2{,}0>1{,}6$, la localidad **B** tiene el índice de riesgo más alto.",
+   "resultado": "Límites: a) divergente; b) convergente con subducción; c) transformante. Riesgo: A = 1,6; B = 2,0. El índice más alto corresponde a B.",
+   "criterios": "Total: 2,0 puntos. I) 1,0 punto: 0,33 por identificar el límite divergente o constructivo; 0,33 por identificar el límite convergente con subducción; 0,34 por identificar el límite transformante o conservativo. II) 1,0 punto: 0,25 por plantear correctamente la expresión para cada localidad; 0,25 por calcular R_A = 1,6; 0,25 por calcular R_B = 2,0; 0,25 por concluir que B presenta el índice más alto. Se aceptan denominaciones equivalentes correctas.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.B",
+   "tema": "tectonica",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Un equipo geológico compara cuatro regiones para reconstruir la evolución de las placas tectónicas. I) Asocie cada región con el proceso tectónico correspondiente: a) valle continental con fallas normales y volcanismo basáltico; b) dorsal oceánica con corteza joven y bandas paleomagnéticas simétricas; c) margen con fosa oceánica, arco volcánico y terremotos de foco profundo; d) cordillera de gran espesor cortical formada por el choque de dos continentes. Use las categorías rifting continental, expansión oceánica, subducción oceánica bajo continente y colisión continental, respectivamente (1 punto). II) Dos placas se aproximan en la misma dirección de cierre a velocidades de 3,2 cm/a y 1,8 cm/a. Suponiendo constantes esas velocidades durante 5 Ma, calcule cuánto se reduce la distancia entre ellas. Exprese el resultado en kilómetros (1 punto).",
+   "solucion": "## I) Asociación de procesos tectónicos\n\n- a) Valle continental con fallas normales y volcanismo basáltico: **rifting continental**.\n- b) Dorsal oceánica con corteza joven y bandas paleomagnéticas simétricas: **expansión oceánica**.\n- c) Margen con fosa oceánica, arco volcánico y terremotos de foco profundo: **subducción oceánica bajo continente**.\n- d) Cordillera de gran espesor cortical formada por el choque de dos continentes: **colisión continental**.\n\n## II) Reducción de la distancia\n\nComo ambas velocidades contribuyen al cierre, la velocidad relativa de aproximación es:\n\n$$v_{rel}=3{,}2+1{,}8=5{,}0\\ \\text{cm/a}.$$\n\nEl tiempo es $5\\ \\text{Ma}=5\\times10^6\\ \\text{a}$. Por tanto:\n\n$$d=v_{rel}t=5{,}0\\times5\\times10^6=25\\times10^6\\ \\text{cm}.$$\n\nDado que $1\\ \\text{km}=10^5\\ \\text{cm}$:\n\n$$d=\\frac{25\\times10^6}{10^5}=250\\ \\text{km}.$$\n\nLa distancia entre las placas se reduce en **250 km**.",
+   "resultado": "a) rifting continental; b) expansión oceánica; c) subducción oceánica bajo continente; d) colisión continental. Reducción de la distancia: 250 km.",
+   "criterios": "Total: 2,0 puntos. I) 1,0 punto: 0,25 por cada asociación correcta. II) 1,0 punto: 0,25 por sumar correctamente las velocidades de cierre; 0,50 por calcular la distancia usando 5 Ma y convertir las unidades; 0,25 por expresar el resultado correctamente en kilómetros.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.A",
+   "tema": "procesos",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Tras una crecida, un equipo de gestión fluvial cartografía tres terrazas que conservan restos de antiguas llanuras de inundación. Sus superficies están a 8 m (T1), 16 m (T2) y 24 m (T3) por encima del cauce actual; se ha comprobado que no han sido retrabajadas después de su formación. I) Ordénelas de más antigua a más reciente e indique qué proceso explica que hayan quedado escalonadas respecto al cauce actual (1 punto). II) En un tramo recto, una estación situada aguas arriba está a 480 m de altitud y otra, 4,0 km aguas abajo, a 420 m. Calcule la pendiente media del tramo en porcentaje, usando $\\text{pendiente}=\\frac{\\text{desnivel}}{\\text{distancia horizontal}}\\times100$ (1 punto).",
+   "solucion": "### I) Orden y proceso\nLas terrazas corresponden a antiguas llanuras de inundación que han quedado por encima del cauce actual. Si no han sido retrabajadas, la terraza situada a mayor altura es la más antigua: el río fue encajándose progresivamente y abandonó sucesivamente las llanuras anteriores.\n\nPor tanto, de más antigua a más reciente:\n\\[\n\\boxed{T3\\ (24\\ \\text{m})\\;\\longrightarrow\\;T2\\ (16\\ \\text{m})\\;\\longrightarrow\\;T1\\ (8\\ \\text{m})}\n\\]\nEl proceso que las escalona es el **encajamiento o incisión vertical del río**, asociado a su rejuvenecimiento; las antiguas llanuras quedan como terrazas cuando el cauce se profundiza.\n\n### II) Pendiente media\nDesnivel entre estaciones:\n\\[\n480-420=60\\ \\text{m}.\n\\]\nPara usar un procedimiento alternativo a la sustitución directa en la fórmula, calculamos primero el desnivel por kilómetro:\n\\[\n\\frac{60\\ \\text{m}}{4{,}0\\ \\text{km}}=15\\ \\text{m/km}.\n\\]\nComo un desnivel de $10\\ \\text{m/km}$ equivale a una pendiente del $1\\%$, resulta:\n\\[\n\\boxed{1{,}5\\%}.\n\\]\n**Comprobación:** aplicando directamente la fórmula, $\\frac{60}{4000}\\times100=1{,}5\\%$, que coincide.",
+   "resultado": "Orden: T3 → T2 → T1 (de más antigua a más reciente), por encajamiento fluvial; pendiente media: 1,5 %.",
+   "criterios": "Total: 2,0 puntos. I) 1,0 punto: 0,5 por ordenar correctamente T3, T2 y T1 de más antigua a más reciente; 0,5 por identificar la incisión o encajamiento fluvial como causa del escalonamiento. II) 1,0 punto: 0,5 por obtener el desnivel de 60 m y emplear la distancia horizontal de 4.000 m (o calcular equivalentemente 15 m/km); 0,5 por expresar correctamente la pendiente como 1,5 %.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "3.B",
+   "tema": "recursos",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Una localidad costera obtiene agua de un acuífero. El balance anual se estima mediante $\\Delta S=R-D_n-B$, donde $\\Delta S$ es el cambio de almacenamiento, R la recarga, $D_n$ la descarga natural necesaria para mantener el ecosistema y B el bombeo. Todas las magnitudes se expresan en hm³/año. Se estiman R=2,4, $D_n=0,9$ y B=1,8. I) Calcule el cambio anual de almacenamiento e indique si las reservas aumentan o disminuyen. Calcule también el bombeo máximo compatible con un almacenamiento estable, manteniendo los otros valores (1 punto). II) La localidad considera tres planes de bombeo: A) 1,4 hm³/año; B) 1,6 hm³/año; C) 2,0 hm³/año. Seleccione el único plan que permite mantener estable el almacenamiento según los datos del problema (1 punto).",
+   "solucion": "### I) Cambio de almacenamiento y bombeo máximo\n\nAplicamos el balance anual:\n\n$\\Delta S=R-D_n-B=2,4-0,9-1,8=-0,3\\ \\text{hm}^3/\\text{año}$.\n\nEl cambio es negativo, por lo que las reservas **disminuyen** en $0,3\\ \\text{hm}^3$ durante el año.\n\nPara que el almacenamiento permanezca estable, debe cumplirse $\\Delta S=0$. Por tanto:\n\n$0=2,4-0,9-B_{\\max}$, de donde $B_{\\max}=1,5\\ \\text{hm}^3/\\text{año}$.\n\n### II) Evaluación de los planes\n\nCalculamos el cambio de almacenamiento para cada bombeo:\n\n- Plan A: $\\Delta S=2,4-0,9-1,4=+0,1\\ \\text{hm}^3/\\text{año}$.\n- Plan B: $\\Delta S=2,4-0,9-1,6=-0,1\\ \\text{hm}^3/\\text{año}$.\n- Plan C: $\\Delta S=2,4-0,9-2,0=-0,5\\ \\text{hm}^3/\\text{año}$.\n\n**Ningún plan mantiene exactamente estable el almacenamiento**, pues para ello el bombeo debe ser $1,5\\ \\text{hm}^3/\\text{año}$ y esa opción no figura entre los planes. El plan A es el único que no provoca una disminución de las reservas, pero produce un aumento de $0,1\\ \\text{hm}^3/\\text{año}$, por lo que no las mantiene estables en sentido estricto. El enunciado presenta, por tanto, una inconsistencia en el apartado II.",
+   "resultado": "ΔS = −0,3 hm³/año (las reservas disminuyen); bombeo máximo estable = 1,5 hm³/año; ningún plan mantiene exactamente estable el almacenamiento.",
+   "criterios": "Total: 2,0 puntos. I) 1,0 punto: 0,25 por plantear y calcular ΔS = R − Dₙ − B; 0,25 por indicar correctamente que las reservas disminuyen; 0,5 por imponer ΔS = 0 y obtener Bmáx = 1,5 hm³/año. II) 1,0 punto: 0,6 por calcular correctamente ΔS para A, B y C; 0,4 por advertir que, literalmente, ninguno mantiene estable el almacenamiento y justificarlo. Dado que A es el único plan que evita la disminución de las reservas, se admitiría A si se interpreta que «estable» se usa como «sin disminución»; la redacción estricta exige almacenamiento constante y no ofrece una opción correcta.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.A",
+   "tema": "minerales",
+   "puntos": 2.0,
+   "tipo": "abierta",
+   "enunciado": "En un laboratorio de materiales para restaurar un edificio histórico se analizan tres muestras minerales. Solo pueden pertenecer a esta lista: calcita, cuarzo y yeso. La muestra X tiene dureza 3, exfoliación romboédrica y efervescencia al añadir ácido clorhídrico diluido. La muestra Y tiene dureza 7, raya el vidrio y presenta fractura concoidea, sin exfoliación. La muestra Z tiene dureza 2, una exfoliación muy marcada y no produce efervescencia con ácido. I) Identifique X, Y y Z a partir de sus propiedades (1 punto). II) En la misma obra se encuentra una roca de grano grueso formada por cristales entrelazados de cuarzo, feldespato y mica. Clasifíquela como ígnea, sedimentaria o metamórfica; indique si es plutónica o volcánica y relacione su textura con la velocidad de enfriamiento del magma (1 punto).",
+   "solucion": "### I) Identificación de las muestras\n\n1. **Muestra X: calcita.** Su dureza es 3, presenta exfoliación romboédrica y reacciona con efervescencia ante HCl diluido, característica del carbonato cálcico.\n2. **Muestra Y: cuarzo.** Su dureza 7 le permite rayar el vidrio; además, presenta fractura concoidea y carece de exfoliación.\n3. **Muestra Z: yeso.** Su dureza 2 y su exfoliación marcada son características del yeso; no produce efervescencia con HCl diluido.\n\n### II) Clasificación de la roca\n\nLa asociación de cuarzo, feldespato y mica en cristales gruesos e interconectados corresponde a una roca ígnea de composición granítica (un granito, típicamente). Es **plutónica**, porque cristalizó en profundidad. El enfriamiento lento del magma permitió que los cristales crecieran durante más tiempo, originando la textura de grano grueso y los cristales visibles e interentrelazados.",
+   "resultado": "X = calcita; Y = cuarzo; Z = yeso. La roca es un granito, ígneo plutónico, formado por enfriamiento lento.",
+   "criterios": "I) Identificación de las tres muestras: 1,0 punto (aproximadamente 0,33 por identificación correcta y su justificación mediante las propiedades indicadas). II) Clasificación de la roca: 1,0 punto: identificación como ígnea de composición granítica, 0,30; carácter plutónico, 0,30; relación entre enfriamiento lento en profundidad y formación de cristales gruesos, 0,40. Se aceptan formulaciones equivalentes científicamente correctas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.B",
+   "tema": "recursos",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Una explotación proyectada para obtener cobre procesará 250 000 toneladas de mena con una ley de cobre del 1,2 %. La planta recupera el 85 % del cobre contenido en la mena. I) Calcule la masa de cobre recuperado, suponiendo que la recuperación se aplica al cobre contenido en la mena (1 punto). II) Los residuos contienen sulfuros, incluida pirita, y podrían generar drenaje ácido si reaccionan con agua y oxígeno. Seleccione la medida que reduce la generación de drenaje ácido en su origen: A) cubrir y aislar los residuos para limitar el contacto con agua y oxígeno; B) triturar más los residuos y dejarlos expuestos al aire; C) conducir el agua ácida sin tratarla hasta un cauce. Indique la opción elegida (1 punto).",
+   "solucion": "### I) Masa de cobre recuperado\n\nLa masa de cobre contenida en la mena es:\n\n$250\\,000\\ \\text{t} \\times 0{,}012 = 3\\,000\\ \\text{t de Cu}$.\n\nAplicando la recuperación del $85\\ \\%$:\n\n$3\\,000\\ \\text{t} \\times 0{,}85 = 2\\,550\\ \\text{t de Cu}$.\n\nPor tanto, se recuperan **2 550 toneladas de cobre**.\n\n### II) Reducción de la generación de drenaje ácido\n\nLa medida adecuada es **A)** cubrir y aislar los residuos para limitar su contacto con el agua y el oxígeno. Así se reducen las condiciones necesarias para la oxidación de los sulfuros y la generación de drenaje ácido.",
+   "resultado": "I) 2 550 t de cobre recuperado; II) opción A.",
+   "criterios": "I) 1 punto: 0,5 puntos por calcular correctamente el cobre contenido en la mena (3 000 t) y 0,5 puntos por aplicar la recuperación del 85 % y obtener 2 550 t. II) 1 punto por seleccionar la opción A, que reduce el contacto de los residuos con agua y oxígeno y, por tanto, la generación de drenaje ácido. En «numeros», la opción A se representa mediante el código 1.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "tectonica",
+   "p": 0.9
+  },
+  {
+   "id": "minerales",
+   "p": 0.9
+  },
+  {
+   "id": "procesos",
+   "p": 0.831
+  },
+  {
+   "id": "recursos",
+   "p": 0.68
+  }
+ ],
+ "referencias": [
+  "https://academico.unizar.es/sites/academico/files/archivos/acceso/accespau/exame/26ord/geolo.pdf",
+  "https://academico.unizar.es/sites/academico/files/archivos/acceso/accespau/exame/26extra/geolo.pdf"
+ ]
+}
