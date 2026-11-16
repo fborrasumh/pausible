@@ -1,0 +1,97 @@
+Batxilergotik Unibertsitatean Sartzeko Ebaluazioa (USEa)
+IKASTURTEA: 2023-2024
+IRAKASGAIA: TEKNOLOGIA ETA INGENIARITZA II
+
+Aurkeztutako zortzi galderetatik lau aukeratu beharko dira. Galdera bakoitzak 2,5 puntu balio du.
+
+   1. Trakzio-saiakuntza bat egin dugu probeta batekin. 400 MPa-etik gorako tentsioen ondorioz,
+      deformazio plastikoak sortzen hasi zaizkio. Probetaren materialaren elastikotasun-modulua honako
+      hau da:
+      10,3 x 104 MPa.
+
+          a. Kalkulatu zenbateko indar maximoa aplikatzen ahal zaion 180 mm2-ko sekzioa duen probeta
+             bati piezan deformazio iraunkorrik eragin gabe.
+          b. Kalkulatu zenbateko luzera maximora tenkatzen ahal den probeta piezan deformazio
+             iraunkorrik eragin gabe. Piezaren hasierako luzera 90 mm da. Saiakuntza honetan,
+             Hookeren legea elastikotasun-mugaraino betetzen da.
+
+   2. Marrazkiko habeari dagokionez, kalkulatu:
+          a. Berme- edo euste-puntuetako erreakzioak.
+          b. Ebakitze-esfortzuaren eta flexio-momentuaren diagrama.
+      L = 4 m; P = 20 kN
+
+
+
+
+   3. Carnoten zikloaren arabera funtzionatzen duen hozkailu batek 800 kJ/h-ko abiaduran hozten du.
+      Barneko tenperatura –12 ºC da, eta giro-tenperatura, aldiz, 22 ºC. Kontuan hartuta makinaren
+      efizientzia (COP) Carnoten efizientzia idealaren % 40 dela, kalkulatu motorraren potentzia, wattetan
+      adierazia.
+
+   4. Eskemako automatismoa prentsa pneumatiko batena da.
+         a. Esan zer diren A, B, C, E eta PM1 elementuak.
+         b. Azaldu automatismoaren funtzionamendua.
+5. Etxebizitza-eraikin bateko korridorean sistema domotiko bat instalatu nahi dugu argi-puntuak noiz piztu
+eta noiz itzali kontrolatzeko. Bi argi-puntu ditugu, eta hiru etengailu, “0” edo “1” posizio logikoan egon
+daitezkeenak. “0” posizio logikoan, argiak itzalita daude. Jendea korridorean zehar zein noranzkotan doan,
+argi-puntuak horren arabera piztea nahi dugu, argi guztiak aldi berean piztuta edo itzalita egon beharrik
+gabe.
+
+Hona hemen A1 eta A2 argi-puntuen funtzionamendu-arauak:
+   • E1-en posizioa aldatzeak A1-en egoera inbertitzen du.
+   • E2-ren posizioa aldatzeak A1-en eta A2-ren egoera inbertitzen du.
+   • E3-ren posizioa aldatzeak A2-ren egoera inbertitzen du.
+   • Bi argiak itzalita daude baldin eta E1 = E2 = E3 = 0 edo E1 = E2 = E3 = 1.
+   • Bi argiak piztuta daude baldin eta E1 = E3 = 1 eta E2 = 0.
+   • Bi argiak piztuta daude baldin eta E1 = E3 = 0 eta E2 = 1.
+
+
+                                          A1                          A2
+
+                                E1                               E2        E3
+
+
+       a) Sortu A1 eta A2 kontrolatzeko funtzioa duen zirkuituaren egia-taula.
+       b) Idatzi Karnaughen metodoaren bidez sinplifikatutako ekuazioak.
+       c) Egin zirkuitua AND eta OR ateak eta inbertsoreak erabiliz.
+
+6. Energia berriztagarrietan oinarritutako mikrosare batek landetxe multzo bat energia elektrikoz hornitzen
+du. Bateria-bankuaren karga eta deskarga kontrolatzen duen zirkuitu elektronikoak, beheko eskeman
+irudikatzen denez, honako hauek ditu:
+tentsio-zatigailu bat, korrontea neurtzeko
+shunt bat eta PT100 motako tenperatura-
+                                                                               POTENTZIA-BIHURGAILU ELEKTRONIKOA
+sentsore bat.
+ a) Zenbatekoa izan behar du 𝐼𝐼
+
+
+
+                                                BATERIA-BANKUA
+     korrontearen balioak V1-V2 potentzial-
+     diferentzia +6 V izateko? Egoera
+     horretan, bateria-bankua zer ari da,
+     kargatzen ala deskargatzen?
+ b) Zenbatekoa izan behar du R11
+     erresistentziaren balioak V3 1 V izateko
+     bankuaren tentsioa 550 V denean?
+ c) Zenbatekoa da V4-V5 tentsioa bateria-
+     bankuaren tenperatura 57 ºC denean?
+ Datuak: PT100 sentsorearen tenperatura-koefizientea: 0,00385 Ω/Ω/ºC, R12 = 10 mΩ;
+ R10 = 100 MΩ; R8 = R13 = 1 kΩ; R14 = 100 Ω; Vcc = 12 V
+
+7. Ondoko zirkuituan, A eta B nodoen potentzial-diferentzia efikaza VAB = 50 V ∠ –68,13°-koa da. Jakinik V
+sorgailuaren maiztasuna 50 Hz-ekoa dela,
+kalkulatu:
+    a) V tentsioa eta I elikatze-korrontea, balio
+        efikazetan.
+    b) Tentsioaren fase-angelua.
+    c) Tentsioaren eta elikatze-korrontearen
+        arteko desfasea.
+
+8. Ur-ponpa baten indukzio-motorrak 10 A-ko korrontea kontsumitzen du 250 V efikazez elikatzen denean.
+    a) Demagun haren potentzia-faktorea 0,75 induktiboa dela. Kalkulatu zenbateko potentzia kontsumitzen
+       duen motorrak.
+    b) Jakinik elektrizitatearen batez besteko kostua 0,18 €/kWh dela, kalkulatu zenbat euro balioko duen
+       urtebetez ponpa etenik gabe funtzionarazteak.
+    c) Kalkulatu zenbatekoa den C kondentsadorea potentzia-faktorea 0,95era zuzentzeko.
+

@@ -1,0 +1,114 @@
+Evaluación del Bachillerato para el Acceso a la Universidad U D a a
+CURSO: 2023-2024 Universidad Pública de Navarra
+
+Nafarroako Unibertsitate Publikoa
+ASIGNATURA: TECNOLOGÍA E INGENIERÍA II
+
+1. La pieza de la figura tiene un limite elástico de 6200 kp/cm? y un módulo de Young Es 2.1x 106
+kp/cm?. Calcular la fuerza máxima a la que se puede someter la pieza y el alargamiento total para un
+coeficiente de seguridad de n=3. Se cumple la ley de Hooke.
+
+DIA 14 mm
+
+A
+
+40 mm
+
+100 mm
+
+Ny
+DIA 8 mni
+40 mm
+
+DIA 16 mm—)
+
+En la viga en voladizo de la figura, calcular:
+
+y Wo
+a. La fuerza de reacción y el momento en el punto de
+, apoyo.
+A B x b, Diagrama de esfuerzo cortante y momento flector.
+L L= 6 m; wo= 8 kN/m
+
+3. Según los datos del fabricante, el motor de un automóvil tiene las siguientes características técnicas:
+o NE de cilindros: 4, Diámetro o calibre del cilindro: 84 mm, Carrera: 86 mm, Relación de
+compresión: 10,4
+Calcular:
+a. La cilindrada unitaria en centímetros cúbicos.
+
+b. La cilindrada total del motor en litros.
+c. El volumen de la cámara de combustión.
+
+d. La potencia del motor, sabiendo que la potencia máxima la suministra a 4500 rpm con un par
+de 164N m.
+
+4. La figura representa el esquema de una guillotina accionada por un cilindro neumático que bascula
+en el eje “a”. La presión de trabajo son 12 bares. El diámetro del émbolo del cilindro es de 50 mm y
+el del vástago 15 mm. Si la carrera que realiza es de 120 mm y el rendimiento del cilindro es del 94%
+y si realiza 15 ciclos al minuto, calcular:
+
+70 cm 30 cm dde
+E e y a La fuerza ejercida por la cuchilla.
+b. El consumo de aire en litros/ minuto en
+condiciones normales. (La presión atmosférica a efectos
+[ de cálculo es 1 bar).
+El a
+e's El
+
+a E
+
+
+5. El sistema de control de una plataforma elevadora tiene las siguientes características:
+
+e dos botones para "SUBIR" o "BAJAR" la carga. Cuando los botones están pulsados producen un
+nivel lógico alto.
+
+e dos sensores de proximidad "LIMITE SUPERIOR" y "LIMITE. INFERIOR", para mantener la
+plataforma dentro de sus límites. Los sensores producen un nivel lógico bajo cuando detectan la
+plataforma.
+
+e un motor eléctrico controlado por dos relés: RL1 y RL2.
+
+o El primero, RL1, conecta el motor a la red eléctrica. Con un nivel lógico alto, deja pasar la
+corriente eléctrica, mientras que con un nivel lógico bajo aísla el motor de la red.
+
+o El segundo relé, RL2, selecciona el sentido de giro del motor. Con un nivel lógico alto, la
+plataforma sube, mientras que con un nivel bajo la plataforma desciende.
+
+e Un panel con el mensaje ERROR iluminado por LEDs, que se enciende con un nivel lógico alto.
+
+Si se detecta la presencia de la plataforma simultáneamente en ambos límites, o si se pulsan ambos botones
+a la vez, el sistema debe apagar el motor y encender el panel "ERROR".
+
+a) Elaborar las tablas de verdad de las funciones lógicas de control de RL1, RL2 y ERROR, y
+simplificar las funciones. Cuando la salida de una función lógica no sea relevante, se indicará como
+"X". A la hora de simplificar la función, elegir el estado (0 ó 1) que más convenga
+
+b) Implementar el circuito lógico con el menor número de puertas AND de dos entradas e inversores.
+
+6. Dadas siguientes las ecuaciones lógicas: y = abc + ab + abc, z = abc + b + cb + ba, se pide:
+a) Tabla de verdad
+b) Mapa de Karnaugh y función simplificada como producto de sumas
+c) Circuito lógico simplificado usando puertas AND, OR y NOT
+
+7. Dada la red eléctrica mostrada en la siguiente figura, calcular el valor que deberá tener la impedancia Z2
+para que la corriente de alimentación sean J = 20 A 4 252 cuando la tensión de alimentación es V =
+100 V2460:.
+
+! 25 Q
+
+La RI
+
+8. El circuito de la figura está alimentado con una fuente de tensión V de 50 Hz. La corriente | que entra al
+circuito son 2 440 2 eficaces.
+a) Determinar la tensión de alimentación NO
+b) Calcular el factor de potencia.
+c) Para corregir el factor de potencia, se añade en paralelo con la fuente V un condensador C de 1
+mF. Calcular el nuevo factor de potencia. Discutir si está bien dimensionado el condensador C.
+
+10 Q 40 mH ¡y
+> CRI} CON
+C4
+
+10 uF
+

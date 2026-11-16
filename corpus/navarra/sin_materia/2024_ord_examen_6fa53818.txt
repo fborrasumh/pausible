@@ -1,0 +1,116 @@
+Batxilergotik Unibertsitatean Sartzeko Ebaluazioa (USEa) U D A el
+IRASTURTEA: 2023-2024 Universidad Pública de Navarra
+
+Nafarroako Unibertsitate Publikoa
+IRAKASGAIA: TEKNOLOGIA ETA INGENIARITZA II
+
+1. Marrazkiko piezak 6.200 kp/cm?-ko elastikotasun-muga du, eta E = 2,1 x 105 kp/cm?-ko Young-en
+modulua. Kalkulatu zenbateko indar maximoa aplikatzen ahal zaion piezari, eta zenbatekoa den
+luzapen totala segurtasun-koefizientea n = 3 bada. Hookeren legea betetzen da.
+
+DIA 14 mm
+
+100 mm
+
+DIA 8 mn
+
+DIA 16 mm
+
+2. Marrazkiko hegal-habeari dagokionez, kalkulatu:
+
+y Wo
+a. Erreakzio-indarra eta momentua berme- edo euste-
+puntuan.
+A B xX b. Ebakitze-esfortzuaren eta flexio-momentuaren
+diagrama.
+L L=6m; Wo = 8 kN/m
+
+3. Fabrikatzailearen datuen arabera, automobil baten motorrak honako ezaugarri tekniko hauek ditu:
+o Zilindro kopurua: 4. Zilindroaren diametroa edo kalibrea: 84 mm. Ibiltartea: 86 mm. Konpresio-
+erlazioa: 10,4.
+Kalkulatu:
+a. Zilindro-bolumen unitarioa, zentimetro kubikotan.
+
+b. Motorraren zilindro-bolumen totala, litrotan.
+c. Errekuntza-ganberaren bolumena.
+
+d. Motorraren potentzia, jakinik potentzia maximoa minutuko 4.500 birarekin lortzen dela,
+164 N-m-ko parearekin.
+
+4. Eskeman gillotina bat dago irudikatua, “a” ardatzean kulunkatzen den zilindro pneumatiko batek
+erorarazten dera, Lanaren presioa 12 bearrekoa da. Zilindroaren enboloaren edo pistoiaren
+diametroa 50 mm-koa da, eta zurtoinarena, 15 mm-koa. Baldin eta ibiltartea 120 mm-koa bada eta
+zilindroaren errendimendua % 94koa bada, eta minutuan 15 ziklo egiten baditu, kalkulatu:
+
+70 cm 30 cm . .
+Pa de vy a. Xaflak egiten duen indarra.
+b. Aire-kontsumoa baldintza arruntetan, zenbat litro
+minutuko  (kalkulua egiteko, presio atmosferikoa
+1 barrekoa da).
+I O
+Ely a
+E e
+
+Ea E
+
+
+5. Plataforma altxagarri baten kontrol-sistemak ezaugarri hauek ditu:
+
+e Bi botoi, karga "IGO" eta "JAITSI" ahal izateko. Botoiak sakaturik daudenean, maila logiko altua
+eragiten dute.
+
+e Bi hurbiltasun-sentsore, “GOIKO_MUGA” eta “BEHEKO_MUGA” kontrolatzen dituztenak,
+plataforma mugen barnean mantentzeko. Sentsoreek maila logiko baxua eragiten dute plataforma
+detektatzen dutenean.
+
+e Motor elektriko bat, bi errelek kontrolatua: RL1 eta RL2.
+
+o Lehenbizikoak, RL1 izenekoak, sare elektrikora konektatzen du motorra. Maila logikoa altua
+bada, pasatzen uzten dio korronte elektrikoari; maila logikoa baxua bada, aldiz, motorra
+saretik isolatzen du.
+
+o Bigarren erreleak, RL2 izenekoak, motorrak zein noranzkotan eginen duen bira hautatzen du.
+Maila logikoa altua bada, plataforma igo egiten da; maila logikoa baxua bada, aldiz, jaitsi.
+
+e “ERROREA” mezua duen panel bat, LED argiz osatua, maila logiko altuarekin pizten dena.
+
+Baldin eta plataforma aldi berean bi mugetan dagoela detektatzen bada, edo bi botoiak aldi berean sakatzen
+badira, sistemak motorra itzali eta “ERROREA” panela piztu behar du.
+
+a) Egin RL1, RL2 eta “ERROREA” panela kontrolatzeko funtzio logikoen egia-taulak eta sinplifikatu
+funtzioak. Funtzio logiko baten irteera ez denean adierazgarria, "X" jarri behar da. Funtzioa
+sinplifikatzerakoan, aukeratu gehien komeni den posizioa (O edo 1).
+
+b) Inplementatu zirkuitu logikoa ahalik eta bi sarrerako AND ate gutxien eta inbertsore gutxien erabiliz.
+
+6. Honako ekuazio logiko hauek ditugu: y = abc + ab + abc, z = abc + b + cb + ba. Egin honako hauek:
+a) Egia-taula.
+b) Karnaughen mapa eta batuketen biderketaren bidezko funtzio sinplifikatua.
+c) Zirkuitu logiko sinplifikatua, AND, OR eta NOT ateak erabiliz.
+
+7. Beheko eskeman irudikatutako sare elektrikorako, kalkulatu zenbateko balioa izan beharko duen Z2
+inpedantziak elikatze-korrontea I = 20 A 4 252 izan dadin elikatze-tentsioa V = 100 VZ60” denean.
+
+| 25 Q
+
+R]
+LI
+
+I
+
+8. Eskemako zirkuitua 50 Hz-eko V tentsio-iturri baten bidez elikatzen da. Zirkuituan sartzen den | korrontea
+2 A402 efikazekoa da.
+a) Zehaztu VZg tentsioa.
+b) Kalkulatu potentzia-faktorea.
+c) Potentzia-faktorea zuzentzeko, 1 mF-eho C kondentsadore bat gehitu diogu V iturriarekiko
+paraleloan. Kalkulatu potentzia-faktore berria. Argudiatu C kondentsadorea ongi dimentsionatua ote
+
+dagoen.
+| 10 Q 40 mH L1
+> [Ri | COCA
+ci
+
+Or —
+
+10 uF
+

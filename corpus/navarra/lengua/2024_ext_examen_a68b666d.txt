@@ -1,0 +1,91 @@
+Evaluación del Bachillerato para el Acceso a la Universidad
+CURSO: 2023-2024
+ASIGNATURA: TECNOLOGÍA E INGENIERÍA II
+
+Se deberá elegir cuatro preguntas de entre las ocho presentadas. Todas las preguntas valen 2,5 puntos.
+
+   1. Se somete una probeta a un ensayo de tracción. Comienza a tener deformaciones plásticas para
+      tensiones superiores a 400 MPa. El módulo de elasticidad del material de la probeta es de:
+      10,3x104 MPa.
+
+           a. Calcular la fuerza máxima a la que se puede someter a una probeta de 180 mm2 de sección
+              sin que existan deformaciones permanentes.
+           b. Calcular la longitud máxima a la que puede ser estirada sin que se produzcan
+              deformaciones permanentes. Longitud inicial de la pieza 90 mm. En este ensayo se cumple
+              la ley de Hooke hasta el límite elástico.
+
+   2. En la viga de la figura, calcular:
+          a. Las reacciones en los apoyos
+          b. El diagrama de esfuerzo cortante y momento flector.
+      L = 4 m. P= 20 kN
+
+
+
+
+   3. Una máquina frigorífica que funciona según el ciclo de Carnot enfría a una velocidad de 800 kJ/h. La
+      temperatura del interior es de –12 ºC y la temperatura ambiente es de 22 ºC. Calcular la potencia
+      del motor expresada en vatios si la eficiencia o COP de la máquina es del 40 % de la ideal de Carnot.
+
+   4. El automatismo de la figura corresponde a una prensa neumática.
+          a. Identificar adecuadamente los elementos A, B, C, E y PM1
+          b. Explicar el funcionamiento del automatismo.
+5. En un pasillo de un edificio de viviendas se desea instalar un sistema domótico para controlar el encendido
+de los puntos de luz. Se dispone de dos puntos de luz y tres interruptores, que pueden estar en las posiciones
+lógicas “0” o “1”. Las luces están apagadas en el estado lógico “0”. Se desea que el encendido de los puntos
+de luz se pueda realizar de acuerdo a la dirección del tránsito por el pasillo, sin necesidad de mantener todas
+las luces encendidas simultáneamente o de tener todas apagadas.
+
+Las reglas de actuación para los puntos de luz L1 y L2 son las siguientes:
+   • Un cambio en la posición de I1 invierte el estado de L1
+   • Un cambio en la posición de I2 invierte el estado de L1 y L2
+   • Un cambio en la posición de I3 invierte el estado de L2
+   • Las dos luces están apagadas si I1=I2=I3 =0 ó si I1=I2=I3 =1
+   • Las dos luces están encendidas si I1=I3 =1 y I2=0
+   • Las dos luces están encendidas si I1=I3 =0 y I2=1
+
+
+                                         L1              L2
+
+                               I1                 I2                 I3
+
+
+       a) La tabla de verdad del circuito que realiza la función de control de L1 y L2
+       b) Ecuaciones simplificadas por el método de Karnaugh
+       c) Realizar el circuito empleando puertas AND, OR e inversores
+
+ 6. Una microrred basada en energías renovables suministra energía eléctrica a un conjunto de casas
+ rurales. El circuito electrónico que supervisa la carga y descarga del banco de baterías cuenta con un
+ divisor de tensión, un shunt para medir la corriente y un sensor de temperatura de tipo PT100, como se
+ muestra en el siguiente esquema:
+
+a) Valor de la corriente 𝐼𝐼 necesaria para
+   que la diferencia de potencial V1-V2
+   sean +6 V. En esa situación, ¿el banco
+   de baterías se está cargando o
+   descargando?
+b) Valor de la resistencia R11 para que V3
+   sea 1 V cuando la tensión del banco
+   sean 550 V.
+c) Tensión V4-V5 cuando la temperatura
+   del banco de baterías son 57 ºC.
+Datos: coeficiente de temperatura de la
+PT100: 0.00385 Ω/Ω/ºC, R12 = 10 mΩ,
+R10 = 100 MΩ, R8 = R13 = 1 kΩ, R14 = 100 Ω, Vcc= 12 V
+
+7. En el siguiente circuito, la diferencia de potencial entre los nodos A y B son VAB=50 V∠-68.13° eficaces.
+Sabiendo que la frecuencia del generador V son
+50 Hz, determine:
+    a) La tensión V y la corriente I de
+       alimentación en valores eficaces.
+    b) El ángulo de fase de la tensión
+    c) El desfase entre la tensión y la corriente
+       de alimentación
+
+
+8. El motor de inducción de una bomba de agua consume una corriente de 10 A cuando se alimenta a 250
+V eficaces.
+    a) Suponiendo que su factor de potencia es 0.75 inductivo, calcular la potencia consumida por el motor.
+    b) Sabiendo que el coste promedio de la electricidad son 0,18 €/kWh, calcular el coste en euros de
+       mantener la bomba funcionando de manera continua durante un año.
+    c) Calcular el condensador C para corregir el factor de potencia a 0.95.
+
