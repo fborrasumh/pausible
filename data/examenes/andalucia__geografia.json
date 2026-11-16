@@ -1,0 +1,117 @@
+{
+ "ccaa": "andalucia",
+ "materia": "geografia",
+ "titulo": "PAU 2027 Andalucía — Geografía (modelo original de práctica)",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro bloques y la puntuación máxima es de 10 puntos. Bloques 1 y 2: obligatorios, hasta 2,5 puntos cada uno. Bloque 3: responda solo a uno de los ejercicios 3.1 o 3.2, hasta 2,5 puntos. Bloque 4: responda solo a uno de los ejercicios 4.1 o 4.2, hasta 2,5 puntos. Identifique claramente cada bloque, ejercicio y apartado. Los datos indicados como hipotéticos se han elaborado exclusivamente para este examen.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "poblacion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un ayuntamiento prepara un diagnóstico demográfico para planificar sus servicios. En el municipio residen 24.000 personas: 3.600 tienen menos de 16 años, 14.400 tienen entre 16 y 64 años y 6.000 tienen 65 años o más. Durante el último año se registraron 240 nacimientos y 360 defunciones. a) Calcule el porcentaje de población menor de 16 años y el de población de 65 años o más. Para cada grupo, use $\\frac{\\text{población del grupo}}{\\text{población total}}\\times 100$ (hasta 0,75 puntos). b) Calcule el saldo vegetativo y la tasa de crecimiento natural por cada mil habitantes. Use $N-D$ para el saldo y $\\frac{N-D}{P}\\times 1.000$ para la tasa, donde $N$ son los nacimientos, $D$ las defunciones y $P$ la población total (hasta 0,75 puntos). c) Identifique las dos tendencias demográficas que muestran los datos y explique una consecuencia de ellas para la planificación de los servicios municipales (hasta 1 punto).",
+   "solucion": "### a) Porcentajes por grupos de edad\n\nSe aplica, para cada grupo, la fórmula indicada:\n\n- **Menores de 16 años:** $\\frac{3.600}{24.000}\\times 100=15\\%$.\n- **Población de 65 años o más:** $\\frac{6.000}{24.000}\\times 100=25\\%$.\n\n### b) Saldo vegetativo y tasa de crecimiento natural\n\n- **Saldo vegetativo:** $N-D=240-360=-120$ personas. El saldo es negativo: hubo 120 defunciones más que nacimientos.\n- **Tasa de crecimiento natural:** $\\frac{N-D}{P}\\times 1.000=\\frac{-120}{24.000}\\times 1.000=-5\\text{‰}$, es decir, −5 personas por cada mil habitantes en el año.\n\n### c) Tendencias demográficas y consecuencia\n\nLos datos muestran **envejecimiento de la población**, pues el grupo de 65 años o más (25 %) supera al de menores de 16 años (15 %), y **crecimiento natural negativo**, ya que las defunciones superan a los nacimientos. Una consecuencia para la planificación municipal es prever más recursos para la atención sanitaria, la dependencia y los servicios sociales dirigidos a las personas mayores. También puede disminuir la demanda de servicios escolares. Con estos datos de un solo año no se puede establecer si los nacimientos están aumentando o disminuyendo a lo largo del tiempo.",
+   "resultado": "Menores de 16 años: 15 %; 65 años o más: 25 %; saldo vegetativo: −120 personas; tasa de crecimiento natural: −5 ‰; envejecimiento y crecimiento natural negativo.",
+   "criterios": "Total: 2,5 puntos. a) Hasta 0,75 puntos: 0,375 por calcular correctamente el porcentaje de menores de 16 años y 0,375 por el de población de 65 años o más, con fórmula y resultado. b) Hasta 0,75 puntos: 0,375 por el saldo vegetativo (−120 personas) y 0,375 por la tasa (−5 ‰), con operaciones y unidades adecuadas. c) Hasta 1 punto: 0,25 por identificar el envejecimiento, 0,25 por identificar el crecimiento natural negativo y 0,5 por explicar una consecuencia pertinente para la planificación municipal.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "territorio",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Una oficina de planificación compara cinco comunidades autónomas mediante un índice didáctico e hipotético de PIB por habitante, con la media de la Unión Europea fijada en 100. Los valores son: Andalucía, 68; Extremadura, 72; Castilla-La Mancha, 82; Galicia, 91; Comunidad de Madrid, 125. Para este ejercicio, se considera región menos desarrollada aquella cuyo índice es inferior al 75 % de la media de la UE. a) Indique el valor que marca el umbral y qué comunidades de la tabla quedan por debajo (hasta 0,75 puntos). b) Calcule la diferencia, en puntos del índice, entre las comunidades con el valor más alto y más bajo, utilizando $I_{\\text{máximo}}-I_{\\text{mínimo}}$ (hasta 0,5 puntos). c) Explique el objetivo de la política de cohesión de la Unión Europea y nombre el Fondo Europeo de Desarrollo Regional (FEDER) como instrumento de financiación de inversiones regionales, indicando un tipo de actuación que puede apoyar (hasta 1,25 puntos).",
+   "solucion": "### a) Umbral y comunidades por debajo\nLa media de la UE se fija en $100$. El umbral del $75\\%$ es $0{,}75 \\times 100 = 75$ puntos del índice. Como la condición es estrictamente inferior a $75$, quedan por debajo Andalucía ($68$) y Extremadura ($72$). Castilla-La Mancha ($82$), Galicia ($91$) y la Comunidad de Madrid ($125$) no quedan por debajo.\n\n### b) Diferencia entre el valor máximo y el mínimo\nEl valor máximo es el de la Comunidad de Madrid ($125$) y el mínimo, el de Andalucía ($68$). Como comprobación por un método alternativo, respecto a la media de $100$, Madrid está $25$ puntos por encima y Andalucía $32$ por debajo; por tanto, la distancia entre ambas es $25 + 32 = 57$ puntos. Se verifica con la operación solicitada: $I_{\\text{máximo}} - I_{\\text{mínimo}} = 125 - 68 = 57$ puntos.\n\n### c) Política de cohesión y FEDER\nLa política de cohesión de la Unión Europea busca reducir las desigualdades económicas, sociales y territoriales entre regiones y favorecer un desarrollo más equilibrado. El Fondo Europeo de Desarrollo Regional (FEDER) financia inversiones regionales para contribuir a esos objetivos; por ejemplo, puede apoyar proyectos de innovación e investigación, infraestructuras, eficiencia energética o desarrollo de pequeñas y medianas empresas.",
+   "resultado": "Umbral: 75 puntos; por debajo: Andalucía y Extremadura; diferencia entre máximo y mínimo: 57 puntos; la política de cohesión reduce las disparidades regionales y el FEDER financia inversiones como proyectos de innovación.",
+   "criterios": "Total: 2,5 puntos. a) 0,75 puntos: 0,25 por calcular el umbral de 75 y 0,5 por identificar Andalucía y Extremadura aplicando el criterio estricto de inferioridad. b) 0,5 puntos: 0,25 por seleccionar los valores máximo (125) y mínimo (68), y 0,25 por la resta y el resultado de 57 puntos. c) 1,25 puntos: hasta 0,75 por explicar que la política de cohesión busca reducir disparidades y promover un desarrollo regional equilibrado; 0,25 por nombrar correctamente el FEDER; y 0,25 por indicar una actuación regional financiable pertinente.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.1",
+   "tema": "clima",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un consorcio municipal estudia el balance hídrico anual de una subcuenca para preparar su plan frente a la escasez de agua. La aportación renovable media es de 80 hm³ al año. La demanda anual total es de 100 hm³: 40 hm³ para abastecimiento urbano, 50 hm³ para regadío y 10 hm³ para la industria. En la zona, el 75 % de las precipitaciones se concentra entre octubre y marzo y el 25 % entre abril y septiembre. a) Calcule el balance anual entre aportación renovable y demanda, empleando $S-D$, y el porcentaje de reducción que debería aplicarse a la demanda total para ajustarla a la aportación, empleando $\\frac{D-S}{D}\\times 100$ (hasta 0,75 puntos). b) Si todo el ajuste recayera en el regadío, calcule qué porcentaje de su demanda debería reducirse, empleando $\\frac{D-S}{D_{\\text{regadío}}}\\times 100$ (hasta 0,5 puntos). En estas expresiones, $S$ es la aportación renovable y $D$ la demanda total. c) Explique cómo la concentración estacional de las precipitaciones y la sequía estival propia del clima mediterráneo pueden agravar la escasez, y proponga dos medidas de gestión de la demanda (hasta 1,25 puntos).",
+   "solucion": "### a) Balance anual y reducción de la demanda\nLa aportación renovable es $S=80$ hm³/año y la demanda total es $D=100$ hm³/año. El balance, calculado como $S-D$, es:\n\n$S-D=80-100=-20$ hm³/año.\n\nEl resultado negativo indica un déficit anual de 20 hm³. La reducción necesaria de la demanda para ajustarla a la aportación es:\n\n$\\frac{D-S}{D}\\times 100=\\frac{100-80}{100}\\times 100=20\\%$.\n\n### b) Ajuste aplicado únicamente al regadío\nLa demanda de regadío es de 50 hm³/año. Si todo el déficit se cubriera reduciendo este uso, la reducción porcentual sería:\n\n$\\frac{D-S}{D_{\\text{regadío}}}\\times 100=\\frac{100-80}{50}\\times 100=40\\%$.\n\n### c) Estacionalidad y medidas de gestión\nEl 75 % de las precipitaciones se concentra entre octubre y marzo, mientras que entre abril y septiembre solo se registra el 25 %. Esta distribución agrava la escasez porque el semestre cálido y seco coincide con una mayor evapotranspiración y, especialmente, con una elevada demanda de agua para el riego. Por ello, puede haber menos lluvia, menor humedad del suelo y menores aportaciones a ríos y acuíferos justo cuando aumenta la necesidad de agua. La concentración de la lluvia en unos meses también exige capacidad de almacenamiento y una gestión que permita disponer de parte de esos recursos durante el verano.\n\nDos medidas de gestión de la demanda son:\n1. Mejorar la eficiencia del regadío mediante sistemas de riego localizado, control de fugas y programación del riego según las necesidades de los cultivos y la humedad del suelo.\n2. Adaptar la actividad agrícola a la disponibilidad hídrica, por ejemplo, sustituyendo cultivos muy consumidores por variedades o cultivos menos exigentes y ajustando las superficies regadas.",
+   "resultado": "Déficit anual: 20 hm³; reducción de la demanda total: 20 %; reducción del regadío si asume todo el ajuste: 40 %.",
+   "criterios": "Puntuación total: 2,5 puntos. a) Hasta 0,75: 0,35 por plantear y calcular correctamente S−D=−20 hm³/año; 0,40 por aplicar (D−S)/D×100 y obtener una reducción del 20 %. b) Hasta 0,5: aplicar el déficit de 20 hm³ a la demanda de regadío de 50 hm³ y obtener el 40 %. c) Hasta 1,25: hasta 0,65 por explicar la concentración de las precipitaciones, la sequía estival y su coincidencia con una demanda elevada, especialmente de riego; hasta 0,30 por cada una de dos medidas concretas de gestión de la demanda. Se aceptarán medidas equivalentes bien explicadas. Se valorarán el procedimiento, las unidades y la claridad.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.2",
+   "tema": "sectores",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una comarca costera estudia la estructura del empleo para diseñar un plan de diversificación económica. De sus 20.000 personas ocupadas, 1.000 trabajan en agricultura y pesca, 3.000 en industria, 2.000 en construcción y 14.000 en servicios. El empleo terciario está muy vinculado a actividades turísticas de marcada estacionalidad. a) Calcule qué porcentaje del empleo corresponde a los sectores primario, secundario y terciario. Considere conjuntamente industria y construcción para el sector secundario y use, para cada sector, $\\frac{\\text{personas ocupadas en el sector}}{20.000}\\times 100$ (hasta 1 punto). b) Identifique el sector predominante y cuantifique su peso porcentual (hasta 0,5 puntos). c) Explique un efecto que la estacionalidad turística puede tener sobre el empleo comarcal y proponga una medida concreta de diversificación económica (hasta 1 punto).",
+   "solucion": "### a) Porcentaje de empleo por sectores\n\n- **Sector primario** (agricultura y pesca):\n  $$\\frac{1.000}{20.000}\\times 100=5\\%$$\n- **Sector secundario** (industria y construcción): primero se suman ambos subsectores, $3.000+2.000=5.000$ personas; por tanto:\n  $$\\frac{5.000}{20.000}\\times 100=25\\%$$\n- **Sector terciario** (servicios):\n  $$\\frac{14.000}{20.000}\\times 100=70\\%$$\n\nLos porcentajes suman $5+25+70=100\\%$, como corresponde al total del empleo.\n\n### b) Sector predominante\n\nPredomina el **sector terciario**, que concentra el **70 %** de las personas ocupadas.\n\n### c) Estacionalidad y diversificación\n\nLa estacionalidad turística puede provocar que se concentre la contratación durante la temporada alta y que aumenten el desempleo y la inestabilidad laboral durante la temporada baja. Una medida concreta sería apoyar la creación y modernización de empresas de transformación agroalimentaria y pesquera local, mediante ayudas a la inversión y formación profesional, para generar empleo menos dependiente de la temporada turística.",
+   "resultado": "Primario: 5 %; secundario: 25 %; terciario: 70 %; predomina el terciario, con un 70 %.",
+   "criterios": "a) 1 punto: 0,3 por calcular correctamente el porcentaje del sector primario; 0,4 por sumar industria y construcción y calcular el porcentaje secundario; 0,3 por calcular el porcentaje terciario. b) 0,5 puntos: 0,2 por identificar el sector terciario como predominante y 0,3 por indicar que representa el 70 %. c) 1 punto: 0,5 por explicar un efecto plausible de la estacionalidad turística sobre el empleo comarcal y 0,5 por proponer una medida concreta y coherente de diversificación. Se admiten formulaciones equivalentes; los errores de cálculo o la ausencia de explicación pueden reducir la puntuación del apartado correspondiente.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.1",
+   "tema": "urbano",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Identifique el término geográfico definido en cada apartado. Cada respuesta correcta vale 0,5 puntos. a) Expansión urbana de baja densidad hacia la periferia, a menudo dispersa y dependiente del transporte motorizado. b) Área urbanizada continua que resulta de la unión física de dos o más ciudades que antes estaban separadas. c) Ensanche planificado construido para ampliar una ciudad fuera de su núcleo histórico, generalmente con trazado regular. d) Proceso por el que la llegada de población con mayor poder adquisitivo a un barrio eleva los precios y desplaza a parte de sus residentes anteriores. e) Área central de la ciudad donde se concentran actividades financieras, comerciales y administrativas.",
+   "solucion": "### Identificación de los términos\n1. **a) Urbanización difusa** (también llamada expansión urbana dispersa o *urban sprawl*): expansión de baja densidad hacia la periferia, habitualmente dependiente del automóvil.\n2. **b) Conurbación**: unión física de áreas urbanas de ciudades que antes estaban separadas.\n3. **c) Ensanche**: ampliación planificada de la ciudad más allá del núcleo histórico, normalmente con trazado regular.\n4. **d) Gentrificación**: transformación de un barrio por la llegada de residentes con mayor poder adquisitivo, que eleva los precios y puede desplazar a la población anterior.\n5. **e) Distrito Central de Negocios (CBD o DCN)**: sector central donde se concentran actividades financieras, comerciales y administrativas.",
+   "resultado": "a) Urbanización difusa; b) Conurbación; c) Ensanche; d) Gentrificación; e) Distrito Central de Negocios (CBD/DCN).",
+   "criterios": "0,5 puntos por cada término correctamente identificado, hasta un máximo de 2,5 puntos. Se aceptan denominaciones equivalentes: urbanización dispersa o *urban sprawl*; CBD, DCN o distrito central de negocios. No se asigna puntuación parcial por respuestas imprecisas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.2",
+   "tema": "relieve",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Identifique el término geográfico definido en cada apartado. Cada respuesta correcta vale 0,5 puntos. a) Superficie extensa, llana o suavemente ondulada, formada sobre materiales antiguos y resistentes de un macizo erosionado. b) Depresión de origen tectónico rellenada por sedimentos, que suelen disponerse en estratos horizontales o suavemente inclinados. c) Superficie elevada y relativamente plana, desarrollada sobre estratos horizontales resistentes y limitada por laderas pronunciadas. d) Relieve asimétrico producido por estratos suavemente inclinados de distinta resistencia, con una ladera tendida y otra más abrupta. e) Relieve de crestas paralelas y valles alargados, originado por la erosión diferencial de antiguas estructuras plegadas con alternancia de materiales resistentes y blandos.",
+   "solucion": "### Identificación paso a paso\n\nComo se trata de reconocer formas del relieve, no hay un método de cálculo alternativo aplicable. Se puede resolver mediante una clave de rasgos: materiales y origen, disposición de los estratos y forma del relieve.\n\n**a) Penillanura.** Es una superficie de erosión extensa, prácticamente llana o suavemente ondulada, desarrollada sobre materiales antiguos de un macizo erosionado.\n\n**b) Cuenca sedimentaria.** Es una depresión tectónica que se ha rellenado de sedimentos, generalmente dispuestos en estratos horizontales o poco inclinados.\n\n**c) Páramo.** Es una superficie elevada y relativamente llana, formada sobre estratos horizontales resistentes y delimitada por laderas pronunciadas.\n\n**d) Cuesta.** Es un relieve estructural asimétrico generado por estratos suavemente inclinados de distinta resistencia: presenta una ladera tendida y otra más abrupta.\n\n**e) Relieve apalachense.** Está formado por crestas paralelas y valles alargados, resultado de la erosión diferencial de estructuras plegadas con alternancia de materiales resistentes y blandos.\n\n### Comprobación\n\nLas cinco definiciones corresponden, en orden, a formas de erosión sobre macizos antiguos, una depresión sedimentaria, un relieve tabular, un relieve monoclinal asimétrico y un relieve derivado de estructuras plegadas. Los términos identificados concuerdan con esos rasgos.",
+   "resultado": "a) Penillanura; b) cuenca sedimentaria; c) páramo; d) cuesta; e) relieve apalachense.",
+   "criterios": "0,5 puntos por cada término correctamente identificado, en el orden de los apartados: a) penillanura; b) cuenca sedimentaria; c) páramo; d) cuesta; e) relieve apalachense. Total: 2,5 puntos. No se requieren explicaciones adicionales para obtener la puntuación completa.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "clima",
+   "p": 0.9
+  },
+  {
+   "id": "poblacion",
+   "p": 0.729
+  },
+  {
+   "id": "urbano",
+   "p": 0.557
+  },
+  {
+   "id": "territorio",
+   "p": 0.557
+  },
+  {
+   "id": "relieve",
+   "p": 0.343
+  },
+  {
+   "id": "sectores",
+   "p": 0.343
+  }
+ ],
+ "referencias": [
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_geografia.zip#Geografia/Ordinaria_Titular/Examen Titular Geografía.pdf",
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_geografia.zip#Geografia/Extraordinaria_Incidencias/Examen Suplente 2 Geografía_Ex.pdf",
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_geografia.zip#Geografia/Extraordinaria_Incidencias/Examen Suplente 2 Geografía_Ex.pdf",
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_geografia.zip#Geografia/Extraordinaria_Titular/Examen Titular Geografia_Ex.pdf",
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_geografia.zip#Geografia/Ordinaria_Titular/Examen Titular Geografía.pdf"
+ ]
+}
