@@ -1,0 +1,189 @@
+                                                                                               Pàgina 1 de 4
+                                                                                   Tecnologia i Enginyeria
+                                                   Proves d’accés a la universitat 2025. Criteri d’avaluació
+
+
+SÈRIE 0
+
+
+Exercici 1
+Q1 c           Q2 b            Q3 d           Q4 a
+
+Q5 b           Q6 d            Q7 d           Q8 a
+
+En aquest exercici no es demana el desenvolupament. Només s’avalua si la resposta final és correcta
+o no, i això es fa amb els resultats que s’hagin indicat a la taula del final de l’exercici. Si la taula no
+s’omple, l’exercici no es corregirà. En cas de contestar més de cinc qüestions, només es corregiran
+les cinc primeres.
+Qüestió ben contestada:        0,50 punts
+Qüestió mal contestada:        –0,16 punts
+Qüestió no contestada:         0 punts
+
+
+Exercici 2
+Es demana arribar de manera justificada a l’esquema de portes lògiques que representi l’enunciat. Hi
+ha múltiples camins per aconseguir-ho i cal valorar el raonament exposat per l’estudiantat. Es pot
+obtenir la puntuació màxima sense seguir els passos recomanats, sempre que es justifiqui com s’ha
+obtingut la funció lògica que representa l’enunciat. Si se segueixen els passos indicats, el criteri de
+correcció que s’aplicarà és:
+
+  h      c      t     e    a
+  0      0      0     0    0
+  0      0      0     1    0
+  0      0      1     0    0
+  0      0      1     1    1
+  0      1      0     0    0
+  0      1      0     1    1
+  0      1      1     0    1
+  0      1      1     1    1
+  1      0      0     0    0
+  1      0      0     1    1
+  1      0      1     0    1
+  1      0      1     1    1
+  1      1      0     0    1
+                                Taula correcta:                              1 punt
+  1      1      0     1    1    Un error en els valors de a:                 0,75 punts
+  1      1      1     0    1    Dos o tres errors en els valors de a:        0,50 punts
+                                Més de tres errors en els valors de a:       0 punts
+  1      1      1     1    1
+                                                                                                          Pàgina 2 de 4
+                                                                                              Tecnologia i Enginyeria
+                                                              Proves d’accés a la universitat 2025. Criteri d’avaluació
+
+El pas següent és obtenir una funció lògica que sigui fàcil de representar amb portes lògiques. Aquesta
+solució no és única i, per tant, cal comprovar l’equació proposada per l’estudiantat. Si la funció
+proposada ja és la simplificada, s’atorga 1 punt. Si no, es puntuen 0,50 punts per la funció extreta de
+la taula i 0,50 punts per la simplificada.
+
+a   h  c  t  e  h  c  t  e   h  c  t  e   h  c  t  e   h  c  t  e 
+simplificant
+a  te  ce  ct  he  ht  hc
+o també
+a  c  e  h  t   e  h  t   ht
+
+Consideracions:
+
+    -    Si no s’utilitza la taula de la veritat, 1 punt per la justificació de la funció lògica i un altre punt per
+         la mateixa funció i la seva simplificació. Si la funció no està justificada, la puntuació màxima de
+         tot l’exercici serà de 0,50 punts.
+    -    Si no s’utilitzen les variables proposades a l’enunciat (i s’usa per exemple a, b, c, d), l’apartat
+         es penalitza lleument amb –0,25 punts.
+    -    Si la funció no s’escriu correctament (per exemple, escriure directament
+          te  ce  ct  he  ht  hc en lloc de a  te  ce  ct  he  ht  hc ), la puntuació corresponent a
+         la funció es limita a un màxim de 0,50 punts.
+
+Finalment, cal obtenir l’esquema de portes lògiques equivalent. Per aconseguir la puntuació màxima
+(0,50 punts), l’esquema de portes lògiques ha de ser coherent amb la funció simplificada proposada
+per l’estudiantat. Si no és així, l’apartat s’avaluarà amb 0 punts.
+
+
+
+
+Consideracions:
+
+    -    Si es contesta l’apartat amb l’esquema de contactes equivalents, la resposta serà incorrecta, 0
+         punts.
+    -    Si es dibuixa tant l’esquema de contactes com el de portes lògiques, la valoració de l’apartat
+         serà de 0 punts.
+    -    Si s’utilitzen portes lògiques no normatives (tipus ASA o similar), s’anul·larà la puntuació
+         atorgada a l’esquema.
+                                                                                              Pàgina 3 de 4
+                                                                                  Tecnologia i Enginyeria
+                                                  Proves d’accés a la universitat 2025. Criteri d’avaluació
+
+Exercici 3
+
+a)
+
+L’energia mecànica necessària es calcula utilitzant la variació de l’energia potencial gravitatòria del
+sistema:
+
+
+Emec  mgh
+
+On h és l’altura del centre d’inèrcia respecte al punt de referència. Com que el sistema gira al
+voltant del punt O, l’altura h es calcula així:
+
+h  d sin1  d sin2  d sin45  d sin15  1,345m
+
+Substituint a la primera equació:
+
+Emec  1319 J                                                                                 [0,50 punts]
+
+L’energia consumida pel motor es relaciona amb l’energia mecànica necessària i el rendiment del
+motor:
+
+          Emec
+Eelèc            1649 J                                                                     [0,50 punts]
+           
+Si el càlcul de la distància h és incorrecte, la màxima puntuació de l’apartat serà de 0,50 punts.
+
+b)
+
+La velocitat vertical vvert és la component vertical de la velocitat del punt G. G fa un moviment circular
+al voltant del punt O i, per tant:
+
+vvert   3l cos   0,4534 m/s                                                               [0,50 punts]
+
+
+c)
+
+La potència que consumeix el motor es relaciona amb la potència mecànica a partir
+                            P
+del rendiment Pmot  mec , i la potència mecànica es pot expressar com a Pmec  mgvvert .
+                     
+Per tant:
+
+      P      mgvvert
+Pmot  mec           555,8 W                                                                [0,50 punts]
+                   
+
+0,25 punts pel càlcul de la potència mecànica i 0,25 punts per la potència del motor
+                                                                                                            Pàgina 4 de 4
+                                                                                                Tecnologia i Enginyeria
+                                                                Proves d’accés a la universitat 2025. Criteri d’avaluació
+
+d)
+
+La potència que consumeix el motor depèn de la velocitat vertical del centre d’inèrcia G, la qual, al
+mateix temps, depèn de l’angle entre el sostre i la barra. En la maniobra de plegament, aquest angle
+no      és     constant      i,     per       tant,      la      potència     tampoc      no      ho
+serà.
+                                                                                         [0,50 punts]
+
+
+
+Exercici 4
+
+a)
+                                                                Per obtenir els 0,50 punts de l’apartat, al diagrama
+                                                                hi han d’aparèixer totes les forces indicades a la
+                                                                figura. Els pesos han de tenir la direcció i el sentit
+                                                                indicats, com també la força Fm. Les forces d’enllaç
+                                                                OV i OH, a priori, poden tenir qualsevol sentit.
+
+
+
+
+b)
+
+
+ M  O  0;            Fm sin    a  mb g b  mp g c  0    Fm  688,2 N
+
+S’assignen 0,50 punts si es planteja correctament l’equació i 0,50 punts més si s’obté correctament el
+resultat final.
+
+c)
+
+F   horitzontals   0           OH  Fm cos     0            
+                                                                          OH  Fm 3 2  646,7 N
+                                                                   
+F   verticals   0                                                OV  g  mb  mp   Fm 2  166,7 N
+                                 OV  Fm sin     mbg  mpg  0 
+
+
+El signe negatiu d'OV indica que té sentit oposat al dibuixat al diagrama de cos lliure.
+
+Cal plantejar dues equacions amb dues incògnites. Pel plantejament correcte de les equacions
+s’assignen 0,50 punts, i per l’obtenció de les forces d’enllaç, 0,5 punts més.
+

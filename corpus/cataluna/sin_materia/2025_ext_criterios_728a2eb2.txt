@@ -1,0 +1,118 @@
+                                                                                            Pàgina 1 de 3
+                                                                                Tecnologia i Enginyeria
+              Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+
+
+SÈRIE 1
+
+
+Exercici 1
+
+Q1 b   Q2 b   Q3 a     Q4 b    Q5 a Q6 d Q7 a Q8 b
+
+
+Exercici 2
+Es demana arribar de forma justificada a l’esquema de portes lògiques que representi
+l’enunciat. Hi ha múltiples camins per aconseguir-ho i ni la funció lògica ni l’esquema de
+portes lògiques és únic.
+
+Taula de la veritat:
+
+  l     n      t       i   p
+  0     0      0       0   0
+  0     0      0       1   0
+  0     0      1       0   0
+  0     0      1       1   1
+  0     1      0       0   0
+  0     1      0       1   0
+  0     1      1       0   0
+  0     1      1       1   1
+  1     0      0       0   1
+  1     0      0       1   1
+  1     0      1       0   0
+  1     0      1       1   1
+  1     1      0       0   0
+  1     1      0       1   0
+  1     1      1       0   0
+  1     1      1       1   1
+                                                                                                Pàgina 2 de 3
+                                                                                    Tecnologia i Enginyeria
+                  Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+
+Funció lògica
+p = l nt i +l nt i +l nt i +l nt i +l nt i +l nt i
+simplificant
+p = l nt +t i
+
+
+Esquema de portes lògiques
+
+
+
+
+Exercicis 3
+
+a)
+
+          2 · m · g · h 2 ·1900 ·9,807 ·1,8
+Pmec =                 =                    = 1491 W                                            [0,5 punts]
+               t                45
+
+b)
+
+          Pmec 1491
+Pelèc =       =          = 1,863 kW                                                             [0,5 punts]
+          2    2 · 0, 4
+
+
+c)
+
+            h 1800
+nvoltes =     =    = 257,1 voltes                                                               [0,5 punts]
+            p   7
+
+d)
+
+          nvoltes
+ncarg =           = 5,714 voltes/s                                                              [0,5 punts]
+            t
+
+     nmot    1420
+i=        =           = 4,142                                                                   [0,5 punts]
+     ncarg 5,714 · 60
+                                                                                                    Pàgina 3 de 3
+                                                                                        Tecnologia i Enginyeria
+                      Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+
+Exercici 4
+
+a)
+
+       maigua ce T        V  ce T       2 · 4,186·(100 − 15 )
+E=                     =               =                           = 3558 kJ                        [0,5 punts]
+                                                 0,2
+
+             E    3558
+mgas1 =        =           = 77,69 g                                                                [0,5 punts]
+             pc 45,8  103
+
+b)
+
+       mgas1       77,69
+t1 =           =         = 30,07 min                                                                [0,5 punts]
+         c          155
+
+c)
+
+                                                18
+mgas2 = c2 · t2 = 0,3 c · t2 = 0,3·155 ·           = 13,95 g                                        [0,5 punts]
+                                                60
+
+mgas = mgas1 + mgas2
+        mgas                                                                                        [0,5 punts]
+=                 100 = 39,84 %
+       mcartutx
+

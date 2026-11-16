@@ -1,0 +1,251 @@
+                                                                                                                 2025
+
+Proves d’accés a la universitat
+
+Matemàtiques aplicades a les ciències socials
+Sèrie 4
+
+
+
+
+             Qualificació                  Comprovació                   2a correcció
+
+Exercici 1
+
+Exercici 2
+
+Exercici 3
+
+Exercici 4. Opció ___
+
+Suma de notes parcials
+
+Qualificació final
+
+
+
+
+       Etiqueta de l’estudiant
+
+                                 Ubicació del tribunal ..............................................................................
+
+                                 Número del tribunal ...............................................................................
+
+
+
+      Etiqueta de qualificació                                                   Etiqueta de correcció
+    L’examen consta de QUATRE exercicis obligatoris. Cada exercici val 2,5 punts. Feu els exerci-
+    cis 1, 2 i 3 responent a TOTES les qüestions que s’hi plantegen. A l’exercici 4, trieu UNA de les
+    dues opcions (A o B) proposades.
+          En totes les respostes, expliqueu sempre què voleu fer i per què. Cal que la redacció de la
+    resposta es faci de manera coherent, amb correcció i claredat, emprant la notació i el vocabulari
+    matemàtic adequats i expressant la solució de manera clara.
+          Podeu utilitzar la pàgina en blanc del final del quadern per a fer esquemes, esborranys, etc.,
+    o per a acabar de respondre a algun exercici si necessiteu més espai. En aquest últim cas, cal que
+    ho indiqueu clarament al final de la pàgina de l’exercici corresponent.
+          Podeu utilitzar calculadora, però no es permet l’ús de calculadores o altres aparells que
+    poden emmagatzemar dades o que poden transmetre o rebre informació.
+
+
+
+
+    Exercici 1
+         Una botiga en línia tenia a la venda tres tipus de productes, que anomenarem A, B i C.
+    L’Ares va comprar un producte de cada abans de les vacances de Nadal i va pagar 135 €. A
+    les rebaixes de gener, la botiga va rebaixar l’article A un 4 %, l’article B un 6 % i l’article C un
+    5 % respecte al preu inicial. En veure-ho, l’Ares va decidir comprar un producte de tipus A,
+    dos de tipus B i tres de tipus C, i va calcular que s’havia estalviat 16 € respecte del cost total
+    de la mateixa compra sense oferta. Dues setmanes després, van començar les segones rebai-
+    xes i la botiga va rebaixar l’article A un 8 %, l’article B un 10 % i l’article C un 6 % respecte al
+    preu inicial d’abans de Nadal. En veure-ho, l’Ares no se’n va poder estar i va fer una tercera
+    compra. Aquest cop va adquirir tres productes de tipus A, un de tipus B i cinc de tipus C, i
+    va calcular que s’havia estalviat 29 € respecte al preu total de la mateixa compra si l’hagués
+    feta abans de les vacances de Nadal.
+         a) Plantegeu un sistema d’equacions lineals que reculli la informació del problema.
+            [0,75 punts]
+
+
+
+
+2
+b) Calculeu el preu de cada article abans de les vacances de Nadal.
+   [1,75 punts]
+
+
+
+
+                                                                  Espai per a la correcció
+                                                                               a
+                                                             Exercici 1        b
+                                                                               Total
+
+                                                                                             3
+    Exercici 2
+        Una empresa fabrica bicicletes convencionals i elèctriques. El responsable de qualitat de
+    l’empresa ha mirat l’historial de vendes i ha calculat que el 5 % de les bicicletes convencionals
+    havien tingut algun tipus de problema que n’havia requerit una revisió postvenda. En el cas
+    de les bicicletes elèctriques, aquest percentatge era del 15 %. Actualment, el 25 % de la pro-
+    ducció és de bicicletes convencionals i el 75 %, de bicicletes elèctriques.
+        a) Si escollim una bicicleta a l’atzar, quina és la probabilitat que tingui algun tipus de
+            problema que requereixi una revisió postvenda? Si la bicicleta escollida a l’atzar pre-
+            senta algun tipus de problema que requereixi una revisió postvenda, quina és la pro-
+            babilitat que sigui elèctrica?
+           [1,25 punts]
+
+
+
+
+4
+b) El responsable de qualitat creu que la dada segons la qual un 15 % de bicicletes elèc-
+   triques tenen algun problema que requereix el servei postvenda ha quedat desfasada.
+   Considera que actualment tant la tecnologia com els controls de qualitat previs han
+   millorat molt i aquesta proporció ha disminuït. Per a comprovar-ho, pren una mostra
+   de 100 bicicletes elèctriques que ha venut en els darrers mesos i observa que només 8
+   han requerit una revisió postvenda.
+      A partir d’aquestes dades, trobeu un interval de confiança del 95 % per a la pro-
+   porció de bicicletes elèctriques que tenen algun problema i requereixen una revisió
+   postvenda. A partir del resultat obtingut, podem afirmar que aquesta proporció ha
+   disminuït?
+   [1,25 punts]
+
+
+Fórmules per a resoldre l’exercici:
+• Z ∼ normal (0, 1) → P(–1,96 ≤ Z ≤ 1,96) = 0,95 i P(–2,58 ≤ Z ≤ 2,58) = 0,99
+• Intervals de confiança amb un nivell de confiança γ ∈ (0, 1)
+  — per a la proporció (mostres grans):
+
+
+
+  — per a la mitjana (mostres normals amb la variància σ2 coneguda):
+
+
+
+  — per a la mitjana (mostres grans amb la variància σ2 desconeguda):
+
+
+
+
+                                                                    Espai per a la correcció
+                                                                                 a
+                                                               Exercici 2        b
+                                                                                 Total
+
+                                                                                               5
+    Exercici 3
+       Un estudi estableix que el nombre de microorganismes vius en una mostra de laboratori,
+    mesurat en desenes, és donat per la funció
+
+                                                         ,
+
+    en què x representa les hores transcorregudes des de l’inici de l’estudi.
+        a) Determineu el valor de k si sabem que a l’inici de l’estudi hi havia 50 microorganis-
+           mes. Quin és el valor màxim de microorganismes al qual s’arribarà? En quin instant
+           s’assolirà el màxim?
+           [1,75 punts]
+
+
+
+
+6
+b) En quin valor s’estabilitzarà el nombre de microorganismes a llarg termini?
+   [0,75 punts]
+
+
+
+
+                                                                 Espai per a la correcció
+                                                                              a
+                                                            Exercici 3        b
+                                                                              Total
+
+                                                                                            7
+    Exercici 4
+        Una fàbrica es dedica a elaborar pasta. Tot el procés de producció es pot resumir en tres
+    etapes:
+        1. Compra de matèries primeres. Per a elaborar la pasta, l’empresa ha de comprar oli,
+            farina i sal de bona qualitat. La compra la pot fer a tres proveïdors diferents. El primer
+            proveïdor ven l’oli a 3 €/L, la farina a 0,6 €/kg i la sal a 1 €/kg. El segon proveïdor ven
+            l’oli a 3,5 €/L, la farina a 1 €/kg i la sal a 0,7 €/kg. Finalment, el tercer proveïdor ven l’oli
+            a 2,5 €/L, la farina a 0,8 €/kg i la sal a 0,9 €/kg.
+        2. Elaboració, empaquetament i control de qualitat. Es fabrica i s’envasa la pasta. Posterior-
+            ment, es comprova que la pasta estigui ben feta i envasada correctament, i es verifica
+            que els paquets pesin 500 g de mitjana.
+        3. Venda. L’estratègia de venda i el preu dels paquets es determinen fent un estudi de
+            mercat.
+
+        Trieu UNA de les dues opcions (A o B) i responeu a les qüestions que s’hi plantegen.
+        OPCIÓ A
+        a) L’empresa necessita 300 litres d’oli, 700 kg de farina i 25 kg de sal. Escriviu aquesta
+           informació juntament amb els preus per producte de cada proveïdor en forma matri-
+           cial (deixant ben clar el que representen les files i les columnes) i calculeu mitjançant
+           un producte de matrius el cost total de la comanda per cada proveïdor. Quin dels tres
+           proveïdors és el més econòmic?
+            [1,25 punts]
+        b) Cada paquet de pasta té un cost total de producció de 0,5 €. Si l’empresa el ven per
+           1,1 €, es venen 1.000 paquets diaris de pasta. També han comprovat que la relació
+           entre el preu de venda i el nombre de paquets venuts és lineal, de manera que per cada
+           0,01 € que s’apuja el preu de venda del paquet disminueix en 10 el nombre de paquets
+           venuts. Anomenarem x el nombre de cops que apugem 0,01 € el preu de venda del
+           paquet.
+              Trobeu la funció que descriu el benefici diari en funció de x i calculeu el valor de
+           venda del paquet que fa que el benefici sigui màxim. Quin és aquest benefici?
+            [1,25 punts]
+
+        OPCIÓ B
+        a) L’empresa ha fet una gran comanda al primer proveïdor i s’ha gastat 1.320 €. Ha com-
+           prat el triple de farina que de sal. A més, la quantitat gastada en farina representa el
+           30 % dels diners gastats en oli. Quina quantitat de cada producte ha comprat?
+            [1,25 punts]
+        b) En el control de qualitat, s’ha pres una mostra a l’atzar del pes en grams de 9 paquets
+           de pasta i s’han obtingut els valors següents:
+                                  501, 506, 497, 495, 503, 491, 512, 505, 499.
+               Construïu un interval de confiança del 95 % per a la mitjana del pes del paquet de
+            pasta, suposant que aquest pes segueix una distribució normal amb una desviació
+            típica de 4 g. A partir d’aquestes dades, raoneu breument si podem afirmar que l’eti-
+            queta que diu que els paquets són de 500 g és incorrecta.
+            [1,25 punts]
+
+
+
+
+8
+9
+     z
+
+
+
+
+                Espai per a la correcció
+                                a
+         Exercici 4. Opció ___ b
+                                Total
+
+10
+[Pàgina per a fer esquemes, esborranys, etc., o per a acabar de respondre a algun exercici.]
+
+
+
+
+                                                                                               11
+Comprovació:
+
+
+
+
+2a correcció:
+
+
+
+
+3a correcció:
+
+
+
+
+                                                Etiqueta de l’estudiant
+
+
+
+
+          L’Institut d’Estudis Catalans ha tingut cura de la correcció lingüística i de l’edició d’aquesta prova d’accés
+

@@ -1,0 +1,345 @@
+                                                                              Pàgina 1 de 7
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+
+SÈRIE 5
+
+
+1.
+
+a)
+
+Com que es tracta d’una funció contínua a l’interval [1, 1.5] i 𝑓(1) = −2 < 0 i 𝑓(1.5) =
+−2 + 5 ln 1.5 = 0.027 … > 0, el Teorema de Bolzano ens assegura que hi ha una arrel
+a l’interval (1, 1.5). Temptejant altres punts d’aquest interval, veiem que 𝑓(1.3) = −2 +
+3 ln 1.3 = −1.212 … < 0, per tant, l’arrel està a l’interval [1.3, 1.5]. I també 𝑓(1.4) = −2 +
+4 ln 1.4 = −0.654 … < 0 i, per tant, l’arrel està a l’interval [1.4, 1.5].
+
+b)
+                                            𝑥−1
+Calculem la derivada 𝑓 ′ (𝑥) = 10 (ln 𝑥 +       ) i observem que, d’entrada, no sabem
+                                             𝑥
+aïllar la 𝑥 de l’equació 𝑓 ′ (𝑥) = 0. Però es veu clarament que a l’interval (0,1) tenim
+           𝑥−1
+ln 𝑥 ˂ 0 i  𝑥
+                ˂ 0 per tant, 𝑓′(𝑥) < 0 i la funció serà decreixent. De la mateixa manera, a
+                                     𝑥−1
+l’interval (1, +∞) tenim ln 𝑥 ˃ 0 i 𝑥 ˃ 0 per tant, 𝑓 ′ (𝑥) ˃ 0 i la funció serà creixent. En
+conseqüència, 𝑓(𝑥) té un únic punt crític al punt 𝑥 = 1, que és mínim, i no té cap
+màxim.
+
+c)
+
+Els dos límits demanats són immediats:
+
+                  lim (−2 + 10(𝑥 − 1) ln 𝑥) = − 2 + 10(−1)(−∞) = +∞,
+                 𝑥⟶0+
+
+                lim (−2 + 10(𝑥 − 1) ln 𝑥) = − 2 + 10 · (+∞) · (+∞) = +∞.
+              𝑥⟶+∞
+
+Tenint en compte totes aquestes dades, la gràfica d’aquesta funció és
+                                                                              Pàgina 2 de 7
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+Criteris de correcció: (a) Compteu 0,25 per justificar que té una arrel a l’interval [1, 1,5]
+i 0,5 per afinar-lo a una dècima (no importa si fan més o menys temptejos fins arribar a
+la dècima, mentre siguin correctes). (b) Compteu 0,25 pel càlcul de la derivada, 0,5 per
+l’estudi del creixement i decreixement, i 0,25 pels màxims i mínims. (c) Compteu 0,25
+per cada límit i 0,25 per l’esbós de la gràfica (no s’ha de precisar els talls amb l’eix
+d’abscisses perquè no s’han calculat, però sí que s’ha de notar que un d’ells està situat
+entre 1,4 i 1,5).
+
+
+2.
+
+a)
+
+Calculem el determinant de 𝑃:
+
+                            2   1 −1
+                  det(𝑃) = |2   1 0 | = 2 + 0 + 0 − (−1 + 0 + 2) = 1.
+                            1   0 1
+
+Com que és diferent de zero, la matriu 𝑃 és invertible i la seva inversa és
+                                                              𝑡
+                             1 0            2 0       2 1
+                            |    |     −|       |   |     |
+                             0 1            1 1       1 0          1 −1 1
+  −1
+       1           𝑡
+                      1       1 −1       2   −1        2 1
+ 𝑃 =        (𝐴𝑑𝑗 𝑃) =    −|          | |        | −|        | == (−2 3 −2).
+     det(𝑃)           1       0 1        1 1           1 0
+                            1 −1           2 −1       2 1         −1 1  0
+                          |
+                        ( 1 0      |   − |        | |     |
+                                           2 0        2 1 )
+
+b)
+
+La matriu 𝑋 la podem trobar aïllant-la de l’equació lineal:
+
+                                       𝑃𝑋 + 𝑄 = 2𝑅,
+
+                                       𝑃𝑋 = 2𝑅 − 𝑄,
+
+                                  𝑃−1 𝑃𝑋 = 𝑃−1 (2𝑅 − 𝑄),
+
+                             1 −1 1       1 2                 3     2   2 2
+         𝑋 = 𝑃−1 (2𝑅 − 𝑄) = (−2 3 −2) (2 (1 1                 1) − (2   2 2)) =
+                             −1 1 0       3 2                 1     2   2 2
+
+                      1 −1 1    0            2 4     4  4  4
+                   = (−2 3 −2) (0            0 0) = (−8 −8 −8).
+                      −1 1 0    4            2 0     0 −2 −4
+
+Criteris de correcció: (a) Compteu 0,5 pel determinant, 0,25 per deduir que 𝑃 és
+invertible, i 0,5 pel càlcul de la inversa. (b) Compteu 0,5 per aïllar correctament la 𝑋
+                                                                              Pàgina 3 de 7
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+(compteu 0 si multipliquen la 𝑃−1 pel costat equivocat), i 0,75 pels càlculs i el resultat
+final.
+
+Comentaris: En cadascun dels apartats, si donen directament el resultat final sense
+indicar/explicar els passos seguits, compteu 0 punts encara que el resultat sigui
+correcte (d’aquest problema es pot trobar la resposta amb la calculadora sense
+entendre res, per això l’enunciat demana explícitament detallar el procediment seguit).
+Alternativament, la inversa pot calcular-se també pel mètode de Gauss. I, tot i que és
+més llarg, poden trobar la matriu 𝑋 plantejant-la amb nou incògnites i buscant-les
+directament, resolent l’equació corresponent casella per casella. Compteu bé si usen
+aquests altres mètodes, en la mesura que el que facin sigui correcte i estigui ben
+explicat.
+
+
+3.
+
+a)
+
+La derivada és 𝑓𝑎′ (𝑥) = 2𝑎𝑥 + 2 i el pendent en el punt d’abscissa 𝑥 = 1 és 𝑓𝑎′ (1) =
+2𝑎 + 2. Com que el punt de tangència és (1, 𝑓𝑎 (1)) = (1,7), l’equació de la recta
+tangent serà 𝑦 − 7 = (2𝑎 + 2)(𝑥 − 1). Per tal que aquesta recta passi pel punt (2, 13)
+cal que 13 − 7 = (2𝑎 + 2)(2 − 1), és a dir, 6 = 2𝑎 + 2 i, per tant, 𝑎 = 2.
+
+(b) Per trobar els punts de tall d’aquestes dues paràboles, hem de resoldre l’equació
+de segon grau 𝑓1 (𝑥) = 𝑓3 (𝑥):
+
+                 𝑥 2 + 2𝑥 + 4 = 3𝑥 2 + 2𝑥 + 2 → 2𝑥 2 − 2 = 0 → 𝑥 = ±1.
+
+Els punts de tall són (1, 𝑓1 (1)) = (1, 7) i (−1, 𝑓1 (−1)) = (−1, 3).
+
+
+c)
+
+L’àrea demanada és la integral
+
+
+                 1                        1
+         𝐴 = ∫ (𝑓1 (𝑥) − 𝑓3 (𝑥)) 𝑑𝑥 = ∫ ((𝑥 2 + 2𝑥 + 4) − (3𝑥 2 + 2𝑥 + 2)) 𝑑𝑥 =
+                 −1                       −1
+
+             1                                  1
+                      2
+                               2𝑥 3           2        2      8
+           ∫ (−2𝑥 + 2) 𝑑𝑥 = [−      + 2𝑥] = (− + 2) − ( − 2) = 𝑢2 .
+            −1                  3        −1
+                                              3        3      3
+
+
+Criteris de correcció: (a) Compteu 0,25 per la derivada, 0,25 per calcular l’equació de
+la recta tangent en funció del paràmetre, 0,25 per plantejar l’equació, i 0,25 pel valor
+final. (b) Compteu 0,25 pel planteig de l’equació correcta i 0,25 per donar els dos punts
+                                                                              Pàgina 4 de 7
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+de tall. (c) Compteu 0,5 per plantejar la integral correcta, i 0,5 per calcular-la (si
+plantegen la integral de 𝑓3 (𝑥) − 𝑓1 (𝑥) i els surt un resultat negatiu, cal que expliquin
+què passa i que prenguin el valor absolut com a resultat; si donen per bo un resultat
+negatiu, penalitzeu amb 0,5 punts).
+
+
+4.
+
+a)
+
+Denotem per 𝐶 l’esdeveniment “la solució és correcta”, per 𝑅 l’esdeveniment “l’ha
+resolt la Rut”, i per 𝐼 l’esdeveniment “l’ha copiat d’Internet”. Segons l’enunciat, 𝑃(𝑅) =
+4  2        2 1
+  = , 𝑃(𝐼) = = , 𝑃(𝐶 | 𝑅) = 0.75, i 𝑃(𝐶 | 𝐼) = 0.4. Aleshores, per la llei de les
+6  3        6 3
+probabilitats totals,
+
+                                                                   2        1
+            𝑃(𝐶) = 𝑃(𝐶 | 𝑅)𝑃(𝑅) + 𝑃(𝐶 | 𝐼)𝑃(𝐼) = 0.75 ·              + 0.4 · = 0.633 … .
+                                                                   3        3
+
+b)
+
+Fent servir la fórmula de Bayes i els càlculs de l’apartat anterior, obtenim
+                                                               2
+                                      𝑃(𝐶 |𝑅 )𝑃(𝑅)     0.75·
+                         𝑃(𝑅 | 𝐶) =      𝑃(𝐶)
+                                                     = 0.6333 = 0.789... .
+
+
+c)
+
+El nombre d’exercicis correctes segueix una distribució binomial amb 𝑝 = 𝑃(𝐶) = 0.633
+i 𝑛 = 5.
+
+              𝑃(𝑎𝑙𝑚𝑒𝑛𝑦𝑠 4 𝑐𝑜𝑟𝑟𝑒𝑐𝑡𝑒𝑠) = 𝑃(4 𝑐𝑜𝑟𝑟𝑒𝑐𝑡𝑒𝑠) + 𝑃(5 𝑐𝑜𝑟𝑟𝑒𝑐𝑡𝑒𝑠) =
+
+                      5                             5
+                   = ( ) · 0.6334 · (1 − 0.633)1 + ( ) · 0.6335 = 0.396 …
+                      4                             5
+
+Criteris de correcció: (a) Compteu 0,5 per plantejar la llei de les probabilitats totals (o
+per fer l’arbre de decisió), i 0,25 pel càlcul final. (b) Compteu 0,5 per plantejar
+correctament la fórmula de Bayes (o usar la definició de probabilitat condicionada), i
+0,25 pel càlcul final. (c) Compteu 0,5 pel plantejament i 0,5 pel càlcul final.
+                                                                              Pàgina 5 de 7
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+5.
+
+a)
+
+Tal com s’indica a la figura, el radi de la semicircumferència superior és 𝑥, i el de la
+lateral 𝑦. Per tant, el perímetre de la figura serà
+
+                                           2𝜋𝑥 2𝜋𝑦
+                    𝑃(𝑥, 𝑦) = 2𝑥 + 2𝑦 +       +    = (2 + 𝜋)(𝑥 + 𝑦),
+                                            2   2
+
+i la seva àrea
+
+                                            𝜋𝑥 2 𝜋𝑦 2
+                                  𝐴(𝑥, 𝑦) =     +     + 4𝑥𝑦.
+                                             2    2
+
+b)
+                                                                10
+Com que volem 𝑃(𝑥, 𝑦) = (2 + 𝜋)(𝑥 + 𝑦) = 10, tenim 𝑦 =             − 𝑥. Substituint a
+                                                               2+π
+l’expressió de l’àrea, obtenim:
+                                          2
+                           𝜋𝑥 2 𝜋 10              10
+                    𝐴(𝑥) =     + (    − 𝑥) + 4𝑥 (    − 𝑥) =
+                            2   2 2+𝜋            2+𝜋
+                                           2
+                            𝜋𝑥 2 𝜋 10         40𝑥
+                          =     + (    − 𝑥) +     − 4𝑥 2 .
+                             2   2 2+𝜋        2+𝜋
+
+Derivant i igualant a zero, obtenim
+
+                                      10           40
+                      𝐴′ (𝑥) = 𝜋𝑥 − 𝜋 (    − 𝑥) +     − 8𝑥 = 0
+                                     2+𝜋          2+𝜋
+                                  10𝜋 − 40
+                      (2𝜋 − 8)𝑥 =
+                                   𝜋+2
+                                     10𝜋 − 40
+                            𝑥=                    = 0.972 … 𝑚.
+                                  (𝜋 + 2)(2𝜋 − 8)
+
+Ara comprovem que és un màxim, veient que 𝐴′′ = 2𝜋 − 8 < 0. Per tant, el decorat de
+                                                                                  10
+la màxima àrea possible és un quadrat de dimensions 𝑥 = 0.972 … 𝑚, i 𝑦 = 2+𝜋 − 𝑥 =
+0.972 … 𝑚.
+
+Finalment, el valor d’aquesta àrea màxima és 𝐴(0.972) = 6.747 … 𝑚2 .
+
+Criteris de correcció: (a) Compteu 0,5 per l’expressió del perímetre, i 0,5 per la de
+l’àrea (no importa si el resultat el donen més o menys simplificat). (b) Compteu 0,5 per
+l’expressió de la funció a derivar, 0,25 per la derivada, 0,25 per la solució, 0,25 per
+comprovar que és un màxim, i 0,25 per la resposta final.
+                                                                              Pàgina 6 de 7
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+6.
+
+a)
+
+La recta 𝑟 té vector director (4,3, −1) i la recta 𝑠 (2,1,0). No són proporcionals, per tant,
+les rectes es creuen o es tallen. Donat que aquest determinant és diferent de zero
+
+              5−4 4−3         3 − (−1)
+             | 4   3             −1 | = 0 + 16 − 2 − 24 + 1 − 0 = −9 ≠ 0,
+               2   1              0
+
+les rectes 𝑟 i 𝑠 es creuen.
+
+Per ser paral·lel a les dues rectes, el pla 𝜋 té la direcció formada pels seus dos vectors
+directors; com que, a més, ha de passar pel punt (0,0,0), la seva equació implícita serà
+
+           𝑥−0 𝑦−0         𝑧−0
+          | 4   3           −1 | = 0 + 4𝑧 − 2𝑦 − 6𝑧 + 𝑥 − 0 = 𝑥 − 2𝑦 − 2𝑧 = 0.
+            2   1           0
+
+b)
+
+Si partim del vector normal del pla 𝜋 de l’apartat anterior, 𝑣 = (1, −2, −2), que és
+perpendicular a ambdues rectes, podem calcular l’equació del pla 𝜋1 que conté el
+vector 𝑣 i la recta 𝑟,
+
+      𝑥−5    𝑦−4 𝑧−3
+     | 4      3   −1 | = −6(𝑥 − 5) − 8(𝑧 − 3) − (𝑦 − 4) − 3(𝑧 − 3) − 2(𝑥 − 5) +
+       1      −2  −2
+
+                          +8(𝑦 − 4) = −8𝑥 + 7𝑦 − 11𝑧 + 45 = 0,
+
+i l’equació del pla 𝜋2 que conté el vector 𝑣 i la recta 𝑠,
+
+       𝑥−4 𝑦−3        𝑧+1
+      | 2   1          0 | = −2(𝑥 − 4) − 4(𝑧 + 1) + 0 − (𝑧 + 1) − 0 + 4(𝑦 − 3) =
+        1   −2         −2
+                     = −2𝑥 + 4𝑦 − 5𝑧 − 9 = 0.
+
+La recta 𝑡 que busquem és la que té per equació
+
+                                    8𝑥 − 7𝑦 + 11𝑧 = 45
+                                                       }.
+                                     2𝑥 − 4𝑦 + 5𝑧 = −9
+                                                                              Pàgina 7 de 7
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+Alternativament, podem prendre un punt genèric de la recta 𝑟, que és de la forma 𝑅 =
+(5,4,3) + 𝜆(4,3, −1), i un punt genèric de 𝑠, que és de la forma 𝑆 = (4,3, −1) + 𝜇(2,1,0),
+i imposar que el vector
+
+                   ⃗⃗⃗⃗⃗ = (4 + 2𝜇, 3 + 𝜇, −1) − (5 + 4𝜆, 4 + 3𝜆, 3 − 𝜆) =
+                   𝑅𝑆
+
+                      = (−4𝜆 + 2𝜇 − 1,        −3𝜆 + 𝜇 − 1,      𝜆 − 4)
+
+sigui perpendicular als vectors directors respectius, (4,3, −1) i (2,1,0), de les rectes 𝑟 i
+𝑠. Obtenim el sistema d’equacions
+
+4(−4𝜆 + 2𝜇 − 1) + 3(−3𝜆 + 𝜇 − 1) − (𝜆 − 4) = −26𝜆 + 11𝜇 − 3 = 0,
+
+          2(−4𝜆 + 2𝜇 − 1) + 1(−3𝜆 + 𝜇 − 1) + 0(𝜆 − 4) = −11𝜆 + 5𝜇 − 3 = 0.
+
+Resolent-lo, obtenim 𝜆 = 2 i 𝜇 = 5, que ens donen els punts buscats 𝑅 = (13, 10, 1) ∈ 𝑟
+                                              ⃗⃗⃗⃗⃗ = (1, −2, −2) és perpendicular a 𝑟 i a 𝑠
+i 𝑆 = (14, 8, −1) ∈ 𝑠. Efectivament el vector 𝑅𝑆
+(és el vector normal del pla de l’apartat anterior) i l’equació de la recta 𝑡 que passa per
+aquests dos punts és
+
+                                 𝑥 − 13 𝑦 − 10 𝑧 − 1
+                                       =      =      .
+                                   1      −2    −2
+
+Criteris de correcció: (a) Compteu 0,5 per la discussió de la posició relativa i 0,75 per
+l’equació del pla demanat. (b) Compteu 0,5 pel planteig, i 0,75 per l’equació de la recta
+perpendicular (ja sigui fet d’una manera o de l’altra... o de qualsevol altra forma mentre
+sigui correcta i estigui ben explicada).
+

@@ -1,0 +1,306 @@
+                                                                                      Pàgina 1 de 7
+                                                                                     Matemàtiques
+     Proves d’accés a la Universitat 2024, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+
+SÈRIE 3
+
+
+1.
+
+(a) La funció 𝑓(𝑥) és polinòmica i, per tant, contínua en tots els reals. Com que
+
+                           𝑓(−2) = 3 · (−2)13 + 5 · (−2)3 + 2 < 0,
+
+                              𝑓(0) = 3 · (0)13 + 5 · (0)3 + 2 > 0.
+
+podem aplicar el Teorema de Bolzano i la funció 𝑓(𝑥) s’anul·la forçosament en algun
+punt de l’interval [−2, 0]. Per trobar un interval de longitud 0.5 només cal temptejar uns
+quants intervals més petits; com que
+
+                        𝑓(−1) = 3 · (−1)13 + 5 · (−1)3 + 2 = −6 < 0,
+
+l’arrel pertany a l’interval [−1, 0]. I, finalment, com que
+
+                  𝑓(−0.5) = 3 · (−0.5)13 + 5 · (−0.5)3 + 2 = 1.374 … > 0,
+
+l’arrel pertany a l’interval [−1, −0.5].
+
+(b) Per analitzar el creixement i decreixement de la funció 𝑓(𝑥), calculem la seva
+derivada 𝑓 ′ (𝑥) = 39𝑥 12 + 15𝑥 2 : com que tots els exponents són parells, 𝑓′(𝑥) mai és
+negativa i, per tant, la funció 𝑓 mai decreix. En particular, no té cap màxim ni mínim.
+Per altra banda, la funció, que és polinòmica, no té asímptotes ni discontinuïtats. En
+definitiva, la seva gràfica només pot tenir un únic punt de tall amb l'eix d'abscisses que
+es troba, com hem dit, a l'interval [−1, −0.5].
+
+Criteris de correcció: (a) Compteu 0.25 per justificar que es pot aplicar el Teorema de
+Bolzano, 0.5 per veure que hi ha una arrel a l’interval [−2, 0] i 0.5 per afinar fins a un
+interval de cinc dècimes d’amplada. (b) Compteu 0.25 pel càlcul de la derivada, 0.25
+per deduir que es tracta d’una funció creixent, 0.25 per dir que no té màxims ni mínims,
+i 0.5 per justificar que hi ha una única arrel.
+                                                                                      Pàgina 2 de 7
+                                                                                     Matemàtiques
+     Proves d’accés a la Universitat 2024, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+2.
+
+(a) El determinant de la matriu de coeficients del sistema és
+
+                 1 −3 𝑚
+                |1 𝑚 2 | = 2𝑚 + 𝑚 − 6 − 𝑚2 − 2 + 6 = −𝑚2 + 3𝑚 − 2,
+                 1 1  2
+                    −3±√9−4(−1)(−2)
+que és 0 quan 𝑚 =         −2
+                                    = 1, 2. Si 𝑚 no és ni 1 ni 2, el rang de la matriu de
+coeficients és 3, per tant el de l’ampliada també, i es tracta d’un sistema compatible
+determinat.
+
+En el cas 𝑚 = 1, el rang de la matriu de coeficients és 2 (ja que, per exemple, el menor
+superior esquerra és no nul) i el de l’ampliada és 3,
+
+                       1 −3 −2
+                      |1 1  3 | = 1 − 2 − 9 + 2 − 3 + 3 = −8 ≠ 0.
+                       1 1  1
+
+Per tant, es tracta d’un sistema incompatible. (Alternativament observem que les dues
+darreres equacions són contradictòries en aquest cas: 𝑥 + 𝑦 + 2𝑧 = 3 i 𝑥 + 𝑦 + 2𝑧 = 1.)
+
+En el cas 𝑚 = 2, el rang de la matriu de coeficients és 2 i el de l’ampliada també és 2,
+
+                 1 −3 2 −2    1              −3 2      −2     1 −3 2 −2
+                (1 2 2 3 ) ~ (0              5 0       5 ) ~ (0 1 0 1 )
+                 1 1 2 2      0              4 0       4      0 0 0 0
+
+per tant, es tracta d’un sistema compatible indeterminat amb un grau de llibertat.
+
+(b) Si 𝑚 = 0 és un sistema compatible determinat i té per solució
+
+                    −2 −3 0
+                   |3   0 2|
+                 𝑥= 0   1 2 = 0 + 0 + 0 − 0 + 4 + 18 = 22 = −11,
+                     1 −3 0   0+0−6−0−2+6              −2
+                    |1 0 2|
+                     1 1 2
+                        1 −2 0
+                      | 1 3 2|
+                               6+0−4−0−0+4   6
+                    𝑦= 1 0 2 =             =    = −3,
+                        1 −3 0      −2       −2
+                      | 1 0 2|
+                        1 1 2
+                                                                                     Pàgina 3 de 7
+                                                                                    Matemàtiques
+    Proves d’accés a la Universitat 2024, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+                     1 −3 −2
+                    |1 0   3|
+                  𝑧= 1 1   0 = 0 − 2 − 9 − 0 − 3 − 0 = −14 = 7.
+                      1 −3 0            −2             −2
+                     |1 0 2|
+                      1 1 2
+
+(c) Per 𝑚 = 2 sabem que el sistema és equivalent a les dues equacions 𝑥 − 3𝑦 + 2𝑧 =
+−2, i 𝑦 = 1, i és compatible indeterminat. Imposant, a més a més, la condició extra
+𝑥 = 5𝑦, tenim 𝑥 = 5 i, de la primera equació, 2𝑧 = −2 − 𝑥 + 3𝑦 = −2 − 5 + 3 = −4, és
+a dir, 𝑧 = −2. Així la solució demanada és (𝑥, 𝑦, 𝑧) = (5,1, −2).
+
+Criteris de correcció: (a) Compteu 0.25 pel càlcul del determinant, 0.25 per trobar els
+valors crítics de 𝑚, i 0.25 per l’estudi de cadascun dels tres casos. (b) Compteu 0.5 pel
+càlcul de la solució. (c) Compteu 0.25 per saber combinar el sistema amb la condició
+extra, i 0.5 pel càlcul de la solució demanada.
+
+Comentaris: El sistema es pot discutir i es pot resoldre de maneres alternatives.
+Compteu-ho bé en la mesura que el que facin sigui correcte i estigui convenientment
+justificat.
+                                                                                      Pàgina 4 de 7
+                                                                                     Matemàtiques
+     Proves d’accés a la Universitat 2024, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+3.
+
+(a) El punt 𝐴 és un punt de tall de 𝑦 = 𝑓(𝑥) amb l’eix 𝑂𝑋:
+
+                 𝑥 3 − 4𝑥 2 + 4𝑥 = 0 ⟶ 𝑥(𝑥 − 2)2 = 0 ⟶ 𝑥 = 0, 𝑥 = 2.
+
+Per tant, el punt 𝐴 té per coordenades 𝐴 = (2,0). El punt 𝐷 és un punt de tall de 𝑦 =
+𝑔(𝑥) amb l’eix 𝑂𝑋:
+
+        𝑥−1 2                                  2 ± √4 − 4(−15)
+     −(    ) + 4 = 0 ⟶ 𝑥 2 − 2𝑥 − 15 = 0 ⟶ 𝑥 =                 = −3, 5.
+         2                                            2
+
+Descartem la solució negativa i podem afirmar, per tant, que el punt 𝐷 té coordenades
+𝐷 = (5,0). Finalment, el punt 𝐵 és el punt de tall de 𝑦 = 𝑔(𝑥) amb l’eix 𝑂𝑌; com que
+
+                                            0−1 2   15
+                                  𝑔(0) = − (   ) +4= ,
+                                             2      4
+                             15
+es tracta del punt 𝐵 = (0, 4 ). Les coordenades del punt 𝐶 ja ens les dóna l’enunciat,
+𝐶 = (3, 𝑓(3)) = (3, 𝑔(3)) = (3,3).
+
+(b) La zona puntejada és l’àrea compresa entre 𝑔(𝑥) i 𝑓(𝑥) des de 𝑥 = 0 fins a 𝑥 = 3:
+       3
+           𝑥−1 2                                3
+                                                  −4𝑥 3 + 15𝑥 2 − 14𝑥 + 15
+𝐴1 = ∫ (− (   ) + 4 − (𝑥 3 − 4𝑥 2 + 4𝑥)) 𝑑𝑥 = ∫ (                          ) 𝑑𝑥 =
+      0     2                                  0             4
+
+                             1
+                            = [−𝑥 4 + 5𝑥 3 − 7𝑥 2 + 15𝑥]30 = 9 𝑢2 .
+                             4
+                                                  175
+(c) Sabent que l’àrea total del logotip és de         = 14.583 … 𝑢2 , la zona ratllada tindrà
+                                                  12
+àrea 14.583 … − 9 = 5.583 … 𝑢2 . Per tant, per pintar el logotip de la manera que volen,
+els caldrà més pintura blava que vermella.
+
+Criteris de correcció: (a) Compteu 0.25 pel càlcul de cadascun dels tres punts
+demanats. (b) Compteu 0.5 pel plantejament de l’àrea de la zona puntejada (amb els
+límits d’integració correctament col·locats), 0.5 per la primitiva, i 0.25 pel càlcul final.
+(c) 0.5 per la resposta correcta.
+                                                                                      Pàgina 5 de 7
+                                                                                     Matemàtiques
+     Proves d’accés a la Universitat 2024, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+4.
+
+(a) Sigui 𝐴 l’esdeveniment “patir arrítmia”. De l’enunciat sabem que 𝑃(𝐴) = 0.2. D’entre
+les 4 escollides, el nombre de persones 𝑁 que pateix arrítmies segueix una distribució
+binomial amb paràmetres 𝑛 = 4 i 𝑝 = 0.2. Passant al complementari, obtenim
+
+                      𝑃(𝑁 ≥ 1) = 1 − 𝑃(𝑁 = 0) = 1 − (1 − 0.2)4 = 0.5904.
+
+(b) Sigui 𝐻 l’esdeveniment “obtenir diagnòstic positiu d’arrítmia a la prova del Holter”.
+Siguin 𝐴̅ 𝑖 𝐻
+            ̅ els esdeveniments complementaris a 𝐴 i a 𝐻, respectivament. Aleshores,
+de les dades de l’enunciat deduïm:
+
+                      𝑃(𝐴̅) = 0.8,   𝑃(𝐻 | 𝐴) = 0.95 i 𝑃(𝐻 | 𝐴̅) = 0.005.
+
+Podem aplicar la fórmula de la probabilitat total:
+
+       𝑃(𝐻) = 𝑃(𝐻 | 𝐴) · 𝑃(𝐴) + 𝑃(𝐻 | 𝐴̅) · 𝑃(𝐴̅) = 0.95 · 0.2 + 0.005 · 0.8 = 0.194.
+
+(c) Per calcular la probabilitat condicionada que se’ns demana, farem servir la fórmula
+de Bayes:
+                  ̅            ̅̅̅
+      ̅ ) = 𝑃(𝐴∩𝐻) = 𝑃(𝐴)·𝑃(𝐻 | 𝐴) = 0.2·(1−0.95) = 0.012 … .
+𝑃(𝐴 | 𝐻        ̅)
+             𝑃(𝐻       1−𝑃(𝐻)          1−0.194
+
+
+Criteris de correcció: (a) Compteu 0.5 pel plantejament i 0.25 pel càlcul. (b) Compteu
+0.5 pel plantejament amb la fórmula de les probabilitats totals (o un arbre de decisió) i
+0.25 pel càlcul. (c) Compteu 0.5 pel plantejament de la fórmula de Bayes (o de la
+probabilitat condicionada), i 0.5 pel càlcul.
+
+A l’apartat (a) seria també correcte el càlcul (més llarg) de la probabilitat que 𝑁 sigui
+1,2,3,4, és a dir, 𝑃(𝑁 = 1) + 𝑃(𝑁 = 2) + 𝑃(𝑁 = 3) + 𝑃(𝑁 = 4), amb la binomial.
+Compteu la màxima puntuació si el fan així de manera correcta i argumentada.
+                                                                                            Pàgina 6 de 7
+                                                                                           Matemàtiques
+         Proves d’accés a la Universitat 2024, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+5.
+
+(a) La gràfica de la funció 𝑦 = 𝑒 −2𝑥 està esbossada en el dibuix següent, juntament
+amb un dels rectangles descrits a l’enunciat:
+
+
+
+
+Com que un qualsevol d’aquests rectangles mesura 𝑥 de base i 𝑒 −2𝑥 d’alçada, la seva
+àrea és 𝐴(𝑥) = 𝑥𝑒 −2𝑥 . Busquem els extrems relatius d’aquesta funció:
+
+                                                                              1
+                       𝐴′ (𝑥) = 𝑒 −2𝑥 + 𝑥𝑒 −2𝑥 (−2) = 𝑒 −2𝑥 (1 − 2𝑥) = 0 ⟶ 𝑥 = .
+                                                                              2
+
+A partir del signe de la funció derivada es veu clarament que 𝐴(𝑥) és creixent per a
+         1                          1                          1
+𝑥 < 2 i decreixent per a 𝑥 > 2. Per tant, el punt 𝑥 = 2 és un màxim absolut de 𝐴(𝑥). Així,
+                                                                                 1
+                                                                    1                  1
+el rectangle d’àrea màxima correspon al de costats 𝑥 = 2 i 𝑦 = 𝑒 −2·(2) = 𝑒, i té àrea
+     1       1
+𝐴( ) =          𝑢2 .
+     2       2𝑒
+
+(b) La derivada d’aquesta funció és 𝑦′ = −2𝑒 −2𝑥 . El pendent de la recta tangent en el
+punt d’abscissa 0 és 𝑦 ′ (0) = −2𝑒 0 = −2. Com que 𝑦(0) = 𝑒 0 = 1, la recta tangent serà
+la d’equació 𝑦 − 1 = −2(𝑥 − 0), és a dir, 𝑦 = −2𝑥 + 1. El punt de tall d’aquesta recta
+                                        1                  1
+amb l’eix d’abscisses és 𝑥 = 2, és a dir, el punt (2 , 0).
+
+
+Criteris de correcció: (a) Compteu 0.25 per escriure la funció àrea, 0.25 per derivar-la,
+0.25 per trobar el punt crític, 0.5 per justificar que es tracta d’un màxim, i 0.25 per
+calcular l’àrea màxima. (b) Compteu 0.25 pel càlcul de la derivada, 0.5 per l’equació de
+la recta tangent, i 0.25 pel punt de tall.
+
+Comentaris: La justificació del màxim es pot fer també via derivada segona. Compteu
+bé qualsevol de les maneres de fer-ho, en la mesura que siguin correctes i estiguin
+ben explicades.
+                                                                                           Pàgina 7 de 7
+                                                                                          Matemàtiques
+     Proves d’accés a la Universitat 2024, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+6.
+
+(a) Per ser perpendicular a 𝜋, la recta 𝑟 tindrà com a vector director 𝑣⃗ = (1,2, −2). I,
+com que ha de passar per 𝑃 = (1,3,0), es tracta de la recta (𝑥, 𝑦, 𝑧) = (1,3,0) +
+𝜆(1,2, −2) = (1 + 𝜆, 3 + 2𝜆, −2𝜆). Imposant l’equació del pla 𝜋, obtenim
+
+                              1 + 𝜆 + 2(3 + 2𝜆) − 2(−2𝜆) = −7,
+
+                                           9𝜆 + 7 = −7,
+                14                                        14           28     28      −5 −1 28
+és a dir, 𝜆 = − 9 . Això correspon al punt 𝑄 = (1 − 9 , 3 − 9 ,                9
+                                                                                 ) = ( 9 , 9 , 9 ).
+
+(b) Com que el punt 𝑄 que hem calculat és la projecció ortogonal de 𝑃 sobre el pla 𝜋,
+la distància demanada és
+
+                                      𝑑(𝑃, 𝜋) = 𝑑(𝑃, 𝑄) =
+
+                  2           2        2
+           −5          −1         28     1                   42 14
+       = √(   − 1) + (    − 3) + ( − 0) = √142 + 282 + 282 =   = .
+            9          9          9      9                   9  3
+
+Alternativament, la podem calcular amb la fórmula de la distància punt-pla:
+
+                                         |1 + 2 · 3 − 2 · 0 + 7|       14
+                             𝑑(𝑃, 𝜋) =                             =      .
+                                          √12 + 22 + (−2)2             3
+
+(c) Per ser paral·lel, 𝜋′ haurà de tenir equació de la forma 𝑥 + 2𝑦 − 2𝑧 = 𝐷. I imposant
+                                                   14
+que la distància a 𝑃 = (1,3,0) també sigui de 3 obtenim
+
+                      14                |1 + 2 · 3 − 2 · 0 − 𝐷| |7 − 𝐷|
+                         = 𝑑(𝑃, 𝜋 ′ ) =                        =       ,
+                      3                  √12 + 22 + (−2)2          3
+
+                                                      −7
+és a dir, |7 − 𝐷| = 14, 7 − 𝐷 = ±14, 𝐷 = 7 ∓ 14 = { . El valor 𝐷 = −7 correspon al
+                                                      21
+pla 𝜋 que ja coneixem, i l’altre pla 𝜋′ demanat serà el d’equació 𝑥 + 2𝑦 − 2𝑧 = 21.
+
+Criteris de correcció: (a) Compteu 0.5 per la parametrització de la recta 𝑟, 0.25 per
+imposar l’equació del pla 𝜋, i 0.25 pel càlcul final. (b) Compteu 0.5 pel càlcul de la
+distància (per qualsevol dels dos mètodes). (c) Compteu 0.5 per imposar l’equació
+(amb el valor absolut tractat correctament), i 0.5 per aïllar 𝐷 i donar la resposta.
+
+Comentaris: L’apartat (a) es pot fer també trobant primer l’equació cartesiana de la
+recta 𝑟 i després fent el sistema d’equacions amb el pla 𝜋. Compteu-ho bé, en la
+mesura que el que facin sigui correcte i estigui ben explicat.
+

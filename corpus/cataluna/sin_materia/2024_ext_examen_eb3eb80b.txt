@@ -1,0 +1,340 @@
+                                                                                                                  2024
+
+Proves d’accés a la universitat
+
+Tecnologia i enginyeria
+Sèrie 1
+
+
+
+
+               Qualificació          TR
+
+Exercici 1
+
+Exercici 2
+
+Exercici 3
+
+Exercici 4
+
+Exercici 5
+
+Exercici 6
+
+Suma de notes parcials
+
+Qualificació final
+
+
+
+
+       Etiqueta de l’estudiant
+
+                                 Ubicació del tribunal ..............................................................................
+
+                                 Número del tribunal ...............................................................................
+
+
+
+      Etiqueta de qualificació                                                   Etiqueta de correcció
+      Responeu a QUATRE dels sis exercicis següents. Cada exercici val 2,5 punts. En el cas que respon-
+      gueu a més exercicis, només es valoraran els quatre primers.
+           Podeu utilitzar les pàgines en blanc (pàgines 14 i 15) per a fer esquemes, esborranys, etc., o
+      per a acabar de respondre a algun exercici si necessiteu més espai. En aquest últim cas, cal que ho
+      indiqueu clarament al final de l’exercici corresponent.
+
+
+      Exercici 1
+      Indiqueu la resposta correcta de cada qüestió. Responeu en la taula de la pàgina 3. En el cas
+      que no indiqueu les respostes a la taula, les qüestions es consideraran no contestades.
+      [2,5 punts]
+      [En cada qüestió només es pot triar UNA resposta. Qüestió ben contestada: 0,5 punts; qüestió mal contestada: –0,16 punts;
+      qüestió no contestada: 0 punts.]
+
+
+
+
+      Qüestió 1
+         Un motor de benzina de quatre temps consumeix 10,2 L/h quan gira a 4 000 min–1. El
+      poder calorífic de la benzina és 42 000 kJ/kg i la seva densitat, 0,8 kg/L. Quina és la massa de
+      combustible consumida en un cicle del motor?
+         a) 30 mg
+         b) 34 mg
+         c) 68 mg
+         d) 136 mg
+
+
+
+
+      Qüestió 2
+          La figura mostra les corbes tensió-deformació obtingudes en
+      assajos de tracció utilitzant dos acers diferents. A partir de l’obser-
+      vació d’aquesta figura, es pot afirmar que
+          a) el mòdul d’elasticitat dels dos acers no es pot determinar
+              en aquest assaig.
+          b) el mòdul d’elasticitat dels dos acers és el mateix.
+          c) el mòdul d’elasticitat de l’acer 1 és més gran que el de
+              l’acer 2.
+          d) el mòdul d’elasticitat de l’acer 2 és més gran que el de
+              l’acer 1.
+
+
+
+
+      Qüestió 3
+          Una resistència elèctrica proporciona 3 000 J a 50 ml d’aigua que es troben a 5 °C. Sabent
+      que la calor específica de l’aigua és ce = 4,18 kJ/(kg K), la temperatura final de l’aigua serà
+          a) 1,435 °C.
+          b) 6,435 °C.
+          c) 14,35 °C.
+          d) 19,35 °C.
+–2–
+Qüestió 4
+    Un habitatge disposa de vuit plaques solars. L’àrea total de les plaques és de 4,4 m2, i les
+seves condicions de localització fan que es disposi, el mes de setembre, d’una irradiació diària
+mitjana de 13 kW h/m2. Si les plaques tenen un rendiment del 0,3, l’energia produïda durant
+el mes de setembre serà de
+    a) 514,8 kW h.
+    b) 1 853 J.
+    c) 58,52 J.
+    d) 52,19 kW h.
+
+
+
+
+Qüestió 5
+     El motor d’una motocicleta de quatre temps té una cursa de 50,6 mm i un diàmetre de
+cilindre de 56 mm. Si la relació de compressió és 7,3, quin és el volum de la cambra de com-
+bustió?
+     a) 124,6 cm3
+     b) 112,6 cm3
+     c) 39,56 cm3
+     d) 19,78 cm3
+
+
+
+
+Taula de respostes:
+
+    Espai de resposta per a l’estudiant                              Espai per a la correcció
+
+Qüestió 1    a        b      c       d                           Puntuació de la qüestió 1
+
+Qüestió 2    a        b      c       d                           Puntuació de la qüestió 2
+
+Qüestió 3    a        b      c       d                           Puntuació de la qüestió 3
+
+Qüestió 4    a        b      c       d                           Puntuació de la qüestió 4
+
+Qüestió 5    a        b      c       d                           Puntuació de la qüestió 5
+                                                                 Total de l’exercici 1
+
+
+                                                                                                   –3–
+      Exercici 2
+      [2,5 punts en total]
+           L’accés a un edifici d’oficines està regulat per tres sistemes de control: una clau numèrica,
+      una targeta magnètica i l’empremta dactilar. Es permet l’accés a l’edifici, en horari laboral,
+      validant qualsevol dels tres sistemes de control. Fora de l’horari laboral, cal validar almenys
+      dos dels tres sistemes.
+           Responeu a les qüestions que hi ha a continuació utilitzant les variables d’estat següents:
+
+                    {
+      horari: h = 1: laboral
+                  0: no laboral
+                                ; clau: c =  {
+                                            1: vàlida
+                                            0: no vàlida
+                                                         ; targeta: t ={1: vàlida
+                                                                        0: no vàlida
+                                                                                     ;
+
+      empremta: e = 1: vàlida{
+                    0: no vàlida
+                                 ; accés: a =    {
+                                              1: permès
+                                              0: denegat
+                                                         .
+
+           a) Elaboreu la taula de veritat del sistema.
+                [1 punt]
+
+
+                    h        c   t   e   a
+
+
+
+
+–4–
+b) Determineu la funció lògica entre aquestes variables i, si escau, simplifiqueu-la.
+   [1 punt]
+
+
+
+
+c) Dibuixeu el diagrama de portes lògiques equivalent.
+   [0,5 punts]
+
+
+
+
+                                                                                        –5–
+      Exercici 3
+      [2,5 punts en total]
+           Una persona té un patinet elèctric que utilitza una bateria ideal de tensió U = 24 V i
+      energia Ebat = 250 W h per a alimentar un motor de rendiment ηmot = 0,85. La roda motriu del
+      patinet, de diàmetre droda = 140 mm, està connectada directament a l’eix de sortida del motor.
+           En les condicions d’estudi, la persona i el patinet tenen una massa conjunta m = 70 kg
+      i recorren s = 2 km a velocitat constant v = 8 km/h per una pujada en què l’angle que forma
+      el perfil del carrer amb l’horitzontal és α = 7°. A l’inici del trajecte, la bateria està totalment
+      carregada. Si totes les pèrdues diferents a les associades al rendiment del motor es poden
+      negligir, determineu:
+           a) La potència elèctrica consumida, Pelèc.
+                [1 punt]
+
+
+
+
+           b) La velocitat de rotació de l’eix del motor, ωmot, i el parell que subministra el motor, Γ.
+                [1 punt]
+
+
+
+
+–6–
+c) El percentatge d’energia consumida de la bateria, Δ.
+   [0,5 punts]
+
+
+
+
+                                                          –7–
+      Exercici 4
+      [2,5 punts en total]
+          Un cotxe de massa m = 1 250 kg parteix del repòs i arriba a una velocitat final v = 50 km/h
+      circulant per un circuit horitzontal. El cotxe és propulsat per un motor de combustió interna
+      de rendiment η = 0,25.
+          La benzina té un poder calorífic pc = 46 MJ/kg i una densitat ρ = 0,72 g/cm3. El factor
+      d’emissions de la benzina és FE = 2,157 kg de CO2 per litre de combustible.
+          Si es poden negligir totes les resistències passives, determineu:
+          a) El treball mecànic aportat pel motor, W.
+                [1 punt]
+
+
+
+
+           b) La quantitat de benzina utilitzada, mbenz.
+                [1 punt]
+
+
+
+
+–8–
+c) La petjada de CO2 emesa a l’atmosfera, mCO .
+                                              2
+
+   [0,5 punts]
+
+
+
+
+                                                  –9–
+         Exercici 5
+         [2,5 punts en total]
+              Es vol estudiar la força necessària que ha de fer el múscul tibial anterior per tal de garantir
+         que la planta del peu es trobi en posició horitzontal quan es manté elevat sense tocar a terra.
+         La figura mostra un esquema del peu en aquesta posició.
+              El centre de l’articulació del turmell és el punt O, que es considera fix. El peu, que s’ha
+         representat amb el triangle OPT, té el centre d’inèrcia al punt G i una massa m = 2,2 kg. El
+         múscul tibial anterior s’insereix al punt Q i fa una força Fm. El seu braç de moment respecte
+         a O (distància entre la línia d’acció de la força i el punt O) és a = 30 mm i la seva línia d’acció
+         forma un angle φ = 9° respecte a la vertical.
+
+
+
+
+              Per a aquesta posició estàtica:
+              a) Dibuixeu el diagrama de cos lliure del peu.
+                   [1 punt]
+
+
+
+
+– 10 –
+b) Determineu la força que fa el múscul, Fm.
+   [0,5 punts]
+
+
+
+
+c) Determineu les forces a l’articulació O.
+   [1 punt]
+
+
+
+
+                                               – 11 –
+         Exercici 6
+         [2,5 punts en total]
+
+
+
+
+              El circuit de la figura mostra una font de tensió alterna sinusoidal de freqüència f = 50 Hz
+         que alimenta una càrrega formada per una resistència R1 = 5 Ω en sèrie amb una inductància
+         L1 = 7 mH. El wattímetre està connectat de manera que mesura la potència activa total consu-
+         mida per la càrrega W1 = 950 W. Determineu:
+              a) El valor òhmic de la reactància inductiva, XL , que presenta la inductància L1.
+                                                                1
+
+                   [0,5 punts]
+
+
+
+
+              b) El factor de potència, cos φ, de la càrrega.
+                   [0,5 punts]
+
+
+
+
+– 12 –
+c) El valor de la impedància equivalent de tot el circuit, Z.
+   [0,5 punts]
+
+
+
+
+d) El valor de la mesura de l’amperímetre, A1.
+   [0,5 punts]
+
+
+
+
+e) El valor eficaç de la tensió d’alimentació, U1.
+   [0,5 punts]
+
+
+
+
+                                                                – 13 –
+         [Pàgina per a fer esquemes, esborranys, etc., o per a acabar de respondre a algun exercici.]
+
+
+
+
+– 14 –
+[Pàgina per a fer esquemes, esborranys, etc., o per a acabar de respondre a algun exercici.]
+
+
+
+
+                                                                                               – 15 –
+                                      Etiqueta de l’estudiant
+
+
+
+
+L’Institut d’Estudis Catalans ha tingut cura de la correcció lingüística i de l’edició d’aquesta prova d’accés
+

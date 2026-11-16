@@ -1,0 +1,366 @@
+                                                                            Pàgina 1 de 9
+                                          Matemàtiques aplicades a les ciències socials
+                                 Proves d’accés a la Universitat 2025. Criteri d'avaluació
+
+
+SÈRIE 0
+
+Exercici 1.
+
+   a) La tarifa de la companyia A segueix la funció 𝑓(𝑥) = 0,4𝑥 + 20. Mentre que la
+      tarifa de la companyia B és 𝑔(𝑥) = 0,01𝑥 2 + 0,1𝑥 + 10.
+
+      Per trobar el preu de les tarifes si fem un recorregut de 10 km o de 80 km
+      només hem de substituir:
+
+                                 𝑓(10) = 24,     𝑔(10) = 12.
+
+      Per tant, si fem un recorregut de 10 km la tarifa de la companyia A ens surt 12
+      euros més cara que la de la companyia B. D’altra banda,
+
+                                 𝑓(80) = 52,      𝑔(80) = 82.
+
+      En aquest cas la tarifa de la companyia A és 30 euros més econòmica que la
+      tarifa de la companyia B.
+
+      Si substituïm 𝑥 = 0 a la tarifa de la companyia B, observem que 𝑔(0) = 10, per
+      tant, efectivament hi ha un cost fix de 10 euros només pel sol fet de pujar al
+      taxi.
+
+
+   b) Per trobar el valor pel qual les dues tarifes coincideixen hem de resoldre
+      l’equació:
+
+                            0,4𝑥 + 20 = 0,01𝑥 2 + 0,1𝑥 + 10
+
+              𝑥 2 − 30𝑥 − 1000 = 0 que té per solucions 𝑥 = 50 i 𝑥 = −20.
+
+      Descartem la segona solució perquè no té sentit en el context del problema i
+      obtenim que per a una distància de 𝑥 = 50 km, les dues tarifes coincideixen.
+      Per a distàncies entre 0 km i 50 km, observem que la segona tarifa és inferior a
+      la primera. La diferència de preu entre totes dues tarifes si 𝑥 ∈ [0,50] vindrà
+      donada per la funció:
+      𝐷(𝑥) = 0,4𝑥 + 20 − (0,01𝑥 2 + 0,1𝑥 + 10) = −0,01𝑥 2 + 0,3𝑥 + 10. Per trobar el
+      màxim calculem la derivada:
+      𝐷 ′ (𝑥) = −0,02𝑥 + 0,3,
+      la igualem a zero i obtenim 𝑥 = 15.
+      Observem que es tracta d’un màxim perquè la derivada és positiva per a valors
+      inferiors a 𝑥 = 15, i, per tant, la diferència de preu és creixent, mentre que és
+      negativa per a valors superiors a 𝑥 = 15, i, per tant, la funció 𝐷(𝑥) és decreixent.
+      Quan 𝑥 = 15 la diferència de preu entre una tarifa i l’altra és de 𝐷(15) = 12,25
+      euros.
+                                                                             Pàgina 2 de 9
+                                           Matemàtiques aplicades a les ciències socials
+                                  Proves d’accés a la Universitat 2025. Criteri d'avaluació
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara. Si no és el cas, es pot descomptar fins a un màxim de 0,25 punts.
+
+a) Trobar les tarifes de les dues companyies si fem un recorregut de 10 km: 0,25
+punts. Trobar les tarifes de les dues companyies per al recorregut de 80 km: 0,25
+punts. Calcular la diferència en els dos casos: 0,25 punts. Calcular el cost fix de la
+tarifa de la companyia B: 0,25 punts.
+
+b) Calcular el valor pel qual les dues tarifes coincideixen: 0,5 punts. Trobar la funció
+que ens dona la diferència entre les dues tarifes: 0,25 punts. Trobar el valor pel qual
+s’assoleix el màxim: 0,25 punts. Justificar que es tracta d’un màxim: 0,25 punts. Trobar
+el valor de la diferència màxima de tarifes per distàncies inferiors a 50 km: 0,25 punts.
+                                                                            Pàgina 3 de 9
+                                          Matemàtiques aplicades a les ciències socials
+                                 Proves d’accés a la Universitat 2025. Criteri d'avaluació
+
+Exercici 2.
+   a) Anomenarem 𝑥, 𝑦 i 𝑧 la producció de sofàs del mes passat de la primera, segona
+      i tercera fàbrica, respectivament. Tenim el sistema d’equacions següent:
+
+                                       𝑥 + 𝑦 + 𝑧 = 1260
+                                   {
+                                         𝑥−𝑦+𝑧 =0
+
+      Utilitzant el mètode de Gauss en l’ordre 𝑥, 𝑦, 𝑧, s’obté el sistema:
+
+                          1 1 1 1260   1 1                1 1260
+                        (       |   )→(                    |    )
+                         1 −1 1 0      0 2                0 1260
+
+      Es tracta d’un sistema compatible indeterminat ja que tant el rang de matriu com
+      de la matriu ampliada és 2 i en canvi tenim tres incògnites; per tant, no es pot
+      determinar quants sofàs van produir cadascuna de les tres fàbriques. Tanmateix
+      observem que podem trobar la producció de la segona fàbrica a partir de la
+      segona equació i obtenim 𝑦 = 630 sofàs.
+
+
+   b) Ara tenim el sistema d’equacions següent:
+
+                                        𝑥 + 𝑦 + 𝑧 = 1260
+                                 {        𝑥−𝑦+𝑧 =0
+                                   0,1 𝑥 + 0,3 𝑦 + 0,2 𝑧 = 284
+
+      Fem un canvi entre la primera i la segona fila i multipliquem la última fila per 10.
+      S’obté:
+                                        𝑥−𝑦+𝑧 =0
+                                  {   𝑥 + 𝑦 + 𝑧 = 1260
+                                    𝑥 + 3𝑦 + 2𝑧 = 2840
+
+
+      Utilitzant el mètode de Gauss, prenent les variables en l’ordre 𝑥, 𝑦, 𝑧, obtenim la
+      matriu:
+                   1 −1 1 0            1 −1 1 0             1 −1 1 0
+                 (1 1 1|1260) → (0 2 0|1260) → (0 1 0|630)
+                   1 3 2 2840          0 4 1 2840           0 0 1 320
+
+
+      Podem concloure que és un sistema compatible determinat, ja que tant el rang
+      de la matriu, com el de la matriu ampliada com el nombre d’incògnites és 3.
+      Resolent-lo s’obté la solució 𝑧 = 320, 𝑦 = 630 i 𝑥 = 310. Així doncs, la primera
+      fàbrica va produir 310 sofàs el mes passat; la segona, 630, i la tercera, 320.
+                                                                            Pàgina 4 de 9
+                                          Matemàtiques aplicades a les ciències socials
+                                 Proves d’accés a la Universitat 2025. Criteri d'avaluació
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara. Si no és el cas, es pot descomptar fins a un màxim de 0,25 punts.
+
+a) Plantejament del sistema: 0,25 punts cada equació. Resolució del sistema: 0,5
+punts. Obtenció del nombre de sofàs produïts per la segona fàbrica: 0,25 punts.
+
+b) Plantejament de l’equació addicional: 0,25 punts. Resolució del sistema: 0,5 punts.
+Obtenció del nombre de sofàs produïts per la primera i la tercera fàbrica: 0,5 punts.
+                                                                                 Pàgina 5 de 9
+                                               Matemàtiques aplicades a les ciències socials
+                                      Proves d’accés a la Universitat 2025. Criteri d'avaluació
+
+Exercici 3.
+
+      a) La mida de la mostra és 𝑛 = 350. L’estimació puntual de la proporció de
+      persones que està a favor de la proposta és
+
+                                         218
+                                           𝑝̂ =
+                                              = 0,6229.
+                                         350
+      L’estimació puntual de la proporció de persones a favor de la proposta és de
+      0,6229, és a dir, un 62,29%.
+
+      Quan la mida de la mostra és gran, l’interval de confiança per a una proporció
+      amb un nivell de confiança 𝛾𝜖(0,1) s’obté a partir de la fórmula:
+
+
+
+                                         𝑝̂ (1 − 𝑝̂ )            𝑝̂ (1 − 𝑝̂ )
+                               [𝑝̂ − 𝑧𝛾 √             , 𝑝̂ + 𝑧𝛾 √             ],
+                                              𝑛                       𝑛
+
+
+
+      en què, si 𝑍 segueix una distribució normal (0,1), P(−𝑧𝛾 ≤ 𝑍 ≤ 𝑧𝛾 ) = 𝛾.
+
+
+      Per tant tenim que els extrems de l’interval són:
+                        𝑝̂ (1 − 𝑝̂ )                 0,6229(1 − 0,6229)
+               𝑝̂ − 𝑧𝛾 √             = 0,6229 − 1,96√                   = 0,5721
+                             𝑛                              350
+      i
+                        𝑝̂ (1 − 𝑝̂ )                 0,6229(1 − 0,6229)
+               𝑝̂ + 𝑧𝛾 √             = 0,6229 + 1.96√                   = 0,6737
+                             𝑛                              350
+
+
+      L’interval de confiança demanat és [57,21% , 67,37%], és a dir, el percentatge
+      de persones que està a favor de la proposta està entre el 57,21% i el 67,37%,
+      amb una confiança del 95%.
+
+    b) Considerem els esdeveniments:
+    𝐴 = l’individu escollit és del poble A
+    𝐵 = l’individu escollit és del poble B
+    𝐹 = l’individu està a favor de la construcció del poliesportiu
+                         250     10                          175     7
+    Sabem que 𝑃(𝐴) = 425 = 17 = 0,5882, 𝑃(𝐵) = 425 = 17 = 0,4118.
+                                                                              Pàgina 6 de 9
+                                            Matemàtiques aplicades a les ciències socials
+                                   Proves d’accés a la Universitat 2025. Criteri d'avaluació
+
+     Si sabem que l’individu és del poble A, la probabilitat que estigui a favor de la
+     construcció del poliesportiu és:
+                                        180 18
+                               𝑃(𝐹|𝐴) =      =     = 0,7200.
+                                        250 25
+
+     D’altra banda, si sabem que l’individu és del poble B, la probabilitat que estigui
+     a favor de la construcció del poliesportiu és:
+                                          90     18
+                               𝑃(𝐹|𝐵) =       =     = 0,5143.
+                                         175 35
+     Per tant, usant la fórmula de les probabilitats totals, tenim que la probabilitat
+     que l’individu estigui a favor de la construcció del poliesportiu és:
+                                                                       18 10 18 7
+      𝑃(𝐹) = 𝑃(𝐹 ∩ 𝐴) + 𝑃(𝐹 ∩ 𝐵) = 𝑃(𝐹|𝐴)𝑃(𝐴) + 𝑃(𝐹|𝐵)𝑃(𝐵) =               ·  +     ·
+                                                                       25 17 35 17
+                         54
+                       =     = 0,6353.
+                         85
+
+     Així doncs, la probabilitat que l’individu estigui a favor de la construcció del
+     poliesportiu és de 0,64.
+        Ara ens demanen:
+                                                    18 10
+                                  𝑃(𝐹|𝐴) · 𝑃(𝐴) 25 · 17 2
+                       𝑃(𝐴|𝐹) =                   =         = = 0,6667.
+                                       𝑃(𝐹)           54       3
+                                                      85
+        La probabilitat que l’individu sigui del poble A, si sabem que està a favor de
+        la construcció del poliesportiu, és de 2/3.
+
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara. Si no és el cas es pot descomptar fins a un màxim de 0,25 punts.
+
+a) Càlcul de la proporció mostral: 0,25 punts. Interpretació correcta de la fórmula i
+   substitució correcta de cada paràmetre pel seu valor: 0,5 punts. Resultat final: 0,5
+   punts.
+
+b) Assignació correcta d’esdeveniments i de les dades de l’enunciat: 0,25 punts.
+   Fórmula de la probabilitat total: 0,25 punts. Resultat de la primera probabilitat
+   demanada: 0,25 punts. Plantejament de la segona probabilitat demanada: 0,25
+   punts. Obtenció d’aquesta probabilitat: 0,25 punts.
+                                                                             Pàgina 7 de 9
+                                           Matemàtiques aplicades a les ciències socials
+                                  Proves d’accés a la Universitat 2025. Criteri d'avaluació
+
+Exercici 4
+OPCIÓ A
+
+   a) Si el tractor fa el recorregut a 𝑥 km/h, obtenim que el temps que trigarà a fer tot
+                        300
+      el trajecte és de 𝑥 hores. Per tant, el cost total del trajecte sumant les
+      despeses de gasoil i el salari del conductor, en funció de la velocitat en
+      quilòmetres per hora, 𝑥, serà:
+
+                              𝑥 2 300          300                 24,5
+               𝐶(𝑥) = (5 +       )·   · 1,96 +     · 14,70 = 300 (      + 0,02𝑥).
+                              98    𝑥           𝑥                   𝑥
+
+
+   b) Sabem de l’apartat a) que els costos si el poble es troba a 300 km venen
+      donats, en funció de la velocitat 𝑥, per la funció:
+
+                                                     24,5
+                                  𝐶300 (𝑥) = 300 (        + 0,02𝑥).
+                                                      𝑥
+
+      Pels mateixos arguments, si el poble està situat a 200 km o a 100 km la funció
+      dels costos en funció de la velocitat 𝑥 serà:
+
+                                                     24,5
+                                  𝐶200 (𝑥) = 200 (        + 0,02𝑥).
+                                                      𝑥
+                                                  24,5
+                                  𝐶100 (𝑥) = 100 (     + 0,02𝑥).
+                                                   𝑥
+
+      Substituint la velocitat 𝑥 pels valors de 35, 25 i 15 km/h obtenim la matriu de
+      costos en funció de la velocitat i de la distància del poble:
+
+                                           100 200 300
+
+                                          140 280 420
+                                    35
+                                          148 296 444
+                                    25   (580 1160     )
+                                    15             580
+                                           3   3
+
+      Per trobar el cost de portar els tractors als diferents pobles, haurem de fer el
+      producte de matrius:
+
+                               140 280 420
+                                                 3     2100
+                               148 296 444
+                              (580 1160     ) · (3) = (2220).
+                                        580      2     2900
+                                3   3
+                                                                             Pàgina 8 de 9
+                                           Matemàtiques aplicades a les ciències socials
+                                  Proves d’accés a la Universitat 2025. Criteri d'avaluació
+
+       Obtenim que el cost de portar tots els tractors serà de 2.100 € si els tractors
+       van a 35 Km/h; serà de 2.220 €, si circulen a 25 Km/h, i, finalment, serà de
+       2.900 € si van a 15 km/h.
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara. Si no és el cas, es pot descomptar fins a un màxim de 0,25 punts.
+
+a) Càlcul del temps necessari per fer el trajecte: 0,25 punts. Càlcul del cost del gasoil:
+0,25 punts. Càlcul del cost del conductor: 0,25 punts. Obtenció de la funció que dona
+el cost en funció de 𝑥: 0,5 punts.
+
+b) Obtenció de la matriu: 0,75 punts. Càlcul del producte de matrius: 0,25 punts.
+Resultat final: 0,25 punts.
+                                                                            Pàgina 9 de 9
+                                          Matemàtiques aplicades a les ciències socials
+                                 Proves d’accés a la Universitat 2025. Criteri d'avaluació
+
+OPCIÓ B
+
+   a) Per trobar el cost més econòmic cal buscar el mínim de la funció 𝐶(𝑥).
+      Comencem calculant la derivada:
+
+                                                  7350
+                                      𝐶’(𝑥) = −        +6
+                                                   𝑥2
+
+                                                7350
+       Si la igualem a zero obtenim que x=±√ 6 = ±35 km/h
+
+       Descartem la solució negativa perquè no té sentit en el context del problema i
+       observem que la derivada 𝐶’(𝑥) és negativa per a valors inferiors a 𝑥 = 35 i, per
+       tant, la funció 𝐶(𝑥) és decreixent, mentre que és positiva per a valors superiors
+       a 𝑥 = 35 i, per tant, la funció 𝐶(𝑥) és creixent. Així, doncs, en 𝑥 = 35 hi trobem
+       un mínim local.
+                                                       7350
+       El cost a aquesta velocitat serà de: 𝐶(35) =         + 6 · 35 = 420 €
+                                                        35
+
+   b) Considerem la variable 𝑋 que compta el nombre de cops que s’atura el
+      conductor. Aquesta variable segueix una distribució binomial de paràmetres
+                                                         1
+       𝑛 = 3, perquè hi ha tres àrees de servei, i 𝑝 = 3 que correspon a la probabilitat
+       que s’aturi a cada una de les àrees.
+
+       Per tant, la probabilitat que no s’aturi cap vegada és:
+
+                                           2 3  8
+                               𝑃(𝑋 = 0) = ( ) =    = 0,2963.
+                                           3    27
+
+       D’altra banda, la probabilitat que s’aturi exactament dues vegades serà:
+                                         3     1 2 2      2
+                           𝑃(𝑋 = 2) = ( ) · ( ) · ( ) = = 0,2222.
+                                         2     3     3    9
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara. Si no és el cas es pot descomptar fins a un màxim de 0,25 punts.
+
+a) Càlcul de la derivada: 0,5 punts. Càlcul del punt on es troba el mínim: 0,25 punts.
+   Justificació que es tracta d’un mínim: 0,25 punts. Càlcul del cost a aquesta
+   velocitat: 0,25 punts.
+
+b) Identificació de la distribució binomial: 0,25 punts. Càlcul de la probabilitat que no
+   s’aturi cap cop: 0,5 punts. Càlcul de la probabilitat que s’aturi exactament dos cops:
+   0,5 punts.
+

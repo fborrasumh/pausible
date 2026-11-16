@@ -1,0 +1,408 @@
+                                                                                         Pàgina 1 de 11
+                                                                                              Química
+          Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+SÈRIE 3
+
+L’alumnat ha de respondre les 4 preguntes proposades.
+
+Les tres primeres preguntes consten de dos apartats (a i b) que valen sempre 1,25 punts. La
+pregunta quatre consta de quatre apartats dels quals només s’han de respondre dos.
+
+Com a norma general, tingueu en compte que un error no s’ha de penalitzar dues vegades. Si
+un càlcul necessita un resultat anterior, i aquest és erroni, cal valorar la resposta
+independentment del valor numèric, i tenir en compte el procediment de resolució (sempre que
+els valors emprats i/o els resultats no siguin absurds).
+
+Un error en la formulació penalitza 0,5 punts en aquell apartat, com s’explicita en la pauta.
+En cap cas un apartat pot tenir una puntuació “negativa”.
+                                                                                           Pàgina 2 de 11
+                                                                                                Química
+           Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+Exercici 1a
+
+Càlcul de la Kc
+
+Càlcul de les concentracions a l’inici (M) de cada compost (V = 500 cm3 = 0,5 L):
+     Concentració de N2 = 0,5 mol / 0,5 L = 1 M
+     Concentració d’O2 = 0,5 mol / 0,5 L = 1 M
+
+Concentració de totes les espècies en l’equilibri:
+
+                                N2(g) + O2(g) ⇄ 2 NO(g)
+
+Concentració a l’inici            1           1
+Concentració a l’equilibri       1-x         1-x          2x                                    [0,20 p.]
+
+
+La constant d’equilibri (Kc) a 1100 K és 1,0 x 10-5, per tant:
+
+                                               [𝑁𝑂]2             (2𝑥)2            4𝑥 2
+                         1,0 𝑥 10−5 =                     =                 =                    [0,30 p.]
+                                             [𝑁2 ][𝑂2   ]     (1−𝑥)·(1−𝑥)       1−2𝑥+𝑥 2
+
+
+S’ha de resoldre l’equació de segon grau:
+
+                       1,0 · 10−5 − 2,0 · 10−5 𝑥 + 1,0 · 10−5 𝑥 2 = 4𝑥 2
+
+                     𝟒𝒙𝟐 − 𝟏, 𝟎 · 𝟏𝟎−𝟓 𝒙𝟐 + 2,0 · 10−5 𝑥 − 1,0 · 10−5 = 0
+
+      i com que 4𝑥 2 >>> 1,0 𝑥 10−5 𝑥 2 , es pot simplificar a 4𝑥 2 – 1,0 x 10−5 𝑥 2 ≅ 𝟒𝒙𝟐
+
+                               4𝑥 2 + 2,0 · 10−5 𝑥 − 1,0 · 10−5 = 0
+
+L’equació de segon grau té dues solucions:
+                         x = 1,58 ·10-3 i x = - 1,58 · 10-3 < 0 que es descarta.
+                      ⇒ x = 1,58 · 10-3 M                                                       [0,30 p.]
+
+Per tant, les concentracions dels tres gasos a l’equilibri són:
+      [N2]eq = 1 - x = 1 – 1,58 ·10-3 = 0,998 M                                                 [0,15 p.]
+      [O2]eq = 1 - x = 1 – 1,58 ·10-3 = 0,998 M                                                 [0,15 p.]
+      [NO]eq = 2 x 1,58 ·10-3 = 3,16 · 10-3 M                                                   [0,15 p.]
+                                                                                          Pàgina 3 de 11
+                                                                                               Química
+           Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+Exercici 1b
+
+Justificació del tipus de reacció: exotèrmica o endotèrmica
+Segons les dades de l’enunciat, la constant d’equilibri en concentracions (Kc) és més gran a
+temperatures altes (1100 K) i menor a temperatures baixes (298 K), per tant, la reacció és
+endotèrmica (ΔH0 > 0), ja que si la temperatura augmenta (T2 >T1), s’afavoreix la reacció cap
+a la dreta (productes) i la Kc augmenta.
+      ⇒ Kc (298 K) = 1,0 x 10-30 < Kc (1100 K) = 1,0 x 10-5
+      ⇒ A temperatura més elevada la Kc és més gran, per tant, la reacció és endotèrmica.
+                                                                                           [0,30 p.]
+Rendiment a altes i baixes temperatures
+Com que la reacció és endotèrmica i la Kc incrementa amb la temperatura, la concentració del
+producte (NO) és més gran també a altes temperatures; per tant, el rendiment de la reacció és
+més gran a altes temperatures.
+      ⇒ Kc (1100 K) > Kc (298 K)
+      ⇒El rendiment a altes temperatures serà més gran perquè la concentració de NO
+      serà més gran en l’equilibri.                                     [0,30 p.]
+
+Efecte en l’equilibri i el rendiment un augment de pressió a temperatura constant
+En augmentar la pressió segons el principi de Le Châtelier, l’equilibri es desplaça cap el sentit
+amb menys nombre de mols, per, d’aquesta manera, produir una disminució de la pressió. En
+aquest cas no hi haurà cap efecte perquè el nombre de mols de reactius i de productes és el
+mateix (Δn = 0).
+ No s’afavoreix ni la reacció inversa (cap a l’esquerra) ni la reacció directa (cap a la dreta)
+ No es modifica el rendiment de la reacció quan incrementa la pressió.           [0,30 p.]
+
+Càlcul de la Kp
+Relació entre Kc i Kp
+        𝐾𝑝 = 𝐾𝑐 (𝑅𝑇)∆𝑛                                                         [0,10 p.]
+             R: constant universal dels gasos ideals
+             T: temperatura en K
+             Δn: increment del nombre de mols de gasos al passar de reactius a productes.
+Càlcul Kp (pressions expressades en atmosferes)
+                                                                              𝑎𝑡𝑚·𝐿
+       Δn = Σ n productes – Σ n reactius = 2 – 2 = 0      i      RT = 0,082 𝐾·𝑚𝑜𝑙 𝑥 1100 𝐾
+                                                                               0
+                                                              𝑎𝑡𝑚 · 𝐿
+              𝐾𝑝 = 𝐾𝑐 (𝑅𝑇)∆𝑛 = 1,0 𝑥 10−5 (0,082                      𝑥 1100 𝐾) = 1,0 · 10−5
+                                                              𝐾 · 𝑚𝑜𝑙
+            Kp = 𝟏, 𝟎 𝒙 𝟏𝟎−𝟓                                                        [0,25 p.]
+                                                                                          Pàgina 4 de 11
+                                                                                               Química
+           Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+Exercici 2a
+
+Tipus d’enllaç compostos A i B
+La representació A representa un enllaç covalent per a formar molècules. En la molècula
+l’àtom de beril·li és l’àtom central i la geometria és lineal.
+Predomina el caràcter covalent, per això s’ha representat com a molècula. Es tracta de clorur
+de beril·li en estat gasós. La diferència d’electronegativitat entre el Cl i Be és 3,0 - 1,5 = 1,5
+< 1,7 (menys del 50 % de caràcter iònic).
+La representació B correspon a una xarxa tridimensional iònica on hi ha representats el ions
+Li+ en els vèrtexs i els ions Cl- en les arestes. En la xarxa cada ió positiu està envoltat a la
+distància més curta per ions negatius, de manera que les forces d’atracció superen les de
+repulsió.
+Predomina el caràcter d’enllaç iònic, per això hi ha representada una xarxa tridimensional
+iònica. La diferència d’electronegativitat entre el Cl i Li és 3,0 - 1,0 = 2 > 1,7 (més del 50 %
+de caràcter iònic).                                                                 [0,40 p.]
+Estructures Lewis de BeCl2 i de l’H2O
+H2 O
+O = 6 electrons de valència
+H = 1 electró de valència
+6 + 2 × 1 = 8 electrons (4 parells per col·locar)                                          [0,20 p.]
+
+BeCl2                                                               Cl ― Be ― Cl
+Be = 2 electrons de valència
+Cl = 7 electrons de valència
+2 + 7 × 2 = 16 electrons (8 parells per col·locar)                                         [0,20 p.]
+
+Geometria de les molècules segons la teoria de RPECV i polaritat
+En el BeCl2, l’àtom central (Be) s’envolta de 2 parells d’electrons, per tant, la forma bàsica és
+lineal. Com que els 2 parells d’electrons són enllaçants (d’enllaç), la geometria és lineal.
+                                                                                     [0,15 p.]
+En l’H2O, l’àtom central (O) s’envolta de 4 parells d’electrons, per tant, la forma bàsica és
+tetraèdrica. Com que hi ha 2 parells d’electrons enllaçants (d’enllaç) i 2 parells d’electrons no
+enllaçants (lliures) la geometria és angular.                                       [0,15 p.]
+
+La molècula de BeCl2 és apolar perquè com que és lineal s’anul·len els moments dipolars.
+La molècula d’aigua és polar ja que com que és angular no s’anul·len els moments dipolars,
+i hi ha un moment dipolar resultant.                                         [0,15 p.]
+                                                                                          Pàgina 5 de 11
+                                                                                               Química
+           Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+Exercici 2b
+
+Valor de les energies d’ionització
+Els valors de les energies d’ionització són positius perquè cal subministrar energia per arrencar
+un electró d’un àtom i es tracta d’un procés endotèrmic.
+                                                                                           [0,25 p.]
+Grup i període
+Configuracions electròniques
+Li (Z=3) 1s2, 2s1
+Be (Z=4) 1s2, 2s2                                                                          [0,10 p.]
+
+
+Grup i període
+Li (Z=3) és del període 2 (n=2) i del grup 1 (2s1)                                         [0,20 p.]
+Be (Z=4) és del període 2 (n=2) i del grup 2 (2s2)                                         [0,20 p.]
+
+Raonament dels valors d’energia d’ionització en base al model de càrregues de l’àtom
+Opcional:
+   - Els dos elements liti i beril·li es troben en el mateix període de la taula periòdica i, per
+      tant, ambdós tenen el mateix nombre quàntic n=2.
+   - El liti té només un electró en la capa de valència (2s1) i el beril·li té dos electrons en la
+      capa de valència (2s2), només hi ha una diferència d’1 electró.
+L’àtom de liti té un protó menys en el nucli (menys carrega positiva) que l’àtom de beril·li
+(més càrrega positiva), llavors la força d’atracció del nucli de l’àtom de liti és menor que la
+de l’àtom de beril·li.
+L’electró del liti és atret amb menys força pel nucli que els dos electrons del beril·li (llei de
+Coulomb) que es troben al mateix orbital i no es troben separats. Per tant, el radi atòmic del
+beril·li és més petit que el radi atòmic del liti.
+⇒ El radi de l’àtom de beril·li és més petit que el radi de l’àtom de liti.                [0,25 p.]
+
+
+Com més petit és el radi atòmic més atrets es troben els electrons (càrrega negativa) pel
+nucli (càrrega positiva) i més energia es necessita per arrencar un electró. Costarà més
+arrencar un electró de l’àtom de beril·li (2s2) que d’un àtom de liti (2s1).
+El beril·li té una primera energia d’ionització més gran que el liti.
+⇒ La primera energia d’ionització de l’àtom de beril·li és més gran que la primera energia
+d’ionització de l’àtom de liti.
+                                                                                           [0,25 p.]
+                                                                                         Pàgina 6 de 11
+                                                                                              Química
+          Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+Exercici 3a
+
+Formulació. Hidròxid de sodi: NaOH                                       [-0,50 p. si no formulen bé]
+
+pH de la solució d’àcid fòrmic 0,20 M
+Equilibri de l’àcid metanoic
+                                 HCOOH + H2O ⇄ HCOO- + H3O+
+Concentració a l’inici             0,20         --      --
+Concentració a l’equilibri        0,20 - x       x      x
+
+                        [𝐻𝐶𝑂𝑂− ][𝐻3 𝑂+ ]
+              𝐾𝑎 =           [H𝐶𝑂𝑂𝐻]
+                                                                                          [0,15 p.]
+
+Càlcul concentració de ió hidroni (oxidani/oxoni) i pH
+
+                                                     [(𝑥)·(𝑥)]
+                               1,77 𝑥 10−4 = (0,20−𝑥)              (equació 1)
+
+                             𝑥 2 + 1,77 𝑥 10−4 𝑥 − 3,54 𝑥 10−5 = 0
+Resolent l'equació quadràtica, es troba que 𝒙 = 𝟎, 𝟎𝟎𝟓𝟖𝟔𝟐. L’altra solució és negativa.
+       [H3O+] = 5,862 x 10-3 M                                                            [0,30 p.]
+       pH = - log [H3O+] = - log (5,862 x 10-3)  pH = 2,23                               [0,20 p.]
+
+Reacció de valoració
+      HCOOH(aq) + OH-(aq) → HCOO-(aq) + H2O(l)                                             [0,20 p.]
+      (o també: HCOOH(aq) + NaOH(aq) → HCOONa(aq) + H2O(l)
+
+
+Càlcul del volum de NaOH
+A partir de la reacció igualada (estequiometria 1 a 1 perquè es tracta d’un àcid monopròtic) i
+coneixent que:
+   [HCOOH] = 0,20 M; V (HCOOH) = 25 mL = 0,025 L i [NaOH] = 0,15 M
+es pot calcular el V(NaOH): (0,20 mol/L) x (0,025 L) = 0,15 mol/L x V(NaOH)
+     V(NaOH) = (0,20 mol/L x 0,025 L) / 0,15 mol/L = 0,0333 L de NaOH 0,15 M
+ V(NaOH) = 0,0333 L o 33,3 mL                                                              [0,40 p.]
+                                                                                          Pàgina 7 de 11
+                                                                                               Química
+           Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+Exercici 3b
+
+Justificació del pH en el punt d’equivalència i elecció d’indicador
+La sal que es forma en el procés de neutralització és el metanoat de sodi (HCOONa).
+El catió Na+ no reacciona amb l’aigua però l’anió metanoat (HCOO-), que és la base
+conjugada d’un àcid dèbil, reaccionarà amb l’aigua i donarà lloc a una hidròlisi bàsica:
+       HCOO-(aq) + H2O(l) ⇄ HCOOH(aq) + OH-(aq)
+En el punt d’equivalència només tindrem l’anió HCOO- i el catió Na+. Per tant, el pH en el punt
+d’equivalència només ve determinat per la presència de l’anió HCOO- i serà bàsic. [0,25 p.]
+L’indicador més adient per dur a terme la valoració i la detecció del punt final és la fenolftaleïna
+perquè és l’indicador que canvia de color al pH més bàsic (8,0-9,5).                      [0,20 p.]
+
+Material i altres substàncies per dur a terme la valoració:                                   [0,20 p.]
+      (a part de les solucions d’àcid metanoic i NaOH)
+  ✓ Bureta, amb un peu i pinça per subjectar-la.
+  ✓ Pipeta aforada de 25 mL amb pera d’aspiració.
+  ✓ Erlenmeyer (o vas de precipitats).
+  ✓ Indicador àcid – base que viri a la zona de pH bàsic.
+
+Procediment per dur a terme la valoració:                                                       [0,60 p.]
+   ✓ S’omple la bureta amb la solució de NaOH, evitant que es formin bombolles d’aire dins
+     de la bureta.
+   ✓ S’enrasa el volum de NaOH de la bureta (a zero o a un altre volum).
+   ✓ Amb la pipeta aforada (i la pera) agafem els 25,0 mL de la solució d’àcid metanoic i els
+     transvasem a l’erlenmeyer (o vas de precipitats). Es pot afegir una mica d’aigua
+     destil·lada per rentar les parets de l’erlenmeyer.
+   ✓ Afegim 2-3 gotes de l’indicador àcid-base a l’erlenmeyer.
+   ✓ Obrim la clau de la bureta i anem afegint NaOH, tot agitant contínuament l’erlenmeyer,
+     fins a observar un canvi de color de la solució.
+   ✓ Tanquem la clau de la bureta i anotem el volum consumit de NaOH gastat.
+                                                                                          Pàgina 8 de 11
+                                                                                               Química
+           Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+Exercici 4a
+Formulació. Etanol: CH3-CH2-OH
+Reacció de combustió de l’etanol
+               CH3-CH2-OH(l) + 3 O2(g) → 2 CO2(g) + 3 H2O(g)                               [0,20 p.]
+Càlcul de l’entalpia estàndard de combustió de l’etanol
+L’entalpia estàndard d’una reacció es pot calcular a partir de les energies dels enllaços trencats
+(reactius) menys les energies dels enllaços formats (productes):
+   Ho=  nr E trencats -  np E formats                                            [0,10 p.]
+En els reactius cal trencar:
+               1 enllaç C-C
+               5 enllaços C-H
+               1 enllaç C-O
+               1 enllaç O-H
+               3 enllaços O=O (3 mol O2)
+En els productes cal formar:
+              4 enllaços C=O (2 mol CO2)
+              6 enllaços O-H (3 mol H2O)
+Per tant,
+Ho = [1 E C-C + 5 E C-H + 1 E C-O + + 1 E O-H + 3 E O=O] – [4 E C=O + 6 E O-H]            [0,30 p.]
+Ho = [(1 x 348) + (5 x 412) + (1 x 358) + (1 x 463) + (3 x 498)] – [(4 x 799 + (6 x 463)] =
+= - 1251 kJ mol-1              Ho = – 1251 kJ mol-1                                      [0,20 p.]
+
+Eficiència energètica de l’etanol i l’èter dimetílic per unitat de massa
+Energia per gram de compost
+Massa molar etanol (CH3CH2OH): 6 x 1 + 2 x 12 + 1 x 16 = 46 g mol-1
+Massa molar èter dimetílic (CH3OCH3): 6 x 1 + 2 x 12 + 1 x 16 = 46 g mol-1
+Etanol: - 1251 kJ mol-1 x 1 mol etanol / 46 g = - 27,196 kJ g-1
+Éter dimetílic: - 1292 kJ mol-1 x 1 mol èter dietílic / 46 g = - 28,086 kJ g-1             [0,25 p.]
+Justificació
+
+L'èter dimetílic allibera més energia per gram i el fa més eficient com a combustible per
+unitat de massa.                                                              [0,20 p.]
+                                                                                         Pàgina 9 de 11
+                                                                                              Química
+          Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+Exercici 4b
+
+Raonament i justificació tipus d’isomeria
+L’etanol i l’èter dimetílic són isòmers perquè tenen la mateixa fórmula molecular C2H6O,
+però diferent connectivitat entres els seus àtoms, per tant, es tracta de diferents molècules i
+tenen diferents grups funcionals.
+                                                                                          [0,25 p.]
+
+Això els converteix en isòmers estructurals o constitucionals de grup funcional, ja que
+pertanyen a diferents tipus de compostos: l’etanol és un alcohol (amb un grup hidroxil: −OH),
+mentre que l’èter dimetílic és un èter (amb un oxigen enllaç a dos àtoms de carboni: C–O–C).
+                                                                                          [0,30 p.]
+
+Efecte de l’estructura en la temperatura o punt d’ebullició
+
+La diferència estructural té un impacte en les seves propietats físiques.
+L’etanol té una temperatura o punt d’ebullició més alta que l’èter dimetílic a causa dels
+enllaços d’hidrogen intermolecular que pot formar amb altres molècules, entre l’hidrogen
+(H) d’una molècula d’etanol i l’oxigen (O) d’una altra molècula d’etanol, ja que té un grup
+−OH.
+L’èter dimetílic no pot formar aquests enllaços d’hidrogen, resultant en un punt d’ebullició
+més baix.
+                                                                                          [0,45 p.]
+Les forces intermoleculars d’enllaç d’hidrogen són les més fortes que es poden establir entre
+molècules. L’etanol té el punt d’ebullició o temperatura d’ebullició més alts ja que cal donar
+més energia per separar les molècules d’etanol perquè passin a l’estat gasós.
+                                                                                          [0,25 p.]
+                                                                                         Pàgina 10 de 11
+                                                                                                Química
+           Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+Exercici 4c
+
+Enllaços característics de les molècules
+
+Etanol: C-H, C-O i O-H
+Èter dimetílic: C-H i C-O
+     Els dos compostos tenen en comú enllaços C-H.
+     Els dos compostos tenen en comú enllaços C-O. L’enllaç C-O de l’alcohol i l’enllaç
+      C-O-C de l’èter dimetílic (del grup funcional èter).
+     L’etanol té un grup funcional alcohol i, per tant, un enllaç O-H.
+                                                                                   [0,30 p.]
+
+
+Identificació dels pics principals a l’espectre
+
+Els pics principals (senyals) que es poden observar a l’espectre són:
+
+-   Banda a 3400 cm-1: característica dels alcohols, enllaç O-H (3550 – 3200 cm-1)
+-   Banda a 3000-2800 cm-1: característica de l’enllaç C-H (3000 – 2850 cm-1), la presenten
+    les dues molècules.
+-   Banda a 1100-1000 cm-1: característica de l’enllaç C-O de l’alcohol (1260 – 1000 cm-1) i
+    l’enllaç C-O-C de l’èter (1300 – 1000 cm-1), la presenten les dues molècules.
+
+                                                                                   [0,45 p.]
+
+Identificació de la molècula
+
+Es tracta de la molècula d’etanol perquè la banda de l’enllaç O-H correspon al grup
+funcional alcohol (grup hidroxil), i no estaria present en l’espectre de l’èter dimetílic.
+
+                                                                                   [0,50 p.]
+                                                                                           Pàgina 11 de 11
+                                                                                                  Química
+             Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+Exercici 4d
+
+Càlcul de l’entropia estàndard de la reacció
+Reacció de combustió de l’èter dimetílic
+CH3OCH3(g) + 3 O2(g) → 2 CO2(g) + 3 H2O(g)                                                   [0,20 p.]
+
+Entropia estàndard de la reacció
+So reacció = (∑ np So productes ) - (∑ np So reactius)                                      [0,10 p.]
+
+     ( np So productes) = [(2 x So CO2) + (3 x So H2O)]
+     ( nr Sof reactius) = [(1 x So CH3OCH3) + (3 x So O2)]
+
+So reacció = [2 x 213,6 J mol-1 K-1 + 3 x 188,8 J mol-1 K-1] – [1 x 267,34 J mol-1 K-1+ 3 x 205,0
+J mol-1 K-1] = 111,26 J K-1 mol-1
+
+          So reacció = 111,26 J mol-1 K-1                                                  [0,30 p.]
+
+
+Càlcul de l’espontaneïtat de la reacció
+Una reacció serà espontània quan G0 < 0, i                                                  [0,10 p.]
+
+                 G0 = H0 – T S0                                                          [0,10 p.]
+
+Primer, transformem les unitats d’entropia (J a kJ):
+         111,26 J mol-1 K-1 x (1 kJ / 1000 J) = 0,11126 kJ mol-1 K-1
+
+Càlcul de l’espontaneïtat a 25 ºC
+
+T = 25 ºC + 273 K = 298 K
+
+ΔH0 = - 1292 kJ mol-1 (enunciat)
+
+G0 = - 1292 kJ mol-1 – (298 K x (0,11126 kJ mol-1 K-1)) = - 1325,15 kJ mol-1
+
+        G0 = - 1325,15 kJ mol-1                                                            [0,30 p.]
+        La reacció serà espontània a 25 ºC perquè G0 < 0                                   [0,15 p.]
+

@@ -1,0 +1,444 @@
+                                                                                                                 2026
+
+Proves d’accés a la universitat
+
+Tecnologia i enginyeria
+Sèrie 2
+
+
+
+
+     Espai per a la correcció                       Espai per a la revisió
+             Qualificació                   Comprovació                  2a correcció
+
+Exercici 1
+
+Exercici 2
+
+Exercici 3
+
+Exercici 4
+
+Suma de notes parcials
+
+Qualificació final
+
+
+
+
+      Etiqueta de qualificació                                                   Etiqueta de correcció
+
+
+
+
+       Etiqueta de l’estudiant
+
+                                 Ubicació del tribunal ..............................................................................
+
+                                 Número del tribunal ...............................................................................
+    L’examen consta de QUATRE exercicis obligatoris. Cada exercici val 2,5 punts. A l’exercici 1,
+    només heu de respondre a CINC de les qüestions plantejades. Als exercicis 2, 3 i 4, responeu a
+    TOTES les qüestions que s’hi plantegen.
+      Podeu utilitzar les pàgines en blanc per a fer esquemes, esborranys, etc., o per a acabar de res-
+    pondre a algun exercici si necessiteu més espai. En aquest últim cas, cal que ho indiqueu clara-
+    ment al final de l’exercici corresponent.
+      Podeu utilitzar calculadora, però no es permet l’ús de calculadores o altres aparells capaços
+    d’emmagatzemar dades o de transmetre o rebre informació.
+      Les respostes han de ser clares i han d’estar redactades de manera coherent i cohesionada, amb correcció gra-
+    matical, lèxica i ortogràfica.
+
+
+
+    Exercici 1
+         Indiqueu la resposta correcta de CINC de les vuit qüestions, encerclant la lletra corres-
+    ponent. Si responeu a més de cinc qüestions, només es valoraran les cinc primeres.
+    [2,5 punts: 0,5 punts per cada qüestió. En cada qüestió només es pot triar UNA resposta. Per cada resposta errònia es des-
+    comptaran 0,16 punts. Per les qüestions no contestades no hi haurà cap descompte.]
+
+
+    Qüestió 1
+         La tensió de ruptura d’un llautó és de 420 MPa. Quina és la força axial màxima que
+    podem aplicar a una barra massissa d’aquest llautó de 8 mm de diàmetre sense que es trenqui?
+         a) 84,4 kN         b) 21,11 kN         c) 53,1 kN       d) 211 N
+
+
+
+
+    Qüestió 2
+         Per a obrir una porta que dona accés a un recinte controlat cal inserir una targeta
+    magnètica vàlida en un lector o bé teclejar una clau numèrica correcta. S’empren aquestes
+    variables d’estat:
+
+                       {
+         targeta: t = 1: vàlida
+                      0: no vàlida
+                                   ; clau: c =         {
+                                               1: correcta accés permès: a = 1: permès
+                                               0: incorrecta
+                                                             ;
+                                                                             0: no permès
+                                                                                          .          {
+           Quina és la funció lògica entre aquestes variables?
+           a)                 b)                  c) a = t + c                           d) a = t · c
+
+
+
+
+    Qüestió 3
+         Quina és la funció equivalent a l’esquema de portes lògi-                         a b c d
+
+    ques de la figura?                                                                                   1
+
+
+         a)                                                                                              &
+                                                                                                                    >1      s
+         b)                                                                                              &
+
+
+         c) s = d + (c · a) + (b · d)
+         d) s = d(c + a) (b + d)
+
+
+
+2
+Qüestió 4                                                                               b               c
+                                                                         a                                             d
+      Quina de les taules de veritat següents correspon a
+l’esquema de contactes de la figura?
+      a)    a   b   c   d   b)   a   b   c   d   c)   a   b   c   d     d)    a    b        c   d
+            0   0   0   0        0   0   0   1        0   0   0   1           0    0        0   0
+            0   0   1   0        0   0   1   1        0   0   1   1           0    0        1   0
+            0   1   0   0        0   1   0   1        0   1   0   1           0    1        0   0
+            0   1   1   0        0   1   1   1        0   1   1   1           0    1        1   1
+            1   0   0   1        1   0   0   0        1   0   0   0           1    0        0   1
+            1   0   1   1        1   0   1   0        1   0   1   1           1    0        1   1
+            1   1   0   1        1   1   0   0        1   1   0   0           1    1        0   1
+            1   1   1   0        1   1   1   1        1   1   1   1           1    1        1   0
+
+
+
+
+Qüestió 5
+      Una barra d’acer té una longitud inicial de 2,5 m a una temperatura de 20 °C. Sabent que
+el coeficient lineal de dilatació de l’acer és α = 12 × 10–6 °C–1, si escalfem la barra fins a 120 °C,
+quin serà el seu increment de longitud?
+      a) 0,36 mm           b) 3 mm               c) 3,6 mm            d) 30 mm
+
+
+Qüestió 6
+       En un tren de tracció per cremallera, la roda de tracció té 18 dents i el pas de la crema-
+llera on engrana és de 20π mm. Durant el règim de servei, la roda dentada gira a una velocitat
+constant de 520 min–1. Quina és la velocitat lineal del tren?
+       a) 9,802 km/h      b) 19,60 km/h        c) 35,29 km/h d) 61,59 km/h
+
+
+Qüestió 7
+      Una càrrega està formada per tres elements en sèrie: una resistència R = 10 Ω, una reac-
+tància inductiva XL = 20 Ω a 50 Hz i una reactància capacitiva XC = 30 Ω a 50 Hz. Si aquesta
+càrrega es connecta a una font de tensió U a una freqüència tal que la càrrega està en resso-
+nància (diferent de 50 Hz), quin serà el valor de la impedància equivalent dels tres elements
+connectats en sèrie?
+      a) Z = 10 Ω        b) Z = 20 Ω         c) Z = 30 Ω      d) Z = 60 Ω
+
+
+Qüestió 8
+      Els paràmetres coneguts del circuit de corrent altern de                                  A2      W3
+la figura són U1 = 230 V, A2 = 10 A i W3 = 1 135 W. Quina és la
+lectura del voltímetre U4?                                                             U1
+      a) 325,3 V                                                                                                      U4
+
+      b) 230,0 V
+      c) 200,0 V
+      d) 113,6 V
+                                                                      Espai per a la correcció
+                                                                                            Correctes        Incorrectes
+                                                  Recompte de les respostes
+
+                                                  Puntuació total de l’exercici 1
+
+                                                                                                                           3
+    Exercici 2                                                           Puntuació de l’exercici 2
+    [2,5 punts en total]
+
+         Volem muntar un sistema d’elevació industrial (polispast elèctric de cable) en un pont
+    grua per tal d’elevar verticalment una càrrega. El sistema disposa d’un motor asíncron, d’un
+    reductor i d’un tambor al qual s’enrotlla el cable.
+         En les condicions d’estudi, la càrrega s’eleva a velocitat constant i la massa elevada és
+    m = 1 000 kg. El motor gira a una velocitat constant nmot = 1 450 min–1 i el reductor, de rendi-
+
+    ment η = 0,7, té una relació de transmissió                     .
+         El diàmetre del tambor és d = 423 mm.
+         Ens han fet arribar el catàleg de motors següent i ens cal triar el més adequat per al
+    nostre sistema d’elevació.
+            Motor Potència nominal (kW)    Velocitat nominal de gir (min–1)      Parell nominal (N m)
+             A              1,5                         1 450                            9,879
+             B               2                          1 450                            13,17
+             C              2,5                         1 450                            16,46
+             D               3                          1 450                            19,75
+    2.1. Determineu la velocitat lineal d’elevació de la càrrega, v, i la força F necessària per a
+         elevar-la.
+           [1 punt]                                                     Puntuació de l’apartat 2.1
+
+
+
+
+4
+2.2. Calculeu la potència mecànica que ha de subministrar el motor, Pmot, i indiqueu quin
+     motor cal escollir. Justifiqueu breument la resposta.
+     [1 punt]                                                   Puntuació de l’apartat 2.2
+
+
+
+
+2.3. A la sortida del reductor hi ha un sensor que mesura el parell que està transmetent l’eix i
+     que envia un senyal que permet bloquejar el sistema quan se supera en un 15 % el parell
+     del punt de funcionament nominal del motor.
+       Determineu el valor del parell al qual ha d’estar tarat el sensor, Γsens.
+     [0,5 punts]                                                Puntuació de l’apartat 2.3
+
+
+
+
+                                                                                                   5
+    Exercici 3                                                         Puntuació de l’exercici 3
+    [2,5 punts en total]
+
+          Una instaŀlació industrial disposa d’un sistema de producció de vapor basat en una
+    caldera pirotubular alimentada amb gas propà. L’empresa fa un seguiment de la seva petjada
+    ambiental i ha estimat que, durant l’any 2025, el funcionament d’aquesta caldera va generar
+    mCO2 = 1 032 tones de CO2.
+          Es considera que la instaŀlació treballa de manera regular al llarg de 365 dies a l’any. La
+    caldera subministra vapor a un evaporador industrial i tracta diàriament una massa d’aigua
+    ma = 16 000 kg, que entra a l’evaporador a T1 = 80 °C i en surt com a vapor sec sobreescalfat a
+    T2 = 120 °C.
+          El gas propà té un poder calorífic pc = 12,83 kW h/kg i un factor d’emissió FE = 2,94 kg
+    de CO2 per cada kilogram de gas. La calor específica de l’aigua és ce_a = 4,197 kJ/(kg °C) i la del
+    vapor és ce_v = 2,155 kJ/(kg °C). La calor latent de vaporització és Lv = 2 257 kJ/kg.
+          Determineu:
+    3.1. La massa total de propà consumida diàriament, mpropà.
+           [0,5 punts]
+                                                                      Puntuació de l’apartat 3.1
+
+
+
+
+    3.2. L’energia diària aportada pel combustible, Econs.
+           [0,5 punts]
+                                                                      Puntuació de l’apartat 3.2
+
+
+
+
+6
+3.3. L’energia diària necessària per al procés tèrmic, Eútil.
+     [1 punt]
+                                                                Puntuació de l’apartat 3.3
+
+
+
+
+3.4. El rendiment de la caldera, η.
+     [0,5 punts]
+                                                                Puntuació de l’apartat 3.4
+
+
+
+
+                                                                                             7
+    Exercici 4                                                              Puntuació de l’exercici 4
+    [2,5 punts en total]
+
+          Un pare juga amb la seva filla sostenint-la de la manera que es mostra a la figura. Volem
+    estudiar les forces musculars i les reaccions en l’articulació del genoll i hem modelitzat el sis-
+    tema segons la figura i les dades següents.
+          La cama i el peu del pare es representen com un únic sòlid de massa mc = 4 kg amb
+    el centre de masses al punt G. La filla, de massa mf = 12 kg, té el centre d’inèrcia al punt P. El
+    punt O representa el genoll, que es considera un punt fix. El quàdriceps femoral (grup mus-
+    cular que permet l’extensió del genoll) s’insereix al punt Q i la seva força, Fm, forma un angle
+    φ = 25° respecte a la cama (barra OP). El seu braç de moment respecte a O (distància entre la
+    línia d’acció de la força i el punt O) és a = 20 mm i manté el sistema en equilibri en la posició
+    indicada (α = 30°).
+                                                                       Fm           g
+                                                               
+                            Fm
+                                                                   a
+                                                               O            b
+                                                                                    c
+                                                                   Q
+                                                                       G
+
+                                                                       α
+
+                                                                                P
+
+                                                               a = 20 mm            = 25°     mf = 12 kg
+                                                               b = 190 mm            = 30°     mc = 4 kg
+                                                               c = 400 mm
+
+
+
+    4.1. Dibuixeu el diagrama de cos lliure del sistema.
+           [0,5 punts]                                                     Puntuació de l’apartat 4.1
+
+
+
+
+8
+4.2. Determineu la força que ha de fer el múscul quàdriceps femoral, Fm.
+     [1 punt]                                               Puntuació de l’apartat 4.2
+
+
+
+
+4.3. Determineu les forces en l’articulació O del genoll.
+     [1 punt]                                               Puntuació de l’apartat 4.3
+
+
+
+
+                                                                                         9
+     [Pàgina per a fer esquemes, esborranys, etc., o per a acabar de respondre a algun exercici.]
+
+
+
+
+10
+[Pàgina per a fer esquemes, esborranys, etc., o per a acabar de respondre a algun exercici.]
+
+
+
+
+                                                                                               11
+Comprovació i 2a correcció:
+
+
+
+
+3a correcció:
+
+
+
+
+                                                 Etiqueta de l’estudiant
+
+
+
+
+          L’Institut d’Estudis Catalans ha tingut cura de la correcció lingüística i de l’edició d’aquesta prova d’accés.
+                                                                                                        Pàgina 1 de 3
+                                                                                              Tecnologia i Enginyeria
+                         Proves d’accés a la universitat 2026, convocatòria extraordinària. Criteri específic d’avaluació
+
+
+
+
+SÈRIE 2
+
+
+Exercici 1
+
+Q1 b      Q2 c       Q3 a   Q4 a    Q5 b    Q6 c     Q7 a    Q8 c
+
+
+Exercici 2
+
+2.1
+
+      2   1
+=       =
+      1 150
+         d       d     2 d       2 1 423
+v = 2     = 1  = n1    = 1450          = 0,2141 m/s = 12,85 m/min
+         2       2     60 2       60 150 2
+
+A velocitat constant, i en les condicions de l’enunciat, la força que suporta el cable és:
+
+F = m g = 1000 9,807 = 9807N
+
+
+2.2
+
+Pmec = F v = 9807 ⋅0, 2141= 2100 W
+Com que el reductor té un rendiment  =0,7, la potència a l'eix del motor ha de ser:
+          Pmec       2100
+Pmot =           =         = 3000 W
+                     0, 7
+o també
+         d        d               423 10−3      2
+Pmec = F red = F  mot = 9807 ·           1450    = 2100 W
+         2        2                   2          60
+       P     2015
+Pmot = mec =      = 3000 W
+             0,8
+
+Es requereix que el motor subministri 3000 W, per això cal triar l’opció D.
+
+2.3
+
+                                                            Pred  Pmot    0,7 ·3000
+El parell que subministrarà el reductor és  red =              =       =             = 2074 Nm
+                                                            red  mot    1       2
+                                                                              1450
+                                                                          150      60
+                                                                                                   Pàgina 2 de 3
+                                                                                         Tecnologia i Enginyeria
+                    Proves d’accés a la universitat 2026, convocatòria extraordinària. Criteri específic d’avaluació
+
+
+
+Per tant, caldrà tarar el sensor a  sens = 1,15  sens = 1,15 · 2074 = 2385 Nm
+
+
+Exercici 3
+
+3.1
+
+           mCO2 1
+mpropà =           = 961, 7 kg
+            FE 365
+
+3.2
+
+Econs = mpropà  pc = 12,34 MWh
+
+
+3.3
+
+Q1 = ma ce _a T = 16000 · 4,197 · (100 − 80 ) = 1343 MJ
+Q2 = ma Lv = 16000 · 2257 = 36112 MJ
+Q3 = ma ce _ v T = 16000 · 2,155 · (120 − 100 ) = 689,6 MJ
+Eútil = Q1 + Q2 + Q3 = 38145 MJ = 10,60 MWh
+
+3.4
+
+      Eútil 10,59
+=         =      = 0,8587
+      Econs 12,34
+
+
+Exercici 4
+
+4.1
+                                                                                                         Pàgina 3 de 3
+                                                                                               Tecnologia i Enginyeria
+                          Proves d’accés a la universitat 2026, convocatòria extraordinària. Criteri específic d’avaluació
+
+
+4.2
+
+M ( O ) = 0
+Fm a − mc g b sin ( 30 ) − mf g c sin ( 30 ) = 0
+                                                               1                  1
+         mc g b sin ( 30 ) + mf g c sin ( 30 )     4 ·9,807·190 + 12 ·9,807 · 400
+Fm =                                             =             2                  2 = 1363 N
+                          a                                      20
+
+4.3
+
+F    horitzontals   =0   →   OH − Fm sin (  −  ) = 0     
+                                                             OH = 118,8 N
+                                                            
+F   verticals = 0 → OV + Fm cos (  −  ) − mf g − mcg = 0 
+                                                             OV = −1201N
+El signe negatiu d'OV indica que té sentit oposat al dibuixat al diagrama de cos lliure.
+

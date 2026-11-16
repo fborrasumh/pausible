@@ -1,0 +1,344 @@
+                                                                                                                  2024
+
+Proves d’accés a la universitat
+
+Tecnologia i enginyeria
+Sèrie 3
+
+
+
+
+               Qualificació          TR
+
+Exercici 1
+
+Exercici 2
+
+Exercici 3
+
+Exercici 4
+
+Exercici 5
+
+Exercici 6
+
+Suma de notes parcials
+
+Qualificació final
+
+
+
+
+       Etiqueta de l’estudiant
+
+                                 Ubicació del tribunal ..............................................................................
+
+                                 Número del tribunal ...............................................................................
+
+
+
+      Etiqueta de qualificació                                                   Etiqueta de correcció
+      Responeu a QUATRE dels sis exercicis següents. Cada exercici val 2,5 punts. En el cas que respon-
+      gueu a més exercicis, només es valoraran els quatre primers.
+           Podeu utilitzar les pàgines en blanc (pàgines 14 i 15) per a fer esquemes, esborranys, etc., o
+      per a acabar de respondre a algun exercici si necessiteu més espai. En aquest últim cas, cal que ho
+      indiqueu clarament al final de l’exercici corresponent.
+
+
+      Exercici 1
+      Indiqueu la resposta correcta de cada qüestió. Responeu en la taula de la pàgina 3. En el cas
+      que no indiqueu les respostes a la taula, les qüestions es consideraran no contestades.
+      [2,5 punts]
+      [En cada qüestió només es pot triar UNA resposta. Qüestió ben contestada: 0,5 punts; qüestió mal contestada: –0,16 punts;
+      qüestió no contestada: 0 punts.]
+
+
+      Qüestió 1
+          Una pantalla de projecció té una massa m = 3 kg a la part inferior per a man-
+      tenir-la sempre tibada. Un motor reductor és l’encarregat d’enrotllar la pantalla,
+      de longitud h = 1,5 m, en el corró de diàmetre d = 250 mm, que es troba articulat
+      amb el sostre, en un temps t = 3 s. Quina és l’energia mecànica necessària per a
+      enrotllar tota la pantalla?
+          a) 44,13 J
+          b) 73,55 J
+          c) 22,07 J
+          d) 14,71 J
+
+
+
+
+      Qüestió 2
+          Un inventor ha construït una màquina tèrmica que funciona entre dues fonts tèrmiques,
+      una de 270 °C i una altra de 610 °C. Quina de les afirmacions següents és certa?
+          a) El rendiment de la màquina proposada sempre estarà per sobre del 40 %.
+          b) El rendiment de la màquina proposada no podrà superar mai el 38,5 %.
+          c) Perquè una màquina tèrmica funcioni, el focus fred sempre s’ha de trobar per sota de
+             0 °C.
+          d) Perquè una màquina tèrmica funcioni, el focus calent sempre s’ha de trobar per sobre
+             de 700 °C.
+
+
+
+
+      Qüestió 3
+           La figura mostra les corbes tensió-deformació obtingudes
+      en assajos de tracció utilitzant una proveta d’acer d’alta resistèn-
+      cia i una proveta d’un aliatge de bronze. A partir de l’observació
+      d’aquesta figura, es pot afirmar que
+           a) l’acer és més fràgil que el bronze.
+           b) el bronze té un límit elàstic més gran que l’acer.
+           c) l’acer és més dúctil que el bronze.
+           d) els dos materials s’han deformat el mateix abans de trencar
+              la proveta.
+–2–
+Qüestió 4
+      El conductor d’un cotxe híbrid pot decidir si utilitza com a combustible gasolina o gas
+liquat del petroli (GLP). Quan utilitza gasolina, el consum és de 6,1 litres per cada 100 km i
+emet 2,23 kg de CO2 per cada litre consumit. En canvi, quan utilitza GLP, el consum és de
+7 litres per cada 100 km i emet 1,647 kg de CO2 per cada litre consumit. Segons el tipus de com-
+bustible utilitzat, quina és la diferència en la petjada de carboni quan el cotxe recorre 50 km?
+      a) 6,802 kg de CO2
+      b) 5,765 kg de CO2
+      c) 1,037 kg de CO2
+      d) 2,074 kg de CO2
+
+
+
+
+Qüestió 5
+     Una estufa elèctrica es comporta com una resistència R = 25 Ω. Se sap que quan està con-
+nectada a una font de tensió alterna sinusoidal dissipa una potència activa P = 100 W. Quin
+és, aproximadament, el valor màxim de la tensió d’alimentació?
+     a) 4 V
+     b) 50 V
+     c) 71 V
+     d) 100 V
+
+
+
+
+Taula de respostes:
+
+    Espai de resposta per a l’estudiant                              Espai per a la correcció
+
+Qüestió 1    a        b      c       d                           Puntuació de la qüestió 1
+
+Qüestió 2    a        b      c       d                           Puntuació de la qüestió 2
+
+Qüestió 3    a        b      c       d                           Puntuació de la qüestió 3
+
+Qüestió 4    a        b      c       d                           Puntuació de la qüestió 4
+
+Qüestió 5    a        b      c       d                           Puntuació de la qüestió 5
+                                                                 Total de l’exercici 1
+
+
+                                                                                                   –3–
+      Exercici 2
+      [2,5 punts en total]
+           La figura de la dreta mostra un marcador electrònic de dues xifres en
+      què cada xifra està composta per set segments, que s’iŀluminen per a for-
+      mar els números del 0 al 9. Per a una aplicació concreta, es necessita que
+      el marcador pugui mostrar números del 00 al 15. Per fer-ho, el sistema
+      rep el número que s’ha de mostrar codificat en numeració binària (qua-
+      tre entrades d’un bit). Dissenyeu el control de l’encesa del segment del mig de la segona xifra
+      (marcat en negre a la figura) utilitzant les variables d’estat següents:
+      primer dígit binari (el de més a l’esquerra): a = 1 ;
+                                                        0  {
+      segon dígit binari: b =    {                             {                        {
+                                     1 tercer dígit binari: c = 1 quart dígit binari: d = 1
+                                     0
+                                       ;
+                                                                0
+                                                                  ;
+                                                                                          0
+                                                                                            ;
+
+
+                        {
+      segment: s = 1: encès .
+                   0: apagat
+           Nota: Les xifres del marcador s’escriuen com es mostra a continuació:
+
+
+
+           Per fer-ho:
+           a) Elaboreu la taula de veritat del sistema.
+                [1 punt]
+
+                    a        b   c     d     s
+
+
+
+
+–4–
+b) Determineu la funció lògica entre aquestes variables i, si escau, simplifiqueu-la.
+   [1 punt]
+
+
+
+
+c) Dibuixeu el diagrama de portes lògiques equivalent.
+   [0,5 punts]
+
+
+
+
+                                                                                        –5–
+      Exercici 3
+      [2,5 punts en total]
+
+
+
+
+           Una cistella de bàsquet és solidària a una barra homogènia OC de longitud 4l. La massa
+      total del conjunt és m = 100 kg i el seu centre d’inèrcia es troba al punt G. La barra està arti-
+      culada al sostre en el punt O. Per a plegar i desplegar la cistella s’utilitza un mecanisme de
+      tambor. Un cable amb un extrem fix a la barra s’enrotlla al tambor seguint el recorregut que
+      es mostra a la figura. El rendiment del motor és η = 0,8.
+           S’estudia la maniobra de plegat de la cistella en el tram en què l’angle entre el sostre i la
+      barra passa de φ1 = 45° a φ2 = 15°. En aquest tram, la velocitat angular de la barra és constant
+      i té un valor ω = 0,1745 rad/s en sentit antihorari. Determineu:
+           a) L’energia mecànica necessària per a fer la maniobra, Emec.
+                [1 punt]
+
+
+
+
+           b) L’energia consumida pel motor per a fer la maniobra, Emot.
+                [0,5 punts]
+
+
+
+
+–6–
+c) La velocitat vertical del centre d’inèrcia quan φ = 30°, vvert.
+   [0,5 punts]
+
+
+
+
+d) La potència que consumeix el motor en la posició anterior, Pmot.
+   [0,5 punts]
+
+
+
+
+                                                                      –7–
+      Exercici 4
+      [2,5 punts en total]
+           Les planxes elèctriques incorporen un element calefactor que s’escalfa (resistència) i un
+      interruptor en sèrie. Aquest interruptor, accionat per un sensor de temperatura, s’obre quan
+      la planxa arriba a la temperatura desitjada.
+           Es vol construir la resistència d’una planxa elèctrica amb fil de constantà de resistivitat
+      ρ = 4,9 × 10–7 Ω m. La planxa ha de subministrar una potència P = 2,2 kW quan es connecta a
+      la xarxa a una tensió U = 230 V.
+           a) Determineu el valor de la resistència necessària, R.
+                [0,5 punts]
+
+
+
+
+          El catàleg del fabricant ofereix bobines de fils de longitud l = 1 m dels diàmetres d
+      següents:
+                              Bobina   B1      B2          B3         B4         B5
+                             d (mm)    0,04    0,08       0,12       0,16        0,2
+           b) Per a aquestes bobines, dibuixeu, tot indicant de manera aproximada les escales, la
+              funció que descriu el valor de la resistència de les cinc bobines, Rb, en funció del dià-
+              metre del seu fil, d.
+                [1 punt]
+
+
+
+
+–8–
+c) Quina bobina cal escollir si es vol utilitzar el màxim de longitud del fil que conté?
+   Quina quantitat de fil seria necessària?
+   [1 punt]
+
+
+
+
+                                                                                           –9–
+         Exercici 5
+         [2,5 punts en total]
+              La figura mostra una persona amb els braços estirats sostenint dos pesos (un a l’extrem
+         de cada braç). També inclou l’esquema simplificat d’un dels braços per a fer-ne l’anàlisi
+         estàtica. El punt O representa l’articulació de l’espatlla i Fm és la força que fa el múscul del-
+         toide. El múscul està inserit al punt Q i la seva línia d’acció forma un angle θ = 20° respecte a
+         l’horitzontal. El sistema està en equilibri. La massa del braç és mb = 5 kg i el seu centre d’inèr-
+         cia es troba al punt G; el pes té una massa mp = 2 kg i el seu centre d’inèrcia és el punt P.
+
+
+
+
+              a) Dibuixeu el diagrama de cos lliure del braç.
+                   [0,5 punts]
+
+
+
+
+– 10 –
+b) Determineu la força que fa el múscul, Fm.
+   [1 punt]
+
+
+
+
+c) Determineu les forces a l’articulació O.
+   [1 punt]
+
+
+
+
+                                               – 11 –
+         Exercici 6
+         [2,5 punts en total]
+               Diàriament, una caldera alimentada amb gas propà obté vapor d’aigua sec a una tempe-
+         ratura T2 = 125 °C a partir d’una massa d’aigua ma = 1 500 kg a T1 = 80 °C. En aquest procés,
+         consumeix mp = 90 kg de gas propà de poder calorífic pc = 12,83 kW h/kg, que té un factor
+         d’emissió FE = 2,94 kg de CO2 per cada kilogram de gas. La calor específica de l’aigua és
+         ce_a = 4,197 kJ/(kg °C) i la del vapor és ce_v = 2,155 kJ/(kg °C). La calor latent de vaporització
+         és Lv = 2 257 kJ/kg. Considereu que el canvi d’estat es produeix a Tc = 100 °C. Determineu:
+               a) L’energia útil diària necessària per a obtenir el vapor sec, Edia.
+                   [1 punt]
+
+
+
+
+              b) L’energia que consumeix diàriament la caldera, Econs, i el rendiment de la instaŀla-
+                 ció, η.
+                   [1 punt]
+
+
+
+
+– 12 –
+c) L’emissió anual de gasos amb efecte hivernacle, mCO .
+                                                       2
+
+   [0,5 punts]
+
+
+
+
+                                                           – 13 –
+         [Pàgina per a fer esquemes, esborranys, etc., o per a acabar de respondre a algun exercici.]
+
+
+
+
+– 14 –
+[Pàgina per a fer esquemes, esborranys, etc., o per a acabar de respondre a algun exercici.]
+
+
+
+
+                                                                                               – 15 –
+                                      Etiqueta de l’estudiant
+
+
+
+
+L’Institut d’Estudis Catalans ha tingut cura de la correcció lingüística i de l’edició d’aquesta prova d’accés
+

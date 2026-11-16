@@ -1,0 +1,352 @@
+                                                                                Pàgina 1 de 9
+                                                Matemàtiques Aplicades a les Ciències Socials
+      Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+
+SÈRIE 3
+
+
+1.
+     a) Si 𝑥 és el nombre de pereres addicionals a les 25 plantades inicialment, la
+        producció de cada una de les 25 + 𝑥 pereres serà de 370 − 10𝑥 peres.
+
+         La producció total serà el producte del nombre de peres per arbre pel nombre
+         de pereres:
+                 𝑃(𝑥) = (25 + 𝑥) · (370 − 10𝑥) → 𝑃(𝑥) = −10𝑥 2 + 120𝑥 + 9250.
+
+     b) Per buscar el punt on s’assoleix el màxim de la funció de producció, calculem la
+        derivada i la igualem a zero:
+
+                            𝑃′ (𝑥) = −20𝑥 + 120 → 𝑃′ (𝑥) = 0 → 𝑥 = 6
+         Observem que és un màxim perquè la derivada és positiva per a valors
+         inferiors a 6 i, per tant, la funció és creixent per a 𝑥 < 6, mentre que és negativa
+         per a valors superiors a 6 i, per tant, la funció és decreixent per a 𝑥 > 6.
+
+         Així doncs, el nombre total de pereres que caldrà plantar per hectàrea per
+         obtenir una producció màxima serà de 25 + 6 = 31 pereres per hectàrea.
+
+         La producció màxima serà de 𝑃(6) = 31 · 310 = 9610 peres.
+
+         Per saber a partir de quin valor no hi haurà cap producció cal resoldre 𝑃(𝑥) = 0
+
+                                        −12 ± √122 − 4 · (−1) · (925) −12 ± 62
+           −𝑥 2 + 12𝑥 + 925 = 0 → 𝑥 =                                  =           .
+                                                   2 · (−1)                  −2
+        Tenim dues solucions: 𝑥 = −25 i 𝑥 = 37. La primera correspon a no plantar cap
+        perera per hectàrea i la segona correspon a plantar 37 pereres addicionals per
+        hectàrea. En aquest cas la producció serà nul·la. És a dir, la producció serà
+        nul·la si no es planta cap perera per hectàrea o si es planta un total de
+        25 + 37 = 62 pereres per hectàrea.
+
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara.
+
+     a) Determinar la funció que dona el nombre de pereres en funció de 𝑥: 0,25 punts.
+        Determinar la funció que dona el nombre de peres per perera en funció de 𝑥:
+                                                                           Pàgina 2 de 9
+                                           Matemàtiques Aplicades a les Ciències Socials
+ Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+    0,25 punts. Determinar la funció que dona la producció de peres per hectàrea
+    en funció de 𝑥: 0,5 punts.
+
+b) Càlcul de la derivada: 0,25 punts. Trobar el valor on s’assoleix l’extrem relatiu i
+   justificació que es tracta d’un màxim: 0,25 punts. Nombre òptim de pereres per
+   hectàrea: 0,25 punts. Producció màxima: 0,25 punts. Càlcul del nombre de
+   pereres per hectàrea per tal que no hi hagi producció de peres: 0,5 punts.
+                                                                                Pàgina 3 de 9
+                                                Matemàtiques Aplicades a les Ciències Socials
+      Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+2.
+        Anomenarem 𝑥, 𝑦 i 𝑧 el nombre de sabates que es van vendre al preu original,
+        amb un descompte del 20% i amb un descompte del 50%, respectivament.
+
+         El preu original era de 90 euros; el preu amb un 20% de descompte és de
+         0,8·90=72 euros, i el preu amb un 50% de descompte és de 0,5·90=45 euros.
+
+         A partir de l’enunciat obtenim el sistema d’equacions següent:
+
+                                        𝑥 + 𝑦 + 𝑧 = 820.000
+                                 {           𝑦 − 2𝑧 = 0
+                                   90𝑥 + 72𝑦 + 45𝑧 = 63.837.000
+         La tercera equació la podem simplificar dividint-la per 9 i obtenim:
+                                  10𝑥 + 8𝑦 + 5𝑧 = 7.093.000
+         Resolem el sistema utilitzant el mètode de Gauss:
+          1 1 1 820.000               1 1 1 820.000              1 1 1 820.000
+        ( 0 1 −2|        0     )  →  (0 1 −2|        0     ) → ( 0 1 −2|      0 )
+         10 8 5 7.093.000             0 2 5 1.107.000            0 0 9 1.107.000
+
+        Resolent-lo s’obté la solució 𝑧 = 123.000, 𝑦 = 246.000 i 𝑥 = 451.000.
+
+        Així doncs, es van vendre 451.000 parells de sabates al preu original, 246.000
+        amb un descompte del 20% i 123.000 al 50%.
+
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara.
+
+     a) Plantejament del sistema: 0,25 punts per cada equació. Resolució del sistema:
+        1 punt. Determinar el nombre de sabates venudes a cada preu: 0,75 punts.
+                                                                               Pàgina 4 de 9
+                                               Matemàtiques Aplicades a les Ciències Socials
+     Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+3.
+
+     a) Considerem els esdeveniments
+
+        𝑅 = el visitant ha fet la ruta guiada.
+        𝐶 = el visitant ha accedit al parc en cotxe.
+        𝐵 = el visitant ha accedit al parc en bicicleta.
+        𝑃 = el visitant ha accedit al parc a peu.
+
+        A partir de les dades de l’enunciat sabem que 𝑃(𝐶) = 0,6, 𝑃(𝐵) = 0,15 i
+        𝑃(𝑃) = 0,25. Sabem també que 𝑃(𝑅|𝐶) = 0,8, 𝑃(𝑅|𝐵) = 0,6 i 𝑃(𝑅|𝑃) = 0,3.
+
+        Aleshores, per la fórmula de les probabilitats totals,
+        𝑃(𝑅) = 𝑃(𝑅 ∩ 𝐶) + 𝑃(𝑅 ∩ 𝐵) + 𝑃(𝑅 ∩ 𝑃) = 𝑃(𝐶) · 𝑃(𝑅|𝐶) + 𝑃(𝐵) · 𝑃(𝑅|𝐵) +
+        𝑃(𝑃) · 𝑃(𝐶|𝑃) = 0,6 · 0,8 + 0,15 · 0,6 + 0,25 · 0,3 = 0,645.
+
+        També ho podem resoldre mitjançant un diagrama d’arbre
+
+                                                             0,8          Fa la ruta guiada
+                                  Cotxe
+                   0,6
+                                                             0,2          No fa la ruta guiada
+
+                                                             0,6          Fa la ruta guiada
+                   0,15
+                                  Bicicleta
+
+                                                             0,4          No fa la ruta guiada
+
+                    0,25                                     0,3          Fa la ruta guiada
+                                  A peu
+
+                                                             0,7          No fa la ruta guiada
+
+
+        Així doncs, la probabilitat que un individu escollit a l’atzar faci la ruta guiada és
+        de 0,645.
+
+        Ara ens demanen que calculem la probabilitat que hi hagi accedit en cotxe si
+        sabem que ha fet la ruta guiada. Per tant,
+
+                   𝑃(𝐶∩𝑅)   𝑃(𝐶)·𝑃(𝑅 |𝐶 )   0,6·0,8
+        𝑃(𝐶|𝑅) =    𝑃(𝑅)
+                          =     𝑃(𝑅)
+                                          = 0,645 = 0,7442.
+
+        Si sabem que fa la ruta guiada, la probabilitat que hagi accedit al parc en cotxe
+        és de 0,7442.
+                                                                                   Pàgina 5 de 9
+                                                   Matemàtiques Aplicades a les Ciències Socials
+     Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+   b) La mida de la mostra és 𝑛 = 100. L’estimació puntual de la mitjana i la desviació
+      típica en la mostra han estat 𝑥̅ = 231 i 𝑠 = 32.
+
+        Quan la mida de la mostra és gran, l’interval de confiança per a la mitjana amb un
+        nivell de confiança 𝛾𝜖(0,1)              s’obté a partir de la fórmula
+                                                        𝑠                𝑠
+                                            [ 𝑥̅ − 𝑧𝛾        , 𝑥̅ + 𝑧𝛾        ],
+                                                        √𝑛               √𝑛
+        en què, si 𝑍 segueix una distribució normal (0,1),                          P(−𝑧𝛾 ≤ 𝑍 ≤ 𝑧𝛾 ) = 𝛾.
+        Per tant, tenim que els extrems de l’interval són:
+
+                                        𝑠                           32
+                              𝑥̅ − 𝑧𝛾        = 231 − 1,96                     = 224,728
+                                        √𝑛                        √100
+        i
+                                        𝑠                           32
+                              𝑥̅ + 𝑧𝛾        = 231 + 1,96                     = 237,272
+                                        √𝑛                        √100
+        L’interval de confiança demanat és [224’728,237’272] minuts. És a dir, amb una
+        confiança del 95% sabem que la mitjana de temps que els visitants passen al parc
+        natural està entre 224,728 i 237,272 minuts.
+
+
+
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara.
+
+   a) Assignació correcta d’esdeveniments: 0,25 punts. Càlcul de la primera
+      probabilitat demanada: 0,5 punts. Càlcul de la segona probabilitat demanada:
+      0,5 punts.
+
+   b) Interpretació correcta de la fórmula i substitució correcta de cada paràmetre pel
+      seu valor: 0,5 punts. Resultat final: 0,75 punts.
+                                                                                   Pàgina 6 de 9
+                                                   Matemàtiques Aplicades a les Ciències Socials
+      Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+4.
+OPCIÓ A
+
+     a) Considerem les matrius:
+
+                     𝐸 𝑀
+                    20 80         𝐸            40.000
+         𝐴 = 𝐿1    (30 100) i 𝐼 = 𝑀           (       ).
+             𝐿2                                30.000
+             𝐿3     40 110
+
+         Si fem el producte de 𝐴 · 𝐼 obtindrem els ingressos per la venda de tots els
+         cotxes de cada línia.
+
+                                      20 80                  3.200.000
+                                                 40.000
+                             𝐴 · 𝐼 = (30 100) · (       ) = (4.200.000).
+                                                 30.000
+                                      40 110                 4.900.000
+
+         Obtenim que la línia 1 generarà uns ingressos de 3.200.000 €, la línia 2
+         generarà uns ingressos de 4.200.000 € i la línia 3 uns ingressos de 4.900.000
+         €.
+
+         Considerem els esdeveniments:
+         𝐸 = el vehicle és de motor elèctric.
+         𝐶 = el vehicle és de motor de combustió.
+         𝐷 = el vehicle és defectuós.
+
+         A la fàbrica hi ha 90 cotxes elèctrics i 290 cotxes de motor de combustió. Per
+                                                         90                     290
+         tant, si escollim un cotxe a l’atzar 𝑃(𝐸) = 90+290 = 0,2368 i 𝑃(𝐶) = 90+290 =
+         0,7632.
+
+         També sabem que 𝑃(𝐷|𝐸) = 0,01 i 𝑃(𝐷|𝐶) = 0,02.
+
+         Ens demanen la probabilitat 𝑃(𝐶|𝐷)
+
+         Podem fer un diagrama d’arbre o bé calcular la probabilitat condicionada
+         utilitzant la fórmula de Bayes
+
+                  𝑃(𝐶∩𝐷)           𝑃(𝐷 |𝐶 )·𝑃(𝐶)                  0,02·0,7632
+         𝑃(𝐶|𝐷)= 𝑃(𝐷) = 𝑃(𝐷 𝐸                             = 0,01·0,2368+0,02·0,7632 = 0,8657.
+                                 | )·𝑃(𝐸)+𝑃(𝐷 |𝐶 )·𝑃(𝐶)
+
+
+     b) La funció que representa la despesa acumulada després de cada 𝑥 km
+        recorreguts per cada tipus de vehicle ve donada per la despesa de compra més
+        la despesa pels quilòmetres recorreguts.
+
+         Per als vehicles elèctrics, el preu de venda és de 40.000 euros i 1 euro cada 100
+         km recorreguts. Per tant, la funció que dona la despesa en euros en funció dels
+         quilòmetres recorreguts serà:
+                                                                               Pàgina 7 de 9
+                                               Matemàtiques Aplicades a les Ciències Socials
+     Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+                                                               1
+                                       𝐷𝐸 (𝑥) = 40.000 +          𝑥.
+                                                              100
+        Mentre que per als vehicles de combustió aquesta funció serà:
+                                                               6
+                                       𝐷𝑇 (𝑥) = 30.000 +          𝑥.
+                                                              100
+        Inicialment surt més car el vehicle elèctric. Igualem les despeses per trobar a
+        partir de quants quilòmetres sortirà més econòmic el vehicle elèctric.
+                     1                    6
+        40.000 + 100 𝑥 = 30.000 + 100 𝑥 ⇒ 10.000 = 0,05𝑥 ⇒ 𝑥 = 200.000 km
+
+        Als 200.000 km les despeses seran iguals. A partir dels 10 anys serà més
+        econòmic el vehicle elèctric.
+
+
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara.
+
+a) Obtenció de les matrius i càlcul del producte de matrius: 0,75 punts. Càlcul de la
+   probabilitat demanada: 0,75 punts.
+
+b) Obtenció de les funcions que donen les despeses: 0,25 punts cadascuna. Obtenció
+   del nombre d’anys a partir del qual surt més a compte el cotxe elèctric: 0,5 punts.
+                                                                                  Pàgina 8 de 9
+                                                  Matemàtiques Aplicades a les Ciències Socials
+     Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+OPCIÓ B
+
+   a) Si anomenem 𝑥 la quantitat de vehicles elèctrics que hi ha a la línia 2 sabem
+      que 40.000𝑥 + 3.000.000 = 3.720.000 ⇒ 40.000𝑥 = 720.000 ⇒ 𝑥 = 18,
+      per tant a la línia 2 hi ha 18 vehicles elèctrics i 100 de combustió.
+
+        Considerem els esdeveniments:
+        𝐸 = el vehicle és de motor elèctric.
+        𝐶 = el vehicle és de motor de combustió.
+        𝐷 = el vehicle és defectuós.
+
+        A la línia 2 hi ha 18 cotxes elèctrics i 100 cotxes de motor de combustió. Per tant,
+                                                   18                      100
+        si escollim un cotxe a l’atzar 𝑃(𝐸) =          = 0,1525 i 𝑃(𝐶) =        = 0,8475.
+                                                    18+100                       18+100
+
+        També sabem que 𝑃(𝐷|𝐸) = 0,01 i 𝑃(𝐷|𝐶) = 0,02.
+
+        Ens demanen la probabilitat 𝑃(𝐸|𝐷)
+
+        Podem fer un diagrama d’arbre o bé calcular la probabilitat condicionada
+        utilitzant la fórmula de Bayes
+
+                 𝑃(𝐸∩𝐷)           𝑃(𝐷 |𝐸 )·𝑃(𝐸)               0,01·0,1525
+        𝑃(𝐸|𝐷)= 𝑃(𝐷) = 𝑃(𝐷 𝐸                           = 0,01·0,1525+0,02·0,8475 = 0,0825.
+                                | )·𝑃(𝐸)+𝑃(𝐷 |𝐶 )·𝑃(𝐶)
+
+
+        La probabilitat que sigui elèctric és de 0,0825.
+
+   a) La funció que representa la despesa acumulada entre el preu de compra i els
+        quilòmetres recorreguts 𝑥 és:
+                                                              6
+                                         𝐷(𝑥) = 30.000 +         𝑥.
+                                                             100
+        Per tant,
+                  6
+        30.000 + 100 𝑥 = 36.000 ⇒ 𝑥 = 100.000 km
+
+        Així doncs, el vehicle ha recorregut 100.000 km.
+                                                                            1
+        Si el vehicle fos elèctric, la despesa acumulada seria de 40.000 + 100 𝑥, que
+        substituint per x = 100.000 km, ens dona 41.000 euros.
+
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara.
+                                                                              Pàgina 9 de 9
+                                              Matemàtiques Aplicades a les Ciències Socials
+    Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+a) Càlcul dels nombre de vehicles elèctrics a la línia 2: 0,5 punts. Càlcul de la
+   probabilitat demanada: 1 punt.
+
+b) Càlcul del nombre de quilòmetres: 0,5 punts. Càlcul de la despesa d’un vehicle
+   elèctric amb el mateix nombre de quilòmetres: 0,5 punts.
+

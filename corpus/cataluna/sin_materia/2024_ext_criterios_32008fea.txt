@@ -1,0 +1,503 @@
+                                                                            Pàgina 1 de 11
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+
+SÈRIE 1
+
+
+Criteris generals per a la correcció:
+
+   1. Les respostes s’han d’ajustar a l’enunciat de la pregunta. En general, es
+      valorarà que l’alume demostri que té clars els conceptes matemàtics sobre els
+      quals tracta cada pregunta.
+
+   2. La resolució correcta d’un exercici no pot ser simplement un seguit de càlculs
+      més o menys amuntegats; cal que l’alumne expliqui el que està fent i que
+      acompanyi els càlculs amb comentaris per demostrar que entén el que està
+      fent. Es tindrà en compte la claredat en l’exposició dels conceptes, la descripció
+      dels processos, i els passos a seguir, així com la no confusió d’hipòtesis amb
+      conclusions, l’ordre lògic dels raonaments i la contextualització segons
+      l’enunciat.
+      Totes les respostes s’han de raonar i justificar. Una resposta correcta sense
+      raonament ni justificació pot ser valorada amb un 0, si el corrector no és capaç
+      de veure d’on ha sortit el resultat.
+
+   3. La resolució que es proposa en aquestes pautes és, en molts casos, una de les
+      possibles i no és, en principi, única. Per tant, si l’estudiant presenta una
+      resolució alternativa, encara que sigui diferent, es comptarà com a totalment
+      vàlida en la mesura que sigui correcta i estigui convenientment justificada. Si la
+      resposta és parcial la puntuació obtinguda serà proporcional a la part
+      corresponent de la puntuació total.
+
+   4. En alguns casos, la solució final de cada apartat pot admetre expressions
+      equivalents; totes es comptaran igualment com a vàlides, a menys que se’n
+      demani una de manera explícita a l’enunciat.
+
+   5. Aquestes pautes descriuen com repartir la puntuació assignada de cada
+      apartat a les diferents tasques demanades per aquest (en múltiples de 0,25
+      punts). La valoració final de cada apartat serà la suma de les parts que
+      l’alumne hagi fet correctament menys la penalització que s’hi hagi d’aplicar
+      d’acord amb les indicacions següents (amb el benentès que cap apartat es pot
+      valorar amb una puntuació negativa).
+
+   6. Cal indicar/explicar tots els passos de cada càlcul o argumentació fins arribar a
+      la resposta. Es poden fer els càlculs finals amb calculadora (i donar el resultat
+      final aproximat amb decimals) sempre i quan l’alumne deixi clares les
+      operacions que està fent; en cas contrari, es penalitzarà 0,25 punts del valor
+      total de l’apartat. (per exemple, si dona directament la solució d’un sistema
+      dequacions sense fer cap càlcul).
+                                                                            Pàgina 2 de 11
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+   7. Penalització per errades de càlcul o de transcripció:
+
+       a) Si l’errada que es comet no té més transcendència, aleshores no es
+          descomptarà res de la puntuació parcial de l’apartat.
+
+       b) En el cas que l’errada condueixi a derivacions paral·leles de l’enunciat, es
+          valorarà i puntuarà el desenvolupament i coherència de la resolució
+          resultant, i només s’aplicarà una penalització final de 0,25 punts.
+
+       c) En cas que l’errada condueixi a alguna incoherència o a no tenir sentit
+          alguna de les qüestions que es demanen, sense que l’alumne ho
+          reconegui, aleshores s’aplicarà una penalització de 0,5 punts.
+
+       d) Si la resolució d’un apartat conté dues errades la puntuació de l’apartat
+          serà, com a màxim, l’acumulada fins al moment previ a cometre la segona
+          errada.
+
+       e) En el cas que l’error sigui inaceptable (per exemple, simplificar √𝑥 2 + 𝑦 2
+                         𝑎+𝑏      𝑏
+           com 𝑥 + 𝑦, ó 𝑎+𝑐 com 𝑐 ) s’avaluarà tot l’apartat amb un zero.
+                                                                            Pàgina 3 de 11
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+PAUTES DE CORRECCIÓ
+
+1.
+
+a)
+
+     [1 punt]
+
+Derivant i igualant a zero,
+
+                                                   1
+                                                     𝑥 − ln 𝑥    1 − ln 𝑥
+                                         𝑓′(𝑥) = 2 𝑥     2
+                                                              =2          = 0,
+                                                       𝑥           𝑥2
+
+ens queda l’equació ln 𝑥 = 1; per tant, 𝑓 té només un punt crític, 𝑥 = 𝑒. Resulta que és
+un màxim ja que la derivada segona és negativa:
+                 1
+                − 𝑥 2 −(1−ln 𝑥)·2𝑥                         −𝑒
+𝑓′′(𝑥) = 2 𝑥           𝑥4
+                                     ,          𝑓 ′′ (𝑒) = 2 𝑒 4 = −2𝑒 −3 < 0.
+
+Com que només té un màxim, la funció és creixent a l’interval (0, 𝑒) i decreixent a
+(𝑒, +∞), cosa que també podem veure directament mirant el signe de la derivada.
+
+b)
+
+     [1 punt]
+
+                                                                      ln(𝑥)   −∞
+A zero, hi ha una asímptota vertical, ja que lim+2                      𝑥
+                                                                            = 0+ = −∞. I a infinit, una
+                                                                𝑥⟶0
+asímptota horitzontal, cosa que es veu fent l’Hôpital,
+
+                                                       2
+                                          2 ln 𝑥               2
+                                      lim        = lim 𝑥 = lim   = 0+ ,
+                                     𝑥⟶+∞ 𝑥       𝑥⟶+∞ 1  𝑥⟶+∞ 𝑥
+
+o bé argumentant que, per a 𝑥˃𝑒 la funció és sempre decreixent, però no travessa mai
+                                         ln 𝑥
+l’eix d’abscisses, ja que 2 𝑥 = 0 només té la solució 𝑥 = 1. Aquest és un esbós de la
+gràfica d’aquesta funció:
+                                                                            Pàgina 4 de 11
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+c)
+
+     [0,5 punts]
+
+                    ln 1                1−ln 1
+Com que 𝑓(1) = 2 1 = 0 i 𝑓′(1) = 2        12
+                                               = 2, es tracta de la recta que passa pel punt
+(1,0) i té pendent 2: és la recta 𝑦 − 0 = 2(𝑥 − 1) ⟶ 𝑦 = 2𝑥 − 2.
+
+Criteris de correcció: (a) Compteu 0,5 pel càlcul de la derivada, 0,25 per determinar el
+màxim i 0,25 per les zones de creixement i decreixement. (b) Compteu 0,25 per
+l’asímptota vertical, 0,5 per l’horitzontal i 0,25 per l’esbós de la gràfica. (c) Compteu 0,5
+pel càlcul correcte de la recta tangent.
+
+Comentari: Si justifiquen l’existència de l’asímptota horitzontal sense calcular el seu
+valor (per exemple, dient que al tendir a infinit la funció és decreixent sense tallar mai
+l’eix d’abscisses), o fins i tot dient que és 0 sense justificar, compteu la totalitat dels 0,5
+punts corresponents (l’enunciat pregunta si 𝑓(𝑥) té asímptotes, no que les calculin).
+
+2.
+
+a)
+
+     [1 punt]
+
+La matriu de coeficients i la matriu ampliada del sistema són:
+
+                         4     2 −1                   4 2 −1 4
+                    𝑀 = (1     −1 𝑘 )        𝑖   𝑀 = (1 −1 𝑘 3)
+                         3     3  0                   3 3  0 1
+
+Calculant el determinant de coeficients i igualant-lo a zero obtenim
+
+                     4 2 −1
+                    |1 −1 𝑘 | = −3 + 6𝑘 − 3 − 12𝑘 = −6𝑘 − 6 = 0,
+                     3 3  0
+
+és a dir, 𝑘 = −1. Per tant, si 𝑘 ≠ −1, tindrem 𝑟𝑎𝑛𝑔(𝑀) = 𝑟𝑎𝑛𝑔(𝑀) = 3, que coincideix
+amb el nombre d’incògnites i, pel teorema de Rouché-Frobenius, el sistema és
+compatible determinat. En canvi, si 𝑘 = −1, el sistema queda
+
+                                      4𝑥 + 2𝑦 − 𝑧 = 4
+                                        𝑥 − 𝑦 − 𝑧 = 3} ;
+                                         3𝑥 + 3𝑦 = 1
+
+com que la tercera equació és la resta de la primera menys la segona, es tracta d’un
+                                                                              4 2
+sistema de dues equacions i tres incònites, amb rang de coeficients 2 ja que |      |=
+                                                                              1 −1
+                                                                            Pàgina 5 de 11
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+−4 − 2 = −6 ≠ 0. Per tant, el sistema és compatible indeterminat amb un grau de
+llibertat.
+
+La solució per a 𝑘 = 0 la podem calcular per la regla de Cramer:
+
+                                      4 2 −1
+                                     |3 −1 0 |
+                                   𝑥= 1 3  0 = −10 = 5,
+                                      4 2 −1   −6    3
+                                     |1 −1 0 |
+                                      3 3  0
+                                       4 4 −1
+                                      |1 3 0 |
+                                               8    −4
+                                   𝑦= 3 1 0 =     =    ,
+                                      4 2 −1   −6   3
+                                     |1 −1 0 |
+                                      3 3   0
+                           4 2 4
+                          |1 −1 3|
+                                   −4 + 18 + 12 + 12 − 36 − 2
+                       𝑧= 3 3 1 =                             = 0.
+                          4 2 −1              −6
+                         |1 −1 0 |
+                          3 3   0
+
+b)
+
+     [0,75 punts]
+
+Per al cas 𝑘 = −1, i eliminant la tercera equació per ser redundant, obtenim
+
+                                          4𝑥 + 2𝑦 − 𝑧 = 4
+                                                          }.
+                                            𝑥−𝑦−𝑧 =3
+                                                               1
+Restant, obtenim 3𝑥 + 3𝑦 = 1. Fent 𝑥 = 𝜆, tenim 𝑦 = 3 − 𝜆 i llavors 𝑧 = 𝑥 − 𝑦 − 3 = 𝜆 −
+1               10
+  + 𝜆 − 3 = 2𝜆 − . Totes les solucions del sistema són, doncs, de la forma
+3               3
+
+                    1           10
+(𝑥, 𝑦, 𝑧) = (𝜆,       − 𝜆, 2𝜆 − 3 ),   𝜆 ∈ ℝ.
+                    3
+
+
+c)
+
+     [0,75 punts]
+
+Com hem notat, en el cas 𝑘 = −1, la tercera equació és redundant perque és la resta
+de la primera menys la segona. Si modifiquem el terme independent posant, per
+exemple, 3𝑥 + 3𝑦 = 2 tindrem la incongruència 1 = 2 i el sistema serà incompatible.
+                                                                            Pàgina 6 de 11
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+Dit d’una altra manera, és incompatible perque la matriu de coeficients no ha canviat, i
+té rang 2, mentre que ara la matriu ampliada té rang 3 ja que
+
+                        2 −1 4
+                       |−1 −1 3| = −4 − 9 + 12 − 2 = −3 ≠ 0.
+                        3  0 2
+
+Criteris de correcció: (a) Compteu 0,25 pel determinant, 0,25 per la discusió i 0,5 per la
+solució del cas 𝑘 = 0. (b) Compteu 0,75 per l’expressió paramètrica de totes les
+solucions. (c) Compteu 0,25 per la nova equació, i 0,5 per la justificació que ara és
+incompatible.
+
+Comentari: La discussió del sistema i el càlcul de les solucions (tant per a 𝑘 = 0 com
+per a 𝑘 = −1 pot fer-se d’altres maneres. Compteu-ho bé en la mesura que el que fan
+sigui correcte i estigui ben justificat.
+
+3.
+
+a)
+
+     [1,25 punts]
+
+Tal com es veu al dibuix, les abscisses dels punts (0, 5), 𝑃, i 𝑄 són les tres solucions
+de l’equació 𝑓(𝑥) = 5:
+
+−𝑥 3 + 7𝑥 2 − 6𝑥 + 5 = 5 ⟶ 𝑥(−𝑥 2 + 7𝑥 − 6) = 0
+
+                                           −7 ± √49 − 24    1
+                           𝑥 = 0,     𝑥=                 ={
+                                                −2         6.
+
+Per tant, les coordenades dels punts demanats són 𝑃 = (1,5), 𝑄 = (6,5), i 𝑅 = (6,0).
+                                                                            0−5
+Ara, la recta 𝑟 que passa pels punts 𝑃 = (1,5) i 𝑅 = (6,0) té pendent 𝑚 =       = −1, per
+                                                                            6−1
+tant és 𝑦 = −𝑥 + 𝑛 i, com que passa pel punt 𝑅 = (6,0), tenim que 𝑛 = 6; es tracta de
+la recta 𝑦 = −𝑥 + 6.
+
+b)
+
+     [1,25 punts]
+
+La superfície del terreny serà la integral definida entre els punts d’abscissa 𝑥 = 1 i 𝑥 =
+6 de la funció 𝑓(𝑥) menys la recta:
+                                                                            Pàgina 7 de 11
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+                  6
+           𝐴 = ∫ (𝑓(𝑥) − 𝑟(𝑥)) 𝑑𝑥 =
+                  1
+                                    6
+                             = ∫ ((−𝑥 3 + 7𝑥 2 − 6𝑥 + 5) − (−𝑥 + 6)) 𝑑𝑥 =
+                                 1
+                                  6                                               6
+                                                                  𝑥4 7 3 5 2
+                             = ∫ (−𝑥 3 + 7𝑥 2 − 5𝑥 − 1) 𝑑𝑥 = [−     + 𝑥 − 𝑥 − 𝑥] =
+                                1                                 4 3    2      1
+
+       64     7       5                 1   7   5    1025
+= (− 4 + 3 63 − 2 62 − 6) − (− 4 + 3 − 2 − 1) = 12 = 85.416 … 𝑢2 .
+
+Alternativament, es pot integrar només 𝑓(𝑥) entre 1 i 6, i restar el triangle inferior no
+inclòs al terreny:
+                                                                                      6
+       6                  5·5    6                            25   𝑥4 7
+𝐴 = ∫1 𝑓(𝑥) 𝑑𝑥 −              = ∫1 (−𝑥 3 + 7𝑥 2 − 6𝑥 + 5) 𝑑𝑥 − = [− + 𝑥 3 − 3𝑥 2 + 5𝑥] −
+                           2                                  2    4  3               1
+25     64   7                           1   7            25 1175  25
+2
+   = (− 4 + 3 63 − 3 · 62 + 5 · 6) − (− 4 + 3 − 3 + 5) − 2 = 12 − 2 = 85.416 … 𝑢2 .
+
+
+Criteris de correcció: (a) Compteu 0,25 per plantejar bé l’equació, 0,25 per resoldre-la,
+0,25 per donar les coordenades dels tres punts i 0,5 per l’equació de la recta. (b)
+Compteu 0,5 pel plantejament de la integral correcta i 0,75 per fer-ne el càlcul.
+
+Comentaris: Compteu bé qualsevol de les maneres de fer-ho, si són correctes i estan
+ben explicades.
+
+4.
+
+a)
+
+     - Donat que hi ha dues A i una E, en la primera extracció tenim 3 casos favorables
+                                                                    3   1
+       sobre 9 possibles; per tant, la probabilitat demanada és 9 = 3.
+            [0,5 punts]
+
+     - Calculem primer la probabilitat que les dues boles siguin iguals. Això només pot
+       passar si són dues A o dues S.
+                                                            2 1     1
+                𝑃(𝑑𝑢𝑒𝑠 𝐴) = 𝑃(𝑝𝑟𝑖𝑚𝑒𝑟𝑎 𝐴 𝑖 𝑠𝑒𝑔𝑜𝑛𝑎 𝐴) = · =               = 𝑃(𝑑𝑢𝑒𝑠 𝑆).
+                                                            9 8 36
+                                                                               1  17
+       Per     tant,    𝑃(𝑑𝑢𝑒𝑠 𝑑𝑖𝑓𝑒𝑟𝑒𝑛𝑡𝑠) = 1 − 𝑃(𝑑𝑢𝑒𝑠 𝑖𝑔𝑢𝑎𝑙𝑠) = 1 − 2 · 36 = 18 =
+       0.944 … .
+       Alternativament, podem argumentar directament de la manera següent: si la primera
+       bola no és ni A ni S, segur que les dues seran diferents; si la primera bola és una A,
+       hi ha 7 boles favorables per a la segona extracció (totes menys l’altra A); i
+                                                                            Pàgina 8 de 11
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+       anàlogament, si la primera bola és una S, hi ha també 7 boles favorables per a la
+       segona extracció. Per tant,
+        𝑃(𝑑𝑢𝑒𝑠 𝑑𝑖𝑓𝑒𝑟𝑒𝑛𝑡𝑠)
+                      = 𝑃(𝑝𝑟𝑖𝑚𝑒𝑟𝑎 𝑛𝑜 é𝑠 𝑛𝑖 𝐴 𝑛𝑖 𝑆) + 𝑃(𝑝𝑟𝑖𝑚𝑒𝑟𝑎 𝐴 𝑖 𝑠𝑒𝑔𝑜𝑛𝑎 𝑛𝑜 𝐴)
+                      + 𝑃(𝑝𝑟𝑖𝑚𝑒𝑟𝑎 𝑆 𝑖 𝑠𝑒𝑔𝑜𝑛𝑎 𝑛𝑜 𝑆) =
+                           5    2   7   2   7   17
+                         = 9 + 9 · 8 + 9 · 8 = 18.
+          [0,75 punts]
+
+
+b)
+                                                                             2
+El nombre de boles A extretes segueix una llei binomial amb 𝑛 = 5 i 𝑝 = 9.
+                                        7 5
+     - 𝑃(𝑐𝑎𝑝 𝐴) = (1 − 𝑝)5 = (9) = 0.284 … .
+          [0,5 punts]
+
+     - (ii) Passant al complementari, tenim
+                                                       5 2 7 4       7 5
+       𝑃(𝑎𝑙𝑚𝑒𝑛𝑦𝑠 2 𝐴) = 1 − 𝑃(𝑢𝑛𝑎 𝐴) − 𝑃(𝑐𝑎𝑝 𝐴) = 1 − ( ) ( ) ( ) − ( ) =
+                                                       1 9 9         9
+                   = 0.308 … .
+          [0,75 punts]
+
+
+Criteris de correcció: (a) (i) Compteu 0,5. (ii) Compteu 0,5 pel plantejament i 0,25 pel
+càlcul. (b) (i) Compteu 0.5. (ii) Compteu 0,5 pel plantejament i 0,25 per fer-ne el càlcul.
+
+Comentaris: És més llarg però l’apartat (b) (ii) es pot respondre també calculant amb la
+binomial 𝑃(2𝐴) + 𝑃(3𝐴) + 𝑃(4𝐴) + 𝑃(5𝐴); doneu també aquestes respostes com a
+correctes en la mesura que estiguin ben fetes i ben argumentades.
+                                                                            Pàgina 9 de 11
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+5.
+
+a)
+
+     [1,25 punts]
+
+Com s’indica a l’enunciat, denotem per 𝑥 la fondària del cobert, i denotem per ℎ
+l’alçada; l’amplada serà 3𝑥. El volum del cobert ha de ser de 6 𝑚3 , és a dir, 3𝑥 · 𝑥 · ℎ =
+                    2
+6 i per tant ℎ = 𝑥 2 . El cost de construcció és donat per
+
+            𝐶(𝑥) = 30 · (3𝑥ℎ + 𝑥ℎ + 𝑥ℎ) + 50 · 3𝑥 2 + 35 = 150𝑥ℎ + 150𝑥 2 + 35 =
+
+                                   2                   300
+                        = 150𝑥 ·     2
+                                       + 150𝑥 2 + 35 =     + 150𝑥 2 + 35.
+                                   𝑥                    𝑥
+
+b)
+
+     [1,25 punts]
+
+Per minimitzar la funció 𝐶(𝑥), calculem la seva derivada:
+
+                                                −300
+                                      𝐶′(𝑥) =        + 300𝑥
+                                                 𝑥2
+                                             300
+Si resolem l’equació 𝐶 ′ (𝑥) = 0 obtenim 𝑥 2 = 300𝑥 o, equivalentment, 𝑥 3 = 1, que té
+                                                        600
+com a única solució real 𝑥 = 1. Com que 𝐶 ′′ (𝑥) = 𝑥 3 + 300 i 𝐶 ′′ (1) > 0, comprovem
+fàcilment que es tracta d’un mínim de la funció. Així doncs, les dimensions del cobert
+                                                                            2
+han de ser 𝑥 = 1 metre de fondària, 3𝑥 = 3 metres d’amplada, i ℎ = 2 = 2 metres
+                                                                            1
+                                                                                300
+d’alçada. Per a aquestes dimensions el cost de construcció és de 𝐶(1) = 1 + 150 ·
+12 + 35 = 485 euros.
+
+Criteris de correcció: (a) Compteu 0,25 pel plantejament correcte de les variables
+(amplada, fondària i alçada), 0,5 per expressar la lligadura que representa el volum
+fixat, i 0,5 per l’expressió final del cost. (b) Compteu 0,25 per la derivada, 0,25 per
+aïllar correctament, 0,25 per justificar que es tracta d’un mínim, 0,25 per les tres
+dimensions demanades i 0,25 pel càlcul del cost total.
+                                                                   𝒙
+Comentaris: Poden plantejar que l’amplada és 𝒙 i la fondària 𝟑; els càlculs seran
+diferents però doneu els punts corresponents de cada part sempre que estigui ben feta
+i ben argumentada. La justificació que es tracta d’un mínim pot fer-se també sense la
+derivada segona, analitzant el signe de la derivada primera; compteu-ho bé si ho fan
+així, sempre que estigui ben argumentat.
+                                                                           Pàgina 10 de 11
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+6.
+
+a)
+
+     [1 punt]
+
+El pla buscat ha de ser perpendicular al vector ⃗⃗⃗⃗⃗
+                                                  𝐴𝐵 = (−3, −2,3) − (1,2,3) =
+(−4, −4, 0)~(1,1,0), per tant, té equació de la forma 𝑥 + 𝑦 + 0𝑧 + 𝐷 = 0. A més, ha de
+                                   1
+passar pel punt mitjà 2 (𝐴 + 𝐵) = (−1, 0, 3); per tant, −1 + 𝐷 = 0 i es tracta del pla
+d’equació 𝑥 + 𝑦 + 1 = 0.
+
+Geomètricament és clar que aquest pla 𝜋 està format, precisament pels punts a igual
+distància de 𝐴 que de 𝐵. Efectivament, per a un punt arbitrari 𝑃 = (𝑥, 𝑦, 𝑧), l’equació
+𝑑(𝑃, 𝐴) = 𝑑(𝑃, 𝐵) és equivalent a
+
+√(𝑥 − 1)2 + (𝑦 − 2)2 + (𝑧 − 3)2 = √(𝑥 + 3)2 + (𝑦 + 2)2 + (𝑧 − 3)2 ,
+
+     𝑥 2 − 2𝑥 + 1 + 𝑦 2 − 4𝑦 + 4 + 𝑧 2 − 6𝑧 + 9 = 𝑥 2 + 6𝑥 + 9 + 𝑦 2 + 4𝑦 + 4 + 𝑧 2 − 6𝑧 + 9,
+
+                                         −2𝑥 + 1 − 4𝑦 = 6𝑥 + 9 + 4𝑦,
+
+                                              −8𝑥 − 8𝑦 − 8 = 0
+
+que simplificant-la és, precisament, l’equació del pla 𝜋, 𝑥 + 𝑦 + 1 = 0.
+
+b)
+
+     [0,75 punts]
+
+Usant la fórmula de la distància punt-pla, tenim
+                 |1+2+1|          4                      |−3−2+1|          4
+𝑑(𝐴, 𝜋) =                     =      ,       𝑑(𝐵, 𝜋) =                 =      .
+                √12 +12 +02       √2                     √12 +12 +02       √2
+
+No és casualitat que doni el mateix resultat: les projeccions ortogonals de 𝐴 i de 𝐵 al
+                                                1
+pla 𝜋 són, precisament el punt mitjà 2 (𝐴 + 𝐵) = (−1, 0, 3) per on hem fet passar el pla
+𝜋, perpendicular al vector ⃗⃗⃗⃗⃗
+                           𝐴𝐵.
+
+c)
+
+     [0,75 punts]
+
+El punt 𝐶 = (−7, 6, 3) compleix −7 + 6 + 1 = 0 i per tant pertany al pla 𝜋 de l’apartat
+anterior. Això vol dir que 𝑑(𝐶, 𝐴) = 𝑑(𝐶, 𝐵) i, per tant, el triangle 𝐴𝐵𝐶 té almenys dos
+costats iguals; per tant, és isósceles.
+                                                                           Pàgina 11 de 11
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+                                                                                   4
+Per calcular la seva àrea només necessitem la longitud de la base 𝑑(𝐴, 𝐵) = 2         =
+                                                                                   √2
+4√2, i la seva alçada, que és la distància de 𝐶 al punt mitjà entre 𝐴 i 𝐵:
+
+                ℎ = 𝑑((−7, 6, 3), (−1,0,3)) = √62 + 62 + 02 = √72 = 6√2.
+
+Per tant el triangle 𝐴𝐵𝐶 té àrea
+
+                                         4√2 · 6√2
+                                À𝑟𝑒𝑎 =             = 24 𝑢2 .
+                                            2
+
+Criteris de correcció: (a) Compteu 0,5 per calcular l’equació del pla 𝜋, i 0,5 per justificar
+que es tracta exactament dels punts equidistants d’𝐴 i de 𝐵. (b) Compteu 0,25 per
+calcular les dues distàncies, i 0,5 per reconèixer que no és casualitat i explicar el motiu
+pel qual són iguals. (c) Compteu 0,25 per raonar que el triangle és isósceles, 0,25 per
+calcular l’alçada, i 0,25 per calcular la longitud de la base i l’àrea final.
+
+Comentaris: Poden argumentar que el triangle és isósceles calculant directament la
+longitud dels tres costats i veient que dues coincideixen; compteu-ho bé si ho fan així,
+en la mesura que el que facin sigui correcte i estigui ben argumentat.
+

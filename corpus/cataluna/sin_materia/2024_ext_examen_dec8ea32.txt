@@ -1,0 +1,346 @@
+                                                                                                                  2024
+                                                                                                                  2024
+
+Proves d’accés a la universitat
+
+Tecnología e ingeniería
+Serie 1
+
+
+
+
+               Qualificació          TR
+
+Exercici 1
+
+Exercici 2
+
+Exercici 3
+
+Exercici 4
+
+Exercici 5
+
+Exercici 6
+
+Suma de notes parcials
+
+Qualificació final
+
+
+
+
+       Etiqueta de l’estudiant
+
+                                 Ubicació del tribunal ..............................................................................
+
+                                 Número del tribunal ...............................................................................
+
+
+
+      Etiqueta de qualificació                                                   Etiqueta de correcció
+      Responda a CUATRO de los seis ejercicios siguientes. Cada ejercicio vale 2,5 puntos. En caso de
+      que responda a más ejercicios, solo se valorarán los cuatro primeros.
+           Puede utilizar las páginas en blanco (páginas 14 y 15) para hacer esquemas, borradores, etc.,
+      o para acabar de responder a algún ejercicio si necesita más espacio. En este último caso, debe
+      indicarlo claramente al final del ejercicio correspondiente.
+
+
+      Ejercicio 1
+      Indique la respuesta correcta de cada cuestión. Responda en la tabla de la página 3. En el caso
+      de que no indique las respuestas en la tabla, las cuestiones se considerarán no contestadas.
+      [2,5 puntos]
+      [En cada cuestión solo puede elegirse UNA respuesta. Cuestión bien contestada: 0,5 puntos; cuestión mal contestada:
+      –0,16 puntos; cuestión no contestada: 0 puntos.]
+
+
+
+
+      Cuestión 1
+          Un motor de gasolina de cuatro tiempos consume 10,2 L/h cuando gira a 4 000 min–1.
+      El poder calorífico de la gasolina es 42 000 kJ/kg y su densidad, 0,8 kg/L. ¿Cuál es la masa de
+      combustible consumida en un ciclo del motor?
+          a) 30 mg
+          b) 34 mg
+          c) 68 mg
+          d) 136 mg
+
+
+
+
+      Cuestión 2
+           La figura muestra las curvas tensión-deformación obtenidas
+      en ensayos de tracción utilizando dos aceros diferentes. A partir
+      de la observación de esta figura, puede afirmarse que
+           a) el módulo de elasticidad de los dos aceros no puede deter-
+              minarse en este ensayo.
+           b) el módulo de elasticidad de los dos aceros es el mismo.
+           c) el módulo de elasticidad del acero 1 es mayor que el del
+              acero 2.
+           d) el módulo de elasticidad del acero 2 es mayor que el del
+              acero 1.
+
+
+
+
+      Cuestión 3
+          Una resistencia eléctrica proporciona 3 000 J a 50 ml de agua que están a 5 °C. Sabiendo
+      que el calor específico del agua es ce = 4,18 kJ/(kg K), la temperatura final del agua será
+          a) 1,435 °C.
+          b) 6,435 °C.
+          c) 14,35 °C.
+          d) 19,35 °C.
+–2–
+Cuestión 4
+    Una vivienda dispone de ocho placas solares. El área total de las placas es de 4,4 m2, y
+sus condiciones de localización hacen que se disponga, en el mes de septiembre, de una irra-
+diación diaria media de 13 kW h/m2. Si las placas tienen un rendimiento del 0,3, la energía
+producida durante el mes de septiembre será
+    a) 514,8 kW h.
+    b) 1 853 J.
+    c) 58,52 J.
+    d) 52,19 kW h.
+
+
+
+
+Cuestión 5
+   El motor de una motocicleta de cuatro tiempos tiene una carrera de 50,6 mm y un diá-
+metro de cilindro de 56 mm. Si la relación de compresión es 7,3, ¿cuál es el volumen de la
+cámara de combustión?
+   a) 124,6 cm3
+   b) 112,6 cm3
+   c) 39,56 cm3
+   d) 19,78 cm3
+
+
+
+
+Tabla de respuestas:
+
+  Espacio de respuesta para el estudiante                         Espai per a la correcció
+
+Cuestión 1   a         b     c       d                        Puntuació de la qüestió 1
+
+Cuestión 2   a         b     c       d                        Puntuació de la qüestió 2
+
+Cuestión 3   a         b     c       d                        Puntuació de la qüestió 3
+
+Cuestión 4   a         b     c       d                        Puntuació de la qüestió 4
+
+Cuestión 5   a         b     c       d                        Puntuació de la qüestió 5
+                                                              Total de l’exercici 1
+
+
+                                                                                               –3–
+      Ejercicio 2
+      [2,5 puntos en total]
+           El acceso a un edificio de oficinas está regulado por tres sistemas de control: una clave
+      numérica, una tarjeta magnética y la huella dactilar. Se permite el acceso al edificio, en hora-
+      rio laboral, validando cualquiera de los tres sistemas de control. Fuera del horario laboral,
+      deben validarse al menos dos de los tres sistemas.
+           Responda a las cuestiones que hay a continuación utilizando las siguientes variables de
+      estado:
+
+                        {
+      horario: h = 1: laboral
+                   0: no laboral
+                                 ; clave: c =  {
+                                              1: válida
+                                              0: no válida              {
+                                                           ; tarjeta: t =
+                                                                          1: válida
+                                                                          0: no válida
+                                                                                       ;
+
+
+                    {
+      huella: e = 1: válida
+                  0: no válida
+                               ; acceso: a =  {
+                                             1: permitido
+                                             0: denegado
+                                                          .
+
+           a) Elabore la tabla de verdad del sistema.
+                [1 punto]
+
+
+                   h          c   t   e   a
+
+
+
+
+–4–
+b) Determine la función lógica entre estas variables y, si conviene, simplifíquela.
+   [1 punto]
+
+
+
+
+c) Dibuje el diagrama de puertas lógicas equivalente.
+   [0,5 puntos]
+
+
+
+
+                                                                                      –5–
+      Ejercicio 3
+      [2,5 puntos en total]
+           Una persona tiene un patinete eléctrico que utiliza una batería ideal de tensión U = 24 V
+      y energía Ebat = 250 W h para alimentar un motor de rendimiento ηmot = 0,85. La rueda motriz
+      del patinete, de diámetro drueda = 140 mm, está conectada directamente al eje de salida del
+      motor.
+           En las condiciones de estudio, la persona y el patinete tienen una masa conjunta m = 70 kg
+      y recorren s = 2 km a velocidad constante v = 8 km/h por una subida en la que el ángulo que
+      forma el perfil de la calle con la horizontal es α = 7°. Al inicio del trayecto, la batería está
+      totalmente cargada. Si todas las pérdidas diferentes a las asociadas al rendimiento del motor
+      pueden despreciarse, determine:
+           a) La potencia eléctrica consumida, Peléc.
+                [1 punto]
+
+
+
+
+           b) La velocidad de rotación del eje del motor, ωmot, y el par que suministra el motor, Γ.
+                [1 punto]
+
+
+
+
+–6–
+c) El porcentaje de energía consumida de la batería, Δ.
+   [0,5 puntos]
+
+
+
+
+                                                          –7–
+      Ejercicio 4
+      [2,5 puntos en total]
+          Un coche de masa m = 1 250 kg parte del reposo y alcanza una velocidad final v = 50 km/h
+      circulando por un circuito horizontal. El coche está propulsado por un motor de combustión
+      interna de rendimiento η = 0,25.
+          La gasolina tiene un poder calorífico pc = 46 MJ/kg y una densidad ρ = 0,72 g/cm3. El fac-
+      tor de emisión de la gasolina es FE = 2,157 kg de CO2 por litro de combustible.
+          Si pueden negligirse todas las resistencias pasivas, determine:
+           a) El trabajo mecánico aportado por el motor, W.
+                [1 punto]
+
+
+
+
+           b) La cantidad de gasolina utilizada, mgas.
+                [1 punto]
+
+
+
+
+–8–
+c) La huella de CO2 emitida a la atmósfera, mCO .
+                                                2
+
+   [0,5 puntos]
+
+
+
+
+                                                    –9–
+         Ejercicio 5
+         [2,5 puntos en total]
+              Se desea estudiar la fuerza necesaria que debe realizar el músculo tibial anterior para
+         garantizar que la planta del pie se encuentre en posición horizontal cuando se mantiene ele-
+         vado sin tocar el suelo. La figura muestra un esquema del pie en esta posición.
+              El centro de la articulación del tobillo es el punto O, que se considera fijo. El pie, que se
+         ha representado con el triángulo OPT, tiene su centro de inercia en el punto G y una masa
+         m = 2,2 kg. El músculo tibial anterior está inserido en el punto Q y realiza una fuerza Fm. Su
+         brazo de momento respecto a O (distancia entre la línea de acción de la fuerza y el punto O)
+         es a = 30 mm y su línea de acción forma un ángulo φ = 9° respecto a la vertical.
+
+
+
+
+              Para esta posición estática:
+              a) Dibuje el diagrama de cuerpo libre del pie.
+                   [1 punto]
+
+
+
+
+– 10 –
+b) Determine la fuerza que realiza el músculo, Fm.
+   [0,5 puntos]
+
+
+
+
+c) Determine las fuerzas en la articulación O.
+   [1 punto]
+
+
+
+
+                                                     – 11 –
+         Ejercicio 6
+         [2,5 puntos en total]
+
+
+
+
+              El circuito de la figura muestra una fuente de tensión alterna sinusoidal de frecuencia
+         f = 50 Hz que alimenta una carga formada por una resistencia R1 = 5 Ω en serie con una induc-
+         tancia L1 = 7 mH. El vatímetro está conectado de manera que mide la potencia activa total
+         consumida por la carga W1 = 950 W. Determine:
+              a) El valor óhmico de la reactancia inductiva, XL , que presenta la inductancia L1.
+                                                              1
+
+                   [0,5 puntos]
+
+
+
+
+              b) El factor de potencia, cos φ, de la carga.
+                   [0,5 puntos]
+
+
+
+
+– 12 –
+c) El valor de la impedancia equivalente de todo el circuito, Z.
+   [0,5 puntos]
+
+
+
+
+d) El valor de la medida del amperímetro, A1.
+   [0,5 puntos]
+
+
+
+
+e) El valor eficaz de la tensión de alimentación, U1.
+   [0,5 puntos]
+
+
+
+
+                                                                   – 13 –
+         [Página para hacer esquemas, borradores, etc., o para acabar de responder a algún ejercicio.]
+
+
+
+
+– 14 –
+[Página para hacer esquemas, borradores, etc., o para acabar de responder a algún ejercicio.]
+
+
+
+
+                                                                                                – 15 –
+                                      Etiqueta de l’estudiant
+
+
+
+
+L’Institut d’Estudis Catalans ha tingut cura de la correcció lingüística i de l’edició d’aquesta prova d’accés
+

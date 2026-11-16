@@ -1,0 +1,359 @@
+                                                                              Pàgina 1 de 9
+                                                                                     Física
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+
+Sèrie 4
+
+Criteris generals d'avaluació i qualificació
+
+    1. Les respostes s’han d’ajustar a l’enunciat de la pregunta. Es valorarà sobretot que
+        l’alumnat demostri que té clars els conceptes de caràcter físic sobre els quals tracta cada
+        pregunta.
+    2. Es tindrà en compte la claredat en l’exposició dels conceptes, dels processos, dels passos
+        a seguir, de les hipòtesis, l’ordre lògic, l’ús correcte dels termes científics i la
+        conceptualització segons l’enunciat.
+    3. En les respostes cal que l’alumnat mostri una adequada capacitat de comprensió de les
+        qüestions plantejades i organitzi de forma lògica la resposta, tot analitzant i utilitzant
+        les variables en joc. També es valorarà el grau de pertinença de la resposta, el que
+        l’alumnat diu i les mancances manifestes sobre el tema en qüestió.
+    4. Les respostes s’han de raonar i justificar. Un resultat erroni amb un raonament correcte
+        es valorarà. Una resposta correcta sense raonament ni justificació es pot valorar amb un
+        0.
+    5. Un error no s’ha de penalitzar dues vegades en el mateix problema. Si un apartat
+        necessita un resultat anterior, i aquest és erroni, cal valorar la resposta
+        independentment del seu valor numèric, i tenir en compte el procediment de resolució.
+    6. Si la resolució presentada a l’examen és diferent però correcta i està d’acord amb els
+        requeriments de l’enunciat, s’ha d’avaluar positivament encara que no coincideixi amb
+        la resolució donada a la pauta de correcció.
+    7. Un o més errors d’unitats o no posar-les (resultats intermedis i finals) en un problema es
+        penalitzaran amb 0,25 punts en aquest problema.
+    8. Cal resoldre els exercicis fins al final i no es poden deixar indicades les operacions.
+    9. Cal fer la substitució numèrica en les expressions que s’utilitzen per resoldre les
+        preguntes.
+    10. Un o més resultats amb un nombre molt elevat de xifres significatives (6 xifres
+        significatives) o amb només una xifra significativa es penalitzarà amb 0,1 p. en aquest
+        problema.
+                                                                              Pàgina 2 de 9
+                                                                                     Física
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+EXERCICI 1, opció 1
+a)
+Trobar l’expressió de la velocitat orbital
+0,75 p Segons la llei de la gravitació universal, el mòdul de la força sobre la Terra degut a
+l’atracció del Sol és:
+                                                𝑀𝑆 𝑀𝑇
+                                         𝐹=𝐺
+                                                   𝑟2
+La segona llei de Newton estableix que: 𝐹⃗ = 𝑀𝑇 𝑎⃗
+D'altra banda, considerant que la trajectòria és circular la seva acceleració és l’acceleració
+centrípeta: 𝑎 = 𝑣 2 /𝑟.
+Com que sobre la Terra només actua la força de la gravetat:
+                                    𝑀𝑆 𝑀𝑇      𝑣2           𝑀𝑆
+                                𝐺      2  = 𝑀𝑇     ⇒ 𝑣 = √𝐺
+                                     𝑅𝑆𝑇       𝑅𝑆𝑇          𝑅𝑆𝑇
+0,25 p Utilitzant l’expressió obtenim el valor de la velocitat orbital de la Terra:
+                          𝑀𝑆                      1,99 · 1030
+                𝑣 = √𝐺          = √6,67 · 10−11                = 2,98 · 104 m/s
+                          𝑅𝑆𝑇                     1,496 · 1011
+0,25 p Per poder escapar de l’atracció del Sol, l’energia mecànica ha de ser com a mínim
+zero:
+                                  1           𝑀𝑆 𝑀𝑇            𝑀𝑆
+                     0 = 𝐸𝑐 + 𝐸𝑝 = 𝑀𝑇 𝑣𝑒2 − 𝐺       ⇒ 𝑣𝑒 = √2𝐺
+                                  2            𝑅𝑆𝑇             𝑅𝑆𝑇
+Utilitzant l’expressió obtenim el valor de la velocitat d’escapament:
+                          𝑀𝑆                        1,99 · 1030
+               𝑣 = √2𝐺          = √2 6,67 · 10−11                = 4,21 · 104 m/s
+                          𝑅𝑆𝑇                       1,496 · 1011
+b)
+0,75 p El moment angular s’expressa com:
+                                          ⃗𝐿⃗ = 𝑀𝑇 𝑟⃗ × 𝑣⃗,
+on 𝑟⃗ es el vector de posicio que apunta del centre del Sol a la Terra i 𝑣⃗ es la seva velocitat. El
+modul del moment angular s’expressa com:
+                                        𝐿 = 𝑀𝑇 𝑟 𝑣 𝑠𝑖𝑛𝜃,
+on 𝜃 es l’angle que formen 𝑟⃗ i 𝑣⃗. Com al periheli i a l’afeli 𝑟⃗ i 𝑣⃗ son perependiculars, 𝜃 = 𝜋/2
+i 𝑠𝑖𝑛𝜃 = 1.
+Per tant, si imposem la conservacio del moment angular entre el periheli i l’afeli tenim:
+                                      𝑀𝑇 𝑅𝑎 𝑣𝑎 = 𝑀𝑇 𝑅𝑝 𝑣𝑝
+I si aïllem el quocient de velocitats tenim:
+                              𝑣𝑝 𝑅𝑎         1,526 · 1011 m
+                                  =     =                     = 1,035
+                              𝑣𝑎 𝑅𝑝          1,475 · 1011 m
+0, 5 p La segona Llei de Kepler estableix que la velocitat areolar dels planetes és constant,
+és a dir, que una recta que uneix un planeta i el Sol escombra àrees iguals en intervals de
+temps iguals.
+Com al periheli la Terra és el punt més proper al Sol, per escombrar la mateixa àrea ha de
+tenir una velocitat superior a la que té al periheli, que és el punt més allunyat.
+                                                                              Pàgina 3 de 9
+                                                                                     Física
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+EXERCICI 1, opció 2
+a)
+1p       Segons la llei de gravitació universal, el mòdul de la força sobre un planeta de
+massa 𝑀𝑝 que orbita al voltant d’una estrella de massa 𝑀𝑒 amb un radi orbital r
+s'expressa com:
+                                               𝑀𝑝 𝑀𝑒
+                                        𝐹=𝐺
+                                                  𝑟2
+  I la segona llei de Newton estableix que: 𝐹⃗ = 𝑀𝑝 𝑎⃗
+  D'altra banda, considerant que el satèl·lit descriu un moviment circular uniforme
+                                                                𝑣2
+al voltant de al terra, la seva acceleració centrípeta és: 𝑎 = 𝑟 :
+
+                             𝑀𝑝 𝑀𝑒      𝑣2           𝑀𝑒
+                           𝐺       = 𝑀𝑝    ⇒ 𝑣 = √ 𝐺
+                              𝑟2        𝑟            𝑟
+I el període és:
+                                                 𝑟3
+                                     𝑇 = 2𝜋√
+                                                𝐺𝑀𝑒
+0,25 p La durada d’un any a Tau Ceti e és
+                             (8,05 · 1010 )3
+           𝑇 = 2𝜋√                               = 1,41 × 107 s = 163 dies
+                      6,67 · 10−11 × 1,56 · 1030
+
+
+b)
+1p     Segons la llei de gravitació universal, el mòdul de la força que actua a la
+superfície d’un planeta de massa 𝑀𝑝 sobre una massa m s'expressa com:
+                                               𝑚𝑀𝑝
+                                       𝐹=𝐺
+                                                𝑅2
+on 𝑅 és el radi del planeta. Per altre banda, la força aplicada pel camp gravitatori és:
+𝐹 = 𝑚𝑔, on𝑔 és la intensitat del camp gravitatori. Per tant
+                                               𝑀𝑝
+                                        𝑔=𝐺 2
+                                               𝑅
+0,25 p La intensitat del camp gravitatori a Tau Ceti e és:
+                                    −11
+                                         2,26 · 1025
+                      𝑔 = 6,67 · 10                    = 11,4 m/s2
+                                        (1,15 · 106 )2
+                                                                              Pàgina 4 de 9
+                                                                                     Física
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+EXERCICI 2
+a)
+0,25 p El mòdul del camp magnètic creat pel fil 1 en el fil 2:
+                           𝜇0 𝐼1 4𝜋 × 10−7 · 1500
+                     𝐵12 =      =                     = 1,00 × 10−3 T
+                           2𝜋𝑟         2𝜋 · 0,3
+0,5 p Seguidament calcularem el mòdul de la força:
+                                  𝐹⃗𝑚,2 = 𝐼2 (𝑙⃗ × 𝐵
+                                                   ⃗⃗12 )
+El camp magnètic va dirigit segons l’eix x mentre que 𝑙⃗ va dirigit segons l’eix z, per tant, són
+perpendiculars i el mòdul de la força per unitat de longitud serà:
+                                             𝐹𝑚
+                           𝐹𝑚,2 = 𝐼2 𝑙𝐵12 ⇒     = 𝐼1 𝐵12 = 1,50 N/m
+                                              𝑙
+També és considerarà correcte que es doni com a resultat la força aplicada sobre un metre
+de fil:
+              𝐹𝑚,2 = 𝐼2 𝑙𝐵12 = 1500A · 1m · 10−3 T = 1,5 N
+0,5 p Segons la regla de la mà dreta, el camp magnètic creat pel fil (1)
+on es troba el fil (2) va segons l’eix i cap endins en el paper, és a dir, en
+sentit negatiu.
+Finalment, la direcció de 𝐹⃗𝑚 és perpendicular tant a 𝑙⃗, eix z, com a 𝐵
+                                                                       ⃗⃗12, eix
+x, per tant, 𝐹⃗𝑚 va dirigida segons l’eix y. El sentit el determinem a partir de
+la regla de la mà dreta:
+                                                                              Pàgina 5 de 9
+                                                                                     Física
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+
+
+b)
+0,5 p Com hem vist abans, el fil crearà un camp magnètic cap endins.
+Per altre banda, el camp magnètic depèn de la distància al fil:
+                                         𝜇0 𝐼
+                                  𝐵=
+                                        2𝜋𝑟
+Per tant, quan ens moguem tal i com indica la figura, el camp magnètic
+que travessa l’espira s’afebleix i el flux disminueix.
+Com el flux varia, segons la Llei de Faraday s’induirà una FEM que produirà un corrent a
+l’espira.
+
+0,25 p Segons la Llei de Lenz, la FEM s’oposarà al canvi, és a dir, a
+l’afebliment del camp magnètic. Per tant el camp magnètic induït serà
+paral·lel al camp creat pel fil, i segons la regla de la mà dreta el corrent
+circularà en sentit horari.
+
+0,5 p Quan l’espira es mou cap amunt, la distància entre l’espira i el fil es manté constant,
+per tant, el flux no varia i segons la Llei de Faraday no hi haurà cap FEM induïda.
+
+EXERCICI 3
+a)
+Sabem que la imatge es forma a 16 m de la lent, 𝑠’ = 16 m.
+0,75 p Per trobar on hem de col·locar l’objecte farem servir els augments laterals:
+                                              𝑦′ 𝑠′
+                                          𝛽= =
+                                              𝑦      𝑠
+Sabem que l’objecte esta darrera la lent, 𝑠 < 0, llavors 𝛽 < 0, hi haurà inversió d’imatge, per
+tant haurem de col·locar els fotogrames de cap per avall.
+
+Per altra banda l’alçada del fotograma és 4 mm i l’alçada de la pantalla és 2 m
+Per tant, 𝑦 ′ = 2 m i 𝑦 = −4 · 10−3 m
+                 𝑦′       2                   𝑠′          𝑠′       16
+             𝛽= =             −3 =  −500   =     ⇒ 𝑠 = −       =−       = −0,032 m
+                  𝑦 −4 · 10                   𝑠          500       500
+0,5 p Per trobar la potència de la lent farem servir l’equació de la lent:
+                          1     1 1        1     1      1
+                            − = ′⇒ ′=               +        = 31,3 D
+                          𝑠′ 𝑠 𝑓           𝑓     16 0,032
+                                             1
+                                     𝑓′ =         = 0,032 m
+                                            31,3
+b)
+Sabem que la imatge es forma a 20 cm de la lent, 𝑠’ = 0,2 m.
+0,5 p Per trobar on hem de situar la pel·lícula utilitzem l’equació de la lent:
+        1 1 1           1 1      1           1 1 −1          1     1 −1
+          − = ′ ⇒ = ′ − ′ ⇒ 𝑠 = ( ′ − ′) = (                    −      ) = −0,0380 m
+        𝑠′ 𝑠 𝑓          𝑠 𝑠      𝑓           𝑠    𝑓        0,2 31,3
+Per tant, hem de col·locar la pel·lícula 3,80 cm per darrere la lent (en el sentit de propagació
+de la llum).
+                                                                              Pàgina 6 de 9
+                                                                                     Física
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+0,75 p Pel diagrama de rajos només cal dibuixar 2 dels 3 rajos indicats a la figura: el raig
+que surt de l’objecte i és paral·lel a l’eix passa pel punt focal imatge F’, el raig que passa pel
+centre de la lent i no es desvia i el raig que surt de l’objecte passa per F i surt paral·lel a l’eix.
+
+
+
+
+També es considerarà correcte que es representi l’objecte dret i la imatge invertida.
+
+EXERCICI 4, opció 1
+a)
+0,25 p Per saber el nombre de nuclis, primer calcularem la massa de potassi:
+                                       0,36
+                             𝑚𝐾 = 80         = 0,288 kg = 288 g
+                                       100
+Tot seguit, calcularem la quantitat de 40K:
+                                            0,012
+                            𝑚𝐾−40 = 288           = 3,46 · 10−2 g
+                                             100
+I finalment el nombre de Nuclis de 40K:
+                                1 mol 6,022 × 1023 nuclis
+              𝑁 = 3,46 · 10−2 g                             = 5,20 · 1020 nuclis
+                                 40 g          1 mol
+0,75 p L’activitat és el nombre de nuclis que es desintegren per unitat de temps:
+                                                𝑑𝑁
+                                     𝐴(𝑡) = −      = 𝜆𝑁
+                                                𝑑𝑡
+Necessitem el coeficient de desintegració 𝜆 que obtenim del temps de semidesintegració:
+        𝐴                                      𝑙𝑛2
+𝐴(𝑡) = 20 = 𝐴0 𝑒 −𝜆𝑡1/2 i per tant, 𝑡1/2 = 𝜆 .
+i 𝑡1/2 = 1,30 · 109 anys = 4,10 · 1016 s
+                             𝑙𝑛2         𝑙𝑛2
+Directament obtenim 𝜆 = 𝑡           = 4,10·1016 s = 1,69 · 10−17 s−1
+                              1/2
+
+0,25 p I l’activitat és:
+                                       𝐴 = 𝜆𝑁 = 8,80 · 103 Bq
+                                                                              Pàgina 7 de 9
+                                                                                     Física
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+b)
+1,0 p La reacció ha de complir la conservació del nombre màssic nuclear i a més ha de
+conservar la càrrega, amb aquestes premisses, la reacció de desintegració serà:
+                                   40     40       𝑥
+                                   19𝐾 → 20𝐶𝑎 + 𝑦? + ?
+Per una banda es compleix la conservació del nombre màssic:
+                                  40 = 40 + 𝑥 ⇒ 𝑥 = 0
+I per a la conservació de càrrega:
+                                 19 = 20 + 𝑦 ⇒ 𝑦 = −1
+
+Per tant, la partícula que busquem és un electró ( −10𝑒 ). A banda aquestes reaccions per
+complir la conservació d’energia emeten neutrins, que per conservar el nombre leptònic
+hauria de tractar-se d’una antipartícula, per tat serà un antineutrí de la família electrònica.
+La reacció completa és:
+                                  40       40       0
+                                  19𝐾 → 20𝐶𝑎 + −1𝑒 + 𝜈̅𝑒
+
+
+Alternativament es pot escriure −10𝛽 o 𝑒 − enlloc de −10𝑒.
+Si no s’indica l’antineutrí cal restar 0,25 p.
+No cal que l’estudiant detalli les operacions relacionades amb la conservació de la càrrega
+i del nombre màssic, són operacions molt senzilles que es poden fer de cap, per tant,
+només es valorarà si ha estat capaç de deduir correctament els diferents termes de la
+reacció.
+
+0,25 p Es tracta d’una desintegració 𝛽 −
+                                                                              Pàgina 8 de 9
+                                                                                     Física
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+EXERCICI 4, opció 2
+a)
+                          𝑐                     3,00·108
+0, 5 p 𝐸𝑓𝑜𝑡𝑜𝑛𝑠 = ℎ𝑓=ℎ = 6,63 · 10−34                     = 3,87 · 10−19 J = 2,42 eV
+                          𝜆                     514·10−9
+Perquè es produeixi l’efecte fotoelèctric, cal que l’energia del fotó sigui superior a la funció
+de treball del metall. Per tant, si utilitzem una llum de 514 nm, l’efecte fotoelèctric es
+produirà només amb els metalls Cesi (Cs) i Potassi (K), ja que la seva funció de treball és
+inferior a l’energia del fotó.
+ Metall               Cesi (Cs)   Sodi (Na)      Potassi (K) Calci (Ca)       Alumini (Al)
+ Treball              2,14<2,42 2,75>2,42 2,30<2,42 2,87>2,42                 4,28>2,42
+ d’extracció (eV)
+ Efecte                    Si         No              Si            No              No
+ fotoelèctric
+
+0,5 p Explicació potencial de frenada i relació amb l’energia cinètica:
+L’energia cinètica màxima que poden adquirir els electrons emesos per efecte fotoelèctric
+depèn de l’energia dels fotons 𝐸𝑓𝑜𝑡𝑜𝑛𝑠 i del treball d’extracció del metall, 𝑊𝑒 , de la següent
+manera:
+                                E𝐶,𝑚à𝑥 = 𝐸𝑓𝑜𝑡𝑜𝑛𝑠 − 𝑊𝑒 = ℎ𝑓 − 𝑊𝑒
+El potencial de frenada és el potencial elèctric mínim que cal aplicar entre el metall emissor
+i l'ànode receptor per aturar completament els electrons emesos. Això impedeix que els
+electrons arribin a l'ànode, mesurant així l’energia cinètica màxima dels electrons. Per tant,
+el potencial de frenada, 𝑉𝑓 , es relaciona amb l’energia cinètica màxima dels electrons:
+                                          E𝐶,𝑚à𝑥 = 𝑒𝑉𝑓
+on 𝑒 és la càrrega de l’electró.
+
+0,25 p A partir de les expressions anteriors, podem calcular el potencial de frenada com:
+                                              𝐸𝑓𝑜𝑡𝑜𝑛𝑠 − 𝑊𝑒
+                                        𝑉𝑓 =
+                                                    𝑒
+                  𝐸𝑓𝑜𝑡𝑜𝑛𝑠 −𝑊𝑒   𝑒(2,42−2,14)
+Per al cesi: 𝑉𝑓 =      𝑒
+                              =       𝑒
+                                             = 0,28 V
+                       𝐸𝑓𝑜𝑡𝑜𝑛𝑠 −𝑊𝑒       𝑒(2,42−2,30)
+Per al potassi: 𝑉𝑓 =       𝑒
+                                     =         𝑒
+                                                      = 0,12 V
+b)
+0,75 p Calculem l’energia dels fotons:
+                           𝑐               3,00 · 108
+           𝐸𝑓𝑜𝑡𝑜𝑛𝑠 = ℎ𝑓=ℎ = 6,63 · 10−34              = 6,63 · 10−19 J = 4,14 eV
+                           𝜆               300 · 10−9
+Calculem l’energia cinètica màxima dels electrons emesos:
+       E𝐶,𝑚à𝑥 = 𝐸𝑓𝑜𝑡𝑜𝑛𝑠 − 𝑊𝑒 = 6,63 · 10−19 − 2,14 · 1,602 · 10−19 = 3,20 · 10−19 J
+Calculem la velocitat d’aquests electrons:
+
+                       2 E𝐶,𝑚à𝑥    2 · 3,20 · 10−19
+                   𝑣= √         = √                 = 8,39 · 105 m/s
+                          𝑚𝑒        9,11 · 10−31
+                                                                              Pàgina 9 de 9
+                                                                                     Física
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+0,1 p
+                      𝑚0                     9,11 · 10−31
+           𝑚𝑟 =                 =                                    = 9,11 · 10−31 kg
+                  √1 − (𝑣/𝑐)2                                    2
+                                    √1 − (8,39 · 105 /3,00 · 108 )
+La massa relativista que obtenim és el mateix valor que la massa en repòs.
+
+0,4 p Justificació del comportament relativista
+La velocitat dels electrons emesos (8,38·105 m/s) és molt inferior a la velocitat de la llum
+(3·108 m/s). Això implica que el factor relativista és gairebé igual a 1, i la massa relativista
+no difereix significativament de la massa en repòs. Per tant, no cal tenir en compte el
+comportament relativista en aquest cas.
+

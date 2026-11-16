@@ -1,0 +1,344 @@
+                                                                                                                  2024
+
+Proves d’accés a la universitat
+
+Tecnología e ingeniería
+Serie 3
+
+
+
+
+               Qualificació          TR
+
+Exercici 1
+
+Exercici 2
+
+Exercici 3
+
+Exercici 4
+
+Exercici 5
+
+Exercici 6
+
+Suma de notes parcials
+
+Qualificació final
+
+
+
+
+       Etiqueta de l’estudiant
+
+                                 Ubicació del tribunal ..............................................................................
+
+                                 Número del tribunal ...............................................................................
+
+
+
+      Etiqueta de qualificació                                                   Etiqueta de correcció
+      Responda a CUATRO de los seis ejercicios siguientes. Cada ejercicio vale 2,5 puntos. En caso de
+      que responda a más ejercicios, solo se valorarán los cuatro primeros.
+           Puede utilizar las páginas en blanco (páginas 14 y 15) para hacer esquemas, borradores, etc.,
+      o para acabar de responder a algún ejercicio si necesita más espacio. En este último caso, debe
+      indicarlo claramente al final del ejercicio correspondiente.
+
+
+      Ejercicio 1
+      Indique la respuesta correcta de cada cuestión. Responda en la tabla de la página 3. En el caso
+      de que no indique las respuestas en la tabla, las cuestiones se considerarán no contestadas.
+      [2,5 puntos]
+      [En cada cuestión solo puede elegirse UNA respuesta. Cuestión bien contestada: 0,5 puntos; cuestión mal contestada:
+      –0,16 puntos; cuestión no contestada: 0 puntos.]
+
+
+      Cuestión 1
+           Una pantalla de proyección tiene una masa m = 3 kg en la parte inferior para
+      mantenerla siempre tensada. Un motor reductor es el encargado de enrollar la
+      pantalla, de longitud h = 1,5 m, en el rodillo de diámetro d = 250 mm, que está
+      articulado con el techo, en un tiempo t = 3 s. ¿Cuál es la energía mecánica nece-
+      saria para enrollar toda la pantalla?
+           a) 44,13 J
+           b) 73,55 J
+           c) 22,07 J
+           d) 14,71 J
+
+
+
+
+      Cuestión 2
+           Un inventor ha construido una máquina térmica que funciona entre dos fuentes térmi-
+      cas, una de 270 °C y otra de 610 °C. ¿Cuál de las siguientes afirmaciones es cierta?
+           a) El rendimiento de la máquina propuesta siempre estará por encima del 40 %.
+           b) El rendimiento de la máquina propuesta nunca podrá superar el 38,5 %.
+           c) Para que una máquina térmica funcione, el foco frío siempre debe estar por debajo de
+              0 °C.
+           d) Para que una máquina térmica funcione, el foco caliente siempre debe estar por enci-
+              ma de 700 °C.
+
+
+
+
+      Cuestión 3
+           La figura muestra las curvas tensión-deformación obtenidas
+      en ensayos de tracción utilizando una probeta de acero de alta
+      resistencia y una probeta de una aleación de bronce. A partir de la
+      observación de esta figura, se puede afirmar que
+           a) el acero es más frágil que el bronce.
+           b) el bronce tiene un límite elástico mayor que el acero.
+           c) el acero es más dúctil que el bronce.
+           d) los dos materiales se han deformado lo mismo antes de
+              romper la probeta.
+–2–
+Cuestión 4
+     El conductor de un coche híbrido puede decidir si utiliza como combustible gasolina o
+gas licuado del petróleo (GLP). Cuando utiliza gasolina, el consumo es de 6,1 litros por cada
+100 km y emite 2,23 kg de CO2 por cada litro consumido. En cambio, cuando utiliza GLP, el
+consumo es de 7 litros por cada 100 km y emite 1,647 kg de CO2 por cada litro consumido.
+Según el tipo de combustible utilizado, ¿cuál es la diferencia en la huella de carbono cuando
+el coche recorre 50 km?
+     a) 6,802 kg de CO2
+     b) 5,765 kg de CO2
+     c) 1,037 kg de CO2
+     d) 2,074 kg de CO2
+
+
+
+
+Cuestión 5
+   Una estufa eléctrica se comporta como una resistencia R = 25 Ω. Se sabe que cuando está
+conectada a una fuente de tensión alterna sinusoidal disipa una potencia activa P = 100 W.
+¿Cuál es, aproximadamente, el valor máximo de la tensión de alimentación?
+    a) 4 V
+    b) 50 V
+    c) 71 V
+    d) 100 V
+
+
+
+
+Tabla de respuestas:
+
+  Espacio de respuesta para el estudiante                          Espai per a la correcció
+
+Cuestión 1   a         b     c       d                         Puntuació de la qüestió 1
+
+Cuestión 2   a         b     c       d                         Puntuació de la qüestió 2
+
+Cuestión 3   a         b     c       d                         Puntuació de la qüestió 3
+
+Cuestión 4   a         b     c       d                         Puntuació de la qüestió 4
+
+Cuestión 5   a         b     c       d                         Puntuació de la qüestió 5
+                                                               Total de l’exercici 1
+
+
+                                                                                                –3–
+      Ejercicio 2
+      [2,5 puntos en total]
+           La figura de la derecha muestra un marcador electrónico de dos cifras
+      en el que cada cifra está compuesta por siete segmentos, que se iluminan
+      para formar los números del 0 al 9. Para una aplicación concreta, se nece-
+      sita que el marcador pueda mostrar números del 00 al 15. Para ello, el
+      sistema recibe el número que debe mostrarse codificado en numeración
+      binaria (cuatro entradas de un bit). Diseñe el control del encendido del segmento central de
+      la segunda cifra (marcado en negro en la figura) utilizando las siguientes variables de estado:
+
+                                                           {
+      primer dígito binario (el de más a la izquierda): a = 1 ;
+                                                            0
+
+                                  0   {                           {                            {
+      segundo dígito binario: b = 1 ; tercer dígito binario: c = 1 ; cuarto dígito binario: d = 1 ;
+                                                                 0                              0
+
+                        {
+      segmento: s = 1: encendido .
+                    0: apagado
+           Nota: Las cifras del marcador se escriben como se muestra a continuación:
+
+
+
+           Para hacerlo:
+           a) Elabore la tabla de verdad del sistema.
+                [1 punto]
+
+                   a          b   c   d   s
+
+
+
+
+–4–
+b) Determine la función lógica entre estas variables y, si conviene, simplifíquela.
+   [1 punto]
+
+
+
+
+c) Dibuje el diagrama de puertas lógicas equivalente.
+   [0,5 puntos]
+
+
+
+
+                                                                                      –5–
+      Ejercicio 3
+      [2,5 puntos en total]
+
+
+
+
+           Una canasta de básquet es solidaria a una barra homogénea OC de longitud 4l. La masa
+      total del conjunto es m = 100 kg y su centro de inercia se encuentra en el punto G. La barra
+      está articulada al techo en el punto O. Para plegar y desplegar la canasta se utiliza un meca-
+      nismo de tambor. Un cable con un extremo fijo a la barra se enrolla en el tambor siguiendo
+      el recorrido que se muestra en la figura. El rendimiento del motor es η = 0,8.
+           Se estudia la maniobra de plegado de la canasta en el tramo en el que el ángulo entre el
+      techo y la barra pasa de φ1 = 45° a φ2 = 15°. En este tramo, la velocidad angular de la barra es
+      constante y tiene un valor ω = 0,1745 rad/s en sentido antihorario. Determine:
+           a) La energía mecánica necesaria para realizar la maniobra, Emec.
+                [1 punto]
+
+
+
+
+           b) La energía consumida por el motor para realizar la maniobra, Emot.
+                [0,5 puntos]
+
+
+
+
+–6–
+c) La velocidad vertical del centro de inercia cuando φ = 30°, vvert.
+   [0,5 puntos]
+
+
+
+
+d) La potencia que consume el motor en la posición anterior, Pmot.
+   [0,5 puntos]
+
+
+
+
+                                                                        –7–
+      Ejercicio 4
+      [2,5 puntos en total]
+          Las planchas eléctricas incorporan un elemento calefactor que se calienta (resistencia) y
+      un interruptor en serie. Este interruptor, accionado por un sensor de temperatura, se abre
+      cuando la plancha alcanza la temperatura deseada.
+          Se quiere construir la resistencia con hilo de constantán de resistividad ρ = 4,9 × 10–7 Ω m.
+      La plancha debe suministrar una potencia P = 2,2 kW cuando se conecta a la red a una tensión
+      U = 230 V.
+          a) Determine el valor de la resistencia necesaria, R.
+                [0,5 puntos]
+
+
+
+
+          El catálogo del fabricante ofrece bobinas de hilos de longitud l = 1 m de los siguientes
+      diámetros, d:
+                              Bobina   B1      B2          B3         B4         B5
+                              d (mm)   0,04    0,08       0,12       0,16        0,2
+           b) Para estas bobinas, dibuje, indicando de manera aproximada las escalas, la función
+              que describe el valor de la resistencia de las cinco bobinas, Rb, en función del diámetro
+              de su hilo, d.
+                [1 punto]
+
+
+
+
+–8–
+c) ¿Qué bobina debe escogerse si se quiere utilizar el máximo de longitud del hilo que
+   contiene? ¿Qué cantidad de hilo sería necesaria?
+   [1 punto]
+
+
+
+
+                                                                                         –9–
+         Ejercicio 5
+         [2,5 puntos en total]
+              La figura muestra una persona con los brazos estirados sosteniendo dos pesas (una en el
+         extremo de cada brazo). También incluye el esquema simplificado de uno de los brazos para
+         realizar su análisis estático. El punto O representa la articulación del hombro y Fm es la fuerza
+         que realiza el músculo deltoides. El músculo está inserido en el punto Q y su línea de acción
+         forma un ángulo θ = 20° respecto a la horizontal. El sistema está en equilibrio. La masa del
+         brazo es mb = 5 kg y su centro de inercia se encuentra en el punto G; la pesa tiene una masa
+         mp = 2 kg y su centro de inercia es el punto P.
+
+
+
+
+              a) Dibuje el diagrama de cuerpo libre del brazo.
+                   [0,5 puntos]
+
+
+
+
+– 10 –
+b) Determine la fuerza que realiza el músculo, Fm.
+   [1 punto]
+
+
+
+
+c) Determine las fuerzas en la articulación O.
+   [1 punto]
+
+
+
+
+                                                     – 11 –
+         Ejercicio 6
+         [2,5 puntos en total]
+             Diariamente, una caldera alimentada con gas propano obtiene vapor de agua seco a
+         una temperatura T2 = 125 °C a partir de una masa de agua ma = 1 500 kg a T1 = 80 °C. En este
+         proceso, consume mp = 90 kg de gas propano de poder calorífico pc = 12,83 kW h/kg, que
+         tiene un factor de emisión FE = 2,94 kg de CO2 por cada kilogramo de gas. El calor específico
+         del agua es ce_a = 4,197 kJ/(kg °C) y la del vapor es ce_v = 2,155 kJ/(kg °C). El calor latente de
+         vaporización es Lv = 2 257 kJ/kg. Considere que el cambio de estado se produce a Tc = 100 °C.
+         Determine:
+             a) La energía útil diaria necesaria para obtener el vapor seco, Edía.
+                   [1 punto]
+
+
+
+
+              b) La energía que consume diariamente la caldera, Econs, y el rendimiento de la instala-
+                 ción, η.
+                   [1 punto]
+
+
+
+
+– 12 –
+c) La emisión anual de gases de efecto invernadero, mCO .
+                                                        2
+
+   [0,5 puntos]
+
+
+
+
+                                                            – 13 –
+         [Página para hacer esquemas, borradores, etc., o para acabar de responder a algún ejercicio.]
+
+
+
+
+– 14 –
+[Página para hacer esquemas, borradores, etc., o para acabar de responder a algún ejercicio.]
+
+
+
+
+                                                                                                – 15 –
+                                      Etiqueta de l’estudiant
+
+
+
+
+L’Institut d’Estudis Catalans ha tingut cura de la correcció lingüística i de l’edició d’aquesta prova d’accés
+

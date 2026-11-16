@@ -1,0 +1,351 @@
+                                                                            Pàgina 1 de 10
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+
+SÈRIE 4
+
+
+1.
+
+     a) Si anomenen 𝑥 el preu de l’article A, 𝑦 el preu de l’article B i 𝑧 el de l’article
+        C,tenim la primera equació a partir del cost dels tres articles abans de les
+        vacances de Nadal 𝑥 + 𝑦 + 𝑧 = 135.
+
+         D’altra banda, podem resumir la informació de l’estalvi per cada tipus d’article i
+         el nombre d’unitats que compra l’Ares en la taula següent
+
+        Estalvi per article/ nombre         Article A    Article B    Article C
+        d’unitats que compra l’Ares
+        Primeres rebaixes                   0,04    1    0,06    2    0,05   3
+        Segones rebaixes                    0,08    3    0,10    1    0,06   5
+
+        En les primeres rebaixes compra 1 unitat de tipus A, 2 de tipus B i 3 de tipus C i
+        s’estalvia 16 euros, que correspon a l’equació 0,04𝑥 + 0,12𝑦 + 0,15𝑧 = 16.
+
+        En les segones rebaixes compra 3 unitats de tipus A, 1 de tipus B i 5 de tipus C
+        i s’estalvia 29 euros, que correspon a l’equació 0,24𝑥 + 0,10𝑦 + 0,30𝑧 = 29.
+
+     b) Per resoldre el sistema plantegem el sistema sense decimals multiplicant la
+        segona i tercera equació per 100, i dividim la tercera per 2. Obtenim el sistema
+
+                                          𝑥 + 𝑦 + 𝑧 = 135
+                                      {4𝑥 + 12𝑦 + 15𝑧 = 1600
+                                       12𝑥 + 5𝑦 + 15𝑧 = 1450
+
+       i el podem resoldre aplicant el mètode de Gauss
+
+
+               1    1   1 135       1 1  1 135        1                  1  1 135
+             (4     12 15| 1600) ~ (0 8 11| 1060 ) ~ (0                  8 11 | 1060)
+              12    5 15 1450       0 −7 3 −170       0                  0 101 6060
+       Obtenim com a solució 𝑧 = 60, 𝑦 = 50 i 𝑥 = 25. Per tant, el preu de l’article de
+       tipus A abans de les rebaixes era de 25 euros, el de tipus B era de 50 euros i el
+       de tipus C era de 60 euros.
+                                                                            Pàgina 2 de 10
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara.
+
+   a) Escriure el sistema: 0,25 punts per cada equació correcta.
+
+   b) Procediment de resolució: 0,75 punts. Trobar el valor correcte de 𝑥, 𝑦 i 𝑧: 0,75
+      punts. Explicitar la solució final: 0,25 punts.
+                                                                            Pàgina 3 de 10
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+2.
+     a) Considerem els esdeveniments
+        𝐷 = la bicicleta té algun tipus de problema que requereix del servei post-venda.
+        𝑀 = la bicicleta és manual.
+        𝐸 = la bicicleta és elèctrica.
+
+        De l’enunciat del problema sabem que 𝑃(𝑀) = 0,25 i 𝑃(𝐸) = 0,75. Sabem
+        també que 𝑃(𝐷|𝑀) = 0,05 i 𝑃(𝐷|𝐸) = 0,15.
+
+        Aleshores, per la fórmula de les probabilitats totals,
+        𝑃(𝐷) = P(D ∩ M) + P(D ∩ E) = P(M) · P(D|M) + P(E) · P(D|E) = 0,25 · 0,05 +
+                      1
+        0,75 · 0,15 = 8 = 0,125.
+
+        També ho podem plantejar mitjançant un diagrama d’arbre
+
+
+                                                          0,05        Algun problema
+                                  Manual
+                     0,25
+                                                          0,95        Cap problema
+
+                                                          0,15        Algun problema
+                      0,75        Elèctrica
+
+                                                          0,85        Cap problema
+
+
+        Així doncs, la probabilitat que la bicicleta tingui algun tipus de problema que
+        requereixi el servei post-venda és de 0.125.
+
+        Ara ens demanen que calculem la probabilitat que la bicicleta sigui elèctrica si
+        sabem que ha tingut algun tipus de problema que ha requerit el servei post-
+        venda. Per tant,
+
+                   𝑃(𝐸∩𝐷)   𝑃(𝐸)·𝑃(𝐷 |𝐸 )  0,75·0,15 9
+        𝑃(𝐸|𝐷) =    𝑃(𝐷)
+                          =     𝑃(𝐷)
+                                          = 0,125 = 10 = 0,9.
+
+        Si sabem que la bicicleta ha tingut algun tipus de problema que ha requerit el
+        servei post-venda la probabilitat que es tracti d’una bicicleta elèctrica és de 0.9.
+
+     b) La mida de la mostra és 𝑛 = 100. L’estimació puntual de la proporció de
+                                                                               8
+        bicicletes que han requerit la revisió del servei post-venda és de 𝑝 =   = 0,08.
+                                                                                100
+
+        Quan la mida de la mostra és gran, l’interval de confiança per a una proporció
+        amb un nivell de confiança 𝛾𝜖(0,1) s’obté a partir de la fórmula
+                                                                            Pàgina 4 de 10
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+
+
+
+       en què, si 𝑍 segueix una distribució normal (0,1),           P(−𝑧𝛾 ≤ 𝑍 ≤ 𝑧𝛾 ) = 𝛾.
+       Per tant tenim que els extrems de l’interval són
+
+
+
+
+       i
+
+
+
+
+       L’interval de confiança demanat és [0’0268,0’1332]. Per tant, amb una confiança
+       del 95% sí que podem afirmar que el percentatge ha millorat respecte a l’històric
+       del 15%. Sabem que, actualment, el percentatge de bicicletes elèctriques que
+       requereixen del servei post-venda està entre el 2,6% i el 13,3% amb una
+       confiança del 95%.
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara.
+
+   a) Assignació correcta d’esdeveniments: 0.25 punts. Càlcul de la primera
+      probabilitat demanada: 0,5 punts. Càlcul de la segona probabilitat demanada:
+      0.5 punts.
+
+   b) Càlcul de la proporció mostral: 0,25 punts. Interpretació correcta de la fórmula i
+      substitució correcta de cada paràmetre pel seu valor: 0,5 punts. Resultat final:
+      0,25 punts. Justificació correcta del que podem afirmar a partir del resultat: 0.25
+      punts.
+                                                                            Pàgina 5 de 10
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+3.
+
+     a) A l’inici de l’estudi hi havia 50 microorganismes, és a dir, 5 desenes. Per tant,
+        tenim que 𝑓(0) = 5. Resolem l’equació:
+
+                                        15 · 0
+                                               +𝑘 =5
+                                        9 + 02
+        i obtenim que 𝑘 = 5.
+
+        Busquem ara els extrems relatius de la funció. Comencem calculant la derivada
+                                15 · (9 + 𝑥 2 ) − 15𝑥 · 2𝑥 135 − 15𝑥 2
+                      𝑓 ′ (𝑥) =                           =
+                                        (9 + 𝑥 2 )2         (9 + 𝑥 2 )2
+        igualem la derivada a zero i obtenim
+                                           135 − 15𝑥 2 = 0.
+        L’equació de segon grau té dues solucions 𝑥 = 3 i 𝑥 = −3. La solució que pertany
+        al domini de definició de la nostra funció és 𝑥 = 3. Estudiarem el signe de la
+        derivada abans i després 𝑥 = 3 i veiem que
+            - 𝑓 ′ (𝑥) > 0 per valors 0 ≤ 𝑥 < 3
+            - 𝑓 ′ (𝑥) < 0 per valors 3 < 𝑥 < +∞.
+
+        Veiem que al punt 𝑥 = 3 la funció passa de créixer a decréixer i, per tant, hi
+        trobem un màxim.
+
+        Calculem ara el valor de la funció en 𝑥 = 3:
+                                          15 · 3        15
+                                  𝑓(3) =        2
+                                                  +5=      = 7,5.
+                                         9+3            2
+        Per tant, la població màxima s’assolirà a les 3 hores d’iniciar l’estudi i serà de 7,5
+        desenes, és a dir de 75 microorganismes.
+
+     b) Per saber a quin nombre s’estabilitzarà la població de microorganismes de
+        l’estudi hem de calcular el límit quan el temps tendeix a infinit
+               15𝑥
+         lim         + 5 = 0 + 5 = 5.
+        𝑥→+∞ 9+𝑥 2
+
+        A llarg termini acabarem tenint 5 desenes de microorganismes, és a dir, 50
+        microorganismes.
+                                                                            Pàgina 6 de 10
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara.
+
+   a) Obtenció del valor de k: 0,5 punts. Càlcul de la derivada: 0,5 punts. Càlcul del
+      punt on s’assoleix el màxim: 0,25 punts. Comprovació de que es tracta d’un
+      màxim: 0,25 punts. Obtenció del nombre màxim de microorganismes: 0,25
+      punts.
+
+   b) Plantejament del límit: 0,25 punts. Càlcul del límit: 0,5 punts.
+                                                                            Pàgina 7 de 10
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+4.
+OPCIÓ A
+
+     a) Definim la matriu
+                3 0,6 1
+        𝐴 = (3,5 1 0,7)
+               2,5 0,8 0,9
+        en què cada fila representa el primer, segon i tercer proveïdor, respectivament,
+        i les columnes representen el preu de l’oli, de la farina i la sal, respectivament.
+
+        I la matriu
+              300
+        𝐵 = (700)
+               25
+        que representa la quantitat que l’empresa vol comprar de cada matèria. La
+        primera fila és la quantitat d’oli en litres, i la segona i tercera la quantitat de kg
+        de farina i sal, respectivament.
+
+        Si multipliquem les dues matrius obtenim el preu de cada proveïdor per
+        aquesta comanda:
+                                    3 0,6 1          300       1345
+                          𝐴 ⋅ 𝐵 = (3,5 1 0,7) ⋅ (700) = (1767,5)
+                                   2,5 0,8 0,9       25       1332,5
+
+        Per tant, el cost total de la comanda és de 1345€ pel primer proveïdor, 1767,5€
+        pel segon i 1332,5€ pel tercer. El proveïdor més econòmic per aquesta
+        comanda concreta és el tercer.
+
+     b) Considerem 𝑥 el nombre de cops que s’apuja el preu del paquet de pasta en
+        0,01 euros.
+
+        Sabem que el cost de producció d’un paquet de pasta és de 0,5 euros. Per
+        tant, si el preu de venda és de 1,1 euros, el benefici és de 1,1-0,5=0,6 euros. I,
+        a aquest preu, en venem 1000 paquets.
+
+        Si apugem el preu de venda 0,01𝑥 euros, el benefici serà de 0,6 + 0,01𝑥 euros i
+        el nombre de paquets venuts serà de 1000 − 10𝑥.
+
+        La funció del benefici diari total és per tant
+                    𝐵(𝑥) = (0,6 + 0,01𝑥)(1000 − 10𝑥) = −0,1𝑥 2 + 4𝑥 + 600.
+
+        Per trobar el benefici màxim calculem la derivada 𝐵′(𝑥) i la igualem a zero.
+                                                                   4
+                       𝐵′ (𝑥) = −0,2𝑥 + 4 → −0,2𝑥 + 4 = 0 → 𝑥 =        = 20.
+                                                                  0,2
+        Aquest valor és un màxim ja que 𝐵′(𝑥) > 0 per valors de 𝑥 < 20 i 𝐵′(𝑥) < 0 per
+        valors de 𝑥 > 20.
+                                                                            Pàgina 8 de 10
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+       El benefici màxim s’obtindria amb una pujada de preu de 0,2 € i seria de
+       𝐵(20) = 640 €. El preu unitari del paquet per obtenir aquest benefici màxim
+       seria de 1,3 €.
+
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara.
+
+a) Escriure les matrius: 0,25 punts cadascuna. Càlcul del producte de matrius: 0,5
+   punts. Obtenció del proveïdor que resulta més econòmic: 0,25 punts.
+
+b) Obtenció de la funció que dona el benefici en funció de 𝑥: 0,5 punts. Càlcul del punt
+   on s’assoleix el màxim i justificació de que és un màxim: 0,25 punts. Càlcul del
+   benefici màxim: 0,25 punts. Càlcul del preu de venda del paquet per obtenir el
+   benefici màxim: 0,25 punts.
+                                                                            Pàgina 9 de 10
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+OPCIÓ B
+
+   a) Considerem les següents incògnites
+      𝑥: nombre de litres d’oli que ha comprat la fàbrica.
+      𝑦: nombre de kg de farina que ha comprat la fàbrica.
+      𝑧: nombre de kg de sal que ha comprat la fàbrica.
+
+       A partir de l’enunciat trobem les següents equacions
+
+        3𝑥 + 0,6𝑦 + 𝑧 = 1320
+       {        𝑦 = 3𝑧
+            0,6𝑦 = 0,3 · 3𝑥
+
+       Multiplicant la primera i la tercera equació per 10 arribem al sistema
+                                       30𝑥 + 6𝑦 + 10𝑧 = 13200
+                                     {       𝑦 − 3𝑧 = 0
+                                               6𝑦 = 9𝑥
+       Si ara dividim per 2 la primera equació i per tres la tercera arribem al sistema
+                                        15𝑥 + 3𝑦 + 5𝑧 = 6600
+                                       {     𝑦 − 3𝑧 = 0
+                                             3𝑥 − 2𝑦 = 0
+       Resolem el sistema pel mètode de Gauss:
+           15 3         5 6600          15   3     5 6600         15 3     5     6600
+          (0      1 −3| 0 ) ~ ( 0            1    −3| 0 ) ~ ( 0 1 −3 | 0 )
+            3 −2 0          0            0 −13 −5 −6600            0 0 −44 −6600
+
+       Per tant;
+               −44𝑧 = −6600 ⟺ z = 150
+               𝑦 − 3𝑧 = 0 ⟺ y = 3 · 150 = 450
+                                               1
+               15𝑥 = 6600 − 3𝑦 − 5𝑧 ⟺ x =         (6600 − 3 ⋅ 450 − 5 ⋅ 150) = 300
+                                               15
+       La fàbrica ha comprat 300 litres d’oli, 450 kg de farina i 150 kg de sal.
+
+   b) Per trobar l’interval de confiança calcularem primer la mitjana de la mostra
+
+
+
+       A més a més, per l’enunciat sabem que 𝑛 = 9, 𝑧γ = 1,96 𝑖 σ = 4.
+       Per tant, l’interval és:
+
+
+
+
+       Amb una confiança del 95%, no podem afirmar que els paquets de pasta
+       estiguin mal etiquetats ja que 500 g pertany a aquest interval.
+                                                                           Pàgina 10 de 10
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara.
+
+a) Plantejar el sistema d’equacions: 0,25 punts per cada equació. Resolució i obtenció
+   del resultat final: 0,5 punts.
+
+b) Càlcul de la mitjana: 0,25 punts. Interpretació correcta de la fórmula i substitució
+   correcta de cada paràmetre pel seu valor: 0,5 punts. Resultat final: 0,25 punts.
+   Justificació correcta del que podem afirmar a partir del resultat: 0.25 punts.
+

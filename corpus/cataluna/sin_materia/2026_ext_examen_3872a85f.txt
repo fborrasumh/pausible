@@ -1,0 +1,333 @@
+                                                                                                                 2026
+
+Proves d’accés a la universitat
+
+Tecnología e ingeniería
+Serie 2
+
+
+
+
+     Espai per a la correcció                       Espai per a la revisió
+             Qualificació                   Comprovació                  2a correcció
+
+Exercici 1
+
+Exercici 2
+
+Exercici 3
+
+Exercici 4
+
+Suma de notes parcials
+
+Qualificació final
+
+
+
+
+      Etiqueta de qualificació                                                   Etiqueta de correcció
+
+
+
+
+       Etiqueta de l’estudiant
+
+                                 Ubicació del tribunal ..............................................................................
+
+                                 Número del tribunal ...............................................................................
+    El examen consta de CUATRO ejercicios obligatorios. Cada ejercicio vale 2,5 puntos. En el
+    ejercicio 1, solo debe responder a CINCO de las cuestiones planteadas. En los ejercicios 2, 3 y 4,
+    responda a TODAS las cuestiones que se plantean.
+       Puede utilizar las páginas en blanco para realizar esquemas, borradores, etc., o para acabar de
+    responder a algún ejercicio si necesita más espacio. En este último caso, debe indicarlo claramen-
+    te al final del ejercicio correspondiente.
+       Puede utilizar calculadora, pero no se permite el uso de calculadoras u otros aparatos capaces
+    de almacenar datos o de transmitir o recibir información.
+      Las respuestas deben ser claras y deben estar redactadas de forma coherente y cohesionada, con corrección
+    gramatical, léxica y ortográfica.
+
+
+
+    Ejercicio 1
+           Indique la respuesta correcta de CINCO de las ocho cuestiones, marcando con un círculo
+    la letra correspondiente. Si responde a más de cinco, solo se valorarán las cinco primeras.
+    [2,5 puntos: 0,5 puntos por cada cuestión. En cada cuestión solo puede escogerse UNA respuesta. Por cada respuesta
+    errónea se descontarán 0,16 puntos. Por las cuestiones no contestadas no se aplicará ningún descuento.]
+
+
+    Cuestión 1
+         La tensión de rotura de un latón es de 420 MPa. ¿Cuál es la fuerza axial máxima que se
+    puede aplicar a una barra maciza de este latón de 8 mm de diámetro sin que se rompa?
+         a) 84,4 kN         b) 21,11 kN          c) 53,1 kN      d) 211 N
+
+
+
+
+    Cuestión 2
+          Para abrir una puerta que da acceso a un recinto controlado es necesario introducir una
+    tarjeta magnética válida en un lector o bien teclear una clave numérica correcta. Se utilizan
+    las variables de estado siguientes:
+
+                  {
+     tarjeta: t = 1: válida
+                  0: no válida
+                               ; clave: c =      {
+                                            1: correcta acceso permitido: a = 1: permitido
+                                            0: incorrecta
+                                                          ;
+                                                                              0: no permitido
+                                                                                              . {
+          ¿Cuál es la función lógica entre estas variables?
+          a)                 b)                   c) a = t + c                   d) a = t · c
+
+
+
+
+    Cuestión 3
+                                                                                   a b c d
+          ¿Cuál es la función equivalente al esquema de puertas
+    lógicas de la figura?                                                                        1
+
+
+          a)                                                                                     &
+                                                                                                              >1    s
+          b)                                                                                     &
+
+
+          c) s = d + (c · a) + (b · d)
+          d) s = d(c + a) (b + d)
+
+
+
+2
+Cuestión 4                                                                            b               c
+                                                                       a                                             d
+     ¿Cuál de las siguientes tablas de verdad se corresponde
+con el esquema de contactos de la figura?
+     a)   a   b   c   d   b)   a   b   c   d   c)   a   b   c   d     d)    a    b        c   d
+          0   0   0   0        0   0   0   1        0   0   0   1           0    0        0   0
+          0   0   1   0        0   0   1   1        0   0   1   1           0    0        1   0
+          0   1   0   0        0   1   0   1        0   1   0   1           0    1        0   0
+          0   1   1   0        0   1   1   1        0   1   1   1           0    1        1   1
+          1   0   0   1        1   0   0   0        1   0   0   0           1    0        0   1
+          1   0   1   1        1   0   1   0        1   0   1   1           1    0        1   1
+          1   1   0   1        1   1   0   0        1   1   0   0           1    1        0   1
+          1   1   1   0        1   1   1   1        1   1   1   1           1    1        1   0
+
+
+
+
+Cuestión 5
+      Una barra de acero tiene una longitud inicial de 2,5 m a una temperatura de 20 °C.
+Sabiendo que el coeficiente lineal de dilatación del acero es α = 12 × 10–6 °C–1, si la barra se
+calienta hasta 120 °C, ¿cuál será su incremento de longitud?
+      a) 0,36 mm         b) 3 mm             c) 3,6 mm        d) 30 mm
+
+
+Cuestión 6
+      En un tren de tracción por cremallera, la rueda de tracción tiene 18 dientes y el paso de
+la cremallera donde engrana es de 20π mm. Durante el régimen de servicio, la rueda dentada
+gira a una velocidad constante de 520 min–1. ¿Cuál es la velocidad lineal del tren?
+      a) 9,802 km/h      b) 19,60 km/h       c) 35,29 km/h d) 61,59 km/h
+
+
+Cuestión 7
+      Una carga está formada por tres elementos en serie: una resistencia R = 10 Ω, una reac-
+tancia inductiva XL = 20 Ω a 50 Hz y una reactancia capacitiva XC = 30 Ω a 50 Hz. Si esta carga
+se conecta a una fuente de tensión U a una frecuencia tal que la carga está en resonancia
+(distinta de 50 Hz), ¿cuál será el valor de la impedancia equivalente de los tres elementos
+conectados en serie?
+      a) Z = 10 Ω        b) Z = 20 Ω          c) Z = 30 Ω      d) Z = 60 Ω
+
+
+Cuestión 8
+      Los parámetros conocidos del circuito de corriente alterna                              A2      W3
+
+de la figura son U1 = 230 V, A2 = 10 A y W3 = 1 135 W. ¿Cuál es la
+lectura del voltímetro U4?                                                           U1
+
+      a) 325,3 V                                                                                                    U4
+
+      b) 230,0 V
+      c) 200,0 V
+      d) 113,6 V
+
+                                                                    Espai per a la correcció
+                                                                                          Correctes        Incorrectes
+                                                Recompte de les respostes
+
+                                                Puntuació total de l’exercici 1
+
+                                                                                                                         3
+    Ejercicio 2                                                      Puntuació de l’exercici 2
+    [2,5 puntos en total]
+
+         Se desea montar un sistema de elevación industrial (polipasto eléctrico de cable) en un
+    puente grúa para elevar verticalmente una carga. El sistema dispone de un motor asíncrono,
+    un reductor y un tambor en el que se enrolla el cable.
+         En las condiciones de estudio, la carga se eleva a velocidad constante y la masa elevada
+    es m = 1 000 kg. El motor gira a una velocidad constante nmot = 1 450 min–1 y el reductor, de
+
+    rendimiento η = 0,7, tiene una relación de transmisión                 .
+         El diámetro del tambor es d = 423 mm.
+         Se ha suministrado el siguiente catálogo de motores y debemos escoger el más adecuado
+    para nuestro sistema de elevación.
+            Motor Potencia nominal (kW) Velocidad nominal de giro (min–1)    Par nominal (N m)
+             A              1,5                      1 450                         9,879
+             B               2                       1 450                         13,17
+             C              2,5                      1 450                         16,46
+             D               3                       1 450                         19,75
+    2.1. Determine la velocidad lineal de elevación de la carga, v, y la fuerza F necesaria para
+         elevarla.
+           [1 punto]                                               Puntuació de l’apartat 2.1
+
+
+
+
+4
+2.2. Calcule la potencia mecánica que debe suministrar el motor, Pmot, e indique cuál de los
+     motores debería elegirse. Justifique brevemente la respuesta.
+     [1 punto]
+                                                             Puntuació de l’apartat 2.2
+
+
+
+
+2.3. En la salida del reductor hay un sensor que mide el par que está transmitiendo el eje y
+     que manda una señal que permite bloquear el sistema cuando se supera en un 15 % el
+     par del punto de funcionamiento nominal del motor.
+       Determine el valor del par al que debe estar tarado el sensor, Γsens.
+     [0,5 puntos]                                            Puntuació de l’apartat 2.3
+
+
+
+
+                                                                                               5
+    Ejercicio 3                                                      Puntuació de l’exercici 3
+    [2,5 puntos en total]
+
+           Una instalación industrial dispone de un sistema de producción de vapor basado en una
+    caldera pirotubular alimentada con gas propano. La empresa realiza un seguimiento de su
+    huella ambiental y ha estimado que, durante el año 2025, el funcionamiento de esta caldera
+    generó mCO2 = 1 032 toneladas de CO2.
+           Se considera que la instalación trabaja de manera regular a lo largo de 365 días al año.
+    La caldera suministra vapor a un evaporador industrial y trata diariamente una masa de agua
+    ma = 16 000 kg, que entra en el evaporador a T1 = 80 °C y sale como vapor seco sobrecalentado
+    a T2 = 120 °C.
+           El gas propano tiene un poder calorífico pc = 12,83 kW h/kg y un factor de emi-
+    sión FE = 2,94 kg de CO2 por cada kilogramo de gas. El calor específico del agua es
+    ce_a = 4,197 kJ/(kg °C) y el del vapor es ce_v = 2,155 kJ/(kg °C). El calor latente de vaporiza-
+    ción es Lv = 2 257 kJ/kg.
+           Determine:
+    3.1. La masa total de propano consumida diariamente, mpropano.
+           [0,5 puntos]
+                                                                    Puntuació de l’apartat 3.1
+
+
+
+
+    3.2. La energía diaria aportada por el combustible, Econs.
+           [0,5 puntos]
+                                                                    Puntuació de l’apartat 3.2
+
+
+
+
+6
+3.3. La energía diaria necesaria para el proceso térmico, Eútil.
+     [1 punto]
+                                                                   Puntuació de l’apartat 3.3
+
+
+
+
+3.4. El rendimiento de la caldera, η.
+     [0,5 puntos]
+                                                                   Puntuació de l’apartat 3.4
+
+
+
+
+                                                                                                7
+    Ejercicio 4                                                            Puntuació de l’exercici 4
+    [2,5 puntos en total]
+
+           Un padre juega con su hija sosteniéndola del modo que muestra la figura. Se desea estu-
+    diar las fuerzas musculares y las reacciones en la articulación de la rodilla y se ha modelizado
+    el sistema según la figura y los siguientes datos.
+           La pierna y el pie del padre se representan como un único sólido de masa mp = 4 kg con
+    el centro de masas en el punto G. La hija, de masa mh = 12 kg, tiene su centro de inercia en el
+    punto P. El punto O representa la rodilla, que se considera un punto fijo. El cuádriceps femoral
+    (grupo muscular que permite la extensión de la rodilla) se insiere en el punto Q y su fuerza,
+    Fm, forma un ángulo φ = 25° respecto a la pierna (barra OP). Su brazo de momento respecto
+    a O (distancia entre la línea de acción de la fuerza y el punto O) es a = 20 mm y mantiene el
+    sistema en equilibrio en la posición indicada (α = 30°).
+                                                                      Fm           g
+                                                              
+                            Fm
+                                                                  a
+                                                              O            b
+                                                                                   c
+                                                                  Q
+                                                                      G
+
+                                                                      α
+
+                                                                               P
+
+                                                              a = 20 mm            = 25°     mh = 12 kg
+                                                              b = 190 mm            = 30°     mp = 4 kg
+                                                              c = 400 mm
+
+
+
+    4.1. Dibuje el diagrama de cuerpo libre del sistema.
+           [0,5 puntos]                                                   Puntuació de l’apartat 4.1
+
+
+
+
+8
+4.2. Determine la fuerza que debe ejercer el músculo cuádriceps femoral, Fm.
+     [1 punto]                                                   Puntuació de l’apartat 4.2
+
+
+
+
+4.3. Determine las fuerzas en la articulación O de la rodilla.
+     [1 punto]                                                   Puntuació de l’apartat 4.3
+
+
+
+
+                                                                                              9
+     [Página para hacer esquemas, borradores, etc., o para acabar de responder a algún ejercicio.]
+
+
+
+
+10
+[Página para hacer esquemas, borradores, etc., o para acabar de responder a algún ejercicio.]
+
+
+
+
+                                                                                                11
+Comprovació i 2a correcció:
+
+
+
+
+3a correcció:
+
+
+
+
+                                                 Etiqueta de l’estudiant
+
+
+
+
+          L’Institut d’Estudis Catalans ha tingut cura de la correcció lingüística i de l’edició d’aquesta prova d’accés.
+

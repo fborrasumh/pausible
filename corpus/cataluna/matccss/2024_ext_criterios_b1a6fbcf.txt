@@ -1,0 +1,320 @@
+                                                                                Pàgina 1 de 7
+                                                Matemàtiques Aplicades a les Ciències Socials
+      Proves d’accés a la Universitat 2024, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+SÈRIE 3
+
+
+1.
+
+     a) Primer, ens demanen el valor de la funció el dia 45:
+
+         𝐵(45) = −2.325, per tant aquest dia l’empresa té unes pèrdues de 2.325 euros.
+
+         Hem de saber ara quins dies l’empresa ha tingut uns beneficis de 4000 euros.
+         Per tant, hem de trobar els valors de 𝑥 per als quals
+
+             𝐵(𝑥) = 4000 → −𝑥 2 + 260𝑥 − 12000 = 4000 → 𝑥 2 − 260𝑥 + 16000 = 0
+
+                260±√3600
+         →𝑥=
+                    2
+
+         que té dues solucions, 𝑥 = 100 i 𝑥 = 160. Per tant, els dies 100 i 160 ha tingut
+         un benefici de 4000 €.
+
+     b) Per trobar el màxim, comencem calculant la derivada de la funció que ens dona
+        els beneficis
+
+                                            𝐵’(𝑥) = −2𝑥 + 260
+
+         Igualant-la a zero, trobem un extrem relatiu en 𝑥 = 130. Observem que en aquest
+         punt hi ha un màxim perquè la funció 𝐵’(𝑥) és positiva per a valors inferiors a
+         𝑥 = 130 i, per tant, la funció 𝐵(𝑥) és creixent, i 𝐵’(𝑥) és negativa per a valors
+         superiors a 𝑥 = 130 i, per tant, 𝐵(𝑥) és decreixent.
+
+         Els beneficis aquest dia seran de 𝐵(130) = 4900 euros.
+
+         Per tant, el dia 130 l’empresa té el benefici màxim i aquest benefici és de 4900
+         euros.
+
+         Sabem que l’empresa no té pèrdues si 𝐵(𝑥) ≥ 0. Si resolem l’equació B(x) = 0
+         obtenim
+
+                                                                  260 ± √19600
+                            −𝑥 2 + 260𝑥 − 12000 = 0 → 𝑥 =
+                                                                        2
+
+         que té per solucions 𝑥 = 60 i 𝑥 = 200. Observem, substituint en un punt intermedi
+         com, per exemple, el valor en 𝑥 = 130 que ja hem calculat abans, que la paràbola
+         és positiva entre aquests dos valors. Per tant, l’empresa no ha tingut pèrdues
+         entre els dies 60 i 200.
+                                                                               Pàgina 2 de 7
+                                               Matemàtiques Aplicades a les Ciències Socials
+     Proves d’accés a la Universitat 2024, convocatòria extraordinària. Criteri específic d'avaluació
+
+Criteris de correcció:
+
+   a) Trobar les pèrdues del dia 45: 0,5 punts. Trobar els dos dies que el benefici ha
+      estat de 4.000 euros: 0,5 punts.
+
+   b) Calcular la derivada: 0,25 punts. Trobar el punt crític: 0,25 punts. Justificar que
+      es tracta d’un màxim: 0,25 punts. Calcular el benefici màxim: 0,25 punts.
+      Calcular l’interval de dies entre els quals l’empresa no ha tingut pèrdues: 0,5
+      punts.
+                                                                                Pàgina 3 de 7
+                                                Matemàtiques Aplicades a les Ciències Socials
+      Proves d’accés a la Universitat 2024, convocatòria extraordinària. Criteri específic d'avaluació
+
+2.
+         a) Anomenem 𝑥, 𝑦 i 𝑧 la inversió en BTC, ETH i LNK, respectivament.
+            Obtenim les dues equacions següents
+
+                                                 𝑥 =𝑦+𝑧
+                                  {
+                                   1,15𝑥 + 1,1𝑦 + 1,13𝑧 = 1,13(𝑥 + 𝑦 + 𝑧)
+
+             Si substituïm la primera igualtat en la segona equació obtenim
+
+                            1,15(𝑦 + 𝑧) + 1,1𝑦 + 1,13𝑧 = 1,13(𝑦 + 𝑧 + 𝑦 + 𝑧)
+                       2,25𝑦 + 2,28𝑧 = 2,26𝑦 + 2,26𝑧; −0,01𝑦 = −0,02𝑧; 𝑦 = 2𝑧
+
+             Per tant, la inversió en ETH ha de ser el doble que en LNK.
+
+
+
+         b) Si hi afegim la nova condició, obtenim el sistema
+
+                                                  𝑥 = 𝑦+𝑧
+                                  { 1,15𝑥 + 1,1𝑦 + 1,13𝑧 = 1,13(𝑥 + 𝑦 + 𝑧)
+                                             𝑥 + 𝑦 + 𝑧 = 150000
+
+             Si substituïm la primera relació en la tercera equació, obtenim
+
+                      𝑦 + 𝑧 + 𝑦 + 𝑧 = 150000; 2𝑦 + 2𝑧 = 150000; 𝑦 + 𝑧 = 75000
+
+             Si fem servir la relació obtinguda a l’apartat a), obtenim
+
+                                                          75000
+                           2𝑧 + 𝑧 = 75000; 3𝑧 = 75000; 𝑧 =      = 25000;
+                                                            3
+                  𝑦 = 2𝑧 = 2 · 25000 = 50000; 𝑥 = 𝑦 + 𝑧 = 50000 + 25000 = 75000
+
+             Per tant, la inversió és de 75000 € en BTC, 50000 € en ETH i 25000 € en
+             LNK.
+
+
+
+
+Criteris de correcció:
+
+     a) Assignació d’incògnites: 0,25 punts. Plantejament: 0,25 punts cada equació
+        correcta. Trobar la relació entre ETH i LNK: 0,5 punts.
+
+     b) Escriure la nova equació: 0,25 punts. Resoldre el sistema: 0,5 punts. Escriure
+        la inversió realitzada en cada criptomoneda: 0,5 punts.
+                                                                                Pàgina 4 de 7
+                                                Matemàtiques Aplicades a les Ciències Socials
+      Proves d’accés a la Universitat 2024, convocatòria extraordinària. Criteri específic d'avaluació
+
+3.
+
+     a) Si el volum ha de ser de 4 litres = 4000 𝑐𝑚3 tenim que 𝑥 2 · 𝑦 = 4000 i, per tant,
+              4000
+         𝑦=    𝑥2
+                  .
+
+     b) La superfície de la caixa en 𝑐𝑚2 ve donada per l’expressió
+
+                                                              4000        16000
+                          𝑆(𝑥) = 𝑥 2 + 4𝑥 · 𝑦 = 𝑥 2 + 4𝑥 ·       2
+                                                                   = 𝑥2 +
+                                                               𝑥            𝑥
+
+         Si calculem la derivada, obtenim
+
+                                                             16000
+                                            𝑆 ′ (𝑥) = 2𝑥 −
+                                                               𝑥2
+
+         Trobem els extrems relatius igualant a zero
+
+                                       16000
+                                2𝑥 −         = 0 → 𝑥 3 = 8000 → 𝑥 = 20
+                                         𝑥2
+
+         Comprovem que es tracta d’un mínim perquè la derivada 𝑆’(𝑥) és negativa per
+         a valors inferiors a 𝑥 = 20, i, per tant, 𝑆(𝑥) és decreixent, mentre que 𝑆’(𝑥) és
+         positiva per a valors superiors a 𝑥 = 20 i, per tant, 𝑆(𝑥) és creixent.
+
+         Hem obtingut, per tant, que el costat de la base 𝑥 ha de mesurar 20 cm.
+         L’alçària de la caixa serà de
+
+                                             4000 4000
+                                       𝑦=        =     = 10 𝑐𝑚.
+                                              𝑥2   202
+
+         Finalment, la quantitat de cartró és la superfície de la caixa amb aquests valors
+                      16000
+         𝑆 = 202 +      20
+                            = 400 + 800 = 1200 𝑐𝑚2.
+
+
+Criteris de correcció:
+
+     a) Trobar l’expressió algebraica: 0,5 punts.
+
+     b) Trobar la funció que cal optimitzar: 0,25 punts. Càlcul de la derivada: 0,5 punts.
+        Obtenció del punt on s’assoleix el mínim: 0,25 punts. Justificar que es tracta
+        d’un mínim: 0,25 punts. Trobar l’alçària: 0,25 punts. Trobar la quantitat de
+        cartró: 0,5 punts.
+                                                                                Pàgina 5 de 7
+                                                Matemàtiques Aplicades a les Ciències Socials
+      Proves d’accés a la Universitat 2024, convocatòria extraordinària. Criteri específic d'avaluació
+
+4.
+
+     a) Fem el producte
+
+                                           122 620           742
+                                                       1
+                                  𝐴 · 𝐵 = (930 433) · ( ) = (1363).
+                                                       1
+                                           384 281           665
+
+         Clarament, la primera fila correspon al nombre total de menors de 18 anys que
+         han anat al cinema aquella setmana, la segona al total de persones entre 18 i
+         65 anys i la tercera al total de majors de 65 anys.
+
+         Per la propietat associativa del producte de matrius, només cal trobar una
+         matriu 𝐶 = (𝑎 𝑏 𝑐) que multiplicada pel producte 𝐴 · 𝐵, que acabem de
+         calcular, ens doni els ingressos totals per la venda d’entrades. Observem que
+
+                                                    742
+              𝐶 · 𝐴 · 𝐵 = 𝐶 · (𝐴 · 𝐵) = (𝑎 𝑏 𝑐) · (1363) = 742 · 𝑎 + 1363 · 𝑏 + 665 · 𝑐
+                                                    665
+
+         I, per tant, per obtenir els ingressos totals és suficient definir 𝐶 = (𝑎 𝑏 𝑐) =
+         (5 8,5 6,5). Els ingressos totals de la setmana són 19618 euros.
+
+     b) Comencem calculant el producte C·D·B
+
+                                          84  23                            107
+                                                       1
+                 𝐶 · 𝐷 · 𝐵 = (5 8,5 6,5) (338  𝑥  ) · (  ) = (5 8,5 6,5) (338 + 𝑥 )
+                                                       1
+                                          256 408                           664
+                                = 7724 + 8,5𝑥
+
+         Sabem, d’altra banda, que el total d’ingressos ha estat de 12076 euros. Per
+         tant, 7724 + 8,5𝑥 = 12076 → 8,5 𝑥 = 4352 → 𝑥 = 512.
+
+         Així doncs, el valor que ens faltava, el nombre d’adults que van assistir a la
+         segona pel·lícula aquella setmana, fou de 512 persones.
+
+
+
+
+Criteris de correcció:
+
+     a) Càlcul del producte 𝐴 · 𝐵: 0,5 punts. Interpretació del producte obtingut: 0,25
+        punts. Obtenció de la matriu 𝐶: 0,5 punts. Càlcul dels ingressos: 0,25 punts.
+
+     b) Plantejament del problema: 0,5 punts. Càlcul del valor de 𝑥: 0,5 punts.
+                                                                                 Pàgina 6 de 7
+                                                 Matemàtiques Aplicades a les Ciències Socials
+      Proves d’accés a la Universitat 2024, convocatòria extraordinària. Criteri específic d'avaluació
+
+5.
+
+         Considerem els esdeveniments:
+
+         𝐴1 = l’abonat utilitza la zona de piscina
+
+         𝐴2 = l’abonat utilitza el gimnàs
+
+         𝐵1 = l’individu està abonat en horari de matí
+
+         𝐵2 = l’individu està abonat en horari de tarda
+
+         Sabem que 𝑃(𝐴1 ) = 0,4 i que 𝑃(𝐴2 ) = 0,6. Sabem també que 𝑃(𝐵1 |𝐴1 ) = 0,55 i
+         que 𝑃(𝐵1 |𝐴2 ) = 0,45.
+
+     a) Aplicant la fórmula de les probabilitats totals tenim que
+
+               𝑃(𝐵1 ) = 𝑃(𝐵1 ∩ 𝐴1 ) + 𝑃(𝐵1 ∩ 𝐴2 ) = 𝑃(𝐵1 |𝐴1 )𝑃(𝐴1 ) + 𝑃(𝐵1 |𝐴2 )𝑃(𝐴2 ).
+
+         Per tant,
+
+                                    𝑃(𝐵1 ) = 0,55 · 0,4 + 0,45 · 0,6 = 0,49.
+
+         La probabilitat que estigui abonat en horari de matí és de 0,49.
+
+     b) Aplicant la fórmula de la probabilitat condicionada i la fórmula de Bayes,
+
+                                    𝑃(𝐴1 ∩ 𝐵1 ) 𝑃(𝐵1 |𝐴1 )𝑃(𝐴1 ) 0,55 · 0,4
+                     𝑃(𝐴1 |𝐵1 ) =              =                =           = 0,4490.
+                                      𝑃(𝐵1 )        𝑃(𝐵1 )         0,49
+
+         La probabilitat que utilitzi la zona de la piscina si sabem que està abonat en
+         horari de matí és de 0,4490.
+
+Criteris de correcció:
+
+     a) Assignació correcta d’esdeveniments i interpretació correcta de les probabilitats
+        de l’enunciat: 0,5 punts. Fórmula de les probabilitats totals: 0,5 punts. Resultat
+        de l’apartat: 0,25 punts.
+
+     b) Plantejament: 0,5 punts. Ús correcte de la fórmula de Bayes: 0,5 punts.
+        Resultat: 0,25 punts.
+                                                                                   Pàgina 7 de 7
+                                                   Matemàtiques Aplicades a les Ciències Socials
+      Proves d’accés a la Universitat 2024, convocatòria extraordinària. Criteri específic d'avaluació
+
+6.
+
+     a) Tenim una mostra de mida 𝑛 = 10. Calculem l’estimació puntual de la mitjana a
+        partir de la mostra i obtenim que
+
+                                                       𝑥̅ = 32,3
+
+         D’altra banda, sabem que la desviació típica és 𝜎 = 2.
+
+         L’interval de confiança per a la mitjana amb un nivell de confiança 𝛾𝜖(0,1), quan
+         la variància 𝜎 2 és coneguda s’obté a partir de la fórmula
+                                                        𝜎               𝜎
+                                           [ 𝑥̅ − 𝑧𝛾        , 𝑥̅ + 𝑧𝛾        ],
+                                                       √𝑛               √𝑛
+
+         en què, si 𝑍 segueix una distribució normal (0,1), 𝑃(−𝑧𝛾 ≤ 𝑍 ≤ 𝑧𝛾 ) = 𝛾.
+
+         Per tant, tenim que els extrems de l’interval són
+
+                                           𝜎                        2
+                                 𝑥̅ − 𝑧𝛾        = 32,3 − 1,96               = 31,0604
+                                           √𝑛                      √10
+
+         i
+
+                                           𝜎                        2
+                                 𝑥̅ + 𝑧𝛾        = 32,3 + 1,96               = 33,5396
+                                           √𝑛                      √10
+
+         L’interval de confiança demanat és [31′0604 , 33′5396].
+
+     b) A partir del resultat anterior podem afirmar, amb una confiança del 95%, que la
+        informació que proporciona l’empresa és errònia. Ja que, a partir de la mostra,
+        amb una confiança del 95%, la mitjana hauria d’estar entre 31,0604 i 33,5396
+        minuts i, per tant, superior als 30 minuts que indica l’empresa.
+
+
+
+
+Criteris de correcció:
+
+     a) Càlcul de la mitjana: 0,5 punts. Fórmula de l’interval de confiança per a la
+        mitjana: 0,5 punts. Resultat final: 0,5 punts.
+
+     b) Justificació correcta: 1 punt.
+

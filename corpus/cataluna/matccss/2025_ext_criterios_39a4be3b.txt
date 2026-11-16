@@ -1,0 +1,338 @@
+                                                                              Pàgina 1 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+
+SÈRIE 1
+
+
+1.
+
+     a) Si anomenem respectivament 𝑥, 𝑦 i 𝑧 els preus de les habitacions individual,
+        doble i triple, podem plantejar el sistema següent:
+
+                                             6𝑥 + 2𝑦 = 702
+                                           {
+                                            𝑥 + 3𝑧 = 2𝑦 + 2𝑧
+
+        Obtenim, per tant,
+
+                           6𝑥 + 2𝑦 = 702        𝑦 = 351 − 3𝑥   𝑦 = 351 − 3𝑥
+                         {                 →{                →{
+                          𝑥 − 2𝑦 + 𝑧 = 0         𝑧 = 2𝑦 − 𝑥     𝑧 = 702 − 7𝑥
+
+        Per tant, si anomenem 𝑥 el preu de l’habitació individual, l’habitació doble
+        valdrà 351 − 3𝑥 i la triple 702 − 7𝑥.
+
+
+     b) Amb la nova informació sabem que 𝑧 = 2𝑥. Per tant, igualant al valor de 𝑧 que
+        hem trobat abans, obtenim que 2𝑥 = 702 − 7𝑥, és a dir, 9𝑥 = 702 i, per tant, el
+        preu de l’habitació individual serà 𝑥 = 78 euros. L’habitació doble valdrà 𝑦 =
+        351 − 3 · 78 = 117 euros i la triple 𝑧 = 2 · 78 = 156 euros.
+
+        Sabíem que si reservàvem 6 habitacions individuals i dues de dobles havíem de
+        pagar 702 euros. Si en reservem una d’individual i tres de triples haurem de
+        pagar 78 + 3 · 156 = 546 euros. Si en reservem dues de dobles i dues de triples
+        haurem de pagar també 2 · 117 + 2 · 156 = 546 euros.
+
+        Per tant, entre aquestes opcions, el preu mínim per allotjar les 10 persones és
+        de 546 euros, i l’obtenim tant si reservem una habitació individual i tres de triples
+        com si reservem dues habitacions dobles i dues de triples.
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara.
+
+     a) Escriure el sistema: 0,25 punts per equació correcta. Procediment de resolució:
+        0,25 punts. Trobar el valor correcte de 𝑦 i de 𝑧 en funció de 𝑥: 0,5 punts.
+
+     b) Escriure l’equació addicional: 0,25 punts. Obtenció del preu dels tres tipus
+        d’habitació: 0,75 punts. Trobar el preu mínim que cal pagar: 0,25 punts.
+                                                                              Pàgina 2 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+2.
+
+     a) En primer lloc, hem de calcular el valor de la inversió a l’inici del dia, és a dir,
+        quan 𝑥 = 0. Observem que 𝑓(0) = 250; per tant, el valor inicial és de 250 euros.
+        Al final del dia, quan 𝑥 = 24 el valor de la inversió és de 𝑓(24) = 1978 euros. Per
+        tant, durant el dia ha tingut un benefici de 1978 − 250 = 1728 euros.
+
+        Per saber en quin instant del dia s’assoleix el valor màxim, comencem calculant
+        la derivada de la funció
+
+                                       𝑓 ′ (𝑥) = 𝑥 2 − 35𝑥 + 300
+
+                                                      35±√25
+        Si igualem la derivada a zero obtenim 𝑥 =        2
+                                                            ; és a dir, tenim dues solucions
+        𝑥 = 15 i 𝑥 = 20. Per veure si són màxims o mínims relatius, podem estudiar el
+        signe de la derivada. Veiem que
+
+            •   𝑓 ′ (𝑥) > 0 per 0 ≤ 𝑥 < 15; per tant, aquí la funció és creixent.
+
+            •   𝑓 ′ (𝑥) < 0 per 15 < 𝑥 < 20; per tant, aquí la funció és decreixent.
+
+            •   𝑓 ′ (𝑥) > 0 per 20 < 𝑥 ≤ 24; per tant, aquí la funció és creixent.
+
+        Obtenim, per tant, que la funció té un màxim relatiu en 𝑥 = 15 i un mínim relatiu
+        en 𝑥 = 20.
+
+        L’instant en què la inversió assolirà el valor màxim és el màxim absolut de la
+        funció 𝑓(𝑥) en el domini en què està definida 𝑥 ∈ [0,24]. A partir dels intervals
+        de creixement i decreixement que hem obtingut, aquest màxim absolut només
+        es podrà assolir o bé en el màxim relatiu 𝑥 = 15 o bé en l’extrem superior de
+        l’interval de definició 𝑥 = 24.
+
+        Observem que 𝑓(15) = 1937,5; per tant, l’instant en què s’assoleix el màxim és
+        al final del dia i aquest valor màxim és de 𝑓(24) = 1978 euros.
+
+     b) Per saber l’instant en què el valor de la inversió ha estat mínim, a partir de l’estudi
+        que hem fet dels intervals de creixement i decreixement de la funció, hem de
+        comprovar el valor de la inversió en l’instant en què s’assoleix el mínim relatiu i
+        en l’instant inicial. Observem que en 𝑥 = 20 el valor de la inversió és de 𝑓(20) =
+        1916,67 euros.
+
+        Per tant, el mínim absolut s’assoleix en l’instant inicial 𝑓(0) = 250 euros, i, en
+        particular, no hi ha cap instant en què el valor de la inversió hagi estat negatiu.
+                                                                              Pàgina 3 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara.
+
+   a) Obtenció del valor inicial: 0,25 punts. Càlcul dels beneficis al llarg del dia: 0,25
+      punts. Càlcul de la derivada: 0,25 punts. Trobar els punts on s’assoleixen els
+      extrems relatius: 0,25 punts. Obtenció del màxim absolut i del valor màxim: 0,5
+      punts.
+
+   b) Obtenció del mínim absolut i del valor mínim: 0,5 punts. Justificar que en cap
+      moment la inversió ha estat negativa: 0,5 punts.
+                                                                              Pàgina 4 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+3.
+
+     a) Anomenem 𝑋 la variable “pes de la vaca”. Ens demanen que calculem la
+        𝑃(531 ≤ 𝑋 ≤ 629). Sabem que 𝑋 segueix una distribució normal de mitjana µ =
+                                                                𝑋−580
+        580 i desviació típica 𝜎 = 25. Per tant, 𝑍 =             25
+                                                                      segueix una distribució normal
+        (0,1). Aleshores,
+
+                                          531 − 580 𝑋 − 580 629 − 580
+                  𝑃(531 ≤ 𝑋 ≤ 629) = 𝑃 (            ≤           ≤     )
+                                             25          25       25
+                                  = 𝑃(−1,96 ≤ 𝑍 ≤ 1,96) = 0,95.
+
+        Per tant, la probabilitat que el pes de la vaca estigui entre aquests dos valors és
+        de 0,95.
+
+     b) Tenim una mostra de mida 𝑛 = 10. Calculem l’estimació puntual de la mitjana a
+        partir de la mostra i obtenim que
+
+                                                  𝑥̅ = 581,4
+
+        D’altra banda, sabem que la desviació típica és 𝜎 = 25.
+
+        L’interval de confiança per a la mitjana d’una variable normal amb un nivell de
+        confiança 𝛾𝜖(0,1), quan la variància 𝜎 2 és coneguda, s’obté a partir de la fórmula
+                                                      𝜎                𝜎
+                                           [𝑥̅ − 𝑧𝛾        , 𝑥̅ + 𝑧𝛾        ],
+                                                      √𝑛               √𝑛
+
+        en què, si 𝑍 segueix una distribució normal (0,1), 𝑃(−𝑧𝛾 ≤ 𝑍 ≤ 𝑧𝛾 ) = 𝛾.
+
+        Per tant, tenim que els extrems de l’interval són
+
+                                      𝜎                           25
+                            𝑥̅ − 𝑧𝛾        = 581,4 − 1,96                  = 565,9048
+                                      √𝑛                         √10
+
+        i
+
+                                      𝜎                           25
+                            𝑥̅ + 𝑧𝛾        = 581,4 + 1,96                  = 596,8952.
+                                      √𝑛                         √10
+
+        L’interval de confiança demanat és [565’9048 , 596’8952].
+
+        A partir del resultat anterior no podem afirmar, amb una confiança del 95%, que
+        el pes de les vaques hagi canviat perquè el valor 580 està dins de l’interval que
+        hem obtingut.
+                                                                              Pàgina 5 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara.
+
+   a) Plantejament correcte del problema: 0,5 punts. Obtenció del resultat: 0,5 punts.
+
+   b) Càlcul de la mitjana: 0,5 punts. Interpretació correcta de la fórmula i substitució
+      correcta de cada paràmetre pel seu valor: 0,25 punts. Resultat final: 0,25 punts.
+      Justificació correcta de que no podem afirmar que el pes hagi canviat: 0,5
+      punts.
+                                                                              Pàgina 6 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+4.
+OPCIÓ A
+
+     a) Considerem els esdeveniments
+        𝐴 = la persona inscrita al congrés és una dona
+        𝑈 = la persona inscrita al congrés és docent d’universitat
+        𝑆 = la persona inscrita al congrés és docent de secundària
+        𝐼 = la persona inscrita al congrés és docent d’infantil o primària
+
+        De l’enunciat del problema sabem que 𝑃(𝑈) = 0,1, 𝑃(𝑆) = 0,5 i 𝑃(𝐼) = 0,4.
+        Sabem també que 𝑃(𝐴|𝑈) = 0,4, 𝑃(𝐴|𝑆) = 0,52 i 𝑃(𝐴|𝐼) = 0,65.
+
+        Aleshores, per la fórmula de les probabilitats totals,
+        𝑃(𝐴) = P(A ∩ U) + P(A ∩ S) + P(A ∩ I) = P(U) · P(A|U) + P(S) · P(A|S) + P(I) ·
+        P(A|I) = 0,1 · 0,4 + 0,5 · 0,52 + 0,4 · 0,65 = 0,56.
+
+        També es pot resoldre el problema a través d’un diagrama d’arbre
+
+
+
+
+        i realitzaríem el mateix càlcul. Així doncs, la probabilitat que sigui una dona és
+        de 0,56.
+
+        Ara ens demanen que calculem la probabilitat que la persona inscrita sigui
+        docent de secundària si sabem que és una dona. Per tant,
+
+                   𝑃(𝑆∩𝐴)       𝑃(𝑆)·𝑃(𝐴|𝑆)       0,5·0,52
+        𝑃(𝑆|𝐴) =            =                 =              = 0,4643.
+                    𝑃(𝐴)           𝑃(𝐴)            0,56
+
+        Així doncs, si escollim una dona inscrita a l’atzar, la probabilitat que sigui docent
+        de secundària és de 0,4643.
+
+     b) Considerem les variables:
+        𝑥: nombre de docents inscrits universitaris
+        𝑦: nombre de docents inscrits de secundària
+        𝑧: nombre de docents inscrits d’infantil i primària
+                                                                              Pàgina 7 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+   Traduïm la informació de l’enunciat en equacions:
+
+       •   El total de dones és 476: 0,4𝑥 + 0,52𝑦 + 0,65𝑧 = 476.
+       •   El 10% del total són docents d’universitat: 0,10(𝑥 + 𝑦 + 𝑧) = 𝑥 →
+            −0,9𝑥 + 0,1𝑦 + 0,1𝑧 = 0.
+       •   El 50% del total són docents de secundària: 0,50(𝑥 + 𝑦 + 𝑧) = 𝑦 →
+            0,5𝑥 − 0,5𝑦 + 0,5𝑧 = 0.
+
+   Si simplifiquem l’última equació i reordenem, obtenim el sistema d’equacions següent:
+                                       𝑥−𝑦+𝑧 =0
+                              {    −0,9𝑥  + 0,1𝑦 + 0,1𝑧 = 0
+                                0,4𝑥 + 0,52𝑦 + 0,65𝑧 = 476
+
+   El podem resoldre aplicant el mètode de Gauss:
+       1   −1          1    0      1 −1    1    0     1 −1    1 0
+     (−0,9 0,1        0,1 | 0 ) ~ (0 −0,8  1 | 0 ) ~ (0 −0,8 1 | 0 )
+      0,4 0,52        0,65 476     0 0,92 0,25 476    0  0   1,4 476
+
+   I obtenim 𝑥 = 85, 𝑦 = 425 i 𝑧 = 340
+
+   Per tant, hi ha 85 docents universitaris, 425 de secundària i 340 d’infantil i primària.
+
+   Alternativament, també es pot resoldre l’exercici utilitzant l’apartat anterior. Sabem
+   que la probabilitat que una persona inscrita sigui una dona és 𝑃(𝐴) = 0,56. D’altra
+   banda, si anomenem 𝑛 el nombre d’inscrits, aquesta probabilitat també és igual a
+           476                               476
+   𝑃(𝐴) = 𝑛 . D’aquí deduïm que hi ha 𝑛 = 0,56 = 850 persones inscrites. Si apliquem
+    que el 10% són docents universitaris, el 50% de secundària i la resta d’infantil i
+    primària, obtenim que hi ha 85 docents universitaris, 425 de secundària i 340
+    d’infantil i primària.
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara.
+
+a) Assignació d’esdeveniments: 0,25 punts. Càlcul de la probabilitat que sigui una dona:
+   0,5 punts. Càlcul de la probabilitat que si escollim una dona sigui docent de
+   secundària: 0,5 punts.
+
+b) Plantejament de les equacions del sistema: 0,25 punts per cada equació. Resolució
+   del sistema i solució final: 0,5 punts.
+
+   Si han utilitzat la resolució alternativa: 0,5 punts per obtenir el nombre total d’inscrits
+   i 0,75 punts per obtenir el nombre d’inscrits de cada tipus.
+                                                                              Pàgina 8 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+OPCIÓ B
+
+   a) Les previsions de l’organització són que al congrés hi acabin assistint 1000
+      persones, segons els percentatges de l’enunciat tindrem la distribució següent:
+         • Nombre de docents d’universitat: 10% de 1000 = 100
+         • Nombre de docents de secundària: 50% de 1000 = 500
+         • Nombre de docents d’infantil i primària: 40% de 1000 = 400
+
+       Així, els organitzadors hauran de comprar 100 detalls del tipus D1, 500 detalls
+       del tipus D2 i 400 detalls del tipus D3.
+
+       Fent el següent producte de matrius, s’obté el preu de tots els detalls per a cada
+       empresa
+
+                                   1,25  1   1,25
+              (100    500    400) (0,75  1   1,15) = (900            940    1020)
+                                    1   0,85 0,80
+       Per tant, a l’empresa E1, els detalls costarien 900 €; a l’empresa E2, costarien
+       940 €, i a l’empresa E3, costarien 1020 €. L’empresa que ofereix el millor preu
+       és l’empresa E1 amb un preu de 900 €.
+
+   b) Sigui 𝑥, el nombre de vegades que s’aplica el descompte d’1 €. L’estudi es fa a
+      partir de la hipòtesi que amb un preu de 80 euros es reservarien 100 habitacions
+      dobles i que per cada euro que rebaixem el preu es reserven dues habitacions
+      més.
+
+       La funció que dona els ingressos és el producte entre el preu de l’habitació doble
+       i el nombre d’habitacions dobles reservades. Per tant, tenim
+                      𝐼(𝑥) = (80 − 𝑥)(100 + 2𝑥) = −2𝑥 2 + 60𝑥 + 8000.
+
+       Per trobar el màxim d’ingressos, derivem la funció 𝐼(𝑥):
+        𝐼′(𝑥) = −4𝑥 + 60.
+       Igualem la deriva a zero i veiem que hi ha un extrem relatiu quan 𝑥 = 15. Veiem
+       que es tracta d’un màxim, perquè la derivada és positiva per a 𝑥 < 15 i és negativa
+       per a 𝑥 > 15.
+       Per tant, el preu de l’habitació doble per maximitzar els ingressos ha de ser de
+       80 − 15 = 65 €.
+                                                                              Pàgina 9 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+Criteris de correcció:
+
+Cal que la redacció de la resposta s’hagi fet de manera coherent, amb correcció i
+claredat, emprant la notació i el vocabulari matemàtic adequats i expressant la solució
+de manera clara.
+
+
+a) Plantejar el producte de matrius: 0,25 punts. Realitzar el producte de matrius: 0,5
+   punts. Trobar l’empresa que ofereix el millor preu: 0,25 punts. Trobar el millor preu:
+   0,25 punts.
+
+b) Obtenció de la funció que dona els ingressos en funció de 𝑥: 0,25 punts. Càlcul de
+   la derivada: 0,25 punts. Obtenció del punt on s’assoleix el màxim: 0,25 punts.
+   Justificació que es tracta d’un màxim: 0,25 punts. Càlcul del preu de l’habitació doble
+   amb el qual els ingressos són màxims: 0,25 punts.
+

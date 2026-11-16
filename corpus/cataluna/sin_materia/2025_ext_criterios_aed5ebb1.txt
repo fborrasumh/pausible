@@ -1,0 +1,291 @@
+                                                                              Pàgina 1 de 6
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+
+SÈRIE 4
+
+1. a) El domini d’aquesta funció és
+
+     𝐷𝑜𝑚(𝑓) = { 𝑥 ∈ 𝑅 ∣ 1 + 𝑥 3 ≥ 0 } = { 𝑥 ∈ 𝑅 ∣ 𝑥 3 ≥ −1 } = { 𝑥 ∈ 𝑅 ∣ 𝑥 ≥ −1 }
+                 = [−1, +∞).
+
+Com que 𝑓(0) = √1 + 03 = 1, el tall d’aquesta funció amb l’eix d’ordenades és al punt
+(0,1). Els talls amb l’eix d’abscisses corresponen a les solucions de l’equació 𝑓(𝑥) = 0,
+que són
+
+             √1 + 𝑥 3 = 0 ⟶ 1 + 𝑥 3 = 0 ⟶ 𝑥 3 = −1 ⟶ 𝑥 = −1.
+
+Per tant, es tracta només del punt (−1, 0).
+                                         3𝑥 2                                           3𝑥 2
+b) La derivada de 𝑓(𝑥) és 𝑓’(𝑥) =               3
+                                                  , i l’equació de l’enunciat és                = 0.
+                                       2√1+𝑥                                          2√1+𝑥 3
+                      2
+Aïllant, ens queda 3𝑥 = 0 i, per tant 𝑥 = 0. L’únic candidat a extrem dins l’interior del
+domini és, doncs, el punt 𝑥 = 0. Ara bé, la funció derivada és positiva, 𝑓’(𝑥) ≥ 0, per
+que es tracta d’una fracció entre nombres sempre positius. Això vol dir que 𝑓 és una
+funció creixent en tot el seu domini [−1, ∞). Per tant, aquesta funció no té cap màxim ni
+mínim locals.
+
+c) El punt de tangència (𝑎, 3) està sobre la gràfica de la funció i, per tant, compleix
+
+                                                                                  3
+        𝑓(𝑎) = √1 + 𝑎3 = 3 ⟶ 1 + 𝑎3 = 9 ⟶ 𝑎3 = 8 ⟶ 𝑎 = √8 = 2.
+                                                           3·22       12
+Aquesta recta tangent tindrà pendent 𝑚 = 𝑓 ′ (2) =                =        = 2. Per tant, es tracta
+                                                         2√1+23       6
+de
+                          𝑦 − 3 = 2(𝑥 − 2) ⟶ 𝑦 = 2𝑥 − 1.
+
+
+Criteris de correcció: (a) Compteu 0,25 per la determinació del domini de la
+funció, i 0,25 pel càlcul dels punts de tall. (b) Compteu 0,25 pel càlcul de la
+derivada, 0,25 per als punts crítics, 0,25 per determinar que no hi ha màxims ni
+mínims locals, i 0,25 per reconèixer que es tracta d’una funció creixent. (c)
+Compteu 0,5 punts per determinar l’abscissa del punt de tangència i 0,5 pel càlcul
+de la recta tangent.
+                                                                              Pàgina 2 de 6
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+2. a) Comencem calculant el determinant de la matriu de coeficients del sistema:
+
+              1  3 𝑎
+            |−2 −6 2| = −6 + 6𝑎 − 6𝑎 − (−6𝑎2 + 6 − 6) = 6𝑎2 − 6
+             𝑎   3 1
+                      = 6(𝑎2 − 1).
+
+Clarament s’anul·la només quan 𝑎 = ±1. Per tant si 𝑎 ≠ 1 i 𝑎 ≠ −1 el rang de la matriu
+de coeficients és 3, el rang de la matriu ampliada també i, com que tenim tres incògnites,
+és un sistema compatible determinat.
+
+Per al cas 𝑎 = 1 tenim el sistema d’equacions:
+
+                                     1  3 1 1
+                                   (−2 −6 2 | 2 ).
+                                     1  3 1 3
+
+Fem Gauss: a la fila 2 li sumem dues vegades la fila 1, i a la fila 3 li restem la fila 1:
+
+                          1  3 1 1         1 3              1 1
+                         (−2 −6 2 | 2 ) ~ (0 0              4 | 4 ).
+                          1  3 1 3         0 0              0 2
+
+Clarament, veient la tercera equació, es tracta d’un sistema incompatible.
+
+Finalment, per al cas 𝑎 = −1 tenim el sistema
+
+                                   1  3 −1    1
+                                  (−2 −6 2 | −2 )
+                                   −1 3  1    3
+
+Tornem a fem Gauss: a la fila 2 li sumem dues vegades la fila 1, i a la fila 3 li sumem la
+fila 1:
+
+                       1  3 −1    1      1               3 −1 1
+                      (−2 −6 2 | −2 ) ~ (0               0 0 | 0)
+                       −1 3  1    3      0               6 0   4
+
+Ara està clar que els rangs de les matrius de coeficients i ampliada són ambdós 2 i, com
+que hi ha tres incògnites, el sistema és compatible indeterminat amb un grau de llibertat.
+
+b) Per al cas 𝑎 ≠ 1 i 𝑎 ≠ −1 el sistema ens ha donat compatible determinat, la qual cosa
+significa que els tres plans 𝜋1 , 𝜋2 i 𝜋3 es tallen en un sol punt comú.
+                                                                              Pàgina 3 de 6
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+Per al cas 𝑎 = 1 el sistema és incompatible i, per tant, els tres plans a la vegada no
+s’intersequen. Clarament, 𝜋1 i 𝜋3 són plans paral·lels (per que els vectors (1, 3, 1) i
+(1, 3, 1) són proporcionals) i 𝜋2 és un pla secant als dos anteriors.
+
+Finalment, per al cas 𝑎 = −1, tenim que 𝜋1 = 𝜋2 (les equacions són proporcionals) i 𝜋3
+és un pla secant a l’anterior; per tant, la intersecció dels tres és una recta.
+
+c) Pel que hem vist a l’apartat anterior l’únic cas en què la intersecció dels tres plans és
+una recta és per 𝑎 = −1. Resolem el sistema aprofitant els càlculs de l’apartat (a). Tenim
+     4   2         2
+𝑦 = 6 = 3 i 𝑥 + 3 3 − 𝑧 = 1, per tant, 𝑥 = 𝑧 − 1. Les solucions, i per tant els punts de la
+                                                      2           2
+recta en qüestió són de la forma (𝑥, 𝑦, 𝑧) = (𝑧 − 1, 3 , 𝑧) = (−1, 3 , 0) + 𝑧(1,0,1). D’aquí
+                   2
+veiem que (−1, 3 , 0) és un punt d’aquesta recta i (1, 0, 1) n’és un vector director.
+
+
+Criteris de correcció: (a) Compteu 0,25 pel càlcul del determinant, i 0,25 per la discussió
+de cadascun dels tres casos. (b) Compteu 0,25 per interpretar la posició relativa en
+cadascun dels tres casos. (c) Compteu 0,25 per agafar el valor adequat del paràmetre, 0,25
+per resoldre el sistema, i 0,25 per deduir un punt i un vector director.
+
+
+3. a) Considerem els esdeveniments aleatoris
+
+                          𝐵 = ``𝑟𝑒𝑏𝑟𝑒 𝑢𝑛 𝑐𝑜𝑟𝑟𝑒𝑢 𝑏𝑟𝑜𝑠𝑠𝑎′′ ,
+              𝐶𝐵 = ``𝑟𝑒𝑏𝑟𝑒 𝑢𝑛 𝑐𝑜𝑟𝑟𝑒𝑢 𝑎 𝑙𝑎 𝑐𝑎𝑟𝑝𝑒𝑡𝑎 𝑑𝑒 𝑐𝑜𝑟𝑟𝑒𝑢 𝑏𝑟𝑜𝑠𝑠𝑎′′ .
+
+Segons les dades de l’enunciat tenim que 𝑃(𝐵) = 0,25, 𝑃(𝐵̅ ) = 1 − 0,25 = 0,75,
+                         ̅̅̅̅ ∣ 𝐵̅ ) = 0,9. Per la llei de la probabilitat total,
+𝑃( 𝐶𝐵 ∣ 𝐵 ) = 0,95, i 𝑃( 𝐶𝐵
+
+   𝑃(𝐶𝐵) = 𝑃(𝐶𝐵 | 𝐵) 𝑃(𝐵) + 𝑃(𝐶𝐵 | 𝐵̅) 𝑃(𝐵̅ ) = 0,95 · 0,25 + (1 − 0,9) · 0,75 =
+              = 0,3125.
+
+b) Cal calcular 𝑃(𝐵̅ |𝐶𝐵). Per la fórmula de Bayes:
+
+                           𝑃(𝐵̅ ∩ 𝐶𝐵) 𝑃(𝐶𝐵 | 𝐵̅ ) · 𝑃(𝐵̅) 0,1 · 0,75
+          𝑃( 𝐵̅ ∣ 𝐶𝐵 ) =             =                   =           = 0,24.
+                             𝑃(𝐶𝐵)        0,3125           0,3125
+
+S’hi trobarà un 24% dels correus que no són brossa.
+
+c) Calculant la funció de l’enunciat, la probabilitat de rebre almenys dos correus
+en menys de 𝑡 minuts és
+
+               𝑡                  𝐴         𝑡     𝐴
+     𝐹(𝑡) = ∫0 𝐴𝑒 −0,5𝑥 𝑑𝑥 = [−0,5 𝑒 −0,5𝑥 ] = −0,5 (𝑒 −0,5𝑡 − 1) = 2𝐴(1 − 𝑒 −0,5𝑡 ).
+                                            0
+                                                                              Pàgina 4 de 6
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+Imposant el valor de 𝐹(2) que ens donen, trobem 2𝐴(1 − 𝑒 −1 ) = 1 − 𝑒 −1 , d’on
+resulta 𝐴 = 0,5.
+
+Criteris de valoració: (a) Compteu 0,25 per plantejar la llei de la probabilitat
+total, 0,25 per identificar les dades del problema, i 0,25 pel càlcul. (b) Compteu
+0,25 per plantejar la fórmula de Bayes (o la fórmula de la probabilitat
+condicionada) i 0,5 pel càlcul. (c) Compteu 0,5 per al càlcul explícit de 𝐹(𝑡), 0,25
+per imposar 𝐹(2), i 0,25 pel càlcul final.
+
+
+
+4. OPCIÓ A. a) Com que el volum de la part cilíndrica ha de ser de 100 𝑐𝑚3,
+                                        100
+tenim que 𝜋𝑟 2 ℎ = 100 i per tant ℎ = 𝜋𝑟 2. La superfície total de l’ampolla s’obté
+sumant la superfície de la base, 𝜋𝑟 2 , la superfície lateral del cilindre, 2𝜋𝑟ℎ, i la
+                                        1
+superfície de la mitja esfera superior, 2 4𝜋𝑟 2 = 2𝜋𝑟 2; per tant, és
+
+                      𝑆 = 𝜋𝑟 2 + 2𝜋𝑟ℎ + 2𝜋𝑟 2 = 3𝜋𝑟 2 + 2𝜋𝑟ℎ.
+
+Si substituïm ℎ per l’expressió que tenim en funció de 𝑟, obtenim la funció
+
+                                                   100            200
+                         𝑆(𝑟) = 3𝜋𝑟 2 + 2𝜋𝑟 ·           = 3𝜋𝑟 2
+                                                                +     .
+                                                   𝜋𝑟 2            𝑟
+
+b) Busquem ara el mínim d’aquesta funció calculant la seva derivada:
+                                                         200
+                                  𝑆 ′ (𝑟) = 6𝜋𝑟 −            .
+                                                          𝑟2
+
+Igualant-la a zero, 𝑆 ′ (𝑟) = 0, obtenim
+
+                                                   200
+                                          6𝜋𝑟 −        = 0,
+                                                    𝑟2
+                                                 200
+                                       6𝜋𝑟 =         ,
+                                                  𝑟2
+                                                 100
+                                          𝑟3 =       ,
+                                                 3𝜋
+
+                                      3   100
+                                  𝑟= √        ≃ 2,2 𝑐𝑚.
+                                          3𝜋
+                                                                              Pàgina 5 de 6
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+Per verificar que es tracta d’un mínim podem utilitzar la segona derivada
+
+                                                        400
+                                      𝑆 ′′ (𝑟) = 6𝜋 +       ,
+                                                         𝑟3
+
+que és clarament positiva per a qualsevol 𝑟 positiu. Per tant, per a 𝑟 = 2,2 𝑐𝑚
+                                                               100
+l’ampolla té superfície total mínima. En aquest cas tenim ℎ =      2
+                                                                     = 6,6 𝑐𝑚 i la
+                                                                         𝜋·2,2
+superfície total mínima és de 𝑆(2,2) = 3𝜋 · 2,22 + 2𝜋 · 2,2 · 6,6 ≃ 136,8 𝑐𝑚2.
+
+
+
+Criteris de correcció: (a) Compteu 0,5 per la lligadura donada pel volum i 0,5
+pel càlcul correcte de la fórmula de l’àrea total. (b) Compteu 0,5 punts pel càlcul
+de la derivada, 0,25 per trobar el valor de 𝑟, 0,25 per comprovar que es tracta
+d’un mínim, i 0,5 per donar la resposta completa (dimensions i àrea total).
+
+
+
+
+4. OPCIÓ B. a) Tenim
+                               𝑎   0 2 0          2𝑎             0
+                      𝐴𝐵 = (         2) (    )=(                    ),
+                               1   𝑎      1 4   2 + 𝑎2          4𝑎2
+
+                               2   0 𝑎     0          2𝑎    0
+                       𝐵𝐴 = (       )(       2) = (           2 ).
+                               1   4 1     𝑎        𝑎 +  4 4𝑎
+
+Per tant, les matrius 𝐴 i 𝐵 commuten si i només si 2 + 𝑎2 = 𝑎 + 4, és a dir, si i
+                                                                                 1±√1−4(−2)
+només si 𝑎2 − 𝑎 − 2 = 0. Les solucions d’aquesta equació són 𝑎 =                              =
+                                                                                     2
+1±3
+    = 2, −1. Per 𝑎 = 2 la matriu 𝐴 coincideix amb 𝐵, i per 𝑎 = −1 obtenim 𝐴 =
+ 2
+  −1 0
+(       ).
+  1 1
+
+b) La matriu 𝐴 és invertible si i només si det(𝐴) ≠ 0. Tenim
+
+
+                                                𝑎    0
+                                      det(𝐴) = |        | = 𝑎3 .
+                                                 1   𝑎2
+
+Per tant la matriu 𝐴 és invertible si i només si 𝑎 ≠ 0.
+                                                                              Pàgina 6 de 6
+                                                                             Matemàtiques
+Proves d’accés a la Universitat 2025, convocatòria ordinària. Criteri específic d'avaluació
+
+c) Que 𝐴 = 𝐴−1 és el mateix que dir 𝐴𝐴 = 𝐼𝑑. Imposant aquesta igualtat,
+
+
+
+                 𝐴𝐴 = (
+                          𝑎   0 𝑎
+                                )(
+                                      0
+                                         ) = (   𝑎2      0 ) = (1     0
+                                                                       ),
+                          1   𝑎2 1    𝑎2       𝑎2 + 𝑎    𝑎4     0     1
+
+obtenim les equacions 𝑎2 = 𝑎4 = 1 i 𝑎2 + 𝑎 = 0. Les dues primeres equacions es
+compleixen per 𝑎 = 1 i per 𝑎 = −1, i la tercera per 𝑎 = −1 i per 𝑎 = 0. Per tant,
+𝐴−1 = 𝐴 si i només si 𝑎 = −1. Alternativament es pot calcular la matriu inversa,
+
+                                                   1
+                      1               1           2                   0
+              𝐴−1 =        (𝐴𝑑𝑗 𝐴)𝑡 = 3 ( 𝑎 0) = ( 𝑎                       );
+                    det(𝐴)           𝑎   −1 𝑎       1                 1
+                                                  − 3
+                                                   𝑎                  𝑎2
+
+i, imposant que coincideixi amb la matriu 𝐴, obtenim les equacions 𝑎2 = 1, 𝑎3 =
+−1, i 𝑎4 = 1, que tenen per solució 𝑎 = −1.
+
+
+Criteris de correcció: (a) Compteu 0,25 pel càlcul de 𝐴𝐵, 0,25 pel càlcul de 𝐵𝐴,
+i 0,25 per resoldre l’equació i donar la resposta. (b) Compteu 0,25 pel càlcul del
+determinant i 0,5 per la resposta justificada. (c) Compteu 0,5 pel càlcul de 𝐴𝐴 (o
+de 𝐴−1 ), 0,25 per plantejar les equacions a resoldre, i 0,25 per la resposta. Si
+donen com a respostes vàlides totes les solucions parcials 𝑎 = 1, −1, 0, compteu
+només els 0,5 punts del càlcul de 𝐴2 (ó 𝐴−1).
+

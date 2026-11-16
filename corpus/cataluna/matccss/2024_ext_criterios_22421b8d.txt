@@ -1,0 +1,334 @@
+                                                                              Pàgina 1 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+
+SÈRIE 5
+
+
+1.
+
+     a) Si un paquet pesa 9,5 kg estem a la primera opció i, per tant, cal pagar:
+
+                                      2 · 15 + 7,5 · 12 = 120 €.
+
+        Si un paquet pesa 13 kg estem en la segona de les opcions i, per tant, es paga:
+                                  11 · 13 + 2 · 15 = 173 €.
+
+        La funció 𝑓(𝑥) que dona el preu en funció del pes és
+
+                                            30         0< 𝑥≤2
+                             𝑓(𝑥) = { 30 + 12(𝑥 − 2)  2 < 𝑥 < 11
+                                     143 + 15(𝑥 − 11) 11 ≤ 𝑥 ≤ 25
+
+        Que simplificada queda
+
+                                           30            0< 𝑥≤2
+                                𝑓(𝑥) = { 6 + 12𝑥        2 < 𝑥 < 11
+                                        −22 + 15𝑥       11 ≤ 𝑥 ≤ 25
+
+        Hi ha dos punts del domini 𝑥 ∈ (0,25) en els que podria haver-hi una
+        discontinuïtat, que són 𝑥 = 2 i 𝑥 = 11.
+
+        En el punt 𝑥 = 2 observem que
+
+         lim 𝑓(𝑥) = 30 i lim+ 𝑓(𝑥) = 6 + 12 · 2 = 30
+        𝑥→2−              𝑥→2
+
+        i, per tant, la funció és contínua en aquest punt.
+
+        En canvi, en el punt 𝑥 = 11 observem que
+
+         lim 𝑓(𝑥) = 6 + 12 · 11 = 138 i lim+ 𝑓(𝑥) = −22 + 15 · 11 = 143
+        𝑥→11−                              𝑥→11
+
+        i, per tant, la funció té una discontinuïtat en aquest punt.
+
+     b) Per saber quants quilos hem enviat busquem l’antiimatge de 162.
+
+        Si ens fixem en els límits que hem calculat i que la funció és creixent en els
+        darrers dos trossos de definició observem que el pes ha de ser més gran de 11
+        kg, per tant buscarem l’antiimatge en aquest tros:
+                                                  184
+        −22 + 15𝑥 = 162 → 15𝑥 = 184 → 𝑥 = 15 = 12,27 kg.
+
+        Per tant tenim que el pes del paquet enviat era de 12,27 kg.
+                                                                              Pàgina 2 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+Criteris de correcció:
+
+a) Càlcul del preu d’un paquet de 9,5 kg: 0,25 punts. Càlcul del preu d’un paquet de 13
+kg: 0,25 punts. Obtenció de la funció general definida a trossos: 0,75 punts. Estudi de
+la continuïtat: 0,5 punts.
+
+b) Plantejament de l’equació: 0,25 punts. Resolució: 0,5 punts.
+                                                                              Pàgina 3 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+2.
+       a) Anomenem 𝑥, 𝑦 i 𝑧 els preus de la maleta petita, de la maleta mitjana i de la
+          maleta gran, respectivament. En tots els casos, es tracta del preu sense
+          descompte.
+          A partir de la informació s’obtenen les següents relacions:
+
+                                           𝑥 + 𝑦 + 𝑧 = 240
+                                      {      𝑥+𝑦−𝑧 =0
+                                       0.9(2𝑥 + 𝑦 + 𝑧) = 256,5
+           Que correspon a
+                                            𝑥 + 𝑦 + 𝑧 = 240
+                                     {        𝑥+𝑦−𝑧 =0
+                                      1,8𝑥 + 0,9𝑦 + 0,9𝑧 = 256,5
+           I si multipliquem la tercera equació per 10 tenim
+                                            𝑥 + 𝑦 + 𝑧 = 240
+                                        {     𝑥+𝑦−𝑧 =0
+                                          18𝑥 + 9𝑦 + 9𝑧 = 2565
+
+           El podem resoldre pel mètode de Gauss
+                    1 1 1 240              1 1 1 240            1 1 1 240
+                  ( 1 1 −1| 0 ) → (1 1 −1| 0 ) → (0 0 2|240)
+                   18 9 9 2565             2 1 1 285            0 1 1 195
+                                    1 1 1 240
+                                 → (0 1 1|195)
+                                    0 0 1 120
+           Obtenim per tant que 𝑧 = 120, 𝑦 = 195 − 120 = 75 i, finalment, 𝑥 = 240 −
+           120 − 75 = 45.
+
+           Per tant, el preu de la maleta petita és de 45 euros, el de la maleta mitjana
+           és de 75 euros i el de la gran és de 120 euros.
+
+
+
+Criteris de correcció:
+
+Assignació d’incògnites: 0,25 punts. Plantejament: 0,25 punts cada equació correcta.
+Resolució del sistema: 0,75 punts. Trobar el preu de cada maleta: 0,75 punts.
+                                                                              Pàgina 4 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+3.
+
+     a) Considerem 𝐼(𝑥) la funció que determina els ingressos en funció de 𝑥 i 𝐷(𝑥) la
+        funció que determina les despeses també en funció de 𝑥. Aleshores la funció,
+        𝐵(𝑥), que determina els beneficis obtinguts serà:
+
+                                        𝐵(𝑥) = 𝐼(𝑥) − 𝐷(𝑥)
+
+        De l’enunciat deduïm que si el preu del lloguer de cada vehicle és de 50 + 𝑥 el
+        nombre de vehicles que es lloguen és 250 − 2𝑥. Per tant, els ingressos en
+        funció de 𝑥 seran
+
+                        𝐼(𝑥) = (50 + 𝑥)(250 − 2𝑥) = −2𝑥 2 + 150𝑥 + 12500
+
+        I les despeses
+
+                                         𝐷(𝑥) = 250 − 2𝑥
+
+        Finalment, la funció que ens dona els beneficis en funció de 𝑥 serà
+
+              𝐵(𝑥) = −2𝑥 2 + 150𝑥 + 12500 − (250 − 2𝑥) = −2𝑥 2 + 152𝑥 + 12250
+
+     b) Per trobar el valor òptim del preu de lloguer diari de cada vehicle, caldrà trobar
+        el màxim de la funció 𝐵(𝑥). Per això comencem calculant la derivada i mirarem
+        per quins punts s’anul·la:
+
+                          𝐵′ (𝑥) = −4𝑥 + 152; −4𝑥 + 152 = 0 ⇒ 𝑥 = 38
+
+        Cal comprovar que efectivament el valor 𝑥 = 38 correspon a un màxim.
+        Observem que 𝐵’(𝑥) > 0 per valors inferiors a 𝑥 = 38 i, per tant, 𝐵(𝑥) és
+        creixent, mentre que 𝐵’(𝑥) < 0 per valors més grans que 𝑥 = 38 i, per tant,
+        𝐵(𝑥) és decreixent. Així doncs, en 𝑥 = 38, s’assoleix un màxim.
+
+        De manera que el preu òptim al que cal llogar cada vehicle diàriament si es vol
+        aconseguir que l’empresa obtingui el benefici màxim serà de 50 + 38 = 88 €.
+
+        El benefici màxim serà de 𝐵(38) = −2(38)2 + 152 · 38 + 12250 = 15138 €
+
+Criteris de correcció
+
+a) Determinar la funció que dona els ingressos en funció de 𝑥: 0,25 punts. Determinar
+la funció que dona les despeses en funció de 𝑥: 0,25 punts. Determinar la funció que
+dona els beneficis en funció de 𝑥: 0,5 punts.
+
+b) Càlcul de la derivada: 0,5 punts. Obtenció del punt on s’assoleix el màxim: 0,25
+punts. Justificar que es tracta d’un màxim: 0,25 punts. Trobar el preu de lloguer: 0,25
+punts. Obtenció del benefici màxim: 0,25 punts.
+                                                                              Pàgina 5 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+4.
+
+     a) Podem representar la informació que es dona a l’enunciat amb la següent
+        taula:
+
+
+                               Noms                   Paraules              Baldufes
+                               personalitzats         decoratives
+
+
+         1r client             2                      0                     3
+
+
+         2n client             1                      2                     5
+
+
+         3r client             0                      0                     4
+
+
+        Per tant, la matriu demanada és:
+
+                                              2     0 3
+                                             (1     2 5)
+                                              0     0 4
+
+        Per trobar el que va facturar a cada client hem de fer el següent producte:
+
+                                      2   0 3     20     58
+                                     (1   2 5) · (18) = (86)
+                                      0   0 4     6      24
+
+        Per tant, la Laia va facturar 58 € al primer client, 86 € al segon i 24 € al tercer.
+
+     b) Per trobar el preu de venda de cada producte es pot plantejar el següent
+        sistema d’equacions:
+
+                                    3     1 2     𝑥    78
+                                   (2         ) ·
+                                          0 4 ( ) 𝑦 = (52)
+                                    1     2 3     𝑧    62
+
+        Aplicant el Mètode de Gauss:
+
+           3    1 2 78      1 2       3 62      1    2 3 62       1     2  3   62
+          (2    0 4| 52) ~ (2 0       4| 52) ~ (0    4 2| 72 ) ~ (0     4  2 | 72 )
+           1    2 3 62      3 1       2 78      0    5 7 108      0     0 −18 −72
+
+        S’obté 𝑥 = 18, 𝑦 = 16 i 𝑧 = 4.
+
+        Per tant, durant el segon mes la Laia ven els noms personalitzats a 18€, les
+        paraules decoratives a 16€ i les baldufes a 4 €.
+                                                                              Pàgina 6 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+Criteris de correcció:
+
+a) Escriure la matriu de vendes: 0,5 punts. Interpretar quin és el producte de matrius
+que cal realitzar: 0,25 punts. Fer el producte: 0,5 punts. Solució final: 0,25 punts.
+
+b) Plantejament del sistema: 0,25 punts. Resolució del sistema: 0,5 punts. Solució
+final: 0,25 punts.
+                                                                              Pàgina 7 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+5.
+
+        Considerem els esdeveniments:
+
+        𝐴1 = el client escull el menú del dia
+
+        𝐴2 = el client escull un plat combinat
+
+        𝐵1 = el client pren cafè
+
+        Sabem que 𝑃(𝐴1 ) = 0,6 i que 𝑃(𝐴2 ) = 0,4. Sabem també que 𝑃(𝐵1 |𝐴1 ) = 0,75 i
+        que 𝑃(𝐵1 |𝐴2 ) = 0,5.
+
+     a) Aplicant la fórmula de les probabilitats totals tenim que
+
+              𝑃(𝐵1 ) = 𝑃(𝐵1 ∩ 𝐴1 ) + 𝑃(𝐵1 ∩ 𝐴2 ) = 𝑃(𝐵1 |𝐴1 )𝑃(𝐴1 ) + 𝑃(𝐵1 |𝐴2 )𝑃(𝐴2 ).
+
+        Per tant,
+
+                                    𝑃(𝐵1 ) = 0,75 · 0,6 + 0,5 · 0,4 = 0,65.
+
+        La probabilitat que el client prengui cafè és de 0,65.
+
+     b) Aplicant la fórmula de la probabilitat condicionada i la fórmula de Bayes,
+
+                                   𝑃(𝐴1 ∩ 𝐵1 ) 𝑃(𝐵1 |𝐴1 )𝑃(𝐴1 ) 0,75 · 0,6
+                    𝑃(𝐴1 |𝐵1 ) =              =                =           = 0,6923.
+                                     𝑃(𝐵1 )        𝑃(𝐵1 )         0,65
+
+        La probabilitat que hagi escollit el menú del dia si sabem que ha pres cafè és
+        de 0,6923.
+
+
+
+
+Criteris de correcció:
+
+a) Assignació correcta d’esdeveniments i interpretació correcta de les probabilitats de
+l’enunciat: 0,5 punts. Fórmula de les probabilitats totals: 0,5 punts. Resultat de
+l’apartat: 0,25 punts.
+
+b) Plantejament: 0,5 punts. Ús correcte de la fórmula de Bayes: 0,5 punts. Resultat:
+0,25 punts.
+                                                                              Pàgina 8 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+6.
+
+     a) Tenim una mostra de mida 𝑛 = 175. Sabem que l’estimació puntual de la mitjana
+        a partir de la mostra és 𝑥̅ = 90 i que la desviació típica mostral és 𝑆 = 7.
+
+        L’interval de confiança per a la mitjana amb un nivell de confiança 𝛾𝜖(0,1), quan
+        la variància 𝜎 2 és desconeguda i la mostra és gran (𝑛 ≥ 30) s’obté a partir de la
+        fórmula
+
+                                                   𝑆                𝑆
+                                       [ 𝑥̅ − 𝑧𝛾        , 𝑥̅ + 𝑧𝛾        ],
+                                                   √𝑛               √𝑛
+
+        en què, si 𝑍 segueix una distribució normal (0,1), 𝑃(−𝑧𝛾 ≤ 𝑍 ≤ 𝑧𝛾 ) = 𝛾.
+
+        Per tant tenim que els extrems de l’interval són
+
+                                       𝑆                       7
+                             𝑥̅ − 𝑧𝛾        = 90 − 1,96                 = 88,9629
+                                       √𝑛                   √175
+
+        i
+
+                                       𝑆                       7
+                             𝑥̅ + 𝑧𝛾        = 90 + 1,96                 = 91,0371
+                                       √𝑛                   √175
+
+        L’interval de confiança demanat és [88,9629 , 91,0371].
+
+     b) Amb una confiança del 99% els extrems de l’interval seran
+
+                                       𝑆                       7
+                             𝑥̅ − 𝑧𝛾        = 90 − 2,58                 = 88,6348
+                                       √𝑛                   √175
+
+        i
+
+                                       𝑆                       7
+                             𝑥̅ + 𝑧𝛾        = 90 + 2,58                 = 91,3652
+                                       √𝑛                   √175
+
+        L’interval de confiança demanat és [88,6348 , 91,3652].
+
+        Els dos intervals són diferents perquè els nivells de confiança són diferents. Com
+        és natural, en el segon cas que el nivell de confiança és més gran, l’interval que
+        obtenim és també més gran. Tenim una confiança més gran que el valor real de
+        la mitjana estarà entre els dos valors obtinguts però l’interval és més gran.
+                                                                              Pàgina 9 de 9
+                                          Matemàtiques Aplicades a les Ciències Socials
+Proves d’accés a la Universitat 2024, convocatòria ordinària. Criteri específic d'avaluació
+
+Criteris de correcció:
+
+a) Interpretació correcta de la fórmula i substitució correcta de cada paràmetre pel seu
+valor: 0,5 punts. Resultat final: 0,5 punts.
+
+b) Interpretació correcta de la fórmula i substitució correcta de cada paràmetre pel seu
+valor: 0,5 punts. Resultat final: 0,5 punts. Justificació correcta: 0,5 punts.
+

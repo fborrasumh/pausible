@@ -1,0 +1,129 @@
+                                                                                             Pàgina 1 de 4
+                                                                                  Tecnologia i enginyeria
+          Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+
+SÈRIE 3
+
+
+Exercici 1
+
+Q1 d   Q2 b   Q3 a     Q4 c   Q5 c   Q6 b    Q7 d   Q8 d
+
+
+Exercici 2
+Es demana arribar de forma justificada a l’esquema de portes lògiques que representi
+l’enunciat. Hi ha múltiples camins per aconseguir-ho i cal valorar el raonament exposat per
+l’estudiantat. Es pot obtenir la puntuació màxima sense seguir els passos recomanats,
+sempre que es justifiqui com s’ha obtingut la funció lògica que representa l’enunciat. Aquest
+document mostra algunes funcions lògiques i un esquema de portes lògiques que
+representen el sistema plantejat, però aquestes no són úniques.
+
+Taula de la veritat:
+
+  a     m      b     p    r
+  0     0      0     0    1
+  0     0      0     1    1
+  0     0      1     0    0
+  0     0      1     1    1
+  0     1      0     0    1
+  0     1      0     1    1
+  0     1      1     0    1
+  0     1      1     1    0
+  1     0      0     0    1
+  1     0      0     1    1
+  1     0      1     0    1
+  1     0      1     1    1
+  1     1      0     0    1
+  1     1      0     1    1
+  1     1      1     0    1
+  1     1      1     1    0
+                                                                                             Pàgina 2 de 4
+                                                                                  Tecnologia i enginyeria
+          Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+
+Funció lògica
+
+   (             )(
+r = a+m+b+p a+m+b+p a+m+b+p    )(             )
+simplificant
+r = mp + mp + b + am
+o també r = mp + mp + b + ap
+
+
+Esquema de contactes
+
+
+
+
+O també
+                                                                                              Pàgina 3 de 4
+                                                                                   Tecnologia i enginyeria
+           Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+Exercici 3
+
+a)
+
+W = M · g · h = 4900 ·9,807 ·544 = 26,14MJ
+
+b)
+
+          W 26,14  103
+Psubm =     =           = 87,14kW
+          t    5·60
+
+c)
+
+     Psubm 87,14
+=         =     = 75,77 %
+     Pcons   115
+
+
+d)
+
+                          9 · 60 5
+Econs = Pcons t = 115 ·         · = 345 kWh
+                           15 60
+
+c = 30 ce Econs = 2173,5 €
+                                                                                               Pàgina 4 de 4
+                                                                                    Tecnologia i enginyeria
+            Proves d’accés a la Universitat 2025, convocatòria extraordinària. Criteri específic d'avaluació
+
+
+Exercici 4
+
+a)
+
+
+
+
+b)
+
+M ( O ) = 0
+                        l
+T sin  d − mfusta g      − maigua g x = 0
+                        2
+                  l                           1
+     mfusta g       + maigua g x 0,75 ·9,807 · + 2·9,807 x
+T=               2              =             2            = 24,52 + 130,8 x
+                sin  d                 sin(30) · 0,3
+
+c)
+
+                      df 2       1,42
+Tmàx =  S =             = 80      = 123, 2N
+                       4           4
+
+d)
+
+                                   l        0,3          1
+         Tmàx sin  d − mfusta g       Tmàx     − 0,75 g
+xmàx =                             2 =       2           2 = 0,7543 m
+                    maigua g                    2g
+
