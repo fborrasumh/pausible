@@ -230,10 +230,11 @@ def texto_pdf(pdf, txt):
     t = txt.read_text(encoding='utf-8', errors='ignore') if txt.exists() else ''
     if len(t.strip()) < 200 and subprocess.run(['which', 'tesseract'], capture_output=True).returncode == 0:
         tmp = pdf.with_suffix('')
-        subprocess.run(['pdftoppm', '-r', '200', '-png', '-l', '6', str(pdf), str(tmp)], capture_output=True, timeout=300)
+        subprocess.run(['pdftoppm', '-r', '150', '-png', '-l', '3', str(pdf), str(tmp)], capture_output=True, timeout=120)
         partes = []
         for img in sorted(pdf.parent.glob(tmp.name + '-*.png')):
-            r = subprocess.run(['tesseract', str(img), '-', '-l', 'spa+cat+glg+eus+eng'], capture_output=True, text=True, timeout=300)
+            try: r = subprocess.run(['tesseract', str(img), '-', '-l', 'spa+cat+glg+eus+eng'], capture_output=True, text=True, timeout=90)
+            except subprocess.TimeoutExpired: img.unlink(missing_ok=True); continue
             partes.append(r.stdout); img.unlink()
         t = '\n'.join(partes)
         txt.write_text(t, encoding='utf-8')
@@ -283,14 +284,14 @@ def candidatos_plantilla(pl, anios):
             yield pl['url'].format(anio=anio, **dict(zip(claves, combo)))
 
 
-def desde_zip(d, rel, contenido, anios, log):
+def desde_zip(d, rel, contenido, anios, log, fin=float('inf')):
     """Cada PDF de dentro del ZIP es un documento: hereda materia y año del ZIP; convocatoria y tipo, de su nombre."""
     import io, zipfile
     out = []
     try: z = zipfile.ZipFile(io.BytesIO(contenido))
     except zipfile.BadZipFile: log(f'  ZIP dañado: {d["url"]}'); return out
     for i, nombre in enumerate(n for n in z.namelist() if n.lower().endswith('.pdf')):
-        if i >= 40: break
+        if i >= 40 or time.time() > fin: break
         try: datos = z.read(nombre)
         except Exception: continue
         if datos[:4] != b'%PDF' or NO_PAU.search(norm(nombre)): continue
@@ -385,8 +386,8 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
         r = rd.get(descarga_directa(d['url']), silencio=de_plantilla)
         if r is not None and r.content[:2] == b'PK':        # ZIP (Andalucía: un zip por materia y año con todos sus exámenes)
             hechos += 1; time.sleep(cfg.get('pausa', 0.2))
-            for dz in desde_zip(d, rel, r.content, anios, log): docs[dz['url']] = dz
-            if hechos % 10 == 0: guarda_manifiesto(cid, docs, logl)
+            for dz in desde_zip(d, rel, r.content, anios, log, fin): docs[dz['url']] = dz
+            guarda_manifiesto(cid, docs, logl)            # un ZIP puede traer 15 PDF: se guarda tras cada uno
             continue
         if r is not None and r.content[:4] != b'%PDF' and 'download' not in d['url']:
             r = rd.get(d['url'] + ('&' if '?' in d['url'] else '?') + 'download=true', silencio=de_plantilla)   # visor → descarga directa

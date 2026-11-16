@@ -47,11 +47,11 @@ jobs:
       - name: Herramientas (pdftotext y OCR)
         if: steps.toca.outputs.si == 'true'
         run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-spa tesseract-ocr-cat tesseract-ocr-glg tesseract-ocr-eus >/dev/null && pip install -q requests
-      - name: Rastrear y descargar (38 min como máximo)
+      - name: Rastrear y descargar (33 min como máximo)
         if: steps.toca.outputs.si == 'true'
         timeout-minutes: 40
         continue-on-error: true
-        run: python3 pipeline/crawl.py --ccaa ${{ matrix.ccaa }} --tiempo 2280
+        run: python3 pipeline/crawl.py --ccaa ${{ matrix.ccaa }} --tiempo 1980
       - name: Guardar esta comunidad en el repositorio
         if: always() && steps.toca.outputs.si == 'true'
         run: |
