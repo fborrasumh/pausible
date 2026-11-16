@@ -1,0 +1,114 @@
+{
+ "ccaa": "andalucia",
+ "materia": "matematicas2",
+ "titulo": "Prueba de Acceso a la Universidad 2027 de Andalucía — Matemáticas II (modelo original)",
+ "duracion_min": 90,
+ "instrucciones": "Resuelve los dos ejercicios de la parte obligatoria y solamente un ejercicio de cada bloque con optatividad. Si respondes a los dos ejercicios de un mismo bloque, solo se corregirá el que aparezca en primer lugar. Cada ejercicio vale 2,5 puntos; en esa puntuación se incluyen 0,25 puntos por la expresión correcta de los procesos y métodos utilizados. Justifica suficientemente todos los resultados. Se permite el uso de calculadoras no programables, no gráficas y sin capacidad para almacenar o transmitir datos.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "geometria",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "En la planificación de un robot de inspección, una pantalla triangular está contenida en el plano que pasa por $A(0,0,2)$, $B(2,0,0)$ y $C(0,2,0)$, con coordenadas expresadas en metros. El robot recorre el segmento que une $P(1,0,0)$ con $Q(3,2,1)$. a) Halla una ecuación del plano de la pantalla. [0,75 puntos] b) Calcula el punto en que la trayectoria del robot corta al plano y comprueba que pertenece al segmento recorrido y al panel triangular. [1,25 puntos] c) Calcula la distancia más corta desde la posición inicial $P$ hasta el plano. [0,5 puntos]",
+   "solucion": "### a) Plano de la pantalla\n\nTomamos dos vectores del plano:\n\n$\\overrightarrow{AB}=(2,0,-2)$, $\\overrightarrow{AC}=(0,2,-2)$.\n\nUn vector normal es su producto vectorial:\n\n$\\overrightarrow{AB}\\times\\overrightarrow{AC}=(4,4,4)$.\n\nUsando el punto $A(0,0,2)$, una ecuación del plano es $4x+4y+4z=8$, que se simplifica a\n\n$$x+y+z=2.$$\n\n### b) Intersección y pertenencia\n\nParametrizamos la trayectoria desde $P$ hasta $Q$:\n\n$$\\mathbf r(t)=P+t(Q-P)=(1+2t,2t,t),\\qquad 0\\leq t\\leq 1.$$\n\nImponiendo que el punto pertenezca al plano:\n\n$$(1+2t)+2t+t=2\\quad\\Longrightarrow\\quad t=\\frac15.$$\n\nPor tanto, el punto de corte es\n\n$$X=\\mathbf r\\!\\left(\\frac15\\right)=\\left(\\frac75,\\frac25,\\frac15\\right).$$\n\nComo $\\frac15\\in[0,1]$, el punto pertenece al segmento recorrido. Además,\n\n$$X=\\frac{1}{10}A+\\frac{7}{10}B+\\frac15C,$$\n\ndonde los coeficientes son no negativos y suman $1$. Así, $X$ es una combinación convexa de los vértices y pertenece al panel triangular.\n\n### c) Distancia de $P$ al plano\n\nPara el plano $x+y+z-2=0$, la distancia desde $P(1,0,0)$ es\n\n$$d(P,\\pi)=\\frac{|1+0+0-2|}{\\sqrt{1^2+1^2+1^2}}=\\frac{1}{\\sqrt3}\\text{ m}\\approx0.57735\\text{ m}.$$\n\n",
+   "resultado": "Plano: $x+y+z=2$; punto de corte: $\\left(\\frac75,\\frac25,\\frac15\\right)$; distancia: $\\frac1{\\sqrt3}$ m.",
+   "criterios": "a) 0,75 puntos: cálculo de un vector normal mediante el producto vectorial (0,25) y obtención de una ecuación correcta del plano (0,50). b) 1,25 puntos: parametrización del segmento (0,25), cálculo del parámetro y del punto de intersección (0,50), comprobación de que el parámetro está entre 0 y 1 (0,25) y comprobación de pertenencia al triángulo, por ejemplo mediante coordenadas baricéntricas no negativas que sumen 1 (0,25). c) 0,50 puntos: aplicación correcta de la fórmula de distancia punto-plano (0,25) y resultado exacto (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "probabilidad",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "En el control de calidad de una línea de producción, cada componente resulta defectuoso con probabilidad $0,2$, independientemente de los demás. Se seleccionan cinco componentes y se llama $X$ al número de defectuosos. a) Indica la distribución de $X$ y calcula la probabilidad de que haya exactamente dos componentes defectuosos. [0,75 puntos] b) Calcula la probabilidad de que haya, como máximo, un componente defectuoso. [1 punto] c) Calcula el número esperado de componentes defectuosos en la selección. [0,75 puntos]",
+   "solucion": "Sea $X$ el número de componentes defectuosos. Como se seleccionan $5$ componentes y cada uno es defectuoso de forma independiente con probabilidad $p=0,2$, se tiene:\n\n$$X\\sim\\operatorname{Bin}(5,0,2).$$\n\n**a) Exactamente dos defectuosos**\n\n$$P(X=2)=\\binom{5}{2}(0,2)^2(0,8)^3=10\\cdot0,04\\cdot0,512=0,2048.$$\n\n**b) Como máximo un defectuoso**\n\n$$\\begin{aligned}\nP(X\\leq 1)&=P(X=0)+P(X=1)\\\\\n&=\\binom{5}{0}(0,2)^0(0,8)^5+\\binom{5}{1}(0,2)(0,8)^4\\\\\n&=0,32768+0,4096=0,73728.\n\\end{aligned}$$\n\n**c) Número esperado de defectuosos**\n\nPara una distribución binomial, $\\mathbb{E}[X]=np$. Por tanto,\n\n$$\\mathbb{E}[X]=5\\cdot0,2=1.$$\n\n",
+   "resultado": "$X\\sim\\operatorname{Bin}(5,0,2)$; $P(X=2)=0,2048$; $P(X\\leq1)=0,73728$; $\\mathbb{E}[X]=1$.",
+   "criterios": "Total: 2,5 puntos. a) 0,75 puntos: identificar que $X$ sigue una binomial de parámetros $n=5$ y $p=0,2$ (0,25); plantear correctamente $P(X=2)=\\binom{5}{2}(0,2)^2(0,8)^3$ (0,25); obtener $0,2048$ (0,25). b) 1 punto: expresar el suceso como $P(X=0)+P(X=1)$ y plantear correctamente las probabilidades binomiales (0,5); calcular y obtener $0,73728$ (0,5). c) 0,75 puntos: aplicar $\\mathbb{E}[X]=np$ (0,5); obtener $1$ componente (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.1",
+   "tema": "sistemas",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un modelo de gestión energética utiliza las variaciones con signo $x,y,z$ respecto al consumo previsto en tres franjas horarias. Para un parámetro real $a$, estas variaciones deben satisfacer el sistema $\\begin{cases}x+y+z=4,\\\\x+2y+z=6,\\\\x+y+az=3.\\end{cases}$ a) Discute el sistema según los valores de $a$, indicando si es compatible determinado, compatible indeterminado o incompatible. [1,5 puntos] b) Para $a=0$, resuelve el sistema. [1 punto]",
+   "solucion": "Sea $A$ la matriz de coeficientes. Su determinante es\n$$\n\\det A=\\begin{vmatrix}1&1&1\\\\1&2&1\\\\1&1&a\\end{vmatrix}=a-1.\n$$\n**a)** Si $a\\ne 1$, el determinante es distinto de cero y el sistema es **compatible determinado**. Si $a=1$, al restar la primera ecuación de la segunda se obtiene $y=2$, mientras que al restarla de la tercera se obtiene $0=-1$; por tanto, el sistema es **incompatible**. No hay ningún valor de $a$ para el que sea compatible indeterminado.\n\nTambién se puede obtener la solución para $a\\ne1$: de la segunda menos la primera, $y=2$. La primera da $x+z=2$, y la tercera, $x+az=1$. Restando estas dos últimas igualdades, $(a-1)z=-1$. Así, $z=\\frac{1}{1-a}$ y $x=\\frac{1-2a}{1-a}$.\n\n**b)** Para $a=0$, las ecuaciones primera y segunda dan $y=2$. La tercera queda $x+y=3$, luego $x=1$. Sustituyendo en la primera, $z=1$. Por tanto, $(x,y,z)=(1,2,1)$; la solución verifica las tres ecuaciones.\n\nEn `numeros` se indica primero el valor excepcional $a=1$ y, a continuación, las coordenadas $(x,y,z)$ para $a=0$.",
+   "resultado": "a≠1: compatible determinado; a=1: incompatible. Para a=0: (x,y,z)=(1,2,1).",
+   "criterios": "Total: 2,5 puntos. a) 1,5 puntos: cálculo correcto del determinante (0,5); identificación de que para a≠1 es compatible determinado (0,5); identificación de que para a=1 es incompatible y de que no hay casos compatibles indeterminados (0,5). b) 1 punto: obtención de y=2 y x=1 (0,5); obtención de z=1 y presentación de la solución (1,2,1) (0,5).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.2",
+   "tema": "matrices",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "En un programa de síntesis de imágenes, las intensidades de tres canales de color se transforman mediante la matriz $A=\\begin{pmatrix}1&1&0\\\\0&1&1\\\\1&0&1\\end{pmatrix}$. El vector de entrada $u$ produce el vector de salida $v=Au$. a) Calcula $\\det(A)$ e indica si la transformación es invertible. [1 punto] b) Determina el vector de entrada que produce la salida $v=(4,5,5)$. [1,5 puntos]",
+   "solucion": "Sea $u=(x,y,z)$. Para el apartado a), desarrollamos el determinante por la primera fila:\n$$\n\\det(A)=1\\begin{vmatrix}1&1\\\\0&1\\end{vmatrix}-1\\begin{vmatrix}0&1\\\\1&1\\end{vmatrix}=1-(-1)=2.\n$$\nComo $\\det(A)=2\\ne 0$, la matriz es invertible y la transformación también.\n\nPara el apartado b), la ecuación $Au=v$ da el sistema\n$$\n\\begin{cases}\nx+y=4,\\\\\ny+z=5,\\\\\nx+z=5.\n\\end{cases}\n$$\nSumando la primera y la tercera ecuación y restando la segunda, obtenemos $2x=4$, luego $x=2$. Entonces, de $x+y=4$ resulta $y=2$, y de $y+z=5$ resulta $z=3$. Por tanto, $u=(2,2,3)$. En efecto, $A(2,2,3)=(4,5,5)$.",
+   "resultado": "$\\det(A)=2$, por tanto la transformación es invertible; el vector de entrada es $u=(2,2,3)$.",
+   "criterios": "a) Cálculo correcto de $\\det(A)=2$: 0,75 puntos. Conclusión de que la transformación es invertible por tener determinante no nulo: 0,25 puntos. b) Planteamiento del sistema $Au=v$: 0,50 puntos. Resolución correcta para obtener $x=2$, $y=2$, $z=3$: 0,75 puntos. Presentación del vector de entrada $u=(2,2,3)$ y comprobación en la transformación: 0,25 puntos. Total: 2,5 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.1",
+   "tema": "integrales",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "La sección transversal de una cubierta arqueada se modela, en metros, mediante la curva $y=x(4-x)$ para $0\\leq x\\leq4$. El suelo corresponde al eje de abscisas. Plantea una integral definida y calcula el área de la sección comprendida entre la cubierta y el suelo.",
+   "solucion": "La función que describe la cubierta es $y=x(4-x)$, y el suelo corresponde a $y=0$. En el intervalo $[0,4]$, $x(4-x)\\geq 0$, así que el área buscada se obtiene integrando la diferencia entre ambas funciones:\n\n$$A=\\int_0^4 \\bigl(x(4-x)-0\\bigr)\\,dx=\\int_0^4 (4x-x^2)\\,dx.$$\n\nCalculamos la integral definida:\n\n$$A=\\left[2x^2-\\frac{x^3}{3}\\right]_0^4=32-\\frac{64}{3}=\\frac{32}{3}\\text{ m}^2.$$\n\nPor tanto, el área de la sección es $\\frac{32}{3}\\text{ m}^2$.",
+   "resultado": "El área es $\\frac{32}{3}\\text{ m}^2$ (aproximadamente $10{,}67\\text{ m}^2$).",
+   "criterios": "Total: 2,5 puntos. Planteamiento de la diferencia entre la cubierta y el suelo e identificación de los límites de integración $[0,4]$: 0,75 puntos. Expresión correcta de la integral definida: 0,50 puntos. Cálculo de una primitiva: 0,50 puntos. Evaluación de la integral y expresión del resultado con unidades de área: 0,75 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.2",
+   "tema": "derivadas",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "El índice de rendimiento de un dispositivo, en función de un ajuste normalizado $x\\in[0,2]$, se modela mediante $f(x)=\\begin{cases}\\frac{x^2-1}{x-1}-x^2+2,&x\\ne1,\\\\3,&x=1.\\end{cases}$ a) Calcula $\\lim_{x\\to1}f(x)$ y determina si $f$ es continua en $x=1$. [0,75 puntos] b) Estudia si $f$ es derivable en $x=1$ y, en caso afirmativo, calcula $f'(1)$. [0,75 puntos] c) Determina el máximo global del índice en el intervalo $[0,2]$, indicando el ajuste que lo alcanza y el valor máximo. [1 punto]",
+   "solucion": "### a) Límite y continuidad\nPara $x\\ne 1$, simplificamos la expresión:\n$$f(x)=\\frac{(x-1)(x+1)}{x-1}-x^2+2=3+x-x^2.$$\nPor tanto,\n$$\\lim_{x\\to 1}f(x)=3+1-1=3.$$\nComo $f(1)=3$, el límite coincide con el valor de la función y, por tanto, $f$ es continua en $x=1$.\n\n### b) Derivabilidad\nUsando la definición de derivada y que, para $h\\ne 0$, $f(1+h)=3+(1+h)-(1+h)^2$:\n$$f'(1)=\\lim_{h\\to 0}\\frac{f(1+h)-f(1)}{h}\n=\\lim_{h\\to 0}\\frac{3-h-h^2-3}{h}\n=\\lim_{h\\to 0}(-1-h)=-1.$$\nAsí pues, $f$ es derivable en $x=1$ y $f'(1)=-1$.\n\n### c) Máximo global en $[0,2]$\nLa expresión simplificada $3+x-x^2$ también toma en $x=1$ el valor definido para $f$, así que podemos estudiar esta parábola en todo el intervalo. Sus puntos críticos satisfacen\n$$f'(x)=1-2x=0,\\qquad x=\\frac12.$$\nEvaluamos en el punto crítico y en los extremos del intervalo:\n$$f(0)=3,\\qquad f\\!\\left(\\frac12\\right)=3+\\frac12-\\frac14=\\frac{13}{4},\\qquad f(2)=1.$$\nPor comparación, el máximo global se alcanza en el ajuste $x=\\frac12$ y su valor es $\\frac{13}{4}$.",
+   "resultado": "El límite en x=1 es 3 y f es continua; f'(1)=-1; el máximo global es 13/4 y se alcanza en x=1/2.",
+   "criterios": "a) 0,75 puntos: simplificación de la expresión para x distinto de 1 (0,25); cálculo correcto del límite (0,25); comparación con f(1) y conclusión sobre continuidad (0,25). b) 0,75 puntos: planteamiento de la derivada en x=1 mediante la definición o un argumento equivalente (0,25); cálculo correcto del cociente incremental/límite (0,25); conclusión de derivabilidad y valor f'(1)=-1 (0,25). c) 1 punto: estudio de la función simplificada en todo el intervalo (0,25); determinación del punto crítico x=1/2 (0,25); evaluación del punto crítico y de los extremos (0,25); identificación justificada del ajuste y del valor del máximo global (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 3,
+ "temas_base": [
+  {
+   "id": "geometria",
+   "p": 0.9
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.9
+  },
+  {
+   "id": "integrales",
+   "p": 0.468
+  },
+  {
+   "id": "matrices",
+   "p": 0.288
+  },
+  {
+   "id": "limites",
+   "p": 0.288
+  },
+  {
+   "id": "derivadas",
+   "p": 0.288
+  }
+ ],
+ "referencias": [
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_matematicas.zip#Matematicas/Ordinaria_Titular/Examen Titular Matematicas II.pdf",
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_matematicas.zip#Matematicas/Extraordinaria_Incidencias/Examen Suplente 2 Matematicas II_Ex.pdf"
+ ]
+}
