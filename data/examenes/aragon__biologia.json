@@ -1,0 +1,102 @@
+{
+ "ccaa": "aragon",
+ "materia": "biologia",
+ "titulo": "Prueba de Acceso a la Universidad 2027 — Biología — Aragón",
+ "duracion_min": 90,
+ "instrucciones": "Responda las cinco preguntas. Las preguntas 1 y 2 son obligatorias y deben contestarse íntegramente. En cada una de las preguntas 3, 4 y 5, responda todos los apartados de una sola opción: A o B. Cada pregunta vale 2 puntos; la puntuación máxima es de 10 puntos.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "molecular",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Un laboratorio de control de calidad estudia una enzima producida por células cultivadas. La cadena codificante de un fragmento del gen, escrita en sentido 5′→3′, es 5′-ATG GCT TTT TAA-3′. Considere que el ARNm no experimenta modificaciones posteriores a la transcripción y utilice el código genético estándar. a) Escriba la secuencia del ARNm transcrito, en sentido 5′→3′ (0,4 puntos). b) Indique la secuencia de aminoácidos codificada, sin contar el codón de terminación (0,4 puntos). c) En una variante, el triplete TTT cambia a TCT. Indique el aminoácido que pasa a codificar ese triplete en el ARNm y clasifique el efecto de la mutación sobre la secuencia proteica (0,4 puntos). d) ¿Qué enlace une los aminoácidos de una proteína? Indique entre qué grupos se forma y qué molécula se libera en la reacción (0,4 puntos). e) Al calentar la enzima, pierde actividad. Indique si este tratamiento altera la estructura primaria o las interacciones que mantienen las estructuras de nivel superior, y relacione el cambio con la pérdida de función (0,4 puntos).",
+   "solucion": "**a)** La cadena indicada es la cadena codificante, por lo que el ARNm tiene la misma secuencia en sentido 5′→3′, sustituyendo T por U: 5′-AUG GCU UUU UAA-3′.\n\n**b)** Los codones traducibles son AUG, GCU y UUU: metionina–alanina–fenilalanina. UAA es un codón de terminación y no codifica un aminoácido.\n\n**c)** El cambio TTT→TCT en la cadena codificante produce en el ARNm el cambio UUU→UCU. UCU codifica serina; por tanto, la fenilalanina se sustituye por serina. Es una mutación con cambio de sentido (missense), que altera la secuencia de aminoácidos de la proteína.\n\n**d)** Los aminoácidos se unen mediante un enlace peptídico, que se forma entre el grupo carboxilo de un aminoácido y el grupo amino de otro, con liberación de una molécula de agua.\n\n**e)** El calentamiento puede desnaturalizar la enzima al alterar las interacciones que estabilizan sus estructuras de nivel superior (secundaria, terciaria y, si existe, cuaternaria), sin romper normalmente los enlaces peptídicos de la estructura primaria. El cambio de conformación puede alterar el centro activo y causar la pérdida de actividad enzimática.",
+   "resultado": "ARNm: 5′-AUG GCU UUU UAA-3′; proteína: metionina–alanina–fenilalanina; UCU codifica serina (mutación missense); enlace peptídico; el calor desnaturaliza la enzima y puede hacerle perder su función.",
+   "criterios": "2 puntos en total: a) 0,4 por la secuencia correcta de ARNm y la sustitución de T por U; b) 0,4 por los tres aminoácidos en el orden correcto y la exclusión de UAA; c) 0,2 por identificar serina y 0,2 por clasificar el efecto como mutación con cambio de sentido y señalar la sustitución en la secuencia proteica; d) 0,2 por identificar el enlace peptídico y 0,2 por indicar los grupos que reaccionan y la liberación de agua; e) 0,2 por distinguir la estructura primaria de las estructuras superiores y 0,2 por relacionar la desnaturalización con el cambio conformacional y la pérdida de actividad.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "metabolismo",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Una industria alimentaria compara dos cultivos de levadura eucariota alimentados con glucosa. El cultivo A está suficientemente aireado y consume oxígeno; el cultivo B se mantiene sin oxígeno y produce etanol y dióxido de carbono. Suponga que todo el etanol de B se origina por fermentación alcohólica de glucosa, según la ecuación $C_6H_{12}O_6 \\rightarrow 2C_2H_5OH + 2CO_2$. a) Nombre la ruta metabólica predominante en cada cultivo e indique sus productos finales principales (0,6 puntos). b) En el cultivo B se obtienen 8 mmol de etanol. Calcule cuántos mmol de glucosa se han consumido y cuántos mmol de dióxido de carbono se han producido (0,4 puntos). c) ¿Qué cultivo obtiene más ATP por mol de glucosa? Justifique la respuesta indicando qué proceso permite esa diferencia (0,4 puntos). d) Indique el compartimento celular donde tienen lugar la glucólisis y el ciclo de Krebs, y la estructura celular donde se localiza la cadena de transporte de electrones de la respiración aerobia (0,6 puntos).",
+   "solucion": "### a) Rutas metabólicas y productos finales\n- **Cultivo A:** predomina la **respiración aerobia**. La oxidación completa de la glucosa produce principalmente $CO_2$ y $H_2O$.\n- **Cultivo B:** predomina la **fermentación alcohólica**. Sus productos finales son etanol y $CO_2$, de acuerdo con la ecuación indicada.\n\n### b) Cálculo estequiométrico\nLa ecuación establece que por cada mol de glucosa se forman 2 mol de etanol y 2 mol de $CO_2$:\n\n$$C_6H_{12}O_6 \\rightarrow 2C_2H_5OH + 2CO_2$$\n\nPara 8 mmol de etanol:\n\n$$n(\\text{glucosa})=8\\,\\text{mmol}\\times\\frac{1\\,\\text{mmol de glucosa}}{2\\,\\text{mmol de etanol}}=4\\,\\text{mmol}$$\n\nLa relación entre etanol y $CO_2$ es 1:1, por lo que se producen **8 mmol de $CO_2$**.\n\n### c) Obtención de ATP\nEl cultivo **A** obtiene más ATP por mol de glucosa. En la respiración aerobia, la cadena de transporte de electrones genera un gradiente de protones que permite la síntesis de ATP por **fosforilación oxidativa**. En la fermentación, el ATP se obtiene únicamente por fosforilación a nivel de sustrato durante la glucólisis.\n\n### d) Localización celular\n- **Glucólisis:** citosol.\n- **Ciclo de Krebs:** matriz mitocondrial.\n- **Cadena de transporte de electrones de la respiración aerobia:** membrana mitocondrial interna, incluidas sus crestas.",
+   "resultado": "Se consumen 4 mmol de glucosa y se producen 8 mmol de CO₂; el cultivo A obtiene más ATP por glucosa mediante fosforilación oxidativa.",
+   "criterios": "Total: 2,0 puntos. a) 0,6 puntos: 0,3 por identificar la respiración aerobia en A y sus productos principales (CO₂ y H₂O); 0,3 por identificar la fermentación alcohólica en B y sus productos (etanol y CO₂). b) 0,4 puntos: 0,2 por calcular 4 mmol de glucosa y 0,2 por calcular 8 mmol de CO₂, aplicando correctamente la estequiometría. c) 0,4 puntos: indicar que A obtiene más ATP y justificarlo por la fosforilación oxidativa asociada a la cadena de transporte de electrones y al gradiente de protones; frente a la fosforilación a nivel de sustrato de la fermentación. d) 0,6 puntos: 0,2 por localizar la glucólisis en el citosol, 0,2 por localizar el ciclo de Krebs en la matriz mitocondrial y 0,2 por localizar la cadena respiratoria en la membrana mitocondrial interna.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "inmunologia",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Elija una sola opción y responda todos sus apartados (2 puntos). Opción 3.A) Una persona desarrolla síntomas respiratorios al exponerse a ácaros del polvo. a) Clasifique este tipo de reacción de hipersensibilidad e indique la inmunoglobulina principalmente implicada (0,4 puntos). b) Describa qué ocurre en el organismo durante el primer contacto con el alérgeno y qué papel desempeñan los linfocitos B y los mastocitos (0,6 puntos). c) Explique qué sucede cuando el alérgeno vuelve a entrar en contacto con el organismo y qué sustancia liberada por los mastocitos causa buena parte de los síntomas (0,6 puntos). d) Un fármaco bloquea los receptores H1 de la histamina. Explique qué efecto puede tener sobre los síntomas y si elimina la memoria inmunitaria frente al alérgeno (0,4 puntos). Opción 3.B) Una industria utiliza una cepa homofermentativa de Lactobacillus para producir ácido láctico a partir de glucosa. La población inicial es de 250 células viables por mL y, en las condiciones del cultivo, se duplica cada 20 minutos. a) Calcule la concentración de células viables por mL tras 60 minutos (0,6 puntos). b) Nombre la ruta metabólica que permite producir ácido láctico sin oxígeno y escriba su balance global para una molécula de glucosa (0,5 puntos). c) Explique por qué disminuye el pH del medio durante el proceso (0,4 puntos). d) Clasifique Lactobacillus como procariota o eucariota e indique una característica celular que justifique la clasificación (0,5 puntos).",
+   "solucion": "### Opción 3.B\n\n**a) Concentración celular tras 60 minutos**\n\nEn 60 minutos se producen $60/20=3$ duplicaciones. Por tanto:\n\n$N(60)=N_0\\,2^{60/20}=250\\,2^3=2\\,000\\ \\text{células viables/mL}$.\n\n**b) Ruta metabólica y balance**\n\nEn ausencia de oxígeno, la glucosa se metaboliza mediante **fermentación láctica**: la glucólisis produce piruvato y este se reduce a lactato, regenerándose el NAD$^+$. El balance global simplificado es:\n\n$\\mathrm{C_6H_{12}O_6 + 2\\,ADP + 2\\,P_i \\longrightarrow 2\\,C_3H_6O_3 + 2\\,ATP + 2\\,H_2O}$.\n\nSe forman dos moléculas de ácido láctico y se obtiene un rendimiento neto de dos ATP por molécula de glucosa.\n\n**c) Disminución del pH**\n\nLa fermentación produce ácido láctico. Al disociarse en el medio, aumenta la concentración de protones ($\\mathrm{H^+}$), por lo que disminuye el pH.\n\n**d) Clasificación celular**\n\n*Lactobacillus* es un organismo **procariota**. Sus células carecen de núcleo rodeado por una membrana; el ADN se encuentra en una región del citoplasma llamada nucleoide.",
+   "resultado": "Tras 60 minutos hay 2 000 células viables/mL; la fermentación láctica produce 2 ATP por molécula de glucosa y acidifica el medio; Lactobacillus es procariota.",
+   "criterios": "a) 0,6 puntos: 0,2 por reconocer las tres duplicaciones, 0,2 por plantear correctamente el cálculo exponencial y 0,2 por el resultado con unidades. b) 0,5 puntos: 0,2 por identificar la fermentación láctica y 0,3 por un balance global correcto, incluyendo dos lactatos y el rendimiento neto de dos ATP. c) 0,4 puntos: explicar que se produce ácido láctico y que su disociación aumenta los protones y reduce el pH. d) 0,5 puntos: 0,25 por clasificarlo como procariota y 0,25 por indicar una característica justificativa, como la ausencia de núcleo membranoso.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "celula",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Elija una sola opción y responda todos sus apartados (2 puntos). Opción 4.A) Se estudian eritrocitos cuya concentración osmótica efectiva interna es de 300 mOsm/L. La membrana deja pasar agua, pero no los solutos considerados en el experimento. Se colocan eritrocitos en dos medios: uno de 200 mOsm/L y otro de 400 mOsm/L. a) Clasifique cada medio como hipotónico o hipertónico respecto al interior de los eritrocitos (0,4 puntos). b) Indique el sentido del flujo neto de agua en cada medio y el cambio esperado en el volumen celular (0,8 puntos). c) Nombre el proceso responsable del movimiento de agua e indique si requiere gasto directo de ATP (0,4 puntos). d) Explique por qué la diferencia de concentración de solutos a ambos lados de la membrana puede producir ese movimiento de agua (0,4 puntos). Opción 4.B) Un equipo de conservación amplifica mediante PCR un fragmento de ADN de una especie amenazada y lo analiza por electroforesis en gel. Además, introduce en una bacteria Escherichia coli un gen de una medusa que codifica una proteína fluorescente. a) Describa la función de los cebadores y el orden de las tres etapas de un ciclo de PCR, indicando qué ocurre en cada una (0,9 puntos). b) En una electroforesis, indique hacia qué polo migra el ADN y cuál de dos fragmentos, uno de 300 pares de bases y otro de 900 pares de bases, recorrerá una distancia mayor en el mismo tiempo (0,6 puntos). c) Clasifique la bacteria modificada como organismo modificado genéticamente y como transgénico, o no, y justifique ambas respuestas (0,5 puntos).",
+   "solucion": "**Opción 4.A**\\n\\n**1. Comparación de concentraciones.** Tomo como referencia la concentración interna, $C_{int}=300\\ \\text{mOsm/L}$, y calculo $\\Delta C=C_{ext}-C_{int}$. Así se determina el sentido de la diferencia sin depender solo de memorizar las etiquetas.\\n\\n**a) Tonicidad.** En el medio de $200\\ \\text{mOsm/L}$, $\\Delta C=200-300=-100\\ \\text{mOsm/L}$: el medio es **hipotónico**. En el de $400\\ \\text{mOsm/L}$, $\\Delta C=400-300=+100\\ \\text{mOsm/L}$: es **hipertónico**.\\n\\n**b) Flujo de agua y volumen.** En el medio hipotónico, el agua entra netamente en los eritrocitos y estos aumentan de volumen; si el hinchamiento es excesivo, pueden sufrir hemólisis. En el medio hipertónico, el agua sale netamente de los eritrocitos y estos disminuyen de volumen (crenación).\\n\\n**c) Proceso y energía.** El movimiento se debe a la **ósmosis** y no requiere gasto directo de ATP: es un transporte pasivo.\\n\\n**d) Explicación.** Como la membrana permite el paso del agua, pero no el de los solutos considerados, la diferencia de concentración de solutos no se elimina mediante el movimiento de estos. Esa diferencia produce un gradiente de potencial químico del agua: el flujo neto va desde el lado con menor concentración efectiva de solutos (mayor potencial químico del agua) hacia el lado con mayor concentración efectiva de solutos, hasta alcanzar el equilibrio.\\n\\n**Comprobación:** el signo negativo de $\\Delta C$ en el medio de $200\\ \\text{mOsm/L}$ corresponde a entrada de agua; el signo positivo en el de $400\\ \\text{mOsm/L}$ corresponde a salida. Los datos permiten establecer el sentido del cambio de volumen, pero no calcular su magnitud.",
+   "resultado": "200 mOsm/L: hipotónico, entra agua y el eritrocito se hincha; 400 mOsm/L: hipertónico, sale agua y el eritrocito se encoge.",
+   "criterios": "Total: 2,0 puntos. a) 0,4 puntos: 0,2 por cada clasificación correcta. b) 0,8 puntos: 0,4 por cada medio, incluyendo sentido del flujo y cambio de volumen. c) 0,4 puntos: 0,2 por identificar la ósmosis y 0,2 por indicar que no requiere gasto directo de ATP. d) 0,4 puntos por explicar que la diferencia de concentración de solutos impermeantes genera un gradiente de potencial químico del agua que causa el flujo neto. Se aceptan formulaciones equivalentes científicamente correctas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "division",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Elija una sola opción y responda todos sus apartados (2 puntos). Opción 5.A) En una especie vegetal, las células diploides tienen $2n=6$ cromosomas. a) En una célula somática en metafase mitótica, indique cuántos cromosomas y cuántas cromátidas hay (0,5 puntos). b) En anafase mitótica, indique cuántos cromosomas hay en la célula completa y cuántos se dirigen a cada polo (0,5 puntos). c) Indique el número de cromosomas y la ploidía de cada célula hija al terminar la citocinesis (0,4 puntos). d) En qué fase de la meiosis se produce el entrecruzamiento entre cromátidas no hermanas de cromosomas homólogos e indique una consecuencia genética de ese proceso (0,6 puntos). Opción 5.B) En una variedad de tomate, el alelo R determina frutos rojos y domina completamente sobre el alelo r, que determina frutos amarillos. Se cruzan dos plantas heterocigotas, Rr × Rr. a) Indique los gametos que produce cada progenitor y las proporciones genotípicas esperadas en la descendencia (0,7 puntos). b) Indique las proporciones fenotípicas esperadas (0,5 puntos). c) Calcule el número esperado de plantas con frutos rojos y amarillos entre 240 descendientes (0,4 puntos). d) Se cruza después una planta Rr con una planta rr. Calcule el número esperado de descendientes con frutos rojos y con frutos amarillos entre 80 (0,4 puntos).",
+   "solucion": "## Opción 5.B\n\n### a) Gametos y proporciones genotípicas\nCada progenitor es heterocigoto ($Rr$), por lo que produce gametos $R$ y $r$ en proporciones iguales: $1/2$ de cada tipo.\n\nAl combinar los gametos de $Rr \\times Rr$:\n\n- $RR$: $1/4$.\n- $Rr$: $1/2$.\n- $rr$: $1/4$.\n\n### b) Proporciones fenotípicas\nComo $R$ domina completamente sobre $r$, los genotipos $RR$ y $Rr$ producen frutos rojos, y $rr$ produce frutos amarillos. Por tanto, la proporción fenotípica es $3/4$ rojos y $1/4$ amarillos.\n\n### c) Descendencia de 240 plantas\nRojas: $240 \\times 3/4 = 180$ plantas.\n\nAmarillas: $240 \\times 1/4 = 60$ plantas.\n\n### d) Cruce $Rr \\times rr$\nEl progenitor $Rr$ produce gametos $R$ y $r$ en proporciones iguales; el progenitor $rr$ solo produce gametos $r$. La descendencia esperada es $1/2\\,Rr$ (roja) y $1/2\\,rr$ (amarilla).\n\nEntre 80 descendientes se esperan $80 \\times 1/2 = 40$ plantas con frutos rojos y 40 con frutos amarillos.",
+   "resultado": "Rr × Rr: gametos R y r al 50 %; genotipos RR 1/4, Rr 1/2, rr 1/4; fenotipos 3/4 rojos y 1/4 amarillos; entre 240: 180 rojos y 60 amarillos. Rr × rr: entre 80, 40 rojos y 40 amarillos.",
+   "criterios": "Total: 2,0 puntos. a) 0,7 puntos: gametos R y r, cada uno con proporción 1/2 (0,2); proporciones genotípicas RR = 1/4, Rr = 1/2 y rr = 1/4 (0,5). b) 0,5 puntos: proporciones fenotípicas de 3/4 frutos rojos y 1/4 amarillos. c) 0,4 puntos: 180 plantas rojas y 60 amarillas entre 240. d) 0,4 puntos: 40 descendientes rojos y 40 amarillos entre 80.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 3,
+ "temas_base": [
+  {
+   "id": "biomoleculas",
+   "p": 0.9
+  },
+  {
+   "id": "celula",
+   "p": 0.9
+  },
+  {
+   "id": "metabolismo",
+   "p": 0.9
+  },
+  {
+   "id": "molecular",
+   "p": 0.9
+  },
+  {
+   "id": "inmunologia",
+   "p": 0.9
+  },
+  {
+   "id": "microbiologia",
+   "p": 0.825
+  }
+ ],
+ "referencias": [
+  "https://academico.unizar.es/sites/academico/files/archivos/acceso/accespau/exame/26ord/biolo.pdf",
+  "https://academico.unizar.es/sites/academico/files/archivos/acceso/accespau/exame/26extra/biolo.pdf"
+ ]
+}
