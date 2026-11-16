@@ -1,0 +1,114 @@
+{
+ "ccaa": "aragon",
+ "materia": "matccss",
+ "titulo": "PAU 2027 Aragón — Matemáticas Aplicadas a las CC. Sociales II (modelo original, convocatoria ordinaria)",
+ "duracion_min": 90,
+ "instrucciones": "Las preguntas 1, 2 y 3 son obligatorias. En la pregunta 4 se elegirán únicamente dos de las tres opciones Q1, Q2 y Q3; si se responden las tres, solo se corregirán las dos primeras. Cada pregunta se califica sobre 10 puntos y tiene el mismo peso en la nota final: 2,5 puntos. La nota final se obtiene sumando las puntuaciones de las cuatro preguntas y dividiendo entre 4. Justifique los procedimientos, cálculos e interpretaciones con rigor. Se incluye una tabla de la distribución normal.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "progl",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "1.- (10 puntos) Una cooperativa prepara dos tipos de kits de cultivo para centros escolares: kits de huerto (x) y kits de compostaje (y). Cada kit de huerto requiere 2 horas de montaje y 1 hora de revisión; cada kit de compostaje requiere 1 hora de montaje y 2 horas de revisión. La cooperativa dispone semanalmente de un máximo de 80 horas de montaje y 70 horas de revisión, y se ha comprometido a preparar al menos 30 kits en total. El margen de contribución es de 50 euros por kit de huerto y de 40 euros por kit de compostaje. Se preparan cantidades enteras no negativas. (8 puntos) Plantee las restricciones y determine cuántos kits de cada tipo conviene preparar para maximizar el margen total. Calcule dicho margen máximo y justifique la optimalidad. (2 puntos) Compruebe si preparar 35 kits de huerto y 10 de compostaje satisface todas las restricciones. Si las satisface, indique si es una solución óptima.",
+   "solucion": "### 1. Restricciones y función objetivo\nSean $x$ los kits de huerto e $y$ los kits de compostaje. Las restricciones son\n\n- Montaje: $2x+y\\leq 80$.\n- Revisión: $x+2y\\leq 70$.\n- Compromiso mínimo: $x+y\\geq 30$.\n- Cantidades enteras no negativas: $x,y\\in\\mathbb{Z}_{\\geq 0}$.\n\nSe quiere maximizar $M=50x+40y$.\n\n### 2. Máximo y justificación de la optimalidad\nEn vez de buscar los vértices de la región factible, expresamos el margen como combinación de las dos restricciones de recursos:\n\n$$M=50x+40y=20(2x+y)+10(x+2y).$$\n\nPor tanto, para cualquier plan factible,\n\n$$M\\leq 20\\cdot80+10\\cdot70=2300.$$\n\nLa igualdad se alcanza si se usan por completo ambas disponibilidades. Resolviendo $2x+y=80$ y $x+2y=70$, se obtiene $x=30$ e $y=20$. Este par es entero y no negativo, y cumple el compromiso mínimo, pues $30+20=50\\geq30$. Su margen es $50\\cdot30+40\\cdot20=2300$ euros. La cota se alcanza, así que es el máximo.\n\nConviene preparar **30 kits de huerto y 20 de compostaje**, con un margen máximo de **2300 euros**.\n\n### 3. Comprobación de 35 kits de huerto y 10 de compostaje\nPara $(x,y)=(35,10)$:\n\n- Montaje: $2\\cdot35+10=80\\leq80$.\n- Revisión: $35+2\\cdot10=55\\leq70$.\n- Total: $35+10=45\\geq30$.\n- Las cantidades son enteras y no negativas.\n\nSí satisface todas las restricciones. Su margen es $50\\cdot35+40\\cdot10=2150$ euros; no es óptima, ya que es inferior a 2300 euros.",
+   "resultado": "Óptimo: 30 kits de huerto y 20 de compostaje, con un margen de 2300 €; (35, 10) es factible, pero no óptimo, y da 2150 €.",
+   "criterios": "Reparto sobre los 2,5 puntos, escalando la distribución 8+2 indicada en el enunciado: 0,50 puntos por formular las restricciones y la función objetivo; 1,00 punto por hallar el plan óptimo y calcular su margen; 0,50 puntos por justificar rigurosamente la cota y su alcance; 0,50 puntos por comprobar la factibilidad de (35,10), calcular su margen y concluir que no es óptimo.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "funciones",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "2.- (10 puntos) Un servicio municipal estudia cómo varía un índice de uso de sus estaciones de reparación de bicicletas según la inversión x en señalización, medida en miles de euros. Para 0 ≤ x ≤ 6, el índice se aproxima mediante f(x)=x^3−9x^2+15x+100. (6 puntos) Calcule f en los extremos del intervalo y estudie los intervalos de crecimiento y decrecimiento. Determine los máximos y mínimos relativos y absolutos en el intervalo, indicando dónde se alcanzan. (4 puntos) Calcule, si existe, el punto de inflexión y estudie la concavidad y convexidad de la función en el intervalo.",
+   "solucion": "### 1. Valores en los extremos y monotonía\n\n$f(0)=100$ y $f(6)=216-324+90+100=82$.\n\nDerivamos y factorizamos:\n\n$f'(x)=3x^2-18x+15=3(x-1)(x-5)$.\n\nLos puntos críticos del intervalo son $x=1$ y $x=5$. El signo de $f'$ es positivo en $(0,1)$, negativo en $(1,5)$ y positivo en $(5,6)$. Por tanto, $f$ es creciente en $[0,1]$ y $[5,6]$, y decreciente en $[1,5]$.\n\n$f(1)=1-9+15+100=107$ y $f(5)=125-225+75+100=75$. Así, hay un máximo relativo en $(1,107)$ y un mínimo relativo en $(5,75)$. Comparando los valores en los extremos y en los puntos críticos, el máximo absoluto del intervalo es $107$, alcanzado en $x=1$, y el mínimo absoluto es $75$, alcanzado en $x=5$.\n\nCon la convención habitual de considerar extremos relativos en puntos interiores, los extremos relativos son los anteriores. Si se admiten extremos relativos unilaterales en el dominio cerrado, $x=0$ es también mínimo relativo unilateral y $x=6$ máximo relativo unilateral.\n\n### 2. Inflexión y concavidad\n\n$f''(x)=6x-18=6(x-3)$. La segunda derivada cambia de signo en $x=3$, y\n\n$f(3)=27-81+45+100=91$.\n\nPor tanto, existe un punto de inflexión en $(3,91)$. Como $f''(x)<0$ para $0<x<3$, la función es cóncava hacia abajo en $[0,3]$; como $f''(x)>0$ para $3<x<6$, es convexa (cóncava hacia arriba) en $[3,6]$.",
+   "resultado": "Extremos: f(0)=100, f(6)=82; creciente en [0,1] y [5,6], decreciente en [1,5]; máximo absoluto 107 en x=1 y mínimo absoluto 75 en x=5; punto de inflexión (3,91), cóncava hacia abajo en [0,3] y convexa en [3,6].",
+   "criterios": "Puntuación total: 2,5 puntos. Primera parte: 1,5 puntos (equivale a 6/10): valores en los extremos, 0,25; derivada, factorización y puntos críticos, 0,4; intervalos de crecimiento y decrecimiento, 0,35; extremos relativos y absolutos con valores y localización, 0,5. Segunda parte: 1 punto (equivale a 4/10): segunda derivada y punto de inflexión, 0,5; estudio de la concavidad y convexidad, 0,5.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "inferencia",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "3.- (10 puntos) Una entidad analiza el tiempo de atención de incidencias digitales. Se considera que estos tiempos siguen una distribución normal con desviación típica conocida de 10 minutos. En una muestra aleatoria simple de 100 incidencias, el tiempo medio de atención fue de 48 minutos. (6 puntos) Calcule un intervalo de confianza del 95% para el tiempo medio de atención de todas las incidencias. Indique si el valor de referencia de 50 minutos es compatible con el intervalo obtenido y explique la conclusión. (4 puntos) Para estimar el tiempo medio con un error máximo de 2 minutos y un nivel de confianza del 95%, determine el tamaño mínimo de muestra necesario, utilizando la desviación típica indicada.",
+   "solucion": "### 1. Intervalo de confianza del 95 %\n\nUsamos la variable pivotal y despejamos el parámetro a partir de su probabilidad central. Como la población es normal y la desviación típica poblacional es conocida,\n\n$$Z=\\frac{\\bar X-\\mu}{\\sigma/\\sqrt n}\\sim N(0,1).$$\n\nCon $n=100$, $\\bar x=48$ y $\\sigma=10$, el error típico es $\\sigma/\\sqrt n=10/\\sqrt{100}=1$. Además, $z_{0.975}=1.96$, por lo que\n\n$$P\\left(-1.96\\leq\\frac{\\bar X-\\mu}{1}\\leq1.96\\right)=0.95.$$\n\nAl despejar $\\mu$ y sustituir los datos, se obtiene\n\n$$48-1.96\\leq\\mu\\leq48+1.96,$$\n\nes decir, el intervalo de confianza es $[46.04,\\,49.96]$ minutos.\n\nEl valor de referencia, 50 minutos, queda fuera del intervalo (aunque muy cerca de su extremo superior). Por tanto, no es compatible con los datos al nivel de confianza del 95 %; en particular, el intervalo apunta a que el tiempo medio es inferior a 50 minutos.\n\n### 2. Tamaño mínimo de la muestra\n\nPara un error máximo $E=2$ minutos y un nivel de confianza del 95 %, el margen de error debe cumplir\n\n$$1.96\\frac{10}{\\sqrt n}\\leq2.$$\n\nDespejando,\n\n$$n\\geq\\left(\\frac{1.96\\cdot10}{2}\\right)^2=96.04.$$\n\nComo el tamaño muestral debe ser entero, se toma el entero superior: $n_{\\min}=97$. Comprobación de minimalidad: con $n=96$, el margen es aproximadamente $2.0004>2$; con $n=97$, es aproximadamente $1.9901\\leq2$.",
+   "resultado": "IC del 95 %: [46,04; 49,96] minutos; 50 minutos no es compatible al 95 %; tamaño mínimo: 97 incidencias.",
+   "criterios": "Reparto interno según los 10 puntos indicados en los apartados: intervalo (6 puntos): planteamiento de la variable pivotal y elección del cuantil, 1,5; cálculo del intervalo, 2,5; decisión sobre la compatibilidad de 50 e interpretación, 2. Tamaño muestral (4 puntos): planteamiento de la condición del margen de error, 1,5; despeje y redondeo al entero superior, 1,5; comprobación de que 97 es mínimo, 1. El enunciado también indica 2,5 puntos en el encabezado; si esa es la puntuación efectiva, se escala el reparto anterior multiplicándolo por 0,25.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "matrices",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "4.- (10 puntos) Elija únicamente dos opciones de las tres posibles Q1, Q2 y Q3. Q1 (5 puntos). Una cooperativa organiza dos programas de formación en dos periodos. La matriz X recoge las cantidades planificadas, y la planificación debe satisfacer la ecuación matricial AX+B=C, donde A=((2,1),(1,1)), B=((1,0),(0,1)) y C=((9,6),(5,6)); en cada matriz, las parejas interiores indican sus filas. Resuelva la ecuación matricial despejando X y compruebe el resultado.",
+   "solucion": "De $AX+B=C$, restamos $B$ a ambos lados: $AX=C-B$. Como $\\det(A)=2\\cdot1-1\\cdot1=1\\neq0$, la matriz $A$ es invertible y podemos despejar $X=A^{-1}(C-B)$.\\n\\nPara $A=\\begin{pmatrix}2&1\\\\1&1\\end{pmatrix}$, se tiene $A^{-1}=\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}$. Además, $C-B=\\begin{pmatrix}9&6\\\\5&6\\end{pmatrix}-\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}=\\begin{pmatrix}8&6\\\\5&5\\end{pmatrix}$.\\n\\nPor tanto, $X=\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}\\begin{pmatrix}8&6\\\\5&5\\end{pmatrix}=\\begin{pmatrix}3&1\\\\2&4\\end{pmatrix}$.\\n\\nComprobación: $AX=\\begin{pmatrix}2&1\\\\1&1\\end{pmatrix}\\begin{pmatrix}3&1\\\\2&4\\end{pmatrix}=\\begin{pmatrix}8&6\\\\5&5\\end{pmatrix}$, y así $AX+B=\\begin{pmatrix}8&6\\\\5&5\\end{pmatrix}+\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}=\\begin{pmatrix}9&6\\\\5&6\\end{pmatrix}=C$.",
+   "resultado": "$X=\\begin{pmatrix}3&1\\\\2&4\\end{pmatrix}$",
+   "criterios": "Para los 5 puntos que se indican en Q1: planteamiento $AX=C-B$ (0,5); determinante e inversa de $A$ (0,75); cálculo de $C-B$ (0,5); producto para obtener $X$ (1,5); comprobación por sustitución (1,25); claridad y notación matricial (0,5). El enunciado también muestra una valoración global de 2,5 puntos; si esa es la escala aplicable, se divide por dos la puntuación de estos criterios.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "integrales",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "4.- (10 puntos) Elija únicamente dos opciones de las tres posibles Q1, Q2 y Q3. Q2 (5 puntos). Una plataforma de apoyo escolar modeliza la tasa de nuevas consultas durante las dos primeras horas de una campaña mediante r(t)=3t^2+at+2, en centenas de consultas por hora, con 0≤t≤2. Los datos de la campaña indican que en ese intervalo se recibieron en total 30 centenas de consultas. Determine el valor de a, planteando y resolviendo la integral que representa el total acumulado.",
+   "solucion": "La tasa $r(t)$ está expresada en centenas de consultas por hora; por tanto, el total de consultas, también en centenas, se obtiene integrando la tasa entre $t=0$ y $t=2$:\n\n$$\\int_0^2 (3t^2+at+2)\\,dt=30.$$\n\nUna primitiva es $t^3+\\frac{a}{2}t^2+2t$. Al evaluar en los extremos:\n\n$$\\left[t^3+\\frac{a}{2}t^2+2t\\right]_0^2=8+2a+4=30.$$\n\nAsí, $12+2a=30$, de donde $2a=18$ y, por tanto, $a=9$.",
+   "resultado": "a = 9.",
+   "criterios": "Reparto sobre los 2,5 puntos indicados en el encabezado: planteamiento de la integral y del total (0,5); cálculo de la primitiva (0,5); evaluación correcta en los límites (0,5); planteamiento y resolución de la ecuación para a (0,75); presentación del valor final con unidades o interpretación adecuada (0,25). El enunciado también rotula Q2 como una pregunta de 5 puntos; si se aplica esa puntuación, se duplican proporcionalmente estas valoraciones.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "probabilidad",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "4.- (10 puntos) Elija únicamente dos opciones de las tres posibles Q1, Q2 y Q3. Q3 (5 puntos). Una empresa utiliza tres impresoras 3D, A, B y C, que fabrican, respectivamente, el 50%, el 30% y el 20% de los dispositivos. Las probabilidades de que un dispositivo sea defectuoso son 0,10 si procede de A, 0,20 si procede de B y 0,25 si procede de C. (3 puntos) Se elige al azar un dispositivo. Calcule la probabilidad de que sea defectuoso y la probabilidad de que proceda de C sabiendo que es defectuoso. (2 puntos) Se prueban de forma independiente cuatro dispositivos fabricados por A. Calcule la probabilidad de que exactamente uno sea defectuoso.",
+   "solucion": "### 1. Probabilidad de que el dispositivo elegido sea defectuoso\n\nSean $A$, $B$ y $C$ los sucesos de que el dispositivo proceda de cada impresora, y sea $D$ el suceso «el dispositivo es defectuoso». Por la fórmula de la probabilidad total:\n\n$$P(D)=P(A)P(D\\mid A)+P(B)P(D\\mid B)+P(C)P(D\\mid C).$$\n\nSustituyendo los datos:\n\n$$P(D)=0{,}50\\cdot0{,}10+0{,}30\\cdot0{,}20+0{,}20\\cdot0{,}25=0{,}05+0{,}06+0{,}05=0{,}16.$$\n\nPor tanto, la probabilidad de que sea defectuoso es $0{,}16$.\n\n### 2. Probabilidad de que proceda de C sabiendo que es defectuoso\n\nAplicamos la fórmula de Bayes:\n\n$$P(C\\mid D)=\\frac{P(C)P(D\\mid C)}{P(D)}=\\frac{0{,}20\\cdot0{,}25}{0{,}16}=\\frac{0{,}05}{0{,}16}=\\frac{5}{16}=0{,}3125.$$\n\n### 3. Exactamente un defectuoso entre cuatro dispositivos de A\n\nEl número de defectuosos sigue una distribución binomial con $n=4$ y $p=0{,}10$. Así,\n\n$$P(X=1)=\\binom{4}{1}(0{,}10)(0{,}90)^3=4\\cdot0{,}10\\cdot0{,}729=0{,}2916.$$\n\nLa probabilidad pedida es $0{,}2916$.",
+   "resultado": "P(D)=0,16; P(C|D)=0,3125; P(exactamente un defectuoso entre cuatro de A)=0,2916.",
+   "criterios": "El enunciado presenta una discrepancia: el encabezado indica 2,5 puntos, mientras que Q3 y sus apartados suman 5 puntos (3+2). Siguiendo el desglose específico de Q3: 1,5 puntos por calcular correctamente P(D), con planteamiento de probabilidad total y resultado; 1,5 puntos por plantear Bayes y obtener P(C|D); 2 puntos por identificar el modelo binomial, plantear la probabilidad de exactamente un defecto y calcularla. Si la puntuación aplicable fuera 2,5 puntos, se puede prorratear la calificación de Q3 a la mitad.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 3,
+ "temas_base": [
+  {
+   "id": "progl",
+   "p": 0.9
+  },
+  {
+   "id": "funciones",
+   "p": 0.9
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.9
+  },
+  {
+   "id": "inferencia",
+   "p": 0.9
+  },
+  {
+   "id": "matrices",
+   "p": 0.85
+  },
+  {
+   "id": "integrales",
+   "p": 0.652
+  }
+ ],
+ "referencias": [
+  "https://academico.unizar.es/sites/academico/files/archivos/acceso/accespau/exame/26ord/matcs.pdf",
+  "https://academico.unizar.es/sites/academico/files/archivos/acceso/accespau/exame/26extra/matcs.pdf"
+ ]
+}
