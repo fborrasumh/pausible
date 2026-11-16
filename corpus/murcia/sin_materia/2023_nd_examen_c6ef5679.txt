@@ -1,0 +1,660 @@
+                                                     Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+Preguntas teóricas
+
+
+Interacción gravitatoria
+● Leyes de Kepler
+● Ley de la gravitación universal
+● Energía potencial gravitatoria
+
+Interacción electromagnética
+● Carga eléctrica. Ley de Coulomb
+● Energía potencial y potencial eléctricos
+● Inducción electromagnética: leyes de Faraday y Lenz
+
+Ondas
+● Clases de ondas
+● Principio de Huygens (NO para EBAU 2020/21)
+● Ondas electromagnéticas
+
+Óptica
+● Leyes de la reflexión y la refracción
+● Defectos de la visión: ametropías
+
+Física moderna
+● Relatividad especial. Postulados y repercusiones
+● Concepto de fotón. Dualidad onda-corpúsculo (NO para EBAU 2020/21)
+● Tipos de radiaciones nucleares
+● Partículas elementales
+
+Transversales
+● Naturaleza de la luz
+● Interacciones fundamentales
+● Aplicaciones de la física: tecnología y sociedad
+
+
+
+
+                                                                                               1
+                                                      Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+LEYES DE KEPLER
+
+Son leyes empíricas enunciadas por Kepler en el siglo XVII para describir el movimiento de los
+planetas alrededor del Sol. Son tres:
+1ª Ley (ley de las órbitas): Los planetas
+describen órbitas planas elípticas en uno de
+cuyos focos se encuentra el Sol.                                  Planeta
+                                                    Sol
+2ª Ley (ley de las áreas): El vector de
+posición con respecto al Sol de un planeta
+barre áreas iguales en tiempos iguales.
+Es decir, la velocidad areolar es constante.
+Esto implica que la velocidad lineal del
+planeta es mayor cuanto más cerca se
+encuentra del Sol. Esta ley es equivalente a
+la conservación del momento angular del
+planeta con respecto al Sol.
+
+3ª Ley (ley de los períodos): Los cuadrados de los períodos de revolución de los planetas son
+proporcionales al cubo de sus distancias medias al Sol.
+Una consecuencia es que la velocidad lineal de los planetas no es constante, sino que depende
+del radio orbital: un planeta gira más rápido cuanto más pequeña es la órbita que describe.
+
+Las leyes de Kepler se demostraron teóricamente más tarde gracias a la ley de la gravitación de
+Newton.
+
+
+
+
+                                                                                                2
+                                                          Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+LEY DE LA GRAVITACIÓN UNIVERSAL
+
+Fue enunciada por Newton en el siglo XVII y permitió explicar todos los efectos gravitatorios
+conocidos en su época (entre ellos: el movimiento de los astros en el sistema solar, las mareas, o
+la caída de los cuerpos sobre la Tierra). La ley dice que:
+       Todo cuerpo del universo atrae a cualquier otro cuerpo con una fuerza central que es
+proporcional a la masa de ambos e inversamente proporcional al cuadrado de la distancia que los
+separa.
+Matemáticamente se formula así:
+
+
+
+
+donde      es la fuerza gravitatoria entre dos cuerpos de masas          y      ,    es la distancia
+que los separa, y       es un vector unitario que va del cuerpo que ejerce la fuerza al que la sufre.
+El signo menos indica que la fuerza es atractiva. G es una constante denominada “constante de la
+gravitación universal” que se mide experimentalmente y cuyo valor es 6.67·10-11 Nm2/kg2.
+
+
+
+
+La ecuación de la fuerza gravitatoria se aplica por igual a las dos masas. Así, por ejemplo, la
+fuerza de atracción que ejerce la Tierra sobre la Luna es igual y de sentido contrario a la que
+ejerce la Luna sobre la Tierra.
+Si tenemos un conjunto de partículas, la fuerza gravitatoria que sufre cada una de ellas es la suma
+vectorial de las fuerzas producidas por el resto de partículas.
+
+
+
+
+                                                                                                    3
+                                                          Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+ENERGÍA POTENCIAL GRAVITATORIA
+
+La fuerza gravitatoria, por ser conservativa, tiene asociada una función energía potencial
+gravitatoria,   , tal que el trabajo realizado por la fuerza entre dos puntos A y B es igual a la
+disminución de esta energía potencial:
+
+
+
+
+Así se deduce que la energía potencial gravitatoria de una partícula de masa          a una distancia
+r de otra masa       es igual a
+
+
+
+
+donde se toma la energía potencial en el infinito igual a cero.
+Como se trata de una energía, es una magnitud escalar cuya unidad en el SI es el Julio.
+Debido a la acción de la fuerza gravitatoria, los cuerpos tienden a caer espontáneamente hacia las
+regiones de menor energía potencial.
+Para un sistema formado por más de dos masas, la energía potencial gravitatoria del sistema es la
+suma de las energías potenciales de todos los pares distintos de masas que se pueden formar.
+
+Energía potencial en las cercanías de la superficie terrestre
+La fuerza gravitatoria que actúa sobre un cuerpo de masa m es su peso:                            .
+Considerando constante el valor de g en las proximidades de la Tierra, el trabajo realizado por la
+fuerza peso cuando el cuerpo se desplaza verticalmente desde el punto A al B resulta:
+                          . Por tanto, la energía potencial en un punto a una altura h es:
+            , donde hemos elegido el origen de energía en h = 0.
+
+
+
+
+                                                                                                    4
+                                                           Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+CARGA ELÉCTRICA. LEY DE COULOMB
+
+La carga eléctrica es la propiedad de la materia responsable de la interacción electromagnética.
+Tiene las siguientes propiedades:
+- Puede ser positiva o negativa.
+- La carga total de un conjunto de partículas es la suma algebraica con el signo de sus cargas
+individuales.
+- La carga eléctrica total de un sistema aislado se conserva.
+- La carga está “cuantizada”: solamente se presenta en cantidades discretas que son múltiplos
+enteros de una cantidad elemental: |e| = 1.6·10-19 C. La carga del electrón es -|e| y la del protón +|
+e|.
+La unidad de carga en el SI es el Culombio (C).
+
+La ley de Coulomb describe la interacción entre cargas eléctricas en reposo. La ley dice que:
+       La fuerza ejercida por una carga puntual      sobre otra q2 es proporcional al producto de
+las cargas e inversamente proporcional al cuadrado de la distancia, r, que las separa. Se trata de
+una fuerza central dirigida según la línea que une las cargas. Es repulsiva si las cargas tienen el
+mismo signo y atractiva si tienen signos opuestos. Matemáticamente:
+
+
+
+
+donde        es el vector unitario que va de         a     . La constante de proporcionalidad se
+denomina “constante de Coulomb” y su valor:                    = 9·109 N m2/C2, donde        es la
+permitividad o constante dieléctrica del vacío. En otros medios que no sean el vacío, la constante
+tiene otros valores.
+
+
+
+
+La carga      ejerce sobre         una fuerza igual y de sentido contrario a la que      realiza sobre
+    .
+Las fuerzas electrostáticas cumplen el principio de superposición: la fuerza neta que ejerce un
+conjunto de cargas sobre otra es la suma vectorial de todas las fuerzas ejercidas sobre ella.
+
+
+
+
+                                                                                                     5
+                                                         Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+ENERGÍA POTENCIAL Y POTENCIAL ELÉCTRICOS
+
+Como la fuerza eléctrica entre dos cargas es conservativa, tiene asociada una función energía
+potencial eléctrica       , cuya diferencia entre dos puntos corresponde al trabajo realizado por la
+
+fuerza eléctrica entre esos puntos:
+
+
+
+
+Así se deduce que la energía potencial eléctrica entre dos cargas es
+
+
+
+
+donde se toma la energía potencial en el infinito igual a cero. Como es una energía, se trata de
+una magnitud escalar cuya unidad en el SI es el Julio.
+Bajo la única acción de la fuerza eléctrica, las cargas se mueven hacia posiciones que
+corresponden a una configuración de mínima energía potencial eléctrica.
+La energía potencial eléctrica total de un conjunto de cargas es la suma de las energías
+potenciales de todos los pares distintos de cargas que se pueden formar.
+
+El campo eléctrico    también es conservativo; por tanto, tiene asociado un campo escalar
+denominado potencial eléctrico. El potencial eléctrico producido por una carga puntual q situada
+en el origen es
+
+
+
+
+      En el SI el potencial se mide en Voltios (V). A la diferencia de potencial entre dos puntos
+también se le llama “voltaje”.
+El potencial debido a un conjunto de cargas es la suma escalar de los potenciales debidos a cada
+una de las cargas.
+
+
+
+
+                                                                                                   6
+                                                          Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+INDUCCIÓN ELECTROMAGNÉTICA: LEYES DE FARADAY Y LENZ
+
+La inducción electromagnética es la producción de electricidad mediante magnetismo en
+determinadas condiciones. Los primeros científicos que la estudiaron fueron Faraday y Henry,
+quienes observaron que en un circuito se genera una corriente eléctrica en las siguientes
+circunstancias:
+- Si se acerca un imán al circuito, o se aleja del mismo. O bien el circuito se mueve con respecto al
+imán.
+- Si hay un movimiento relativo entre el circuito y otro circuito por el que circule una corriente
+continua.
+- Si el segundo circuito transporta una corriente variable, aunque ambos estén en reposo.
+- Si se deforma el circuito en el seno de un campo magnético.
+
+Todos los hechos anteriores pueden explicarse mediante la ley de Faraday, que dice que
+        La variación temporal del flujo    del campo magnético a través de un circuito genera en
+él una fuerza electromotriz:
+La f.e.m. es el trabajo por unidad de carga que se realiza en el circuito. Se mide en Voltios en el
+SI.
+El flujo (como es el producto escalar del campo por la superficie,         ) varía si cambia el campo
+magnético, la forma del circuito, o la orientación entre el campo y el circuito. En estos casos habrá
+corrientes inducidas.
+El signo negativo en la ley de Faraday indica el sentido en que circula la corriente inducida. Esto
+se expresa en un principio físico conocido como ley de Lenz: la f.e.m. inducida origina una
+corriente cuyo campo magnético se opone a la variación del flujo magnético que la origina.
+
+Una de las aplicaciones del principio de inducción electromagnética es en la generación de
+corriente eléctrica por transformación de trabajo mecánico en electricidad (por ejemplo, en las
+centrales hidroeléctricas).
+
+
+
+
+                                                                                                    7
+                                                       Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+CLASES DE ONDAS
+
+Existen varias clasificaciones posibles:
+Según el medio en el que se propaga la onda:
+      - Las que No necesitan un medio material para propagarse y pueden, por tanto,
+propagarse en el vacío. Éstas son las ondas electromagnéticas y las gravitatorias. Ejemplos de
+ondas electromagnéticas son: la luz, las ondas de radio, televisión y telefonía móvil, las
+microondas, los rayos ultravioleta, los rayos gamma, etc.
+        - Las que Necesitan un medio material para propagarse. A este tipo responden el resto
+de fenómenos ondulatorios que conocemos, como por ejemplo: el sonido, las olas, las vibraciones
+de una cuerda, etc. Este tipo de ondas son el resultado del movimiento ordenado de muchas
+partículas.
+Según la dirección de vibración:
+        - Ondas Transversales: la vibración se produce en alguna dirección perpendicular a la
+dirección de propagación. Ejemplos: cuerda sacudida transversalmente y ondas
+electromagnéticas.
+      - Ondas Longitudinales: la vibración se produce en la dirección de propagación. Ejemplo:
+ondas sonoras.
+Según el número de dimensiones del espacio en el que se propagan:
+       - Unidimensionales (ej.: vibraciones en una cuerda).
+     - Bidimensionales (ej.: olas en la superficie de un líquido o vibraciones en una
+membrana).
+       - Tridimensionales (ej.: la luz y el sonido).
+
+
+
+
+                                                                                                 8
+                                                        Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+PRINCIPIO DE HUYGENS
+
+Se trata de un mecanismo sencillo para la construcción de frentes de ondas a partir de frentes en
+instantes anteriores. Un frente de ondas es cada una de las superficies que pasan por los puntos
+donde una onda oscila con la misma fase. El principio dice que:
+      Los puntos situados en un frente de ondas se convierten en fuentes de ondas secundarias,
+cuya envolvente constituye un nuevo frente de ondas primario.
+La forma de aplicarlo es la siguiente: se trazan pequeños semicírculos de igual radio con centros
+en diferentes puntos de un frente de ondas, y luego se traza la envolvente de los semicírculos, la
+cual constituye el nuevo frente de ondas.
+La figura muestra un ejemplo de aplicación a un frente de ondas esférico y otro ejemplo para
+explicar la difracción de un frente de ondas plano producida por un obstáculo.
+
+
+
+
+Una consecuencia del principio de Huygens es que todos los rayos tardan el mismo tiempo entre
+dos frentes de onda consecutivos. Los rayos son líneas perpendiculares a los frentes de onda que
+indican la dirección de propagación de la onda.
+Aunque Huygens lo formuló para las ondas materiales, que eran las únicas conocidas en su
+época, su principio es válido para todo tipo de ondas. Kirchhoff extendió el método a las ondas
+electromagnéticas, una vez que fueron descubiertas.
+
+
+
+
+                                                                                                  9
+                                                       Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+ONDAS ELECTROMAGNÉTICAS
+
+A mediados del siglo XIX, el físico escocés James C. Maxwell propuso un conjunto de ecuaciones
+que explicaban todos los fenómenos eléctricos y magnéticos conocidos, y además predecían las
+ondas electromagnéticas (oem) cuya existencia fue verificada después por Hertz de forma
+experimental. La teoría de Maxwell también demostró que la luz es una onda electromagnética y
+unificó así la óptica con el electromagnetismo.
+Las oem son una combinación de campos eléctricos y magnéticos oscilantes, y auto-mantenidos,
+que se propagan a través del espacio transportando energía. Sus principales características son:
+   -   Pueden viajar en el vacío.
+   -   Se propagan a la velocidad de la luz (en el vacío: c = 3·108 m/s).
+   -   Son ondas transversales: los campos eléctrico y magnético son perpendiculares, y son a
+       su vez perpendiculares a la dirección de propagación.
+   -   Pueden expresarse como ondas armónicas con doble periodicidad espacial y temporal.
+
+
+
+
+Las oem se diferencian por su frecuencia (que no varía aunque la onda cambie de medio). El
+espectro electromagnético es el conjunto de todos los tipos de ondas y contiene: ondas de radio
+(AM y FM) y de televisión, ondas de telefonía móvil, microondas (como las emitidas por los
+hornos), luz infrarroja, luz visible, luz ultravioleta, rayos X y rayos gamma, entre otras.
+
+
+
+
+Las oem de mayor frecuencia (menor longitud de onda) son las más perjudiciales para los tejidos
+vivos, aunque se utilizan en medicina de forma controlada en el diagnóstico (radiografías) y
+tratamiento de enfermedades (radioterapia). En el caso de la luz visible, la frecuencia determina
+los distintos colores que vemos. Las oem que emiten los cuerpos celestes nos permiten conocer el
+universo. Desde el punto de vista tecnológico, las oem son la base de las telecomunicaciones
+inalámbricas.
+
+
+
+
+                                                                                                10
+                                                           Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+LEYES DE LA REFLEXIÓN Y LA REFRACCIÓN
+
+Cuando una onda incide sobre la superficie de separación de dos medios de distinto índice de
+refracción, una parte de la onda se refleja y otra parte se refracta (se transmite al otro medio). Las
+leyes de la reflexión y la reflexión nos dicen que:
+    - Los rayos incidente, reflejado y refractado están en un mismo plano, llamado plano de
+incidencia, que es perpendicular a la superficie.
+   - El ángulo de incidencia,     , y el ángulo de reflexión,    , son iguales.
+     - El ángulo de incidencia y el ángulo de transmisión o refracción,    , están relacionados por
+la ley de Snell:
+                                                                  ,
+donde       y     son los índices en el primer y segundo medios.
+
+
+
+
+La ley de Snell implica que si la luz pasa a un medio de índice mayor, los rayos se acercan a la
+normal (se alejan de la normal si el segundo medio posee un índice menor).
+La ley de Snell también puede expresarse en función de las velocidades de la luz en los dos
+medios, teniendo en cuenta que        . Así:
+
+
+
+
+                                                                                                    11
+                                                        Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+DEFECTOS DE LA VISIÓN: AMETROPÍAS
+
+Las ametropías son defectos refractivos del ojo debidos a un exceso o defecto de potencia óptica,
+que tienen como consecuencia que la imagen formada por el ojo en la retina esté desenfocada.
+(La retina es el tejido de la parte posterior del ojo donde están los fotorreceptores que envían la
+señal al cerebro a través del nervio óptico.)
+Decimos que un ojo es emétrope cuando no presenta ametropías, es decir, cuando su potencia es
+la adecuada en relación con su tamaño, de manera que el foco imagen está situado en la retina y
+las imágenes están enfocadas.
+Hay tres tipos de ametropías: miopía, hipermetropía y astigmatismo.
+
+Miopía: El ojo tiene un exceso de potencia con relación a su tamaño, por lo que el foco imagen
+está situado antes de la retina. En los ojos miopes las imágenes de objetos lejanos estarían
+enfocadas en un plano anterior, pero son borrosas en el plano de la retina.
+La miopía se corrige con una lente divergente con la potencia (negativa) adecuada para restar el
+exceso de potencia del ojo y conseguir que los rayos se enfoquen en la retina.
+
+Hipermetropía: Ocurre lo contrario que en la miopía: el foco imagen cae por detrás de la retina
+debido a un defecto de potencia en relación con la longitud del ojo.
+Se corrige mediante una lente convergente (potencia positiva) que compensa el defecto de
+potencia del ojo.
+
+
+
+
+Astigmatismo: Ocurre cuando el ojo tiene distinta potencia óptica a lo largo de dos meridianos
+perpendiculares (debido a que alguna de las superficies del ojo no tiene simetría de revolución o a
+que está inclinada respecto a las demás).
+(Por ejemplo: un ojo puede ser miope de –2 D en el meridiano horizontal y miope de –3 D a lo
+largo del meridiano vertical; decimos que el ojo es miope de –2 D con un astigmatismo de –1 D.)
+El astigmatismo se corrige mediante lentes tóricas, las cuales poseen dos curvaturas distintas a lo
+largo de sendos ejes perpendiculares.
+
+
+
+
+                                                                                                 12
+                                                         Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+RELATIVIDAD ESPECIAL. POSTULADOS Y REPERCUSIONES
+
+Un problema fundamental en Física a finales del siglo XIX, era que las leyes del
+electromagnetismo variaban al cambiar de sistema de referencia, violándose el principio de
+relatividad de Galileo que era la base de la mecánica de Newton. Así, observadores en
+movimiento relativo obtendrían diferentes resultados al estudiar los fenómenos electromagnéticos.
+En 1905, Einstein concilió las dos teorías (la mecánica y el electromagnetismo) mediante su
+Teoría Especial de la Relatividad, que se basa en los dos postulados siguientes:
+       1º Principio, de relatividad: Todas leyes de la física tienen la misma forma en los sistemas
+de referencia inerciales (es decir, para diferentes observadores).
+      2º Principio, de constancia de la velocidad de la luz: La velocidad de la luz en el vacío es
+una constante universal.
+La teoría de Einstein conduce a algunas conclusiones que nos obligan a cambiar las
+concepciones clásicas de espacio, tiempo, masa y energía:
+- El espacio y el tiempo no son absolutos: observadores en diferentes sistemas inerciales miden
+distintos intervalos de tiempo para un mismo suceso y distintas longitudes para un mismo objeto.
+- Ningún cuerpo puede viajar a una velocidad superior a la velocidad de la luz en el vacío.
+- La masa y la energía son equivalentes, puede transformarse la una en la otra según la ecuación
+          .
+
+
+
+
+                                                                                                  13
+                                                        Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+CONCEPTO DE FOTÓN. DUALIDAD ONDA-CORPÚSCULO
+
+Para explicar ciertos fenómenos de emisión y absorción de luz por la materia, entre ellos el efecto
+fotoeléctrico, Einstein retomó la teoría corpuscular de la naturaleza de la luz. Supuso que la
+energía de la radiación electromagnética no era continua sino discreta, de modo que una onda
+electromagnética de frecuencia n, se podía considerar compuesta por cuantos o corpúsculos que
+viajan a la velocidad de la luz, cada uno de los cuales posee una energía            (donde h es la
+constante de Planck) y un momento lineal             . A estos cuantos se les llamó fotones.
+La teoría de Einstein no invalidó la teoría electromagnética de la luz. La física moderna tuvo que
+introducir la dualidad onda-corpúsculo, admitiendo que la luz posee simultáneamente
+cualidades ondulatorias y corpusculares. Cuando la luz interactúa con la materia se comporta
+como un chorro de partículas (fotones) con energía y momento lineal; cuando se propaga o sufre
+fenómenos de difracción o interferencia, la luz se comporta como una onda caracterizada
+mediante su longitud de onda y frecuencia.
+Más tarde, De Broglie propuso por razones de simetría que la materia también presenta la
+dualidad onda-corpúsculo, de forma que cualquier partícula tiene asociada una onda. La longitud
+de onda asociada es pequeñísima a escalas macroscópicas, de forma que el carácter ondulatorio
+de la materia sólo se manifiesta al nivel microscópico.
+
+
+
+
+                                                                                                 14
+                                                       Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+TIPOS DE RADIACIONES NUCLEARES
+
+Existen los tres tipos siguientes, que se diferencian por el tipo de partículas emitidas y por su
+poder de penetración en la materia:
+Radiación alfa. Está constituida por partículas alfa, que son núcleos de helio formados por dos
+protones y dos neutrones,       . Se producen al desintegrarse un núcleo padre en un núcleo hijo
+que posee dos neutrones y dos protones menos. Las partículas alfa tienen carga eléctrica positiva
+y penetran muy poco en la materia.
+Radiación beta. También está formada por partículas, en este caso electrones. Estos electrones
+no proceden de la corteza sino de la desintegración de neutrones del núcleo: un neutrón de un
+núcleo padre origina un electrón, un protón y otra partícula sin carga llamada antineutrino. El
+núcleo hijo posee, por tanto, un protón más y un neutrón menos. La radiación beta posee carga
+negativa y su poder de penetración es mayor que el de las partículas alfa.
+Radiación gamma. Es de naturaleza electromagnética; está formada por fotones. Se produce
+porque los núcleos pueden estar en diferentes estados energéticos. Cuando un núcleo pasa de un
+estado excitado a otro de menor energía, se emite un fotón de alta frecuencia. Como los fotones
+no tienen carga, la radiación gamma no sufre desviación al atravesar un campo eléctrico o
+magnético. La radiación gamma es la que mayor poder de penetración tiene.
+
+
+
+
+                                                                                                15
+                                                          Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+PARTÍCULAS ELEMENTALES
+
+Los atomistas de la antigua Grecia intuyeron que el universo estaba compuesto de elementos
+indivisibles que llamaron “átomos”. En el siglo XIX la teoría atómica permitió explicar las
+reacciones químicas y el comportamiento de los gases con un modelo de átomo indivisible. Más
+tarde se demostró que el átomo está formado por protones y neutrones en el núcleo, y electrones
+en la corteza. Pero esta estructura atómica no podía explicar fenómenos como la desintegración
+radiactiva, de manera que se fueron proponiendo y descubriendo otras partículas hasta llegar a la
+teoría actual, llamada “modelo estándar”.
+Según el modelo estándar de la física de partículas, la materia está formada por 12 partículas
+elementales (no compuestas de otras más simples), que se clasifican en dos grupos:
+- Leptones: electrón e, muón  , partícula tau  y tres neutrinos asociados (neutrino electrónico
+   , neutrino muónico    y neutrino tau ).
+- Quarks: u, d, c, s, t y b, donde las letras denotan up, down, charm, strange, top y bottom.
+
+
+
+
+Las partículas elementales se caracterizan por tres magnitudes: carga eléctrica, masa y “espín”
+(momento angular intrínseco). Los neutrinos no tienen carga, mientras que el electrón, el muón y la
+tau tienen carga negativa  e . Los quarks pueden tener carga  1/ 3 e o  2 / 3 e .
+Existen tres generaciones de partículas. Cada generación es similar a la anterior pero con
+partículas cada vez más masivas.
+Los átomos están formados por partículas de la 1ª generación. El electrón es él mismo una
+partícula elemental. El protón y el neutrón están formados por tres quarks: el protón es la unión de
+dos quarks u y un quark d, mientras que el neutrón es la unión de dos quarks d y uno de tipo u.
+Cada partícula tiene su correspondiente antipartícula con carga opuesta. Por ejemplo, la
+antipartícula del electrón es el positrón. Las antipartículas forman la antimateria.
+Las partículas elementales que forman la materia (leptones y quarks) se llaman fermiones.
+Además existen otras partículas elementales que son mediadoras en las interacciones, por
+ejemplo los fotones y los bosones. Los quarks no existen aislados, se combinan para formar los
+llamados hadrones, como el protón, el neutrón y los piones.
+
+
+
+
+                                                                                                   16
+                                                        Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+NATURALEZA DE LA LUZ
+
+La cuestión sobre cuál es la naturaleza de la luz ha supuesto un problema desde la antigüedad
+hasta el siglo XX. A lo largo de la historia se han desarrollado principalmente dos teorías
+contrapuestas:
+      - la teoría corpuscular, que considera que la luz está compuesta de partículas o
+corpúsculos, y cuyo principal representante fue Newton, y
+       - la teoría ondulatoria, que defiende que la luz se comporta como una onda.
+Las dos teorías explicaban los fenómenos de reflexión y de refracción. Sin embargo, sólo la teoría
+ondulatoria pudo explicar satisfactoriamente los fenómenos de interferencia y de difracción y el
+hecho de que la velocidad de la luz es mayor en los medios menos densos. Esto, junto al
+desarrollo del electromagnetismo por Maxwell, consolidó como válida la teoría ondulatoria. En el
+siglo XIX la cuestión quedó zanjada y se admitió que la luz era una onda electromagnética.
+Sin embargo, a principios del siglo XX, Einstein tuvo que recurrir de nuevo a la naturaleza
+corpuscular de la luz para explicar ciertos fenómenos de emisión y absorción de luz por la materia,
+como el efecto fotoeléctrico. A partir de entonces se introdujo en Física la dualidad onda-
+corpúsculo de la luz, que significa que la luz tiene las dos naturalezas: en unos fenómenos se
+comporta como una onda electromagnética de una cierta frecuencia, y en otros se comporta como
+un flujo de partículas llamadas fotones con una determinada energía.
+
+
+
+
+                                                                                                 17
+                                                        Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+INTERACCIONES FUNDAMENTALES
+
+Todas las fuerzas de la naturaleza se reducen a cuatro interacciones fundamentales: nuclear
+fuerte, nuclear débil, electromagnética y gravitatoria.
+Nuclear Fuerte: Es la más intensa. Es de muy corto alcance (no se aprecia fuera del núcleo).
+Mantiene unidos a los protones y neutrones que componen el núcleo de los átomos. Los núcleos
+no serían estables si no existiera esta fuerza, que es más intensa que la repulsión electrostática
+entre los protones que lo forman.
+Electromagnética: Es la segunda en intensidad. Es de largo alcance. Actúa sobre partículas
+cargadas eléctricamente y puede ser atractiva o repulsiva. Es la responsable de que los átomos y
+moléculas de la materia estén ligados.
+Nuclear Débil: Es la tercera en intensidad. Como la nuclear fuerte, es de muy corto alcance. Es la
+causante de algunas reacciones nucleares como la radiación beta.
+Gravitatoria: Es la más débil de todas. Se produce entre todos los cuerpos. Es siempre atractiva
+y de largo alcance. Es responsable del movimiento de los astros, de que los cuerpos caigan, de
+las mareas, etc.
+
+
+
+
+                                                                                                 18
+                                                          Preguntas teóricas PAU Física, curso 2020/21
+
+
+
+APLICACIONES DE LA FÍSICA: TECNOLOGÍA Y SOCIEDAD
+
+La física, tanto como disciplina científica básica como por sus aplicaciones, es el paradigma de lo
+que hoy llamamos ciencia y uno de los pilares de la tecnología. Sus aportaciones han
+revolucionado nuestra comprensión de la realidad y nuestro modo de vida. A modo de ejemplos,
+mencionamos a continuación una lista no exhaustiva de aplicaciones de gran repercusión sobre la
+sociedad:
+La mecánica nos enseña cómo se mueven los cuerpos y dicta las leyes de la aeronáutica y de la
+estática que permiten diseñar naves y construcciones. También explica cómo se comporta el
+sonido, lo que ha llevado a avances técnicos como el sónar y la ecografía. Gracias a la
+termodinámica, que trata con la energía y el calor, sabemos por ejemplo hacer frigoríficos y
+motores de combustión.
+El electromagnetismo establece los fundamentos de los motores eléctricos y de los generadores
+de electricidad. Esta rama de la física es también fundamental para la exploración y desarrollo de
+fuentes renovables de producción de energía eléctrica. Por otra parte, el conocimiento de las
+ondas electromagnéticas ha permitido un desarrollo vertiginoso de las telecomunicaciones.
+La óptica nos permite manipular la luz y construir instrumentos ópticos, por ejemplo: dispositivos
+para diagnosticar y tratar problemas de visión, sistemas de registro y visualización de imágenes
+como cámaras y pantallas, aparatos de uso en medicina como endoscopios y sistemas de cirugía
+láser, etc. Además, el láser forma parte ya de nuestra vida cotidiana al estar presente en los
+sistemas de reproducción de CD y DVD.
+La teoría de la relatividad establece la equivalencia entre masa y energía, que llevó tristemente a
+la bomba atómica pero también a la energía nuclear necesaria hoy día para buena parte del
+suministro eléctrico. La física cuántica ofrece, junto a la óptica, el fundamento para el láser y las
+células fotoeléctricas. La física de la materia condensada estudia nuevos materiales con
+propiedades increíbles y está detrás del desarrollo de la nanotecnología con aplicaciones, por
+ejemplo, en la industria y en informática.
+Por su parte, la física de partículas y la astrofísica han cambiado nuestra visión de la
+naturaleza, desde la descripción de la composición de la materia a una escala pequeñísima hasta
+las teorías sobre el origen del universo. También se han derivado aplicaciones de gran utilidad
+para la sociedad como el uso médico de la radioactividad.
+
+
+
+
+                                                                                                   19
+
