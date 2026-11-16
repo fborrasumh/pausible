@@ -10,9 +10,13 @@ const GLOS = [
   ['¿Acierta?', 'Cada predicción se pone a prueba ocultando el último examen y prediciéndolo con los anteriores. Ves cuántos temas habría acertado y cuántos acertaría el azar. Si la confianza es baja, se dice.'],
   ['¿Las soluciones están bien?', 'Cada pregunta la resuelven dos IA por separado. Solo se publica si coinciden; en cálculo, además, un programa comprueba el resultado. Es mucho más fiable que una sola IA, pero no es infalible: si ves un error, avísanos en GitHub.'],
   ['¿Es oficial?', 'No. PAUsible no tiene relación con las universidades ni con las comisiones de la PAU. Los exámenes reales enlazados son los oficiales; los exámenes probables son originales y no anticipan el examen real.'],
-  ['Generar con tu clave', 'Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI, Gemini o Claude. Sale la comunidad, la materia y la lista de temas; nada personal.'],
+  ['Generar con tu clave', 'Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI o de Claude. Sale la comunidad, la materia y la lista de temas; nada personal.'],
   ['Privacidad', 'No hay registro. Tu comunidad, materia y notas se guardan solo en este navegador. La tarjeta para compartir se dibuja en tu dispositivo.']
 ];
+/* Gemini fuera: sus condiciones de uso prohíben la API en apps a las que probablemente accedan menores de 18 años.
+   Si alguien lo tenía elegido, vuelve a OpenAI y se borra su clave de Gemini de este navegador. */
+delete PROV.gemini;
+try { if (localStorage.getItem(APP + '_prov') === 'gemini') localStorage.removeItem(APP + '_prov'); localStorage.removeItem(APP + '_key_gemini'); } catch {}
 let S = {c: '', m: '', auto: {}, ejemplo: false, crono: null, propios: {}, retos: {}, fuente: {}};
 const MEM = {examenes: {}, version: {}};
 const MAX_PROPIOS = 5;   // exámenes generados con tu clave que se guardan por comunidad y materia
@@ -265,20 +269,20 @@ $('selMatRank').onchange = pintaRanking;
 /* ── 6 · cómo conseguir la clave (adaptado de ProfesorIA para estudiantes) ── */
 const lista = (tit, items, tag = 'ul') => `<h3>${esc(t(tit))}</h3><${tag}>${items.map(x => `<li>${esc(t(x))}</li>`).join('')}</${tag}>`;
 function pintaClave() {
-  $('claveEdad').innerHTML = `<h3>${esc(t('Antes de nada: la edad'))}</h3><p>${esc(t('OpenAI permite usar su API desde los 13 años, pero si eres menor de 18 necesitas el permiso de tu madre, padre o tutor. Google Gemini y Anthropic Claude exigen tener 18 años. Si eres menor, pide a un adulto que cree la clave, fije el límite de gasto y te la deje usar en este navegador.'))}</p>`;
+  $('claveEdad').innerHTML = `<h3>${esc(t('Antes de nada: la edad'))}</h3><p>${esc(t('OpenAI permite usar su API desde los 13 años, pero si eres menor de 18 necesitas el permiso de tu madre, padre o tutor. Anthropic Claude exige tener 18 años. Si eres menor, pide a un adulto que cree la clave, fije el límite de gasto y te la deje usar en este navegador.'))}</p>`;
   $('clavePasos').innerHTML = lista('Crear la clave con límite de gasto (OpenAI)', [
     'Entra en platform.openai.com y crea una cuenta. Es distinta de la de ChatGPT, aunque puedes usar el mismo correo.',
     'En Billing, añade un método de pago y compra un crédito pequeño (por ejemplo, 5 €). Fija un límite de gasto mensual bajo antes de crear la clave.',
     'En API keys, pulsa Create new secret key. Cópiala y guárdala en un lugar seguro: no se vuelve a mostrar.',
     'En PAUsible, pulsa IA arriba a la derecha, elige OpenAI, pega la clave, pulsa «Ver los modelos de mi clave» y elige uno económico.',
     'No la compartas ni la pegues en chats o redes. Si se expone, revócala en la plataforma y crea otra.'], 'ol')
-    + `<div class="actions"><a class="btn btn-ghost btn-sm" href="https://platform.openai.com/api-keys" target="_blank" rel="noopener">OpenAI</a><a class="btn btn-ghost btn-sm" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google Gemini (+18)</a><a class="btn btn-ghost btn-sm" href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">Anthropic Claude (+18)</a></div>`;
+    + `<div class="actions"><a class="btn btn-ghost btn-sm" href="https://platform.openai.com/api-keys" target="_blank" rel="noopener">OpenAI</a><a class="btn btn-ghost btn-sm" href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">Anthropic Claude (+18)</a></div>`;
   $('claveCoste').innerHTML = lista('¿Cuánto cuesta?', [
     'Se paga por uso, por tokens (trozos de texto). Con un modelo económico, un examen probable completo cuesta unos céntimos.',
     'Cada examen hace varias llamadas: un ponente lo redacta y dos resolutores lo resuelven por separado; si no coinciden, un tercero desempata.',
     'Con el límite de gasto que fijas, nunca pagarás más de lo que hayas decidido.',
     'La clave se guarda solo en este navegador y solo se envía a tu proveedor. PAUsible no la ve ni la guarda en ningún servidor.']);
-  $('claveChat').innerHTML = lista('Suscripción mensual al chatbot (ChatGPT, Gemini, Claude)', [
+  $('claveChat').innerHTML = lista('Suscripción mensual al chatbot (ChatGPT, Claude…)', [
     'Cuota fija cada mes, la uses mucho o poco.',
     'Conversación libre: el resultado depende de cómo preguntes y cambia de una vez a otra.',
     'Las soluciones que te da las tienes que comprobar tú.',

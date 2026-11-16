@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0F2237">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; img-src data: blob:; media-src blob: data:; connect-src https://api.openai.com https://generativelanguage.googleapis.com https://api.anthropic.com 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; img-src data: blob:; media-src blob: data:; connect-src https://api.openai.com https://api.anthropic.com 'self'; base-uri 'none'; form-action 'none'">
 <meta name="author" content="Fernando Borrás Rocher">
 <meta name="description" content="Predicción de temas de la PAU 2027 para cada comunidad autónoma y materia a partir de los exámenes oficiales 2022-2026, con exámenes probables resueltos y verificados.">
 <meta property="og:type" content="website"><meta property="og:title" content="PAUsible · El examen más PAUsible de 2027, por comunidad y materia"><meta property="og:description" content="Predicción de temas de la PAU 2027 para cada comunidad autónoma y materia a partir de los exámenes oficiales 2022-2026, con exámenes probables resueltos y verificados."><meta property="og:url" content="https://fborrasumh.github.io/pausible/"><meta property="og:image" content="https://fborrasumh.github.io/pausible/og.png"><meta name="twitter:card" content="summary_large_image">
@@ -573,7 +573,7 @@ table{border-collapse:collapse;width:100%;font-size:13.8px}th{background:var(--p
 <div class="bottomnav"><div class="bn-in"><button class="btn btn-ghost" id="navBack" type="button"><svg class="i"><use href="#i-left"/></svg><span data-i18n="Atrás">Atrás</span></button><div class="bn-hint" id="navHint"></div><button class="btn btn-primary" id="navNext" type="button"><span id="navNextTxt">Siguiente</span><svg class="i"><use href="#i-right"/></svg></button></div></div>
 
 <div class="modal" id="mIA" role="dialog" aria-modal="true" aria-labelledby="mIAT"><div class="modal-box"><div class="modal-head"><h2 id="mIAT" data-i18n="Inteligencia artificial">Inteligencia artificial</h2><button type="button" data-close data-i18n="Cerrar">Cerrar</button></div><div class="modal-body">
-  <div class="field"><label for="selProv" data-i18n="Proveedor">Proveedor</label><select id="selProv"><option value="openai">OpenAI</option><option value="gemini">Google Gemini</option><option value="anthropic">Anthropic Claude</option></select></div>
+  <div class="field"><label for="selProv" data-i18n="Proveedor">Proveedor</label><select id="selProv"><option value="openai">OpenAI</option><option value="anthropic">Anthropic Claude</option></select></div>
   <div class="field"><label for="apiKey" data-i18n="Tu clave de API">Tu clave de API</label><div class="keyrow"><input type="password" id="apiKey" autocomplete="off"><button class="eye" id="btnEye" type="button" aria-label="Ver" data-i18n-attr="aria-label:Ver"><svg class="i"><use href="#i-eye"/></svg></button></div></div>
   <div class="field"><label for="selModelo" data-i18n="Modelo">Modelo</label><select id="selModelo"></select><input type="text" id="modelo" hidden autocomplete="off" placeholder="Escribe el nombre exacto del modelo" data-i18n-attr="placeholder:Escribe el nombre exacto del modelo" style="margin-top:8px"></div>
   <div class="actions"><button class="btn btn-ghost btn-sm" id="btnModelos" type="button" data-i18n="Ver los modelos de mi clave">Ver los modelos de mi clave</button></div>
@@ -1230,7 +1230,7 @@ const I18N = {
     "¿Cómo consigo una clave? Guía paso a paso": "How do I get a key? Step-by-step guide",
     "¿No tienes clave? Así se consigue (y lo que cuesta)": "No key? Here is how to get one (and what it costs)",
     "Antes de nada: la edad": "First of all: age",
-    "OpenAI permite usar su API desde los 13 años, pero si eres menor de 18 necesitas el permiso de tu madre, padre o tutor. Google Gemini y Anthropic Claude exigen tener 18 años. Si eres menor, pide a un adulto que cree la clave, fije el límite de gasto y te la deje usar en este navegador.": "OpenAI allows API use from age 13, but if you are under 18 you need permission from a parent or guardian. Google Gemini and Anthropic Claude require you to be 18. If you are a minor, ask an adult to create the key, set the spending limit and let you use it in this browser.",
+    "OpenAI permite usar su API desde los 13 años, pero si eres menor de 18 necesitas el permiso de tu madre, padre o tutor. Anthropic Claude exige tener 18 años. Si eres menor, pide a un adulto que cree la clave, fije el límite de gasto y te la deje usar en este navegador.": "OpenAI allows API use from age 13, but if you are under 18 you need permission from a parent or guardian. Anthropic Claude requires you to be 18. If you are a minor, ask an adult to create the key, set the spending limit and let you use it in this browser.",
     "Crear la clave con límite de gasto (OpenAI)": "Create the key with a spending limit (OpenAI)",
     "Entra en platform.openai.com y crea una cuenta. Es distinta de la de ChatGPT, aunque puedes usar el mismo correo.": "Go to platform.openai.com and create an account. It is separate from ChatGPT, although you can use the same email.",
     "En Billing, añade un método de pago y compra un crédito pequeño (por ejemplo, 5 €). Fija un límite de gasto mensual bajo antes de crear la clave.": "In Billing, add a payment method and buy a small credit (for example €5). Set a low monthly spending limit before creating the key.",
@@ -1242,7 +1242,7 @@ const I18N = {
     "Cada examen hace varias llamadas: un ponente lo redacta y dos resolutores lo resuelven por separado; si no coinciden, un tercero desempata.": "Each exam makes several calls: a setter writes it and two solvers work it out separately; if they disagree, a third breaks the tie.",
     "Con el límite de gasto que fijas, nunca pagarás más de lo que hayas decidido.": "With the spending limit you set, you will never pay more than you decided.",
     "La clave se guarda solo en este navegador y solo se envía a tu proveedor. PAUsible no la ve ni la guarda en ningún servidor.": "The key is stored only in this browser and only sent to your provider. PAUsible never sees it or stores it on any server.",
-    "Suscripción mensual al chatbot (ChatGPT, Gemini, Claude)": "Monthly chatbot subscription (ChatGPT, Gemini, Claude)",
+    "Suscripción mensual al chatbot (ChatGPT, Claude…)": "Monthly chatbot subscription (ChatGPT, Claude…)",
     "Cuota fija cada mes, la uses mucho o poco.": "Fixed monthly fee, whether you use it a lot or a little.",
     "Conversación libre: el resultado depende de cómo preguntes y cambia de una vez a otra.": "Free conversation: the result depends on how you ask and changes from one time to the next.",
     "Las soluciones que te da las tienes que comprobar tú.": "You have to check the solutions it gives you yourself.",
@@ -1383,7 +1383,7 @@ const I18N = {
     "¿Es oficial?": "Is it official?",
     "No. PAUsible no tiene relación con las universidades ni con las comisiones de la PAU. Los exámenes reales enlazados son los oficiales; los exámenes probables son originales y no anticipan el examen real.": "No. PAUsible has no connection with the universities or the PAU boards. The real exams linked are the official ones; the probable exams are original and do not anticipate the real exam.",
     "Generar con tu clave": "Generate with your key",
-    "Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI, Gemini o Claude. Sale la comunidad, la materia y la lista de temas; nada personal.": "If your combination has no probable exam yet, you can generate it with your OpenAI, Gemini or Claude key. Only the region, subject and topic list are sent; nothing personal.",
+    "Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI o de Claude. Sale la comunidad, la materia y la lista de temas; nada personal.": "If your combination has no probable exam yet, you can generate it with your OpenAI or Claude key. Only the region, subject and topic list are sent; nothing personal.",
     "Privacidad": "Privacy",
     "No hay registro. Tu comunidad, materia y notas se guardan solo en este navegador. La tarjeta para compartir se dibuja en tu dispositivo.": "No sign-up. Your region, subject and grades are stored only in this browser. The share card is drawn on your device.",
     "ordinaria": "ordinary sitting",
@@ -1434,7 +1434,7 @@ const I18N = {
     "¿Cómo consigo una clave? Guía paso a paso": "Como consigo uma chave? Guia passo a passo",
     "¿No tienes clave? Así se consigue (y lo que cuesta)": "Não tens chave? Vê como se consegue (e quanto custa)",
     "Antes de nada: la edad": "Antes de mais: a idade",
-    "OpenAI permite usar su API desde los 13 años, pero si eres menor de 18 necesitas el permiso de tu madre, padre o tutor. Google Gemini y Anthropic Claude exigen tener 18 años. Si eres menor, pide a un adulto que cree la clave, fije el límite de gasto y te la deje usar en este navegador.": "A OpenAI permite usar a sua API a partir dos 13 anos, mas se tens menos de 18 precisas da autorização da tua mãe, pai ou tutor. O Google Gemini e o Anthropic Claude exigem 18 anos. Se és menor, pede a um adulto que crie a chave, defina o limite de gasto e te deixe usá-la neste navegador.",
+    "OpenAI permite usar su API desde los 13 años, pero si eres menor de 18 necesitas el permiso de tu madre, padre o tutor. Anthropic Claude exige tener 18 años. Si eres menor, pide a un adulto que cree la clave, fije el límite de gasto y te la deje usar en este navegador.": "A OpenAI permite usar a sua API a partir dos 13 anos, mas se tens menos de 18 precisas da autorização da tua mãe, pai ou tutor. O Anthropic Claude exige 18 anos. Se és menor, pede a um adulto que crie a chave, defina o limite de gasto e te deixe usá-la neste navegador.",
     "Crear la clave con límite de gasto (OpenAI)": "Criar a chave com limite de gasto (OpenAI)",
     "Entra en platform.openai.com y crea una cuenta. Es distinta de la de ChatGPT, aunque puedes usar el mismo correo.": "Entra em platform.openai.com e cria uma conta. É diferente da do ChatGPT, embora possas usar o mesmo e-mail.",
     "En Billing, añade un método de pago y compra un crédito pequeño (por ejemplo, 5 €). Fija un límite de gasto mensual bajo antes de crear la clave.": "Em Billing, adiciona um método de pagamento e compra um crédito pequeno (por exemplo, 5 €). Define um limite de gasto mensal baixo antes de criar a chave.",
@@ -1446,7 +1446,7 @@ const I18N = {
     "Cada examen hace varias llamadas: un ponente lo redacta y dos resolutores lo resuelven por separado; si no coinciden, un tercero desempata.": "Cada exame faz várias chamadas: um autor redige-o e dois resolvedores resolvem-no em separado; se não coincidirem, um terceiro desempata.",
     "Con el límite de gasto que fijas, nunca pagarás más de lo que hayas decidido.": "Com o limite de gasto que defines, nunca pagarás mais do que decidiste.",
     "La clave se guarda solo en este navegador y solo se envía a tu proveedor. PAUsible no la ve ni la guarda en ningún servidor.": "A chave fica só neste navegador e só é enviada ao teu fornecedor. O PAUsible não a vê nem a guarda em nenhum servidor.",
-    "Suscripción mensual al chatbot (ChatGPT, Gemini, Claude)": "Assinatura mensal do chatbot (ChatGPT, Gemini, Claude)",
+    "Suscripción mensual al chatbot (ChatGPT, Claude…)": "Assinatura mensal do chatbot (ChatGPT, Claude…)",
     "Cuota fija cada mes, la uses mucho o poco.": "Mensalidade fixa, quer uses muito ou pouco.",
     "Conversación libre: el resultado depende de cómo preguntes y cambia de una vez a otra.": "Conversa livre: o resultado depende de como perguntas e muda de uma vez para outra.",
     "Las soluciones que te da las tienes que comprobar tú.": "As soluções que te dá tens de ser tu a verificá-las.",
@@ -1587,7 +1587,7 @@ const I18N = {
     "¿Es oficial?": "É oficial?",
     "No. PAUsible no tiene relación con las universidades ni con las comisiones de la PAU. Los exámenes reales enlazados son los oficiales; los exámenes probables son originales y no anticipan el examen real.": "Não. O PAUsible não tem relação com as universidades nem com as comissões da PAU. Os exames reais ligados são os oficiais; os exames prováveis são originais e não antecipam o exame real.",
     "Generar con tu clave": "Gerar com a tua chave",
-    "Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI, Gemini o Claude. Sale la comunidad, la materia y la lista de temas; nada personal.": "Se a tua combinação ainda não tem exame provável, podes gerá-lo com a tua chave de OpenAI, Gemini ou Claude. Sai a comunidade, a disciplina e a lista de temas; nada pessoal.",
+    "Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI o de Claude. Sale la comunidad, la materia y la lista de temas; nada personal.": "Se a tua combinação ainda não tem exame provável, podes gerá-lo com a tua chave da OpenAI ou do Claude. Sai a comunidade, a disciplina e a lista de temas; nada pessoal.",
     "Privacidad": "Privacidade",
     "No hay registro. Tu comunidad, materia y notas se guardan solo en este navegador. La tarjeta para compartir se dibuja en tu dispositivo.": "Não há registo. A tua comunidade, disciplina e notas ficam só neste navegador. O cartão para partilhar é desenhado no teu dispositivo.",
     "ordinaria": "ordinária",
@@ -1948,9 +1948,13 @@ const GLOS = [
   ['¿Acierta?', 'Cada predicción se pone a prueba ocultando el último examen y prediciéndolo con los anteriores. Ves cuántos temas habría acertado y cuántos acertaría el azar. Si la confianza es baja, se dice.'],
   ['¿Las soluciones están bien?', 'Cada pregunta la resuelven dos IA por separado. Solo se publica si coinciden; en cálculo, además, un programa comprueba el resultado. Es mucho más fiable que una sola IA, pero no es infalible: si ves un error, avísanos en GitHub.'],
   ['¿Es oficial?', 'No. PAUsible no tiene relación con las universidades ni con las comisiones de la PAU. Los exámenes reales enlazados son los oficiales; los exámenes probables son originales y no anticipan el examen real.'],
-  ['Generar con tu clave', 'Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI, Gemini o Claude. Sale la comunidad, la materia y la lista de temas; nada personal.'],
+  ['Generar con tu clave', 'Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI o de Claude. Sale la comunidad, la materia y la lista de temas; nada personal.'],
   ['Privacidad', 'No hay registro. Tu comunidad, materia y notas se guardan solo en este navegador. La tarjeta para compartir se dibuja en tu dispositivo.']
 ];
+/* Gemini fuera: sus condiciones de uso prohíben la API en apps a las que probablemente accedan menores de 18 años.
+   Si alguien lo tenía elegido, vuelve a OpenAI y se borra su clave de Gemini de este navegador. */
+delete PROV.gemini;
+try { if (localStorage.getItem(APP + '_prov') === 'gemini') localStorage.removeItem(APP + '_prov'); localStorage.removeItem(APP + '_key_gemini'); } catch {}
 let S = {c: '', m: '', auto: {}, ejemplo: false, crono: null, propios: {}, retos: {}, fuente: {}};
 const MEM = {examenes: {}, version: {}};
 const MAX_PROPIOS = 5;   // exámenes generados con tu clave que se guardan por comunidad y materia
@@ -2203,20 +2207,20 @@ $('selMatRank').onchange = pintaRanking;
 /* ── 6 · cómo conseguir la clave (adaptado de ProfesorIA para estudiantes) ── */
 const lista = (tit, items, tag = 'ul') => `<h3>${esc(t(tit))}</h3><${tag}>${items.map(x => `<li>${esc(t(x))}</li>`).join('')}</${tag}>`;
 function pintaClave() {
-  $('claveEdad').innerHTML = `<h3>${esc(t('Antes de nada: la edad'))}</h3><p>${esc(t('OpenAI permite usar su API desde los 13 años, pero si eres menor de 18 necesitas el permiso de tu madre, padre o tutor. Google Gemini y Anthropic Claude exigen tener 18 años. Si eres menor, pide a un adulto que cree la clave, fije el límite de gasto y te la deje usar en este navegador.'))}</p>`;
+  $('claveEdad').innerHTML = `<h3>${esc(t('Antes de nada: la edad'))}</h3><p>${esc(t('OpenAI permite usar su API desde los 13 años, pero si eres menor de 18 necesitas el permiso de tu madre, padre o tutor. Anthropic Claude exige tener 18 años. Si eres menor, pide a un adulto que cree la clave, fije el límite de gasto y te la deje usar en este navegador.'))}</p>`;
   $('clavePasos').innerHTML = lista('Crear la clave con límite de gasto (OpenAI)', [
     'Entra en platform.openai.com y crea una cuenta. Es distinta de la de ChatGPT, aunque puedes usar el mismo correo.',
     'En Billing, añade un método de pago y compra un crédito pequeño (por ejemplo, 5 €). Fija un límite de gasto mensual bajo antes de crear la clave.',
     'En API keys, pulsa Create new secret key. Cópiala y guárdala en un lugar seguro: no se vuelve a mostrar.',
     'En PAUsible, pulsa IA arriba a la derecha, elige OpenAI, pega la clave, pulsa «Ver los modelos de mi clave» y elige uno económico.',
     'No la compartas ni la pegues en chats o redes. Si se expone, revócala en la plataforma y crea otra.'], 'ol')
-    + `<div class="actions"><a class="btn btn-ghost btn-sm" href="https://platform.openai.com/api-keys" target="_blank" rel="noopener">OpenAI</a><a class="btn btn-ghost btn-sm" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google Gemini (+18)</a><a class="btn btn-ghost btn-sm" href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">Anthropic Claude (+18)</a></div>`;
+    + `<div class="actions"><a class="btn btn-ghost btn-sm" href="https://platform.openai.com/api-keys" target="_blank" rel="noopener">OpenAI</a><a class="btn btn-ghost btn-sm" href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">Anthropic Claude (+18)</a></div>`;
   $('claveCoste').innerHTML = lista('¿Cuánto cuesta?', [
     'Se paga por uso, por tokens (trozos de texto). Con un modelo económico, un examen probable completo cuesta unos céntimos.',
     'Cada examen hace varias llamadas: un ponente lo redacta y dos resolutores lo resuelven por separado; si no coinciden, un tercero desempata.',
     'Con el límite de gasto que fijas, nunca pagarás más de lo que hayas decidido.',
     'La clave se guarda solo en este navegador y solo se envía a tu proveedor. PAUsible no la ve ni la guarda en ningún servidor.']);
-  $('claveChat').innerHTML = lista('Suscripción mensual al chatbot (ChatGPT, Gemini, Claude)', [
+  $('claveChat').innerHTML = lista('Suscripción mensual al chatbot (ChatGPT, Claude…)', [
     'Cuota fija cada mes, la uses mucho o poco.',
     'Conversación libre: el resultado depende de cómo preguntes y cambia de una vez a otra.',
     'Las soluciones que te da las tienes que comprobar tú.',

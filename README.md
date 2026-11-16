@@ -46,7 +46,7 @@ Para activar la generación: **Settings → Secrets and variables → Actions �
 
 ## Cómo se usa la IA en la app
 
-Sin clave, la app funciona entera con los datos ya generados. Con la propia clave de OpenAI, Google Gemini o Anthropic Claude, el estudiante puede generar un examen probable para una combinación que aún no lo tenga; el navegador aplica el mismo esquema ponente + dos resolutores + desempate/tribunal (sin ejecutar código). La clave se guarda solo en el navegador.
+Sin clave, la app funciona entera con los datos ya generados. Con la propia clave de OpenAI o Anthropic Claude (Google Gemini no está disponible: sus condiciones prohíben usar su API en aplicaciones a las que probablemente accedan menores de 18 años), el estudiante puede generar un examen probable para una combinación que aún no lo tenga; el navegador aplica el mismo esquema ponente + dos resolutores + desempate/tribunal (sin ejecutar código). La clave se guarda solo en el navegador.
 
 ## Fórmulas
 

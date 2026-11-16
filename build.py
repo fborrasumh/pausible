@@ -30,7 +30,7 @@ body = (R/'src'/'body.html').read_text(encoding='utf-8')
 # CSP: solo los orígenes que la app usa de verdad
 usa = lambda s: any(m.startswith(s) for m in mods)
 connect = []
-if usa('20-'): connect += ['https://api.openai.com','https://generativelanguage.googleapis.com','https://api.anthropic.com']
+if usa('20-'): connect += ['https://api.openai.com','https://api.anthropic.com']   # sin Gemini: sus condiciones no permiten apps a las que accedan menores
 connect += cfg.get('connect_extra', [])
 # librerías externas solo para LEER ficheros (40-extract) o si la app llama a cargaLib por su cuenta; Word/ZIP (70-report) no necesitan red
 app_src = ''.join((R/'src'/x).read_text(encoding='utf-8') for x in app_js if (R/'src'/x).exists())
