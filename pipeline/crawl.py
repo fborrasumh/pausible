@@ -296,6 +296,31 @@ def desde_zip(d, rel, contenido, anios, log):
     return out
 
 
+def ingesta_manual(cid, docs, anios, log):
+    """PDF o ZIP que alguien ha descargado a mano y subido a manual/<ccaa>/ (para webs que bloquean la descarga
+    automática). La materia, el año y la convocatoria salen del nombre del fichero, de su carpeta o de su texto."""
+    base = R / 'manual' / cid
+    if not base.exists(): return
+    n = 0
+    for f in sorted(base.rglob('*')):
+        if f.suffix.lower() not in ('.pdf', '.zip') or not f.is_file(): continue
+        url = 'manual:' + f.relative_to(R).as_posix()
+        if url in docs or any(k.startswith(url + '#') for k in docs): continue
+        ruta = f.relative_to(base).as_posix()
+        h = hashlib.sha1(url.encode()).hexdigest()[:8]
+        d = {'id': h, 'ccaa': cid, 'materia': materia_de(f.name, ruta) or materia_abrev(f.name), 'anio': anio_de(f.name, ruta, anios=anios),
+             'conv': conv_de(f.name, ruta), 'tipo': tipo_de(f.name), 'url': url, 'pagina': 'manual', 'enlace': f.name[:160], 'contexto': ruta[:240]}
+        if f.suffix.lower() == '.zip':
+            if not d['anio']: log(f'  manual sin año reconocible: {ruta}'); continue
+            for dz in desde_zip(d, f'{cid}/{d["materia"] or "sin_materia"}/{d["anio"]}_{d["conv"]}_{d["tipo"]}_{h}', f.read_bytes(), anios, log): docs[dz['url']] = dz; n += 1
+            continue
+        txt = R / 'corpus' / cid / 'manual' / f'{h}.txt'; txt.parent.mkdir(parents=True, exist_ok=True)
+        t = texto_pdf(f, txt); d['chars'] = len(t.strip()); completa_con_texto(d, t, anios)
+        if not d['anio'] or d['anio'] not in anios or NO_PAU.search(norm(t[:800])): txt.unlink(missing_ok=True); log(f'  manual descartado (año o tipo): {ruta}'); continue
+        d['txt'] = txt.relative_to(R).as_posix(); docs[url] = d; n += 1
+    log(f'  {n} documentos nuevos subidos a mano (manual/{cid}/)')
+
+
 def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
     t0 = time.time(); fin = t0 + tiempo
     man_p = R / 'data' / 'corpus' / f'{cid}.json'
@@ -359,6 +384,8 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
         if NO_PAU.search(norm(t[:800] if d['chars'] else '')): txt.unlink(missing_ok=True); continue
         d['bytes'] = len(r.content); docs[d['url']] = d
         if hechos % 10 == 0: guarda_manifiesto(cid, docs, logl)
+    try: ingesta_manual(cid, docs, anios, log)
+    except Exception as e: log(f'  error en manual/{cid}: {type(e).__name__}: {e}')
     guarda_manifiesto(cid, docs, logl)
     log(f'✓ {cc["nombre"]}: {len(docs)} documentos en {round((time.time() - t0) / 60)} min')
 
