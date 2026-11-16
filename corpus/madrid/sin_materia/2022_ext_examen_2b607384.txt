@@ -1,0 +1,379 @@
+                      UNIVERSIDADES PÚBLICAS DE LA COMUNIDAD DE MADRID
+                         EVALUACIÓN PARA EL ACCESO A LAS ENSEÑANZAS
+                              UNIVERSITARIAS OFICIALES DE GRADO
+                                               Curso 2021-2022
+                  MATERIA: MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+                               INSTRUCCIONES GENERALES Y CALIFICACIÓN
+Después de leer atentamente todas las preguntas, el alumno deberá responder razonadamente a cinco preguntas
+cualesquiera a elegir entre las diez que se proponen.
+Cada ejercicio se valorará sobre 2 puntos, y si consta de dos apartados, cada apartado se valorará sobre 1 punto.
+DURACIÓN: 90 minutos.
+
+A.1. (2 puntos) Sea a ∈ R. Considere las matrices
+                                                                                  
+                          −a  1 −2                         1  2 1                    1
+                     A =  0 −1  1                  B =  0 −1 0              Y = 0 
+                           a  a −1                         1  1 2                    2
+
+      a) Determine los valores de a para que A tenga inversa.
+      b) Calcule los valores de a para que la solución del sistema (A − B)X = Y sea
+                                                        
+                                                      0
+                                               X =  −1  .
+                                                      0
+
+A.2. (2 puntos) La plataforma digital Plusfix va a lanzar un nuevo canal de cine y deporte y tiene que elaborar
+     una propuesta piloto de contenidos, teniendo en cuenta que el tiempo dedicado al cine no puede ser
+     mayor que el tiempo dedicado al deporte. La propuesta piloto debe tener una duración entre 600 y 900
+     minutos, debe tener al menos 200 minutos de cine y como mucho 500 minutos de deporte. Además, con
+     la emisión de la propuesta la plataforma obtiene 15e de beneficio por cada minuto de emisión de cine y
+     10e de beneficio por cada minuto de emisión de deporte. Determine cuántos minutos de cine y cuántos
+     de deporte debe tener la propuesta para obtener el máximo beneficio y obtenga el beneficio que obtiene
+     la plataforma con dicha propuesta.
+
+A.3. (2 puntos)
+      a) Halle                                 Z 1
+                                                          x
+                                                                  dx.
+                                                0       2x2 + 5
+      b) Considere
+                                                    x
+                                     f (x) =                  y g(x) = ln(x).
+                                               2x2 + 5
+         Halle la derivada de la función compuesta f ◦ g(x).
+
+A.4. (2 puntos) Sean A y B dos sucesos asociados a un mismo experimento aleatorio. Suponga que
+     P (A) = 0,7, P (B c ) = 0,7 y P (A ∩ B) = 0,2.
+      a) ¿Son A y B independientes? Justifique su respuesta.
+      b) Calcule P (Ac ∩ B c ).
+     Nota: Ac y B c son, respectivamente, los sucesos complementarios de A y B .
+
+A.5. (2 puntos) El peso en gramos de ciertas bolsas de palomitas se puede aproximar por una variable
+     aleatoria con distribución normal de media µ y desviación típica igual a 10.
+      a) Se toma una muestra aleatoria de tamaño 20 y se obtiene que su media muestral es de 200.
+         Determine un intervalo de confianza del 95 % para el peso medio de dichas bolsas de palomitas.
+      b) Determine el tamaño mínimo de la muestra para que el error máximo cometido en la estimación de
+         la media sea menor que 0,5 gramos, con un nivel de confianza del 90 %.
+B.1. (2 puntos) Considere el sistema de ecuaciones lineales dependiente del parámetro a ∈ R:
+                                                            
+                                             x + 2y + z = 2 
+                                                 ax − z = 0
+                                                 ay + z = a
+                                                            
+
+     a) Determine a para que el sistema NO sea compatible determinado.
+     b) Resuelva el sistema para a = 2.
+                                                 (
+                                                   ax2 − 1, si x ≤ 1
+B.2. (2 puntos) Se considera la función f (x) =
+                                                   (x − a)2 , si x > 1
+      a) Determine los valores de a ∈ R que hacen que f sea una función continua en su dominio.
+      b) Para a = 1/2, determine, si existen, los puntos de corte de la gráfica de f con el eje de las x.
+
+B.3. (2 puntos) Un ensayo clínico indica que la cantidad de glucosa en sangre en ratones tras la ingesta
+     de un determinado fármaco depende del tiempo transcurrido, t (en minutos), según la siguiente función
+     expresada en mg/dl:
+                                    f (t) = 90 + C t2 e−t/5 , 0 ≤ t ≤ 60.
+     a) Obtenga razonadamente el valor de la constante C sabiendo que la tasa de variación instantánea de
+        la cantidad de glucosa a los 5 minutos de la ingesta del producto es 15/e.
+     b) Para C = 3, indique a partir de qué momento disminuye la cantidad de glucosa en sangre. Señale
+         también la cantidad máxima de glucosa en sangre alcanzada tras la ingesta del fármaco.
+         Nota: Expresa los resultados con 2 cifras decimales.
+
+B.4. (2 puntos) Un virus muy peligroso está presente en el 5 % de la población nacional. Se tiene un test para
+     detectar la presencia del virus que es correcto en el 85 % de los casos. Es decir, entre los portadores del
+     virus, el test ha dado positivo el 85 % de las veces y entre los no portadores ha dado negativo el 85 % de
+     las veces.
+      a) Si se practica el test a un individuo de la población escogido al azar, ¿cuál es la probabilidad de que
+         dé positivo?
+      b) Si da positivo, ¿cuál es la probabilidad de que el individuo escogido realmente sea un portador del
+         virus?
+
+B.5. (2 puntos) El 64 % de los individuos de una población tienen una misma característica. Se escoge una
+     muestra al azar de 120 individuos.
+      a) ¿Cuál es la distribución aproximada que sigue la proporción de individuos con esa característica de
+         la muestra?
+      b) Halle la probabilidad de que más del 70 % de los individuos de la muestra posean dicha característica.
+                         Matemáticas Aplicadas a las Ciencias Sociales
+
+
+
+
+            ÁREAS BAJO LA DISTRIBUCIÓN DE PROBABILIDAD NORMAL ESTÁNDAR
+
+Los valores en la tabla representan el área
+bajo la curva normal hasta un valor positivo
+de z.
+
+
+                                                                                z
+
+
+
+
+z     ,00       ,01       ,02      ,03      ,04      ,05      ,06      ,07          ,08      ,09
+
+0,0   0,5000    0,5040    0,5080   0,5120   0,5160   0,5199   0,5239   0,5279       0,5319   0,5359
+0,1   0,5398    0,5438    0,5478   0,5517   0,5557   0,5596   0,5636   0,5675       0,5714   0,5753
+0,2   0,5793    0,5832    0,5871   0,5910   0,5948   0,5987   0,6026   0,6064       0,6103   0,6141
+0,3   0,6179    0,6217    0,6255   0,6293   0,6331   0,6368   0,6406   0,6443       0,6480   0,6517
+0,4   0,6554    0,6591    0,6628   0,6664   0,6700   0,6736   0,6772   0,6808       0,6844   0,6879
+
+0,5   0,6915    0,6950    0,6985   0,7019   0,7054   0,7088   0,7123   0,7157       0,7190   0,7224
+0,6   0,7257    0,7291    0,7324   0,7357   0,7389   0,7422   0,7454   0,7486       0,7517   0,7549
+0,7   0,7580    0,7611    0,7642   0,7673   0,7703   0,7734   0,7764   0,7794       0,7823   0,7852
+0,8   0,7881    0,7910    0,7939   0,7967   0,7995   0,8023   0,8051   0,8078       0,8106   0,8133
+0,9   0,8159    0,8186    0,8212   0,8238   0,8264   0,8289   0,8315   0,8340       0,8365   0,8389
+
+1,0   0,8413    0,8438    0,8461   0,8485   0,8508   0,8531   0,8554   0,8577       0,8599   0,8621
+1,1   0,8643    0,8665    0,8686   0,8708   0,8729   0,8749   0,8770   0,8790       0,8810   0,8830
+1,2   0,8849    0,8869    0,8888   0,8907   0,8925   0,8944   0,8962   0,8980       0,8997   0,9015
+1,3   0,9032    0,9049    0,9066   0,9082   0,9099   0,9115   0,9131   0,9147       0,9162   0,9177
+1,4   0,9192    0,9207    0,9222   0,9236   0,9251   0,9265   0,9279   0,9292       0,9306   0,9319
+
+1,5   0,9332    0,9345    0,9357   0,9370   0,9382   0,9394   0,9406   0,9418       0,9429   0,9441
+1,6   0,9452    0,9463    0,9474   0,9484   0,9495   0,9505   0,9515   0,9525       0,9535   0,9545
+1,7   0,9554    0,9564    0,9573   0,9582   0,9591   0,9599   0,9608   0,9616       0,9625   0,9633
+1,8   0,9641    0,9649    0,9656   0,9664   0,9671   0,9678   0,9686   0,9693       0,9699   0,9706
+1,9   0,9713    0,9719    0,9726   0,9732   0,9738   0,9744   0,9750   0,9756       0,9761   0,9767
+
+2,0   0,9772    0,9778    0,9783   0,9788   0,9793   0,9798   0,9803   0,9808       0,9812   0,9817
+2,1   0,9821    0,9826    0,9830   0,9834   0,9838   0,9842   0,9846   0,9850       0,9854   0,9857
+2,2   0,9861    0,9864    0,9868   0,9871   0,9875   0,9878   0,9881   0,9884       0,9887   0,9890
+2,3   0,9893    0,9896    0,9898   0,9901   0,9904   0,9906   0,9909   0,9911       0,9913   0,9916
+2,4   0,9918    0,9920    0,9922   0,9925   0,9927   0,9929   0,9931   0,9932       0,9934   0,9936
+
+2,5   0,9938    0,9940    0,9941   0,9943   0,9945   0,9946   0,9948   0,9949       0,9951   0,9952
+2,6   0,9953    0,9954    0,9956   0,9957   0,9959   0,9960   0,9961   0,9962       0,9963   0,9964
+2,7   0,9965    0,9966    0,9967   0,9968   0,9969   0,9970   0,9971   0,9972       0,9973   0,9974
+2,8   0,9974    0,9975    0,9976   0,9977   0,9977   0,9978   0,9979   0,9979       0,9980   0,9981
+2,9   0,9981    0,9982    0,9982   0,9983   0,9984   0,9984   0,9985   0,9985       0,9986   0,9986
+
+3,0   0,9987    0,9987    0,9987   0,9988   0,9988   0,9989   0,9989   0,9989       0,9990   0,9990
+                         MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+          CRITERIOS ESPECÍFICOS DE CORRECCIÓN Y CALIFICACIÓN
+                       ATENCIÓN: La calificación debe hacerse en múltiplos de 0,25 puntos
+
+Ejercicio A.1. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Planteamiento correcto de la condición de inversa................................. 0,25 puntos.
+       Obtención de la ecuación ........................................................................ 0,25 puntos.
+       Obtención correcta de los parámetros..................................................... 0,50 puntos.
+Apartado (b): 1 punto.
+       Planteamiento correcto del sistema......................................................... 0,50 puntos.
+       Cálculo correcto del sistema ................................................................... 0,50 puntos.
+Estándares de aprendizaje evaluables: Realiza operaciones con matrices y aplica las propiedades de estas operaciones
+adecuadamente de forma manual. Analiza y comprende el enunciado a resolver (datos, relaciones entre los datos,
+condiciones, conocimientos matemáticos necesarios, etc.).
+
+
+Ejercicio A.2. (Puntuación máxima: 2 puntos)
+       Expresión correcta de la función objetivo………………………………0,50 puntos.
+       Establecer correctamente las restricciones ............................................ 0,50 puntos.
+       Determinación de la región factible ....................................................... 0,50 puntos.
+         Cálculo correcto del valor máximo de la función ................................... 0,25 puntos.
+         Cálculo correcto del punto óptimo.......................................................... 0,25 puntos.
+Estándares de aprendizaje evaluables: Aplica las técnicas gráficas de programación lineal bidimensional para resolver
+problemas de optimización de funciones lineales que están sujetas a restricciones e interpreta los resultados obtenidos
+en el contexto del problema.
+
+
+Ejercicio A.3. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Cálculo correcto de la primitiva ............................................................. 0,50 puntos.
+       Cálculo correcto de la integral ................................................................ ..0,50 puntos.
+Apartado (b): 1 punto
+       Cálculo correcto de las derivadas de f y g……………...……..…………0,50 puntos.
+       Cálculo correcto de la derivada …………………………………………0,50 puntos.
+Estándares de aprendizaje evaluables: Extrae conclusiones a partir de datos relativos a propiedades locales o globales.
+Aplica los conceptos de límite y derivadas. Usa el lenguaje, la notación y los símbolos matemáticos adecuados al
+contexto y a la situación. Aplica la regla de Barrow al cálculo de integrales definidas de funciones elementales
+inmediatas.
+
+
+Ejercicio A.4. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Planteamiento correcto de la independencia........................................... 0,50 puntos.
+       Cálculo correcto de las probabilidades ................................................... 0,50 puntos.
+Apartado (b): 1 punto.
+       Planteamiento correcto de la probabilidad.............................................. 0,50 puntos.
+       Cálculo correcto de la probabilidad ........................................................ 0,50 puntos.
+Estándares de aprendizaje evaluables: Calcula la probabilidad de sucesos en experimentos simples y compuestos mediante
+la regla de Laplace, las fórmulas derivadas de la axiomática de Kolmogorov y diferentes técnicas de recuento. Calcula la
+probabilidad final de un suceso aplicando la fórmula de Bayes.
+Ejercicio A.5. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+         Cálculo correcto de za / 2 ......................................................................... 0,25 puntos.
+      Expresión correcta de la fórmula del intervalo de confianza.................. 0,25 puntos.
+      Determinación correcta del intervalo...................................................... 0,50 puntos.
+Apartado (b): 1 punto.
+         Cálculo correcto de za / 2 ......................................................................... 0,25 puntos.
+         Formula tamaño mínimo......................................................................... 0,25 puntos.
+         Obtención correcta de n .......................................................................... 0,50 puntos.
+Estándares de aprendizaje evaluables: Calcula probabilidades asociadas a la distribución de la media y proporción muestral,
+aproximándolas por la distribución normal de parámetros adecuados a cada situación, y lo aplica a problemas de
+situaciones reales. Construye, en contextos reales, un intervalo de confianza para la media poblacional de una
+distribución normal con desviación típica conocida.
+
+
+Ejercicio B.1. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Cálculo del determinante……………………………….………………. 0,50 puntos.
+       Obtención correcta del parámetro ........................................................... ..0,50 puntos.
+Apartado (b): 1 punto.
+       Solución correcta del sistema ................................................................. 0,50 puntos.
+       Planteamiento del problema.................................................................... 0,50 puntos.
+Estándares de aprendizaje evaluables: Manipula el sistema de ecuaciones lineales de tres ecuaciones y tres incógnitas y
+lo resuelve en los casos en que sea posible. Usa el lenguaje, la notación y los símbolos matemáticos adecuados al
+contexto y a la situación. El sistema de ecuaciones lineales planteado (como máximo de tres ecuaciones y tres
+incógnitas), lo resuelve en los casos que sea posible, y lo aplica para resolver problemas en contextos reales.
+
+
+Ejercicio B.2. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Planteamiento de la condición de continuidad en un punto.................... 0,25 puntos.
+       Estudio de la continuidad en x =1 ........................................................... 0,75 puntos.
+Apartado (b): 1 punto
+       Planteamiento del problema.................................................................... 0, 50 puntos.
+       Determinación del punto………………………………………………..0,50 puntos.
+Estándares de aprendizaje evaluables: Aplica los conceptos de límite y derivadas. Usa el lenguaje, la notación y los
+símbolos matemáticos adecuados al contexto y a la situación. Obtiene la expresión algebraica a partir de datos
+relativos a sus propiedades locales o globales. Estudia la continuidad en un punto de una función definida a trozos
+utilizando el concepto de límite.
+
+
+Ejercicio B.3. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Determinación correcta de las derivadas ............................................... 0,50 puntos.
+       Determinación correcta de la ecuación ................................................. 0,25 puntos.
+       Obtención correcta del parámetro ........................................................... 0,25 puntos.
+Apartado (b): 1 punto.
+       Planteamiento correcto ........................................................................... 0,50 puntos.
+       Cálculo correcto del máximo ................................................................. 0,50 puntos.
+Estándares de aprendizaje evaluables: Extrae conclusiones a partir de datos relativos a propiedades locales o globales.
+Aplica los conceptos de límite y derivadas. Usa el lenguaje, la notación y los símbolos matemáticos adecuados al
+contexto y a la situación. Obtiene la expresión algebraica a partir de datos relativos a sus propiedades locales o
+globales. Aplica la regla de Barrow al cálculo de integrales definidas de funciones elementales inmediatas. Estudia la
+continuidad en un punto de una función definida a trozos utilizando el concepto de límite.
+Ejercicio B.4. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Planteamiento correcto de la probabilidad.............................................. 0,50 puntos.
+       Cálculo correcto de la probabilidad ........................................................ 0,50 puntos.
+Apartado (b): 1 punto.
+       Planteamiento correcto de la probabilidad.............................................. 0,50 puntos.
+       Cálculo correcto de la probabilidad ........................................................ 0,50 puntos.
+Estándares de aprendizaje evaluables: Calcula la probabilidad de sucesos en experimentos simples y compuestos mediante
+la regla de Laplace, las fórmulas derivadas de la axiomática de Kolmogorov y diferentes técnicas de recuento. Calcula la
+probabilidad final de un suceso aplicando la fórmula de Bayes.
+
+
+Ejercicio B.5. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Expresión de la distribución de la proporción ........................................ 0,50 puntos.
+       Expresión correcta de la desviación típica.............................................. 0,50 puntos.
+Apartado (b): 1 punto.
+       Tipificación correcta de la variable ........................................................ 0,25 puntos.
+       Obtención correcta de la probabilidad .................................................... 0,75 puntos.
+Estándares de aprendizaje evaluables: Calcula probabilidades asociadas a la distribución de la media y proporción muestral,
+aproximándolas por la distribución normal de parámetros adecuados a cada situación, y lo aplica a problemas de
+situaciones reales. Construye, en contextos reales, un intervalo de confianza para la media poblacional de una
+distribución normal con desviación típica conocida.
+
+
+
+
+NOTA: La resolución de los ejercicios por cualquier otro procedimiento correcto, diferente al
+propuesto por los coordinadores, ha de valorarse con los criterios convenientemente
+adaptados
+                   MATEMÁTICAS ACS II SOLUCIONES (Documento de trabajo orientativo)
+
+A.1. a) El determinante es |A| = a2 − 2a, que será igual a 0 si a = 0 o a = 2. Si a es distinto de estos valores
+        la matriz es invertible.
+     b)
+                                                             
+                       −(a + 1) −1 −3        0       1         1      1
+     (A − B)X = Y =⇒     0       0   1   −1  =  0  =⇒  0  =  0 
+                        a−1     a − 1 −3     0       2        1−a     2
+          =⇒ a = −1.
+A.2. Sea x la variable que representa los minutos de cine e y los minutos de deporte. La región del plano viene
+     definida por las restricciones x ≤ y; 600 ≤ x + y ≤ 900; x ≥ 200; y ≤ 500. La función objetivo es
+     f (x, y) = 15x + 10y . La región S dibujada es:
+
+
+
+
+     La misma está determinada por los vértices A(200, 400), B(200, 500); C(400, 500); D(450, 450)
+     y E(300, 300). La región es cerrada y acotada; para calcular el valor máximo de la función f (x, y) =
+     15x + 10y se evalúa en los vértices de S :
+     f (200, 400) = 15 · 200 + 10 · 400 = 7000
+     f (200, 500) = 15 · 200 + 10 · 500 = 8000
+     f (400, 500) = 15 · 400 + 10 · 500 = 11000
+     f (450, 450) = 15 · 450 + 10 · 450 = 11250
+     f (300, 300) = 15 · 300 + 10 · 300 = 7500
+     El punto de la región en el que se alcanza el máximo es D, siendo 11250 el valor máximo alcanzado.
+
+A.3. a)
+                              Z 1
+                                       x        1                 ln7/5
+                                            dx = ln(2x2 + 5)|10 =       ≈ 0,3365.
+                                0   2x2 + 5     4                   4
+                                                        5 − 2x2                        0 (x) = 5 − 2(ln(x))
+                                                                                                            2 1
+     b) (f ◦ g)0 (x) = f 0 (g(x))g 0 (x) y f 0 (x) =              , por lo que (f ◦ g)                           .
+                                                       (2x2 + 5)2                             (2(ln(x))2 + 5)2 x
+A.4. a) No. P (B) = 1 − P (B c ) = 0,3. P (A ∩ B) = 0,2 6= 0,21 = P (A)P (B).
+     b) P (Ac ∩ B c ) = P ((A ∪ B)c ) = 1 − P (A ∪ B) = 1 − P (A) − P (B) + P (A ∩ B) = 0,2.
+
+A.5. a) zα/2 = 1,96; zα/2 √σn = 1,96 · √10 = 4,383. El intervalo es (195,617; 204,383)
+                                             20
+     b) zα/2 √σn = 0, 5 =⇒ 1,645 · √
+                                   10
+                                     n
+                                       = 0,5 =⇒ n = 1083.
+
+B.1. a) La matriz del sistema es
+                                                                                   
+                                     1 2 1          1 2 1                           2
+                                A=  a 0 −1  yA=  a 0 −1                          0 
+                                     0 a 1          0 a 1                           a
+        Su determinante es |A| = a2 − a, que será igual a 0 si a = 0 o a = 1. Si a = 0 o a = 1 el sistema no
+        es compatible determinado.
+     b) Para a = 2
+                                                           
+                                               1  0  −1      2       0
+                      AX = b =⇒ X = A−1 b =  −1 1/2 3/2   0  =  1 
+                                               2 −1 −2       2       0
+          Por tanto, la solución es x = 0, y = 1, z = 0.
+B.2. a) La función es continua para x 6= 1. El punto donde se debe estudiar la continuidad es x = 1. El límite
+        por la izquierda en ese punto es a − 1 mientras que el límite por la derecha es (1 − a)2 . Esos dos
+        valores deben coincidir y, por tanto, a − 1 = (1 − a)2 o, equivalentemente, a − 1 = 1 + a2 − 2a. Eso
+        lleva a la ecuación a2 − 3a + 2 = 0 cuyas soluciones son a = 1 y a = 2.
+     b) Cuando a = 1/2 no puede haber cortes con el eje de las x para valores x > 1 puesto que (x− 21 )2 > 0.
+        Para ver qué ocurre en el otro tramo, planteamos 12 x2 −1 = 0, lo que nos lleva a x2 = 2. Esta ecuación
+                              √                                             √
+        tiene dos soluciones: 2, que no nos vale por ser mayor que 1, y − 2, que es la única solución válida.
+
+B.3. a) f 0 (t) = e−t/5 Ct(2 − t/5). Luego f 0 (5) = 15/e ⇐⇒ C = 3.
+     b) f 0 (t) = 0 ⇐⇒ t = 0 o t = 10. En (0, 10), f 0 (t) > 0 y f (t) es creciente. En (10, 60), f 0 (t) < 0 y
+        f (t) es decreciente. De lo anterior, en t = 10 hay un máximo y a partir de ese momento disminuye
+        la cantidad de glucosa en la sangre. La cantidad máxima de glucosa alcanzada tras la ingesta del
+        fármaco es f (10) = 130,60 mg/dl.
+
+B.4. a) Sean V y T + los eventos correspondientes a que el individuo es portador del virus y que el test haya
+        dado positivo. Entonces
+             P (T + ) = P (T + |V )P (V ) + P (T + |V c )P (V c ) = 0,85 · 0,05 + 0,15 · 0,95 = 0,185.
+     b)
+                                            P (T + |V )P (V )   0,85 · 0,05
+                            P (V |T + ) =             +
+                                                              =             ≈ 0,2297.
+                                                P (T )            0,185
+
+B.5. a) La variable proporción X sigue una distribución normal de media 0,64 y desviación típica
+                                                r
+                                                    0,64 · 0,36
+                                                                = 0,04.
+                                                       120
+                                           
+     b) P (X > 0, 7) = P Z > 0,7−0,64
+                                0,04            = 1 − P (Z ≤ 1,5) = 1 − 0,9332 = 0,0668.
+

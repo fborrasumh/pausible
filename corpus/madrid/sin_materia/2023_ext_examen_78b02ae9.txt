@@ -1,0 +1,436 @@
+                      UNIVERSIDADES PÚBLICAS DE LA COMUNIDAD DE MADRID
+                         EVALUACIÓN PARA EL ACCESO A LAS ENSEÑANZAS                              Modelo
+                              UNIVERSITARIAS OFICIALES DE GRADO
+                                                                                                Orientativo
+                                               Curso 2022-2023
+                  MATERIA: MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+                               INSTRUCCIONES GENERALES Y CALIFICACIÓN
+Después de leer atentamente todas las preguntas, el alumno deberá responder razonadamente a cinco preguntas
+cualesquiera a elegir entre las diez que se proponen.
+Cada ejercicio se valorará sobre 2 puntos, y si consta de dos apartados, cada apartado se valorará sobre 1 punto.
+DURACIÓN: 90 minutos.
+
+
+
+
+A.1. Considere la matriz                               
+                                                 1 −1 a
+                                           A =  a 1 −a 
+                                                 1 1  1
+
+      a) Determine los valores de a para los cuales la matriz A es invertible.
+      b) Calcule A−1 para a = 1.
+
+A.2. Una empresa de transportes ha comprado dos furgonetas, una grande y otra mediana. La normativa
+     vigente solo permite circular un máximo de 400000 km a la grande, 250000 km a la mediana y un total
+     de 600000 km entre ambas. Por las rutas que establece la empresa, por cada kilómetro que recorre la
+     furgoneta grande, la mediana circula como máximo 2 km; y por cada kilómetro que recorre la furgoneta
+     mediana, la grande hace un máximo de 4 km. Por cada kilómetro de circulación de la furgoneta grande
+     se obtiene un beneficio de 10 céntimos y por cada kilómetro de circulación de la mediana un beneficio de
+     5 céntimos.
+     Determine el máximo beneficio posible y el número de kilómetros que debe recorrer cada una de las
+     furgonetas para obtenerlo.
+
+A.3. a) Represente la gráfica de la función f (x) = x3 −3x+1 prestando especial atención a la determinación
+        de sus intervalos de crecimiento y decrecimiento. Determine los valores de x en los que f alcanza
+        máximos o mínimos relativos.
+     b) Represente la gráfica de g(x) = f (x − 3) + 2, donde f es la función del apartado anterior.
+
+A.4. Considere el lanzamiento de un dado equilibrado. Sea A el suceso el resultado es 1 o 2, B el suceso el
+     resultado es 2 o 3 y C el resultado es par.
+      a) Verifique que P (A|C) = P (B|C) = P (A ∩ B|C).
+      b) Calcule P (A ∪ B|C).
+
+A.5. Para una población en la que se observa una variable aleatoria X con distribución normal, de media
+     desconocida y desviación típica igual a 1,5, se tomó una muestra aleatoria simple para estimar la media
+     poblacional y se obtuvo un intervalo de confianza cuyos extremos son 11,0703 y 12,9297.
+      a) Determine el valor de la media muestral.
+     b) Si el tamaño de la muestra fue 10, ¿cuál es el nivel de confianza del intervalo obtenido?
+B.1. Se considera el sistema de ecuaciones lineales dependiente del parámetro a ∈ R:
+                                                            
+                                                 x + ay = a 
+                                            ax + y + az = 0
+                                                      z = 1
+                                                            
+
+     a) Discuta la compatibilidad del sistema para los diferentes valores de a.
+     b) Resuelva el sistema para a = 2.
+
+B.2. a) Determine el área de la región acotada del plano limitada inferiormente por el eje de las x y
+        superiormente por la parábola y = 9x − x2 .
+     b) Determine el área de la región acotada del plano limitada inferiormente por la parábola y = 9x − x2
+        y superiormente por las rectas tangentes a esa parábola en los puntos de corte con el eje de las x.
+
+B.3. Una pastelería hace diariamente una cantidad fija de dulces cuya masa requiere de un tiempo de reposo,
+     el cual tiene que ser de una a dos horas. La pastelería usa un ingrediente secreto. La cantidad necesaria
+     de ingrediente secreto, medida en gramos, varía en función del tiempo de reposo de la masa según la
+     siguiente función:
+
+                                          1
+                                    Q(t) = t4 − 3t2 + 5,       1≤t≤2
+                                          2
+     siendo t el tiempo de reposo medido en horas.
+      a) La producción diaria de dulces tiene un coste fijo de 150 euros más el coste por el uso del ingrediente
+         secreto, el cual cuesta 100 euros/gramo. Obtenga la función que representa el coste de producción
+         diaria de estos dulces y encuentre el tiempo de reposo de la masa que minimiza dicho coste. Indique
+         el valor del coste mínimo.
+      b) Obtenga el tiempo de reposo que maximiza el coste de producción e indique la cantidad de
+         ingrediente secreto que se necesitaría en este caso.
+
+B.4. a) Se tienen 7 sobres cerrados. Uno de ellos contiene un premio y el resto son sobres vacíos. Se lanza
+        un dado y luego se descartan tantos sobres vacíos como el dado indique. Posteriormente, se escoge
+        al azar uno de los sobres que restan.
+     b) ¿Cuál es la probabilidad de escoger el sobre premiado?
+     c) Si salió el premio, ¿cuál es la probabilidad de que el resultado del dado haya sido el 1?
+
+B.5. Para estimar la proporción de estudiantes de una determinada facultad que utilizan la cafetería se toma
+     una muestra de estudiantes al azar.
+      a) Sabiendo que la proporción poblacional es P = 0,55, determine el tamaño mínimo necesario de la
+         muestra de estudiantes para garantizar que, con una confianza del 98,02 %, el margen de error en la
+         estimación no supera el 10 %.
+     b) Si la muestra aleatoria fue de 100 estudiantes, de los cuales 70 utilizaban la cafetería, determine un
+         intervalo de confianza al 95 % para la proporción de estudiantes que utilizan la cafetería.
+                         Matemáticas Aplicadas a las Ciencias Sociales
+
+
+
+
+            ÁREAS BAJO LA DISTRIBUCIÓN DE PROBABILIDAD NORMAL ESTÁNDAR
+
+Los valores en la tabla representan el área
+bajo la curva normal hasta un valor positivo
+de z.
+
+
+                                                                                z
+
+
+
+
+z     ,00       ,01       ,02      ,03      ,04      ,05      ,06      ,07          ,08      ,09
+
+0,0   0,5000    0,5040    0,5080   0,5120   0,5160   0,5199   0,5239   0,5279       0,5319   0,5359
+0,1   0,5398    0,5438    0,5478   0,5517   0,5557   0,5596   0,5636   0,5675       0,5714   0,5753
+0,2   0,5793    0,5832    0,5871   0,5910   0,5948   0,5987   0,6026   0,6064       0,6103   0,6141
+0,3   0,6179    0,6217    0,6255   0,6293   0,6331   0,6368   0,6406   0,6443       0,6480   0,6517
+0,4   0,6554    0,6591    0,6628   0,6664   0,6700   0,6736   0,6772   0,6808       0,6844   0,6879
+
+0,5   0,6915    0,6950    0,6985   0,7019   0,7054   0,7088   0,7123   0,7157       0,7190   0,7224
+0,6   0,7257    0,7291    0,7324   0,7357   0,7389   0,7422   0,7454   0,7486       0,7517   0,7549
+0,7   0,7580    0,7611    0,7642   0,7673   0,7703   0,7734   0,7764   0,7794       0,7823   0,7852
+0,8   0,7881    0,7910    0,7939   0,7967   0,7995   0,8023   0,8051   0,8078       0,8106   0,8133
+0,9   0,8159    0,8186    0,8212   0,8238   0,8264   0,8289   0,8315   0,8340       0,8365   0,8389
+
+1,0   0,8413    0,8438    0,8461   0,8485   0,8508   0,8531   0,8554   0,8577       0,8599   0,8621
+1,1   0,8643    0,8665    0,8686   0,8708   0,8729   0,8749   0,8770   0,8790       0,8810   0,8830
+1,2   0,8849    0,8869    0,8888   0,8907   0,8925   0,8944   0,8962   0,8980       0,8997   0,9015
+1,3   0,9032    0,9049    0,9066   0,9082   0,9099   0,9115   0,9131   0,9147       0,9162   0,9177
+1,4   0,9192    0,9207    0,9222   0,9236   0,9251   0,9265   0,9279   0,9292       0,9306   0,9319
+
+1,5   0,9332    0,9345    0,9357   0,9370   0,9382   0,9394   0,9406   0,9418       0,9429   0,9441
+1,6   0,9452    0,9463    0,9474   0,9484   0,9495   0,9505   0,9515   0,9525       0,9535   0,9545
+1,7   0,9554    0,9564    0,9573   0,9582   0,9591   0,9599   0,9608   0,9616       0,9625   0,9633
+1,8   0,9641    0,9649    0,9656   0,9664   0,9671   0,9678   0,9686   0,9693       0,9699   0,9706
+1,9   0,9713    0,9719    0,9726   0,9732   0,9738   0,9744   0,9750   0,9756       0,9761   0,9767
+
+2,0   0,9772    0,9778    0,9783   0,9788   0,9793   0,9798   0,9803   0,9808       0,9812   0,9817
+2,1   0,9821    0,9826    0,9830   0,9834   0,9838   0,9842   0,9846   0,9850       0,9854   0,9857
+2,2   0,9861    0,9864    0,9868   0,9871   0,9875   0,9878   0,9881   0,9884       0,9887   0,9890
+2,3   0,9893    0,9896    0,9898   0,9901   0,9904   0,9906   0,9909   0,9911       0,9913   0,9916
+2,4   0,9918    0,9920    0,9922   0,9925   0,9927   0,9929   0,9931   0,9932       0,9934   0,9936
+
+2,5   0,9938    0,9940    0,9941   0,9943   0,9945   0,9946   0,9948   0,9949       0,9951   0,9952
+2,6   0,9953    0,9954    0,9956   0,9957   0,9959   0,9960   0,9961   0,9962       0,9963   0,9964
+2,7   0,9965    0,9966    0,9967   0,9968   0,9969   0,9970   0,9971   0,9972       0,9973   0,9974
+2,8   0,9974    0,9975    0,9976   0,9977   0,9977   0,9978   0,9979   0,9979       0,9980   0,9981
+2,9   0,9981    0,9982    0,9982   0,9983   0,9984   0,9984   0,9985   0,9985       0,9986   0,9986
+
+3,0   0,9987    0,9987    0,9987   0,9988   0,9988   0,9989   0,9989   0,9989       0,9990   0,9990
+                        MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+          CRITERIOS ESPECÍFICOS DE CORRECCIÓN Y CALIFICACIÓN
+ATENCIÓN: La calificación debe hacerse en múltiplos de 0,25 puntos. En todos los casos, se valorará el
+                                     razonamiento correcto.
+
+
+Ejercicio A.1. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Planteamiento correcto de la condición de existencia de inversa ........... 0,25 puntos.
+       Obtención de la ecuación ....................................................................... 0,25 puntos.
+       Determinación correcta de los valores pedidos………………………...0,50 puntos.
+Apartado (b): 1 punto.
+       Planteamiento correcto de A-1................................................................. 0,50 puntos.
+       Cálculo y operaciones correctas. Solución correcta……………………..0,50 puntos.
+Estándares de aprendizaje evaluables: Realiza operaciones con matrices y aplica las propiedades de estas operaciones
+adecuadamente de forma manual. Analiza y comprende el enunciado a resolver (datos, relaciones entre los datos,
+condiciones, conocimientos matemáticos necesarios, etc.).
+
+
+Ejercicio A.2. (Puntuación máxima: 2 puntos)
+       Establecer correctamente las restricciones ............................................. 0,50 puntos.
+       Expresión correcta de la función objetivo .............................................. 0,50 puntos.
+       Representación correcta de la región factible y obtención de vértices ... 0,50 puntos.
+       Encontrar el punto de valor máximo (abscisa y ordenada)..................... 0,25 puntos.
+       Determinar máximo de la función .......................................................... 0,25 puntos.
+Estándares de aprendizaje evaluables: Aplica las técnicas gráficas de programación lineal bidimensional para resolver
+problemas de optimización de funciones lineales que están sujetas a restricciones e interpreta los resultados obtenidos
+en el contexto del problema.
+
+
+Ejercicio A.3. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Razonamiento sobre el crecimiento de la función .................................. 0,25 puntos.
+       Determinación correcta de los intervalos pedidos .................................. 0,75 puntos.
+Apartado (b): 1 punto
+       Representación correcta de la función…………………… ….. ………0,50 puntos.
+
+Estándares de aprendizaje evaluables: Extrae conclusiones a partir de datos relativos a propiedades locales o globales.
+Aplica los conceptos de límite y derivadas. Usa el lenguaje, la notación y los símbolos matemáticos adecuados al
+contexto y a la situación. Aplica la regla de Barrow al cálculo de integrales definidas de funciones elementales
+inmediatas.
+
+
+Ejercicio A.4. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Planteamiento correcto de la probabilidad ............................................. 0,50 puntos.
+       Cálculo correcto de la probabilidad........................................................ 0,50 puntos.
+Apartado (b): 1 punto.
+       Planteamiento correcto de la probabilidad ............................................. 0,50 puntos.
+       Cálculo correcto de la probabilidad........................................................ 0,50 puntos.
+Estándares de aprendizaje evaluables: Calcula la probabilidad de sucesos en experimentos simples y compuestos mediante
+la regla de Laplace, las fórmulas derivadas de la axiomática de Kolmogorov y diferentes técnicas de recuento. Calcula la
+probabilidad final de un suceso aplicando la fórmula de Bayes.
+
+
+Ejercicio A.5. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+      Expresión correcta de la distribución de la media .................................. 0,25 puntos.
+      Tipificación correcta de la variable ........................................................ 0,25 puntos.
+      Obtención correcta de la probabilidad .................................................... 0,50 puntos.
+Apartado (b): 1 punto.
+         Cálculo correcto de z / 2 ........................................................................ 0,25 puntos.
+         Planteamiento correcto ........................................................................... 0,25 puntos.
+         Obtención correcta del intervalo ............................................................ 0,50 puntos.
+Estándares de aprendizaje evaluables: Calcula probabilidades asociadas a la distribución de la media muestral y de
+la proporción, aproximándolas por la distribución normal de parámetros adecuados a cada situación, y lo aplica a
+problemas de situaciones reales. Construye, en contextos reales, un intervalo de confianza para la media poblacional de
+una distribución normal con desviación típica conocida.
+
+
+Ejercicio B.1. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Obtención correcta del determinante de la matriz de coeficientes ......... 0.25 puntos.
+       Cálculo correcto de los valores críticos .................................................. 0,25 puntos.
+       Discusión correcta .................................................................................. 0,50 puntos.
+Apartado (b): 1 punto
+       Solución correcta del sistema ................................................................. 0,50 puntos.
+       Planteamiento del problema ................................................................... 0,50 puntos.
+Estándares de aprendizaje evaluables: Manipula el sistema de ecuaciones lineales de tres ecuaciones y tres
+incógnitas y lo resuelve en los casos en que sea posible. Usa el lenguaje, la notación y los símbolos matemáticos
+adecuados al contexto y a la situación. El sistema de ecuaciones lineales planteado (como máximo de tres ecuaciones
+y tres incógnitas), lo resuelve en los casos que sea posible, y lo aplica para resolver problemas en contextos reales.
+
+
+
+Ejercicio B.2. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+        Planteamiento correcto .......................................................................... 0,25 puntos.
+        Cálculo correcto de la integral indefinida ............................................. 0,50 puntos.
+        Cálculo correcto del área ........................................................................ 0,25 puntos.
+Apartado (b): 1 punto.
+        Obtención de la asíntota vertical ............................................................ 0,50 puntos.
+        Obtención de la asíntota horizontal ........................................................ 0,50 puntos.
+Estándares de aprendizaje evaluables: Aplica la regla de Barrow al cálculo de integrales definidas de funciones
+elementales inmediatas. Calcula las asíntotas de funciones racionales. Aplica los conceptos de límite. Usa el lenguaje,
+la notación y los símbolos matemáticos adecuados al contexto y a la situación.
+
+
+
+Ejercicio B.3. (Puntuación máxima: 2 puntos)
+       Planteamiento correcto ........................................................................... 0,50 puntos.
+       Obtención correcta de la función a optimizar ......................................... 0,50 puntos.
+       Cálculo correcto de la derivada de la función ....................................... 0,50 puntos.
+       Cálculo correcto del tiempo de reposo ................................................... 0,50 puntos.
+Estándares de aprendizaje evaluables: Utiliza argumentos, justificaciones, explicaciones y razonamientos explícitos y coherentes.
+Plantea problemas de optimización sobre fenómenos relacionados con las ciencias sociales, los resuelve e interpreta el resultado
+obtenido dentro del contexto. Modeliza con ayuda de funciones problemas planteados en las ciencias sociales. Establece
+conexiones entre el problema del mundo real y el mundo matemático: identificando del problema o problemas matemáticos que
+subyacen en él, así como los conocimientos matemáticos necesarios. Interpreta la solución matemática del problema en el
+contexto de la realidad.
+Ejercicio B.4. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+       Planteamiento correcto .......................................................................... 0,50 puntos.
+       Cálculo correcto de la probabilidad........................................................ 0,50 puntos.
+Apartado (b): 1 punto.
+       Planteamiento correcto ......................................................................... 0,50 puntos.
+       Cálculo correcto de la probabilidad ....................................................... …0,50 puntos.
+
+Estándares de aprendizaje evaluables: Calcula la probabilidad de sucesos en experimentos simples y compuestos mediante
+la regla de Laplace, las fórmulas derivadas de la axiomática de Kolmogorov y diferentes técnicas de recuento. Calcula la
+probabilidad final de un suceso aplicando la fórmula de Bayes.
+
+
+Ejercicio B.5. (Puntuación máxima: 2 puntos)
+Apartado (a): 1 punto.
+         Cálculo correcto de z / 2 ........................................................................ 0,25 puntos.
+      Expresión correcta del error ................................................................... 0,25 puntos.
+      Determinación correcta del tamaño de la muestra.................................. 0,50 puntos.
+Apartado (b): 1 punto.
+         Cálculo correcto de z / 2 ........................................................................ 0,25 puntos.
+         Planteamiento correcto ........................................................................... 0,25 puntos.
+         Obtención correcta del intervalo ............................................................ 0,50 puntos.
+Estándares de aprendizaje evaluables: Calcula probabilidades asociadas a la distribución de la media muestral o de la
+proporción, aproximándolas por la distribución normal de parámetros adecuados a cada situación, y lo aplica a problemas
+de situaciones reales. Construye, en contextos reales, un intervalo de confianza para la media poblacional y para la
+proporción en el caso de muestras grandes. Relaciona el error y la confianza de un intervalo de confianza con el tamaño
+muestral y calcula cada uno de estos tres elementos conocidos los otros dos y lo aplica en situaciones reales
+
+
+
+
+NOTA: La resolución de los ejercicios por cualquier otro procedimiento correcto, diferente al
+propuesto por los coordinadores, ha de valorarse con los criterios convenientemente
+adaptados
+Soluciones
+
+
+ A.1. a) El determinante es |A| = (a + 1)2 , que será igual a 0 si a = −1, si a es distinto de este valor la matriz
+         es invertible.                                     
+                                                  1     1 0
+      b) Para a = 1, la inversa es A−1 = 21  −1       0 1 
+                                                  0    −1 1
+ A.2. Sea x la variable que representa los km. recorridos por la furgoneta grande. Sea y la variable que
+      representa los km. recorridos por la furgoneta pequeña. La región factible S viene definida por las
+      restricciones:
+
+                         x ≤ 400000, y ≤ 250000, x + y ≤ 600000, x ≤ 4y, y ≤ 2x.
+         La representación gráfica de S es
+
+
+
+
+        S está determinada por los vértices A = (0, 0), B = (125000, 250000), C = (350000, 250000), D =
+      (400000, 200000) y E = (400000, 100000).
+        La región S es cerrada y acotada, para calcular el valor máximo de la función objetivo f (x, y) =
+      10x + 5y se evalúa la función en los vértices de S :
+                f (0, 0) = 0
+                f (125000, 250000) = 10 · 125000 + 5 · 250000 = 2500000
+                f (350000, 250000) = 10 · 350000 + 5 · 250000 = 4750000
+                f (400000, 200000) = 10 · 400000 + 5 · 200000 = 5000000
+                f (400000, 100000) = 10 · 400000 + 5 · 100000 = 4500000
+        El punto de la región en el cual se alcanza el máximo es D, siendo 5000000 el valor máximo alcanzado.
+      Esto es, para obtener el máximo beneficio, la furgoneta grande deberá recorrer 400000 km y la mediana
+      200000 km, siendo 50000 e el máximo beneficio que se obtiene.
+A.3. a) f ′ (x) = 3x2 − 3, que se anula en x = −1, x = 1.
+                (−∞, −1) −1 (−1, 1) 1 (1, +∞)
+           f′      +       0       -      0        +
+           f      ↗               ↘                ↗
+          La función alcanza su máximo en x = −1 y su mínimo en x = 1 y su gráfica es
+
+
+
+
+     b) Para esta segunda parte puede desarrollarse la función g como un nuevo polinomio o, simplemente,
+        dibujar su gráfica como traslación de la gráfica de f . Sabemos que la gráfica de f (x − 3) desplaza la
+        gráfica de f 3 unidades hacia la derecha. Sumar 5 lo que hace es desplazar 2 unidades hacia arriba.
+        Así, la gráfica resultante es
+
+
+
+
+A.4. a)
+                                                 P (A ∩ C)   1/6    1
+                                       P (A|C) =           =     = .
+                                                   P (C)     1/2    3
+          De forma similar se verifica que P (B|C) = P (A ∩ B|C) = 1/3.
+     b) Bien sea usando propiedades de la probabilidad condicional o su definición, se llega a
+                         P (A ∪ B|C) = P (A|C) + P (B|C) − P (A ∩ B|C) = 1/3.
+
+              11, 0703 + 12, 9297
+A.5. a) X =                       = 12.
+                       2
+             σ                          1, 5
+     b) zα/2 √ = 12, 9297 − 12 => zα/2 √ = 0, 9297 => zα/2 = 1, 96 => nivel de confianza del 95 %
+               n                         10
+B.1. a) La matriz del sistema es
+                                                                        
+                                  1 a 0         1 a 0                    a
+                              A= a 1 a  y A= a 1 a                    0 
+                                  0 0 1         0 0 1                    1
+        Por otro lado, |A| = 1 − a2 que es igual a 0 si a = −1 o 1. Entonces,
+                a = −1,    rg(A) = 2, rg(A) = 2    Sistema compatible indeterminado
+                 a = 1,    rg(A) = 2, rg(A) = 3 =⇒ Sistema incompatible
+              a ̸= −1 o 1, rg(A) = 3, rg(A) = 3    Sistema compatible determinado
+     b) Para a = 2, la solución es x = −2; y = 2; z = 1.
+
+B.2. a) En primer lugar se determinan los puntos de corte de la gráfica con el eje de las x.
+
+                              9x − x2 = 0 ⇔ x(9 − x) = 0 ⇔ x = 0 o x = 9.
+                                                                       3 9
+                                          R9                h           i
+        Así, el área pedida viene dada por 0 (9x − x2 ) dx = 92 x2 − x3    = 729 729 729
+                                                                              2 − 3 = 6 .
+                                                                          0
+     b) Calculamos la tangente a la curva en (0,0). Como f ′ (x) = 9 − 2x tenemos que f ′ (0) = 9 y, por tanto,
+        que la recta tangente a la parábola en (0, 0) es y = 9x.
+        Como f ′ (9) = −9, la recta tangente a la parábola en (9, 0) es y = −9(x − 9). Ambas rectas se cortan
+        en ( 92 , 81
+                  2 ).
+        La situación es la representada en la figura (usando escalas diferentes en cada eje)
+
+
+
+
+        El área de la figura es el área del triángulo delimitado por las tangentes y el eje menos el área que
+        hemos calculado en el apartado anterior.
+        Área de la figura= 12 · 9 · 81 729
+                                    2 − 6 .
+
+B.3. a) Coste:
+                       C(t) = 150 + 100Q(t) = 50t4 − 300t2 + 650,     1≤t≤2
+                               ′            2          ′′          2
+                              C (t) = 200t(t − 3)    C (t) = 600(t − 1)
+          ′
+                             √                                √
+        C (t) = 0 ⇐⇒ t =√± 3 y t = 0. Se observa que t = − 3 y t = 0 ∈    / [1, 2].
+        Puesto  que C ′′ (+ 3) > 0, existe un mínimo relativo cuando el tiempo de reposo de la masa es
+              √                                            √
+        t = + 3 = 1, 73 horas, siendo el coste mínimo C(+ 3) = 200 euros.
+     b) Puesto que la función es continua y el intervalo cerrado, alcanza máximo y mínimo absoluto en el
+        intervalo [1,
+                  √ 2].          √
+        En t = + 3 ∈ [1, 2], C(+ 3) = 200 euros, siendo este un mínimo relativo.
+        En t = 1, C(1) = 400 euros y en t = 2, C(2) = 250 euros. Por tanto, el coste máximo se produce
+        cuando t = 1 hora y la cantidad de ingrediente secreto que se necesitaría cuando la masa reposa
+        una hora es de Q(1) = 5/2 gramos.
+ B.4. a) Sea A el suceso de escoger el sobre premiado y Di el resultado del dado es i. Entonces,
+P (A) = P (A|D1 )P (D1 )+P (A|D2 )P (D2 )+P (A|D3 )P (D3 )+P (A|D4 )P (D4 )+P (A|D5 )P (D5 )+P (A|D6 )P (D6 ).
+            Por otro lado, P (Di ) = 1/6 y P (A|Di ) = 1/(7 − i), para 1 ≤ i ≤ 6. Sustituyendo se obtiene
+                                      1       1 1 1 1   1  1
+                            P (A) =        +    + + + +1    = · 2,45 ≈ 0,4083.
+                                       6       5 4 3 2    6  6
+       b)
+                                                              1 1
+                                         P (A|D1 )P (D1 )       ·        1
+                           P (D1 |A) =                    = 16 6 =            ≈ 0,0680.
+                                              P (A)         6 · 2,45
+                                                                     6 · 2,45
+                    q
+                        p(1−p)
+ B.5. a) ε = zα/2          n ; zα/2 = 2,33
+               2,332 · 0,55 · 0,45
+            n=                     = 134,3653. El mínimo tamaño muestral es 135.
+                      0,12
+       b) pb = 0,7, n = 100, zα/2 = 1,96
+                     r
+                        0,7 · 0,3
+          0,7 ± 1,96
+                          100
+          IC = (0,6102; 0,7898)
+ORIENTACIONES PARA LA EVALUACIÓN DEL ACCESO A LA UNIVERSIDAD DE LA ASIGNATURA
+MATEMÁTICAS APLIACADAS A LAS CIENCIAS SOCIALES ii.
+
+Para la elaboración de las pruebas se seguirán las características, el diseño y el contenido
+establecido en el currículo básico de las enseñanzas del segundo curso de bachillerato LOMCE
+que está publicado en el Real Decreto 1105/2014, de 26 de diciembre, por el que se establece
+el currículo básico de la Educación Secundaria Obligatoria y del Bachillerato.
+
