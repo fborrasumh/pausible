@@ -171,6 +171,19 @@ def genera_uno(llm, cid, cc_nombre, mid, reg, referencias):
     return None
 
 
+def sube(f, msg):
+    """En el Action (PAUSIBLE_GIT=1) cada examen se sube nada más generarse: si el job se corta, lo hecho se conserva."""
+    if os.environ.get('PAUSIBLE_GIT') != '1': return
+    idx = sorted(p.stem for p in f.parent.glob('*__*.json'))
+    (f.parent / 'index.json').write_text(json.dumps(idx), encoding='utf-8')
+    g = lambda *a: subprocess.run(['git', *a], cwd=R, capture_output=True, text=True)
+    g('add', str(f), str(f.parent / 'index.json')); g('commit', '-q', '-m', msg)
+    for _ in range(6):
+        if g('push', '-q').returncode == 0: return
+        g('pull', '-q', '--rebase'); time.sleep(5)
+    print('  aviso: no se pudo subir', f.name)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--ccaa'); ap.add_argument('--materia'); ap.add_argument('--max', type=int, default=20); ap.add_argument('--forzar', action='store_true')
@@ -202,6 +215,7 @@ def main():
                 print(f'  error: {e}'); continue
             if ex:
                 f.write_text(json.dumps(ex, ensure_ascii=False, indent=1), encoding='utf-8'); hechos += 1
+                sube(f, f'Examen probable: {c["nombre"]} · {reg["nombre"]}')
                 print(f'  ✓ {len(ex["preguntas"])} preguntas verificadas')
             else:
                 print('  ✗ no se alcanzó consenso: no se publica')

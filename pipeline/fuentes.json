@@ -2,7 +2,7 @@
   "_nota": "Páginas oficiales de partida (semillas) de cada comunidad. El rastreador sigue los enlaces del mismo dominio hasta 'profundidad' saltos y recoge los PDF de exámenes y criterios 2022-2026. Si una comunidad sale con poca cobertura en data/cobertura.json, añade aquí la página exacta del archivo de exámenes.",
   "anios": [2022, 2023, 2024, 2025, 2026],
   "profundidad": 2,
-  "max_paginas": 400,
+  "max_paginas": 150,
   "ccaa": {
     "andalucia":   {"nombre": "Andalucía", "semillas": ["https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/?q=grados&d=g_b_examenes_anteriores.php"]},
     "aragon":      {"nombre": "Aragón", "semillas": ["https://academico.unizar.es/acceso-admision-grado/pau/exame", "https://academico.unizar.es/pau/modelos-orientativos-de-examen-pau-2026"]},

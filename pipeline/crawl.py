@@ -3,15 +3,19 @@
 de la PAU 2022-2026, los descarga, extrae su texto y escribe el manifiesto del corpus.
 
 Pensado para ejecutarse en GitHub Actions (allí hay acceso a las webs de las universidades):
-  python3 pipeline/crawl.py                 # todas las comunidades
-  python3 pipeline/crawl.py --ccaa madrid   # una sola
-  python3 pipeline/crawl.py --sin-descarga  # solo localiza enlaces (rápido, para depurar fuentes)
+  python3 pipeline/crawl.py --ccaa madrid --tiempo 2280   # una comunidad, como máximo 38 min (lo que usa el Action)
+  python3 pipeline/crawl.py                                # todas, una tras otra (lento)
+  python3 pipeline/crawl.py --sin-descarga                 # solo localiza enlaces (para depurar fuentes)
 
 Salidas:
   corpus/<ccaa>/<materia>/<anio>_<conv>_<tipo>_<h8>.txt   texto extraído (se sube al repo)
   pdf/<ccaa>/<materia>/…pdf                               PDF originales (NO se suben al repo: van a una Release)
-  data/corpus.json        manifiesto: un registro por documento, con su URL oficial
-  data/cobertura.json     recuento comunidad × materia × año, para ver los huecos
+  data/corpus/<ccaa>.json manifiesto de esa comunidad: un registro por documento, con su URL oficial
+  data/logs/<ccaa>.log    qué se visitó y qué falló
+(pipeline/une.py junta los manifiestos en data/corpus.json y data/cobertura.json)
+
+Con --tiempo, el rastreo de páginas usa como mucho el 40 % del tiempo y las descargas el resto; al agotarse,
+se guarda lo conseguido (el manifiesto se escribe también cada 10 descargas, por si el proceso muere antes).
 """
 import argparse, hashlib, html, json, pathlib, re, subprocess, sys, time, unicodedata
 from collections import defaultdict, deque
@@ -74,19 +78,19 @@ ENLACE_INTERES = re.compile(r'exam|model|pau|ebau|evau|pevau|pbau|abau|selectiv|
 
 
 class Rastreador:
-    def __init__(self, sesion, cfg, log):
-        self.s, self.cfg, self.log = sesion, cfg, log
+    def __init__(self, sesion, cfg, log, limite=float('inf')):
+        self.s, self.cfg, self.log, self.limite = sesion, cfg, log, limite
 
     def get(self, url, binario=False):
-        for intento in range(3):
+        for intento in range(2):
             try:
-                r = self.s.get(url, timeout=40, headers={'User-Agent': UA}, allow_redirects=True)
+                r = self.s.get(url, timeout=(8, 20), headers={'User-Agent': UA}, allow_redirects=True)
                 if r.status_code == 200: return r
                 self.log(f'  {r.status_code} {url}')
                 if r.status_code in (403, 404, 410): return None
             except Exception as e:
                 self.log(f'  error {type(e).__name__} {url}')
-            time.sleep(2 * (intento + 1))
+            time.sleep(1)
         return None
 
     def pdfs(self, semillas):
@@ -94,6 +98,8 @@ class Rastreador:
         dominios = {'.'.join(urlparse(u).hostname.split('.')[-2:]) for u in semillas}
         visto, cola, encontrados = set(), deque((u, 0) for u in semillas), {}
         while cola and len(visto) < self.cfg['max_paginas']:
+            if time.time() > self.limite:
+                self.log('  tiempo de rastreo agotado: se sigue con lo encontrado'); break
             url, d = cola.popleft()
             if url in visto: continue
             visto.add(url)
@@ -112,7 +118,7 @@ class Rastreador:
                     encontrados.setdefault(u, {'texto': texto, 'contexto': ctx, 'pagina': r.url})
                 elif d < self.cfg['profundidad'] and ENLACE_INTERES.search(u + ' ' + texto) and u not in visto:
                     cola.append((u, d + 1))
-            time.sleep(0.3)
+            time.sleep(0.2)
         self.log(f'  {len(visto)} páginas visitadas, {len(encontrados)} PDF')
         return encontrados
 
@@ -170,50 +176,66 @@ def clasifica(url, info, anios):
     return mat, anio, conv, tipo
 
 
+def guarda_manifiesto(cid, docs, logl):
+    lista = sorted(docs.values(), key=lambda d: (d['materia'] or '~', d['anio'], d['conv'], d['tipo']))
+    for sub in ('corpus', 'logs'): (R / 'data' / sub).mkdir(parents=True, exist_ok=True)
+    (R / 'data' / 'corpus' / f'{cid}.json').write_text(json.dumps({'ccaa': cid, 'generado': time.strftime('%Y-%m-%d %H:%M'), 'n': len(lista), 'documentos': lista}, ensure_ascii=False, indent=1), encoding='utf-8')
+    (R / 'data' / 'logs' / f'{cid}.log').write_text('\n'.join(logl), encoding='utf-8')
+
+
+def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
+    t0 = time.time(); fin = t0 + tiempo
+    man_p = R / 'data' / 'corpus' / f'{cid}.json'
+    previo = {d['url']: d for d in json.loads(man_p.read_text())['documentos']} if man_p.exists() else {}
+    docs, logl = dict(previo), []
+    log = lambda m: (print(m, flush=True), logl.append(m))
+    log(f'== {cc["nombre"]}')
+    encontrados = Rastreador(s, cfg, log, limite=t0 + 0.4 * tiempo).pdfs(cc['semillas'])
+    pend = []
+    for url, info in encontrados.items():
+        mat, anio, conv, tipo = clasifica(url, info, anios)
+        if not anio: continue                           # fuera de 2022-2026 o sin año reconocible
+        h = hashlib.sha1(url.encode()).hexdigest()[:8]
+        rel = f'{cid}/{mat or "sin_materia"}/{anio}_{conv}_{tipo}_{h}'
+        d = {'id': h, 'ccaa': cid, 'materia': mat, 'anio': anio, 'conv': conv, 'tipo': tipo, 'url': url,
+             'pagina': info['pagina'], 'enlace': info['texto'][:160], 'contexto': info['contexto'][:240],
+             'txt': f'corpus/{rel}.txt', 'chars': previo.get(url, {}).get('chars', 0)}
+        if sin_descarga or (R / d['txt']).exists(): docs[url] = d
+        else: pend.append((d, rel))
+    # primero lo que más importa: exámenes con materia reconocida, de los años más recientes
+    pend.sort(key=lambda x: (x[0]['tipo'] != 'examen', x[0]['materia'] is None, -x[0]['anio']))
+    log(f'  {len(pend)} PDF por descargar')
+    hechos = 0
+    for d, rel in pend:
+        if time.time() > fin:
+            log(f'  tiempo agotado: quedan {len(pend) - hechos} PDF para la próxima ejecución'); break
+        r = Rastreador(s, cfg, log).get(d['url'])
+        hechos += 1
+        if not (r and r.content[:4] == b'%PDF' and len(r.content) < 25_000_000):
+            log(f'  no es un PDF válido: {d["url"]}'); continue
+        pdf = R / 'pdf' / f'{rel}.pdf'; pdf.parent.mkdir(parents=True, exist_ok=True); pdf.write_bytes(r.content)
+        txt = R / d['txt']; txt.parent.mkdir(parents=True, exist_ok=True)
+        try: d['chars'] = len(texto_pdf(pdf, txt).strip())
+        except Exception as e: log(f'  sin texto ({type(e).__name__}): {d["url"]}'); d['chars'] = 0
+        d['bytes'] = len(r.content); docs[d['url']] = d
+        if hechos % 10 == 0: guarda_manifiesto(cid, docs, logl)
+    guarda_manifiesto(cid, docs, logl)
+    log(f'✓ {cc["nombre"]}: {len(docs)} documentos en {round((time.time() - t0) / 60)} min')
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--ccaa', action='append')
     ap.add_argument('--sin-descarga', action='store_true')
+    ap.add_argument('--tiempo', type=int, default=2280, help='segundos como máximo por comunidad')
     a = ap.parse_args()
     import requests
     cfg = json.loads((R / 'pipeline' / 'fuentes.json').read_text(encoding='utf-8'))
     anios = range(min(cfg['anios']), max(cfg['anios']) + 1)
-    man_p = R / 'data' / 'corpus.json'
-    previo = {d['url']: d for d in json.loads(man_p.read_text())['documentos']} if man_p.exists() else {}
-    docs, logl = dict(previo), []
-    log = lambda s: (print(s, flush=True), logl.append(s))
     s = requests.Session()
     for cid, cc in cfg['ccaa'].items():
         if a.ccaa and cid not in a.ccaa: continue
-        log(f'== {cc["nombre"]}')
-        encontrados = Rastreador(s, cfg, log).pdfs(cc['semillas'])
-        for url, info in encontrados.items():
-            mat, anio, conv, tipo = clasifica(url, info, anios)
-            if not anio: continue                       # fuera de 2022-2026 o sin año reconocible
-            h = hashlib.sha1(url.encode()).hexdigest()[:8]
-            rel = f'{cid}/{mat or "sin_materia"}/{anio}_{conv}_{tipo}_{h}'
-            d = {'id': h, 'ccaa': cid, 'materia': mat, 'anio': anio, 'conv': conv, 'tipo': tipo, 'url': url,
-                 'pagina': info['pagina'], 'enlace': info['texto'][:160], 'contexto': info['contexto'][:240],
-                 'txt': f'corpus/{rel}.txt', 'chars': previo.get(url, {}).get('chars', 0)}
-            if not a.sin_descarga and not (R / d['txt']).exists():
-                r = Rastreador(s, cfg, log).get(url)
-                if r and r.content[:4] == b'%PDF' and len(r.content) < 25_000_000:
-                    pdf = R / 'pdf' / f'{rel}.pdf'; pdf.parent.mkdir(parents=True, exist_ok=True); pdf.write_bytes(r.content)
-                    txt = R / d['txt']; txt.parent.mkdir(parents=True, exist_ok=True)
-                    d['chars'] = len(texto_pdf(pdf, txt).strip())
-                    d['bytes'] = len(r.content)
-                else:
-                    log(f'  no es un PDF válido: {url}'); continue
-            docs[url] = d
-    lista = sorted(docs.values(), key=lambda d: (d['ccaa'], d['materia'] or '~', d['anio'], d['conv'], d['tipo']))
-    (R / 'data').mkdir(exist_ok=True)
-    man_p.write_text(json.dumps({'generado': time.strftime('%Y-%m-%d'), 'n': len(lista), 'documentos': lista}, ensure_ascii=False, indent=1), encoding='utf-8')
-    cob = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
-    for d in lista:
-        if d['tipo'] == 'examen' and d['materia']: cob[d['ccaa']][d['materia']][str(d['anio'])] += 1
-    (R / 'data' / 'cobertura.json').write_text(json.dumps(cob, ensure_ascii=False, indent=1, sort_keys=True), encoding='utf-8')
-    (R / 'data' / 'crawl.log').write_text('\n'.join(logl), encoding='utf-8')
-    print(f'✓ {len(lista)} documentos en el manifiesto')
+        rastrea(cid, cc, cfg, anios, s, a.sin_descarga, a.tiempo)
 
 
 if __name__ == '__main__':

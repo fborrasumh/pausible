@@ -17,17 +17,17 @@ El examen más PAUsible de la PAU 2027 (selectividad), por comunidad autónoma y
 
 ## Cómo se construyen los datos (`pipeline/`)
 
-Todo lo hace un GitHub Action (`.github/workflows/corpus.yml`), porque las webs de las universidades solo son accesibles desde allí. Se ejecuta al cambiar las fuentes, el día 1 de cada mes y cada lunes de junio y julio (cuando se publican los exámenes nuevos), o a mano desde la pestaña **Actions → Corpus y predicciones PAU → Run workflow**.
+Todo lo hace un GitHub Action (`.github/workflows/corpus.yml`), porque las webs de las universidades solo son accesibles desde allí. Va en tres fases: **17 tareas en paralelo**, una por comunidad (máximo 45 min cada una; cada una guarda lo conseguido aunque no termine, y un fallo en una no afecta a las demás); después se junta todo y se recalculan las predicciones; al final se generan los exámenes probables que falten (cada uno se sube nada más generarse). Se ejecuta al cambiar las fuentes, el día 1 de cada mes y cada lunes de junio y julio (cuando se publican los exámenes nuevos), o a mano desde la pestaña **Actions → Corpus y predicciones PAU → Run workflow**.
 
 | Paso | Script | Qué hace |
 |---|---|---|
-| 1 | `crawl.py` | Parte de las páginas oficiales de cada comunidad (`fuentes.json`), sigue los enlaces del mismo dominio, localiza los PDF 2022-2026, los clasifica por materia, año, convocatoria y tipo (examen / criterios), los descarga, extrae el texto (pdftotext; OCR con tesseract si es un escaneo) y escribe `data/corpus.json` y `data/cobertura.json`. |
+| 1 | `crawl.py` | Una comunidad por tarea (`--ccaa`, `--tiempo`). Parte de las páginas oficiales de cada comunidad (`fuentes.json`), sigue los enlaces del mismo dominio, localiza los PDF 2022-2026, los clasifica por materia, año, convocatoria y tipo (examen / criterios), los descarga, extrae el texto (pdftotext; OCR con tesseract si es un escaneo) y escribe `data/corpus/<comunidad>.json`. `une.py` los junta en `data/corpus.json` y `data/cobertura.json`. |
 | 2 | `analiza.py` | Etiqueta cada examen por temas (`temario.json`) y calcula la predicción con validación ciega → `data/predicciones.json`. Determinista, sin IA. |
 | 3 | `genera.py` | Exámenes probables con agentes (solo si existe el secreto `OPENAI_API_KEY`) → `data/examenes/`. |
 
 - El **texto** de cada examen y el manifiesto con la **URL oficial** se guardan en el repositorio (`corpus/`, `data/`).
 - Los **PDF originales** se suben a la Release `corpus` (un zip por comunidad y fecha), no al repositorio, para no pasar del límite de 1 GB de GitHub Pages.
-- Si una comunidad sale con poca cobertura en `data/cobertura.json` o en `data/crawl.log`, añade en `fuentes.json` la URL exacta de su archivo de exámenes.
+- Si una comunidad sale con poca cobertura en `data/cobertura.json` o en `data/logs/<comunidad>.log`, añade en `fuentes.json` la URL exacta de su archivo de exámenes.
 
 ### Agentes que se vigilan entre sí
 

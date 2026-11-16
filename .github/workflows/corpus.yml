@@ -1,13 +1,15 @@
 name: Corpus y predicciones PAU
-# Descarga los exámenes oficiales 2022-2026 de las 17 comunidades, extrae su texto, recalcula las predicciones
-# Al terminar, se lanza solo «Exámenes probables» (genera.yml).
+# 1) rastreo: 17 tareas en paralelo, una por comunidad; cada una guarda su parte al terminar (máx. 45 min).
+# 2) analisis: junta lo reunido y recalcula las predicciones.
+# 3) examenes: genera con OPENAI_API_KEY los exámenes probables que falten (cada uno se sube al generarse).
 on:
   workflow_dispatch:
     inputs:
       ccaa: {description: 'Solo esta comunidad (vacío = todas)', required: false, default: ''}
+      max_examenes: {description: 'Máximo de exámenes probables nuevos', required: false, default: '20'}
   push:
     branches: [main]
-    paths: ['pipeline/fuentes.json', 'pipeline/temario.json', 'pipeline/crawl.py', 'pipeline/analiza.py']
+    paths: ['pipeline/fuentes.json', 'pipeline/temario.json', 'pipeline/crawl.py', 'pipeline/analiza.py', 'pipeline/une.py', '.github/workflows/corpus.yml']
   schedule:
     - cron: '17 4 1 * *'        # el día 1 de cada mes
     - cron: '17 4 * 6,7 1'      # y cada lunes de junio y julio, cuando se publican los exámenes nuevos
@@ -15,31 +17,98 @@ permissions:
   contents: write
 concurrency: {group: corpus, cancel-in-progress: false}
 jobs:
-  corpus:
+  preparar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Release para los PDF originales
+        env: {GH_TOKEN: '${{ github.token }}'}
+        run: gh release view corpus >/dev/null 2>&1 || gh release create corpus --title "Exámenes oficiales PAU 2022-2026 (PDF)" --notes "PDF originales descargados de las webs oficiales de cada comunidad (un zip por comunidad y fecha; cada zip trae los PDF nuevos de esa ejecución). Las URL de origen están en data/corpus.json."
+
+  rastreo:
+    needs: preparar
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      max-parallel: 17
+      matrix:
+        ccaa: ["andalucia", "aragon", "asturias", "baleares", "canarias", "cantabria", "castillalamancha", "castillaleon", "cataluna", "valenciana", "extremadura", "galicia", "rioja", "madrid", "murcia", "navarra", "paisvasco"]
+    steps:
+      - name: ¿Toca esta comunidad?
+        id: toca
+        run: echo "si=${{ !github.event.inputs.ccaa || github.event.inputs.ccaa == matrix.ccaa }}" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v4
+        if: steps.toca.outputs.si == 'true'
+        with: {ref: main}
+      - uses: actions/setup-python@v5
+        if: steps.toca.outputs.si == 'true'
+        with: {python-version: '3.12'}
+      - name: Herramientas (pdftotext y OCR)
+        if: steps.toca.outputs.si == 'true'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-spa tesseract-ocr-cat tesseract-ocr-glg tesseract-ocr-eus >/dev/null && pip install -q requests
+      - name: Rastrear y descargar (38 min como máximo)
+        if: steps.toca.outputs.si == 'true'
+        timeout-minutes: 40
+        continue-on-error: true
+        run: python3 pipeline/crawl.py --ccaa ${{ matrix.ccaa }} --tiempo 2280
+      - name: Guardar esta comunidad en el repositorio
+        if: always() && steps.toca.outputs.si == 'true'
+        run: |
+          C=${{ matrix.ccaa }}
+          git config user.name "pausible-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/corpus/$C.json data/logs/$C.log 2>/dev/null || true
+          [ -d corpus/$C ] && git add corpus/$C
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Corpus: $C $(date +%F)"
+          for i in 1 2 3 4 5 6 7 8; do git push -q && exit 0; sleep $((RANDOM % 15 + 5)); git pull -q --rebase; done
+          exit 1
+      - name: PDF originales a la Release
+        if: always() && steps.toca.outputs.si == 'true'
+        env: {GH_TOKEN: '${{ github.token }}'}
+        run: |
+          C=${{ matrix.ccaa }}
+          [ -d pdf/$C ] || exit 0
+          (cd pdf && zip -qr "../pau-$C-$(date +%F-%H%M).zip" "$C")
+          gh release upload corpus pau-$C-*.zip --clobber
+
+  analisis:
+    needs: rastreo
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -q requests sympy
+      - name: Pruebas del pipeline
+        run: python3 tests/test_pipeline.py
+      - name: Juntar comunidades y predecir
+        run: python3 pipeline/une.py && python3 pipeline/analiza.py
+      - name: Guardar
+        run: |
+          git config user.name "pausible-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/corpus.json data/cobertura.json data/predicciones.json
+          git diff --cached --quiet || (git commit -q -m "Predicciones $(date +%F)" && (git push -q || (git pull -q --rebase && git push -q)))
+
+  examenes:
+    needs: analisis
+    if: always() && needs.analisis.result == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
+        with: {ref: main}
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
-      - name: Herramientas (pdftotext y OCR)
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-spa tesseract-ocr-cat tesseract-ocr-glg tesseract-ocr-eus >/dev/null
       - run: pip install -q requests sympy
-      - name: Pruebas del pipeline
-        run: python3 tests/test_pipeline.py
-      - name: Rastrear y descargar
-        run: python3 pipeline/crawl.py ${{ github.event.inputs.ccaa && format('--ccaa {0}', github.event.inputs.ccaa) || '' }}
-      - name: Predicciones
-        run: python3 pipeline/analiza.py
-      - name: Guardar en el repositorio
+      - name: Exámenes probables (multiagente)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PAUSIBLE_MODELO: ${{ vars.PAUSIBLE_MODELO }}
+          PAUSIBLE_ESFUERZO: ${{ vars.PAUSIBLE_ESFUERZO }}
+          PAUSIBLE_GIT: '1'
         run: |
           git config user.name "pausible-bot"; git config user.email "actions@users.noreply.github.com"
-          git add corpus data
-          git diff --cached --quiet || (git commit -q -m "Corpus y predicciones $(date +%F)" && git pull -q --rebase && git push -q)
-      - name: PDF originales a una Release (no se suben al repo para no inflar GitHub Pages)
-        env: {GH_TOKEN: '${{ github.token }}'}
-        run: |
-          [ -d pdf ] || exit 0
-          cd pdf && for d in */; do zip -qr "../pau-${d%/}-$(date +%F).zip" "$d"; done; cd ..
-          gh release view corpus >/dev/null 2>&1 || gh release create corpus --title "Exámenes oficiales PAU 2022-2026 (PDF)" --notes "PDF originales descargados de las webs oficiales de cada comunidad (un zip por comunidad y fecha de descarga: cada zip trae solo los PDF nuevos de esa ejecución). Las URL de origen están en data/corpus.json."
-          gh release upload corpus pau-*.zip --clobber
+          python3 pipeline/genera.py --max ${{ github.event.inputs.max_examenes || '20' }}
