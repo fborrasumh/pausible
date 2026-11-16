@@ -364,6 +364,8 @@ window.addEventListener('langchange', () => { if (step === 4) pintaComparte(); }
   const prev = await cargaEstado(); if (prev) S = {...S, ...prev, crono: null};
   S.fuente = S.fuente || {}; S.intento = null;
   // versiones anteriores: exámenes dentro del estado (S.examen, S.propios, S.retos) → «Mis exámenes»
+  iniciaUI(); go(0);
+  const datos = cargaDatos();   // los datos y la interfaz no esperan a «Mis exámenes»
   try {
     const viejos = [];
     if (S.examen && S.examen.ex) viejos.push([S.examen.c, S.examen.m, S.examen.ex, 'propio']);
@@ -373,7 +375,6 @@ window.addEventListener('langchange', () => { if (step === 4) pintaComparte(); }
     if (viejos.length || S.propios || S.retos || S.examen) { delete S.examen; delete S.propios; delete S.retos; for (const k in S.fuente) if (!/^(oficial|bib:)/.test(S.fuente[k])) delete S.fuente[k]; await guardaYa(); }
   } catch {}
   await recargaBib();
-  iniciaUI(); go(0);
-  await cargaDatos(); (RENDER[step] || (() => {}))();
+  await datos; (RENDER[step] || (() => {}))();
   if (RETO && step === 0) pintaInicio();
 })();

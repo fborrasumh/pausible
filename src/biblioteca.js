@@ -8,8 +8,10 @@ function bibAbre() {
   if (!_bib) _bib = new Promise((ok, ko) => {
     const r = indexedDB.open(BIB_DB, 1);
     r.onupgradeneeded = () => { const st = r.result.createObjectStore('examenes', {keyPath: 'id'}); st.createIndex('creado', 'creado'); };
-    r.onsuccess = () => ok(r.result); r.onerror = () => ko(r.error);
+    r.onsuccess = () => ok(r.result); r.onerror = () => ko(r.error); r.onblocked = () => ko(new Error('bloqueada'));
+    setTimeout(() => ko(new Error('sin respuesta')), 4000);   // navegadores integrados (Instagram, WhatsApp…) a veces no responden
   });
+  _bib.catch(() => { _bib = null; });
   return _bib;
 }
 async function bibTx(modo, fn) {

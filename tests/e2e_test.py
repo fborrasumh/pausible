@@ -120,7 +120,8 @@ async def main():
         mig = await ctx.new_page(); await mig.goto(base); await mig.wait_for_function('DATOS.cargado')
         await mig.evaluate("kv('readwrite', s => s.put({...S, propios: {'madrid__matematicas2': [EJ_EXAMEN.es]}, retos: {}}, 'main'))")
         await mig.reload(); await mig.wait_for_function('DATOS.cargado')
-        assert await mig.evaluate("MEM.bib.length") == n + 1 and await mig.evaluate("S.propios === undefined")
+        await mig.wait_for_function(f"MEM.bib.length === {n + 1}", timeout=5000)
+        assert await mig.evaluate("S.propios === undefined")
         # reto con examen oficial: lleva la huella de la versión
         await pg.click('#goHome'); await pg.click('#btnStart'); await pg.click('[data-c="madrid"]'); await pg.select_option('#selMat', 'matematicas2')
         await pg.click('#navNext'); await pg.click('#navNext'); await pg.wait_for_selector('.pa-preg'); await pg.fill('#auto0', '2')
