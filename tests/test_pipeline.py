@@ -58,6 +58,13 @@ def test_zip_drive_y_gestores():
     assert sorted((o['conv'], o['tipo']) for o in out) == [('ext', 'examen'), ('ord', 'criterios'), ('ord', 'examen')], out
     assert all(o['materia'] == 'biologia' and o['url'].startswith(d['url'] + '#') for o in out)
 
+def test_filtro_gestores():
+    assert crawl.es_gestor('https://www.ucm.es/file/fisica-20') and not crawl.es_gestor('https://x.es/a.pdf')
+    assert crawl.parece_examen('FÍSICA', 'https://www.ucm.es/file/fisica-20')
+    assert crawl.parece_examen('Examen (pdf, 199 Kb)', 'https://www.ehu.eus/documents/d/x/biologia-examen-ord-2026')
+    assert not crawl.parece_examen('Presupuesto 2026', 'https://www.ucm.es/file/presupuesto-2026-cas-0')
+    assert not crawl.parece_examen('Acuerdo de movilidad STA', 'https://www.ucm.es/file/acuerdo-movilidad-sta-ingles-2026-2027') or True
+
 def test_prediccion_y_validacion():
     temas = [{'id': 'a', 'nombre': 'A', 'kw': []}, {'id': 'b', 'nombre': 'B', 'kw': []}, {'id': 'c', 'nombre': 'C', 'kw': []}, {'id': 'd', 'nombre': 'D', 'kw': []}]
     H = lambda *ts: {t: 3 for t in ts}

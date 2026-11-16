@@ -36,10 +36,17 @@
     "baleares": {
       "nombre": "Illes Balears",
       "semillas": [
+        "https://estudis.uib.cat/estudis-de-grau/com-hi-pots-accedir/acces/batxiller/modelsexamenpbau",
+        "https://estudis.uib.cat/grau/acces/batxiller/materies/",
         "https://estudis.uib.es/estudis-de-grau/com-hi-pots-accedir/acces/batxiller/modelsexamenpbau",
-        "https://estudis.uib.es/estudis-de-grau/Com-hi-pots-accedir/acces/batxiller/ModelsExamenPBAU/"
+        "https://estudis.uib.cat/estudis-de-grau/com-hi-pots-accedir/acces/batxiller/"
       ],
-      "timeout": 30
+      "timeout": 30,
+      "dominios_extra": [
+        "uib.cat",
+        "uib.es"
+      ],
+      "profundidad": 3
     },
     "canarias": {
       "nombre": "Canarias",
@@ -160,5 +167,5 @@
       "pausa": 1.5
     }
   },
-  "_nota_opciones": "Opciones por comunidad: pausa (s entre peticiones), timeout (s para conectar), max_paginas, profundidad y plantillas (URL con {anio} y listas o rangos «01-60» para el resto de campos)."
+  "_nota_opciones": "Opciones por comunidad: pausa (s entre peticiones), timeout (s para conectar), max_paginas, profundidad, dominios_extra (otros dominios de la misma institución, p. ej. uib.cat y uib.es) y plantillas (URL con {anio} y listas o rangos «01-60» para el resto de campos)."
 }

@@ -46,7 +46,7 @@ ABREV = {
     'ang': 'ingles', 'angl': 'ingles', 'ing': 'ingles', 'fra': 'frances', 'fran': 'frances', 'ale': 'aleman', 'alem': 'aleman', 'ita': 'italiano', 'ital': 'italiano',
     'lat': 'latin', 'llat': 'latin', 'gri': 'griego', 'grec': 'griego', 'gre': 'griego',
     'dt': 'dibujo', 'dt2': 'dibujo', 'dib': 'dibujo', 'dibu': 'dibujo', 'da': 'dibujoartistico', 'diar': 'dibujoartistico',
-    'emp': 'empresa', 'edmn': 'empresa', 'femp': 'empresa', 'hart': 'historiaarte', 'har': 'historiaarte', 'fart': 'historiaarte',
+    'emp': 'empresa', 'edmn': 'empresa', 'femp': 'empresa', 'hart': 'historiaarte', 'har': 'historiaarte', 'fart': 'fundamentosart',
     'tec': 'tecnologia', 'tecn': 'tecnologia', 'tin': 'tecnologia', 'dis': 'diseno', 'diss': 'diseno',
     'amus': 'musica', 'anm': 'musica', 'hmus': 'musica', 'cau': 'audiovisual', 'aesc': 'escenicas', 'ae': 'escenicas', 'lidr': 'literaturadram',
     'cien': 'ciencias', 'cg': 'ciencias', 'mg': 'matgenerales', 'mcult': 'movimientos', 'mca': 'movimientos'}
@@ -137,7 +137,7 @@ class Rastreador:
 
     def pdfs(self, semillas):
         """BFS por el mismo dominio. Devuelve {url_pdf: {'texto':…, 'contexto':…, 'pagina':…}}"""
-        dominios = {'.'.join(urlparse(u).hostname.split('.')[-2:]) for u in semillas}
+        dominios = {'.'.join(urlparse(u).hostname.split('.')[-2:]) for u in semillas} | set(self.cfg.get('dominios_extra', []))
         visto, cola, encontrados, meta = set(), deque((u, 0) for u in semillas), {}, {}
         while cola and len(visto) < self.cfg['max_paginas']:
             if time.time() > self.limite:
@@ -161,6 +161,8 @@ class Rastreador:
                 if host == 'drive.google.com' and not es_pdf(u): continue
                 info = {'texto': texto, 'contexto': ctx, 'pagina': r.url, 'titulo': titulo}
                 if es_pdf(u):
+                    if es_gestor(u) and not parece_examen(texto, u):
+                        continue                         # /file/… o /documents/d/… que no nombra materia ni examen (ayudas, presupuestos…)
                     encontrados.setdefault(u, info)
                 elif d < self.cfg['profundidad'] and ENLACE_INTERES.search(u + ' ' + texto) and u not in visto:
                     meta.setdefault(u, info)             # por si resulta ser un PDF sin «.pdf» en la URL
@@ -176,6 +178,21 @@ def es_pdf(u):
     p = urlparse(u).path.lower()
     return (p.endswith('.pdf') or p.endswith('.zip') or '.pdf' in unquote(u.lower()) or '/download' in p and 'pdf' in u.lower()
             or '/file/' in p or '/documents/d/' in p or 'drive.google.com' in u and '/file/d/' in p)
+
+
+def es_gestor(u):
+    """Enlace de gestor documental sin extensión (UCM /file/…, Liferay /documents/d/…, Drive)."""
+    p = urlparse(u).path.lower()
+    return not (p.endswith('.pdf') or p.endswith('.zip') or '.pdf' in unquote(u.lower()))
+
+
+EXAMEN_RX = re.compile(r'exam|exame|azterketa|criteri|soluci|correcci|zuzen|ejercici|exercici|prueba|prova|proba|\bpau\b|ebau|evau|pevau|pbau|abau|selectiv|model')
+
+
+def parece_examen(texto, u=''):
+    """Solo se descargan los enlaces sin «.pdf» cuyo texto (o nombre) nombra una materia o habla de examen/criterios/PAU."""
+    t = texto + ' ' + fichero_de(u)
+    return bool(materia_de(t) or EXAMEN_RX.search(norm(t)))   # sin abreviaturas: «cas» o «val» saldrían en cualquier sitio
 
 
 def descarga_directa(u):
@@ -243,7 +260,7 @@ def completa_con_texto(d, texto, anios):
     """Si el enlace no decía la materia, la convocatoria o el año, se miran en la cabecera del propio examen
     (Galicia nombra los PDF por código: «20.pdf» = «MATEMÁTICAS II · CÓDIGO 20»)."""
     cab = texto[:1500]
-    if not d['materia']: d['materia'] = materia_de(cab)
+    if not d['materia'] and EXAMEN_RX.search(norm(cab[:800])): d['materia'] = materia_de(cab)   # solo si la cabecera parece de examen
     if d['conv'] == 'nd': d['conv'] = conv_de(cab)
     if not d.get('anio'): d['anio'] = anio_de(cab, anios=anios)
     if d['tipo'] != 'examen' and re.search(r'examen|exame\b|azterketa', norm(cab[:300])) and not re.search(r'criteri|soluci', norm(cab[:300])): d['tipo'] = 'examen'
@@ -325,6 +342,8 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
     t0 = time.time(); fin = t0 + tiempo
     man_p = R / 'data' / 'corpus' / f'{cid}.json'
     previo = {d['url']: d for d in json.loads(man_p.read_text())['documentos']} if man_p.exists() else {}
+    # se descartan los documentos de gestor (UCM /file/…) ya guardados que no tenían pinta de examen: listados, ayudas…
+    previo = {k: v for k, v in previo.items() if k.startswith('manual:') or not es_gestor(k.split('#')[0]) or parece_examen(v.get('enlace', ''), k)}
     docs, logl = dict(previo), []
     log = lambda m: (print(m, flush=True), logl.append(m))
     log(f'== {cc["nombre"]}')
