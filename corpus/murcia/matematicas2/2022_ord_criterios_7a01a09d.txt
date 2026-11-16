@@ -1,0 +1,779 @@
+                 RESOLUCIÓN DEL EXAMEN EBAU 2022
+                                   Matemáticas II
+
+    El objeto de este documento es doble. Por una parte, proporcionar a los profesores y alum-
+nos de Bachillerato de la Región de Murcia la resolución del examen de Matemáticas II de
+la convocatoria EBAU2022-JUNIO. Por otra parte, agilizar las posibles reclamaciones a
+la corrección del examen, toda vez que, habiendo hecho pública la resolución de las cuestiones,
+pueda ser más fácil indentificar posibles errores en la corrección. Evidentemente, por la propia
+naturaleza de la disciplina, una misma cuestión admite múltiples soluciones válidas
+y correctas y resulta prácticamente imposible recoger aquı́ toda esa variedad de soluciones,
+a pesar de que hemos intentado incluir el mayor número de ellas. Por supuesto, cualquier otra
+solución a cualquiera de las cuestiones del examen que sea correcta y esté bien argumentada
+deberá ser considerada como válida en el proceso de corrección, aunque no esté incluida
+en este documento.
+
+   Como es bien sabido, el examen consta de un total de ocho cuestiones y se debe responder
+a un máximo de cuatro de ellas, elegidas libremente por el alumno. Las ocho cuestiones
+se pueden agrupar por bloques temáticos de la siguiente manera, pero insistimos en que se
+pueden escoger libremente un máximo de cuatro y en cualquier orden, independientemente
+de que pertenezcan o no al mismo bloque temático:
+
+Cuestiones 1 y 2: Del bloque de Números y Álgebra (2,5 puntos cada una).
+
+Cuestiones 3 y 4: Del bloque de Análisis (2,5 puntos cada una).
+
+Cuestiones 5 y 6: Del bloque de Geometrı́a (2,5 puntos cada una).
+
+Cuestiones 7 y 8: Del bloque de Estadı́stica y Probabilidad (2,5 puntos una).
+
+Si se responde a más de cuatro cuestiones, sólo se corrigen las cuatro primeras, en el orden
+que haya respondido el estudiante. Solo se pueden usar las tablas estadı́sticas que se propor-
+cionan con el examen y, según la normativa vigente, no se puden usar calculadoras gráficas
+ni programables.
+
+
+                               En Murcia, a 7 de junio de 2022.
+
+                                    Luis J. Alı́as Linares
+                                 Coordinador Matemáticas II
+                                Departamento de Matemáticas
+                                   Universidad de Murcia
+                                               2
+
+
+Bloque 1: Números y Álgebra (2,5 puntos cada una)
+
+     Cuestión 1.
+
+    (2,5 p.) La suma de las edades de Carmela, Esperanza y Aurora es 68 años. La
+    edad de Carmela es 5 años más que la mitad de la suma de las edades de Esperanza
+    y Aurora. Además, dentro de 4 años la edad de Aurora será la edad que actualmente
+    tiene Esperanza. Calcule las edades de cada una de ellas.
+
+
+
+Solución: Se trata de un sistema de tres ecuaciones con tres incógnitas, en donde las incógni-
+tas son las edades de Carmela, Esperanza y Aurora. Denotemos por x la edad de Carmela,
+por y la edad de Esperanza y por z la edad de Aurora. Entonces la primera ecuación es
+
+                                        x + y + z = 68.
+                              y+z
+La segunda ecuación es x =       + 5 o, equivalentemente, 2x = y + z + 10. Es decir,
+                               2
+                                       2x − y − z = 10.
+
+La tercera ecuación es z + 4 = y, es decir,
+
+                                           y − z = 4.
+
+Por lo tanto, hay que resolver el siguiente sistema lineal de ecuaciones:
+                                    
+                                     x + y + z = 68
+                                       2x − y − z = 10
+                                          y−z       = 4
+                                    
+
+El sistema se puede resolver por cualquiera de los métodos que se desee. En este caso optamos
+por el que pensamos que es más sencillo, pero cualquier método utilizado, siendo correcto, es
+válido. Si sumamos las dos primeras ecuaciones llegamos directamente a
+                                                   78
+                                3x = 78 =⇒ x =        = 26 años.
+                                                   3
+Reemplazamos el valor de x = 26 en la primera ecuación y resulta y+z = 68−x = 68−26 = 42,
+que junto con la tercera ecuación nos da un sistema de dos ecuaciones con dos incógnitas para
+y y z:                                 
+                                          y + z = 42
+                                          y−z = 4
+Sumando estas dos ecuaciones se tiene
+                                                   46
+                                2y = 46 =⇒ y =        = 23 años.
+                                                    2
+Finalmente, con la tercera ecuación calculamos z = y − 4 = 23 − 4 = 19 años.
+
+
+           Resolución EBAU 2022. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                 3
+
+
+   Por tanto, las edades de de Carmela, Esperanza y Aurora son, respectivamente, 26, 23 y
+19 años.
+   También se puede resolver por el método de Cramer. Para ello, escribimos el sistema en
+forma matricial, de manera que la matriz ampliada del sistema es
+                                                          
+                                          1 1     1     68
+                            A∗ = (A|b)  2 −1 −1 10  .
+                                          0 1 −1         4
+
+El determinante de A es
+                            1 1  1
+                    |A| =   2 −1 −1          = 1 + 2 + 0 + 0 + 1 + 2 = 6 6= 0
+                            0 1 −1
+
+y la solución del sistema por Cramer es
+
+                        68 1  1
+                1                            68 + 10 − 4 + 4 + 68 + 10   156
+            x =         10 −1 −1         =                             =     = 26,
+                6                                        6                6
+                        4 1 −1
+                        1 68 1
+                 1                       −10 + 8 + 0 + 0 + 4 + 136   138
+             y =        2 10 −1      =                             =     = 23,
+                 6                                   6                6
+                        0 4 −1
+                        1 1 68
+                 1                       −4 + 136 + 0 + 0 − 10 − 8   114
+             z =        2 −1 10      =                             =     = 19.
+                 6                                  6                 6
+                        0 1 4
+
+   Finalmente, también se puede resolver por el método de Gauss:
+                                                                                      
+      1 1     1      68              1 1     1         68                1 1 1          68
+    2 −1 −1 10  −−−−→  0 −3 −3 −126  −−−−→  0 1 1                                  42 
+                           F2 −2F1                           (− 31 )F2
+      0 1 −1          4              0 1 −1             4                0 1 −1          4
+                                                                       
+                            1 1 1       68                  1 1 1 68
+                 −−−−→  0 1 1          42  −−−−→  0 1 1 42 
+                  F3 −F2                        (− 21 )F3
+                            0 0 −2 −38                      0 0 1 19
+Resolvemos entonces escalonadamente. De la tercera ecuación tenemos directamente z = 19.
+Usando este valor de z en la segunda ecuación tenemos y = 42 − 19 = 23. Finalmente,
+sustituyendo los valores de y y de z en la primera ecuación se tiene x = 68 − 23 − 19 = 26.
+
+
+
+
+           Resolución EBAU 2022. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                  4
+
+
+       Cuestión 2.
+                                                        
+                                    0 3 4            1 0 0
+      Considere las matrices A =  1 −4 −5  y B =  1 1 0  .
+                                   −1 3 4            1 1 1
+
+         a) (1 p.) Si I denota la matriz identidad de orden 3, compruebe que A3 = −I y
+            calcule A2023 .
+
+         b) (0,5 p.) Calcule la inversa de A.
+
+         c) (1 p.) Resuelva la ecuación matricial AX − B T = A2 , donde B T denota la
+            matriz traspuesta de B.
+
+
+
+Solución: a) Haciendo los cálculos correspondientes, se tiene que
+                                                                        
+                          0     3    4         0    3     4         −1 0  1
+        A2 = A · A =  1 −4 −5  ·  1 −4 −5  =  1                   4  4 
+                         −1 3        4        −1 3        4         −1 −3 −3
+y
+                                                      
+                       −1 0  1        0 3 4        −1 0 0
+       A3 = A2 · A =  1  4  4  ·  1 −4 −5  =  0 −1 0  = −I,
+                       −1 −3 −3      −1 3 4        0  0 −1
+
+como se querı́a comprobar.
+   Para calcular A2023 , en primer lugar observamos que A6 = I ya que
+
+                               A6 = (A3 )2 = (−I)2 = (−1)2 · I 2 = I.
+
+Por lo tanto, para calcular A2023 basta con hacer la división con resto de 2023 entre 6, ya que,
+poniendo 2023 = 337 · 6 + 1 se tiene
+                                                                                           
+                                                                              0    3    4
+  A2023 = A337·6+1 = A337·6 · A1 = (A6 )337 · A = I 337 · A = I · A = A =  1 −4 −5  .
+                                                                             −1 3       4
+
+Si no nos damos cuenta de que A6 = I también se puede calcular usando que A3 = −I. En
+ese caso, hacemos la división con resto de 2023 entre 3 y se tiene 2023 = 674 · 3 + 1, de modo
+que
+
+    A2023 = A674·3+1 = A674·3 · A1 = (A3 )674 · A = (−I)674 · A = (−1)674 · I 674 · A = I · A = A,
+
+porque (−1)nº par = 1.
+
+
+
+
+             Resolución EBAU 2022. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                5
+
+
+   Finalmente, también se puede resolver por la cuenta de la vieja, haciendo
+
+                             A   =   A
+                            A2   =   A2
+                            A3   =   −I
+                            A4   =   A3 · A = (−I) · A = −A
+                            A5   =   A4 · A = (−A) · A = −A2
+                            A6   =   A5 · A = (−A2 ) · A = −A3 = I
+
+y a partir de aquı́ se ve que cada vez que el exponente es múltiplo de 6 se obtiene la identidad.
+Por lo tanto, observando que 2022 = 337 · 6 es el mayor múltiplo de 6 que es menor que 2023,
+se tiene 2023 = 2022 + 1 de modo que
+
+                           A2023 = A2022+1 = A2022 · A1 = I · A = A.
+
+b) Si nos hemos dado cuenta en el apartado anterior de que A6 = I, entonces este apartado
+es inmediato ya que eso significa que A−1 = A5 = −A2 , y utilizando los cálculos de a) se tiene
+                                                               
+                                                 1     0 −1
+                           A−1 = A5 = −A2 =  −1 −4 −4  .
+                                                 1     3    3
+
+Por supuesto, otra forma de hacerlo es calculando la inversa de A por cualquiera de los
+métodos válidos. Por ejemplo, utilizando la fórmula
+                                                                     
+                                          −1 0         1        1 0 −1
+                      1              1 
+              A−1 =      adj(AT ) =         1     4    4  =  −1 −4 −4  .
+                     |A|            −1
+                                          −1 −3 −3             1  3  3
+
+c) Despejando X en la ecuación matricial se tiene
+
+   AX − B T = A2 =⇒ AX = A2 + B T =⇒ X = A−1 · (A2 + B T ) = A−1 · A2 + A−1 · B T ,
+
+y, teniendo en cuenta que A−1 · A2 = A−1 · A · A = I · A = A, se llega a que
+
+                                      X = A + A−1 · B T .
+
+Sustituyendo ahora el valor numérico de cada una de las matrices, se llega a la solución:
+                                                                       
+                          0   3      4         1    0 −1           1 1 1
+              X =  1 −4 −5  +  −1 −4 −4  ·  0 1 1 
+                         −1 3        4         1    3    3         0 0 1
+                                                        
+                          0   3      4         1    1    0
+                 =       1 −4 −5       +   −1 −5 −9 
+                         −1 3        4         1    4    7
+                                      
+                         1 4       4
+                 =      0 −9 −14  .
+                         0 7      11
+
+
+           Resolución EBAU 2022. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                 6
+
+
+Cuestiones 3 y 4. Análisis (2,5 puntos cada una)
+
+     Cuestión 3.
+
+    En este ejercicio se puede utilizar el resultado del apartado a) para realizar el apar-
+    tado b), aun en el caso en que no se sepa realizar el apartado a).
+    Un triatleta participa en una competición de SwimRun en la que debe ir desde el
+    punto A, situado en la orilla de un canal de agua en reposo de 2 kilómetros de
+    ancho, hasta el punto B, situado en la otra orilla del canal y a una distancia de 10
+    kilómetros del punto C (punto opuesto de A), tal y como se indica en la figura. Para
+    ello, debe ir nadando desde A hasta cualquier punto D de la otra orilla del canal y
+    continuar corriendo desde D hasta B. El triatleta tiene plena libertad para elegir D.
+
+
+
+
+       a) (1 p.) Sabiendo que el triatleta es capaz de nadar a una velocidad de 4 km/h y
+          de correr a una velocidad de 12 km/h, demuestre que el tiempo total empleado
+          por el triatleta
+                   √       en ir desde A hasta B (pasando por D) viene dado por la función
+                       2
+                     x + 4 10 − x
+          f (x) =            +         , donde x denota la distancia de C a D.
+                       4          12
+       b) (1,5 p.) Calcule cuál debe ser el punto D para que el tiempo empleado por el
+          triatleta en ir desde A hasta B sea mı́nimo. ¿Cuánto tardará en dicho caso?
+
+
+Solución: a) Según se observa en la figura, la distancia que el triatleta debe nadar es la
+distancia de A a D y la distancia que debe correr es la distancia de D a B. La distancia de
+A a D es la hipotenusa de un triángulo rectángulo cuyos catetos son 2 y x km, por lo tanto,
+aplicando el teorema de Pitágoras se tiene
+                                            √           √
+                        distancia(A, D) = x2 + 22 = x2 + 4 km.
+Como nada a una velocidad de 4 km/h, el tiempo invertido para recorrer esa distancia es
+                                                   √
+                                        espacio      x2 + 4
+                        Tiemponadar =            =          horas.
+                                       velocidad      4
+Esto también se puede hacer por un simple razonamiento de proporcionalidad, sin necesidad
+de saber que velocidad=espacio/tiempo:
+                                         4 km −→ 1 hora
+                                 √
+                                     x2 + 4 km−→ ? horas
+de modo que                                √
+                                               x2 + 4
+                                      ?=              horas.
+                                                4
+
+          Resolución EBAU 2022. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                 7
+
+
+   Por otra parte, a partir de la figura se ve que la distancia de D a B es
+
+                                 distancia(D, B) = (10 − x) km.
+
+Como corre a una velocidad de 12 km/h, el tiempo invertido para recorrer esa distancia es
+                                             espacio    10 − x
+                           Tiempocorrer =             =        horas.
+                                            velocidad     12
+Igual que antes, esto también se puede hacer por un simple razonamiento de proporcionalidad,
+sin necesidad de saber que velocidad=espacio/tiempo:
+
+                                          12 km −→ 1 hora
+                                      10 − x km −→ ? horas
+
+   Por lo tanto, el tiempo total empleado para ir de A a B, en función de x es
+                                                            √
+                                                              x2 + 4 10 − x
+      f (x) = Tiempo total = Tiemponadar + Tiempocorrer =             +         horas.
+                                                                4         12
+b) Se trata de calcular para qué valor de x se alcanza el mı́nimo de la función f (x), teniendo
+en cuenta que los valores ”permitidos” de x son 0 ≤ x ≤ 10, es decir, la variable x ∈ [0, 10].
+Para estudiar el crecimiento y/o decrecimiento de la función f (x) en su dominio, estudiamos
+en primer lugar su derivada y sus puntos crı́ticos (candidatos a ser extremos relativos). La
+derivada de f (x) viene dada por:
+                                      1    2x     1     x     1
+                          f 0 (x) =      √      −   = √      − .
+                                      4 2 x2 + 4 12  4 x2 + 4 12
+Los puntos crı́ticos son las soluciones de la ecuación f 0 (x) = 0:
+                          x       1       x       4   1       √
+         f 0 (x) = 0 ⇐⇒ √       =    ⇐⇒ √       =    = ⇐⇒ 3x = x2 + 4.
+                       4 x2 + 4   12     x2 + 4   12  3
+Elevando al cuadrado esta última igualdad, se tiene
+                                                4  1        1
+         9x2 = x2 + 4 =⇒ 8x2 = 4 =⇒ x2 =          = =⇒ x = √ km ≈ 0, 707107 km
+                                                8  2         2
+Nos quedamos solo con la raı́z positiva porque x ∈ [0, 10]. Para comprobar si efectivamente se
+trata de un mı́nimo, podemos hacerlo estudiando el signo de f 0 (x) para ver dónde la función
+es creciente o decreciente. Para ello escribimos f (x) como una fracción:
+                                                            √
+                                        x        1     3x −   x2 + 4
+                           f 0 (x) = √        −     =      √         .
+                                    4 x2 + 4 12          12 x2 + 4
+El denominador de esta expresión es siempre positivo, por lo√que el signo de f 0 (x) será el signo
+                                                                                                 √
+del numerador. Sabemos por el cálculo anterior que 3x − x2 + 4 = 0 justo en x = 1/ √2.
+Dando valores a la izquierda y a la derecha de este valor√vemos que f 0 (x) < 0 si 0 ≤ x < 1/ 2
+(por ejemplo, f 0 (0) < 0), mientras que f 0 (x) > 0 si 1/ 2 < x ≤ 10 (por ejemplo, f 0 (1) > 0).
+
+
+           Resolución EBAU 2022. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                 8
+
+                                                                              √
+Por lo tanto, la función f√(x) es decreciente (derivada negativa) en [0,√1/ 2) y es creciente
+(derivada positiva) en (1/ 2, 10], por lo que concluimos que en x = 1/ 2 alcanza su mı́nimo
+absoluto para x ∈ [0, 10].
+    En conclusión, para hacer el mı́nimo tiempo posible el triatleta debe ir nadando desde la
+salida en el punto A hasta el punto D situado aproximadamente a 707 metros del punto C, y a
+partir de ahı́ continuar corriendo hasta la meta situada en el punto B. El tiempo que tardará
+será entonces
+                                             q                       q         √
+                                                1               1       9    10 √2−1
+                                   
+                                      1
+                                         
+                                                2
+                                                  +  4   10 − 2√
+                                                                        2        2
+              Tiempo total = f √           =           +          =       +
+                                       2         4          12        4         12
+                                           √                  √                 √
+                                   3     10 2 − 1      9 + 10 2 − 1      8 + 10 2
+                              = √ +          √       =        √      =       √
+                                 4 2       12 2            12 2            12 2
+                                  √             √
+                                 8 2 + 20     2 2+5
+                              =             =            ≈ 1, 305 horas = 1h180 1800 .
+                                     24            6
+
+     Cuestión 4.
+
+    Considere la función f (x) = x ln(x), definida para x > 0.
+
+       a) (1 p.) Calcule la derivada de f (x) y determine sus intervalos de crecimiento
+          y/o decrecimiento.
+
+       b) (1 p.) Calcule la integral indefinida de la función f (x).
+
+       c) (0,5 p.) Determine la primitiva de la función f (x) cuya gráfica pasa por el
+          punto de coordenadas (1, 0).
+
+
+
+Solución: a) La derivada de f (x) viene dada por
+                                                         1
+                             f 0 (x) = 1 · ln(x) + x ·     = ln(x) + 1.
+                                                         x
+Para determinar los intervalos de crecimiento y/o decrecimiento de la función f (x), calculamos
+primero los puntos crı́ticos de f (x), es decir, las soluciones de la ecuación f 0 (x) = 0:
+                                                                            1
+   f 0 (x) = 0 ⇐⇒ ln(x) + 1 = 0 ⇐⇒ ln(x) = −1 ⇐⇒ x = eln(x) = e−1 =           ≈ 0, 367879441.
+                                                                            e
+A continuación, estudiamos el signo de f 0 (x) para ver dónde la función es creciente o decre-
+ciente. Como f 0 (x) = 0 solo para x = e−1 = 1/e, basta con darle valores a f 0 (x) a la izquierda
+y a la derecha de este valor. Evaluando, por ejemplo, f 0 (x) en x = e−2 < e−1 observamos que
+f 0 (e−2 ) = −1 < 0, de modo que f 0 (x) < 0 en el intervalo (0, 1/e) y f (x) es decreciente en
+dicho intervalo. Del mismo modo, evaluando, por ejemplo, f 0 (x) en x = e > e−1 observamos
+que f 0 (e) = 2 > 0, de modo que f 0 (x) > 0 en el intervalo (1/e, +∞) y f (x) es creciente en
+dicho intervalo.
+
+
+           Resolución EBAU 2022. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                 9
+
+
+   En conclusión, f (x) es decreciente en el intervalo (0, 1/e) y creciente en el intervalo
+(1/e, +∞).
+
+Observación importante: El apartado a) está enunciado de manera que por ”y determine
+sus intervalos de crecimiento y/o decrecimiento” se refiere a los intervalos de crecimiento y/o
+decrecimiento de la función f (x). No obstante, si alguien lo interpreta como los intervalos de
+crecimiento y/o decrecimiento de la derivada de f (x) y está bien realizado, se dará por válido.
+
+b) Para calcular la integral indefinida de f (x) utilizamos el método de integración por partes,
+                                                               dx        R       x2
+haciendo u = ln(x) y dv = xdx. En ese caso se tiene du =           y v = xdx = , por lo que
+                                                                x                 2
+                                               Z 2
+                                   x2                         x2
+               Z                                                           Z
+                                                  x dx                   1
+                   x ln(x)dx =        ln(x) −         ·    =     ln(x) −     xdx
+                                    2              2 x         2         2
+                                   x2          1 x2       x2         x2
+                               =      ln(x) − ·         =    ln(x) −    + C.
+                                    2          2 2        2           4
+c) Por el apartado b) sabemos que la primitiva general de f (x) es
+
+                                             x2         x2
+                                   F (x) =      ln(x) −    + C.
+                                             2          4
+Se trata, por tanto, de calcular el valor de C para que F (1) = 0. En este caso
+
+                   12         12      1     1       1              1
+           F (1) =    ln(1) −    + C = · 0 − + C = − + C = 0 ⇐⇒ C = .
+                   2          4       2     4       4              4
+La solución es
+                                           x2         x2 1
+                                   F (x) =    ln(x) −   + .
+                                           2          4  4
+
+
+Cuestiones 5 y 6. Geometrı́a (2,5 puntos cada una)
+
+     Cuestión 5.
+
+    Considere las siguientes rectas:
+                                                              
+                          x+2   y−3   z                           x−z = 0
+                       r:     =     =                y   s:
+                           −1    1    0                            y  = 1
+
+       a) (1 p.) Estudie la posición relativa de ambas rectas.
+
+       b) (1,5 p.) En caso de que las rectas se corten, calcule la ecuación del plano que
+          las contiene y el ángulo que forman ambas rectas. En caso de que las rectas se
+          crucen, calcule la perpendicular común a ambas rectas.
+
+
+
+
+           Resolución EBAU 2022. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                               10
+
+
+Solución: a) La recta r, que viene dada en forma continua, pasa por el punto P (−2, 3, 0) y
+tiene como vector director el vector ~v = (−1, 1, 0).
+    Por otra parte, haciendo, por ejemplo, x = 0 en la ecuaciones implı́citas de la recta s vemos
+que esta recta pasa por el punto Q(0, 1, 0). Dado que la recta s viene dada en implı́citas como
+intersección de dos planos, su vector director se puede calcular como el producto vectorial de
+los vectores perpendiculares a dichos planos, es decir,
+                                              ~i ~j ~k
+                 ~ = (1, 0, −1) × (0, 1, 0) = 1 0 −1
+                 w                                          = ~k + ~i = (1, 0, 1).
+                                              0 1 0
+    A partir de aquı́, como los vectores ~v y w
+                                              ~ no son colineales sabemos que las rectas r y s se
+cortan o se cruzan. Para decidir cuál de las dos alternativas es la correcta basta con estudiar
+                                            −→
+el rango del conjunto de vectores {~v , ~
+                                        w, P Q}: si el rango es 2 entonces la rectas se cortan y
+si el rango es 3 entonces la rectas se cruzan. Obsérvese que el rango es al menos 2 porque ya
+                                                                 −→
+sabemos que ~v y w ~ no son colineales. Por lo tanto, dado que P Q = Q − P = (2, −2, 0) basta
+con estudiar el rango de la matriz
+                                                              
+                                        ~v          −1 1 0
+                              M = w     ~ = 1           0 1 .
+                                       −→
+                                       PQ            2 −2 0
+Es fácil ver que |M | = 2 − 2 = 0 y por lo tanto el rango de M es 2 y las rectas se cortan.
+    Otra forma de concluir que las rectas se cortan es estudiar el sistema de cuatro ecuaciones
+con tres incógnitas formado por las dos ecuaciones implı́citas de ambas rectas y comprobar
+que se trata de un sistema compatible determinado. Para ello, necesitamos las ecuaciones
+implı́citas de r, que se obtienen a partir de la ecuación continua haciendo
+                x+2       y−3                               y−3      z
+                       =       =⇒ x + 2 = −y + 3 y                = =⇒ z = 0,
+                  −1       1                                  1      0
+es decir                                                
+                               x+y = 1                     x−z = 0
+                         r:                      y s:
+                                 z    = 0                    y    = 1
+Se trata entonces de estudiar el sistema
+                                        
+                                        
+                                          x+y = 1
+                                             z     = 0
+                                        
+                                        
+                                          x −  z  = 0
+                                             y     = 1
+                                        
+
+En este caso es muy fácil ver que se trata de un sistema compatible determinado porque tiene
+una única solución dada por z = 0 (2ª ecuación), y = 1 (4ª ecuación) y, consecuentemente
+x = 0 (1ª y 3ª ecuaciones). El punto de corte de r y s es por tanto el punto (0, 1, 0).
+    Alternativamente, también se puede concluir que las rectas se cortan estudiando la inter-
+sección de la recta r dada en paramétricas con s dada en implı́citas y comprobando que se
+trata de un punto. Para ello, escribimos la recta r en paramétricas, haciendo
+                                         x = −2 − λ
+                                         y = 3+λ
+                                         z = 0
+
+
+           Resolución EBAU 2022. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                               11
+
+
+y lo sustituimos en las ecuaciones implı́citas de s:
+                                                          
+                    x−z = 0               −2 − λ − 0 = 0      λ = −2
+              s:                  =⇒                     =⇒
+                      y    = 1                3+λ    = 1      λ = −2
+
+ Por lo tanto, las rectas se cortan en el punto determinado por λ = −2 =⇒ (0, 1, 0).
+ b) Como las rectas se cortan, debemos calcular la ecuación del plano que las contiene y el
+ ángulo que forman ambas rectas. Para calcular la ecuación del plano que las contiene, basta
+ con tomar un punto cualquiera de una de las dos rectas como punto del plano y los vectores
+~v y w
+     ~ como vectores directores del plano. Por ejemplo, tomando el punto P (−2, 3, 0) se tiene
+ que la ecuación implı́cita del plano que contiene a r y s es
+
+              x+2 y−3 z
+               −1  1  0          = 0 =⇒ x + 2 − z + y − 3 = 0 =⇒ x + y − z = 1.
+                1  0  1
+
+Otra manera de calcular este plano es calcular ~n, el vector normal del plano, que viene dado
+por
+                                                ~i ~j ~k
+                  ~ = (−1, 1, 0) × (1, 0, 1) = −1 1 0 = ~i + ~j − ~k = (1, 1, −1).
+        ~n = ~v × w
+                                                 1 0 1
+Por lo tanto, el plano buscado es de la forma x + y − z = D, siendo D tal que el plano pase
+por el punto P (−2, 3, 0) (por ejemplo). Es decir, −2 + 3 − 0 = D =⇒ D = 1 y la solución es
+x + y − z = 1.
+   Por otra parte, para calcular el ángulo que forman basta calcular el ángulo que forman
+sus correspondientes vectores directores, mediante la fórmula
+
+                                       |~v · ~
+                                             w|     1   1                  π
+     cos ∠(r, s) = cos ∠(~v , ~
+                              w) =               = √ √ = =⇒ ∠(r, s) = 60o = radianes.
+                                     |~v | · | ~
+                                              w|    2 2 2                  3
+
+     Cuestión 6.
+
+    Considere los puntos A = (1, −1, 2) y B = (3, 5, 2).
+
+       a) (1,5 p.) Determine la ecuación del plano π perpendicular al segmento AB y
+          que pasa por el punto medio de dicho segmento.
+
+       b) (1 p.) Calcule la distancia del punto A al plano π.
+
+
+                                                                                      −→
+Solución: a) Evidentemente, el vector normal del plano π es el vector ~n = AB = B − A =
+(3, 5, 2) − (1, −1, 2) = (2, 6, 0) k (1, 3, 0). Tomamos entonces ~n = (1, 3, 0), de manera que la
+ecuación implı́cita del plano π es de la forma x + 3y = D. Para determinar D utilizamos la
+información adicional de que el plano π pasa por el punto medio del segmento AB, es decir,
+por el punto
+                          A+B         (1, −1, 2) + (3, 5, 2)   (4, 4, 4)
+                    M=             =                         =           = (2, 2, 2).
+                             2                   2                 2
+
+
+           Resolución EBAU 2022. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                12
+
+
+  Por lo tanto, 2 + 3 · 2 = D =⇒ D = 2 + 6 = 8. En conclusión, π es el plano de ecuación
+  x + 3y = 8.
+      b) Por la situación geométrica considerada, resulta obvio que la distancia de A al plano
+  π no es más que la distancia de A al punto M que, a su vez, no es más que la mitad de la
+  distancia de A a B. Por lo tanto
+                                        −→     √            √
+                           d(A, B)     |AB|      22 + 62      40 √
+    d(A, π) = d(A, M ) =            =       =            =       = 10 unidades de distancia.
+                              2          2         2         2
+  Otra forma de resolver este apartado es aplicando directamente la fórmula de la distancia del
+  punto A = (1, −1, 2) al plano π : x + 3y − 8 = 0, de modo que
+
+                             |1 − 3 − 8|   10  √
+                   d(A, π) = √           = √ = 10 unidades de distancia.
+                                12 + 32     10
+
+  Cuestiones 7 y 8. Estadı́stica y Probabilidad (2,5 puntos cada una)
+
+       Cuestión 7.
+
+       Dos urnas A y B contienen bolas de colores con la siguiente composición: La urna
+       A contiene 6 bolas verdes y 4 bolas negras, y la urna B contiene 2 bolas verdes, 4
+       bolas negras y 3 bolas rojas. Se saca al azar una bola de la urna A y se mete en la
+       urna B. A continuación, se saca al azar una bola de la urna B. Calcule:
+
+         a) (0,75 p.) La probabilidad de que la bola que se saca de la urna B sea roja.
+
+         b) (0,75 p.) La probabilidad de que la bola que se saca de la urna B sea verde,
+            sabiendo que la bola que se sacó de la urna A era verde.
+
+         c) (1 p.) La probabilidad de que la bola que se saca de la urna B sea negra.
+
+
+
+  Solución: Observemos en primer lugar que la urna A tiene un total de 10 bolas, de las cuales
+  6 son verdes y 4 son negras. La urna B tiene un total de 9 bolas, de las cuales 2 son verdes,
+  4 son negras y 3 son rojas. Una vez que se ha sacado al azar una bola de la urna A y se
+  ha metido en la urna B, la urna B contiene un total de 10 bolas, siendo su composición la
+  siguiente:
+
+Caso 1: 3 verdes, 4 negras y 3 rojas, en el caso en que la bola sacada de la urna A haya sido
+        verde, o
+
+Caso 2: 2 verdes, 5 negras y 3 rojas, en el caso en que la bola sacada de la urna A haya sido
+        negra.
+
+  a) La probabilidad de que la bola que se saca de la urna B sea roja es independiente del color
+  de la bola que se ha pasado de la urna A a la B, porque en la urna A no hay bolas rojas y, por
+
+
+
+
+             Resolución EBAU 2022. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                               13
+
+
+tanto, el número de bolas rojas en la urna B sigue siendo siempre 3. Por tanto, en cualquiera
+de los dos casos anteriores la probabilidad de que la bola que se saca de la urna B sea roja es
+                            casos favorables    nº de bolas rojas en B    3
+         P (Bola Roja) =                     =                          =    = 0, 3.
+                             casos posibles    nº de bolas totales en B   10
+b) Como la bola que se sacó de la urna A era verde, significa que estamos en el Caso 1 y la
+composición de la urna B, una vez que se ha pasado una bola verde de A a B, es la siguiente:
+3 bolas verdes, 4 bolas negras y 3 bolas rojas. Por lo tanto, en este caso la probabilidad de
+que la bola que se saca de B sea verde es
+                    casos favorables   nº de bolas verdes en B     3
+                                     =                          =    = 0, 3.
+                     casos posibles    nº de bolas totales en B   10
+Observemos que en este caso estamos calculando de hecho una probabilidad condicionada, ya
+que se trata de
+                                     nº de bolas verdes en B en el Caso 1    3
+        P (Bola Verde/Caso 1) =                                           =    = 0, 3.
+                                           nº de bolas totales en B         10
+Esta observación no es estrictamente necesaria en este apartado pero sı́ lo será en el apartado
+c).
+    c) En este apartado no sabemos de qué color es la bola que se ha pasado de A a B. Por
+lo tanto, y siguiendo la observación hecha en el apartado b), debemos utilizar el teorema de
+la probabilidad total para ver que
+
+P (Bola Negra) = P (Bola Negra/Caso 1) · P (Caso 1) + P (Bola Negra/Caso 2) · P (Caso 2).
+
+Pasamos a continuación a calcular cada una de estas probabilidades. Como el Caso 1 corres-
+ponde al caso en que la bola sacada de A es verde, se tiene
+                                             casos favorables   nº de bolas verdes en A    6
+P (Caso 1) = P (sacar Bola Verde de A) =                      =                          = .
+                                              casos posibles    nº de bolas totales en A  10
+Además, en este caso, se tiene
+                                        nº de bolas negras en B en el Caso 1   4
+            P (Bola Negra/Caso 1) =                                          = .
+                                              nº de bolas totales en B        10
+    Análogamente, como el Caso 2 corresponde al caso en que la bola sacada de A es negra,
+se tiene
+                                             casos favorables   nº de bolas negras en A   4
+P (Caso 2) = P (sacar Bola Negra de A) =                      =                          = .
+                                              casos posibles    nº de bolas totales en A  10
+En este caso se tiene
+                                        nº de bolas negras en B en el Caso 2   5
+            P (Bola Negra/Caso 2) =                                          = .
+                                              nº de bolas totales en B        10
+En conclusión,
+                                      4 6   5 4    24 + 20    44
+                  P (Bola Negra) =     ·  +  ·   =         =     = 0, 44.
+                                     10 10 10 10     100     100
+
+           Resolución EBAU 2022. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                               14
+
+
+     Cuestión 8.
+
+    En este ejercicio trabaje con 4 decimales para las probabilidades.
+    El cociente intelectual (CI) de los estudiantes universitarios sigue una distribución
+    normal de media µ y desviación tı́pica σ desconocidas. Se sabe que la media es igual
+    a 10 veces la desviación tı́pica y que el 93,32 % de los estudiantes tiene un CI menor
+    de 115.
+
+       a) (1,5 p.) Calcule la media y la desviación tı́pica de esta distribución.
+
+       b) (1 p.) Si se eligen al azar 5 estudiantes universitarios, ¿cuál es la probabilidad
+          de que exactamente 3 de ellos tengan un CI mayor de 115?
+
+
+
+Solución: a) Denotemos por X a la variable aleatoria ”CI de los estudiantes universitarios”.
+Sabemos que X ∼ N (µ, σ) con µ = 10σ. Además, sabemos que P (X < 115) = 0, 9332.
+                                     X −µ
+Haciendo uso de la tipificación Z =      sabemos entonces que Z ∼ N (0, 1) y que
+                                       σ
+                                                    115 − µ
+                          P (X < 115) = P (Z <              ) = 0, 9332.
+                                                       σ
+Consultando en la tabla de Z ∼ N (0, 1) proporcionada, vemos que dicho valor de la probabi-
+lidad corresponde al valor de z = 1, 5, es decir,
+                     115 − µ
+                z=           = 1, 5 =⇒ 115 − µ = 1, 5σ =⇒ µ + 1, 5σ = 115.
+                        σ
+Pero como µ = 10σ, se tiene
+                                                         115
+        10σ + 1, 5σ = 115 =⇒ 11, 5σ = 115 =⇒ σ =               = 10 =⇒ µ = 10σ = 100.
+                                                         11, 5
+Por lo tanto se tiene media= µ = 100 y desvación tı́pica= σ = 10.
+
+b) Este apartado es independiente de a). En este caso llamamos Y a la variable aleatoria que
+cuenta el número de estudiantes universitarios con CI mayor que 115 cuando se eligen al azar
+5 estudiantes universitarios, y el ejercicio pide calcular la probabilidad de que Y = 3.
+    La variable aleatoria Y sigue una distribución binomial de parámetros n = 5, porque se
+eligen 5 estudiantes universitarios, y p = P (X > 115), porque el éxito del experimento es que
+el CI sea mayor de 115. Por la información dada en el enunciado, sabemos que
+
+                p = P (X > 115) = 1 − P (X < 115) = 1 − 0, 9332 = 0, 0668.
+
+Por lo tanto Y ∼ B(5, 0, 0668) es una binomial con n = 5, p = 0, 0668 y q = 1 − p = 0, 9332.
+En tal caso, la probabilidad de que Y = 3 viene dada por
+                          
+                           5
+            p(Y = 3) =        · 0, 06683 · 0, 93322 ≈ 10 · 0, 0003 · 0, 8709 = 0, 0026.
+                           3
+
+
+
+           Resolución EBAU 2022. Luis J. Alı́as Linares, Coordinador Matemáticas II
+

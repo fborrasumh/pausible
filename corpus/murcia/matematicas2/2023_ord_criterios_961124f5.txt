@@ -1,0 +1,838 @@
+           RESOLUCIÓN DEL EXAMEN EBAU JUNIO 2023
+                                   Matemáticas II
+
+    El objeto de este documento es doble. Por una parte, proporcionar a los profesores y alum-
+nos de Bachillerato de la Región de Murcia la resolución del examen de Matemáticas II de
+la convocatoria EBAU2023-JUNIO. Por otra parte, agilizar las posibles reclamaciones
+a la corrección del examen, toda vez que, habiendo hecho pública la resolución de las cues-
+tiones, pueda ser más fácil indentificar posibles errores en la corrección. Evidentemente, por
+la propia naturaleza de la disciplina, una misma cuestión admite múltiples soluciones
+válidas y correctas y resulta prácticamente imposible recoger aquı́ toda esa variedad de
+soluciones. Por supuesto, cualquier otra solución a cualquiera de las cuestiones del examen
+que sea correcta y esté bien argumentada deberá ser considerada como válida en el proceso
+de corrección, aunque no esté incluida en este documento.
+
+   Como es bien sabido, el examen consta de un total de ocho cuestiones y se debe responder
+a un máximo de cuatro de ellas, elegidas libremente por el alumno. Las ocho cuestiones
+se pueden agrupar por bloques temáticos de la siguiente manera, pero insistimos en que se
+pueden escoger libremente un máximo de cuatro y en cualquier orden, independientemente
+de que pertenezcan o no al mismo bloque temático:
+
+Cuestiones 1 y 2: Del bloque de Números y Álgebra (2,5 puntos cada una).
+
+Cuestiones 3 y 4: Del bloque de Análisis (2,5 puntos cada una).
+
+Cuestiones 5 y 6: Del bloque de Geometrı́a (2,5 puntos cada una).
+
+Cuestiones 7 y 8: Del bloque de Estadı́stica y Probabilidad (2,5 puntos una).
+
+Si se responde a más de cuatro cuestiones, sólo se corrigen las cuatro primeras, en el orden
+que haya respondido el estudiante. Solo se pueden usar las tablas estadı́sticas que se propor-
+cionan con el examen y, según la normativa vigente, no se puden usar calculadoras gráficas
+ni programables.
+
+
+                               En Murcia, a 6 de junio de 2023.
+
+                                    Luis J. Alı́as Linares
+                                 Coordinador Matemáticas II
+                                Departamento de Matemáticas
+                                   Universidad de Murcia
+                                               2
+
+
+Bloque 1: Números y Álgebra (2,5 puntos cada una)
+
+     Cuestión 1.
+
+    Una papelerı́a vende bolı́grafos, rotuladores y libretas. Una libreta cuesta el doble
+    que un bolı́grafo y un rotulador juntos, un bolı́grafo cuesta la sexta parte que una
+    libreta, y un rotulador cuesta el doble que un bolı́grafo.
+       a) (0,75 p.) Denotando por x el precio de cada bolı́grafo, por y el de cada
+          rotulador y por z el de cada libreta, plantee un sistema de 3 ecuaciones con 3
+          incógnitas que represente los datos del ejercicio.
+
+       b) (0,25 p.) Justifique que, con estos datos, no se puede conocer el precio de
+          cada uno de los tres productos.
+
+       c) (1 p.) Calcule el conjunto de todas las posibles soluciones del sistema.
+
+       d) (0,5 p.) Sabiendo que una libreta cuesta 18 euros, calcule el precio de cada
+          producto.
+
+
+Solución: a) Se trata de un sistema de tres ecuaciones con tres incógnitas, en donde las
+incógnitas son el precio unitario de cada uno de los productos. Denotemos por x el precio de
+cada bolı́grafo, por y el precio de cada rotulador y por z el precio de cada libreta. El primer
+dato del ejercicio es que ”una libreta cuesta el doble que un bolı́grafo y un rotulador juntos”,
+que da lugar a la primera ecuación:
+                              z = 2(x + y) ⇐⇒ 2x + 2y − z = 0.
+El segundo dato del ejercicio es que ”un bolı́grafo cuesta la sexta parte que una libreta”, que
+da lugar a la segunda ecuación:
+                                        z
+                                   x = ⇐⇒ 6x − z = 0.
+                                        6
+El tercer dato del ejercicio es que ”un rotulador cuesta el doble que un bolı́grafo”, que da
+lugar a la tercera ecuación:
+                                   y = 2x ⇐⇒ 2x − y = 0.
+Por lo tanto, hay que resolver el siguiente sistema lineal de ecuaciones:
+                                    
+                                     2x + 2y − z = 0
+                                          6x − z      = 0
+                                          2x − y      = 0
+                                    
+
+b) Como se puede observar, se trata de un sistema de ecuaciones homogéneo, que es siempre
+un sistema compatible ya que, al ser la última columna de A∗ = (A|b) una columna de ceros,
+siempre se tiene que rango(A) = rango(A∗ ). En este caso se tiene
+                                                           
+                                             2 2 −1 0
+                            A∗ = (A|b)  6 0 −1 0  .
+                                             2 −1 0       0
+
+
+        Resolución EBAU Junio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                3
+
+
+                                                              0 −1
+A tiene al menos un menor de orden 2 distinto de cero,                 = −1 6= 0, y su determi-
+                                                             −1 0
+nante es
+                                       2 2 −1
+                              |A| =    6 0 −1       = 6 − 4 − 2 = 0.
+                                       2 −1 0
+Por lo tanto, rango(A) = rango(A∗ ) = 2 < 3 y se trata de un sistema compatible indetermi-
+nado con infinitas soluciones dependientes de un parámetro. Por lo tanto, con los datos de
+que se dispone no es posible conocer el precio de cada uno de los productos.
+
+c) El sistema se puede resolver en función de un parámetro. Por ejemplo, eligiendo como
+parámetro x = λ y desechando la primera ecuación, queda el sistema
+                                                 
+                              6λ − z = 0             z = 6λ
+                                             =⇒
+                              2λ − y = 0             y = 2λ
+
+cuya solución es
+                              x = λ,   y = 2λ   y z = 6λ,    λ ∈ R.
+d) Sabiendo que z = 6λ = 18 euros (precio de cada libreta) se concluye que x = λ = 3 euros
+(precio de cada bolı́grafo) y que y = 6 euros (precio de cada rotulador).
+
+     Cuestión 2.
+
+    Considere las siguientes matrices:
+                                                                          
+                        a a              −1 −4                          5 −6
+              A=               , B=                         y C=
+                      −1 a                2  3                         −2 3
+
+       a) (0,5 p.) Determine para qué valores del parámetro a la matriz A es regular
+          (o invertible).
+    Se sabe que cuando a = −2 la matriz A es regular (o invertible). Para ese valor de
+    a:
+       b) (1 p.) Calcule la inversa de A y compruebe que A · A−1 = I, con I la matriz
+          identidad de orden 2.
+
+       c) (1 p.) Resuelva la ecuación matricial AXA−1 + B = C > , donde C > denota la
+          matriz traspuesta de C.
+
+
+
+Solución: a) Sabemos que A es regular si y sólo si |A| 6= 0. En este caso se tiene |A| =
+a2 + a = a(a + 1). Por lo tanto
+
+                A no es regular ⇐⇒ |A| = a(a + 1) = 0 ⇐⇒ a = 0 o a = −1
+
+o, equivalentemente,
+
+                    A es regular ⇐⇒ |A| = a(a + 1) 6= 0 ⇐⇒ a 6= 0 y a 6= −1.
+
+
+        Resolución EBAU Junio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                     4
+
+
+Es decir, A es regular para todo valor de a distinto de 0 y de −1.
+b) Como a = −2 se tiene
+                                       
+                               −2 −2
+                        A=                   y |A| = 4 − 2 = 2 6= 0.
+                               −1 −2
+
+Podemos calcular la inversa de A por cualquiera de los métodos válidos. Por ejemplo, utili-
+zando la fórmula
+                                                                   
+                    −1    1       T    1 −2       2         −1      1
+                  A =        adj(A ) =                 =                .
+                         |A|           2     1 −2           1/2 −1
+
+Comprobamos que efectivamente se tiene A · A−1 = I:
+                                                                
+          −1       −2 −2          −1    1         2 − 1 −2 + 2     1 0
+      A·A =                  ·               =                  =        .
+                   −1 −2         1/2 −1           1 − 1 −1 + 2     0 1
+
+c) Despejando X en la ecuación matricial se tiene
+
+          AXA−1 + B = C > =⇒ AXA−1 = C > − B =⇒ X = A−1 · (C > − B) · A.
+
+Calculamos entonces
+                                                                               
+                    >                5 −2                −1 −4                6 2
+                   C −B =                        −                   =                  .
+                                    −6  3                 2  3               −8 0
+
+Por lo tanto
+                                                            
+                                    −1   1                 −2 −2
+                                                          6 2
+                      X =                     ·          ·
+                                    1/2 −1               −8 0
+                                                           −1 −2
+                                                      
+                                    −14   −2       −2 −2
+                            =                  ·
+                                     11    1       −1 −2
+                                             
+                                     30    32
+                            =                    .
+                                    −23   −24
+
+
+Bloque 2: Cuestiones 3 y 4. Análisis (2,5 puntos cada una)
+
+     Cuestión 3.
+
+    Calcule los siguientes lı́mites:
+                         cos(2x) − 1
+       a) (1,25 p.) lı́m             .
+                      x→0 x sen(x)
+                         √         √
+                           9+x− 9−x
+       b) (1,25 p.) lı́m               .
+                    x→0         3x
+
+
+
+
+        Resolución EBAU Junio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                     5
+
+
+Solución: a) Comenzamos calculando
+                            cos(2x) − 1   cos(0) − 1    1−1  0
+                          lı́m          =             =     = .
+                         x→0 x sen(x)      0 · sen(0)   0·0  0
+Podemos resolver esta indeterminación aplicando la regla de L’Hôpital y se tiene
+          cos(2x) − 1          −2 sen(2x)           −2 sen(0)        −2 · 0  0
+        lı́m          = lı́m                  =                   =         = .
+       x→0 x sen(x)     x→0 sen(x) + x cos(x)   sen(0) + 0 cos(0)   0+0·1    0
+Aplicamos de nuevo la regla de L’Hôpital y se tiene
+                         −2 sen(2x)                   −4 cos(2x)
+                  lı́m                  = lı́m
+                  x→0 sen(x) + x cos(x)   x→0 cos(x) + cos(x) − x sen(x)
+
+                                                   −4 cos(0)
+                                        =
+                                          cos(0) + cos(0) − 0 · sen(0)
+                                               −4      −4
+                                        =           =      = −2.
+                                          1+1−0         2
+En resumen
+                                       cos(2x) − 1
+                                      lı́m         = −2.
+                                   x→0 x sen(x)
+
+b) En primer lugar observamos que
+                               √         √         √     √
+                                 9+x− 9−x             9− 9     0
+                          lı́m                   =           = .
+                          x→0         3x               0       0
+Un modo sencillo de resolver esta indeterminación es operando algebraicamente:
+          √         √             √         √         √        √
+            9+x− 9−x                9+x− 9−x            9+x+ 9−x
+                               =                    ·√         √
+                 3x                      3x             9+x+ 9−x
+                                   √           √
+                                  ( 9 + x)2 − ( 9 − x)2        9 + x − (9 − x)
+                               =      √         √         =    √         √
+                                   3x( 9 + x + 9 − x)       3x( 9 + x + 9 − x)
+                                        9+x−9+x                   2x
+                                 =      √       √       =    √       √
+                                     3x( 9 + x + 9 − x)   3x( 9 + x + 9 − x)
+                                              2
+                                 =     √        √      .
+                                     3( 9 + x + 9 − x)
+Por lo tanto,
+       √         √
+         9+x− 9−x                 2              2         2      2   1
+  lı́m             = lı́m √         √      = √     √ =          =    = .
+  x→0         3x     x→0 3( 9 + x + 9 − x)  3( 9 + 9)  3(3 + 3)   18  9
+
+   Para los incondicionales de L’Hôpital, la indeterminación inicial también se puede resolver
+por el método de L’Hôpital, haciendo
+                  √        √
+                   9+x− 9−x                    √1
+                                              2 9+x
+                                                    − 2√−1
+                                                        9−x
+                                                                      √1
+                                                                     2 9+x
+                                                                                 1
+                                                                           + 2√9−x
+             lı́m                    = lı́m                  = lı́m
+             x→0        3x              x→0          3          x→0        3
+                                              1
+                                              √  + 2 1√9       √1
+                                             2 9                 91
+                                       =                   =     = .
+                                                 3             3  9
+
+        Resolución EBAU Junio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                     6
+
+
+     Cuestión 4.
+
+                                   x2
+    Considere la función f (x) =       , definida para todo valor de x ∈ R.
+                                 1 + x2
+       a) (0,5 p.) Calcule lı́mx→+∞ f (x)
+
+       b) (0,5 p.) Calcule la derivada de f (x) y determine los intervalos de crecimiento
+          y/o decrecimiento de la función f (x).
+
+       c) (1 p.) Calcule la integral indefinida de la función f (x).
+
+       d) (0,5 p.) Determine la primitiva de f (x) que pasa por el punto (1, 1).
+
+
+                                        x2     +∞
+Solución: a) lı́mx→+∞ f (x) = lı́mx→+∞    2
+                                             =    . Para resolver esta indeterminación
+                                       1+x     +∞
+podemos operar algebraicamente, observando que
+                                                   x 2
+                                           x2      x2         1
+                                                =     2 = 1       .
+                                         1 + x2   1+x
+                                                   x2     x 2 + 1
+
+De este modo,
+                            x2             1       1      1
+                      lı́m       =  lı́m 1    =  1     =     = 1.
+                     x→+∞ 1 + x2   x→+∞ 2 + 1       +1   0+1
+                                         x      +∞
+
+    También se puede razonar por la regla de los grados. En este caso, como el numerador y
+el denominador son ambos polinomios de grado 2, se tiene
+
+                                        x2            x2  1
+                                  lı́m      2
+                                              =  lı́m  2
+                                                         = = 1.
+                                 x→+∞ 1 + x     x→+∞ x    1
+b) La derivada de f (x) viene dada por
+
+                            2x · (1 + x2 ) − x2 · 2x   2x + 2x3 − 2x3      2x
+                f 0 (x) =                  2 2
+                                                     =          2 2
+                                                                      =            .
+                                   (1 + x )               (1 + x )      (1 + x2 )2
+
+Para determinar los intervalos de crecimiento y/o decrecimiento de la función f (x), calculamos
+primero los puntos crı́ticos de f (x), es decir, las soluciones de la ecuación f 0 (x) = 0:
+
+                                  f 0 (x) = 0 ⇐⇒ 2x = 0 ⇐⇒ x = 0.
+
+A continuación, estudiamos el signo de f 0 (x) para ver dónde la función es creciente o decre-
+ciente. Como f 0 (x) = 0 solo para x = 0, basta con darle valores a f 0 (x) a la izquierda y a
+la derecha de este valor. Además, el denominador de f 0 (x) es siempre positivo, por lo que el
+signo de f 0 (x) solo depende del signo del numerador. Observamos que f 0 (x) > 0 ⇐⇒ x > 0 y
+que f 0 (x) < 0 ⇐⇒ x < 0, de modo que f (x) es creciente en el intervalo (0, +∞) y decreciente
+en el intervalo (−∞, 0).
+
+
+
+        Resolución EBAU Junio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                   7
+
+
+c) Se trata de una integral racional casi elemental. Operando algebraicamente se tiene
+
+                     x2     x2 + 1 − 1   x2 + 1    1          1
+                        2
+                          =        2
+                                       =      2
+                                                −     2
+                                                        =1−        .
+                    1+x       1+x        1+x      1+x       1 + x2
+Por lo tanto,
+                          x2
+                    Z                 Z                    
+                                                 1
+                               dx =         1−                  dx = x − arc tg x + C.
+                        1 + x2                 1 + x2
+d) Por el apartado c) sabemos que la primitiva general de f (x) es F (x) = x − arc tg x + C.
+Se trata, por tanto, de calcular el valor de C para que F (1) = 1. En este caso
+                                                            π               π
+                    F (1) = 1 − arc tg 1 + C = 1 −            + C = 1 ⇐⇒ C = .
+                                                            4               4
+                                         π
+La solución es F (x) = x − arc tg x +     .
+                                         4
+
+
+Bloque 3: Cuestiones 5 y 6. Geometrı́a (2,5 puntos cada una)
+
+     Cuestión 5.
+
+    Considere las siguientes rectas:
+                     
+                        x − 2y = 5                          x−8   y+3   z−3
+                  r:                           y       s:       =     =     .
+                         y+z = 0                             2     1     −1
+
+       a) (1 p.) Compruebe que ambas rectas son paralelas.
+
+       b) (1 p.) Compruebe que el punto P = (7, 1, −1) está en la recta r y calcule su
+          proyección ortogonal sobre la recta s.
+
+       c) (0,5 p.) Calcule la distancia entre ambas rectas.
+
+
+
+Solución: a) El vector director de la recta r viene dado por
+                                          ~i ~j ~k
+           ~vr = (1, −2, 0) × (0, 1, 1) = 1 −2 0                = −2~i − ~j + ~k = (−2, −1, 1).
+                                          0 1 1
+
+Además, el vector director de la recta s es ~vs = (2, 1, −1). Como ambos vectores son paralelos,
+significa que las rectas r y s o bien son paralelas o bien son coincidentes. El punto Q =
+(8, −3, 3) está en s pero no está en r, ya que no cumple la primera de las ecuaciones de r
+(8 + 6 6= 5), por lo que se trata de dos rectas paralelas.
+    Otra forma de resolver este apartado es pasar la recta s a su forma implı́cita y estudiar el
+sistema de ecuaciones resultante de las dos rectas. Es ese caso, la recta s se escribe como
+                                                           
+                         x−8      y+3       z−3                x − 2y = 14
+                      s:       =         =         =⇒ s :
+                           2        1         −1                y+z = 0
+
+
+        Resolución EBAU Junio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                               8
+
+
+y el sistema de ecuaciones resultante es el siguiente sistema de cuatro ecuaciones con tres
+incógnitas:                        
+                                    
+                                      x − 2y = 5
+                                        y+z = 0
+                                    
+                                    
+                                      x − 2y = 14
+                                        y+z = 0
+                                    
+
+   La matriz del sistema es
+                                                            
+                                            1 −2 0         5
+                                            0 1 1          0 
+                               A∗ = (A|b) 
+                                          
+                                                             .
+                                           1 −2 0        14 
+                                            0 1 1          0
+
+    En este caso es muy fácil ver que se trata de un sistema incompatible (la primera y la
+tercera ecuación son incompatibles). Además, rango(A) = 2 y rango(A∗ ) = 3, ya que A tiene
+solo 2 filas linealmente independientes pero A∗ tiene algún menor de orden 3 distinto de 0,
+por ejemplo,
+                                1 −2 5
+                                0 1 0 = 14 − 5 = 9 6= 0.
+                                1 −2 14
+Esto significa que las rectas son paralelas.
+
+b) El punto P = (7, 1, −1) está en la recta r porque cumple sus dos ecuaciones:
+                            
+                                x − 2y = 7 − 2 = 5
+                         r:                             =⇒ P ∈ r.
+                                 y+z =1−1 = 0
+
+    La proyección ortogonal de P sobre s se puede calcular como intersección de la recta s con
+el plano π perpendicular a s que pasa por P . Vamos entonces a calcular este plano π. Como
+el vector director de s es ~vs = (2, 1, −1), el haz de planos perpendiculares a s viene dado por
+2x + y − z + D = 0, con D ∈ R. Calculamos el valor de D para que π pase por P :
+
+             P ∈ π ⇐⇒ 2 · 7 + 1 − (−1) + D = 0 ⇐⇒ 16 + D = 0 ⇐⇒ D = −16.
+                                                       
+                                                         x − 2y = 14
+Por tanto, π : 2x + y − z = 16. Como la recta s es s :                   , la proyección orto-
+                                                          y+z = 0
+gonal de P sobre s viene dado como la solución del siguiente sistema, que por interpretación
+geométrica es S.C.D. (no es necesario comprobarlo):
+                                                                  
+         2x + y − z = 16                         2 1 −1 16
+              x − 2y    = 14 =⇒ A∗ = (A|b)  1 −2 0              14  con |A| = −6.
+               y+z      = 0                       0 1      1      0
+        
+
+La solución es
+                                       16 1 −1
+                                1                        −60
+                            x=         14 −2 0       =       = 10,
+                               −6                        −6
+                                        0 1  1
+
+
+        Resolución EBAU Junio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                  9
+
+
+                                          2 16 −1
+                                1                            12
+                             y=           1 14 0        =       = −2,
+                                −6                           −6
+                                          0 0 1
+                                          2 1 16
+                                     1                       −12
+                               z=         1 −2 14        =       = 2.
+                                    −6                       −6
+                                          0 1 0
+En conclusión, la proyección ortogonal de P sobre s es el punto Q = (10, −2, 2).
+
+c) La distancia entre ambas rectas se puede calcular directamente como la distancia entre los
+puntos P y Q del apartado anterior:
+                                         −→    √             √       √
+                    d(r, s) = d(P, Q) = |P Q| = 9 + 9 + 9 = 27 = 3 3,
+       −→ −→ −→
+ya que P Q = OQ − OP = (10, −2, 2) − (7, 1, −1) = (3, −3, 3).
+
+   Otra forma de calcular la distancia entre ambas rectas es utilizar que
+                                                            −→
+                                                   |~vs × AP |
+                               d(r, s) = d(P, s) =
+                                                        |~vs |
+siendo P un punto cualquier de la recta r y A un punto cualquiera de la recta s. Podemos
+tomar P = (7, 1, −1) que, por el enunciado, sabemos que está en la recta r y A = (8, −3, 3),
+                                   −→ −→ −→
+con ~vs = (2, 1, −1). En ese caso, AP = OP − OA = (7, 1, −1) − (8, −3, 3) = (−1, 4, −4) y
+                          ~i   ~j ~k
+                   −→
+             ~vs × AP =    2    1 −1       = −4~i + ~j + 8~k + 4~i + 8~j + ~k = (0, 9, 9).
+                          −1    4 −4
+Por tanto,
+                                          −→  √            √
+                                 |~vs × AP |    81 + 81   9 2  9   √
+             d(r, s) = d(P, s) =             =√         = √ = √ = 3 3.
+                                      |~vs |   4+1+1        6   3
+     Cuestión 6.
+
+    Considere el plano π de ecuación π : 3x − y − 2z = 5 y la recta r dada por
+                                         x−a   y−3+a  z
+                                    r:       =       = .
+                                          1      1    1
+       a) (1,25 p.) Estudie la posición relativa del plano π y de la recta r en función
+          del parámetro a.
+
+    Se sabe que cuando a = 0 la recta r es paralela al plano π. Para ese valor de a:
+
+       b) (0,75 p.) Calcule la distancia de la recta r al plano π.
+
+       c) (0,5 p.) Calcule la ecuación general (o implı́cita) del plano que contiene a la
+          recta r y es paralelo al plano π.
+
+
+
+
+        Resolución EBAU Junio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                10
+
+
+Solución: a) Lo más sencillo es pasar la recta r a su forma implı́cita, considerar el sistema
+de ecuaciones formado por la ecuación del plano π y las ecuaciones implı́citas de la recta r y
+estudiar dicho sistema en función del parámetro a. Para ello, observamos que
+                                                       
+                       x−a      y−3+a        z            x−z =        a
+                    r:       =            = =⇒ r :
+                        1           1        1            y − z  =   3 − a
+y el sistema de ecuaciones resultante es el siguiente:
+                                 
+                                  3x − y − 2z =       5
+                                        x−z        =   a
+                                        y−z        = 3−a
+                                 
+
+La matriz del sistema es
+                                                             
+                                         3 −1 −2           5
+                               ∗
+                              A = (A|b) 1 0 −1
+                                                          a .
+                                         0 1 −1           3−a
+El determinante de A es |A| = −2 + 3 − 1 = 0 y como A tiene al menos un menor de orden 2
+                               1 0
+distinto de cero, por ejemplo         = 1 sabemos que rango(A) = 2 para todo valor de a.
+                               0 1
+    Para estudiar el rango de A∗ basta estudiar el rango de la submatriz
+                                                     
+                                       3 −1       5
+                                     1 0         a .
+                                       0 1 3−1
+Su determinante es
+                  3 −1 5
+                  1 0  a            = 5 − 3a + 3 − a = 8 − 4a = 0 ⇐⇒ a = 2.
+                  0 1 3−a
+Por tanto, si a 6= 2 se tiene rango(A∗ ) = 3 > 2 = rango(A) y se trata de un sistema
+incompatible, sin solución. Geométricamente significa que la recta r no corta al plano π y por
+tanto la recta es paralela al plano.
+    Si a = 2 se tiene rango(A∗ ) = 2 = rango(A) < n = 3 y se trata de un sistema compati-
+ble indeterminado, con infinitas soluciones dependientes de un parámetro. Geométricamente
+significa que la recta r está contenida en el plano π.
+
+   b) En este caso se tiene
+                           x   y−3   z
+                      r:     =     =        y    π : 3x − y − 2z − 5 = 0.
+                           1    1    1
+Como se sabe que la recta r es paralela al plano π, podemos calcular d(r, π) = d(P, π) siendo
+P cualquier punto de la recta r. Podemos tomar entonces P = (0, 3, 0) y aplicar directamente
+la fórmula de la distancia de un punto a un plano
+                                   |3 · 0 − 3 − 2 · 0 − 5|   |0 − 3 − 0 − 5|   8
+             d(r, π) = d(P, π) =         √                 =      √          =√ .
+                                           9+1+4                    14         14
+
+        Resolución EBAU Junio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                              11
+
+
+   Otra forma de resolver este apartado es calcular el punto Q obtenido como la proyección
+ortogonal de P = (0, 3, 0) sobre el plano π : 3x − y − 2z − 5 = 0 y utilizar que d(r, π) =
+d(P, π) = d(P, Q). Para calcular Q, basta considerar la recta perpendicular a π que pasa por
+P y calcular Q como la intersección de esta recta con π. La recta perpendicular a π que pasa
+por P viene dada en coordenadas paramétrica por
+                                
+                                 x = 0 + 3λ = 3λ
+                                    y = 3−λ = 3−λ
+                                    z = 0 − 2λ = −2λ
+                                
+
+El punto Q = (3λ, 3 − λ, −2λ) verifica entonces
+                                                                       8  4
+                9λ − 3 + λ + 4λ − 5 = 0 ⇐⇒ 14λ − 8 = 0 ⇐⇒ λ =            = .
+                                                                      14  7
+Es decir,                                      
+                                      12 17 −8
+                                Q=      , ,       ,
+                                       7 7 7
+                                                                  
+               −→ −→ −→          12 17 −8                   12 −4 −8
+               P Q = OQ − OP =     , ,      − (0, 3, 0) =     ,  ,
+                                 7 7 7                      7 7 7
+y                               r                  r           r         √
+                       −→           144 16 64          224         32   4 2 8
+            d(r, π) = |P Q| =          +   +   =           =          = √ =√ .
+                                    49   49 49          49         7      7 14
+
+    c) El haz de planos paralelos al plano π es de la forma 3x−y−2z = D. Como debe contener
+a la recta r, basta con calcular D para que el plano pase por el punto P = (0, 3, 0) ∈ r. Por
+tanto
+
+        0 − 3 − 0 = D ⇐⇒ D = −3 =⇒ La solución es el plano 3x − y − 2z = −3.
+
+
+Cuestiones 7 y 8. Estadı́stica y Probabilidad (2,5 puntos cada una)
+
+     Cuestión 7.
+
+    Dos urnas A y B contienen bolas de colores con la siguiente composición: La urna A
+    contiene 3 bolas verdes, 3 bolas rojas y 4 bolas negras, y la urna B contiene 1 bola
+    verde, 3 bolas rojas y 5 bolas negras. Se saca al azar una bola de la urna A y se
+    mete en la urna B. A continuación, se saca al azar una bola de la urna B. Calcule:
+
+       a) (0,5 p.) La probabilidad de que la bola que se saca de la urna B sea negra,
+          sabiendo que la bola que se sacó de la urna A era verde.
+
+       b) (1 p.) La probabilidad de que la bola que se saca de la urna B sea negra.
+
+       c) (1 p.) La probabilidad de que la bola que se sacó de la urna A fuera verde,
+          sabiendo que la bola que se ha sacado de la urna B ha sido negra.
+
+
+
+
+        Resolución EBAU Junio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                  12
+
+
+  Solución: Observemos en primer lugar que la urna A tiene un total de 10 bolas, de las cuales
+  3 son verdes, 3 son rojas y 4 son negras. La urna B tiene un total de 9 bolas, de las cuales 1
+  es verde, 3 son rojas y 5 son negras.
+      Una vez que se ha sacado al azar una bola de la urna A y se ha metido en la urna B, la
+  urna B contiene un total de 10 bolas, siendo su composición la siguiente:
+Caso 1: La bola sacada de A ha sido verde: 2 verdes, 3 rojas y 5 negras;
+
+Caso 2: La bola sacada de A ha sido roja: 1 verde, 4 rojas y 5 negras;
+
+Caso 3: La bola sacada de A ha sido negra: 1 verde, 3 rojas y 6 negras.
+  a) Como la bola que se sacó de la urna A era verde, significa que estamos en el Caso 1 y la
+  composición de la urna B, una vez que se ha pasado una bola verde de A a B, es la siguiente:
+  2 bolas verdes, 3 bolas rojas y 5 bolas negras. Por lo tanto, en este caso la probabilidad de
+  que la bola que se saca de B sea negra es
+                     casos favorables   nº de bolas negras en B     5
+                                      =                          =    = 0, 5.
+                      casos posibles    nº de bolas totales en B   10
+  Observemos que en este caso estamos calculando de hecho una probabilidad condicionada, ya
+  que se trata de
+                                      nº de bolas negras en B en el Caso 1    5
+           P (Bola Negra/Caso 1) =                                         =    = 0, 5.
+                                            nº de bolas totales en B         10
+  Esta observación no es estrictamente necesaria en este apartado pero sı́ lo será en los apartados
+  siguientes.
+  b) En este apartado no sabemos de qué color es la bola que se ha pasado de A a B. Por lo
+  tanto, y siguiendo la observación hecha en el apartado a), debemos utilizar el teorema de la
+  probabilidad total para ver que
+
+  P (Bola Negra) = P (Bola Negra/Caso 1) · P (Caso 1) + P (Bola Negra/Caso 2) · P (Caso 2)
+                   +P (Bola Negra/Caso 3) · P (Caso 3).
+
+  Pasamos a continuación a calcular cada una de estas probabilidades. Como el Caso 1 corres-
+  ponde al caso en que la bola sacada de A es verde, se tiene
+                                               casos favorables   nº de bolas verdes en A    3
+  P (Caso 1) = P (sacar Bola Verde de A) =                      =                          = .
+                                                casos posibles    nº de bolas totales en A  10
+  Además, en este caso, se tiene
+                                          nº de bolas negras en B en el Caso 1   5
+              P (Bola Negra/Caso 1) =                                          = .
+                                                nº de bolas totales en B        10
+      Análogamente, como el Caso 2 corresponde al caso en que la bola sacada de A es roja, se
+  tiene
+                                              casos favorables    nº de bolas rojas en A    3
+   P (Caso 2) = P (sacar Bola Roja de A) =                     =                          = .
+                                               casos posibles    nº de bolas totales en A  10
+
+
+          Resolución EBAU Junio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                               13
+
+
+En este caso se tiene
+                                    nº de bolas negras en B en el Caso 2      5
+           P (Bola Negra/Caso 2) =                                        = .
+                                          nº de bolas totales en B           10
+    Finalmente, como el Caso 3 corresponde al caso en que la bola sacada de A es negra, se
+tiene
+                                         casos favorables    nº de bolas negras en A    4
+P (Caso 3) = P (sacar Bola Negra de A) =                  =                           = .
+                                          casos posibles     nº de bolas totales en A  10
+En este caso se tiene
+                                       nº de bolas negras en B en el Caso 3   6
+           P (Bola Negra/Caso 3) =                                          = .
+                                             nº de bolas totales en B        10
+En conclusión,
+                            5 3     5 3        6 4      15 + 15 + 24      54
+        P (Bola Negra) =     ·    +     ·   +    ·    =               =      = 0, 54.
+                           10 10 10 10 10 10                 100         100
+   c) Se trata también de una probabilidad condicionada pero en este caso nos están pidiendo
+P (Caso 1/Bola Negra). Por calcularla, observamos que
+                                             P (Caso 1 ∩ Bola Negra)
+              P (Caso 1/Bola Negra) =
+                                                 P (Bola Negra)
+                                             P (Bola Negra ∩ Caso 1)
+                                        =
+                                                 P (Bola Negra)
+                                             P (Bola Negra/Caso 1) · P (Caso 1)
+                                        =
+                                                      P (Bola Negra)
+                                           5 3
+                                             ·       15    5
+                                    = 10 10 =           =    = 0, 2778.
+                                            54       54   18
+                                            100
+Observación: Evidentemente, esta cuestión también se puede hacer por diagrama de árbol.
+     Cuestión 8.
+
+    En este ejercicio trabaje con 4 decimales para las probabilidades.
+    Se lanza una moneda al aire 100 veces y se anota el resultado del lanzamiento, que
+    puede ser cara o cruz con la misma probabilidad. Determine:
+
+       a) (0,5 p.) Qué distribución sigue la variable aleatoria que cuenta el número de
+          veces que sale cara.
+
+       b) (0,5 p.) Calcule la media y la desviación tı́pica de esta distribución.
+
+       c) (0,5 p.) Cuál es la probabilidad de que salga cara 60 veces.
+
+       d) (1 p.) Cuál es la probabilidad de que el número de veces que sale cara sea
+          mayor o igual que 55.
+
+
+
+
+        Resolución EBAU Junio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                 14
+
+
+Solución: a) Llamamos X a la variable aleatoria que cuenta el número de veces que sale cara
+cuando se lanza una moneda al aire 100 veces.
+   La variable aleatoria X sigue una distribución binomial de parámetros n = 100, porque se
+lanza la moneda 100 veces, y p = 0, 5, porque el resultado puede ser cara o cruz con la misma
+probabilidad.
+b) La media de esta distribución es
+                                     µ = n · p = 100 · 0, 5 = 50
+y su desviación tı́pica es
+                               √             p                   √
+                          σ=       n·p·q =    100 · 0, 5 · 0, 5 = 25 = 5.
+c) Se trata de calcular P (X = 60). Utilizando la fórmula de las probabilidades puntuales de
+la binomial B(n = 100, p = 0, 5) se tiene que
+                                                         
+                                    100         60     40   100
+                    P (X = 60) =          · 0, 5 · 0, 5 =         · 0, 5100 .
+                                     60                      60
+   Si nuestra calculadora puede hacer este cálculo, basta con poner su valor numérico redon-
+deando al cuarto decimal
+                                         
+                                          100
+                           P (X = 60) =          · 0, 5100 = 0, 0108.
+                                           60
+    Como se trata de valores muy grandes de n, algunas calculadoras no son capaces de
+calcularlo a partir de la fórmula. Por eso, en este caso es necesario aproximar la distribución
+binomial X = B(n = 100, p = 0, 5) por una distribución normal Y = N (µ, σ) con µ = np = 50
+       √
+y σ = npq = 5.
+    Comprobamos antes si dicha aproximación es fiable, para lo cual es suficiente con compro-
+bar, por ejemplo, que n sea suficientemente grande, n ≥ 30, y que np ≥ 5 y nq ≥ 5, lo cual
+es cierto porque np = nq = 50. Otro criterio válido es que la n sea suficientemente grande,
+n ≥ 30, y que 0, 1 < p < 0, 9, lo cual también se cumple porque n = 100 y p = 0, 5.
+    Por lo tanto, se puede aplicar la aproximación de la binomial por la normal. Teniendo en
+cuenta la corrección de continuidad (o corrección de Yates) y haciendo uso de la tipificación
+      Y − 50
+Z=            sabemos entonces que Z ∼ N (0, 1) y se concluye que
+         5
+                                                         59, 5 − 50        60, 5 − 50
+           P (X = 60) ≈ P (59, 5 < Y < 60, 5) = P (                 <Y <              )
+                                                              5                 5
+                         = P (1, 9 < Z < 2, 1) = P (Z < 2, 1) − P (Z < 1, 9).
+Consultando en la tabla de Z ∼ N (0, 1) proporcionada, concluimos que
+P (X = 60) ≈ P (59, 5 < Y < 60, 5) = P (Z < 2, 1) − P (Z < 1, 9) = 0, 9821 − 0, 9713 = 0,0108.
+d) Ahora se trata de calcular P (X ≥ 55). De nuevo, tenemos que hacerlo aproximando
+la binomial por la normal, que ya sabemos que es posible. En este caso, la corrección de
+continuidad nos dice que
+                                                               54, 5 − 50
+                       P (X ≥ 55) ≈ P (Y > 54, 5) = P (Z >                )
+                                                                    5
+                                     = P (Z > 0, 9) = 1 − P (Z < 0, 9),
+
+
+        Resolución EBAU Junio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                             15
+
+
+y, consultando en la tabla de Z ∼ N (0, 1) proporcionada, concluimos que
+
+          P (X ≥ 55) ≈ P (Y > 54, 5) = 1 − P (Z < 0, 9) = 1 − 0, 8159 = 0, 1841.
+
+
+
+
+       Resolución EBAU Junio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+

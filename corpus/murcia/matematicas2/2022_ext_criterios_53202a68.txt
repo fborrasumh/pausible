@@ -1,0 +1,845 @@
+           RESOLUCIÓN DEL EXAMEN EBAU 2022-JULIO
+                                   Matemáticas II
+
+    El objeto de este documento es doble. Por una parte, proporcionar a los profesores y alum-
+nos de Bachillerato de la Región de Murcia la resolución del examen de Matemáticas II de
+la convocatoria EBAU2022-JULIO. Por otra parte, agilizar las posibles reclamaciones a
+la corrección del examen, toda vez que, habiendo hecho pública la resolución de las cuestiones,
+pueda ser más fácil indentificar posibles errores en la corrección. Evidentemente, por la propia
+naturaleza de la disciplina, una misma cuestión admite múltiples resoluciones válidas
+y correctas y resulta prácticamente imposible recoger aquı́ toda esa variedad de resoluciones,
+a pesar de que hemos intentado incluir el mayor número de ellas. Por supuesto, cualquier otro
+método de resolución a cualquiera de las cuestiones del examen que sea correcto, esté bien
+argumentado y lleve a la solución correcta deberá ser considerado como válido en el proceso
+de corrección, aunque no esté incluido en este documento.
+
+   Como es bien sabido, el examen consta de un total de ocho cuestiones y se debe responder
+a un máximo de cuatro de ellas, elegidas libremente por el alumno. Las ocho cuestiones
+se pueden agrupar por bloques temáticos de la siguiente manera, pero insistimos en que se
+pueden escoger libremente un máximo de cuatro y en cualquier orden, independientemente
+de que pertenezcan o no al mismo bloque temático:
+
+Cuestiones 1 y 2: Del bloque de Números y Álgebra (2,5 puntos cada una).
+
+Cuestiones 3 y 4: Del bloque de Análisis (2,5 puntos cada una).
+
+Cuestiones 5 y 6: Del bloque de Geometrı́a (2,5 puntos cada una).
+
+Cuestiones 7 y 8: Del bloque de Estadı́stica y Probabilidad (2,5 puntos una).
+
+Si se responde a más de cuatro cuestiones, sólo se corrigen las cuatro primeras, en el orden
+que haya respondido el estudiante. Solo se pueden usar las tablas estadı́sticas que se propor-
+cionan con el examen y, según la normativa vigente, no se puden usar calculadoras gráficas
+ni programables.
+
+
+                                En Murcia, a 5 de julio de 2022.
+
+                                    Luis J. Alı́as Linares
+                                 Coordinador Matemáticas II
+                                Departamento de Matemáticas
+                                   Universidad de Murcia
+                                               2
+
+
+Bloque 1: Números y Álgebra (2,5 puntos cada una)
+
+     Cuestión 1.
+
+    (2,5 p.) Un conocido defraudador fiscal tiene distribuido su dinero negro en tres
+    paraı́sos fiscales, las Islas Caimán, Panamá y Fiji. La suma total de este dinero es
+    de 150 millones de euros. Si perdiera la cuarta parte del dinero que tiene en las Islas
+    Caimán, seguirı́a teniendo allı́ el triple del dinero que tiene en Panamá. Además, el
+    dinero que tiene en Panamá sumado a las dos quintas partes del dinero que tiene
+    en Fiji es exactamente la mitad del dinero que tiene en las Islas Caimán. Calcule
+    cuánto dinero tiene en cada uno de los paraı́sos fiscales.
+
+
+
+Solución: Se trata de un sistema de tres ecuaciones con tres incógnitas, en donde las incógni-
+tas son las cantidades de dinero que hay en cada uno de los tres paraı́sos fiscales. Denotemos
+por x el dinero que hay en las Islas Caimán, por y el dinero que hay en Panamá y por z el
+dinero que hay en Fiji, todos ellos en millones de euros. Entonces la primera ecuación es
+
+                                       x + y + z = 150.
+                           1
+La segunda ecuación es x − x = 3y o, equivalentemente, 4x − x = 3x = 12y. Es decir,
+                           4
+                                          x − 4y = 0.
+                           2   1
+La tercera ecuación es y + z = x, es decir, 10y + 4z = 5x o, equivalentemente
+                           5   2
+                                      5x − 10y − 4z = 0.
+
+Por lo tanto, hay que resolver el siguiente sistema lineal de ecuaciones:
+                                  
+                                   x+y+z             = 150
+                                         x − 4y       = 0
+                                     5x − 10y − 4z = 0
+                                  
+
+El sistema se puede resolver por cualquiera de los métodos que se desee. En este caso optamos
+por el que pensamos que es más sencillo, pero cualquier método utilizado, siendo correcto,
+es válido. Si despejamos x = 4y en la segunda ecuación y lo sustituimos en las otras dos
+ecuaciones nos queda                 
+                                        5y + z = 150
+                                       5y − 2z = 0
+de donde se tiene
+                                          150
+                        3z = 150 =⇒ z =       = 50 millones de euros.
+                                           3
+Despejando ahora la incógnita y en la segunda de las dos últimas ecuaciones se tiene
+                                   2   2
+                     5y = 2z =⇒ y = z = · 50 = 20 millones de euros.
+                                   5   5
+
+       Resolución EBAU 2022-JULIO. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                   3
+
+
+Reemplazando ahora el valor de y = 20 en la segunda de las tres primeras ecuaciones resulta
+x = 4y = 80 millones de euros.
+   Por tanto, el defraudador fiscal tiene en las Islas Caimán, en Panamá y en Fiji, respecti-
+vamente, la cantidad de 80, 20 y 50 millones de euros.
+   También se puede resolver por el método de Cramer. Para ello, escribimos el sistema en
+forma matricial, de manera que la matriz ampliada del sistema es
+                                                               
+                                           1 1        1    150
+                           A∗ = (A|b)  1 −4 0              0 .
+                                           5 −10 −4         0
+
+El determinante de A es
+                           1 1    1
+                 |A| =     1 −4 0       = 16 − 10 + 0 + 20 + 0 + 4 = 30 6= 0
+                           5 −10 −4
+
+y la solución del sistema por Cramer es
+
+                            150 1   1
+                      1                            150 · 16   2400
+               x =           0  −4 0           =            =      = 80,
+                      30                             30        30
+                             0 −10 −4
+                            1 150 1
+                   1                           150 · 4   600
+               y =          1 0   0        =           =     = 20,
+                   30                            30       30
+                            5 0 −4
+                            1 1 150
+                   1                            −150 · 10 + 150 · 20   1500
+               z =          1 −4  0        =                         =      = 50.
+                   30                                   30              30
+                            5 −10 0
+
+   Finalmente, también se puede resolver por el método de Gauss:
+                                                                       
+                    1 1     1     150                    1 1    1   150
+                                          F −F1
+                 1 −4 0           0  −−2−−→        0 −5 −1 −150 
+                                          F3 −5F1
+                    5 −10 −4       0                     0 −15 −9 −750
+                                                                         
+                       1 1     1      150                   1 1   1     150
+           −−−−→  0 −5 −1 −150  −−−                 −→  0 −5 −1 −150 
+            F3 −3F2                             (− 16 )F3
+                       0 0 −6 −300                          0 0   1     50
+Resolvemos entonces escalonadamente. De la tercera ecuación tenemos directamente z = 50.
+Usando este valor de z en la segunda ecuación tenemos −5y = −150 + 50 = −100 =⇒
+y = 20. Finalmente, sustituyendo los valores de y y de z en la primera ecuación se tiene
+x = 150 − 20 − 50 = 80.
+
+
+
+
+       Resolución EBAU 2022-JULIO. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                 4
+
+
+     Cuestión 2.
+
+     Se dice que una matriz cuadrada A es idempotente si cumple que A2 = A.
+
+       a) (0,75 p.) Si A es una matriz idempotente, calcule razonadamente A2022 .
+
+       b) (0,75 p.) Si A es una matriz idempotente y regular (o inversible), calcule
+          razonadamente su determinante.
+
+        c) (1 p.) Determine para qué valores de a y b la siguiente matriz es idempotente
+                                                           
+                                              a    0     0
+                                      A =  2 1 − a 0 .
+                                              0    0     b
+
+
+Solución: a) Como A2 = A, se tiene que
+                                  A3 = A2 · A = A · A = A2 = A,
+                                  A4 = A3 · A = A · A = A2 = A,
+                                  A5 = A4 · A = A · A = A2 = A,
+y, en definitiva,
+                                 An = An−1 · A = A · A = A2 = A,
+para cualquier exponente natural n ≥ 2. En consecuencia,
+                                            A2022 = A.
+Importante: No se exige ni mucho menos una demostración por inducción; es suficiente con
+poner en evidencia cómo se repite el patrón An = A para todo n ≥ 2.
+
+b) Como A2 = A, por las propiedades del determinante se tiene que
+                    |A2 | = |A|2 = |A| =⇒ |A|2 − |A| = 0 =⇒ |A| · (|A| − 1) = 0,
+lo cual implica que |A| = 0 o |A| = 1. Pero como sabemos además que A es regular, no puede
+ser |A| = 0 y debe ser necesariamente |A| = 1.
+    Otra forma de resolver este apartado es demostrar que si una matriz A es idempotente y
+regular, debe ser necesariamente la matriz identidad A = I, en cuyo caso se tendrá trivialmente
+que |A| = |I| = 1. Para demostrar que A = I basta con multiplicar por A−1 (que sabemos
+que existe) en la igualdad A2 = A (a izquierda o a derecha), para llegar a que
+           A−1 · A2 = A−1 · A = I      o, alternativamente,   A2 · A−1 = A · A−1 = I.
+c) Haciendo los cálculos correspondientes, se tiene que
+                                                          
+                             a    0    0         a    0    0
+        A2 = A · A =  2 1 − a 0  ·  2 1 − a 0 
+                             0    0    b         0    0    b
+                                   2
+                                                            2        
+                                  a             0      0       a 0  0
+                      =  2a + 2(1 − a) (1 − a)2 0  =  2 (1 − a)2 0  .
+                                   0            0      b2      0 0  b2
+
+
+        Resolución EBAU 2022-JULIO. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                5
+
+
+Por lo tanto A2 = A si y solo si
+                         2                          
+                           a     0   0       a   0   0
+                         2 (1 − a)2 0  =  2 1 − a 0  ,
+                            0    0   b2      0   0   b
+lo cual ocurre si y solo si
+
+                                             a2 = a
+                                       (1 − a)2 = 1 − a
+                                             b2 = b
+
+La segunda ecuación es equivalente a la primera, ya que
+
+           (1 − a)2 = 1 − a ⇐⇒ 1 − 2a + a2 = 1 − a ⇐⇒ a2 = 2a − a ⇐⇒ a2 = a.
+
+Por lo tanto, A2 = A si y solo si a2 = a y b2 = b. Pero
+
+                 a2 = a ⇐⇒ a2 − a = 0 ⇐⇒ a(a − 1) = 0 ⇐⇒ a = 0 o a = 1.
+
+Del mismo modo, b2 = b si y solo si b = 0 o b = 1. En definitiva, A2 = A si y solo si a = 0 o
+a = 1 y b = 0 o b = 1.
+
+
+Cuestiones 3 y 4. Análisis (2,5 puntos cada una)
+
+     Cuestión 3.
+
+     Considere la función f (x) dada por
+
+                                        ln x
+                                      
+                                            si x > 0 y x 6= 1
+                                        x−1
+                                      
+                              f (x) =
+                                      
+                                      
+                                         a       si x = 1
+
+       a) (0,5 p.) Calcule el lı́mite de f (x) cuando x tiende a +∞.
+
+       b) (1 p.) Determine el valor de a para que la función f (x) sea continua en x = 1.
+
+       c) (1 p.) Estudie si, para dicho valor de a, la función f (x) es derivable en x = 1.
+          En caso afirmativo, calcule el valor de la derivada de f en x = 1.
+
+
+Solución: a)
+                                                 ln x     +∞
+                                 lı́m f (x) = lı́m     =      .
+                             x→+∞          x→+∞ x − 1     +∞
+Podemos resolver esta indeterminación aplicando la regla de L’Hôpital y se tiene
+                                           1
+                               ln x                 1    1
+                          lı́m      = lı́m x = lı́m   =    = 0.
+                         x→+∞ x − 1  x→+∞ 1   x→+∞ x    +∞
+
+        Resolución EBAU 2022-JULIO. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                   6
+
+
+b) Dado que existe f (1) = a, para que f (x) sea continua en x = 1 debe existir también el
+lı́mx→1 f (x) y ha de ser igual a f (1) = a. Vamos entonces a calcular dicho lı́mite:
+                                                  ln x   ln(1)  0
+                               lı́m f (x) = lı́m       =       = .
+                               x→1           x→1 x − 1   1−1    0
+Para resolver esta indeterminación podemos aplicar nuevamente la regla de L’Hôpital y se
+tiene
+                                                 1
+                                     ln x                1 1
+                               lı́m       = lı́m x = lı́m = = 1.
+                              x→1 x − 1     x→1 1    x→1 x 1
+Por lo tanto, para que f (x) sea continua en x = 1 debe ser a = 1.
+c) Una vez que sabemos que la función es continua para a = 1, para estudiar si la función es
+derivable en x = 1 una primera alternativa es aplicar la definición de derivada en un punto y
+estudiar si existe el siguiente lı́mite
+                                               f (x) − f (1)
+                                           lı́m
+                                           x→1     x−1
+y, en caso de que exista, dicho lı́mite será el valor de la derivada en x = 1.
+    Para ello, operamos primero de la siguiente manera (con x 6= 1):
+                                       ln x      ln x−(x−1)
+                       f (x) − f (1)   x−1
+                                            −1       x−1      ln x − x + 1
+                                     =         =            =              ,
+                           x−1          x−1        x−1          (x − 1)2
+de modo que
+                   f (x) − f (1)        ln x − x + 1   ln(1) − 1 + 1   0−1+1  0
+            lı́m                 = lı́m           2
+                                                     =            2
+                                                                     =       = .
+            x→1        x−1         x→1    (x − 1)         (1 − 1)        0    0
+Para resolver esta indeterminación podemos aplicar de nuevo la regla de L’Hôpital, de manera
+que
+                                                        1
+                                   ln x − x + 1         x
+                                                          −1
+                              lı́m              = lı́m         .
+                              x→1    (x − 1)2     x→1 2(x − 1)
+
+Operando algebraicamente esta fracción, se tiene
+                              1              1−x
+                              x
+                                −1            x            −(x − 1)    −1
+                                       =               =             =    .
+                            2(x − 1)       2(x − 1)        2x(x − 1)   2x
+Por lo tanto,
+                                                   1
+                             ln x − x + 1          x
+                                                     −1          −1   1
+                        lı́m           2
+                                          = lı́m          = lı́m    =− .
+                        x→1    (x − 1)      x→1  2(x − 1)   x→1  2x   2
+En conclusión, hemos comprobado que la función f (x) sı́ es derivable en x = 1, ya que existe
+el lı́mite
+                                         f (x) − f (1)    1
+                                    lı́m               =− ,
+                                    x→1      x−1          2
+y este valor es precisamente el valor de la derivada de f (x) en x = 1,
+                                                        1
+                                             f 0 (1) = − .
+                                                        2
+
+        Resolución EBAU 2022-JULIO. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                 7
+
+
+    El siguiente razonamiento alternativo para dar respuesta al apartado c) también es correcto
+y, posiblemente, esté más extendido entre el alumnado de Bachillerato. El razonamiento está
+basado en el siguiente resultado que, a su vez, es consecuencia del teorema del valor medio de
+Lagrange (o, si se prefiere, de la regla de L’Hôpital):
+     Sea f : (a, b) → R una función continua en (a, b) y derivable en (a, b) \ {x0 } para
+     un cierto punto x0 ∈ (a, b). Si existe y es finito el lı́mite de f 0 (x) cuando x tiende
+     a x0 , entonces la función f (x) es derivable en x0 y se tiene que
+                                      f 0 (x0 ) = lı́m f 0 (x).
+                                                 x→x0
+
+     Además, como consecuencia de ello se tiene también que la función derivada f 0 (x)
+     es continua en x0 .
+En nuestro caso, sabemos que para a = 1 la función f (x) es continua en (0, +∞). Además,
+comprobamos también que f (x) es derivable en el subdominio abierto formado por {x ∈ R :
+x > 0, x 6= 1} = (0, 1) ∪ (1, +∞) y su derivada en dicho subdominio viene dada por
+                                 1
+                                   (x − 1) − ln x
+                            
+          0      d      ln x     x                  x − 1 − x ln x
+        f (x) =                =            2
+                                                  =                si x > 0 y x 6= 1.
+                dx x − 1             (x − 1)          x(x − 1)2
+Calculando a continuación el lı́mite de esta expresión cuando x → 1 tenemos que (aplicando
+dos veces la regla de L’Hôpital)
+                        x − 1 − x ln x    0
+      lı́m f 0 (x) = lı́m               =   (aplicamos primera vez L’Hôpital)
+      x→1          x→1    x(x − 1)2       0
+                            1 − ln x − 1       0
+                 = lı́m        2
+                                             =     (aplicamos segunda vez L’Hôpital)
+                   x→1 (x − 1) + 2x(x − 1)     0
+                                   − x1              1
+                 = lı́m                          =− .
+                   x→1 2(x − 1) + 2(x − 1) + 2x      2
+Por lo tanto, podemos concluir que f (x) es derivable en x = 1 y
+                                                     1
+                                          f 0 (1) = − .
+                                                     2
+Observación importante: En algunas ocasiones, este segundo método no es válido y hay
+que recurrir necesariamente a la definición de derivada en un punto (primer razonamiento).
+Esto ocurre cuando la función es derivable en el punto en cuestión, pero la función derivada
+no es continua en dicho punto. El ejemplo tı́pico de este caso es la siguiente función
+                                            1
+                                  
+                                   x2 sen
+                                               si x ∈ R y x 6= 0
+                         f (x) =            x
+                                  
+                                         0           si x = 0
+                                  
+
+Esta función es derivable en todo R pero la función derivada f 0 (x) no es continua en x = 0.
+Por ese motivo, no se puede aplicar el segundo razonamiento. En efecto, podemos ver que
+existe
+                                 f (x) − f (0)        x2 sen x1             1
+                  f 0 (0) = lı́m               = lı́m           = lı́m x sen = 0,
+                            x→0        x         x→0      x       x→0       x
+
+       Resolución EBAU 2022-JULIO. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                               8
+
+
+ya que x → 0 y sen x1 , aunque es oscilante, está acotado en valor absoluto por 1, por lo que el
+producto x sen x1 converge a 0. Además, f 0 (x) para x 6= 0 viene dada por
+                                                   
+ 0       d    2     1             1    2     1      1            1       1
+f (x) =      x sen       = 2x sen +x cos         − 2 = 2x sen −cos           si x ∈ R y x 6= 0.
+        dx          x             x          x      x            x       x
+Si intentamos calcular el lı́mite cuando x → 0 de esta expresión tenemos que
+                                                       
+                             0                1       1                1
+                     lı́m f (x) = lı́m 2x sen − cos       = − lı́m cos
+                     x→0           x→0        x       x         x→0    x
+pero este lı́mite no existe porque es oscilante. Por dicho motivo, no se puede aplicar el se-
+gundo razonamiento. Por supuesto, somos conscientes de que esta explicación excede el nivel
+de la asignatura de Matemáticas II de Bachillerato, pero aprovechamos la ocasión para acla-
+rarlo aquı́ y enfatizar que, en determinadas ocasiones, es necesario recurrir a la definición de
+derivada en un punto para justificar la derivabilidad de una función en dicho punto.
+
+     Cuestión 4.
+
+    Considere la función f (x) = x2 e−x , definida para todo valor de x ∈ R.
+
+       a) (1 p.) Calcule la derivada de f (x) y determine sus intervalos de crecimiento
+          y/o decrecimiento.
+
+       b) (1 p.) Calcule la integral indefinida de la función f (x).
+
+       c) (0,5 p.) Determine la primitiva de la función f (x) cuya gráfica pasa por el
+          punto de coordenadas (0, 1).
+
+
+
+Solución: a) La derivada de f (x) viene dada por
+
+             f 0 (x) = 2x · e−x + x2 · e−x · (−1) = 2xe−x − x2 e−x = (2x − x2 )e−x .
+
+Para determinar los intervalos de crecimiento y/o decrecimiento de la función f (x), calculamos
+primero los puntos crı́ticos de f (x), es decir, las soluciones de la ecuación f 0 (x) = 0:
+
+      f 0 (x) = 0 ⇐⇒ (2x − x2 )e−x = 0 ⇐⇒ 2x − x2 = x(2 − x) = 0 ⇐⇒ x = 0 o x = 2,
+
+donde hemos tenido en cuenta que e−x > 0 para todo valor de x.
+    A continuación, estudiamos el signo de f 0 (x) para ver dónde la función es creciente o
+decreciente. Como e−x > 0 para todo valor de x, el signo de f 0 (x) coincide con el signo del
+factor 2x − x2 = x(2 − x), que se anula en x = 0 y en x = 2. Por tanto para estudiar el signo
+de f 0 (x) basta con darle valores a x(2 − x) a la izquierda y a la derecha de estos valores.
+                                       (−∞, 0) x = 0             (0, 2)  x=2           (2, +∞)
+               Valor de x              x = −1   x=0              x=1     x=2            x=3
+            Valor de x(2 − x)            −3       0                1       0              −3
+                        0
+             Signo de f (x)              −        0                +       0               −
+    Crecimiento/decrecimiento de f (x)   &     Mı́nimo            %     Máximo            &
+
+
+       Resolución EBAU 2022-JULIO. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                9
+
+
+    En conclusión, f (x) es decreciente en los intervalos (−∞, 0) ∪ (2, +∞) y creciente en el
+intervalo (0, 2). Aunque no se pide en el ejercicio, a partir de aquı́ se concluye también que
+f (x) tiene un mı́nimo relativo en x = 0 y un máximo relativo en x = 2.
+
+b) Para calcular la integral indefinida de f (x) utilizamos el método deRintegración por partes,
+haciendo u = x2 y dv = e−x dx. En ese caso se tiene du = 2xdx y v = e−x dx = −e−x , por lo
+que
+               Z                            Z                          Z
+                  x e dx = −x e + 2xe dx = −x e + 2 xe−x dx
+                    2 −x             2 −x          −x          2 −x
+
+
+
+Hacemos de nuevo integración
+                      R −x por partes, tomando ahora u = x y dv = e−x dx. En este caso
+se tiene du = dx y v = e dx = −e−x , por lo que, continuando con el cálculo anterior,
+          Z                      Z                                  Z         
+             2 −x          2 −x        −x         2 −x         −x         −x
+            x e dx = −x e + 2 xe dx = −x e + 2 −xe + e dx
+                                          Z
+                     = −x e − 2xe + 2 e−x dx = −x2 e−x − 2xe−x − 2e−x
+                           2 −x    −x
+
+
+                      = −(x2 + 2x + 2)e−x + C.
+
+c) Por el apartado b) sabemos que la primitiva general de f (x) es
+
+                                F (x) = −(x2 + 2x + 2)e−x + C.
+
+Se trata, por tanto, de calcular el valor de C para que F (0) = 1. En este caso
+
+                     F (0) = −2e0 + C = −2 + C = 1 ⇐⇒ C = 1 + 2 = 3.
+
+La solución es
+                                F (x) = −(x2 + 2x + 2)e−x + 3.
+
+
+Cuestiones 5 y 6. Geometrı́a (2,5 puntos cada una)
+
+     Cuestión 5.
+
+    Considere el plano π de ecuación π : x + y + z = 1 y la recta r dada por
+                                     
+                                        x−y =         0
+                                 r:
+                                       ax − z = a − 1
+
+       a) (1,5 p.) Estudie la posición relativa del plano π y de la recta r en función del
+          parámetro a.
+
+       b) (1 p.) Si a = −1 la recta r corta al plano π. Calcule en ese caso el punto de
+          corte y el ángulo que forma la recta r con el plano π.
+
+
+
+
+        Resolución EBAU 2022-JULIO. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                10
+
+
+Solución: a) Dado que la recta r viene dada por su ecuación ı́mplicita como intersección de
+dos planos, la manera más directa (a nuestro juicio) de resolver este apartado es realizar el
+estudio del sistema lineal de ecuaciones dependiente del parámetro a formado por la ecuación
+del plano π y por la ecuación implı́cita de r, es decir, el siguiente sistema lineal de ecuaciones:
+                                    
+                                     x+y+z =               1
+                                          x−y       =       0
+                                          ax − z = a − 1
+                                    
+
+cuya matriz ampliada es
+                                                                 
+                                        1 1 1                  1
+                              ∗
+                             A = (A|b) 1 −1 0
+                                                              0 .
+                                        a 0 −1                a−1
+
+Observamos en primer lugar que A tiene siempre rango(A) ≥ 2, independientemente del valor
+de a, ya que tiene el siguiente menor de orden 2 distinto de 0
+
+                                         1 1
+                                                  = 1 6= 0.
+                                         −1 0
+
+Además, el determinante de A es
+
+                          1 1  1
+                  |A| =   1 −1 0         = 1 + a + 1 = a + 2 = 0 ⇐⇒ a = −2.
+                          a 0 −1
+
+Por lo tanto, si a 6= −2 se tiene |A| 6= 0. Esto implica necesariamente que rango(A) =
+rango(A∗ ) = 3 y se trata de un sistema compatible determinado, lo cual significa geométrica-
+mente que la recta corta al plano en un punto.
+   Si a = −2 sabemos que rango(A) = 2. Veamos qué ocurre con el rango de A∗ . Para ello
+basta ampliar el menor de orden 2 de A que ya sabemos que es distinto de 0 al único menor
+posible de orden 3 de A∗ que lo contiene y ver si es o no distinto de 0 (por supuesto, utilizando
+que a = −2):
+                                1    1    1
+                               −1 0       0 = 1 − 3 = −2 6= 0.
+                                0 −1 −3
+Por tanto, si a = −2 se tiene rango(A∗ ) = 3 > rango(A) = 2 y se trata de un sistema
+incompatible, lo cual significa geométricamente que la recta r es paralela al plano π.
+
+    Otra forma de realizar el apartado a) es calculando el vector director de r y estudiar su
+comportamiento con respecto al vector normal del plano π. Para ello, calculamos el vector
+director de r, al que denotamos por ~v , haciendo
+
+                                            ~i ~j ~k
+             ~v = (1, −1, 0) × (a, 0, −1) = 1 −1 0            = ~i + a~k + ~j = (1, 1, a).
+                                            a 0 −1
+
+
+        Resolución EBAU 2022-JULIO. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                            11
+
+
+El vector normal de π es ~n = (1, 1, 1) y el producto escalar de ambos vectores es
+
+                           ~v · ~n = (1, 1, a) · (1, 1, 1) = 1 + 1 + a = 2 + a.
+
+Vemos entonces que
+                                       ~v · ~n = 2 + a = 0 ⇐⇒ a = −2.
+Por la tanto, si a 6= −2 se tiene ~v · ~n 6= 0, lo cual significa geométricamente que ~v no es
+perpendicular a ~n y, por lo tanto, la recta r corta al plano π en un punto.
+   Si a = −2 se tiene que ~v · ~n = 0. Es decir, ~v es perpendicular a ~n, lo cual significa
+geométricamente que pueden ocurrir dos cosas: o bien la recta r está contenida en el plano
+π o bien la recta r es paralela al plano π. Para decidir cuál de las dos alternativas es la
+correcta, basta con comprobar si un punto arbitrario de r está contenido en π o no. Teniendo
+en cuenta que a = −2, tomamos entonces el punto de r determinado por x = y = 0 y z = 3
+y comprobamos que x + y + z = 0 + 0 + 3 = 3 6= 1, por lo que el punto no está en π. Por lo
+tanto, la recta r no está contenida en el plano π y debe ser entonces paralela al plano.
+
+b) Cuando a = −1 sabemos que la recta r corta al plano π (porque nos lo dice el enunciado del
+ejercicio o porque lo hemos deducido correctamente en el apartado anterior). Para calcular el
+punto de corte, basta con resolver el sistema de ecuaciones formado por la ecuación del plano
+y la ecuación implı́cita de la recta, es decir, resolver el siguiente sistema lineal de ecuaciones:
+                                                      
+                          x+y+z = 1                    x+y+z = 1
+                              x−y       = 0 ⇐⇒               x−y       = 0
+                             −x − z = −2                     x+z       = 2
+                                                      
+
+Por la segunda ecuación se tiene x = y. Haciendo y = x en las otras dos ecuaciones se tiene
+                                      
+                                         2x + z = 1
+                                         x+z = 2
+
+y restando estas dos ecuaciones se tiene
+
+                   x = −1 =⇒ z = 2 − x = 2 + 1 = 3 además de y = x = −1.
+
+Por tanto el punto de corte es el punto P (−1, −1, 3).
+   El ángulo que forma la recta r con el plano π es el complementario del menor ángulo
+formado por el vector director de la recta r, que denotamos por ~v , y el vector normal del
+plano π, que denotamos por ~n. Es decir,
+
+                                       ∠(r, π) = 90o − ∠(~v , ~n) grados.
+
+o, si se prefiere trabajar en radianes,
+                                                     π
+                                       ∠(r, π) =       − ∠(~v , ~n) radianes,
+                                                     2
+siendo
+                                   |~v · ~n|                                              |~v · ~n|       π
+          ∠(~v , ~n) = arc cos                ∈ [0, 90o ]   o    ∠(~v , ~n) = arc cos                ∈ [0, ].
+                                 |~v | · |~n|                                           |~v | · |~n|      2
+
+
+         Resolución EBAU 2022-JULIO. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                  12
+
+
+En nuestro caso, ~n = (1, 1, 1) y, como a = −1,
+
+                                                ~i ~j ~k
+             ~v = (1, −1, 0) × (−1, 0, −1) =     1 −1 0            = ~i − ~k + ~j = (1, 1, −1).
+                                                −1 0 −1
+
+Por tanto, trabajando en grados,
+                                                  |1 + 1 − 1|                1   1
+                cos ∠(~v , ~n)    =   p                   √               =√ √ =
+                                       12 + 12 + (−1)2 12 + 12 + 12         3 3  3
+                                                         1
+                                 =⇒ ∠(~v , ~n) = arc cos( ) = 70, 5288o .
+                                                         3
+Por tanto,
+                    ∠(r, π) = 90 − 70, 5288 = 19, 4712 grados = 19o 280 16, 3200
+
+     Cuestión 6.
+
+    Considere las rectas r y s dadas por
+                                                          
+                                x−1  y  z                     x + 2z = 1
+                             r:     = =           y s:
+                                 −1  1  1                       y    = 0
+
+       a) (1,5 p.) Compruebe que las rectas son coplanarias (es decir, están contenidas
+          en un mismo plano) y calcule la ecuación del plano que las contiene.
+
+       b) (1 p.) Calcule la distancia de la recta r al plano π : x − y + 2z = 3.
+
+
+
+Solución: a) El vector director de r es ~v = (−1, 1, 1) y el vector director de s es
+
+                                               ~i ~j ~k
+                   ~ = (1, 0, 2) × (0, 1, 0) = 1 0 2
+                   w                                          = −2~i + ~k = (−2, 0, 1).
+                                               0 1 0
+
+Como los vectores ~v y w  ~ no son proporcionales, sabemos ya que las rectas no son paralelas
+ni coincidentes. Por lo tanto, las rectas serán coplanarias si y solo si se cortan en un punto.
+En este caso, a partir de la ecuación continua de r es muy fácil identificar el punto P (1, 0, 0)
+como punto de r y comprobar que este mismo punto está en la recta s, ya que cumple la
+ecuación implı́cita de s: x + 2z = 1 + 0 = 1, y = 0. Por tanto r y s se cortan en el punto P y
+son rectas coplanarias.
+    Para calcular la ecuación del plano que las contiene, basta tomar como punto del plano
+el propio P (1, 0, 0) y como vectores directores del plano los vectores ~v = (−1, 1, 1) y w   ~ =
+(−2, 0, 1). Por tanto, la ecuación general del plano que las contiene es
+
+              x−1 y z
+               −1 1 1            = 0 ⇐⇒ (x − 1) − 2y + 2z + y = 0 ⇐⇒ x − y + 2z = 1.
+               −2 0 1
+
+
+        Resolución EBAU 2022-JULIO. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                              13
+
+
+    Observación: Otra forma de ver que las rectas son coplanarias es comprobar que el
+                   −→
+ rango de {~v , ~
+                w, P Q} es 2, donde P y Q son dos puntos cualesquiera de las rectas r y s,
+ respectivamente.
+    b) Sabemos que el vector director de r es ~v = (−1, 1, 1) y el vector normal del plano π es
+~n = (1, −1, 2). En primer lugar observamos que
+
+                                   ~v · ~n = −1 − 1 + 2 = 0.
+
+Por lo tanto, o bien la recta r es paralela al plano π o bien está contenida en el plano π.
+En cualquiera de los dos casos, la distancia de r a π se puede calcular directamente como
+la distancia de un punto cualquiera de r a π. Tomamos como punto el propio P (1, 0, 0) y se
+tiene
+                                                        √
+                               |1 − 0 + 0 − 3|     2      6
+          d(r, π) = d(P, π) = p                  =√ =       unidades de distancia.
+                                 2        2
+                                1 + (−1) + 2   2    6    3
+
+
+Cuestiones 7 y 8. Estadı́stica y Probabilidad (2,5 puntos cada una)
+
+     Cuestión 7.
+
+    Un estudio publicado en Environmental, Science and Technology ha revelado que la
+    probabilidad de contraer el Covid-19 en el interior de restaurantes es 0,45. Además,
+    según los datos de las Naciones Unidas, en el mundo hay actualmente un 50,5 % de
+    hombres y un 49,5 % de mujeres.
+
+       a) (0,5 p.) Suponiendo que los sucesos ”contraer el Covid-19 en el interior de
+          restaurantes” y ”ser mujer” sean independientes, calcule la probabilidad de
+          que una persona elegida al azar sea mujer y contraiga el Covid-19 en el interior
+          de restaurantes.
+
+       b) (1 p.) En el mismo supuesto que en el apartado a), calcule la probabilidad de
+          que una persona elegida al azar no sea mujer o no contraiga el Covid-19 en el
+          interior de restaurantes.
+
+       c) (1 p.) Si se eligen 8 personas al azar, ¿cuál es la probabilidad de que al menos
+          4 de ellas contraigan el Covid-19 en el interior de restaurantes?
+
+
+
+Solución: Llamamos A al suceso ”contraer el Covid-19 en el interior de restaurantes” y B al
+suceso ”ser mujer”. Por tanto, los datos del ejercicio son
+
+                             P (A) = 0, 45    y    P (B) = 0, 495.
+
+a) Se trata de calcular la probabilidad del suceso intersección A∩B. Como se está suponiendo
+que los sucesos A y B son independientes, entonces se tiene
+
+                     P (A ∩ B) = P (A) · P (B) = 0, 45 · 0, 495 = 0, 22275.
+
+
+       Resolución EBAU 2022-JULIO. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                             14
+
+
+b) Se trata de calcular la probabilidad del suceso Ā ∪ B̄, donde, como es habitual, Ā y B̄
+denotan los sucesos contrarios de A y de B, respectivamente. Teniendo que cuenta que
+
+                                       A ∩ B = Ā ∪ B̄
+
+se tiene que
+                          P (Ā ∪ B̄) = P (A ∩ B) = 1 − P (A ∩ B),
+y, como se está suponiendo que A y B son independientes, podemos usar el apartado a) para
+concluir que
+                     P (Ā ∪ B̄) = 1 − P (A ∩ B) = 1 − 0, 22275 = 0, 77725.
+    c) En este apartado llamamos X a la variable aleatoria que cuenta el número de personas
+que contraen el Covid-19 en el interior de restaurantes cuando elegimos 8 personas al azar. Se
+trata por tanto de una variable aleatoria que sigue una distribución binomial de parámetros
+n = 8, porque se eligen 8 personas al azar, y p = P (A) = 0, 45, porque es la probabilidad de
+que una persona contraiga el Covid-19 en el interior de restaurantes.
+    Por tanto X ∼ B(n = 8, p = 0, 45) y se trata de calcular P (X ≥ 4). Utilizando la tabla
+de la binomial (o aplicando la fórmula correspondiente) se tiene
+
+        P (X ≥ 4) = P (X = 4) + P (X = 5) + P (X = 6) + P (X = 7) + P (X = 8)
+                  = 0, 2627 + 0, 1719 + 0, 0703 + 0, 0164 + 0, 0017 = 0, 523
+
+o, alternativamente,
+
+   P (X ≥ 4) = 1 − P (X ≤ 3) = 1 − (P (X = 0) + P (X = 1) + P (X = 2) + P (X = 3))
+             = 1 − (0, 0084 + 0, 0548 + 0, 1569 + 0, 2568) = 1 − 0, 4769 = 0, 5231.
+
+La aparente discrepancia en el resultado se debe a la precisión usada en la tabla. Las dos
+respuestas se considerarán correctas.
+
+     Cuestión 8.
+
+    En este ejercicio trabaje con 4 decimales para las probabilidades.
+    La altura de los individuos de una población sigue una distribución normal de media
+    175 cm y desviación tı́pica 4 cm.
+
+       a) (0,75 p.) Calcule la probabilidad de que un individuo elegido al azar mida
+          más de 170 cm.
+
+       b) (0,75 p.) Calcule qué porcentaje de la población mide entre 170 y 185 cm.
+
+       c) (1 p.) Calcule la altura que es superada por el 33 % de la población.
+
+
+
+Solución: a) Denotemos por X a la variable aleatoria ”altura de los individuos” de la citada
+población. Sabemos que X ∼ N (µ, σ) con µ = 175 cm y σ = 4 cm. Nos piden P (X > 170) (o
+P (X ≥ 170), ya que al ser una variable continua no hay diferencia entre > y ≥).
+
+
+       Resolución EBAU 2022-JULIO. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                15
+
+
+                                     X −µ
+   Haciendo uso de la tipificación Z =     sabemos entonces que Z ∼ N (0, 1) y que
+                                       σ
+                                                  
+                                         170 − 175
+                    P (X > 170) = P Z >              = P (Z > −1, 25)
+                                             4
+
+y, haciendo uso de la simetrı́a de la función de densidad de Z y consultando en la tabla de Z,
+se tiene
+                  P (X > 170) = P (Z > −1, 25) = P (Z < 1, 25) = 0, 8944.
+
+b) Para calcular dicho porcentaje, vamos a calcular al probabilidad P (170 < X < 185) y, a
+continuación, pasarlo a porcentaje. Tipificando de nuevo y consultando la tabla de Z se tiene
+                                                             
+                                 170 − 175          185 − 175
+    P (170 < X < 185) = P                    <Z<
+                                      4                 4
+                          = P (−1, 25 < Z < 2, 5) = P (Z < 2, 5) − P (Z < −1, 25)
+                          = P (Z < 2, 5) − (1 − P (Z > −1, 25)) = 0, 9938 − (1 − 0, 8944)
+                          = 0, 9938 − 1 + 0, 8944 = 0, 8882.
+
+Por lo tanto, concluimos que el 88, 82 % de la población mide entre 170 y 185 cm.
+
+c) Se trata de calcular el valor x para el cual se tiene que
+
+                    P (X > x) = 0, 33 ⇐⇒ P (X < x) = 1 − 0, 33 = 0, 67.
+
+Haciendo uso de la tipificación, tenemos que
+                                                                 
+                                                        x − 175
+                       0, 67 = P (X < x) = P         Z<               = 0, 67
+                                                           4
+
+y, consultando en la tabla de Z, sabemos que
+                                        x − 175
+                                                = 0, 44.
+                                           4
+Por tanto, despejando aquı́ x tenemos
+
+                        x = 175 + 4 · 0, 44 = 175 + 1, 76 = 176, 76 cm.
+
+
+
+
+       Resolución EBAU 2022-JULIO. Luis J. Alı́as Linares, Coordinador Matemáticas II
+

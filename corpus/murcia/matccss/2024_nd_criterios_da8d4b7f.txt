@@ -1,0 +1,289 @@
+                                    Criterios generales
+       Cada error de cálculo trivial se penalizará con 0,1 puntos y cada error de cálculo NO trivial con 0,2
+puntos.
+
+
+                                    Criterios específicos
+CUESTIÓN 1. (2,5 puntos) Discutir el sistema lineal de ecuaciones en función de los valores del
+parámetro a:
+
+                                      2 x + ay + 4z =2 
+                                                       
+                                      ax + 2y + 6z = 0  (2 puntos)
+                                     4 x + 2ay + 10z a
+                                                    =  
+                                                       
+Resolverlo para a=0. (0,5 puntos)
+
+Solución.
+
+La matriz ampliada es:
+
+           2 a    4  2
+                                              a =2
+( A / b ) = a 2 6  0  ; A =−2a 2 + 8 =0 ⇒ 
+           
+                                                      (0,5 puntos)
+            4 2a 10  a                     a = −2
+                        
+
+• Si a ≠ 2, a ≠ −2 ⇒ rg ( A ) = rg ( A / b ) = 3 ⇒ Sistema Compatible Determinado. (0,5 p.)
+
+• Si a =−2 ⇒ rg ( A ) =2 ≠ rg ( A / b ) =3 ⇒ Sistema Incompatible. (0,5 p.)
+ Sustituimos:
+                                        A 0
+                                         =  ⇒ rg ( A ) 2
+                                                      =
+               2 −2 4  2 
+                                      2 4 2
+ ( A / b ) =  −2 2 6  0  ;
+               4 −4 10  −2  A / b =−2 6 0 ≠ 0 ⇒ rg ( A / b ) =3
+                            
+                                      4 10 −2
+• Si a 2
+      =  ⇒ rg ( A ) 2
+                   =rg=( A / b ) ⇒ Sistema Compatible Indeterminado. (0,5 p.)
+
+
+       2x + 4 z 2
+                =    x =5
+                            
+a =0 ⇒ 2y + 6z =0  ⇒  y = 6  (0,5 puntos)
+       4 x + 10z 0
+                =    z = −2 
+                            
+CUESTIÓN 2. (2,5 puntos) Una empresa agrícola almacena contenedores de cereales y piensos
+compuestos. Para poder atender la demanda de todos sus animales, hay que tener almacenado un
+mínimo de 10 contenedores de cereales y 20 de pienso compuesto. El número de contenedores de
+cereales no debe ser superior al de piensos y se sabe que la capacidad del almacén es de 200
+contenedores. Por cuestiones comerciales, es preciso mantener en el inventario, al menos, 60
+contenedores. El gasto de almacenaje de un contenedor de cereales es de 2€ y el de pienso compuesto
+de 3€.
+
+   a) ¿Cuántos contenedores de cada clase hay que almacenar para que el gasto de almacenaje sea
+      mínimo? (2 puntos)
+   b) ¿Cuál es este gasto mínimo? (0,5 puntos)
+
+Solución:
+
+Sea x = número de contenedores de cereales e y = número de contenedores de piensos compuesto. El
+problema planteado es:
+
+
+                     Min C ( x, y )
+                                 = 2x + 3y
+                     s.a : x + y ≤ 200      
+                                           
+                           x + y ≥ 60       Planteamiento (0,6 puntos)
+                           y≥x             
+                                           
+                           x ≥ 10, y ≥ 20 
+
+La región factible es (0,5 puntos):
+
+
+
+                                      A=(10,50) ⇒ C (10,50) = 170      
+                                      B=(10,190) ⇒ C (10,190) =590 
+                                                                        ⇒ Min.: x =30, y =30
+                                      C=(100,100) ⇒ C (100,100) = 500 
+                                      D=(30,30) ⇒ C (30,30) = 150     
+
+
+
+
+Vértices (0,1 por vértice); Solución (0,5 puntos)
+
+El coste mínimo es: C (30, 30) = 150 € (0,5 puntos)
+                                                                                2
+CUESTIÓN 3. (2,5 puntos) La función de coste de una empresa es C (q ) =q            − 18q + 14 , donde q
+representa las unidades producidas. Sabiendo que el precio de venta, en euros, está relacionado con las
+unidades producidas según la ecuación de demanda p  = 10 − q , se desea conocer:
+
+   a) La función de beneficio de esta empresa. (0,5 puntos)
+   b) El nivel de producción que maximiza el beneficio de la empresa. Razone su resultado. (1 punto)
+   c) El precio de venta óptimo (0,5 puntos)
+   d) El beneficio máximo que puede lograr la empresa. (0,5 puntos)
+Solución:
+   a) La función de Beneficios será:
+
+       B( q ) I
+             =                (10 − q )q − (q 2 − 18q + 14) =
+                (q ) − C (q ) =                             −2q 2 + 28q − 14 (0,5 puntos)
+   b) La función a maximizar será:
+
+                  −2q 2 + 28q − 14
+        Max B(q ) =
+       Derivamos la función para obtener el óptimo:
+
+        B′(q ) =−4q + 28 =0⇒q =7 (0,5 puntos)
+
+       B′′(q ) =−4 ⇒ q =7 es el nivel de producción que maximiza el beneficio (0,5 puntos)
+
+   c) p = 10 − q = 3 euros (0,5 puntos)
+
+   d) Y tenemos: BMax = 84 euros. (0,5 puntos)
+                                                                         3x − 3             si 0 < x < 3
+CUESTIÓN 4. (2,5 puntos) Sea la función definida a trozos f (x ) = 
+                                                                         ax −6x + 3a        si x ≥ 3
+                                                                            2
+
+
+
+   a) Hallar el valor de a para que la función sea continua en x = 3 (1 punto)
+   b) Para ese valor de a y para x ≥ 3 , calcular la ecuación de la recta tangente que pasa por el punto
+      x = 3 (1,5 puntos)
+
+       Solución:
+
+
+   a) Para que la función sea continua los límites laterales deben coincidir con el valor de la función en
+       el punto:
+        lim 3 x − 3 =6               
+       x →3 −                        
+              2                       ⇒ lim f ( x ) = xlim   f ( x ) = f (3) ⇒ 12a − 18 = 6 ⇒ a = 2
+       lim+ ax − 6 x + 3a = 12a − 18  x →3−             →3 +
+       x →3                          
+       (1 punto)
+
+
+   b) Para ese valor de a y para x ≥ 3 , calcular la ecuación de la recta tangente que pasa por el punto
+       x = 3 (1,5 puntos)
+       f ( x ) = 2x 2 − 6 x + 6
+   La ecuación de la recta tangente es: y − f (3)=     f ′(3)( x − 3) (0,5 puntos)
+
+                    f ′( x ) = 4 x − 6 ⇒ f ′(3) = 6; f (3) = 6 ⇒ y − 6 = 6( x − 3) ⇒ y = 6 x − 12
+
+                                                     (1 punto)
+                                                 x 2 +1
+CUESTIÓN 5. (2,5 puntos) Dada la función f (x ) = 2     , calcule:
+                                                 x −1
+   a)   El dominio de la función y los puntos de corte con los ejes. (0,5 puntos)
+   b)   Asíntotas verticales y horizontales. (0,5 puntos)
+   c)   Intervalos de crecimiento y decrecimiento. (1 punto)
+   d)   Máximos y mínimos locales. (0,5 puntos)
+
+Solución:
+   a) El dominio de la función. (0,5 puntos)
+                           Dom f =  − {±1} ; Punto de corte con los ejes: ( 0, −1)
+   b) Asíntotas verticales y horizontales. (0,5 puntos)
+      Asíntotas verticales: x = 1; x = −1
+
+                                                  x 2 +1
+                         =
+        Asíntotas horizontales: y lim f
+                                   =    (x ) lim=         1
+                                  x →∞       x →∞ x 2 − 1
+
+   c) Intervalos de crecimiento y decrecimiento. (1 punto)
+                                                       −4 x
+                                         f ′(x ) =              =0 ⇒ x =0
+                                                     (x 2 − 1)2
+
+
+
+
+                       (   ) (
+        Decreciente: 0,1 ∪ 1, +∞     )
+                   (         ) (
+        Creciente: −∞, −1 ∪ −1,0         )
+   d) Máximos y mínimos locales. (0,5 puntos)
+      No hay mínimo
+
+        Máximo: x =0 ⇒ f (0) =−1 ⇒ 0, −1     (       )
+CUESTIÓN 6. (2,5 puntos) Representar gráficamente el recinto del plano limitado por la parábola
+f ( x=) x 2 + 4 y la recta g ( x )= x + 4 . Calcular su área.
+Solución:
+La representación gráfica es (1 puntos):
+
+
+
+
+Expresar bien el área (0,75 puntos):
+    1                           1                           1
+                                                   x3 x 2  1
+A=∫0 
+      ( x + 4 ) − (
+                   2
+                     x + 4 ) ∫ (
+                             dx =  −2
+                                      x + x )dx =−   +  =u2.
+                                                   3 2 0 6
+                                  0
+
+
+
+Calcular la primitiva (0,5 puntos), resultado final (0,25 puntos)
+
+
+
+                                                  ex
+CUESTIÓN 7. (2,5 puntos) Dada la función f (x ) = x   :
+                                                 e +2
+a) Calcular ∫ f (x ) dx (1 punto).
+
+                                                                                     ex
+b) Calcular el área de la región delimitada por la gráfica de la función f (x ) =         y las rectas x = 0
+                                                                                    ex +2
+  y x = 1 (1,5 puntos).
+Solución:
+
+             ex
+         ∫ e x + 2 dx= Ln (e + 2) + k (cálculo correcto de la primitiva 0,5 puntos; resultado final
+                            x
+   a)
+
+        0,5 puntos)
+         1
+             ex                          1                          e + 2
+   b)    ∫ e x + 2 dx= Ln (e + 2)  = Ln (e + 2) − Ln (3)= Ln            (expresar bien el área, 0,5
+                               x
+
+         0
+                                         0                             3 
+        puntos; aplicar bien la regla de Barrow, 0,5 puntos; resultado final, 0,5 puntos)
+CUESTIÓN 8. (2,5 puntos)
+
+   a) En un edificio hay dos ascensores A y B. El 45% de los inquilinos del edificio usa el primero (A) y
+         los restantes el segundo (B). El porcentaje de averías del ascensor A es del 5%, mientras que el
+         segundo se avería un 8% de las veces que se utiliza. Cada vez que un ascensor sufre una avería,
+         éste se para y no funciona.
+      i.     Calcular la probabilidad de que un ascensor, elegido al azar, se averíe. (0,75 puntos)
+     ii.     Si un inquilino queda atrapado un cierto día en el ascensor, ¿cuál es la probabilidad de que
+             haya sido en el segundo? (0,75 puntos).
+   b) La duración de los contratos temporales sigue una distribución normal con desviación típica de 3
+         meses. Una muestra aleatoria de 100 contratos temporales ha dado una duración media de 10
+         meses. Obtener un intervalo de confianza al 94% para la duración media de los contratos
+         temporales. (1 punto).
+
+Solución:
+
+   a) Hacemos el árbol:
+
+
+
+
+                     P ( Averia ) = 0,45 × 0,05 + 0,55 × 0,08 = 0,0665 (0,75 puntos)
+
+
+                                               P ( Averia ∩ B ) 0,55 × 0,08
+                             P (B /
+                                =   Averia )        = = 0,66165
+                                                  P ( Averia )    0,0665
+        (Expresión teorema de Bayes 0,5 puntos, resultado final 0,25 puntos)
+
+                          σ              σ 
+   b)   IC 94%  x
+              =    − zα /2    , x + zα /2    ; (expresión correcta 0,4 puntos)
+                           n              n
+        Sustituimos los valores:
+                              3                  3   
+        IC 94% 10
+              =    − 1, 88          ,10 + 1, 88        ( 9,
+                                                        =    436 10,564 )
+                             100                 100 
+
+        Para el 94% tenemos que: z α / 2 = 1, 88 (este valor 0,3)
+
+        (resultado final 0,3 puntos)
+

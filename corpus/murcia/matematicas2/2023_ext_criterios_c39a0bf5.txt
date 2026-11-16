@@ -1,0 +1,653 @@
+           RESOLUCIÓN DEL EXAMEN EBAU JULIO 2023
+                                   Matemáticas II
+
+    El objeto de este documento es doble. Por una parte, proporcionar a los profesores y alum-
+nos de Bachillerato de la Región de Murcia la resolución del examen de Matemáticas II
+de la convocatoria EBAU2023-JULIO. Por otra parte, agilizar las posibles reclamaciones
+a la corrección del examen, toda vez que, habiendo hecho pública la resolución de las cues-
+tiones, pueda ser más fácil indentificar posibles errores en la corrección. Evidentemente, por
+la propia naturaleza de la disciplina, una misma cuestión admite múltiples soluciones
+válidas y correctas y resulta prácticamente imposible recoger aquı́ toda esa variedad de
+soluciones. Por supuesto, cualquier otra solución a cualquiera de las cuestiones del examen
+que sea correcta y esté bien argumentada deberá ser considerada como válida en el proceso
+de corrección, aunque no esté incluida en este documento.
+
+   Como es bien sabido, el examen consta de un total de ocho cuestiones y se debe responder
+a un máximo de cuatro de ellas, elegidas libremente por el alumno. Las ocho cuestiones
+se pueden agrupar por bloques temáticos de la siguiente manera, pero insistimos en que se
+pueden escoger libremente un máximo de cuatro y en cualquier orden, independientemente
+de que pertenezcan o no al mismo bloque temático:
+
+Cuestiones 1 y 2: Del bloque de Números y Álgebra (2,5 puntos cada una).
+
+Cuestiones 3 y 4: Del bloque de Análisis (2,5 puntos cada una).
+
+Cuestiones 5 y 6: Del bloque de Geometrı́a (2,5 puntos cada una).
+
+Cuestiones 7 y 8: Del bloque de Estadı́stica y Probabilidad (2,5 puntos una).
+
+Si se responde a más de cuatro cuestiones, sólo se corrigen las cuatro primeras, en el orden
+que haya respondido el estudiante. Solo se pueden usar las tablas estadı́sticas que se propor-
+cionan con el examen y, según la normativa vigente, no se puden usar calculadoras gráficas
+ni programables.
+
+
+                               En Murcia, a 4 de julio de 2023.
+
+                                    Luis J. Alı́as Linares
+                                 Coordinador Matemáticas II
+                                Departamento de Matemáticas
+                                   Universidad de Murcia
+                                               2
+
+
+Bloque 1: Números y Álgebra (2,5 puntos cada una)
+
+     Cuestión 1.
+
+    Se quiere calcular un número de tres cifras con los siguientes datos:
+
+       i) La suma de sus tres cifras es 9.
+
+       ii) Si permutamos la cifra de las centenas con la cifra de las unidades, el número
+           obtenido es el número inicial menos 99.
+
+      iii) Si permutamos la cifra de las decenas con la cifra de las unidades, el número
+           obtenido es el número inicial más 36.
+
+       a) (1,5 p.) Denotando por x la cifra de las centenas, por y la de las decenas y
+          por z la de las unidades, plantee un sistema de 3 ecuaciones con 3 incógnitas
+          que represente la información dada en i), ii) y iii).
+
+       b) (1 p.) Calcule el número en cuestión.
+
+
+
+Solución: a) Se trata de un sistema de tres ecuaciones con tres incógnitas, en donde las
+incógnitas son las cifras del número en cuestión, N = xyz, siendo x la cifra de las centenas,
+y la de las decenas y z la de las unidades. El primer dato del ejercicio es que ”la suma de sus
+tres cifras es 9”, que da lugar a la primera ecuación:
+
+                                        x + y + z = 9.
+
+El segundo dato del ejercicio es que ”si permutamos la cifra de las centenas con la cifra de
+las unidades, el número obtenido es el número inicial menos 99”, es decir, el número zyx es
+el número xyz menos 99:
+                                       zyx = xyz − 99.
+Sin embargo, para poder expresar esto algebraicamente en forma de ecuación debemos tener
+en cuenta que cuando escribimos los números como xyz o como zyx se trata sólo de una
+notación, siendo su valor numérico el siguiente
+
+                        xyz = x · 102 + y · 10 + z = 100x + 10y + z
+                        zyx = z · 102 + y · 10 + x = 100z + 10y + x.
+
+Esto da lugar a la segunda ecuación:
+
+                10y
+         100z +   + x = 100x +   + z − 99 =⇒ 99x − 99z = 99 =⇒ x − z = 1.
+                                 10y
+
+El tercer dato del ejercicio es que ”si permutamos la cifra de las decenas con la cifra de las
+unidades, el número obtenido es el número inicial más 36”, es decir, el número xzy es el
+número xyz más 36:
+                                        xzy = xyz + 36.
+
+
+        Resolución EBAU Julio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                3
+
+
+Escribiendo esto algebraicamente se llega a la tercera ecuación
+
+         100x
+           + 10z + y =   + 10y + z + 36 =⇒ −9y + 9z = 36 =⇒ −y + z = 4.
+                          100x
+
+Por lo tanto, hay que resolver el siguiente sistema lineal de ecuaciones:
+                                     
+                                      x+y+z = 9
+                                           x−z      = 1
+                                          −y + z = 4
+                                     
+
+b) Se trata de un sistema de ecuaciones compatible determinado cuya solución (calculada por
+cualquier método válido) es
+
+                                x = 5,   y=0   y z = 4 =⇒ N = 504.
+
+     Cuestión 2.
+
+    Se dice que una matriz cuadrada A es 2-nilpotente si cumple que A2 = 0.
+
+       a) (0,75 p.) Justifique razonadamente que una matriz 2-nilpotente nunca puede
+          ser regular (o invertible).
+                                                          
+                                                    3 −9
+       b) (0,75 p.) Compruebe que la matriz A =              es 2-nilpotente.
+                                                    1 −3
+                                                                             
+                                                                        6 a
+       c) (1 p.) Determine para qué valores de a y b la matriz A =             es 2-
+                                                                        4 b
+          nilpotente.
+
+
+
+Solución: a) Sabemos que una matriz cuadrada A es regular si y sólo si |A| 6= 0. En este caso,
+si A es una matriz 2-nilpotente se tiene que A2 = 0, por lo que |A2 | = |A|2 = 0 =⇒ |A| = 0 y
+A no puede ser regular.
+    Otra forma de justificar que A no puede ser nunca regular es por reducción al absurdo,
+suponiendo que sı́ que existe la inversa A−1 y argumentar que en ese caso se tiene
+
+             A2 = 0 =⇒ A−1 · A2 = A−1 · 0 = 0 =⇒ (A−1 · A) · A = 0 =⇒ A = 0,
+
+lo cual no tiene sentido porque A = 0 no es regular.
+b) Se trata simplemente de comprobar que
+                   2                                                             
+      2      3 −9            3 −9          3 −9            9 − 9 −27 + 27             0 0
+    A =                 =              ·             =                          =           .
+             1 −3            1 −3          1 −3            3−3      −9 + 9            0 0
+                          
+                      6 a
+c) La matriz A =              es 2-nilpotente si y solo si A2 = 0, es decir, si y solo si
+                      4 b
+                  2                                              
+             6 a                6 a       6 a     36 + 4a 6a + ab     0 0
+                        =              ·       =                   =        .
+             4 b                4 b       4 b     24 + 4b 4a + b2     0 0
+
+
+        Resolución EBAU Julio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                    4
+
+
+En particular, fijándonos en la primera columna se tiene que si A es 2-nilpotente entonces
+
+                                   36 + 4a = 0 =⇒ a = −9
+                                   24 + 4b = 0 =⇒ b = −6.
+
+Además, para estos dos valores de a y b se tiene también la igualdad en la segunda columna:
+
+                                   6a + ab = −54 + 54 = 0
+                                   4a + b2 = −36 + 36 = 0.
+
+Por lo tanto A es 2-nilpotente si y solo si a = −9 y b = −6.
+
+
+Bloque 2: Cuestiones 3 y 4. Análisis (2,5 puntos cada una)
+
+     Cuestión 3.
+
+    Considere la función f (x) = x e−x , definida para todo valor de x ∈ R.
+
+       a) (0,75 p.) Calcule lı́mx→+∞ f (x).
+
+       b) (0,75 p.) Calcule la derivada de f (x) y determine los intervalos de crecimiento
+          y/o decrecimiento de la función f (x) y sus extremos relativos (máximos y/o
+          mı́nimos).
+
+       c) (1 p.) Calcule la integral indefinida de la función f (x).
+
+
+
+Solución: a) Comenzamos calculando
+                                                x    +∞    +∞
+                             lı́m xe−x = lı́m      =     =    .
+                            x→+∞           x→+∞ ex   e+∞   +∞
+Podemos resolver esta indeterminación aplicando la regla de L’Hôpital y se tiene
+                                   x            1            1         1
+                            lı́m       = lı́m           =         =      = 0.
+                           x→+∞ ex       x→+∞ ex            e+∞       +∞
+b) La derivada de f (x) = x e−x es
+
+                               f 0 (x) = e−x − xe−x = e−x (1 − x).
+
+Para determinar los intervalos de crecimiento y/o decrecimiento de la función f (x), calculamos
+primero los puntos crı́ticos de f (x), es decir, las soluciones de la ecuación f 0 (x) = 0:
+
+                 f 0 (x) = e−x (1 − x) = 0 ⇐⇒ x = 1, ya que e−x = 1/ex > 0.
+
+A continuación, estudiamos el signo de f 0 (x) para ver dónde la función es creciente o decre-
+ciente. Como f 0 (x) = 0 solo para x = 1, basta con darle valores a f 0 (x) a la izquierda y a
+
+
+        Resolución EBAU Julio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                5
+
+
+la derecha de este valor. Observamos que f 0 (x) > 0 si x < 1 (por ejemplo, f 0 (0) = 1 > 0) y
+que f 0 (x) < 0 si x > 1 (por ejemplo, f 0 (2) = −e−2 < 0), de modo que f (x) es creciente en
+el intervalo (−∞, 1) y decreciente en el intervalo (1, +∞). Por lo tanto la función tiene un
+máximo relativo en x = 1. El valor de esta máximo relativo
+                                                         R −xes f (1) = e−1 = 1/e.
+c) Se trata de calcular la siguiente integral indefinida xe dx, que es   R una   integral tı́pica
+por partes. Hacemos u = x y dv = e dx, de modo que du = dx y v = e dx = −e−x . Por
+                                     −x                                     −x
+
+tanto       Z                    Z
+              xe dx = −xe + e−x dx = −xe−x − e−x + C = −(x + 1)e−x + C.
+                 −x         −x
+
+
+
+
+     Cuestión 4.
+                                      sen x
+    Considere la función f (x) =              , definida para todo valor de x ∈ R, donde
+                                    1 + cos2 x
+    cos2 x = (cos x)2 .
+
+       a) (1 p.) Calcule la integral indefinida de la función f (x).
+                                                 Z π/2
+       b) (0,75 p.) Calcule la integral definida        f (x) dx.
+                                                     0
+
+       c) (0,75 p.) Determine la primitiva de f (x) que pasa por el punto (π, 1).
+
+
+                                                             Z
+                                                                   sen x
+Solución: a) Para calcular la integral indefinida f (x) =                  dx hacemos el cambio
+                                                                 1 + cos2 x
+de variable y = cos x =⇒ dy = − sen xdx, de modo que
+             Z                   Z
+                  sen x              1
+                       2
+                          dx = −          dy = − arc tg y = − arc tg(cos x) + C.
+                1 + cos x          1 + y2
+   Este apartado también se puede hacer directamente, sin especificar el cambio de variable,
+argumentando que es casi una integral inmediata del tipo
+                                 f 0 (x)
+                            Z
+                                           dx = arc tg(f (x)) + C
+                               1 + f 2 (x)
+
+pero llevando cuidado con el signo de la derivada, ya que en este caso se tiene cos0 (x) = − sen x.
+Por lo tanto, se tiene
+                                            − sen x
+                  Z                    Z
+                       sen x
+                            2
+                               dx = −                 dx = − arc tg(cos x) + C.
+                     1 + cos x             1 + cos2 x
+b) Calculamos la integral definida aplicando la regla de Barrow con la primitiva obtenida en
+el apartado a) tomando C = 0 (por ejemplo):
+        Z π/2
+                  sen x                         π/2
+                           dx = − arc tg(cos x) 0 = − arc tg(cos π/2) + arc tg(cos 0)
+         0      1 + cos2 x
+                                                              π    π
+                              = − arc tg(0) + arc tg(1) = −0 + = .
+                                                              4    4
+
+        Resolución EBAU Julio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                               6
+
+
+c) Por el apartado a) sabemos que la primitiva general de f (x) es F (x) = − arc tg(cos x) + C.
+Se trata, por tanto, de calcular el valor de C para que F (π) = 1. En este caso
+                                                                 π                   π
+       F (π) = − arc tg(cos π) + C = − arc tg(−1) + C =            + C = 1 =⇒ C = 1 − .
+                                                                 4                   4
+                                                           π
+Por tanto, la solución es F (x) = − arc tg(cos x) + 1 −     .
+                                                           4
+
+
+Bloque 3: Cuestiones 5 y 6. Geometrı́a (2,5 puntos cada una)
+
+     Cuestión 5.
+
+    Los puntos A = (6, −4, 4) y B = (12, −1, 1) son dos vértices de un triángulo. El
+    tercer vértice C es la proyección ortogonal del vértice A sobre la recta
+                                         
+                                            x − 2y = 5
+                                      r:
+                                            x + 2z = 5
+       a) (1,5 p.) Calcule las coordenadas del vértice C.
+
+       b) (0,5 p.) Determine si el triángulo ABC
+                                              [ tiene un ángulo recto en el vértice A.
+
+       c) (0,5 p.) Calcule el área del triángulo ABC.
+                                                   [
+
+
+
+Solución: a) El punto C se puede calcular como intersección de la propia recta r con el plano
+π perpendicular a la recta r que pasa por el punto A. El vector director de la recta r viene
+dado por
+
+                                  ~i ~j ~k
+   ~vr = (1, −2, 0) × (1, 0, 2) = 1 −2 0      = −4~i − 2~j + 2~k = (−4, −2, 2) k (−2, −1, 1).
+                                  1 0 2
+
+Por tanto, el haz de planos perpendiculares a la recta r viene dado por −2x − y + z = D.
+Para calcular el plano π necesitamos calcular el valor de D para que π pase por A:
+
+                         A ∈ π ⇐⇒ −12 + 4 + 4 = D ⇐⇒ D = −4.
+                                                          
+                                                             x − 2y = 5
+Por tanto, π : −2x − y + z = −4. Como la recta r es r :                     , el punto C viene
+                                                             x + 2z = 5
+dado como la solución del siguiente sistema, que por interpretación geométrica es S.C.D. (no
+es necesario comprobarlo):        
+                                   −2x − y + z = −4
+                                         x − 2y     = 5
+                                         x + 2z     = 5
+                                  
+
+La solución (calculada por cualquier método válido) es x = 3, y = −1 y z = 1; es decir, el
+tercer vértice del triángulo es C = (3, −1, 1).
+
+
+
+        Resolución EBAU Julio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                 7
+
+                                         −→ −→
+b) Necesitamos comprobar si los vectores AB y AC son perpendiculares o no. Para ello
+calculamos
+                −→ −→ −−→                   −→ −→ −→
+                AB = OA − OB = (6, 3, −3) y AC = OA − OC = (−3, 3, −3)
+
+y comprobamos que
+−→ −→
+AB · AC = −18 + 9 + 9 = 0 =⇒ vectores perpendiculares =⇒ ángulo recto en el vértice A.
+
+c) Para calcular el área del triángulo, podemos hacerlo aplicando directamente la fórmula
+                                              1 −→ −→
+                                       Área = kAB × ACk
+                                              2
+y teniendo en cuenta que
+
+                                                ~i   ~j ~k
+    −→ −→
+    AB × AC = (6, 3, −3) × (−3, 3, −3) =         6    3 −3   = 0~i + 27~j + 27~k = (0, 27, 27).
+                                                −3    3 −3
+
+Por lo tanto,                                     √
+                                    1√ 2        27 2   27
+                            Área =          2
+                                      27 + 27 =      = √ u2 .
+                                    2             2     2
+    Como se trata de un triángulo rectángulo en A, también podemos calcular el área aplicando
+la fórmula elemental de
+                                              base · altura
+                                      Área =               ,
+                                                    2
+teniendo en cuenta que en este caso se puede tomar
+                               −→       √                     −→    √
+                      base = kABk = 54 y altura = kACk = 27.
+
+Por lo tanto,                          √        √      √
+                                           54 · 27   27 2   27
+                             Área =               =      = √ u2 .
+                                              2        2     2
+
+     Cuestión 6.
+
+    Considere el plano π de ecuación π : 2x + ay − 2z = −4 y la recta r dada por
+                                    x+1      y+1     z−5
+                               r:          =       =      .
+                                      2        1       −2
+      a) (1,25 p.) Estudie la posición relativa del plano π y de la recta r en función
+         del parámetro a.
+    Se sabe que cuando a = 1 la recta r corta al plano π. Para ese valor de a:
+      b) (0,75 p.) Calcule el punto de corte de la recta r y el plano π.
+
+       c) (0,5 p.) Calcule el ángulo que forman.
+
+
+
+
+        Resolución EBAU Julio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                  8
+
+
+ Solución: a) Una posibilidad para estudiar la posición relativa de la recta r y el plano π
+ es considerar el vector director de la recta, ~vr = (2, 1, −2), y el vector normal al plano π,
+~n = (2, a, −2), y hacer su producto escalar
+                              ~vr · ~n = (2, 1, −2) · (2, a, −2) = 8 + a.
+Si este producto es distinto de 0 significa que la recta r corta al plano π, lo cual ocurre cuando
+a 6= −8. Por tanto, si a 6= −8 la recta corta al plano en un punto.
+    Por otro lado, si a = −8 este producto es 0, lo cual significa que o bien la recta es paralela al
+plano o bien está contenida en el plano. En este caso, para decidir cuál de las dos alternativas
+es la correcta basta con sustituir un punto de la recta en la ecuación del plano para ver si la
+recta está contenida en el plano o no. Tomando, por ejemplo, el punto de la recta (−1, −1, 5)
+comprobamos que dicho punto de r sı́ está en el plano, ya que −2 + 8 − 10 = −4, y concluimos
+que si a = −8 la recta está contenida en el plano.
+
+    Otra forma de resolver este apartado es pasar la recta r a su forma implı́cita, considerar
+el sistema de ecuaciones formado por la ecuación del plano π y las ecuaciones implı́citas de la
+recta r y estudiar dicho sistema en función del parámetro a. Para ello, observamos que
+                                                        
+                        x+1      y+1      z−5              x − 2y = 1
+                     r:        =       =         =⇒ r :
+                           2       1        −2              x+z = 4
+y el sistema de ecuaciones resultante es el siguiente:
+                                  
+                                   2x + ay − 2z = −4
+                                        x − 2y       = 1
+                                         x+z         = 4
+                                  
+
+La matriz del sistema es
+                                                                  
+                                            2 a −2              −4
+                               A∗ = (A|b)  1 −2 0               1 .
+                                            1 0  1               4
+El determinante de A es |A| = −8 − a, de manera que |A| = 0 ⇐⇒ a = −8. Por lo tanto, si
+a 6= −8 el rango de A es 3 y se trata de un S.C.D. y geométricamente significa que la recta
+corta al plano en un punto. Por otra parte, si a = −8 se tiene
+                                                            
+                                          2 −8 −2 −4
+                            A∗ = (A|b)  1 −2 0           1 .
+                                          1 0       1     4
+y el rango de A no puede ser 3 porque |A| = 0. Como A tiene un menor de orden 2 distinto
+                       1 −2
+de cero, por ejemplo           = 2, sabemos que rango(A) = 2. Para estudiar el rango de A∗
+                       1 0
+basta estudiar el rango de la submatriz obtenida al ampliar dicho menor de orden 2 con la
+nueva columna, es decir, el rango de
+                                                  
+                                        2 −8 −4
+                                      1 −2 1  .
+                                        1 0     4
+
+
+         Resolución EBAU Julio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                 9
+
+
+Su determinante es
+                   2 −8 −4
+                   1 −2 1         = −16 − 8 − 8 + 32 = 0 =⇒ rango(A∗ ) = 2.
+                   1 0  4
+
+Por tanto, si a = −8 se tiene rango(A) = rango(A∗ ) = 2 < 3 = n y se trata de un S.C.I., con
+infinitas soluciones dependientes de un parámetro. Geométricamente significa que la recta r
+está contenida en el plano π.
+
+   b) Para calcular el punto de corte basta con resolver el correspondiente sistema de ecua-
+ciones, que ya sabemos que es S.C.D.
+                                 
+                                  2x + y − 2z = −4
+                                       x − 2y     = 1
+                                       x+z        = 4
+                                 
+
+Su solución (calculada con cualquier método válido) es x = 1, y = 0 y z = 3, de manera que
+el punto de corte es el punto P = (1, 0, 3).
+    Otra forma de resolver este apartado es escribir la recta en forma parámétrica y sustituir
+en la ecuación del plano para calcular el valor de λ. En ese caso, se tiene
+                                       
+                                        x = −1 + 2λ
+                                    r:     y = −1 + λ
+                                           z = 5 − 2λ
+                                       
+
+y al sustituir en la ecuación del plano se llega a
+
+              2(−1 + 2λ) + (−1 + λ) − 2(5 − 2λ) = −4 ⇐⇒ 9λ = 9 ⇐⇒ λ = 1.
+
+Por lo tanto, el punto de corte es el punto P = (1, 0, 3).
+
+    c) Para calcular el ángulo que forman, observamos que en este caso el vector director de
+la recta es ~vr = (2, 1, −2) y el vector normal al plano π es ~n = (2, 1, −2). Como se trata de
+vectores proporcionales (de hecho, iguales), la recta es perpendicular al plano y el ángulo que
+forman es π/2 radianes (o 90 grados).
+
+
+
+
+        Resolución EBAU Julio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                10
+
+
+Cuestiones 7 y 8. Estadı́stica y Probabilidad (2,5 puntos cada una)
+
+       Cuestión 7.
+
+      En un cine hay 3 salas y un total de 250 espectadores repartidos de la siguiente
+      manera: 100 espectadores en la sala A, 50 en la sala B y 100 en la sala C. Se sabe
+      que la pelı́cula de la sala A gusta al 80 % de los espectadores, la de la sala B al 20 %
+      de los espectadores y la de la sala C al 60 % de los espectadores. A la salida de las
+      tres pelı́culas se elige un espectador al azar. Calcule:
+         a) (0,25 p.) La probabilidad de que el espectador haya estado en la sala C.
+
+        b) (0,5 p.) La probabilidad de que le haya gustado la pelı́cula, sabiendo que ha
+           estado en la sala C.
+
+        c) (0,5 p.) La probabilidad de que le haya gustado la pelı́cula y haya estado en
+           la sala C.
+
+        d) (0,75 p.) La probabilidad de que le haya gustado la pelı́cula.
+
+        e) (0,5 p.) La probabilidad de que le haya gustado la pelı́cula o haya estado en
+           la sala C.
+
+
+Solución: Denotamos por C el suceso ”el espectador ha estado en la sala C” y por G el suceso
+”al espectador le ha gustado la pelı́cula”.
+a)
+               casos favorables    número de espectadores en la sala C      100  2
+     P (C) =                    =                                          =     = = 0, 4.
+                casos posibles    número total de espectadores en el cine   250  5
+b)
+
+     P (G/C) = probabilidad de que la pelı́cula de la sala C le guste un espectador = 0, 6
+
+porque sabemos que la pelı́cula de la sala C le gusta al 60 % de los espectadores.
+c)
+                     P (G ∩ C) = P (G/C) · P (C) = 0, 4 · 0, 6 = 0, 24.
+d) Utilizando el teorema de la probabilidad total se tiene
+
+                 P (G) = P (G ∩ A) + P (G ∩ B) + P (G ∩ C)
+                       = P (G/A) · P (A) + P (G/B) · P (B) + P (G/C) · P (C).
+
+     Haciendo lo mismo que hemos hecho en a) pero para las salas A y B sabemos que
+               casos favorables    número de espectadores en la sala A      100  2
+     P (A) =                    =                                          =     = = 0, 4.
+                casos posibles    número total de espectadores en el cine   250  5
+               casos favorables    número de espectadores en la sala B      50   1
+     P (B) =                    =                                          =     = = 0, 2.
+                casos posibles    número total de espectadores en el cine   250  5
+
+
+         Resolución EBAU Julio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                 11
+
+
+   Haciendo lo mismo que hemos hecho en b) pero para las salas A y B sabemos que
+P (G/A) = 0, 8, porque sabemos que la pelı́cula de la sala A le gusta al 80 % de los es-
+pectadores, y que P (G/B) = 0, 2, porque sabemos que la pelı́cula de la sala B le gusta al
+20 % de los espectadores.
+   En definitiva,
+                 P (G) = P (G/A) · P (A) + P (G/B) · P (B) + P (G/C) · P (C)
+                       = 0, 8 · 0, 4 + 0, 2 · 0, 2 + 0, 4 · 0, 6
+                       = 0, 32 + 0, 04 + 0, 24 = 0, 6.
+   e)
+               P (G ∪ C) = P (G) + P (C) − P (G ∩ C) = 0, 6 + 0, 4 − 0, 24 = 0, 76.
+
+     Cuestión 8.
+
+    En este ejercicio trabaje con 4 decimales para las probabilidades y 2 decimales para
+    los porcentajes.
+    El peso de los recién nacidos en la Región de Murcia sigue una distribución normal
+    de media µ y desviación tı́pica σ desconocidas. Se sabe que el 67 % de los recién
+    nacidos pesan menos de 3,464 kg y que el 1,5 % de los recién nacidos pesan más de
+    4,502 kg.
+       a) (0,5 p.) ¿Cuál es el porcentaje de recién nacidos cuyo peso está comprendido
+          entre 3,464 y 4,502 kg?
+
+         b) (1 p.) Calcule la media y la desviación tı́pica de esta distribución.
+
+         c) (1 p.) Calcule el porcentaje de recién nacidos que pesan menos de 2,33 kg.
+
+
+Solución: Denotamos por X a la variable aleatoria ”peso de los recién nacidos en la Región
+de Murcia” medido en kg. Sabemos que X ∼ N (µ, σ) con los siguientes datos:
+        P (X < 3, 464) = 0, 67;
+        P (X > 4, 502) = 0, 015.
+a) Con los datos conocidos, podemos calcular la probabilidad de que el peso de los recién
+nacidos esté comprendido entre 3,464 y 4,502 kg:
+                P (3, 464 < X < 4, 502) = P (X < 4, 502) − P (X < 3, 464)
+                                        = 1 − P (X > 4, 502) − P (X < 3, 464)
+                                        = 1 − 0, 015 − 0, 67 = 0, 315.
+Por tanto, el porcentaje de recién nacidos cuyo peso está comprendido entre 3,464 y 4,502 kg
+es el 31,5 %
+                                         X −µ
+b) Haciendo uso de la tipificación Z =         sabemos que Z ∼ N (0, 1) y que
+                                            σ
+                                                   3, 464 − µ
+                         P (X < 3, 464) = P (Z <              ) = 0, 67.
+                                                        σ
+
+          Resolución EBAU Julio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                12
+
+
+Consultando en la tabla de Z ∼ N (0, 1) proporcionada, vemos que dicho valor de la probabi-
+lidad corresponde al valor de z = 0, 44, es decir,
+                3, 464 − µ
+         z=                = 0, 44 =⇒ 3, 464 − µ = 0, 44 · σ =⇒ µ + 0, 44 · σ = 3, 464.
+                     σ
+Por otro lado
+                                             4, 502 − µ
+                   P (X < 4, 502) = P (Z <              ) = 1 − 0, 015 = 0, 985.
+                                                  σ
+Consultando de nuevo en la tabla de Z ∼ N (0, 1) proporcionada, vemos que dicho valor de
+la probabilidad corresponde al valor de z = 2, 17, es decir,
+                4, 502 − µ
+         z=                = 2, 17 =⇒ 4, 502 − µ = 2, 17 · σ =⇒ µ + 2, 17 · σ = 4, 502.
+                     σ
+Tenemos entonces que µ y σ son las soluciones del siguiente sistema lineal de dos ecuaciones:
+                               
+                                  µ + 0, 44 · σ = 3, 464
+                                  µ + 2, 17 · σ = 4, 502
+
+Restando a la segunda ecuación la primera ecuación, se tiene
+                                                       1, 038
+                           1, 73 · σ = 1, 038 =⇒ σ =          = 0, 6 kg.
+                                                       1, 73
+Sustituyendo este valor en la primera ecuación, se tene
+
+                                µ = 3, 464 − 0, 44 · 0, 6 = 3, 2 kg.
+
+c) Calculamos primero la probabilidad P (X < 2, 33), usando la tipificación y haciendo
+                                   2, 33 − 3, 2
+         P (X < 2, 33) = P (Z <                 ) = P (Z < −1, 45) = 1 − P (Z < 1, 45).
+                                       0, 6
+
+Buscando en la tabla observamos que P (Z < 1, 45) = 0, 9265, de modo que
+
+                   P (X < 2, 33) = 1 − P (Z < 1, 45) = 1 − 0, 9265 = 0, 0735,
+
+lo que significa que el 7,35 % de los recién nacidos pesan menos de 2,33 kg.
+
+
+
+
+        Resolución EBAU Julio 2023. Luis J. Alı́as Linares, Coordinador Matemáticas II
+

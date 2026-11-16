@@ -1,0 +1,847 @@
+           RESOLUCIÓN DEL EXAMEN EBAU JUNIO 2024
+                                   Matemáticas II
+
+    El objeto de este documento es doble. Por una parte, proporcionar a los profesores y alum-
+nos de Bachillerato de la Región de Murcia la resolución del examen de Matemáticas II de
+la convocatoria EBAU2024-JUNIO. Por otra parte, agilizar las posibles reclamaciones
+a la corrección del examen, toda vez que, habiendo hecho pública la resolución de las cues-
+tiones, pueda ser más fácil indentificar posibles errores en la corrección. Evidentemente, por
+la propia naturaleza de la disciplina, una misma cuestión admite múltiples soluciones
+válidas y correctas y resulta prácticamente imposible recoger aquı́ toda esa variedad de
+soluciones. Por supuesto, cualquier otra solución a cualquiera de las cuestiones del examen
+que sea correcta y esté bien argumentada deberá ser considerada como válida en el proceso
+de corrección, aunque no esté incluida en este documento.
+
+   Como es bien sabido, el examen consta de un total de ocho cuestiones y se debe responder
+a un máximo de cuatro de ellas, elegidas libremente por el alumno. Las ocho cuestiones
+se pueden agrupar por bloques temáticos de la siguiente manera, pero insistimos en que se
+pueden escoger libremente un máximo de cuatro y en cualquier orden, independientemente
+de que pertenezcan o no al mismo bloque temático:
+
+Cuestiones 1 y 2: Del bloque de Números y Álgebra (2,5 puntos cada una).
+
+Cuestiones 3 y 4: Del bloque de Análisis (2,5 puntos cada una).
+
+Cuestiones 5 y 6: Del bloque de Geometrı́a (2,5 puntos cada una).
+
+Cuestiones 7 y 8: Del bloque de Estadı́stica y Probabilidad (2,5 puntos una).
+
+Si se responde a más de cuatro cuestiones, sólo se corrigen las cuatro primeras, en el orden
+que haya respondido el estudiante. Solo se pueden usar las tablas estadı́sticas que se propor-
+cionan con el examen y, según la normativa vigente, no se puden usar calculadoras gráficas
+ni programables.
+
+
+                               En Murcia, a 6 de junio de 2024.
+
+                                    Luis J. Alı́as Linares
+                                 Coordinador Matemáticas II
+                                Departamento de Matemáticas
+                                   Universidad de Murcia
+                                               2
+
+
+Bloque 1: Números y Álgebra (2,5 puntos cada una)
+
+     Cuestión 1.
+
+    (2,5 p.) En los años 2022 y 2023, Carlitos Alcaraz ganó un total de 10 torneos de
+    categorı́as Grand Slam, Masters 1000 y ATP 500, lo que le proporcionó un total de
+    10.000 puntos. El número de torneos ganados de categorı́a ATP 500 fue 1 más que
+    la mitad de la suma del número de torneos ganados de las otras dos categorı́as.
+
+    A continuación se detallan los puntos conseguidos por cada torneo ganado en cada
+    una de las categorı́as: Grand Slam = 2.000 puntos; Masters 1000 = 1.000 puntos;
+    ATP 500 = 500 puntos.
+
+    Con esta información, calcule el número de torneos de cada una de las tres categorı́as
+    ganados por Carlitos en los años 2022 y 2023.
+
+
+Solución: Se trata de un sistema de tres ecuaciones con tres incógnitas, en donde las incógni-
+tas son el número de torneos ganados por Carlitos en cada una de las categorı́as en los años
+2022 y 2023. Denotemos por x el número de torneos ganados de categorı́a Grand Slam, por y
+el número de torneos ganados de categorı́a Masters 1000 y por z el número de torneos ganados
+de categorı́a ATP 500. El primer dato del ejercicio es que ”Carlitos Alcaraz ganó un total de
+10 torneos”, que da lugar a la primera ecuación:
+
+                                        x + y + z = 10.
+
+El segundo dato del ejercicio es que esto ”le proporcionó un total de 10.000 puntos”, que da
+lugar a la segunda ecuación:
+
+                    2.000x + 1.000y + 500z = 10.000 =⇒ 4x + 2y + z = 20.
+
+El tercer dato del ejercicio es que ”el número de torneos ganados de categorı́a ATP 500 fue
+1 más que la mitad de la suma del número de torneos ganados de las otras dos categorı́as”,
+que da lugar a la tercera ecuación:
+                                  x+y
+                             z=       + 1 =⇒ x + y − 2z = −2.
+                                   2
+Por lo tanto, hay que resolver el siguiente sistema lineal de ecuaciones:
+                                   
+                                    x + y + z = 10
+                                      4x + 2y + z = 20
+                                       x + y − 2z = −2
+                                   
+
+   El sistema se puede resolver por cualquiera de los métodos que se desee. En este caso
+optamos por el que pensamos que es más sencillo, pero cualquier método utilizado, siendo
+correcto, es válido. Si restamos la tercera ecuación a la primera llegamos directamente a
+                                                     12
+                                   3z = 12 =⇒ z =       = 4.
+                                                      3
+
+        Resolución EBAU Junio 2024. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                               3
+
+
+Reemplazamos el valor de z = 4 en la primera y en la segunda ecuación y resulta un sistema
+de dos ecuaciones con dos incógnitas para x e y:
+                                                 
+                             x+y = 6                x+y = 6
+                                              =⇒
+                            4x + 2y = 16            2x + y = 8
+
+Restando la primera ecuación a las segunda se tiene directamente
+
+                                            x = 2.
+
+Finalmente, con la primera ecuación calculamos y = 4.
+
+   Por lo tanto, en los años 2022 y 2023, Carlitos Alcaraz ganó 2 torneos de Grand Slam (US
+Open 2022 y Wimbledon 2023), 4 torneos de Masters 1000 (Miami 2022, Madrid 2022, Indian
+Wells 2023 y Madrid 2023) y 4 de ATP 500 (Rı́o de Janeiro 2022, Barcelona 2022, Barcelona
+2023 y Queen’s Club 2023).
+
+     Cuestión 2.
+
+    Se dice que una matriz cuadrada A de orden 2 es una matriz de Hadamard si está
+    formada solo por 1’s y -1’s y cumple que A · At = 2I, donde At denota la matriz
+    traspuesta de A e I denota la matriz identidad de orden 2.
+
+       a) (1 p.) Determine cuál de las siguientes matrices es de Hadamard:
+                                                             
+                                    1 1                 1     1
+                                               y                  .
+                                  −1 1                −1 −1
+
+       b) (0,75 p.) Si A es una matriz de Hadamard cualquiera de orden 2, calcule
+          razonadamente su determinante.
+
+       c) (0,75 p.) Justifique que toda matriz A de Hadamard de orden 2 es regular (o
+          invertible) y obtenga una expresión para su inversa en términos de At .
+
+
+
+Solución: a) Ambas matrices están formadas solo por 1’s y -1’s. Para determinar cuál de
+ellas es o no de Hadamard basta con comprobar si cumplen la identidad A · At = 2I. En el
+primer caso, un sencillo cálculo nos muestra que
+                                                                       
+              t       1 1           1 −1             1 + 1 −1 + 1        2 0
+         A·A =                  ·             =                      =           = 2I,
+                     −1 1           1   1          −1 + 1    1+1         0 2
+                                     
+                                  1 1
+por lo que la matriz A =                sı́ es de Hadamard. En el segundo caso, resulta
+                              −1 1
+                                                                           
+           t        1   1          1 −1             1 + 1 −1 − 1          2 −2
+      A·A =                   ·              =                      =               6= 2I,
+                  −1 −1            1 −1           −1 − 1    1+1         −2     2
+
+
+
+        Resolución EBAU Junio 2024. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                         4
+
+                                            
+                                   1  1
+por lo que la matriz A =                          no es de Hadamard.
+                                  −1 −1
+b) Si A es una matriz de Hadamard cualquiera de orden 2, sabemos que A·At = 2I. Tomando
+determinantes en esta igualdad y utilizando propiedades básicas de los determinantes, se tiene
+                                                    2 0                  √
+            |A · At | = |A| · |At | = |A|2 = |2I| =     = 4 =⇒ |A| = ± 4 = ±2.
+                                                    0 2
+
+c) Por el apartado anterior, sabemos ya que cualquier matriz A de Hadamard de orden 2
+tiene |A| 6= 0, por lo que es regular. Además, a partir de la condición A · At = 2I podemos
+calcular explı́citamente su inversa en términos de At , ya que
+                                                             
+                         t           1        t
+                                                         1 t    1
+                    A · A = 2I =⇒ · A · A = A ·             A = (2I) = I .
+                                     2                    2      2
+Es decir,                                        
+                                            1 t                   1
+                                   A·         A       = I =⇒ A−1 = At .
+                                            2                     2
+
+Bloque 2: Cuestiones 3 y 4. Análisis (2,5 puntos cada una)
+
+       Cuestión 3.
+
+       Calcule los siguientes lı́mites:
+                      cos(3x) − cos(2x)
+         a) (1 p.) lı́m                 .
+                  x→0         x2
+                           √         √
+         b) (0,75 p.) lı́m   x + 9 − x − 9.
+                           x→+∞
+
+                           ln x
+         c) (0,75 p.) lı́m √ .
+                     x→+∞     x
+
+
+Solución: a) Comenzamos calculando
+                       cos(3x) − cos(2x)    cos(0) − cos(0)   1−1       0
+                       lı́m      2
+                                         =          2
+                                                            =        = .
+                  x→0          x                   0            0       0
+Podemos resolver esta indeterminación aplicando la regla de L’Hôpital y se tiene
+    cos(3x) − cos(2x)        −3 sen(3x) + 2 sen(2x)    −3 sen(0) + 2 sen(0)   −3 · 0 + 2 · 0   0
+lı́m                  = lı́m                         =                      =                =   .
+x→0         x2          x→0           2x                        0                   0          0
+Aplicamos de nuevo la regla de L’Hôpital y se tiene
+                        −3 sen(3x) + 2 sen(2x)        −9 cos(3x) + 4 cos(2x)
+                    lı́m                       = lı́m
+                    x→0          2x              x→0            2
+                                                 −9 cos(0) + 4 cos(0)
+                                               =
+                                                           2
+                                                 −9 · 1 + 4 · 1     5
+                                               =                =− .
+                                                       2            2
+
+          Resolución EBAU Junio 2024. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                   5
+
+
+En resumen
+                                          cos(3x) − cos(2x)     5
+                                      lı́m                  = −   .
+                                      x→0         x2            2
+
+Otra forma: Utilizando la fórmula trigonométrica
+                                                  
+                                 A+B            A−B
+        cos A − cos B = −2 sen            sen          ,              con A = 3x y B = 2x.
+                                    2              2
+se tiene que
+
+                 cos(3x) − cos(2x)   −2 sen( 5x
+                                              2
+                                                ) sen( x2 )      sen( 5x
+                                                                       2
+                                                                         ) sen( x2 )
+                                   =                        = −2                     ,
+                         x2                 x2                      x        x
+de manera que
+                        cos(3x) − cos(2x)           sen( 5x
+                                                          2
+                                                            )      sen( x2 )
+                     lı́m                 = −2 lı́m           lı́m           .
+                    x→0         x2             x→0     x      x→0    x
+A continuación, observamos que
+
+                                           sen( 5x
+                                                 2
+                                                   )   sen(0)   0
+                                       lı́m          =        =
+                                       x→0    x          0      0
+y, aplicando la regla de L’Hôpital, se llega a
+                                                  5
+                                 sen( 5x
+                                       2
+                                         )        2
+                                                    cos( 5x
+                                                          2
+                                                            )  5        5
+                            lı́m           = lı́m             = cos(0) = .
+                            x→0     x        x→0      1        2        2
+Análogamente
+
+                       sen( x2 )   sen(0)  0       1
+                                                     cos( x2 )  1        1
+                   lı́m          =        = = lı́m 2           = cos(0) = .
+                   x→0   x           0     0 x→0       1        2        2
+En definitiva
+                                 cos(3x) − cos(2x)       5 1   5
+                             lı́m          2
+                                                   = −2 · · = − .
+                             x→0         x               2 2   2
+
+b) En primer lugar observamos que
+                                 √        √
+                            lı́m   x + 9 − x − 9 = ∞ − ∞.
+                                    x→+∞
+
+Un modo sencillo de resolver esta indeterminación es multiplicando y dividiendo por el con-
+jugado y operando algebraicamente:
+            √         √            √         √        √x + 9 + √x − 9
+              x+9− x−9 =               x+9− x−9 · √                √
+                                                           x+9+ x−9
+                                     √           √
+                                    ( x + 9)2 − ( x − 9)2      x + 9 − (x − 9)
+                               =      √         √          =√           √
+                                        x+9+ x−9                x+9+ x−9
+                                              x+9−x+9        18
+                                      = √         √    =√       √  .
+                                              x+9+ x−9    x+9+ x−9
+
+
+        Resolución EBAU Junio 2024. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                  6
+
+
+Por lo tanto,
+                         √       √                       18       18
+                  lı́m    x + 9 − x − 9 = lı́m √            √  =     = 0.
+                 x→+∞                         x→+∞    x+9+ x−9   +∞
+
+c) En este caso, un primer cálculo nos indica que
+                                                ln x ∞
+                                           lı́m √ = .
+                                          x→+∞     x ∞
+Podemos resolver esta indeterminación aplicando la regla de L’Hôpital y se tiene
+                                  1             √
+                    ln x          x            2 x            2       2
+               lı́m √ = lı́m 1 = lı́m               = lı́m √ =            = 0.
+              x→+∞     x x→+∞ 2√x       x→+∞ x         x→+∞    x    +∞
+
+     Cuestión 4.
+                                                               Z
+       a) (1,5 p.) Calcule la siguiente integral indefinida        x2 sen x dx.
+
+       b) (1 p.) Determine el área del recinto limitado por el eje OX, las rectas verticales
+          x = −π/2 y x = π/2, y la gráfica de la función f (x) = x2 sen x.
+
+
+Solución: a) Se trata de una integral tı́pica que seR resuelve por partes haciendo u = x2 y
+dv = sen xdx. En ese caso se tiene du = 2xdx y v = sen xdx = − cos x, por lo que
+                        Z                                Z
+                             2               2
+                           x sen x dx = −x cos x + 2 x cos xdx.
+
+Hacemos de nuevo integración por partes en
+                                         R la nueva integral, tomando ahora u = x y
+dv = cos xdx, de manera que du = dx y v = cos xdx = sen x. Por tanto,
+   Z                              Z                                  Z       
+       2                2                        2
+      x sen xdx = −x cos x + 2 x cos xdx = −x cos x + 2 x sen x − sen xdx
+
+                       = −x2 cos x + 2 (x sen x + cos x) = −x2 cos x + 2x sen x + 2 cos x + C.
+
+
+b) En primer h πlugar,  estudiamos el signo de la función f (x) = x2 sen x en el intervalo de
+                    π i
+integración − , . La función x2 es siempre no negativa, x2 ≥ 0, por lo que el signo de
+                2 2
+f (x) depende únicamente del signo de la función sen x. Por
+                                                           h resultados de trigonometrı́a básica,
+                                                              π 
+sabemos que la función seno es negativa en el intervalo − , 0 , se anula justo en en x = 0 y
+                             πi                              2
+es positiva en el intervalo 0, . Por lo tanto, el área del recinto limitado por el eje OX, las
+                               2
+rectas verticales x = −π/2 y x = π/2, y la gráfica de la función f (x) = x2 sen x viene dado
+por
+             Z 0                  Z π/2                   Z 0               Z π/2
+                      2                  2                       2
+    Área =         x sen xdx +         x sen xdx = −           x sen xdx +       x2 sen xdx.
+                −π/2                  0                     −π/2                  0
+
+
+
+        Resolución EBAU Junio 2024. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                         7
+
+
+Haciendo uso de la regla de Barrow y de la integral indefinida calculada en el apartado anterior,
+se tiene   Z   0
+                                                                            0
+                     x2 sen xdx = (−x2 cos x + 2x sen x + 2 cos x) −π/2 = 2 − π < 0.
+              −π/2
+
+Análogamente,
+              Z π/2
+                                                                            π/2
+                      x2 sen xdx = (−x2 cos x + 2x sen x + 2 cos x) 0             = π − 2 > 0.
+               0
+
+Con todo esto, concluimos que
+                                             Área = 2(π − 2).
+    También se podrı́a haber razonado por simetrı́a, dado que f (−x) = −f (x) y el intervalo
+es simétrico respecto del origen, para justificar que
+                      Z 0                   Z π/2                   Z π/2
+                               2                     2
+        Área = −             x sen xdx +           x sen xdx = 2           x2 sen xdx = 2(π − 2).
+                       −π/2                  0                       0
+
+
+
+Bloque 3: Cuestiones 5 y 6. Geometrı́a (2,5 puntos cada una)
+
+     Cuestión 5.
+
+                                                                                       x   y−1  z
+    Considere el plano π de ecuación x+y+z = −1 y la recta r dada por                   =     = .
+                                                                                       1    −1  0
+       a) (1 p.) Compruebe que el plano π y la recta r son paralelos.
+
+       b) (0,5 p.) Calcule la distancia de la recta r al plano π.
+
+       c) (1 p.) Calcule la ecuación general (o implı́cita) del plano que contiene a la
+          recta r y es perpendicular al plano π.
+
+
+
+Solución: a) El vector director de la recta r es ~vr = (1, −1, 0) y el vector normal del plano
+π es ~nπ = (1, 1, 1). Observamos que el producto escalar de ambos vectores es
+
+                               ~vr · ~nπ = (1, −1, 0) · (1, 1, 1) = 1 − 1 = 0.
+
+Por lo tanto, o bien la recta está contenida en el plano o bien la recta y el plano son paralelos.
+Para descartar el primer caso, basta con comprobar que un punto cualquiera de la recta no
+esté en el plano. Tomamos el punto de la recta P (0, 1, 0) y vemos que no está en el plano, ya
+que sus coordenadas no cumplen la ecuación del plano, puesto que
+
+                                            0 + 1 + 0 = 1 6= −1.
+
+En consecuencia, la recta r y el plano π son paralelos.
+
+
+
+
+        Resolución EBAU Junio 2024. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                               8
+
+
+b) Como ya sabemos que son paralelos, d(π, r) = d(π, P ) para cualquier punto P de r.
+Tomamos de nuevo el punto P (0, 1, 0) y concluimos que
+                                               |0 + 1 + 0 + 1|   2
+                          d(π, r) = d(π, P ) = √               =√ .
+                                                  12 + 12 + 12    3
+
+ c) Como el plano contiene a la recta r, podemos tomar como punto del plano el propio
+ punto P (0, 1, 0) ∈ r y como uno de los dos vectores directores del plano el propio vector
+~vr = (1, −1, 0). Además, como el plano que estamos buscando debe ser también perpendicular
+ al plano π, podemos tomar como segundo vector director del plano el vector normal del plano
+ π, es decir, ~nπ = (1, 1, 1). Con estos ingredientes, podemos calcular la ecuación general del
+ plano requerido, haciendo simplemente el determinante
+               x−0 1 1
+               y − 1 −1 1      = 0 =⇒ −x + 2z − y + 1 = 0 =⇒ x + y − 2z = 1.
+               z−0 0 1
+
+     Cuestión 6.
+
+    Considere las siguientes rectas:
+                                                        
+                           x + 2y = 13                       y + 2z = 4
+                     r:                        y    s:
+                              z     = 2                      −x + y = 3
+       a) (1 p.) Compruebe que ambas rectas se cruzan en el espacio.
+
+       b) (0,5 p.) Compruebe que el punto P (0, 3, 0) no está en ninguna de las dos
+          rectas.
+
+       c) (1 p.) Calcule la ecuación del plano (en cualquiera de sus formas) que contiene
+          al punto P y es paralelo a ambas rectas.
+
+
+
+Solución: a) Veamos en primer lugar que las rectas no se cortan. Como ambas rectas vienen
+dadas por sus ecuaciones implı́citas, la manera más sencilla de comprobar que no se cortan es
+comprobar que el sistema de 4 ecuaciones con 3 incógnitas obtenido al unir las 2 ecuaciones
+implı́citas de las rectas es un sistema incompatible (no tiene ninguna solución). Consideramos,
+por tanto, el sistema                   
+                                        
+                                          x + 2y = 13
+                                              z    = 2
+                                        
+                                        
+                                           y + 2z = 4
+                                           −x + y = 3
+                                        
+
+Por la segunda ecuación sabemos ya que z = 2. Reemplazando este valor de z en la tercera
+ecuación se tiene que
+                                  y + 4 = 4 =⇒ y = 0.
+Y reemplazando ahora este valor de y en la primera ecuación resulta x = 13. Pero, si lo
+reemplazamos en la cuarta ecuación, resulta x = −3. Por lo tanto, el sistema es incompatible
+
+
+        Resolución EBAU Junio 2024. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                                    9
+
+
+lo que significa, geométricamente, que las rectas no se cortan. En ese caso, puede ocurrir que
+sean paralelas o que se crucen en el espacio.
+    Para descartar que las rectas sean paralelas, basta con comprobar que los vectores di-
+rectores de ambas rectas no son proporcionales. Calculamos el vector director de la recta r
+haciendo
+                                                 ~i ~j ~k
+                   ~vr = (1, 2, 0) × (0, 0, 1) = 1 2 0 = 2~i − ~j = (2, −1, 0).
+                                                 0 0 1
+y, análogamente, el de la recta s
+                                              ~i   ~j   ~k
+           ~vs = (0, 1, 2) × (−1, 1, 0) =     0     1    2   = −2~j + ~k − 2~i = (−2, −2, 1).
+                                              −1    1    0
+ Vemos entonces que ~vr y ~vs no son proporcionales, ya que no existe ningún λ ∈ R tal que
+~vs = λ~vr , ya que
+             λ~vr = λ(2, −1, 0) = (2λ, −λ, 0) 6= (−2, −2, 1) para cualquier λ ∈ R.
+Otra forma de razonar que ~vr y ~vs no son proporcionales es argumentando que su producto
+vectorial es ~vr × ~vs 6= (0, 0, 0),
+                           ~i ~j ~k
+             ~vr × ~vs =    2 −1 0          = −~i − 2~j − 6~k = (−1, −2, −6) 6= (0, 0, 0).
+                           −2 −2 1
+                                                                                                    
+                                                                                         2 −1 0
+Ası́ mismo, también se puede hacer justificando que el rango de la matriz                               es
+                                                                                        −2 −2 1
+                                                                              −1 0
+2 porque tiene algún menor de orden 2 distinto de 0, por ejemplo                       = −1 6= 0.
+                                                                              −2 1
+b) Para ello, basta con comprobar que las coordenadas de P (0, 3, 0) no cumplen ninguna de
+las dos ecuaciones. En el caso de las ecuaciones de la recta r, se tiene
+                                   
+                                      0 + 2 · 3 = 6 6= 13
+                                            0        6= 2
+Y para el caso de la recta s         
+                                         3 + 2 · 0 = 3 6= 4
+                                         −0 + 3 = 3 = 3
+Por tanto P no está en ninguna de ellas.
+
+ c) Como el plano contiene al punto P y es paralelo a las rectas r y s, podemos tomar como
+ punto del plano el propio punto P (0, 3, 0) y como vectores directores del plano los vectores
+~vr = (2, −1, 0) y ~vs = (−2, −2, 1) . Con estos ingredientes, podemos calcular la ecuación
+ general del plano requerido, haciendo simplemente el determinante
+          x−0    2 −2
+          y − 3 −1 −2          = 0 =⇒ −x − 4z − 2z − 2y + 6 = 0 =⇒ x + 2y + 6z = 6.
+          z−0    0  1
+
+
+        Resolución EBAU Junio 2024. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                              10
+
+
+Con estos mismos ingredientes, también se podrı́a haber calculado la ecuación vectorial, ha-
+ciendo
+                    (x, y, z) = (0, 3, 0) + λ · (2, −1, 0) + µ · (−2, −2, 1)
+o la paramétrica, llegando a
+                      
+                       x = 0 + 2λ − 2µ =    2λ − 2µ
+                         y = 3 − λ − 2µ = 3 − λ − 2µ          con λ, µ ∈ R.
+                         z = 0 + 0λ + µ =          µ
+                      
+
+
+Cuestiones 7 y 8. Estadı́stica y Probabilidad (2,5 puntos cada una)
+
+     Cuestión 7.
+
+    El juego de los dados de Efron tiene 4 dados diferentes. Todos ellos son dados
+    perfectos de 6 caras equiprobables, pero la numeración de sus 6 caras es diferente en
+    cada uno, según se detalla en la siguiente tabla:
+                    Dado A         0      0        4      4      4       4
+                    Dado B         3      3        3      3      3       3
+                    Dado C         2      2        2      2      6       6
+                    Dado D         1      1        1      5      5       5
+
+    Ana elige el dado A, Bea elige el dado B, Ceci elige el dado C y Delia elige el dado
+    D. El juego consiste en que cada jugador lanza su dado, gana aquel que saque la
+    mayor puntuación y pierde aquel que saque la menor puntuación. Pueden jugar uno
+    contra uno o todos contra todos. Calcule:
+      a) (0,5 p.) Si Ana juega contra Bea, ¿cuál es la probabilidad de que gane Ana?
+
+       b) (0,75 p.) Si Ana juega contra Bea 8 veces, ¿cuál es la probabilidad de que
+          Bea gane al menos 3 veces?
+
+       c) (0,5 p.) Si Ana juega contra Ceci, ¿cuál es la probabilidad de que gane Ceci?
+
+       d) (0,75 p.) Si juegan todos contra todos, ¿cuál es la probabilidad de que Ana
+          ni gane ni pierda?
+
+
+
+Solución: a) Independientemente de lo que saque Ana, Bea sacará un 3. Por tanto el suceso
+“Ana gana a Bea” es equivalente al suceso “Ana saca un 4” y se tiene
+                                                       casos favorables  4 2
+               P (Ana gana a Bea) = P (Ana=4) =                         = = .
+                                                        casos posibles   6 3
+
+b) Por lo visto ya en el apartado anterior, observamos en primer lugar que si Ana juega contra
+Bea 1 vez, la probabilidad de que gane Bea es
+                                                                             2  1
+              p = P (Bea gana a Ana) = 1 − P (Ana gana a Bea) = 1 −            = .
+                                                                             3  3
+
+        Resolución EBAU Junio 2024. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                               11
+
+
+Si esto se repite 8 veces y denotamos por X a la variable aleatoria que cuenta el número de
+veces que gana Bea, sabemos que X sigue una distribución binomial de parámetros n = 8
+(número de veces que Ana juega contra Bea) y p = 1/3 (probabilidad de que gane Bea en
+una partida). Por lo tanto, se trata de calular la probabilidad de que X ≥ 3, es decir,
+
+           P (X ≥ 3) = 1 − P (X ≤ 2) = 1 − (P (X = 0) + P (X = 1) + P (X = 2)).
+
+Consultando la tabla de la binomial proporcionada con el examen (con n = 8 y p = 1/3), se
+tiene
+
+          P (X ≥ 3) = 1 − P (X ≤ 2) = 1 − (P (X = 0) + P (X = 1) + P (X = 2))
+                    = 1 − (0, 0390 + 0, 1561 + 0, 2731)
+                    = 1 − 0, 4682 = 0, 5318.
+
+Por supuesto, esto último también se puede resolver utilizando la fórmula de las probabilidades
+de una distribución binomial,
+
+        P (X ≥ 3) = 1 − P (X ≤ 2) = 1 − P (X = 0) − P (X = 1) − P (X = 2)
+                                                            
+                          8       0     8    8       1     7    8
+                  = 1−       (1/3) (2/3) −      (1/3) (2/3) −      (1/3)2 (2/3)6
+                          0                  1                  2
+                  = 1 − 0, 0390184425 − 0, 156073769 − 0, 273129096
+                  = = 1 − 0, 4682213075 = 0, 5317786925 ≈ 0, 5318.
+
+
+c) Para que Ceci gane a Ana pueden suceder dos cosas. O bien Ana saca un 0 (y en ese caso
+no importa lo que saque Ceci), o bien Ana saca un 4 y Ceci saca un 6. Por tanto, el suceso
+“Ceci gana a Ana” se puede descomponer como unión disjunta de dos sucesos:“Ana saca un
+0” y “Ana saca un 4 y Ceci saca un 6”:
+
+                    “Ceci gana a Ana” = (Ana=0) ∪ (Ana =4 y Ceci=6)
+
+y esta unión es disjunta, porque
+
+                              (Ana=0) ∩ (Ana=4 y Ceci=6) = ∅,
+
+ya que Ana no puede sacar a la vez un 0 y un 4.
+   Por lo tanto,
+
+                  P (Ceci gana a Ana) = P (Ana=0) + P (Ana=4 y Ceci=6).
+
+Calculamos a continuación estas dos probabilidades. En primer lugar
+                                          casos favorables  2 1
+                           P (Ana=0) =                     = = .
+                                           casos posibles   6 3
+Por otro lado, el suceso “Ana saca un 4 y Ceci saca un 6” es la intersección de dos sucesos
+independientes, ya que
+
+                      (Ana=4 y Ceci saca un 6) = (Ana= 4) ∩ (Ceci=6)
+
+
+        Resolución EBAU Junio 2024. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                              12
+
+
+y los sucesos (Ana=4) y (Ceci=6) son independientes porque cada una juega con su dado y
+lo que saque una no afecta a lo que saque la otra. Por lo tanto
+
+                      P (Ana=4 y Ceci=6) = P (Ana= 4) · P (Ceci=6).
+
+Sabemos ya que
+                                                      2
+                                        P (Ana=4) =
+                                                      3
+Además,
+                                          casos favorables  2 1
+                           P (Ceci=6) =                    = = .
+                                           casos posibles   6 3
+En definitiva, con todo esto concluimos que
+
+                 P (Ceci gana a Ana) = P (Ana=0) + P (Ana=4 y Ceci=6)
+                                       1 2 1      1 2     5
+                                     =   + · = + = .
+                                       3 3 3      3 9     9
+
+Otra forma: Para que Ceci gane a Ana pueden suceder dos cosas. O bien Ceci saca un 6 (y
+en ese caso no importa lo que saque Ana), o bien Ceci saca un 2 y Ana saca un 0. Por tanto,
+el suceso “Ceci gana a Ana” se puede descomponer como unión disjunta de dos sucesos:“Ceci
+saca un 6” y “Ceci saca un 2 y Ana saca un 0”:
+
+                    “Ceci gana a Ana” = (Ceci=6) ∪ (Ceci =2 y Ana=0)
+
+y esta unión es disjunta, porque
+
+                             (Ceci=6) ∩ (Ceci=2 y Ana=0) = ∅,
+
+ya que Ceci no puede sacar a la vez un 6 y un 2.
+   Por lo tanto,
+
+                 P (Ceci gana a Ana) = P (Ceci=6) + P (Ceci=2 y Ana=0).
+
+Calculamos a continuación estas dos probabilidades. En primer lugar
+                                          casos favorables  2 1
+                           P (Ceci=6) =                    = = .
+                                           casos posibles   6 3
+Por otro lado, el suceso “Ceci saca un 2 y Ana saca un 0” es la intersección de dos sucesos
+independientes, ya que
+
+                  (Ceci saca un 2 y Ana saca un 0) = (Ceci=2) ∩ (Ana=0)
+
+y los sucesos (Ceci=2) y (Ana=0) son independientes porque cada una juega con su dado y
+lo que saque una no afecta a lo que saque la otra. Por lo tanto
+
+                       P (Ceci=2 y Ana=0) = P (Ceci=2) · P (Ana=0).
+
+
+
+        Resolución EBAU Junio 2024. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                               13
+
+
+Sabemos ya que
+                                                       1
+                                         P (Ana=0) =
+                                                       3
+Además,
+                                        casos favorables  4 2
+                           P (Ceci=2) =                  = = .
+                                         casos posibles   6 3
+En definitiva, con todo esto concluimos que
+                 P (Ceci gana a Ana) = P (Ceci=6) + P (Ceci=2 y Ana=0)
+                                       1 2 1       1 2      5
+                                     =   + · = + = .
+                                       3 3 3       3 9      9
+
+d) Cuando juegan todos contra todos, para que Ana ni gane ni pierda tiene que sacar nece-
+sariamente un 4 porque si saca un 0 pierde, independientemente de lo que saquen los demás.
+Además, habiendo sacado Ana un 4, necesita que o bien Ceci saque un 6 o bien Delia saque
+un 5 porque en caso contrario ganarı́a Ana. Por lo tanto, el suceso “Ana ni gana ni pierde”
+se puede descomponer como unión de dos sucesos: “Ana saca un 4 y Ceci saca un 6” y “Ana
+saca un 4 y Delia saca un 5”:
+             “Ana ni gana ni pierde” = (Ana=4 y Ceci=6) ∪ (Ana=4 y Delia=5).
+Pero esta unión no es disjunta ya que
+           (Ana=4 y Ceci=6) ∩ (Ana=4 y Delia=5) = (Ana=4, Ceci= 6 y Delia=5).
+Por lo tanto
+        P (Ana ni gana ni pierde) = P (Ana=4 y Ceci=6) + P (Ana=4 y Delia=5)
+                                    −P (Ana=4, Ceci= 6 y Delia=5).
+    Como cada jugadora juega con su dado y lo que saque una no afecta a lo que saque la otra,
+los sucesos (Ana=4), (Ceci=6) y (Delia=5) son todos independendientes entre sı́, de manera
+que
+          P (Ana=4 y Ceci=6) = P ((Ana=4) ∩ (Ceci=6)) = P (Ana=4) · P (Ceci=6)
+         P (Ana=4 y Delia=5) = P ((Ana=4) ∩ (Delia=5)) = P (Ana=4) · P (Delia=5)
+  P (Ana=4, Ceci=6 y Delia=5) = P ((Ana=4) ∩ (Ceci=6) ∩ (Delia=5))
+                              = P (Ana=4) · P (Ceci=6) · P (Delia =5).
+   Sabemos ya que
+                                           2                       1
+                            P (Ana=4) =        y    P (Ceci=6) =
+                                           3                       3
+Además,
+                                           casos favorables  3  1
+                          P (Delia=5) =                     = =
+                                            casos posibles   6  2
+Con todo esto, concluimos que
+                                   2 1 2 1 2 1 1             4+6−2         8  4
+        P (Ana ni gana ni pierde) = · + · − · · =                      =     = .
+                                   3 3 3 2 3 3 2                18        18  9
+Observación: Evidentemente, este apartado también se puede hacer por diagrama de árbol.
+
+
+        Resolución EBAU Junio 2024. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                               14
+
+
+     Cuestión 8.
+
+    Trabaje con 4 cifras decimales para las probabilidades y con 2 para los porcentajes.
+    El cociente intelectual (CI) de los estudiantes de Bachillerato de la Región de Murcia
+    sigue una distribución normal de media µ y desviación tı́pica σ desconocidas. Se sabe
+    que el 6,68 % de estos estudiantes tiene un CI mayor que 115 y que el 59,87 % tiene
+    un CI menor que 102,5.
+       a) (0,5 p.) ¿Cuál es el porcentaje de estudiantes con CI entre 102,5 y 115?
+
+       b) (1 p.) Si se eligen al azar 6 estudiantes, ¿cuál es la probabilidad de que al
+          menos 5 de ellos tengan un CI menor que 115?
+
+       c) (1 p.) Calcule la media y la desviación tı́pica de esta distribución.
+
+
+
+Solución: Denotamos por X la variable aleatoria dada por el CI de los estudiantes de Ba-
+chillerato de la Región de Murcia, y sabemos que X sigue una distribución normal de media
+µ y desviación tı́pica σ.
+a) Sabemos que el 6,68 % de los estudiantes tiene un CI mayor que 115, es decir, X > 115,
+y que el 59,87 % tiene CI menor que 102,4, es decir, X < 102, 4. Por lo tanto, el resto de los
+estudiantes tendrá un CI comprendido entre 102,4 y 115, es decir, 102, 5 < X < 115, lo que
+supone un porcentaje de
+
+                 100 − (6, 68 + 59, 87) = 100 − 66, 55 = 33, 45 =⇒ 33, 45 %.
+
+
+b) Elegimos al azar 6 estudiantes y llamamos Y a la variable aleatoria que cuenta el número
+de los que tienen un CI menor que 115. La variable aleatoria Y sigue una distribución binomial
+de parámetros n = 6, porque elegimos 6 estudiantes al azar, y p = P (X < 115), porque el
+éxito de nuestro experimento es “tener un CI menor que 115”. Por los datos del ejercicio,
+sabemos que
+
+                 p = P (X < 115) = 1 − P (X > 115) = 1 − 0, 0668 = 0, 9332
+
+y, en consecuencia,
+                              q = 1 − p = 1 − 0, 9332 = 0, 0668.
+En términos de Y , la probabilidad de que al menos 5 tengan un CI menor que 115 viene dada
+por
+                                                                             
+                                                  6            5         1      6
+      P (Y ≥ 5) = P (Y = 5) + P (Y = 6) =             · 0, 9332 · 0, 0668 +         · 0, 93326
+                                                  5                             6
+                 = 6 · 0, 93325 · 0, 06681 + 1 · 0, 93326 = 0, 93325 · (6 · 0, 0668 + 0, 9332)
+                 = 0, 93325 · 1, 334 = 0, 944124962 ≈ 0, 9441.
+
+
+
+
+        Resolución EBAU Junio 2024. Luis J. Alı́as Linares, Coordinador Matemáticas II
+                                              15
+
+
+c) Sabemos que X ∼ N (µ, σ) con µ y σ desconocidas. Además, sabemos que el 6,68 % de los
+estudiantes tiene un CI mayor que 115 y que el 59,87 % tiene un CI menor que 102,5, por lo
+que, en términos de probabilidad se tiene
+
+                      P (X > 115) = 0, 0668   y    P (X < 102, 5) = 0, 5987,
+
+                                       X −µ
+Haciendo uso de la tipificación Z =        sabemos que Z ∼ N (0, 1). A partir del primer
+                                         σ
+dato, se tiene que
+
+                  P (X < 115) = 1 − P (X > 115) = 1 − 0, 0668 = 0, 9332.
+
+Pero, por otro lado                                  
+                                              115 − µ
+                          P (X < 115) = P Z <           = 0, 9332.
+                                                 σ
+Consultando en la tabla de Z ∼ N (0, 1), vemos que dicho valor de la probabilidad corresponde
+al valor de z = 1, 5, es decir,
+                  115 − µ
+                          = 1, 5 =⇒ 115 − µ = 1, 5σ =⇒ µ + 1, 5σ = 115.
+                     σ
+A partir del segundo dato, se tiene que
+                                                         
+                                               102, 5 − µ
+                        P (X < 102, 5) = P Z <              = 0, 5987
+                                                   σ
+
+y, consultando de nuevo en la tabla de Z ∼ N (0, 1) , vemos que dicho valor de la probabilidad
+corresponde al valor de z = 0, 25, es decir,
+             102, 5 − µ
+                        = 0, 25 =⇒ 102, 5 − µ = 0, 25σ =⇒ µ + 0, 25σ = 102, 5.
+                 σ
+Tenemos entonces un sistema de dos ecuaciones con dos incógnitas (µ y σ)
+                               
+                                   µ + 1, 5σ = 115
+                                  µ + 0, 25σ = 102, 5
+
+cuya solución es media= µ = 100 y desviación tı́pica= σ = 10.
+
+
+
+
+        Resolución EBAU Junio 2024. Luis J. Alı́as Linares, Coordinador Matemáticas II
+
