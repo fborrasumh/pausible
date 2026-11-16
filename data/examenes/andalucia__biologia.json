@@ -1,0 +1,102 @@
+{
+ "ccaa": "andalucia",
+ "materia": "biologia",
+ "titulo": "Prueba de Acceso a la Universidad 2027 — Biología — Andalucía",
+ "duracion_min": 90,
+ "instrucciones": "Duración: 1 hora y 30 minutos. El examen consta de cinco ejercicios, valorados en 2 puntos cada uno. Los ejercicios 1 y 2 son obligatorios. En cada uno de los ejercicios 3, 4 y 5, elija exactamente una de las dos opciones. La puntuación de cada apartado aparece entre corchetes. Responda en el papel destinado a la realización del examen. Si responde a más opciones de las requeridas, solo se tendrá en cuenta la primera respuesta de cada ejercicio.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "molecular",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "EJERCICIO 1. Una empresa biotecnológica introduce en un plásmido de expresión bacteriano un gen sintético que codifica una proteína. La cadena codificante de una región del gen, escrita en sentido $5'\\to 3'$, es $5'-\\mathrm{ATG\\ GCT\\ TTT\\ CAA\\ TAA}-3'$. Responda: a) Escriba la secuencia del ARNm transcrito, indicando su sentido [0,4]. b) Escriba la secuencia de aminoácidos traducida a partir de ese ARNm; indique qué función tiene el codón final [0,4]. c) Si se sustituye el triplete $\\mathrm{TTT}$ de la cadena codificante por $\\mathrm{TTC}$, explique el efecto de la mutación sobre la secuencia de aminoácidos [0,4]. d) Nombre la enzima que une el gen al plásmido durante la obtención del ADN recombinante e indique el tipo de enlace que forma [0,4]. e) Indique dónde tienen lugar la transcripción y la traducción en la bacteria, nombrando la estructura celular en la que se realiza la traducción [0,4].",
+   "solucion": "### a) Transcripción\nPara obtener el ARNm por una vía distinta de la sustitución directa de T por U, deducimos primero la cadena molde, complementaria y antiparalela a la codificante:\n\n- Cadena codificante: 5′-ATG GCT TTT CAA TAA-3′\n- Cadena molde: 3′-TAC CGA AAA GTT ATT-5′\n\nLa ARN polimerasa lee la cadena molde en sentido 3′→5′ y sintetiza el ARNm en sentido 5′→3′:\n\n**ARNm: 5′-AUG GCU UUU CAA UAA-3′.**\n\n### b) Traducción\nLeyendo los codones del ARNm desde AUG: AUG codifica metionina, GCU alanina, UUU fenilalanina y CAA glutamina. Por tanto, el péptido es **metionina–alanina–fenilalanina–glutamina** (de extremo N a extremo C).\n\nUAA es un codón de terminación: no codifica ningún aminoácido y señala el final de la traducción.\n\n### c) Sustitución de TTT por TTC\nLa sustitución en la cadena codificante cambia en el ARNm el codón UUU por UUC. Ambos codones especifican fenilalanina; por ello, la secuencia de aminoácidos no cambia. Es una mutación silenciosa o sinónima.\n\n### d) Unión del gen al plásmido\nLa enzima es la **ADN ligasa**. Sella la unión entre los fragmentos de ADN formando enlaces **fosfodiéster** entre sus extremos.\n\n### e) Localización en la bacteria\nLa transcripción tiene lugar en el citoplasma, en la región del nucleoide, ya que las bacterias carecen de núcleo. La traducción se realiza en el citoplasma, sobre los **ribosomas bacterianos 70S**.\n\n### Comprobación\nAl comparar directamente la cadena codificante con el ARNm, sustituyendo T por U, se obtiene también 5′-AUG GCU UUU CAA UAA-3′. Además, la tabla del código genético confirma que UUU y UUC codifican fenilalanina, y que UAA es de terminación; por tanto, tanto el péptido como el efecto de la mutación quedan verificados.",
+   "resultado": "ARNm: 5′-AUG GCU UUU CAA UAA-3′; péptido: metionina–alanina–fenilalanina–glutamina; mutación silenciosa; ADN ligasa, enlace fosfodiéster; transcripción en el citoplasma/región del nucleoide y traducción en ribosomas 70S.",
+   "criterios": "Total: 2,0 puntos. a) 0,4: secuencia correcta de ARNm (0,3) y sentido 5′→3′ (0,1). b) 0,4: secuencia de aminoácidos correcta (0,3) y función del codón final (0,1). c) 0,4: identificar el cambio UUU→UUC (0,1), indicar que ambos codifican fenilalanina (0,2) y concluir que no cambia el polipéptido (0,1). d) 0,4: ADN ligasa (0,2) y enlace fosfodiéster (0,2). e) 0,4: localización de la transcripción (0,2) y localización de la traducción con mención de los ribosomas 70S (0,2).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "celula",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "EJERCICIO 2. En una práctica de laboratorio se describen tres tipos celulares: A presenta pared celular, cloroplastos, mitocondrias y un núcleo delimitado; B presenta pared celular, ribosomas y ADN en una región sin membrana, pero carece de núcleo delimitado y de orgánulos membranosos; C presenta núcleo delimitado y mitocondrias, pero no tiene pared celular ni cloroplastos. a) Identifique la organización celular y el tipo celular más probable de A, B y C [0,3]. b) Indique dos diferencias estructurales entre B y las células eucariotas A y C [0,5]. c) Explique la función de los cloroplastos y de las mitocondrias de A, y por qué esta célula necesita ambos orgánulos [0,6]. d) Relacione cada observación con un principio de la teoría celular: un tejido está formado por células; las células realizan las funciones metabólicas del organismo; y las células nuevas de una zona lesionada proceden de células preexistentes [0,6].",
+   "solucion": "### Resolución paso a paso: diagnóstico por exclusión\n\nEn vez de empezar por nombrar cada tipo celular, primero se comprueba si hay núcleo delimitado y después se usan la pared celular y los orgánulos para precisar la clasificación.\n\n**a) Organización y tipo celular**\n\n1. **A:** Tiene núcleo delimitado, por tanto es eucariota. La presencia de pared celular y cloroplastos permite identificarla como una célula vegetal fotosintética.\n2. **B:** Su ADN está en una región sin membrana y carece de orgánulos membranosos, por tanto es procariota. El tipo más probable es una bacteria; los datos permiten identificar con seguridad la organización procariota, aunque no distinguir por sí solos todos los grupos procariotas.\n3. **C:** Tiene núcleo delimitado y mitocondrias, así que es eucariota. Al carecer de pared celular y cloroplastos, el tipo más probable es una célula animal.\n\n**b) Dos diferencias estructurales entre B y las eucariotas A y C**\n\n- En B no hay envoltura nuclear: el ADN se encuentra en una región nucleoide; en A y C el ADN está dentro de un núcleo delimitado por membrana.\n- B carece de orgánulos membranosos; A y C tienen mitocondrias y A, además, cloroplastos.\n\n**c) Función de los cloroplastos y las mitocondrias de A**\n\n- Los cloroplastos realizan la fotosíntesis: captan energía luminosa y la utilizan para sintetizar materia orgánica a partir de CO₂ y agua; en la fotosíntesis oxigénica se libera O₂.\n- Las mitocondrias realizan la respiración celular, mediante la cual se oxidan moléculas orgánicas y se obtiene ATP, además de producirse CO₂ y agua en la respiración aerobia.\n- La célula necesita ambos orgánulos porque la fotosíntesis permite fabricar materia orgánica usando energía luminosa, mientras que la respiración proporciona ATP utilizable para las actividades celulares. La función de los cloroplastos no sustituye a la respiración mitocondrial.\n\n**d) Observaciones y principios de la teoría celular**\n\n- Que un tejido esté formado por células corresponde al principio de que la célula es la unidad estructural de los seres vivos.\n- Que las células realicen las funciones metabólicas del organismo corresponde al principio de que la célula es la unidad funcional.\n- Que las células de una zona lesionada procedan de células preexistentes corresponde al principio de que toda célula procede de otra célula preexistente, mediante división celular.\n\n**Comprobación final:** la clasificación concuerda con los rasgos observados: A es vegetal eucariota, B procariota y C animal eucariota. Los apartados suman $0,3+0,5+0,6+0,6=2,0$ puntos.",
+   "resultado": "A: célula eucariota vegetal; B: célula procariota, probablemente bacteriana; C: célula eucariota animal. Principios: unidad estructural, unidad funcional y origen de toda célula a partir de otra preexistente.",
+   "criterios": "Total: 2,0 puntos. a) 0,3 puntos: 0,1 por cada identificación correcta de organización y tipo más probable. b) 0,5 puntos: 0,25 por cada diferencia estructural correcta. c) 0,6 puntos: 0,2 por la función de los cloroplastos, 0,2 por la función de las mitocondrias y 0,2 por explicar por qué la célula necesita ambos orgánulos. d) 0,6 puntos: 0,2 por cada correspondencia correcta entre observación y principio de la teoría celular.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "metabolismo",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "EJERCICIO 3. Se plantean dos opciones. Responda a una sola opción. OPCIÓN 1. En un biorreactor se oxida completamente y en condiciones aerobias una muestra de $180\\,\\mathrm{g}$ de glucosa. Considere que la masa molar de la glucosa es $180\\,\\mathrm{g\\,mol^{-1}}$. a) Escriba la ecuación global ajustada de la oxidación completa de la glucosa [0,4]. b) Calcule los moles de $\\mathrm{O_2}$ consumidos y los moles de $\\mathrm{CO_2}$ producidos [0,6]. c) Indique la localización celular de la glucólisis, del ciclo de Krebs y de la cadena de transporte de electrones en una célula eucariota [0,6]. d) Clasifique la oxidación de la glucosa como proceso anabólico o catabólico y justifique la respuesta [0,4]. OPCIÓN 2. Una proteína está formada por una única cadena lineal de 12 aminoácidos. a) Indique cuántos enlaces peptídicos contiene y cuántas moléculas de agua se liberan al formarla por condensación de los aminoácidos [0,5]. b) Indique cuántas moléculas de agua se necesitan para su hidrólisis completa y cuántas moléculas de aminoácidos se obtienen [0,4]. c) Nombre el enlace que une los aminoácidos [0,3]. d) Explique qué ocurre con la conformación de la proteína al desnaturalizarse por calor y si se rompen normalmente los enlaces peptídicos [0,5]. e) Cite una proteína con función enzimática y la reacción que cataliza [0,3].",
+   "solucion": "### Opción 1\n\n**a) Ecuación global ajustada**\n\nLa oxidación completa de la glucosa en condiciones aerobias es:\n\n$$\\mathrm{C_6H_{12}O_6 + 6\\,O_2 \\longrightarrow 6\\,CO_2 + 6\\,H_2O}$$\n\nLa ecuación está ajustada: conserva 6 átomos de carbono, 12 de hidrógeno y 18 de oxígeno en ambos miembros.\n\n**b) Moles de oxígeno consumidos y de dióxido de carbono producidos**\n\nLa cantidad de glucosa de la muestra es:\n\n$$n(\\mathrm{glucosa})=\\frac{180\\,\\mathrm{g}}{180\\,\\mathrm{g\\,mol^{-1}}}=1\\,\\mathrm{mol}$$\n\nSegún los coeficientes estequiométricos, por cada mol de glucosa se consumen 6 mol de oxígeno y se producen 6 mol de dióxido de carbono. Por tanto:\n\n$$n(\\mathrm{O_2})=6\\,\\mathrm{mol},\\qquad n(\\mathrm{CO_2})=6\\,\\mathrm{mol}$$\n\n**c) Localización celular en una célula eucariota**\n\n- Glucólisis: citosol.\n- Ciclo de Krebs: matriz mitocondrial.\n- Cadena de transporte de electrones: membrana mitocondrial interna (crestas).\n\n**d) Clasificación metabólica**\n\nEs un proceso **catabólico**, porque degrada y oxida una molécula orgánica compleja, la glucosa, hasta moléculas más simples (CO₂ y H₂O), liberando energía que puede conservarse, entre otras formas, en ATP.",
+   "resultado": "C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O; se consumen 6 mol de O₂ y se producen 6 mol de CO₂; glucólisis en el citosol, Krebs en la matriz mitocondrial y cadena respiratoria en la membrana mitocondrial interna; proceso catabólico.",
+   "criterios": "Total: 2,0 puntos. a) Ecuación global correctamente formulada y ajustada: 0,4 puntos. b) Cálculo de la cantidad de glucosa (1 mol) y aplicación correcta de la estequiometría: hasta 0,3 puntos; resultado de O₂ (6 mol): 0,15 puntos; resultado de CO₂ (6 mol): 0,15 puntos. c) Localización correcta de cada proceso: 0,2 puntos por la glucólisis, 0,2 por el ciclo de Krebs y 0,2 por la cadena de transporte de electrones. d) Clasificación como catabólico: 0,2 puntos; justificación mediante la degradación/oxidación de glucosa y la liberación de energía: 0,2 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "microbiologia",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "EJERCICIO 4. Se plantean dos opciones. Responda a una sola opción. OPCIÓN 1. En una experiencia sobre la conservación de alimentos se parte de un cultivo de 500 bacterias viables. Durante un periodo de 120 minutos, la población se duplica cada 20 minutos, sin mortalidad ni limitación de recursos. a) Calcule el número de generaciones transcurridas [0,4]. b) Calcule el número de bacterias al final del periodo [0,4]. c) Nombre el mecanismo de reproducción bacteriana que explica el aumento de la población [0,3]. d) La penicilina inhibe la formación de la pared bacteriana. Explique por qué este efecto puede perjudicar a las bacterias y no actúa del mismo modo sobre las células humanas [0,5]. e) En el cultivo hay, antes del tratamiento, una subpoblación con una variante heredable que confiere resistencia a la penicilina. Explique cómo puede cambiar la proporción de bacterias resistentes tras aplicar el antibiótico [0,4]. OPCIÓN 2. En un estudio de vacunación se mide la concentración de anticuerpos específicos: 14 días después de la primera dosis es de $20$ unidades; 7 días después de una dosis de refuerzo, administrada el día 28, es de $160$ unidades. a) Calcule cuántas veces es mayor la segunda concentración que la primera [0,3]. b) Identifique cuál de las dos mediciones corresponde a la respuesta primaria y cuál a la secundaria [0,3]. c) Indique qué tipo celular produce y secreta los anticuerpos [0,3]. d) Explique por qué la respuesta tras la dosis de refuerzo es más rápida e intensa [0,6]. e) Clasifique la inmunidad inducida por la vacunación según sea activa o pasiva y natural o artificial [0,5].",
+   "solucion": "### Opción 1\n\n**a) Número de generaciones**\n\nEl tiempo total se divide por el tiempo de duplicación:\n\n$$n=\\frac{120\\ \\text{min}}{20\\ \\text{min/generación}}=6\\ \\text{generaciones}.$$\n\n**b) Número de bacterias al final**\n\nEn cada generación la población se multiplica por 2. Por tanto:\n\n$$N=N_0\\,2^n=500\\cdot 2^6=32\\,000\\ \\text{bacterias}.$$\n\n**c) Mecanismo de reproducción**\n\nEl aumento de la población se explica por la **fisión binaria** o **bipartición**: cada bacteria origina dos células hijas.\n\n**d) Efecto de la penicilina**\n\nLa penicilina inhibe la síntesis y el entrecruzamiento del peptidoglucano de la pared bacteriana. Al debilitarse la pared, las bacterias pueden sufrir lisis por efecto de la presión osmótica, especialmente durante su crecimiento. Las células humanas no tienen pared de peptidoglucano —solo membrana plasmática—, por lo que la penicilina no actúa sobre ellas del mismo modo.\n\n**e) Resistencia a la penicilina**\n\nSi antes del tratamiento ya existe una variante heredable resistente, el antibiótico elimina preferentemente a las bacterias sensibles. Las resistentes sobreviven y se reproducen, por lo que aumenta su proporción en la población. El antibiótico selecciona la variante resistente; no provoca de forma dirigida que aparezca.",
+   "resultado": "6 generaciones; 32 000 bacterias al final.",
+   "criterios": "Total: 2,0 puntos. a) 0,4 puntos: calcula correctamente 120/20 = 6 generaciones. b) 0,4 puntos: aplica el crecimiento por duplicación, 500 × 2⁶, y obtiene 32 000 bacterias. c) 0,3 puntos: identifica la fisión binaria o bipartición. d) 0,5 puntos: explica que la penicilina inhibe la formación de la pared de peptidoglucano, lo que puede causar lisis bacteriana, y que las células humanas carecen de esa pared. e) 0,4 puntos: indica que el antibiótico selecciona las bacterias resistentes preexistentes, que sobreviven y se reproducen, aumentando su proporción.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "division",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "EJERCICIO 5. Se plantean dos opciones. Responda a una sola opción. OPCIÓN 1. En una célula somática de una planta, cuyo número diploide es $2n=8$, se observa que ocho cromosomas duplicados están alineados individualmente en el plano ecuatorial. a) Identifique el tipo de división y la fase observada [0,3]. b) Indique el número de cromosomas y el número de cromátidas de la célula en ese momento [0,4]. c) Indique cuántos cromosomas llegarán a cada polo al terminar la separación de las cromátidas hermanas [0,5]. d) Indique cuántas células se obtendrán tras la citocinesis y cuántos cromosomas tendrá cada una [0,4]. e) Cite una función biológica de esta división en organismos pluricelulares [0,4]. OPCIÓN 2. En una especie vegetal, el alelo $P$ determina flores púrpuras y domina completamente sobre el alelo $p$, que determina flores blancas. Se cruzan dos plantas heterocigotas ($Pp\\times Pp$) y se obtienen 240 descendientes. Suponga que los genotipos tienen la misma viabilidad. a) Indique los tipos de gametos que puede producir cada progenitor y la proporción esperada de cada tipo [0,4]. b) Escriba la proporción genotípica esperada en la descendencia [0,5]. c) Escriba la proporción fenotípica esperada [0,3]. d) Calcule el número esperado de descendientes con flores púrpuras y con flores blancas [0,6]. e) Explique por qué pueden aparecer descendientes blancos aunque ambos progenitores tengan flores púrpuras [0,2].",
+   "solucion": "### Opción 1\n\n**a)** Es una **mitosis**, concretamente la **metafase**. Los cromosomas duplicados están alineados individualmente en el plano ecuatorial, característica de esta fase.\n\n**b)** La célula tiene **8 cromosomas**. Cada cromosoma duplicado está formado por dos cromátidas hermanas, por lo que hay $8\\times 2=16$ cromátidas.\n\n**c)** Al separarse las cromátidas hermanas, cada una pasa a considerarse un cromosoma. Llegarán **8 cromosomas a cada polo**.\n\n**d)** Tras la citocinesis se obtendrán **2 células**, cada una con **8 cromosomas** (mantienen el número diploide $2n=8$).\n\n**e)** Una función de la mitosis en organismos pluricelulares es permitir el **crecimiento**. También participa en la renovación y reparación de tejidos.",
+   "resultado": "Mitosis en metafase; 8 cromosomas y 16 cromátidas; 8 cromosomas en cada polo; 2 células hijas con 8 cromosomas cada una.",
+   "criterios": "Puntuación total: 2,0 puntos. a) 0,3: 0,15 por identificar mitosis y 0,15 por indicar metafase. b) 0,4: 0,2 por los 8 cromosomas y 0,2 por las 16 cromátidas. c) 0,5 por indicar 8 cromosomas en cada polo. d) 0,4: 0,2 por las 2 células y 0,2 por los 8 cromosomas de cada una. e) 0,4 por citar correctamente una función biológica, como crecimiento, renovación o reparación de tejidos.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "biomoleculas",
+   "p": 0.9
+  },
+  {
+   "id": "celula",
+   "p": 0.9
+  },
+  {
+   "id": "molecular",
+   "p": 0.9
+  },
+  {
+   "id": "microbiologia",
+   "p": 0.9
+  },
+  {
+   "id": "metabolismo",
+   "p": 0.776
+  },
+  {
+   "id": "inmunologia",
+   "p": 0.776
+  }
+ ],
+ "referencias": [
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_biologia.zip#Biologia/Ordinaria_Titular/Examen Titular Biologia.pdf",
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_biologia.zip#Biologia/Extraordinaria_Incidencias/Examen Suplente 2 Biología_Ex.pdf"
+ ]
+}
