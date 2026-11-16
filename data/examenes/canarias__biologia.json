@@ -1,0 +1,102 @@
+{
+ "ccaa": "canarias",
+ "materia": "biologia",
+ "titulo": "Prueba de Acceso a la Universidad (PAU) 2027 — Biología — Canarias",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de 5 preguntas, cada una con una calificación máxima de 2 puntos (10 puntos en total). En las preguntas 1, 2 y 3 se debe elegir una opción completa (A o B); no está permitido combinar apartados de opciones distintas. Las preguntas 4 y 5 son obligatorias y de carácter competencial. Se deben responder 5 preguntas. Si se responde a más opciones de las requeridas, solo se corregirá la primera opción completa contestada en cada pregunta. Se aplicará una penalización de 0,1 puntos por errores ortográficos.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "biomoleculas",
+   "puntos": 2.0,
+   "tipo": "abierta",
+   "enunciado": "Pregunta 1: Biomoléculas. Selecciona una opción completa. Cada opción vale 2 puntos.\n\nOpción A\n\nUna empresa alimentaria analiza los cambios que experimentan algunos componentes de sus productos durante el procesado.\n\na. Al hidrolizar completamente una molécula de maltosa, ¿qué monosacáridos se obtienen? [0,4 puntos]\nb. ¿Qué tipo de enlace covalente une los aminoácidos consecutivos de una proteína? [0,4 puntos]\nc. Una molécula de fosfolípido tiene una región polar y otra apolar. ¿Qué propiedad de las biomoléculas describe esta característica? [0,4 puntos]\nd. ¿Qué productos se obtienen al hidrolizar completamente un triacilglicérido? [0,4 puntos]\ne. Una enzima termolábil con temperatura óptima de 37 °C se mantiene 10 minutos a 90 °C y después se enfría. ¿Qué ocurrirá previsiblemente con su actividad? [0,4 puntos]\n\nOpción B\n\na. ¿Cuál es el polisacárido de reserva más característico de los animales y qué monosacárido lo forma? [0,4 puntos]\nb. ¿Qué propiedad del agua contribuye a que la temperatura de los organismos cambie lentamente cuando varía la temperatura ambiental? [0,4 puntos]\nc. ¿Qué diferencia estructural permite distinguir un ácido graso saturado de uno insaturado? [0,4 puntos]\nd. ¿Qué tipo de enlace covalente une los nucleótidos consecutivos de una cadena de ADN? [0,4 puntos]\ne. En la saponificación completa de un triacilglicérido con una base fuerte, ¿qué dos tipos de productos se forman? [0,4 puntos]",
+   "solucion": "## Opción A\n\n**a. Maltosa.** La maltosa está formada por dos residuos de glucosa unidos por un enlace glucosídico. La hidrólisis completa rompe ese enlace y libera **dos moléculas de glucosa**.\n\n**b. Proteínas.** Los aminoácidos consecutivos se unen mediante un **enlace peptídico**, un enlace covalente de tipo amida entre el grupo carboxilo de un aminoácido y el grupo amino del siguiente.\n\n**c. Fosfolípido.** La presencia de una región polar y otra apolar expresa su carácter **anfipático** (o anfifílico): posee una parte hidrófila y otra hidrófoba.\n\n**d. Triacilglicérido.** Su hidrólisis completa rompe los tres enlaces éster y produce **una molécula de glicerol y tres ácidos grasos**. Comprobación por composición: el triacilglicérido contiene un esqueleto de glicerol unido a tres cadenas de ácidos grasos.\n\n**e. Enzima termolábil.** Mantenerla durante 10 minutos a 90 °C, muy por encima de su temperatura óptima, previsiblemente desnaturaliza su estructura. Al enfriarla, su conformación y su centro activo no suelen recuperarse; por tanto, su actividad quedará **muy reducida o anulada**.\n\n**Comprobación final:** las respuestas identifican, respectivamente, los productos de hidrólisis de un disacárido y un triacilglicérido, el enlace de las proteínas, el carácter del fosfolípido y el efecto esperado del calor sobre una enzima termolábil.",
+   "resultado": "Opción A: a) dos glucosas; b) enlace peptídico; c) carácter anfipático; d) glicerol y tres ácidos grasos; e) actividad muy reducida o anulada tras la desnaturalización.",
+   "criterios": "2,0 puntos en total: a) 0,4 por indicar dos moléculas de glucosa; b) 0,4 por identificar el enlace peptídico; c) 0,4 por indicar el carácter anfipático o anfifílico; d) 0,4 por indicar glicerol y tres ácidos grasos; e) 0,4 por prever la desnaturalización y la pérdida muy marcada o completa de actividad, generalmente irreversible tras el enfriamiento.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "molecular",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Pregunta 2: Genética molecular y biomoléculas. Selecciona una opción completa. Cada opción vale 2 puntos.\n\nLos análisis de secuencias permiten predecir los productos de la expresión génica y estudiar la transmisión de los caracteres.\n\nOpción A\n\na. La hebra codificante de un gen sin intrones es 5′-ATG GCT TGA-3′. Escribe la secuencia del ARNm transcrito, indicando sus extremos 5′ y 3′. [0,5 puntos]\nb. A partir de ese ARNm, indica la secuencia de aminoácidos traducida hasta el codón de terminación. [0,5 puntos]\nc. Explica qué significa que la replicación del ADN sea semiconservativa. [0,5 puntos]\nd. Indica la función de la helicasa y de la ADN ligasa durante la replicación. [0,5 puntos]\n\nOpción B\n\na. En una especie vegetal, el alelo R determina semillas lisas y domina sobre el alelo r, que determina semillas rugosas. Se cruza una planta Rr con una planta rr. ¿Qué proporción de la descendencia se espera que tenga semillas rugosas? [0,5 puntos]\nb. La hebra codificante de un gen sin intrones es 5′-ATG CCA TAA-3′. Escribe la secuencia del ARNm transcrito, indicando sus extremos 5′ y 3′. [0,5 puntos]\nc. Explica qué significa que la replicación del ADN sea semiconservativa. [0,5 puntos]\nd. ¿Qué función desempeña la ADN ligasa en la replicación? [0,5 puntos]",
+   "solucion": "### Opción B\n\n**a. Cruce genético.** La planta $Rr$ produce gametos $R$ y $r$ en proporciones iguales; la planta $rr$ solo produce gametos $r$. El cruce da $\\frac{1}{2}Rr$ (semillas lisas) y $\\frac{1}{2}rr$ (semillas rugosas). Por tanto, la proporción esperada de semillas rugosas es $\\frac{1}{2}=50\\%$.\n\n**b. Transcripción.** La hebra codificante tiene la misma secuencia que el ARNm, sustituyendo timina (T) por uracilo (U), y conservando la orientación: $5′\\text{-AUG CCA UAA-}3′$.\n\n**c. Replicación semiconservativa.** Cada molécula de ADN hija conserva una de las hebras de la molécula parental y contiene una hebra nueva, sintetizada usando la hebra conservada como molde.\n\n**d. ADN ligasa.** Une fragmentos de ADN adyacentes, en especial los fragmentos de Okazaki de la hebra retardada, sellando discontinuidades mediante enlaces fosfodiéster.",
+   "resultado": "Opción B: 50 % de descendencia rugosa; ARNm: 5′-AUG CCA UAA-3′; cada ADN hijo conserva una hebra parental y una nueva; la ADN ligasa une fragmentos de ADN sellando discontinuidades.",
+   "criterios": "a) 0,5 puntos: identifica los gametos y obtiene que la mitad de la descendencia es rr (rugosa). b) 0,5 puntos: escribe correctamente el ARNm 5′-AUG CCA UAA-3′, con los extremos indicados. c) 0,5 puntos: explica que cada molécula hija contiene una hebra parental y otra nueva. d) 0,5 puntos: indica que la ligasa une fragmentos de ADN y sella discontinuidades, especialmente entre fragmentos de Okazaki.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "celula",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Pregunta 3: Biología celular y división celular. Selecciona una opción completa. Cada opción vale 2 puntos.\n\nOpción A\n\nUn equipo estudia el ciclo celular de una especie con células diploides.\n\na. Una célula con 2n = 6 se encuentra en metafase de la mitosis. Indica cuántos cromosomas y cuántas cromátidas hay en esa célula. [0,5 puntos]\nb. ¿En qué fase de la meiosis I se produce el sobrecruzamiento entre cromátidas de cromosomas homólogos? [0,4 puntos]\nc. ¿Qué función desempeña el huso mitótico durante la división celular? [0,4 puntos]\nd. Nombra el orgánulo que modifica y empaqueta proteínas destinadas a la secreción en vesículas y señala esa función. [0,7 puntos]\n\nOpción B\n\na. Una célula animal se coloca en un medio hipertónico. ¿En qué dirección se desplaza el agua y qué le ocurre al volumen celular? [0,4 puntos]\nb. ¿Cómo se denomina el fenómeno que experimenta una célula vegetal en un medio hipertónico cuando su membrana se separa parcialmente de la pared celular? [0,4 puntos]\nc. ¿Qué orgánulo eucariota se reconoce por presentar una membrana interna plegada en crestas y una matriz? [0,4 puntos]\nd. Una célula con 2n = 4 completa la mitosis y la citocinesis. ¿Cuántos cromosomas tendrá cada célula hija? [0,4 puntos]\ne. ¿Qué función realiza el retículo endoplasmático rugoso en la síntesis de proteínas destinadas a la secreción? [0,4 puntos]",
+   "solucion": "## Opción A\n\n**a. Metafase de la mitosis.** La célula tiene $2n=6$, por lo que presenta **6 cromosomas**. En esta fase cada cromosoma está formado por dos cromátidas hermanas: hay **12 cromátidas** en total.\n\n**b.** El sobrecruzamiento ocurre durante la **profase I de la meiosis**, concretamente en el **paquiteno**. Los quiasmas se hacen visibles posteriormente, en el diploteno.\n\n**c.** El huso mitótico se une a los cromosomas y permite la separación y el desplazamiento de las cromátidas hermanas hacia polos opuestos, asegurando su reparto entre las células hijas.\n\n**d.** El **aparato de Golgi** modifica, clasifica y empaqueta proteínas destinadas a la secreción en vesículas que pueden dirigirse a la membrana plasmática y liberar su contenido al exterior celular.",
+   "resultado": "Opción A: 6 cromosomas y 12 cromátidas; sobrecruzamiento en el paquiteno; el huso separa y distribuye las cromátidas; el aparato de Golgi modifica y empaqueta proteínas secretoras.",
+   "criterios": "Puntuación total: 2,0 puntos. a) 0,5 puntos: 0,25 por indicar 6 cromosomas y 0,25 por indicar 12 cromátidas. b) 0,4 puntos: identificar el paquiteno de la profase I. c) 0,4 puntos: explicar que el huso permite separar y desplazar las cromátidas hermanas hacia polos opuestos y repartirlas entre las células hijas. d) 0,7 puntos: nombrar el aparato de Golgi (0,3) y describir su función de modificación y empaquetamiento en vesículas destinadas a la secreción (0,4).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "metabolismo",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Pregunta 4: Metabolismo. Competencial y obligatoria. Cada apartado se relaciona con el análisis de un cultivo de levadura en un biorreactor.\n\nEn el recipiente 1 hay glucosa y oxígeno; se detecta consumo de oxígeno y producción de dióxido de carbono. En el recipiente 2 hay glucosa, pero se ha agotado el oxígeno; se detectan etanol y dióxido de carbono.\n\na. Identifica el proceso metabólico que predomina en el recipiente 1 e indica cuál es su aceptor final de electrones. [0,5 puntos]\nb. ¿En qué compartimento celular de la levadura tiene lugar la glucólisis? [0,3 puntos]\nc. ¿Cuál es el rendimiento neto de ATP de la glucólisis por cada molécula de glucosa? [0,3 puntos]\nd. Identifica el proceso que explica los productos detectados en el recipiente 2 y nombra esos productos. [0,5 puntos]\ne. Explica por qué la fermentación permite que la glucólisis continúe cuando falta oxígeno, haciendo referencia al NAD⁺. [0,4 puntos]",
+   "solucion": "### a. Proceso del recipiente 1\nPredomina la **respiración celular aerobia**: hay glucosa y se consume oxígeno, mientras se produce dióxido de carbono. En la cadena de transporte de electrones, el **oxígeno molecular ($\\mathrm{O_2}$)** es el aceptor final de electrones y se reduce a agua.\n\n### b. Localización de la glucólisis\nLa glucólisis tiene lugar en el **citosol** (citoplasma) de la levadura.\n\n### c. Rendimiento neto de ATP\nPor cada molécula de glucosa se forman 4 ATP y se consumen 2 ATP durante la glucólisis. Por tanto, el rendimiento neto es $4-2=\\mathbf{2\\ ATP}$ por molécula de glucosa.\n\n### d. Proceso del recipiente 2\nLa presencia de etanol y dióxido de carbono cuando falta oxígeno corresponde a la **fermentación alcohólica**. Sus productos son **etanol y dióxido de carbono**.\n\n### e. Función de la fermentación\nEn ausencia de oxígeno, la cadena respiratoria no puede reoxidar eficazmente el NADH. La fermentación transfiere los electrones del NADH al acetaldehído, que se reduce a etanol, y así se regenera **NAD⁺**. Este NAD⁺ es necesario para la oxidación del gliceraldehído-3-fosfato durante la glucólisis; su regeneración permite que esta continúe y siga produciendo ATP.",
+   "resultado": "Respiración aerobia (aceptor final: O₂); glucólisis en el citosol, con rendimiento neto de 2 ATP por glucosa; fermentación alcohólica, que produce etanol y CO₂ y regenera NAD⁺.",
+   "criterios": "Total: 2,0 puntos. a) 0,5: 0,3 por identificar la respiración aerobia y 0,2 por indicar que el O₂ es el aceptor final de electrones. b) 0,3: glucólisis en el citosol o citoplasma. c) 0,3: rendimiento neto de 2 ATP por glucosa. d) 0,5: 0,3 por identificar la fermentación alcohólica y 0,1 por cada producto correctamente nombrado (etanol y CO₂). e) 0,4: explicar que la fermentación reoxida NADH y regenera NAD⁺, necesario para que continúe la glucólisis en ausencia de oxígeno.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "inmunologia",
+   "puntos": 2.0,
+   "tipo": "abierta",
+   "enunciado": "Pregunta 5: Microbiología e inmunología. Competencial y obligatoria.\n\nUn servicio de salud estudia la prevención de una infección bacteriana mediante vacunación y analiza una cepa aislada de un paciente. En un antibiograma, un disco con el antibiótico A produce un halo de inhibición de 24 mm, mientras que un disco con el antibiótico B no produce halo.\n\na. ¿En qué región de una bacteria se localiza normalmente su cromosoma, al no tener núcleo delimitado por membrana? [0,4 puntos]\nb. Según los resultados del antibiograma, ¿frente a cuál de los dos antibióticos muestra sensibilidad la cepa en las condiciones del ensayo? [0,4 puntos]\nc. Explica por qué un antibiótico antibacteriano no es eficaz contra una infección causada por un virus. [0,4 puntos]\nd. ¿Qué tipo de inmunidad se obtiene al vacunarse: natural o artificial, y activa o pasiva? [0,4 puntos]\ne. ¿Qué tipo de célula produce y secreta anticuerpos tras activarse un linfocito B? [0,4 puntos]",
+   "solucion": "a. Las bacterias carecen de núcleo delimitado por membrana; su cromosoma se localiza normalmente en el **nucleoide**, una región del citoplasma.\n\nb. La cepa muestra sensibilidad al **antibiótico A** en las condiciones del ensayo, ya que alrededor de su disco se forma un halo de inhibición de 24 mm. No se observa sensibilidad al antibiótico B, pues no produce halo.\n\nc. Los antibióticos antibacterianos actúan sobre estructuras o procesos propios de las bacterias, como la pared celular, los ribosomas bacterianos o ciertas rutas metabólicas. Los virus carecen de esas estructuras y no realizan por sí mismos un metabolismo celular independiente; se replican utilizando la maquinaria de una célula hospedadora. Por ello, un antibiótico antibacteriano no es eficaz contra una infección vírica.\n\nd. La vacunación proporciona inmunidad **artificial activa**: es artificial porque la intervención se administra deliberadamente, y activa porque los antígenos de la vacuna estimulan al propio sistema inmunitario para producir una respuesta y memoria inmunológica.\n\ne. Tras activarse, el linfocito B puede diferenciarse en una **célula plasmática o plasmocito**, que produce y secreta anticuerpos.",
+   "resultado": "Nucleoide; sensibilidad al antibiótico A; inmunidad artificial activa; los anticuerpos los secretan las células plasmáticas.",
+   "criterios": "2,0 puntos en total: a) 0,4 puntos por indicar que el cromosoma se localiza en el nucleoide (en el citoplasma). b) 0,4 puntos por identificar sensibilidad al antibiótico A a partir del halo; no se exige interpretar el diámetro como una categoría clínica. c) 0,4 puntos por explicar que los antibióticos actúan sobre estructuras o procesos bacterianos ausentes en los virus, o sobre su metabolismo independiente, que estos no poseen. d) 0,4 puntos por indicar inmunidad artificial activa. e) 0,4 puntos por nombrar la célula plasmática o plasmocito.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "molecular",
+   "p": 0.845
+  },
+  {
+   "id": "biomoleculas",
+   "p": 0.79
+  },
+  {
+   "id": "celula",
+   "p": 0.79
+  },
+  {
+   "id": "inmunologia",
+   "p": 0.79
+  },
+  {
+   "id": "metabolismo",
+   "p": 0.736
+  },
+  {
+   "id": "microbiologia",
+   "p": 0.736
+  }
+ ],
+ "referencias": [
+  "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/bachillerato/_galerias/descargas/pau-2026/examen-biologia-pau-junio-26.pdf",
+  "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/bachillerato/_galerias/descargas/pau-2026/examenes-pau-julio-2026/examen-biologia-pau-julio-26.pdf"
+ ]
+}
