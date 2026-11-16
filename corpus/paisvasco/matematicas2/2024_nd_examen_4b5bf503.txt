@@ -1,0 +1,1005 @@
+  Matematika II
+
+USE 2024
+www.ehu.eus
+                      UNIBERTSITATERA SARTZEKO   EVALUACIÓN PARA EL ACCESO A LA
+                             EBALUAZIOA                   UNIVERSIDAD
+
+                           2024ko EZOHIKOA             EXTRAORDINARIA 2024
+
+                            MATEMATIKA II                MATEMÁTICAS II
+
+
+
+Azterketa honek BOST atal ditu, bakoitza 2,5 puntukoa. Horietako LAUri
+erantzun behar diezu. Atal bakoitzeko galdera bati erantzun soilik.
+Jarraibideetan adierazitakoei baino galdera gehiagori erantzunez gero,
+erantzunak ordenari jarraituta zuzenduko dira, harik eta beharrezko ko-
+purura iritsi arte.
+Ez ahaztu azterketako orrialde bakoitzean kodea jartzea.
+
+Kalkulagailuak erabil daitezke baina ezaugarri hauek dituztenak ez:
+
+
+
+
+              24
+    pantaila grafikoa, datuak igortzeko aukera, programatzeko aukera,
+    ekuazioak ebazteko aukera, matrize-eragiketak egiteko aukera,
+    determinanteen kalkulua egiteko aukera,
+    deribatuak eta integralak egiteko aukera,
+    datu alfanumerikoak gordetzeko aukera.
+
+
+
+
+20
+                       UNIBERTSITATERA SARTZEKO          EVALUACIÓN PARA EL ACCESO A LA
+                              EBALUAZIOA                          UNIVERSIDAD
+
+                               2024ko EZOHIKOA                  EXTRAORDINARIA 2024
+
+                                MATEMATIKA II                         MATEMÁTICAS II
+
+
+
+                          N (0, 1) kurbak −∞-tik z-raino mugatutako azalerak
+                          Áreas limitadas por la curva N (0, 1) desde −∞ hasta z
+                z
+
+
+       0’00     0’01    0’02     0’03   0’04    0’05   0’06    0’07     0’08   0’09
+0’0   0’5000   0’5040 0’5080    0’5120 0’5160 0’5199 0’5239   0’5279   0’5319 0’5359
+0’1   0’5398   0’5438 0’5478    0’5517 0’5557 0’5596 0’5636   0’5675   0’5714 0’5753
+0’2   0’5793   0’5832 0’5871    0’5910 0’5948 0’5987 0’6026   0’6064   0’6103 0’6141
+0’3   0’6179   0’6217 0’6255    0’6293 0’6331 0’6368 0’6406   0’6443   0’6480 0’6517
+0’4   0’6554   0’6591 0’6628    0’6664 0’6700 0’6736 0’6772   0’6808   0’6844 0’6879
+0’5
+0’6
+0’7
+0’8
+0’9
+1’0
+1’1
+1’2
+1’3
+1’4
+1’5
+      0’6915
+      0’7257
+      0’7580
+      0’7881
+      0’8159
+      0’8413
+      0’8643
+      0’8849
+      0’9032
+      0’9192
+      0’9332
+              24
+               0’6950 0’6985
+               0’7291 0’7324
+               0’7611 0’7642
+               0’7910 0’7939
+               0’8186 0’8212
+               0’8438 0’8461
+               0’8665 0’8686
+               0’8869 0’8888
+               0’9049 0’9066
+               0’9207 0’9222
+               0’9345 0’9357
+                                0’7019 0’7054 0’7088 0’7123
+                                0’7357 0’7389 0’7422 0’7454
+                                0’7673 0’7704 0’7734 0’7764
+                                0’7967 0’7995 0’8023 0’8051
+                                0’8238 0’8264 0’8289 0’8315
+                                0’8485 0’8508 0’8531 0’8554
+                                0’8708 0’8729 0’8749 0’8770
+                                0’8907 0’8925 0’8944 0’8962
+                                0’9082 0’9099 0’9115 0’9131
+                                0’9236 0’9251 0’9265 0’9279
+                                0’9370 0’9382 0’9394 0’9406
+                                                              0’7157
+                                                              0’7486
+                                                              0’7794
+                                                              0’8078
+                                                              0’8340
+                                                              0’8577
+                                                              0’8790
+                                                              0’8980
+                                                              0’9147
+                                                              0’9292
+                                                              0’9418
+                                                                       0’7190 0’7224
+                                                                       0’7517 0’7549
+                                                                       0’7823 0’7852
+                                                                       0’8106 0’8133
+                                                                       0’8365 0’8389
+                                                                       0’8599 0’8621
+                                                                       0’8810 0’8830
+                                                                       0’8997 0’9015
+                                                                       0’9162 0’9177
+                                                                       0’9306 0’9319
+                                                                       0’9429 0’9441
+
+
+
+
+20
+1’6
+1’7
+1’8
+1’9
+2’0
+2’1
+2’2
+2’3
+2’4
+2’5
+2’6
+2’7
+2’8
+2’9
+      0’9452
+      0’9554
+      0’9641
+      0’9713
+      0’9772
+      0’9821
+      0’9861
+      0’9893
+      0’9918
+      0’9938
+      0’9953
+      0’9965
+      0’9974
+      0’9981
+               0’9463 0’9474
+               0’9564 0’9573
+               0’9649 0’9656
+               0’9719 0’9726
+               0’9778 0’9783
+               0’9826 0’9830
+               0’9864 0’9868
+               0’9896 0’9898
+               0’9920 0’9922
+               0’9940 0’9941
+               0’9955 0’9956
+               0’9966 0’9967
+               0’9975 0’9976
+               0’9982 0’9982
+                                0’9484 0’9495 0’9505 0’9515
+                                0’9582 0’9591 0’9599 0’9608
+                                0’9664 0’9671 0’9678 0’9686
+                                0’9732 0’9738 0’9744 0’9750
+                                0’9788 0’9793 0’9798 0’9803
+                                0’9834 0’9838 0’9842 0’9846
+                                0’9871 0’9875 0’9878 0’9881
+                                0’9901 0’9904 0’9906 0’9909
+                                0’9925 0’9927 0’9929 0’9931
+                                0’9943 0’9945 0’9946 0’9948
+                                0’9957 0’9959 0’9960 0’9961
+                                0’9968 0’9969 0’9970 0’9971
+                                0’9977 0’9977 0’9978 0’9979
+                                0’9983 0’9984 0’9984 0’9985
+                                                              0’9525
+                                                              0’9616
+                                                              0’9693
+                                                              0’9756
+                                                              0’9808
+                                                              0’9850
+                                                              0’9884
+                                                              0’9911
+                                                              0’9932
+                                                              0’9949
+                                                              0’9962
+                                                              0’9972
+                                                              0’9979
+                                                              0’9985
+                                                                       0’9535 0’9545
+                                                                       0’9625 0’9633
+                                                                       0’9699 0’9706
+                                                                       0’9761 0’9767
+                                                                       0’9812 0’9817
+                                                                       0’9854 0’9857
+                                                                       0’9887 0’9890
+                                                                       0’9913 0’9916
+                                                                       0’9934 0’9936
+                                                                       0’9951 0’9952
+                                                                       0’9963 0’9964
+                                                                       0’9973 0’9974
+                                                                       0’9980 0’9981
+                                                                       0’9986 0’9986
+3’0   0’9987   0’9987 0’9987    0’9988 0’9988 0’9989 0’9989   0’9989   0’9990 0’9990
+3’1   0’9990   0’9991 0’9991    0’9991 0’9992 0’9992 0’9992   0’9992   0’9993 0’9993
+3’2   0’9993   0’9993 0’9994    0’9994 0’9994 0’9994 0’9994   0’9995   0’9995 0’9995
+3’3   0’9995   0’9995 0’9995    0’9996 0’9996 0’9996 0’9996   0’9996   0’9996 0’9997
+3’4   0’9997   0’9997 0’9997    0’9997 0’9997 0’9997 0’9997   0’9997   0’9997 0’9998
+3’5   0’9998   0’9998 0’9998    0’9998 0’9998 0’9998 0’9998   0’9998   0’9998 0’9998
+3’6   0’9998   0’9998 0’9999    0’9999 0’9999 0’9999 0’9999   0’9999   0’9999 0’9999
+3’7   0’9999   0’9999 0’9999    0’9999 0’9999 0’9999 0’9999   0’9999   0’9999 0’9999
+3’8   0’9999   0’9999 0’9999    0’9999 0’9999 0’9999 0’9999   0’9999   0’9999 0’9999
+3’9   1’0000   1’0000 1’0000    1’0000 1’0000 1’0000 1’0000   1’0000   1’0000 1’0000
+                      UNIBERTSITATERA SARTZEKO       EVALUACIÓN PARA EL ACCESO A LA
+                             EBALUAZIOA                       UNIVERSIDAD
+
+                             2024ko EZOHIKOA               EXTRAORDINARIA 2024
+
+                              MATEMATIKA II                  MATEMÁTICAS II
+
+
+
+LEHEN ATALA (2,5 puntu). Bietariko bati bakarrik erantzun.
+
+A1 Ariketa
+(1 p) Eztabaidatu honako sistema honen soluzioaren existentzia α parame-
+troaren balioen arabera:
+                          
+                          
+                          
+                          
+                          
+                           αx + 4y + z = 3,
+                          
+                          αx − 5y + 2z = −2,
+                          
+                          
+                          2x − y + 3z = 1.
+                          
+
+
+
+
+B1 Ariketa
+              24
+Ebatzi sistema, ahal bada,
+
+(a) (0,75 p) α = 0 denean,
+(b) (0,75 p) α = 1 denean.
+
+
+
+(2,5 p) Kalkulatu A matrizearen heina, m parametroaren balioen arabera:
+
+
+
+
+20
+A2 Ariketa
+
+
+                 x−1 y+1
+                          
+                        A=
+                          
+                          
+
+
+
+
+                           z
+                            1
+                             
+                              3
+                           m 2−m
+
+
+
+
+Izan bitez honako zuzen hauek:
+                                  4
+                                  2
+                                      1
+                                      1
+                           m −2 m − 2 1
+                                        .
+                                        
+
+
+
+
+BIGARREN ATALA (2,5 puntu). Bietariko bati bakarrik erantzun.
+
+
+
+                                                 
+                                                 
+                                                 
+                                                 
+                                                 
+                                                 
+                                                    
+
+
+
+
+                                                  x = λ,
+            r≡      =    =    ;               s ≡ y = −2 + 3λ,
+                  1   2    −1                    
+                                                 
+                                                 z = −1 + λ.
+                                                 
+
+
+
+(a) (1 p) Kalkulatu haien posizio erlatiboa.
+(b) (1,5 p) Zuzenek elkar ebakitzen badute, kalkulatu bien artean eratutako
+    angelu minimoa. Elkar ebakitzen ez badute, kalkulatu zuzen bien arteko
+    distantzia.
+                        UNIBERTSITATERA SARTZEKO   EVALUACIÓN PARA EL ACCESO A LA
+                               EBALUAZIOA                   UNIVERSIDAD
+
+                              2024ko EZOHIKOA           EXTRAORDINARIA 2024
+
+                               MATEMATIKA II               MATEMÁTICAS II
+
+
+
+B2 Ariketa
+Izan bitez honako zuzen eta plano hauek:
+                 
+                 2x − y + z = 0,
+                 
+             r≡                          π ≡ 2x − 3y + Az = 10.
+               x − y + 4z = 1;
+
+
+ (a) (0,75 p) Kalkulatu A parametroaren balioa r zuzena eta π planoa para-
+     leloak izan daitezen.
+
+
+     ebakidura.
+
+
+
+               24
+ (b) (0,75 p) A = 21 bada, kalkulatu π planoaren eta r zuzenaren arteko
+
+
+ (c) (1 p) A = 1 bada, kalkulatu koordenatu-jatorriaren π planoarekiko puntu
+     simetrikoa.
+
+
+HIRUGARREN ATALA (2,5 puntu). Bietariko bati bakarrik erantzun.
+
+A3 Ariketa
+
+
+
+
+20
+Izan bedi f (x) = x3 +Ax2 +Bx+C. f funtzioaren grafikoaren zuzen ukitzaileak
+x = −1 eta x = 2 abszisa duten puntuetan paraleloak dira. Gainera, f -k mutur
+erlatibo bat dauka x = 1 denean, eta f (0) = lim
+                                             x→0
+                                                 e2x − 1
+
+
+ (a) (1,5 p) Aurkitu A, B eta C parametroen balioak.
+                                                    x
+                                                         da.
+
+
+
+ (b) (1 p) Aurkitu f -ren grafikoaren zuzen ukitzailearen ekuazioa x = −1 abs-
+     zisa duen puntuan, A = −3, B = 0 eta C = 4 parametroen balioetarako.
+
+B3 Ariketa
+                        2
+Izan bedi f (x) = 2xe−2x .
+
+ (a) (1 p) Aurkitu f -ren gorakortasun- eta beherakortasun-tarteak.
+ (b) (1 p) Aurkitu f -ren mutur erlatiboak, eta arrazoitu maximoak edo mini-
+     moak diren.
+ (c) (0,5 p) Aurkitu f -ren asintotak.
+                      UNIBERTSITATERA SARTZEKO    EVALUACIÓN PARA EL ACCESO A LA
+                             EBALUAZIOA                    UNIVERSIDAD
+
+                            2024ko EZOHIKOA             EXTRAORDINARIA 2024
+
+                             MATEMATIKA II                MATEMÁTICAS II
+
+
+
+LAUGARREN ATALA (2,5 puntu). Bietariko bati bakarrik erantzun.
+
+A4 Ariketa
+(2,5 p) Kalkulatu honako integral hau, eta azaldu erabilitako metodoa:
+                                Z
+                                    x ln2 x dx.
+
+B4 Ariketa
+              x2
+Izan bitez y = , y = x2 + 2x eta y = 3 ekuazioetako kurbak.
+
+
+     mua.
+
+              24
+              3
+ (a) (1,25 p) Marraztu kurba horiek lehen koadrantean mugatzen duten ere-
+
+
+ (b) (1,25 p) Kalkulatu eremu horren azalera.
+
+
+BOSGARREN ATALA (2,5 puntu). Bietariko bati bakarrik erantzun.
+
+A5 Ariketa
+
+
+
+
+20
+Hegoafrikan, Kenyan eta Zambian M72 txertoa aplikatzeari buruz 2019ko
+abenduan argitaratutako emaitzen arabera, biriketako tuberkulosi aktiboaren
+aurka babestuta geratzeko probabilitatea 0,54 da. 3289 helduren talde bati
+txertoa aplikatzen zaio.
+
+ (a) (0,5 p) Adierazi zein den babestuta gelditu diren helduen kopuruaren
+     banaketa, eta zehaztu haren parametroak.
+ (b) (1 p) Kalkulatu txertoa 1800 heldurengan eraginkorra izateko probabili-
+     tatea.
+ (c) (1 p) Kalkulatu txertoa 1700 heldu baino gutxiagorengan eraginkorra iza-
+     teko probabilitatea.
+                          UNIBERTSITATERA SARTZEKO   EVALUACIÓN PARA EL ACCESO A LA
+                                 EBALUAZIOA                   UNIVERSIDAD
+
+                              2024ko EZOHIKOA             EXTRAORDINARIA 2024
+
+                               MATEMATIKA II                MATEMÁTICAS II
+
+
+
+B5 Ariketa
+Izan bitez A eta B ausazko gertaera independenteak, haien probabilitateak
+P (A) = 0, 7 eta P (B) = 0, 1 izanik, eta izan bitez A eta B A eta B gertaeren
+osagarriak, hurrenez hurren. Kalkulatu honako probabilitate hauek arrazoi-
+tuz, eta argi adierazi jarraitutako prozedura edo aplikatutako legea:
+
+ (a) (0,5 p) P (A ∪ B),
+ (b) (0,5 p) P (A ∪ B),
+
+
+
+
+               24
+ (c) (0,5 p) P (A ∩ B),
+ (d) (0,5 p) P (A ∩ B),
+ (e) (0,5 p) P (A | B).
+
+
+
+
+20
+                                                 UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                            EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                  ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                   CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+MATEMATIKA II
+EBALUATZEKO IRIZPIDE OROKORRAK
+
+ 1. Probaren puntuazioa, guztira, 0 eta 10 puntu bitartekoa izango da.
+ 2. Ariketa guztiak berdin baloratuko dira: 0 eta 2,5 punturen artean.
+ 3. Planteamendu egokiak baloratuko dira, bai planteamendu orokorra, bai
+    atal bakoitzaren planteamendua (halakorik balego).
+ 4. Zenbakizko akatsak –kalkuluetan egindakoak eta abar– ez dira kontuan
+    hartuko, baldin eta akats kontzeptualak ez badira.
+
+
+
+
+              24
+ 5. Positiboki baloratuko dira soluzioa hobeto ikusarazten dituzten ideiak,
+    eskemak, grafikoak, aurkezpenak etab.
+ 6. Azterketa txukun aurkeztea aintzat hartuko da.
+ 7. Jarraibideetan adierazitakoei baino galdera gehiagori erantzunez gero,
+    erantzunak ordenari jarraituta zuzenduko dira, harik eta beharrezko ko-
+    purura iritsi arte.
+
+
+
+
+20
+Ariketa bakoitzari dagozkion irizpide bereziak
+
+A1.
+        Matrizearen determinantea kalkulatzea eta soluzioaren existentzia
+        eztabaidatzea (1 puntu).
+        α = 1 kasua ebaztea (0,75 puntu).
+        α = 0 kasua ebaztea (0,75 puntu).
+                                                UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                           EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                 ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                  CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+B1.
+      m parametroaren balioen kalkulua, zeinetarako 3 × 3 ordenako az-
+      pimatrize baten determinantea nulua den (1 puntu).
+      m = 1 kasuaren analisia (0,5 puntu).
+      m = 4 kasuaren analisia (1 puntu).
+A2.
+      r eta s zuzenak paraleloak ez direla egiaztatzea (0,5 puntu).
+
+
+
+
+B2.
+            24
+      r eta s zuzenak gurutzatzen direla ondorioztatzea (0,5 puntu).
+      Zuzen bat barnean duen eta bestearekiko paraleloa den planoaren
+      ekuazioa kalkulatzea (0,75 puntu)
+      r eta s zuzenen arteko distantzia kalkulatzea (0,75 puntu).
+
+
+      (a) atala zuzen ebaztea (0,75 puntu).
+
+
+
+
+20
+A3.
+
+
+
+
+B3.
+      (b) atala zuzen ebaztea (0,75 puntu).
+      (c) atala zuzen ebaztea (1 puntu).
+
+
+      A parametroaren balioa zuzen kalkulatzea (0,5 puntu).
+      B parametroaren balioa zuzen kalkulatzea (0,5 puntu).
+      C parametroaren balioa zuzen kalkulatzea (0,5 puntu).
+      Eskatutako zuzen ukitzailaren ekuazioa zuzen kalkulatzea (1 puntu).
+
+
+      f -ren deribatua zuzen kalkulatzea (0,5 puntu).
+      f -ren gorakortasun- eta beherakortasun-tarteak aurkitzea (0,5 puntu).
+      f -ren bigarren deribatua zuzen kalkulatzea ( 0,5 puntu).
+      f -ren mutur erlatiboak aurkitzea eta sailkatzea (0,5 puntu).
+      f -ren asintotak aurkitzea (0,5 puntu).
+                                                UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                           EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                 CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+A4.
+      Zatikako integrazioaren metodoaren azalpena (0,5 puntu).
+      Zatikako integrazioaren lehen aplikazioa (1 puntu).
+      Zatikako integrazioaren bigarren aplikazioa (1 puntu).
+B4.
+      Kurben ebaki-puntuak kalkulatzea (0,75 puntu).
+      Eskatutako eremua ondo marraztea. (0,5 puntu).
+
+
+
+A5.
+            24
+      Eremuaren azalera zuzen kalkulatzea, Barrow-en erregela erabiliz
+      (1,25 puntu).
+
+
+      (a) atalari zuzen erantzutea (0,5 puntu).
+      (b) atala zuzen ebaztea (1 puntu).
+      (c) atala zuzen ebaztea (1 puntu).
+
+
+
+
+20
+B5.
+      (a) atala zuzen ebaztea (0,5 puntu).
+      (b) atala zuzen ebaztea (0,5 puntu).
+      (c) atala zuzen ebaztea (0,5 puntu).
+      (d) atala zuzen ebaztea (0,5 puntu).
+      (e) atala zuzen ebaztea (0,5 puntu).
+                                                UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                           EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                   ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                    CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+ARIKETEN EBAZPENAK
+
+A1 EBAZPENA
+Koefizienteen matrizearen determinantea 26(1 − α) da. Orduan, α ̸= 1 bada,
+sistema BATERAGARRI DETERMINATUA da.
+α = 1 bada, koefizienteen matrizearen heina 2 da, eta baita ere matrize za-
+balduarena; beraz, sistema BATERAGARRI INDETERMINATUA da.
+α = 1 denean, sistemaren soluzioa x = 8 − 13t, y = t, z = 9t − 5 da, t ∈ R
+edozein izanik.
+
+
+
+B1 EBAZPENA
+              24
+α = 0 denean, sistemaren soluzioa x = 0, y = 8/13, z = 7/13 da.
+
+
+A-ren lehen hiru zutabeek osatzen duten azpimatrizearen determinantea 0
+da m-ren edozein baliotarako.
+A-ren azken hiru zutabeek osatzen duten azpimatrizearen determinantea
+−m2 + 5m − 4 = −(m − 1)(m − 4) da. Beraz, m ̸= 1 eta m ̸= 4 bada, A-
+ren heina 3 da.
+
+
+
+
+20
+m = 1 bada, 3 × 3 ordenako edozein azpimatrizeren determinantea nulua da,
+eta A-ren heina 3 baino txikiagoa da. Gainera, erraz aurkitu daiteke determi-
+nante ez-nulua duen 2 × 2 ordenako azpimatrize bat. Ondorioz, A-ren heina
+2 da.
+Era berean, m = 4 bada, 3 × 3 ordenako edozein azpimatrizeren determi-
+nantea nulua da, eta erraz aurkitu daiteke determinante ez-nulua duen 2 × 2
+ordenako azpimatrize bat. Ondorioz, A-ren heina 2 da.
+                                                 UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                            EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                   ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                    CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+A2 EBAZPENA
+
+(a) r zuzenaren norabide-bektorea ⃗vr = (1, 2, −1) da eta s zuzenaren nora-
+    bide-bektorea ⃗vs = (1, 3, 1) da. Bektore horiek paraleloak ez direnez,
+    zuzenek elkar ebakitzen dute edo gurutzatzen dira.
+   r-ren puntu bat, Pr (1, −1, 0) eta s-ren puntu bat, Ps (0, −2, −1), hartzen
+               −−→
+   ditugu. det(Pr Ps , ⃗vr , ⃗vs ) ̸= 0 denez, zuzenak gurutzatu egiten dira.
+   Beste aukera bat da zuzenen ebaki-puntua aurkitzen saiatzea eta ikus-
+   ten da ez dela posiblea.
+
+
+
+
+              24
+(b) Zuzenak gurutzatzen direnez, bien arteko distantzia, d(r, s), kalkulatu
+    behar da. r zuzena barnean duen eta s zuzenarekiko paraleloa den π
+    planoaren bektore normala v⃗r × v⃗s = (5, −2, 1) bektorearekiko paraleloa
+    da eta Pr (1, −1, 0) plano horren puntu bat da; beraz, π planoaren ekua-
+    zioa 5x−2y +z −7 = 0 da. d(r, s) = d(Ps , π) = √ 2
+                                                       |4 − 1 − 7|
+                                                     5 + (−2)2 + 12
+                                                                    =
+                                                                        4
+                                                                       √ u.
+
+   Puntu batetik plano baterako distantziaren formula ez bada erabiltzen,
+   Ps puntutik pasatzen den eta π planoarekiko perpendikularra den zuzena
+                                                                         30
+
+
+
+
+20 kalkulatzen da: {x = 5µ, y = −2 − 2µ, z = −1 + µ}. Zuzen horren eta π
+   planoaren arteko
+   d(Ps , Q) =
+
+
+B2 EBAZPENA
+                √
+               2 30
+                15
+                     ebaki-puntua Q = (2/3, −34/15, −13/15) da. d(r, s) =
+                    u.
+
+
+
+
+(a) r zuzenaren norabide-bektoreak, v⃗r = (2, −1, −1) × (1, −1, 4) = (3, 7, 1),
+    eta π planoaren bektore normalak, n⃗π = (2, −3, A), perpendikularrak izan
+    behar dute, hau da, (2, −1, −1) · (2, −3, A) = 0; beraz, A = 15 da, eta π
+    planoaren ekuazioa 2x − 3y + 15z = 10 da.
+                                                 UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                            EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                   ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                    CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+(b) A = 21 bada, r zuzenaren eta π planoaren arteko ebaki-puntua honako
+    sistema honen soluzioa da:
+                              
+                              
+                              
+                              
+                              
+                               2x − 3y + 21z = 10,
+                              
+                              2x − y + z = 0,
+                              
+                              
+                              
+                              x − y + 4z = 1,
+
+
+   hots, Q(2, 5, 1) puntua.
+   Beste aukera bat da r zuzena forma parametrikoan idaztea, {x = −1 +
+   3λ, y = −2 + 7λ, z = λ}. r-ren puntu bat π-ren ekuazioan ordezkatuz
+
+
+
+
+              24
+   λ = 1 lortzen da, eta dagokion puntua Q(2, 5, 1) da.
+(c) π planoarekiko perpendikularra den eta O(0, 0, 0) jatorritik pasatzen den
+    zuzenaren ekuazioa s ≡ {2λ, −3λ, λ} da. s zuzenaren eta π planoaren
+    arteko ebaki-puntua λ = 5/7 balioari dagokio eta M (10/7, −15/7, 5/7)
+    puntua da. Jatorriaren simetrikoak, O′ puntuak, M puntua O eta O′ pun-
+    tuen erdipuntua dela betetzen du; beraz, O′ (20/7, −30/7, 10/7).
+
+
+
+
+20
+A3 EBAZPENA
+
+(a) Alde batetik, f ′ (x) = 3x2 + 2Ax + B. f funtzioaren grafikoaren zuzen
+    ukitzaileak x = −1 eta x = 2 abszisa duten puntuetan paraleloak izan
+    daitezen f ′ (−1) = f ′ (2) bete behar da, eta hortik A = −3/2 lortzen da.
+   f -k x = 1 puntuan mutur erlatibo bat izan dezan f ′ (1) = 0 behar da, eta
+   hortik B = 0 lortzen da.
+   f (0) = C eta lı́m
+                 x→0
+                      e2x − 1
+                         x
+                              = 2 direnez, C = 2 dugu.
+
+(b) f (x) = x3 − 3x2 + 4 da; beraz, f (−1) = 0 eta f ′ (−1) = 9. Ondorioz,
+    eskatutako zuzen ukitzailearen ekuazioa y = 9x + 9 da.
+                                                        UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                                   EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                           ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                            CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+B3 EBAZPENA
+
+(a) f ′ (x) = e−2x (2 − 8x2 ) = 2e−2x (1 − 2x)(1 + 2x); beraz, f ′ (x) < 0 da
+                  2                         2
+
+
+    (−∞, −1/2) eta (1/2, +∞) tarteetan eta, ondorioz, f beherakorra da tarte
+    horietan. Aldiz, f ′ (x) > 0 da (−1/2, 1/2) tartean eta f gorakorra da tarte
+    horretan.
+(b) f ′ (x) = 0 da x = −1/2 eta x = 1/2 denean. Gainera,
+                      f ′′ (x) = e−2x (32x3 − 24x) = 8xe−2x (4x2 − 3)
+                                    2                          2
+
+
+
+
+A4 EBAZPENA
+               24
+      da; beraz f ′′ (1/2) < 0 da eta f -k maximo erlatibo bat dauka x = 1/2
+                             √
+      denean, f (1/2) = 1/ e izanik. Era berean, f ′′ (−1/2) > 0 da eta f -k
+                                                                   √
+      minimo erlatibo bat dauka x = −1/2 denean, f (−1/2) = −1/ e izanik.
+ (c) f -k ez dauka asintota bertikalik R osoan definituta dagoelako eta asintota
+     horizontal bat dauka, y = 0, bai −∞-n eta baita +∞-n ere.
+
+
+                                                                   2
+
+
+
+
+20
+Zatika integratzen dugu u = ln2 x eta dv = xdx hartuz. Orduan, du = ln x dx
+eta v = x2 /2; beraz,
+
+
+
+Berriro zatika integratzen dugu, orain u = ln x eta dv = x dx hartuz. Kasu
+honetan, du = dx eta v = x2 /2; beraz,
+  ∫
+         2
+                1
+                x
+
+      x ln x dx =
+                  x2 2
+                  2
+                        ∫
+
+
+
+
+                    ln x −
+                           ( 2
+                            x
+                            x
+                                   x2 2
+                                   2
+
+
+
+
+                               ln x −
+                                            ∫
+                                      ln x − x ln x dx.
+                            x ln2 x dx =
+
+
+
+
+                                      ∫ x
+
+                                        2
+                                            )
+                                          dx =
+                                                                   x
+
+
+
+
+                                               x2 ln2 x − x2 ln x x2
+                                                        2
+                                                                 +
+                                                                   4
+                                                                     + k.
+                                                 UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                            EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                  ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                   CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+B4 EBAZPENA
+y = x2 /3 ekuazioko parabolak eta y = 3 ekuazioko zuzenak x = 3 eta x = −3
+denean elkar ebakitzen dute. Aldiz, y = x2 + 2x ekuazioko parabolak eta
+y = 3 ekuazioko zuzenak x = 1 eta x = −3 denean elkar ebakitzen dute.
+Hiru kurbek lehen koadrantean mugatzen duten eremua honako hau da:
+
+
+
+
+              24
+Eremu horren azalera hau da:
+
+            A=
+                 ∫ 1(
+
+                  0
+                      x + 2x −
+                        2      x2 )
+                               3
+                                    dx +
+                                         ∫ 3(
+
+                                          1
+                                             3−
+                                                x2 )
+                                                3
+                                                         13
+                                                     dx = u2 .
+                                                         3
+
+
+
+
+20
+A5 EBAZPENA
+
+ a) ”Biriketako tuberkulosi aktiboaren aurka babestutako helduen kopurua”
+    aldagaia, X, diskretua da eta B(3289; 0,54) banaketa binomial bati ja-
+    rraitzen dio. np = 3289 · 0,54 = 1776,06 ≥ 5 eta nq = 3289 · 0,46 =
+    1521,94 ≥ 5 direnez, N (1776,06; 28,58) banaketa normal bati jarraitzen
+    dion X ′ aldagai jarraituaren bidez hurbiltzen da.
+ b) P (X = 1800) = P (1800 − 0,5 ≤ X ′ ≤ 1800 + 0,5)
+             ( 1799,5 − 1776,06        1800,5 − 1776,06 )
+         =P                     ≤Z≤
+                     28,58                   28, 58
+         = P (0, 82 ≤ Z ≤ 0,86) = P (Z ≤ 0, 86) − P (Z ≤ 0,82)
+         = 0,8051 − 0,7939 = 0,0112.
+                                        (   1699,5 − 1776,06 )
+ c) P (X < 1700) = P (X ′ ≤ 1699,5) = P Z ≤
+                                                  28,58
+         = P (Z ≤ −2,68) = 1 − P (Z ≤ 2,68) = 1 − 0,9963 = 0,0037.
+                                                   UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                              EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                      ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                       CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+B5 EBAZPENA
+A eta B gertaera independenteak direnez, P (A ∩ B) = P (A)P (B).
+
+(a) Probabilitatearen propietateen arabera:
+
+     P (A ∪ B) = P (A) + P (B) − P (A ∩ B) = P (A) + P (B) − P (A)P (B)
+                                              = 0, 7 + 0, 1 − 0, 07 = 0, 73.
+
+(b) Morganen legearen arabera:
+
+
+
+
+             (
+              24
+     P (A ∪ B) = P (A ∩ B) = 1 − P (A ∩ B) = 1 − P (A)P (B)
+
+
+ (c) Berriro, Morganen legearen arabera:
+                                                  = 1 − 0, 7 · 0, 1 = 0, 93.
+
+
+
+           P (A ∩ B) = P (A ∪ B) = 1 − P (A ∪ B) = 1 − 0, 73 = 0, 27.
+                                  )
+(d) P (A) = P (A ∩ B) ∪ (A ∩ B) = P (A ∩ B) + P (A ∩ B) denez,
+            P (A ∩ B) = P (A) − P (A ∩ B) = 0, 7 − 0, 7 · 0, 1 = 0, 63.
+
+
+
+
+20
+(e) Probabilitate baldintzatuaren definizioaren arabera:
+
+                    P (A | B) =
+                                  P (A ∩ B)
+                                    P (B)
+                                            =
+                                                0, 27
+                                              1 − 0, 1
+                                                       = 0, 3.
+

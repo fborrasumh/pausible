@@ -1,0 +1,655 @@
+                    UNIBERTSITATEAN SARTZEKO                      PRUEBA DE ACCESO A LA
+                              PROBA                                   UNIVERSIDAD
+                           2026ko EZOHIKOA                        EXTRAORDINARIA 2026
+                    EBAZPENA ETA IRIZPIDEAK                  SOLUCIONARIO Y CRITERIOS
+                                 FISIKA                                     FÍSICA
+
+       Irizpide orokorren aipamena
+       Zuzentzaileei emandako zuzenketa-irizpide orokorrak aplikatu behar dira, bereziki hauek:
+
+           •      Kalkulu sinbolikoa zenbakizkoaren aurretik.
+           •      Unitateak falta edo okerrak izatea: −0,1 puntu.
+           •      Akats bektorial sinboliko errepikatuak: −0,1 puntu.
+           •      Biribiltze-akatsak eta zifra esanguratsuen akatsak: −0,1 puntu.
+           •      Akats larriek (ekuazio okerrak, eskalar/bektorial nahasketa, etab.) atal osoa
+                  baliogabetu dezakete.
+           •
+
+
+
+
+                          U
+                  Atal batek aurreko baten emaitza behar badu, ikasleak emandako balioa erabiliko da,
+                  fisikoki zentzugabea ez bada.
+
+
+       Datu eta konstante fisikoen taula
+       Honako taula honek azterketaren enuntziatuarekin batera joan behar du. Ariketak ebazteko
+       behar diren konstante guztiak dauzka.
+
+
+
+
+EH
+DATUAK eta KONSTANTE
+FISIKOAK
+𝑅𝑅𝑀𝑀 =3390𝑘𝑘 𝑚𝑚                       𝐾𝐾=9,0 × 109 𝑁𝑁𝑁𝑁2 𝐶𝐶 −2     𝑚𝑚𝑒𝑒 =9,1 × 10−31 𝑘𝑘𝑘𝑘        𝑐𝑐=3,0 × 108 𝑚𝑚𝑚𝑚 −1
+
+
+𝑀𝑀𝑀𝑀 =6,39 × 1023 𝑘𝑘𝑘𝑘                ∥ 𝑞𝑞𝑒𝑒 ∥ =1,60 × 10−19 𝐶𝐶    1 𝑢𝑢=1,66 × 10−27 𝑘𝑘𝑘𝑘        ℎ=6,63 × 10−34 𝐽𝐽𝐽𝐽
+
+
+𝐺𝐺=6,67 × 10−11 𝑁𝑁𝑁𝑁2 𝑘𝑘𝑘𝑘−2          𝜇𝜇0 =4𝜋𝜋 × 10−7 𝑇𝑇𝑇𝑇𝑇𝑇−1     𝑁𝑁𝐴𝐴 =6,02 × 1023 𝑚𝑚𝑚𝑚𝑚𝑚 −1
+
+
+
+
+       1. ariketa — Eremu grabitatorioa (2,50 puntu)
+       Puntuen banaketa
+                  Atala                    Azpiatala                 Puntuak         Edukia
+                    a)                        a.1                      0,50          𝑇𝑇=2𝜋𝜋�𝑟𝑟 3 /𝜇𝜇
+                                                                                     dedukzioa +
+                                                                                     hipotesiak
+                                                                       0,50
+           UNIBERTSITATEAN SARTZEKO                          PRUEBA DE ACCESO A LA
+                     PROBA                                       UNIVERSIDAD
+                   2026ko EZOHIKOA                           EXTRAORDINARIA 2026
+           EBAZPENA ETA IRIZPIDEAK                     SOLUCIONARIO Y CRITERIOS
+                         FISIKA                                     FÍSICA
+
+         Atala                     Azpiatala                   Puntuak       Edukia
+           b)                         b.1                        0,25        𝑔𝑔(ℎ1 )-ren kalkulua
+                                                                             𝑔𝑔0 -ren frakzio gisa
+                                      b.2                        0,50        𝑣𝑣 eta 𝑇𝑇-ren kalkulua
+                                                                             beheko orbitan
+                                      b.3                        0,25        Arrazoiketa
+                                                                             kualitatiboa: 𝑣𝑣 eta 𝑇𝑇,
+                                                                             goiko orbitan
+                                                                 1,00
+           c)
+
+
+
+
+                 U                     c.1
+
+
+
+                                       c.2
+
+
+
+                                       c.3
+                                                                 0,50
+
+
+
+                                                                 0,25
+
+
+
+                                                                 0,25
+                                                                             𝑇𝑇 2 /𝑟𝑟 3 ≈ 𝑘𝑘𝑘𝑘𝑘𝑘
+                                                                             egiaztatzea + 𝑀𝑀𝑀𝑀
+                                                                             balioestea
+                                                                             Objektu anomaloa
+                                                                             identifikatzea +
+                                                                             azalpena
+                                                                             𝑇𝑇 aurreikustea
+                                                                             𝑟𝑟=1,50 × 107 𝑚𝑚-rako
+
+
+
+
+EH
+Aurretiko datuak
+                                                                 1,00
+
+
+
+                   𝜇𝜇=𝐺𝐺𝑀𝑀𝑀𝑀 =6,67 × 10−11 × 6,39 × 1023 =4,26 × 1013 𝑚𝑚3 𝑠𝑠 −2
+                      𝑟𝑟1 =𝑅𝑅𝑀𝑀 +ℎ1 =3,390 × 106 +0,250 × 106 =3,640 × 106 𝑚𝑚
+                      𝑟𝑟2 =𝑅𝑅𝑀𝑀 +ℎ2 =3,390 × 106 +6,000 × 106 =9,390 × 106 𝑚𝑚
+
+Ebazpena eta irizpideak
+a.1 — 𝑻𝑻 -ren ondorioztapena (0,50)
+Grabitate-indarra eta indar zentripetoa berdinduz: 𝐺𝐺𝑀𝑀𝑚𝑚/𝑟𝑟 2 =𝑚𝑚𝑣𝑣2 /𝑟𝑟 ⟹ 𝑣𝑣=�𝜇𝜇/𝑟𝑟. 𝑇𝑇=2𝜋𝜋𝑟𝑟/𝑣𝑣
+adierazpenean ordezkatuz:
+
+
+                                               𝑇𝑇=2𝜋𝜋�
+                                                      𝑟𝑟 3
+                                                       𝜇𝜇
+
+Hipotesiak: Erdiguneko masa zundaren masarekin alderatuta askoz handiagoa (𝑀𝑀 ≫ 𝑚𝑚),
+orbita zirkularra, masa puntualaren edo banaketa esferikoaren hurbilketa.
+
+b.1 — 𝒈𝒈(𝒉𝒉𝟏𝟏 ) eremu grabitatorioa (0,25)
+                                       𝜇𝜇  4,26 × 1013
+                              𝑔𝑔(ℎ1 )= 2 =               =3,22 𝑚𝑚𝑚𝑚 −2
+                                      𝑟𝑟1 (3,64 × 106 )2
+           UNIBERTSITATEAN SARTZEKO                        PRUEBA DE ACCESO A LA
+                     PROBA                                     UNIVERSIDAD
+                   2026ko EZOHIKOA                          EXTRAORDINARIA 2026
+           EBAZPENA ETA IRIZPIDEAK                     SOLUCIONARIO Y CRITERIOS
+                           FISIKA                                     FÍSICA
+Konparazioa: 𝑔𝑔(ℎ1 )/𝑔𝑔0 =3,22/9,8 ≈ 0,33 ≈ 1/3. Irizpidea: 0,25, balioa eta 𝑔𝑔0 -rekiko erlazioa
+idatziz gero.
+
+b.2 — Abiadura eta periodoa (0,50 = 0,25 + 0,25)
+                        4,26×1013
+    •   0,25 — 𝑣𝑣1 =� 3,64×106 =3,42 × 103 𝑚𝑚/𝑠𝑠=3,42𝑘𝑘𝑘𝑘/𝑠𝑠
+                       2𝜋𝜋⋅3,64×106
+    •   0,25 — 𝑇𝑇1 =     3,42×103
+                                    =6690𝑠𝑠 ≈ 1,86ℎ
+
+b.3 — Konparazio kualitatiboa (0,25)
+𝑟𝑟 handiago denean: - 𝑣𝑣 ∝ 1/√𝑟𝑟 ⟹ 𝑣𝑣2 <𝑣𝑣1 . - 𝑇𝑇 ∝ 𝑟𝑟 3/2 ⟹ 𝑇𝑇2 >𝑇𝑇1.
+
+
+    •
+
+
+
+
+                 U
+c.1 — Egiaztapena eta masa (0,50 = 0,25 + 0,25)
+
+
+
+    •
+        0,25 — 𝑘𝑘=𝑇𝑇 2 /𝑟𝑟 3 kalkulua A, B, C-rako. 𝑘𝑘𝐴𝐴 ≈ 9,26 × 10−13, 𝑘𝑘𝐵𝐵 ≈ 9,28 × 10−13, 𝑘𝑘𝐶𝐶 ≈
+        9,25 × 10−13. (Balio koherenteak).
+        0,25 — Masaren kalkulua:
+
+                  𝑀𝑀=
+                           4𝜋𝜋 2
+                                     ≈
+                        𝐺𝐺 ⋅ 𝑘𝑘𝑚𝑚𝑚𝑚𝑚𝑚 6,67 × 10
+
+c.2 — Objektu anomaloa (0,25)
+                                                39,48
+                                               −11 ⋅ 9,26 × 10−13
+                                                                  ≈ 6,4 × 1023 𝑘𝑘𝑘𝑘
+
+
+
+
+EH
+D objektua: 𝑘𝑘𝐷𝐷 ≈ 1,6 × 10−12 (oso desberdina). Arrazoia: adibidez, gaizki neurtu da.
+
+c.3 — Aurreikuspena (0,25)
+𝑟𝑟=1,50 × 107 m-rako:
+
+                  𝑇𝑇=�𝑘𝑘𝑚𝑚𝑚𝑚𝑚𝑚 ⋅ 𝑟𝑟 3 =�9,26 × 10−13 ⋅ (1,5 × 107 )3 ≈ 5,59 × 104 𝑠𝑠
+
+
+2. ariketa — Eremu elektromagnetikoa (2,50 puntu)
+Puntuen banaketa
+         Atala                      Azpiatala                  Puntuak      Edukia
+           a)                          a.1                       0,25       𝐹𝐹⃗𝐸𝐸 eta 𝐹𝐹⃗𝐵𝐵 -ren
+                                                                            adierazpen
+                                                                            bektorialak
+                                                                 0,25       Noranzkoen eskema
+                                       a.2                       0,25       Abiadura-
+                                                                            hautatzailearen
+                                                                            baldintza eta 𝑣𝑣0 =𝐸𝐸/𝐵𝐵
+                                       a.3                       0,25       𝑣𝑣0 -ren zenbakizko
+                                                                            kalkulua
+            UNIBERTSITATEAN SARTZEKO                             PRUEBA DE ACCESO A LA
+                      PROBA                                          UNIVERSIDAD
+                     2026ko EZOHIKOA                              EXTRAORDINARIA 2026
+            EBAZPENA ETA IRIZPIDEAK                          SOLUCIONARIO Y CRITERIOS
+                            FISIKA                                           FÍSICA
+
+          Atala                         Azpiatala                    Puntuak           Edukia
+                                                                       1,00
+            b)                             b.1                         0,25            Indarra eta ibilbide
+                                                                                       mota deskribatzea
+                                           b.2                         0,25            Azalpena
+                                                                       0,50
+            c)                             c.1                         0,50            Erradioen kalkulua
+                                           c.2                         0,50            𝑟𝑟 ∝ 𝑚𝑚 erradioen
+                                                                                       ratioa, eta diferentzia
+
+
+
+
+behera).
+                  U
+Ebazpena eta irizpideak
+a.1 — Indarrak (0,50 = 0,25 + 0,25)
+𝐹𝐹⃗𝐸𝐸 =𝑞𝑞𝐸𝐸�⃗ eta 𝐹𝐹⃗𝐵𝐵 =𝑞𝑞�𝑣𝑣⃗ × 𝐵𝐵
+                                                                       1,000
+                                                                                       erlatiboa
+
+
+
+
+                                  �⃗�. Noranzko kontrajarriak, elkar deuseztatzeko (adib.: 𝐸𝐸�⃗ gora, 𝐹𝐹⃗𝐵𝐵
+
+
+
+
+EH
+a.2 — Hautatzailea (0,25)
+                                     �⃗ ⟹ 𝑞𝑞𝑞𝑞=𝑞𝑞𝑞𝑞𝑞𝑞 ⟹ 𝑣𝑣0 =𝐸𝐸/𝐵𝐵.
+Desbideratze-ezaren baldintza: ∑𝐹𝐹⃗ =0
+Ekuazio bektoriala, dimentsio batean, ekuazio eskalarra.
+
+a.3 — 𝒗𝒗𝟎𝟎 -ren kalkulua (0,25)
+Ordezkapena. Emaitza: 𝑣𝑣0 =
+
+b. — Ibilbidea 𝑩𝑩′-an (0,50)
+                                   3,0×104
+                                     0,15
+                                           =2,0 × 105 𝑚𝑚/𝑠𝑠.
+
+
+
+Indar magnetikoa, beti abiadurarekiko perpendikularra (𝐹𝐹⟂𝑣𝑣). Ez du 𝑣𝑣-ren modulua aldatuko,
+norabidea baizik → Higidura zirkular uniformea.
+
+c.1 — Erradioa (0,50 = 0,25 + 0,25)
+    •
+    •
+         0,25 — Dedukzioa: 𝑞𝑞𝑞𝑞𝑞𝑞′=𝑚𝑚𝑣𝑣 2 /𝑟𝑟 ⟹ 𝑟𝑟=𝑚𝑚𝑚𝑚/𝑞𝑞𝑞𝑞′.
+         0,25 — Kalkulua:
+
+                            𝑟𝑟=
+                                  1,0 × 10−25 ⋅ 2,0 × 105 2 × 10−20
+                                     1,6 × 10−19 ⋅ 0,50
+                                                         =
+                                                           8 × 10−20
+                                                                     =0,25𝑚𝑚
+
+c.2 — 𝒎𝒎/𝒒𝒒 neurtzea (0,50 = 0,25 + 0,25)
+                                  𝑚𝑚 𝑟𝑟𝑟𝑟′
+    •    0,25 — Bakanduz:            = . Partikulak talka non egin duen neurtuz (2𝑟𝑟), 𝑟𝑟 lortuko da,
+                                  𝑞𝑞  𝑣𝑣0
+         eta, beraz, masa/karga ratioa.
+         UNIBERTSITATEAN SARTZEKO                        PRUEBA DE ACCESO A LA
+                   PROBA                                     UNIVERSIDAD
+                  2026ko EZOHIKOA                         EXTRAORDINARIA 2026
+         EBAZPENA ETA IRIZPIDEAK                       SOLUCIONARIO Y CRITERIOS
+                        FISIKA                                     FÍSICA
+
+   •   0,25 — 𝑟𝑟 ∝ 𝑚𝑚 denez (𝑞𝑞, 𝑣𝑣, 𝐵𝐵′ berdinak izanik), 𝑚𝑚2 =1,05𝑚𝑚1 bada, orduan 𝑟𝑟2 =1,05𝑟𝑟1.
+       Erradioak ez dira berdinak; astunagoak erradio handiagoa du.
+
+
+3. ariketa A aukera — MAS (2,50 puntu)
+Puntuen banaketa
+       Atala                  Azpiatala                Puntuak         Edukia
+         a)                       a.1                    0,25          𝐴𝐴 anplitudea
+                                  a.2                    0,25          𝐾𝐾𝑚𝑚𝑚𝑚𝑚𝑚 energia
+
+
+
+
+         b)
+               U                  a.3
+
+
+                                  a.4
+
+
+                                  b.1
+                                                         0,25
+
+
+                                                         0,25
+                                                         1,00
+                                                         0,50
+
+
+                                                         0,50
+                                                                       𝜔𝜔 maiztasun
+                                                                       angeluarra
+                                                                       𝑇𝑇 periodoa
+
+
+                                                                       𝑘𝑘 konstante
+                                                                       elastikoa
+
+
+
+
+EH •
+   •
+   •
+
+
+
+
+   •
+         c)
+
+
+
+
+Ebazpena eta irizpideak
+                                  c.1
+                                  c.2
+                                  c.3
+                                  c.4
+
+
+
+
+a) — Parametro zinematikoak (1,00 = 4 × 0,25)
+       0,25 — Anplitudea: muturren arteko distantzia =2𝐴𝐴=0,50 m ⟹ 𝐴𝐴=0,25 m.
+                                  1
+       0,25 — Energia: 𝐾𝐾𝑚𝑚𝑚𝑚𝑚𝑚 = 2 𝑚𝑚𝜔𝜔2 𝐴𝐴2 =15 J.
+       0,25 — Maiztasun angeluarra:
+
+                         𝜔𝜔=�
+                             2𝐾𝐾𝑚𝑚𝑚𝑚𝑚𝑚
+                              𝑚𝑚𝐴𝐴2
+                                       =�
+
+       0,25 — Periodoa: 𝑇𝑇=2𝜋𝜋/𝜔𝜔 ≈ 0,157 s.
+                                              30
+                                         0,30 ⋅ 0, 252
+                                                         0,25
+                                                         0,25
+                                                         0,25
+                                                         0,25
+                                                         1,00
+                                                                       Higidura-ekuazioa
+                                                                       𝑥𝑥(3) posizioa
+                                                                       𝑣𝑣(3) abiadura
+                                                                       𝑎𝑎(3) azelerazioa
+
+
+
+
+                                                       =√1600=40 𝑟𝑟𝑟𝑟𝑟𝑟/𝑠𝑠
+
+
+
+b) — Konstante elastikoa (0,50 = 0,25 + 0,25)
+   •   0,25 — Formula: 𝑘𝑘=𝑚𝑚𝜔𝜔2 .
+   •   0,25 — Kalkulua: 𝑘𝑘=0,30 ⋅ 1600=480 𝑁𝑁/𝑚𝑚.
+           UNIBERTSITATEAN SARTZEKO                            PRUEBA DE ACCESO A LA
+                     PROBA                                         UNIVERSIDAD
+                      2026ko EZOHIKOA                           EXTRAORDINARIA 2026
+            EBAZPENA ETA IRIZPIDEAK                        SOLUCIONARIO Y CRITERIOS
+                          FISIKA                                       FÍSICA
+                  1
+(Aukeran: 𝐸𝐸𝑡𝑡𝑡𝑡𝑡𝑡 = 𝑘𝑘𝐴𝐴2 ⟹ 𝑘𝑘=2𝐸𝐸/𝐴𝐴2 ).
+                  2
+
+c) — Egoera 𝒕𝒕=𝟑𝟑 s-an (1,00 = 4 × 0,25)
+Hasierako baldintzak: 𝑡𝑡=0 𝐾𝐾𝑚𝑚𝑚𝑚𝑚𝑚 (erdian, 𝑥𝑥=0) eta 𝑣𝑣>0. Sinu motako ekuazioa.
+
+                                             𝑥𝑥(𝑡𝑡)=0,25𝑠𝑠𝑠𝑠𝑠𝑠(40𝑡𝑡)
+
+    •    0,25 — Posizioa: 𝑥𝑥(3)=0,25𝑠𝑠𝑠𝑠𝑠𝑠(120) ≈ 0,25 ⋅ 0,58=0,145 m.
+    •    0,25 — Abiadura: 𝑣𝑣(𝑡𝑡)=10𝑐𝑐𝑐𝑐𝑐𝑐(40𝑡𝑡) ⟹ 𝑣𝑣(3)=10𝑐𝑐𝑐𝑐𝑐𝑐(120) ≈ 8,14 m/s.
+                                                                                  2
+    •    0,25 — Azelerazioa: 𝑎𝑎(𝑡𝑡)= − 400𝑠𝑠𝑠𝑠𝑠𝑠(40𝑡𝑡) ⟹ 𝑎𝑎(3) ≈ −232 m/s             .
+
+
+
+
+Puntuen banaketa
+
+
+                 U
+3. ariketa B aukera — Lente konbergentea (2,50 puntu)
+
+         Atala
+           a)
+                                Azpiatala
+                                    a.1
+
+
+                                    a.2
+                                                            Puntuak
+                                                               0,50
+
+
+                                                               0,50
+                                                                         Edukia
+                                                                         Izpien diagrama
+                                                                         (𝑠𝑠=4𝑓𝑓)
+                                                                         Irudiaren
+
+
+
+
+EH
+                                                                         propietateak
+                                                               1,00
+           b)                       b.1                        0,25      Irudiaren posizioa
+                                    b.2                        0,25      Tamaina erlatiboa
+                                                                         (handipena)
+                                                               0,50
+           c)                       c.1                        0,50      Izpien diagrama
+                                                                         (𝑠𝑠=𝑓𝑓/2)
+                                    c.2                        0,50      Irudiaren
+                                                                         propietateak
+                                                               1,00
+
+Ebazpena eta irizpideak
+a) — Objektua                -n (1,00 = 2 × 0,50)
+    •    0,50 — Diagrama.
+    •    0,50 — Propietateak: Erreala, alderantzikatua, txikiagoa.
+
+b) — Objektua                -n (0,50 = 2 × 0,25)
+    •    0,25 — Posizioa: 1/𝑚𝑚 ′ − 1/(−4𝑓𝑓 )=1/𝑓𝑓 ⟹ 1/𝑚𝑚 ′=1/𝑓𝑓 − 1/4𝑓𝑓 =3/4𝑓𝑓
+         ⟹ 𝑚𝑚 ′=4𝑓𝑓 /3.
+         UNIBERTSITATEAN SARTZEKO                   PRUEBA DE ACCESO A LA
+                   PROBA                                UNIVERSIDAD
+                2026ko EZOHIKOA                      EXTRAORDINARIA 2026
+         EBAZPENA ETA IRIZPIDEAK                SOLUCIONARIO Y CRITERIOS
+                      FISIKA                                 FÍSICA
+
+   •   0,25 — Tamaina erlatiboa: 𝑀𝑀=𝑠𝑠′/𝑠𝑠=(4𝑓𝑓/3)/(−4𝑓𝑓)= − 1/3. Irudia, herenera
+       murriztuta.
+
+c) — Objektua 𝟒𝟒 /𝟐𝟐 -n (1,00 = 2 × 0,50)
+   •   0,50 — Diagrama.
+   •   0,50 — Propietateak: birtuala, zuzena,
+       handiagoa.
+
+
+
+
+               U
+EH
+4. ariketa A aukera — Efektu fotoelektrikoa (2,50 puntu)
+Puntuen banaketa
+       Atala
+         a)
+
+
+
+        b)
+                           Azpiatala
+                              a.1
+
+
+
+                              b.1
+
+
+                              b.2
+                              b.3
+                                                 Puntuak
+                                                   0,50
+
+
+                                                   0,50
+                                                   0,25
+
+
+                                                   0,25
+                                                   0,25
+                                                                  Edukia
+                                                                  Igorpenaren
+                                                                  justifikazioa
+
+
+                                                                  Einstein-en
+                                                                  ekuazioa
+                                                                  𝑊𝑊-ren kalkulua
+                                                                  𝐾𝐾𝑚𝑚𝑚𝑚𝑚𝑚 -ren kalkulua
+                              b.4                  0,25           Abiadura maximoa
+                                                   1,00
+         c)                   c.1                  0,25           𝑊𝑊′ lan-funtzioa
+          UNIBERTSITATEAN SARTZEKO                          PRUEBA DE ACCESO A LA
+                    PROBA                                       UNIVERSIDAD
+                  2026ko EZOHIKOA                            EXTRAORDINARIA 2026
+          EBAZPENA ETA IRIZPIDEAK                      SOLUCIONARIO Y CRITERIOS
+                         FISIKA                                    FÍSICA
+
+        Atala                  Azpiatala                 Puntuak       Edukia
+                                  c.2                       0,25       ℎ𝜈𝜈𝑚𝑚𝑚𝑚𝑚𝑚 =𝑊𝑊′
+                                                                       baldintza
+                                  c.3                       0,25       𝜈𝜈𝑚𝑚𝑚𝑚𝑚𝑚 -ren
+                                                                       bakantzea
+                                  c.4                       0,25       Zenbakizko emaitza
+                                                            1,00
+
+Ebazpena eta irizpideak
+
+
+
+    •
+
+
+                U
+a) — Igorpena (0,50 = 0,25 + 0,25)
+𝜆𝜆=500 nm, 𝜆𝜆𝑢𝑢𝑢𝑢 =612 nm.
+
+
+    •
+        0,25 — Konparazio: 𝜆𝜆<𝜆𝜆𝑢𝑢𝑢𝑢 (baliokidea: 𝑓𝑓>𝑓𝑓𝑢𝑢𝑢𝑢 ).
+        0,25 — Ondorioa: fotoiaren energiak erauzpen-lana gainditzen du; bai, igorpena dago.
+
+b) — Abiadura maximoa (1,00 = 4 × 0,25)
+    •
+    •
+        0,25 — Einstein-en ekuazioa: ℎ𝑐𝑐/𝜆𝜆=𝑊𝑊+𝐸𝐸𝑐𝑐𝑐𝑐𝑐𝑐 .
+        0,25 — 𝑊𝑊-ren kalkulua: 𝑊𝑊=ℎ𝑐𝑐/𝜆𝜆𝑢𝑢𝑢𝑢 =(6,63 × 10−34 ⋅ 3 × 108 )/612 × 10−9 =3,25 ×
+
+
+
+
+EH  •
+    •
+
+
+    •
+    •
+    •
+    •
+        10−19 J.
+        0,25 — 𝐾𝐾𝑚𝑚𝑚𝑚𝑚𝑚 -ren kalkulua: 𝐸𝐸𝛾𝛾 =3,98 × 10−19 J ⟹ 𝐾𝐾𝑚𝑚𝑚𝑚𝑚𝑚 =3,98 − 3,25=7,3 × 10−20 J.
+        0,25 — Abiadura: 𝑣𝑣=�2𝐾𝐾/𝑚𝑚𝑒𝑒 =�1,46 × 10−19 /9,1 × 10−31 =4,0 × 105 m/s.
+
+c) — Lan bikoitza (1,00 = 4 × 0,25)
+        0,25 — 𝑊𝑊′ berria =2𝑊𝑊=6,50 × 10−19 J.
+        0,25 — Baldintza: ℎ𝜈𝜈𝑚𝑚𝑚𝑚𝑚𝑚 =𝑊𝑊′.
+        0,25 — Askapena: 𝜈𝜈𝑚𝑚𝑚𝑚𝑚𝑚 =𝑊𝑊′/ℎ.
+        0,25 — Emaitza: 𝜈𝜈𝑚𝑚𝑚𝑚𝑚𝑚 =6,50 × 10−19 /6,63 × 10−34 =9,8 × 1014 Hz.
+
+
+4. ariketa B aukera — Fisika nuklearra (2,50 puntu)
+Puntuen banaketa
+        Atala
+          a)
+                               Azpiatala
+                                  a.1
+                                                         Puntuak
+                                                            0,25
+                                                                       Edukia
+                                                                       𝜆𝜆-ren formula
+                                  a.2                       0,25       Zenbakizko
+                                                                       kalkulua
+                                                            0,50
+          b)                      b.1                       0,25       Molak
+           UNIBERTSITATEAN SARTZEKO                   PRUEBA DE ACCESO A LA
+                     PROBA                                UNIVERSIDAD
+                   2026ko EZOHIKOA                    EXTRAORDINARIA 2026
+           EBAZPENA ETA IRIZPIDEAK                SOLUCIONARIO Y CRITERIOS
+                          FISIKA                               FÍSICA
+
+         Atala                Azpiatala            Puntuak          Edukia
+                                  b.2                0,25           Nukleo kopurua
+                                  b.3                0,25           𝐴𝐴=𝜆𝜆𝜆𝜆 formula
+                                  b.4                0,25           Zenbakizko emaitza
+                                                     1,00
+           c)                     c.1                0,25           𝑁𝑁/𝑁𝑁0 =0,25
+                                                                    planteamendua
+                                  c.2                0,25           Erdi-bizitzekiko
+                                                                    erlazioa
+
+
+
+
+    •
+                 U
+Ebazpena eta irizpideak
+                                  c.3
+                                  c.4
+
+
+
+
+a) — Desintegrazio-konstantea (0,50 = 0,25 + 0,25)
+        0,25 — Formula: 𝜆𝜆=𝑙𝑙𝑙𝑙2/𝑇𝑇1/2.
+                                                     0,25
+                                                     0,25
+                                                     1,00
+                                                                    𝑡𝑡-ren kalkulua
+                                                                    Zenbakizko emaitza
+
+
+
+
+EH  •
+
+𝜆𝜆 ≈ 9,1 × 10−13 𝑠𝑠 −1.
+
+b) — Aktibitatea (1,00 = 4 × 0,25)
+    •
+
+    •
+
+    •
+
+    •
+
+c) — % 25eko denbora (1,00 = 4 × 0,25)
+    •
+
+    •
+
+
+    •
+        0,25 — Kalkulua: 𝑇𝑇1/2 =24200 urte ⋅ 3,15 × 107 s/urte ≈ 7,6 × 1011 s.
+
+
+
+
+        0,25 — Mol kopurua: 𝑛𝑛=10−3 𝑔𝑔/239,05𝑔𝑔/𝑚𝑚𝑚𝑚𝑚𝑚=4,18 × 10−6 mol.
+
+        0,25 — Nukleo kopurua: 𝑁𝑁=𝑛𝑛 ⋅ 𝑁𝑁𝐴𝐴 =4,18 × 10−6 ⋅ 6,02 × 1023 =2,52 × 1018.
+
+        0,25 — 𝐴𝐴=𝜆𝜆𝜆𝜆 formula.
+
+        0,25 — Emaitza: 𝐴𝐴=9,1 × 10−13 ⋅ 2,52 × 1018 ≈ 2,3 × 106 Bq.
+
+
+        0,25 — Planteamendua: 𝑁𝑁/𝑁𝑁0 =0,25=1/4.
+
+        0,25 — Erdi-bizitzekiko erlazioa: 1/4=(1/2)2, eta, beraz, zehazki 2 erdidesintegrazio-
+        periodo igaro dira.
+
+        0,25 — Kalkulua: 𝑡𝑡=2 ⋅ 𝑇𝑇1/2.
+
+    •   0,25 — Emaitza: 𝑡𝑡=2 ⋅ 24200=48400 urte.
+

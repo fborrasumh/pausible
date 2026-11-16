@@ -1,0 +1,481 @@
+              UNIBERTSITATEAN SARTZEKO             PRUEBA DE ACCCESO A LA
+                          PROBA                           UNIVERSIDAD
+                       2026ko OHIKOA                     ORDINARIA 2026
+               EBAZPENA ETA IRIZPIDEAK           SOLUCIONARIO Y CRITERIOS
+
+                  MATEMATIKA II                     MATEMÁTICAS II
+
+
+LEHENENGO ARIKETA.
+300 K-ko tenperaturan dauden nitrogeno molekulen abiaduraren lehenengo osagaiak, X-ren
+bidez adieraziko dugunak, N (0, 298) banaketari jarraitzen dio. Izan bedi Z zorizko aldagaia,
+N (0, 1) banaketari jarraitzen diona.
+
+(a) Honako hau dugu:
+                                               (                      )
+                                                300         300
+     P (|X| < 300) =P (−300 < X < 300) = P −         <Z<          = P (−1, 01 < Z < 1, 01)
+                                                298         298     (                  )
+                   =P (Z < 1, 01) − P (Z < −1, 01) = P (Z < 1, 01) − 1 − P (Z < 1, 01)
+
+
+
+
+EH
+                   =2P (Z < 1, 01) − 1 = 2 · 0, 8438 − 1 = 0, 6876.
+
+(b) Honako hau dugu:
+                                  (                      )
+                                 600          300
+       P (−600 < X < −300) =P −      <Z<−          = P (−2, 01 < Z < −1, 01)
+                                 298          298
+                           =P (Z < −1, 01) − P (Z < −2, 01)
+                                                     (                       )
+                               =1 − P (Z < 1, 01) − 1 − P (Z < 2, 01)
+
+
+
+
+  U
+                               =P (Z < 2, 01) − P (Z < 1, 01) = 0, 9778 − 0, 8438 = 0, 134.
+
+(c) Demagun hauek ditugula: mN nitrogeno molekula baten masa, σN = kB T /mN , mA argon
+    molekula baten masa eta σA = kB T /mA . Jakina denez mN < mA dela, σN > σA da.
+    Baldin X N nitrogeno molekulen abiaduraren lehen osagaia bada eta X A argon molekulen
+                                             300   300
+    abiaduraren lehen osagaia bada, orduan       >       da, eta bere barruan tarte bat duen
+                                             σA    σN
+    tartearen probabilitatea barruan duenaren probabilitatea baino handiagoa da; beraz,
+                                  (          )       (            )
+                                       300           300
+              P (|X | < 300) = P |Z| <
+                   A
+                                           > P |Z| <     = P (|X N | < 300).
+                                       σA            σN
+
+
+BIGARREN ARIKETA.
+Izan bedi A sistemaren koefizienteen matrizea,
+                                                          
+                                       1  a  0
+                                    
+                                  A= 1   a  1 
+                                               .
+                                      a−2 a a−1
+
+                                                               EBAZPENA ETA IRIZPIDEAK / SOLUCIONARIO Y CRITERIOS
+              UNIBERTSITATEAN SARTZEKO             PRUEBA DE ACCCESO A LA
+                          PROBA                          UNIVERSIDAD
+                    2026ko OHIKOA                       ORDINARIA 2026
+               EBAZPENA ETA IRIZPIDEAK            SOLUCIONARIO Y CRITERIOS
+
+                  MATEMATIKA II                     MATEMÁTICAS II
+
+(a) Honako hau dugu:
+
+                    det A = a(a − 1) + a(a − 2) − a(a − 1) − a = a(a − 3).
+
+   a ̸= 0 denez, sistemak soluzio bat baino gehiago izateko aukera bakarra da a = 3 izatea.
+   Kasu horretan,                                       
+                                            1 3 0 | 1
+                                                        
+                                   A|B = 1 3 1 | 3 .
+                                            1 3 2 | 5
+   Koefizienteen matrizearen heina eta matrize zabalduaren heina 2 da; beraz, sistema
+   bateragarri indeterminatua da, eta infinitu soluzio ditu.
+
+
+
+
+EH
+(b) Honako sistema baliokide hau dugu:
+                                         
+                                         x + 3y = 1,
+                                         z = 2.
+
+                          1−t
+   Soluzioak x = t, y =       , z = 2 dira, non t edozein zenbaki erreal den.
+                           3
+
+
+
+
+  U
+HIRUGARREN ARIKETA.
+
+(a) y = x(2x − 3) ekuazioko parabolak x = 0 eta x = 3/2 denean ebakitzen du OX ardatza,
+    eta (3/4, −9/8) puntuan dauka erpina. y = x(2 − x) ekuazioko parabolak x = 0 eta x = 2
+    denean ebakitzen du OX ardatza, eta (1, 1) puntuan dauka erpina. Gainera, parabolek
+    elkar ebakitzen dute baldin
+
+                          x(2x − 3) = x(2 − x) ⇐⇒ x = 0,        x = 5/3.
+
+
+
+                                                     y = x(2x − 3)
+
+
+
+                                        3/4
+                                  0           1     5/3 2
+
+                                                         y = x(2 − x)
+
+
+
+
+                                                             EBAZPENA ETA IRIZPIDEAK / SOLUCIONARIO Y CRITERIOS
+               UNIBERTSITATEAN SARTZEKO                 PRUEBA DE ACCCESO A LA
+                            PROBA                              UNIVERSIDAD
+                         2026ko OHIKOA                       ORDINARIA 2026
+                EBAZPENA ETA IRIZPIDEAK              SOLUCIONARIO Y CRITERIOS
+
+                      MATEMATIKA II                       MATEMÁTICAS II
+
+(b) Bi parabolen arteko azalera honako integral honen bidez kalkulatzen da:
+          ∫ 5/3 (                        )      ∫ 5/3                      (              ) 5/3
+                                                                               5x2                    125
+                    x(2 − x) − x(2x − 3) dx =           (5x − 3x2 ) dx =           − x3           =       .
+           0                                     0                              2            0
+                                                                                                       54
+
+                                         125 2
+   Beraz, eremuaren azalera A =              u da, non u luzeraren unitatea den.
+                                          54
+
+LAUGARREN ARIKETA.
+
+(4A)
+
+
+
+
+EH
+(a) r zuzenaren norabide-bektorea ⃗vr = (1, 1, −1) da, eta P (0, 1, 0) zuzenaren puntu bat da.
+    π planoaren bektore normala ⃗n = (−1, 2, 1) da. Bi bektore horiek perpendikularrak dira
+    haien biderkadura eskalarra ⃗vr ·⃗n = 0 delako. A parametroaren arabera, baliteke planoak
+    zuzena barne izatea, edo zuzena eta planoa paraleloak izatea. Planoaren ekuazioan
+    zuzenaren P (0, 1, 0) puntua ordezkatzen dugu, eta honako hau lortzen dugu: 2 + A = 0.
+    Beraz, A = −2 bada, planoak zuzena barnean du, eta, A ̸= −2 bada, zuzena eta planoa
+    paraleloak dira.
+   Atal hau ebazteko beste modu bat honako hau da: zuzenaren puntuak (t, t + 1, −t) mota-
+
+
+
+
+  U
+   koak dira, t ∈ R izanik. Puntu hori planoaren ekuazioan ordezkatuz, A + 2 = 0 lortzen da
+   t ∈ R guztietarako. Beraz, A = −2 bada, zuzenaren puntu guztiak planoan daude, eta,
+   A ̸= −2 bada, zuzenaren punturik ez dago planoan, hots, zuzena planoarekiko paraleloa
+   da.
+(b) A = −2 bada, zuzena planoaren barnean dago. Ondorioz, zuzenaren eta planoaren
+                                                       |A + 2|
+    arteko distantzia 0 da. A ̸= −2 bada, dist (r, π) = √      u, u luzeraren unitatea izanik.
+                                                           6
+
+(4B)
+
+(a) π planoa A eta B puntuak lotzen dituen bektorearekiko perpendikularra da, hau da,
+     ⃗ = (−2, −1, 1) bektorearekiko. Hartzen dugu, adibidez, ⃗n = (2, 1, −1) eta planoa-
+    AB
+    ren ekuazioa 2x + y − z + d = 0 motakoa da. Gainera, A eta B puntuen erdipuntuak,
+    P = (0, 1/2, 5/2), planoan egon behar du. Ordezkatuz, d = 2 da, eta planoaren ekuazioa
+    2x + y − z + 2 = 0.
+   Beste aukera bat da eskatzea A-tik π-rako distantzia eta B-tik π-rako distantzia berdinak
+   izatea:
+                             |2 + 1 − 2 + d|   | − 2 + 0 − 3 + d|
+       d(A, π) = d(B, π) ⇐⇒ √                 =√                  ⇐⇒ |d + 1| = |d − 5|.
+                              22 + 12 + (−1)2    22 + 12 + (−1)2
+
+                                                                    EBAZPENA ETA IRIZPIDEAK / SOLUCIONARIO Y CRITERIOS
+              UNIBERTSITATEAN SARTZEKO           PRUEBA DE ACCCESO A LA
+                         PROBA                            UNIVERSIDAD
+                     2026ko OHIKOA                     ORDINARIA 2026
+               EBAZPENA ETA IRIZPIDEAK          SOLUCIONARIO Y CRITERIOS
+
+                  MATEMATIKA II                    MATEMÁTICAS II
+
+   Halabeharrez, d = 2
+                                                                                √
+                                        |2 + 1 − 2 + 2|     3          3
+(b) A-tik π-rako distantzia d(A, π) = √                u= √ u=           u da, u luzeraren
+                                       22 + 12 + (−1)2       6         2
+                                         √
+                              1            6
+    unitatea izanik. d(A, π) = d(A, B) =     dela ere kontuan izan daiteke.
+                              2           2
+
+BOSGARREN ARIKETA.
+
+(5A) Hormigoizko muinoaren oinarria OX ardatzean dagoela eta ardatz-simetria OY ardatza
+dela hartzen dugu. Problema muinoa deskribatzen duen parabolaren zuzen ukitzailea den
+
+
+
+
+EH
+eta (0, 15) puntutik pasatzen den zuzenaren OX ardatzarekiko ebaki-puntua aurkitzean datza.
+Erpina (0, 12) puntuan duen eta (−3, 0) eta (3, 0) puntuetatik pasatzen den parabolaren ekua-
+                4
+zioa y = 12 − x2 = f (x) da.
+                3
+(a, f (a)) puntutik pasatzen den parabolaren zuzen ukitzailearen ekuazioa, berriz, hau:
+
+                                  y = f (a) + f ′ (a)(x − a).
+                                                                  8
+Zuzen horrek (0, 15) puntutik pasatu behar du; hau da, f ′ (x) = − x eta a > 0 direla kontuan
+                                                                  3
+
+
+
+
+  U
+izanik,                                    (     )
+                                    4         8             4                 3
+             f (a) − af ′ (a) = 12 − a2 − a − a = 12 + a2 = 15 =⇒ a = .
+                                    3         3             3                 2
+Bilatzen den zuzen ukitzailea y = 15 − 4x da, eta OX ardatza ebakitzen du x = 15/4 denean.
+Puntu horretatik muinoaren oinarriaren muturra den x = 3 punturako distantzia d = 3/4 =
+0,75 m da.
+
+(5B) Gunea mugatzeko erabili behar den barra baino luzeagoak diren hormak dituen gela
+errektangeluar bat dugu; beraz, barra gelaren izkina batean jarri behar da, eta gune triange-
+luar bat mugatuko du:
+
+
+
+
+                                  y      4m
+
+                                        x
+
+Izan bedi x gelaren horma horizontalean kokatutako barraren muturretik mugatutako gunean
+geratuko den gelaren izkinara dagoen distantzia, eta izan bedi y barraren beste muturretik
+
+                                                                EBAZPENA ETA IRIZPIDEAK / SOLUCIONARIO Y CRITERIOS
+              UNIBERTSITATEAN SARTZEKO           PRUEBA DE ACCCESO A LA
+                           PROBA                        UNIVERSIDAD
+                        2026ko OHIKOA                 ORDINARIA 2026
+                EBAZPENA ETA IRIZPIDEAK         SOLUCIONARIO Y CRITERIOS
+
+                       MATEMATIKA II               MATEMÁTICAS II
+                                                                 xy
+izkina horretarako distantzia. Mugatutako gunearen azalera A =      da. x eta y 4 m-ko
+                                                                  2
+hipotenusa duen triangelu angeluzuzen baten katetoak direnez, x + y 2 = 16 da. Honako
+                                                               2
+
+funtzio honen maximoa aurkitu nahi dugu:
+                                       1 √
+                                f (x) = x 16 − x2 ,   x ∈ [0, 4].
+                                       2
+Honako hau dugu:
+                      (                        )
+                    1 √                 −2x          8 − x2                 √
+           f ′ (x) =     16 − x2 + x √           = √         = 0  =⇒  x = ±2  2.
+                    2                2 16 − x2       16 − x2
+                                                      √                √
+
+
+
+
+EH
+x distantzia bat denez, positiboa izan behar du, x = 2 2. Azalera x = 2 2 denean maximoa
+dela egiaztatzeko, funtzioaren bigarren deribatua erabil daiteke:
+                             √                      −2x
+                          −2x 16 − x2 − (8 − x2 ) √                    √
+                                                 2 16 − x2
+               f ′′ (x) =                                  =⇒  f ′′
+                                                                    (2  2) < 0
+                                      16 − x2
+                                          √
+eta, ondorioz, f -k maximo bat du x = 2 2 denean. f -k puntu kritiko positibo gehiagorik
+ez duenez,
+      √     azalera maximoa lortzen da barraren muturra, horma √       horizontalean, izkinatik
+x = 2 2 m-ra kokatzen bada, eta, horma bertikalean, izkinatik y = 2 2 m-ra.
+
+
+
+
+  U
+h(x) = (2f (x))2 funtzioa ere har daiteke, f eta h funtzioen muturrak x-ren balio berdinetan
+topatzen direlako. Modu horretan,
+                                                                          √
+               h′ (x) = 32x − 4x3 = 4x(8 − x2 ) = 0 =⇒ x = 0 edo x = ±2 2.
+                                                       √
+x distantzia bat denez, positiboa izan behar du, x = 2 2. Azkenik,
+                                                          √
+                             h′′ (x) = 32 − 12x2 =⇒ h′′ (2 2) < 0
+                                           √
+da, eta, beraz, h-k maximo bat du x = 2 2 denean.
+
+
+
+
+                                                              EBAZPENA ETA IRIZPIDEAK / SOLUCIONARIO Y CRITERIOS
+               UNIBERTSITATEAN SARTZEKO          PRUEBA DE ACCCESO A LA
+                          PROBA                         UNIVERSIDAD
+                      2026ko OHIKOA                   ORDINARIA 2026
+                EBAZPENA ETA IRIZPIDEAK         SOLUCIONARIO Y CRITERIOS
+
+                   MATEMATIKA II                   MATEMÁTICAS II
+
+ ZUZENTZEKO IRIZPIDE OROKORRAK
+
+ 1. Probari 0 eta 10 punturen arteko balorazioa emango zaio.
+ 2. Probako ariketa guztiek balio bera dute: gehienez 2 puntu.
+ 3. Ariketa baten ebazpenean teknika berezirik ez bada eskatzen, soluzio zuzena ematen
+    duen edozein garapen baliozkoa izango da.
+
+ 4. Ariketa zuzen badago (adierazitako teknikaren arabera, hala badagokio), osorik ontzat
+    emango da. Bakarrik aplikatuko dira kalifikatzeko irizpideetan urrats bakoitzerako adiera-
+    zitako puntuazioak ariketa osoki zuzena ez bada.
+
+
+
+
+EH
+ 5. Planteamendu zuzena baloratuko da, bai orokorra, bai zati bakoitzarena, halakorik izanez
+    gero.
+
+ 6. Planteamenduaren deskribapen hutsa, ebazpena modu eraginkorrean gauzatu gabe, ez
+    da nahikoa ariketaren balorazio osoa lortzeko.
+
+ 7. Ondorio arrazoitua espresuki eskatzen den ariketetan, formula baten aplikazio hutsa ez
+    da nahikoa izango haien balorazio osoa lortzeko.
+
+ 8. Atal batean egindako akatsak, adibidez, parametro jakin baten balioa kalkulatzean egin-
+
+
+
+
+  U
+    dakoak, ez dira kontuan hartuko horren eraginpean gerta daitezkeen geroko garapenak
+    kalifikatzean, baldin eta konplexutasun baliokidea badute.
+
+ 9. Ez dira kontuan hartuko zenbakizko akatsak, kalkulukoak, etab., kontzeptuzko akatsak
+    ez badira.
+10. Balorazio positiboa emango zaie problema eta soluzioa ulertzeko lagungarriak izan dai-
+    tezkeen ideiei, grafikoei, aurkezpenei, eskemei, etab.
+11. Proba txukun aurkeztuta egotea aintzat hartuko da.
+
+12. Negatiboki baloratuko dira planteamendu okerrak, kontzeptuak nahastea eta kalkuluetan
+    errore asko egitea.
+13. Errore bakanak negatiboki baloratuko dira hausnarketa kritikoaren edo sen arruntaren
+    gabezia adierazten dutenean.
+14. Negatiboki baloratuko dira zehaztasun matematiko eza azalpenetan eta sinbolo matema-
+    tikoen erabilera desegokia, ariketa bakoitzean 0,2 puntura arteko penalizazioarekin.
+15. Erantzunek boligrafo urdinez edo beltzez idatzita egon behar dute, ezin da arkatzik, ezaba
+    daitekeen boligraforik edo beste kolore bateko boligraforik erabili.
+
+
+                                                             EBAZPENA ETA IRIZPIDEAK / SOLUCIONARIO Y CRITERIOS
+            UNIBERTSITATEAN SARTZEKO         PRUEBA DE ACCCESO A LA
+                      PROBA                        UNIVERSIDAD
+                   2026ko OHIKOA                  ORDINARIA 2026
+             EBAZPENA ETA IRIZPIDEAK        SOLUCIONARIO Y CRITERIOS
+
+                MATEMATIKA II                  MATEMÁTICAS II
+
+Ariketa bakoitza KALIFIKATZEKO IRIZPIDEAK
+
+
+LEHENENGO ARIKETA
+     (a)    Probabilitate-banaketa zuzen tipifikatzea (0,25 puntu).
+            Kalkulatu beharreko probabilitatea P (Z < α) formaren probabilitateen funtzio
+            gisa berridaztea, Z aldagai tipifikatua izanik eta α > 0 (0,25 puntu).
+            Bilatutako probabilitatea aurkitzea, banaketa normalaren taula erabiliz (0,25
+            puntu).
+     (b)    Probabilitate-banaketa zuzen tipifikatzea (0,25 puntu).
+
+
+
+
+EH
+            Kalkulatu beharreko probabilitatea P (Z < α) formaren probabilitateen funtzio
+            gisa berridaztea, Z aldagai tipifikatua izanik eta α > 0 (0,25 puntu).
+            Bilatutako probabilitatea aurkitzea, banaketa normalaren taula erabiliz (0,25
+            puntu).
+     (c) Galderari zuzen eta modu arrazoituan erantzutea (0,5 puntu).
+
+
+BIGARREN ARIKETA
+
+
+
+
+  U
+     (a)    Koefizienteen matrizearen determinantea kalkulatzea (0,5 puntu).
+            a = 3 denean sistema bateragarri indeterminatua dela egiaztatzea (0,5 puntu).
+     (b) Sistema zuzen ebaztea a = 3 den kasurako (1 puntu).
+
+
+HIRUGARREN ARIKETA
+
+     (a)    Parabolen erpinak eta OX ardatzarekiko ebaki-puntuak zuzen kalkulatzea (0,5
+            puntu).
+            Parabolen arteko ebaki-puntuak kalkulatzea (0,25 puntu).
+            Eremua zuzen marraztea (0,25 puntu).
+     (b)    Eremuaren azalera ematen duen integrala zuzen idaztea (0,25 puntu).
+            Integrakizunaren jatorrizkoa zuzen kalkulatzea eta Barrowen erregela zuzen
+            aplikatzea (0,5 puntu).
+            Soluzioa zatiki baten bidez ematea, hamartarrekin hurbildu gabe (0,25 puntu).
+
+
+
+
+                                                        EBAZPENA ETA IRIZPIDEAK / SOLUCIONARIO Y CRITERIOS
+              UNIBERTSITATEAN SARTZEKO        PRUEBA DE ACCCESO A LA
+                        PROBA                       UNIVERSIDAD
+                    2026ko OHIKOA                  ORDINARIA 2026
+              EBAZPENA ETA IRIZPIDEAK        SOLUCIONARIO Y CRITERIOS
+
+                 MATEMATIKA II                  MATEMÁTICAS II
+
+LAUGARREN ARIKETA
+
+   4A
+        (a)    Zuzenaren norabide-bektorea eta planoaren bektore normala kalkulatzea
+               (0,5 puntu).
+               Zuzenaren norabide-bektorea eta planoaren bektore normala perpendiku-
+               larrak direla egiaztatzea (0,5 puntu).
+               Zuzenaren eta planoaren posizio erlatiboa ondorioztatzea A parametroa-
+               ren arabera (0,5 puntu).
+        (b) Zuzenetik planorako distantzia kalkulatzea (0,5 puntu).
+   4B
+
+
+
+
+EH
+        (a)    π planoaren bektore normala aurkitzea (0,5 puntu).
+               π planoaren ekuazioa ematea (1 puntu).
+        (b) A puntutik π planorako distantzia kalkulatzea (0,5 puntu).
+
+
+BOSGARREN ARIKETA
+
+   5A
+
+
+
+
+  U
+              Muinoa deskribatzen duen parabolaren ekuazioa aurkitzea (0,5 puntu).
+              Parabolaren zuzen ukitzaile orokor baten ekuazioa aurkitzea (0,5 puntu).
+              Ukitze-puntuaren abszisa aurkitzea (0,5 puntu).
+              Eskatutako distantzia aurkitzea (0,5 puntu).
+   5B
+              Mugatutako gunearen azaleraren adierazpena aurkitzea (0,25 puntu).
+              Triangeluaren aldeen arteko erlazioa aurkitzea (0,25 puntu).
+              Maximizatu behar den funtzioa aurkitzea (0,25 puntu).
+              Deribatua zer puntutan den zero aurkitzea (0,5 puntu).
+              Funtzioak deribatua zero den puntuan maximo bat duela ondorioztatzea (0,5
+              puntu).
+              Barra non kokatu behar den azaltzea (0,25 puntu).
+
+
+
+
+                                                         EBAZPENA ETA IRIZPIDEAK / SOLUCIONARIO Y CRITERIOS
+

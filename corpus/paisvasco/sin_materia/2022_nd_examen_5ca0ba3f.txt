@@ -1,0 +1,2403 @@
+Gizarte Zientziei
+Aplikatutako Matematica II
+ USE 2022
+ www.ehu.eus
+                              UNIBERTSITATERA SARTZEKO             PRUEBAS DE ACCESO A LA
+                                       PROBAK                           UNIVERSIDAD
+                                     2022ko EZOHIKOA                 EXTRAORDINARIA 2022
+
+                                 GIZARTE ZIENTZIEI                   MATEMÁTICAS
+                                  APLIKATUTAKO                      APLICADAS A LAS
+                                  MATEMATIKA II                   CIENCIAS SOCIALES II
+
+ • Azterketa honek zortzi problema ditu lau bloketan banatuta.
+  Zortzi problema horietatik lauri erantzun behar diezu, eta lau horiek gutxienez
+  hiru bloke desberdinetakoak izan behar dute.
+ • Jarraibideetan adierazitakoei baino galdera gehiagori erantzunez gero, erantzunak
+  ordenari jarraituta zuzenduko dira, harik eta beharrezko kopurura iritsi arte.
+ Ez ahaztu azterketa-orrialde guztietan kodea jartzea.
+  Kalkulagailu zientifikoak erabil daitezke, baina, ezin ditu izan ezaugarri hauek:
+             o   pantaila grafikoa
+             o   datuak transmititzeko aukera
+             o   programatzeko aukera
+
+
+
+
+   20
+             o   ekuazioak ebazteko aukera
+             o   matrize-eragiketak egiteko aukera
+             o   determinanteen kalkulua egiteko aukera
+
+
+
+
+     22
+             o   deribatuak eta integralak ebazteko aukera
+             o   datu alfanumerikoak gordetzeko aukera.
+
+• Este examen tiene ocho problemas distribuidos en cuatro bloques.
+ De estos ocho problemas tienes que responder a cuatro, de por lo menos tres
+ bloques diferentes.
+• En caso de responder a más preguntas de las estipuladas, las respuestas se corregirán
+ en orden hasta llegar al número necesario.
+
+
+  Está permitido el uso de calculadoras científicas que no presenten ninguna de las
+  siguientes prestaciones:
+             o pantalla gráfica
+             o posibilidad de trasmitir datos
+             o programable
+             o resolución de ecuaciones
+             o operaciones con matrices
+             o cálculo de determinantes
+             o derivadas e integrales
+             o almacenamiento de datos alfanuméricos.
+ UNIBERTSITATERA SARTZEKO   PRUEBAS DE ACCESO A LA
+          PROBAK                 UNIVERSIDAD
+     2022ko EZOHIKOA         EXTRAORDINARIA 2022
+
+   GIZARTE ZIENTZIEI           MATEMÁTICAS
+    APLIKATUTAKO              APLICADAS A LAS
+    MATEMATIKA II           CIENCIAS SOCIALES II
+
+
+
+
+2022
+                                      UNIBERTSITATERA SARTZEKO             PRUEBAS DE ACCESO A LA
+                                               PROBAK                           UNIVERSIDAD
+                                              2022ko EZOHIKOA                EXTRAORDINARIA 2022
+
+                                            GIZARTE ZIENTZIEI                 MATEMÁTICAS
+                                             APLIKATUTAKO                    APLICADAS A LAS
+                                             MATEMATIKA II                 CIENCIAS SOCIALES II
+
+
+    BLOKEA: ALJEBRA
+
+A.1. ⟦𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈 𝟐𝟐, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧
+𝑓𝑓(𝑥𝑥, 𝑦𝑦) = 4𝑥𝑥 + 2𝑦𝑦 − 1 funtzioaren maximoa eta minimoa lortu nahi dira honako
+murrizketa hauek definitutako esparruan:
+                                                  𝑦𝑦 − 𝑥𝑥 ≤ 4
+                                             ⎧   𝑦𝑦 + 2𝑥𝑥 ≥ 7
+                                             ⎪
+                                              −2𝑥𝑥 − 𝑦𝑦 + 13 ≥ 0
+                                             ⎨       𝑥𝑥 ≥ 0
+                                             ⎪
+                                             ⎩       𝑦𝑦 ≥ 0
+
+
+
+
+   20
+    a) ⟦ 𝟏𝟏 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Irudika ezazu aipatutako esparrua.
+    b) ⟦ 𝟏𝟏, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Kalkulatu zein puntutan lortzen diren funtzioaren maximoa
+
+
+
+
+     22
+         eta minimoa, baita puntu horietan funtzioak dituen balioak ere.
+
+
+
+B.1. ⟦𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈 𝟐𝟐, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧
+
+Izan bitez honako matrize hauek: 𝐴𝐴 = �
+                                                      2 1
+                                                      1 1
+                                                          � , 𝐵𝐵 = �
+                                                                     1
+                                                                     𝑥𝑥
+                                                                          𝑥𝑥
+                                                                          0
+                                                                             � eta 𝐶𝐶 = �
+                                                                                           0 −1
+                                                                                          −1  2
+                                                                                                �
+
+    a) ⟦ 𝟎𝟎, 𝟕𝟕𝟕𝟕 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Aurkitu zer balio izan behar duen/dituen 𝑥𝑥 aldagaiak
+         berdintza hau bete dadin:
+                                                      𝐵𝐵 2 = 𝐴𝐴
+    b) ⟦ 𝟏𝟏 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Berdin, honako hau bete dadin:
+                                                   𝐵𝐵 + 𝐶𝐶 = 𝐴𝐴−1
+    c) ⟦ 𝟎𝟎, 𝟕𝟕𝟕𝟕 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Zehaztu ezazu 𝑥𝑥–ren balioa 𝐴𝐴 + 𝐵𝐵 + 𝐶𝐶 = 3 ∙ 𝐼𝐼2 betetzeko,
+                          1 0
+         non 𝐼𝐼2 = �          � den.
+                          0 1
+                                      UNIBERTSITATERA SARTZEKO                     PRUEBAS DE ACCESO A LA
+                                               PROBAK                                   UNIVERSIDAD
+                                               2022ko EZOHIKOA                      EXTRAORDINARIA 2022
+
+                                            GIZARTE ZIENTZIEI                        MATEMÁTICAS
+                                             APLIKATUTAKO                           APLICADAS A LAS
+                                             MATEMATIKA II                        CIENCIAS SOCIALES II
+
+   BLOKEA: ANALISIA
+
+
+A.2. ⟦𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈 𝟐𝟐, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧
+    a) ⟦ 𝟎𝟎, 𝟗𝟗 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Elkartu itzazu, arrazoituta, funtzio hauek:
+                                        𝑥𝑥                              |𝑥𝑥|               3
+                     𝐴𝐴) 𝑓𝑓(𝑥𝑥) =                   ;   𝐵𝐵) 𝑔𝑔(𝑥𝑥) =         ; 𝐶𝐶) ℎ(𝑥𝑥) = √ 𝑥𝑥
+                                    𝑥𝑥 2 − 1                             𝑥𝑥
+         adierazpen grafiko hauekin:
+
+
+
+
+   2022
+    b) ⟦ 𝟏𝟏, 𝟔𝟔 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Kasu bakoitzean, adierazpen grafikotik abiatuta, adieraz
+         itzazu funtzioaren definizio-eremua eta ibilbidea.
+
+
+
+B.2. ⟦𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈 𝟐𝟐, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧
+Patinete batek t denboraren arabera daraman 𝑣𝑣 (𝑡𝑡) abiadura honako adierazpen
+honek zehazten du:
+                                             7𝑡𝑡 2 𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏 0 ≤ 𝑡𝑡 < 1
+                         𝑣𝑣 (𝑡𝑡) = �       2𝑡𝑡 + 𝑎𝑎 𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏 1 ≤ 𝑡𝑡 ≤ 5
+                                     −𝑡𝑡 2 + 12𝑡𝑡 + 𝑏𝑏 𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏 5 < 𝑡𝑡 ≤ 10
+
+    a) ⟦ 𝟎𝟎, 𝟖𝟖 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Zehaztu itzazu a eta b parametroen balioak 𝑣𝑣 (𝑡𝑡) funtzioa
+         𝑡𝑡 = 1 eta 𝑡𝑡 = 5 uneetan jarraitua izan dadin.
+    b) ⟦ 𝟏𝟏 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ 𝑎𝑎 = 5 eta 𝑏𝑏 = −20 kasuan, zer unetan lortzen du patineteak
+         abiadura maximoa? Zehaztu ezazu aipatutako abiadura maximo hori.
+    c) ⟦ 𝟎𝟎, 𝟕𝟕 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ 𝑎𝑎 = 5            eta       𝑏𝑏 = −20       kasuan, egin ezazu funtzioaren
+         adierazpen grafikoa.
+                                       UNIBERTSITATERA SARTZEKO   PRUEBAS DE ACCESO A LA
+                                                PROBAK                 UNIVERSIDAD
+                                               2022ko EZOHIKOA     EXTRAORDINARIA 2022
+
+                                             GIZARTE ZIENTZIEI       MATEMÁTICAS
+                                              APLIKATUTAKO          APLICADAS A LAS
+                                              MATEMATIKA II       CIENCIAS SOCIALES II
+
+BLOKEA: PROBABILITATEA
+
+A.3. ⟦𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈 𝟐𝟐, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧
+40 lagunen artean New Yorkerako 4 bidaia zozketatuko dira 40 kartako karta
+sorta bat erabiliz. Pertsona bakoitzari karta bat emango zaio, eta errege bat
+jasotzen duen bakoitzak bidaia bat irabaziko du.
+     a) ⟦ 𝟎𝟎, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Kalkula ezazu zer probabilitate duen karta jaso duen lehen
+          pertsonak bidaia bat irabazteko.
+     b) ⟦ 𝟏𝟏, 𝟐𝟐𝟐𝟐 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Kalkula ezazu zer probabilitate duen karta jaso duen
+          bigarren pertsonak bidaia bat irabazteko.
+
+
+
+
+   20c) ⟦ 𝟎𝟎, 𝟕𝟕𝟕𝟕 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Kalkula ezazu zer probabilitate dagoen lehenengo bi
+
+
+
+
+     22
+          pertsonetako batek ere bidaia bat ez irabazteko.
+
+
+
+
+B.3. ⟦ 𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈 𝟐𝟐, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧
+Deiene eta Kattalin saskibaloi-jokalariak dira. Deienek 5 jaurtiketatik 2 sartzen
+ditu; 7 jaurtiketatik 3 Kattalinek.
+Biek saskira behin bakarrik botatzen baldin badute, kalkula itzazu honako
+gertaera hauen probabilitatea:
+    a) ⟦ 𝟎𝟎, 𝟕𝟕𝟕𝟕 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Biek saskiratu dute.
+    b) ⟦ 𝟎𝟎, 𝟕𝟕𝟕𝟕 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Inork ez du saskiratu.
+    c) ⟦ 𝟎𝟎, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Deienek baino ez du saskiratu.
+    d) ⟦ 𝟎𝟎, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Gutxienez batek saskiratu du.
+                                       UNIBERTSITATERA SARTZEKO           PRUEBAS DE ACCESO A LA
+                                                PROBAK                         UNIVERSIDAD
+                                              2022ko EZOHIKOA              EXTRAORDINARIA 2022
+
+                                            GIZARTE ZIENTZIEI                MATEMÁTICAS
+                                             APLIKATUTAKO                   APLICADAS A LAS
+                                             MATEMATIKA II                CIENCIAS SOCIALES II
+
+BLOKEA: INFERENTZIA ESTATISTIKOA
+
+A.4. ⟦𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈 𝟐𝟐, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧
+Hilabete jakin bateko tenperaturak 10 graduko batezbestekoa eta 16 gradu2-ko
+bariantza dituen banaketa normal bati jarraitzen dio.
+    a) ⟦ 𝟎𝟎, 𝟗𝟗 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Lor ezazu % 80rako tarte bereizgarria.
+    b) ⟦ 𝟎𝟎, 𝟑𝟑 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Zer probabilitate dago egun bateko tenperatura 11º C baino
+         altuagoa izateko?
+    c) ⟦ 𝟎𝟎, 𝟔𝟔 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Zer probabilitate dago egun bateko tenperatura 8º C eta
+         10° C bitartean egoteko?
+
+
+
+
+   20
+    d) ⟦ 𝟎𝟎, 𝟑𝟑 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Zein da 9° C baino gehiago izan duten egunen proportzioa?
+    e) ⟦ 𝟎𝟎, 𝟒𝟒 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ 30 eguneko hilabetea kontuan hartzen baldin badugu,
+
+
+
+
+     22
+          zenbat egunetan izan da tenperatura 12° C baino baxuagoa?
+
+
+
+B.4. ⟦𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈𝒈 𝟐𝟐, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧
+Hiri bateko 16 urteko neskek batez beste zer pisu duten zenbatesteko, 100
+tamainako zorizko lagin bat hartu da, eta hortik honako balio hauek lortu dira:
+                                      𝑥𝑥̅ = 52,5 𝑘𝑘𝑘𝑘 eta 𝑠𝑠 = 5,3 𝑘𝑘𝑘𝑘
+Baieztapen hau egin dugu:
+“Hiri horretako 16 urteko nesken batez besteko pisua 51 kg eta 54 kg artean
+dago”.
+Zer konfiantza-mailaz egin daiteke baieztapen hori?
+                                       UNIBERTSITATERA SARTZEKO          PRUEBAS DE ACCESO A LA
+                                                PROBAK                        UNIVERSIDAD
+                                            2022ko EZOHIKOA                  EXTRAORDINARIA 2022
+
+                                         GIZARTE ZIENTZIEI                 MATEMÁTICAS
+                                          APLIKATUTAKO                    APLICADAS A LAS
+                                          MATEMATIKA II                 CIENCIAS SOCIALES II
+
+BLOQUE: ÁLGEBRA
+
+A.1 ⟦𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉 𝟐𝟐, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧
+Se quiere obtener el máximo y el mínimo de la función 𝑓𝑓(𝑥𝑥, 𝑦𝑦) = 4𝑥𝑥 + 2𝑦𝑦 − 1 en
+el recinto definido por las siguientes restricciones:
+                                               𝑦𝑦 − 𝑥𝑥 ≤ 4
+                                          ⎧   𝑦𝑦 + 2𝑥𝑥 ≥ 7
+                                          ⎪
+                                           −2𝑥𝑥 − 𝑦𝑦 + 13 ≥ 0
+                                          ⎨       𝑥𝑥 ≥ 0
+                                          ⎪
+                                          ⎩       𝑦𝑦 ≥ 0
+    a) ⟦ 𝟏𝟏 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Representa el recinto mencionado.
+
+
+
+
+   20
+    b) ⟦ 𝟏𝟏, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Obtén los puntos en los que se alcanza el máximo y el
+
+
+
+
+     22
+         mínimo de la función, así como los valores de la función en dichos puntos.
+
+
+B.1 ⟦𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉 𝟐𝟐, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧
+
+Sean las matrices 𝐴𝐴 = �
+                                   2
+                                   1
+                                        1
+                                        1
+                                          � , 𝐵𝐵 = �
+                                                     1
+                                                     𝑥𝑥
+                                                          𝑥𝑥
+                                                          0
+                                                             � y 𝐶𝐶 = �
+                                                                         0
+                                                                        −1
+                                                                              −1
+                                                                               2
+                                                                                 �
+
+
+    a) ⟦ 𝟎𝟎, 𝟕𝟕𝟕𝟕 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Encuentra el valor o valores de 𝑥𝑥 para que se cumpla la
+         igualdad:
+                                                      𝐵𝐵 2 = 𝐴𝐴
+    b) ⟦ 𝟏𝟏 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Igualmente, para que se cumpla:
+                                                   𝐵𝐵 + 𝐶𝐶 = 𝐴𝐴−1
+    c) ⟦ 𝟎𝟎, 𝟕𝟕𝟕𝟕 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Determina el valor de 𝑥𝑥 para que 𝐴𝐴 + 𝐵𝐵 + 𝐶𝐶 = 3 ∙ 𝐼𝐼2 , donde
+                   1    0
+         𝐼𝐼2 = �         �.
+                   0    1
+                                        UNIBERTSITATERA SARTZEKO              PRUEBAS DE ACCESO A LA
+                                                 PROBAK                            UNIVERSIDAD
+                                              2022ko EZOHIKOA                  EXTRAORDINARIA 2022
+
+                                           GIZARTE ZIENTZIEI                    MATEMÁTICAS
+                                            APLIKATUTAKO                       APLICADAS A LAS
+                                            MATEMATIKA II                    CIENCIAS SOCIALES II
+
+BLOQUE: ANÁLISIS
+
+
+A.2 ⟦𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉 𝟐𝟐, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧
+
+    a) ⟦ 𝟎𝟎, 𝟗𝟗 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Asocia, razonadamente, las funciones:
+                                            𝑥𝑥                     |𝑥𝑥|               3
+                     𝐴𝐴) 𝑓𝑓(𝑥𝑥) =               ;   𝐵𝐵) 𝑔𝑔(𝑥𝑥) =        ; 𝐶𝐶) ℎ(𝑥𝑥) = √ 𝑥𝑥
+                                       𝑥𝑥 2 − 1                     𝑥𝑥
+         con las siguientes representaciones gráficas:
+
+
+
+
+   2022
+    b) ⟦ 𝟏𝟏, 𝟔𝟔 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ En cada caso, a partir de su representación gráfica, indica
+         el dominio y recorrido de la función.
+
+B.2 ⟦𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉 𝟐𝟐, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧
+La velocidad que lleva un patinete 𝑣𝑣 (𝑡𝑡), en función del tiempo t, viene dada por
+la siguiente función:
+                                               7𝑡𝑡 2 𝑠𝑠𝑠𝑠 0 ≤ 𝑡𝑡 < 1
+                             𝑣𝑣 (𝑡𝑡) = �      2𝑡𝑡 + 𝑎𝑎 𝑠𝑠𝑠𝑠 1 ≤ 𝑡𝑡 ≤ 5
+                                            2
+                                         −𝑡𝑡 + 12𝑡𝑡 + 𝑏𝑏 𝑠𝑠𝑠𝑠 5 < 𝑡𝑡 ≤ 10
+    a) ⟦ 𝟎𝟎, 𝟖𝟖 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Determina los valores de a y b para que la función 𝑣𝑣 (𝑡𝑡) sea
+         continua en los instantes 𝑡𝑡 = 1 y 𝑡𝑡 = 5 .
+    b) ⟦ 𝟏𝟏 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Para 𝑎𝑎 = 5 y 𝑏𝑏 = −20, ¿en qué momento el patinete alcanza
+         la velocidad máxima? Concreta la velocidad máxima mencionada.
+    c) ⟦ 𝟎𝟎, 𝟕𝟕 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ En el caso 𝑎𝑎 = 5 y 𝑏𝑏 = −20, realiza la representación
+         gráfica de la función.
+                                        UNIBERTSITATERA SARTZEKO   PRUEBAS DE ACCESO A LA
+                                                 PROBAK                 UNIVERSIDAD
+                                            2022ko EZOHIKOA         EXTRAORDINARIA 2022
+
+                                          GIZARTE ZIENTZIEI           MATEMÁTICAS
+                                           APLIKATUTAKO              APLICADAS A LAS
+                                           MATEMATIKA II           CIENCIAS SOCIALES II
+
+BLOQUE: PROBABILIDAD
+
+
+A.3. ⟦𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉 𝟐𝟐, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧
+Se van a sortear 4 viajes a Nueva York entre 40 personas utilizando una baraja
+de 40 cartas. Se reparte una carta por persona y cada una que recibe un rey
+ganará un viaje.
+    a) ⟦ 𝟎𝟎, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Calcula la probabilidad de que gane un viaje la primera
+         persona que recibe la carta.
+    b) ⟦ 𝟏𝟏, 𝟐𝟐𝟐𝟐 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Calcula la probabilidad de que gane un viaje la segunda
+
+
+
+
+   20
+         persona que recibe la carta.
+    c) ⟦ 𝟎𝟎, 𝟕𝟕𝟕𝟕 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Calcula la probabilidad de que ninguna de las dos
+         primeras personas gane un viaje.
+
+
+
+
+     22
+B.3. ⟦𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉 𝟐𝟐, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧
+Deiene y Kattalin son jugadoras de baloncesto. Deiene encesta 2 de cada 5 tiros;
+Kattalin 3 de cada 7.
+Si ambas tiran a canasta una sola vez, calcula la probabilidad de los siguientes
+sucesos:
+     a) ⟦ 𝟎𝟎, 𝟕𝟕𝟕𝟕 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Ambas han encestado.
+     b) ⟦ 𝟎𝟎, 𝟕𝟕𝟕𝟕 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Ninguna ha encestado.
+     c) ⟦ 𝟎𝟎, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Sólo Deiene ha encestado.
+     d) ⟦ 𝟎𝟎, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Al menos una ha encestado.
+                                       UNIBERTSITATERA SARTZEKO          PRUEBAS DE ACCESO A LA
+                                                PROBAK                        UNIVERSIDAD
+                                            2022ko EZOHIKOA               EXTRAORDINARIA 2022
+
+                                         GIZARTE ZIENTZIEI                  MATEMÁTICAS
+                                          APLIKATUTAKO                     APLICADAS A LAS
+                                          MATEMATIKA II                  CIENCIAS SOCIALES II
+
+BLOQUE: INFERENCIA ESTADÍSTICA
+
+
+A.4 ⟦𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉 𝟐𝟐, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧
+La temperatura en un determinado mes sigue una distribución normal de media
+10 grados y de varianza 16 grados2.
+    a) ⟦ 𝟎𝟎, 𝟗𝟗 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Obtén el intervalo característico para el 80%.
+    b) ⟦ 𝟎𝟎, 𝟑𝟑 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ ¿Cuál es la probabilidad de que la temperatura de un día
+         sea superior a 11º?
+    c) ⟦ 𝟎𝟎, 𝟔𝟔 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ ¿Cuál es la probabilidad de que la temperatura de un día
+
+
+
+
+   20    esté entre 8º y 10º?
+    d) ⟦ 𝟎𝟎, 𝟑𝟑 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ ¿Cuál es la proporción de días con más de 9º?
+    e) ⟦ 𝟎𝟎, 𝟒𝟒 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧ Si consideramos un mes de 30 días, ¿en cuántos días la
+
+
+
+
+     22  temperatura ha sido inferior a 12º?
+
+
+B.4 ⟦𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉𝒉 𝟐𝟐, 𝟓𝟓 𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑𝒑⟧
+Para estimar el peso medio de las chicas de 16 años de una ciudad, se ha
+tomado una muestra aleatoria de tamaño 100, a partir de la que se han obtenido
+los siguientes valores:
+                                       𝑥𝑥̅ = 52,5 𝑘𝑘𝑘𝑘 y 𝑠𝑠 = 5,3 𝑘𝑘𝑘𝑘
+Hemos hecho la siguiente afirmación:
+“El peso medio de las chicas de 16 años de esta ciudad está entre 51 kg y 54
+kg”.
+¿Con qué nivel de confianza se puede hacer esta afirmación?
+                                  UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                             EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                 ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                  CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+          GIZARTE ZIENTZIEI APLIKATUTAKO MATEMATIKA II
+
+                   EBALUATZEKO IRIZPIDE OROKORRAK
+
+1. Azterketa zortzi ariketaz osatuta dago.
+2. Zortzi problema horietatik lauri erantzun behar zaie, eta lau horiek gutxienez
+    hiru bloke desberdinetakoak izan behar dute.
+3. Galdera gehiagori erantzunez gero, erantzunak egin diren ordenari jarraituta
+    zuzenduko dira, harik eta beharrezko kopurura iritsi arte.
+4. Probaren puntuazioa, guztira, 0 eta 10 puntu bitartekoa izango da.
+5. Ariketa bakoitza 0 eta 2,5 puntu artean baloratuko da.
+6. Galdera batean erabili beharreko ebazpen-metodoa zehazten ez bada, galdera
+    hori modu egokian ebazten duen edozein bide onartuko da.
+
+
+
+
+20
+•
+
+
+•
+•
+
+  22
+         BALORAZIO POSITIBOA MEREZI DUTEN FAKTOREAK
+
+    Planteamendu zuzenak, bai planteamendu orokorra, bai atal bakoitzaren
+    planteamendua (halakorik baldin badago).
+    Kontzeptuak, hiztegia eta notazio zientifikoa zuzen erabiltzea.
+    Zenbakizko datuak eta datu grafikoak interpretatzeko edo/eta kalkulatzeko
+    erabiltzen diren teknika espezifikoak ezagutzea.
+•   Problema osorik bukatzea eta emaitzaren zehaztasuna.
+•   Bi   emaitza   zenbakizko    kalkuluetan    erabilitako   zehaztasun-mailan   soilik
+    desberdintzen badira, biak ontzat emango dira.
+•   Zenbakizko akatsak, kalkuluetan egindakoak, etab., ez dira kontuan hartuko,
+    baldin eta akats kontzeptualak ez badira.
+•   Ariketa ebaztean egindako pausoen azalpen argia.
+•   Ariketa eta haren soluzioa hobeto ikusarazten dituzten ideiak, grafikoak,
+    aurkezpenak, eskemak…
+•   Aurkezpenaren txukuntasuna, bai eta unibertsitatera sartzear dagoen ikasle batek
+    beharko lukeen heldutasuna erakusten duen beste edozein alderdi.
+                                  UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                             EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                 ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                  CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+        BALORAZIO NEGATIBOA MEREZI DUTEN FAKTOREAK
+
+•   Planteamendu okerrak.
+•   Kontzeptuen nahasketa.
+•   Kalkulu-akatsen ugaritasuna (oinarrizko gabezien adierazle delako).
+•   Akats bakanak, hausnarketa kritikoa edo sen ona falta dela erakusten dutenean
+    (adibidez, problema baten soluzioa –3,7 hozkailu dela esatea, edo probabilitate
+    baten balioa 2,5 dela esatea).
+•   Akats bakanak, haien ondorioz ebatzitako problema hasieran proposatutakoa
+    baino errazagoa bilakatzen denean.
+•   Azalpenik eza, bereziki erabiltzen ari diren aldagaien esanahia.
+•   Akats ortografiko larriak, desordena, garbitasun falta, idazkera okerra, eta
+
+
+
+
+2022
+    unibertsitatera sartzear dagoen ikasle batek izan beharko ez lukeen edozein
+    ezaugarri desegoki.
+                                   UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                              EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                   ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                    CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+        ARIKETA BAKOITZARI DAGOZKION IRIZPIDE BEREZIAK
+
+BLOKEA: ALJEBRA
+
+
+  A.1 ariketa (gehienez 2,5 puntu)
+
+  a. 1 puntu. Bideragarritasun-eskualdea irudikatzea.
+            Murrizketa bakoitzaren irudikapena 0,1 puntu; beraz, 0,5 puntu.
+            Eskatutako esparrua zehaztea, 0,5 puntu.
+  b. 1,5 puntu. Maximoa eta minimoa zehaztea, eta haietan funtzioak zer balio dituen.
+            Bideragarritasun-eskualdeko erpinak zehaztea.
+                   o   A erpina, 0,125 puntu.
+
+
+
+
+ 2022    
+         
+                   o
+                   o
+                   o
+                       B erpina, 0,25 puntu.
+                       C erpina, 0,25 puntu.
+                       D erpina, 0,125 puntu.
+             Funtzioa erpinetan balioestea, 0,5 puntu.
+             Helburu-funtzioaren balioa zehaztea, 0,25 puntu.
+
+
+B.1 ariketa (gehienez 2,5 puntu)
+
+  a. 0,75 puntu.
+            𝐵𝐵 2 matrizea kalkulatzea 0,5 puntu.
+            𝑥𝑥-ren balioa lortzea, 0,25 puntu.
+  b. 1 puntu.
+            𝐴𝐴 matrizearen alderantzizkoa kalkulatzea:
+                   • 𝐴𝐴 matrizearen determinantea kalkulatzea, 0,15 puntu.
+                   • 𝐴𝐴 matrizearen adjuntua, 0,5 puntu.
+                   • 𝐴𝐴 matrizearen alderantzizkoa, 0,15 puntu.
+            𝑥𝑥-ren balioa lortzea, 0,2 puntu.
+  c. 0,75 puntu.
+            3 ∙ 𝐼𝐼2 matrizearen kalkulua egitea, 0,5 puntu.
+            𝑥𝑥-ren balioa lortzea, 0,25 puntu.
+                                    UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                               EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                    ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                     CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+BLOKEA: ANALISIA
+
+
+  A.2 ariketa (gehienez 2,5 puntu)
+
+  a. 0,9 puntu.
+           (A) grafikoa bere funtzioarekin elkartzea modu arrazoituan, 0,3 puntu.
+           (B) grafikoa bere funtzioarekin elkartzea modu arrazoituan, 0,3 puntu.
+           (C) grafikoa bere funtzioarekin elkartzea modu arrazoituan, 0,3 puntu.
+  b. 1,6 puntu.
+           (1) grafikoa
+             •    Definizio-eremua, 0,3 puntu.
+             •    Ibilbidea, 0,3 puntu.
+           (2) grafikoa
+
+
+
+
+ 2022
+        
+             •
+             •
+                  Definizio-eremua, 0,2 puntu.
+                  Ibilbidea, 0,2 puntu.
+            (3) grafikoa
+             •
+             •
+                  Definizio-eremua, 0,3 puntu.
+                  Ibilbidea, 0,3 puntu.
+
+
+B.2 ariketa (gehienez 2,5 puntu)
+
+  a. 0,8 puntu.
+           Jarraitutasuna 𝑡𝑡 = 1 puntuan.
+             • Funtzio baten jarraitutasuna 𝑡𝑡 = 1 puntuan definitzea, 0,1 puntu.
+             • Alboko limiteak, 0,3 puntu.
+           Jarraitutasuna 𝑡𝑡 = 5 puntuan.
+             • Funtzio baten jarraitutasuna 𝑡𝑡 = 5 puntuan definitzea, 0,1 puntu.
+             • Alboko limiteak, 0,3 puntu.
+  b. 1 puntu.
+           𝑣𝑣 ´ (𝑡𝑡)-ren kalkulua, 0,25 puntu.
+           𝑣𝑣 ´´ (𝑡𝑡)-ren kalkulua, 0,25 puntu.
+           𝑣𝑣 (𝑡𝑡) funtzioaren maximoa zer puntutan lortzen den adieraztea, 0,25
+            puntu.
+           Abiadura maximoa zehaztea, 0,25 puntu.
+                                UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                           EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                 CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+   Oharra: Abiadura maximoa zehaztuz gero, baina maximo absolutua dela egiaztatu
+   barik, atalaren puntuazio osoa hau izango da: 0,75 puntu.
+c. 0,7 puntu.
+         𝑣𝑣(𝑡𝑡) = 7𝑡𝑡 2 funtzioaren adierazpen grafikoa, 0,2 puntu.
+         𝑣𝑣(𝑡𝑡) = 7𝑡𝑡 + 5 funtzioaren adierazpen grafikoa, 0,2 puntu.
+         𝑣𝑣(𝑡𝑡) = −𝑡𝑡 2 + 12𝑡𝑡 − 20 funtzioaren adierazpen grafikoa, 0,3 puntu.
+
+
+
+
+2022
+                                     UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                    ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                     CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+BLOKEA: PROBABILITATEA
+
+
+A.3 ariketa (gehienez 2,5 puntu)
+
+    a. 0,5 puntu.
+             Eskatutako probabilitatea kalkulatzea, 0,5 puntu.
+    b. 1,25 puntu.
+             Zuhaitz-diagrama edo eskemaren bat egitea, 0,25 puntu.
+             Probabilitate osoaren formula adieraztea, 0,5 puntu.
+             Eskatutako probabilitatea kalkulatzea, 0,5 puntu.
+    c. 0,75 puntu.
+           Adieraztea zer kalkulatu behar den, 0,25 puntu.
+             Eskatutako probabilitatea kalkulatzea, 0,5 puntu.
+
+
+
+
+   20
+ B.3 ariketa (gehienez 2,5 puntu)
+
+    a. 0,75 puntu.
+
+
+
+
+     22   
+          
+          
+              Adieraztea zer kalkulatu behar den, 0,1 puntu.
+              Gertaera askeak direla adieraztea, 0,2 puntu.
+              𝑃𝑃(𝐷𝐷 ∩ 𝐾𝐾) eskatutako probabilitatea kalkulatzea, 0,45 puntu.
+    b. 0,75 puntu.
+             Adieraztea zer kalkulatu behar den, 0,1 puntu.
+             Gertaera askeak direla adieraztea, 0,2 puntu.
+             𝑃𝑃(𝐷𝐷𝑐𝑐 ∩ 𝐾𝐾𝑐𝑐 ) eskatutako probabilitatea kalkulatzea, 0,45 puntu.
+    c. 0,5 puntu.
+             Adieraztea zer kalkulatu behar den, 0,2 puntu.
+             𝑃𝑃(𝐷𝐷 ∩ 𝐾𝐾 𝑐𝑐 ) eskatutako probabilitatea kalkulatzea, 0,3 puntu.
+    d. 0,5 puntu.
+             Adieraztea zer kalkulatu behar den, 0,1 puntu.
+             𝑃𝑃(𝐷𝐷 ∪ 𝐾𝐾) formula adieraztea, 0,1 puntu.
+             Eskatutako probabilitatea kalkulatzea, 0,3 puntu.
+                                            UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                       EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                           ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                            CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+BLOKEA: INFERENTZIA ESTATISTIKOA
+
+
+   A.4 ariketa           (gehienez 2,5 puntu)
+
+    a. 0,9 puntu.
+                    Tarte bereizgarria nola adierazten den zehaztea, 0,25 puntu.
+                    Aldagaiaren tipifikazioa, 0,25 puntu.
+                    Banaketa normalaren taulan balioa zehaztea, 0,15 puntu.
+                    Tarte bereizgarria zehaztea, 0,25 puntu.
+    b. 0,3 puntu.
+                    𝑃𝑃(𝑋𝑋 ≥ 11) probabilitatea zehaztea, 0,3 puntu.
+    c. 0,6 puntu.
+                     𝑃𝑃(𝑋𝑋 ≤ 10) probabilitatea zehaztea, 0,25 puntu.
+
+
+
+
+   20
+                 
+                    𝑃𝑃(𝑋𝑋 ≤ 8) probabilitatea zehaztea, 0,25 puntu.
+                    Eskatutako probabilitatea kalkulatzea, 0,1 puntu.
+    d. 0,3 puntu.
+
+
+
+
+     22
+    e. 0,4 puntu.
+                 
+                 
+                     
+                     
+                         𝑃𝑃(𝑋𝑋 ≥ 9) probabilitatea kalkulatzea, 0,2 puntu.
+                         Eskatutako proportzioa adieraztea, 0,1 puntu.
+
+
+                     Eskatutako probabilitatea kalkulatzea, 0,3 puntu.
+                     Zenbat egunetan adieraztea, 0,1 puntu.
+
+
+
+  B.4 ariketa (gehienez 2,5 puntu)
+
+
+       Konfiantza-maila zer den adieraztea, 0,2 puntu.
+       Errore maximo onargarriaren formula adieraztea, 0,2 puntu.
+       Errore maximo onargarria zehaztea 0,3 puntu.
+       𝑍𝑍𝛼𝛼 lortzea, 0,75 puntu.
+            2
+       𝛼𝛼
+                lortzea, 0,75 puntu.
+       2
+
+       Konfiantza-maila zehaztea, 0,3 puntu.
+                                   UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                              EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                  ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                   CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+                                  EBAZPENAK
+
+  BLOKEA: ALJEBRA
+
+
+
+A.1 Bi aldagaiko programazio linealeko problema bat ebaztea.
+   a) Soluzio bideragarrien esparrua irudikatzea XY planoan.
+
+      Helburu-funtzioa hau da:
+
+                                  𝑓𝑓(𝑥𝑥, 𝑦𝑦) = 4 𝑥𝑥 + 2𝑦𝑦 − 1
+
+                                   𝑦𝑦 − 𝑥𝑥 ≤ 4
+                             ⎧
+                             ⎪    𝑦𝑦 + 2𝑥𝑥 ≥ 7
+       Murrizketak hauek dira: −2𝑥𝑥 − 𝑦𝑦 + 13 ≥ 0
+
+
+
+
+  20
+                              ⎨       𝑥𝑥 ≥ 0
+                              ⎪
+                              ⎩       𝑦𝑦 ≥ 0
+      Beraz, XY planoan, hau da soluzio bideragarrien esparrua:
+
+
+
+
+    22
+                                        UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                   EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                      ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                       CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+b) Helburu-funtzioaren maximoa eta minimoa, bai eta funtzioak puntu horietan dituen
+   balioak ere.
+   Erpinak hauek dira:
+       o   𝐴𝐴 = ?
+                    𝑦𝑦 + 2𝑥𝑥 = 7                            7       7
+           𝐴𝐴 = �                    ⇒ 2𝑥𝑥 = 7 ⇒ 𝑥𝑥 =         ⇒ 𝐴𝐴 � , 0�
+                       𝑦𝑦 = 0                               2       2
+       o   𝐵𝐵 = ?
+                      𝑦𝑦 − 𝑥𝑥 = 4
+           𝐵𝐵 = �                      ⇒ 4 + 3𝑥𝑥 = 7 ⇒ 𝑥𝑥 = 1,             𝑦𝑦 = 5 ⇒ 𝐵𝐵( 1 , 5)
+                    𝑦𝑦 + 2𝑥𝑥 = 7
+       o   𝐶𝐶 = ?
+                      𝑦𝑦 − 𝑥𝑥 = 4
+           𝐶𝐶 = �                       ⇒ 4 + 3𝑥𝑥 = 13 ⇒ 𝑥𝑥 = 3,             𝑦𝑦 = 7 ⇒ 𝐶𝐶( 3 , 7)
+                    2𝑥𝑥 + 𝑦𝑦 = 13
+       o   𝐷𝐷 = ?
+                    −2𝑥𝑥 − 𝑦𝑦 + 13 = 0                                     13        13
+
+
+
+
+20
+           𝐷𝐷 = �                              ⇒ −2𝑥𝑥 = −13 ⇒ 𝑥𝑥 =            ⇒ 𝐷𝐷 �    , 0�
+                         𝑦𝑦 = 0                                            2         2
+
+Beraz, erpinak hauek dira:
+
+                    7                                        13
+
+
+
+
+  22
+             𝐴𝐴 �     ,   0� ,      𝐵𝐵(1,   5),      𝐶𝐶(3, 7),  , 0�𝐷𝐷 �
+                    2                                         2
+   Erpin horietan helburu-funtzioak hartzen dituen balioak kalkulatuko ditugu:
+                                                    7
+                                    𝑓𝑓(𝐴𝐴) = 𝑓𝑓 �     , 0� = 13
+                                                    2
+
+                                       𝑓𝑓(𝐵𝐵) = 𝑓𝑓( 1, 5 ) = 13
+
+                                       𝑓𝑓(𝐶𝐶) = 𝑓𝑓( 3, 7 ) = 25
+
+                                                   13
+                                      𝑓𝑓(𝐷𝐷) = 𝑓𝑓 � ,     0� = 25
+                                                   2
+
+   Ikusten dugu helburu-funtzioak balio maximoa C eta D puntuetan hartzen duela;
+   beraz, helburu-funtzioak CD zuzenkiko puntu guztietan balio maximoa hartzen
+   du, eta aipatutako puntuetan helburu funtzioaren balioa 25 da.
+
+
+   Era berean, helburu-funtzioak balio minimoa A eta B puntuetan hartzen du; beraz,
+   helburu-funtzioak balio minimoa AB zuzenkiko puntu guztietan hartzen du, eta
+   aipatutako puntuetan helburu funtzioaren balioa 13 da.
+                                             UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                        EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                           ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                            CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+B.1 Kalkulu matriziala: Matrizeen propietateak. Ekuazio matrizial bat ebaztea.
+
+   a) Aurkitu ezazu edo itzazu 𝑥𝑥 –ren balioa edo balioak 𝐵𝐵2 = 𝐴𝐴 betetzeko.
+
+                           1 𝑥𝑥     1    𝑥𝑥    2   1              2
+         𝐵𝐵2 = 𝐴𝐴 ⇒ �           �∙�         �=�      � ⇒ � 1 + 𝑥𝑥      𝑥𝑥 � = � 2   1
+                                                                                      � ⇒
+                           𝑥𝑥 0    𝑥𝑥    0     1   1         𝑥𝑥       𝑥𝑥 2     1    1
+
+                                           1 + 𝑥𝑥 2 = 2
+                                        ⇒ � 𝑥𝑥 = 1      ⇒ 𝒙𝒙 = 𝟏𝟏
+                                               2
+                                             𝑥𝑥 = 1
+
+
+
+   b) Aurkitu ezazu edo itzazu 𝑥𝑥 –ren balioa edo balioak 𝐵𝐵 + 𝐶𝐶 = 𝐴𝐴−1 betetzeko.
+
+               |𝐴𝐴| = �2     1
+                               �=1
+                       1     1
+                                             1 −1
+
+
+
+
+  20
+                       1
+               𝐴𝐴−1 = |𝐴𝐴| (𝐴𝐴𝐴𝐴𝐴𝐴 𝐴𝐴)𝑡𝑡 = �      �
+                                            −1 2
+
+                   1    𝑥𝑥     0 −1     1 −1          1   𝑥𝑥 − 1     1 −1
+               �           �+�      �=�      � ⇒ �               �=�      � ⇒
+                   𝑥𝑥   0     −1  2    −1  2       𝑥𝑥 − 1    2      −1  2
+
+
+
+
+    22
+                                                      ⇒ 𝒙𝒙 = 𝟎𝟎
+
+
+
+   c) Zehaztu ezazu 𝑥𝑥 –ren balioa 𝐴𝐴 + 𝐵𝐵 + 𝐶𝐶 = 3 ∙ 𝐼𝐼2 betetzeko.
+
+               2 1     1 𝑥𝑥      0 −1       1 0       3                       𝑥𝑥     3      0
+           �       �+�      �+ �      �=3∙�     � ⇒ �                            �=�          �
+               1 1     𝑥𝑥 0      −1 2       0 1       𝑥𝑥                      3      0      3
+
+                                                   ⇒ 𝒙𝒙 = 𝟎𝟎
+                                                   UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                              EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                                  ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                                   CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+ BLOKEA: ANALISIA
+
+A.2 Funtzioak adierazpen grafikoekin lotzea. Funtzio baten definizio-eremua eta ibilbidea
+identifikatzea.
+
+    a) Elkartu, arrazoituz, A), B) eta C) funtzioak (1), (2) eta (3) grafikoekin.
+                                     𝑥𝑥
+                  𝐴𝐴) 𝑓𝑓(𝑥𝑥) =               funtzioa ez dago definituta 𝑥𝑥 = 1 eta 𝑥𝑥 = −1 puntuetan;
+                                 𝑥𝑥 2 −1
+
+       𝑓𝑓(𝑥𝑥) funtzioak puntu horietako bakoitzean asintota bertikal bat du.
+
+
+       Ezaugarri horiek dituen funtzio bakarra (3) da.
+
+       Beraz, A) = (3).
+
+
+
+
+  2022            𝐵𝐵) 𝑔𝑔(𝑥𝑥) =
+                                     |𝑥𝑥|
+                                      𝑥𝑥
+                                            funtzioa ez dago definituta 𝑥𝑥 = 0 puntuan, eta konstantea
+
+       eta berdin 1 da baldin 𝑥𝑥 > 0 bada; eta konstantea eta berdin –1 da 𝑥𝑥 < 0 bada.
+
+       Ezaugarri horiek dituen funtzio bakarra (1) da.
+
+
+       Beraz, B) = (1).
+
+
+
+
+                                 3
+                  𝐶𝐶) ℎ(𝑥𝑥) = √ 𝑥𝑥 funtzioa 𝑥𝑥 = 0 puntutik pasatzen da, eta balio positiboak
+
+       hartzen ditu 𝑥𝑥 > 0 bada; eta balio negatiboak 𝑥𝑥 < 0 bada.
+
+       Ezaugarri horiek dituen funtzio bakarra (2) da.
+
+
+       Beraz, C) = (2)
+                                         UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                    EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                          ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                           CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+b) Kasu bakoitzean, adieraz itzazu funtzioaren definizio-eremua eta ibilbidea.
+          Adierazpen grafikoa (1)
+
+           𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷 − 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 𝑓𝑓(𝑥𝑥) = ℝ − {0} , 𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼 𝑓𝑓(𝑥𝑥) = {−1, 1 }
+
+
+
+
+          Adierazpen grafikoa (2)
+
+
+
+
+2022
+           𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷 − 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 𝑓𝑓(𝑥𝑥) = ℝ , 𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼 𝑓𝑓(𝑥𝑥) = ℝ
+
+
+
+
+          Adierazpen grafikoa (3)
+
+           𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷 − 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 𝑓𝑓(𝑥𝑥) = ℝ − {−1 , 1 } , 𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼 𝑓𝑓(𝑥𝑥) = ℝ
+                                            UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                       EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                               ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                                CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+B.2 Funtzio bat aztertzea. Funtzioaren maximoen, minimoen, inflexio-puntuen kalkulua
+eta adierazpen grafikoa.
+
+Patinete batek t denboraren arabera daraman 𝑣𝑣 (𝑡𝑡) abiadura hau da:
+
+                                       7𝑡𝑡 2          𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏 0 ≤ 𝑡𝑡 < 1
+                         𝑣𝑣 (𝑡𝑡) = � 2𝑡𝑡 + 𝑎𝑎         𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏 1 ≤ 𝑡𝑡 ≤ 5
+                                    −𝑡𝑡 2 + 12𝑡𝑡 + 𝑏𝑏 𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏 5 < 𝑡𝑡 ≤ 10
+
+  a) Zehaztu a eta b 𝑣𝑣 (𝑡𝑡) funtzioa 𝑡𝑡 = 1 eta 𝑡𝑡 = 5 uneetan jarraitua izan dadin.
+       •    𝑡𝑡 = 1 unean.
+
+                   𝑣𝑣(𝑡𝑡) 𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗 𝑡𝑡 = 1 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 ⇔ 𝑙𝑙𝑙𝑙𝑙𝑙− 𝑣𝑣(𝑡𝑡) = 𝑙𝑙𝑙𝑙𝑙𝑙+ 𝑣𝑣(𝑡𝑡) = 𝑣𝑣(1)
+                                                                      𝑡𝑡⟶1            𝑡𝑡⟶1
+
+
+               𝑙𝑙𝑙𝑙𝑙𝑙 𝑣𝑣(𝑡𝑡) = 𝑙𝑙𝑙𝑙𝑙𝑙− 7 𝑡𝑡 2 = 7
+               𝑡𝑡⟶1−            𝑡𝑡⟶1
+
+               𝑙𝑙𝑙𝑙𝑙𝑙 𝑣𝑣(𝑡𝑡) = 𝑙𝑙𝑙𝑙𝑙𝑙+ 2𝑡𝑡 + 𝑎𝑎 = 2 + 𝑎𝑎
+
+
+
+
+  20
+               𝑡𝑡⟶1+            𝑡𝑡⟶1
+
+               𝑣𝑣(1) = 2 + 𝑎𝑎
+           Beraz, 2 + 𝑎𝑎 = 7 ⇒ 𝒂𝒂 = 𝟓𝟓
+
+
+
+
+    22
+       •    𝑡𝑡 = 5 unean.
+
+                  𝑣𝑣(𝑡𝑡) 𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗𝑗 𝑡𝑡 = 5 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 ⇔   𝑙𝑙𝑙𝑙𝑙𝑙 𝑣𝑣(𝑡𝑡) = 𝑙𝑙𝑙𝑙𝑙𝑙+ 𝑣𝑣(𝑡𝑡) = 𝑣𝑣(5)
+                                                                      𝑡𝑡⟶5−          𝑡𝑡⟶5
+
+
+                𝑙𝑙𝑙𝑙𝑙𝑙 𝑣𝑣(𝑡𝑡) = 𝑙𝑙𝑙𝑙𝑙𝑙− 2 𝑡𝑡 + 𝑎𝑎 = 𝑙𝑙𝑙𝑙𝑙𝑙− 2 𝑡𝑡 + 5 = 15
+               𝑡𝑡⟶5−            𝑡𝑡⟶5                 𝑡𝑡⟶5
+                                           2
+                𝑙𝑙𝑙𝑙𝑙𝑙 𝑣𝑣(𝑡𝑡) = 𝑙𝑙𝑙𝑙𝑙𝑙+ −𝑡𝑡 + 12𝑡𝑡 + 𝑏𝑏 = − 25 + 60 + 𝑏𝑏 = 35 + 𝑏𝑏
+               𝑡𝑡⟶5+            𝑡𝑡⟶5
+
+               𝑣𝑣(5) = 15
+           Beraz, 15 = 35 + 𝑏𝑏 ⇒ 𝒃𝒃 = −𝟐𝟐𝟐𝟐
+                                       UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                  EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                      ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                       CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+b) 𝑎𝑎 = 5 eta 𝑏𝑏 = −20 kasuan, zer unetan lortzen du patineteak abiadura maximoa?
+                       14𝑡𝑡        0 < 𝑡𝑡 < 1
+       • 𝑣𝑣 ´ (𝑡𝑡) = � 2           1 < 𝑡𝑡 ≤ 5
+                      −2𝑡𝑡 + 12    5 < 𝑡𝑡 < 10
+
+           Beraz, 𝑣𝑣 ´ (𝑡𝑡) = 0 ⇔ 𝑡𝑡 = 6
+
+
+                           14   0 < 𝑡𝑡 < 1
+       •    𝑣𝑣 ´´ (𝑡𝑡) = � 0    1 < 𝑡𝑡 < 5 ⇒ 𝑣𝑣 ´´ (6) = −2 < 0
+                          −2    5 < 𝑡𝑡 < 10
+
+            Beraz, 𝑡𝑡 = 6 maximo erlatiboa dugu.
+
+       •    Maximo absolutua egiaztatzeko:
+
+            o   𝑣𝑣(6) = −62 + 12 ∙ 6 − 20 = 16
+
+
+
+
+2022
+            o
+
+            o
+                𝑣𝑣 (0) = 0
+
+                𝑣𝑣 (10) = 0
+
+Beraz, abiadura maximoa 𝒕𝒕 = 𝟔𝟔 unean lortzen da, eta bere balioa 16 da.
+
+
+c) 𝑎𝑎 = 5 eta 𝑏𝑏 = −20 kasuan, egin ezazu funtzioaren adierazpen grafikoa.
+                                                      UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                                 EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                                        ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                                         CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+BLOKEA: PROBABILITATEA
+
+
+ A.3 Probabilitate baten kalkulua, zuhaitz-diagramaren bidez edo probabilitate osoaren
+ bidez.
+    a) Karta jaso duen lehen pertsonak bidaia bat irabazteko probabilitatea.
+                                                                                                 4
+        𝑃𝑃(1. 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏 𝑏𝑏𝑏𝑏𝑏𝑏 𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖 𝑑𝑑𝑑𝑑) = 𝑃𝑃(𝐸𝐸1 ) =          = 0,1 ⇒ % 𝟏𝟏𝟏𝟏
+                                                                                                 40
+
+
+    b) Karta jaso duen bigarren pertsonak bidaia bat irabazteko probabilitatea.
+
+
+
+
+                                                                                                        ERREGEA
+
+
+
+
+   2022
+                                                                      ERREGEA
+                                                                          4 /40
+                                                                                                           3/39
+
+                                                                                                        ERREGEA EZ
+                                                                                                             36/ 39
+
+
+
+
+                                                                                                        ERREGEA
+                                                                    ERREGEA EZ
+                                                                                                           4/39
+                                                                         36/40
+                                                                                                           ERREGEA EZ
+                                                                                                                35/39
+
+
+
+        𝑃𝑃(2. 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏 𝑏𝑏𝑏𝑏𝑏𝑏 𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖 𝑑𝑑𝑑𝑑) = 𝑃𝑃(𝐸𝐸2 ) =
+                                                                               4 3     36 4    156
+        = 𝑃𝑃(𝐸𝐸1 ) ∙ 𝑃𝑃(𝐸𝐸2 |𝐸𝐸1 ) + 𝑃𝑃(𝐸𝐸1𝑐𝑐 ) ∙ 𝑃𝑃(𝐸𝐸2 | 𝐸𝐸1𝑐𝑐 ) =             ∙   +   ∙   =      = 0,1
+                                                                               40 39   40 39   1560
+                                                                     ⇒ % 𝟏𝟏𝟏𝟏
+
+    c) Lehenengo bi pertsonetako batek ere bidaia bat ez irabazteko probabilitatea.
+
+        𝑃𝑃(𝑙𝑙𝑙𝑙ℎ𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 𝑏𝑏𝑏𝑏 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏 𝑒𝑒𝑒𝑒𝑒𝑒 𝑒𝑒𝑒𝑒 𝑑𝑑𝑑𝑑 𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑒𝑒𝑒𝑒 𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏 𝑏𝑏𝑏𝑏𝑏𝑏) =
+
+                                                                         36 35   1260
+        = 𝑃𝑃(𝐸𝐸1𝑐𝑐 ∩ 𝐸𝐸2𝑐𝑐 ) = 𝑃𝑃(𝐸𝐸1𝑐𝑐 ) ∙ 𝑃𝑃(𝐸𝐸2𝑐𝑐 | 𝐸𝐸1𝑐𝑐 ) =           ∙   =      = 0,8077 ⇒ % 𝟖𝟖𝟖𝟖, 𝟕𝟕𝟕𝟕
+                                                                         40 39   1560
+                                              UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                         EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                                ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                                 CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+B.3 Probabilitateen kalkuluei buruzko ariketa.
+                                                                                2                  3
+                            𝑃𝑃(𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷 𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠) = 𝑃𝑃(𝐷𝐷) =        ⟹ 𝑃𝑃(𝐷𝐷 𝑐𝑐 ) =
+                                                                                5                  5
+                                                                                  3                  4
+                          𝑃𝑃(𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾 𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠) = 𝑃𝑃(𝐾𝐾) =     ⟹ 𝑃𝑃(𝐾𝐾 𝑐𝑐 ) =
+                                                                                  7                  7
+
+    a) Biek saskiratzeko probabilitatea, hau da, 𝐷𝐷 ∩ 𝐾𝐾 gertaeraren probabilitatea.
+
+        D eta K gertaerak askeak dira; orduan:
+
+                                               𝑃𝑃(𝐷𝐷 ∩ 𝐾𝐾) = 𝑃𝑃(𝐷𝐷) ∙ 𝑃𝑃(𝐾𝐾)
+
+                                                2 3  6
+       𝑃𝑃(𝐷𝐷 ∩ 𝐾𝐾) = 𝑃𝑃(𝐷𝐷) ∙ 𝑃𝑃(𝐾𝐾) =           ∙ =    = 0,1714                    ⇒ % 𝟏𝟏𝟏𝟏, 𝟏𝟏𝟏𝟏
+                                                5 7  35
+
+    b) Inork ez saskiratzeko probabilitatea, hau da, 𝐷𝐷 𝑐𝑐 ∩ 𝐾𝐾 𝑐𝑐 gertaeraren probabilitatea.
+
+        D eta K gertaerak askeak dira; orduan:
+
+
+
+
+  2022 𝑃𝑃(𝐷𝐷 ∩ 𝐾𝐾 𝑐𝑐 ) =     ∙  =
+                                            𝑃𝑃(𝐷𝐷 𝑐𝑐 ∩ 𝐾𝐾 𝑐𝑐 ) = 𝑃𝑃(𝐷𝐷 𝑐𝑐 ) ∙ 𝑃𝑃(𝐾𝐾 𝑐𝑐 )
+
+       𝑃𝑃(𝐷𝐷 𝑐𝑐 ∩ 𝐾𝐾 𝑐𝑐 ) = 𝑃𝑃(𝐷𝐷 𝑐𝑐 ) ∙ 𝑃𝑃(𝐾𝐾 𝑐𝑐 ) =
+
+
+
+    c) Deienek baino ez saskiratzeko probabilitatea.
+
+                            2 4   8
+                                     = 0,2286
+                                                        3 4
+                                                         ∙
+                                                        5 7
+                                                            =
+                                                              12
+                                                              35
+                                                                 = 0,3428
+
+
+
+
+                                                                 ⇒ % 𝟐𝟐𝟐𝟐, 𝟖𝟖𝟖𝟖
+                                                                                           ⇒ % 𝟑𝟑𝟑𝟑, 𝟐𝟐𝟐𝟐
+
+
+
+
+                            5 7   35
+
+
+
+    d) Gutxienez batek saskiratzeko probabilitatea.
+
+                                                                   2   3   6    23
+        𝑃𝑃(𝐷𝐷 ∪ 𝐾𝐾 ) = 𝑃𝑃(𝐷𝐷) + 𝑃𝑃(𝐾𝐾) − 𝑃𝑃(𝐷𝐷 ∩ 𝐾𝐾) =               +   −    =    = 0,6571
+                                                                   5   7   35   35
+
+                            ⇒ % 𝟔𝟔𝟔𝟔, 𝟕𝟕𝟕𝟕
+                                                  UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                             EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                                   ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                                    CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+BLOKEA: INFERENTZIA ESTATISTIKOA
+
+   A.4 Banaketa normala ulertzea, erabilera eta probabilitateen kalkulua.
+
+     a)    % 80rako tarte bereizgarria.
+                                        𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏 = 16 ⇒ 𝜎𝜎 = √16 = 4
+                                         𝑋𝑋 ≡ 𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 = 𝒩𝒩(10 , 4)
+
+
+ %80𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏 (10 − 𝑒𝑒 , 10 + 𝑒𝑒) 𝑑𝑑𝑑𝑑 𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏 𝑃𝑃(10 − 𝑒𝑒 ≤ 𝑋𝑋 ≤ 10 + 𝑒𝑒 ) = 0,8
+
+
+   P(10 − e ≤ X ≤ 10 + e ) = 0,8 ⇒ P(X ≤ 10 + e ) − P( X ≤ 10 − e ) = 0,8 ⇒
+
+                       TIPIFIKAZIOA:
+                                                     𝑋𝑋 − 𝜇𝜇   𝑋𝑋 − 10
+                                              𝑍𝑍 =           =         ⇒ 𝑋𝑋 = 4 𝑍𝑍 + 10
+                                                        𝜎𝜎        4
+
+
+
+
+       2022
+                       𝑃𝑃(𝑋𝑋 ≤ 10 + 𝑒𝑒 ) = 𝑃𝑃( 4 𝑍𝑍 + 10 ≤ 10 + 𝑒𝑒 ) =
+                                                                     𝑒𝑒
+                                          = 𝑃𝑃(4 𝑍𝑍 ≤ 𝑒𝑒 ) = 𝑃𝑃 �𝑍𝑍 ≤ �
+                                                                     4
+
+                       𝑃𝑃(𝑋𝑋 ≤ 10 − 𝑒𝑒 ) = 𝑃𝑃( 4 𝑍𝑍 + 10 ≤ 10 − 𝑒𝑒 ) =
+
+                                       = 𝑃𝑃(4 𝑍𝑍 ≤ −𝑒𝑒 ) = 𝑃𝑃 �𝑍𝑍 ≤
+                                                                            −𝑒𝑒
+                                                                            4
+                                                                                                𝑒𝑒
+                                                                                � = 1 − 𝑃𝑃 �𝑍𝑍 ≤ �
+                                                                                                4
+
+
+             𝑒𝑒                𝑒𝑒                         𝑒𝑒                 𝑒𝑒
+   ⇒ 𝑃𝑃 �𝑍𝑍 ≤ � − �1 − 𝑃𝑃 �𝑍𝑍 ≤ �� = 0,8 ⇒ −1 + 2 𝑃𝑃 �𝑍𝑍 ≤ � = 0,8 ⇒ 𝑃𝑃 �𝑍𝑍 ≤ � = 0,9
+             4                 4                          4                  4
+
+
+
+   Orduan, banaketa normalaren taulan begiratuz:
+
+   𝑒𝑒
+      = 1,285 ⇒ 𝒆𝒆 = 𝟓𝟓, 𝟏𝟏𝟏𝟏
+   4
+
+   Beraz, % 80rako tarte bereizgarria hau da:
+
+   (10 − e , 10 + 𝑒𝑒) = (𝟒𝟒, 𝟖𝟖𝟖𝟖 , 𝟏𝟏𝟏𝟏, 𝟏𝟏𝟏𝟏)
+                                  UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                             EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                 ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                  CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+b) 𝑃𝑃(𝑋𝑋 ≥ 11 )
+
+   𝑃𝑃(𝑋𝑋 ≥ 11) = 𝑃𝑃( 4 𝑍𝑍 + 10 ≥ 11) =
+
+   = 𝑃𝑃(𝑍𝑍 ≥ 0,25) = 1 − 𝑃𝑃(𝑍𝑍 ≤ 0,25)
+
+   = 1 − 0,5987 = 0,4013 ⇒ % 𝟒𝟒𝟒𝟒, 𝟏𝟏𝟏𝟏
+
+
+
+c) 𝑃𝑃(8 ≤ 𝑋𝑋 ≤ 10)
+
+   𝑃𝑃(8 ≤ 𝑋𝑋 ≤ 10) = 𝑃𝑃(𝑋𝑋 ≤ 10) − 𝑃𝑃(𝑋𝑋 ≤ 8)
+
+           𝑃𝑃(𝑋𝑋 ≤ 10) = 𝑃𝑃( 4 𝑍𝑍 + 10 ≤ 10 ) =
+
+           = 𝑃𝑃(𝑍𝑍 ≤ 0) = 0,5
+
+           𝑃𝑃(𝑋𝑋 ≤ 8) = 𝑃𝑃( 4 𝑍𝑍 + 10 ≤ 8 ) =
+
+
+
+
+2022
+           = 𝑃𝑃(𝑍𝑍 ≤ −0,5) = 𝑃𝑃(𝑍𝑍 ≥ 0,5) =
+
+           = 1 − 𝑃𝑃(𝑍𝑍 ≤ 0,5) = 1 − 0,6915 = 0,3085
+
+   Beraz; 𝑃𝑃(8 ≤ 𝑋𝑋 ≤ 10) = 0,5 − 0,3085 = 0,1915 ⇒ % 𝟏𝟏𝟏𝟏, 𝟏𝟏𝟏𝟏
+
+
+
+d) 9º C baino gehiago izan duten egunen proportzioa.
+
+   𝑃𝑃(𝑋𝑋 ≥ 9) = 𝑃𝑃( 4 𝑍𝑍 + 10 ≥ 9) =
+
+   = 𝑃𝑃(𝑍𝑍 ≥ −0,25) = 𝑃𝑃(𝑍𝑍 ≤ 0,25) = 0,5987
+
+   ⇒   % 𝟓𝟓𝟓𝟓, 𝟖𝟖𝟖𝟖
+
+
+
+
+e) Zenbat egunetan izan da tenperatura 12º C baino baxuagoa?
+
+           𝑃𝑃(𝑋𝑋 ≤ 12) = 𝑃𝑃( 4 𝑍𝑍 + 10 ≤ 12) = 𝑃𝑃(𝑍𝑍 ≤ 0,5) = 0,6915 ⇒ % 69,15
+
+   Orduan, 30en % 69,15 hau da: 20,74; egun kopuruak zenbaki arrunta izan behar
+
+   duenez, orduan esan dezakegu 20 egunetan tenperatura 12º C baino baxuagoa
+
+   izan dela.
+                                                UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                           EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                                  ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                                   CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+B. 4 Laginen batezbestekoen banaketari buruzko ariketa. Laginaren batezbestekoaren
+balioa eta errore maximo onargarria.
+
+   •   Batezbestekorako konfiantza-tartearen bidez egindako zenbatespenean, errore
+       maximo onargarriaren formula ezagutzen dugu. Hau da:
+                                                       𝜎𝜎
+                                         𝑒𝑒𝑚𝑚 = 𝑍𝑍𝛼𝛼 ∙
+                                                  2    √𝑛𝑛
+
+                   𝑒𝑒𝑚𝑚 tartearen zabaleraren erdia da.
+                                                 54−51
+                   Beraz:               𝑒𝑒𝑚𝑚 =         = 1,5
+                                                   2
+
+                   Desbideratze tipikoaren, 𝜎𝜎-ren, balioa 𝑠𝑠 = 5,3 baliotik zenbatesten da.
+
+                   Badakigu laginaren tamaina 𝑛𝑛 = 100 dela.
+
+       Hortik, 𝑍𝑍𝛼𝛼 kalkulatuko dugu:
+                    2
+
+
+
+
+  20
+   •
+
+
+
+    22    2
+
+
+
+
+    𝑃𝑃 �𝑍𝑍 ≥ 𝑧𝑧𝛼𝛼 � =
+                        𝑒𝑒𝑚𝑚 = 𝑍𝑍𝛼𝛼 ∙
+
+
+
+
+                        𝛼𝛼
+                                 2
+                                         𝜎𝜎
+                                         √𝑛𝑛
+                                               ⇒ 1,5 = 𝑍𝑍𝛼𝛼 ∙
+
+
+
+
+        𝑍𝑍𝛼𝛼 -tik abiatuta, 1 − 𝛼𝛼 konfiantza maila lortuko dugu:
+
+
+                                                  𝛼𝛼
+                           ⇒ 1 − 𝑃𝑃 �𝑍𝑍 ≤ 𝑧𝑧𝛼𝛼 � = ⇒
+                                                          2
+                                                                5,3
+                                                                √100
+                                                                       ⇒ 15 = 5,3 ∙ 𝑍𝑍𝛼𝛼 ⇒ 𝑍𝑍𝛼𝛼 = 2,83
+                                                                                     2       2
+
+
+
+
+               2        2                   2     2
+
+                                𝛼𝛼
+    ⇒ 1 − 𝑃𝑃(𝑍𝑍 ≤ 2,83) =          ⇒
+                                2
+
+                                         𝛼𝛼
+    ⇒ 1 − 0,9987 = 0,0023 =
+                                         2
+
+
+
+
+    Beraz:
+    𝛼𝛼
+       = 0,0023 ⇒ 𝜶𝜶 = 𝟎𝟎, 𝟎𝟎𝟎𝟎𝟎𝟎𝟎𝟎 ⇒ 𝟏𝟏 − 𝜶𝜶 = 𝟎𝟎, 𝟗𝟗𝟗𝟗𝟗𝟗𝟗𝟗
+    2
+
+
+    Beraz, % 99,54ko konfiantza-mailaz esan dezakegu hiri horretako 16 urteko
+    nesken batez besteko pisua 51 kg eta 54 kg artean dagoela.
+                                  UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                             EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                  ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                   CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+      MATEMATICAS APLICADAS A LAS CIENCIAS SOCIALES II
+
+                CRITERIOS GENERALES DE EVALUACIÓN
+
+
+1. El examen está compuesto de ocho ejercicios distribuidos en cuatro bloques.
+2. De estos ocho ejercicios se tiene que responder a cuatro, de por lo menos
+    tres bloques diferentes.
+3. En caso de responder a más preguntas de las estipuladas, las respuestas se
+    corregirán en orden hasta llegar al número necesario.
+4. El examen se evaluará con una puntuación entre 0 y 10 puntos.
+5. Cada ejercicio se valorará entre 0 y 2,5 puntos.
+6. En aquellas cuestiones en las que no se especifique el método de resolución que
+    se ha de aplicar, se admitirá cualquier forma de resolverlo correctamente.
+
+
+
+
+20
+•
+
+
+•
+•
+  22
+          ASPECTOS QUE MERECEN VALORACIÓN POSITIVA
+
+    Los planteamientos correctos, tanto global como de cada una de las partes, si las
+    hubiere.
+    La correcta utilización de conceptos, vocabulario y notación científica.
+    El conocimiento de técnicas específicas de aplicación directa para el cálculo y/o
+    interpretación de datos numéricos y gráficos.
+•   La terminación completa del ejercicio y la exactitud del resultado.
+•   Se considerarán igualmente válidas dos soluciones que solo se diferencien en el
+    grado de exactitud empleado en los cálculos numéricos.
+•   No se tomarán en consideración errores numéricos, de cálculo, etc., siempre que
+    no sean de tipo conceptual.
+•   La claridad de las explicaciones de los pasos seguidos.
+•   Las ideas, gráficos, presentaciones, esquemas, …, que ayuden a visualizar mejor
+    el problema y su solución.
+•   La pulcritud de la presentación, y cualquier otro aspecto que refleje la madurez
+    que cabe esperar de un estudiante que aspira a entrar en la universidad.
+                                    UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                               EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                 ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                  CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+         ASPECTOS QUE MERECEN VALORACIÓN NEGATIVA
+
+•   Los planteamientos incorrectos.
+•   La confusión de conceptos.
+•   La abundancia de errores de cálculo (por ser indicativa de deficiencias de orden
+    básico).
+•   Los errores aislados, cuando indican falta de reflexión crítica o de sentido común
+    (por ejemplo, decir que la solución a tal problema es -3,7 frigoríficos, o que cierta
+    probabilidad vale 2,5).
+•   Los errores aislados, cuando conducen a problemas más sencillos que los
+    inicialmente propuestos.
+•   La ausencia de explicaciones, en particular del significado de las variables que se
+    están utilizando.
+
+
+
+
+20
+•
+
+
+
+
+  22
+    Los errores ortográficos graves, el desorden, la falta de limpieza, la mala redacción
+    y cualquier otro aspecto impropio de un estudiante que aspira a entrar en la
+    universidad.
+                                       UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                  EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                      ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                       CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+   CRITERIOS PARTICULARES PARA CADA UNO DE LOS PROBLEMAS
+
+BLOQUE: ÁLGEBRA
+
+
+ Problema A.1 (hasta 2,5 puntos)
+
+   a. 1 punto. Representar la región factible.
+             Representación de cada restricción 0,1 punto, por lo tanto, 0,5 puntos.
+             Determinar el recinto pedido, 0,5 puntos.
+   b. 1,5 puntos. Determinar los máximos y los mínimos, y en ellos los valores de la
+      función.
+             Determinar los vértices de la región factible.
+                      o   El vértice A, 0,125 puntos.
+                      o   El vértice B, 0,25 puntos.
+
+
+
+
+  2022
+          
+          
+                      o
+                      o
+                          El vértice C, 0,25 puntos.
+                          El vértice D, 0,125 puntos.
+              Valorar la función en los vértices, 0,5 puntos.
+              Determinar el valor de la función objetivo, 0,25 puntos.
+
+
+ Problema B.1 (hasta 2,5 puntos)
+
+   a. 0,75 puntos.
+             Cálculo de la matriz 𝐵𝐵2 , 0,5 puntos.
+             Conseguir el valor de 𝑥𝑥 , 0,25 puntos.
+   b. 1 punto.
+             Cálculo de la matriz inversa de la matriz 𝐴𝐴:
+                      • Cálculo del determinante de la matriz 𝐴𝐴, 0,15 puntos.
+                      • Adjunto de la matriz 𝐴𝐴 , 0,5 puntos.
+                      • Inversa de la matriz 𝐴𝐴, 0,15 puntos.
+             Conseguir el valor de 𝑥𝑥, 0,2 puntos.
+   c. 0,75 puntos.
+                Hacer el cálculo de la matriz 3 ∙ 𝐼𝐼2, 0,5 puntos.
+             Conseguir el valor de 𝑥𝑥, 0,25 puntos.
+                                      UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                 EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                      ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                       CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+BLOQUE: ANÁLISIS
+
+
+ Problema A.2 (hasta 2,5 puntos)
+
+    a. 0,9 puntos.
+             Unir la gráfica (A) con su función de modo razonado, 0,3 puntos.
+             Unir la gráfica (B) con su función de modo razonado, 0,3 puntos.
+             Unir la gráfica (C) con su función de modo razonado, 0,3 puntos.
+    b. 1,6 puntos.
+             Gráfica (1)
+               •     Dominio de definición, 0,3 puntos.
+               •     Recorrido, 0,3 puntos
+             Gráfica (2)
+
+
+
+
+   2022
+          
+               •
+               •
+                     Dominio de definición, 0,2 puntos.
+                     Recorrido, 0,2 puntos.
+              Gráfica (3)
+               •
+               •
+                     Dominio de definición, 0,3 puntos.
+                     Recorrido, 0,3 puntos.
+
+
+   Problema B.2 (hasta 2,5 puntos)
+
+    a. 0,8 puntos.
+             Continuidad en el punto 𝑡𝑡 = 1 .
+               • Definir la continuidad de una función en el punto 𝑡𝑡 = 1 ,0,1 puntos.
+               • Límites laterales, 0,3 puntos.
+             Continuidad en el punto 𝑡𝑡 = 5 .
+               • Definir la continuidad de una función en el punto 𝑡𝑡 = 5, 0,1 puntos.
+               • Límites laterales, 0,3 puntos.
+    b. 1 punto.
+             Cálculo de 𝑣𝑣 ´ (𝑡𝑡) , 0,25 puntos.
+             Cálculo de 𝑣𝑣 ´´ (𝑡𝑡), 0,25 puntos.
+             Indicar en qué punto se alcanza el máximo de la función 𝑣𝑣 (𝑡𝑡), 0,25
+              puntos.
+             Determinar la velocidad máxima, 0,25 puntos.
+                                UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                           EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                 CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+   Nota: En el caso de que se determine la velocidad máxima sin comprobar que es
+   máximo absoluto la puntuación total del apartado será, 0,75 puntos.
+c. 0,7 puntu.
+         Representación gráfica de la función 𝑣𝑣(𝑡𝑡) = 7𝑡𝑡 2 , 0,2 puntos.
+         Representación gráfica de la función 𝑣𝑣(𝑡𝑡) = 7𝑡𝑡 + 5 , 0,2 puntos.
+         Representación gráfica de la función 𝑣𝑣(𝑡𝑡) = −𝑡𝑡 2 + 12𝑡𝑡 − 20 , 0,3 puntos.
+
+
+
+
+2022
+                                     UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                    ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                     CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+BLOQUE: PROBABILIDAD
+
+
+ Problema A.3 (hasta 2,5 puntos)
+   a. 0,5 puntos.
+             El cálculo de la probabilidad pedida, 0,5 puntos.
+   b. 1,25 puntos.
+             Hacer un diagrama de árbol o algún esquema, 0,25 puntos.
+             Indicar la fórmula de la probabilidad total, 0,5 puntos.
+             El cálculo de la probabilidad pedida, 0,5 puntos.
+   c. 0,75 puntos.
+          Indicar qué hay que calcular, 0,25 puntos.
+             El cálculo de la probabilidad pedida, 0,5 puntos.
+
+
+
+
+  20
+ Problema B.3 (hasta 2,5 puntos)
+
+   a. 0,75 puntos.
+
+
+
+
+    22    
+          
+          
+              Indicar qué hay que calcular, 0,1 puntos.
+              Expresar que son sucesos independientes, 0,2 puntos.
+              Cálculo de la probabilidad pedida 𝑃𝑃(𝐷𝐷 ∩ 𝐾𝐾), 0,45 puntos.
+   b. 0,75 puntos.
+             Indicar qué hay que calcular, 0,1 puntos.
+             Expresar que son sucesos independientes, 0,2 puntos.
+             Cálculo de la probabilidad pedida 𝑃𝑃(𝐷𝐷 𝑐𝑐 ∩ 𝐾𝐾 𝑐𝑐 ), 0,45 puntos.
+   c. 0,5 puntos.
+             Indicar qué hay que calcular, 0,2 puntos.
+             Cálculo de la probabilidad pedida 𝑃𝑃(𝐷𝐷 ∩ 𝐾𝐾 𝑐𝑐 ), 0,3 puntos.
+   d. 0,5 puntos.
+             Indicar qué hay que calcular, 0,1 puntos.
+             Determinar la fórmula 𝑃𝑃(𝐷𝐷 ∪ 𝐾𝐾), 0,1 puntos.
+             Cálculo de la probabilidad pedida, 0,3 puntos.
+                                          UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                     EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                             ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                              CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+BLOQUE: INFERENCIA ESTADÍSTICA
+
+
+  Problema A.4 (hasta 2,5 puntos)
+
+   a. 0,9 puntos.
+            Expresar cómo se determina el intervalo característico, 0,25 puntos.
+            Tipificación de la variable, 0,25 puntos.
+            Determinar el valor en la tabla de la distribución normal, 0,15 puntos.
+            Concretar el intervalo característico, 0,25 puntos.
+   b. 0,3 puntos.
+            Determinar la probabilidad 𝑃𝑃(𝑋𝑋 ≥ 11) , 0,3 puntos.
+   c. 0,6 puntos.
+
+
+
+
+  20
+            Determinar la probabilidad 𝑃𝑃(𝑋𝑋 ≤ 10), 0,25 puntos.
+            Determinar la probabilidad 𝑃𝑃(𝑋𝑋 ≤ 8) , 0,25 puntos.
+            Cálculo de la probabilidad pedida, 0,1 puntos.
+   d. 0,3 puntos.
+
+
+
+
+    22       
+             
+   e. 0,4 puntos
+         
+         
+                  Cálculo de la probabilidad 𝑃𝑃(𝑋𝑋 ≥ 9), 0,2 puntos.
+                  Determinar la proporción pedida, 0,1 puntos.
+
+
+             Cálculo de la probabilidad pedida, 0,3 puntos.
+             Determinar en cuántos días, 0,1 puntos.
+
+
+
+Problema B.4 (hasta 2,5 puntos)
+
+      Concretar qué es el nivel de confianza, 0,2 puntos.
+      Indicar la fórmula del error máximo admisible, 0,2 puntos.
+      Concretar el error máximo admisible 0,3 puntos.
+      Conseguir 𝑍𝑍𝛼𝛼 , 0,75 puntos.
+                        2
+                   𝛼𝛼
+      Conseguir
+                   2
+                            , 0,75 puntos.
+      Determinar el nivel de confianza, 0,3 puntos.
+                                      UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                 EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                     ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                      CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+                                 SOLUCIONES
+
+BLOQUE: ÁLGEBRA
+
+
+ A.1 Resolución de un problema de programación lineal con dos variables:
+
+    a) Representación de la región factible en el plano XY.
+
+       La función objetivo es:
+
+                                     𝑓𝑓(𝑥𝑥, 𝑦𝑦) = 4 𝑥𝑥 + 2𝑦𝑦 − 1
+
+                                  𝑦𝑦 − 𝑥𝑥 ≤ 4
+                             ⎧   𝑦𝑦 + 2𝑥𝑥 ≥ 7
+                             ⎪
+       Las restricciones son: −2𝑥𝑥 − 𝑦𝑦 + 13 ≥ 0
+                             ⎨       𝑥𝑥 ≥ 0
+                             ⎪
+
+
+
+
+   2022
+                             ⎩       𝑦𝑦 ≥ 0
+       Por lo tanto, en el plano XY la región factible es:
+                                          UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                     EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                       ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                        CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+b) Máximo y mínimo de la función objetivo, así como los valores de ésta en dichos
+   puntos.
+    Los vértices son:
+
+       o   𝐴𝐴 = ?
+                      𝑦𝑦 + 2𝑥𝑥 = 7                              7       7
+           𝐴𝐴 = �                      ⇒ 2𝑥𝑥 = 7 ⇒ 𝑥𝑥 =           ⇒ 𝐴𝐴 � , 0�
+                         𝑦𝑦 = 0                                 2       2
+       o   𝐵𝐵 = ?
+                        𝑦𝑦 − 𝑥𝑥 = 4
+             𝐵𝐵 = �                      ⇒ 4 + 3𝑥𝑥 = 7 ⇒ 𝑥𝑥 = 1,                𝑦𝑦 = 5 ⇒ 𝐵𝐵( 1 , 5)
+                      𝑦𝑦 + 2𝑥𝑥 = 7
+       o   𝐶𝐶 = ?
+                        𝑦𝑦 − 𝑥𝑥 = 4
+           𝐶𝐶 = �                        ⇒ 4 + 3𝑥𝑥 = 13 ⇒ 𝑥𝑥 = 3,                 𝑦𝑦 = 7 ⇒ 𝐶𝐶( 3 , 7)
+                      2𝑥𝑥 + 𝑦𝑦 = 13
+       o   𝐷𝐷 = ?
+                                                                                13
+
+
+
+
+20
+                      −2𝑥𝑥 − 𝑦𝑦 + 13 = 0                                                 13
+           𝐷𝐷 = �                              ⇒ −2𝑥𝑥 = −13 ⇒ 𝑥𝑥 =                 ⇒ 𝐷𝐷 � ,       0�
+                           𝑦𝑦 = 0                                               2        2
+
+Por lo tanto, los vértices son:
+
+
+
+
+  22
+                      7                                                        13
+               𝐴𝐴 �     ,   0� ,      𝐵𝐵(1,   5),       𝐶𝐶(3, 7),       𝐷𝐷 �      ,   0�
+                      2                                                        2
+
+   Calculamos el valor que toma la función objetivo en los vértices:
+
+                                                        7
+                                        𝑓𝑓(𝐴𝐴) = 𝑓𝑓 �     ,   0� = 13
+                                                        2
+
+                                        𝑓𝑓(𝐵𝐵) = 𝑓𝑓( 1, 5 ) = 13
+
+                                        𝑓𝑓(𝐶𝐶) = 𝑓𝑓( 3, 7 ) = 25
+
+                                                    13
+                                       𝑓𝑓(𝐷𝐷) = 𝑓𝑓 � ,        0� = 25
+                                                    2
+
+   Vemos que la función objetivo toma el valor máximo en los puntos C y D, y por
+   lo tanto, la función objetivo toma el valor máximo en todos los puntos del
+   segmento CD, en los que el valor de la función objetivo es 25.
+
+
+   Del mismo modo, la función toma el valor mínimo en los puntos A y B y, por lo
+   tanto, en todos los puntos del segmento AB, en los que el valor de la función
+   objetivo es 13.
+                                                 UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                            EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                               ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                                CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+B.1 Cálculo matricial. Propiedades de las matrices. Resolución de una ecuación matricial.
+
+   a) Encontrar el valor o los valores de 𝑥𝑥 para que se cumpla 𝐵𝐵2 = 𝐴𝐴 .
+
+
+                           1     𝑥𝑥    1     𝑥𝑥    2 1              2
+         𝐵𝐵2 = 𝐴𝐴 ⇒ �               �∙�         �=�    � ⇒ � 1 + 𝑥𝑥         𝑥𝑥 � = � 2 1 � ⇒
+                           𝑥𝑥    0     𝑥𝑥    0     1 1         𝑥𝑥          𝑥𝑥 2     1 1
+
+                                               1 + 𝑥𝑥 2 = 2
+                                            ⇒ � 𝑥𝑥 = 1      ⇒ 𝒙𝒙 = 𝟏𝟏
+                                                 𝑥𝑥 2 = 1
+
+
+   b) Encontrar el valor o los valores de 𝑥𝑥, tal que se verifique 𝐵𝐵 + 𝐶𝐶 = 𝐴𝐴−1 .
+
+               |𝐴𝐴| = �2        1
+                                  �=1
+                       1        1
+                       1                     1 −1
+               𝐴𝐴−1 = |𝐴𝐴| (𝐴𝐴𝐴𝐴𝐴𝐴 𝐴𝐴)𝑡𝑡 = �      �
+
+
+
+
+  20
+                                            −1 2
+
+                   1    𝑥𝑥     0 −1     1 −1          1   𝑥𝑥 − 1     1 −1
+               �           �+�      �=�      � ⇒ �               �=�      �⇒
+                   𝑥𝑥   0     −1  2    −1  2       𝑥𝑥 − 1    2      −1  2
+
+                                                          ⇒ 𝒙𝒙 = 𝟎𝟎
+
+
+
+
+    22
+   c) Determina el valor de 𝑥𝑥 para que se verifique 𝐴𝐴 + 𝐵𝐵 + 𝐶𝐶 = 3 ∙ 𝐼𝐼2 .
+
+
+           �
+               2 1
+               1 1
+                   �+�
+                       1 𝑥𝑥
+                       𝑥𝑥 0
+                            �+ �
+                                 0 −1
+                                 −1 2
+                                      �=3∙�
+                                            1
+                                            0
+
+                                                       ⇒ 𝒙𝒙 = 𝟎𝟎
+                                                                      0
+                                                                      1
+                                                                        � ⇒ �
+                                                                              3
+                                                                              𝑥𝑥
+                                                                                   𝑥𝑥
+                                                                                   3
+                                                                                      �=�
+                                                                                          3
+                                                                                          0
+                                                                                               0
+                                                                                               3
+                                                                                                 �
+                                       UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                  EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                            ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                             CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+BLOQUE: ANÁLISIS
+
+  A.2 Asociar funciones con representaciones gráficas. Identificar el dominio y el recorrido
+  de una función.
+     a) Asocia, razonadamente, las funciones A), B) y C) con las gráficas (1), (2) y (3).
+                                          𝑥𝑥
+                La función 𝑓𝑓(𝑥𝑥) =           no está definida en los puntos 𝑥𝑥 = 1   y 𝑥𝑥 = −1 ; la
+                                      𝑥𝑥 2 −1
+
+                función 𝑓𝑓(𝑥𝑥) tiene en cada uno de esos puntos una asíntota vertical.
+
+                La única función con esas características es la (3).
+
+
+                Por lo tanto, A)=(3).
+
+
+
+
+    2022
+                La función 𝑔𝑔(𝑥𝑥) =
+                                        |𝑥𝑥|
+                                           𝑥𝑥
+                                                no está definida en el punto 𝑥𝑥 = 0, y es constante
+
+                e igual a 1, si 𝑥𝑥 > 0; y constante e igual a -1, si 𝑥𝑥 < 0.
+
+                La única función con esas características es la (1).
+
+
+                Por lo tanto, B)=(1).
+
+
+
+
+                                       3
+                La función ℎ(𝑥𝑥) = √ 𝑥𝑥 pasa por el punto 𝑥𝑥 = 0 , y toma valores positivos
+
+                si 𝑥𝑥 > 0 ; y valores negativos si 𝑥𝑥 < 0.
+
+                La única función con esas características es la (2).
+
+
+                Por consiguiente, C)= (2).
+                                      UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                 EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                       ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                        CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+b) En cada caso, indicar el dominio y el recorrido de la función.
+
+           Representación gráfica (1)
+
+           𝐷𝐷𝐷𝐷𝐷𝐷 𝑓𝑓(𝑥𝑥) = ℝ − {0} , 𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅 𝑓𝑓(𝑥𝑥) = {−1, 1}
+
+
+
+
+2022
+           Representación gráfica (2)
+
+           𝐷𝐷𝐷𝐷𝐷𝐷 𝑓𝑓(𝑥𝑥) = ℝ , 𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅 𝑓𝑓(𝑥𝑥) = ℝ
+
+
+
+
+           Representación gráfica (3)
+
+           𝐷𝐷𝐷𝐷𝐷𝐷 𝑓𝑓(𝑥𝑥) = ℝ − {−1 , 1 } , 𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅 𝑓𝑓(𝑥𝑥) = ℝ
+                                             UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                        EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                                 ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                                  CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+B.2 Problema de análisis de una función. Cálculo de máximos, mínimos, puntos de
+inflexión y representación gráfica.
+La velocidad que lleva un patinete 𝑣𝑣 (𝑡𝑡), en función del tiempo t, es:
+
+                                            7𝑡𝑡 2          𝑠𝑠𝑠𝑠 0 ≤ 𝑡𝑡 < 1
+                              𝑣𝑣 (𝑡𝑡) = � 2𝑡𝑡 + 𝑎𝑎         𝑠𝑠𝑠𝑠 1 ≤ 𝑡𝑡 ≤ 5
+                                         −𝑡𝑡 2 + 12𝑡𝑡 + 𝑏𝑏 𝑠𝑠𝑠𝑠 5 < 𝑡𝑡 ≤ 10
+
+    a) Determina a y b para que la función 𝑣𝑣 (𝑡𝑡) sea continua.
+       • En el momento 𝑡𝑡 = 1 .
+
+                   𝑣𝑣(𝑡𝑡) 𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 𝑒𝑒𝑒𝑒 𝑡𝑡 = 1 ⇔ 𝑙𝑙𝑙𝑙𝑙𝑙− 𝑣𝑣(𝑡𝑡) = 𝑙𝑙𝑙𝑙𝑙𝑙+ 𝑣𝑣(𝑡𝑡) = 𝑣𝑣(1)
+                                                             𝑡𝑡⟶1          𝑡𝑡⟶1
+
+
+
+                 𝑙𝑙𝑙𝑙𝑙𝑙 𝑣𝑣(𝑡𝑡) = 𝑙𝑙𝑙𝑙𝑙𝑙− 7 𝑡𝑡 2 = 7
+                𝑡𝑡⟶1−            𝑡𝑡⟶1
+
+                 𝑙𝑙𝑙𝑙𝑙𝑙 𝑣𝑣(𝑡𝑡) = 𝑙𝑙𝑙𝑙𝑙𝑙+ 2𝑡𝑡 + 𝑎𝑎 = 2 + 𝑎𝑎
+
+
+
+
+  20
+                𝑡𝑡⟶1+            𝑡𝑡⟶1
+
+                𝑣𝑣(1) = 2 + 𝑎𝑎
+          Por lo tanto, 2 + 𝑎𝑎 = 7 ⇒ 𝒂𝒂 = 𝟓𝟓
+
+
+
+
+    22
+       • En el momento 𝑡𝑡 = 5 .
+
+         𝑣𝑣(𝑡𝑡) 𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 𝑒𝑒𝑒𝑒 𝑡𝑡 = 5 ⇔    𝑙𝑙𝑙𝑙𝑙𝑙 𝑣𝑣(𝑡𝑡) = 𝑙𝑙𝑙𝑙𝑙𝑙+ 𝑣𝑣(𝑡𝑡) = 𝑣𝑣(5)
+                                                 𝑡𝑡⟶5−              𝑡𝑡⟶5
+
+
+                 𝑙𝑙𝑙𝑙𝑙𝑙 𝑣𝑣(𝑡𝑡) = 𝑙𝑙𝑙𝑙𝑙𝑙− 2 𝑡𝑡 + 𝑎𝑎 = 𝑙𝑙𝑙𝑙𝑙𝑙− 2 𝑡𝑡 + 5 = 15
+                𝑡𝑡⟶5−            𝑡𝑡⟶5                 𝑡𝑡⟶5
+                                            2
+                 𝑙𝑙𝑙𝑙𝑙𝑙 𝑣𝑣(𝑡𝑡) = 𝑙𝑙𝑙𝑙𝑙𝑙+ −𝑡𝑡 + 12𝑡𝑡 + 𝑏𝑏 = − 25 + 60 + 𝑏𝑏 = 35 + 𝑏𝑏
+                𝑡𝑡⟶5+            𝑡𝑡⟶5
+
+                𝑣𝑣(5) = 15
+          Por lo tanto, 15 = 35 + 𝑏𝑏 ⇒ 𝒃𝒃 = −𝟐𝟐𝟐𝟐
+                                       UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                  EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                      ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                       CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+ b) Para 𝑎𝑎 = 5 y 𝑏𝑏 = −20 , ¿en qué momento el patinete alcanza la velocidad
+     máxima?
+                       14𝑡𝑡        0 < 𝑡𝑡 < 1
+       • 𝑣𝑣 ´ (𝑡𝑡) = � 2           1 < 𝑡𝑡 ≤ 5
+                      −2𝑡𝑡 + 12    5 < 𝑡𝑡 < 10
+
+           Entonces, 𝑣𝑣 ´ (𝑡𝑡) = 0 ⇔ 𝑡𝑡 = 6
+
+                           14   0 < 𝑡𝑡 < 1
+       •    𝑣𝑣 ´´ (𝑡𝑡) = � 0    1 < 𝑡𝑡 < 5 ⇒ 𝑣𝑣 ´´ (6) = −2 < 0
+                          −2    5 < 𝑡𝑡 < 10
+
+       Luego, en 𝑡𝑡 = 6 hay un máximo relativo.
+
+
+       •    Para comprobar que es máximo absoluto:
+
+            o   𝑣𝑣 (6) = −62 + 12 ∙ 6 − 20 = 16
+
+
+
+
+20          o
+
+            o
+                𝑣𝑣 (0) = 0
+
+                𝑣𝑣 (10) = 0
+Por lo tanto, la velocidad máxima se alcanza en el instante 𝒕𝒕 = 𝟔𝟔 , y su valor es 16.
+
+
+
+
+  22
+ c) En el caso 𝑎𝑎 = 5 y 𝑏𝑏 = −20, realiza la representación gráfica de la función
+                                                   UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                              EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                                     ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                                      CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+BLOQUE: PROBABILIDAD
+
+
+ A.3 Ejercicio de cálculo de probabilidades que puede resolverse, a través de un diagrama
+ de árbol o a través de la fórmula de la probabilidad total.
+    a)   Probabilidad de que gane un viaje la primera persona que recibe la carta.
+                                                                            4
+         𝑃𝑃(𝑙𝑙𝑙𝑙 1ª 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 𝑔𝑔𝑔𝑔𝑔𝑔𝑔𝑔 𝑢𝑢𝑢𝑢 𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣) = 𝑃𝑃(𝑅𝑅1 ) =      = 0,1 ⇒ 𝟏𝟏𝟏𝟏 %
+                                                                            40
+
+    b) Probabilidad de que gane un viaje la segunda persona que recibe la carta.
+
+
+
+
+                                                                                                       REY
+                                                                                                       3/39
+
+
+
+
+   2022
+                                                                            REY
+                                                                            4 /40
+
+
+
+
+                                                                            REY NO
+                                                                            36/40
+                                                                                                          4/39
+                                                                                                              REY NO
+                                                                                                              36/ 39
+
+
+
+
+                                                                                                              REY
+
+
+                                                                                                               REY NO
+                                                                                                                35/39
+
+         𝑃𝑃(𝑙𝑙𝑙𝑙 2ª 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 𝑔𝑔𝑔𝑔𝑔𝑔𝑔𝑔 𝑢𝑢𝑢𝑢 𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣) = 𝑃𝑃(𝑅𝑅2 ) =
+
+                                                                            4 3     36 4    156
+         = 𝑃𝑃(𝑅𝑅1 ) ∙ 𝑃𝑃(𝑅𝑅2 | 𝑅𝑅1 ) + 𝑃𝑃(𝑅𝑅1𝑐𝑐 ) ∙ 𝑃𝑃(𝑅𝑅2 | 𝑅𝑅1𝑐𝑐 ) =        ∙   +   ∙   =      = 0,1
+                                                                            40 39   40 39   1560
+
+                                                                 ⇒ 𝟏𝟏𝟏𝟏 %
+
+    c) Probabilidad de que ninguna de las dos primeras personas gane un viaje.
+
+         𝑃𝑃(𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛 𝑑𝑑𝑑𝑑 𝑙𝑙𝑙𝑙𝑙𝑙 𝑑𝑑𝑑𝑑𝑑𝑑 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 𝑔𝑔𝑔𝑔𝑔𝑔𝑔𝑔 𝑒𝑒𝑒𝑒 𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣) =
+
+                                                                      36 35   1260
+         = 𝑃𝑃(𝑅𝑅1𝑐𝑐 ∩ 𝑅𝑅2𝑐𝑐 ) = 𝑃𝑃(𝑅𝑅1𝑐𝑐 ) ∙ 𝑃𝑃(𝑅𝑅2𝑐𝑐 | 𝑅𝑅1𝑐𝑐 ) =       ∙   =      = 0,8077 ⇒ 𝟖𝟖𝟖𝟖, 𝟕𝟕𝟕𝟕 %
+                                                                      40 39   1560
+                                              UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                         EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                               ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                                CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+B.3 Problema de cálculo de probabilidades.
+
+                                                                             2                 3
+                             𝑃𝑃( 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷) = 𝑃𝑃(𝐷𝐷) =      ⟹ 𝑃𝑃(𝐷𝐷 𝑐𝑐 ) =
+                                                                             5                 5
+                                                                              3                 4
+                            𝑃𝑃( 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾𝐾) = 𝑃𝑃(𝐾𝐾) =   ⟹ 𝑃𝑃(𝐾𝐾 𝑐𝑐 ) =
+                                                                              7                 7
+
+    a) Probabilidad de que encesten las dos, esto es, probabilidad del suceso 𝐷𝐷 ∩ 𝐾𝐾.
+
+       Los sucesos D y K son independientes, por lo tanto:
+
+                                               𝑃𝑃(𝐷𝐷 ∩ 𝐾𝐾) = 𝑃𝑃(𝐷𝐷) ∙ 𝑃𝑃(𝐾𝐾)
+
+                                                2 3  6
+       𝑃𝑃(𝐷𝐷 ∩ 𝐾𝐾) = 𝑃𝑃(𝐷𝐷) ∙ 𝑃𝑃(𝐾𝐾) =           ∙ =    = 0,1714                   ⇒ 𝟏𝟏𝟏𝟏, 𝟏𝟏𝟏𝟏 %
+                                                5 7  35
+
+    b) Probabilidad de que no enceste ninguna de las dos, esto es, probabilidad del
+
+       suceso 𝐷𝐷 𝑐𝑐 ∩ 𝐾𝐾 𝑐𝑐 .
+
+
+
+
+  2022
+       Los sucesos 𝐷𝐷 𝑐𝑐 y 𝐾𝐾 𝑐𝑐 son independientes, por lo tanto:
+
+                                           𝑃𝑃(𝐷𝐷 𝑐𝑐 ∩ 𝐾𝐾 𝑐𝑐 ) = 𝑃𝑃(𝐷𝐷 𝑐𝑐 ) ∙ 𝑃𝑃(𝐾𝐾 𝑐𝑐 )
+
+       𝑃𝑃(𝐷𝐷 𝑐𝑐 ∩ 𝐾𝐾 𝑐𝑐 ) = 𝑃𝑃(𝐷𝐷 𝑐𝑐 ) ∙ 𝑃𝑃(𝐾𝐾 𝑐𝑐 ) =
+
+
+
+    c) Probabilidad de que enceste sólo Deiene.
+                                                        3 4
+                                                         ∙
+                                                        5 7
+                                                            =
+                                                              12
+                                                              35
+                                                                 = 0,3428                 ⇒ 𝟑𝟑𝟑𝟑, 𝟐𝟐𝟐𝟐 %
+
+
+
+
+                            2 4   8
+       𝑃𝑃(𝐷𝐷 ∩ 𝐾𝐾 𝑐𝑐 ) =     ∙  =    = 0,2286                   ⇒ 𝟐𝟐𝟐𝟐, 𝟖𝟖𝟖𝟖 %
+                            5 7   35
+
+
+
+    d) Probabilidad de que al menos una haya encestado.
+
+                                                                  2   3   6    23
+       𝑃𝑃(𝐷𝐷 ∪ 𝐾𝐾 ) = 𝑃𝑃(𝐷𝐷) + 𝑃𝑃(𝐾𝐾) − 𝑃𝑃(𝐷𝐷 ∩ 𝐾𝐾) =               +   −    =    = 0,6571
+                                                                  5   7   35   35
+
+                            ⇒ 𝟔𝟔𝟔𝟔, 𝟕𝟕𝟕𝟕 %
+                                                       UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                                  EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                                       ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                                        CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+   BLOQUE: INFERENCIA ESTADÍSTICA
+
+
+      A.4 Comprensión y uso de una distribución Normal, y cálculo de probabilidades.
+        a)      Intervalo característico para el 80 %.
+
+                                            𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣 = 16 ⇒ 𝜎𝜎 = √16 = 4
+                                             𝑋𝑋 ≡ 𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 = 𝒩𝒩(10 , 4)
+
+(10 − 𝑒𝑒 , 10 + 𝑒𝑒) 𝑒𝑒𝑒𝑒 𝑒𝑒𝑒𝑒 𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖 𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 𝑒𝑒𝑒𝑒 80 %, 𝑠𝑠𝑠𝑠 𝑃𝑃(10 − 𝑒𝑒 ≤ 𝑋𝑋 ≤ 10 + 𝑒𝑒 ) = 0,8
+
+
+      P(10 − e ≤ X ≤ 10 + e ) = 0,8 ⇒ P(X ≤ 10 + e ) − P( X ≤ 10 − e ) = 0,8 ⇒
+
+
+                          TIPIFICACIÓN:
+
+
+
+
+         2022
+                                                𝑍𝑍 =
+                                                       𝑋𝑋 − 𝜇𝜇
+                                                          𝜎𝜎
+                                                               =
+                                                                 𝑋𝑋 − 10
+                                                                    4
+
+                          𝑃𝑃(𝑋𝑋 ≤ 10 + 𝑒𝑒 ) = 𝑃𝑃( 4 𝑍𝑍 + 10 ≤ 10 + 𝑒𝑒 ) =
+                                                                         ⇒ 𝑋𝑋 = 4 𝑍𝑍 + 10
+
+
+
+                                                                            𝑒𝑒
+                                                 = 𝑃𝑃(4 𝑍𝑍 ≤ 𝑒𝑒 ) = 𝑃𝑃 �𝑍𝑍 ≤ �
+
+
+                          𝑃𝑃(𝑋𝑋 ≤ 10 − 𝑒𝑒 ) = 𝑃𝑃( 4 𝑍𝑍 + 10 ≤ 10 − 𝑒𝑒 ) =
+                                                                            4
+
+
+
+                                                                              −𝑒𝑒                 𝑒𝑒
+                                           = 𝑃𝑃(4 𝑍𝑍 ≤ −𝑒𝑒 ) = 𝑃𝑃 �𝑍𝑍 ≤           � = 1 − 𝑃𝑃 �𝑍𝑍 ≤ �
+                                                                              4                   4
+
+                    𝑒𝑒                𝑒𝑒                    𝑒𝑒                     𝑒𝑒
+          ⇒ 𝑃𝑃 �𝑍𝑍 ≤ � − �1 − 𝑃𝑃 �𝑍𝑍 ≤ �� = 0,8 ⇒ 2 𝑃𝑃 �𝑍𝑍 ≤ � − 1 = 0,8 ⇒ 𝑃𝑃 �𝑍𝑍 ≤ � = 0,9
+                    4                 4                     4                      4
+
+
+      Entonces, mirando en la tabla de la distribución normal:
+      𝑒𝑒
+         = 1,285 ⇒ 𝒆𝒆 = 𝟓𝟓, 𝟏𝟏𝟏𝟏
+      4
+
+      Por lo tanto, el intervalo característico para el 80% es:
+
+
+      (10 − e , 10 + 𝑒𝑒) = (𝟒𝟒, 𝟖𝟖𝟖𝟖 , 𝟏𝟏𝟏𝟏, 𝟏𝟏𝟏𝟏)
+                                   UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                              EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                  ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                   CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+b) 𝑃𝑃(𝑋𝑋 ≥ 11 ).
+
+   𝑃𝑃(𝑋𝑋 ≥ 11) = 𝑃𝑃( 4 𝑍𝑍 + 10 ≥ 11) =
+
+   = 𝑃𝑃(𝑍𝑍 ≥ 0,25) = 1 − 𝑃𝑃(𝑍𝑍 ≤ 0,25)
+
+   = 1 − 0,5987 = 0,4013 ⇒ 𝟒𝟒𝟒𝟒, 𝟏𝟏𝟏𝟏 %
+
+
+
+c) 𝑃𝑃(8 ≤ 𝑋𝑋 ≤ 10)
+
+   𝑃𝑃(8 ≤ 𝑋𝑋 ≤ 10) = 𝑃𝑃(𝑋𝑋 ≤ 10) − 𝑃𝑃(𝑋𝑋 ≤ 8)
+
+            𝑃𝑃(𝑋𝑋 ≤ 10) = 𝑃𝑃( 4 𝑍𝑍 + 10 ≤ 10 ) =
+
+            = 𝑃𝑃(𝑍𝑍 ≤ 0) = 0,5
+
+
+
+
+20
+            𝑃𝑃(𝑋𝑋 ≤ 8) = 𝑃𝑃( 4 𝑍𝑍 + 10 ≤ 8 ) =
+
+            = 𝑃𝑃(𝑍𝑍 ≤ −0,5) = 𝑃𝑃(𝑍𝑍 ≥ 0,5) =
+
+            = 1 − 𝑃𝑃(𝑍𝑍 ≤ 0,5) = 1 − 0,6915 = 0,3085
+
+
+
+
+  22
+   Por lo tanto; 𝑃𝑃(8 ≤ 𝑋𝑋 ≤ 10) = 0,5 − 0,3085 = 0,1915
+
+
+
+
+d) Proporción de días con más de 9º C.
+
+   𝑃𝑃 (𝑋𝑋 ≥ 9) = 𝑃𝑃( 4 𝑍𝑍 + 10 ≥ 9) =
+                                                            ⇒   𝟏𝟏𝟏𝟏, 𝟏𝟏𝟏𝟏 %
+
+
+
+
+   = 𝑃𝑃(𝑍𝑍 ≥ −0,25) = 𝑃𝑃(𝑍𝑍 ≤ 0,25) = 0,5987
+
+   ⇒ 59,87 %
+
+
+
+e) En un mes de 30 días, ¿cuántos días la temperatura no ha alcanzado los 12º C?
+
+            𝑃𝑃(𝑋𝑋 ≤ 12) = 𝑃𝑃( 4 𝑍𝑍 + 10 ≤ 12) = 𝑃𝑃(𝑍𝑍 ≤ 0,5) = 0,6915 ⇒ 69,15%
+
+   Entonces, el 69,15 % de 30 es 20,74 y como el número de días tiene que ser un
+
+   número natural, podemos decir que en 20 días la temperatura ha sido inferior a
+
+   12º C.
+                                             UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                        EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+                                               ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                                CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+B.4 Ejercicio de distribución de la media muestral. Valor de la media muestral y error
+máximo admisible.
+
+   •   En la estimación por intervalo de confianza de la media, conocemos la fórmula del
+       error máximo admisible, que es:
+                                                                            𝜎𝜎
+                                                            𝑒𝑒𝑚𝑚 = 𝑍𝑍𝛼𝛼 ∙
+                                                                     2      √𝑛𝑛
+
+                𝑒𝑒𝑚𝑚 es la mitad de la amplitud del intervalo.
+                                               54−51
+               Por lo tanto:          𝑒𝑒𝑚𝑚 =         = 1,5
+                                                 2
+
+               El valor de la desviación típica 𝜎𝜎, se estima a partir del valor muestral
+
+               obtenido, 𝑠𝑠 = 5,3 .
+
+               Sabemos que el tamaño muestral es 𝑛𝑛 = 100
+
+
+
+
+  20
+   •
+    22
+       Entonces, calculamos el valor de 𝑍𝑍𝛼𝛼 :
+
+
+                𝑒𝑒𝑚𝑚 = 𝑍𝑍𝛼𝛼 ∙
+
+
+
+
+       A partir de 𝑍𝑍𝛼𝛼 , obtenemos el nivel de confianza 1 − 𝛼𝛼 :
+                      2
+                           2
+                                𝜎𝜎
+                                √𝑛𝑛
+                                      ⇒ 1,5 = 𝑍𝑍𝛼𝛼 ∙
+                                                    2
+                                                        2
+
+
+                                                            5,3
+                                                            √100
+                                                                   ⇒ 15 = 5,3 ∙ 𝑍𝑍𝛼𝛼 ⇒ 𝑍𝑍𝛼𝛼 = 2,83
+                                                                                  2      2
+
+
+
+
+                           𝛼𝛼                        𝛼𝛼
+       𝑃𝑃 �𝑍𝑍 ≥ 𝑧𝑧𝛼𝛼 � =      ⇒ 1 − 𝑃𝑃 �𝑍𝑍 ≤ 𝑧𝑧𝛼𝛼 � = ⇒
+                  2        2                   2     2
+                                       𝛼𝛼
+       ⇒ 1 − 𝑃𝑃(𝑍𝑍 ≤ 2,83) =              ⇒
+                                       2
+                                               𝛼𝛼
+       ⇒ 1 − 0,9987 = 0,0023 =
+                                               2
+
+
+
+       Entonces:
+       𝛼𝛼
+          = 0,0023 ⇒ 𝜶𝜶 = 𝟎𝟎, 𝟎𝟎𝟎𝟎𝟎𝟎𝟎𝟎 ⇒ 𝟏𝟏 − 𝜶𝜶 = 𝟎𝟎, 𝟗𝟗𝟗𝟗𝟗𝟗𝟗𝟗
+       2
+
+
+    Por lo tanto, podemos decir con un nivel de confianza del 99,54 %, que el peso
+    medio de las chicas de 16 años de esa ciudad está entre 51 y 54 kg.
+

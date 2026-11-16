@@ -1,0 +1,505 @@
+           UNIBERTSITATEAN SARTZEKO            PRUEBA DE ACCESO A LA
+                     PROBA                         UNIVERSIDAD
+                2026ko EZOHIKOA                 EXTRAORDINARIA 2026
+            EBAZPENA ETA IRIZPIDEAK           SOLUCIONARIO Y CRITERIOS
+              TEKNOLOGIA ETA                      TECNOLOGÍA E
+               INGENIARITZA II                     INGENIERÍA II
+
+Azterketa lau blokek osatzen dute.
+Lehenengo eta hirugarren blokeak ariketa bakar batez osatuta daude, eta
+gainerako bietan bi ariketa daude.
+Ikasleak, lau blokeetako bakoitzean, ariketa bat bakarrik egin beharko du.
+Ariketa bakoitzean, zehaztuta daude haren ataletako bakoitzaren puntuazioak.
+Ariketa bakoitzak 10 puntu balio du.
+Ariketa bakoitzak balio bera du azterketa osoaren gainean (% 25). Azterketa
+osoa 10 punturen gainean puntuatuko da.
+
+
+
+
+            U
+Gai guztiek behar bezala arrazoituta eta garatuta egon behar dute, eta bereziki
+zaindu behar dira aurkezpena, teknologiako hiztegiaren erabilera egokia eta
+zuzentasun gramatikala.
+Ariketa bakoitzeko alderdi teorikoak edo praktikoak baloratzean, honako hauek
+hartuko dira kontuan:
+      Aurkezpena, ordena, garbitasuna.
+      Adierazpen zientifiko-teknikoa: teknologiako hiztegiaren erabilera egokia.
+
+
+
+
+EH    Koherentzia, kohesioa eta zuzentasun gramatikala.
+      Ordena logikoa, eta krokisak eta eskemak.
+      Arazoaren planteamendua eta garapena.
+      Garapenak arrazoitzea.
+      Arauak ezagutzea.
+      Unitateak behar bezala erabiltzea.
+      Emaitza partzialak eta azken emaitza.
+Zenbakizko emaitza bat jada lortutako beste balio baten araberakoa denean, ez
+du eraginik izango azken balio hori oker egoteak.
+
+
+
+
+                                                                      EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+           UNIBERTSITATEAN SARTZEKO          PRUEBA DE ACCESO A LA
+                     PROBA                       UNIVERSIDAD
+                 2026ko EZOHIKOA              EXTRAORDINARIA 2026
+            EBAZPENA ETA IRIZPIDEAK         SOLUCIONARIO Y CRITERIOS
+                TEKNOLOGIA ETA                  TECNOLOGÍA E
+                 INGENIARITZA II                 INGENIERÍA II
+
+                         1. BLOKEAREN SOLUZIOA
+a)
+
+
+
+
+            U
+      OF: portaera elastiko lineala.
+      FP: portaera elastiko ez-lineala.
+      P-tik aurrera: portaera plastikoa (Beste aukera zehatzago bat: PB
+
+
+
+
+EH
+b)
+
+
+𝜎
+𝑆𝐾 𝐴
+
+𝐴=
+
+
+
+b)
+
+𝜎
+  = →
+      portaera elasto-plastikoa eta B-tik aurrera portaera plastikoa).
+      B: isurpen-tentsioa / puntua.
+      R: estrikzio-puntua.
+      U: haustura-tentsioa / puntua
+
+
+
+   𝐹 550 200000
+      1,2
+     𝜋∅
+      4
+          =
+            𝐴
+                → 𝐴 = 436,36 𝑚𝑚
+
+
+        → 436,36 =
+
+Hauek dira erabili beharreko barrak: B2 erdiko aldean eta B4 muturretan.
+
+
+
+            =
+                𝑃
+                𝐴
+                  =
+                   𝜋∅
+                    4
+                      → ∅ = 23,57𝑚𝑚
+
+
+
+
+                    200000
+                    𝜋 · 0,03
+                             = 282,94 · 10 𝑃𝑎 = 282,94 𝑀𝑃𝑎
+                        4
+                      𝑃    200000
+𝜎                  = =            = 70,73 · 10 𝑃𝑎 = 70,73 𝑀𝑃𝑎
+                      𝐴 𝜋 · 0,06
+                             4
+
+
+
+
+                                                                    EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+           UNIBERTSITATEAN SARTZEKO         PRUEBA DE ACCESO A LA
+                     PROBA                      UNIVERSIDAD
+                  2026ko EZOHIKOA           EXTRAORDINARIA 2026
+            EBAZPENA ETA IRIZPIDEAK       SOLUCIONARIO Y CRITERIOS
+              TEKNOLOGIA ETA                  TECNOLOGÍA E
+               INGENIARITZA II                 INGENIERÍA II
+
+c)
+     𝜎    550
+𝐸=     =       = 110000 𝑀𝑃𝑎
+     𝜀   0,005
+                            𝜎       𝐿     𝜎                𝐿
+∆𝐿     + 2 · ∆𝐿         =          · +2                   · = 0,4
+                              𝐸     2           𝐸          4
+                          282,94 𝐿     70,73 𝐿
+∆𝐿     + 2 · ∆𝐿         =       · +2         · = 0,4 → 𝐿 = 248,8 𝑚𝑚
+                          110000 2    110000 4
+
+
+
+
+            U
+EH
+                                                                  EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+             UNIBERTSITATEAN SARTZEKO               PRUEBA DE ACCESO A LA
+                       PROBA                            UNIVERSIDAD
+                  2026ko EZOHIKOA                   EXTRAORDINARIA 2026
+             EBAZPENA ETA IRIZPIDEAK            SOLUCIONARIO Y CRITERIOS
+                 TEKNOLOGIA ETA                         TECNOLOGÍA E
+                  INGENIARITZA II                        INGENIERÍA II
+
+                              2. BLOKEAREN SOLUZIOA
+a)
+                               1                    𝑚
+𝑣       = 1800 · 2 · 0,08 ·      → 𝑣       = 4,80
+                              60                    𝑠
+
+
+b)
+      𝜋𝐷    𝜋 · 10
+𝑉 =      𝑒=        · 8 = 628,31 𝑐𝑚
+       4       4
+
+
+
+
+             𝐹
+              U
+𝑉 = 4 · 𝑉 = 4 · 628,31 = 2513,27 𝑐𝑚
+
+
+c)
+𝑃
+
+𝑃
+         =4·𝑃
+
+         =
+                    ·𝑣
+                    4
+                         → 100000 = 4 · 𝑃
+
+                               → 25000 =
+                                           𝐹
+                                                4
+                                                        →𝑃
+                                                    · 4,8
+                                                            →𝐹
+                                                                 = 25000 𝑊
+
+                                                                  = 20833,33 𝑁
+
+
+
+
+EH
+𝐴=
+
+𝐹
+
+
+
+d)
+
+
+
+
+𝑀=
+   𝑃
+     𝜋𝐷
+
+
+
+
+     𝜔
+      4
+        =
+
+        = 𝑃 · 𝐴 → 20833,33 = 𝑃 · 78,53 → 𝑃 = 265,3
+
+
+
+
+       2𝜋
+𝜔 = 1800 ·
+       60
+
+         =
+          𝜋 · 10
+             4
+
+
+
+
+          = 188,49 𝑟𝑎𝑑 𝑠
+
+           100000
+           188,49
+                 = 78,53 𝑐𝑚
+
+
+
+
+                   = 530,51 𝑁𝑚
+                                                             𝑁
+                                                            𝑐𝑚
+
+
+
+
+Hozteko makinak kontsumitutako lana: foku beroari emandako energiaren eta
+foku hotzetik ateratakoaren arteko aldea da.
+Bigarren printzipioaren errendimendua makinaren etekinaren (errendimendu
+erreala) eta etekin idealaren arteko zatidura da.
+
+
+
+
+                                                                          EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+            UNIBERTSITATEAN SARTZEKO           PRUEBA DE ACCESO A LA
+                      PROBA                        UNIVERSIDAD
+                   2026ko EZOHIKOA              EXTRAORDINARIA 2026
+            EBAZPENA ETA IRIZPIDEAK           SOLUCIONARIO Y CRITERIOS
+              TEKNOLOGIA ETA                      TECNOLOGÍA E
+               INGENIARITZA II                     INGENIERÍA II
+
+                           2. BLOKEAREN SOLUZIOA
+a)
+𝑇 = 300 + 273 = 573 𝐾
+𝑇 = 20 + 273 = 293 𝐾
+          𝑇 −𝑇   573 − 293
+𝜂     =        =           = 0,48
+            𝑇       573
+𝜂      = 0,3 · 𝜂        = 0,3 · 0,48 = 0,14
+
+
+b)
+
+𝜂
+
+
+
+c)
+       =
+           𝑊
+           𝑄
+
+             U
+             → 0,14 =
+                      32000
+                       𝑄
+                            → 𝑄 = 228571,42 𝐽
+
+
+
+
+𝑄 = 𝑄 − 𝑊 → 𝑄 = 228571,42 − 32000 = 196571,42 𝐽
+
+
+
+
+EH
+Zilindrada unitarioa: goiko eta beheko itopuntuen arteko zilindroaren bolumena
+da.
+Goiko itopuntua: pistoiak bere ibilbidearen goiko muturrean hartzen duen puntua.
+Pistoiaren posizioa birabarkia eta biela guztiz luzatuta daudenean.
+
+
+
+
+                                                                      EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+           UNIBERTSITATEAN SARTZEKO             PRUEBA DE ACCESO A LA
+                     PROBA                          UNIVERSIDAD
+                2026ko EZOHIKOA                 EXTRAORDINARIA 2026
+            EBAZPENA ETA IRIZPIDEAK          SOLUCIONARIO Y CRITERIOS
+              TEKNOLOGIA ETA                      TECNOLOGÍA E
+               INGENIARITZA II                     INGENIERÍA II
+
+                         3. BLOKEAREN SOLUZIOA
+a)
+Hasieran, zilindroaren zurtoina barruan dago.
+1.2 balbularen agintea edo 1.4 balbularen agintea sakatzean, zirkuituaren
+balbula hautatzaileak aireari pasatzen uzten dio, eta 1.1 zilindroaren balbulak
+lan-posizioa aldarazten du, zurtoina aterata.
+Zurtoina erabat ateratzen denean, 1.6 balbularen arrabolari eragiten zaio. Horren
+ondorioz, 1.1 balbula posizioz aldatzen da, eta zurtoina sartzen hasten da,
+hasierako egoerara itzuli arte.
+
+
+b)
+
+
+
+            U
+EH
+c)
+Emaria % 50era murriztuko duen noranzko bakarreko erregulazio-balbula bat
+erabiltzen da. Bi muntaketa-aukera (% 100eko balbula ez da beharrezkoa).
+
+
+
+
+                                                                      EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+     UNIBERTSITATEAN SARTZEKO    PRUEBA DE ACCESO A LA
+               PROBA                 UNIVERSIDAD
+         2026ko EZOHIKOA          EXTRAORDINARIA 2026
+     EBAZPENA ETA IRIZPIDEAK    SOLUCIONARIO Y CRITERIOS
+       TEKNOLOGIA ETA               TECNOLOGÍA E
+        INGENIARITZA II              INGENIERÍA II
+
+
+
+
+d)
+      U
+EH
+                                                        EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+             UNIBERTSITATEAN SARTZEKO                    PRUEBA DE ACCESO A LA
+                       PROBA                                 UNIVERSIDAD
+                   2026ko EZOHIKOA                        EXTRAORDINARIA 2026
+              EBAZPENA ETA IRIZPIDEAK                   SOLUCIONARIO Y CRITERIOS
+                 TEKNOLOGIA ETA                             TECNOLOGÍA E
+                  INGENIARITZA II                            INGENIERÍA II
+
+                              4. BLOKEAREN SOLUZIOA
+    a)
+                                A          B        C          S
+                                0          0        0          0
+                                0          0        1          1
+                                0          1        0          1
+                                0          1        1          0
+                                1          0        0          1
+                                1          0        1          0
+                                1          1        0          1
+
+    b)
+
+
+
+
+               U         C\AB
+                           0
+                           1
+
+
+                         C\AB
+                           0
+                                1
+
+
+                                     00
+                                      0
+                                      1
+
+
+                                     00
+                                      0
+                                           1
+
+
+                                               01
+                                               1
+                                               0
+
+
+                                               01
+                                               1
+                                                    1
+
+
+                                                          11
+
+
+
+
+                                                          1
+                                                           1
+                                                           1
+
+
+                                                          11
+                                                               1
+
+
+                                                                   10
+                                                                   1
+                                                                   0
+
+
+                                                                   10
+                                                                   1
+
+
+
+
+EH  c)
+                           1          1
+
+
+
+𝑆 = 𝐴 · 𝐵 + 𝐴 · 𝐶̅ + 𝐵 · 𝐶̅ + 𝐴̅ · 𝐵 · 𝐶
+                                               0
+
+
+
+
+𝑆 = (𝐴 + 𝐵 + 𝐶) · (𝐴 + 𝐵 + 𝐶̅ ) · (𝐴̅ + 𝐵 + 𝐶̅ )
+                                                          1        0
+
+
+
+
+Bi adierazpenen konplexutasuna antzekoa da. 0en adierazpena aukeratzen dut.
+    d)
+“0”enaren irudikapena
+
+
+
+
+                                                                                EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+           UNIBERTSITATEAN SARTZEKO          PRUEBA DE ACCESO A LA
+                     PROBA                       UNIVERSIDAD
+               2026ko EZOHIKOA                EXTRAORDINARIA 2026
+            EBAZPENA ETA IRIZPIDEAK         SOLUCIONARIO Y CRITERIOS
+              TEKNOLOGIA ETA                    TECNOLOGÍA E
+               INGENIARITZA II                   INGENIERÍA II
+
+                         4. BLOKEAREN SOLUZIOA
+a)
+
+
+
+
+            U
+EH
+b)
+Begizta itxiko kontrol-sistema: irteerako seinalearen zati bat erakusten du eta
+sarrerara eramaten du. Horretarako, atzeraelikadurako osagaiak izan behar
+dituzte nahitaez.
+
+                                                                    EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+           UNIBERTSITATEAN SARTZEKO         PRUEBA DE ACCESO A LA
+                     PROBA                      UNIVERSIDAD
+               2026ko EZOHIKOA               EXTRAORDINARIA 2026
+           EBAZPENA ETA IRIZPIDEAK         SOLUCIONARIO Y CRITERIOS
+             TEKNOLOGIA ETA                    TECNOLOGÍA E
+              INGENIARITZA II                   INGENIERÍA II
+
+Prozesua: urratsez urratseko eragiketen segida, emaitza jakin batera eramaten
+duena.
+
+
+
+
+            U
+EH
+                                                                   EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+

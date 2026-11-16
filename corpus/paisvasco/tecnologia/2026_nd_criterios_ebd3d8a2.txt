@@ -1,0 +1,496 @@
+           UNIBERTSITATEAN SARTZEKO            PRUEBA DE ACCESO A LA
+                     PROBA                         UNIVERSIDAD
+                2026ko EZOHIKOA                 EXTRAORDINARIA 2026
+            EBAZPENA ETA IRIZPIDEAK           SOLUCIONARIO Y CRITERIOS
+              TEKNOLOGIA ETA                       TECNOLOGÍA E
+               INGENIARITZA II                      INGENIERÍA II
+
+El examen está compuesto por cuatro bloques.
+El primer y tercer bloques están compuestos por un único ejercicio mientras que
+en los dos restantes hay dos ejercicios.
+El estudiante deberá contestar un ejercicio de cada uno de los cuatro bloques.
+En cada ejercicio se detallan las puntuaciones de cada uno de sus apartados.
+Cada ejercicio puntúa sobre 10 puntos.
+Cada uno de los ejercicios tiene el mismo valor sobre el conjunto del examen
+(25 %). La nota final del examen será sobre 10 puntos.
+
+
+
+
+            U
+En la valoración de las cuestiones teóricas o prácticas de cada ejercicio, se
+tendrá en cuenta:
+      La presentación, orden, limpieza.
+      La expresión científico-técnica: uso adecuado del vocabulario tecnológico.
+      Coherencia, cohesión y corrección gramatical.
+      El orden lógico, y los croquis y esquemas.
+
+
+
+
+EH    El planteamiento y desarrollo del problema.
+      El razonamiento de los desarrollos.
+      El conocimiento de las Normas.
+      La utilización correcta de unidades.
+      Los resultados parciales y el resultado final.
+Cuando un resultado numérico esté en función de otro valor ya obtenido, no
+influirá que éste último esté equivocado.
+
+
+
+
+                                                                      EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+           UNIBERTSITATEAN SARTZEKO             PRUEBA DE ACCESO A LA
+                     PROBA                          UNIVERSIDAD
+                 2026ko EZOHIKOA                EXTRAORDINARIA 2026
+            EBAZPENA ETA IRIZPIDEAK           SOLUCIONARIO Y CRITERIOS
+               TEKNOLOGIA ETA                     TECNOLOGÍA E
+                INGENIARITZA II                    INGENIERÍA II
+
+                            SOLUCIÓN BLOQUE 1
+a)
+
+
+
+
+             U
+       OF: comportamiento elástico lineal.
+       FP: comportamiento elástico no lineal.
+       A partir de P: comportamiento plástico (Otra opción más detallada: PB
+
+
+
+
+EH
+b)
+
+
+𝜎
+𝐶𝑆 𝐴
+
+𝐴=
+  = →
+
+     𝜋∅
+      4
+       comportamiento elasto-plástico y a partir de B comportamiento plástico).
+       B: punto / tensión de fluencia
+       R: punto de estricción.
+       U: punto / tensión de rotura
+
+
+
+
+   𝐹 550 200000
+      1,2
+          =
+            𝐴
+                → 𝐴 = 436,36 𝑚𝑚
+
+
+        → 436,36 =
+                   𝜋∅
+                    4
+                      → ∅ = 23,57𝑚𝑚
+
+Las barras a utilizar serán la B2 para la parte central y la B4 para los extremos.
+
+
+b)
+                 𝑃   200000
+𝜎            =     =         = 282,94 · 10 𝑃𝑎 = 282,94 𝑀𝑃𝑎
+                 𝐴 𝜋 · 0,03
+                        4
+                   𝑃   200000
+𝜎                = =           = 70,73 · 10 𝑃𝑎 = 70,73 𝑀𝑃𝑎
+                   𝐴 𝜋 · 0,06
+                          4
+
+                                                                      EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+           UNIBERTSITATEAN SARTZEKO          PRUEBA DE ACCESO A LA
+                     PROBA                       UNIVERSIDAD
+                   2026ko EZOHIKOA            EXTRAORDINARIA 2026
+            EBAZPENA ETA IRIZPIDEAK         SOLUCIONARIO Y CRITERIOS
+              TEKNOLOGIA ETA                    TECNOLOGÍA E
+               INGENIARITZA II                   INGENIERÍA II
+
+
+c)
+     𝜎    550
+𝐸=     =       = 110000 𝑀𝑃𝑎
+     𝜀   0,005
+                              𝜎        𝐿     𝜎            𝐿
+∆𝐿      + 2 · ∆𝐿          =           ·  +2              · = 0,4
+                                 𝐸     2         𝐸        4
+                            282,94 𝐿     70,73 𝐿
+∆𝐿      + 2 · ∆𝐿          =        · +2        · = 0,4 → 𝐿 = 248,8 𝑚𝑚
+                            110000 2    110000 4
+
+
+
+
+            U
+EH
+                                                                    EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+               UNIBERTSITATEAN SARTZEKO                     PRUEBA DE ACCESO A LA
+                         PROBA                                  UNIVERSIDAD
+                         2026ko EZOHIKOA                      EXTRAORDINARIA 2026
+                   EBAZPENA ETA IRIZPIDEAK                SOLUCIONARIO Y CRITERIOS
+                     TEKNOLOGIA ETA                              TECNOLOGÍA E
+                      INGENIARITZA II                             INGENIERÍA II
+
+                                      SOLUCIÓN BLOQUE 2
+a)
+                                     1                    𝑚
+𝑣    ó    = 1800 · 2 · 0,08 ·          → 𝑣   ó   = 4,80
+                                    60                    𝑠
+
+
+b)
+         𝜋𝐷    𝜋 · 10
+𝑉 =         𝑒=        · 8 = 628,31 𝑐𝑚
+          4       4
+
+
+
+
+               𝐹
+                   U
+𝑉 = 4 · 𝑉 = 4 · 628,31 = 2513,27 𝑐𝑚
+
+
+c)
+𝑃
+
+𝑃
+          =4·𝑃
+
+           =
+                     ó   ·𝑣
+                         4
+                              → 100000 = 4 · 𝑃
+                                ó
+                                    → 25000 =
+                                                 𝐹   ó
+                                                     4
+                                                          →𝑃
+                                                         · 4,8
+                                                                 →𝐹
+                                                                        = 25000 𝑊
+
+                                                                        ó   = 20833,33 𝑁
+
+
+
+
+EH
+𝐴=
+
+𝐹
+
+
+
+d)
+
+
+
+
+𝑀=
+     𝜋𝐷
+
+
+     ó
+      4
+
+
+
+
+      𝑃
+        =
+
+
+
+
+𝜔 = 1800 ·
+          𝜋 · 10
+
+
+
+
+          𝜔
+             4
+
+          = 𝑃 · 𝐴 → 20833,33 = 𝑃 · 78,53 → 𝑃 = 265,3
+
+
+
+
+               2𝜋
+               60
+
+               =
+                 = 78,53 𝑐𝑚
+
+
+
+
+                  = 188,49 𝑟𝑎𝑑 𝑠
+
+                  100000
+                  188,49
+                         = 530,51 𝑁𝑚
+                                                                    𝑁
+                                                                   𝑐𝑚
+
+
+
+
+Trabajo consumido por la máquina frigorífica: es la diferencia entre la energía
+aportada al foco caliente y la extraída del foco frío.
+El rendimiento del segundo principio es el cociente entre el rendimiento de la
+máquina (rendimiento real) y el rendimiento ideal.
+
+
+
+
+                                                                                    EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+            UNIBERTSITATEAN SARTZEKO           PRUEBA DE ACCESO A LA
+                      PROBA                        UNIVERSIDAD
+                  2026ko EZOHIKOA              EXTRAORDINARIA 2026
+             EBAZPENA ETA IRIZPIDEAK         SOLUCIONARIO Y CRITERIOS
+                 TEKNOLOGIA ETA                  TECNOLOGÍA E
+                  INGENIARITZA II                 INGENIERÍA II
+
+                              SOLUCIÓN BLOQUE 2
+a)
+𝑇 = 300 + 273 = 573 𝐾
+𝑇 = 20 + 273 = 293 𝐾
+          𝑇 −𝑇   573 − 293
+𝜂     =        =           = 0,48
+            𝑇       573
+𝜂    = 0,3 · 𝜂      = 0,3 · 0,48 = 0,14
+
+
+b)
+
+𝜂
+
+
+
+c)
+     =
+         𝑊
+         𝑄
+
+             U
+           → 0,14 =
+                    32000
+                     𝑄
+                          → 𝑄 = 228571,42 𝐽
+
+
+
+
+𝑄 = 𝑄 − 𝑊 → 𝑄 = 228571,42 − 32000 = 196571,42 𝐽
+
+
+
+
+EH
+Cilindrada unitaria: es el volumen del cilindro entre los puntos muertos superior
+e inferior.
+Punto muerto superior: punto que alcanza el pistón en el extremo superior de su
+recorrido. Posición del pistón cuando el cigüeñal y la biela están totalmente
+estirados.
+
+
+
+
+                                                                     EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+            UNIBERTSITATEAN SARTZEKO            PRUEBA DE ACCESO A LA
+                      PROBA                         UNIVERSIDAD
+                2026ko EZOHIKOA                  EXTRAORDINARIA 2026
+             EBAZPENA ETA IRIZPIDEAK           SOLUCIONARIO Y CRITERIOS
+               TEKNOLOGIA ETA                      TECNOLOGÍA E
+                INGENIARITZA II                     INGENIERÍA II
+
+                             SOLUCIÓN BLOQUE 3
+a)
+Inicialmente, el vástago del cilindro se encuentra recogido.
+Cuando se pulsa el mando de la válvula 1.2 o el mando de la válvula 1.4, la
+válvula selectora de circuito permite el paso del aire y hace que la válvula del
+cilindro1.1 cambie de posición de trabajo saliendo el vástago.
+Cuando el vástago sale completamente, se acciona el rodillo de la válvula 1.6,
+Esto hace que la válvula 1.1 cambie de posición y el vástago comience a
+recogerse hasta alcanzar el estado inicial.
+
+
+b)
+
+
+
+             U
+EH
+c)
+Se utiliza una válvula de regulación unidireccional que restrinja el caudal al 50 %.
+Dos alternativas de montaje (la válvula del 100% no es necesaria).
+
+
+
+
+                                                                       EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+     UNIBERTSITATEAN SARTZEKO    PRUEBA DE ACCESO A LA
+               PROBA                 UNIVERSIDAD
+         2026ko EZOHIKOA          EXTRAORDINARIA 2026
+     EBAZPENA ETA IRIZPIDEAK    SOLUCIONARIO Y CRITERIOS
+       TEKNOLOGIA ETA               TECNOLOGÍA E
+        INGENIARITZA II              INGENIERÍA II
+
+
+
+
+d)
+      U
+EH
+                                                        EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+             UNIBERTSITATEAN SARTZEKO                    PRUEBA DE ACCESO A LA
+                       PROBA                                 UNIVERSIDAD
+                   2026ko EZOHIKOA                        EXTRAORDINARIA 2026
+              EBAZPENA ETA IRIZPIDEAK                   SOLUCIONARIO Y CRITERIOS
+                 TEKNOLOGIA ETA                             TECNOLOGÍA E
+                  INGENIARITZA II                            INGENIERÍA II
+
+                                 SOLUCIÓN BLOQUE 4
+    a)
+                                A          B        C          S
+                                0          0        0          0
+                                0          0        1          1
+                                0          1        0          1
+                                0          1        1          0
+                                1          0        0          1
+                                1          0        1          0
+                                1          1        0          1
+
+    b)
+
+
+
+
+               U         C\AB
+                           0
+                           1
+
+
+                         C\AB
+                           0
+                                1
+
+
+                                     00
+                                      0
+                                      1
+
+
+                                     00
+                                      0
+                                           1
+
+
+                                               01
+                                               1
+                                               0
+
+
+                                               01
+                                               1
+                                                    1
+
+
+                                                          11
+
+
+
+
+                                                          1
+                                                           1
+                                                           1
+
+
+                                                          11
+                                                               1
+
+
+                                                                   10
+                                                                   1
+                                                                   0
+
+
+                                                                   10
+                                                                   1
+
+
+
+
+EH  c)
+                           1          1
+
+
+
+𝑆 = 𝐴 · 𝐵 + 𝐴 · 𝐶̅ + 𝐵 · 𝐶̅ + 𝐴̅ · 𝐵 · 𝐶
+                                               0
+
+
+
+
+𝑆 = (𝐴 + 𝐵 + 𝐶) · (𝐴 + 𝐵 + 𝐶̅ ) · (𝐴̅ + 𝐵 + 𝐶̅ )
+                                                          1        0
+
+
+
+
+La complejidad de ambas expresiones es similar. Elijo la de los “0”.
+    d)
+Representando la de los “0”
+
+
+
+
+                                                                                EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+           UNIBERTSITATEAN SARTZEKO         PRUEBA DE ACCESO A LA
+                     PROBA                      UNIVERSIDAD
+               2026ko EZOHIKOA               EXTRAORDINARIA 2026
+           EBAZPENA ETA IRIZPIDEAK         SOLUCIONARIO Y CRITERIOS
+             TEKNOLOGIA ETA                    TECNOLOGÍA E
+              INGENIARITZA II                   INGENIERÍA II
+
+                          SOLUCIÓN BLOQUE 4
+a)
+
+
+
+
+            U
+EH
+b)
+Sistema de control en lazo cerrado: muestrea parte de la señal de salida y la
+lleva a la entrada. Para ello deben tener componentes de retroalimentación
+obligatoriamente.
+
+                                                                   EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+          UNIBERTSITATEAN SARTZEKO        PRUEBA DE ACCESO A LA
+                    PROBA                     UNIVERSIDAD
+              2026ko EZOHIKOA              EXTRAORDINARIA 2026
+           EBAZPENA ETA IRIZPIDEAK       SOLUCIONARIO Y CRITERIOS
+             TEKNOLOGIA ETA                  TECNOLOGÍA E
+              INGENIARITZA II                 INGENIERÍA II
+
+Proceso: la sucesión de operaciones paso a paso que conduce a un resultado
+determinado.
+
+
+
+
+           U
+EH
+                                                                 EBAZPENA ETA IRIZPIDEAK/SOLUCIONARIO Y CRITERIOS
+

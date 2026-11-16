@@ -1,0 +1,1314 @@
+                 Euskal Herriko
+   Universidad   Unibertsitatea
+del País Vasco
+
+
+
+
+  Matematika II
+  Matemáticas II
+EAU 2023 USE
+                      UNIBERTSITATERA SARTZEKO   EVALUACIÓN PARA EL ACCESO A LA
+                             EBALUAZIOA                   UNIVERSIDAD
+
+                           2023ko EZOHIKOA             EXTRAORDINARIA 2023
+
+                            MATEMATIKA II                MATEMÁTICAS II
+
+
+
+Azterketa honek BOST atal ditu, bakoitza 2,5 puntukoa. Horietako LAUri
+erantzun behar diezu. Atal bakoitzeko galdera bati erantzun soilik.
+Jarraibideetan adierazitakoei baino galdera gehiagori erantzunez gero,
+erantzunak ordenari jarraituta zuzenduko dira, harik eta beharrezko ko-
+purura iritsi arte.
+Ez ahaztu azterketako orrialde bakoitzean kodea jartzea.
+
+Kalkulagailuak erabil daitezke baina ezaugarri hauek dituztenak ez:
+
+    pantaila grafikoa, datuak igortzeko aukera, programatzeko aukera,
+
+
+
+
+      20
+    ekuazioak ebazteko aukera, matrize-eragiketak egiteko aukera,
+    determinanteen kalkulua egiteko aukera,
+
+
+
+
+        23
+    deribatuak eta integralak egiteko aukera,
+    datu alfanumerikoak gordetzeko aukera.
+                      UNIBERTSITATERA SARTZEKO    EVALUACIÓN PARA EL ACCESO A LA
+                             EBALUAZIOA                    UNIVERSIDAD
+
+                           2023ko EZOHIKOA              EXTRAORDINARIA 2023
+
+                            MATEMATIKA II                 MATEMÁTICAS II
+
+
+
+Este examen tiene cinco partes, de 2,5 puntos cada una. Debes respon-
+der a CUATRO de ellas. En cada parte debes responder a una única
+pregunta.
+En caso de responder a más preguntas de las estipuladas, las respues-
+tas se corregirán en orden hasta llegar al número necesario.
+No olvides incluir el código en cada una de las hojas de examen.
+
+No se podrán usar calculadoras que tengan alguna de las siguientes presta-
+ciones:
+
+
+
+
+      20
+    pantalla gráfica, posibildad de transmitir datos, programable,
+    resolución de ecuaciones, operaciones con matrices,
+    cálculo de determinantes,
+
+
+
+
+        23
+    cálculo de derivadas e integrales,
+    almacenamiento de datos alfanuméricos.
+                      UNIBERTSITATERA SARTZEKO          EVALUACIÓN PARA EL ACCESO A LA
+                             EBALUAZIOA                          UNIVERSIDAD
+
+                              2023ko EZOHIKOA                  EXTRAORDINARIA 2023
+
+                               MATEMATIKA II                         MATEMÁTICAS II
+
+
+
+                         N (0, 1) kurbak −∞-tik z-raino mugatutako azalerak
+                         Áreas limitadas por la curva N (0, 1) desde −∞ hasta z
+                z
+
+
+       0’00    0’01    0’02     0’03   0’04    0’05   0’06    0’07     0’08   0’09
+0’0   0’5000   0’5040 0’5080 0’5120 0’5160 0’5199 0’5239     0’5279   0’5319 0’5359
+0’1   0’5398   0’5438 0’5478 0’5517 0’5557 0’5596 0’5636     0’5675   0’5714 0’5753
+0’2   0’5793   0’5832 0’5871 0’5910 0’5948 0’5987 0’6026     0’6064   0’6103 0’6141
+0’3   0’6179   0’6217 0’6255 0’6293 0’6331 0’6368 0’6406     0’6443   0’6480 0’6517
+0’4   0’6554   0’6591 0’6628 0’6664 0’6700 0’6736 0’6772     0’6808   0’6844 0’6879
+0’5   0’6915   0’6950 0’6985 0’7019 0’7054 0’7088 0’7123     0’7157   0’7190 0’7224
+0’6   0’7257   0’7291 0’7324 0’7357 0’7389 0’7422 0’7454     0’7486   0’7517 0’7549
+0’7   0’7580   0’7611 0’7642 0’7673 0’7704 0’7734 0’7764     0’7794   0’7823 0’7852
+
+
+
+
+ 20
+0’8
+0’9
+1’0
+1’1
+1’2
+      0’7881
+      0’8159
+      0’8413
+      0’8643
+      0’8849
+               0’7910 0’7939 0’7967 0’7995 0’8023 0’8051
+               0’8186 0’8212 0’8238 0’8264 0’8289 0’8315
+               0’8438 0’8461 0’8485 0’8508 0’8531 0’8554
+               0’8665 0’8686 0’8708 0’8729 0’8749 0’8770
+               0’8869 0’8888 0’8907 0’8925 0’8944 0’8962
+                                                             0’8078
+                                                             0’8340
+                                                             0’8577
+                                                             0’8790
+                                                             0’8980
+                                                                      0’8106 0’8133
+                                                                      0’8365 0’8389
+                                                                      0’8599 0’8621
+                                                                      0’8810 0’8830
+                                                                      0’8997 0’9015
+1’3
+1’4
+1’5
+1’6
+1’7
+1’8
+1’9
+2’0
+2’1
+2’2
+   23 0’9032
+      0’9192
+      0’9332
+      0’9452
+      0’9554
+      0’9641
+      0’9713
+      0’9772
+      0’9821
+      0’9861
+               0’9049 0’9066 0’9082 0’9099 0’9115 0’9131
+               0’9207 0’9222 0’9236 0’9251 0’9265 0’9279
+               0’9345 0’9357 0’9370 0’9382 0’9394 0’9406
+               0’9463 0’9474 0’9484 0’9495 0’9505 0’9515
+               0’9564 0’9573 0’9582 0’9591 0’9599 0’9608
+               0’9649 0’9656 0’9664 0’9671 0’9678 0’9686
+               0’9719 0’9726 0’9732 0’9738 0’9744 0’9750
+               0’9778 0’9783 0’9788 0’9793 0’9798 0’9803
+               0’9826 0’9830 0’9834 0’9838 0’9842 0’9846
+               0’9864 0’9868 0’9871 0’9875 0’9878 0’9881
+                                                             0’9147
+                                                             0’9292
+                                                             0’9418
+                                                             0’9525
+                                                             0’9616
+                                                             0’9693
+                                                             0’9756
+                                                             0’9808
+                                                             0’9850
+                                                             0’9884
+                                                                      0’9162 0’9177
+                                                                      0’9306 0’9319
+                                                                      0’9429 0’9441
+                                                                      0’9535 0’9545
+                                                                      0’9625 0’9633
+                                                                      0’9699 0’9706
+                                                                      0’9761 0’9767
+                                                                      0’9812 0’9817
+                                                                      0’9854 0’9857
+                                                                      0’9887 0’9890
+2’3   0’9893   0’9896 0’9898 0’9901 0’9904 0’9906 0’9909     0’9911   0’9913 0’9916
+2’4   0’9918   0’9920 0’9922 0’9925 0’9927 0’9929 0’9931     0’9932   0’9934 0’9936
+2’5   0’9938   0’9940 0’9941 0’9943 0’9945 0’9946 0’9948     0’9949   0’9951 0’9952
+2’6   0’9953   0’9955 0’9956 0’9957 0’9959 0’9960 0’9961     0’9962   0’9963 0’9964
+2’7   0’9965   0’9966 0’9967 0’9968 0’9969 0’9970 0’9971     0’9972   0’9973 0’9974
+2’8   0’9974   0’9975 0’9976 0’9977 0’9977 0’9978 0’9979     0’9979   0’9980 0’9981
+2’9   0’9981   0’9982 0’9982 0’9983 0’9984 0’9984 0’9985     0’9985   0’9986 0’9986
+3’0   0’9987   0’9987 0’9987 0’9988 0’9988 0’9989 0’9989     0’9989   0’9990 0’9990
+3’1   0’9990   0’9991 0’9991 0’9991 0’9992 0’9992 0’9992     0’9992   0’9993 0’9993
+3’2   0’9993   0’9993 0’9994 0’9994 0’9994 0’9994 0’9994     0’9995   0’9995 0’9995
+3’3   0’9995   0’9995 0’9995 0’9996 0’9996 0’9996 0’9996     0’9996   0’9996 0’9997
+3’4   0’9997   0’9997 0’9997 0’9997 0’9997 0’9997 0’9997     0’9997   0’9997 0’9998
+3’5   0’9998   0’9998 0’9998 0’9998 0’9998 0’9998 0’9998     0’9998   0’9998 0’9998
+3’6   0’9998   0’9998 0’9999 0’9999 0’9999 0’9999 0’9999     0’9999   0’9999 0’9999
+3’7   0’9999   0’9999 0’9999 0’9999 0’9999 0’9999 0’9999     0’9999   0’9999 0’9999
+3’8   0’9999   0’9999 0’9999 0’9999 0’9999 0’9999 0’9999     0’9999   0’9999 0’9999
+3’9   1’0000   1’0000 1’0000 1’0000 1’0000 1’0000 1’0000     1’0000   1’0000 1’0000
+                      UNIBERTSITATERA SARTZEKO        EVALUACIÓN PARA EL ACCESO A LA
+                             EBALUAZIOA                        UNIVERSIDAD
+
+                             2023ko EZOHIKOA                   EXTRAORDINARIA 2023
+
+                              MATEMATIKA II                       MATEMÁTICAS II
+
+
+
+LEHEN ATALA (2,5 puntu). Bietariko bati bakarrik erantzun.
+A1 Ariketa
+Izan bedi honako ekuazio linealetako sistema hau:
+                           
+                           
+                            3x + y + αz = 0,
+                           
+                           
+                           
+                            2x + αy + z = 1,
+                           
+                           
+                           
+                           3x + αy + z = α − 1.
+
+
+Eztabaidatu haren bateragarritasuna α parametroaren balioen arabera.
+Ebatzi sistema α = 0 kasurako, ahal bada.
+
+
+
+
+      20
+B1 Ariketa
+Kalkulatu honako bi berdintza hauek betetzen dituzten A eta B matrizeak:
+                                  
+                                2 8 2 9
+                                                
+
+
+
+
+        23
+                        A + B =         ,
+                                2 6 2 11
+                                                         
+                                 6 −16 6 −3
+                     3A − 2B =              .
+                                −4 18 −4 18
+
+
+BIGARREN ATALA (2,5 puntu). Bietariko bati bakarrik erantzun.
+
+A2 Ariketa
+Izan bitez r zuzena eta π planoa. P (1, −1, 2) puntuan perpendikularki elkar
+ebakitzen dutenak. Baldin eta π planoa Q(1, 2, 3) puntutik pasatzen bada eta
+(0, 0, 2) bektorea barne badu, kalkulatu r zuzenaren eta π planoaren ekua-
+zioak.
+
+B2 Ariketa
+Honako ekuazio hauek duten hiru planoak hartzen dira:
+  π1 ≡ 4x + 2y − 4z = 2,    π2 ≡ x − y − z = 2      eta       π3 ≡ x + ay + z = b.
+Existitzen al da a eta b parametroen baliorik zeinetarako hiru planoek zuzen
+batean elkar ebakitzen duten? Erantzuna ezezkoa bada, arrazoitu. Erantzuna
+baiezkoa bada, kalkulatu balio horiek.
+                       UNIBERTSITATERA SARTZEKO     EVALUACIÓN PARA EL ACCESO A LA
+                              EBALUAZIOA                     UNIVERSIDAD
+
+                            2023ko EZOHIKOA              EXTRAORDINARIA 2023
+
+                              MATEMATIKA II                 MATEMÁTICAS II
+
+
+
+HIRUGARREN ATALA (2,5 puntu). Bietariko bati bakarrik erantzun.
+
+A3 Ariketa
+                       x
+Izan bedi f (x) =          . Aztertu f -ren gorakortasun- eta beherakortasun-
+                    x2 + 1
+tarteak, kalkulatu haren asintotak, eta aurkitu f funtzioaren grafikoaren zuzen
+ukitzailea x = 0 abszisa duen puntuan. Egin f funtzioaren grafikoaren gutxi
+gorabeherako irudikapena.
+
+B3 Ariketa
+Izan bedi f (x) = x3 + Ax2 + Bx + C. Aurkitu A, B eta C parametroen balioak
+
+
+
+
+      20
+f (0) = 2 izan dadin, f -ren grafikoaren zuzen ukitzaileak x = 1 eta x = 3 abs-
+zisa duten puntuetan paraleloak izan daitezen, eta f -k mutur erlatiboa izan
+dezan x = −1 puntuan. Mutur erlatibo hori maximoa ala minimoa da? Aztertu
+f -k beste mutur erlatiborik al duen eta zehaztu maximoak edo minimoak di-
+
+
+
+
+        23
+ren.
+
+LAUGARREN ATALA (2,5 puntu). Bietariko bati bakarrik erantzun.
+
+A4 Ariketa
+          ∫
+Kalkulatu (x2 + 1)ex+1 dx, eta azaldu kalkulurako erabilitako metodoa.
+
+B4 Ariketa
+Marraztu y = 2x2 − 4x + 3 eta y = x2 − 2x + 3 ekuazioetako parabolek
+mugatzen duten eremua, eta kalkulatu eremu horren azalera.
+                      UNIBERTSITATERA SARTZEKO     EVALUACIÓN PARA EL ACCESO A LA
+                             EBALUAZIOA                     UNIVERSIDAD
+
+                            2023ko EZOHIKOA             EXTRAORDINARIA 2023
+
+                             MATEMATIKA II                 MATEMÁTICAS II
+
+
+
+BOSGARREN ATALA (2,5 puntu). Bietariko bati bakarrik erantzun.
+
+A5 Ariketa
+Bi dado ditugu, bata normala eta bestea trukatua. Trukatuan bata 4 aldiz
+dago, eta bia, 2 aldiz. Dado bat ausaz aukeratzen da, eta bitan jaurtitzen
+da.
+
+ a) Zein da lehen jaurtiketan 1 zenbakia eta bigarrenean 2 zenbakia lortzeko
+    probabilitatea?
+ b) Lehenengo jaurtiketaren emaitza 1 zenbakia eta bigarrenarena 2 zen-
+
+
+
+
+      20
+    bakia izan direla jakinik, kalkulatu dado trukatua hautatua izateko proba-
+    bilitatea.
+
+B5 Ariketa
+
+
+
+
+        23
+Mahai baten gainean 500 txanpon dituen kutxa bat hustu da, Kalkulatu
+
+ a) aurki kopurua 240 baino handiagoa izateko probabilitatea;
+ b) aurki kopurua 230 baino txikiagoa izateko probabilitatea;
+ c) aurki kopurua 230 eta 240 bitartean (biak barne) egoteko probabilitatea.
+                       UNIBERTSITATERA SARTZEKO          EVALUACIÓN PARA EL ACCESO A LA
+                              EBALUAZIOA                          UNIVERSIDAD
+
+                              2023ko EZOHIKOA                   EXTRAORDINARIA 2023
+
+                               MATEMATIKA II                       MATEMÁTICAS II
+
+
+
+PRIMERA PARTE (2,5 puntos). Responde solo a uno de los dos ejercicios.
+
+Ejercicio A1
+Se considera el sistema de ecuaciones lineales que sigue:
+                            
+                            
+                             3x + y + αz = 0,
+                            
+                            
+                            
+                             2x + αy + z = 1,
+                            
+                            
+                            
+                            3x + αy + z = α − 1.
+
+
+Discute su compatibilidad en función de los valores del parámetro α.
+Resuelve el sistema para α = 0, si es posible.
+
+
+
+
+      20
+Ejercicio B1
+Calcula las dos matrices A y B que satisfacen las siguientes igualdades:
+                                                
+
+
+
+
+        23              A + B =
+                                2 8 2 9
+                                2 6 2 11
+
+                      3A − 2B = 
+                                   
+                                         ,
+
+                                  6 −16 6 −3
+                                 −4 18 −4 18
+                                              .
+                                                          
+
+
+
+
+SEGUNDA PARTE (2,5 puntos). Responde solo a uno de los dos ejercicios.
+
+Ejercicio A2
+Sean la recta r y el plano π, que se cortan perpendicularmente en el punto
+P (1, −1, 2). Si el plano π pasa por el punto Q(1, 2, 3) y contiene al vector
+(0, 0, 2), calcula las ecuaciones de la recta r y del plano π.
+
+Ejercicio B2
+Se consideran tres planos de ecuaciones:
+   π1 ≡ 4x + 2y − 4z = 2,     π2 ≡ x − y − z = 2     y        π3 ≡ x + ay + z = b.
+¿Existen valores de los parámetros a y b para los cuales los tres planos se
+cortan en una recta? En caso de que la respuesta sea negativa, razónala.
+En el caso de que la respuesta sea positiva, calcula dichos valores.
+                       UNIBERTSITATERA SARTZEKO     EVALUACIÓN PARA EL ACCESO A LA
+                              EBALUAZIOA                     UNIVERSIDAD
+
+                             2023ko EZOHIKOA              EXTRAORDINARIA 2023
+
+                              MATEMATIKA II                  MATEMÁTICAS II
+
+
+
+TERCERA PARTE (2,5 puntos). Responde solo a uno de los dos ejercicios.
+
+Ejercicio A3
+                 x
+Sea f (x) =          . Estudia los intervalos de crecimiento y decrecimiento de
+              x2 + 1
+f , calcula sus asíntotas, y encuentra la recta tangente a la gráfica de f en el
+punto de abscisa x = 0. Haz una representación aproximada de la gráfica de
+la función f .
+
+Ejercicio B3
+Sea f (x) = x3 + Ax2 + Bx + C. Encuentra los valores de los parámetros A,
+
+
+
+
+      20
+B y C para que f (0) = 2, las rectas tangentes a la gráfica de f en los puntos
+de abscisa x = 1 y x = 3 sean paralelas y f tenga un extremo relativo en el
+punto x = −1. Ese extremo relativo, ¿es un máximo o un mínimo? Estudia si
+f tiene algún otro extremo relativo y determina si son máximos o mínimos.
+
+
+
+
+        23
+CUARTA PARTE (2,5 puntos). Responde solo a uno de los dos ejercicios.
+
+Ejercicio A4
+        ∫
+Calcula (x2 + 1)ex+1 dx, explicando el método utilizado.
+
+Ejercicio B4
+Dibuja el recinto limitado por las parábolas de ecuaciones y = 2x2 − 4x + 3 e
+y = x2 − 2x + 3 y calcula el área de ese recinto.
+                     UNIBERTSITATERA SARTZEKO    EVALUACIÓN PARA EL ACCESO A LA
+                            EBALUAZIOA                    UNIVERSIDAD
+
+                           2023ko EZOHIKOA            EXTRAORDINARIA 2023
+
+                            MATEMATIKA II                MATEMÁTICAS II
+
+
+
+QUINTA PARTE (2,5 puntos). Responde solo a uno de los dos ejercicios.
+
+Ejercicio A5
+Tenemos dos dados, uno normal y otro trucado. En el trucado hay 4 unos y
+2 doses. Se elige un dado al azar y se tira dos veces.
+
+ a) ¿Cuál es la probabilidad de obtener un 1 en la primera tirada y un 2 en
+    la segunda?
+ b) Sabiendo que el resultado de la primera tirada ha sido un 1 y el de la
+    segunda ha sido un 2, calcula la probabilidad de que se haya escogido
+
+
+
+
+      20
+    el dado trucado.
+
+Ejercicio B5
+
+
+
+
+        23
+Una caja que contiene 500 monedas es vaciada sobre una mesa. Halla
+
+ a) la probabilidad de que el número de caras sea mayor que 240;
+ b) la probabilidad de que el número de caras sea menor que 230;
+ c) la probabilidad de que el número de caras esté comprendido entre 230
+    y 240, ambos incluidos.
+                                                UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                           EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                  ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                   CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+MATEMATIKA II
+EBALUATZEKO IRIZPIDE OROKORRAK
+
+ 1. Probaren puntuazioa, guztira, 0 eta 10 puntu bitartekoa izango da.
+ 2. Ariketa guztiak berdin baloratuko dira: 0 eta 2,5 puntuen artean.
+ 3. Planteamendu egokiak baloratuko dira, bai planteamendu orokorra, bai
+    atal bakoitzaren planteamendua (halakorik balego).
+ 4. Zenbakizko akatsak –kalkuluetan egindakoak eta abar– ez dira kontuan
+    hartuko, baldin eta akats kontzeptualak ez badira.
+ 5. Positiboki baloratuko dira soluzioa hobeto ikusarazten dituzten ideiak,
+
+
+
+
+      20
+    eskemak, grafikoak, aurkezpenak etab.
+ 6. Azterketa txukun aurkeztea aintzat hartuko da.
+ 7. Jarraibideetan adierazitakoei baino galdera gehiagori erantzunez gero,
+
+
+
+
+A1.
+        23
+    erantzunak ordenari jarraituta zuzenduko dira, harik eta beharrezko ko-
+    purura iritsi arte.
+
+Ariketa bakoitzari dagozkion irizpide bereziak
+
+
+
+        Matrizearen determinantearen kalkulua eta determinantea anulatzen
+        ez den kasuak eztabaidatzea (1 puntu).
+        α = −1 eta α = 1 kasuak eztabaidatzea (1 puntu).
+        α = 0 kasurako ebazpena (0,5 puntu).
+B1.
+        Matrize bat zuzen kalkulatzea (1,5 puntu).
+        Beste matrizea zuzen kalkulatzea (1 puntu).
+                                              UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                         EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                 CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+A2.
+      Planoaren bektore normala zuzen kalkulatzea (0,75 puntu).
+      Planoaren ekuazioa zuzen kalkulatzea (0,75 puntu).
+      Zuzenaren ekuazioa zuzen kalkulatzea (1 puntu).
+B2.
+      Hiru planoek osatutako sistema eztabaidatzea (1,5 puntu).
+      Egindako galderari zuzen erantzutea (1 puntu).
+A3.
+
+
+
+
+      20
+      Funtzioaren deribatua zuzen kalkulatzea (0,5 puntu).
+      Gorakortasun- eta beherakortasun-tarteak zuzen kalkulatzea (0,5
+      puntu).
+
+
+
+
+B3.
+        23
+      f -ren asintotak zuzen kalkulatzea (0,5 puntu).
+      x = 0 puntuko zuzen ukitzailea zuzen kalkulatzea (0,5 puntu).
+      f -ren adierazpen grafikoa (0,5 puntu).
+
+
+      A, B eta C parametroak zuzen kalkulatzea (1,5 puntu).
+      x = −1 puntuko muturraren azterketa (0,5 puntu).
+      x = 5 puntuko muturraren azterketa (0,5 puntu).
+A4.
+      Zatikako integrazioaren metodoaren azalpena (0,5 puntu).
+      Lehen zatikako integrazioa zuzen kalkulatzea (1 puntu).
+      Bigarren zatikako integrazioa zuzen kalkulatzea (1 puntu).
+B4.
+      Eremua ondo marraztea, eta grafikoen ebaki-puntuak kalkulatzea.
+      (1,5 puntu).
+      Eremuaren azalera kalkulatzea, Barrow-en erregela erabiliz (1 puntu).
+                                               UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                          EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                 CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+A5.
+      Ariketa zuzen planteatzea (0,5 puntu).
+      a) atala zuzen ebaztea (1 puntu).
+      b) atala zuzen ebaztea (1 puntu).
+B5.
+      Probabilitate-eredua identifikatzea (0,5 puntu).
+      a) atala zuzen ebaztea (0,75 puntu).
+      b) atala zuzen ebaztea (0,75 puntu).
+
+
+
+
+      20
+      c) atala zuzen ebaztea (0,5 puntu).
+
+
+
+
+        23
+                                               UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                          EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                 ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                  CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+MATEMÁTICAS II
+CRITERIOS GENERALES DE EVALUACIÓN
+
+ 1. El examen se valorará con una puntuación entre 0 y 10 puntos.
+ 2. Todos los problemas tienen el mismo valor: hasta 2,5 puntos.
+ 3. Se valorará el planteamiento correcto, tanto global como de cada una
+    de las partes, si las hubiere.
+ 4. No se tomarán en consideración errores numéricos, de cálculo, etc, siem-
+    pre que no sean de tipo conceptual.
+
+
+
+
+      20
+ 5. Las ideas, gráficos, presentaciones, esquemas, etc, que ayuden a vi-
+    sualizar mejor el problema y su solución se valorarán positivamente.
+ 6. Se valorará la buena presentación del examen.
+
+
+
+
+A1.
+        23
+ 7. En caso de responder a más preguntas de las estipuladas, las respues-
+    tas se corregirán en orden hasta llegar al número necesario.
+
+Criterios particulares de cada uno de los problemas
+
+
+
+       Cálculo del determinante de la matriz y discusión para los casos en
+       los que no se anula el determinante (1 punto).
+       Discusión para los casos de α = −1 y α = 1 (1 punto).
+       Resolución para el caso α = 0 (0,5 puntos).
+B1.
+       Cálculo correcto de una de las matrices (1,5 puntos).
+       Cálculo correcto de la otra matriz (1 punto).
+                                              UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                         EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                 CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+A2.
+      Cálculo correcto del vector normal del plano (0,75 puntos).
+      Cálculo correcto de la ecuación del plano (0,75 puntos).
+      Cálculo correcto de la ecuación de la recta (1 punto).
+B2.
+      Discusión del sistema formado por los tres planos (1,5 puntos).
+      Resolución correcta de la pregunta formulada (1 punto).
+A3.
+
+
+
+
+      20
+      Cálculo correcto de la derivada de la función (0,5 puntos).
+      Cálculo de los intervalos de crecimiento y decrecimiento (0,5 pun-
+      tos).
+
+
+
+
+B3.
+        23
+      Cálculo de las asíntotas de f (0,5 puntos).
+      Cálculo de la recta tangente en x = 0 (0,5 puntos).
+      Representación gráfica de f (0,5 puntos).
+
+
+      Cálculo correcto de los parámetros A, B y C (1,5 puntos).
+      Análisis del extremo en x = −1 (0,5 puntos).
+      Análisis del extremo en x = 5 (0,5 puntos).
+A4.
+      Explicación del método de integración por partes (0,5 puntos).
+      Cálculo correcto de la primera integración por partes (1 punto).
+      Cálculo correcto de la segunda integración por partes (1 punto).
+                                              UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                         EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                 CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+B4.
+      Dibujo adecuado del recinto y cálculo de los puntos de corte de las
+      gráficas (1,5 puntos).
+      Cálculo correcto del área del recinto mediante la regla de Barrow (1
+      punto).
+A5.
+      Planteamiento correcto del ejercicio (0,5 puntos).
+      Resolución correcta del apartado a) (1 punto).
+      Resolución correcta del apartado b) (1 punto).
+B5.
+
+
+      20
+      Identificar el modelo de probabilidad (0,5 puntos).
+
+
+
+
+        23
+      Resolución correcta del apartado a) (0,75 puntos).
+      Resolución correcta del apartado b) (0,75 puntos).
+      Resolución correcta del apartado c) (0,5 puntos).
+                                                      UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                                 EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                    ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                     CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+ARIKETEN EBAZPENAK
+A1 EBAZPENA
+Koefizienteen matrizearen determinantea −α2 + 1 da. Orduan, α ̸= 1 eta
+α ̸= −1 bada, sistema BATERAGARRI DETERMINATUA da.
+α = 1 bada, koefizienteen matrizearen heina 2 da, eta baita ere matrize za-
+balduarena; beraz, sistema BATERAGARRI INDETERMINATUA da.
+α = −1 bada, koefizienteen matrizearen heina 2 da, eta matrize zabaldua-
+rena, aldiz, 3; beraz, sistema BATERAEZINA da.
+α = 0 bada, sistemaren soluzioa x = −2, y = 6 eta z = 5 da.
+
+
+
+
+      20
+B1 EBAZPENA
+A + B matrizea 2z biderkatzen da, eta emaitza 3A − 2B-ri batzen zaio, hau
+lortzeko:
+
+
+
+
+        23
+                                                                    
+                        6 −16 6 −3 4 16 4 18
+ 3A − 2B + 2(A + B) =             +
+                       −4 18 −4 18   4 12 4 22
+                                                                                   
+                                    10 0 10 15          2 0 2 3
+                          =⇒ 5A =              =⇒ A =           .
+                                    0 30 0 40            0 6 0 8
+Orduan,
+                                                                          
+                 2 8 2 9  2 0 2 3 0 8 0 6
+       B =A+B−A=         −         =          .
+                 2 6 2 11   0 6 0 8   2 0 2 3
+3(A + B) − (3A − 2B) = 5B kalkulatzen has daiteke ere.
+
+A2 EBAZPENA
+π planoaren P eta Q puntuek definitzen duten bektorea (0, 3, 1) da, eta (0, 0, 2)
+bektorea planoaren beste bektore bat da; beraz, π planoaren bektore normala
+hau da:
+                     ⃗n = (0, 3, 1) × (0, 0, 2) = (6, 0, 0).
+Gainera, π P puntutik pasatzen da; beraz, π-ren ekuazioa x − 1 = 0 da.
+                                                UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                           EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                  ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                   CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+Zuzena eta planoa perpendikularrak direnez, zuzenaren norabide-bektorea
+planoaren bektore normal bat da, adibidez, (1, 0, 0). r P puntutik pasatzen
+denez, hauek dira zuzenaren ekuazio parametrikoak:
+                        {x = 1 + t, y = −1, z = 2}.
+
+
+
+B2 EBAZPENA
+Hiru planoek ekuazio-sistema hau osatzen dute:
+                           
+                           
+                           
+                           
+                           
+                            4x + 2y − 4z = 2,
+                           
+
+
+
+
+      20                   x − y − z = 2,
+                           
+                           
+                           
+                           x + ay + z = b.
+
+
+Hiru planoek zuzen batean elkar ebakitzeko, sistemak bateragarri indeter-
+
+
+
+
+        23
+minatua izan behar du. M koefizienteen matrizea eta M ∗ matrize zabaldua
+badira, aurreko sistema bateragarri indeterminatua izateko M -ren heinak eta
+M ∗ matrizearenak berdinak izan behar dute, eta ezezagun kopurua baino
+txikiagoak.
+Kasu honetan, a eta b parametroen edozein baliotarako, M -ren heina, M ∗ -
+ren heina eta ezezagun kopurua 3 dira; beraz, hiru planoek puntu batean
+ebakitzen dute elkar, ez zuzen batean.
+Ez dago a eta b parametroen baliorik hiru planoek zuzen batean elkar ebaki
+dezaten.
+
+A3 EBAZPENA
+          (1 − x)(1 + x)
+f ′ (x) =                da; beraz, f beherakorra da (−∞, −1) eta (1, +∞)
+             (x2 + 1)2
+tarteetan; eta gorakorra da (−1, 1) tartean.
+f -k ez dauka asintota bertikalik eta y = 0 asintota horizontala da −∞-n eta
++∞-n.
+f -ren grafikoaren zuzen ukitzailea x = 0 abszisa duen puntuan y = x da.
+f -ren grafikoa honako hau da:
+                                                              UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                                         EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                           ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                            CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+                                             -1
+                                                     1
+
+
+
+
+B3 EBAZPENA
+
+
+
+
+       20
+f (0) = C denez, C = 2 da. Bestalde, f ′ (x) = 3x2 + 2Ax + B da, eta f -
+ren grafikoaren zuzen ukitzaileak x = 1 eta x = 3 abszisa duten puntuetan
+paraleloak izan daitezen hau bete behar da: f ′ (1) = f ′ (3) ; beraz, 3+2A+B =
+27 + 6A + B izan behar du, eta hortikik A = −6 lortzen da.
+
+
+
+
+         23
+Azkenik, f -k mutur bat izango du x = −1 abszisa duen puntuan baldin eta
+f ′ (−1) = 15 + B = 0 bada, hau da, B = −15 bada.
+Beraz, f (x) = x3 − 6x2 − 15x + 2 da; f ′ (x) = 3(x + 1)(x − 5) da, eta f ′′ (x) =
+6x − 12. Ondorioz, f -k maximo erlatibo bat du x = −1 puntuan eta minimo
+erlatibo bat x = 5 puntuan.
+
+A4 EBAZPENA
+Zatikako integrazioa erabiliko dugu u = x2 +1 eta dv = ex+1 dx hartuz. Horrela,
+du = 2x dx eta v = ex+1 dugu, eta
+                 ∫                                                 ∫
+                         2
+                     (x + 1)e   x+1              2
+                                      dx = (x + 1)e      x+1
+                                                               −       2xex+1 dx.
+
+Berriro, zatikako integrazioa erabiliko dugu; orain, u = 2x eta dv = ex+1 dx
+hartuz. Orduan, du = 2 dx eta v = ex+1 ditugu, eta
+           ∫                                 ∫
+                 x+1
+               2xe       dx = 2xe x+1
+                                        −2        ex+1 dx = 2xex+1 − 2ex+1 + k.
+Bi emaitzak lotuz,
+                     ∫
+                         (x2 + 1)ex+1 dx = (x2 − 2x + 3)ex+1 + k.
+                                                    UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                               EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                      ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                       CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+B4 EBAZPENA
+Bi parabolek mugatzen duten eremua honako hau da:
+
+                                  >
+
+
+
+
+                                 3
+                                 2
+
+
+
+
+      20
+                                 1
+                                                  >
+                                       1   2
+
+
+
+
+        23
+Eremu horren azalera honela kalkulatzen da:
+
+
+
+
+A5 EBAZPENA
+              A=
+                   ∫ 2(
+
+                    0
+                                                         )
+                          (x − 2x + 3) − (2x − 4x + 3) dx =
+                           2               2                      4 2
+                                                                  3
+                                                                    u.
+
+
+
+
+Probabilitate-kalkuluko ariketa da, zuhaitz-diagramaren bidez eta probabili-
+tate baldintzatuaren bidez ebazten dena.
+Izan bedi (1-2) gertaera lehen jaurtiketan 1 bat eta bigarrenean 2 bat lortzea.
+
+ a) P (1−2) = P (trukatua)P (1−2 | trukatua)+P (normala)P (1−2 | normala)
+                 1 4 2 1 1 1           9     1
+              = · · + · · =               = .
+                 2 6 6 2 6 6 72 8
+                                                              1 4 2
+                           P (trukatua)P (1 − 2 | trukatua)     · ·
+ b) P (trukatua | 1 − 2) =                                  = 2  6 6 = 8.
+                                      P (1 − 2)                  1     9
+                                                                 8
+                                                  UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                             EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                    ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                     CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+B5 EBAZPENA
+Aurkien kopurua, X, aldagai diskretua da eta banaketa binomial bati jarraitzen
+dio, B(500; 0,5). np = 500 · 0,5 = 250 ≥ 5 eta nq = 500 · 0,5 = 250 ≥ 5 direnez,
+banaketa normal baten bidez hurbiltzen da, N (250; 11, 18).
+
+                         ′
+                                        (  240,5 − 250 )
+ a) P (X > 240) = P (X ≥ 240, 5) = P Z ≥
+                                               11, 18
+         = P (Z ≥ −0, 85) = P (Z ≤ 0, 85) = 0, 8023.
+                                        (    229, 5 − 250 )
+ b) P (X < 230) = P (X ′ ≤ 229, 5) = P Z ≤
+                                                11, 18
+          = P (Z ≤ −1, 83) = 1 − P (Z ≤ 1, 83) = 1 − 0, 9664 = 0, 0336.
+
+
+
+
+      20
+ c) P (230 ≤ X ≤ 240) = P (X ≤ 240) − P (X < 230)
+          = 1 − P (X > 240) − P (X < 230) = 1 − 0, 8023 − 0, 0336 = 0, 1641.
+
+
+
+
+        23
+                                                        UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                                   EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                       ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                        CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+RESOLUCIÓN DE LOS EJERCICIOS
+SOLUCIÓN A1
+El determinante de la matriz de coeficientes es −α2 + 1. Entonces, si α ̸= 1
+y α ̸= −1, el sistema es COMPATIBLE DETERMINADO.
+Si α = 1, el rango de la matriz de coeficientes es 2, y también el de la matriz
+ampliada; por tanto, el sistema es COMPATIBLE INDETERMINADO.
+Si α = −1, el rango de la matriz de coeficientes es 2, y el de la matriz am-
+pliada, en cambio, es 3; por tanto, el sistema es INCOMPATIBLE.
+Si α = 0, la solución del sistema es x = −2, y = 6 y z = 5.
+
+
+
+
+obtener
+       20
+SOLUCIÓN B1
+Multiplicamos la matriz A + B por 2 y sumamos el resultado a 3A − 2B para
+
+
+
+
+         23
+                                                                      
+                        6 −16 6 −3 4 16 4 18
+ 3A − 2B + 2(A + B) =             +
+                       −4 18 −4 18   4 12 4 22
+                                                                                     
+                                    10 0 10 15          2 0 2 3
+                          =⇒ 5A =              =⇒ A =           .
+                                    0 30 0 40            0 6 0 8
+Entonces,
+                                                                            
+                 2 8 2 9  2 0 2 3 0 8 0 6
+       B =A+B−A=         −         =          .
+                 2 6 2 11   0 6 0 8   2 0 2 3
+También se puede empezar calculando 3(A + B) − (3A − 2B) = 5B.
+
+SOLUCIÓN A2
+Los puntos P y Q del plano π definen el vector (0, 3, 1) y (0, 0, 2) es otro vector
+del plano, por tanto, el vector normal al plano π es:
+                        ⃗n = (0, 3, 1) × (0, 0, 2) = (6, 0, 0).
+Además, π pasa por el punto P , por tanto, la ecuación de π es x − 1 = 0.
+                                                   UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                              EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                    ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                     CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+Como la recta y el plano son perpendiculares, el vector director de la recta
+es un vector normal al plano, por ejemplo, (1, 0, 0). Como r pasa por el punto
+P , las ecuaciones paramétricas de la recta son:
+                         {x = 1 + t, y = −1, z = 2}.
+
+
+
+SOLUCIÓN B2
+Los tres planos forman el sistema de ecuaciones:
+                             
+                             
+                             
+                             
+                             
+                              4x + 2y − 4z = 2,
+                             
+
+
+
+
+      20                     x − y − z = 2,
+                             
+                             
+                             
+                             x + ay + z = b.
+
+
+Para que los tres planos se corten en una recta, el sistema debe ser compati-
+
+
+
+
+        23
+ble indeterminado. Si M es la matriz de coeficientes y M ∗ la matriz ampliada,
+para que el sistema anterior sea compatible indeterminado, el rango de M y
+el de M ∗ deben ser iguales y menores que el número de incógnitas.
+En este caso, para cualesquiera valores de a y b, el rango de M , el rango de
+M ∗ y el número de incógnitas es 3; por tanto, los tres planos se cortan en un
+punto, no en una recta.
+Por tanto, no existen valores de los parámetros a y b de forma que los tres
+planos se corten en una recta.
+
+SOLUCIÓN A3
+          (1 − x)(1 + x)
+f ′ (x) =                , por tanto, f es decreciente en los intervalos (−∞, −1)
+             (x2 + 1)2
+y (1, ∞); y es creciente en el intervalo (−1, 1).
+f no tiene asíntotas verticales e y = 0 es asíntota horizontal en −∞ y en +∞.
+La recta tangente a la gráfica de f en el punto de abscisa x = 0 es y = x.
+La gráfica de f es
+                                                             UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                                        EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                            ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                             CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+                                            -1
+                                                    1
+
+
+
+
+SOLUCIÓN B3
+
+
+
+
+       20
+Como f (0) = C, se tiene C = 2. Por otro lado, f ′ (x) = 3x2 + 2Ax + B, y para
+que las rectas tangentes a la gráfica de f en los puntos de abscisas x = 1 y
+x = 3 sean paralelas, debe cumplirse que f ′ (1) = f ′ (3), por tanto, debe ser
+3 + 2A + B = 27 + 6A + B, y de ahí se obtiene A = −6.
+
+
+
+
+en x = 5.
+         23
+Por último, f tendrá un extremo en el punto de abscisa x = −1 si f ′ (−1) =
+15 + B = 0, es decir, si B = −15.
+Por tanto, f (x) = x3 − 6x2 − 15x + 2; f ′ (x) = 3(x + 1)(x − 5), y f ′′ (x) = 6x − 12.
+En consecuencia, f tiene un máximo relativo en x = −1 y un mínimo relativo
+
+
+SOLUCIÓN A4
+Utilizamos integración por partes, tomando u = x2 + 1 y dv = ex+1 dx. Así,
+tenemos du = 2x dx y v = ex+1 , de modo que
+                  ∫                                               ∫
+                          2
+                      (x + 1)e   x+1            2
+                                       dx = (x + 1)e    x+1
+                                                              −       2xex+1 dx.
+De nuevo, utilizamos integración por partes, tomando ahora u = 2x y dv =
+ex+1 dx. Entonces, du = 2 dx y v = ex+1 , de forma que
+           ∫                                ∫
+               2xex+1 dx = 2xex+1 − 2            ex+1 dx = 2xex+1 − 2ex+1 + k.
+Uniendo los dos resultados,
+                      ∫
+                          (x2 + 1)ex+1 dx = (x2 − 2x + 3)ex+1 + k.
+                                                    UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                               EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                      ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                       CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+SOLUCIÓN B4
+El recinto acotado por las dos parábolas es el siguiente:
+
+                                  >
+
+
+
+
+                                 3
+                                 2
+
+
+
+
+      20
+                                 1
+                                                  >
+                                       1   2
+
+
+
+
+        23
+El área de ese recinto se calcula así:
+
+
+
+
+SOLUCIÓN A5
+             A=
+                  ∫ 2(
+
+                   0
+                                                         )
+                         (x2 − 2x + 3) − (2x2 − 4x + 3) dx =
+                                                                  4 2
+                                                                  3
+                                                                    u.
+
+
+
+
+Ejercicio de cálculo de probabilidades que puede resolverse mediante un
+diagrama de árbol y la probabilidad condicionada.
+Sea el suceso (1-2) obtener en la primera tirada un 1 y en la segunda tirada
+un 2.
+
+ a) P (1 − 2) = P (trucado)P (1 − 2 | trucado) + P (normal)P (1 − 2 | normal)
+            1 4 2 1 1 1           9     1
+         = · · + · · =               = .
+            2 6 6 2 6 6 72 8
+                                                           1 4 2
+                          P (trucado)P (1 − 2 | trucado)     · ·       8
+ b) P (trucado | 1 − 2) =                                = 2 61 6 = .
+                                     P (1 − 2)                         9
+                                                               8
+                                                UNIBERTSITATERA SARTZEKO EBALUAZIOA
+                                           EVALUACIÓN PARA EL ACCESO A LA UNIVERSIDAD
+
+
+
+
+                                   ZUZENTZEKO ETA KALIFIKATZEKO IRIZPIDEAK
+                                    CRITERIOS DE CORRECCIÓN Y CALIFICACIÓN
+
+
+
+
+SOLUCIÓN B5
+La variable número de caras, X, es discreta y sigue una distribución binomial
+B(500; 0,5). Como np = 500 · 0,5 = 250 ≥ 5 y nq = 500 · 0,5 = 250 ≥ 5, se
+aproxima por una distribución normal N (250; 11, 18).
+
+                        ′
+                                       (   240,5 − 250 )
+ a) P (X > 240) = P (X ≥ 240, 5) = P Z ≥
+                                               11, 18
+         = P (Z ≥ −0, 85) = P (Z ≤ 0, 85) = 0, 8023.
+                                       (    229, 5 − 250 )
+ b) P (X < 230) = P (X ′ ≤ 229, 5) = P Z ≤
+                                               11, 18
+         = P (Z ≤ −1, 83) = 1 − P (Z ≤ 1, 83) = 1 − 0, 9664 = 0, 0336.
+
+
+
+
+      20
+ c) P (230 ≤ X ≤ 240) = P (X ≤ 240) − P (X < 230)
+         = 1 − P (X > 240) − P (X < 230) = 1 − 0, 8023 − 0, 0336 = 0, 1641.
+
+
+
+
+        23
+
