@@ -15,7 +15,6 @@ on:
     - cron: '17 4 * 6,7 1'      # y cada lunes de junio y julio, cuando se publican los exámenes nuevos
 permissions:
   contents: write
-concurrency: {group: corpus, cancel-in-progress: false}
 jobs:
   preparar:
     runs-on: ubuntu-latest
@@ -27,6 +26,7 @@ jobs:
 
   rastreo:
     needs: preparar
+    concurrency: {group: 'rastreo-${{ matrix.ccaa }}', cancel-in-progress: false}
     runs-on: ubuntu-latest
     timeout-minutes: 45
     strategy:
@@ -75,6 +75,7 @@ jobs:
   analisis:
     needs: rastreo
     if: always()
+    concurrency: {group: analisis, cancel-in-progress: false}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -94,6 +95,7 @@ jobs:
 
   examenes:
     needs: analisis
+    concurrency: {group: examenes, cancel-in-progress: false}
     if: always() && needs.analisis.result == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 340
