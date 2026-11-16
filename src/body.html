@@ -73,6 +73,16 @@
       <p class="help" id="compTxt"></p></div></div>
 </section>
 
+<!-- 6 · CLAVE DE IA (sección fuera del recorrido) -->
+<section class="screen" data-step="6">
+  <header class="sh" style="--c:#0E8C7A"><div class="sh-ico"><svg class="i"><use href="#i-key"/></svg></div><div><h2 data-i18n="Tu clave de IA">Tu clave de IA</h2><p class="sh-lede" data-i18n="s.clave.lede">Es opcional. PAUsible funciona gratis y sin clave: predicciones y exámenes ya generados. La clave solo hace falta para generar exámenes nuevos.</p></div></header>
+  <div class="card pa-edad" id="claveEdad"></div>
+  <div class="cols2"><div class="card" id="clavePasos"></div><div class="card" id="claveCoste"></div></div>
+  <h2 class="sec-title" data-i18n="¿Clave de API o suscripción mensual?">¿Clave de API o suscripción mensual?</h2>
+  <div class="cols2"><div class="card" id="claveChat"></div><div class="card pa-api" id="claveApi"></div></div>
+  <p class="help" id="claveNota"></p>
+</section>
+
 <!-- 5 · RANKING (sección fuera del recorrido) -->
 <section class="screen" data-step="5">
   <header class="sh" style="--c:#2A1A6E"><div class="sh-ico"><svg class="i"><use href="#i-chart"/></svg></div><div><h2 data-i18n="Ranking de España">Ranking de España</h2><p class="sh-lede" data-i18n="s.rank.lede">¿Qué comunidad tiene la PAU más previsible? ¿Qué temas caen en casi toda España?</p></div></header>
@@ -89,6 +99,7 @@
   <div class="field"><label for="apiKey" data-i18n="Tu clave de API">Tu clave de API</label><div class="keyrow"><input type="password" id="apiKey" autocomplete="off"><button class="eye" id="btnEye" type="button" aria-label="Ver" data-i18n-attr="aria-label:Ver"><svg class="i"><use href="#i-eye"/></svg></button></div></div>
   <div class="field"><label for="selModelo" data-i18n="Modelo">Modelo</label><select id="selModelo"></select><input type="text" id="modelo" hidden autocomplete="off" placeholder="Escribe el nombre exacto del modelo" data-i18n-attr="placeholder:Escribe el nombre exacto del modelo" style="margin-top:8px"></div>
   <div class="actions"><button class="btn btn-ghost btn-sm" id="btnModelos" type="button" data-i18n="Ver los modelos de mi clave">Ver los modelos de mi clave</button></div>
+  <p class="help"><button type="button" class="btn btn-ghost btn-sm" id="btnGuiaClave" data-i18n="¿Cómo consigo una clave? Guía paso a paso">¿Cómo consigo una clave? Guía paso a paso</button></p>
   <p class="help" id="iaEstado" data-i18n="f.ia.ayuda">La clave se guarda solo en este navegador y se envía únicamente a tu proveedor. Cada persona usa la suya y paga su propio uso. Elige un modelo económico: este uso no necesita el más potente.</p></div></div></div>
 <div class="modal" id="mHelp" role="dialog" aria-modal="true" aria-labelledby="mHelpT"><div class="modal-box"><div class="modal-head"><h2 id="mHelpT" data-i18n="Ayuda">Ayuda</h2><button type="button" data-close data-i18n="Cerrar">Cerrar</button></div><div class="modal-body"><div class="glos" id="glos"></div></div></div></div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>

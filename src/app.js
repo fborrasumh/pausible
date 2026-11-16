@@ -1,8 +1,8 @@
 /* ══ PAUsible · interfaz ══ */
 const STEPS = ['Inicio', 'Tu PAU', 'Predicción', 'Examen', 'Comparte'];
-const HUBS = ['Ranking de España'];
+const HUBS = ['Ranking de España', 'Tu clave de IA'];
 const NAV = [['Elegir mi comunidad', 'Prueba el ejemplo: no necesita clave ni datos.'], ['Ver la predicción', 'Elige comunidad y materia.'], ['Hacer el examen probable', 'Estudia primero lo de arriba.'], ['Compartir mi resultado', 'Abre cada solución y ponte nota.'], ['Volver al inicio', 'Comparte la tarjeta o reta a un amigo.']];
-const RENDER = {0: pintaInicio, 1: pintaTuPau, 2: pintaPred, 3: pintaExamen, 4: pintaComparte, 5: pintaRanking};
+const RENDER = {0: pintaInicio, 1: pintaTuPau, 2: pintaPred, 3: pintaExamen, 4: pintaComparte, 5: pintaRanking, 6: pintaClave};
 const CAN_NEXT = i => i === 1 && !(S.c && S.m) ? t('Elige comunidad y materia') : true;
 const GLOS = [
   ['¿Qué hace PAUsible?', 'Lee los exámenes oficiales de la PAU publicados por cada comunidad entre 2022 y 2026, calcula qué temas tienen más probabilidad de caer en 2027 y te ofrece un examen probable resuelto.'],
@@ -139,7 +139,7 @@ async function pintaExamen() {
   if (!ex) {
     const reg = prediccionDe(S.c, S.m);
     $('exCab').innerHTML = `<h3>${esc(t('Todavía no hay examen probable para esta combinación'))}</h3><p>${esc(t('Puedes generarlo ahora con tu clave de IA: un ponente lo redacta con los temas más probables y dos resolutores lo resuelven por separado; solo se queda lo que coincide.'))}</p>`
-      + (reg && reg.temas && reg.temas.length ? `<div class="actions"><button class="btn btn-primary" id="btnGenera" type="button">${ico('sparkles')}<span>${esc(t('Generar con mi clave'))}</span></button></div><p class="help" id="genEstado"></p>` : `<p class="help">${esc(t('Hace falta antes una predicción por temas para esta materia.'))}</p>`)
+      + (reg && reg.temas && reg.temas.length ? `<div class="actions"><button class="btn btn-primary" id="btnGenera" type="button">${ico('sparkles')}<span>${esc(t('Generar con mi clave'))}</span></button></div><p class="help" id="genEstado"></p><p class="help"><a href="#" id="lnkClave">${esc(t('¿No tienes clave? Así se consigue (y lo que cuesta)'))}</a></p>` : `<p class="help">${esc(t('Hace falta antes una predicción por temas para esta materia.'))}</p>`)
       + `<p class="help">${esc(t('O prueba el ejemplo de Matemáticas II, que no necesita clave.'))}</p>`;
     $('exPreg').innerHTML = ''; $('exNota').innerHTML = ''; $('exNota').hidden = true; return;
   }
@@ -261,6 +261,38 @@ function pintaRanking() {
   $('rankTemas').innerHTML = `<h3>${esc(t('Lo más probable en toda España'))}</h3>` + lista.map((x, i) => `<div class="pa-rank"><span>${i + 1}</span><span>${esc(x.nombre)} <small class="sub">· ${esc(t('{0} comunidades', x.ccaa))}</small></span><b>${fmtP(x.p)}</b></div>`).join('');
 }
 $('selMatRank').onchange = pintaRanking;
+
+/* ── 6 · cómo conseguir la clave (adaptado de ProfesorIA para estudiantes) ── */
+const lista = (tit, items, tag = 'ul') => `<h3>${esc(t(tit))}</h3><${tag}>${items.map(x => `<li>${esc(t(x))}</li>`).join('')}</${tag}>`;
+function pintaClave() {
+  $('claveEdad').innerHTML = `<h3>${esc(t('Antes de nada: la edad'))}</h3><p>${esc(t('OpenAI permite usar su API desde los 13 años, pero si eres menor de 18 necesitas el permiso de tu madre, padre o tutor. Google Gemini y Anthropic Claude exigen tener 18 años. Si eres menor, pide a un adulto que cree la clave, fije el límite de gasto y te la deje usar en este navegador.'))}</p>`;
+  $('clavePasos').innerHTML = lista('Crear la clave con límite de gasto (OpenAI)', [
+    'Entra en platform.openai.com y crea una cuenta. Es distinta de la de ChatGPT, aunque puedes usar el mismo correo.',
+    'En Billing, añade un método de pago y compra un crédito pequeño (por ejemplo, 5 €). Fija un límite de gasto mensual bajo antes de crear la clave.',
+    'En API keys, pulsa Create new secret key. Cópiala y guárdala en un lugar seguro: no se vuelve a mostrar.',
+    'En PAUsible, pulsa IA arriba a la derecha, elige OpenAI, pega la clave, pulsa «Ver los modelos de mi clave» y elige uno económico.',
+    'No la compartas ni la pegues en chats o redes. Si se expone, revócala en la plataforma y crea otra.'], 'ol')
+    + `<div class="actions"><a class="btn btn-ghost btn-sm" href="https://platform.openai.com/api-keys" target="_blank" rel="noopener">OpenAI</a><a class="btn btn-ghost btn-sm" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google Gemini (+18)</a><a class="btn btn-ghost btn-sm" href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">Anthropic Claude (+18)</a></div>`;
+  $('claveCoste').innerHTML = lista('¿Cuánto cuesta?', [
+    'Se paga por uso, por tokens (trozos de texto). Con un modelo económico, un examen probable completo cuesta unos céntimos.',
+    'Cada examen hace varias llamadas: un ponente lo redacta y dos resolutores lo resuelven por separado; si no coinciden, un tercero desempata.',
+    'Con el límite de gasto que fijas, nunca pagarás más de lo que hayas decidido.',
+    'La clave se guarda solo en este navegador y solo se envía a tu proveedor. PAUsible no la ve ni la guarda en ningún servidor.']);
+  $('claveChat').innerHTML = lista('Suscripción mensual al chatbot (ChatGPT, Gemini, Claude)', [
+    'Cuota fija cada mes, la uses mucho o poco.',
+    'Conversación libre: el resultado depende de cómo preguntes y cambia de una vez a otra.',
+    'Las soluciones que te da las tienes que comprobar tú.',
+    'Un examen completo se hace pregunta a pregunta, copiando y pegando.',
+    'No sirve para PAUsible: la suscripción no incluye la clave de API, que se paga aparte.']);
+  $('claveApi').innerHTML = lista('Clave de API en PAUsible', [
+    'Pagas solo lo que usas: céntimos por examen, con un límite que fijas tú.',
+    'PAUsible organiza el trabajo: redacta el examen con los temas más probables de tu comunidad y lo resuelve dos veces por separado.',
+    'Solo se queda lo que coincide; las preguntas sin acuerdo se descartan.',
+    'Por API, OpenAI no usa tus datos para entrenar sus modelos por defecto.']);
+  $('claveNota').textContent = t('Son complementarios: el chatbot va bien para preguntar dudas; la clave en PAUsible, para generar exámenes completos con solución revisada dos veces. Y recuerda: no hace falta ninguna de las dos para usar las predicciones ni los exámenes ya generados.');
+}
+$('btnGuiaClave').onclick = () => { $('mIA').classList.remove('on'); go(6); };
+document.addEventListener('click', e => { if (e.target.closest('#lnkClave')) { e.preventDefault(); go(6); } });
 
 window.addEventListener('langchange', () => { if (step === 4) pintaComparte(); });
 (async () => {

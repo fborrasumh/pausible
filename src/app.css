@@ -47,3 +47,4 @@ table{border-collapse:collapse;width:100%;font-size:13.8px}th{background:var(--p
 
 .katex{font-size:1.08em}.katex-display{margin:.6em 0;overflow-x:auto;overflow-y:hidden;padding:2px 0}.pa-enun .katex-display{white-space:normal}
 .pa-fuentes{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}.pa-fich{cursor:pointer}.pa-fich input{position:absolute;width:1px;height:1px;opacity:0}.pa-fich-btn{color:#6B4FD8;font-weight:700;text-decoration:underline}.pa-fich:focus-within .pa-fich-btn{outline:3px solid #6B4FD8;outline-offset:2px}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:760px){.cols2{grid-template-columns:1fr}}.pa-edad{border-left:4px solid #E4572E}.pa-api{border:2px solid #0E8C7A}.cols2 ol,.cols2 ul{padding-left:20px;line-height:1.55}.cols2 li{margin:4px 0}
