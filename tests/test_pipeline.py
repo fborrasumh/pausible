@@ -43,6 +43,21 @@ def test_arreglos_de_clasificacion():
     d = crawl.completa_con_texto({'materia': None, 'conv': 'ord', 'anio': 2025, 'tipo': 'examen'}, 'PAU\nConvocatoria ordinaria 2025\nMATEMÁTICAS II\nCÓDIGO 20', A)
     assert d['materia'] == 'matematicas2'
 
+def test_zip_drive_y_gestores():
+    import io, zipfile, tempfile
+    assert crawl.es_pdf('https://www.ucm.es/file/fisica-20') and crawl.es_pdf('https://x.es/examanes/sel_2025_biologia.zip')
+    assert crawl.descarga_directa('https://drive.google.com/file/d/AbC_1-x/view?usp=drive_link') == 'https://drive.google.com/uc?export=download&id=AbC_1-x'
+    assert crawl.conv_de('Reserva 2') == 'ext' and crawl.conv_de('Junio') == 'ord'
+    pdf = open(next(crawl.R.glob('tests/*.pdf')), 'rb').read() if list(crawl.R.glob('tests/*.pdf')) else b'%PDF-1.4\n%%EOF'
+    b = io.BytesIO(); z = zipfile.ZipFile(b, 'w'); z.writestr('Junio.pdf', pdf); z.writestr('Reserva_1.pdf', pdf); z.writestr('Criterios_Junio.pdf', pdf); z.writestr('nota.txt', 'x'); z.close()
+    d = {'id': 'x', 'ccaa': 'andalucia', 'materia': 'biologia', 'anio': 2025, 'conv': 'nd', 'tipo': 'examen', 'url': 'https://x.es/sel_2025_biologia.zip', 'txt': '', 'chars': 0}
+    with tempfile.TemporaryDirectory() as t:
+        viejo = crawl.R; crawl.R = __import__('pathlib').Path(t)
+        try: out = crawl.desde_zip(d, 'andalucia/biologia/2025_nd_examen_x', b.getvalue(), range(2022, 2027), lambda m: None)
+        finally: crawl.R = viejo
+    assert sorted((o['conv'], o['tipo']) for o in out) == [('ext', 'examen'), ('ord', 'criterios'), ('ord', 'examen')], out
+    assert all(o['materia'] == 'biologia' and o['url'].startswith(d['url'] + '#') for o in out)
+
 def test_prediccion_y_validacion():
     temas = [{'id': 'a', 'nombre': 'A', 'kw': []}, {'id': 'b', 'nombre': 'B', 'kw': []}, {'id': 'c', 'nombre': 'C', 'kw': []}, {'id': 'd', 'nombre': 'D', 'kw': []}]
     H = lambda *ts: {t: 3 for t in ts}

@@ -97,7 +97,7 @@ def anio_de(*textos, anios=range(2022, 2027)):
 
 def conv_de(*textos):
     n = ' '.join(norm(t) for t in textos)
-    if re.search(r'extraordinari|julio|juliol|xullo|septiembre|setembre|uztail|irail|\bextra\b|\bext\b|\bjul\b|\bsep\b', n): return 'ext'
+    if re.search(r'extraordinari|julio|juliol|xullo|septiembre|setembre|uztail|irail|reserva|suplente|\bextra\b|\bext\b|\bjul\b|\bsep\b', n): return 'ext'
     if re.search(r'ordinari|junio|juny|xuno|ekain|\bord\b|\bjun\b', n): return 'ord'
     if re.search(r'model|orientativ|exemple|ejemplo|muestra|prova de mostra|proba', n): return 'modelo'
     return 'nd'
@@ -157,7 +157,8 @@ class Rastreador:
                 u = urljoin(r.url, href).split('#')[0]
                 if not u.startswith('http'): continue
                 host = urlparse(u).hostname or ''
-                if '.'.join(host.split('.')[-2:]) not in dominios: continue
+                if '.'.join(host.split('.')[-2:]) not in dominios and host != 'drive.google.com': continue
+                if host == 'drive.google.com' and not es_pdf(u): continue
                 info = {'texto': texto, 'contexto': ctx, 'pagina': r.url, 'titulo': titulo}
                 if es_pdf(u):
                     encontrados.setdefault(u, info)
@@ -170,8 +171,17 @@ class Rastreador:
 
 
 def es_pdf(u):
+    """Enlace que probablemente sea un documento: PDF, ZIP (Andalucía) o los gestores sin extensión
+    (UCM /file/…, Liferay /documents/d/…, Google Drive /file/d/…). Al descargar se comprueba el contenido."""
     p = urlparse(u).path.lower()
-    return p.endswith('.pdf') or '.pdf' in unquote(u.lower()) or '/download' in p and 'pdf' in u.lower()
+    return (p.endswith('.pdf') or p.endswith('.zip') or '.pdf' in unquote(u.lower()) or '/download' in p and 'pdf' in u.lower()
+            or '/file/' in p or '/documents/d/' in p or 'drive.google.com' in u and '/file/d/' in p)
+
+
+def descarga_directa(u):
+    """Google Drive: de /file/d/ID/view a la descarga del fichero."""
+    m = re.search(r'drive\.google\.com/file/d/([\w-]+)', u)
+    return f'https://drive.google.com/uc?export=download&id={m.group(1)}' if m else u
 
 
 _A = re.compile(r'<a\b[^>]*?href\s*=\s*["\']([^"\']+)["\'][^>]*>(.*?)</a>', re.I | re.S)
@@ -256,6 +266,36 @@ def candidatos_plantilla(pl, anios):
             yield pl['url'].format(anio=anio, **dict(zip(claves, combo)))
 
 
+def desde_zip(d, rel, contenido, anios, log):
+    """Cada PDF de dentro del ZIP es un documento: hereda materia y año del ZIP; convocatoria y tipo, de su nombre."""
+    import io, zipfile
+    out = []
+    try: z = zipfile.ZipFile(io.BytesIO(contenido))
+    except zipfile.BadZipFile: log(f'  ZIP dañado: {d["url"]}'); return out
+    for i, nombre in enumerate(n for n in z.namelist() if n.lower().endswith('.pdf')):
+        if i >= 40: break
+        try: datos = z.read(nombre)
+        except Exception: continue
+        if datos[:4] != b'%PDF' or NO_PAU.search(norm(nombre)): continue
+        dm = dict(d)
+        dm['url'] = d['url'] + '#' + nombre
+        dm['enlace'] = nombre[:160]
+        dm['conv'] = conv_de(nombre) if conv_de(nombre) != 'nd' else d['conv']
+        dm['tipo'] = tipo_de(nombre)
+        dm['materia'] = d['materia'] or materia_de(nombre) or materia_abrev(nombre)
+        h = hashlib.sha1(dm['url'].encode()).hexdigest()[:8]
+        relm = f'{rel.rsplit("/", 2)[0]}/{dm["materia"] or "sin_materia"}/{dm["anio"]}_{dm["conv"]}_{dm["tipo"]}_{h}'
+        dm['id'], dm['txt'] = h, f'corpus/{relm}.txt'
+        pdf = R / 'pdf' / f'{relm}.pdf'; pdf.parent.mkdir(parents=True, exist_ok=True); pdf.write_bytes(datos)
+        txt = R / dm['txt']; txt.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            t = texto_pdf(pdf, txt); dm['chars'] = len(t.strip()); completa_con_texto(dm, t, anios)
+        except Exception: dm['chars'] = 0
+        dm['bytes'] = len(datos); out.append(dm)
+    log(f'  ZIP {fichero_de(d["url"])}: {len(out)} PDF')
+    return out
+
+
 def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
     t0 = time.time(); fin = t0 + tiempo
     man_p = R / 'data' / 'corpus' / f'{cid}.json'
@@ -279,6 +319,10 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
         d = {'id': h, 'ccaa': cid, 'materia': mat, 'anio': anio, 'conv': conv, 'tipo': tipo, 'url': url,
              'pagina': info['pagina'], 'enlace': info['texto'][:160], 'contexto': info['contexto'][:240],
              'txt': f'corpus/{rel}.txt', 'chars': previo.get(url, {}).get('chars', 0)}
+        if any(k.startswith(url + '#') for k in previo):    # ZIP ya procesado: se conservan sus PDF
+            for k, v in previo.items():
+                if k.startswith(url + '#'): docs[k] = v
+            continue
         viejo = previo.get(url)
         if viejo and (R / viejo['txt']).exists():      # ya descargado: se conserva el fichero y se reclasifica
             d['txt'], d['chars'] = viejo['txt'], viejo.get('chars', 0)
@@ -294,7 +338,12 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
     for d, rel, de_plantilla in pend:
         if time.time() > fin:
             log(f'  tiempo agotado: quedan {len(pend) - hechos} PDF para la próxima ejecución'); break
-        r = rd.get(d['url'], silencio=de_plantilla)
+        r = rd.get(descarga_directa(d['url']), silencio=de_plantilla)
+        if r is not None and r.content[:2] == b'PK':        # ZIP (Andalucía: un zip por materia y año con todos sus exámenes)
+            hechos += 1; time.sleep(cfg.get('pausa', 0.2))
+            for dz in desde_zip(d, rel, r.content, anios, log): docs[dz['url']] = dz
+            if hechos % 10 == 0: guarda_manifiesto(cid, docs, logl)
+            continue
         if r is not None and r.content[:4] != b'%PDF' and 'download' not in d['url']:
             r = rd.get(d['url'] + ('&' if '?' in d['url'] else '?') + 'download=true', silencio=de_plantilla)   # visor → descarga directa
         hechos += 1
