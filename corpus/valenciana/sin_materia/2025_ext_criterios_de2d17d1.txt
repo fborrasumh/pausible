@@ -1,0 +1,485 @@
+                                             PROVA D’ACCÉS A LA UNIVERSITAT
+                                           PRUEBA DE ACCESO A LA UNIVERSIDAD
+
+
+
+          CONVOCATÒRIA:              EXTRA JULIOL 2025                           CONVOCATORIA: EXTRA JULIO 2025
+
+ASSIGNATURA: MATEMÀTIQUES II                                           ASIGNATURA: MATEMÁTICAS II
+
+BAREM DE L’EXAMEN: Cada pregunta puntua fins a 2,5 punts.
+La qualificació de l’examen serà la suma de les qualificacions de cada pregunta.
+
+Es permet l’ús de calculadores sempre que no siguen gràfiques o programables, i que no puguen realitzar càlculs simbòlics ni
+emmagatzemar text o fórmules en memòria. S’use o no la calculadora, els resultats analítics, numèrics i gràfics han d’estar sempre
+degudament justificats.
+
+Per cada falta d’ortografia a partir de la tercera s’han de deduir 0,10 punts, fins a un màxim d’un punt.
+Per errors en la redacció, en la presentació, falta de coherència, falta de cohesió, incorrecció lèxica i incorrecció gramatical es podrà
+deduir un màxim de mig punt. La deducció màxima total és d’un punt.
+
+BAREMO DEL EXAMEN: Cada pregunta se puntuará hasta 2,5 puntos.
+La calificación del examen será la suma de las calificaciones de cada pregunta.
+
+Se permite el uso de calculadoras siempre que no sean gráficas o programables, y que no puedan realizar cálculos simbólicos ni
+almacenar texto o fórmulas en memoria. Se utilice o no la calculadora, los resultados analíticos, numéricos y gráficos deberán estar
+siempre debidamente justificados.
+
+Por cada falta de ortografía a partir de la tercera se deducirán 0,10 puntos, hasta un máximo de un punto.
+Por errores en la redacción, en la presentación, falta de coherencia, falta de cohesión, incorrección léxica e incorrección gramatical
+se podrá deducir un máximo de medio punto. La deducción máxima total es de un punto.
+
+
+                     En les respostes s’han d’escriure tots els passos del raonament utilitzat.
+
+PREGUNTA 1: PROBABILITAT I ESTADÍSTICA (2,5 punts)
+
+Els vols que arriben a un aeroport es classifiquen en tres grups: vols puntuals, vols amb retards de fins a tres
+hores i vols amb retards de més de tres hores. La puntualitat dels vols es veu afectada per les condicions
+meteorològiques del moment. Si les condicions meteorològiques són bones, el percentatge dels vols que arriben
+amb puntualitat és del 70% mentre que el 10% arriben amb més de tres hores de retard. Si les condicions
+meteorològiques són roïnes, el percentatge dels vols que arriben amb puntualitat és del 40% mentre que el 30%
+arriben amb més de tres hores de retard. S’estima que el 90% dels dies les condicions meteorològiques són
+bones.
+
+  1.1 (0,5 punts) Quina és la probabilitat que un vol arribe amb més de 3 hores de retard?
+  1.2 (1 punt) Sabent que un vol ha sigut puntual, quina és la probabilitat que les condicions meteorològiques
+      foren roïnes?
+  1.3 (1 punt) Un passatger realitza un vol a aquest aeroport, des d’on ha de prendre un altre vol a la seua
+      destinació final. Aquest segon vol enllaça si el primer arriba amb 3 hores o menys de retard. Si fa aquest
+      viatge una vegada cada mes durant un any i viatja sempre en condicions meteorològiques bones, quina és
+      la probabilitat que puga enllaçar amb el vol a la seua destinació final en tots els seus viatges?
+
+ Solució:
+ 1.1    0,12.
+ 1.2    0,0597.
+ 1.3    0,2824.
+                                                                   1
+PREGUNTA 2: ÀLGEBRA (2,5 punts)
+
+Respon a l’apartat 2.1 o a l’apartat 2.2
+
+  2.1 Donades la matriu
+                                                  1        0  𝑚
+                                           𝐷 = (𝑚          0 −1),
+                                                  2        −1 1
+   que depèn d’un paràmetre real 𝑚, i les matrius
+                                                                    1
+                                         𝐸 = (1 4        3) i 𝐹 = ( 2 ):
+                                                                    −1
+ 2.1.1 (0,5 punts) Indica, si existeixen, els valors del paràmetre 𝑚 per als quals 𝐷 té inversa.
+
+ 2.1.2 (1 punt) Calcula les matrius 𝐸𝐹 i (𝐹𝐸)𝑡 , si existeixen.
+
+ 2.1.3 (1 punt) Resol, per a 𝑚 = 0, l’equació matricial amb incògnita 𝑋:
+                                                     1
+                                                         𝑋 + 𝐷 = 𝐷−1 .
+                                                     2
+ Solució:
+ 2.1.1 det(𝐷) = −𝑚2 − 1 ≠ 0, per tant 𝐷 sempre té inversa.
+                           1 2 −1
+            (6), (𝐹𝐸) 𝑡
+ 2.1.2 𝐸𝐹 =             = (4 8 −4).
+                           3 6 −3
+             0     0    0
+ 2.1.3 𝑋 = ( 4 −2 0 ).
+            −4 0 −2
+         ___________________________________________________________________________
+
+
+  2.2 Donada la matriu
+                                                   1       −1 𝑚 + 1
+                                           𝐴=(     0       1   𝑚 ).
+                                                  𝑚−1      0    5
+
+ 2.2.1 (1,25 punts) Estudia el rang de la matriu 𝐴 en funció del paràmetre real 𝑚.
+                                                                  1
+ 2.2.2 (1,25 punts) Per a 𝑚 = 0, determina la matriu inversa de 6 𝐴, si existeix.
+ Solució:
+                  3                           3
+ 2.2.1 Si 𝑚 ≠ − 2 , 𝑚 ≠ 2 rang 3 i si 𝑚 = − 2 o 𝑚 = 2 el rang és 2.
+                      5   5        1
+                            −6     5 5            −1
+            −1        6   6
+        1
+ 2.2.2 (6 𝐴)     = 6 (0   1 0 ) = (0 6            0 ).
+                      1   1  1
+                                   1 1            1
+                      6   6    6
+
+
+
+
+PREGUNTA 3: GEOMETRIA (2,5 punts)
+
+Respon a l’apartat 3.1 o a l’apartat 3.2
+
+                                                          2
+  3.1 Donats els plans 𝜋1 : 2𝑥 − 𝑎2 𝑦 − 𝑎𝑧 = 𝑎 − 1 i 𝜋2 : (𝑎 − 1)𝑥 − 𝑎𝑦 − 𝑧 = 𝑎:
+ 3.1.1 (1,5 punts) Estudia en funció de a si els plans anteriors coincideixen, són paral·lels no coincidents o es
+      tallen.
+
+ 3.1.2 (0,5 punts) Calcula, per a 𝑎 = 0, l’angle entre els plans 𝜋1 i 𝜋2 .
+
+ 3.1.3 (0,5 punts) Calcula, per a 𝑎 = 0, la distància entre el punt 𝑃 = (1,0, −1) i el pla 𝜋1 .
+ Solució:
+ 3.1.1 Els plans són paral·lels no coincidents per a 𝑎 = −1 i 𝑎 = 2. Per a 𝑎 ≠ −1,2, els plans es tallen.
+                                  𝜋
+ 3.1.2 L’angle entre els plans és 4 .
+                 3
+ 3.1.3 Distància 2.
+          ___________________________________________________________________________
+
+
+                                                    𝑥 =1+𝛼
+ 3.2 Donat el pla 𝜋: 2𝑥 + 𝑦 − 3 = 0 i la recta 𝑟: {𝑦 = −1 − 2𝛼 :
+                                                      𝑧=1
+ 3.2.1 (1,25 punts) Obtín l’equació del pla perpendicular a 𝜋 i que conté 𝑟.
+
+ 3.2.2 (1,25 punts) Calcula, si existeix, un pla paral·lel a 𝜋 i que continga 𝑟.
+
+ Solució:
+ 3.2.1 𝑧 = 1.
+ 3.2.2 2𝑥 + 𝑦 − 1 = 0.
+
+
+
+PREGUNTA 4: ANÀLISI (2,5 punts)
+
+Respon a l’apartat 4.1 o a l’apartat 4.2
+  4.1 Donades les funcions 𝑓(𝑥) = 𝑥 4 − 7𝑥 2 + 16 i 𝑔(𝑥) = 𝑥 2 , obtín:
+
+ 4.1.1 (1,25 punts) Els intervals de creixement i decreixement i els extrems relatius de la funció 𝑦 = 𝑓(𝑥).
+
+ 4.1.2 (1,25 punts) L’àrea de la superfície finita tancada entre les corbes donades per 𝑓(𝑥) i 𝑔(𝑥).
+ Solució:
+                             √14        √14                  √14       √14
+ 4.1.1 𝑓 decreix en (−∞, − 2 ) ∪ (0, 2 ) i creix en (− 2 , 0) ∪ ( 2 , +∞).
+    √14                                   √14
+ (− 2 , 3,75) mínim, (0 ,16) màxim, ( 2 , 3,75) mínim.
+      512
+ 4.1.2 15 = 34,1333.
+
+
+          ___________________________________________________________________________
+
+
+  4.2 Una costa marítima s’estén en línia recta cap a la dreta des d’un punt 𝑃 de la costa. A 8 km de 𝑃 hi ha una
+      refineria situada a la costa. A més, hi ha una plataforma petroliera a la mar que està situada a 6 km de
+      distància de 𝑃 en la recta perpendicular a la costa des del punt 𝑃. Es construirà un oleoducte des de la
+      plataforma fins a la refineria. El cost de construir l’oleoducte davall de l’aigua és d’1 milió d’euros per
+      quilòmetre i el de construir-lo sobre terra, de 0,6 milions d’euros per quilòmetre.
+
+
+
+
+                                                         3
+4.2.1 (0,5 punts) Determina la funció del cost de construcció de l’oleoducte dependent de la distància, 𝑥,
+     entre el primer punt on l’oleoducte toca a la costa i la refineria.
+
+4.2.2 (1,5 punts) Calcula el valor de 𝑥 perquè el cost de construcció de l’oleoducte siga mínim.
+4.2.3 (0,5 punts) Calcula aquest cost.
+
+Solució:
+4.2.1 𝐶(𝑥) = √36 + (8 − 𝑥)2 + 0,6 𝑥.
+4.2.2 𝑥 = 3,5 km.
+4.2.3 El cost és de 9,6 milions d’euros.
+
+
+
+
+                                                      4
+                  En las respuestas se deben escribir todos los pasos del razonamiento utilizado.
+
+PREGUNTA 1: PROBABILIDAD Y ESTADÍSTICA (2,5 puntos)
+
+Los vuelos que llegan a un aeropuerto se clasifican en tres grupos: vuelos puntuales, vuelos con retrasos de
+hasta tres horas y vuelos con retrasos de más de tres horas. La puntualidad de los vuelos se ve afectada por las
+condiciones meteorológicas del momento. Si las condiciones meteorológicas son buenas, el porcentaje de los
+vuelos que llegan con puntualidad es del 70% mientras que el 10% llegan con más de tres horas de retraso. Si
+las condiciones meteorológicas son malas, el porcentaje de los vuelos que llegan con puntualidad es del 40%
+mientras que el 30% llegan con más de tres horas de retraso. Se calcula que el 90% de los días las condiciones
+meteorológicas son buenas.
+
+ 1.1 (0.5 puntos) ¿Cuál es la probabilidad de que un vuelo llegue con más de 3 horas de retraso?
+ 1.2 (1 punto) Sabiendo que un vuelo ha sido puntual, ¿cuál es la probabilidad de que las condiciones
+     meteorológicas fueran malas?
+ 1.3 (1 punto) Un pasajero realiza un vuelo a dicho aeropuerto, desde donde debe tomar otro vuelo a su
+     destino final. Este segundo vuelo enlaza si el primero llega con 3 horas o menos de retraso. Si realiza este
+     viaje una vez al mes durante un año y viaja siempre en condiciones meteorológicas buenas ¿cuál es la
+     probabilidad de que pueda enlazar con el vuelo a su destino final en todos sus viajes?
+
+ Solución:
+ 1.1    0.12.
+ 1.2    0.0597.
+ 1.3    0.2824.
+
+
+
+PREGUNTA 2: ÁLGEBRA (2,5 puntos)
+
+Responda al apartado 2.1 o al apartado 2.2
+
+  2.1 Se considera la matriz
+                                                  1   0 𝑚
+                                           𝐷 = (𝑚 0 −1),
+                                                  2 −1 1
+   que depende de un parámetro real 𝑚, y las matrices
+                                                                        1
+                                        𝐸 = (1 4     3)       y   𝐹 = ( 2 ).
+                                                                       −1
+       Se pide:
+ 2.1.1 (0.5 puntos) Indicar, si existen, los valores del parámetro 𝑚 para los que 𝐷 tiene inversa.
+
+ 2.1.2 (1 punto) Calcular las matrices 𝐸𝐹 y (𝐹𝐸)𝑡 , si existen.
+
+ 2.1.3 (1 punto) Resolver, para 𝑚 = 0, la ecuación matricial con incógnita 𝑋:
+                                                     1
+                                                         𝑋 + 𝐷 = 𝐷−1 .
+                                                     2
+ Solución:
+ 2.1.1 det(𝐷) = −𝑚2 − 1 ≠ 0, luego 𝐷 siempre tiene inversa.
+                          1 2 −1
+ 2.1.2 𝐸𝐹 = (6), (𝐹𝐸)𝑡 = (4 8 −4).
+                          3 6 −3
+                                                          5
+             0    0   0
+ 2.1.3 𝑋 = ( 4 −2 0 ).
+            −4 0 −2
+         ___________________________________________________________________________
+
+
+  2.2 Dada la matriz
+                                                 1       −1 𝑚 + 1
+                                         𝐴=(     0       1   𝑚 ).
+                                                𝑚−1      0    5
+
+ 2.2.1 (1.25 puntos) Estudiar el rango de la matriz 𝐴 en función del parámetro real 𝑚.
+                                                                1
+ 2.2.2 (1.25 puntos) Para 𝑚 = 0, calcular la matriz inversa de 6 𝐴, si existe.
+ Solución:
+                   3                           3
+ 2.2.1 Si 𝑚 ≠ − 2 , 𝑚 ≠ 2 rango 3 y si 𝑚 = − 2 ó 𝑚 = 2 el rango es 2.
+                       5   5       1
+                             −6     5 5        −1
+             −1        6   6
+        1
+ 2.2.2 ( 𝐴)       = 6 (0   1 0 ) = (0 6        0 ).
+        6              1   1  1
+                                    1 1        1
+                       6   6   6
+
+
+
+
+PREGUNTA 3: GEOMETRÍA (2,5 puntos)
+
+Responda al apartado 3.1 o al apartado 3.2
+
+ 3.1 Dados los planos 𝜋1 : 2𝑥 − 𝑎2 𝑦 − 𝑎𝑧 = 𝑎 − 1 y 𝜋2 : (𝑎 − 1)𝑥 − 𝑎𝑦 − 𝑧 = 𝑎, se pide:
+ 3.1.1 (1.5 puntos) Estudiar en función de a si los planos anteriores coinciden, son paralelos no coincidentes o
+      se cortan.
+
+ 3.1.2 (0.5 puntos) Calcular, para 𝑎 = 0, el ángulo entre los planos 𝜋1 y 𝜋2 .
+
+ 3.1.3 (0.5 puntos) Calcular, para 𝑎 = 0, la distancia entre el punto 𝑃 = (1,0, −1) y el plano 𝜋1 .
+ Solución:
+ 3.1.1 Los planos son paralelos no coincidentes para 𝑎 = −1 y 𝑎 = 2. Para 𝑎 ≠ −1,2, los planos se cortan.
+                                     𝜋
+ 3.1.2 El ángulo entre los planos es 4 .
+                   3
+ 3.1.3 Distancia 2.
+         ___________________________________________________________________________
+
+
+                                                         𝑥 = 1+𝛼
+ 3.2 Dado el plano 𝜋: 2𝑥 + 𝑦 − 3 = 0 y la recta      𝑟: {𝑦 = −1 − 2𝛼 , se pide:
+                                                         𝑧=1
+ 3.2.1 (1.25 puntos) Obtener la ecuación del plano perpendicular a 𝜋 y que contiene a 𝑟.
+
+ 3.2.2 (1.25 puntos) Calcular, si existe, un plano paralelo a 𝜋 y que contenga a 𝑟.
+
+Solución:
+3.2.1 𝑧 = 1.
+3.2.2 2𝑥 + 𝑦 − 1 = 0.
+                                                        6
+PREGUNTA 4: ANÁLISIS (2,5 puntos)
+
+Responda al apartado 4.1 o al apartado 4.2
+ 4.1 Dadas las funciones 𝑓(𝑥) = 𝑥 4 − 7𝑥 2 + 16 y 𝑔(𝑥) = 𝑥 2 , obtener:
+ 4.1.1 (1.25 puntos) Los intervalos de crecimiento y decrecimiento, y los extremos relativos de la función
+      𝑦 = 𝑓(𝑥).
+
+ 4.1.2 (1.25 puntos) El área de la superficie finita encerrada entre las curvas dadas por 𝑓(𝑥) y 𝑔(𝑥).
+ Solución:
+                             √14        √14                √14       √14
+ 4.1.1 𝑓 decrece en (−∞, − 2 ) ∪ (0, 2 )y crece en (− 2 , 0) ∪ ( 2 , +∞).
+    √14                                       √14
+ (− 2 , 3.75) mínimo, (0 ,16) máximo, ( 2 , 3.75) mínimo.
+      512
+ 4.1.2 15 = 34.1333.
+          ___________________________________________________________________________
+
+
+
+ 4.2 Una costa marítima se extiende en línea recta hacia la derecha desde un punto 𝑃 de la costa. A 8 km de 𝑃
+     hay una refinería situada en la costa. Además, hay una plataforma petrolífera en el mar que está situada a
+     6 km de distancia de 𝑃 en la recta perpendicular a la costa desde el punto 𝑃. Se construirá un oleoducto
+     desde la plataforma hasta la refinería. El coste de construir el oleoducto bajo el agua es de 1 millón de
+     euros por kilómetro y el de construirlo sobre tierra, de 0,6 millones de euros por kilómetro.
+
+
+
+
+ 4.2.1 (0.5 puntos) Encontrar la función del coste de construcción del oleoducto dependiendo de la distancia,
+      𝑥, entre el primer punto donde el oleoducto toca la costa y la refinería.
+
+ 4.2.2 (1.5 puntos) Encontrar el valor de 𝑥 para que el coste de construcción del oleoducto sea mínimo.
+ 4.2.3 (0.5 puntos) Calcular dicho coste.
+
+ Solución:
+ 4.2.1 𝐶(𝑥) = √36 + (8 − 𝑥)2 + 0.6 𝑥.
+ 4.2.2 𝑥 = 3.5 km.
+ 4.2.3 El coste es de 9.6 millones de euros.
+
+
+
+
+                                                       7
+Taula de la distribució binomial (Bin(n,p))                                                           𝒙
+Tabla de la distribución binomial (Bin(n,p))                                                         𝒏
+                                                                                𝑭(𝒙) = 𝑷(𝑿 ≤ 𝒙) = ∑ ( ) 𝒑𝒌 𝒒𝒏−𝒌
+                                                                                                     𝒌
+                                                                                                  𝒌=𝟎
+
+
+
+
+    n   k    p    0,01      0,05     0,10      0,20    0,25         0,30     1/3      0,35     0,40        0,45     0,50
+
+    1   0        0,9900    0,9500   0,9000   0,8000   0,7500       0,7000   0,6667   0,6500   0,6000      0,5500   0,5000
+        1        1,0000    1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   1,0000      1,0000   1,0000
+
+    2   0        0,9801    0,9025   0,8100   0,6400   0,5625       0,4900   0,4444   0,4225   0,3600      0,3025   0,2500
+        1        0,9999    0,9975   0,9900   0,9600   0,9375       0,9100   0,8889   0,8775   0,8400      0,7975   0,7500
+        2        1,0000    1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   1,0000      1,0000   1,0000
+
+    3   0        0,9703    0,8574   0,7290   0,5120   0,4219       0,3430   0,2963   0,2746   0,2160      0,1664   0,1250
+        1        0,9997    0,9928   0,9720   0,8960   0,8438       0,7840   0,7407   0,7183   0,6480      0,5748   0,5000
+        2        1,0000    0,9999   0,9990   0,9920   0,9844       0,9730   0,9630   0,9571   0,9360      0,9089   0,8750
+        3        1,0000    1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   1,0000      1,0000   1,0000
+
+    4   0        0,9606    0,8145   0,6561   0,4096   0,3164       0,2401   0,1975   0,1785   0,1296      0,0915   0,0625
+        1        0,9994    0,9860   0,9477   0,8192   0,7383       0,6517   0,5926   0,5630   0,4752      0,3910   0,3125
+        2        1,0000    0,9995   0,9963   0,9728   0,9492       0,9163   0,8889   0,8735   0,8208      0,7585   0,6875
+        3        1,0000    1,0000   0,9999   0,9984   0,9961       0,9919   0,9877   0,9850   0,9744      0,9590   0,9375
+        4        1,0000    1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   1,0000      1,0000   1,0000
+
+    5   0        0,9510    0,7738   0,5905   0,3277   0,2373       0,1681   0,1317   0,1160   0,0778      0,0503   0,0313
+        1        0,9990    0,9774   0,9185   0,7373   0,6328       0,5282   0,4609   0,4284   0,3370      0,2562   0,1875
+        2        1,0000    0,9988   0,9914   0,9421   0,8965       0,8369   0,7901   0,7648   0,6826      0,5931   0,5000
+        3        1,0000    1,0000   0,9995   0,9933   0,9844       0,9692   0,9547   0,9460   0,9130      0,8688   0,8125
+        4        1,0000    1,0000   1,0000   0,9997   0,9990       0,9976   0,9959   0,9947   0,9898      0,9815   0,9688
+        5        1,0000    1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   1,0000      1,0000   1,0000
+
+    6   0        0,9415    0,7351   0,5314   0,2621   0,1780       0,1176   0,0878   0,0754   0,0467      0,0277   0,0156
+        1        0,9985    0,9672   0,8857   0,6554   0,5339       0,4202   0,3512   0,3191   0,2333      0,1636   0,1094
+        2        1,0000    0,9978   0,9842   0,9011   0,8306       0,7443   0,6804   0,6471   0,5443      0,4415   0,3438
+        3        1,0000    0,9999   0,9987   0,9830   0,9624       0,9295   0,8999   0,8826   0,8208      0,7447   0,6563
+        4        1,0000    1,0000   0,9999   0,9984   0,9954       0,9891   0,9822   0,9777   0,9590      0,9308   0,8906
+        5        1,0000    1,0000   1,0000   0,9999   0,9998       0,9993   0,9986   0,9982   0,9959      0,9917   0,9844
+        6        1,0000    1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   1,0000      1,0000   1,0000
+
+    7   0        0,9321    0,6983   0,4783   0,2097   0,1335       0,0824   0,0585   0,0490   0,0280      0,0152   0,0078
+        1        0,9980    0,9556   0,8503   0,5767   0,4449       0,3294   0,2634   0,2338   0,1586      0,1024   0,0625
+        2        1,0000    0,9962   0,9743   0,8520   0,7564       0,6471   0,5706   0,5323   0,4199      0,3164   0,2266
+        3        1,0000    0,9998   0,9973   0,9667   0,9294       0,8740   0,8267   0,8002   0,7102      0,6083   0,5000
+        4        1,0000    1,0000   0,9998   0,9953   0,9871       0,9712   0,9547   0,9444   0,9037      0,8471   0,7734
+        5        1,0000    1,0000   1,0000   0,9996   0,9987       0,9962   0,9931   0,9910   0,9812      0,9643   0,9375
+        6        1,0000    1,0000   1,0000   1,0000   0,9999       0,9998   0,9995   0,9994   0,9984      0,9963   0,9922
+        7        1,0000    1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   1,0000      1,0000   1,0000
+
+    8   0        0,9227    0,6634   0,4305   0,1678   0,1001       0,0576   0,0390   0,0319   0,0168      0,0084   0,0039
+        1        0,9973    0,9428   0,8131   0,5033   0,3671       0,2553   0,1951   0,1691   0,1064      0,0632   0,0352
+        2        0,9999    0,9942   0,9619   0,7969   0,6785       0,5518   0,4682   0,4278   0,3154      0,2201   0,1445
+        3        1,0000    0,9996   0,9950   0,9437   0,8862       0,8059   0,7414   0,7064   0,5941      0,4770   0,3633
+        4        1,0000    1,0000   0,9996   0,9896   0,9727       0,9420   0,9121   0,8939   0,8263      0,7396   0,6367
+        5        1,0000    1,0000   1,0000   0,9988   0,9958       0,9887   0,9803   0,9747   0,9502      0,9115   0,8555
+        6        1,0000    1,0000   1,0000   0,9999   0,9996       0,9987   0,9974   0,9964   0,9915      0,9819   0,9648
+        7        1,0000    1,0000   1,0000   1,0000   1,0000       0,9999   0,9998   0,9998   0,9993      0,9983   0,9961
+        8        1,0000    1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   1,0000      1,0000   1,0000
+
+    9   0        0,9135    0,6302   0,3874   0,1342   0,0751       0,0404   0,0260   0,0207   0,0101      0,0046   0,0020
+        1        0,9966    0,9288   0,7748   0,4362   0,3003       0,1960   0,1431   0,1211   0,0705      0,0385   0,0195
+        2        0,9999    0,9916   0,9470   0,7382   0,6007       0,4628   0,3772   0,3373   0,2318      0,1495   0,0898
+        3        1,0000    0,9994   0,9917   0,9144   0,8343       0,7297   0,6503   0,6089   0,4826      0,3614   0,2539
+        4        1,0000    1,0000   0,9991   0,9804   0,9511       0,9012   0,8552   0,8283   0,7334      0,6214   0,5000
+        5        1,0000    1,0000   0,9999   0,9969   0,9900       0,9747   0,9576   0,9464   0,9006      0,8342   0,7461
+        6        1,0000    1,0000   1,0000   0,9997   0,9987       0,9957   0,9917   0,9888   0,9750      0,9502   0,9102
+        7        1,0000    1,0000   1,0000   1,0000   0,9999       0,9996   0,9990   0,9986   0,9962      0,9909   0,9805
+        8        1,0000    1,0000   1,0000   1,0000   1,0000       1,0000   0,9999   0,9999   0,9997      0,9992   0,9980
+        9        1,0000    1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   1,0000      1,0000   1,0000
+
+
+   10   0        0,9044    0,5987   0,3487   0,1074   0,0563       0,0282   0,0173   0,0135   0,0060      0,0025   0,0010
+        1        0,9957    0,9139   0,7361   0,3758   0,2440       0,1493   0,1040   0,0860   0,0464      0,0233   0,0107
+        2        0,9999    0,9885   0,9298   0,6778   0,5256       0,3828   0,2991   0,2616   0,1673      0,0996   0,0547
+        3        1,0000    0,9990   0,9872   0,8791   0,7759       0,6496   0,5593   0,5138   0,3823      0,2660   0,1719
+        4        1,0000    0,9999   0,9984   0,9672   0,9219       0,8497   0,7869   0,7515   0,6331      0,5044   0,3770
+        5        1,0000    1,0000   0,9999   0,9936   0,9803       0,9527   0,9234   0,9051   0,8338      0,7384   0,6230
+        6        1,0000    1,0000   1,0000   0,9991   0,9965       0,9894   0,9803   0,9740   0,9452      0,8980   0,8281
+        7        1,0000    1,0000   1,0000   0,9999   0,9996       0,9984   0,9966   0,9952   0,9877      0,9726   0,9453
+        8        1,0000    1,0000   1,0000   1,0000   1,0000       0,9999   0,9996   0,9995   0,9983      0,9955   0,9893
+        9        1,0000    1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   0,9999      0,9997   0,9990
+        10       1,0000    1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   1,0000      1,0000   1,0000
+
+                                                               8
+n    k    p    0,01     0,05     0,10     0,20     0,25         0,30     1/3      0,35     0,40     0,45    0,50
+
+11   0        0,8953   0,5688   0,3138   0,0859   0,0422       0,0198   0,0116   0,0088   0,0036   0,0014   0,0005
+     1        0,9948   0,8981   0,6974   0,3221   0,1971       0,1130   0,0751   0,0606   0,0302   0,0139   0,0059
+     2        0,9998   0,9848   0,9104   0,6174   0,4552       0,3127   0,2341   0,2001   0,1189   0,0652   0,0327
+     3        1,0000   0,9984   0,9815   0,8389   0,7133       0,5696   0,4726   0,4256   0,2963   0,1911   0,1133
+     4        1,0000   0,9999   0,9972   0,9496   0,8854       0,7897   0,7110   0,6683   0,5328   0,3971   0,2744
+     5        1,0000   1,0000   0,9997   0,9883   0,9657       0,9218   0,8779   0,8513   0,7535   0,6331   0,5000
+     6        1,0000   1,0000   1,0000   0,9980   0,9924       0,9784   0,9614   0,9499   0,9006   0,8262   0,7256
+     7        1,0000   1,0000   1,0000   0,9998   0,9988       0,9957   0,9912   0,9878   0,9707   0,9390   0,8867
+     8        1,0000   1,0000   1,0000   1,0000   0,9999       0,9994   0,9986   0,9980   0,9941   0,9852   0,9673
+     9        1,0000   1,0000   1,0000   1,0000   1,0000       1,0000   0,9999   0,9998   0,9993   0,9978   0,9941
+     10       1,0000   1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   1,0000   0,9998   0,9995
+     11       1,0000   1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   1,0000   1,0000   1,0000
+
+12   0        0,8864   0,5404   0,2824   0,0687   0,0317       0,0138   0,0077   0,0057   0,0022   0,0008   0,0002
+     1        0,9938   0,8816   0,6590   0,2749   0,1584       0,0850   0,0540   0,0424   0,0196   0,0083   0,0032
+     2        0,9998   0,9804   0,8891   0,5583   0,3907       0,2528   0,1811   0,1513   0,0834   0,0421   0,0193
+     3        1,0000   0,9978   0,9744   0,7946   0,6488       0,4925   0,3931   0,3467   0,2253   0,1345   0,0730
+     4        1,0000   0,9998   0,9957   0,9274   0,8424       0,7237   0,6315   0,5833   0,4382   0,3044   0,1938
+     5        1,0000   1,0000   0,9995   0,9806   0,9456       0,8822   0,8223   0,7873   0,6652   0,5269   0,3872
+     6        1,0000   1,0000   0,9999   0,9961   0,9857       0,9614   0,9336   0,9154   0,8418   0,7393   0,6128
+     7        1,0000   1,0000   1,0000   0,9994   0,9972       0,9905   0,9812   0,9745   0,9427   0,8883   0,8062
+     8        1,0000   1,0000   1,0000   0,9999   0,9996       0,9983   0,9961   0,9944   0,9847   0,9644   0,9270
+     9        1,0000   1,0000   1,0000   1,0000   1,0000       0,9998   0,9995   0,9992   0,9972   0,9921   0,9807
+     10       1,0000   1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   0,9999   0,9997   0,9989   0,9968
+     11       1,0000   1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   1,0000   0,9999   0,9998
+     12       1,0000   1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   1,0000   1,0000   1,0000
+
+13   0        0,8775   0,5133   0,2542   0,0550   0,0238       0,0097   0,0051   0,0037   0,0013   0,0004   0,0001
+     1        0,9928   0,8646   0,6213   0,2336   0,1267       0,0637   0,0385   0,0296   0,0126   0,0049   0,0017
+     2        0,9997   0,9755   0,8661   0,5017   0,3326       0,2025   0,1387   0,1132   0,0579   0,0269   0,0112
+     3        1,0000   0,9969   0,9658   0,7473   0,5843       0,4206   0,3224   0,2783   0,1686   0,0929   0,0461
+     4        1,0000   0,9997   0,9935   0,9009   0,7940       0,6543   0,5520   0,5005   0,3530   0,2279   0,1334
+     5        1,0000   1,0000   0,9991   0,9700   0,9198       0,8346   0,7587   0,7159   0,5744   0,4268   0,2905
+     6        1,0000   1,0000   0,9999   0,9930   0,9757       0,9376   0,8965   0,8705   0,7712   0,6437   0,5000
+     7        1,0000   1,0000   1,0000   0,9988   0,9944       0,9818   0,9653   0,9538   0,9023   0,8212   0,7095
+     8        1,0000   1,0000   1,0000   0,9998   0,9990       0,9960   0,9912   0,9874   0,9679   0,9302   0,8666
+     9        1,0000   1,0000   1,0000   1,0000   0,9999       0,9993   0,9984   0,9975   0,9922   0,9797   0,9539
+     10       1,0000   1,0000   1,0000   1,0000   1,0000       0,9999   0,9998   0,9997   0,9987   0,9959   0,9888
+     11       1,0000   1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   0,9999   0,9995   0,9983
+     12       1,0000   1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   1,0000   1,0000   0,9999
+     13       1,0000   1,0000   1,0000   1,0000   1,0000       1,0000   1,0000   1,0000   1,0000   1,0000   1,0000
+
+
+
+
+                                                           9
+

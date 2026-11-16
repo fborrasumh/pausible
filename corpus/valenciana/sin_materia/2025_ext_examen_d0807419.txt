@@ -1,0 +1,277 @@
+                                    PROVA D’ACCÉS A LA UNIVERSITAT
+                                   PRUEBA DE ACCESO A LA UNIVERSIDAD
+
+
+
+         CONVOCATÒRIA: EXTRA JULIOL 2025                          CONVOCATORIA: EXTRA JULIO 2025
+
+ASSIGNATURA: TECNOLOGIA I ENGINYERIA II                   ASIGNATURA: TECNOLOGÍA E INGENIERÍA II
+
+BAREM DE L’EXAMEN: Cal respondre els quatre exercicis. Cada exercici puntua 2.5 punts. En els exercicis
+que tinguen dues opcions només s’ha de contestar una de les dues opcions.
+
+BAREMO DEL EXAMEN: Se ha de responder a los cuatro ejercicios. Cada ejercicio puntúa 2.5 puntos. En los
+ejercicios que tengan dos opciones sólo se ha de contestar una de las dos opciones.
+
+
+Exercici 1.                                                                                   (2.50 punts)
+En un parc empresarial s’ha sol·licitat el disseny d’una nau industrial per a manipular i envasar els aliments.
+Aquest projecte ha d’integrar diferents sistemes tecnològics per a garantir un rendiment òptim i respectar
+principis de sostenibilitat.
+
+       a. Enumereu i descriviu breument les fases necessàries per a desenvolupar aquest projecte de
+          construcció i lliurament.                                                        (0.75 punts)
+       b. Considerant que el material elegit per a l'estructura és l'acer, expliqueu almenys una propietat
+          mecànica rellevant d'aquest material.                                            (0.50 punts)
+       c. Quin tipus de màquina tèrmica seria adequada per a mantenir les condicions climàtiques ideals a
+          l’interior? Descriviu una de les principals característiques que cal considerar. (0.50 punts)
+       d. Aporteu dos aspectes beneficiosos de l’ús d’energies renovables.                 (0.75 punts)
+
+
+
+
+                                                      1
+Exercici 2. Contesteu només una de les dues opcions següents (A o B).                             (2.50 punts)
+Opció A
+El circuit de la figura mostra un comparador de paraules d’un bit. Les paraules d’entrada que es comparen són a
+i b. Les eixides són c, d i e.
+     a. Obteniu la taula de veritat i identifiqueu justificadament quina eixida s’activarà per a cadascun dels tres
+        possibles casos:
+        a = b, això és, quan a = 0 i b = 0, o quan a = 1 i b = 1;
+        a > b, això és, quan a = 1 i b = 0;
+        a < b, això és, quan a = 0 i b = 1.                                                        (1.00 punts)
+     b. Dissenyeu i representeu un circuit equivalent utilitzant únicament portes universals NAND, per a això,
+        inicialment, determineu les funcions d’eixida c, d i e.                                    (1.00 punts)
+     c. Si es dissenyara un comparador de 8 bits en lloc d’1 bit, quantes combinacions possibles d’entrades
+        tindria? Justifiqueu la resposta.                                                          (0.50 punts)
+
+
+
+
+Opció B
+En un xicotet hivernacle es vol mantenir la temperatura adequada per al creixement òptim de certes plantes. Per
+a això es compta amb un sistema de regulació definit de la manera següent:
+     Un sensor que converteix la temperatura interior de l’hivernacle T (en ºC) en un senyal de valor H∙T,
+        que és H = 10 mV/ºC.
+     Un regulador (amplificador) amb guany K = 25 °C/V.
+     Una consigna de referència, ajustada mitjançant un potenciòmetre, que genera una tensió E en volts.
+     Per motius de simplicitat, l’hivernacle es modela com un bloc amb funció de transferència G = 1.
+     El diagrama de blocs del sistema és tal que l’entrada de consigna E es compara amb la tensió procedent
+        del sensor i la diferència s’aplica a l’amplificador de guany K. L’eixida de l’amplificador s’utilitza com
+        a entrada a l’hivernacle l’eixida del qual és la temperatura resultant.
+Es demana que:
+    a. Representeu el diagrama de blocs del sistema de regulació descrit i n’identifiqueu els components.
+                                                                                                 (1.00 punts)
+    b. Determineu la temperatura a què s’arribarà en l’hivernacle quan la tensió de consigna és E = 1.6 V.
+                                                                                                 (0.50 punts)
+    c. Determineu la tensió de consigna E que cal aplicar perquè l’hivernacle s’estabilitze a 25 °C.
+                                                                                                 (0.50 punts)
+    d. Expliqueu el principi de funcionament d’algun dels tipus de sensors que puga convertir la temperatura
+        en un senyal elèctric.                                                                   (0.50 punts)
+
+
+
+
+                                                        2
+Exercici 3. Contesteu només una de les dues opcions següents (A o B).                            (2.50 punts)
+Opció A
+Ateses les característiques següents d’un motor de combustió interna:
+
+                       Nombre de cilindres                          4
+                       Diàmetre interior del cilindre (D)           86 mm
+                       Carrera (S)                                  90 mm
+                       Volum de la cambra de combustió Vc           50.2 cc
+                       Potència màxima                              100 kW a 5000 rpm
+                       Parell màxim                                 200 Nm a 3800 rpm
+
+Calculeu:
+   a. La cilindrada unitària i la cilindrada total (en centímetres cúbics cc).                   (0.75 punts)
+   b. Relació de compressió del motor.                                                           (0.75 punts)
+   c. Potència d’eixida corresponent al parell màxim (en watts).                                 (0.50 punts)
+   d. Parell motor subministrat a la màxima potència (en Nm).                                    (0.50 punts)
+
+
+Opció B
+Atés un circuit en sèrie RL de corrent altern alimentat per un generador la tensió eficaç del qual és Ve = 150 V i
+una freqüència de 50 Hz, considerant R = 20 Ω i una bobina amb una inductància de L = 0.02 H, calculeu:
+
+   a.   Reactància en la bobina (XL) i impedància total del circuit (Z).                         (0.75 punts)
+   b.   Intensitat eficaç (Ie) i màxima (Imax) que circula pel circuit.                          (0.75 punts)
+   c.   Factor de potència.                                                                      (0.50 punts)
+   d.   Potència activa.                                                                         (0.50 punts)
+
+
+
+
+                                                         3
+Exercici 4. Contesteu només una de les dues opcions següents (A o B)                               (2.50 punts)
+Opció A
+La incorporació de la IA en la indústria valenciana és una realitat que s’observa en molts aspectes. Una
+indústria de transformació citrícola d’Oriola vol instal·lar un sistema de captació d’energia solar.
+   a. La instal·lació comporta una memòria de projecte tècnic i una declaració d’impacte ambiental (DIA).
+      Què és la DIA? Indiqueu els aspectes bàsics que conté la memòria de projecte tècnic.
+                                                                                               (1.00 punts)
+   b. Per a instal·lar aquest projecte s’opta per una metodologia Agile. Definiu aquesta metodologia i els seus
+      principis de treball.
+                                                                                               (0.75 punts)
+   c. El control de la instal·lació es realitza mitjançant algorismes que comporten intel·ligència artificial.
+      Indiqueu i descriviu almenys dos aspectes en els quals pot ser una millora aquest tipus de control per IA
+      en sistemes de captació d’energia.                                                       (0.75 punts)
+
+
+
+Opció B
+L’esquema de la figura mostra el control d’obertura i tancament pneumàtic de la porta d’un autobús.
+   a. Identifiqueu cadascun dels elements.                                                    (0.75 punts)
+   b. Expliqueu-ne la funció.                                                                 (0.75 punts)
+
+
+
+
+   c. Dissenyeu el circuit pneumàtic d’un cilindre de simple efecte que només s’activa si s’accionen, alhora,
+      dos polsadors.                                                                         (1.00 punts)
+
+
+
+
+                                                      4
+                                    PROVA D’ACCÉS A LA UNIVERSITAT
+                                  PRUEBA DE ACCESO A LA UNIVERSIDAD
+
+
+
+         CONVOCATÒRIA: EXTRA JULIOL 2025                          CONVOCATORIA: EXTRA JULIO 2025
+
+ASSIGNATURA: TECNOLOGIA I ENGINYERIA II                   ASIGNATURA: TECNOLOGÍA E INGENIERÍA II
+
+BAREM DE L’EXAMEN: Cal respondre els quatre exercicis. Cada exercici puntua 2.5 punts. En els exercicis
+que tinguen dues opcions, només s’ha de contestar una de les dues opcions.
+
+BAREMO DEL EXAMEN: Se ha de responder a los cuatro ejercicios. Cada ejercicio puntúa 2.5 puntos. En los
+ejercicios que tengan dos opciones sólo se ha de contestar una de las dos opciones.
+
+
+Ejercicio 1.                                                                                 (2.50 puntos)
+En un parque empresarial se ha solicitado el diseño de una nave industrial para la manipulación y envasado de
+alimentos. Este proyecto debe integrar distintos sistemas tecnológicos para garantizar un rendimiento óptimo y
+respetar principios de sostenibilidad.
+    a. Enumera y describe brevemente las fases necesarias para desarrollar este proyecto de construcción y
+        entrega.                                                                               (0.75 puntos)
+    b. Considerando que el material elegido para la estructura es el acero, explica al menos una propiedad
+        mecánica relevante de este material.                                                   (0.50 puntos)
+    c. ¿Qué tipo de máquina térmica sería adecuada para mantener las condiciones climáticas ideales en el
+        interior? Describe una de sus principales características a considerar.                (0.50 puntos)
+    d. Aporta dos aspectos beneficiosos del uso de energías renovables.                        (0.75 puntos)
+
+
+
+
+                                                      5
+Ejercicio 2. Conteste sólo una de las dos opciones siguientes (A o B)                           (2.50 puntos)
+Opción A
+El circuito de la figura muestra un comparador de palabras de un bit. Las palabras de entrada a comparar son a
+y b. Las salidas son c, d y e.
+      a. Obtén la tabla de verdad e identifica justificadamente qué salida se activará para cada uno de los tres
+         posibles casos:
+        a = b, esto es, cuando a=0 y b=0, o cuando a=1 y b=1;
+        a > b, esto es, cuando a=1 y b=0;
+        a < b, esto es, cuando a=0 y b=1.                                                       (1.00 puntos)
+      b. Diseña y representa un circuito equivalente utilizando únicamente puertas universales NAND, para
+         ello, inicialmente, determina las funciones de salida c, d y e.                        (1.00 puntos)
+      c. Si se diseñara un comparador de 8 bits en lugar de 1 bit, ¿cuántas combinaciones posibles de entradas
+         tendría? Justifica la respuesta.                                               (0.50 puntos)
+
+
+
+
+Opción B
+En un pequeño invernadero se desea mantener la temperatura adecuada para el óptimo crecimiento de ciertas
+plantas. Para ello se cuenta con un sistema de regulación definido de la siguiente forma:
+     Un sensor que convierte la temperatura interior del invernadero T (en ºC) en una señal de valor H∙T,
+        siendo H=10mV/ºC.
+     Un regulador (amplificador) con ganancia K = 25ºC/V
+     Una consigna de referencia, ajustada mediante un potenciómetro, que genera una tensión E en voltios
+     Por motivos de simplicidad, el invernadero se modela como un bloque con función de transferencia
+        G=1.
+     El diagrama de bloques del sistema es tal que la entrada de consigna E se compara con la tensión
+        procedente del sensor y la diferencia se aplica al amplificador de ganancia K. La salida del amplificador
+        se lleva como entrada al invernadero cuya salida es la temperatura resultante.
+Se pide:
+a. Representar el diagrama de bloques del sistema de regulación descrito identificando sus componentes.
+                                                                                                 (1.00 puntos)
+b. Determinar la temperatura que se alcanzará en el invernadero cuando la tensión de consigna es E=1.6V
+                                                                                                 (0.50 puntos)
+c. Determinar la tensión de consigna E que hay que aplicar para que el invernadero se estabilice a 25ºC.
+                                                                                                 (0.50 puntos)
+d. Explica el principio de funcionamiento de alguno de los tipos de sensores que pueda convertir la
+    temperatura en una señal eléctrica.
+       (0.50 puntos)
+
+
+
+
+                                                       6
+Ejercicio 3. Conteste sólo una de las dos opciones siguientes (A o B)                        (2.50 puntos)
+Opción A
+
+Dadas las siguientes características de un motor de combustión interna:
+
+                      Número de cilindros                          4
+                      Diámetro interior del cilindro (D)           86 mm
+                      Carrera (S)                                  90 mm
+                      Volumen de la cámara de combustión Vc        50.2 cc
+                      Potencia máxima                              100 kW a 5000 rpm
+                      Par máximo                                   200 Nm a 3800 rpm
+
+Calcula:
+    a. La cilindrada unitaria y la cilindrada total (en centímetros cúbicos cc)              (0.75 puntos)
+    b. Relación de compresión del motor                                                      (0.75 puntos)
+    c. Potencia de salida correspondiente al par máximo (en watios)                          (0.50 puntos)
+    d. Par motor suministrado a la máxima potencia (en Nm)                                   (0.50 puntos)
+
+
+Opción B
+Dado un circuito en serie RL de corriente alterna alimentado por un generador cuya tensión eficaz es Ve=150 V
+y una frecuencia de 50Hz. Considerando R=20 Ω, y una bobina con una inductancia de L= 0.02 H, calcular:
+     a. Reactancia en la bobina (XL) e impedancia total del circuito (Z).                      (0.75 puntos)
+     b. Intensidad eficaz (Ie) y máxima (Imax) que circula por el circuito.                    (0.75 puntos)
+     c. Factor de potencia.                                                                    (0.50 puntos)
+     d. Potencia activa.                                                                       (0.50 puntos)
+
+
+
+
+                                                        7
+Ejercicio 4. Conteste sólo una de las dos opciones siguientes (A o B)                            (2.50 puntos)
+Opción A
+La incorporación de la IA en la industria valenciana es una realidad que se observa en muchos aspectos. Una
+industria de transformación citrícola de Orihuela desea instalar un sistema de captación de energía solar.
+   a. La instalación conlleva una memoria de proyecto técnico y una declaración de impacto ambiental
+      (DIA). ¿Qué es la DIA? Indica los aspectos básicos que contiene la memoria de proyecto técnico.
+                                                                                               (1.00 puntos)
+   b. Para la instalación de este proyecto se opta por una metodología Agile. Define esta metodología y sus
+      principios de trabajo.
+                                                                                               (0.75 puntos)
+   c. El control de la instalación se realiza mediante algoritmos que conllevan inteligencia artificial. Indica y
+      describe al menos dos aspectos en los cuales puede ser una mejora este tipo de control por IA en
+      sistemas de captación de energía.
+                                                                                               (0.75 puntos)
+
+
+
+Opción B
+El esquema de la figura muestra el control de apertura y cierre neumático de la puerta de un autobús.
+   a. Identificar cada uno de los elementos                                                     (0.75 puntos)
+   b. Explicar su función                                                                       (0.75 puntos)
+
+
+
+
+   c. Diseñar el circuito neumático de un cilindro de simple efecto que solamente se activa si se accionan, a la
+      vez, dos pulsadores                                                                      (1.00 puntos)
+
+
+
+
+                                                       8
+

@@ -1,0 +1,295 @@
+                                      PROVA D’ACCÉS A LA UNIVERSITAT
+                                    PRUEBA DE ACCESO A LA UNIVERSIDAD
+
+
+
+         CONVOCATÒRIA:         JULIOL 2025                          CONVOCATORIA:       JULIO 2025
+
+ASSIGNATURA: TECNOLOGIA I ENGINYERIA II                     ASIGNATURA: TECNOLOGÍA E INGENIERÍA II
+
+BAREM DE L’EXAMEN: Cal respondre els quatre exercicis. Cada exercici puntua 2.5 punts. En els exercicis
+que tinguen dues opcions, només s’ha de contestar una de les dues opcions.
+
+BAREMO DEL EXAMEN: Se ha de responder a los cuatro ejercicios. Cada ejercicio puntúa 2.5 puntos. En los
+ejercicios que tengan dos opciones sólo se ha de contestar una de las dos opciones.
+
+
+EXERCICI 1.                                                                                         (2.50 punts)
+Es vol dissenyar un sistema per al reg d’un xicotet hivernacle. Es disposa dels sensors següents:
+
+H Sensor d’humitat: ofereix un valor d’1 quan hi ha humitat suficient en el terreny i 0 quan és insuficient.
+T Sensor de temperatura ambient: quan la temperatura és elevada, es té un valor d’1.
+
+El sistema de reg s’alimenta de l’aigua d’un depòsit amb un sensor (D) que ofereix un valor de 0 quan no hi ha
+aigua suficient i un valor d’1 quan hi ha aigua disponible. El sistema de reg es posarà en funcionament (R=1)
+sempre que:
+     Hi haja aigua en el depòsit i el terreny tinga una baixa humitat (D=1, H=0), o bé
+     Hi haja aigua en el depòsit i la temperatura ambient siga elevada (D=1, T=1).
+
+Es demana que:
+    a. Representeu la taula de veritat per al sistema de reg (R) en funció de les entrades DHT. (0.75 punts)
+    b. Obtingueu la funció de R simplificada mitjançant un diagrama de Karnaugh.                (0.75 punts)
+    c. Representeu amb portes lògiques la funció obtinguda prèviament.                          (0.50 punts)
+    d. Si es decidira emprar un depòsit de ferro per a emmagatzemar l’aigua de reg, quin seria el principal
+       problema en l’ús d’aquest material per a aquesta funcionalitat? Indiqueu alguna solució/tractament i
+       alternativa a aquest material.                                                           (0.50 punts)
+
+
+
+
+                                                        1
+EXERCICI 2. Contesteu només una de les dues opcions següents (A o B).                              (2.50 punts)
+OPCIÓ A
+S’ha dissenyat un circuit elèctric com el de la figura. En aquest circuit en sèrie RLC s’ha implementat una font
+de tensió alterna (Vs) d’amplitud 100 V i 50 Hz de freqüència, una resistència de 12 , una inductància de
+0.15 H i un condensador en sèrie de 100 F (microfarads). Calculeu-ne els paràmetres característics següents.
+
+
+
+
+   a. Impedància total del circuit.                                                                (1.00 punts)
+   b. Quin corrent es té en el circuit?                                                            (0.75 punts)
+   c. Quina tensió es mesura en borns del condensador? I quin factor de potència té?               (0.75 punts)
+
+OPCIÓ B
+Un carregador ultraràpid per a patinets elèctrics de la ciutat d’Oriola disposa de les característiques següents per
+a usar-lo, una potència activa (P) de 50 kW a un factor de potència (FP) de 0.6 (inductiu). El gerent de
+l’empresa de manteniment ha sol·licitat una millora del factor de potència a 0.85, per a atendre més sol·licituds,
+mitjançant la instal·lació d’un condensador en paral·lel. El sistema opera a una freqüència de 50 Hz i amb un
+voltatge de 220 V.
+
+   a. Calculeu la potència reactiva (Q) actual consumida en usar el carregador.                (0.75 punts)
+   b. Determineu la capacitat del condensador (en farads) que s’ha d’instal·lar per a corregir el factor de
+      potència a 0.85. Sobre la base d’aquest nou factor de potència, calculeu les potències activa (P), aparent
+      (S) i reactiva (Q) i dibuixeu el nou triangle de potències.                              (1.25 punts)
+   c. Descriviu els avantatges de millorar el FP per davant d’augmentar-ne la potència activa sense millorar-
+      ne el FP.                                                                                (0.50 punts)
+
+
+
+
+                                                         2
+EXERCICI 3. Contesteu només una de les dues opcions següents (A o B).                           (2.50 punts)
+OPCIÓ A
+En un hivernacle s’està analitzant la instal·lació d’una bomba de calor per a un sistema de calefacció. En el
+balanç energètic, realitzat en una franja temporal, es rep la calor procedent del sol Qsol = 1000 W. Les pèrdues
+de calor produïdes són les degudes a la ventilació (Qven = 2000 W), la coberta (Qcov = 1500 W) i el sòl (Qsòl
+= 900 W). Amb la calor aportada per la bomba de calor (Qt) es vol mantenir la temperatura a 25 °C, i la
+temperatura de l’exterior és Text = 10 °C. Tenint en compte:
+                                       Qsol + Qt = Qven + Qcov + Qsòl
+                             COP (eficiència) = Tinterior / (Tinterior – Texterior )
+                                          T(kelvin)= T (ºC) + 273.15
+Es demana que:
+   a. Calculeu el coeficient de rendiment (COP) o eficiència de la bomba de calor, considerant la bomba de
+      calor ideal (seguint el cicle de Carnot). Calculeu la potència elèctrica necessària a partir del balanç
+      energètic.                                                                              (0.50 punts)
+   b. Si partim d’una màquina més realista amb una eficiència o COP = 3, quanta potència elèctrica seria
+      necessària? Valoreu les diferències entre la calculada en aquest apartat i l’obtinguda en l’apartat
+      anterior.
+                                                                                              (1.00 punts)
+   c. Calculeu la calor extreta de l’ambient exterior per la bomba de calor considerant la màquina de l’apartat
+      b i les condicions ambientals de l’enunciat.                                            (1.00 punts)
+
+
+OPCIÓ B
+Tenint en compte un sistema de control, responeu les qüestions següents:
+   a. Un sistema de control en llaç tancat, en un hivernacle, activa un sistema de calefacció quan la
+      temperatura a l’interior Tin descendeix per davall de la temperatura de referència Tref = 25 °C. Si la
+      temperatura en l’exterior Text es manté constant i la taxa de calfament és de 0.5 °C/min, calculeu el
+      temps necessari per a arribar als 25 °C des dels 22 °C.
+              (1.00 punts)
+   b. En el sistema de control en llaç tancat s’utilitza un controlador d’acció proporcional a l’error (Kp) per a
+      mantenir la temperatura interna Tin pròxima a Tref = 25 °C. Si el sistema té un error inicial ϵ(0) = −2
+      °C, calculeu l’acció de control en l’instant inicial considerant el paràmetre proporcional Kp = 1.5.
+                                                                                                 (0.75 punts)
+   c. Descriviu almenys dos elements que intervenen en un sistema de control en llaç tancat com l’utilitzat en
+      el control de l’hivernacle. Indiqueu una diferència d’aquesta mena de control amb un sistema de control
+      en llaç obert.                                                                             (0.75 punts)
+
+
+
+
+                                                       3
+EXERCICI 4. Contesteu només una de les dues opcions següents (A o B).                                (2.50 punts)
+OPCIÓ A
+En una fàbrica de maquinària pesant s’ha d’avaluar la duresa d’una peça d’acer i per a això es realitzarà l’assaig
+de duresa Brinell, utilitzant una bola de 10 mm de diàmetre i una càrrega de 3000 kp. El valor obtingut en
+realitzar l’assaig és de duresa 150 HB.
+Es demana que:
+   a. Si el resultat del assaig s’expressa com 150 HB 10/3000 15s, Quan ha durat l’assaig? (0.75 punts)
+   b. Citeu altres dos assajos de duresa que es podrien haver utilitzat i comenteu les diferències amb l’assaig
+      de duresa Brinell.                                                                       (1.00 punts)
+   c. Calculeu el diàmetre de la petjada deixada per la bola en la superfície de l’acer.       (0.75 punts)
+
+                      𝐹          2𝐹
+   Fórmules: 𝐻𝐵 = 𝑆 =
+                          𝜋∗𝐷∗(𝐷−√𝐷2 −𝑑2 )
+
+
+
+OPCIÓ B
+Atesa la biga de la figura , en què s’indica la distribució de càrregues i suports, es demana que:
+
+
+
+
+   a. Dibuixeu el diagrama de cos lliure de la biga.                                   (1.00 punts)
+   b. Calculeu les reaccions en els suports.                                           (1.00 punts)
+   c. Indicar dos tractaments tèrmics que podries aplicar a aquesta biga d'acer estructural per a millorar
+      les seues propietats mecàniques, i indica què es milloraria amb els tractaments. (0.50 punts)
+
+
+
+
+                                                         4
+                                    PROVA D’ACCÉS A LA UNIVERSITAT
+                                   PRUEBA DE ACCESO A LA UNIVERSIDAD
+
+
+
+         CONVOCATÒRIA:           JULIOL 2025                       CONVOCATORIA:      JULIO 2025
+
+ASSIGNATURA: TECNOLOGIA I ENGINYERIA II                    ASIGNATURA: TECNOLOGÍA E INGENIERÍA II
+
+BAREM DE L’EXAMEN: Cal respondre els quatre exercicis. Cada exercici puntua 2.5 punts. En els exercicis
+que tinguen dues opcions, només s’ha de contestar una de les dues opcions.
+
+BAREMO DEL EXAMEN: Se ha de responder a los cuatro ejercicios. Cada ejercicio puntúa 2.5 puntos. En los
+ejercicios que tengan dos opciones sólo se ha de contestar una de las dos opciones.
+
+
+EJERCICIO 1.                                                                                   (2.50 puntos)
+Se desea diseñar un sistema para el riego de un pequeño invernadero. Se dispone de los siguientes sensores:
+
+H Sensor de humedad: ofrece un valor de 1 cuando hay humedad suficiente en el terreno y 0 cuando esta es
+insuficiente.
+T Sensor de temperatura ambiente: cuando la temperatura es elevada se tiene un valor de 1.
+
+El sistema de riego se alimenta del agua de un depósito con un sensor (D) que ofrece un valor de 0 cuando no
+hay agua suficiente y un valor de 1 cuando hay agua disponible. El sistema de riego se pondrá en
+funcionamiento (R=1) siempre que:
+     Haya agua en el depósito y el terreno tenga una baja humedad (D=1, H=0), o bien
+     Haya agua en el depósito y la temperatura ambiente sea elevada (D=1, T=1).
+
+Se pide:
+       a. Representar la Tabla de Verdad para el sistema de riego (R) en función de las entradas DHT.
+                                                                                              (0.75 untos)
+       b. Obtener la función de R simplificada mediante un diagrama de Karnaugh.              (0.75 puntos)
+       c. Representar con puertas lógicas la función obtenida previamente.                    (0.50 puntos)
+       d. Si se decidiera emplear un depósito de hierro para almacenar el agua de riego, ¿cuál sería el
+          principal problema en el empleo de este material para dicha funcionalidad? Indicar alguna
+          solución/tratamiento y alternativa a este material.                                 (0.50 puntos)
+
+
+
+
+                                                       5
+EJERCICIO 2. Conteste sólo una de las dos opciones siguientes (A o B)                           (2.50 puntos)
+OPCIÓN A
+Se ha diseñado un circuito eléctrico como el de la figura. En este circuito en serie RLC se ha implementado una
+fuente de tensión alterna (Vs) de amplitud 100 V y 50 Hz de frecuencia, una resistencia de 12 , una
+inductancia de 0.15 H y un condensador en serie de 100 F (microfaradios). Calcula los siguientes parámetros
+característicos del mismo.
+
+
+
+
+   a. Impedancia total del circuito.                                                            (1.00 puntos)
+   b. ¿Qué corriente se tiene en el circuito?                                                   (0.75 puntos)
+   c. ¿Qué tensión se mide en bornes del condensador? ¿Y qué factor de potencia tiene?          (0.75 puntos)
+
+OPCIÓN B
+En un cargador ultrarrápido para patinetes eléctricos de la ciudad de Orihuela se ha dispuesto las siguientes
+características para su uso, una potencia activa (P) de 50 kW a un factor de potencia (FP) de 0.6 (inductivo). El
+gerente de la empresa de mantenimiento ha solicitado una mejora del factor de potencia a 0.85, para atender
+más solicitudes, mediante la instalación de un condensador en paralelo. El sistema opera a una frecuencia de 50
+Hz y con un voltaje de 220 V.
+
+   a. Calcule la potencia reactiva (Q) actual consumida al usar el cargador.                   (0.75 puntos)
+   b. Determine la capacidad del condensador (en faradios) que se debe instalar para corregir el factor de
+      potencia a 0.85. En base a este nuevo factor de potencia, calcule las potencias activa (P), aparente (S) y
+      reactiva (Q) y dibuje el nuevo triángulo de potencias.                                   (1.25 puntos)
+   c. Describa las ventajas de mejorar FP frente a aumentar su potencia activa sin mejorar su FP.
+                                                                                               (0.50 puntos)
+
+
+
+
+                                                       6
+EJERCICIO 3. Conteste sólo una de las dos opciones siguientes (A o B)                           (2.50 puntos)
+OPCIÓN A
+En un invernadero se está analizando la instalación de una bomba de calor para un sistema de calefacción. En el
+balance energético, realizado en una franja temporal, se recibe el calor procedente del sol Qsol = 1000 W. Las
+pérdidas de calor producidas son las debidas a la ventilación (Qven = 2000 W), la cubierta (Qcov = 1500 W) y
+el suelo (Qsuelo = 900 W). Con el calor aportado por la bomba de calor (Qt) se quiere mantener la temperatura
+a 25 ºC, siendo la temperatura del exterior Text= 10 ºC. Teniendo en cuenta:
+                                     Qsol + Qt = Qven + Qcov + Qsuelo
+                             COP (eficiencia) = Tinterior / (Tinterior - Texterior )
+                                          T(kelvin) = T (ºC) + 273.15
+Se pide:
+      a. Calcula el coeficiente de rendimiento (COP) o eficiencia de la bomba de calor, considerando la
+         bomba de calor ideal (siguiendo el ciclo de Carnot). Calcula la potencia eléctrica necesaria a partir
+         del balance energético.
+              (0.50 puntos)
+      b. Si partimos de una máquina más realista con una eficiencia o COP = 3, ¿cuánta potencia eléctrica
+         sería necesaria? Valora las diferencias entre la calculada en este apartado y la obtenida en el apartado
+         anterior.      (1.00 puntos)
+      c. Calcula el calor extraído del ambiente exterior por la bomba de calor considerando la máquina del
+         apartado b y las condiciones ambientales del enunciado.                                 (1.00 puntos)
+
+
+OPCIÓN B
+Teniendo en cuenta un sistema de control, responder a las siguientes cuestiones:
+      a. Un sistema de control en lazo cerrado, en un invernadero, activa un sistema de calefacción cuando la
+         temperatura en el interior Tin desciende por debajo de la temperatura de referencia Tref = 25 ºC. Si la
+         temperatura en el exterior Text se mantiene constante y la tasa de calentamiento es de 0.5 ºC /min,
+         calcula el tiempo necesario para alcanzar 25 ºC desde los 22 ºC.
+              (1.00 puntos)
+      b. En el sistema de control en lazo cerrado se utiliza un controlador de acción proporcional al error (Kp)
+         para mantener la temperatura interna Tin cercana a Tref = 25 ºC. Si el sistema tiene un error
+         inicial ϵ(0) = −2 ºC, calcula la acción de control en el instante inicial considerando el parámetro
+         proporcional Kp = 1.5                                                                   (0.75 puntos)
+      c. Describe al menos dos elementos que intervienen en un sistema de control en lazo cerrado como el
+         utilizado en el control del invernadero. Indica una diferencia de este tipo de control con un sistema de
+         control en lazo abierto.                                                                (0.75 puntos)
+
+
+
+
+                                                       7
+EJERCICIO 4. Conteste sólo una de las dos opciones siguientes (A o B)                         (2.50 puntos)
+OPCIÓN A
+En una fábrica de maquinaria pesada se tiene que evaluar la dureza de una pieza de acero y para ello se va a
+realizar el ensayo de dureza Brinell, utilizando una bola de 10 mm de diámetro y una carga de 3000 kp. El valor
+obtenido al realizar el ensayo es de dureza 150 HB.
+Se pide:
+       a. Si el resultado del ensayo se expresa como 150 HB 10/3000 15s, ¿Cuánto tiempo ha durado el
+          ensayo?                                                                          (0.75 puntos)
+       b. Cita otros dos ensayos de dureza que se podrían haber utilizado comentando las diferencias con el
+          ensayo de dureza de Brinell.                                                     (1.00 puntos)
+       c. Calcula el diámetro de la huella dejada por la bola en la superficie del acero.  (0.75 puntos)
+
+
+                      𝐹          2𝐹
+   Fórmulas: 𝐻𝐵 = 𝑆 =
+                          𝜋∗𝐷∗(𝐷−√𝐷2 −𝑑2 )
+
+
+
+
+OPCIÓN B
+Dada la viga de la figura, donde se indica la distribución de cargas y apoyos, se pide:
+
+
+
+
+   a. Dibujar el diagrama de cuerpo libre de la viga.                                 (1.00 puntos)
+   b. Calcular las reacciones en los apoyos.                                          (1.00 puntos)
+   c. Indicar dos tratamientos térmicos que podrías aplicar a esta viga de acero estructural para mejorar
+      sus propiedades mecánicas, e indica qué se mejoraría con estos tratamientos.    (0.50 puntos)
+
+
+
+
+                                                        8
+

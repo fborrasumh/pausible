@@ -1,0 +1,210 @@
+                         COMISSIÓ GESTORA DE LES PROVES D’ACCÉS A LA UNIVERSITAT
+                        COMISIÓN GESTORA DE LAS PRUEBAS DE ACCESO A LA UNIVERSIDAD
+
+
+
+           PROVES D’ACCÉS A LA UNIVERSITAT                           PRUEBAS DE ACCESO A LA UNIVERSIDAD
+           CONVOCATÒRIA:               JULIOL 2022                     CONVOCATORIA:               JULIO 2022
+
+ Assignatura: MATEMÀTIQUES II                                  Asignatura: MATEMÁTICAS II
+
+
+
+                            CRITERIS DE CORRECCIÓ / CRITERIOS DE CORRECCIÓN
+
+
+                    En les respostes heu d'escriure tots els passos del raonament utilitzat.
+
+Problema 1. Donat el sistema d'equacions:
+                                                       𝑎𝑥 + 𝑦 = 1
+                                                {       𝑥+𝑧 =1          .
+                                                  𝑥 + 𝑎𝑦 + (𝑎 − 1)𝑧 = 𝑎
+
+   a) Discutiu el sistema en funció del paràmetre real a.                                                       (5 punts)
+   b) Trobeu totes les solucions del sistema quan aquest siga compatible.                                       (5 punts)
+
+Solució:
+     a) El determinant del sistema és Δ = −(𝑎 + 2)(𝑎 − 1). Si 𝑎 ≠ −2 i 𝑎 ≠ 1, es tracta d'un SCD. Si 𝑎 =
+     −2, es tracta d'un SI. Si 𝑎 = 1, es tracta d'un SCI.
+                                                 1        2      𝑎+1
+     b) Si 𝑎 ≠ −2 i 𝑎 ≠ 1, la solució és 𝑥 = 𝑎+2 , 𝑦 = 𝑎+2 , 𝑧 = 𝑎+2. Si 𝑎 = 1, la solució és 𝑥 = 1 − 𝜆, 𝑦 = 𝜆,
+     𝑧 = 𝜆.
+
+                                      𝑎+𝑏         1
+Problema 2. Donada la matriu 𝐴 = (                    ):
+                                         0     𝑎−𝑏
+                                                                               1 −1
+   a) Calculeu els valors dels paràmetres 𝑎 i 𝑏 perquè es complisca 𝐴−1 = (        ).                           (4 punts)
+                                                                               0 1
+   b) Per als valors 𝑎 i 𝑏 obtinguts en l'apartat anterior, calculeu 𝐴3 i 𝐴4 .                                  (3 punts)
+   c) Calculeu det(𝐴−50 ) quan 𝑎2 − 𝑏 2 ≠ 0.                                                                    (3 punts)
+
+Solució:
+     a) 𝑎 = 1, 𝑏 = 0.
+               1 3             1 4
+     b) 𝐴3 = (      ), 𝐴4 = (        ).
+               0 1             0 1
+                         1            1
+     c) det(𝐴−50 ) = de t(𝐴)50 = (𝑎2 −𝑏2 )50.
+
+                                                                            𝑥−1       𝑦−1
+Problema 3. Donats els punts 𝐴 = (2,0,0) i 𝐵 = (0,1,0), i la recta 𝑠:             =         = 𝑧:
+                                                                             2         3
+
+   a) Trobeu l'equació de la recta 𝑟 que passa pels punts 𝐴 i 𝐵.                                                (2 punts)
+   b) Determineu l'equació implícita del pla que conté la recta 𝑠 i és paral·lel a la recta 𝑟.                  (4 punts)
+   c) Calculeu la distància del punt 𝐴 a la recta 𝑠.                                                            (4 punts)
+
+Solució:
+          𝑥 + 2𝑦 = 2
+      a) {          .
+             𝑧=0
+      b) 𝑥 + 2𝑦 − 8𝑧 − 3 = 0.
+                       27
+      c) Distància =√14 = 1.389.
+
+                                                           1
+Problema 4. Donats els punts 𝐴 = (2,1, −2) i 𝐵 = (3,2,3), i el plànol  definit per l'equació 2𝑥 + 2𝑦 + 𝑧 = 3.
+obteniu:
+
+   a) El punt de tall 𝐶 entre el pla  i la recta perpendicular a  que passa per 𝐵.                      (5 punts)
+   b) L'àrea del triangle els vèrtexs del qual són 𝐴, 𝐵 i 𝐶.                                              (5 punts)
+
+Solució:
+                                                                                                  7     2 17
+     a) La recta perpendicular a 𝜋 que passa per 𝐵 és (𝑥, 𝑦, 𝑧) = (3,2,3) + 𝜆(2,2,1). El punt és (9 , − 9 , 9 ).
+      b) Àrea =√50.
+
+Problema 5.
+   a) Calculeu, indicant tots els passos, la integral indefinida següent:                                 (5 punts)
+                                                                18
+                                                      ∫                 𝑑𝑥.
+                                                          𝑥 2 − 5𝑥 − 14
+                                              𝑡       18
+   b) Determineu, en funció de 𝑡, el valor ∫8 𝑥 2 −5𝑥−14 𝑑𝑥.                                              (2 punts)
+                                                           𝑡       18                25
+   c) Determineu el valor de 𝑡 major que 8 perquè ∫8 𝑥 2 −5𝑥−14 𝑑𝑥 siga igual a ln 4 .                    (3 punts)
+
+Solució:
+     a) 2 ln(|𝑥 − 7|) − 2 ln(|𝑥 + 2|) + 𝐶.
+     b) 2 ln(|𝑡 − 7|) − 2 ln(|𝑡 + 2|) + 2ln(10).
+     c) 𝑡 = 10.
+                                                  2
+Problema 6. Considereu la funció 𝑓(𝑥) = 𝑒 −𝑥 per als valor positius de 𝑥. Per cada punt 𝑀 = (𝑥, 𝑓(𝑥)) de la
+gràfica de 𝑓 es tracen dues rectes paral·leles als eixos de coordenades, 𝑂𝑋 i 𝑂𝑌. Aquestes dues rectes,
+juntament amb els eixos de coordenades, defineixen un rectangle.
+
+   a) Determineu l'àrea del rectangle en funció de 𝑥.                                                     (3 punts)
+   b) Trobeu el punt 𝑀 que proporciona major àrea i calculeu aquesta àrea.                                (7 punts)
+
+
+Solució:
+                 2
+   a) Àrea=𝑥𝑒 −𝑥 .
+                       1                          1
+   b) L'àrea màxima és   i s'obté per al valor 𝑥 = .
+                          √2𝑒                               √2
+
+
+
+
+                                                               2
+               En las respuestas se deben escribir todos los pasos del razonamiento utilizado.
+
+
+Problema 1. Dado el sistema de ecuaciones:
+                                                       𝑎𝑥 + 𝑦 = 1
+                                                {       𝑥+𝑧 =1          .
+                                                  𝑥 + 𝑎𝑦 + (𝑎 − 1)𝑧 = 𝑎
+
+   a) Discutir el sistema en función del parámetro real a.                                              (5 puntos)
+   b) Encontrar todas las soluciones del sistema cuando este sea compatible.                            (5 puntos)
+
+Solución:
+     a) El determinante del sistema es Δ = −(𝑎 + 2)(𝑎 − 1). Si 𝑎 ≠ −2 y 𝑎 ≠ 1 se trata de un SCD. Si 𝑎 =
+     −2 se trata de un SI. Si 𝑎 = 1 se trata de un SCI.
+                                                 1      2        𝑎+1
+     b) Si 𝑎 ≠ −2 y 𝑎 ≠ 1 la solución es 𝑥 = 𝑎+2 , 𝑦 = 𝑎+2 , 𝑧 = 𝑎+2. Si 𝑎 = 1 la solución es 𝑥 = 1 − 𝜆, 𝑦 =
+     𝜆, 𝑧 = 𝜆.
+
+
+                                   𝑎+𝑏       1
+Problema 2. Dada la matriz 𝐴 = (                 ):
+                                     0     𝑎−𝑏
+                                                                                1            −1
+   a) Calcular los valores de los parámetros 𝑎 y 𝑏 para que se cumpla 𝐴−1 = (                  ).       (4 puntos)
+                                                                                0            1
+   b) Para los valores 𝑎 y 𝑏 obtenidos en el apartado anterior, calcular 𝐴3 y 𝐴4 .                      (3 puntos)
+   c) Calcular det(𝐴−50 ) cuando 𝑎2 − 𝑏 2 ≠ 0.                                                          (3 puntos)
+
+Solución:
+     a) 𝑎 = 1, 𝑏 = 0.
+               1 3             1 4
+     b) 𝐴3 = (      ), 𝐴4 = (        ).
+               0 1             0 1
+                         1            1
+     c) det(𝐴−50 ) = de t(𝐴)50 = (𝑎2 −𝑏2 )50.
+
+
+                                                                            𝑥−1       𝑦−1
+Problema 3. Dados los puntos 𝐴 = (2,0,0) y 𝐵 = (0,1,0), y la recta 𝑠:             =         = 𝑧:
+                                                                             2         3
+
+   a) Hallar la ecuación de la recta 𝑟 que pasa por los puntos 𝐴 y 𝐵.                                  (2 puntos)
+   b) Determinar la ecuación implícita del plano que contiene a la recta 𝑠 y es paralelo a la recta 𝑟. (4 puntos)
+   c) Calcular la distancia del punto 𝐴 a la recta 𝑠.                                                  (4 puntos)
+
+Solución:
+         𝑥 + 2𝑦 = 2
+     a) {          .
+            𝑧=0
+     b) 𝑥 + 2𝑦 − 8𝑧 − 3 = 0.
+                     27
+      c) Distancia √14 = 1.389.
+
+Problema 4. Dados los puntos 𝐴 = (2,1, −2) y 𝐵 = (3,2,3), y el plano  definido por 2𝑥 + 2𝑦 + 𝑧 = 3,
+obtener:
+
+   a) El punto de corte 𝐶 entre el plano  y la recta perpendicular a  que pasa por 𝐵.                 (5 puntos)
+   b) El área del triángulo cuyos vértices son 𝐴, 𝐵 y 𝐶.                                                (5 puntos)
+
+Solución:
+                                                                                                  7     2 17
+     a) La recta perpendicular a 𝜋 que pasa por 𝐵 es (𝑥, 𝑦, 𝑧) = (3,2,3) + 𝜆(2,2,1). El punto es (9 , − 9 , 9 ).
+      b) Área √50.
+
+                                                           3
+Problema 5.
+   a) Calcular, indicando todos los pasos, la siguiente integral indefinida:                            (5 puntos)
+                                                                  18
+                                                       ∫                    𝑑𝑥.
+                                                           𝑥 2 − 5𝑥 − 14
+                                               𝑡       18
+   b) Determinar, en función de 𝑡, el valor ∫8 𝑥 2 −5𝑥−14 𝑑𝑥.                                           (2 puntos)
+                                                       𝑡      18                     25
+   c)   Determinar el valor de 𝑡 mayor que 8 para que ∫8 𝑥 2 −5𝑥−14 𝑑𝑥 sea igual a ln 4 .               (3 puntos)
+
+Solución:
+     a) 2 ln(|𝑥 − 7|) − 2 ln(|𝑥 + 2|) + 𝐶.
+     b) 2 ln(|𝑡 − 7|) − 2 ln(|𝑡 + 2|) + 2ln(10).
+     c) 𝑡 = 10.
+                                                   2
+Problema 6. Considerar la función 𝑓(𝑥) = 𝑒 −𝑥 para los valores positivos de 𝑥. Por cada punto 𝑀 = (𝑥, 𝑓(𝑥))
+de la gráfica de 𝑓 se trazan dos rectas paralelas a los ejes de coordenadas, 𝑂𝑋 y 𝑂𝑌. Estas dos rectas, junto con
+los ejes de coordenadas, definen un rectángulo.
+    a) Determinar el área del rectángulo en función de x.                                                (3 puntos)
+    b) Encontrar el punto 𝑀 que proporciona mayor área y calcular esta área.                             (7 puntos)
+
+
+Solución:
+                2
+   a) área=𝑥𝑒 −𝑥 .
+                        1                               1
+   b) El área máxima es   y se obtiene para el valor 𝑥 = .
+                           √2𝑒                                         √2
+
+
+
+
+                                                              4
+

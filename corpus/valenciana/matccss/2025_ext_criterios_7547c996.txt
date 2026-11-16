@@ -1,0 +1,375 @@
+                             PROVA D’ACCÉS A LA UNIVERSITAT
+                            PRUEBA DE ACCESO A LA UNIVERSIDAD
+
+
+      CONVOCATÒRIA:     EXTRA JULIOL 2025                  CONVOCATORIA: EXTRA JULIO 2025
+
+ASSIGNATURA: MATEMÀTIQUES APLICADES A LES           ASIGNATURA: MATEMÁTICAS APLICADAS A LAS
+CIÈNCIES SOCIALS II                                 CIENCIAS SOCIALES II
+
+          CRITERIS DE CORRECCIÓ / CRITERIOS DE CORRECCIÓN
+Se ha de contestar uno de los dos problemas del apartado 1, uno de los dos
+problemas del apartado 2, y el problema del apartado 3.
+
+Todas las respuestas han de estar debidamente razonadas. En cada apartado,
+cada error en operaciones aritméticas elementales se penalizará con 0,1
+puntos, hasta un máximo de penalización de 0,25 puntos.
+
+La penalización por errores ortográficos y gramaticales se aplicará teniendo en
+cuenta los criterios siguientes: i) los dos primeros errores ortográficos no se
+penalizarán; ii) cuando se repita la misma falta de ortografía se contará como
+una sola; a partir de la tercera falta de ortografía habrá una penalización de 0,1
+puntos por cada falta, hasta una penalización máxima de un punto; iii) la
+penalización por errores en la redacción, errores en la presentación, falta de
+coherencia, falta de cohesión, incorrección léxica e incorrección gramatical
+podrá ser de hasta 0,5 puntos, si bien la suma de esta penalización y la
+penalización por errores ortográficos nunca podrá ser superior a 1 punto.
+
+PROBLEMA 1. A.
+
+     a) De 0 a 0,75 puntos por el cálculo correcto de la matriz 𝑀:
+
+                                                     1 2
+                                            𝑀=(          )
+                                                     1 −1
+
+     b) De 0 a 0,25 puntos por la justificación de que la matriz 𝑀 es invertible. De 0 a
+     0,5 puntos por el cálculo correcto de la inversa de la matriz 𝑀:
+
+                                            1/3 2/3
+                                     𝑀−1 = (         )
+                                            1/3 −1/3
+
+     c) De 0 a 0,2 puntos por el cálculo correcto de la matriz 𝑀2 :
+
+                                                      3   0
+                                            𝑀2 = (         )
+                                                      0   3
+
+       De 0 a 0,3 puntos por la obtención de la matriz 𝑀8 :
+
+                                            4
+                                   𝑀 8 = (3         0 ) = (81   0
+                                                                  )
+                                          0         34     0    81
+
+
+                                                1
+     d) De 0 a 0,25 puntos por justificar que la matriz 𝐶𝐶 𝑡 tiene inversa. De 0 a 0,25
+     puntos por justificar que la matriz 𝐶 𝑡 𝐶 no tiene inversa.
+
+     e) De 0 a 0,5 puntos por despejar correctamente la matriz 𝑋:
+
+                                    𝑋 = ((𝐶 𝑡 − 𝐵)𝑡 − 𝐴𝑡 ) 𝑀−1
+
+       De 0 a 0,5 puntos por el cálculo de la matriz 𝑋:
+
+                                           1 −1
+                                       𝑋=( 0  1)
+                                          −1 −1
+
+        De 0 a 1 punto si se obtiene la matriz 𝑋 por otro procedimiento debidamente
+        justificado.
+
+PROBLEMA 1. B.
+
+Denotamos por 𝑥 el número de entradas preferentes y por 𝑦 el número de entradas
+estándar.
+
+  a) De 0 a 0,20 puntos por la obtención de la función objetivo: 𝑓(𝑥, 𝑦) = 110𝑥 + 90𝑦. De
+     0 a 0,80 puntos por el planteamiento de las restricciones, con los siguientes
+     criterios: 0,40 puntos si solo hay una restricción correcta, 0,80 puntos si las dos
+     restricciones son correctas (las restricciones de no negatividad no dan puntos). En
+     caso de que las restricciones no estén debidamente justificadas, se descontarán
+     0,25 puntos. Las restricciones son:
+
+                                      20𝑥 + 10𝑦 ≤ 1000
+                                         𝑥 + 𝑦 ≤ 75
+                                     {
+                                            𝑥≥0
+                                            𝑦≥0
+
+     De 0 a 1,5 puntos por obtener la región factible: región de vértices
+     𝐴(25,50), 𝐵(50,0), 𝐶(0,75) y 𝐷(0,0). De 0 a 0,5 puntos por la obtención de la solución
+     correcta: 25 entradas preferentes y 50 entradas estándar.
+
+     b) De 0 a 0,5 puntos por la obtención del beneficio máximo: 7.250 euros.
+
+   Si la solución se obtiene por cualquier otro método razonado y correcto, se puntuará
+de 0 a 3,5 puntos. La región factible es la región coloreada del gráfico siguiente:
+
+
+
+
+                                             2
+PROBLEMA 2. A.
+
+  a) De 0 a 0,25 puntos por justificar que es discontinua en x=8: el límite por la
+     izquierda es 266 y el límite por la derecha es 33. De 0 a 0,25 puntos por justificar
+     que es discontinua en x=20: el límite por la izquierda es 69 y por la derecha es
+     70. De 0 a 0,25 puntos por indicar que la función es continua en [0, 8[ ∪ ]8, 20[ ∪
+      ]20, 30].
+
+  b) De 0 a 0,5 puntos por argumentar que en el interior del primer trozo hay un único
+     punto singular, x=8/3, y que es un mínimo, siendo 𝑓(8/3) = 0.5183. De 0 a 0,5
+     puntos por argumentar que, en el primer trozo, al ser un intervalo cerrado,
+     podemos encontrar en los extremos máximos y mínimos y hallarlos 𝑓(0) = 10 y
+     𝑓(8) = 266. De 0 a 0,5 puntos por argumentar que en el segundo trozo tenemos
+     una función creciente y por tanto el punto donde se alcanza el máximo es
+     𝑓(20) = 69. De 0 a 0,5 puntos por argumentar que en el último trozo al ser 70 no
+     se alcanza el máximo porque ya tenemos un punto donde se supera 70.
+
+                                                                        𝑡4   4
+  c) De 0 a 0,5 puntos por calcular una primitiva, que es del tipo        − 3 𝑡 3 + 10𝑡 + 𝐷,
+                                                                        4
+     siendo 𝐷 un número real cualquiera. De 0 a 0,25 puntos por calcular el valor de la
+     integral, que es 596/3=198,6667.
+
+PROBLEMA 2. B.
+
+  a) De 0 a 0,75 puntos por obtener que la derivada es 60𝑥 + 𝐴 − 3𝑥 2 , plantear la
+     ecuación para 𝐴, que sería 60 · 21 + 𝐴 − 3(21)2 = 0 y obtener que 𝐴 = 63. De 0 a
+     0,75 puntos por deducir que 𝑄(21) = 5300 y que la solución es 𝐵 = 8.
+
+  b) De 0 a 0,5 puntos por argumentar que la función es creciente en ]10,21[. De 0 a
+     0,5 puntos por argumentar que la función es decreciente en ]21,30[.
+                                           3
+  c) De 0 a 0,4 puntos por argumentar que, al ser creciente en ]10,21[, el mínimo
+     relativo por ser función continua se encuentra en 𝑥 = 10, cuyo valor es 𝑄(10) =
+     2.638. De 0 a 0,4 puntos por argumentar que, al ser decreciente en ]21,30[, el
+     mínimo relativo se encuentra en 𝑥 = 30, cuyo valor es 𝑄(30) = 1.898. De 0 a 0,2
+     puntos por argumentar que no puede tener una producción inferior a 1.000.
+
+
+
+PROBLEMA 3.
+
+  a) De 0 a 0,5 puntos por identificar las situaciones en que se cumple el suceso cuya
+     probabilidad se quiere calcular (o su complementario) y de 0 a 0,5 puntos por el
+     cálculo de las probabilidades de cada una de estas situaciones. La respuesta
+     correcta, utilizando el complementario, es
+
+                𝑃(Dos regalos de distinto tipo) = 1 − 𝑃(Dos regalos iguales) =
+                           = 1 – (0,4 · 0,2 + 0,15 · 0,1 + 0,45 · 0,7) = 0,59.
+
+     (También se puede obtener la respuesta correcta sin utilizar el suceso
+     complementario).
+
+  b) De 0 a 0,5 puntos por identificar las situaciones en que se cumple el suceso cuya
+     probabilidad se quiere calcular (o su complementario) y de 0 a 0,5 puntos por el
+     cálculo de las probabilidades de cada una de estas situaciones. La respuesta
+     correcta, utilizando el complementario, es
+
+       1 − 𝑃(Ropa de amigos del instituto y Ropa de amigos del barrio) = 1 – 0,15 · 0,10 = 0,985.
+
+     (También se puede obtener la respuesta correcta sin utilizar el suceso
+     complementario).
+
+  c) De 0 a 0,25 puntos por identificar que se trata de una probabilidad condicional y
+     conocer la fórmula de esta, de 0 a 0,25 puntos por el cálculo del numerador, y de
+     0 a 0,5 puntos por el cálculo del denominador. La respuesta correcta es
+
+     𝑃(Ropa de amigos del instituto | Un regalo es ropa y el otro no) =
+                               𝑃(Ropa amigos del instituto y No ropa amigos del barrio)
+     =
+       𝑃(Ropa amigos del ins. y No ropa amigos del barrio) + 𝑃(No ropa amigos de ins. y Ropa de am. del ba
+              0,15 · 0,90
+     =                           = 0,6136.
+       0,15 · 0,90 + 0,85 · 0,10
+
+     Si en algún apartado se obtiene alguna probabilidad imposible, este apartado se
+     puntuará con un 0.
+
+
+
+
+                                                4
+                            PROVA D’ACCÉS A LA UNIVERSITAT
+                          PRUEBA DE ACCESO A LA UNIVERSIDAD
+
+
+
+      CONVOCATÒRIA:     EXTRA JULIOL 2025                  CONVOCATORIA: EXTRA JULIO 2025
+
+ASSIGNATURA: MATEMÀTIQUES APLICADES ALS         ASIGNATURA: MATEMÁTICAS APLICADAS A LAS
+CIÈNCIES SOCIALS II                             CIENCIAS SOCIALES II
+
+          CRITERIS DE CORRECCIÓ / CRITERIOS DE CORRECCIÓN
+S’ha de contestar un dels dos problemes de l’apartat 1, un dels dos problemes
+de l’apartat 2 i el problema de l’apartat 3.
+
+Totes les respostes han d’estar degudament raonades. En cada apartat, cada
+error en operacions aritmètiques elementals es penalitzarà amb 0,1 punts fins
+a un màxim de penalització de 0,25 punts.
+
+La penalització per errors ortogràfics i gramaticals s’aplicarà tenint en compte
+els criteris següents: i) els dos primers errors ortogràfics no es penalitzen; ii)
+quan es repetisca la mateixa falta d’ortografia es comptarà com una sola falta;
+a partir de la tercera falta d’ortografia hi haurà una penalització de 0,1 punts
+per cada falta, fins a una penalització màxima d’un punt; iii) la penalització per
+errors en la redacció, errors en la presentació, falta de coherència, falta de
+cohesió, incorrecció lèxica i incorrecció gramatical podrà ser de fins a 0,5
+punts, si bé la suma d’aquesta penalització i la penalització per errors
+ortogràfics mai podrà ser superior a 1 punt.
+
+PROBLEMA 1. A.
+
+     a) De 0 a 0,75 punts pel càlcul correcte de la matriu 𝑀:
+
+                                                     1 2
+                                            𝑀=(          )
+                                                     1 −1
+
+
+     b) De 0 a 0,25 punts per la justificació que la matriu 𝑀 és invertible. De 0 a 0,5
+     punts pel càlcul correcte de la inversa de la matriu 𝑀:
+
+                                            1/3 2/3
+                                     𝑀−1 = (         )
+                                            1/3 −1/3
+
+
+     c) De 0 a 0,2 punts pel càlcul correcte de la matriu 𝑀2 :
+
+                                                      3   0
+                                            𝑀2 = (         )
+                                                      0   3
+
+       De 0 a 0,3 punts per l’obtenció de la matriu 𝑀8 :
+
+                                            4
+                                   𝑀 8 = (3         0 ) = (81   0
+                                                                  )
+                                          0         34     0    81
+
+                                                5
+     d) De 0 a 0,25 punts per justificar que la matriu 𝐶𝐶 𝑡 té inversa. De 0 a 0,25 punts
+     per justificar que la matriu 𝐶 𝑡 𝐶 no té inversa.
+
+     e) De 0 a 0,5 punts per aïllar correctament la matriu 𝑋:
+
+                                    𝑋 = ((𝐶 𝑡 − 𝐵)𝑡 − 𝐴𝑡 ) 𝑀−1
+
+        De 0 a 0,5 punts pel càlcul de la matriu 𝑋:
+
+                                           1 −1
+                                       𝑋=( 0  1)
+                                          −1 −1
+
+       De 0 a 1 punt si s’obté la matriu per un altre procediment degudament justificat.
+
+PROBLEMA 1. B.
+
+Denotem per 𝑥 el nombre d’entrades preferents i per 𝑦 el nombre d’entrades estàndard.
+
+  a) De 0 a 0,20 punts per l’obtenció de la funció objectiu: 𝑓(𝑥, 𝑦) = 110𝑥 + 90𝑦. De 0 a
+     0,80 punts pel plantejament de les restriccions, amb els criteris següents: 0,40
+     punts si només hi ha una restricció correcta, 0,80 punts si les dues restriccions
+     són correctes (les restriccions de no negativitat no donen punts). En cas que les
+     restriccions no estiguen degudament justificades, es descomptaran 0,25 punts.
+     Les restriccions són:
+
+                                      20𝑥 + 10𝑦 ≤ 1000
+                                         𝑥 + 𝑦 ≤ 75
+                                     {
+                                            𝑥≥0
+                                            𝑦≥0
+
+     De 0 a 1,5 punts per obtindre la regió factible: regió de vèrtexs
+     𝐴(25,50), 𝐵(50,0), 𝐶(0,75) i 𝐷(0,0). De 0 a 0,5 punts per l’obtenció de la solució
+     correcta: 25 entrades preferents i 50 entrades estàndard.
+
+   b) De 0 a 0,5 punts per l’obtenció del benefici màxim: 7.250 euros.
+
+   Si la solució s’obté per qualsevol altre mètode raonat i correcte, es puntuarà de 0 a
+3,5 punts. La regió factible és la regió acolorida del gràfic següent:
+
+
+
+
+                                             6
+PROBLEMA 2. A.
+
+  a) De 0 a 0,25 punts per justificar que és discontínua en x=8: el límit per l’esquerra
+     és 266 i el límit per la dreta és 33. De 0 a 0,25 punts per justificar que és
+     discontínua en x=20: el límit per l’esquerra és 69 i per la dreta és 70. De 0 a 0,25
+     punts per indicar que la funció és contínua en [0, 8[ ∪ ]8, 20[ ∪ ]20, 30].
+
+  b) De 0 a 0,5 punts per argumentar que a l’interior del primer tros hi ha un únic punt
+     singular, x=8/3, i que és un mínim, i 𝑓(8/3) = 0,5183. De 0 a 0,5 punts per
+     argumentar que, en el primer tros, en ser un interval tancat, podem trobar en els
+     extrems màxims i mínims i calcular-los 𝑓(0) = 10 i 𝑓(8) = 266. De 0 a 0,5 punts per
+     argumentar que en el segon tros tenim una funció creixent i per tant el punt on
+     s’assoleix el màxim és 𝑓(20) = 69. De 0 a 0,5 punts per argumentar que en l’últim
+     tros, com que és 70, no s’arriba al màxim perquè ja tenim un punt on se supera
+     70.
+
+                                                                     𝑡4   4
+  c) De 0 a 0,5 punts per calcular una primitiva, que és del tipus 4 − 3 𝑡 3 + 10𝑡 + 𝐷, on 𝐷
+     és un nombre real qualsevol. De 0 a 0,25 punts per calcular el valor de la integral,
+     que és 596/3=198,6667.
+
+PROBLEMA 2. B.
+
+  a) De 0 a 0,75 punts per obtenir que la derivada és 60𝑥 + 𝐴 − 3𝑥 2 , plantejar l’equació
+     per a 𝐴, que seria 60 · 21 + 𝐴 − 3(21)2 = 0 i obtindre que 𝐴 = 63. De 0 a 0,75 punts
+     per deduir que 𝑄(21) = 5300 i que la solució és 𝐵 = 8.
+
+  b) De 0 a 0,5 punts per argumentar que la funció és creixent en ]10,21[. De 0 a 0,5
+     punts per argumentar que la funció és decreixent en ]21,30[.
+
+
+                                             7
+  c) De 0 a 0,4 punts per argumentar que, com que és creixent en ]10,21[, el mínim
+     relatiu, per ser funció contínua, es troba en 𝑥 = 10, i el seu valor és 𝑄(10) = 2.638.
+     De 0 a 0,4 punts per argumentar que, per ser decreixent en ]21,30[, el mínim
+     relatiu es troba en 𝑥 = 30, i el seu valor és 𝑄(30) = 1.898. De 0 a 0,2 punts per
+     argumentar que no pot tindre una producció inferior a 1.000.
+
+
+
+PROBLEMA 3.
+
+  a) De 0 a 0,5 punts per identificar les situacions en què es compleix el succés la
+     probabilitat del qual es vol calcular (o el seu complementari) i de 0 a 0,5 punts
+     pel càlcul de les probabilitats de cada una d’aquestes situacions. La resposta
+     correcta, utilitzant el complementari, és:
+
+
+                 𝑃(Dos regals de diferent tipus) = 1 − 𝑃(Dos regals iguals) =
+                            = 1 – (0,4 · 0,2 + 0,15 · 0,1 + 0,45 · 0,7) = 0,59.
+
+     (També es pot          obtindre    la   resposta    correcta    sense     utilitzar   el   succés
+     complementari).
+
+  b) De 0 a 0,5 punts per identificar les situacions en què es compleix el succés la
+     probabilitat del qual es vol calcular (o el seu complementari) i de 0 a 0,5 punts
+     pel càlcul de les probabilitats de cada una d’aquestes situacions. La resposta
+     correcta, utilitzant el complementari, és:
+
+          1 − 𝑃(Roba d'amics de l'institut i Roba d'amics del barri) = 1 – 0,15 · 0,10 = 0,985.
+
+     (També es pot          obtindre    la   resposta    correcta    sense     utilitzar   el   succés
+     complementari).
+
+  c) De 0 a 0,25 punts per identificar que es tracta d’una probabilitat condicional i
+     conèixer la seua fórmula, de 0 a 0,25 punts pel càlcul del numerador, i de 0 a 0,5
+     punts pel càlcul del denominador. La resposta correcta és:
+
+     𝑃(Roba d'amics de l'institut | Un regal és roba i l'altre no) =
+                               𝑃(Roba amics de l'institut i No roba amics del barri)
+     =
+       𝑃(Roba amics de l'ins. i No roba amics del barri) + 𝑃(No roba amics d'ins. i Roba d'am. del barri)
+              0,15 · 0,90
+     =                           = 0,6136.
+       0,15 · 0,90 + 0,85 · 0,10
+
+
+     Si en algun apartat s’obté alguna probabilitat impossible, aquest apartat es
+     puntuarà amb un 0.
+
+
+
+
+                                                 8
+

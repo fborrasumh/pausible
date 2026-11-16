@@ -1,0 +1,226 @@
+                       COMISSIÓ GESTORA DE LES PROVES D’ACCÉS A LA UNIVERSITAT
+                      COMISIÓN GESTORA DE LAS PRUEBAS DE ACCESO A LA UNIVERSIDAD
+
+
+
+           PROVES D’ACCÉS A LA UNIVERSITAT                         PRUEBAS DE ACCESO A LA UNIVERSIDAD
+           CONVOCATÒRIA:          JUNY 2022                          CONVOCATORIA:        JUNIO 2022
+
+Assignatura: MATEMÀTIQUES II                                 Asignatura: MATEMÁTICAS II
+
+
+
+                          CRITERIS DE CORRECCIÓ / CRITERIOS DE CORRECCIÓN
+
+
+                   En les respostes heu d'escriure tots els passos del raonament utilitzat.
+
+                                           1 0 1           1 1 1       1 1
+Problema 1. Donades les matrius 𝐴 = [             ], 𝐵 = [       ]i𝐶=[     ]. Es demana:
+                                           −1 2 −1         0 1 0       0 −1
+
+   a) Demostrar que 𝐶 − 𝐴𝐵 𝑇 té inversa i calculeu-la.                                                  (4 punts)
+   b) Calcular la matriu 𝑋 que verifica 𝐶𝑋 = 𝐴𝐵 𝑇 𝑋 + 𝐼, on 𝐼 és la matriu identitat.                   (3 punts)
+   c) Justificar que (𝐴𝐵 𝑇 )𝑛 = 2𝑛 𝐼 per a tot número natural 𝑛.                                        (3 punts)
+
+Solució:
+                                                                       −1      −1/3
+      a) det(𝐶 − 𝐴𝐵 𝑇 ) = 3 ≠ 0, per tant té inversa. (𝐶 − 𝐴𝐵 𝑇 )−1 = (            ).
+                                                                        0      −1/3
+                                −1 −1/3
+      b) 𝑋 = (𝐶 − 𝐴𝐵 𝑇 )−1 = (                ).
+                                  0 −1/3
+      c) 𝐴𝐵 𝑇 = 2𝐼, per tant (𝐴𝐵 𝑇 )𝑛 = 2𝑛 𝐼.
+
+Problema 2. Donada la matriu
+                                                  𝑚        0     𝑚−1
+                                            𝐴 = [−2𝑚      𝑚2      1 ].
+                                                  0       2𝑚      1
+Determineu:
+   a) El rang de la matriu 𝐴 en funció del paràmetre real 𝑚.                                            (4 punts)
+   b) La matriu inversa de 𝐴 en el cas 𝑚 = 2.                                                           (4 punts)
+   c) El nombre real 𝑚 per al qual el determinant de la matriu 2𝐴 és igual a −8.                        (2 punts)
+
+Solució:
+                                                             2                             2
+     a) det(𝐴) = 𝑚2 (2 − 3𝑚). Si 𝑚 = 0, el rang és 1; si 𝑚 = 3 , el rang és 2; i si 𝑚 ≠ 0, 3, el rang és 3.
+                 0     −1/4 1/4
+         −1
+     b) 𝐴 = [−1/4 −1/8 3/8 ].
+                 1      1/2 −1/2
+     c) 𝑚 = 1.
+
+                                    𝑥 =𝑧−1             𝑥 = 4 − 5𝑧
+Problema 3. Donades les rectes 𝑟: {             i 𝑠: {             .
+                                   𝑦 = 2 − 3𝑧          𝑦 = 4𝑧 − 3
+   a) Indiqueu justificadament la posició relativa de 𝑟 i 𝑠.                                            (5 punts)
+   b) Trobeu l'equació de la recta 𝑙 que passa per l'origen i talla 𝑟 i 𝑠.                              (5 punts)
+
+Solució:
+     a) Les rectes es creuen en l'espai.
+          2𝑥 + 𝑦 + 𝑧 = 0
+     b) {                  .
+         3𝑥 + 4𝑦 − 𝑧 = 0
+
+                                                         1
+                                                             𝑥 = −1 + 𝛼
+                                                                                         𝑥−1  𝑦   𝑧−2
+Problema 4. Donats els plans 𝜋1 : 2𝑥 − 𝑦 − 𝑧 + 4 = 0 i 𝜋2 : {𝑦 =1 + 𝛼 + 𝛽 , i la recta 𝑟: 1 = 2 = −1 .
+                                                             𝑧= 𝛼−𝛽
+   a) Calculeu la posició relativa de 𝜋1 i 𝜋2 .                                                       (3 punts)
+   b) Calculeu el punt 𝑃’ que és simètric al punt 𝑃 = (1,0,0) respecte del pla 𝜋1 .                   (4 punts)
+   c) Calculeu, si n’hi ha, el punt d’intersecció de 𝜋1 i 𝑟.                                          (3 punts)
+
+Solució:
+     a) 𝜋1 i 𝜋2 són paral·lels no coincidents.
+     b) (−3,2,2).
+     c) (−3, −8,6).
+
+                                                 𝑥 2 +3
+Problema 5. Considerem la funció 𝑓(𝑥) = 𝑥 2 −4 . Obteniu:
+   a) El domini i els punts de tall amb els eixos.                                                      (1 punt)
+   b) Les asímptotes de la funció.                                                                     (2 punts)
+   c) Els intervals de creixement i decreixement, i els extrems.                                       (3 punts)
+   d) La primitiva de la funció 𝑓(𝑥).                                                                  (4 punts)
+
+Solució:
+                                               3
+     a) Domini ℝ − {−2,2}. Punts de tall (0, − 4).
+     b) AV 𝑥 = −2, 𝑥 = 2 AH 𝑦 = 1.
+     c) 𝑓 creix en (−∞, −2) ∪ (−2,0) i decreix en (0,2) ∪ (2, +∞). 𝑥 = 0 és un màxim.
+            7               7
+     d) 𝑥 + 4 ln(|𝑥 − 2|) − 4 ln(|𝑥 + 2|) + 𝐶.
+
+Problema 6. Es desitja construir un quadrat i un triangle equilàter tallant en dues parts un cable d'acer de 240 m
+de longitud.
+    a) Calculeu la suma de les àrees del triangle i del quadrat en funció del valor 𝑥 que correspon amb els
+       metres que mesura un costat del triangle.
+               (3 punts)
+    b) Calculeu la longitud de cable necessària per a construir el triangle de manera que la suma de les àrees
+       del triangle i del quadrat siga mínima i calculeu l'àrea mínima.
+               (7 punts)
+
+Solució:
+            240−3𝑥 2    √3 𝑥 2
+     a) (         ) +          .
+              4           4
+                                        720
+     b) Costat del triangle 𝑥 = 4√3+9 = 45.203 m,
+                                720
+        longitud 3𝑥 = 3                = 135.609 m,
+                               4√3+9
+                       14400
+        àrea total = 11 (3√3 − 4) = 1565.872 m2 .
+
+
+
+
+                                                          2
+              En las respuestas se deben escribir todos los pasos del razonamiento utilizado.
+
+                                     1 0         1         1    1 1        1 1
+Problema 1. Dadas las matrices 𝐴 = [               ], 𝐵 = [         ]y𝐶 =[     ]. Se pide:
+                                    −1 2         −1        0    1 0        0 −1
+
+   a) Demostrar que 𝐶 − 𝐴𝐵 𝑇 tiene inversa y calcularla.                                           (4 puntos)
+   b) Calcular la matriz 𝑋 que verifica 𝐶𝑋 = 𝐴𝐵 𝑇 𝑋 + 𝐼, donde 𝐼 es la matriz identidad.           (3 puntos)
+   c) Justificar que (𝐴𝐵 𝑇 )𝑛 = 2𝑛 𝐼 para todo número natural 𝑛.                                   (3 puntos)
+
+Solución:
+                                                                     −1 −1/3
+     a) det(𝐶 − 𝐴𝐵 𝑇 ) = 3 ≠ 0 luego tiene inversa. (𝐶 − 𝐴𝐵 𝑇 )−1 = (        ).
+                                                                      0 −1/3
+                               −1 −1/3
+     b) 𝑋 = (𝐶 − 𝐴𝐵 𝑇 )−1 = (             ).
+                                0 −1/3
+     c) 𝐴𝐵 𝑇 = 2𝐼 luego (𝐴𝐵 𝑇 )𝑛 = 2𝑛 𝐼.
+
+Problema 2. Dada la matriz
+                                                𝑚         0    𝑚−1
+                                          𝐴 = [−2𝑚       𝑚2     1 ].
+                                                0        2𝑚     1
+
+Determinar:
+   a) El rango de la matriz 𝐴 en función del parámetro real 𝑚.                                     (4 puntos)
+   b) La matriz inversa de 𝐴 en el caso 𝑚 = 2.                                                     (4 puntos)
+   c) El número real 𝑚 para el cual el determinante de la matriz 2𝐴 es igual a −8.                 (2 puntos)
+
+Solución:
+                                                             2                           2
+     a) det(𝐴) = 𝑚2 (2 − 3𝑚). Si 𝑚 = 0 el rango es 1, si 𝑚 = 3 el rango es 2 y si 𝑚 ≠ 0, 3 el rango es 3.
+                 0     −1/4 1/4
+          −1
+     b) 𝐴 = [−1/4 −1/8 3/8 ].
+                 1      1/2 −1/2
+     c) 𝑚 = 1.
+
+
+                                  𝑥 =𝑧−1             𝑥 = 4 − 5𝑧
+Problema 3. Dadas las rectas 𝑟: {             y 𝑠: {            .
+                                 𝑦 = 2 − 3𝑧          𝑦 = 4𝑧 − 3
+   a) Indicar justificadamente la posición relativa de 𝑟 y 𝑠.                                      (5 puntos)
+   b) Hallar la ecuación de la recta 𝑙 que pasa por el origen y corta a 𝑟 y 𝑠.                     (5 puntos)
+
+Solución:
+     a) Las rectas se cruzan en el espacio.
+          2𝑥 + 𝑦 + 𝑧 = 0
+     b) {                  .
+         3𝑥 + 4𝑦 − 𝑧 = 0
+
+                                                               𝑥 = −1 + 𝛼
+                                                                                         𝑥−1  𝑦   𝑧−2
+Problema 4. Dados los planos 𝜋1 : 2𝑥 − 𝑦 − 𝑧 + 4 = 0 y 𝜋2 : {𝑦 =1 + 𝛼 + 𝛽 , y la recta 𝑟: 1 = 2 = −1 .
+                                                               𝑧= 𝛼−𝛽
+   a) Calcular la posición relativa de 𝜋1 y 𝜋2 .                                                  (3 puntos)
+   b) Calcular el punto 𝑃’ que es simétrico al punto 𝑃 = (1,0,0) respecto del plano 𝜋1 .          (4 puntos)
+   c) Calcular, si existe, el punto de intersección de 𝜋1 y 𝑟.                                    (3 puntos)
+
+Solución:
+     a) 𝜋1 y 𝜋2 son paralelos no coincidentes.
+     b) (−3,2,2).
+                                                        3
+     c) (−3, −8,6).
+
+                                               𝑥 2 +3
+Problema 5. Consideramos la función 𝑓(𝑥) =              . Obtener:
+                                               𝑥 2 −4
+
+   a) El dominio y los puntos de corte con los ejes.                                                 (1 punto)
+   b) Las asíntotas de la función.                                                                  (2 puntos)
+   c) Los intervalos de crecimiento y decrecimiento, y los extremos.                                (3 puntos)
+   d) La primitiva de la función 𝑓(𝑥).                                                              (4 puntos)
+
+Solución:
+                                                  3
+     a) Dominio ℝ − {−2,2}. Puntos de corte (0, − 4).
+     b) AV 𝑥 = −2, 𝑥 = 2 AH 𝑦 = 1.
+     c) 𝑓 crece en (−∞, −2) ∪ (−2,0) y decrece en (0,2) ∪ (2, +∞). 𝑥 = 0 es un máximo.
+            7             7
+     d) 𝑥 + ln(|𝑥 − 2|) − ln(|𝑥 + 2|) + 𝐶.
+              4                    4
+
+
+
+Problema 6. Se desea construir un cuadrado y un triángulo equilátero cortando en dos partes un cable de acero
+de 240 m. de longitud.
+    a) Calcular la suma de las áreas del triángulo y del cuadrado en función del valor 𝑥 que corresponde con
+       los metros que mide un lado del triángulo.                                                   (3 puntos)
+    b) Calcular la longitud de cable necesaria para construir el triángulo de modo que la suma de las áreas del
+       triángulo y del cuadrado sea mínima y calcular el área mínima.                               (7 puntos)
+
+Solución:
+            240−3𝑥 2    √3 𝑥 2
+     a) (         ) +          .
+              4           4
+                                       720
+     b) Lado del triángulo 𝑥 = 4√3+9 = 45.203 m,
+                               720
+        longitud 3𝑥 = 3 4√3+9 = 135.609 m,
+                       14400
+        área total = 11 (3√3 − 4) = 1565.872 m2 .
+
+
+
+
+                                                          4
+
