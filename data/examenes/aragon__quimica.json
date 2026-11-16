@@ -1,0 +1,102 @@
+{
+ "ccaa": "aragon",
+ "materia": "quimica",
+ "titulo": "PAU 2027 Aragón — Química (modelo original)",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de 5 preguntas y la calificación máxima de cada pregunta es de 2 puntos. La pregunta 1 es obligatoria. En las preguntas 2 a 5 se debe responder solo a uno de los dos apartados propuestos (A o B). Si se responde a más de un apartado optativo de una pregunta, solo se corregirá el que se haya contestado en primer lugar, salvo que se haya tachado. La puntuación máxima del examen es de 10 puntos.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "termo",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "En una práctica sobre combustibles renovables, un laboratorio analiza el bioetanol como fuente de energía. Se considera que su combustión completa a 25 °C produce dióxido de carbono gaseoso y agua líquida. a) Escriba y ajuste la ecuación de combustión del etanol líquido, $C_2H_5OH(l)$. (0,5 puntos) b) Calcule la entalpía molar estándar de combustión. (0,5 puntos) c) Se queman completamente 4,60 kg de etanol con oxígeno en exceso. Calcule el calor liberado y el volumen de $CO_2$ formado, medido a 25 °C y 1 atm. (1 punto) Datos: $\\Delta H_f^\\circ$ (kJ·mol⁻¹): $CO_2(g)=-393,5$; $H_2O(l)=-285,8$; $C_2H_5OH(l)=-277,7$. Masas atómicas: C = 12; H = 1; O = 16. $R=0,08206$ atm·L·mol⁻¹·K⁻¹.",
+   "solucion": "### a) Ecuación ajustada\nLa combustión completa forma $CO_2(g)$ y $H_2O(l)$. Ajustando los átomos de C, H y O:\n\n$C_2H_5OH(l)+3O_2(g)\\rightarrow 2CO_2(g)+3H_2O(l)$.\n\n### b) Entalpía molar de combustión\nAplicamos la ley de Hess sumando las entalpías de formación de los productos y la reacción inversa de formación del etanol:\n\n$C_2H_5OH(l)\\rightarrow 2C(s)+3H_2(g)+\\frac{1}{2}O_2(g)$, $\\Delta H=+277,7\\ \\text{kJ·mol}^{-1}$.\n\n$2C(s)+2O_2(g)\\rightarrow 2CO_2(g)$, $\\Delta H=2(-393,5)=-787,0\\ \\text{kJ·mol}^{-1}$.\n\n$3H_2(g)+\\frac{3}{2}O_2(g)\\rightarrow 3H_2O(l)$, $\\Delta H=3(-285,8)=-857,4\\ \\text{kJ·mol}^{-1}$.\n\nAl sumar y cancelar las especies comunes se obtiene la ecuación de combustión. Por tanto,\n\n$\\Delta H_c^\\circ=277,7-787,0-857,4=-1366,7\\ \\text{kJ·mol}^{-1}$.\n\nEl signo negativo indica que la combustión es exotérmica.\n\n### c) Calor liberado y volumen de dióxido de carbono\nLa masa molar del etanol es $2(12)+6(1)+16=46\\ \\text{g·mol}^{-1}$. Por ello,\n\n$n(C_2H_5OH)=\\frac{4600\\ \\text{g}}{46\\ \\text{g·mol}^{-1}}=100\\ \\text{mol}$.\n\nCada mol de etanol libera $1366,7\\ \\text{kJ}$; así, el calor liberado es\n\n$Q_{lib}=100(1366,7)=136670\\ \\text{kJ}$.\n\nSegún la ecuación ajustada, $1$ mol de etanol produce $2$ mol de $CO_2$, luego $n(CO_2)=200\\ \\text{mol}$. Usando la ecuación de los gases ideales a $T=298,15\\ \\text{K}$ y $P=1\\ \\text{atm}$:\n\n$V=\\frac{nRT}{P}=\\frac{(200)(0,08206)(298,15)}{1}=4893,2378\\ \\text{L}$.\n\n### Comprobación\nLa expresión con entalpías de formación da también $[2(-393,5)+3(-285,8)]-[-277,7]=-1366,7\\ \\text{kJ·mol}^{-1}$. Además, $100$ mol de etanol corresponden a $200$ mol de $CO_2$, como exige la ecuación ajustada. Los resultados redondeados a tres cifras significativas son $1,37\\times10^5\\ \\text{kJ}$ liberados y $4,89\\times10^3\\ \\text{L}$ de $CO_2$.",
+   "resultado": "$C_2H_5OH(l)+3O_2(g)\\rightarrow2CO_2(g)+3H_2O(l)$; $\\Delta H_c^\\circ=-1366,7\\ \\text{kJ·mol}^{-1}$; calor liberado $=136670\\ \\text{kJ}$; $V(CO_2)=4893,2378\\ \\text{L}$.",
+   "criterios": "a) 0,5 puntos: identificación de los productos y escritura correcta de las fórmulas (0,2); ajuste correcto de todos los coeficientes (0,3). b) 0,5 puntos: aplicación correcta de la ley de Hess con las entalpías de formación y sus signos (0,3); resultado numérico y signo exotérmico correctos, con unidades (0,2). c) 1,0 punto: conversión de la masa a moles de etanol (0,2); cálculo del calor liberado a partir de la entalpía molar (0,3); relación estequiométrica y moles de CO2 (0,2); uso de la ecuación de los gases ideales con temperatura absoluta y unidades adecuadas (0,3).",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "2",
+   "tema": "equilibrio",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Responda solo a uno de estos dos apartados (2A o 2B). 2A) En un reactor de 1,00 L se introducen 1,00 mol de $N_2O_4(g)$. A cierta temperatura se establece el equilibrio $N_2O_4(g) \\rightleftharpoons 2NO_2(g)$, para el que $K_c=2,00$. a) Calcule las concentraciones de todas las especies en el equilibrio. (0,8 puntos) b) Calcule $K_p$ a 298 K. (0,6 puntos) c) Indique, razonadamente, hacia dónde se desplazaría el equilibrio si se comprime el reactor a temperatura constante. (0,6 puntos) Dato: $R=0,08206$ atm·L·mol⁻¹·K⁻¹. 2B) En un laboratorio de control de calidad se prepara una disolución acuosa de un ácido monoprótico débil $HA$. Se desea obtener una disolución de pH = 3,00 y se dispone de $K_a=1,00\\cdot10^{-5}$. Desprecie la autoionización del agua. a) Calcule la concentración inicial del ácido necesaria. (1 punto) b) Calcule el grado de disociación del ácido. (0,4 puntos) c) ¿Qué masa de HCl se necesita para preparar 250,0 mL de disolución de pH = 1,00? Considere que el HCl es un ácido fuerte. (0,6 puntos) Masas atómicas: H = 1; Cl = 35,5.",
+   "solucion": "## Apartado 2B\n\n### a) Concentración inicial del ácido\n\nEl pH fija la concentración de iones hidronio en el equilibrio:\n\n$$[\\mathrm{H_3O^+}]_{eq}=10^{-3,00}=1,00\\cdot10^{-3}\\ \\mathrm{mol\\,L^{-1}}$$\n\nDespreciando la autoionización del agua, si $x$ es la concentración disociada, entonces $x=[\\mathrm{H_3O^+}]_{eq}=1,00\\cdot10^{-3}\\ \\mathrm{mol\\,L^{-1}}$. En el equilibrio, $[\\mathrm{A^-}]=x$ y $[\\mathrm{HA}]=C_0-x$. Por tanto:\n\n$$K_a=\\frac{[\\mathrm{H_3O^+}][\\mathrm{A^-}]}{[\\mathrm{HA}]}=\\frac{x^2}{C_0-x}$$\n\nDespejando $C_0$:\n\n$$C_0=x+\\frac{x^2}{K_a}=1,00\\cdot10^{-3}+\\frac{(1,00\\cdot10^{-3})^2}{1,00\\cdot10^{-5}}=0,101\\ \\mathrm{mol\\,L^{-1}}$$\n\n### b) Grado de disociación\n\n$$\\alpha=\\frac{x}{C_0}=\\frac{1,00\\cdot10^{-3}}{0,101}=9,90\\cdot10^{-3}$$\n\nAsí, el porcentaje de disociación es aproximadamente $0,990\\%$.\n\n### c) Masa de HCl\n\nPara una disolución de HCl con pH $=1,00$:\n\n$$[\\mathrm{H_3O^+}]=[\\mathrm{HCl}]=10^{-1,00}=0,100\\ \\mathrm{mol\\,L^{-1}}$$\n\nEn $250,0\\ \\mathrm{mL}=0,2500\\ \\mathrm{L}$:\n\n$$n=CV=0,100\\cdot0,2500=0,0250\\ \\mathrm{mol}$$\n\nLa masa molar del HCl es $1+35,5=36,5\\ \\mathrm{g\\,mol^{-1}}$, de modo que:\n\n$$m=nM=0,0250\\cdot36,5=0,9125\\ \\mathrm{g}$$",
+   "resultado": "$C_0=0,101\\ \\mathrm{mol\\,L^{-1}}$; $\\alpha=9,90\\cdot10^{-3}$ (0,990 %); $m(\\mathrm{HCl})=0,9125\\ \\mathrm{g}$.",
+   "criterios": "a) 1,0 punto: 0,2 por obtener [H3O+] = 10⁻³ mol·L⁻¹ a partir del pH; 0,4 por plantear correctamente la expresión de Ka con las concentraciones de equilibrio; 0,4 por despejar y obtener C₀ = 0,101 mol·L⁻¹. b) 0,4 puntos: 0,2 por definir α = x/C₀ y 0,2 por calcular α = 9,90·10⁻³ (0,990 %). c) 0,6 puntos: 0,2 por obtener [HCl] = 0,100 mol·L⁻¹; 0,2 por calcular los moles en 0,2500 L; 0,2 por determinar la masa, 0,9125 g.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "estructura",
+   "puntos": 2.0,
+   "tipo": "abierta",
+   "enunciado": "Responda solo a uno de estos dos apartados (3A o 3B). 3A) Para interpretar la composición de un sólido iónico estudiado en un laboratorio de materiales, se consideran los elementos sodio (Z = 11) y azufre (Z = 16). a) Escriba la configuración electrónica de cada elemento e indique su grupo y periodo. (0,6 puntos) b) Indique cuál de los dos tiene menor radio atómico y cuál mayor primera energía de ionización. Justifique ambas respuestas. (0,5 puntos) c) Para electrones con $n=3$ y $m_l=0$, indique los valores posibles de $l$ y el número máximo de electrones que pueden tener esos números cuánticos. (0,4 puntos) d) Indique el tipo de enlace y la fórmula del compuesto iónico formado entre sodio y azufre. (0,5 puntos) 3B) Un equipo debe seleccionar materiales para un dispositivo de medida y compara sustancias con distintos tipos de enlace. a) Represente las estructuras de Lewis de $CO_2$ y $H_2O$ e indique su geometría molecular y si cada molécula es polar o no polar. (0,8 puntos) b) Indique si el bromuro de potasio sólido y el bromuro de potasio fundido conducen la electricidad. Justifique la respuesta. (0,6 puntos) c) Explique por qué el óxido de magnesio tiene una temperatura de fusión mucho mayor que el metano. (0,6 puntos)",
+   "solucion": "### Se resuelve el apartado 3A\n\n#### a) Configuración electrónica, grupo y periodo\n- **Sodio, Na ($Z=11$):** $1s^2\\,2s^2\\,2p^6\\,3s^1$. Tiene un electrón de valencia en el subnivel $3s$: pertenece al **grupo 1** y al **periodo 3**.\n- **Azufre, S ($Z=16$):** $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^4$. Tiene seis electrones de valencia y el nivel externo es $n=3$: pertenece al **grupo 16** y al **periodo 3**.\n\n#### b) Radio atómico y primera energía de ionización\nEl **azufre tiene menor radio atómico** que el sodio. Ambos están en el periodo 3, pero al avanzar de izquierda a derecha aumenta la carga nuclear efectiva; los electrones son atraídos con más fuerza y el radio disminuye.\n\nEl **azufre tiene mayor primera energía de ionización**. Su electrón más externo está más fuertemente atraído por el núcleo que el electrón $3s$ del sodio, por lo que se necesita más energía para extraerlo.\n\n#### c) Números cuánticos\nPara $n=3$, el número cuántico azimutal puede tomar los valores $l=0,1,2$. Para cada uno de ellos, $m_l=0$ es posible, pues debe cumplirse $-l\\leq m_l\\leq l$.\n\nHay, por tanto, tres orbitales compatibles: uno para cada valor de $l$ con $m_l=0$. Cada orbital admite dos electrones, con $m_s=+\\frac12$ y $m_s=-\\frac12$. El máximo es **6 electrones**.\n\n#### d) Compuesto entre sodio y azufre\nSe forma un **enlace iónico**: cada átomo de sodio cede un electrón y forma $Na^+$; el azufre gana dos electrones y forma $S^{2-}$. La fórmula es **$Na_2S$**.\n\n#### Comprobación\nLa fórmula es eléctricamente neutra: $2(+1)+(-2)=0$. Además, los tres orbitales con $n=3$ y $m_l=0$ admiten dos electrones cada uno, es decir, $3\\times2=6$.",
+   "resultado": "Na: grupo 1, periodo 3; S: grupo 16, periodo 3. S tiene menor radio y mayor primera energía de ionización. Para n=3 y ml=0: l=0, 1, 2 y máximo 6 electrones. El compuesto es iónico y su fórmula es Na₂S.",
+   "criterios": "Total: 2,0 puntos. a) 0,6: configuración electrónica de Na (0,2), grupo y periodo de Na (0,1), configuración electrónica de S (0,2), grupo y periodo de S (0,1). b) 0,5: identificación del elemento de menor radio y justificación (0,25); identificación del elemento con mayor primera energía de ionización y justificación (0,25). c) 0,4: valores posibles de l (0,2); deducción del máximo de 6 electrones (0,2). d) 0,5: identificación del enlace iónico (0,2); fórmula Na₂S y coherencia con las cargas de los iones (0,3).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "redox",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Responda solo a uno de estos dos apartados (4A o 4B). 4A) En un análisis de una muestra de agua se determina el hierro(II) mediante valoración con permanganato en medio ácido. Una alícuota de 25,00 mL de la muestra consume 20,00 mL de una disolución de $KMnO_4$ 0,0200 M. a) Ajuste la ecuación iónica de la reacción en medio ácido. (0,8 puntos) b) Identifique el agente oxidante y el agente reductor. (0,4 puntos) c) Calcule la concentración molar de $Fe^{2+}$ en la muestra. (0,8 puntos) 4B) Para revisar varios procesos de una planta química, determine en cada reacción si hay oxidación-reducción. Si la hay, indique el agente oxidante y el agente reductor; si no la hay, justifique la respuesta a partir de los números de oxidación. (0,4 puntos cada apartado) a) $2FeCl_2+Cl_2\\rightarrow2FeCl_3$ b) $CaCO_3\\rightarrow CaO+CO_2$ c) $2H_2O_2\\rightarrow2H_2O+O_2$ d) $Zn+CuSO_4\\rightarrow ZnSO_4+Cu$ e) $NH_4Cl+NaOH\\rightarrow NH_3+NaCl+H_2O$",
+   "solucion": "### 4A\n\n**a) Ajuste de la reacción en medio ácido**\n\nSemirreacción de oxidación:\n$$\\mathrm{Fe^{2+} \\rightarrow Fe^{3+} + e^-}$$\n\nSemirreacción de reducción, ajustada en medio ácido:\n$$\\mathrm{MnO_4^- + 8H^+ + 5e^- \\rightarrow Mn^{2+} + 4H_2O}$$\n\nMultiplicamos la primera semirreacción por 5 y las sumamos, cancelando los electrones:\n$$\\boxed{\\mathrm{MnO_4^- + 5Fe^{2+} + 8H^+ \\rightarrow Mn^{2+} + 5Fe^{3+} + 4H_2O}}$$\n\n**b) Agentes oxidante y reductor**\n\nEl ion permanganato, $\\mathrm{MnO_4^-}$, es el **agente oxidante**, pues se reduce a $\\mathrm{Mn^{2+}}$. El ion $\\mathrm{Fe^{2+}}$ es el **agente reductor**, pues se oxida a $\\mathrm{Fe^{3+}}$.\n\n**c) Concentración de $\\mathrm{Fe^{2+}}$**\n\nLa proporción estequiométrica es $1\\ \\mathrm{mol\\ MnO_4^-}:5\\ \\mathrm{mol\\ Fe^{2+}}$.\n\n$$n(\\mathrm{MnO_4^-})=(0{,}0200\\ \\mathrm{mol\\,L^{-1}})(0{,}02000\\ \\mathrm{L})=4{,}000\\times10^{-4}\\ \\mathrm{mol}$$\n\n$$n(\\mathrm{Fe^{2+}})=5(4{,}000\\times10^{-4})=2{,}000\\times10^{-3}\\ \\mathrm{mol}$$\n\nEn los $0{,}02500\\ \\mathrm{L}$ de muestra:\n$$[\\mathrm{Fe^{2+}}]=\\frac{2{,}000\\times10^{-3}\\ \\mathrm{mol}}{0{,}02500\\ \\mathrm{L}}=\\boxed{0{,}0800\\ \\mathrm{mol\\,L^{-1}}}$$",
+   "resultado": "4A) Ecuación: $\\mathrm{MnO_4^-+5Fe^{2+}+8H^+\\rightarrow Mn^{2+}+5Fe^{3+}+4H_2O}$; oxidante: $\\mathrm{MnO_4^-}$; reductor: $\\mathrm{Fe^{2+}}$; $[\\mathrm{Fe^{2+}}]=0{,}0800\\ \\mathrm{mol\\,L^{-1}}$.",
+   "criterios": "Total: 2,0 puntos. a) 0,8 puntos: 0,3 por ajustar correctamente las semirreacciones en medio ácido; 0,2 por igualar los electrones; 0,3 por obtener la ecuación iónica global correctamente ajustada. b) 0,4 puntos: 0,2 por identificar $\\mathrm{MnO_4^-}$ como agente oxidante y 0,2 por identificar $\\mathrm{Fe^{2+}}$ como agente reductor. c) 0,8 puntos: 0,2 por calcular los moles de permanganato; 0,3 por aplicar la proporción estequiométrica 1:5 para obtener los moles de $\\mathrm{Fe^{2+}}$; 0,3 por calcular y expresar correctamente la concentración molar.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "5",
+   "tema": "organica",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Responda solo a uno de estos dos apartados (5A o 5B). 5A) Un equipo de formulación estudia el etanoato de etilo, empleado como disolvente y componente de algunas esencias. a) Identifique el grupo funcional y escriba el nombre sistemático de $CH_3COOCH_2CH_3$. (0,5 puntos) b) Escriba la ecuación de esterificación entre ácido etanoico y etanol, indicando el nombre del éster que se obtiene. (0,6 puntos) c) Escriba y ajuste la ecuación de combustión completa de un mol de etanoato de etilo. (0,5 puntos) d) Escriba la fórmula semidesarrollada y el nombre de un isómero de función del etanoato de etilo que sea un ácido carboxílico. (0,4 puntos) 5B) En una prueba de laboratorio sobre la velocidad de una reacción acuosa entre dos reactivos, $A$ y $B$, se obtienen los siguientes datos iniciales a temperatura constante: ensayo 1: $[A]=0,10$ mol·L⁻¹, $[B]=0,10$ mol·L⁻¹, velocidad $=2,0\\cdot10^{-3}$ mol·L⁻¹·s⁻¹; ensayo 2: $[A]=0,20$ mol·L⁻¹, $[B]=0,10$ mol·L⁻¹, velocidad $=8,0\\cdot10^{-3}$ mol·L⁻¹·s⁻¹; ensayo 3: $[A]=0,10$ mol·L⁻¹, $[B]=0,20$ mol·L⁻¹, velocidad $=4,0\\cdot10^{-3}$ mol·L⁻¹·s⁻¹. a) Determine los órdenes parciales y escriba la ley de velocidad. (1 punto) b) Calcule la constante de velocidad y sus unidades. (0,5 puntos) c) Calcule la velocidad inicial para $[A]=0,20$ mol·L⁻¹ y $[B]=0,20$ mol·L⁻¹. (0,5 puntos)",
+   "solucion": "### 5B\n\nLa ley de velocidad se escribe como $v=k[A]^m[B]^n$, donde $m$ y $n$ son los órdenes parciales.\n\n**a) Órdenes parciales y ley de velocidad.** Al comparar los ensayos 1 y 2, $[B]$ permanece constante, $[A]$ se duplica y la velocidad se cuadruplica. Por tanto, $2^m=4$ y $m=2$. Al comparar los ensayos 1 y 3, $[A]$ permanece constante, $[B]$ se duplica y la velocidad se duplica. Por tanto, $2^n=2$ y $n=1$. La ley de velocidad es $v=k[A]^2[B]$; el orden total es 3.\n\n**b) Constante de velocidad.** Usando el ensayo 1:\n\n$k=\\dfrac{2.0\\cdot10^{-3}}{(0.10)^2(0.10)}=2.0$ L²·mol⁻²·s⁻¹.\n\nLas unidades se obtienen de dividir las unidades de velocidad entre las de concentración elevada al orden total: $(\\mathrm{mol\\,L^{-1}\\,s^{-1}})/(\\mathrm{mol^3\\,L^{-3}})=\\mathrm{L^2\\,mol^{-2}\\,s^{-1}}$.\n\n**c) Velocidad para las nuevas concentraciones.**\n\n$v=2.0(0.20)^2(0.20)=1.6\\cdot10^{-2}$ mol·L⁻¹·s⁻¹.",
+   "resultado": "Órdenes parciales: $m=2$, $n=1$; $k=2.0$ L²·mol⁻²·s⁻¹; $v_0=1.6\\cdot10^{-2}$ mol·L⁻¹·s⁻¹.",
+   "criterios": "5B (2,0 puntos): a) 1,0 punto: 0,5 por determinar correctamente el orden respecto de A mediante la comparación de los ensayos 1 y 2; 0,5 por determinar el orden respecto de B mediante los ensayos 1 y 3 y escribir la ley de velocidad. b) 0,5 puntos: cálculo correcto de k (0,3) y unidades correctas (0,2). c) 0,5 puntos: sustitución en la ley de velocidad y resultado con unidades correctas.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "estructura",
+   "p": 0.9
+  },
+  {
+   "id": "termo",
+   "p": 0.9
+  },
+  {
+   "id": "equilibrio",
+   "p": 0.9
+  },
+  {
+   "id": "acidobase",
+   "p": 0.9
+  },
+  {
+   "id": "redox",
+   "p": 0.9
+  },
+  {
+   "id": "organica",
+   "p": 0.825
+  }
+ ],
+ "referencias": [
+  "https://academico.unizar.es/sites/academico/files/archivos/acceso/accespau/exame/26ord/quimi.pdf",
+  "https://academico.unizar.es/sites/academico/files/archivos/acceso/accespau/exame/26extra/quimi.pdf"
+ ]
+}
