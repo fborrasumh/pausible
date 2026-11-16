@@ -84,6 +84,18 @@ def llm_falso(respuestas):
         raise AssertionError('prompt inesperado: ' + user[:80])
     return f
 
+def test_contexto_de_preguntas_anteriores():
+    txt = 'PAU 2025\nEjercicio 1. Sea la matriz A; calcula su determinante y la inversa.\nEjercicio 2. Calcula la integral de x^2 y el area del recinto entre curvas.\nEjercicio 3. Probabilidad de sucesos independientes y Bayes.'
+    b = analiza.bloques(txt)
+    assert len(b) == 3 and b[1].startswith('Ejercicio 2'), b
+    t = {'id': 'integrales', 'nombre': 'Integrales', 'kw': ['integral', 'area', 'recinto']}
+    ex = [{'anio': 2025, 'conv': 'ord', 'url': 'u25', 'txt': txt}, {'anio': 2024, 'conv': 'ord', 'url': 'u24', 'txt': txt.replace('x^2', 'e^x')}]
+    ej = analiza.ejemplos(ex, t)
+    assert [e['anio'] for e in ej] == [2025, 2024] and 'integral' in ej[0]['texto'] and 'determinante' not in ej[0]['texto']
+    ctx = {'formato': [{'anio': 2025, 'conv': 'ord', 'texto': txt}], 'temas': {'integrales': ej}}
+    p = genera.p_ponente('Madrid', 'Matemáticas II', [dict(t, p=.8, veces=2, de=2)], ctx)
+    assert 'ASÍ SE HA PREGUNTADO' in p and '[2024 · ord]' in p and 'EXAMEN REAL 2025' in p and 'NO las copies' in p
+
 def test_multiagente_atrapa_al_resolutor_que_se_equivoca():
     examen = json.dumps({'titulo': 'T', 'preguntas': [{'n': '1', 'tema': 'integrales', 'puntos': 2.5, 'tipo': 'calculo', 'enunciado': 'Calcula la integral de 2x entre 0 y 3.'}]})
     bueno = json.dumps({'solucion': 'x^2 entre 0 y 3 = 9', 'resultado': '9', 'numeros': [9], 'codigo': 'import sympy as s\nx=s.symbols("x")\nprint(json.dumps([float(s.integrate(2*x,(x,0,3)))]))', 'criterios': ''})
@@ -92,7 +104,7 @@ def test_multiagente_atrapa_al_resolutor_que_se_equivoca():
     orden = iter([malo, mentiroso, bueno, bueno, bueno])
     llm = llm_falso([('Redacta un examen', examen), ('Resuelve esta pregunta', lambda: next(orden))])
     reg = {'nombre': 'Matemáticas II', 'temas': [{'id': 'integrales', 'nombre': 'Integrales', 'p': 0.8, 'veces': 4, 'de': 5}]}
-    ex = genera.genera_uno(llm, 'madrid', 'Comunidad de Madrid', 'matematicas2', reg, [])
+    ex = genera.genera_uno(llm, 'madrid', 'Comunidad de Madrid', 'matematicas2', reg, {})
     # A=6 (código coherente), B=8 (incoherente) → no hay 2 coherentes que coincidan → C=9: tampoco (6≠9) → pregunta descartada y nueva ronda
     # 2.ª ronda: A=9, B=9 coherentes y coinciden → se publica con verificación por código
     assert ex and ex['preguntas'][0]['resultado'] == '9' and ex['preguntas'][0]['verificacion'] == 'codigo' and ex['rondas'] == 2
@@ -101,7 +113,7 @@ def test_abierta_sin_consenso_no_se_publica():
     examen = json.dumps({'preguntas': [{'n': '1', 'tema': 'kant', 'puntos': 3, 'tipo': 'abierta', 'enunciado': 'Explica el imperativo categórico.'}]})
     sol = json.dumps({'solucion': 'Kant…', 'claves': ['incondicionado'], 'criterios': ''})
     llm = llm_falso([('Redacta un examen', examen), ('Resuelve esta pregunta', sol), ('Eres el tribunal', json.dumps({'coinciden': False, 'errores': ['B atribuye la obra a Hume'], 'mejor': 'ninguna'}))])
-    assert genera.genera_uno(llm, 'x', 'X', 'filosofia', {'nombre': 'Filosofía', 'temas': [{'id': 'kant', 'nombre': 'Kant', 'p': .5, 'veces': 1, 'de': 2}]}, []) is None
+    assert genera.genera_uno(llm, 'x', 'X', 'filosofia', {'nombre': 'Filosofía', 'temas': [{'id': 'kant', 'nombre': 'Kant', 'p': .5, 'veces': 1, 'de': 2}]}, {}) is None
 
 if __name__ == '__main__':
     for n, f in list(globals().items()):

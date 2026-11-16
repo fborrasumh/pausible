@@ -163,12 +163,28 @@ function iguales(a, b, tol = 1e-3) {
 
 /* ── Generación con tu clave: ponente + dos resolutores independientes + desempate/tribunal (como el pipeline, sin ejecutar código) ── */
 const SYS_PAU = 'Eres miembro de la comisión que elabora la PAU (selectividad) en España. Eres riguroso y respondes SOLO con JSON válido.';
-const P_PONENTE = (cc, mat, temas) => `Redacta un examen ORIGINAL de «${mat}» para la PAU 2027 de ${cc}, con el formato del modelo vigente desde 2025 (modelo único, 90 minutos, parte competencial con situaciones contextualizadas). Reparte las preguntas según estas probabilidades de tema, priorizando las más altas:
+/* Contexto de preguntas reales anteriores (data/contexto/<ccaa>__<materia>.json, lo genera pipeline/analiza.py).
+   Mismo texto que bloque_contexto() de pipeline/genera.py. */
+function bloqueContexto(ctx, temas, maxTemas = 8) {
+  if (!ctx) return '';
+  const partes = temas.slice(0, maxTemas).map(t => {
+    const ej = (ctx.temas || {})[t.id] || [];
+    return ej.length ? `### ${t.nombre}\n` + ej.map(e => `[${e.anio} · ${e.conv}] ${e.texto}`).join('\n') : '';
+  }).filter(Boolean);
+  const refs = (ctx.formato || []).map(r => `--- EXAMEN REAL ${r.anio} (${r.conv}) ---\n${r.texto}`).join('\n\n');
+  return (partes.length ? 'ASÍ SE HA PREGUNTADO CADA TEMA EN ESTA COMUNIDAD (preguntas reales de años anteriores, de la más reciente a la más antigua):\n' + partes.join('\n\n') + '\n\n' : '') + refs;
+}
+async function cargaContexto(cid, mid) {
+  try { const r = await fetch(`data/contexto/${cid}__${mid}.json`, {cache: 'no-cache'}); return r.ok ? await r.json() : null; } catch { return null; }
+}
+const P_PONENTE = (cc, mat, temas, ctx) => `Redacta un examen ORIGINAL de «${mat}» para la PAU 2027 de ${cc}, con el formato del modelo vigente desde 2025 (modelo único, 90 minutos, parte competencial con situaciones contextualizadas)${ctx && (ctx.formato || []).length ? ' y con el mismo formato, número de preguntas, puntuación y optatividad que los exámenes reales que te doy' : ''}. Reparte las preguntas según estas probabilidades de tema, priorizando las más altas:
 ${temas.map(t => `- ${t.nombre}: ${Math.round(t.p * 100)} %`).join('\n')}
-Cada pregunta debe tener UNA solución inequívoca; en cálculo, datos que den resultados limpios.
+${ctx ? 'Usa las preguntas reales de años anteriores como guía de estilo, dificultad, tipo de tarea y forma de puntuar de esta comunidad, pero NO las copies ni las parafrasees: datos, contextos y situaciones nuevas. Evita repetir el planteamiento exacto del último año.\n' : ''}Cada pregunta debe tener UNA solución inequívoca; en cálculo, datos que den resultados limpios.
 Devuelve SOLO JSON: {"titulo":"…","duracion_min":90,"instrucciones":"…","preguntas":[{"n":"1","tema":"id","puntos":2.5,"tipo":"calculo|abierta","enunciado":"… (fórmulas en LaTeX entre $…$)"}]}
 Ids de tema válidos: ${temas.map(t => t.id).join(', ')}
-${INSTR_IDIOMA()}`;
+${INSTR_IDIOMA()}
+
+${bloqueContexto(ctx, temas)}`;
 const P_RESOL = (mat, p, variante) => `Resuelve esta pregunta de la PAU de «${mat}» como la comisión correctora, paso a paso. ${variante}
 Devuelve SOLO JSON: {"solucion":"desarrollo en Markdown, fórmulas en LaTeX entre $…$","resultado":"resultado final en una línea","numeros":[resultados finales como números, en orden; [] si no es de cálculo],"claves":["afirmaciones que una respuesta correcta debe contener"],"criterios":"reparto de puntos"}
 ${INSTR_IDIOMA()}
@@ -197,8 +213,8 @@ async function resuelvePregunta(ask, mat, p, onPaso = () => {}) {
   if (tr && tr.coinciden && !(tr.errores || []).length && (tr.mejor === 'A' || tr.mejor === 'B')) return {sol: sols[tr.mejor === 'A' ? 0 : 1], nivel: 'consenso', n: 2};
   return null;
 }
-async function generaExamen(ask, cc, mat, temas, onPaso = () => {}) {
-  const ex = await ask(P_PONENTE(cc, mat, temas));
+async function generaExamen(ask, cc, mat, temas, onPaso = () => {}, ctx = null) {
+  const ex = await ask(P_PONENTE(cc, mat, temas, ctx));
   const preguntas = [], descartadas = [];
   for (const [i, p] of (ex.preguntas || []).entries()) {
     const r = await resuelvePregunta(ask, mat, p, k => onPaso(i, k, ex.preguntas.length));

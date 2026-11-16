@@ -10,7 +10,7 @@ const GLOS = [
   ['¿Acierta?', 'Cada predicción se pone a prueba ocultando el último examen y prediciéndolo con los anteriores. Ves cuántos temas habría acertado y cuántos acertaría el azar. Si la confianza es baja, se dice.'],
   ['¿Las soluciones están bien?', 'Cada pregunta la resuelven dos IA por separado. Solo se publica si coinciden; en cálculo, además, un programa comprueba el resultado. Es mucho más fiable que una sola IA, pero no es infalible: si ves un error, avísanos en GitHub.'],
   ['¿Es oficial?', 'No. PAUsible no tiene relación con las universidades ni con las comisiones de la PAU. Los exámenes reales enlazados son los oficiales; los exámenes probables son originales y no anticipan el examen real.'],
-  ['Generar con tu clave', 'Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI o de Claude. Sale la comunidad, la materia y la lista de temas; nada personal.'],
+  ['Generar con tu clave', 'Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI o de Claude. El ponente ve cómo se han preguntado esos temas en tu comunidad en años anteriores. Salen la comunidad, la materia, la lista de temas y fragmentos de exámenes oficiales; nada personal.'],
   ['Privacidad', 'No hay registro. Tu comunidad, materia y notas se guardan solo en este navegador. La tarjeta para compartir se dibuja en tu dispositivo.']
 ];
 /* Gemini fuera: sus condiciones de uso prohíben la API en apps a las que probablemente accedan menores de 18 años.
@@ -194,10 +194,12 @@ async function generaConClave(b) {
   busy = true; b.disabled = true; const st = $('genEstado');
   const ask = async prompt => llmJSON([{role: 'system', content: SYS_PAU}, {role: 'user', content: prompt}], {max: 6000});
   try {
+    const ctx = await cargaContexto(S.c, S.m);   // preguntas reales de años anteriores de esta comunidad y materia
     st.innerHTML = `<span class="spin"></span> ${esc(t('El ponente redacta el examen…'))}`;
     const ex = await generaExamen(ask, nombreCCAA(S.c), nombreMat(S.m), reg.temas.slice(0, 8), (i, k, n) => {
       st.innerHTML = `<span class="spin"></span> ${esc(t('Pregunta {0} de {1}: {2}', i + 1, n, t(['resolutor A', 'resolutor B', 'desempate', 'tribunal'][k])))}`;
-    });
+    }, ctx);
+    if (ctx) ex.con_contexto = true;
     if (!ex.preguntas.length) throw new Error(t('Ninguna pregunta superó la doble resolución. Prueba otra vez o con otro modelo.'));
     const k = clave(); S.propios[k] = [ex, ...(S.propios[k] || [])].slice(0, MAX_PROPIOS);
     S.fuente[k] = 'propio:0'; S.auto = {}; await guardaYa(); pintaExamen();

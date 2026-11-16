@@ -65,18 +65,27 @@ def json_de(txt):
 SYS = 'Eres miembro de la comisión que elabora la PAU (selectividad) en España. Eres riguroso y respondes SOLO con JSON válido.'
 
 
-def p_ponente(cc, mat, temas, referencias, evitar=''):
+def bloque_contexto(ctx, temas, max_temas=8):
+    """Texto de contexto común al pipeline y a la app: exámenes reales recientes (formato) y cómo se ha preguntado cada tema."""
+    partes = []
+    for t in temas[:max_temas]:
+        ej = (ctx.get('temas') or {}).get(t['id']) or []
+        if ej: partes.append(f'### {t["nombre"]}\n' + '\n'.join(f'[{e["anio"]} · {e["conv"]}] {e["texto"]}' for e in ej))
+    refs = '\n\n'.join(f'--- EXAMEN REAL {r["anio"]} ({r["conv"]}) ---\n{r["texto"]}' for r in (ctx.get('formato') or []))
+    return (('ASÍ SE HA PREGUNTADO CADA TEMA EN ESTA COMUNIDAD (preguntas reales de años anteriores, de la más reciente a la más antigua):\n' + '\n\n'.join(partes) + '\n\n') if partes else '') + refs
+
+
+def p_ponente(cc, mat, temas, ctx, evitar=''):
     top = '\n'.join(f'- {t["nombre"]}: probabilidad {round(t["p"] * 100)} % (salió {t["veces"]} de {t["de"]} veces)' for t in temas)
-    refs = '\n\n'.join(f'--- EXAMEN REAL {r["anio"]} ({r["conv"]}) ---\n{r["texto"][:7000]}' for r in referencias)
     return f"""Redacta un examen ORIGINAL de «{mat}» para la PAU 2027 de {cc}, con el mismo formato, número de preguntas, puntuación, duración (90 min) y grado de optatividad que los exámenes reales que te doy. Debe ser el examen «más probable»: reparte las preguntas según estas probabilidades de tema, priorizando los más probables sin dejar fuera la estructura habitual:
 {top}
-No copies enunciados reales: mismos tipos de tarea, datos y contextos nuevos. Incluye el enfoque competencial (situaciones contextualizadas) del modelo vigente desde 2025.
+Usa las preguntas reales de años anteriores como guía de estilo, dificultad, tipo de tarea, extensión y forma de puntuar de esta comunidad, pero NO las copies ni las parafrasees: datos, contextos y situaciones nuevas. Evita repetir el planteamiento exacto del último año, que la comisión no suele repetir. Incluye el enfoque competencial (situaciones contextualizadas) del modelo vigente desde 2025.
 Cada pregunta debe tener UNA solución inequívoca (en cálculo, datos que den resultados limpios y comprobables).{evitar}
 Devuelve SOLO este JSON:
 {{"titulo":"…","duracion_min":90,"instrucciones":"…","preguntas":[{{"n":"1","tema":"id del tema","puntos":2.5,"tipo":"calculo|abierta","enunciado":"texto completo (fórmulas en LaTeX SIEMPRE entre $…$ o $$…$$; química con $\\ce{{…}}$)"}}]}}
 Ids de tema válidos: {', '.join(t['id'] for t in temas)}
 
-{refs}"""
+{bloque_contexto(ctx, temas)}"""
 
 
 def p_resolutor(mat, preg, calculo, variante):
@@ -151,13 +160,13 @@ def resuelve(llm, mat, preg):
     return None, None, len(sols)
 
 
-def genera_uno(llm, cid, cc_nombre, mid, reg, referencias):
+def genera_uno(llm, cid, cc_nombre, mid, reg, ctx):
     mat = reg['nombre']
     temas = reg['temas']
     descartes = []
     for ronda in range(3):
         evitar = ('\nNo repitas estos planteamientos, que se descartaron por ambiguos: ' + ' | '.join(descartes)) if descartes else ''
-        ex = json_de(llm(SYS, p_ponente(cc_nombre, mat, temas, referencias, evitar), temperatura=0.7, max_tokens=12000))
+        ex = json_de(llm(SYS, p_ponente(cc_nombre, mat, temas, ctx, evitar), temperatura=0.7, max_tokens=12000))
         preguntas, fallo = [], False
         for p in ex['preguntas']:
             sol, nivel, n = resuelve(llm, mat, p)
@@ -167,7 +176,7 @@ def genera_uno(llm, cid, cc_nombre, mid, reg, referencias):
         if not fallo:
             return {'ccaa': cid, 'materia': mid, 'titulo': ex.get('titulo', ''), 'duracion_min': ex.get('duracion_min', 90), 'instrucciones': ex.get('instrucciones', ''),
                     'preguntas': preguntas, 'generado': time.strftime('%Y-%m-%d'), 'modelo': MODELO, 'rondas': ronda + 1,
-                    'temas_base': [{'id': t['id'], 'p': t['p']} for t in temas[:6]], 'referencias': [r['url'] for r in referencias]}
+                    'temas_base': [{'id': t['id'], 'p': t['p']} for t in temas[:6]], 'referencias': [r['url'] for r in ctx.get('formato', [])] + sorted({e['url'] for v in (ctx.get('temas') or {}).values() for e in v})}
     return None
 
 
@@ -195,7 +204,6 @@ def main():
     if not (R / 'data' / 'predicciones.json').exists():
         print('Aún no hay data/predicciones.json: se generará cuando termine «Corpus y predicciones PAU».'); return
     pred = json.loads((R / 'data' / 'predicciones.json').read_text(encoding='utf-8'))
-    corpus = {d['url']: d for d in json.loads((R / 'data' / 'corpus.json').read_text(encoding='utf-8'))['documentos']}
     od = R / 'data' / 'examenes'; od.mkdir(parents=True, exist_ok=True)
     hechos = 0
     for cid, c in pred['ccaa'].items():
@@ -204,13 +212,11 @@ def main():
             if a.materia and mid != a.materia: continue
             f = od / f'{cid}__{mid}.json'
             if not reg.get('temas') or (f.exists() and not a.forzar) or hechos >= a.max: continue
-            refs = []
-            for e in sorted(reg['examenes'], key=lambda e: (e['anio'], e['conv'] == 'ord'), reverse=True)[:2]:
-                d = corpus.get(e['url'])
-                if d and (R / d['txt']).exists(): refs.append({**e, 'texto': (R / d['txt']).read_text(encoding='utf-8', errors='ignore')})
+            fc = R / 'data' / 'contexto' / f'{cid}__{mid}.json'
+            ctx = json.loads(fc.read_text(encoding='utf-8')) if fc.exists() else {}
             print(f'· {c["nombre"]} · {reg["nombre"]}', flush=True)
             try:
-                ex = genera_uno(llm, cid, c['nombre'], mid, reg, refs)
+                ex = genera_uno(llm, cid, c['nombre'], mid, reg, ctx)
             except Exception as e:
                 print(f'  error: {e}'); continue
             if ex:

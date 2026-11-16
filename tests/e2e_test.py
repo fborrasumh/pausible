@@ -12,8 +12,10 @@ def sirve():
 
 import itertools
 RESOL = {'A': itertools.cycle([[9], [6]]), 'B': itertools.cycle([[9], [7]]), 'C': itertools.cycle([[8]])}
+PONENTE = []
 def ia(user):
     if 'Redacta un examen ORIGINAL' in user:
+        PONENTE.append(user)
         return {'titulo': 'Mates II · probable', 'duracion_min': 90, 'instrucciones': 'Responde.', 'preguntas': [
             {'n': '1', 'tema': 'integrales', 'puntos': 5, 'tipo': 'calculo', 'enunciado': 'Calcula $\\int_0^3 2x\\,dx$.'},
             {'n': '2', 'tema': 'derivadas', 'puntos': 5, 'tipo': 'calculo', 'enunciado': 'Pregunta ambigua.'}]}
@@ -70,6 +72,8 @@ async def main():
         await pg.click('#navNext'); await pg.click('#navNext'); await pg.click('#btnGenera')
         await pg.wait_for_selector('.pa-preg', timeout=15000)
         assert await pg.locator('.pa-preg').count() == 1 and 'Se descartaron 1' in await pg.inner_text('#exCab')
+        # el ponente recibe las preguntas reales de años anteriores de esa comunidad y materia
+        assert 'ASÍ SE HA PREGUNTADO CADA TEMA' in PONENTE[-1] and 'EXAMEN REAL' in PONENTE[-1] and 'NO las copies' in PONENTE[-1], PONENTE[-1][-400:]
         assert await pg.evaluate("document.querySelectorAll('.pa-enun .katex').length") > 0    # fórmula del enunciado con KaTeX
         # historial: un segundo examen con la clave → «Mío 1» y «Mío 2»
         await pg.click('#btnGeneraOtro'); await pg.wait_for_function("document.querySelectorAll('[data-fuente]').length >= 2", timeout=15000)

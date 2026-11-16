@@ -25,7 +25,7 @@ Todo lo hace un GitHub Action (`.github/workflows/corpus.yml`), porque las webs 
 | Paso | Script | Qué hace |
 |---|---|---|
 | 1 | `crawl.py` | Una comunidad por tarea (`--ccaa`, `--tiempo`). Parte de las páginas oficiales de cada comunidad (`fuentes.json`), sigue los enlaces del mismo dominio, localiza los PDF 2022-2026, los clasifica por materia, año, convocatoria y tipo (examen / criterios), los descarga, extrae el texto (pdftotext; OCR con tesseract si es un escaneo) y escribe `data/corpus/<comunidad>.json`. `une.py` los junta en `data/corpus.json` y `data/cobertura.json`. |
-| 2 | `analiza.py` | Etiqueta cada examen por temas (`temario.json`) y calcula la predicción con validación ciega → `data/predicciones.json`. Determinista, sin IA. |
+| 2 | `analiza.py` | Etiqueta cada examen por temas (`temario.json`) y calcula la predicción con validación ciega → `data/predicciones.json`. Determinista, sin IA. Además prepara `data/contexto/<comunidad>__<materia>.json`: los dos exámenes reales más recientes (formato) y, para cada tema, cómo se ha preguntado en hasta tres exámenes anteriores. |
 | 3 | `genera.py` | Exámenes probables con agentes (solo si existe el secreto `OPENAI_API_KEY`) → `data/examenes/`. |
 
 - El **texto** de cada examen y el manifiesto con la **URL oficial** se guardan en el repositorio (`corpus/`, `data/`).
@@ -34,7 +34,7 @@ Todo lo hace un GitHub Action (`.github/workflows/corpus.yml`), porque las webs 
 
 ### Agentes que se vigilan entre sí
 
-- **Ponente**: redacta un examen original con el formato y la puntuación de los dos últimos exámenes reales, repartiendo las preguntas según la probabilidad de cada tema.
+- **Ponente**: redacta un examen original con el formato y la puntuación de los dos últimos exámenes reales, repartiendo las preguntas según la probabilidad de cada tema. Recibe también, tema a tema, las preguntas reales de años anteriores de esa comunidad, con la orden de imitar estilo, dificultad y forma de puntuar sin copiarlas y sin repetir el planteamiento del último año. La app con clave propia usa el mismo contexto.
 - **Resolutor A y Resolutor B**: resuelven cada pregunta por separado, sin ver la otra solución.
 - **Código**: en las preguntas de cálculo, cada resolutor entrega además un programa con sympy; se ejecuta y tiene que reproducir el resultado que el resolutor afirma.
 - **Desempate / tribunal**: si A y B no coinciden, un tercer resolutor decide por mayoría 2 de 3; en preguntas abiertas, un tribunal comprueba que coinciden y que ninguna tiene errores de contenido.

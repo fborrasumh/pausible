@@ -91,7 +91,7 @@ jobs:
       - name: Guardar
         run: |
           git config user.name "pausible-bot"; git config user.email "actions@users.noreply.github.com"
-          git add data/corpus.json data/cobertura.json data/predicciones.json
+          git add data/corpus.json data/cobertura.json data/predicciones.json data/contexto
           git diff --cached --quiet || (git commit -q -m "Predicciones $(date +%F)" && (git push -q || (git pull -q --rebase && git push -q)))
 
   examenes:

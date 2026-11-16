@@ -511,7 +511,7 @@ table{border-collapse:collapse;width:100%;font-size:13.8px}th{background:var(--p
   <div class="zonas"><div class="zona l"><h4 data-i18n="Siempre en tu ordenador">Siempre en tu ordenador</h4><ul data-i18n="s.zl">
 <li>Tu comunidad, tus materias y tus notas de simulacro</li><li>Tu clave de IA, si decides usar una</li><li>La tarjeta que compartes: se dibuja en tu móvil</li></ul></div>
     <div class="zona n"><h4 data-i18n="Sale hacia tu proveedor de IA">Sale hacia tu proveedor de IA</h4><ul data-i18n="s.zn">
-<li>Solo si generas un examen nuevo con tu propia clave: la materia, la comunidad y la lista de temas</li><li>Nada personal: no hay registro ni datos tuyos</li></ul></div></div>
+<li>Solo si generas un examen nuevo con tu propia clave: la materia, la comunidad, la lista de temas y fragmentos de exámenes oficiales de años anteriores, para que el nuevo se les parezca</li><li>Nada personal: no hay registro ni datos tuyos</li></ul></div></div>
 </section>
 
 <!-- 1 · TU PAU -->
@@ -1383,7 +1383,7 @@ const I18N = {
     "¿Es oficial?": "Is it official?",
     "No. PAUsible no tiene relación con las universidades ni con las comisiones de la PAU. Los exámenes reales enlazados son los oficiales; los exámenes probables son originales y no anticipan el examen real.": "No. PAUsible has no connection with the universities or the PAU boards. The real exams linked are the official ones; the probable exams are original and do not anticipate the real exam.",
     "Generar con tu clave": "Generate with your key",
-    "Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI o de Claude. Sale la comunidad, la materia y la lista de temas; nada personal.": "If your combination has no probable exam yet, you can generate it with your OpenAI or Claude key. Only the region, subject and topic list are sent; nothing personal.",
+    "Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI o de Claude. El ponente ve cómo se han preguntado esos temas en tu comunidad en años anteriores. Salen la comunidad, la materia, la lista de temas y fragmentos de exámenes oficiales; nada personal.": "If your combination has no probable exam yet, you can generate it with your OpenAI or Claude key. The setter sees how those topics have been asked in your region in past years. The region, subject, topic list and excerpts from official exams are sent; nothing personal.",
     "Privacidad": "Privacy",
     "No hay registro. Tu comunidad, materia y notas se guardan solo en este navegador. La tarjeta para compartir se dibuja en tu dispositivo.": "No sign-up. Your region, subject and grades are stored only in this browser. The share card is drawn on your device.",
     "ordinaria": "ordinary sitting",
@@ -1405,7 +1405,7 @@ const I18N = {
     "s.j3b": "Probable exam, solved twice",
     "s.j3s": "Two AIs solve it separately and only what matches is published (and, in calculations, what the code confirms).",
     "s.zl": "<li>Your region, your subjects and your mock-exam grades</li><li>Your AI key, if you choose to use one</li><li>The card you share: it is drawn on your phone</li>",
-    "s.zn": "<li>Only if you generate a new exam with your own key: the subject, the region and the topic list</li><li>Nothing personal: no sign-up and no data about you</li>",
+    "s.zn": "<li>Only if you generate a new exam with your own key: the subject, the region, the topic list and excerpts from past official exams, so the new one resembles them</li><li>Nothing personal: no sign-up and no data about you</li>",
     "s.paso1": "Step 1 of 4",
     "s.tupau": "Your PAU",
     "s.tupau.lede": "Choose the region where you sit the exam and the subject.",
@@ -1587,7 +1587,7 @@ const I18N = {
     "¿Es oficial?": "É oficial?",
     "No. PAUsible no tiene relación con las universidades ni con las comisiones de la PAU. Los exámenes reales enlazados son los oficiales; los exámenes probables son originales y no anticipan el examen real.": "Não. O PAUsible não tem relação com as universidades nem com as comissões da PAU. Os exames reais ligados são os oficiais; os exames prováveis são originais e não antecipam o exame real.",
     "Generar con tu clave": "Gerar com a tua chave",
-    "Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI o de Claude. Sale la comunidad, la materia y la lista de temas; nada personal.": "Se a tua combinação ainda não tem exame provável, podes gerá-lo com a tua chave da OpenAI ou do Claude. Sai a comunidade, a disciplina e a lista de temas; nada pessoal.",
+    "Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI o de Claude. El ponente ve cómo se han preguntado esos temas en tu comunidad en años anteriores. Salen la comunidad, la materia, la lista de temas y fragmentos de exámenes oficiales; nada personal.": "Se a tua combinação ainda não tem exame provável, podes gerá-lo com a tua chave da OpenAI ou do Claude. O autor vê como esses temas foram perguntados na tua comunidade em anos anteriores. Saem a comunidade, a disciplina, a lista de temas e excertos de exames oficiais; nada pessoal.",
     "Privacidad": "Privacidade",
     "No hay registro. Tu comunidad, materia y notas se guardan solo en este navegador. La tarjeta para compartir se dibuja en tu dispositivo.": "Não há registo. A tua comunidade, disciplina e notas ficam só neste navegador. O cartão para partilhar é desenhado no teu dispositivo.",
     "ordinaria": "ordinária",
@@ -1609,7 +1609,7 @@ const I18N = {
     "s.j3b": "Exame provável, resolvido duas vezes",
     "s.j3s": "Duas IA resolvem-no em separado e só se publica o que coincide (e, no cálculo, o que o código confirma).",
     "s.zl": "<li>A tua comunidade, as tuas disciplinas e as tuas notas de simulado</li><li>A tua chave de IA, se decidires usar uma</li><li>O cartão que partilhas: é desenhado no teu telemóvel</li>",
-    "s.zn": "<li>Só se gerares um exame novo com a tua própria chave: a disciplina, a comunidade e a lista de temas</li><li>Nada pessoal: não há registo nem dados teus</li>",
+    "s.zn": "<li>Só se gerares um exame novo com a tua própria chave: a disciplina, a comunidade, a lista de temas e excertos de exames oficiais anteriores, para que o novo se pareça com eles</li><li>Nada pessoal: não há registo nem dados teus</li>",
     "s.paso1": "Passo 1 de 4",
     "s.tupau": "A tua PAU",
     "s.tupau.lede": "Escolhe a comunidade onde fazes o exame e a disciplina.",
@@ -1860,12 +1860,28 @@ function iguales(a, b, tol = 1e-3) {
 
 /* ── Generación con tu clave: ponente + dos resolutores independientes + desempate/tribunal (como el pipeline, sin ejecutar código) ── */
 const SYS_PAU = 'Eres miembro de la comisión que elabora la PAU (selectividad) en España. Eres riguroso y respondes SOLO con JSON válido.';
-const P_PONENTE = (cc, mat, temas) => `Redacta un examen ORIGINAL de «${mat}» para la PAU 2027 de ${cc}, con el formato del modelo vigente desde 2025 (modelo único, 90 minutos, parte competencial con situaciones contextualizadas). Reparte las preguntas según estas probabilidades de tema, priorizando las más altas:
+/* Contexto de preguntas reales anteriores (data/contexto/<ccaa>__<materia>.json, lo genera pipeline/analiza.py).
+   Mismo texto que bloque_contexto() de pipeline/genera.py. */
+function bloqueContexto(ctx, temas, maxTemas = 8) {
+  if (!ctx) return '';
+  const partes = temas.slice(0, maxTemas).map(t => {
+    const ej = (ctx.temas || {})[t.id] || [];
+    return ej.length ? `### ${t.nombre}\n` + ej.map(e => `[${e.anio} · ${e.conv}] ${e.texto}`).join('\n') : '';
+  }).filter(Boolean);
+  const refs = (ctx.formato || []).map(r => `--- EXAMEN REAL ${r.anio} (${r.conv}) ---\n${r.texto}`).join('\n\n');
+  return (partes.length ? 'ASÍ SE HA PREGUNTADO CADA TEMA EN ESTA COMUNIDAD (preguntas reales de años anteriores, de la más reciente a la más antigua):\n' + partes.join('\n\n') + '\n\n' : '') + refs;
+}
+async function cargaContexto(cid, mid) {
+  try { const r = await fetch(`data/contexto/${cid}__${mid}.json`, {cache: 'no-cache'}); return r.ok ? await r.json() : null; } catch { return null; }
+}
+const P_PONENTE = (cc, mat, temas, ctx) => `Redacta un examen ORIGINAL de «${mat}» para la PAU 2027 de ${cc}, con el formato del modelo vigente desde 2025 (modelo único, 90 minutos, parte competencial con situaciones contextualizadas)${ctx && (ctx.formato || []).length ? ' y con el mismo formato, número de preguntas, puntuación y optatividad que los exámenes reales que te doy' : ''}. Reparte las preguntas según estas probabilidades de tema, priorizando las más altas:
 ${temas.map(t => `- ${t.nombre}: ${Math.round(t.p * 100)} %`).join('\n')}
-Cada pregunta debe tener UNA solución inequívoca; en cálculo, datos que den resultados limpios.
+${ctx ? 'Usa las preguntas reales de años anteriores como guía de estilo, dificultad, tipo de tarea y forma de puntuar de esta comunidad, pero NO las copies ni las parafrasees: datos, contextos y situaciones nuevas. Evita repetir el planteamiento exacto del último año.\n' : ''}Cada pregunta debe tener UNA solución inequívoca; en cálculo, datos que den resultados limpios.
 Devuelve SOLO JSON: {"titulo":"…","duracion_min":90,"instrucciones":"…","preguntas":[{"n":"1","tema":"id","puntos":2.5,"tipo":"calculo|abierta","enunciado":"… (fórmulas en LaTeX entre $…$)"}]}
 Ids de tema válidos: ${temas.map(t => t.id).join(', ')}
-${INSTR_IDIOMA()}`;
+${INSTR_IDIOMA()}
+
+${bloqueContexto(ctx, temas)}`;
 const P_RESOL = (mat, p, variante) => `Resuelve esta pregunta de la PAU de «${mat}» como la comisión correctora, paso a paso. ${variante}
 Devuelve SOLO JSON: {"solucion":"desarrollo en Markdown, fórmulas en LaTeX entre $…$","resultado":"resultado final en una línea","numeros":[resultados finales como números, en orden; [] si no es de cálculo],"claves":["afirmaciones que una respuesta correcta debe contener"],"criterios":"reparto de puntos"}
 ${INSTR_IDIOMA()}
@@ -1894,8 +1910,8 @@ async function resuelvePregunta(ask, mat, p, onPaso = () => {}) {
   if (tr && tr.coinciden && !(tr.errores || []).length && (tr.mejor === 'A' || tr.mejor === 'B')) return {sol: sols[tr.mejor === 'A' ? 0 : 1], nivel: 'consenso', n: 2};
   return null;
 }
-async function generaExamen(ask, cc, mat, temas, onPaso = () => {}) {
-  const ex = await ask(P_PONENTE(cc, mat, temas));
+async function generaExamen(ask, cc, mat, temas, onPaso = () => {}, ctx = null) {
+  const ex = await ask(P_PONENTE(cc, mat, temas, ctx));
   const preguntas = [], descartadas = [];
   for (const [i, p] of (ex.preguntas || []).entries()) {
     const r = await resuelvePregunta(ask, mat, p, k => onPaso(i, k, ex.preguntas.length));
@@ -1948,7 +1964,7 @@ const GLOS = [
   ['¿Acierta?', 'Cada predicción se pone a prueba ocultando el último examen y prediciéndolo con los anteriores. Ves cuántos temas habría acertado y cuántos acertaría el azar. Si la confianza es baja, se dice.'],
   ['¿Las soluciones están bien?', 'Cada pregunta la resuelven dos IA por separado. Solo se publica si coinciden; en cálculo, además, un programa comprueba el resultado. Es mucho más fiable que una sola IA, pero no es infalible: si ves un error, avísanos en GitHub.'],
   ['¿Es oficial?', 'No. PAUsible no tiene relación con las universidades ni con las comisiones de la PAU. Los exámenes reales enlazados son los oficiales; los exámenes probables son originales y no anticipan el examen real.'],
-  ['Generar con tu clave', 'Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI o de Claude. Sale la comunidad, la materia y la lista de temas; nada personal.'],
+  ['Generar con tu clave', 'Si tu combinación aún no tiene examen probable, puedes generarlo con tu clave de OpenAI o de Claude. El ponente ve cómo se han preguntado esos temas en tu comunidad en años anteriores. Salen la comunidad, la materia, la lista de temas y fragmentos de exámenes oficiales; nada personal.'],
   ['Privacidad', 'No hay registro. Tu comunidad, materia y notas se guardan solo en este navegador. La tarjeta para compartir se dibuja en tu dispositivo.']
 ];
 /* Gemini fuera: sus condiciones de uso prohíben la API en apps a las que probablemente accedan menores de 18 años.
@@ -2132,10 +2148,12 @@ async function generaConClave(b) {
   busy = true; b.disabled = true; const st = $('genEstado');
   const ask = async prompt => llmJSON([{role: 'system', content: SYS_PAU}, {role: 'user', content: prompt}], {max: 6000});
   try {
+    const ctx = await cargaContexto(S.c, S.m);   // preguntas reales de años anteriores de esta comunidad y materia
     st.innerHTML = `<span class="spin"></span> ${esc(t('El ponente redacta el examen…'))}`;
     const ex = await generaExamen(ask, nombreCCAA(S.c), nombreMat(S.m), reg.temas.slice(0, 8), (i, k, n) => {
       st.innerHTML = `<span class="spin"></span> ${esc(t('Pregunta {0} de {1}: {2}', i + 1, n, t(['resolutor A', 'resolutor B', 'desempate', 'tribunal'][k])))}`;
-    });
+    }, ctx);
+    if (ctx) ex.con_contexto = true;
     if (!ex.preguntas.length) throw new Error(t('Ninguna pregunta superó la doble resolución. Prueba otra vez o con otro modelo.'));
     const k = clave(); S.propios[k] = [ex, ...(S.propios[k] || [])].slice(0, MAX_PROPIOS);
     S.fuente[k] = 'propio:0'; S.auto = {}; await guardaYa(); pintaExamen();

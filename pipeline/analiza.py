@@ -45,6 +45,29 @@ def fragmento(texto, kws, largo=280):
     return ''
 
 
+CAB_PREGUNTA = re.compile(r'(?im)^\s*(?:(?:pregunta|ejercicio|cuesti[oó]n|problema|exercici|q[üu]esti[oó]|pregunta|tarea|question|bloque|apartado|ariketa|galdera)\s*[A-Z]?\s*\d+|\d{1,2}\s*[.)-]\s+\S|[A-D]\s*\d\s*[.)])')
+
+
+def bloques(texto):
+    """Trocea un examen en preguntas por sus cabeceras («Ejercicio 2», «Pregunta 3», «2.»…); si no las hay, en párrafos."""
+    idx = [m.start() for m in CAB_PREGUNTA.finditer(texto)]
+    partes = [texto[a:b] for a, b in zip(idx, idx[1:] + [len(texto)])] if len(idx) >= 2 else re.split(r'\n\s*\n', texto)
+    return [re.sub(r'[ \t]+', ' ', re.sub(r'\n{3,}', '\n\n', x)).strip() for x in partes if len(x.strip()) > 30]
+
+
+def ejemplos(con, t, n=3, largo=900):
+    """Cómo se ha preguntado un tema: el bloque con más raíces del tema de hasta n exámenes distintos, del más reciente al más antiguo."""
+    out, vistos = [], set()
+    for e in sorted(con, key=lambda e: (e['anio'], e['conv'] == 'ord'), reverse=True):
+        if (e['anio'], e['conv']) in vistos: continue
+        mejor = max(bloques(e['txt']), key=lambda b: cuenta(b, t['kw']), default='')
+        if cuenta(mejor, t['kw']) < 1: continue
+        vistos.add((e['anio'], e['conv']))
+        out.append({'anio': e['anio'], 'conv': e['conv'], 'url': e['url'], 'texto': mejor[:largo] + ('…' if len(mejor) > largo else '')})
+        if len(out) >= n: break
+    return out
+
+
 def predice(examenes, temas, ultimo_ord=None):
     """examenes: [{'anio','conv','hits':{tema:n}}]. Devuelve {tema: p}"""
     w_tot, f = 0.0, defaultdict(float)
@@ -126,6 +149,13 @@ def main():
         else:
             reg.update({'temas': [], 'validacion': None, 'confianza': 'sin_temario'})
         out['ccaa'].setdefault(cid, {'nombre': fuentes['ccaa'][cid]['nombre'], 'materias': {}})['materias'][mid] = reg
+        # contexto para los generadores (pipeline y app con clave): formato real + cómo se ha preguntado cada tema
+        recientes = sorted(ex, key=lambda e: (e['anio'], e['conv'] == 'ord'), reverse=True)[:2]
+        ctx = {'ccaa': cid, 'materia': mid, 'generado': out['generado'],
+               'formato': [{'anio': e['anio'], 'conv': e['conv'], 'url': e['url'], 'texto': e['txt'][:6000]} for e in recientes],
+               'temas': {t['id']: ejemplos([e for e in ex if e['hits'].get(t['id'], 0) >= UMBRAL], t) for t in temas}}
+        (R / 'data' / 'contexto').mkdir(parents=True, exist_ok=True)
+        (R / 'data' / 'contexto' / f'{cid}__{mid}.json').write_text(json.dumps(ctx, ensure_ascii=False, indent=0), encoding='utf-8')
     for mid, ts in acum.items():
         nombres = {t['id']: t['nombre'] for t in temario[mid]['temas']}
         out['nacional'][mid] = sorted(({'id': tid, 'nombre': nombres[tid], 'p': round(sum(p * n for p, n in v) / sum(n for _, n in v), 3), 'ccaa': len(v)} for tid, v in ts.items()), key=lambda x: -x['p'])
