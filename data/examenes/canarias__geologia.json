@@ -1,0 +1,238 @@
+{
+ "ccaa": "canarias",
+ "materia": "geologia",
+ "titulo": "PAU 2027 Canarias — Geología y Ciencias Ambientales (propuesta original)",
+ "duracion_min": 90,
+ "instrucciones": "La pregunta 1 es obligatoria y vale 2 puntos. De cada pareja, A2-B2, A3-B3, A4-B4, A5-B5, A6-B6, A7-B7, A8-B8 y A9-B9, responde solo una pregunta. Cada pregunta de las parejas vale 1 punto. La puntuación máxima es de 10 puntos. Justifica las respuestas cuando se solicite y expresa los resultados de cálculo con sus unidades.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "procesos",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En un corte geológico esquemático se observa un basamento de granito (G). Sobre una superficie erosiva se depositaron, en este orden y sin interrupciones, un conglomerado (C), una arenisca (A), una caliza (L) y una lutita (M). Estos cuatro estratos se inclinaron posteriormente. Un dique basáltico (D) corta el basamento y los cuatro estratos; después, una falla normal (F) desplaza tanto el dique como los estratos. Una nueva superficie erosiva corta la falla y todos los materiales anteriores. Sobre ella se depositó horizontalmente una capa de toba volcánica (T). La erosión actual ha excavado un barranco que corta también la toba. a) Escribe la leyenda de las unidades G, C, A, L, M y T en orden cronológico, de más antigua a más moderna (0,5 puntos). b) Expón ordenadamente la historia geológica, incluyendo sedimentación, inclinación, intrusión, fallamiento, erosión y depósito de la toba (1,5 puntos).",
+   "solucion": "## Método: ordenar las relaciones de precedencia\nEn lugar de limitarse a leer las capas de abajo arriba, se combinan el principio de superposición y las relaciones de corte. Una unidad depositada sobre otra es más moderna; una estructura que corta otras rocas es posterior a ellas; y una falla desplazada por una superficie erosiva es anterior a esa erosión.\n\n### a) Leyenda en orden cronológico (0,5 puntos)\nDe más antigua a más moderna:\n\n$G \\rightarrow C \\rightarrow A \\rightarrow L \\rightarrow M \\rightarrow T$\n\nEs decir: granito, conglomerado, arenisca, caliza, lutita y toba volcánica. El dique y la falla son eventos geológicos, pero no forman parte de las unidades solicitadas en esta leyenda.\n\n### b) Historia geológica (1,5 puntos)\n1. Se formó el basamento granítico $G$ y, posteriormente, la erosión generó una superficie sobre él.\n2. Sobre esa superficie se depositaron, sin interrupciones y en este orden, el conglomerado $C$, la arenisca $A$, la caliza $L$ y la lutita $M$.\n3. Una vez depositados, los cuatro estratos se inclinaron.\n4. El dique basáltico $D$ intruyó el basamento y cortó los cuatro estratos; por tanto, es posterior a las rocas que atraviesa.\n5. La falla normal $F$ desplazó el dique y los estratos; por ello, es posterior a ambos.\n6. Una nueva erosión truncó la falla y los materiales anteriores, formando una superficie erosiva que corta la serie inclinada.\n7. Sobre esa superficie se depositó horizontalmente la toba volcánica $T$, más moderna que las unidades anteriores.\n8. Finalmente, la erosión actual excavó el barranco y cortó también la toba; es el acontecimiento más reciente.\n\n### Comprobación\nLas relaciones de corte confirman que $D$ es anterior a $F$, que $F$ es anterior a la superficie erosiva que la trunca y que dicha erosión es anterior al depósito de $T$. El barranco corta $T$, así que la erosión actual es posterior a todo el resto. El orden de las unidades de la leyenda queda, por tanto, $G, C, A, L, M, T$.",
+   "resultado": "Unidades: G → C → A → L → M → T. Historia: erosión inicial, sedimentación, inclinación, intrusión del dique, fallamiento, erosión y depósito horizontal de T, y erosión actual del barranco.",
+   "criterios": "Total: 2 puntos. a) 0,5 puntos: 0,1 por identificar G como la unidad más antigua, 0,3 por ordenar correctamente C-A-L-M y 0,1 por situar T como la más moderna de las unidades solicitadas; se admite puntuación parcial proporcional. b) 1,5 puntos: 0,35 por la erosión inicial y la sedimentación ordenada de C, A, L y M; 0,20 por la inclinación posterior; 0,25 por la intrusión del dique; 0,25 por la falla posterior que desplaza el dique y los estratos; 0,30 por la erosión que trunca las estructuras y el depósito horizontal de T; 0,15 por reconocer la erosión actual del barranco como último evento.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "A2",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Un equipo instala dos estaciones GPS a ambos lados de un rift continental. Durante 25 años, la estación occidental se desplaza 1,2 cm/año hacia el oeste y la oriental 1,2 cm/año hacia el este. a) Identifica el tipo de límite de placas asociado al rift (0,3 puntos). b) Calcula la velocidad relativa de separación de las estaciones (0,4 puntos). c) Calcula cuánto habrá aumentado la distancia entre ellas al cabo de esos 25 años y explica qué proceso tectónico indica este movimiento (0,3 puntos).",
+   "solucion": "### a) Tipo de límite\nEl rift continental se asocia a un **límite divergente**: las placas se separan y la litosfera continental se estira y adelgaza.\n\n### b) Velocidad relativa de separación\nLas estaciones se desplazan en sentidos opuestos, por lo que sus velocidades se suman para obtener la velocidad relativa:\n\n$$v_{rel}=1{,}2+1{,}2=2{,}4\\ \\text{cm/año}.$$\n\n### c) Aumento de distancia y proceso tectónico\nEn 25 años, el aumento de la distancia entre las estaciones será:\n\n$$\\Delta d=v_{rel}\\,t=2{,}4\\times25=60\\ \\text{cm}=0{,}60\\ \\text{m}.$$\n\nEste movimiento indica **extensión y rifting continental**, propios de un límite divergente; si la extensión continúa, puede favorecer la formación de una nueva cuenca oceánica.",
+   "resultado": "a) Límite divergente. b) Velocidad relativa: 2,4 cm/año. c) Aumento de distancia: 60 cm (0,60 m), indicativo de extensión y rifting continental.",
+   "criterios": "Total: 1,0 punto. a) 0,3 puntos por identificar el límite divergente. b) 0,4 puntos: 0,2 por sumar correctamente las velocidades al ser opuestas en dirección y 0,2 por expresar 2,4 cm/año con unidades. c) 0,3 puntos: 0,2 por calcular y expresar el aumento como 60 cm (o 0,60 m) y 0,1 por relacionarlo con la extensión y el rifting continental.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "B2",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una región se cartografían una fosa oceánica junto al margen de un continente, una cadena de volcanes paralela a la fosa y terremotos cuyos focos se sitúan a 15 km de profundidad junto a la fosa, a 65 km a 100 km tierra adentro y a 115 km a 200 km tierra adentro. a) Indica qué tipo de límite de placas se está produciendo (0,3 puntos). b) Señala qué tipo de litosfera subduce y bajo cuál (0,3 puntos). c) Explica qué representa la distribución de los focos sísmicos y cómo se relaciona con el origen de la cadena volcánica (0,4 puntos).",
+   "solucion": "### a) Tipo de límite de placas\nEs un **límite convergente con subducción**, porque la fosa oceánica y la cadena volcánica paralela son rasgos característicos de una zona de subducción.\n\n### b) Litosfera que subduce\nSubduce **litosfera oceánica bajo litosfera continental**. La oceánica, más densa, se introduce bajo el margen continental.\n\n### c) Focos sísmicos y cadena volcánica\nLos focos se hacen progresivamente más profundos al avanzar tierra adentro: pasan de 15 km junto a la fosa a 65 km a 100 km y 115 km a 200 km. Esta distribución define una zona sísmica inclinada —zona de Wadati-Benioff— que señala el descenso de la placa oceánica bajo el continente.\n\nComo comprobación geométrica, la profundidad aumenta aproximadamente 50 km por cada 100 km horizontales; por tanto, el buzamiento estimado respecto a la horizontal es $\\arctan(50/100) \\approx 26,6^\\circ$. Es una estimación basada en los puntos proporcionados.\n\nAl hundirse, la placa libera fluidos que favorecen la fusión parcial del manto situado sobre ella. El magma generado asciende y origina la cadena volcánica paralela a la fosa; no es necesario que se funda directamente toda la placa subducida.\n\n**Comprobación final:** el sentido de profundización hacia el continente, junto con la fosa y el arco volcánico paralelo, es coherente con una subducción oceánica bajo un continente.",
+   "resultado": "Límite convergente: la litosfera oceánica subduce bajo la continental; los focos dibujan una zona de Wadati-Benioff inclinada hacia el continente y la deshidratación de la placa favorece el magma del arco volcánico.",
+   "criterios": "1,0 punto en total: a) 0,3 por identificar un límite convergente con subducción; b) 0,3 por señalar que la litosfera oceánica subduce bajo la continental; c) 0,4: 0,2 por interpretar el aumento de profundidad como una zona sísmica inclinada asociada a la placa subducida y 0,2 por relacionar la liberación de fluidos, la fusión parcial del manto y la formación del arco volcánico. El cálculo aproximado del buzamiento no es necesario para obtener la puntuación.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "A3",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una consultoría debe interpretar tres escenarios tectónicos. En el lugar X, dos bloques se separan y se forma corteza basáltica en una dorsal; en el lugar Y, una placa oceánica se introduce bajo un continente y hay una fosa y un arco volcánico; en el lugar Z, convergen dos masas continentales y se engrosa la corteza, sin una fosa oceánica activa. Para cada lugar, identifica el tipo de límite o proceso tectónico y la estructura geológica principal que cabe esperar.",
+   "solucion": "1. **Lugar X:** La separación de los bloques corresponde a un límite **divergente o constructivo**. En la dorsal asciende magma basáltico y, al solidificarse, se forma nueva corteza oceánica; la estructura principal es una **dorsal oceánica**.\n2. **Lugar Y:** La placa oceánica se hunde bajo la continental, por lo que es un límite **convergente con subducción oceánico-continental**. Se esperan una **fosa oceánica** y un **arco volcánico continental**, a menudo asociado a una cordillera volcánica.\n3. **Lugar Z:** La convergencia y el engrosamiento de dos masas continentales indican una **colisión continental**. La estructura principal es un **orógeno o cordillera de colisión**, con corteza engrosada y deformada; no se espera una fosa oceánica activa en la zona de colisión.",
+   "resultado": "X: límite divergente, dorsal oceánica; Y: subducción oceánico-continental, fosa y arco volcánico continental; Z: colisión continental, orógeno o cordillera de colisión.",
+   "criterios": "Total: 1 punto. Se asignan 0,5 puntos a la identificación de los procesos tectónicos —1/6 por cada lugar— y 0,5 puntos a las estructuras esperables —1/6 por cada lugar—. Se acepta terminología equivalente, como dorsal mediooceánica, arco magmático continental u orógeno de colisión.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "B3",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Para evaluar el riesgo sísmico de una localidad se estima una probabilidad anual de terremoto de 0,02. Si ocurre, las pérdidas económicas previstas son de 8 millones de euros; tras reforzar los edificios, serían de 2 millones de euros, sin que cambie la probabilidad del terremoto. Usa la relación $E=pL$, donde $E$ es la pérdida anual esperada, $p$ la probabilidad anual y $L$ las pérdidas si ocurre el evento. a) Calcula $E$ antes del refuerzo (0,4 puntos). b) Calcula $E$ después del refuerzo (0,4 puntos). c) Indica qué componente del riesgo reduce el refuerzo y por qué no modifica la peligrosidad sísmica (0,2 puntos).",
+   "solucion": "La pérdida anual esperada se calcula mediante $E=pL$, con $p=0{,}02$.\n\n**a) Antes del refuerzo:**\n$E=0{,}02\\times 8\\,000\\,000=160\\,000\\ €$ al año.\n\n**b) Después del refuerzo:**\n$E=0{,}02\\times 2\\,000\\,000=40\\,000\\ €$ al año.\n\n**c)** El refuerzo reduce la **vulnerabilidad** de los edificios y, por tanto, las pérdidas potenciales si ocurre un terremoto. No modifica la peligrosidad sísmica, porque no altera la probabilidad ni el fenómeno sísmico; el enunciado indica que la probabilidad anual permanece en $0{,}02$.",
+   "resultado": "Antes: 160 000 €/año; después: 40 000 €/año. El refuerzo reduce la vulnerabilidad, no la peligrosidad sísmica.",
+   "criterios": "a) 0,4 puntos: aplicación de E=pL (0,1), sustitución de los datos (0,1), cálculo correcto de 160 000 (0,1) y unidades de €/año (0,1). b) 0,4 puntos: aplicación de E=pL (0,1), sustitución de los datos (0,1), cálculo correcto de 40 000 (0,1) y unidades de €/año (0,1). c) 0,2 puntos: identifica que se reduce la vulnerabilidad o las pérdidas potenciales (0,1) y explica que la peligrosidad sísmica no cambia porque la probabilidad del terremoto permanece igual y el refuerzo no altera el fenómeno sísmico (0,1).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "A4",
+   "tema": "procesos",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Tras lluvias intensas en una isla, un barranco estrecho desemboca en una llanura costera. En la salida del barranco se observa un depósito de sedimentos con forma de abanico, con bloques gruesos cerca de la desembocadura y materiales más finos hacia el borde exterior. Identifica la forma del relieve y el agente geológico externo que la ha originado. Explica cómo el cambio de pendiente y de velocidad del agua favorece su formación.",
+   "solucion": "La forma del relieve es un **abanico aluvial**, también llamado **cono de deyección**. Lo origina el agua de escorrentía concentrada en el barranco, especialmente durante episodios de lluvias intensas, por lo que el agente geológico externo es un **curso de agua torrencial**.\n\nAl salir del barranco hacia la llanura costera, el agua pasa de una zona de mayor pendiente a otra de menor pendiente y se dispersa. Como consecuencia, disminuyen su velocidad y su capacidad de transporte, y los sedimentos se depositan. Los bloques y materiales más gruesos, que requieren más energía para ser transportados, quedan cerca de la salida del barranco; los materiales más finos pueden ser arrastrados más lejos y se depositan hacia el borde exterior del abanico.",
+   "resultado": "Abanico aluvial o cono de deyección, formado por la deposición de sedimentos transportados por agua torrencial al disminuir la pendiente y la velocidad del flujo.",
+   "criterios": "Total: 1 punto. Identificación correcta del abanico aluvial o cono de deyección: 0,25 puntos. Identificación del agua torrencial como agente: 0,20 puntos. Explicación del descenso de pendiente, velocidad y capacidad de transporte: 0,30 puntos. Explicación de la selección de sedimentos, con gruesos cerca de la salida y finos hacia el exterior: 0,25 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "B4",
+   "tema": "procesos",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En un tramo de costa rocosa se observa un frente abrupto atacado por el oleaje, una muesca en su base y una superficie rocosa casi horizontal que queda parcialmente expuesta durante la bajamar. Identifica las dos formas costeras descritas y explica cómo la erosión marina contribuye a su desarrollo.",
+   "solucion": "Las dos formas costeras son el **acantilado** (el frente abrupto) y la **plataforma de abrasión** o plataforma litoral (la superficie rocosa casi horizontal). La muesca de la base es una muesca de socavación asociada a la erosión del acantilado.\n\n1. El oleaje golpea la base del acantilado y erosiona la roca mediante la acción hidráulica y la abrasión de los fragmentos transportados, excavando la muesca.\n2. Al quedar debilitada la base, la parte superior puede desplomarse; la repetición de este proceso hace retroceder el acantilado.\n3. La erosión marina también desgasta y ensancha la superficie rocosa de su pie, formando la plataforma de abrasión, que queda parcialmente al descubierto durante la bajamar.\n\n**Comprobación:** la identificación concuerda con las observaciones: un frente abrupto con muesca basal corresponde a un acantilado erosionado por el oleaje, y una superficie rocosa casi horizontal expuesta en bajamar corresponde a una plataforma de abrasión.",
+   "resultado": "Acantilado costero y plataforma de abrasión; la erosión del oleaje socava la base, favorece el retroceso del acantilado y desgasta y ensancha la plataforma.",
+   "criterios": "1,0 punto: 0,25 por identificar correctamente el acantilado; 0,25 por identificar la plataforma de abrasión; 0,25 por explicar la socavación de la base y el retroceso del acantilado; 0,25 por explicar la formación o ampliación erosiva de la plataforma y su exposición en bajamar.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "A5",
+   "tema": "procesos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "En un mapa topográfico a escala 1:20 000, un tramo recto de un barranco mide 8 cm. Su extremo superior está a 720 m de altitud y el inferior a 400 m. a) Indica el sentido de circulación del agua (0,3 puntos). b) Calcula la pendiente media del tramo en porcentaje mediante $i=\\Delta h/d$, donde $\\Delta h$ es el desnivel y $d$ la distancia horizontal real (0,7 puntos).",
+   "solucion": "### a) Sentido de circulación (0,3 puntos)\nEl agua circula desde el extremo de mayor altitud hacia el de menor altitud: desde el extremo superior, situado a $720\\,\\text{m}$, hasta el inferior, situado a $400\\,\\text{m}$.\n\n### b) Pendiente media (0,7 puntos)\nLa distancia horizontal real se obtiene aplicando la escala $1:20\\,000$:\n\n$$d=8\\,\\text{cm}\\times 20\\,000=160\\,000\\,\\text{cm}=1\\,600\\,\\text{m}.$$\n\nEl desnivel es:\n\n$$\\Delta h=720-400=320\\,\\text{m}.$$\n\nPor tanto, la pendiente porcentual es:\n\n$$i=\\frac{\\Delta h}{d}\\times 100=\\frac{320}{1\\,600}\\times 100=20\\%.$$\n\nLa pendiente media del tramo es del $20\\%$.",
+   "resultado": "El agua circula desde los 720 m hacia los 400 m; la pendiente media es del 20 %.",
+   "criterios": "Total: 1 punto. a) 0,3 puntos por indicar que el agua circula desde el extremo de 720 m hacia el de 400 m. b) 0,2 puntos por calcular correctamente la distancia real (1 600 m); 0,2 puntos por obtener el desnivel (320 m); 0,3 puntos por aplicar la fórmula y expresar la pendiente como porcentaje (20 %).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "B5",
+   "tema": "procesos",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Después de varios días de lluvia, una ladera presenta una cicatriz curva y bloques que han rotado hacia atrás y se acumulan al pie. a) Identifica el tipo de movimiento en masa y el factor que probablemente lo ha desencadenado (0,5 puntos). b) Elige la medida más adecuada entre estas opciones y justifica la elección: instalar drenajes para reducir el agua en el terreno; añadir agua en la parte alta; retirar material del pie de la ladera; conducir la escorrentía hacia la cicatriz (0,5 puntos).",
+   "solucion": "### Resolución paso a paso\n\n1. **Identificación del movimiento.** La cicatriz curva y los bloques que han girado hacia atrás son rasgos característicos de un **deslizamiento rotacional** o *slump*. El material se desplaza sobre una superficie de rotura curva y rota durante el movimiento.\n\n2. **Factor desencadenante.** Tras varios días de lluvia, la infiltración de agua puede saturar el terreno y aumentar la presión del agua en los poros. Esto reduce la tensión efectiva y, por tanto, la resistencia al corte de la ladera, favoreciendo el deslizamiento. La lluvia es el desencadenante más probable.\n\n3. **Elección de la medida, mediante el efecto sobre la estabilidad.** Se elige **instalar drenajes para reducir el agua en el terreno**: al evacuar agua, disminuye la presión intersticial y se favorece la estabilidad. Añadir agua agravaría la saturación; conducir la escorrentía hacia la cicatriz favorecería la infiltración o la erosión; retirar material del pie podría eliminar parte del apoyo de la ladera.\n\n4. **Comprobación.** La medida elegida actúa sobre el factor desencadenante identificado —el exceso de agua— y reduce su efecto desestabilizador. Por tanto, la elección es coherente con el diagnóstico.",
+   "resultado": "Deslizamiento rotacional desencadenado probablemente por la lluvia; instalar drenajes para reducir el agua del terreno.",
+   "criterios": "Total: 1 punto. a) 0,25 puntos por identificar el deslizamiento rotacional y 0,25 por señalar la lluvia o la saturación del terreno como desencadenante. b) 0,25 puntos por elegir instalar drenajes y 0,25 por justificar que reducen el agua o la presión intersticial y favorecen la estabilidad. Los valores de «numeros» corresponden a los puntos de los apartados a), b) y al total.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "A6",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una práctica de identificación, un mineral tiene dureza 3 en la escala de Mohs, exfoliación en tres direcciones que forman romboedros y produce efervescencia al contacto con ácido clorhídrico diluido. Identifica el mineral y explica qué dos propiedades de la descripción permiten distinguirlo de un mineral silicatado común.",
+   "solucion": "**Identificación por descarte y comprobación:** la efervescencia con HCl diluido indica liberación de $CO_2$, propia de un carbonato. La ecuación es $\\mathrm{CaCO_3 + 2HCl \\rightarrow CaCl_2 + CO_2\\uparrow + H_2O}$. La exfoliación en tres direcciones que originan romboedros es característica de la calcita, cuya fórmula es $\\mathrm{CaCO_3}$. Su dureza de 3 en Mohs es coherente con la identificación, aunque por sí sola no es concluyente. Las dos propiedades más útiles para distinguirla de un silicato común son la efervescencia con ácido —los silicatos comunes no suelen reaccionar así— y la exfoliación romboédrica característica. **Comprobación:** la reacción química confirma que se trata de un carbonato y la geometría de exfoliación concuerda con la calcita.",
+   "resultado": "Calcita (CaCO₃).",
+   "criterios": "1,0 punto: 0,3 por identificar la calcita; 0,3 por explicar la efervescencia con HCl como reacción característica de un carbonato y diferenciadora frente a silicatos comunes; 0,3 por reconocer la exfoliación romboédrica como característica; 0,1 por contextualizar correctamente la dureza 3 como dato compatible, no exclusivo.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "B6",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una roca volcánica presenta cristales intercrecidos de plagioclasa y piroxeno, composición máfica y tamaño de grano inferior a 1 mm. a) Indica si es ígnea, sedimentaria o metamórfica (0,25 puntos). b) Identifica la roca (0,25 puntos). c) Explica qué indica su tamaño de grano sobre el lugar y la velocidad de enfriamiento del magma (0,5 puntos).",
+   "solucion": "1. **Tipo de roca:** es **ígnea**, porque se describe como volcánica: se formó a partir de magma o lava que se enfrió y solidificó.\n2. **Identificación:** corresponde a un **basalto**. Es una roca volcánica máfica cuyos minerales principales incluyen plagioclasa y piroxeno; su grano fino es coherente con esta identificación.\n3. **Enfriamiento:** los granos inferiores a $1\\,\\text{mm}$ indican que el magma se enfrió **rápidamente**, normalmente en la superficie o cerca de ella. Al haber poco tiempo para crecer, los cristales quedaron pequeños; la textura es de grano fino o afanítica.\n\n**Comprobación:** la composición máfica y la asociación de plagioclasa y piroxeno concuerdan con el basalto. Además, su grano fino indica enfriamiento volcánico rápido, a diferencia del grano grueso esperable en una roca equivalente formada lentamente en profundidad, como el gabro.",
+   "resultado": "Roca ígnea volcánica: basalto; grano fino que indica enfriamiento rápido en la superficie o cerca de ella.",
+   "criterios": "Puntuación total: 1 punto. a) 0,25 puntos por indicar que es ígnea. b) 0,25 puntos por identificarla como basalto. c) 0,5 puntos por relacionar el grano fino con enfriamiento rápido (0,25) y con enfriamiento en la superficie o cerca de ella, explicando que limita el crecimiento de los cristales (0,25).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "A7",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una muestra se observan cristales octaédricos negros, dureza entre 5,5 y 6,5, raya negra y fuerte respuesta a un imán. Identifica el mineral y escribe su fórmula química. Explica por qué la respuesta magnética es una propiedad útil para reconocerlo.",
+   "solucion": "1. El color negro, la raya negra y la dureza indicada son compatibles con la magnetita.\n2. La respuesta fuerte al imán es especialmente característica: la magnetita es ferrimagnética por la disposición de los iones de hierro en su estructura cristalina.\n3. Por tanto, el mineral es la **magnetita**, un óxido de hierro cuya fórmula química es $\\mathrm{Fe_3O_4}$. La prueba magnética resulta útil porque permite reconocerla de forma rápida y distinguirla de muchos otros minerales negros; conviene interpretarla junto con las demás propiedades, ya que no debe usarse como único criterio.",
+   "resultado": "Magnetita — $\\mathrm{Fe_3O_4}$; su fuerte respuesta magnética es un rasgo diagnóstico útil.",
+   "criterios": "1,0 punto: identificación de la magnetita (0,3); fórmula química correcta, Fe₃O₄ (0,3); explicación de que su fuerte respuesta magnética es una propiedad diagnóstica útil para reconocerla o diferenciarla de otros minerales (0,4).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "B7",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En un afloramiento se reconoce una roca de grano grueso con bandas claras, ricas en cuarzo y feldespatos, alternadas con bandas oscuras, ricas en biotita. No presenta cavidades ni textura vítrea. a) Indica el tipo de roca y su nombre (0,5 puntos). b) Explica qué proceso metamórfico y qué grado aproximado de metamorfismo pueden generar esa estructura bandeada (0,5 puntos).",
+   "solucion": "1. **Identificación por la composición y la textura.** La alternancia de bandas claras ricas en cuarzo y feldespatos con bandas oscuras ricas en biotita, junto con el grano grueso, es característica de un **gneis**. La estructura se denomina bandeado gnéisico o foliación gnéisica.\n2. **Proceso y grado metamórfico.** Puede formarse por **metamorfismo regional o dinamotérmico**, durante el cual la recristalización y la segregación de minerales, asociadas a presión y temperatura elevadas y a deformación, concentran los minerales claros y oscuros en bandas. Corresponde, aproximadamente, a un **grado alto de metamorfismo**. La fusión parcial puede acompañar algunos casos, pero no es necesaria para identificar el gneis descrito.\n3. **Comprobación por contraste.** El bandeado composicional grueso encaja con un gneis; una roca metamórfica con micas orientadas y foliación principalmente planar se describiría más típicamente como esquisto. La ausencia de cavidades o textura vítrea es compatible con una roca cristalina, aunque por sí sola no determina su origen.",
+   "resultado": "Gneis con bandeado gnéisico, generado típicamente por metamorfismo regional de grado alto.",
+   "criterios": "1 punto total: a) 0,5 puntos por identificar correctamente el gneis y relacionarlo con el bandeado mineral descrito; b) 0,5 puntos por explicar que la estructura se genera mediante metamorfismo regional o dinamotérmico y asignar un grado alto. Se acepta una explicación equivalente basada en recristalización y segregación de minerales bajo presión y temperatura elevadas. La fusión parcial no es requisito.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "A8",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Un acuífero recibe una recarga media de 0,28 hm³/año. Para mantener el funcionamiento del ecosistema asociado, deben reservarse 0,08 hm³/año. Actualmente se extraen 0,17 hm³/año. a) Calcula la extracción máxima compatible con la reserva ambiental (0,6 puntos). b) Calcula cuánto podría aumentar o cuánto debería reducirse la extracción actual para ajustarse a ese máximo (0,4 puntos).",
+   "solucion": "La recarga debe cubrir tanto la extracción como la reserva ambiental.\n\n**a) Extracción máxima:**\n$E_{\\max}=0{,}28-0{,}08=0{,}20\\ \\mathrm{hm^3/año}$.\n\n**b) Ajuste respecto a la extracción actual:**\n$\\Delta E=0{,}20-0{,}17=0{,}03\\ \\mathrm{hm^3/año}$.\n\nLa extracción actual está por debajo del máximo, por lo que podría **aumentar** en $0{,}03\\ \\mathrm{hm^3/año}$.",
+   "resultado": "a) Extracción máxima: 0,20 hm³/año. b) Puede aumentar 0,03 hm³/año.",
+   "criterios": "a) 0,6 puntos: plantear que la extracción máxima es la recarga menos la reserva ambiental (0,3) y obtener 0,20 hm³/año con unidades (0,3). b) 0,4 puntos: comparar el máximo con la extracción actual y calcular la diferencia de 0,03 hm³/año (0,3), indicando correctamente que la extracción puede aumentar (0,1).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "B8",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Una planta procesa 20 toneladas de placas electrónicas con una concentración de oro del 0,10 % en masa. El proceso recupera el 75 % del oro contenido. a) Calcula la masa de oro recuperada, expresada en kilogramos (0,7 puntos). b) Explica por qué la recuperación de metales de residuos electrónicos puede reducir la presión sobre los yacimientos primarios (0,3 puntos).",
+   "solucion": "### a) Masa de oro recuperada\n\nConvertimos la masa de placas a kilogramos:\n\n$$20\\ \\text{t}\\times 1000\\ \\frac{\\text{kg}}{\\text{t}}=20\\,000\\ \\text{kg}$$\n\nLa fracción másica de oro es $0,10\\%=0,001$. Por tanto, la masa de oro contenida en las placas es:\n\n$$20\\,000\\ \\text{kg}\\times 0,001=20\\ \\text{kg de oro}$$\n\nSe recupera el $75\\%$ de esa cantidad:\n\n$$20\\ \\text{kg}\\times 0,75=\\boxed{15\\ \\text{kg de oro}}$$\n\n### b) Recuperación de metales de residuos electrónicos\n\nLa recuperación permite obtener oro y otros metales a partir de residuos, reduciendo la necesidad de extraerlos de yacimientos primarios. Así disminuye la presión sobre estos yacimientos y pueden reducirse los impactos asociados a la minería, aunque el reciclaje no sustituye necesariamente por completo la extracción primaria.",
+   "resultado": "a) 15 kg de oro recuperados. b) La recuperación reduce la necesidad de extraer metales de yacimientos primarios y, con ello, la presión sobre estos y sus impactos asociados.",
+   "criterios": "Total: 1,0 punto. a) 0,7 puntos: conversión correcta de 20 t a 20 000 kg (0,1); aplicación de la concentración del 0,10 % para obtener 20 kg de oro contenido (0,3); aplicación del rendimiento de recuperación del 75 % y resultado de 15 kg, con unidades (0,3). b) 0,3 puntos: explicación de que recuperar metales de residuos reduce la necesidad de extraerlos de yacimientos primarios y, por tanto, la presión sobre estos; se acepta mencionar la reducción de impactos mineros asociados.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "A9",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Una explotación procesa 2 500 toneladas de mena de cobre con una ley del 0,8 % en masa. La recuperación metalúrgica es del 90 %. a) Calcula la masa de cobre contenido inicialmente en la mena (0,4 puntos). b) Calcula la masa de cobre que se obtiene tras el proceso (0,4 puntos). c) Indica si el cobre es un recurso renovable a escala humana y justifica brevemente la respuesta (0,2 puntos).",
+   "solucion": "### a) Cobre inicialmente contenido\nLa ley de la mena es $0{,}8\\% = 0{,}008$ en masa. Por tanto:\n$$m_{\\text{Cu, inicial}}=2500\\,\\text{t}\\times 0{,}008=20\\,\\text{t}$$\n\n### b) Cobre obtenido\nLa recuperación metalúrgica es del $90\\% = 0{,}90$:\n$$m_{\\text{Cu, obtenido}}=20\\,\\text{t}\\times 0{,}90=18\\,\\text{t}$$\n\n### c) Renovabilidad\nEl cobre **no es un recurso renovable a escala humana**. Aunque se forma mediante procesos geológicos naturales, estos requieren escalas de tiempo geológicas, muy superiores a las humanas; además, las reservas explotables son finitas.",
+   "resultado": "a) 20 t de cobre inicialmente; b) 18 t de cobre obtenido; c) No es renovable a escala humana.",
+   "criterios": "a) 0,4 puntos: conversión correcta de la ley a 0,008 y cálculo de 20 t de cobre inicial. b) 0,4 puntos: aplicación de la recuperación del 90 % a la masa inicial y obtención de 18 t. c) 0,2 puntos: indicar que no es renovable a escala humana y justificarlo por la lentitud de los procesos geológicos o la finitud de las reservas explotables.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "B9",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una localidad está expuesta a terremotos con probabilidad anual de ocurrencia de 0,02. Las pérdidas económicas estimadas si ocurre un terremoto son de 8 millones de euros en edificios sin reforzar y de 2 millones tras una intervención de refuerzo, que no cambia la probabilidad del evento. a) Explica cuál es la peligrosidad y cuál es la vulnerabilidad en este caso (0,4 puntos). b) Identifica qué elemento del riesgo reduce el refuerzo y qué elemento permanece igual (0,3 puntos). c) Propón una medida concreta distinta del refuerzo estructural que reduzca la exposición de la población y explica cómo lo haría (0,3 puntos).",
+   "solucion": "### a) Peligrosidad y vulnerabilidad\nLa **peligrosidad sísmica** es la posibilidad de que ocurra el terremoto en la localidad; en este caso, la probabilidad anual indicada es $0{,}02$ (2 %). La **vulnerabilidad** expresa las pérdidas que sufrirían los edificios expuestos si ocurre el terremoto: se estiman en 8 millones de euros sin refuerzo y en 2 millones después de reforzarlos.\n\n### b) Elementos del riesgo afectados\nEl refuerzo reduce la **vulnerabilidad**, pues disminuye las pérdidas condicionadas a que ocurra el terremoto. No modifica la **peligrosidad**: la probabilidad anual sigue siendo $0{,}02$. El refuerzo tampoco cambia por sí mismo la exposición de la población o de los edificios.\n\n### c) Medida para reducir la exposición\nUna medida distinta sería establecer una ordenación urbanística que impida nuevas viviendas en las zonas de mayor peligro y reubique gradualmente las existentes. Así disminuiría el número de personas y bienes situados en el área afectable, reduciendo la **exposición** sin cambiar la probabilidad del terremoto.\n\n### Comprobación\nComo comprobación cuantitativa, la pérdida anual esperada simplificada es probabilidad anual por pérdida si ocurre el evento: antes del refuerzo, $0{,}02\\times 8.000.000=160.000$ euros/año; después, $0{,}02\\times 2.000.000=40.000$ euros/año. La reducción es de 120.000 euros/año, es decir, un 75 %. Esto confirma que el refuerzo reduce las pérdidas esperadas, pero no la peligrosidad.",
+   "resultado": "Peligrosidad: 0,02 al año, sin cambios; el refuerzo reduce la vulnerabilidad y la pérdida anual esperada de 160.000 a 40.000 €/año (reducción del 75 %). La ordenación urbanística y reubicación reducen la exposición.",
+   "criterios": "1,0 punto total: a) 0,4 puntos: 0,2 por identificar la peligrosidad como probabilidad de ocurrencia y 0,2 por definir la vulnerabilidad mediante las pérdidas condicionadas al terremoto. b) 0,3 puntos: 0,15 por señalar que el refuerzo reduce la vulnerabilidad y 0,15 por indicar que la peligrosidad permanece igual; también es correcto precisar que el refuerzo no reduce la exposición. c) 0,3 puntos: 0,15 por proponer una medida concreta distinta del refuerzo estructural y 0,15 por explicar que reduce la exposición de personas o bienes. El cálculo de pérdidas esperadas sirve como comprobación y no añade puntuación.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 3,
+ "temas_base": [
+  {
+   "id": "tectonica",
+   "p": 0.9
+  },
+  {
+   "id": "minerales",
+   "p": 0.9
+  },
+  {
+   "id": "procesos",
+   "p": 0.9
+  },
+  {
+   "id": "recursos",
+   "p": 0.679
+  }
+ ],
+ "referencias": [
+  "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/bachillerato/_galerias/descargas/pau-2026/examenes-PAU-junio-2026/examen-geologia-pau-junio-26.pdf",
+  "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/bachillerato/_galerias/descargas/pau-2026/examenes-pau-julio-2026/examen-geologia-pau-julio-26.pdf"
+ ]
+}
