@@ -1,0 +1,150 @@
+{
+ "ccaa": "canarias",
+ "materia": "quimica",
+ "titulo": "Prueba de Acceso a la Universidad (PAU) 2027 — Química — Canarias",
+ "duracion_min": 90,
+ "instrucciones": "La prueba consta de cinco preguntas. La pregunta 1 es obligatoria. En cada una de las preguntas 2, 3, 4 y 5 se elegirá únicamente una de las dos opciones, A o B; no se deben responder las dos opciones de una misma pregunta. Si se responden ambas, solo se corregirá la primera. Cada pregunta contestada se califica sobre un máximo de 2 puntos, para una puntuación total máxima de 10 puntos. Se permite el uso de calculadora no programable. Salvo indicación expresa, se supone comportamiento ideal de los gases y disoluciones acuosas a 25 °C.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "acidobase",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En un invernadero de cultivo hidropónico de Canarias se ajusta el pH de una disolución nutritiva con un acidificante biodegradable que contiene un ácido monoprótico débil, representado por $HA$. Su constante de acidez es $K_a=1.0×10^{-5}$ y el pH medido de la disolución es 3.00. Considere despreciable la autoionización del agua frente a la ionización del ácido. a) Escriba el equilibrio de $HA$ con el agua e indique los dos pares ácido-base conjugados. (0.5 puntos) b) Escriba la reacción de neutralización completa de $HA$ con $KOH$ y justifique si la disolución acuosa de la sal formada será ácida, básica o neutra. (0.5 puntos) c) Calcule la concentración inicial de $HA$ y su grado de disociación. (1.0 punto)",
+   "solucion": "### a) Equilibrio y pares conjugados\n\n$$\\mathrm{HA(aq)+H_2O(l)\\rightleftharpoons H_3O^+(aq)+A^-(aq)}$$\n\nLos pares ácido-base conjugados son $\\mathrm{HA/A^-}$ y $\\mathrm{H_3O^+/H_2O}$.\n\n### b) Neutralización y carácter de la sal\n\n$$\\mathrm{HA(aq)+KOH(aq)\\rightarrow KA(aq)+H_2O(l)}$$\n\nEl ion $\\mathrm{K^+}$ no hidroliza. El anión $\\mathrm{A^-}$, base conjugada de un ácido débil, reacciona con el agua:\n\n$$\\mathrm{A^-+H_2O\\rightleftharpoons HA+OH^-}$$\n\nPor tanto, la disolución de la sal es **básica**.\n\n### c) Concentración inicial y grado de disociación\n\nDel pH medido:\n\n$$[\\mathrm{H_3O^+}]_{eq}=10^{-3.00}=1.00\\times10^{-3}\\;\\mathrm{mol\\,L^{-1}}$$\n\nSea $C_0$ la concentración inicial de $\\mathrm{HA}$ y $x$ la cantidad disociada. Despreciando la autoionización del agua, $x=[\\mathrm{H_3O^+}]_{eq}=[\\mathrm{A^-}]_{eq}=1.00\\times10^{-3}\\;\\mathrm{mol\\,L^{-1}}$, y $[\\mathrm{HA}]_{eq}=C_0-x$. Así,\n\n$$K_a=\\frac{x^2}{C_0-x}\\quad\\Rightarrow\\quad C_0=x+\\frac{x^2}{K_a}=1.00\\times10^{-3}+\\frac{(1.00\\times10^{-3})^2}{1.00\\times10^{-5}}=0.101\\;\\mathrm{mol\\,L^{-1}}$$\n\nEl grado de disociación es:\n\n$$\\alpha=\\frac{x}{C_0}=\\frac{1.00\\times10^{-3}}{0.101}=9.90\\times10^{-3}=0.990\\%$$",
+   "resultado": "C₀(HA) = 0.101 mol·L⁻¹; α = 9.90×10⁻³ (0.990 %).",
+   "criterios": "Total: 2,0 puntos. a) 0,5 puntos: ecuación de equilibrio correcta (0,25) e identificación de los dos pares conjugados (0,25). b) 0,5 puntos: reacción de neutralización completa correctamente ajustada (0,25) y clasificación como básica justificada mediante la hidrólisis de A⁻ (0,25). c) 1,0 punto: obtención de [H₃O⁺] a partir del pH y planteamiento de Ka con la concentración de equilibrio (0,25); cálculo de C₀ (0,45); cálculo del grado de disociación, expresado como fracción o porcentaje (0,30).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2A",
+   "tema": "estructura",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Para interpretar la composición mineral de una muestra, se consideran los átomos neutros $^{24}_{12}Mg$ y $^{35}_{17}Cl$. a) Indique el número de protones, neutrones y electrones de cada átomo. (0.4 puntos) b) Escriba la configuración electrónica de ambos átomos e indique el grupo y el periodo de cada elemento. (0.8 puntos) c) Escriba la configuración electrónica de los iones más estables que forman y razone si esos iones son isolectrónicos. (0.4 puntos) d) Indique el tipo de enlace que se forma entre ambos elementos y formule el compuesto eléctricamente neutro resultante. (0.4 puntos)",
+   "solucion": "### a) Partículas subatómicas\nUsamos $N=A-Z$ para los neutrones. En átomos neutros, el número de electrones es igual al de protones.\n\n- $^{24}_{12}\\mathrm{Mg}$: protones $=12$, neutrones $=24-12=12$, electrones $=12$.\n- $^{35}_{17}\\mathrm{Cl}$: protones $=17$, neutrones $=35-17=18$, electrones $=17$.\n\n### b) Configuración electrónica, grupo y periodo\nComo vía de obtención, primero distribuimos los electrones por capas y después expresamos esa distribución en subniveles:\n\n- Mg: capas $(2,8,2)$; configuración $1s^2\\,2s^2\\,2p^6\\,3s^2$. Tiene dos electrones de valencia: grupo 2 (IIA), periodo 3.\n- Cl: capas $(2,8,7)$; configuración $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^5$. Tiene siete electrones de valencia: grupo 17 (VIIA), periodo 3.\n\n### c) Iones más estables e isoelectronicidad\nEl Mg pierde sus dos electrones de valencia y forma $\\mathrm{Mg^{2+}}$, con configuración $1s^2\\,2s^2\\,2p^6$ (10 electrones). El Cl gana un electrón y forma $\\mathrm{Cl^-}$, con configuración $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^6$ (18 electrones).\n\nNo son isolectrónicos: sus configuraciones y números de electrones son distintos (10 y 18, respectivamente).\n\n### d) Enlace y fórmula\nEntre un metal que forma cationes y un no metal que forma aniones se establece un enlace iónico. La neutralidad requiere $1\\,\\mathrm{Mg^{2+}}$ por cada $2\\,\\mathrm{Cl^-}$, por lo que el compuesto es $\\mathrm{MgCl_2}$.\n\n### Comprobación\nLos átomos neutros tienen tantos electrones como protones; los neutrones obtenidos cumplen $A-Z$. Además, $\\mathrm{Mg^{2+}}$ tiene $12-2=10$ electrones y cada $\\mathrm{Cl^-}$ tiene $17+1=18$. La carga total de la fórmula es $+2+2(-1)=0$.",
+   "resultado": "Mg: 12 p, 12 n y 12 e; Cl: 17 p, 18 n y 17 e. Grupos 2 y 17; ambos en el periodo 3. Iones: Mg²⁺ (10 e) y Cl⁻ (18 e), no isolectrónicos. Enlace iónico; fórmula MgCl₂.",
+   "criterios": "Total: 2,0 puntos. a) 0,4: 0,2 por cada átomo con protones, neutrones y electrones correctos. b) 0,8: 0,2 por cada configuración electrónica neutra correcta y 0,2 por cada elemento con grupo y periodo correctos. c) 0,4: 0,2 por los iones y sus configuraciones; 0,2 por decidir y justificar correctamente que no son isolectrónicos. d) 0,4: 0,2 por identificar el enlace iónico y 0,2 por la fórmula neutra MgCl₂.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2B",
+   "tema": "enlace",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En un laboratorio de control de gases se estudian las moléculas $NH_3$ y $CO_2$. a) Represente sus estructuras de Lewis y prediga la geometría de cada molécula mediante el modelo de repulsión de pares electrónicos. (1.0 punto) b) Justifique si cada molécula es polar o apolar. (0.6 puntos) c) Indique cuál de las dos sustancias puede formar puentes de hidrógeno entre sus moléculas puras y justifique la respuesta. (0.4 puntos)",
+   "solucion": "### a) Estructuras de Lewis y geometría\n\n- **$NH_3$**: el nitrógeno central forma tres enlaces sencillos $N-H$ y conserva un par de electrones no enlazante. La estructura tiene tres pares enlazantes y un par libre alrededor del N:\n\n  ```text\n     ..\n  H–N–H\n     |\n     H\n  ```\n\n  Hay cuatro regiones de densidad electrónica; su distribución electrónica es tetraédrica. Al considerar solo los átomos, la geometría molecular es **trigonal piramidal** ($AX_3E$), con ángulos $H-N-H$ próximos a $107°$.\n\n- **$CO_2$**: su estructura de Lewis es $O=C=O$, con dos pares libres en cada oxígeno y sin pares libres en el carbono. Los dos enlaces dobles cuentan como dos regiones electrónicas alrededor del C; la geometría molecular es **lineal** ($AX_2$), con ángulo $O-C-O=180°$.\n\n### b) Polaridad\n\nEn $NH_3$, los enlaces $N-H$ son polares y, por la geometría piramidal, sus momentos dipolares no se anulan: la molécula es **polar**.\n\nEn $CO_2$, cada enlace $C=O$ es polar, pero la molécula es lineal y simétrica; los dos momentos dipolares tienen igual módulo y sentidos opuestos, por lo que se anulan. $CO_2$ es **apolar**.\n\n**Comprobación alternativa por simetría:** la simetría lineal de $CO_2$ exige la cancelación de los dipolos de enlace; la geometría piramidal de $NH_3$ no presenta esa cancelación.\n\n### c) Puentes de hidrógeno\n\nEl $NH_3$ puede formar puentes de hidrógeno entre sus moléculas: sus hidrógenos están enlazados a N y el nitrógeno dispone de un par libre. El $CO_2$ no puede formar puentes de hidrógeno entre moléculas puras, porque no contiene hidrógenos enlazados a N, O o F que actúen como donantes.\n\n**Comprobación final:** los ángulos y la polaridad concuerdan con las geometrías: $NH_3$ piramidal y polar; $CO_2$ lineal y apolar.",
+   "resultado": "$NH_3$: trigonal piramidal, polar y forma puentes de hidrógeno. $CO_2$: lineal, apolar y no forma puentes de hidrógeno entre moléculas puras.",
+   "criterios": "Total: 2,0 puntos. a) 1,0 punto: estructuras de Lewis correctas (0,25 por molécula) y geometrías justificadas mediante regiones electrónicas/RPECV (0,25 por molécula; se aceptan ángulos aproximados correctos). b) 0,6 puntos: 0,3 por molécula, incluyendo la conclusión de polaridad y su justificación mediante los momentos dipolares y la geometría. c) 0,4 puntos: 0,2 por indicar correctamente que $NH_3$ forma puentes de hidrógeno y justificarlo; 0,2 por indicar que $CO_2$ no los forma entre moléculas puras y justificarlo.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3A",
+   "tema": "organica",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Un laboratorio de aromas prepara y analiza compuestos orgánicos para productos de limpieza. a) Formule y escriba la reacción de esterificación que permite obtener butanoato de propilo a partir del ácido y el alcohol adecuados; nombre ambos reactivos. (0.6 puntos) b) Escriba el producto orgánico de la oxidación de $3$-metilbutan-$2$-ol con un oxidante adecuado y nómbrelo. (0.5 puntos) c) Indique si el hex-$2$-eno presenta isomería geométrica y, si la presenta, escriba los dos descriptores correspondientes. Justifique la respuesta. (0.5 puntos) d) Nombre $CH_3COOCH_2CH_3$. (0.4 puntos)",
+   "solucion": "### a) Formación de butanoato de propilo\nIdentificamos el éster como $R{-}COO{-}R'$. La parte acilo $CH_3CH_2CH_2COO{-}$ procede del ácido butanoico y la parte $ {-}OCH_2CH_2CH_3$ del propan-1-ol. La esterificación es:\n\n$CH_3CH_2CH_2COOH + CH_3CH_2CH_2OH \\rightleftharpoons CH_3CH_2CH_2COOCH_2CH_2CH_3 + H_2O$\n\nReactivos: **ácido butanoico** y **propan-1-ol**. La reacción suele realizarse con catálisis ácida y calentamiento.\n\n### b) Oxidación de 3-metilbutan-2-ol\nEl grupo $ {-}CHOH{-}$ está en un carbono secundario; su oxidación produce un grupo carbonilo cetónico, sin cambiar el esqueleto carbonado:\n\n$CH_3CH(OH)CH(CH_3)CH_3 + [O] \\rightarrow CH_3COCH(CH_3)CH_3 + H_2O$\n\nEl producto orgánico es **3-metilbutan-2-ona**.\n\n### c) Isomería geométrica del hex-2-eno\nSu estructura es $CH_3CH=CHCH_2CH_2CH_3$. Cada carbono del doble enlace tiene dos sustituyentes distintos: $H$ y un grupo carbonado. Por tanto, presenta isomería geométrica. Aplicando las prioridades CIP, en ambos carbonos el grupo carbonado tiene prioridad sobre $H$:\n\n- Prioridades del mismo lado: **(Z)-hex-2-eno**.\n- Prioridades en lados opuestos: **(E)-hex-2-eno**.\n\n### d) Nombre de $CH_3COOCH_2CH_3$\nEs un éster formado por el anión etanoato y el grupo etilo: **etanoato de etilo** (nombre común: acetato de etilo).\n\n### Comprobación\nEn a), los reactivos y productos conservan $7$ átomos de carbono y la esterificación elimina los elementos de una molécula de agua. En b), la oxidación de un alcohol secundario a cetona conserva los cinco carbonos y se representa con la pérdida de dos hidrógenos del sustrato, que forman agua con el oxígeno del oxidante.",
+   "resultado": "Ácido butanoico + propan-1-ol → butanoato de propilo + agua; 3-metilbutan-2-ol → 3-metilbutan-2-ona; (Z)- y (E)-hex-2-eno; etanoato de etilo.",
+   "criterios": "a) 0,60 puntos: 0,15 por identificar el ácido butanoico, 0,15 por identificar el propan-1-ol y 0,30 por escribir correctamente la reacción de esterificación, con productos y fórmula del éster correctos. b) 0,50 puntos: 0,30 por la fórmula estructural correcta del producto de oxidación y 0,20 por nombrarlo 3-metilbutan-2-ona. c) 0,50 puntos: 0,20 por indicar y justificar la isomería geométrica, y 0,15 por cada descriptor correcto, (E) y (Z). d) 0,40 puntos por el nombre etanoato de etilo. Total: 2,00 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3B",
+   "tema": "organica",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En un ensayo sobre transformaciones de alcoholes se utiliza $4$-metilhexan-$2$-ol, de fórmula semidesarrollada $CH_3CH(OH)CH_2CH(CH_3)CH_2CH_3$. a) Señale todos sus carbonos asimétricos y justifique la respuesta. (0.5 puntos) b) Escriba la ecuación de su oxidación con un oxidante adecuado y nombre el producto orgánico. (0.5 puntos) c) Escriba la ecuación de deshidratación si se forma el doble enlace entre los carbonos 2 y 3, y nombre el alqueno obtenido. (0.5 puntos) d) Formule la N-metilpropanamida y nombre $CH_3CH_2CH_2CHO$. (0.5 puntos)",
+   "solucion": "**a)** Numerando la cadena principal desde el extremo más próximo al grupo hidroxilo, los carbonos asimétricos son C2 y C4. C2 está unido a H, OH, CH₃ y al resto de la cadena; son cuatro grupos distintos. C4 está unido a H, a un grupo metilo, a un grupo etilo y a la cadena que contiene C3; también son cuatro grupos distintos. Los demás carbonos no tienen cuatro sustituyentes diferentes. **b)** Se puede oxidar con dicromato de potasio en medio ácido. La ecuación molecular ajustada es: $3CH_3CH(OH)CH_2CH(CH_3)CH_2CH_3 + K_2Cr_2O_7 + 4H_2SO_4 → 3CH_3COCH_2CH(CH_3)CH_2CH_3 + Cr_2(SO_4)_3 + K_2SO_4 + 7H_2O$. El producto orgánico es **4-metilhexan-2-ona**, una cetona. **c)** En la deshidratación con ácido y calor, eliminando OH de C2 y H de C3, se obtiene: $CH_3CH(OH)CH_2CH(CH_3)CH_2CH_3 → CH_3CH=CHCH(CH_3)CH_2CH_3 + H_2O$. El alqueno es **4-metilhex-2-eno**; puede presentar isomería E/Z, que no se puede especificar con los datos proporcionados. **d)** La N-metilpropanamida es $CH_3CH_2C(=O)NHCH_3$. $CH_3CH_2CH_2CHO$ se nombra **butanal**.",
+   "resultado": "Carbonos asimétricos: C2 y C4; oxidación: 4-metilhexan-2-ona; deshidratación: 4-metilhex-2-eno; N-metilpropanamida: CH₃CH₂C(=O)NHCH₃; CH₃CH₂CH₂CHO: butanal.",
+   "criterios": "Total: 2 puntos. a) 0,25 por señalar C2 y C4; 0,25 por justificar en cada caso los cuatro sustituyentes distintos. b) 0,25 por la ecuación de oxidación correctamente formulada y ajustada, con un oxidante adecuado; 0,25 por identificar 4-metilhexan-2-ona. c) 0,25 por formular la deshidratación con el doble enlace entre C2 y C3 y agua como producto; 0,25 por nombrar 4-metilhex-2-eno. d) 0,25 por formular correctamente la N-metilpropanamida; 0,25 por nombrar butanal.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4A",
+   "tema": "equilibrio",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "El equilibrio entre el tetróxido de dinitrógeno y el dióxido de nitrógeno permite explicar cambios de color en una mezcla gaseosa al variar las condiciones. En un recipiente de $2.00\\ L$ se introducen $0.400\\ mol$ de $N_2O_4(g)$ y se mantiene el sistema a $300\\ K$. En el equilibrio, el $N_2O_4$ se ha disociado un 50.0% según $N_2O_4(g) ⇌ 2NO_2(g)$. a) Calcule los moles de cada gas en el equilibrio. (0.5 puntos) b) Calcule $K_c$. (0.5 puntos) c) Calcule $K_p$, usando $R=0.0820\\ L·atm·mol^{-1}·K^{-1}$. (0.5 puntos) d) Razone hacia qué sentido se desplazará el equilibrio si se comprime el recipiente a temperatura constante. (0.5 puntos)",
+   "solucion": "### a) Moles en el equilibrio\nEl grado de disociación es $\\alpha=0.500$. La cantidad de $N_2O_4$ disociada es $0.400\\cdot0.500=0.200\\ \\mathrm{mol}$. Por la estequiometría $N_2O_4\\rightleftharpoons 2NO_2$:\n\n- $n_{N_2O_4,eq}=0.400-0.200=\\boxed{0.200\\ \\mathrm{mol}}$.\n- $n_{NO_2,eq}=2\\cdot0.200=\\boxed{0.400\\ \\mathrm{mol}}$.\n\n### b) Cálculo de $K_c$\nEn un volumen de $2.00\\ \\mathrm{L}$:\n\n$$[N_2O_4]=\\frac{0.200}{2.00}=0.100\\ \\mathrm{mol\\,L^{-1}},\\qquad [NO_2]=\\frac{0.400}{2.00}=0.200\\ \\mathrm{mol\\,L^{-1}}.$$\n\nPara la reacción escrita, $K_c=\\dfrac{[NO_2]^2}{[N_2O_4]}$, por tanto:\n\n$$K_c=\\frac{(0.200)^2}{0.100}=\\boxed{0.400\\ \\mathrm{mol\\,L^{-1}}}.$$\n\n### c) Cálculo de $K_p$\nComo $\\Delta n_g=2-1=1$, se cumple $K_p=K_c(RT)^{\\Delta n_g}$:\n\n$$K_p=0.400\\,(0.0820\\cdot300)^1=\\boxed{9.84\\ \\mathrm{atm}}.$$\n\n### d) Efecto de comprimir el recipiente\nA temperatura constante, la compresión aumenta las presiones parciales. Como $Q_p=\\dfrac{p_{NO_2}^2}{p_{N_2O_4}}$ tiene un exponente neto $\\Delta n_g=1$, al aumentar las presiones $Q_p$ aumenta y queda por encima de $K_p$. El sistema evoluciona hacia la izquierda para reducirlo: el equilibrio se desplaza hacia la formación de $N_2O_4$, el lado con menos moles gaseosos.",
+   "resultado": "$n_{N_2O_4}=0.200\\ \\mathrm{mol}$; $n_{NO_2}=0.400\\ \\mathrm{mol}$; $K_c=0.400\\ \\mathrm{mol\\,L^{-1}}$; $K_p=9.84\\ \\mathrm{atm}$; al comprimir, el equilibrio se desplaza hacia $N_2O_4$.",
+   "criterios": "a) 0,5 puntos: 0,25 por calcular que se disocian 0,200 mol y obtener los 0,200 mol de N₂O₄ restantes; 0,25 por aplicar la estequiometría y obtener 0,400 mol de NO₂. b) 0,5 puntos: 0,25 por calcular correctamente las concentraciones de equilibrio y plantear la expresión de Kc; 0,25 por obtener Kc = 0,400 mol·L⁻¹. c) 0,5 puntos: 0,25 por usar Δn_g = 1 y la relación Kp = Kc(RT)^Δn_g; 0,25 por obtener Kp = 9,84 atm. d) 0,5 puntos: 0,25 por identificar que la compresión favorece el lado con menos moles gaseosos; 0,25 por indicar y justificar que el desplazamiento es hacia N₂O₄.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4B",
+   "tema": "termo",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En un horno para la obtención de cal se produce la descomposición del carbonato de calcio: $CaCO_3(s) → CaO(s) + CO_2(g)$. Para la reacción tal como está escrita, considere $ΔH°=+178\\ kJ·mol^{-1}$ y $ΔS°=+160\\ J·mol^{-1}·K^{-1}$, constantes en el intervalo considerado. a) Calcule $ΔG°$ a $1000\\ K$ e indique si la reacción es espontánea en esas condiciones. (0.75 puntos) b) Determine la temperatura a la que $ΔG°=0$ e indique a qué lado de esa temperatura será espontánea la reacción. (0.5 puntos) c) Calcule el calor intercambiado a presión constante cuando se descomponen completamente $2.50\\ mol$ de $CaCO_3$. (0.75 puntos)",
+   "solucion": "### a) Energía libre de Gibbs a $1000\\ \\mathrm{K}$\n\nSe aplica $\\Delta G^\\circ=\\Delta H^\\circ-T\\Delta S^\\circ$. Convertimos la entropía a las mismas unidades que la entalpía: $160\\ \\mathrm{J\\,mol^{-1}\\,K^{-1}}=0{,}160\\ \\mathrm{kJ\\,mol^{-1}\\,K^{-1}}$.\n\n$$\\Delta G^\\circ(1000\\ \\mathrm{K})=178-1000(0{,}160)=+18\\ \\mathrm{kJ\\,mol^{-1}}$$\n\nComo $\\Delta G^\\circ>0$, la reacción no es espontánea en condiciones estándar a $1000\\ \\mathrm{K}$.\n\n### b) Temperatura para la que $\\Delta G^\\circ=0$\n\n$$0=\\Delta H^\\circ-T\\Delta S^\\circ\\quad\\Rightarrow\\quad T=\\frac{\\Delta H^\\circ}{\\Delta S^\\circ}=\\frac{178}{0{,}160}=1112{,}5\\ \\mathrm{K}$$\n\nAl ser $\\Delta S^\\circ>0$, $\\Delta G^\\circ$ disminuye al aumentar la temperatura. Por tanto, la reacción es espontánea para $T>1112{,}5\\ \\mathrm{K}$; para temperaturas inferiores no lo es, y en esa temperatura está en el límite de espontaneidad ($\\Delta G^\\circ=0$).\n\n### c) Calor intercambiado a presión constante\n\nA presión constante, el calor intercambiado es $q_p=\\Delta H$. La descomposición de un mol absorbe $178\\ \\mathrm{kJ}$; para $2{,}50\\ \\mathrm{mol}$:\n\n$$q_p=n\\Delta H^\\circ=(2{,}50)(178)=+445\\ \\mathrm{kJ}$$\n\nSe absorben $445\\ \\mathrm{kJ}$ de calor.",
+   "resultado": "a) $\\Delta G^\\circ=+18\\ \\mathrm{kJ\\,mol^{-1}}$; no espontánea. b) $T=1112{,}5\\ \\mathrm{K}$; espontánea por encima de esa temperatura. c) $q_p=+445\\ \\mathrm{kJ}$ absorbidos.",
+   "criterios": "Total: 2,00 puntos. a) (0,75): 0,25 por aplicar correctamente $\\Delta G^\\circ=\\Delta H^\\circ-T\\Delta S^\\circ$ y convertir unidades; 0,25 por obtener $+18\\ \\mathrm{kJ\\,mol^{-1}}$; 0,25 por concluir que no es espontánea. b) (0,50): 0,25 por plantear y calcular $T=\\Delta H^\\circ/\\Delta S^\\circ=1112{,}5\\ \\mathrm{K}$; 0,25 por indicar que es espontánea por encima de esa temperatura. c) (0,75): 0,25 por relacionar $q_p$ con $\\Delta H$; 0,25 por escalar a $2{,}50\\ \\mathrm{mol}$ y obtener $445\\ \\mathrm{kJ}$; 0,25 por indicar el signo positivo y que el calor se absorbe.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5A",
+   "tema": "redox",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Un sensor autónomo de calidad del agua utiliza una pila galvánica de zinc y cobre, con disoluciones de $Zn^{2+}$ y $Cu^{2+}$ en condiciones estándar a $25\\ °C$. Se dan los potenciales estándar de reducción: $E°(Cu^{2+}/Cu)=+0.34\\ V$ y $E°(Zn^{2+}/Zn)=-0.76\\ V$. a) Escriba las semirreacciones de oxidación y reducción, e identifique el agente oxidante y el agente reductor. (0.5 puntos) b) Escriba la reacción global espontánea y la notación convencional de la pila. (0.5 puntos) c) Calcule la fuerza electromotriz estándar y el cambio de energía libre estándar por mol de reacción, usando $F=96485\\ C·mol^{-1}$. (0.5 puntos) d) Calcule la masa de zinc consumida cuando se transfieren $0.200\\ mol$ de electrones. Use $M(Zn)=65.4\\ g·mol^{-1}$. (0.5 puntos)",
+   "solucion": "### a) Semirreacciones y agentes\n\nEl zinc se oxida y el ion cobre(II) se reduce:\n\n- Oxidación (ánodo): $\\mathrm{Zn(s)\\rightarrow Zn^{2+}(aq)+2e^-}$.\n- Reducción (cátodo): $\\mathrm{Cu^{2+}(aq)+2e^-\\rightarrow Cu(s)}$.\n\nEl agente oxidante es $\\mathrm{Cu^{2+}}$, que se reduce; el agente reductor es $\\mathrm{Zn(s)}$, que se oxida.\n\n### b) Reacción global y notación\n\nAl sumar las semirreacciones se cancelan los dos electrones:\n\n$$\\mathrm{Zn(s)+Cu^{2+}(aq)\\rightarrow Zn^{2+}(aq)+Cu(s)}$$\n\nLa notación convencional, con el ánodo a la izquierda, es:\n\n$$\\mathrm{Zn(s)\\,|\\,Zn^{2+}(aq,1\\,M)\\,||\\,Cu^{2+}(aq,1\\,M)\\,|\\,Cu(s)}$$\n\n### c) Fuerza electromotriz y energía libre\n\nCalculamos la fem sumando el potencial de reducción del cátodo y el potencial de oxidación del ánodo (el opuesto al potencial de reducción del zinc):\n\n$$E^\\circ_{\\mathrm{pila}}=0.34+0.76=1.10\\ \\mathrm{V}$$\n\nSe transfieren $n=2$ moles de electrones por mol de reacción tal como está escrita. Por tanto:\n\n$$\\Delta_rG^\\circ=-nFE^\\circ_{\\mathrm{pila}}=-(2)(96485)(1.10)=-212267\\ \\mathrm{J\\,mol^{-1}}=-212.267\\ \\mathrm{kJ\\,mol^{-1}}$$\n\nEl signo negativo concuerda con que la reacción es espontánea en condiciones estándar.\n\n### d) Masa de zinc consumida\n\nDe la semirreacción de oxidación, $1\\ \\mathrm{mol}$ de zinc libera $2\\ \\mathrm{mol}$ de electrones. Así:\n\n$$n(\\mathrm{Zn})=\\frac{0.200}{2}=0.100\\ \\mathrm{mol}$$\n\n$$m(\\mathrm{Zn})=nM=(0.100)(65.4)=6.54\\ \\mathrm{g}$$\n\n### Comprobación\n\nLa reacción global conserva los átomos y la carga; los $0.200\\ \\mathrm{mol}$ de electrones corresponden a $0.100\\ \\mathrm{mol}$ de zinc. Además, $E^\\circ_{\\mathrm{pila}}>0$ y $\\Delta_rG^\\circ<0$, como corresponde a una pila espontánea.",
+   "resultado": "E°pila = 1.10 V; ΔrG° = −212.267 kJ·mol⁻¹; masa de Zn consumida = 6.54 g.",
+   "criterios": "Puntuación total: 2,0 puntos. a) 0,25 por cada semirreacción correctamente escrita y ajustada; 0,25 por identificar correctamente agente oxidante (Cu²⁺) y reductor (Zn). b) 0,25 por la reacción global ajustada; 0,25 por la notación convencional correcta, con ánodo a la izquierda y puente salino indicado. c) 0,25 por obtener E°pila = 1,10 V; 0,25 por usar n = 2 y ΔrG° = −nFE°, con signo y unidades correctos. d) 0,25 por relacionar 2 mol de electrones con 1 mol de Zn; 0,25 por calcular 6,54 g. Se aceptan redondeos razonables y métodos equivalentes correctamente justificados.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "5B",
+   "tema": "acidobase",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Para corregir la acidez de una disolución nutritiva se dispone de $HCl$ y $KOH$, ambos electrolitos fuertes. a) Calcule el pH de sus disoluciones $0.0200\\ M$. (0.5 puntos) b) Se mezclan $50.0\\ mL$ de $HCl$ $0.0200\\ M$ con $30.0\\ mL$ de $KOH$ $0.0200\\ M$. Calcule el pH de la mezcla. (1.0 punto) c) Calcule el volumen adicional de $KOH$ $0.0200\\ M$ que debe añadirse a la mezcla para alcanzar el punto de equivalencia. (0.5 puntos)",
+   "solucion": "### a) pH de las disoluciones\n\nAl ser electrolitos fuertes, se consideran totalmente disociados. Para el $\\mathrm{HCl}$, $[\\mathrm{H_3O^+}]=0.0200\\ \\mathrm{M}$, por lo que\n\n$$\\mathrm{pH}=-\\log(0.0200)=1.70.$$\n\nPara el $\\mathrm{KOH}$, $[\\mathrm{OH^-}]=0.0200\\ \\mathrm{M}$:\n\n$$\\mathrm{pOH}=-\\log(0.0200)=1.699; \\qquad \\mathrm{pH}=14.00-1.699=12.30.$$\n\nSe toma $\\mathrm{p}K_w=14.00$ (a $25\\ ^\\circ\\mathrm{C}$).\n\n### b) pH de la mezcla\n\nLa reacción de neutralización es $\\mathrm{H_3O^+ + OH^- \\rightarrow 2H_2O}$. Las cantidades iniciales son\n\n$$n(\\mathrm{H_3O^+})=0.0200\\cdot0.0500=1.00\\times10^{-3}\\ \\mathrm{mol},$$\n$$n(\\mathrm{OH^-})=0.0200\\cdot0.0300=6.00\\times10^{-4}\\ \\mathrm{mol}.$$\n\nQueda un exceso de ácido de $4.00\\times10^{-4}\\ \\mathrm{mol}$. El volumen total es $0.0800\\ \\mathrm{L}$, así que\n\n$$[\\mathrm{H_3O^+}]=\\frac{4.00\\times10^{-4}}{0.0800}=5.00\\times10^{-3}\\ \\mathrm{M},$$\n$$\\mathrm{pH}=-\\log(5.00\\times10^{-3})=2.30.$$\n\n### c) Volumen adicional hasta la equivalencia\n\nSe necesitan $4.00\\times10^{-4}\\ \\mathrm{mol}$ de $\\mathrm{OH^-}$ para neutralizar el exceso de ácido. Por tanto,\n\n$$V(\\mathrm{KOH})=\\frac{4.00\\times10^{-4}}{0.0200}=0.0200\\ \\mathrm{L}=20.0\\ \\mathrm{mL}.$$\n\n",
+   "resultado": "pH(HCl) = 1,70; pH(KOH) = 12,30; pH de la mezcla = 2,30; volumen adicional de KOH = 20,0 mL.",
+   "criterios": "2,0 puntos en total: a) 0,25 puntos por el pH del HCl y 0,25 por el pH del KOH, con uso correcto de pH/pOH y pKw = 14,00; b) 0,35 por calcular las cantidades iniciales de ácido y base, 0,25 por identificar el exceso de ácido, 0,20 por obtener su concentración tras considerar el volumen total y 0,20 por calcular el pH; c) 0,25 por determinar la cantidad de KOH necesaria para neutralizar el exceso y 0,25 por convertirla en el volumen adicional correcto.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "acidobase",
+   "p": 0.9
+  },
+  {
+   "id": "organica",
+   "p": 0.9
+  },
+  {
+   "id": "redox",
+   "p": 0.834
+  },
+  {
+   "id": "equilibrio",
+   "p": 0.789
+  },
+  {
+   "id": "enlace",
+   "p": 0.711
+  },
+  {
+   "id": "termo",
+   "p": 0.63
+  }
+ ],
+ "referencias": [
+  "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/bachillerato/_galerias/descargas/pau-2026/examenes-PAU-junio-2026/examen-quimica-pau-junio-26.pdf",
+  "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/bachillerato/_galerias/descargas/pau-2026/examenes-pau-julio-2026/examen-quimica-pau-julio-26.pdf"
+ ]
+}
