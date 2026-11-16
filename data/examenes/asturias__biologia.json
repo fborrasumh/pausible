@@ -1,0 +1,137 @@
+{
+ "ccaa": "asturias",
+ "materia": "biologia",
+ "titulo": "PAU 2027 — Biología — Principado de Asturias",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro bloques. En cada bloque debe responderse a una sola de las dos preguntas propuestas: 1 o 2, 3 o 4, 5 o 6 y 7 o 8. Cada pregunta vale 2,5 puntos; la puntuación máxima es de 10 puntos. En los cálculos, indique el planteamiento y las unidades. Suponga condiciones ideales cuando así se especifique.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "biomoleculas",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Bloque I (elija esta pregunta o la 2). En un análisis de un producto lácteo se identifica un disacárido formado por una unidad de galactosa y otra de glucosa, unidas mediante un enlace β(1→4). Identifique el disacárido y señale qué dos monosacáridos se obtendrían al hidrolizarlo.",
+   "solucion": "1. El enlace β(1→4) indica que la galactosa se une, mediante su carbono anomérico 1 en configuración β, al carbono 4 de la glucosa.\n2. El disacárido formado por galactosa y glucosa con ese enlace es la **lactosa**.\n3. Al hidrolizarse el enlace glucosídico, se obtienen **una molécula de galactosa y una molécula de glucosa**.",
+   "resultado": "El disacárido es la lactosa; su hidrólisis produce galactosa y glucosa.",
+   "criterios": "Puntuación total: 2,5 puntos. Identificación correcta de la lactosa: 1,0 punto. Indicación de los dos monosacáridos liberados por hidrólisis (galactosa y glucosa): 1,0 punto. Reconocimiento de que el enlace β(1→4) corresponde a la unión descrita entre ambas unidades: 0,5 puntos. No se otorgará la puntuación de la hidrólisis si se indican monosacáridos incorrectos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "celula",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Bloque I (elija esta pregunta o la 1). En células acinares del páncreas se sigue una enzima digestiva recién sintetizada destinada a ser secretada. Indique, en el orden correcto, los orgánulos por los que pasa desde su síntesis hasta su liberación al exterior, e indique el mecanismo por el que la célula la libera.",
+   "solucion": "La enzima se sintetiza en ribosomas unidos al retículo endoplasmático rugoso (RER). Durante la síntesis entra en el lumen del RER, donde comienza su procesamiento y plegamiento. Después se transporta en vesículas hacia el aparato de Golgi, por el que pasa desde la cara cis hacia la cara trans, donde se modifica, clasifica y empaqueta. A continuación queda almacenada en gránulos o vesículas de secreción (gránulos de zimógeno) que se desplazan hasta la membrana plasmática. La liberación ocurre por **exocitosis**: la membrana del gránulo se fusiona con la membrana plasmática y su contenido se vierte al exterior. En las células acinares, esta secreción es regulada y puede activarse por señales que elevan el Ca²⁺ citosólico.",
+   "resultado": "Ribosomas del RER → RER → vesículas de transporte → aparato de Golgi → gránulos de secreción → membrana plasmática; liberación por exocitosis.",
+   "criterios": "Total: 2,5 puntos. Síntesis en ribosomas asociados al RER y entrada en el RER: 0,5 puntos. Transporte vesicular y paso ordenado por el aparato de Golgi: 0,75 puntos. Formación o desplazamiento de gránulos de secreción hasta la membrana plasmática: 0,5 puntos. Identificación de la exocitosis y explicación de la fusión de membranas con liberación del contenido al exterior: 0,75 puntos. Se aceptará una descripción equivalente que mantenga el orden correcto.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "metabolismo",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Bloque II (elija esta pregunta o la 4). En una fermentación alcohólica ideal se consumen completamente $18,0\\,\\mathrm{g}$ de glucosa según la reacción $\\mathrm{C_6H_{12}O_6 \\rightarrow 2\\,C_2H_5OH + 2\\,CO_2}$. Calcule la masa de etanol y la masa de dióxido de carbono producidas. Use las masas molares: glucosa $180\\,\\mathrm{g\\,mol^{-1}}$, etanol $46\\,\\mathrm{g\\,mol^{-1}}$ y dióxido de carbono $44\\,\\mathrm{g\\,mol^{-1}}$.",
+   "solucion": "### Desarrollo\n\nLa ecuación ajustada indica que $1$ mol de glucosa produce $2$ mol de etanol y $2$ mol de dióxido de carbono:\n\n$$\\mathrm{C_6H_{12}O_6 \\rightarrow 2\\,C_2H_5OH + 2\\,CO_2}$$\n\n1. Calculamos los moles de glucosa consumidos:\n\n$$n(\\text{glucosa})=\\frac{18,0\\,\\mathrm{g}}{180\\,\\mathrm{g\\,mol^{-1}}}=0,100\\,\\mathrm{mol}$$\n\n2. Aplicamos las proporciones estequiométricas. Se producen $2\\times 0,100=0,200\\,\\mathrm{mol}$ de cada producto.\n\n3. Calculamos las masas producidas:\n\n$$m(\\text{etanol})=0,200\\,\\mathrm{mol}\\times46\\,\\mathrm{g\\,mol^{-1}}=9,2\\,\\mathrm{g}$$\n\n$$m(\\mathrm{CO_2})=0,200\\,\\mathrm{mol}\\times44\\,\\mathrm{g\\,mol^{-1}}=8,8\\,\\mathrm{g}$$\n\nComprobación: $9,2+8,8=18,0\\,\\mathrm{g}$, de acuerdo con la conservación de la masa en la reacción ideal.",
+   "resultado": "Se producen 9,2 g de etanol y 8,8 g de dióxido de carbono.",
+   "criterios": "Total: 2,5 puntos. Conversión de la masa de glucosa a cantidad de sustancia: 0,5 puntos. Aplicación correcta de las proporciones estequiométricas de la ecuación (2 mol de cada producto por 1 mol de glucosa): 0,5 puntos. Cálculo de la masa de etanol, con unidades: 0,75 puntos. Cálculo de la masa de CO₂, con unidades: 0,75 puntos. Se aceptan resultados equivalentes con redondeo adecuado.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "division",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Bloque II (elija esta pregunta o la 3). Una célula de una raíz de cebolla tiene $2n=16$ cromosomas. En una célula que se encuentra en metafase mitótica, indique cuántos cromosomas y cuántas cromátidas hay. Indique también cuántos cromosomas quedan en cada polo al finalizar la anafase.",
+   "solucion": "### Desarrollo\n1. La dotación diploide de la célula es $2n=16$, por lo que tiene 16 cromosomas.\n2. En metafase mitótica, cada cromosoma está duplicado y consta de dos cromátidas hermanas unidas por el centrómero. Por tanto, hay $16$ cromosomas y $16\\times 2=32$ cromátidas.\n3. En anafase se separan las cromátidas hermanas. Al separarse, cada cromátida pasa a considerarse un cromosoma independiente. Las 32 cromátidas se distribuyen en dos grupos iguales, uno hacia cada polo: $32/2=16$ cromosomas por polo.\n\n**Comprobación por centrómeros:** en metafase hay 16 centrómeros, uno por cromosoma duplicado. Al comenzar la anafase, los centrómeros se dividen y quedan 32 cromosomas en total, que se reparten en dos grupos de 16. Así se confirma el recuento.",
+   "resultado": "Metafase: 16 cromosomas y 32 cromátidas. Final de la anafase: 16 cromosomas en cada polo.",
+   "criterios": "Total: 2,5 puntos. 0,75 puntos por indicar que hay 16 cromosomas en metafase; 0,75 puntos por calcular que hay 32 cromátidas; 1 punto por explicar la separación de las cromátidas y concluir que llegan 16 cromosomas a cada polo. Se aceptará cualquier razonamiento equivalente que distinga correctamente cromosomas y cromátidas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "genetica",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Bloque III (elija esta pregunta o la 6). En una planta, los alelos $A$ y $B$ determinan dos características dominantes frente a $a$ y $b$. Los genes se heredan independientemente y hay dominancia completa. Se cruzan dos plantas $AaBb$. Calcule la probabilidad de obtener una planta con ambos caracteres recesivos y el número esperado de plantas con ese fenotipo entre $320$ descendientes.",
+   "solucion": "1. En el locus $A$, el cruce $Aa\\times Aa$ da $P(aa)=\\frac{1}{4}$. Análogamente, en el locus $B$, $Bb\\times Bb$ da $P(bb)=\\frac{1}{4}$.\n\n2. Como los genes se heredan independientemente, la probabilidad de que la descendencia sea recesiva para ambos caracteres es:\n\\[\nP(aabb)=P(aa)\\,P(bb)=\\frac{1}{4}\\cdot\\frac{1}{4}=\\frac{1}{16}=0{,}0625=6{,}25\\%.\n\\]\n\n3. El número esperado entre 320 descendientes es:\n\\[\n320\\cdot\\frac{1}{16}=20.\n\\]\nPor tanto, se esperan 20 plantas con ambos caracteres recesivos.",
+   "resultado": "Probabilidad de aabb: 1/16 = 0,0625 (6,25 %); número esperado: 20 plantas.",
+   "criterios": "Total: 2,5 puntos. 0,5 puntos por identificar P(aa)=1/4 en el locus A; 0,5 por identificar P(bb)=1/4 en el locus B; 0,5 por aplicar la herencia independiente y obtener P(aabb)=1/16 (0,0625 o 6,25 %); 0,5 por plantear el número esperado como 320·P(aabb); 0,5 por calcular y expresar correctamente el resultado: 20 plantas.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "6",
+   "tema": "molecular",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Bloque III (elija esta pregunta o la 5). En una reacción de PCR ideal se parte de $120$ moléculas de ADN que contienen la secuencia diana. Si en cada ciclo se duplica exactamente el número de moléculas y no hay pérdidas, calcule cuántas moléculas que contienen la secuencia diana habrá después de $7$ ciclos.",
+   "solucion": "En cada ciclo, el número de moléculas se duplica. Por tanto, tras $n$ ciclos: $N_n=N_0\\cdot 2^n$. Sustituyendo los datos del enunciado: $N_7=120\\cdot 2^7=120\\cdot 128=15360$. Después de 7 ciclos habrá $15360$ moléculas que contienen la secuencia diana.",
+   "resultado": "15360 moléculas de ADN con la secuencia diana.",
+   "criterios": "Total: 2,5 puntos. Planteamiento de la duplicación como $N_n=N_0\\cdot 2^n$: 1,0 punto. Sustitución correcta de los datos, $120\\cdot 2^7$: 0,75 puntos. Cálculo correcto y expresión del resultado con unidades: 0,75 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "7",
+   "tema": "microbiologia",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Bloque IV (elija esta pregunta o la 8). En un cultivo bacteriano con nutrientes no limitantes se inoculan $250$ bacterias. La población se duplica exactamente cada $20$ minutos y no mueren bacterias. Calcule el número de bacterias al cabo de $2$ horas.",
+   "solucion": "1. Convertimos el tiempo transcurrido a minutos: $2\\,\\text{h}\\times 60\\,\\text{min/h}=120\\,\\text{min}$.\\n2. Calculamos el número de duplicaciones: $120/20=6$.\\n3. Como la población se duplica en cada intervalo y no mueren bacterias, $N=N_0\\times 2^n$. Por tanto, $N=250\\times 2^6=250\\times 64=16\\,000$.\\n\\nAl cabo de 2 horas habrá **16 000 bacterias**.",
+   "resultado": "16 000 bacterias",
+   "criterios": "Puntuación total: 2,5 puntos. Conversión correcta de 2 horas a 120 minutos: 0,5 puntos. Cálculo de las 6 duplicaciones: 0,5 puntos. Planteamiento del crecimiento como $N=250\\times 2^6$: 0,75 puntos. Resultado final correcto, con unidades: 0,75 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "8",
+   "tema": "inmunologia",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Bloque IV (elija esta pregunta o la 7). Una persona recibe una vacuna que contiene un antígeno y, meses después, una dosis de recuerdo del mismo antígeno. Clasifique el tipo de inmunidad que proporciona la vacunación indicando si es activa o pasiva y si es natural o artificial. Señale qué células permiten una respuesta más rápida tras la dosis de recuerdo y en qué células se diferencian para secretar anticuerpos.",
+   "solucion": "### Clasificación paso a paso\n\n1. **Según quién produce la respuesta**, es una inmunidad **activa**: el antígeno de la vacuna estimula el sistema inmunitario de la persona para que genere su propia respuesta y células de memoria; la vacuna no aporta directamente anticuerpos ya formados.\n2. **Según cómo se adquiere**, es **artificial**, porque el antígeno se administra mediante una vacunación.\n3. Tras la dosis de recuerdo, los **linfocitos B de memoria** reconocen el mismo antígeno y permiten una respuesta secundaria más rápida. Se multiplican y se diferencian en **células plasmáticas**, que secretan anticuerpos específicos.\n\n### Comprobación\n\nLa clasificación es coherente: la inmunidad es activa porque responde el propio organismo y artificial porque la exposición al antígeno se debe a la vacuna. La secreción de anticuerpos corresponde a las células plasmáticas derivadas de los linfocitos B de memoria.",
+   "resultado": "La vacunación proporciona inmunidad activa artificial; los linfocitos B de memoria permiten una respuesta más rápida y se diferencian en células plasmáticas secretoras de anticuerpos.",
+   "criterios": "Puntuación total: 2,5 puntos. Clasificación como inmunidad activa y explicación de que el organismo produce su propia respuesta: 0,5 puntos. Clasificación como artificial y justificación por la administración de la vacuna: 0,5 puntos. Identificación de los linfocitos B de memoria como responsables de la respuesta más rápida: 0,75 puntos. Identificación de las células plasmáticas como células diferenciadas que secretan anticuerpos: 0,75 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "biomoleculas",
+   "p": 0.05
+  },
+  {
+   "id": "celula",
+   "p": 0.05
+  },
+  {
+   "id": "metabolismo",
+   "p": 0.05
+  },
+  {
+   "id": "division",
+   "p": 0.05
+  },
+  {
+   "id": "genetica",
+   "p": 0.05
+  },
+  {
+   "id": "molecular",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "https://www.uniovi.es/documents/39158/13774579/PONDERACIONES.pdf/62c612dd-94c9-601b-4fea-a271f2e90bcc?t=1771329552491"
+ ]
+}
