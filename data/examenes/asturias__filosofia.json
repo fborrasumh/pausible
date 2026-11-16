@@ -1,0 +1,89 @@
+{
+ "ccaa": "asturias",
+ "materia": "filosofia",
+ "titulo": "PAU 2027 — Historia de la Filosofía (modelo original)",
+ "duracion_min": 90,
+ "instrucciones": "Responde las cuatro preguntas. En cada una, elige y contesta solo una de las opciones (A o B). Cada pregunta vale 2,5 puntos; la puntuación total es de 10 puntos. Fundamenta las respuestas abiertas con los conceptos filosóficos pertinentes.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "platon",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "En un museo se proyecta en una pared la sombra de una escultura iluminada. Elige una opción. A) Sitúa la sombra y la escultura en los niveles correspondientes de la alegoría de la caverna y nombra el grado de conocimiento asociado a cada nivel. B) Una exposición reúne objetos que reciben el calificativo de «bellos» y propone compararlos con la Idea de Belleza. Explica qué relación establece Platón entre esos objetos particulares y la Idea, e indica cuál es sensible y cuál inteligible.",
+   "solucion": "### Opción A: correspondencia entre la caverna y la línea dividida\n\n1. **Identificar los dos elementos.** La sombra proyectada en la pared es una imagen de un objeto sensible; la escultura es el objeto físico que produce esa sombra.\n2. **Situarlos en los niveles correspondientes.** La sombra ocupa el nivel más bajo del ámbito visible: el de las imágenes. La escultura ocupa el nivel superior del ámbito visible: el de los objetos sensibles.\n3. **Asignar el grado cognoscitivo.** A la sombra le corresponde la **eikasía** (imaginación o conjetura); a la escultura, la **pístis** (creencia o convicción acerca de las cosas sensibles). Ambas pertenecen a la **dóxa** u opinión, no al conocimiento inteligible.\n4. **Comprobación.** La sombra depende de la escultura y es menos real que ella dentro de la comparación platónica; por eso se sitúa en el nivel inferior y recibe el grado cognoscitivo inferior. La escultura es el objeto sensible del que procede la imagen, así que corresponde al nivel superior del ámbito visible. La relación y el orden son coherentes con la alegoría y la línea dividida.",
+   "resultado": "Sombra: ámbito visible de las imágenes, eikasía; escultura: ámbito visible de los objetos, pístis; ambas pertenecen a la dóxa.",
+   "criterios": "Puntuación total: 2,5 puntos. Identificación de la sombra como imagen y ubicación en el nivel inferior del ámbito visible: 0,5. Asignación correcta de la eikasía: 0,5. Identificación de la escultura como objeto sensible y ubicación en el nivel superior del ámbito visible: 0,5. Asignación correcta de la pístis: 0,5. Explicación de que ambos grados pertenecen a la dóxa y de la jerarquía entre imagen y objeto, con expresión clara y coherente: 0,5. Se aceptan traducciones equivalentes de los términos griegos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "medieval",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Elige una opción. A) En una asamblea se vota si una afirmación matemática es verdadera. Desde la filosofía de Agustín de Hipona, explica por qué la verdad no queda establecida por mayoría y señala cómo puede reconocerla el ser humano. B) Un equipo estudia el movimiento de los cuerpos y explica cada movimiento por otro motor dentro de una serie de motores subordinados. Desde Tomás de Aquino, identifica la vía de demostración a la que remite el caso, indica a qué conclusión conduce y explica por qué es un razonamiento a posteriori.",
+   "solucion": "### Opción B\n\n1. **Identificación de la vía.** El caso remite a la **primera vía de Tomás de Aquino**, la demostración a partir del movimiento. En este contexto, movimiento significa, en sentido amplio, el paso de la potencia al acto, no solo el desplazamiento espacial.\n\n2. **Punto de partida.** Tomás parte de un hecho accesible a la experiencia: hay cuerpos que se mueven o cambian. Lo que está en potencia no puede actualizarse por sí mismo en el mismo aspecto y al mismo tiempo; necesita algo que ya esté en acto, es decir, un motor.\n\n3. **Serie de motores subordinados.** Si un motor mueve porque, a su vez, es movido por otro, se establece una serie de motores dependientes. No puede prolongarse al infinito una serie de motores subordinados en el orden de la dependencia actual, pues entonces no habría un primer motor del que dependiera el movimiento de los demás.\n\n4. **Conclusión.** Por tanto, debe existir un **primer motor inmóvil**, que mueve sin ser movido por otro. Tomás identifica esta conclusión con Dios. No se trata necesariamente del primer acontecimiento en el tiempo, sino del fundamento primero de la cadena de movimiento y dependencia.\n\n5. **Carácter a posteriori.** El razonamiento es *a posteriori* porque comienza con un efecto conocido por experiencia —el movimiento— y, desde él, infiere la existencia de su causa primera. No parte de una definición de Dios ni pretende deducir su existencia únicamente mediante conceptos.",
+   "resultado": "La primera vía concluye, desde la experiencia del movimiento y de una serie de motores subordinados, que existe un primer motor inmóvil, identificado por Tomás con Dios; es una demostración a posteriori.",
+   "criterios": "Puntuación máxima: 2,5 puntos. Identificación de la primera vía y explicación del movimiento como paso de potencia a acto: 0,5 puntos. Explicación de la necesidad de un motor en acto y de la serie de motores subordinados: 0,75 puntos. Justificación de que no puede haber un regreso infinito en esa serie y formulación de la conclusión del primer motor inmóvil: 0,75 puntos. Explicación precisa del carácter a posteriori: 0,5 puntos. Se valorará la precisión conceptual; confundir la primera vía con una prueba basada simplemente en el comienzo temporal del universo limitará la puntuación.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "kant",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Una entidad diseña un código de conducta para todas las personas. Elige una opción y aplica el criterio kantiano de universalización: identifica el tipo de contradicción que aparece y si la obligación correspondiente es perfecta o imperfecta. A) La máxima es: «Presentaré justificantes falsos cuando hacerlo me proporcione una ventaja». B) La máxima es: «Nunca prestaré ayuda a otra persona, aunque pueda hacerlo sin un coste importante».",
+   "solucion": "### Método\nAplico el test kantiano en dos pasos: primero pregunto si la máxima puede concebirse como ley universal sin destruir la práctica de la que depende; si puede concebirse, pregunto si un agente racional podría querer esa ley universal. Esta vía permite distinguir una contradicción en la concepción de una contradicción en la voluntad.\n\n### A) Presentar justificantes falsos cuando resulte ventajoso\n1. **Universalización:** todas las personas presentarían justificantes falsos siempre que hacerlo les proporcionara una ventaja.\n2. **Contradicción en la concepción:** la práctica de presentar justificantes solo sirve si, en general, se considera que acreditan hechos verdaderos. Si la máxima se universalizara, desaparecería la confianza en esos documentos y dejarían de cumplir su función. La máxima depende, por tanto, de una práctica cuya eficacia destruiría al convertirse en universal.\n3. **Tipo de deber:** aparece una **contradicción en la concepción**, que fundamenta un **deber perfecto**: no presentar justificantes falsos.\n\n### B) No prestar nunca ayuda, aunque sea posible hacerlo sin un coste importante\n1. **Universalización:** nadie ayudaría jamás a otra persona, incluso cuando pudiera hacerlo sin un coste importante.\n2. **Contradicción en la concepción:** ese mundo puede imaginarse sin que la idea de ayudar quede lógicamente destruida; la regla describe precisamente una sociedad en la que no se presta ayuda.\n3. **Contradicción en la voluntad:** un agente racional no podría querer coherentemente esa regla como ley universal, pues, siendo vulnerable y pudiendo necesitar ayuda para alcanzar sus propios fines, no puede querer que nadie ayude nunca a nadie, incluido él mismo cuando lo necesite.\n4. **Tipo de deber:** aparece una **contradicción en la voluntad**, que fundamenta un **deber imperfecto** de beneficencia. Es imperfecto porque obliga a promover el bienestar ajeno, pero deja margen para decidir cuándo y cómo ayudar; no exige prestar toda ayuda posible en cada ocasión.\n\n### Comprobación final\nLa clasificación es coherente con el test: A no puede concebirse universalmente sin socavar la práctica que utiliza, así que corresponde a un deber perfecto; B puede concebirse, pero no puede quererse racionalmente como ley universal, así que corresponde a un deber imperfecto.",
+   "resultado": "A: contradicción en la concepción y deber perfecto. B: contradicción en la voluntad y deber imperfecto. Calificación: 2,5/2,5.",
+   "criterios": "Total: 2,5 puntos. A: 0,4 por formular correctamente la universalización; 0,4 por explicar la contradicción en la concepción; 0,2 por identificar el deber perfecto. B: 0,4 por formular correctamente la universalización; 0,4 por explicar por qué es concebible pero no puede quererse racionalmente; 0,2 por identificar el deber imperfecto. Distinción clara entre ambos tipos de contradicción y explicación de la mayor latitud del deber imperfecto: 0,5 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "marx",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Para estimar la explotación en un taller, se supone que todo el valor nuevo creado durante la jornada se debe al trabajo y que no hay otros componentes que deban descontarse. Elige una opción. A) En una jornada de 8 horas se crean 240 € de valor nuevo y el salario es de 120 €. Calcula el valor de la fuerza de trabajo, la plusvalía, el tiempo de trabajo necesario, el tiempo de plustrabajo y la tasa de plusvalía. B) En una jornada de 6 horas se crean 180 € de valor nuevo y el salario es de 60 €. Calcula las mismas cinco magnitudes. Expresa la tasa de plusvalía como porcentaje.",
+   "solucion": "### Opción A\n\nEl valor nuevo creado por hora es $240/8=30\\,€$. Según el supuesto del enunciado, el salario representa el valor de la fuerza de trabajo: $v=120\\,€$.\n\n1. **Valor de la fuerza de trabajo:** $v=120\\,€$.\n2. **Plusvalía:** $s=240-120=120\\,€$.\n3. **Tiempo de trabajo necesario:** $t_n=120/30=4$ horas.\n4. **Tiempo de plustrabajo:** $t_p=8-4=4$ horas.\n5. **Tasa de plusvalía:** $s/v\\times100=(120/120)\\times100=100\\%$.",
+   "resultado": "Opción A: valor de la fuerza de trabajo = 120 €, plusvalía = 120 €, tiempo necesario = 4 h, plustrabajo = 4 h y tasa de plusvalía = 100 %.",
+   "criterios": "2,5 puntos en total: 0,5 por cada magnitud correctamente calculada e interpretada: valor de la fuerza de trabajo (120 €), plusvalía (120 €), tiempo de trabajo necesario (4 h), tiempo de plustrabajo (4 h) y tasa de plusvalía expresada como porcentaje (100 %). Se valoran los cálculos y las unidades correspondientes.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "platon",
+   "p": 0.05
+  },
+  {
+   "id": "aristoteles",
+   "p": 0.05
+  },
+  {
+   "id": "medieval",
+   "p": 0.05
+  },
+  {
+   "id": "descartes",
+   "p": 0.05
+  },
+  {
+   "id": "empirismo",
+   "p": 0.05
+  },
+  {
+   "id": "kant",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "https://www.uniovi.es/documents/39158/13774579/D%C3%ADptico_PAU+2026.pdf/eb0d3c77-85c2-00b6-16b5-6347cde83e33?t=1771247964675"
+ ]
+}
