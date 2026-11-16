@@ -1,0 +1,90 @@
+{
+ "ccaa": "canarias",
+ "materia": "matccss",
+ "titulo": "PAU 2027 — Matemáticas Aplicadas a las Ciencias Sociales II (Canarias)",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro preguntas y suma 10 puntos. Las preguntas 1 y 2 son obligatorias. En la pregunta 3, elige una opción entre 3.1 y 3.2; en la pregunta 4, elige una opción entre 4.1 y 4.2. Justifica los procedimientos y expresa las unidades cuando corresponda. En los apartados gráficos, señala claramente los elementos relevantes.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "inferencia",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "OBLIGATORIA. Una empresa que fabrica cargadores para bicicletas eléctricas conoce que el tiempo de funcionamiento de sus cargadores sigue aproximadamente una distribución normal, con desviación típica poblacional de 10 horas. En un estudio se obtuvo, para la media del tiempo de funcionamiento, el intervalo de confianza del 95% $[48{,}04;51{,}96]$. a) Calcula el tamaño de la muestra utilizada. (0,75 puntos) b) En un nuevo estudio se seleccionan 100 cargadores y se obtiene un tiempo medio de funcionamiento de 52 horas. Calcula el intervalo de confianza del 95% para la media poblacional. (0,75 puntos) c) Suponiendo que la media poblacional es de 52 horas, calcula la probabilidad de que el tiempo medio de funcionamiento de una muestra aleatoria de 100 cargadores supere las 50 horas. (0,5 puntos)",
+   "solucion": "Sea $\\sigma=10$ horas y, para un nivel de confianza del $95\\%$, $z_{0,975}=1,96$.\n\n**a) Tamaño de la muestra**\n\nEl intervalo observado tiene centro $\\bar{x}=\\frac{48,04+51,96}{2}=50$ y semiamplitud $E=\\frac{51,96-48,04}{2}=1,96$. Para una media con desviación típica poblacional conocida, $E=z_{0,975}\\frac{\\sigma}{\\sqrt{n}}$. Por tanto,\n$$1,96=1,96\\frac{10}{\\sqrt{n}}\\quad\\Longrightarrow\\quad \\sqrt{n}=10\\quad\\Longrightarrow\\quad \\boxed{n=100}.$$\n\n**b) Intervalo de confianza del 95\\%**\n\nCon $n=100$ y $\\bar{x}=52$, el error típico es $\\frac{\\sigma}{\\sqrt{n}}=\\frac{10}{10}=1$. Así,\n$$\\bar{x}\\pm z_{0,975}\\frac{\\sigma}{\\sqrt{n}}=52\\pm1,96,$$\npor lo que el intervalo es $\\boxed{[50,04;\\,53,96]}$ horas.\n\n**c) Probabilidad de que la media muestral supere 50 horas**\n\nSi la media poblacional es $\\mu=52$, entonces $\\bar{X}\\sim N\\left(52,\\frac{10}{\\sqrt{100}}\\right)=N(52,1)$, donde el segundo parámetro es la desviación típica. Estandarizando,\n$$P(\\bar{X}>50)=P\\left(Z>\\frac{50-52}{1}\\right)=P(Z>-2)=\\Phi(2)\\approx0,97725.$$\nLa probabilidad es, por tanto, $\\boxed{0,97725}$, aproximadamente un $97,72\\%$.",
+   "resultado": "a) n = 100; b) IC del 95 %: [50,04; 53,96] horas; c) P(media muestral > 50) = 0,97725 (97,72 %).",
+   "criterios": "Total: 2 puntos.\n- a) 0,75 puntos: identificar la semiamplitud del intervalo (0,20); aplicar la expresión del error máximo para desviación típica conocida (0,30); despejar y obtener n = 100 (0,25).\n- b) 0,75 puntos: calcular el error típico 10/√100 = 1 (0,20); usar el valor crítico 1,96 y construir el intervalo desde la media 52 (0,35); dar correctamente los dos extremos (0,20).\n- c) 0,50 puntos: determinar la distribución de la media muestral y estandarizar el umbral (0,25); calcular la cola correcta, P(Z > −2) = 0,97725 aproximadamente (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "funciones",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "OBLIGATORIA. Una cooperativa estima que su beneficio anual, en miles de euros, durante los ocho primeros años de una nueva actividad viene dado por $B(t)=-2t^2+16t+40$, donde $t$ es el número de años transcurridos desde el inicio de la actividad y $0\\leq t\\leq 8$. a) Utilizando la derivada, determina los intervalos de crecimiento y decrecimiento de $B$. (1 punto) b) Calcula en qué año se alcanza el máximo beneficio y cuál es su valor. (1 punto) c) ¿Durante qué periodo el beneficio anual supera los 64 000 euros? (1 punto)",
+   "solucion": "### a) Intervalos de crecimiento y decrecimiento\nDerivamos la función en el dominio $[0,8]$:\n\n$B'(t)=-4t+16=4(4-t)$.\n\nEl único punto crítico es $t=4$. Si $0\\leq t<4$, entonces $B'(t)>0$; si $4<t\\leq 8$, entonces $B'(t)<0$. Por tanto, $B$ es creciente en $[0,4]$ y decreciente en $[4,8]$.\n\n### b) Máximo beneficio\nComo método alternativo para localizar y justificar el máximo, completamos el cuadrado:\n\n$B(t)=-2(t^2-8t)+40=-2(t-4)^2+72$.\n\nDado que $(t-4)^2\\geq 0$, se tiene $B(t)\\leq 72$, con igualdad cuando $t=4$, que pertenece al dominio. El máximo se alcanza a los 4 años y vale $72$ miles de euros, es decir, $72\\,000$ euros.\n\n### c) Periodo en que supera los 64 000 euros\nComo $B$ está expresado en miles de euros, resolvemos $B(t)>64$:\n\n$-2t^2+16t+40>64 \\iff -2(t-2)(t-6)>0 \\iff (t-2)(t-6)<0$.\n\nLa desigualdad se cumple para $2<t<6$. Este intervalo está dentro del dominio; por tanto, el beneficio supera los 64 000 euros entre los años 2 y 6, sin incluir los extremos.\n\n### Comprobación\n$B(2)=B(6)=64$, de modo que en los extremos no se supera el umbral. Además, $B(4)=72$ y $B'(t)$ cambia de positivo a negativo en $t=4$, confirmando el máximo indicado.",
+   "resultado": "Creciente en [0,4] y decreciente en [4,8]; máximo a los 4 años: 72 000 euros; supera 64 000 euros para 2<t<6.",
+   "criterios": "Total: 3 puntos. a) 1 punto: 0,25 por calcular correctamente B'(t) y localizar el punto crítico; 0,5 por estudiar el signo de la derivada; 0,25 por indicar los intervalos de monotonía dentro del dominio. b) 1 punto: 0,25 por expresar correctamente la función completando el cuadrado; 0,5 por justificar que el máximo se alcanza en t=4; 0,25 por dar el valor con unidades correctas. c) 1 punto: 0,25 por plantear B(t)>64; 0,5 por resolver la desigualdad y obtener el intervalo; 0,25 por interpretar correctamente el intervalo abierto y sus unidades.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "3",
+   "tema": "probabilidad",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "ELEGIR UNA OPCIÓN ENTRE 3.1 Y 3.2. Sentido estocástico. 3.1. Una empresa de transporte registra que el 80% de sus servicios llega puntualmente. Se consideran independientes los resultados de distintos servicios. a) Si se eligen cinco servicios al azar, calcula la probabilidad de que exactamente cuatro lleguen puntualmente. (1 punto) b) En una encuesta aleatoria a 400 clientes, 200 afirman que utilizan una aplicación de movilidad al menos una vez por semana. Calcula un intervalo de confianza del 95% para la proporción de todos los clientes que la utilizan con esa frecuencia. (1 punto). 3.2. Una empresa recibe componentes de tres proveedores: el proveedor A suministra el 50% de las unidades, el B el 30% y el C el 20%. Las proporciones de componentes defectuosos son, respectivamente, el 2%, el 5% y el 4%. a) Representa la situación mediante un árbol de probabilidades. (0,5 puntos) b) Calcula la probabilidad de que una unidad elegida al azar sea defectuosa. (0,75 puntos) c) Sabiendo que una unidad es defectuosa, calcula la probabilidad de que proceda del proveedor B. (0,75 puntos)",
+   "solucion": "Se elige la opción **3.1**.\n\n### a) Probabilidad de que exactamente cuatro lleguen puntualmente\n\nSea $X$ el número de servicios puntuales entre los cinco. Por la independencia y porque la probabilidad de puntualidad es $p=0.8$, se tiene $X\\sim\\operatorname{Bin}(5,0.8)$. Por tanto,\n\n$$P(X=4)=\\binom{5}{4}(0.8)^4(0.2)=0.4096.$$\n\nLa probabilidad es **0.4096**.\n\n### b) Intervalo de confianza del 95 % para la proporción\n\nLa proporción muestral es $\\hat p=200/400=0.5$. Para un nivel de confianza del 95 %, se usa $z_{0.975}=1.96$. El intervalo normal aproximado es\n\n$$\\hat p\\pm 1.96\\sqrt{\\frac{\\hat p(1-\\hat p)}{n}}=0.5\\pm 1.96\\sqrt{\\frac{0.5\\cdot0.5}{400}}=0.5\\pm0.049.$$\n\nAsí, el intervalo de confianza es **$(0.451,\\,0.549)$**, es decir, aproximadamente, entre el **45.1 % y el 54.9 %**.",
+   "resultado": "Opción 3.1: a) 0.4096. b) IC del 95 % para la proporción: (0.451, 0.549), es decir, (45.1 %, 54.9 %).",
+   "criterios": "Opción 3.1 (2 puntos). a) (1 punto): identificar la distribución binomial y sus parámetros (0,25); plantear correctamente la probabilidad de exactamente cuatro éxitos (0,50); resultado numérico correcto (0,25). b) (1 punto): calcular la proporción muestral (0,20); aplicar la fórmula del intervalo con el valor crítico 1,96 (0,40); calcular correctamente el error y los extremos (0,30); expresar el intervalo e interpretarlo como proporción poblacional (0,10). Se aceptan redondeos equivalentes.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "progl",
+   "puntos": 3,
+   "tipo": "abierta",
+   "enunciado": "ELEGIR UNA OPCIÓN ENTRE 4.1 Y 4.2. Sentido numérico y algebraico. 4.1. Un centro educativo adquiere 150 equipos de tres modelos: básico, intermedio y avanzado. El número de equipos avanzados es la quinta parte del total, y se adquieren el doble de equipos intermedios que básicos. Los costes unitarios de los modelos básico, intermedio y avanzado son 18 €, 25 € y 40 €, respectivamente. El coste total de la compra es de 3 920 €. a) Define las incógnitas y plantea el sistema de ecuaciones que permite determinar cuántos equipos se compraron de cada modelo. (1,5 puntos) b) Resuelve el sistema e indica las cantidades de cada modelo. (1 punto) c) Si los precios de venta de los tres modelos son 30 €, 40 € y 60 €, respectivamente, calcula el beneficio total al vender todos los equipos. (0,5 puntos). 4.2. Una cooperativa prepara dos tipos de lotes de productos locales, A y B. Cada lote A requiere 2 horas de trabajo especializado y 1 unidad de material; cada lote B requiere 1 hora de trabajo especializado y 2 unidades de material. Para una jornada hay disponibles, como máximo, 40 horas de trabajo especializado y 50 unidades de material. El beneficio es de 30 € por cada lote A y 40 € por cada lote B. La cooperativa desea maximizar el beneficio. a) Define las variables y plantea las restricciones y la función objetivo del problema de programación lineal. (1 punto) b) Representa gráficamente la región factible e indica sus vértices. (1 punto) c) Determina cuántos lotes de cada tipo conviene preparar y calcula el beneficio máximo. (1 punto)",
+   "solucion": "### Opción elegida: 4.1\n\nSea $x$ el número de equipos básicos, $y$ el de intermedios y $z$ el de avanzados.\n\n**a) Planteamiento.** Las condiciones del enunciado se expresan mediante el sistema\n\n$$\\begin{cases}\nx+y+z=150,\\\\\n5z=150,\\\\\ny=2x,\\\\\n18x+25y+40z=3920.\n\\end{cases}$$\n\n**b) Resolución.** Usamos primero las relaciones de cantidades: $5z=150$, luego $z=30$. Por tanto, $x+y=120$. Como $y=2x$, resulta $3x=120$, de donde $x=40$ e $y=80$. Comprobamos la ecuación del coste:\n\n$$18\\cdot40+25\\cdot80+40\\cdot30=720+2000+1200=3920,$$\n\npor lo que las cantidades obtenidas satisfacen todos los datos.\n\nSe compraron **40 equipos básicos, 80 intermedios y 30 avanzados**.\n\n**c) Beneficio.** Los ingresos por la venta son\n\n$$30\\cdot40+40\\cdot80+60\\cdot30=1200+3200+1800=6200\\text{ €}.$$\n\nRestando el coste de compra, el beneficio total es\n\n$$6200-3920=\\boxed{2280\\text{ €}}.$$\n\n### Criterios de corrección (3 puntos)\n\n- **a) 1,5 puntos:** definición de las incógnitas (0,25); planteamiento correcto de las relaciones de cantidades (0,75); inclusión correcta de la ecuación del coste (0,5).\n- **b) 1 punto:** resolución coherente del sistema (0,5); cantidades correctas y comprobación con el coste (0,5).\n- **c) 0,5 puntos:** cálculo de los ingresos (0,25) y del beneficio como ingresos menos coste (0,25).",
+   "resultado": "40 básicos, 80 intermedios y 30 avanzados; beneficio total: 2 280 €.",
+   "criterios": "3 puntos: a) 1,5 puntos: incógnitas (0,25), relaciones de cantidades (0,75) y ecuación del coste (0,5). b) 1 punto: resolución (0,5) y cantidades correctas con comprobación (0,5). c) 0,5 puntos: ingresos (0,25) y beneficio como ingresos menos coste (0,25).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "progl",
+   "p": 0.9
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.9
+  },
+  {
+   "id": "funciones",
+   "p": 0.837
+  },
+  {
+   "id": "inferencia",
+   "p": 0.775
+  },
+  {
+   "id": "matrices",
+   "p": 0.05
+  },
+  {
+   "id": "integrales",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/bachillerato/_galerias/descargas/pau-2026/examenes-PAU-junio-2026/examen-matematicas-aplicadas-ccss-ii-pau-junio-26.pdf",
+  "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/bachillerato/_galerias/descargas/pau-2026/examenes-pau-julio-2026/examen-matematicas-aplicadas-ccss-pau-julio-26.pdf"
+ ]
+}
