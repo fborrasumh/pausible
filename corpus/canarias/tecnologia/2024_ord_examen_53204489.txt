@@ -1,0 +1,105 @@
+                                       EVALUACIÓN DE BACHILLERATO
+                               PARA EL ACCESO A LA UNIVERSIDAD (EBAU/PAU)
+                                                       CURSO 2023–2024
+                              MATERIA: TECNOLOGÍA E INGENIERÍA II                                         (1)
+
+                                                                  Convocatoria:
+
+Instrucciones: Los alumnos deberán elegir una de las dos opciones. Todos los
+ejercicios valen lo mismo (2.5 puntos). Deben detallarse los pasos en la resolución de
+los ejercicios.
+                                                Opción A
+   Ejercicio 1. Se tiene una probeta de acero de sección 750 mm2 y longitud 50 mm sometida a una
+   fuerza de 300 kN. El módulo de Young del material es de E= 200 GPa. Calcule:
+     a) El esfuerzo de la probeta en MPa. (0.5 puntos.)
+     b) El alargamiento de la misma. (1 punto).
+     c) Se realiza un ensayo Vickers durante 20 segundos con una carga de 30 kp. El resultado en la escala
+         de Vickers se escribe: 140 HV 30 20, indique cuál será el valor de la medida de las diagonales de la
+         huella (1 punto).
+   Ejercicio 2. Un coche consume gasoil con un poder calorífico de 42600 kJ/kg y una densidad de 850
+   kg/m3. La potencia del motor es de 105 kW con un rendimiento del 25%. Calcular:
+    a) La energía extraída del combustible en kcal/h. (0.5 puntos)
+    b) Cantidad de combustible consumida por el motor en kg/h. (1 punto)
+    c) Si se supone que el motor funciona como un ciclo ideal de Carnot, y la temperatura del foco frío es
+         de 25ºC, calcular la temperatura del foco caliente. (1 punto)
+
+   Ejercicio 3. El sistema de aporte de refrigerante (agua) de una
+   central eléctrica dispone de un depósito de grandes dimensiones
+   abierto a la atmósfera, como el que se muestra en la figura adjunta.
+   Para el aporte, está provisto de una tubería de salida de 90 mm de
+   diámetro a la que, a su vez, se acopla otra tubería de 60 mm de
+   diámetro, tal y como se muestra en la figura. Teniendo en cuenta las
+   cotas de altura que se indican en la figura, calcule:
+     a) La velocidad que tiene el agua en la boca de salida B, en metros
+          por segundo (m/s). (1 punto).
+     b) La cantidad de agua que sale del depósito en una hora, en
+          metros cúbicos (m3). (0.5 puntos).
+     c) La presión en A, en kilopascales (kPa). (1 punto).
+   Considere que el flujo es estable, que el fluido es incompresible y que
+   son despreciables todas las pérdidas de energía (condiciones ideales).
+   Suponga que la aceleración de la gravedad vale 9.81 m/s2 y que el peso
+   específico del agua vale 9.81 kN/m3.
+
+   Ejercicio 4. El motor de un elevador está controlado por un circuito combinacional que dispone de
+   tres interruptores de entrada (A, B y C) El motor debe activarse cuando se produzcan las siguientes
+   combinaciones en los interruptores:
+       • Cuando los interruptores A y B estén activos (A=1 y B=1)
+       • Si el interruptor C está inactivo (C=0) y los interruptores A o B están activos (A=1 o B=1)
+    a)    Calcule la tabla de verdad y la función lógica de activación del motor expresada en MINITÉRMINOS
+          (Suma de productos o 1ª forma canónica) (1 punto)
+     b)   Simplifique la función mediante el método de Karnaugh e implemente el circuito con puertas
+          universales (NAND) (1 punto)
+    c)    Respecto a una báscula (biestable) R-S: Implemente su circuito de con puertas NAND. Dibuje su
+          símbolo y escriba su tabla de verdad. (0.5 puntos)
+                                               Opción B
+Ejercicio 1. En un ensayo de tracción se obtienen, para los puntos A y B, los valores que se muestran
+en el diagrama adjunto. Inicialmente la barra tiene una longitud de Lo= 60 cm y una sección de 200 mm2.
+Considerando esos valores calcule:
+a) El valor de módulo de Young del material en GPa. (0.5 puntos).
+b) La fuerza que hay que aplicar a la barra de 60 cm de longitud y
+   sección 200 mm2 para que se produzca un alargamiento de 1 mm.
+   (1 punto).
+c) Se realiza un ensayo de resiliencia con un péndulo de Charpy y se
+   obtiene una resiliencia de ρ = 185 en J/cm2. La sección de la probeta
+   es de 200 mm2. Si el martillo se deja caer desde una altura de H =
+   1 m y sube hasta una altura de h = 40 cm, calcule la fuerza con la
+   que golpea el martillo. (1 punto).
+
+Ejercicio 2. Dado el circuito R-L de la figura, con los siguientes valores:
+U = 230 V, Frecuencia = 50 Hz, R = 10 Ω, y L = 50 mH, determine:
+a)    La reactancia inductiva y la corriente que circula por el circuito. (0.5
+      puntos).
+b)    El valor de la tensión a la que se encuentran los componentes del
+      circuito. (1 punto).
+c)    Los valores de las potencias activas, inductivas y aparentes, dibujar el
+      triángulo de potencias indicando el factor de potencia. (1 punto).
+
+Ejercicio 3. En una instalación oleohidráulica, se controla el caudal de un aceite que circula por un
+colector, mediante la presión medida por dos manómetros P1 y P2, instalados en dos tramos de tubería,
+de sección circular de diámetros, D1= 10 mm y D2 = 2 mm, tal y como se muestra en la figura.
+       Si, para un régimen de caudal, las lecturas
+de los manómetros son P1 = 3000 kPa y P2 = 500
+kPa, determine:
+ a)       La velocidad del aceite en el punto 1
+          expresada en m/s. (1.5 puntos)
+ b)       La velocidad del aceite en el punto 2
+          expresada en m/s. (0.5 puntos).
+ c)       El caudal de aceite que circula por la
+          tubería en L/s. (0.5 puntos).
+      Considere que el flujo es estable, que el fluido es incompresible y que son despreciables todas las
+pérdidas de energía (condiciones ideales). Utilice como valor de la aceleración de la gravedad g= 9.81
+m/s2. El peso específico del aceite es 8.83 kN/m3.
+
+Ejercicio 4. Un sistema industrial está controlado por un circuito combinacional que dispone de cuatro
+sensores de entrada (A B C D). El sistema de control debe activarse cuando se activen los sensores que
+a continuación se detallan:
+      •    Cuando el sensor A esté desactivado (A=0) y el sensor B esté activo (B=1) considerando los
+           sensores C y D irrelevantes.
+      •    Cuando todos los sensores estén activos (A=1) (B=1) (C=1) (D=1).
+a)    Calcule la tabla de verdad y la función lógica de activación del sistema industrial expresada en
+      MINITÉRMINOS (Suma de productos o 1ª forma canónica) (1 punto)
+b)    Simplifique la función mediante el método de Karnaugh e implemente el circuito con puertas
+      universales (NAND). (1 punto).
+c)    Respecto a una báscula (biestable) JK: Implemente su circuito con puertas NAND. Dibuje su símbolo
+      y escriba su tabla de verdad. (0.5 puntos).
+

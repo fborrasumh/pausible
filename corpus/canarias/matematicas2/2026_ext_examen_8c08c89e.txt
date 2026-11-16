@@ -1,0 +1,87 @@
+                                          PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                                    PAU
+                                                             CURSO 2025–2026
+                                  MATERIA: MATEMÁTICAS II
+
+                                                                        Convocatoria:    JULIO
+
+Instrucciones:
+-       Debe responder un máximo de 5 preguntas: 3 obligatorias y 2 opcionales de bloques diferentes.
+-       En caso de presentar dos preguntas de un mismo bloque opcional, se considerará sólo la primera pregunta.
+-       En el desarrollo de cada pregunta, detalle y explique los procedimientos empleados para solucionarla. Se
+        califica todo el proceso.
+-       Se puede utilizar cualquier calculadora científica, no programable ni con conexión a internet
+
+                                    Bloque 1.- Análisis I (La ultramaratón)
+
+        1. Una ultramaratón internacional realizada en Gran Canaria atraviesa espacios naturales
+        protegidos muy sensibles, como el Parque Natural de Tamadaba o el Parque Rural del Nublo. El
+        Cabildo Insular ha establecido la cantidad máxima de 7500 participantes para poder garantizar
+        la conservación de los parques por los que discurre la prueba.
+        Siguiendo datos de otros años, se propone un modelo matemático dado por la función 𝐼(𝑡), que
+        mide el número total de corredores inscritos (expresados en miles) transcurrido el tiempo 𝑡 (en
+        meses) desde la apertura de las inscripciones.
+                                                       5𝑒 0.8𝑡−4 , 0 ≤ 𝑡 ≤ 5
+                                              𝐼(𝑡) = {
+                                                     14𝑡 − 65
+                                                              ,𝑡 > 5
+                                                       2𝑡 − 9
+ 1.5        a) Indicar si el modelo es continuo y derivable en su dominio de definición.
+ 0.5        b) El modelo propuesto, ¿garantiza que no se superará el número máximo de inscripciones
+               permitidas? Justificar la respuesta.
+
+                                                Bloque 2.- Álgebra
+
+        2. Dada la siguiente matriz 𝐴 ∈ 𝑀3𝑥3 con 𝑘 ∈ ℝ:
+                                                        3    −𝑘    0
+                                                   𝐴 = (1     2    𝑘)
+                                                        𝑘     0    𝑘
+0.75        a) Averiguar los valores de 𝑘 para los que la matriz 𝐴 tiene inversa.
+1.25        b) Calcular la matriz inversa de 𝐴, cuando 𝑘 = 1
+
+                                               Bloque 3.- Geometría
+
+        3. En el espacio tridimensional, se conoce que el siguiente plano y recta son secantes:
+                                                           𝑥 + 21         5−𝑧
+                                 𝜋: 𝑥 + 3𝑦 + 2𝑧 = 10     ;   𝑟:    =3−𝑦 =
+                                                             11            2
+    1       a) Averiguar el punto de corte entre el plano 𝜋 y la recta 𝑟.
+    1       b) Calcular el ángulo generado por el plano 𝜋 y la recta 𝑟.
+                         Bloque 4.- Análisis II (seleccione solo una pregunta)
+
+       4A. Calcular la siguiente integral indefinida:
+  2
+                                                   ∫ √7𝑥 + 5𝑑𝑥
+
+       4B. Dada la siguiente función:
+                                                 𝑓(𝑥) = 𝑥 2 · 𝑒 1−𝑥
+1.25      a) Averiguar los intervalos de crecimiento y decrecimiento de 𝑓(𝑥).
+0.75      b) Estudiar la tendencia de 𝑓(𝑥) cuando se aproxima a ±∞
+             ¿Qué se puede afirmar en relación a la asíntota horizontal de 𝑓(𝑥)?
+
+                       Bloque 5.- Probabilidad (seleccione solo una pregunta)
+
+       5A. La playa de Famara (Lanzarote) es muy famosa por la calidad de sus olas para la realización
+       de Surf. La academia de surf “FaMa-t-Surf” ofrece cursos para quienes quieren iniciarse en este
+       deporte y garantiza que, tras sus sesiones de formación, un surfista principiante surfeará la ola
+       con un 70% de posibilidades.
+1.25      a) Se elige al azar un surfista que ha seguido las clases de esta academia. Si intenta surfear
+             5 olas, ¿cuál es la probabilidad de que logre surfear alguna de ellas?
+0.75      b) Para contratar un nuevo monitor se evalúa a un surfista experimentado que tiene un 90%
+             de probabilidad de surfear una ola. Se contrata si logra surfear al menos 14 de 15 olas,
+             ¿cuál es la probabilidad de que consiga el puesto?
+       5B. El servicio de instrumentación del Roque de los Muchachos (La Palma) recibe un lote de 120
+       sensores de luz. De estos, 20 sensores de luz son de ultra-alta sensibilidad destinados al
+       telescopio LST-1, y el resto son de sensibilidad estándar y se reparten por igual entre los
+       telescopios MAGIC I y MAGIC II.
+       Tras el largo transporte por carretera hasta la cumbre, la probabilidad de que un sensor de los
+       MAGIC sufra un micro-desajuste y se deba recalibrar en el laboratorio, es del 1.6%. Mientras
+       que, sensores del LST-1 están en embalajes más reforzados y el micro-desajuste sucede el 0.9%
+       de las veces.
+       Antes de instalarlos, el jefe de operaciones elige al azar un sensor del lote para comprobar su
+       estado.
+  1       a) Calcular la probabilidad de que el sensor de luz elegido deba ser recalibrado.
+  1       b) Elegido un sensor de luz que no requiere recalibración, justificar razonadamente si la
+             probabilidad de que pertenezca al telescopio MAGIC-II es superior al doble de la
+             probabilidad de que proceda del telescopio LST1.
+

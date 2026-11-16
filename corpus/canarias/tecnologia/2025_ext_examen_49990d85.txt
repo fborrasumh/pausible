@@ -1,0 +1,90 @@
+                                     PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                            PAU
+                                                        CURSO 2024–2025
+                             MATERIA:                                                              (4)
+
+                                                               Convocatoria:
+
+Instrucciones: Todos los ejercicios valen lo mismo (2.5 puntos). En los ejercicios 2 y
+                3 se debe elegir UNA de las dos opciones que se indican.
+
+   Ejercicio 1.
+   En un ensayo de tracción se utiliza una probeta de 10 cm de longitud y sección circular de área
+   A= 0.8 cm2.
+   a)    Si para un esfuerzo aplicado de 350 MPa se obtiene una la deformación unitaria de 0.1 cm,
+         calcule el valor de módulo de elasticidad del material en GPa. (0.5 puntos).
+   b)    Si se aplica una fuerza de 10 kN, calcule el alargamiento que se producirá. (1 punto).
+   c)    Se realiza un ensayo Vickers durante 20 segundos con una carga de 30 kp. El resultado en
+         la escala de Vickers se escribe: 140 HV 30 20, indique cuál será el valor de la medida de las
+         diagonales de la huella. (1 punto).
+
+   Ejercicio 2.
+   Opción A. Una bomba de calor, que funciona según el ciclo ideal de Carnot, debe mantener la
+   temperatura de una habitación a 21 ºC. Si la temperatura externa es de 4º C y al ciclo se le
+   aportan 2500 J/h. Calcule:
+        a)    La eficiencia de la bomba de calor y dibuje el esquema termodinámico de la bomba de
+              calor. (0.5 puntos)
+        b)    La cantidad de calor absorbida del foco frio. (1punto).
+
+        c)    El rendimiento de la bomba de calor, si funcionara como una máquina frigorífica.
+              (1punto).
+
+   Opción B. En el sistema de distribución de lubricante de un aerogenerador, se dispone de una
+   tubería horizontal ramificada que se muestra en la figura adjunta. Por este sistema oleohidráulico
+   fluye un aceite mineral cuyo peso específico es 8.5 kN/m3. Utilizando los valores que se indican
+   en la figura, calcule:
+        a) La presión p1 en kilopascales, (kPa). (0.5
+           puntos)
+        b) La velocidad v3 en metros por segundo,
+           (m/s). (1 punto)
+        c) El volumen de aceite que entra por la
+           tubería 1 en una hora, medido en metros
+           cúbicos (m3). (1 punto)
+   Considere que el flujo es estable, que el fluido
+   es incompresible y que son despreciables todas
+   las pérdidas de energía (condiciones ideales).
+   Suponga que la aceleración de la gravedad vale 9.81 m/s2. Tenga en cuenta que el sistema de
+   tuberías está en el mismo plano.
+Ejercicio 3.
+Opción A. El circuito RL de la figura está conectado a una fuente de tensión de 380 V y 60Hz.
+El valor de la resistencia es de 80 Ω, y la inductancia de la bobina es de 0.2 H. Determine:
+a)    La impedancia Z del circuito y la corriente eficaz que circula por el
+      mismo. (0.5 puntos).
+b)    El valor de la tensión eficaz a la que está sometido cada elemento del
+      mismo y el diagrama tensiones. (1 punto).
+c)    La potencias activa, reactiva y aparente. Explique el factor de potencia
+      que se obtiene. (1 punto)
+
+Opción B. Dado el siguiente diagrama de bloques:
+
+
+
+
+a)     Determine la función de transferencia total del sistema. (1.5 puntos)
+
+b)     Si la entrada del sistema toma el valor 1, H1= H2= 1/2 y G3 = G2 = 1, ¿Qué valor deberá
+       tener G1 para que la salida del sistema tome el valor 1? (1 punto)
+
+Ejercicio 4.
+Para un coche eléctrico, se quiere implementar un sistema de arranque seguro que evite fallos o
+peligros, pero que no sea demasiado restrictivo en situaciones concretas. El sistema evaluará
+tres condiciones mediante sensores digitales:
+
+       •    Sensor de llave electrónica detectada (SA): Entrega un 1 lógico si la llave está
+            presente o un 0 si no lo está.
+       •    Sensor de cinturones abrochados (SB): Entrega un 1 lógico si todos los ocupantes
+            del coche se lo han puesto el cinturón o un 0 si falta alguno.
+       •    Sensor de puertas cerradas (SC): Entrega un 1 lógico si todas las puertas del coche
+            están cerradas o un 0 si alguna está abierta.
+Diseñe un sistema que permita el arranque del vehículo mediante una señal de salida de nivel
+bajo (0 lógico), si se cumplen las siguientes condiciones: i) que la llave está dentro del coche, ii)
+que al menos uno de los otros dos sensores está activo. Para ello:
+a)    Analice el problema, plantee la tabla de verdad correspondiente y obtenga la función
+      canónica expresada en MINITÉRMINOS (Suma de productos o 1ª forma canónica). (1
+      punto)
+b)    Reduzca la función aplicando Karnaugh e implemente el circuito con puertas NAND. (1
+      punto)
+c)    Se necesita registrar la salida del circuito con una báscula JK. Escriba la tabla de verdad y
+      dibuje su circuito interno con puertas NAND, así como el símbolo que dicha báscula. (0.5
+      puntos)
+

@@ -1,0 +1,102 @@
+                                              PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                                        PAU
+                                                                CURSO 2025–2026
+                                     MATERIA: MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES                        (1)
+
+                                     Convocatoria:
+
+
+ Pregunta 1 (2 puntos): OBLIGATORIA. Sentido estocástico
+
+1. En Santa Cruz de Tenerife el precio mensual de alquiler de apartamentos tipo estudio de una habitación sigue una
+     distribución aproximadamente normal de media 780€ y desviación típica 90€.
+    a) (1 punto) ¿Cuál es el precio mensual a partir del cual se encuentra el 10% de los apartamentos más caros?
+    b) (1 punto) Se considera que un alquiler es difícil de asumir si su precio mensual supera el 40% de los ingresos
+       familiares. Para una familia donde solo trabaja una persona, que cobra el Salario Mínimo Interprofesional
+       (1221€). ¿Cuál es la probabilidad de que el alquiler de un estudio de 1 habitación en Santa Cruz de Tenerife
+       sea difícil de asumir?
+
+
+
+
+ Pregunta 2 (3 puntos): OBLIGATORIA. Sentido de la medida
+
+2. Una empresa agrícola para supervisar una explotación contrata los servicios de un operador de drones durante
+     una jornada de 8 horas. El rendimiento del dron, medido en hectáreas revisadas por hora, viene dado por la
+     función:
+                                                      5
+                                                        𝑡        si 0 ≤ 𝑡 < 2
+                                                      2
+                                                 1
+                                      𝑅(𝑡) = − (𝑡 − 4)2 + 7 si 2 ≤ 𝑡 < 6
+                                                 2
+                                                     1
+                                             {   5 −   (𝑡 − 6)   si 6 ≤ 𝑡 ≤ 8
+                                                     2
+
+    donde t representa el tiempo, en horas, transcurrido desde el inicio de la jornada.
+    a) (1 punto) Estudiar la continuidad y derivabilidad de la función durante la jornada contratada.
+    b) (0,75 puntos) Estudiar, utilizando derivadas, el crecimiento y decrecimiento de la función. ¿Cuál fue el valor
+       máximo de rendimiento que se alcanzó y en qué momento?
+    c) (0,75 puntos) Con la información obtenida en los apartados anteriores, representa gráficamente la función
+       rendimiento del dron.
+    d) (0,5 puntos) Determinar en qué instante el dron alcanza un rendimiento de 6,5 hectáreas por hora.
+
+
+
+
+   Pregunta 3 (2 puntos): ELEGIR UNA OPCIÓN ENTRE 3.1 Y 3.2. Sentido estocástico
+
+3.1. Ante un próximo examen tipo test de 100 preguntas, que sabe que es bastante difícil, un estudiante se plantea si
+    realmente le compensa estudiar o si, por el contrario, podría aprobar contestando al azar. Cada pregunta tiene
+    cuatro posibles respuestas, pero solo una es correcta. Para aprobar el examen es necesario responder correctamente
+    más de 30 preguntas.
+    a) (0.50 puntos) Si responde al azar, ¿cuál es el número esperado de respuestas correctas?
+    b) (0.75 puntos) El estudiante decide que si la probabilidad de aprobar contestando al azar es mayor que 0.4 se
+       presentará al examen sin estudiar; en caso contrario se preparará bien la asignatura antes de ir al examen.
+       ¿Qué hará definitivamente el estudiante? Justifica la respuesta.
+    c) (0.75 puntos) Si responde al azar ¿qué probabilidad hay de que falle entre 70 y 85 respuestas?
+
+
+3.2. En el curso de un estudio para estudiar la adicción a redes sociales se ha seleccionado una muestra de estudiantes
+    de las islas. El 35% de los sujetos de la muestra procedía de la Isla de Tenerife, el 40% de Gran Canaria y el resto
+    de las islas no capitalinas. Las proporciones de estudiantes que manifestaron tener dependencia de las redes
+    sociales fueron del 85%, 80% y 65% respectivamente.
+    a) (0.50 puntos) Hacer el diagrama de árbol correspondiente a la situación descrita.
+    b) (0.75 puntos) Si se elige a una persona al azar de esta muestra ¿qué probabilidad hay de que se reconozca
+       dependiente de las redes sociales?
+    c) (0.75 puntos) Si se sabe que una persona se declara dependiente de las redes sociales, ¿Qué probabilidad hay
+       de que sea de una isla capitalina?
+
+
+   Pregunta 4 (3 puntos): ELEGIR UNA OPCIÓN ENTRE 4.1 Y 4.2. Sentido numérico y algebraico
+
+4.1.Una empresa se dedica a montar algunos componentes en carcasas de ordenador. En concreto montan puertos usb
+     y salidas de vídeo. Lo hacen sobre dos tipos de carcasas: Lite que llevan 3 puertos usb y una salida de vídeo, y
+     Pro con 5 puertos y 2 salidas de vídeo. Los costes de producción (comprar e instalar) los componentes son de 1,5
+     y 1,1 euros respectivamente para los puertos y los conectores de vídeo, respectivamente. La empresa cobra a sus
+     clientes 10 euros por cada carcasa Lite montada, y 17 por cada Pro. El montaje de cada componente (puerto y
+     salida de vídeo) lleva 5 minutos. Para esta semana dispone de 300 puertos usb y 110 salidas de vídeo. De igual
+     manera puede contar con dos trabajadores que pueden dedicar entre los dos un total de 40 horas al montaje.
+    a) (1 punto) Formula el correspondiente problema de programación lineal para decidir la producción de esa
+       semana si quiere obtener el máximo beneficio tras pagar el precio de los componentes.
+    b) (1 punto) Representa la región factible.
+    c) (0.5 puntos) ¿Cuántas carcasas de cada tipo debe producir para obtener el beneficio máximo?
+    d) (0.5 puntos) La empresa ha recibido un pedido de 100 carcasas Lite y 50 carcasas Pro. Antes de poder servir
+       el pedido el inicio de un conflicto bélico hace subir los costes de producción en un 10%. Si no puede subir los
+       precios ¿en qué porcentaje se reduce su beneficio?
+
+4.2. En una instalación de acuicultura los peces son alimentados con una combinación de piensos de tres tipos, A, B
+     y C. El coste por kg de cada pienso es de 3 euros para el tipo A, 2 euros para el B y 4 euros para el C. Un día
+     determinado, para la toma de la mañana, uno de los empleados recuerda que por cada 2kg del pienso B se usaron
+     3kg del pienso A, y que la cantidad de pienso C empleado fue 5 kg menos que el total de los dos tipos restantes.
+     Además, el empleado anotó en el registro de gastos un total de 112 euros para esa toma.
+    a) (1,5 puntos) Plantear el correspondiente sistema de ecuaciones.
+    b) (1 punto) ¿Cuántos kg de cada tipo se prepararon para la toma de esa mañana?
+    c) (0,5 puntos) Se sabe que cada kg del pienso A contiene 4 unidades de proteínas y 2 unidades de grasas; cada
+       kg del B contiene 3 unidades de proteínas y 1 unidad de grasas; cada kg del C contiene 2 unidades de proteínas
+       y 3 unidades de grasas. Para una alimentación equilibrada, se recomienda que en cada toma se incluyan: entre
+       95 y 110 unidades de proteínas; entre 70 y 80 unidades de grasas. Determinar, justificando la respuesta, si la
+       alimentación suministrada en la toma de la tarde cumple las recomendaciones indicadas sabiendo que para
+       dicha toma se usaron 13 kg del pienso A, 8 kg del B y 13 kg del C.
+

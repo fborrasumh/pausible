@@ -1,0 +1,86 @@
+                                      PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                            PAU
+                                                        CURSO 2024–2025
+                              MATERIA: TECNOLOGÍA E INGENIERÍA II
+
+                                                               Convocatoria:   JUNIO_SÁBADO_6
+
+Instrucciones: Todos los ejercicios valen lo mismo (2.5 puntos). En los ejercicios 2 y
+                3 se debe elegir UNA de las dos opciones que se indican.
+
+   Ejercicio 1.
+   Se tiene una probeta de latón de sección 3000 mm2 y longitud 20 mm sometida a una fuerza de
+   300 kN. El valor del módulo de Young del material es E= 120 GPa. Calcule:
+     a)    El esfuerzo al que está sometida la probeta en MPa. (0.5 puntos)
+     b)    El alargamiento de la misma. (1 punto)
+     c)    Se realiza un ensayo de resiliencia con un péndulo de Charpy y se obtiene una resiliencia
+           de ρ = 190 en J/cm2. La sección de la probeta es de 3000 mm2. Si el martillo se deja caer
+           desde una altura de H = 1 m y sube hasta una altura de h = 20 cm. Calcule la fuerza con
+           la que golpea el martillo. (1 punto)
+
+   Ejercicio 2.
+   Opción A. El motor de un vehículo consume gasolina con un poder calorífico de 9900 kcal/kg y
+   densidad igual a 0.67 g/cm3. El motor desarrolla una potencia de 50 CV a 4500 rpm, con
+   rendimiento global del 30%. Suponiendo que las condiciones anteriores se mantienen
+   constantes, calcular:
+     a)    La potencia calorífica que aporta el combustible. (1 punto)
+     b)    El consumo de litros de gasolina por cada hora. (1 punto)
+     c)    El par motor (útil). (0.5 puntos)
+
+   Opción B. El sistema de riego de una explotación agrícola consta de un depósito de grandes
+   dimensiones abierto a la atmósfera, provisto de una tubería de desagüe de 30 mm de diámetro
+   que tiene en su extremo un orificio de 10 mm de diámetro por el que sale un chorro de agua.
+   Teniendo en cuenta las cotas de altura que se indican en la figura, calcule:
+   a)     La velocidad que tiene el agua en la boca
+          del orificio A, en metros por segundo
+          (m/s). (0.5 puntos)
+   b)     La altura h que alcanza el agua que sale
+          por el orificio A, en metros (m). (1 punto)
+   c)     La presión en B, en kilopascales (kPa).
+          (1 punto)
+   Datos: g = 9.81 m/s2; peso específico
+   del agua 9.81 kN/m3.
+Ejercicio 3.
+Opción A. La resistencia de un calefactor está sometida a una tensión de
+125 V (eficaces) cuando consume 1000W de potencia. Para su
+funcionamiento se conecta a una tensión de red de 220 V (eficaces) y 50
+Hz. Considerando que el sistema se corresponde con el circuito de la
+figura:
+  a)   Obtenga la corriente que atraviesa los elementos del
+       circuito. (0.5 puntos).
+  Con la corriente calculada,
+  b)   Determine los valores de la capacidad C y de la reactancia capacitiva XC. (1 punto)
+  c)   Calcule la potencia activa, reactiva y aparente y dibuje el triángulo de potencia. Determine
+       el valor del Factor de Potencia. (1 punto)
+
+Opción B. Dado el siguiente diagrama de bloques:
+
+  a)   Determine la función de transferencia
+       total del sistema. (1.5 puntos)
+
+  b)   Si la entrada del sistema toma el valor
+       1, H1= 1/2, G3 = 2 y G2 = 1, ¿Qué valor
+       deberá tener G1 para que la salida del
+       sistema tome el valor 1? (1 punto)
+
+Ejercicio 4.
+Una empresa tecnológica quiere diseñar un sistema digital sencillo que controle el acceso
+automático a una sala de servidores críticos. Para mejorar la seguridad, el sistema solo abrirá la
+puerta (la cerradura se abre con un nivel alto) si se cumplen al menos dos de las tres condiciones
+de las siguientes señales digitales:
+    • A (Autorización personal): Se activa con un 1 si el trabajador está autorizado, 0 si se
+    detecta que no lo está.
+    • B (Biometría válida): Genera un 1 si el lector biométrico reconoce al trabajador o un 0 si
+    no lo reconoce.
+    • C (Horario permitido): El sistema proporciona un nivel alto si el acceso se intenta dentro
+    del horario permitido, mientras que si se está fuera del horario un nivel bajo.
+Responda:
+  a)   Analice el problema, plantee la tabla de verdad correspondiente y obtenga la función
+       canónica expresada en MINITÉRMINOS (Suma de productos o 1ª forma canónica).
+       (1 punto)
+  b)   Reduzca la función aplicando Karnaugh e implemente el circuito con puertas NAND.
+       (1 punto)
+  c)   Se necesita registrar la salida del circuito con una báscula RS. Escriba la tabla de
+       verdad y dibuje su circuito interno con puertas NAND, así como el símbolo que dicha
+       báscula. (0.5 puntos)
+

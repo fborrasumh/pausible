@@ -1,0 +1,656 @@
+                                      PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                               PAU
+                                                       CURSO 2025–2026
+                              MATERIA: MATEMÁTICAS II                                                (4)
+
+                                                                  Convocatoria:
+Instrucciones:
+-   Debe responder un máximo de 5 preguntas: 3 obligatorias y 2 opcionales de bloques diferentes.
+-   En caso de presentar dos preguntas de un mismo bloque opcional, se considerará sólo la primera
+    pregunta.
+-   En el desarrollo de cada pregunta, detalle y explique los procedimientos empleados para
+    solucionarla. Se califica todo el proceso.
+-   Se puede utilizar cualquier calculadora científica, no programable ni con conexión a internet
+
+                                    Criterios de calificación
+
+        A) Se valorará todo lo escrito en cada respuesta y no sólo el resultado final.
+
+        B) En las respuestas se corregirán los desarrollos necesarios y también las
+           explicaciones breves de los mismos.
+
+        C) Cada error cometido en una respuesta resta calificación en función de la
+           importancia de dicho error, pero no repercute en lo que se haya hecho
+           después, mientras lo realizado sea coherente con dicho error y tenga
+           sentido matemático.
+
+        D) Se penalizará cada notación gravemente incorrecta, que indique
+           desconocimiento de cuestiones importantes (por ejemplo, usar la notación
+           de determinante cuando se trata de una matriz o viceversa, confundir
+           coordenadas de vector o de punto).
+
+        E) Cuando sea necesario representar gráficamente una función, dicha
+           representación deberá basarse en características importantes de la
+           misma, que deberá obtener previamente, aunque en el enunciado de la
+           pregunta esto no se haya pedido de forma explícita.
+
+        F) Cuando haya que representar gráficamente una región plana, sea limitada
+           por rectas, sea limitada por curvas y rectas, o sea limitada por varias
+           curvas, no sólo habrá que representar correctamente los segmentos o
+           arcos que intervengan (según apartado E), sino que habrá que calcular
+           los puntos de corte entre ambas gráficas, si dichos puntos están
+           relacionados con la región pedida. Se dará cada uno de esos puntos con
+           sus dos coordenadas, aunque no se pida explícitamente.
+
+        G) Cuando se piden abscisas basta con la coordenada x. Cuando se piden
+           puntos deben dar las dos coordenadas.
+
+        H) Los rangos de las matrices hay que justificarlos (puede hacerse por la
+           técnica de menores orlados o reduciendo la matriz a una escalonada por
+           filas equivalentes)
+
+        I) En respuestas sobre geometría del espacio, no basta escribir una
+           ecuación pedida (o que se necesite para otro resultado), sino que se
+                       PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                             PAU
+                                      CURSO 2025–2026
+                 MATERIA: MATEMÁTICAS II                                          (4)
+
+
+
+   requiere una explicación mínima de lo que significa geométricamente y de
+   dónde provienen los números que aparecen en esta como coeficientes.
+   Igualmente, cuando se trata de varias ecuaciones simultáneas
+   (ecuaciones de una recta o ecuaciones paramétricas de un plano).
+
+J) Los cálculos intermedios hay que hacerlos siempre en forma exacta (se
+   observa que algunos alumnos, desde el principio de una respuesta,
+   sustituyen algún valor por una mala aproximación decimal, con la cual
+   operan dando por bueno el resultado final obtenido, que suele estar muy
+   alejado del resultado correcto). Así uno de los objetivos a evaluar es una
+   operatoria adecuada y que conozcan el uso correcto de los números que
+   deben utilizar según el contexto de trabajo.
+
+K) Se exige utilizar correctamente los signos de igualdad y de aproximación.
+
+L) En los cálculos de probabilidad donde se proceda a realizar la
+   aproximación de la distribución binomial por la distribución normal se debe
+   justificar que el procedimiento se puede hacer.
+
+M) En los problemas de probabilidad se debe indicar el teorema que se utiliza
+   para realizar el cálculo de la probabilidad.
+
+N) Los problemas de probabilidad que utilicen la Distribución Binomial,
+   deberán escribir la fórmula de cálculo de la probabilidad.
+
+O) Las faltas de ortografía no se penalizan.
+
+
+
+
+SE PROPONE UNA SOLUCIÓN CORRECTA. OTRAS SOLUCIONES CORRECTAS TAMBIÉN SE ACEPTAN
+
+
+
+
+                                                             P á g i n a 2 | 14
+                                        PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                                 PAU
+                                                          CURSO 2025–2026
+                                  MATERIA: MATEMÁTICAS II                                             (4)
+
+
+
+                       Bloque 1.- Análisis I (La barredora de ceniza volcánica)
+          1. Tras la erupción del volcán Tajogaite (La Palma, 2021) un equipo de ingenieros ha
+          desarrollado un prototipo de barredora marítima para recoger la ceniza que llega al mar,
+          con una capacidad de 0.5 𝑘𝑚2 /ℎ𝑜𝑟𝑎. Para la construcción del prototipo, se ha
+          modelizado mediante 𝑓(𝑡) la superficie afectada por la mancha de ceniza en 𝑘𝑚2 , siendo
+          𝑡 los días transcurridos desde que comienzan la monitorización de la mancha marítima.
+                                                        10𝑡 + 5
+                                              𝑓 (𝑡) =            +5
+                                                        2𝑡 2 + 4
+      1    a)     Estudiar el crecimiento y decrecimiento del modelo propuesto.
+                  ¿Existe algún valor extremo en el modelo? En caso afirmativo, ¿cuál es el tamaño
+                  de la mancha de ceniza en ese punto?
+0.5        b)     Un técnico del equipo afirma que no hará falta la intervención de medios de
+                  limpieza ya que pasado un tiempo la mancha desaparecerá. ¿Es cierta esta
+                  afirmación? Justificar la respuesta.
+ 0.5       c)     La barredora se pone en funcionamiento el cuatro día después de comenzar a
+                  monitorizar la mancha. Si la superficie de la mancha no recibiera más ceniza y se
+                  mantuviera constante a partir de ese día, ¿cuánto tiempo tardaría la barredora en
+                  eliminar la mancha de ceniza?
+          Solución:
+          a) Para estudiar el crecimiento y decrecimiento del modelo debemos calcular la
+          derivada.
+
+                        10(2𝑡 2 + 4) − (10𝑡 + 5)4𝑡 20𝑡 2 + 40 − 40𝑡 2 − 20𝑡 −20𝑡 2 − 20𝑡 + 40
+                𝑓′(𝑡) =                           =                        =
+                                (2𝑡 2 + 4)2               (2𝑡 2 + 4)2          (2𝑡 2 + 4)2
+
+
+          Averiguamos dónde se anula la derivada:
+
+                      −20𝑡 2 − 20𝑡 + 40
+                                        = 0 → −20𝑡 2 − 20𝑡 + 40 = 0 → −𝑡 2 − 𝑡 + 2 = 0
+                         (2𝑡 2 + 4)2
+
+                               −𝑏 ± √𝑏2 − 4𝑎𝑐 1 ± √12 − 4(−1)2 1 ± √9 1 ± 3
+                          𝑡=                 =                =      =
+                                     2𝑎            2(−1)         −2    −2
+
+                                                 𝑡1 = −2; 𝑡2 = 1
+          Sólo tiene sentido el modelo para t>0, que es cuando se inicia la observación del
+          volcán. Por tanto, se descarta el valor 𝑡1 = −2.
+
+          Por tanto, el valor a considerar será: 𝑡2 = 1
+
+
+
+
+                                                                               P á g i n a 3 | 14
+                                  PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                              PAU
+                                                   CURSO 2025–2026
+                           MATERIA: MATEMÁTICAS II                                             (4)
+
+
+
+                         Intervalos      (0,1)       1          (1, +∞)
+
+                         Signo de f’      +          0              −
+
+                         Monotonía     Creciente   Extremo Decreciente
+                                                     MÁX
+
+
+                                          10·1+5         15
+Calculamos el valor extremo 𝑓(1) = 2·12+4 + 5 = 6 + 5 = 2.5 + 5 = 7.5 𝑘𝑚2
+
+Por tanto, los intervalos solicitados son: Creciente: (0,1) y Decreciente (1, +∞).
+
+Y tiene un máximo después de un día de monitorización del volcán, en el que se
+produce una mancha de ceniza en el mar de 7.5 𝑘𝑚2
+
+b) El técnico indica que con el tiempo desaparece la mancha. Para comprobarlo habrá
+que estudiar el límite al infinito del modelo:
+                                  10𝑡 + 5       0
+                              lim ( 2     + 5) = + 5 = 0 + 5 = 5
+                              𝑥→∞ 2𝑡 + 4        2
+Por tanto, tenderá al valor de 5 𝑘𝑚2 .
+
+No desaparecerá la mancha, quedando una mancha de unos 5 𝑘𝑚2
+
+c) Si se pone en marcha el cuarto día, la superficie de la mancha será:
+                         10 · 4 + 5     45      5
+                𝑓(4) =        2     +5=    + 5 = + 5 = 1.25 + 5 = 6.25 𝑘𝑚2
+                         2(4) + 4       36      4
+Si se mantiene esta superficie en el tiempo y la barredora recoge
+         6.25
+Tardará: 0.5 = 12.5 ℎ𝑜𝑟𝑎𝑠
+
+El prototipo recogerá la ceniza en 12.5 horas.
+
+
+
+
+                                                                          P á g i n a 4 | 14
+                                 PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                            PAU
+                                                  CURSO 2025–2026
+                           MATERIA: MATEMÁTICAS II                                                (4)
+
+
+
+                                      Bloque 2.- Álgebra
+                            1 2      0
+    2. Dada la matriz 𝐴 = ( 0 1      0).
+                           −1 1      1
+2   Hallar dos matrices cuadradas de dimensión 3 tal que al sumar la primera con el doble
+    de la segunda se obtiene la matriz 𝐴. Y, si se le resta a la primera el doble de la segunda
+    se obtiene la inversa de 𝐴.
+
+    Solución:
+    Solución:
+    Calculemos en primer lugar la inversa de la matriz A:
+                               1       2 0            1 2 0
+                           A=( 0       1 0) → |A| = | 0 1 0| = 1
+                              −1       1 1           −1 1 1
+    Calculamos la inversa de la matriz:
+
+                                               1 0          1
+                                    𝐴𝑑𝑗(𝐴) = (−2 1          −3)
+                                               0 0          1
+                              1 −2 0                         1         −2 0
+                                              1
+                   𝐴𝑑𝑗(𝐴)𝑡 = (0 1 0) ; A−1 = |A| (Adj A)t = (0         1 0)
+                              1 −3 1                         1         −3 1
+    Planteemos, ahora, el sistema de ecuaciones matriciales:
+                                            X + 2Y = A
+                                                        }
+                                           X − 2Y = A−1
+    sumando ambas ecuaciones:
+                                   1 2 0     1 −2 0    2 0 0
+                  2X = A + A−1 = ( 0 1 0) + (0 1 0) = (0 2 0)
+                                  −1 1 1     1 −3 1    0 −2 2
+
+                                    1 2 0       0      1 0        0
+                               X=     (0 2      0) = ( 0 1        0)
+                                    2
+                                       0 −2     2      0 −1       1
+    restando ambas ecuaciones:
+                                   1 2 0     1 −2 0     0 4 0
+                  4Y = A − A−1 = ( 0 1 0) − (0 1 0) = ( 0 0 0)
+                                  −1 1 1     1 −3 1    −2 4 0
+
+
+
+
+                                                                          P á g i n a 5 | 14
+    PRUEBA DE ACCESO A LA UNIVERSIDAD
+                      PAU
+                 CURSO 2025–2026
+MATERIA: MATEMÁTICAS II                                 (4)
+
+
+
+                  0 1        0
+     1 0 4 0      0 0        0
+  Y = ( 0 0 0) = (−1          )
+     4
+       −2 4 0        1       0
+                  2
+
+       1   0 0        0 1    0
+  X = (0              0 0
+           1 0); Y = (−1     0)
+       0   −1 1          1   0
+                      2
+
+
+
+
+                                   P á g i n a 6 | 14
+                                       PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                                      PAU
+                                                           CURSO 2025–2026
+                                 MATERIA: MATEMÁTICAS II                                                 (4)
+
+
+
+                                            Bloque 3.- Geometría
+      3. En el espacio tridimensional se conocen el siguiente plano y punto:
+                                           𝜋: 2𝑥 + 3𝑦 = 0 ; 𝑃(1, −5, 1)
+0.5     a) Hallar la recta r perpendicular al plano 𝜋 que pasa por el punto 𝑃.
+                                                         −𝑥 + 3𝑦 − 3𝑧 = −3
+1.5     b) Estudiar la posición relativa de la recta 𝑠: {                   con el plano 𝜋
+                                                          4𝑥 + 9𝑦 − 2𝑧 = −2
+      Solución:
+a) Hallemos la ecuación de la recta r, su vector director coincide con el vector normal de 𝜋
+   (al ser perpendiculares).
+                                                 𝑣⃗ = ⃗𝑛⃗ = (2,3,0)
+
+                                                      𝑥 = 1 + 2𝜆
+                                                 𝑟: {𝑦 = −5 + 3𝜆
+                                                        𝑧=1
+b) Estudiamos la posición relativa de una recta y un plano. En este caso sólo se pueden
+   dar tres casos: paralela al plano, ya sea contenida o no contenida en el plano, y
+   perpendicular al plano.
+      Estudio de los vectores de la recta y el plano:
+                                                     ⃗𝑛⃗(2,3,0)
+
+                        𝑖⃗ 𝑗⃗   𝑘⃗⃗
+                                       3     −3        −1 −3         −1 3 ⃗⃗                    ⃗⃗
+             𝑢
+             ⃗⃗⃗⃗⃗𝑠 = |−1 3     −3| = |9       | 𝑖⃗ − |      | 𝑗⃗ + |     | 𝑘 = 21𝑖⃗ − 14𝑗⃗ − 21𝑘
+                                             −2         4 −2          4 9
+                        4 9     −2
+                                                  ⃗⃗⃗⃗⃗(3,
+                                                  𝑢   𝑠    −2, −2)
+      Estudiamos el producto escalar para ver si son o no perpendiculares:
+                                           ⃗⃗⃗⃗⃗𝑠 = 2 · 3 − 3 · 2 + 0 · (−2) = 0
+                                     ⃗𝑛⃗ · 𝑢
+
+      Por tanto, ⃗𝑛⃗ ⊥ 𝑢   𝑠 con lo que puede ser la recta paralela o contenida en el plano.
+                       ⃗⃗⃗⃗⃗,
+      Buscamos un punto en la recta s y comprobamos si verifica la ecuación del plano. Si esto
+      fuera así, la recta estará contenida en el plano. En otro caso, será paralela.
+                                                 −𝑥 + 3𝑦 − 3𝑧 = −3
+                                             𝑠: {
+                                                  4𝑥 + 9𝑦 − 2𝑧 = −2
+                     −𝑥 + 3𝑦 = −3 −𝑥 + 3𝑦 = −3        −14  −2
+      Haciendo z=0, {              ,{           ; 𝑦 = 21 = 3
+                      4𝑥 + 9𝑦 = −2    21𝑦 = −14
+                                                       −2
+                                   𝑥 = 3𝑦 + 3 = 3 ·       + 3 = −2 + 3 = 1
+                                                       3
+                                                                                    P á g i n a 7 | 14
+                              PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                     PAU
+                                             CURSO 2025–2026
+                         MATERIA: MATEMÁTICAS II                                            (4)
+
+
+
+                    −2
+El punto será: 𝑃(1, 3 , 0)
+
+Sustituimos en la ecuación del plano:
+                         −2
+2𝑥 + 3𝑦 = 0 ; 2 · 1 + 3 · 3 = 2 − 2 = 0
+
+Como el punto de la recta P está en el plano, podemos afirmar que La recta 𝑠 está
+contenida en el plano 𝜋.
+
+La recta 𝑠 está contenida en el plano 𝜋
+
+
+
+Otra forma: Con el estudio de rangos.
+Estudiamos el sistema de ecuaciones formado por la recta y el plano:
+                                      2𝑥 + 3𝑦 = 0
+                                   −𝑥 + 3𝑦 − 3𝑧 = −3}
+                                   4𝑥 + 9𝑦 − 2𝑧 = −2
+Analizamos el rango de la matriz de coeficientes:
+                      2 3 0
+                     |−1 3 −3| = −12 + 0 − 36 − 0 + 54 − 6 = 0
+                      4 9 −2
+Por tanto, el rango de la matriz A es menor que 3.
+Pasamos a estudiar el rango de la matriz ampliada. Pero, como la columna de los
+términos independientes es igual a la columna del coeficiente z en la matriz A, esto hace
+que todos los determinantes de la matriz ampliada dan como resultado cero. Y, por tanto,
+el rango de la matriz ampliada es menor que 3.
+          2 3
+Además, |    | ≠ 0, por lo que el rango A = rango A*=2 < número de incógnitas
+         −1 3
+El sistema es compatible indeterminado. Y como es una recta y un plano, no queda más
+remedio que la recta esté contenida en el plano.
+
+  La recta 𝑠 está contenida en el plano 𝜋
+
+
+
+
+                                                                     P á g i n a 8 | 14
+                                  PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                             PAU
+                                                     CURSO 2025–2026
+                           MATERIA: MATEMÁTICAS II                                                 (4)
+
+
+
+                  Bloque 4.- Análisis II (seleccione solo una pregunta)
+    4A. Calcular la siguiente integral definida:
+2                                                2
+                                                ∫ 𝑥𝑒 𝑥 𝑑𝑥
+                                                 1
+
+
+    Solución:
+    Se calcula puede calcular primero la integral indefinida: ∫ 𝑥𝑒 𝑥 𝑑𝑥 y luego aplicar la
+    regla de Barrow.
+    Se trata de una integral por partes:
+    𝑢=𝑥         𝑑𝑣 = 𝑒 𝑥 𝑑𝑥
+    𝑑𝑢 = 𝑑𝑥 𝑣 = 𝑒 𝑥
+    Por lo tanto:
+                   ∫ 𝑥𝑒 𝑥 𝑑𝑥 = 𝑥𝑒 𝑥 − ∫ 𝑒 𝑥 𝑑𝑥 = 𝑥𝑒 𝑥 − 𝑒 𝑥 + 𝐶 = 𝑒 𝑥 (𝑥 − 1) + 𝐶
+    Finalmente:
+                      2
+                    ∫ 𝑥𝑒 𝑥 𝑑𝑥 = 𝑒 𝑥 (𝑥 − 1)|12 = (𝑒 2 (2 − 1)) − (𝑒1 (1 − 1)) = 𝑒 2
+                     1
+                                             2
+                                           ∫ 𝑥𝑒 𝑥 𝑑𝑥 = 𝑒 2
+                                            1
+
+
+
+
+                                                                              P á g i n a 9 | 14
+                                  PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                                     PAU
+                                                          CURSO 2025–2026
+                          MATERIA: MATEMÁTICAS II                                                          (4)
+
+
+
+    4B. Dada la siguiente función 𝑓(𝑥):
+                                               𝑎
+                                    1 + 𝑥−2 , 𝑥 < 1
+                            𝑓(𝑥) = {     𝑏          , con 𝑎 𝑦 𝑏 ∈ ℝ
+                                     𝑎+ , 𝑥≥1
+                                               √𝑥
+
+2      Estudiar para qué valores de 𝑎 y 𝑏 la función 𝑓(𝑥) es continua y derivable en todo ℝ.
+       Dar la expresión de la función resultante.
+    Solución:
+    Estudiamos la continuidad de la función. El primer tramo es una función racional, donde
+    el denominador se anula en 𝑥 = 2, pero no está en el dominio de definición. El segundo
+    tramo contiene una función irracional en el denominador de una fracción, el dominio de
+    dicho tramo es 𝑥 ∈ (0, +∞) y tampoco habría problema pues está definido para 𝑥 ≥ 1
+
+    Veamos entonces que ocurre en el punto de cambio de tramo, es decir 𝑥 = 1
+                                                𝑓(1) = 𝑎 + 𝑏
+                                                          𝑏
+                                           lim (𝑎 +   )=𝑎+𝑏
+                                          𝑥→1+      √𝑥
+                                                    𝑎
+                                        { lim− (1 +
+                                         𝑥→1
+                                                       ) = 1−𝑎
+                                                      𝑥−2
+
+    Para que sea continua en 𝑥 = 1,
+
+                        𝑓(1) = lim 𝑓(𝑥) ) ⇒ 𝑎 + 𝑏 = 1 − 𝑎 ⇒ 2𝑎 + 𝑏 = 1
+                                  𝑥→1
+
+    Estudiamos ahora su derivabilidad:
+                                                     −𝑎
+                                                           ,       𝑥<1
+                                                  (𝑥 − 2)2
+                                         𝑓′(𝑥) =     −𝑏
+                                                         ,         𝑥>1
+                                                 { 2𝑥 √𝑥
+
+    Existe la derivada para todo ℝ − {1}. Veamos que ocurre en 𝑥 = 1.
+                                                              −𝑎
+                                    𝑓′(1− ) = lim−                   = −𝑎
+                                                    𝑥→1   (𝑥 − 2)2
+                                                              −𝑏       −𝑏
+                                        𝑓′(1+ ) = lim+             =
+                                                     𝑥→1 2𝑥√𝑥          2
+
+    Para que sea derivable en x=1, se debe verificar:
+                                        −𝑏
+                                           = −𝑎       → 2𝑎 − 𝑏 = 0
+                                         2
+
+    Unimos las dos condiciones,
+
+                                2𝑎 + 𝑏 = 1                1                      1
+                            {              ⇒ 4𝑎 = 1 ⇒ 𝑎 =                   𝑏=
+                                2𝑎 − 𝑏 = 0                4                      2
+    Para que la función sea continua y derivable:
+                                                                                     P á g i n a 10 | 14
+                            PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                              PAU
+                                        CURSO 2025–2026
+                      MATERIA: MATEMÁTICAS II                                 (4)
+
+
+
+                                      1      1
+                                 𝑎=     𝑦 𝑏=
+                                      4      2
+La función resultante es:
+                                          1
+                                   1+           , 𝑥<1
+                                       4(𝑥 − 2)
+                            𝑓(𝑥) =
+                                     1    1
+                                       +     ,    𝑥≥1
+                                   { 4 2 √𝑥
+
+
+
+
+                                                        P á g i n a 11 | 14
+                                    PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                           PAU
+                                                   CURSO 2025–2026
+                              MATERIA: MATEMÁTICAS II                                             (4)
+
+
+
+                   Bloque 5.- Probabilidad (seleccione solo una pregunta)
+       5A. Un reciente estudio de bienestar tecnológico ha analizado el tiempo total diario (en
+       minutos) que los estudiantes de 2º de Bachillerato utilizan auriculares. Se asume que
+       este tiempo diario de uso se puede modelizar mediante una variable aleatoria con
+       distribución normal, de media 74 minutos y desviación típica de 20 minutos. El Servicio
+       Canario de la Salud considera que los jóvenes hacen un "uso moderado" de los
+       auriculares cuando lo utilizan menos de 50 minutos diarios.
+1.25     a) Si a la actual convocatoria de la PAU se presentan 4000 estudiantes, estimar
+            cuántos de ellos utilizan auriculares entre 70 y 80 minutos diarios.
+0.75     b) Determina el porcentaje de estudiantes que se presentaron a la PAU que hacen un
+             "uso moderado" de los auriculares.
+       Solución:
+a) 𝑋 =’número de minutos diarios que un alumno de 2º de Bachillerato utilizan auriculares’
+
+                                              𝑋~𝑁(74,20)
+                                        𝑇𝐼𝑃     70 − 74 𝑋 − 74 80 − 74
+                          𝑃(70 ≤ 𝑋 ≤ 80) =
+                                         ⏞ 𝑃(          ≤      ≤        )=
+                                                  20      20     20
+               𝑃(−0.2 ≤ 𝑍 ≤ 0.3) = 𝑃(−0.2 ≤ 𝑍 ≤ 0.3) = 𝑃(𝑍 ≤ 0.3) − 𝑃(𝑍 ≤ −0.2) =
+
+                   𝑃(𝑍 ≤ 0.3) − (1 − 𝑃(𝑍 ≤ −0.2)) = 0.6170 − 1 + 0.5793 = 0.1963
+
+                                      𝑃(70 ≤ 𝑋 ≤ 80) = 0.1963
+
+       Sabiendo en valor de esta probabilidad y que hay 4000 estudiantes obtenemos que, se
+       estima que lo utilicen este tiempo unos: 4000·0.1963≈ 785 estudiantes.
+
+       Habrá unos 785 estudiantes que se presentan a la PAU que utilizan auriculares entre
+       70 y 80 minutos diarios.
+
+b) Se hace un uso moderado de los auriculares cuando se utilizan menos de 50 minutos
+   al día
+                    𝑇𝐼𝑃     𝑋 − 74 50 − 74
+         𝑃(𝑋 < 50) =
+                   ⏞ 𝑃(           ≤        ) = 𝑃(𝑍 < −1.2) = 1 − 𝑃(𝑍 < 1.2) = 1 − 0.8849
+                              20     20
+                                         𝑃(𝑋 < 50) = 0.1151
+
+       El porcentaje de alumnos que se presentan a la PAU que hacen un uso moderado de
+       los auriculares es de 11,5%.
+
+
+
+
+                                                                          P á g i n a 12 | 14
+                                   PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                           PAU
+                                                    CURSO 2025–2026
+                             MATERIA: MATEMÁTICAS II                                               (4)
+
+
+
+       5B. El área de Medio Ambiente del Cabildo ha diseñado un plan de reforestación para
+       las zonas de cumbre afectadas por incendios. El plan incluye una técnica innovadora
+       que garantiza que tres de cada cinco semillas de pino canario germinan y sobrevive el
+       primer año. Para validar la eficacia de esta técnica, se han plantado 150 semillas en una
+       parcela experimental. Se supone que la supervivencia de la semilla es independiente
+       del resto.
+1.25     a) Calcular la probabilidad de que, en la parcela experimental, germinen y sobrevivan
+            entre 82 y 94 semillas el primer año.
+0.75     b) Los técnicos del Cabildo han decidido que, si tras el primer año de estudio de la
+            parcela experimental, germinan y sobreviven más de 80 semillas con una
+            probabilidad superior al 90%, se incorporará esta técnica innovadora al plan de
+            reforestación. En base a los datos, ¿incluirán esta técnica en el plan de
+            reforestación?
+       Solución:
+          a) 𝑋 = 𝑛ú𝑚𝑒𝑟𝑜 𝑑𝑒 𝑠𝑒𝑚𝑖𝑙𝑙𝑎𝑠 𝑞𝑢𝑒 𝑔𝑒𝑟𝑚𝑖𝑛𝑎𝑛 𝑦 𝑠𝑜𝑏𝑟𝑒𝑣𝑖𝑣𝑒𝑛 𝑒𝑙 𝑝𝑟𝑖𝑚𝑒𝑟 𝑎ñ𝑜.
+                                           3
+              En este caso 𝑛 = 150 y 𝑝 = 5 = 0.6
+              como 𝑛 ∙ 𝑝 = 90 ≥ 5 𝑦 𝑛 ∙ 𝑞 = 60 ≥ 5, podemos aproximar esta binomial a una
+              normal
+              𝜇 = 𝑛 ∙ 𝑝 = 90 y desviación típica 𝜎 = √𝑛 ∙ 𝑝 ∙ 𝑞 = 6
+                                                  𝑋~𝑁(90, 6)
+                                              𝑇𝐼𝑃   82 − 90 𝑋 − 90 94 − 90
+                           𝑃(82 < 𝑋 < 94) =
+                                          ⏞ 𝑃(             <      <        )=
+                                                       6      6       6
+
+                          𝑃(−1.33 < 𝑍 < 0.67) = 𝑃(𝑍 ≤ 0.67) − (1 − 𝑃(𝑍 ≤ 1.33))
+
+                               = 0.7486 − (1 − 0.9082) = 0.6568
+La probabilidad de que germinen y sobrevivan entre 82 y 94 semillas en esta parcela
+experimental es de 0.6568
+
+          a) La probabilidad solicitada es:
+                             𝑇𝐼𝑃        80 − 90
+                   𝑃(𝑋 > 80) =
+                             ⏞ 𝑃 (𝑍 >           ) = 𝑃(𝑍 > −1.67) = 𝑃 (𝑍 < 1.67) = 0.9525
+                                           6
+Por lo tanto, la probabilidad de que germinen y sobrevivan el primer año más de 80 semillas
+es de 0.9525
+Como es superior a 90% y, por tanto, se implementará esta técnica innovadora en el plan de
+reforestación.
+
+
+
+
+                                                                          P á g i n a 13 | 14
+                                 PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                     PAU
+                                              CURSO 2025–2026
+                        MATERIA: MATEMÁTICAS II                                                (4)
+
+
+
+
+           0     0,01     0,02      0,03     0,04     0,05      0,06      0,07      0,08       0,09
+  0   0,5000   0,5040   0,5080    0,5120   0,5160   0,5199   0,5239     0,5279    0,5319     0,5359
+0,1   0,5398   0,5438   0,5478    0,5517   0,5557   0,5596   0,5636     0,5675    0,5714     0,5753
+0,2   0,5793   0,5832   0,5871    0,5910   0,5948   0,5987   0,6026     0,6064    0,6103     0,6141
+0,3   0,6179   0,6217   0,6255    0,6293   0,6331   0,6368   0,6406     0,6443    0,6480     0,6517
+0,4   0,6554   0,6591   0,6628    0,6664   0,6700   0,6736   0,6772     0,6808    0,6844     0,6879
+0,5   0,6915   0,6950   0,6985    0,7019   0,7054   0,7088   0,7123     0,7157    0,7190     0,7224
+0,6   0,7257   0,7291   0,7324    0,7357   0,7389   0,7422   0,7454     0,7486    0,7517     0,7549
+0,7   0,7580   0,7611   0,7642    0,7673   0,7704   0,7734   0,7764     0,7794    0,7823     0,7852
+0,8   0,7881   0,7910   0,7939    0,7967   0,7995   0,8023   0,8051     0,8078    0,8106     0,8133
+0,9   0,8159   0,8186   0,8212    0,8238   0,8264   0,8289   0,8315     0,8340    0,8365     0,8389
+  1   0,8413   0,8438   0,8461    0,8485   0,8508   0,8531   0,8554     0,8577    0,8599     0,8621
+1,1   0,8643   0,8665   0,8686    0,8708   0,8729   0,8749   0,8770     0,8790    0,8810     0,8830
+1,2   0,8849   0,8869   0,8888    0,8907   0,8925   0,8944   0,8962     0,8980    0,8997     0,9015
+1,3   0,9032   0,9049   0,9066    0,9082   0,9099   0,9115   0,9131     0,9147    0,9162     0,9177
+1,4   0,9192   0,9207   0,9222    0,9236   0,9251   0,9265   0,9279     0,9292    0,9306     0,9319
+1,5   0,9332   0,9345   0,9357    0,9370   0,9382   0,9394   0,9406     0,9418    0,9429     0,9441
+1,6   0,9452   0,9463   0,9474    0,9484   0,9495   0,9505   0,9515     0,9525    0,9535     0,9545
+1,7   0,9554   0,9564   0,9573    0,9582   0,9591   0,9599   0,9608     0,9616    0,9625     0,9633
+1,8   0,9641   0,9649   0,9656    0,9664   0,9671   0,9678   0,9686     0,9693    0,9699     0,9706
+1,9   0,9713   0,9719   0,9726    0,9732   0,9738   0,9744   0,9750     0,9756    0,9761     0,9767
+  2   0,9772   0,9778   0,9783    0,9788   0,9793   0,9798   0,9803     0,9808    0,9812     0,9817
+2,1   0,9821   0,9826   0,9830    0,9834   0,9838   0,9842   0,9846     0,9850    0,9854     0,9857
+2,2   0,9861   0,9864   0,9868    0,9871   0,9875   0,9878   0,9881     0,9884    0,9887     0,9890
+2,3   0,9893   0,9896   0,9898    0,9901   0,9904   0,9906   0,9909     0,9911    0,9913     0,9916
+2,4   0,9918   0,9920   0,9922    0,9925   0,9927   0,9929   0,9931     0,9932    0,9934     0,9936
+2,5   0,9938   0,9940   0,9941    0,9943   0,9945   0,9946   0,9948     0,9949    0,9951     0,9952
+2,6   0,9953   0,9955   0,9956    0,9957   0,9959   0,9960   0,9961     0,9962    0,9963     0,9964
+2,7   0,9965   0,9966   0,9967    0,9968   0,9969   0,9970   0,9971     0,9972    0,9973     0,9974
+2,8   0,9974   0,9975   0,9976    0,9977   0,9977   0,9978   0,9979     0,9979    0,9980     0,9981
+2,9   0,9981   0,9982   0,9982    0,9983   0,9984   0,9984   0,9985     0,9985    0,9986     0,9986
+  3   0,9987   0,9987   0,9987    0,9988   0,9988   0,9989   0,9989     0,9989    0,9990     0,9990
+3,1   0,9990   0,9991   0,9991    0,9991   0,9992   0,9992   0,9992     0,9992    0,9993     0,9993
+3,2   0,9993   0,9993   0,9994    0,9994   0,9994   0,9994   0,9994     0,9995    0,9995     0,9995
+3,3   0,9995   0,9995   0,9995    0,9996   0,9996   0,9996   0,9996     0,9996    0,9996     0,9997
+3,4   0,9997   0,9997   0,9997    0,9997   0,9997   0,9997   0,9997     0,9997    0,9997     0,9998
+3,5   0,9998   0,9998   0,9998    0,9998   0,9998   0,9998   0,9998     0,9998    0,9998     0,9998
+3,6   0,9998   0,9998   0,9999    0,9999   0,9999   0,9999   0,9999     0,9999    0,9999     0,9999
+3,7   0,9999   0,9999   0,9999    0,9999   0,9999   0,9999   0,9999     0,9999    0,9999     0,9999
+3,8   0,9999   0,9999   0,9999    0,9999   0,9999   0,9999   0,9999     0,9999    0,9999     0,9999
+3,9   1,0000   1,0000   1,0000    1,0000   1,0000   1,0000   1,0000     1,0000    1,0000     1,0000
+
+
+                                                                       P á g i n a 14 | 14
+

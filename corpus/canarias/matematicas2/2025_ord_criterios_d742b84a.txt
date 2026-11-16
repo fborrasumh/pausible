@@ -1,0 +1,547 @@
+                                      PRUEBA DE ACCESO A LA UNIVERSIDAD
+                                                              PAU
+                                                      CURSO 2024–2025
+                             MATERIA: MATEMÁTICAS II                                                (1)
+
+                                                                 Convocatoria:
+Instrucciones:
+-   Debe responder sólo una pregunta de cada bloque de contenido. En caso de presentar dos
+    preguntas de un mismo bloque, se considerará sólo la primera pregunta respondida.
+-   En el desarrollo de cada pregunta, detalle y explique los procedimientos empleados para
+    solucionarla. Se califica todo el proceso.
+-   Se puede utilizar cualquier calculadora científica, no programable ni con conexión a internet
+
+
+                                    Criterios de calificación
+
+        A) Se valorará todo lo escrito en cada respuesta y no sólo el resultado final.
+
+        B) En las respuestas se corregirán los desarrollos necesarios y también las
+           explicaciones breves de los mismos.
+
+        C) Cada error cometido en una respuesta resta calificación en función de la
+           importancia de dicho error, pero no repercute en lo que se haya hecho
+           después, mientras lo realizado sea coherente con dicho error y tenga
+           sentido matemático.
+
+        D) Se penalizará cada notación gravemente incorrecta, que indique
+           desconocimiento de cuestiones importantes (por ejemplo, usar la notación
+           de determinante cuando se trata de una matriz o viceversa, confundir
+           coordenadas de vector o de punto).
+
+        E) Cuando sea necesario representar gráficamente una función, dicha
+           representación deberá basarse en características importantes de la
+           misma, que deberá obtener previamente, aunque en el enunciado de la
+           pregunta esto no se haya pedido de forma explícita.
+
+        F) Cuando haya que representar gráficamente una región plana, sea limitada
+           por rectas, sea limitada por curvas y rectas, o sea limitada por varias
+           curvas, no sólo habrá que representar correctamente los segmentos o
+           arcos que intervengan (según apartado E), sino que habrá que calcular
+           los puntos de corte entre ambas gráficas, si dichos puntos están
+           relacionados con la región pedida. Se dará cada uno de esos puntos con
+           sus dos coordenadas, aunque no se pida explícitamente.
+
+        G) Cuando se piden abscisas basta con la coordenada x. Cuando se piden
+           puntos deben dar las dos coordenadas.
+
+        H) Los rangos de las matrices hay que justificarlos (puede hacerse por la
+           técnica de menores orlados o reduciendo la matriz a una escalonada por
+           filas equivalentes)
+
+        I) En respuestas sobre geometría del espacio, no basta escribir una
+           ecuación pedida (o que se necesite para otro resultado), sino que se
+   requiere una explicación mínima de lo que significa geométricamente y de
+   dónde provienen los números que aparecen en esta como coeficientes.
+   Igualmente, cuando se trata de varias ecuaciones simultáneas
+   (ecuaciones de una recta o ecuaciones paramétricas de un plano).
+
+J) Los cálculos intermedios hay que hacerlos siempre en forma exacta (se
+   observa que algunos alumnos, desde el principio de una respuesta,
+   sustituyen algún valor por una mala aproximación decimal, con la cual
+   operan dando por bueno el resultado final obtenido, que suele estar muy
+   alejado del resultado correcto). Así uno de los objetivos a evaluar es una
+   operatoria adecuada y que conozcan el uso correcto de los números que
+   deben utilizar según el contexto de trabajo.
+
+K) Se exige utilizar correctamente los signos de igualdad y de aproximación.
+
+L) En los cálculos de probabilidad donde se proceda a realizar la
+   aproximación de la distribución binomial por la distribución normal se debe
+   justificar que el procedimiento se puede hacer.
+
+M) En los problemas de probabilidad se debe indicar el teorema que se utiliza
+   para realizar el cálculo de la probabilidad.
+
+N) Los problemas de probabilidad que utilicen la Distribución Binomial,
+   deberán escribir la fórmula de cálculo de la probabilidad.
+
+O) Las faltas de ortografía se penalizan. A partir de la tercera falta de
+   ortografía se penalizará con 0.1 puntos cada nueva falta ortográfica hasta
+   un máximo de 1 punto sobre el total de la calificación del examen.
+
+
+
+
+SE PROPONE UNA SOLUCIÓN CORRECTA. OTRAS SOLUCIONES CORRECTAS TAMBIÉN SE ACEPTAN
+                                       Bloque 1.- Análisis (Metabolix)
+       1. En un hospital de las Islas Canarias, un equipo de investigación está analizando cómo se
+       metaboliza en sangre un nuevo medicamento llamado Metabolix, utilizado para tratar
+       infecciones bacterianas. La concentración residual del fármaco en el plasma sanguíneo,
+       denotada como 𝑓(𝑥) (medida en miligramos por litro, 𝑚𝑔/𝐿), depende del tiempo
+       transcurrido 𝑥 (en horas) desde su administración. El estudio indica que el medicamento
+       sigue dos fases diferenciadas:
+       •   Fase de absorción: En las primeras dos horas, el fármaco se distribuye por el organismo.
+       •   Fase de eliminación: A partir de la segunda hora, el fármaco empieza a eliminarse.
+       Este comportamiento se modeliza mediante la siguiente función matemática:
+                                             𝑥 ! − 6𝑥 + 11   𝑠𝑖    0≤𝑥<2
+                                    𝑓(𝑥) = +        9
+                                                             𝑠𝑖      𝑥≥2
+                                               √5𝑥 − 1
+       El equipo de investigación necesita aclarar algunas dudas del modelo matemático:
+ 0.5   a) Confirmar si este modelo es realmente continuo. Justifica tu respuesta.
+0.75   b) La concentración residual varía con el tiempo, comprobar que la velocidad de crecimiento
+          instantánea de la concentración residual a las 3 horas de administrar Metabolix es mayor
+          que −0.5 (𝑚𝑔/𝐿)/ℎ.
+0.75   c) ¿Es cierto que la concentración residual del fármaco en la sangre siempre va
+          disminuyendo con respecto al tiempo transcurrido? Averiguar en qué instante la
+          concentración residual es máxima y calcular el valor de dicha concentración.
+ 0.5   d) Pasado un largo periodo de tiempo, ¿cuál será la concentración residual de este
+          medicamento?
+
+
+           Solución:
+               a) Analizamos la continuidad de los diferentes tramos de la función.
+                     • Primer tramo: f(x) es polinómica, por tanto, continua.
+                                                   𝟗
+                     • Segundo tramo: 𝑓(𝑥) =           . Como 𝑥 ≥ 2, se tiene que 5𝑥 − 1 > 0, por
+                                                 √𝟓𝒙&𝟏
+                         tanto la raíz y el cociente están bien definidos. Este segundo tramo
+                         también es continuo.
+           Analizamos la continuidad en el punto de cambio, 𝑥 = 2.
+                           𝑓 (2 ) = 3
+                  ⎧        !
+                    lim
+                  ⎪(→!! (𝑥   − 6𝑥 + 11) = 3
+                                *              ⇒ 𝐶𝑜𝑚𝑜 𝑓(2) = lim f(x), f(x) es continua en x=2.
+                  ⎨      lim"         =3                           (→!
+                  ⎪      (→! √+(&,
+                  ⎩
+           Se puede afirmar que le modelo es continuo.
+               b) La velocidad de crecimiento instantáneo es la derivada de f(x) en x=3,
+                              &.+                            &.+
+                  𝑓 - (𝑥) =
+                          !(+(&,)√+(&,
+                                      para 𝑥 > 2 ; 𝑓 - (3) =     ≈ −0.43 (𝑚𝑔/𝐿)/ℎ.
+                                                                  !1√,.
+
+           Por tanto, podemos afirmar que es cierto, la velocidad instantánea de crecimiento de la
+           concentración residual a las 3 horas de suministrar el medicamento es mayor que -0.5
+           (mg/L)/h.
+   c) Para saber si siempre disminuye analizamos el crecimiento de la función en cada
+      uno de los tramos,
+                                       2x − 6        𝑠𝑖 0 < 𝑥 < 2
+                        𝑓′(𝑥) = +       −45
+                                                    𝑠𝑖     𝑥>2
+                                  2(5𝑥 − 1)√5𝑥 − 1
+
+Como se observa en la expresión de la derivada, la derivada de la función es siempre
+negativa, por tanto, la concentración residual del Metabolix en sangre siempre
+disminuye.
+Como la función siempre disminuye la concentración máxima se alcanza al inicio, y su
+valor es
+                                     𝑓(0) = 11 𝑚𝑔/𝐿
+ La concentración del Metabolix en sangre en máxima justo en el momento que se
+ administra el medicamento y es de 11mg/L
+   d) Calculamos el comportamiento de la función cuando 𝑥 → ∞
+                                          9
+                                 lim             =0
+                                (→2    √5𝑥 − 1
+La concentración del Metabolix en sangre tiende a desaparecer cuando transcurre el
+tiempo.
+                        Bloque 2.- Álgebra (seleccione solo una pregunta)
+                                           1 𝑎−3
+      2A. Dada la matriz 𝑀 ∈ 𝑀!(! , 𝑀 = Q           S, con 𝑎 ∈ ℝ.
+                                          −1 2 − 𝑎
+ 1    a) Para cualquier valor del parámetro 𝑎: comprobar que 𝑀 es invertible y dar la expresión
+         de 𝑀&, .
+1.5   b) Para 𝑎 = −1, calcula el valor de la matriz 𝑋 que satisface la ecuación 𝑀𝐴 = 𝐵 − 𝑀𝑋,
+      siendo:
+              0 −1 3         1 0 3
+          𝐴=Q        S y 𝐵=Q      S
+              1 2 −2        −1 2 1
+          Solución:
+             a) La matriz 𝑀 tiene inversa si y sólo si |𝑀| ≠ 0.
+                                        1 𝑎−3
+                                |𝑀| = ^           ^ = 2 − 𝑎 + 𝑎 − 3 = −1 ≠ 0
+                                       −1 2 − 𝑎
+          Por tanto, la matriz 𝑀 siempre tiene inversa.
+          Calculamos la matriz inversa,
+                                       2−a 1                  2−a 3−𝑎
+                            𝐴𝑑𝑗(𝑀) = Q         S ; 𝐴𝑑𝑗(𝑀)3 = Q        S
+                                       3−a 1                   1    1
+                                          1              a−2 𝑎−3
+                                   𝑀&, =     𝐴𝑑𝑗(𝑀)3 = Q          S
+                                         |𝑀|              −1   −1
+          b) Despejamos la matriz 𝑋 de la ecuación matricial,
+          𝑀𝐴 = 𝐵 − 𝑀𝑋;     𝑀𝑋 = 𝐵 − 𝑀𝐴; 𝑋 = 𝑀&, (𝐵 − 𝑀𝐴)
+                                  1 −4       0 −1 3     −4 −9 11
+                            𝑀𝐴 = Q       S∙Q         S=Q          S
+                                 −1 3        1 2 −2      3   7 −9
+                                  1 0 3        −4 −9 11     5  9 −8
+                      𝐵 − 𝑀𝐴 = Q           S−Q          S=Q         S
+                                 −1 2 1          3 7 −9    −4 −5 10
+                  −3 −4
+          𝑀&, = Q       S (usando el apartado a))
+                  −1 −1
+          Finalmente,
+
+
+                                       −3 −4      5    9 −8       1 −7 −16
+                   𝑋 = 𝑀&, (𝐵 − 𝑀𝐴) = Q       S·Q             S=Q          S
+                                       −1 −1     −4 −5 10         −1 −4 −2
+                          1 −7 −16
+          Solución, 𝑋 = Q            S
+                         −1 −4 −2
+                                    Notación matemática correcta
+
+
+          Otra forma: 𝑀𝐴 = 𝐵 − 𝑀𝑋;        𝑀𝑋 = 𝐵 − 𝑀𝐴; 𝑋 = 𝑀&, (𝐵 − 𝑀𝐴) = 𝑀&, 𝐵 − 𝐴
+                     −3 −4                   −3 −4      1 0 3      1 −8 −13
+              𝑀&, = Q     S;       𝑀&, 𝐵 = Q       S·Q         S=Q         S
+                     −1 −1                   −1 −1     −1 2 1      0 −2 −4
+                           1 −8 −13       0 −1 3           1 −7 −16
+                       𝑋=Q           S−Q            S=Q             S
+                           0 −2 −4        1 2 −2          −1 −4 −2
+                                               1 −7 −16
+                               Solución, 𝑋 = Q              S
+                                              −1 −4 −2
+                              Notación matemática correcta
+                                5 −4 2
+       2B. Dada la matriz 𝐴 = g 2 𝑘 1i , con 𝑘 ∈ ℝ.
+                               −4 4 𝑘
+1.25   a) Estudiar el rango de 𝐴 según los valores del parámetro 𝑘.
+1.25   b) Para 𝑘 = −1, comprobar que 𝐴! = 2𝐴 − 𝐼, donde 𝐼 denota la matriz identidad de orden
+          3. Además, utilizando la igualdad anterior verifica, sin calcular la potencia, que 𝐴" =
+         4𝐴 − 3𝐼.
+           Solución:
+               a) El rango máximo de la matriz 𝐴 es 3 y eso ocurre cuando su determinante sea
+                  distinto de cero,
+                                5 −4 2
+                        |𝐴| = j 2    𝑘 1j = 5𝑘 ! + 16 + 16 + 8𝑘 − 20 + 8𝑘 = 5𝑘 ! + 16𝑘 + 12
+                               −4 4 𝑘
+                                                                         −6
+                                      5𝑘 ! + 16𝑘 + 12 = 0 ⇔ 𝑘 = −2, 𝑘 =
+                                                                          5
+                                  &4
+              • Si 𝑘 ≠ −2 𝑦 𝑘 ≠ + , el 𝑟𝑎𝑛𝑔(𝐴) = 3
+              • Si 𝑘 = −2 ,
+                                                     5 −4 2
+                                               𝐴 = g 2 −2 1 i
+                                                    −4 4 −2
+              Tomando el menor
+                                      5 −4
+                                     ^    ^ = −10 + 8 = −2 ≠ 0
+                                      2 −2
+           Obtenemos que el 𝑟𝑎𝑛𝑔(𝐴) = 2.
+                                             5      −4    2
+                                                     &4
+                                          𝐴=o2            1p
+                            &4
+               •   Si 𝑘 = +                          +
+                                                          &4
+                                               −4    4    +
+                             5 2
+           Tomando el menor ^    ^=5−4=1≠0
+                             2 1
+           Obtenemos que el 𝑟𝑎𝑛𝑔(𝐴) = 2.
+
+               b) Calculamos 𝐴! ,
+                                     5    −4   2     5     −4    2    9      −8     4
+                                 !
+                                 𝐴 =)2    −1   1 *∙) 2     −1    1*=)4       −3     2*
+                                     −4   4    −1   −4      4   −1   −8       8    −3
+           Ahora calculamos 2𝐴 − 𝐼,
+
+
+                            5
+                           −4 2        1        0   0      9    −8    4
+           2𝐴 − 𝐼 = 2 ) 2  −1 1 * − )0          1   0* = ) 4    −3    2 *,
+                      −4 4 −1          0        0   1     −8    8     −3
+           Y se comprueba la igualdad.
+           Por otro lado,
+                   𝐴. = 𝐴! · 𝐴! =(2𝐴 − 𝐼) · (2𝐴 − 𝐼) = 4𝐴! − 2𝐴 − 2𝐴 + 𝐼 = 4(2𝐴 − 𝐼) − 4𝐴 +
+                   𝐼 = 4𝐴 − 3𝐼
+           Uso correcto de la notación matemática
+                             Bloque 3.- Geometría (seleccione solo una pregunta)
+
+       3A. En el espacio tridimensional, dados el punto P y las rectas r1 y r2 siguientes:
+                                                  4𝑥 + 3𝑦 − 3𝑧 = 2       (56         75.
+                         𝑃(2, −1, 1) ; 𝑟, : s                      ; 𝑟! : ! = 2 − 𝑦 = 6
+                                                  2𝑥 − 3𝑦 − 6𝑧 = 1
+0.25   a) Comprobar que 𝑃 ∈ 𝑟, y que 𝑃 ∉ 𝑟!
+  1    b) Hallar la distancia entre el punto P y el punto de intersección de las rectas 𝑟, y 𝑟!
+1.25   c) Hallar el ángulo con el que se cortan las rectas 𝑟, y 𝑟!
+           Solución:
+                a) Verificamos si 𝑃 ∈ 𝑟,
+                𝑃 = (2, −1, 1)
+                                     4 · 2 + 3(−1) − 3 · 1 = 8 − 3 − 3 = 2
+                 4𝑥 + 3𝑦 − 3𝑧 = 2v →                                       w → 𝑃(2, −1, 1) ∈ 𝑟,
+           𝑟, : s                    2 · 2 − 3(−1) − 6 · 1 = 4 + 3 − 6 = 1
+                 2𝑥 − 3𝑦 − 6𝑧 = 1
+           Comprobamos a continuación que el punto 𝑃 no está en la recta 𝑟!
+
+                      𝑃 = (2, −1, 1)          2+3              1+4 5     5
+                     𝑥+3             𝑧 + 4v →     ⏟ 2 − (−1) =
+                                                  =          ⏟    → ≠ 3 ≠ → 𝑃(2, −1, 1) ∉ 𝑟!
+                𝑟! :     =2−𝑦 =                2 ?           ?
+                                                                3  2     3
+                      2                3
+
+           b) Hallemos en primer lugar el punto de intersección de las rectas 𝑟, y 𝑟!
+                𝑥+3          𝑧+4       𝑥 = 2𝜆 − 3
+           𝑟! :     =2−𝑦 =         →y𝑦 =2−𝜆
+                 2             3
+                                       𝑧 = 3𝜆 − 4
+                 4𝑥 + 3𝑦 − 3𝑧 = 2   4(2𝜆 − 3) + 3(2 − 𝜆) − 3(3𝜆 − 4) = 2
+           𝑟, : s                 →s                                     →
+                 2𝑥 − 3𝑦 − 6𝑧 = 1   2(2𝜆 − 3) − 3(2 − 𝜆) − 6(3𝜆 − 4) = 1
+
+            8𝜆 − 12 + 6 − 3𝜆 − 9𝜆 + 12 = 2    −4𝜆 + 6 = 2
+           {                               →{              →𝜆=1
+            4𝜆 − 6 − 6 + 3𝜆 − 18𝜆 + 24 = 1   −11𝜆 + 12 = 1
+
+            𝑥 = 2𝜆 − 3    𝑥 =2·1−3      𝑥 = −1
+           y 𝑦 = 2 − 𝜆 → y 𝑦 = 2 − 1 → y 𝑦 = 1 → 𝑄 = (−1, 1, − 1)
+            𝑧 = 3𝜆 − 4    𝑧 =3·1−4      𝑧 = −1
+
+           Hallemos, ahora, la distancia entre los puntos 𝑃 = (2, −1, 1) y 𝑄 = (−1, 1, − 1)
+                                                          !
+           𝑑(𝑃, 𝑄) = }(−1 − 2)! + ~1 − (−1)• + (−1 − 1)! = €(−3)! + (2)! + (−2)! =
+           = √9 + 4 + 4 = √17 = 4.12 𝑢
+
+                                                       𝑑(𝑃, 𝑄) = √17 = 4.12 𝑢
+           c)
+                      𝚤⃗  𝚥⃗    𝑘ƒ⃗
+           𝑣
+           ƒƒƒƒƒ⃗
+              9#  = …4 3 −3… = −27𝚤⃗ + 18𝚥⃗ − 18𝑘ƒ⃗ = (−27, +18, −18) ≡ (3, − 2, 2)
+                     2 −3 −6
+           𝑣
+           ƒƒƒƒƒ⃗
+              9$  = (2,  −1, 3)
+
+                                ƒƒƒƒƒ⃗
+                               ‹𝑣  9# · 𝑣
+                                        ƒƒƒƒƒ⃗‹
+                                           9$         |(3, −2, 2) · (2, −1, 3)|         |14|
+                     𝑐𝑜𝑠𝛼 =                       =                               =               = 0.9074 →
+                              ‹𝑣
+                               ƒƒƒƒƒ⃗‹
+                                  9# · ‹𝑣
+                                        ƒƒƒƒƒ⃗‹
+                                           9$         √9 + 4 + 4 · √4 + 1 + 9         √17 · √14
+                                        𝛼 = 𝑐𝑜𝑠 &, (0.9074) = 24.83° = 24°50′24′′
+      3B. En el espacio tridimensional se consideran los siguientes elementos geométricos:
+                                                                       4𝑥 − 7𝑦 + 2𝑧 = 7
+                        𝐴(1,0,2); 𝜋: −𝑥 + 2𝑦 + 𝑧 + 1 = 0 ;      𝑟: s
+                                                                        𝑦 − 2𝑧 + 5 = 0
+ 1    a) Hallar la posición relativa del plano 𝜋 y la recta 𝑟
+1.5   b) Hallar el punto simétrico de 𝐴 con respecto del plano 𝜋
+
+
+          Solución:
+              a) Veamos si recta y plano se intersecan, para ello vamos a expresar la recta 𝑟 en
+                 paramétricas y sustituiremos en la ecuación del plano.
+              Calculamos el vector director de la recta:
+
+                                       𝚤⃗ 𝚥⃗ ƒ⃗
+                                             𝑘
+                              𝑣                                 ƒ⃗ = (12, 8, 4) ≡ (3, 2, 1)
+                              ƒƒƒ⃗9 = …4 −7 2 … = 12𝚤⃗ + 8𝚥⃗ + 4𝑘
+                                       0 1 −2
+                                             4𝑥 − 7𝑦 + 2𝑧 = 7
+          Averiguamos un punto de la recta: s
+                                              𝑦 − 2𝑧 + 5 = 0
+
+          Hacemos 𝑧 = 0, entonces 𝑦 = −5, y con estos datos sustituímos en la primera
+                                         :&6+
+          ecuación y el valor de 𝑥 =       .
+                                                = −7
+
+          El punto será 𝑃(−7, −5, 0)
+
+                                                           𝑥 = −7 + 3𝜆
+                                                       𝑟: y𝑦 = −5 + 2𝜆
+                                                              𝑧=𝜆
+
+                                         𝜋: − (−7 + 3 𝜆) + 2(−5 + 2𝜆) + 𝜆 + 1 = 0
+                                                   −2 + 2𝜆 = 0; 𝜆 = 1;
+          Por tanto, recta y plano se intersecan en el punto 𝑄(−4, −3,1)
+              b) Para hallar el punto simétrico de 𝐴 respecto del plano 𝜋, construimos la recta
+                 perpendicular al plano que pase por 𝐴, hallamos la intersección con el plano 𝜋 y
+                 dicho punto será el punto medio entre A y su simétrico A’.
+                 Como la recta es perpendicular al plano, su vector director será el vector normal
+                 del plano, por tanto la ecuación en paramétricas de dicha resta es
+                                                             𝑥 =1−𝜆
+                                                         𝑠: y 𝑦 = 2𝜆
+                                                             𝑧 =2+𝜆
+                 Sustituimos en la ecuación del plano
+                                                                               −1
+                                          −1 + 𝜆 + 4𝜆 + 2 + 𝜆 + 1 = 0; 𝜆 =        .
+                                                                                3
+                 Con lo que el punto de intersección, punto medio de A y su simétrico es,
+                                                               4 −2 5
+                                                       𝑃; = Ž ,     , •
+                                                               3 3 3
+                                        , &! &,
+                             ƒƒƒƒƒƒƒƒ⃗
+                 Y el vector 𝐴𝑃    ; = Q6 , 6 , 6 S, con lo que el punto simétrico de A es
+                                      + &. .
+                            ƒƒƒƒƒƒƒƒ⃗
+                  𝐴- = 𝐴 + 2𝐴𝑃    ; =Q6 , 6 , 6S
+                      Bloque 4.- Probabilidad (seleccione solo una pregunta)
+      4A. En una feria, un participante tiene la oportunidad de ganar premios eligiendo entre tres
+      cajas sorpresa: una con premio y dos vacías. Hay una regla especial si se selecciona una
+      caja vacía:
+        En caso de elegir una caja sin premio, se debe extraer al azar una bola de una urna
+        compuesta por 2 bolas verdes y 3 negras, de idéntica forma y tamaño. Si se elige la bola
+        negra, finaliza la jugada sin premio. Si se elige la bola verde, tendrá la oportunidad de
+        elegir una nueva caja, de las dos cajas no seleccionadas anteriormente, y acabaría la
+        jugada.
+      Responder a las siguientes cuestiones:
+0.5   a) Dibujar un diagrama de árbol que refleje todos los posibles casos de este juego.
+ 1
+      b) Calcular la probabilidad de obtener premio en este juego.
+  1   c) Si el participante ha obtenido premio, ¿cuál es la probabilidad de que haya elegido una
+         bola verde en la urna?
+
+
+          Solución:
+          a) Dibujamos el árbol con los posibles resultados del juego
+
+
+
+
+          b) Definimos lo siguientes sucesos:
+                 o G1=’elegir la caja premiada en el primer intento’
+                 o NG1=’elegir una de las cajas no premiadas en el primer intento’
+                 o G2=’elegir la caja premiada en el 2º intento’
+                 o NG2=’elegir una de las cajas no premiadas en el 2º intento’
+                 o V=’sacar bola verde’
+                 o N=’sacar bola negra’
+          La probabilidad de que obtener premio se calcula aplicando el teorema de la
+          probabilidad total:
+                                                                                 1 2 2 1
+              𝑃(′𝑔𝑎𝑛𝑎𝑟 𝑝𝑟𝑒𝑚𝑖𝑜′) = 𝑃(𝐺, ) + 𝑃(𝑁𝐺, ) ∙ 𝑃 Q𝑉•𝑁𝐺 S ∙ 𝑃(𝐺! |𝑁𝐺, ∩ 𝑉) = + · ∙
+                                                            ,                    3 3 5 2
+                             1 2        7
+                           = +      =
+                             3 15 15
+                                               :
+          La probabilidad de ganar premio es ,+ ≈ 0.47
+
+          c) Utilizamos el teorema del Bayes para el cálculo de esta probabilidad
+                                                         𝑃(𝑉) · 𝑃(′𝑔𝑎𝑛𝑎𝑟 𝑝𝑟𝑒𝑚𝑖𝑜- /𝑉)
+                                 𝑃(𝑉| "𝐺𝑎𝑛𝑎𝑟 𝑝𝑟𝑒𝑚𝑖𝑜") =
+                                                             𝑃( - 𝑔𝑎𝑛𝑎𝑟𝑝𝑟𝑒𝑚𝑖𝑜′)
+                                          4 1
+                                             ·
+                                        = 15   2 = 2.
+                                            7      7
+                                           15
+                                                  2 2 4
+                      𝑃(𝑉)=P(𝑁𝐺, ) · 𝑃 Q𝑉•𝑁𝐺 S = · =
+                                             ,    3 5 15
+
+La probabilidad de haber sacada una bola verde sabiendo que ha ganado un premio
+      !
+es de ,+ ≈ 0.27.
+       4B. La temperatura diurna en el Parque Nacional de las Cañadas del Teide durante el mes
+       de agosto sigue una distribución normal. La temperatura media durante el día es de 22ºC
+       con desviación típica de 5ºC. Además, se sabe que, las condiciones ideales para realizar
+       senderismo es cuando la temperatura diurna se sitúa entre 18ºC y 25ºC. Si se superan los
+       30ºC, los excursionistas tendrían un riesgo elevado de insolación. Mientras que, si la
+       temperatura se sitúa por debajo de los 15ºC, existe riesgo de cambios meteorológicos
+       bruscos previstos para ese día.
+       Se está elaborando una guía informativa para los servicios de emergencia. Responder a lo
+       siguiente:
+0.75   a) ¿Qué probabilidad hay de que un día de agosto se den las condiciones ideales para
+          realizar senderismo?
+0.75   b) ¿Cuántos días de agosto se espera que haya senderistas con riesgo de insolación?
+  1    c) Si las Cañadas del Teide recibe un promedio de 11000 visitantes diarias en el mes de
+          agosto y, de ellos, un 5% realiza senderismo. ¿Cuántos senderistas se estima que se
+          puedan ver afectados por cambios meteorológicos bruscos a lo largo de dicho mes?
+           Solución:
+              a) X=’temperatura diurna en un día de agosto en ℃’ 𝑋~𝑁(22,5)
+                                        18 − 22        25 − 22
+                   𝑃(18 ≤ 𝑋 ≤ 25) = 𝑃 Ž          ≤𝑍≤          • = 𝑃(−0.8 ≤ 𝑍 ≤ 0.6)
+                                           5              5
+                                  = 𝑃(𝑍 ≤ 0.6) − 𝑃(𝑍 ≥ 0.8) = 𝑃(𝑍 ≤ 0.6) − ~1 − 𝑃(𝑍 ≤ 0.8)•
+                                  = 0.7257 − (1 − 0.7881) = 0.5138
+
+
+           La probabilidad de que en un día de agosto se den las condiciones ideales para el
+           senderismo es 0.5138
+
+              b) Agosto es un mes de 31 días, calculamos primero la probabilidad de estar en
+                 riego de insolación
+                                         30 − 22
+                    𝑃(𝑋 > 30) = 𝑃 Ž𝑍 >           • = 𝑃(𝑍 ≥ 1.6) = 1 − 𝑃(𝑍 ≤ 1.6) = 1 − 0.9452
+                                            5
+                                   = 0.0548
+                 Con este dato, podemos decir que el número esperado de días en el mes de
+                 agosto donde existe peligro de insolación es 31 ∙ 0.0548 = 1.6988~2 𝑑í𝑎𝑠
+              c) Número de visitantes por día es 11.000, de ellos practican senderismo 0.05 ∙
+                 11000 = 550 𝑝𝑒𝑟𝑠𝑜𝑛𝑎𝑠/𝑑í𝑎. Ahora calculamos la probabilidad de que exista
+                 cambios bruscos de temperatura es un día de agosto.
+                                       15 − 22
+                   𝑃(𝑋 ≤ 15) = 𝑃 Ž𝑍 ≤          • = 𝑃(𝑍 ≤ −1.4) = 1 − 𝑃(𝑍 ≤ 1.4) = (1 − 0.9192)
+                                          5
+                                 = 0.0808
+                 Sabiendo esta probabilidad, el número de días del mes de agosto donde se
+                 esperan cambios bruscos de temperatura es 0.0808 · 31 = 2.5 ≈ 3 𝑑í𝑎𝑠
+                 Por tanto, se verán afectadas unas 1650 personas por los cambios bruscos de
+                 temperatura.
+           0      0,01      0,02      0,03      0,04      0,05      0,06      0,07      0,08      0,09
+  0   0,5000   0,5040    0,5080    0,5120    0,5160    0,5199    0,5239    0,5279    0,5319    0,5359
+0,1   0,5398   0,5438    0,5478    0,5517    0,5557    0,5596    0,5636    0,5675    0,5714    0,5753
+0,2   0,5793   0,5832    0,5871    0,5910    0,5948    0,5987    0,6026    0,6064    0,6103    0,6141
+0,3   0,6179   0,6217    0,6255    0,6293    0,6331    0,6368    0,6406    0,6443    0,6480    0,6517
+0,4   0,6554   0,6591    0,6628    0,6664    0,6700    0,6736    0,6772    0,6808    0,6844    0,6879
+0,5   0,6915   0,6950    0,6985    0,7019    0,7054    0,7088    0,7123    0,7157    0,7190    0,7224
+0,6   0,7257   0,7291    0,7324    0,7357    0,7389    0,7422    0,7454    0,7486    0,7517    0,7549
+0,7   0,7580   0,7611    0,7642    0,7673    0,7704    0,7734    0,7764    0,7794    0,7823    0,7852
+0,8   0,7881   0,7910    0,7939    0,7967    0,7995    0,8023    0,8051    0,8078    0,8106    0,8133
+0,9   0,8159   0,8186    0,8212    0,8238    0,8264    0,8289    0,8315    0,8340    0,8365    0,8389
+  1   0,8413   0,8438    0,8461    0,8485    0,8508    0,8531    0,8554    0,8577    0,8599    0,8621
+1,1   0,8643   0,8665    0,8686    0,8708    0,8729    0,8749    0,8770    0,8790    0,8810    0,8830
+1,2   0,8849   0,8869    0,8888    0,8907    0,8925    0,8944    0,8962    0,8980    0,8997    0,9015
+1,3   0,9032   0,9049    0,9066    0,9082    0,9099    0,9115    0,9131    0,9147    0,9162    0,9177
+1,4   0,9192   0,9207    0,9222    0,9236    0,9251    0,9265    0,9279    0,9292    0,9306    0,9319
+1,5   0,9332   0,9345    0,9357    0,9370    0,9382    0,9394    0,9406    0,9418    0,9429    0,9441
+1,6   0,9452   0,9463    0,9474    0,9484    0,9495    0,9505    0,9515    0,9525    0,9535    0,9545
+1,7   0,9554   0,9564    0,9573    0,9582    0,9591    0,9599    0,9608    0,9616    0,9625    0,9633
+1,8   0,9641   0,9649    0,9656    0,9664    0,9671    0,9678    0,9686    0,9693    0,9699    0,9706
+1,9   0,9713   0,9719    0,9726    0,9732    0,9738    0,9744    0,9750    0,9756    0,9761    0,9767
+  2   0,9772   0,9778    0,9783    0,9788    0,9793    0,9798    0,9803    0,9808    0,9812    0,9817
+2,1   0,9821   0,9826    0,9830    0,9834    0,9838    0,9842    0,9846    0,9850    0,9854    0,9857
+2,2   0,9861   0,9864    0,9868    0,9871    0,9875    0,9878    0,9881    0,9884    0,9887    0,9890
+2,3   0,9893   0,9896    0,9898    0,9901    0,9904    0,9906    0,9909    0,9911    0,9913    0,9916
+2,4   0,9918   0,9920    0,9922    0,9925    0,9927    0,9929    0,9931    0,9932    0,9934    0,9936
+2,5   0,9938   0,9940    0,9941    0,9943    0,9945    0,9946    0,9948    0,9949    0,9951    0,9952
+2,6   0,9953   0,9955    0,9956    0,9957    0,9959    0,9960    0,9961    0,9962    0,9963    0,9964
+2,7   0,9965   0,9966    0,9967    0,9968    0,9969    0,9970    0,9971    0,9972    0,9973    0,9974
+2,8   0,9974   0,9975    0,9976    0,9977    0,9977    0,9978    0,9979    0,9979    0,9980    0,9981
+2,9   0,9981   0,9982    0,9982    0,9983    0,9984    0,9984    0,9985    0,9985    0,9986    0,9986
+  3   0,9987   0,9987    0,9987    0,9988    0,9988    0,9989    0,9989    0,9989    0,9990    0,9990
+3,1   0,9990   0,9991    0,9991    0,9991    0,9992    0,9992    0,9992    0,9992    0,9993    0,9993
+3,2   0,9993   0,9993    0,9994    0,9994    0,9994    0,9994    0,9994    0,9995    0,9995    0,9995
+3,3   0,9995   0,9995    0,9995    0,9996    0,9996    0,9996    0,9996    0,9996    0,9996    0,9997
+3,4   0,9997   0,9997    0,9997    0,9997    0,9997    0,9997    0,9997    0,9997    0,9997    0,9998
+3,5   0,9998   0,9998    0,9998    0,9998    0,9998    0,9998    0,9998    0,9998    0,9998    0,9998
+3,6   0,9998   0,9998    0,9999    0,9999    0,9999    0,9999    0,9999    0,9999    0,9999    0,9999
+3,7   0,9999   0,9999    0,9999    0,9999    0,9999    0,9999    0,9999    0,9999    0,9999    0,9999
+3,8   0,9999   0,9999    0,9999    0,9999    0,9999    0,9999    0,9999    0,9999    0,9999    0,9999
+3,9   1,0000   1,0000    1,0000    1,0000    1,0000    1,0000    1,0000    1,0000    1,0000    1,0000
+
