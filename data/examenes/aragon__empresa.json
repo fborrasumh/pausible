@@ -1,0 +1,78 @@
+{
+ "ccaa": "aragon",
+ "materia": "empresa",
+ "titulo": "PAU Aragón 2027 — Empresa y Diseño de Modelos de Negocio / Economía de la Empresa",
+ "duracion_min": 90,
+ "instrucciones": "La prueba consta de dos bloques y se califica sobre 10 puntos. En el bloque 1, responda íntegramente a los ejercicios 1 y 2, de 3,5 puntos cada uno; sus apartados son inseparables. En el bloque 2, lea el caso del ejercicio 3 y conteste únicamente tres de sus seis cuestiones posibles (a-f); cada cuestión vale 1 punto. En los cálculos, indique las operaciones y exprese los resultados con claridad. Las situaciones se plantean en contextos empresariales para aplicar los conceptos a la toma de decisiones.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "contabilidad",
+   "puntos": 3.5,
+   "tipo": "calculo",
+   "enunciado": "BLOQUE 1. EJERCICIO 1 (3,5 puntos). La empresa aragonesa MONTESOL, S.L., que fabrica mobiliario para comercios, presenta las siguientes cuentas de balance, en euros: Terrenos y bienes naturales: 120.000; Maquinaria: 80.000; Equipos informáticos: 40.000; Materias primas: 30.000; Productos terminados: 20.000; Clientes: 40.000; Bancos: 25.000; Caja: 5.000; Capital social: 180.000; Reservas: 30.000; Resultado del ejercicio: 10.000; Deudas a largo plazo con entidades de crédito: 80.000; Proveedores: 40.000; Deudas a corto plazo con entidades de crédito: 20.000. El total del activo y el total del patrimonio neto y pasivo ascienden a 360.000 euros.\n\na) Ordene las cuentas en un balance de situación, agrupándolas por masas patrimoniales y, cuando proceda, por sus subdivisiones. Compruebe que ambos lados del balance coinciden. (1,5 puntos)\nb) Calcule e interprete: ratio de garantía = activo total / pasivo total; ratio de endeudamiento total = pasivo total / patrimonio neto; ratio de tesorería = (realizable + disponible) / pasivo corriente. Considere como realizable la cuenta de clientes y como disponible bancos y caja. (1,2 puntos)\nc) Calcule el fondo de maniobra mediante $FM=activo\\ corriente-pasivo\\ corriente$ e interprete el resultado para la capacidad de la empresa de atender sus obligaciones a corto plazo. (0,8 puntos)",
+   "solucion": "### a) Balance de situación\n\n| ACTIVO | € | PATRIMONIO NETO Y PASIVO | € |\n|---|---:|---|---:|\n| **Activo no corriente** | **240.000** | **Patrimonio neto** | **220.000** |\n| Terrenos y bienes naturales | 120.000 | Capital social | 180.000 |\n| Maquinaria | 80.000 | Reservas | 30.000 |\n| Equipos informáticos | 40.000 | Resultado del ejercicio | 10.000 |\n| **Activo corriente** | **120.000** | **Pasivo no corriente** | **80.000** |\n| Existencias: materias primas | 30.000 | Deudas a largo plazo con entidades de crédito | 80.000 |\n| Existencias: productos terminados | 20.000 | **Pasivo corriente** | **60.000** |\n| Realizable: clientes | 40.000 | Proveedores | 40.000 |\n| Disponible: bancos | 25.000 | Deudas a corto plazo con entidades de crédito | 20.000 |\n| Disponible: caja | 5.000 |  |  |\n| **TOTAL ACTIVO** | **360.000** | **TOTAL PATRIMONIO NETO Y PASIVO** | **360.000** |\n\nComprobación: activo total = $240.000+120.000=360.000$ euros. Patrimonio neto y pasivo = $220.000+80.000+60.000=360.000$ euros. Ambos lados coinciden.\n\n### b) Ratios\n\nEl pasivo total es $80.000+60.000=140.000$ euros y el patrimonio neto es $220.000$ euros.\n\n- **Ratio de garantía:** $\\frac{Activo\\ total}{Pasivo\\ total}=\\frac{360.000}{140.000}=2,57$. La empresa dispone de 2,57 euros de activo por cada euro de deuda; en principio, ofrece una garantía suficiente a sus acreedores.\n- **Ratio de endeudamiento total:** $\\frac{Pasivo\\ total}{Patrimonio\\ neto}=\\frac{140.000}{220.000}=0,64$. La deuda equivale aproximadamente a 0,64 euros por cada euro de recursos propios; el pasivo es inferior al patrimonio neto.\n- **Ratio de tesorería:** $\\frac{Realizable+Disponible}{Pasivo\\ corriente}=\\frac{40.000+25.000+5.000}{60.000}=1,17$. Los activos realizables y disponibles cubren aproximadamente 1,17 veces las obligaciones a corto plazo, lo que indica una posición de tesorería favorable.\n\n### c) Fondo de maniobra\n\n$FM=Activo\\ corriente-Pasivo\\ corriente=120.000-60.000=60.000$ euros. El fondo de maniobra es positivo: el activo corriente supera en 60.000 euros al pasivo corriente, lo que indica capacidad para atender las obligaciones a corto plazo y un margen de seguridad financiera.",
+   "resultado": "Balance equilibrado: 360.000 € en ambos lados; garantía = 2,57; endeudamiento total = 0,64; tesorería = 1,17; fondo de maniobra = 60.000 €.",
+   "criterios": "Total: 3,5 puntos. a) 1,5 puntos: clasificación correcta de las cuentas por masas patrimoniales y subdivisiones (1,0); cálculo de los subtotales, total del activo y total del patrimonio neto y pasivo, y comprobación de igualdad (0,5). b) 1,2 puntos: 0,4 por cada ratio, distribuidos en fórmula y sustitución correctas (0,25), resultado (0,10) e interpretación coherente (0,05). c) 0,8 puntos: cálculo correcto del fondo de maniobra (0,4) e interpretación de su signo respecto a la atención de obligaciones a corto plazo (0,4).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "financiacion",
+   "puntos": 3.5,
+   "tipo": "calculo",
+   "enunciado": "BLOQUE 1. EJERCICIO 2 (3,5 puntos). Una cooperativa de Teruel estudia instalar una línea automatizada para fabricar envases reutilizables destinados a negocios de comida para llevar. La inversión inicial es de 60.000 euros y se prevén estos flujos netos de caja: 30.000 euros al final del año 1, 30.000 euros al final del año 2 y 40.000 euros al final del año 3. Para el análisis del proyecto, la tasa de actualización anual es del 10 %. Se supone que los flujos se producen al final de cada año. En el presupuesto de producción anual, los costes fijos ascienden a 72.000 euros, el coste variable unitario es de 6 euros y el precio de venta unitario es de 12 euros.\n\na) Calcule el umbral de rentabilidad en unidades y en euros. Si se venden 15.000 unidades en un año, calcule el beneficio de explotación previsto. (1,25 puntos)\nb) Calcule el plazo de recuperación o pay-back de la inversión. (0,75 puntos)\nc) Calcule el VAN del proyecto con la expresión $VAN=-I_0+FC_1/(1+k)+FC_2/(1+k)^2+FC_3/(1+k)^3$. Redondee el resultado al euro e indique si se acepta el proyecto según este criterio. (1,5 puntos)",
+   "solucion": "### a) Umbral de rentabilidad y beneficio\n\nEl margen de contribución por unidad es:\n\n$ p-c_v=12-6=6\\text{ € por unidad} $\n\nEl umbral de rentabilidad en unidades es:\n\n$ Q^*=\\frac{CF}{p-c_v}=\\frac{72.000}{6}=12.000\\text{ unidades} $\n\nEn euros de ventas:\n\n$ V^*=Q^*\\cdot p=12.000\\cdot 12=144.000\\text{ €} $\n\nSi se venden 15.000 unidades, el beneficio de explotación previsto es:\n\n$ B=Ingresos-Costes\\ totales=15.000\\cdot 12-(72.000+15.000\\cdot 6)=18.000\\text{ €} $\n\n### b) Plazo de recuperación o pay-back\n\nAl final del año 1 se han recuperado 30.000 €. Al final del año 2, los flujos acumulados son $30.000+30.000=60.000$ €, que igualan la inversión inicial. Por tanto, el plazo de recuperación es de **2 años**.\n\n### c) VAN y decisión\n\n$ VAN=-60.000+\\frac{30.000}{1,10}+\\frac{30.000}{1,10^2}+\\frac{40.000}{1,10^3} $\n\n$ VAN=-60.000+27.272,73+24.793,39+30.052,59=22.118,71\\text{ €} $\n\nRedondeado al euro, el VAN es **22.119 €**. Como es positivo, **se acepta el proyecto según el criterio del VAN**.",
+   "resultado": "Umbral: 12.000 unidades y 144.000 €; beneficio: 18.000 €; pay-back: 2 años; VAN: 22.119 €, se acepta.",
+   "criterios": "a) 1,25 puntos: margen de contribución y umbral en unidades (0,50); umbral en euros (0,25); cálculo correcto del beneficio para 15.000 unidades (0,50). b) 0,75 puntos: acumulación correcta de los flujos y determinación del plazo de recuperación de 2 años. c) 1,50 puntos: planteamiento y sustitución correctos en la fórmula del VAN (0,75); cálculo y redondeo al euro (0,50); decisión de aceptar el proyecto por ser el VAN positivo (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "modelonegocio",
+   "puntos": 3,
+   "tipo": "abierta",
+   "enunciado": "BLOQUE 2. EJERCICIO 3 (3 puntos). Lea el caso y conteste únicamente tres de las seis cuestiones propuestas, de la a) a la f). Cada cuestión vale 1 punto.\n\nBrizna Circular, S.L., una empresa emergente de Huesca, diseña y comercializa cajas isotérmicas reutilizables fabricadas con polímero reciclado. Se dirige principalmente a pequeños restaurantes y empresas de catering de Aragón, y su propuesta destaca por mantener la temperatura de los alimentos y reducir el uso de envases de un solo uso. Vende a través de su página web y de distribuidores locales. En el lanzamiento ofrece cada caja a 18 euros, mientras que un producto comparable de la competencia cuesta 22 euros. La dirección coordina tres áreas especializadas: producción, marketing y administración y finanzas. Antes de ampliar la fabricación, la empresa produjo un lote piloto y entrevistó directamente a 30 restaurantes para conocer su valoración.\n\na) Indique cuál es la propuesta de valor descrita y señale el segmento de clientes al que se dirige principalmente. (1 punto)\nb) Clasifique la venta mediante la página web y la venta a través de distribuidores locales como canales directos o indirectos, respectivamente. (1 punto)\nc) Identifique qué variable del marketing mix representa el precio de 18 euros e indique si es inferior o superior al precio comparable de la competencia. (1 punto)\nd) Identifique el tipo de estructura organizativa que refleja la división en producción, marketing y administración y finanzas, e indique el criterio de agrupación utilizado. (1 punto)\ne) En el contexto de lean startup, identifique qué representa el lote piloto y señale qué se pretende comprobar antes de ampliar la fabricación. (1 punto)\nf) Clasifique como información primaria o secundaria los datos obtenidos mediante las entrevistas realizadas directamente a los 30 restaurantes y justifique la clasificación. (1 punto)",
+   "solucion": "Se contestan únicamente las cuestiones a), b) y c), como permite la consigna.\n\n**a) Propuesta de valor y segmento**\n1. La propuesta de valor combina una función práctica —mantener la temperatura de los alimentos— con un beneficio ambiental: reducir el uso de envases de un solo uso mediante cajas reutilizables fabricadas con polímero reciclado.\n2. El segmento principal son los pequeños restaurantes y las empresas de catering de Aragón.\n\n**b) Canales de venta**\n1. La venta en la página web es un canal **directo**, porque la empresa vende al cliente sin un intermediario comercial.\n2. La venta mediante distribuidores locales es un canal **indirecto**, porque interviene un intermediario entre la empresa y el cliente.\n\n**c) Variable del marketing mix y comparación de precios**\n1. El precio de 18 euros corresponde a la variable **precio** del marketing mix.\n2. Comparando ambos importes: $22-18=4$ euros. Por tanto, el precio de Brizna Circular es **4 euros inferior** al del producto comparable.\n\n**Comprobación final:** la clasificación de canales concuerda con la presencia o ausencia de intermediarios, y la resta confirma que 18 euros es menor que 22 euros. En estas cuestiones conceptuales no hay un método alternativo de cálculo necesario.",
+   "resultado": "a) Propuesta funcional y ambiental para pequeños restaurantes y empresas de catering de Aragón; b) web: canal directo, distribuidores: canal indirecto; c) variable precio, 4 euros por debajo de la competencia.",
+   "criterios": "3 puntos en total, contestando solo las tres cuestiones elegidas: a) 1 punto: 0,5 por identificar la propuesta de valor (beneficio térmico y ambiental) y 0,5 por el segmento; b) 1 punto: 0,5 por clasificar la web como canal directo y 0,5 por clasificar los distribuidores como canal indirecto; c) 1 punto: 0,5 por identificar la variable precio y 0,5 por señalar que es inferior al precio comparable (se acepta como precisión indicar que la diferencia es de 4 euros).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "contabilidad",
+   "p": 0.9
+  },
+  {
+   "id": "marketing",
+   "p": 0.9
+  },
+  {
+   "id": "financiacion",
+   "p": 0.825
+  },
+  {
+   "id": "produccion",
+   "p": 0.73
+  },
+  {
+   "id": "modelonegocio",
+   "p": 0.583
+  },
+  {
+   "id": "organizacion",
+   "p": 0.517
+  }
+ ],
+ "referencias": [
+  "https://academico.unizar.es/sites/academico/files/archivos/acceso/accespau/exame/26ord/econo.pdf",
+  "https://academico.unizar.es/sites/academico/files/archivos/acceso/accespau/exame/26extra/econo.pdf"
+ ]
+}
