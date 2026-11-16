@@ -1,7 +1,7 @@
 {
   "_nota": "Materias de la PAU (LOMLOE) y temas de cada una. 'patrones': palabras (sin tildes, en minúscula) que identifican la materia en el nombre del PDF, el texto del enlace o el título de la sección; el orden importa (se prueba de arriba abajo). 'kw' de cada tema: raíces que delatan ese tema en el enunciado (es/ca/gl/eu cuando difieren). Un tema cuenta como presente en un examen si suma al menos 2 apariciones.",
   "materias": [
-    {"id": "matccss", "nombre": "Matemáticas Aplicadas a las CC. Sociales II", "patrones": ["matematicas aplicadas", "matematiques aplicades", "matematicas aplicadas", "ciencias sociales ii", "ccss", "mat_ccss", "macs", "mccss", "matematicas ccss", "ciencies socials"],
+    {"id": "matccss", "nombre": "Matemáticas Aplicadas a las CC. Sociales II", "patrones": ["matematicas aplicadas", "matematiques aplicades", "matematicas aplic", "matematiques aplic", "matematicas ccss", "matematicas cc ss", "matematicas aplicadas as ciencias sociais", "matematicas aplicadas", "ciencias sociales ii", "ccss", "mat_ccss", "macs", "mccss", "matematicas ccss", "ciencies socials"],
      "temas": [
       {"id": "matrices", "nombre": "Matrices y sistemas", "kw": ["matriz", "matrice", "matriu", "sistema de ecuaciones", "sistema d'equacions", "determinante", "inversa", "gauss"]},
       {"id": "progl", "nombre": "Programación lineal", "kw": ["programacion lineal", "programacio lineal", "region factible", "regio factible", "restricciones", "funcion objetivo", "maximizar", "minimizar", "vertices"]},

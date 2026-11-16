@@ -1,25 +1,162 @@
 {
   "_nota": "Páginas oficiales de partida (semillas) de cada comunidad. El rastreador sigue los enlaces del mismo dominio hasta 'profundidad' saltos y recoge los PDF de exámenes y criterios 2022-2026. Si una comunidad sale con poca cobertura en data/cobertura.json, añade aquí la página exacta del archivo de exámenes.",
-  "anios": [2022, 2023, 2024, 2025, 2026],
+  "anios": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
   "profundidad": 2,
   "max_paginas": 150,
   "ccaa": {
-    "andalucia":   {"nombre": "Andalucía", "semillas": ["https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/?q=grados&d=g_b_examenes_anteriores.php"]},
-    "aragon":      {"nombre": "Aragón", "semillas": ["https://academico.unizar.es/acceso-admision-grado/pau/exame", "https://academico.unizar.es/pau/modelos-orientativos-de-examen-pau-2026"]},
-    "asturias":    {"nombre": "Principado de Asturias", "semillas": ["https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/modelosdefinitivos", "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/asignaturas-pau-2025-2026"]},
-    "baleares":    {"nombre": "Illes Balears", "semillas": ["https://estudis.uib.es/es/estudis-de-grau/Com-hi-pots-accedir/acces/batxiller/ModelsExamenPBAU/"]},
-    "canarias":    {"nombre": "Canarias", "semillas": ["https://www.gobiernodecanarias.org/educacion/web/bachillerato/pau/examenes-recursos-coordin-materias/examenes_pau/index.html", "https://www.gobiernodecanarias.org/educacion/web/bachillerato/pau/pau/examenes-recursos-coordin-materias/materias-pau/"]},
-    "cantabria":   {"nombre": "Cantabria", "semillas": ["https://web.unican.es/admision/acceso-a-estudios-de-grado/pruebas-de-acceso-a-la-universidad"]},
-    "castillalamancha": {"nombre": "Castilla-La Mancha", "semillas": ["https://www.uclm.es/perfiles/preuniversitario/orientadores/coordinacionmaterias", "https://www.uclm.es/Perfiles/Preuniversitario/Acceso/PAU/ModelosyCriteriosdeCorreccion"]},
-    "castillaleon": {"nombre": "Castilla y León", "semillas": ["https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0", "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2025-b5f5f/estructura-examen-orientativa-criterios-correccion/estructura-examen-orientativa-criterios-correccion"]},
-    "cataluna":    {"nombre": "Cataluña", "semillas": ["https://universitats.gencat.cat/ca/proves-acces-PAU-PAP/models-examen-anys-anteriors/", "https://universitats.gencat.cat/ca/pau/models-examen-anys-anteriors/index.html", "https://universitats.gencat.cat/es/pau/materies-pau/"]},
-    "valenciana":  {"nombre": "Comunitat Valenciana", "semillas": ["https://universitats.gva.es/es/informacio-guies-i-examens-proves-acces-cursos-anteriors", "https://universitats.gva.es/es/caracteristiques-examens-criteris-generals-correccio-i-models-examen-pau-2026"]},
-    "extremadura": {"nombre": "Extremadura", "semillas": ["https://vrestudiantes.unex.es/funciones/coordinacion-ebau/", "https://vrestudiantes.unex.es/funciones/coordinacion-pau/"]},
-    "galicia":     {"nombre": "Galicia", "semillas": ["https://ciug.gal/gal/pau", "https://ciug.gal/modelos-exame-pau-2026"]},
-    "rioja":       {"nombre": "La Rioja", "semillas": ["https://www.unirioja.es/administracion-y-servicios/oficina-del-estudiante/pau/examenes-y-criterios/", "https://www.unirioja.es/administracion-y-servicios/oficina-de-estudiantes/pau/examenes-y-criterios/"]},
-    "madrid":      {"nombre": "Comunidad de Madrid", "semillas": ["https://www.comunidad.madrid/servicios/educacion/examenes-evau-estadisticas", "https://www.ucm.es/modelos-de-examen-y-criterios-generales-de-evaluacion-", "https://uc3m.es/pruebasacceso/modelos-examenes"]},
-    "murcia":      {"nombre": "Región de Murcia", "semillas": ["https://www.um.es/web/estudios/acceso/estudiantes-bachillerato-y-ciclos-formativos/materias-y-coordinadores"]},
-    "navarra":     {"nombre": "Comunidad Foral de Navarra", "semillas": ["https://www.unavarra.es/sites/estudios/acceso-y-admision/evau-para-estudiantes/desarrollo-de-las-pruebas.html"]},
-    "paisvasco":   {"nombre": "País Vasco", "semillas": ["https://www.ehu.eus/es/web/unibertsitaterako-sarbidea/pruebas-de-acceso/examenes-de-cursos-anteriores/bachillerato-y-ciclos-formativos-de-grado-superior", "https://www.ehu.eus/es/web/unibertsitaterako-sarbidea/vias-de-acceso/bachillerato-y-ciclos-formativos-de-grado-superior/pau"]}
-  }
+    "andalucia": {
+      "nombre": "Andalucía",
+      "semillas": [
+        "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/?q=grados&d=g_b_examenes_anteriores.php"
+      ],
+      "profundidad": 3
+    },
+    "aragon": {
+      "nombre": "Aragón",
+      "semillas": [
+        "https://academico.unizar.es/acceso-admision-grado/pau/exame",
+        "https://academico.unizar.es/pau/modelos-orientativos-de-examen-pau-2026"
+      ]
+    },
+    "asturias": {
+      "nombre": "Principado de Asturias",
+      "semillas": [
+        "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau",
+        "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/modelosdefinitivos",
+        "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/modelos-provisionales-ex%C3%A1menes-pau-2025",
+        "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/asignaturas-pau-2025-2026"
+      ]
+    },
+    "baleares": {
+      "nombre": "Illes Balears",
+      "semillas": [
+        "https://estudis.uib.es/es/estudis-de-grau/Com-hi-pots-accedir/acces/batxiller/ModelsExamenPBAU/"
+      ],
+      "timeout": 30
+    },
+    "canarias": {
+      "nombre": "Canarias",
+      "semillas": [
+        "https://www.gobiernodecanarias.org/educacion/web/bachillerato/pau/examenes-recursos-coordin-materias/examenes_pau/index.html",
+        "https://www.gobiernodecanarias.org/educacion/web/bachillerato/pau/pau/examenes-recursos-coordin-materias/materias-pau/"
+      ]
+    },
+    "cantabria": {
+      "nombre": "Cantabria",
+      "semillas": [
+        "https://web.unican.es/admision/acceso-a-estudios-de-grado/pruebas-de-acceso-a-la-universidad"
+      ]
+    },
+    "castillalamancha": {
+      "nombre": "Castilla-La Mancha",
+      "semillas": [
+        "https://www.uclm.es/perfiles/preuniversitario/orientadores/coordinacionmaterias",
+        "https://www.uclm.es/Perfiles/Preuniversitario/Acceso/PAU/ModelosyCriteriosdeCorreccion"
+      ]
+    },
+    "castillaleon": {
+      "nombre": "Castilla y León",
+      "semillas": [
+        "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0",
+        "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2025-b5f5f/estructura-examen-orientativa-criterios-correccion/estructura-examen-orientativa-criterios-correccion"
+      ]
+    },
+    "cataluna": {
+      "nombre": "Cataluña",
+      "semillas": [
+        "https://universitats.gencat.cat/ca/proves-acces-PAU-PAP/models-examen-anys-anteriors/",
+        "https://universitats.gencat.cat/ca/pau/models-examen-anys-anteriors/index.html",
+        "https://universitats.gencat.cat/es/pau/materies-pau/"
+      ]
+    },
+    "valenciana": {
+      "nombre": "Comunitat Valenciana",
+      "semillas": [
+        "https://universitats.gva.es/es/informacio-guies-i-examens-proves-acces-cursos-anteriors",
+        "https://universitats.gva.es/es/caracteristiques-examens-criteris-generals-correccio-i-models-examen-pau-2026"
+      ]
+    },
+    "extremadura": {
+      "nombre": "Extremadura",
+      "semillas": [
+        "https://vrestudiantes.unex.es/funciones/coordinacion-ebau/",
+        "https://vrestudiantes.unex.es/funciones/coordinacion-pau/"
+      ]
+    },
+    "galicia": {
+      "nombre": "Galicia",
+      "semillas": [
+        "https://ciug.gal/gal/pau",
+        "https://ciug.gal/modelos-exame-pau-2026",
+        "https://ciug.gal/gal/pau/exames"
+      ],
+      "plantillas": [
+        {
+          "url": "https://ciug.gal/PDF/{anio}/{prueba}/{conv}/exames/{cod}.pdf",
+          "prueba": [
+            "PAU",
+            "ABAU"
+          ],
+          "conv": [
+            "ordinaria",
+            "extraordinaria"
+          ],
+          "cod": "01-60,90-95"
+        }
+      ]
+    },
+    "rioja": {
+      "nombre": "La Rioja",
+      "semillas": [
+        "https://www.unirioja.es/administracion-y-servicios/oficina-del-estudiante/pau/examenes-y-criterios/",
+        "https://www.unirioja.es/administracion-y-servicios/oficina-de-estudiantes/pau/examenes-y-criterios/"
+      ],
+      "pausa": 4,
+      "max_paginas": 60
+    },
+    "madrid": {
+      "nombre": "Comunidad de Madrid",
+      "semillas": [
+        "https://www.comunidad.madrid/node/74087",
+        "https://www.comunidad.madrid/servicios/educacion/examenes-evau-estadisticas",
+        "https://www.ucm.es/ejercicios-de-la-pau-convocatoria",
+        "https://uc3m.es/ss/Satellite/evau/es/TextoMixta/1371381890886/Examenes_PAU_2025",
+        "https://uc3m.es/pruebasacceso/modelos-examenes",
+        "https://www.uam.es/uam/estudios/modelos-examen-2026"
+      ]
+    },
+    "murcia": {
+      "nombre": "Región de Murcia",
+      "semillas": [
+        "https://www.um.es/web/estudios/acceso/estudiantes-bachillerato-y-ciclos-formativos/materias-y-coordinadores"
+      ],
+      "pausa": 0.8
+    },
+    "navarra": {
+      "nombre": "Comunidad Foral de Navarra",
+      "semillas": [
+        "https://www.unavarra.es/sites/estudios/acceso-y-admision/evau-para-estudiantes/desarrollo-de-las-pruebas.html"
+      ]
+    },
+    "paisvasco": {
+      "nombre": "País Vasco",
+      "semillas": [
+        "https://www.ehu.eus/es/web/unibertsitaterako-sarbidea/pruebas-de-acceso/examenes-de-cursos-anteriores/bachillerato-y-ciclos-formativos-de-grado-superior",
+        "https://www.ehu.eus/es/web/unibertsitaterako-sarbidea/vias-de-acceso/bachillerato-y-ciclos-formativos-de-grado-superior/pau",
+        "https://www.ehu.eus/es/web/unibertsitaterako-sarbidea/vias-de-acceso/bachillerato-y-ciclos-formativos-de-grado-superior/pau-2025/examenes-convocatoria-ordinaria",
+        "https://www.ehu.eus/es/web/unibertsitaterako-sarbidea/vias-de-acceso/bachillerato-y-ciclos-formativos-de-grado-superior/pau-2025/examenes-convocatoria-extraordinaria",
+        "https://www.ehu.eus/es/web/unibertsitaterako-sarbidea/vias-de-acceso/bachillerato-y-ciclos-formativos-de-grado-superior/pau-2026/examenes-convocatoria-ordinaria",
+        "https://www.ehu.eus/es/web/unibertsitaterako-sarbidea/vias-de-acceso/bachillerato-y-ciclos-formativos-de-grado-superior/pau-2026/examenes-convocatoria-extraordinaria",
+        "https://www.ehu.eus/es/web/unibertsitaterako-sarbidea/vias-de-acceso/bachillerato-y-ciclos-formativos-de-grado-superior/pau/nuevos-modelos-examenes"
+      ],
+      "pausa": 1.5
+    }
+  },
+  "_nota_opciones": "Opciones por comunidad: pausa (s entre peticiones), timeout (s para conectar), max_paginas, profundidad y plantillas (URL con {anio} y listas o rangos «01-60» para el resto de campos)."
 }

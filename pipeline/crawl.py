@@ -35,6 +35,42 @@ TEMARIO = json.loads((R / 'pipeline' / 'temario.json').read_text(encoding='utf-8
 PATRONES = sorted(((norm(p).strip(), m['id']) for m in TEMARIO['materias'] for p in m['patrones']), key=lambda x: -len(x[0]))
 
 
+# Abreviaturas que usan algunas comunidades en el nombre del fichero (Comunitat Valenciana, Cataluña…).
+# Solo cuentan como palabra entera del NOMBRE DEL FICHERO o del texto del enlace, y solo si no hay nombre completo.
+ABREV = {
+    'hfil': 'filosofia', 'fil': 'filosofia', 'hes': 'historia', 'his': 'historia', 'hist': 'historia', 'hesp': 'historia',
+    'mat': 'matematicas2', 'mat2': 'matematicas2', 'mate': 'matematicas2', 'mcs': 'matccss', 'macs': 'matccss', 'mccss': 'matccss', 'maca': 'matccss',
+    'qui': 'quimica', 'quim': 'quimica', 'fis': 'fisica', 'fisi': 'fisica', 'bio': 'biologia', 'biol': 'biologia',
+    'geo': 'geografia', 'geog': 'geografia', 'gca': 'geologia', 'geol': 'geologia', 'ctm': 'geologia',
+    'cas': 'lengua', 'cast': 'lengua', 'lcl': 'lengua', 'val': 'valenciano', 'cat': 'catalan', 'llca': 'catalan',
+    'ang': 'ingles', 'angl': 'ingles', 'ing': 'ingles', 'fra': 'frances', 'fran': 'frances', 'ale': 'aleman', 'alem': 'aleman', 'ita': 'italiano', 'ital': 'italiano',
+    'lat': 'latin', 'llat': 'latin', 'gri': 'griego', 'grec': 'griego', 'gre': 'griego',
+    'dt': 'dibujo', 'dt2': 'dibujo', 'dib': 'dibujo', 'dibu': 'dibujo', 'da': 'dibujoartistico', 'diar': 'dibujoartistico',
+    'emp': 'empresa', 'edmn': 'empresa', 'femp': 'empresa', 'hart': 'historiaarte', 'har': 'historiaarte', 'fart': 'historiaarte',
+    'tec': 'tecnologia', 'tecn': 'tecnologia', 'tin': 'tecnologia', 'dis': 'diseno', 'diss': 'diseno',
+    'amus': 'musica', 'anm': 'musica', 'hmus': 'musica', 'cau': 'audiovisual', 'aesc': 'escenicas', 'ae': 'escenicas', 'lidr': 'literaturadram',
+    'cien': 'ciencias', 'cg': 'ciencias', 'mg': 'matgenerales', 'mcult': 'movimientos', 'mca': 'movimientos'}
+# Pruebas que no son la PAU de bachillerato (mayores de 25/45, PAP de Cataluña…): se descartan
+NO_PAU = re.compile(r'mayores (de )?(25|45)|majors (de )?(25|45)|maiores (de )?(25|45)|\bm25\b|\bm45\b|\bpap\b|\b25 anos\b|prova d.acces per a majors|ciclos? formativos? de grado medio')
+
+
+def fichero_de(url):
+    """Nombre útil del fichero. En Liferay (/documents/…/NOMBRE.pdf/UUID?t=…) el último segmento es un UUID."""
+    partes = [x for x in urlparse(url).path.split('/') if x]
+    for x in reversed(partes):
+        if '.pdf' in x.lower(): return x
+    for x in reversed(partes):
+        if not re.fullmatch(r'[0-9a-f-]{20,}|\d+', x.lower()): return x
+    return partes[-1] if partes else ''
+
+
+def materia_abrev(*textos):
+    for t in textos:
+        for tok in re.findall(r'[a-z0-9]+', norm(t)):
+            if tok in ABREV: return ABREV[tok]
+    return None
+
+
 def materia_de(*textos):
     """El patrón más largo que aparece gana (así «historia del arte» no se confunde con «historia»).
     Se prueban los textos por orden de fiabilidad: nombre del fichero y texto del enlace antes que el contexto."""
@@ -69,7 +105,10 @@ def conv_de(*textos):
 
 def tipo_de(*textos):
     n = ' '.join(norm(t) for t in textos)
-    if re.search(r'criteri|solucion|soluci|correcci|corregid|resuelt|resolt|zuzen|respuesta|barem', n): return 'criterios'
+    crit = re.search(r'criteri|solucion|soluci|correcci|corregid|resuelt|resolt|zuzen|respuesta|barem', n)
+    # «Examen y criterios», «Examen i correcció», «examen resuelto»: el PDF trae el examen → cuenta como examen
+    if crit and re.search(r'examen|exame|exercici|ejercicio|azterketa|prova|prueba', n) and not re.search(r'^\s*criteri', n): return 'examen'
+    if crit: return 'criterios'
     if re.search(r'orientacion|orientacio|estructura|caracteristic|instruccion|programa|temario', n): return 'orientaciones'
     return 'examen'
 
@@ -78,16 +117,19 @@ ENLACE_INTERES = re.compile(r'exam|model|pau|ebau|evau|pevau|pbau|abau|selectiv|
 
 
 class Rastreador:
-    def __init__(self, sesion, cfg, log, limite=float('inf')):
+    def __init__(self, sesion, cfg, log, limite=float('inf'), silencio_404=False):
         self.s, self.cfg, self.log, self.limite = sesion, cfg, log, limite
 
-    def get(self, url, binario=False):
+    def get(self, url, silencio=False):
         for intento in range(2):
             try:
-                r = self.s.get(url, timeout=(8, 20), headers={'User-Agent': UA}, allow_redirects=True)
+                r = self.s.get(url, timeout=(self.cfg.get('timeout', 8), 25), headers={'User-Agent': UA}, allow_redirects=True)
                 if r.status_code == 200: return r
-                self.log(f'  {r.status_code} {url}')
+                if not (silencio and r.status_code == 404): self.log(f'  {r.status_code} {url}')
                 if r.status_code in (403, 404, 410): return None
+                if r.status_code == 429:                     # nos piden ir más despacio: se respeta
+                    ra = r.headers.get('Retry-After', '')
+                    time.sleep(min(30, int(ra)) if ra.isdigit() else 15); continue
             except Exception as e:
                 self.log(f'  error {type(e).__name__} {url}')
             time.sleep(1)
@@ -96,7 +138,7 @@ class Rastreador:
     def pdfs(self, semillas):
         """BFS por el mismo dominio. Devuelve {url_pdf: {'texto':…, 'contexto':…, 'pagina':…}}"""
         dominios = {'.'.join(urlparse(u).hostname.split('.')[-2:]) for u in semillas}
-        visto, cola, encontrados = set(), deque((u, 0) for u in semillas), {}
+        visto, cola, encontrados, meta = set(), deque((u, 0) for u in semillas), {}, {}
         while cola and len(visto) < self.cfg['max_paginas']:
             if time.time() > self.limite:
                 self.log('  tiempo de rastreo agotado: se sigue con lo encontrado'); break
@@ -107,18 +149,22 @@ class Rastreador:
             if not r: continue
             ct = r.headers.get('content-type', '')
             if 'pdf' in ct:
-                encontrados.setdefault(url, {'texto': '', 'contexto': '', 'pagina': url}); continue
+                encontrados.setdefault(url, meta.get(url, {'texto': '', 'contexto': '', 'pagina': url})); continue
             if 'html' not in ct and 'xml' not in ct: continue
+            mt = re.search(r'<title[^>]*>(.*?)</title>', r.text, re.I | re.S)
+            titulo = limpio(mt.group(1))[:200] if mt else ''
             for href, texto, ctx in enlaces(r.text):
                 u = urljoin(r.url, href).split('#')[0]
                 if not u.startswith('http'): continue
                 host = urlparse(u).hostname or ''
                 if '.'.join(host.split('.')[-2:]) not in dominios: continue
+                info = {'texto': texto, 'contexto': ctx, 'pagina': r.url, 'titulo': titulo}
                 if es_pdf(u):
-                    encontrados.setdefault(u, {'texto': texto, 'contexto': ctx, 'pagina': r.url})
+                    encontrados.setdefault(u, info)
                 elif d < self.cfg['profundidad'] and ENLACE_INTERES.search(u + ' ' + texto) and u not in visto:
+                    meta.setdefault(u, info)             # por si resulta ser un PDF sin «.pdf» en la URL
                     cola.append((u, d + 1))
-            time.sleep(0.2)
+            time.sleep(self.cfg.get('pausa', 0.2))
         self.log(f'  {len(visto)} páginas visitadas, {len(encontrados)} PDF')
         return encontrados
 
@@ -168,9 +214,9 @@ def texto_pdf(pdf, txt):
 
 
 def clasifica(url, info, anios):
-    fich = pathlib.PurePosixPath(urlparse(url).path).name
-    mat = materia_de(fich, info['texto'], info['contexto'])
-    anio = anio_de(fich, info['texto'], url, info['contexto'], anios=anios)
+    fich = fichero_de(url)
+    mat = materia_de(fich, info['texto'], info['contexto']) or materia_abrev(fich, info['texto'])
+    anio = anio_de(fich, info['texto'], url, info['contexto'], info.get('titulo', ''), info.get('pagina', ''), anios=anios)
     conv = conv_de(fich, info['texto'], info['contexto'])
     tipo = tipo_de(fich, info['texto'])
     return mat, anio, conv, tipo
@@ -183,6 +229,33 @@ def guarda_manifiesto(cid, docs, logl):
     (R / 'data' / 'logs' / f'{cid}.log').write_text('\n'.join(logl), encoding='utf-8')
 
 
+def completa_con_texto(d, texto, anios):
+    """Si el enlace no decía la materia, la convocatoria o el año, se miran en la cabecera del propio examen
+    (Galicia nombra los PDF por código: «20.pdf» = «MATEMÁTICAS II · CÓDIGO 20»)."""
+    cab = texto[:1500]
+    if not d['materia']: d['materia'] = materia_de(cab)
+    if d['conv'] == 'nd': d['conv'] = conv_de(cab)
+    if not d.get('anio'): d['anio'] = anio_de(cab, anios=anios)
+    if d['tipo'] != 'examen' and re.search(r'examen|exame\b|azterketa', norm(cab[:300])) and not re.search(r'criteri|soluci', norm(cab[:300])): d['tipo'] = 'examen'
+    return d
+
+
+def candidatos_plantilla(pl, anios):
+    """Enlaces generados a partir de un patrón conocido (p. ej. Galicia: /PDF/{anio}/PAU/{conv}/exames/{cod}.pdf)."""
+    import itertools
+    def rango(v):
+        if isinstance(v, list): return v
+        out = []
+        for parte in str(v).split(','):
+            a, _, b = parte.partition('-')
+            out += [str(i).zfill(len(a)) for i in range(int(a), int(b or a) + 1)]
+        return out
+    claves = [k for k in pl if k not in ('url', 'anio')]
+    for anio in anios:
+        for combo in itertools.product(*(rango(pl[k]) for k in claves)):
+            yield pl['url'].format(anio=anio, **dict(zip(claves, combo)))
+
+
 def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
     t0 = time.time(); fin = t0 + tiempo
     man_p = R / 'data' / 'corpus' / f'{cid}.json'
@@ -190,33 +263,51 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
     docs, logl = dict(previo), []
     log = lambda m: (print(m, flush=True), logl.append(m))
     log(f'== {cc["nombre"]}')
+    cfg = {**cfg, **{k: cc[k] for k in ('pausa', 'max_paginas', 'profundidad') if k in cc}}
     encontrados = Rastreador(s, cfg, log, limite=t0 + 0.4 * tiempo).pdfs(cc['semillas'])
+    for pl in cc.get('plantillas', []):
+        for u in candidatos_plantilla(pl, anios):
+            encontrados.setdefault(u, {'texto': '', 'contexto': '', 'pagina': u, 'plantilla': True})
     pend = []
     for url, info in encontrados.items():
         mat, anio, conv, tipo = clasifica(url, info, anios)
         if not anio: continue                           # fuera de 2022-2026 o sin año reconocible
+        if NO_PAU.search(norm(' '.join([url, info['texto'], info['contexto']]))):
+            docs.pop(url, None); continue              # mayores de 25/45, PAP…: no es la PAU de bachillerato
         h = hashlib.sha1(url.encode()).hexdigest()[:8]
         rel = f'{cid}/{mat or "sin_materia"}/{anio}_{conv}_{tipo}_{h}'
         d = {'id': h, 'ccaa': cid, 'materia': mat, 'anio': anio, 'conv': conv, 'tipo': tipo, 'url': url,
              'pagina': info['pagina'], 'enlace': info['texto'][:160], 'contexto': info['contexto'][:240],
              'txt': f'corpus/{rel}.txt', 'chars': previo.get(url, {}).get('chars', 0)}
-        if sin_descarga or (R / d['txt']).exists(): docs[url] = d
-        else: pend.append((d, rel))
+        viejo = previo.get(url)
+        if viejo and (R / viejo['txt']).exists():      # ya descargado: se conserva el fichero y se reclasifica
+            d['txt'], d['chars'] = viejo['txt'], viejo.get('chars', 0)
+        if sin_descarga or (R / d['txt']).exists():
+            if (R / d['txt']).exists(): completa_con_texto(d, (R / d['txt']).read_text(encoding='utf-8', errors='ignore'), anios)
+            docs[url] = d
+        else: pend.append((d, rel, info.get('plantilla', False)))
     # primero lo que más importa: exámenes con materia reconocida, de los años más recientes
-    pend.sort(key=lambda x: (x[0]['tipo'] != 'examen', x[0]['materia'] is None, -x[0]['anio']))
+    pend.sort(key=lambda x: (x[2], x[0]['tipo'] != 'examen', x[0]['materia'] is None, -x[0]['anio']))
     log(f'  {len(pend)} PDF por descargar')
     hechos = 0
-    for d, rel in pend:
+    rd = Rastreador(s, cfg, log, silencio_404=True)
+    for d, rel, de_plantilla in pend:
         if time.time() > fin:
             log(f'  tiempo agotado: quedan {len(pend) - hechos} PDF para la próxima ejecución'); break
-        r = Rastreador(s, cfg, log).get(d['url'])
+        r = rd.get(d['url'], silencio=de_plantilla)
+        if r is not None and r.content[:4] != b'%PDF' and 'download' not in d['url']:
+            r = rd.get(d['url'] + ('&' if '?' in d['url'] else '?') + 'download=true', silencio=de_plantilla)   # visor → descarga directa
         hechos += 1
+        time.sleep(cfg.get('pausa', 0.2))
         if not (r and r.content[:4] == b'%PDF' and len(r.content) < 25_000_000):
-            log(f'  no es un PDF válido: {d["url"]}'); continue
+            if not de_plantilla: log(f'  no es un PDF válido: {d["url"]}')
+            continue
         pdf = R / 'pdf' / f'{rel}.pdf'; pdf.parent.mkdir(parents=True, exist_ok=True); pdf.write_bytes(r.content)
         txt = R / d['txt']; txt.parent.mkdir(parents=True, exist_ok=True)
-        try: d['chars'] = len(texto_pdf(pdf, txt).strip())
-        except Exception as e: log(f'  sin texto ({type(e).__name__}): {d["url"]}'); d['chars'] = 0
+        try:
+            t = texto_pdf(pdf, txt); d['chars'] = len(t.strip()); completa_con_texto(d, t, anios)
+        except Exception as e: log(f'  sin texto ({type(e).__name__}): {d["url"]}'); d['chars'] = 0; t = ''
+        if NO_PAU.search(norm(t[:800] if d['chars'] else '')): txt.unlink(missing_ok=True); continue
         d['bytes'] = len(r.content); docs[d['url']] = d
         if hechos % 10 == 0: guarda_manifiesto(cid, docs, logl)
     guarda_manifiesto(cid, docs, logl)

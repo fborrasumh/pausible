@@ -19,6 +19,30 @@ def test_clasificacion():
     assert crawl.materia_de('Historia de la Filosofía') == 'filosofia' and crawl.materia_de('Historia de España') == 'historia'
     assert crawl.materia_de('Matemàtiques II') == 'matematicas2' and crawl.materia_de('Matemáticas Generales') == 'matgenerales'
 
+def test_arreglos_de_clasificacion():
+    A = range(2022, 2027)
+    # Liferay: el último segmento es un UUID; el nombre útil va antes
+    u = 'https://universitats.gva.es/documents/389338055/389340489/HFIL+Juny+2024.pdf/15adf656-7c63-d005-fb6f-35efeb82dd11?t=1781007398048'
+    assert crawl.fichero_de(u) == 'HFIL+Juny+2024.pdf'
+    assert crawl.clasifica(u, {'texto': '', 'contexto': ''}, A)[:3] == ('filosofia', 2024, 'ord')
+    u = 'https://www.um.es/documents/1/2/EBAU2022-JULIO+207+MATEM%C3%81TICAS+APLIC+CCSS+resuelto.pdf/fd8f212e-7268-247e-d655-34198bf0511a'
+    assert crawl.clasifica(u, {'texto': 'EBAU2022-julio examen resuelto', 'contexto': ''}, A) == ('matccss', 2022, 'ext', 'examen')
+    # «Examen i correcció» de Cataluña es un examen
+    assert crawl.tipo_de('pau_mate.pdf', 'Examen i Correcció - Tribunal Ordinari') == 'examen'
+    assert crawl.tipo_de('Criteris_correccio_mate.pdf', '') == 'criterios'
+    # abreviaturas solo como palabra entera
+    assert crawl.materia_abrev('pau_quim_2025_ord.pdf') == 'quimica' and crawl.materia_abrev('matematica') is None
+    # mayores de 25 / PAP fuera
+    assert crawl.NO_PAU.search(crawl.norm('Examenes PAU mayores 25_45_años_2025.pdf')) and crawl.NO_PAU.search(crawl.norm('Criteris_correccio_PAP_CCIRC_S1_cat_2022.pdf'))
+    assert not crawl.NO_PAU.search(crawl.norm('pau_mate_2025.pdf'))
+    # año heredado del título de la página
+    assert crawl.clasifica('https://ciug.gal/x/20.pdf', {'texto': 'Exame', 'contexto': '', 'titulo': 'Exames PAU 2025'}, A)[1] == 2025
+    # Galicia: plantilla y materia desde la cabecera del texto
+    urls = list(crawl.candidatos_plantilla({'url': 'https://ciug.gal/PDF/{anio}/{prueba}/{conv}/exames/{cod}.pdf', 'prueba': ['PAU'], 'conv': ['ordinaria'], 'cod': '01-03,90'}, [2025]))
+    assert urls == ['https://ciug.gal/PDF/2025/PAU/ordinaria/exames/%s.pdf' % c for c in ('01', '02', '03', '90')]
+    d = crawl.completa_con_texto({'materia': None, 'conv': 'ord', 'anio': 2025, 'tipo': 'examen'}, 'PAU\nConvocatoria ordinaria 2025\nMATEMÁTICAS II\nCÓDIGO 20', A)
+    assert d['materia'] == 'matematicas2'
+
 def test_prediccion_y_validacion():
     temas = [{'id': 'a', 'nombre': 'A', 'kw': []}, {'id': 'b', 'nombre': 'B', 'kw': []}, {'id': 'c', 'nombre': 'C', 'kw': []}, {'id': 'd', 'nombre': 'D', 'kw': []}]
     H = lambda *ts: {t: 3 for t in ts}
