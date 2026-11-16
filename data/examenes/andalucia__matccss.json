@@ -1,0 +1,90 @@
+{
+ "ccaa": "andalucia",
+ "materia": "matccss",
+ "titulo": "PAU 2027 de Andalucía — Matemáticas Aplicadas a las Ciencias Sociales II",
+ "duracion_min": 90,
+ "instrucciones": "La prueba consta de 4 ejercicios y suma 10 puntos. En los ejercicios 1 y 3 elija y responda solo una de las opciones A) o B). En los demás ejercicios, responda todos los apartados. La puntuación de cada apartado se indica en el enunciado. Justifique suficientemente los resultados y presente los cálculos realizados. Se permite el uso de calculadoras no programables, gráficas ni con capacidad para almacenar o transmitir datos; si obtiene resultados directamente con la calculadora, explique los pasos. Se facilitará la tabla de la distribución normal estándar. La valoración de la corrección gramatical, léxica y ortográfica, así como de la presentación, no superará el 10 % de la calificación.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "matrices",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Elija solo uno de los apartados A) o B):\n\nA) Una taquilla vende entradas estándar, reducidas y VIP, cuyos precios respectivos son $x$, $y$ y $z$ euros. En tres compras se registraron estas cantidades y recaudaciones: 1 entrada de cada tipo por 18 €, 2 estándar, 1 reducida y 1 VIP por 22 €, y 1 estándar, 2 reducidas y 3 VIP por 40 €.\n\na) (1,5 puntos) Escriba el sistema lineal que modeliza la información, clasifíquelo mediante los rangos de las matrices de coeficientes y ampliada, y resuélvalo.\nb) (0,75 puntos) Calcule la recaudación total de las tres compras.\nc) (0,75 puntos) Compruebe si el precio de una entrada VIP es el doble que el de una entrada estándar.\n\nB) Un taller produce dos tipos de kits de energía solar, básico y avanzado. Si produce $x$ kits básicos e $y$ avanzados al día, su beneficio es $5x+8y$ euros. Cada kit básico requiere 2 horas de montaje y cada avanzado 1 hora; hay como máximo 16 horas diarias. El taller dispone además de componentes suficientes para, como máximo, 17 unidades de la combinación $x+2y$. Puede fabricar, como máximo, 8 kits básicos y 7 avanzados al día.\na) (1,5 puntos) Represente gráficamente la región factible y calcule sus vértices, teniendo en cuenta que $x\\geq 0$ e $y\\geq 0$.\nb) (1,5 puntos) Determine cuántos kits de cada tipo debe fabricar para maximizar el beneficio y calcule dicho beneficio máximo.",
+   "solucion": "Se elige el apartado A).\n\n### a) Sistema, clasificación y resolución\n\nSean $x$, $y$ y $z$ los precios, en euros, de las entradas estándar, reducida y VIP, respectivamente. Los datos dan el sistema\n\n$$\n\\begin{cases}\nx+y+z=18,\\\\\n2x+y+z=22,\\\\\nx+2y+3z=40.\n\\end{cases}\n$$\n\nLa matriz de coeficientes y la matriz ampliada son\n\n$$\nA=\\begin{pmatrix}1&1&1\\\\2&1&1\\\\1&2&3\\end{pmatrix},\n\\qquad\n(A|b)=\\begin{pmatrix}1&1&1&18\\\\2&1&1&22\\\\1&2&3&40\\end{pmatrix}.\n$$\n\nComo $\\det(A)=-1\\ne 0$, se tiene $\\operatorname{rg}(A)=3$. Por tanto, $\\operatorname{rg}(A|b)=3$ también. El sistema es compatible determinado.\n\nRestando la primera ecuación de la segunda, resulta $x=4$. La primera ecuación da entonces $y+z=14$. Sustituyendo $x=4$ en la tercera, se obtiene $2y+3z=36$. Al restar $2(y+z)=28$, resulta $z=8$ y, por tanto, $y=6$.\n\nAsí, los precios son $x=4$, $y=6$ y $z=8$ euros.\n\n### b) Recaudación total\n\nLa recaudación de las tres compras es $18+22+40=80$ euros.\n\n### c) Comparación de precios\n\nEl doble del precio estándar es $2x=2\\cdot4=8$ euros, que coincide con $z=8$ euros. Por tanto, sí: el precio VIP es el doble que el estándar.",
+   "resultado": "Precios: x=4 €, y=6 €, z=8 €; rangos: 3 y 3; recaudación total: 80 €; el precio VIP sí es el doble del estándar.",
+   "criterios": "Total: 3 puntos. a) 1,5 puntos: planteamiento correcto del sistema, 0,5; cálculo de los rangos de la matriz de coeficientes y de la ampliada y clasificación, 0,5; resolución correcta, 0,5. b) 0,75 puntos: suma de las tres recaudaciones y resultado de 80 €. c) 0,75 puntos: comparación de z con 2x y conclusión correcta de que sí son iguales.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "2",
+   "tema": "funciones",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Durante las primeras 8 semanas de una campaña universitaria, un índice de satisfacción se modeliza mediante la función $f(t)=-2t^2+16t+20$, donde $t$ es el tiempo, en semanas, desde el inicio de la campaña y $f(t)$ se expresa en puntos.\na) (0,75 puntos) ¿En qué intervalo abierto de semanas es estrictamente creciente el índice?\nb) (0,75 puntos) ¿En qué semanas alcanza el índice los 44 puntos?\nc) (0,75 puntos) Calcule la tasa de variación instantánea del índice al cabo de 3 semanas e interprete su signo.\nd) (0,75 puntos) ¿Puede alcanzar el índice los 60 puntos durante las 8 semanas? Justifique la respuesta.",
+   "solucion": "### Dominio y forma útil de la función\nDurante la campaña, $0\\le t\\le 8$. Completando el cuadrado,\n$$f(t)=-2t^2+16t+20=-2(t-4)^2+52.$$\n\n### a) Intervalo de crecimiento\nSi $0\\le t_1<t_2\\le4$, la distancia de $t_1$ a $4$ es mayor que la de $t_2$ a $4$. Por tanto, $(t_1-4)^2>(t_2-4)^2$ y, al multiplicar por $-2$ y sumar $52$, resulta $f(t_1)<f(t_2)$. Así, la función es estrictamente creciente en $[0,4]$; el intervalo abierto pedido es **$(0,4)$ semanas**. A partir de $t=4$, decrece.\n\n### b) Semanas en que alcanza 44 puntos\n$$-2(t-4)^2+52=44\\quad\\Longrightarrow\\quad (t-4)^2=4\\quad\\Longrightarrow\\quad t=4\\pm2.$$\nPor tanto, alcanza los 44 puntos en las semanas **$t=2$ y $t=6$**, ambas dentro del periodo de la campaña.\n\n### c) Tasa instantánea al cabo de 3 semanas\nUsando la definición de derivada, $f(3)=50$ y $f(3+h)=50+4h-2h^2$, de modo que\n$$f'(3)=\\lim_{h\\to0}\\frac{f(3+h)-f(3)}h=\\lim_{h\\to0}(4-2h)=4.$$\nLa tasa es **$4$ puntos por semana**. Al ser positiva, el índice está aumentando en ese instante.\n\n### d) Posibilidad de alcanzar 60 puntos\nComo $(t-4)^2\\ge0$, se tiene\n$$f(t)=52-2(t-4)^2\\le52.$$\nEl máximo se alcanza en $t=4$ y vale **52 puntos**. Por tanto, **no puede alcanzar los 60 puntos** durante las ocho semanas.\n\n### Comprobación final\n$f(2)=44$, $f(6)=44$ y $f'(3)=-4\\cdot3+16=4$. Además, el máximo $52$ es menor que $60$.",
+   "resultado": "(a) $(0,4)$ semanas; (b) $t=2$ y $t=6$ semanas; (c) $4$ puntos por semana, positiva; (d) no, el máximo es $52$ puntos.",
+   "criterios": "Total: 3 puntos. a) 0,75: identifica el punto de cambio en t=4 (0,25) y justifica el crecimiento y el intervalo abierto (0,4) (0,50). b) 0,75: plantea correctamente la ecuación f(t)=44 (0,25) y obtiene t=2 y t=6, dentro del dominio (0,50). c) 0,75: calcula la tasa instantánea en t=3 (0,50) e interpreta correctamente que el signo positivo indica crecimiento (0,25). d) 0,75: justifica que el máximo en el periodo es 52 (0,50) y concluye que no puede alcanzar 60 puntos (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "3",
+   "tema": "probabilidad",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Elija solo uno de los apartados A) o B):\n\nA) En un estudio sobre pedidos realizados a través de una plataforma, $A$ es el suceso «el pedido se entrega en el día previsto» y $B$ es el suceso «el pedido se realiza con envío urgente». Se sabe que $P(A)=0,6$, $P(B^c)=0,5$ y $P(A\\mid B)=0,6$.\na) (0,5 puntos) Calcule $P(A\\cap B)$.\nb) (0,5 puntos) Calcule $P(B\\setminus A)$.\nc) (0,5 puntos) Calcule $P(A\\cup B)$.\nd) (0,5 puntos) Calcule $P(A^c\\setminus B)$.\n\nB) En un registro de incidencias de una plataforma, $A$ representa que una incidencia se resuelve dentro del plazo y $B$ que se resuelve mediante un procedimiento automático. Se sabe que $P(A)=2P(B)$, $P(B^c\\mid A)=0,6$ y $P(A\\cap B)=0,16$.\na) (0,5 puntos) Calcule $P(B)$.\nb) (0,5 puntos) Calcule la probabilidad de que una incidencia no pertenezca a ninguno de los sucesos $A$ y $B$.\nc) Se observan 100 incidencias independientes. Sea $X$ el número de ellas que se resuelven mediante el procedimiento automático.\ni) (0,25 puntos) Indique la distribución de $X$.\nii) (0,75 puntos) Calcule aproximadamente la probabilidad de que $X$ tome un valor entre 15 y 25, ambos inclusive. Use la aproximación normal a la binomial con corrección de continuidad.",
+   "solucion": "Elegimos el apartado A). Como $P(B^c)=0,5$, se tiene $P(B)=1-0,5=0,5$.\n\n**a)** Por la definición de probabilidad condicionada,\n$$P(A\\cap B)=P(A\\mid B)P(B)=0,6\\cdot 0,5=0,3.$$\n\n**b)** El suceso $B\\setminus A$ corresponde a que ocurre $B$ pero no $A$. Por tanto,\n$$P(B\\setminus A)=P(B)-P(A\\cap B)=0,5-0,3=0,2.$$\n\n**c)** Aplicando la fórmula de la unión,\n$$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)=0,6+0,5-0,3=0,8.$$\n\n**d)** $A^c\\setminus B=A^c\\cap B^c=(A\\cup B)^c$, así que\n$$P(A^c\\setminus B)=1-P(A\\cup B)=1-0,8=0,2.$$",
+   "resultado": "a) $P(A\\cap B)=0,3$; b) $P(B\\setminus A)=0,2$; c) $P(A\\cup B)=0,8$; d) $P(A^c\\setminus B)=0,2$.",
+   "criterios": "Total: 2 puntos. a) 0,5 puntos por calcular $P(B)=0,5$ y aplicar correctamente $P(A\\cap B)=P(A\\mid B)P(B)=0,3$. b) 0,5 puntos por usar $P(B\\setminus A)=P(B)-P(A\\cap B)=0,2$. c) 0,5 puntos por aplicar la fórmula de la unión y obtener $0,8$. d) 0,5 puntos por identificar $A^c\\setminus B=(A\\cup B)^c$ y obtener $0,2$.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "inferencia",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Una cooperativa estudia el consumo semanal de energía eléctrica de los hogares de una zona. El consumo sigue una distribución normal de desviación típica conocida de 10 kWh. En una muestra aleatoria de 100 hogares se obtiene un consumo medio semanal de 80 kWh.\na) (0,75 puntos) Calcule un intervalo de confianza del 95 % para estimar el consumo medio semanal de energía eléctrica de los hogares de la zona.\nb) (0,5 puntos) A partir del intervalo obtenido, razone si los datos son compatibles con que el consumo medio semanal sea de 82 kWh.\nc) (0,75 puntos) ¿Cuántos hogares se deben seleccionar, como mínimo, para estimar el consumo medio semanal con un nivel de confianza del 95 % y un error máximo de 4 kWh?",
+   "solucion": "### a) Intervalo de confianza del 95 %\nSea $\\bar X$ la media muestral. Como la población es normal y la desviación típica es conocida, usamos el pivote $Z=(\\bar X-\\mu)/(\\sigma/\\sqrt n)$, que sigue una normal estándar. Para un nivel del 95 %, $z_{0.975}=1.96$. El error típico es $\\sigma/\\sqrt n=10/\\sqrt{100}=1$ kWh, por lo que el intervalo es\n$$80\\pm1.96\\cdot1=(78.04,\\,81.96)\\text{ kWh}.$$\n\n### b) Compatibilidad con $\\mu=82$\nEl valor $82$ kWh no pertenece al intervalo $(78.04,81.96)$ kWh. Por tanto, al nivel del 5 %, los datos no son compatibles con que la media sea $82$ kWh. Como comprobación mediante contraste bilateral, $z=(80-82)/1=-2$, y $|z|=2>1.96$, por lo que también se rechaza esa hipótesis al 5 %.\n\n### c) Tamaño mínimo de la muestra\nEl error máximo debe cumplir $1.96\\cdot10/\\sqrt n\\leq4$. Despejando,\n$$n\\geq\\left(\\frac{1.96\\cdot10}{4}\\right)^2=24.01.$$\nComo el tamaño debe ser un número entero y se necesita garantizar que el error no supere 4 kWh, se redondea hacia arriba: hacen falta, como mínimo, $25$ hogares. Comprobación: con $n=25$, el error es $1.96\\cdot10/\\sqrt{25}=3.92$ kWh; con $n=24$ es aproximadamente $4.00$ kWh (mayor que 4).",
+   "resultado": "a) IC del 95 %: (78,04; 81,96) kWh. b) 82 kWh no es compatible al 5 %. c) 25 hogares.",
+   "criterios": "a) 0,75 puntos: 0,20 por el error típico correcto; 0,20 por identificar el valor crítico 1,96; 0,35 por obtener y expresar correctamente el intervalo. b) 0,50 puntos: 0,25 por comparar 82 con los extremos del intervalo; 0,25 por interpretar correctamente la compatibilidad al nivel del 5 %. c) 0,75 puntos: 0,30 por plantear la condición del error máximo; 0,25 por despejar y calcular n ≥ 24,01; 0,20 por redondear hacia arriba y dar 25 hogares.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-16",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "probabilidad",
+   "p": 0.9
+  },
+  {
+   "id": "inferencia",
+   "p": 0.9
+  },
+  {
+   "id": "funciones",
+   "p": 0.612
+  },
+  {
+   "id": "matrices",
+   "p": 0.532
+  },
+  {
+   "id": "progl",
+   "p": 0.532
+  },
+  {
+   "id": "integrales",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_matematicas_aplicadas.zip#Matematicas_Aplicadas/Ordinaria_Titular/Examen Titular Matemáticas Aplicadas a las Ciencias Sociales II.pdf",
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_matematicas_aplicadas.zip#Matematicas_Aplicadas/Extraordinaria_Incidencias/Examen  Suplente 2 Matemáticas Aplicadas a las Ciencias Sociales II_Ex.pdf"
+ ]
+}
