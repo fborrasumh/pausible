@@ -63,6 +63,47 @@ function latexLite(s) {
   return x.replace(/\$\$?/g, '').replace(/\\text\{([^{}]*)\}/g, '$1').replace(/\\\\/g, '\n');
 }
 
+/* Texto con fórmulas → HTML. Las fórmulas ($…$, $$…$$, \(…\), \[…\]) se apartan antes del Markdown
+   (que se comería los _ y los *) y se pintan con KaTeX, que va dentro del propio HTML. Química con \ce{…}.
+   Si KaTeX fallara en una fórmula, se muestra en texto legible (latexLite) en vez de en crudo. */
+const MATH_RX = /\$\$([\s\S]+?)\$\$|\\\[([\s\S]+?)\\\]|\\\(([\s\S]+?)\\\)|\$(?=\S)((?:\\\$|[^$\n])+?)(?<=\S)\$(?!\d)/g;   // $…$ como en Pandoc: sin espacio pegado al $ (así «3$ y 5$» no es una fórmula)
+function formula(tex, display) {
+  try {
+    if (typeof katex !== 'undefined') return katex.renderToString(tex, {displayMode: display, throwOnError: false, strict: 'ignore', output: 'html'});
+  } catch {}
+  return esc(latexLite(tex));
+}
+/* fórmulas sueltas sin delimitadores: \ce{…}, \frac{…}{…}, \sqrt{…}… con sus llaves equilibradas */
+const SUELTA_RX = /\\(ce|pu|frac|dfrac|tfrac|sqrt|vec|binom|overline|hat|mathbb|mathrm)(?=\s*[{\[])/g;
+function sueltas(texto, guarda) {
+  let out = '', i = 0, m;
+  SUELTA_RX.lastIndex = 0;
+  while ((m = SUELTA_RX.exec(texto))) {
+    let j = m.index + m[0].length, grupos = 0;
+    while (j < texto.length) {
+      let k0 = j; while (texto[k0] === ' ') k0++;
+      const abre = texto[k0], cierra = abre === '{' ? '}' : abre === '[' ? ']' : null;
+      if (!cierra || (abre === '[' && grupos)) break;
+      let prof = 0, k = k0;
+      for (; k < texto.length; k++) { if (texto[k] === abre) prof++; else if (texto[k] === cierra && --prof === 0) break; }
+      if (prof) break;
+      j = k + 1; grupos++;
+    }
+    if (!grupos) continue;
+    out += texto.slice(i, m.index) + guarda(texto.slice(m.index, j), false);
+    i = j; SUELTA_RX.lastIndex = j;
+  }
+  return out + texto.slice(i);
+}
+function conFormulas(texto, markdown = false) {
+  const trozos = [];
+  const guarda = (tex, display) => { trozos.push(formula(tex.trim(), display)); return `\u0000${trozos.length - 1}\u0000`; };
+  let marcado = String(texto || '').replace(MATH_RX, (m, a, b, c, d) => guarda(a ?? b ?? c ?? d, a != null || b != null));
+  marcado = sueltas(marcado, guarda);
+  const html = markdown ? md(marcado) : esc(marcado);
+  return html.replace(/\u0000(\d+)\u0000/g, (_, i) => trozos[+i]);
+}
+
 /* igualdad numérica con tolerancia relativa (misma regla que pipeline/genera.py) */
 function iguales(a, b, tol = 1e-3) {
   if (!Array.isArray(a) || !Array.isArray(b) || !a.length || a.length !== b.length) return false;
@@ -74,11 +115,11 @@ const SYS_PAU = 'Eres miembro de la comisión que elabora la PAU (selectividad) 
 const P_PONENTE = (cc, mat, temas) => `Redacta un examen ORIGINAL de «${mat}» para la PAU 2027 de ${cc}, con el formato del modelo vigente desde 2025 (modelo único, 90 minutos, parte competencial con situaciones contextualizadas). Reparte las preguntas según estas probabilidades de tema, priorizando las más altas:
 ${temas.map(t => `- ${t.nombre}: ${Math.round(t.p * 100)} %`).join('\n')}
 Cada pregunta debe tener UNA solución inequívoca; en cálculo, datos que den resultados limpios.
-Devuelve SOLO JSON: {"titulo":"…","duracion_min":90,"instrucciones":"…","preguntas":[{"n":"1","tema":"id","puntos":2.5,"tipo":"calculo|abierta","enunciado":"…"}]}
+Devuelve SOLO JSON: {"titulo":"…","duracion_min":90,"instrucciones":"…","preguntas":[{"n":"1","tema":"id","puntos":2.5,"tipo":"calculo|abierta","enunciado":"… (fórmulas en LaTeX entre $…$)"}]}
 Ids de tema válidos: ${temas.map(t => t.id).join(', ')}
 ${INSTR_IDIOMA()}`;
 const P_RESOL = (mat, p, variante) => `Resuelve esta pregunta de la PAU de «${mat}» como la comisión correctora, paso a paso. ${variante}
-Devuelve SOLO JSON: {"solucion":"desarrollo en Markdown","resultado":"resultado final en una línea","numeros":[resultados finales como números, en orden; [] si no es de cálculo],"claves":["afirmaciones que una respuesta correcta debe contener"],"criterios":"reparto de puntos"}
+Devuelve SOLO JSON: {"solucion":"desarrollo en Markdown, fórmulas en LaTeX entre $…$","resultado":"resultado final en una línea","numeros":[resultados finales como números, en orden; [] si no es de cálculo],"claves":["afirmaciones que una respuesta correcta debe contener"],"criterios":"reparto de puntos"}
 ${INSTR_IDIOMA()}
 
 PREGUNTA (${p.puntos} puntos):
@@ -145,4 +186,4 @@ function tarjeta(cv, d) {
   return cv;
 }
 
-if (typeof module !== 'undefined') module.exports = {notaDe, enlaceReto, leeReto, latexLite, iguales, resuelvePregunta, generaExamen, diasHasta};
+if (typeof module !== 'undefined') module.exports = {conFormulas, notaDe, enlaceReto, leeReto, latexLite, iguales, resuelvePregunta, generaExamen, diasHasta};

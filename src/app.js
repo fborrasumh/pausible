@@ -107,12 +107,12 @@ async function pintaExamen() {
     $('exPreg').innerHTML = ''; $('exNota').innerHTML = ''; $('exNota').hidden = true; return;
   }
   $('exNota').hidden = false;
-  $('exCab').innerHTML = `${ex.ficticio ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Ejemplo: soluciones comprobadas, temas ficticios'))}</p>` : ''}${ex.propio ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Generado con tu clave'))}</p>` : ''}<h3>${esc(latexLite(ex.titulo))}</h3><p>${esc(latexLite(ex.instrucciones))}</p>
+  $('exCab').innerHTML = `${ex.ficticio ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Ejemplo: soluciones comprobadas, temas ficticios'))}</p>` : ''}${ex.propio ? `<p class="fa-chip aviso" style="margin:0 0 8px">${esc(t('Generado con tu clave'))}</p>` : ''}<h3>${conFormulas(ex.titulo)}</h3><p>${conFormulas(ex.instrucciones)}</p>
     <div class="actions"><button class="btn btn-ghost" id="btnCrono" type="button">${ico('clock')}<span>${esc(S.crono ? t('Parar cronómetro') : t('Empezar cronómetro de {0} min', ex.duracion_min || 90))}</span></button><span class="pa-crono" id="crono" aria-live="off"></span></div>
     ${ex.descartadas && ex.descartadas.length ? `<p class="help">${esc(t('Se descartaron {0} pregunta(s) porque los resolutores no coincidieron.', ex.descartadas.length))}</p>` : ''}`;
   $('exPreg').innerHTML = ex.preguntas.map((p, i) => `<div class="card pa-preg"><h3>${esc(t('Pregunta {0}', p.n || i + 1))} <span class="fa-chip">${esc(t('{0} puntos', fmtN(p.puntos)))}</span> ${insignia(p)}</h3>
-    <div class="pa-enun">${esc(latexLite(p.enunciado))}</div>
-    <details class="pa-sol"><summary>${esc(t('Ver solución y criterios'))}</summary><div class="md">${p.resultado ? `<p><b>${esc(t('Resultado:'))}</b> ${esc(latexLite(p.resultado))}</p>` : ''}${md(latexLite(p.solucion || ''))}${p.criterios ? `<p class="help"><b>${esc(t('Criterios:'))}</b> ${esc(latexLite(p.criterios))}</p>` : ''}</div></details>
+    <div class="pa-enun">${conFormulas(p.enunciado)}</div>
+    <details class="pa-sol"><summary>${esc(t('Ver solución y criterios'))}</summary><div class="md">${p.resultado ? `<p><b>${esc(t('Resultado:'))}</b> ${conFormulas(p.resultado)}</p>` : ''}${conFormulas(p.solucion || '', true)}${p.criterios ? `<p class="help"><b>${esc(t('Criterios:'))}</b> ${conFormulas(p.criterios)}</p>` : ''}</div></details>
     <div class="pa-auto"><label for="auto${i}">${esc(t('Mi nota en esta pregunta'))}</label><input id="auto${i}" data-i="${i}" type="number" min="0" max="${p.puntos}" step="0.25" inputmode="decimal" value="${S.auto[i] ?? ''}"><span class="sub">/ ${fmtN(p.puntos)}</span></div></div>`).join('');
   $$('.pa-auto input').forEach(inp => inp.oninput = () => { const v = inp.value === '' ? undefined : Math.min(+inp.max, Math.max(0, +inp.value)); if (v === undefined) delete S.auto[inp.dataset.i]; else S.auto[inp.dataset.i] = v; guarda(); pintaNota(ex); });
   pintaNota(ex); tic();

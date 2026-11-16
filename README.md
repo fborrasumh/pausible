@@ -45,6 +45,10 @@ Para activar la generación: **Settings → Secrets and variables → Actions �
 
 Sin clave, la app funciona entera con los datos ya generados. Con la propia clave de OpenAI, Google Gemini o Anthropic Claude, el estudiante puede generar un examen probable para una combinación que aún no lo tenga; el navegador aplica el mismo esquema ponente + dos resolutores + desempate/tribunal (sin ejecutar código). La clave se guarda solo en el navegador.
 
+## Fórmulas
+
+Las fórmulas (LaTeX entre `$…$`, `$$…$$`, `\(…\)`, `\[…\]`, y química con `\ce{…}`) se pintan con [KaTeX](https://katex.org) y su extensión mhchem (licencia MIT), incluidos dentro del propio `index.html` con sus fuentes, así que se ven bien sin conexión. Para actualizarlos: `npm i katex@0.16 && python3 tools/vendor_katex.py node_modules/katex`.
+
 ## Privacidad
 
 No hay registro ni servidor propio. La comunidad, la materia, las notas del simulacro y la clave se guardan solo en el navegador. La tarjeta se dibuja en el dispositivo. Si se genera un examen con clave propia, al proveedor de IA solo salen la materia, la comunidad y la lista de temas.

@@ -20,6 +20,7 @@ for extra in app_js:
 js = ''.join(js_parts)
 assert '</script' not in js, 'El JS contiene «</script»: escríbelo como «<\\/script» o «</scr»+«ipt»'
 css = (R/'forja'/'forja-base.css').read_text(encoding='utf-8') + (R/'src'/'app.css').read_text(encoding='utf-8')
+if (R/'src'/'katex.css').exists(): css += (R/'src'/'katex.css').read_text(encoding='utf-8')   # fórmulas (fuentes en base64)
 icons = (R/'forja'/'icons.svg').read_text(encoding='utf-8')
 extra_icons = R/'src'/'icons-extra.svg'
 if extra_icons.exists():
@@ -34,7 +35,7 @@ connect += cfg.get('connect_extra', [])
 # librerías externas solo para LEER ficheros (40-extract) o si la app llama a cargaLib por su cuenta; Word/ZIP (70-report) no necesitan red
 app_src = ''.join((R/'src'/x).read_text(encoding='utf-8') for x in app_js if (R/'src'/x).exists())
 cdn = 'https://cdnjs.cloudflare.com https://cdn.jsdelivr.net' if (usa('40-') or 'cargaLib(' in app_src) else ''
-csp = "default-src 'none'; script-src 'unsafe-inline'"+(' '+cdn if cdn else '')+"; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src data: blob:; media-src blob: data:"
+csp = "default-src 'none'; script-src 'unsafe-inline'"+(' '+cdn if cdn else '')+"; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; img-src data: blob:; media-src blob: data:"
 csp += "; connect-src "+(' '.join(connect) if connect else "'none'")
 if cdn: csp += "; worker-src blob: "+cdn
 csp += "; base-uri 'none'; form-action 'none'"

@@ -73,7 +73,7 @@ def p_ponente(cc, mat, temas, referencias, evitar=''):
 No copies enunciados reales: mismos tipos de tarea, datos y contextos nuevos. Incluye el enfoque competencial (situaciones contextualizadas) del modelo vigente desde 2025.
 Cada pregunta debe tener UNA solución inequívoca (en cálculo, datos que den resultados limpios y comprobables).{evitar}
 Devuelve SOLO este JSON:
-{{"titulo":"…","duracion_min":90,"instrucciones":"…","preguntas":[{{"n":"1","tema":"id del tema","puntos":2.5,"tipo":"calculo|abierta","enunciado":"texto completo (usa LaTeX entre $…$ para fórmulas)"}}]}}
+{{"titulo":"…","duracion_min":90,"instrucciones":"…","preguntas":[{{"n":"1","tema":"id del tema","puntos":2.5,"tipo":"calculo|abierta","enunciado":"texto completo (fórmulas en LaTeX SIEMPRE entre $…$ o $$…$$; química con $\\ce{…}$)"}}]}}
 Ids de tema válidos: {', '.join(t['id'] for t in temas)}
 
 {refs}"""
@@ -83,7 +83,7 @@ def p_resolutor(mat, preg, calculo, variante):
     extra = ('\nAdemás escribe "codigo": un programa Python 3 con sympy (sin entrada ni red) que calcule DESDE LOS DATOS del enunciado los resultados finales y los imprima con print(json.dumps([...])) como lista de números en el orden en que se piden.'
              if calculo else '\nEn "claves" pon de 3 a 8 afirmaciones concretas que una respuesta correcta debe contener.')
     return f"""Resuelve esta pregunta de la PAU de «{mat}» como lo haría la comisión correctora, paso a paso y con la nota de corrección. {variante}
-Devuelve SOLO JSON: {{"solucion":"desarrollo completo en Markdown (LaTeX entre $…$)","resultado":"resultado final en una línea","numeros":[resultados finales como números, en orden]{',"codigo":"…"' if calculo else ',"claves":["…"]'},"criterios":"cómo se reparten los puntos"}}{extra}
+Devuelve SOLO JSON: {{"solucion":"desarrollo completo en Markdown (fórmulas en LaTeX SIEMPRE entre $…$ o $$…$$)","resultado":"resultado final en una línea","numeros":[resultados finales como números, en orden]{',"codigo":"…"' if calculo else ',"claves":["…"]'},"criterios":"cómo se reparten los puntos"}}{extra}
 
 PREGUNTA ({preg['puntos']} puntos):
 {preg['enunciado']}"""

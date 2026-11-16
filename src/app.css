@@ -44,3 +44,5 @@ table{border-collapse:collapse;width:100%;font-size:13.8px}th{background:var(--p
 .tarjeta{width:100%;max-width:320px;aspect-ratio:9/16;border-radius:18px;box-shadow:var(--sombra)}
 .pa-rank{display:grid;grid-template-columns:28px 1fr auto;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid var(--linea-2)}.pa-rank:last-child{border-bottom:0}.pa-rank span:first-child{font:800 16px var(--display);color:#6B4FD8}
 .pa-crono{font:800 28px var(--mono);color:#2A1A6E}
+
+.katex{font-size:1.08em}.katex-display{margin:.6em 0;overflow-x:auto;overflow-y:hidden;padding:2px 0}.pa-enun .katex-display{white-space:normal}

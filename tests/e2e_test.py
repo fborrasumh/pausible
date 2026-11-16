@@ -57,14 +57,19 @@ async def main():
         assert 'Ocultamos el examen de 2026' in await pg.inner_text('#predValid')
         assert 'en España' in await pg.inner_text('#predTemas')
         await pg.screenshot(path=OUT / '2_prediccion.png', full_page=True)
-        await pg.click('#navNext'); await pg.wait_for_selector('.pa-preg'); assert 'Examen probable Madrid' in await pg.inner_text('#exCab')
+        await pg.click('#navNext'); await pg.wait_for_selector('.pa-preg')
+        # fórmulas: KaTeX dentro del HTML, sin LaTeX en crudo ni errores (\( \), $$, \[ \], \ce, \binom…)
+        for s_ in await pg.query_selector_all('.pa-sol'): await s_.evaluate('e => e.open = true')
+        assert await pg.evaluate("document.querySelectorAll('#exPreg .katex').length") > 5
+        assert await pg.evaluate("document.querySelectorAll('#exPreg .katex-error').length") == 0
+        crudo = await pg.inner_text('#exPreg'); assert not [w for w in ['\\(', '\\binom', '\\ce', '{,}', '$$', '\\['] if w in crudo], crudo[:300]
         # 3) generar con clave (Comunitat Valenciana no tiene examen): la pregunta en la que nadie coincide se descarta
         await pg.evaluate("localStorage.setItem(PROV.openai.k,'sk-proj-prueba-0000000000000000')")
         await pg.click('#goHome'); await pg.click('#btnStart'); await pg.click('[data-c="valenciana"]'); await pg.select_option('#selMat', 'matematicas2')
         await pg.click('#navNext'); await pg.click('#navNext'); await pg.click('#btnGenera')
         await pg.wait_for_selector('.pa-preg', timeout=15000)
         assert await pg.locator('.pa-preg').count() == 1 and 'Se descartaron 1' in await pg.inner_text('#exCab')
-        assert '∫' in await pg.inner_text('.pa-enun')    # LaTeX ligero
+        assert await pg.evaluate("document.querySelectorAll('.pa-enun .katex').length") > 0    # fórmula del enunciado con KaTeX
         # 4) idiomas y ranking
         for l in ('en', 'pt', 'es'):
             await pg.select_option('#selLang', l); await pg.click('#goHome'); await pg.click('#btnRanking'); await pg.wait_for_selector('.pa-rank')
