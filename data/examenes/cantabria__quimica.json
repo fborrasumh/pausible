@@ -1,0 +1,145 @@
+{
+ "ccaa": "cantabria",
+ "materia": "quimica",
+ "titulo": "Prueba de Acceso a la Universidad (PAU) 2027 — Química — Prueba Ordinaria",
+ "duracion_min": 90,
+ "instrucciones": "El ejercicio consta de tres apartados. APARTADO 1: consta de dos preguntas; el alumnado debe elegir una. APARTADO 2: consta de cuatro preguntas; debe realizar la pregunta 3, obligatoria, y elegir dos preguntas entre la 4, 5 y 6. APARTADO 3: consta de dos preguntas; debe elegir una. En caso de realizar más preguntas de las solicitadas, se corregirán las que aparezcan resueltas en primer lugar, respetando la pregunta obligatoria. El alumnado debe realizar un total de cinco ejercicios, con una puntuación máxima total de 10 puntos. Entre corchetes se indica la puntuación máxima de cada apartado. Se permite utilizar una calculadora científica básica; quedan prohibidas las calculadoras gráficas o programables y cualquier dispositivo con capacidad de almacenar o transmitir datos.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "estructura",
+   "puntos": 2.0,
+   "tipo": "abierta",
+   "enunciado": "El calcio se analiza en el desarrollo de un biomaterial. Para el átomo de calcio, cuyo número atómico es $Z=20$, realice las siguientes tareas:\n\na) [0,50 puntos]. Escriba su configuración electrónica en estado fundamental.\n\nb) [0,50 puntos]. Indique el grupo y el periodo en los que se encuentra, y el número de electrones de valencia.\n\nc) [0,50 puntos]. Escriba un conjunto posible de números cuánticos $(n,l,m_l,m_s)$ para el electrón diferenciador.\n\nd) [0,50 puntos]. Compare el tamaño del átomo de calcio con el del ion $\u001b[0m$\\ce{Ca^{2+}}$ y justifique cuál de los dos tiene mayor radio.",
+   "solucion": "### a) Configuración electrónica fundamental\nEl calcio tiene $Z=20$, por lo que el átomo neutro posee 20 electrones. Al distribuirlos siguiendo el orden de llenado de los orbitales:\n\n$$1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^6\\,4s^2$$\n\nTambién puede escribirse como $[\\mathrm{Ar}]\\,4s^2$.\n\n### b) Grupo, periodo y electrones de valencia\nLa capa de mayor número cuántico principal es $n=4$, así que el calcio está en el **periodo 4**. Su configuración externa es $4s^2$; tiene **2 electrones de valencia** y pertenece al **grupo 2** (IIA).\n\n### c) Números cuánticos del electrón diferenciador\nEl electrón diferenciador es el segundo electrón del orbital $4s$. Para un orbital $s$, $l=0$ y $m_l=0$. Al completar el par, sus espines son opuestos. Un conjunto posible es:\n\n$$(n,l,m_l,m_s)=(4,0,0,-\\tfrac{1}{2})$$\n\n### d) Comparación de radios\nEl átomo de calcio es mayor que el ion $\\mathrm{Ca}^{2+}$. Al formar el catión, pierde los dos electrones $4s$ y queda con configuración $[\\mathrm{Ar}]$. La carga nuclear permanece igual, pero disminuyen las repulsiones entre electrones y desaparece la capa externa $n=4$; por ello, los electrones restantes quedan atraídos más intensamente y el radio del ion es menor.",
+   "resultado": "Configuración: $[\\mathrm{Ar}]\\,4s^2$; grupo 2, periodo 4, 2 electrones de valencia; un conjunto posible: $(4,0,0,-\\tfrac{1}{2})$; $r(\\mathrm{Ca})>r(\\mathrm{Ca}^{2+})$.",
+   "criterios": "Puntuación total: 2,00 puntos. a) 0,50 puntos por la configuración electrónica fundamental correcta (se acepta la notación abreviada $[\\mathrm{Ar}]\\,4s^2$). b) 0,50 puntos: 0,20 por grupo 2, 0,15 por periodo 4 y 0,15 por indicar 2 electrones de valencia. c) 0,50 puntos por un conjunto coherente de números cuánticos para el electrón diferenciador; se acepta $(4,0,0,-\\tfrac{1}{2})$. d) 0,50 puntos: 0,20 por identificar que el átomo es mayor y 0,30 por justificarlo mediante la pérdida de los electrones $4s$, la desaparición de la capa externa y/o el aumento de la atracción efectiva sobre los electrones restantes.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "enlace",
+   "puntos": 2.0,
+   "tipo": "abierta",
+   "enunciado": "En la selección de disolventes para un laboratorio se comparan el clorometano y el tetracloruro de carbono, $\u001b[0m$\\ce{CH3Cl}$ y $\\ce{CCl4}$, respectivamente.\n\na) [0,50 puntos]. Represente las estructuras de Lewis de ambas moléculas.\n\nb) [0,50 puntos]. Indique la geometría alrededor del átomo de carbono en cada molécula.\n\nc) [0,50 puntos]. Justifique cuál de las dos moléculas es polar.\n\nd) [0,50 puntos]. El punto de ebullición normal del $\u001b[0m$\\ce{CCl4}$ es $76,7\\ ^\\circ\\mathrm{C}$ y el del $\u001b[0m$\\ce{CH3Cl}$ es $-24,2\\ ^\\circ\\mathrm{C}$. Explique por qué el compuesto no polar tiene un punto de ebullición mayor.",
+   "solucion": "### a) Estructuras de Lewis\n\nEn el clorometano, el carbono forma cuatro enlaces sencillos: tres con hidrógenos y uno con cloro. El cloro tiene tres pares de electrones no enlazantes:\n\n$$\\mathrm{H_3C-Cl(\\cdot\\cdot)_3}$$\n\nEn el tetracloruro de carbono, el carbono central forma cuatro enlaces sencillos con átomos de cloro. Cada cloro tiene tres pares no enlazantes:\n\n$$\n\\begin{array}{c}\n\\mathrm{Cl(\\cdot\\cdot)_3}\\\\\n|\\\\\n\\mathrm{Cl(\\cdot\\cdot)_3-C-Cl(\\cdot\\cdot)_3}\\\\\n|\\\\\n\\mathrm{Cl(\\cdot\\cdot)_3}\n\\end{array}\n$$\n\nEn ambas estructuras, el carbono no tiene pares libres; se satisfacen los duetos de los hidrógenos y los octetos de los átomos de carbono y cloro.\n\n### b) Geometría\n\nAlrededor del carbono hay cuatro regiones de enlace y ningún par libre, por lo que, según el modelo de repulsión de pares electrónicos, ambas moléculas presentan geometría tetraédrica alrededor de ese átomo. Los ángulos son aproximadamente $109{,}5^\\circ$.\n\n### c) Polaridad\n\nEn $\\mathrm{CCl_4}$, los cuatro enlaces $\\mathrm{C-Cl}$ son polares, pero están dispuestos simétricamente en un tetraedro. Sus momentos dipolares se cancelan vectorialmente:\n\n$$\\vec{\\mu}_{\\mathrm{CCl_4}}=\\sum_{i=1}^{4}\\vec{\\mu}_{\\mathrm{C-Cl},i}=\\vec{0}$$\n\nPor tanto, $\\mathrm{CCl_4}$ es apolar. En $\\mathrm{CH_3Cl}$, la sustitución de un hidrógeno por un cloro rompe esa simetría: los momentos dipolares de enlace no se cancelan y queda un momento dipolar neto. Por tanto, $\\mathrm{CH_3Cl}$ es polar.\n\n### d) Puntos de ebullición\n\nEl carácter polar no es el único factor que determina el punto de ebullición. Aunque entre moléculas de $\\mathrm{CH_3Cl}$ hay interacciones dipolo-dipolo, el $\\mathrm{CCl_4}$ tiene una nube electrónica mayor y más polarizable (su masa molar es aproximadamente $153{,}8\\ \\mathrm{g\\,mol^{-1}}$, frente a $50{,}5\\ \\mathrm{g\\,mol^{-1}}$ para $\\mathrm{CH_3Cl}$). Por ello, las fuerzas de dispersión de London entre moléculas de $\\mathrm{CCl_4}$ son mucho más intensas y elevan más su punto de ebullición, pese a que la molécula sea apolar.\n\n### Comprobación\n\nLa diferencia entre los puntos de ebullición dados es $76{,}7-(-24{,}2)=100{,}9\\ ^\\circ\\mathrm{C}$. Esto concuerda con que el $\\mathrm{CCl_4}$ tenga fuerzas intermoleculares globalmente más intensas.",
+   "resultado": "Ambas moléculas son tetraédricas alrededor del carbono; CH3Cl es polar y CCl4 es apolar. CCl4 hierve a mayor temperatura por sus fuerzas de dispersión más intensas; la diferencia es 100,9 °C.",
+   "criterios": "a) 0,50 puntos: 0,25 por cada estructura de Lewis correcta, incluidos los enlaces y los pares no enlazantes. b) 0,50 puntos: 0,25 por indicar correctamente la geometría tetraédrica alrededor del carbono en cada molécula. c) 0,50 puntos: 0,25 por identificar CH3Cl como polar y CCl4 como apolar; 0,25 por justificarlo mediante la suma vectorial de los momentos dipolares y la simetría. d) 0,50 puntos: explicar que, aunque CH3Cl presenta interacciones dipolo-dipolo, la mayor polarizabilidad de CCl4 genera fuerzas de dispersión más intensas y, por ello, un punto de ebullición mayor.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "termo",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "En la fabricación de cemento se descompone piedra caliza según la reacción $\u001b[0m$\\ce{CaCO3(s) -> CaO(s) + CO2(g)}$.\n\na) [1 punto]. Calcule la entalpía estándar de la reacción y el calor que debe suministrarse para descomponer completamente $100,0\\ \\mathrm{g}$ de $\u001b[0m$\\ce{CaCO3}$.\n\nb) [1 punto]. Calcule la variación de entropía estándar y la variación de energía libre de Gibbs a $1200\\ \\mathrm{K}$. Indique si la reacción es espontánea en esas condiciones.\n\nDatos: $\\Delta_\\mathrm{f}H^\\circ$ (kJ·mol$^{-1}$): $\u001b[0m$\\ce{CaCO3(s)}$ = $-1207$; $\u001b[0m$\\ce{CaO(s)}$ = $-635$; $\u001b[0m$\\ce{CO2(g)}$ = $-394$. $S^\\circ$ (J·mol$^{-1}$·K$^{-1}$): $\u001b[0m$\\ce{CaCO3(s)}$ = $93$; $\u001b[0m$\\ce{CaO(s)}$ = $40$; $\u001b[0m$\\ce{CO2(g)}$ = $214$. Masas atómicas: Ca = $40$; C = $12$; O = $16$.",
+   "solucion": "### a) Entalpía de reacción y calor suministrado\n\nLa reacción está ajustada tal como se indica. La entalpía estándar de reacción se calcula mediante las entalpías estándar de formación:\n\n$$\\Delta_\\mathrm{r}H^\\circ=\\sum \\nu\\Delta_\\mathrm{f}H^\\circ(\\text{productos})-\\sum \\nu\\Delta_\\mathrm{f}H^\\circ(\\text{reactivos})$$\n\n$$\\Delta_\\mathrm{r}H^\\circ=[(-635)+(-394)]-[-1207]=+178\\ \\mathrm{kJ\\,mol^{-1}}$$\n\nLa masa molar del carbonato de calcio es:\n\n$$M(\\ce{CaCO3})=40+12+3(16)=100\\ \\mathrm{g\\,mol^{-1}}$$\n\nPor tanto, $100,0\\ \\mathrm{g}$ corresponden a $1,000\\ \\mathrm{mol}$. El calor que debe suministrarse, a presión constante, es:\n\n$$q_p=n\\Delta_\\mathrm{r}H^\\circ=(1,000)(178)=178\\ \\mathrm{kJ}$$\n\nEl signo positivo de $\\Delta_\\mathrm{r}H^\\circ$ indica que la descomposición es endotérmica.\n\n### b) Entropía y energía libre de Gibbs a $1200\\ \\mathrm{K}$\n\n$$\\Delta_\\mathrm{r}S^\\circ=\\sum \\nu S^\\circ(\\text{productos})-\\sum \\nu S^\\circ(\\text{reactivos})$$\n\n$$\\Delta_\\mathrm{r}S^\\circ=40+214-93=+161\\ \\mathrm{J\\,mol^{-1}\\,K^{-1}}$$\n\nConvirtiendo la entropía a $\\mathrm{kJ\\,mol^{-1}\\,K^{-1}}$ para combinarla con la entalpía:\n\n$$\\Delta_\\mathrm{r}G^\\circ=\\Delta_\\mathrm{r}H^\\circ-T\\Delta_\\mathrm{r}S^\\circ$$\n\n$$\\Delta_\\mathrm{r}G^\\circ=178-(1200)(0,161)=-15,2\\ \\mathrm{kJ\\,mol^{-1}}$$\n\nComo $\\Delta_\\mathrm{r}G^\\circ<0$, la reacción es espontánea a $1200\\ \\mathrm{K}$ en condiciones estándar.",
+   "resultado": "$\\Delta_\\mathrm{r}H^\\circ=+178\\ \\mathrm{kJ\\,mol^{-1}}$; para $100,0\\ \\mathrm{g}$ se suministran $178\\ \\mathrm{kJ}$; $\\Delta_\\mathrm{r}S^\\circ=+161\\ \\mathrm{J\\,mol^{-1}\\,K^{-1}}$; $\\Delta_\\mathrm{r}G^\\circ(1200\\ \\mathrm{K})=-15,2\\ \\mathrm{kJ\\,mol^{-1}}$, reacción espontánea.",
+   "criterios": "a) 1,0 punto: cálculo correcto de $\\Delta_\\mathrm{r}H^\\circ$ mediante productos menos reactivos (0,6); cálculo de la masa molar y de los moles de $\\ce{CaCO3}$ (0,2); cálculo del calor para la muestra, con unidades y signo adecuados (0,2). b) 1,0 punto: cálculo correcto de $\\Delta_\\mathrm{r}S^\\circ$ (0,4); uso de $\\Delta_\\mathrm{r}G^\\circ=\\Delta_\\mathrm{r}H^\\circ-T\\Delta_\\mathrm{r}S^\\circ$, incluyendo la conversión de unidades (0,4); conclusión justificada sobre la espontaneidad (0,2). Se aceptan redondeos coherentes.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "redox",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "En un laboratorio de análisis de aguas se determina el oxalato mediante su reacción con permanganato en medio ácido:\n\n$\u001b[0m$\\ce{KMnO4(aq) + Na2C2O4(aq) + H2SO4(aq) -> MnSO4(aq) + K2SO4(aq) + Na2SO4(aq) + CO2(g) + H2O(l)}$\n\na) [1 punto]. Ajuste la ecuación por el método del ion-electrón en medio ácido e indique las semirreacciones de oxidación y de reducción.\n\nb) [0,50 puntos]. Identifique el agente oxidante y el agente reductor, e indique cómo varían sus números de oxidación.\n\nc) [0,50 puntos]. Calcule la masa de $\u001b[0m$\\ce{Na2C2O4}$ que reacciona con $20,0\\ \\mathrm{mL}$ de una disolución $0,0200\\ \\mathrm{M}$ de $\u001b[0m$\\ce{KMnO4}$. El ácido se encuentra en exceso.\n\nMasas atómicas: Na = $23$; C = $12$; O = $16.",
+   "solucion": "### a) Ajuste por el método del ion-electrón\n\n**Oxidación del oxalato:** el carbono pasa de número de oxidación $+3$ a $+4$. La semirreacción ajustada es\n\n$$\\ce{C2O4^{2-} -> 2CO2 + 2e^-}$$\n\n**Reducción del permanganato:** se ajustan el oxígeno con agua, el hidrógeno con $\\ce{H+}$ y la carga con electrones:\n\n$$\\ce{MnO4^- + 8H+ + 5e^- -> Mn^{2+} + 4H2O}$$\n\nPara igualar los electrones, multiplicamos la primera semirreacción por $5$ y la segunda por $2$. Al sumarlas y cancelar los electrones se obtiene la ecuación iónica neta:\n\n$$\\ce{2MnO4^- + 5C2O4^{2-} + 16H+ -> 2Mn^{2+} + 10CO2 + 8H2O}$$\n\nAl incorporar los iones espectadores $\\ce{K+}$, $\\ce{Na+}$ y $\\ce{SO4^{2-}}$, la ecuación molecular ajustada es:\n\n$$\\ce{2KMnO4 + 5Na2C2O4 + 8H2SO4 -> 2MnSO4 + K2SO4 + 5Na2SO4 + 10CO2 + 8H2O}$$\n\n### b) Agentes y números de oxidación\n\nEl **agente oxidante** es $\\ce{KMnO4}$ (el ion $\\ce{MnO4^-}$), porque el manganeso se reduce: su número de oxidación cambia de $+7$ a $+2$.\n\nEl **agente reductor** es $\\ce{Na2C2O4}$ (el ion $\\ce{C2O4^{2-}}$), porque el carbono se oxida: su número de oxidación medio cambia de $+3$ a $+4$.\n\n### c) Masa de oxalato de sodio\n\nLos moles de permanganato son:\n\n$$n(\\ce{KMnO4})=0{,}0200\\ \\mathrm{mol\\,L^{-1}}\\times 0{,}0200\\ \\mathrm{L}=4{,}00\\times10^{-4}\\ \\mathrm{mol}$$\n\nLa proporción estequiométrica es $5\\ \\mathrm{mol}$ de $\\ce{Na2C2O4}$ por cada $2\\ \\mathrm{mol}$ de $\\ce{KMnO4}$. Equivalentemente, cada mol de oxalato cede $2$ electrones y cada mol de permanganato acepta $5$ electrones. Por tanto,\n\n$$n(\\ce{Na2C2O4})=\\frac{5}{2}(4{,}00\\times10^{-4})=1{,}00\\times10^{-3}\\ \\mathrm{mol}$$\n\n$$M(\\ce{Na2C2O4})=2(23)+2(12)+4(16)=134\\ \\mathrm{g\\,mol^{-1}}$$\n\n$$m=1{,}00\\times10^{-3}\\times134=0{,}134\\ \\mathrm{g}$$\n\n**Comprobación:** la ecuación iónica neta conserva la carga ($+4$ en ambos miembros). En la ecuación molecular, ambos miembros contienen $2$ K, $2$ Mn, $10$ Na, $10$ C, $16$ H, $8$ S y $60$ O. La proporción de electrones transferidos también concuerda: $2(5)=5(2)=10$ electrones.",
+   "resultado": "Ecuación: 2 KMnO4 + 5 Na2C2O4 + 8 H2SO4 → 2 MnSO4 + K2SO4 + 5 Na2SO4 + 10 CO2 + 8 H2O; oxidante: Mn, +7→+2; reductor: C, +3→+4; masa de Na2C2O4: 0,134 g.",
+   "criterios": "a) 1,00 punto: 0,25 por la semirreacción de oxidación correctamente ajustada; 0,25 por la semirreacción de reducción; 0,30 por igualar electrones y obtener la ecuación iónica neta; 0,20 por la ecuación molecular ajustada. b) 0,50 puntos: 0,25 por identificar correctamente oxidante y reductor; 0,25 por indicar los cambios de número de oxidación. c) 0,50 puntos: 0,15 por calcular los moles de KMnO4; 0,15 por aplicar la proporción estequiométrica; 0,20 por calcular la masa molar y dar la masa con unidades y cifras significativas adecuadas.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "5",
+   "tema": "acidobase",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Para calibrar un sensor ambiental se prepara una disolución $0,0100\\ \\mathrm{M}$ de un ácido monoprótico débil $\u001b[0m$\\ce{HA}$, cuya constante de acidez a $25\\ ^\\circ\\mathrm{C}$ es $K_a=1,0\\times10^{-6}$.\n\na) [0,75 puntos]. Calcule el pH de la disolución. Utilice la aproximación de ácido débil y compruebe que es válida.\n\nb) [0,50 puntos]. Calcule el grado de disociación del ácido.\n\nc) [0,75 puntos]. Indique, justificándolo mediante la reacción correspondiente, si una disolución de la sal $\u001b[0m$\\ce{KA}$ tendrá carácter ácido, básico o neutro.",
+   "solucion": "### a) pH de la disolución\n\nEl equilibrio de disociación es:\n\n$$\\mathrm{HA + H_2O \\rightleftharpoons H_3O^+ + A^-}$$\n\nSi $x=[\\mathrm{H_3O^+}]$ en el equilibrio y $C=0{,}0100\\ \\mathrm{M}$, entonces:\n\n$$K_a=\\frac{x^2}{C-x}$$\n\nAplicando la aproximación de ácido débil, $C-x\\approx C$:\n\n$$x\\approx\\sqrt{K_a C}=\\sqrt{(1{,}0\\times10^{-6})(0{,}0100)}=1{,}0\\times10^{-4}\\ \\mathrm{M}$$\n\nPor tanto:\n\n$$\\mathrm{pH}=-\\log[\\mathrm{H_3O^+}]=-\\log(1{,}0\\times10^{-4})=4{,}00$$\n\nComprobación de la aproximación:\n\n$$\\frac{x}{C}\\times100=\\frac{1{,}0\\times10^{-4}}{0{,}0100}\\times100=1{,}0\\%$$\n\nComo el cambio es inferior al criterio habitual del $5\\%$, la aproximación es válida. (La resolución de la ecuación sin aproximar da $x\\approx9{,}95\\times10^{-5}\\ \\mathrm{M}$ y un pH de aproximadamente $4{,}002$.)\n\n### b) Grado de disociación\n\n$$\\alpha=\\frac{x}{C}=\\frac{1{,}0\\times10^{-4}}{0{,}0100}=0{,}0100$$\n\nPor tanto, el grado de disociación es $\\alpha=0{,}0100$, es decir, $1{,}00\\%$.\n\n### c) Carácter de la disolución de la sal $\\mathrm{KA}$\n\nEl anión $\\mathrm{A^-}$, base conjugada del ácido débil $\\mathrm{HA}$, reacciona con el agua:\n\n$$\\mathrm{A^- + H_2O \\rightleftharpoons HA + OH^-}$$\n\nLa formación de $\\mathrm{OH^-}$ hace que la disolución sea **básica**. El catión $\\mathrm{K^+}$, procedente de una base fuerte, no hidroliza apreciablemente.",
+   "resultado": "pH = 4,00; α = 0,0100 (1,00 %); la disolución de KA es básica.",
+   "criterios": "Total: 2,00 puntos. a) 0,75 puntos: planteamiento del equilibrio y de Ka (0,20); aplicación correcta de la aproximación y cálculo de [H3O+] (0,25); cálculo del pH (0,15); comprobación cuantitativa de la validez de la aproximación (0,15). b) 0,50 puntos: definición correcta de α como x/C (0,20); valor y expresión porcentual correctos (0,30). c) 0,75 puntos: escritura correcta de la hidrólisis de A− (0,40); identificación justificada del carácter básico por la formación de OH− (0,35).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "6",
+   "tema": "equilibrio",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "La presencia de hidróxido de calcio puede producir depósitos sólidos en circuitos de refrigeración. A $25\\ ^\\circ\\mathrm{C}$, el producto de solubilidad del $\u001b[0m$\\ce{Ca(OH)2}$ es $K_{sp}=4,0\\times10^{-6}$.\n\na) [0,75 puntos]. Calcule la solubilidad molar del $\u001b[0m$\\ce{Ca(OH)2}$ en agua pura. Desprecie la autoionización del agua.\n\nb) [0,75 puntos]. Calcule la masa máxima de $\u001b[0m$\\ce{Ca(OH)2}$ que puede disolverse en $250,0\\ \\mathrm{mL}$ de agua a esa temperatura.\n\nc) [0,50 puntos]. Justifique cómo cambiaría la solubilidad al añadir $\u001b[0m$\\ce{Ca(NO3)2}$ a la disolución saturada.\n\nMasas atómicas: Ca = $40,1$; O = $16,0$; H = $1,0$.",
+   "solucion": "### a) Solubilidad molar\n\nLa disolución es $Ca(OH)_2(s) \\rightleftharpoons Ca^{2+}(aq)+2OH^-(aq)$. Usamos como incógnita $y=[OH^-]$; por la estequiometría, $[Ca^{2+}]=y/2$. Así,\n\n$$K_{sp}=[Ca^{2+}][OH^-]^2=\\frac{y}{2}y^2=\\frac{y^3}{2}.$$\n\nPor tanto, $y=\\sqrt[3]{2K_{sp}}=\\sqrt[3]{8,0\\times10^{-6}}=0,020\\ \\mathrm{mol\\,L^{-1}}$. La solubilidad molar es la concentración de calcio disuelto:\n\n$$s=[Ca^{2+}]=\\frac{y}{2}=0,010\\ \\mathrm{mol\\,L^{-1}}.$$\n\n### b) Masa máxima disuelta\n\nLa masa molar es $M(Ca(OH)_2)=40,1+2(16,0+1,0)=74,1\\ \\mathrm{g\\,mol^{-1}}$. Para $V=0,2500\\ \\mathrm{L}$:\n\n$$n=sV=(0,010)(0,2500)=0,00250\\ \\mathrm{mol}.$$\n\n$$m=nM=(0,00250)(74,1)=0,18525\\ \\mathrm{g}\\approx 0,19\\ \\mathrm{g}.$$\n\nEl resultado final se expresa con dos cifras significativas, de acuerdo con los datos.\n\n### c) Efecto de añadir $Ca(NO_3)_2$\n\nLa sal soluble añade el ion común $Ca^{2+}$; el ion $NO_3^-$ no interviene en el equilibrio de solubilidad. Al aumentar $[Ca^{2+}]$, el equilibrio se desplaza hacia el sólido $Ca(OH)_2$, de modo que precipita parte del soluto y disminuye su solubilidad. A temperatura constante, $K_{sp}$ no cambia.",
+   "resultado": "$s=0,010\\ \\mathrm{mol\\,L^{-1}}$; $m_{\\max}=0,19\\ \\mathrm{g}$; al añadir $Ca(NO_3)_2$, la solubilidad disminuye.",
+   "criterios": "a) 0,75 puntos: ecuación de disolución y relación estequiométrica entre iones (0,25); planteamiento correcto de Ksp (0,25); solubilidad molar con unidades (0,25). b) 0,75 puntos: masa molar (0,15); cálculo de los moles disueltos a partir del volumen (0,20); masa final con unidades y redondeo adecuado (0,40). c) 0,50 puntos: identificación del ion común Ca2+ (0,20); explicación del desplazamiento hacia el sólido y de la disminución de solubilidad (0,20); indicación de que Ksp permanece constante a temperatura fija (0,10).",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "7",
+   "tema": "organica",
+   "puntos": 2.0,
+   "tipo": "abierta",
+   "enunciado": "En la identificación de compuestos orgánicos de una materia prima se estudian los siguientes compuestos: butan-1-ol, butan-2-ol y etoxietano.\n\na) [1 punto]. Escriba sus fórmulas semidesarrolladas e indique qué pares son isómeros y qué tipo de isomería estructural presentan.\n\nb) [0,50 puntos]. Complete la reacción entre ácido propanoico y metanol, escriba la fórmula semidesarrollada del producto orgánico e indique el tipo de reacción:\n\n$\u001b[0m$\\ce{CH3CH2COOH + CH3OH <=>}$\n\nc) [0,50 puntos]. Complete la reacción del 1-bromopropano con hidróxido de potasio acuoso, escriba los productos e indique el tipo de reacción:\n\n$\u001b[0m$\\ce{CH3CH2CH2Br + KOH(aq) ->}$",
+   "solucion": "### a) Fórmulas e isomería\n\nPara identificar sistemáticamente los isómeros, comparo primero las fórmulas moleculares y después la conectividad de los átomos. Los tres compuestos tienen fórmula molecular $C_4H_{10}O$.\n\n- Butan-1-ol: $CH_3-CH_2-CH_2-CH_2-OH$.\n- Butan-2-ol: $CH_3-CH(OH)-CH_2-CH_3$.\n- Etoxietano: $CH_3-CH_2-O-CH_2-CH_3$.\n\nLos tres pares son isómeros estructurales:\n\n- Butan-1-ol y butan-2-ol presentan **isomería de posición**: cambia la posición del grupo $-OH$.\n- Butan-1-ol y etoxietano presentan **isomería de función**: alcohol y éter.\n- Butan-2-ol y etoxietano presentan **isomería de función**: alcohol y éter.\n\n### b) Reacción entre ácido propanoico y metanol\n\n$CH_3CH_2COOH + CH_3OH \\rightleftharpoons CH_3CH_2COOCH_3 + H_2O$\n\nEl producto orgánico es $CH_3-CH_2-COO-CH_3$, **propanoato de metilo**. Es una reacción de **esterificación** (de condensación, reversible).\n\n### c) Reacción del 1-bromopropano con hidróxido de potasio acuoso\n\n$CH_3CH_2CH_2Br + KOH(aq) \\longrightarrow CH_3CH_2CH_2OH + KBr$\n\nLos productos son propan-1-ol, $CH_3-CH_2-CH_2-OH$, y bromuro de potasio, $KBr$. Es una **sustitución nucleófila** (hidrólisis del halogenuro; compatible con mecanismo $S_N2$ al ser un halogenuro primario).\n\n### Comprobación\n\nLos tres compuestos del apartado a tienen la misma fórmula molecular, $C_4H_{10}O$, pero distinta conectividad. En b, la ecuación conserva $C_4H_{10}O_3$ en ambos lados. En c, se conserva cada tipo de átomo y la proporción es $1:1$.",
+   "resultado": "Isómeros: butan-1-ol/butan-2-ol, de posición; cada alcohol/etoxietano, de función. b) $CH_3CH_2COOCH_3 + H_2O$ (esterificación). c) $CH_3CH_2CH_2OH + KBr$ (sustitución nucleófila).",
+   "criterios": "a) 1,00 punto: 0,15 por cada fórmula semidesarrollada correcta (0,45); 0,20 por reconocer la isomería de posición entre los butanoles y 0,175 por cada pareja alcohol–éter correctamente identificada como isomería de función (0,55). b) 0,50 puntos: 0,30 por los productos y la fórmula del éster, 0,10 por el agua y 0,10 por indicar esterificación. c) 0,50 puntos: 0,30 por los productos y la ecuación ajustada, 0,20 por indicar sustitución nucleófila.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "8",
+   "tema": "organica",
+   "puntos": 2.0,
+   "tipo": "abierta",
+   "enunciado": "Se estudia el alqueno $\u001b[0m$\\ce{CH3CH=C(CH3)CH2CH3}$ como posible componente de un combustible de origen renovable.\n\na) [0,75 puntos]. Justifique si puede presentar isomería geométrica y si puede presentar isomería óptica.\n\nb) [0,75 puntos]. Escriba y ajuste la ecuación de su combustión completa con oxígeno.\n\nc) [0,50 puntos]. Complete su reacción con hidrógeno en presencia de níquel, escriba el nombre del producto orgánico e indique el tipo de reacción:\n\n$\u001b[0m$\\ce{CH3CH=C(CH3)CH2CH3 + H2 ->[Ni]}$",
+   "solucion": "### a) Isomería\nEn el doble enlace, el carbono izquierdo está unido a $\\mathrm{H}$ y a $\\mathrm{CH_3}$, y el carbono derecho a $\\mathrm{CH_3}$ y a $\\mathrm{CH_2CH_3}$. Como cada carbono del doble enlace tiene dos sustituyentes distintos, el compuesto puede presentar isomería geométrica $E/Z$.\n\nNo presenta isomería óptica: no hay ningún carbono tetraédrico unido a cuatro sustituyentes distintos, que constituiría un centro quiral.\n\n### b) Combustión completa\nEl compuesto tiene fórmula molecular $\\mathrm{C_6H_{12}}$. Para un alqueno de fórmula general $\\mathrm{C_nH_{2n}}$, la combustión se expresa como $\\mathrm{C_nH_{2n} + \\frac{3n}{2}O_2 \\rightarrow nCO_2 + nH_2O}$. Con $n=6$:\n\n$$\\mathrm{C_6H_{12} + 9O_2 \\rightarrow 6CO_2 + 6H_2O}$$\n\nComprobación: hay 6 átomos de C y 12 de H en ambos miembros; en los productos hay $12+6=18$ átomos de O, que corresponden a los 18 átomos aportados por $9\\,\\mathrm{O_2}$.\n\n### c) Reacción con hidrógeno\nLa adición de hidrógeno al doble enlace produce:\n\n$$\\mathrm{CH_3CH=C(CH_3)CH_2CH_3 + H_2 \\xrightarrow{Ni} CH_3CH_2CH(CH_3)CH_2CH_3}$$\n\nEl producto es **3-metilpentano**. Es una reacción de adición, concretamente una hidrogenación catalítica, que también es una reducción. Comprobación: se conserva el esqueleto de seis carbonos y se añaden dos H, por lo que $\\mathrm{C_6H_{12}+H_2}$ da $\\mathrm{C_6H_{14}}$, como corresponde al producto.",
+   "resultado": "Isomería geométrica $E/Z$: sí; isomería óptica: no. Combustión: $\\mathrm{C_6H_{12}+9O_2\\rightarrow6CO_2+6H_2O}$. Hidrogenación: 3-metilpentano, reacción de adición (reducción).",
+   "criterios": "Total: 2,00 puntos. a) 0,75 puntos: 0,40 por justificar que ambos carbonos del doble enlace tienen sustituyentes distintos y que existe isomería geométrica; 0,35 por descartar la isomería óptica con una justificación estructural. b) 0,75 puntos: 0,25 por identificar la fórmula del alqueno y plantear correctamente la combustión; 0,50 por ajustar la ecuación y conservar los átomos. c) 0,50 puntos: 0,20 por escribir correctamente la reacción de hidrogenación; 0,15 por nombrar el producto como 3-metilpentano; 0,15 por identificarla como adición (hidrogenación catalítica/reducción).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 3,
+ "temas_base": [
+  {
+   "id": "estructura",
+   "p": 0.9
+  },
+  {
+   "id": "equilibrio",
+   "p": 0.9
+  },
+  {
+   "id": "organica",
+   "p": 0.9
+  },
+  {
+   "id": "acidobase",
+   "p": 0.766
+  },
+  {
+   "id": "termo",
+   "p": 0.695
+  },
+  {
+   "id": "redox",
+   "p": 0.624
+  }
+ ],
+ "referencias": [
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Química_junio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/QUIMICA_julio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Contenido/Modelo de ejercicio  QUÍMICA.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Examen de la convocatoria ordinaria_2025_QUÍMICA.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/QUIMICA JULIO 2023.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/QUIMICA JUNIO 2024.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/QUIMICA_PAU_2025_Julio.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/QUIMICA_julio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Química_junio_2026.pdf"
+ ]
+}
