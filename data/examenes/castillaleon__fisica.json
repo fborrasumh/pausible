@@ -1,0 +1,200 @@
+{
+ "ccaa": "castillaleon",
+ "materia": "fisica",
+ "titulo": "Prueba de Acceso a la Universidad 2027 — Física — Castilla y León (modelo original)",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de dos preguntas obligatorias, de 1 punto cada una, y cuatro bloques optativos, de 2 puntos cada uno. En cada bloque optativo debe responderse una sola opción: A o B. En el bloque 2, la opción B comprende las preguntas 4 y 5; en el bloque 3, cada opción comprende dos preguntas. Si se responden ambas opciones de un bloque, solo se corregirá la opción A. La puntuación máxima es de 10 puntos. Justifique los procedimientos, explique los razonamientos y exprese los resultados numéricos con sus unidades.",
+ "preguntas": [
+  {
+   "n": "C.1",
+   "tema": "magnetico",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En un espectrómetro, un ion positivo entra con velocidad perpendicular a un campo magnético uniforme. Explique la dirección de la fuerza magnética respecto de la velocidad, qué trayectoria seguirá el ion y si cambiará su energía cinética. Indique además cómo variará el radio de la trayectoria si se duplica la intensidad del campo y se mantiene constante la rapidez. (1 punto)",
+   "solucion": "Sea $q>0$ la carga del ion, $m$ su masa, $\\vec v$ su velocidad y $\\vec B$ el campo. La fuerza es $\\vec F_B=q\\,\\vec v\\times\\vec B$: es perpendicular tanto a la velocidad como al campo, y su sentido se determina con la regla de la mano derecha.\\n\\nComo $\\vec v\\perp\\vec B$, la fuerza tiene módulo constante $F_B=qvB$. En cada instante es perpendicular a la velocidad, por lo que actúa como fuerza centrípeta y el ion describe un movimiento circular uniforme en un plano perpendicular a $\\vec B$. Igualando fuerza magnética y centrípeta,\\n\\n$$qvB=\\frac{mv^2}{r}\\quad\\Longrightarrow\\quad r=\\frac{mv}{qB}.$$\\n\\nAdemás, el trabajo de la fuerza magnética es nulo porque $\\vec F_B\\perp\\vec v$; por tanto, no cambia la energía cinética $K=\\frac12mv^2$ (ni la rapidez). Si se duplica el campo y se mantiene constante la rapidez,\\n\\n$$r'=\\frac{mv}{q(2B)}=\\frac{r}{2}.$$\\n\\nComprobación: el radio es inversamente proporcional a $B$, así que duplicar el campo reduce el radio a la mitad, mientras que la fuerza sigue sin realizar trabajo.",
+   "resultado": "Trayectoria circular uniforme; la energía cinética no cambia y, al duplicar $B$, el radio se reduce a la mitad ($r'=r/2$).",
+   "criterios": "Puntuación total: 1 punto. Dirección y sentido de la fuerza magnética: 0,20 puntos. Identificación de la trayectoria circular uniforme: 0,20 puntos. Justificación de que la energía cinética no cambia: 0,25 puntos. Relación del radio con el campo y conclusión de que al duplicar $B$ el radio se reduce a la mitad: 0,35 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "C.2",
+   "tema": "moderna",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En un laboratorio se compara la masa de un núcleo estable con la suma de las masas de los protones y neutrones que lo forman por separado. Explique qué representa la diferencia entre esas masas y cómo se relaciona con la energía de enlace del núcleo. (1 punto)",
+   "solucion": "Sean $Z$ el número de protones y $N$ el de neutrones. La masa de los nucleones libres es $Zm_p+Nm_n$, mayor que la masa $m_{\\mathrm{núcleo}}$ del núcleo estable. La diferencia se denomina defecto de masa: $$\\Delta m=Zm_p+Nm_n-m_{\\mathrm{núcleo}}>0.$$ Esa masa no desaparece: su equivalente en energía se libera al formarse el núcleo y corresponde a su energía de enlace, según la equivalencia masa-energía: $$E_{\\mathrm{enlace}}=\\Delta m\\,c^2.$$ La misma energía debe suministrarse para separar completamente el núcleo en sus protones y neutrones.",
+   "resultado": "Defecto de masa: $\\Delta m=Zm_p+Nm_n-m_{\\mathrm{núcleo}}$; energía de enlace: $E_{\\mathrm{enlace}}=\\Delta m c^2$.",
+   "criterios": "1,0 punto: 0,5 por definir correctamente el defecto de masa e indicar que la masa del núcleo es menor que la suma de las masas de los nucleones libres; 0,5 por relacionarlo con la energía de enlace mediante $E_{\\mathrm{enlace}}=\\Delta m c^2$ e interpretar su significado físico.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "1",
+   "tema": "gravitacion",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Un planeta descubierto en una misión espacial tiene una masa de $4M_T$ y un radio de $2R_T$, donde $M_T$ y $R_T$ son la masa y el radio terrestres. Considere que la aceleración de la gravedad en la superficie terrestre es $g_T=9{,}8\\,\\mathrm{m\\,s^{-2}}$. Una sonda de $120\\,\\mathrm{kg}$ se posa sobre la superficie del planeta. a) Calcule el módulo de la fuerza gravitatoria que ejerce el planeta sobre la sonda. (1 punto) b) Determine la intensidad del campo gravitatorio a una altura sobre la superficie igual al radio del planeta. (1 punto)",
+   "solucion": "### a) Fuerza gravitatoria en la superficie\n\nLa gravedad en la superficie del planeta es\n\n$$g_P=\\frac{G(4M_T)}{(2R_T)^2}=\\frac{4}{4}\\frac{GM_T}{R_T^2}=g_T=9{,}8\\,\\mathrm{m\\,s^{-2}}.$$\n\nPor tanto, sobre la sonda actúa una fuerza de módulo\n\n$$F_g=m g_P=(120\\,\\mathrm{kg})(9{,}8\\,\\mathrm{m\\,s^{-2}})=1\\,176\\,\\mathrm{N}.$$\n\n### b) Campo gravitatorio a una altura igual al radio planetario\n\nLa distancia al centro del planeta es $r=R_P+h=2R_P$. Aplicando la ley de gravitación:\n\n$$g(r)=\\frac{G M_P}{r^2}=\\frac{G M_P}{(2R_P)^2}=\\frac{1}{4}\\frac{G M_P}{R_P^2}=\\frac{g_P}{4}=2{,}45\\,\\mathrm{m\\,s^{-2}}.$$\n\nEl campo está dirigido hacia el centro del planeta.",
+   "resultado": "$F_g=1\\,176\\,\\mathrm{N}$; $g=2{,}45\\,\\mathrm{m\\,s^{-2}}$ (hacia el centro del planeta).",
+   "criterios": "Total: 2 puntos. a) (1 punto): 0,40 por establecer correctamente la relación de la gravedad superficial del planeta con la terrestre, obteniendo $g_P=9{,}8\\,\\mathrm{m\\,s^{-2}}$; 0,40 por aplicar $F=mg$ y obtener $1\\,176\\,\\mathrm{N}$; 0,20 por expresar correctamente la unidad y el módulo. b) (1 punto): 0,40 por identificar que la distancia al centro es $2R_P$; 0,40 por aplicar la dependencia inversa con el cuadrado de la distancia y obtener $2{,}45\\,\\mathrm{m\\,s^{-2}}$; 0,20 por indicar correctamente la unidad y, si se expresa la dirección, que es hacia el centro.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "gravitacion",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Un satélite de observación describe una órbita circular de radio $1{,}00\\times10^7\\,\\mathrm{m}$ alrededor de un planeta cuya constante gravitatoria es $GM=2{,}50\\times10^{14}\\,\\mathrm{m^3\\,s^{-2}}$. a) Calcule la rapidez orbital del satélite. (1 punto) b) Determine el período de la órbita y expréselo también en horas. (1 punto)",
+   "solucion": "### a) Rapidez orbital\n\nEn una órbita circular, la fuerza gravitatoria proporciona la fuerza centrípeta:\n\n$$\\frac{GMm}{r^2}=\\frac{mv^2}{r}$$\n\nDespejando la rapidez y sustituyendo los datos:\n\n$$v=\\sqrt{\\frac{GM}{r}}=\\sqrt{\\frac{2{,}50\\times10^{14}}{1{,}00\\times10^7}}=5{,}00\\times10^3\\ \\mathrm{m\\,s^{-1}}$$\n\n### b) Período orbital\n\nEl período es la longitud de la órbita dividida por la rapidez:\n\n$$T=\\frac{2\\pi r}{v}=\\frac{2\\pi(1{,}00\\times10^7)}{5{,}00\\times10^3}=1{,}2566\\times10^4\\ \\mathrm{s}$$\n\nEn horas:\n\n$$T=\\frac{1{,}2566\\times10^4}{3600}=3{,}491\\ \\mathrm{h}$$",
+   "resultado": "v = 5,00×10³ m/s; T = 1,2566×10⁴ s = 3,491 h.",
+   "criterios": "a) 1,00 punto: planteamiento de la igualdad entre fuerza gravitatoria y centrípeta y despeje de v (0,50); sustitución, resultado y unidad correctos (0,50). b) 1,00 punto: expresión correcta del período, por ejemplo T = 2πr/v (0,40); cálculo del período en segundos (0,30); conversión correcta a horas y resultado con unidad (0,30).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "electrico",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En un equipo de separación electrostática, dos placas paralelas están separadas $2{,}0\\,\\mathrm{cm}$ y mantienen una diferencia de potencial de $600\\,\\mathrm{V}$. Desprecie los efectos de borde y suponga que el campo entre las placas es uniforme. La placa A está a mayor potencial que la placa B. Se introduce una partícula de carga $+3{,}0\\,\\mathrm{nC}$. a) Calcule el módulo del campo eléctrico y el módulo de la fuerza eléctrica sobre la partícula, indicando el sentido de esta. (1 punto) b) Calcule el trabajo realizado por el campo eléctrico al trasladar la partícula desde A hasta B. (1 punto)",
+   "solucion": "### a) Campo eléctrico y fuerza\n\nLa separación entre placas es $d=2{,}0\\,\\mathrm{cm}=2{,}0\\times10^{-2}\\,\\mathrm{m}$. En un campo uniforme, el módulo del campo es:\n\n$$E=\\frac{|V_A-V_B|}{d}=\\frac{600\\,\\mathrm{V}}{2{,}0\\times10^{-2}\\,\\mathrm{m}}=3{,}0\\times10^{4}\\,\\mathrm{V/m}.$$\n\nLa fuerza eléctrica sobre la partícula tiene módulo:\n\n$$F=|q|E=(3{,}0\\times10^{-9}\\,\\mathrm{C})(3{,}0\\times10^{4}\\,\\mathrm{N/C})=9{,}0\\times10^{-5}\\,\\mathrm{N}.$$\n\nEl campo eléctrico apunta desde la placa de mayor potencial hacia la de menor potencial, es decir, de A hacia B. Como la carga es positiva, la fuerza tiene ese mismo sentido: **de A hacia B**.\n\n### b) Trabajo del campo eléctrico\n\nEl trabajo realizado por el campo al trasladar la carga desde A hasta B es:\n\n$$W_{A\\to B}=q(V_A-V_B)=(3{,}0\\times10^{-9}\\,\\mathrm{C})(600\\,\\mathrm{V})=1{,}8\\times10^{-6}\\,\\mathrm{J}.$$\n\nEl trabajo es positivo porque el desplazamiento es en el sentido de la fuerza eléctrica.",
+   "resultado": "$E=3{,}0\\times10^{4}\\,\\mathrm{V/m}$; $F=9{,}0\\times10^{-5}\\,\\mathrm{N}$, de A hacia B; $W_{A\\to B}=+1{,}8\\times10^{-6}\\,\\mathrm{J}$.",
+   "criterios": "Total: 2 puntos. a) 1 punto: 0,5 por aplicar correctamente $E=\\Delta V/d$ y obtener $3{,}0\\times10^{4}\\,\\mathrm{V/m}$; 0,3 por calcular $F=qE=9{,}0\\times10^{-5}\\,\\mathrm{N}$; 0,2 por indicar que la fuerza apunta de A hacia B. b) 1 punto: 0,5 por plantear correctamente $W_{A\\to B}=q(V_A-V_B)$ y asignar el signo positivo; 0,5 por obtener $1{,}8\\times10^{-6}\\,\\mathrm{J}$.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "magnetico",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Dos conductores rectilíneos, muy largos y paralelos, están separados $8{,}0\\,\\mathrm{cm}$. Por ambos circula una corriente de $12\\,\\mathrm{A}$ en el mismo sentido. Determine el campo magnético resultante en el punto medio entre los conductores y explique cómo se obtiene la dirección del campo creado por cada uno. Use $\\mu_0=4\\pi\\times10^{-7}\\,\\mathrm{T\\,m\\,A^{-1}}$. (1 punto)",
+   "solucion": "La distancia de cada conductor al punto medio es\n$$\nr=\\frac{8{,}0\\,\\mathrm{cm}}{2}=4{,}0\\,\\mathrm{cm}=0{,}040\\,\\mathrm{m}.\n$$\nEl campo magnético creado por un conductor rectilíneo muy largo a una distancia $r$ vale\n$$\nB=\\frac{\\mu_0 I}{2\\pi r}\n=\\frac{(4\\pi\\times10^{-7}\\,\\mathrm{T\\,m\\,A^{-1}})(12\\,\\mathrm{A})}{2\\pi(0{,}040\\,\\mathrm{m})}\n=6{,}0\\times10^{-5}\\,\\mathrm{T}.\n$$\nPor la regla de la mano derecha, se apunta el pulgar en el sentido de la corriente y la curvatura de los dedos indica el sentido del campo magnético alrededor de cada conductor. En el punto medio, que está a la misma distancia de ambos, los campos tienen igual módulo. Como las corrientes circulan en el mismo sentido, sus campos en ese punto apuntan en sentidos opuestos. Por tanto,\n$$\n\\vec B_{\\mathrm{resultante}}=\\vec B_1+\\vec B_2=\\vec 0,\n\\qquad B_{\\mathrm{resultante}}=0\\,\\mathrm{T}.\n$$",
+   "resultado": "El campo magnético resultante en el punto medio es $0\\,\\mathrm{T}$; los campos de cada conductor tienen módulo $6{,}0\\times10^{-5}\\,\\mathrm{T}$ y sentidos opuestos.",
+   "criterios": "1 punto: 0,25 por convertir la separación y determinar que la distancia al punto medio es $0{,}040\\,\\mathrm{m}$; 0,25 por calcular correctamente el módulo del campo de cada conductor ($6{,}0\\times10^{-5}\\,\\mathrm{T}$); 0,25 por aplicar correctamente la regla de la mano derecha y establecer que los campos tienen sentidos opuestos; 0,25 por concluir que el campo resultante es nulo.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "magnetico",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Una bobina de $50$ espiras y área $4{,}0\\times10^{-4}\\,\\mathrm{m^2}$ está conectada a una resistencia total de $3{,}0\\,\\Omega$. El campo magnético es perpendicular al plano de la bobina y apunta hacia dentro de la página; su módulo aumenta uniformemente de $0{,}20\\,\\mathrm{T}$ a $0{,}80\\,\\mathrm{T}$ en $0{,}10\\,\\mathrm{s}$. Calcule la intensidad de la corriente inducida y determine si su sentido es horario o antihorario, visto desde el lector. (1 punto)",
+   "solucion": "### 1. Variación del flujo magnético\n\nEl campo es perpendicular al plano de la bobina, por lo que el flujo por espira es $\\Phi_B=BA$. Su variación por unidad de tiempo tiene módulo\n\n$$\\left|\\frac{d\\Phi_B}{dt}\\right|=A\\frac{\\Delta B}{\\Delta t}=4{,}0\\times10^{-4}\\,\\frac{0{,}80-0{,}20}{0{,}10}=2{,}4\\times10^{-3}\\,\\mathrm{Wb/s}.$$\n\n### 2. Fuerza electromotriz e intensidad inducidas\n\nPor la ley de Faraday, el módulo de la fuerza electromotriz inducida es\n\n$$|\\mathcal{E}|=N\\left|\\frac{d\\Phi_B}{dt}\\right|=50\\,(2{,}4\\times10^{-3})=0{,}12\\,\\mathrm{V}.$$\n\nAplicando la ley de Ohm a la resistencia total:\n\n$$I=\\frac{|\\mathcal{E}|}{R}=\\frac{0{,}12}{3{,}0}=0{,}040\\,\\mathrm{A}.$$\n\n### 3. Sentido de la corriente\n\nEl campo magnético externo apunta hacia dentro de la página y está aumentando. Por la ley de Lenz, la corriente inducida crea un campo hacia fuera de la página, que se opone a ese aumento. Por la regla de la mano derecha, dicho campo lo produce una corriente **antihoraria** vista desde el lector.",
+   "resultado": "I = 0,040 A; sentido antihorario, visto desde el lector.",
+   "criterios": "Total: 1,0 punto. Cálculo de la variación del flujo y de la fuerza electromotriz inducida mediante la ley de Faraday: 0,4 puntos. Aplicación de la ley de Ohm y obtención de I = 0,040 A: 0,3 puntos. Determinación y justificación del sentido antihorario mediante la ley de Lenz y la regla de la mano derecha: 0,3 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "6",
+   "tema": "ondas",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Un sensor genera una onda armónica transversal en una cuerda tensa. La amplitud es $2{,}0\\,\\mathrm{cm}$, la frecuencia es $5{,}0\\,\\mathrm{Hz}$ y la onda se propaga en el sentido positivo del eje $x$ con rapidez $10\\,\\mathrm{m\\,s^{-1}}$. En $x=0$ y $t=0$ la elongación es nula y el punto de la cuerda comienza a moverse hacia elongaciones positivas. Escriba la ecuación de la onda en unidades del Sistema Internacional. (1 punto)",
+   "solucion": "**Desarrollo**\n\nLa amplitud en unidades SI es $A=2{,}0\\,\\mathrm{cm}=2{,}0\\times10^{-2}\\,\\mathrm{m}$. La frecuencia angular vale\n$$\\omega=2\\pi f=2\\pi(5{,}0)=10\\pi\\,\\mathrm{rad\\,s^{-1}}.$$\n\nUsamos el retardo de propagación: el movimiento que alcanza la posición $x$ en el instante $t$ es el que tenía el sensor en el instante anterior $t-x/v$. En el sensor, la elongación inicial es nula y la velocidad transversal inicial es positiva, por lo que $y(0,t)=A\\sin(\\omega t)$. Así,\n$$y(x,t)=A\\sin\\!\\left[\\omega\\left(t-\\frac{x}{v}\\right)\\right].$$\n\nSustituyendo $v=10\\,\\mathrm{m\\,s^{-1}}$ y los valores anteriores:\n$$\\boxed{y(x,t)=0{,}020\\,\\sin(10\\pi t-\\pi x)\\ \\mathrm{m}}$$\ncon $x$ en metros y $t$ en segundos.\n\n**Comprobación:** en $x=0$, $t=0$ se obtiene $y=0$, y $\\partial y/\\partial t=0{,}020(10\\pi)\\cos(10\\pi t-\\pi x)$ es positiva en ese punto. Además, mantener constante la fase $10\\pi t-\\pi x$ da $dx/dt=10\\,\\mathrm{m\\,s^{-1}}$ hacia $+x$, como se pide.",
+   "resultado": "$y(x,t)=0{,}020\\,\\sin(10\\pi t-\\pi x)\\ \\mathrm{m}$, con $x$ en metros y $t$ en segundos.",
+   "criterios": "Puntuación total: 1,0 punto. Conversión de la amplitud a unidades SI: 0,15 puntos. Obtención de la frecuencia angular (y, equivalentemente, del número de onda a partir de la rapidez): 0,25 puntos. Elección correcta de la fase/signo mediante las condiciones iniciales y propagación hacia +x: 0,35 puntos. Ecuación final correcta, con unidades SI: 0,15 puntos. Comprobación de las condiciones iniciales y de la rapidez/dirección de propagación: 0,10 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "7",
+   "tema": "ondas",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Una sirena de emergencia emite sonido de forma uniforme en todas las direcciones. A $10\\,\\mathrm{m}$ de la fuente se mide una intensidad de $1{,}0\\times10^{-4}\\,\\mathrm{W\\,m^{-2}}$. Suponiendo que no hay absorción, calcule el nivel de intensidad sonora a $100\\,\\mathrm{m}$ de la fuente. Use $I_0=1{,}0\\times10^{-12}\\,\\mathrm{W\\,m^{-2}}$ y exprese el resultado en decibelios. (1 punto)",
+   "solucion": "La emisión es uniforme y no hay absorción, por lo que la potencia sonora se conserva al distribuirse sobre superficies esféricas. Así, la intensidad varía con el inverso del cuadrado de la distancia:\n\n$I_{100}=I_{10}\\left(\\frac{r_{10}}{r_{100}}\\right)^2=1{,}0\\times10^{-4}\\left(\\frac{10}{100}\\right)^2=1{,}0\\times10^{-6}\\,\\mathrm{W\\,m^{-2}}$.\n\nEl nivel de intensidad sonora es:\n\n$L=10\\log_{10}\\left(\\frac{I_{100}}{I_0}\\right)=10\\log_{10}\\left(\\frac{1{,}0\\times10^{-6}}{1{,}0\\times10^{-12}}\\right)=10\\log_{10}(10^6)=60\\,\\mathrm{dB}$.",
+   "resultado": "El nivel de intensidad sonora a 100 m es 60 dB.",
+   "criterios": "Total: 1,0 punto. 0,4 puntos por aplicar correctamente la ley del inverso del cuadrado y obtener $I_{100}=1{,}0\\times10^{-6}\\,\\mathrm{W\\,m^{-2}}$. 0,4 puntos por plantear correctamente $L=10\\log_{10}(I/I_0)$. 0,2 puntos por obtener y expresar el resultado final como $60\\,\\mathrm{dB}$.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "8",
+   "tema": "optica",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Para obtener una imagen en una cámara sencilla se utiliza una lente delgada convergente de distancia focal $12\\,\\mathrm{cm}$. Se coloca un objeto de altura $2{,}0\\,\\mathrm{cm}$ a $24\\,\\mathrm{cm}$ delante de la lente. Determine la posición de la imagen y su altura, e indique si es real o virtual y si está derecha o invertida. (1 punto)",
+   "solucion": "Tomamos como positiva la distancia del objeto y la de una imagen real situada al otro lado de la lente. La ecuación de las lentes delgadas es\n\n$$\\frac{1}{f}=\\frac{1}{s_o}+\\frac{1}{s_i}.$$\n\nCon $f=12\\,\\mathrm{cm}$ y $s_o=24\\,\\mathrm{cm}$:\n\n$$\\frac{1}{s_i}=\\frac{1}{12}-\\frac{1}{24}=\\frac{1}{24},\\qquad s_i=24\\,\\mathrm{cm}.$$\n\nLa imagen se forma a $24\\,\\mathrm{cm}$ de la lente, en el lado opuesto al objeto. El aumento lateral es\n\n$$m=-\\frac{s_i}{s_o}=-\\frac{24}{24}=-1,$$\n\npor lo que la altura de la imagen es\n\n$$h_i=m h_o=(-1)(2{,}0\\,\\mathrm{cm})=-2{,}0\\,\\mathrm{cm}.$$\n\nEl signo negativo indica que la imagen está invertida; su altura (módulo) es $2{,}0\\,\\mathrm{cm}$. Al formarse al otro lado de la lente, es real.",
+   "resultado": "Posición: 24 cm al otro lado de la lente; altura: −2,0 cm (módulo 2,0 cm); imagen real e invertida.",
+   "criterios": "1,0 punto en total: planteamiento de la ecuación de la lente delgada y cálculo correcto de la posición de la imagen (0,45 puntos); cálculo del aumento y de la altura, con el signo correcto (0,35 puntos); identificación de la imagen como real e invertida (0,20 puntos).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "9",
+   "tema": "optica",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "En una fibra óptica, el núcleo tiene índice de refracción $n_1=1{,}25$ y está rodeado de aire, cuyo índice es $n_2=1{,}00$. Calcule el ángulo crítico en la interfaz, medido respecto de la normal dentro del núcleo, e indique qué ocurre con un rayo que incide con un ángulo de $60^\\circ$. (1 punto)",
+   "solucion": "Para que se produzca reflexión total interna, la luz debe pasar del núcleo, de mayor índice, al aire. En el ángulo crítico el rayo refractado sale paralelo a la interfaz, es decir, su ángulo respecto de la normal es $90^\\circ$. Aplicando la ley de Snell:\n\n$$n_1\\sin\\theta_c=n_2\\sin 90^\\circ$$\n\n$$\\sin\\theta_c=\\frac{n_2}{n_1}=\\frac{1{,}00}{1{,}25}=0{,}80$$\n\n$$\\theta_c=\\arcsin(0{,}80)\\approx 53{,}1^\\circ$$\n\nComo el ángulo de incidencia es $60^\\circ>\\theta_c$, se produce reflexión total interna: el rayo se refleja en el núcleo y no se refracta hacia el aire.",
+   "resultado": "Ángulo crítico: $53{,}1^\\circ$. Para una incidencia de $60^\\circ$, se produce reflexión total interna.",
+   "criterios": "1 punto: planteamiento de la ley de Snell en la condición crítica y cálculo correcto del ángulo crítico (0,6 puntos); comparación de $60^\\circ$ con el ángulo crítico e identificación de la reflexión total interna (0,4 puntos).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "10",
+   "tema": "moderna",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En un servicio de medicina nuclear se administra un trazador cuya actividad inicial es $480\\,\\mathrm{MBq}$ y cuyo período de semidesintegración es de $6{,}0\\,\\mathrm{h}$. Una medición posterior registra una actividad de $60\\,\\mathrm{MBq}$. a) Determine cuánto tiempo ha transcurrido desde la administración. (1 punto) b) Calcule la actividad que tendrá el trazador $12\\,\\mathrm{h}$ después de esa medición. (1 punto)",
+   "solucion": "La ley de desintegración radiactiva expresada mediante el período de semidesintegración es $A(t)=A_0\\left(\\frac{1}{2}\\right)^{t/T_{1/2}}$.\n\n**a) Tiempo transcurrido**\n\nCon $A_0=480\\,\\mathrm{MBq}$, $A(t)=60\\,\\mathrm{MBq}$ y $T_{1/2}=6{,}0\\,\\mathrm{h}$:\n\n$$\\frac{60}{480}=\\left(\\frac{1}{2}\\right)^{t/(6{,}0\\,\\mathrm{h})}$$\n\nComo $\\frac{60}{480}=\\frac{1}{8}=\\left(\\frac{1}{2}\\right)^3$, han transcurrido tres períodos de semidesintegración. Por tanto,\n\n$$t=3\\cdot 6{,}0\\,\\mathrm{h}=18\\,\\mathrm{h}$$\n\n**b) Actividad 12 h después de la medición**\n\nDesde la medición transcurren $12\\,\\mathrm{h}$, es decir, dos períodos de semidesintegración. Así,\n\n$$A=60\\,\\mathrm{MBq}\\left(\\frac{1}{2}\\right)^{12/6}=15\\,\\mathrm{MBq}$$",
+   "resultado": "a) 18 h; b) 15 MBq.",
+   "criterios": "a) 1 punto: 0,5 por plantear correctamente la ley de desintegración y relacionar la actividad medida con la inicial; 0,5 por obtener y expresar el tiempo transcurrido con unidades (18 h). b) 1 punto: 0,5 por aplicar la ley de desintegración durante las 12 h posteriores a la medición; 0,5 por obtener y expresar la actividad final con unidades (15 MBq).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "11",
+   "tema": "moderna",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Un sensor fotoeléctrico emplea un metal cuya función de trabajo es $2{,}00\\,\\mathrm{eV}$. Se ilumina con luz de longitud de onda $400\\,\\mathrm{nm}$. Use $hc=1240\\,\\mathrm{eV\\,nm}$. a) Calcule la energía de cada fotón incidente. (1 punto) b) Determine la energía cinética máxima de los fotoelectrones y el potencial de frenado necesario para detenerlos. (1 punto)",
+   "solucion": "### a) Energía de cada fotón\n\nLa energía de un fotón es $E_\\gamma=hc/\\lambda$. Con los datos del enunciado:\n\n$$E_\\gamma=\\frac{1240\\,\\mathrm{eV\\,nm}}{400\\,\\mathrm{nm}}=3{,}10\\,\\mathrm{eV}.$$\n\n### b) Energía cinética máxima y potencial de frenado\n\nPor la ecuación del efecto fotoeléctrico, la energía cinética máxima es la energía del fotón menos la función de trabajo del metal:\n\n$$K_{\\max}=E_\\gamma-\\phi=3{,}10\\,\\mathrm{eV}-2{,}00\\,\\mathrm{eV}=1{,}10\\,\\mathrm{eV}.$$\n\nEl potencial de frenado cumple $eV_s=K_{\\max}$. Al expresar $K_{\\max}$ en electronvoltios, su valor numérico es el del potencial en voltios:\n\n$$V_s=1{,}10\\,\\mathrm{V}.$$\n\nEste es el módulo del potencial retardador necesario para detener los fotoelectrones.",
+   "resultado": "$E_\\gamma=3{,}10\\,\\mathrm{eV}$; $K_{\\max}=1{,}10\\,\\mathrm{eV}$; $V_s=1{,}10\\,\\mathrm{V}$.",
+   "criterios": "Total: 2 puntos. a) 1 punto: planteamiento de $E_\\gamma=hc/\\lambda$ (0,5) y cálculo correcto con unidad, $3{,}10\\,\\mathrm{eV}$ (0,5). b) 1 punto: aplicación de la ecuación fotoeléctrica y obtención de $K_{\\max}=1{,}10\\,\\mathrm{eV}$ (0,5); relación entre energía cinética máxima y potencial de frenado, con resultado $V_s=1{,}10\\,\\mathrm{V}$ y unidad correcta (0,5).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "gravitacion",
+   "p": 0.693
+  },
+  {
+   "id": "electrico",
+   "p": 0.693
+  },
+  {
+   "id": "magnetico",
+   "p": 0.693
+  },
+  {
+   "id": "ondas",
+   "p": 0.693
+  },
+  {
+   "id": "optica",
+   "p": 0.693
+  },
+  {
+   "id": "moderna",
+   "p": 0.693
+  }
+ ],
+ "referencias": [
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0.ficheros/1810847-Modelo%200%20F%C3%ADsica.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/guias-calificacion-pau-2026.ficheros/1815849-Gu%C3%ADa%20Calificaci%C3%B3n%20F%C3%ADsica.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2025-b5f5f/guias-calificacion-pau-2025.ficheros/1768167-Gu%C3%ADa%20calificaci%C3%B3n%20F%C3%ADsica.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0.ficheros/1810847-Modelo%200%20F%C3%ADsica.pdf"
+ ]
+}
