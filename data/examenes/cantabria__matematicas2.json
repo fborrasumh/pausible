@@ -1,0 +1,98 @@
+{
+ "ccaa": "cantabria",
+ "materia": "matematicas2",
+ "titulo": "Propuesta original de examen PAU 2027 de Matemáticas II — Cantabria",
+ "duracion_min": 90,
+ "instrucciones": "Para obtener la máxima calificación, responde a una tarea de cada apartado. En los apartados 1, 2 y 4 elige solo una de las dos opciones; si respondes a ambas, se corregirá la primera según el orden en que aparezcan. El apartado 3 es obligatorio. Expón con claridad el planteamiento y razona todas las respuestas. La puntuación máxima de cada apartado es de 2,5 puntos. No se permite el uso de calculadoras gráficas ni programables, ni de dispositivos con acceso a Internet. En el apartado 4B se proporcionan los valores de la función de distribución normal necesarios.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "sistemas",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "APARTADO 1 [2,5 puntos]. Bloque A+D. Resuelve una de las siguientes tareas (1A o 1B). 1A) En un programa de diseño tridimensional, una transformación de coordenadas depende de un parámetro de ajuste $a\\in\\mathbb{R}$ y viene dada por la matriz $A(a)=\\begin{pmatrix}1&1&0\\\\0&a&1\\\\0&0&a-2\\end{pmatrix}$. a) [0,75 puntos] Estudia el rango de $A(a)$ según los valores de $a$. b) [1 punto] Para $a=1$, calcula la matriz inversa de $A(1)$. c) [0,75 puntos] Para $a=1$, calcula la matriz $X$ que satisface $A(1)X=B$, donde $B=\\begin{pmatrix}1&0\\\\0&1\\\\1&-1\\end{pmatrix}$. 1B) En un modelo lineal de ajuste de tres magnitudes $x,y,z$, el parámetro de control $a\\in\\mathbb{R}$ modifica los coeficientes del sistema $\\begin{cases}x+y+z=2,\\\\x+ay=1,\\\\ay+z=1+a.\\end{cases}$ a) [1,5 puntos] Discute el sistema en función de $a$, indicando los valores para los que es compatible determinado, compatible indeterminado o incompatible. b) [1 punto] Para $a=1$, calcula la solución del sistema.",
+   "solucion": "### 1A) Resolución\n\n#### a) Rango según $a$\n\nLa matriz es triangular superior, por lo que\n$$\\det A(a)=1\\cdot a\\cdot(a-2)=a(a-2).$$\nAsí, si $a\\neq 0,2$, el determinante es distinto de cero y $\\operatorname{rg}A(a)=3$.\n\nPara los valores excepcionales, consideramos el menor formado por las filas 1 y 2 y las columnas 1 y 3:\n$$\\begin{vmatrix}1&0\\\\0&1\\end{vmatrix}=1\\neq 0.$$\nPor tanto, el rango es siempre al menos 2. Cuando $a=0$ o $a=2$, el determinante se anula y el rango es menor que 3; en ambos casos resulta $\\operatorname{rg}A(a)=2$.\n\nEn conclusión:\n$$\\operatorname{rg}A(a)=\\begin{cases}3,&a\\neq 0,2,\\\\2,&a=0\\text{ o }a=2.\\end{cases}$$\n\n#### b) Inversa de $A(1)$\n\nSe tiene\n$$A(1)=\\begin{pmatrix}1&1&0\\\\0&1&1\\\\0&0&-1\\end{pmatrix}.$$\nCalculamos la inversa resolviendo $A(1)u=(r,s,t)^T$. Las ecuaciones dan\n$$u_3=-t,\\qquad u_2=s+t,\\qquad u_1=r-s-t.$$\nPor tanto, la transformación que lleva $(r,s,t)^T$ a $u$ tiene como matriz\n$$A(1)^{-1}=\\begin{pmatrix}1&-1&-1\\\\0&1&1\\\\0&0&-1\\end{pmatrix}.$$\nComprobación:\n$$A(1)A(1)^{-1}=\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{pmatrix}.$$\n\n#### c) Cálculo de $X$\n\nResolvemos $A(1)u=(r,s,t)^T$ para cada columna de $B$, usando las expresiones anteriores. Para la primera columna $(1,0,1)^T$ se obtiene $u=(0,1,-1)^T$; para la segunda columna $(0,1,-1)^T$ se obtiene $u=(0,0,1)^T$. Luego\n$$X=\\begin{pmatrix}0&0\\\\1&0\\\\-1&1\\end{pmatrix}.$$\nComprobando directamente:\n$$A(1)X=\\begin{pmatrix}1&0\\\\0&1\\\\1&-1\\end{pmatrix}=B.$$\n\nEn la lista `numeros`, el orden es: rangos para $a\\neq0,2$, $a=0$ y $a=2$; entradas de $A(1)^{-1}$ por filas; entradas de $X$ por filas.",
+   "resultado": "Rango: $3$ si $a\\neq0,2$ y $2$ si $a=0$ o $a=2$; $A(1)^{-1}=\\begin{pmatrix}1&-1&-1\\\\0&1&1\\\\0&0&-1\\end{pmatrix}$; $X=\\begin{pmatrix}0&0\\\\1&0\\\\-1&1\\end{pmatrix}$.",
+   "criterios": "Reparto de los 2,5 puntos: a) 0,75 puntos: cálculo del determinante (0,25); identificación de rango 3 cuando $a\\neq0,2$ (0,25); justificación del rango 2 en los casos excepcionales mediante un menor no nulo (0,25). b) 1 punto: planteamiento de la resolución para obtener las columnas de la inversa (0,50); matriz inversa correcta (0,25); comprobación mediante el producto con $A(1)$ (0,25). c) 0,75 puntos: resolución de las ecuaciones para cada columna de $B$ (0,50); matriz $X$ correcta y comprobación de $A(1)X=B$ (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "2",
+   "tema": "limites",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "APARTADO 2 [2,5 puntos]. Bloque B. Resuelve una de las siguientes tareas (2A o 2B). 2A) Durante un ensayo, la respuesta normalizada de un dispositivo se modeliza mediante la función $f_a:\\mathbb{R}\\to\\mathbb{R}$ definida por $f_a(x)=\\begin{cases}\\dfrac{x^2+(a-2)x-2a}{x-2},&x\\ne 2,\\\\5,&x=2,\\end{cases}$ donde $a\\in\\mathbb{R}$ es un parámetro de ajuste. a) [0,75 puntos] Calcula $\\lim_{x\\to 2}f_a(x)$ en función de $a$. b) [0,75 puntos] Determina el valor de $a$ para que la respuesta sea continua en $x=2$. c) [1 punto] Para ese valor de $a$, calcula la ecuación de la recta tangente a la gráfica de $f_a$ en $x=1$. 2B) Dos líneas de envasado registran sus ritmos de producción, en unidades por hora, durante un intervalo de tres horas. Si $t$ es el tiempo en horas desde el inicio, sus ritmos son $r_A(t)=t+1$ y $r_B(t)=4-t$, para $0\\le t\\le 3$. a) [0,75 puntos] Determina el instante en que ambos ritmos coinciden e indica cuál es mayor antes y después de ese instante. b) [1,75 puntos] Calcula la diferencia total acumulada entre las producciones de ambas líneas durante las tres horas, es decir, el área comprendida entre las gráficas de $r_A$ y $r_B$ en $[0,3]$.",
+   "solucion": "Se resuelve la tarea 2B, como permite el enunciado.\n\n### a) Instante de coincidencia y comparación de ritmos\n\nIgualamos los ritmos:\n\n$$t+1=4-t \\quad\\Longrightarrow\\quad 2t=3 \\quad\\Longrightarrow\\quad t=\\frac{3}{2}\\text{ h}.$$\n\nLa diferencia entre los ritmos es\n\n$$r_A(t)-r_B(t)=(t+1)-(4-t)=2t-3.$$\n\nEsta diferencia es negativa si $0\\leq t<\\frac{3}{2}$ y positiva si $\\frac{3}{2}<t\\leq 3$. Por tanto, antes del instante de coincidencia el ritmo de B es mayor; después, el ritmo de A es mayor.\n\n### b) Diferencia total acumulada\n\nEl área entre las gráficas es la integral del valor absoluto de la diferencia. Como los ritmos se cruzan en $t=\\frac{3}{2}$, separamos la integral:\n\n$$\\begin{aligned}\n\\text{Área}&=\\int_0^{3/2}(r_B-r_A)\\,dt+\\int_{3/2}^{3}(r_A-r_B)\\,dt\\\\\n&=\\int_0^{3/2}(3-2t)\\,dt+\\int_{3/2}^{3}(2t-3)\\,dt\\\\\n&=\\left[3t-t^2\\right]_0^{3/2}+\\left[t^2-3t\\right]_{3/2}^{3}\\\\\n&=\\frac{9}{4}+\\frac{9}{4}=\\frac{9}{2}.\n\\end{aligned}$$\n\nLa diferencia total acumulada es $\\frac{9}{2}$ unidades.",
+   "resultado": "Coinciden en t=3/2 h; B tiene mayor ritmo antes y A después; la diferencia acumulada es 9/2 unidades.",
+   "criterios": "Apartado a) (0,75 puntos): 0,25 por plantear e igualar los ritmos; 0,25 por obtener t=3/2; 0,25 por identificar correctamente cuál es mayor antes y después. Apartado b) (1,75 puntos): 0,25 por expresar la diferencia entre ritmos; 0,25 por dividir el intervalo en el instante de cruce; 0,50 por plantear correctamente las integrales del área; 0,50 por calcularlas; 0,25 por dar el resultado con unidades.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "3",
+   "tema": "geometria",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "APARTADO 3 [2,5 puntos]. Bloque C. Una instalación temporal se fija mediante cuatro anclajes situados en los puntos $A=(0,0,1)$, $B=(2,0,1)$, $C=(0,2,1)$ y $D=(0,0,4)$. Un dron de inspección se encuentra en el punto $P=(1,1,4)$. a) [0,5 puntos] Halla la ecuación general del plano que contiene a $A$, $B$ y $C$. b) [1 punto] Calcula la distancia de $P$ a la recta que pasa por $A$ y $B$. c) [1 punto] Calcula el volumen del tetraedro de vértices $A$, $B$, $C$ y $D$.",
+   "solucion": "**a) Plano que contiene a $A$, $B$ y $C$**\n\nTomamos dos vectores del plano:\n\n$$\\overrightarrow{AB}=B-A=(2,0,0),\\qquad \\overrightarrow{AC}=C-A=(0,2,0).$$\n\nUn vector normal es\n\n$$\\overrightarrow{AB}\\times\\overrightarrow{AC}=(0,0,4),$$\n\nproporcional a $(0,0,1)$. Por tanto, la ecuación del plano que pasa por $A=(0,0,1)$ es\n\n$$0(x-0)+0(y-0)+(z-1)=0,$$\n\nes decir,\n\n$$z-1=0.$$\n\n**b) Distancia de $P$ a la recta $AB$**\n\nUsamos la fórmula de distancia de un punto a una recta, tomando $A$ como punto de la recta y $\\overrightarrow{AB}$ como vector director:\n\n$$d(P,AB)=\\frac{\\left\\|(P-A)\\times\\overrightarrow{AB}\\right\\|}{\\left\\|\\overrightarrow{AB}\\right\\|}.$$\n\nComo $P-A=(1,1,3)$ y $\\overrightarrow{AB}=(2,0,0)$,\n\n$$(P-A)\\times\\overrightarrow{AB}=(0,6,-2),$$\n\npor lo que\n\n$$d(P,AB)=\\frac{\\sqrt{0^2+6^2+(-2)^2}}{\\sqrt{2^2}}=\\frac{\\sqrt{40}}{2}=\\sqrt{10}.$$\n\n**c) Volumen del tetraedro $ABCD$**\n\nLos vectores con origen en $A$ son\n\n$$\\overrightarrow{AB}=(2,0,0),\\qquad \\overrightarrow{AC}=(0,2,0),\\qquad \\overrightarrow{AD}=(0,0,3).$$\n\nEl volumen del tetraedro es un sexto del valor absoluto del determinante:\n\n$$V=\\frac{1}{6}\\left|\\det\\begin{pmatrix}2&0&0\\\\0&2&0\\\\0&0&3\\end{pmatrix}\\right|=\\frac{12}{6}=2.$$\n\nEn la lista numérica, los cuatro primeros valores son los coeficientes $(a,b,c,d)$ del plano $ax+by+cz+d=0$; después aparecen la distancia y el volumen.",
+   "resultado": "Plano: $z-1=0$; distancia: $\\sqrt{10}$; volumen: $2$.",
+   "criterios": "a) 0,5 puntos: 0,25 por obtener un vector normal al plano y 0,25 por escribir correctamente su ecuación general. b) 1 punto: 0,5 por plantear correctamente la fórmula de distancia punto-recta y 0,5 por calcularla y dar el resultado exacto. c) 1 punto: 0,5 por plantear el volumen mediante el determinante y 0,5 por evaluarlo correctamente.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "probabilidad",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "APARTADO 4 [2,5 puntos]. Bloque E. Resuelve una de las siguientes tareas (4A o 4B). 4A) Una empresa fabrica un componente en dos líneas de producción. La línea A produce el 75% de los componentes y la línea B, el resto. El 4% de los componentes de A y el 12% de los de B presentan un defecto. Se elige un componente al azar. a) [0,75 puntos] Calcula la probabilidad de que sea defectuoso. b) [1 punto] Sabiendo que el componente es defectuoso, calcula la probabilidad de que proceda de la línea B. c) [0,75 puntos] Calcula la probabilidad de que proceda de la línea A o sea defectuoso. 4B) El diámetro, en milímetros, de ciertas piezas fabricadas por una máquina sigue una distribución normal de media $500$ y desviación típica $20$. Para la normal estándar se dispone de $\\Phi(1)=0,8413$ y $\\Phi(2)=0,9772$, donde $\\Phi(z)=P(Z\\le z)$. a) [1,25 puntos] Calcula la probabilidad de que una pieza elegida al azar tenga un diámetro entre $480$ y $520$ milímetros. b) [1,25 puntos] Se eligen dos piezas de manera independiente. Calcula la probabilidad de que ambas tengan un diámetro entre $460$ y $540$ milímetros.",
+   "solucion": "### Apartado 4A\n\nSea $A$ el suceso «el componente procede de la línea A», $B$ el suceso «procede de la línea B» y $D$ el suceso «es defectuoso». Los datos son $P(A)=0{,}75$, $P(B)=0{,}25$, $P(D\\mid A)=0{,}04$ y $P(D\\mid B)=0{,}12$.\n\n**a) Probabilidad de que sea defectuoso**\n\nAplicamos la probabilidad total:\n\n$$P(D)=P(A)P(D\\mid A)+P(B)P(D\\mid B)=0{,}75\\cdot0{,}04+0{,}25\\cdot0{,}12=0{,}06.$$\n\n**b) Probabilidad de que proceda de B sabiendo que es defectuoso**\n\nPor el teorema de Bayes:\n\n$$P(B\\mid D)=\\frac{P(B)P(D\\mid B)}{P(D)}=\\frac{0{,}25\\cdot0{,}12}{0{,}06}=0{,}5.$$\n\n**c) Probabilidad de que proceda de A o sea defectuoso**\n\nUsamos la fórmula de la unión y que $P(A\\cap D)=P(A)P(D\\mid A)$:\n\n$$P(A\\cup D)=P(A)+P(D)-P(A\\cap D)=0{,}75+0{,}06-0{,}75\\cdot0{,}04=0{,}78.$$\n\nPor tanto, las probabilidades pedidas son $0{,}06$, $0{,}5$ y $0{,}78$.",
+   "resultado": "a) 0,06; b) 0,5; c) 0,78.",
+   "criterios": "a) 0,75 puntos: aplicar correctamente la probabilidad total (0,50) y obtener 0,06 (0,25). b) 1 punto: plantear correctamente Bayes (0,75) y obtener 0,5 (0,25). c) 0,75 puntos: plantear la probabilidad de la unión, descontando la intersección (0,50), y obtener 0,78 (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 3,
+ "temas_base": [
+  {
+   "id": "probabilidad",
+   "p": 0.804
+  },
+  {
+   "id": "sistemas",
+   "p": 0.762
+  },
+  {
+   "id": "matrices",
+   "p": 0.709
+  },
+  {
+   "id": "geometria",
+   "p": 0.709
+  },
+  {
+   "id": "limites",
+   "p": 0.618
+  },
+  {
+   "id": "integrales",
+   "p": 0.226
+  }
+ ],
+ "referencias": [
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Matematicas_II_junio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Matematicas_II_JULIO_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Examen de la convocatoria ordinaria_2025_MATEMATICAS_II.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Examen de la convocatoria ordinaria_2025_MATEMATICAS_II_Reserva.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/MATEMATI JULIO 2024.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/MATEMATI JUNIO 2024.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/MATEMCS JULIO 2023.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/MATEMCS JUNIO 2023.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Matematicas_II_JULIO_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Matematicas_II_junio_2026.pdf"
+ ]
+}
