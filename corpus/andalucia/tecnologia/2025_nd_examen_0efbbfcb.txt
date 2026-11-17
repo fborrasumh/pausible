@@ -1,0 +1,102 @@
+                     PRUEBA DE ACCESO A LA UNIVERSIDAD Y PRUEBA DE
+                                       ADMISIÓN                                                            TECNOLOGÍA E
+                                                                                                            INGENIERÍA II
+                            ANDALUCÍA, CEUTA, MELILLA y CENTROS en MARRUECOS
+                                             CURSO 2024-2025
+
+
+ Instrucciones:      a) Duración: 1 hora y 30 minutos.
+                     b) Todas las cuestiones deben responderse en el papel entregado para la realización del examen y nunca
+                     en los folios que contienen los enunciados.
+                     c) Puede alternarse el orden de los ejercicios y no es necesario copiar los enunciados.
+                     d) No se permite el uso de calculadoras programables, gráficas o con capacidad para transmitir datos.
+                     e) Las respuestas deberán estar suficientemente justificadas y los resultados se expresarán en unidades
+                     del S.I., salvo que se pidan en otras unidades.
+                     f) El alumnado debe responder solo a una de las dos opciones de los ejercicios 1, 2 y 3, y a la opción única
+                     del ejercicio 4.
+
+
+                                                           EJERCICIO 1
+OPCIÓN A
+Un ensayo de tipo Brinell que se realiza sobre un determinado metal da como resultado una dureza de 80 HB. La bola utilizada
+como penetrador es de 5 mm de diámetro y la huella que se obtiene al cabo de 30 s es de 2 mm de diámetro. Se pide:
+a) La carga que se ha aplicado en el ensayo expresada en Newtons. (1 punto)
+b) La constante de ensayo del material. (1 punto)
+c) Expresar la dureza en su forma normalizada. (0,5 puntos)
+
+OPCIÓN B
+Para medir la resiliencia de un material mediante un ensayo Charpy se ha utilizado una probeta de sección cuadrada de 10 mm
+de lado, con una entalla en forma de V de 2 mm de profundidad. La resiliencia obtenida fue de 220 J/cm2 dejando caer un martillo
+de 35 kg desde una altura de 150 cm. Se pide:
+a) Calcular la altura a la que se elevará el martillo tras golpear y romper la probeta. (1,25 puntos)
+b) Si el martillo fuera de 20 kg de masa y se hubiera soltado desde una altura de 1,75 m, determinar la energía sobrante tras el
+impacto. (1,25 puntos)
+
+
+
+                                                           EJERCICIO 2
+OPCIÓN A
+a) Un motor Diésel tiene un rendimiento del 45 % y consume 8,5 litros en una hora de un combustible que tiene una densidad
+de 0,7 kg / 𝑙 y un poder calorífico de 13170 kcal / kg. Calcular la potencia desarrollada por el motor y la cantidad de calor perdido
+en una hora de funcionamiento (1 caloría = 4,18 Julios). (1,25 puntos)
+b) Un frigorífico está situado en una vivienda cuya temperatura media es 22 ºC y su eficiencia es el 25 % de la ideal. La potencia
+del compresor es 1 kW y la temperatura en el interior del frigorífico es 5 ºC. Calcular la eficiencia de la máquina y el calor cedido
+al foco caliente por unidad de tiempo. (1,25 puntos)
+
+OPCIÓN B
+Para desplazar una pieza en una línea de producción industrial se utiliza un cilindro de doble efecto que tiene un émbolo de
+10 cm de diámetro. La relación entre los diámetros de émbolo y vástago es 5. Este cilindro está conectado a una red de aire
+comprimido a 2 MPa de presión y efectúa 15 ciclos por minuto. Suponiendo una fuerza de rozamiento del 10 % de la teórica,
+calcular:
+a) La fuerza que ejerce el vástago en la carrera de avance. (1 punto)
+b) La longitud de la carrera si el caudal de aire medido en condiciones normales es 583 𝑙 / min. (1,5 puntos)
+                       PRUEBA DE ACCESO A LA UNIVERSIDAD Y PRUEBAS DE
+                                         ADMISIÓN                                                         TECNOLOGÍA E
+                                                                                                           INGENIERÍA II
+                                 ANDALUCÍA, CEUTA, MELILLA y CENTROS en MARRUECOS
+                                                  CURSO 2024-2025
+
+                                                         EJERCICIO 3
+OPCIÓN A
+a) Dado el siguiente circuito:
+
+
+
+
+   a.1) Obtener la tabla de verdad para la salida F. (0,75 puntos)
+   a.2) Simplificar F por el método de Karnaugh e implementarla mediante un circuito con puertas lógicas NAND. (1 punto)
+b) Obtener la función de transferencia C/E del siguiente sistema de control. (0,75 puntos)
+                            E                                                                      C
+                                          G1             +                G2               +
+                                                             -                                 +
+
+
+
+                                                             G3
+
+
+OPCIÓN B
+El sistema de seguridad de una fábrica monitoriza el acceso a una zona de trabajo peligrosa. El sistema activa dos alarmas (A y
+B) en función de cuatro variables:
+         Variable X: sensor de identificación (acceso autorizado = “1”, no autorizado = “0”).
+         Variable Y: sensor de puerta abierta (abierta = “1”, cerrada = “0”).
+         Variable Z: sensor de maquinaria en funcionamiento (máquina activada = “1”, máquina desactivada = “0”).
+         Variable W: pulsador de emergencia (activado = “1”, no activado = “0”).
+La alarma de seguridad A se activa si hay una persona no autorizada en la zona o si la puerta está abierta mientras la maquinaria
+está funcionando. La alarma B controla la detención de la maquinaria y se activa si el pulsador de emergencia está presionado
+o si una persona no autorizada intenta acceder mientras la maquinaria está funcionando. Se pide:
+a) Obtener la tabla de verdad de las alarmas A y B. (1 punto)
+b) Simplificar por el método de Karnaugh las funciones A y B. (1 punto)
+c) Implementar los circuitos que realicen dichas funciones con puertas lógicas. (0,5 puntos)
+
+                                                         EJERCICIO 4
+OPCIÓN ÚNICA
+a) Respecto a los documentos de un proyecto técnico, indicar qué relación existe entre el documento de Mediciones y el de
+Presupuesto y entre el de Mediciones y el de Planos. (0,5 puntos)
+b) Explicar en qué consiste la eficiencia energética de los materiales y enumerar dos factores que influyan sobre ella. (1 punto)
+c) Un ordenador reporta que ha detectado un malware. Explicar qué significa este aviso y cómo se debe proceder. (0,5 puntos)
+d) Una empresa de desarrollo software quiere adoptar una metodología que permita desarrollar prototipos en ciclos cortos de
+iteración para recibir una realimentación rápida de los usuarios y poder mejorar así el producto desde fases tempranas del
+desarrollo. Proponer y razonar la elección de un tipo de metodología agile que esté alineado con las necesidades de esta
+empresa. (0,5 puntos)
+

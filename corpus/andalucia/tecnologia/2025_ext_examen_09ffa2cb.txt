@@ -1,0 +1,103 @@
+                    PRUEBA DE ACCESO A LA UNIVERSIDAD Y PRUEBA DE
+                                      ADMISIÓN                                                            TECNOLOGÍA E
+                                                                                                           INGENIERÍA II
+                           ANDALUCÍA, CEUTA, MELILLA y CENTROS en MARRUECOS
+                                            CURSO 2024-2025
+
+
+ Instrucciones:     a) Duración: 1 hora y 30 minutos.
+                    b) Todas las cuestiones deben responderse en el papel entregado para la realización del examen y nunca
+                    en los folios que contienen los enunciados.
+                    c) Puede alternarse el orden de los ejercicios y no es necesario copiar los enunciados.
+                    d) No se permite el uso de calculadoras programables, gráficas o con capacidad para transmitir datos.
+                    e) Las respuestas deberán estar suficientemente justificadas y los resultados se expresarán en unidades
+                    del S.I., salvo que se pidan en otras unidades.
+                    f) El alumnado debe responder solo a una de las dos opciones de los ejercicios 1, 2 y 3, y a la opción única
+                    del ejercicio 4.
+
+                                                         EJERCICIO 1
+OPCIÓN A
+En un laboratorio de control de calidad se realiza un ensayo Charpy a una probeta de acero estructural con una sección cuadrada
+de 10 mm de lado utilizando un péndulo de 20 kg de masa. El péndulo parte de una altura inicial de 1,2 m y, tras impactar con la
+probeta, alcanza una altura final de 30 cm. Se pide:
+a) Calcular la energía absorbida por la probeta. (0,75 puntos)
+b) Determinar la resiliencia del material. (0,75 puntos)
+c) En caso de utilizar un péndulo de 18 kg de masa, ¿desde qué altura debería dejarse caer para alcanzar la misma altura final
+una vez rota la probeta? (1 punto)
+
+OPCIÓN B
+Para fabricar una herramienta se compran dos planchas de acero con distintas durezas. La dureza normalizada de la primera
+plancha es 700 HV 25 y la de la segunda es 120 HB 5 250 30. Se pide:
+a) Calcular la diagonal de la huella del ensayo Vickers en la primera plancha. (1,25 puntos)
+b) Determinar la profundidad de la huella producida en el ensayo Brinell de la segunda plancha. (1,25 puntos)
+
+                                                         EJERCICIO 2
+OPCIÓN A
+Mediante un sistema acondicionador de aire se quiere climatizar un local y mantener la temperatura interior constante a 25 ºC
+durante todo el año. La temperatura media del exterior es 10 ºC en invierno y 35 ºC en verano. La eficiencia de la máquina es el
+35 % de la ideal y la potencia del compresor es 4 kW. Calcular:
+a) La eficiencia de la máquina en invierno y en verano. (1 punto)
+b) El calor que extrae del local cada día en verano y el calor que cede al local cada día en invierno, suponiendo 5 horas de
+funcionamiento diario en ambos casos. (1,5 puntos)
+
+OPCIÓN B
+Un fabricante está comprobando el prototipo de un motor de combustión en un banco de pruebas, obteniéndose los siguientes
+resultados:
+       Consumo de combustible: 9,5 𝑙 / h.
+       Par obtenido: 110 N·m.
+       Régimen de giro: 2750 rpm.
+       Densidad del combustible: 0,8 kg / dm3.
+       Poder calorífico del combustible: 41700 kJ / kg.
+Partiendo de estos datos, calcular:
+a) La potencia que está suministrando el motor y el consumo específico expresado en g / (kW·h). (1,5 puntos)
+b) El rendimiento del motor. (1 punto)
+                      PRUEBA DE ACCESO A LA UNIVERSIDAD Y PRUEBAS DE
+                                        ADMISIÓN                                                           TECNOLOGÍA E
+                                                                                                            INGENIERÍA II
+                               ANDALUCÍA, CEUTA, MELILLA y CENTROS en MARRUECOS
+                                                CURSO 2024-2025
+
+
+
+                                                         EJERCICIO 3
+OPCIÓN A
+a) Dada la siguiente tabla de verdad, se pide:
+
+            A     0      0     0      0      0       0   0     0     1     1      1     1      1     1     1      1
+            B     0      0     0      0      1       1   1     1     0     0      0     0      1     1     1      1
+            C     0      0     1      1      0       0   1     1     0     0      1     1      0     0     1      1
+            D     0      1     0      1      0       1   0     1     0     1      0     1      0     1     0      1
+            F     0      0     0      X      0       1   0     X     0     0      1     0      X     1     1      1
+            Nota: X representa un estado indiferente
+
+   a.1) Obtener la expresión de la función F lo más simplificada posible. (1 punto)
+   a.2) Diseñar un circuito que realice dicha función con puertas lógicas. (0,5 puntos)
+b) ¿Qué se entiende por perturbaciones en un sistema de control y cuáles pueden ser sus causas? ¿Qué tipo de sistema de
+control es capaz de corregir el efecto de las perturbaciones en la variable controlada? Razonar la respuesta. (1 punto)
+
+OPCIÓN B
+a) En una habitación se utiliza un sistema automatizado para controlar las luces, F, en función de las tres entradas siguientes:
+         Sensor de movimiento M (hay personas en la habitación = “1”, no hay personas = “0”).
+         Sensor de luz ambiente L (luz insuficiente = “1”, luz adecuada = “0”).
+         Interruptor manual S (encendido manual = “1”, encendido automático = “0”).
+Las luces, F, se encenderán en algunos de los siguientes casos: i) se detecta movimiento y la luz ambiente es insuficiente; ii) el
+interruptor manual está activado independientemente del resto de condiciones. Se pide:
+    a.1) Obtener la tabla de verdad para F y su función en forma canónica. (0,75 puntos)
+    a.2) Simplificar por el método de Karnaugh e implementar la función con puertas NAND. (1 punto)
+b) Obtener la función de transferencia C/E del siguiente sistema de control. (0,75 puntos)
+
+
+
+
+                                                         EJERCICIO 4
+OPCIÓN ÚNICA
+a) Un algoritmo que clasifica imágenes de animales para decidir si corresponden a perros o gatos utiliza imágenes de
+entrenamiento que vienen etiquetadas con su resultado (perro o gato) y se entrena con ellas para distinguir las características
+asociadas a cada resultado (color, forma, tamaño). Identificar y razonar si es aprendizaje automático supervisado o aprendizaje
+automático no supervisado. (0,5 puntos)
+b) ¿Qué es una base de datos distribuida? Indicar dos ventajas que presenta frente a una base de datos centralizada.
+(0,5 puntos)
+c) ¿Qué es un informe de evaluación de impacto ambiental? Indicar cuatro apartados que debe contener dicho informe.
+(0,75 puntos)
+d) Definir Big Data y enumerar cuatro de sus atributos. (0,75 puntos)
+
