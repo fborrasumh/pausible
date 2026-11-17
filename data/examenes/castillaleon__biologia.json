@@ -1,0 +1,106 @@
+{
+ "ccaa": "castillaleon",
+ "materia": "biologia",
+ "titulo": "Prueba de Acceso a la Universidad 2027 — Biología — Castilla y León — Modelo original",
+ "duracion_min": 90,
+ "instrucciones": "El alumnado debe contestar 5 preguntas: la pregunta 1 es obligatoria; en la pregunta 2 debe elegir una de las dos opciones; en la pregunta 3 debe contestar una opción del bloque 3.1 y una opción del bloque 3.2; en las preguntas 4 y 5 debe elegir una opción en cada una. La puntuación máxima es de 10 puntos. En cada pregunta se corregirá la primera opción que no aparezca totalmente tachada o anulada. Justifique las respuestas cuando se solicite y emplee terminología biológica precisa.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "celula",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Pregunta 1. Competencial (obligatoria). En un laboratorio se estudian eritrocitos de mamífero colocándolos durante unos minutos en disoluciones con un soluto que no atraviesa la membrana plasmática. En una disolución de $0.30\\ \\mathrm{mol\\,L^{-1}}$ las células mantienen su volumen; en una de $0.15\\ \\mathrm{mol\\,L^{-1}}$ algunas se hinchan y se rompen, mientras que en una de $0.60\\ \\mathrm{mol\\,L^{-1}}$ se encogen. a) Defina ósmosis e indique qué estructura celular debe ser selectivamente permeable para que ocurra. (0,5) b) Explique el movimiento neto de agua que produce los resultados observados en las disoluciones de $0.15\\ \\mathrm{mol\\,L^{-1}}$ y $0.60\\ \\mathrm{mol\\,L^{-1}}$, e identifique cuál es isotónica respecto a los eritrocitos. (0,8) c) Si se colocara una célula vegetal en la disolución de $0.15\\ \\mathrm{mol\\,L^{-1}}$, explique por qué su respuesta sería distinta de la de un eritrocito. (0,7)",
+   "solucion": "### a) Ósmosis y estructura necesaria\nLa ósmosis es el movimiento neto de agua a través de una membrana selectivamente permeable, desde el medio con menor concentración de solutos no permeantes (mayor potencial hídrico) hacia el medio con mayor concentración de esos solutos (menor potencial hídrico), hasta alcanzar el equilibrio. La estructura necesaria es la **membrana plasmática**, que debe ser selectivamente permeable al agua.\n\n### b) Movimiento de agua en los eritrocitos\nTomamos como referencia la observación experimental: a $0.30\\ \\mathrm{mol\\,L^{-1}}$ el eritrocito mantiene su volumen; por tanto, esa disolución es **isotónica** respecto a las células.\n\n- En $0.15\\ \\mathrm{mol\\,L^{-1}}$, el medio externo es hipotónico respecto al interior del eritrocito. El agua entra netamente en la célula por ósmosis; esta se hincha y puede romperse (**hemólisis**).\n- En $0.60\\ \\mathrm{mol\\,L^{-1}}$, el medio externo es hipertónico. El agua sale netamente del eritrocito, que pierde volumen y se encoge (**crenación**).\n\n### c) Célula vegetal en $0.15\\ \\mathrm{mol\\,L^{-1}}$\nEl medio hipotónico también produciría una entrada neta de agua en la célula vegetal. Sin embargo, su pared celular rígida, situada por fuera de la membrana plasmática, limita la expansión. La célula se vuelve turgente al aumentar la presión interna, pero normalmente no se rompe como el eritrocito, que carece de pared celular. La pared no sustituye a la membrana plasmática como barrera selectivamente permeable.",
+   "resultado": "La disolución isotónica es 0.30 mol L⁻¹; en 0.15 mol L⁻¹ el agua entra y los eritrocitos pueden sufrir hemólisis; en 0.60 mol L⁻¹ el agua sale y se encogen. La célula vegetal en 0.15 mol L⁻¹ se vuelve turgente y normalmente no se lisa.",
+   "criterios": "Puntuación total: 2 puntos. a) 0,5 puntos: definición de ósmosis y dirección del movimiento (0,3); identificación de la membrana plasmática selectivamente permeable (0,2). b) 0,8 puntos: medio de 0,15 mol L⁻¹ hipotónico, entrada de agua e hinchamiento/posible hemólisis (0,3); medio de 0,60 mol L⁻¹ hipertónico, salida de agua y encogimiento (0,3); identificación de 0,30 mol L⁻¹ como isotónica (0,2). c) 0,7 puntos: entrada de agua en la célula vegetal en medio hipotónico (0,2); función limitante de la pared celular (0,3); explicación de la turgencia y de que normalmente no se lisa, a diferencia del eritrocito (0,2). Comprobación: los sentidos del movimiento de agua concuerdan con las concentraciones relativas y con las observaciones; la disolución que mantiene el volumen es la isotónica.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "biomoleculas",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Pregunta 2. Biomoléculas (elija una opción). Opción 2.A. Una bebida rica en proteínas se calienta durante su preparación y pierde parte de su estructura tridimensional, aunque sus cadenas polipeptídicas no se fragmentan. a) Identifique el tipo de biomolécula y sus monómeros. (0,5) b) Explique qué se entiende por desnaturalización y qué niveles estructurales pueden alterarse sin que se rompa necesariamente la estructura primaria. (1,0) c) Indique una función biológica de las proteínas y un ejemplo de proteína que la realice. (0,5) Opción 2.B. Se preparan vesículas microscópicas para transportar un fármaco en un medio acuoso; sus paredes están formadas por una bicapa de fosfolípidos. a) Indique los componentes básicos de un fosfolípido y el tipo de enlace que une sus ácidos grasos al glicerol. (0,5) b) Explique por qué estas moléculas se disponen en bicapa en un medio acuoso, señalando la orientación de sus regiones hidrófilas e hidrófobas. (0,75) c) Indique una función biológica de los fosfolípidos distinta de la reserva energética. (0,75)",
+   "solucion": "### Opción 2.A\n\n**a) Biomolécula y monómeros.** La biomolécula es una **proteína**, formada por monómeros llamados **aminoácidos**, unidos entre sí mediante enlaces peptídicos.\n\n**b) Desnaturalización.** Es la pérdida de la conformación tridimensional nativa de una proteína y, por tanto, puede ocasionar la pérdida de su actividad biológica. El calor puede alterar las interacciones que mantienen su plegamiento. Pueden modificarse las estructuras **secundaria, terciaria y, si la proteína tiene varias subunidades, cuaternaria**. No es necesario que se rompa la estructura primaria: esta se conserva mientras no se hidrolicen los enlaces peptídicos y se mantenga la secuencia de aminoácidos.\n\n**c) Función y ejemplo.** Una función es la **catálisis** de reacciones químicas; por ejemplo, la **catalasa**, que descompone el peróxido de hidrógeno.\n\n**Comprobación:** la pérdida de estructura tridimensional descrita es compatible con la desnaturalización; como las cadenas no se fragmentan, no se deduce la ruptura de enlaces peptídicos ni la pérdida de la estructura primaria.",
+   "resultado": "La bebida contiene proteínas; el calentamiento puede desnaturalizarlas sin romper su estructura primaria, y la catalasa es un ejemplo de proteína catalítica.",
+   "criterios": "Puntuación total: 2 puntos. a) 0,5 puntos: identifica proteína (0,25) y aminoácidos como monómeros (0,25); se acepta mencionar el enlace peptídico como precisión. b) 1,0 punto: define correctamente la desnaturalización (0,4), indica los niveles estructurales que pueden alterarse (0,3) y explica que la estructura primaria se conserva si no se rompen los enlaces peptídicos (0,3). c) 0,5 puntos: indica una función biológica válida (0,25) y un ejemplo de proteína que la realice (0,25).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "division",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Pregunta 3. División celular y metabolismo. Debe contestar una opción del bloque 3.1 y una opción del bloque 3.2. Bloque 3.1. División celular (1,5 puntos). Opción 3.1.A. Una célula diploide de una especie con $2n=10$ se encuentra en metafase de la mitosis. Considere que cada cromosoma duplicado está formado por dos cromátidas hermanas. a) Indique cuántos cromosomas y cuántas cromátidas hay en esa célula. (0,75) b) Indique cuántos cromosomas tendrá cada núcleo hijo al finalizar la mitosis. (0,5) c) Explique brevemente por qué la mitosis conserva el número cromosómico. (0,25) Opción 3.1.B. Indique si cada afirmación es verdadera o falsa y justifique la respuesta. a) En la anafase I de la meiosis se separan los cromosomas homólogos, mientras que las cromátidas hermanas permanecen unidas. (0,75) b) El entrecruzamiento entre cromátidas no hermanas de cromosomas homólogos tiene lugar durante la profase II. (0,75) Bloque 3.2. Metabolismo (1,5 puntos). Opción 3.2.A. En un cultivo de levaduras, toda la glucosa disponible se transforma mediante fermentación alcohólica. La reacción global es $\\ce{C6H12O6 -> 2 C2H5OH + 2 CO2}$. Si se consumen $3\\ \\mathrm{mol}$ de glucosa: a) Calcule los moles de etanol y de dióxido de carbono producidos. (0,75) b) Calcule los moles netos de ATP obtenidos, considerando un rendimiento neto de $2\\ \\mathrm{mol}$ de ATP por cada mol de glucosa fermentado. (0,25) c) Indique dónde ocurre la fermentación en la célula y explique brevemente por qué es necesaria la regeneración de NAD$^+$. (0,5) Opción 3.2.B. En un ensayo con cloroplastos se fija un total de $6\\ \\mathrm{mol}$ de $\\ce{CO2}$ en el ciclo de Calvin. Considere que por cada mol de $\\ce{CO2}$ fijado se consumen $3\\ \\mathrm{mol}$ de ATP y $2\\ \\mathrm{mol}$ de NADPH. a) Calcule los moles de ATP y de NADPH consumidos. (0,9) b) Indique el compuesto aceptor del $\\ce{CO2}$ y la enzima que cataliza su fijación. (0,3) c) Indique en qué compartimento del cloroplasto tiene lugar el ciclo de Calvin. (0,3)",
+   "solucion": "## Opciones elegidas: 3.1.A y 3.2.A\n\n### Bloque 3.1.A. División celular\n\n**a)** En metafase hay tantos cromosomas como indica el número diploide: $2n=10$, es decir, **10 cromosomas**. Cada cromosoma está duplicado y formado por dos cromátidas hermanas; por tanto, hay $10 × 2 = 20$ **cromátidas**.\n\n**b)** Al finalizar la mitosis, cada núcleo hijo tendrá **10 cromosomas**.\n\n**c)** Antes de la mitosis se duplica el ADN. En la anafase, las cromátidas hermanas se separan y se distribuyen equitativamente entre los dos polos. Así, cada núcleo hijo recibe una copia de cada cromosoma y conserva el número cromosómico de la célula original.\n\n### Bloque 3.2.A. Metabolismo\n\nLa reacción global es $C_6H_{12}O_6 → 2 C_2H_5OH + 2 CO_2$.\n\n**a)** Por cada mol de glucosa se producen $2$ mol de etanol y $2$ mol de dióxido de carbono. Para $3$ mol de glucosa:\n\n- Etanol: $3 × 2 = 6$ mol.\n- Dióxido de carbono: $3 × 2 = 6$ mol.\n\n**b)** El rendimiento neto es de $2$ mol de ATP por mol de glucosa: $3 × 2 = 6$ mol de ATP.\n\n**c)** La fermentación ocurre en el citosol. La regeneración de $NAD^+$ es necesaria para que la glucólisis pueda continuar: el $NAD^+$ actúa como aceptor de electrones en esta vía y se reduce a $NADH$; durante la fermentación, el $NADH$ se reoxida y permite recuperar el $NAD^+$.\n\n## Criterios de corrección (3 puntos)\n\n- **3.1.A (1,5 puntos):** a) 0,375 puntos por indicar 10 cromosomas y 0,375 por indicar 20 cromátidas; b) 0,5 puntos por indicar 10 cromosomas en cada núcleo hijo; c) 0,25 puntos por explicar la separación y distribución equitativa de las cromátidas hermanas y la conservación del número cromosómico.\n- **3.2.A (1,5 puntos):** a) 0,375 puntos por calcular 6 mol de etanol y 0,375 por calcular 6 mol de $CO_2$; b) 0,25 puntos por calcular 6 mol de ATP; c) 0,25 puntos por indicar el citosol y 0,25 por explicar que se regenera $NAD^+$ para mantener la glucólisis.",
+   "resultado": "3.1.A: 10 cromosomas y 20 cromátidas en metafase; 10 cromosomas en cada núcleo hijo. 3.2.A: 6 mol de etanol, 6 mol de CO₂ y 6 mol netos de ATP.",
+   "criterios": "",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "molecular",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "Pregunta 4. Genética molecular y biotecnología (elija una opción). Opción 4.A. Se compara una secuencia de ADN codificante con la de una variante: original, $5'-ATG\\ GAA\\ TTC\\ TAA-3'$; variante, $5'-ATG\\ GAG\\ TTC\\ TAA-3'$. Considere que la secuencia no contiene intrones y que se emplea el código genético estándar. a) Escriba la secuencia del ARNm correspondiente a cada versión e indique el polipéptido codificado. (1,0) b) Clasifique el cambio nucleotídico y explique si modifica la secuencia de aminoácidos. (0,5) Opción 4.B. Un cultivo bacteriano con ADN marcado con $^{15}\\mathrm{N}$ se transfiere a un medio con $^{14}\\mathrm{N}$ y se deja replicar. a) Indique qué proporción de las moléculas de ADN tendrá densidad intermedia y qué proporción densidad ligera después de una y de dos rondas de replicación. (1,0) b) Explique qué modelo de replicación del ADN respaldan esos resultados. (0,5)",
+   "solucion": "**Opción elegida: 4.A**\n\n### a) Transcripción y traducción\nLa secuencia dada es la cadena codificante, por lo que el ARNm conserva su secuencia en sentido 5′→3′, sustituyendo la timina por uracilo.\n\n- Original: ADN $5'-ATG GAA TTC TAA-3'$ → ARNm $5'-AUG GAA UUC UAA-3'$. Los codones AUG, GAA y UUC codifican metionina, ácido glutámico y fenilalanina; UAA es un codón de terminación. El polipéptido es **metionina–ácido glutámico–fenilalanina**.\n- Variante: ADN $5'-ATG GAG TTC TAA-3'$ → ARNm $5'-AUG GAG UUC UAA-3'$. GAG también codifica ácido glutámico; UAA termina la traducción. El polipéptido es **metionina–ácido glutámico–fenilalanina**.\n\n### b) Clasificación y efecto\nLa sustitución está en el nucleótido 6: A→G. Es una **transición**, porque se sustituye una purina por otra purina. El cambio transforma el codón GAA en GAG, pero ambos codifican ácido glutámico según el código genético estándar. Por tanto, es una mutación **sinónima o silenciosa** y no modifica la secuencia de aminoácidos.\n\n### Comprobación\nAl traducir ambos ARNm codón por codón, los tres aminoácidos obtenidos son idénticos y el cuarto codón es de terminación en ambos casos; por ello, los polipéptidos coinciden.",
+   "resultado": "La variante presenta una transición A→G en la posición 6; es silenciosa y ambas versiones codifican metionina–ácido glutámico–fenilalanina.",
+   "criterios": "Total: 1,5 puntos. a) 1,0 punto: 0,25 por cada ARNm correcto y 0,25 por cada polipéptido correcto, indicando que UAA es terminación. b) 0,5 puntos: 0,25 por identificar y clasificar correctamente la sustitución como transición A→G y 0,25 por explicar que GAA y GAG codifican el mismo aminoácido y que el cambio es silencioso.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "inmunologia",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "Pregunta 5. Biotecnología, microbiología e inmunología (elija una opción). Opción 5.A. Una vacuna contiene ARNm que codifica una proteína de un virus y está encapsulado en nanopartículas lipídicas. a) Indique qué tipo de inmunización proporciona la vacunación y si es activa o pasiva. (0,5) b) Explique cómo puede ese ARNm dar lugar a la producción de un antígeno y desencadenar una respuesta inmunitaria específica. (0,75) c) Indique qué papel tienen las células de memoria en una exposición posterior al mismo antígeno. (0,25) Opción 5.B. Un laboratorio desarrolla una prueba para detectar una bacteria mediante anticuerpos monoclonales que reconocen un antígeno de su superficie. a) Explique la especificidad de la unión entre el anticuerpo y el antígeno e identifique el tipo de respuesta inmunitaria con el que se relaciona. (0,5) b) Describa cómo se puede obtener un clon celular productor de un anticuerpo monoclonal mediante la técnica de hibridomas. (0,75) c) Indique si la bacteria es una célula procariota o eucariota y señale una característica que justifique su respuesta. (0,25)",
+   "solucion": "### Opción 5.A — Enfoque causal\n\n**a) Tipo de inmunización (0,5 puntos).** La vacunación proporciona una **inmunización artificial activa**: es artificial porque el antígeno se induce mediante una vacuna, y activa porque el propio sistema inmunitario de la persona produce la respuesta. No es pasiva, ya que no se administran anticuerpos ya formados.\n\n**b) Producción del antígeno y respuesta específica (0,75 puntos).** Las nanopartículas lipídicas facilitan la entrada del ARNm en las células y su liberación en el citoplasma. Allí, los ribosomas traducen el ARNm y sintetizan la proteína viral, que actúa como antígeno. Las células que producen esa proteína pueden presentar fragmentos del antígeno asociados a moléculas del MHC I; además, células presentadoras de antígeno pueden captar el antígeno y presentarlo mediante MHC II. Esto activa linfocitos T y, con la cooperación adecuada, linfocitos B específicos, que pueden diferenciarse en células plasmáticas productoras de anticuerpos. Así se genera una respuesta inmunitaria adaptativa específica, celular y humoral.\n\n**c) Exposición posterior (0,25 puntos).** Las células B y T de memoria persisten tras la primera respuesta. Si la persona vuelve a encontrarse con el mismo antígeno, permiten una respuesta específica más rápida e intensa.\n\n**Comprobación final.** La clasificación es coherente: la vacuna no aporta anticuerpos, sino instrucciones para que las células produzcan un antígeno y el organismo monte su propia respuesta. El reparto suma $0,5+0,75+0,25=1,5$ puntos.",
+   "resultado": "Opción 5.A: inmunización artificial activa; el ARNm induce la producción del antígeno y una respuesta adaptativa específica con memoria. Puntuación: 1,5/1,5.",
+   "criterios": "a) 0,5 puntos: 0,25 por identificar la inmunización como artificial y 0,25 por indicar que es activa y distinguirla de la pasiva. b) 0,75 puntos: 0,25 por explicar la entrada del ARNm y su traducción a proteína; 0,25 por identificar la proteína como antígeno y explicar su presentación; 0,25 por relacionarla con la activación de la respuesta adaptativa específica. c) 0,25 puntos: indicar que las células de memoria permiten una respuesta posterior más rápida e intensa. Total: 1,5 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 3,
+ "temas_base": [
+  {
+   "id": "biomoleculas",
+   "p": 0.9
+  },
+  {
+   "id": "metabolismo",
+   "p": 0.9
+  },
+  {
+   "id": "molecular",
+   "p": 0.9
+  },
+  {
+   "id": "inmunologia",
+   "p": 0.9
+  },
+  {
+   "id": "celula",
+   "p": 0.693
+  },
+  {
+   "id": "division",
+   "p": 0.693
+  }
+ ],
+ "referencias": [
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0.ficheros/1810844-Modelo%200%20Biologi%C2%BFa.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/guias-calificacion-pau-2026.ficheros/1815841-Gu%C3%ADa%20Calificaci%C3%B3n%20Biolog%C3%ADa.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2025-b5f5f/estructura-examen-orientativa-criterios-correccion/estructura-examen-orientativa-criterios-correccion.ficheros/1750317-Estructura%20del%20examen%20y%20criterios%20de%20correci%C3%B3n%20BIOLOG%C3%8DA.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2025-b5f5f/guias-calificacion-pau-2025.ficheros/1768159-Gu%C3%ADa%20calificaci%C3%B3n%20Biolog%C3%ADa.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/guias-calificacion-pau-2026.ficheros/1815841-Gu%C3%ADa%20Calificaci%C3%B3n%20Biolog%C3%ADa.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0.ficheros/1810844-Modelo%200%20Biologi%C2%BFa.pdf"
+ ]
+}
