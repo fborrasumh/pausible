@@ -1,0 +1,130 @@
+{
+ "ccaa": "cantabria",
+ "materia": "fisica",
+ "titulo": "PAU 2027 Cantabria — Física (modelo original de examen)",
+ "duracion_min": 90,
+ "instrucciones": "Contesta una pregunta de cada uno de los cuatro apartados: una entre las preguntas 1 y 2, una entre las preguntas 3 y 4, una entre las preguntas 5 y 6, y la pregunta 7. Si respondes las dos preguntas de un mismo apartado, solo se corregirá la primera. Cada pregunta vale 2,5 puntos; la puntuación máxima es de 10 puntos. Se permite utilizar una regla y una calculadora científica básica no programable. Constantes: $G=6{,}67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}$, $c=3{,}00\\times10^8\\,\\mathrm{m\\,s^{-1}}$, $h=6{,}63\\times10^{-34}\\,\\mathrm{J\\,s}$ y $1\\,\\mathrm{eV}=1{,}60\\times10^{-19}\\,\\mathrm{J}$.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "gravitacion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "APARTADO 1. Pregunta 1. [2,5 PUNTOS] Un satélite de observación de $800\\,\\mathrm{kg}$ describe una órbita circular alrededor de un planeta de masa $6{,}0\\times10^{24}\\,\\mathrm{kg}$. El radio de la órbita, medido desde el centro del planeta, es $8{,}0\\times10^6\\,\\mathrm{m}$. a) [0,75 PUNTOS] A partir de la fuerza gravitatoria y de la condición de movimiento circular, deduce las expresiones de la velocidad orbital y del periodo en función de la masa del planeta y del radio orbital. b) [1 PUNTO] Calcula la velocidad y el periodo del satélite. c) [0,75 PUNTOS] Calcula su energía mecánica total en la órbita.",
+   "solucion": "### a) Deducción de la velocidad orbital y del periodo\n\nLa fuerza gravitatoria proporciona la fuerza centrípeta necesaria para mantener la órbita circular:\n\n$$\\frac{GMm}{r^2}=\\frac{mv^2}{r}$$\n\nSe simplifica la masa del satélite, $m$, y se despeja la velocidad orbital:\n\n$$v=\\sqrt{\\frac{GM}{r}}$$\n\nEl periodo es el tiempo que tarda en recorrer una circunferencia de radio $r$:\n\n$$T=\\frac{2\\pi r}{v}=2\\pi\\sqrt{\\frac{r^3}{GM}}$$\n\n### b) Cálculo de la velocidad y el periodo\n\nCon $G=6{,}67\\times10^{-11}\\,\\mathrm{N\\,m^2/kg^2}$, $M=6{,}0\\times10^{24}\\,\\mathrm{kg}$ y $r=8{,}0\\times10^6\\,\\mathrm{m}$:\n\n$$v=\\sqrt{\\frac{(6{,}67\\times10^{-11})(6{,}0\\times10^{24})}{8{,}0\\times10^6}}\\approx 7{,}07\\times10^3\\,\\mathrm{m/s}$$\n\n$$T=2\\pi\\sqrt{\\frac{(8{,}0\\times10^6)^3}{(6{,}67\\times10^{-11})(6{,}0\\times10^{24})}}\\approx 7{,}11\\times10^3\\,\\mathrm{s}$$\n\n### c) Energía mecánica total\n\nLa energía mecánica total es la suma de la energía cinética y la potencial gravitatoria:\n\n$$E=K+U=\\frac12mv^2-\\frac{GMm}{r}$$\n\nComo $v^2=GM/r$, resulta:\n\n$$E=-\\frac{GMm}{2r}$$\n\nPor tanto:\n\n$$E=-\\frac{(6{,}67\\times10^{-11})(6{,}0\\times10^{24})(800)}{2(8{,}0\\times10^6)}\\approx -2{,}00\\times10^{10}\\,\\mathrm{J}$$",
+   "resultado": "v = 7,07×10³ m/s; T = 7,11×10³ s; E = −2,00×10¹⁰ J.",
+   "criterios": "Total: 2,5 puntos. a) 0,75 puntos: planteamiento de la igualdad entre fuerza gravitatoria y centrípeta (0,25); deducción de la expresión de la velocidad orbital (0,25); deducción de la expresión del periodo (0,25). b) 1,00 punto: cálculo de la velocidad con unidades (0,50); cálculo del periodo con unidades (0,50). c) 0,75 puntos: expresión de la energía mecánica como suma de las energías cinética y potencial y obtención de E = −GMm/(2r) (0,40); sustitución numérica, resultado y unidad (0,35). Se aceptan resultados equivalentes con redondeo razonable.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "gravitacion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "APARTADO 1. Pregunta 2. [2,5 PUNTOS] En un modelo simplificado de una región próxima a dos asteroides, se consideran dos masas puntuales fijas: $m_1=4{,}0\\times10^{10}\\,\\mathrm{kg}$ en el punto $(-3,0)\\,\\mathrm{m}$ y $m_2=9{,}0\\times10^{10}\\,\\mathrm{kg}$ en el punto $(3,0)\\,\\mathrm{m}$. a) [1,25 PUNTOS] Calcula las componentes del campo gravitatorio resultante en el origen y representa su dirección y sentido. b) [0,75 PUNTOS] Calcula el trabajo realizado por el campo gravitatorio al trasladar una sonda de $2{,}0\\,\\mathrm{kg}$ desde el origen hasta el punto $(0,4)\\,\\mathrm{m}$. c) [0,5 PUNTOS] Interpreta el signo del trabajo obtenido.",
+   "solucion": "### a) Campo gravitatorio en el origen\n\nEl campo creado por una masa puntual apunta desde el punto de cálculo hacia la masa. Por tanto, en el origen, $m_1$ produce un campo hacia $-x$ y $m_2$ uno hacia $+x$. Ambas masas están a una distancia $r=3\\,\\mathrm{m}$:\n\n$$\n\\vec g_1=\\left(-\\frac{Gm_1}{3^2},0\\right),\\qquad\n\\vec g_2=\\left(\\frac{Gm_2}{3^2},0\\right).\n$$\n\nAsí,\n\n$$\n\\vec g(0,0)=\\vec g_1+\\vec g_2\n=\\left(\\frac{G(m_2-m_1)}{9},0\\right)\n=\\left(0{,}3706,0\\right)\\,\\mathrm{m\\,s^{-2}}.\n$$\n\nLa dirección es el eje $x$ y el sentido es hacia $+x$, es decir, hacia la masa mayor $m_2$.\n\n### b) Trabajo del campo gravitatorio\n\nLas distancias desde el origen a las dos masas son $3\\,\\mathrm{m}$; desde $(0,4)\\,\\mathrm{m}$, ambas son $\\sqrt{3^2+4^2}=5\\,\\mathrm{m}$. El potencial gravitatorio por unidad de masa es $\\varphi=-G\\sum_i m_i/r_i$, por lo que el trabajo del campo sobre la sonda es\n\n$$\nW_{\\mathrm{campo}}=m_s(\\varphi_i-\\varphi_f)\n=Gm_s(m_1+m_2)\\left(\\frac{1}{5}-\\frac{1}{3}\\right).\n$$\n\nCon $m_s=2{,}0\\,\\mathrm{kg}$ y $G=6{,}67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}$:\n\n$$\nW_{\\mathrm{campo}}=-2{,}312\\,\\mathrm{J}\\simeq -2{,}31\\,\\mathrm{J}.\n$$\n\n### c) Interpretación\n\nEl trabajo es negativo porque, al desplazarse la sonda desde el origen hasta $(0,4)\\,\\mathrm{m}$, se aleja de ambas masas y el campo gravitatorio se opone al desplazamiento. En consecuencia, aumenta la energía potencial gravitatoria de la sonda en aproximadamente $2{,}31\\,\\mathrm{J}$.",
+   "resultado": "$\\vec g(0,0)=(0{,}371,0)\\,\\mathrm{m\\,s^{-2}}$, hacia $+x$; $W_{\\mathrm{campo}}=-2{,}31\\,\\mathrm{J}$.",
+   "criterios": "a) 1,25 puntos: 0,50 por identificar correctamente las direcciones y calcular los campos debidos a cada masa; 0,50 por obtener las componentes del campo resultante; 0,25 por indicar correctamente la dirección y el sentido. b) 0,75 puntos: 0,15 por las distancias iniciales y finales; 0,30 por plantear correctamente el trabajo mediante la diferencia de potencial gravitatorio; 0,30 por el resultado numérico con signo y unidades. c) 0,50 puntos: interpretación correcta del signo negativo, indicando que el campo se opone al desplazamiento y que aumenta la energía potencial.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "magnetico",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "APARTADO 2. Pregunta 3. [2,5 PUNTOS] Una pequeña generadora de emergencia utiliza una bobina plana de $80$ espiras y área $2{,}5\\times10^{-3}\\,\\mathrm{m^2}$ que gira en un campo magnético uniforme de módulo $0{,}50\\,\\mathrm{T}$. La bobina gira a $25\\,\\mathrm{Hz}$ y, en $t=0$, su vector normal es paralelo al campo. El ángulo entre ambos vectores aumenta uniformemente con el tiempo. a) [0,75 PUNTOS] Escribe el flujo magnético a través de una espira en función del tiempo y calcula su valor en $t=0$. b) [1 PUNTO] Calcula el módulo de la fuerza electromotriz inducida en la bobina en $t=0{,}010\\,\\mathrm{s}$. c) [0,75 PUNTOS] Calcula la fuerza electromotriz inducida máxima.",
+   "solucion": "### a) Flujo magnético por espira\n\nLa velocidad angular de giro es $\\omega=2\\pi f=2\\pi\\cdot25=50\\pi\\,\\mathrm{rad\\,s^{-1}}$. Como el ángulo entre el vector normal y el campo es $\\theta(t)=\\omega t$, el flujo a través de una espira es\n\n$$\\Phi(t)=BA\\cos(\\omega t)=(0{,}50)(2{,}5\\times10^{-3})\\cos(50\\pi t)=1{,}25\\times10^{-3}\\cos(50\\pi t)\\,\\mathrm{Wb}.$$\n\nEn $t=0$:\n\n$$\\Phi(0)=1{,}25\\times10^{-3}\\,\\mathrm{Wb}.$$\n\n### b) Módulo de la fuerza electromotriz en $t=0{,}010\\,\\mathrm{s}$\n\nPor la ley de Faraday, para una bobina de $N$ espiras, $\\varepsilon(t)=-N\\,\\mathrm{d}\\Phi/\\mathrm{d}t$. Por tanto,\n\n$$\\varepsilon(t)=NBA\\omega\\sin(\\omega t).$$\n\nEn el instante indicado, $\\omega t=50\\pi(0{,}010)=\\pi/2$, de modo que\n\n$$|\\varepsilon(0{,}010)|=80(0{,}50)(2{,}5\\times10^{-3})(50\\pi)\\sin(\\pi/2)=5\\pi\\,\\mathrm{V}\\approx15{,}71\\,\\mathrm{V}.$$\n\n### c) Fuerza electromotriz inducida máxima\n\nEl valor máximo del módulo se alcanza cuando $|\\sin(\\omega t)|=1$:\n\n$$\\varepsilon_{\\max}=NBA\\omega=80(0{,}50)(2{,}5\\times10^{-3})(50\\pi)=5\\pi\\,\\mathrm{V}\\approx15{,}71\\,\\mathrm{V}.$$\n\n",
+   "resultado": "$\\Phi(0)=1{,}25\\times10^{-3}\\,\\mathrm{Wb}$; $|\\varepsilon(0{,}010\\,\\mathrm{s})|=15{,}71\\,\\mathrm{V}$; $\\varepsilon_{\\max}=15{,}71\\,\\mathrm{V}$.",
+   "criterios": "a) 0,75 puntos: 0,20 por obtener correctamente $\\omega=2\\pi f=50\\pi\\,\\mathrm{rad\\,s^{-1}}$ y $\\theta=\\omega t$; 0,35 por la expresión correcta del flujo por espira; 0,20 por calcular $\\Phi(0)$ con unidades. b) 1,00 punto: 0,30 por aplicar la ley de Faraday a las $N$ espiras; 0,30 por derivar correctamente el flujo y evaluar la fase en $t=0{,}010\\,\\mathrm{s}$; 0,40 por el valor numérico del módulo con unidades. c) 0,75 puntos: 0,30 por identificar que el máximo ocurre cuando $|\\sin(\\omega t)|=1$; 0,45 por calcular correctamente el valor máximo con unidades.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "electrico",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "APARTADO 2. Pregunta 4. [2,5 PUNTOS] En un dispositivo de clasificación electrostática, dos placas paralelas están separadas $4{,}0\\,\\mathrm{cm}$. La placa A, situada en $x=0$, está a $1200\\,\\mathrm{V}$ y la placa B, situada en $x=4{,}0\\,\\mathrm{cm}$, a $0\\,\\mathrm{V}$. Se desprecia el efecto de borde y se considera uniforme el campo entre las placas. Una gota de tinta con carga $+5{,}0\\,\\mathrm{nC}$ y masa $2{,}0\\times10^{-6}\\,\\mathrm{kg}$ parte del reposo junto a A. Desprecia la gravedad. a) [1 PUNTO] Calcula el vector campo eléctrico entre las placas, indicando su dirección y sentido. b) [0,75 PUNTOS] Calcula la fuerza eléctrica sobre la gota y su aceleración. c) [0,75 PUNTOS] Calcula la rapidez de la gota al llegar a B.",
+   "solucion": "### a) Campo eléctrico\nEn el eje $x$, el potencial varía linealmente entre las placas. Por tanto,\n$$E_x=-\\frac{\\Delta V}{\\Delta x}=-\\frac{V_B-V_A}{x_B-x_A}=-\\frac{0-1200}{0{,}040}=3{,}0\\times10^4\\ \\mathrm{V/m}.$$\nEl campo apunta de mayor a menor potencial, es decir, desde A hacia B (sentido $+x$):\n$$\\vec E=3{,}0\\times10^4\\,\\hat{\\mathbf{x}}\\ \\mathrm{N/C}.$$\n\n### b) Fuerza y aceleración\nComo la carga es positiva, la fuerza tiene el mismo sentido que el campo:\n$$\\vec F_e=q\\vec E=(5{,}0\\times10^{-9})(3{,}0\\times10^4)\\,\\hat{\\mathbf{x}}=1{,}5\\times10^{-4}\\,\\hat{\\mathbf{x}}\\ \\mathrm{N}.$$\nAplicando la segunda ley de Newton:\n$$\\vec a=\\frac{\\vec F_e}{m}=\\frac{1{,}5\\times10^{-4}}{2{,}0\\times10^{-6}}\\,\\hat{\\mathbf{x}}=75\\,\\hat{\\mathbf{x}}\\ \\mathrm{m/s^2}.$$\n\n### c) Rapidez al llegar a B\nUsamos el teorema trabajo-energía, en lugar de las ecuaciones cinemáticas. El trabajo del campo al atravesar la diferencia de potencial es $W_e=q(V_A-V_B)$ y la gota parte del reposo:\n$$\\frac12 mv^2=q(V_A-V_B),\\qquad v=\\sqrt{\\frac{2q(V_A-V_B)}{m}}=\\sqrt{\\frac{2(5{,}0\\times10^{-9})(1200)}{2{,}0\\times10^{-6}}}=\\sqrt{6}=2{,}45\\ \\mathrm{m/s}.$$\n\n**Comprobación:** con aceleración constante, $v^2=2a\\Delta x=2(75)(0{,}040)=6\\ \\mathrm{m^2/s^2}$, que da la misma rapidez.",
+   "resultado": "$\\vec E=3{,}0\\times10^4\\,\\hat{\\mathbf{x}}\\ \\mathrm{N/C}$; $\\vec F_e=1{,}5\\times10^{-4}\\,\\hat{\\mathbf{x}}\\ \\mathrm{N}$; $\\vec a=75\\,\\hat{\\mathbf{x}}\\ \\mathrm{m/s^2}$; $v=2{,}45\\ \\mathrm{m/s}$.",
+   "criterios": "a) 1,00 punto: 0,40 por aplicar correctamente $E_x=-\\Delta V/\\Delta x$ y calcular el módulo; 0,30 por identificar el sentido de A hacia B; 0,30 por expresar el vector y sus unidades. b) 0,75 puntos: 0,35 por calcular $\\vec F_e=q\\vec E$ con sentido correcto; 0,40 por aplicar $\\vec a=\\vec F_e/m$ y dar el resultado con unidades. c) 0,75 puntos: 0,40 por aplicar correctamente trabajo-energía o una ecuación cinemática equivalente; 0,25 por el cálculo de la rapidez; 0,10 por la unidad. Se acepta como comprobación el método alternativo indicado.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "5",
+   "tema": "ondas",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "APARTADO 3. Pregunta 5. [2,5 PUNTOS] Una onda transversal se propaga por el cable de un sensor de vibraciones. En unidades del SI, su ecuación es $y(x,t)=0{,}040\\cos(\\pi x-40\\pi t)$. a) [1,5 PUNTOS] Determina el sentido de propagación, la amplitud, la longitud de onda, la frecuencia, el periodo y la velocidad de propagación. b) [0,5 PUNTOS] Calcula la elongación del punto situado en $x=0$ en el instante $t=1/160\\,\\mathrm{s}$. c) [0,5 PUNTOS] Calcula la velocidad transversal de ese punto en el mismo instante.",
+   "solucion": "### a) Características de la onda\n\nComparamos con la forma $y(x,t)=A\\cos(kx-\\omega t)$. Así, $A=0{,}040\\,\\mathrm{m}$, $k=\\pi\\,\\mathrm{rad/m}$ y $\\omega=40\\pi\\,\\mathrm{rad/s}$.\n\nPara determinar el sentido sin recurrir directamente a la regla de signos, seguimos un punto de fase constante:\n\n$$kx-\\omega t=\\text{constante}\\quad\\Longrightarrow\\quad x=\\frac{\\omega}{k}t+\\text{constante}.$$\n\nComo $x$ aumenta con el tiempo, la onda se propaga en el sentido positivo del eje $x$.\n\nLa amplitud es el valor absoluto del coeficiente del coseno:\n\n$$A=0{,}040\\,\\mathrm{m}.$$\n\nLa longitud de onda, la frecuencia y el periodo son:\n\n$$\\lambda=\\frac{2\\pi}{k}=\\frac{2\\pi}{\\pi}=2{,}0\\,\\mathrm{m},$$\n\n$$f=\\frac{\\omega}{2\\pi}=20\\,\\mathrm{Hz},\\qquad T=\\frac{1}{f}=0{,}050\\,\\mathrm{s}.$$\n\nLa velocidad de propagación es la rapidez con la que avanza una fase constante:\n\n$$v=\\frac{\\omega}{k}=40\\,\\mathrm{m/s},$$\n\nen el sentido positivo de $x$.\n\n### b) Elongación en $x=0$ y $t=1/160\\,\\mathrm{s}$\n\nLa fase en ese punto y ese instante es\n\n$$\\phi=kx-\\omega t=0-40\\pi\\left(\\frac{1}{160}\\right)=-\\frac{\\pi}{4}.$$\n\nPor tanto,\n\n$$y(0,1/160)=0{,}040\\cos\\left(-\\frac{\\pi}{4}\\right)=0{,}020\\sqrt{2}\\,\\mathrm{m}\\approx 0{,}0283\\,\\mathrm{m}.$$\n\n### c) Velocidad transversal\n\nDerivamos la elongación respecto del tiempo, manteniendo $x$ fijo:\n\n$$v_y(x,t)=\\frac{\\partial y}{\\partial t}=A\\omega\\sin(kx-\\omega t).$$\n\nEvaluando con la fase obtenida:\n\n$$v_y(0,1/160)=0{,}040(40\\pi)\\sin\\left(-\\frac{\\pi}{4}\\right)=-0{,}8\\pi\\sqrt{2}\\,\\mathrm{m/s}\\approx -3{,}55\\,\\mathrm{m/s}.$$\n\nEl signo negativo indica que el punto se mueve hacia abajo en ese instante.\n\n### Comprobación\n\nEn $x=0$, la ecuación queda $y(0,t)=0{,}040\\cos(40\\pi t)$. Su derivada es $-1{,}6\\pi\\sin(40\\pi t)$, que para $t=1/160\\,\\mathrm{s}$ da $-0{,}8\\pi\\sqrt{2}\\,\\mathrm{m/s}$, coincidiendo con el resultado anterior. Además, el avance de fase constante da $\\omega/k=40\\,\\mathrm{m/s}$ hacia $+x$, como se concluyó.",
+   "resultado": "Propagación hacia +x; A = 0,040 m; λ = 2,0 m; f = 20 Hz; T = 0,050 s; v = 40 m/s; y(0, 1/160 s) = 0,0283 m; velocidad transversal = −3,55 m/s.",
+   "criterios": "Total: 2,5 puntos. a) 1,5 puntos: identificación de A, k y ω con unidades, 0,25; sentido de propagación justificado, 0,25; longitud de onda, 0,25; frecuencia y periodo, 0,40 (0,20 cada uno); velocidad de propagación, 0,35. b) 0,5 puntos: sustitución correcta del punto y del instante para obtener la fase, 0,20; elongación numérica con unidad, 0,30. c) 0,5 puntos: derivada temporal correcta, 0,25; evaluación numérica con signo y unidad, 0,25. Se aceptan redondeos razonables; el signo de la velocidad transversal debe conservarse.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "6",
+   "tema": "optica",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "APARTADO 3. Pregunta 6. [2,5 PUNTOS] Para diseñar un proyector, se utiliza una lente delgada convergente de potencia $+4{,}0\\,\\mathrm{D}$ en aire. Una transparencia de altura $3{,}0\\,\\mathrm{cm}$ se coloca a $37{,}5\\,\\mathrm{cm}$ a la izquierda de la lente. Se consideran positivas las distancias de imagen real situadas a la derecha de la lente. a) [0,75 PUNTOS] Dibuja el trazado de rayos principales para localizar la imagen. b) [1,25 PUNTOS] Calcula la posición y la altura de la imagen. c) [0,5 PUNTOS] Indica y justifica si la imagen es real o virtual, derecha o invertida, y mayor o menor que el objeto.",
+   "solucion": "**a) Trazado de rayos principales**\n\nLa transparencia está entre el foco objeto $F$ y $2F$. Desde su extremo superior se trazan, por ejemplo, estos rayos: uno paralelo al eje óptico, que tras la lente pasa por $F'$, y otro que atraviesa el centro óptico y no se desvía. Su intersección localiza el extremo superior de la imagen. También puede trazarse el rayo que pasa por $F$ antes de la lente, que emerge paralelo al eje.\n\nEsquema no a escala:\n\n```text\n        A\n        ●──────────────→│\n        │ ╲              │╲\n        │   ╲            │  ╲\n────────B────F───────────O────F′──────────────── eje\n              ╲          ╲       ╲\n                ╲         ╲        ● A′\n```\n\n**b) Posición y altura de la imagen**\n\nLa potencia y la distancia focal se relacionan mediante $P=1/f$. Por tanto,\n\n$$f=\\frac{1}{4{,}0\\,\\mathrm{m}^{-1}}=0{,}25\\,\\mathrm{m}=25\\,\\mathrm{cm}.$$\n\nUsando distancias objeto e imagen como módulos, la ecuación de la lente delgada es $1/f=1/s_o+1/s_i$. Con $s_o=37{,}5\\,\\mathrm{cm}$:\n\n$$\\frac{1}{s_i}=\\frac{1}{25}-\\frac{1}{37{,}5}=\\frac{1}{75}\\,\\mathrm{cm}^{-1},\\qquad s_i=+75\\,\\mathrm{cm}.$$\n\nEl aumento lateral es $m=-s_i/s_o$, así que\n\n$$m=-\\frac{75}{37{,}5}=-2,\\qquad h_i=m h_o=(-2)(3{,}0\\,\\mathrm{cm})=-6{,}0\\,\\mathrm{cm}.$$\n\n**c) Naturaleza de la imagen**\n\nLa imagen es **real**, porque $s_i$ es positiva y está a la derecha de la lente; es **invertida**, porque $m<0$; y es **mayor** que el objeto, porque $|m|=2>1$.",
+   "resultado": "Posición: +75 cm a la derecha de la lente. Altura: −6,0 cm (imagen invertida, de 6,0 cm).",
+   "criterios": "Total: 2,5 puntos.\n- a) Trazado de rayos: 0,75 puntos. Identificación de lente, eje, focos y posición del objeto: 0,15; rayo paralelo que emerge por F′: 0,20; rayo por el centro óptico sin desviarse: 0,20; intersección de rayos y localización correcta de la imagen: 0,20.\n- b) Cálculo: 1,25 puntos. Obtención de f = 25 cm a partir de la potencia: 0,25; aplicación correcta de la ecuación de la lente y posición s_i = +75 cm: 0,60; cálculo del aumento y de la altura h_i = −6,0 cm: 0,40.\n- c) Características: 0,50 puntos. Imagen real justificada por la posición: 0,15; invertida justificada por el signo del aumento: 0,15; mayor justificada porque |m| > 1: 0,20.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "7",
+   "tema": "moderna",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "APARTADO 4. Pregunta 7. [2,5 PUNTOS] Un fotocátodo de un detector óptico tiene un trabajo de extracción de $2{,}0\\,\\mathrm{eV}$. Se ilumina con radiación monocromática de longitud de onda $300\\,\\mathrm{nm}$. a) [1 PUNTO] Calcula la energía de cada fotón incidente y la energía cinética máxima de los fotoelectrones emitidos. b) [0,75 PUNTOS] Calcula el potencial de frenado. c) [0,75 PUNTOS] Calcula la longitud de onda umbral del material para que se produzca emisión fotoeléctrica.",
+   "solucion": "### a) Energía del fotón y energía cinética máxima\n\nLa energía de un fotón de longitud de onda $\\lambda$ es $E_\\gamma=\\dfrac{hc}{\\lambda}$. Con $h=6{,}62607015\\times10^{-34}\\,\\mathrm{J\\,s}$, $c=2{,}99792458\\times10^8\\,\\mathrm{m/s}$ y $\\lambda=300\\times10^{-9}\\,\\mathrm{m}$:\n\n$$E_\\gamma=\\frac{(6{,}62607015\\times10^{-34})(2{,}99792458\\times10^8)}{300\\times10^{-9}}=6{,}6215\\times10^{-19}\\,\\mathrm{J}=4{,}1328\\,\\mathrm{eV}.$$\n\nLa ecuación fotoeléctrica de Einstein es $K_{\\max}=E_\\gamma-\\phi$, donde $\\phi=2{,}0\\,\\mathrm{eV}$. Por tanto,\n\n$$K_{\\max}=4{,}1328-2{,}0=2{,}1328\\,\\mathrm{eV}=3{,}4171\\times10^{-19}\\,\\mathrm{J}.$$\n\n### b) Potencial de frenado\n\nEl potencial de frenado satisface $eV_f=K_{\\max}$. Como $K_{\\max}$ expresada en eV tiene el mismo valor numérico que $V_f$ en voltios:\n\n$$V_f=2{,}1328\\,\\mathrm{V}.$$\n\n### c) Longitud de onda umbral\n\nEn el umbral, la energía del fotón es igual al trabajo de extracción: $hc/\\lambda_0=\\phi$. Así,\n\n$$\\lambda_0=\\frac{hc}{\\phi}=\\frac{1239{,}841984\\,\\mathrm{eV\\,nm}}{2{,}0\\,\\mathrm{eV}}=619{,}921\\,\\mathrm{nm}=6{,}1992\\times10^{-7}\\,\\mathrm{m}.$$\n\nSe produce emisión fotoeléctrica para $\\lambda\\leq\\lambda_0$.",
+   "resultado": "Eγ = 6,6215×10⁻¹⁹ J; Kmax = 3,4171×10⁻¹⁹ J; Vf = 2,1328 V; λ0 = 6,1992×10⁻⁷ m.",
+   "criterios": "Total: 2,5 puntos. a) 1,00 punto: 0,50 por calcular la energía del fotón mediante Eγ=hc/λ, con unidades; 0,50 por aplicar Kmax=Eγ−φ y expresar correctamente el resultado. b) 0,75 puntos: planteamiento eVf=Kmax y valor del potencial de frenado con unidades. c) 0,75 puntos: planteamiento λ0=hc/φ y cálculo de la longitud de onda umbral con unidades. Se admite redondeo razonable; pueden concederse puntuaciones parciales por planteamiento correcto aunque haya errores aritméticos o de conversión.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "gravitacion",
+   "p": 0.9
+  },
+  {
+   "id": "electrico",
+   "p": 0.9
+  },
+  {
+   "id": "ondas",
+   "p": 0.9
+  },
+  {
+   "id": "optica",
+   "p": 0.9
+  },
+  {
+   "id": "magnetico",
+   "p": 0.766
+  },
+  {
+   "id": "moderna",
+   "p": 0.695
+  }
+ ],
+ "referencias": [
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Física_junio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Fisica_julio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Examen de la convocatoria ordinaria_2025_FISICA.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Fisica_PAU_2025_Julio.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Fisica_julio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Física_junio_2026.pdf"
+ ]
+}
