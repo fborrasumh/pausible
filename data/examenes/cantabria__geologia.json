@@ -1,0 +1,121 @@
+{
+ "ccaa": "cantabria",
+ "materia": "geologia",
+ "titulo": "PAU 2027 · Geología y Ciencias Ambientales · Cantabria",
+ "duracion_min": 90,
+ "instrucciones": "La prueba consta de siete apartados y se califica sobre 10 puntos. Responde a las partes obligatorias de todos los apartados. En A, D, E y G elige solo una de las dos opciones propuestas; cada opción tiene la puntuación indicada y no se suman entre sí. La puntuación máxima de cada apartado es: A, B, C, D, E y G, 1,5 puntos; F, 1 punto. En los esquemas geológicos, representa las relaciones entre las estructuras, sin necesidad de respetar una escala.",
+ "preguntas": [
+  {
+   "n": "A",
+   "tema": "tectonica",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "Experimentación en Geología y Ciencias Ambientales. Parte obligatoria [0,25 puntos]. En una mesa vibratoria se comparan modelos de edificios construidos con el mismo material y la misma base, pero con distinto número de pisos. Todos reciben una vibración de igual intensidad y duración. Indica cuál es la variable independiente y qué variable dependiente se debe medir para comparar la respuesta de los edificios.\\n\\nParte optativa [elige una opción; 1,25 puntos].\\n\\nOpción A. En un corte oeste-este, los estratos sedimentarios A, B, C y D, de más antiguo a más moderno, se depositaron horizontalmente. Después se inclinaron 20° hacia el este. Una falla que buza 60° hacia el este corta los estratos y deja el bloque situado al este 40 m más bajo que el bloque occidental. Un dique vertical corta tanto los estratos como la falla; finalmente, la erosión corta todas las unidades y estructuras. Ordena los acontecimientos [0,5 puntos], dibuja un corte esquemático que represente la geometría descrita [0,5 puntos] e identifica el tipo de falla y el bloque hundido [0,25 puntos].\\n\\nOpción B. Un terremoto submarino desplaza verticalmente el fondo marino y genera un tsunami. Un centro de alerta está a 150 km de la zona de generación. Suponiendo una velocidad media constante de 500 km/h, calcula el tiempo que tardará en llegar el tsunami [0,75 puntos]. Si la evacuación requiere 12 minutos, calcula el margen de tiempo disponible [0,25 puntos]. Indica qué desplazamiento del fondo marino puede generar un tsunami [0,25 puntos].",
+   "solucion": "## Parte obligatoria\n- **Variable independiente:** el número de pisos del modelo, que es el factor que se modifica.\n- **Variable dependiente:** la respuesta del edificio a la vibración. Para compararlos, se puede medir el desplazamiento horizontal máximo de la parte superior de cada modelo.\n- Se mantienen constantes el material, la base y la intensidad y duración de la vibración.\n\n## Opción B\nCalculo primero la distancia que recorre el tsunami por minuto: $$500\\ \\frac{\\mathrm{km}}{\\mathrm{h}}\\times\\frac{1\\ \\mathrm{h}}{60\\ \\mathrm{min}}=\\frac{25}{3}\\ \\frac{\\mathrm{km}}{\\mathrm{min}}.$$ Por tanto, el tiempo de llegada es $$t=\\frac{150\\ \\mathrm{km}}{(25/3)\\ \\mathrm{km/min}}=18\\ \\mathrm{min}.$$ Si la evacuación requiere 12 min y comienza inmediatamente, el margen restante es $$18\\ \\mathrm{min}-12\\ \\mathrm{min}=6\\ \\mathrm{min}.$$ Un tsunami puede generarse por un desplazamiento **vertical y brusco** del fondo marino, hacia arriba o hacia abajo, que desplace la columna de agua.\n\n**Comprobación:** en 18 min, a una velocidad de $25/3\\ \\mathrm{km/min}$, el tsunami recorre $18\\times(25/3)=150\\ \\mathrm{km}$; además, $12+6=18\\ \\mathrm{min}$, de modo que el margen calculado concuerda con el tiempo de llegada.",
+   "resultado": "Variable independiente: número de pisos; variable dependiente: desplazamiento horizontal máximo del edificio. Llegada del tsunami: 18 min; margen tras evacuar: 6 min.",
+   "criterios": "Parte obligatoria (0,25): 0,125 por identificar el número de pisos como variable independiente y 0,125 por indicar una variable dependiente medible, como el desplazamiento máximo. Opción B (1,25): 0,75 por planteamiento, conversión de unidades y cálculo correcto del tiempo de llegada (18 min); 0,25 por el margen de evacuación (6 min); 0,25 por explicar que el tsunami puede originarse por el desplazamiento vertical del fondo marino y de la columna de agua.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "B",
+   "tema": "tectonica",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "La tectónica de placas y la geodinámica interna. Parte obligatoria [1,5 puntos].\\n\\na) [0,5 puntos]. En el margen de un continente, una placa oceánica converge con una placa continental. Identifica el tipo de límite y explica brevemente cómo se relacionan la subducción con el vulcanismo y con la generación de terremotos.\\n\\nb) [1 punto]. En una franja situada bajo el continente se registran terremotos cuyos hipocentros se distribuyen así: a 20 km de la fosa, profundidad de 15 km; a 70 km, profundidad de 45 km; a 120 km, profundidad de 75 km; y a 170 km, profundidad de 105 km.\\n\\nb1) [0,5 puntos]. Describe la tendencia de profundidad de los hipocentros al alejarse de la fosa e indica hacia qué lado buza la placa que subduce.\\n\\nb2) [0,5 puntos]. Explica qué representa esta franja inclinada de sismicidad y por qué permite reconocer una zona de subducción.",
+   "solucion": "### a) Tipo de límite y procesos asociados\nEs un **límite convergente oceánico-continental**. La litosfera oceánica, más densa, subduce bajo la placa continental. Al hundirse, libera fluidos que favorecen la fusión parcial del manto situado sobre la placa; el magma asciende y puede originar vulcanismo en el continente. La convergencia también genera terremotos por la fricción y las rupturas en el contacto entre placas, y por la deformación y fractura de la placa que subduce.\n\n### b1) Tendencia de los hipocentros\n**Método de diferencias sucesivas:** al aumentar la distancia a la fosa en $50\\,\\mathrm{km}$, la profundidad aumenta en $30\\,\\mathrm{km}$ en cada intervalo. Por tanto, los hipocentros se hacen progresivamente más profundos al alejarse de la fosa hacia el continente. La placa subducida buza hacia el continente.\n\nComo comprobación cuantitativa, el gradiente es $30/50=0,60\\,\\mathrm{km/km}$, que corresponde a un ángulo aproximado de $\\alpha=\\arctan(0,60)\\approx31^\\circ$ respecto de la horizontal.\n\n### b2) Significado de la franja sísmica\nLa franja inclinada es la **zona de Wadati-Benioff**: los hipocentros se alinean a lo largo de la placa oceánica que desciende. La distribución de terremotos desde niveles someros hasta mayores profundidades permite reconocer y seguir la geometría de la placa subducida; junto con su profundización hacia el continente, es una evidencia de una zona de subducción.\n\n### Comprobación final\nSi $x$ es la distancia a la fosa y $z$ la profundidad, los datos siguen la relación $z=0,60x+3$ (en kilómetros): para $x=20,70,120,170\\,\\mathrm{km}$ se obtienen, respectivamente, $z=15,45,75,105\\,\\mathrm{km}$. Coincide con los cuatro hipocentros y confirma la tendencia indicada.",
+   "resultado": "Límite convergente oceánico-continental; la sismicidad se profundiza hacia el continente y define una zona de Wadati-Benioff en una placa que buza hacia el continente (gradiente 0,60 km/km; buzamiento geométrico aproximado 31°).",
+   "criterios": "Total: 1,5 puntos. a) 0,5 puntos: 0,15 por identificar el límite convergente y la subducción oceánica bajo la placa continental; 0,20 por explicar la relación entre fluidos, fusión parcial y vulcanismo; 0,15 por relacionar la convergencia con la generación de terremotos. b1) 0,5 puntos: 0,25 por describir que los hipocentros se profundizan al alejarse de la fosa; 0,25 por indicar que la placa buza hacia el continente. b2) 0,5 puntos: 0,25 por identificar la zona de Wadati-Benioff como sismicidad asociada a la placa subducida; 0,25 por explicar que su inclinación y profundización permiten reconocer la geometría de una zona de subducción. El cálculo del gradiente y del ángulo es complementario y no necesario para obtener la puntuación.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "C",
+   "tema": "procesos",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "Los procesos geológicos externos y la interpretación del relieve. Parte obligatoria [1,5 puntos].\\n\\na) [0,5 puntos]. En una excursión se observa un valle amplio, con fondo relativamente plano y paredes laterales abruptas. Identifica el agente geológico que probablemente lo modeló y el proceso erosivo principal que explica esa forma.\\n\\nb) [0,75 puntos]. En un mapa topográfico, dos puntos consecutivos situados sobre un cauce están separados 4,0 km en distancia horizontal. El punto A está a 560 m de altitud y el punto B, aguas abajo, a 320 m. Indica hacia cuál de los dos puntos fluye el agua [0,25 puntos] y calcula la pendiente media del tramo en m/km y en porcentaje [0,5 puntos]. Usa $i=\\Delta h/L$, donde $\\Delta h$ es el desnivel y $L$ la distancia horizontal.\\n\\nc) [0,25 puntos]. Los fragmentos depositados en una morrena quedan enterrados y, con el tiempo, se transforman en roca. Nombra los dos procesos de diagénesis que producen la litificación.",
+   "solucion": "### a) Modelado del valle\nEl agente geológico más probable es un **glaciar**. La erosión glaciar, mediante el arranque y la abrasión de las rocas, ensancha y profundiza el valle hasta darle una sección en forma de U: fondo amplio y relativamente plano, con laderas abruptas.\n\n### b) Sentido del flujo y pendiente\nEl agua fluye desde **A hacia B**, porque B está aguas abajo y a menor altitud.\n\nPara calcular la pendiente, expreso primero la distancia en metros y obtengo el desnivel positivo en el sentido del flujo:\n\n$$\\Delta h=560-320=240\\ \\text{m},\\qquad L=4{,}0\\ \\text{km}=4000\\ \\text{m}.$$\n\nLa pendiente como razón es:\n\n$$i=\\frac{240}{4000}=0{,}06.$$\n\nEn m/km, convierto la razón a un kilómetro horizontal:\n\n$$0{,}06\\times1000=60\\ \\text{m/km}.$$\n\nEn porcentaje, multiplico la razón por cien:\n\n$$0{,}06\\times100=6\\%.$$\n\n**Comprobación:** $60\\ \\text{m/km}$ equivale a un desnivel de $60\\ \\text{m}$ por cada $1000\\ \\text{m}$ horizontales; la razón es $60/1000=0{,}06$, es decir, $6\\%$, coherente con el cálculo directo.\n\n### c) Litificación\nLos dos procesos de diagénesis que producen la litificación son la **compactación** de los fragmentos por el peso de los materiales suprayacentes y la **cementación** por precipitación de minerales que los unen.",
+   "resultado": "Glaciar y erosión glaciar; el agua fluye de A a B y la pendiente media es 60 m/km = 6 %; litificación por compactación y cementación.",
+   "criterios": "a) 0,5 puntos: 0,25 por identificar el glaciar y 0,25 por explicar la erosión glaciar asociada a la forma en U. b) 0,75 puntos: 0,25 por indicar correctamente el sentido A→B y 0,25 por obtener 60 m/km y 0,25 por expresar correctamente el resultado como 6 %. c) 0,25 puntos: 0,125 por cada proceso de diagénesis correcto: compactación y cementación.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "D",
+   "tema": "minerales",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "Minerales, los componentes de las rocas. Parte obligatoria [0,5 puntos]. Una sustancia natural es sólida, inorgánica, tiene una estructura cristalina ordenada y presenta una composición química definida. Identifica qué tipo de componente geológico es y señala el criterio relacionado con la disposición de sus partículas.\\n\\nParte optativa [elige una opción; 1 punto].\\n\\nOpción A. Asigna a cada mineral su clase, atendiendo al anión o grupo aniónico principal [0,25 puntos por respuesta]: calcita, $\\ce{CaCO3}$; halita, $\\ce{NaCl}$; pirita, $\\ce{FeS2}$; olivino, $\\ce{Mg2SiO4}$.\\n\\nOpción B. Se analizan tres muestras y las únicas identificaciones posibles son cuarzo, calcita y yeso. La muestra X raya el vidrio y no presenta exfoliación; la muestra Y produce efervescencia al añadirle ácido clorhídrico diluido; la muestra Z tiene dureza 2 y una exfoliación perfecta. Identifica cada muestra y señala el rasgo diagnóstico utilizado [un tercio de punto por muestra].",
+   "solucion": "### Parte obligatoria\n1. La sustancia descrita es un **mineral**, pues cumple las características indicadas: es natural, sólida e inorgánica, y tiene composición química definida.\n2. El criterio referido a la disposición de sus partículas es la **cristalinidad**: estas se ordenan de forma regular y periódica en una estructura cristalina.\n\n### Parte optativa: opción A\nSe clasifican los minerales según su anión o grupo aniónico principal:\n- **Calcita**, $CaCO_3$: **carbonato**, por el grupo $CO_3^{2-}$.\n- **Halita**, $NaCl$: **haluro** (cloruro), por el anión $Cl^-$.\n- **Pirita**, $FeS_2$: **sulfuro**.\n- **Olivino**, $Mg_2SiO_4$: **silicato**, concretamente nesosilicato, por los grupos tetraédricos $SiO_4^{4-}$ aislados.",
+   "resultado": "Mineral; criterio: cristalinidad. Opción A: calcita—carbonato; halita—haluro; pirita—sulfuro; olivino—silicato (nesosilicato).",
+   "criterios": "Parte obligatoria (0,5 puntos): 0,25 por identificar la sustancia como mineral y 0,25 por relacionar la disposición ordenada de las partículas con la cristalinidad. Parte optativa, opción A (1 punto): 0,25 por cada clasificación correcta: calcita, carbonato; halita, haluro; pirita, sulfuro; olivino, silicato. Se acepta «nesosilicato» para el olivino.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "E",
+   "tema": "minerales",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "Rocas ígneas, sedimentarias y metamórficas. Parte obligatoria [0,5 puntos]. En una carretera se observa una aureola de roca recristalizada alrededor de un dique magmático. Identifica el tipo de metamorfismo y el factor que lo causa principalmente.\\n\\nParte optativa [elige una opción; 1 punto].\\n\\nOpción A. Identifica las rocas descritas y clasifica cada una como ígnea, sedimentaria o metamórfica [un tercio de punto por muestra]. Muestra 1: fragmentos redondeados de más de 2 mm unidos por cemento. Muestra 2: roca de cristales visibles de cuarzo, feldespato y mica, sin foliación. Muestra 3: roca recristalizada con bandas alternas claras y oscuras.\\n\\nOpción B. Tres rocas ígneas presentan estas texturas: muestra P, textura vítrea; muestra Q, textura de grano fino; muestra R, textura de grano grueso. Ordénalas de mayor a menor rapidez de enfriamiento [0,5 puntos] e indica para cada una si se formó en superficie o en profundidad [0,5 puntos].",
+   "solucion": "**Elección: opción A.** Se identifican las rocas mediante sus rasgos diagnósticos, distinguiendo textura, composición y estructura.\n\n**Parte obligatoria (0,5 puntos).** La aureola recristalizada que rodea un dique indica **metamorfismo de contacto o térmico**. El factor principal es el **calor transferido por el magma** a las rocas encajantes; la recristalización se produce localmente alrededor de la intrusión.\n\n**Opción A (1 punto).**\n1. Los fragmentos redondeados de más de 2 mm cementados corresponden a un **conglomerado**, roca **sedimentaria detrítica**.\n2. Los cristales visibles de cuarzo, feldespato y mica, sin foliación, identifican un **granito**, roca **ígnea plutónica**.\n3. La recristalización con bandas alternas claras y oscuras identifica un **gneis**, roca **metamórfica**.\n\n**Comprobación:** las tres clasificaciones concuerdan con los criterios diagnósticos: clastos cementados para el conglomerado, minerales cristalinos sin foliación para el granito y bandeado metamórfico para el gneis. La aureola localizada junto al dique es coherente con metamorfismo de contacto causado principalmente por el calor.",
+   "resultado": "Metamorfismo de contacto por calor del magma; opción A: conglomerado (sedimentaria), granito (ígnea) y gneis (metamórfica).",
+   "criterios": "Parte obligatoria: 0,5 puntos por identificar el metamorfismo de contacto (0,25) y señalar el calor del magma como factor principal (0,25). Opción A: 1 punto, a razón de 1/3 por muestra correctamente identificada y clasificada: conglomerado/sedimentaria, granito/ígnea y gneis/metamórfica. Total: 1,5 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "F",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Las capas fluidas de la Tierra. Parte obligatoria [1 punto]. Una cuenca de 2,0 km² recibe una precipitación anual de 900 mm y pierde 600 mm por evapotranspiración. Supón que no hay cambios en el almacenamiento de agua ni intercambio de agua subterránea, y que todo el agua restante sale de la cuenca como escorrentía. Calcula el volumen anual de escorrentía en m³. Utiliza $V=(P-ET)A$, expresando la precipitación $P$ y la evapotranspiración $ET$ en metros y el área $A$ en m².",
+   "solucion": "1. Convertimos la precipitación y la evapotranspiración a metros:\n   - $P=900\\,\\text{mm}=0{,}900\\,\\text{m}$.\n   - $ET=600\\,\\text{mm}=0{,}600\\,\\text{m}$.\n\n2. Convertimos el área a metros cuadrados: $A=2{,}0\\,\\text{km}^2=2{,}0\\times10^6\\,\\text{m}^2$.\n\n3. Calculamos la escorrentía anual aplicando $V=(P-ET)A$:\n   $$V=(0{,}900-0{,}600)\\,\\text{m}\\times2{,}0\\times10^6\\,\\text{m}^2=6{,}0\\times10^5\\,\\text{m}^3.$$\n\nEl volumen anual de escorrentía es $600\\,000\\,\\text{m}^3$.",
+   "resultado": "Volumen anual de escorrentía: 600 000 m³.",
+   "criterios": "Total: 1 punto. Conversión de la precipitación y la evapotranspiración a metros: 0,2 puntos. Conversión del área a metros cuadrados: 0,2 puntos. Aplicación correcta de la fórmula y cálculo de la diferencia de alturas de agua: 0,4 puntos. Resultado final correcto, con unidades de volumen: 0,2 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "G",
+   "tema": "recursos",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "Recursos y gestión sostenible. Parte obligatoria [0,5 puntos]. Una fábrica utiliza aluminio recuperado de latas usadas en vez de extraer bauxita para obtener aluminio nuevo. Indica cuál de esos materiales constituye un recurso secundario y nombra la operación de gestión de residuos que permite aprovecharlo [0,25 puntos cada respuesta].\\n\\nParte optativa [elige una opción; 1 punto].\\n\\nOpción A. Una explotación procesa 2.500 toneladas de mena con una ley de cobre del 0,8 % en masa. El proceso recupera el 75 % del cobre contenido. Calcula las toneladas de cobre recuperadas [1 punto].\\n\\nOpción B. En una localidad de 5.000 habitantes, el consumo de agua baja de 160 a 124 L por persona y día tras reparar fugas. Calcula el ahorro total diario de agua, en L/día [0,5 puntos], y el porcentaje de reducción respecto al consumo inicial [0,5 puntos].",
+   "solucion": "### Parte obligatoria (0,5 puntos)\n- **Recurso secundario:** el aluminio recuperado de las latas usadas, porque procede de materiales previamente utilizados y no de la extracción directa de un yacimiento.\n- **Operación de gestión:** el reciclaje, que permite recuperar y aprovechar ese aluminio.\n\n### Opción B (1 punto)\nEl ahorro diario se puede calcular restando el consumo total final al consumo total inicial:\n\n- Consumo inicial: $5\\,000 \\times 160 = 800\\,000$ L/día.\n- Consumo final: $5\\,000 \\times 124 = 620\\,000$ L/día.\n- Ahorro: $800\\,000 - 620\\,000 = 180\\,000$ L/día.\n\nPara obtener el porcentaje de reducción, calculamos primero qué porcentaje del consumo inicial representa el consumo final: $124 / 160 \\times 100 = 77,5\\%$. Por tanto, la reducción es $100\\% - 77,5\\% = 22,5\\%$.\n\n**Comprobación:** la diferencia por habitante es $160 - 124 = 36$ L/día; para $5\\,000$ habitantes, $36 \\times 5\\,000 = 180\\,000$ L/día, coincidente con el ahorro calculado. Además, $124 + 36 = 160$ L por persona y día.",
+   "resultado": "Recurso secundario: aluminio recuperado; operación: reciclaje. Opción B: ahorro de 180 000 L/día y reducción del 22,5 %.",
+   "criterios": "Parte obligatoria (0,5 puntos): 0,25 por identificar el aluminio recuperado de las latas como recurso secundario y 0,25 por nombrar el reciclaje. Opción B (1 punto): 0,5 por calcular correctamente el ahorro de 180 000 L/día, con unidades; 0,5 por obtener el 22,5 % de reducción respecto al consumo inicial. Se valora el planteamiento y se admiten métodos equivalentes correctamente justificados.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "tectonica",
+   "p": 0.846
+  },
+  {
+   "id": "minerales",
+   "p": 0.846
+  },
+  {
+   "id": "recursos",
+   "p": 0.763
+  },
+  {
+   "id": "procesos",
+   "p": 0.558
+  }
+ ],
+ "referencias": [
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Geología_Ciencias_Ambientales_junio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Geología y Ciencias Ambientales_julio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Examen de la convocatoria ordinaria_2025_GEOLOGIA_CCAA.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Geología y Ciencias Ambientales_julio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Geología_Ciencias_Ambientales_junio_2026.pdf"
+ ]
+}
