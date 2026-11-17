@@ -1,0 +1,90 @@
+{
+ "ccaa": "baleares",
+ "materia": "empresa",
+ "titulo": "PAU 2027 Illes Balears — Empresa y Diseño de Modelos de Negocio / Economía de la Empresa",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro preguntas, que deben responderse todas. Cada pregunta vale 2,5 puntos; la puntuación máxima es de 10 puntos. Justifica los cálculos e indica las unidades. Redondea los ratios a dos decimales cuando sea necesario.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "contabilidad",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una cooperativa que comercializa productos agrícolas presenta, a cierre del ejercicio, los siguientes datos de su balance: inmovilizado material, 90.000 €; existencias, 18.000 €; clientes, 22.000 €; tesorería, 20.000 €; patrimonio neto, 75.000 €; pasivo no corriente, 30.000 €; y pasivo corriente, 45.000 €. Comprueba que el balance está equilibrado y calcula: a) el capital corriente, definido como $AC-PC$; b) el ratio de liquidez, definido como $AC/PC$; y c) el ratio de endeudamiento, definido como $Pasivo\\ total/Activo\\ total$. Expresa el capital corriente en euros y los ratios con dos decimales.",
+   "solucion": "### Comprobación del balance\n\nActivo total:\n$$A=90.000+18.000+22.000+20.000=150.000\\text{ €}$$\n\nPatrimonio neto y pasivo total:\n$$PN+P=75.000+30.000+45.000=150.000\\text{ €}$$\n\nComo ambas magnitudes coinciden, el balance está equilibrado.\n\nEl activo corriente y el pasivo corriente son:\n$$AC=18.000+22.000+20.000=60.000\\text{ €},\\qquad PC=45.000\\text{ €}$$\n\n### a) Capital corriente\n\nPor un procedimiento alternativo, se calcula como recursos permanentes menos activo no corriente:\n$$CC=(PN+PNC)-ANC=(75.000+30.000)-90.000=15.000\\text{ €}$$\n\nComprobación con la definición del enunciado:\n$$AC-PC=60.000-45.000=15.000\\text{ €}$$\n\n### b) Ratio de liquidez\n$$\\frac{AC}{PC}=\\frac{60.000}{45.000}=1,333\\ldots\\approx 1,33$$\n\n### c) Ratio de endeudamiento\n\nEl pasivo total es $PNC+PC=30.000+45.000=75.000$ €:\n$$\\frac{Pasivo\\ total}{Activo\\ total}=\\frac{75.000}{150.000}=0,50$$\n\n### Comprobación final\n\nEl capital corriente obtenido por ambos métodos coincide, y las magnitudes del balance cuadran: $150.000=150.000$ €. Los resultados, con los redondeos solicitados, son $15.000$ €, $1,33$ y $0,50$.",
+   "resultado": "Balance equilibrado: 150.000 € = 150.000 €; capital corriente: 15.000 €; ratio de liquidez: 1,33; ratio de endeudamiento: 0,50.",
+   "criterios": "Total: 2,5 puntos. Comprobación del balance (0,5): 0,25 por calcular el activo total y 0,25 por calcular patrimonio neto más pasivo y verificar que coinciden. Capital corriente (0,5): 0,25 por identificar o calcular correctamente las magnitudes pertinentes y 0,25 por obtener 15.000 €. Ratio de liquidez (0,75): 0,25 por el activo corriente, 0,25 por plantear AC/PC y 0,25 por obtener 1,33 con dos decimales. Ratio de endeudamiento (0,75): 0,25 por identificar el pasivo total, 0,25 por plantear pasivo total/activo total y 0,25 por obtener 0,50. Se acepta el método alternativo del capital corriente si está correctamente justificado.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "2",
+   "tema": "produccion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una empresa de Menorca fabrica bolsas térmicas reutilizables. Sus costes fijos mensuales son 18.000 €, el coste variable unitario es 6 € y el precio de venta unitario es 15 €. a) Calcula el umbral de rentabilidad mensual en unidades. b) Si vende 2.600 unidades en un mes, calcula el beneficio obtenido. c) Para ese volumen de ventas, calcula el margen de seguridad en unidades respecto al umbral de rentabilidad.",
+   "solucion": "### a) Umbral de rentabilidad mensual\n\nEl umbral de rentabilidad se alcanza cuando los ingresos totales igualan los costes totales. El margen de contribución unitario es $15-6=9$ € por unidad. Por tanto:\n\n$$Q^* = \\frac{CF}{p-CV_u} = \\frac{18.000}{15-6} = 2.000\\text{ unidades}$$\n\n### b) Beneficio con ventas de 2.600 unidades\n\n$$B = I-C_T = (2.600\\cdot 15)-(18.000+2.600\\cdot 6) = 39.000-33.600 = 5.400\\text{ €}$$\n\n### c) Margen de seguridad\n\nEs la diferencia entre las unidades vendidas y las unidades correspondientes al umbral de rentabilidad:\n\n$$MS = 2.600-2.000 = 600\\text{ unidades}$$",
+   "resultado": "Umbral de rentabilidad: 2.000 unidades; beneficio: 5.400 €; margen de seguridad: 600 unidades.",
+   "criterios": "Puntuación total: 2,5 puntos. a) 1 punto: planteamiento del umbral mediante ingresos iguales a costes o costes fijos divididos por el margen de contribución unitario (0,5); resultado de 2.000 unidades, con unidades (0,5). b) 0,75 puntos: cálculo correcto de ingresos y costes totales o aplicación equivalente de la fórmula del beneficio (0,5); resultado de 5.400 € (0,25). c) 0,75 puntos: definición y cálculo del margen de seguridad como ventas reales menos umbral (0,5); resultado de 600 unidades (0,25). Se valorará el procedimiento; los errores aritméticos se penalizarán sin volver a descontar por arrastre cuando el método posterior sea correcto.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "modelonegocio",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Marea Circular ofrece a los comedores escolares un servicio de envases reutilizables para las comidas. Los comedores pagan una cuota mensual calculada por estudiante; el alumnado utiliza los envases sin pagar aparte. Los pedidos y la gestión del servicio se realizan en un portal en línea, y el equipo comercial visita los centros. La propuesta de valor es reducir los envases de un solo uso mediante la recogida y limpieza de los recipientes. Una empresa local de inserción se encarga de la limpieza, y la compañía promociona el servicio mediante demostraciones en los centros y boletines informativos escolares. a) Identifica el segmento de clientes, la propuesta de valor, el canal principal de gestión y el flujo de ingresos del modelo Canvas. b) Indica cuál es el socio clave descrito. c) Señala qué variable del marketing mix representan las demostraciones y los boletines informativos.",
+   "solucion": "### a) Elementos del modelo Canvas\n1. **Segmento de clientes:** los comedores escolares o centros educativos que contratan el servicio y pagan la cuota. El alumnado es el usuario final de los envases, pero no paga por separado.\n2. **Propuesta de valor:** ofrecer envases reutilizables y encargarse de su recogida y limpieza para reducir el uso de envases de un solo uso en las comidas escolares.\n3. **Canal principal de gestión:** el portal en línea, mediante el que se realizan los pedidos y se gestiona el servicio. Las visitas del equipo comercial son también una vía de contacto con los centros, pero no el canal principal de gestión descrito.\n4. **Flujo de ingresos:** cuotas mensuales pagadas por los comedores, calculadas en función del número de estudiantes.\n\n### b) Socio clave\nLa empresa local de inserción que se encarga de limpiar los recipientes es el socio clave.\n\n### c) Marketing mix\nLas demostraciones en los centros y los boletines informativos escolares corresponden a la **promoción** (comunicación comercial), porque sirven para dar a conocer y fomentar la contratación del servicio.",
+   "resultado": "Clientes: comedores escolares; propuesta de valor: envases reutilizables con recogida y limpieza; canal de gestión: portal en línea; ingresos: cuota mensual por estudiante; socio clave: empresa local de inserción; marketing mix: promoción.",
+   "criterios": "Puntuación total: 2,5 puntos. a) 1,5 puntos: segmento de clientes (0,4), propuesta de valor (0,4), canal principal de gestión (0,35) y flujo de ingresos (0,35). b) 0,5 puntos por identificar a la empresa local de inserción encargada de la limpieza como socio clave. c) 0,5 puntos por identificar la promoción (comunicación comercial) como variable del marketing mix. Se admiten formulaciones equivalentes; en el apartado a), debe distinguirse al cliente que paga del usuario final.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "financiacion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una empresa estudia adquirir un equipo de clasificación de residuos por 21.000 €. El equipo generaría flujos netos de caja de 12.100 € al final de cada uno de los dos años siguientes. No tiene valor residual y la tasa de descuento anual es del 10 %. a) Calcula el VAN del proyecto mediante $VAN=-I_0+\\sum_{t=1}^{n}\\frac{F_t}{(1+k)^t}$. b) Indica, de acuerdo con el criterio del VAN, si el proyecto crea valor, destruye valor o resulta indiferente. c) En la empresa, las personas se agrupan en los departamentos de compras, operaciones y ventas, y cada departamento depende de la dirección general. Identifica el tipo de estructura organizativa.",
+   "solucion": "### a) Cálculo del VAN\n\nLa inversión inicial es $I_0=21.000$ €, los flujos netos de caja son $F_1=F_2=12.100$ €, y la tasa de descuento es $k=0,10$. Aplicamos la fórmula:\n\n$$VAN=-I_0+\\sum_{t=1}^{n}\\frac{F_t}{(1+k)^t}$$\n\n$$VAN=-21.000+\\frac{12.100}{1,10}+\\frac{12.100}{(1,10)^2}$$\n\n$$VAN=-21.000+11.000+10.000=0\\text{ €}$$\n\n### b) Decisión según el criterio del VAN\n\nComo el $VAN=0$, el proyecto resulta **indiferente**: no crea ni destruye valor, pues la rentabilidad de la inversión coincide con la tasa de descuento exigida.\n\n### c) Estructura organizativa\n\nEs una **estructura funcional**, porque la empresa agrupa a las personas en departamentos según las funciones que realizan (compras, operaciones y ventas), todos dependientes de la dirección general.",
+   "resultado": "VAN = 0 €; el proyecto resulta indiferente; estructura organizativa funcional.",
+   "criterios": "Total: 2,5 puntos. a) 1,5 puntos: planteamiento correcto de la fórmula y sustitución de los datos (0,5); actualización correcta de los flujos de cada año (0,5); VAN final de 0 € (0,5). b) 0,5 puntos: indica que el proyecto es indiferente y justifica la decisión porque el VAN es cero. c) 0,5 puntos: identifica correctamente la estructura como funcional.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "financiacion",
+   "p": 0.05
+  },
+  {
+   "id": "contabilidad",
+   "p": 0.05
+  },
+  {
+   "id": "produccion",
+   "p": 0.05
+  },
+  {
+   "id": "marketing",
+   "p": 0.05
+  },
+  {
+   "id": "modelonegocio",
+   "p": 0.05
+  },
+  {
+   "id": "organizacion",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "https://investigacio.uib.cat/digitalAssets/701/701019_entregable_propcontract_77_2022_ca.pdf",
+  "https://investigacio.uib.cat/digitalAssets/701/701023_entregable_propcontract_78_2022_ca.pdf"
+ ]
+}
