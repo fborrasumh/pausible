@@ -1,0 +1,107 @@
+{
+ "ccaa": "cantabria",
+ "materia": "matccss",
+ "titulo": "Prueba propuesta de Acceso a la Universidad (PAU) 2027 — Cantabria — Matemáticas Aplicadas a las Ciencias Sociales II",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de 3 apartados y tiene una puntuación total de 10 puntos. En los apartados 1 y 3 se presentan dos opciones: se debe elegir y realizar íntegramente una de ellas. El apartado 2 es obligatorio. Si se resuelven las dos opciones de un apartado, solo se corregirá la primera. Se valorarán la explicación de los pasos, la claridad y la justificación de los resultados. Se permite el uso de calculadoras no programables, no gráficas y sin capacidad para almacenar o transmitir datos; todos los procesos deben quedar suficientemente justificados.",
+ "preguntas": [
+  {
+   "n": "1-O1",
+   "tema": "matrices",
+   "puntos": 3.0,
+   "tipo": "calculo",
+   "enunciado": "Apartado 1 [3 puntos]. Opción 1. Una planta de clasificación de residuos utiliza un modelo lineal para calibrar tres sensores, cuyas magnitudes normalizadas son $x$, $y$ y $z$. El parámetro real $a$ representa un ajuste de sensibilidad. El modelo viene dado por $x+y+z=6$, $x+ay+z=6$ y $x+y+az=8$. Realice las siguientes tareas: Tarea 1.1A [2 puntos]. Discuta el sistema en función de los valores del parámetro $a$. Tarea 1.1B [1 punto]. Resuelva el sistema para $a=2$.",
+   "solucion": "### Tarea 1.1A. Discusión del sistema\n\nLa matriz de coeficientes es\n\n$$A=\\begin{pmatrix}1&1&1\\\\1&a&1\\\\1&1&a\\end{pmatrix}.$$\n\nRestando la primera ecuación de la segunda y de la tercera, respectivamente, se obtiene el sistema equivalente\n\n$$(a-1)y=0,\\qquad (a-1)z=2,$$\n\njunto con la primera ecuación, $x+y+z=6$.\n\n- Si $a=1$, la segunda relación es $0=0$, pero la tercera es $0=2$, lo cual es imposible. Equivalentemente, la primera ecuación exige $x+y+z=6$ y la tercera exige $x+y+z=8$. Por tanto, el sistema es **incompatible**.\n- Si $a\\ne 1$, las dos relaciones dan $y=0$ y $z=\\dfrac{2}{a-1}$. Sustituyendo en la primera ecuación,\n\n  $$x=6-\\frac{2}{a-1}.$$\n\n  Por tanto, para todo $a\\ne 1$ el sistema es **compatible determinado**, con solución\n\n  $$(x,y,z)=\\left(6-\\frac{2}{a-1},\\,0,\\,\\frac{2}{a-1}\\right).$$\n\nTambién se comprueba con $\\det(A)=(a-1)^2$: es distinto de cero cuando $a\\ne1$, mientras que para $a=1$ el sistema resulta incompatible, como se ha visto.\n\n### Tarea 1.1B. Caso $a=2$\n\nAl sustituir $a=2$ en las relaciones obtenidas, $y=0$ y $z=2$. De $x+y+z=6$ se deduce $x=4$. Así,\n\n$$(x,y,z)=(4,0,2).$$\n\nComprobación en las ecuaciones originales: $4+0+2=6$, $4+2\\cdot0+2=6$ y $4+0+2\\cdot2=8$.",
+   "resultado": "Si a=1, el sistema es incompatible; si a≠1, es compatible determinado. Para a=2: (x,y,z)=(4,0,2).",
+   "criterios": "Tarea 1.1A (2 puntos): 0,5 por restar ecuaciones y obtener las relaciones (a−1)y=0 y (a−1)z=2; 0,5 por identificar el caso singular a=1 (por ejemplo, mediante el determinante); 0,5 por justificar que en a=1 el sistema es incompatible; 0,5 por clasificar a≠1 como compatible determinado y obtener la solución general. Tarea 1.1B (1 punto): 0,5 por hallar y=0 y z=2 para a=2; 0,5 por calcular x=4 y presentar la solución (4,0,2).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "1-O2",
+   "tema": "progl",
+   "puntos": 3.0,
+   "tipo": "abierta",
+   "enunciado": "Apartado 1 [3 puntos]. Opción 2. Una asociación organiza talleres de ciencia y de huerto urbano para un festival local. Sea $x$ el número de talleres de ciencia e $y$ el número de talleres de huerto. Cada taller de ciencia aporta 5 puntos de impacto comunitario y cada taller de huerto aporta 6. La organización dispone de 14 unidades del recurso A y 16 del recurso B; cada taller de ciencia consume 1 unidad de A y 2 de B, mientras que cada taller de huerto consume 2 de A y 1 de B. Por compromiso con el barrio, deben organizarse al menos 2 talleres de huerto. Se pretende maximizar el impacto total, suponiendo $x$ e $y$ no negativos. Realice las siguientes tareas: Tarea 1.2A [1 punto]. Plantee la función objetivo y el conjunto de restricciones. Tarea 1.2B [1 punto]. Dibuje la región factible y calcule sus vértices. Tarea 1.2C [0,75 puntos]. Determine cuántos talleres de cada tipo deben organizarse para maximizar el impacto. Tarea 1.2D [0,25 puntos]. Calcule el impacto máximo.",
+   "solucion": "### Tarea 1.2A. Función objetivo y restricciones\n\nEl impacto total que se quiere maximizar es $I=5x+6y$. Las disponibilidades de los recursos y el compromiso mínimo se expresan como\n\n$$\n\\begin{cases}\nx+2y\\leq 14,\\\\\n2x+y\\leq 16,\\\\\ny\\geq 2,\\\\\nx\\geq 0.\n\\end{cases}\n$$\n\nLa condición $y\\geq 2$ ya implica $y\\geq 0$.\n\n### Tarea 1.2B. Región factible y vértices\n\nLas rectas frontera son $x+2y=14$, $2x+y=16$, $y=2$ y $x=0$. La región factible es el polígono limitado por ellas. Esquema no realizado a escala:\n\n```text\n y\n 7 |●\\\n 6 |  \\\\\n 5 |    \\\\\n 4 |      ● (6,4)\n 3 |       \\\\\n 2 |●--------●\n   +---------------- x\n    (0,2)    (7,2)\n```\n\nLos vértices se obtienen intersectando las fronteras pertinentes:\n\n- $x=0$ e $y=2$: $(0,2)$.\n- $x=0$ y $x+2y=14$: $(0,7)$.\n- $y=2$ y $2x+y=16$: $(7,2)$.\n- $x+2y=14$ y $2x+y=16$: al resolver el sistema se obtiene $(6,4)$.\n\nPor tanto, los vértices son $(0,2)$, $(0,7)$, $(6,4)$ y $(7,2)$.\n\n### Tarea 1.2C. Máximo impacto\n\nEn lugar de comparar la función objetivo en todos los vértices, se puede obtener una cota superior mediante una combinación de las restricciones de recursos. Multiplicando la primera por $7/3$ y la segunda por $4/3$, y sumando, resulta\n\n$$\n(7/3)(x+2y)+(4/3)(2x+y)\\leq (7/3)14+(4/3)16,\n$$\n\nes decir, $5x+6y\\leq54$. El punto $(6,4)$ es factible y hace que ambas restricciones de recursos sean igualdades; por tanto, alcanza esa cota. La organización debe realizar $6$ talleres de ciencia y $4$ de huerto.\n\n### Tarea 1.2D. Impacto máximo y comprobación\n\n$$\nI(6,4)=5\\cdot6+6\\cdot4=54.\n$$\n\nComprobación de factibilidad: $6+2\\cdot4=14$, $2\\cdot6+4=16$ y $4\\geq2$. Se cumplen todas las restricciones y se alcanza la cota superior de $54$, por lo que el resultado es máximo.",
+   "resultado": "6 talleres de ciencia y 4 de huerto; impacto máximo: 54 puntos.",
+   "criterios": "Tarea 1.2A (1,00): función objetivo correcta, 0,25; restricciones de recursos, 0,40; condición mínima y no negatividad, 0,35. Tarea 1.2B (1,00): representación correcta de la región, 0,40; cálculo de los cuatro vértices, 0,60. Tarea 1.2C (0,75): identificación justificada del punto óptimo, incluyendo una cota superior válida y su alcanzabilidad, 0,75. Tarea 1.2D (0,25): sustitución correcta en la función objetivo e impacto máximo de 54 puntos, 0,25.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "funciones",
+   "puntos": 4.0,
+   "tipo": "calculo",
+   "enunciado": "Apartado 2 [4 puntos]. Una cooperativa estudia el beneficio semanal de una línea de producción. Si $x$ representa el número de lotes fabricados, entre 0 y 24, el beneficio estimado, en cientos de euros, es $P(x)=-2x^2+48x-160$. Se considera el modelo continuo en el intervalo $[0,24]$. Realice las siguientes tareas: Tarea 2.1A [1 punto]. Indique el dominio del modelo y determine los niveles de producción para los que el beneficio es nulo. Tarea 2.1B [2 puntos]. Estudie los intervalos de crecimiento y decrecimiento de $P$ en el dominio e identifique sus extremos relativos. Tarea 2.1C [1 punto]. Esboce la gráfica de $P$ en el intervalo considerado e indique para qué niveles de producción la cooperativa obtiene un beneficio positivo.",
+   "solucion": "### Tarea 2.1A\n\nEl modelo está definido en el intervalo indicado, por tanto su dominio es $[0,24]$.\n\nPara determinar cuándo el beneficio es nulo, resolvemos:\n\n$$\nP(x)=-2x^2+48x-160=-2(x-4)(x-20)=0.\n$$\n\nAsí, los niveles de producción con beneficio nulo son $x=4$ y $x=20$ lotes.\n\n### Tarea 2.1B\n\nDerivamos la función:\n\n$$\nP'(x)=-4x+48=4(12-x).\n$$\n\nEn el dominio, $P'(x)>0$ si $0\\leq x<12$ y $P'(x)<0$ si $12<x\\leq24$. Por tanto, $P$ es creciente en $[0,12]$ y decreciente en $[12,24]$.\n\nEl único punto crítico interior es $x=12$. Como la función pasa de creciente a decreciente, allí tiene un máximo relativo. Su valor es:\n\n$$\nP(12)=-2(12)^2+48(12)-160=128.\n$$\n\nEl máximo es, por tanto, el punto $(12,128)$, es decir, $128$ cientos de euros. No hay mínimo relativo en el interior del dominio. En el intervalo cerrado, los mínimos absolutos se alcanzan en los extremos: $P(0)=P(24)=-160$.\n\n### Tarea 2.1C\n\nLa gráfica es una parábola cóncava hacia abajo, pues $P''(x)=-4<0$. Para esbozarla son útiles los puntos $(0,-160)$, $(4,0)$, $(12,128)$, $(20,0)$ y $(24,-160)$; su eje de simetría es $x=12$.\n\nLa cooperativa obtiene beneficio positivo cuando la gráfica está por encima del eje horizontal, es decir, para $4<x<20$ lotes.",
+   "resultado": "Dominio: [0,24]; beneficio nulo en x=4 y x=20; creciente en [0,12] y decreciente en [12,24]; máximo en (12,128); mínimos absolutos en (0,-160) y (24,-160); beneficio positivo para 4<x<20.",
+   "criterios": "Total: 4 puntos. Tarea 2.1A (1 punto): dominio correcto, 0,25; ecuación del beneficio nulo y obtención de cada raíz, 0,375 por raíz. Tarea 2.1B (2 puntos): cálculo de la derivada y localización del punto crítico, 0,5; intervalos de crecimiento y decrecimiento, 0,75; identificación y cálculo del máximo relativo y precisión sobre los mínimos absolutos en los extremos del intervalo, 0,75. Tarea 2.1C (1 punto): esbozo coherente con la concavidad y los puntos relevantes, 0,6; intervalo donde el beneficio es positivo, 0,4.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "3-O1",
+   "tema": "inferencia",
+   "puntos": 3.0,
+   "tipo": "calculo",
+   "enunciado": "Apartado 3 [3 puntos]. Opción 1. La masa neta de los paquetes de café envasados por una cooperativa sigue una distribución normal con desviación típica conocida de $5$ g. Se toma una muestra aleatoria de 100 paquetes y se obtiene una masa media de $500$ g. Realice las siguientes tareas: Tarea 3.1A [1,5 puntos]. Calcule el intervalo de confianza del $95\\%$ para la masa media de todos los paquetes envasados. Tarea 3.1B [1,5 puntos]. ¿Cuál es el tamaño mínimo de muestra necesario para estimar la masa media con un error máximo no superior a $1$ g y un nivel de confianza del $95\\%$?",
+   "solucion": "### Tarea 3.1A\nComo la población es normal y se conoce la desviación típica, el intervalo de confianza para la media se calcula mediante\n$$\\bar{x}\\pm z_{0.975}\\frac{\\sigma}{\\sqrt{n}}.$$\nCon $\\bar{x}=500$, $\\sigma=5$, $n=100$ y $z_{0.975}\\approx1.96$, el error máximo es\n$$E=1.96\\frac{5}{\\sqrt{100}}=0.98\\text{ g}.$$\nPor tanto, el intervalo de confianza del $95\\%$ es\n$$(500-0.98,\\,500+0.98)=(499.02,\\,500.98)\\text{ g}.$$\n\n### Tarea 3.1B\nPara que el error máximo no supere $1$ g, debe cumplirse\n$$z_{0.975}\\frac{\\sigma}{\\sqrt{n}}\\leq1.$$\nDespejando el tamaño muestral:\n$$n\\geq\\left(\\frac{1.96\\cdot5}{1}\\right)^2=96.04.$$\nEl tamaño debe ser un número entero y se redondea hacia arriba, así que el tamaño mínimo necesario es $n=97$ paquetes.",
+   "resultado": "IC del 95 %: (499,02 g; 500,98 g). Tamaño mínimo de muestra: 97 paquetes.",
+   "criterios": "Tarea 3.1A (1,5 puntos): 0,5 por identificar correctamente el cuantil normal del 95 % y la fórmula del intervalo; 0,5 por calcular el error máximo; 0,5 por obtener e interpretar correctamente los extremos del intervalo. Tarea 3.1B (1,5 puntos): 0,5 por plantear la fórmula del error máximo y despejar n; 0,5 por sustituir los datos y obtener 96,04; 0,5 por redondear hacia arriba y concluir que se necesitan 97 paquetes.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3-O2",
+   "tema": "probabilidad",
+   "puntos": 3.0,
+   "tipo": "calculo",
+   "enunciado": "Apartado 3 [3 puntos]. Opción 2. Una tienda distribuye sus pedidos mediante tres empresas de transporte, A, B y C. La empresa A lleva la mitad de los pedidos, B lleva tres décimas partes y C lleva la quinta parte restante. Las probabilidades de que un pedido llegue con retraso son, respectivamente, $1/25$, $1/10$ y $3/20$. Se elige al azar un pedido de la tienda. Realice las siguientes tareas: Tarea 3.2A [1 punto]. Calcule la probabilidad de que el pedido llegue con retraso. Tarea 3.2B [2 puntos]. Sabiendo que el pedido llegó con retraso, calcule la probabilidad de que lo transportara la empresa C.",
+   "solucion": "Sea $R$ el suceso «el pedido llega con retraso». Las probabilidades de que el pedido sea transportado por cada empresa son $P(A)=\\frac{1}{2}$, $P(B)=\\frac{3}{10}$ y $P(C)=\\frac{1}{5}$; las tres suman $1$.\n\n**Tarea 3.2A.** Aplicamos la fórmula de la probabilidad total:\n$$\nP(R)=P(A)P(R\\mid A)+P(B)P(R\\mid B)+P(C)P(R\\mid C).\n$$\nSustituyendo los datos:\n$$\nP(R)=\\frac{1}{2}\\cdot\\frac{1}{25}+\\frac{3}{10}\\cdot\\frac{1}{10}+\\frac{1}{5}\\cdot\\frac{3}{20}\n=\\frac{1}{50}+\\frac{3}{100}+\\frac{3}{100}\n=\\frac{2}{25}=0,08.\n$$\n\n**Tarea 3.2B.** Por el teorema de Bayes:\n$$\nP(C\\mid R)=\\frac{P(C)P(R\\mid C)}{P(R)}\n=\\frac{\\frac{1}{5}\\cdot\\frac{3}{20}}{\\frac{2}{25}}\n=\\frac{3}{8}=0,375.\n$$",
+   "resultado": "La probabilidad de retraso es $\\frac{2}{25}=0,08$; sabiendo que hubo retraso, la probabilidad de que lo transportara C es $\\frac{3}{8}=0,375$.",
+   "criterios": "Tarea 3.2A (1 punto): identificación de las probabilidades de transporte y retraso y aplicación correcta de la probabilidad total (0,5); sustitución y cálculo correcto de $P(R)=\\frac{2}{25}$ (0,5). Tarea 3.2B (2 puntos): identificación del suceso conjunto mediante $P(C)P(R\\mid C)$ (0,5); planteamiento correcto del teorema de Bayes usando $P(R)$ como denominador (0,75); cálculo de la probabilidad condicionada y resultado $\\frac{3}{8}$ (0,75).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "progl",
+   "p": 0.9
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.9
+  },
+  {
+   "id": "inferencia",
+   "p": 0.9
+  },
+  {
+   "id": "funciones",
+   "p": 0.642
+  },
+  {
+   "id": "matrices",
+   "p": 0.407
+  },
+  {
+   "id": "integrales",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Matemáticas_Aplicadas_CCSS_II_junio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Matemáticas_Aplicadas_Ciencias_Sociales_II_Julio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Contenido/ejemplo ejercicio matemáticas aplicadas a las ciencias sociales.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Examen de la convocatoria ordinaria_2025_MATEMATICAS_APLICADAS.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Matematicas_aplicadas_CCSS_PAU_2025_Julio.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Matemáticas_Aplicadas_CCSS_II_junio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Matemáticas_Aplicadas_Ciencias_Sociales_II_Julio_2026.pdf"
+ ]
+}
