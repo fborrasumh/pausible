@@ -1,0 +1,344 @@
+{
+ "ccaa": "castillaleon",
+ "materia": "empresa",
+ "titulo": "Propuesta original orientativa de examen PAU 2027 de Empresa y Diseño de Modelos de Negocio — Castilla y León",
+ "duracion_min": 90,
+ "instrucciones": "Simulacro original y no oficial. El examen consta de cuatro partes y una lectura económica comprensiva. TEST: conteste 8 de las 12 preguntas. Cada acierto suma 1 punto, cada error resta 0,5 puntos y las preguntas en blanco no puntúan; la suma se divide entre 8 y se multiplica por 3. La puntuación del test no puede ser negativa. PROBLEMAS: resuelva un ejercicio del Problema 1 (P1A o P1B) y otro del Problema 2 (P2A o P2B); cada ejercicio vale 2 puntos. DEFINICIONES: escoja 4 de los 6 términos; cada definición vale 0,25 puntos. PREGUNTA TEÓRICA: conteste una de las dos propuestas; vale 1 punto. LECTURA ECONÓMICA COMPRENSIVA: conteste la pregunta; vale 1 punto. La puntuación máxima total es de 10 puntos. Identifique con claridad las preguntas elegidas; si responde a más de las solicitadas, se corregirán únicamente las primeras que aparezcan. No se permiten calculadoras programables ni financieras.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "financiacion",
+   "puntos": 0.375,
+   "tipo": "abierta",
+   "enunciado": "Una cooperativa estudia un proyecto cuya TIR es del 11 %. Si el coste de capital de la cooperativa es del 8 %, ¿qué decisión resulta coherente con el criterio de la TIR? a) Rechazarlo porque la TIR supera el coste de capital. b) Aceptarlo porque la TIR supera el coste de capital. c) No puede decidirse mientras la TIR sea positiva.",
+   "solucion": "El criterio de la TIR indica que se acepta un proyecto si su TIR es superior al coste de capital, pues su rentabilidad esperada supera la rentabilidad mínima exigida. Como $11\\% > 8\\%$, la decisión coherente es **aceptarlo**. La respuesta correcta es **b)**.",
+   "resultado": "b) Aceptarlo porque la TIR supera el coste de capital.",
+   "criterios": "0,375 puntos por seleccionar la opción b). 0 puntos por seleccionar una opción incorrecta; al ser una pregunta de opción múltiple, no se contempla puntuación parcial.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "contabilidad",
+   "puntos": 0.375,
+   "tipo": "calculo",
+   "enunciado": "Una empresa presenta un activo corriente de 45.000 € y un pasivo corriente de 30.000 €. ¿Cuál es su ratio de liquidez corriente? a) $0,67$. b) $1,5$. c) $15.000$.",
+   "solucion": "El ratio de liquidez corriente se calcula dividiendo el activo corriente entre el pasivo corriente:\n\n$$\\text{Ratio de liquidez corriente} = \\frac{\\text{Activo corriente}}{\\text{Pasivo corriente}} = \\frac{45.000}{30.000} = 1,5$$\n\nPor tanto, la respuesta correcta es la **b) 1,5**.",
+   "resultado": "1,5 (opción b).",
+   "criterios": "0,375 puntos: 0,125 por identificar la fórmula del ratio (activo corriente / pasivo corriente); 0,125 por sustituir correctamente los datos; 0,125 por obtener 1,5 e indicar la opción b).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "produccion",
+   "puntos": 0.375,
+   "tipo": "abierta",
+   "enunciado": "Una fábrica mantiene constantes sus costes fijos y el precio de venta, pero aumenta el coste variable por unidad. ¿Qué sucede con el umbral de rentabilidad? a) Disminuye, porque cada unidad genera más costes. b) Aumenta, porque cada unidad aporta menos margen para cubrir los costes fijos. c) No cambia, porque el coste fijo se mantiene.",
+   "solucion": "Sea $CF$ el coste fijo, $p$ el precio de venta y $cv$ el coste variable unitario. El umbral de rentabilidad es la cantidad para la que el beneficio es cero.\n\n**Método comparativo:** con una cantidad dada $q$, el beneficio es $B(q)=(p-cv)q-CF$. Si el coste variable unitario aumenta en una cantidad positiva $\\Delta cv$, el beneficio para esa misma cantidad disminuye en $q\\,\\Delta cv$. Por tanto, el volumen que antes cubría los costes ya no basta: hay que vender más unidades para alcanzar el equilibrio.\n\n**Comprobación con la expresión del umbral:** $Q^*=\\frac{CF}{p-cv}$. Al aumentar $cv$, disminuye el margen unitario $p-cv$; si este sigue siendo positivo, el cociente aumenta. Así, el umbral de rentabilidad **aumenta**. Si el coste variable unitario llega a ser igual o superior al precio, no existe un umbral finito de rentabilidad.\n\nLa opción correcta es **b)**.",
+   "resultado": "b) El umbral de rentabilidad aumenta.",
+   "criterios": "Puntuación total: 0,375 puntos. Identifica que el margen unitario disminuye: 0,125 puntos. Explica que se necesitan más unidades para cubrir los costes fijos: 0,125 puntos. Selecciona la opción b): 0,125 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "marketing",
+   "puntos": 0.375,
+   "tipo": "abierta",
+   "enunciado": "Una marca de bebidas crea una campaña dirigida a consumidores que compran su producto varias veces por semana. ¿Qué criterio de segmentación está utilizando principalmente? a) Geográfico. b) Conductual. c) Demográfico.",
+   "solucion": "### Identificación del criterio\n\n1. La campaña se dirige a consumidores según la **frecuencia con la que compran o consumen** el producto: varias veces por semana.\n2. La frecuencia de uso o compra describe el comportamiento del consumidor; por tanto, corresponde a la segmentación **conductual**.\n3. Comprobación por descarte: no se menciona el lugar de residencia (criterio geográfico) ni características personales como edad o renta (criterio demográfico).",
+   "resultado": "b) Conductual.",
+   "criterios": "0,375 puntos por identificar correctamente la opción b) (segmentación conductual). Sin puntuación si se elige otra opción.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "modelonegocio",
+   "puntos": 0.375,
+   "tipo": "abierta",
+   "enunciado": "En el Canvas de una tienda de alimentación, la promesa de ofrecer cestas semanales de productos locales, con origen trazable y entrega en el mismo día, corresponde principalmente a: a) La propuesta de valor. b) La estructura de costes. c) Los socios clave.",
+   "solucion": "1. Identificamos qué describe el enunciado: una oferta dirigida a la clientela —cestas semanales de productos locales— y sus atributos: origen trazable y entrega en el mismo día. 2. En el Canvas, el bloque que recoge los beneficios y el valor ofrecidos al cliente es la propuesta de valor. 3. Por tanto, la respuesta correcta es **a) La propuesta de valor**. Como comprobación, la estructura de costes recoge los gastos del negocio y los socios clave son las organizaciones o personas que colaboran con él; ninguna de esas opciones describe principalmente la promesa al cliente.",
+   "resultado": "a) La propuesta de valor.",
+   "criterios": "0,375 puntos: 0,25 por identificar la propuesta de valor como el bloque correcto y 0,125 por justificarlo relacionando la promesa y sus atributos con el valor ofrecido a la clientela.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "6",
+   "tema": "organizacion",
+   "puntos": 0.375,
+   "tipo": "abierta",
+   "enunciado": "En una empresa, las personas se agrupan en departamentos de compras, producción, ventas y administración. ¿Qué criterio de departamentalización predomina? a) Funcional. b) Geográfico. c) Por clientes.",
+   "solucion": "La empresa agrupa a sus trabajadores según las funciones que realizan: compras, producción, ventas y administración. Por tanto, predomina la **departamentalización funcional**. La opción correcta es **a) Funcional**. La departamentalización geográfica organiza por territorios y la basada en clientes, por tipos de clientes.",
+   "resultado": "a) Funcional.",
+   "criterios": "0,375 puntos por identificar correctamente la departamentalización funcional. 0 puntos si se elige otra opción.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "7",
+   "tema": "financiacion",
+   "puntos": 0.375,
+   "tipo": "calculo",
+   "enunciado": "Una inversión inicial de 24.000 € genera cobros netos de 8.000 € al final del primer año, 10.000 € al final del segundo y 12.000 € al final del tercero. ¿Cuál es su plazo de recuperación simple? a) 2 años. b) 2,5 años. c) 3 años.",
+   "solucion": "**Plazo de recuperación simple**\n\n1. Se suman los cobros acumulados hasta recuperar la inversión inicial de $24.000\\,€$:\n   - Al final del primer año: $8.000\\,€$.\n   - Al final del segundo año: $8.000 + 10.000 = 18.000\\,€$.\n\n2. Al inicio del tercer año quedan por recuperar:\n   $$24.000 - 18.000 = 6.000\\,€$$\n\n3. Como el cobro del tercer año es de $12.000\\,€$, se necesita la mitad de ese año:\n   $$\\frac{6.000}{12.000} = 0,5\\text{ años}$$\n\nPor tanto, el plazo de recuperación es $2 + 0,5 = 2,5$ años, opción **b)**.",
+   "resultado": "b) 2,5 años.",
+   "criterios": "Puntuación total: 0,375 puntos. 0,125 puntos por calcular los cobros acumulados al final del segundo año (18.000 €) e identificar que aún no se ha recuperado la inversión; 0,125 puntos por calcular correctamente la parte del tercer año necesaria (6.000/12.000 = 0,5 años); 0,125 puntos por indicar el plazo total de 2,5 años y seleccionar la opción b).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "8",
+   "tema": "contabilidad",
+   "puntos": 0.375,
+   "tipo": "calculo",
+   "enunciado": "Una empresa tiene activo corriente de 52.000 € y pasivo corriente de 40.000 €. ¿Cuál es su fondo de maniobra? a) $-12.000$ €. b) $12.000$ €. c) $92.000$ €.",
+   "solucion": "El fondo de maniobra se calcula como la diferencia entre el activo corriente y el pasivo corriente:\n\n$$FM = AC - PC$$\n\nSustituyendo los datos:\n\n$$FM = 52.000 - 40.000 = 12.000\\text{ €}$$\n\nPor tanto, la respuesta correcta es la **b) 12.000 €**.",
+   "resultado": "Fondo de maniobra: 12.000 € (opción b).",
+   "criterios": "0,125 puntos por indicar la fórmula $FM = AC - PC$; 0,125 puntos por sustituir correctamente los datos; 0,125 puntos por obtener 12.000 € e identificar la opción b).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "9",
+   "tema": "marketing",
+   "puntos": 0.375,
+   "tipo": "abierta",
+   "enunciado": "Una empresa paga anuncios en una emisora local para dar a conocer una nueva línea de conservas. Esta decisión pertenece principalmente a la variable del marketing mix denominada: a) Producto. b) Precio. c) Comunicación o promoción.",
+   "solucion": "1. Identificamos la acción: la empresa paga anuncios en una emisora para dar a conocer sus conservas.\n2. La publicidad sirve para informar y promocionar la oferta, por lo que corresponde a la variable de comunicación o promoción del marketing mix.\n3. Comprobación: no se modifica el producto ni su precio; se comunica su existencia al público.",
+   "resultado": "c) Comunicación o promoción",
+   "criterios": "0,375 puntos por identificar la opción c) (comunicación o promoción). No se asigna puntuación si se elige producto o precio.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "10",
+   "tema": "produccion",
+   "puntos": 0.375,
+   "tipo": "abierta",
+   "enunciado": "En un taller, el alquiler mensual de la nave no cambia aunque varíe el número de bicicletas reparadas. ¿Cómo se clasifica ese coste respecto al volumen de actividad? a) Coste fijo. b) Coste variable. c) Coste marginal.",
+   "solucion": "El alquiler de la nave permanece constante aunque cambie el número de bicicletas reparadas. Por tanto, no depende del volumen de actividad y se clasifica como **coste fijo**. No es un coste variable, que cambia con la actividad, ni un coste marginal, asociado al coste de reparar una unidad adicional. **Comprobación:** si se reparan más o menos bicicletas, el alquiler mensual sigue siendo el mismo; por ello, la opción correcta es la a).",
+   "resultado": "a) Coste fijo.",
+   "criterios": "0,375 puntos: identificación correcta de la opción a) (0,25 puntos) y justificación de que el alquiler no varía con el volumen de actividad (0,125 puntos).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "11",
+   "tema": "modelonegocio",
+   "puntos": 0.375,
+   "tipo": "abierta",
+   "enunciado": "Una aplicación cobra una cuota mensual a sus usuarios por acceder a funciones avanzadas. En el Canvas, estas cuotas se registran en el bloque de: a) Fuentes de ingresos. b) Actividades clave. c) Canales.",
+   "solucion": "La respuesta correcta es **a) Fuentes de ingresos**.\n\nEn el *Business Model Canvas*, el bloque de **fuentes de ingresos** recoge el dinero que la empresa obtiene de cada segmento de clientes. En este caso, las cuotas mensuales pagadas por acceder a funciones avanzadas son ingresos recurrentes por suscripción.\n\nNo corresponden a **actividades clave**, que describen las acciones esenciales de la empresa, ni a **canales**, que indican cómo comunica, vende o entrega su propuesta de valor.\n\n**Comprobación:** la cuota es un pago recibido por la empresa; por tanto, se registra como fuente de ingresos.",
+   "resultado": "a) Fuentes de ingresos.",
+   "criterios": "0,375 puntos por seleccionar la opción a). 0 puntos por seleccionar b), c), dejar la pregunta en blanco o marcar más de una opción. No se establece puntuación parcial.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "12",
+   "tema": "organizacion",
+   "puntos": 0.375,
+   "tipo": "abierta",
+   "enunciado": "La dirección de una empresa asigna a una responsable de equipo autoridad para distribuir tareas y tomar decisiones operativas dentro de unos límites establecidos. ¿Qué función organizativa está aplicando principalmente? a) Delegación. b) Centralización. c) Departamentalización.",
+   "solucion": "La función organizativa aplicada es la **delegación**: la dirección atribuye a una responsable parte de su autoridad para distribuir tareas y tomar decisiones operativas, dentro de unos límites establecidos. No es centralización, porque no todas las decisiones quedan reservadas a la dirección, ni departamentalización, que consiste en agrupar actividades y puestos en unidades organizativas.",
+   "resultado": "a) Delegación.",
+   "criterios": "0,375 puntos por identificar correctamente la delegación (opción a). Sin puntuación si se elige otra opción.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "P1A",
+   "tema": "produccion",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "La empresa Dulce Robleda fabrica cajas de galletas artesanas para tiendas de la provincia. Sus costes fijos anuales son 48.000 €, el coste variable unitario es 12 € y cada caja se vende a 20 €. Calcule el umbral de rentabilidad anual en cajas y el beneficio que obtendría si produjera y vendiera 8.000 cajas. Utilice $Q^*=\\frac{CF}{p-c_v}$ y $\\pi=(p-c_v)Q-CF$.",
+   "solucion": "### 1. Umbral de rentabilidad\n\nAplicamos la fórmula indicada, con costes fijos anuales $CF=48.000$, precio unitario $p=20$ y coste variable unitario $c_v=12$:\n\n$$Q^*=\\frac{CF}{p-c_v}=\\frac{48.000}{20-12}=\\frac{48.000}{8}=6.000\\text{ cajas}$$\n\nLa empresa debe producir y vender 6.000 cajas al año para cubrir todos sus costes, sin obtener beneficio ni pérdidas.\n\n### 2. Beneficio para 8.000 cajas\n\n$$\\pi=(p-c_v)Q-CF=(20-12)\\cdot 8.000-48.000=64.000-48.000=16.000\\text{ €}$$\n\nPor tanto, al producir y vender 8.000 cajas, la empresa obtiene un beneficio anual de 16.000 €.",
+   "resultado": "Umbral de rentabilidad: 6.000 cajas; beneficio al vender 8.000 cajas: 16.000 €.",
+   "criterios": "Total: 2 puntos. Umbral de rentabilidad (1 punto): 0,5 por aplicar correctamente la fórmula Q*=CF/(p−c_v) y 0,5 por obtener 6.000 cajas. Beneficio (1 punto): 0,5 por aplicar correctamente π=(p−c_v)Q−CF con Q=8.000 y 0,5 por obtener 16.000 €. Se aceptan procedimientos equivalentes; los errores aritméticos se penalizan en el apartado correspondiente.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "P1B",
+   "tema": "financiacion",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Una empresa de servicios energéticos valora instalar un equipo con un desembolso inicial de 10.000 €. Espera cobros netos de 5.500 € al final del primer año y de 6.050 € al final del segundo. El coste de capital es del 10 % anual. Calcule el VAN y determine la TIR del proyecto. Considere que los cobros se reciben al final de cada año y emplee $VAN=-I_0+\\frac{F_1}{1+k}+\\frac{F_2}{(1+k)^2}$.",
+   "solucion": "### 1. Cálculo del VAN\n\nSe descuentan los cobros al 10 % anual:\n\n$$VAN=-10.000+\\frac{5.500}{1+0,10}+\\frac{6.050}{(1+0,10)^2}=-10.000+5.000+5.000=0\\text{ €}$$\n\n### 2. Cálculo de la TIR\n\nLa TIR es el tipo $r$ que hace que el VAN sea cero:\n\n$$-10.000+\\frac{5.500}{1+r}+\\frac{6.050}{(1+r)^2}=0$$\n\nMultiplicando por $(1+r)^2$ y haciendo $x=1+r$:\n\n$$10.000x^2-5.500x-6.050=0=(x-1,10)(10.000x+5.500)$$\n\nLas soluciones son $x=1,10$ y $x=-0,55$. La segunda implica $r=-1,55=-155\\%$, fuera del dominio admisible $r>-1$. Por tanto, la TIR válida es $r=1,10-1=0,10=10\\%$.",
+   "resultado": "VAN = 0 €; TIR = 10 %.",
+   "criterios": "2 puntos en total: cálculo correcto del VAN mediante descuento de ambos flujos y resultado (0,75 puntos); planteamiento de la ecuación que iguala el VAN a cero y resolución de la TIR (0,75 puntos); identificación de la raíz económicamente admisible y expresión correcta de la TIR como 10 % (0,5 puntos).",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "P2A",
+   "tema": "contabilidad",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Una empresa de material deportivo presenta el siguiente balance resumido: activo no corriente, 36.000 €; existencias, 6.000 €; deudores, 12.000 €; efectivo, 6.000 €; patrimonio neto, 24.000 €; pasivo no corriente, 24.000 €; y pasivo corriente, 12.000 €. Calcule el fondo de maniobra, el ratio de liquidez corriente y el ratio de prueba ácida, definiendo este último como el cociente entre el activo corriente menos las existencias y el pasivo corriente. Interprete brevemente si los datos muestran capacidad para atender las deudas a corto plazo. Puede utilizar $FM=AC-PC$, $R_c=\\frac{AC}{PC}$ y $R_a=\\frac{AC-E}{PC}$, donde $AC$ es el activo corriente, $PC$ el pasivo corriente y $E$ las existencias.",
+   "solucion": "### 1. Activo corriente\nEl activo corriente está formado por las existencias, los deudores y el efectivo:\n\n$AC=6.000+12.000+6.000=24.000\\,€$\n\n### 2. Fondo de maniobra\nAplicamos $FM=AC-PC$:\n\n$FM=24.000-12.000=12.000\\,€$\n\n### 3. Ratio de liquidez corriente\n$R_c=\\frac{AC}{PC}=\\frac{24.000}{12.000}=2$\n\n### 4. Ratio de prueba ácida\n$R_a=\\frac{AC-E}{PC}=\\frac{24.000-6.000}{12.000}=1{,}5$\n\n### Interpretación\nEl fondo de maniobra es positivo y ambos ratios son superiores a 1. En principio, la empresa muestra capacidad para atender sus deudas a corto plazo: por cada euro de pasivo corriente dispone de 2 euros de activo corriente y de 1,5 euros si se excluyen las existencias. Estos ratios ofrecen una indicación general y no garantizan por sí solos que todos los activos se conviertan en efectivo en el momento necesario.",
+   "resultado": "Fondo de maniobra: 12.000 €; ratio de liquidez corriente: 2; ratio de prueba ácida: 1,5. La empresa muestra capacidad para atender sus deudas a corto plazo.",
+   "criterios": "Total: 2 puntos. Cálculo del activo corriente (24.000 €): 0,25 puntos. Fondo de maniobra (12.000 €): 0,40 puntos. Ratio de liquidez corriente (2): 0,40 puntos. Ratio de prueba ácida (1,5), excluyendo las existencias: 0,50 puntos. Interpretación coherente basada en el fondo de maniobra positivo y los ratios superiores a 1: 0,45 puntos. Se admite puntuación parcial por planteamientos correctos aunque haya errores aritméticos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "P2B",
+   "tema": "modelonegocio",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "ReBici Rural recupera bicicletas usadas mediante acuerdos con dos centros escolares y un taller municipal. Revisa las bicicletas y vende las reacondicionadas a familias con niños de 6 a 12 años. Ofrece además talleres de mantenimiento con reserva y pago por sesión. Vende a través de una tienda en línea y de un puesto móvil mensual. Complete cinco bloques del Canvas identificando: el segmento de clientes, la propuesta de valor, los canales, las fuentes de ingresos y los socios clave. Cada bloque correctamente identificado vale 0,4 puntos.",
+   "solucion": "### Identificación de los bloques del Canvas\n\n1. **Segmento de clientes:** familias con niños de 6 a 12 años, destinatarias de las bicicletas reacondicionadas. También pueden ser clientes quienes reserven talleres de mantenimiento.\n2. **Propuesta de valor:** bicicletas usadas revisadas y reacondicionadas para su venta, junto con talleres prácticos de mantenimiento. La recuperación de bicicletas favorece la reutilización.\n3. **Canales:** tienda en línea y puesto móvil mensual, que permiten ofrecer y vender los productos y servicios.\n4. **Fuentes de ingresos:** venta de bicicletas reacondicionadas y cobro por cada sesión de los talleres reservados.\n5. **Socios clave:** los dos centros escolares y el taller municipal, con los que ReBici Rural acuerda la recuperación de bicicletas usadas.\n\n### Comprobación\nSe han completado los cinco bloques solicitados y cada identificación se corresponde con la información del enunciado. No hay un procedimiento de cálculo alternativo aplicable: es una pregunta de identificación de elementos del modelo de negocio.",
+   "resultado": "Segmento: familias con niños de 6 a 12 años; propuesta: bicicletas reacondicionadas y talleres; canales: tienda en línea y puesto móvil; ingresos: venta de bicicletas y talleres por sesión; socios: dos centros escolares y taller municipal. Total: 2 puntos.",
+   "criterios": "0,4 puntos por cada bloque correctamente identificado: segmento de clientes, propuesta de valor, canales, fuentes de ingresos y socios clave. Total: 2 puntos. Para obtener la puntuación de cada bloque, la respuesta debe identificar el elemento correspondiente sin confundirlo con otro bloque del Canvas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "D1",
+   "tema": "produccion",
+   "puntos": 0.25,
+   "tipo": "abierta",
+   "enunciado": "Defina coste variable.",
+   "solucion": "Un **coste variable** es aquel cuyo importe total varía en función del nivel de actividad o de producción de la empresa: aumenta cuando aumenta la actividad y disminuye cuando esta se reduce. Por ejemplo, el coste de las materias primas empleadas en fabricar productos.",
+   "resultado": "Coste variable: coste total que cambia con el nivel de actividad o producción.",
+   "criterios": "0,25 puntos: definición correcta que indique que el importe total del coste varía con el nivel de actividad o producción. No es necesario aportar un ejemplo.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "D2",
+   "tema": "contabilidad",
+   "puntos": 0.25,
+   "tipo": "abierta",
+   "enunciado": "Defina fondo de maniobra.",
+   "solucion": "El **fondo de maniobra** es la parte del activo corriente financiada con recursos permanentes (capitales propios y pasivo no corriente). Se calcula como la diferencia entre el activo corriente y el pasivo corriente: $FM = AC - PC$. De forma equivalente: $FM = Recursos\\ permanentes - Activo\\ no\\ corriente$.",
+   "resultado": "El fondo de maniobra es la parte del activo corriente financiada con recursos permanentes.",
+   "criterios": "0,25 puntos por definir correctamente el fondo de maniobra como la parte del activo corriente financiada con recursos permanentes o, equivalentemente, por expresarlo como la diferencia entre activo corriente y pasivo corriente.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "D3",
+   "tema": "marketing",
+   "puntos": 0.25,
+   "tipo": "abierta",
+   "enunciado": "Defina segmentación de mercados.",
+   "solucion": "La **segmentación de mercados** es el proceso de dividir el mercado en grupos de consumidores con características, necesidades o comportamientos similares, con el fin de adaptar a cada grupo la oferta y las acciones comerciales de la empresa.",
+   "resultado": "División del mercado en grupos homogéneos de consumidores para adaptar la oferta a sus características y necesidades.",
+   "criterios": "0,25 puntos: definición correcta que incluya la división del mercado en grupos homogéneos y su utilidad para adaptar la oferta o las acciones comerciales.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "D4",
+   "tema": "modelonegocio",
+   "puntos": 0.25,
+   "tipo": "abierta",
+   "enunciado": "Defina propuesta de valor.",
+   "solucion": "### Definición\nLa **propuesta de valor** es el conjunto de beneficios y soluciones que una empresa ofrece a sus clientes para satisfacer sus necesidades o resolver sus problemas. Explica por qué deberían elegir esa oferta frente a las alternativas disponibles.",
+   "resultado": "Conjunto de beneficios y soluciones que una empresa ofrece para satisfacer las necesidades de sus clientes y diferenciarse de las alternativas.",
+   "criterios": "0,25 puntos: definición precisa que relacione la oferta de la empresa con los beneficios o soluciones para el cliente y la satisfacción de sus necesidades.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "D5",
+   "tema": "financiacion",
+   "puntos": 0.25,
+   "tipo": "abierta",
+   "enunciado": "Defina plazo de recuperación o payback.",
+   "solucion": "El **plazo de recuperación o payback** es el tiempo que tarda una inversión en recuperar su desembolso inicial mediante los flujos netos de caja que genera. Se alcanza cuando la suma acumulada de esos flujos iguala la inversión inicial. El método tradicional no tiene en cuenta el valor temporal del dinero.",
+   "resultado": "Tiempo necesario para recuperar la inversión inicial con los flujos netos de caja generados.",
+   "criterios": "0,25 puntos por definir correctamente el plazo como el tiempo necesario para recuperar la inversión inicial mediante los flujos netos de caja acumulados. Se admite una formulación equivalente.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "D6",
+   "tema": "organizacion",
+   "puntos": 0.25,
+   "tipo": "abierta",
+   "enunciado": "Defina delegación.",
+   "solucion": "La **delegación** es el proceso por el que una persona con autoridad encomienda tareas y atribuye autoridad y responsabilidad para realizarlas a otra persona, aunque conserva la responsabilidad última por los resultados.",
+   "resultado": "Asignación de tareas, autoridad y responsabilidad a otra persona, manteniendo quien delega la responsabilidad última.",
+   "criterios": "0,25 puntos: definición completa que incluya la asignación de tareas y autoridad a otra persona. Se valorará que indique que quien delega mantiene la responsabilidad última.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "TE1",
+   "tema": "marketing",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una empresa comercializa kits para cultivar hierbas aromáticas en casa. Relacione cada decisión con una de las cuatro variables del marketing mix: A) elegir las semillas, las macetas y las instrucciones incluidas en el kit; B) fijar el precio de venta; C) ofrecerlo en una tienda en línea y en comercios de jardinería; D) anunciarlo mediante publicaciones patrocinadas en redes sociales. Indique, en cada caso, si corresponde a producto, precio, distribución o comunicación.",
+   "solucion": "### Identificación de las variables del marketing mix\n\n1. **A) Elegir las semillas, las macetas y las instrucciones** determina qué incluye el kit y sus características: corresponde a **producto**.\n2. **B) Fijar el precio de venta** establece cuánto pagará el cliente: corresponde a **precio**.\n3. **C) Ofrecerlo en una tienda en línea y en comercios de jardinería** determina dónde y a través de qué canales se vende: corresponde a **distribución**.\n4. **D) Anunciarlo mediante publicaciones patrocinadas en redes sociales** informa y promociona la oferta: corresponde a **comunicación** (o promoción).\n\n**Comprobación:** se han asignado las cuatro decisiones, una a cada variable del marketing mix.",
+   "resultado": "A) Producto; B) Precio; C) Distribución; D) Comunicación.",
+   "criterios": "1 punto en total: 0,25 puntos por cada correspondencia correcta. Se acepta «promoción» como equivalente de «comunicación».",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "TE2",
+   "tema": "organizacion",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una empresa de reparación de electrodomésticos organiza su plantilla en departamentos de compras, reparaciones, atención al cliente y administración. Identifique el tipo de estructura organizativa que refleja el caso y señale ante qué responsable se coordina principalmente cada trabajador.",
+   "solucion": "1. Los departamentos se agrupan según las funciones que realiza la empresa: compras, reparaciones, atención al cliente y administración.\n2. Por tanto, el caso refleja una **estructura organizativa funcional**.\n3. Cada trabajador se coordina principalmente con el responsable o jefe de su propio departamento, que ejerce la supervisión funcional correspondiente.\n\n**Comprobación:** la organización se basa en funciones y no, por ejemplo, en productos o zonas geográficas; por eso la clasificación y la línea principal de coordinación son coherentes.",
+   "resultado": "Estructura funcional; cada trabajador se coordina principalmente con el responsable de su departamento.",
+   "criterios": "1 punto: 0,5 por identificar correctamente la estructura funcional y vincularla con la organización por funciones; 0,5 por señalar que cada trabajador se coordina principalmente con el responsable de su departamento.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "LC1",
+   "tema": "modelonegocio",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Lectura económica comprensiva: EcoVajilla alquila vajilla reutilizable a organizadores de eventos. En una prueba piloto, varios clientes valoraron positivamente la reducción de residuos, pero señalaron que les resultaba difícil coordinar la devolución del material. La empresa incorporó la recogida al día siguiente del evento en sus presupuestos y, tras esa modificación, aumentaron las reservas. Según el texto, ¿qué dificultad concreta de los clientes abordó EcoVajilla y qué elemento de su oferta modificó para responder a ella?",
+   "solucion": "1. La dificultad concreta era coordinar la devolución de la vajilla después del evento.\n2. Para responder a ella, EcoVajilla modificó su oferta incorporando en los presupuestos la recogida del material al día siguiente del evento.",
+   "resultado": "Dificultad: coordinar la devolución. Cambio: incluir la recogida al día siguiente del evento en los presupuestos.",
+   "criterios": "1 punto: 0,5 por identificar la dificultad de coordinar la devolución y 0,5 por señalar que la oferta se modificó incluyendo la recogida al día siguiente del evento en los presupuestos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "financiacion",
+   "p": 0.693
+  },
+  {
+   "id": "contabilidad",
+   "p": 0.693
+  },
+  {
+   "id": "produccion",
+   "p": 0.693
+  },
+  {
+   "id": "marketing",
+   "p": 0.693
+  },
+  {
+   "id": "modelonegocio",
+   "p": 0.693
+  },
+  {
+   "id": "organizacion",
+   "p": 0.693
+  }
+ ],
+ "referencias": [
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0.ficheros/1810842-Modelo%200%20Empresa%20y%20Dise%C3%B1o%20de%20Modelos%20de%20Negocio.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/guias-calificacion-pau-2026.ficheros/1815848-Gu%C3%ADa%20Calificaci%C3%B3n%20Empresa%20y%20Dise%C3%B1o%20de%20Modelos%20de%20Negocio.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2025-b5f5f/guias-calificacion-pau-2025.ficheros/1768166-Gu%C3%ADa%20calificaci%C3%B3n%20Empresa%20y%20Dise%C3%B1o%20de%20Modelos%20de%20Negocio.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0.ficheros/1810842-Modelo%200%20Empresa%20y%20Dise%C3%B1o%20de%20Modelos%20de%20Negocio.pdf"
+ ]
+}
