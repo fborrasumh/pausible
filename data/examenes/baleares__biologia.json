@@ -1,0 +1,104 @@
+{
+ "ccaa": "baleares",
+ "materia": "biologia",
+ "titulo": "Biología — PAU 2027 (propuesta original, Illes Balears)",
+ "duracion_min": 90,
+ "instrucciones": "Responde cuatro de las cinco preguntas. Cada pregunta vale 2,5 puntos y debe responderse completa, incluidos todos sus apartados. La puntuación máxima es de 10 puntos. Justifica los cálculos e indica las unidades cuando corresponda.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "biomoleculas",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un equipo que estudia proteínas de una planta halófita purifica un péptido lineal de 80 aminoácidos, sin modificaciones. a) Calcula cuántos enlaces peptídicos se formaron y cuántas moléculas de agua se liberaron durante su síntesis por condensación (1 punto). b) Calcula cuántas moléculas de agua se consumirían si se hidrolizaran completamente todos sus enlaces peptídicos (0,75 puntos). c) Indica a qué nivel estructural corresponde la secuencia de aminoácidos y entre qué grupos funcionales se forma el enlace peptídico (0,75 puntos). Supón que no hay modificaciones en los extremos del péptido.",
+   "solucion": "### a) Síntesis por condensación\nEn un péptido lineal de $n$ aminoácidos se forman $n-1$ enlaces peptídicos, porque cada enlace une dos aminoácidos consecutivos. Por tanto:\n\n$$80-1=79$$\n\nCada enlace peptídico se forma por condensación y libera una molécula de agua. Se liberan, por tanto, **79 moléculas de $H_2O$**.\n\n### b) Hidrólisis completa\nLa hidrólisis consume una molécula de agua por cada enlace peptídico. Como hay 79 enlaces, se consumirían **79 moléculas de $H_2O$**.\n\n### c) Nivel estructural y enlace\nLa secuencia de aminoácidos corresponde a la **estructura primaria** de la proteína. El enlace peptídico se forma entre el grupo carboxilo de un aminoácido y el grupo amino del siguiente, con eliminación de una molécula de agua.",
+   "resultado": "79 enlaces peptídicos; 79 moléculas de H₂O liberadas; 79 moléculas de H₂O consumidas; estructura primaria.",
+   "criterios": "a) 1 punto: 0,5 por calcular que se forman 80 − 1 = 79 enlaces peptídicos; 0,5 por indicar que se libera una molécula de agua por enlace, es decir, 79 moléculas. b) 0,75 puntos: indicar que se consume una molécula de agua por cada enlace hidrolizado y obtener 79 moléculas. c) 0,75 puntos: 0,375 por identificar la estructura primaria; 0,375 por señalar que el enlace se forma entre el grupo carboxilo de un aminoácido y el grupo amino del siguiente.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "molecular",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un laboratorio analiza mediante RT-qPCR la expresión de un gen de tolerancia a la sal en plántulas. El gen de referencia presenta un Ct de 20 tanto en el control como en las plántulas tratadas con sal. El Ct del gen diana es 25 en el control y 22 en las tratadas. Supón que la eficiencia de amplificación es del 100 % y que el gen de referencia mantiene una expresión estable. a) Calcula el $\\Delta Ct$ de cada condición (0,75 puntos). b) Calcula el $\\Delta\\Delta Ct$ y el cambio relativo de expresión de las plántulas tratadas respecto del control usando $2^{-\\Delta\\Delta Ct}$ (1 punto). c) Interpreta el resultado indicando cuántas veces cambia la expresión y si aumenta o disminuye (0,75 puntos).",
+   "solucion": "### a) Cálculo de $\\Delta Ct$\nSe calcula restando el $Ct$ del gen de referencia al $Ct$ del gen diana:\n\n- Control: $\\Delta Ct_{control}=25-20=5$.\n- Tratadas con sal: $\\Delta Ct_{tratadas}=22-20=2$.\n\n### b) Cálculo de $\\Delta\\Delta Ct$ y expresión relativa\nTomando las plántulas tratadas como condición experimental y el control como calibrador:\n\n$$\\Delta\\Delta Ct=\\Delta Ct_{tratadas}-\\Delta Ct_{control}=2-5=-3$$\n\nCon eficiencia de amplificación del 100 %:\n\n$$2^{-\\Delta\\Delta Ct}=2^{-(-3)}=2^3=8$$\n\n### c) Interpretación\nLa expresión relativa del gen diana en las plántulas tratadas es 8 respecto del control, cuyo valor relativo es 1. Por tanto, la expresión **aumenta 8 veces** en las plántulas tratadas con sal.",
+   "resultado": "ΔCt: control = 5; tratadas = 2; ΔΔCt = −3; expresión relativa = 8; aumenta 8 veces.",
+   "criterios": "a) 0,75 puntos: 0,375 por calcular correctamente ΔCt del control (25 − 20 = 5) y 0,375 por calcular correctamente ΔCt de las tratadas (22 − 20 = 2). b) 1 punto: 0,5 por aplicar correctamente ΔΔCt = ΔCt(tratadas) − ΔCt(control) y obtener −3; 0,5 por calcular 2^(−ΔΔCt) = 8. c) 0,75 puntos: indicar que la expresión aumenta y que es 8 veces la del control.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "microbiologia",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un equipo evalúa el efecto de la radiación ultravioleta sobre bacterias cultivables de una muestra de agua costera. Siembra 0,1 mL de una dilución $10^{-5}$ de la muestra sin tratar y obtiene 80 colonias; con el mismo volumen y dilución de una muestra irradiada obtiene 20 colonias. Considera que cada colonia procede de una unidad formadora de colonia. a) Calcula la concentración de unidades formadoras de colonias por mililitro en cada muestra (1,25 puntos). b) Indica cuántas veces menor es la concentración tras la irradiación (0,5 puntos). c) Explica qué mide este recuento y por qué no equivale necesariamente al número total de células presentes en el agua (0,75 puntos).",
+   "solucion": "### a) Concentración de UFC por mililitro\n\nLa concentración se obtiene dividiendo el número de colonias entre el volumen sembrado y la fracción de muestra original contenida en la dilución:\n\n$$C=\\frac{N}{V\\,d}$$\n\ndonde $N$ es el número de colonias, $V=0{,}1\\,\\text{mL}$ es el volumen sembrado y $d=10^{-5}$ es la dilución.\n\n- **Muestra sin tratar:**\n\n$$C=\\frac{80}{0{,}1\\times10^{-5}}=8{,}0\\times10^{7}\\;\\text{UFC/mL}$$\n\n- **Muestra irradiada:**\n\n$$C=\\frac{20}{0{,}1\\times10^{-5}}=2{,}0\\times10^{7}\\;\\text{UFC/mL}$$\n\n### b) Reducción tras la irradiación\n\nSe compara la concentración sin tratar con la concentración irradiada:\n\n$$\\frac{8{,}0\\times10^{7}}{2{,}0\\times10^{7}}=4$$\n\nPor tanto, la concentración tras la irradiación es **4 veces menor**.\n\n### c) Qué mide el recuento\n\nEl recuento estima las **unidades formadoras de colonias (UFC)** capaces de crecer y formar colonias en el medio y bajo las condiciones de incubación utilizadas. No equivale necesariamente al número total de células del agua: una colonia puede originarse a partir de una célula o de un agregado de varias células; además, las células muertas o las que no crecen en esas condiciones (incluidas las viables pero no cultivables) no se contabilizan como colonias.",
+   "resultado": "Sin tratar: 8,0 × 10⁷ UFC/mL; irradiada: 2,0 × 10⁷ UFC/mL; tras la irradiación, la concentración es 4 veces menor.",
+   "criterios": "a) 1,25 puntos: planteamiento correcto de la relación entre colonias, volumen sembrado y dilución (0,25); concentración de la muestra sin tratar con unidades correctas (0,50); concentración de la muestra irradiada con unidades correctas (0,50). b) 0,50 puntos: comparación mediante el cociente de las concentraciones e indicación correcta de que es 4 veces menor. c) 0,75 puntos: explica que el recuento mide UFC cultivables bajo las condiciones empleadas (0,35); señala que una UFC puede proceder de una célula o de un agregado (0,20); explica que no incluye necesariamente todas las células, por ejemplo las muertas o las que no crecen en esas condiciones (0,20).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "molecular",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un grupo de investigación quiere producir una enzima en una bacteria utilizando un plásmido circular de 3.200 pb. El plásmido se abre una vez con una endonucleasa de restricción y se liga a un fragmento de ADN de 900 pb con extremos compatibles, sin eliminar nucleótidos del plásmido. a) Calcula la longitud del plásmido recombinante resultante (0,5 puntos). b) Indica la función del origen de replicación, del marcador de resistencia a un antibiótico y del promotor en el vector de expresión (1,5 puntos). c) Nombra el proceso por el que se introduce el plásmido recombinante en las bacterias (0,5 puntos).",
+   "solucion": "### a) Longitud del plásmido recombinante\nEl plásmido se abre una vez y no se elimina ningún nucleótido; por tanto, su longitud se suma íntegramente a la del fragmento insertado:\n\n$$3200\\ \\text{pb}+900\\ \\text{pb}=4100\\ \\text{pb}$$\n\nEl plásmido recombinante mide **4100 pb**.\n\n### b) Funciones de los elementos del vector\n- **Origen de replicación:** permite que el plásmido se replique dentro de la bacteria, de modo que se mantenga y se copie en las células descendientes.\n- **Marcador de resistencia a un antibiótico:** permite seleccionar las bacterias que han incorporado el plásmido; en un medio con ese antibiótico, las bacterias resistentes sobreviven.\n- **Promotor:** secuencia de ADN a la que se une la maquinaria de transcripción, incluida la ARN polimerasa, para iniciar y regular la transcripción del gen insertado.\n\n### c) Introducción en las bacterias\nEl proceso se denomina **transformación bacteriana**: incorporación de ADN externo, en este caso el plásmido recombinante, por las bacterias.",
+   "resultado": "a) 4100 pb. b) El origen de replicación permite copiar el plásmido; el marcador de resistencia permite seleccionar bacterias transformadas; el promotor inicia y regula la transcripción del gen. c) Transformación bacteriana.",
+   "criterios": "Total: 2,5 puntos. a) 0,5 puntos: suma correcta de las longitudes (3200 + 900) y resultado de 4100 pb. b) 1,5 puntos: 0,5 por indicar que el origen de replicación permite la replicación y mantenimiento del plásmido; 0,5 por explicar que el marcador de resistencia permite seleccionar las bacterias que contienen el vector; 0,5 por señalar que el promotor permite iniciar y regular la transcripción del gen. c) 0,5 puntos: identificar el proceso como transformación bacteriana.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "biomoleculas",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Una empresa biotecnológica compara dos lípidos para fabricar vesículas que transporten ARN en un cultivo vegetal. El lípido A tiene una cabeza polar con un grupo fosfato y dos colas de ácidos grasos; el lípido B está formado por glicerol unido a tres ácidos grasos. a) Identifica cuál de los dos es un fosfolípido y explica qué significa que sea anfipático (0,75 puntos). b) Explica cómo se orientan las moléculas del lípido adecuado para formar una bicapa en un medio acuoso, señalando qué partes quedan en contacto con el agua y cuáles se agrupan en el interior (1 punto). c) Indica por qué el otro lípido no forma por sí solo una bicapa estable en agua y menciona su función biológica más característica (0,75 puntos).",
+   "solucion": "### Resolución paso a paso\n\n**Enfoque de identificación:** se compara la estructura de cada lípido con el requisito de una bicapa: tener una región que interaccione con el agua y otra que la evite.\n\n**a) Identificación y carácter anfipático (0,75 puntos).** El lípido **A es un fosfolípido**, pues presenta un grupo fosfato en la cabeza polar y dos colas de ácidos grasos. Es **anfipático** porque reúne en la misma molécula una región hidrófila (la cabeza polar, que interacciona con el agua) y regiones hidrófobas (las colas, que la evitan).\n\n**b) Orientación en la bicapa (1 punto).** En agua, las cabezas polares se orientan hacia los medios acuosos de ambos lados de la membrana: hacia el exterior y hacia el interior acuoso de la vesícula. Las colas hidrófobas se orientan unas hacia otras y quedan agrupadas en el interior de la bicapa, protegidas del agua.\n\n**c) El otro lípido (0,75 puntos).** El lípido **B es un triacilglicérido**: consta de glicerol unido a tres ácidos grasos y carece de una cabeza polar diferenciada. Por ello no es anfipático y no puede organizarse por sí solo en una bicapa estable en agua; tiende a separarse del agua y agruparse en gotas lipídicas. Su función biológica más característica es servir como **reserva energética**.\n\n**Comprobación final:** la estructura de A tiene una cabeza hidrófila y colas hidrófobas, lo que permite la orientación necesaria para una bicapa. B carece de cabeza polar, por lo que no satisface ese requisito.",
+   "resultado": "A es un fosfolípido anfipático que forma bicapas con las cabezas hacia el agua y las colas hacia el interior; B es un triacilglicérido de reserva energética que no forma por sí solo una bicapa estable.",
+   "criterios": "Total: 2,5 puntos. a) 0,75: identifica A como fosfolípido (0,25) y explica correctamente su carácter anfipático, incluyendo las regiones hidrófila e hidrófoba (0,50). b) 1,00: orienta las cabezas hacia los medios acuosos (0,50) y las colas hacia el interior de la bicapa (0,50). c) 0,75: identifica B como triacilglicérido y explica la ausencia de una cabeza polar o de carácter anfipático y, por ello, su incapacidad para formar por sí solo una bicapa estable (0,50); indica su función característica de reserva energética (0,25).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "biomoleculas",
+   "p": 0.489
+  },
+  {
+   "id": "molecular",
+   "p": 0.489
+  },
+  {
+   "id": "microbiologia",
+   "p": 0.411
+  },
+  {
+   "id": "celula",
+   "p": 0.05
+  },
+  {
+   "id": "metabolismo",
+   "p": 0.05
+  },
+  {
+   "id": "division",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "https://investigacio.uib.cat/digitalAssets/754/754286_75_2024.pdf",
+  "https://investigacio.uib.cat/digitalAssets/700/700903_entregable_propcontract_67_2022_ca.pdf",
+  "https://investigacio.uib.cat/digitalAssets/700/700903_entregable_propcontract_67_2022_ca.pdf",
+  "https://investigacio.uib.cat/digitalAssets/754/754286_75_2024.pdf"
+ ]
+}
