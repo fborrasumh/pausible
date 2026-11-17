@@ -123,8 +123,16 @@ class Rastreador:
     def get(self, url, silencio=False):
         for intento in range(2):
             try:
-                r = self.s.get(url, timeout=(self.cfg.get('timeout', 8), 25), headers={'User-Agent': UA}, allow_redirects=True)
-                if r.status_code == 200: return r
+                r = self.s.get(url, timeout=(self.cfg.get('timeout', 8), 25), headers={'User-Agent': UA}, allow_redirects=True, stream=True)
+                if r.status_code == 200:
+                    # tope de tiempo por fichero: un servidor que manda el ZIP a cuentagotas no puede comerse la tarea entera
+                    t0, trozos, tope = time.time(), [], self.cfg.get('max_descarga_s', 240)
+                    for tr in r.iter_content(1 << 16):
+                        trozos.append(tr)
+                        if time.time() - t0 > tope:
+                            r.close(); self.log(f'  descarga demasiado lenta (>{tope} s, {sum(map(len, trozos)) >> 20} MB): {url}'); return None
+                    r._content = b''.join(trozos); return r
+                r.content   # lee el cuerpo de las respuestas de error
                 if not (silencio and r.status_code == 404): self.log(f'  {r.status_code} {url}')
                 if r.status_code in (403, 404, 410): return None
                 if r.status_code == 429:                     # nos piden ir más despacio: se respeta
@@ -411,6 +419,7 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
     for d, rel, de_plantilla in pend:
         if time.time() > fin:
             log(f'  tiempo agotado: quedan {len(pend) - hechos} PDF para la próxima ejecución'); break
+        if not de_plantilla: print(f'  ↓ {d["url"]}', flush=True)   # solo a la consola de Actions: si algo se atasca, se ve dónde
         r = rd.get(descarga_directa(d['url']), silencio=de_plantilla)
         if r is not None and r.content[:2] == b'PK':        # ZIP (Andalucía: un zip por materia y año con todos sus exámenes)
             hechos += 1; time.sleep(cfg.get('pausa', 0.2))

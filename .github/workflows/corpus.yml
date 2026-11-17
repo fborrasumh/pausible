@@ -36,7 +36,7 @@ jobs:
           todas = list(json.loads(pathlib.Path('pipeline/fuentes.json').read_text())['ccaa'])
           def pend(c):
               p = pathlib.Path(f'data/corpus/{c}.json')
-              return json.loads(p.read_text()).get('pendientes', 0) if p.exists() else 0
+              return json.loads(p.read_text()).get('pendientes', 1) if p.exists() else 1   # sin dato aún: se rastrea
           if os.environ['SOLO']: l = [os.environ['SOLO']]
           elif os.environ['PEND'] == 'true': l = [c for c in todas if pend(c) > 0]
           else: l = todas
