@@ -1,0 +1,108 @@
+{
+ "ccaa": "andalucia",
+ "materia": "griego",
+ "titulo": "Prueba de Acceso a la Universidad 2027 — Griego II — Andalucía",
+ "duracion_min": 90,
+ "instrucciones": "a) Duración: 90 minutos. b) Se podrá hacer uso del diccionario y de su apéndice gramatical. c) El examen consta de tres bloques y la puntuación máxima es de 10 puntos. d) En el bloque A, traduzca solo uno de los dos textos y responda a las cuestiones de análisis correspondientes a esa opción. Las palabras entre ⟦ ⟧ aparecen subrayadas. e) En el bloque B, responda a las dos preguntas. f) En el bloque C, elija uno de los dos pasajes y responda solo a las cuestiones correspondientes a ese pasaje. g) Los textos y tareas plantean situaciones contextualizadas relacionadas con la cooperación ciudadana, el acceso a los recursos y la transmisión del conocimiento.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "traduccion",
+   "puntos": 4,
+   "tipo": "abierta",
+   "enunciado": "BLOQUE A.1. TRADUCCIÓN DE UN TEXTO GRIEGO. Traduzca SOLAMENTE uno de los dos textos siguientes.\n\nA) PROSA ÁTICA (texto original). Una comunidad organiza la reparación de los caminos tras una tormenta.\nἘν τῇ Ἀρκαδίᾳ, μετὰ τὸν ὑετόν, οἱ τῆς πόλεως ⟦ἄρχοντες⟧ τοὺς γεωργοὺς ἐκάλεσαν. Ἐπειδὴ γὰρ ὁ χείμαρρος τὴν γέφυραν ⟦ἔλυσεν⟧, οἱ πολῖται οὐκέτι τὸν σῖτον εἰς τὴν ἀγορὰν ἦγον. Ὁ δὲ ἄρχων εἶπεν· «Κοινῇ τὰς ὁδοὺς φυλάττωμεν, ἵνα ἅπαντες τὰ ἀναγκαῖα ⟦κομίζωσιν⟧».\n1. Ἀρκαδία, -ας (ἡ): Arcadia. 2. ὑετός, -οῦ (ὁ): lluvia. 3. χείμαρρος, -ου (ὁ): torrente. 4. ἄρχων, -οντος (ὁ): magistrado, gobernante. 5. σῖτος, -ου (ὁ): trigo, cereal. 6. κομίζω: transportar, llevar.\n\nB) RELATO BREVE (texto original). Un ciudadano comprende el valor de compartir los libros.\nἈνήρ τις τὰ παλαιὰ ⟦βιβλία⟧ ἐν τῇ βιβλιοθήκῃ ⟦ἐφύλαττεν⟧, ἀλλὰ τοῖς νέοις οὐκ ⟦ἐδίδου⟧. Ἐπειδὴ δὲ πυρκαϊὰ τὴν οἰκίαν ἔκαυσεν, οἱ γείτονες αὐτῷ βιβλία καινὰ ἔφερον, καὶ ὁ ἀνὴρ ἔγνω ὅτι ἡ γνώσις κοινὴν δύναμιν παρέχει.\n1. πυρκαϊά, -ᾶς (ἡ): incendio. 2. ἔγνω: aoristo de γιγνώσκω, comprender, reconocer.",
+   "solucion": "### Texto elegido: B. Relato breve\n\n**Método: análisis por predicados y relaciones sintácticas**, en lugar de traducir palabra por palabra. Primero identificamos los verbos y sus argumentos; después reconstruimos el sentido de cada oración.\n\n1. **ἐφύλαττεν** es imperfecto, 3.ª persona singular: «guardaba». Su sujeto es **Ἀνήρ τις**, «un hombre»; el objeto directo es **τὰ παλαιὰ βιβλία**, «los libros antiguos», y **ἐν τῇ βιβλιοθήκῃ** indica el lugar, «en la biblioteca».\n2. **οὐκ ἐδίδου** también es imperfecto, 3.ª persona singular: «no daba». **τοῖς νέοις** es complemento indirecto, «a los jóvenes»; el objeto omitido se recupera de la oración anterior: «los libros». En español: «no se los daba».\n3. **ἔκαυσεν** es aoristo, 3.ª persona singular. **πυρκαϊά** es el sujeto («un incendio») y **τὴν οἰκίαν**, el objeto directo («la casa»). Por el contexto, **Ἐπειδὴ δέ** se traduce temporalmente como «cuando».\n4. En la siguiente coordinación, **οἱ γείτονες** es el sujeto, **βιβλία καινά** el objeto directo y **αὐτῷ** el complemento indirecto: «los vecinos le llevaron libros nuevos». **ἔφερον** es imperfecto; en esta narración puede traducirse de forma natural como «llevaron».\n5. **ἔγνω** significa «comprendió»; introduce mediante **ὅτι** la subordinada completiva. En ella, **ἡ γνώσις** es el sujeto, **κοινὴν δύναμιν** el objeto directo y **παρέχει** el presente «proporciona».\n\n**Traducción:** Un hombre guardaba los libros antiguos en la biblioteca, pero no se los daba a los jóvenes. Cuando un incendio quemó la casa, los vecinos le llevaron libros nuevos, y el hombre comprendió que el conocimiento proporciona un poder compartido.\n\n**Comprobación final:** se conservan el contraste entre guardar los libros y no compartirlos, el incendio como hecho que desencadena la acción de los vecinos y la conclusión introducida por «comprendió que». No se ha traducido el texto A.",
+   "resultado": "Un hombre guardaba los libros antiguos en la biblioteca, pero no se los daba a los jóvenes. Cuando un incendio quemó la casa, los vecinos le llevaron libros nuevos, y el hombre comprendió que el conocimiento proporciona un poder compartido.",
+   "criterios": "Puntuación máxima: 4 puntos. Primera oración, identificación del sujeto, objeto, lugar y traducción de ἐφύλαττεν: 1 punto. Contraste con οὐκ ἐδίδου, complemento τοῖς νέοις y recuperación del objeto omitido: 0,5 puntos. Cláusula temporal del incendio, con relaciones de sujeto y objeto: 0,75 puntos. Oración de los vecinos, incluidos sujeto, objeto y complemento indirecto: 0,75 puntos. Conclusión con ἔγνω, la subordinada de ὅτι y la traducción de κοινὴν δύναμιν παρέχει: 1 punto. Se admiten variantes de traducción equivalentes; los errores de sintaxis, omisiones o confusiones de caso y función reducen la puntuación del segmento correspondiente.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "morfosintaxis",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "BLOQUE A.2. ANÁLISIS SINTÁCTICO. Según la opción elegida en la traducción, realice el análisis sintáctico del segmento indicado: A) Si ha elegido el texto A, desde el principio hasta ἦγον. B) Si ha elegido el texto B, desde el principio hasta οὐκ ἐδίδου.",
+   "solucion": "No es posible realizar el análisis sintáctico con el enunciado proporcionado: se mencionan los textos A y B, pero no se incluye ninguno de ellos. El análisis depende del contenido exacto del segmento, desde el principio hasta ἦγον o hasta οὐκ ἐδίδου, y también de cuál opción se haya elegido. Para resolverlo hace falta aportar el texto correspondiente.",
+   "resultado": "Enunciado incompleto: falta el texto A o B que debe analizarse.",
+   "criterios": "La pregunta no permite una corrección sintáctica objetiva porque falta el material que se debe analizar. La comisión debería solicitar el texto omitido o anular el apartado; no procede asignar una puntuación de contenido sobre 1 punto sin ese material.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "morfosintaxis",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "BLOQUE A.3. ANÁLISIS MORFOLÓGICO. Según la opción elegida en la traducción, analice morfológicamente y enuncie las palabras delimitadas por ⟦ ⟧ en el texto escogido.",
+   "solucion": "No es posible realizar el análisis morfológico con el enunciado proporcionado: faltan el texto griego, las palabras delimitadas por ⟦ ⟧ y la opción de traducción elegida. Sin esos datos no se pueden identificar ni enunciar las formas. Para resolverlo, hay que indicar cada forma griega delimitada, determinar sus rasgos morfológicos y escribir su lema.",
+   "resultado": "Falta el texto griego con las palabras delimitadas y la opción elegida; no se puede determinar la solución.",
+   "criterios": "La pregunta vale 1 punto. La puntuación debe repartirse entre las palabras delimitadas, valorando para cada una la identificación correcta de la forma, sus rasgos morfológicos y su lema. No se puede asignar una puntuación concreta por palabra mientras no se conozcan el texto y el número de formas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "lexico",
+   "puntos": 0.5,
+   "tipo": "abierta",
+   "enunciado": "BLOQUE B. LÉXICO Y ETIMOLOGÍA. Forme el término castellano que se pide en cada caso, usando los elementos griegos indicados. A) Con ὕδωρ (agua) y λόγος (estudio, tratado), el nombre del estudio científico del agua. B) Con βίος (vida) y γράφω (escribir), el nombre del relato escrito de la vida de una persona. 0,25 puntos por cada respuesta.",
+   "solucion": "**A)** ὕδωρ significa «agua» y λόγος, «estudio» o «tratado». Al combinar sus formas compositivas, **hidro-** + **-logía**, se forma **hidrología**, el estudio científico del agua.\n\n**B)** βίος significa «vida» y γράφω, «escribir». Al combinar sus formas compositivas, **bio-** + **-grafía**, se forma **biografía**, el relato escrito de la vida de una persona.",
+   "resultado": "A) hidrología; B) biografía.",
+   "criterios": "0,25 puntos por «hidrología» (A) y 0,25 puntos por «biografía» (B). Se concede la puntuación correspondiente por cada término correctamente formado.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "lexico",
+   "puntos": 0.5,
+   "tipo": "abierta",
+   "enunciado": "Explique el significado etimológico de estas dos palabras castellanas, indicando sus elementos griegos: A) monarquía (μόνος + ἀρχή). B) autonomía (αὐτός + νόμος). 0,25 puntos por cada explicación.",
+   "solucion": "**Método: análisis de los componentes y reconstrucción del significado.** Se interpreta cada palabra a partir de los elementos griegos indicados y se comprueba que su combinación corresponde al significado castellano.\n\n**A) monarquía (μόνος + ἀρχή).** $μόνος$ significa «uno solo» y $ἀρχή$, en este compuesto, «mando» o «gobierno». Por tanto, *monarquía* significa «gobierno de uno solo» o el sistema político en que el poder lo ejerce una sola persona.\n\n**B) autonomía (αὐτός + νόμος).** $αὐτός$ significa «uno mismo» y $νόμος$, «ley» o «norma». De ahí, *autonomía* significa literalmente «darse la propia ley» y, por extensión, capacidad de gobernarse por sí mismo o independencia.\n\n**Comprobación:** ambas definiciones se obtienen al combinar los significados de los elementos griegos señalados, sin confundir $ἀρχή$ con «origen» en este compuesto.",
+   "resultado": "Monarquía: gobierno de uno solo. Autonomía: capacidad de darse la propia ley y gobernarse por sí mismo. Nota: 0,50/0,50.",
+   "criterios": "0,25 puntos por cada palabra. A) 0,125 por identificar correctamente el significado de μόνος y ἀρχή; 0,125 por explicar que monarquía es el gobierno de uno solo. B) 0,125 por identificar correctamente el significado de αὐτός y νόμος; 0,125 por explicar que autonomía es darse la propia ley o gobernarse por sí mismo. Total: 0,50 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "6",
+   "tema": "literatura",
+   "puntos": 3,
+   "tipo": "abierta",
+   "enunciado": "BLOQUE C. LITERATURA GRIEGA. Elija UNO de los dos pasajes de apoyo, adaptados para este examen, y responda únicamente a las tres cuestiones correspondientes.\n\nPASaje 1. En Tebas, Creonte ha prohibido dar sepultura al hermano de Antígona, que luchó contra la ciudad. Antígona explica a su hermana que no obedecerá esa orden: considera que las normas divinas, más antiguas que las decisiones de cualquier gobernante, le exigen honrar al muerto, aunque hacerlo le cueste la vida.\n\nPASaje 2. Creso, rey de Lidia, muestra sus riquezas al ateniense Solón y le pregunta quién merece ser considerado el hombre más feliz. Solón no acepta juzgar la felicidad por la fortuna presente: sostiene que solo al término de una vida puede valorarse su conjunto, pues la suerte humana cambia.\n\nResponda al pasaje elegido: a) Identifique el autor y la obra a los que corresponde el episodio (1 punto). b) Indique su género literario (1 punto). c) Explique el conflicto central del pasaje 1 o el criterio de Solón y la advertencia que dirige a Creso en el pasaje 2 (1 punto).",
+   "solucion": "### Pasaje elegido: 1\n\n**a) Autor y obra (1 punto).** El episodio corresponde a **Sófocles**, en la tragedia **_Antígona_**.\n\n**b) Género literario (1 punto).** Es una **tragedia griega**, destinada a la representación teatral.\n\n**c) Conflicto central (1 punto).** Antígona se enfrenta al decreto de Creonte, que prohíbe sepultar a su hermano por haber combatido contra Tebas. Ella considera que debe obedecer las leyes divinas, no escritas e inmemoriales, que obligan a honrar a los muertos. El conflicto contrapone, por tanto, la autoridad política y la obediencia a la ley de la ciudad con el deber religioso y familiar; Antígona acepta arriesgar la vida antes que desobedecer esas normas divinas.\n\n**Comprobación:** la mención de Antígona, Creonte y la prohibición de sepultura identifica la tragedia de Sófocles; la oposición entre el decreto del gobernante y las leyes divinas explica el conflicto descrito. **Calificación: 3/3 puntos.**",
+   "resultado": "Sófocles, Antígona; tragedia; conflicto entre el decreto de Creonte y las leyes divinas que Antígona considera obligado obedecer.",
+   "criterios": "3 puntos en total: a) 1 punto por identificar correctamente autor y obra (orientativamente, 0,5 por cada dato); b) 1 punto por indicar el género trágico; c) 1 punto por explicar el conflicto entre la autoridad de Creonte y las leyes divinas, incluyendo el deber de Antígona de honrar al muerto. Se admite una formulación equivalente que recoja esos elementos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "traduccion",
+   "p": 0.9
+  },
+  {
+   "id": "morfosintaxis",
+   "p": 0.9
+  },
+  {
+   "id": "lexico",
+   "p": 0.9
+  },
+  {
+   "id": "literatura",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_griego.zip#Griego/Ordinaria_Titular/Examen Titular Griego II.pdf",
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_griego.zip#Griego/Extraordinaria_Incompatibilidad/Examen Suplente 1 Griego II_Ex.pdf",
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_griego.zip#Griego/Extraordinaria_Incompatibilidad/Examen Suplente 1 Griego II_Ex.pdf",
+  "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_griego.zip#Griego/Ordinaria_Titular/Examen Titular Griego II.pdf"
+ ]
+}
