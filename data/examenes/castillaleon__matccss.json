@@ -1,0 +1,81 @@
+{
+ "ccaa": "castillaleon",
+ "materia": "matccss",
+ "titulo": "Prueba de Acceso a la Universidad 2027 — Matemáticas Aplicadas a las CC. Sociales II — Castilla y León",
+ "duracion_min": 90,
+ "instrucciones": "El examen se calificará sobre 10 puntos. El apartado 1 es obligatorio. En los apartados 2 y 3, responda exactamente a dos de los tres problemas propuestos; cada problema tiene la puntuación indicada. Justifique los procedimientos, defina las variables que utilice y exprese los resultados contextualizados y con sus unidades cuando corresponda.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "progl",
+   "puntos": 3,
+   "tipo": "abierta",
+   "enunciado": "APARTADO 1 (Bloques A+C)\n\nUna cooperativa fabrica dos modelos de kits de reparación, A y B. A partir de sus registros contables sabe que la contribución neta obtenida al vender 3 kits A y 2 kits B fue de 260 euros, y que la obtenida al vender 1 kit A y 3 kits B fue de 180 euros.\n\na) Plantee el sistema que permite calcular la contribución neta por kit de cada modelo, escríbalo en forma matricial y resuélvalo. [1 punto]\n\nPara la planificación mensual, la cooperativa dispone de un máximo de 36 kits de embalaje. Cada kit A requiere 2 horas de trabajo y cada kit B requiere 1 hora, con un máximo de 60 horas disponibles. Además, cada kit A consume una unidad de material y cada kit B consume 2 unidades, con un máximo de 60 unidades de material.\n\nb) Determine, mediante programación lineal y representación gráfica de la región factible, cuántos kits de cada modelo debe fabricar para maximizar la contribución neta total. Indique dicha contribución máxima. [2 puntos]",
+   "solucion": "### a) Contribución neta por kit\n\nSean $a$ y $b$ las contribuciones netas, en euros, de un kit de los modelos A y B, respectivamente. Los datos dan el sistema\n\n$$\n\\begin{cases}\n3a+2b=260,\\\\\na+3b=180.\n\\end{cases}\n$$\n\nEn forma matricial:\n\n$$\n\\begin{pmatrix}3&2\\\\1&3\\end{pmatrix}\n\\begin{pmatrix}a\\\\b\\end{pmatrix}\n=\n\\begin{pmatrix}260\\\\180\\end{pmatrix}.\n$$\n\nEl determinante de la matriz es $9-2=7$, por lo que es invertible, y\n\n$$\n\\begin{pmatrix}a\\\\b\\end{pmatrix}\n=\\frac{1}{7}\n\\begin{pmatrix}3&-2\\\\-1&3\\end{pmatrix}\n\\begin{pmatrix}260\\\\180\\end{pmatrix}\n=\\begin{pmatrix}60\\\\40\\end{pmatrix}.\n$$\n\nPor tanto, la contribución neta por kit A es de $60$ euros y por kit B es de $40$ euros.\n\n### b) Planificación óptima\n\nSean $x$ e $y$ las cantidades de kits A y B que se fabrican. El problema de programación lineal es\n\n$$\n\\text{maximizar } Z=60x+40y\n$$\n\nsujeto a\n\n$$\n\\begin{cases}\nx+y\\leq 36 & \\text{(embalajes)},\\\\\n2x+y\\leq 60 & \\text{(horas de trabajo)},\\\\\nx+2y\\leq 60 & \\text{(material)},\\\\\nx\\geq 0,\\quad y\\geq 0.\n\\end{cases}\n$$\n\nPara representar gráficamente la región factible, se dibujan en el primer cuadrante las rectas frontera $x+y=36$, $2x+y=60$ y $x+2y=60$, y se toma la zona que queda por debajo de las tres. Sus vértices factibles son\n\n$$\n(0,0),\\quad (30,0),\\quad (24,12),\\quad (12,24),\\quad (0,30).\n$$\n\nPor ejemplo, $(24,12)$ es la intersección de $x+y=36$ y $2x+y=60$; cumple también la restricción de material, pues $24+2\\cdot12=48\\leq60$. La intersección de las rectas de trabajo y material, $(20,20)$, no es factible porque $20+20>36$.\n\nEvaluando la función objetivo en los vértices:\n\n$$\n\\begin{array}{c|ccccc}\n(x,y)&(0,0)&(30,0)&(24,12)&(12,24)&(0,30)\\\\ \\hline\nZ&0&1800&1920&1680&1200\n\\end{array}\n$$\n\nAsí, el máximo se alcanza en $(x,y)=(24,12)$ y es de $1920$ euros. Además, se puede certificar el máximo directamente mediante\n\n$$\n60x+40y=20(2x+y)+20(x+y)\\leq20\\cdot60+20\\cdot36=1920.\n$$\n\nLa igualdad se alcanza en $(24,12)$, que es factible; por tanto, este plan es óptimo.\n\n**Comprobación:** las cantidades obtenidas para cada kit reproducen los datos contables: $3\\cdot60+2\\cdot40=260$ y $60+3\\cdot40=180$. El plan óptimo utiliza $24+12=36$ embalajes, $2\\cdot24+12=60$ horas y $24+2\\cdot12=48\\leq60$ unidades de material; su contribución es $24\\cdot60+12\\cdot40=1920$ euros.",
+   "resultado": "Fabricar 24 kits A y 12 kits B; contribución neta máxima: 1920 euros.",
+   "criterios": "3 puntos en total. Apartado a (1 punto): 0,25 por plantear correctamente el sistema; 0,25 por expresarlo en forma matricial; 0,50 por resolverlo y asignar correctamente las contribuciones a A y B. Apartado b (2 puntos): 0,50 por definir las variables, la función objetivo y las restricciones; 0,75 por representar o describir correctamente la región factible y determinar sus vértices; 0,50 por evaluar la función objetivo o justificar rigurosamente una cota y obtener el máximo; 0,25 por indicar el plan óptimo y comprobar su factibilidad. Se admitirán métodos equivalentes correctamente justificados.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "funciones",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "APARTADO 2 (Bloque B)\n\nLa potencia eléctrica, en kilovatios, generada por una instalación solar durante un tramo de seis horas se modeliza mediante la función $P(t)=-2t^2+12t$, donde $t$ representa el tiempo en horas desde el inicio del tramo y $0\\leq t\\leq 6$.\n\nResponda a dos de las siguientes cuestiones:\n\n2.1. Determine los intervalos en los que la potencia aumenta y disminuye, y calcule la potencia máxima alcanzada. [1,5 puntos]\n\n2.2. Calcule, mediante una integral definida, la energía generada durante las seis horas. [1,5 puntos]\n\n2.3. ¿En qué instantes la potencia generada es de 16 kilovatios? [1,5 puntos]",
+   "solucion": "El enunciado pide responder a dos apartados. Se desarrollan los tres para que se pueda elegir cuáles presentar.\n\n### 2.1. Monotonía y potencia máxima\n\nDerivamos la función:\n\n$$P'(t)=-4t+12.$$\n\nEl único punto crítico del intervalo se obtiene de $P'(t)=0$:\n\n$$-4t+12=0 \\quad\\Longrightarrow\\quad t=3.$$\n\nPara $0\\leq t<3$, $P'(t)>0$, y para $3<t\\leq 6$, $P'(t)<0$. Por tanto, la potencia **aumenta en $[0,3]$** y **disminuye en $[3,6]$**. La potencia máxima se alcanza en $t=3$:\n\n$$P(3)=-2\\cdot 3^2+12\\cdot 3=18\\text{ kW}.$$\n\n### 2.2. Energía generada\n\nLa energía es la integral de la potencia durante el intervalo de seis horas:\n\n$$E=\\int_0^6(-2t^2+12t)\\,dt\n=\\left[-\\frac{2}{3}t^3+6t^2\\right]_0^6\n=-144+216=72\\text{ kWh}.$$\n\n### 2.3. Instantes en que la potencia es $16$ kW\n\nResolvemos la ecuación $P(t)=16$:\n\n$$-2t^2+12t=16\n\\quad\\Longleftrightarrow\\quad t^2-6t+8=0\n\\quad\\Longleftrightarrow\\quad (t-2)(t-4)=0.$$\n\nAmbas soluciones pertenecen al intervalo $[0,6]$. Por tanto, la potencia es de $16$ kW en los instantes **$t=2$ h** y **$t=4$ h**.",
+   "resultado": "Aumenta de 0 a 3 h y disminuye de 3 a 6 h; potencia máxima: 18 kW. Energía generada: 72 kWh. La potencia es 16 kW en t = 2 h y t = 4 h.",
+   "criterios": "Cada apartado vale 1,5 puntos. En el 2.1: 0,5 por calcular la derivada y localizar el punto crítico; 0,5 por determinar correctamente los intervalos de crecimiento y decrecimiento; 0,5 por calcular la potencia máxima e indicar sus unidades. En el 2.2: 0,5 por plantear la integral definida con límites correctos; 0,5 por obtener una primitiva; 0,5 por evaluar correctamente e indicar la energía en kWh. En el 2.3: 0,5 por plantear la ecuación; 0,5 por resolverla; 0,5 por identificar las soluciones válidas en el intervalo y expresar los instantes en horas. En el examen se eligen dos apartados, de modo que la puntuación máxima es 3 puntos; resolver el tercero no añade puntuación si ya se han elegido dos.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "3",
+   "tema": "probabilidad",
+   "puntos": 4,
+   "tipo": "calculo",
+   "enunciado": "APARTADO 3 (Bloque D)\n\nResponda a dos de los siguientes problemas:\n\n3.1. Una cooperativa recibe sus envases de dos proveedores: el proveedor A suministra el 60 % y el proveedor B el 40 %. El 5 % de los envases de A y el 15 % de los de B presentan algún defecto.\n\na) Exprese los datos mediante probabilidades y calcule la probabilidad de que un envase elegido al azar tenga algún defecto. [1 punto]\n\nb) Si un envase elegido al azar tiene algún defecto, calcule la probabilidad de que proceda del proveedor B. [1 punto]\n\n3.2. El peso de los envases de una línea de envasado se modeliza mediante una distribución normal. En una muestra aleatoria de 64 envases se obtiene un peso medio de 250 gramos. Se conoce que la desviación típica poblacional es de 8 gramos.\n\na) Calcule un intervalo de confianza del 95 % para el peso medio poblacional, utilizando $z_{0,975}=1,96$. [1 punto]\n\nb) Para calcular probabilidades de pesos individuales, se adopta el modelo $X\\sim N(250,8^2)$. Calcule la probabilidad de que un envase pese entre 242 y 258 gramos. [1 punto]\n\n3.3. En una ruta de reparto, la probabilidad de que un paquete se deposite en una taquilla automática es del 50 %. Se consideran cuatro paquetes seleccionados de forma independiente.\n\na) Calcule la probabilidad de que exactamente dos de los cuatro paquetes se depositen en una taquilla automática. [1 punto]\n\nb) Calcule la probabilidad de que al menos tres de los cuatro paquetes se depositen en una taquilla automática. [1 punto]",
+   "solucion": "Se resuelven los problemas 3.1 y 3.2, que suman los 4 puntos indicados.\\n\\n### 3.1\\nSea $D$ el suceso «el envase tiene algún defecto». Los datos son $P(A)=0{,}60$, $P(B)=0{,}40$, $P(D\\mid A)=0{,}05$ y $P(D\\mid B)=0{,}15$.\\n\\n**a)** Por la ley de la probabilidad total,\\n$$P(D)=P(D\\mid A)P(A)+P(D\\mid B)P(B)=0{,}05\\cdot0{,}60+0{,}15\\cdot0{,}40=0{,}09.$$\\nLa probabilidad de que un envase elegido al azar tenga algún defecto es $0{,}09$.\\n\\n**b)** Aplicando el teorema de Bayes,\\n$$P(B\\mid D)=\\frac{P(D\\mid B)P(B)}{P(D)}=\\frac{0{,}15\\cdot0{,}40}{0{,}09}=\\frac{2}{3}\\approx0{,}6667.$$\\n\\n### 3.2\\n**a)** Con $\\bar{x}=250$, $\\sigma=8$, $n=64$ y $z_{0{,}975}=1{,}96$, el intervalo de confianza del 95 % es\\n$$\\bar{x}\\pm z_{0{,}975}\\frac{\\sigma}{\\sqrt{n}}=250\\pm1{,}96\\frac{8}{\\sqrt{64}}=250\\pm1{,}96.$$\\nPor tanto, el intervalo es $[248{,}04,\\,251{,}96]$ gramos.\\n\\n**b)** Estandarizando los extremos, $z_1=(242-250)/8=-1$ y $z_2=(258-250)/8=1$. Así,\\n$$P(242<X<258)=P(-1<Z<1)=\\Phi(1)-\\Phi(-1)\\approx0{,}6827.$$",
+   "resultado": "3.1: P(D)=0,09 y P(B|D)=2/3. 3.2: IC del 95 % [248,04; 251,96] g y P(242<X<258)≈0,6827.",
+   "criterios": "Se resuelven 3.1 y 3.2, por un total de 4 puntos. 3.1a (1 punto): 0,4 por expresar correctamente las probabilidades de los datos y 0,6 por aplicar la ley de la probabilidad total y obtener 0,09. 3.1b (1 punto): 0,5 por plantear correctamente Bayes y 0,5 por obtener 2/3. 3.2a (1 punto): 0,4 por calcular el error típico y plantear el intervalo, 0,3 por el margen de error y 0,3 por los extremos correctos. 3.2b (1 punto): 0,5 por estandarizar correctamente los límites y 0,5 por calcular la probabilidad aproximada 0,6827.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 3,
+ "temas_base": [
+  {
+   "id": "probabilidad",
+   "p": 0.693
+  },
+  {
+   "id": "inferencia",
+   "p": 0.693
+  },
+  {
+   "id": "matrices",
+   "p": 0.45
+  },
+  {
+   "id": "progl",
+   "p": 0.45
+  },
+  {
+   "id": "funciones",
+   "p": 0.45
+  },
+  {
+   "id": "integrales",
+   "p": 0.45
+  }
+ ],
+ "referencias": [
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0.ficheros/1810863-NUEVO%2014.01.25%20Modelo%200%20Matem%C3%A1ticas%20aplicadas%20a%20las%20CCSS%20II.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/guias-calificacion-pau-2026.ficheros/1815906-Gu%C3%ADa%20Calificaci%C3%B3n%20Matem%C3%A1ticas%20aplicadas%20a%20las%20CCSS%20II.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2025-b5f5f/guias-calificacion-pau-2025.ficheros/1768184-Gu%C3%ADa%20calificaci%C3%B3n%20Matem%C3%A1ticas%20Aplicadas%20a%20las%20Ciencias%20Sociales%20II.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/guias-calificacion-pau-2026.ficheros/1815906-Gu%C3%ADa%20Calificaci%C3%B3n%20Matem%C3%A1ticas%20aplicadas%20a%20las%20CCSS%20II.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0.ficheros/1810863-NUEVO%2014.01.25%20Modelo%200%20Matem%C3%A1ticas%20aplicadas%20a%20las%20CCSS%20II.pdf"
+ ]
+}
