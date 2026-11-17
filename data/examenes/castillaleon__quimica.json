@@ -1,0 +1,105 @@
+{
+ "ccaa": "castillaleon",
+ "materia": "quimica",
+ "titulo": "Prueba de Acceso a la Universidad 2027 — Química — Castilla y León",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cinco apartados, de 2 puntos cada uno. Los apartados 1 y 2 son obligatorios. En cada uno de los apartados 3, 4 y 5, elija una de las dos opciones (A o B) y responda a todas sus cuestiones; no combine cuestiones de opciones distintas. Solo se corregirá la primera opción contestada que no esté totalmente tachada. Justifique las respuestas, muestre los cálculos y exprese los resultados con unidades cuando corresponda. La puntuación máxima es de 10 puntos.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "enlace",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Un equipo que desarrolla materiales para sensores y sistemas de almacenamiento térmico compara distintas sustancias. Responda razonadamente: a. Se incorpora azufre, de número atómico $Z=16$, a un semiconductor. Escriba la configuración electrónica fundamental del átomo de azufre e indique su grupo y período en la tabla periódica. (Hasta 0,5 puntos) b. El etanol y el éter dimetílico tienen la misma fórmula molecular, $\\ce{C2H6O}$, pero sus temperaturas de ebullición a 1 atm son, respectivamente, $78\\,^{\\circ}\\mathrm{C}$ y $-25\\,^{\\circ}\\mathrm{C}$. Explique la diferencia en función de las fuerzas intermoleculares. (Hasta 0,5 puntos) c. Explique por qué un cable de cobre conduce la electricidad y una pieza de dióxido de silicio, $\\ce{SiO2}$, no lo hace en estado sólido. (Hasta 0,5 puntos) d. Para una reacción de una batería térmica se conocen $\\Delta H^{\\circ}=-40,0\\,\\mathrm{kJ\\,mol^{-1}}$ y $\\Delta S^{\\circ}=-100\\,\\mathrm{J\\,mol^{-1}\\,K^{-1}}$. Calcule $\\Delta G^{\\circ}$ a $298\\,\\mathrm{K}$ y determine si la reacción es espontánea en esas condiciones. (Hasta 0,5 puntos).",
+   "solucion": "### a) Configuración electrónica y posición del azufre\nEl azufre tiene $Z=16$, por lo que el átomo neutro tiene 16 electrones. Al distribuirlos siguiendo el orden de llenado se obtiene:\n\n$$1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^4$$\n\nLa capa de mayor número cuántico principal es $n=3$, así que pertenece al período 3. Tiene seis electrones de valencia ($3s^2 3p^4$), por lo que está en el grupo 16 (VIA).\n\n### b) Temperaturas de ebullición\nEn el etanol, las moléculas poseen enlaces $\\mathrm{O-H}$ y pueden formar enlaces de hidrógeno entre sí. Estas interacciones son relativamente intensas y requieren más energía para separar las moléculas al hervir. El éter dimetílico tiene interacciones dipolo-dipolo y de dispersión, pero no puede formar enlaces de hidrógeno entre sus propias moléculas porque no tiene un enlace $\\mathrm{O-H}$. Por ello, sus fuerzas intermoleculares son menos intensas y su temperatura de ebullición es mucho menor, pese a que ambas sustancias tienen fórmula molecular $\\mathrm{C_2H_6O}$.\n\n### c) Conductividad eléctrica\nEn el cobre sólido, el enlace metálico permite que haya electrones deslocalizados y móviles por la red; estos transportan carga cuando se aplica una diferencia de potencial. En el $\\mathrm{SiO_2}$ sólido, los átomos forman una red covalente tridimensional: los electrones están localizados en los enlaces y no hay portadores de carga móviles en condiciones ordinarias. Por eso el cobre conduce y el dióxido de silicio no lo hace en estado sólido.\n\n### d) Energía libre de Gibbs y espontaneidad\nPrimero se expresan las magnitudes en unidades coherentes:\n\n$$\\Delta S^\\circ=-100\\,\\mathrm{J\\,mol^{-1}\\,K^{-1}}=-0.100\\,\\mathrm{kJ\\,mol^{-1}\\,K^{-1}}$$\n\nA $298\\,\\mathrm{K}$:\n\n$$\\Delta G^\\circ=\\Delta H^\\circ-T\\Delta S^\\circ=-40.0-(298)(-0.100)=-10.2\\,\\mathrm{kJ\\,mol^{-1}}$$\n\nComo $\\Delta G^\\circ<0$, la reacción es espontánea en condiciones estándar a $298\\,\\mathrm{K}$.\n\nComprobación adicional mediante la temperatura de cambio de signo: $\\Delta G^\\circ=0$ cuando $T=\\Delta H^\\circ/\\Delta S^\\circ=400\\,\\mathrm{K}$. Como ambos valores son negativos, para $T<400\\,\\mathrm{K}$ se tiene $\\Delta G^\\circ<0$; por tanto, a $298\\,\\mathrm{K}$ el resultado es coherente.",
+   "resultado": "Azufre: configuración $1s^2 2s^2 2p^6 3s^2 3p^4$, grupo 16 y período 3. El etanol hierve a mayor temperatura por sus enlaces de hidrógeno. El cobre conduce por sus electrones deslocalizados; el $\\mathrm{SiO_2}$ sólido no tiene cargas móviles. $\\Delta G^\\circ(298\\,\\mathrm{K})=-10.2\\,\\mathrm{kJ\\,mol^{-1}}$: reacción espontánea.",
+   "criterios": "Total: 2,0 puntos. a) Hasta 0,5: 0,25 por la configuración electrónica correcta y 0,25 por grupo 16 y período 3. b) Hasta 0,5: 0,25 por atribuir al etanol la formación de enlaces de hidrógeno y 0,25 por explicar que el éter no los forma entre sus moléculas y relacionarlo con su menor temperatura de ebullición. c) Hasta 0,5: 0,25 por explicar la movilidad de electrones en el cobre y 0,25 por identificar la red covalente de $\\mathrm{SiO_2}$ y la ausencia de cargas móviles. d) Hasta 0,5: 0,15 por convertir correctamente las unidades de $\\Delta S^\\circ$, 0,20 por aplicar $\\Delta G^\\circ=\\Delta H^\\circ-T\\Delta S^\\circ$ y obtener $-10.2\\,\\mathrm{kJ\\,mol^{-1}}$, y 0,15 por concluir que es espontánea porque $\\Delta G^\\circ<0$.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "equilibrio",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En una prueba de un sistema de depuración de gases se estudia, a $500\\,\\mathrm{K}$, el equilibrio $\\ce{NO2(g) + CO(g) <=> NO(g) + CO2(g)}$. En un recipiente cerrado, las concentraciones iniciales de $\\ce{NO2}$ y $\\ce{CO}$ son ambas $0,200\\,\\mathrm{mol\\,L^{-1}}$ y no hay inicialmente productos. A esa temperatura, $K_c=1,00$. a. Calcule las concentraciones de las cuatro especies en el equilibrio. (Hasta 1,5 puntos) b. Calcule el porcentaje de $\\ce{NO2}$ que ha reaccionado al alcanzar el equilibrio. (Hasta 0,5 puntos).",
+   "solucion": "### a. Concentraciones en el equilibrio\n\nSea $x$ la concentración, en $\\mathrm{mol\\,L^{-1}}$, de $\\mathrm{NO_2}$ y $\\mathrm{CO}$ que reacciona. La estequiometría de la reacción es $1:1:1:1$:\n\n| Especie | Inicial | Cambio | Equilibrio |\n|---|---:|---:|---:|\n| $\\mathrm{NO_2}$ | $0{,}200$ | $-x$ | $0{,}200-x$ |\n| $\\mathrm{CO}$ | $0{,}200$ | $-x$ | $0{,}200-x$ |\n| $\\mathrm{NO}$ | $0$ | $+x$ | $x$ |\n| $\\mathrm{CO_2}$ | $0$ | $+x$ | $x$ |\n\nLa expresión de la constante es\n\n$$K_c=\\frac{[\\mathrm{NO}][\\mathrm{CO_2}]}{[\\mathrm{NO_2}][\\mathrm{CO}]}=\\frac{x^2}{(0{,}200-x)^2}=1{,}00.$$\n\nComo las concentraciones son positivas, $x=0{,}200-x$, de donde $x=0{,}100\\ \\mathrm{mol\\,L^{-1}}$. (La otra raíz de la ecuación al elevar al cuadrado no es físicamente admisible, pues excede la concentración inicial de los reactivos.) Por tanto:\n\n$$[\\mathrm{NO_2}]_{eq}=[\\mathrm{CO}]_{eq}=[\\mathrm{NO}]_{eq}=[\\mathrm{CO_2}]_{eq}=0{,}100\\ \\mathrm{mol\\,L^{-1}}.$$\n\n### b. Porcentaje de $\\mathrm{NO_2}$ que ha reaccionado\n\n$$\\%\\,\\mathrm{NO_2\\ reaccionado}=\\frac{0{,}100}{0{,}200}\\times100=50{,}0\\%.$$\n\n",
+   "resultado": "[NO₂]ₑq = [CO]ₑq = [NO]ₑq = [CO₂]ₑq = 0,100 mol·L⁻¹; porcentaje de NO₂ reaccionado = 50,0 %.",
+   "criterios": "Total: 2,0 puntos. a) Hasta 1,5 puntos: 0,5 por definir el avance x y expresar correctamente las concentraciones de equilibrio; 0,5 por plantear y resolver la expresión de Kc, seleccionando la raíz físicamente admisible; 0,5 por indicar las cuatro concentraciones de equilibrio con unidades. b) Hasta 0,5 puntos: cálculo correcto del porcentaje reaccionado respecto a la concentración inicial de NO₂ e indicación del resultado.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "acidobase",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Responda a una de las dos opciones, 3A o 3B, y a todas sus cuestiones. 3A. Una corriente acuosa contiene un ácido monoprótico débil, $\\ce{HA}$, de concentración inicial $0,100\\,\\mathrm{mol\\,L^{-1}}$. A $25\\,^{\\circ}\\mathrm{C}$, el ácido está disociado un $1,0\\,\\%$. Para el control de esta corriente se exige un pH no superior a $3,20$. Suponga despreciable la autoionización del agua. a. Calcule el pH e indique si la corriente cumple el límite establecido. (Hasta 0,7 puntos) b. Calcule la constante de ionización, $K_a$, del ácido. (Hasta 1,3 puntos). 3B. En un proceso de análisis químico, el ion permanganato reacciona con el ion oxalato en medio ácido según el esquema $\\ce{MnO4^- + C2O4^2- -> Mn^2+ + CO2}$. a. Ajuste la reacción por el método del ion-electrón e identifique el agente oxidante y el agente reductor. (Hasta 1,2 puntos) b. Calcule la masa de oxalato de sodio anhidro, $\\ce{Na2C2O4}$, necesaria para reaccionar completamente con $0,0100\\,\\mathrm{mol}$ de $\\ce{MnO4^-}$. Considere que el oxalato de sodio aporta cuantitativamente iones oxalato y use $M(\\ce{Na2C2O4})=134,0\\,\\mathrm{g\\,mol^{-1}}$. (Hasta 0,8 puntos).",
+   "solucion": "## Opción 3A\n\n### a) Cálculo del pH y comprobación del límite\n\nLa concentración inicial del ácido es $C_0=0{,}100\\,\\mathrm{mol\\,L^{-1}}$ y su grado de disociación es $\\alpha=1{,}0\\%=0{,}010$. Por tanto, la concentración de $\\mathrm{H_3O^+}$ formada es\n\n$$[\\mathrm{H_3O^+}]=C_0\\alpha=(0{,}100)(0{,}010)=1{,}00\\times10^{-3}\\,\\mathrm{mol\\,L^{-1}}.$$\n\nDespreciando la autoionización del agua,\n\n$$\\mathrm{pH}=-\\log[\\mathrm{H_3O^+}]=3{,}00.$$\n\nComo $3{,}00\\leq 3{,}20$, la corriente **cumple** el límite establecido.\n\n### b) Constante de ionización\n\nPara $\\mathrm{HA+H_2O\\rightleftharpoons H_3O^++A^-}$, las concentraciones en el equilibrio son $[\\mathrm{H_3O^+}]=[\\mathrm{A^-}]=x=1{,}00\\times10^{-3}\\,\\mathrm{mol\\,L^{-1}}$ y $[\\mathrm{HA}]=C_0-x=0{,}0990\\,\\mathrm{mol\\,L^{-1}}$. Así,\n\n$$K_a=\\frac{[\\mathrm{H_3O^+}][\\mathrm{A^-}]}{[\\mathrm{HA}]}=\\frac{x^2}{C_0-x}=\\frac{(1{,}00\\times10^{-3})^2}{0{,}0990}=1{,}01\\times10^{-5}.$$\n\nPor tanto, $\\boxed{\\mathrm{pH}=3{,}00}$ y $\\boxed{K_a=1{,}01\\times10^{-5}}$.",
+   "resultado": "pH = 3,00; la corriente cumple el límite; Ka = 1,01×10⁻⁵.",
+   "criterios": "a) Hasta 0,7 puntos: 0,4 por obtener [H₃O⁺] = 1,00×10⁻³ mol·L⁻¹ y calcular pH = 3,00; 0,3 por compararlo correctamente con 3,20 e indicar que cumple. b) Hasta 1,3 puntos: 0,6 por plantear correctamente la expresión de Ka y las concentraciones de equilibrio; 0,7 por obtener Ka = 1,01×10⁻⁵.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "cinetica",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En un estudio para optimizar un proceso de tratamiento de gases se mide la velocidad inicial de una reacción entre dos reactivos, designados $A$ y $B$, a temperatura constante. Se obtienen estos datos: experimento 1, $[A]_0=0,100\\,\\mathrm{mol\\,L^{-1}}$, $[B]_0=0,100\\,\\mathrm{mol\\,L^{-1}}$ y $v_0=2,0\\times10^{-3}\\,\\mathrm{mol\\,L^{-1}\\,s^{-1}}$; experimento 2, $[A]_0=0,200\\,\\mathrm{mol\\,L^{-1}}$, $[B]_0=0,100\\,\\mathrm{mol\\,L^{-1}}$ y $v_0=8,0\\times10^{-3}\\,\\mathrm{mol\\,L^{-1}\\,s^{-1}}$; experimento 3, $[A]_0=0,100\\,\\mathrm{mol\\,L^{-1}}$, $[B]_0=0,200\\,\\mathrm{mol\\,L^{-1}}$ y $v_0=4,0\\times10^{-3}\\,\\mathrm{mol\\,L^{-1}\\,s^{-1}}$. Responda a una de las dos opciones, 4A o 4B, y a todas sus cuestiones. 4A. a. Determine los órdenes parciales y escriba la ley de velocidad. (Hasta 0,8 puntos) b. Calcule la constante de velocidad e indique sus unidades. (Hasta 0,8 puntos) c. Determine por qué factor cambia la velocidad si se duplica $[A]$ y se reduce a la mitad $[B]$, manteniendo la temperatura constante. (Hasta 0,4 puntos). 4B. La fluorita, $\\ce{CaF2}$, se encuentra en contacto con agua a $25\\,^{\\circ}\\mathrm{C}$ y establece el equilibrio $\\ce{CaF2(s) <=> Ca^2+(aq) + 2F^-(aq)}$. Su producto de solubilidad es $K_{ps}=3,2\\times10^{-11}$. Suponga que no hay otros iones en la disolución. a. Escriba la expresión de $K_{ps}$. (Hasta 0,6 puntos) b. Calcule la solubilidad molar de la fluorita y la masa máxima que puede disolverse en $250\\,\\mathrm{L}$ de disolución saturada. Use $M(\\ce{CaF2})=78,0\\,\\mathrm{g\\,mol^{-1}}$. (Hasta 1,4 puntos).",
+   "solucion": "### 4A\n\n**a. Órdenes parciales y ley de velocidad**\n\nSe plantea la ley de velocidad $v_0=k[A]_0^m[B]_0^n$. Al comparar los experimentos 1 y 2, $[B]_0$ permanece constante y $[A]_0$ se duplica, mientras que la velocidad se cuadruplica:\n\n$$\\frac{v_2}{v_1}=\\left(\\frac{[A]_2}{[A]_1}\\right)^m \\quad\\Longrightarrow\\quad 4=2^m \\quad\\Longrightarrow\\quad m=2.$$\n\nAl comparar los experimentos 1 y 3, $[A]_0$ permanece constante y $[B]_0$ se duplica, mientras que la velocidad se duplica:\n\n$$\\frac{v_3}{v_1}=\\left(\\frac{[B]_3}{[B]_1}\\right)^n \\quad\\Longrightarrow\\quad 2=2^n \\quad\\Longrightarrow\\quad n=1.$$\n\nPor tanto, la reacción es de segundo orden respecto a $A$, de primer orden respecto a $B$ y de tercer orden global. La ley de velocidad es $v_0=k[A]_0^2[B]_0$.\n\n**b. Constante de velocidad**\n\nUsando los datos del experimento 1:\n\n$$k=\\frac{v_1}{[A]_1^2[B]_1}=\\frac{2,0\\times10^{-3}\\;\\mathrm{mol\\,L^{-1}\\,s^{-1}}}{(0,100\\;\\mathrm{mol\\,L^{-1}})^2(0,100\\;\\mathrm{mol\\,L^{-1}})}=2,0\\;\\mathrm{L^2\\,mol^{-2}\\,s^{-1}}.$$\n\nLas unidades se obtienen dividiendo las unidades de velocidad por las de concentración al cubo.\n\n**c. Cambio de velocidad**\n\nAl duplicar $[A]$ y reducir $[B]$ a la mitad, el cociente entre la nueva velocidad y la inicial es\n\n$$\\frac{v'}{v}=2^2\\left(\\frac{1}{2}\\right)^1=2.$$\n\nLa velocidad se duplica; cambia por un factor $2$.",
+   "resultado": "Órdenes: $A=2$, $B=1$; $v_0=k[A]_0^2[B]_0$; $k=2,0\\;\\mathrm{L^2\\,mol^{-2}\\,s^{-1}}$; la velocidad se duplica (factor 2).",
+   "criterios": "Total: 2,0 puntos. a) Hasta 0,8 puntos: 0,4 por determinar correctamente el orden respecto a A y 0,4 por el orden respecto a B y la ley de velocidad. b) Hasta 0,8 puntos: 0,5 por calcular correctamente k y 0,3 por indicar sus unidades correctas. c) Hasta 0,4 puntos: planteamiento del efecto de ambos cambios sobre la ley de velocidad y conclusión de que la velocidad cambia por un factor 2.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "organica",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Responda a una de las dos opciones, 5A o 5B, y a todas sus cuestiones. 5A. En un laboratorio se comparan compuestos orgánicos de fórmula molecular $\\ce{C4H8O2}$. a. Escriba las fórmulas semidesarrolladas y los nombres IUPAC del ácido monocarboxílico saturado de cadena lineal con esa fórmula y del éster que se obtiene al reaccionar ácido propanoico con metanol. Indique los grupos funcionales de ambos y el tipo de isomería que presentan entre sí. (Hasta 1,2 puntos) b. Escriba la ecuación de esterificación entre el ácido propanoico y el metanol, indicando que la reacción se realiza con catálisis ácida. (Hasta 0,8 puntos). 5B. El poliestireno empleado en algunos envases protectores se obtiene a partir de estireno, $\\ce{C6H5CH=CH2}$. Escriba la ecuación de polimerización mostrando la unidad repetitiva, nombre el monómero e indique si se trata de una polimerización de adición o de condensación y si se forma algún subproducto molecular. (Hasta 2 puntos).",
+   "solucion": "### Opción elegida: 5A\n\n**a. Identificación de los compuestos**\n\n1. Para un ácido monocarboxílico saturado y acíclico, la fórmula general es $\\mathrm{C_nH_{2n}O_2}$. Como hay cuatro átomos de carbono, $n=4$, y la cadena lineal tiene cuatro carbonos, incluido el del grupo carboxilo. Su fórmula semidesarrollada es $\\mathrm{CH_3-CH_2-CH_2-COOH}$ y su nombre IUPAC es **ácido butanoico**. Su grupo funcional es el **carboxilo** ($\\mathrm{-COOH}$).\n\n2. En el éster formado a partir del ácido propanoico y el metanol, la parte acilo aporta tres carbonos y el metanol aporta el grupo metilo. La fórmula semidesarrollada es $\\mathrm{CH_3-CH_2-COO-CH_3}$ y su nombre IUPAC es **propanoato de metilo**. Su grupo funcional es el **éster** ($\\mathrm{-COO-}$).\n\n3. Ambos compuestos tienen fórmula molecular $\\mathrm{C_4H_8O_2}$, pero presentan grupos funcionales distintos; por tanto, son **isómeros de función**.\n\n**b. Esterificación**\n\nLa ecuación, indicando la catálisis ácida, es:\n\n$$\\mathrm{CH_3CH_2COOH + CH_3OH \\underset{\\mathrm{cat.}\\ H^+}{\\rightleftharpoons} CH_3CH_2COOCH_3 + H_2O}$$\n\n**Comprobación:** cada compuesto orgánico obtenido tiene fórmula molecular $\\mathrm{C_4H_8O_2}$. Además, en la ecuación hay en ambos miembros cuatro átomos de carbono, diez de hidrógeno y tres de oxígeno; el $\\mathrm{H^+}$ actúa como catalizador y no se consume.",
+   "resultado": "Ácido butanoico: $\\mathrm{CH_3CH_2CH_2COOH}$; propanoato de metilo: $\\mathrm{CH_3CH_2COOCH_3}$; son isómeros de función. Esterificación: $\\mathrm{CH_3CH_2COOH + CH_3OH \\rightleftharpoons CH_3CH_2COOCH_3 + H_2O}$, catalizada por $\\mathrm{H^+}$.",
+   "criterios": "Total: 2,0 puntos. a) Hasta 1,2 puntos: 0,35 por la fórmula semidesarrollada y el nombre ácido butanoico; 0,35 por la fórmula semidesarrollada y el nombre propanoato de metilo; 0,25 por asignar correctamente los grupos funcionales; 0,25 por identificar y justificar la isomería de función. b) Hasta 0,8 puntos: 0,5 por escribir correctamente reactivos, éster y agua; 0,2 por indicar la catálisis ácida y el carácter de equilibrio de la esterificación; 0,1 por presentar una ecuación ajustada.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "cinetica",
+   "p": 0.693
+  },
+  {
+   "id": "equilibrio",
+   "p": 0.693
+  },
+  {
+   "id": "acidobase",
+   "p": 0.693
+  },
+  {
+   "id": "redox",
+   "p": 0.693
+  },
+  {
+   "id": "organica",
+   "p": 0.693
+  },
+  {
+   "id": "estructura",
+   "p": 0.45
+  }
+ ],
+ "referencias": [
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0.ficheros/1810851-Modelo%200%20Qu%C3%ADmica.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/guias-calificacion-pau-2026.ficheros/1815909-Gu%C3%ADa%20Calificaci%C3%B3n%20Qu%C3%ADmica%20.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2025-b5f5f/guias-calificacion-pau-2025.ficheros/1768187-Gu%C3%ADa%20calificaci%C3%B3n%20Qu%C3%ADmica.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/guias-calificacion-pau-2026.ficheros/1815909-Gu%C3%ADa%20Calificaci%C3%B3n%20Qu%C3%ADmica%20.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0.ficheros/1810851-Modelo%200%20Qu%C3%ADmica.pdf"
+ ]
+}
