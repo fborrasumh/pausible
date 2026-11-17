@@ -1,0 +1,130 @@
+{
+ "ccaa": "castillaleon",
+ "materia": "matematicas2",
+ "titulo": "Prueba de Acceso a la Universidad 2027 · Castilla y León · Matemáticas II",
+ "duracion_min": 90,
+ "instrucciones": "La prueba consta de cuatro apartados. En los apartados 1, 3 y 4 elige y resuelve exactamente uno de los dos problemas propuestos; el apartado 2 es obligatorio. Cada problema vale 2,5 puntos, para un total de 10 puntos. Justifica los procedimientos y expresa los resultados con rigor y notación matemática adecuada.",
+ "preguntas": [
+  {
+   "n": "1A",
+   "tema": "sistemas",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "En el ajuste de tres coeficientes de compensación de un sistema, se obtiene el siguiente sistema, dependiente del parámetro real $a$:\n$$\\begin{cases}x+y+z=1,\\\\x+ay+z=a,\\\\x+y+az=2.\\end{cases}$$\na) Discute el sistema según los valores de $a$. (1,5 puntos)\nb) Resuélvelo para $a=2$. (1 punto)",
+   "solucion": "### a) Discusión del sistema\n\nLa matriz de coeficientes es $A=\\begin{pmatrix}1&1&1\\\\1&a&1\\\\1&1&a\\end{pmatrix}$ y su determinante vale $\\det(A)=(a-1)^2$.\n\n- Si $a\\ne1$, el determinante es distinto de cero y el sistema tiene solución única. Restando la primera ecuación de la segunda y de la tercera, respectivamente, se obtiene $(a-1)y=a-1$ y $(a-1)z=1$. Por tanto, $y=1$ y $z=\\frac{1}{a-1}$. Sustituyendo en la primera ecuación, $x=1-y-z=-\\frac{1}{a-1}$. La solución es $\\left(-\\frac{1}{a-1},1,\\frac{1}{a-1}\\right)$.\n- Si $a=1$, la primera y la segunda ecuación son $x+y+z=1$, mientras que la tercera es $x+y+z=2$. Hay contradicción, así que el sistema es incompatible.\n\n### b) Caso $a=2$\n\nSustituyendo $a=2$ en la solución obtenida para $a\\ne1$, resulta $(x,y,z)=(-1,1,1)$. Comprobación: $-1+1+1=1$, $-1+2\\cdot1+1=2$ y $-1+1+2\\cdot1=2$.",
+   "resultado": "Para $a=1$, el sistema es incompatible; para $a\\ne1$, es compatible determinado y $(x,y,z)=\\left(-\\frac{1}{a-1},1,\\frac{1}{a-1}\\right)$. Para $a=2$: $(x,y,z)=(-1,1,1)$.",
+   "criterios": "Total: 2,5 puntos. a) 1,5 puntos: cálculo del determinante y reconocimiento del caso regular ($a\\ne1$), 0,5; análisis de $a=1$ y justificación de que es incompatible, 0,5; obtención de la solución general para $a\\ne1$, 0,5. b) 1 punto: sustitución de $a=2$ para obtener $(-1,1,1)$, 0,75; comprobación en el sistema, 0,25.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "1B",
+   "tema": "matrices",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "En un sistema de calibración, las matrices representan transformaciones de señales. Sean\n$$A=\\begin{pmatrix}2&1\\\\1&1\\end{pmatrix},\\qquad B=\\begin{pmatrix}1&0\\\\-1&2\\end{pmatrix},\\qquad C=\\begin{pmatrix}4&3\\\\1&5\\end{pmatrix}.$$\na) Calcula la matriz $X$ que verifica $AX+B=C$. (1,5 puntos)\nb) Sea $M$ una matriz cuadrada de orden $3$ tal que $|M|=4$. Calcula $|3M|$ y $|M^{-1}|$. (1 punto)",
+   "solucion": "### a) Cálculo de $X$\n\nDe $AX+B=C$, restamos $B$ y multiplicamos por $A^{-1}$:\n\n$$X=A^{-1}(C-B).$$\n\nCalculamos:\n\n$$C-B=\\begin{pmatrix}4&3\\\\1&5\\end{pmatrix}-\\begin{pmatrix}1&0\\\\-1&2\\end{pmatrix}=\\begin{pmatrix}3&3\\\\2&3\\end{pmatrix}.$$\n\nComo $|A|=2\\cdot1-1\\cdot1=1$, se tiene\n\n$$A^{-1}=\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}.$$\n\nPor tanto,\n\n$$X=\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}\\begin{pmatrix}3&3\\\\2&3\\end{pmatrix}=\\begin{pmatrix}1&0\\\\1&3\\end{pmatrix}.$$\n\n### b) Determinantes\n\nPara una matriz de orden $3$, $|3M|=3^3|M|$. Luego,\n\n$$|3M|=27\\cdot4=108.$$\n\nAdemás, $|M^{-1}|=\\dfrac{1}{|M|}$, de modo que\n\n$$|M^{-1}|=\\frac14.$$\n\n",
+   "resultado": "a) $X=\\begin{pmatrix}1&0\\\\1&3\\end{pmatrix}$. b) $|3M|=108$ y $|M^{-1}|=\\frac14$.",
+   "criterios": "a) 1,5 puntos: plantear correctamente $X=A^{-1}(C-B)$ (0,3); calcular $C-B$ (0,3); obtener correctamente $A^{-1}$ (0,3); realizar correctamente el producto y dar $X$ (0,6). b) 1 punto: aplicar $|3M|=3^3|M|$ y obtener 108 (0,5); aplicar $|M^{-1}|=1/|M|$ y obtener $1/4$ (0,5).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "derivadas",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "a) Durante la calibración de una sonda, su lectura viene dada por $f(t)=\\dfrac{t^2-9}{t-3}$ para $t\\ne 3$, y por $f(3)=k$. Determina el valor de $k$ para que $f$ sea continua en $t=3$, justificando la respuesta mediante el límite correspondiente. (0,5 puntos)\nb) Un recinto rectangular se construye junto a un muro, que forma uno de sus lados y no necesita vallado. Se dispone de $40$ metros de valla para los otros tres lados. Determina las dimensiones que hacen máxima el área del recinto y justifica que se trata de un máximo. (1 punto)\nc) La sección transversal de una marquesina se modeliza, en metros, mediante la curva $y=6x-2x^2$ para $0\\le x\\le 3$. Calcula el área comprendida entre la curva y el eje de abscisas en ese intervalo. (1 punto)",
+   "solucion": "### a) Continuidad en $t=3$\nPara que $f$ sea continua en $t=3$, debe cumplirse $k=\\lim_{t\\to 3}f(t)$. Para $t\\ne 3$,\n$$f(t)=\\frac{t^2-9}{t-3}=\\frac{(t-3)(t+3)}{t-3}=t+3.$$\nPor tanto, $\\lim_{t\\to 3}f(t)=6$, y el valor requerido es $k=6$.\n\n### b) Área máxima del recinto\nSea $x$ la anchura perpendicular al muro y $y$ la longitud paralela a él. La valla cubre dos anchuras y una longitud, de modo que $2x+y=40$, con $0\\le x\\le 20$. El área es\n$$A(x)=xy=x(40-2x)=-2x^2+40x=-2(x-10)^2+200.$$\nComo $(x-10)^2\\ge 0$, se tiene $A(x)\\le 200$, con igualdad cuando $x=10$. Entonces $y=40-2(10)=20$. El máximo se alcanza, por tanto, con $10$ m de anchura perpendicular al muro y $20$ m de longitud paralela al muro. Esta justificación por completar el cuadrado prueba directamente que es un máximo.\n\n### c) Área bajo la curva\nEn $0\\le x\\le 3$, $y=x(6-2x)\\ge 0$, así que el área pedida es la integral de la función:\n$$\\int_0^3(6x-2x^2)\\,dx=\\left[3x^2-\\frac{2}{3}x^3\\right]_0^3=27-18=9\\text{ m}^2.$$\n\n### Comprobación\nEn a), el valor asignado coincide con el límite y, por tanto, garantiza continuidad. En b), las dimensiones cumplen $2(10)+20=40$ y dan área $10\\cdot20=200\\text{ m}^2$, que alcanza la cota obtenida. En c), la curva no es negativa en el intervalo y la integral resulta $9\\text{ m}^2$.",
+   "resultado": "a) $k=6$; b) dimensiones $10$ m y $20$ m, área máxima $200$ m²; c) área $9$ m².",
+   "criterios": "Total: 2,5 puntos. a) 0,5 puntos: 0,2 por plantear la condición de continuidad y el límite; 0,2 por simplificar correctamente mediante factorización; 0,1 por concluir $k=6$. b) 1 punto: 0,25 por definir las dimensiones y plantear $2x+y=40$; 0,35 por expresar el área en función de una variable y completar el cuadrado correctamente; 0,25 por obtener las dimensiones $10$ m y $20$ m; 0,15 por justificar que se trata de un máximo. c) 1 punto: 0,2 por identificar correctamente el área con la integral; 0,5 por calcular una primitiva; 0,3 por evaluar en los extremos y dar el resultado con unidades.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3A",
+   "tema": "geometria",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Una guía recta de un dispositivo está contenida en la recta $r$, dada por $x=t$, $y=0$, $z=t$, y una plataforma se encuentra en el plano $\\pi$, de ecuación $x+2y+2z=3$.\na) Estudia la posición relativa de $r$ y $\\pi$ y, si se cortan, calcula el punto de intersección. (1 punto)\nb) Calcula el punto simétrico del origen respecto del plano $\\pi$. (1 punto)\nc) Halla el ángulo agudo que forman la recta $r$ y el plano $\\pi$. (0,5 puntos)",
+   "solucion": "**a) Posición relativa e intersección.** La recta tiene vector director $\\vec v=(1,0,1)$ y el plano tiene vector normal $\\vec n=(1,2,2)$. Como $\\vec v\\cdot\\vec n=3\\ne 0$, la recta no es paralela al plano y, por tanto, lo corta en un único punto. Sustituyendo $(x,y,z)=(t,0,t)$ en la ecuación del plano:\n$$t+2\\cdot 0+2t=3\\quad\\Longrightarrow\\quad t=1.$$\nAsí, el punto de intersección es $P=(1,0,1)$.\n\n**b) Simétrico del origen respecto del plano.** Sea $H$ la proyección ortogonal del origen sobre el plano. La recta normal al plano que pasa por el origen se parametriza como $(x,y,z)=\\lambda(1,2,2)$. Al imponer que pertenezca al plano:\n$$\\lambda+2(2\\lambda)+2(2\\lambda)=3\\quad\\Longrightarrow\\quad 9\\lambda=3\\quad\\Longrightarrow\\quad \\lambda=\\frac13.$$\nPor tanto, $H=\\left(\\frac13,\\frac23,\\frac23\\right)$. Como $H$ es el punto medio entre el origen $O$ y su simétrico $O'$, se tiene $O'=2H-O$, luego\n$$O'=\\left(\\frac23,\\frac43,\\frac43\\right).$$\nComprobación: $H$ pertenece al plano, pues $\\frac13+2\\frac23+2\\frac23=3$, y es el punto medio de $O$ y $O'$.\n\n**c) Ángulo agudo entre la recta y el plano.** Si $\\theta$ es dicho ángulo, entonces $\\sin\\theta=\\frac{|\\vec v\\cdot\\vec n|}{\\|\\vec v\\|\\,\\|\\vec n\\|}$. Así,\n$$\\sin\\theta=\\frac{3}{\\sqrt2\\cdot 3}=\\frac1{\\sqrt2},\\qquad \\theta=45^\\circ.$$\nComprobación adicional: $\\vec v\\cdot\\vec n\\ne0$ confirma que la recta no es paralela al plano, coherente con el ángulo obtenido.",
+   "resultado": "Intersección: $(1,0,1)$; simétrico del origen: $\\left(\\frac23,\\frac43,\\frac43\\right)$; ángulo: $45^\\circ$.",
+   "criterios": "a) 1,0 punto: 0,4 por justificar que la recta no es paralela al plano (por ejemplo, con el producto escalar del vector director y el normal); 0,4 por sustituir la parametrización en el plano y obtener $t=1$; 0,2 por expresar correctamente el punto de corte. b) 1,0 punto: 0,4 por plantear la perpendicular al plano que pasa por el origen; 0,3 por hallar su intersección con el plano; 0,3 por aplicar la propiedad del punto medio y obtener el simétrico. c) 0,5 puntos: 0,2 por plantear la relación entre el ángulo recta-plano y los vectores director y normal; 0,2 por calcular el seno del ángulo; 0,1 por dar $45^\\circ$.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3B",
+   "tema": "geometria",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Los puntos $A(1,1,0)$, $B(3,2,1)$ y $C(4,4,1)$ son vértices consecutivos de un panel con forma de paralelogramo $ABCD$.\na) Calcula el área del paralelogramo. (1 punto)\nb) Determina la ecuación general del plano que contiene al panel. (1 punto)\nc) Calcula las coordenadas del vértice $D$. (0,5 puntos)",
+   "solucion": "### a) Área del paralelogramo\n\nTomamos dos lados consecutivos:\n$$\\overrightarrow{AB}=B-A=(2,1,1),\\qquad \\overrightarrow{BC}=C-B=(1,2,0).$$\nEl área es el módulo de su producto vectorial:\n$$\\overrightarrow{AB}\\times\\overrightarrow{BC}=(-2,1,3),$$\n$$\\text{Área}=\\left\\|\\overrightarrow{AB}\\times\\overrightarrow{BC}\\right\\|=\\sqrt{(-2)^2+1^2+3^2}=\\sqrt{14}.$$\n\n### b) Plano del panel\n\nUn vector normal al plano es $\\vec n=(-2,1,3)$. Usando que el plano pasa por $A(1,1,0)$:\n$$-2(x-1)+(y-1)+3z=0,$$\npor tanto, una ecuación general es\n$$-2x+y+3z+1=0.$$\n\n### c) Vértice $D$\n\nEn un paralelogramo, $\\overrightarrow{AD}=\\overrightarrow{BC}$, de modo que\n$$D=A+C-B=(1,1,0)+(4,4,1)-(3,2,1)=(2,3,0).$$",
+   "resultado": "Área: $\\sqrt{14}$. Plano: $-2x+y+3z+1=0$. Vértice: $D=(2,3,0)$.",
+   "criterios": "a) 1 punto: 0,25 por identificar dos vectores de lados consecutivos; 0,50 por calcular correctamente su producto vectorial; 0,25 por obtener el módulo y el área $\\sqrt{14}$. b) 1 punto: 0,50 por hallar un vector normal al plano; 0,50 por usar un punto del plano y escribir la ecuación general correcta. c) 0,5 puntos: 0,25 por aplicar correctamente la relación de los vértices de un paralelogramo; 0,25 por obtener $D=(2,3,0)$.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4A",
+   "tema": "probabilidad",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "El grosor de las placas fabricadas por una máquina sigue una distribución normal de media $20$ mm y desviación típica $0,2$ mm.\na) De un lote de $500$ placas, estima cuántas tendrán un grosor entre $19,8$ mm y $20,2$ mm. (1,25 puntos)\nb) Se fija un límite superior de grosor de modo que el $97,72\\%$ de las placas no lo supere. Calcula dicho límite. (1,25 puntos)",
+   "solucion": "Sea $X$ el grosor de una placa. Según el enunciado, $X\\sim N(20,0.2)$, donde la desviación típica es $0.2$ mm.\n\n**a)** Estandarizamos los extremos del intervalo:\n\n$z_1=(19.8-20)/0.2=-1$, $z_2=(20.2-20)/0.2=1$.\n\nPor tanto, $P(19.8<X<20.2)=P(-1<Z<1)\\approx 0.6827$, con $Z\\sim N(0,1)$. El número esperado de placas es\n\n$500\\cdot 0.6827\\approx 341.35$.\n\nSe estima que tendrán ese grosor **unas 341 placas**.\n\n**b)** Buscamos el cuantil de orden $0.9772$ de la normal tipificada. De la tabla de la normal, $P(Z\\leq 2.00)\\approx 0.9772$. Así, el límite superior es\n\n$x=20+2.00\\cdot 0.2=20.4$ mm.\n\n**Límite: $20.4$ mm.**",
+   "resultado": "a) Aproximadamente 341 placas; b) límite superior: 20,4 mm.",
+   "criterios": "Total: 2,5 puntos. a) 0,25 por estandarizar correctamente los extremos; 0,50 por obtener la probabilidad entre ellos; 0,50 por multiplicarla por 500 e interpretar el resultado como una estimación de unas 341 placas. b) 0,50 por identificar el cuantil tipificado correspondiente a 0,9772; 0,50 por deshacer la tipificación y calcular el límite; 0,25 por expresar correctamente el resultado con unidades y redondeo.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4B",
+   "tema": "probabilidad",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una fábrica produce componentes en dos líneas: la línea $A$ fabrica el $55\\%$ de la producción y la línea $B$ el resto. El $2\\%$ de los componentes de la línea $A$ y el $6\\%$ de los de la línea $B$ presentan un defecto.\na) Define los sucesos y expresa con notación probabilística los datos del enunciado. (0,5 puntos)\nb) Calcula la probabilidad de que un componente elegido al azar tenga un defecto. (0,75 puntos)\nc) Calcula la probabilidad de que un componente sea de la línea $B$ y tenga un defecto. (0,5 puntos)\nd) Si un componente elegido al azar tiene un defecto, calcula la probabilidad de que proceda de la línea $B$. (0,75 puntos)",
+   "solucion": "### a) Definición de sucesos y datos\n\nSean $A$: «el componente procede de la línea $A$», $B$: «el componente procede de la línea $B$» y $D$: «el componente presenta un defecto». Las líneas son exhaustivas y mutuamente excluyentes. Los datos son:\n\n$$P(A)=0.55,\\qquad P(B)=0.45,\\qquad P(D\\mid A)=0.02,\\qquad P(D\\mid B)=0.06.$$\n\n### b) Probabilidad de que el componente tenga un defecto\n\nPor la ley de la probabilidad total:\n\n$$\\begin{aligned}\nP(D)&=P(D\\mid A)P(A)+P(D\\mid B)P(B)\\\\\n&=0.02\\cdot 0.55+0.06\\cdot 0.45\\\\\n&=0.011+0.027=0.038.\n\\end{aligned}$$\n\nPor tanto, la probabilidad es $0.038$, es decir, $3.8\\%$.\n\n### c) Probabilidad de que sea de la línea $B$ y tenga un defecto\n\n$$P(B\\cap D)=P(D\\mid B)P(B)=0.06\\cdot 0.45=0.027.$$\n\n### d) Probabilidad de que proceda de la línea $B$, sabiendo que tiene un defecto\n\nAplicamos la definición de probabilidad condicionada:\n\n$$\\begin{aligned}\nP(B\\mid D)&=\\frac{P(B\\cap D)}{P(D)}\\\\\n&=\\frac{0.027}{0.038}=\\frac{27}{38}\\approx 0.710526.\n\\end{aligned}$$\n\nLa probabilidad pedida es $\\frac{27}{38}\\approx 0.710526$, aproximadamente un $71.05\\%$.",
+   "resultado": "P(D)=0.038; P(B∩D)=0.027; P(B|D)=27/38≈0.710526.",
+   "criterios": "a) 0,5 puntos: 0,2 por definir correctamente los sucesos y señalar que las líneas son exhaustivas y excluyentes; 0,3 por expresar correctamente las probabilidades dadas. b) 0,75 puntos: 0,35 por plantear la ley de la probabilidad total; 0,25 por sustituir y operar correctamente; 0,15 por indicar el resultado. c) 0,5 puntos: 0,25 por expresar la intersección mediante la probabilidad condicionada; 0,25 por obtener el valor correcto. d) 0,75 puntos: 0,3 por plantear correctamente la probabilidad condicionada; 0,25 por sustituir los valores adecuados; 0,2 por obtener e indicar el resultado.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "matrices",
+   "p": 0.693
+  },
+  {
+   "id": "sistemas",
+   "p": 0.693
+  },
+  {
+   "id": "geometria",
+   "p": 0.693
+  },
+  {
+   "id": "limites",
+   "p": 0.693
+  },
+  {
+   "id": "integrales",
+   "p": 0.693
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.693
+  }
+ ],
+ "referencias": [
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0.ficheros/1810840-Modelo%200%20Matem%C3%A1ticas%20II.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/guias-calificacion-pau-2026.ficheros/1815907-Gu%C3%ADa%20Calificaci%C3%B3n%20Matem%C3%A1ticas%20II%20.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2025-b5f5f/estructura-examen-orientativa-criterios-correccion/estructura-examen-orientativa-criterios-correccion.ficheros/1741765-Estructura%20de%20examen%20y%20criterios%20de%20correcci%C3%B3n%20MATEM%C3%81TICAS%20II.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2025-b5f5f/guias-calificacion-pau-2025.ficheros/1768185-Gu%C3%ADa%20calificaci%C3%B3n%20Matem%C3%A1ticas%20II.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/guias-calificacion-pau-2026.ficheros/1815907-Gu%C3%ADa%20Calificaci%C3%B3n%20Matem%C3%A1ticas%20II%20.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0.ficheros/1810840-Modelo%200%20Matem%C3%A1ticas%20II.pdf"
+ ]
+}
