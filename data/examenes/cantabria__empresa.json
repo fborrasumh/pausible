@@ -1,0 +1,96 @@
+{
+ "ccaa": "cantabria",
+ "materia": "empresa",
+ "titulo": "Propuesta original de examen PAU 2027 de Cantabria — Empresa y Diseño de Modelos de Negocio",
+ "duracion_min": 90,
+ "instrucciones": "El ejercicio consta de 4 apartados, con una puntuación total de 10 puntos. Los apartados 1 y 3 valen 2 puntos cada uno; los apartados 2 y 4, 3 puntos cada uno. En el apartado 1 es obligatorio realizar la tarea inicial y elegir una de las dos tareas alternativas. En el apartado 2 deben realizarse todas las tareas. En el apartado 3 es obligatorio realizar la tarea inicial y elegir una de las dos alternativas. En el apartado 4 debe elegirse una opción y responder a todas sus tareas. Si se responden más tareas u opciones de las necesarias, se corregirán únicamente las primeras según el orden en que aparezcan en el cuadernillo. Justifique los cálculos e indique las unidades cuando proceda.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "contabilidad",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "APARTADO 1 [2 puntos]. BALANCE Y ANÁLISIS FINANCIERO. La empresa cántabra Nansa Mobiliario, dedicada a fabricar muebles con madera recuperada, presenta al cierre del ejercicio las siguientes partidas, en euros: activo no corriente, 180.000; activo corriente, 120.000; patrimonio neto, 100.000; pasivo no corriente, 120.000; pasivo corriente, 80.000. Tarea 1 [1 punto]. Calcule el fondo de maniobra mediante la expresión $FM=AC-PC$ e indique si es positivo o negativo. A continuación, elija y responda solo a UNA de estas tareas: Tarea 1.1 [1 punto]. Calcule la ratio de liquidez corriente, definida como $AC/PC$, e interprete brevemente el resultado. Tarea 1.2 [1 punto]. Calcule la ratio de endeudamiento, definida aquí como $(PNC+PC)/Activo\\ total$, e indique qué proporción del activo está financiada por deuda.",
+   "solucion": "### Tarea 1. Fondo de maniobra\n\nSe aplica la expresión indicada:\n\n$$FM=AC-PC=120.000-80.000=40.000\\text{ €}$$\n\nEl fondo de maniobra es **positivo**.\n\n### Tarea 1.1. Ratio de liquidez corriente\n\n$$\\text{Ratio de liquidez} = \\frac{AC}{PC} = \\frac{120.000}{80.000}=1,5$$\n\nLa empresa dispone de **1,50 € de activo corriente por cada euro de pasivo corriente**. La ratio es superior a 1, por lo que, en principio, puede hacer frente a sus deudas a corto plazo con sus activos corrientes.",
+   "resultado": "FM = 40.000 € (positivo); ratio de liquidez corriente = 1,5.",
+   "criterios": "Tarea 1 (1 punto): aplicación de FM = AC − PC (0,25); sustitución correcta de los datos (0,25); resultado de 40.000 € (0,25); identificación como positivo (0,25). Tarea 1.1 (1 punto): planteamiento y cálculo correcto de AC/PC (0,5); interpretación coherente, indicando que hay 1,50 € de activo corriente por cada euro de pasivo corriente y que la ratio supera 1 (0,5).",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "2",
+   "tema": "financiacion",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "APARTADO 2 [3 puntos]. INVERSIÓN Y FINANCIACIÓN. Una cooperativa que transforma algas en envases compostables debe elegir entre dos proyectos, ambos con una duración de tres años. El proyecto A requiere un desembolso inicial de 3.000 euros y genera flujos netos de caja de 1.100 euros el primer año, 1.210 euros el segundo y 1.331 euros el tercero. El proyecto B requiere un desembolso inicial de 3.000 euros y genera flujos netos de caja de 1.000 euros, 2.000 euros y 1.000 euros, respectivamente. El coste de capital anual es del 10 %. Considere viable un proyecto si su VAN es igual o superior a cero. Tarea 2.1 [1,5 puntos]. Calcule el VAN de cada proyecto, indique cuáles son viables y justifique cuál elegiría la cooperativa. Tarea 2.2 [1,5 puntos]. Calcule el plazo de recuperación simple del proyecto B. No descuente los flujos de caja para este cálculo.",
+   "solucion": "### Tarea 2.1. VAN, viabilidad y elección\n\nEl VAN se calcula descontando cada flujo neto de caja al coste de capital y restando el desembolso inicial:\n\n$VAN=-I_0+\\sum_{t=1}^{n}\\frac{FNC_t}{(1+k)^t}$, con $k=0,10$.\n\n**Proyecto A**\n\n$VAN_A=-3.000+\\frac{1.100}{1,10}+\\frac{1.210}{1,10^2}+\\frac{1.331}{1,10^3}$\n\n$VAN_A=-3.000+1.000+1.000+1.000=0\\ €$.\n\n**Proyecto B**\n\n$VAN_B=-3.000+\\frac{1.000}{1,10}+\\frac{2.000}{1,10^2}+\\frac{1.000}{1,10^3}$\n\n$VAN_B\\approx-3.000+909,09+1.652,89+751,31=313,30\\ €$.\n\nLos dos proyectos son viables, pues sus VAN son iguales o superiores a cero. La cooperativa elegiría el **proyecto B**, porque, con igual desembolso inicial y duración, obtiene un VAN mayor.\n\n### Tarea 2.2. Plazo de recuperación simple del proyecto B\n\nNo se descuentan los flujos. Al final del primer año se han recuperado $1.000\\ €$ y quedan $2.000\\ €$ por recuperar. El flujo del segundo año es precisamente de $2.000\\ €$, por lo que la inversión queda recuperada al final de ese año.\n\n$Plazo\\ de\\ recuperación=1+\\frac{3.000-1.000}{2.000}=2\\ años$.",
+   "resultado": "VAN(A) = 0 €; VAN(B) ≈ 313,30 €; ambos proyectos son viables y se elige B; plazo de recuperación simple de B = 2 años.",
+   "criterios": "Tarea 2.1 (1,5 puntos): planteamiento correcto del VAN y descuento de los flujos (0,5); cálculo de los VAN de A y B (0,25 por cada uno); determinación de la viabilidad conforme al criterio VAN ≥ 0 (0,25); elección de B justificada por su mayor VAN (0,25). Tarea 2.2 (1,5 puntos): acumulación correcta de los flujos sin descontar (0,75); identificación y cálculo del momento en que se recupera el desembolso (0,5); expresión del resultado en años y respeto de la indicación de no descontar (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "modelonegocio",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "APARTADO 3 [2 puntos]. MODELO DE NEGOCIO, MARKETING Y ORGANIZACIÓN. ReBici es una empresa de Santander que repara y reacondiciona bicicletas. Sus clientes pueden reservar desde una aplicación la recogida de su bicicleta en casa o en el trabajo; tras la reparación, la empresa la devuelve en el mismo lugar. ReBici se dirige especialmente a personas que usan la bicicleta para desplazarse por la ciudad y a pequeños negocios de reparto. Su propuesta consiste en ofrecer reparaciones cómodas, con precios anunciados antes de la recogida y reutilización de piezas siempre que sea posible. Tarea 3.1 [1 punto]. Identifique los dos segmentos de clientes descritos y explique cuál es la propuesta de valor de ReBici para ellos. A continuación, elija y responda solo a UNA de estas tareas: Tarea 3.2.1 [1 punto]. ReBici ofrece un descuento de 10 euros en la primera reparación y paga anuncios patrocinados en redes sociales locales. Identifique la variable del marketing mix a la que corresponde cada acción. Tarea 3.2.2 [1 punto]. La empresa asigna a sus trabajadores de forma estable a las áreas de operaciones, atención al cliente y administración, y cada área informa a la gerencia. Identifique el tipo de estructura organizativa descrita y señale una ventaja de organizarse de ese modo.",
+   "solucion": "### Tarea 3.1\n\nLos dos segmentos de clientes son:\n1. **Personas que utilizan la bicicleta para desplazarse por la ciudad.**\n2. **Pequeños negocios de reparto** que utilizan bicicletas.\n\nLa **propuesta de valor** consiste en reparar y reacondicionar bicicletas con un servicio cómodo de recogida y devolución en casa o en el trabajo, reservable mediante una aplicación. Además, ReBici anuncia el precio antes de recoger la bicicleta y reutiliza piezas siempre que sea posible.\n\n### Tarea 3.2.1 (elegida)\n\n- El descuento de 10 euros en la primera reparación corresponde a la variable **precio** del marketing mix.\n- Los anuncios patrocinados en redes sociales locales corresponden a la variable **promoción o comunicación**, concretamente a la publicidad.",
+   "resultado": "Segmentos: usuarios urbanos de bicicletas y pequeños negocios de reparto. Propuesta de valor: reparación cómoda, precios conocidos de antemano y reutilización de piezas. Descuento: precio; anuncios patrocinados: promoción/publicidad.",
+   "criterios": "Total: 2 puntos. Tarea 3.1: 1 punto, hasta 0,5 por identificar los dos segmentos y hasta 0,5 por explicar la propuesta de valor con sus elementos principales. Tarea 3.2.1: 1 punto, 0,5 por clasificar el descuento en la variable precio y 0,5 por clasificar los anuncios patrocinados en promoción/comunicación (publicidad). Se responde únicamente a la tarea 3.2.1.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "produccion",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "APARTADO 4 [3 puntos]. PRODUCCIÓN, COSTES Y UMBRAL DE RENTABILIDAD. El estudiantado debe elegir UNA de las dos opciones y responder a todas las tareas de la opción elegida. Opción 1. Una empresa fabrica recipientes térmicos reutilizables. Cada unidad se vende a 50 euros, el coste variable unitario es de 30 euros, los costes fijos anuales ascienden a 60.000 euros y se prevé vender 4.000 unidades. Tarea 4.1.1 [1,5 puntos]. Calcule el umbral de rentabilidad en unidades y el beneficio previsto para las ventas estimadas. Tarea 4.1.2 [1,5 puntos]. Los costes fijos aumentan un 10 % y el coste variable unitario también aumenta un 10 %. Si se mantiene la venta de 4.000 unidades, calcule el nuevo precio unitario que permitiría conservar el beneficio previsto en la tarea anterior y exprese el aumento porcentual respecto al precio inicial. Opción 2. Una empresa elabora barritas de miel. El precio de venta unitario es de 8 euros, el coste variable unitario es de 5 euros y los costes fijos son de 18.000 euros. La demanda prevista es de 8.000 unidades. Tarea 4.2.1 [1,5 puntos]. Calcule el umbral de rentabilidad en unidades y el beneficio previsto con la demanda estimada. Tarea 4.2.2 [1,5 puntos]. La empresa eleva el precio a 10 euros y, como consecuencia, la demanda se reduce un 25 % respecto a la previsión inicial. Los costes no cambian. Calcule el nuevo umbral de rentabilidad y el nuevo beneficio, y exprese en porcentaje la variación de ambos respecto a la situación inicial.",
+   "solucion": "### Opción 1\n\n#### Tarea 4.1.1\n\nEl margen de contribución unitario es el precio de venta menos el coste variable unitario:\n\n$50-30=20$ € por unidad.\n\nEl umbral de rentabilidad se obtiene dividiendo los costes fijos entre el margen de contribución unitario:\n\n$Q^*=60000/(50-30)=3000$ unidades.\n\nEl beneficio previsto para 4.000 unidades es:\n\n$B=(50-30)·4000-60000=20000$ €.\n\n#### Tarea 4.1.2\n\nLos nuevos costes son:\n\n$CF'=60000·1.10=66000$ €.\n\n$CVu'=30·1.10=33$ € por unidad.\n\nPara conservar el beneficio anterior de 20.000 €, se plantea la ecuación del beneficio con las ventas previstas de 4.000 unidades:\n\n$P·4000-33·4000-66000=20000$.\n\nDespejando el nuevo precio:\n\n$P=(20000+33·4000+66000)/4000=54.5$ € por unidad.\n\nEl aumento porcentual respecto al precio inicial es:\n\n$((54.5-50)/50)·100=9$ %.\n\nPor tanto, el precio debe aumentar hasta 54,50 € por unidad, lo que supone un incremento del 9 %.",
+   "resultado": "Opción 1: umbral de rentabilidad = 3.000 unidades; beneficio previsto = 20.000 €; nuevo precio = 54,50 € por unidad; aumento del precio = 9 %.",
+   "criterios": "Tarea 4.1.1 (1,5 puntos): 0,75 puntos por identificar y aplicar correctamente el margen de contribución y calcular el umbral de rentabilidad en unidades; 0,75 puntos por plantear y calcular correctamente el beneficio para 4.000 unidades. Tarea 4.1.2 (1,5 puntos): 1 punto por actualizar los costes y plantear la ecuación que mantiene el beneficio anterior, obteniendo el nuevo precio; 0,5 puntos por calcular correctamente el aumento porcentual respecto al precio inicial. Se valorará el procedimiento y se admitirán errores aritméticos puntuales si el planteamiento es correcto.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "contabilidad",
+   "p": 0.9
+  },
+  {
+   "id": "marketing",
+   "p": 0.9
+  },
+  {
+   "id": "produccion",
+   "p": 0.766
+  },
+  {
+   "id": "financiacion",
+   "p": 0.719
+  },
+  {
+   "id": "modelonegocio",
+   "p": 0.712
+  },
+  {
+   "id": "organizacion",
+   "p": 0.188
+  }
+ ],
+ "referencias": [
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Empresa_Diseño_modelos_Negocio_junio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Empresa y Diseño de Modelos de Negocio_julio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Contenido/EJERCICIO DE EMPRESA.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/EMPRESA JULIO 2023.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Empresa y Diseño de Modelos de Negocio_julio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Empresa_Diseño_modelos_Negocio_junio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Empresa_y_Diseño_Modelos_negocio_PAU_2025_Julio.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/Examen de la convocatoria ordinaria_2025_EMPRESA_Y_DISEÑO_MODEL_NEGOCIO.pdf"
+ ]
+}
