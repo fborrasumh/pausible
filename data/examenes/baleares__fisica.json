@@ -1,0 +1,114 @@
+{
+ "ccaa": "baleares",
+ "materia": "fisica",
+ "titulo": "Modelo orientativo original de Física — PAU 2027, Illes Balears (no oficial)",
+ "duracion_min": 90,
+ "instrucciones": "Los documentos facilitados son convocatorias de contratación y no permiten verificar el formato de exámenes anteriores de Física. Este modelo propone seis preguntas, una por tema; responde cuatro. Cada pregunta vale 2,5 puntos y la puntuación máxima es 10 puntos. Como las probabilidades indicadas son iguales, se incluye el mismo número de preguntas de cada tema. Justifica los cálculos, expresa las unidades y razona las respuestas cualitativas. En los problemas, considera despreciables los efectos no mencionados.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "gravitacion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una sonda estudia un asteroide aproximadamente esférico. Las mediciones indican que la aceleración de la gravedad en su superficie es $1{,}0\\,\\mathrm{m\\,s^{-2}}$ y que su radio es $2{,}0\\times10^6\\,\\mathrm{m}$. Usa $G=6{,}67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}$. a) Calcula la masa del asteroide. (1,25 puntos) b) Calcula la rapidez mínima que debería tener una sonda en la superficie para escapar de su campo gravitatorio. (1,25 puntos).",
+   "solucion": "### a) Masa del asteroide\n\nLa aceleración gravitatoria en la superficie de una esfera cumple $g=\\frac{GM}{R^2}$. Despejamos la masa:\n\n$$M=\\frac{gR^2}{G}$$\n\nSustituyendo los datos:\n\n$$M=\\frac{(1{,}0)(2{,}0\\times10^6)^2}{6{,}67\\times10^{-11}}=5{,}997\\times10^{22}\\,\\mathrm{kg}$$\n\nCon dos cifras significativas, $M\\approx6{,}0\\times10^{22}\\,\\mathrm{kg}$.\n\n### b) Rapidez mínima de escape\n\nPara escapar con rapidez final nula en el infinito, la energía mecánica inicial debe ser cero. En la superficie:\n\n$$\\frac{1}{2}mv_{\\mathrm{esc}}^2-\\frac{GMm}{R}=0$$\n\nPor tanto,\n\n$$v_{\\mathrm{esc}}=\\sqrt{\\frac{2GM}{R}}$$\n\nUsando $GM=gR^2$:\n\n$$v_{\\mathrm{esc}}=\\sqrt{2gR}=\\sqrt{2(1{,}0)(2{,}0\\times10^6)}=2{,}0\\times10^3\\,\\mathrm{m\\,s^{-1}}$$\n\nSe desprecia la atmósfera y cualquier efecto de rotación.",
+   "resultado": "a) $M=6{,}0\\times10^{22}\\,\\mathrm{kg}$; b) $v_{\\mathrm{esc}}=2{,}0\\times10^3\\,\\mathrm{m\\,s^{-1}}$.",
+   "criterios": "Total: 2,5 puntos. a) 1,25 puntos: 0,25 por aplicar $g=GM/R^2$; 0,50 por despejar y sustituir correctamente $M=gR^2/G$; 0,50 por el resultado con unidad y cifras significativas adecuadas. b) 1,25 puntos: 0,50 por plantear la conservación de la energía y la condición de escape; 0,50 por obtener $v_{\\mathrm{esc}}=\\sqrt{2GM/R}=\\sqrt{2gR}$; 0,25 por el resultado con unidad.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "electrico",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "En un sensor de laboratorio, un electrón parte del reposo junto a la placa negativa de un condensador y es acelerado hacia la placa positiva. La separación entre placas es $4{,}0\\,\\mathrm{cm}$ y la diferencia de potencial es $120\\,\\mathrm{V}$. Considera uniforme el campo entre las placas y usa $e=1{,}60\\times10^{-19}\\,\\mathrm{C}$ y $m_e=9{,}11\\times10^{-31}\\,\\mathrm{kg}$. a) Calcula el módulo del campo eléctrico. (1,0 punto) b) Calcula la energía cinética y la rapidez del electrón al llegar a la otra placa. (1,5 puntos).",
+   "solucion": "### a) Módulo del campo eléctrico\n\nPara un campo uniforme entre placas, el módulo del campo es\n\n$$E=\\frac{|\\Delta V|}{d}.$$\n\nCon $d=4{,}0\\,\\mathrm{cm}=4{,}0\\times10^{-2}\\,\\mathrm{m}$ y $|\\Delta V|=120\\,\\mathrm{V}$:\n\n$$E=\\frac{120}{4{,}0\\times10^{-2}}=3{,}0\\times10^{3}\\,\\mathrm{V\\,m^{-1}}.$$\n\n### b) Energía cinética y rapidez\n\nAl desplazarse de la placa negativa a la positiva, el electrón atraviesa una diferencia de potencial de módulo $120\\,\\mathrm{V}$. La disminución de su energía potencial eléctrica se transforma en energía cinética. Como parte del reposo,\n\n$$K_f=e|\\Delta V|=\\frac{1}{2}m_e v^2.$$\n\nPor tanto, su energía cinética final es\n\n$$K_f=(1{,}60\\times10^{-19})(120)=1{,}92\\times10^{-17}\\,\\mathrm{J}.$$\n\nDespejando la rapidez:\n\n$$v=\\sqrt{\\frac{2K_f}{m_e}}=\\sqrt{\\frac{2(1{,}92\\times10^{-17})}{9{,}11\\times10^{-31}}}=6{,}49\\times10^{6}\\,\\mathrm{m\\,s^{-1}}.$$\n\n",
+   "resultado": "E = 3,0×10³ V·m⁻¹; K = 1,92×10⁻¹⁷ J; v = 6,49×10⁶ m·s⁻¹",
+   "criterios": "Total: 2,5 puntos. a) 1,0 punto: 0,5 por aplicar correctamente E=|ΔV|/d y convertir la distancia al SI; 0,5 por obtener E=3,0×10³ V·m⁻¹ con unidades. b) 1,5 puntos: 0,5 por plantear la conservación de la energía y K=e|ΔV|; 0,5 por calcular K=1,92×10⁻¹⁷ J; 0,5 por usar K=½mₑv² y obtener v=6,49×10⁶ m·s⁻¹.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "magnetico",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un ensayo de frenado magnético utiliza una varilla conductora de longitud $0{,}40\\,\\mathrm{m}$ que se desliza a $5{,}0\\,\\mathrm{m\\,s^{-1}}$ sobre dos raíles conductores paralelos. Los raíles están unidos por un resistor y la resistencia total del circuito es $2{,}0\\,\\Omega$. El campo magnético uniforme, de módulo $0{,}50\\,\\mathrm{T}$, entra perpendicularmente en el plano del circuito. La varilla se mueve hacia la derecha y cierra el circuito por su extremo derecho. a) Calcula la fuerza electromotriz inducida y la corriente. (1,5 puntos) b) Indica el sentido de la corriente por la varilla, visto de frente al plano, y explica cómo se opone al movimiento. (1,0 punto).",
+   "solucion": "### a) Fuerza electromotriz inducida e intensidad\n\nLa varilla se desplaza perpendicularmente a su longitud y al campo magnético, por lo que el módulo de la fuerza electromotriz inducida es\n\n$$|\\mathcal{E}|=BLv.$$\n\nSustituyendo los datos:\n\n$$|\\mathcal{E}|=(0{,}50\\,\\mathrm{T})(0{,}40\\,\\mathrm{m})(5{,}0\\,\\mathrm{m\\,s^{-1}})=1{,}0\\,\\mathrm{V}.$$\n\nAplicando la ley de Ohm al circuito:\n\n$$I=\\frac{|\\mathcal{E}|}{R}=\\frac{1{,}0\\,\\mathrm{V}}{2{,}0\\,\\Omega}=0{,}50\\,\\mathrm{A}.$$\n\n### b) Sentido de la corriente y frenado\n\nAl desplazarse la varilla hacia la derecha, aumenta el área del circuito y, por tanto, el flujo magnético entrante. Por la ley de Lenz, la corriente inducida genera un campo saliente del plano: vista de frente, circula en sentido antihorario. En consecuencia, por la varilla circula de abajo hacia arriba.\n\nLa fuerza magnética sobre la varilla tiene sentido hacia la izquierda: para corriente hacia arriba y campo entrante, la regla de la mano derecha da una fuerza opuesta a la velocidad de la varilla. Por ello, la fuerza magnética se opone al movimiento y produce el frenado.",
+   "resultado": "FEM inducida: 1,0 V; corriente: 0,50 A; por la varilla circula hacia arriba y la fuerza magnética actúa hacia la izquierda.",
+   "criterios": "Total: 2,5 puntos. a) 1,5 puntos: 0,75 por plantear y calcular correctamente |ε|=BLv=1,0 V; 0,75 por aplicar la ley de Ohm y obtener I=ε/R=0,50 A. b) 1,0 punto: 0,50 por justificar mediante la ley de Lenz que la corriente es antihoraria vista de frente y sube por la varilla; 0,50 por indicar y justificar que la fuerza magnética apunta hacia la izquierda, oponiéndose al movimiento.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "ondas",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un sistema de aviso acústico emite un tono de frecuencia $680\\,\\mathrm{Hz}$ frente a una pared situada a $51\\,\\mathrm{m}$. La rapidez del sonido en el aire es $340\\,\\mathrm{m\\,s^{-1}}$. a) Calcula la longitud de onda del tono. (1,25 puntos) b) Determina cuánto tiempo transcurre desde que se emite el sonido hasta que vuelve su eco. (1,25 puntos).",
+   "solucion": "### a) Longitud de onda\nLa frecuencia, la rapidez de propagación y la longitud de onda se relacionan mediante $v=f\\lambda$. Por tanto,\n$$\\lambda=\\frac{v}{f}=\\frac{340\\,\\mathrm{m\\,s^{-1}}}{680\\,\\mathrm{Hz}}=0{,}50\\,\\mathrm{m}.$$\n\n### b) Tiempo hasta recibir el eco\nEl sonido recorre la distancia hasta la pared y vuelve, así que la distancia total es $2d$. El tiempo transcurrido es\n$$t=\\frac{2d}{v}=\\frac{2\\cdot 51\\,\\mathrm{m}}{340\\,\\mathrm{m\\,s^{-1}}}=0{,}30\\,\\mathrm{s}.$$\n",
+   "resultado": "a) $\\lambda=0{,}50\\,\\mathrm{m}$; b) $t=0{,}30\\,\\mathrm{s}$.",
+   "criterios": "a) 1,25 puntos: 0,50 por plantear $v=f\\lambda$ y despejar correctamente; 0,50 por sustituir los datos y obtener $0{,}50$; 0,25 por expresar el resultado con la unidad correcta, metros. b) 1,25 puntos: 0,50 por identificar que el sonido recorre ida y vuelta, una distancia $2d$; 0,50 por aplicar $t=2d/v$ y calcular $0{,}30$; 0,25 por expresar el resultado con la unidad correcta, segundos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "optica",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Para documentar una pieza arqueológica, se utiliza una lente delgada convergente de distancia focal $20\\,\\mathrm{cm}$. La pieza se coloca perpendicularmente al eje óptico, a $30\\,\\mathrm{cm}$ de la lente. Usa la convención $1/f=1/s_o+1/s_i$ y $m=-s_i/s_o$. a) Calcula la posición de la imagen. (1,25 puntos) b) Calcula el aumento lateral e indica si la imagen es real o virtual, y derecha o invertida. (1,25 puntos).",
+   "solucion": "### a) Posición de la imagen\n\nCon la convención indicada, $f=20\\,\\mathrm{cm}$ y $s_o=30\\,\\mathrm{cm}$. Aplicamos la ecuación de la lente delgada:\n\n$$\\frac{1}{f}=\\frac{1}{s_o}+\\frac{1}{s_i}$$\n\nDespejamos $s_i$:\n\n$$\\frac{1}{s_i}=\\frac{1}{20}-\\frac{1}{30}=\\frac{1}{60}\\,\\mathrm{cm}^{-1}$$\n\nPor tanto, $s_i=+60\\,\\mathrm{cm}$. La imagen se forma a $60\\,\\mathrm{cm}$ de la lente, en el lado opuesto al objeto.\n\n### b) Aumento y naturaleza de la imagen\n\n$$m=-\\frac{s_i}{s_o}=-\\frac{60}{30}=-2$$\n\nEl aumento lateral es $-2$: la imagen tiene el doble de tamaño que el objeto y está invertida. Como $s_i>0$, la imagen es real.",
+   "resultado": "a) $s_i=+60\\,\\mathrm{cm}$; b) $m=-2$, imagen real e invertida, con el doble de tamaño que el objeto.",
+   "criterios": "a) 1,25 puntos: planteamiento correcto de la ecuación de la lente y despeje de $s_i$ (0,50); resultado $s_i=+60\\,\\mathrm{cm}$ con unidad e interpretación de la posición respecto de la lente (0,75). b) 1,25 puntos: aplicación de $m=-s_i/s_o$ y cálculo de $m=-2$ (0,75); identificación de que la imagen es real por $s_i>0$ e invertida por $m<0$ (0,50).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "6",
+   "tema": "moderna",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un fotocátodo de un detector tiene una función de trabajo de $2{,}0\\,\\mathrm{eV}$ y recibe radiación ultravioleta de longitud de onda $248\\,\\mathrm{nm}$. Para los cálculos, usa $hc=1240\\,\\mathrm{eV\\,nm}$. a) Calcula la energía de cada fotón y la energía cinética máxima de los electrones emitidos. (1,0 punto) b) Determina el potencial de frenado y la longitud de onda umbral del fotocátodo. (1,0 punto) c) Si se aumenta la intensidad de la radiación sin cambiar su longitud de onda, indica qué ocurre con la energía cinética máxima y con el número de electrones emitidos por unidad de tiempo. (0,5 puntos).",
+   "solucion": "### a) Energía del fotón y energía cinética máxima\n\nLa energía de cada fotón incidente es\n\n$$E_\\gamma=\\frac{hc}{\\lambda}=\\frac{1240\\,\\mathrm{eV\\,nm}}{248\\,\\mathrm{nm}}=5{,}0\\,\\mathrm{eV}.$$\n\nAplicando la ecuación del efecto fotoeléctrico, la energía cinética máxima es\n\n$$K_{\\max}=E_\\gamma-\\Phi=5{,}0\\,\\mathrm{eV}-2{,}0\\,\\mathrm{eV}=3{,}0\\,\\mathrm{eV}.$$\n\n### b) Potencial de frenado y longitud de onda umbral\n\nEl potencial de frenado cumple $eV_f=K_{\\max}$. Por tanto, su módulo es\n\n$$V_f=3{,}0\\,\\mathrm{V}.$$\n\nLa longitud de onda umbral corresponde a fotones cuya energía es igual a la función de trabajo:\n\n$$\\lambda_0=\\frac{hc}{\\Phi}=\\frac{1240\\,\\mathrm{eV\\,nm}}{2{,}0\\,\\mathrm{eV}}=620\\,\\mathrm{nm}.$$\n\n### c) Aumento de la intensidad\n\nAl mantener fija la longitud de onda, la energía de cada fotón no cambia. Por ello, la energía cinética máxima sigue siendo $3{,}0\\,\\mathrm{eV}$. Al aumentar la intensidad aumenta el número de fotones incidentes por unidad de tiempo y, por tanto, el número de electrones emitidos por unidad de tiempo.",
+   "resultado": "Eγ = 5,0 eV; Kmáx = 3,0 eV; Vf = 3,0 V; λ₀ = 620 nm. Al aumentar la intensidad, Kmáx no cambia y aumenta el número de electrones emitidos por unidad de tiempo.",
+   "criterios": "Total: 2,5 puntos. a) 1,0 punto: 0,5 por calcular correctamente la energía del fotón con Eγ = hc/λ; 0,5 por obtener Kmáx = Eγ − Φ. b) 1,0 punto: 0,5 por relacionar el potencial de frenado con la energía cinética máxima y dar 3,0 V; 0,5 por calcular la longitud de onda umbral mediante λ₀ = hc/Φ. c) 0,5 puntos: 0,25 por indicar que la energía cinética máxima no cambia; 0,25 por indicar que aumenta el número de electrones emitidos por unidad de tiempo. Se aceptan resultados equivalentes con redondeo adecuado y unidades correctas.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "gravitacion",
+   "p": 0.05
+  },
+  {
+   "id": "electrico",
+   "p": 0.05
+  },
+  {
+   "id": "magnetico",
+   "p": 0.05
+  },
+  {
+   "id": "ondas",
+   "p": 0.05
+  },
+  {
+   "id": "optica",
+   "p": 0.05
+  },
+  {
+   "id": "moderna",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "https://investigacio.uib.cat/digitalAssets/700/700399_entregable_propcontract_79_2022_ca.pdf",
+  "https://investigacio.uib.cat/digitalAssets/700/700398_entregable_propcontract_80_2022_ca.pdf"
+ ]
+}
