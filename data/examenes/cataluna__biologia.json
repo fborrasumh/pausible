@@ -1,0 +1,99 @@
+{
+ "ccaa": "cataluna",
+ "materia": "biologia",
+ "titulo": "PAU 2027 de Cataluña — Biología (propuesta original)",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro ejercicios obligatorios. Cada ejercicio vale 2,5 puntos; la puntuación total es de 10 puntos. No hay optatividad. Se puede utilizar calculadora, pero no aparatos que almacenen datos o transmitan o reciban información. Responded con claridad y justificad las respuestas cuando se indique. En los cálculos, mostrad el procedimiento.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "biomoleculas",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "En una planta piloto se obtiene leche sin lactosa mediante la adición de lactasa. Responded a las cuestiones siguientes. Cada apartado vale 0,5 puntos.\n\n1.1. ¿A qué grupo de biomoléculas pertenece la lactosa y qué dos monosacáridos la forman?\n\n1.2. ¿Qué tipo de enlace une esos monosacáridos? En la hidrólisis de una molécula de lactosa, ¿cuántas moléculas de agua se consumen?\n\n1.3. La lactasa es una enzima. Indicad de qué tipo de biomolécula está formada y cuáles son sus monómeros, unidos por qué tipo de enlace.\n\n1.4. Una muestra de leche con lactosa se analiza con el reactivo de Benedict, en condiciones adecuadas. ¿Se espera un resultado positivo o negativo? Justificad la respuesta según la estructura de la lactosa.\n\n1.5. La lactasa no hidroliza eficazmente la sacarosa. Explicad esta especificidad en términos de la estructura de la enzima y de su centro activo.",
+   "solucion": "### 1.1\nLa lactosa pertenece al grupo de los glúcidos o carbohidratos; es un disacárido formado por una molécula de glucosa y otra de galactosa.\n\n### 1.2\nLa glucosa y la galactosa están unidas mediante un enlace O-glucosídico $\\beta(1\\to4)$, entre el carbono anomérico $C1$ de la galactosa y el $C4$ de la glucosa. La hidrólisis de ese enlace consume una molécula de agua: $1\\ \\mathrm{H_2O}$ por molécula de lactosa.\n\n### 1.3\nLa lactasa es una enzima de naturaleza proteica. Está formada por aminoácidos, unidos entre sí mediante enlaces peptídicos.\n\n### 1.4\nSe espera un resultado positivo con Benedict. La lactosa es un azúcar reductor porque conserva libre el carbono anomérico de la glucosa; este puede abrir el anillo y presentar un grupo capaz de reducir el reactivo.\n\n### 1.5\nLa especificidad depende de la estructura tridimensional y de las propiedades químicas del centro activo de la lactasa, que permiten reconocer y posicionar adecuadamente la lactosa para catalizar su hidrólisis. La sacarosa tiene una estructura y un enlace glucosídico diferentes, por lo que no encaja ni se orienta de forma adecuada en el centro activo y la lactasa no la hidroliza eficazmente.",
+   "resultado": "La lactosa es un disacárido reductor de glucosa y galactosa unidos por enlace $\\beta(1\\to4)$; su hidrólisis consume $1\\ \\mathrm{H_2O}$; la lactasa es una proteína específica de la lactosa.",
+   "criterios": "Total: 2,5 puntos. 1.1 (0,5): 0,25 por identificar los glúcidos/carbohidratos y que es un disacárido; 0,25 por nombrar glucosa y galactosa. 1.2 (0,5): 0,25 por indicar el enlace O-glucosídico $\\beta(1\\to4)$; 0,25 por señalar que se consume una molécula de agua. 1.3 (0,5): 0,15 por indicar que la lactasa es una proteína; 0,15 por identificar los aminoácidos como monómeros; 0,20 por indicar que se unen mediante enlaces peptídicos. 1.4 (0,5): 0,15 por predecir resultado positivo; 0,35 por justificarlo como azúcar reductor debido al carbono anomérico libre de la glucosa. 1.5 (0,5): 0,25 por relacionar la especificidad con la estructura tridimensional y la complementariedad del centro activo; 0,25 por explicar que la estructura distinta de la sacarosa impide su reconocimiento, ajuste u orientación catalítica adecuados.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "molecular",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un equipo de investigación modifica una variedad de tomate para obtener frutos más resistentes a una plaga. Estudia un gen relacionado con esa resistencia y utiliza PCR para amplificar una región del gen. Cada apartado vale 0,5 puntos.\n\n2.1. La cadena codificante de una región del gen es $5'\\text{-ATG GAA TTT CCG TAA-}3'$. Escribid la secuencia de ARNm transcrita, en sentido $5'\\to3'$.\n\n2.2. Usando el código genético, indicad la secuencia de aminoácidos codificada antes del codón de terminación.\n\n2.3. Una sustitución cambia el segundo codón de la cadena codificante de GAA a GTA. Indicad qué aminoácido codifica ahora ese codón en el ARNm y clasificad el efecto de la mutación como silencioso, de cambio de sentido o sin sentido.\n\n2.4. En una PCR se parte de 120 copias de la región y se realizan 7 ciclos. Suponiendo que en cada ciclo se duplica todo el ADN y que la eficiencia es del 100 %, calculad el número de copias al final. Mostrad el cálculo.\n\n2.5. La variedad editada es heterocigota para el alelo de resistencia dominante, Rr. Si se autofecunda, ¿qué proporción de la descendencia se espera que sea resistente? Mostrad el cruce o el cálculo.",
+   "solucion": "### 2.1. Transcripción\nLa cadena codificante tiene la misma secuencia que el ARNm, sustituyendo timina por uracilo y conservando la orientación indicada:\n\n$5′$-AUG GAA UUU CCG UAA-$3′$.\n\n### 2.2. Traducción\nLos codones anteriores al codón de terminación son AUG, GAA, UUU y CCG. Según el código genético, codifican, respectivamente, metionina, ácido glutámico, fenilalanina y prolina. Por tanto, la secuencia es **Met–Glu–Phe–Pro**. UAA es un codón de terminación y no codifica un aminoácido.\n\n### 2.3. Efecto de la sustitución\nEl segundo codón de la cadena codificante pasa de GAA a GTA. El codón correspondiente en el ARNm es GUA, que codifica **valina**. Como cambia el aminoácido codificado (de ácido glutámico a valina), es una mutación **de cambio de sentido** (missense).\n\n### 2.4. Amplificación por PCR\nCon una duplicación por ciclo, el número final de copias es:\n\n$N_f = 120 \\times 2^7 = 120 \\times 128 = 15\\,360$ copias.\n\n### 2.5. Autofecundación de Rr\nCruce: $Rr \\times Rr$. Los genotipos esperados son $RR$, $Rr$, $Rr$ y $rr$. Como $R$ es dominante, los tres primeros presentan resistencia. La proporción resistente es $3/4 = 75\\%$.",
+   "resultado": "ARNm: 5′-AUG GAA UUU CCG UAA-3′; aminoácidos: Met–Glu–Phe–Pro; mutación: GUA, valina, de cambio de sentido; PCR: 15 360 copias; descendencia resistente: 3/4 (75 %).",
+   "criterios": "Total: 2,5 puntos, 0,5 por apartado. 2.1 (0,5): 0,5 por indicar correctamente el ARNm 5′-AUG GAA UUU CCG UAA-3′. 2.2 (0,5): 0,125 por cada aminoácido correcto y por excluir el codón de terminación. 2.3 (0,5): 0,25 por identificar GUA como codón de valina y 0,25 por clasificarla como mutación de cambio de sentido. 2.4 (0,5): 0,25 por plantear 120 × 2^7 y 0,25 por obtener 15 360 copias. 2.5 (0,5): 0,25 por plantear correctamente Rr × Rr y 0,25 por concluir que 3/4 (75 %) de la descendencia será resistente.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "microbiologia",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Tras una alerta por contaminación de lechuga, un laboratorio analiza una muestra en la que detecta Salmonella. Los resultados se usan para estudiar tanto el microorganismo como la respuesta frente a él. Cada apartado vale 0,5 puntos.\n\n3.1. En una micrografía, 20 bacilos colocados extremo con extremo ocupan una longitud total de 30 μm. Calculad la longitud media de un bacilo y mostrad el cálculo.\n\n3.2. Las células observadas no presentan núcleo rodeado por una membrana. ¿Son procariotas o eucariotas? Indicad dónde se localiza principalmente su cromosoma.\n\n3.3. Después de tratar un cultivo con un antibiótico, aumenta la proporción de bacterias resistentes. Explicad este resultado mediante la selección natural e indicad si el antibiótico provoca de forma dirigida las mutaciones de resistencia.\n\n3.4. En un ensayo se administra una vacuna experimental que contiene un antígeno de superficie de Salmonella. ¿Qué células de la respuesta adaptativa producen anticuerpos específicos y qué células permiten una respuesta más rápida ante una exposición posterior al mismo antígeno?\n\n3.5. ¿Qué componente característico de la pared bacteriana puede ser reconocido como una estructura de Salmonella? Indicad su nombre.",
+   "solucion": "### 3.1. Longitud media del bacilo\nPor el método unitario, un bacilo ocupa la vigésima parte de la longitud total:\n\n$$\\frac{30\\ \\mu\\mathrm{m}}{20}=1{,}5\\ \\mu\\mathrm{m}$$\n\nComprobación: $$20\\times1{,}5\\ \\mu\\mathrm{m}=30\\ \\mu\\mathrm{m}$$, que coincide con la longitud observada.\n\n### 3.2. Tipo celular y cromosoma\nSon células **procariotas**, porque carecen de un núcleo delimitado por membrana. Su cromosoma se localiza principalmente en el **nucleoide**, una región del citoplasma que no está rodeada por una membrana.\n\n### 3.3. Resistencia al antibiótico\nEn la población pueden existir, antes del tratamiento, bacterias con variaciones hereditarias que les confieren resistencia, originadas por mutaciones aleatorias. El antibiótico elimina preferentemente a las sensibles; las resistentes sobreviven y dejan más descendencia, por lo que aumenta su proporción. El antibiótico **no provoca de forma dirigida** las mutaciones que confieren resistencia: actúa como agente de selección.\n\n### 3.4. Anticuerpos y respuesta posterior\nLos **linfocitos B**, al diferenciarse en **células plasmáticas**, producen y secretan anticuerpos específicos. Los **linfocitos B de memoria** permiten una respuesta más rápida e intensa ante una exposición posterior al mismo antígeno.\n\n### 3.5. Componente de la envoltura bacteriana\nEn Salmonella, que es una bacteria gramnegativa, puede reconocerse el **lipopolisacárido (LPS)** de la membrana externa, en particular su antígeno O. La pared también contiene **peptidoglucano o mureína**, componente estructural común de las paredes bacterianas.",
+   "resultado": "1,5 μm por bacilo; procariotas con cromosoma en el nucleoide; el antibiótico selecciona resistencias preexistentes, no las dirige; plasmáticas producen anticuerpos y B de memoria aceleran la respuesta; LPS (antígeno O) en la envoltura de Salmonella.",
+   "criterios": "3.1 (0,5 puntos): cálculo correcto de la media, con unidades y procedimiento. 3.2 (0,5 puntos): identificación como procariotas (0,25) y localización del cromosoma en el nucleoide o citoplasma (0,25). 3.3 (0,5 puntos): explicación de la selección de variantes resistentes (0,25) y aclaración de que el antibiótico no dirige las mutaciones (0,25). 3.4 (0,5 puntos): células plasmáticas derivadas de linfocitos B como productoras de anticuerpos (0,25) y linfocitos B de memoria como responsables de la respuesta secundaria más rápida (0,25). 3.5 (0,5 puntos): identificación de un componente adecuado; se acepta peptidoglucano o, por el carácter gramnegativo de Salmonella, LPS (incluido su antígeno O).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "metabolismo",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una empresa utiliza levaduras para producir etanol en un biorreactor con poco oxígeno. Analizad el proceso de fermentación alcohólica y la división de las levaduras. Cada apartado vale 0,5 puntos.\n\n4.1. Escribid la ecuación global ajustada de la fermentación alcohólica de la glucosa, indicando como productos etanol y dióxido de carbono.\n\n4.2. Si se fermentan completamente 3 mol de glucosa, ¿cuántos mol de etanol se producen teóricamente? Mostrad el cálculo.\n\n4.3. La ganancia neta de la fermentación es de 2 mol de ATP por cada mol de glucosa. Calculad la cantidad neta de ATP obtenida a partir de los 3 mol de glucosa del apartado anterior.\n\n4.4. Indicad en qué parte de la célula ocurre la glucólisis y explicad por qué la fermentación permite que esta vía continúe cuando escasea el oxígeno.\n\n4.5. Una célula de levadura con 16 cromosomas se divide por mitosis durante la gemación. ¿Cuántos cromosomas tendrá cada núcleo hijo al finalizar la mitosis? Justificad la respuesta.",
+   "solucion": "### 4.1. Ecuación global\nLa ecuación ajustada es:\n\n$\\mathrm{C_6H_{12}O_6 \\rightarrow 2\\ C_2H_5OH + 2\\ CO_2}$\n\nSe conserva el número de átomos: hay 6 carbonos, 12 hidrógenos y 6 oxígenos a cada lado.\n\n### 4.2. Producción de etanol\nLa proporción estequiométrica es de 2 mol de etanol por cada mol de glucosa:\n\n$3\\ \\mathrm{mol\\ glucosa}\\times\\frac{2\\ \\mathrm{mol\\ etanol}}{1\\ \\mathrm{mol\\ glucosa}}=6\\ \\mathrm{mol\\ etanol}$\n\nSe producen teóricamente **6 mol de etanol**.\n\n### 4.3. Producción neta de ATP\nLa ganancia neta es de 2 mol de ATP por mol de glucosa:\n\n$3\\ \\mathrm{mol\\ glucosa}\\times\\frac{2\\ \\mathrm{mol\\ ATP}}{1\\ \\mathrm{mol\\ glucosa}}=6\\ \\mathrm{mol\\ ATP}$\n\nSe obtienen **6 mol netos de ATP**.\n\n### 4.4. Localización y función de la fermentación\nLa glucólisis ocurre en el **citosol**. Cuando escasea el oxígeno, la fermentación permite que continúe al reoxidar el $\\mathrm{NADH}$ a $\\mathrm{NAD^+}$, que es necesario para la glucólisis. En la fermentación alcohólica, el acetaldehído acepta electrones del $\\mathrm{NADH}$ y se reduce a etanol; así se regenera $\\mathrm{NAD^+}$. La fermentación no produce por sí misma el ATP indicado: este se obtiene en la glucólisis.\n\n### 4.5. Número de cromosomas tras la mitosis\nCada núcleo hijo tendrá **16 cromosomas**. La mitosis conserva el número de cromosomas de la célula: tras la separación de las cromátidas hermanas, cada núcleo recibe una copia de cada cromosoma.",
+   "resultado": "Se producen 6 mol de etanol y 6 mol netos de ATP; cada núcleo hijo tendrá 16 cromosomas.",
+   "criterios": "Total: 2,5 puntos. 4.1 (0,5): ecuación global correcta y ajustada. 4.2 (0,5): relación estequiométrica adecuada y cálculo de 6 mol de etanol. 4.3 (0,5): aplicación de la ganancia neta y cálculo de 6 mol de ATP. 4.4 (0,5): 0,25 por indicar el citosol y 0,25 por explicar la regeneración de NAD+ que permite mantener la glucólisis. 4.5 (0,5): 0,25 por indicar 16 cromosomas en cada núcleo hijo y 0,25 por justificar que la mitosis conserva el número cromosómico.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "biomoleculas",
+   "p": 0.87
+  },
+  {
+   "id": "molecular",
+   "p": 0.849
+  },
+  {
+   "id": "microbiologia",
+   "p": 0.849
+  },
+  {
+   "id": "metabolismo",
+   "p": 0.61
+  },
+  {
+   "id": "inmunologia",
+   "p": 0.575
+  },
+  {
+   "id": "genetica",
+   "p": 0.525
+  }
+ ],
+ "referencias": [
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/biologia/ord/pau_biol26o.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/biologia/ord/pau_biol26o_tei.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2024/biologia/ord/pau_biol24jl_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2024/biologia/ord/pau_biol24jl_tei.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/biologia/ord/pau_biol25jl.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/biologia/ord/pau_biol25jl_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/biologia/ord/pau_biol25jl_tei.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/biologia/ext/pau_biol26e.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/biologia/ext/pau_biol26e_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/biologia/ord/pau_biol26o.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/biologia/ord/pau_biol26o_tei.pdf"
+ ]
+}
