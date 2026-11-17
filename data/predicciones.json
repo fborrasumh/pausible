@@ -7,14 +7,55 @@
    "materias": {
     "aleman": {
      "nombre": "Lengua Extranjera II: Alemán",
-     "n_examenes": 27,
+     "n_examenes": 35,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_aleman.zip#aleman/Aleman-EXTRA-RESERVA- EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_aleman.zip#aleman/Aleman-ORD-RESERVA- EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_aleman.zip#aleman/ALEMAN-ORD-SUPLENTE- EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_aleman.zip#aleman/EXTRA-SUPLENTE- EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_aleman.zip#aleman/IMPRESO-ALEMAN-EXTRA-ADMI-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_aleman.zip#aleman/IMPRESO-Aleman-EXTRA-TITULAR- EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_aleman.zip#aleman/IMPRESO-Aleman- ORD-ADMI-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_aleman.zip#aleman/IMPRESO-ALEMAN-ORD-TITULAR-EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -157,14 +198,45 @@
     },
     "biologia": {
      "nombre": "Biología",
-     "n_examenes": 25,
+     "n_examenes": 31,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_biologia.zip#biologia/BIOLOGIA-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_biologia.zip#biologia/BIOLOGIA-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_biologia.zip#biologia/BIOLOGIA-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_biologia.zip#biologia/BIOLOGIA-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_biologia.zip#biologia/IMPRESO-BIOLOGIA-EXTRA-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_biologia.zip#biologia/IMPRESO-BIOLOGIA-ORD-TITULAR-EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -295,53 +367,53 @@
       {
        "id": "biomoleculas",
        "nombre": "Biomoléculas",
-       "p": 0.861,
-       "veces": 23,
-       "de": 25,
+       "p": 0.865,
+       "veces": 29,
+       "de": 31,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "Opción 2 En relación con la imagen adjunta, conteste a las siguientes preguntas: a) ¿Qué proceso representa? [0,1]. Indique el nombre de los compuestos A, B, C, D, E y F y de las localizaciones intracelulares G y H [0,8]. ¿Qué proceso da lugar a la formación del compuesto F? [0,1…",
        "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_biologia.zip#Biologia/Ordinaria_Titular/Examen Titular Biologia.pdf"
       },
       {
-       "id": "celula",
-       "nombre": "La célula",
-       "p": 0.861,
-       "veces": 23,
-       "de": 25,
-       "ultimo": 2026,
-       "tendencia": "estable",
-       "muestra": "EJERCICIO 2 (debe responder a este ejercicio obligatoriamente) [2 puntos] Sara y Fran observan al microscopio tres preparaciones celulares diferentes y comprueban que la célula A presenta pared celular, cloroplastos, mitocondrias y un núcleo delimitado; la célula B no presenta nú…",
-       "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_biologia.zip#Biologia/Ordinaria_Titular/Examen Titular Biologia.pdf"
-      },
-      {
        "id": "inmunologia",
        "nombre": "Inmunología",
-       "p": 0.848,
-       "veces": 24,
-       "de": 25,
+       "p": 0.853,
+       "veces": 30,
+       "de": 31,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "EJERCICIO 5 (se plantean dos opciones, de las que debe responder, a su elección, SOLAMENTE UNA) [2 puntos] Opción 1 En relación con la figura adjunta, que representa una inmunoglobulina, responda las siguientes cuestiones: a) Nombre las partes señaladas con los números del 1 al 4…",
        "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_biologia.zip#Biologia/Ordinaria_Titular/Examen Titular Biologia.pdf"
       },
       {
+       "id": "celula",
+       "nombre": "La célula",
+       "p": 0.847,
+       "veces": 28,
+       "de": 31,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "EJERCICIO 2 (debe responder a este ejercicio obligatoriamente) [2 puntos] Sara y Fran observan al microscopio tres preparaciones celulares diferentes y comprueban que la célula A presenta pared celular, cloroplastos, mitocondrias y un núcleo delimitado; la célula B no presenta nú…",
+       "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_biologia.zip#Biologia/Ordinaria_Titular/Examen Titular Biologia.pdf"
+      },
+      {
        "id": "microbiologia",
        "nombre": "Microbiología",
-       "p": 0.822,
-       "veces": 22,
-       "de": 25,
+       "p": 0.815,
+       "veces": 27,
+       "de": 31,
        "ultimo": 2026,
-       "tendencia": "sube",
+       "tendencia": "estable",
        "muestra": "Opción 2 La producción de yogur necesita la acción de microorganismos. Como consecuencia de su metabolismo, estos microorganismos acidifican el medio de cultivo y generan sustancias responsables del sabor y del aroma característico del yogur. a) Indique el proceso metabólico que …",
        "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_biologia.zip#Biologia/Ordinaria_Titular/Examen Titular Biologia.pdf"
       },
       {
        "id": "molecular",
        "nombre": "Genética molecular y biotecnología",
-       "p": 0.808,
-       "veces": 21,
-       "de": 25,
+       "p": 0.789,
+       "veces": 25,
+       "de": 31,
        "ultimo": 2026,
        "tendencia": "sube",
        "muestra": "EJERCICIO 1 (debe responder a este ejercicio obligatoriamente) [2 puntos] Un grupo de estudiantes de 2º de Bachillerato está realizando una práctica de laboratorio en un centro de investigación. Mediante técnicas de tinción del ADN y microscopía de alta resolución describen lo qu…",
@@ -350,9 +422,9 @@
       {
        "id": "metabolismo",
        "nombre": "Metabolismo",
-       "p": 0.584,
-       "veces": 14,
-       "de": 25,
+       "p": 0.555,
+       "veces": 16,
+       "de": 31,
        "ultimo": 2026,
        "tendencia": "sube",
        "muestra": "Opción 2 La producción de yogur necesita la acción de microorganismos. Como consecuencia de su metabolismo, estos microorganismos acidifican el medio de cultivo y generan sustancias responsables del sabor y del aroma característico del yogur. a) Indique el proceso metabólico que …",
@@ -361,9 +433,9 @@
       {
        "id": "division",
        "nombre": "División celular",
-       "p": 0.505,
-       "veces": 11,
-       "de": 25,
+       "p": 0.511,
+       "veces": 14,
+       "de": 31,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "Opción 2 En un organismo diploide con reproducción sexual, la herencia de un carácter está controlada por un gen con dos alelos: A y a. a) Defina los términos gen y alelo [0,4]. Los gametos formados en la meiosis reciben solo un alelo de cada gen, permitiendo que la descendencia …",
@@ -372,9 +444,9 @@
       {
        "id": "genetica",
        "nombre": "Genética mendeliana",
-       "p": 0.196,
-       "veces": 7,
-       "de": 25,
+       "p": 0.248,
+       "veces": 12,
+       "de": 31,
        "ultimo": 2026,
        "tendencia": "baja",
        "muestra": "Opción 2 En un organismo diploide con reproducción sexual, la herencia de un carácter está controlada por un gen con dos alelos: A y a. a) Defina los términos gen y alelo [0,4]. Los gametos formados en la meiosis reciben solo un alelo de cada gen, permitiendo que la descendencia …",
@@ -388,9 +460,9 @@
       "tasa": 1.0,
       "azar": 0.75,
       "top": [
+       "celula",
        "inmunologia",
        "biomoleculas",
-       "celula",
        "microbiologia",
        "molecular",
        "metabolismo"
@@ -507,14 +579,45 @@
     },
     "dibujo": {
      "nombre": "Dibujo Técnico II",
-     "n_examenes": 43,
+     "n_examenes": 49,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_dibujo_tecnico.zip#dibujo_tecnico/DIBUJO-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_dibujo_tecnico.zip#dibujo_tecnico/DIBUJO-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_dibujo_tecnico.zip#dibujo_tecnico/DIBUJO-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_dibujo_tecnico.zip#dibujo_tecnico/DIBUJO-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_dibujo_tecnico.zip#dibujo_tecnico/IMPRESO-DIBUJO-EXTRA-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_dibujo_tecnico.zip#dibujo_tecnico/IMPRESO-DIBUJO-ORD-TITULAR-EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -735,20 +838,20 @@
       {
        "id": "axonometrico",
        "nombre": "Axonométrico y perspectiva",
-       "p": 0.337,
+       "p": 0.317,
        "veces": 14,
-       "de": 43,
+       "de": 49,
        "ultimo": 2026,
-       "tendencia": "estable",
+       "tendencia": "sube",
        "muestra": "Dados el alzado, la planta y el perfil, a escala 1:200, del arco del triunfo inspirado en la imagen, representados según el método del primer diedro, se pide: 1. Representar su perspectiva isométrica, a escala 1:100, sin tener en cuenta el coeficiente de reducción. 2. Incluir las…",
        "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_dibujo_tecnico_aplicado.zip#Dibujo_Tecnico_Aplicado/Ordinaria_Titular/Examen Titular Dibujo Técnico Aplicado a las Artes y al Diseño.pdf"
       },
       {
        "id": "diedrico",
        "nombre": "Sistema diédrico",
-       "p": 0.299,
+       "p": 0.281,
        "veces": 13,
-       "de": 43,
+       "de": 49,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "Se quiere hacer una maqueta del Coliseo de Roma (imagen adjunta). Para ello, se necesita realizar un dibujo de la planta de la construcción, sabiendo que se trata de una elipse. A partir de uno de los focos F, el centro de la curva O y un punto de la curva P, se pide: 1. Trazar e…",
@@ -757,9 +860,9 @@
       {
        "id": "conicas",
        "nombre": "Cónicas",
-       "p": 0.289,
+       "p": 0.272,
        "veces": 13,
-       "de": 43,
+       "de": 49,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "En el rediseño de un espacio expositivo dedicado a la historia de la automoción, el equipo artístico ha decidido incorporar paneles retroiluminados con formas basadas en curvas cónicas para transmitir dinamismo y elegancia. Para ello, se proporcionan los siguientes datos: a) Un p…",
@@ -768,20 +871,20 @@
       {
        "id": "normalizacion",
        "nombre": "Normalización y vistas",
-       "p": 0.243,
+       "p": 0.229,
        "veces": 10,
-       "de": 43,
+       "de": 49,
        "ultimo": 2026,
-       "tendencia": "estable",
+       "tendencia": "sube",
        "muestra": "Dadas las vistas acotadas en mm de un mueble de escritorio, se pide: 1. Realizar su representación en perspectiva axonométrica isométrica a escala 1/10 sin aplicar el coeficiente de reducción. 2. Representar las aristas ocultas.",
        "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_dibujo_tecnico_aplicado.zip#Dibujo_Tecnico_Aplicado/Extraordinaria_Incompatibilidad/Examen Suplente 1 Dibujo Técnico Aplicado a las Artes y al Diseño_Ex.pdf"
       },
       {
        "id": "geometriaplana",
        "nombre": "Geometría plana (tangencias, transformaciones)",
-       "p": 0.104,
+       "p": 0.098,
        "veces": 5,
-       "de": 43,
+       "de": 49,
        "ultimo": 2025,
        "tendencia": "estable",
        "muestra": "i) Además de los útiles mencionados, se permitirá el uso de plantillas, transportador de ángulos, un tablero tamaño A-3 con su correspondiente paralelógrafo y se permitirá el uso de calculadoras que no sean programables, gráficas ni con capacidad para almacenar o transmitir datos…",
@@ -892,14 +995,45 @@
     },
     "diseno": {
      "nombre": "Diseño",
-     "n_examenes": 23,
+     "n_examenes": 33,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_diseno.zip#diseno/DISEÑO-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_diseno.zip#diseno/DISEÑO-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_diseno.zip#diseno/DISEÑO-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_diseno.zip#diseno/DISEÑO-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_diseno.zip#diseno/IMPRESO-DISEÑO-EXTRA-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_diseno.zip#diseno/IMPRESO-DISEÑO-ORD-TITULAR-EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -949,6 +1083,16 @@
        "anio": 2024,
        "conv": "ext",
        "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2024_diseno.zip#DISEÑO/Examen_Suplente-B_DISEÑO.pdf"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2018_fundamentos_arte.zip#fundamentos_arte/suplente junio/EXAMEN-1.pdf"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2019_fundamentos_arte.zip#sel_2019_fundamentos_arte/Suplente Septiembre/Exámenes Fundamentos del Arte II - A y B.pdf"
       },
       {
        "anio": 2024,
@@ -1012,8 +1156,18 @@
       },
       {
        "anio": 2026,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_coro_tecnica.zip#Coro/Extraordinaria_Titular/Examen Titular Coro y Técnica Vocal II_Ex.pdf"
+      },
+      {
+       "anio": 2026,
        "conv": "ord",
        "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_diseno.zip#Diseño/Ordinaria_Titular/Examen Titular Diseño.pdf"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_coro_tecnica.zip#Coro/Ordinaria_Titular/Examen Titular Coro y Técnica Vocal II.pdf"
       }
      ],
      "temas": [],
@@ -1263,14 +1417,45 @@
     },
     "filosofia": {
      "nombre": "Historia de la Filosofía",
-     "n_examenes": 24,
+     "n_examenes": 30,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_filosofia.zip#historia_filosofia/HFILOSOFIA-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_filosofia.zip#historia_filosofia/HFILOSOFIA-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_filosofia.zip#historia_filosofia/HFILOSOFIA-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_filosofia.zip#historia_filosofia/HFILOSOFIA-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_filosofia.zip#historia_filosofia/IMPRESO-HFILOSOFIA-EXTRA-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_filosofia.zip#historia_filosofia/IMPRESO-HFILOSOFIA-ORD-TITULAR-EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -1396,9 +1581,9 @@
       {
        "id": "platon",
        "nombre": "Platón",
-       "p": 0.523,
-       "veces": 15,
-       "de": 24,
+       "p": 0.572,
+       "veces": 21,
+       "de": 30,
        "ultimo": 2026,
        "tendencia": "baja",
        "muestra": "",
@@ -1407,9 +1592,9 @@
       {
        "id": "descartes",
        "nombre": "Descartes",
-       "p": 0.488,
-       "veces": 14,
-       "de": 24,
+       "p": 0.54,
+       "veces": 20,
+       "de": 30,
        "ultimo": 2026,
        "tendencia": "baja",
        "muestra": "Descartes, Discurso del método, Segunda parte.",
@@ -1418,9 +1603,9 @@
       {
        "id": "medieval",
        "nombre": "Agustín de Hipona / Tomás de Aquino",
-       "p": 0.286,
-       "veces": 12,
-       "de": 24,
+       "p": 0.349,
+       "veces": 18,
+       "de": 30,
        "ultimo": 2024,
        "tendencia": "baja",
        "muestra": "Texto1. - Examina ahora el caso de una liberación de sus cadenas y de una curación de su ignorancia, qué pasaría si naturalmente les ocurriese esto: que uno de ellos fuera liberado y forzado a levantarse de repente, volver el cuello y marchar mirando a la luz, y al hacer todo est…",
@@ -1429,9 +1614,9 @@
       {
        "id": "kant",
        "nombre": "Kant",
-       "p": 0.286,
-       "veces": 12,
-       "de": 24,
+       "p": 0.349,
+       "veces": 18,
+       "de": 30,
        "ultimo": 2024,
        "tendencia": "baja",
        "muestra": "Texto1. - Examina ahora el caso de una liberación de sus cadenas y de una curación de su ignorancia, qué pasaría si naturalmente les ocurriese esto: que uno de ellos fuera liberado y forzado a levantarse de repente, volver el cuello y marchar mirando a la luz, y al hacer todo est…",
@@ -1442,7 +1627,7 @@
        "nombre": "Aristóteles",
        "p": 0.05,
        "veces": 0,
-       "de": 24,
+       "de": 30,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -1453,7 +1638,7 @@
        "nombre": "Hume / Locke",
        "p": 0.05,
        "veces": 0,
-       "de": 24,
+       "de": 30,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -1464,7 +1649,7 @@
        "nombre": "Marx",
        "p": 0.05,
        "veces": 0,
-       "de": 24,
+       "de": 30,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -1475,7 +1660,7 @@
        "nombre": "Nietzsche",
        "p": 0.05,
        "veces": 0,
-       "de": 24,
+       "de": 30,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -1486,7 +1671,7 @@
        "nombre": "Ortega y Gasset",
        "p": 0.05,
        "veces": 0,
-       "de": 24,
+       "de": 30,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -1497,7 +1682,7 @@
        "nombre": "Filosofía contemporánea (Arendt, Wittgenstein, Beauvoir…)",
        "p": 0.05,
        "veces": 0,
-       "de": 24,
+       "de": 30,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -1509,14 +1694,45 @@
     },
     "fisica": {
      "nombre": "Física",
-     "n_examenes": 21,
+     "n_examenes": 27,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_fisica.zip#fisica/FISICA-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_fisica.zip#fisica/FISICA-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_fisica.zip#fisica/FISICA-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_fisica.zip#fisica/FISICA-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_fisica.zip#fisica/IMPRESO-FISICA-EXTRA-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_fisica.zip#fisica/IMPRESO-FISICA-ORD-TITULAR-EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -1627,42 +1843,42 @@
       {
        "id": "gravitacion",
        "nombre": "Campo gravitatorio",
-       "p": 0.915,
-       "veces": 20,
-       "de": 21,
+       "p": 0.926,
+       "veces": 26,
+       "de": 27,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "A) CAMPO GRAVITATORIO Responda a1 o a2 a1) Razone la veracidad de las siguientes afirmaciones: i) (0,5 puntos) si el trabajo total realizado sobre una partícula es positivo, su energía cinética necesariamente aumenta; ii) (0,5 puntos) si la fuerza resultante es siempre perpendicu…",
        "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_fisica.zip#Fisica/Extraordinaria_Titular/Examen Titular Física_Ex.pdf"
       },
       {
-       "id": "magnetico",
-       "nombre": "Campo magnético e inducción",
-       "p": 0.9,
-       "veces": 21,
-       "de": 21,
-       "ultimo": 2026,
-       "tendencia": "estable",
-       "muestra": "B) CAMPO ELECTROMAGNÉTICO Responda a1 o a2 a1) Indique, razonando sus respuestas, si los siguientes enunciados son ciertos: i) (0,5 puntos) si el flujo magnético a través de una superficie es cero entonces necesariamente el campo magnético es nulo; ii) (0,5 puntos) la fuerza elec…",
-       "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_fisica.zip#Fisica/Ordinaria_Titular/Examen Titular Física.pdf"
-      },
-      {
        "id": "ondas",
        "nombre": "Ondas y sonido",
        "p": 0.9,
-       "veces": 21,
-       "de": 21,
+       "veces": 27,
+       "de": 27,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "Instrucciones: a) Duración: 1 hora y 30 minutos. b) Todas las cuestiones deben responderse en el papel entregado para la realización del examen y nunca en los folios que contienen los enunciados. c) El examen consta de 4 ejercicios (un ejercicio por cada bloque A, B, C y D de los…",
        "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_fisica.zip#Fisica/Ordinaria_Titular/Examen Titular Física.pdf"
       },
       {
+       "id": "magnetico",
+       "nombre": "Campo magnético e inducción",
+       "p": 0.882,
+       "veces": 26,
+       "de": 27,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "B) CAMPO ELECTROMAGNÉTICO Responda a1 o a2 a1) Indique, razonando sus respuestas, si los siguientes enunciados son ciertos: i) (0,5 puntos) si el flujo magnético a través de una superficie es cero entonces necesariamente el campo magnético es nulo; ii) (0,5 puntos) la fuerza elec…",
+       "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_fisica.zip#Fisica/Ordinaria_Titular/Examen Titular Física.pdf"
+      },
+      {
        "id": "moderna",
        "nombre": "Física moderna (cuántica, nuclear, relatividad)",
-       "p": 0.832,
-       "veces": 20,
-       "de": 21,
+       "p": 0.841,
+       "veces": 26,
+       "de": 27,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "D) FÍSICA RELATIVISTA, CUÁNTICA Y DE PARTÍCULAS Responda a1 o a2 a1) Se produce emisión de fotoelectrones en una superficie metálica cuando la frecuencia mínima de la radiación monocromática incidente corresponde a luz amarilla. Razone: i) (0,5 puntos) ¿qué sucede si se irradia e…",
@@ -1671,9 +1887,9 @@
       {
        "id": "optica",
        "nombre": "Óptica",
-       "p": 0.805,
-       "veces": 19,
-       "de": 21,
+       "p": 0.817,
+       "veces": 25,
+       "de": 27,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "C) VIBRACIONES Y ONDAS Responda a1 o a2 a1) Se sitúa un objeto luminoso delante de una lente divergente. Dibuje el trazado de rayos e indique razonadamente las características de la imagen obtenida. a2) Una onda armónica pasa de un medio a otro. La longitud de onda en el segundo …",
@@ -1682,9 +1898,9 @@
       {
        "id": "electrico",
        "nombre": "Campo eléctrico",
-       "p": 0.742,
-       "veces": 17,
-       "de": 21,
+       "p": 0.744,
+       "veces": 22,
+       "de": 27,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "B) CAMPO ELECTROMAGNÉTICO Responda a1 o a2 a1) Indique, razonando sus respuestas, si los siguientes enunciados son ciertos: i) (0,5 puntos) si el flujo magnético a través de una superficie es cero entonces necesariamente el campo magnético es nulo; ii) (0,5 puntos) la fuerza elec…",
@@ -1699,9 +1915,9 @@
       "azar": 0.83,
       "top": [
        "gravitacion",
-       "magnetico",
        "ondas",
        "moderna",
+       "magnetico",
        "optica"
       ],
       "reales": [
@@ -1716,14 +1932,55 @@
     },
     "frances": {
      "nombre": "Lengua Extranjera II: Francés",
-     "n_examenes": 29,
+     "n_examenes": 37,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_frances.zip#frances/FRANCES-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_frances.zip#frances/FRANCES-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_frances.zip#frances/FRANCES-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_frances.zip#frances/FRANCES-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_frances.zip#frances/IMPRESO-FRANCES-EXTRA-ADMI-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_frances.zip#frances/IMPRESO-FRANCES-EXTRA-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_frances.zip#frances/IMPRESO-FRANCES-ORD-ADMISION-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_frances.zip#frances/IMPRESO-FRANCES-ORD-TITULAR-EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -1970,14 +2227,45 @@
     },
     "geografia": {
      "nombre": "Geografía",
-     "n_examenes": 23,
+     "n_examenes": 29,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_geografia.zip#geografia/GEOGRAFIA-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_geografia.zip#geografia/GEOGRAFIA-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_geografia.zip#geografia/GEOGRAFIA-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_geografia.zip#geografia/GEOGRAFIA-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_geografia.zip#geografia/IMPRESO-GEOGRAFIA-EXTRA-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_geografia.zip#geografia/IMPRESO-GEOGRAFIA-ORD-TITULAR-EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -2098,9 +2386,9 @@
       {
        "id": "poblacion",
        "nombre": "Población",
-       "p": 0.705,
-       "veces": 18,
-       "de": 23,
+       "p": 0.726,
+       "veces": 24,
+       "de": 29,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "EJERCICIO 3.2. A la vista de la pirámide de población que se presenta, responda a las siguientes cuestiones (hasta 2,5 puntos):",
@@ -2109,9 +2397,9 @@
       {
        "id": "sectores",
        "nombre": "Sectores económicos",
-       "p": 0.692,
-       "veces": 17,
-       "de": 23,
+       "p": 0.726,
+       "veces": 23,
+       "de": 29,
        "ultimo": 2026,
        "tendencia": "baja",
        "muestra": "Instrucciones para la realización del examen a) Duración: 1 hora y 30 minutos. b) El examen consta de cuatro bloques de ejercicios: 1. Ejercicio de tipo competencial (EJERCICIO 1). El alumnado responderá a las cuestiones vinculadas al mismo. No se ofrecen opciones. 2. Ejercicio d…",
@@ -2120,20 +2408,20 @@
       {
        "id": "clima",
        "nombre": "Clima y aguas",
-       "p": 0.68,
-       "veces": 16,
-       "de": 23,
+       "p": 0.653,
+       "veces": 19,
+       "de": 29,
        "ultimo": 2026,
-       "tendencia": "estable",
+       "tendencia": "sube",
        "muestra": "Instrucciones para la realización del examen a) Duración: 1 hora y 30 minutos. b) El examen consta de cuatro bloques de ejercicios: 1. Ejercicio de tipo competencial (EJERCICIO 1). El alumnado responderá a las cuestiones vinculadas al mismo. No se ofrecen opciones. 2. Ejercicio d…",
        "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_geografia.zip#Geografia/Ordinaria_Titular/Examen Titular Geografía.pdf"
       },
       {
        "id": "relieve",
        "nombre": "Relieve",
-       "p": 0.654,
-       "veces": 15,
-       "de": 23,
+       "p": 0.625,
+       "veces": 17,
+       "de": 29,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "Instrucciones para la realización del examen a) Duración: 1 hora y 30 minutos. b) El examen consta de cuatro bloques de ejercicios: 1. Ejercicio de tipo competencial (EJERCICIO 1). El alumnado responderá a las cuestiones vinculadas al mismo. No se ofrecen opciones. 2. Ejercicio d…",
@@ -2142,20 +2430,20 @@
       {
        "id": "urbano",
        "nombre": "Espacio urbano",
-       "p": 0.583,
-       "veces": 16,
-       "de": 23,
+       "p": 0.586,
+       "veces": 20,
+       "de": 29,
        "ultimo": 2026,
-       "tendencia": "baja",
+       "tendencia": "estable",
        "muestra": "“El territorio español, como todas las zonas emergidas, tiene un relieve estructurado en cuencas vertientes, en cada una de las cuales una red de cauces, que va confluyendo en uno principal, se encarga de conducir el agua hacia el mar. Con la entrada en vigor de la Directiva Marc…",
        "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_geografia.zip#Geografia/Ordinaria_Titular/Examen Titular Geografía.pdf"
       },
       {
        "id": "territorio",
        "nombre": "Organización territorial y Europa",
-       "p": 0.54,
-       "veces": 14,
-       "de": 23,
+       "p": 0.528,
+       "veces": 17,
+       "de": 29,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "BLOQUE 2 EJERCICIO 2. El mapa correspondiente a este ejercicio presenta la red de autopistas y de autovías (tanto libres como de peaje) de la península ibérica en el año 2015. Analícelo y responda a las preguntas siguientes (hasta 2,5 puntos): a) El mapa representa algunas provin…",
@@ -2172,7 +2460,7 @@
        "sectores",
        "poblacion",
        "relieve",
-       "urbano"
+       "clima"
       ],
       "reales": [
        "clima",
@@ -2333,16 +2621,120 @@
      },
      "confianza": "alta"
     },
+    "graficoplastica": {
+     "nombre": "Técnicas de Expresión Gráfico-Plástica",
+     "n_examenes": 12,
+     "anios": [
+      2024,
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2024_tecnicas_expresion_grafica.zip#TÉCNICAS DE EXPRESIÓN GRÁFICO-PLÁSTICA/Examen_Reserva-A_TÉCNICAS DE EXPRESIÓN GRÁFICO-PLÁSTICA.pdf"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2024_tecnicas_expresion_grafica.zip#TÉCNICAS DE EXPRESIÓN GRÁFICO-PLÁSTICA/Examen_Reserva-B_TÉCNICAS DE EXPRESIÓN GRÁFICO-PLÁSTICA.pdf"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2024_tecnicas_expresion_grafica.zip#TÉCNICAS DE EXPRESIÓN GRÁFICO-PLÁSTICA/Examen_Suplente-A_TÉCNICAS DE EXPRESIÓN GRÁFICO-PLÁSTICA.pdf"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2024_tecnicas_expresion_grafica.zip#TÉCNICAS DE EXPRESIÓN GRÁFICO-PLÁSTICA/Examen_Suplente-B_TÉCNICAS DE EXPRESIÓN GRÁFICO-PLÁSTICA.pdf"
+      },
+      {
+       "anio": 2024,
+       "conv": "nd",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2024_tecnicas_expresion_grafica.zip#TÉCNICAS DE EXPRESIÓN GRÁFICO-PLÁSTICA/Examen_Titular-A_TÉCNICAS DE EXPRESIÓN GRÁFICO-PLÁSTICA.pdf"
+      },
+      {
+       "anio": 2024,
+       "conv": "nd",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2024_tecnicas_expresion_grafica.zip#TÉCNICAS DE EXPRESIÓN GRÁFICO-PLÁSTICA/Examen_Titular-B_TÉCNICAS DE EXPRESIÓN GRÁFICO-PLÁSTICA.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2025_tecnicas_expresion_grafica.zip#Tecnicas_Expresion_Gradico_Plastica/Examen_Suplente1-A_TEGP.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2025_tecnicas_expresion_grafica.zip#Tecnicas_Expresion_Gradico_Plastica/Examen_Suplente1-B_TEGP.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2025_tecnicas_expresion_grafica.zip#Tecnicas_Expresion_Gradico_Plastica/Examen_Suplente2-A_TEGP.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2025_tecnicas_expresion_grafica.zip#Tecnicas_Expresion_Gradico_Plastica/Examen_Suplente2-B_TEGP.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "nd",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2025_tecnicas_expresion_grafica.zip#Tecnicas_Expresion_Gradico_Plastica/Examen_Titular-A_TEGP.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "nd",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2025_tecnicas_expresion_grafica.zip#Tecnicas_Expresion_Gradico_Plastica/Examen_Titular-B_TEGP.pdf"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
     "griego": {
      "nombre": "Griego II",
-     "n_examenes": 23,
+     "n_examenes": 29,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_griego.zip#griego/GRIEGO-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_griego.zip#griego/GRIEGO-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_griego.zip#griego/GRIEGO-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_griego.zip#griego/GRIEGO-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_griego.zip#griego/IMPRESO-GRIEGO-EXTRA-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_griego.zip#griego/IMPRESO-GRIEGO-ORD-TITULAR-EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -2464,8 +2856,8 @@
        "id": "traduccion",
        "nombre": "Traducción",
        "p": 0.9,
-       "veces": 23,
-       "de": 23,
+       "veces": 29,
+       "de": 29,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "A.1. TRADUCCIÓN DE UN TEXTO GRIEGO (hasta 4 puntos). Se plantean DOS textos, de los que debe traducir, a su elección, SOLAMENTE UNO:",
@@ -2475,8 +2867,8 @@
        "id": "morfosintaxis",
        "nombre": "Morfosintaxis",
        "p": 0.9,
-       "veces": 23,
-       "de": 23,
+       "veces": 29,
+       "de": 29,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "A.2. ANÁLISIS SINTÁCTICO (hasta 1 punto). Según la opción elegida en el apartado de traducción, responda a la cuestión A o a la cuestión B: A) Si ha elegido el texto de JENOFONTE, análisis sintáctico desde el principio hasta ποταμοῦ. B) Si ha elegido el texto de la ANTOLOGÍA, aná…",
@@ -2485,9 +2877,9 @@
       {
        "id": "literatura",
        "nombre": "Literatura griega",
-       "p": 0.641,
-       "veces": 17,
-       "de": 23,
+       "p": 0.681,
+       "veces": 23,
+       "de": 29,
        "ultimo": 2025,
        "tendencia": "baja",
        "muestra": "B.3. Según la opción que haya elegido en el apartado de traducción, responda a la cuestión A o a la cuestión B: A) Si ha elegido el texto de JENOFONTE, análisis sintáctico desde ἐνταῦθ᾿ ἔμεινεν hasta ἀγῶνα ἔθηκε. (0,5 puntos). B) Si ha elegido el texto de la ANTOLOGÍA, análisis s…",
@@ -2496,9 +2888,9 @@
       {
        "id": "lexico",
        "nombre": "Léxico y etimología",
-       "p": 0.309,
+       "p": 0.275,
        "veces": 5,
-       "de": 23,
+       "de": 29,
        "ultimo": 2026,
        "tendencia": "sube",
        "muestra": "BLOQUE B. LÉXICO Y ETIMOLOGÍA. (Puntuación máxima: 1 punto)",
@@ -2526,14 +2918,75 @@
     },
     "historia": {
      "nombre": "Historia de España",
-     "n_examenes": 59,
+     "n_examenes": 71,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_arte.zip#historia_arte/HARTE-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_arte.zip#historia_arte/HARTE-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_arte.zip#historia_arte/HARTE-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_arte.zip#historia_arte/HARTE-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_arte.zip#historia_arte/IMPRESO-HARTE-EXTRA-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_espana.zip#historia_espana/HistoriaEspaña-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_espana.zip#historia_espana/HistoriaEspaña-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_espana.zip#historia_espana/HistoriaEspaña-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_espana.zip#historia_espana/HistoriaEspaña-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_espana.zip#historia_espana/IMPRESO-HistoriaEspaña-EXTRA-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_arte.zip#historia_arte/IMPRESO-HARTE-ORD-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_historia_espana.zip#historia_espana/IMPRESO-HistoriaEspaña-ORD-TITULAR-EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -2834,20 +3287,31 @@
       {
        "id": "liberalismo",
        "nombre": "Crisis del Antiguo Régimen y liberalismo (1808-1874)",
-       "p": 0.24,
-       "veces": 15,
-       "de": 59,
+       "p": 0.253,
+       "veces": 20,
+       "de": 71,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "“Doña Isabel II, por la gracia de Dios y de la Constitución de la Monarquía española, Reina de las Españas […] hemos venido, en unión y de acuerdo con las Cortes actualmente reunidas, en decretar y sancionar la siguiente Constitución. Art. 2, 4, 5, 7, 9, 12,13, idénticos a la Con…",
        "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_historia_espana.zip#Historia_España/Ordinaria_Titular/Examen Titular_Historia de España.pdf"
       },
       {
+       "id": "restauracion",
+       "nombre": "Restauración (1874-1931)",
+       "p": 0.146,
+       "veces": 14,
+       "de": 71,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "“La realidad es ésta: la inmensa mayoría del pueblo español está abstenida, no interviene para nada en la vida pública; de los que quedan, eliminad las muchedumbres socialistas, anarquistas y libertarias que están sobre el horizonte, en el firmamento, pero forman otra constelació…",
+       "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_historia_espana.zip#Historia_España/Ordinaria_Incidencias/Examen Suplente 2_ Historia de España.pdf"
+      },
+      {
        "id": "transicion",
        "nombre": "Transición y democracia",
        "p": 0.138,
-       "veces": 8,
-       "de": 59,
+       "veces": 10,
+       "de": 71,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "PRUEBA DE ACCESO A LA UNIVERSIDAD Y PRUEBA DE ADMISIÓN HISTORIA DE ANDALUCÍA, CEUTA, MELILLA y CENTROS en MARRUECOS ESPAÑA CURSO 2025-2026",
@@ -2856,31 +3320,20 @@
       {
        "id": "guerracivil",
        "nombre": "Guerra Civil (1936-1939)",
-       "p": 0.134,
-       "veces": 9,
-       "de": 59,
+       "p": 0.135,
+       "veces": 11,
+       "de": 71,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "a) Explique los contenidos principales. b) Describa y explique el contexto histórico en el que se inscribe el documento y destaque su importancia para comprender el período del que forma parte. III. TEMA (de 0 a 3 puntos) Responda a UNO de los dos siguientes temas: 1. La creación…",
        "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_historia_espana.zip#Historia_España/Extraordinaria_Incidencias/Examen Suplente 2_Historia de España_Ex.pdf"
       },
       {
-       "id": "restauracion",
-       "nombre": "Restauración (1874-1931)",
-       "p": 0.122,
-       "veces": 9,
-       "de": 59,
-       "ultimo": 2026,
-       "tendencia": "estable",
-       "muestra": "“La realidad es ésta: la inmensa mayoría del pueblo español está abstenida, no interviene para nada en la vida pública; de los que quedan, eliminad las muchedumbres socialistas, anarquistas y libertarias que están sobre el horizonte, en el firmamento, pero forman otra constelació…",
-       "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_historia_espana.zip#Historia_España/Ordinaria_Incidencias/Examen Suplente 2_ Historia de España.pdf"
-      },
-      {
        "id": "republica",
        "nombre": "Segunda República (1931-1936)",
-       "p": 0.117,
-       "veces": 7,
-       "de": 59,
+       "p": 0.12,
+       "veces": 9,
+       "de": 71,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "a) Explique las ideas principales y secundarias. a) Explique los contenidos principales. b) Describa y explique el contexto histórico en el que b) Describa y explique el contexto histórico en el que se inscribe el documento y destaque su importancia se inscribe el documento y des…",
@@ -2889,9 +3342,9 @@
       {
        "id": "moderna",
        "nombre": "Monarquía hispánica (Reyes Católicos, Austrias, Borbones s. XVIII)",
-       "p": 0.104,
-       "veces": 6,
-       "de": 59,
+       "p": 0.101,
+       "veces": 7,
+       "de": 71,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "I. CUESTIONES (hasta 3 puntos en total, de 0 a 1’5 punto por pregunta respondida) Responda a DOS de las cuatro cuestiones planteadas: 1. Indique y explique cuáles fueron las culturas autóctonas existentes en la Península Ibérica antes de la llegada de los romanos. 2. ¿Qué nombre …",
@@ -2900,9 +3353,9 @@
       {
        "id": "franquismo",
        "nombre": "Franquismo (1939-1975)",
-       "p": 0.055,
-       "veces": 3,
-       "de": 59,
+       "p": 0.057,
+       "veces": 4,
+       "de": 71,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "a) Explique los contenidos principales. b) Describa y explique el contexto histórico en el que se inscribe el documento y destaque su importancia para comprender el período del que forma parte. III. TEMA (de 0 a 3 puntos) Responda a UNO de los dos siguientes temas: 1. La creación…",
@@ -2912,8 +3365,8 @@
        "id": "antigua",
        "nombre": "Prehistoria a Edad Media (Al-Ándalus, reinos cristianos)",
        "p": 0.05,
-       "veces": 2,
-       "de": 59,
+       "veces": 4,
+       "de": 71,
        "ultimo": 2024,
        "tendencia": "estable",
        "muestra": "1. Responda a las siguientes preguntas: a) ¿Quién ostentó por primera vez el título del califa en Córdoba durante el siglo X? b) Describa el legado cultural y económico de Al-Ándalus.",
@@ -2925,14 +3378,55 @@
     },
     "ingles": {
      "nombre": "Lengua Extranjera II: Inglés",
-     "n_examenes": 29,
+     "n_examenes": 37,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_ingles.zip#ingles/IMPRESO-INGLES-EXTRA-ADMI-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_ingles.zip#ingles/IMPRESO-INGLES-EXTRA-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_ingles.zip#ingles/INGLES-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_ingles.zip#ingles/INGLES-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_ingles.zip#ingles/INGLES-ORD-RESERVA--EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_ingles.zip#ingles/INGLES-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_ingles.zip#ingles/IMPRESO-INGLES-ORD-ADMI-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_ingles.zip#ingles/IMPRESO-INGLES-ORD-TITULAR-_acceso_EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -3084,8 +3578,8 @@
        "id": "reading",
        "nombre": "Comprensión lectora (true/false, preguntas)",
        "p": 0.9,
-       "veces": 29,
-       "de": 29,
+       "veces": 37,
+       "de": 37,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "CHOOSE AND WRITE THE CORRECT OPTION (A, B, C or D). (0.5 points each) A1. According to the text, the thieves… (a) pretended to be visitors of the museum. (b) recut the jewels they took from the cases. (c) picked items randomly. (d) failed to escape with all the jewels. A2. Accord…",
@@ -3095,8 +3589,8 @@
        "id": "vocab",
        "nombre": "Vocabulario (sinónimos, definiciones)",
        "p": 0.9,
-       "veces": 29,
-       "de": 29,
+       "veces": 37,
+       "de": 37,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "ARE THESE STATEMENTS TRUE OR FALSE? JUSTIFY YOUR ANSWERS WITH THE PRECISE WORDS OR PHRASES FROM THE TEXT. (0.5 points each) A3. The Louvre thieves remained hidden in the city centre after the theft. A4. The value of the French crown jewels can depreciate once they are dismantled.…",
@@ -3106,8 +3600,8 @@
        "id": "grammar",
        "nombre": "Gramática (reescritura, transformaciones)",
        "p": 0.9,
-       "veces": 29,
-       "de": 29,
+       "veces": 37,
+       "de": 37,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "1 Last October, as the sun rose over Paris and visitors began queueing through the Louvre Museum’s corridors, one of the most 2 shocking thefts in recent memory took place. Within eight minutes, a gang of thieves sped away from the heart of the French 3 capital with some of the n…",
@@ -3117,8 +3611,8 @@
        "id": "writing",
        "nombre": "Redacción (opinión, carta, email)",
        "p": 0.9,
-       "veces": 29,
-       "de": 29,
+       "veces": 37,
+       "de": 37,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "Instrucciones: a) Duración: 1 hora y 30 minutos. b) Todas las cuestiones deben responderse en el papel entregado para la realización del examen y nunca en los folios que contienen los enunciados. c) Este examen consta de varios bloques. Debe responder a las preguntas que se indic…",
@@ -3129,7 +3623,7 @@
        "nombre": "Mediación",
        "p": 0.05,
        "veces": 0,
-       "de": 29,
+       "de": 37,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -3159,14 +3653,55 @@
     },
     "italiano": {
      "nombre": "Lengua Extranjera II: Italiano",
-     "n_examenes": 27,
+     "n_examenes": 35,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_italiano.zip#italiano/IMPRESO-ITALIANO-EXTRA-ADMI-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_italiano.zip#italiano/IMPRESO-ITALIANO-EXTRA-TITULAR-EXAMEN_acceso.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_italiano.zip#italiano/ITALIANO-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_italiano.zip#italiano/ITALIANO-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_italiano.zip#italiano/ITALIANO-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_italiano.zip#italiano/ITALIANO-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_italiano.zip#italiano/CORREGIDO-IMPRESO-ITALIANO-ORD-TITULAR-EXAMEN_acceso.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_italiano.zip#italiano/IMPRESO-ITALIANO- ORD-ADMI-EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -3309,14 +3844,45 @@
     },
     "latin": {
      "nombre": "Latín II",
-     "n_examenes": 24,
+     "n_examenes": 30,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_latin.zip#sel_2022_latin/IMPRESO-LATIN-EXTRA-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_latin.zip#sel_2022_latin/LATIN-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_latin.zip#sel_2022_latin/LATIN-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_latin.zip#sel_2022_latin/LATIN-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_latin.zip#sel_2022_latin/LATIN-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_latin.zip#sel_2022_latin/IMPRESO-LATIN-ORD-TITULAR-EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -3443,8 +4009,8 @@
        "id": "traduccion",
        "nombre": "Traducción",
        "p": 0.9,
-       "veces": 24,
-       "de": 24,
+       "veces": 30,
+       "de": 30,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "APARTADO A. El texto: comprensión y traducción",
@@ -3454,8 +4020,8 @@
        "id": "morfosintaxis",
        "nombre": "Morfosintaxis",
        "p": 0.9,
-       "veces": 24,
-       "de": 24,
+       "veces": 30,
+       "de": 30,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "En cada apartado se plantean varias opciones o preguntas, de las que se deberá responder al número que se indica en cada uno. En caso de responder a más cuestiones de las requeridas, serán tenidas en cuenta las respondidas en primer lugar.",
@@ -3464,9 +4030,9 @@
       {
        "id": "literatura",
        "nombre": "Literatura latina",
-       "p": 0.097,
-       "veces": 4,
-       "de": 24,
+       "p": 0.116,
+       "veces": 6,
+       "de": 30,
        "ultimo": 2024,
        "tendencia": "baja",
        "muestra": "7. ¿Quién escribió las “Catilinarias”? 8. ¿Qué escritor romano compuso la “Guerra Civil”? 9. ¿Qué autor latino compuso los “Epodos”? 10. ¿Qué género literario cultivó Fedro?",
@@ -3477,7 +4043,7 @@
        "nombre": "Léxico y etimología",
        "p": 0.05,
        "veces": 0,
-       "de": 24,
+       "de": 30,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -3503,14 +4069,45 @@
     },
     "lengua": {
      "nombre": "Lengua Castellana y Literatura II",
-     "n_examenes": 21,
+     "n_examenes": 27,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_lengua_castellana.zip#lengua_castellana/IMPRESO-LENGUA-EXTRA-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_lengua_castellana.zip#lengua_castellana/LENGUA-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_lengua_castellana.zip#lengua_castellana/LENGUA-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_lengua_castellana.zip#lengua_castellana/LENGUA-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_lengua_castellana.zip#lengua_castellana/LENGUA-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_lengua_castellana.zip#lengua_castellana/IMPRESO-LENGUAYLITERATURA-ORD-TITULAR-EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -3622,8 +4219,8 @@
        "id": "sintaxis",
        "nombre": "Sintaxis (oración compuesta)",
        "p": 0.9,
-       "veces": 21,
-       "de": 21,
+       "veces": 27,
+       "de": 27,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "⎯ Identifique y explique las relaciones sintácticas que se establecen entre las oraciones del fragmento siguiente: Era puntual, saludaba con afecto al maestro, nunca hablaba mal de nadie, era amable con los compañeros, prestaba atención a la persona que estaba hablando, era respe…",
@@ -3633,8 +4230,8 @@
        "id": "morfologia",
        "nombre": "Léxico, morfología y semántica",
        "p": 0.9,
-       "veces": 21,
-       "de": 21,
+       "veces": 27,
+       "de": 27,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "1. Identifique las ideas del texto, exponga de forma concisa su organización e indique razonadamente su estructura. (1.5 puntos) 2. Explique la intención comunicativa del autor. (0.5 puntos) 3. ¿Cree que en España actualmente se ha perdido la buena educación? Elabore un discurso …",
@@ -3643,20 +4240,31 @@
       {
        "id": "novela",
        "nombre": "Novela del siglo XX y actual",
-       "p": 0.689,
-       "veces": 16,
-       "de": 21,
+       "p": 0.71,
+       "veces": 21,
+       "de": 27,
        "ultimo": 2026,
        "tendencia": "baja",
        "muestra": "CUIDADO. Son fechas peligrosas. Podría estar a punto de matricularse en un gimnasio que ofrece la posibilidad de cambiar su vida. Las autoridades sanitarias no advierten del riesgo de caer en las garras de los nuevos centros de sociabilización, como debería hacer con avisos al pi…",
        "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_lengua_castellana.zip#Lengua/Extraordinaria_Incidencias/Examen Suplente 2_ Lengua Castellana y Literatura_Ex.pdf"
       },
       {
+       "id": "argumentacion",
+       "nombre": "Texto argumentativo / opinión",
+       "p": 0.553,
+       "veces": 20,
+       "de": 27,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "Lavarse las manos antes de comer, no poner los codos sobre la mesa, no hablar con la boca llena, son normas de urbanidad que nos enseñaban en la escuela. En aquellos lejanos tiempos del florido pensil en medio de la miseria de posguerra los niños cantábamos la tabla de multiplica…",
+       "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_lengua_castellana.zip#Lengua/Ordinaria_Titular/Examen Titular_Lengua Castellana y Literatura.pdf"
+      },
+      {
        "id": "teatro",
        "nombre": "Teatro del siglo XX",
-       "p": 0.567,
-       "veces": 12,
-       "de": 21,
+       "p": 0.534,
+       "veces": 14,
+       "de": 27,
        "ultimo": 2026,
        "tendencia": "sube",
        "muestra": "⎯ Responda a las tres cuestiones que se plantean a partir del tema «El teatro desde principios del siglo XX hasta 1939». (1.5 puntos)",
@@ -3665,46 +4273,35 @@
       {
        "id": "lit27",
        "nombre": "Literatura: 27, Lorca, poesía de posguerra",
-       "p": 0.546,
-       "veces": 13,
-       "de": 21,
+       "p": 0.497,
+       "veces": 14,
+       "de": 27,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "Lavarse las manos antes de comer, no poner los codos sobre la mesa, no hablar con la boca llena, son normas de urbanidad que nos enseñaban en la escuela. En aquellos lejanos tiempos del florido pensil en medio de la miseria de posguerra los niños cantábamos la tabla de multiplica…",
        "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_lengua_castellana.zip#Lengua/Ordinaria_Titular/Examen Titular_Lengua Castellana y Literatura.pdf"
       },
       {
-       "id": "lit98",
-       "nombre": "Literatura: Modernismo y 98, novecentismo",
-       "p": 0.51,
-       "veces": 9,
-       "de": 21,
-       "ultimo": 2026,
-       "tendencia": "sube",
-       "muestra": "1. Cite dos autoras destacables de ese periodo e indique algunas de sus características. (0.5 puntos) 2. Señale dos temas fundamentales de la generación del 98 y dos obras donde queden reflejados. (0.5 puntos) 3. Mencione dos autores de la generación del 98 y una obra representat…",
-       "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_lengua_castellana.zip#Lengua/Extraordinaria_Incidencias/Examen Suplente 2_ Lengua Castellana y Literatura_Ex.pdf"
-      },
-      {
-       "id": "argumentacion",
-       "nombre": "Texto argumentativo / opinión",
-       "p": 0.505,
-       "veces": 14,
-       "de": 21,
-       "ultimo": 2026,
-       "tendencia": "baja",
-       "muestra": "Lavarse las manos antes de comer, no poner los codos sobre la mesa, no hablar con la boca llena, son normas de urbanidad que nos enseñaban en la escuela. En aquellos lejanos tiempos del florido pensil en medio de la miseria de posguerra los niños cantábamos la tabla de multiplica…",
-       "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_lengua_castellana.zip#Lengua/Ordinaria_Titular/Examen Titular_Lengua Castellana y Literatura.pdf"
-      },
-      {
        "id": "comprension",
        "nombre": "Comprensión y resumen del texto",
-       "p": 0.309,
-       "veces": 11,
-       "de": 21,
+       "p": 0.481,
+       "veces": 17,
+       "de": 27,
        "ultimo": 2024,
        "tendencia": "baja",
        "muestra": "1. Identifique las ideas del texto, exponga de forma concisa su organización e indique razonadamente su estructura. (1.5 puntos) 2. Explique la intención comunicativa del autor (0.5 puntos) y comente dos mecanismos de cohesión distintos que refuercen la coherencia textual. (1 pun…",
        "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2024_lengua_castellana.zip#LENGUA CASTELLANA Y LITERATURA II/Examen_Reserva-A_LENGUA CASTELLANA Y LITERATURA II.pdf"
+      },
+      {
+       "id": "lit98",
+       "nombre": "Literatura: Modernismo y 98, novecentismo",
+       "p": 0.461,
+       "veces": 9,
+       "de": 27,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "1. Cite dos autoras destacables de ese periodo e indique algunas de sus características. (0.5 puntos) 2. Señale dos temas fundamentales de la generación del 98 y dos obras donde queden reflejados. (0.5 puntos) 3. Mencione dos autores de la generación del 98 y una obra representat…",
+       "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_lengua_castellana.zip#Lengua/Extraordinaria_Incidencias/Examen Suplente 2_ Lengua Castellana y Literatura_Ex.pdf"
       }
      ],
      "validacion": {
@@ -3826,14 +4423,75 @@
     },
     "matccss": {
      "nombre": "Matemáticas Aplicadas a las CC. Sociales II",
-     "n_examenes": 32,
+     "n_examenes": 44,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas_aplicadas.zip#matematicas_aplicadas/IMPRESO-MATAPL-EXTRA-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas_aplicadas.zip#matematicas_aplicadas/MATAPL-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas_aplicadas.zip#matematicas_aplicadas/MATAPL-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas_aplicadas.zip#matematicas_aplicadas/MATEMATICASAPLICADAS-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas_aplicadas.zip#matematicas_aplicadas/MATEMATICASAPLICADAS-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas_aplicadas.zip#matematicas_aplicadas/Tablas Normal_EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas_aplicadas.zip#matematicas_aplicadas/Tablas Normal_EXTRA-SUPLENTE.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas_aplicadas.zip#matematicas_aplicadas/Tablas Normal_ORD-RESERVA.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas_aplicadas.zip#matematicas_aplicadas/Tablas Normal_ORD-SUPLENTE.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas_aplicadas.zip#matematicas_aplicadas/TABLA_EXTRA-TITULAR.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas_aplicadas.zip#matematicas_aplicadas/IMPRESO-MATEMATICAS APLICADAS-ORD-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas_aplicadas.zip#matematicas_aplicadas/Tablas Normal_ORD-TITULAR.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -3999,9 +4657,9 @@
       {
        "id": "probabilidad",
        "nombre": "Probabilidad",
-       "p": 0.722,
-       "veces": 24,
-       "de": 32,
+       "p": 0.679,
+       "veces": 30,
+       "de": 44,
        "ultimo": 2026,
        "tendencia": "sube",
        "muestra": "A) a) (1 punto) Dada la población {−5, −2, 13, 18, 20}, se consideran todas las muestras de tamaño 3 obtenidas mediante muestreo aleatorio simple. Calcule la media y la varianza de la distribución de la variable media muestral. b) (1 punto) Dados dos sucesos 𝐴 y 𝐵 de un mismo esp…",
@@ -4010,9 +4668,9 @@
       {
        "id": "inferencia",
        "nombre": "Inferencia y distribución normal",
-       "p": 0.722,
-       "veces": 24,
-       "de": 32,
+       "p": 0.679,
+       "veces": 30,
+       "de": 44,
        "ultimo": 2026,
        "tendencia": "sube",
        "muestra": "A) a) (1 punto) Dada la población {−5, −2, 13, 18, 20}, se consideran todas las muestras de tamaño 3 obtenidas mediante muestreo aleatorio simple. Calcule la media y la varianza de la distribución de la variable media muestral. b) (1 punto) Dados dos sucesos 𝐴 y 𝐵 de un mismo esp…",
@@ -4021,9 +4679,9 @@
       {
        "id": "funciones",
        "nombre": "Funciones y derivadas",
-       "p": 0.554,
-       "veces": 19,
-       "de": 32,
+       "p": 0.512,
+       "veces": 23,
+       "de": 44,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "B) (3 puntos) Una empresa maderera fabrica tableros de dos tipos, DM y aglomerado, a partir de madera triturada. Para producir 1 𝑚2 de tablero DM se consumen 10 𝑚3 de madera triturada y se obtiene un beneficio de 10€. Para producir 1 𝑚2 de tablero aglomerado se consumen 30 𝑚3 de …",
@@ -4032,9 +4690,9 @@
       {
        "id": "matrices",
        "nombre": "Matrices y sistemas",
-       "p": 0.508,
-       "veces": 15,
-       "de": 32,
+       "p": 0.492,
+       "veces": 19,
+       "de": 44,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "A) Considere el sistema de ecuaciones lineales:",
@@ -4043,9 +4701,9 @@
       {
        "id": "progl",
        "nombre": "Programación lineal",
-       "p": 0.135,
-       "veces": 3,
-       "de": 32,
+       "p": 0.125,
+       "veces": 4,
+       "de": 44,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "a) (1.75 puntos) Represente gráficamente el recinto y calcule sus vértices. b) (0.5 puntos) Indique razonadamente si los puntos y pertenecen al recinto. c) (0.75 puntos) Obtenga el valor máximo y mínimo de la función objetivo en el recinto anterior, así como los puntos donde se a…",
@@ -4055,12 +4713,12 @@
        "id": "integrales",
        "nombre": "Integrales y áreas",
        "p": 0.05,
-       "veces": 0,
-       "de": 32,
-       "ultimo": null,
+       "veces": 1,
+       "de": 44,
+       "ultimo": 2022,
        "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
+       "muestra": "BLOQUE B EJERCICIO 3 a) (1.25 puntos) Se considera la función 𝑓(𝑥) = 𝑥 3 + 𝑎𝑥 2 + 𝑏𝑥 + 𝑐, con 𝑎, 𝑏 y 𝑐 números reales. Calcule los valores 𝑎, 𝑏 y 𝑐, sabiendo que la gráfica de f posee un extremo relativo en el punto de abscisa 𝑥 = 3 y que la pendiente de la recta tangente a la gr…",
+       "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas_aplicadas.zip#matematicas_aplicadas/IMPRESO-MATEMATICAS APLICADAS-ORD-TITULAR-EXAMEN.pdf"
       }
      ],
      "validacion": {
@@ -4084,14 +4742,45 @@
     },
     "matematicas2": {
      "nombre": "Matemáticas II",
-     "n_examenes": 25,
+     "n_examenes": 31,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas.zip#matematicas/IMPRESO-MATii-EXTRA-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas.zip#matematicas/MATEMATICASii-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas.zip#matematicas/MATEMATICASii-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas.zip#matematicas/MATii-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas.zip#matematicas/MATii-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_matematicas.zip#matematicas/IMPRESO-MATEMATICASii-ORD-TITULAR-EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -4222,9 +4911,9 @@
       {
        "id": "geometria",
        "nombre": "Geometría en el espacio",
-       "p": 0.861,
-       "veces": 24,
-       "de": 25,
+       "p": 0.865,
+       "veces": 30,
+       "de": 31,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "Instrucciones: a) Duración: 1 hora y 30 minutos. b) Todas las cuestiones deben responderse en el papel entregado para la realización del examen y nunca en los folios que contienen los enunciados. c) Este examen consta de seis ejercicios distribuidos en una parte con dos ejercicio…",
@@ -4233,9 +4922,9 @@
       {
        "id": "matrices",
        "nombre": "Matrices y determinantes",
-       "p": 0.658,
-       "veces": 18,
-       "de": 25,
+       "p": 0.678,
+       "veces": 23,
+       "de": 31,
        "ultimo": 2026,
        "tendencia": "baja",
        "muestra": "EJERCICIO 3.2 (2,5 puntos) \u0012 \u0013 \u0012 \u0013 2 2 3 1 Considera las matrices A = y B= . 3 4 2 2",
@@ -4244,9 +4933,9 @@
       {
        "id": "probabilidad",
        "nombre": "Probabilidad y distribuciones",
-       "p": 0.627,
+       "p": 0.565,
        "veces": 13,
-       "de": 25,
+       "de": 31,
        "ultimo": 2026,
        "tendencia": "sube",
        "muestra": "Instrucciones: a) Duración: 1 hora y 30 minutos. b) Todas las cuestiones deben responderse en el papel entregado para la realización del examen y nunca en los folios que contienen los enunciados. c) Este examen consta de seis ejercicios distribuidos en una parte con dos ejercicio…",
@@ -4255,9 +4944,9 @@
       {
        "id": "derivadas",
        "nombre": "Derivadas y aplicaciones",
-       "p": 0.516,
-       "veces": 14,
-       "de": 25,
+       "p": 0.517,
+       "veces": 17,
+       "de": 31,
        "ultimo": 2026,
        "tendencia": "baja",
        "muestra": "Instrucciones: a) Duración: 1 hora y 30 minutos. b) Todas las cuestiones deben responderse en el papel entregado para la realización del examen y nunca en los folios que contienen los enunciados. c) Este examen consta de seis ejercicios distribuidos en una parte con dos ejercicio…",
@@ -4266,9 +4955,9 @@
       {
        "id": "integrales",
        "nombre": "Integrales y áreas",
-       "p": 0.44,
-       "veces": 13,
-       "de": 25,
+       "p": 0.471,
+       "veces": 18,
+       "de": 31,
        "ultimo": 2026,
        "tendencia": "baja",
        "muestra": "b) [1,5 puntos] Para m = 1, calcula el área del triángulo de vértices A, B, C y el volumen del tetraedro de vértices A, B, C, D. PRUEBA DE ACCESO A LA UNIVERSIDAD Y PRUEBA DE ADMISIÓN ANDALUCÍA, CEUTA, MELILLA y CENTROS en MARRUECOS MATEMÁTICAS II CURSO 2025–2026",
@@ -4277,9 +4966,9 @@
       {
        "id": "limites",
        "nombre": "Límites y continuidad",
-       "p": 0.348,
-       "veces": 10,
-       "de": 25,
+       "p": 0.36,
+       "veces": 13,
+       "de": 31,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "EJERCICIO 3.1 (2,5 puntos) Calcula el siguiente límite x2 − sen(x2 ) lı́m x→0 1 − cos(x)",
@@ -4288,9 +4977,9 @@
       {
        "id": "sistemas",
        "nombre": "Sistemas de ecuaciones (discusión)",
-       "p": 0.079,
-       "veces": 2,
-       "de": 25,
+       "p": 0.086,
+       "veces": 3,
+       "de": 31,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "EJERCICIO 2. (2,5 puntos)       1 2 1 x 3 Considera las matrices A =  0 3 1 , X =  y  y B =  3  . −2 0 0 z 1 Discute el sistema AX − mX = B, según los valores del parámetro m. PRUEBA DE ACCESO A LA UNIVERSIDAD Y PRUEBA DE ADMISIÓN ANDALUCÍA, CEUTA, MELILLA y CENTROS e…",
@@ -4402,7 +5091,7 @@
     },
     "musica": {
      "nombre": "Análisis Musical II / Historia de la Música",
-     "n_examenes": 17,
+     "n_examenes": 19,
      "anios": [
       2024,
       2025,
@@ -4433,6 +5122,16 @@
        "anio": 2024,
        "conv": "ext",
        "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2024_analisis_musical.zip#ANÁLISIS MUSICAL II/PartituraA_Reserva-B_ANÁLISIS MUSICAL II.pdf"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2018_fundamentos_arte.zip#fundamentos_arte/Reserva A/EXAMEN-4.pdf"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2019_fundamentos_arte.zip#sel_2019_fundamentos_arte/Reserva A/Exámenes Fundamentos del Arte II - A y B.pdf"
       },
       {
        "anio": 2024,
@@ -4501,14 +5200,55 @@
     },
     "portugues": {
      "nombre": "Lengua Extranjera II: Portugués",
-     "n_examenes": 27,
+     "n_examenes": 35,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_portugues.zip#portugues/IMPRESO-PORTUGUES-EXTRA-ADMI-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_portugues.zip#portugues/IMPRESO-PORTUGUES-EXTRA-TITULAR-EXAMEN_acceso.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_portugues.zip#portugues/PORTUGUES-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_portugues.zip#portugues/PORTUGUES-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_portugues.zip#portugues/PORTUGUES-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_portugues.zip#portugues/PORTUGUES-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_portugues.zip#portugues/IMPRESO-PORTUGUES-ORD-ADMISION-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_portugues.zip#portugues/IMPRESO-PORTUGUES-ORD-TITULAR-EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -4651,14 +5391,45 @@
     },
     "quimica": {
      "nombre": "Química",
-     "n_examenes": 24,
+     "n_examenes": 30,
      "anios": [
+      2022,
       2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_quimica.zip#quimica/IMPRESO-QUIMICA-EXTRA-TITULAR-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_quimica.zip#quimica/QUIMICA-EXTRA-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_quimica.zip#quimica/QUIMICA-EXTRA-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_quimica.zip#quimica/QUIMICA-ORD-RESERVA-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_quimica.zip#quimica/QUIMICA-ORD-SUPLENTE-EXAMEN.pdf"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2022_quimica.zip#quimica/IMPRESO-QUIMICA-ORD-TITULAR-EXAMEN.pdf"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -4784,9 +5555,9 @@
       {
        "id": "acidobase",
        "nombre": "Ácido-base",
-       "p": 0.859,
-       "veces": 23,
-       "de": 24,
+       "p": 0.863,
+       "veces": 29,
+       "de": 30,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "3B. Una disolución acuosa de hidróxido de potasio (KOH) para uso industrial tiene una riqueza en masa del 40% y densidad 1,515 g·mL–1 a) Calcule el volumen necesario de esta disolución para preparar 5 L de disolución acuosa de pH= 13. b) A 50 mL de la disolución de uso industrial…",
@@ -4795,9 +5566,9 @@
       {
        "id": "equilibrio",
        "nombre": "Equilibrio químico y solubilidad",
-       "p": 0.806,
-       "veces": 22,
-       "de": 24,
+       "p": 0.816,
+       "veces": 28,
+       "de": 30,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "3A. En un recipiente de 2 L, en el que inicialmente se ha hecho el vacío, se introducen 2 g de C y 4,4 g de CO2 y se calienta a 1000 K, estableciéndose el siguiente equilibrio: C(s) + CO2(g) ⇄ 2 CO(g) a) Determine la presión parcial del CO en el equilibrio, sabiendo que KC= 0,164…",
@@ -4806,9 +5577,9 @@
       {
        "id": "organica",
        "nombre": "Química orgánica",
-       "p": 0.713,
-       "veces": 18,
-       "de": 24,
+       "p": 0.703,
+       "veces": 22,
+       "de": 30,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "4A. a) Nombre o formule los siguientes compuestos: CH3CH(NH2)COOH CH3CH2CH2CONH2 Propanona Etilbenceno b) Complete la reacción e indique de qué tipo es: CH3CH2CH=CH2 + HBr → c) Justifique el tipo de isomería que presenta el compuesto CH3CH=CHCH3 d) Indique la hibridación que pres…",
@@ -4817,9 +5588,9 @@
       {
        "id": "estructura",
        "nombre": "Estructura atómica y tabla periódica",
-       "p": 0.679,
-       "veces": 18,
-       "de": 24,
+       "p": 0.687,
+       "veces": 23,
+       "de": 30,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "1A. Consideres los elementos cuyos números atómicos son 11 y 16. Conteste a las siguientes cuestiones: a) Escriba sus configuraciones electrónicas. b) Basándose en la configuración electrónica, explique el grupo y periodo donde se encuentra cada elemento. c) Justifique qué elemen…",
@@ -4828,42 +5599,42 @@
       {
        "id": "redox",
        "nombre": "Redox y electroquímica",
-       "p": 0.59,
-       "veces": 14,
-       "de": 24,
+       "p": 0.574,
+       "veces": 17,
+       "de": 30,
        "ultimo": 2026,
        "tendencia": "sube",
        "muestra": "El arsénico se conoce desde tiempos remotos y ha tenido múltiples usos en diversas áreas, desde la medicina hasta la industria. Se trata de un elemento esencial para la vida y, sin embargo, se da la gran paradoja de que también es muy tóxico. Una exposición continuada a este elem…",
        "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_quimica.zip#Quimica/Ordinaria_Titular/Examen Titular Quínica.pdf"
       },
       {
-       "id": "termo",
-       "nombre": "Termoquímica y espontaneidad",
-       "p": 0.529,
-       "veces": 10,
-       "de": 24,
-       "ultimo": 2026,
-       "tendencia": "sube",
-       "muestra": "PREGUNTA 1.- (2 puntos: 0,5 puntos cada apartado). Responda a UNA de las siguientes cuestiones (1A o 1B). 1A. a) Razone si son posibles las siguientes combinaciones de números cuánticos: (3,2,1,–½), (1,1,0,+½). b) Justifique cuál de los siguientes orbitales es más energético: 5d …",
-       "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_quimica.zip#Quimica/Extraordinaria_Incidencias/Examen Suplente 2 Química_Ex.pdf"
-      },
-      {
        "id": "enlace",
        "nombre": "Enlace químico",
-       "p": 0.524,
-       "veces": 14,
-       "de": 24,
+       "p": 0.5,
+       "veces": 16,
+       "de": 30,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "1A. Consideres los elementos cuyos números atómicos son 11 y 16. Conteste a las siguientes cuestiones: a) Escriba sus configuraciones electrónicas. b) Basándose en la configuración electrónica, explique el grupo y periodo donde se encuentra cada elemento. c) Justifique qué elemen…",
        "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_quimica.zip#Quimica/Ordinaria_Titular/Examen Titular Quínica.pdf"
       },
       {
+       "id": "termo",
+       "nombre": "Termoquímica y espontaneidad",
+       "p": 0.485,
+       "veces": 10,
+       "de": 30,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "PREGUNTA 1.- (2 puntos: 0,5 puntos cada apartado). Responda a UNA de las siguientes cuestiones (1A o 1B). 1A. a) Razone si son posibles las siguientes combinaciones de números cuánticos: (3,2,1,–½), (1,1,0,+½). b) Justifique cuál de los siguientes orbitales es más energético: 5d …",
+       "muestra_url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_quimica.zip#Quimica/Extraordinaria_Incidencias/Examen Suplente 2 Química_Ex.pdf"
+      },
+      {
        "id": "cinetica",
        "nombre": "Cinética química",
-       "p": 0.152,
+       "p": 0.136,
        "veces": 3,
-       "de": 24,
+       "de": 30,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "2A. Justifique la espontaneidad de cada uno de los siguientes procesos en función de la temperatura: a) CaCO3(s) → CaO(s) + CO2(g) ∆H> 0 b) 2 NO2(g) → 2 NO(g) + O2(g) ∆H< 0 c) Fe(s) + 2 HCl(aq) → FeCl2(aq) + H2(g) ∆H< 0 d) H2(g) + CO(g) → HCHO(g) ∆H> 0 2B. Dada la ecuación elemen…",
@@ -4899,10 +5670,11 @@
     },
     "tecnologia": {
      "nombre": "Tecnología e Ingeniería II",
-     "n_examenes": 12,
+     "n_examenes": 17,
      "anios": [
       2024,
-      2025
+      2025,
+      2026
      ],
      "examenes": [
       {
@@ -4964,6 +5736,31 @@
        "anio": 2025,
        "conv": "nd",
        "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2025_tecnnologia_ingenieria.zip#TecnologiaIngenieriaII/Examen_Titular-B_TecnologiaIngenieriaII.pdf"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_tecnnologia_ingenieria.zip#Tecnologia/Extraordinaria_Incompatibilidad/Examen Suplente 1 Tecnología e Ingeniería II_Ex.pdf"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_tecnnologia_ingenieria.zip#Tecnologia/Extraordinaria_Titular/Examen Titular Tecnología e Ingeniería II_Ex.pdf"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_tecnnologia_ingenieria.zip#Tecnologia/Ordinaria_Incidencias/Examen Suplente 2 Tecnología e Ingeniería II.pdf"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_tecnnologia_ingenieria.zip#Tecnologia/Ordinaria_Incompatibilidad/Examen Suplente 1 Tecnología e Ingeniería II.pdf"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/examanes_anios_anteriores/selectividad/sel_2026_tecnnologia_ingenieria.zip#Tecnologia/Ordinaria_Titular/Examen Titular Tecnología e Ingeniería II.pdf"
       }
      ],
      "temas": [],
@@ -48826,49 +49623,49 @@
    {
     "id": "molecular",
     "nombre": "Genética molecular y biotecnología",
-    "p": 0.792,
+    "p": 0.789,
     "ccaa": 13
    },
    {
     "id": "biomoleculas",
     "nombre": "Biomoléculas",
-    "p": 0.777,
+    "p": 0.78,
     "ccaa": 13
    },
    {
     "id": "inmunologia",
     "nombre": "Inmunología",
-    "p": 0.705,
+    "p": 0.71,
     "ccaa": 13
    },
    {
     "id": "metabolismo",
     "nombre": "Metabolismo",
-    "p": 0.693,
+    "p": 0.686,
     "ccaa": 13
    },
    {
     "id": "celula",
     "nombre": "La célula",
-    "p": 0.632,
+    "p": 0.636,
     "ccaa": 13
    },
    {
     "id": "microbiologia",
     "nombre": "Microbiología",
-    "p": 0.59,
+    "p": 0.596,
     "ccaa": 13
    },
    {
     "id": "division",
     "nombre": "División celular",
-    "p": 0.469,
+    "p": 0.471,
     "ccaa": 13
    },
    {
     "id": "genetica",
     "nombre": "Genética mendeliana",
-    "p": 0.283,
+    "p": 0.288,
     "ccaa": 13
    }
   ],
@@ -48876,31 +49673,31 @@
    {
     "id": "normalizacion",
     "nombre": "Normalización y vistas",
-    "p": 0.67,
+    "p": 0.659,
     "ccaa": 12
    },
    {
     "id": "axonometrico",
     "nombre": "Axonométrico y perspectiva",
-    "p": 0.634,
+    "p": 0.624,
     "ccaa": 12
    },
    {
     "id": "diedrico",
     "nombre": "Sistema diédrico",
-    "p": 0.548,
+    "p": 0.539,
     "ccaa": 12
    },
    {
     "id": "geometriaplana",
     "nombre": "Geometría plana (tangencias, transformaciones)",
-    "p": 0.542,
+    "p": 0.532,
     "ccaa": 12
    },
    {
     "id": "conicas",
     "nombre": "Cónicas",
-    "p": 0.474,
+    "p": 0.468,
     "ccaa": 12
    }
   ],
@@ -48946,61 +49743,61 @@
    {
     "id": "platon",
     "nombre": "Platón",
-    "p": 0.477,
+    "p": 0.485,
     "ccaa": 13
    },
    {
     "id": "descartes",
     "nombre": "Descartes",
-    "p": 0.309,
+    "p": 0.322,
     "ccaa": 13
    },
    {
     "id": "kant",
     "nombre": "Kant",
-    "p": 0.279,
+    "p": 0.289,
     "ccaa": 13
    },
    {
     "id": "aristoteles",
     "nombre": "Aristóteles",
-    "p": 0.242,
+    "p": 0.237,
     "ccaa": 13
    },
    {
     "id": "empirismo",
     "nombre": "Hume / Locke",
-    "p": 0.238,
+    "p": 0.232,
     "ccaa": 13
    },
    {
     "id": "contemporanea",
     "nombre": "Filosofía contemporánea (Arendt, Wittgenstein, Beauvoir…)",
-    "p": 0.231,
+    "p": 0.226,
     "ccaa": 13
    },
    {
     "id": "nietzsche",
     "nombre": "Nietzsche",
-    "p": 0.227,
+    "p": 0.222,
     "ccaa": 13
    },
    {
     "id": "medieval",
     "nombre": "Agustín de Hipona / Tomás de Aquino",
-    "p": 0.181,
+    "p": 0.193,
     "ccaa": 13
    },
    {
     "id": "marx",
     "nombre": "Marx",
-    "p": 0.126,
+    "p": 0.124,
     "ccaa": 13
    },
    {
     "id": "ortega",
     "nombre": "Ortega y Gasset",
-    "p": 0.087,
+    "p": 0.086,
     "ccaa": 13
    }
   ],
@@ -49008,37 +49805,37 @@
    {
     "id": "gravitacion",
     "nombre": "Campo gravitatorio",
-    "p": 0.756,
-    "ccaa": 13
-   },
-   {
-    "id": "optica",
-    "nombre": "Óptica",
-    "p": 0.636,
+    "p": 0.762,
     "ccaa": 13
    },
    {
     "id": "ondas",
     "nombre": "Ondas y sonido",
-    "p": 0.635,
+    "p": 0.643,
+    "ccaa": 13
+   },
+   {
+    "id": "optica",
+    "nombre": "Óptica",
+    "p": 0.642,
     "ccaa": 13
    },
    {
     "id": "moderna",
     "nombre": "Física moderna (cuántica, nuclear, relatividad)",
-    "p": 0.629,
+    "p": 0.636,
     "ccaa": 13
    },
    {
     "id": "electrico",
     "nombre": "Campo eléctrico",
-    "p": 0.614,
+    "p": 0.618,
     "ccaa": 13
    },
    {
     "id": "magnetico",
     "nombre": "Campo magnético e inducción",
-    "p": 0.61,
+    "p": 0.616,
     "ccaa": 13
    }
   ],
@@ -49046,19 +49843,19 @@
    {
     "id": "sectores",
     "nombre": "Sectores económicos",
-    "p": 0.679,
+    "p": 0.684,
     "ccaa": 11
    },
    {
     "id": "clima",
     "nombre": "Clima y aguas",
-    "p": 0.59,
+    "p": 0.588,
     "ccaa": 11
    },
    {
     "id": "poblacion",
     "nombre": "Población",
-    "p": 0.529,
+    "p": 0.537,
     "ccaa": 11
    },
    {
@@ -49070,13 +49867,13 @@
    {
     "id": "territorio",
     "nombre": "Organización territorial y Europa",
-    "p": 0.44,
+    "p": 0.441,
     "ccaa": 11
    },
    {
     "id": "urbano",
     "nombre": "Espacio urbano",
-    "p": 0.423,
+    "p": 0.428,
     "ccaa": 11
    }
   ],
@@ -49110,25 +49907,25 @@
    {
     "id": "morfosintaxis",
     "nombre": "Morfosintaxis",
-    "p": 0.72,
+    "p": 0.727,
     "ccaa": 12
    },
    {
     "id": "traduccion",
     "nombre": "Traducción",
-    "p": 0.692,
+    "p": 0.701,
     "ccaa": 12
    },
    {
     "id": "lexico",
     "nombre": "Léxico y etimología",
-    "p": 0.641,
+    "p": 0.621,
     "ccaa": 12
    },
    {
     "id": "literatura",
     "nombre": "Literatura griega",
-    "p": 0.534,
+    "p": 0.547,
     "ccaa": 12
    }
   ],
@@ -49136,19 +49933,19 @@
    {
     "id": "guerracivil",
     "nombre": "Guerra Civil (1936-1939)",
-    "p": 0.318,
+    "p": 0.312,
     "ccaa": 12
    },
    {
     "id": "liberalismo",
     "nombre": "Crisis del Antiguo Régimen y liberalismo (1808-1874)",
-    "p": 0.308,
+    "p": 0.309,
     "ccaa": 12
    },
    {
     "id": "franquismo",
     "nombre": "Franquismo (1939-1975)",
-    "p": 0.289,
+    "p": 0.281,
     "ccaa": 12
    },
    {
@@ -49160,25 +49957,25 @@
    {
     "id": "transicion",
     "nombre": "Transición y democracia",
-    "p": 0.251,
+    "p": 0.247,
     "ccaa": 12
    },
    {
     "id": "moderna",
     "nombre": "Monarquía hispánica (Reyes Católicos, Austrias, Borbones s. XVIII)",
-    "p": 0.243,
+    "p": 0.237,
     "ccaa": 12
    },
    {
     "id": "republica",
     "nombre": "Segunda República (1931-1936)",
-    "p": 0.229,
+    "p": 0.226,
     "ccaa": 12
    },
    {
     "id": "antigua",
     "nombre": "Prehistoria a Edad Media (Al-Ándalus, reinos cristianos)",
-    "p": 0.206,
+    "p": 0.2,
     "ccaa": 12
    }
   ],
@@ -49186,25 +49983,25 @@
    {
     "id": "writing",
     "nombre": "Redacción (opinión, carta, email)",
-    "p": 0.872,
+    "p": 0.873,
     "ccaa": 12
    },
    {
     "id": "reading",
     "nombre": "Comprensión lectora (true/false, preguntas)",
-    "p": 0.659,
+    "p": 0.666,
     "ccaa": 12
    },
    {
     "id": "vocab",
     "nombre": "Vocabulario (sinónimos, definiciones)",
-    "p": 0.502,
+    "p": 0.515,
     "ccaa": 12
    },
    {
     "id": "grammar",
     "nombre": "Gramática (reescritura, transformaciones)",
-    "p": 0.181,
+    "p": 0.203,
     "ccaa": 12
    },
    {
@@ -49218,25 +50015,25 @@
    {
     "id": "traduccion",
     "nombre": "Traducción",
-    "p": 0.673,
+    "p": 0.681,
     "ccaa": 10
    },
    {
     "id": "morfosintaxis",
     "nombre": "Morfosintaxis",
-    "p": 0.648,
+    "p": 0.657,
     "ccaa": 10
    },
    {
     "id": "lexico",
     "nombre": "Léxico y etimología",
-    "p": 0.464,
+    "p": 0.45,
     "ccaa": 10
    },
    {
     "id": "literatura",
     "nombre": "Literatura latina",
-    "p": 0.423,
+    "p": 0.415,
     "ccaa": 10
    }
   ],
@@ -49244,49 +50041,49 @@
    {
     "id": "morfologia",
     "nombre": "Léxico, morfología y semántica",
-    "p": 0.457,
+    "p": 0.463,
     "ccaa": 13
    },
    {
     "id": "sintaxis",
     "nombre": "Sintaxis (oración compuesta)",
-    "p": 0.355,
+    "p": 0.362,
     "ccaa": 13
    },
    {
     "id": "argumentacion",
     "nombre": "Texto argumentativo / opinión",
-    "p": 0.32,
+    "p": 0.325,
     "ccaa": 13
    },
    {
     "id": "novela",
     "nombre": "Novela del siglo XX y actual",
-    "p": 0.238,
+    "p": 0.245,
     "ccaa": 13
    },
    {
     "id": "comprension",
     "nombre": "Comprensión y resumen del texto",
-    "p": 0.233,
+    "p": 0.244,
     "ccaa": 13
    },
    {
     "id": "teatro",
     "nombre": "Teatro del siglo XX",
-    "p": 0.19,
+    "p": 0.193,
     "ccaa": 13
    },
    {
     "id": "lit27",
     "nombre": "Literatura: 27, Lorca, poesía de posguerra",
-    "p": 0.166,
+    "p": 0.168,
     "ccaa": 13
    },
    {
     "id": "lit98",
     "nombre": "Literatura: Modernismo y 98, novecentismo",
-    "p": 0.139,
+    "p": 0.141,
     "ccaa": 13
    }
   ],
@@ -49294,37 +50091,37 @@
    {
     "id": "probabilidad",
     "nombre": "Probabilidad",
-    "p": 0.747,
+    "p": 0.735,
     "ccaa": 12
    },
    {
     "id": "funciones",
     "nombre": "Funciones y derivadas",
-    "p": 0.631,
+    "p": 0.617,
     "ccaa": 12
    },
    {
     "id": "inferencia",
     "nombre": "Inferencia y distribución normal",
-    "p": 0.612,
+    "p": 0.609,
     "ccaa": 12
    },
    {
     "id": "matrices",
     "nombre": "Matrices y sistemas",
-    "p": 0.599,
+    "p": 0.589,
     "ccaa": 12
    },
    {
     "id": "progl",
     "nombre": "Programación lineal",
-    "p": 0.394,
+    "p": 0.375,
     "ccaa": 12
    },
    {
     "id": "integrales",
     "nombre": "Integrales y áreas",
-    "p": 0.285,
+    "p": 0.27,
     "ccaa": 12
    }
   ],
@@ -49332,25 +50129,25 @@
    {
     "id": "geometria",
     "nombre": "Geometría en el espacio",
-    "p": 0.801,
+    "p": 0.803,
     "ccaa": 12
    },
    {
     "id": "probabilidad",
     "nombre": "Probabilidad y distribuciones",
-    "p": 0.787,
+    "p": 0.772,
     "ccaa": 12
    },
    {
     "id": "matrices",
     "nombre": "Matrices y determinantes",
-    "p": 0.703,
+    "p": 0.704,
     "ccaa": 12
    },
    {
     "id": "derivadas",
     "nombre": "Derivadas y aplicaciones",
-    "p": 0.642,
+    "p": 0.639,
     "ccaa": 12
    },
    {
@@ -49362,13 +50159,13 @@
    {
     "id": "sistemas",
     "nombre": "Sistemas de ecuaciones (discusión)",
-    "p": 0.599,
+    "p": 0.584,
     "ccaa": 12
    },
    {
     "id": "limites",
     "nombre": "Límites y continuidad",
-    "p": 0.52,
+    "p": 0.517,
     "ccaa": 12
    }
   ],
@@ -49376,49 +50173,49 @@
    {
     "id": "acidobase",
     "nombre": "Ácido-base",
-    "p": 0.83,
+    "p": 0.831,
     "ccaa": 11
    },
    {
     "id": "organica",
     "nombre": "Química orgánica",
-    "p": 0.807,
+    "p": 0.802,
     "ccaa": 11
    },
    {
     "id": "equilibrio",
     "nombre": "Equilibrio químico y solubilidad",
-    "p": 0.796,
+    "p": 0.799,
     "ccaa": 11
    },
    {
     "id": "redox",
     "nombre": "Redox y electroquímica",
-    "p": 0.663,
+    "p": 0.657,
     "ccaa": 11
    },
    {
     "id": "termo",
     "nombre": "Termoquímica y espontaneidad",
-    "p": 0.649,
+    "p": 0.637,
     "ccaa": 11
    },
    {
     "id": "enlace",
     "nombre": "Enlace químico",
-    "p": 0.602,
+    "p": 0.595,
     "ccaa": 11
    },
    {
     "id": "estructura",
     "nombre": "Estructura atómica y tabla periódica",
-    "p": 0.555,
+    "p": 0.561,
     "ccaa": 11
    },
    {
     "id": "cinetica",
     "nombre": "Cinética química",
-    "p": 0.262,
+    "p": 0.255,
     "ccaa": 11
    }
   ],
