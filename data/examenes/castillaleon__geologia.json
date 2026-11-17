@@ -1,0 +1,204 @@
+{
+ "ccaa": "castillaleon",
+ "materia": "geologia",
+ "titulo": "Propuesta original de examen PAU 2027 — Geología y Ciencias Ambientales — Castilla y León",
+ "duracion_min": 90,
+ "instrucciones": "El apartado 1 es obligatorio y vale 3 puntos. En el apartado 2, conteste solo una de las dos preguntas. En el apartado 3, conteste solo dos de las tres preguntas. En los apartados 4, 5, 6 y 7, conteste solo una de las dos preguntas de cada apartado. Cada pregunta de los apartados 2 a 7 vale 1 punto; la puntuación máxima total es de 10 puntos. Si se responden más preguntas de las solicitadas en un apartado con optatividad, no se valorará la última contestada. Justifique los cálculos e indique las unidades cuando corresponda. Se valorarán la precisión del vocabulario científico, la argumentación y la interpretación de la información contextualizada.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "procesos",
+   "puntos": 3,
+   "tipo": "abierta",
+   "enunciado": "En un corte geológico se observa, de base a techo, un basamento de esquisto metamórfico, truncado por una superficie irregular de erosión. Sobre él se depositaron un conglomerado de canal fluvial y, concordantemente, una arenisca de litoral. Ambos estratos están plegados en un anticlinal y sus flancos fueron truncados por una superficie erosiva aproximadamente plana. Encima se encuentran margas horizontales y, concordantemente, caliza horizontal, ambas depositadas en una plataforma marina tranquila. Un arroyo actual corta todas las unidades y ha formado una llanura de inundación; el pueblo A está construido sobre ella. A) Identifique las dos discontinuidades principales y explique cómo se originó cada una (0,5 puntos). B) Reconstruya la historia geológica en orden cronológico, desde la formación del basamento hasta la incisión del arroyo, incluyendo los ambientes sedimentarios indicados (2 puntos). C) Indique el principal riesgo geológico para el pueblo A y justifique su relación con la ubicación (0,5 puntos).",
+   "solucion": "### A) Discontinuidades principales\n\n1. **Discordancia erosiva sobre basamento metamórfico (no conformidad):** la superficie irregular corta el esquisto, que ya se había formado y quedado expuesto antes de depositarse el conglomerado. Separa un basamento metamórfico de las rocas sedimentarias suprayacentes.\n2. **Discordancia angular:** la superficie erosiva aproximadamente plana trunca los flancos de los estratos plegados; sobre ella se depositan estratos horizontales. La diferencia de inclinación indica que el plegamiento y la erosión precedieron a la sedimentación de las margas y la caliza.\n\n### B) Historia geológica, de más antigua a más moderna\n\n1. Formación y metamorfismo de las rocas que constituyen el basamento de esquisto.\n2. Exposición del basamento y erosión de su superficie, que genera un contacto irregular.\n3. Depósito de conglomerado en un canal fluvial sobre esa superficie erosiva.\n4. Depósito concordante de arenisca en un ambiente litoral, después del conglomerado.\n5. Plegamiento de ambos estratos sedimentarios, que adquieren una estructura anticlinal.\n6. Erosión de los flancos plegados, que los trunca y forma una superficie aproximadamente plana: se genera la discordancia angular.\n7. Depósito horizontal y concordante de margas y, posteriormente, de caliza en una plataforma marina tranquila.\n8. Incisión del arroyo actual, que corta todas las unidades y forma una llanura de inundación.\n\n### C) Riesgo para el pueblo A\n\nEl principal riesgo es la **inundación fluvial**. El pueblo está construido sobre la llanura de inundación, una superficie que puede quedar cubierta por agua cuando aumenta el caudal del arroyo; por ello, su ubicación lo expone directamente a desbordamientos.",
+   "resultado": "El corte registra una no conformidad basal y una discordancia angular; el principal riesgo para el pueblo A es la inundación por estar en la llanura de inundación del arroyo.",
+   "criterios": "A) 0,5 puntos: 0,25 por identificar y explicar la no conformidad basal y 0,25 por identificar y explicar la discordancia angular. B) 2 puntos: se valoran el orden cronológico correcto, la erosión del basamento, los ambientes fluvial y litoral, el plegamiento anticlinal, la erosión previa a la discordancia angular, la sedimentación marina de margas y caliza y la incisión final del arroyo. C) 0,5 puntos: 0,25 por identificar la inundación como riesgo principal y 0,25 por justificarla por la ubicación del pueblo en la llanura de inundación. Total: 3 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.1",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Un equipo de geología compara cuatro zonas para explicar su actividad tectónica. Indique el tipo de límite o proceso tectónico descrito en cada caso (0,25 puntos cada uno): A) Un continente se estira y se fractura, formando un valle de rift. B) Una placa oceánica se introduce bajo un continente y se genera un arco volcánico continental. C) Una placa oceánica subduce bajo otra oceánica y origina un arco de islas volcánicas. D) Dos masas continentales colisionan y se engrosa la corteza, formando una gran cordillera.",
+   "solucion": "Identificamos el tipo de límite por el movimiento relativo de las placas y las estructuras descritas:\n\n- **A)** El estiramiento y la fracturación de un continente indican un régimen **divergente continental**, que produce un rift.\n- **B)** La subducción de una placa oceánica bajo una continental corresponde a un límite **convergente oceánico-continental** y genera un arco volcánico continental.\n- **C)** La subducción de una placa oceánica bajo otra oceánica corresponde a un límite **convergente oceánico-oceánico** y origina un arco de islas volcánicas.\n- **D)** La colisión de dos masas continentales es un proceso de **convergencia y colisión continental**; el engrosamiento de la corteza da lugar a una gran cordillera.",
+   "resultado": "A) Rift continental (límite divergente); B) Convergencia oceánico-continental con subducción; C) Convergencia oceánico-oceánica con subducción; D) Colisión continental y orogenia.",
+   "criterios": "0,25 puntos por cada identificación correcta: A) rift continental o divergencia continental; B) subducción oceánico-continental; C) subducción oceánico-oceánica; D) colisión continental y formación de cordillera. Total: 1 punto.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.2",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Una red de posicionamiento mide la distancia entre dos estaciones situadas a ambos lados de una dorsal oceánica. Al cabo de 5 años, la distancia entre ellas ha aumentado 15 cm; las estaciones se separan perpendicularmente a la dorsal. Calcule la velocidad media de separación en centímetros por año (0,5 puntos) e indique qué tipo de límite de placas representa la dorsal (0,5 puntos).",
+   "solucion": "La velocidad media de separación se calcula como el cambio de distancia dividido por el tiempo transcurrido:\n\n$v=\\frac{\\Delta d}{\\Delta t}=\\frac{15\\ \\text{cm}}{5\\ \\text{años}}=3\\ \\text{cm/año}$.\n\nComo las estaciones se separan perpendicularmente a la dorsal, las placas se alejan entre sí. La dorsal representa, por tanto, un límite divergente o constructivo.",
+   "resultado": "Velocidad media: 3 cm/año; límite divergente (constructivo).",
+   "criterios": "0,5 puntos por calcular correctamente la velocidad media: dividir 15 cm entre 5 años y expresar el resultado como 3 cm/año. 0,5 puntos por identificar la dorsal como un límite divergente (o constructivo), donde las placas se separan.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.1",
+   "tema": "procesos",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Durante el seguimiento de un meandro, un grupo de estudiantes observa que la corriente es más rápida junto a la orilla exterior y más lenta junto a la orilla interior. Indique el proceso dominante en cada orilla y el nombre de la forma fluvial que se genera en cada una (0,25 puntos por cada respuesta correcta: proceso y forma en la orilla exterior, y proceso y forma en la interior).",
+   "solucion": "En la **orilla exterior** la corriente más rápida domina la **erosión lateral**, que forma una **orilla cóncava o escarpe de erosión**. En la **orilla interior** la corriente más lenta favorece la **sedimentación o deposición**, que forma una **barra de meandro** (orilla convexa).",
+   "resultado": "Orilla exterior: erosión y escarpe; orilla interior: sedimentación y barra de meandro.",
+   "criterios": "1 punto en total: 0,25 puntos por indicar la erosión en la orilla exterior; 0,25 por identificar el escarpe de erosión u orilla cóncava; 0,25 por indicar la sedimentación en la orilla interior; y 0,25 por identificar la barra de meandro u orilla convexa.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.2",
+   "tema": "procesos",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una salida de campo se observan fragmentación de rocas por ciclos de congelación y deshielo y, en otro afloramiento, rotura por crecimiento de cristales de sal en poros y grietas. Defina cada proceso e indique las condiciones ambientales que favorecen su desarrollo (0,25 puntos por cada definición y 0,25 por cada condición ambiental).",
+   "solucion": "1. **Fragmentación por congelación y deshielo (crioclastia o gelifracción):** el agua penetra en poros y grietas de la roca y, al congelarse, aumenta de volumen y ejerce presión sobre sus paredes. La repetición de ciclos de congelación y deshielo ensancha las grietas y puede fragmentar la roca. La favorecen ambientes con agua disponible y temperaturas que oscilan repetidamente en torno a $0\\,^{\\circ}\\mathrm{C}$, de modo que el agua se congele y se deshiele.\n\n2. **Fragmentación por crecimiento de cristales de sal (haloclastia):** las sales disueltas en el agua penetran en poros y grietas; cuando el agua se evapora, las sales cristalizan y ejercen presión, contribuyendo a la rotura de la roca. La favorecen la disponibilidad de agua salina y la evaporación intensa, con ciclos de humectación y desecación, frecuentes en ambientes áridos, semiáridos o litorales.",
+   "resultado": "Crioclastia: fragmentación por ciclos de congelación y deshielo; haloclastia: fragmentación por presión de cristales de sal. La primera requiere agua y temperaturas fluctuantes alrededor de 0 °C; la segunda, agua salina y evaporación.",
+   "criterios": "1 punto en total: 0,25 por definir correctamente la crioclastia/gelifracción; 0,25 por indicar sus condiciones favorables (agua disponible y ciclos de congelación y deshielo, con temperaturas en torno a 0 °C); 0,25 por definir correctamente la haloclastia; 0,25 por indicar sus condiciones favorables (sales o agua salina y evaporación, normalmente con ciclos de humectación y desecación).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.3",
+   "tema": "procesos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "En un mapa topográfico a escala 1:25 000, la distancia medida entre dos curvas de nivel es de 4 cm. Sus cotas son 410 m y 470 m. Para planificar un itinerario, calcule la distancia horizontal real entre ambas curvas (0,5 puntos) y la pendiente media del terreno en porcentaje (0,5 puntos). Use la relación $\\text{pendiente} = \\frac{\\text{desnivel}}{\\text{distancia horizontal}} \\times 100$.",
+   "solucion": "1. **Distancia horizontal real:** aplicamos la escala $1:25\\,000$ a los $4\\,\\text{cm}$ medidos en el mapa:\n   $$4\\,\\text{cm}\\times 25\\,000=100\\,000\\,\\text{cm}=1\\,000\\,\\text{m}.$$\n2. **Desnivel:**\n   $$470-410=60\\,\\text{m}.$$\n3. **Pendiente media:**\n   $$\\text{pendiente}=\\frac{60\\,\\text{m}}{1\\,000\\,\\text{m}}\\times100=6\\%.$$\nPor tanto, la distancia horizontal real es $1\\,000\\,\\text{m}$ y la pendiente media es $6\\%$.",
+   "resultado": "Distancia horizontal real: 1 000 m; pendiente media: 6 %.",
+   "criterios": "0,5 puntos por convertir correctamente la distancia del mapa a distancia horizontal real: 4 cm × 25 000 = 100 000 cm = 1 000 m. 0,5 puntos por obtener el desnivel de 60 m y aplicar correctamente la fórmula de la pendiente, con resultado 6 %.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.1",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una práctica de identificación se describen cuatro muestras: A) dureza 3 y efervescencia al añadir ácido clorhídrico diluido; B) dureza 7, sin exfoliación y con fractura concoidea; C) dureza 2 y una exfoliación perfecta; D) dureza aproximada 2,5 y exfoliación cúbica. Identifique el mineral más probable en cada muestra (0,25 puntos cada uno).",
+   "solucion": "### Identificación por propiedades diagnósticas\nEn vez de comparar cada muestra con una lista de minerales, se pueden separar primero por los rasgos más específicos:\n\n1. **Efervescencia con HCl diluido:** la muestra A contiene un carbonato. La dureza 3 y la efervescencia son características de la **calcita**.\n2. **Fractura concoidea y ausencia de exfoliación:** en la muestra B, junto con dureza 7, estos rasgos identifican el **cuarzo**.\n3. **Exfoliación cúbica:** la muestra D corresponde a la **halita**, cuya dureza es aproximadamente 2,5.\n4. **Exfoliación perfecta y dureza 2:** una vez identificados los casos anteriores, la muestra C es **yeso**.\n\n**Comprobación:** las durezas características coinciden, en orden A–D, con 3, 7, 2 y aproximadamente 2,5; además, los rasgos diagnósticos —reacción ácida, fractura concoidea, exfoliación perfecta y exfoliación cúbica— concuerdan con las identificaciones.",
+   "resultado": "A: calcita; B: cuarzo; C: yeso; D: halita.",
+   "criterios": "1 punto en total: 0,25 por cada identificación correcta (A: calcita; B: cuarzo; C: yeso; D: halita).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.2",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una prueba de rayado, un mineral desconocido raya la calcita, pero no raya la fluorita. A partir de este resultado, indique entre qué valores de dureza de Mohs se encuentra el mineral desconocido (0,5 puntos) y explique qué información proporciona una escala ordinal de dureza como la de Mohs (0,5 puntos).",
+   "solucion": "La calcita tiene dureza $3$ en la escala de Mohs y la fluorita, $4$. Si el mineral desconocido raya la calcita, su dureza es superior a $3$; si no raya la fluorita, es inferior a $4$. Por tanto, su dureza está entre $3$ y $4$ (en sentido estricto, $3 < H < 4$).\n\nLa escala de Mohs es **ordinal**: ordena los minerales según su resistencia al rayado. Indica cuál raya a cuál, pero sus valores no representan medidas absolutas ni intervalos iguales; por ejemplo, una dureza $4$ no es el doble de una dureza $2$.",
+   "resultado": "La dureza del mineral está entre 3 y 4 en la escala de Mohs; la escala ordena la resistencia al rayado, pero no mide diferencias absolutas o proporcionales.",
+   "criterios": "0,5 puntos: indica que la dureza está entre 3 y 4 (o expresa correctamente que 3 < H < 4), relacionándolo con la dureza de la calcita y la fluorita. 0,5 puntos: explica que la escala de Mohs ordena la resistencia al rayado y que sus valores no representan diferencias absolutas ni proporcionales.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5.1",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una colección de rocas sedimentarias se describen estas muestras: A) fragmentos redondeados de grava cementados; B) fragmentos de tamaño grava con bordes angulosos cementados; C) restos de conchas unidos por una matriz carbonatada; D) cristales formados por evaporación de agua salina. Nombre la roca más característica de cada muestra (0,25 puntos cada una).",
+   "solucion": "- **A)** Los fragmentos de tamaño grava están redondeados y cementados: es un **conglomerado** (también llamado pudinga).\n- **B)** Los fragmentos de grava tienen bordes angulosos y están cementados: es una **brecha sedimentaria**.\n- **C)** Los restos de conchas unidos por carbonato forman una **caliza bioclástica o conchífera** (coquina o lumaquela, según la textura).\n- **D)** Los cristales precipitados al evaporarse agua salina forman una **roca evaporítica**, como la halita o el yeso.",
+   "resultado": "A) Conglomerado; B) brecha; C) caliza bioclástica o conchífera; D) evaporita (halita o yeso).",
+   "criterios": "1 punto en total: 0,25 puntos por cada identificación correcta. Se aceptan como equivalentes conglomerado y pudinga; caliza bioclástica, conchífera, coquina o lumaquela; y evaporita, halita o yeso.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5.2",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una zona afectada por metamorfismo regional se recogen cuatro rocas derivadas de materiales arcillosos. Ordénelas de menor a mayor grado metamórfico: esquisto, pizarra, gneis y filita (0,5 puntos). Explique qué tendencia general experimentan la temperatura y la presión a lo largo de esa secuencia (0,5 puntos).",
+   "solucion": "**Ordenación mediante la evolución de la textura:** al aumentar el metamorfismo, la roca pasa de una foliación fina a texturas más recristalizadas y diferenciadas: la **pizarra** presenta grano muy fino; la **filita**, un brillo sedoso y foliación más marcada; el **esquisto**, minerales visibles; y el **gneis**, una diferenciación en bandas clara. Por tanto, de menor a mayor grado metamórfico: **pizarra $<$ filita $<$ esquisto $<$ gneis**.\n\nEn el metamorfismo regional, la tendencia general a lo largo de esa secuencia es que **aumenten tanto la temperatura como la presión**, asociadas habitualmente al enterramiento y a la deformación tectónica. Es una tendencia general, no una relación cuantitativa exacta para cada roca.\n\n**Comprobación:** el orden obtenido coincide con el paso desde rocas de bajo grado (pizarra y filita) hasta rocas de grado más alto (esquisto y gneis).",
+   "resultado": "Pizarra < filita < esquisto < gneis; temperatura y presión aumentan en general.",
+   "criterios": "0,5 puntos por ordenar correctamente las cuatro rocas: pizarra < filita < esquisto < gneis. 0,5 puntos por indicar que, en general, aumentan tanto la temperatura como la presión a lo largo de la secuencia.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "6.1",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Un municipio sustituye cada año 300 MWh de electricidad de la red por 300 MWh generados por una instalación fotovoltaica. Para su inventario de emisiones operativas, utiliza un factor de emisión de 0,40 toneladas de CO₂ por MWh para la electricidad de la red y de 0 toneladas de CO₂ por MWh para la fotovoltaica. Calcule las emisiones operativas anuales evitadas (0,75 puntos) e indique la unidad del resultado (0,25 puntos).",
+   "solucion": "La energía fotovoltaica sustituye la misma cantidad de electricidad de la red, por lo que las emisiones operativas evitadas son la diferencia entre las emisiones de ambas fuentes:\n\n$$E_{\\text{evitadas}}=300\\ \\text{MWh/año}\\times(0{,}40-0)\\ \\text{t CO₂/MWh}=120\\ \\text{t CO₂/año}.$$\n\nLa unidad resulta de cancelar los MWh del factor de emisión con los MWh de electricidad sustituidos.",
+   "resultado": "120 toneladas de CO₂ al año",
+   "criterios": "0,75 puntos por plantear y calcular correctamente las emisiones evitadas como 300 × (0,40 − 0) = 120. 0,25 puntos por indicar la unidad correcta: toneladas de CO₂ al año (t CO₂/año).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "6.2",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Tras lluvias intensas, un lago recibe aguas de escorrentía procedentes de parcelas abonadas. Semanas después se observa una proliferación de algas y la muerte de peces. Explique la secuencia causal que relaciona el aporte de nutrientes con la disminución del oxígeno disuelto y la mortandad de peces (1 punto).",
+   "solucion": "1. Las lluvias arrastran desde las parcelas abonadas nutrientes, sobre todo compuestos de nitrógeno y fósforo, hasta el lago.\n2. El enriquecimiento del agua favorece una proliferación intensa de algas (eutrofización).\n3. Desde el balance de oxígeno, la disminución ocurre cuando el consumo supera el aporte: al morir parte de las algas, los microorganismos descomponen esa materia orgánica y consumen oxígeno disuelto durante la respiración. También puede contribuir la respiración de las algas, especialmente por la noche.\n4. Si el consumo supera la reposición por fotosíntesis y el intercambio con la atmósfera, baja la concentración de oxígeno y se produce hipoxia o anoxia; los peces mueren por falta de oxígeno.\n\nComprobación: el aporte de nutrientes no consume por sí mismo el oxígeno; provoca un aumento de biomasa cuya descomposición eleva el consumo de oxígeno, lo que explica la mortandad observada.",
+   "resultado": "La escorrentía aporta nutrientes, causa una proliferación de algas y, al descomponerse estas, aumenta el consumo de oxígeno disuelto hasta niveles que provocan la muerte de los peces.",
+   "criterios": "1 punto: 0,20 por relacionar la escorrentía con el aporte de nutrientes; 0,20 por explicar la proliferación de algas; 0,30 por indicar que la descomposición microbiana de esa biomasa consume oxígeno disuelto; 0,15 por señalar el descenso hasta hipoxia o anoxia; 0,15 por vincular la falta de oxígeno con la muerte de los peces. Se admite una distribución equivalente si se explica correctamente la secuencia causal.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "7.1",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Una explotación dispone de una reserva estimada de 18 000 toneladas de un recurso mineral y mantiene una extracción constante de 1 200 toneladas al año. Calcule cuántos años duraría la reserva con ese ritmo de extracción (0,75 puntos) e indique el supuesto principal necesario para que la estimación sea válida (0,25 puntos).",
+   "solucion": "La duración se obtiene dividiendo la reserva por la extracción anual:\n\n$$t = \\frac{18\\,000\\ \\text{t}}{1\\,200\\ \\text{t/año}} = 15\\ \\text{años}.$$\n\nEl supuesto principal es que la extracción se mantiene constante en $1\\,200$ toneladas al año durante todo ese periodo. Se considera, además, que la reserva estimada es aprovechable y no cambia.",
+   "resultado": "La reserva duraría 15 años, suponiendo que la extracción anual se mantiene constante.",
+   "criterios": "0,75 puntos: planteamiento correcto como división de la reserva entre la extracción anual y obtención de 15 años. 0,25 puntos: indicar que la estimación requiere mantener constante el ritmo de extracción (y que la reserva estimada siga siendo aprovechable).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "7.2",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "En una cuenca, la recarga anual de un acuífero es de 8 hm³ y las extracciones alcanzan 11 hm³ al año. Calcule el déficit anual del balance del acuífero (0,5 puntos) y la reducción mínima de las extracciones necesaria para que estas igualen la recarga (0,5 puntos).",
+   "solucion": "### 1. Déficit anual\nEl balance neto es la recarga menos las extracciones:\n\n$$B = 8 - 11 = -3\\ \\text{hm}^3/\\text{año}$$\n\nEl signo negativo indica que las extracciones superan la recarga. Por tanto, el déficit anual es de **$3\\ \\text{hm}^3/\\text{año}$**.\n\n### 2. Reducción mínima de las extracciones\nPara igualar las extracciones a la recarga, deben reducirse en:\n\n$$11 - 8 = 3\\ \\text{hm}^3/\\text{año}$$\n\nLa reducción mínima es **$3\\ \\text{hm}^3/\\text{año}$**, de modo que las extracciones quedan en $8\\ \\text{hm}^3/\\text{año}$.",
+   "resultado": "Déficit anual: 3 hm³/año; reducción mínima de las extracciones: 3 hm³/año.",
+   "criterios": "1. Déficit anual (0,5 puntos): obtiene 3 hm³/año como diferencia entre extracciones y recarga; se acepta expresar el balance neto como −3 hm³/año si se identifica el déficit como su magnitud. 2. Reducción mínima (0,5 puntos): obtiene 3 hm³/año y señala que así las extracciones igualan la recarga.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-17",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "tectonica",
+   "p": 0.693
+  },
+  {
+   "id": "minerales",
+   "p": 0.693
+  },
+  {
+   "id": "procesos",
+   "p": 0.693
+  },
+  {
+   "id": "recursos",
+   "p": 0.693
+  }
+ ],
+ "referencias": [
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0.ficheros/1810857-Modelo%200%20Geolog%C3%ADa%20y%20Ciencias%20Ambientales.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/guias-calificacion-pau-2026.ficheros/1815852-Gu%C3%ADa%20Calificaci%C3%B3n%20Geolog%C3%ADa%20y%20Ciencias%20Ambientales.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2025-b5f5f/guias-calificacion-pau-2025.ficheros/1768170-Gu%C3%ADa%20calificaci%C3%B3n%20Geolog%C3%ADa%20y%20Ciencias%20Ambientales.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0.ficheros/1810857-Modelo%200%20Geolog%C3%ADa%20y%20Ciencias%20Ambientales.pdf"
+ ]
+}
