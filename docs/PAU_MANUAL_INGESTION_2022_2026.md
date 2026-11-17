@@ -25,8 +25,10 @@ esta misma rama. **No hace push a `main`.**
    `GITHUB_TOKEN`; no pegarlo en celdas ni en el repositorio. Revocarlo al terminar.
 5. Si no se usa token, descargar el ZIP generado y subir sus carpetas a
    `manual/<comunidad>/<año>/` en esta rama.
-6. Revisar el resultado del rastreo y la clasificación en `data/logs/<comunidad>.log`
-   tras ejecutar el workflow **Corpus y predicciones PAU** en la rama de trabajo.
+6. En GitHub, abrir **Actions → Corpus y predicciones PAU → Run workflow** y seleccionar
+   explícitamente la rama `feature/pau-nuevas-comunidades-2022-2026`. El evento `push` del
+   workflow está limitado a `main`, por lo que los cambios en esta rama no lo lanzan solos.
+7. Revisar el resultado del rastreo y la clasificación en `data/logs/<comunidad>.log`.
 
 ## Verificación de cobertura
 
