@@ -1,0 +1,186 @@
+                                                   PAU                                  CÓDIGO 20
+                                        Convocatoria ordinaria 2026
+                                             MATEMÁTICAS II
+O exame consta de 4 preguntas de resposta obrigatoria: a primeira sen apartados optativos e as tres
+seguintes con posibilidade de elección entre apartados. Deben xustificarse todas as respostas.
+
+PREGUNTA 1. ESTATÍSTICA E PROBABILIDADE. (2 puntos)
+
+CONTEXTO
+Renfe opera un servizo Alvia entre Santiago de Compostela e Barcelona-Sants. Os datos históricos mostran
+que, en condicións operativas habituais, o tempo de viaxe segue unha distribución normal cunha media de 765
+minutos e unha desviación típica de 18 minutos.
+
+Con todo, durante os meses de inverno é frecuente que se produzan incidencias meteorolóxicas que obrigan
+a reducir a velocidade en certos tramos da ruta. Isto ocorre aproximadamente o 30 % dos días da temporada.
+Cando se activa o protocolo por incidencia, a distribución do tempo de viaxe segue a ser normal, pero pasa a
+ter unha media de 810 minutos e unha desviación típica de 40 minutos.
+
+A compañía ferroviaria define que existe un “retraso significativo” cando o tempo de viaxe supera os 780
+minutos nun día sen incidencias, ou os 840 minutos nun día con incidencia meteorolóxica declarada.
+
+Responda estes dous apartados: 1.1. e 1.2.
+(Será preciso usar algún ou algúns dos seguintes valores, aínda que non todos (enténdase que 𝑍 segue
+unha distribución 𝑁(0,1)): 𝑷(𝒁 ≤ 𝟎. 𝟑) = 0.6179, 𝑷(𝒁 ≤ 𝟎. 𝟕𝟓) = 0.7734, 𝑷(𝒁 ≤ 𝟎. 𝟖𝟑) = 0.7967,
+𝑷(𝒁 ≤ 𝟏. 𝟏𝟐𝟓) = 0.8697, 𝑷(𝒁 ≤ 𝟒. 𝟏𝟔) = 1.)
+
+1.1. Polo contexto, sábese que 𝑃(𝑅|𝐼 ̅) = 𝑃(𝑋 > 780) e que 𝑃(𝑅|𝐼) = 𝑃(𝑌 > 840). Explique o significado dos
+     sucesos 𝐼 e 𝑅 e das variables aleatorias 𝑋 e 𝑌. Logo, determine a probabilidade de que, seleccionando ao
+     azar un día da temporada invernal, este tren Alvia experimente un retraso significativo segundo a
+     definición da compañía.
+
+1.2. Calcule a probabilidade de que, nun día con incidencia meteorolóxica activa, o tren complete a súa viaxe
+     nun tempo inferior a 765 minutos, que é o tempo medio en condicións habituais.
+
+
+PREGUNTA 2. ÁLXEBRA. (2 puntos)
+
+Responda un destes dous apartados: 2.1. ou 2.2.
+
+2.1. Considérese a igualdade matricial 𝐴(𝑋 − 𝐼)𝐵 = 𝐶, onde 𝑋 é cadrada e 𝐼 é a matriz identidade.
+
+    2.1.1. Despexe 𝑋 supoñendo que 𝐴 e 𝐵 son cadradas e invertibles.
+    2.1.2. Que dimensións teñen 𝑋 e 𝐵 se 𝐴 e 𝐶 son matrices 1 × 2? Obteña 𝑋, simétrica e tal que os
+           elementos da súa diagonal sumen 0, se 𝐴 = (1 1), 𝐵 = 𝐼 e 𝐶 = (0 0).
+
+2.2. Discuta, segundo os valores do parámetro 𝑚, o sistema
+                                 (𝑚 − 4)𝑥                  + 5𝑧        =     9,
+                               {                (𝑚 − 1)𝑦 + 6𝑧          = 𝑚 + 8,
+                                 (𝑚 − 4)𝑥 + (𝑚 − 1)𝑦 + 7𝑧              = 𝑚 + 9.
+PREGUNTA 3. ANÁLISE. (4 puntos)
+
+Responda dous destes tres apartados: 3.1., 3.2., 3.3.
+
+3.1. Para cada un dos seguintes casos, debuxe, cando sexa posible, a gráfica dunha función que cumpra as
+     propiedades indicadas:
+         a) Continua pero non derivable en 𝑥 = 0.
+         b) Continua en [𝑎, 𝑏], con 𝑓(𝑎)𝑓(𝑏) < 0, e cuxa gráfica corte ao eixe 𝑥 en máis dun punto do
+            intervalo (𝑎, 𝑏).
+         c) Continua en [𝑎, 𝑏], derivable en (𝑎, 𝑏), con 𝑓(𝑎)𝑓(𝑏) < 0, 𝑓 ′ > 0 en (𝑎, 𝑏), e cuxa gráfica corte
+            ao eixe 𝑥 en máis dun punto do intervalo (𝑎, 𝑏).
+         d) Dúas veces derivable en ℝ, con 𝑓 ′′ > 0 en ℝ e monótona en ℝ.
+
+3.2. Calcule os seguintes límites:
+                                     ln 𝑥                             𝑥−1
+                         a) lim 𝑥 .                        b) lim ln 𝑥 .
+                             𝑥→1                                𝑥→1
+
+                                     tan 𝑥
+                         c) lim sin 𝑥 .                    d)   lim √𝑥 ln 𝑥.
+                             𝑥→0                                𝑥→0+
+
+
+3.3. Calcule o valor que ten que tomar o parámetro positivo 𝑎 para que a área da rexión encerrada pola gráfica
+     da función 𝑓(𝑥) = 𝑎𝑥 2 − 2𝑎𝑥 e o eixe 𝑥 sexa igual a 10 unidades de superficie. Faga un debuxo da rexión.
+
+
+PREGUNTA 4. XEOMETRÍA. (2 puntos)
+
+Responda un destes dous apartados: 4.1. ou 4.2.
+
+4.1. Sexa 𝑟 a recta que pasa pola orixe e por 𝑃′, sendo 𝑃′ o punto simétrico de 𝑃(1,0,1) con respecto ao punto
+     𝑄(0,1,0). Pídese:
+
+    4.1.1. Obteña 𝑃′ e as ecuacións paramétricas de 𝑟.
+    4.1.2. Determine a ecuación implícita do plano que pasa pola orixe e é perpendicular a 𝑟.
+
+4.2. Considérense os puntos 𝑃(1,0,1), 𝑄(0,1,0) e 𝑅(1,1,1).
+
+    4.2.1. Demostre que 𝑃, 𝑄 e 𝑅 non están aliñados e obteña a ecuación implícita do plano 𝜋 que pasa por
+           eles.
+    4.2.2. Calcule o valor ou valores de 𝑎 que fan que a distancia do punto 𝑆(𝑎, 0,0) a ese plano 𝜋 sexa igual
+           a √2 unidades de lonxitude.
+                                                    PAU                                    CÓDIGO 20
+                                         Convocatoria ordinaria 2026
+                                              MATEMÁTICAS II
+El examen consta de 4 preguntas de respuesta obligatoria: la primera sin apartados optativos y las
+tres siguientes con posibilidad de elección entre apartados. Deben justificarse todas las respuestas.
+
+PREGUNTA 1. ESTADÍSTICA Y PROBABILIDAD. (2 puntos)
+
+CONTEXTO
+Renfe opera un servicio Alvia entre Santiago de Compostela y Barcelona-Sants. Los datos históricos muestran
+que, en condiciones operativas habituales, el tiempo de viaje sigue una distribución normal con una media de
+765 minutos y una desviación típica de 18 minutos.
+
+Sin embargo, durante los meses de invierno es frecuente que se produzcan incidencias meteorológicas que
+obligan a reducir la velocidad en ciertos tramos de la ruta. Esto ocurre aproximadamente el 30 % de los días
+de la temporada. Cuando se activa el protocolo por incidencia, la distribución del tiempo de viaje sigue siendo
+normal, pero pasa a tener una media de 810 minutos y una desviación típica de 40 minutos.
+
+La compañía ferroviaria define que existe un “retraso significativo” cuando el tiempo de viaje supera los 780
+minutos en un día sin incidencias, o los 840 minutos en un día con incidencia meteorológica declarada.
+
+Responda estos dos apartados: 1.1. y 1.2.
+(Será preciso usar alguno o algunos de los siguientes valores, aunque no todos (entiéndase que 𝑍 sigue
+una distribución 𝑁(0,1)): 𝑷(𝒁 ≤ 𝟎. 𝟑) = 0.6179, 𝑷(𝒁 ≤ 𝟎. 𝟕𝟓) = 0.7734, 𝑷(𝒁 ≤ 𝟎. 𝟖𝟑) = 0.7967,
+𝑷(𝒁 ≤ 𝟏. 𝟏𝟐𝟓) = 0.8697, 𝑷(𝒁 ≤ 𝟒. 𝟏𝟔) = 1.)
+
+1.1. Por el contexto, se sabe que 𝑃(𝑅|𝐼 ̅) = 𝑃(𝑋 > 780) y que 𝑃(𝑅|𝐼) = 𝑃(𝑌 > 840). Explique el significado
+     de los sucesos 𝐼 y 𝑅 y de las variables aleatorias 𝑋 e 𝑌. Luego, determine la probabilidad de que,
+     seleccionando al azar un día de la temporada invernal, este tren Alvia experimente un retraso significativo
+     según la definición de la compañía.
+
+1.2. Calcule la probabilidad de que, en un día con incidencia meteorológica activa, el tren complete su viaje en
+     un tiempo inferior a 765 minutos, que es el tiempo medio en condiciones habituales.
+
+
+PREGUNTA 2. ÁLGEBRA. (2 puntos)
+
+Responda uno de estos dos apartados: 2.1. o 2.2.
+
+2.1. Considérese la igualdad matricial 𝐴(𝑋 − 𝐼)𝐵 = 𝐶, donde 𝑋 es cuadrada e 𝐼 es la matriz identidad.
+
+    2.1.1. Despeje 𝑋 suponiendo que 𝐴 y 𝐵 son cuadradas e invertibles.
+    2.1.2. ¿Qué dimensiones tienen 𝑋 y 𝐵 si 𝐴 y 𝐶 son matrices 1 × 2? Obtenga 𝑋, simétrica y tal que los
+           elementos de su diagonal sumen 0, si 𝐴 = (1 1), 𝐵 = 𝐼 y 𝐶 = (0 0).
+
+2.2. Discuta, según los valores del parámetro 𝑚, el sistema
+                                (𝑚 − 4)𝑥                    +    5𝑧   =     9,
+                              {                (𝑚 − 1)𝑦 +        6𝑧   = 𝑚 + 8,
+                                (𝑚 − 4)𝑥 + (𝑚 − 1)𝑦 +            7𝑧   = 𝑚 + 9.
+PREGUNTA 3. ANÁLISIS. (4 puntos)
+
+Responda dos de estos tres apartados: 3.1., 3.2., 3.3.
+
+3.1. Para cada uno de los siguientes casos, dibuje, cuando sea posible, la gráfica de una función que cumpla
+     las propiedades indicadas:
+          a) Continua pero no derivable en 𝑥 = 0.
+          b) Continua en [𝑎, 𝑏], con 𝑓(𝑎)𝑓(𝑏) < 0, y cuya gráfica corte al eje 𝑥 en más de un punto del
+             intervalo (𝑎, 𝑏).
+          c) Continua en [𝑎, 𝑏], derivable en (𝑎, 𝑏), con 𝑓(𝑎)𝑓(𝑏) < 0, 𝑓 ′ > 0 en (𝑎, 𝑏), y cuya gráfica corte
+             al eje 𝑥 en más de un punto del intervalo (𝑎, 𝑏).
+          d) Dos veces derivable en ℝ, con 𝑓 ′′ > 0 en ℝ y monótona en ℝ.
+
+3.2. Calcule los siguientes límites:
+                                    ln 𝑥                                𝑥−1
+                          a) lim 𝑥 .                         b) lim ln 𝑥 .
+                              𝑥→1                                 𝑥→1
+
+                                    tan 𝑥
+                          c) lim sin 𝑥 .                     d)   lim √𝑥 ln 𝑥.
+                              𝑥→0                                 𝑥→0+
+
+
+3.3. Calcule el valor que tiene que tomar el parámetro positivo 𝑎 para que el área de la región encerrada por
+     la gráfica de la función 𝑓(𝑥) = 𝑎𝑥 2 − 2𝑎𝑥 y el eje 𝑥 sea igual a 10 unidades de superficie. Haga un dibujo
+     de la región.
+
+
+PREGUNTA 4. GEOMETRÍA. (2 puntos)
+
+Responda uno de estos dos apartados: 4.1. o 4.2.
+
+4.1. Sea 𝑟 la recta que pasa por el origen y por 𝑃′, siendo 𝑃′ el punto simétrico de 𝑃(1,0,1) con respecto al
+     punto 𝑄(0,1,0). Se pide:
+
+     4.1.1. Obtenga 𝑃′ y las ecuaciones paramétricas de 𝑟.
+     4.1.2. Determine la ecuación implícita del plano que pasa por el origen y es perpendicular a 𝑟.
+
+4.2. Considérense los puntos 𝑃(1,0,1), 𝑄(0,1,0) y 𝑅(1,1,1).
+
+     4.2.1. Demuestre que 𝑃, 𝑄 y 𝑅 no están alineados y obtenga la ecuación implícita del plano 𝜋 que pasa
+            por ellos.
+     4.2.2. Calcule el valor o valores de 𝑎 que hacen que la distancia del punto 𝑆(𝑎, 0,0) a ese plano 𝜋 sea igual
+            a √2 unidades de longitud.
+
