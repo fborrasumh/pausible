@@ -177,7 +177,8 @@ class Rastreador:
                         continue                         # /file/… o /documents/d/… que no nombra materia ni examen (ayudas, presupuestos…)
                     encontrados.setdefault(u, info)
                 elif d < self.cfg['profundidad'] and ENLACE_INTERES.search(u + ' ' + texto) and u not in visto \
-                        and (not self.cfg.get('solo_rutas') or any(x in u for x in self.cfg['solo_rutas'])):   # Uniovi: no perderse por el menú
+                        and (not self.cfg.get('solo_rutas') or any(x in u for x in self.cfg['solo_rutas'])) \
+                        and not any(x in u for x in self.cfg.get('excluir', [])):   # Uniovi: no perderse por el menú ni por cursos viejos
                     meta.setdefault(u, info)             # por si resulta ser un PDF sin «.pdf» en la URL
                     cola.append((u, d + 1, (ruta + ' › ' + limpio(texto))[-300:]))
             time.sleep(self.cfg.get('pausa', 0.2))
@@ -190,7 +191,8 @@ def es_pdf(u):
     (UCM /file/…, Liferay /documents/d/…, Google Drive /file/d/…). Al descargar se comprueba el contenido."""
     p = urlparse(u).path.lower()
     return (p.endswith('.pdf') or p.endswith('.zip') or '.pdf' in unquote(u.lower()) or '/download' in p and 'pdf' in u.lower()
-            or '/file/' in p or '/documents/d/' in p or 'drive.google.com' in u and '/file/d/' in p)
+            or '/file/' in p or '/documents/d/' in p or 'drive.google.com' in u and '/file/d/' in p
+            or re.search(r'/documents/\d+/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-', p))   # Liferay por UUID (Uniovi)
 
 
 def es_gestor(u):
@@ -259,7 +261,8 @@ def clasifica(url, info, anios):
     mat = materia_de(fich, info['texto'], info['contexto']) or materia_abrev(fich, info['texto'])
     anio = anio_de(fich, info['texto'], url, info['contexto'], info.get('titulo', ''), info.get('pagina', ''), info.get('ruta', ''), anios=anios)
     conv = conv_de(fich, info['texto'], info['contexto'])
-    if conv == 'nd' and info.get('ruta'): conv = conv_de(info['ruta'].split('›')[-1])   # carpeta «Junio»/«Julio»
+    if conv == 'nd' and info.get('ruta'):            # carpeta «Junio»/«Julio» más cercana en el camino de enlaces
+        conv = next((c for c in (conv_de(x) for x in reversed(info['ruta'].split('›'))) if c != 'nd'), 'nd')
     tipo = tipo_de(fich, info['texto'])
     return mat, anio, conv, tipo
 
@@ -396,7 +399,7 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
     log = lambda m: (print(m, flush=True), logl.append(m))
     log(f'== {cc["nombre"]}')
     CABECERA_MANDA['si'] = bool(cc.get('cabecera_manda'))
-    cfg = {**cfg, **{k: cc[k] for k in ('pausa', 'max_paginas', 'profundidad', 'solo_rutas') if k in cc}}
+    cfg = {**cfg, **{k: cc[k] for k in ('pausa', 'max_paginas', 'profundidad', 'solo_rutas', 'excluir') if k in cc}}
     encontrados = Rastreador(s, cfg, log, limite=t0 + 0.4 * tiempo).pdfs(cc['semillas'])
     for pl in cc.get('plantillas', []):
         for u in candidatos_plantilla(pl, anios):
@@ -404,7 +407,9 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
     pend = []
     for url, info in encontrados.items():
         mat, anio, conv, tipo = clasifica(url, info, anios)
-        if not anio: continue                           # fuera de 2022-2026 o sin año reconocible
+        if not anio:
+            if not cc.get('cabecera_manda'): continue   # fuera de 2022-2026 o sin año reconocible
+            anio = 0                                    # se decide con la cabecera del PDF al descargarlo
         if NO_PAU.search(norm(' '.join([url, info['texto'], info['contexto']]))):
             docs.pop(url, None); continue              # mayores de 25/45, PAP…: no es la PAU de bachillerato
         h = hashlib.sha1(url.encode()).hexdigest()[:8]
@@ -421,7 +426,7 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
             d['txt'], d['chars'] = viejo['txt'], viejo.get('chars', 0)
         if sin_descarga or (R / d['txt']).exists():
             if (R / d['txt']).exists(): completa_con_texto(d, (R / d['txt']).read_text(encoding='utf-8', errors='ignore'), anios)
-            docs[url] = d
+            if d['anio'] in anios: docs[url] = d
         else: pend.append((d, rel, info.get('plantilla', False)))
     # primero lo que más importa: exámenes con materia reconocida, de los años más recientes
     pend.sort(key=lambda x: (x[2], x[0]['tipo'] != 'examen', x[0]['materia'] is None, -x[0]['anio']))
@@ -452,6 +457,7 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
             t = texto_pdf(pdf, txt); d['chars'] = len(t.strip()); completa_con_texto(d, t, anios)
         except Exception as e: log(f'  sin texto ({type(e).__name__}): {d["url"]}'); d['chars'] = 0; t = ''
         if NO_PAU.search(norm(t[:800] if d['chars'] else '')): txt.unlink(missing_ok=True); continue
+        if d['anio'] not in anios: txt.unlink(missing_ok=True); pdf.unlink(missing_ok=True); continue   # la cabecera dice otro curso
         d['bytes'] = len(r.content); docs[d['url']] = d
         if hechos % 10 == 0: guarda_manifiesto(cid, docs, logl, quedan())
     try: ingesta_manual(cid, docs, anios, log)

@@ -39,7 +39,17 @@
         "/sobrelosgrados/pau"
       ],
       "profundidad": 4,
-      "max_paginas": 400
+      "max_paginas": 400,
+      "excluir": [
+        "folderId=83978",
+        "folderId=83969",
+        "folderId=83972",
+        "folderId=83984",
+        "/examenes/loe",
+        "/examenes/logse",
+        "breadcrumb="
+      ],
+      "cabecera_manda": true
     },
     "baleares": {
       "nombre": "Illes Balears",
@@ -189,5 +199,5 @@
       "pausa": 1.5
     }
   },
-  "_nota_opciones": "Opciones por comunidad: pausa (s entre peticiones), timeout (s para conectar), max_paginas, profundidad, dominios_extra (otros dominios de la misma institución, p. ej. uib.cat y uib.es) y plantillas (URL con {anio} y listas o rangos «01-60» para el resto de campos). También: solo_rutas (solo se siguen las páginas cuya URL contiene alguno de esos trozos) y cabecera_manda (la materia, el año y la convocatoria de la cabecera del PDF mandan sobre el texto del enlace)."
+  "_nota_opciones": "Opciones por comunidad: pausa (s entre peticiones), timeout (s para conectar), max_paginas, profundidad, dominios_extra (otros dominios de la misma institución, p. ej. uib.cat y uib.es) y plantillas (URL con {anio} y listas o rangos «01-60» para el resto de campos). También: solo_rutas y excluir (solo se siguen las páginas cuya URL contiene alguno de esos trozos, y nunca las que contienen alguno de excluir) y cabecera_manda (la materia, el año y la convocatoria de la cabecera del PDF mandan sobre el texto del enlace)."
 }
