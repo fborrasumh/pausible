@@ -428,7 +428,10 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
         if viejo and (R / viejo['txt']).exists():      # ya descargado: se conserva el fichero y se reclasifica
             d['txt'], d['chars'] = viejo['txt'], viejo.get('chars', 0)
         if sin_descarga or (R / d['txt']).exists():
-            if (R / d['txt']).exists(): completa_con_texto(d, (R / d['txt']).read_text(encoding='utf-8', errors='ignore'), anios)
+            if (R / d['txt']).exists():
+                t = (R / d['txt']).read_text(encoding='utf-8', errors='ignore')
+                d['chars'] = max(d.get('chars') or 0, len(t.strip()))   # el texto ya está: que cuente aunque el manifiesto dijera 0
+                completa_con_texto(d, t, anios)
             if d['anio'] in anios: docs[url] = d
         else: pend.append((d, rel, info.get('plantilla', False)))
     # primero lo que más importa: exámenes con materia reconocida, de los años más recientes
