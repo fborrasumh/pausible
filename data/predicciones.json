@@ -9190,48 +9190,109 @@
   "asturias": {
    "nombre": "Principado de Asturias",
    "materias": {
-    "biologia": {
-     "nombre": "Biología",
-     "n_examenes": 1,
+    "aleman": {
+     "nombre": "Lengua Extranjera II: Alemán",
+     "n_examenes": 2,
      "anios": [
-      2026
+      2025
      ],
      "examenes": [
       {
-       "anio": 2026,
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/6e6a443b-e87e-9bdc-5894-e54ca5ad781c"
+      },
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/8549b6ec-f55a-c093-0736-62c53a6284e6"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "biologia": {
+     "nombre": "Biología",
+     "n_examenes": 2,
+     "anios": [
+      2023,
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2023,
        "conv": "ext",
        "url": "https://www.uniovi.es/documents/39158/13774579/PONDERACIONES.pdf/62c612dd-94c9-601b-4fea-a271f2e90bcc?t=1771329552491"
+      },
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/ede66de3-9cc6-8ee7-85e4-d4951f3fad10"
       }
      ],
      "temas": [
       {
        "id": "biomoleculas",
        "nombre": "Biomoléculas",
-       "p": 0.05,
-       "veces": 0,
-       "de": 1,
-       "ultimo": null,
-       "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
+       "p": 0.513,
+       "veces": 1,
+       "de": 2,
+       "ultimo": 2025,
+       "tendencia": "sube",
+       "muestra": "Pregunta 1. Opción A. La intolerancia a la lactosa se debe a la deficiencia de un enzima disacaridasa, la Pregunta 2. Opción B. Tenemos dos tipos celulares, A y B. El tipo A es una célula con un ADN en el que lactasa, de modo que no es posible la ruptura de la lactosa, no puede s…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/ede66de3-9cc6-8ee7-85e4-d4951f3fad10"
       },
       {
        "id": "celula",
        "nombre": "La célula",
-       "p": 0.05,
-       "veces": 0,
-       "de": 1,
-       "ultimo": null,
-       "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
+       "p": 0.513,
+       "veces": 1,
+       "de": 2,
+       "ultimo": 2025,
+       "tendencia": "sube",
+       "muestra": "Pregunta 1. Opción B. En la dieta mediterránea, el aporte de aminoácidos viene dado por el consumo de Pregunta 3. Opción A. El esquema representa distintos tipos de transporte de moléculas a través de una legumbres, huevos, pescado y carnes magras como el pollo. membrana de la cé…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/ede66de3-9cc6-8ee7-85e4-d4951f3fad10"
+      },
+      {
+       "id": "molecular",
+       "nombre": "Genética molecular y biotecnología",
+       "p": 0.513,
+       "veces": 1,
+       "de": 2,
+       "ultimo": 2025,
+       "tendencia": "sube",
+       "muestra": "Pregunta 1. Opción A. La intolerancia a la lactosa se debe a la deficiencia de un enzima disacaridasa, la Pregunta 2. Opción B. Tenemos dos tipos celulares, A y B. El tipo A es una célula con un ADN en el que lactasa, de modo que no es posible la ruptura de la lactosa, no puede s…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/ede66de3-9cc6-8ee7-85e4-d4951f3fad10"
+      },
+      {
+       "id": "microbiologia",
+       "nombre": "Microbiología",
+       "p": 0.513,
+       "veces": 1,
+       "de": 2,
+       "ultimo": 2025,
+       "tendencia": "sube",
+       "muestra": "Pregunta 5. Opción A. Se ha creado una planta que desprende luz de color verde neón en la oscuridad insertando en su ADN genes procedentes del hongo Neonothopanus nambi. Los genes insertados codifican a. ¿Qué proceso tiene lugar en la célula? Justifica tu respuesta (1 punto) los …",
+       "muestra_url": "https://www.uniovi.es/documents/39158/ede66de3-9cc6-8ee7-85e4-d4951f3fad10"
+      },
+      {
+       "id": "inmunologia",
+       "nombre": "Inmunología",
+       "p": 0.513,
+       "veces": 1,
+       "de": 2,
+       "ultimo": 2025,
+       "tendencia": "sube",
+       "muestra": "b. Indica el nombre que recibe el conjunto de las reacciones B y señala dos ejemplos de estas reacciones que ocurran en una célula animal (Calificación 1 punto) Pregunta 5. Opción B. El sistema inmunitario adaptativo depende de muchos factores, como la edad, la c. Indica el nombr…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/ede66de3-9cc6-8ee7-85e4-d4951f3fad10"
       },
       {
        "id": "metabolismo",
        "nombre": "Metabolismo",
        "p": 0.05,
        "veces": 0,
-       "de": 1,
+       "de": 2,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -9242,7 +9303,7 @@
        "nombre": "División celular",
        "p": 0.05,
        "veces": 0,
-       "de": 1,
+       "de": 2,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -9253,40 +9314,7 @@
        "nombre": "Genética mendeliana",
        "p": 0.05,
        "veces": 0,
-       "de": 1,
-       "ultimo": null,
-       "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
-      },
-      {
-       "id": "molecular",
-       "nombre": "Genética molecular y biotecnología",
-       "p": 0.05,
-       "veces": 0,
-       "de": 1,
-       "ultimo": null,
-       "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
-      },
-      {
-       "id": "microbiologia",
-       "nombre": "Microbiología",
-       "p": 0.05,
-       "veces": 0,
-       "de": 1,
-       "ultimo": null,
-       "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
-      },
-      {
-       "id": "inmunologia",
-       "nombre": "Inmunología",
-       "p": 0.05,
-       "veces": 0,
-       "de": 1,
+       "de": 2,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -9296,13 +9324,131 @@
      "validacion": null,
      "confianza": "baja"
     },
-    "diseno": {
-     "nombre": "Diseño",
+    "ciencias": {
+     "nombre": "Ciencias Generales",
      "n_examenes": 1,
      "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/17534033-dd07-fc55-9fac-cefef9fb025b"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "dibujo": {
+     "nombre": "Dibujo Técnico II",
+     "n_examenes": 2,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://www.uniovi.es/documents/39158/5b6ed012-d9ab-88ea-8219-303c239d49b8"
+      },
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/b2fdadbb-b35f-37e6-526c-639d3cf3878c"
+      }
+     ],
+     "temas": [
+      {
+       "id": "geometriaplana",
+       "nombre": "Geometría plana (tangencias, transformaciones)",
+       "p": 0.346,
+       "veces": 1,
+       "de": 2,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "b) A partir de la altura ABATIDA, dibuja la verdadera forma y magn del triángulo. CALIFICACIÓN REVISIÓN REVISIÓN Ejercicio 2 - Opción A (2,5 puntos) Ejercicio 2 - Opción B (2,5 puntos) c) Mediante AFINIDAD , dibuja la Representa la figura dada usando herramientas Representa la fi…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/b2fdadbb-b35f-37e6-526c-639d3cf3878c"
+      },
+      {
+       "id": "conicas",
+       "nombre": "Cónicas",
+       "p": 0.346,
+       "veces": 1,
+       "de": 2,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "PEGAR AQUÍ LA CABECERA ANTES DE ENTREGAR EL EXAMEN En la homología dada, halla la figura homóloga del rectángulo ABCD. A Ejercicio 3 - Opción A (2,5 puntos) C Se da la traza vertical de un plano α en α2 el que está situado un triángulo V equilátero de lado igual a 40 mm. Dos lado…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/b2fdadbb-b35f-37e6-526c-639d3cf3878c"
+      },
+      {
+       "id": "diedrico",
+       "nombre": "Sistema diédrico",
+       "p": 0.346,
+       "veces": 1,
+       "de": 2,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "……………………… ………………………………. sponda en el pliego a cuatro de los cinco ejercicios que se proponen, pero solo una opción en cada ejercicio (A o B). ATodos 10 los ejercicios se calificarán con un máximo de 2,5 puntos. Prueba 36 de evaluación 32 de 18 Bachillerato para el A rupaciones de…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/b2fdadbb-b35f-37e6-526c-639d3cf3878c"
+      },
+      {
+       "id": "axonometrico",
+       "nombre": "Axonométrico y perspectiva",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "normalizacion",
+       "nombre": "Normalización y vistas",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "dibujoartistico": {
+     "nombre": "Dibujo Artístico II",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/3bf8dfd3-3035-b692-3cb5-7a10780fdb92"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "diseno": {
+     "nombre": "Diseño",
+     "n_examenes": 2,
+     "anios": [
+      2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/4b7b8390-b6e4-7a12-103b-2254de90fd79"
+      },
       {
        "anio": 2026,
        "conv": "ext",
@@ -9317,74 +9463,74 @@
      "nombre": "Empresa y Diseño de Modelos de Negocio / Economía de la Empresa",
      "n_examenes": 2,
      "anios": [
-      2024,
-      2025
+      2025,
+      2026
      ],
      "examenes": [
-      {
-       "anio": 2024,
-       "conv": "modelo",
-       "url": "https://www.uniovi.es/documents/39158/44815/Nota+Informativa+sobre+calculadoras_2024.pdf/859ce1dc-1470-536a-3797-3d8114a1aa2a?t=1715673710608"
-      },
       {
        "anio": 2025,
        "conv": "modelo",
        "url": "https://www.uniovi.es/documents/39158/32dd53cd-b85d-fa21-27c5-180312c6f2bc"
+      },
+      {
+       "anio": 2026,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/44815/Nota+Informativa+sobre+calculadoras_2024.pdf/859ce1dc-1470-536a-3797-3d8114a1aa2a?t=1715673710608"
       }
      ],
      "temas": [
       {
        "id": "financiacion",
        "nombre": "Inversión y financiación (VAN, TIR, payback)",
-       "p": 0.567,
+       "p": 0.414,
        "veces": 1,
        "de": 2,
        "ultimo": 2025,
-       "tendencia": "sube",
+       "tendencia": "estable",
        "muestra": "Pregunta 4. Opción A. El Sr. Salas quiere invertir unos ahorros de 40.000 €, y se le plantean 2 posibilidades Pregunta 5. Opción A. La empresa Llavandera SL presenta la siguiente composición de su estructura de inversión. En la inversión A el primer año no se prevén flujos de caj…",
        "muestra_url": "https://www.uniovi.es/documents/39158/32dd53cd-b85d-fa21-27c5-180312c6f2bc"
       },
       {
        "id": "contabilidad",
        "nombre": "Balance y análisis financiero (ratios)",
-       "p": 0.567,
+       "p": 0.414,
        "veces": 1,
        "de": 2,
        "ultimo": 2025,
-       "tendencia": "sube",
+       "tendencia": "estable",
        "muestra": "Pregunta 1. Opción A. Quiere constituir una empresa comercial y se enfrenta a tomar diferentes decisiones Pregunta 2. Opción B. Apple y Mercadona son 2 empresas que utilizan 2 estrategias de marca distintas: en cuanto a la forma jurídica de su sociedad, la localización de sus ins…",
        "muestra_url": "https://www.uniovi.es/documents/39158/32dd53cd-b85d-fa21-27c5-180312c6f2bc"
       },
       {
        "id": "produccion",
        "nombre": "Producción, costes y umbral de rentabilidad",
-       "p": 0.567,
+       "p": 0.414,
        "veces": 1,
        "de": 2,
        "ultimo": 2025,
-       "tendencia": "sube",
+       "tendencia": "estable",
        "muestra": "Pregunta 1. Opción A. Quiere constituir una empresa comercial y se enfrenta a tomar diferentes decisiones Pregunta 2. Opción B. Apple y Mercadona son 2 empresas que utilizan 2 estrategias de marca distintas: en cuanto a la forma jurídica de su sociedad, la localización de sus ins…",
        "muestra_url": "https://www.uniovi.es/documents/39158/32dd53cd-b85d-fa21-27c5-180312c6f2bc"
       },
       {
        "id": "marketing",
        "nombre": "Marketing",
-       "p": 0.567,
+       "p": 0.414,
        "veces": 1,
        "de": 2,
        "ultimo": 2025,
-       "tendencia": "sube",
+       "tendencia": "estable",
        "muestra": "Pregunta 1. Opción A. Quiere constituir una empresa comercial y se enfrenta a tomar diferentes decisiones Pregunta 2. Opción B. Apple y Mercadona son 2 empresas que utilizan 2 estrategias de marca distintas: en cuanto a la forma jurídica de su sociedad, la localización de sus ins…",
        "muestra_url": "https://www.uniovi.es/documents/39158/32dd53cd-b85d-fa21-27c5-180312c6f2bc"
       },
       {
        "id": "organizacion",
        "nombre": "Organización y dirección",
-       "p": 0.567,
+       "p": 0.414,
        "veces": 1,
        "de": 2,
        "ultimo": 2025,
-       "tendencia": "sube",
+       "tendencia": "estable",
        "muestra": "Pregunta 1. Opción A. Quiere constituir una empresa comercial y se enfrenta a tomar diferentes decisiones Pregunta 2. Opción B. Apple y Mercadona son 2 empresas que utilizan 2 estrategias de marca distintas: en cuanto a la forma jurídica de su sociedad, la localización de sus ins…",
        "muestra_url": "https://www.uniovi.es/documents/39158/32dd53cd-b85d-fa21-27c5-180312c6f2bc"
       },
@@ -9403,13 +9549,36 @@
      "validacion": null,
      "confianza": "baja"
     },
-    "filosofia": {
-     "nombre": "Historia de la Filosofía",
+    "escenicas": {
+     "nombre": "Artes Escénicas II",
      "n_examenes": 1,
      "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/7f15cfab-5879-84e4-8f09-d65933baa5c4"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "filosofia": {
+     "nombre": "Historia de la Filosofía",
+     "n_examenes": 2,
+     "anios": [
+      2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/c1420093-361c-21a7-d414-e4088de0d04d"
+      },
       {
        "anio": 2026,
        "conv": "nd",
@@ -9420,20 +9589,20 @@
       {
        "id": "platon",
        "nombre": "Platón",
-       "p": 0.05,
-       "veces": 0,
-       "de": 1,
-       "ultimo": null,
+       "p": 0.34,
+       "veces": 1,
+       "de": 2,
+       "ultimo": 2025,
        "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
+       "muestra": "Opción B. Explique las relaciones y/o las diferencias del término acci m al en una autora o autor de Opción B. Explique los argumentos del siguiente fragmento de El Sofista de Platón la filosofía contemporánea y una autora o autor de la filosofía antigua. Extranjero. Si alguno de…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/c1420093-361c-21a7-d414-e4088de0d04d"
       },
       {
        "id": "aristoteles",
        "nombre": "Aristóteles",
        "p": 0.05,
        "veces": 0,
-       "de": 1,
+       "de": 2,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -9444,7 +9613,7 @@
        "nombre": "Agustín de Hipona / Tomás de Aquino",
        "p": 0.05,
        "veces": 0,
-       "de": 1,
+       "de": 2,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -9455,7 +9624,7 @@
        "nombre": "Descartes",
        "p": 0.05,
        "veces": 0,
-       "de": 1,
+       "de": 2,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -9466,7 +9635,7 @@
        "nombre": "Hume / Locke",
        "p": 0.05,
        "veces": 0,
-       "de": 1,
+       "de": 2,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -9477,7 +9646,7 @@
        "nombre": "Kant",
        "p": 0.05,
        "veces": 0,
-       "de": 1,
+       "de": 2,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -9488,7 +9657,7 @@
        "nombre": "Marx",
        "p": 0.05,
        "veces": 0,
-       "de": 1,
+       "de": 2,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -9499,7 +9668,7 @@
        "nombre": "Nietzsche",
        "p": 0.05,
        "veces": 0,
-       "de": 1,
+       "de": 2,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -9510,7 +9679,7 @@
        "nombre": "Ortega y Gasset",
        "p": 0.05,
        "veces": 0,
-       "de": 1,
+       "de": 2,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -9519,6 +9688,90 @@
       {
        "id": "contemporanea",
        "nombre": "Filosofía contemporánea (Arendt, Wittgenstein, Beauvoir…)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "fisica": {
+     "nombre": "Física",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/d26da41e-33bc-70e7-62e0-14f3597df416"
+      }
+     ],
+     "temas": [
+      {
+       "id": "gravitacion",
+       "nombre": "Campo gravitatorio",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "ROrbita Tierra =1.501011 m ROrbita Luna = 3.84108 m 0 = 4x10-7 T·m·A-1 naire = 1",
+       "muestra_url": "https://www.uniovi.es/documents/39158/d26da41e-33bc-70e7-62e0-14f3597df416"
+      },
+      {
+       "id": "magnetico",
+       "nombre": "Campo magnético e inducción",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Pregunta 4. La espira circular de un motor eléctrico tiene 10 cm de radio y 3  Pregunta 2. de resistencia y se encuentra situada en una zona donde hay un El cometa Halley describe una órbita elíptica entorno al Sol. La relación de distancias al Sol en el afelio, ra, y campo de i…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/d26da41e-33bc-70e7-62e0-14f3597df416"
+      },
+      {
+       "id": "ondas",
+       "nombre": "Ondas y sonido",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "➢ Responda en el pliego en blanco a cinco preguntas cualesquiera a elegir de las ocho que se proponen. Todas las preguntas se calificarán con un máximo de 2 puntos. ➢ Agrupaciones de preguntas que sumen más de 10 puntos o que no coincidan con las indicadas conllevarán la anulació…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/d26da41e-33bc-70e7-62e0-14f3597df416"
+      },
+      {
+       "id": "optica",
+       "nombre": "Óptica",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "En una feria de atracciones instalan un espejo esférico cóncavo que tiene un radio de curvatura de 40 cm. En el LHC (Large Hadron Collider) del CERN se trabaja en la detección y estudio de los muones, que son Un ilusionista realiza una actuación colocando una botella de 10 cm de …",
+       "muestra_url": "https://www.uniovi.es/documents/39158/d26da41e-33bc-70e7-62e0-14f3597df416"
+      },
+      {
+       "id": "moderna",
+       "nombre": "Física moderna (cuántica, nuclear, relatividad)",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Potencial de frenado (V) frecuencia constante de 650 Hz. Justifica cómo percibiría la persona el tono de la sirena de la ilumina la superficie del metal. 7 ambulancia, más agudo o más grave que el correspondiente a la frecuencia real de la sirena y a) Determina la longitud de ond…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/d26da41e-33bc-70e7-62e0-14f3597df416"
+      },
+      {
+       "id": "electrico",
+       "nombre": "Campo eléctrico",
        "p": 0.05,
        "veces": 0,
        "de": 1,
@@ -9531,17 +9784,1108 @@
      "validacion": null,
      "confianza": "baja"
     },
-    "musica": {
-     "nombre": "Análisis Musical II / Historia de la Música",
+    "frances": {
+     "nombre": "Lengua Extranjera II: Francés",
+     "n_examenes": 2,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/376bb6aa-2ead-4e07-b4be-5c0234e72caa"
+      },
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/996d22e1-a7ce-5786-1a15-c62398b898c5"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "fundamentosart": {
+     "nombre": "Fundamentos Artísticos",
      "n_examenes": 1,
      "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/fad2ff9e-93e8-8d7b-764c-5a5973a81a87"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "geografia": {
+     "nombre": "Geografía",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/01a88790-453e-0cec-2aa8-6063a8c45756"
+      }
+     ],
+     "temas": [
+      {
+       "id": "clima",
+       "nombre": "Clima y aguas",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Pregunta 1. Opción A (Figura 1). Pregunta 2. Opción A. (Figura 3). A la vista del mapa de formación de las a) Identifique, utilizando como referencia los Comunidades Autónomas, responda a las números, las depresiones periféricas y las siguientes cuestiones: unidades interiores de…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/01a88790-453e-0cec-2aa8-6063a8c45756"
+      },
+      {
+       "id": "sectores",
+       "nombre": "Sectores económicos",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Pregunta 3. Opción B. (Figura 6). Pregunta 5. Opción A. (Figura 9). a) Identifique las provincias con un mayor a) ¿A qué paisaje agrario corresponde la porcentaje de superficie bajo alguna figura imagen y en qué zonas de España es de protección ambiental (más del 30 %). (1 caract…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/01a88790-453e-0cec-2aa8-6063a8c45756"
+      },
+      {
+       "id": "territorio",
+       "nombre": "Organización territorial y Europa",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Pregunta 1. Opción A (Figura 1). Pregunta 2. Opción A. (Figura 3). A la vista del mapa de formación de las a) Identifique, utilizando como referencia los Comunidades Autónomas, responda a las números, las depresiones periféricas y las siguientes cuestiones: unidades interiores de…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/01a88790-453e-0cec-2aa8-6063a8c45756"
+      },
+      {
+       "id": "relieve",
+       "nombre": "Relieve",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "poblacion",
+       "nombre": "Población",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "urbano",
+       "nombre": "Espacio urbano",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "geologia": {
+     "nombre": "Geología y Ciencias Ambientales",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/bc6ccdbe-4452-c806-3288-66c86230746c"
+      }
+     ],
+     "temas": [
+      {
+       "id": "tectonica",
+       "nombre": "Tectónica y riesgos geológicos",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Pregunta 1. Opción A. La experimentación en Geología y Ciencias Ambientales. Patrimonio geológico. Pregunta 2 Opción A: La tectónica de placas y la geodinámica interna. La tectónica de placas. La influencia Métodos en la investigación geológica, fuentes de información y herramien…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/bc6ccdbe-4452-c806-3288-66c86230746c"
+      },
+      {
+       "id": "minerales",
+       "nombre": "Minerales y rocas",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Pregunta 3. Opción A: Procesos geológicos externos. Modelado del relieve: procesos y formas. Pregunta 4. Opción A: Minerales y rocas. Minerales, los componentes de las rocas. a. ¿Qué agentes geológicos externos, además de la gravedad, son capaces de movilizar materiales? a. Los m…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/bc6ccdbe-4452-c806-3288-66c86230746c"
+      },
+      {
+       "id": "procesos",
+       "nombre": "Procesos externos y mapas geológicos",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Pregunta 1. Opción A. La experimentación en Geología y Ciencias Ambientales. Patrimonio geológico. Pregunta 2 Opción A: La tectónica de placas y la geodinámica interna. La tectónica de placas. La influencia Métodos en la investigación geológica, fuentes de información y herramien…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/bc6ccdbe-4452-c806-3288-66c86230746c"
+      },
+      {
+       "id": "recursos",
+       "nombre": "Recursos y medio ambiente",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Pregunta 5. Opción B: Ciencias Ambientales. Los recursos naturales y su gestión sostenible. 3 4 a. ¿Qué se entiende por desarrollo sostenible? b. Dentro de los indicadores de sostenibilidad, ¿Qué es la huella de carbono? Pregunta 3. Opción B: Procesos geológicos externos c. Dentr…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/bc6ccdbe-4452-c806-3288-66c86230746c"
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "graficoplastica": {
+     "nombre": "Técnicas de Expresión Gráfico-Plástica",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/b792fa6c-8e2b-81a1-4464-e09dcf6f1e0a"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "griego": {
+     "nombre": "Griego II",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://www.uniovi.es/documents/39158/b5ef0bc7-82ac-4afd-cc04-ac634086d727"
+      }
+     ],
+     "temas": [
+      {
+       "id": "traduccion",
+       "nombre": "Traducción",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "CALIFICACIÓN REVISIÓN REVISIÓN Traducción: Inicial 2ª corrección 3ª corrección ESPACIO RESERVADO Prueba de acceso a la Universidad (PAU) PARA LA CURSO 2024-25 UNIVERSIDAD Firma Firma Firma CONVOCATORIA: SEDE: ……………………… ……………………………….",
+       "muestra_url": "https://www.uniovi.es/documents/39158/b5ef0bc7-82ac-4afd-cc04-ac634086d727"
+      },
+      {
+       "id": "morfosintaxis",
+       "nombre": "Morfosintaxis",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "• Análisis morfológico de las palabras de uno de los apartados del ejercicio 2 (máximo 1 punto). ἔμεινεν: αὐτὸν: • Las cuatro cuestiones de uno de los apartados, A o B, del ejercicio 3 (máximo 1 punto). • Las dos palabras de uno de los apartados, A o B, del ejercicio 4 (máximo 1 …",
+       "muestra_url": "https://www.uniovi.es/documents/39158/b5ef0bc7-82ac-4afd-cc04-ac634086d727"
+      },
+      {
+       "id": "lexico",
+       "nombre": "Léxico y etimología",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Notas: 1 Sustantiva al S.Prep. περὶ θήραν (“lo relacionado con ...”) || 2 Infinitivo de aoristo activo de παρέρχομαι 4) Analice la frase τοῦτον ἀνελὼν τὸ μαντεῖον παραλαμβάνει (hágalo a bolígrafo bajo el propio texto de la traducción) || 3 Nom. sg. masc. del part. de aoristo acti…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/b5ef0bc7-82ac-4afd-cc04-ac634086d727"
+      },
+      {
+       "id": "literatura",
+       "nombre": "Literatura griega",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "historia": {
+     "nombre": "Historia de España",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/a9338e97-7923-9429-ab5b-1bfa988f084b"
+      }
+     ],
+     "temas": [
+      {
+       "id": "franquismo",
+       "nombre": "Franquismo (1939-1975)",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Art. 1º. La Nación española es la reunión de todos los españoles de ambos hemisferios. “Yo, señores diputados, me siento ciudadano antes que mujer, y considero que sería un profundo error político dejar a la mujer al margen de ese derecho, a la mujer que espera y confía en vosotr…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/a9338e97-7923-9429-ab5b-1bfa988f084b"
+      },
+      {
+       "id": "antigua",
+       "nombre": "Prehistoria a Edad Media (Al-Ándalus, reinos cristianos)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "moderna",
+       "nombre": "Monarquía hispánica (Reyes Católicos, Austrias, Borbones s. XVIII)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "liberalismo",
+       "nombre": "Crisis del Antiguo Régimen y liberalismo (1808-1874)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "restauracion",
+       "nombre": "Restauración (1874-1931)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "republica",
+       "nombre": "Segunda República (1931-1936)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "guerracivil",
+       "nombre": "Guerra Civil (1936-1939)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "transicion",
+       "nombre": "Transición y democracia",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "historiaarte": {
+     "nombre": "Historia del Arte",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/45e01b0c-70da-2d41-374b-986af7a82f3b"
+      }
+     ],
+     "temas": [
+      {
+       "id": "clasico",
+       "nombre": "Arte clásico (Grecia y Roma)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "medieval",
+       "nombre": "Románico y gótico",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "renacimiento",
+       "nombre": "Renacimiento",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "barroco",
+       "nombre": "Barroco",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "sigloxix",
+       "nombre": "Goya y siglo XIX",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "vanguardias",
+       "nombre": "Vanguardias y siglo XX",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "ingles": {
+     "nombre": "Lengua Extranjera II: Inglés",
+     "n_examenes": 2,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/524204c2-3af7-5357-fa7a-44ddf02597aa"
+      },
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/c4b6c3dd-832a-a9a0-57c6-408105a8f57f"
+      }
+     ],
+     "temas": [
+      {
+       "id": "vocab",
+       "nombre": "Vocabulario (sinónimos, definiciones)",
+       "p": 0.9,
+       "veces": 2,
+       "de": 2,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Opción B - Text B 5. On average, British shops open from 9 am to 5.30 pm. Large supermarkets usually stay open until 8 pm. (A) _____ used to be a tradition of an ‘early closing day’, (B) _____ the shops shut at midday and did not Shopping open again, but this has now disappeared.…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/524204c2-3af7-5357-fa7a-44ddf02597aa"
+      },
+      {
+       "id": "writing",
+       "nombre": "Redacción (opinión, carta, email)",
+       "p": 0.9,
+       "veces": 2,
+       "de": 2,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "1. How are typical British shoppers characterized in the text? Ejercicio 3. Opción A. Write a composition about the following topic (100-120 words). (4 puntos) 2. What kinds of shop can a visitor from northern Europe find in Britain? What is your idea of a successful holiday? 3. …",
+       "muestra_url": "https://www.uniovi.es/documents/39158/524204c2-3af7-5357-fa7a-44ddf02597aa"
+      },
+      {
+       "id": "reading",
+       "nombre": "Comprensión lectora (true/false, preguntas)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "grammar",
+       "nombre": "Gramática (reescritura, transformaciones)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "mediation",
+       "nombre": "Mediación",
+       "p": 0.05,
+       "veces": 0,
+       "de": 2,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "italiano": {
+     "nombre": "Lengua Extranjera II: Italiano",
+     "n_examenes": 2,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/8499c886-39ad-261a-38a8-e42e4b689685"
+      },
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/61e1e18d-bf49-aa95-0faa-e7b0f4957cf6"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "latin": {
+     "nombre": "Latín II",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/3f223406-4f4e-bc1d-fff6-538ea03f67c5"
+      }
+     ],
+     "temas": [
+      {
+       "id": "traduccion",
+       "nombre": "Traducción",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "➢ Responda en este pliego a: Ejercicio 3 Análisis sintáctico, en referencia al texto de la traducción, máximo 1 punto, máximo 0,5 puntos • Traducción del texto del ejercicio 1 (máximo 4 puntos). por respuesta). Responda sólo a uno de los dos apartados (A o B). • Análisis morfológ…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/3f223406-4f4e-bc1d-fff6-538ea03f67c5"
+      },
+      {
+       "id": "morfosintaxis",
+       "nombre": "Morfosintaxis",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "➢ Responda en este pliego a: Ejercicio 3 Análisis sintáctico, en referencia al texto de la traducción, máximo 1 punto, máximo 0,5 puntos • Traducción del texto del ejercicio 1 (máximo 4 puntos). por respuesta). Responda sólo a uno de los dos apartados (A o B). • Análisis morfológ…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/3f223406-4f4e-bc1d-fff6-538ea03f67c5"
+      },
+      {
+       "id": "lexico",
+       "nombre": "Léxico y etimología",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "1) Escriba la evolución fonética del latín al castellano de portas e indique el resultado de esa evolución: conquirerent, equitatus hostium procul visus est. Centuriones portas occupaverunt suosque omnes",
+       "muestra_url": "https://www.uniovi.es/documents/39158/3f223406-4f4e-bc1d-fff6-538ea03f67c5"
+      },
+      {
+       "id": "literatura",
+       "nombre": "Literatura latina",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "lengua": {
+     "nombre": "Lengua Castellana y Literatura II",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/615938d9-81f8-9c25-e1b2-7ddb4fa39db3"
+      }
+     ],
+     "temas": [
+      {
+       "id": "comprension",
+       "nombre": "Comprensión y resumen del texto",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "TEXTO Pregunta 1. Resumen e interpretación del texto anterior (2 puntos). Tres dioses Opción A. En la ciudad de Hebrón se hallan las tumbas de los patriarcas. Según la tradición, allí están enterrados Abraham y sus descendientes Isaac y Jacob, en los que confluyen los creyentes d…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/615938d9-81f8-9c25-e1b2-7ddb4fa39db3"
+      },
+      {
+       "id": "sintaxis",
+       "nombre": "Sintaxis (oración compuesta)",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "«Según la tradición, allí están enterrados Abraham y sus descendientes Isaac y Jacob, en los que Opción A. Responda a estas cuestiones relativas al texto anterior: confluyen los creyentes de las tres religiones monoteístas». A.1) Identifique el tema del fragmento en relación con …",
+       "muestra_url": "https://www.uniovi.es/documents/39158/615938d9-81f8-9c25-e1b2-7ddb4fa39db3"
+      },
+      {
+       "id": "morfologia",
+       "nombre": "Léxico, morfología y semántica",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Manuel Vicent. El País. 22-10-2023 Pregunta 3. Análisis morfológico (2 puntos).",
+       "muestra_url": "https://www.uniovi.es/documents/39158/615938d9-81f8-9c25-e1b2-7ddb4fa39db3"
+      },
+      {
+       "id": "lit98",
+       "nombre": "Literatura: Modernismo y 98, novecentismo",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "«En medio de una violencia más allá del horror, se nos invita a tomar partido frente al abominable terrorismo de Hamás y la venganza de la máquina militar de Israel amparada por Estados Unidos». Opción B. Análisis morfológico de las palabras subrayadas en el siguiente fragmento d…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/615938d9-81f8-9c25-e1b2-7ddb4fa39db3"
+      },
+      {
+       "id": "novela",
+       "nombre": "Novela del siglo XX y actual",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Pregunta 6. Cuestión relativa al fragmento de Niebla, de Miguel de Unamuno (2 puntos). Comente – TEXTO LITERARIO PARA COMENTAR razonadamente y empleando ejemplos– dos rasgos, presentes en el texto que permitan justificar que —¡No, no te muevas! —le ordené. pertenece a la producci…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/615938d9-81f8-9c25-e1b2-7ddb4fa39db3"
+      },
+      {
+       "id": "argumentacion",
+       "nombre": "Texto argumentativo / opinión",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "lit27",
+       "nombre": "Literatura: 27, Lorca, poesía de posguerra",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "teatro",
+       "nombre": "Teatro del siglo XX",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "literaturadram": {
+     "nombre": "Literatura Dramática",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/22e73795-dfb8-8e43-8381-cc54a49e2d94"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "matccss": {
+     "nombre": "Matemáticas Aplicadas a las CC. Sociales II",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/c6c1b0bb-338c-b2da-b1f7-3b56638d12fc"
+      }
+     ],
+     "temas": [
+      {
+       "id": "progl",
+       "nombre": "Programación lineal",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "➢ Responda en el pliego en blanco a una opción (A o B) de cuatro de las cinco preguntas cualesquiera que se proponen. Todas las preguntas se calificarán con un máximo de 2,5 puntos. ➢ Agrupaciones de preguntas que sumen más de 10 puntos o no coincidan con las indicadas conllevará…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/c6c1b0bb-338c-b2da-b1f7-3b56638d12fc"
+      },
+      {
+       "id": "probabilidad",
+       "nombre": "Probabilidad",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "b) Encuentra un valor de m para el cual el sistema tenga infinitas soluciones. (1 punto) c) Uno de los dos intervalos siguientes: (8.5681,8.8319) y (8.5514,8.8486) se obtuvo a partir de la misma muestra al 88 % de confianza. Razona adecuadamente cuál de los dos corresponde al niv…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/c6c1b0bb-338c-b2da-b1f7-3b56638d12fc"
+      },
+      {
+       "id": "inferencia",
+       "nombre": "Inferencia y distribución normal",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "b) ¿Puede existir una figura con 152 hexágonos verdes? En caso afirmativo, ¿qué número de figura sería? Si no es posible, explica por qué. (0.5 puntos) Pregunta 3. Opción B. Dadas las matrices: Pregunta 5. Opción B. El nivel de cierta hormona en sangre sigue distribución normal c…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/c6c1b0bb-338c-b2da-b1f7-3b56638d12fc"
+      },
+      {
+       "id": "matrices",
+       "nombre": "Matrices y sistemas",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "funciones",
+       "nombre": "Funciones y derivadas",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "integrales",
+       "nombre": "Integrales y áreas",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "matematicas2": {
+     "nombre": "Matemáticas II",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/3e334f59-7bbf-6396-ec0a-0bbbc7970351"
+      }
+     ],
+     "temas": [
+      {
+       "id": "matrices",
+       "nombre": "Matrices y determinantes",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "(a) (1 punto) Plantea un sistema de ecuaciones lineal que modelice el problema y escrı́belo matricial- Pregunta 2. Opción B. (2.5 puntos) Se dispone de una placa circular de 4 metros de radio, de la que se mente especificando quién es la matriz de coeficientes y la matriz ampli…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/3e334f59-7bbf-6396-ec0a-0bbbc7970351"
+      },
+      {
+       "id": "sistemas",
+       "nombre": "Sistemas de ecuaciones (discusión)",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "(a) (1 punto) Plantea un sistema de ecuaciones lineal que modelice el problema y escrı́belo matricial- Pregunta 2. Opción B. (2.5 puntos) Se dispone de una placa circular de 4 metros de radio, de la que se mente especificando quién es la matriz de coeficientes y la matriz ampli…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/3e334f59-7bbf-6396-ec0a-0bbbc7970351"
+      },
+      {
+       "id": "geometria",
+       "nombre": "Geometría en el espacio",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "(a) (1 punto) Plantea un sistema de ecuaciones lineal que modelice el problema y escrı́belo matricial- Pregunta 2. Opción B. (2.5 puntos) Se dispone de una placa circular de 4 metros de radio, de la que se mente especificando quién es la matriz de coeficientes y la matriz ampli…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/3e334f59-7bbf-6396-ec0a-0bbbc7970351"
+      },
+      {
+       "id": "limites",
+       "nombre": "Límites y continuidad",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "  (b) (1.25 puntos) Calcula el área limitada por f, el eje X y las rectas x = 0 y x = π. 1 2 3     1 1 2 Pregunta 1. Opción B. Sea x ∈ R y las matrices A =   −1 0 , B = 3   . −1 −1 2 2 0 x Pregunta 3. Opción B. Dos drones están realizando un vuelo de forma que las…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/3e334f59-7bbf-6396-ec0a-0bbbc7970351"
+      },
+      {
+       "id": "derivadas",
+       "nombre": "Derivadas y aplicaciones",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "➢ Responda en el pliego en blanco a cuatro de las cinco preguntas que se proponen. De cada una de las seleccionadas conteste una única opción A o B. Todas las preguntas se calificarán con un máximo de 2,5 puntos",
+       "muestra_url": "https://www.uniovi.es/documents/39158/3e334f59-7bbf-6396-ec0a-0bbbc7970351"
+      },
+      {
+       "id": "integrales",
+       "nombre": "Integrales y áreas",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "(a) (1 punto) Plantea un sistema de ecuaciones lineal que modelice el problema y escrı́belo matricial- Pregunta 2. Opción B. (2.5 puntos) Se dispone de una placa circular de 4 metros de radio, de la que se mente especificando quién es la matriz de coeficientes y la matriz ampli…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/3e334f59-7bbf-6396-ec0a-0bbbc7970351"
+      },
+      {
+       "id": "probabilidad",
+       "nombre": "Probabilidad y distribuciones",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Pregunta 5. Opción A. Estás jugando a un juego online consistente en lanzar bolas a una diana. El juego te asigna un personaje al azar de 10 posibles, 4 de ellos son azules y los 6 restantes rojos. La probabilidad Pregunta 4. Opción A. Se consideran los puntos A = (2, 1, 3) y …",
+       "muestra_url": "https://www.uniovi.es/documents/39158/3e334f59-7bbf-6396-ec0a-0bbbc7970351"
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "movimientos": {
+     "nombre": "Movimientos Culturales y Artísticos",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/219ca61b-3f02-d4e6-07ac-2848173fe0a6"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "musica": {
+     "nombre": "Análisis Musical II / Historia de la Música",
+     "n_examenes": 3,
+     "anios": [
+      2025,
       2026
      ],
      "examenes": [
       {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/0800e266-c8ef-2316-3a02-423bf02e6693"
+      },
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/ccac5b34-d791-b851-9a9c-383e1ea15842"
+      },
+      {
        "anio": 2026,
        "conv": "ext",
        "url": "https://www.uniovi.es/documents/39158/13774579/Asignaci%C3%B3n+sedes+centros+julio+2026.pdf/4d45841e-7fa1-93c3-21b8-dd4ee8bc8cc3?t=1781174697846"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "portugues": {
+     "nombre": "Lengua Extranjera II: Portugués",
+     "n_examenes": 2,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/6197d31d-dab7-e869-9196-357931e93c1b"
+      },
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/f4da9514-8df3-c68d-5fd6-51896e12dfae"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "quimica": {
+     "nombre": "Química",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/e85b0e03-ac1b-ccad-503a-f0e865811a9b"
+      }
+     ],
+     "temas": [
+      {
+       "id": "estructura",
+       "nombre": "Estructura atómica y tabla periódica",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Datos: Ei (Na) = 496 kJ mol−1 (primera energı́a de ionización), Eea (Cl) = −349 kJ mol−1 (primera afi- nidad electrónica), ∆f H (NaCl(s)) = −411 kJ mol−1 , ∆f H (Na(g)) = 108 kJ mol−1 y ∆f H (Cl(g)) = Pregunta 1. Opción B. (2,5 puntos) a) (0,75 puntos) En la tabla aparecen cua…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/e85b0e03-ac1b-ccad-503a-f0e865811a9b"
+      },
+      {
+       "id": "termo",
+       "nombre": "Termoquímica y espontaneidad",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "1 3 2 2 +1/2 ∆r H , correspondiente a la combustión del metano. b) (0,50 puntos) Indique, razonadamente, si la reacción 2 3 1 1 +1/2 es exotérmica o endotérmica.",
+       "muestra_url": "https://www.uniovi.es/documents/39158/e85b0e03-ac1b-ccad-503a-f0e865811a9b"
+      },
+      {
+       "id": "equilibrio",
+       "nombre": "Equilibrio químico y solubilidad",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "da, una mezcla gaseosa de N2 (g), H2 (g) y NH3 (g) se encuentra en un estado de equilibrio. Las cantidades la reacción respecto al Br− . c) (0,25 puntos) Calcule el orden de la reacción respecto al H3 O+ . d) (0,25 de los tres componentes de la mezcla gaseosa en ese estado de e…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/e85b0e03-ac1b-ccad-503a-f0e865811a9b"
+      },
+      {
+       "id": "acidobase",
+       "nombre": "Ácido-base",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Pregunta 4. Opción A. (2,5 puntos) Calcule, a 25 ◦ C, el pH de una disolución acuosa 0,0100 m de HNO2 . O",
+       "muestra_url": "https://www.uniovi.es/documents/39158/e85b0e03-ac1b-ccad-503a-f0e865811a9b"
+      },
+      {
+       "id": "organica",
+       "nombre": "Química orgánica",
+       "p": 0.9,
+       "veces": 1,
+       "de": 1,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "da, una mezcla gaseosa de N2 (g), H2 (g) y NH3 (g) se encuentra en un estado de equilibrio. Las cantidades la reacción respecto al Br− . c) (0,25 puntos) Calcule el orden de la reacción respecto al H3 O+ . d) (0,25 de los tres componentes de la mezcla gaseosa en ese estado de e…",
+       "muestra_url": "https://www.uniovi.es/documents/39158/e85b0e03-ac1b-ccad-503a-f0e865811a9b"
+      },
+      {
+       "id": "enlace",
+       "nombre": "Enlace químico",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "cinetica",
+       "nombre": "Cinética química",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "redox",
+       "nombre": "Redox y electroquímica",
+       "p": 0.05,
+       "veces": 0,
+       "de": 1,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "tecnologia": {
+     "nombre": "Tecnología e Ingeniería II",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "modelo",
+       "url": "https://www.uniovi.es/documents/39158/ee36fd7d-5037-7f9d-93d8-baf7332f8406"
       }
      ],
      "temas": [],
@@ -50288,49 +51632,49 @@
    {
     "id": "molecular",
     "nombre": "Genética molecular y biotecnología",
-    "p": 0.789,
+    "p": 0.79,
     "ccaa": 13
    },
    {
     "id": "biomoleculas",
     "nombre": "Biomoléculas",
-    "p": 0.78,
+    "p": 0.781,
     "ccaa": 13
    },
    {
     "id": "inmunologia",
     "nombre": "Inmunología",
-    "p": 0.71,
+    "p": 0.711,
     "ccaa": 13
    },
    {
     "id": "metabolismo",
     "nombre": "Metabolismo",
-    "p": 0.686,
+    "p": 0.683,
     "ccaa": 13
    },
    {
     "id": "celula",
     "nombre": "La célula",
-    "p": 0.636,
+    "p": 0.638,
     "ccaa": 13
    },
    {
     "id": "microbiologia",
     "nombre": "Microbiología",
-    "p": 0.596,
+    "p": 0.597,
     "ccaa": 13
    },
    {
     "id": "division",
     "nombre": "División celular",
-    "p": 0.471,
+    "p": 0.469,
     "ccaa": 13
    },
    {
     "id": "genetica",
     "nombre": "Genética mendeliana",
-    "p": 0.288,
+    "p": 0.287,
     "ccaa": 13
    }
   ],
@@ -50338,57 +51682,57 @@
    {
     "id": "normalizacion",
     "nombre": "Normalización y vistas",
-    "p": 0.657,
-    "ccaa": 12
+    "p": 0.653,
+    "ccaa": 13
    },
    {
     "id": "axonometrico",
     "nombre": "Axonométrico y perspectiva",
-    "p": 0.62,
-    "ccaa": 12
+    "p": 0.616,
+    "ccaa": 13
    },
    {
     "id": "diedrico",
     "nombre": "Sistema diédrico",
-    "p": 0.543,
-    "ccaa": 12
+    "p": 0.542,
+    "ccaa": 13
    },
    {
     "id": "geometriaplana",
     "nombre": "Geometría plana (tangencias, transformaciones)",
-    "p": 0.533,
-    "ccaa": 12
+    "p": 0.532,
+    "ccaa": 13
    },
    {
     "id": "conicas",
     "nombre": "Cónicas",
     "p": 0.457,
-    "ccaa": 12
+    "ccaa": 13
    }
   ],
   "empresa": [
    {
     "id": "contabilidad",
     "nombre": "Balance y análisis financiero (ratios)",
-    "p": 0.791,
+    "p": 0.79,
     "ccaa": 14
    },
    {
     "id": "marketing",
     "nombre": "Marketing",
-    "p": 0.765,
+    "p": 0.764,
     "ccaa": 14
    },
    {
     "id": "financiacion",
     "nombre": "Inversión y financiación (VAN, TIR, payback)",
-    "p": 0.716,
+    "p": 0.714,
     "ccaa": 14
    },
    {
     "id": "produccion",
     "nombre": "Producción, costes y umbral de rentabilidad",
-    "p": 0.688,
+    "p": 0.686,
     "ccaa": 14
    },
    {
@@ -50400,7 +51744,7 @@
    {
     "id": "organizacion",
     "nombre": "Organización y dirección",
-    "p": 0.381,
+    "p": 0.379,
     "ccaa": 14
    }
   ],
@@ -50408,37 +51752,37 @@
    {
     "id": "platon",
     "nombre": "Platón",
-    "p": 0.494,
+    "p": 0.495,
     "ccaa": 13
    },
    {
     "id": "descartes",
     "nombre": "Descartes",
-    "p": 0.331,
+    "p": 0.33,
     "ccaa": 13
    },
    {
     "id": "kant",
     "nombre": "Kant",
-    "p": 0.296,
+    "p": 0.294,
     "ccaa": 13
    },
    {
     "id": "aristoteles",
     "nombre": "Aristóteles",
-    "p": 0.247,
+    "p": 0.246,
     "ccaa": 13
    },
    {
     "id": "empirismo",
     "nombre": "Hume / Locke",
-    "p": 0.236,
+    "p": 0.235,
     "ccaa": 13
    },
    {
     "id": "contemporanea",
     "nombre": "Filosofía contemporánea (Arendt, Wittgenstein, Beauvoir…)",
-    "p": 0.236,
+    "p": 0.235,
     "ccaa": 13
    },
    {
@@ -50450,7 +51794,7 @@
    {
     "id": "medieval",
     "nombre": "Agustín de Hipona / Tomás de Aquino",
-    "p": 0.192,
+    "p": 0.191,
     "ccaa": 13
    },
    {
@@ -50470,128 +51814,128 @@
    {
     "id": "gravitacion",
     "nombre": "Campo gravitatorio",
-    "p": 0.764,
-    "ccaa": 13
+    "p": 0.765,
+    "ccaa": 14
    },
    {
     "id": "ondas",
     "nombre": "Ondas y sonido",
-    "p": 0.648,
-    "ccaa": 13
+    "p": 0.649,
+    "ccaa": 14
    },
    {
     "id": "optica",
     "nombre": "Óptica",
-    "p": 0.647,
-    "ccaa": 13
+    "p": 0.648,
+    "ccaa": 14
    },
    {
     "id": "moderna",
     "nombre": "Física moderna (cuántica, nuclear, relatividad)",
-    "p": 0.641,
-    "ccaa": 13
-   },
-   {
-    "id": "electrico",
-    "nombre": "Campo eléctrico",
-    "p": 0.623,
-    "ccaa": 13
+    "p": 0.642,
+    "ccaa": 14
    },
    {
     "id": "magnetico",
     "nombre": "Campo magnético e inducción",
-    "p": 0.622,
-    "ccaa": 13
+    "p": 0.623,
+    "ccaa": 14
+   },
+   {
+    "id": "electrico",
+    "nombre": "Campo eléctrico",
+    "p": 0.621,
+    "ccaa": 14
    }
   ],
   "geografia": [
    {
     "id": "sectores",
     "nombre": "Sectores económicos",
-    "p": 0.685,
-    "ccaa": 12
+    "p": 0.686,
+    "ccaa": 13
    },
    {
     "id": "clima",
     "nombre": "Clima y aguas",
-    "p": 0.59,
-    "ccaa": 12
+    "p": 0.591,
+    "ccaa": 13
    },
    {
     "id": "poblacion",
     "nombre": "Población",
-    "p": 0.535,
-    "ccaa": 12
+    "p": 0.532,
+    "ccaa": 13
    },
    {
     "id": "relieve",
     "nombre": "Relieve",
-    "p": 0.501,
-    "ccaa": 12
+    "p": 0.499,
+    "ccaa": 13
    },
    {
     "id": "territorio",
     "nombre": "Organización territorial y Europa",
-    "p": 0.439,
-    "ccaa": 12
+    "p": 0.441,
+    "ccaa": 13
    },
    {
     "id": "urbano",
     "nombre": "Espacio urbano",
-    "p": 0.431,
-    "ccaa": 12
+    "p": 0.429,
+    "ccaa": 13
    }
   ],
   "geologia": [
    {
     "id": "tectonica",
     "nombre": "Tectónica y riesgos geológicos",
-    "p": 0.721,
-    "ccaa": 11
+    "p": 0.722,
+    "ccaa": 12
    },
    {
     "id": "minerales",
     "nombre": "Minerales y rocas",
-    "p": 0.716,
-    "ccaa": 11
+    "p": 0.717,
+    "ccaa": 12
    },
    {
     "id": "procesos",
     "nombre": "Procesos externos y mapas geológicos",
-    "p": 0.623,
-    "ccaa": 11
+    "p": 0.625,
+    "ccaa": 12
    },
    {
     "id": "recursos",
     "nombre": "Recursos y medio ambiente",
-    "p": 0.534,
-    "ccaa": 11
+    "p": 0.536,
+    "ccaa": 12
    }
   ],
   "griego": [
    {
     "id": "morfosintaxis",
     "nombre": "Morfosintaxis",
-    "p": 0.73,
-    "ccaa": 12
+    "p": 0.731,
+    "ccaa": 13
    },
    {
     "id": "traduccion",
     "nombre": "Traducción",
-    "p": 0.692,
-    "ccaa": 12
+    "p": 0.694,
+    "ccaa": 13
    },
    {
     "id": "lexico",
     "nombre": "Léxico y etimología",
-    "p": 0.613,
-    "ccaa": 12
+    "p": 0.615,
+    "ccaa": 13
    },
    {
     "id": "literatura",
     "nombre": "Literatura griega",
-    "p": 0.54,
-    "ccaa": 12
+    "p": 0.537,
+    "ccaa": 13
    }
   ],
   "historia": [
@@ -50599,49 +51943,49 @@
     "id": "guerracivil",
     "nombre": "Guerra Civil (1936-1939)",
     "p": 0.315,
-    "ccaa": 12
+    "ccaa": 13
    },
    {
     "id": "liberalismo",
     "nombre": "Crisis del Antiguo Régimen y liberalismo (1808-1874)",
     "p": 0.312,
-    "ccaa": 12
+    "ccaa": 13
    },
    {
     "id": "franquismo",
     "nombre": "Franquismo (1939-1975)",
-    "p": 0.285,
-    "ccaa": 12
+    "p": 0.286,
+    "ccaa": 13
    },
    {
     "id": "restauracion",
     "nombre": "Restauración (1874-1931)",
-    "p": 0.276,
-    "ccaa": 12
+    "p": 0.275,
+    "ccaa": 13
    },
    {
     "id": "transicion",
     "nombre": "Transición y democracia",
-    "p": 0.248,
-    "ccaa": 12
+    "p": 0.247,
+    "ccaa": 13
    },
    {
     "id": "moderna",
     "nombre": "Monarquía hispánica (Reyes Católicos, Austrias, Borbones s. XVIII)",
     "p": 0.235,
-    "ccaa": 12
+    "ccaa": 13
    },
    {
     "id": "republica",
     "nombre": "Segunda República (1931-1936)",
     "p": 0.226,
-    "ccaa": 12
+    "ccaa": 13
    },
    {
     "id": "antigua",
     "nombre": "Prehistoria a Edad Media (Al-Ándalus, reinos cristianos)",
-    "p": 0.201,
-    "ccaa": 12
+    "p": 0.2,
+    "ccaa": 13
    }
   ],
   "ingles": [
@@ -50649,145 +51993,145 @@
     "id": "writing",
     "nombre": "Redacción (opinión, carta, email)",
     "p": 0.87,
-    "ccaa": 12
+    "ccaa": 13
    },
    {
     "id": "reading",
     "nombre": "Comprensión lectora (true/false, preguntas)",
-    "p": 0.667,
-    "ccaa": 12
+    "p": 0.663,
+    "ccaa": 13
    },
    {
     "id": "vocab",
     "nombre": "Vocabulario (sinónimos, definiciones)",
-    "p": 0.522,
-    "ccaa": 12
+    "p": 0.525,
+    "ccaa": 13
    },
    {
     "id": "grammar",
     "nombre": "Gramática (reescritura, transformaciones)",
-    "p": 0.2,
-    "ccaa": 12
+    "p": 0.199,
+    "ccaa": 13
    },
    {
     "id": "mediation",
     "nombre": "Mediación",
     "p": 0.055,
-    "ccaa": 12
+    "ccaa": 13
    }
   ],
   "latin": [
    {
     "id": "traduccion",
     "nombre": "Traducción",
-    "p": 0.679,
-    "ccaa": 11
+    "p": 0.68,
+    "ccaa": 12
    },
    {
     "id": "morfosintaxis",
     "nombre": "Morfosintaxis",
-    "p": 0.65,
-    "ccaa": 11
+    "p": 0.652,
+    "ccaa": 12
    },
    {
     "id": "lexico",
     "nombre": "Léxico y etimología",
-    "p": 0.445,
-    "ccaa": 11
+    "p": 0.448,
+    "ccaa": 12
    },
    {
     "id": "literatura",
     "nombre": "Literatura latina",
-    "p": 0.416,
-    "ccaa": 11
+    "p": 0.414,
+    "ccaa": 12
    }
   ],
   "lengua": [
    {
     "id": "morfologia",
     "nombre": "Léxico, morfología y semántica",
-    "p": 0.461,
-    "ccaa": 13
+    "p": 0.462,
+    "ccaa": 14
    },
    {
     "id": "sintaxis",
     "nombre": "Sintaxis (oración compuesta)",
-    "p": 0.362,
-    "ccaa": 13
+    "p": 0.364,
+    "ccaa": 14
    },
    {
     "id": "argumentacion",
     "nombre": "Texto argumentativo / opinión",
-    "p": 0.324,
-    "ccaa": 13
+    "p": 0.323,
+    "ccaa": 14
    },
    {
     "id": "novela",
     "nombre": "Novela del siglo XX y actual",
-    "p": 0.248,
-    "ccaa": 13
+    "p": 0.249,
+    "ccaa": 14
    },
    {
     "id": "comprension",
     "nombre": "Comprensión y resumen del texto",
-    "p": 0.245,
-    "ccaa": 13
+    "p": 0.246,
+    "ccaa": 14
    },
    {
     "id": "teatro",
     "nombre": "Teatro del siglo XX",
     "p": 0.197,
-    "ccaa": 13
+    "ccaa": 14
    },
    {
     "id": "lit27",
     "nombre": "Literatura: 27, Lorca, poesía de posguerra",
     "p": 0.168,
-    "ccaa": 13
+    "ccaa": 14
    },
    {
     "id": "lit98",
     "nombre": "Literatura: Modernismo y 98, novecentismo",
-    "p": 0.142,
-    "ccaa": 13
+    "p": 0.143,
+    "ccaa": 14
    }
   ],
   "matccss": [
    {
     "id": "probabilidad",
     "nombre": "Probabilidad",
-    "p": 0.737,
-    "ccaa": 12
-   },
-   {
-    "id": "funciones",
-    "nombre": "Funciones y derivadas",
-    "p": 0.614,
-    "ccaa": 12
+    "p": 0.738,
+    "ccaa": 13
    },
    {
     "id": "inferencia",
     "nombre": "Inferencia y distribución normal",
+    "p": 0.613,
+    "ccaa": 13
+   },
+   {
+    "id": "funciones",
+    "nombre": "Funciones y derivadas",
     "p": 0.611,
-    "ccaa": 12
+    "ccaa": 13
    },
    {
     "id": "matrices",
     "nombre": "Matrices y sistemas",
-    "p": 0.592,
-    "ccaa": 12
+    "p": 0.59,
+    "ccaa": 13
    },
    {
     "id": "progl",
     "nombre": "Programación lineal",
-    "p": 0.381,
-    "ccaa": 12
+    "p": 0.383,
+    "ccaa": 13
    },
    {
     "id": "integrales",
     "nombre": "Integrales y áreas",
-    "p": 0.267,
-    "ccaa": 12
+    "p": 0.266,
+    "ccaa": 13
    }
   ],
   "matematicas2": [
@@ -50795,131 +52139,131 @@
     "id": "geometria",
     "nombre": "Geometría en el espacio",
     "p": 0.806,
-    "ccaa": 12
+    "ccaa": 13
    },
    {
     "id": "probabilidad",
     "nombre": "Probabilidad y distribuciones",
-    "p": 0.765,
-    "ccaa": 12
+    "p": 0.766,
+    "ccaa": 13
    },
    {
     "id": "matrices",
     "nombre": "Matrices y determinantes",
-    "p": 0.703,
-    "ccaa": 12
+    "p": 0.704,
+    "ccaa": 13
    },
    {
     "id": "derivadas",
     "nombre": "Derivadas y aplicaciones",
-    "p": 0.635,
-    "ccaa": 12
+    "p": 0.636,
+    "ccaa": 13
    },
    {
     "id": "integrales",
     "nombre": "Integrales y áreas",
-    "p": 0.619,
-    "ccaa": 12
+    "p": 0.62,
+    "ccaa": 13
    },
    {
     "id": "sistemas",
     "nombre": "Sistemas de ecuaciones (discusión)",
-    "p": 0.582,
-    "ccaa": 12
+    "p": 0.583,
+    "ccaa": 13
    },
    {
     "id": "limites",
     "nombre": "Límites y continuidad",
-    "p": 0.516,
-    "ccaa": 12
+    "p": 0.518,
+    "ccaa": 13
    }
   ],
   "quimica": [
    {
     "id": "acidobase",
     "nombre": "Ácido-base",
-    "p": 0.823,
-    "ccaa": 11
+    "p": 0.824,
+    "ccaa": 12
    },
    {
     "id": "equilibrio",
     "nombre": "Equilibrio químico y solubilidad",
-    "p": 0.792,
-    "ccaa": 11
+    "p": 0.793,
+    "ccaa": 12
    },
    {
     "id": "organica",
     "nombre": "Química orgánica",
-    "p": 0.79,
-    "ccaa": 11
+    "p": 0.791,
+    "ccaa": 12
    },
    {
     "id": "redox",
     "nombre": "Redox y electroquímica",
-    "p": 0.642,
-    "ccaa": 11
+    "p": 0.639,
+    "ccaa": 12
    },
    {
     "id": "termo",
     "nombre": "Termoquímica y espontaneidad",
-    "p": 0.627,
-    "ccaa": 11
+    "p": 0.628,
+    "ccaa": 12
    },
    {
     "id": "enlace",
     "nombre": "Enlace químico",
-    "p": 0.592,
-    "ccaa": 11
+    "p": 0.589,
+    "ccaa": 12
    },
    {
     "id": "estructura",
     "nombre": "Estructura atómica y tabla periódica",
-    "p": 0.559,
-    "ccaa": 11
+    "p": 0.561,
+    "ccaa": 12
    },
    {
     "id": "cinetica",
     "nombre": "Cinética química",
-    "p": 0.254,
-    "ccaa": 11
+    "p": 0.253,
+    "ccaa": 12
    }
   ],
   "historiaarte": [
    {
     "id": "sigloxix",
     "nombre": "Goya y siglo XIX",
-    "p": 0.404,
-    "ccaa": 11
+    "p": 0.401,
+    "ccaa": 12
    },
    {
     "id": "barroco",
     "nombre": "Barroco",
-    "p": 0.347,
-    "ccaa": 11
+    "p": 0.344,
+    "ccaa": 12
    },
    {
     "id": "renacimiento",
     "nombre": "Renacimiento",
-    "p": 0.33,
-    "ccaa": 11
+    "p": 0.328,
+    "ccaa": 12
    },
    {
     "id": "clasico",
     "nombre": "Arte clásico (Grecia y Roma)",
-    "p": 0.292,
-    "ccaa": 11
+    "p": 0.29,
+    "ccaa": 12
    },
    {
     "id": "vanguardias",
     "nombre": "Vanguardias y siglo XX",
-    "p": 0.292,
-    "ccaa": 11
+    "p": 0.29,
+    "ccaa": 12
    },
    {
     "id": "medieval",
     "nombre": "Románico y gótico",
-    "p": 0.253,
-    "ccaa": 11
+    "p": 0.251,
+    "ccaa": 12
    }
   ]
  }
