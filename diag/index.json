@@ -1,46 +1,43 @@
 [
  {
-  "url": "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/examenes/lomloe",
-  "id": "ddc12960",
-  "estado": 404,
-  "final": "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/examenes/lomloe",
-  "tipo": "text/html",
-  "server": "",
-  "bytes": 649,
-  "enlaces": 0,
-  "scripts": 0
+  "url": "https://estudis.uib.cat/estudis-de-grau/Com-hi-pots-accedir/acces/batxiller/ModelsExamenPBAU/",
+  "id": "813f72a4",
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='estudis.uib.cat', port=443): Max retries exceeded with url: /estudis-de-grau/Com-hi-pots-accedir/acces/batxiller/ModelsExamenPBAU/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='estudis.uib.cat', port=443) at 0x734c752aee10>, 'Connection to estudis.ui"
  },
  {
-  "url": "https://www.uniovi.es/web/universidad-de-oviedo/estudia/grados/sobrelosgrados/ebau/asignaturas-ebau-2023-2024",
-  "id": "40078dd4",
+  "url": "https://estudis.uib.es/estudis-de-grau/Com-hi-pots-accedir/acces/batxiller/ModelsExamenPBAU/",
+  "id": "5def1f7e",
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='estudis.uib.es', port=443): Max retries exceeded with url: /estudis-de-grau/Com-hi-pots-accedir/acces/batxiller/ModelsExamenPBAU/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='estudis.uib.es', port=443) at 0x734c752bc2c0>, 'Connection to estudis.uib."
+ },
+ {
+  "url": "https://pbau.uib.cat/",
+  "id": "84a72b01",
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='pbau.uib.cat', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='pbau.uib.cat', port=443) at 0x734c752bca10>, 'Connection to pbau.uib.cat timed out. (connect timeout=25)'))"
+ },
+ {
+  "url": "https://www.uib.cat/",
+  "id": "afb15558",
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='www.uib.cat', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.uib.cat', port=443) at 0x734c752bbef0>, 'Connection to www.uib.cat timed out. (connect timeout=25)'))"
+ },
+ {
+  "url": "https://sat.uib.cat/",
+  "id": "f948e3f1",
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='sat.uib.cat', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='sat.uib.cat', port=443) at 0x734c752bd190>, 'Connection to sat.uib.cat timed out. (connect timeout=25)'))"
+ },
+ {
+  "url": "https://estudis.uib.cat/digitalAssets/618/618209_informacio-pbau-mat-ii-2020-11.pdf",
+  "id": "82661c48",
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='estudis.uib.cat', port=443): Max retries exceeded with url: /digitalAssets/618/618209_informacio-pbau-mat-ii-2020-11.pdf (Caused by ConnectTimeoutError(<HTTPSConnection(host='estudis.uib.cat', port=443) at 0x734c752bc6b0>, 'Connection to estudis.uib.cat time"
+ },
+ {
+  "url": "https://www.caib.es/sites/matriculapbau/ca/informacio_general/",
+  "id": "f0cd3c2c",
   "estado": 200,
-  "final": "https://www.uniovi.es/web/universidad-de-oviedo/estudia/grados/sobrelosgrados/ebau/asignaturas-pau-2026-2027",
+  "final": "https://www.caib.es/sites/matriculapbau/ca/informacio_general/",
   "tipo": "text/html;charset=UTF-8",
-  "server": "",
-  "bytes": 163805,
-  "enlaces": 304,
-  "scripts": 34
- },
- {
-  "url": "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/asignaturas-ebau-2023-2024",
-  "id": "d63b189f",
-  "estado": 200,
-  "final": "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/asignaturas-pau-2026-2027",
-  "tipo": "text/html;charset=UTF-8",
-  "server": "",
-  "bytes": 162601,
-  "enlaces": 304,
-  "scripts": 34
- },
- {
-  "url": "https://www.uniovi.es/estudia/grados/sobrelosgrados/pau/examenes",
-  "id": "ddb4144e",
-  "estado": 404,
-  "final": "https://www.uniovi.es/estudia/grados/sobrelosgrados/pau/examenes",
-  "tipo": "text/html",
-  "server": "",
-  "bytes": 649,
-  "enlaces": 0,
-  "scripts": 0
+  "server": "Apache-Coyote/1.1",
+  "bytes": 20807,
+  "enlaces": 31,
+  "scripts": 17
  }
 ]
