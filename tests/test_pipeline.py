@@ -115,6 +115,22 @@ def test_abierta_sin_consenso_no_se_publica():
     llm = llm_falso([('Redacta un examen', examen), ('Resuelve esta pregunta', sol), ('Eres el tribunal', json.dumps({'coinciden': False, 'errores': ['B atribuye la obra a Hume'], 'mejor': 'ninguna'}))])
     assert genera.genera_uno(llm, 'x', 'X', 'filosofia', {'nombre': 'Filosofía', 'temas': [{'id': 'kant', 'nombre': 'Kant', 'p': .5, 'veces': 1, 'de': 2}]}, {}) is None
 
+def test_rastrea_arranca_y_cabecera_manda():
+    # rastrea completo sin red (sin semillas): que no se rompa por una edición y que anote los pendientes
+    import tempfile, requests
+    viejo = crawl.R; crawl.R = pathlib.Path(tempfile.mkdtemp())
+    try:
+        crawl.rastrea('xx', {'nombre': 'X', 'semillas': [], 'cabecera_manda': True, 'codigos_materia': {'21': 'biologia'}}, {'profundidad': 1, 'max_paginas': 1}, range(2022, 2027), requests.Session(), False, 5)
+        assert json.loads((crawl.R / 'data/corpus/xx.json').read_text())['pendientes'] == 0
+    finally: crawl.R = viejo
+    # CiUG: el código de la cabecera manda sobre palabras sueltas del texto
+    d = {'materia': 'valenciano', 'anio': 2023, 'conv': 'nd', 'tipo': 'examen'}
+    crawl.completa_con_texto(d, 'ABAU  CÓDIGO 21  Convocatoria ordinaria 2024  BIOLOXÍA  examen sobre Valencia', range(2022, 2027))
+    assert (d['materia'], d['anio'], d['conv']) == ('biologia', 2024, 'ord')
+    crawl.CABECERA_MANDA.update(si=False, codigos={})
+    # año y convocatoria por el camino de carpetas (Uniovi) y enlaces «PDF»
+    assert crawl.clasifica('https://www.uniovi.es/documents/39158/2157eda8-50e7-4a81-93f0-6731445e47e1', {'texto': 'Diseño Examen', 'contexto': '', 'pagina': 'x', 'ruta': ' › 2022 2023 › Julio › Diseño'}, range(2022, 2027)) == ('diseno', 2023, 'ext', 'examen')
+
 if __name__ == '__main__':
     for n, f in list(globals().items()):
         if n.startswith('test_'): f(); print('✓', n)

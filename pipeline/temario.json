@@ -40,7 +40,7 @@
       {"id": "redox", "nombre": "Redox y electroquímica", "kw": ["redox", "oxidacion", "reduccion", "pila", "electrolisis", "potencial de reduccion", "faraday", "ajusta"]},
       {"id": "organica", "nombre": "Química orgánica", "kw": ["organica", "isomer", "formula", "alcohol", "ester", "polimero", "reaccion de adicion", "sustitucion", "eliminacion", "grupo funcional"]}
     ]},
-    {"id": "biologia", "nombre": "Biología", "patrones": ["biologia", "biología", "biologia"],
+    {"id": "biologia", "nombre": "Biología", "patrones": ["biologia", "biología", "biologia", "bioloxia"],
      "temas": [
       {"id": "biomoleculas", "nombre": "Biomoléculas", "kw": ["glucido", "lipido", "proteina", "enzima", "aminoacido", "monosacarido", "acido graso", "biomolecula", "vitamina"]},
       {"id": "celula", "nombre": "La célula", "kw": ["membrana", "orgánulo", "organulo", "mitocondria", "cloroplasto", "reticulo", "golgi", "citoesqueleto", "celula eucariota"]},
@@ -51,7 +51,7 @@
       {"id": "microbiologia", "nombre": "Microbiología", "kw": ["bacteria", "virus", "microorganismo", "hongo", "protozoo", "prion", "microbiolog"]},
       {"id": "inmunologia", "nombre": "Inmunología", "kw": ["inmun", "anticuerpo", "antigeno", "linfocito", "vacuna", "suero", "autoinmun", "alergia"]}
     ]},
-    {"id": "geologia", "nombre": "Geología y Ciencias Ambientales", "patrones": ["geologia", "ciencias ambientales", "ciencies ambientals", "ctma"],
+    {"id": "geologia", "nombre": "Geología y Ciencias Ambientales", "patrones": ["geologia", "ciencias ambientales", "ciencies ambientals", "ctma", "xeoloxia"],
      "temas": [
       {"id": "tectonica", "nombre": "Tectónica y riesgos geológicos", "kw": ["placa", "tectonica", "sismo", "terremoto", "volcan", "falla", "pliegue"]},
       {"id": "minerales", "nombre": "Minerales y rocas", "kw": ["mineral", "roca", "magmatica", "metamorfica", "sedimentaria"]},
@@ -91,7 +91,7 @@
       {"id": "franquismo", "nombre": "Franquismo (1939-1975)", "kw": ["franquismo", "franco", "dictadura", "autarquia", "desarrollismo", "represion", "plan de estabilizacion"]},
       {"id": "transicion", "nombre": "Transición y democracia", "kw": ["transicion", "constitucion de 1978", "suarez", "democracia", "estado de las autonomias", "23-f", "ue", "union europea"]}
     ]},
-    {"id": "geografia", "nombre": "Geografía", "patrones": ["geografia", "geografía", "geografia"],
+    {"id": "geografia", "nombre": "Geografía", "patrones": ["geografia", "geografía", "geografia", "xeografia"],
      "temas": [
       {"id": "relieve", "nombre": "Relieve", "kw": ["relieve", "unidades de relieve", "meseta", "cordillera", "litologia"]},
       {"id": "clima", "nombre": "Clima y aguas", "kw": ["clima", "climograma", "precipitacion", "temperatura", "mapa del tiempo", "isobara", "rio", "cuenca hidrografica", "embalse"]},
@@ -143,7 +143,7 @@
       {"id": "lexico", "nombre": "Léxico y etimología", "kw": ["etimolog", "evolucion fonetica", "cultismo", "palabra patrimonial", "derivado"]},
       {"id": "literatura", "nombre": "Literatura latina", "kw": ["genero literario", "epica", "virgilio", "historiografia", "lirica", "ciceron", "teatro latino"]}
     ]},
-    {"id": "griego", "nombre": "Griego II", "patrones": ["griego", "grec ", "grego"],
+    {"id": "griego", "nombre": "Griego II", "patrones": ["griego", "grec ", "grego", "grego ii"],
      "temas": [
       {"id": "traduccion", "nombre": "Traducción", "kw": ["traduce", "traduccion", "tradueix"]},
       {"id": "morfosintaxis", "nombre": "Morfosintaxis", "kw": ["analisis morfologico", "analisis sintactico", "participio", "infinitivo", "aoristo"]},
@@ -159,11 +159,11 @@
     {"id": "italiano", "nombre": "Lengua Extranjera II: Italiano", "patrones": ["italiano", "italia"], "temas": []},
     {"id": "portugues", "nombre": "Lengua Extranjera II: Portugués", "patrones": ["portugues", "portugués"], "temas": []},
     {"id": "dibujoartistico", "nombre": "Dibujo Artístico II", "patrones": ["dibujo artistico", "dibuix artistic"], "temas": []},
-    {"id": "diseno", "nombre": "Diseño", "patrones": ["diseno", "diseño", "disseny"], "temas": []},
+    {"id": "diseno", "nombre": "Diseño", "patrones": ["diseno", "diseño", "disseny", "deseno"], "temas": []},
     {"id": "musica", "nombre": "Análisis Musical II / Historia de la Música", "patrones": ["analisis musical", "historia de la musica", "musica"], "temas": []},
     {"id": "audiovisual", "nombre": "Cultura Audiovisual", "patrones": ["cultura audiovisual", "cultura audivisual", "audiovisual"], "temas": []},
     {"id": "escenicas", "nombre": "Artes Escénicas II", "patrones": ["artes escenicas", "arts esceniques"], "temas": []},
-    {"id": "tecnologia", "nombre": "Tecnología e Ingeniería II", "patrones": ["tecnologia e ingenieria", "tecnologia i enginyeria", "tecnologia", "tecnologia industrial"], "temas": []},
+    {"id": "tecnologia", "nombre": "Tecnología e Ingeniería II", "patrones": ["tecnologia e ingenieria", "tecnologia i enginyeria", "tecnologia", "tecnologia industrial", "tecnoloxia"], "temas": []},
     {"id": "matgenerales", "nombre": "Matemáticas Generales", "patrones": ["matematicas generales", "matematiques generals"], "temas": []},
     {"id": "ciencias", "nombre": "Ciencias Generales", "patrones": ["ciencias generales", "ciencies generals"], "temas": []},
     {"id": "fundamentosart", "nombre": "Fundamentos Artísticos", "patrones": ["fundamentos artisticos", "fonaments artistics", "fonaments de l art"], "temas": []},

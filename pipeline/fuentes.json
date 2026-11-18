@@ -149,7 +149,47 @@
           "cod": "01-60,90-95"
         }
       ],
-      "cabecera_manda": true
+      "cabecera_manda": true,
+      "codigos_materia": {
+        "01": "lengua",
+        "02": "gallego",
+        "03": "historia",
+        "08": "filosofia",
+        "11": "ingles",
+        "12": "frances",
+        "13": "aleman",
+        "14": "portugues",
+        "15": "italiano",
+        "20": "matematicas2",
+        "21": "biologia",
+        "22": "dibujo",
+        "23": "fisica",
+        "24": "quimica",
+        "25": "geologia",
+        "26": "tecnologia",
+        "30": "latin",
+        "31": "empresa",
+        "32": "griego",
+        "33": "historiaarte",
+        "34": "filosofia",
+        "35": "geografia",
+        "40": "matccss",
+        "50": "fundamentosart",
+        "51": "escenicas",
+        "52": "audiovisual",
+        "53": "diseno",
+        "54": "dibujo",
+        "55": "fundamentosart",
+        "56": "graficoplastica",
+        "60": "escenicas",
+        "70": "dibujoartistico",
+        "80": "musica",
+        "81": "musica",
+        "82": "musica",
+        "83": "literaturadram",
+        "90": "ciencias",
+        "91": "movimientos"
+      }
     },
     "rioja": {
       "nombre": "La Rioja",
@@ -199,5 +239,5 @@
       "pausa": 1.5
     }
   },
-  "_nota_opciones": "Opciones por comunidad: pausa (s entre peticiones), timeout (s para conectar), max_paginas, profundidad, dominios_extra (otros dominios de la misma institución, p. ej. uib.cat y uib.es) y plantillas (URL con {anio} y listas o rangos «01-60» para el resto de campos). También: solo_rutas y excluir (solo se siguen las páginas cuya URL contiene alguno de esos trozos, y nunca las que contienen alguno de excluir) y cabecera_manda (la materia, el año y la convocatoria de la cabecera del PDF mandan sobre el texto del enlace). Y fraccion_rastreo: parte del tiempo dedicada a recorrer páginas (0,4 por defecto)."
+  "_nota_opciones": "Opciones por comunidad: pausa (s entre peticiones), timeout (s para conectar), max_paginas, profundidad, dominios_extra (otros dominios de la misma institución, p. ej. uib.cat y uib.es) y plantillas (URL con {anio} y listas o rangos «01-60» para el resto de campos). También: solo_rutas y excluir (solo se siguen las páginas cuya URL contiene alguno de esos trozos, y nunca las que contienen alguno de excluir) y cabecera_manda (la materia, el año y la convocatoria de la cabecera del PDF mandan sobre el texto del enlace). Y fraccion_rastreo: parte del tiempo dedicada a recorrer páginas (0,4 por defecto). Y codigos_materia: «CÓDIGO NN» de la cabecera → materia (CiUG)."
 }

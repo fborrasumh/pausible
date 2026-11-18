@@ -302,13 +302,15 @@ def guarda_manifiesto(cid, docs, logl, pendientes=None):
     sube(cid)
 
 
-CABECERA_MANDA = {'si': False}
+CABECERA_MANDA = {'si': False, 'codigos': {}}
 def completa_con_texto(d, texto, anios):
     """Si el enlace no decía la materia, la convocatoria o el año, se miran en la cabecera del propio examen
     (Galicia nombra los PDF por código: «20.pdf» = «MATEMÁTICAS II · CÓDIGO 20»)."""
     cab = texto[:1500]
     if CABECERA_MANDA['si'] and EXAMEN_RX.search(norm(cab[:800])):
-        mc, ac, cc_ = materia_de(cab), anio_de(cab[:800], anios=anios), conv_de(cab[:800])
+        mk = re.search(r'c[óo]digo:?\s*(\d{2})\b', cab[:800], re.I)
+        mc = CABECERA_MANDA['codigos'].get(mk.group(1)) if mk else None   # CiUG: «CÓDIGO 21» = Bioloxía (el texto puede nombrar otras cosas)
+        mc, ac, cc_ = mc or materia_de(cab[:400]), anio_de(cab[:800], anios=anios), conv_de(cab[:800])
         if mc: d['materia'] = mc
         if ac: d['anio'] = ac
         if cc_ != 'nd': d['conv'] = cc_
@@ -399,9 +401,9 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
     docs, logl = dict(previo), []
     log = lambda m: (print(m, flush=True), logl.append(m))
     log(f'== {cc["nombre"]}')
-    CABECERA_MANDA['si'] = bool(cc.get('cabecera_manda'))
+    CABECERA_MANDA['si'], CABECERA_MANDA['codigos'] = bool(cc.get('cabecera_manda')), cc.get('codigos_materia', {})
     cfg = {**cfg, **{k: cc[k] for k in ('pausa', 'max_paginas', 'profundidad', 'solo_rutas', 'excluir') if k in cc}}
-    encontrados = Rastreador(s, cfg, log, limite=t0 + cc.get('fraccion_rastreo', 0.4) * tiempo)   # parte del tiempo para recorrer páginas; el resto, descargar.pdfs(cc['semillas'])
+    encontrados = Rastreador(s, cfg, log, limite=t0 + cc.get('fraccion_rastreo', 0.4) * tiempo).pdfs(cc['semillas'])   # fraccion_rastreo: parte del tiempo para recorrer páginas
     for pl in cc.get('plantillas', []):
         for u in candidatos_plantilla(pl, anios):
             encontrados.setdefault(u, {'texto': '', 'contexto': '', 'pagina': u, 'plantilla': True})
