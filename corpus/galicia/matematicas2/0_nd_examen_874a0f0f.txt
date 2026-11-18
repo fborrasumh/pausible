@@ -1,0 +1,1469 @@
+                                    Proba de Avaliación do Bacharelato                       Código: 20
+                                       para o Acceso á Universidade
+                                       Convocatoria ordinaria 2023
+                                       MATEMÁTICAS II
+O exame consta de 8 preguntas de 2 puntos, das que pode responder un MÁXIMO DE 5,
+combinadas como queira. Se responde máis preguntas das permitidas, só serán corrixidas as 5
+primeiras respondidas.
+
+1. Números e Álxebra:
+Despexe a matriz 𝑋 da ecuación 𝑋𝐴 = 𝐴 + 𝑋𝐵, se 𝐴 e 𝐵 son matrices cadradas tales que 𝐴 − 𝐵 é invertible.
+                        1 2
+Logo, calcule 𝑋 se 𝐴 = (    ) e 𝐵 = (𝐴2 − 𝐴 − 𝐼)−1 , onde 𝐼 é a matriz identidade de orde 2.
+                        0 0
+
+2. Números e Álxebra:
+                                             𝑚𝑥     +    (2 + 𝑚2 )𝑦                      =    1 + 𝑚,
+Discuta, segundo os valores de 𝑚, o sistema {                  𝑚𝑦      −           𝑧     =        1,
+                                             𝑚𝑥     +           2𝑦     +   (2𝑚 − 4)𝑧     =        5.
+
+3. Análise:
+                                                                                             𝑓(𝑥)
+a) Se 𝑓(𝑥) = 𝑎e𝑥 + 𝑏, diga que valores deben ter 𝑎 e 𝑏 para que se cumpran 𝑓(0) = 0 e lim         = 3.
+                                                                                          𝑥→0 𝑥
+b) Estude se a función 𝑓(𝑥) = 𝑥 + sin 𝑥 ten extremos ou puntos de inflexión no intervalo (0,2𝜋), diga onde
+están en caso de que existan e esboce a gráfica de 𝑓 nese intervalo.
+
+4. Análise:
+Calcule a área da rexión determinada polas desigualdades 𝑥 ≥ 1, 𝑦 ≤ 𝑥 e 𝑦 ≥ 𝑓(𝑥), con 𝑓(𝑥) = 𝑥 ln 𝑥. Faga
+un esbozo gráfico da rexión. Nota: ln 𝑥 é o logaritmo neperiano de 𝑥.
+
+5. Xeometría:
+a) Obteña as ecuacións paramétricas da recta 𝑟 que pasa polos puntos 𝑃(2, −1,0) e 𝑄(3,0,0) e a ecuación
+implícita ou xeral do plano 𝜋 que pasa polo punto 𝑅(0,4, −2) e é paralelo aos vectores ⃗𝑢(1,0, −1) e
+𝑣 (2,1, −2).
+                                              𝑥−2  𝑦+1   𝑧
+b) Calcule o ángulo agudo que forma a recta 𝑟: 1 = 1 = 0 co plano 𝜋: 𝑥 + 𝑧 + 2 = 0.
+
+6. Xeometría:
+a) Calcule o punto simétrico de 𝑃(2, −1,0) con respecto ao plano 𝜋: 𝑥 + 𝑧 + 2 = 0.
+                                           𝑥−2   𝑦+1   𝑧     𝑥−2    𝑦+2   𝑧+1
+b) Estude a posición relativa das rectas 𝑟: 1 = 1 = 0 e 𝑠: 2 = 1 = −1 . Se se cortan, calcule o punto
+de corte.
+
+7. Estatística e Probabilidade:
+a) Calcule as catro probabilidades 𝑃(𝐴), 𝑃(A ∩ 𝐵̅), 𝑃(𝐴|𝐵) e 𝑃(𝐵|𝐴) sabendo que 𝑃(𝐴 ∪ 𝐵) = 0.8,
+𝑃(𝐴 ∩ 𝐵) = 0.2 e 𝑃(𝐴) = 2𝑃(𝐵). Nota: 𝐵̅ é o suceso contrario ou complementario de 𝐵.
+b) Nun coñecido congreso, o 60% dos científicos inscritos participan online e o resto asisten en persoa.
+Ademais, o 65% dos inscritos son europeos e o 80% dos que asisten en persoa tamén o son. Se se elixe ao
+azar a un dos inscritos, calcule a probabilidade de que sexa europeo e, á vez, participe online; logo, a de que
+participe online se se sabe que é europeo.
+
+8. Estatística e Probabilidade:
+a) Nunha certa zona húmida, a probabilidade de que un cabezolo chegue a ra adulta é do 2%. Se se escollen
+ao azar 2500 deses cabezolos, cal é a probabilidade de que polo menos 55 deles cheguen a ras adultas?
+b) Para conceder bolsas de estudo, un organismo valora os méritos presentados e asigna a cada candidato
+unha puntuación que indica máis méritos canto maior é o seu valor. Este ano, a puntuación segue unha
+distribución normal de media 100 e desviación típica 20, e tómase a decisión de conceder a bolsa ao 5%
+mellor do conxunto de solicitantes. Que puntuación é preciso alcanzar para obter a bolsa?
+                                     Proba de Avaliación do Bacharelato                     Código: 20
+                                        para o Acceso á Universidade
+                                        Convocatoria ordinaria 2023
+                                       MATEMÁTICAS II
+El examen consta de 8 preguntas de 2 puntos, de las que puede responder un MÁXIMO DE 5, combinadas
+como quiera. Si responde más preguntas de las permitidas, solo serán corregidas las 5 primeras
+respondidas.
+
+1. Números y Álgebra:
+Despeje la matriz 𝑋 de la ecuación 𝑋𝐴 = 𝐴 + 𝑋𝐵, si 𝐴 y 𝐵 son matrices cuadradas tales que 𝐴 − 𝐵 es
+                                     1 2
+invertible. Luego, calcule 𝑋 si 𝐴 = (    ) y 𝐵 = (𝐴2 − 𝐴 − 𝐼)−1 , donde 𝐼 es la matriz identidad de orden 2.
+                                     0 0
+
+2. Números y Álgebra:
+                                             𝑚𝑥    +    (2 + 𝑚2 )𝑦                      = 1 + 𝑚,
+Discuta, según los valores de 𝑚, el sistema {                 𝑚𝑦      −            𝑧    =     1,
+                                             𝑚𝑥    +           2𝑦     +    (2𝑚 − 4)𝑧    =     5.
+
+3. Análisis:
+                                                                                            𝑓(𝑥)
+a) Si 𝑓(𝑥) = 𝑎e𝑥 + 𝑏, diga qué valores deben tener 𝑎 y 𝑏 para que se cumplan 𝑓(0) = 0 y lim      = 3.
+                                                                                            𝑥→0 𝑥
+b) Estudie si la función 𝑓(𝑥) = 𝑥 + sin 𝑥 tiene extremos o puntos de inflexión en el intervalo (0,2𝜋), diga
+dónde están en caso de que existan y esboce la gráfica de 𝑓 en ese intervalo.
+
+4. Análisis:
+Calcule el área de la región determinada por las desigualdades 𝑥 ≥ 1, 𝑦 ≤ 𝑥 e 𝑦 ≥ 𝑓(𝑥), con 𝑓(𝑥) = 𝑥 ln 𝑥.
+Haga un esbozo gráfico de la región. Nota: ln 𝑥 es el logaritmo neperiano de 𝑥.
+
+5. Geometría:
+a) Obtenga las ecuaciones paramétricas de la recta 𝑟 que pasa por los puntos 𝑃(2, −1,0) y 𝑄(3,0,0) y la
+ecuación implícita o general del plano 𝜋 que pasa por el punto 𝑅(0,4, −2) y es paralelo a los vectores
+⃗𝑢(1,0, −1) y 𝑣 (2,1, −2).
+                                                𝑥−2 𝑦+1   𝑧
+b) Calcule el ángulo agudo que forma la recta 𝑟: 1 = 1 = 0 con el plano 𝜋: 𝑥 + 𝑧 + 2 = 0.
+
+6. Geometría:
+a) Calcule el punto simétrico de 𝑃(2, −1,0) con respecto al plano 𝜋: 𝑥 + 𝑧 + 2 = 0.
+                                                𝑥−2   𝑦+1     𝑧     𝑥−2    𝑦+2   𝑧+1
+b) Estudie la posición relativa de las rectas 𝑟: 1 = 1 = 0 y 𝑠: 2 = 1 = −1 . Si se cortan, calcule el
+punto de corte.
+
+7. Estadística y Probabilidad:
+a) Calcule las cuatro probabilidades 𝑃(𝐴), 𝑃(A ∩ 𝐵̅), 𝑃(𝐴|𝐵) y 𝑃(𝐵|𝐴) sabiendo que 𝑃(𝐴 ∪ 𝐵) = 0.8,
+𝑃(𝐴 ∩ 𝐵) = 0.2 y 𝑃(𝐴) = 2𝑃(𝐵). Nota: 𝐵̅ es el suceso contrario o complementario de 𝐵.
+b) En un conocido congreso, el 60% de los científicos inscritos participan online y el resto asisten en persona.
+Además, el 65% de los inscritos son europeos y el 80% de los que asisten en persona también lo son. Si se
+elige al azar a uno de los inscritos, calcule la probabilidad de que sea europeo y, a la vez, participe online;
+luego, la de que participe online si se sabe que es europeo.
+
+8. Estadística y Probabilidad:
+a) En un cierto humedal, la probabilidad de que un renacuajo llegue a rana adulta es del 2%. Si se escogen al
+azar 2500 de esos renacuajos, ¿cuál es la probabilidad de que al menos 55 de ellos lleguen a ranas adultas?
+b) Para conceder becas de estudio, un organismo valora los méritos presentados y asigna a cada candidato
+una puntuación que indica más méritos cuanto mayor es su valor. Este año, la puntuación sigue una
+distribución normal de media 100 y desviación típica 20, y se toma la decisión de conceder la beca al 5%
+mejor del conjunto de solicitantes. ¿Qué puntuación es preciso alcanzar para obtener la beca?
+                                     Proba de Avaliación do Bacharelato                      Código: 20
+                                        para o Acceso á Universidade
+                                      Convocatoria extraordinaria 2023
+                                        MATEMÁTICAS II
+O exame consta de 8 preguntas de 2 puntos, das que pode responder un MÁXIMO DE 5, combinadas como
+queira. Se responde máis preguntas das permitidas, só serán corrixidas as 5 primeiras respondidas.
+
+1. Números e Álxebra:
+                           1 0              1 1
+a) Calcule 𝐴 se (𝐴𝐵)𝑇 = (        )e𝐵 =(          ).
+                           2 1            −1 1
+            3 𝑥
+b) Se 𝐴 = (      ) é invertible, obteña os valores de 𝑥, 𝑦 e 𝑧 sabendo que det(𝐴 − 3𝐼) = 0, que 𝑦 ≠ 0 e que
+            𝑦 𝑧
+                   2 0
+(3𝑧)𝐴−1 + 𝐼 = (         ). Enténdase que 𝐼 é a matriz identidade.
+                  −1 4
+
+2. Números e Álxebra:
+                                                       (𝑚 + 1)𝑥                       +        𝑧    =     1,
+Discuta, segundo os valores do parámetro 𝑚, o sistema {(𝑚 + 1)𝑥         +     𝑦       +        𝑧    = 𝑚 + 1,
+                                                       (𝑚 + 1)𝑥         +    𝑚𝑦       + (𝑚 − 1)𝑧    =    𝑚.
+
+3. Análise:
+a) Enuncie os teoremas de Rolle e do valor medio do cálculo diferencial.
+b) Explique se 𝑓: [0,1] → ℝ, 𝑓(𝑥) = √1 − 𝑥 2 está ou non nas hipóteses do teorema do valor medio do cálculo
+diferencial. En caso de que o estea, calcule un valor 𝑐 para o cal se cumpra a tese dese teorema.
+
+4. Análise:
+a) Calcule mediante cambio de variable as integrais ∫(sin 𝑥)5 cos 𝑥 𝑑𝑥 e ∫(ln 𝑥)/𝑥 𝑑𝑥.
+b) Calcule ∫(ln 𝑥)/𝑥 𝑑𝑥 empregando o método de integración por partes. Logo, obteña algún valor de 𝐵 tal
+      𝐵
+que ∫e (ln 𝑥)/𝑥 𝑑𝑥 = 3/2.
+
+5. Xeometría:
+                                                                                      𝑥−1   𝑦   𝑧+1
+a) Considérense o plano 𝜋: 𝑎𝑥 + 𝑦 + 𝑧 = 1, onde 𝑎 é un parámetro real e a recta 𝑟: 2 = 3 = 3 . Estude a
+posición relativa de 𝜋 e 𝑟 en función de 𝑎 e obteña o valor de 𝑎 que fai que 𝜋 e 𝑟 sexan perpendiculares. Por
+último, razoe se 𝑟 pode estar contida en 𝜋 ou non.
+                                                                      𝑥−1    𝑦−𝑏    𝑧+1
+b) Se 𝜋: −3𝑥 + 𝑦 + 𝑧 = 1, diga que valor ten que tomar 𝑏 para que 𝑟:       =      =     estea contida en 𝜋.
+                                                                         2        3      3
+
+6. Xeometría:
+Considérese o plano 𝜋: 2𝑥 − 𝑦 + 𝑧 = 1. Pídese:
+                                                                𝑥 = 2 + 𝜆,         𝑥 = 𝜇,
+a) Calcular a distancia de 𝜋 ao punto de corte das rectas 𝑟1 : {𝑦 = 0,     e 𝑟2 : {𝑦 = −1 + 𝜇, (𝜆, 𝜇 ∈ ℝ).
+                                                                𝑧 = −1 − 𝜆         𝑧 = 0,
+b) Obter o punto simétrico de 𝑃(1,0,0) con respecto a 𝜋.
+
+7. Estatística e Probabilidade:
+a) Calcule 𝑃(𝐴|𝐵) se 𝐵 ⊂ 𝐴. Logo, se 𝑃(𝐶) = 0.5 e 𝑃(𝐷) = 0.6, explique se 𝐶 e 𝐷 poden ser incompatibles.
+Por último, obteña 𝑃(𝐸 ∪ 𝐹) e 𝑃(𝐸 ∩ 𝐹̅ ) se 𝐸 e 𝐹 son independentes, 𝑃(𝐸) = 0.3 e 𝑃(𝐹) = 0.2.
+b) Tírase un dado sete veces. Calcule a probabilidade de que saian exactamente dous seises.
+
+8. Estatística e Probabilidade:
+Para un determinado grupo de pacientes, a tensión arterial sistólica (medida en mmHg) segue una distribución
+normal de media 123.6 e desviación típica 17.8. Calcule a probabilidade de que un paciente elixido ao azar
+teña unha tensión comprendida entre 100 e 120 mmHg. Logo, obteña o valor da tensión que é superado polo
+67% dos pacientes.
+                                      Proba de Avaliación do Bacharelato                       Código: 20
+                                         para o Acceso á Universidade
+                                       Convocatoria extraordinaria 2023
+                                         MATEMÁTICAS II
+El examen consta de 8 preguntas de 2 puntos, de las que puede responder un MÁXIMO DE 5, combinadas
+como quiera. Si responde más preguntas de las permitidas, solo serán corregidas las 5 primeras respondidas.
+
+1. Números y Álgebra:
+                           1 0              1 1
+a) Calcule 𝐴 si (𝐴𝐵)𝑇 = (        )y𝐵 =(           ).
+                           2 1             −1 1
+            3 𝑥
+b) Si 𝐴 = (      ) es invertible, obtenga los valores de 𝑥, 𝑦 y 𝑧 sabiendo que det(𝐴 − 3𝐼) = 0, que 𝑦 ≠ 0 y que
+           𝑦 𝑧
+                    2 0
+(3𝑧)𝐴−1 + 𝐼 = (           ). Entiéndase que 𝐼 es la matriz identidad.
+                  −1 4
+
+2. Números y Álgebra:
+                                                        (𝑚 + 1)𝑥                   +        𝑧       =     1,
+Discuta, según los valores del parámetro 𝑚, el sistema {(𝑚 + 1)𝑥        +     𝑦    +        𝑧       = 𝑚 + 1,
+                                                        (𝑚 + 1)𝑥        +    𝑚𝑦    + (𝑚 − 1)𝑧       =    𝑚.
+
+3. Análisis:
+a) Enuncie los teoremas de Rolle y del valor medio del cálculo diferencial.
+b) Explique si 𝑓: [0,1] → ℝ, 𝑓(𝑥) = √1 − 𝑥 2 , está o no en las hipótesis del teorema del valor medio del cálculo
+diferencial. En caso de que lo esté, calcule un valor 𝑐 para el cual se cumpla la tesis de ese teorema.
+
+4. Análisis:
+a) Calcule mediante cambio de variable las integrales ∫(sin 𝑥)5 cos 𝑥 𝑑𝑥 y ∫(ln 𝑥)/𝑥 𝑑𝑥.
+b) Calcule ∫(ln 𝑥)/𝑥 𝑑𝑥 empleando el método de integración por partes. Luego, obtenga algún valor de 𝐵 tal
+      𝐵
+que ∫e (ln 𝑥)/𝑥 𝑑𝑥 = 3/2.
+
+5. Geometría:
+                                                                                        𝑥−1    𝑦   𝑧+1
+a) Considérense el plano 𝜋: 𝑎𝑥 + 𝑦 + 𝑧 = 1, donde 𝑎 es un parámetro real, y la recta 𝑟: 2 = 3 = 3 . Estudie
+la posición relativa de 𝜋 y 𝑟 en función de 𝑎 y obtenga el valor de 𝑎 que hace que 𝜋 y 𝑟 sean perpendiculares.
+Por último, razone si 𝑟 puede estar contenida en 𝜋 o no.
+                                                                         𝑥−1   𝑦−𝑏    𝑧+1
+b) Si 𝜋: −3𝑥 + 𝑦 + 𝑧 = 1, diga qué valor tiene que tomar 𝑏 para que 𝑟:       =     =      esté contenida en 𝜋.
+                                                                            2      3      3
+
+6. Geometría:
+Considérese el plano 𝜋: 2𝑥 − 𝑦 + 𝑧 = 1. Se pide:
+                                                                    𝑥 = 2 + 𝜆,         𝑥 = 𝜇,
+a) Calcular la distancia de 𝜋 al punto de corte de las rectas 𝑟1 : {𝑦 = 0,     y 𝑟2 : {𝑦 = −1 + 𝜇, (𝜆, 𝜇 ∈ ℝ).
+                                                                    𝑧 = −1 − 𝜆         𝑧 = 0,
+b) Obtener el punto simétrico de 𝑃(1,0,0) con respecto a 𝜋.
+
+7. Estadística y Probabilidad:
+a) Calcule 𝑃(𝐴|𝐵) si 𝐵 ⊂ 𝐴. Luego, si 𝑃(𝐶) = 0.5 y 𝑃(𝐷) = 0.6, explique si 𝐶 y 𝐷 pueden ser incompatibles.
+Por último, obtenga 𝑃(𝐸 ∪ 𝐹) y 𝑃(𝐸 ∩ 𝐹̅ ) si 𝐸 y 𝐹 son independientes, 𝑃(𝐸) = 0.3 y 𝑃(𝐹) = 0.2.
+b) Se tira un dado siete veces. Calcule la probabilidad de que salgan exactamente dos seises.
+
+8. Estadística y Probabilidad:
+Para un determinado grupo de pacientes, la tensión arterial sistólica (medida en mmHg) sigue una distribución
+normal de media 123.6 y desviación típica 17.8. Calcule la probabilidad de que un paciente elegido al azar
+tenga una tensión comprendida entre 100 y 120 mmHg. Luego, obtenga el valor de la tensión que es superado
+por el 67% de los pacientes.
+                                          ABAU 2023
+                                 CONVOCATORIA ORDINARIA
+
+                            CRITERIOS DE AVALIACIÓN
+                                    MATEMÁTICAS II
+                                           (Cód. 20)
+
+Só puntúan cinco das oito preguntas.
+
+ As puntuacións parciais que seguen están ligadas a un determinado xeito de resolver os exercicios,
+pero, nalgúns casos, pode haber outras formas correctas de solucionalos.
+
+ 1. Números e Álxebra (2 puntos)
+
+    0.75 por despexar 𝑋𝑋, 0.5 por chegar a 𝐵𝐵 = −𝐼𝐼, 0.5 por calcular (𝐴𝐴 − 𝐵𝐵)−1, 0.25 por concluír.
+
+
+ 2. Números e Álxebra (2 puntos)
+
+   0.5 por resolver det 𝐴𝐴 = 0, 0.5 polo estudo de cada un dos tres casos.
+    Se se fai por Gauss, 1.25 por chegar ao sistema triangular equivalente, 0.25 por cada un dos
+    tres casos.
+ 3. Análise (2 puntos)
+    a) 𝟏𝟏 punto:
+
+       0.25 por ver que 𝑏𝑏 = −𝑎𝑎, 0.75 por chegar a 𝑎𝑎 = 3.
+
+
+    b) 𝟏𝟏 punto:
+
+       0.5 por comprobar que non hai extremos e que hai un punto de inflexión en 𝑥𝑥 = 𝜋𝜋, 0.5 por
+       esbozar a gráfica.
+
+
+ 4. Análise (2 puntos)
+    0.5 pola formulación, 0.5 polo cálculo da primitiva, 0.5 polo resultado, 0.5 polo debuxo da
+    rexión.
+
+
+ 5. Xeometría (2 puntos)
+    a) 𝟏𝟏 punto: 0.5 polas ecuacións da recta, 0.5 pola ecuación do plano.
+  b) 𝟏𝟏 punto.
+
+
+6. Xeometría (2 puntos)
+
+  a) 𝟏𝟏 punto: 0.25 pola recta perpendicular, 0.25 polo punto de corte, 0.5 polo cálculo do punto
+     simétrico.
+
+
+  b) 𝟏𝟏 punto: 0.5 pola posición relativa, 0.5 polo punto de corte.
+
+
+7. Estatística e Probabilidade (2 puntos)
+  a) 𝟏𝟏 punto: 0.25 por cada unha das catro probabilidades que se piden.
+  b) 𝟏𝟏 punto: 0.5 por cada unha das dúas probabilidades que se piden.
+
+
+8. Estatística e Probabilidade (2 puntos)
+  a) 𝟏𝟏 punto:
+
+     0.5 por chegar a 𝑃𝑃(𝑋𝑋 ≥ 55) ≈ 𝑃𝑃�𝑋𝑋� ≥ 54.5�, con 𝑋𝑋� → 𝑁𝑁(50,7),
+
+     0.25 por chegar a 𝑃𝑃(𝑍𝑍 ≥ 0.64),
+     0.25 polo resultado.
+
+
+  b) 𝟏𝟏 punto:
+     0.25 pola formulación,
+                                  𝑥𝑥−100
+     0.25 por chegar a 𝑃𝑃 �𝑍𝑍 <    20
+                                        � = 0.95,
+
+     0.5 pola obtención de 𝑥𝑥.
+                                              ABAU 2023
+                                 CONVOCATORIA EXTRAORDINARIA
+
+                                 CRITERIOS DE AVALIACIÓN
+                                        MATEMÁTICAS II
+                                              (Cód. 20)
+
+Só puntúan cinco das oito preguntas.
+    1. Números e Álxebra (2 puntos)
+
+       a) 0.75 puntos: 0.25 por despexar 𝐴𝐴, 0.25 por calcular 𝐵𝐵 −1, 0.25 por calcular 𝐴𝐴.
+                                                                  𝑎𝑎   𝑏𝑏
+          Se se pensa en 𝐴𝐴 como unha matriz incógnita 𝐴𝐴 = �             �: 0.5 por chegar ao sistema, 0.25
+                                                                  𝑐𝑐   𝑑𝑑
+          pola solución.
+       b) 1.25 puntos: 0.25 polo cálculo de det(𝐴𝐴 − 3𝐼𝐼), 0.25 por deducir que 𝑥𝑥 = 0, 0.25 por
+                                                                𝑧𝑧 + 1 0
+          calcular 𝐴𝐴−1, 0.25 por chegar a (3𝑧𝑧)𝐴𝐴−1 + 𝐼𝐼 = �            �, 0.25 pola conclusión.
+                                                                  −𝑦𝑦 4
+
+
+    2. Números e Álxebra (2 puntos)
+       0.5 por resolver det 𝐴𝐴 = 0, 0.5 por cada un dos tres casos.
+       Se se fai por Gauss, 1.25 por chegar ao sistema triangular equivalente, 0.25 por cada un dos
+       tres casos.
+
+
+    3. Análise (2 puntos)
+       a) 𝟏𝟏 punto: 0.5 polo teorema de Rolle e 0.5 polo teorema do valor medio.
+       b) 𝟏𝟏 punto: 0.5 por dicir que a función é continua no cerrado e derivable no aberto e 0.5 por
+
+          obter o valor de 𝑐𝑐.
+
+
+    4. Análise (2 puntos)
+       a) 1 punto: 0.5 por cada unha das dúas integrais, feitas mediante cambio de variable.
+       b) 1 punto: 0.5 pola primeira parte (integración por partes); 0.5 pola segunda parte, co seguinte
+                                       𝐵𝐵
+          reparto: 0.25 por chegar a ∫e (ln 𝑥𝑥)/𝑥𝑥 𝑑𝑑𝑑𝑑 = (1/2)(ln 𝐵𝐵)2 − 1/2, 0.25 polo cálculo de 𝐵𝐵.
+5. Xeometría (2 puntos)
+  a) 1.5 puntos: 0.5 pola posición relativa, 0.5 polo valor de 𝑎𝑎 que fai que 𝑟𝑟 ⊥ 𝜋𝜋, 0.5 por razoar
+     que 𝑟𝑟 non pode estar contida en 𝜋𝜋.
+  b) 0.5 puntos.
+
+
+6. Xeometría (2 puntos)
+  a) 1 punto: 0.5 polo punto de corte, 0.5 polo cálculo da distancia.
+
+
+  b) 1 punto: 0.25 polas ecuacións da recta 𝑟𝑟 perpendicular a 𝜋𝜋 que pasa por 𝑃𝑃, 0.25 pola
+     obtención de 𝑄𝑄 = 𝑟𝑟 ∩ 𝜋𝜋, 0.5 por determinar o punto simétrico.
+
+
+7. Estatística e Probabilidade (2 puntos)
+  a) 1 punto: 0.25 por obter 𝑃𝑃(𝐴𝐴|𝐵𝐵), 0.25 por razoar que 𝐶𝐶 e 𝐷𝐷 non poden ser incompatibles,
+
+     0.25 por calcular 𝑃𝑃(𝐸𝐸 ∪ 𝐹𝐹) e 0.25 por calcular 𝑃𝑃(𝐸𝐸 ∩ 𝐹𝐹� ).
+  b) 1 punto: 0.25 pola definición da variable e por dicir que é binomial, 0.25 pola fórmula da
+     binomial, 0.5 polo resultado.
+
+
+8. Estatística e Probabilidade (2 puntos)
+  1 punto pola primeira parte, repartido do seguinte xeito: 0.25 por tipificar, 0.25 por chegar a
+  𝑃𝑃(−1.33 ≤ 𝑍𝑍 ≤ −0.20), 0.25 por chegar a 𝑃𝑃(𝑍𝑍 ≤ 1.33) − 𝑃𝑃(𝑍𝑍 ≤ 0.20), 0.25 polo cálculo
+  da probabilidade pedida.
+
+
+  1 punto pola segunda parte, repartido do seguinte xeito: 0.25 pola formulación do problema,
+                              123.6−𝑡𝑡
+  0.5 por chegar a 𝑃𝑃 �𝑍𝑍 <    17.8
+                                         � = 0.67, 0.25 pola obtención de 𝑡𝑡.
+                                      Proba de Avaliación do Bacharelato                           Código: 20
+                                         para o Acceso á Universidade
+                                         Convocatoria ordinaria 2023
+                                         MATEMÁTICAS II
+O exame consta de 8 preguntas de 2 puntos, das que pode responder un MÁXIMO DE 5, combinadas como
+queira. Se responde máis preguntas das permitidas, só serán corrixidas as 5 primeiras respondidas.
+
+1. Números e Álxebra:
+Despexe a matriz 𝑋𝑋 da ecuación 𝑋𝑋𝑋𝑋 = 𝐴𝐴 + 𝑋𝑋𝑋𝑋, se 𝐴𝐴 e 𝐵𝐵 son matrices cadradas tales que 𝐴𝐴 − 𝐵𝐵 é invertible.
+                          1 2
+Logo, calcule 𝑋𝑋 se 𝐴𝐴 = �    � e 𝐵𝐵 = (𝐴𝐴2 − 𝐴𝐴 − 𝐼𝐼)−1 , onde 𝐼𝐼 é a matriz identidade de orde 2.
+                          0 0
+
+2. Números e Álxebra:
+                                              𝑚𝑚𝑚𝑚    +       (2 + 𝑚𝑚2 )𝑦𝑦                     =    1 + 𝑚𝑚,
+Discuta, segundo os valores de 𝑚𝑚, o sistema �                       𝑚𝑚𝑚𝑚    −            𝑧𝑧   =         1,
+                                              𝑚𝑚𝑚𝑚    +               2𝑦𝑦    +   (2𝑚𝑚 − 4)𝑧𝑧   =         5.
+
+3. Análise:
+                                                                                                   𝑓𝑓(𝑥𝑥)
+a) Se 𝑓𝑓(𝑥𝑥) = 𝑎𝑎e𝑥𝑥 + 𝑏𝑏, diga que valores deben ter 𝑎𝑎 e 𝑏𝑏 para que se cumpran 𝑓𝑓(0) = 0 e lim         = 3.
+                                                                                               𝑥𝑥→0 𝑥𝑥
+b) Estude se a función 𝑓𝑓(𝑥𝑥) = 𝑥𝑥 + sin 𝑥𝑥 ten extremos ou puntos de inflexión no intervalo (0,2𝜋𝜋), diga onde
+están en caso de que existan e esboce a gráfica de 𝑓𝑓 nese intervalo.
+
+4. Análise:
+Calcule a área da rexión determinada polas desigualdades 𝑥𝑥 ≥ 1, 𝑦𝑦 ≤ 𝑥𝑥 e 𝑦𝑦 ≥ 𝑓𝑓(𝑥𝑥), con 𝑓𝑓(𝑥𝑥) = 𝑥𝑥 ln 𝑥𝑥. Faga
+un esbozo gráfico da rexión. Nota: ln 𝑥𝑥 é o logaritmo neperiano de 𝑥𝑥.
+
+5. Xeometría:
+a) Obteña as ecuacións paramétricas da recta 𝑟𝑟 que pasa polos puntos 𝑃𝑃(2, −1,0) e 𝑄𝑄(3,0,0) e a ecuación
+implícita ou xeral do plano 𝜋𝜋 que pasa polo punto 𝑅𝑅(0,4, −2) e é paralelo aos vectores 𝑢𝑢   �⃗(1,0, −1) e
+𝑣𝑣⃗ (2,1, −2).
+                                                𝑥𝑥−2   𝑦𝑦+1  𝑧𝑧
+b) Calcule o ángulo agudo que forma a recta 𝑟𝑟:      =      = co plano 𝜋𝜋: 𝑥𝑥 + 𝑧𝑧 + 2 = 0.
+                                                  1       1      0
+
+6. Xeometría:
+a) Calcule o punto simétrico de 𝑃𝑃(2, −1,0) con respecto ao plano 𝜋𝜋: 𝑥𝑥 + 𝑧𝑧 + 2 = 0.
+                                             𝑥𝑥−2   𝑦𝑦+1  𝑧𝑧     𝑥𝑥−2   𝑦𝑦+2   𝑧𝑧+1
+b) Estude a posición relativa das rectas 𝑟𝑟:      =      = e 𝑠𝑠:      =      =     . Se se cortan, calcule o punto
+                                               1      1   0        2      1     −1
+de corte.
+
+7. Estatística e Probabilidade:
+a) Calcule as catro probabilidades 𝑃𝑃(𝐴𝐴), 𝑃𝑃(A ∩ 𝐵𝐵�), 𝑃𝑃(𝐴𝐴|𝐵𝐵) e 𝑃𝑃(𝐵𝐵|𝐴𝐴) sabendo que 𝑃𝑃(𝐴𝐴 ∪ 𝐵𝐵) = 0.8,
+𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵) = 0.2 e 𝑃𝑃(𝐴𝐴) = 2𝑃𝑃(𝐵𝐵). Nota: 𝐵𝐵� é o suceso contrario ou complementario de 𝐵𝐵.
+b) Nun coñecido congreso, o 60% dos científicos inscritos participan online e o resto asisten en persoa.
+Ademais, o 65% dos inscritos son europeos e o 80% dos que asisten en persoa tamén o son. Se se elixe ao
+azar a un dos inscritos, calcule a probabilidade de que sexa europeo e, á vez, participe online; logo, a de que
+participe online se se sabe que é europeo.
+
+8. Estatística e Probabilidade:
+a) Nunha certa zona húmida, a probabilidade de que un cabezolo chegue a ra adulta é do 2%. Se se escollen
+ao azar 2500 deses cabezolos, cal é a probabilidade de que ao menos 55 deles cheguen a ras adultas?
+b) Para conceder bolsas de estudo, un organismo valora os méritos presentados e asigna a cada candidato
+unha puntuación que indica máis méritos canto maior é o seu valor. Este ano, a puntuación segue unha
+distribución normal de media 100 e desviación típica 20, e se toma a decisión de conceder a bolsa ao 5%
+mellor do conxunto de solicitantes. Que puntuación é preciso alcanzar para obter a bolsa?
+                                      Proba de Avaliación do Bacharelato                         Código: 20
+                                         para o Acceso á Universidade
+                                         Convocatoria ordinaria 2023
+                                         MATEMÁTICAS II
+El examen consta de 8 preguntas de 2 puntos, de las que puede responder un MÁXIMO DE 5, combinadas
+como quiera. Si responde más preguntas de las permitidas, solo serán corregidas las 5 primeras
+respondidas.
+
+1. Números y Álgebra:
+Despeje la matriz 𝑋𝑋 de la ecuación 𝑋𝑋𝑋𝑋 = 𝐴𝐴 + 𝑋𝑋𝑋𝑋, si 𝐴𝐴 y 𝐵𝐵 son matrices cuadradas tales que 𝐴𝐴 − 𝐵𝐵 es
+                                       1 2
+invertible. Luego, calcule 𝑋𝑋 si 𝐴𝐴 = �   � y 𝐵𝐵 = (𝐴𝐴2 − 𝐴𝐴 − 𝐼𝐼)−1 , donde 𝐼𝐼 es la matriz identidad de orden 2.
+                                       0 0
+
+2. Números y Álgebra:
+                                              𝑚𝑚𝑚𝑚       +   (2 + 𝑚𝑚2 )𝑦𝑦                     = 1 + 𝑚𝑚,
+Discuta, según los valores de 𝑚𝑚, el sistema �                      𝑚𝑚𝑚𝑚    −            𝑧𝑧   =      1,
+                                              𝑚𝑚𝑚𝑚       +           2𝑦𝑦    +   (2𝑚𝑚 − 4)𝑧𝑧   =      5.
+
+3. Análisis:
+                                                                                                    𝑓𝑓(𝑥𝑥)
+a) Si 𝑓𝑓(𝑥𝑥) = 𝑎𝑎e𝑥𝑥 + 𝑏𝑏, diga qué valores deben tener 𝑎𝑎 y 𝑏𝑏 para que se cumplan 𝑓𝑓(0) = 0 y lim        = 3.
+                                                                                                𝑥𝑥→0 𝑥𝑥
+b) Estudie si la función 𝑓𝑓(𝑥𝑥) = 𝑥𝑥 + sin 𝑥𝑥 tiene extremos o puntos de inflexión en el intervalo (0,2𝜋𝜋), diga
+dónde están en caso de que existan y esboce la gráfica de 𝑓𝑓 en ese intervalo.
+
+4. Análisis:
+Calcule el área de la región determinada por las desigualdades 𝑥𝑥 ≥ 1, 𝑦𝑦 ≤ 𝑥𝑥 e 𝑦𝑦 ≥ 𝑓𝑓(𝑥𝑥), con 𝑓𝑓(𝑥𝑥) = 𝑥𝑥 ln 𝑥𝑥.
+Haga un esbozo gráfico de la región. Nota: ln 𝑥𝑥 es el logaritmo neperiano de 𝑥𝑥.
+
+5. Geometría:
+a) Obtenga las ecuaciones paramétricas de la recta 𝑟𝑟 que pasa por los puntos 𝑃𝑃(2, −1,0) y 𝑄𝑄(3,0,0) y la
+ecuación implícita o general del plano 𝜋𝜋 que pasa por el punto 𝑅𝑅(0,4, −2) y es paralelo a los vectores
+�⃗(1,0, −1) y 𝑣𝑣⃗ (2,1, −2).
+𝑢𝑢
+                                                  𝑥𝑥−2   𝑦𝑦+1  𝑧𝑧
+b) Calcule el ángulo agudo que forma la recta 𝑟𝑟:      =      = con el plano 𝜋𝜋: 𝑥𝑥 + 𝑧𝑧 + 2 = 0.
+                                                     1       1     0
+
+6. Geometría:
+a) Calcule el punto simétrico de 𝑃𝑃(2, −1,0) con respecto al plano 𝜋𝜋: 𝑥𝑥 + 𝑧𝑧 + 2 = 0.
+                                                 𝑥𝑥−2  𝑦𝑦+1    𝑧𝑧     𝑥𝑥−2     𝑦𝑦+2  𝑧𝑧+1
+b) Estudie la posición relativa de las rectas 𝑟𝑟: 1 = 1 = 0 y 𝑠𝑠: 2 = 1 = −1 . Si se cortan, calcule el
+punto de corte.
+
+7. Estadística y Probabilidad:
+a) Calcule las cuatro probabilidades 𝑃𝑃(𝐴𝐴), 𝑃𝑃(A ∩ 𝐵𝐵�), 𝑃𝑃(𝐴𝐴|𝐵𝐵) y 𝑃𝑃(𝐵𝐵|𝐴𝐴) sabiendo que 𝑃𝑃(𝐴𝐴 ∪ 𝐵𝐵) = 0.8,
+𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵) = 0.2 y 𝑃𝑃(𝐴𝐴) = 2𝑃𝑃(𝐵𝐵). Nota: 𝐵𝐵� es el suceso contrario o complementario de 𝐵𝐵.
+b) En un conocido congreso, el 60% de los científicos inscritos participan online y el resto asisten en persona.
+Además, el 65% de los inscritos son europeos y el 80% de los que asisten en persona también lo son. Si se
+elige al azar a uno de los inscritos, calcule la probabilidad de que sea europeo y, a la vez, participe online;
+luego, la de que participe online si se sabe que es europeo.
+
+8. Estadística y Probabilidad:
+a) En un cierto humedal, la probabilidad de que un renacuajo llegue a rana adulta es del 2%. Si se escogen al
+azar 2500 de esos renacuajos, ¿cuál es la probabilidad de que al menos 55 de ellos lleguen a ranas adultas?
+b) Para conceder becas de estudio, un organismo valora los méritos presentados y asigna a cada candidato
+una puntuación que indica más méritos cuanto mayor es su valor. Este año, la puntuación sigue una
+distribución normal de media 100 y desviación típica 20, y se toma la decisión de conceder la beca al 5%
+mejor del conjunto de solicitantes. ¿Qué puntuación es preciso alcanzar para obtener la beca?
+                                   Proba de Avaliación do Bacharelato                    Código: 20
+                                      para o Acceso á Universidade
+                                      Convocatoria ordinaria 2023
+                                     MATEMÁTICAS II
+
+1.
+
+Primeira parte:
+
+              𝑋𝑋𝑋𝑋 = 𝐴𝐴 + 𝑋𝑋𝑋𝑋 ⇔ 𝑋𝑋𝑋𝑋 − 𝑋𝑋𝑋𝑋 = 𝐴𝐴 ⇔ 𝑋𝑋(𝐴𝐴 − 𝐵𝐵) = 𝐴𝐴 ⇔ 𝑿𝑿 = 𝑨𝑨(𝑨𝑨 − 𝑩𝑩)−𝟏𝟏 .
+
+
+Segunda parte:
+
+                                                      1    2
+                                                𝐴𝐴 = �      �,
+                                                      0    0
+
+                                          1   2 1 2     1 2
+                                𝐴𝐴2 = �        ��   �=�     � = 𝐴𝐴,
+                                          0   0 0 0     0 0
+
+                                𝐵𝐵 = (𝐴𝐴2 − 𝐴𝐴 − 𝐼𝐼)−1 = (−𝐼𝐼)−1 = −𝐼𝐼,
+
+                                                              2   2
+                                         𝐴𝐴 − 𝐵𝐵 = 𝐴𝐴 + 𝐼𝐼 = �     �.
+                                                              0   1
+
+Como det(𝐴𝐴 − 𝐵𝐵) = 2,
+
+                                               1 1 0 𝑇𝑇 1 1             −2
+                              (𝐴𝐴 − 𝐵𝐵)−1 =     �    � = �                 �.
+                                               2 −2 2   2 0              2
+
+Finalmente,
+
+                                         1 1 2 1          −2   1 1 2     𝟏𝟏/𝟐𝟐       𝟏𝟏
+                  𝑿𝑿 = 𝐴𝐴(𝐴𝐴 − 𝐵𝐵)−1 =    �   ��             �= �    �=�                �.
+                                         2 0 0 0           2   2 0 0       𝟎𝟎        𝟎𝟎
+                                        Proba de Avaliación do Bacharelato                   Código: 20
+                                           para o Acceso á Universidade
+                                           Convocatoria ordinaria 2023
+                                         MATEMÁTICAS II
+
+2.
+
+
+  𝑚𝑚     2 + 𝑚𝑚2         0 1 + 𝑚𝑚 𝐹𝐹3 − 𝐹𝐹1 𝑚𝑚 2 + 𝑚𝑚2         0 1 + 𝑚𝑚 𝐹𝐹3 + 𝑚𝑚𝑚𝑚2 𝑚𝑚 2 + 𝑚𝑚2        0 1 + 𝑚𝑚
+ �0        𝑚𝑚          −1�      1� ⟶ � 0         𝑚𝑚          −1�      1�    ⟶      �0    𝑚𝑚         −1�      1�.
+  𝑚𝑚        2      2𝑚𝑚 − 4      5            0  −𝑚𝑚2     2𝑚𝑚 − 4 4 − 𝑚𝑚              0    0      𝑚𝑚 − 4      4
+
+Sistema triangular equivalente:
+
+                             𝑚𝑚𝑚𝑚   +    (2 + 𝑚𝑚2 )𝑦𝑦                     =    1 + 𝑚𝑚,
+                            �                   𝑚𝑚𝑚𝑚     −           𝑧𝑧   =         1,
+                                                             (𝑚𝑚 − 4)𝑧𝑧   =         4.
+
+Discusión:
+
+     •   Se 𝒎𝒎 ∈ ℝ ∖ {𝟎𝟎, 𝟒𝟒}, entón o sistema é compatible determinado, xa que a súa única solución
+         é
+                                        4            1 + 𝑧𝑧         1 + 𝑚𝑚 − (2 + 𝑚𝑚2 )𝑦𝑦
+                               𝑧𝑧 =          , 𝑦𝑦 =         , 𝑥𝑥 =                        .
+                                    𝑚𝑚 − 4             𝑚𝑚                    𝑚𝑚
+     •   Se 𝒎𝒎 = 𝟎𝟎, temos
+                                                 2𝑦𝑦                = 1,
+                                               �              −𝑧𝑧 = 1,
+                                                             −4𝑧𝑧 = 4,
+         e, polo tanto, o sistema é compatible indeterminado, xa que ten as seguintes infinitas
+         solucións:
+                                                        1
+                                    � 𝑥𝑥 = 𝜆𝜆,    𝑦𝑦 = ,       𝑧𝑧 = −1� ,     𝜆𝜆 ∈ ℝ.
+                                                        2
+     •   Se 𝒎𝒎 = 𝟒𝟒, o sistema é incompatible, porque a terceira ecuación queda 0 = 4.
+                                 Proba de Avaliación do Bacharelato            Código: 20
+                                    para o Acceso á Universidade
+                                    Convocatoria ordinaria 2023
+                                   MATEMÁTICAS II
+
+
+
+SOLUCIÓN ALTERNATIVA:
+
+                  𝑚𝑚 2 + 𝑚𝑚2           0             𝑚𝑚 2 + 𝑚𝑚2           0 1 + 𝑚𝑚
+                                                 ∗
+            𝐴𝐴 = � 0   𝑚𝑚            −1� ,     𝐴𝐴 = � 0   𝑚𝑚            −1�      1�,
+                  𝑚𝑚    2        2𝑚𝑚 − 4             𝑚𝑚    2        2𝑚𝑚 − 4      5
+
+                                  rank 𝐴𝐴 ≤ rank 𝐴𝐴∗ ≤ 3 ∀𝑚𝑚 ∈ ℝ.
+
+               2
+Como �2 + 𝑚𝑚        0� = −(2 + 𝑚𝑚2 ) ≠ 0, é seguro que rank 𝐴𝐴 ≥ 2 ∀𝑚𝑚 ∈ ℝ e que [rank 𝐴𝐴 = 2 ⇔
+          𝑚𝑚       −1
+det 𝐴𝐴 = 0].
+
+          𝑚𝑚 2 + 𝑚𝑚2          0
+det 𝐴𝐴 = � 0   𝑚𝑚           −1� = 𝑚𝑚2 (2𝑚𝑚 − 4) − 𝑚𝑚(2 + 𝑚𝑚2 ) + 2𝑚𝑚
+          𝑚𝑚    2       2𝑚𝑚 − 4
+              = 𝑚𝑚{𝑚𝑚(2𝑚𝑚 − 4) − (2 + 𝑚𝑚2 ) + 2} = 𝑚𝑚{2𝑚𝑚2 − 4𝑚𝑚 − 2 − 𝑚𝑚2 + 2} = 𝑚𝑚(𝑚𝑚2 − 4𝑚𝑚)
+              = 𝑚𝑚2 (𝑚𝑚 − 4) = 0 ⟺ 𝑚𝑚 ∈ {0,4}.
+
+Discusión:
+    • Caso 𝒎𝒎 ∈ ℝ ∖ {𝟎𝟎, 𝟒𝟒}: rank 𝐴𝐴 = rank 𝐴𝐴∗ = 3 = n.o de incógnitas, polo que o sistema é
+       compatible determinado.
+                                          0 2      0 1           2     0 1
+    • Caso 𝒎𝒎 = 𝟎𝟎: rank 𝐴𝐴 = 2 e 𝐴𝐴∗ = �0 0 −1� 1�. Ao ser �0 −1 1� = −10 + 2 + 8 = 0,
+                                          0 2 −4 5               2 −4 5
+       tense que rank 𝐴𝐴∗ = 2 = rank 𝐴𝐴 < 3 = n.o de incógnitas, polo que o sistema é compatible
+       indeterminado.
+                                         4 18       0 5          4     0 5
+                                     ∗
+    • Caso 𝒎𝒎 = 𝟒𝟒: rank 𝐴𝐴 = 2 e 𝐴𝐴 = �0 4 −1� 1�. Ao ser �0 −1 1� = −20 + 20 − 16 =
+                                         4 2        4 5          4     4 5
+                                   ∗
+       −16 ≠ 0, tense que rank 𝐴𝐴 = 3 > rank 𝐴𝐴, situación na que o sistema é incompatible.
+                                    Proba de Avaliación do Bacharelato                 Código: 20
+                                       para o Acceso á Universidade
+                                       Convocatoria ordinaria 2023
+                                     MATEMÁTICAS II
+
+
+   3.
+
+
+
+
+                                                                                                𝑓𝑓(𝑥𝑥)
+3.a) Se 𝑓𝑓(𝑥𝑥) = 𝑎𝑎e𝑥𝑥 + 𝑏𝑏, obteña os valores de 𝑎𝑎 e 𝑏𝑏 para que se cumpran 𝑓𝑓(0) = 0 e lim            = 3:
+                                                                                         𝑥𝑥→0 𝑥𝑥
+
+
+                                 𝑓𝑓(0) = 0 ⇔ 𝑎𝑎 + 𝑏𝑏 = 0 ⇔ 𝑏𝑏 = −𝑎𝑎.
+
+                                           𝑓𝑓(𝑥𝑥) = 𝑎𝑎e𝑥𝑥 − 𝑎𝑎.
+
+Podemos excluír do estudo o caso 𝑎𝑎 = 0 (xa que entón 𝑓𝑓 é a función nula e lim 𝑓𝑓(𝑥𝑥)/𝑥𝑥 = 0).
+                                                                                𝑥𝑥→0
+
+
+                                  𝑓𝑓(𝑥𝑥)        𝑎𝑎e𝑥𝑥 − 𝑎𝑎 L′H
+                              lim        = lim              = lim 𝑎𝑎e𝑥𝑥 = 𝑎𝑎.
+                              𝑥𝑥→0 𝑥𝑥      𝑥𝑥→0     𝑥𝑥         𝑥𝑥→0
+
+
+                                            𝑓𝑓(𝑥𝑥)
+                                        lim        = 3 ⇔ 𝑎𝑎 = 3.
+                                        𝑥𝑥→0 𝑥𝑥
+
+
+En definitiva, os valores pedidos son 𝒂𝒂 = 𝟑𝟑, 𝒃𝒃 = −𝟑𝟑.
+                                      Proba de Avaliación do Bacharelato                         Código: 20
+                                         para o Acceso á Universidade
+                                         Convocatoria ordinaria 2023
+                                        MATEMÁTICAS II
+
+
+3.b) Estude se a función 𝑓𝑓(𝑥𝑥) = 𝑥𝑥 + sin 𝑥𝑥 ten extremos ou puntos de inflexión no intervalo (0,2𝜋𝜋),
+diga onde están en caso de que existan e esboce a gráfica de 𝑓𝑓 nese intervalo:
+
+           𝑓𝑓(𝑥𝑥) = 𝑥𝑥 + sin 𝑥𝑥 , 𝑓𝑓 ′ (𝑥𝑥) = 1 + cos 𝑥𝑥, 𝑓𝑓 ′′ (𝑥𝑥) = − sin 𝑥𝑥, 𝑓𝑓 ′′′ (𝑥𝑥) = − cos 𝑥𝑥 .
+
+                         𝑓𝑓 ′ (𝑥𝑥) = 0 ⇔ 1 + cos 𝑥𝑥 = 0 ⇔ cos 𝑥𝑥 = −1 ⇔ 𝑥𝑥 = 𝜋𝜋.
+
+                         𝑓𝑓 ′′ (𝜋𝜋) = − sin 𝜋𝜋 = 0, 𝑓𝑓 ′′′ (𝜋𝜋) = − cos 𝜋𝜋 = −1 ≠ 0,
+
+polo que o punto de abscisa 𝒙𝒙 = 𝝅𝝅 é un punto de inflexión de 𝒇𝒇. Non hai outros puntos de
+inflexión, xa que 𝑓𝑓′′ non se anula en ningún outro punto do intervalo (0,2𝜋𝜋). Non hai extremos, xa
+que o único punto crítico resultou ser punto de inflexión.
+
+Para a representación gráfica, pensamos na función estendida a [0,2𝜋𝜋]. Tense que:
+
+                                𝑓𝑓(0) = 0,       𝑓𝑓(𝜋𝜋) = 𝜋𝜋,      𝑓𝑓(2𝜋𝜋) = 2𝜋𝜋,
+
+                 𝑓𝑓 ′ (𝑥𝑥) = 1 + cos 𝑥𝑥 ≥ 0 ∀𝑥𝑥 ∈ (0,2𝜋𝜋) (𝑓𝑓 é non decrecente en (0,2𝜋𝜋).
+    De feito, 𝑓𝑓 é crecente en (0,2𝜋𝜋), xa que𝑓𝑓 ′ (𝑥𝑥) > 0 ∀𝑥𝑥 ∈ (0, 𝜋𝜋) e 𝑓𝑓 ′ (𝑥𝑥) > 0 ∀𝑥𝑥 ∈ (𝜋𝜋, 2𝜋𝜋)),
+
+                     𝑓𝑓 ′′ (𝑥𝑥) = − sin 𝑥𝑥 < 0 ∀𝑥𝑥 ∈ (0, 𝜋𝜋) (𝑓𝑓 é cóncava en (0, 𝜋𝜋)),
+
+                   𝑓𝑓 ′′ (𝑥𝑥) = −sin 𝑥𝑥 > 0 ∀𝑥𝑥 ∈ (𝜋𝜋, 2𝜋𝜋) �𝑓𝑓 é convexa en (𝜋𝜋, 2𝜋𝜋)�.
+
+Polo tanto, a gráfica de 𝑓𝑓 é a que se mostra na seguinte figura:
+                                     Proba de Avaliación do Bacharelato                           Código: 20
+                                        para o Acceso á Universidade
+                                        Convocatoria ordinaria 2023
+                                          MATEMÁTICAS II
+4. Calcule a área da rexión determinada polas desigualdades 𝑥𝑥 ≥ 1, 𝑦𝑦 ≤ 𝑥𝑥 e 𝑦𝑦 ≥ 𝑓𝑓(𝑥𝑥), con 𝑓𝑓(𝑥𝑥) =
+𝑥𝑥 ln 𝑥𝑥. Faga un esbozo gráfico da rexión.
+
+                                                                 1                           1
+                    𝑓𝑓(𝑥𝑥) = 𝑥𝑥 ln 𝑥𝑥 , 𝑓𝑓 ′ (𝑥𝑥) = ln 𝑥𝑥 + 𝑥𝑥      = 1 + ln 𝑥𝑥, 𝑓𝑓 ′′ (𝑥𝑥) = .
+                                                                 𝑥𝑥                          𝑥𝑥
+
+Na zona de interese (𝑥𝑥 ≥ 1), 𝑓𝑓 é crecente e convexa, porque tanto 𝑓𝑓′ como 𝑓𝑓′′ son positivas. Como
+𝑓𝑓(1) = 0 e 𝑓𝑓(e) = e, a situación é a do debuxo seguinte, no que se raia a rexión cuxa área hai que
+calcular:
+
+
+
+
+O valor do límite superior (𝑥𝑥 = e) tamén pode obterse do xeito seguinte:
+
+                                     𝑥𝑥 = 𝑥𝑥 ln 𝑥𝑥 ⇔ ln 𝑥𝑥 = 1 ⟺ 𝑥𝑥 = e.
+A área pedida é
+                                      e                             e
+                              𝐴𝐴 = � (𝑥𝑥 − 𝑥𝑥 ln 𝑥𝑥) d𝑥𝑥 = � 𝑥𝑥(1 − ln 𝑥𝑥) d𝑥𝑥.
+                                     1                             1
+Facendo partes coas eleccións
+                                                                                1
+                                𝑢𝑢 = 1 − ln 𝑥𝑥                          d𝑢𝑢 = − d𝑥𝑥
+                                                                                𝑥𝑥
+                                                                              1 2
+                                 d𝑣𝑣 = 𝑥𝑥 d𝑥𝑥                             𝑣𝑣 = 𝑥𝑥
+                                                                              2
+tense
+                                   1 2               1          1                  1
+           � 𝑥𝑥(1 − ln 𝑥𝑥) d𝑥𝑥 =     𝑥𝑥 (1 − ln 𝑥𝑥) + � 𝑥𝑥 d𝑥𝑥 = 𝑥𝑥 2 (1 − ln 𝑥𝑥) + 𝑥𝑥 2 + 𝐶𝐶,
+                                   2                 2          2                  4
+co cal
+
+           e                                               𝑥𝑥=e
+                                  1                1             1    1 1 1    3 𝐞𝐞𝟐𝟐 − 𝟑𝟑
+    𝑨𝑨 = � 𝑥𝑥(1 − ln 𝑥𝑥) d𝑥𝑥 = � 𝑥𝑥 2 (1 − ln 𝑥𝑥) + 𝑥𝑥 2 �      = e2 − − = e2 − =
+          1                       2                4       𝑥𝑥=1  4    2 4 4    4     𝟒𝟒
+                                   𝟐𝟐
+                  ≈ 𝟏𝟏. 𝟎𝟎𝟎𝟎𝟎𝟎𝟎𝟎 𝐮𝐮 ,
+
+onde u indica unidade de lonxitude.
+                                         Proba de Avaliación do Bacharelato                              Código: 20
+                                            para o Acceso á Universidade
+                                            Convocatoria ordinaria 2023
+                                             MATEMÁTICAS II
+5.
+
+5.a) Ecuacións paramétricas da recta 𝑟𝑟 que pasa polos puntos 𝑃𝑃(2, −1,0) e 𝑄𝑄(3,0,0) e a ecuación
+implícita ou xeral do plano 𝜋𝜋 que pasa polo punto 𝑅𝑅(0,4, −2) e é paralelo aos vectores 𝑢𝑢
+                                                                                         �⃗(1,0, −1) e
+𝑣𝑣⃗(2,1, −2):
+
+                                                               𝒙𝒙 = 𝟑𝟑 + 𝝀𝝀,
+                                 𝑑𝑑⃗𝑟𝑟 = 𝑃𝑃𝑃𝑃
+                                         �����⃗ (1,1,0) ⇒ 𝒓𝒓: �𝒚𝒚 = 𝝀𝝀,                 𝝀𝝀 ∈ ℝ.
+                                                               𝒛𝒛 = 𝟎𝟎,
+
+                                                   𝑥𝑥       𝑦𝑦 − 4     𝑧𝑧 + 2
+                                              𝜋𝜋: �1           0         −1 � = 0.
+                                                   2           1         −2
+Como
+
+                 𝑥𝑥 𝑦𝑦 − 4 𝑧𝑧 + 2
+                �1     0     −1 � = −2(𝑦𝑦 − 4) + 𝑧𝑧 + 2 + 2(𝑦𝑦 − 4) + 𝑥𝑥 = 𝑥𝑥 + 𝑧𝑧 + 2,
+                 2     1     −2
+
+a ecuación do plano é
+
+                                                      𝝅𝝅: 𝒙𝒙 + 𝒛𝒛 + 𝟐𝟐 = 𝟎𝟎.
+
+
+                                                     𝑥𝑥−2     𝑦𝑦+1     𝑧𝑧
+5.b) Ángulo agudo que forma a recta 𝑟𝑟: 1 =                    1
+                                                                     = 0 co plano 𝜋𝜋: 𝑥𝑥 + 𝑧𝑧 + 2 = 0.
+
+                                                 𝑑𝑑⃗𝑟𝑟 (1,1,0),       𝑛𝑛�⃗𝜋𝜋 (1,0,1).
+
+Se 𝛼𝛼 é o ángulo pedido,
+
+                   𝜋𝜋        �𝑑𝑑⃗𝑟𝑟 ∙ 𝑛𝑛�⃗𝜋𝜋 �   1  1       𝝅𝝅
+     sin 𝛼𝛼 = cos � − 𝛼𝛼� =                    =   = ⇒ 𝜶𝜶 =    𝐨𝐨𝐨𝐨, 𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞, 𝟑𝟑𝟑𝟑°.
+                   2        �𝑑𝑑⃗𝑟𝑟 � ‖𝑛𝑛�⃗𝜋𝜋 ‖ √2√2 2       𝟔𝟔
+
+Nota: | | indica valor absoluto e ‖ ‖ indica norma euclidiana en ℝ3 . Ás veces, emprégase a
+mesma notación para os dous conceptos, posto que | | tamén é a norma euclidiana en ℝ.
+
+SOLUCIÓN ALTERNATIVA:
+
+                                               𝚤𝚤⃗         �⃗
+                                                       𝚥𝚥⃗ 𝑘𝑘
+                             𝑑𝑑⃗𝑟𝑟 × 𝑛𝑛�⃗𝜋𝜋 = �1                          �⃗ = (1, −1, −1).
+                                                       1 0� = 𝚤𝚤⃗ − 𝚥𝚥⃗ − 𝑘𝑘
+                                               1       0 1
+
+                   𝜋𝜋       �𝑑𝑑⃗𝑟𝑟 × 𝑛𝑛�⃗𝜋𝜋 �   √3    √3        𝝅𝝅
+     cos 𝛼𝛼 = sin � − 𝛼𝛼� =                   =     =    ⇒ 𝜶𝜶 =    𝐨𝐨𝐨𝐨, 𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞𝐞, 𝟑𝟑𝟑𝟑°.
+                   2        �𝑑𝑑⃗𝑟𝑟 � ‖𝑛𝑛�⃗𝜋𝜋 ‖ √2√2    2        𝟔𝟔
+                                     Proba de Avaliación do Bacharelato                       Código: 20
+                                        para o Acceso á Universidade
+                                        Convocatoria ordinaria 2023
+                                        MATEMÁTICAS II
+6.
+
+6.a) Punto simétrico de 𝑃𝑃(2, −1,0) con respecto ao plano 𝜋𝜋: 𝑥𝑥 + 𝑧𝑧 + 2 = 0.
+
+     • Ecuacións paramétricas da recta 𝑟𝑟 que pasa por 𝑃𝑃(2, −1,0) e é perpendicular a 𝜋𝜋:
+                                           𝑥𝑥 = 2 + 𝜆𝜆,
+       𝑑𝑑⃗𝑟𝑟 = 𝑛𝑛�⃗𝜋𝜋 (1,0,1), co cal 𝑟𝑟: �𝑦𝑦 = −1,     𝜆𝜆 ∈ ℝ.
+                                           𝑧𝑧 = 𝜆𝜆,
+     • Corte de 𝑟𝑟 con 𝜋𝜋:
+                                          (2 + 𝜆𝜆) + 𝜆𝜆 + 2 = 2𝜆𝜆 + 4 = 0 ⇔ 𝜆𝜆 = −2.
+       Logo o punto de corte é 𝑄𝑄(0, −1, −2).
+
+     • Punto simétrico pedido: se chamamos 𝑃𝑃′(𝑥𝑥 ′ , 𝑦𝑦 ′ , 𝑧𝑧′) ao punto,
+                                            2 + 𝑥𝑥′
+                                                    = 0 ⇔ 𝑥𝑥 ′ = −2,
+                                               2
+                                 −1 + 𝑦𝑦′
+                                          = −1 ⇔ −1 + 𝑦𝑦 ′ = −2 ⇔ 𝑦𝑦 ′ = −1,
+                                    2
+                                             𝑧𝑧′
+                                                 = −2 ⇔ 𝑧𝑧 ′ = −4.
+                                             2
+       Tense logo 𝑷𝑷′(−𝟐𝟐, −𝟏𝟏, −𝟒𝟒).
+                                       𝑥𝑥−2   𝑦𝑦+1     𝑧𝑧   𝑥𝑥−2     𝑦𝑦+2     𝑧𝑧+1
+6.b) Posición relativa das rectas 𝑟𝑟: 1 =      1
+                                                     = 0 e 𝑠𝑠: 2 =    1
+                                                                            = −1 . Se se cortan, calcule o punto
+de corte.
+
+                                                                                     1   1
+         •      Como 𝑑𝑑⃗𝑟𝑟 (1,1,0) e 𝑑𝑑⃗𝑠𝑠 (2,1, −1) non son proporcionais (2 ≠ 1), non son nin paralelas
+         nin coincidentes, polo que ou ben se cortan, ou ben se cruzan.
+
+
+         •                                               �����⃗ (0, −1, −1).
+                [𝑃𝑃(2, −1,0) ∈ 𝑟𝑟, 𝑄𝑄(2, −2, −1) ∈ 𝑠𝑠] ⇒ 𝑃𝑃𝑃𝑃
+
+
+              0 −1 −1
+             �1  1                        �����⃗ , 𝑑𝑑⃗𝑟𝑟 e 𝑑𝑑⃗𝑠𝑠 son coplanarios ⇒ 𝒓𝒓 𝐞𝐞 𝒔𝒔 𝐜𝐜ó𝐫𝐫𝐫𝐫𝐫𝐫𝐫𝐫𝐫𝐫𝐫𝐫.
+                    0� = −1 + 2 − 1 = 0 ⇒ 𝑃𝑃𝑃𝑃
+              2  1 −1
+
+
+         •      Punto de corte:
+                                 𝑥𝑥 = 2 + 𝜆𝜆,                   𝑥𝑥 = 2 + 2𝜇𝜇,
+                            𝑟𝑟: �𝑦𝑦 = −1 + 𝜆𝜆, 𝜆𝜆 ∈ ℝ;     𝑠𝑠: �𝑦𝑦 = −2 + 𝜇𝜇, 𝜇𝜇 ∈ ℝ.
+                                 𝑧𝑧 = 0,                        𝑧𝑧 = −1 − 𝜇𝜇,
+                                              −1 − 𝜇𝜇 = 0 ⇔ 𝜇𝜇 = −1.
+         Logo o punto de corte é 𝑅𝑅(2 − 2, −2 − 1, −1 + 1) = 𝑹𝑹(𝟎𝟎, −𝟑𝟑, 𝟎𝟎).
+                                                       Proba de Avaliación do Bacharelato                      Código: 20
+                                                          para o Acceso á Universidade
+                                                          Convocatoria ordinaria 2023
+                                                         MATEMÁTICAS II
+7.
+
+7.a) Calcular as catro probabilidades 𝑃𝑃(𝐴𝐴), 𝑃𝑃(A ∩ 𝐵𝐵� ), 𝑃𝑃(𝐴𝐴|𝐵𝐵) e 𝑃𝑃(𝐵𝐵|𝐴𝐴) sabendo que 𝑃𝑃(𝐴𝐴 ∪ 𝐵𝐵) =
+0.8, 𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵) = 0.2 e 𝑃𝑃(𝐴𝐴) = 2𝑃𝑃(𝐵𝐵).
+
+                                                                                                   1       3
+     •   𝑃𝑃(𝐴𝐴 ∪ 𝐵𝐵) = 𝑃𝑃(𝐴𝐴) + 𝑃𝑃(𝐵𝐵) − 𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵) ⇒ 0.8 = 𝑃𝑃(𝐴𝐴) + 2 𝑃𝑃(𝐴𝐴) − 0.2 ⇒ 2 𝑃𝑃(𝐴𝐴) = 1 ⇒
+                      𝟐𝟐
+         𝑷𝑷(𝑨𝑨) = 𝟑𝟑.
+                                                                    2                                  2       2   20−6     14
+     •   𝑃𝑃(𝐴𝐴) = 𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵) + 𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵� ) ⇒ 3 = 0.2 + 𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵� ) ⇒ 𝑷𝑷(𝑨𝑨 ∩ 𝑩𝑩
+                                                                                  �) = − =
+                                                                                      3 10                          30
+                                                                                                                          = 30 =
+         𝟕𝟕
+                        �.
+                = 𝟎𝟎. 𝟒𝟒𝟔𝟔
+         𝟏𝟏𝟏𝟏
+                           𝑃𝑃(𝐴𝐴∩𝐵𝐵)          0.2         2     1        6   𝟑𝟑
+     •   𝑷𝑷(𝑨𝑨|𝑩𝑩) =                   =1              = 10 : 3 = 10 = 𝟓𝟓 = 𝟎𝟎. 𝟔𝟔.
+                             𝑃𝑃(𝐵𝐵)           𝑃𝑃(𝐴𝐴)
+                                          2
+                           𝑃𝑃(𝐴𝐴∩𝐵𝐵)       2      2       6         𝟑𝟑
+     •   𝑷𝑷(𝑩𝑩|𝑨𝑨) =                   = 10 : 3 = 20 = 𝟏𝟏𝟏𝟏 = 𝟎𝟎. 𝟑𝟑.
+                             𝑃𝑃(𝐴𝐴)
+
+
+
+
+7.b) 𝑂𝑂 = “participar online”, 𝐸𝐸 = “ser europeo”. Sábese que 𝑃𝑃(𝑂𝑂) = 0.6, 𝑃𝑃(𝐸𝐸) = 0.65 e 𝑃𝑃(𝐸𝐸|𝑂𝑂� ) =
+0.8.
+                                       𝐸𝐸                     𝐸𝐸�
+           𝑂𝑂                         33                     27                         𝟔𝟔𝟔𝟔
+           𝑂𝑂�                 40 × 𝟎𝟎. 𝟖𝟖 = 32               8                          40
+                                      𝟔𝟔𝟔𝟔                   35                         100
+
+Segundo a táboa de continxencia,
+                                                                                  33
+                                                              𝑷𝑷(𝑬𝑬 ∩ 𝑶𝑶) =           = 𝟎𝟎. 𝟑𝟑𝟑𝟑
+                                                                                  100
+e
+                                                                             33
+                                                              𝑷𝑷(𝑶𝑶|𝑬𝑬) =       ≈ 𝟎𝟎. 𝟓𝟓𝟓𝟓𝟓𝟓𝟓𝟓.
+                                                                             65
+
+ALTERNATIVA para 7.b):
+
+                                       𝑃𝑃(𝐸𝐸∩𝑂𝑂� )   𝑃𝑃(𝐸𝐸∩𝑂𝑂� )
+     •   0.8 = 𝑃𝑃(𝐸𝐸|𝑂𝑂� ) =                 �
+                                         𝑃𝑃(𝑂𝑂 )
+                                                   =    0.4
+                                                                 ⇒ 𝑃𝑃(𝐸𝐸 ∩ 𝑂𝑂�) = 0.32 ⇒ 𝑷𝑷(𝑬𝑬 ∩ 𝑶𝑶) = 𝑃𝑃(𝐸𝐸) − 𝑃𝑃(𝐸𝐸 ∩ 𝑂𝑂�) =
+         0.65 − 0.32 = 𝟎𝟎. 𝟑𝟑𝟑𝟑.
+
+
+                           𝑃𝑃(𝑂𝑂∩𝐸𝐸)      0.33
+     •   𝑷𝑷(𝑶𝑶|𝑬𝑬) =         𝑃𝑃(𝐸𝐸)
+                                       = 0.65 ≈ 𝟎𝟎. 𝟓𝟓𝟓𝟓𝟓𝟓𝟓𝟓.
+                                   Proba de Avaliación do Bacharelato                      Código: 20
+                                      para o Acceso á Universidade
+                                      Convocatoria ordinaria 2023
+                                      MATEMÁTICAS II
+
+8.
+
+8.a) Nunha certa zona húmida, a probabilidade de que un cabezolo chegue a ra adulta é do 2%. Se
+se escollen ao azar 2500 deses cabezolos, cal é a probabilidade de que ao menos 55 deles cheguen a
+ras adultas?
+
+𝑋𝑋 = “n.ᵒ de cabezolos que chegan a ras adultas, de entre os 2500”.
+
+𝑋𝑋 → 𝐵𝐵(𝑛𝑛, 𝑝𝑝), con 𝑛𝑛 = 2500 e 𝑝𝑝 = 0.02. Tense logo 𝑞𝑞 = 1 − 𝑝𝑝 = 0.98. Pídese 𝑃𝑃(𝑋𝑋 ≥ 55).
+
+𝑛𝑛𝑛𝑛 = 50, 𝑛𝑛𝑛𝑛 = 2450, 𝑛𝑛𝑛𝑛𝑛𝑛 = 49, �𝑛𝑛𝑛𝑛𝑛𝑛 = 7. Como 𝑛𝑛𝑛𝑛 > 5 e 𝑛𝑛𝑛𝑛 > 5, 𝑋𝑋 pode aproximarse por 𝑋𝑋� →
+𝑁𝑁(50,7).
+
+                                                𝑋𝑋� − 50
+                                         𝑍𝑍 =            → 𝑁𝑁(0,1).
+                                                    7
+
+Aplicando a corrección de Yates ou de medio punto,
+
+                                               54.5 − 50
+       𝑷𝑷(𝑿𝑿 ≥ 𝟓𝟓𝟓𝟓) ≈ 𝑃𝑃�𝑋𝑋� ≥ 54.5� = 𝑃𝑃 �𝑍𝑍 ≥         � ≈ 𝑃𝑃(𝑍𝑍 ≥ 0.64) = 1 − 𝑃𝑃(𝑍𝑍 < 0.64)
+                                                   7
+                      ≈ 1 − 0.7389 = 𝟎𝟎. 𝟐𝟐𝟐𝟐𝟐𝟐𝟐𝟐.
+
+
+8.b)
+
+                                                   𝑋𝑋−100
+𝑋𝑋 = “puntuación” → 𝑁𝑁(100,20), conque 𝑍𝑍 =          20
+                                                            → 𝑁𝑁(0,1). Pídese 𝑥𝑥 tal que 𝑃𝑃(𝑋𝑋 ≥ 𝑥𝑥) = 0.05.
+
+                                            𝑥𝑥 − 100                     𝑥𝑥 − 100
+            𝑃𝑃(𝑋𝑋 ≥ 𝑥𝑥) = 0.05 ⟺ 𝑃𝑃 �𝑍𝑍 ≥            � = 0.05 ⟺ 𝑃𝑃 �𝑍𝑍 <          � = 0.95,
+                                               20                           20
+
+de onde
+
+                         𝑥𝑥 − 100
+                                  ≈ 1.645 ⇒ 𝑥𝑥 − 100 ≈ 32.9 ⇒ 𝒙𝒙 ≈ 𝟏𝟏𝟏𝟏𝟏𝟏. 𝟗𝟗.
+                            20
+                                        Proba de Avaliación do Bacharelato                             Código: 20
+                                           para o Acceso á Universidade
+                                         Convocatoria extraordinaria 2023
+                                           MATEMÁTICAS II
+O exame consta de 8 preguntas de 2 puntos, das que pode responder un MÁXIMO DE 5, combinadas como
+queira. Se responde máis preguntas das permitidas, só serán corrixidas as 5 primeiras respondidas.
+
+1. Números e Álxebra:
+                             1 0              1 1
+a) Calcule 𝐴𝐴 se (𝐴𝐴𝐴𝐴)𝑇𝑇 = �      � e 𝐵𝐵 = �       �.
+                             2 1             −1 1
+             3 𝑥𝑥
+b) Se 𝐴𝐴 = �       � é invertible, obteña os valores de 𝑥𝑥, 𝑦𝑦 e 𝑧𝑧 sabendo que det(𝐴𝐴 − 3𝐼𝐼) = 0, que 𝑦𝑦 ≠ 0 e que
+             𝑦𝑦 𝑧𝑧
+                     2 0
+(3𝑧𝑧)𝐴𝐴−1 + 𝐼𝐼 = �         �. Enténdase que 𝐼𝐼 é a matriz identidade.
+                   −1 4
+
+2. Números e Álxebra:
+                                                        (𝑚𝑚 + 1)𝑥𝑥                             +         𝑧𝑧   =      1,
+Discuta, segundo os valores do parámetro 𝑚𝑚, o sistema �(𝑚𝑚 + 1)𝑥𝑥            +       𝑦𝑦       +         𝑧𝑧   = 𝑚𝑚 + 1,
+                                                        (𝑚𝑚 + 1)𝑥𝑥            +     𝑚𝑚𝑚𝑚       + (𝑚𝑚 − 1)𝑧𝑧   =     𝑚𝑚.
+
+3. Análise:
+a) Enuncie os teoremas de Rolle e do valor medio do cálculo diferencial.
+b) Explique se 𝑓𝑓: [0,1] → ℝ, 𝑓𝑓(𝑥𝑥) = √1 − 𝑥𝑥 2 , está ou non nas hipóteses do teorema do valor medio do
+cálculo diferencial. En caso de que o estea, calcule un valor 𝑐𝑐 para o cal se cumpra a tese dese teorema.
+
+4. Análise:
+a) Calcule mediante cambio de variable as integrais ∫(sin 𝑥𝑥)5 cos 𝑥𝑥 𝑑𝑑𝑑𝑑 e ∫(ln 𝑥𝑥)/𝑥𝑥 𝑑𝑑𝑑𝑑.
+b) Calcule ∫(ln 𝑥𝑥)/𝑥𝑥 𝑑𝑑𝑑𝑑 empregando o método de integración por partes. Logo, obteña algún valor de 𝐵𝐵 tal
+      𝐵𝐵
+que ∫e (ln 𝑥𝑥)/𝑥𝑥 𝑑𝑑𝑑𝑑 = 3/2.
+
+5. Xeometría:
+                                                                                            𝑥𝑥−1    𝑦𝑦  𝑧𝑧+1
+a) Considérense o plano 𝜋𝜋: 𝑎𝑎𝑎𝑎 + 𝑦𝑦 + 𝑧𝑧 = 1, onde 𝑎𝑎 é un parámetro real, e a recta 𝑟𝑟:        = =        . Estude a
+                                                                                              2     3     3
+posición relativa de 𝜋𝜋 e 𝑟𝑟 en función de 𝑎𝑎 e obteña o valor de 𝑎𝑎 que fai que 𝜋𝜋 e 𝑟𝑟 sexan perpendiculares. Por
+último, razoe se 𝑟𝑟 pode estar contida en 𝜋𝜋 ou non.
+                                                                           𝑥𝑥−1   𝑦𝑦−𝑏𝑏   𝑧𝑧+1
+b) Se 𝜋𝜋: −3𝑥𝑥 + 𝑦𝑦 + 𝑧𝑧 = 1, diga que valor ten que tomar 𝑏𝑏 para que 𝑟𝑟:      =       =       estea contida en 𝜋𝜋.
+                                                                                2          3      3
+
+6. Xeometría:
+Considérese o plano 𝜋𝜋: 2𝑥𝑥 − 𝑦𝑦 + 𝑧𝑧 = 1. Pídese:
+                                                                  𝑥𝑥 = 2 + 𝜆𝜆,          𝑥𝑥 = 𝜇𝜇,
+a) Calcular a distancia de 𝜋𝜋 ao punto de corte das rectas 𝑟𝑟1 : �𝑦𝑦 = 0,      e 𝑟𝑟2 : �𝑦𝑦 = −1 + 𝜇𝜇, (𝜆𝜆, 𝜇𝜇 ∈ ℝ).
+                                                                  𝑧𝑧 = −1 − 𝜆𝜆          𝑧𝑧 = 0,
+b) Obter o punto simétrico de 𝑃𝑃(1,0,0) con respecto a 𝜋𝜋.
+
+7. Estatística e Probabilidade:
+a) Calcule 𝑃𝑃(𝐴𝐴|𝐵𝐵) se 𝐵𝐵 ⊂ 𝐴𝐴. Logo, se 𝑃𝑃(𝐶𝐶) = 0.5 e 𝑃𝑃(𝐷𝐷) = 0.6, explique se 𝐶𝐶 e 𝐷𝐷 poden ser incompatibles.
+Por último, obteña 𝑃𝑃(𝐸𝐸 ∪ 𝐹𝐹) e 𝑃𝑃(𝐸𝐸 ∩ 𝐹𝐹� ) se 𝐸𝐸 e 𝐹𝐹 son independentes, 𝑃𝑃(𝐸𝐸) = 0.3 e 𝑃𝑃(𝐹𝐹) = 0.2.
+b) Tírase un dado sete veces. Calcule a probabilidade de que saian exactamente dous seises.
+
+8. Estatística e Probabilidade:
+Para un determinado grupo de pacientes, a tensión arterial sistólica (medida en mmHg) segue una
+distribución normal de media 123.6 e desviación típica 17.8. Calcule a probabilidade de que un paciente
+elixido ao azar teña unha tensión comprendida entre 100 e 120 mmHg. Logo, obteña o valor da tensión que é
+superado polo 67% dos pacientes.
+                                         Proba de Avaliación do Bacharelato                            Código: 20
+                                            para o Acceso á Universidade
+                                          Convocatoria extraordinaria 2023
+                                            MATEMÁTICAS II
+El examen consta de 8 preguntas de 2 puntos, de las que puede responder un MÁXIMO DE 5, combinadas
+como quiera. Si responde más preguntas de las permitidas, solo serán corregidas las 5 primeras
+respondidas.
+
+1. Números y Álgebra:
+                             1 0             1 1
+a) Calcule 𝐴𝐴 si (𝐴𝐴𝐴𝐴)𝑇𝑇 = �     � y 𝐵𝐵 = �      �.
+                             2 1            −1 1
+             3 𝑥𝑥
+b) Si 𝐴𝐴 = �       � es invertible, obtenga los valores de 𝑥𝑥, 𝑦𝑦 y 𝑧𝑧 sabiendo que det(𝐴𝐴 − 3𝐼𝐼) = 0, que 𝑦𝑦 ≠ 0 y
+            𝑦𝑦 𝑧𝑧
+                           2 0
+que (3𝑧𝑧)𝐴𝐴−1 + 𝐼𝐼 = �         �. Entiéndase que 𝐼𝐼 es la matriz identidad.
+                          −1 4
+
+2. Números y Álgebra:
+                                                         (𝑚𝑚 + 1)𝑥𝑥                       +         𝑧𝑧      =      1,
+Discuta, según los valores del parámetro 𝑚𝑚, el sistema �(𝑚𝑚 + 1)𝑥𝑥           +      𝑦𝑦   +         𝑧𝑧      = 𝑚𝑚 + 1,
+                                                         (𝑚𝑚 + 1)𝑥𝑥           +    𝑚𝑚𝑚𝑚   + (𝑚𝑚 − 1)𝑧𝑧      =     𝑚𝑚.
+
+3. Análisis:
+a) Enuncie los teoremas de Rolle y del valor medio del cálculo diferencial.
+b) Explique si 𝑓𝑓: [0,1] → ℝ, 𝑓𝑓(𝑥𝑥) = √1 − 𝑥𝑥 2 , está o no en las hipótesis del teorema del valor medio del
+cálculo diferencial. En caso de que lo esté, calcule un valor 𝑐𝑐 para el cual se cumpla la tesis de ese teorema.
+
+4. Análisis:
+a) Calcule mediante cambio de variable las integrales ∫(sin 𝑥𝑥)5 cos 𝑥𝑥 𝑑𝑑𝑑𝑑 y ∫(ln 𝑥𝑥)/𝑥𝑥 𝑑𝑑𝑑𝑑.
+b) Calcule ∫(ln 𝑥𝑥)/𝑥𝑥 𝑑𝑑𝑑𝑑 empleando el método de integración por partes. Luego, obtenga algún valor de 𝐵𝐵 tal
+      𝐵𝐵
+que ∫e (ln 𝑥𝑥)/𝑥𝑥 𝑑𝑑𝑑𝑑 = 3/2.
+
+5. Geometría:
+                                                                                                       𝑥𝑥−1  𝑦𝑦  𝑧𝑧+1
+a) Considérense el plano 𝜋𝜋: 𝑎𝑎𝑎𝑎 + 𝑦𝑦 + 𝑧𝑧 = 1, donde 𝑎𝑎 es un parámetro real, y la recta 𝑟𝑟:              = =      .
+                                                                                                         2   3     3
+Estudie la posición relativa de 𝜋𝜋 y 𝑟𝑟 en función de 𝑎𝑎 y obtenga el valor de 𝑎𝑎 que hace que 𝜋𝜋 y 𝑟𝑟 sean
+perpendiculares. Por último, razone si 𝑟𝑟 puede estar contenida en 𝜋𝜋 o no.
+                                                                             𝑥𝑥−1   𝑦𝑦−𝑏𝑏   𝑧𝑧+1
+b) Si 𝜋𝜋: −3𝑥𝑥 + 𝑦𝑦 + 𝑧𝑧 = 1, diga qué valor tiene que tomar 𝑏𝑏 para que 𝑟𝑟:      =       =      esté contenida en 𝜋𝜋.
+                                                                                  2       3      3
+
+6. Geometría:
+Considérese el plano 𝜋𝜋: 2𝑥𝑥 − 𝑦𝑦 + 𝑧𝑧 = 1. Se pide:
+                                                                      𝑥𝑥 = 2 + 𝜆𝜆,          𝑥𝑥 = 𝜇𝜇,
+a) Calcular la distancia de 𝜋𝜋 al punto de corte de las rectas 𝑟𝑟1 : �𝑦𝑦 = 0,      y 𝑟𝑟2 : �𝑦𝑦 = −1 + 𝜇𝜇, (𝜆𝜆, 𝜇𝜇 ∈ ℝ).
+                                                                      𝑧𝑧 = −1 − 𝜆𝜆          𝑧𝑧 = 0,
+b) Obtener el punto simétrico de 𝑃𝑃(1,0,0) con respecto a 𝜋𝜋.
+
+7. Estadística y Probabilidad:
+a) Calcule 𝑃𝑃(𝐴𝐴|𝐵𝐵) si 𝐵𝐵 ⊂ 𝐴𝐴. Luego, si 𝑃𝑃(𝐶𝐶) = 0.5 y 𝑃𝑃(𝐷𝐷) = 0.6, explique si 𝐶𝐶 y 𝐷𝐷 pueden ser incompatibles.
+Por último, obtenga 𝑃𝑃(𝐸𝐸 ∪ 𝐹𝐹) y 𝑃𝑃(𝐸𝐸 ∩ 𝐹𝐹� ) si 𝐸𝐸 y 𝐹𝐹 son independientes, 𝑃𝑃(𝐸𝐸) = 0.3 y 𝑃𝑃(𝐹𝐹) = 0.2.
+b) Se tira un dado siete veces. Calcule la probabilidad de que salgan exactamente dos seises.
+
+8. Estadística y Probabilidad:
+Para un determinado grupo de pacientes, la tensión arterial sistólica (medida en mmHg) sigue una
+distribución normal de media 123.6 y desviación típica 17.8. Calcule la probabilidad de que un paciente
+elegido al azar tenga una tensión comprendida entre 100 y 120 mmHg. Luego, obtenga el valor de la tensión
+que es superado por el 67% de los pacientes.
+                             Proba de Avaliación do Bacharelato                    Código: 20
+                                para o Acceso á Universidade
+                              Convocatoria extraordinaria 2023
+                                   MATEMÁTICAS II
+1.
+
+
+              21                 1 2 −1
+1.a) 𝐴𝐴𝐴𝐴 = �  �, de onde 𝐴𝐴 = �      � 𝐵𝐵 .
+              10                 0 1
+             1 1
+Como 𝐵𝐵 = �       �, temos que det 𝐵𝐵 = 1 + 1 = 2 e, polo tanto,
+            −1 1
+                               1 1 1 𝑇𝑇 1 1 −1
+                        𝐵𝐵 −1 = �         � = �          �.
+                               2 −1 1          2 1     1
+Finalmente,
+                                   1 1 2 1       −1  𝟏𝟏 𝟑𝟑 𝟏𝟏
+                           𝑨𝑨 =     �   ��         �= �       �.
+                                   2 0 1 1        1  𝟐𝟐 𝟏𝟏 𝟏𝟏
+
+
+SOLUCIÓN ALTERNATIVA:
+         𝑎𝑎     𝑏𝑏
+Se 𝐴𝐴 = �          �,
+          𝑐𝑐    𝑑𝑑
+                                 𝑎𝑎 𝑏𝑏     1 1        𝑎𝑎 − 𝑏𝑏 𝑎𝑎 + 𝑏𝑏
+                        𝐴𝐴𝐴𝐴 = �       ��       �=�                    �,
+                                 𝑐𝑐 𝑑𝑑    −1  1        𝑐𝑐 − 𝑑𝑑 𝑐𝑐 + 𝑑𝑑
+                    𝑎𝑎 − 𝑏𝑏 𝑐𝑐 − 𝑑𝑑      1 0          𝑎𝑎 − 𝑏𝑏 = 1         𝑐𝑐 − 𝑑𝑑 = 0
+       (𝐴𝐴𝐴𝐴)𝑇𝑇 = �                 �=�      � ⟺ ��               � e �               ��
+                    𝑎𝑎 + 𝑏𝑏 𝑐𝑐 + 𝑑𝑑      2 1          𝑎𝑎 + 𝑏𝑏 = 2         𝑐𝑐 + 𝑑𝑑 = 1
+                                2𝑎𝑎 = 3          2𝑐𝑐 = 1
+                        ⟺ ��              � e �           ��
+                              𝑏𝑏 = 2 − 𝑎𝑎        𝑐𝑐 = 𝑑𝑑
+                        ⇔ [𝑎𝑎 = 3/2,    𝑏𝑏 = 1/2, 𝑐𝑐 = 1/2      e 𝑑𝑑 = 1/2].
+Logo
+                                              𝟏𝟏 𝟑𝟑   𝟏𝟏
+                                       𝑨𝑨 =     �        �.
+                                              𝟐𝟐 𝟏𝟏   𝟏𝟏
+                             Proba de Avaliación do Bacharelato                    Código: 20
+                                para o Acceso á Universidade
+                              Convocatoria extraordinaria 2023
+                                MATEMÁTICAS II
+                 3    𝑥𝑥
+1.b) Como 𝐴𝐴 = �         � é invertible, sabemos que det 𝐴𝐴 = 3𝑧𝑧 − 𝑥𝑥𝑥𝑥 ≠ 0.
+                𝑦𝑦    𝑧𝑧
+                                                 0      𝑥𝑥
+                                    𝐴𝐴 − 3𝐼𝐼 = �           �.
+                                                𝑦𝑦 𝑧𝑧 − 3
+Ao ser det(𝐴𝐴 − 3𝐼𝐼) = −𝑥𝑥𝑥𝑥 = 0 e 𝑦𝑦 ≠ 0, necesariamente ten que ser 𝑥𝑥 = 0. En
+consecuencia, tamén teremos 𝑧𝑧 ≠ 0, porque det 𝐴𝐴 = 3𝑧𝑧 − 𝑥𝑥𝑥𝑥 = 3𝑧𝑧 ≠ 0. Neste punto,
+sábese que
+                                                3 0
+                                         𝐴𝐴 = �      �
+                                               𝑦𝑦 𝑧𝑧
+
+con 𝑦𝑦 e 𝑧𝑧 non nulos. Obteremos os valores de 𝑦𝑦 e 𝑧𝑧 da igualdade
+
+                                 (3𝑧𝑧)𝐴𝐴−1 + 𝐼𝐼 = � 2 0�.
+                                                   −1 4
+Posto que det 𝐴𝐴 = 3𝑧𝑧,
+                                    1 𝑧𝑧 −𝑦𝑦 𝑇𝑇   1     𝑧𝑧       0
+                           𝐴𝐴−1 =       �     � =     �           �,
+                                    3𝑧𝑧   0 3     3𝑧𝑧  −𝑦𝑦       3
+conque
+                                               𝑧𝑧 + 1 0     2 0
+                          (3𝑧𝑧)𝐴𝐴−1 + 𝐼𝐼 = �           �=�      �,
+                                                  −𝑦𝑦 4    −1 4
+de onde se deduce que 𝑦𝑦 = 1 e 𝑧𝑧 = 1.
+En resumo, os valores pedidos son 𝒙𝒙 = 𝟎𝟎, 𝒚𝒚 = 𝟏𝟏 e 𝒛𝒛 = 𝟏𝟏. Equivalentemente,
+
+                                                 𝟑𝟑   𝟎𝟎
+                                         𝑨𝑨 = �          �.
+                                                 𝟏𝟏   𝟏𝟏
+
+
+SOLUCIÓN ALTERNATIVA (que evita o cálculo da inversa):
+                                                              3            0
+Procédase como na resolución anterior ata chegar a que 𝐴𝐴 = �                 � con 𝑦𝑦 e 𝑧𝑧 non
+                                                             𝑦𝑦            𝑧𝑧
+                                                               2 0
+nulos. Agora nótese que a igualdade (3𝑧𝑧)𝐴𝐴−1 + 𝐼𝐼 = �             � implica que (3𝑧𝑧)𝐴𝐴−1 =
+                                                              −1 4
+  1 0
+�    �. Polo tanto,
+ −1 3
+         3𝑧𝑧    0                  1 0           1 0 3 0             3              0
+      �            � = (3𝑧𝑧)𝐼𝐼 = �     � 𝐴𝐴 = �     ��     �=�                         �,
+          0    3𝑧𝑧                −1 3          −1 3 𝑦𝑦 𝑧𝑧     −3 + 3𝑦𝑦            3𝑧𝑧
+de onde 𝑦𝑦 = 1 e 𝑧𝑧 = 1.
+                               Proba de Avaliación do Bacharelato                             Código: 20
+                                  para o Acceso á Universidade
+                                Convocatoria extraordinaria 2023
+                                     MATEMÁTICAS II
+2.
+           𝑚𝑚 + 1     0      1       1 𝐹𝐹2 − 𝐹𝐹1 𝑚𝑚 + 1 0                           1      1
+          �𝑚𝑚 + 1     1      1� 𝑚𝑚 + 1� ⟶ �           0 1                           0�    𝑚𝑚�
+           𝑚𝑚 + 1    𝑚𝑚 𝑚𝑚 − 1         𝐹𝐹
+                                    𝑚𝑚 3   − 𝐹𝐹1      0 𝑚𝑚                     𝑚𝑚 − 2 𝑚𝑚 − 1
+
+                                      𝑚𝑚 + 1     0      1            1
+                     𝐹𝐹3 − 𝑚𝑚𝑚𝑚2 �
+                                           0     1      0�          𝑚𝑚�.
+                         ⟶                                   2
+                                           0     0 𝑚𝑚 − 2 −𝑚𝑚 + 𝑚𝑚 − 1
+
+Sistema triangular equivalente:
+                 (𝑚𝑚 + 1)𝑥𝑥                  +                 𝑧𝑧   =            1,
+                �                       𝑦𝑦                          =           𝑚𝑚,
+                                                    (𝑚𝑚 − 2)𝑧𝑧           2
+                                                                    = −𝑚𝑚 + 𝑚𝑚 − 1.
+Discusión:
+     •   Se 𝒎𝒎 ∈ ℝ ∖ {−𝟏𝟏, 𝟐𝟐}, entón o sistema é compatible determinado, xa que a súa
+         única solución é
+                                     −𝑚𝑚2 + 𝑚𝑚 − 1                             1 − 𝑧𝑧
+                              𝑧𝑧 =                 ,         𝑦𝑦 = 𝑚𝑚,   𝑥𝑥 =          .
+                                        𝑚𝑚 − 2                                 𝑚𝑚 + 1
+     •   Se 𝒎𝒎 = −𝟏𝟏, o sistema queda
+                                                        𝑧𝑧     =  1,
+                                             � 𝑦𝑦              = −1,
+                                                     −3𝑧𝑧      = −3,
+         que é compatible indeterminado, porque ten as seguintes infinitas solucións:
+                                         𝑥𝑥 ∈ ℝ,     𝑦𝑦 = −1,       𝑧𝑧 = 1.
+     •   Se 𝒎𝒎 = 𝟐𝟐, o sistema é incompatible, xa que a terceira ecuación queda 0 = −3.
+
+
+SOLUCIÓN ALTERNATIVA:
+      𝑚𝑚 + 1       0      1                  𝑚𝑚 + 1           0      1      1
+𝐴𝐴 = �𝑚𝑚 + 1       1      1�,         𝐴𝐴∗ = �𝑚𝑚 + 1           1      1 𝑚𝑚 + 1�.
+                                                                      �                   Sabemos   que
+      𝑚𝑚 + 1      𝑚𝑚 𝑚𝑚 − 1                  𝑚𝑚 + 1          𝑚𝑚 𝑚𝑚 − 1     𝑚𝑚
+rank 𝐴𝐴 ≤ rank 𝐴𝐴∗ ≤ 3 ∀𝑚𝑚 ∈ ℝ.
+      0        1
+Como �          � = −1 ≠ 0, é seguro que rank 𝐴𝐴 ≥ 2 ∀𝑚𝑚 ∈ ℝ e que [rank 𝐴𝐴 = 2 ⇔
+      1        1
+det 𝐴𝐴 = 0].
+                           Proba de Avaliación do Bacharelato              Código: 20
+                              para o Acceso á Universidade
+                            Convocatoria extraordinaria 2023
+                              MATEMÁTICAS II
+             𝑚𝑚 + 1 0       1              1 0              1
+   det 𝐴𝐴 = �𝑚𝑚 + 1 1       1� = (𝑚𝑚 + 1) �1 1              1�
+             𝑚𝑚 + 1 𝑚𝑚 𝑚𝑚 − 1              1 𝑚𝑚        𝑚𝑚 − 1
+                  = (𝑚𝑚 + 1)(𝑚𝑚 − 1 + 𝑚𝑚 − 1 − 𝑚𝑚) = (𝑚𝑚 + 1)(𝑚𝑚 − 2) = 0 ⟺ 𝑚𝑚
+                  ∈ {−1,2}.
+Discusión:
+   •   Caso 𝒎𝒎 ∈ ℝ ∖ {−𝟏𝟏, 𝟐𝟐}: rank 𝐴𝐴 = rank 𝐴𝐴∗ = 3 = n.o de incógnitas, polo que o
+       sistema é compatible determinado.
+                                                      0  0  1 1
+                                                  ∗
+   •   Caso    𝒎𝒎 = −𝟏𝟏:      rank 𝐴𝐴 = 2   e   𝐴𝐴 = �0  1  1� 0�.          Ao     ser
+                                                      0 −1 −2 −1
+         0  1  1
+       � 1  1  0� = −2 + 1 + 1 = 0, tense que rank 𝐴𝐴∗ = 2 = rank 𝐴𝐴 < 3 =
+        −1 −2 −1
+       n.o de incógnitas, situación na que o sistema é compatible indeterminado.
+                                          3     0 1 1            0   1 1
+   •   Caso 𝒎𝒎 = 𝟐𝟐: rank 𝐴𝐴 = 2 e 𝐴𝐴∗ = �3     1 1� 3�. Ao ser �1   1 3� = 6 + 1 −
+                                          3     2 1 2            2   1 2
+       2 − 2 = 5 ≠ 0, tense que rank 𝐴𝐴∗ = 3 > rank 𝐴𝐴, situación na que o sistema é
+       incompatible.
+                                Proba de Avaliación do Bacharelato                     Código: 20
+                                   para o Acceso á Universidade
+                                 Convocatoria extraordinaria 2023
+                                   MATEMÁTICAS II
+3.
+
+
+3.a)
+Teorema de Rolle: se 𝑓𝑓: [𝑎𝑎, 𝑏𝑏] → ℝ é continua en [𝑎𝑎, 𝑏𝑏], derivable en (𝑎𝑎, 𝑏𝑏), e tal que
+𝑓𝑓(𝑎𝑎) = 𝑓𝑓(𝑏𝑏), entón existe algún 𝑐𝑐 ∈ (𝑎𝑎, 𝑏𝑏) tal que 𝑓𝑓 ′ (𝑐𝑐) = 0.
+Teorema do valor medio: se 𝑓𝑓: [𝑎𝑎, 𝑏𝑏] → ℝ é continua en [𝑎𝑎, 𝑏𝑏] e derivable en (𝑎𝑎, 𝑏𝑏),
+entón existe algún 𝑐𝑐 ∈ (𝑎𝑎, 𝑏𝑏) tal que 𝑓𝑓(𝑏𝑏) − 𝑓𝑓(𝑎𝑎) = 𝑓𝑓 ′ (𝑐𝑐)(𝑏𝑏 − 𝑎𝑎).
+
+
+
+
+3.b) A función 𝑓𝑓: [0,1] → ℝ, 𝑓𝑓(𝑥𝑥) = √1 − 𝑥𝑥 2 , é claramente continua en [0,1].
+Ademais,
+                                        1                            −𝑥𝑥
+                          𝑓𝑓 ′ (𝑥𝑥) =     (1 − 𝑥𝑥 2 )−1/2 (−2𝑥𝑥) =           ,
+                                        2                          √1 − 𝑥𝑥 2
+conque 𝑓𝑓 é derivable en (0,1).
+Logo 𝒇𝒇 si que está nas hipóteses do teorema do valor medio, polo que ten que existir
+algún 𝑐𝑐 ∈ (0,1) tal que 𝑓𝑓(1) − 𝑓𝑓(0) = 𝑓𝑓′(𝑐𝑐)(1 − 0).
+Ao ser 𝑓𝑓(1) = 0 e 𝑓𝑓(0) = 1, estamos a dicir que 𝑓𝑓 ′ (𝑐𝑐) = −1 para algún 𝑐𝑐 ∈ (0,1).
+Neste caso haberá un único valor posible para 𝑐𝑐, o cal se pode obter do seguinte xeito:
+                     −𝑐𝑐
+  𝑓𝑓 ′ (𝑐𝑐) = −1 ⟺           = −1 ⟺ 𝑐𝑐 = �1 − 𝑐𝑐 2 ⟺ [𝑐𝑐 2 = 1 − 𝑐𝑐 2 e 𝑐𝑐 > 0]
+                   √1 − 𝑐𝑐 2
+
+                    ⇔ [2𝑐𝑐 2 = 1         e 𝑐𝑐 > 0] ⇔ [𝑐𝑐 2 = 1/2       e 𝑐𝑐 > 0] ⟺ 𝒄𝒄 = �𝟏𝟏/𝟐𝟐.
+Obsérvese que 𝑐𝑐 ∈ (0,1).
+                                 Proba de Avaliación do Bacharelato                        Código: 20
+                                    para o Acceso á Universidade
+                                  Convocatoria extraordinaria 2023
+                                  MATEMÁTICAS II
+4.
+
+
+4.a)
+Facendo o cambio 𝑢𝑢 = sin 𝑥𝑥, 𝑑𝑑𝑑𝑑 = cos 𝑥𝑥 𝑑𝑑𝑑𝑑, tense
+
+                            𝟓𝟓                        5
+                                                          𝑢𝑢6        (𝐬𝐬𝐬𝐬𝐬𝐬 𝒙𝒙)𝟔𝟔
+                �(𝐬𝐬𝐬𝐬𝐬𝐬 𝒙𝒙) 𝐜𝐜𝐜𝐜𝐜𝐜 𝒙𝒙 𝒅𝒅𝒅𝒅 = � 𝑢𝑢 𝑑𝑑𝑑𝑑 =     + 𝐶𝐶 =               + 𝑪𝑪.
+                                                           6               𝟔𝟔
+
+
+Facendo o cambio 𝑢𝑢 = ln 𝑥𝑥, 𝑑𝑑𝑑𝑑 = (1/𝑥𝑥) 𝑑𝑑𝑑𝑑, tense
+                          𝐥𝐥𝐥𝐥 𝒙𝒙                    𝑢𝑢2       𝟏𝟏
+                      �           𝒅𝒅𝒅𝒅 = � 𝑢𝑢 𝑑𝑑𝑑𝑑 =     + 𝐶𝐶 = (𝐥𝐥𝐥𝐥 𝒙𝒙)𝟐𝟐 + 𝑪𝑪.
+                             𝒙𝒙                       2        𝟐𝟐
+
+
+4.b)
+Primeira parte:
+Tomando
+                                                                   1
+                                         𝑢𝑢 = ln 𝑥𝑥       𝑑𝑑𝑑𝑑 =      𝑑𝑑𝑑𝑑
+                                                                   𝑥𝑥
+                                               1
+                                      𝑑𝑑𝑑𝑑 =      𝑑𝑑𝑑𝑑     𝑣𝑣 = ln 𝑥𝑥
+                                               𝑥𝑥
+vese que
+                                     ln 𝑥𝑥                     ln 𝑥𝑥
+                                 �         𝑑𝑑𝑑𝑑 = (ln 𝑥𝑥)2 − �       𝑑𝑑𝑑𝑑
+                                      𝑥𝑥                        𝑥𝑥
+Logo 2 ∫(ln 𝑥𝑥)/𝑥𝑥 𝑑𝑑𝑑𝑑 = (ln 𝑥𝑥)2 + 𝐾𝐾 e, de aí,
+                                         𝐥𝐥𝐥𝐥 𝒙𝒙       𝟏𝟏
+                                     �           𝒅𝒅𝒅𝒅 = (𝐥𝐥𝐥𝐥 𝒙𝒙)𝟐𝟐 + 𝑪𝑪.
+                                            𝒙𝒙         𝟐𝟐
+Segunda parte:
+     𝐵𝐵                         𝐵𝐵
+       ln 𝑥𝑥         1             1         1 3
+ �           𝑑𝑑𝑑𝑑 = � (ln 𝑥𝑥)2 � = (ln 𝐵𝐵)2 − = ⟺ (ln 𝐵𝐵)2 − 1 = 3 ⟺ (ln 𝐵𝐵)2 = 4.
+     e  𝑥𝑥           2          e  2         2 2
+Unha solución sae por tanto de
+                                          ln 𝐵𝐵 = 2 ⇔ 𝑩𝑩 = 𝐞𝐞𝟐𝟐 .
+                                  Proba de Avaliación do Bacharelato                        Código: 20
+                                     para o Acceso á Universidade
+                                   Convocatoria extraordinaria 2023
+                                    MATEMÁTICAS II
+5.
+
+
+                                              𝑥𝑥−1   𝑦𝑦   𝑧𝑧+1
+     5.a) Temos 𝜋𝜋: 𝑎𝑎𝑎𝑎 + 𝑦𝑦 + 𝑧𝑧 = 1 e 𝑟𝑟: 2 = 3 =       3
+                                                               .
+
+        •   𝑛𝑛�⃗𝜋𝜋 (𝑎𝑎, 1,1) é normal a 𝜋𝜋 e 𝑑𝑑⃗𝑟𝑟 (2,3,3) ten a dirección de 𝑟𝑟. Como
+
+                                   𝑛𝑛�⃗𝜋𝜋 ∙ 𝑑𝑑⃗𝑟𝑟 = 2𝑎𝑎 + 6 = 0 ⟺ 𝑎𝑎 = −3,
+     a recta é paralela ao plano se 𝒂𝒂 = −𝟑𝟑 e corta ao plano nun punto se 𝒂𝒂 ≠ −𝟑𝟑.
+        •   Para que 𝑟𝑟 e 𝜋𝜋 sexan perpendiculares, 𝑛𝑛�⃗𝜋𝜋 (𝑎𝑎, 1,1) ten que ser paralelo a
+
+            𝑑𝑑⃗𝑟𝑟 (2,3,3):
+
+                                      𝑎𝑎 1                𝟐𝟐
+                                        = ⟺ 3𝑎𝑎 = 2 ⟺ 𝒂𝒂 = .
+                                      2 3                 𝟑𝟑
+
+
+        •   𝑃𝑃(1,0, −1) é un punto de 𝑟𝑟. Para que 𝑟𝑟 estea contida en 𝜋𝜋 ten que ser 𝑎𝑎 =
+            −3 e, á vez, 𝑃𝑃 ∈ 𝜋𝜋, o que non é certo: −3 + 0 − 1 = −4 ≠ 1. Logo 𝒓𝒓 non
+            pode estar contida en 𝝅𝝅.
+
+
+
+                                                                             𝑥𝑥−1   𝑦𝑦−𝑏𝑏       𝑧𝑧+1
+     5.b) Se 𝜋𝜋: −3𝑥𝑥 + 𝑦𝑦 + 𝑧𝑧 = 1, pídese o valor de 𝑏𝑏 para que 𝑟𝑟: 2 =           3
+                                                                                            =    3
+                                                                                                       estea
+
+     contida en 𝜋𝜋. Xa sabemos polo apartado anterior que 𝑛𝑛�⃗𝜋𝜋 (−3,1,1) e 𝑑𝑑⃗𝑟𝑟 (2,3,3) son
+     perpendiculares, de xeito que 𝑟𝑟 estará contida en 𝜋𝜋 se, e só se, un punto calquera
+     da recta pertence tamén ao plano 𝜋𝜋. Tomando 𝑃𝑃(1, 𝑏𝑏, −1),
+                             𝑃𝑃(1, 𝑏𝑏, −1) ∈ 𝜋𝜋 ⟺ −3 + 𝑏𝑏 − 1 = 1 ⟺ 𝒃𝒃 = 𝟓𝟓.
+                                   Proba de Avaliación do Bacharelato           Código: 20
+                                      para o Acceso á Universidade
+                                    Convocatoria extraordinaria 2023
+                                      MATEMÁTICAS II
+   6.
+   6.a) Pídese a distancia de 𝜋𝜋: 2𝑥𝑥 − 𝑦𝑦 + 𝑧𝑧 = 1 ao punto de corte das rectas
+          𝑥𝑥 = 2 + 𝜆𝜆,          𝑥𝑥 = 𝜇𝜇,
+   𝑟𝑟1 : �𝑦𝑦 = 0,      e 𝑟𝑟2 : �𝑦𝑦 = −1 + 𝜇𝜇,
+          𝑧𝑧 = −1 − 𝜆𝜆          𝑧𝑧 = 0.
+   Podemos dar por feito que 𝑟𝑟1 e 𝑟𝑟2 se cortan. De −1 − 𝜆𝜆 = 0 dedúcese que 𝜆𝜆 = −1,
+   conque o punto de corte é 𝑃𝑃(1,0,0).
+   A distancia de 𝑃𝑃(1,0,0) a 𝜋𝜋: 2𝑥𝑥 − 𝑦𝑦 + 𝑧𝑧 − 1 = 0 é
+                                                   |2 − 1|           𝟏𝟏
+                                     𝒅𝒅 =                        =         .
+                                            �22 + (−1)2 + 12         √𝟔𝟔
+
+
+   6.b) Punto simétrico de 𝑃𝑃(1,0,0) con respecto a 𝜋𝜋: 2𝑥𝑥 − 𝑦𝑦 + 𝑧𝑧 = 1:
+• Ecuacións paramétricas da recta 𝑟𝑟 que pasa por 𝑃𝑃(1,0,0) e é perpendicular a 𝜋𝜋:
+                                         𝑥𝑥 = 1 + 2𝜆𝜆,
+   𝑑𝑑⃗𝑟𝑟 = 𝑛𝑛�⃗𝜋𝜋 (2, −1,1), co cal 𝑟𝑟: �𝑦𝑦 = −𝜆𝜆,     𝜆𝜆 ∈ ℝ.
+                                         𝑧𝑧 = 𝜆𝜆,
+• Corte de 𝑟𝑟 con 𝜋𝜋:
+                                                                       1
+                            2(1 + 2𝜆𝜆) + 𝜆𝜆 + 𝜆𝜆 = 6𝜆𝜆 + 2 = 1 ⇔ 𝜆𝜆 = − .
+                                                                       6
+   Posto que 𝑥𝑥 = 1 + 2𝜆𝜆 = 1 − 1/3 = 2/3, 𝑦𝑦 = −𝜆𝜆 = 1/6 e 𝑧𝑧 = 𝜆𝜆 = −1/6, o punto de
+   corte é
+                                                    2 1 1
+                                                𝑄𝑄 � , , − �.
+                                                    3 6 6
+• Punto simétrico de 𝑃𝑃(1,0,0) con respecto a 𝜋𝜋: 2𝑥𝑥 − 𝑦𝑦 + 𝑧𝑧 = 1: se chamamos
+   𝑃𝑃′(𝑥𝑥 ′ , 𝑦𝑦 ′ , 𝑧𝑧′) ao punto pedido, temos
+                                1 + 𝑥𝑥′ 2                          1
+                                        = ⇔ 3𝑥𝑥 ′ + 3 = 4 ⇔ 𝑥𝑥 ′ = ,
+                                   2      3                        3
+                                     𝑦𝑦′ 1                    1
+                                        = ⇔ 6𝑦𝑦 ′ = 2 ⇔ 𝑦𝑦 ′ = ,
+                                     2 6                      3
+                                 𝑧𝑧′     1                        1
+                                     = − ⇔ 6𝑧𝑧 ′ = −2 ⟺ 𝑧𝑧 ′ = − ,
+                                 2       6                        3
+   conque
+                                                     𝟏𝟏 𝟏𝟏 𝟏𝟏
+                                                𝑷𝑷′ � , , − �.
+                                                     𝟑𝟑 𝟑𝟑 𝟑𝟑
+                              Proba de Avaliación do Bacharelato                       Código: 20
+                                 para o Acceso á Universidade
+                               Convocatoria extraordinaria 2023
+                                 MATEMÁTICAS II
+7.
+
+
+7.a)
+     •   Se 𝐵𝐵 ⊂ 𝐴𝐴, entón 𝐴𝐴 ∩ 𝐵𝐵 = 𝐵𝐵, co cal
+                                             𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵) 𝑃𝑃(𝐵𝐵)
+                               𝑷𝑷(𝑨𝑨|𝑩𝑩) =              =        = 𝟏𝟏.
+                                                𝑃𝑃(𝐵𝐵)    𝑃𝑃(𝐵𝐵)
+     (Cando se fala de 𝑃𝑃(𝐴𝐴|𝐵𝐵), dáse por feito que 𝑃𝑃(𝐵𝐵) non é 0.)
+
+
+     •   Se 𝑃𝑃(𝐶𝐶) = 0.5 e 𝑃𝑃(𝐷𝐷) = 0.6, entón 𝑪𝑪 e 𝑫𝑫 non poden ser incompatibles, xa
+     que, se o fosen, 𝑃𝑃(𝐶𝐶 ∩ 𝐷𝐷) sería igual a 0 e, consecuentemente,
+         𝑃𝑃(𝐶𝐶 ∪ 𝐷𝐷) = 𝑃𝑃(𝐶𝐶) + 𝑃𝑃(𝐷𝐷) − 𝑃𝑃(𝐶𝐶 ∩ 𝐷𝐷) = 𝑃𝑃(𝐶𝐶) + 𝑃𝑃(𝐷𝐷) = 0.5 + 0.6 = 1.1
+     sería maior que 1, o que non é posible.
+
+
+     •   Pídense 𝑃𝑃(𝐸𝐸 ∪ 𝐹𝐹) e 𝑃𝑃(𝐸𝐸 ∩ 𝐹𝐹� ) se 𝐸𝐸 e 𝐹𝐹 son independentes, 𝑃𝑃(𝐸𝐸) = 0.3 e
+     𝑃𝑃(𝐹𝐹) = 0.2.
+          o 𝑃𝑃(𝐸𝐸 ∪ 𝐹𝐹) = 𝑃𝑃(𝐸𝐸) + 𝑃𝑃(𝐹𝐹) − 𝑃𝑃(𝐸𝐸 ∩ 𝐹𝐹) = 0.5 − 𝑃𝑃(𝐸𝐸 ∩ 𝐹𝐹). Por ser 𝐸𝐸 e
+          independentes, 𝑃𝑃(𝐸𝐸 ∩ 𝐹𝐹) = 𝑃𝑃(𝐸𝐸)𝑃𝑃(𝐹𝐹) = 0.06, co cal 𝑷𝑷(𝑬𝑬 ∪ 𝑭𝑭) = 𝟎𝟎. 𝟒𝟒𝟒𝟒.
+          o Da igualdade 𝑃𝑃(𝐸𝐸) = 𝑃𝑃(𝐸𝐸 ∩ 𝐹𝐹) + 𝑃𝑃(𝐸𝐸 ∩ 𝐹𝐹� ) obtense
+                               � ) = 𝑃𝑃(𝐸𝐸) − 𝑃𝑃(𝐸𝐸 ∩ 𝐹𝐹) = 0.3 − 0.06 = 𝟎𝟎. 𝟐𝟐𝟐𝟐.
+                       𝑷𝑷(𝑬𝑬 ∩ 𝑭𝑭
+                                       � ) = 𝑃𝑃(𝐸𝐸)𝑃𝑃(𝐹𝐹� ) = 0.3 ∙ 0.8 = 𝟎𝟎. 𝟐𝟐𝟐𝟐, xa que 𝐸𝐸 e 𝐹𝐹�
+             Ou, doutro xeito, 𝑷𝑷(𝑬𝑬 ∩ 𝑭𝑭
+          son independentes ao selo 𝐸𝐸 e 𝐹𝐹.
+7.b)
+
+𝑋𝑋 = “n.ᵒ de seises obtidos nas sete tiradas”.
+
+
+𝑋𝑋 → 𝐵𝐵(𝑛𝑛, 𝑝𝑝), con 𝑛𝑛 = 7 e 𝑝𝑝 = 1/6 (logo 𝑞𝑞 = 1 − 𝑝𝑝 = 5/6).
+
+
+
+                        7 1
+                              2
+                                5 5 7 ∙ 6 ∙ 55 7 ∙ 55 21875
+          𝑃𝑃(𝑋𝑋 = 2) = � � � � � � =          =      =      ≈ 0.2344.
+                        2 6     6    (2!) ∙ 67 2 ∙ 66 93312
+                            Proba de Avaliación do Bacharelato                   Código: 20
+                               para o Acceso á Universidade
+                             Convocatoria extraordinaria 2023
+                              MATEMÁTICAS II
+8. 𝑋𝑋 = “tensión arterial sistólica en mmHg”.
+                                                   𝑋𝑋 − 123.6
+                   𝑋𝑋 → 𝑁𝑁(123.6,17.8) ⇒ 𝑍𝑍 =                 → 𝑁𝑁(0,1).
+                                                      17.8
+
+
+                                   100−123.6            120−123.6
+  • 𝑷𝑷(𝟏𝟏𝟏𝟏𝟏𝟏 ≤ 𝑿𝑿 ≤ 𝟏𝟏𝟏𝟏𝟏𝟏) = 𝑃𝑃 �     17.8
+                                               ≤ 𝑍𝑍 ≤     17.8
+                                                                 � ≈ 𝑃𝑃(−1.33 ≤ 𝑍𝑍 ≤
+
+     −0.20) = 𝑃𝑃(0.20 ≤ 𝑍𝑍 ≤ 1.33) = 𝑃𝑃(𝑍𝑍 ≤ 1.33) − 𝑃𝑃(𝑍𝑍 ≤ 0.20) ≈ 0.9082 −
+     0.5793 = 𝟎𝟎. 𝟑𝟑𝟑𝟑𝟑𝟑𝟑𝟑 é a probabilidade de que un paciente elixido ao azar teña
+     unha tensión comprendida entre 100 e 120 mmHg.
+
+
+  • Pídese tamén o valor de 𝑡𝑡 tal que 𝑃𝑃(𝑋𝑋 > 𝑡𝑡) = 0.67. Ao ser 0.67 maior que 0.5, é
+     claro que 𝑡𝑡 terá que ser menor que a media 123.6. Entón
+                                        𝑡𝑡 − 123.6             123.6 − 𝑡𝑡
+               𝑃𝑃(𝑋𝑋 > 𝑡𝑡) = 𝑃𝑃 �𝑍𝑍 >             � = 𝑃𝑃 �𝑍𝑍 <            � = 0.67.
+                                            17.8                 17.8
+     Indo á táboa da normal vese que
+                                          123.6 − 𝑡𝑡
+                                                     ≈ 0.44,
+                                            17.8
+     de onde
+                             𝒕𝒕 ≈ 123.6 − 17.8 ∙ 0.44 = 𝟏𝟏𝟏𝟏𝟏𝟏. 𝟕𝟕𝟕𝟕𝟕𝟕.
+

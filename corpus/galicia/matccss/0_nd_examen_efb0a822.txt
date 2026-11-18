@@ -1,0 +1,869 @@
+                                           Proba de Avaliación do Bacharelato                   Código: 40
+                                              para o Acceso á Universidade
+                                               Convocatoria ordinaria 2023
+
+                        MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+       O exame consta de 6 exercicios, todos coa mesma valoración máxima (3,33 puntos), dos que pode realizar un
+       MÁXIMO DE 3 combinados como queira. Se realiza máis exercicios dos permitidos, só se corrixirán os tres
+       primeiros realizados.
+                                                                        −2 −1
+                                                      1 2      3
+       EXERCICIO 1. Álxebra. Sexan as matrices A= �              � e B=� 1      0�
+                                                      0 2 −1
+                                                                          1    1
+       a) Calcule a matriz A t (sendo At a matriz trasposta de A) e calcule a matriz A·B.
+                                𝑎𝑎 𝑏𝑏                                  1 −2
+       b) Calcule a matriz X= �        � que cumpre A·B·X=C+I onde C=�        � e I a matriz identidade 2x2.
+                                 𝑐𝑐 𝑑𝑑                                 0 −1
+       EXERCICIO 2. Álxebra. Un grupo empresarial desexa crear unha rede de produción formada por plantas de
+       dous tipos: A e B. Cada planta de produción A xeraría uns custos mensuais de 1.000 euros e necesitaría 8
+       empregados para o seu funcionamento, mentres que cada planta de produción B xeraría uns custos
+       mensuais de 2.000 euros e necesitaría 4 empregados. O número de plantas de produción A non deberá
+       superar ó dobre das de tipo B. Ademais, os custos mensuais desta rede de produción non deben superar
+       os 42.000 euros e tampouco debe supoñer a contratación de máis de 120 empregados.
+       a) Formule o sistema de inecuacións asociado ó problema. b) Represente graficamente a rexión factible e
+       calcula os seus vértices. c) Se se sabe que cada planta de produción A xeraría uns beneficios mensuais de
+       24.000 euros e cada planta de produción B de 20.000 euros, cantas plantas de produción de cada tipo
+       deberían formar a rede para que os beneficios mensuais sexan máximos?
+
+       EXERCICIO 3. Análise. O volume de auga (en millóns de litros) almacenado nun embalse ao longo dun
+       período de 11 anos en función do tempo t (en anos) vén dado pola función
+=V ( t ) t 3 - 24t 2 +180t + 8000, 0 ≤ t ≤ 11
+       a) Determine os períodos de crecemento e decrecemento da auga almacenada.
+       b) Calcule a cantidade de auga almacenada no último ano (t =11).
+       c) Calcule o ano do período no que o volume almacenado foi máximo e o volume máximo que tivo o
+       embalse ao longo dese período.
+
+       EXERCICIO 4. Análise. Os beneficios obtidos durante o primeiro ano (en centos de euros) por un
+       establecemento adicado ó reparto de comida a domicilio veñen dados pola función
+                                             𝐵𝐵(𝑡𝑡) = 𝑡𝑡(𝑡𝑡 − 𝑎𝑎)2 , 0 ≤ 𝑡𝑡 ≤ 12
+       onde 𝑡𝑡 é o tiempo transcorrido en meses desde a apertura do establecemento.
+       a) Calcule o valor do parámetro 𝑎𝑎 tendo en conta que 𝐵𝐵(𝑡𝑡) presenta un punto de inflexión en 𝑡𝑡 = 6.
+       b) Para 𝑎𝑎 = 9, cal foi o maior beneficio obtido? En que momento ou momentos se produciu? Xustifique as
+       respostas. c) Para 𝑎𝑎 = 9, represente a gráfica da función 𝐵𝐵(𝑡𝑡) tendo en conta a información anterior e o
+       estudo dos seus intervalos de crecemento e decrecemento.
+
+       EXERCICIO 5. Estatística e Probabilidade. Nunha cidade, o 70% da poboación recibe publicidade dun
+       establecemento, dos cales un 90% realiza algunha compra en devandito establecemento. Tamén se sabe
+       que dos que non reciben publicidade, un 60% realiza algunha compra en devandito establecemento.
+       a) Que porcentaxe da poboación da cidade realiza algunha compra nese establecemento?
+       b) Se eliximos unha persoa ao azar que realizou algunha compra nese establecemento, cal é a
+       probabilidade de que recibise publicidade do mesmo?
+       c) Son independentes os sucesos “realizar algunha compra nese establecemento” e “recibir publicidade
+       do mesmo”? Xustifique a resposta.
+
+       EXERCICIO 6. Estatística e Probabilidade. Nunha mostra aleatoria de 120 empresas inspeccionadas, de
+       entre as visitadas un ano polos inspectores de traballo dunha provincia, sancionouse a 30 delas.
+       a) Calcule, con un nivel de confianza do 90%, un intervalo de confianza para a proporción de empresas
+       sancionadas pola Inspección de Traballo.
+       b) Se ignoramos os datos iniciais e cun nivel de confianza do 95%, cal é o tamaño mínimo da mostra
+       necesaria para estimar a proporción de empresas sancionadas cun erro máximo do 2%?
+                                              Proba de Avaliación do Bacharelato                         Código: 40
+                                                 para o Acceso á Universidade
+                                                   Convocatoria ordinaria 2023
+
+                          MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+       El examen consta de 6 ejercicios, todos con la misma valoración máxima (3,33 puntos), de los que puede
+       realizar un MÁXIMO DE 3 combinados como quiera. Si realiza más ejercicios de los permitidos, sólo se corregirán
+       los tres primeros realizados.
+                                                                          −2 −1
+                                                        1 2     3
+       EJERCICIO 1. Álgebra. Sean las matrices A= �               � y B=� 1       0�
+                                                        0 2 −1
+                                                                           1      1
+       a) Calcule la matriz A t (siendo At la matriz transpuesta de A) y calcula la matriz A·B.
+                                   𝑎𝑎 𝑏𝑏                                    1 −2
+       b) Calcule la matriz X= �         � que cumple A·B·X=C+I donde C=�           � e I es la matriz identidad 2x2.
+                                   𝑐𝑐 𝑑𝑑                                    0 −1
+       EJERCICIO 2. Álgebra. Un grupo empresarial desea crear una red de producción formada por plantas de dos
+       tipos: A y B. Cada planta de producción A generaría unos costes mensuales de 1.000 euros y necesitaría 8
+       empleados para su funcionamiento, mientras que cada planta de producción B generaría unos costes mensuales
+       de 2.000 euros y necesitaría 4 empleados. El número de plantas de producción A no deberá superar al doble de
+       las de tipo B. Además, los costes mensuales de esta red de producción no deben superar los 42.000 euros y
+       tampoco debe suponer la contratación de más de 120 empleados.
+       a) Formule el sistema de inecuaciones asociado al problema. b) Represente gráficamente la región factible y
+       calcula sus vértices. c) Si se sabe que cada planta de producción A generaría unos beneficios mensuales de
+       24.000 euros y cada planta de producción B de 20.000 euros, ¿cuántas plantas de producción de cada tipo
+       deberían formar la red para que los beneficios mensuales sean máximos?
+
+       EJERCICIO 3. Análisis. El volumen de agua (en millones de litros) almacenado en un embalse a lo largo de un
+       periodo de 11 años en función del tiempo t (en años) viene dado por la función
+=V ( t ) t 3 - 24t 2 +180t + 8000, 0 ≤ t ≤ 11
+       a) Determine los períodos de crecimiento y decrecimiento del agua almacenada.
+       b) Calcule la cantidad de agua almacenada en el último año (t =11).
+       c) Calcule el año del periodo en el que el volumen almacenado fue máximo y el volumen máximo que tuvo el
+       embalse a lo largo de ese periodo.
+
+       EJERCICIO 4. Análisis. Los beneficios obtenidos durante el primer año (en cientos de euros) por un
+       establecimiento dedicado al reparto de comida a domicilio vienen dados por la función
+                                                 𝐵𝐵(𝑡𝑡) = 𝑡𝑡(𝑡𝑡 − 𝑎𝑎)2 ,  0 ≤ 𝑡𝑡 ≤ 12
+       en donde 𝑡𝑡 es el tiempo transcurrido en meses desde la apertura del establecimiento.
+       a) Calcule el valor del parámetro 𝑎𝑎 teniendo en cuenta que 𝐵𝐵(𝑡𝑡) presenta un punto de inflexión en 𝑡𝑡 = 6.
+       b) Para 𝑎𝑎 = 9, ¿cuál ha sido el mayor beneficio obtenido? ¿En qué momento o momentos se ha producido?
+       Justifica las respuestas. c) Para 𝑎𝑎 = 9, represente la gráfica de la función 𝐵𝐵(𝑡𝑡) teniendo en cuenta la información
+       anterior y el estudio de sus intervalos de crecimiento y decrecimiento.
+
+        EJERCICIO 5. Estadística y Probabilidad. En una ciudad, el 70% de la población recibe publicidad de un
+       establecimiento, de los cuales un 90% realiza alguna compra en dicho establecimiento. También se sabe que de
+       los que no reciben publicidad, un 60% realiza alguna compra en dicho establecimiento.
+       a) ¿Qué porcentaje de la población de la ciudad realiza alguna compra en ese establecimiento?
+       b) Si elegimos una persona al azar que ha realizado alguna compra en ese establecimiento, ¿cuál es la
+       probabilidad de que haya recibido publicidad del mismo?
+       c) ¿Son independientes los sucesos “realizar alguna compra en ese establecimiento” y “recibir publicidad del
+       mismo”? Justifique la respuesta.
+
+       EJERCICIO 6. Estadística y Probabilidad. En una muestra aleatoria de 120 empresas inspeccionadas, de entre las
+       visitadas un año por los inspectores de trabajo de una provincia, se ha sancionado a 30 de ellas.
+       a) Calcule, con un nivel de confianza del 90%, un intervalo de confianza para la proporción de empresas
+       sancionadas por la Inspección de Trabajo.
+       b) Si ignoramos los datos iniciales y con un nivel de confianza del 95%, ¿cuál es el tamaño mínimo de la muestra
+       necesaria para estimar la proporción de empresas sancionadas con un error máximo del 2%?
+                                    Proba de Avaliación do Bacharelato   Código: 40
+                                       para o Acceso á Universidade
+                                        Convocatoria ordinaria 2023
+
+                   MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+                                       Criterios de Avaliación
+
+Só puntúan as tres primeiras preguntas respondidas
+
+
+              1. Álxebra.
+
+              a) 1 punto
+
+               b) 2,33 puntos
+
+              2. Álxebra.
+
+             a) 1 punto
+
+             b) 1,5 puntos
+
+             c) 0,83 puntos
+
+              3. Análise.
+
+               a) 2 puntos
+
+              b) 0,33 puntos
+
+               c) 1 punto
+
+              4. Análise.
+
+               a) 1 punto
+
+               b) 2 puntos
+
+               c) 0,33 puntos
+
+              5. Estatística e Probabilidade.
+
+              a) 1,33 puntos
+
+              b) 1 punto
+
+              c) 1 punto
+
+              6.    Estatística e Probabilidade.
+
+               a) 2 puntos
+
+               b) 1,33 puntos
+                                       Proba de Avaliación do Bacharelato                      Código: 40
+                                          para o Acceso á Universidade
+                                           Convocatoria ordinaria 2023
+
+                   MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+EXERCICIO 1. Álxebra.
+
+Dadas as matrices
+
+                        −2 −1
+    1 2       3
+A= �            � e B=� 1     0�
+    0 2 −1
+                         1    1
+a) Calcule a matriz A t (sendo At a matriz trasposta de A) e calcule a matriz A·B.
+
+     𝟏𝟏   𝟎𝟎                        −2 −1     −2 + 2 + 3 −1 + 3
+                          1 2  3                                 𝟑𝟑  𝟐𝟐
+At=� 𝟐𝟐    𝟐𝟐 �     A·B =�       �·� 1  0 �= � 2 − 1       −1 �=�       �
+                          0 2 −1                                 𝟏𝟏 −𝟏𝟏
+     𝟑𝟑   −𝟏𝟏                        1  1
+
+
+                        𝒂𝒂    𝒃𝒃                                𝟏𝟏 −𝟐𝟐
+b) Calcule a matriz X= �         � que cumpre A·B·X=C+I onde C=�       � e I a matriz identidade 2x2.
+                         𝒄𝒄   𝒅𝒅                                𝟎𝟎 −𝟏𝟏
+
+A·B·X=C+I ⟹ X=(A·B)-1 ·(C+I)
+
+
+
+(C+I) = �1 −2� + �1 0� = �2 −2�
+          0 −1        0 1        0     0
+
+
+
+                           3  1                         −1 −2                           1/5  2/5
+Det(A·B)=-5       (A·B)t =�     �          Adj(A·B)t = �      �               (A·B)-1= �         �
+                           2 −1                         −1  3                           1/5 −3/5
+
+
+
+               1/5  2/5    2           −2     𝟐𝟐/𝟓𝟓   −𝟐𝟐/𝟓𝟓     𝒂𝒂    𝒃𝒃
+Calculamos X= �         �·�               �=�                � =�         �
+               1/5 −3/5    0            0     𝟐𝟐/𝟓𝟓   −𝟐𝟐/𝟓𝟓      𝒄𝒄   𝒅𝒅
+
+Ou ben resolvendo o sistema,
+
+                                        3𝑎𝑎 + 2𝑐𝑐 = 2     𝑎𝑎 = 2/5
+ 3  2    𝑎𝑎       𝑏𝑏    2 −2           3𝑏𝑏 + 2𝑑𝑑 = −2    𝑏𝑏 = −2/5       𝟐𝟐/𝟓𝟓              −𝟐𝟐/𝟓𝟓
+�     �·�            �=�     �       ⟹�               ⟹�           ⟹ X= �                          �
+ 1 −1     𝑐𝑐      𝑑𝑑    0  0              𝑎𝑎 − 𝑐𝑐 = 0    𝑐𝑐 = 2/5        𝟐𝟐/𝟓𝟓              −𝟐𝟐/𝟓𝟓
+                                         𝑏𝑏 − 𝑑𝑑 = 0     𝑑𝑑 = −2/5
+                                       Proba de Avaliación do Bacharelato                 Código: 40
+                                          para o Acceso á Universidade
+                                            Convocatoria ordinaria 2023
+
+                   MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+EXERCICIO 2. Álxebra. Un grupo empresarial desexa crear unha rede de produción formada por plantas de
+dous tipos: A e B. Cada planta de produción A xeraría uns custos mensuais de 1.000 euros e necesitaría 8
+empregados para o seu funcionamento, mentres que cada planta de produción B xeraría uns custos
+mensuais de 2.000 euros e necesitaría 4 empregados. O número de plantas de produción A non deberá
+superar ó dobre das de tipo B. Ademais, os custos mensuais desta rede de produción non deben superar
+os 42.000 euros e tampouco debe supoñer a contratación de máis de 120 empregados.
+a) Formule o sistema de inecuacións asociado ó problema.
+
+x: nº de plantas tipo A ; y: nº de plantas tipo B
+
+            1000 x +2000y ≤ 42000 x +2y ≤ 𝟒𝟒𝟒𝟒
+                8x+4y ≤ 120        2x+y ≤ 𝟑𝟑𝟑𝟑
+Restricións:                     �
+                    x ≤ 2y           𝐱𝐱 ≤ 𝟐𝟐𝟐𝟐
+                    x≥0              𝐱𝐱 ≥ 𝟎𝟎
+b)
+
+
+
+
+                   C                                             x=2y
+      D
+
+
+              RF
+
+                            B
+     A                                                            x+2y=42
+                                 2x+y=30
+Vértices:
+A: x=0      A (0,0)      B: x=2y    B (12, 6)       C: 2x+y=30 C (6, 18)    D: x+2y=42 D (0,21)
+   x=2y                     2x+y=30                    x+2y=42                    x=0
+
+c) Se se sabe que cada planta de produción A xeraría uns beneficios mensuais de 24.000 euros e cada
+planta de produción B de 20.000 euros, cantas plantas de produción de cada tipo deberían formar a rede
+para que os beneficios mensuais sexan máximos?
+
+función a optimizar, f(x, y)= 24000x+20000y
+f(A)=0
+f(B)=408000
+f(C)=504000 (Máximo)
+f(D)=420000
+
+f alcanza o seu máximo no vértice C (6, 18)
+Deben formarse 6 plantas de tipo A e 18 plantas de tipo B para maximizar os beneficios.
+                                      Proba de Avaliación do Bacharelato             Código: 40
+                                         para o Acceso á Universidade
+                                          Convocatoria ordinaria 2023
+
+                  MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+EXERCICIO 3. Análise.
+
+O volume de auga (en millóns de litros) almacenado nun embalse ao longo dun período de 11 anos en
+                                               =V ( t ) t 3 - 24t 2 +180t + 8000, 0 ≤ t ≤ 11
+función do tempo t (en anos) vén dado pola función
+
+   a) Determine os períodos de crecemento e decrecemento da auga almacenada.
+
+V’ (t) =3t2 -48t +180 → V´ (t)=0 → t=6 e t=10 (puntos críticos)
+
+En (0, 6), V´ (t)>0 → V crecente
+En (6, 10), V´ (t)<0 → V decrecente
+En (10,11), V´ (t)>0 →V crecente
+
+A auga almacenada crece desde o momento inicial ata transcorridos 6 anos e desde transcorridos 10
+anos ata transcorridos 11 anos.
+
+A auga almacenada decrece desde transcorridos 6 anos ata transcorridos 10 anos.
+
+   b) Calcule a cantidade de auga almacenada no último ano (t =11).
+
+V(11) =113-24x112+180 x 11=8407
+
+  A cantidade auga almacenada no último ano e de 8407 millóns de litros.
+
+   c) Calcule o ano do período no que o volume almacenado foi máximo e o volume máximo que tivo
+      o embalse ao longo dese período.
+
+t0=6 e un máximo relativo
+
+V(6) = 63-24x62+180 x 6=8432
+
+V(11)=8407
+
+   t0=6 e un máximo absoluto
+
+   O máximo almacenamento de auga prodúcese no sexto ano e ascende a 8432 millóns de litros.
+                                        Proba de Avaliación do Bacharelato               Código: 40
+                                           para o Acceso á Universidade
+                                             Convocatoria ordinaria 2023
+
+                    MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+EXERCICIO 4. Análise.
+
+Os beneficios obtidos durante o primeiro ano (en centos de euros) por un establecemento dedicado ó
+reparto de comida a domicilio veñen dados pola función
+                                    𝐵𝐵(𝑡𝑡) = 𝑡𝑡(𝑡𝑡 − 𝑎𝑎)2 , 0 ≤ 𝑡𝑡 ≤ 12
+onde 𝑡𝑡 é o tiempo transcorrido en meses desde a apertura do establecemento.
+
+a) Calcule o valor do parámetro 𝒂𝒂 tendo en conta que 𝑩𝑩(𝒕𝒕) presenta un punto de inflexión en 𝒕𝒕 = 𝟔𝟔.
+
+B´(t) =(t-a)2 +2t(t-a) =(t-a) (3t-a)
+
+B´´(t) = (3t-a) + 3 (t-a) = 6t – 4a ; B´´ (6) = 0 → 36-4a = 0 → a=9
+
+b) Para 𝒂𝒂 = 𝟗𝟗, cal foi o maior beneficio obtido? En que momento ou momentos se produciu? Xustifique
+as respostas.
+B(t) = t (t-9)2 ; B´(t) =(t-9)2 +2t(t-9) =(t-9) (3t-9) ; B´(t) =0 → t=9, t=3 (puntos críticos)
+
+En (0, 3), B´ (t)>0 → B crecente
+
+En (3, 9), B´ (t)<0 → B decrecente
+
+En (9,12), B´ (t)>0 →B crecente
+
+t0 =3 e un máximo relativo : (3, 108) (B(3) =108)
+
+t0 =9 e un mínimo relativo : (9, 0) (B(9) = 0)
+
+t=0 → B(0) = 0 ; t=12→ B(12) =108
+
+O maior beneficio obtido foi de 10800€ e prodúcese transcorridos 3 meses e transcorridos 12 meses
+desde a apertura do establecemento.
+
+c) Para 𝑎𝑎 = 9, represente a gráfica da función 𝐵𝐵(𝑡𝑡) tendo en conta a información anterior e o estudo dos
+seus intervalos de crecemento e decrecemento.
+                                    Proba de Avaliación do Bacharelato                  Código: 40
+                                       para o Acceso á Universidade
+                                          Convocatoria ordinaria 2023
+
+                 MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+EXERCICIO 5. Estatística e Probabilidade.
+Nunha cidade, o 70% da poboación recibe publicidade dun establecemento, dos cales un 90% realiza algunha
+compra en devandito establecemento. Tamén se sabe que dos que non reciben publicidade, un 60% realiza
+algunha compra en devandito establecemento.
+
+a) Que porcentaxe da poboación da cidade realiza algunha compra nese establecemento?
+Sucesos: P= recibe publicidade e C= realiza algunha compra
+                      �) =0,3
+Datos: P(P)= 0,7 → P (P
+                   �) = 0,9
+P(C│P) = 0,9 ; P(C│P
+
+                           �). P (P
+P (C )= P(C│P). P(P) + P(C│P      �) = 0,9.0,7 +0,6, 0,3 =0,81
+O 81% da poboación da cidade realiza algunha compra nese establecemento
+
+b) Se eliximos unha persoa ao azar que realizou algunha compra nese establecemento, cal é a probabilidade
+de que recibise publicidade do mesmo?
+           P(C│P).P(P) 0,9.0,7        7
+P(P│C) =                 =         = =0,777
+                 𝑃𝑃(𝐶𝐶)     0,81      9
+Se eliximos unha persoa ao azar que realizou algunha compra nese establecemento, a probabilidade de que
+recibise publicidade do mesmo é 0,777=7/9
+
+
+c) Son independentes os sucesos “realizar algunha compra nese establecemento” e “recibir publicidade do
+mesmo”? Xustifique a resposta.
+
+Os sucesos P e C son independentes se P(P ∩ C)= P(P)·P(C) ou se P(P|C)=P(P) ou se P(C|P)=P(C) ,…..
+
+Como P(P ∩ C)= P(C│P).P(P)=0,9.0,7=0,63
+e P(P).P ( C )=0,7. 0,81 → P(P ∩ C)≠ P(C│P).P(P)
+
+Os sucesos “realizar algunha compra nese establecemento” e “recibir publicidade do mesmo” non son
+sucesos independentes
+
+
+(Tamén podemos resolver o exercicio a través de unha táboa ou un diagrama de árbore)
+                                          Proba de Avaliación do Bacharelato                 Código: 40
+                                             para o Acceso á Universidade
+                                              Convocatoria ordinaria 2023
+
+                     MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+EXERCICIO 6. Estatística e Probabilidade.
+
+Nunha mostra aleatoria de 120 empresas inspeccionadas, de entre as visitadas un ano polos inspectores
+de traballo dunha provincia, sancionouse a 30 delas.
+
+a) Calcule, con un nivel de confianza do 90%, un intervalo de confianza para a proporción de empresas
+sancionadas pola Inspección de Traballo.
+
+
+p = proporción de empresas sancionadas
+
+                                                             p (1 − p )
+O intervalo de confianza para p e da forma ( p ± zα /2                   )
+                                                                  n         1−α
+
+ p = 30 = 0,25
+      120
+Nivel de confianza : 90%→1-α = 0,9 → zα/2 =1,645
+
+Calculamos o intervalo
+
+                   0, 25 x0, 75                 0, 25 x0, 75
+(0,25 - 1, 645                  ; 0,25 + 1, 645              ) =(0,25 - 0,065 ; 0,25 + 0,065)=(0,185 ; 0,315)
+                       120                          120
+
+o I.C ao 90%, para a proporción de empresas sancionadas pola Inspección de Traballo e
+
+(0,185 ; 0,315))⟺ (𝟏𝟏𝟏𝟏, 𝟓𝟓%; 𝟑𝟑𝟑𝟑, 𝟓𝟓%)𝟗𝟗𝟗𝟗%
+
+b) Se ignoramos os datos iniciais e cun nivel de confianza do 95%, cal é o tamaño mínimo da mostra
+necesaria para estimar a proporción de empresas sancionadas cun erro máximo do 2%?
+
+
+
+              p (1 − p )
+ e = zα /2                 ≤0,02
+                   n
+Como p e descoñecido consideramos p = 0,5
+Nivel de confianza : 95%→1-α = 0,95→ zα/2 =1,96
+
+
+        0,5×0,5                1,96×0,5
+1,96�             ≤0,02 ⇒                 ≤ √𝑛𝑛 ⇒ n ≥ 2401
+             𝑛𝑛                    0,02
+
+
+O tamaño mínimo da mostra para estimar dita proporción cun erro máximo do 2% e un nivel de confianza
+do 95% debe ser de 2401 empresas.
+                                         Proba de Avaliación do Bacharelato                           Código: 40
+                                            para o Acceso á Universidade
+                                          Convocatoria extraordinaria 2023
+                    MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+O exame consta de 6 exercicios, todos coa mesma valoración máxima (3,33 puntos), dos que pode realizar un
+MÁXIMO DE 3 combinados como queira. Se realiza máis exercicios dos permitidos, só se corrixirán os tres
+primeiros realizados.
+EXERCICIO 1. Álxebra. Dada a matriz
+                                             2 𝑎𝑎      𝑎𝑎
+                                       𝐴𝐴 = �0 2       −1�
+                                             1 1       0
+a) Calcule os valores de 𝑎𝑎 para os cales a matriz A ten inversa
+b) Para 𝑎𝑎=1, calcule, se é posible, a inversa da matriz 𝐴𝐴.
+                                                                             2𝑥𝑥 + 𝑦𝑦 + 𝑧𝑧 = 2
+c) Exprese en forma matricial o sistema de ecuacións seguinte e resólvao: �       2𝑦𝑦 − 𝑧𝑧 = −1
+                                                                                    𝑥𝑥 + 𝑦𝑦 = 1
+EXERCICIO 2. Álxebra. Un barco pesqueiro dedicase a captura de xurelo e xarda. As normas sobre cotas son: As
+capturas totais non poden exceder de 30 toneladas(Tm);a cantidade de xurelo como máximo pode triplicar a
+de xarda e a cantidade de xarda non pode superar as 18 Tm.
+Se o prezo o que vende o xurelo é de 5 €/kg e o da xarda é de 6€/kg
+a) Formule e resolva o problema que determina as cantidades que debe pescar de cada especie para maximizar
+os ingresos, cumprindo as normas.
+b) Represente graficamente a rexión factible e indique os seus vértices. A canto ascenden os ingresos máximos?
+c) Cumpriría as normas sobre cotas pesqueiras se captura 20 Tm de xurelo e 6 Tm de xarda? Explique a súa
+resposta.
+
+EXERCICIO 3. Análise. O número de exemplares vendidos dunha revista ( en miles de unidades) nos primeiros
+cinco meses del ano ven dado pola función
+                         8 − 𝑡𝑡(𝑡𝑡 − 2) 𝑠𝑠𝑠𝑠 0 ≤ 𝑡𝑡 ≤ 3
+              𝑁𝑁(𝑡𝑡) = �                                𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜 𝑡𝑡 é 𝑜𝑜 𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 𝑒𝑒𝑒𝑒 𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚
+                           2𝑡𝑡 − 1 𝑠𝑠𝑠𝑠 3 < 𝑡𝑡 ≤ 5
+a) Estude o crecemento e decrecemento do número de exemplares vendidos. Calcule en que momentos se
+produciron o máximo e o mínimo número de ventas e a canto ascenderon.
+b) Represente graficamente a función N(t). Calcule a area da rexión delimitada pola gráfica da función N(t),o
+eixe de abscisas e as rectas t=0 e t=5.
+                                                   x   a
+EXERCICIO 4. Análise. Dada a función 𝑓𝑓(x) = + , x≠0, a≠0
+                                             a   x
+a) Calcule os valores do parámetro "a" para que f(x) teña un punto crítico en x0 =3.
+b) Para a=3, estude o crecemento e decrecemento da función e os seus máximos e mínimos, se existen. Estude
+tamén os seus intervalos de concavidade e convexidade e os seus puntos de inflexión, se existen.
+
+EXERCICIO 5. Estatística e Probabilidade. Nunha furna A hai 8 bolas verdes e 6 vermellas e noutra furna B hai 4
+verdes e 5 vermellas. Lánzase un dado e se sae un número menor que 3 sácase unha bola da furna A e se sae un
+número maior ou igual a 3 sácase a bola da furna B. Extraese unha bola o chou,
+a) Calcule a probabilidade de que a bola extraída sexa vermella. b) Sabendo que se extraeu unha bola verde, cal
+é a probabilidade de que saíra da furna A? c) Son independentes os sucesos “extraer bola vermella” e “a bola
+procede da furna A “?
+
+EXERCICIO 6. Estatística e Probabilidade. O salario(en €) dos traballadores dunha empresa distribúese
+normalmente con desviación típica σ=300€.Preguntouse a 36 traballadores elixidos ó chou, e estableceuse que
+o salario medio dos traballadores da empresa oscila entre 1552€ e 1748€.
+a) Cal foi o salario medio dos traballadores da mostra? Con que nivel de confianza se estableceu o intervalo
+anterior? b)Se o salario medio dos traballadores da empresa é µ=1650€, cal é a probabilidade de que o salario
+medio de mostras de 36 traballadores sexa superior a 1590€?
+                                            Proba de Avaliación do Bacharelato                               Código: 40
+                                               para o Acceso á Universidade
+                                             Convocatoria extraordinaria 2023
+                     MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+El examen consta de 6 ejercicios, todos con la misma valoración máxima (3,33 puntos), de los que puede
+realizar un MÁXIMO DE 3 combinados como quiera. Si realiza más ejercicios de los permitidos, sólo se corregirán
+los tres primeros realizados.
+EXERCICIO 1. Álgebra. Dada la matriz
+                                              2 𝑎𝑎 𝑎𝑎
+                                        𝐴𝐴 = �0 2 −1�
+                                              1 1 0
+a) Calcule los valores de 𝑎𝑎 para los cuales la matriz A tiene inversa.
+b) Para 𝑎𝑎=1, calcule, si es posible, la inversa de la matriz 𝐴𝐴.
+                                                                                 2𝑥𝑥 + 𝑦𝑦 + 𝑧𝑧 = 2
+c) Exprese en forma matricial el sistema de ecuaciones siguiente y resuélvalo: �      2𝑦𝑦 − 𝑧𝑧 = −1
+                                                                                        𝑥𝑥 + 𝑦𝑦 = 1
+EJERCICIO 2. Álgebra. Un barco pesquero se dedica a la captura de jurel y caballa. Las normas sobre cuotas son:
+Las capturas totales no pueden exceder de 30 toneladas (Tm); la cantidad de jurel como máximo puede triplicar
+la de caballa y la cantidad de caballa no puede superar las 18 Tm.
+Si el precio al que vende el jurel es de 5 €/kg y el de la caballa 6€/kg
+a) Formule y resuelva el problema que determina las cantidades que debe pescar de cada especie para
+maximizar los ingresos, cumpliendo las normas.
+b) Represente gráficamente la región factible e indique sus vértices. ¿A cuánto ascienden los ingresos máximos?
+c) ¿Cumpliría las normas sobre cuotas pesqueras si captura 20 Tm de jurel y 6 Tm de caballa? Explique su
+respuesta.
+
+EJERCICIO 3. Análisis. El número de ejemplares vendidos de una revista (en miles de unidades), en los primeros
+cinco meses del año, viene dado por la función
+                         8 − 𝑡𝑡(𝑡𝑡 − 2) 𝑠𝑠𝑠𝑠 0 ≤ 𝑡𝑡 ≤ 3
+              𝑁𝑁(𝑡𝑡) = �                                𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑 𝑡𝑡 𝑒𝑒𝑒𝑒 𝑒𝑒𝑒𝑒 𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 𝑒𝑒𝑒𝑒 𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚
+                           2𝑡𝑡 − 1 𝑠𝑠𝑠𝑠 3 < 𝑡𝑡 ≤ 5
+a) Estudie el crecimiento y decrecimiento del número de ejemplares vendidos. Calcule en que momentos se
+produce el máximo y el mínimo número de ventas y a cuánto ascienden.
+b) Represente gráficamente la función N(t). Calcule el área de la región delimitada por la gráfica de la función
+N(t), el eje de abscisas y las rectas t=0 y t=5.
+                                                       x    a
+EJERCICIO 4. Análisis. Dada la función 𝑓𝑓(x) = + , x≠0, a≠0
+                                               a   x
+a) Calcule los valores del parámetro "a" para que f(x) tenga un punto crítico en x0 =3.
+b) Para a=3, estudie el crecimiento y decrecimiento de la función y sus máximos y mínimos, si existen. Estudie
+también sus intervalos de concavidad y convexidad y sus puntos de inflexión, si existen.
+
+EJERCICIO 5. Estadística y Probabilidad. En una urna A hay 8 bolas verdes y 6 rojas y en otra urna B hay 4 verdes
+y 5 rojas. Se lanza un dado y si sale un número menor que 3 se saca una bola de la urna A y si sale un número
+mayor o igual a 3 se saca la bola de la urna B. Se extrae una bola al azar,
+a) Calcule la probabilidad de que la bola extraída sea roja. b) Sabiendo que se extrajo una bola verde, ¿Cuál es
+la probabilidad de que haya salido de la urna A? c) ¿Son independientes los sucesos “extraer bola roja” y “la bola
+procede de la urna A”?
+
+EJERCICIO 6. Estadística y Probabilidad. El salario (en €) de los trabajadores de una empresa se distribuye
+normalmente con desviación típica σ=300€.Se preguntó a 36 trabajadores elegidos al azar, y se establece que el
+salario medio de los trabajadores de la empresa oscila entre 1552€ e 1748€
+a) ¿Cuál ha sido el salario medio de los trabajadores de la muestra? ¿Con qué nivel de confianza se ha establecido
+el intervalo anterior? b) Si el salario medio de los trabajadores de la empresa es µ=1650€, ¿Cuál es la
+probabilidad de que el salario medio de muestras de 36 trabajadores sea superior a 1590€?
+                                 Proba de Avaliación do Bacharelato   Código: 40
+                                    para o Acceso á Universidade
+                                  Convocatoria extraordinaria 2023
+             MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+                                    Criterios de Avaliación
+Só puntúan as tres primeiras preguntas respondidas
+
+              1. Álxebra.
+
+              a) 1 punto
+              b) 1 punto
+              c) 1,33 puntos
+
+
+              2. Álxebra.
+
+             a) 1,5 puntos
+             b) 1,5 puntos
+             c) 0,33 puntos
+
+              3. Análise.
+
+              a) 1,83 puntos
+              b) 1,5 puntos
+
+
+
+              4. Análise.
+
+              a) 1 punto
+              b) 2,33 puntos
+
+
+
+              5. Estatística e Probabilidade.
+
+              a) 1 punto
+              b) 1 punto
+              c) 1,33 puntos
+
+
+              6.   Estatística e Probabilidade.
+
+              a) 1,83 puntos
+              b) 1,5 puntos
+                                       Proba de Avaliación do Bacharelato       Código: 40
+                                          para o Acceso á Universidade
+                                        Convocatoria extraordinaria 2023
+                   MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+
+EXERCICIO 1. Álxebra. Dada a matriz
+                                           2 𝑎𝑎     𝑎𝑎
+                                     𝐴𝐴 = �0 2      −1�
+                                           1 1      0
+a) Calcule os valores de 𝒂𝒂 para os cales a matriz A ten inversa
+A matriz A ten inversa ⟺det(A) ≠ 0
+det(A) = 2-3a
+det(A)= 0 ⟺ a= 2/3
+Polo tanto, a matriz A ten inversa para tódolos valores de a distintos de 2/3
+
+b) Para 𝒂𝒂=1, calcule, se é posible, a inversa da matriz 𝑨𝑨.
+
+      2 1  1                                      1 −1 −2
+𝐴𝐴 = �0 2 −1� → det(A) = 2-3 = -1 → Adj(A) =A*= � 1 −1 −1 �
+      1 1  0                                     −3  2  4
+
+
+                                   −𝟏𝟏 −𝟏𝟏         𝟑𝟑
+A-1 = (1/det(A)). ( A* )t → A-1 = � 𝟏𝟏  𝟏𝟏        −𝟐𝟐 �
+                                    𝟐𝟐  𝟏𝟏        −𝟒𝟒
+
+
+c) Exprese en forma matricial o sistema de ecuacións seguinte e resólvao
+
+    2𝑥𝑥 + 𝑦𝑦 + 𝑧𝑧 = 2     2 1  1 𝑥𝑥         2
+�        2𝑦𝑦 − 𝑧𝑧 = −1 → �0 2 −1� �𝑦𝑦� = � −1 � (A·X=B) ⟹ X=A -1·B
+           𝑥𝑥 + 𝑦𝑦 = 1    1 1  0   𝑧𝑧       1
+
+     −𝟏𝟏 −𝟏𝟏        𝟑𝟑        𝟐𝟐       𝟐𝟐
+X = � 𝟏𝟏  𝟏𝟏       −𝟐𝟐 � · � −𝟏𝟏 �= � −𝟏𝟏 �
+      𝟐𝟐  𝟏𝟏       −𝟒𝟒        𝟏𝟏     − 𝟏𝟏
+
+Solución: x=2, y=-1, z=-1
+                                     Proba de Avaliación do Bacharelato                     Código: 40
+                                        para o Acceso á Universidade
+                                      Convocatoria extraordinaria 2023
+                  MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+EXERCICIO 2. Álxebra. Un barco pesqueiro dedicase a captura de xurelo e xarda. As normas sobre cotas son:
+As capturas totais non poden exceder de 30 toneladas(Tm);a cantidade de xurelo como máximo pode triplicar
+a de xarda e a cantidade de xarda non pode superar as 18 Tm.
+Se o prezo o que vende o xurelo é de 5 €/kg e o da xarda é de 6€/kg
+a) Formule e resolva o problema que determina as cantidades que debe pescar de cada especie para
+maximizar os ingresos, cumprindo as normas.
+
+x: nº de Kg de xurelo capturados ; y: nº de Kg de xarda capturados
+
+Restricións:
+
+                                                x +y ≤ 30000
+                                                 y ≤ 18000
+                                                             �
+                                                   x ≤ 3y
+                                                   x≥0
+Función a optimizar, max f(x, y)= 5x+6y
+
+
+b) Represente graficamente a rexión factible e indique os seus vértices. A canto ascenden os ingresos
+máximos?
+
+
+
+
+                          C
+
+      D
+               RF
+
+                              B
+
+     A
+Vértices:
+A: x=0     A (0,0)    B: x=3y      B (22500, 7500)          C: y=18000     C (12000, 18000)
+   Y=0                   x+y=30000                               x+y=30000
+D: x=0      D (0, 18000)
+   y=18000
+
+    f(A)=0; f(B)= 157500; f(C)=168000 (Máximo); f(D)=420000
+
+    f alcanza o seu máximo no vértice C (12000, 18000)
+    Os máximos ingresos ascenden a 168000 euros e para elo deben capturar 12000Kg de xurelo e 18000 de
+    xarda.
+
+c) Cumpriría as normas sobre cotas pesqueiras se captura 20 Tm de xurelo e 6 Tm de xarda? Explique a súa
+resposta.
+
+    x=20000
+    y=6000 verifican as dúas primeiras restricións pero non verifican a terceira ( x≤ 3y)
+
+    Non cumpriría as normas sobre cotas pesqueiras se captura 20 Tm de xurelo e 6 Tm de xarda
+                                        Proba de Avaliación do Bacharelato                          Código: 40
+                                           para o Acceso á Universidade
+                                         Convocatoria extraordinaria 2023
+                    MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+EXERCICIO 3. Análise. O número de exemplares vendidos dunha revista ( en miles de unidades) nos primeiros
+cinco meses del ano ven dado pola función
+                       8 − 𝑡𝑡(𝑡𝑡 − 2) 𝑠𝑠𝑠𝑠 0 ≤ 𝑡𝑡 ≤ 3
+             𝑁𝑁(𝑡𝑡) = �                               𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜 𝑡𝑡 é 𝑜𝑜 𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 𝑒𝑒𝑒𝑒 𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚
+                         2𝑡𝑡 − 1 𝑠𝑠𝑠𝑠 3 < 𝑡𝑡 ≤ 5
+
+a) Estude o crecemento e decrecemento do número de exemplares vendidos. Calcule en que momentos se
+produciron o máximo e o mínimo número de ventas e a canto ascenderon.
+
+       En (0, 3) N(t)= −𝑡𝑡 2 + 2𝑡𝑡 + 8 → N´ (t)= -2t+2 → N´ (t)= 0 → t =1 (punto crítico)
+En (0, 1), N´(t)>0 ⇒ N crecente
+En (1, 3), N´ (t)<0 → N decrecente
+En t0=1 máximo relativo: ( 1, 9 ) (N(1)=9)
+
+        En (3, 5) N´ (t)= 2 → N´ (t)= 0 non ten solución
+En (3, 5), N´(t)>0 ⇒ N crecente
+
+    N(0)=8, N(3)=5, N(3+)=5, N(5)= 9
+    O número de exemplares vendidos crece desde o momento inicial ata transcorrido 1 mes e desde
+    transcorridos 3 meses ata transcorridos 5 meses
+    O máximo número de ventas prodúcese transcorrido 1 mes e tamén transcorridos 5 meses e ascende a
+    9000 exemplares
+    O número mínimo de ventas prodúcese transcorridos 3 meses e é de 5 000 exemplares
+
+
+b) Represente graficamente a función N(t). Calcule a area da rexión delimitada pola gráfica da función N(t), o
+eixe de abscisas e as rectas t=0 e t=5.
+
+
+
+
+           3                               5
+Area =| ∫0 ( − 𝑡𝑡 2 + 2𝑡𝑡 + 8)𝑑𝑑𝑑𝑑| + | ∫3 ( 2𝑡𝑡 − 1)𝑑𝑑𝑑𝑑|
+
+ −𝑡𝑡 3
+| 3 + 𝑡𝑡 2 + 8𝑡𝑡|30 + |𝑡𝑡 2 − 𝑡𝑡|53 =24+14 = 38 u2
+                                       Proba de Avaliación do Bacharelato                     Código: 40
+                                          para o Acceso á Universidade
+                                        Convocatoria extraordinaria 2023
+                   MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+                                               x   a
+EXERCICIO 4. Análise. Dada a función 𝑓𝑓(x) = +         , x≠0, a≠0
+                                               a   x
+
+a) Calcule os valores do parámetro "𝐚𝐚" para que 𝐟𝐟(𝐱𝐱) teña un punto crítico en x0 =3.
+
+x0 =3, punto crítico ⇒ f´(3)=0
+
+f´(x) =1/a - a/x2 → f´(3) =1/a - a/9 = 0 ⇒ a2 =9 ⇒ a= ± 3
+Os valores do parámetro "𝐚𝐚" para os que f(x) ten un punto crítico en x0 =3 son a=3 e a= -3
+
+b) Para a=3, estude o crecemento e decrecemento da función e os seus máximos e mínimos, se existen. Estude
+tamén os seus intervalos de concavidade e convexidade e os seus puntos de inflexión, se existen.
+
+f(x)=x/3+3/x, x≠0
+f´(x) =1/3 - 3/x2 → f´(x) =0 ⇒ x= ± 3 puntos críticos
+
+En (-∞, -3), f´(x)>0 ⇒ f crecente
+En (-3, 0), f´(x)<0 ⇒ f decrecente
+En (0, 3), f´(x)<0 ⇒ f decrecente
+En (3,+∞), f´(x)>0 ⇒ f crecente
+
+
+x0=-3 máximo relativo: ( -3, -2 ) (f(-3)=-2)
+x0=3 mínimo relativo: ( 3, 2 )
+
+f´´(x) =6/x3 → f´´(x) =0 non ten solución
+
+En (-∞, 0), f´´(x)<0 ⇒ f cóncava
+En (0,+∞), f´´(x)>0 ⇒ f convexa
+
+Non existen puntos de inflexión
+                                    Proba de Avaliación do Bacharelato                     Código: 40
+                                       para o Acceso á Universidade
+                                     Convocatoria extraordinaria 2023
+                 MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+EXERCICIO 5. Estatística e Probabilidade.
+Nunha furna A hai 8 bolas verdes e 6 vermellas e noutra furna B hai 4 verdes e 5 vermellas. Lánzase un dado e
+se sae un número menor que 3 sácase unha bola da furna A e se sae un número maior ou igual a 3 sácase a bola
+da furna B. Extraese unha bola o chou,
+
+a) Calcule a probabilidade de que a bola extraída sexa vermella
+Sucesos: A= sacar unha bola da furna A
+B= sacar unha bola da furna B
+V= bola verde
+R= bola vermella
+P(A)=P(menos de 3 no lanzamento do dado)=2/6
+P(B)=P(3 ou mais no lanzamento do dado)=4/6
+
+P(bola vermella)= P(R)= P(R│A). P(A) + P(R│B). P(B) =(6/14)·(2/6)+(5/9)·(4/6)=97/189
+
+
+b) Sabendo que se extraeu unha bola verde, cal é a probabilidade de que saíra da furna A?
+
+           P(V│A).P(A)        P(V│A).P(A)                 (8/14)·(2/6)
+P(A│V) =
+              𝑃𝑃(𝑉𝑉)
+                      =                           = (8/14)·(2/6)+(4/9)·(4/6)
+                                                                             =9/23
+                        P(V│A).P(A) + P(V│B).P(B)
+
+c) Son independentes os sucesos “extraer bola vermella” e “a bola procede da furna A “ ?
+
+Os sucesos R e A son independentes se P(R ∩ A)= P(R)·P(A) ou se P(R|A)=P(R) ou se P(A|R)=P(A),…..
+
+Como P(R ∩ A)= P(R│A).P(A)=(6/14)·(2/6)=1/7
+P(A)=2/6=1/3
+P(R)=97/189
+P(R).P (A)=(1/3)·(97/189) ≠1/7= P(R ∩ A)
+
+Os sucesos “extraer bola vermella” e “a bola procede da furna A “ non son sucesos independentes
+
+
+(Tamén podemos resolver o exercicio a través de unha táboa ou un diagrama de árbore)
+                                             Proba de Avaliación do Bacharelato           Código: 40
+                                                para o Acceso á Universidade
+                                              Convocatoria extraordinaria 2023
+                     MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II
+EXERCICIO 6. Estatística e Probabilidade.
+
+O salario(en €) dos traballadores dunha empresa distribúese normalmente con desviación típica
+σ=300€.Preguntouse a 36 traballadores elixidos ó chou, e estableceuse que o salario medio dos traballadores
+da empresa oscila entre 1552€ e 1748€.
+
+a) Cal foi o salario medio dos traballadores da mostra?
+X= salario dos traballadores
+σ=300, n=36
+                                              𝜎𝜎               𝜎𝜎
+I.C para µ = salario medio: (𝜇𝜇̂ ± 𝑧𝑧𝛼𝛼/2 ⋅ 𝑛𝑛)= (x� ± 𝑧𝑧𝛼𝛼/2 ⋅ 𝑛𝑛)1−𝛼𝛼
+                                              √                √
+
+           𝜎𝜎                           𝜎𝜎                          1552+1748
+�x� − 𝑧𝑧𝛼𝛼 ⋅ 𝑛𝑛� = 1552 e �x� + 𝑧𝑧𝛼𝛼 ⋅ 𝑛𝑛� = 1748 ⟹ �
+                                                    x=                          =1650 €
+       2   √                        2   √                                 2
+O salario medio dos traballadores da mostra foi de 1650 €
+Con que nivel de confianza se estableceu o intervalo anterior?
+
+           σ                            300
+e = zα/2        → 1748-1552=zα/2
+           √n                           √36
+
+                                    𝛼𝛼
+98= z α ·50 → z α =1,96 → 1 –          = 0,975 →1- α =0,95
+       2             2              2
+
+
+
+O nivel de confianza co que se estableceu o intervalo e do 95%
+
+b) Se o salario medio dos traballadores da empresa é µ=1650€, cal é a probabilidade de que o salario medio
+de mostras de 36 traballadores sexa superior a 1590€?
+                  300
+𝑋𝑋� →N(µ=1650, σ= )=N(1650,50)
+                     √36
+
+                     1590−1650
+   � >1590)= P( Z>
+P( 𝑿𝑿                              ) = P(Z>-1,2) = P(Z<1,2) = 0,8849
+                           50
+
+A probabilidade de que o salario medio de mostras de 36 traballadores sexa superior a 1590€ é 0,8849
+

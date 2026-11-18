@@ -1,0 +1,799 @@
+                                                 ABAU                                                   CÓDIGO 40
+                                       Convocatoria ordinaria 2024
+                                   MATEMÁTICAS APLICADAS ÁS CIENCIAS
+                                               SOCIAIS II
+O exame consta de 6 exercicios, todos coa mesma valoración máxima (3,33 puntos), dos que pode realizar un MÁXIMO
+DE 3 combinados como queira. Se realiza máis exercicios dos permitidos, só se corrixirán os tres primeiros realizados.
+
+EXERCICIO 1. Álxebra. Considere a ecuación matricial 𝑋𝑋 ∙ 𝐴𝐴 + 𝐵𝐵 = 𝐴𝐴 ∙ 𝐵𝐵𝑡𝑡 , onde 𝐵𝐵𝑡𝑡 denota a matriz trasposta
+de 𝐵𝐵, sendo 𝐴𝐴 e 𝐵𝐵 as matrices seguintes:
+                                     0 1 1                               1 1 −1
+                              𝐴𝐴 = �−1 1 2 �                      𝐵𝐵 = �1 −1 1 �
+                                     1 0 −2                              0 −1 1
+a) Calcule, se é posible, a inversa da matriz 𝐴𝐴 e o rango da matriz 𝐵𝐵.
+b) Despexe a matriz 𝑋𝑋 na ecuación matricial e, a continuación, calcule o seu valor.
+
+EXERCICIO 2. Álxebra. Considere o sistema de inecuacións dado por:
+            𝑥𝑥 + 2𝑦𝑦 ≤ 40               𝑥𝑥 + 𝑦𝑦 ≥ 5                3𝑥𝑥 + 𝑦𝑦 ≤ 45               𝑥𝑥 ≥ 0
+a) Represente graficamente a rexión factible determinada polo sistema de inecuacións anterior e calcule os seus
+vértices.
+b) Calcule o punto ou puntos desa rexión onde a función 𝑓𝑓(𝑥𝑥, 𝑦𝑦) = 2𝑥𝑥 − 3𝑦𝑦 alcanza o seu valor máximo e o seu
+valor mínimo.
+
+EXERCICIO 3. Análise. O número de vehículos vendidos por un concesionario ao longo do último ano estímase
+que vén dado pola función
+                                               28 − (𝑡𝑡 − 4)2 ,    0 ≤ 𝑡𝑡 < 6
+                                    𝑁𝑁(𝑡𝑡) = �
+                                               (𝑡𝑡 − 10)2 + 8 ,    6 ≤ 𝑡𝑡 ≤ 12
+onde 𝑡𝑡 é o tempo transcorrido en meses.
+a) Determine os períodos de crecemento e decrecemento do número de vehículos vendidos. Cal foi o maior
+número de vehículos vendidos? E o menor? En que momentos se produciron? Xustifique as súas respostas.
+b) Coa información do apartado anterior, represente a gráfica da función.
+c) Houbo algún período do ano no que o número de vehículos vendidos fora inferior a 12 unidades? Xustifique
+a súa resposta.
+
+EXERCICIO 4. Análise. Considérese a seguinte función:
+
+                                           𝑓𝑓(𝑥𝑥) = 𝑎𝑎𝑥𝑥 3 − 2𝑥𝑥 2 + 𝑏𝑏𝑏𝑏 + 𝑐𝑐
+onde 𝑎𝑎, 𝑏𝑏, 𝑐𝑐 son números reais.
+a) Calcular 𝑎𝑎, 𝑏𝑏, 𝑐𝑐 sabendo que a función 𝑓𝑓(𝑥𝑥) pasa por (2,8) e que ten un extremo relativo en (0,16).
+b) Para 𝑎𝑎 = 𝑏𝑏 = 0 e 𝑐𝑐 = 16, calcule a área da rexión limitada pola función 𝑓𝑓(𝑥𝑥) e a recta 𝑦𝑦 = 8.
+
+EXERCICIO 5. Estatística e Probabilidade. Estímase que nunha poboación o 20% padece obesidade e que o
+11% padece obesidade e son hipertensos. Ademais, o 27,5% dos hipertensos padecen obesidade.
+a) Que porcentaxe da poboación padece obesidade ou é hipertenso?
+b) Son independentes os sucesos “padecer obesidade” e “ser hipertensos”?
+c) Calcule a probabilidade de que un individuo que non padece obesidade sexa hipertenso.
+
+EXERCICIO 6. Estatística e Probabilidade. Pode supoñerse que o tempo de formación, en horas, que
+precisa un empregado dunha empresa para poder traballar nunha nova planta segue unha distribución
+normal con desviación típica igual a 15.
+a) Se nunha mostra de 25 empregados, o tempo medio precisado foi de 97 horas, calcule un intervalo de
+confianza cun 95% de confianza para a media do tempo de formación precisado.
+b) Se a media do tempo de formación precisado é µ=97 horas, cal é a probabilidade de que o tempo medio
+precisado de mostras de 36 traballadores se atope entre 90 e 104 horas?
+                                                 ABAU                                                    CÓDIGO 40
+                                       Convocatoria ordinaria 2024
+                                   MATEMÁTICAS APLICADAS ÁS CIENCIAS
+                                               SOCIAIS II
+El examen consta de 6 ejercicios, todos con la misma valoración máxima (3,33 puntos), de los que puede realizar un
+MÁXIMO DE 3 combinados como quiera. Si realiza más ejercicios de los permitidos, sólo se corregirán los tres primeros
+realizados.
+
+EJERCICIO 1. Álgebra. Considere la ecuación matricial 𝑋𝑋 ∙ 𝐴𝐴 + 𝐵𝐵 = 𝐴𝐴 ∙ 𝐵𝐵𝑡𝑡 , en donde 𝐵𝐵𝑡𝑡 denota la matriz
+traspuesta de 𝐵𝐵, siendo 𝐴𝐴 y 𝐵𝐵 las matrices siguientes:
+                                      0 1 1                                 1 1 −1
+                               𝐴𝐴 = �−1 1 2 �                         𝐵𝐵 = �1 −1 1 �
+                                      1 0 −2                                0 −1 1
+a) Calcule, si es posible, la inversa de la matriz 𝐴𝐴 y el rango de la matriz 𝐵𝐵.
+b) Despeje la matriz 𝑋𝑋 en la ecuación matricial y, a continuación, calcule su valor.
+
+EJERCICIO 2. Álgebra. Considere el sistema de inecuaciones dado por:
+            𝑥𝑥 + 2𝑦𝑦 ≤ 40               𝑥𝑥 + 𝑦𝑦 ≥ 5               3𝑥𝑥 + 𝑦𝑦 ≤ 45                 𝑥𝑥 ≥ 0
+a) Represente gráficamente la región factible determinada por el sistema de inecuaciones anterior y calcule sus
+vértices.
+b) Calcule el punto o puntos de esa región donde la función 𝑓𝑓(𝑥𝑥, 𝑦𝑦) = 2𝑥𝑥 − 3𝑦𝑦 alcanza su valor máximo y su
+valor mínimo.
+
+EJERCICIO 3. Análisis. El número de vehículos vendidos por un concesionario a lo largo del último año se estima
+que viene dado por la función
+                                                28 − (𝑡𝑡 − 4)2 ,    0 ≤ 𝑡𝑡 < 6
+                                     𝑁𝑁(𝑡𝑡) = �
+                                                (𝑡𝑡 − 10)2 + 8 ,    6 ≤ 𝑡𝑡 ≤ 12
+en donde 𝑡𝑡 es el tiempo transcurrido en meses.
+a) Determine los períodos de crecimiento y decrecimiento del número de vehículos vendidos. ¿Cuál ha sido el
+mayor número de vehículos vendidos? ¿Y el menor? ¿En qué momentos se han producido? Justifique sus
+respuestas.
+b) Con la información del apartado anterior, represente la gráfica de la función.
+c) ¿Hubo algún período del año en el que el número de vehículos vendidos haya sido inferior a 12 unidades?
+Justifique su respuesta.
+
+EJERCICIO 4. Análisis. Considérese la siguiente función:
+                                              𝑓𝑓(𝑥𝑥) = 𝑎𝑎𝑥𝑥 3 − 2𝑥𝑥 2 + 𝑏𝑏𝑏𝑏 + 𝑐𝑐
+donde 𝑎𝑎, 𝑏𝑏, 𝑐𝑐 son números reales.
+a) Calcular 𝑎𝑎, 𝑏𝑏, 𝑐𝑐 sabiendo que la función 𝑓𝑓(𝑥𝑥) pasa por (2,8) y que tiene un extremo relativo en (0,16).
+b) Para 𝑎𝑎 = 𝑏𝑏 = 0 y 𝑐𝑐 = 16, calcule el área de la región limitada por la función 𝑓𝑓(𝑥𝑥) y la recta 𝑦𝑦 = 8.
+
+EJERCICIO 5. Estadística y Probabilidad. Se estima que en una población el 20% padece obesidad y que el 11%
+padece obesidad y son hipertensos. Además, el 27,5% de los hipertensos padecen obesidad.
+a) ¿Qué porcentaje de la población padece obesidad o es hipertenso?
+b) ¿Son independientes los sucesos “padecer obesidad” y “ser hipertensos”?
+c) Calcule la probabilidad de que un individuo que no padece obesidad sea hipertenso.
+
+EJERCICIO 6. Estadística y Probabilidad. Puede suponerse que el tiempo de formación, en horas, que
+necesita un empleado de una empresa para poder trabajar en una nueva planta sigue una distribución
+normal con desviación típica igual a 15.
+a) Si en una muestra de 25 empleados, el tiempo medio necesario fue de 97 horas, calcule un intervalo de
+confianza con un 95% de confianza para la media del tiempo de formación precisado.
+b) Si la media del tiempo de formación precisado es µ=97 horas, ¿cuál es la probabilidad de que el tiempo
+medio precisado de muestras de 36 trabajadores se encuentre entre 90 y 104 horas?
+                                            ABAU 2024
+                                      CONVOCATORIA ORDINARIA
+
+                              CRITERIOS DE AVALIACIÓN
+                     MATEMÁTICAS APLICADAS ÁS CC SOCIAIS II
+                                             (Cód. 40)
+
+Só puntúan tres das seis preguntas.
+    1. Álxebra
+
+       a) 1.5 puntos
+
+       b) 1.83 puntos
+
+    2. Álxebra
+
+       a) 2.5 puntos
+
+       b) 0.83 puntos
+
+    3. Análise
+
+       a) 2 puntos
+
+       b) 0.5 puntos
+
+       c) 0.83 puntos
+
+    4. Análise
+
+       a) 𝟏. 𝟖𝟑 puntos
+
+       b) 𝟏. 𝟓 puntos
+
+    5. Estatística e Probabilidade
+
+       a) 𝟏. 𝟑𝟑 puntos
+
+       b) 𝟏 punto
+
+       c) 1 punto
+
+    6. Estatística e Probabilidade
+
+       a) 𝟏. 𝟖𝟑 puntos
+
+       b) 𝟏. 𝟓 puntos
+                                                ABAU                                              CÓDIGO 40
+                                   Convocatoria extraordinaria 2024
+                                MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS
+
+O exame consta de 6 exercicios, todos coa mesma valoración máxima (3,33 puntos), dos que pode
+realizar un MÁXIMO DE 3 combinados como queira. Se realiza máis exercicios dos permitidos, só se
+corrixirán os tres primeiros realizados.
+
+EXERCICIO 1. Álxebra. Dada a matriz
+                                                    1 2 −1
+                                              𝐴𝐴 = �2 1 −4�
+                                                    3 3 𝑘𝑘
+a) Calcule para que valor de k non existe a matriz inversa de A.
+b) Xustifique cal e o rango de A se k = – 5. c) Calcule a matriz 𝐴𝐴−1 (inversa de A) para k=-2.
+
+EXERCICIO 2. Álxebra. Unha fábrica téxtil compra tea a dous distribuidores, A e B. Os distribuidores A e B
+venden a tea a 2 e 3 euros por metro, respectivamente. Cada distribuidor véndelle un mínimo de 200
+metros e un máximo de 700 e para satisfacer a súa demanda, a fábrica debe comprar en total como mínimo
+600 metros. A fábrica quere comprar ao distribuidor A, como máximo, o dobre de metros que ao
+distribuidor B.
+a) Formule o problema que permite encontrar os metros que se deben comprar a cada un dos
+distribuidores para obter o mínimo custo.
+b) Represente graficamente a rexión factible e calcule os seus vértices.
+c) Calcule os metros que se deben comprar a cada un dos distribuidores para obter o mínimo custo e
+determine o devandito custo mínimo.
+
+EXERCICIO 3. Análise. A función f(x)= a x2 + b x + c, onde a, b, c son números reais pasa pola orixe de
+coordenadas e ten un máximo no punto P(4, 16).
+a) Calcule os valores de a, b, c.
+b) Realice a representación gráfica da función f(x) e determine a área comprendida entre a dita función e
+o eixe OX.
+
+EXERCICIO 4. Análise. Unha fábrica produce un artigo de pesca deportiva e vende cada unidade a un prezo
+𝑃𝑃(𝑥𝑥) (en euros) que depende do número total de unidades producidas 𝑥𝑥:
+                                            𝑥𝑥 2
+                                  𝑃𝑃(𝑥𝑥) = − + 𝑥𝑥 + 55,      0 ≤ 𝑥𝑥 ≤ 30 .
+                                            20
+Sábese que a produción de 𝑥𝑥 unidades supón un custo fixo de 80 euros máis un custo variable de 11,25
+euros por unidade.
+a) Calcule as expresións das funcións de custo, ingreso e beneficio.
+b) Como debe planificarse a produción para que o beneficio sexa máximo? A canto ascende o dito
+beneficio? Cal sería o prezo de venda por unidade nese caso?
+
+EXERCICIO 5. Estatística e Probabilidade. Nunha enquisa o 80% dos entrevistados di que le ou escoita
+música, o 35% fai as dúas cousas e o 60% non le.
+Calcule as probabilidades de que unha persoa elixida ao azar:
+a) Escoite música e non lea.
+b) Lea e non escoite música.
+c) Faga soamente unha das dúas cousas.
+d) Son independentes os sucesos “escoitar música” e “ler”? Xustifique a resposta.
+
+EXERCICIO 6. Estatística e Probabilidade. A lonxitude (en centímetros) dos listóns de madeira que se
+producen nunha industria distribúese normalmente cunha desviación típica de 𝜎𝜎 = 6 centímetros.
+a) Calcule un intervalo do 98% de confianza para a lonxitude media dos listóns tendo en conta que nun
+lote de 9 listóns se observou unha lonxitude media de 244 centímetros.
+b) Se a lonxitude media dos listóns producidos é de 𝜇𝜇 = 244 centímetros, cal é a probabilidade de que a
+lonxitude media dos listóns dun lote de 𝑛𝑛 = 16 listóns sexa inferior a 242 centímetros?
+                                                 ABAU                                                 CÓDIGO 40
+                                    Convocatoria extraordinaria 2024
+                                 MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS
+
+El examen consta de 6 ejercicios, todos con la misma valoración máxima (3,33 puntos), de los que
+puede realizar un MÁXIMO DE 3 combinados como quiera. Si realiza más ejercicios de los permitidos,
+sólo se corregirán los tres primeros realizados.
+
+EJERCICIO 1. Álgebra. Dada la matriz
+                                                      1 2 −1
+                                                𝐴𝐴 = �2 1 −4�
+                                                      3 3 𝑘𝑘
+a) Calcule para que valor de k no existe la matriz inversa de A.
+b) Justifique cual es el rango de A si k = – 5. c) Calcule la matriz 𝐴𝐴−1 (inversa de A) para k=-2.
+
+EJERCICIO 2. Álgebra. Una fábrica textil compra tela a dos distribuidores, A y B. Los distribuidores A y B
+venden la tela a 2 y 3 euros por metro, respectivamente. Cada distribuidor le vende un mínimo de 200
+metros y un máximo de 700 y para satisfacer su demanda, la fábrica debe comprar en total como mínimo
+600 metros. La fábrica quiere comprar al distribuidor A, como máximo, el doble de metros que al
+distribuidor B.
+a) Plantee el problema que permite encontrar los metros que debe comprar a cada uno de los
+distribuidores para obtener el mínimo coste.
+b) Represente gráficamente la región factible y calcule sus vértices.
+c) Calcule los metros que se deben comprar a cada distribuidor para obtener el mínimo coste y determine
+dicho coste mínimo.
+
+EJERCICIO 3. Análisis. La función f(x)= a x2 + b x + c, en donde a, b, c son números reales, pasa por el origen
+de coordenadas y tiene un máximo en el punto P (4, 16).
+a) Calcule los valores de a, b, c.
+b) Realice la representación gráfica de la función f(x) y determine el área comprendida entre dicha función
+y el eje OX.
+
+EJERCICIO 4. Análisis. Una fábrica produce un artículo de pesca deportiva y vende cada unidad a un precio
+𝑃𝑃(𝑥𝑥) (en euros) que depende del número total de unidades producidas 𝑥𝑥:
+                                             𝑥𝑥 2
+                                   𝑃𝑃(𝑥𝑥) = − + 𝑥𝑥 + 55,     0 ≤ 𝑥𝑥 ≤ 30 .
+                                             20
+Se sabe que la producción de 𝑥𝑥 unidades supone un coste fijo de 80 euros más un coste variable de 11,25
+euros por unidad.
+a) Calcule las expresiones de las funciones de coste, ingreso y beneficio.
+b) ¿Cómo debe planificarse la producción para que el beneficio sea máximo? ¿A cuánto asciende dicho
+beneficio? ¿Cuál sería el precio de venta por unidad en ese caso?
+
+EJERCICIO 5. Estadística y Probabilidad. En una encuesta el 80% de los entrevistados dice que lee o
+escucha música, el 35% hace las dos cosas y el 60% no lee.
+Calcule las probabilidades de que una persona elegida al azar:
+a) Escuche música y no lea.
+b) Lea y no escuche música.
+c) Haga solamente una de las dos cosas.
+d) ¿Son independientes los sucesos “escuchar música” y “leer”? Justifique la respuesta.
+
+EJERCICIO 6. Estadística y Probabilidad. La longitud (en centímetros) de los listones de madera que se
+producen en una industria se distribuye normalmente con una desviación típica de 𝜎𝜎 = 6 centímetros.
+a) Calcule un intervalo del 98% de confianza para la longitud media de los listones teniendo en cuenta que
+en un lote de 9 listones se ha observado una longitud media de 244 centímetros.
+b) Si la longitud media de los listones producidos es de 𝜇𝜇 = 244 centímetros, ¿cuál es la probabilidad de
+que la longitud media de los listones de un lote de 𝑛𝑛 = 16 listones sea inferior a 242 centímetros?
+                                            ABAU 2024
+                                CONVOCATORIA EXTRAORDINARIA
+
+                              CRITERIOS DE AVALIACIÓN
+                     MATEMÁTICAS APLICADAS ÁS CC SOCIAIS II
+                                             (Cód. 40)
+
+Só puntúan tres das seis preguntas.
+    1. Álxebra
+
+       a) 1,33 puntos
+
+       b) 0,5 puntos
+
+       c) 1,5 puntos
+
+    2. Álxebra
+
+       a) 1 punto
+
+       b) 1,5 puntos
+
+       c) 0,83 puntos
+
+    3. Análise
+
+       a) 1,5 puntos
+
+       b) 1,83 puntos
+
+    4. Análise
+
+       a) 𝟏, 𝟑𝟑 puntos
+
+       b) 𝟐 puntos
+
+    5. Estatística e Probabilidade
+
+       a) 𝟏, 𝟑𝟑 puntos   b) 𝟎, 𝟓 puntos   c) 𝟎, 𝟕𝟓 puntos   d) 𝟎, 𝟕𝟓 puntos
+
+    6. Estatística e Probabilidade
+
+       a) 𝟏, 𝟖𝟑 puntos
+
+       b) 𝟏, 𝟓 puntos
+                                                  ABAU 2024                                 CÓDIGO 40
+                                           MATEMÁTICAS APLICADAS ÁS
+                                              CIENCIAS SOCIAIS II
+                                             Convocatoria ordinaria
+
+1. 𝑋𝑋 ∙ 𝐴𝐴 + 𝐵𝐵 = 𝐴𝐴 ∙ 𝐵𝐵 𝑡𝑡 .
+
+      0 1 1                            1    1 −1
+𝐴𝐴 = �−1 1 2 �                   𝐵𝐵 = �1    −1 1 �           .
+      1 0 −2                           0    −1 1
+
+
+a) Calcule 𝐴𝐴−1 y rango B
+
+                                                 −2 0 −1                             −2 2  1
+                                            ∗                                  ∗ 𝑡𝑡
+                  det 𝐴𝐴 = −1              𝐴𝐴 = � 2 −1 1 �                  (𝐴𝐴 ) = � 0 −1 −1�
+                                                  1 −1 1                             −1 1  1
+
+
+                                                    1             2       −2 −1
+                                           −1               ∗ 𝑡𝑡
+                                      𝐴𝐴        =        (𝐴𝐴 ) = �0       1  1�
+                                                  det 𝐴𝐴
+                                                                  1       −1 −1
+
+                                             1 1
+det 𝐵𝐵 = 0 ⇒ 𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 𝐵𝐵 ≠ 3         Como �    � = −2 ≠ 0 ⇒ 𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 𝐵𝐵 = 2
+                                             1 −1
+
+
+
+b) 𝑋𝑋 ∙ 𝐴𝐴 + 𝐵𝐵 = 𝐴𝐴 ∙ 𝐵𝐵 𝑡𝑡 ⇒ 𝑋𝑋 ∙ 𝐴𝐴 = 𝐴𝐴 ∙ 𝐵𝐵 𝑡𝑡 − 𝐵𝐵 ⇒ 𝑋𝑋 = (𝐴𝐴𝐵𝐵 𝑡𝑡 − 𝐵𝐵)𝐴𝐴−1
+
+
+        0 1             1       1 1  0       0 0   0
+    𝑡𝑡
+𝐴𝐴𝐵𝐵 = �−1 1            2 � ∙ � 1 −1 −1� = �−2 0   1�
+        1 0             −2     −1 1  1       3 −1 −2
+
+                 0       0  0      1 1 −1      −1                       −1 1
+𝐴𝐴𝐵𝐵 𝑡𝑡 − 𝐵𝐵 = �−2       0  1 � − �1 −1 1 � = �−3                       1  0 �.
+                 3       −1 −2     0 −1 1       3                       0 −3
+
+                           −1 −1 1      2 −2                     −1     −1 0 −1
+     (𝐴𝐴𝐵𝐵 𝑡𝑡 − 𝐵𝐵)𝐴𝐴−1 = �−3 1  0 � ∙ �0 1                      1 � = �−6 7 4�
+                           3  0 −3      1 −1                     −1     3 −3 0
+
+     Polo tanto, a matriz 𝑿𝑿 pedida é a seguinte:
+
+                                                          −𝟏𝟏 𝟎𝟎        −𝟏𝟏
+                                                    𝑿𝑿 = �−𝟔𝟔 𝟕𝟕        𝟒𝟒 �.
+                                                          𝟑𝟑 −𝟑𝟑        𝟎𝟎
+                                              ABAU 2024                                            CÓDIGO 40
+                                       MATEMÁTICAS APLICADAS ÁS
+                                          CIENCIAS SOCIAIS II
+                                         Convocatoria ordinaria
+2.
+
+a) Restricións: 𝑥𝑥 + 2𝑦𝑦 ≤ 40         𝑥𝑥 + 𝑦𝑦 ≥ 5            3𝑥𝑥 + 𝑦𝑦 ≤ 45          𝑥𝑥 ≥ 0
+
+
+
+
+A rexión factible determinada polas restricións ten coma vértices A, B, C e D
+
+                                      𝑥𝑥 = 0                               𝑥𝑥 = 0
+                             𝐴𝐴:              � 𝐴𝐴(0,5)          𝐵𝐵:                 � 𝐵𝐵(0,20)
+                                   𝑥𝑥 + 𝑦𝑦 = 5                         𝑥𝑥 + 2𝑦𝑦 = 40
+
+
+                           3𝑥𝑥 + 𝑦𝑦 = 45                              𝑥𝑥 + 𝑦𝑦 = 5
+                     𝐶𝐶:                 � 𝐶𝐶(10,15)           𝐷𝐷:                 � 𝐷𝐷(20, −15)
+                           𝑥𝑥 + 2𝑦𝑦 = 40                             3𝑥𝑥 + 𝑦𝑦 = 45
+
+
+b)
+                                    𝑓𝑓(𝑥𝑥, 𝑦𝑦) = 2𝑥𝑥 − 3𝑦𝑦
+
+𝑓𝑓(𝐴𝐴) = −15
+𝑓𝑓(𝐵𝐵) = −60     → 𝑀𝑀í𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛
+𝑓𝑓(𝐶𝐶) = −25
+𝑓𝑓(𝐷𝐷) = 85      → 𝑀𝑀á𝑥𝑥𝑥𝑥𝑥𝑥𝑥𝑥
+
+f acada o seu máximo no vértice D(20,-15)
+f acada o seu mínimo no vértice B(0,20)
+                                           ABAU 2024                                            CÓDIGO 40
+                                    MATEMÁTICAS APLICADAS ÁS
+                                       CIENCIAS SOCIAIS II
+                                      Convocatoria ordinaria
+3.
+Temos a seguinte función
+                                                28 − (𝑡𝑡 − 4)2 ,      0 ≤ 𝑡𝑡 < 6
+                                   𝑁𝑁(𝑡𝑡) = �
+                                                (𝑡𝑡 − 10)2 + 8 ,      6 ≤ 𝑡𝑡 ≤ 12
+
+a)
+Determinación dos períodos de crecemento e decrecemento.
+En (0,6), 𝑁𝑁(𝑡𝑡) = 28 − (𝑡𝑡 − 4)2 polo tanto 𝑁𝑁´(𝑡𝑡) = −2(𝑡𝑡 − 4) co que 𝑁𝑁´(𝑡𝑡) = 0 se 𝑡𝑡 = 4 co que 𝑡𝑡 = 4 sería
+un punto crítico.
+Coma en (0,4) 𝑁𝑁´(𝑡𝑡) > 0 ⇒ 𝑁𝑁 é crecente.
+Coma en (4,6) 𝑁𝑁´(𝑡𝑡) < 0 ⇒ 𝑁𝑁 é decrecente. A función tería un máximo relativo en 𝑡𝑡 = 4, 𝑁𝑁(4) = 28.
+
+En (6,12), 𝑁𝑁(𝑡𝑡) = (𝑡𝑡 − 10)2 + 8 polo tanto 𝑁𝑁´(𝑡𝑡) = 2(𝑡𝑡 − 10) co que 𝑁𝑁´(𝑡𝑡) = 0 se 𝑡𝑡 = 10 co que 𝑡𝑡 = 10
+sería un punto crítico.
+Coma en (6,10) 𝑁𝑁´(𝑡𝑡) < 0 ⇒ 𝑁𝑁 é decrecente.
+Coma en (10,12) 𝑁𝑁´(𝑡𝑡) > 0 ⇒ 𝑁𝑁 é crecente. A función tería un mínimo relativo en 𝑡𝑡 = 10, 𝑁𝑁(10) = 8.
+O número de vehículos vendidos crece dende o inicio do ano ata transcorridos 4 meses (𝑡𝑡 = 4), logo decrece
+ata transcorridos 10 meses (𝑡𝑡 = 10) e finalmente crece dende transcorridos 10 meses ata finalizar o ano. O
+maior número de vehículos vendidos foi 28 (transcorridos 4 meses). O menor número de vehículos vendidos foi
+8 (transcorridos 10 meses).
+
+b) Coa información anterior e tendo en conta que 𝑁𝑁(0) = 12 e 𝑁𝑁(12) = 12
+
+
+
+
+c) Para que 𝑁𝑁(𝑡𝑡) < 12
+En (0,6), 𝑁𝑁(𝑡𝑡) = 28 − (𝑡𝑡 − 4)2 < 12 ⇒ 16 < (𝑡𝑡 − 4)2 ⇒ �𝑡𝑡 < 0 ⇒ 𝑁𝑁(𝑡𝑡) > 12 en (0,6)
+                                                                   𝑡𝑡 > 8
+
+En (6,12), 𝑁𝑁(𝑡𝑡) = (𝑡𝑡 − 10)2 + 8 < 12 ⇒ (𝑡𝑡 − 10)2 < 4 ⇒ � 𝑡𝑡 > 8 ⇒ 𝑁𝑁(𝑡𝑡) < 12 si 8 < 𝑡𝑡 < 12
+                                                                    𝑡𝑡 < 12
+
+O número de vehículos vendido foi inferior a 8 unidades no período que vai dende transcorridos 8
+meses ata rematar o ano.
+                                            ABAU 2024                                       CÓDIGO 40
+                                     MATEMÁTICAS APLICADAS ÁS
+                                        CIENCIAS SOCIAIS II
+                                       Convocatoria ordinaria
+
+4.
+Dada a función
+                                          𝑓𝑓(𝑥𝑥) = 𝑎𝑎𝑥𝑥 3 − 2𝑥𝑥 2 + 𝑏𝑏𝑏𝑏 + 𝑐𝑐
+onde 𝑎𝑎, 𝑏𝑏, 𝑐𝑐 son números reais.
+a)
+
+Sabendo que 𝑓𝑓(𝑥𝑥) pasa por (2,8) e que ten un extremo relativo en (0,16), temos entón que 𝑓𝑓(2) = 8, 𝑓𝑓(0) =
+16 e 𝑓𝑓´(0) = 0
+
+Coma 𝑓𝑓´(𝑥𝑥) = 3𝑎𝑎𝑥𝑥 2 − 4𝑥𝑥 + 𝑏𝑏 ⇒ 𝑓𝑓´(0) = 0 ⇒ 𝑏𝑏 = 0.
+𝑓𝑓(0) = 16 ⇒ 𝑐𝑐 = 16 .
+𝑓𝑓(2) = 8𝑎𝑎 − 8 + 16 = 8 ⇒ 8𝑎𝑎 + 8 = 8 ⇒ 𝑎𝑎 = 0.
+
+Temos entón que 𝑎𝑎 = 𝑏𝑏 = 0 e 𝑐𝑐 = 16.
+
+b)
+
+                                                                            𝑥𝑥 = 2
+𝑓𝑓(𝑥𝑥) = −2𝑥𝑥 2 + 16 e      𝑦𝑦 = 8 ⇒ −2𝑥𝑥 2 + 16 = 8 ⇒ 2𝑥𝑥 2 = 8 ⇒ �
+                                                                           𝑥𝑥 = −2
+
+
+
+
+b)
+Entón a área da rexión limitada pola función e a recta é igual a:
+
+     2                       2
+         2
+                                                  2            2     16        16        64 2
+�  (−2𝑥𝑥   + 16 − 8)𝑑𝑑𝑑𝑑 = � (−2𝑥𝑥 2 + 8)𝑑𝑑𝑑𝑑 = �− 𝑥𝑥 3 + 8𝑥𝑥]    =−    + 16 −    + 16 =    𝑢𝑢
+ −2                         −2                    3            −2     3         3         3
+                                           ABAU 2024                                     CÓDIGO 40
+                                    MATEMÁTICAS APLICADAS ÁS
+                                       CIENCIAS SOCIAIS II
+                                      Convocatoria ordinaria
+5.
+
+Se denotamos por O=”Obesidade” e H=”Hipertensión”, temos que 𝑃𝑃(0) = 0,2 , 𝑃𝑃(𝑂𝑂 ∩ 𝐻𝐻) = 0,11 e
+𝑃𝑃(𝑂𝑂|𝐻𝐻) = 0,275
+
+a)
+
+𝑃𝑃(𝑂𝑂 ∪ 𝐻𝐻) = 𝑃𝑃(𝑂𝑂) + 𝑃𝑃(𝐻𝐻) − 𝑃𝑃(𝑂𝑂 ∩ 𝐻𝐻) = 0,2 + 0,4 − 0,11 = 0,49, polo que a porcentaxe pedida
+sería o 49%
+
+Para calcular 𝑃𝑃(𝐻𝐻) empregamos que
+
+                                   𝑃𝑃(𝑂𝑂 ∩ 𝐻𝐻)            𝑃𝑃(𝑂𝑂 ∩ 𝐻𝐻)   0,11
+                     𝑃𝑃(𝑂𝑂|𝐻𝐻) =               ⇒ 𝑃𝑃(𝐻𝐻) =             =       = 0,4.
+                                      𝑃𝑃(𝐻𝐻)               𝑃𝑃(𝑂𝑂|𝐻𝐻)    0,275
+
+b)
+Coma 𝑃𝑃(𝑂𝑂 ∩ 𝐻𝐻) = 0,11 e 𝑃𝑃(𝑂𝑂) × 𝑃𝑃(𝐻𝐻) = 0,2 × 0,4 = 0,08. Entón 𝑃𝑃(𝑂𝑂 ∩ 𝐻𝐻) ≠ 𝑃𝑃(𝑂𝑂) × 𝑃𝑃(𝐻𝐻)
+polo que os sucesos O e H non son independentes.
+
+c)
+
+                                𝑃𝑃(𝐻𝐻 ∩ 𝑂𝑂�) 𝑃𝑃(𝐻𝐻) − 𝑃𝑃(𝐻𝐻 ∩ 𝑂𝑂) 0,4 − 0,11
+                 𝑃𝑃(𝐻𝐻|𝑂𝑂�) =               =                    =           = 0,3625.
+                                   𝑃𝑃(𝑂𝑂�)        1 − 𝑃𝑃(𝑂𝑂)       1 − 0,2
+
+(Tamén podemos resolver o exercicio a través de unha táboa).
+                                                        ABAU 2024                                                    CÓDIGO 40
+                                                 MATEMÁTICAS APLICADAS ÁS
+                                                    CIENCIAS SOCIAIS II
+                                                   Convocatoria ordinaria
+
+6. 𝑋𝑋 = “Tempo de formación”.
+
+                                                             𝑋𝑋 → 𝑁𝑁(𝜇𝜇, 15)
+
+a)
+
+O intervalo de confianza con nivel de confianza 1-α para µ ven dado por:
+
+                                                                    𝜎𝜎                  𝜎𝜎
+                                                      �𝑥𝑥̅ − 𝑧𝑧𝛼𝛼        ; 𝑥𝑥̅ + 𝑧𝑧𝛼𝛼        �
+                                                               2 √𝑛𝑛               2 √𝑛𝑛
+
+
+Coma 𝑥𝑥̅ = 97, 𝑛𝑛 = 25 e 1 − 𝛼𝛼 = 0,95, temos que 𝑧𝑧𝛼𝛼 = 𝑧𝑧0,025 = 1,96
+                                                                          2
+
+
+                      𝜎𝜎                   𝜎𝜎                       15                           15
+        �𝑥𝑥̅ − 𝑧𝑧𝛼𝛼         ; 𝑥𝑥̅ + 𝑧𝑧𝛼𝛼        � = �97 − 1,96             , 97 + 1,96              � = (91,12 ; 102,88)95 %
+                 2 √𝑛𝑛                2 √𝑛𝑛                         √25                          √25
+
+b)
+
+Pídese calcular 𝑃𝑃(90 < 𝑋𝑋� < 104)
+
+                      𝜎𝜎
+Coma 𝑋𝑋� → 𝑁𝑁 �𝜇𝜇,          � temos que 𝑋𝑋� → 𝑁𝑁(97 ; 2,5)
+                      √𝑛𝑛
+
+                                      90 − 97        104 − 97
+             𝑃𝑃(90 < 𝑋𝑋� < 104) = 𝑃𝑃 �        < 𝑍𝑍 <         � = 𝑃𝑃(−2,8 < 𝑍𝑍 < 2,8) =
+                                        2,5            2,5
+
+                  = 𝑃𝑃(𝑍𝑍 < 2,8) − 𝑃𝑃(𝑍𝑍 < −2,8) = 𝑃𝑃(𝑍𝑍 < 2,8) − �1 − 𝑃𝑃(𝑍𝑍 > −2,8)� =
+
+                = 𝑃𝑃(𝑍𝑍 < 2,8) − �1 − 𝑃𝑃(𝑍𝑍 < 2,8)� = 0,9974 − (1 − 0,9974) = 0,9948.
+                                          ABAU 2024                                  CÓDIGO 40
+                                   MATEMÁTICAS APLICADAS ÁS
+                                      CIENCIAS SOCIAIS II
+                                   Convocatoria Extraordinaria
+1. Dada a matriz A
+
+                                                    1 2         −1
+                                              𝐴𝐴 = �2 1         −4�
+                                                    3 3         𝑘𝑘
+
+
+
+a)
+
+Calcule o valor de k para que A non teña inversa. Nese caso o determinante de A ten que ser 0
+
+            det 𝐴𝐴 = 𝑘𝑘 − 6 − 24 + 3 + 12 − 4𝑘𝑘 = −3𝑘𝑘 − 15 ⇒ −3𝑘𝑘 − 15 = 0 ⇒ 𝑘𝑘 = −5
+
+Polo tanto A non ten inversa se 𝒌𝒌 = −𝟓𝟓
+
+
+b)
+
+Se 𝑘𝑘 = −5 , det 𝐴𝐴 = 0 ⇒ 𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 𝐴𝐴 ≤ 2
+
+      1     2
+Como �       � = −3 ≠ 0 ⇒ 𝒓𝒓𝒓𝒓𝒓𝒓𝒓𝒓𝒓𝒓 𝑨𝑨 = 𝟐𝟐.
+      2     1
+
+c)
+
+                                                         1
+                                              𝐴𝐴−1 =          (𝐴𝐴∗ )𝑡𝑡
+                                                       det 𝐴𝐴
+
+Para 𝑘𝑘 = −2, tenemos que det 𝐴𝐴 = −3𝑘𝑘 − 15 = −9
+
+                                                 10        −8 3
+                                          𝐴𝐴∗ = � 1        1  3�
+                                                 −7        2 −3
+
+
+Polo tanto, a inversa da matriz A é a seguinte:
+                                                            𝟏𝟏𝟏𝟏   𝟏𝟏 𝟕𝟕
+                                                            −    −
+                                        1               ⎛ 𝟗𝟗       𝟗𝟗 𝟗𝟗 ⎞
+                                                           𝟖𝟖      𝟏𝟏   𝟐𝟐
+                               𝐴𝐴−1 =        (𝐴𝐴∗ )𝑡𝑡 = ⎜        −    − ⎟.
+                                      det 𝐴𝐴            ⎜ 𝟗𝟗       𝟗𝟗   𝟗𝟗⎟
+                                                             𝟏𝟏    𝟏𝟏 𝟏𝟏
+                                                        ⎝ − 𝟑𝟑 − 𝟑𝟑 𝟑𝟑 ⎠
+                                            ABAU 2024                                            CÓDIGO 40
+                                     MATEMÁTICAS APLICADAS ÁS
+                                        CIENCIAS SOCIAIS II
+                                     Convocatoria Extraordinaria
+
+2. Sexan X=”Metros comprados ao distribuidor A” e Y=”Metros comprados ao distribuidor B”
+
+a)
+O problema é 𝑓𝑓(𝑥𝑥, 𝑦𝑦) = 𝑀𝑀𝑀𝑀𝑀𝑀 2𝑥𝑥 + 3𝑦𝑦 suxeito ás seguintes restricións
+
+𝑥𝑥 ≥ 200        𝑦𝑦 ≥ 200          𝑥𝑥 ≤ 700             𝑦𝑦 ≤ 700        𝑥𝑥 + 𝑦𝑦 ≥ 600       𝑥𝑥 ≤ 2𝑦𝑦
+
+b)
+A rexión factible e os vértices son os seguintes:
+
+
+
+
+A rexión factible determinada polas restricións ten coma vértices A, B, C, D e E
+
+       𝑥𝑥 = 200                                  𝑥𝑥 = 200                             𝑦𝑦 = 200
+ 𝐴𝐴:            � 𝐴𝐴(200,700)          𝐵𝐵:                  � 𝐵𝐵(200,400)       𝐶𝐶:             � 𝐶𝐶(400,200)
+       𝑦𝑦 = 700                               𝑥𝑥 + 𝑦𝑦 = 600                            𝑥𝑥 = 2𝑦𝑦
+
+
+       𝑥𝑥 = 700                               𝑥𝑥 = 700
+ 𝐷𝐷:             � 𝐷𝐷(700,350)          𝐸𝐸:            � 𝐸𝐸(700,700)
+        𝑥𝑥 = 2𝑦𝑦                              𝑦𝑦 = 700
+
+
+b)
+                                  𝑓𝑓(𝑥𝑥, 𝑦𝑦) = 2𝑥𝑥 + 3𝑦𝑦
+
+𝑓𝑓(𝐴𝐴) = 2500       𝑓𝑓(𝐵𝐵) = 1600        𝒇𝒇(𝑪𝑪) = 𝟏𝟏𝟏𝟏𝟏𝟏𝟏𝟏 → 𝑴𝑴í𝒏𝒏𝒏𝒏𝒏𝒏𝒏𝒏     𝑓𝑓(𝐷𝐷) = 2450       𝑓𝑓(𝐸𝐸) = 3500
+
+A función 𝑓𝑓 acada o seu mínimo no vértice C(400,200). Para obter o mínimo custo debe comprar 400
+metros ao distribuidor A e 200 metros ao distribuidor B.
+                                            ABAU 2024                                       CÓDIGO 40
+                                     MATEMÁTICAS APLICADAS ÁS
+                                        CIENCIAS SOCIAIS II
+                                     Convocatoria Extraordinaria
+3.
+Temos a función f(x)= a x2 + b x + c, que pasa pola orixe de coordenadas e ten un máximo en P(4, 16).
+
+a)
+
+Sabendo que 𝑓𝑓(𝑥𝑥) pasa por (4,16), por (0,0) e ten un máximo (4,16), temos entón que 𝑓𝑓(0) = 0, 𝑓𝑓(4) = 16 e
+𝑓𝑓´(4) = 0
+
+Coma
+𝑓𝑓(0) = 𝑐𝑐 ⇒ 𝑐𝑐 = 0
+𝑓𝑓(4) = 16𝑎𝑎 + 4𝑏𝑏 ⇒ 16𝑎𝑎 + 4𝑏𝑏 = 16
+𝑓𝑓´(𝑥𝑥) = 2𝑎𝑎𝑎𝑎 + 𝑏𝑏 ⇒ 𝑓𝑓´(4) = 8𝑎𝑎 + 𝑏𝑏 ⇒ 8𝑎𝑎 + 𝑏𝑏 = 0 ⇒ 𝑏𝑏 = −8𝑎𝑎
+
+Polo que 16𝑎𝑎 + 4𝑏𝑏 = 16𝑎𝑎 − 32𝑎𝑎 = −16𝑎𝑎 = 16 ⇒ 𝑎𝑎 = −1 ⇒ 𝑏𝑏 = 8
+
+Temos entón que 𝒂𝒂 = −𝟏𝟏, 𝒃𝒃 = 𝟖𝟖 e 𝒄𝒄 = 𝟎𝟎, polo que 𝑓𝑓(𝑥𝑥) = −𝑥𝑥 2 + 8𝑥𝑥.
+
+b)
+
+A función 𝑓𝑓(𝑥𝑥) = −𝑥𝑥 2 + 8𝑥𝑥 ten un máximo en (4,16)
+
+                                                                    𝑥𝑥 = 0
+𝑓𝑓(𝑥𝑥) = −𝑥𝑥 2 + 8𝑥𝑥 = 0 Entón coma −𝑥𝑥 2 + 8𝑥𝑥 = 𝑥𝑥(8 − 𝑥𝑥) = 0 ⇒ �
+                                                                    𝑥𝑥 = 8
+
+
+
+
+Entón a área da rexión limitada pola función e o eixe OX é:
+
+             8              8
+                                                  1              8   83
+           � 𝑓𝑓(𝑥𝑥)𝑑𝑑𝑑𝑑 = � (−𝑥𝑥 2 + 8𝑥𝑥)𝑑𝑑𝑑𝑑 = �− 𝑥𝑥 3 + 4𝑥𝑥 2 ] = − + 4 × 82 = 𝟖𝟖𝟖𝟖, 𝟑𝟑𝟑𝟑𝒖𝒖𝟐𝟐
+            0              0                      3              0   3
+                                           ABAU 2024                                            CÓDIGO 40
+                                    MATEMÁTICAS APLICADAS ÁS
+                                       CIENCIAS SOCIAIS II
+                                    Convocatoria Extraordinaria
+4.
+Temos a seguinte función
+                                                𝑥𝑥 2
+                                   𝑃𝑃(𝑥𝑥) = −        + 𝑥𝑥 + 55,       0 ≤ 𝑥𝑥 ≤ 30 .
+                                                20
+
+a)
+Sábese que a produción de 𝑥𝑥 unidades supón un custo fixo de 80 euros máis un custo variable de 11,25
+euros por unidade.
+
+Función de coste:
+                                               𝑓𝑓(𝑥𝑥) = 80 + 11,25𝑥𝑥
+Función de ingresos:
+                                             𝑥𝑥 2                  𝑥𝑥 3
+                               𝑔𝑔(𝑥𝑥) = �−        + 𝑥𝑥 + 55� 𝑥𝑥 = − + 𝑥𝑥 2 + 55𝑥𝑥
+                                             20                    20
+Función de beneficios:
+                                        𝑥𝑥 3                                     𝑥𝑥 3
+        𝐵𝐵(𝑥𝑥) = 𝑔𝑔(𝑥𝑥) − 𝑓𝑓(𝑥𝑥) = �−        + 𝑥𝑥 2 + 55𝑥𝑥� − (80 + 11,25𝑥𝑥 ) = − + 𝑥𝑥 2 + 43,75𝑥𝑥 − 80
+                                        20                                       20
+
+b)
+Para calcular o beneficio máximo
+                                                         3𝑥𝑥2
+                                           𝐵𝐵´(𝑥𝑥) = −          + 2𝑥𝑥 + 43,75
+                                                         20
+
+Para que 𝐵𝐵´(𝑥𝑥) = 0, teríamos o seguinte:
+
+                              12
+                       −2∓�4+ ×43,75
+                              20             𝑥𝑥 = 25
+                𝑥𝑥 =          6          ⇒ �𝑥𝑥 = − 70 ⇒ 𝑥𝑥 = 25, xa que non pode ser negativo
+                            −                        6
+                              20
+
+
+O beneficio nese caso sería igual a:
+                                            253
+                             𝐵𝐵(25) = −         + 252 + 43,75 × 25 − 80 = 857,5
+                                            20
+
+O prezo por unidade de produto sería igual a:
+                                                     252
+                                        𝑃𝑃(25) = −       + 25 + 55 = 48,75
+                                                     20
+                                          ABAU 2024                                        CÓDIGO 40
+                                   MATEMÁTICAS APLICADAS ÁS
+                                      CIENCIAS SOCIAIS II
+                                   Convocatoria Extraordinaria
+
+5.
+
+Se denotamos por A=”Escoitar música” e B=”Ler”, temos que 𝑃𝑃(𝐴𝐴 ∪ 𝐵𝐵) = 0,8 , 𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵) = 0,25 e
+𝑃𝑃(𝐵𝐵� ) = 0,6
+
+a)
+
+𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵� ) = 𝑃𝑃(𝐴𝐴) − 𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵) = 0,75 − 0,35 = 0,4.
+
+Para calcular 𝑃𝑃(𝐴𝐴) empregamos que
+
+         𝑃𝑃(𝐴𝐴 ∪ 𝐵𝐵) = 𝑃𝑃(𝐴𝐴) + 𝑃𝑃(𝐵𝐵) − 𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵) ⇒ 0,8 = 𝑃𝑃(𝐴𝐴) + 0,4 − 0,35 ⇒ 𝑃𝑃(𝐴𝐴) = 0,75
+
+b)
+                          𝑃𝑃(𝐵𝐵 ∩ 𝐴𝐴̅) = 𝑃𝑃(𝐵𝐵) − 𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵) = 0,4 − 0,35 = 0,05.
+
+c)
+
+                              𝑃𝑃(𝐵𝐵 ∩ 𝐴𝐴̅) + 𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵� ) = 0,4 + 0,05 = 0,45.
+d)
+
+                               𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵) = 0,35
+                     �                                   ⇒ 𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵) ≠ 𝑃𝑃(𝐴𝐴) × 𝑃𝑃(𝐵𝐵)
+                      𝑃𝑃(𝐴𝐴) × 𝑃𝑃(𝐵𝐵) = 0,4 × 0,75 = 0,3
+
+Entón os sucesos A e B non son independentes.
+
+(Tamén podemos resolver o exercicio a través de unha táboa).
+                                                       ABAU 2024                                                   CÓDIGO 40
+                                                MATEMÁTICAS APLICADAS ÁS
+                                                   CIENCIAS SOCIAIS II
+                                                Convocatoria Extraordinaria
+
+6. 𝑋𝑋 = “Lonxitude”.
+
+                                                             𝑋𝑋 → 𝑁𝑁(𝜇𝜇, 6)
+
+a)
+
+O intervalo de confianza con nivel de confianza 1-α para µ ven dado por:
+
+                                                                   𝜎𝜎                  𝜎𝜎
+                                                     �𝑥𝑥̅ − 𝑧𝑧𝛼𝛼        ; 𝑥𝑥̅ + 𝑧𝑧𝛼𝛼        �
+                                                              2 √𝑛𝑛               2 √𝑛𝑛
+
+
+Coma 𝑥𝑥̅ = 244, 𝑛𝑛 = 9 e 1 − 𝛼𝛼 = 0,98, temos que 𝑧𝑧𝛼𝛼 = 𝑧𝑧0,01 = 2,33
+                                                                         2
+
+
+                     𝜎𝜎                   𝜎𝜎                        6                           6
+       �𝑥𝑥̅ − 𝑧𝑧𝛼𝛼         ; 𝑥𝑥̅ + 𝑧𝑧𝛼𝛼        � = �244 − 2,33           , 244 + 2,33             � = (239,34 ; 248,66)98 %
+                2 √𝑛𝑛                2 √𝑛𝑛                         √9                           √9
+
+b)
+
+Pídese calcular 𝑃𝑃(𝑋𝑋� < 242)
+
+                      𝜎𝜎
+Coma 𝑋𝑋� → 𝑁𝑁 �𝜇𝜇,         � temos que 𝑋𝑋� → 𝑁𝑁(244 ; 1,5)
+                     √𝑛𝑛
+
+                                                               242 − 244
+                                𝑃𝑃(𝑋𝑋� < 242) = 𝑃𝑃 �𝑍𝑍 <                 � = 𝑃𝑃(𝑍𝑍 < −1,33) =
+                                                                  1,5
+
+                     = 1 − 𝑃𝑃(𝑍𝑍 > −1,33) = 1 − 𝑃𝑃(𝑍𝑍 < 1,33) = 1 − 0,9082 = 0,0918.
+
