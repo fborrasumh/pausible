@@ -11,7 +11,7 @@ res = []
 for url in [l.strip() for l in (R / 'pipeline' / 'diagnostico.txt').read_text().splitlines() if l.strip() and not l.startswith('#')]:
     h = hashlib.sha1(url.encode()).hexdigest()[:8]
     try:
-        r = requests.get(url, timeout=(20, 40), headers={'User-Agent': UA}, allow_redirects=True)
+        r = requests.get(url, timeout=(25, 40), headers={'User-Agent': UA}, allow_redirects=True)
         body = r.text[:2_000_000] if 'html' in r.headers.get('content-type', '') or r.status_code != 200 else ''
         (out / f'{h}.html').write_text(body, encoding='utf-8')
         links = [{'href': a, 'texto': t, 'ctx': c[:120]} for a, t, c in enlaces(body)] if body else []
