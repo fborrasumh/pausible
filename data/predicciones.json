@@ -24826,7 +24826,7 @@
    "materias": {
     "aleman": {
      "nombre": "Lengua Extranjera II: Alemán",
-     "n_examenes": 7,
+     "n_examenes": 8,
      "anios": [
       2025,
       2026
@@ -24836,6 +24836,11 @@
        "anio": 2025,
        "conv": "ext",
        "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/exames/13.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/13.pdf"
       },
       {
        "anio": 2025,
@@ -24872,9 +24877,26 @@
      "validacion": null,
      "confianza": "sin_temario"
     },
+    "ciencias": {
+     "nombre": "Ciencias Generales",
+     "n_examenes": 1,
+     "anios": [
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "nd",
+       "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/90.pdf"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
     "dibujo": {
      "nombre": "Dibujo Técnico II",
-     "n_examenes": 9,
+     "n_examenes": 12,
      "anios": [
       2025,
       2026
@@ -24892,6 +24914,11 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/54.pdf"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/exames/22.pdf"
       },
@@ -24899,6 +24926,16 @@
        "anio": 2025,
        "conv": "ord",
        "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/22.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/54.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/22.pdf"
       },
       {
        "anio": 2026,
@@ -24930,9 +24967,9 @@
       {
        "id": "diedrico",
        "nombre": "Sistema diédrico",
-       "p": 0.685,
-       "veces": 6,
-       "de": 9,
+       "p": 0.699,
+       "veces": 8,
+       "de": 12,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "2.2.-Dibuje dos arcos de circunferencia, tangentes y senƟdo contrario T' E: 1/...... de una Gola (moldura de doble curva, cóncava y convexa), conociendo los puntos de tangencia T y T´ y el radio de uno de los arcos r = 20mm PREGUNTA 3. GEOMETRÍA PROYECTIVA : SISTEMA DIÉDRICO (2,2…",
@@ -24941,31 +24978,31 @@
       {
        "id": "normalizacion",
        "nombre": "Normalización y vistas",
-       "p": 0.683,
-       "veces": 7,
-       "de": 9,
+       "p": 0.658,
+       "veces": 9,
+       "de": 12,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "PREGUNTA 1 NORMALIZACIÓN y DOCUMENTACIÓN GRÁFICA de PROYECTOS (2,25 puntos) PREGUNTA 2. FUNDAMENTOS GEOMÉTRICOS (2,25 puntos) 2.1.-Dibuje el homólogo triángulo ABC y del punto P, cononiendo los puntos hómologos A´y C´ y un punto E: 1/...... doble D-D´",
        "muestra_url": "https://ciug.gal/link/WYuiAmHmwWStCAZa"
       },
       {
-       "id": "geometriaplana",
-       "nombre": "Geometría plana (tangencias, transformaciones)",
-       "p": 0.511,
-       "veces": 4,
-       "de": 9,
+       "id": "axonometrico",
+       "nombre": "Axonométrico y perspectiva",
+       "p": 0.475,
+       "veces": 5,
+       "de": 12,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "2.2.-Dibuje dos arcos de circunferencia, tangentes y senƟdo contrario T' E: 1/...... de una Gola (moldura de doble curva, cóncava y convexa), conociendo los puntos de tangencia T y T´ y el radio de uno de los arcos r = 20mm PREGUNTA 3. GEOMETRÍA PROYECTIVA : SISTEMA DIÉDRICO (2,2…",
        "muestra_url": "https://ciug.gal/link/WYuiAmHmwWStCAZa"
       },
       {
-       "id": "axonometrico",
-       "nombre": "Axonométrico y perspectiva",
-       "p": 0.491,
+       "id": "geometriaplana",
+       "nombre": "Geometría plana (tangencias, transformaciones)",
+       "p": 0.314,
        "veces": 4,
-       "de": 9,
+       "de": 12,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "2.2.-Dibuje dos arcos de circunferencia, tangentes y senƟdo contrario T' E: 1/...... de una Gola (moldura de doble curva, cóncava y convexa), conociendo los puntos de tangencia T y T´ y el radio de uno de los arcos r = 20mm PREGUNTA 3. GEOMETRÍA PROYECTIVA : SISTEMA DIÉDRICO (2,2…",
@@ -24974,9 +25011,9 @@
       {
        "id": "conicas",
        "nombre": "Cónicas",
-       "p": 0.08,
+       "p": 0.061,
        "veces": 1,
-       "de": 9,
+       "de": 12,
        "ultimo": 2025,
        "tendencia": "estable",
        "muestra": "PREGUNTA 1 NORMALIZACIÓN e DOCUMENTACIÓN GRÁFICA de PROXECTOS (2,25 puntos) PREGUNTA 2. FUNDAMENTOS XEOMÉTRICOS (2,25 puntos) Nun taller de xoiería na localidade de Bergondo, preto da Coruña, deséñase unha peza en ouro. A partir da A parƟr da recta de referencia e do punto O, res…",
@@ -25017,7 +25054,7 @@
     },
     "empresa": {
      "nombre": "Empresa y Diseño de Modelos de Negocio / Economía de la Empresa",
-     "n_examenes": 5,
+     "n_examenes": 7,
      "anios": [
       2025,
       2026
@@ -25030,6 +25067,11 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/31.pdf"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/exames/23.pdf"
       },
@@ -25037,6 +25079,11 @@
        "anio": 2025,
        "conv": "ord",
        "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/exames/31.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/31.pdf"
       },
       {
        "anio": 2026,
@@ -25051,66 +25098,66 @@
      ],
      "temas": [
       {
-       "id": "modelonegocio",
-       "nombre": "Modelo de negocio y emprendimiento (Canvas)",
-       "p": 0.717,
-       "veces": 4,
-       "de": 5,
-       "ultimo": 2026,
-       "tendencia": "estable",
-       "muestra": "PREGUNTA 4. EL MODELO DE NEGOCIO Y DE GESTIÓN (2,5 puntos). Está buscando una empresa que le suministre café de calidad para su consumo diario y se encuentra con CAFECALIDAD, S.L., que se dedica a la venta de café de especialidad, en grano y tostado, mediante un modelo de suscrip…",
-       "muestra_url": "https://ciug.gal/link/xhaXFzVdZM9wWqMj"
-      },
-      {
        "id": "marketing",
        "nombre": "Marketing",
-       "p": 0.571,
-       "veces": 3,
-       "de": 5,
+       "p": 0.552,
+       "veces": 4,
+       "de": 7,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "1.1. Elabore la ficha de almacén aplicando el método FIFO (1 punto). 1.2 Elabore la ficha de almacén aplicando el método del Precio Medio Ponderado (1punto). 1.3 Teniendo en cuenta la variación de los precios, ¿qué método considera más idóneo? Razone la respuesta. (0,5 puntos).",
        "muestra_url": "https://ciug.gal/link/xhaXFzVdZM9wWqMj"
       },
       {
+       "id": "modelonegocio",
+       "nombre": "Modelo de negocio y emprendimiento (Canvas)",
+       "p": 0.525,
+       "veces": 4,
+       "de": 7,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "PREGUNTA 4. EL MODELO DE NEGOCIO Y DE GESTIÓN (2,5 puntos). Está buscando una empresa que le suministre café de calidad para su consumo diario y se encuentra con CAFECALIDAD, S.L., que se dedica a la venta de café de especialidad, en grano y tostado, mediante un modelo de suscrip…",
+       "muestra_url": "https://ciug.gal/link/xhaXFzVdZM9wWqMj"
+      },
+      {
        "id": "contabilidad",
        "nombre": "Balance y análisis financiero (ratios)",
-       "p": 0.534,
-       "veces": 3,
-       "de": 5,
+       "p": 0.498,
+       "veces": 4,
+       "de": 7,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "Está trabajando en una entidad financiera y debe analizar la viabilidad económica y financiera de una pequeña empresa que solicita un préstamo. Para ello, la empresa le facilita la siguiente información sobre los elementos que componen su patrimonio:",
        "muestra_url": "https://ciug.gal/link/xhaXFzVdZM9wWqMj"
       },
       {
-       "id": "produccion",
-       "nombre": "Producción, costes y umbral de rentabilidad",
-       "p": 0.388,
-       "veces": 2,
-       "de": 5,
-       "ultimo": 2026,
-       "tendencia": "estable",
-       "muestra": "4.1. Explique en que consiste la función de producción e identifique en el texto uno de los factores de producción y el producto de esta empresa. (1 punto) 4.2. Responda a uno de estos dos subapartados: 4.2.1 En el ámbito de la función comercial defina la propuesta de valor e ide…",
-       "muestra_url": "https://ciug.gal/link/xhaXFzVdZM9wWqMj"
-      },
-      {
        "id": "financiacion",
        "nombre": "Inversión y financiación (VAN, TIR, payback)",
-       "p": 0.362,
-       "veces": 2,
-       "de": 5,
+       "p": 0.372,
+       "veces": 3,
+       "de": 7,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "Para realizar su análisis, se le pide que responda estos dos apartados: 2.1. Clasifique el balance en masas patrimoniales y calcule la cifra de capital. (1 punto) 2.2. Responda uno de estos dos subapartados: 2.2.1. Determine el fondo de maniobra de dos formas distintas y comente …",
        "muestra_url": "https://ciug.gal/link/xhaXFzVdZM9wWqMj"
       },
       {
+       "id": "produccion",
+       "nombre": "Producción, costes y umbral de rentabilidad",
+       "p": 0.284,
+       "veces": 2,
+       "de": 7,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "4.1. Explique en que consiste la función de producción e identifique en el texto uno de los factores de producción y el producto de esta empresa. (1 punto) 4.2. Responda a uno de estos dos subapartados: 4.2.1 En el ámbito de la función comercial defina la propuesta de valor e ide…",
+       "muestra_url": "https://ciug.gal/link/xhaXFzVdZM9wWqMj"
+      },
+      {
        "id": "organizacion",
        "nombre": "Organización y dirección",
-       "p": 0.329,
+       "p": 0.241,
        "veces": 2,
-       "de": 5,
+       "de": 7,
        "ultimo": 2025,
        "tendencia": "estable",
        "muestra": "1.1. Responda estes tres apartados. (1 punto) 1. Debuxe un esquema da órbita do satélite, indicando a dirección e o sentido da forza gravitatoria que experimenta o satélite. 2. Calcule a aceleración gravitatoria que experimenta o satélite. 3. Calcule a velocidade do satélite na s…",
@@ -25124,9 +25171,9 @@
       "tasa": 0.8,
       "azar": 0.83,
       "top": [
-       "organizacion",
-       "modelonegocio",
        "marketing",
+       "modelonegocio",
+       "organizacion",
        "financiacion",
        "contabilidad"
       ],
@@ -25142,7 +25189,7 @@
     },
     "escenicas": {
      "nombre": "Artes Escénicas II",
-     "n_examenes": 4,
+     "n_examenes": 6,
      "anios": [
       2025,
       2026
@@ -25155,8 +25202,18 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/60.pdf"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/exames/60.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/60.pdf"
       },
       {
        "anio": 2026,
@@ -25175,7 +25232,7 @@
     },
     "filosofia": {
      "nombre": "Historia de la Filosofía",
-     "n_examenes": 5,
+     "n_examenes": 6,
      "anios": [
       2025,
       2026
@@ -25185,6 +25242,11 @@
        "anio": 2025,
        "conv": "ext",
        "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/exames/08.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/08.pdf"
       },
       {
        "anio": 2025,
@@ -25212,8 +25274,8 @@
        "id": "platon",
        "nombre": "Platón",
        "p": 0.9,
-       "veces": 5,
-       "de": 5,
+       "veces": 6,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "2.1. Tendo en conta afirmacións como: «O exercicio da xustiza é en si mesmo o mellor para a alma considerada na súa esencia» ou «A xustiza consiste en facer o que é propio dun», explique o problema fundamental na cuestión: «Platón: ética e política». (3 puntos)",
@@ -25223,8 +25285,8 @@
        "id": "aristoteles",
        "nombre": "Aristóteles",
        "p": 0.9,
-       "veces": 5,
-       "de": 5,
+       "veces": 6,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "1.2. Lea detidamente este texto referido a «Física e Metafísica en Aristóteles». Elabore un comentario filosófico explicando o seu contexto, tema central, ideas principais e conceptos clave. (4 puntos)",
@@ -25234,8 +25296,8 @@
        "id": "contemporanea",
        "nombre": "Filosofía contemporánea (Arendt, Wittgenstein, Beauvoir…)",
        "p": 0.9,
-       "veces": 5,
-       "de": 5,
+       "veces": 6,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "1.1. Lea detidamente este texto referido a «O desenvolvemento contemporáneo do feminismo: Simone de Beauvoir». Elabore un comentario filosófico explicando o seu contexto, tema central, ideas principais e conceptos clave. (4 puntos)",
@@ -25244,42 +25306,42 @@
       {
        "id": "nietzsche",
        "nombre": "Nietzsche",
-       "p": 0.717,
-       "veces": 4,
-       "de": 5,
+       "p": 0.743,
+       "veces": 5,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "2.2. Tendo en conta afirmacións como: «Deus está morto. Matámolo nós» ou «Non hai xa ningunha razón para non quitar da cabeza a idea dun mundo verdadeiro», explique o problema fundamental na cuestión: «Nietzsche: nihilismo, vitalismo e transvaloración». (3 puntos)",
        "muestra_url": "https://ciug.gal/link/8uZD4wggMaW2uPXS"
       },
       {
-       "id": "descartes",
-       "nombre": "Descartes",
-       "p": 0.638,
-       "veces": 3,
-       "de": 5,
-       "ultimo": 2026,
-       "tendencia": "estable",
-       "muestra": "1.1. Lea de damente este texto referido a “Descartes: o método cien ﬁco e a evidencia do cogito”. Elabore un comentario ﬁlosóﬁco explicando o seu contexto, tema central, ideas principais e conceptos clave. (4 puntos)",
-       "muestra_url": "https://ciug.gal/link/jdTpCYFi4n8EwaSq"
-      },
-      {
        "id": "empirismo",
        "nombre": "Hume / Locke",
-       "p": 0.612,
-       "veces": 3,
-       "de": 5,
+       "p": 0.667,
+       "veces": 4,
+       "de": 6,
        "ultimo": 2025,
        "tendencia": "estable",
        "muestra": "- Represéntate hombres en una morada subterránea en forma de caverna, que tiene la entrada abierta, en toda su extensión, a la luz. En ella están desde niños con las piernas y el cuello encadenados, de modo que deben permanecer allí y mirar sólo delante de ellos, porque las caden…",
        "muestra_url": "https://ciug.gal/PDF/2025/PAU/ordinaria/exames/08.pdf"
       },
       {
+       "id": "descartes",
+       "nombre": "Descartes",
+       "p": 0.563,
+       "veces": 3,
+       "de": 6,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "1.1. Lea de damente este texto referido a “Descartes: o método cien ﬁco e a evidencia do cogito”. Elabore un comentario ﬁlosóﬁco explicando o seu contexto, tema central, ideas principais e conceptos clave. (4 puntos)",
+       "muestra_url": "https://ciug.gal/link/jdTpCYFi4n8EwaSq"
+      },
+      {
        "id": "kant",
        "nombre": "Kant",
-       "p": 0.388,
+       "p": 0.333,
        "veces": 2,
-       "de": 5,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "Vostede, dada a súa habilidade filosófica, resulta escollido por un grupo de profesoras para participar na próxima “Olimpíada de Filosofía”. Nesta vez, dedícase a divulgar a dimensión ético-filosófica da Intelixencia Artificial (IA). As organizadoras facilítanlle o seguinte docum…",
@@ -25288,9 +25350,9 @@
       {
        "id": "marx",
        "nombre": "Marx",
-       "p": 0.388,
+       "p": 0.333,
        "veces": 2,
-       "de": 5,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "Razón vital / marxismo / plusvalía / circunstancia / alienación / espontaneidade / capital.",
@@ -25301,7 +25363,7 @@
        "nombre": "Agustín de Hipona / Tomás de Aquino",
        "p": 0.05,
        "veces": 0,
-       "de": 5,
+       "de": 6,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -25312,7 +25374,7 @@
        "nombre": "Ortega y Gasset",
        "p": 0.05,
        "veces": 0,
-       "de": 5,
+       "de": 6,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -25346,7 +25408,7 @@
     },
     "fisica": {
      "nombre": "Física",
-     "n_examenes": 5,
+     "n_examenes": 6,
      "anios": [
       2025,
       2026
@@ -25356,6 +25418,11 @@
        "anio": 2025,
        "conv": "ext",
        "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/exames/23.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/23.pdf"
       },
       {
        "anio": 2025,
@@ -25383,8 +25450,8 @@
        "id": "gravitacion",
        "nombre": "Campo gravitatorio",
        "p": 0.9,
-       "veces": 5,
-       "de": 5,
+       "veces": 6,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "PAU CÓDIGO 23 Convocatoria ordinaria 2026 FÍSICA O exame consta de 4 preguntas de resposta obrigatoria, puntuadas cada unha con 2,5 puntos. A primeira, máis competencial, sen apartados optativos. As outras tres cun primeiro apartado de resposta única e un segundo apartado con dou…",
@@ -25394,8 +25461,8 @@
        "id": "electrico",
        "nombre": "Campo eléctrico",
        "p": 0.9,
-       "veces": 5,
-       "de": 5,
+       "veces": 6,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "TEXTO: Misión Proba-3 A misión Proba-3 da Axencia Espacial Europea (ESA) ten como obxectivo crear eclipses solares artificiais no espazo. Para iso utilízanse dous satélites, chamados Occulter e Coronagraph, que se desprazan moi ben aliñados entre si. Grazas a esta precisión, os c…",
@@ -25405,8 +25472,8 @@
        "id": "magnetico",
        "nombre": "Campo magnético e inducción",
        "p": 0.9,
-       "veces": 5,
-       "de": 5,
+       "veces": 6,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "2.1. Indique e xustifique a resposta correcta. (1 punto) Un fío condutor transporta unha corrente e crea, por tanto, un campo magnético de intensidade B nun punto situado a unha distancia perpendicular, r, do condutor. A unha distancia 2r do fío, a intensidade de campo magnético …",
@@ -25416,8 +25483,8 @@
        "id": "ondas",
        "nombre": "Ondas y sonido",
        "p": 0.9,
-       "veces": 5,
-       "de": 5,
+       "veces": 6,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "TEXTO: Misión Proba-3 A misión Proba-3 da Axencia Espacial Europea (ESA) ten como obxectivo crear eclipses solares artificiais no espazo. Para iso utilízanse dous satélites, chamados Occulter e Coronagraph, que se desprazan moi ben aliñados entre si. Grazas a esta precisión, os c…",
@@ -25427,8 +25494,8 @@
        "id": "optica",
        "nombre": "Óptica",
        "p": 0.9,
-       "veces": 5,
-       "de": 5,
+       "veces": 6,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "3.1. Indique e xustifique a resposta correcta. (1 punto) Para obter unha imaxe virtual e dereita cunha lente delgada converxente de potencia 10 D, o obxecto debe estar colocado, con respecto á lente a: a) Unha distancia menor de 10 cm b) Unha distancia maior que 10 e menor que 20…",
@@ -25438,8 +25505,8 @@
        "id": "moderna",
        "nombre": "Física moderna (cuántica, nuclear, relatividad)",
        "p": 0.9,
-       "veces": 5,
-       "de": 5,
+       "veces": 6,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "4.1. Indique e xustifique a resposta correcta. (1 punto) A lonxitude de onda no baleiro da luz emitida por un LED azul é 450 nm. Cal é a enerxía dos seus fotóns? a) 1,24 eV b) 2,76 eV c) 4,50 eV d) 450 eV",
@@ -25473,7 +25540,7 @@
     },
     "frances": {
      "nombre": "Lengua Extranjera II: Francés",
-     "n_examenes": 7,
+     "n_examenes": 8,
      "anios": [
       2025,
       2026
@@ -25483,6 +25550,11 @@
        "anio": 2025,
        "conv": "ext",
        "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/exames/12.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/12.pdf"
       },
       {
        "anio": 2025,
@@ -25521,7 +25593,7 @@
     },
     "fundamentosart": {
      "nombre": "Fundamentos Artísticos",
-     "n_examenes": 4,
+     "n_examenes": 6,
      "anios": [
       2025,
       2026
@@ -25534,8 +25606,18 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/55.pdf"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/exames/55.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/55.pdf"
       },
       {
        "anio": 2026,
@@ -25554,7 +25636,7 @@
     },
     "gallego": {
      "nombre": "Lingua Galega e Literatura II",
-     "n_examenes": 5,
+     "n_examenes": 10,
      "anios": [
       2025,
       2026
@@ -25567,6 +25649,21 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/02.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/30.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/32.pdf"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/exames/02.pdf"
       },
@@ -25574,6 +25671,16 @@
        "anio": 2025,
        "conv": "ord",
        "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/02.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/30.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/32.pdf"
       },
       {
        "anio": 2026,
@@ -25676,7 +25783,7 @@
     },
     "graficoplastica": {
      "nombre": "Técnicas de Expresión Gráfico-Plástica",
-     "n_examenes": 4,
+     "n_examenes": 6,
      "anios": [
       2025,
       2026
@@ -25689,8 +25796,18 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/56.pdf"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/exames/56.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/56.pdf"
       },
       {
        "anio": 2026,
@@ -25799,7 +25916,7 @@
     },
     "historia": {
      "nombre": "Historia de España",
-     "n_examenes": 12,
+     "n_examenes": 14,
      "anios": [
       2025,
       2026
@@ -25827,6 +25944,11 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/03.pdf"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/exames/03.pdf"
       },
@@ -25839,6 +25961,11 @@
        "anio": 2025,
        "conv": "ord",
        "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/03.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/91.pdf"
       },
       {
        "anio": 2026,
@@ -25868,22 +25995,11 @@
      ],
      "temas": [
       {
-       "id": "moderna",
-       "nombre": "Monarquía hispánica (Reyes Católicos, Austrias, Borbones s. XVIII)",
-       "p": 0.29,
-       "veces": 4,
-       "de": 12,
-       "ultimo": 2026,
-       "tendencia": "estable",
-       "muestra": "3.1. Doc.1. Observacións de Manuel Martínez Murguía sobre o rexionalismo galego (1889): “Lingua distinta, díxose sempre, distinta nacionalidade. Sentíndoo así, Galicia tívose sempre por nación de feito; o mesmo cando tiña reis e condes propios (...) que incorporada á coroa de Cas…",
-       "muestra_url": "https://ciug.gal/link/mt9UNcjNjvSdRNEe"
-      },
-      {
        "id": "liberalismo",
        "nombre": "Crisis del Antiguo Régimen y liberalismo (1808-1874)",
-       "p": 0.29,
-       "veces": 4,
-       "de": 12,
+       "p": 0.305,
+       "veces": 5,
+       "de": 14,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "2.1. Compare as características do Sexenio Absolutista e o Trienio Liberal do reinado de Fernando VII. (2,5 puntos)",
@@ -25892,20 +26008,31 @@
       {
        "id": "guerracivil",
        "nombre": "Guerra Civil (1936-1939)",
-       "p": 0.231,
-       "veces": 3,
-       "de": 12,
+       "p": 0.253,
+       "veces": 4,
+       "de": 14,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "2.2. Compare as características ideolóxicas e apoios dos bandos Republicano e Sublevado durante a Guerra Civil (2,5 puntos)",
        "muestra_url": "https://ciug.gal/link/WHACtmUTrnpv3KMS"
       },
       {
+       "id": "moderna",
+       "nombre": "Monarquía hispánica (Reyes Católicos, Austrias, Borbones s. XVIII)",
+       "p": 0.251,
+       "veces": 4,
+       "de": 14,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "3.1. Doc.1. Observacións de Manuel Martínez Murguía sobre o rexionalismo galego (1889): “Lingua distinta, díxose sempre, distinta nacionalidade. Sentíndoo así, Galicia tívose sempre por nación de feito; o mesmo cando tiña reis e condes propios (...) que incorporada á coroa de Cas…",
+       "muestra_url": "https://ciug.gal/link/mt9UNcjNjvSdRNEe"
+      },
+      {
        "id": "franquismo",
        "nombre": "Franquismo (1939-1975)",
-       "p": 0.228,
-       "veces": 3,
-       "de": 12,
+       "p": 0.251,
+       "veces": 4,
+       "de": 14,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "PREGUNTA 2. O CAMIÑO CARA A CONTEMPORANEIDADE. DAS REVOLUCIÓNS LIBERAIS AO TARDOFRANQUISMO. ANÁLISE COMPARATIVA. (2,5 puntos)",
@@ -25914,9 +26041,9 @@
       {
        "id": "restauracion",
        "nombre": "Restauración (1874-1931)",
-       "p": 0.14,
-       "veces": 2,
-       "de": 12,
+       "p": 0.174,
+       "veces": 3,
+       "de": 14,
        "ultimo": 2025,
        "tendencia": "estable",
        "muestra": "2.2. Comparar as características do Directorio Militar e o Directorio Civil da ditadura de Primo de Rivera:",
@@ -25927,7 +26054,7 @@
        "nombre": "Prehistoria a Edad Media (Al-Ándalus, reinos cristianos)",
        "p": 0.05,
        "veces": 0,
-       "de": 12,
+       "de": 14,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -25938,7 +26065,7 @@
        "nombre": "Segunda República (1931-1936)",
        "p": 0.05,
        "veces": 0,
-       "de": 12,
+       "de": 14,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -25949,7 +26076,7 @@
        "nombre": "Transición y democracia",
        "p": 0.05,
        "veces": 0,
-       "de": 12,
+       "de": 14,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -25961,7 +26088,7 @@
     },
     "historiaarte": {
      "nombre": "Historia del Arte",
-     "n_examenes": 5,
+     "n_examenes": 7,
      "anios": [
       2025,
       2026
@@ -25974,8 +26101,18 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/33.pdf"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/exames/33.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/33.pdf"
       },
       {
        "anio": 2026,
@@ -25997,9 +26134,9 @@
       {
        "id": "barroco",
        "nombre": "Barroco",
-       "p": 0.651,
-       "veces": 3,
-       "de": 5,
+       "p": 0.638,
+       "veces": 4,
+       "de": 7,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "UnÊ reconocidoÊmuseoÊ nacionalÊ deÊ pinturaÊmodernaÊdecidióÊ incorporarÊenÊ suÊ páginaÊ webÊ unosÊ textosÊ brevesÊ queÊ sirvanÊparaÊilustrarÊaspectosÊconcretosÊsobreÊlosÊes losÊdeÊlasÊobrasÊqueÊconservaÊyÊmuestraÊenÊsuÊcolección.ÊParaÊ ello,Êlos/lasÊconservadores/asÊdeÊlasÊcolecc…",
@@ -26008,42 +26145,42 @@
       {
        "id": "clasico",
        "nombre": "Arte clásico (Grecia y Roma)",
-       "p": 0.05,
-       "veces": 0,
-       "de": 5,
-       "ultimo": null,
+       "p": 0.235,
+       "veces": 2,
+       "de": 7,
+       "ultimo": 2025,
        "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
+       "muestra": "2.2. Pintura do Barroco en Europa. Presentar no formato exigido algún dos seguintes aspectos: Peridodización. Características: Búsqueda do realismo; Consagración de novos xéneros pictóricos; Dramatismo, violencia e teatralidade; Tratamento lumínico: claroscuro; Composicións abert…",
+       "muestra_url": "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/33.pdf"
+      },
+      {
+       "id": "sigloxix",
+       "nombre": "Goya y siglo XIX",
+       "p": 0.235,
+       "veces": 2,
+       "de": 7,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "2.2. Pintura do Barroco en Europa. Presentar no formato exigido algún dos seguintes aspectos: Peridodización. Características: Búsqueda do realismo; Consagración de novos xéneros pictóricos; Dramatismo, violencia e teatralidade; Tratamento lumínico: claroscuro; Composicións abert…",
+       "muestra_url": "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/33.pdf"
       },
       {
        "id": "medieval",
        "nombre": "Románico y gótico",
-       "p": 0.05,
-       "veces": 0,
-       "de": 5,
-       "ultimo": null,
+       "p": 0.104,
+       "veces": 1,
+       "de": 7,
+       "ultimo": 2025,
        "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
+       "muestra": "3.2. San Miguel de Celanova. 937-940. Prerrománico. A.- Clasificación. (0,75 puntos) B. Contexto histórico. (0,75 puntos) Siglo X en Galicia. San Rosendo. Cambios en la espiritualidad. C.- Análise e comentario da lámina: (1,5 puntos). Descripición formar: planta y esturctura. Mat…",
+       "muestra_url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/33.pdf"
       },
       {
        "id": "renacimiento",
        "nombre": "Renacimiento",
        "p": 0.05,
        "veces": 0,
-       "de": 5,
-       "ultimo": null,
-       "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
-      },
-      {
-       "id": "sigloxix",
-       "nombre": "Goya y siglo XIX",
-       "p": 0.05,
-       "veces": 0,
-       "de": 5,
+       "de": 7,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -26054,7 +26191,7 @@
        "nombre": "Vanguardias y siglo XX",
        "p": 0.05,
        "veces": 0,
-       "de": 5,
+       "de": 7,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -26066,12 +26203,17 @@
     },
     "ingles": {
      "nombre": "Lengua Extranjera II: Inglés",
-     "n_examenes": 6,
+     "n_examenes": 7,
      "anios": [
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/11.pdf"
+      },
       {
        "anio": 2025,
        "conv": "ord",
@@ -26108,8 +26250,8 @@
        "id": "vocab",
        "nombre": "Vocabulario (sinónimos, definiciones)",
        "p": 0.9,
-       "veces": 6,
-       "de": 6,
+       "veces": 7,
+       "de": 7,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "1.2. Find a synonym (S) or an antonym (A) in the text for each of the following words. (1 point) 1.chasing, reaching (S) 2. rhythm (S) 3. lose (A) 4. results (S) 5. stay (as a verb; S) PAU CÓDIGO 11 Convocatoria ordinaria 2026 INGLÉS 2. Answer the two subsections in this question…",
@@ -26118,9 +26260,9 @@
       {
        "id": "writing",
        "nombre": "Redacción (opinión, carta, email)",
-       "p": 0.756,
+       "p": 0.67,
        "veces": 5,
-       "de": 6,
+       "de": 7,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "1.2. Find a synonym (S) or an antonym (A) in the text for each of the following words. (1 point) 1.chasing, reaching (S) 2. rhythm (S) 3. lose (A) 4. results (S) 5. stay (as a verb; S) PAU CÓDIGO 11 Convocatoria ordinaria 2026 INGLÉS 2. Answer the two subsections in this question…",
@@ -26129,9 +26271,9 @@
       {
        "id": "reading",
        "nombre": "Comprensión lectora (true/false, preguntas)",
-       "p": 0.611,
+       "p": 0.542,
        "veces": 4,
-       "de": 6,
+       "de": 7,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "1. Answer the two subsections in this question. (2.5 points) 1.1. After reading the text, indicate whether the following statements are True (T), False (F) or the information is Not Given (NG). In true and false cases only, copy the part of the text which justifies your answer. (…",
@@ -26142,7 +26284,7 @@
        "nombre": "Gramática (reescritura, transformaciones)",
        "p": 0.05,
        "veces": 0,
-       "de": 6,
+       "de": 7,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -26153,7 +26295,7 @@
        "nombre": "Mediación",
        "p": 0.05,
        "veces": 0,
-       "de": 6,
+       "de": 7,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -26181,7 +26323,7 @@
     },
     "italiano": {
      "nombre": "Lengua Extranjera II: Italiano",
-     "n_examenes": 5,
+     "n_examenes": 6,
      "anios": [
       2025,
       2026
@@ -26191,6 +26333,11 @@
        "anio": 2025,
        "conv": "ext",
        "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/exames/15.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/15.pdf"
       },
       {
        "anio": 2025,
@@ -26286,12 +26433,17 @@
     },
     "lengua": {
      "nombre": "Lengua Castellana y Literatura II",
-     "n_examenes": 6,
+     "n_examenes": 7,
      "anios": [
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/01.pdf"
+      },
       {
        "anio": 2025,
        "conv": "ord",
@@ -26328,8 +26480,8 @@
        "id": "argumentacion",
        "nombre": "Texto argumentativo / opinión",
        "p": 0.9,
-       "veces": 6,
-       "de": 6,
+       "veces": 7,
+       "de": 7,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "1.1. Lea detenidamente el texto y resúmalo sintetizando las ideas principales. Si lo prefiere, en vez del resumen, puede realizar un esquema. (1 punto) 1.2. Redacte un comentario crítico sobre el contenido del texto, manifestando acuerdo o desacuerdo con las ideas que refleja, y …",
@@ -26339,8 +26491,8 @@
        "id": "sintaxis",
        "nombre": "Sintaxis (oración compuesta)",
        "p": 0.9,
-       "veces": 6,
-       "de": 6,
+       "veces": 7,
+       "de": 7,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "2.1. Indique la clase de palabra o de unidad a la que pertenecen las marcadas en negrita en el texto: nos, la prisa (l. 1), una sensación de vacío (l. 2), que (l. 6), de religión (l. 7). Indique también su función sintáctica en la cláusula u oración en la que se integran. (1,25 p…",
@@ -26349,42 +26501,42 @@
       {
        "id": "comprension",
        "nombre": "Comprensión y resumen del texto",
-       "p": 0.807,
-       "veces": 5,
-       "de": 6,
+       "p": 0.819,
+       "veces": 6,
+       "de": 7,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "1.1. Lea detenidamente el texto y resúmalo sintetizando las ideas principales. Si lo prefiere, en vez del resumen, puede realizar un esquema. (1 punto) 1.2. Redacte un comentario crítico sobre el contenido del texto, manifestando acuerdo o desacuerdo con las ideas que refleja, y …",
        "muestra_url": "https://ciug.gal/link/2KFpaLwYn3apJxsm"
       },
       {
-       "id": "lit98",
-       "nombre": "Literatura: Modernismo y 98, novecentismo",
-       "p": 0.594,
-       "veces": 4,
-       "de": 6,
-       "ultimo": 2026,
-       "tendencia": "estable",
-       "muestra": "PREGUNTA 4. EDUCACIÓN LITERARIA: HISTORIA DE LA LITERATURA. (2 puntos) Responda uno de estos dos apartados: 4.1. Identifique y explique cuatro características presentes en este fragmento que permitan atribuirlo a su autor o a su movimiento literario. Desarrolle, además, uno de es…",
-       "muestra_url": "https://ciug.gal/link/2KFpaLwYn3apJxsm"
-      },
-      {
        "id": "teatro",
        "nombre": "Teatro del siglo XX",
-       "p": 0.564,
-       "veces": 3,
-       "de": 6,
+       "p": 0.618,
+       "veces": 4,
+       "de": 7,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "4.1. Identifique y explique tres características presentes en este fragmento que permitan atribuirlo a su autor o a su etapa. Desarrolle el tema “La figura de Buero Vallejo en el teatro español posterior a la Guerra Civil”. (2 puntos) FERNANDO. -No es eso, Urbano. ¡Es que le teng…",
        "muestra_url": "https://ciug.gal/link/vDvPe6xwAf8t8j8a"
       },
       {
+       "id": "lit98",
+       "nombre": "Literatura: Modernismo y 98, novecentismo",
+       "p": 0.521,
+       "veces": 4,
+       "de": 7,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "PREGUNTA 4. EDUCACIÓN LITERARIA: HISTORIA DE LA LITERATURA. (2 puntos) Responda uno de estos dos apartados: 4.1. Identifique y explique cuatro características presentes en este fragmento que permitan atribuirlo a su autor o a su movimiento literario. Desarrolle, además, uno de es…",
+       "muestra_url": "https://ciug.gal/link/2KFpaLwYn3apJxsm"
+      },
+      {
        "id": "novela",
        "nombre": "Novela del siglo XX y actual",
-       "p": 0.436,
-       "veces": 3,
-       "de": 6,
+       "p": 0.493,
+       "veces": 4,
+       "de": 7,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "TEXTO 1 Las pantallas nos despiertan, las redes dictan lo que sentimos, la prisa llena cada resquicio del tiempo. En ese 2 vértigo, muchas personas experimentan una sensación de vacío. Por eso la espiritualidad ha regresado al centro 3 del debate cultural. Desde los consultorios …",
@@ -26393,9 +26545,9 @@
       {
        "id": "morfologia",
        "nombre": "Léxico, morfología y semántica",
-       "p": 0.315,
-       "veces": 2,
-       "de": 6,
+       "p": 0.487,
+       "veces": 3,
+       "de": 7,
        "ultimo": 2025,
        "tendencia": "estable",
        "muestra": "PREGUNTA 2. REFLEXIÓN SOBRE LA LENGUA. (2,5 puntos) Responda dos de estos cuatro apartados: 2.1. Indique la clase de palabra o de unidad a la que pertenecen las marcadas en negrita en el texto: ellas (l. 1), estas (l. 7), lo (l. 11), que (l. 16), lo (l. 18). Señale, cuando corres…",
@@ -26406,7 +26558,7 @@
        "nombre": "Literatura: 27, Lorca, poesía de posguerra",
        "p": 0.05,
        "veces": 0,
-       "de": 6,
+       "de": 7,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -26416,15 +26568,15 @@
      "validacion": {
       "anio": 2026,
       "k": 5,
-      "aciertos": 4,
-      "tasa": 0.8,
+      "aciertos": 3,
+      "tasa": 0.6,
       "azar": 0.62,
       "top": [
        "comprension",
        "argumentacion",
        "sintaxis",
        "morfologia",
-       "lit98"
+       "teatro"
       ],
       "reales": [
        "argumentacion",
@@ -26434,11 +26586,11 @@
        "sintaxis"
       ]
      },
-     "confianza": "alta"
+     "confianza": "baja"
     },
     "matccss": {
      "nombre": "Matemáticas Aplicadas a las CC. Sociales II",
-     "n_examenes": 4,
+     "n_examenes": 6,
      "anios": [
       2025,
       2026
@@ -26451,8 +26603,18 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/40.pdf"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/exames/40.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/40.pdf"
       },
       {
        "anio": 2026,
@@ -26469,9 +26631,9 @@
       {
        "id": "matrices",
        "nombre": "Matrices y sistemas",
-       "p": 0.9,
+       "p": 0.617,
        "veces": 4,
-       "de": 4,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "4.3. Considere as matrices 𝑎 1 1 2 1 𝐴 = (0 𝑎 −1) 𝐵 = (1) 𝐶 = (𝑐 ) 𝑎 1 −1 𝑏 𝑐 Exprese en forma matricial o sistema de ecuacións que se obtén ao presentar a seguinte igualdade matricial 𝐴 ∙ 𝐵 = 𝐶.",
@@ -26480,9 +26642,9 @@
       {
        "id": "progl",
        "nombre": "Programación lineal",
-       "p": 0.9,
+       "p": 0.617,
        "veces": 4,
-       "de": 4,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "PREGUNTA 2. ÁLXEBRA. (2 puntos) Considérase o sistema de inecuacións dado por: 2𝑥 ≥ 3𝑦 − 7 𝑥+𝑦+1 ≥ 0 𝑥≤3 𝑥 + 2𝑦 ≤ 7 Responda estes dous apartados: 2.1. e 2.2. 2.1. Represente graficamente a rexión factible determinada polo sistema de inecuacións anterior e calcule os seus vértice…",
@@ -26491,9 +26653,9 @@
       {
        "id": "probabilidad",
        "nombre": "Probabilidad",
-       "p": 0.9,
+       "p": 0.617,
        "veces": 4,
-       "de": 4,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "PAU CÓDIGO 40 Convocatoria ordinaria 2026 MATEMÁTICAS APLICADAS ÁS CIENCIAS SOCIAIS II O exame consta de 4 preguntas de resposta obrigatoria: as preguntas 1 e 2 sen apartados optativos e as preguntas 3 e 4 con posibilidade de elección entre apartados. PREGUNTA 1. ESTATÍSTICA E PR…",
@@ -26502,9 +26664,9 @@
       {
        "id": "inferencia",
        "nombre": "Inferencia y distribución normal",
-       "p": 0.67,
+       "p": 0.459,
        "veces": 3,
-       "de": 4,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "4.1. A cantidade de auga (en litros) que se consume no lavado dun coche nunha estación de autolavado distribúese normalmente cunha desviación típica de 𝜎 = 20 litros. Tomada unha mostra de 𝑛 = 64 coches, determinouse que o consumo medio de auga está comprendido entre 76,1 litros …",
@@ -26513,9 +26675,9 @@
       {
        "id": "funciones",
        "nombre": "Funciones y derivadas",
-       "p": 0.454,
+       "p": 0.311,
        "veces": 2,
-       "de": 4,
+       "de": 6,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "PREGUNTA 3. ANÁLISE. (3 puntos) Responda un dos seguintes dous apartados: 3.1. ou 3.2. 3.1. CONTEXTO O beneficio dunha empresa depende basicamente das súas ventas. Cando as ventas son pequenas, o beneficio pode ser negativo debido aos custos fixos. Tamén pode ser negativo cando a…",
@@ -26524,9 +26686,9 @@
       {
        "id": "integrales",
        "nombre": "Integrales y áreas",
-       "p": 0.23,
+       "p": 0.157,
        "veces": 1,
-       "de": 4,
+       "de": 6,
        "ultimo": 2025,
        "tendencia": "estable",
        "muestra": "3.2.1. Calcule 𝑎𝑎 e 𝑏𝑏 sabendo que dita función pasa polo punto ( 4, 5 ) e ten un mínimo en 𝑥𝑥 = 1. 3.2.2. Para 𝑎𝑎 = 1 e 𝑏𝑏 = −2, calcule a área limitada por 𝑓𝑓(𝑥𝑥) e a recta 𝑦𝑦 = 𝑥𝑥 − 3.",
@@ -26543,8 +26705,8 @@
        "matrices",
        "progl",
        "probabilidad",
-       "funciones",
-       "integrales"
+       "integrales",
+       "funciones"
       ],
       "reales": [
        "funciones",
@@ -26558,7 +26720,7 @@
     },
     "matematicas2": {
      "nombre": "Matemáticas II",
-     "n_examenes": 7,
+     "n_examenes": 8,
      "anios": [
       2025,
       2026
@@ -26568,6 +26730,11 @@
        "anio": 2025,
        "conv": "ext",
        "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/exames/20.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/20.pdf"
       },
       {
        "anio": 2025,
@@ -26604,9 +26771,9 @@
       {
        "id": "geometria",
        "nombre": "Geometría en el espacio",
-       "p": 0.9,
+       "p": 0.808,
        "veces": 7,
-       "de": 7,
+       "de": 8,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "4.1. Sexa 𝑟 a recta que pasa pola orixe e por 𝑃′, sendo 𝑃′ o punto simétrico de 𝑃(1,0,1) con respecto ao punto 𝑄(0,1,0). Pídese:",
@@ -26615,9 +26782,9 @@
       {
        "id": "matrices",
        "nombre": "Matrices y determinantes",
-       "p": 0.729,
-       "veces": 5,
-       "de": 7,
+       "p": 0.757,
+       "veces": 6,
+       "de": 8,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "2.1. Considérese a igualdade matricial 𝐴(𝑋 − 𝐼)𝐵 = 𝐶, onde 𝑋 é cadrada e 𝐼 é a matriz identidade.",
@@ -26626,9 +26793,9 @@
       {
        "id": "sistemas",
        "nombre": "Sistemas de ecuaciones (discusión)",
-       "p": 0.601,
+       "p": 0.55,
        "veces": 4,
-       "de": 7,
+       "de": 8,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "2.2. Discuta, segundo os valores do parámetro 𝑚, o sistema (𝑚 − 4)𝑥 + 5𝑧 = 9, { (𝑚 − 1)𝑦 + 6𝑧 = 𝑚 + 8, (𝑚 − 4)𝑥 + (𝑚 − 1)𝑦 + 7𝑧 = 𝑚 + 9. PREGUNTA 3. ANÁLISE. (4 puntos)",
@@ -26637,9 +26804,9 @@
       {
        "id": "limites",
        "nombre": "Límites y continuidad",
-       "p": 0.601,
+       "p": 0.55,
        "veces": 4,
-       "de": 7,
+       "de": 8,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "3.1. Para cada un dos seguintes casos, debuxe, cando sexa posible, a gráfica dunha función que cumpra as propiedades indicadas: a) Continua pero non derivable en 𝑥 = 0. b) Continua en [𝑎, 𝑏], con 𝑓(𝑎)𝑓(𝑏) < 0, e cuxa gráfica corte ao eixe 𝑥 en máis dun punto do intervalo (𝑎, 𝑏). …",
@@ -26648,9 +26815,9 @@
       {
        "id": "derivadas",
        "nombre": "Derivadas y aplicaciones",
-       "p": 0.601,
+       "p": 0.55,
        "veces": 4,
-       "de": 7,
+       "de": 8,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "3.1. Para cada un dos seguintes casos, debuxe, cando sexa posible, a gráfica dunha función que cumpra as propiedades indicadas: a) Continua pero non derivable en 𝑥 = 0. b) Continua en [𝑎, 𝑏], con 𝑓(𝑎)𝑓(𝑏) < 0, e cuxa gráfica corte ao eixe 𝑥 en máis dun punto do intervalo (𝑎, 𝑏). …",
@@ -26659,9 +26826,9 @@
       {
        "id": "probabilidad",
        "nombre": "Probabilidad y distribuciones",
-       "p": 0.601,
+       "p": 0.55,
        "veces": 4,
-       "de": 7,
+       "de": 8,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "PREGUNTA 1. ESTATÍSTICA E PROBABILIDADE. (2 puntos)",
@@ -26670,9 +26837,9 @@
       {
        "id": "integrales",
        "nombre": "Integrales y áreas",
-       "p": 0.499,
+       "p": 0.358,
        "veces": 3,
-       "de": 7,
+       "de": 8,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "3.3. Calcule o valor que ten que tomar o parámetro positivo 𝑎 para que a área da rexión encerrada pola gráfica da función 𝑓(𝑥) = 𝑎𝑥 2 − 2𝑎𝑥 e o eixe 𝑥 sexa igual a 10 unidades de superficie. Faga un debuxo da rexión.",
@@ -26696,11 +26863,16 @@
     },
     "movimientos": {
      "nombre": "Movimientos Culturales y Artísticos",
-     "n_examenes": 1,
+     "n_examenes": 2,
      "anios": [
       2025
      ],
      "examenes": [
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/91.pdf"
+      },
       {
        "anio": 2025,
        "conv": "ord",
@@ -26745,7 +26917,7 @@
     },
     "portugues": {
      "nombre": "Lengua Extranjera II: Portugués",
-     "n_examenes": 9,
+     "n_examenes": 10,
      "anios": [
       2025,
       2026
@@ -26755,6 +26927,11 @@
        "anio": 2025,
        "conv": "ext",
        "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/exames/14.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/14.pdf"
       },
       {
        "anio": 2025,
@@ -26803,7 +26980,7 @@
     },
     "quimica": {
      "nombre": "Química",
-     "n_examenes": 9,
+     "n_examenes": 10,
      "anios": [
       2025,
       2026
@@ -26813,6 +26990,11 @@
        "anio": 2025,
        "conv": "ext",
        "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/exames/24.pdf"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/24.pdf"
       },
       {
        "anio": 2025,
@@ -26859,9 +27041,9 @@
       {
        "id": "equilibrio",
        "nombre": "Equilibrio químico y solubilidad",
-       "p": 0.691,
-       "veces": 6,
-       "de": 9,
+       "p": 0.717,
+       "veces": 7,
+       "de": 10,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "2.2. Calcule cal será a solubilidade, expresada en g/L, do BaSO4 a 25 °C. (1 punto)",
@@ -26870,9 +27052,9 @@
       {
        "id": "acidobase",
        "nombre": "Ácido-base",
-       "p": 0.691,
-       "veces": 6,
-       "de": 9,
+       "p": 0.717,
+       "veces": 7,
+       "de": 10,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "4.1. Unha disolución dun ácido débil HA de concentración 0,02 M ten unha constante de ionización Ka= 3∙10-6: 4.1.1. Calcule as concentracións no equilibrio de todas as especies. (1 punto) 4.1.2. Determine o pH de dita disolución e a constante Kb da súa base conxugada. (1 punto) 4…",
@@ -26881,9 +27063,9 @@
       {
        "id": "estructura",
        "nombre": "Estructura atómica y tabla periódica",
-       "p": 0.596,
-       "veces": 5,
-       "de": 9,
+       "p": 0.63,
+       "veces": 6,
+       "de": 10,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "4.2. Responda os tres subapartados seguintes: 4.2.1. Discuta razoadamente se a especie CO2 é polar. (1 punto) 4.2.2. Dadas as especies CO2 e carbono diamante asígnelles razoadamente os seguintes valores dos puntos de fusión; -56,6 °C e 4027 °C. (1 punto) 4.2.3. Dados os elementos…",
@@ -26892,9 +27074,9 @@
       {
        "id": "enlace",
        "nombre": "Enlace químico",
-       "p": 0.596,
-       "veces": 5,
-       "de": 9,
+       "p": 0.63,
+       "veces": 6,
+       "de": 10,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "PREGUNTA 4. REACCIÓNS QUÍMICAS / ENLACE QUÍMICO E ESTRUTURA DA MATERIA (2,5 puntos)",
@@ -26903,9 +27085,9 @@
       {
        "id": "organica",
        "nombre": "Química orgánica",
-       "p": 0.596,
-       "veces": 5,
-       "de": 9,
+       "p": 0.63,
+       "veces": 6,
+       "de": 10,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "PREGUNTA 3. REACCIÓNS QUÍMICAS / QUÍMICA ORGÁNICA (2,5 puntos)",
@@ -26914,9 +27096,9 @@
       {
        "id": "termo",
        "nombre": "Termoquímica y espontaneidad",
-       "p": 0.501,
-       "veces": 4,
-       "de": 9,
+       "p": 0.542,
+       "veces": 5,
+       "de": 10,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "Unha das posibles solucións para loitar contra o quecemento global, causado en gran medida pola emisión de CO2 procedente da queima de combustíbeis fósiles, é substituír ditos combustíbeis por hidróxeno, dado que a súa combustión só produce auga. Sen embargo, o hidróxeno apenas e…",
@@ -26925,9 +27107,9 @@
       {
        "id": "redox",
        "nombre": "Redox y electroquímica",
-       "p": 0.321,
-       "veces": 3,
-       "de": 9,
+       "p": 0.468,
+       "veces": 4,
+       "de": 10,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "1.2. Sabendo que o potencial estándar Eo da electrólise da auga H2O(l) → H2(g) + ½ O2(g) é -1,23V, deseñe unha pila (cela galvánica) que puidera proporcionar a enerxía necesaria para levar a cabo este proceso, escollendo para este fin os materiais e reactivos que considere necesa…",
@@ -26936,9 +27118,9 @@
       {
        "id": "cinetica",
        "nombre": "Cinética química",
-       "p": 0.294,
-       "veces": 3,
-       "de": 9,
+       "p": 0.344,
+       "veces": 4,
+       "de": 10,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "3.1. Nun reactor de 30 L introdúcense 160 g de CO2 e certa cantidade que se descoñece de H2S. Cando se alcanza a temperatura de 500°C, establécese o seguinte equilibrio, sendo nese intre a presión total do sistema de 12 atm e formándose 120 g de COS: CO2(g) + H2S(g) ⇄ COS(g) + H2…",
@@ -26988,7 +27170,7 @@
      "confianza": "sin_temario"
     }
    },
-   "predecibilidad": 0.79
+   "predecibilidad": 0.76
   },
   "madrid": {
    "nombre": "Comunidad de Madrid",
@@ -51682,31 +51864,31 @@
    {
     "id": "normalizacion",
     "nombre": "Normalización y vistas",
-    "p": 0.653,
+    "p": 0.652,
     "ccaa": 13
    },
    {
     "id": "axonometrico",
     "nombre": "Axonométrico y perspectiva",
-    "p": 0.616,
+    "p": 0.614,
     "ccaa": 13
    },
    {
     "id": "diedrico",
     "nombre": "Sistema diédrico",
-    "p": 0.542,
+    "p": 0.544,
     "ccaa": 13
    },
    {
     "id": "geometriaplana",
     "nombre": "Geometría plana (tangencias, transformaciones)",
-    "p": 0.532,
+    "p": 0.524,
     "ccaa": 13
    },
    {
     "id": "conicas",
     "nombre": "Cónicas",
-    "p": 0.457,
+    "p": 0.452,
     "ccaa": 13
    }
   ],
@@ -51714,37 +51896,37 @@
    {
     "id": "contabilidad",
     "nombre": "Balance y análisis financiero (ratios)",
-    "p": 0.79,
+    "p": 0.786,
     "ccaa": 14
    },
    {
     "id": "marketing",
     "nombre": "Marketing",
-    "p": 0.764,
+    "p": 0.761,
     "ccaa": 14
    },
    {
     "id": "financiacion",
     "nombre": "Inversión y financiación (VAN, TIR, payback)",
-    "p": 0.714,
+    "p": 0.711,
     "ccaa": 14
    },
    {
     "id": "produccion",
     "nombre": "Producción, costes y umbral de rentabilidad",
-    "p": 0.686,
+    "p": 0.679,
     "ccaa": 14
    },
    {
     "id": "modelonegocio",
     "nombre": "Modelo de negocio y emprendimiento (Canvas)",
-    "p": 0.472,
+    "p": 0.467,
     "ccaa": 14
    },
    {
     "id": "organizacion",
     "nombre": "Organización y dirección",
-    "p": 0.379,
+    "p": 0.376,
     "ccaa": 14
    }
   ],
@@ -51752,43 +51934,43 @@
    {
     "id": "platon",
     "nombre": "Platón",
-    "p": 0.495,
+    "p": 0.497,
     "ccaa": 13
    },
    {
     "id": "descartes",
     "nombre": "Descartes",
-    "p": 0.33,
+    "p": 0.329,
     "ccaa": 13
    },
    {
     "id": "kant",
     "nombre": "Kant",
-    "p": 0.294,
+    "p": 0.293,
     "ccaa": 13
    },
    {
     "id": "aristoteles",
     "nombre": "Aristóteles",
-    "p": 0.246,
-    "ccaa": 13
-   },
-   {
-    "id": "empirismo",
-    "nombre": "Hume / Locke",
-    "p": 0.235,
+    "p": 0.25,
     "ccaa": 13
    },
    {
     "id": "contemporanea",
     "nombre": "Filosofía contemporánea (Arendt, Wittgenstein, Beauvoir…)",
-    "p": 0.235,
+    "p": 0.239,
+    "ccaa": 13
+   },
+   {
+    "id": "empirismo",
+    "nombre": "Hume / Locke",
+    "p": 0.238,
     "ccaa": 13
    },
    {
     "id": "nietzsche",
     "nombre": "Nietzsche",
-    "p": 0.228,
+    "p": 0.231,
     "ccaa": 13
    },
    {
@@ -51806,7 +51988,7 @@
    {
     "id": "ortega",
     "nombre": "Ortega y Gasset",
-    "p": 0.086,
+    "p": 0.085,
     "ccaa": 13
    }
   ],
@@ -51814,37 +51996,37 @@
    {
     "id": "gravitacion",
     "nombre": "Campo gravitatorio",
-    "p": 0.765,
+    "p": 0.766,
     "ccaa": 14
    },
    {
     "id": "ondas",
     "nombre": "Ondas y sonido",
-    "p": 0.649,
+    "p": 0.65,
     "ccaa": 14
    },
    {
     "id": "optica",
     "nombre": "Óptica",
-    "p": 0.648,
+    "p": 0.65,
     "ccaa": 14
    },
    {
     "id": "moderna",
     "nombre": "Física moderna (cuántica, nuclear, relatividad)",
-    "p": 0.642,
+    "p": 0.643,
     "ccaa": 14
    },
    {
     "id": "magnetico",
     "nombre": "Campo magnético e inducción",
-    "p": 0.623,
+    "p": 0.624,
     "ccaa": 14
    },
    {
     "id": "electrico",
     "nombre": "Campo eléctrico",
-    "p": 0.621,
+    "p": 0.622,
     "ccaa": 14
    }
   ],
@@ -51954,37 +52136,37 @@
    {
     "id": "franquismo",
     "nombre": "Franquismo (1939-1975)",
-    "p": 0.286,
+    "p": 0.287,
     "ccaa": 13
    },
    {
     "id": "restauracion",
     "nombre": "Restauración (1874-1931)",
-    "p": 0.275,
+    "p": 0.276,
     "ccaa": 13
    },
    {
     "id": "transicion",
     "nombre": "Transición y democracia",
-    "p": 0.247,
+    "p": 0.246,
     "ccaa": 13
    },
    {
     "id": "moderna",
     "nombre": "Monarquía hispánica (Reyes Católicos, Austrias, Borbones s. XVIII)",
-    "p": 0.235,
+    "p": 0.233,
     "ccaa": 13
    },
    {
     "id": "republica",
     "nombre": "Segunda República (1931-1936)",
-    "p": 0.226,
+    "p": 0.225,
     "ccaa": 13
    },
    {
     "id": "antigua",
     "nombre": "Prehistoria a Edad Media (Al-Ándalus, reinos cristianos)",
-    "p": 0.2,
+    "p": 0.199,
     "ccaa": 13
    }
   ],
@@ -51992,19 +52174,19 @@
    {
     "id": "writing",
     "nombre": "Redacción (opinión, carta, email)",
-    "p": 0.87,
+    "p": 0.868,
     "ccaa": 13
    },
    {
     "id": "reading",
     "nombre": "Comprensión lectora (true/false, preguntas)",
-    "p": 0.663,
+    "p": 0.661,
     "ccaa": 13
    },
    {
     "id": "vocab",
     "nombre": "Vocabulario (sinónimos, definiciones)",
-    "p": 0.525,
+    "p": 0.526,
     "ccaa": 13
    },
    {
@@ -52050,43 +52232,43 @@
    {
     "id": "morfologia",
     "nombre": "Léxico, morfología y semántica",
-    "p": 0.462,
+    "p": 0.465,
     "ccaa": 14
    },
    {
     "id": "sintaxis",
     "nombre": "Sintaxis (oración compuesta)",
-    "p": 0.364,
+    "p": 0.365,
     "ccaa": 14
    },
    {
     "id": "argumentacion",
     "nombre": "Texto argumentativo / opinión",
-    "p": 0.323,
+    "p": 0.325,
     "ccaa": 14
    },
    {
     "id": "novela",
     "nombre": "Novela del siglo XX y actual",
-    "p": 0.249,
+    "p": 0.251,
     "ccaa": 14
    },
    {
     "id": "comprension",
     "nombre": "Comprensión y resumen del texto",
-    "p": 0.246,
+    "p": 0.248,
     "ccaa": 14
    },
    {
     "id": "teatro",
     "nombre": "Teatro del siglo XX",
-    "p": 0.197,
+    "p": 0.198,
     "ccaa": 14
    },
    {
     "id": "lit27",
     "nombre": "Literatura: 27, Lorca, poesía de posguerra",
-    "p": 0.168,
+    "p": 0.167,
     "ccaa": 14
    },
    {
@@ -52100,37 +52282,37 @@
    {
     "id": "probabilidad",
     "nombre": "Probabilidad",
-    "p": 0.738,
+    "p": 0.731,
     "ccaa": 13
    },
    {
     "id": "inferencia",
     "nombre": "Inferencia y distribución normal",
-    "p": 0.613,
+    "p": 0.607,
     "ccaa": 13
    },
    {
     "id": "funciones",
     "nombre": "Funciones y derivadas",
-    "p": 0.611,
+    "p": 0.605,
     "ccaa": 13
    },
    {
     "id": "matrices",
     "nombre": "Matrices y sistemas",
-    "p": 0.59,
+    "p": 0.584,
     "ccaa": 13
    },
    {
     "id": "progl",
     "nombre": "Programación lineal",
-    "p": 0.383,
+    "p": 0.38,
     "ccaa": 13
    },
    {
     "id": "integrales",
     "nombre": "Integrales y áreas",
-    "p": 0.266,
+    "p": 0.263,
     "ccaa": 13
    }
   ],
@@ -52138,43 +52320,43 @@
    {
     "id": "geometria",
     "nombre": "Geometría en el espacio",
-    "p": 0.806,
+    "p": 0.803,
     "ccaa": 13
    },
    {
     "id": "probabilidad",
     "nombre": "Probabilidad y distribuciones",
-    "p": 0.766,
+    "p": 0.763,
     "ccaa": 13
    },
    {
     "id": "matrices",
     "nombre": "Matrices y determinantes",
-    "p": 0.704,
+    "p": 0.706,
     "ccaa": 13
    },
    {
     "id": "derivadas",
     "nombre": "Derivadas y aplicaciones",
-    "p": 0.636,
+    "p": 0.634,
     "ccaa": 13
    },
    {
     "id": "integrales",
     "nombre": "Integrales y áreas",
-    "p": 0.62,
+    "p": 0.614,
     "ccaa": 13
    },
    {
     "id": "sistemas",
     "nombre": "Sistemas de ecuaciones (discusión)",
-    "p": 0.583,
+    "p": 0.581,
     "ccaa": 13
    },
    {
     "id": "limites",
     "nombre": "Límites y continuidad",
-    "p": 0.518,
+    "p": 0.516,
     "ccaa": 13
    }
   ],
@@ -52182,7 +52364,7 @@
    {
     "id": "acidobase",
     "nombre": "Ácido-base",
-    "p": 0.824,
+    "p": 0.825,
     "ccaa": 12
    },
    {
@@ -52194,37 +52376,37 @@
    {
     "id": "organica",
     "nombre": "Química orgánica",
-    "p": 0.791,
+    "p": 0.792,
     "ccaa": 12
    },
    {
     "id": "redox",
     "nombre": "Redox y electroquímica",
-    "p": 0.639,
+    "p": 0.645,
     "ccaa": 12
    },
    {
     "id": "termo",
     "nombre": "Termoquímica y espontaneidad",
-    "p": 0.628,
+    "p": 0.63,
     "ccaa": 12
    },
    {
     "id": "enlace",
     "nombre": "Enlace químico",
-    "p": 0.589,
+    "p": 0.591,
     "ccaa": 12
    },
    {
     "id": "estructura",
     "nombre": "Estructura atómica y tabla periódica",
-    "p": 0.561,
+    "p": 0.563,
     "ccaa": 12
    },
    {
     "id": "cinetica",
     "nombre": "Cinética química",
-    "p": 0.253,
+    "p": 0.256,
     "ccaa": 12
    }
   ],
@@ -52232,31 +52414,31 @@
    {
     "id": "sigloxix",
     "nombre": "Goya y siglo XIX",
-    "p": 0.401,
+    "p": 0.406,
     "ccaa": 12
    },
    {
     "id": "barroco",
     "nombre": "Barroco",
-    "p": 0.344,
+    "p": 0.348,
     "ccaa": 12
    },
    {
     "id": "renacimiento",
     "nombre": "Renacimiento",
-    "p": 0.328,
+    "p": 0.323,
     "ccaa": 12
    },
    {
     "id": "clasico",
     "nombre": "Arte clásico (Grecia y Roma)",
-    "p": 0.29,
+    "p": 0.297,
     "ccaa": 12
    },
    {
     "id": "vanguardias",
     "nombre": "Vanguardias y siglo XX",
-    "p": 0.29,
+    "p": 0.286,
     "ccaa": 12
    },
    {
