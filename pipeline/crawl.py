@@ -172,8 +172,9 @@ class Rastreador:
                 if '.'.join(host.split('.')[-2:]) not in dominios and host != 'drive.google.com': continue
                 if host == 'drive.google.com' and not es_pdf(u): continue
                 info = {'texto': texto, 'contexto': ctx, 'pagina': r.url, 'titulo': titulo, 'ruta': ruta}
-                if es_pdf(u):
-                    if es_gestor(u) and not parece_examen(texto, u):
+                solo_pdf = bool(re.fullmatch(r'\s*(pdf|descargar( pdf)?|descarga)\s*', texto, re.I))   # CiUG: enlaces «PDF» a /link/…
+                if es_pdf(u) or solo_pdf:
+                    if es_gestor(u) and not parece_examen(ctx if solo_pdf else texto, u):
                         continue                         # /file/… o /documents/d/… que no nombra materia ni examen (ayudas, presupuestos…)
                     encontrados.setdefault(u, info)
                 elif d < self.cfg['profundidad'] and ENLACE_INTERES.search(u + ' ' + texto) and u not in visto \
