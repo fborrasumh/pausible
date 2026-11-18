@@ -306,7 +306,7 @@ CABECERA_MANDA = {'si': False, 'codigos': {}}
 def completa_con_texto(d, texto, anios):
     """Si el enlace no decía la materia, la convocatoria o el año, se miran en la cabecera del propio examen
     (Galicia nombra los PDF por código: «20.pdf» = «MATEMÁTICAS II · CÓDIGO 20»)."""
-    cab = texto[:1500]
+    cab = re.sub(r'[ \t\u00a0]+', ' ', texto[:20000])[:1500]   # pdftotext -layout mete cientos de espacios
     if CABECERA_MANDA['si'] and EXAMEN_RX.search(norm(cab[:800])):
         mk = re.search(r'c[óo]digo:?\s*(\d{2})\b', cab[:800], re.I)
         mc = CABECERA_MANDA['codigos'].get(mk.group(1)) if mk else None   # CiUG: «CÓDIGO 21» = Bioloxía (el texto puede nombrar otras cosas)
