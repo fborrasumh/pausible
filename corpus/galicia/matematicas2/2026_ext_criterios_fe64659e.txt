@@ -1,0 +1,550 @@
+                                              PAU 2026
+                                     CONVOCATORIA EXTRAORDINARIA
+                                     CRITERIOS DE AVALIACIÓN
+                                             MATEMÁTICAS II
+                                                  (Cód. 20)
+
+                                               CRITERIOS
+O exame consta de 4 preguntas de resposta obrigatoria: a primeira sen apartados optativos e as tres
+seguintes con posibilidade de elección entre apartados. Deben xustificarse todas as respostas.
+
+PREGUNTA 1. ESTATÍSTICA E PROBABILIDADE. (2 puntos)
+
+1.1. 0.75 puntos, repartidos así:
+         • 0.25 puntos por chegar a P(45 <= X <= 70) = P(-0.26 <= Z <= 1.03),
+         • 0.25 puntos por chegar a P(Z <= 1.03) - P(Z < -0.26),
+         • 0.25 puntos por los cálculos finais.
+
+
+1.2. 1.25 puntos, repartidos así (se A é o suceso “estar na feira menos de 60 minutos” e B “estar na feira
+     polo menos 45 minutos”):
+         • 0.25 puntos por saber que se pide P(A|B) e por saber que P(A|B) = P(A∩B)/P(B),
+         • 0.25 puntos por calcular P(B),
+         • 0.5 puntos por calcular 𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵).
+         • 0.25 puntos por dar o valor de P(A|B).
+
+
+
+
+PREGUNTA 2. ÁLXEBRA. (2 puntos)
+
+Responda un destes dous apartados: 2.1. ou 2.2.
+
+2.1.
+
+       2.1.1. 1.25 puntos, repartidos así:
+                  • 0.25 puntos por calcular X,
+                  • 0.25 puntos por calcular Y,
+                  • 0.25 puntos por ver que X é invertible,
+                  • 0.25 puntos por ver que Y non é invertible,
+                  • 0.25 puntos por calcular a inversa de X.
+
+       2.1.2. 0.75 puntos.
+
+
+
+
+2.2. 2 puntos, repartidos así:
+         • 0.5 puntos por resolver det(𝐴𝐴) = 0,
+         • 0.5 puntos polo caso 𝑚𝑚 ≠ −2.
+         • 1 punto polo caso 𝑚𝑚 = −2 (0.5 polo estudo dos rangos e 0.5 pola conclusión).
+PREGUNTA 3. ANÁLISE. (4 puntos)
+
+Responda dous destes tres apartados: 3.1., 3.2., 3.3.
+
+3.1. 2 puntos, repartidos así:
+         • 1 punto por chegar ás catro ecuacións.
+         • 1 punto por resolver o sistema.
+
+
+3.2. 2 puntos, repartidos así:
+         • 1 punto pola gráfica.
+         • 1 punto polas explicacións.
+
+
+3.3. 2 puntos, repartidos así:
+         • 1 punto polo debuxo.
+         • 1 punto polo cálculo da área.
+
+
+
+
+PREGUNTA 4. XEOMETRÍA. (2 puntos)
+
+Responda un destes dous apartados: 4.1. ou 4.2.
+
+4.1.
+
+       4.1.1. 1 punto.
+
+
+
+       4.1.2. 1 punto, repartido así:
+                  • 0.5 puntos por comprobar que 𝑟𝑟 é paralela a 𝜋𝜋 ∗.
+                  • 0.5 puntos por calcular a distancia de 𝑟𝑟 a 𝜋𝜋 ∗.
+
+4.2.
+
+       4.2.1. 0.75 puntos.
+       4.2.2. 1.25 puntos, repartidos así:
+                  • 0.5 puntos polo cálculo da recta que pasa por 𝑃𝑃 e é perpendicular a 𝜋𝜋.
+                  • 0.5 puntos por calcular o punto de corte da recta que pasa por 𝑃𝑃 e é perpendicular a 𝜋𝜋 co
+                     plano 𝜋𝜋.
+                  • 0.25 puntos por calcular o punto simétrico pedido 𝑃𝑃′′.
+                                                      PAU                                         CÓDIGO 20
+                                        Convocatoria extraordinaria 2026
+                                               MATEMÁTICAS II
+O exame consta de 4 preguntas de resposta obrigatoria: a primeira sen apartados optativos e as tres
+seguintes con posibilidade de elección entre apartados. Deben xustificarse todas as respostas.
+
+PREGUNTA 1. ESTATÍSTICA E PROBABILIDADE. (2 puntos)
+
+CONTEXTO
+Os índices de lectura tanto de libros coma de cómics están aumentando nos últimos anos, con especial
+incidencia entre os adolescentes. Segundo un informe sobre hábitos de lectura, máis do 60 % da
+poboación leu un libro ou un cómic nos últimos tres meses.
+
+Para promover o hábito da lectura, dentro da política cultural do concello, os responsables municipais
+dunha cidade galega están a organizar unha feira de cómics para o vindeiro mes de setembro. Segundo
+os datos proporcionados polos organizadores doutras feiras similares, o tempo que unha persoa vai pasar
+en dita feira pode considerarse que segue unha distribución normal de media igual a 50 minutos e
+desviación típica igual a 19.5 minutos.
+
+Responda estes dous apartados: 1.1. e 1.2.
+(Será preciso usar algún ou algúns dos seguintes valores, aínda que non todos (enténdase que 𝑍𝑍 segue
+unha distribución 𝑁𝑁(0,1)): 𝑷𝑷(𝒁𝒁 ≤ 𝟎𝟎. 𝟏𝟏) = 0.5398, 𝑷𝑷(𝒁𝒁 ≤ 𝟎𝟎. 𝟐𝟐𝟐𝟐) = 0.6026, 𝑷𝑷(𝒁𝒁 ≤ 𝟎𝟎. 𝟓𝟓𝟓𝟓) = 0.6950,
+𝑷𝑷(𝒁𝒁 ≤ 𝟏𝟏. 𝟎𝟎𝟎𝟎) = 0.8485, 𝑷𝑷(𝒁𝒁 ≤ 𝟏𝟏. 𝟐𝟐𝟐𝟐) = 0.8997, 𝑷𝑷(𝒁𝒁 ≤ 𝟐𝟐. 𝟑𝟑𝟑𝟑) = 0.9901.)
+
+1.1. Calcule a probabilidade de que un asistente pase entre 45 e 70 minutos na feira.
+
+1.2. Se unha persoa entrou á feira ás 17:00, calcule a probabilidade de que saia antes das 18:00 sabendo
+     que ás 17:45 aínda estaba na feira.
+
+
+PREGUNTA 2. ÁLXEBRA. (2 puntos)
+
+Responda un destes dous apartados: 2.1. ou 2.2.
+
+                                            1 0 1
+                             1 0 1
+2.1. Dadas as matrices 𝐴𝐴 = �     � e 𝐵𝐵 = �0 1 0�, pídese responder as seguintes cuestións:
+                             0 2 0
+                                            1 0 1
+
+    2.1.1. Calcule as matrices 𝑋𝑋 = 𝐴𝐴𝐴𝐴𝑇𝑇 e 𝑌𝑌 = 𝐴𝐴𝑇𝑇 𝐴𝐴, sendo 𝐴𝐴𝑇𝑇 a matriz trasposta de 𝐴𝐴. Son 𝑋𝑋 ou 𝑌𝑌 invertibles?
+           Razoe a resposta e calcule as inversas en caso de que sexa posible.
+                                                  𝑎𝑎
+    2.1.2. Calcule as matrices da forma 𝑀𝑀 = �𝑏𝑏 � tales que 𝐵𝐵𝐵𝐵 = 𝑀𝑀.
+                                                   𝑐𝑐
+
+
+2.2. Discuta, segundo os valores do parámetro 𝑚𝑚, o sistema
+                               2𝑥𝑥 + (2𝑚𝑚 − 2)𝑦𝑦 +          (𝑚𝑚 + 6)𝑧𝑧          =      9,
+                              � 𝑥𝑥 +     (𝑚𝑚 − 2)𝑦𝑦 +              3𝑧𝑧          =      2,
+                                                 2𝑦𝑦 + (2𝑚𝑚 + 2)𝑧𝑧              = 𝑚𝑚 − 5.
+PREGUNTA 3. ANÁLISE. (4 puntos)
+
+Responda dous destes tres apartados: 3.1., 3.2., 3.3.
+
+3.1. Dado o polinomio 𝑝𝑝(𝑥𝑥) = 𝑎𝑎𝑥𝑥 3 + 𝑏𝑏𝑥𝑥 2 + 𝑐𝑐𝑐𝑐 + 𝑑𝑑, calcule os coeficientes 𝑎𝑎, 𝑏𝑏, 𝑐𝑐 e 𝑑𝑑 se se sabe que 𝑝𝑝 ten un
+     extremo relativo en (1, −6) e que a ecuación da recta tanxente á gráfica de 𝑝𝑝 en 𝑥𝑥 = −1 é 𝑦𝑦 = 4𝑥𝑥 + 2.
+
+3.2. Debuxe a gráfica dunha función 𝑓𝑓: ℝ ∖ {2} → ℝ que teña as seguintes propiedades:
+
+         •    𝑓𝑓, 𝑓𝑓′ e 𝑓𝑓′′ teñen o mesmo signo no intervalo (−1,2) e
+         •     lim+ 𝑓𝑓(𝑥𝑥) = −∞.
+              𝑥𝑥→2
+
+     Logo, dea explicacións relacionando o debuxo coa monotonía, a convexidade ou concavidade e o
+     concepto de asíntota.
+
+                                                      4        𝜋𝜋 2
+3.3. Dadas as funcións 𝑓𝑓(𝑥𝑥) = cos 𝑥𝑥 e 𝑔𝑔(𝑥𝑥) = 2 �𝑥𝑥 − � , debuxe a rexión encerrada polas súas gráficas e
+                                                 𝜋𝜋      2
+     calcule a súa área.
+
+
+PREGUNTA 4. XEOMETRÍA. (2 puntos)
+
+Responda un destes dous apartados: 4.1. ou 4.2.
+
+                             𝑥𝑥−1       𝑦𝑦−1    𝑧𝑧
+4.1. Considere a recta 𝑟𝑟:
+                              2
+                                    =    1
+                                               =3.
+
+     4.1.1. Calcule a ecuación implícita ou xeral do plano 𝜋𝜋 que contén á recta 𝑟𝑟 e ao punto 𝑄𝑄(2, −1,1).
+     4.1.2. Comprobe que a recta 𝑟𝑟 é paralela ao plano 𝜋𝜋 ∗ : 𝑥𝑥 + 𝑦𝑦 − 𝑧𝑧 − 1 = 0. Calcule a distancia de 𝑟𝑟 a 𝜋𝜋 ∗.
+
+4.2. Considere o punto 𝑃𝑃(3,0, −1).
+
+     4.2.1. Calcule o punto 𝑃𝑃′ simétrico de 𝑃𝑃 con respecto ao punto 𝑄𝑄(2, −1,2).
+     4.2.2. Calcule o punto 𝑃𝑃′′ simétrico de 𝑃𝑃 con respecto ao plano 𝜋𝜋: 𝑥𝑥 + 2 𝑦𝑦 + 𝑧𝑧 − 8 = 0.
+                                                   PAU                                    CÓDIGO 20
+                                     Convocatoria extraordinaria 2026
+                                            MATEMÁTICAS II
+El examen consta de 4 preguntas de respuesta obligatoria: la primera sin apartados optativos y las
+tres siguientes con posibilidad de elección entre apartados. Deben justificarse todas las respuestas.
+
+PREGUNTA 1. ESTADÍSTICA Y PROBABILIDAD. (2 puntos)
+
+CONTEXTO
+Los índices de lectura tanto de libros como de cómics están aumentando en los últimos años, con especial
+incidencia entre los adolescentes. Según un informe sobre hábitos de lectura, más del 60 % de la
+población leyó un libro o un cómic en los últimos tres meses.
+
+Para promover el hábito de la lectura, dentro de la política cultural del ayuntamiento, los responsables
+municipales de una ciudad gallega están organizando una feria de cómics para el próximo mes de
+septiembre. Según los datos proporcionados por los organizadores de otras ferias similares, el tiempo
+que una persona va a pasar en dicha feria puede considerarse que sigue una distribución normal de
+media igual a 50 minutos y desviación típica igual a 19.5 minutos.
+
+Responda estos dos apartados: 1.1. y 1.2.
+(Será preciso usar alguno o algunos de los siguientes valores, aunque no todos (entiéndase que 𝑍𝑍 sigue
+una distribución 𝑁𝑁(0,1)): 𝑷𝑷(𝒁𝒁 ≤ 𝟎𝟎. 𝟏𝟏) = 0.5398, 𝑷𝑷(𝒁𝒁 ≤ 𝟎𝟎. 𝟐𝟐𝟐𝟐) = 0.6026, 𝑷𝑷(𝒁𝒁 ≤ 𝟎𝟎. 𝟓𝟓𝟓𝟓) = 0.6950,
+𝑷𝑷(𝒁𝒁 ≤ 𝟏𝟏. 𝟎𝟎𝟎𝟎) = 0.8485, 𝑷𝑷(𝒁𝒁 ≤ 𝟏𝟏. 𝟐𝟐𝟐𝟐) = 0.8997, 𝑷𝑷(𝒁𝒁 ≤ 𝟐𝟐. 𝟑𝟑𝟑𝟑) = 0.9901.)
+
+1.1. Calcule la probabilidad de que un asistente pase entre 45 y 70 minutos en la feria.
+
+1.2. Si una persona entró a la feria a las 17:00, calcule la probabilidad de que salga antes de las 18:00
+     sabiendo que a las 17:45 aún estaba en la feria.
+
+
+PREGUNTA 2. ÁLGEBRA. (2 puntos)
+
+Responda uno de estos dos apartados: 2.1. o 2.2.
+
+                                             1 0 1
+                              1 0 1
+2.1. Dadas las matrices 𝐴𝐴 = �     � y 𝐵𝐵 = �0 1 0�, se pide responder las siguientes cuestiones:
+                              0 2 0
+                                             1 0 1
+
+    2.1.1. Calcule las matrices 𝑋𝑋 = 𝐴𝐴𝐴𝐴𝑇𝑇 e 𝑌𝑌 = 𝐴𝐴𝑇𝑇 𝐴𝐴, siendo 𝐴𝐴𝑇𝑇 la matriz traspuesta de 𝐴𝐴. ¿Son 𝑋𝑋 o 𝑌𝑌
+           invertibles? Razone la respuesta y calcule las inversas en caso de que sea posible.
+                                                   𝑎𝑎
+    2.1.2. Calcule las matrices de la forma 𝑀𝑀 = �𝑏𝑏� tales que 𝐵𝐵𝐵𝐵 = 𝑀𝑀.
+                                                   𝑐𝑐
+
+2.2. Discuta, según los valores del parámetro 𝑚𝑚, el sistema
+                                2𝑥𝑥 + (2𝑚𝑚 − 2)𝑦𝑦 +          (𝑚𝑚 + 6)𝑧𝑧   =      9,
+                               � 𝑥𝑥 +      (𝑚𝑚 − 2)𝑦𝑦 +             3𝑧𝑧   =      2,
+                                                   2𝑦𝑦 + (2𝑚𝑚 + 2)𝑧𝑧      = 𝑚𝑚 − 5.
+PREGUNTA 3. ANÁLISIS. (4 puntos)
+
+Responda dos de estos tres apartados: 3.1., 3.2., 3.3.
+
+3.1. Dado el polinomio 𝑝𝑝(𝑥𝑥) = 𝑎𝑎𝑥𝑥 3 + 𝑏𝑏𝑥𝑥 2 + 𝑐𝑐𝑐𝑐 + 𝑑𝑑, calcule los coeficientes 𝑎𝑎, 𝑏𝑏, 𝑐𝑐 y 𝑑𝑑 si se sabe que 𝑝𝑝 tiene
+     un extremo relativo en (1, −6) y que la ecuación de la recta tangente a la gráfica de 𝑝𝑝 en 𝑥𝑥 = −1 es
+     𝑦𝑦 = 4𝑥𝑥 + 2.
+
+3.2. Dibuje la gráfica de una función 𝑓𝑓: ℝ ∖ {2} → ℝ que tenga las siguientes propiedades:
+
+          •   𝑓𝑓, 𝑓𝑓′ y 𝑓𝑓′′ tienen el mismo signo en el intervalo (−1,2) y
+          •    lim+ 𝑓𝑓(𝑥𝑥) = −∞.
+              𝑥𝑥→2
+
+     Luego, dé explicaciones relacionando el dibujo con la monotonía, la convexidad o concavidad y el
+     concepto de asíntota.
+
+                                                         4        𝜋𝜋 2
+3.3. Dadas las funciones 𝑓𝑓(𝑥𝑥) = cos 𝑥𝑥 y 𝑔𝑔(𝑥𝑥) = 2 �𝑥𝑥 − � , dibuje la región encerrada por sus gráficas y
+                                                   𝜋𝜋      2
+     calcule su área.
+
+
+PREGUNTA 4. GEOMETRÍA. (2 puntos)
+
+Responda uno de estos dos apartados: 4.1. o 4.2.
+
+                              𝑥𝑥−1       𝑦𝑦−1    𝑧𝑧
+4.1. Considere la recta 𝑟𝑟:
+                               2
+                                     =    1
+                                                =3.
+
+     4.1.1. Calcule la ecuación implícita o general del plano 𝜋𝜋 que contiene a la recta 𝑟𝑟 y al punto 𝑄𝑄(2, −1,1).
+     4.1.2. Compruebe que la recta 𝑟𝑟 es paralela al plano 𝜋𝜋 ∗ : 𝑥𝑥 + 𝑦𝑦 − 𝑧𝑧 − 1 = 0. Calcule la distancia de 𝑟𝑟 a 𝜋𝜋 ∗.
+
+4.2. Considere el punto 𝑃𝑃(3,0, −1).
+
+     4.2.1. Calcule el punto 𝑃𝑃′ simétrico de 𝑃𝑃 con respecto al punto 𝑄𝑄(2, −1,2).
+     4.2.2. Calcule el punto 𝑃𝑃′′ simétrico de 𝑃𝑃 con respecto al plano 𝜋𝜋: 𝑥𝑥 + 2 𝑦𝑦 + 𝑧𝑧 − 8 = 0.
+                                                 PAU                             CÓDIGO 20
+                                   Convocatoria extraordinaria 2026
+                                          MATEMÁTICAS II
+PREGUNTA 1
+
+
+Sexa 𝑋𝑋~𝑁𝑁(50,19.5) a variable aleatoria que representa o tempo, en minutos, que unha persoa
+pasa na feira, e sexa
+                                                     𝑋𝑋 − 50
+                                              𝑍𝑍 =
+                                                       19.5
+a variable tipificada, de xeito que 𝑍𝑍~𝑁𝑁(0,1).
+1.1.
+                                    −5          20
+        𝑷𝑷(𝟒𝟒𝟒𝟒 ≤ 𝑿𝑿 ≤ 𝟕𝟕𝟕𝟕) = 𝑃𝑃 �     ≤ 𝑍𝑍 ≤     � = 𝑃𝑃(−0.26 ≤ 𝑍𝑍 ≤ 1.03)
+                                   19.5        19.5
+                        = 𝑃𝑃(𝑍𝑍 ≤ 1.03) − 𝑃𝑃(𝑍𝑍 < −0.26) = 𝑃𝑃(𝑍𝑍 ≤ 1.03) − 1 + 𝑃𝑃(𝑍𝑍 ≤ 0.26)
+                        = 0.8485 − 1 + 0.6026 = 𝟎𝟎. 𝟒𝟒𝟒𝟒𝟒𝟒𝟒𝟒.
+
+
+1.2. Chamemos 𝐴𝐴 ao suceso «estar na feira menos de 60 minutos» e 𝐵𝐵 ao suceso «estar na feira
+polo menos de 45 minutos». Pídese 𝑃𝑃(𝐴𝐴|𝐵𝐵).
+                                                       𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵)
+                                         𝑃𝑃(𝐴𝐴|𝐵𝐵) =               .
+                                                          𝑃𝑃(𝐵𝐵)
+                                        −5
+   •   𝑃𝑃(𝐵𝐵) = 𝑃𝑃(𝑋𝑋 ≥ 45) = 𝑃𝑃 �𝑍𝑍 ≥ 19.5� = 𝑃𝑃(𝑍𝑍 ≥ −0.26) = 𝑃𝑃(𝑍𝑍 ≤ 0.26) = 0.6026.
+                                              −5             10
+   •   𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵) = 𝑃𝑃(45 ≤ 𝑋𝑋 < 60) = 𝑃𝑃 �19.5 ≤ 𝑍𝑍 < 19.5� = 𝑃𝑃(−0.26 ≤ 𝑍𝑍 < 0.51) =
+
+       𝑃𝑃(𝑍𝑍 < 0.51) − 𝑃𝑃(𝑍𝑍 < −0.26) = 𝑃𝑃(𝑍𝑍 < 0.51) − 1 + 𝑃𝑃(𝑍𝑍 ≤ 0.26) = 0.6950 − 1 +
+       0.6026 = 0.2976.
+
+   Polo tanto, a probabilidade pedida é
+                                                  0.2976
+                                    𝑷𝑷(𝑨𝑨|𝑩𝑩) =          = 𝟎𝟎. 𝟒𝟒𝟒𝟒𝟒𝟒𝟒𝟒.
+                                                  0.6026
+PREGUNTA 2
+
+
+2.1. Téñense
+                                                                1 0 1
+                                          1 0    1
+                                 𝐴𝐴 = �           �,      𝐵𝐵 = �0 1 0�.
+                                          0 2    0
+                                                                1 0 1
+2.1.1.
+                                                        1 0
+                                        𝑇𝑇  1 0     1            𝟐𝟐 𝟎𝟎
+                              𝑿𝑿 = 𝐴𝐴𝐴𝐴 = �          � �0 2� = �       �.
+                                            0 2     0            𝟎𝟎 𝟒𝟒
+                                                        1 0
+                                            1 0                𝟏𝟏 𝟎𝟎 𝟏𝟏
+                                                   1 0 1
+                            𝒀𝒀 = 𝐴𝐴𝑇𝑇 𝐴𝐴 = �0 2� �        � = �𝟎𝟎 𝟒𝟒 𝟎𝟎�.
+                                                   0 2 0
+                                            1 0                𝟏𝟏 𝟎𝟎 𝟏𝟏
+det 𝑋𝑋 = 8 ≠ 0 ⟹ 𝑿𝑿 é invertible.
+          4 0    0 4
+det 𝑌𝑌 = �    �+�    � = 4 − 4 = 0 ⟹ 𝒀𝒀 non é invertible. (Ou ben, det 𝑌𝑌 = 0 porque 𝑌𝑌 ten dúas
+          0 1    1 0
+filas iguais.)
+A inversa de 𝑋𝑋 é
+                                    1 4       0 𝑇𝑇 1 4 0     𝟏𝟏/𝟐𝟐   𝟎𝟎
+                             𝑿𝑿−𝟏𝟏 = �         � = �     �=�             �.
+                                    8 0       2    8 0 2       𝟎𝟎  𝟏𝟏/𝟒𝟒
+
+
+             𝑎𝑎
+2.1.2. 𝑀𝑀 = �𝑏𝑏 �.
+             𝑐𝑐
+                1 0 1 𝑎𝑎       𝑎𝑎 + 𝑐𝑐       𝑎𝑎      𝑎𝑎 + 𝑐𝑐 = 𝑎𝑎       𝑐𝑐 = 0
+       𝐵𝐵𝐵𝐵 = �0 1 0� �𝑏𝑏 � = � 𝑏𝑏 � = 𝑀𝑀 = �𝑏𝑏 � ⟺ � 𝑏𝑏 = 𝑏𝑏 � ⟺ �𝑏𝑏 ∈ ℝ calquera�.
+                1 0 1 𝑐𝑐       𝑎𝑎 + 𝑐𝑐       𝑐𝑐      𝑎𝑎 + 𝑐𝑐 = 𝑐𝑐       𝑎𝑎 = 0
+É dicir,
+                                                   𝟎𝟎
+                                             𝑴𝑴 = �𝒃𝒃�, con 𝒃𝒃 ∈ ℝ.
+                                                   𝟎𝟎
+
+2.2. Polo método de Gauss, podemos reducir o sistema dado a outro equivalente con matriz
+triangular, cuxa discusión é sinxela:
+            2    2𝑚𝑚 − 2 𝑚𝑚 + 6     9     𝐹𝐹1 ⟷ 𝐹𝐹2 1 𝑚𝑚 − 2         3       2    𝐹𝐹2 − 2𝐹𝐹1
+           �1    𝑚𝑚 − 2     3 � 2 � ⟶ �2 2𝑚𝑚 − 2 𝑚𝑚 + 6 � 9 � ⟶
+            0       2    2𝑚𝑚 + 2 𝑚𝑚 − 5               0    2      2𝑚𝑚 + 2 𝑚𝑚 − 5
+                   1 𝑚𝑚 − 2      3       2     𝐹𝐹3 − 𝐹𝐹2 1 𝑚𝑚 − 2      3       2
+                  �0    2       𝑚𝑚 � 5 � ⟶ �0                 2        𝑚𝑚 � 5 �.
+                   0    2     2𝑚𝑚 + 2 𝑚𝑚 − 5             0    0     𝑚𝑚 + 2 𝑚𝑚 − 10
+                                                      PAU                                      CÓDIGO 20
+                                        Convocatoria extraordinaria 2026
+                                               MATEMÁTICAS II
+Sistema triangular equivalente:
+                             𝑥𝑥     +    (𝑚𝑚 − 2)𝑦𝑦       +        3𝑧𝑧         =      2,
+                         �                   2𝑦𝑦          +       𝑚𝑚𝑚𝑚         =      5,
+                                                               (𝑚𝑚 + 2)𝑧𝑧      =   𝑚𝑚 − 10.
+Discusión:
+   •   Se 𝑚𝑚 ≠ −2, o sistema é compatible determinado, xa que a súa única solución é
+                                  𝑚𝑚 − 10                5 − 𝑚𝑚𝑚𝑚
+                        𝑧𝑧 =              ,       𝑦𝑦 =            ,     𝑥𝑥 = 2 − (𝑚𝑚 − 2)𝑦𝑦 − 3𝑧𝑧.
+                                   𝑚𝑚 + 2                   2
+   •   Se 𝑚𝑚 = −2, temos
+                                                         𝑥𝑥 − 4𝑦𝑦 + 3𝑧𝑧 = 2,
+                                                     �        2𝑦𝑦 − 2𝑧𝑧 = 5,
+                                                                  0 = −12,
+       que é claramente incompatible.
+
+
+
+2.2. SOLUCIÓN ALTERNATIVA
+                       2 2𝑚𝑚 − 2 𝑚𝑚 + 6        9                2 2𝑚𝑚 − 2 𝑚𝑚 + 6
+               𝐴𝐴∗ = �1 𝑚𝑚 − 2         3 � 2 �,           𝐴𝐴 = �1 𝑚𝑚 − 2        3 �.
+                       0     2      2𝑚𝑚 + 2 𝑚𝑚 − 5              0      2     2𝑚𝑚 + 2
+      1      𝑚𝑚 − 2
+Como �              � = 2 ≠ 0, 2 ≤ rank(𝐴𝐴) ≤ rank(𝐴𝐴∗ ) ≤ 3 e [rank(𝐴𝐴) = 2 ⟺ det(𝐴𝐴) = 0]. Isto é
+      0         2
+certo para calquera valor de 𝑚𝑚.
+               2 𝑚𝑚 + 6                 2 2𝑚𝑚 − 2
+ det(𝐴𝐴) = −2 �         � + (2𝑚𝑚 + 2) �          �
+               1    3                   1 𝑚𝑚 − 2
+                = −2(6 − 𝑚𝑚 − 6) + (2𝑚𝑚 + 2)(2𝑚𝑚 − 4 − 2𝑚𝑚 + 2) = 2𝑚𝑚 − 4𝑚𝑚 − 4 = −2𝑚𝑚 − 4
+                  = 0 ⟺ 𝑚𝑚 = −2.
+Polo tanto, o sistema é compatible determinado se 𝑚𝑚 ≠ −2.
+Se 𝑚𝑚 = −2, entón rank(𝐴𝐴) = 2 e
+                                                     2     −6  4 9
+                                              𝐴𝐴∗ = �1     −4  3� 2�.
+                                                     0      2 −2 −7
+Posto que
+ 2  4         9
+                       3  2    4  9
+�1  3         2� = 2 �     �−�      � = 2(−21 + 4) − (−28 + 18) = −34 + 10 = −24 ≠ 0,
+                      −2 −7   −2 −7
+ 0 −2        −7
+rank(𝐴𝐴∗ ) = 3 ≠ rank(𝐴𝐴) = 2, e polo tanto o sistema é incompatible se 𝑚𝑚 = −2.
+PREGUNTA 3
+3.1. 𝑝𝑝(𝑥𝑥) = 𝑎𝑎𝑥𝑥 3 + 𝑏𝑏𝑥𝑥 2 + 𝑐𝑐𝑐𝑐 + 𝑑𝑑, co cal 𝑝𝑝′ (𝑥𝑥) = 3𝑎𝑎𝑥𝑥 2 + 2𝑏𝑏𝑏𝑏 + 𝑐𝑐. Das igualdades 𝒑𝒑′ (𝟏𝟏) = 𝟎𝟎 e
+𝒑𝒑(𝟏𝟏) = −𝟔𝟔, que se cumpren porque 𝑝𝑝 ten un extremo relativo en (1, −6), sácanse as dúas ecuacións
+seguintes:
+                                        3𝑎𝑎 + 2𝑏𝑏 + 𝑐𝑐 = 0,          (1)
+                                       𝑎𝑎 + 𝑏𝑏 + 𝑐𝑐 + 𝑑𝑑 = −6,       (2)
+A pendente da recta 𝑦𝑦 = 4𝑥𝑥 + 2 é 4, así que 𝒑𝒑′ (−𝟏𝟏) = 𝟒𝟒, é dicir,
+                                        3𝑎𝑎 − 2𝑏𝑏 + 𝑐𝑐 = 4.          (3)
+Ademais, 𝑦𝑦(−1) = −4 + 2 = −𝟐𝟐 = 𝒑𝒑(−𝟏𝟏), de onde
+                                       −𝑎𝑎 + 𝑏𝑏 − 𝑐𝑐 + 𝑑𝑑 = −2.      (4)
+Facendo (1) − (3) vemos que 4𝑏𝑏 = −4, conque 𝒃𝒃 = −𝟏𝟏.
+Facendo agora (2) + (4) chégase a 2𝑏𝑏 + 2𝑑𝑑 = −8, é dicir, 𝑏𝑏 + 𝑑𝑑 = −4, de onde 𝒅𝒅 = −𝟑𝟑.
+                                (1) ⟹ 3𝑎𝑎 + 𝑐𝑐 = 2
+                                                   � ⟹ 2𝑎𝑎 = 4 ⟹ 𝒂𝒂 = 𝟐𝟐.
+                                (2) ⟹ 𝑎𝑎 + 𝑐𝑐 = −2
+Por último, 𝒄𝒄 = −2 − 𝑎𝑎 = −𝟒𝟒.
+
+
+3.2. Vale, por exemplo,
+
+
+
+
+No intervalo (−1,2), 𝑓𝑓 é positiva, 𝑓𝑓′ é positiva porque 𝑓𝑓 é crecente e 𝑓𝑓′′ é positiva porque 𝑓𝑓 é convexa.
+Ao ser lim+ 𝑓𝑓(𝑥𝑥) = −∞, a recta 𝑥𝑥 = 2 é unha asíntota vertical.
+       𝑥𝑥→2
+                                                    PAU                                      CÓDIGO 20
+                                      Convocatoria extraordinaria 2026
+                                             MATEMÁTICAS II
+3.3.
+                                                                          4         𝜋𝜋 2
+                                𝑓𝑓(𝑥𝑥) = cos 𝑥𝑥,              𝑔𝑔(𝑥𝑥) =        �𝑥𝑥 −   � .
+                                                                         𝜋𝜋 2       2
+Obsérvese que 𝑔𝑔(0) = 1 = 𝑓𝑓(0) e que 𝑔𝑔(𝜋𝜋/2) = 0 = 𝑓𝑓(𝜋𝜋/2).
+Por outra banda, como 𝑔𝑔 é un polinomio de grao 2 con coeficiente principal positivo, a súa gráfica é
+unha parábola convexa. Ademais, o vértice atópase en 𝑥𝑥 = 𝜋𝜋/2, porque
+                                                     8         𝜋𝜋              𝜋𝜋
+                                    𝑔𝑔′ (𝑥𝑥) =           �𝑥𝑥 −    � = 0 ⟺ 𝑥𝑥 =    .
+                                                    𝜋𝜋 2       2               2
+(Podería engadirse que, ao ser 𝑔𝑔(0) = 𝑔𝑔(𝜋𝜋) = 1 e estar os valores de 𝑓𝑓 comprendidos entre −1 e 1,
+as gráficas das dúas funcións non se cortan en ningún outro punto á parte dos xa mencionados (ver
+debuxo).)
+
+
+
+
+En consecuencia, a área pedida é:
+            𝜋𝜋/2                            𝜋𝜋/2                                                         𝜋𝜋/2
+                                                             4      𝜋𝜋 2                  4 (𝑥𝑥 − 𝜋𝜋/2)3
+   𝐴𝐴 = �      (𝑓𝑓(𝑥𝑥) − 𝑔𝑔(𝑥𝑥)) 𝑑𝑑𝑑𝑑 = �          �cos 𝑥𝑥 − 2 �𝑥𝑥 − � � 𝑑𝑑𝑑𝑑 = �sin 𝑥𝑥 − 2              �
+         0                             0                    𝜋𝜋      2                    𝜋𝜋       3       0
+
+                            𝜋𝜋                  4 1 𝜋𝜋 3        𝜋𝜋
+                    = �sin � � − 0� − �sin(0) + 2        � = 1 − u2 ,
+                            2                  𝜋𝜋 3 8           6
+onde u indica unidade de lonxitude. Pode engadirse que
+                                            𝜋𝜋
+                                        1 − ≈ 0.4764.
+                                            6
+PREGUNTA 4
+
+
+4.1. Considérase a recta
+                                                        𝑥𝑥 − 1 𝑦𝑦 − 1 𝑧𝑧
+                                                  𝑟𝑟:         =      = .
+                                                           2      1   3
+4.1.1. Ecuación do plano 𝜋𝜋 que contén a 𝑟𝑟 e ao punto 𝑄𝑄(2, −1,1):
+                                      �����⃗ = (1, −2,1) e 𝑣𝑣⃗𝑟𝑟 = (2,1,3) son xeradores de 𝜋𝜋.
+Posto que 𝑃𝑃(1,1,0) ∈ 𝑟𝑟, os vectores 𝑃𝑃𝑃𝑃
+Entón, como
+           𝑥𝑥 − 1 𝑦𝑦 − 1       𝑧𝑧
+          � 1       −2         1� = −6(𝑥𝑥 − 1) + 2(𝑦𝑦 − 1) + 𝑧𝑧 + 4𝑧𝑧 − (𝑥𝑥 − 1) − 3(𝑦𝑦 − 1)
+              2      1         3
+                            = −6𝑥𝑥 + 6 + 2𝑦𝑦 − 2 + 5𝑧𝑧 − 𝑥𝑥 + 1 − 3𝑦𝑦 + 3 = −7𝑥𝑥 − 𝑦𝑦 + 5𝑧𝑧 + 8,
+a ecuación pedida é 𝝅𝝅: −𝟕𝟕𝟕𝟕 − 𝒚𝒚 + 𝟓𝟓𝟓𝟓 + 𝟖𝟖 = 𝟎𝟎.
+
+
+4.1.2. 𝜋𝜋 ∗ : 𝑥𝑥 + 𝑦𝑦 − 𝑧𝑧 − 1 = 0.
+                                𝑣𝑣⃗𝑟𝑟 ∙ 𝑛𝑛�⃗𝜋𝜋∗ = (2,1,3) ∙ (1,1, −1) = 2 + 1 − 3 = 0,
+o que demostra que o vector director de 𝑟𝑟, 𝑣𝑣⃗𝑟𝑟 , e o vector normal ao plano 𝜋𝜋 ∗ , 𝑛𝑛�⃗𝜋𝜋∗ , son
+perpendiculares, e polo tanto que 𝒓𝒓 e 𝝅𝝅∗ son paralelos.
+A distancia de 𝑟𝑟 a 𝜋𝜋 ∗ coincide coa distancia de 𝑃𝑃(1,1,0) a 𝜋𝜋 ∗ . Ao ser 𝜋𝜋 ∗ : 𝐴𝐴𝐴𝐴 + 𝐵𝐵𝐵𝐵 + 𝐶𝐶𝐶𝐶 + 𝐷𝐷 = 0 con
+𝐴𝐴 = 1, 𝐵𝐵 = 1, 𝐶𝐶 = −1 e 𝐷𝐷 = −1, e 𝑃𝑃(𝑥𝑥0 , 𝑦𝑦0 , 𝑧𝑧0 ) con 𝑥𝑥0 = 1, 𝑦𝑦0 = 1 e 𝑧𝑧0 = 0, tense
+                                              |𝐴𝐴𝑥𝑥0 + 𝐵𝐵𝑦𝑦0 + 𝐶𝐶𝑧𝑧0 + 𝐷𝐷|        |1 + 1 + 0 − 1|       𝟏𝟏
+              𝐝𝐝(𝒓𝒓, 𝝅𝝅∗ ) = d(𝑃𝑃, 𝜋𝜋 ∗ ) =                                  =                      =         ,
+                                                  √𝐴𝐴2 + 𝐵𝐵 2 + 𝐶𝐶 2             �12 + 12 + (−1)2       √𝟑𝟑
+
+ou, se se quere, √𝟑𝟑/𝟑𝟑.
+
+
+
+
+4.2.
+
+
+4.2.1.
+
+
+               3 + 𝑥𝑥
+             ⎧        = 2 ⟹ 3 + 𝑥𝑥 = 4 ⟹ 𝑥𝑥 = 1, ⎫
+             ⎪ 2                                 ⎪
+               0 + 𝑦𝑦
+                      = −1 ⟹ 𝑦𝑦 = −2,              ⟹ 𝑷𝑷′ (𝟏𝟏, −𝟐𝟐, 𝟓𝟓) é o punto pedido.
+             ⎨   2                               ⎬
+             ⎪−1 + 𝑧𝑧                            ⎪
+             ⎩ 2 = 2 ⟹ −1 + 𝑧𝑧 = 4 ⟹ 𝑧𝑧 = 5.⎭
+                                                   PAU                              CÓDIGO 20
+                                     Convocatoria extraordinaria 2026
+                                            MATEMÁTICAS II
+4.2.2.
+
+
+
+
+                                             𝜋𝜋: 𝑥𝑥 + 2𝑦𝑦 + 𝑧𝑧 − 8 = 0.
+Cálculo do punto 𝑅𝑅: este punto é a intersección do plano 𝜋𝜋 coa recta 𝑟𝑟 que pasa por 𝑃𝑃(3,0, −1) e ten
+como vector director 𝑛𝑛�⃗𝜋𝜋 = (1,2,1), é dicir,
+                                                𝑥𝑥 = 3 + 𝜆𝜆,
+                                           𝑟𝑟: �𝑦𝑦 = 2𝜆𝜆,     ,   𝜆𝜆 ∈ ℝ.
+                                                𝑧𝑧 = −1 + 𝜆𝜆,
+Posto que
+                       (3��
+                       �    � + 2 (2𝜆𝜆)
+                          +�𝜆𝜆)   � + (−1
+                                        �� +��
+                                         ��� 𝜆𝜆) − 8 = 6𝜆𝜆 − 6 = 0 ⟺ 𝜆𝜆 = 1,
+                          𝑥𝑥          𝑦𝑦            𝑧𝑧
+
+tense que 𝑅𝑅(4,2,0).
+Obtención do punto pedido 𝑃𝑃′′:
+                3 + 𝑥𝑥
+              ⎧        = 4 ⟹ 3 + 𝑥𝑥 = 8 ⟹ 𝑥𝑥 = 5,⎫
+              ⎪ 2                                ⎪
+                0 + 𝑦𝑦
+                       = 2 ⟹ 𝑦𝑦 = 4,               ⟹ 𝑷𝑷′′ (𝟓𝟓, 𝟒𝟒, 𝟏𝟏) é o punto pedido.
+              ⎨ 2                                ⎬
+              ⎪−1 + 𝑧𝑧                           ⎪
+              ⎩ 2 = 0 ⟹ 𝑧𝑧 = 1.                  ⎭
+
+
+
+
+NOTA FINAL: as solucións que se presentan aquí son só propostas. É habitual que os problemas
+admitan varias formas de resolución, todas elas correctas e, polo tanto, igualmente válidas.
+

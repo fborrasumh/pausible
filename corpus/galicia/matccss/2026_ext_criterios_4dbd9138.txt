@@ -1,0 +1,224 @@
+                                               PAU 2026
+                                      CONVOCATORIA EXTRAORDINARIA
+
+                                  CRITERIOS DE AVALIACIÓN
+                            MATEMÁTICAS APLICADAS ÁS CCSS II
+                                               (Cód. 40)
+1. Estatística e probabilidade (𝟐𝟐 puntos)
+1.1 (1 punto)
+1.2 (1 punto)
+
+
+2. Álxebra (𝟐𝟐 puntos)
+2.1. (0,75 puntos)
+2.2 (1,25 puntos)
+
+
+3.1 Análise (𝟑𝟑 puntos)
+3.1.1. (1 punto)
+3.1.2. (1 punto)
+3.1.3. (1 punto)
+3.2 Análise (𝟑𝟑 puntos)
+3.2.1. (1,5 punto)
+3.2.2. (0,75 puntos)
+3.2.3. (0,75 puntos)
+
+
+4. Estatística e álxebra (3 puntos)
+4.1. 1,5 puntos
+4.2. 1,5 puntos
+4.3. 1,5 puntos
+4.4. 1,5 puntos
+                                                                     PAU                                              CÓDIGO 40
+                                                       Convocatoria extraordinaria 2026
+                                                        MATEMÁTICAS APLICADAS ÁS
+                                                             CIENCIAS SOCIAIS II
+
+1. Se denotamos por C=“Residente na Coruña”, L=”Residente en Lugo”, O=”Residente en Ourense”,
+P=”Residente en Pontevedra” e M=”Ter 65 ou máis anos”, temos que:
+
+𝑃𝑃(𝐶𝐶 ) = 0,415 , 𝑃𝑃(𝐿𝐿) = 0,12 , 𝑃𝑃(𝑂𝑂) = 0,115 , 𝑃𝑃(𝑃𝑃) = 0,35 , 𝑃𝑃(𝑀𝑀|𝐶𝐶 ) = 0,26 , 𝑃𝑃(𝑀𝑀|𝐿𝐿) = 0,3 ,
+𝑃𝑃(𝑀𝑀|𝑂𝑂) = 0,32 e 𝑃𝑃(𝑀𝑀|𝑃𝑃) = 0,24.
+
+1.1 Pídese calcular 𝑃𝑃 (𝑀𝑀). Empregando a fórmula da probabilidade total, tendo en conta que C, L, O e P forman
+unha partición,
+                  𝑃𝑃(𝑀𝑀) = 𝑃𝑃(𝐶𝐶 )𝑃𝑃(𝑀𝑀|𝐶𝐶 ) + 𝑃𝑃(𝐿𝐿)𝑃𝑃(𝑀𝑀|𝐿𝐿) + 𝑃𝑃(𝑂𝑂)𝑃𝑃(𝑀𝑀|𝑂𝑂) + 𝑃𝑃(𝑃𝑃)𝑃𝑃(𝑀𝑀|𝑃𝑃) =
+                     = 0,415 × 0,26 + 0,12 × 0,3 + 0,115 × 0,32 + 0,35 × 0,24 = 0,265.
+
+1.2 Pídese calcular a probabilidade de que sexa residente na provincia de Ourense sabendo que non é
+residente na provincia de Pontevedra, é dicir, 𝑃𝑃(𝑂𝑂|𝑃𝑃� ). A partir da fórmula da probabilidade condicionada,
+
+                                                        𝑃𝑃(𝑂𝑂 ∩ 𝑃𝑃�)     𝑃𝑃(𝑂𝑂)    0,115
+                                       𝑃𝑃(𝑂𝑂|𝑃𝑃�) =                  =           =         = 0,177.
+                                                           𝑃𝑃(𝑃𝑃�)     1 − 𝑃𝑃(𝑃𝑃) 1 − 0,35
+
+2. Temos as matrices 𝐴𝐴 e 𝐵𝐵
+                                                                  𝑐𝑐 𝑑𝑑             0            1
+                                                         𝐴𝐴 = �         � e 𝐵𝐵 = �                �
+                                                                  3 1              −1            0
+
+2.1. Calculamos 𝐴𝐴 ∙ 𝐵𝐵 e 𝐵𝐵 ∙ 𝐴𝐴
+                                                                  𝑐𝑐   𝑑𝑑      0    1     −𝑑𝑑         𝑐𝑐
+                                                    𝐴𝐴 ∙ 𝐵𝐵 = �           �∙�         �=�                �
+                                                                  3    1      −1    0     −1          3
+
+                                                                  0     1    𝑐𝑐     𝑑𝑑     3       1
+                                                    𝐵𝐵 ∙ 𝐴𝐴 = �          �∙�           �=�            �
+                                                                  −1    0    3      1      −𝑐𝑐    −𝑑𝑑
+
+                                                             −𝑑𝑑       𝑐𝑐     3       1
+Para que 𝐴𝐴 ∙ 𝐵𝐵 = 𝐵𝐵 ∙ 𝐴𝐴, é dicir, para que �                           �=�            � tería que cumprirse que 𝑐𝑐 = 1 e 𝑑𝑑 = −3.
+                                                             −1        3      −𝑐𝑐    −𝑑𝑑
+
+2.2. Para 𝑐𝑐 = 2 e 𝑑𝑑 = 0
+       2 0                0 1
+𝐴𝐴 = �      � e 𝐵𝐵 = �         �
+       3 1                −1 0
+
+                      𝐵𝐵 ∙ 𝑋𝑋 − 𝐴𝐴𝑡𝑡 = 𝑋𝑋 ⇒ 𝐵𝐵 ∙ 𝑋𝑋 − 𝑋𝑋 = 𝐴𝐴𝑡𝑡 ⇒ (𝐵𝐵 − 𝐼𝐼 ) ∙ 𝑋𝑋 = 𝐴𝐴𝑡𝑡 ⇒ 𝑋𝑋 = (𝐵𝐵 − 𝐼𝐼 )−1 ∙ 𝐴𝐴𝑡𝑡
+
+              −1 1
+𝐵𝐵 − 𝐼𝐼 = �         �         det(𝐵𝐵 − 𝐼𝐼) = 2
+              −1 −1
+
+                  −1         1                                −1         −1
+ (𝐵𝐵 − 𝐼𝐼)∗ = �                �           ((𝐵𝐵 − 𝐼𝐼)∗ )𝑡𝑡 = �              �
+                  −1         −1                                1         −1
+
+
+                                                                1                           −1/2             −1/2
+                                       (𝐵𝐵 − 𝐼𝐼 )−1 =                   ((𝐵𝐵 − 𝐼𝐼)∗ )𝑡𝑡 = �                       �
+                                                           det(𝐵𝐵 − 𝐼𝐼)                     1/2              −1/2
+
+
+                                       1        1
+                               −            −         2     3    −1          −2
+                                       2        2
+𝑋𝑋 = (𝐵𝐵 − 𝐼𝐼   )−1     𝑡𝑡
+                      ∙ 𝐴𝐴 = � 1                1� ∙ �0       �=�               �
+                                            −               1     1           1
+                                   2            2
+3.1. Temos a seguinte función
+𝐶𝐶 (𝑡𝑡) = 𝑡𝑡 3 − 9𝑡𝑡 2 + 24𝑡𝑡 0 ≤ 𝑡𝑡 ≤ 5
+
+3.1.1. Se calculamos a derivada, obtemos
+
+𝐶𝐶′(𝑡𝑡) = 3𝑡𝑡 2 − 18𝑡𝑡 + 24           0 < 𝑡𝑡 < 5
+
+Polo tanto 𝐶𝐶´(𝑡𝑡) = 0 se 𝑡𝑡 = 2 ou 𝑡𝑡 = 4 polo que 𝑡𝑡 = 2 e 𝑡𝑡 = 4 son puntos críticos.
+Coma en (0,2), 𝐶𝐶´(𝑡𝑡) > 0 ⇒ 𝐶𝐶 é crecente en (0,2).
+Coma en (2,4), 𝐶𝐶´(𝑡𝑡) < 0 ⇒ 𝐶𝐶 é decrecente en (2,4).
+Coma en (4,5), 𝐶𝐶´(𝑡𝑡) > 0 ⇒ 𝐶𝐶 é crecente en (4,5).
+
+Contextualización: as capturas diarias aumentaron dende o inicio da campaña ata pasados dous días e tamén
+dende pasados catros días ata pasados cinco días. As capturas diarias diminuíron dende pasados dous días ata
+pasados catro días dende o inicio da campaña.
+
+3.1.2.
+Temos que 𝐶𝐶 (0) = 0, 𝐶𝐶 (2) = 20, 𝐶𝐶 (4) = 16 e 𝐶𝐶 (5) = 20.
+
+Contextualización: as capturas máximas diarias foron de 2000 quilogramos e prodúcense despois de
+transcorridos dous días e tamén despois de transcorridos cinco días.
+
+3.1.3.
+                             5               5
+                                                                          1      9       24 2 5
+                           � 𝐶𝐶 (𝑡𝑡)𝑑𝑑𝑑𝑑 = � (𝑡𝑡 3 − 9𝑡𝑡 2 + 24𝑡𝑡)𝑑𝑑𝑑𝑑 = � 𝑡𝑡 4 − 𝑡𝑡 3 +   𝑡𝑡 � =
+                            0               0                             4      3       2     0
+
+                                              1      9       24
+                                           = � × 54 − × 53 +    × 52 � = 81,25.
+                                              4      3       2
+As capturas totais correspondentes aos cinco días son 8125 quilogramos.
+
+3.2. Temos a seguinte función
+                                                            80 − 40𝑡𝑡
+                                             𝑉𝑉 (𝑡𝑡) =                  + 30 , 𝑡𝑡 ≥ 0
+                                                         𝑡𝑡 2 − 4𝑡𝑡 + 5
+
+3.2.1. Se calculamos a derivada, obtemos
+
+                          −40(𝑡𝑡 2 − 4𝑡𝑡 + 5) − (2𝑡𝑡 − 4)(80 − 40𝑡𝑡) 40𝑡𝑡 2 − 160𝑡𝑡 + 120
+              𝑉𝑉′(𝑡𝑡) =                                             =                     , 𝑡𝑡 > 0
+                                        (𝑡𝑡 2 − 4𝑡𝑡 + 5)2              (𝑡𝑡 2 − 4𝑡𝑡 + 5)2
+
+Polo tanto, 𝑉𝑉´(𝑡𝑡) = 0 se 40𝑡𝑡 2 − 160𝑡𝑡 + 120 = 0 ⇔ 𝑡𝑡 2 − 4𝑡𝑡 + 3 = 0, é dicir, se 𝑡𝑡 = 1 ou 𝑡𝑡 = 3, polo que 𝑡𝑡 =
+1 e 𝑡𝑡 = 3 son puntos críticos.
+Coma en (0,1), 𝑉𝑉´(𝑡𝑡) > 0 ⇒ 𝑉𝑉 é crecente en (0,1).
+Coma en (1,3), 𝑉𝑉´(𝑡𝑡) < 0 ⇒ 𝑁𝑁 é decrecente en (1,3).
+Coma en (3, ∞), 𝑉𝑉´(𝑡𝑡) > 0 ⇒ 𝑉𝑉 é crecente en (3, ∞).
+Contextualización: o valor da acción subiu dende que saíu á venda ata transcorrido un mes e tamén dende que
+transcorren tres meses en adiante. O valor da acción baixou entre que transcorre un mes ata transcorridos
+tres meses.
+
+3.2.2.
+Temos que 𝑉𝑉 (0) = 46, 𝑉𝑉 (1) = 50 e 𝑉𝑉 (3) = 10.
+Contextualización: o valor máximo que acadou a acción foi de 50 euros e produciuse transcorrido un mes. O
+valor mínimo que acadou a acción foi de 10 euros e produciuse transcorridos tres meses.
+
+                               80−40𝑡𝑡
+3.2.3.    lim 𝑉𝑉(𝑡𝑡) = lim 2               + 30 = 30
+          𝑡𝑡→∞            𝑡𝑡→∞ 𝑡𝑡 −4𝑡𝑡+5
+Contextualización: co paso do tempo o valor da acción irá crecendo aproximándose cada vez máis aos 30 euros.
+                                                               PAU                                                         CÓDIGO 40
+                                                 Convocatoria extraordinaria 2026
+                                                  MATEMÁTICAS APLICADAS ÁS
+                                                       CIENCIAS SOCIAIS II
+4.1. 𝑋𝑋 = “Gasto mensual en fotocopias”.                         𝑋𝑋 → 𝑁𝑁(𝜇𝜇, 𝜎𝜎 = 2)
+A expresión xeral do intervalo de confianza para µ con nivel de confianza 1 − 𝛼𝛼 é
+                                                                          𝜎𝜎                  𝜎𝜎
+                                                            �𝑥𝑥̅ − 𝑧𝑧𝛼𝛼        ; 𝑥𝑥̅ + 𝑧𝑧𝛼𝛼        �
+                                                                      2 √𝑛𝑛              2 √𝑛𝑛
+                                                                𝛼𝛼
+O nivel de confianza 1 − 𝛼𝛼 = 0,95, polo que = 0,025, entón 𝑧𝑧0,025 = 1,96. Temos que 𝑥𝑥̅ = 13,5 e 𝑛𝑛 = 36.
+                                            2
+Substituíndo na fórmula do intervalo teríamos o seguinte intervalo
+                          2                      2
+�13,5 − 1,96 ×                ; 13,5 + 1,96 ×         � = (12,85 ; 14,15).
+                        √36                     √36
+
+4.2. Temos 𝑃𝑃(𝐴𝐴̅ ∩ 𝐵𝐵�) = 0,24, 𝑃𝑃(𝐴𝐴) = 0,6 e 𝑃𝑃(𝐵𝐵|𝐴𝐴) = 0,9 polo que 𝑃𝑃(𝐴𝐴 ∪ 𝐵𝐵) = 1 − 𝑃𝑃 (𝐴𝐴̅ ∩ 𝐵𝐵�) = 0,76.
+Pídese calcular 𝑃𝑃(𝐵𝐵). Pola fórmula da probabilidade condicionada.
+              𝑃𝑃(𝐴𝐴∩𝐵𝐵)
+𝑃𝑃(𝐵𝐵|𝐴𝐴) =               = 0,9 polo que e 𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵) = 𝑃𝑃 (𝐵𝐵|𝐴𝐴) × 𝑃𝑃 (𝐴𝐴) = 0,9 × 0,6 = 0,54
+               𝑃𝑃(𝐴𝐴)
+
+Empregando a fórmula da probabilidade da unión de dous sucesos, temos que:
+
+                𝑃𝑃(𝐴𝐴 ∪ 𝐵𝐵) = 𝑃𝑃(𝐴𝐴) + 𝑃𝑃(𝐵𝐵) − 𝑃𝑃(𝐴𝐴 ∩ 𝐵𝐵) ⇒ 0,76 = 0,6 + 𝑃𝑃(𝐵𝐵) − 0,54 ⇒ 𝑃𝑃(𝐵𝐵) = 0,7
+4.3. Se denotamos por
+X=“Número de botellas que embotella M1 nunha hora”,
+Y=“Número de botellas que embotella M2 nunha hora”, e,
+Z=“ Número de botellas que embotella M3 nunha hora”.
+
+O sistema de ecuacións asociado é o seguinte:
+                                                        1
+𝑋𝑋 + 𝑌𝑌 + 𝑍𝑍 = 1300                        𝑋𝑋 = 𝑌𝑌 + 𝑌𝑌                         2𝑋𝑋 + 3𝑍𝑍 = 2030
+                                                        4
+
+O sistema de ecuacións expresado en forma matricial é:
+
+                               1    1      1     𝑋𝑋      1300    1                             1       1     𝑋𝑋      1300
+                              �1   −5/4    0� ∙ �𝑌𝑌 � = � 0 � ⟺ �4                            −5       0� ∙ �𝑌𝑌 � = � 0 �
+                               2    0      3     𝑍𝑍      2030    2                             0       3     𝑍𝑍      2030
+4.4. Temos as seguintes restricións
+𝑥𝑥 ≤ 2(𝑦𝑦 + 1)                     𝑦𝑦 ≤ 2(𝑥𝑥 + 1)                    𝑥𝑥 + 𝑦𝑦 ≤ 5
+A rexión factible determinada polas restricións ten coma vértices A, B e C.
+
+
+
+                                                                               C
+                                                                                                         B
+
+
+
+
+                                                 A
+
+
+
+
+      𝑦𝑦 = 2(𝑥𝑥 + 1)                                        𝑥𝑥 = 2(𝑦𝑦 + 1)                                           𝑦𝑦 = 2(𝑥𝑥 + 1)
+𝐴𝐴:                  � 𝐴𝐴(−2, −2)                     𝐵𝐵:                  � 𝐵𝐵(4,1)                           𝐶𝐶:                  � 𝐶𝐶(1,4)
+      𝑥𝑥 = 2(𝑦𝑦 + 1)                                           𝑥𝑥 + 𝑦𝑦 = 5                                             𝑥𝑥 + 𝑦𝑦 = 5
+

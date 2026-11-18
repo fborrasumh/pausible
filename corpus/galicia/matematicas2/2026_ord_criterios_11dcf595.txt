@@ -1,0 +1,604 @@
+                                                 PAU 2026
+                                           CONVOCATORIA ORDINARIA
+                                       CRITERIOS DE AVALIACIÓN
+                                                MATEMÁTICAS II
+                                                         (Cód. 20)
+
+                                                   CRITERIOS
+O exame consta de 4 preguntas de resposta obrigatoria: a primeira sen apartados optativos e as tres
+seguintes con posibilidade de elección entre apartados. Deben xustificarse todas as respostas.
+
+PREGUNTA 1. ESTATÍSTICA E PROBABILIDADE. (2 puntos)
+
+1.1. 1.25 puntos, repartidos así:
+         • 0.5 puntos por explicar o significado de R, I, X e Y.
+         • 0.25 puntos por calcular 𝑃𝑃(𝑅𝑅|𝐼𝐼) e 0.25 por calcular 𝑃𝑃(𝑅𝑅|𝐼𝐼 )̅ .
+         • 0.25 puntos calcular 𝑃𝑃(𝑅𝑅).
+
+1.2. 0.75 puntos, repartidos así:
+         • 0.25 puntos por saber que se pide P(Y < 765).
+         • 0.25 puntos por chegar a P(Z < -1.125).
+         • 0.25 puntos por chegar ao resultado.
+
+
+PREGUNTA 2. ÁLXEBRA. (2 puntos)
+
+Responda un destes dous apartados: 2.1. ou 2.2.
+
+2.1.
+
+       2.1.1. 0.75 puntos.
+       2.1.2. 1.25 puntos, repartidos así:
+                  • 0.5 puntos polas dimensións de X e de B.
+                  • 0.75 puntos por obter X.
+
+
+2.2. 2 puntos, repartidos así:
+         • 0.5 puntos por resolver det(A) = 0.
+         • 0.5 puntos por cada un dos tres casos.
+
+
+PREGUNTA 3. ANÁLISE. (4 puntos)
+
+Responda dous destes tres apartados: 3.1., 3.2., 3.3.
+
+3.1. 2 puntos, 0.5 puntos por apartado.
+
+3.2. 2 puntos, 0.5 puntos por cada límite.
+
+3.3. 2 puntos, repartidos así:
+                                           2
+         • 0.5 puntos por chegar a 𝐴𝐴 = − ∫0 𝑓𝑓(𝑥𝑥)𝑑𝑑𝑑𝑑.
+                                           2
+          •   0.75 puntos por calcular ∫0 𝑓𝑓(𝑥𝑥)𝑑𝑑𝑑𝑑 .
+          •   0.5 puntos por obter o valor de 𝑎𝑎.
+          •   0.25 puntos polo debuxo.
+PREGUNTA 4. XEOMETRÍA. (2 puntos)
+
+Responda un destes dous apartados: 4.1. ou 4.2.
+
+4.1.
+
+       4.1.1. 1 punto, repartido así:
+                  • 0.5 puntos por obter 𝑃𝑃′.
+                  • 0.5 puntos polas ecuacións paramétricas de 𝑟𝑟.
+       4.1.2. 1 punto.
+
+4.2.
+
+       4.2.1. 1 punto, repartido así:
+                  • 0.5 puntos por probar que P, Q e R non están aliñados.
+                  • 0.5 puntos por obter a ecuación do plano.
+       4.2.2. 1 punto.
+                                                     PAU                                      CÓDIGO 20
+                                          Convocatoria ordinaria 2026
+                                               MATEMÁTICAS II
+O exame consta de 4 preguntas de resposta obrigatoria: a primeira sen apartados optativos e as tres
+seguintes con posibilidade de elección entre apartados. Deben xustificarse todas as respostas.
+
+PREGUNTA 1. ESTATÍSTICA E PROBABILIDADE. (2 puntos)
+
+CONTEXTO
+Renfe opera un servicio Alvia entre Santiago de Compostela e Barcelona-Sants. Os datos históricos mostran
+que, en condicións operativas habituais, o tempo de viaxe segue unha distribución normal cunha media de 765
+minutos e unha desviación típica de 18 minutos.
+
+Con todo, durante os meses de inverno é frecuente que se produzan incidencias meteorolóxicas que obrigan
+a reducir a velocidade en certos tramos da ruta. Isto ocorre aproximadamente o 30 % dos días da temporada.
+Cando se activa o protocolo por incidencia, a distribución do tempo de viaxe segue a ser normal, pero pasa a
+ter unha media de 810 minutos e unha desviación típica de 40 minutos.
+
+A compañía ferroviaria define que existe un “retraso significativo” cando o tempo de viaxe supera os 780
+minutos nun día sen incidencias, ou os 840 minutos nun día con incidencia meteorolóxica declarada.
+
+Responda estes dous apartados: 1.1. e 1.2.
+(Será preciso usar algún ou algúns dos seguintes valores, aínda que non todos (enténdase que 𝑍𝑍 segue
+unha distribución 𝑁𝑁(0,1)): 𝑷𝑷(𝒁𝒁 ≤ 𝟎𝟎. 𝟑𝟑) = 0.6179, 𝑷𝑷(𝒁𝒁 ≤ 𝟎𝟎. 𝟕𝟕𝟕𝟕) = 0.7734, 𝑷𝑷(𝒁𝒁 ≤ 𝟎𝟎. 𝟖𝟖𝟖𝟖) = 0.7967,
+𝑷𝑷(𝒁𝒁 ≤ 𝟏𝟏. 𝟏𝟏𝟏𝟏𝟏𝟏) = 0.8697, 𝑷𝑷(𝒁𝒁 ≤ 𝟒𝟒. 𝟏𝟏𝟏𝟏) = 1.)
+
+1.1. Polo contexto, sábese que 𝑃𝑃(𝑅𝑅|𝐼𝐼 ̅) = 𝑃𝑃(𝑋𝑋 > 780) e que 𝑃𝑃(𝑅𝑅|𝐼𝐼) = 𝑃𝑃(𝑌𝑌 > 840). Explique o significado dos
+     sucesos 𝐼𝐼 e 𝑅𝑅 e das variables aleatorias 𝑋𝑋 e 𝑌𝑌. Logo, determine a probabilidade de que, seleccionando ao
+     azar un día da temporada invernal, este tren Alvia experimente un retraso significativo segundo a
+     definición da compañía.
+
+1.2. Calcule a probabilidade de que, nun día con incidencia meteorolóxica activa, o tren complete a súa viaxe
+     nun tempo inferior a 765 minutos, que é o tempo medio en condicións habituais.
+
+
+PREGUNTA 2. ÁLXEBRA. (2 puntos)
+
+Responda un destes dous apartados: 2.1. ou 2.2.
+
+2.1. Considérese a igualdade matricial 𝐴𝐴(𝑋𝑋 − 𝐼𝐼)𝐵𝐵 = 𝐶𝐶, onde 𝑋𝑋 é cadrada e 𝐼𝐼 é a matriz identidade.
+
+     2.1.1. Despexe 𝑋𝑋 supoñendo que 𝐴𝐴 e 𝐵𝐵 son cadradas e invertibles.
+     2.1.2. Que dimensións teñen 𝑋𝑋 e 𝐵𝐵 se 𝐴𝐴 e 𝐶𝐶 son matrices 1 × 2? Obteña 𝑋𝑋, simétrica e tal que os
+            elementos da súa diagonal sumen 0, se 𝐴𝐴 = (1 1), 𝐵𝐵 = 𝐼𝐼 e 𝐶𝐶 = (0 0).
+
+2.2. Discuta, segundo os valores do parámetro 𝑚𝑚, o sistema
+                                 (𝑚𝑚 − 4)𝑥𝑥                 + 5𝑧𝑧          =      9,
+                               �                 (𝑚𝑚 − 1)𝑦𝑦 + 6𝑧𝑧          = 𝑚𝑚 + 8,
+                                 (𝑚𝑚 − 4)𝑥𝑥 + (𝑚𝑚 − 1)𝑦𝑦 + 7𝑧𝑧             = 𝑚𝑚 + 9.
+PREGUNTA 3. ANÁLISE. (4 puntos)
+
+Responda dous destes tres apartados: 3.1., 3.2., 3.3.
+
+3.1. Para cada un dos seguintes casos, debuxe, cando sexa posible, a gráfica dunha función que cumpra as
+     propiedades indicadas:
+         a) Continua pero non derivable en 𝑥𝑥 = 0.
+         b) Continua en [𝑎𝑎, 𝑏𝑏], con 𝑓𝑓(𝑎𝑎)𝑓𝑓(𝑏𝑏) < 0, e cuxa gráfica corte ao eixe 𝑥𝑥 en máis dun punto do
+            intervalo (𝑎𝑎, 𝑏𝑏).
+         c) Continua en [𝑎𝑎, 𝑏𝑏], derivable en (𝑎𝑎, 𝑏𝑏), con 𝑓𝑓(𝑎𝑎)𝑓𝑓(𝑏𝑏) < 0, 𝑓𝑓 ′ > 0 en (𝑎𝑎, 𝑏𝑏), e cuxa gráfica corte
+            ao eixe 𝑥𝑥 en máis dun punto do intervalo (𝑎𝑎, 𝑏𝑏).
+         d) Dúas veces derivable en ℝ, con 𝑓𝑓 ′′ > 0 en ℝ e monótona en ℝ.
+
+3.2. Calcule os seguintes límites:
+                                   ln 𝑥𝑥                                   𝑥𝑥−1
+                           a) lim        .                       b) lim          .
+                               𝑥𝑥→1 𝑥𝑥                                𝑥𝑥→1 ln 𝑥𝑥
+
+                                     tan 𝑥𝑥
+                           c) lim             .                  d)   lim √𝑥𝑥 ln 𝑥𝑥.
+                               𝑥𝑥→0 sin 𝑥𝑥                            𝑥𝑥→0+
+
+
+3.3. Calcule o valor que ten que tomar o parámetro positivo 𝑎𝑎 para que a área da rexión encerrada pola gráfica
+     da función 𝑓𝑓(𝑥𝑥) = 𝑎𝑎𝑥𝑥 2 − 2𝑎𝑎𝑎𝑎 e o eixe 𝑥𝑥 sexa igual a 10 unidades de superficie. Faga un debuxo da rexión.
+
+
+PREGUNTA 4. XEOMETRÍA. (2 puntos)
+
+Responda un destes dous apartados: 4.1. ou 4.2.
+
+4.1. Sexa 𝑟𝑟 a recta que pasa pola orixe e por 𝑃𝑃′, sendo 𝑃𝑃′ o punto simétrico de 𝑃𝑃(1,0,1) con respecto ao punto
+     𝑄𝑄(0,1,0). Pídese:
+
+     4.1.1. Obteña 𝑃𝑃′ e as ecuacións paramétricas de 𝑟𝑟.
+     4.1.2. Determine a ecuación implícita do plano que pasa pola orixe e é perpendicular a 𝑟𝑟.
+
+4.2. Considérense os puntos 𝑃𝑃(1,0,1), 𝑄𝑄(0,1,0) e 𝑅𝑅(1,1,1).
+
+     4.2.1. Demostre que 𝑃𝑃, 𝑄𝑄 e 𝑅𝑅 non están aliñados e obteña a ecuación implícita do plano 𝜋𝜋 que pasa por
+            eles.
+     4.2.2. Calcule o valor ou valores de 𝑎𝑎 que fan que a distancia do punto 𝑆𝑆(𝑎𝑎, 0,0) a ese plano 𝜋𝜋 sexa igual
+            a √2 unidades de lonxitude.
+                                                     PAU                                      CÓDIGO 20
+                                          Convocatoria ordinaria 2026
+                                               MATEMÁTICAS II
+El examen consta de 4 preguntas de respuesta obligatoria: la primera sin apartados optativos y las
+tres siguientes con posibilidad de elección entre apartados. Deben justificarse todas las respuestas.
+
+PREGUNTA 1. ESTADÍSTICA Y PROBABILIDAD. (2 puntos)
+
+CONTEXTO
+Renfe opera un servicio Alvia entre Santiago de Compostela y Barcelona-Sants. Los datos históricos muestran
+que, en condiciones operativas habituales, el tiempo de viaje sigue una distribución normal con una media de
+765 minutos y una desviación típica de 18 minutos.
+
+Sin embargo, durante los meses de invierno es frecuente que se produzcan incidencias meteorológicas que
+obligan a reducir la velocidad en ciertos tramos de la ruta. Esto ocurre aproximadamente el 30 % de los días
+de la temporada. Cuando se activa el protocolo por incidencia, la distribución del tiempo de viaje sigue siendo
+normal, pero pasa a tener una media de 810 minutos y una desviación típica de 40 minutos.
+
+La compañía ferroviaria define que existe un “retraso significativo” cuando el tiempo de viaje supera los 780
+minutos en un día sin incidencias, o los 840 minutos en un día con incidencia meteorológica declarada.
+
+Responda estos dos apartados: 1.1. y 1.2.
+(Será preciso usar alguno o algunos de los siguientes valores, aunque no todos (entiéndase que 𝑍𝑍 sigue
+una distribución 𝑁𝑁(0,1)): 𝑷𝑷(𝒁𝒁 ≤ 𝟎𝟎. 𝟑𝟑) = 0.6179, 𝑷𝑷(𝒁𝒁 ≤ 𝟎𝟎. 𝟕𝟕𝟕𝟕) = 0.7734, 𝑷𝑷(𝒁𝒁 ≤ 𝟎𝟎. 𝟖𝟖𝟖𝟖) = 0.7967,
+𝑷𝑷(𝒁𝒁 ≤ 𝟏𝟏. 𝟏𝟏𝟏𝟏𝟏𝟏) = 0.8697, 𝑷𝑷(𝒁𝒁 ≤ 𝟒𝟒. 𝟏𝟏𝟏𝟏) = 1.)
+
+1.1. Por el contexto, se sabe que 𝑃𝑃(𝑅𝑅|𝐼𝐼 ̅) = 𝑃𝑃(𝑋𝑋 > 780) y que 𝑃𝑃(𝑅𝑅|𝐼𝐼) = 𝑃𝑃(𝑌𝑌 > 840). Explique el significado
+     de los sucesos 𝐼𝐼 y 𝑅𝑅 y de las variables aleatorias 𝑋𝑋 e 𝑌𝑌. Luego, determine la probabilidad de que,
+     seleccionando al azar un día de la temporada invernal, este tren Alvia experimente un retraso significativo
+     según la definición de la compañía.
+
+1.2. Calcule la probabilidad de que, en un día con incidencia meteorológica activa, el tren complete su viaje en
+     un tiempo inferior a 765 minutos, que es el tiempo medio en condiciones habituales.
+
+
+PREGUNTA 2. ÁLGEBRA. (2 puntos)
+
+Responda uno de estos dos apartados: 2.1. o 2.2.
+
+2.1. Considérese la igualdad matricial 𝐴𝐴(𝑋𝑋 − 𝐼𝐼)𝐵𝐵 = 𝐶𝐶, donde 𝑋𝑋 es cuadrada e 𝐼𝐼 es la matriz identidad.
+
+     2.1.1. Despeje 𝑋𝑋 suponiendo que 𝐴𝐴 y 𝐵𝐵 son cuadradas e invertibles.
+     2.1.2. ¿Qué dimensiones tienen 𝑋𝑋 y 𝐵𝐵 si 𝐴𝐴 y 𝐶𝐶 son matrices 1 × 2? Obtenga 𝑋𝑋, simétrica y tal que los
+            elementos de su diagonal sumen 0, si 𝐴𝐴 = (1 1), 𝐵𝐵 = 𝐼𝐼 y 𝐶𝐶 = (0 0).
+
+2.2. Discuta, según los valores del parámetro 𝑚𝑚, el sistema
+                                (𝑚𝑚 − 4)𝑥𝑥                   + 5𝑧𝑧       =      9,
+                              �                 (𝑚𝑚 − 1)𝑦𝑦 + 6𝑧𝑧         = 𝑚𝑚 + 8,
+                                (𝑚𝑚 − 4)𝑥𝑥 + (𝑚𝑚 − 1)𝑦𝑦 + 7𝑧𝑧            = 𝑚𝑚 + 9.
+PREGUNTA 3. ANÁLISIS. (4 puntos)
+
+Responda dos de estos tres apartados: 3.1., 3.2., 3.3.
+
+3.1. Para cada uno de los siguientes casos, dibuje, cuando sea posible, la gráfica de una función que cumpla
+     las propiedades indicadas:
+          a) Continua pero no derivable en 𝑥𝑥 = 0.
+          b) Continua en [𝑎𝑎, 𝑏𝑏], con 𝑓𝑓(𝑎𝑎)𝑓𝑓(𝑏𝑏) < 0, y cuya gráfica corte al eje 𝑥𝑥 en más de un punto del
+             intervalo (𝑎𝑎, 𝑏𝑏).
+          c) Continua en [𝑎𝑎, 𝑏𝑏], derivable en (𝑎𝑎, 𝑏𝑏), con 𝑓𝑓(𝑎𝑎)𝑓𝑓(𝑏𝑏) < 0, 𝑓𝑓 ′ > 0 en (𝑎𝑎, 𝑏𝑏), y cuya gráfica corte
+             al eje 𝑥𝑥 en más de un punto del intervalo (𝑎𝑎, 𝑏𝑏).
+          d) Dos veces derivable en ℝ, con 𝑓𝑓 ′′ > 0 en ℝ y monótona en ℝ.
+
+3.2. Calcule los siguientes límites:
+                                   ln 𝑥𝑥                                   𝑥𝑥−1
+                           a) lim        .                       b) lim          .
+                               𝑥𝑥→1 𝑥𝑥                                𝑥𝑥→1 ln 𝑥𝑥
+
+                                    tan 𝑥𝑥
+                           c) lim            .                   d)   lim √𝑥𝑥 ln 𝑥𝑥.
+                               𝑥𝑥→0 sin 𝑥𝑥                            𝑥𝑥→0+
+
+
+3.3. Calcule el valor que tiene que tomar el parámetro positivo 𝑎𝑎 para que el área de la región encerrada por
+     la gráfica de la función 𝑓𝑓(𝑥𝑥) = 𝑎𝑎𝑥𝑥 2 − 2𝑎𝑎𝑎𝑎 y el eje 𝑥𝑥 sea igual a 10 unidades de superficie. Haga un dibujo
+     de la región.
+
+
+PREGUNTA 4. GEOMETRÍA. (2 puntos)
+
+Responda uno de estos dos apartados: 4.1. o 4.2.
+
+4.1. Sea 𝑟𝑟 la recta que pasa por el origen y por 𝑃𝑃′, siendo 𝑃𝑃′ el punto simétrico de 𝑃𝑃(1,0,1) con respecto al
+     punto 𝑄𝑄(0,1,0). Se pide:
+
+     4.1.1. Obtenga 𝑃𝑃′ y las ecuaciones paramétricas de 𝑟𝑟.
+     4.1.2. Determine la ecuación implícita del plano que pasa por el origen y es perpendicular a 𝑟𝑟.
+
+4.2. Considérense los puntos 𝑃𝑃(1,0,1), 𝑄𝑄(0,1,0) y 𝑅𝑅(1,1,1).
+
+     4.2.1. Demuestre que 𝑃𝑃, 𝑄𝑄 y 𝑅𝑅 no están alineados y obtenga la ecuación implícita del plano 𝜋𝜋 que pasa
+            por ellos.
+     4.2.2. Calcule el valor o valores de 𝑎𝑎 que hacen que la distancia del punto 𝑆𝑆(𝑎𝑎, 0,0) a ese plano 𝜋𝜋 sea igual
+            a √2 unidades de longitud.
+                                                       PAU                                          CÓDIGO 20
+                                            Convocatoria ordinaria 2026
+                                                 MATEMÁTICAS II
+PREGUNTA 1
+
+
+1.1. 𝐼𝐼 é o suceso «prodúcense incidencias meteorolóxicas», R o suceso «hai un retraso significativo»,
+mentres que 𝑋𝑋~𝑁𝑁(765,18) é a variable aleatoria que representa o tempo de viaxe nun día sen
+incidencias e 𝑌𝑌~𝑁𝑁(810,40) é a variable aleatoria que representa o tempo de viaxe nun día con
+incidencias. Pídese 𝑃𝑃(𝑅𝑅).
+En virtude do teorema da probabilidade total, sábese que
+                    𝑃𝑃(𝑅𝑅) = 𝑃𝑃(𝑅𝑅|𝐼𝐼)𝑃𝑃(𝐼𝐼) + 𝑃𝑃(𝑅𝑅|𝐼𝐼 ̅)𝑃𝑃(𝐼𝐼 ̅) = 0.3 𝑃𝑃(𝑅𝑅|𝐼𝐼) + 0.7 𝑃𝑃(𝑅𝑅|𝐼𝐼 ̅),
+porque 𝑃𝑃(𝐼𝐼) = 0.3.
+                                            840 − 810               30             3
+  𝑃𝑃(𝑅𝑅|𝐼𝐼) = 𝑃𝑃(𝑌𝑌 > 840) = 𝑃𝑃 �𝑍𝑍𝑌𝑌 >               � = 𝑃𝑃 �𝑍𝑍𝑌𝑌 > � = 𝑃𝑃 �𝑍𝑍𝑌𝑌 > � = 𝑃𝑃(𝑍𝑍𝑌𝑌 > 0.75)
+                                               40                   40             4
+                  = 1 − 𝑃𝑃(𝑍𝑍𝑌𝑌 ≤ 0.75) = 1 − 0.7734 = 0.2266.
+
+
+                                            780 − 765               15             5
+  𝑃𝑃(𝑅𝑅|𝐼𝐼 ̅) = 𝑃𝑃(𝑋𝑋 > 780) = 𝑃𝑃 �𝑍𝑍𝑋𝑋 >             � = 𝑃𝑃 �𝑍𝑍𝑋𝑋 > � = 𝑃𝑃 �𝑍𝑍𝑋𝑋 > � = 𝑃𝑃(𝑍𝑍𝑋𝑋 > 0.83)
+                                               18                   18             6
+                  = 1 − 𝑃𝑃(𝑍𝑍𝑋𝑋 ≤ 0.83) = 1 − 0.7967 = 0.2033.
+Conclúese que
+       𝑷𝑷(𝑹𝑹) = 0.3 × 0.2266 + 0.7 × 0.2033 = 0.06798 + 0.14231 = 0.21029 ≈ 𝟎𝟎. 𝟐𝟐𝟐𝟐𝟐𝟐𝟐𝟐.
+
+
+1.2.
+                                  765 − 810                 45               9
+   𝑷𝑷(𝒀𝒀 < 𝟕𝟕𝟕𝟕𝟕𝟕) = 𝑃𝑃 �𝑍𝑍𝑌𝑌 <             � = 𝑃𝑃 �𝑍𝑍𝑌𝑌 < − � = 𝑃𝑃 �𝑍𝑍𝑌𝑌 < − � = 𝑃𝑃(𝑍𝑍𝑌𝑌 < −1.125)
+                                     40                     40               8
+                    = 𝑃𝑃(𝑍𝑍𝑌𝑌 > 1.125) = 1 − 𝑃𝑃(𝑍𝑍𝑌𝑌 ≤ 1.125) = 1 − 0.8697 = 𝟎𝟎. 𝟏𝟏𝟏𝟏𝟏𝟏𝟏𝟏.
+PREGUNTA 2
+
+
+2.1. 𝐴𝐴(𝑋𝑋 − 𝐼𝐼)𝐵𝐵 = 𝐶𝐶, con 𝑋𝑋 cadrada.
+
+
+2.1.1. Se 𝐴𝐴 e 𝐵𝐵 son cadradas e invertibles, entón
+                                            𝑋𝑋 − 𝐼𝐼 = 𝐴𝐴−1 𝐶𝐶𝐵𝐵 −1 ,
+de onde
+                                            𝑿𝑿 = 𝑰𝑰 + 𝑨𝑨−𝟏𝟏 𝑪𝑪𝑩𝑩−𝟏𝟏 .
+
+
+2.1.2.
+                                           𝐴𝐴
+                                           ⏟ �(𝑋𝑋��
+                                                  −��
+                                                    𝐼𝐼) 𝐵𝐵
+                                                        ⏟ = 𝐶𝐶
+                                                            ⏟.
+                                           1×2    2×2     2×2         1×2
+
+Para que se poda facer o produto 𝐴𝐴(𝑋𝑋 − 𝐼𝐼), a matriz 𝑋𝑋 − 𝐼𝐼, e polo tanto 𝑋𝑋, ten que ter dúas filas.
+Como é cadrada, 𝑿𝑿 ten que ser de dimensión 𝟐𝟐 × 𝟐𝟐.
+Isto obriga a que 𝐵𝐵 teña dúas filas e, para que 𝐶𝐶 teña dúas columnas, 𝐵𝐵 ten que ter dúas columnas. É
+dicir, 𝑩𝑩 tamén ten que ser de dimensión 𝟐𝟐 × 𝟐𝟐.
+Pasamos á última parte desde exercicio:
+               𝑥𝑥      𝑦𝑦     1 0    1 0                                 𝑥𝑥 − 1         𝑦𝑦
+       (1 1) ��𝑦𝑦     −𝑥𝑥� − �0 1�� �0 1� = (0               0) ⟺ (1 1) � 𝑦𝑦               � = (0   0),
+                                                                                  −𝑥𝑥 − 1
+é dicir,
+                  𝑥𝑥 − 1 + 𝑦𝑦 = 0    𝑥𝑥 + 𝑦𝑦 = 1     𝑥𝑥 + 𝑦𝑦 = 1        𝑦𝑦 = 1
+                 �               �⟺�             �⟺�            �⟺�                �.
+                  𝑦𝑦 − 𝑥𝑥 − 1 = 0   −𝑥𝑥 + 𝑦𝑦 = 1       2𝑦𝑦 = 2     𝑥𝑥 = 1 − 𝑦𝑦 = 0
+Logo a matriz pedida é
+                                                        𝟎𝟎    𝟏𝟏
+                                                 𝑿𝑿 = �          �.
+                                                        𝟏𝟏    𝟎𝟎
+
+
+
+
+2.2.
+Polo método de Gauss, podemos reducir o sistema dado a outro equivalente con matriz triangular,
+cuxa discusión é sinxela:
+                 𝑚𝑚 − 4      0   5    9     𝐹𝐹3 − 𝐹𝐹1 𝑚𝑚 − 4    0   5    9    𝐹𝐹3 − 𝐹𝐹2
+             �      0             �
+                          𝑚𝑚 − 1 6 𝑚𝑚 + 8 �    ⟶     �   0           �
+                                                             𝑚𝑚 − 1 6 𝑚𝑚 + 8�    ⟶
+                 𝑚𝑚 − 4   𝑚𝑚 − 1 7 𝑚𝑚 + 9                0   𝑚𝑚 − 1 2 𝑚𝑚
+                                     𝑚𝑚 − 4       0      5   9
+                                    � 0        𝑚𝑚 − 1 6 � 𝑚𝑚 + 8�.
+                                        0         0    −4 −8
+                                                    PAU                                  CÓDIGO 20
+                                         Convocatoria ordinaria 2026
+                                              MATEMÁTICAS II
+
+
+Sistema triangular equivalente:
+                           (𝑚𝑚 − 4)𝑥𝑥                        +    5𝑧𝑧   =           9,
+                          �                   (𝑚𝑚 − 1)𝑦𝑦     +    6𝑧𝑧   =      𝑚𝑚 + 8,
+                                                                   𝑧𝑧   =           2.
+Discusión:
+   •    Se 𝑚𝑚 ∈ ℝ ∖ {1,4}, o sistema é compatible determinado, xa que a súa única solución é
+                                         𝑚𝑚 + 8 − 6𝑧𝑧 𝑚𝑚 − 4                   9 − 5𝑧𝑧   −1
+                      𝑧𝑧 = 2,     𝑦𝑦 =               =        ,         𝑥𝑥 =           =    .
+                                            𝑚𝑚 − 1     𝑚𝑚 − 1                  𝑚𝑚 − 4 𝑚𝑚 − 4
+
+
+   •    Se 𝑚𝑚 = 1, o sistema é
+                                                     −3𝑥𝑥 + 5𝑧𝑧 = 9,
+                                                 �          6𝑧𝑧 = 9,
+                                                             𝑧𝑧 = 2,
+        que é incompatible porque a segunda e a terceira ecuación non se poden cumprir á vez.
+
+
+   •    Se 𝑚𝑚 = 4, temos
+                                                         5𝑧𝑧 = 9,
+                                                 �3𝑦𝑦 + 6𝑧𝑧 = 12,
+                                                           𝑧𝑧 = 2,
+        que é incompatible porque a primeira e a terceira ecuación non se poden cumprir á vez.
+
+
+
+2.2. SOLUCIÓN ALTERNATIVA
+                         𝑚𝑚 − 4     0   5     9                𝑚𝑚 − 4    0   5
+                𝐴𝐴∗ = �     0    𝑚𝑚 − 1 6� 𝑚𝑚 + 8� ,    𝐴𝐴 = � 0      𝑚𝑚 − 1 6�.
+                         𝑚𝑚 − 4 𝑚𝑚 − 1 7 𝑚𝑚 + 9                𝑚𝑚 − 4 𝑚𝑚 − 1 7
+                  𝑚𝑚 − 4      0    5             1    0      5                   1              0 5
+       det(𝐴𝐴) = � 0       𝑚𝑚 − 1 6� = (𝑚𝑚 − 4) �0 𝑚𝑚 − 1 6� = (𝑚𝑚 − 4)(𝑚𝑚 − 1) �0              1 6�
+                  𝑚𝑚 − 4 𝑚𝑚 − 1 7                1 𝑚𝑚 − 1 7                      1              1 7
+                     = (𝑚𝑚 − 4)(𝑚𝑚 − 1)(7 − 5 − 6) = −4(𝑚𝑚 − 4)(𝑚𝑚 − 1).
+Polo tanto,    rank(𝐴𝐴) < 3 se 𝑚𝑚 ∈ {1,4}, porque det(𝐴𝐴) = 0,
+               rank(𝐴𝐴) = 3 se 𝑚𝑚 ∈ ℝ ∖ {1,4}, porque det(𝐴𝐴) ≠ 0.
+Discusión:
+   •    Se 𝑚𝑚 ∈ ℝ ∖ {1,4}, o sistema é compatible determinado, xa que rank(𝐴𝐴) = rank(𝐴𝐴∗ ) = 3 =
+        n.o de incógnitas.
+•   Se 𝑚𝑚 = 1,
+                                 −3 0 5 9                   −3 0 5
+                          𝐴𝐴∗ = � 0 0 6� 9 � ,        𝐴𝐴 = � 0 0 6�.
+                                 −3 0 7 10                  −3 0 7
+    Como
+        −3 5      9         1 5 9
+       � 0 6      9 � = −3 �0 6 9 � = −3(60 + 45 − 54 − 63) = −3(−12) = 36 ≠ 0,
+        −3 7     10         1 7 10
+                     ∗)
+    tense que rank(𝐴𝐴 = 3 ≠ rank(𝐴𝐴). Logo neste caso o sistema é incompatible.
+
+
+•   Se 𝑚𝑚 = 4,
+                                    0 0 5 9              0 0 5
+                             𝐴𝐴∗ = �0 3 6� 12� ,   𝐴𝐴 = �0 3 6�.
+                                    0 3 7 13             0 3 7
+          0      5 9          0 5 9
+    Como �3      6 12 � = 3 � 1 6 12� = 3(60 + 63 − 54 − 65) = 3 × 4 = 12 ≠ 0,
+          3      7 13         1 7 13
+    tense que rank(𝐴𝐴∗ ) = 3 ≠ rank(𝐴𝐴). Logo neste caso o sistema tamén é incompatible.
+                                            PAU                                 CÓDIGO 20
+                                 Convocatoria ordinaria 2026
+                                      MATEMÁTICAS II
+PREGUNTA 3
+
+
+3.1.
+
+3.1.a) Función continua pero non derivable en 𝑥𝑥 = 0:
+
+
+
+
+É a gráfica de 𝑓𝑓(𝑥𝑥) = |𝑥𝑥|. É continua pero non derivable en 𝑥𝑥 = 0.
+
+
+3.1.b) Función continua en [𝑎𝑎, 𝑏𝑏], con 𝑓𝑓(𝑎𝑎)𝑓𝑓(𝑏𝑏) < 0, e cuxa gráfica corta ao eixe 𝑥𝑥 en máis
+dun punto do intervalo (𝑎𝑎, 𝑏𝑏).
+
+
+
+
+       Neste caso a gráfica corta ao eixe 𝑥𝑥 en tres puntos do intervalo (𝑎𝑎, 𝑏𝑏) = (−2,2).
+3.1.c) Función continua en [𝑎𝑎, 𝑏𝑏], derivable en (𝑎𝑎, 𝑏𝑏), con 𝑓𝑓(𝑎𝑎)𝑓𝑓(𝑏𝑏) < 0, 𝑓𝑓 ′ > 0 en (𝑎𝑎, 𝑏𝑏), e
+cuxa gráfica corta ao eixe 𝑥𝑥 en máis dun punto do intervalo (𝑎𝑎, 𝑏𝑏).
+
+
+Non existe unha función que cumpra todas esas condicións, porque, ao ser estritamente
+crecente (𝑓𝑓 ′ > 0), a súa gráfica só pode cortar ao eixe 𝑥𝑥 nun punto. Se se tivese 𝑓𝑓(𝑐𝑐1 ) =
+𝑓𝑓(𝑐𝑐2 ) = 0 para certos 𝑐𝑐1 e 𝑐𝑐2 distintos de (𝑎𝑎, 𝑏𝑏), entón tería que haber algún punto entre eles
+onde 𝑓𝑓′ fose 0 (polo teorema de Rolle).
+
+
+
+
+     No debuxo, 𝑎𝑎 = −1 e 𝑏𝑏 = 2.
+
+
+
+3.1.d) Función dúas veces derivable en ℝ, con 𝑓𝑓 ′′ > 0 en ℝ e monótona en ℝ.
+Vale, por, exemplo:
+                                           PAU                                    CÓDIGO 20
+                                Convocatoria ordinaria 2026
+                                     MATEMÁTICAS II
+A función ten que ser convexa, xa que 𝑓𝑓 ′′ > 0, pero non ten por que ser crecente. Por
+exemplo, tamén vale a seguinte:
+
+
+
+
+3.2.
+3.2.a)
+                                                    𝐥𝐥𝐥𝐥 𝒙𝒙 0
+                                               𝐥𝐥𝐥𝐥𝐥𝐥      = = 𝟎𝟎.
+                                               𝒙𝒙→𝟏𝟏 𝒙𝒙     1
+
+3.2.b)
+                                                     𝑥𝑥 − 1
+                                                 lim        .
+                                                 𝑥𝑥→1 ln 𝑥𝑥
+
+A substitución directa leva a unha indeterminación de tipo 0/0, polo que aplicaremos a regra
+de L`Hôpital.
+Posto que
+                                               1
+                                         lim       = lim 𝑥𝑥 = 1,
+                                         𝑥𝑥→1 1/𝑥𝑥   𝑥𝑥→1
+
+conclúese que
+                                                 𝒙𝒙 − 𝟏𝟏
+                                            𝐥𝐥𝐥𝐥𝐥𝐥        = 𝟏𝟏.
+                                            𝒙𝒙→𝟏𝟏 𝐥𝐥𝐥𝐥 𝒙𝒙
+
+3.2.c)
+                             𝐭𝐭𝐭𝐭𝐭𝐭 𝒙𝒙        sin 𝑥𝑥 1               1
+                       𝐥𝐥𝐥𝐥𝐥𝐥          = lim                = lim         = 𝟏𝟏.
+                       𝒙𝒙→𝟎𝟎 𝐬𝐬𝐬𝐬𝐬𝐬 𝒙𝒙   𝑥𝑥→0 cos 𝑥𝑥 sin 𝑥𝑥   𝑥𝑥→0 cos 𝑥𝑥
+
+Ou ben, empregando a regra de L´Hôpital:
+                                      𝐭𝐭𝐭𝐭𝐭𝐭 𝒙𝒙        1 + tan2 𝑥𝑥
+                                𝐥𝐥𝐥𝐥𝐥𝐥          = lim              = 𝟏𝟏.
+                                𝒙𝒙→𝟎𝟎 𝐬𝐬𝐬𝐬𝐬𝐬 𝒙𝒙   𝑥𝑥→0   cos 𝑥𝑥
+3.2.d)
+                                                lim √𝑥𝑥 ln 𝑥𝑥.
+                                               𝑥𝑥→0+
+
+Aquí preséntase unha indeterminación de tipo 0 × (−∞). Ao reescribir o límite como
+                                                           ln 𝑥𝑥
+                                                      lim+
+                                                     𝑥𝑥→0 𝑥𝑥 −1/2
+
+a indeterminación pasa a ser de tipo −∞/∞ e pódese aplicar a regra de L’Hôpital:
+Posto que
+                             𝑥𝑥 −1
+                     lim+              = −2 lim+ 𝑥𝑥 −1+3/2 = −2 lim+√𝑥𝑥 = 0,
+                    𝑥𝑥→0 (−1/2)𝑥𝑥 −3/2     𝑥𝑥→0                𝑥𝑥→0
+
+conclúese que
+                                                 𝐥𝐥𝐥𝐥𝐥𝐥 √𝒙𝒙 𝐥𝐥𝐥𝐥 𝒙𝒙 = 𝟎𝟎.
+                                                 𝒙𝒙→𝟎𝟎+
+
+
+
+3.3. 𝑓𝑓(𝑥𝑥) = 𝑎𝑎𝑥𝑥 2 − 2𝑎𝑎𝑎𝑎 = 𝑎𝑎𝑎𝑎(𝑥𝑥 − 2), 𝑓𝑓 ′ (𝑥𝑥) = 2𝑎𝑎𝑎𝑎 − 2𝑎𝑎 = 2𝑎𝑎(𝑥𝑥 − 1), 𝑓𝑓 ′′ (𝑥𝑥) = 2𝑎𝑎 > 0. A
+gráfica de 𝑓𝑓 é, por tanto, unha parábola convexa con vértice en 𝑥𝑥 = 1.
+Pódese representar a rexión de interese (ver debuxo) usando a información anterior xunto
+con 𝑓𝑓(1) = 𝑎𝑎 − 2𝑎𝑎 = −𝑎𝑎 < 0, 𝑓𝑓(0) = 0 = 𝑓𝑓(2).
+
+
+
+
+               2
+     𝐴𝐴 = − � (𝑎𝑎𝑥𝑥 2 − 2𝑎𝑎𝑎𝑎) 𝑑𝑑𝑑𝑑
+              0
+                            2
+                      = � (2𝑎𝑎𝑎𝑎 − 𝑎𝑎𝑥𝑥 2 ) 𝑑𝑑𝑑𝑑
+                            0
+                                2                                       2
+                                            2)                2
+                                                                𝑥𝑥 3        8       12 − 8 4𝑎𝑎
+                      = 𝑎𝑎 � (2𝑥𝑥 − 𝑥𝑥           𝑑𝑑𝑑𝑑 = 𝑎𝑎 �𝑥𝑥 − � = 𝑎𝑎 �4 − � = 𝑎𝑎       =    .
+                                0                                3 0        3         3     3
+
+Agora calcúlase o valor pedido:
+                                    4𝑎𝑎                        30
+                                        = 10 ⟺ 4𝑎𝑎 = 30 ⟺ 𝒂𝒂 =    = 𝟕𝟕. 𝟓𝟓.
+                                     3                          4
+                                             PAU                            CÓDIGO 20
+                                  Convocatoria ordinaria 2026
+                                       MATEMÁTICAS II
+PREGUNTA 4
+
+
+4.1.
+
+
+
+
+A recta 𝑟𝑟 pasa por 𝑂𝑂(0,0,0) e por 𝑃𝑃′(𝑥𝑥, 𝑦𝑦, 𝑧𝑧).
+4.1.1.
+                             𝑥𝑥 + 1
+                            ⎧        = 0 ⟹ 𝑥𝑥 = −1,⎫
+                            ⎪ 2                     ⎪
+                               𝑦𝑦 + 0
+                                      = 1 ⟹ 𝑦𝑦 = 2, ⇒ 𝑷𝑷′ (−𝟏𝟏, 𝟐𝟐, −𝟏𝟏).
+                            ⎨ 2                     ⎬
+                            ⎪ 𝑧𝑧 + 1                ⎪
+                            ⎩ 2      = 0 ⟹ 𝑧𝑧 = −1. ⎭
+
+𝑣𝑣⃗𝑟𝑟 = �������⃗
+        𝑃𝑃′𝑂𝑂 = (−1,2, −1) é vector director de 𝑟𝑟, conque
+                                              𝒙𝒙 = −𝝀𝝀,
+                                         𝒓𝒓: � 𝒚𝒚 = 𝟐𝟐𝟐𝟐,   𝝀𝝀 ∈ ℝ
+                                              𝒛𝒛 = −𝝀𝝀,
+son ecuacións paramétricas de 𝑟𝑟.
+
+
+4.1.2. Como o plano pasa pola orixe e 𝑣𝑣⃗𝑟𝑟 = (−1,2, −1) é normal ao plano, a súa ecuación
+implícita é
+                                           −𝒙𝒙 + 𝟐𝟐𝟐𝟐 − 𝒛𝒛 = 𝟎𝟎.
+
+
+4.2. Considéranse os puntos 𝑃𝑃(1,0,1), 𝑄𝑄(0,1,0) e 𝑅𝑅(1,1,1).
+
+
+                                             �����⃗ = (−1,1, −1) non é proporcional a 𝑃𝑃𝑃𝑃
+4.2.1. 𝑃𝑃, 𝑄𝑄 e 𝑅𝑅 non están aliñados porque 𝑃𝑃𝑃𝑃                                     �����⃗ =
+
+(0,1,0).
+
+Tendo en conta que 𝑄𝑄(0,1,0) ∈ 𝜋𝜋, que �����⃗ �����⃗ son xeradores do plano e que
+                                       𝑃𝑃𝑃𝑃 e 𝑃𝑃𝑃𝑃
+                      𝑥𝑥 𝑦𝑦 − 1  𝑧𝑧
+                                          𝑥𝑥 𝑧𝑧
+                    �−1       1 −1� = − �−1 −1� = −(−𝑥𝑥 + 𝑧𝑧) = 𝑥𝑥 − 𝑧𝑧,
+                      0       1  0
+conclúese que a ecuación implícita pedida é 𝝅𝝅: 𝒙𝒙 − 𝒛𝒛 = 𝟎𝟎. (Poderiamos evitar o razoamento
+empregado para probar que os puntos non están aliñados dicindo que non están aliñados
+porque o determinante anterior non é identicamente nulo.)
+4.2.2. A distancia entre un plano 𝜋𝜋: 𝐴𝐴𝐴𝐴 + 𝐵𝐵𝐵𝐵 + 𝐶𝐶𝐶𝐶 + 𝐷𝐷 = 0 e un punto 𝑃𝑃(𝑥𝑥0 , 𝑦𝑦0 , 𝑧𝑧0 ) vén dada
+pola fórmula
+                                              |𝐴𝐴𝑥𝑥0 + 𝐵𝐵𝑦𝑦0 + 𝐶𝐶𝑧𝑧0 + 𝐷𝐷|
+                                d(𝑃𝑃, 𝜋𝜋) =                                  .
+                                                  √𝐴𝐴2 + 𝐵𝐵 2 + 𝐶𝐶 2
+Neste caso,
+                                                            |𝑎𝑎|
+                                              d(𝑆𝑆, 𝜋𝜋) =          .
+                                                            √2
+Por último,
+                               |𝑎𝑎|
+                                      = √2 ⟺ |𝑎𝑎| = 2 ⟺ 𝒂𝒂 ∈ {−𝟐𝟐, 𝟐𝟐}.
+                               √2
+
+
+
+
+NOTA FINAL: as solucións que se presentan aquí son só propostas. É habitual que os problemas
+admitan varias formas de resolución, todas elas correctas e, polo tanto, igualmente válidas.
+
