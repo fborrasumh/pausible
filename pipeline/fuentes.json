@@ -27,9 +27,9 @@
     "asturias": {
       "nombre": "Principado de Asturias",
       "semillas": [
+        "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/examenes/lomce?folderId=3365058&redirect=75224",
         "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/examenes/lomce?folderId=83975&redirect=75224",
         "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/examenes/lomce?folderId=83981&redirect=75224",
-        "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/examenes/lomce?folderId=3365058&redirect=75224",
         "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/modelosdefinitivos",
         "https://www.uniovi.es/estudia/grados/sobrelosgrados/pau"
       ],
@@ -48,7 +48,8 @@
         "/examenes/loe",
         "/examenes/logse"
       ],
-      "cabecera_manda": true
+      "cabecera_manda": true,
+      "fraccion_rastreo": 0.75
     },
     "baleares": {
       "nombre": "Illes Balears",
@@ -198,5 +199,5 @@
       "pausa": 1.5
     }
   },
-  "_nota_opciones": "Opciones por comunidad: pausa (s entre peticiones), timeout (s para conectar), max_paginas, profundidad, dominios_extra (otros dominios de la misma institución, p. ej. uib.cat y uib.es) y plantillas (URL con {anio} y listas o rangos «01-60» para el resto de campos). También: solo_rutas y excluir (solo se siguen las páginas cuya URL contiene alguno de esos trozos, y nunca las que contienen alguno de excluir) y cabecera_manda (la materia, el año y la convocatoria de la cabecera del PDF mandan sobre el texto del enlace)."
+  "_nota_opciones": "Opciones por comunidad: pausa (s entre peticiones), timeout (s para conectar), max_paginas, profundidad, dominios_extra (otros dominios de la misma institución, p. ej. uib.cat y uib.es) y plantillas (URL con {anio} y listas o rangos «01-60» para el resto de campos). También: solo_rutas y excluir (solo se siguen las páginas cuya URL contiene alguno de esos trozos, y nunca las que contienen alguno de excluir) y cabecera_manda (la materia, el año y la convocatoria de la cabecera del PDF mandan sobre el texto del enlace). Y fraccion_rastreo: parte del tiempo dedicada a recorrer páginas (0,4 por defecto)."
 }

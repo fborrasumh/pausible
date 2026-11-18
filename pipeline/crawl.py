@@ -401,7 +401,7 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
     log(f'== {cc["nombre"]}')
     CABECERA_MANDA['si'] = bool(cc.get('cabecera_manda'))
     cfg = {**cfg, **{k: cc[k] for k in ('pausa', 'max_paginas', 'profundidad', 'solo_rutas', 'excluir') if k in cc}}
-    encontrados = Rastreador(s, cfg, log, limite=t0 + 0.4 * tiempo).pdfs(cc['semillas'])
+    encontrados = Rastreador(s, cfg, log, limite=t0 + cc.get('fraccion_rastreo', 0.4) * tiempo)   # parte del tiempo para recorrer páginas; el resto, descargar.pdfs(cc['semillas'])
     for pl in cc.get('plantillas', []):
         for u in candidatos_plantilla(pl, anios):
             encontrados.setdefault(u, {'texto': '', 'contexto': '', 'pagina': u, 'plantilla': True})
