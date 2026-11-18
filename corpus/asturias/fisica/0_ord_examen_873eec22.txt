@@ -1,0 +1,742 @@
+                                                                                                                                                                                                         Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                                              acceso a la Universidad (EBAU)
+                                                                                                                                                                                                                     CURSO 2022-23
+
+
+
+
+                                                                                           FÍSICA (examen resuelto y criterios de corrección)
+
+   Responda en el pliego del examen a un máximo de cinco preguntas cualesquiera de entre las diez que se proponen. Todas las preguntas se calificarán con un máximo de 2 puntos.
+   Indique en el pliego del examen la agrupación de preguntas que responderá: agrupaciones de preguntas que sumen más de 10 puntos conllevarán la anulación de la(s) última(s) pregunta(s) seleccionada(s) y/o
+      respondida(s).
+
+
+                                                                                                         DATOS y CONSTANTES FÍSICAS
+
+ RT = 6,37x106 m                                                     k = 9,0x109 N·m2·C-2                                   mp+ = 1,67x10-27 kg                                                  c = 3,0x108 m·s-1
+
+ G = 6,67x10-11 N.m2·kg-2                                            |qe-| = |qp+| = 1,6x10-19 C                            me- = 9,11x10-31 kg                                                  h = 6,63x10-34 J·s
+
+ µ0 = 4πx10-7 T·m·A-1                                                naire = 1                                              I0 = 10-12 W·m-2                                                     MTierra = 5,97×1024 kg
+
+
+
+                                                                                                                                                                                          −4 + √16 + 48
+Pregunta 1.                                                                                                                                                                        𝑥𝑥 =                 =2m
+                                                                                                                                                                                                2
+Dos partículas puntuales con masas m1 = 5 kg y m2 = 20 kg se hallan situadas a lo largo del eje X. La partícula
+                                                                                                                             El campo gravitatorio debido a ambas partículas se anula en el punto del eje OX situado a una distancia x = 2 m de la
+de masa m1 se encuentra en el origen de coordenadas, x1 = 0, mientras que la masa m2 está en el punto x2                     masa m1.
+= 6 m.
+   a) Determine el punto del eje X en el que se anula el campo gravitatorio. (1 punto)
+                                                                                                                             b) El potencial gravitatorio producido por ambas partículas en el punto xA= -1 m, será:
+   b) Potencial gravitatorio debido al sistema de masas en los puntos del eje X situados en las coordenadas
+   xA = -1 m y xB = 7m. (1 punto)                                                                                                          𝐺𝐺 ∙ 𝑚𝑚1 𝐺𝐺 ∙ 𝑚𝑚2    𝐺𝐺 ∙ 𝑚𝑚1 4𝐺𝐺 ∙ 𝑚𝑚1                1     4                  1 4     11
+                                                                                                                                𝑉𝑉𝐴𝐴 = −           −         =−         −          = −𝐺𝐺 ∙ 𝑚𝑚1 � +          � = −𝐺𝐺 ∙ 𝑚𝑚1 � + � = − 𝐺𝐺 ∙ 𝑚𝑚1
+                                                                                                                                             𝑟𝑟1𝐴𝐴    𝑟𝑟2𝐴𝐴       𝑟𝑟1𝐴𝐴    𝑟𝑟2𝐴𝐴                𝑟𝑟1𝐴𝐴 𝑟𝑟2𝐴𝐴                1 7      7
+SOLUCIÓN:
+                                                                                                                                                         11
+a) El campo gravitatorio total debido a las dos partículas únicamente puede anularse en la región comprendida entre                                 =−      × 6.67 ∙ 10−11 N ∙ m2 ∙ kg −2 ∙ 5 kg ∙ m−1 = −5.24 ∙ 10−10 J ∙ kg −1
+                                                                                                                                                          7
+ambas masas, dado que solo en dicha zona los campos gravitatorios de ambos cuerpos tienen sentidos opuestos,
+según se indica en el esquema adjunto.                                                                                       Y análogamente, el potencial gravitatorio en el punto xB = 7 m:
+                               g2                                                            g1                                            𝐺𝐺 ∙ 𝑚𝑚1 𝐺𝐺 ∙ 𝑚𝑚2    𝐺𝐺 ∙ 𝑚𝑚1 4𝐺𝐺 ∙ 𝑚𝑚1                1     4                  1 4     29
+                                                           g1        g2                                                         𝑉𝑉𝐵𝐵 = −           −         =−         −          = −𝐺𝐺 ∙ 𝑚𝑚1 �     +      � = −𝐺𝐺 ∙ 𝑚𝑚1 � + � = − 𝐺𝐺 ∙ 𝑚𝑚1
+                                                                                                                                             𝑟𝑟1𝐵𝐵    𝑟𝑟2𝐵𝐵       𝑟𝑟1𝐵𝐵    𝑟𝑟2𝐵𝐵                𝑟𝑟1𝐵𝐵 𝑟𝑟2𝐵𝐵                7 1      7
+                                g1                                                              g2
+                                                                 x                                                                                       29
+                                                                                                     X                                              =−      × 6.67 ∙ 10−11 N ∙ m2 ∙ kg −2 ∙ 5 kg ∙ m−1 = −1.38 ∙ 10−9 J ∙ kg −1
+                                                                                                                                                          7
+                                             m1 = 5 kg                             m1 = 20 kg
+                                             x1 = 0                                x2 = 6 m
+
+Teniendo en cuenta que m2 = 4 m1 y que en el punto del eje OX situado entre las dos partículas en el que se anula el         Pregunta 2.
+campo gravitatorio producido por ambas partículas, los campos gravitatorios están dirigidos según la recta del eje X,
+                                                                                                                             Un satélite artificial de 1.500 kg de masa describe una órbita de trayectoria circular entorno a la Tierra con un radio de
+se debe cumplir que:
+                                                                                                                             3.5 ×104 m. Calcule:
+                                       𝐺𝐺 ∙ 𝑚𝑚1      𝐺𝐺 ∙ 𝑚𝑚2       𝐺𝐺 ∙ 𝑚𝑚1 𝐺𝐺 ∙ 4𝑚𝑚1
+           𝑔𝑔⃗𝑚𝑚 1 + 𝑔𝑔⃗𝑚𝑚 2 = 0 = −                                                                 2     2                    a) ¿Cuál es el valor de la gravedad a dicha altura? (1 punto)
+                                             2 𝑖𝑖⃗ +       2 𝑖𝑖⃗ ⟹ − 𝑥𝑥 2 + (6 − 𝑥𝑥)2 = 0 ⟹ −(6 − 𝑥𝑥) + 4𝑥𝑥 = 0
+                                          𝑟𝑟1           𝑟𝑟2
+                                                                                                                                b) ¿Con que velocidad angular viaja el satélite? (0,5 puntos)
+Resolviendo la ecuación de segundo grado resultante:
+                                                                                                                                c) Calcule la relación del peso del satélite en un punto de la órbita respecto a su peso en la superficie de la Tierra.
+                                                                                  −4 ± √16 + 48                                 (0,5 puntos)
+                               (6 − 𝑥𝑥)2 − 4𝑥𝑥 2 = 0 ⟹ 𝑥𝑥 2 + 4𝑥𝑥 − 12 = 0 ⟹ 𝑥𝑥 =
+                                                                                        2
+                                                                                                                             SOLUCIÓN:
+Donde solo es posible la solución para x > 0, luego:
+                                                                                                                             a) El valor de la aceleración de la gravedad en un punto de la órbita del satélite a esa altura será:
+
+
+                                                                                                                        1
+                                                                                                                                                                                                                                            Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                                                                                 acceso a la Universidad (EBAU)
+                                                                                                                                                                                                                                                        CURSO 2022-23
+
+
+
+                                  𝑚𝑚 ∙ 𝑀𝑀T                        𝐺𝐺𝑀𝑀𝑇𝑇      6.67 ∙ 10−11 N ∙ m2 ∙ kg −2 × 5.97 ∙ 1024 kg                              Donde:
+𝐹𝐹G = 𝑚𝑚 ∙ 𝑔𝑔ó𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 = 𝐺𝐺                ⟹ 𝑔𝑔ó𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 =              =                                              ≈ 9.71 𝑚𝑚/𝑠𝑠 2                                                                                                                                      Y(m)
+                                (𝑅𝑅𝑇𝑇 + ℎ) 2                   (𝑅𝑅𝑇𝑇 + ℎ) 2          (6.37 ∙ 106 m + 3.5 ∙ 104 m )2                                                                𝑞𝑞1
+                                                                                                                                                                       �����⃗                                       𝑁𝑁
+                                                                                                                                                                       𝐸𝐸1𝐴𝐴 = 𝐾𝐾 2 [cos(45)𝑖𝑖⃗ + 𝑠𝑠𝑠𝑠𝑠𝑠(45)𝑗𝑗⃗] 𝐶𝐶 =
+b) La fuerza centrípeta a la que está sometido el satélite en su órbita es debida a la fuerza de atracción gravitatoria que                                                       𝑑𝑑1𝐴𝐴
+ejerce la Tierra sobre el satélite, luego la velocidad angular de rotación del satélite en la órbita alrededor de la Tierra                                                        𝑞𝑞                             𝑁𝑁                                                 (0, 1)
+será:                                                                                                                                                                         = 𝐾𝐾 2 [cos(45)𝑖𝑖⃗ + 𝑠𝑠𝑠𝑠𝑠𝑠(45)𝑗𝑗⃗] 𝐶𝐶
+                                                                                                                                                                                  𝑑𝑑                                                                                    +q1
+                                                                                                                                                                                                                                                                                           E2A
+                                                 2
+                                          𝑚𝑚 ∙ 𝑣𝑣𝑜𝑜𝑜𝑜𝑜𝑜          2
+                                                          𝑚𝑚 ∙ 𝜔𝜔𝑜𝑜𝑜𝑜𝑜𝑜 ∙ (𝑅𝑅𝑇𝑇 + ℎ)2        𝑚𝑚 ∙ 𝑀𝑀T                      𝐺𝐺 ∙ 𝑀𝑀𝑇𝑇                                   �����⃗      𝑞𝑞2                              𝑁𝑁                                                          A (1, 0)          EA
+                                                                                                                                                                           𝐴𝐴                                                                                       B (0, 0)
+                          𝐹𝐹C = 𝐹𝐹G ⟹                   =                             = 𝐺𝐺             ⟹ 𝜔𝜔𝑜𝑜𝑜𝑜𝑜𝑜 = �                                                  𝐸𝐸  2 = 𝐾𝐾 2 [cos(45)𝑖𝑖⃗ − 𝑠𝑠𝑠𝑠𝑠𝑠(45)𝑗𝑗⃗] 𝐶𝐶 =
+                                          (𝑅𝑅𝑇𝑇 + ℎ)             (𝑅𝑅𝑇𝑇 + ℎ)                (𝑅𝑅𝑇𝑇 + ℎ)2                (𝑅𝑅𝑇𝑇 + ℎ𝑚𝑚𝑚𝑚𝑚𝑚 )3                                          𝑑𝑑2𝐴𝐴                                                                                                                X(m)
+                                                                                                                                                                                   𝑞𝑞                             𝑁𝑁
+                                                                                                                                                                              = 𝐾𝐾 2 [cos(45)𝑖𝑖⃗ − 𝑠𝑠𝑠𝑠𝑠𝑠(45)𝑗𝑗⃗] 𝐶𝐶                                                                        E1A
+                                                                                                                                                                                  𝑑𝑑                                                                                    +q2
+                                                               6.67 ∙ 10−11 N ∙ m2 ∙ kg −2       × 5.97 ∙ 1024 kg                          𝑟𝑟𝑟𝑟𝑟𝑟
+                     Y sustituyendo datos: 𝜔𝜔𝑜𝑜𝑜𝑜𝑜𝑜 = �                                                               = 1.23 ∙ 10−3                     Luego el campo eléctrico resultante en el punto A, será:                                                               (0, -1)
+                                                                       (6.37 ∙ 106 m + 3.5 ∙ 104 m)3                                         𝑠𝑠
+
+
+
+c) Para obtener la relación del peso del satélite en un punto de la órbita respecto al peso en la superficie de la Tierra,                                                   �����⃗      𝑞𝑞                             𝑁𝑁      𝑞𝑞                             𝑁𝑁       𝑞𝑞           𝑁𝑁
+calcularemos el peso del satélite en la superficie de la Tierra, que será:                                                                                                   𝐸𝐸𝑇𝑇𝐴𝐴 = 𝐾𝐾 2 [cos(45)𝑖𝑖⃗ + 𝑠𝑠𝑠𝑠𝑠𝑠(45)𝑗𝑗⃗] 𝐶𝐶 + 𝐾𝐾 2 [cos(45)𝑖𝑖⃗ − 𝑠𝑠𝑠𝑠𝑠𝑠(45)𝑗𝑗⃗] 𝐶𝐶 = 2𝐾𝐾 2 cos(45)𝑖𝑖⃗ 𝐶𝐶
+                                                                                                                                                                                        𝑑𝑑                                     𝑑𝑑                                      𝑑𝑑
+
+                     𝑚𝑚𝑠𝑠𝑠𝑠𝑠𝑠 ∙ 𝑀𝑀T                           1.5 ∙ 103 kg × 6.67 ∙ 10−11 N ∙ m2 ∙ kg −2 × 5.97 ∙ 1024 kg
+         𝐹𝐹G0 = 𝐺𝐺                  = 𝑚𝑚 𝑠𝑠𝑠𝑠𝑠𝑠 ∙ 𝑔𝑔0 = 𝑃𝑃0 =                                                             =
+                           𝑅𝑅2𝑇𝑇                                                    (6.37 ∙ 106 m )2                                                    Y sustituyendo datos:
+                                   = 1.47 ∙ 104 N; (14720.16 N)
+                                                                                                                                                                                                                           9      2    −2
+                                                                                                                                                                              �����⃗       𝑞𝑞              N   2 × 9 ∙ 10 N ∙ m ∙ C         × 3 ∙ 10−6 C √2                          N
+                                                                                                                                                                              𝐸𝐸𝑇𝑇𝐴𝐴 = 2𝐾𝐾 2 cos(45) ∙ 𝑖𝑖⃗ C =                                              ∙ 𝑖𝑖⃗ = 1.91 ∙ 104 ∙ 𝑖𝑖⃗
+                                                                                                                                                                                          𝑑𝑑                                   2 m2                      2                           C
+Y análogamente, el peso del satélite en un punto de la órbita alrededor de la Tierra, a dicha altura:
+
+                                                                                                                                                        b) Para obtener el trabajo para llevar a la carga +q0 desde el punto A al punto B, se necesita calcular el potencial
+                                         𝑚𝑚𝑠𝑠𝑠𝑠𝑠𝑠 ∙ 𝑀𝑀T        𝑅𝑅2𝑇𝑇                        𝑅𝑅𝑇𝑇 2              𝑅𝑅𝑇𝑇 2    𝑃𝑃órbita       𝑅𝑅𝑇𝑇 2         eléctrico en dichos puntos:
+𝑃𝑃órbita = 𝑚𝑚𝑠𝑠𝑠𝑠𝑠𝑠 ∙ 𝑔𝑔ó𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 = 𝐺𝐺          2     ∙             = 𝑚𝑚 𝑠𝑠𝑠𝑠𝑠𝑠 ∙ 𝑔𝑔0 �         � = 𝑃𝑃0 ∙ �         � ⟹          = �         �
+                                               𝑅𝑅𝑇𝑇       (𝑅𝑅𝑇𝑇 + ℎ)2                    𝑅𝑅𝑇𝑇 + ℎ            𝑅𝑅𝑇𝑇 + ℎ        𝑃𝑃0      𝑅𝑅𝑇𝑇 + ℎ                                                𝑞𝑞1        𝑞𝑞2        𝑞𝑞 𝑞𝑞     𝑞𝑞 2 × 9 ∙ 109 N ∙ m2 ∙ C −2 × 3 ∙ 10−6 C
+                                                                                                                                                                 𝑉𝑉𝐴𝐴 = 𝑉𝑉1𝐴𝐴 + 𝑉𝑉2𝐴𝐴 = 𝐾𝐾         + 𝐾𝐾       = 𝐾𝐾 � + � = 2𝐾𝐾 =                                        = 3.82 ∙ 104 V
+                            1.5 ∙ 103 kg × 6.67 ∙ 10−11 N ∙ m2 ∙ kg −2 × 5.97 ∙ 1024 kg                                                                                                      𝑑𝑑1𝐴𝐴      𝑑𝑑2𝐴𝐴       𝑑𝑑 𝑑𝑑     𝑑𝑑                 √2  m
+     donde: 𝑃𝑃órbita =                                                                  = 1.45 ∙ 104 N; (14559.72 N)
+                                          (6.37 ∙ 106 m + 3.5 ∙ 104 m )2
+                                                                                                              2                                                                               𝑞𝑞1        𝑞𝑞2         𝑞𝑞  𝑞𝑞        𝑞𝑞  2 × 9 ∙ 109 N ∙ m2 ∙ C −2 × 3 ∙ 10−6 C
+                                  𝑃𝑃órbita   1.45 ∙ 104 N                    6.37 ∙ 106 m                                                                        𝑉𝑉𝐵𝐵 = 𝑉𝑉1𝐵𝐵 + 𝑉𝑉2𝐵𝐵 = 𝐾𝐾         + 𝐾𝐾       = 𝐾𝐾 � ′ + ′ � = 2𝐾𝐾 ′ =                                        = 5.4 ∙ 104 V
+                                ⟹          =              ≈ 0.99 ≅ �                           �                                                                                             𝑑𝑑1𝐵𝐵      𝑑𝑑2𝐵𝐵       𝑑𝑑  𝑑𝑑        𝑑𝑑                    1m
+                                     𝑃𝑃0     1.47 ∙ 104 N            6.37 ∙ 106 m + 3.5 ∙ 104 m
+
+                                                                                                                                                        Y el trabajo a realizar será:
+
+                                                                                                                                                               𝑊𝑊𝐴𝐴→𝐵𝐵 = −∆𝐸𝐸𝑃𝑃 𝐵𝐵𝐴𝐴 = +𝑞𝑞0 ∙ (𝑉𝑉𝐴𝐴 − 𝑉𝑉𝐵𝐵 ) = 1.6 ∙ 10−19 C × (3.82 − 5.4) ∙ 104 V = −2.53 ∙ 10−15 J
+Pregunta 3.
+                                                                                                                                                        El trabajo necesario para trasladar la carga +q0 desde el punto A al punto B es negativo, luego debe ser realizado por
+Dos cargas eléctricas positivas de igual valor +q = 3 µC se colocan en los puntos del eje vertical OY de                                                fuerzas externas al campo eléctrico.
+coordenadas (0, 1) m y (0, -1) m, respectivamente.
+    a) Determine el valor del campo eléctrico en el punto de coordenadas (1, 0) m. (1 punto)
+    b) Calcule el trabajo que se debe realizar para llevar una partícula de carga positiva +q0 = 1.6 ×10-19 C                                           Pregunta 4.
+    desde el punto (1, 0) m hasta el origen de coordenadas. ¿Dicho trabajo lo realizan las fuerzas del campo                                            Dos hilos conductores rectilíneos y de longitud indefinida, se hallan paralelamente alineados entre sí en el
+    eléctrico, o fuerzas externas? Justifique la respuesta. (1 punto)                                                                                   plano XY. El primer conductor está dispuesto sobre eje OY y por el circula una intensidad de corriente
+                                                                                                                                                        eléctrica I1 = 2 A en el sentido positivo del eje. El segundo conductor se encuentra alineado verticalmente
+SOLUCIÓN:
+                                                                                                                                                        con el primero y situado a su derecha, a una distancia horizontal d = 0,4 m.
+a) El campo eléctrico en el punto A, de coordenadas (1, 0) m, debido al sistema de las dos cargas positivas será,
+aplicando el principio de superposición:                                                                                                                   a) Calcule el valor y sentido de la intensidad de corriente que debe circular por el segundo conductor,
+                                                                                                                                                           para que el campo magnético resultante se anule a una distancia horizontal de 0.1 m hacia la izquierda
+                                                                                                                                                           del primero. (1 punto)
+                                                                       �����⃗
+                                                                       𝐸𝐸𝑇𝑇𝐴𝐴 = �����⃗
+                                                                                𝐸𝐸1𝐴𝐴 + �����⃗
+                                                                                        𝐸𝐸2𝐴𝐴
+                                                                                                                                                    2
+                                                                                                                                                                                                                                        Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                                                                             acceso a la Universidad (EBAU)
+                                                                                                                                                                                                                                                    CURSO 2022-23
+
+
+
+   b) Si la intensidad de corriente que circula por el segundo conductor tiene el mismo valor, pero sentido                                            b) La velocidad de vibración de un punto del medio en el que se propaga la onda, situado a 25 cm del
+   opuesto a la del primero, determine el vector campo magnético resultante en el punto medio situado entre                                            foco emisor, en el instante t = 2 s. (1 punto)
+   ambos conductores. (1 punto)
+                                                                                                                                                    SOLUCIÓN:
+SOLUCIÓN:
+                                                                                                                                                    a) La posición, velocidad de vibración y aceleración de un punto cualquiera de la onda es:
+a) Aplicando el principio de superposición, el campo magnético resultante en un punto
+                                                                                                                a)
+situado a una distancia r = 0.1 m a la izquierda del primer conductor debe anularse,
+luego debe cumplirse que:
+                                                                                                                         I1                I2                                 𝑦𝑦(𝑥𝑥, 𝑡𝑡) = 𝐴𝐴 ∙ sen(𝑘𝑘𝑘𝑘 − 𝜔𝜔𝜔𝜔 + 𝜑𝜑0 );
+                                                                                                                                                                                              𝑑𝑑𝑑𝑑(𝑥𝑥, 𝑡𝑡)
+                                                                                                                                                                              𝑣𝑣𝑦𝑦 (𝑥𝑥, 𝑡𝑡) =               = −𝐴𝐴 ∙ 𝜔𝜔 ∙ cos(𝑘𝑘𝑘𝑘 − 𝜔𝜔𝜔𝜔 + 𝜑𝜑0 );
+                                                                                                                                                                                                  𝑑𝑑𝑑𝑑
+                    �⃗𝑇𝑇 (𝑟𝑟) = 𝐵𝐵
+                    𝐵𝐵          �⃗1 (𝑑𝑑1 ) + 𝐵𝐵
+                                             �⃗2 (𝑑𝑑2 ) = 0 ⟹ 𝐵𝐵
+                                                              �⃗1 (𝑑𝑑1 ) = −𝐵𝐵
+                                                                            �⃗2 (𝑑𝑑2 )                                                                                                        𝑑𝑑𝑣𝑣𝑦𝑦 (𝑥𝑥, 𝑡𝑡)
+                                                                                                                                                                              𝑎𝑎𝑦𝑦 (𝑥𝑥, 𝑡𝑡) =                 = −𝐴𝐴 ∙ 𝜔𝜔2 ∙ sen(𝑘𝑘𝑘𝑘 − 𝜔𝜔𝜔𝜔 + 𝜑𝜑0 ) = −𝜔𝜔2 ∙ 𝑦𝑦(𝑥𝑥, 𝑡𝑡)
+                                                                                                                                                                                                    𝑑𝑑𝑑𝑑
+Para anularse el campo magnético resultante, el campo magnético creado por cada
+conductor en dicho punto lleva la misma dirección, según el eje z, pero sentidos                                                                    De las condiciones indicadas para la aceleración y la elongación de la onda se obtiene que:
+                ��⃗𝟏𝟏 y 𝑩𝑩
+opuestos. Luego 𝑩𝑩      ��⃗𝟐𝟐 tienen la misma dirección, pero sentidos contrarios, siendo el                 r = 0.1 m         d = 0.4 m                       𝑎𝑎𝑦𝑦 (𝑥𝑥 = 1m, 𝑡𝑡 = 1s) = −𝜔𝜔2 ∙ 𝑦𝑦(1 m, 1 s) = −𝐴𝐴 ∙ 𝜔𝜔2 ∙ sen(𝑘𝑘 − 𝜔𝜔 + 𝜑𝜑0 ) ≡ 27𝜋𝜋 2 cm ∙ s −2
+módulo del campo de cada conductor:
+                                                                                                                                                               𝑦𝑦(𝑥𝑥 = 1 m, 𝑡𝑡 = 1 s) = 𝐴𝐴 ∙ sen(𝑘𝑘 − 𝜔𝜔 + 𝜑𝜑0 ) = −3 cm ⟹
+                                                                 𝜇𝜇0 ∙ 𝐼𝐼𝑖𝑖
+                                                          𝐵𝐵𝑖𝑖 =            , (𝑖𝑖 = 1, 2)                                                                      𝑦𝑦(𝑥𝑥 = 0, 𝑡𝑡 = 0) = 𝐴𝐴 ∙ sen(𝜑𝜑0 ) = 3 cm
+                                                                 2𝜋𝜋 ∙ 𝑑𝑑𝑖𝑖
+                                                                                                                                                               Dado que: 𝑦𝑦(1 m, 1 s) = −3 cm ⟹ 𝑎𝑎𝑦𝑦 (1 m, 1 s) = −𝜔𝜔2 ∙ 𝑦𝑦(1 m, 1 s) = 𝜔𝜔2 ∙ 3 cm = 27𝜋𝜋 2 cm ∙ s −2
+De donde:
+                                                                                                                                                                                                                                                                  𝜋𝜋
+                                                                                   (0.4 + 0.1) m                                                               ⟹ 𝜔𝜔2 = 9𝜋𝜋 2 s −2 ⟹ 𝜔𝜔 = 3𝜋𝜋 s −1 ; además: 𝐴𝐴 ≡ 𝑦𝑦(0,0) = 𝐴𝐴 ∙ sen(𝜑𝜑0 ) ⟹ 𝜑𝜑0 =                      ⟹ 𝐴𝐴 = 3 ∙ 10−2 m
+                                𝜇𝜇0 𝐼𝐼2      𝜇𝜇0 𝐼𝐼1              𝑑𝑑 + 𝑟𝑟                                                                                                                                                                                         2
+ 𝐵𝐵2 (𝑑𝑑 + 𝑟𝑟) = −𝐵𝐵1 (𝑟𝑟) ⟹              =−         ⟹ 𝐼𝐼2 = −𝐼𝐼1         = −2𝐴𝐴 ∙               = −10 A
+                             2𝜋𝜋(𝑑𝑑 + 𝑟𝑟)    2𝜋𝜋 𝑟𝑟                  𝑟𝑟                0.1 m                                                        Por otro lado, la velocidad de propagación de la onda es v = ¾ m s-1, luego:
+                                                                                                                                                                                                       𝜆𝜆 𝜔𝜔     𝜔𝜔                2𝜋𝜋
+                                                                                                                                                                                                𝑣𝑣 =     = ⟹ 𝑘𝑘 = = 4𝜋𝜋 m−1 ⟹ 𝜆𝜆 =     = 0.5 m
+La intensidad de corriente que circula por el segundo conductor, I2, debe tener signo opuesto a la del primero y un valor                                                                              𝑇𝑇 𝑘𝑘     𝑣𝑣                 𝑘𝑘
+5 veces mayor.
+                                                                                                                                                    Y la ecuación de onda resultante será:
+                                                                                                                                                                                                                                                                 𝜋𝜋
+                                                                                                                                                                              𝑦𝑦(𝑥𝑥, 𝑡𝑡) = 𝐴𝐴 ∙ sen(𝑘𝑘𝑘𝑘 − 𝜔𝜔𝜔𝜔 + 𝜑𝜑0 ) = 0.03 ∙ 𝑠𝑠𝑠𝑠𝑠𝑠 �4𝜋𝜋𝜋𝜋 − 3𝜋𝜋𝜋𝜋 + 2 � m
+b) Si las intensidades de corriente que circulan por ambos conductores son iguales, pero de sentidos opuestos, I1 = 2
+A = - I2, el campo magnético resultante en un punto situado a una distancia d/2 entre ambos conductores será:
+
+                   𝜇𝜇0 𝐼𝐼1        𝜇𝜇0 𝐼𝐼2           2𝜇𝜇0 𝐼𝐼1     2𝜇𝜇0 𝐼𝐼1                                                                           b) La velocidad de vibración de la onda en el punto x = 0.25 m e instante t = 2 s indicados será:
+ �⃗𝑇𝑇 �𝑑𝑑 � = −
+ 𝐵𝐵                       �⃗
+                      𝑑𝑑 �𝑘𝑘 � +
+                                           �⃗
+                                       𝑑𝑑 �𝑘𝑘 � = −
+                                                             �⃗
+                                                        𝑑𝑑 𝑘𝑘 = − 𝜋𝜋𝜋𝜋 𝑘𝑘
+                                                                          �⃗                                              b)
+       2          2𝜋𝜋�2 �        2𝜋𝜋�2 �            2𝜋𝜋�2 �
+                                                                                            I1                       I2 = - I1                                                                                                                    𝜋𝜋
+                                                                                                                                                                𝑣𝑣𝑦𝑦 (𝑥𝑥 = 0.25 m, 𝑡𝑡 = 2 s) = −0.03 ∙ 3𝜋𝜋 ∙ cos �4𝜋𝜋 ∙ 0.25 − 3𝜋𝜋 ∙ 2 + 2 � = −0.09𝜋𝜋 ∙ 𝑐𝑐𝑐𝑐𝑐𝑐 �−5𝜋𝜋 + 2 � = 0
+                                                                                                                                                                                                                                                                                  𝜋𝜋
+
+
+
+Y sustituyendo datos:
+
+                                                                                                 d/2                                                Pregunta 6.
+                 2 × 4𝜋𝜋 ∙ 10−7 T ∙ m ∙ A−1 ∙ 2 A
+  �⃗𝑇𝑇 �𝑑𝑑 � = −
+  𝐵𝐵                                              �⃗ = −4 ∙ 10−6 𝑘𝑘
+                                                  𝑘𝑘             �⃗ T
+        2                   𝜋𝜋 × 0.4 m                                                                                                              La sonoridad del timbre del patio de un colegio, medida a una distancia de 10 m desde el mismo, es de 80 dB.
+                                                                                                                                                    Suponiendo que el timbre emite el sonido como un foco puntual, determine:
+                                                                                                                                                       a) La potencia de emisión del timbre. (0,5 puntos)
+                                                                                                 d = 0.4 m                                             b) El nivel de intensidad sonora a una distancia de 100 m. (0,5 puntos)
+                                                                                                                                                       c) La distancia desde el timbre a partir de la cual deja de ser perceptible su sonido, cuando su sonoridad disminuye
+Pregunta 5.                                                                                                                                            por debajo del nivel de ruido de la contaminación acústica ambiental (70 dB). (1 punto)
+
+Una onda transversal se propaga en el sentido positivo del eje X con una velocidad de propagación de 3/4                                            SOLUCIÓN:
+m s-1, según la ecuación y(x, t) = A sen(kx - ωt + φ). En el instante t = 1 s, el punto situado en x = 1 m tiene                                    a) A partir de la sonoridad de 80 dB medida para el timbre a la distancia de 10 m:
+una aceleración de 27π2 cm s-2 y una elongación de -3 cm. Además, en el instante t = 0 s el punto situado
+en x = 0 tiene la máxima elongación, y(0, 0) = 3 cm. Determine:
+   a) La frecuencia angular, el número de onda, la amplitud y la fase inicial de la onda. (1 punto)
+                                                                                                                                                3
+                                                                                                                                                                                                             Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                                                  acceso a la Universidad (EBAU)
+                                                                                                                                                                                                                         CURSO 2022-23
+
+
+
+      10
+                                           𝐼𝐼10        𝑃𝑃𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡   8                               2 2    8     −12 W          La imagen formada es virtual, derecha y de menor tamaño que el objeto.
+    𝑆𝑆𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 = 80 𝑑𝑑𝑑𝑑 = 10 · log10 � � ⟹ 𝐼𝐼10 =            2 = 10 𝐼𝐼0 ⟹ 𝑃𝑃𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 = 4𝜋𝜋 ∙ 10 m ∙ 10 ∙ 10     m2
+                                                                                                                            ⟹
+                                            𝐼𝐼0         4𝜋𝜋𝑟𝑟10                                                                     El diagrama de rayos correspondiente:
+                                               ⟹ 𝑃𝑃𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 = 4𝜋𝜋 ∙ 10−2 W = 1.26 ∙ 10−1 W
+
+b) Para calcular la sonoridad percibida a una distancia de 100 m del timbre, obtenemos la intensidad del sonido a dicha                                                                                                        a)
+distancia, suponiendo que se propaga como una onda esférica:
+
+                                                                                                    2
+                                                                                           𝐼𝐼10 ∙ 𝑟𝑟10      2
+                                                                                                          𝑟𝑟10
+                                                                                                                                                                      y
+                                      2
+                       𝐼𝐼10 ∙ 4𝜋𝜋 ∙ 𝑟𝑟10 = 𝑃𝑃𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡                     2
+                                                            = 𝐼𝐼100 ∙ 4𝜋𝜋 ∙ 𝑟𝑟100 ⟹ 𝐼𝐼100 = 2 = 108 ∙ 𝐼𝐼0 2 = 106 ∙ 𝐼𝐼0                                                                 y´
+                                                                                              𝑟𝑟100      𝑟𝑟100
+
+                                                                                                                                                                                 s                                      F
+Luego, la sonoridad percibida a 100 m del timbre será:
+                                                                                                                                                                                       F´        s´
+                                            100
+                                          𝑆𝑆𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 = 10 · log10 �
+                                                                       𝐼𝐼100
+                                                                             � = 10 · log10 �
+                                                                                              106 ∙ 𝐼𝐼0
+                                                                                                        � = 60 dB                                                                           f´                    f
+                                                                         𝐼𝐼0                    𝐼𝐼0
+
+
+
+c) La distancia mínima a la que la sonoridad del timbre disminuye por debajo del nivel de ruido ambiental (70 dB), será:            b) Para el caso en que el objeto se sitúa a una distancia s = -0.05 m, la mitad de la distancia focal de la lente divergente:
+
+                                𝑑𝑑
+                                                                  𝐼𝐼𝑑𝑑                     𝑃𝑃𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡                                                          1 1 1     1    1     1
+                             𝑆𝑆𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡 = 70 dB = 10 · log10 � � ⟹ 𝐼𝐼𝑑𝑑 = 107 · 𝐼𝐼0 =             2   ;                                                           − = ′⟹ −        =     ⟹ 𝑠𝑠′ ≈ −0.033 m < 0
+                                                                  𝐼𝐼0                     4𝜋𝜋 ∙ 𝑑𝑑𝑚𝑚𝑚𝑚𝑚𝑚                                                           𝑠𝑠′ 𝑠𝑠 𝑓𝑓 𝑠𝑠′ −0.05 −0.1
+
+                                 𝑃𝑃𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡     4𝜋𝜋 ∙ 102 m2 ∙ 108 ∙ 𝐼𝐼0 m 2 W                                                  Empleando la relación del aumento lateral:
+              ⟹ 𝑑𝑑𝑚𝑚𝑚𝑚𝑚𝑚 = �                    = �                              ⟹ 𝑑𝑑𝑚𝑚𝑚𝑚𝑚𝑚 = 10√10 m = 31.62 m
+                               4𝜋𝜋 ∙ 107 · 𝐼𝐼0            4𝜋𝜋 ∙ 107 · 𝐼𝐼0 W2m                                                                           𝑦𝑦′ 𝑠𝑠′ 𝑦𝑦′ −0.033
+                                                                                                                                                           = ⟹ =           = 0.66 ⟹ 𝑦𝑦′ = 0.66 ∙ 𝑦𝑦 = 0.66 × 0.01 m = 0.0066 m
+                                                                                                                                                        𝑦𝑦   𝑠𝑠 𝑦𝑦  −0.05
+
+
+Pregunta 7.                                                                                                                         Luego la imagen formada es virtual, derecha y de menor tamaño que el objeto.
+
+Determine las características (real/virtual, derecha/invertida, mayor/menor), tamaño y posición de la imagen                        El diagrama de rayos correspondiente:
+formada por una lente divergente de 0,10 m de distancia focal, si se sitúa un objeto de 1 cm de tamaño a
+una distancia de:                                                                                                                                                                                                               b)
+   a) 15 cm de la lente. (1 punto)
+   b) 5 cm de la lente. (1 punto)
+   Realice en ambos casos el diagrama de rayos correspondiente.
+                                                                                                                                                                                  y              y´
+SOLUCIÓN:
+a) Para una lente divergente cuya la focal es negativa f’ = - 0.1 m, en el caso en que el objeto de tamaño y = 0.01 m se
+                                                                                                                                                                                                 s´
+sitúa a una distancia s = -0.15 m, mayor que la focal, por la ecuación fundamental de lentes delgadas, se tiene que
+cumplir que:
+                                                                                                                                                                            F´                   s                      F
+                                       1 1 1      1  1     1
+                                          − = ′⟹ ′−
+                                       𝑠𝑠′ 𝑠𝑠 𝑓𝑓 𝑠𝑠
+                                                         =
+                                                    −0.15 −0.1
+                                                               ⟹ 𝑠𝑠 ′ = −0.06 m < 0                                                                                               f´                          f
+
+                                                                                                                                    Por lo tanto, en ambos casos la situación es la misma independientemente de la distancia a la que se encuentre el
+Y a partir de la relación del aumento lateral:                                                                                      objeto de la lente divergente, pues en ambos casos se formará una imagen virtual, derecha y de menor tamaño que el
+                                                                                                                                    objeto.
+
+    𝑦𝑦′ 𝑠𝑠′ 𝑦𝑦′ −0.06
+       = ⟹ =          = 0.4 ⟹ 𝑦𝑦 ′ = 0.4 ∙ 𝑦𝑦 = 0.4 × 0.01 m = 0.004 m
+    𝑦𝑦   𝑠𝑠 𝑦𝑦 −0.15
+
+                                                                                                                                4
+                                                                                                                                                                                                                                                            Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                                                                                                 acceso a la Universidad (EBAU)
+                                                                                                                                                                                                                                                                        CURSO 2022-23
+
+
+
+Pregunta 8.                                                                                                                                                  Pregunta 9.
+Una lámina delgada de ámbar de espesor homogéneo d y con índice de refracción námbar = 1,55, flota sobre                                                     El tenista australiano Samuel Groth ostenta el récord histórico conseguido en 2012 al impulsar una pelota
+una capa de agua de mayor espesor y con índice de refracción nagua = 1,33, mientras que por encima de la                                                     de tenis durante el saque con una velocidad de 263 km/h. Si la masa de una pelota de tenis es de 58 g,
+lámina de ámbar se encuentra el aire. Un rayo de luz monocromática de frecuencia f = 7∙×1014 Hz incide                                                       determine:
+desde el agua hacia la lámina de ámbar.                                                                                                                         a) La longitud de onda de De Broglie asociada a la pelota durante dicho saque. (1 punto)
+   a) Determine las longitudes de onda y frecuencias del rayo incidente en el agua y en el ámbar. (1 punto)                                                     b) Uno de los primeros sincrotrones, que aceleraba protones, fue el Bevatrón construido en el Laboratorio
+   b) Calcule el ángulo de incidencia del rayo incidente sobre la superficie de interfase agua-ámbar para el                                                    Nacional Brookhaven (Nueva York), que comenzó a operar en 1952, alcanzando una energía relativista
+   que se produce reflexión total interna en la superficie de separación ámbar-aire. (1 punto)                                                                  de 3 GeV. ¿Cuál es la velocidad máxima que alcanzan dichos protones acelerados en el Bevatrón? (1
+                                                                                                                                                                punto)
+SOLUCIÓN:
+                                                                                                                                                             SOLUCIÓN:
+a) La longitud de onda del rayo, cuando se propaga por el medio de índice de refracción naire = 1:
+                                                                                                                                                             a) Para determinar la longitud de onda de De Broglie asociada a la pelota, calculamos en primer lugar su velocidad en
+                                                                  3 ∙ 108 m · s −1
+                                                                    𝑐𝑐                                                                                       unidades del S.I.:
+        𝑛𝑛𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎 = 1 ⟹ 𝑐𝑐 = 𝜆𝜆aire ∙ 𝑓𝑓aire ⟹ 𝜆𝜆aire =        =                  = 4.3 ∙ 10−7 m
+                                                         𝑓𝑓aire     7 ∙ 1014 Hz                                                                                                                                                      km         1000 m    1h
+                                                                                                                                                                                                       𝑣𝑣𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 = 263 h × 1 km × 3600 s = 73.06 m ∙ s −1
+
+Al cambiar de medio, la frecuencia del rayo no se modifica, luego:                                                                                           Por lo que el módulo de la cantidad de momento lineal será:
+                                                                                                                                                                            �𝑝𝑝⃗𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 � = 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 = 𝑚𝑚𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 ∙ 𝑣𝑣𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 = 58 ∙ 10−3 kg × 73.06 m ∙ s −1 = 4.24 kg ∙ m ∙ s −1
+                                                      𝑓𝑓aire = 𝑓𝑓ámbar = 𝑓𝑓agua = 7 ∙ 1014 Hz
+                                                                                                                                                             Y la longitud de onda asociada:
+
+La longitud de onda del rayo se modifica al cambiar de medio. La velocidad de propagación del rayo en el agua será:                                                                                                              ℎ              6.63 ∙ 10−34 J ∙ s
+                                                                                                                                                                                                 𝜆𝜆𝐷𝐷𝐷𝐷 𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵 =                    =                      = 1.56 ∙ 10−34 m
+                                                                                                                                                                                                                           𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝       4.24 kg ∙ m ∙ s −1
+
+                𝑐𝑐                                                                𝑐𝑐           𝜆𝜆aire   4.3 ∙ 10−7 m
+   𝑣𝑣agua =            = 𝜆𝜆agua ∙ 𝑓𝑓𝑎𝑎𝑎𝑎𝑎𝑎𝑎𝑎 = 𝜆𝜆agua ∙ 𝑓𝑓aire ⟹ 𝜆𝜆agua =                   =         =              = 3.22 ∙ 10−7 m
+              𝑛𝑛agua                                                        𝑛𝑛agua ∙ 𝑓𝑓aire   𝑛𝑛agua        1.33                                             b) La máxima velocidad alcanzada por los protones acelerados en el Bevatrón con energías de hasta 3 GeV, se obtiene
+Ya para el caso en que el rayo viaja por el ámbar:                                                                                                           a partir de la energía relativista respecto de su valor en reposo:
+                                                                                                                                                                                                                                                                                  𝑚𝑚           1
+                                                                                                                                                                𝐸𝐸 = 𝑚𝑚𝑝𝑝 ∙ 𝑐𝑐 2 = 𝑚𝑚𝑝𝑝0 ∙ 𝑐𝑐 2 + 𝐸𝐸C ⟹ 𝐸𝐸C = �𝑚𝑚𝑝𝑝 − 𝑚𝑚𝑝𝑝0 � ∙ 𝑐𝑐 2 = 𝑚𝑚𝑝𝑝0 ∙ (𝛾𝛾 − 1) ∙ 𝑐𝑐 2 ; siendo 𝛾𝛾 = 𝑚𝑚 𝑝𝑝 =
+                                                                                                                                                                                                                                                                                                     2
+                                                                                                                                                                                                                                                                                          �1 − �𝑣𝑣 �
+                                                                                                                                                                                                                                                                                   𝑝𝑝 0
+               𝑐𝑐                                                                       𝑐𝑐                𝜆𝜆aire   4.3 ∙ 10−7 m
+𝑣𝑣ámbar =              = 𝜆𝜆ámbar ∙ 𝑓𝑓á𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚 = 𝜆𝜆ámbar ∙ 𝑓𝑓aire ⟹ 𝜆𝜆ámbar =                       =            =              = 2.76 ∙ 10−7 m                                                                                                                                                 𝑐𝑐
+            𝑛𝑛ámbar                                                              𝑛𝑛ámbar ∙ 𝑓𝑓aire       𝑛𝑛ámbar        1.55
+                                                                                                                                                             Y la energía cinética relativista que alcanzan los protones:
+
+b) Aplicando la ley de Snell en condición de ángulo límite para el rayo en la interfase ámbar-aire:                                                                                      𝐸𝐸C = 3 GeV = 3 × 1.6 ∙ 10−19 C × 109 V = 4.8 ∙ 10−10 J
+
+                                                                                                                                                             De donde la máxima velocidad alcanzada por los protones será:
+      𝑛𝑛ámbar · sen(𝜑𝜑𝐿𝐿 ) = 𝑛𝑛aire · sen(90o ) = 1 ⟹
+                             1                                                                                                             naire = 1                                                                                             2
+          ⟹ sen(𝜑𝜑𝐿𝐿 ) =          ⟹ 𝜑𝜑𝐿𝐿 = 40o 10′                                                                                                                           𝐸𝐸C                                    �𝑚𝑚𝑝𝑝0 ∙ 𝑐𝑐 2 �
+                           1.55                                                                                                                                ⟹ 𝛾𝛾 = 1 +              ⟹ 𝑣𝑣𝑝𝑝 𝑚𝑚𝑚𝑚𝑚𝑚 = 𝑐𝑐 ∙ �1 −                       2 =
+                                                                                                                                      ϕr2 = 90°                           𝑚𝑚𝑝𝑝0 ∙ 𝑐𝑐 2                           �𝑚𝑚𝑝𝑝0 ∙ 𝑐𝑐 2 + 𝐸𝐸C �
+                                                                                                                           ϕr1
+Y el ángulo de incidencia en la interfase agua-ámbar para dicho ángulo                                                                   námbar = 1.55
+                                                                                                                                 ϕL                                                                                                (1.67 ∙ 10−27 kg × 9 ∙ 1016 𝑚𝑚2 ∙ 𝑠𝑠 −2 )2
+límite de refracción, será entonces:
+                                                                                                                                                                                    = 3 ∙ 108 𝑚𝑚 ∙ 𝑠𝑠 −1 × �1 −                                                                      =
+                                                                                                                                                                                                                           (1.67 ∙ 10−27 kg × 9 ∙ 1016 𝑚𝑚2 ∙ 𝑠𝑠 −2 + 4.8 ∙ 10−10 J)2
+                                                                                                                           ϕi             nagua = 1.33
+𝑛𝑛aire · sen(𝜑𝜑𝑖𝑖 ) = 𝑛𝑛ámbar · sen(𝜑𝜑𝑟𝑟1 ) = 𝑛𝑛ámbar · sen(𝜑𝜑𝐿𝐿 ) = 1 ⟹                                                                                                            = 0.87 𝑐𝑐 = 2.62 ∙ 108 m ∙ s −1
+
+                                      1
+                ⟹ sen(𝜑𝜑𝑖𝑖 ) =            ⟹ 𝜑𝜑𝑖𝑖 = 48o 45′
+                                     1.33
+
+
+
+
+                                                                                                                                                         5
+                                                                                                                                                                Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                     acceso a la Universidad (EBAU)
+                                                                                                                                                                            CURSO 2022-23
+
+
+
+Pregunta 10.
+La longitud de onda umbral para el efecto fotoeléctrico de un metal es 565 nm.
+   a) Calcule el trabajo de extracción de los electrones del metal y la energía cinética máxima de los
+   electrones emitidos cuando dicho metal se ilumina con una radiación de 340 nm de longitud de onda. (1
+   punto)
+Si se irradia otro metal distinto con la misma radiación del apartado anterior, se observa que el potencial de
+frenado de los electrones emitidos es de 1,36 V.
+   b) Calcule el trabajo de extracción para este nuevo metal. (1 punto)
+SOLUCIÓN:
+a) El trabajo de extracción del metal a partir de la longitud de onda umbral para el efecto fotoeléctrico será:
+
+                                                   𝑐𝑐                        3 ∙ 108 m · s −1
+                          𝑊𝑊 = ℎ ∙ 𝜈𝜈0 = ℎ ∙          = 6.63 ∙ 10−34 J · s ×                  = 3.52 ∙ 10−19 J
+                                                  𝜆𝜆0                        565 ∙ 10−9 m
+
+Y la energía cinética máxima de los fotoelectrones arrancados del metal al irradiarlo con λ = 340 nm será:
+                                                 𝑐𝑐                       𝑐𝑐              1 1
+                                      𝐸𝐸 = ℎ ∙      = 𝑊𝑊 + 𝐸𝐸C ⟹ 𝐸𝐸C = ℎ ∙ − 𝑊𝑊 = ℎ ∙ 𝑐𝑐 � − �
+                                                 𝜆𝜆                       𝜆𝜆              𝜆𝜆 𝜆𝜆0
+De donde:
+         𝑐𝑐              1 1                                                 1            1
+𝐸𝐸C = ℎ ∙ − 𝑊𝑊 = ℎ ∙ 𝑐𝑐 � − � = 6.63 ∙ 10−34 J · s × 3 ∙ 108 m · s −1 �            −            � = 2.33 ∙ 10−19 J
+         𝜆𝜆              𝜆𝜆 𝜆𝜆0                                        340 ∙ 10−9 m 565 ∙ 10−9 m
+
+b) Para obtener el trabajo de extracción del nuevo metal al irradiarlo con λ = 340 nm, se necesita calcular la energía
+cinética de los fotoelectrones arrancados, que viene determinada por el potencial de frenado de este nuevo metal, de
+donde:
+
+                                       𝐸𝐸C = 𝑞𝑞𝑒𝑒 ∙ ∆𝑉𝑉𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓 = 1.6 ∙ 10−19 C × 1.36 V = 2.17 ∙ 10−19 J
+
+Y a partir de la ecuación para el efecto fotoeléctrico:
+
+                                                                                                 𝑐𝑐
+                              𝐸𝐸 = 𝑊𝑊 + 𝐸𝐸C ⟹ 𝑊𝑊 = 𝐸𝐸 − 𝐸𝐸C = 𝐸𝐸 − 𝑞𝑞𝑒𝑒 ∙ ∆𝑉𝑉𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓 = ℎ ∙ − 𝑞𝑞𝑒𝑒 ∙ ∆𝑉𝑉𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓
+                                                                                                 𝜆𝜆
+
+Sustituyendo datos:
+                                        𝑐𝑐                              6.63 ∙ 10−34 J · s × 3 ∙ 108 m · s −1
+𝑊𝑊 = 𝐸𝐸 − 𝑞𝑞𝑒𝑒 ∙ ∆𝑉𝑉𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓 = ℎ ∙ − 𝑞𝑞𝑒𝑒 ∙ ∆𝑉𝑉𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓 = �                                       � − 1.6 ∙ 10−19 J × 1.36 V = 3.67 ∙ 10−19 J
+                                        𝜆𝜆                                        340 ∙ 10−9 m
+
+
+Como curiosidad, se podría obtener la longitud de onda umbral para este nuevo metal, a partir del trabajo de extracción:
+                                     𝑐𝑐              𝑐𝑐                        3 ∙ 108 m · s −1
+               𝑊𝑊 = ℎ ∙ 𝜈𝜈0 = ℎ ∙       ⟹ 𝜆𝜆0 = ℎ ∙     = 6.63 ∙ 10−34 J · s ×                  = 5.41 ∙ 10−7 m; (541 nm)
+                                    𝜆𝜆0             𝑊𝑊                         3.67 ∙ 10−19 J
+
+
+
+
+                                                                                                                                                            6
+                                                                                                                                                                                                  Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                                       acceso a la Universidad (EBAU)
+                                                                                                                                                                                                              CURSO 2022-23
+
+
+
+                                          Criterios específicos de corrección                                                  b) ¿Con que velocidad angular viaja el             2. Diferencia entre los conceptos de fuerza y campo,
+                                                                                                                               satélite? (0,5 puntos)                             estableciendo una relación entre intensidad del campo
+                                                                                                                                                                                  gravitatorio y la aceleración de la gravedad.
+Criterios de corrección comunes:                                                                                               c) Calcule la relación del peso del satélite en
+En todos los apartados de los ejercicios que soliciten cálculos de magnitudes físicas se penaliza con 0.25 puntos no           un punto de la órbita respecto a su peso en la     - Calcular la intensidad del campo gravitatorio creado
+expresar la unidad correcta de la magnitud calculada; no se exige (se aconseja) la expresión explícita de unidades en          superficie de la Tierra. (0,5 puntos)              por la Tierra u otros planetas en un punto, evaluar su
+los cálculos previos, tal y como aparecen en el examen resuelto, pero sí que las magnitudes se expresen en la unidad                                                              variación con la distancia desde la superficie que lo
+adecuada conforme a las constantes utilizadas; una errónea expresión de las magnitudes utilizadas conduce a un error                                                              origina hasta el punto que se considere y relacionarlo
+del resultado final, que no será imputable a un error de cálculo (menor penalización).                                                                                            con la aceleración de la gravedad.
+
+                                                                                                                                                                                  Cuestión b
+
+ PREGUNTA 1          Bloque 1. Actividad científica. Interacción gravitatoria                                                                                                     7. Deduce a partir de la ley fundamental de la dinámica
+                     Puntuación máxima 2 puntos                                                                                                                                   la velocidad orbital de un cuerpo, y la relaciona con el
+
+ Dos partículas puntuales con masas m1 = 5 kg y                                                                                                                                   radio de la órbita y la masa del cuerpo.
+                                                       Estándares       de   aprendizaje   evaluables.   Orden
+ m2 = 20 kg se hallan situadas a lo largo del eje X.                                                                                                                              - Relacionar la fuerza de atracción gravitatoria con la
+                                                       PCM/58/2022, de 2 de febrero,
+ La partícula de masa m1 se encuentra en el                                                                                                                                       aceleración normal de las trayectorias orbitales y
+                                                       -Indicadores de los criterios de evaluación, asociados a
+ origen de coordenadas, x1 = 0, mientras que la                                                                                                                                   deducir las expresiones que relacionan radio, velocidad
+                                                       los estándares, que figuran en el Decreto 42/2015
+ masa m2 está en el punto x2 = 6 m.                                                                                                                                               orbital, periodo de rotación y masa del cuerpo central
+
+    a) Determine el punto del eje X en el que se       Cuestiones a y b                                                                                                           aplicándolas a la resolución de problemas numéricos.
+
+    anula el campo gravitatorio. (1 punto)             3. Representa el campo gravitatorio mediante las
+
+    b) Potencial gravitatorio debido al sistema de     líneas de campo y las superficies de energía
+
+    masas en los puntos del eje X situados en las      equipotencial.
+                                                                                                                            PREGUNTA 3         Bloque 2. Actividad científica. Interacción electromagnética
+    coordenadas xA = -1 m y xB = 7m. (1 punto)         - Caracterizar el campo gravitatorio por las magnitudes                                 Puntuación máxima 2 puntos
+                                                       intensidad de campo y potencial, representándolo e
+                                                                                                                            Dos cargas eléctricas positivas de igual valor +q     Estándares de aprendizaje              evaluables.   Orden
+                                                       identificándolo por medio de líneas de campo,                                                                              PCM/58/2022, de 2 de febrero,
+                                                                                                                            = 3 µC se colocan en los puntos del eje vertical
+                                                       superficies equipotenciales.                                                                                               -Indicadores de los criterios de evaluación, asociados
+                                                                                                                            OY de coordenadas (0, 1) m y (0, -1) m,               a los estándares, que figuran en el Decreto 42/2015
+                                                       - Determinar el campo y potencial gravitatorio creado
+                                                                                                                            respectivamente.
+                                                       por masas puntuales en un punto del plano que las                                                                          Cuestión a
+                                                       contiene.                                                               a) Determine el valor del campo eléctrico en       10. Utiliza el principio de superposición para el cálculo
+                                                                                                                               el punto de coordenadas (1, 0) m. (1 punto)        de campos y potenciales eléctricos creados por una
+
+                                                                                                                               b) Calcule el trabajo que se debe realizar para    distribución de cargas puntuales.
+
+                                                                                                                               llevar una partícula de carga positiva +q0 = 1,6   - Identificar el campo eléctrico como un campo
+ PREGUNTA 2          Bloque 1. Actividad científica. Interacción gravitatoria
+                     Puntuación máxima 2 puntos                                                                                ×10-19 C desde el punto (1, 0) m hasta el          conservativo,    asociándole     una    energía   potencial
+                                                                                                                               origen de coordenadas. ¿Dicho trabajo lo           eléctrica y un potencial eléctrico.
+ Un satélite artificial de 1.500 kg de masa describe   Estándares de aprendizaje           evaluables.   Orden
+                                                       PCM/58/2022, de 2 de febrero,                                           realizan las fuerzas del campo eléctrico, o
+ una órbita de trayectoria circular entorno a la                                                                                                                                  - Calcular el campo y el potencial eléctrico creados por
+                                                       -Indicadores de los criterios de evaluación, asociados a                fuerzas externas? Justifique la respuesta. (1
+ Tierra con un radio de 3,5 ×104 m. Calcule:                                                                                                                                      cargas puntuales en un punto del plano que las
+                                                       los estándares, que figuran en el Decreto 42/2015                       punto)
+                                                                                                                                                                                  contiene.
+    a) ¿Cuál es el valor de la gravedad a dicha
+                                                       Cuestiones a y c
+    altura? (1 punto)                                                                                                                                                             Cuestión b
+
+
+                                                                                                                        7
+                                                                                                                                                                                         Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                              acceso a la Universidad (EBAU)
+                                                                                                                                                                                                     CURSO 2022-23
+
+
+
+                                                                                                                     PREGUNTA 5          Bloque 3. Actividad científica. Ondas.
+                                                      13. Calcula el trabajo necesario para transportar una
+                                                                                                                                         Puntuación máxima 2 puntos
+                                                      carga entre dos puntos de un campo eléctrico creado
+                                                                                                                     Una onda transversal se propaga en el sentido         Estándares de aprendizaje           evaluables.    Orden
+                                                      por una o más cargas puntuales a partir de la diferencia
+                                                                                                                                                                           PCM/58/2022, de 2 de febrero,
+                                                      de potencial.                                                  positivo del eje X con una velocidad de
+                                                                                                                                                                           -Indicadores de los criterios de evaluación, asociados a
+                                                                                                                     propagación de 3/4 m s-1, según la ecuación y(x,
+                                                                                                                                                                           los estándares, que figuran en el Decreto 42/2015
+                                                      - Determinar el trabajo para trasladar una carga               t) = A sen(kx - ωt + φ). En el instante t = 1 s, el
+                                                      eléctrica de un punto a otro en el seno de un campo                                                                  Cuestión a
+                                                                                                                     punto situado en x = 1 m tiene una aceleración
+                                                      eléctrico en términos de variación de energía.
+                                                                                                                     de 27π2 cm s-2 y una elongación de -3 cm.             31. Escribe e interpreta la expresión matemática de una
+                                                                                                                     Además, en el instante t = 0 s el punto situado en    onda armónica transversal dadas sus magnitudes
+                                                                                                                     x = 0 tiene la máxima elongación, y(0, 0) = 3 cm.     características.
+
+                                                                                                                     Determine:                                            - Definir las magnitudes características de las ondas e
+PREGUNTA 4           Bloque 2. Actividad científica. Interacción electromagnética
+                     Puntuación máxima 2 puntos                                                                                                                            identificarlas en situaciones reales para plantear y
+                                                                                                                        a) la frecuencia angular, el número de onda,
+                                                                                                                                                                           resolver problemas
+                                                                                                                        la amplitud y la fase inicial de la onda. (1
+Dos hilos conductores rectilíneos y de longitud       Estándares de aprendizaje evaluables.                                                                                Cuestión b
+                                                                                                                        punto)
+indefinida, se hallan paralelamente alineados         Orden PCM/58/2022, de 2 de febrero,
+                                                                                                                                                                           28. Determina la velocidad de propagación de una onda
+entre sí en el plano XY. El primer conductor está     -Indicadores de los criterios de evaluación, asociados a          b) la velocidad de vibración de un punto del
+                                                                                                                                                                           y la de vibración de las partículas que la forman,
+                                                      los estándares, que figuran en el Decreto 42/2015
+dispuesto sobre eje OY y por el circula una                                                                             medio en el que se propaga la onda, situado        interpretando ambos resultados.
+intensidad de corriente eléctrica I1 = 2 A en el      Cuestiones a y b                                                  a 25 cm del foco emisor, en el instante t = 2 s.
+                                                                                                                                                                           - Distinguir entre la velocidad de propagación de una
+sentido positivo del eje. El segundo conductor se                                                                       (1 punto)
+                                                      20. Establece, en un punto dado del espacio, el campo                                                                onda y la velocidad de oscilación de una partícula
+encuentra alineado verticalmente con el primero                                                                                                                            perturbada por la propagación de un movimiento
+                                                      magnético resultante debido a dos o más conductores
+y situado a su derecha, a una distancia horizontal                                                                                                                         armónico simple.
+                                                      rectilíneos por los que circulan corrientes eléctricas.
+d = 0,4 m.
+                                                      - Enunciar la ley de Biot y Savart y utilizarla para
+   a) Calcule el valor y sentido de la intensidad
+                                                      determinar el campo magnético producido por un
+   de corriente que debe circular por el segundo      conductor
+                                                                                                                     PREGUNTA 6          Bloque 3. Actividad científica. Ondas.
+   conductor, para que el campo magnético             - Analizar la variación de la intensidad del campo
+                                                                                                                                         Puntuación máxima 2 puntos
+   resultante se anule a una distancia horizontal     magnético creado por un conductor rectilíneo con la
+                                                                                                                     La sonoridad del timbre del patio de un colegio,      Estándares de aprendizaje           evaluables.    Orden
+   de 0.1 m hacia la izquierda del primero. (1        intensidad y el sentido de la corriente eléctrica que                                                                PCM/58/2022, de 2 de febrero,
+                                                                                                                     medida a una distancia de 10 m desde el mismo,
+   punto)                                             circula por él y con la distancia al hilo conductor.                                                                 -Indicadores de los criterios de evaluación, asociados a
+                                                                                                                     es de 80 dB. Suponiendo que el timbre emite el
+                                                                                                                                                                           los estándares, que figuran en el Decreto 42/2015
+   b) Si la intensidad de corriente que circula por                                                                  sonido como un foco puntual, determine:
+                                                      - Determinar el campo magnético resultante creado por
+   el segundo conductor tiene el mismo valor,                                                                                                                              Cuestión a, b y c
+                                                      dos corrientes rectilíneas paralelas en un punto del
+                                                                                                                        a) la potencia de emisión del timbre. (0,5
+   pero sentido opuesto a la del primero,             plano que las contiene.
+                                                                                                                        puntos)                                            33. Relaciona la energía mecánica de una onda con su
+   determine    el    vector   campo    magnético                                                                                                                          amplitud.
+   resultante en el punto medio situado entre                                                                           b) el nivel de intensidad sonora a una
+                                                                                                                                                                           -   Reconocer que una de las características más
+   ambos conductores. (1 punto)                                                                                         distancia de 100 m. (0,5 puntos)
+                                                                                                                                                                           sobresalientes y útiles del movimiento ondulatorio es
+                                                                                                                        c) la distancia desde el timbre a partir de la     que las ondas transportan energía de un punto a otro
+                                                                                                                        cual deja de ser perceptible su sonido, cuando     sin que exista transporte de masa.
+
+                                                                                                                        su sonoridad disminuye por debajo del nivel        34. Calcula la intensidad de una onda a cierta distancia
+                                                                                                                                                                           del foco emisor, empleando la ecuación que relaciona
+                                                                                                                                                                           ambas magnitudes.
+
+                                                                                                                 8
+                                                                                                                                                                                                     Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                                          acceso a la Universidad (EBAU)
+                                                                                                                                                                                                                 CURSO 2022-23
+
+
+
+   de ruido de la contaminación acústica                 - Deducir la dependencia de la intensidad de una onda           PREGUNTA 8           Bloque 4. Actividad científica. Óptica
+   ambiental (70 dB). (1 punto)                          en un punto con la distancia al foco emisor para el caso                             Puntuación máxima 2 puntos
+                                                         de ondas esféricas (como el sonido) realizando                  Una lámina delgada de ámbar de espesor                     Estándares de aprendizaje              evaluables.     Orden
+                                                         balances de energía en un medio isótropo y                                                                                 PCM/58/2022, de 2 de febrero,
+                                                                                                                         homogéneo d y con índice de refracción námbar =
+                                                         homogéneo y aplicar los resultados a la resolución de                                                                      -Indicadores de los criterios de evaluación, asociados a
+                                                                                                                         1,55, flota sobre una capa de agua de mayor
+                                                         ejercicios.                                                                                                                los estándares, que figuran en el Decreto 42/2015
+                                                                                                                         espesor y con índice de refracción nagua = 1,33,
+                                                         37. Identifica la relación logarítmica entre el nivel de                                                                   Cuestión a
+                                                                                                                         mientras que por encima de la lámina de ámbar
+                                                         intensidad sonora en decibelios y la intensidad del
+                                                                                                                         se    encuentra    el   aire.   Un    rayo    de     luz   40. Experimenta y justifica, aplicando la ley de Snell, el
+                                                         sonido, aplicándola a casos sencillos.
+                                                                                                                         monocromática de frecuencia f =            7∙×1014   Hz    comportamiento de la luz al cambiar de medio,
+                                                         - Relacionar la intensidad de una o varias ondas                                                                           conocidos los índices de refracción.
+                                                                                                                         incide desde el agua hacia la lámina de ámbar.
+                                                         sonoras con la sonoridad en decibelios y realizar
+                                                         cálculos sencillos.                                                                                                        41.-Aplicar las leyes de la reflexión y de la refracción
+                                                                                                                              a) Determine las longitudes de onda y
+                                                                                                                                                                                    para resolver ejercicios numéricos sobre ambos
+                                                                                                                              frecuencias del rayo incidente en el agua y en
+                                                                                                                                                                                    fenómenos de forma simultánea o no.
+                                                                                                                              el ámbar. (1 punto)
+
+                                                                                                                              b) Calcule el ángulo de incidencia del rayo
+PREGUNTA 7            Bloque 4. Actividad científica. Óptica                                                                                                                        Cuestión b
+                                                                                                                              incidente sobre la superficie de interfase
+                      Puntuación máxima 2 puntos                                                                                                                                    44. Explica procesos cotidianos a través de las leyes de
+                                                                                                                              agua-ámbar para el que se produce reflexión
+Determine       las   características   (real/virtual,   Estándares de aprendizaje         evaluables.     Orden                                                                    la óptica geométrica.
+                                                         PCM/58/2022, de 2 de febrero,                                        total interna en la superficie de separación
+derecha/invertida,     mayor/menor),     tamaño     y                                                                                                                               - Describir los fenómenos luminosos aplicando el
+                                                         -Indicadores de los criterios de evaluación, asociados a             ámbar-aire. (1 punto)
+posición de la imagen formada por una lente                                                                                                                                         concepto de rayo.
+                                                         los estándares, que figuran en el Decreto 42/2015
+divergente de 0,10 m de distancia focal, si se
+                                                                                                                                                                                    - Plantear gráficamente la formación de imágenes en el
+sitúa un objeto de 1 cm de tamaño a una                  Cuestiones a y b
+                                                                                                                                                                                    dioptrio plano
+distancia de:                                            46. Obtiene el tamaño, posición y naturaleza de la
+                                                                                                                                                                                    - Justificar cualitativa y cuantitativamente la reflexión
+                                                         imagen de un objeto producida por un espejo plano y
+   a) 15 cm de la lente. (1 punto)                                                                                                                                                  total interna.
+                                                         una lente delgada realizando el trazado de rayos y
+   b) 5 cm de la lente. (1 punto)                        aplicando las ecuaciones correspondientes.
+
+   Realice en ambos casos el diagrama de rayos           - Explicar la formación de imágenes en un espejo plano
+   correspondiente.                                      y una lente delgada trazando correctamente el
+                                                         esquema de rayos correspondiente e indicando las
+                                                         características de las imágenes obtenidas.                      PREGUNTA 9           Bloque 5. Actividad científica. Física del siglo XX
+                                                                                                                                              Puntuación máxima 2 puntos
+                                                         - Obtener resultados cuantitativos utilizando las
+                                                         ecuaciones     correspondientes    o     las   relaciones       El tenista australiano Samuel Groth ostenta el             Estándares de         aprendizaje      evaluables.     Orden
+                                                                                                                                                                                    ECD/42/2018
+                                                         geométricas de triángulos semejantes.                           récord histórico conseguido en 2012 al impulsar
+                                                                                                                                                                                    -Indicadores de los criterios de evaluación, asociados a
+                                                                                                                         una pelota de tenis durante el saque con una
+                                                                                                                                                                                    los estándares, que figuran en el Decreto 42/2015
+                                                                                                                         velocidad de 263 km/h. Si la masa de una pelota
+                                                                                                                         de tenis es de 58 g, determine:                            Cuestión a
+
+                                                                                                                              a) la longitud de onda de De Broglie asociada         56. Determina las longitudes de onda asociadas a
+                                                                                                                                                                                    partículas   en     movimiento     a   diferentes     escalas,
+                                                                                                                              a la pelota durante dicho saque. (1 punto)
+                                                                                                                                                                                    extrayendo       conclusiones    acerca   de    los   efectos
+                                                                                                                              b) Uno de los primeros sincrotrones, que              cuánticos a escalas macroscópicas.
+                                                                                                                              aceleraba    protones,     fue   el     Bevatrón
+
+                                                                                                                     9
+                                                                                                                           Prueba de evaluación de Bachillerato para el
+                                                                                                                                acceso a la Universidad (EBAU)
+                                                                                                                                       CURSO 2022-23
+
+
+
+   construido     en     el   Laboratorio   Nacional    - Calcular la longitud de onda asociada a una partícula
+   Brookhaven (Nueva York), que comenzó a               en movimiento y estimar lo que suponen los efectos
+   operar en 1952, alcanzando una energía               cuánticos a escala macroscópica
+   relativista de 3 GeV. ¿Cuál es la velocidad          Cuestión b
+   máxima       que    alcanzan    dichos   protones
+                                                        52. Expresa la relación entre la masa en reposo de un
+   acelerados en el Bevatrón? (1 punto)                 cuerpo y su velocidad con la energía del mismo a partir
+                                                        de la masa relativista.
+
+                                                        -Asociar la dependencia del momento lineal de un
+                                                        cuerpo con la velocidad y justificar la imposibilidad de
+                                                        alcanzar la velocidad de la luz para un objeto con masa
+                                                        en reposo distinta de cero.
+
+
+
+
+PREGUNTA 10            Bloque 5. La actividad científica. Física del siglo XX
+                       Puntuación máxima 2 puntos
+La longitud de onda umbral para el efecto               Estándares de          aprendizaje   evaluables.     Orden
+                                                        ECD/42/2018
+fotoeléctrico de un metal es 565 nm.
+                                                        -Indicadores de los criterios de evaluación, asociados
+   a) Calcule el trabajo de extracción de los           a los estándares, que figuran en el Decreto 42/2015
+   electrones del metal y la energía cinética           Cuestiones a y b.
+   máxima de los electrones emitidos cuando
+                                                        55.   Compara     la    predicción   clásica   del   efecto
+   dicho metal se ilumina con una radiación de
+                                                        fotoeléctrico con la explicación cuántica postulada por
+   340 nm de longitud de onda. (1 punto)
+                                                        Einstein y realiza cálculos relacionados con el trabajo
+Si se irradia otro metal distinto con la misma          de extracción y la energía cinética de los fotoelectrones.
+
+radiación del apartado anterior, se observa que         - Distinguir las características del efecto fotoeléctrico
+el potencial de frenado de los electrones emitidos      que están de acuerdo con las predicciones de la Física
+es de 1,36 V.                                           clásica y las que no lo están.
+
+                                                        - Explicar las características del efecto fotoeléctrico con
+   b) Calcule el trabajo de extracción para este
+                                                        el concepto de fotón.
+   nuevo metal. (1 punto)
+                                                        - Enunciar la ecuación de Einstein del efecto
+                                                        fotoeléctrico y aplicarla a la resolución de ejercicios
+                                                        numéricos.
+
+
+
+
+                                                                                                                      10
+

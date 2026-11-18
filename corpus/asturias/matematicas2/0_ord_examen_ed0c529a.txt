@@ -1,0 +1,587 @@
+                                                                                                Prueba de evaluación de Bachillerato
+                                                                                                   para el acceso a la Universidad
+                                                                                                               (EBAU)
+                                                                                                         CURSO 2021-2022
+
+
+
+                                                          
+                                        −1    −1      2
+                                                       
+BLOQUE 1.A Sea a ∈ R y P =  0                 1      2 .
+                                                       
+                                                       
+                             −1               −1      a
+
+ (a) (1 punto) Calcula el determinante y el rango de P para cada valor de a.
+
+ (b) (1 punto) Para a = 1 ¿existe P−1 ? En caso afirmativo calcúlala.
+
+ (c) (0.5 puntos) Calcula, en caso de que exista, los valores de a tal que det(P) = det(P−1 ).
+
+
+ (a)                                                                                   
+                                                                    −1    −1        2
+                                                                                     
+                                              det P = det  0              1        2 =2−a
+                                                                                     
+                                                                                     
+                                                            −1            −1        a
+                                                                                                                                 
+                                                                                                                        −1   −1
+       Por lo tanto, para a = 2 el determinante es 0 y el rango es menor de 3. Como el det                                        = −1 ̸=
+                                                                                                                        0    1
+       0, el rango es 2. Para el resto de valores el rango es 3.
+
+ (b) Para a = 1 det(P) = 2 − 1 = 1 ̸= 0 por lo que sı́ tiene inversa.
+                                                                                                                 
+                       −1 −1 2 1 0 0                           −1 −1                        2       1       0   0
+                                                                                                               
+                                                 F3 −F1                                                          (−1)F1
+                    0       1 2 0 1 0  −−−−→  0                    1                     2       0       1   0  −−−−→
+                   
+                                                                                                                (−1)F3
+                       −1 −1 1 0 0 1                            0     0                     −1 −1           0   1
+                                                                                                                 
+                          1   1 −2       −1      0     0                        1       1   0   1       0 −2
+                                                                                                          
+                                                       F1 +2F3                                              F1 −F2
+                       0     1    2      0      1  0  −−−−→  0 1 0 −2                                1  2  −−−−→
+                      
+                                                      F2 −2F3                                             
+                        0     0    1      1      0 −1             0 0 1 1                               0 −1
+                                                                      
+                                                    1 0 0 3 −1 −4
+                                                                      
+                                                   0 1 0 −2 1       2 
+                                                                      
+                                                                      
+                                                    0 0 1 1       0 −1
+       Por lo tanto                                                                        
+                                                                     3     −1       −4
+                                                                                      
+                                                     P −1 =  −2            1        2 
+                                                                                      
+                                                                                      
+                                                              1             0       −1
+
+                                        1                                                                 1
+ (c) det(P) = 2 − a, det(P−1 ) =           por lo tanto buscamos los valores de A que hacen que: 2 − a =
+                                       2−a                                                               2−a
+       que son a = 1 y a = 3.
+
+
+
+
+                                                         Universidad de Oviedo
+                                  Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                              2021-2022
+                                                                                           Prueba de evaluación de Bachillerato
+                                                                                              para el acceso a la Universidad
+                                                                                                          (EBAU)
+                                                                                                    CURSO 2021-2022
+
+
+
+
+BLOQUE 1.B Dado a ∈ R, se considera el sistema de ecuaciones siguiente:
+                                                                
+                                   −x + 2y              = −1   
+                                                                
+                                                                
+                                   −x + 2y + 2z = 1
+                                                                
+                                                                
+                                   ax − 2y + z = 2 
+                                                                
+
+
+ (a) (1 punto) Discute el sistema según los valores de a.
+
+ (b) (0.75 puntos) Estudia si es posible encontrar un valor de a para el cual la solución del sistema verifique
+     que x = 0.
+
+ (c) (0.75 puntos) Si a = 0, resuelve el sistema si es posible.
+
+
+ (a) La matriz de coeficientes tiene determinante:
+                                                                           
+                                                −1                2     0
+                                                                         
+                                          det  −1                2     2  = 4a − 4
+                                                                         
+                                                                         
+                                                 a                −2    1
+
+     Por lo que el sistema es compatible determinado para a ̸= 1, ya que el rango de A y el de la ampliada es
+     igual e igual al número de incógnitas.
+
+     También pueden estudiar el sistema por Gauss:
+                                                                                                                        
+           −1 2 0 −1                      −1     2  0  −1              −1                                    2      0   −1
+                                                                                                                     
+                             F2 −F1                        F3 ↔F2 
+         −1 2 2 1  −−−−→  0                   0  2   2  −−−−→  0                                      2a − 2   1 2−a 
+                                                                                                                         
+                            F3 +aF1                                                                                  
+            a −2 1 2                       0 2a − 2 1 2 − a             0                                    0      2  2
+
+     y Si a ̸= 1 el sistema es compatible determinado.
+
+     Si a = 1 aplicaremos el método de Gauss. La matriz ampliada es
+                                                                                                    
+                                  −1 2 0 −1                    −1 2                        0 −1
+                                                                                             
+                                                   F2 −F1                                      F3 ↔F2
+                        Ab =  −1 2 2 1  −−−−→  0 0                                      2  2  −−−−→
+                              
+                                                  F3 +aF1                                    
+                                   1 −2 1 2                     0 0                        1  1
+                                                                                             
+                                    −1 2 0 −1                  −1 2                        0 −1
+                                                                                             
+                                                   F3 −2F2 
+                                 0 0 1         1  −−−−→  0 0                            1  1 
+                                                                                               
+                                                                                             
+                                     0 0 2      2                0 0                       0  0
+     y el sistema es compatible indeterminado.
+
+ (b) Si x = 0 entonces el sistema se podrı́a plantear como
+                                                                           
+                                                      2y              = −1 
+                                                                           
+                                                                           
+                                                                           
+                                                      2y      +    2z = 1
+                                                                           
+                                                                           
+                                                     −2y      +    z = 2 
+                                                                           
+
+
+
+
+                                                      Universidad de Oviedo
+                               Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                           2021-2022
+                                                                                            Prueba de evaluación de Bachillerato
+                                                                                               para el acceso a la Universidad
+                                                                                                           (EBAU)
+                                                                                                     CURSO 2021-2022
+
+
+                                                                                                       1
+     que es independiente del valor de a. En este caso, y para todo a, de la primera ecuación y = −      y por la
+                                                                                                       2
+     última ecuación z = 2 − 1 = 1, como también verifica la segunda ecuación, esta será una solución como
+     la pedida.
+
+ (c) Si a = 0 la matriz ampliada es
+                                                                                                     
+                                 −1        2      0 −1                        −1       2     0 −1
+                                                                                                   
+                                                         F2 −F1                                      F2 ↔F3
+                         Ab =  −1         2      2 1  −−−−→  0      0                     2      2  −−−−→
+                              
+                                                                                                   
+                                  0       −2      1 2              0 −2                      1      2
+                                                                    
+                                                      −1 2 0 −1
+                                                                    
+                                                    0 −2 1 2 
+                                                                    
+                                                                    
+                                                       0   0 2 2
+                                   1
+     y la solución es z = 1, y = − , x = 0.
+                                   2
+
+BLOQUE 2.A Se considera la función:
+                                                                   x2 + 3
+                                                         f (x) =
+                                                                   x −1
+
+ (a) (1 punto) Calcula el dominio de f y las ası́ntotas, en caso de que tenga.
+
+ (b) (1 punto) Estudia la existencia de máximos y mı́nimos, ası́ como los intervalos de concavidad y convexi-
+     dad.
+
+ (c) (0.5 puntos) A partir de los resultados obtenidos en los apartados anteriores, realiza un esbozo de la
+     gráfica de f.
+
+ (a) f es un cociente de polinomios, por lo tanto el dominio es toda la recta real salvo los valores de x para los
+     que se anule el denominador, es decir, x = 1.
+
+     Ası́ntotas horizontales:
+                                                              x2 + 3
+                                                            lı́m     =∞
+                                                          x→∞ x − 1
+
+     Por lo tanto no tiene ası́ntotas horizontales
+
+     Ası́ntotas verticales:
+                                            x2 + 3                                x2 + 3
+                                          lı́m+    = +∞,                   lı́m          = −∞
+                                      x→1 x − 1                          x→1−     x −1
+     Tiene una ası́ntota vertical en x = 1.
+
+     Ası́ntotas oblicuas (puede haber ya que no hay ası́ntotas horizontales)
+                                                       x2 + 3
+                                                                     x2 + 3
+                                             m = lı́m x − 1 = lı́m 2        =1
+                                                 x→∞     x     x→∞ x − x
+
+                                                     x2 + 3
+                                                              
+                                                                         3+x
+                                          n = lı́m          − x = lı́m        =1
+                                                x→∞ x − 1         x→∞ x − 1
+
+     Tiene una ası́ntota oblicua: y = x + 1.
+
+
+
+                                                       Universidad de Oviedo
+                                Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                            2021-2022
+                                                                                                    Prueba de evaluación de Bachillerato
+                                                                                                       para el acceso a la Universidad
+                                                                                                                   (EBAU)
+                                                                                                             CURSO 2021-2022
+
+
+ (b) Para calcular máximos y mı́nimos calcularemos la primera derivada:
+                                                                             x 2 − 2x − 3
+                                                                 f ′ (x) =
+                                                                                (x − 1)2
+       que se anula en x = 3 y x = −1.
+
+       Para estudiar la concavidad y la convexidad calculemos la segunda derivada:
+                                                                                   8
+                                                                   f ′′ (x) =
+                                                                                (x − 1)3
+       que es positiva si x > 1, y negativa si x < 1, por lo tanto f es convexa (∩) si x ∈ (−∞, 1) y es cóncava (∪)
+       si x ∈ (1, +∞). Además f′′ (3) > 0 por lo que se trata de un mı́nimo, y f′′ (−1) < 0 por lo que se trata de un
+       máximo.
+
+
+
+
+                                         (c)
+                                            √
+BLOQUE 2.B Se considera la función f(x) = x 1 − x2 .
+
+
+ (a) (1.75 puntos) Calcula una primitiva de f(x), que pase por el punto (−1, 0). (Sugerencia: Puedes utilizar
+     el cambio de variable t = 1 − x2 )
+                            Z 1
+ (b) (0.75 puntos) Calcula      f(x)dx
+                                    0
+
+
+
+ (a) Si utilizamos el cambio de variable 1 − x2 = t entonces −2xdx = dt y se puede reescribir la integral como
+       sigue:                                                   Z √
+                                                                                 1 t 3/2
+                            Z       p                       1                                   1
+                                x        1 − x 2 dx = −               tdt = −            + C = − (1 − x 2 )3/2 + C
+                                                            2                    2 3/2          3
+                                                           1
+       Como buscamos F tal que F(−1) = 0 entonces F(−1) = − (1 − (−1)2 )3/2 + C = C, por lo que C = 0
+                                                           3
+                                                                         1
+                                                                F (x) = − (1 − x 2 )3/2
+                                                                         3
+
+ (b)
+                            Z 1                                         1
+                                             1                 1            1               1
+                                  f (x)dx = − (1 − x 2 )3/2 = − (1 − 1)3/2 + (1 − 02 )3/2 =
+                                0            3             0   3            3               3
+
+                                                                                                                           x−2 y−2
+BLOQUE 3.A Sea r la recta que pasa por los puntos A = (1, 0, 1) y B = (2, 1, 2) y s la recta s ≡                              =    =
+                                                                                                                            1   −1
+z
+  .
+1
+
+
+
+                                                               Universidad de Oviedo
+                                        Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                                    2021-2022
+                                                                                              Prueba de evaluación de Bachillerato
+                                                                                                 para el acceso a la Universidad
+                                                                                                             (EBAU)
+                                                                                                       CURSO 2021-2022
+
+
+(a) (0.75 puntos) Indica la posición relativa de r y s.
+
+(b) (0.75 puntos) Calcula un plano paralelo a r y que contiene a s.
+
+(c) (1 punto) Calcula la distancia entre las rectas r y s.
+
+
+                                                 →
+                                                 −
+(a) Calculamos la ecuación continua de la recta u = B − A = (1, 1, 1):
+
+                                                              x −1 y z −1
+                                                         r≡       = =
+                                                                1  1   1
+
+    discutimos el sistema formado por las cuatro ecuaciones que definen las dos rectas:
+                                                                                 
+                         x−2     y−2
+                      
+                      
+                          1  = −1        
+                                          
+                                            x+y = 4              1 1       0    4
+                      
+                                         
+                                                                                  
+                       y−2 =
+                                 z        y+z = 2
+                                                              
+                                                                  0   1     1    2
+                                                                                    
+                          −1      1
+                                                                                   
+                                       ⇒                    ⇒                     ⇒
+                         x−1      y
+                              =              x−y = 1              1 −1 0         1 
+                                                                                  
+                           1      1
+                      
+                                         
+                                                              
+                      
+                                         
+                                                                                  
+                       y
+                      
+                              = z−1        y − z = −1
+                                          
+                                                                  0 1 −1 −1
+                             1              1
+                                                                                                                 
+                         1       1     0        4                1   1     0      4                1      1   0   4
+                                                                                                                
+                      0         1     1        2    0             1     1      2   0                 1   1    2 
+                                                                                                                
+                                                  ⇒                              ⇒                              
+                      0         −2    0        −3   0             0     2      1   0                 0   2    1 
+                                                                                                                
+                                                                                                                
+                       0         1     −1       −1     0             0    −2     −3     0                 0   0   −2
+    El rango de la matriz asociada al sistema es 3 y el de la ampliada es 4, por tanto el sistema es incompa-
+    tible. Son rectas que se cruzan, ya que sus vectores directores no son paralelos.
+
+                                                                                         →
+                                                                                         −
+(b) Este plano está definido por un punto de s, P = (2, 2, 0), un vector director de r, u = (1, 1, 1) y un vector
+                  →
+                  −
+    director de s v = (1, −1, 1), luego la ecuación del plano es:
+
+                                      x−2       y−2      z
+                                       1         1       1    = 0 ⇒ 2x − 2z − 4 = 0 ⇒ x − z = 2
+                                       1        −1       1
+
+(c) Esta distancia es la misma que la distancia entre un punto cualquiera de la recta r y el plano anterior.
+    Tomamos un vector unitario perpendicular a al plano:
+                                                            
+                                                    1     1
+                                            ⃗
+                                            w = √ , 0, − √
+                                                     2     2
+    Tomamos el vector definido por un punto de la recta r y un punto del plano:
+
+                                                ⃗
+                                                w2 = (2, 2, 0) − (1, 0, 1) = (1, 2, −1)
+
+    La distancia es el producto escalar de ambos:
+                                                                               √
+                                                         
+                                              1        1                    2
+                                  ⃗   ⃗
+                             d = |w · w2 | = √ , 0, − √     · (1, 2, −1) = √ = 2
+                                               2        2                    2
+
+
+
+                                                         Universidad de Oviedo
+                                  Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                              2021-2022
+                                                                                               Prueba de evaluación de Bachillerato
+                                                                                                  para el acceso a la Universidad
+                                                                                                              (EBAU)
+                                                                                                        CURSO 2021-2022
+
+
+
+
+BLOQUE 3.B Dados dos planos π ≡ x + y + z = 3, π ′ ≡ x + y = 3 y el punto A = (2, 1, 6)
+
+
+ (a) (0.75 puntos) Calcula un vector director y un punto de la recta r intersección de los planos π y π ′ .
+
+ (b) (1 punto) Calcula el punto P de π tal que el segmento AP es perpendicular al plano π.
+
+ (c) (0.75 puntos) Calcula el punto A′ simétrico de A respecto del plano π.
+
+
+ (a) Para calcular la intersección resolvemos el sistema definido por las ecuaciones de los planos.
+                                                                                      
+                          x+y+z = 3                1 1 1 3                1 1     1   3
+                                             ⇒                  ⇒                      
+                          x+y         = 3          1 1 0 3                0 0 -1 0
+
+     Para obtener la solución debemos tomar como parámetro la variable y, y se obtiene:
+
+                             
+                             
+                             
+                              x     =    3−t
+                             
+                               y     =       t     ⇒ (x, y , z) = (3 − t, t, 0) = (3, 0, 0) + t · (−1, 1, 0)
+                             
+                             
+                              z
+                             
+                                     =      0
+                                                                             →
+                                                                             −
+     Por tanto tenemos que un punto es el B = (3, 0, 0) y un vector director u = (−1, 1, 0).
+
+                                                                                                                            →
+                                                                                                                            −
+ (b) Calculamos la recta perpendicular al plano que pasa por el punto A, el vector director debe ser v =
+                                                         →
+                                                         −
+     (1, 1, 1) luego la ecuación de la recta es: A + t · v = (2, 1, 6) + t · (1, 1, 1), o sea, (x, y, z) = (2 + t, 1 + t, 6 + t).
+     Como el punto debe pertenecer al plano π, debe verificar que:
+
+                           3 = x + y + z = (2 + t) + (1 + t) + (6 + t) = 9 + 3t ⇒ 3t = −6 ⇒ t = −2
+
+     Por tanto, el punto P es:
+
+                                                 →
+                                                 −
+                                   P = A + (−2) · v = (2, 1, 6) + (−2) · (1, 1, 1) = (0, −1, 4).
+
+
+ (c) El punto simétrico A′ , se puede calcular como
+
+                  A′ = P − PA = (0, −1, 4) − ((2, 1, 6) − (0, −1, 4)) = (0, −1, 4) − (2, 2, 2) = (−2, −3, 2)
+
+     .
+
+
+
+
+                                                          Universidad de Oviedo
+                                   Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                               2021-2022
+                                                                                            Prueba de evaluación de Bachillerato
+                                                                                               para el acceso a la Universidad
+                                                                                                           (EBAU)
+                                                                                                     CURSO 2021-2022
+
+
+
+
+BLOQUE 4.A Se tienen tres sobres, A, B y C. En el sobre A hay dos cartas de copas y tres de bastos. En el
+sobre B tres cartas de copas y dos de bastos y en el sobre C cuatro de copas y una de bastos. Se tira un dado
+y se saca una carta del sobre A si el resultado es impar, del sobre B si el resultado es 4 o 6 y del sobre C si el
+resultado es un 2.
+
+
+ (a) (1.25 puntos) Calcula la probabilidad de que se obtenga una carta de bastos.
+
+ (b) (1.25 puntos) Se extrae una carta y resulta ser copas ¿cuál es la probabilidad de que se haya extraı́do
+       del sobre B?
+
+Los datos del enunciado son los siguientes:
+
+                                                     1                1                 1
+                                          P(A) =       ,   P(B) =       ,    P(C) =
+                                                     2                3                 6
+
+Además
+                                             2                               3                          4
+                          P(Copas/A) =         ,       P(Copas/B) =            ,    P(Copas/C) =
+                                             5                               5                          5
+
+ (a)
+
+        P(Bas) = P(Bas ∩ A) + P(Bas ∩ B) + P(Bas ∩ C) = P(Bas/A)P(A) + P(Bas/B)P(B) + P(Bas/C)P(C) =
+
+                                                       31 21 11
+                                                   =     +  +   = 0.4667
+                                                       52 53 56
+
+ (b)
+                                                                   31
+                                     P(B ∩ Cop) P(Cop/B)P(B)       53
+                          P(B/Cop) =           =             =            = 0.3750
+                                       P(Cop)      P(Cop)      1 − 0.4667
+
+BLOQUE 4.B El peso en kilos de la población de un cierto pais sigue una distribución normal de media 70 y
+desviación tı́pica 10. Se selecciona un individuo al azar.
+
+
+ (a) (1.25 puntos) Calcule la probabilidad de que su peso se sitúe entre 65 y 75 kilos.
+
+ (b) (1.25 puntos) Se realiza una campaña de comida sana y esto repercute en el peso de la población,
+       manteniendo la desviación tı́pica pero ahora la probabilidad de que un individuo pese menos de 75 es
+       0.6 ¿Cuál es la nueva media?
+
+
+(Algunos valores de la función de distribución N(0, 1) son: F(x) = P(Z ≤ x), F(0) = 0.5, F(0.15) = 0.6, F(0.5) =
+0.6915, F(0.6) = 0.7257, F(1.8) = 0.9641.)
+
+ (a) Se pide la probabilidad siguiente
+
+                                        P(65 ≤ X ≤ 75) = P(X ≤ 75) − P(X ≤ 65)
+
+
+
+
+                                                       Universidad de Oviedo
+                                Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                            2021-2022
+                                                                                        Prueba de evaluación de Bachillerato
+                                                                                           para el acceso a la Universidad
+                                                                                                       (EBAU)
+                                                                                                 CURSO 2021-2022
+
+
+   Tipificando las probabilidades a la N(0, 1) se tiene
+                                                                 
+                                                    75 − 70
+                             P(X ≤ 75) = P Z ≤               = 0.5 = F (0.5) = 0.6915
+                                                       10
+                                                                
+                                                65 − 70
+                         P(X ≤ 65) = P Z ≤                = −0.5 = 1 − F (0.5) = 0.3085
+                                                    10
+   Por lo tanto: P(65 ≤ X ≤ 75) = P(X ≤ 75) − P(X ≤ 65) = 0.6915 − 0.3085 = 0.3830
+
+(b) P(X ≤ 75) = 0.6, que corresponde a F(0.15)
+
+                                                   75 − µ
+                                             Z =          = 0.15 ⇒ µ = 73.5
+                                                     10
+
+
+
+
+                                                   Universidad de Oviedo
+                            Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                        2021-2022
+

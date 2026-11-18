@@ -1,0 +1,432 @@
+                                                                                           Prueba de evaluación de Bachillerato
+                                                                                              para el acceso a la Universidad
+                                                                                                          (EBAU)
+                                                                                                    CURSO 2021-2022
+
+
+                                                    MATEMÁTICAS II
+                                                                                                    
+                                                       −1       −1       −2                    1
+                                                                                                                        
+BLOQUE 1.A Dado x ∈ R y las matrices A =  −1                  x−1       −3   , B =   −1   y C =   1                −1   1       .
+                                                                                      
+                                                                                       
+                                                                                      
+                                           1                      2      1            1
+
+ (a) (1 punto) Calcula los valores de x para los cuales la matriz A no posee inversa.
+
+ (b) (0.75 puntos) Calcula el rango de A según los valores de x.
+
+ (c) (0.75 puntos) Para x = 1, calcula en caso de que sea posible A · B y A · C o indica porqué no se puede
+     realizar.
+
+
+ (a) Puede resolverse calculando el determinante:
+                                           
+                           −1 −1 −2
+                                           
+                     det  −1 x − 1 −3  = −(x − 1) + 3 + 4 + 2(x − 1) − 6 − 1 = x − 1
+                                           
+                                           
+                            1     2      1
+
+     y la matriz no tiene inversa si su determinante es nulo, es decir, para x = 1.
+
+ (b) Si x ̸= 1 la matriz tiene rango 3 ya que su determinante es no nulo. Si x = 1 se puede resolver escalonando
+     con el método de Gauss:
+                                                                                                               
+                 −1 −1 −2                    −1 −1                    −2                           −1 −1       −2
+                                                                                                             
+                               F2 →F2 −F1                               F3 →F3 −F2 
+              −1 0 −3  −−−−−−→  0             1                    −1   −− −−− −→   0                  1   −1 
+                                                                                                                 
+                                                                         
+                              F3 →F3 +F1                                                                     
+                 1    2   1                  0   1                    −1                0                  0    0
+
+     y para x = 1 el rango es 2.
+
+ (c) La matriz A es 3 × 3, la matriz B es 3 × 1 y la matriz C es 1 × 3. Por lo tanto se puede calcular A · B,
+     debido a que el número de columnas de A coincide con el número de filas de B, pero no A · C ya que A
+     tiene 3 columnas y C tiene 1 fila, y esos valores no coinciden.
+                                                                       
+                                             −1 −1 −2             1      −2
+                                                                       
+                                 A · B =  −1 0 −3   −1  =  −4 
+                                                                       
+                                                                       
+                                             1     2    1         1       0
+
+                                                                                                      
+                                                                       2x     +     y     +    z = 1 
+                                                                                                      
+                                                                                                      
+BLOQUE 1.B Dado m ∈ R, se considera el sistema lineal                   x     +     2y    +    z = −1
+                                                                                                      
+                                                                                                      
+                                                                       3x     +     3y    +    2z = m 
+                                                                                                      
+
+
+ (a) (1.75 puntos) Discute el sistema según los valores de m y resuélvelo en los casos en los que sea posible.
+
+ (b) (0.75 puntos) Estudia si es posible encontrar una solución en la que z = 3.
+
+
+
+                                                      Universidad de Oviedo
+                               Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                           2021-2022
+                                                                                             Prueba de evaluación de Bachillerato
+                                                                                                para el acceso a la Universidad
+                                                                                                            (EBAU)
+                                                                                                      CURSO 2021-2022
+
+
+
+
+ (a) Aplicaremos el método de Gauss a la matriz ampliada:
+                                                                                                                          
+                1 2 1 −1                       1 2      1                         −1                        1   2    1    −1
+                                                                                                                        
+                                F2 →F2 −2F1                                      F3 →F3 −F2 
+         Ab =  2 1 1        1  −−−−−−−→  0 −3 −1                                −−−−−−→  0
+                                                                                   3                            −3   −1    3 
+                                                                                                                            
+                               F3 →F3 −3F1                                                                              
+                3 3 2       m                  0 −3 −1                        m+3                0              0    0     m
+
+     El sistema es incompatible para m ̸= 0 y es compatible indeterminado para m = 0.
+
+     Para m = 0 la solución es:
+                                                                                                     
+                                                                                                 1
+                                                        x =                                 1−    α 
+                                                                                                     
+                                                                                                 3
+                                                                                                     
+                                   x   + 2y + z = −1 
+                                                                                                     
+                                                                                                     
+                                                       → y =                                      1
+                                                                                             −1 − α 
+                                       − 3y − z = 3                                              3 
+                                                         z =                                    α
+                                                                                                     
+                                                                                                     
+
+
+ (b) Para que el sistema tenga solución se debe cumplir que m = 0. En este caso sı́ existe la solución pedida,
+     para α = 3, que corresponde a x = 0, y = −2, z = 3.
+
+                                                       2x2
+BLOQUE 2.A Se considera la función f(x) =                 .
+                                                      1−x
+
+ (a) (0.75 puntos) Calcula el dominio de la función f y sus ası́ntotas.
+
+ (b) (1.25 puntos) Halla en caso de que existan, los máximos y mı́nimos y puntos de inflexión. Calcula los
+     intervalos de crecimiento y decrecimiento.
+
+ (c) (0.5 puntos) Utilizando los apartados anteriores, realiza un esbozo de la gráfica de f.
+
+
+ (a) La función está definida en R \ {1}.
+
+     Ası́ntotas horizontales:
+                                                         2x 2                       2x 2
+                                       lı́m f (x) =           = ∞,                lı́m   = ∞,
+                                       x→+∞             1−x                   x→−∞ 1 − x
+
+     luego no tiene ası́ntota horizontal.
+
+     Ası́ntotas verticales:
+                                              2x 2                                  2x 2
+                                          lı́m+    = +∞,                   lı́m          = −∞
+                                         x→1 1 − x                       x→1−      1−x
+     tiene una ası́ntotas verticales en: x = 1.
+
+     Ası́ntota oblicuas
+                                                                 2x2
+                                                           lı́m 1 − x = −2
+                                                          x→∞     x
+                                                   2x2              2x
+                                               lı́m     + 2x = lı́m     = −2
+                                              x→∞ 1 − x       x→∞ 1 − x
+
+     Tiene una ası́ntota oblicua en y = −2x − 2.
+
+
+
+                                                       Universidad de Oviedo
+                                Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                            2021-2022
+                                                                                                      Prueba de evaluación de Bachillerato
+                                                                                                         para el acceso a la Universidad
+                                                                                                                     (EBAU)
+                                                                                                               CURSO 2021-2022
+
+
+ (b)
+                                                4x(1 − x) − 2x 2 (−1) 4x − 2x 2
+                                    f ′ (x) =                        =          = 0 ⇔ x = 0,                      x =2
+                                                      (1 − x)2         (1 − x)2
+       La función tiene un punto crı́tico en x = 0 y otro en x = 2.
+                         (4 − 4x)(1 − x)2 − (4x − 2x 2 )(−2)(1 − x)      4
+            f ′′ (x) =                                              =          ⇒ f ′′ (0) = 4 > 0,                         f ′′ (2) = −4 < 0
+                                          (1 − x)4                    (1 − x)3
+       y la función tiene un mı́nimo en x = 0, un máximo en x = 2. No tiene puntos de inflexión.
+
+       Con respecto a los intervalos de crecimiento y decrecimiento se tiene:
+
+                                                   x       (−∞, 0)         (0, 1)      (1, 2)         (2, ∞)
+                                                 f′ (x)        −               +          +               −
+                                                          Decrece          Crece       Crece       Decrece
+
+
+
+
+                                        (c)
+
+BLOQUE 2.B Dada la función f(x) = − sen(2x) + 1,
+
+
+ (a) (1.25 puntos) Calcula una primitiva que pase por el origen de coordenadas.
+
+ (b) (1.25 puntos) Calcula el área limitada por f, el eje X y las rectas x = 0 y x = π.
+
+
+ (a)                                Z                                      Z                      Z
+                                                                       1                                      1
+                          F (x) =        (− sen(2x) + 1)dx = −                 2 sen(2x)dx +          dx =      cos(2x) + x + C
+                                                                       2                                      2
+                                            1                       1
+       Como debe pasar por el origen F(0) =   + C = 0 es decir C = − . La primitiva pedida es F(x) =
+                                            2                       2
+       1              1
+         cos(2x) + x − .
+       2              2
+ (b) Como 1 − sen(2x) ≥ 0 para todo x, entonces el area pedida se calcula como sigue:
+                     Z π                                   x=π
+                                             1                   1              1
+                 A=      (− sen(2x) + 1)dx = cos(2x) + x       = cos(2π) +π − cos(0) = π
+                      0                      2             x=0   2 |  {z  }     2 | {z }
+                                                                                                      1                1
+
+
+
+
+                                                                 Universidad de Oviedo
+                                          Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                                      2021-2022
+                                                                                            Prueba de evaluación de Bachillerato
+                                                                                               para el acceso a la Universidad
+                                                                                                           (EBAU)
+                                                                                                     CURSO 2021-2022
+
+
+
+
+                                
+                                
+                                
+                                 x=1+α
+                                                                           →
+                                                                           −
+                                
+BLOQUE 3.A Dadas las rectas r ≡    y = 1 , s perpendicular a r y el vector v = (1, 1, 1).
+                                
+                                
+                                 z = −α
+                                
+
+
+                          →
+                          −
+ (a) (0.5 puntos) Calcula v r un vector director de r.
+
+                                 →
+                                 −                       → −
+                                                         −  →                      →
+                                                                                   −
+ (b) (1 punto) Calcula un vector u director de s tal que u × v r es proporcional a v .
+                                                                                                                       y−1
+ (c) (1 punto) Calcula la ecuación del plano que contiene a las rectas r y s′ , siendo s′ ≡ x − 1 =                       = z.
+                                                                                                                        −2
+
+
+                        →
+                        −
+ (a) Un vector director v r es (1, 0, −1).
+
+                                                      →
+                                                      −
+ (b) Un vector director de s debe ser perpendicular a v r y al vector (1, 1, 1), luego se puede calcular como el
+     producto vectorial de ambos:
+
+                                                         →
+                                                         −      →
+                                                                −      →
+                                                                       −
+                                                         ı       j     k
+                                                                               →
+                                                                               −     → −
+                                                                                     −   →
+                          (1, 0, −1) × (1, 1, 1) =        1      0    −1      = ı − 2 j + k = (1, −2, 1)
+                                                          1      1      1
+
+ (c) El plano que contiene a r y s está determinado por un punto de una de las rectas, por ejemplo (1, 1, 0) y
+                                       →
+                                       −                  →
+                                                          −
+     los vectores directores de r y s, v r = (1, 0, −1) y v s = (1, −2, 1), por tanto la ecuación del plano es
+
+               x−1    y−1      z
+          0=     1      0     −1      = −(y − 1) − 2z − 2(x − 1) − (y − 1) = −2x − 2y − 2z + 4 ⇒ x+y+z=2
+                 1     −2      1
+
+BLOQUE 3.B Dados los puntos A = (1, 0, 1), B = (1, 6, 1), C = (−2, −1, 5) y E = (−1, 1, 1).
+ (a) (0.5 puntos) Calcula ecuación del plano que contiene a los puntos A, B y C.
+
+ (b) (1.25 puntos) Calcula las coordenadas del punto D para que el polı́gono
+     ABCD sea un paralelogramo y el area de ABCD.
+
+ (c) (0.75 puntos) Halla ecuación de la recta perpendicular al plano que pasa por
+     E.
+
+
+
+
+                                                       Universidad de Oviedo
+                                Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                            2021-2022
+                                                                                           Prueba de evaluación de Bachillerato
+                                                                                              para el acceso a la Universidad
+                                                                                                          (EBAU)
+                                                                                                    CURSO 2021-2022
+
+
+                                    → −
+                                    −   →
+ (a) El plano está definido por A, u y v , luego la ecuación del plano es:
+
+                                                 x−1        y      z−1
+                                        0=         0       −6        0        ⇒ 4x + 3z = 7
+                                                  −3       −7        4
+
+                                    →
+                                    −     −→                                               →
+                                                                                           −     −→
+ (b) Consideramos los vectores u = BA = A − B = (1, 0, 1) − (1, 6, 1) = (0, −6, 0) v = BC = C − B =
+                                                           →
+                                                           −
+     (−2, −1, 5) − (1, 6, 1) = (−3, −7, 4) entonces D = A + v = (1, 0, 1) + (−3, −7, 4) = (−2, −7, 5). El área del
+       paralelogramo es el módulo del producto vectorial de ambos vectores:
+
+                                                                →
+                                                                −        →
+                                                                         −     →
+                                                                               −
+                                                                ı         j    k
+                  → −
+                  −  →                                                                     →
+                                                                                           −      →
+                                                                                                  −
+                  u × v = (0, −6, 0) × (−3, −7, 4) =             0       −6     0     = −24 ı − 18 k = −6(4, 0, 3)
+                                                                −3       −7     4
+
+                              → −
+                              −   →                         p
+                             ∥ u × v ∥ = ∥ − 6(4, 0, 3)∥ = 6 (4)2 + 02 + (3)2 = 6 · 5 = 30
+
+                                                                       →
+                                                                       −
+ (c) El vector director de la recta debe ser el vector normal al plano w = (4, 0, 3) por tanto la ecuación vectorial
+                               →
+                               −
+     de la recta definida por w y E = (−1, 1, 1) es
+
+                                                (x, y , z) = (−1, 1, 1) + t(4, 0, 3)
+
+BLOQUE 4.A En una oficina del ayuntamiento se asigna un número a cada persona que entra. Se observa
+que el 70 % de las personas que entran son mujeres. El 40 % de los hombres y el 30 % de las mujeres que
+entran son menores de 30 años.
+
+
+ (a) (0.75 puntos) Calcule la probabilidad de que un número sea asignado a una persona menor de 30 años.
+
+ (b) (0.5 puntos) ¿Cuál es la probabilidad de que un número sea asignado a un hombre que no tiene menos
+       de 30 años?
+
+ (c) (1.25 puntos) Si la persona a la que se le ha asignado un número no tiene menos de 30 años ¿cuál es
+       la probabilidad de que sea hombre?.
+
+Denotaremos los sucesos como sigue: M ser mujer y H ser hombre y M30 ser menor de 30 años. Los datos
+que nos aporta el enunciado son los siguientes:
+
+                       P(M) = 0.7,     P(H) = 0.3,         P(M30/M) = 0.3,             P(M30/H) = 0.4.
+
+
+ (a) Se pide P(M30). Por el teorema de la probabilidad total:
+
+        P(M30) = P(M30 ∩ M) + P(M30 ∩ H) = P(M30/H)P(H) + P(M30/M)P(M) = 0.3 · 0.7 + 0.3 · 0.4 = 0.33
+
+
+ (b)
+                                                       
+                                               P H ∩ M30 = 0.3 · 0.6 = 0.18
+
+
+
+                                                      Universidad de Oviedo
+                               Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                           2021-2022
+                                                                                            Prueba de evaluación de Bachillerato
+                                                                                               para el acceso a la Universidad
+                                                                                                           (EBAU)
+                                                                                                     CURSO 2021-2022
+
+
+  (c) Se pide P(H/M30). Como
+
+                              P(M30) = 0.33 ⇒ P(M30) = 1 − P(M30) = 1 − 0.33 = 0.67
+
+                                                           P(H ∩ M30) 0.18
+                                        P(H/M30) =                   =      = 0.2687
+                                                             P(M30)    0.67
+
+BLOQUE 4.B Se está estudiando la altura de la población adulta de una cierta ciudad y se observa que el
+modelo se rige por una distribución normal con media 1.75m y desviación tı́pica 0.65m.
+
+
+ (a) (0.75 puntos) Calcula la probabilidad de que, tomado un adulto al azar mida más de 1.85m.
+
+ (b) (0.75 puntos) Si se toma una muestra de 10000 personas ¿Cuántas personas medirán más de 1.85m?
+
+  (c) (1 punto) Se observa que, de las 10000 personas de la muestra, 6500 miden menos de 1.90m, supo-
+      niendo que se mantiene la media ¿cuál serı́a la desviación tı́pica?
+
+
+(Algunos valores de la función de distribución N(0, 1) son: F(x) = P(Z ≤ x), F(0) = 0.5, F(0.15) = 0.6, F(0.1538) =
+0.5596, F(0.65) = 0.7422, F(0.385) = 0.65.)
+                                                              
+                                           1.85 − 1.75
+ (a) P(X ≥ 1.85) = 1−P(X ≤ 1.85) = 1−P Z ≤             = 0.1538 = 1−F(0.1538) = 1−0.5596 = 0.4404
+                                              0.65
+ (b) 10000 · 0.4404 = 4404.
+                         6500
+  (c) La P(X ≤ 1.9) =          = 0.65 Esta probabilidad se corresponde con el valor F(0.385) por lo tanto en la
+                        10000
+      normal tipificada Z = 0.385
+                                            1.9 − 1.75
+                                       Z =             = 0.385 ⇒ σ = 0.3896
+                                                σ
+
+
+
+
+                                                       Universidad de Oviedo
+                                Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                            2021-2022
+

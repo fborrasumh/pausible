@@ -1,0 +1,487 @@
+                                                                                              Prueba de evaluación de Bachillerato
+                                                                                                 para el acceso a la Universidad
+                                                                                                             (EBAU)
+                                                                                                       CURSO 2021-2022
+
+
+                       MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+                                                       Examen resuelto
+
+ Los ejercicios se han resuelto utilizando los métodos más habituales. No obstante, cualquier otro método
+                       debidamente razonado y justificado es admitido como válido.
+
+
+
+1A.   a) Si representamos por x e y el coste, en euros, del café y la leche, respectivamente, las condiciones
+         impuestas llevan a formar el siguiente sistema de ecuaciones:
+                                      
+                                                       x + y = 2500
+                                       1,8x + (1 + 0,01m)y = 2900 + 20m
+
+         puesto que el precio de venta del café es un 80 % más que el de compra, con lo que el café se
+                        80
+         vende por x + 100 x = 1,8x euros y el de venta de la leche es un m % más que el de compra, con lo
+                                        m
+         que la leche se vende por y + 100 y = (1 + 0,01m)y euros.
+
+      b) La discusión de este sistema se puede hacer, por ejemplo, por uno de los dos métodos considerados
+         a continuación.
+
+             Gauss.
+                                                                                                                       
+                             1            1               2500                        1            1           2500
+                                                                        −→                                             
+                            1,8     1 + 0,01m          2900 + 20m                     0    0,01m − 0,8 20m − 1600
+
+             Como 0,01m − 0,8 = 0 ⇔ m = 80 se tiene que:
+                                                  
+              • Si m = 80, la última fila es 0 0 0 , con lo que el sistema es compatible indeterminado.
+               • En otro caso, el sistema es compatible y determinado.
+             Rouché-Fröbenius. Como
+
+                                                   1            1
+                                       |A| =                                = 0,01m − 0,8 = 0 ⇐⇒ m = 80
+                                                 1,8     1 + 0,01m
+
+             se tiene que:
+               • Para m = 80, como
+
+                                           1     2500               2500     1
+                                                            =                       = 0 =⇒ ran(A0 ) = 1 = ran(A),
+                                          1,8    4500               4500    1,8
+
+                 y como el sistema tiene 2 incógnitas, llegamos a que el sistema es compatible indetermina-
+                 do.
+               • Para m 6= 80, el sistema es compatible y determinado, puesto que ran(A) = 2 y por tanto
+                 ran(A) = ran(A0 ) = nº incógnitas.
+
+
+
+
+                                                         Universidad de Oviedo
+                                  Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                              2021-2022
+                                                                                          Prueba de evaluación de Bachillerato
+                                                                                             para el acceso a la Universidad
+                                                                                                         (EBAU)
+                                                                                                   CURSO 2021-2022
+
+
+         Ası́ pues, la compatibilidad de este sistema quedarı́a resumida en el siguiente cuadro:
+
+                                                            m = 80        S.C.I.
+                                                            m 6= 80 S.C.D.
+
+         Por lo tanto, el sistema tiene solución para cualquier valor de m, y dicha solución es única si m 6= 80.
+         Si el beneficio de la venta de la leche es del 20 % (m = 20), la resolución del sistema, tomando
+         como punto de partida los métodos usados anteriormente en el estudio de la compatibilidad, se
+         harı́a como sigue:
+
+             Método de Gauss. Continuando con lo obtenido anteriormente y teniendo en cuenta que se
+             supone que m = 20, se tiene que:
+                                                     
+                                 1     1     2500       x                          +          y      =   2500
+                                                  −→
+                                 0 −0,6 −1200                                      − 0,6y            =   −1200
+
+             Resolviendo este sistema escalonado:
+                                            
+                                             y = −1200/ − 0,6 = 2000
+                                             x = 2500 − 2000 = 500
+
+             Método de Cramer. Como ya vimos en el apartado anterior, |A| = 0,01m − 0,8, con lo que si
+             m = 20 se tiene que |A| = −0,6.
+             Por otro lado se tiene que
+
+                                        2500        1                                     1        2500
+                              |Ax | =                      = −300,           |Ay | =                        = −1200.
+                                        3300       1,2                                   1,8       3300
+
+             Por tanto, la solución es:
+                                         |Ax | −300                                |Ay | −1200
+                                   x=         =      = 500,                 y=          =      = 2000.
+                                          |A|   −0,6                                |A|   −0,6
+             Con lo cual el café costó 500 euros.
+
+1B.   a) Si representamos por x e y el número de preguntas bien y mal contestadas, respectivamente, las
+         condiciones impuestas llevan a formar el siguiente sistema de inecuaciones:
+                                               
+                                               
+                                               
+                                                     x + y ≤ 80
+                                               
+                                                   x − 0,5y ≥ 35
+                                               
+                                               
+                                                        x, y ≥ 0
+                                               
+                                               
+
+         Los puntos que cumplen todas estas restricciones son todos los pares de números enteros dentro
+         del recinto sombreado en la figura 1. Los extremos de dicho recinto son A = (35, 0), B = (80, 0) y
+         C = (50, 30).
+         No se podrı́a aprobar contestando 40 preguntas bien y 20 mal, puesto que el punto (40, 20) no
+         pertenece a la región factible (x + y = 60 ≤ 80, pero x − 0,5y = 40 − 10 = 30 < 35), al obtener en ese
+         caso una nota de 30 puntos, por debajo de los 35 necesarios para aprobar.
+
+
+
+                                                     Universidad de Oviedo
+                              Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                          2021-2022
+                                                                                         Prueba de evaluación de Bachillerato
+                                                                                            para el acceso a la Universidad
+                                                                                                        (EBAU)
+                                                                                                  CURSO 2021-2022
+
+
+                                      Mal                                    x + y = 80
+                                                                           x − 0,5y = 35
+                                                                 C
+                              30
+
+
+                                                  (40, 20)
+
+
+
+
+                                                        A                        B        Bien
+                                                     35       50               80
+
+
+                                             Figura 1: Región factible.
+
+
+      b) El número de preguntas sin contestar es z(x, y) = 80 − x − y. Ası́, queremos maximizar la función
+         objetivo z sujeta a las restricciones anteriores. Los valores en los extremos del recinto son:
+
+                                                        z(A) = 45 preguntas
+                                                        z(B) = 0 preguntas
+                                                        z(C) = 0 preguntas
+
+         por lo que el aprobado con el número máximo de preguntas sin contestar se obtiene si se responde a
+         35 preguntas bien y a ninguna mal, es decir, se responde a 35 bien y se dejan el resto sin contestar.
+         En tal caso se obtendrı́an 35 puntos.
+
+2A.   a) En un año cualquiera, si la producción es de x toneladas, los ingresos son 500x miles de euros. Por
+         otro lado, los costes son:
+
+             Costes de producción: 250x miles de euros.
+                         x                x
+             Impuestos: 100 · ingresos = 100 · 500x = 5x2 miles de euros.
+             Costes fijos: 1125 miles de euros.
+
+         con lo que el coste total en ese año es 250x + 5x2 + 1125 y, por tanto, los beneficios son:
+
+                                                    f (x) = 250x − 5x 2 − 1125
+
+         Vamos a estudiar esta función en su dominio, que nos dicen que es el intervalo [0, 40].
+         En cuanto a los puntos de corte:
+
+             f(0) = −1125, con lo que la función corta al eje de ordenadas en el punto (0, −1125).
+             f(x) = 0 ⇔ −5x2 + 250x − 1125 = −5(x − 5)(x − 45) = 0. Como para esta ecuación de segundo
+             grado, se tiene que las soluciones son x = 5 y x = 45, es decir, la función corta el eje de abscisas
+             en el punto (5, 0) de su dominio.
+
+
+
+                                                    Universidad de Oviedo
+                             Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                         2021-2022
+                                                                                                Prueba de evaluación de Bachillerato
+                                                                                                   para el acceso a la Universidad
+                                                                                                               (EBAU)
+                                                                                                         CURSO 2021-2022
+
+
+         Además se tiene que f(40) = 875.
+
+         f es continua en (0, 40) puesto que es un polinomio.
+         Respecto a la monotonı́a, como f0 (x) = 250 − 10x = 0 ⇔ x = 25 y f00 (x) = −10 se tiene que f00 (25) < 0
+         y por tanto es un máximo relativo. Se tiene que f crece en el intervalo (0, 25) y decrece en (25, 40).
+         Se tiene además que f(25) = 2000.
+
+         Respecto a la concavidad, como f00 (x) = −10 < 0, se tiene que es cóncava hacia abajo.
+         De todo lo anterior se deduce que la representación gráfica de f es la que corresponde a la figura 2.
+
+                               f(x)
+                         2000
+
+
+                          875
+
+                                                                                                                 x
+                                           5                                   25                           40
+
+                        -1125
+
+
+                                           Figura 2: Representación gráfica de f.
+
+
+      b) Según lo visto en el apartado anterior, se tenı́a un máximo relativo en x = 25, pero a la vista de la
+         representación gráfica de la función, está claro que es un máximo absoluto. Ası́ pues, el beneficio
+         se maximiza si se fabrican 25 toneladas y como f(25) = 2000, el beneficio máximo es de 2 millones
+         de euros (2000 miles de euros).
+         También se deduce del estudio anterior que hay que fabricar al menos 5 toneladas para que no se
+         produzcan pérdidas (beneficio positivo).
+                                                                        4        3       2
+2B.   a) Como f(x) = x3 − 4x2 + 3x, entonces F(x) = x4 − 4 x3 + 3 x2 + C, con lo que F(1) = 41 − 43 + 32 + C =
+          5                7                      x4   x3    x2   7
+         12 + C = 1 ⇔ C = 12 y, por tanto, F(x) = 4 − 4 3 + 3 2 + 12 .
+
+      b) El dominio de f son todos los números reales, puesto que es un polinomio.
+         Como f(−x) = −x3 − 4x2 − 3x, ∀x ∈ R, se tiene que f(−x) 6= f(x) y f(−x) 6= −f(x), con lo que f no es
+         una función simétrica, ni respecto al eje de ordenadas, ni respecto al origen.
+         La función f corta al eje de ordenadas en el punto (0, f(0)), es decir, en el punto (0, 0). Además como
+         f(x) = x(x − 3)(x − 1) = 0 ⇔ x = 0, x = 1 o x = 3, se tiene que f corta al eje de abscisas en los puntos
+         (0, 0), (1, 0) y (3, 0).
+
+         En cuanto a las ası́ntotas, no tiene ası́ntotas verticales, puesto que no tiene puntos de discontinui-
+         dad. Tampoco tiene ası́ntotas horizontales, puesto que
+
+                   lı́m f (x) = lı́m (x 3 − 4x 2 + 3x) = ∞               y       lı́m f (x) = lı́m (x 3 − 4x 2 + 3x) = −∞.
+                  x→∞           x→∞                                            x→−∞              x→−∞
+
+
+
+
+                                                           Universidad de Oviedo
+                                    Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                                2021-2022
+                                                                                      Prueba de evaluación de Bachillerato
+                                                                                         para el acceso a la Universidad
+                                                                                                     (EBAU)
+                                                                                               CURSO 2021-2022
+
+
+Tampoco tiene ası́ntotas oblicuas, puesto que
+
+                            f (x)        x 3 − 4x 2 + 3x
+                          lı́m    = lı́m                 = lı́m (x 2 − 4x + 3) = +∞.
+                        x→±∞ x     x→±∞         x         x→±∞
+
+
+f es continua en todo su dominio, puesto que es una función polinómica.
+Para estudiar el crecimiento y decrecimiento de la función, vamos a comenzar calculando los puntos
+crı́ticos. Para ello,
+                                                                 √                                    √
+                                                              4+ 7                                 4− 7
+                f 0 (x) = 3x 2 − 8x + 3 = 0 ⇐⇒ x =                 ≈ 2,22             o       x=        ≈ 0,45.
+                                                                3                                    3
+
+Para averiguar si estos puntos son un mı́nimo o un máximo relativo, procedemos por el criterio de
+la segunda derivada. Ası́, al ser f00 (x) = 6x − 8, se tiene que f00 (0,45) < 0 y, por tanto x = 0,45 es
+un máximo relativo; además f00 (2,22) > 0 y, por tanto x = 2,22 es un mı́nimo relativo. De lo anterior
+se deduce que f es creciente en (−∞, 0,45), decreciente en (0,45, 2,22) y vuelve a ser creciente en
+(2,22, +∞). Para poder representar el máximo y el mı́nimo en el plano, es necesario calcular sus
+imágenes: f(0,45) = 0,63 y f(2,22) = −2,11.
+Como los puntos de inflexión de f son las soluciones de la ecuación f00 (x) = 0, sabemos que dicho
+punto es x = 4/3, puesto que f00 (x) = 6x − 8. Como f00 (x) < 0, ∀x ∈ (−∞, 4/3), tenemos que f es
+cóncava hacia abajo en ese intervalo. Por otro lado, como f00 (x) > 0, ∀x ∈ (4/3, ∞), tenemos que f
+es cóncava hacia arriba en ese intervalo. Además se tiene que f(4/3) = −0,74.
+De todo lo anterior se deduce que su representación gráfica es la que aparece en la figura 3.
+
+                                           f(x)
+
+                                         12
+
+                                         8
+
+                                         4
+
+                                         0                                                    x
+                          -2        -1                 1      2        3        4         5
+
+
+                                    Figura 3: Representación gráfica de f.
+
+
+El área limitada por la curva y el eje X entre x = 0 y x = 4 es igual a:
+        Z 1                Z 3                 Z 4
+              f (x)dx +            f (x)dx +          f (x)dx = |F (1) − F (0)| + |F (3) − F (1)| + |F (4) − F (3)| =
+         0                     1                  3
+
+
+                                            7   −20      39 −20    96
+                                      1−      +     −1 +    −    =    = 8.
+                                           12   12       12   12   12
+
+
+
+
+                                                 Universidad de Oviedo
+                          Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                      2021-2022
+                                                                                             Prueba de evaluación de Bachillerato
+                                                                                                para el acceso a la Universidad
+                                                                                                            (EBAU)
+                                                                                                      CURSO 2021-2022
+
+
+3A. Si denotamos por E el suceso ((la botella contiene leche entera)), por S el suceso ((la botella contiene
+    leche semidesnatada)), por D el suceso ((la botella contiene leche desnatada)) y por F el suceso ((la
+    botella es exportada fuera)), los datos del enunciado se traducen en:
+
+                                                    P(E) = 0,7        P(F/E) = 0,05
+                                                    P(S) = 0,2        P(F/S) = 0,03
+                                                    P(D) = 0,1        P(F/D) = 0,10
+
+    Ası́ pues, las probabilidades pedidas son:
+
+      a) P(F) = 1 − P(F) = 1 − 0,051 = 0,949, puesto que P(F) = p(F/E)P(E) + P(F/S)P(S) + P(F/D)P(D) =
+           0,05 · 0,7 + 0,03 · 0,2 + 0,1 · 0,1 = 0,051.
+                          P(F/S)P(S)
+      b) P(S/F) = P(F∩S)
+                   P(F) =    0,051   = 0,03·0,2
+                                        0,051 = 0,118.
+
+
+    Si se hace el ejercicio construyendo una tabla, la asociada a estos datos serı́a proporcional a:
+
+                                                                F       F
+                                                         E     3,5 66,5          70
+                                                         S     0,6 19,4          20
+                                                         D       1          9    10
+                                                               5,1 94,9         100
+
+3B. Si denotamos por A el suceso ((ser votante del candidato A)), por B el suceso ((ser votante del candidato
+    B)), por M el suceso ((ser mujer)) y por H el suceso ((ser hombre)), los datos del enunciado se traducen en:
+
+                                   P(A) = 0,4                       P(B) = 0,6
+                                   P(M/A) = 0,25           =⇒       P(H/A) = 1 − P(M/A) = 0,75
+                                   P(H/B) = 0,2            =⇒       P(M/B) = 1 − P(H/B) = 0,8
+
+    teniendo en cuenta que B = A y H = M. De todo lo anterior se deduce que las probabilidades pedidas
+    son:
+
+      a) P(M) = P(M ∩ A) + P(M ∩ B) = P(M/A)P(A) + P(M/B)P(B) = 0,25 · 0,4 + 0,8 · 0,6 = 0,58.
+
+      b) P(A/H) = P(H/A)P(A)
+                     P(H)    = 0,75·0,4
+                                 0,42 = 0,714, puesto que P(H) = 1 − P(M) = 1 − 0,58 = 0,42.
+
+
+    Si se hace el ejercicio construyendo una tabla, la asociada a estos datos deberı́a ser proporcional a:
+
+                                                                 M      H
+                                                           A    10 30           40
+                                                           B    48 12           60
+                                                                58 42 100
+
+
+
+
+                                                        Universidad de Oviedo
+                                 Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                             2021-2022
+                                                                                            Prueba de evaluación de Bachillerato
+                                                                                               para el acceso a la Universidad
+                                                                                                           (EBAU)
+                                                                                                     CURSO 2021-2022
+
+
+4A. Si denotamos por X la v.a. ((tiempo en hacer efectiva la portabilidad)), sabemos que dicha variable sigue
+    una distribución normal de media desconocida µ y desviación tı́pica σ = 10 horas, es decir, X → N(µ, 10).
+    Además, tenemos para dicha v.a. una muestra aleatoria de tamaño n = 200 para la cual se obtiene una
+    media muestral x = 40 horas.
+
+      a) El intervalo de confianza, al nivel de confianza (1 − α) · 100 %, para una media poblacional de una
+         variable aleatoria con distribución normal y desviación tı́pica conocida es:
+                                                                           
+                                                          σ              σ
+                                                 x − zα/2 √ , x + zα/2 √
+                                                           n              n
+
+         donde
+
+             x representa la media muestral, en este caso x = 40 horas,
+             n representa el tamaño de muestra, en este caso n = 200,
+             σ representa la desviación tı́pica poblacional, en este caso σ = 10 horas y
+
+             zα/2 representa el valor que cumple P(|Z| < zα/2 ) = P(−zα/2 < Z < zα/2 ) = 1 − α = 0,9 para
+             una variable Z con distribución N(0, 1) o, lo que es lo mismo, P(Z < zα/2 ) = F(zα/2 ) = 0,95, con
+             lo que zα/2 = 1,64.
+
+         Ası́ pues, con los datos de este ejercicio se tiene que un intervalo de confianza para la media, al
+         90 % de confianza es:
+                                                                                   
+                                                  10                10
+                                       40 − 1,64 √     , 40 + 1,64 √                    = (38,84; 41,16),
+                                                   200               200
+         es decir, tenemos una confianza del 90 % de que el tiempo medio está entre 38,84 y 41,16 horas.
+
+      b) Una vez fijados el error máximo de estimación  y el nivel de confianza (1−α)·100 %, si se considera
+         que la variable en estudio sigue una distribución normal con desviación tı́pica conocida, el mı́nimo
+         tamaño que ha de tener la muestra para verificar estas condiciones es:
+                                                                      σ 2
+                                                              n ≥ zα/2
+                                                                       
+
+         Ası́ pues, puesto que la amplitud del intervalo es de como mucho 2 horas se tiene que  ≤ 1 y, por
+         otro lado, como 1 − α = 0,9 se tiene que zα/2 = 1,64. De todo lo anterior se deduce que:
+                                                                           2
+                                                                       10
+                                                     n≥         1,64             = 268,96
+                                                                       1
+
+         con lo que el tamaño mı́nimo muestral para cumplir las condiciones será de 269 clientes.
+
+4B. Si representamos por p la proporción poblacional de hogares que reciclan el plástico habitualmente y por
+    p̂ la proporción de hogares que reciclan de los n = 300 en la muestra, se tiene que p es desconocido y
+    p̂ = 240/300 = 0,8.
+
+
+
+
+                                                     Universidad de Oviedo
+                              Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                          2021-2022
+                                                                                     Prueba de evaluación de Bachillerato
+                                                                                        para el acceso a la Universidad
+                                                                                                    (EBAU)
+                                                                                              CURSO 2021-2022
+
+
+a) El intervalo de confianza, al nivel de confianza (1 − α) · 100 %, para una proporción poblacional en
+   muestras grandes es:                           r                            r                !
+                                                      p̂(1 − p̂)                   p̂(1 − p̂)
+                                      p̂ − zα/2                  , p̂ + zα/2
+                                                          n                            n
+   donde
+
+       p̂ representa la proporción muestral, en este caso p̂ = 0,8,
+       n representa el tamaño de la muestra, en este caso n = 300 y
+       zα/2 el valor que cumple P(|Z| < zα/2 ) = P(−zα/2 < Z < zα/2 ) = 1 − α = 0,95 para una variable
+       Z con distribución N(0, 1) o, lo que es lo mismo, P(Z < zα/2 ) = F(zα/2 ) = 0,975, con lo cual
+       zα/2 = 1,96.
+
+   Ası́ pues, con los datos de este ejercicio se tiene que un intervalo de confianza para la proporción,
+   al 95 % de confianza es:
+                                r                                   r                    !
+                                    0,8(1 − 0,8)                        0,8(1 − 0,8)
+                    0,8 − 1,96                   , 0,8 + 1,96                                   = (0,755; 0,845),
+                                        300                                 300
+
+   es decir, tenemos una confianza del 95 % de que el porcentaje de hogares que reciclan habitual-
+   mente el plástico en esa ciudad está entre el 75,5 % y el 84,5 %.
+
+b) En el intervalo anterior el error de estimación es
+                                       r                  r
+                                         p̂(1 − p̂)         0,8(1 − 0,8)
+                               = zα/2              = 1,96               = 0,045.
+                                             n                  300
+
+   Con el mismo nivel de confianza y la misma proporción muestral, si aumenta el tamaño muestral,
+   disminuye el error de estimación, como se puede observar en la fórmula anterior, puesto que al
+   aumentar n manteniendo el resto de valores constantes, disminuye . Como la amplitud del intervalo
+   es 2, es evidente que la amplitud también disminuye.
+
+
+
+
+                                               Universidad de Oviedo
+                        Prueba de evaluación de Bachillerato para el acceso a la Universidad
+                                                    2021-2022
+

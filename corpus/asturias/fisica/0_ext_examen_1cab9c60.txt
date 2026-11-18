@@ -1,0 +1,711 @@
+                                                                               Prueba de evaluación de Bachillerato
+                                                                                  para el acceso a la Universidad
+                                                                                              (EBAU)
+                                                                                         CURSO 2021-22
+
+
+
+
+                                                     FÍSICA
+
+
+1A.      El satélite más cercano a Júpiter, Io, tiene un radio R Io = 1.82 106 m y su masa es MIo = 8.94
+10 kg. Si se lanza desde su superficie un cohete que alcanza una altura máxima h = 9/7 R Io, determina:
+    22
+
+   a) la velocidad inicial con la que se ha lanzado el cohete para alcanzar dicha altura. (1 punto)
+   b) el valor de la aceleración de la gravedad sobre la superficie de Io y en el punto más alto que alcanza
+   el cohete. (0.5 puntos)
+   c) ¿Cuál sería el periodo de rotación orbital del cohete a dicha altura, si permaneciese en el punto más
+   alto describiendo una trayectoria circular? (0.5 puntos)
+
+SOLUCIÓN:
+
+a) A partir del principio de conservación de la energía mecánica:
+
+                     𝑓    𝑓            1               𝑚𝑀𝐼𝑜         𝑚𝑀𝐼𝑜
+    𝑖
+   𝐸𝑀 = 𝐸𝐶𝑖 + 𝐸𝑃𝑖 = 𝐸𝑀 = 𝐸𝑃 𝑣ℎ𝑚𝑎𝑥 = 0 ⟹ 𝑚𝑣𝑖2 + −𝐺           = −𝐺             ⟹
+                                       2                𝑅𝐼𝑜      9
+                                                                 7 𝑅𝐼𝑜 + 𝑅𝐼𝑜
+                                   1     9    𝑚𝑀  𝐼𝑜
+                               ⟹ 𝑚𝑣𝑖2 =     𝐺        ;
+                                   2     16    𝑅𝐼𝑜
+
+              3       𝑀𝐼𝑜   3     6.67 ∙ 10−11 𝑁 ∙ 𝑚2 ∙ 𝑘𝑔−2 × 8.94 ∙ 1022 𝑘𝑔                    𝑚
+       𝑣𝑖 =       𝐺       =                                                       = 1.92 × 103
+              2       2𝑅𝐼𝑜 2                   2 × 1.82 10 𝑚6
+                                                                                                 𝑠
+
+b) el valor de la gravedad sobre la superficie de Io:
+
+                  𝐺𝑀𝐼𝑜 6.67 ∙ 10−11 𝑁 ∙ 𝑚2 ∙ 𝑘𝑔−2 × 8.94 ∙ 1022 𝑘𝑔
+          𝑔𝐼𝑜 =     2 =                                            = 1.8 𝑚/𝑠 2
+                   𝑅𝐼𝑜                1.82 ∙ 106 𝑚 2
+y el valor de la gravedad en el punto de máxima altura alcanzada:
+
+              𝐺𝑀𝐼𝑜              7 2 𝐺𝑀𝐼𝑜   7 2       6.67 ∙ 10−11 𝑁 ∙ 𝑚2 ∙ 𝑘𝑔−2 × 8.94 ∙ 1022 𝑘𝑔
+𝑔𝑀𝑎𝑥 =                  2 =           2  =     𝑔𝐼𝑜 =                                2            = 0.34 𝑚/𝑠 2
+          9                     16   𝑅𝐼𝑜   16                    16             6
+          7 𝑅𝐼𝑜 + 𝑅𝐼𝑜
+                                                                               × 1.82 ∙ 10 𝑚
+                                                                           7
+
+c) el período de rotación orbital en el punto de máxima altura alcanzada, h = 9/7 RIo:
+
+Se necesita determinar la velocidad orbital del cohete, en función de la distancia al centro de Io:
+
+
+                   2
+                  𝑣𝑜𝑟𝑏   𝑚𝑀Io                       𝐺𝑀𝐼𝑜         6.67 ∙ 10−11 𝑁 ∙ 𝑚2 ∙ 𝑘𝑔−2 × 8.94 ∙ 1022 𝑘𝑔
+ 𝐹C = 𝐹G ⟹ 𝑚           =𝐺 2   ⟹ 𝑣𝑜𝑟𝑏 =                   =                    16
+                                                                                                             =
+                  ℎ𝑀𝑎𝑥   ℎ𝑀𝑎𝑥                       ℎ𝑀𝑎𝑥                          × 1.82 ∙ 106 𝑚
+                                                                               7
+                                 𝑚            𝑚
+                  = 1.2 ∙ 103      ; (1197.25 𝑠 )
+                                 𝑠
+
+y el período de rotación orbital a dicha distancia será entonces:
+
+
+
+
+                                                                                                                      1
+                                                                Prueba de evaluación de Bachillerato
+                                                                   para el acceso a la Universidad
+                                                                               (EBAU)
+                                                                          CURSO 2021-22
+
+
+
+
+                                                    3
+       2𝜋 16 𝑅
+           7 𝐼𝑜
+                          2𝜋 16 𝑅
+                              7 𝐼𝑜
+                                              16
+                                                 𝑅
+                                               7 𝐼𝑜
+𝑣𝑜𝑟𝑏 =            ⟹ 𝑇=                = 2𝜋              =
+           𝑇                                 𝐺 ∙ 𝑀𝐼𝑜
+                            𝐺 ∙ 𝑀𝐼𝑜
+                             16
+                              7 𝑅𝐼𝑜
+
+                                163 × 1.82 ∙ 106 3 𝑚3
+              = 2𝜋                                                      = 21831.7 𝑠 = 2.18 × 104 𝑠
+                     73 × 6.67 ∙ 10−11 𝑁 ∙ 𝑚2 ∙ 𝑘𝑔−2 × 8.94 ∙ 1022 𝑘𝑔
+
+
+
+
+                                                                                                       2
+                                                                          Prueba de evaluación de Bachillerato
+                                                                             para el acceso a la Universidad
+                                                                                         (EBAU)
+                                                                                    CURSO 2021-22
+
+
+
+
+1B.      Dos objetos tienen masas respectivas m1 = 0.5 kg y m2 = 9 m1. El primer objeto se sitúa en el
+origen de coordenadas, mientras que el segundo se sitúa a una distancia de 2 metros según el eje X
+positivo.
+    a) Determina el punto sobre el eje X en el que se anula el campo de atracción gravitatoria entre ambos
+    objetos. (1 punto)
+    b) Calcula el valor del potencial gravitatorio debido a ambos objetos en dicho punto. (1 punto)
+
+SOLUCIÓN:
+
+a) Como se desprende del análisis mostrado en el esquema adjunto, el campo gravitatorio resultante de
+ambas masas únicamente puede anularse en la región situada entre ambas masas, a lo largo de la línea
+que las une, pues solo en esa zona los campos gravitatorios creados por una y otra masa son opuestos:
+
+                     g2                          g1       g2                            g1
+
+                     g1                                                                  g2
+                                                  x0
+                                                                                             X
+                                m1                                         m2
+                                 x1= 0                                     x2= 2 m
+
+En el punto del eje X situado entre los dos objetos en el que se anule el campo gravitatorio producido por
+ambas masas, se debe cumplir:
+
+                          𝐺 ∙ 𝑚1   𝐺 ∙ 𝑚2     𝐺 ∙ 𝑚1 𝐺 ∙ 9 ∙ 𝑚1           2
+   𝑔𝑚1 + 𝑔𝑚2 = 0 = −          2 𝑖+     2 𝑖 ⟹ − 𝑥2 + 2 − 𝑥 2 = 0 ⟹ − 2 − 𝑥   + 9𝑥 2 = 0
+                            𝑟1       𝑟2
+
+y resolviendo la ecuación de segundo grado:
+                                                                                         −1 ± 1 + 8
+           2 − 𝑥 2 − 9𝑥 2 = 0 ⟹ 4 − 4𝑥 − 8𝑥 2 = 0 ⟹ 2𝑥 2 + 𝑥 − 1 = 0 ⟹ 𝑥 =
+                                                                                             4
+donde sólo es aceptable la solución para x > 0, luego:
+
+                                             −1 + 1 + 8 2
+                                      𝑥0 =             = = 0.5 𝑚
+                                                 4      4
+b) Aplicando el principio de superposición, el potencial gravitatorio en dicho punto es:
+
+                       𝐺 ∙ 𝑚1 𝐺 ∙ 𝑚2    𝐺 ∙ 𝑚1 𝐺 ∙ 9 ∙ 𝑚1           1      9
+               𝑉=−           −       =−       −           = −𝐺 ∙ 𝑚1    +
+                         𝑟1     𝑟2        𝑥0    2 − 𝑥0              𝑥0   2 − 𝑥0
+
+Y sustituyendo los datos en las variables, el potencial gravitatorio resultante será:
+
+                                                          1       9                                  𝐽
+        𝑉 = −6.67 ∙ 10−11 𝑁 ∙ 𝑚2 ∙ 𝑘𝑔−2 × 0.5 𝑘𝑔 ×           +              𝑚−1 = −2.67 ∙ 10−10
+                                                         0.5   2 − 0.5                              𝑘𝑔
+
+
+
+
+                                                                                                                 3
+                                                                                          Prueba de evaluación de Bachillerato
+                                                                                             para el acceso a la Universidad
+                                                                                                         (EBAU)
+                                                                                                    CURSO 2021-22
+
+
+
+
+2A.      Tres cargas eléctricas puntuales se encuentran situadas en los vértices de un cuadrado de lado l =
+2 m, 2 de ellas con carga positiva q colocadas en los puntos (2, 0) y (0, 2), respectivamente, mientras que
+la tercera carga negativa tiene un valor -2q y se encuentra situada en el origen (0, 0), siendo q = 110-6 C.
+    a) Determina el campo eléctrico resultante y el potencial eléctrico en el vértice opuesto al de la carga
+    negativa, situado en el punto (2, 2). (1.5 puntos)
+    b) Calcula el trabajo que debe realizarse para trasladar una carga negativa -q desde el vértice del
+    cuadrado en el punto (2, 2), hasta el centro, en el punto de coordenadas (1, 1). (0.5 puntos)
+
+SOLUCIÓN:
+
+a) El campo eléctrico en el punto P de coordenadas (2, 2), debido al sistema de las tres cargas puntuales
+será, según se muestra en el siguiente esquema:
+                 Y(m)                              E2                 El campo eléctrico resultante en el punto P:
+                                                        ET
+         +q (0, 2)
+                                        P (2, 2)        E3                                𝐸𝑇𝑃 = 𝐸1𝑃 + 𝐸2𝑃 + 𝐸3𝑃
+                                       E1                              Siendo:
+                                                                                 2𝑞                     𝑁
+                                                                        𝐸1𝑃 = −𝐾  2 cos 45 𝑖 + 𝑠𝑒𝑛 45 𝑗 𝐶 ;
+                                   C (1, 1)                                      𝑑1
+                                                                                𝑞   𝑁
+                                                                        𝐸2𝑃 = 𝐾 2 𝑗 𝐶 ;
+                                                                               𝑑2
+                         45º                              X(m)
+                                                                          𝑃
+                                                                                𝑞 𝑁      𝑞 𝑁
+         -2q (0, 0)                                                     𝐸3 = 𝐾 2 𝑖 𝐶 = 𝐾 2 𝑖 𝐶
+                                              +q (2, 0)                        𝑑3       𝑑2
+
+        Luego el vector campo eléctrico en P será:
+
+                      1    2                            1    2
+    𝐸𝑇𝑃 = 𝐾𝑞           2 − 2 𝑐𝑜𝑠 45            𝑖+        2 − 2 𝑠𝑒𝑛 45        𝑗 =
+                      𝑑3 𝑑1                             𝑑2 𝑑1
+                                                                        1     2    1     1   2    1
+                         = 9 ∙ 109 𝑁 ∙ 𝑚2 ∙ 𝐶 −2 × 10−6 𝐶                2
+                                                                           −     2    𝑖+ 2−     2    𝑗 𝑚−2 =
+                                                                        2    2 2    2    2  2 2    2
+                             9∙      2−1                          𝑁                   𝑁
+                         =                         𝑖 + 𝑗 ∙ 103 𝐶 = 6.6 ∙ 102 𝑖 + 𝑗 𝐶
+                                   4 2
+Y el módulo del campo eléctrico en P:
+
+                                                             9∙   2−1       𝑁              𝑁
+                                               𝐸𝑇𝑃 =                  ∙ 103 𝐶 = 9.32 ∙ 102 𝐶
+                                                                  4
+El potencial electrostático en el punto P, debido al sistema de las tres cargas puntuales:
+
+                                        𝑞1     𝑞2     𝑞3                                  −2 1 1
+     𝑉𝑃 = 𝑉1𝑃 + 𝑉2𝑃 + 𝑉3𝑃 = 𝐾              +𝐾 +𝐾         = 9 ∙ 109 𝑁 ∙ 𝑚2 ∙ 𝐶 −2 × 10−6 𝐶     + + 𝑚−1 =
+                                        𝑑1     𝑑2     𝑑3                                  2 2 2 2
+                               9     2−1         𝐽              𝐽
+                          =                ∙ 103 𝐶 = 2.64 ∙ 103 𝐶 = 2.64 ∙ 103 𝑉; (ó 𝑡𝑎𝑚𝑏𝑖é𝑛: 2636.04 𝑉)
+                                      2
+
+b) Para calcular el trabajo solicitado, antes se necesita conocer el potencial electrostático debido al
+sistema de cargas puntuales en el centro de la distribución, en el punto C de coordenadas (1, 1):
+
+
+
+
+                                                                                                                                 4
+                                                                          Prueba de evaluación de Bachillerato
+                                                                             para el acceso a la Universidad
+                                                                                         (EBAU)
+                                                                                    CURSO 2021-22
+
+
+
+
+                                         𝑞1       𝑞2       𝑞3      −2𝑞 𝑞       𝑞
+              𝑉𝐶 = 𝑉1𝐶 + 𝑉2𝐶 + 𝑉3𝐶 = 𝐾       +𝐾        +𝐾      =𝐾        + +      =
+                                        𝑑1𝐶       𝑑2𝐶     𝑑3𝐶       𝑑𝑐     𝑑𝑐 𝑑𝑐
+                                                                −2 1        1
+                               = 9 ∙ 109 𝑁 ∙ 𝑚2 ∙ 𝐶 −2 × 10−6 𝐶    +     +     𝑚−1 = 0 𝑉
+                                                                 2     2     2
+
+Por lo tanto, la diferencia de energía potencial electrostática entre los puntos P y C para la carga -q:
+
+       ∆𝐸𝑃 𝐶𝑃 = 𝐸𝑃 𝐶 − 𝐸𝑃 𝑃 = −𝑞 ∙ 𝑉𝐶 − −𝑞 ∙ 𝑉𝑃 = −10−6 𝐶 ∙ 0 𝑉 − 2.64 ∙ 103 𝑉 = 2.64 ∙ 10−3 𝐽
+
+Y el trabajo realizado para trasladar la carga negativa -q, desde P hasta C será:
+
+𝑊𝑃→𝐶 = −∆𝐸𝑃 𝐶𝑃 = 𝐸𝑃 𝑃 − 𝐸𝑃 𝐶 = −𝑞 ∙ 𝑉𝑃 − 𝑉𝐶 = −1 ∙ 10−6 𝐶 × 2.64 ∙ 103 𝑉 − 0 𝑉 = −2.64 ∙ 10−3 𝐽
+
+El trabajo para trasladar la carga -q desde el punto P hasta C tiene signo negativo, luego es un trabajo
+realizado por fuerzas externas en contra del campo eléctrico del sistema de cargas.
+
+
+
+
+                                                                                                                 5
+                                                                         Prueba de evaluación de Bachillerato
+                                                                            para el acceso a la Universidad
+                                                                                        (EBAU)
+                                                                                   CURSO 2021-22
+
+
+
+
+2B      Una partícula alfa ( = 4He2+) en estado de reposo inicial, se acelera horizontalmente de izquierda
+a derecha en el sentido del eje X positivo, mediante una diferencia de potencial V = 100 V aplicada entre
+dos placas conductoras planoparalelas. Seguidamente la partícula alfa penetra en una región donde hay
+un campo magnético de intensidad B = 100 mT perpendicular a la velocidad de la partícula y dirigido
+según el eje Z negativo, con sentido entrante hacia dentro del plano XY.
+   a) Calcula la velocidad que lleva la partícula alfa al pasar por la segunda placa, y la máxima altura
+   vertical que alcanzará según el eje Y, tras recorrer una trayectoria semicircular bajo la acción del
+   campo magnético. (1 punto)
+   b) ¿Qué radio de curvatura tendría la trayectoria que describiría un electrón en las mismas condiciones
+   del experimento, tras cambiar la polaridad de las placas planoparalelas? (1 punto)
+
+SOLUCIÓN:
+a) La partícula alfa ( = 4He2+), que está compuesta por dos protones y dos neutrones, con igual masa,
+describirá la trayectoria correspondiente a la curva indicada en a), según se representa en el siguiente
+0
+esquema:
+                                                                                              Y(m)
+La velocidad con que penetra la partícula  en la región del campo magnético B,
+viene dada por la energía cinética adquirida mediante el potencial de aceleración
+aplicado V:                                                                                          a)
+0                                                                                      HMax
+                                     2     𝑓
+                                           𝛼   1                  2 × 𝑞𝛼 ∙ ∆𝑉
+𝐸𝑀 = 𝑐𝑡𝑒 ⟹ ∆𝐸𝑐 = 𝑞∆𝑉 ⟹ 𝑞∆𝑉 = 𝐸𝑐 = 2𝑚𝑣0𝑓 ⟹ 𝑣0𝑓 =                                                  B
+                                                                      𝑚𝛼               + -
+
+Luego:                                                                                            v0f X(m)
+           2 × 2 ∙ 1.6 ∙ 10−19 𝐶 × 100 𝑉         1.6 ∙ 10−17 𝐽                         + -        B
+ 𝛼
+𝑣0𝑓 =                                    =                     = 9.6 ∙ 104 𝑚/𝑠         V
+               4 × 1.67 ∙ 10−27 𝑘𝑔             1.67 ∙ 10−27 𝑘𝑔                                        b)
+
+La fuerza magnética que experimenta la partícula  al penetrar con dicha
+velocidad en la región del campo magnético B es:
+
+           𝐹𝑚 = 𝑞𝛼 𝑣𝛼 ∧ 𝐵 = 𝑞𝛼 𝑣𝛼 𝑖 ∧ −𝐵𝑘 = −𝑞𝛼 𝑣𝛼 𝐵 𝑖 ∧ 𝑘 = 𝑞𝛼 𝑣𝛼 𝐵 ∙ 𝑗 =
+                                                         𝑚
+                         = 2 ∙ 1.6 ∙ 10−19 𝐶 × 9.6 ∙ 104 𝑠 × 100 ∙ 10−3 𝑇 ∙ 𝑗 = 3.06 ∙ 10−15 𝑗 𝑁
+La fuerza ejercida por el campo magnético desvía la trayectoria de la partícula  hacia el eje vertical
+positivo, haciéndola describir una trayectoria circular, cuyo radio será:
+
+                   𝑣𝛼2                 𝑚𝛼 ∙ 𝑣𝛼 4 ∙ 1.67 ∙ 10−27 𝑘𝑔 × 9.6 ∙ 104 𝑚 ∙ 𝑠 −1
+    𝐹C = 𝐹m ⟹ 𝑚𝛼       = 𝑞𝛼 𝑣𝛼 𝐵 ⟹ 𝑅 =        =                                         = 2.0 ∙ 10−2 𝑚
+                   𝑅                   𝑞𝛼 ∙ 𝐵      2 ∙ 1.6 ∙ 10−19 𝐶 × 100 ∙ 10−3 𝑇
+
+Y por lo tanto, cuando la partícula  alcanza el punto más alto de la trayectoria según el eje vertical, dicha
+distancia será:
+                         𝐻𝑚𝑎𝑥 = 2𝑅 ⟹ 𝐻𝑚𝑎𝑥 = 2 × 2.0 ∙ 10−2 𝑚 = 4.0 ∙ 10−2 𝑚
+      0
+b) Tras intercambiar la polaridad de las placas planoparalelas, para el caso en que la partícula que se
+deba acelerar sea el electrón, la velocidad de éste al penetrar en la región del campo magnético será
+ahora:
+
+           𝑒      2 × 𝑞𝑒 ∙ ∆𝑉     2 × 1.6 ∙ 10−19 𝐶 × 100 𝑉         3.2 ∙ 10−17 𝐽
+          𝑣0𝑓 =               =                             =                     = 5.93 ∙ 106 𝑚/𝑠
+                      𝑚𝑒               9.11 ∙ 10−31 𝑘𝑔            9.11 ∙ 10−31 𝑘𝑔
+
+Y la fuerza magnética sobre el electrón:
+
+
+                                                                                                                6
+                                                                       Prueba de evaluación de Bachillerato
+                                                                          para el acceso a la Universidad
+                                                                                      (EBAU)
+                                                                                 CURSO 2021-22
+
+
+
+
+        𝐹𝑚 = −𝑞𝑒 𝑣𝑒 ∧ 𝐵 = −𝑞𝑒 𝑣𝑒 𝑖 ∧ −𝐵𝑘 = −𝑞𝑒 𝑣𝑒 𝐵 𝑗 =
+                                                    𝑚
+                      = −1.6 ∙ 10−19 𝐶 × 5.93 ∙ 106 𝑠 × 100 ∙ 10−3 𝑇 = −9.5 ∙ 10−16 𝑗 𝑁
+La fuerza ejercida por el campo magnético sobre el electrón desvía la trayectoria de la partícula hacia el
+eje vertical negativo, haciéndole describir una trayectoria circular, cuyo radio será en este caso:
+
+             𝑣𝑒2                  𝑚𝑒 ∙ 𝑣𝑒 9.11 ∙ 10−31 𝑘𝑔 × 5.93 ∙ 106 𝑚 ∙ 𝑠 −1
+        𝑚𝑒       = 𝑞𝑒 𝑣𝑒 𝐵 ⟹ 𝑅𝑒 =        =                                      = 3.38 ∙ 10−4 𝑚
+             𝑅𝑒                   𝑞𝑒 ∙ 𝐵      1.6 ∙ 10−19 𝐶 × 100 ∙ 10−3 𝑇
+
+Y por lo tanto, cuando el electrón alcanza el punto más bajo de su trayectoria según el eje vertical, dicha
+distancia será:
+                       𝐻𝑚𝑖𝑛 = 2𝑅 ⟹ 𝐻𝑚𝑖𝑛 = 2 × 3.38 ∙ 10−4 𝑚 = 6.76 ∙ 10−4 𝑚
+
+
+
+
+                                                                                                              7
+                                                                          Prueba de evaluación de Bachillerato
+                                                                             para el acceso a la Universidad
+                                                                                         (EBAU)
+                                                                                    CURSO 2021-22
+
+
+
+
+3A.     Un excursionista escucha el aullido de un lobo que se encuentra a una distancia de 100 m con una
+sonoridad de 50 dB.
+   a) Si el excursionista se aleja del lobo a una distancia de 200 m, ¿cuál será ahora el nivel de intensidad
+   sonora con el que percibe el aullido de ese lobo? (1 punto)
+   b) Suponiendo que los 4 lobos de una manada aúllan todos a la vez, y que cada uno lo hace con la
+   misma potencia, ¿a qué distancia del excursionista se encontrará la manada de lobos si la sonoridad
+   que percibe éste es de 60 dB? (1 punto)
+
+SOLUCIÓN:
+
+La sonoridad con la que el excursionista percibe el aullido del lobo a una distancia rA = 100 m será:
+                                            𝐼1𝐴          𝑃1
+                𝑆1 = 50 𝑑𝐵 = 10 · log10         ⟹ 𝐼1𝐴 =       = 105 𝐼0 ⟹ 𝑃1 = 4𝜋 ∙ 109 ∙ 𝐼0
+                                            𝐼0          4𝜋𝑟𝐴2
+
+Cuando el excursionista se aleja a una distancia rB = 200 m, en este caso se tendrá que la sonoridad es:
+
+                                         𝐼1𝐵                 𝑃1     4𝜋 ∙ 109 ∙ 𝐼0 105
+                      𝑆1′ = 10 · log10       ; donde: 𝐼1𝐵 =       =              =    𝐼
+                                         𝐼0                 4𝜋𝑟𝐵2    4𝜋 ∙ 2002     4 0
+
+Y por tanto, la sonoridad con la que el excursionista percibe el aullido del lobo a la distancia de 200 m:
+
+                             105 ∙ 𝐼0
+          𝑆1′ = 10 · log10            = (50 − 20 · log10 2 ) 𝑑𝐵 = (50 − 6.02) 𝑑𝐵 = 43.98 𝑑𝐵
+                              4 ∙ 𝐼0
+
+
+b) La sonoridad del aullido de la manada de 4 lobos que percibe el excursionista, a una distancia rC, es:
+
+                                          𝐼4𝐶              4 ∙ 𝐼1𝐶   4 ∙ 𝐼1𝐶           4 ∙ 𝑃1
+            𝑆4 = 60 𝑑𝐵 = 10 · log10           = 10 · log10         ⟹         = 106 =
+                                          𝐼0                 𝐼0        𝐼0            4𝜋 ∙ 𝑟𝐶2 ∙ 𝐼0
+
+Sustituyendo:                      , se tiene que:
+
+                      4 ∙ 𝑃1          6
+                                          4 ∙ 4𝜋 ∙ 109 ∙ 𝐼0     2
+                                                                    4 ∙ 109
+                                  = 10  =                   ⟹ 𝑟𝐶  =         = 22 ∙ 103 𝑚2
+                    4𝜋 ∙ 𝑟𝐶2 ∙ 𝐼0           4𝜋 ∙ 𝑟𝐶2 ∙ 𝐼0            106
+
+Y la distancia rC del excursionista a la manada de lobos será:
+
+                                          𝑟𝑐 = 20 ∙ 10 𝑚 = 63.24 𝑚
+
+Como comparativa, si la manada de lobos se encontrase a 100 m de distancia del excursionista, la
+sonoridad que éste percibiría del aullido de la manada de 4 lobos a esa distancia seria:
+
+                          𝐼4𝐴              4 ∙ 𝐼1𝐴              4 ∙ 105 ∙ 𝐼0
+      𝑆4𝐴 = 10 · log10        = 10 · log10         = 10 · log10              = 10 · log10 4 ∙ 105 =
+                          𝐼0                 𝐼0                      𝐼0
+                         = 10 · 2 ∙ log10 2 + 5 = 56.02 𝑑𝐵
+
+
+
+
+                                                                                                                 8
+                                                                       Prueba de evaluación de Bachillerato
+                                                                          para el acceso a la Universidad
+                                                                                      (EBAU)
+                                                                                 CURSO 2021-22
+
+
+
+
+3B.      Una onda transversal se propaga de derecha a izquierda por una cuerda muy larga con una
+velocidad de propagación de 30 m/s, siendo su longitud de onda  = 1.5 m y la amplitud de vibración de
+0.2 m. Tomando el origen de coordenadas en el extremo de la derecha y en el instante t = 0, el extremo
+derecho de la cuerda se encuentra en la posición de desplazamiento nulo y sentido positivo de velocidad
+de oscilación. Determina:
+   a) el número de ondas y la frecuencia angular. (0.5 puntos)
+   b) la ecuación que describe el movimiento ondulatorio de la cuerda. (0.5 puntos)
+   c) la velocidad y aceleración máximas de vibración alcanzadas por un punto de la onda. (1 punto)
+
+SOLUCIÓN:
+
+a) Los valores del número de ondas y la frecuencia angular, se obtienen a partir de los siguientes datos:
+                                                               2𝜋 2𝜋 4𝜋 −1
+                𝐴 = 0.2 m; 𝑣 = 30 m · s −1 ; 𝜆 = 1.5 m ⟹ 𝑘 =      =3 =   m = 1.33 𝜋 m−1
+                                                                𝜆   2  3
+                                𝑣    𝑣 30 m ∙ 𝑠 −1
+     𝜔 = 2𝜋 ∙ 𝑓; 𝜆 = 𝑣 · 𝑇 =      ⟹𝑓= =            = 20 𝑠 −1 ⟹ 𝜔 = 2𝜋 ∙ 20 𝑠 −1 = 40𝜋 𝑟𝑎𝑑 ∙ 𝑠 −1
+                                𝑓    𝜆   1.5 m
+
+b) La ecuación del movimiento ondulatorio, suponiendo válidas ambas soluciones en función del seno y
+del coseno, será respectivamente, para el caso en que la onda se propaga de derecha a izquierda:
+
+                𝑦 𝑥, 𝑡 = 𝐴 sen 𝜔𝑡 ± 𝑘𝑥 + 𝜑0                    𝑦 𝑥, 𝑡 = 𝐴 cos 𝜔𝑡 ± 𝑘𝑥 + 𝜑0
+
+                                    4𝜋                                                 4𝜋
+          𝑦 𝑥, 𝑡 = 0.2 sen 40𝜋𝑡 +      𝑥 + 𝜑0               𝑦 𝑥, 𝑡 = 0.2 cos 40𝜋𝑡 +       𝑥 + 𝜑0
+                                     3                                                  3
+                                                                                                     3𝜋
+          𝑦 0,0 = 0 = 0.2 sen 𝜑0 ⟹ 𝜑0 = 0                      𝑦 0,0 = 0 = 0.2 cos 𝜑0 ⟹ 𝜑0 =
+                                                                                                      2
+La ecuación de movimiento resultante, en cada caso, es:
+                                  4𝜋                                                   4𝜋    3𝜋
+      𝑦 𝑥, 𝑡 = 0.2 sen 40𝜋𝑡 +        𝑥 m                   𝑦 𝑥, 𝑡 = 0.2 cos 40𝜋𝑡 +        𝑥+    m
+                                   3                                                    3     2
+
+c) Para calcular la máxima velocidad y aceleración de vibración de la onda, obtendremos en primer lugar
+la velocidad:
+            𝑑𝑦 𝑥, 𝑡                          4𝜋 m                                       4𝜋    3𝜋 m
+𝑣𝑦 𝑥, 𝑡 =           = 0.2 ∙ 40𝜋 ∙ cos 40𝜋𝑡 +    𝑥 s ; 𝑣𝑦 𝑥, 𝑡 = −0.2 ∙ 40𝜋 ∙ sen 40𝜋𝑡 +    𝑥+
+              𝑑𝑡                              3                                          3     2 s
+Que alcanzará su valor máximo cuando se cumpla que:
+                                       4𝜋
+𝑣𝑦 𝑥, 𝑡 𝑀𝑎𝑥 = 40𝜋 ∙ 0.2 ∙ cos 40𝜋𝑡 +      𝑥 𝑚 ∙ 𝑠 −1 = 8𝜋 𝑚 ∙ 𝑠 −1
+                                        3
+O bien:
+                                          4𝜋    3𝜋
+𝑣𝑦 𝑥, 𝑡 𝑀𝑎𝑥 = −40𝜋 ∙ 0.2 ∙ sen 40𝜋𝑡 +        𝑥+    𝑚 ∙ 𝑠 −1 = 8𝜋 𝑚 ∙ 𝑠 −1
+                                           3     2
+Que en ambos casos se satisface en los puntos de elongación nula.
+Y la aceleración:
+            𝑑𝑣𝑦 𝑥, 𝑡                             4𝜋 m                                         4𝜋    3𝜋 m
+𝑎𝑦 𝑥, 𝑡 =            = −0.2 ∙ 40𝜋 2 ∙ sen 40𝜋𝑡 +    𝑥 2 ; 𝑎𝑦 𝑥, 𝑡 = −0.2 ∙ 40𝜋 2 ∙ cos 40𝜋𝑡 +    𝑥+
+               𝑑𝑡                                 3   s                                        3     2 s2
+
+
+                                                                                                              9
+                                                                      Prueba de evaluación de Bachillerato
+                                                                         para el acceso a la Universidad
+                                                                                     (EBAU)
+                                                                                CURSO 2021-22
+
+
+
+
+En ambos casos se obtiene que:
+                              𝑎𝑦 𝑥, 𝑡 = − 40𝜋 2 ∙ 𝑦 𝑥, 𝑡 = −𝜔2 ∙ 𝑦 𝑥, 𝑡
+Y, por lo tanto, la aceleración de vibración será máxima en los puntos de máxima elongación:
+   𝑎𝑦 𝑥, 𝑡 𝑀𝑎𝑥 = − 40𝜋 2 ∙ 𝑦 𝑥, 𝑡 𝑀𝑎𝑥 = 40𝜋 2 ∙ 0.2 𝑚 ∙ 𝑠 −2 = 320𝜋 2 𝑚 ∙ 𝑠 −2
+
+
+
+
+                                                                                                         10
+                                                                         Prueba de evaluación de Bachillerato
+                                                                            para el acceso a la Universidad
+                                                                                        (EBAU)
+                                                                                   CURSO 2021-22
+
+
+
+
+4A.     Calcula la distancia a la que debe colocarse un objeto delante de una lente convergente cuya
+distancia focal es de 0.50 m, para que se forme una imagen virtual, derecha y tres veces mayor que un
+objeto de 1 cm de altura. (1 punto)
+Realiza el trazado de rayos correspondiente, identificando los elementos principales de la lente, el objeto y
+la imagen formada, así como las posiciones en las que deben situarse. (1 punto)
+
+SOLUCIÓN:
+
+a) Para una lente convergente la focal imagen es positiva (f´ > 0). A partir de la relación del aumento
+lateral, y dado que la imagen será virtual (s´ < 0), derecha y tendrá el triple de tamaño que el del objeto, se
+puede obtener la relación entre la posición de la imagen (s´) y la del objeto (s):
+                        𝑦′ 𝑠′ ′
+                          = ; 𝑦 = 3𝑦 ⟹ 𝑠 ′ = 3𝑠; 𝑦 = 0.01 𝑚 ⟹ 𝑦 ′ = 0.03 𝑚
+                        𝑦  𝑠
+Y mediante la ecuación fundamental de las lentes delgadas, para esta lente convergente se obtiene en
+este caso:
+      1 1 1    1 1 1         2𝑓 ′    2 × 0.5 𝑚
+        − = ′ ⟹ − = ′ ⟹𝑠 = −      =−           = −0.33 𝑚 ⟹ 𝑠 ′ = 3𝑠 = −0.99 𝑚
+      𝑠′ 𝑠 𝑓   3𝑠 𝑠 𝑓         3          3
+
+El trazado de rayos correspondiente se representa en el siguiente esquema:
+
+
+
+
+         y
+                                                 y
+                                               F              s                             F
+                                                          f                      f
+                                        s
+
+Dado que la lente es convergente y que la imagen formada debe ser virtual y derecha, el objeto está
+situado entre la focal y la lente (s = -0.33 m < f = -0.5 m). Además, la imagen tiene un tamaño tres veces
+mayor que el objeto y por tanto se formará en un punto del eje situado a una distancia tres veces superior
+a la del objeto de la lente (s´= -0.99 m), hacia la izquierda de ésta, según se representa en la figura.
+
+
+
+
+                                                                                                            11
+                                                                       Prueba de evaluación de Bachillerato
+                                                                          para el acceso a la Universidad
+                                                                                      (EBAU)
+                                                                                 CURSO 2021-22
+
+
+
+
+4B.      Un rayo de luz de frecuencia f = 51014 Hz se propaga por un medio que tiene un índice de
+refracción n0 = 1.
+    a) Calcula su longitud de onda en dicho medio. (0.5 puntos)
+    b) ¿Cuáles serán los valores de la frecuencia y longitud de onda del rayo si el nuevo medio por el que
+    se propaga tiene un índice de refracción n1 = 1.36? (1.5 puntos)
+
+SOLUCIÓN:
+
+a) La longitud de onda del rayo, cuando se propaga por el medio de índice de refracción n0 = 1:
+
+                                                      𝑐    3 ∙ 108 m · s −1
+                      𝑛0 = 1 ⟹ 𝑐 = 𝜆0 ∙ 𝑓0 ⟹ 𝜆0 =        =                  = 6 ∙ 10−7 m
+                                                      𝑓0     5 ∙ 1014 Hz
+
+b) Al cambiar de medio, la frecuencia no se modifica, luego:
+
+                                           𝑓1 = 𝑓0 = 5 ∙ 1014 Hz
+La velocidad de propagación del rayo en el segundo medio será:
+
+                    𝑐                               𝑐      𝜆0 6 ∙ 10−7 m
+             𝑣1 =      = 𝜆1 ∙ 𝑓1 = 𝜆1 ∙ 𝑓0 ⟹ 𝜆1 =        =   =           = 4.41 ∙ 10−7 m
+                    𝑛1                            𝑛1 ∙ 𝑓0 𝑛1      1.36
+
+
+
+
+                                                                                                          12
+                                                                                Prueba de evaluación de Bachillerato
+                                                                                   para el acceso a la Universidad
+                                                                                               (EBAU)
+                                                                                          CURSO 2021-22
+
+
+
+
+5A.    El 14C es el isótopo radiactivo del carbono, comúnmente denominado carbono-14, muy empleado
+en métodos de datación absoluta de materia orgánica fósil y cuyo período de semidesintegración es de
+5760 años. Se dispone de una muestra de dicho isótopo con una masa inicial de 10 mg.
+   a) Calcula la vida media del isótopo 14C y la masa que hay al cabo de 500 años. (1 punto)
+   b) ¿Cuánto se reduce la actividad de dicha muestra tras transcurrir un tiempo igual a 2/3 de la vida
+   media del isótopo? (1 punto)
+
+SOLUCIÓN:
+a) La vida media del 14C, a partir de la relación con la constante de desintegración y el período de
+semidesintegración, es:
+                                         1     Ln 2     𝑇1 2
+                                           =𝜆=      ⟹𝜏=
+                                         𝜏     𝑇1 2     Ln 2
+
+Como T1/2 = 5760 años, en segundos:
+
+                          365 𝑑𝑖𝑎𝑠 24 ℎ 60 𝑚𝑖𝑛    60 𝑠
+    𝑇1 2 = 5760 𝑎ñ𝑜𝑠 ×            ×       ×    ×       = 181.647.360.000 𝑠 ≅ 1.82 ∙ 1011 s
+                           1 𝑎ñ𝑜    1 𝑑í𝑎   1ℎ   1 𝑚𝑖𝑛
+Y la vida media:
+
+                      𝑇1 2 5760 𝑎ñ𝑜𝑠               1.82 ∙ 1011 𝑠
+                   𝜏=      =         ≈ 8310 𝑎ñ𝑜𝑠 ≅               = 2.62 ∙ 1011 𝑠
+                      Ln 2   Ln 2                     Ln 2
+La cantidad de masa de 14C es proporcional al número de núcleos del isótopo radiactivo transcurrido dicho
+tiempo:
+                                                                𝑡
+            𝑁 = 𝑁0 ∙ 𝑒 −𝜆𝑡 ⟹ 𝑚 = 𝑚0 ∙ 𝑒 −𝜆𝑡 = 𝑚0 ∙ 𝑒 − 𝜏                                      10
+                                                                    ; 𝑡 = 500 𝑎ñ𝑜𝑠 ≅ 1.58 ∙ 10 𝑠
+
+                                     𝑡                    500 𝑎 ñ𝑜𝑠 × 𝐿𝑛 2
+         𝑚 = 𝑚0 ∙ 𝑒 −𝜆𝑡 = 𝑚0 ∙ 𝑒 − 𝜏 = 10 𝑚𝑔 × 𝑒 −          5760 𝑎 ñ𝑜𝑠       = 10 × 0.942 𝑚𝑔 = 9.42 𝑚𝑔
+                          = 9.42 × 10−6 𝑘𝑔
+
+b) La actividad de la muestra de 14C transcurrido un tiempo igual a 2/3 :
+                                                      𝑡
+                          𝑁 𝑡 = 𝑁0 ∙ 𝑒 −𝜆𝑡 = 𝑁0 ∙ 𝑒 −𝜏 ; 𝐴 = 𝜆 ∙ 𝑁 = 𝜆 ∙ 𝑁0 ∙ 𝑒 −𝜆𝑡
+
+
+             𝐴   𝜆∙𝑁     𝑁0 ∙ 𝑒 −𝜆𝑡           𝐴               𝑡
+                                                                 𝐴2 𝜏    2
+               =       =            = 𝑒 −𝜆𝑡 ⟹    = 𝑒 −𝜆𝑡 = 𝑒 −𝜏 ⟹ 3 = 𝑒 −3 ≈ 0.51 ≅ 51%
+             𝐴0 𝜆 ∙ 𝑁0      𝑁0                𝐴0                  𝐴0
+
+                             𝐴0 − 𝐴2𝜏        𝐴0 1 − 0.51
+                                     3
+                         ⟹               =               = 0.49 ≡ 49%
+                                𝐴0                𝐴0
+
+Por lo tanto, la actividad transcurrido un tiempo igual a 2/3 de  es el 51% de la actividad inicial, luego se
+ha reducido un 49%.
+
+
+
+
+                                                                                                                   13
+                                                                          Prueba de evaluación de Bachillerato
+                                                                             para el acceso a la Universidad
+                                                                                         (EBAU)
+                                                                                    CURSO 2021-22
+
+
+
+
+5B.    El trabajo de extracción de la plata es de 4.73 eV.
+   a) Calcula la frecuencia umbral para el efecto fotoeléctrico de este metal. (1 punto)
+   b) Determina el potencial de frenado de los electrones arrancados cuando se irradia una muestra de Ag
+   con una radiación de 200 nm de longitud de onda. (1 punto)
+
+SOLUCIÓN:
+a) La frecuencia umbral de extracción de electrones a partir de la relación con el trabajo de extracción del
+metal:
+                                      𝑊 4.73 𝑒𝑉 × 1.6 ∙ 10−19 𝐶𝑒
+                      𝑊 = ℎ 𝜈0 ⟹ 𝜈0 =   =                        = 1.14 ∙ 1015 𝑠 −1
+                                      ℎ    6.63 ∙ 10−34 𝐽 ∙ 𝑠
+
+
+b) El potencial de frenado se obtiene a partir de la energía cinética comunicada al electrón por la radiación
+incidente, tras ser arrancado del metal. La relación entre las energías del fotón incidente, el trabajo de
+extracción y la energía cinética de los electrones arrancados es:
+
+                                                𝐸 = 𝑊 + 𝐸C
+
+donde la energía del fotón de la radiación incidente será en este caso:
+
+                                𝑐                     3 ∙ 108 𝑚 ∙ 𝑠 −1
+                   𝐸 = ℎ ∙ 𝜈 = ℎ = 6.63 ∙ 10−34 𝐽 ∙ 𝑠                  = 9.94 ∙ 10−15 𝐽
+                                𝜆                     200 × 10−9 𝑚
+
+
+Y la energía cinética de los electrones arrancados:
+
+                        𝑐                           3 ∙ 108 𝑚 ∙ 𝑠 −1
+ 𝐸C = 𝐸 − 𝑊 = ℎ𝜈 − 𝑊 = ℎ − 𝑊 = 6.63 ∙ 10−34 𝐽 ∙ 𝑠 ×                  − 4.73 × 1.6 ∙ 10−19 𝐽 =
+                        𝜆                            200 ∙ 10−9 𝑚
+                                  = 2.38 ∙ 10−19 𝐽
+
+Por lo tanto, el potencial de frenado será:
+
+
+                                                         𝐸C 2.38 ∙ 10−19 𝐽
+                      𝑞𝑒 ∙ 𝑉𝑓𝑟𝑒𝑛𝑎𝑑𝑜 = 𝐸C ⟹ 𝑉𝑓𝑟𝑒𝑛𝑎𝑑𝑜 =       =               = 1.48 𝑉
+                                                         𝑞𝑒   1.6 ∙ 10−19 𝐶
+
+
+
+(No es necesario realizar correcciones relativistas, ya que: 𝑣e − ≅ 𝑐/415 )
+
+
+
+
+                                                                                                             14
+

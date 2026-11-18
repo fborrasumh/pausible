@@ -1,0 +1,657 @@
+                                                                           Prueba de evaluación de Bachillerato
+                                                                              para el acceso a la Universidad
+                                                                                          (EBAU)
+                                                                                     CURSO 2021-22
+
+
+
+
+                                                  FÍSICA
+
+
+1A.    La intensidad del campo gravitatorio de un planeta de radio RT es g0 = 9.80 m s-2.
+   a) Determina a que distancia desde el centro del planeta la intensidad de la gravedad disminuye a la
+   mitad de su valor g0/2 (punto A), y a la tercera parte g0/3 (punto B). (1 punto)
+   b) Calcula la velocidad mínima que ha de llevar un cohete en el punto A para que llegue justo hasta el
+   punto B. (1 punto)
+
+SOLUCIÓN:
+
+a) Empleando la definición de la gravedad en la superficie de un                    RT
+planeta, g0:
+                             𝑚 ∙ 𝑀T         𝑀T                                                   A       B
+            𝐹G = 𝑚 ∙ 𝑎 = 𝐺       2  ⟹ 𝑔0 = 𝐺 2
+                              𝑅𝑇            𝑅𝑇
+La gravedad en el punto A:
+
+        𝑔0   𝑀T     𝑀T
+ 𝑔𝐴 =      ⟹𝐺 2 =𝐺       ⟹ 𝑅𝐴 = 2 ∙ 𝑅𝑇 = 2 × 6.37 ∙ 106 m ≈ 9 ∙ 106 m
+        2    𝑅𝐴    2 𝑅𝑇2
+
+Análogamente en el punto B:
+
+       𝑔0    𝑀T    𝑀T
+𝑔𝐵 =      ⟹ 𝐺 2 = 𝐺 2 ⟹ 𝑅𝐵 = 3 ∙ 𝑅𝑇 = 3 × 6.37 ∙ 106 m ≈ 11.03 ∙ 106 m
+       3     𝑅𝐵    3𝑅𝑇
+
+
+
+b) Aplicando la conservación de la energía mecánica:
+
+                                          1             𝑚 ∙ 𝑀𝑇      𝑚 ∙ 𝑀𝑇
+       𝐸𝑀𝐴 = 𝐸𝐶𝐴 + 𝐸𝑃𝐴 = 𝐸𝑀
+                          𝐵
+                            = 𝐸𝑃𝐵 𝑣𝐵 = 0 ⟹ 𝑚 ∙ 𝑣𝐴2 + −𝐺        = −𝐺        ⟹
+                                          2              𝑅𝐴          𝑅𝐵
+
+                           1   1                           1   1                    1        1
+         ⟹ 𝑣𝐴2 = 2𝐺 ∙ 𝑀𝑇     −   ⟹ 𝑣𝐴 =        2𝑔0 ∙ 𝑅2𝑇     −   =       2𝑔0 ∙ 𝑅𝑇        −
+                           𝑅𝐴 𝑅𝐵                           𝑅𝐴 𝑅𝐵                     2       3
+
+
+                                                           1    1
+             𝑣𝐴 =   2 × 9.80 m ∙ s −2 × 6.37 ∙ 106 m ×        −    = 4.02 ∙ 103 m ∙ s −1
+                                                            2    3
+
+
+
+
+                                                                                                                  1
+                                                                       Prueba de evaluación de Bachillerato
+                                                                          para el acceso a la Universidad
+                                                                                      (EBAU)
+                                                                                 CURSO 2021-22
+
+
+
+
+1B.     La masa de un cuerpo es de 100 kg sobre la superficie de Marte, donde la intensidad del campo
+gravitatorio es de 3.7 m s-2.
+   a) ¿Cuál es el peso de dicho cuerpo sobre la superficie de un planeta de igual masa que la de Marte,
+   pero con la mitad de su radio? (1 punto)
+   b) ¿Cuál sería el nuevo peso del cuerpo si se encuentra sobre la superficie de un tercer planeta de
+   igual radio que Marte, pero con la tercera parte de la masa de éste? (1 punto)
+
+SOLUCIÓN:
+
+a) El peso del cuerpo de masa m en la superficie de Marte:
+
+                                        𝑚 ∙ 𝑀M                       𝑀M
+                               𝐹G = 𝐺       2  = 𝑚 ∙ 𝑔𝑀 = 𝑃M ⟹ 𝑔𝑀 = 𝐺 2
+                                         𝑅𝑀                          𝑅𝑀
+De donde el peso del cuerpo en la superficie de Marte es:
+
+                               𝑃M = 𝑚 ∙ 𝑔𝑀 = 100 kg × 3.7 m ∙ s −2 = 370 N
+
+El peso del cuerpo en la superficie del planeta P1 será:
+
+                            𝑀P1      𝑀M            𝑀M                                    −2
+    𝑃P1 = 𝑚 ∙ 𝑔𝑃1 = 𝑚 ∙ 𝐺    2 = 𝑚∙𝐺 𝑅   2 = 4𝑚 ∙ 𝐺 2 = 4𝑚 ∙ 𝑔𝑀 = 4 × 100 kg × 3.7 m ∙ s    = 1480 N
+                            𝑅𝑃1        𝑀           𝑅𝑀
+                                         2
+
+
+
+b) El peso del cuerpo en la superficie del nuevo planeta P2, será ahora:
+
+
+                                        𝑀M
+                            𝑀P2          3    𝑚    𝑀M 𝑚        100 kg × 3.7 m ∙ s −2
+    𝑃P2 = 𝑚 ∙ 𝑔𝑃2 = 𝑚 ∙ 𝐺    2  = 𝑚 ∙ 𝐺   2 =   ∙ 𝐺 2 = ∙ 𝑔𝑀 =                       = 123.33 N
+                            𝑅𝑃2         𝑅𝑀    3    𝑅𝑀  3                3
+
+
+
+
+                                                                                                              2
+                                                                           Prueba de evaluación de Bachillerato
+                                                                              para el acceso a la Universidad
+                                                                                          (EBAU)
+                                                                                     CURSO 2021-22
+
+
+
+
+2A.      Una carga eléctrica positiva q1 = 6 C se coloca en el origen de coordenadas. Otra carga eléctrica
+positiva q2 = 3 C se acerca desde el infinito hasta una distancia de 9 m de q1 sobre el eje X positivo.
+   a) Calcula el trabajo realizado para llevar la carga eléctrica q2 hasta dicho punto. Especifica si es un
+   trabajo realizado por el campo eléctrico de la carga q1 o contrario al campo. (1 punto)
+   b) Determina el punto del eje X situado entre ambas cargas positivas en el que una carga negativa -q
+   estaría en equilibrio electrostático. (1 punto)
+
+SOLUCIÓN:
+
+a) El trabajo realizado para llevar la carga q2 desde el infinito hasta el punto x2, situado a una distancia de
+9 m de q1, teniendo en cuenta que el potencial en el infinito debido a la carga q1 es nulo, es:
+
+                                    𝑥2
+                      𝑊∞→𝑥 2 = −∆𝐸𝑃 ∞  = 𝐸𝑃 ∞ − 𝐸𝑃 𝑥 2 = 𝑞2 ∙ 𝑉∞ − 𝑉𝑥 2 = −𝑞2 ∙ 𝑉𝑥 2
+Donde el potencial en x2:
+                          𝑞1       9     2   −2
+                                                6 ∙ 10−6 C
+                  𝑉𝑥 2 = 𝐾 = 9 ∙ 10 N ∙ m ∙ C ×            m−1 = 6 ∙ 103 V
+                          𝑥2                         9
+Por lo tanto, el trabajo realizado para trasladar la carga q2 hasta el punto x2:
+
+                     𝑊∞→𝑥 2 = −𝑞2 ∙ 𝑉𝑥 2 = −3 ∙ 10−6 C × 6 ∙ 103 V = −18 ∙ 10−3 J
+
+El trabajo es negativo, luego es contrario al campo de q1, realizado por fuerzas externas al sistema.
+
+
+b) Las fuerzas ejercidas por el sistema de cargas sobre -q, en condiciones de equilibrio electrostático, se
+muestran en el siguiente esquema:
+
+                                                          F1        F2
+
+
+                                                                                         X
+                            q1                                 -q              q2
+                            x1= 0                              x               x2= 9 m
+
+
+                                       𝐹−𝑞 = 𝐹1 + 𝐹2 = 0 en el equilibrio
+Donde:
+                                                  𝑞1∙ 𝑞                    𝑞2∙ 𝑞
+                                 𝐹1 = −𝑞𝐸1 = −𝐾      2
+                                                        𝑖 ; 𝐹2 = −𝑞𝐸2 = 𝐾        𝑖
+                                                   𝑥                      9−𝑥 2
+
+                                 𝐹−𝑞 = 𝐹1 + 𝐹2 = 0 ⟹ 𝐹1 = −𝐹2 ⟹ 𝐸1 = −𝐸2
+Dado que las fuerzas y los campos eléctricos de cada carga se ejercen a lo largo de la recta del eje X,
+para el punto x situado entre las dos cargas q1 y q2 ha de cumplirse, en el equilibrio electrostático:
+
+                                    𝑞1     𝑞2    𝑞2
+                     𝐸1 = 𝐸2 ⟹        2
+                                        =     2
+                                                ⟹ ∙ 𝑥 2 = 9 − 𝑥 2 ⟹ 𝑥 = 5.27 m
+                                    𝑥     9−𝑥    𝑞1
+
+Luego en el equilibrio electrostático, la carga -q se halla situada a una distancia x = 5.27 m a la derecha de
+q1, y 3.73 m a la izquierda de q2.
+
+
+
+
+                                                                                                                  3
+                                                                                Prueba de evaluación de Bachillerato
+                                                                                   para el acceso a la Universidad
+                                                                                               (EBAU)
+                                                                                          CURSO 2021-22
+
+
+
+
+2B.      Dos hilos conductores rectilíneos de longitud indefinida se hallan situados en el plano XY, uno de
+ellos a lo largo del eje OX y el otro de forma paralela a una distancia determinada. La intensidad de
+corriente que recorre el hilo conductor del eje OX tiene un valor de 2 A y circula en el sentido positivo del
+eje. La intensidad de corriente en el segundo conductor es de 3 A.
+    a) Determina el módulo dirección y sentido del campo magnético creado por el primer conductor en el
+    punto de coordenadas (-1, -1). (0.5 puntos)
+    b) Determina el sentido de circulación de la corriente que circula por el segundo conductor y la posición
+    a la que se encuentra respecto del primero, para que el vector campo magnético B resultante sea nulo
+    en el punto de coordenadas (1, 1) expresadas en unidades del S.I. Justifica las dos posibles
+    soluciones. (1.5 puntos)
+
+SOLUCIÓN:
+
+a) El campo magnético del conductor situado sobre el eje OX,           a)
+en el punto P1 de coordenadas (-1, -1) será, según se indica                Y
+en el esquema adjunto:
+                       𝜇0 ∙ 𝐼1        𝜇0 ∙ 𝐼1
+            𝐵1 𝑃1 =            −𝑘 = −         𝑘                                                          I1 = 2 A       X
+                       2𝜋 ∙ 𝑑1        2𝜋 ∙ 𝑑1
+                                                                       O
+Siendo d1 = 1 m la distancia desde el conductor al punto P1                                   d1 = 1 m
+según la perpendicular al eje OX, en la dirección del eje Y                              P1
+negativo.
+Sustituyendo datos:
+                 𝜇0 ∙ 𝐼1     4𝜋 ∙ 10−7 T ∙ m ∙ A−1 × 2A
+   𝐵1 𝑃1 = −             𝑘=−                            𝑘 = −4 ∙ 10−7 𝑘 T
+                 2𝜋 ∙ 𝑑1             2𝜋 × 1 m
+
+b) El campo magnético debido a los dos conductores se anulará en el punto P 2 de coordenadas (1, 1), en
+las dos siguientes posibles situaciones:                b)     1
+                                                                   Y                              I2 = 3 A
+b1) El punto P2 se encuentra situado entre ambos
+conductores y la corriente circula por el segundo
+conductor en el mismo sentido que la del primero.                           d2 = y-1
+                                                                                       P2
+                                                              y
+𝐵𝑇 𝑃2 = 𝐵1 𝑃2 + 𝐵2 𝑃2 = 𝐵1 𝑃2 𝑘 − 𝐵2 𝑃2 𝑘 = 0
+Puesto que el campo magnético debido a cada                                            d1 = 1
+conductor en P2 va dirigido según la misma recta del eje                                          I1 = 2 A
+                                                                                                                    X
+Z, se debe cumplir que:                                        O
+
+                         𝜇0 ∙ 𝐼1   𝜇0 ∙ 𝐼2   𝐼1   𝐼2       𝐼2      3A
+  𝐵1 𝑃2 = 𝐵2 𝑃2 ⟹                =         ⟹    =    ⟹ 𝑑2 = ∙ 𝑑1 =    × 1 m = 1.5 m
+                         2𝜋 ∙ 𝑑1 2𝜋 ∙ 𝑑2     𝑑1 𝑑2         𝐼1      2A
+El segundo conductor se encuentra a una distancia y = (1.5+1) m = 2.5 m respecto del primero, según el
+eje OY positivo.
+b2) Dado que I2 > I1, también puede darse otra situación
+                                                              b2) Y
+en la que se anula el campo magnético de ambos                                      P2
+conductores, cuando el segundo conductor se sitúa al
+otro lado del primero, en el eje Y negativo, y la corriente
+I2 circula antiparalela a I1.
+                                                            O    d2 = 1+y d1 = 1     I1 = 2 A
+                                                                                                    X
+En este caso también se cumplirá la misma solución         y
+que para el caso anterior, pero ahora se tiene que la                                I 2 = 3 A
+distancia d2 =1+y = 1.5 m, de donde y = 0.5 m. Por lo
+tanto, el segundo conductor se encuentra situado a una distancia y = 0.5 m respecto del primero, según el
+eje OY negativo.
+
+
+                                                                                                                        4
+                                                                          Prueba de evaluación de Bachillerato
+                                                                             para el acceso a la Universidad
+                                                                                         (EBAU)
+                                                                                    CURSO 2021-22
+
+
+
+
+3A.       Un sonómetro mide el nivel de intensidad sonora en el centro de una plaza circular en la que se
+celebra un concierto de música, y que por condiciones de pandemia, solo se permite al público ocupar una
+de las filas del aforo, de modo que todos los asistentes están sentados equidistantes al centro de la plaza.
+El cantante del grupo musical saluda al público gritando desde el escenario, que se encuentra a una
+distancia de 4 m del centro de la plaza, y el sonómetro marca un nivel de ruido de 75 dB. Una persona del
+público grita devolviendo el saludo y el instrumento mide una sonoridad de 51.16 dB. A continuación, grita
+todo el público al unísono registrándose un nivel de intensidad sonora de 78.08 dB. Asumiendo que todos
+los asistentes gritan con la misma potencia P = 2.0110-3 W, calcula:
+    a) ¿Cuál es la potencia del grito emitido por el cantante? (1 punto)
+    b) la distancia a la que se encuentra el público del centro de la plaza. (0.5 puntos)
+    c) el número de personas que asisten al concierto. (0.5 puntos)
+
+SOLUCIÓN:
+
+a) Determinamos la potencia del grito emitido por el cantante a partir de la sonoridad medida y su distancia
+al escenario, suponiendo una onda esférica:
+
+                                                    𝐼𝐶                𝑃𝐶
+                                  𝑆𝐶 = 10 · log10      ; donde: 𝐼𝐶 =
+                                                    𝐼0               4𝜋𝑟𝐶2
+Luego:
+                             𝐼𝐶                                   W            W         𝑃𝐶
+      75 𝑑𝐵 = 10 · log10        ⟹ 𝐼𝐶 = 107.5 ∙ 𝐼0 = 107.5 × 10−12 m 2 = 10−4.5 m 2 =            ⟹
+                             𝐼0                                                      4𝜋 ∙ 16 m2
+
+                                 ⟹ 𝑃𝐶 = 64𝜋 ∙ 10−4.5 W = 6.36 ∙ 10−3 W
+
+b) La distancia a la que se encuentra situado el público del centro de la plaza, se puede determinar a partir
+del nivel de intensidad sonora medido para la persona que devuelve el saludo al cantante, gritando con
+una potencia P =2.0110-3 W:
+
+                             𝐼1                                       W              W     2.01 ∙ 10−3 W
+     51.16 𝑑𝐵 = 10 · log10      ⟹ 𝐼1 = 105.116 ∙ 𝐼0 = 105.116 × 10−12 m 2 = 10−6.884 m 2 =               ⟹
+                             𝐼0                                                               4𝜋 ∙ 𝑟 2
+
+
+                                                 2.01 ∙ 10−3
+                                       ⟹𝑟=                    m ≈ 35 m
+                                                4𝜋 ∙ 10−6.884
+
+
+c) El número de personas asistentes al concierto, será entonces:
+
+                                     𝐼𝑛              𝑛 ∙ 𝐼1                 𝑃1       2.01 × 10−3 W
+     𝑆𝑛 = 78.08 𝑑𝐵 = 10 · log10         = 10 · log10        ; donde: 𝐼1 =          =
+                                     𝐼0               𝐼0                  4𝜋 ∙ 𝑟 2    4𝜋 ∙ 352 m2
+
+Luego:
+
+                                          W            W
+             107.808 · 𝐼0 107.808 × 10−12 m 2 10−4.192 m 2
+          𝑛=             =                   = −6.884 W = 102.692 ≈ 492 personas
+                 𝐼1         2.01 × 10−3 W     10       m2
+                             4𝜋 ∙ 352 m2
+
+
+
+
+                                                                                                                 5
+                                                                       Prueba de evaluación de Bachillerato
+                                                                          para el acceso a la Universidad
+                                                                                      (EBAU)
+                                                                                 CURSO 2021-22
+
+
+
+
+3B.      Una onda transversal se propaga por una cuerda tensa en el sentido positivo del eje X, según la
+ecuación: y(x,t) = 0.75 sen(5x – 10t + /4), expresada en unidades del S.I. Determina:
+   a) la longitud de onda, frecuencia, amplitud y velocidad de propagación de la onda. (1 punto)
+   b) la velocidad de vibración y aceleración en el punto de la cuerda x = 5 m, en el instante t = 2 s. (1
+   punto)
+
+SOLUCIÓN:
+
+a) La amplitud de la onda, su longitud de onda, la frecuencia y la velocidad de propagación de la onda son,
+respectivamente:
+                                                                                  𝜋
+                     𝑦 𝑥, 𝑡 = 𝐴 sen 𝑘𝑥 − 𝜔𝑡 + 𝜑0 = 0.75 sen 5𝜋𝑥 − 10𝜋𝑡 + 4 m
+
+                             𝐴 = 0.75 m
+                             𝜔 = 2𝜋 ∙ 𝑓 = 10𝜋 rad ∙ s −1 ⟹ 𝑓 = 5 Hz
+                                 2𝜋
+                             𝑘=      = 5𝜋 m−1 ⟹ 𝜆 = 0.4 m
+                                   𝜆
+                                 𝜆           𝜔
+                             v = 𝑇 = 𝜆 ∙ 𝑓 = 𝑘 = 0.4 m × 5 s −1 = 2 m ∙ s −1
+
+
+b) La velocidad de vibración de la onda se obtiene:
+
+
+             𝑑𝑦 𝑥, 𝑡                                  𝜋 m                            𝜋
+ 𝑣𝑦 𝑥, 𝑡 =           = −0.75 ∙ 10𝜋 ∙ cos 5𝜋𝑥 − 10𝜋𝑡 +     = −7.5𝜋 ∙ cos 5𝜋𝑥 − 10𝜋𝑡 +   m ∙ s −1
+               𝑑𝑡                                     4 s                            4
+
+
+
+Y la aceleración:
+
+                    𝑑𝑣𝑦 𝑥, 𝑡                                   𝜋 m
+       𝑎𝑦 𝑥, 𝑡 =             = −0.75 ∙ 10𝜋 2 ∙ sen 5𝜋𝑥 − 10𝜋𝑡 + s 2 = − 10𝜋 2 ∙ 𝑦 𝑥, 𝑡 m ∙ s −2
+                       𝑑𝑡                                      4
+
+
+Sustituyendo valores:
+
+                                                        𝜋 m               21𝜋 m 7.5𝜋 m
+  𝑣𝑦 𝑥 = 5 m, 𝑡 = 2 s = −0.75 ∙ 10𝜋 ∙ cos 25𝜋 − 20𝜋 +       = −7.5𝜋 ∙ cos      =       = 16.7 m ∙ s −1
+                                                        4 s                4 s    2 s
+
+
+                                      21𝜋 m                      𝑚    0.75 × 10𝜋 2 𝑚
+    𝑎𝑦 5m, 2s = −0.75 ∙ 10𝜋 2 ∙ sen         = − 10𝜋 2
+                                                      ∙ 𝑦 5m, 2s    =                 = 523.4 m ∙ s −2
+                                       4 s2                      s2
+                                                                            2      s2
+
+
+
+
+                                                                                                              6
+                                                                         Prueba de evaluación de Bachillerato
+                                                                            para el acceso a la Universidad
+                                                                                        (EBAU)
+                                                                                   CURSO 2021-22
+
+
+
+
+4A.     Determina las características (real/virtual, derecha/invertida, mayor/menor), el tamaño y posición
+de la imagen formada por una lente convergente de 0.1 m de distancia focal, si se sitúa un objeto de 2 cm
+de tamaño a una distancia de:
+   a) 15 cm de la lente. (1 punto)
+   b) 5 cm de la lente. (1 punto)
+   Realiza en ambos casos el diagrama de rayos correspondiente.
+
+SOLUCIÓN:
+
+a) Para una lente convergente de focal positiva f’ = 0.1 m, se tiene que, si el objeto se sitúa a una distancia
+s = -0.15 m, mayor que la focal, por la ecuación fundamental de lentes delgadas, se tiene que:
+
+                            1 1 1   1    1     1
+                              − = ′⟹ ′−      =    ⟹ 𝑠′ = 0.3 m > 0
+                            𝑠′ 𝑠 𝑓  𝑠   −0.15 0.1
+
+Y a partir de la relación del aumento lateral:
+
+               𝑦′ 𝑠′ 𝑦′ 0.3      1
+                 = ⟹ =       =−     ⟹ 𝑦′ = −2 ∙ 𝑦 = −2 × 0.02 m = −0.04 m
+               𝑦  𝑠  𝑦 −0.15    0.5
+
+La imagen formada es real, invertida y de mayor tamaño (el doble) que el del objeto.
+El diagrama de rayos correspondiente:
+
+
+
+
+                  y                                                  s
+
+                          sF                            F                              y
+                                  f               f
+
+
+
+b) Cuando el objeto se sitúa a una distancia s = -0.05 m, la mitad de la distancia focal de la lente
+convergente:
+
+                           1 1 1   1   1     1
+                             − = ′⟹ −      =    ⟹ 𝑠′ = −0.1 m < 0
+                           𝑠′ 𝑠 𝑓  𝑠′ −0.05 0.1
+
+Empleando la relación del aumento lateral:
+
+                      𝑦′ 𝑠′ 𝑦′ −0.1
+                        = ⟹ =       = 2 ⟹ 𝑦′ = 2 ∙ 𝑦 = 2 × 0.02 m = 0.04 m
+                      𝑦  𝑠  𝑦 −0.05
+
+Luego la imagen formada es virtual, derecha y de mayor tamaño (el doble) que el del objeto.
+El diagrama de rayos correspondiente:
+
+
+                                                                                                                7
+                        Prueba de evaluación de Bachillerato
+                           para el acceso a la Universidad
+                                       (EBAU)
+                                  CURSO 2021-22
+
+
+
+
+y
+        y
+    F           s               F
+            f       f
+        s
+
+
+
+
+                                                               8
+                                                                          Prueba de evaluación de Bachillerato
+                                                                             para el acceso a la Universidad
+                                                                                         (EBAU)
+                                                                                    CURSO 2021-22
+
+
+
+
+4B.      Un bañista situado al borde de un trampolín descubre un objeto en el fondo de la piscina, que tiene
+una profundidad de 2 m. Para observarlo ha necesitado mirar con un ángulo de 60º respecto a la normal a
+la superficie del agua, estando su ojo situado a 3 m de altura sobre el agua. Dado que el valor del índice
+de refracción del agua es nagua = 1.33, calcula:
+    a) la distancia horizontal a la que se encuentra el objeto respecto a la vertical desde el borde del
+    trampolín. (1 punto)
+    b) el ángulo límite entre ambos medios, realizando un esquema que indique la marcha del rayo. (1
+    punto)
+
+SOLUCIÓN:
+
+a) Aplicando la ley de Snell:                                                                                          a)
+
+
+               𝑛aire · sen 60o = 𝑛agua · sen 𝜑𝑟
+                                                                                   i = 60    naire = 1
+                                  o
+                          sen 60              3                         h1 = 3 m
+          ⟹ sen 𝜑𝑟 =                  =            = 0.65
+                            1.33          2 × 1.33
+                                                                            d1                     d2
+                        ⟹ 𝜑𝑟 = 40o 37′                                                                  nagua = 1.33
+                                                                                              r
+                                                                                                            h2 = 2 m
+Y la distancia horizontal del objeto al bañista:                             D = d 1 + d2
+
+
+                  𝑑1
+     tang 60o =      ⟹ 𝑑1 = ℎ1 · tang 60o = 3 m × 3 = 5.2 m
+                  ℎ1
+
+                 𝑑2
+tang 40o 37′ =      ⟹ 𝑑2 = ℎ2 · tang 40o 37′ = 2 m × 0.86 = 1.72 m
+                 ℎ2
+
+Luego, la distancia horizontal total será:
+
+                                  D = 𝑑1 + 𝑑2 = 1.72 m + 5.2 m = 6.92 m
+
+
+b) El ángulo límite entre los dos medios debe calcularse para el caso en que el rayo incida desde el agua
+hacia el aire, alcanzándose el ángulo límite para la situación que se ilustra en el esquema:
+
+
+                                                                   b)
+                                           naire = 1    r = 90
+
+
+                                                   L   nagua = 1.33
+
+
+Aplicando la ley de Snell en condición de ángulo límite:
+
+                                                                         1
+              𝑛agua · sen 𝜑𝐿 = 𝑛aire · sen 90o = 1 ⟹ sen 𝜑𝐿 =                ⟹ 𝜑𝐿 = 48o 45′
+                                                                        1.33
+
+
+
+
+                                                                                                                            9
+                                                                            Prueba de evaluación de Bachillerato
+                                                                               para el acceso a la Universidad
+                                                                                           (EBAU)
+                                                                                      CURSO 2021-22
+
+
+
+
+5A.     En un microscopio electrónico de barrido se aceleran haces colimados de electrones mediante un
+campo eléctrico para producir imágenes de alta resolución de la superficie de materiales. Determina:
+   a) la longitud de onda asociada a un electrón que se acelera mediante una diferencia de potencial de
+   30 kV. (1.5 puntos)
+   b) Justifica la certeza o falsedad de la siguiente afirmación: “La longitud de onda asociada a un protón
+   acelerado con la misma diferencia de potencial será mayor que en el caso de un electrón”. (0.5
+   puntos)
+
+SOLUCIÓN:
+
+a) A partir del principio de conservación de la energía mecánica:
+                                                                    1
+                                     𝐸 = 𝑊 + 𝐸C = −𝑒 ∙ ∆𝑉 +           𝑚 ∙ 𝑣2
+                                                                    2 𝑒 𝑒
+Dado que los electrones se aceleran desde el reposo, su velocidad será:
+
+
+                                 2 ∙ 𝑒 ∙ ∆𝑉       2 × 1.6 ∙ 10−19 C × 3 ∙ 104 V
+         𝐸C = 𝑒 ∙ ∆𝑉 ⟹ 𝑣𝑒 =                 =                                   = 1.03 ∙ 108 𝑚 ∙ 𝑠 −1
+                                     𝑚𝑒                 9.11 ∙ 10−31 kg
+
+Y la longitud de onda asociada al electrón:
+
+     ℎ    ℎ                 ℎ                               6.63 ∙ 10−34 J ∙ s
+𝜆=     =        =                        =                                                      = 7.1 ∙ 10−12 m
+     𝑝𝑒 𝑚𝑒 ∙ 𝑣𝑒        2 ∙ 𝑚𝑒 ∙ 𝑒 ∙ ∆𝑉       2 × 9.11 ∙ 10−31 kg × 1.6 ∙ 10−19 C ∙ 3 ∙ 104 V
+
+
+b) Dado que la masa de un protón es aproximadamente 1800 veces mayor que la del electrón, un protón
+acelerado con la misma diferencia de potencial adquiriría una velocidad menor, pero a partir de la relación
+de la cantidad de movimiento de cada partícula con la longitud de onda asociada, se obtiene que ésta será
+menor para la partícula con mayor masa. Luego la afirmación es incorrecta.
+
+Para un protón acelerado con igual diferencia de potencial:
+
+                            2 ∙ 𝑒 + ∙ ∆𝑉       2 × 1.6 ∙ 10−19 C × 3 ∙ 104 V
+  𝐸C = 𝑞𝑒+ ∙ ∆𝑉 ⟹ 𝑣𝑝 =                   =                                   = 2.4 ∙ 106 m ∙ s −1
+                                𝑚𝑝                   1.67 ∙ 10−27 kg
+
+Y la longitud de onda asociada al protón:
+
+     ℎ    ℎ                  ℎ                              6.63 ∙ 10−34 J ∙ s
+𝜆=     =        =                        =                                                      = 1.65 ∙ 10−13 m
+     𝑝𝑝 𝑚𝑝 ∙ 𝑣𝑝        2 ∙ 𝑚𝑝 ∙ 𝑒 ∙ ∆𝑉        2 × 1.67 ∙ 10−27 kg × 1.6 ∙ 10−19 C ∙ 3 ∙ 104 V
+
+De hecho, comparando ambas longitudes de onda se tiene que:
+
+                           ℎ
+                      𝜆𝑒   𝑝𝑒            𝑚𝑝
+                         =    =             ; como: 𝑚𝑝 > 𝑚𝑒 ⟹ 𝜆𝑒 > 𝜆𝑝
+                      𝜆𝑝   ℎ             𝑚𝑒
+                           𝑝𝑝
+
+
+
+
+                                                                                                               10
+                                                                                 Prueba de evaluación de Bachillerato
+                                                                                    para el acceso a la Universidad
+                                                                                                (EBAU)
+                                                                                           CURSO 2021-22
+
+
+
+
+5B.     Un laboratorio de medicina nuclear tiene 20 mg de 137Cs, cuyo período de semidesintegración es
+de 30.23 años y masa atómica de 137 u. Calcula:
+   a) La vida media del isótopo y el tiempo transcurrido para que la cantidad de muestra se reduzca a 4
+   mg. (1 punto)
+   b) Las actividades radiactivas de la masa inicial y una vez reducida a 4 mg. (1 punto)
+
+SOLUCIÓN:
+a) La vida media del 137Cs, a partir de la relación con la constante de desintegración y el período de
+semidesintegración del isótopo, es:
+                                              1     Ln 2     𝑇1 2
+                                                =𝜆=      ⟹𝜏=
+                                              𝜏     𝑇1 2     Ln 2
+
+Siendo el período de semidesintegración T1/2 = 30.23 años:
+
+                               365 dias 24 h 60 min 60 s
+     𝑇1 2 = 30.23 años ×               ×       ×    ×       = 953.333.280 s ≅ 9.53 ∙ 108 s
+                                1 año    1 día   1h   1 min
+Luego, la vida media del isótopo 137Cs:
+
+                            𝑇1 2 30.23 años                9.53 ∙ 109 s
+                      𝜏=         =          ≈ 43.61 años ≅              = 1.4 ∙ 109 s
+                            Ln 2    Ln 2                      Ln 2
+El tiempo transcurrido para que la masa se reduzca a 4 mg, a partir de la actividad de la sustancia:
+
+                                                                             𝑡        𝑡      𝑚0
+                   𝑁 𝑡 = 𝑁0 ∙ 𝑒 −𝜆𝑡 ⟹ 𝑚 𝑡 = 𝑚0 ∙ 𝑒 −𝜆𝑡 = 𝑚0 ∙ 𝑒 − 𝜏 ⟹                   = ln
+                                                                                      𝜏      𝑚
+Luego, sustituyendo datos:
+                               𝑚0                    20 mg
+                  𝑡 = 𝜏 ∙ ln      = 1.4 ∙ 109 s × ln       ≈ 2.21 ∙ 109 s ≅ 70.2 años
+                               𝑚                     4 mg
+
+
+b) Las actividades inicial y final del isótopo de 137Cs, satisfacen la relación:
+
+                                               𝐴 = 𝜆 ∙ 𝑁 = 𝜆 ∙ 𝑁0 ∙ 𝑒 −𝜆𝑡
+
+Por lo tanto, la actividad de la masa inicial de 20 mg de 137Cs, siendo su masa atómica igual a 137 u, será
+
+                            𝑁0 20 ∙ 10−3 g 1 mol 𝑁𝐴𝑣 núcleos   2 ∙ 10−2 × 6.02 ∙ 1023 núcleos
+           𝐴0 = 𝜆 ∙ 𝑁0 =      =            ×     ×           =                                =
+                            𝜏   1.4 ∙ 109 s 137g    1 mol             137 × 1.4 ∙ 109 s
+                                              desintegraciones
+                               ≈ 6.4 ∙ 1010                    = 6.4 ∙ 1010 Bq
+                                                     s
+
+Análogamente, la actividad de la masa de 4 mg del isótopo 137Cs:
+
+                            𝑁0 4 ∙ 10−3 g 1 mol 𝑁𝐴𝑣 núcleos   4 ∙ 10−3 × 6.02 ∙ 1023 núcleos
+            𝐴0 = 𝜆 ∙ 𝑁0 =     =            ×     ×          =                                =
+                            𝜏   1.4 ∙ 109 s 137g   1 mol             137 × 1.4 ∙ 109 s
+                                              desintegraciones
+                               ≈ 1.3 ∙ 1010                    = 1.3 ∙ 1010 Bq
+                                                     s
+
+
+
+                                                                                                                    11
+

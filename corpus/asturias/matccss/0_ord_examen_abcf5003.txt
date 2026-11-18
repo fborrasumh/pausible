@@ -1,0 +1,353 @@
+                                                                                                                                                                                                                   Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                                                        acceso a la Universidad (EBAU)
+                                                                                                                                                                                                                              CURSO 2022-2023
+
+
+
+                                                                   MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES (examen resuelto y criterios de corrección)
+
+    ➢ Responde en el pliego del examen a cuatro preguntas cualesquiera de entre las ocho que se proponen. Todas las preguntas se calificarán con un máximo de 2.5 puntos.
+    ➢ Indica en el pliego del examen la agrupación de preguntas que responderás: agrupaciones de preguntas que sumen más de 10 puntos conllevarán la anulación de la(s) última(s) pregunta(s) seleccionada(s) y/o
+      respondida(s)
+
+
+
+                                                           Examen resuelto                                                        • Para m = 1, como
+                                                                                                                                                                 1       1               1   1
+                                                                                                                                                                                 =                  = 0 =⇒ ran(A′ ) = ran(A) = 1,
+Pregunta 1.     a) Puesto que                                                                                                                                    1       1               1   1
+
+                                                                                                                                   y como el número de incógnitas es 2, se trata de un sistema compatible indeterminado.
+                                                                                                                  
+                                 2                     3           1            3       1                 8    2
+                                A =A·A=                               ·                    =                      
+                                                       −1      −1               −1      −1                −2   0                  • Para m ̸= ±1, el sistema es compatible y determinado, puesto que ran(A) = 2 y por tanto
+                                                                                                                                   ran(A) = ran(A′ ) = nº incógnitas.
+    entonces                                                                                                      
+                                               8       2                −m           −1                   2    2m          Ası́ pues, la compatibilidad de este sistema quedarı́a resumida en el siguiente cuadro:
+                             A2 · B =                     ·                               =                       
+                                           −2          0               1 + 4m       4+m               2m           2
+                                                                                                                                                                                     m = −1            S.I.
+    con lo que                                                                                                                                                                     m=1         S.C.I.
+                                     1                  1 m    x    x + my
+                                       · A2 · B · C =      · =                                                                                                                 m ̸= ±1 S.C.D.
+                                     2                  m 1    y    mx + y
+    y por tanto,                                                                                                          Por lo tanto, el sistema tiene solución para cualquier valor de m ̸= −1 y dicha solución es única si m ̸= ±1.
+                                       1                       x + my = 1
+                                                                                                                           Si m = −2, la resolución del sistema, tomando como punto de partida los métodos usados anteriormente
+                                         · A2 · B · C = D ⇔
+                                       2                     mx +  y = 1                                                  en el estudio de la compatibilidad, se harı́a como sigue:
+  b) Dos de las posibles formas de realizar la discusión de este sistema son:                                                 Método de Gauss. Continuando con lo obtenido anteriormente y teniendo en cuenta que se supone
+        Gauss.                                                                                                             que m = −2, se tiene que:
+                                               1       m       1                1         m           1                                                                                              
+                                                                   −→                                                                                                                   
+                                               m       1       1                0       1−m   2
+                                                                                                  1−m                                                                1       −2          1            x      −    2y   =    1
+                                                                                                                                                                                             −→
+                                                                                                                                                                     0       −3          3                   −    3y   =    3
+        Como 1 − m2 = 0 ⇔ m = ±1 se tiene que:
+           • Si m = −1, la última fila representa una ecuación que es imposible (0 x + 0 y = 2), con lo que el               Resolviendo este sistema escalonado:
+              sistema es incompatible.                                                                                                                                           
+                                                                                                                                                                                  y = 3/(−3) = −1
+           • Si m = 1, la última fila es (0       0 | 0), con lo que el sistema es compatible indeterminado.                                                                     x = 1 + 2 · (−1) = −1
+           • En otro caso, si m ̸= ±1, el sistema es compatible y determinado.
+        Rouché-Fröbenius. Como                                                                                               Método de Cramer. Como ya vimos en el apartado anterior, |A| = 1 − m2 , con lo que si m = −2 se tiene
+                                                                                                                               que |A| = −3.
+                                                           1       m                2
+                                             |A| =                      = 1 − m = 0 ⇐⇒ m = ±1                                  Por otro lado se tiene que
+                                                           m       1
+                                                                                                                                                                             1   −2                                 1    1
+        se tiene que:                                                                                                                                        |Ax | =                         = 3,        |Ay | =             = 3.
+                                                                                                                                                                             1       1                             −2    1
+           • Para m = −1, como
+                                                   1       1                                                                   Por tanto, la solución es:
+                                                               = 2 ̸= 0 =⇒ ran(A′ ) = 2 ̸= ran(A) = 1,
+                                               −1          1
+                                                                                                                                                                     |Ax |   3                                |Ay |    3
+              por lo que el sistema es incompatible.                                                                                                         x=            =    = −1,                    y=         =    = −1.
+                                                                                                                                                                      |A|    −3                                |A|    −3
+                                                                                                                                                                                                                    Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                                                         acceso a la Universidad (EBAU)
+                                                                                                                                                                                                                               CURSO 2022-2023
+
+
+Pregunta 2.    a) Si representamos por x e y el número de anuncios en televisión y radio, respectivamente, las       De todo lo anterior se deduce que 112 = 130 + 9b y, por tanto, b = −2, con lo que la función f viene dada
+    condiciones impuestas llevan a formar el siguiente sistema de inecuaciones:                                        por:                                                       
+                                                                                                                                                                                    22 + 30x                si 1 ≤ x ≤ 3,
+                                           y   ≥   0.5(x + y)       x−y ≤ 0                                                                                           f (x) =
+                                                                                                                                                                                   100 + 10x − 2x2
+                                                                
+                             
+                                                                
+                                                                                                                                                                                                              si 3 < x ≤ 10,
+                                            x ≥ 0.1(x + y)           9x − y ≥ 0
+                             
+                                                                
+                                                                 
+                                                               ⇔
+                             
+                              2100x + 300y ≤ 24 000             
+                                                                    7x + y ≤ 80                                     b) Según el enunciado, y al tratarse de una función definida a trozos mediante dos polinomios, es evidente
+                             
+                                                                
+                                                                 
+                             
+                                        x, y ≥ 0
+                                                                 
+                                                                       x, y ≥ 0                                       que el dominio de definición de f es todo el intervalo [1, 10].
+                                                                                                                       En cuanto a los puntos de corte:
+    Los puntos que cumplen todas estas restricciones son todos los pares de números enteros dentro del
+                                                                                                                              Es evidente que f no se anula en el intervalo [1, 3], puesto que 22 + 30x = 0 ⇔ x = −11/15 ∈
+                                                                                                                                                                                                                         / [1, 3].
+    recinto sombreado de la figura 1. Los extremos de dicho recinto son A = (0, 0), B = (10, 10) y C = (5, 45).
+                                                                                                                              100 + 10x − 2x2 = −2(x − 10)(x + 5) = 0 ⇔ x = 10 ∈ (3, 10] o x = −5 ∈
+                                                                                                                                                                                                  / (3, 10], con lo que f corta al eje
+                                             y                            y=x
+                                       45                 C                                                                   de abscisas en el punto (10, 0).
+                                                                       7x + y = 80
+                                                                         y = 9x                                        Por otro lado se tiene que f(1) = 22 + 30 = 52.
+                                                                                                                       Además, sabemos por el enunciado que es continua en todo su dominio.
+                                                                                                                       Vamos a continuar estudiando la monotonı́a de esta función:
+
+                                       20                                                                                     En el primer trozo, f′ (x) = 30 > 0, con lo que la función f es creciente en el intervalo (1, 3).
+                                                                                                                              En el segundo trozo, f′ (x) = 10 − 4x < 0, ∀x ∈ (3, 10), con lo que f es decreciente en el intervalo (3, 10).
+                                       10
+                                                                   B                                                   En cuanto a la derivada segunda,
+                                         A                                           x                                        En el primer trozo, f′′ (x) = 0, con lo que la función f es una recta en el intervalo (1, 3).
+                                                      5         10                                                            En el segundo trozo, f′′ (x) = −4 < 0, ∀x ∈ (3, 10], con lo que f es cóncava hacia abajo en el intervalo
+                                                                                                                              (3, 10).
+                                             Figura 1: Región factible.
+                                                                                                                       De todo lo anterior se deduce que la representación gráfica de f es la que corresponde a la figura 2.
+
+    No se podrı́an hacer 10 en televisión y 20 en radio puesto que el punto (10, 20) no pertenece a la región                                           112
+    factible (7x + y = 70 + 20 = 90 > 80).                                                                                                                100
+  b) La audiencia total es z(x, y) = 100 000x + 18 000y. Ası́, queremos maximizar la función objetivo z sujeta a
+
+
+
+
+                                                                                                                                         Miles de euros
+    las restricciones anteriores. Los valores en los extremos del recinto son:
+
+                                                 z(A) = 0 personas
+                                                                                                                                                          52
+                                                 z(B) = 1 180 000 personas
+                                                 z(C) = 1 310 000 personas                                                                                                                 
+                                                                                                                                                                                               22 + 30x             si 1 ≤ x ≤ 3
+    por lo que la audiencia máxima se alcanza si se hacen 5 anuncios en televisión y 45 en radio. En ese caso                                                                       y=
+                                                                                                                                                                                            100 + 10x − 2x2         si 3 < x ≤ 10
+    la audiencia es de 1 310 000 personas.
+                                                                                                                                                           0
+Pregunta 3.    a) Como sabemos que los dı́as que se producen 3 toneladas, los beneficios son 112 miles de                                                       0   1      2          3        4      5        6     7         8    9    10
+    euros, se tiene que 112 = f(3) = 22 + 3a, con lo que a = 30.                                                                                                                                   Toneladas
+    Por otro lado, la función es continua en cada uno de sus dos intervalos de definición (ambos son polinomios)
+    y el único posible punto de discontinuidad es el 3, observamos que:                                                                                                Figura 2: Representación gráfica de f.
+
+        En cuanto al valor de la función: f(3) = 112.
+        En cuanto a los lı́mites:                                                                                      Como se puede deducir de dicha representación gráfica, si el beneficio ha sido de 100 miles de euros, como
+                                                                                                                       22 + 30x = 100 ⇔ x = 2.6 y 100 + 10x − 2x2 = 100 ⇔ 2x(5 − x) = 0 ⇔ x = 0 o x = 5, se tiene que se pueden
+                     lı́m f (x) = lı́m (22 + 30x) = 112       y lı́m+ f (x) = lı́m+ (100 + 30 + 9b) = 130 + 9b         haber producido tanto 2.6 toneladas, como 5 toneladas.
+                    x→3−        x→3−                            x→3         x→3
+                                                                                                                                                                                                                           Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                                                                acceso a la Universidad (EBAU)
+                                                                                                                                                                                                                                      CURSO 2022-2023
+
+
+    También se deduce de dicha gráfica y del estudio de la función, que el beneficio mı́nimo es de 0 euros y                       Pregunta 5. Si denotamos por I el suceso ((tener contratado internet)) y por T el suceso ((tener televisión de
+    que el beneficio máximo es de 112 miles de euro.                                                                                 pago)), los datos del enunciado se traducen en:
+
+                                                                                            3                                                                                                P(I) = 0.8
+                     a) Como f(x) = −x2 + 4x, entonces F(x) =                f(x)dx = − x3 + 2x2 + C. Por otro lado, como nos dicen
+                                                                         R
+Pregunta 4.
+                                                                                                                                                                                             P(T) = 0.4
+    que F(1) = 2, se tiene que F(1) = − 31 + 2 + C = 2, con lo que C = 13 y, por tanto, la primitiva buscada es
+                 3                                                                                                                                                                           P(I ∩ T) = 0.25
+    F(x) = − x3 + 2x2 + 13 .
+                                                                                                                                      con lo que las probabilidades pedidas son:
+  b) La función f está definida para todo el conjunto de los números reales, puesto que es un polinomio.
+                                                                                                                                        a) P(I ∩ T) = P(T) − P(I ∩ T) = 0.4 − 0.25 = 0.15.
+    La función f corta al eje de ordenadas en el punto (0, f(0)), es decir, en el punto (0, 0). Además como
+    f(x) = −x2 + 4x = x(4 − x) = 0 ⇔ x = 0 o x = 4, se tiene que f también corta al eje de abscisas en el punto                        b) P(I ∩ T) = P(I) − P(I ∩ T) = (1 − 0.8) − 0.15 = 0.05.
+
+    (4, 0).                                                                                                                           Si se hace el ejercicio construyendo una tabla, la asociada a estos datos serı́a proporcional a:
+    En cuanto a las ası́ntotas, no tiene ası́ntotas verticales, puesto que no tiene puntos de discontinuidad en su
+                                                                                                                                                                                                 T     T
+    dominio. Respecto a las ası́ntotas horizontales se tiene que:
+                                                                                                                                                                                         I       25 55         80
+                                                                                                                                                                                         I       15    5       20
+                                                    lı́m f (x) = lı́m −x 2 + 4x = −∞.
+                                                x→±∞                 x→±∞
+                                                                                                                                                                                                 40 60 100
+
+    Para estudiar el crecimiento y decrecimiento de la función, vamos a comenzar calculando los puntos crı́ticos.                    Pregunta 6. Si denotamos por V el suceso ((el individuo ha contraı́do el virus)), y por D el suceso ((la prueba
+    Para ello,                                                                                                                        determina que el individuo tiene el virus)), los datos del enunciado se traducen en:
+                                                         f ′ (x) = −2x + 4 = 0 ⇔ x = 2                                                                                        P(V) = 0.05             ⇒ P(V) = 0.95
+                                                                                                                                                                              P(D/V) = 0.9            ⇒ P(D/V) = 0.1
+    Como vemos que f′ (x) = −2x + 4 > 0 para cualquier x ∈ (−∞, −2) y f′ (x) = −2x + 4 < 0 para cualquier
+                                                                                                                                                                              P(D/V) = 0.95 ⇒ P(D/V) = 0.05
+    x ∈ (2 , +∞), tenemos que la función es creciente en el intervalo (−∞ , 2) y decreciente en (2 , +∞). Además
+    se tiene que f(2) = 4.                                                                                                            Ası́ pues, las probabilidades pedidas son:
+
+    Como f′′ (x) = −2 < 0, ∀x ∈ R, se puede concluir que f es cóncava hacia abajo en todo su dominio.                                  a) P(V/D) = P(D∩V)
+                                                                                                                                                     P(D) y como:
+
+    De todo lo anterior se deduce que su representación gráfica es la que aparece en la figura 3.                                                                       P(D ∩ V ) = P(D/V )P(V ) = 0.05 · 0.95 = 0.0475
+
+                                                                                                                                           y
+                                                     y
+                                                                                                                                                       P(D) = P(D ∩ V ) + P(D ∩ V ) = P(D/V )P(V ) + 0.0475 = 0.9 · 0.05 + 0.0475 = 0.0925
+                                               4                                   y = −x2 + 4x
+                                               3
+                                                                                                                                           se tiene que:
+                                                                                                  x                                                                                                   0.0475
+                                                                                                                                                                                       P(V /D) =             = 0.5135
+                                                                                                                                                                                                      0.0925
+                                          -1                         2         3        4
+                                                                                                                                        b) De manera análoga se obtiene la probabilidad pedida en este apartado:
+                                                               Z 3        
+                                               -5                  −x2 + 4x dx                                                                                                               P(D ∩ V )   0.005
+                                                                −1
+                                                                                                                                                                              P(V /D) =                =        = 0.0055
+                                                                                                                                                                                               P(D)      0.9075
+
+                                                                                                                                           puesto que: P(D ∩ V) = P(D/V)P(V) = 0.1 · 0.05 = 0.005 y P(D) = 1 − P(D) = 1 − 0.0925 = 0.9075.
+
+                                            Figura 3: Representación gráfica de f.                                                  Si se hace el ejercicio construyendo una tabla, la asociada a estos datos serı́a proporcional a:
+
+                                                                                                                                                                                             D             D
+    El área limitada por la curva f y el eje X entre x = −1 y x = 3, teniendo en cuenta la representación gráfica                                                               V    0.045         0.005         0.05
+    de la figura 3 y la expresión obtenida para F en el apartado anterior, es igual a:                                                                                            V    0.0475 0.9025 0.95
+                                   Z 0               Z 3                                                                                                                                0.0925 0.9075 1
+                                          f(x)dx +           f(x)dx = |F(0) − F(−1)| + |F(3) − F(0)| =
+                                     −1                  0                                                                            Pregunta 7. Si denotamos por X la v.a. ((duración, en años)), sabemos que dicha variable sigue una distribución
+                                    |1/3 − 8/3| + |28/3 − 1/3| = 7/3 + 9 = 34/3 ≈ 11.3333.                                            normal de media desconocida µ y desviación tı́pica σ = 0.5 años, es decir, X → N(µ, 0.5).
+                                                                                                                                                                                                Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                                     acceso a la Universidad (EBAU)
+                                                                                                                                                                                                           CURSO 2022-2023
+
+
+  a) Para dicha variable aleatoria tenemos una muestra aleatoria de tamaño n = 150 para la cual se obtiene una            Ası́ pues, con los datos de este ejercicio se tiene que un intervalo de confianza para la proporción de
+    media muestral x = 1.8 años.                                                                                          personas a las que les gusta el producto, al 99 % de confianza, es:
+    Un intervalo de confianza, al nivel de confianza (1 − α) · 100 %, para la media poblacional de una variable                                         r                               r                !
+                                                                                                                                                            0.75(1 − 0.75)                0.75(1 − 0.75)
+    aleatoria con distribución normal y desviación tı́pica conocida es:                                                                  0.75 − 2.58                     , 0.75 + 2.58                   = (0.671, 0.829),
+                                                                                                                                                                 200                           200
+                                                                         
+                                                           σ           σ
+                                               x − zα/2 √ , x + zα/2 √                                                     es decir, tenemos una confianza del 99 % de que el porcentaje de personas a las que les gusta el producto
+                                                            n           n
+    donde                                                                                                                  está entre el 67.1 % y el 82.9 %.
+
+        x representa la media muestral, en este caso x = 1.8 años,                                                     b) El error de estimación en el intervalo anterior es:
+
+        n representa el tamaño de muestra, en este caso n = 150,
+                                                                                                                                                                  r                  r
+                                                                                                                                                                    p̂(1 − p̂)         0.75(1 − 0.75)
+                                                                                                                                                         ϵ = zα/2              = 2.58                 = 0.079
+        σ representa la desviación tı́pica poblacional, en este caso σ = 0.5 años y                                                                                   n                   200
+        zα/2 representa el valor que cumple que P(|Z| < zα/2 ) = 1 − α para una variable Z con distribución               Suponemos ahora que el tamaño de la muestra disminuye, pero la proporción de personas a las que les
+        N(0, 1), es decir, el valor que cumple que P(|Z| < zα/2 ) = P(−zα/2 < Z < zα/2 ) = 1 − α = 0.95 o lo que           gusta el producto se mantiene y zα/2 sigue siendo 2.58, puesto que volvemos a trabajar al 99 % de con-
+        es lo mismo, P(Z < zα/2 ) = F(zα/2 ) = 0.975, es decir, zα/2 = 1.96.                                               fianza. Con lo cual, lo único que cambia es el tamaño de la muestra, n, que ahora es menor. A la vista de
+    Ası́ pues, con los datos de este ejercicio se tiene que un intervalo de confianza para la media, al 95 % de            la expresión general del error
+                                                                                                                                                        q de estimación, es evidente que si p̂ no varı́a, zα/2 tampoco y n disminuye, el
+                                                                                                                                                            p̂(1−p̂)
+    confianza es:                                                                                                        error de estimación ϵ = zα/2        n    aumentará, puesto que es una función decreciente en n.
+                                             0.5                0.5
+                                 1.8 − 1.96 √     , 1.8 + 1.96 √       = (1.72, 1.88),
+                                              150                150
+    es decir, tenemos una confianza del 95 % de que la duración media está entre 1.72 y 1.88 años.
+                                                                                                                                                             Criterios especı́ficos de corrección
+  b) Una vez fijados el error máximo de estimación ϵ y el nivel de confianza (1 − α) · 100 %, si se considera que
+    la variable en estudio sigue una distribución normal con desviación tı́pica conocida, el mı́nimo tamaño que
+    ha de tener la muestra para verificar estas condiciones es:                                                       Pregunta 1. BLOQUES DE CONTENIDO a los que pertenece la pregunta: 1 y 2.
+                                                            σ 2
+                                                   n ≥ zα/2                                                           CALIFICACIÓN máxima otorgada: 1 punto la primera cuestión y 1.5 puntos la segunda. Máximo 2.5 puntos.
+                                                             ϵ
+                                                                                                                      PORCENTAJE asignado a la pregunta con respecto al total de la prueba: 25 %.
+    Ası́ pues, puesto que ϵ ≤ 0.2 años y 1 − α = 0.99, con lo que zα/2 = 2.58, se tiene que
+                                                                        2                                           ESTÁNDAR O ESTÁNDARES DE APRENDIZAJE evaluado(s): 2.1, 3.1 y 3.2 del bloque 1 y 1.2, 1.3 y 2.1 del
+                                                                   0.5
+                                               n≥           2.58              = 41.6                                  bloque 2.
+                                                                   0.2
+    con lo que el tamaño mı́nimo muestral para cumplir las condiciones será de 42 aparatos.                         CRITERIOS ESPECÍFICOS de corrección:
+
+Pregunta 8.    a) Si representamos por p la proporción poblacional de personas a las que les gusta el producto         a) Operaciones con matrices: 0.75. Plantear el sistema: 0.25.
+    y por p̂ la proporción de personas a las que les gusta de las n = 200 en la muestra, se tiene que p es
+                                                                                                                        b) Discutir el sistema: 0.5. Contestar a cada pregunta: 0.25. Resolver el sistema: 0.5.
+    desconocido y que p̂ = 150/200 = 0.75.
+    Un intervalo de confianza, al nivel de confianza (1 − α) · 100 %, para la proporción poblacional en muestras     Pregunta 2. BLOQUES DE CONTENIDO a los que pertenece la pregunta: 1 y 2.
+    grandes es:                                    r                            r                !                    CALIFICACIÓN máxima otorgada: 1.75 puntos la primera cuestión y 0.75 puntos la segunda. Máximo 2.5 puntos.
+                                                       p̂(1 − p̂)                   p̂(1 − p̂)
+                                       p̂ − zα/2                  , p̂ + zα/2
+                                                           n                            n                             PORCENTAJE asignado a la pregunta con respecto al total de la prueba: 25 %.
+    donde                                                                                                             ESTÁNDAR O ESTÁNDARES DE APRENDIZAJE evaluado(s): 2.1, 2.2, 3.1, 3.2, 7.2, 7.3 y 7.4 del bloque 1 y
+        p̂ representa la proporción muestral, en este caso p̂ = 0.75,                                                2.2 del bloque 2.
+        n representa el tamaño de muestra, en este caso n = 200 y                                                    CRITERIOS ESPECÍFICOS de corrección:
+        zα/2 representa el valor que cumple P(|Z| < zα/2 ) = 1 − α para una variable Z con distribución N(0, 1),
+                                                                                                                        a) Plantear las inecuaciones: 0.75. Representar la región factible: 0.75. Cuestión: 0.25.
+        es decir, el valor que cumple que P(|Z| < zα/2 ) = P(−zα/2 < Z < zα/2 ) = 1 − α = 0.99 o lo que es lo
+        mismo, P(Z < zα/2 ) = F(zα/2 ) = 0.995, es decir, zα/2 = 2.58.                                                  b) Primera cuestión: 0.5. Segunda cuestión: 0.25.
+                                                                                                                                                                                        Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                             acceso a la Universidad (EBAU)
+                                                                                                                                                                                                   CURSO 2022-2023
+
+
+Pregunta 3. BLOQUES DE CONTENIDO a los que pertenece la pregunta: 1 y 3.                                         Pregunta 8. BLOQUES DE CONTENIDO a los que pertenece la pregunta: 1 y 4.
+
+CALIFICACIÓN máxima otorgada: 0.75 puntos la primera cuestión y 1.75 puntos la segunda. Máximo 2.5 puntos.   CALIFICACIÓN máxima otorgada: 1.5 puntos la primera cuestión y 1 punto la segunda. Máximo 2.5 puntos.
+PORCENTAJE asignado a la pregunta con respecto al total de la prueba: 25 %.                                      PORCENTAJE asignado a la pregunta con respecto al total de la prueba: 25 %.
+ESTÁNDAR O ESTÁNDARES DE APRENDIZAJE evaluado(s): 2.1, 2.3, 3.1, 3.2, 7.2, 7.3 y 7.4 del bloque 1 y            ESTÁNDAR O ESTÁNDARES DE APRENDIZAJE evaluado(s): 2.1, 2.2, 3.1, 7.2, 7.3 y 7.4 del bloque 1 y 2.5,
+1.1, 1.3, 2.1, 2.2 del bloque 3.                                                                                 2.6 y 3.1 del bloque 4.
+CRITERIOS ESPECÍFICOS de corrección:                                                                           CRITERIOS ESPECÍFICOS de corrección: Es necesario obtener de forma razonada el intervalo de confianza y
+                                                                                                                 justificar adecuadamente la respuesta sobre el error de estimación.
+  a) 0.25 por obtener el valor de a y 0.5 por obtener el de b.
+  b) Estudiar la función: 0.75. Representarla en base al estudio: 0.25. Responder a cada cuestión: 0.25.
+
+Pregunta 4. BLOQUES DE CONTENIDO a los que pertenece la pregunta: 1 y 3.
+
+CALIFICACIÓN máxima otorgada: 0.5 puntos la primera cuestión y 2 puntos la segunda. Máximo 2.5 puntos.
+
+PORCENTAJE asignado a la pregunta con respecto al total de la prueba: 25 %.
+
+ESTÁNDAR O ESTÁNDARES DE APRENDIZAJE evaluado(s): 2.1, 3.1 y 3.2 del bloque 1 y 1.2, 2.1, 3.1 y 3.2
+del bloque 3.
+
+CRITERIOS ESPECÍFICOS de corrección:
+
+  b) Estudiar la función: 0.75. Representarla en base al estudio: 0.25. Área: 1.
+
+Pregunta 5. BLOQUES DE CONTENIDO a los que pertenece la pregunta: 1 y 4.
+
+CALIFICACIÓN máxima otorgada: 1.25 puntos la primera cuestión y 1.25 puntos la segunda. Máximo 2.5 puntos.
+
+PORCENTAJE asignado a la pregunta con respecto al total de la prueba: 25 %.
+
+ESTÁNDAR O ESTÁNDARES DE APRENDIZAJE evaluado(s): 2.1, 2.3, 3.1, 3.2 y 7.3 del bloque 1 y 1.1 y 1.2
+del bloque 4.
+
+CRITERIOS ESPECÍFICOS de corrección: Obtener de forma razonada las probabilidades pedidas.
+
+Pregunta 6. BLOQUES DE CONTENIDO a los que pertenece la pregunta: 1 y 4.
+
+CALIFICACIÓN máxima otorgada: 1.25 puntos la primera cuestión y 1.25 puntos la segunda. Máximo 2.5 puntos.
+
+PORCENTAJE asignado a la pregunta con respecto al total de la prueba: 25 %.
+
+ESTÁNDAR O ESTÁNDARES DE APRENDIZAJE evaluado(s): 2.1, 2.3, 3.1, 3.2 y 7.3 del bloque 1 y 1.1, 1.2 y
+1.3 del bloque 4.
+
+CRITERIOS ESPECÍFICOS de corrección: Obtener de forma razonada las probabilidades pedidas.
+
+Pregunta 7. BLOQUES DE CONTENIDO a los que pertenece la pregunta: 1 y 4.
+
+CALIFICACIÓN máxima otorgada: 1.5 puntos la primera cuestión y 1 punto la segunda. Máximo 2.5 puntos.
+
+PORCENTAJE asignado a la pregunta con respecto al total de la prueba: 25 %.
+
+ESTÁNDAR O ESTÁNDARES DE APRENDIZAJE evaluado(s): 2.1, 2.2, 3.1, 7.2, 7.3 y 7.4 del bloque 1 y 2.4,
+2.6 y 3.1 del bloque 4.
+
+CRITERIOS ESPECÍFICOS de corrección: Es necesario obtener de forma razonada el intervalo de confianza y
+el tamaño muestral.
+

@@ -1,0 +1,368 @@
+                                                                                                                                                                                                                    Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                                                         acceso a la Universidad (EBAU)
+                                                                                                                                                                                                                               CURSO 2022-2023
+
+
+                                                                                                             MATEMÁTICAS (Examen resuelto y criterios de corrección)
+
+
+     â Responda en el pliego del examen a cuatro preguntas cualesquiera de entre las ocho que se proponen. Todas las preguntas se calificarán con un máximo de 2.5 puntos.
+     â Indique en el pliego del examen la agrupación de preguntas que responderá: agrupaciones de preguntas que sumen más de 10 puntos conllevarán la anulación de la(s) última(s) pregunta(s) seleccionada(s) y/o
+       respondida(s)
+
+
+
+                                                                                                                                               (a) (0.75 puntos) Calcula, en caso de que sea posible, las dimensiones de una matriz D tal que se pueda
+                                                                                                                                                  realizar el producto A · D · B.
+Problema 1. Dadas las matrices
+                                                                                                                                             (b) (0.5 puntos) Estudia si puede existir una matriz M tal que M · A = B.
+                                            1   1    1                                          
+                                                                                  4       6                                                  (c) (1.25 puntos) Estudia si existe (B · A)−1 y calcúlala en caso de que sea posible.
+                                      A=
+                                         0     2      ,
+                                                     0             B=                          
+                                                                                −3          −5                                                 (a) Por ser A una matriz 3 × 2, la matriz D debe tener 2 filas. Por ser B una matriz 2 × 3 la matriz D debe
+                                            1   1    1
+                                                                                                                                                tener 2 columnas, por lo tanto D debe ser 2 × 2.
+                                                                x                                                                              (b) Si M es una matriz m × n, el producto M · A es m × 2 como B es 2 × 3 no puede existir dicha matriz ya
+                                                   
+                                                   y  tales que A · X = 2X.
+ (a) (1.25 puntos) Calcula todas las matrices X =    
+                                                                                                                                                   que el producto tendrı́a 2 columnas y no 3 como tiene B.
+                                                                z
+                                                                                                                                                                                                                                                            
+                                                                                                                                                              1 4                                                                                  1      −4
+                                                                                                                                               (c) B · A =          , como det(B · A) = 9 6= 0 entonces existe la inversa y vale (B · A)−1 = 1 
+ (b) (1.25 puntos) Calcula todas las matrices M que cumplen M(B + I) = 2I. (I es la matriz identidad 2 × 2).
+                                                                                                                                                                                                                                                               
+                                                                                                                                                             −2 1                                                                              9   2       1
+ (a) El sistema es (A − 2I)X = [0], es decir, es un sistema homogéneo con matriz asociada:
+                                                                                                                                             Problema 3. Dadas las funciones f(x) = −x2 y g(x) = x2 + x − 1 se pide:
+                                                                                       
+                                                        −1              1       1
+                                                                                                                                             (a) (1.25 puntos) Calcula los puntos de corte de ambas curvas y dibuja el recinto limitado por ambas funcio-
+                                                    A= 0
+                                                                       0  0 
+                                                                                                                                                 nes
+                                                         1              1 −1
+                                                                                                                                               (b) (1.25 puntos) Calcula el área de dicho recinto.
+    Aplicando el método de Gauss:
+                                                                                                                                               (a) Los puntos de corte son los que cumplen −x2 = x2 + x − 1es decir2x2 + x − 1 = 0 que tiene soluciones
+                                                                                                                                                            1                                                  1 1
+                          −1 1 1              −1                        1   1           −1                   1   1                                 x = −1 y x = . Luego las gráficas se cortan en (−1, −1) y         ,−   .
+                                   F2 ↔F3                                  F2 +F1                                                                           2                                                  2 4
+                        0 0 0  −−−−→  1
+                                                                              −−−→  0
+                                                                        1 −1                                2   0 
+                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                            1 5
+                                                                                                                                               La función f tiene un máximo en (0, 0) y la función g un mı́nimo en − , −      ya que son parábolas y el
+                          1 1 −1              0                         0 0             0                    0   0                                                                                                           2 4
+                                                                                                                                                                                                                              b
+                                                                                                                                                   vértice de una parábola y = ax2 + bx + c es el punto cuyo abscisa es − . Como a para f es negativa, la
+    Por lo que la solución serı́a:                                                                                                                                        T                                                 2a
+                                                                                                                                                                                                                              S
+                                                                                                                                                  parábola es convexa ( ) y para g, al ser a > 0 la parábola es cóncava ( ). Ası́ la gráfica pedida serı́a:
+                                                         x=α 
+                                                             
+                                                             
+                                                         y=0            ∀α ∈ R
+                                                                    
+                                                                    
+                                                         z=α
+                                                                    
+
+ (b) Despejando M = 2I(B + I)−1 = 2(B + I)−1
+                                                                   −1                             
+                                                    5           6                       4        6
+                                       M = 2                              =                       
+                                                    −3      −4                          −3 −5
+
+                                                                   
+                                                        2       1                                       
+                                                                        1                      1   1
+Problema 2. Se consideran las matrices A = 
+                                            −1                   yB=
+                                                                1                                      . Se pide:
+                                                                         −1                      0   1
+                                             0                  2
+                                                                                                                                                                                                          Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                                               acceso a la Universidad (EBAU)
+                                                                                                                                                                                                                     CURSO 2022-2023
+
+
+  (b) Como f(x) ≥ g(x) para todo x ∈ [−1, 1/2] entonces                                                                        La distancia de r a π se puede calcular como el valor absoluto del producto escalar de un vector unitario
+                                             Z 1/2                            Z 1/2                                            normal al plano y un vector que une un punto de la recta y un punto del plano. Para a = 2 la ecuación del
+                                                         (f (x) − g(x))dx =           (−2x 2 − x + 1)dx =                      plano es 2x + 2y − z = 4.
+                                               −1                              −1                                                                                                                              
+                                                                                                                                                                        →
+                                                                                                                                                                        −                →
+                                                                                                                                                                                         −              2 2 1
+                                                                                                                                                                        w = (2, 2, −1) ⇒ w 1 =           , ,−
+                                                                              1/2                                                                                                                      3 3 3
+                                                                     x3 x2
+                                                                  
+                                                                                     9
+                                                              =    −2 −    +x      =                                           Para obtener un punto del plano, fijamos x = 1, y = 1 y calculamos z = 2 · 1 + 2 · 1 − 4 = 0, por tanto,
+                                                                     3  2      −1    8
+                                                                                                                                                                                                                   →
+                                                                                                                                                                                                                   −
+                                                                                                                               P = (1, 1, 0) es un punto del plano y (2, −1, 1) es un punto de la recta, por tanto v = (2, −1, 1) − (1, 1, 0) =
+Problema 4. (2.5 puntos)                                                                                                       (1, −2, 1), por tanto la distancia es:
+                                                                                                                                                                                               
+Calcula las coordenadas del punto P interior al                                                                                                                                       2 2 1             2 4 1
+                                                                                                                                                               d = (1, −2, 1) ·        , ,−         =    − −  =1
+                                                                                                                                                                                      3 3 3             3 3 3
+triángulo y situado sobre la altura, tal que la suma
+de las distancias de P a los tres vértices sea mı́ni-                                                                                                                                                                        →
+                                                                                                                                                                                                                              −
+                                                                                                                           (b) Para a = 1, la ecuación del plano π es x + 2y − 2z = 4, por tanto un vector normal a π es w 2 = (1, 2, −2).
+                                                                                                                                                                                                                              →
+                                                                                                                                                                                                                              −
+ma.                                                                                                                            El plano π 0 está definido por un punto de r, un vector director de r y el vector normal a π, w 2 .
+
+                                                                                                                                                         x−2      y+1      z−1
+                                                                                                                                                0
+                                                                                                                                                π ≡0=      1        2       −2        = −2x − 2y − 3z + 5 ⇒ π 0 ≡ 2x + 2y + 3z = 5
+El punto P tiene coordenadas (0, y). Se busca que f(y) = d((0, y), (−3, 0)) + d((0, y), (3, 0)) + d((0, y), (0, 3)) sea
+                                                                                                                                                           1        −1       0
+mı́nima. La función se puede escribir como sigue:
+                                           p                       p                       p                              Problema 6. Dados los puntos A = (1, 0, 0) y B = (−1, 4, −4),
+                                f (y ) =       (−3)2 + y 2 +           32 + y 2 + 3 − y = 2 9 + y 2 + 3 − y
+                                                                                                                           (a) (1.5 puntos) Calcula el plano π que hace que A y B sean simétricos
+su derivada es:                                                                          p                                 (b) (0.5 puntos) Calcula la distancia de A a π
+                                                    0             2y           2y −          9 + y2
+                                                 f (y) = p                 −1=   p
+                                                                  9 + y2
+                                                                       9 + y2                                              (c) (0.5 puntos) Calcula una ecuación continua de la recta que pasa por A y B
+                          p                                                  √       √
+que se anula si 2y =          9 + y2 es decir si 4y2 = 9 + y2 de donde y = ± 3. y = − 3 no es válida ya que no es         (a) El plano π debe ser perpendicular a la recta que une ambos puntos y debe cortarla en el punto medio, o
+interior al triángulo.                                                                                                        sea, un vector normal es:
+                                                                                                                                                                    →
+                                                                                                                                                                    −
+La segunda derivada es                                                                                                                                              u = (−1, 4, −4) − (1, 0, 0) = (−2, 4, −4)
+                                                                       18                √
+                                                        f 00 (y ) = p            ⇒ f 00 ( 3) > 0                               La ecuación del plano es
+                                                                     (9 + y 2 )3
+                                                                                                                                                                           (−2) · x + 4 · y + (−4) · z = D
+y serı́a mı́nimo.
+                                                                                                                              Y la constante D se obtiene de la condición de que debe contener al punto medio. El punto medio es:
+                                        x=2+λ
+                                       
+                                                                                                                                                                    A+B 1
+                                       
+Problema 5. Dada la recta r ≡                y = −1 − λ y el plano π ≡ ax + 2y + (a − 3)z = 4,                                                                 P=      = ((1, 0, 0) + (−1, 4, −4)) = (0, 2, −2)
+                                       
+                                                                                                                                                                    2  2
+                                                 z=1
+                                       
+                                                                                                                               Por tanto,
+  (a) (1.25 puntos) Calcula a para que r y π sean paralelos y en ese caso, calcula distancia de r a π.
+                                                                                                                                            (−2) · 0 + 4 · 2 + (−4) · (−2) = D ⇒ D = 16 ⇒ −2x + 4y − 4z = 16 ⇒ x-2y+2z=-8
+                                                                    0
+  (b) (1.25 puntos) Para a = 1, calcula el plano π que contiene a r y es perpendicular a π.
+                                                                                                                           (b) La distancia de A a π es la misma que la distancia de A al punto medio P, o sea,
+                                                                                  →
+                                                                                  −
+  (a) Para que r y π sean paralelos, se debe cumplir que el vector director de r, u                                                                                                    p
+                                                                                                                                                     d = d((1, 0, 0), (0, 2, −2)) =        (1 − 0)2 + (0 − 2)2 + (0 − (−2))2 = 3
+                                                                               →
+                                                                               −
+                                                r ≡ (2, −1, 1) + λ(1, −1, 0) ⇒ u = (1, −1, 0)                                                                                         →
+                                                                                                                                                                                      −
+                                                                                                                           (c) La ecuación continua al obtenemos del vector director u = (−2, 4, −4) y un punto, por ejemplo,
+                                                   →
+                                                   −                                                                           A = (1, 0, 0):
+      debe ser perpendicular al vector normal a π, w = (a, 2, a − 3), luego:
+                                                                                                                                                                                 x −1 y −0 z −0
+                                                                                                                                                                            r≡       =    =
+                                               → −
+                                               −   →                                                                                                                              −2    4   −4
+                                           0 = u · w = (1, −1, 0) · (a, 2, a − 2) = a − 2 ⇒ a = 2
+                                                                                                                                                                                            Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                                 acceso a la Universidad (EBAU)
+                                                                                                                                                                                                       CURSO 2022-2023
+
+
+Problema 7. Una compañı́a tiene tres centrales en Europa en la que se fabrica el mismo producto. El 60 % de           (a) (1.25 puntos) La probabilidad de que la calificación de una persona esté en el intervalo [75, 85].
+las unidades de dicho producto se fabrica en España, el 25 % en Francia y el resto en Portugal. Se observa            (b) (1.25 puntos) Tras resolver las reclamaciones realizadas por los candidatos se observa que la desvia-
+que de las unidades fabricadas tienen algún defecto el 1 % de los fabricados en España, el 0.5 % de los fabri-          ción tı́pica se mantiene pero la probabilidad de obtener más de 90 puntos es 0.05. Decide si la media de
+cados en Francia y el 2 % de los fabricados en Portugal. El departamento de control de calidad central toma               calificaciones ha aumentado, ha disminuido o se ha mantenido.
+una de las unidades fabricadas al azar.
+                                                                                                                       (a) La probabilidad pedida es
+ (a) (1.25 puntos) ¿Cuál es la probabilidad de que la unidad seleccionada tenga algún defecto?                                                          P(75 ≤ X ≤ 85) = P(X ≤ 85) − P(X ≤ 75)
+ (b) (1.25 puntos) Si la unidad seleccionada es defectuosa ¿cuál es la probabilidad de que haya sido fabrica-
+                                                                                                                          Si tipificamos cada una de las probabilidades a la normal N(0, 1)
+       da en Portugal?                                                                                                                                                              
+                                                                                                                                                                       85 − 70
+Llamando Es al suceso estar fabricado en España, Fr a estarlo en Francia y Po a estar fabricado en Portugal                                     P(X ≤ 85) = P Z ≤              = 1.5 = 0.9332 ≡ 93.32 %
+                                                                                                                                                                          10
+se tiene                                                                                                                                                                            
+                                                                                                                                                                       75 − 70
+                                  P(Es) = 0.6,    P(Fr ) = 0.25,   P(Po) = 0.15                                                                  P(X ≤ 75) = P Z ≤              = 0.5 = 0.6915 ≡ 69.15 %
+                                                                                                                                                                          10
+Ahora, si denotamos por D al suceso tener un defecto se tendrı́a                                                          Por lo que la probabilidad pedida es
+
+                            P(D/Es) = 0.01,      P(D/Fr ) = 0.005,   P(D/Po) = 0.02                                                                P(75 ≤ X ≤ 85) = 0.9332 − 0.6915 = 0.2417 ≡ 24.17 %
+
+ (a)
+                                                                                                                       (b) Se pide µ tal que P(X ≤ 90) = 0.95. Esta probabilidad se corresponde con el valor F(1.645). Entonces en
+           P(D) = P(D ∩ Es) + P(D ∩ Fr ) + P(D ∩ Po) = P(D/Es)P(Es) + P(D/Fr )P(Fr ) + P(D/Po)P(Po) =
+                                                                                                                          la normal tipificada Z = 1.645, por lo tanto
+                                  = 0.01 · 0.6 + 0.005 · 0.25 + 0.02 · 0.15 = 0.01025                                                                                90 − µ
+                                                                                                                                                               Z =          = 1.645 ⇒ µ = 73.55
+ (b)                                                                                                                                                                   10
+                                      P(Po ∩ D) P(D/Po)P(Po) 0.02 · 0.15
+                          P(Po/D) =            =            =            = 0.2913                                         y la media ha aumentado en 3.55 puntos.
+                                        P(D)        P(D)      0.01025
+
+Problema 8. En un examen de acceso a Médico Interno Residente se realiza un test y se supera la prueba
+                                                                                                                   ∗
+si se obtiene al menos 75 puntos. Suponiendo que las puntuaciones de los candidatos sigue una distribución            Algunos valores de la función de distribución N(0, 1) son: F(x) = P(Z ≤ x), F(0) = 0.5, F(0.5) = 0.6915,
+normal de media 70 y desviación tı́pica 10, calcule:                                                              F(0.95) = 0.8289, F(1.5) = 0.9332, F(1.645) = 0.95, F(1.8) = 0.9641.
+                                                                                                                                                                               Prueba de evaluación de Bachillerato para el
+                                                                                                                                                                                    acceso a la Universidad (EBAU)
+                                                                                                                                                                                          CURSO 2022-2023
+
+
+                                                                                    MATEMÁTICAS: criterios de corrección
+
+
+
+
+Pregunta 1. Criterios especı́ficos de corrección                                                              Calificación máxima otorgada: 0.5 puntos.
+                                                                                                               Porcentaje asignado a la pregunta con respecto al total de la prueba: 5 %.
+ (a) Bloque de contenidos:
+                                                                                                               Estándares de aprendizaje evaluados:
+      â Bloque 2: Números y Álgebra.
+                                                                                                                 â Bloque 1: 2.1, 2.4, 4.1, 4.2.
+      â Bloque 1: Procesos, métodos y actitudes en matemáticas.
+                                                                                                                 â Bloque 2: 1.2, 2.4.
+    Calificación máxima otorgada: 1.25 puntos.
+                                                                                                            (c) Bloque de contenidos:
+    Porcentaje asignado a la pregunta con respecto al total de la prueba: 12.5 %.
+                                                                                                                 â Bloque 2: Números y Álgebra.
+    Estándares de aprendizaje evaluados:
+                                                                                                                 â Bloque 1: Procesos, métodos y actitudes en matemáticas.
+      â Bloque 1: 2.2, 2.4, 4.1, 4.2, 7.3.
+                                                                                                               Calificación máxima otorgada: 1.25 puntos.
+      â Bloque 2: 1.2, 2.3, 2.4.
+                                                                                                               Porcentaje asignado a la pregunta con respecto al total de la prueba: 12.5 %.
+ (b) Bloque de contenidos:
+                                                                                                               Estándares de aprendizaje evaluados:
+      â Bloque 2: Números y Álgebra.
+                                                                                                                 â Bloque 1: 2.1, 2.4, 4.2, 7.2, 7.3.
+      â Bloque 1: Procesos, métodos y actitudes en matemáticas.
+                                                                                                                 â Bloque 2: 1.1, 2.2.
+    Calificación máxima otorgada: 1.25 puntos.
+                                                                                                           Pregunta 3. Criterios especı́ficos de corrección
+    Porcentaje asignado a la pregunta con respecto al total de la prueba: 12.5 %.
+    Estándares de aprendizaje evaluados:                                                                   (a) Bloque de contenidos:
+
+      â Bloque 1: 2.1, 4.2, 7.2, 7.3                                                                             â Bloque 3: Análisis.
+      â Bloque 2: 1.2, 2.2.                                                                                      â Bloque 1: Procesos, métodos y actitudes en matemáticas.
+
+                                                                                                               Calificación máxima otorgada: 1.25 puntos.
+Pregunta 2. Criterios especı́ficos de corrección
+                                                                                                               Porcentaje asignado a la pregunta con respecto al total de la prueba: 12.5 %
+ (a) Bloque de contenidos:                                                                                     Estándares de aprendizaje evaluados:
+
+      â Bloque 2: Números y Álgebra.                                                                           â Bloque 1: 2.1, 2.4, 4.1, 4.2.
+      â Bloque 1: Procesos, métodos y actitudes en matemáticas.                                                â Bloque 3: 1.1, 1.2.
+
+    Calificación máxima otorgada: 0.75 puntos.                                                            (b) Bloque de contenidos:
+    Porcentaje asignado a la pregunta con respecto al total de la prueba: 7.5 %.                                 â Bloque 3: Análisis.
+    Estándares de aprendizaje evaluados:                                                                        â Bloque 1: Procesos, métodos y actitudes
+      â Bloque 1: 2.2, 2.4, 4.1, 4.2, 7.3.                                                                     Calificación máxima otorgada: 1.25 puntos.
+      â Bloque 2: 1.2.                                                                                         Porcentaje asignado a la pregunta con respecto al total de la prueba: 12.5 %.
+
+ (b) Bloque de contenidos:                                                                                     Estándares de aprendizaje evaluados:
+
+      â Bloque 2: Números y Álgebra.                                                                           â Bloque 1: 2.1, 2.4, 4.1, 4.2.
+
+      â Bloque 1: Procesos, métodos y actitudes en matemáticas.                                                â Bloque 3: 3.1, 4.1.
+                                                                                                                                                        Prueba de evaluación de Bachillerato para el
+                                                                                                                                                             acceso a la Universidad (EBAU)
+                                                                                                                                                                   CURSO 2022-2023
+
+
+Pregunta 4. Criterios especı́ficos de corrección                                          â Bloque 1: Procesos, métodos y actitudes
+
+Bloque de contenidos:                                                                    Calificación máxima otorgada: 1.5 puntos.
+                                                                                         Porcentaje asignado a la pregunta con respecto al total de la prueba: 15 %.
+  â Bloque 3: Análisis.
+                                                                                         Estándares de aprendizaje evaluados:
+  â Bloque 1: Procesos, métodos y actitudes.
+                                                                                           â Bloque 1: 2.1, 2.4, 4.1, 4.2.
+  â Bloque 4: Geometrı́a.
+                                                                                           â Bloque 4: 1.1, 2.2, 2.3, 2.4.
+Calificación máxima otorgada: 2.5 puntos.                                           (b) Bloque de contenidos:
+Porcentaje asignado a la pregunta con respecto al total de la prueba: 25 %.                â Bloque 4: Geometrı́a.
+Estándares de aprendizaje evaluados:                                                      â Bloque 1: Procesos, métodos y actitudes
+
+                                                                                         Calificación máxima otorgada: 0.5 puntos.
+  â Bloque 1: 2.1, 2.4, 4.1, 4.2.
+                                                                                         Porcentaje asignado a la pregunta con respecto al total de la prueba: 5 %.
+  â Bloque 3: 2.2.
+                                                                                         Estándares de aprendizaje evaluados:
+  â Bloque 4: 3.3.
+                                                                                           â Bloque 1: 2.1, 2.4, 4.1, 4.2.
+Pregunta 5. Criterios especı́ficos de corrección                                          â Bloque 4: 3.3.
+
+ (a) Bloque de contenidos:                                                            (c) Bloque de contenidos:
+
+                                                                                           â Bloque 4: Geometrı́a.
+      â Bloque 4: Geometrı́a.
+                                                                                           â Bloque 1: Procesos, métodos y actitudes
+      â Bloque 1: Procesos, métodos y actitudes
+                                                                                         Calificación máxima otorgada: 0.5 puntos.
+     Calificación máxima otorgada: 1.25 puntos.
+                                                                                         Porcentaje asignado a la pregunta con respecto al total de la prueba: 5 %.
+     Porcentaje asignado a la pregunta con respecto al total de la prueba: 12.5 %.
+                                                                                         Estándares de aprendizaje evaluados:
+     Estándares de aprendizaje evaluados:
+                                                                                           â Bloque 1: 2.1, 2.4, 4.1, 4.2.
+      â Bloque 1: 2.1, 2.4, 4.1, 4.2.
+                                                                                           â Bloque 4: 2.1.
+      â Bloque 4: 1.1, 2.1, 2.4, 3.1.
+
+ (b) Bloque de contenidos:                                                           Pregunta 7. Criterios especı́ficos de corrección
+
+      â Bloque 4: Geometrı́a.                                                         (a) Bloque de contenidos:
+      â Bloque 1: Procesos, métodos y actitudes                                           â Bloque 5: Estadı́stica y Probabilidad.
+     Calificación máxima otorgada: 1.25 puntos.                                          â Bloque 1: Procesos, métodos y actitudes
+
+     Porcentaje asignado a la pregunta con respecto al total de la prueba: 12.5 %.       Calificación máxima otorgada: 1.25 puntos.
+     Estándares de aprendizaje evaluados:                                               Porcentaje asignado a la pregunta con respecto al total de la prueba: 12.5 %.
+
+      â Bloque 1: 2.1, 2.4, 4.1, 4.2.                                                    Estándares de aprendizaje evaluados:
+
+      â Bloque 4: 2.2, 3.3.                                                                â Bloque 1: 2.1, 2.4, 4.1, 4.2, 8.1.
+                                                                                           â Bloque 5: 2.3, 2.4.
+Pregunta 6. Criterios especı́ficos de corrección
+                                                                                      (b) Bloque de contenidos:
+ (a) Bloque de contenidos:                                                                 â Bloque 5: Estadı́stica y Probabilidad.
+      â Bloque 4: Geometrı́a.                                                              â Bloque 1: Procesos, métodos y actitudes
+                                                                                                                                                      Prueba de evaluación de Bachillerato para el
+                                                                                                                                                           acceso a la Universidad (EBAU)
+                                                                                                                                                                 CURSO 2022-2023
+
+
+    Calificación máxima otorgada: 1.25 puntos.                                       Estándares de aprendizaje evaluados:
+    Porcentaje asignado a la pregunta con respecto al total de la prueba: 12.5 %.       â Bloque 1: 2.1, 2.4, 4.1, 4.2, 8.1.
+    Estándares de aprendizaje evaluados:                                               â Bloque 5: 2.3, 2.4.
+      â Bloque 1: 2.1, 2.4, 4.1, 4.2, 8.1.
+                                                                                    (b) Bloque de contenidos:
+      â Bloque 5: 2.3, 2.4.
+                                                                                        â Bloque 5: Estadı́stica y Probabilidad.
+Pregunta 8. Criterios especı́ficos de corrección                                       â Bloque 1: Procesos, métodos y actitudes
+
+ (a) Bloque de contenidos:                                                             Calificación máxima otorgada: 1.25 puntos.
+
+      â Bloque 5: Estadı́stica y Probabilidad.                                         Porcentaje asignado a la pregunta con respecto al total de la prueba: 12.5 %.
+
+      â Bloque 1: Procesos, métodos y actitudes                                       Estándares de aprendizaje evaluados:
+
+    Calificación máxima otorgada: 1.25 puntos.                                        â Bloque 1: 2.1, 2.4, 4.1, 4.2, 8.1.
+    Porcentaje asignado a la pregunta con respecto al total de la prueba: 12.5 %.       â Bloque 5: 2.3, 2.4.
+
