@@ -51,7 +51,7 @@ ABREV = {
     'amus': 'musica', 'anm': 'musica', 'hmus': 'musica', 'cau': 'audiovisual', 'aesc': 'escenicas', 'ae': 'escenicas', 'lidr': 'literaturadram',
     'cien': 'ciencias', 'cg': 'ciencias', 'mg': 'matgenerales', 'mcult': 'movimientos', 'mca': 'movimientos'}
 # Pruebas que no son la PAU de bachillerato (mayores de 25/45, PAP de Cataluña…): se descartan
-NO_PAU = re.compile(r'mayores (de )?(25|45)|majors (de )?(25|45)|maiores (de )?(25|45)|\bm25\b|\bm45\b|\bpap\b|\b25 anos\b|prova d.acces per a majors|ciclos? formativos? de grado medio')
+NO_PAU = re.compile(r'personal investigador|oferta de contractaci|contrato de investigaci|mayores (de )?(25|45)|majors (de )?(25|45)|maiores (de )?(25|45)|\bm25\b|\bm45\b|\bpap\b|\b25 anos\b|prova d.acces per a majors|ciclos? formativos? de grado medio')
 
 
 def fichero_de(url):
@@ -173,6 +173,7 @@ class Rastreador:
                 if host == 'drive.google.com' and not es_pdf(u): continue
                 info = {'texto': texto, 'contexto': ctx, 'pagina': r.url, 'titulo': titulo, 'ruta': ruta}
                 solo_pdf = bool(re.fullmatch(r'\s*(pdf|descargar( pdf)?|descarga)\s*', texto, re.I))   # CiUG: enlaces «PDF» a /link/…
+                if any(x in u for x in self.cfg.get('excluir', [])): continue
                 if es_pdf(u) or solo_pdf:
                     if es_gestor(u) and not parece_examen(ctx if solo_pdf else texto, u):
                         continue                         # /file/… o /documents/d/… que no nombra materia ni examen (ayudas, presupuestos…)
@@ -398,6 +399,7 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
     previo = {d['url']: d for d in json.loads(man_p.read_text())['documentos']} if man_p.exists() else {}
     # se descartan los documentos de gestor (UCM /file/…) ya guardados que no tenían pinta de examen: listados, ayudas…
     previo = {k: v for k, v in previo.items() if k.startswith('manual:') or not es_gestor(k.split('#')[0]) or parece_examen(v.get('enlace', ''), k)}
+    previo = {k: v for k, v in previo.items() if not any(x in k for x in cc.get('excluir', []))}   # lo excluido sale también de lo ya guardado
     docs, logl = dict(previo), []
     log = lambda m: (print(m, flush=True), logl.append(m))
     log(f'== {cc["nombre"]}')

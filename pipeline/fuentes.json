@@ -64,7 +64,12 @@
         "uib.cat",
         "uib.es"
       ],
-      "profundidad": 3
+      "profundidad": 3,
+      "excluir": [
+        "investigacio.uib.",
+        "resultats_p",
+        "estadistiques"
+      ]
     },
     "canarias": {
       "nombre": "Canarias",
