@@ -90,6 +90,8 @@ def anio_de(*textos, anios=range(2022, 2027)):
         if m:
             a = int('20' + m.group(3))
             if a in anios: return a
+        m = re.search(r'(?<!\d)(20[12]\d)[\s\u00a0]+(20[12]\d)(?!\d)', n)   # «2022 2023» (carpetas de curso de Liferay)
+        if m and int(m.group(2)) == int(m.group(1)) + 1 and int(m.group(2)) in anios: return int(m.group(2))
         for y in re.findall(r'(?<!\d)(20[12]\d)(?!\d)', n):
             if int(y) in anios: return int(y)
     return None
@@ -146,11 +148,11 @@ class Rastreador:
     def pdfs(self, semillas):
         """BFS por el mismo dominio. Devuelve {url_pdf: {'texto':…, 'contexto':…, 'pagina':…}}"""
         dominios = {'.'.join(urlparse(u).hostname.split('.')[-2:]) for u in semillas} | set(self.cfg.get('dominios_extra', []))
-        visto, cola, encontrados, meta = set(), deque((u, 0) for u in semillas), {}, {}
+        visto, cola, encontrados, meta = set(), deque((u, 0, '') for u in semillas), {}, {}
         while cola and len(visto) < self.cfg['max_paginas']:
             if time.time() > self.limite:
                 self.log('  tiempo de rastreo agotado: se sigue con lo encontrado'); break
-            url, d = cola.popleft()
+            url, d, ruta = cola.popleft()
             if url in visto: continue
             visto.add(url)
             r = self.get(url)
@@ -161,20 +163,23 @@ class Rastreador:
             if 'html' not in ct and 'xml' not in ct: continue
             mt = re.search(r'<title[^>]*>(.*?)</title>', r.text, re.I | re.S)
             titulo = limpio(mt.group(1))[:200] if mt else ''
+            mb = re.search(r'<base[^>]+href=["\']([^"\']+)', r.text[:20000], re.I)
+            raiz = urljoin(r.url, mb.group(1)) if mb else r.url   # <base href> (CiUG: los enlaces «link/…» cuelgan de la raíz)
             for href, texto, ctx in enlaces(r.text):
-                u = urljoin(r.url, href).split('#')[0]
+                u = urljoin(raiz, href).split('#')[0]
                 if not u.startswith('http'): continue
                 host = urlparse(u).hostname or ''
                 if '.'.join(host.split('.')[-2:]) not in dominios and host != 'drive.google.com': continue
                 if host == 'drive.google.com' and not es_pdf(u): continue
-                info = {'texto': texto, 'contexto': ctx, 'pagina': r.url, 'titulo': titulo}
+                info = {'texto': texto, 'contexto': ctx, 'pagina': r.url, 'titulo': titulo, 'ruta': ruta}
                 if es_pdf(u):
                     if es_gestor(u) and not parece_examen(texto, u):
                         continue                         # /file/… o /documents/d/… que no nombra materia ni examen (ayudas, presupuestos…)
                     encontrados.setdefault(u, info)
-                elif d < self.cfg['profundidad'] and ENLACE_INTERES.search(u + ' ' + texto) and u not in visto:
+                elif d < self.cfg['profundidad'] and ENLACE_INTERES.search(u + ' ' + texto) and u not in visto \
+                        and (not self.cfg.get('solo_rutas') or any(x in u for x in self.cfg['solo_rutas'])):   # Uniovi: no perderse por el menú
                     meta.setdefault(u, info)             # por si resulta ser un PDF sin «.pdf» en la URL
-                    cola.append((u, d + 1))
+                    cola.append((u, d + 1, (ruta + ' › ' + limpio(texto))[-300:]))
             time.sleep(self.cfg.get('pausa', 0.2))
         self.log(f'  {len(visto)} páginas visitadas, {len(encontrados)} PDF')
         return encontrados
@@ -252,8 +257,9 @@ def texto_pdf(pdf, txt):
 def clasifica(url, info, anios):
     fich = fichero_de(url)
     mat = materia_de(fich, info['texto'], info['contexto']) or materia_abrev(fich, info['texto'])
-    anio = anio_de(fich, info['texto'], url, info['contexto'], info.get('titulo', ''), info.get('pagina', ''), anios=anios)
+    anio = anio_de(fich, info['texto'], url, info['contexto'], info.get('titulo', ''), info.get('pagina', ''), info.get('ruta', ''), anios=anios)
     conv = conv_de(fich, info['texto'], info['contexto'])
+    if conv == 'nd' and info.get('ruta'): conv = conv_de(info['ruta'].split('›')[-1])   # carpeta «Junio»/«Julio»
     tipo = tipo_de(fich, info['texto'])
     return mat, anio, conv, tipo
 
@@ -292,10 +298,16 @@ def guarda_manifiesto(cid, docs, logl, pendientes=None):
     sube(cid)
 
 
+CABECERA_MANDA = {'si': False}
 def completa_con_texto(d, texto, anios):
     """Si el enlace no decía la materia, la convocatoria o el año, se miran en la cabecera del propio examen
     (Galicia nombra los PDF por código: «20.pdf» = «MATEMÁTICAS II · CÓDIGO 20»)."""
     cab = texto[:1500]
+    if CABECERA_MANDA['si'] and EXAMEN_RX.search(norm(cab[:800])):
+        mc, ac, cc_ = materia_de(cab), anio_de(cab[:800], anios=anios), conv_de(cab[:800])
+        if mc: d['materia'] = mc
+        if ac: d['anio'] = ac
+        if cc_ != 'nd': d['conv'] = cc_
     if not d['materia'] and EXAMEN_RX.search(norm(cab[:800])): d['materia'] = materia_de(cab)   # solo si la cabecera parece de examen
     if d['conv'] == 'nd': d['conv'] = conv_de(cab)
     if not d.get('anio'): d['anio'] = anio_de(cab, anios=anios)
@@ -383,7 +395,8 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
     docs, logl = dict(previo), []
     log = lambda m: (print(m, flush=True), logl.append(m))
     log(f'== {cc["nombre"]}')
-    cfg = {**cfg, **{k: cc[k] for k in ('pausa', 'max_paginas', 'profundidad') if k in cc}}
+    CABECERA_MANDA['si'] = bool(cc.get('cabecera_manda'))
+    cfg = {**cfg, **{k: cc[k] for k in ('pausa', 'max_paginas', 'profundidad', 'solo_rutas') if k in cc}}
     encontrados = Rastreador(s, cfg, log, limite=t0 + 0.4 * tiempo).pdfs(cc['semillas'])
     for pl in cc.get('plantillas', []):
         for u in candidatos_plantilla(pl, anios):

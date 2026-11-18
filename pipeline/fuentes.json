@@ -27,11 +27,19 @@
     "asturias": {
       "nombre": "Principado de Asturias",
       "semillas": [
-        "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau",
+        "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/examenes/lomce?folderId=83975&redirect=75224",
+        "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/examenes/lomce?folderId=83981&redirect=75224",
+        "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/examenes/lomce?folderId=3365058&redirect=75224",
         "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/modelosdefinitivos",
-        "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/modelos-provisionales-ex%C3%A1menes-pau-2025",
-        "https://www.uniovi.es/estudia/grados/sobrelosgrados/ebau/asignaturas-pau-2025-2026"
-      ]
+        "https://www.uniovi.es/estudia/grados/sobrelosgrados/pau"
+      ],
+      "solo_rutas": [
+        "/ebau/examenes",
+        "/ebau/modelos",
+        "/sobrelosgrados/pau"
+      ],
+      "profundidad": 4,
+      "max_paginas": 400
     },
     "baleares": {
       "nombre": "Illes Balears",
@@ -100,9 +108,10 @@
     "galicia": {
       "nombre": "Galicia",
       "semillas": [
-        "https://ciug.gal/gal/pau",
-        "https://ciug.gal/modelos-exame-pau-2026",
-        "https://ciug.gal/gal/pau/exames"
+        "https://ciug.gal/pau",
+        "https://ciug.gal/pau/exames",
+        "https://ciug.gal/pau/exames-pau-2025",
+        "https://ciug.gal/exames-pau-2026"
       ],
       "plantillas": [
         {
@@ -116,8 +125,21 @@
             "extraordinaria"
           ],
           "cod": "01-60,90-95"
+        },
+        {
+          "url": "https://ciug.gal/PDF/{anio}/{prueba}/{conv}/criterios/{cod}.pdf",
+          "prueba": [
+            "PAU",
+            "ABAU"
+          ],
+          "conv": [
+            "ordinaria",
+            "extraordinaria"
+          ],
+          "cod": "01-60,90-95"
         }
-      ]
+      ],
+      "cabecera_manda": true
     },
     "rioja": {
       "nombre": "La Rioja",
@@ -167,5 +189,5 @@
       "pausa": 1.5
     }
   },
-  "_nota_opciones": "Opciones por comunidad: pausa (s entre peticiones), timeout (s para conectar), max_paginas, profundidad, dominios_extra (otros dominios de la misma institución, p. ej. uib.cat y uib.es) y plantillas (URL con {anio} y listas o rangos «01-60» para el resto de campos)."
+  "_nota_opciones": "Opciones por comunidad: pausa (s entre peticiones), timeout (s para conectar), max_paginas, profundidad, dominios_extra (otros dominios de la misma institución, p. ej. uib.cat y uib.es) y plantillas (URL con {anio} y listas o rangos «01-60» para el resto de campos). También: solo_rutas (solo se siguen las páginas cuya URL contiene alguno de esos trozos) y cabecera_manda (la materia, el año y la convocatoria de la cabecera del PDF mandan sobre el texto del enlace)."
 }
