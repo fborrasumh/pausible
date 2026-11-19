@@ -21667,6 +21667,3248 @@
    },
    "predecibilidad": 0.88
   },
+  "castillalamancha": {
+   "nombre": "Castilla-La Mancha",
+   "materias": {
+    "aleman": {
+     "nombre": "Lengua Extranjera II: Alemán",
+     "n_examenes": 6,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Alemán junio examen __Aleman-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Alemán julio examen __Aleman-Extraordinaria.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Alemán junio examen __Aleman-Ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Alemán junio examen __Aleman1.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Alemán junio examen __ALEMAN.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Alemán junio examen __ALEMAN-EXAMEN-PAU-2026.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "audiovisual": {
+     "nombre": "Cultura Audiovisual",
+     "n_examenes": 4,
+     "anios": [
+      2022,
+      2023
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Cultura Audiovisual julio examen __Cultura-Audiovisual.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Cultura Audiovisual junio examen __Cultura-audiovisual-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Cultura Audiovisual julio examen __Cultura-Audiovisual-Extraordinaria.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Cultura Audiovisual junio examen __Cultura-audiovisual-Ordinaria-2023.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "biologia": {
+     "nombre": "Biología",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Biología julio examen __Biologia.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Biología junio examen __Biologia-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Biología julio examen __Biologia-Extraordinaria.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Biología junio examen __Biologia-Ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Biología julio examen __BIOLOGIA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Biología junio examen __Biologia.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Biología julio examen __BIOLOGIA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Biología junio examen __BIOLOGIA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Biología julio examen __Biologia.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Biología junio examen __Biologia.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "biomoleculas",
+       "nombre": "Biomoléculas",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "d. ¿Cómo se llama la enzima que lleva a cabo",
+       "muestra_url": "manual:manual/castillalamancha/2026/Biología junio examen __Biologia.txt"
+      },
+      {
+       "id": "celula",
+       "nombre": "La célula",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "1. Dado el siguiente fragmento de ARNm de una célula eucariota :",
+       "muestra_url": "manual:manual/castillalamancha/2026/Biología junio examen __Biologia.txt"
+      },
+      {
+       "id": "metabolismo",
+       "nombre": "Metabolismo",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "2.1. El aumento de CO 2 atmosférico ha impulsado estudios sobre la fotosíntesis y las rutas metabólicas",
+       "muestra_url": "manual:manual/castillalamancha/2026/Biología junio examen __Biologia.txt"
+      },
+      {
+       "id": "molecular",
+       "nombre": "Genética molecular y biotecnología",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "1. Dado el siguiente fragmento de ARNm de una célula eucariota :",
+       "muestra_url": "manual:manual/castillalamancha/2026/Biología junio examen __Biologia.txt"
+      },
+      {
+       "id": "inmunologia",
+       "nombre": "Inmunología",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "2.2. Durante una infección bacteriana, el organismo activa el sistema inmunitario, lo que implica la",
+       "muestra_url": "manual:manual/castillalamancha/2026/Biología junio examen __Biologia.txt"
+      },
+      {
+       "id": "division",
+       "nombre": "División celular",
+       "p": 0.687,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "d. En la figura B se muestra un cromosoma.",
+       "muestra_url": "manual:manual/castillalamancha/2026/Biología junio examen __Biologia.txt"
+      },
+      {
+       "id": "microbiologia",
+       "nombre": "Microbiología",
+       "p": 0.567,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "2.2. Durante una infección bacteriana, el organismo activa el sistema inmunitario, lo que implica la",
+       "muestra_url": "manual:manual/castillalamancha/2026/Biología junio examen __Biologia.txt"
+      },
+      {
+       "id": "genetica",
+       "nombre": "Genética mendeliana",
+       "p": 0.207,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2023,
+       "tendencia": "baja",
+       "muestra": "humanoides ovíparos que pueden tener la piel azul por el alelo dominante ( A) o amarilla (a) . Por",
+       "muestra_url": "manual:manual/castillalamancha/2023/Biología junio examen __Biologia-Ordinaria-2023.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 7,
+      "aciertos": 7,
+      "tasa": 1.0,
+      "azar": 0.88,
+      "top": [
+       "biomoleculas",
+       "celula",
+       "metabolismo",
+       "molecular",
+       "inmunologia",
+       "division",
+       "microbiologia"
+      ],
+      "reales": [
+       "biomoleculas",
+       "celula",
+       "division",
+       "inmunologia",
+       "metabolismo",
+       "microbiologia",
+       "molecular"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "ciencias": {
+     "nombre": "Ciencias Generales",
+     "n_examenes": 6,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Ciencias Generales julio examen __CIENCIAS-GENERALES.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Ciencias Generales junio examen __Ciencias-Generales.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Ciencias Generales julio examen __CIENCIAS-GENERALES.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Ciencias Generales junio examen __CIENCIAS-GENERALES.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Ciencias Generales julio examen __Ciencias-Generales.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Ciencias Generales junio examen __CIENCIAS-GENERALES.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "dibujo": {
+     "nombre": "Dibujo Técnico II",
+     "n_examenes": 15,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Dibujo Técnico II julio examen __Dibujo-Tecnico.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Dibujo Técnico II junio examen __Dibujo-Tecnico-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Dibujo Técnico II junio examen __Dibujo-Tecnico-Ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Dibujo Técnico II julio examen __DIBUJO-TECNICO.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Dibujo Técnico aplicado a las Artes y al Diseño II julio examen __DIBUJO-TECNICO-APLICADO-A-LAS-ARTES-Y-AL-DISENO.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Dibujo Técnico II junio examen __Dibujo-tecnico.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Dibujo Técnico aplicado a las Artes y al Diseño II junio examen __Dibujo-tcnico-aplicado-a-las-artes-plsticas.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Dibujo Técnico II julio examen __DIBUJO-TECNICO.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Dibujo Técnico aplicado a las Artes y al Diseño II julio examen __DIBUJO-TECNICO-APLICADO-PD.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Dibujo Técnico II junio examen __DIBUJO-TECNICO.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Dibujo Técnico aplicado a las Artes y al Diseño II junio examen __DIBUJO-TECNICO-APLICADO-APD-II.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Dibujo Técnico II julio examen __Dibujo-Tecnico.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Dibujo Técnico aplicado a las Artes y al Diseño II julio examen __Diujo-Tecnico-Aplicado.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Dibujo Técnico II junio examen __DibujoTecnicoII.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Dibujo Técnico aplicado a las Artes y al Diseño II junio examen __DibTecAplicado.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "diedrico",
+       "nombre": "Sistema diédrico",
+       "p": 0.663,
+       "veces": 10,
+       "de": 15,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "Resolución: Resuelve preferiblemente todos los ejercicios en esta hoja. Puedes usar el cuadernillo para operaciones \"a sucio\"o si lo prefieres puedes resolver en el cuadernillo, indícalo con \"RESUELTO EN EL CUADERNILLO\". Usa cualquier herramienta (lápiz, rotuladores, colores) par…",
+       "muestra_url": "manual:manual/castillalamancha/2026/Dibujo Técnico II junio examen __DibujoTecnicoII.txt"
+      },
+      {
+       "id": "geometriaplana",
+       "nombre": "Geometría plana (tangencias, transformaciones)",
+       "p": 0.514,
+       "veces": 7,
+       "de": 15,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "Dada una elipse definida por uno de sus focos F, una recta tangente t y su punto de tangencia P. Se pide: Determinar el foco F', sabiendo que la longitud del eje mayor es igual al triple del segmento FP. Determinar los ejes mayor y menor de la elipse. Dibujar la curva. Trazar la …",
+       "muestra_url": "manual:manual/castillalamancha/2026/Dibujo Técnico II junio examen __DibujoTecnicoII.txt"
+      },
+      {
+       "id": "axonometrico",
+       "nombre": "Axonométrico y perspectiva",
+       "p": 0.495,
+       "veces": 9,
+       "de": 15,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "BLOQUE B. Sistemas de representación del espacio aplicado. Ejercicio B1. Perspectiva cónica. (3,5 puntos). En una escenografía se incluye la",
+       "muestra_url": "manual:manual/castillalamancha/2026/Dibujo Técnico aplicado a las Artes y al Diseño II junio examen __DibTecAplicado.txt"
+      },
+      {
+       "id": "normalizacion",
+       "nombre": "Normalización y vistas",
+       "p": 0.495,
+       "veces": 9,
+       "de": 15,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "BLOQUE C. Normalización y diseño de proyectos. Ejercicio C1. Croquis Acotado en Sistema Diédrico. (3 puntos). A partir del dibujo isométrico de un",
+       "muestra_url": "manual:manual/castillalamancha/2026/Dibujo Técnico aplicado a las Artes y al Diseño II junio examen __DibTecAplicado.txt"
+      },
+      {
+       "id": "conicas",
+       "nombre": "Cónicas",
+       "p": 0.453,
+       "veces": 6,
+       "de": 15,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "Dada una elipse definida por uno de sus focos F, una recta tangente t y su punto de tangencia P. Se pide: Determinar el foco F', sabiendo que la longitud del eje mayor es igual al triple del segmento FP. Determinar los ejes mayor y menor de la elipse. Dibujar la curva. Trazar la …",
+       "muestra_url": "manual:manual/castillalamancha/2026/Dibujo Técnico II junio examen __DibujoTecnicoII.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 5,
+      "aciertos": 5,
+      "tasa": 1.0,
+      "azar": 1.0,
+      "top": [
+       "axonometrico",
+       "normalizacion",
+       "diedrico",
+       "conicas",
+       "geometriaplana"
+      ],
+      "reales": [
+       "axonometrico",
+       "conicas",
+       "diedrico",
+       "geometriaplana",
+       "normalizacion"
+      ]
+     },
+     "confianza": "baja"
+    },
+    "dibujoartistico": {
+     "nombre": "Dibujo Artístico II",
+     "n_examenes": 6,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Dibujo Artístico II julio examen __DIBUJO-ARTISTICO.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Dibujo Artístico II junio examen __Dibujo-Artistico.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Dibujo Artístico II julio examen __DIBUJO-ARTISTICO.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Dibujo Artístico II junio examen __DIBUJO-ARTISTICO.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Dibujo Artístico II julio examen __DIBUJO-ARTISTICO-2026.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Dibujo Artístico II junio examen __DIBUJO-ARTISTICO-2026.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "diseno": {
+     "nombre": "Diseño",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Diseño julio examen __Diseno.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Diseño junio examen __Diseno-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Diseño julio examen __Diseno-Extra.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Diseño junio examen __Diseno-Ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Diseño julio examen __DISENO.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Diseño junio examen __DISENO.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Diseño julio examen __Diseno.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Diseño junio examen __DISENO.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Diseño julio examen __Diseno2026.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Diseño junio examen __Diseno.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "empresa": {
+     "nombre": "Empresa y Diseño de Modelos de Negocio / Economía de la Empresa",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Economía de la Empresa julio examen __Economia-de-la-Empresa.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Economía de la Empresa junio examen __Economia-empresa-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Economía de la Empresa julio examen __Economia-Extraordinaria.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Economía de la Empresa junio examen __Economia-de-la-Empresa-Ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Empresa y Diseño de Modelos de Negocio julio examen __EMPRESA-Y-DISENO-DE-MODELOS-DE-NEGOCIO.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Empresa y Diseño de Modelos de Negocio junio examen __Empresa-y-Diseno-de-Modelos-de-Negocio.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Empresa y Diseño de Modelos de Negocio julio examen __Empresa-y-diseno-de-modelos-de-negocio.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Empresa y Diseño de Modelos de Negocio junio examen __Empresa-y-diseo-de-modelos-de-negocio.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Empresa y Diseño de Modelos de Negocio julio examen __Empresa-y-disenno-de-modelos-de-negocio.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Empresa y Diseño de Modelos de Negocio junio examen __Empresa-y-diseno-de-modelos-de-negocio.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "produccion",
+       "nombre": "Producción, costes y umbral de rentabilidad",
+       "p": 0.834,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "4.1.1. Calcule la productividad de la mano de obra del Refresco B, sabiendo que se emplean 48",
+       "muestra_url": "manual:manual/castillalamancha/2026/Empresa y Diseño de Modelos de Negocio junio examen __Empresa-y-diseno-de-modelos-de-negocio.txt"
+      },
+      {
+       "id": "marketing",
+       "nombre": "Marketing",
+       "p": 0.787,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "La startup DigiMarket ha lanzado una plataforma digital. Su plan de negocio se basa en la identificación de un crecimiento del consumo de contenido digital y comercio online especializado. La empresa prevé realizar una inversión en tecnología y marketing. Además, en los próximos …",
+       "muestra_url": "manual:manual/castillalamancha/2026/Empresa y Diseño de Modelos de Negocio julio examen __Empresa-y-disenno-de-modelos-de-negocio.txt"
+      },
+      {
+       "id": "contabilidad",
+       "nombre": "Balance y análisis financiero (ratios)",
+       "p": 0.761,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "3.1.1. Elabore el Balance de Situación debidamente ordenado y clasificado según el PGC",
+       "muestra_url": "manual:manual/castillalamancha/2026/Empresa y Diseño de Modelos de Negocio junio examen __Empresa-y-diseno-de-modelos-de-negocio.txt"
+      },
+      {
+       "id": "financiacion",
+       "nombre": "Inversión y financiación (VAN, TIR, payback)",
+       "p": 0.725,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "• Se permite el uso de calculadoras científicas básicas y científicas avanzadas.",
+       "muestra_url": "manual:manual/castillalamancha/2026/Empresa y Diseño de Modelos de Negocio julio examen __Empresa-y-disenno-de-modelos-de-negocio.txt"
+      },
+      {
+       "id": "modelonegocio",
+       "nombre": "Modelo de negocio y emprendimiento (Canvas)",
+       "p": 0.295,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "PREGUNTA 3. EL MODELO DE NEGOCIO Y DE GESTIÓN. PROBLEMA .",
+       "muestra_url": "manual:manual/castillalamancha/2026/Empresa y Diseño de Modelos de Negocio junio examen __Empresa-y-diseno-de-modelos-de-negocio.txt"
+      },
+      {
+       "id": "organizacion",
+       "nombre": "Organización y dirección",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 3,
+      "aciertos": 2,
+      "tasa": 0.67,
+      "azar": 0.5,
+      "top": [
+       "marketing",
+       "produccion",
+       "contabilidad"
+      ],
+      "reales": [
+       "contabilidad",
+       "modelonegocio",
+       "produccion"
+      ]
+     },
+     "confianza": "media"
+    },
+    "escenicas": {
+     "nombre": "Artes Escénicas II",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Artes Escénicas julio examen __Artes-Escenicas.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Artes Escénicas junio examen __Artes-Escenicas-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Artes Escénicas julio examen __Artes-Escenicas-Extraordinaria.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Artes Escénicas junio examen __Artes-Escenicas-ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Artes Escénicas julio examen __ARTES-ESCENICAS.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Artes Escénicas junio examen __Artes-Escenicas.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Artes Escénicas julio examen __ARTES-ESCENICAS.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Artes Escénicas junio examen __ARTES-ESCENICAS.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Artes Escénicas julio examen __ARTES-ESCENICAS-II-2026.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Artes Escénicas junio examen __ARTES-ESCENICAS-II-2026.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "filosofia": {
+     "nombre": "Historia de la Filosofía",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Historia de la Filosofía julio examen __Historia-de-la-Filosofia.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Historia de la Filosofía junio examen __Historia--Filosofia-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Historia de la Filosofía julio examen __Historia-de-la-Filosofia-Extraordinaria.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Historia de la Filosofía junio examen __Historia-de-la-Filosofia-Ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Historia de la Filosofía julio examen __HISTORIA-DE-LA-FILOSOFIA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Historia de la Filosofía junio examen __Historia-de-la-Filosofia.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Historia de la Filosofía julio examen __Historia-de-la-filosofia.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Historia de la Filosofía junio examen __HISTORIA-DE-LA-FILOSOFIA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Historia de la Filosofía julio examen __Historia-de-la-Filosofia.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Historia de la Filosofía junio examen __Historia-de-la-Filosofia.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "marx",
+       "nombre": "Marx",
+       "p": 0.761,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "9. Para Marx, la ideolog í a sirve para justificar el orden",
+       "muestra_url": "manual:manual/castillalamancha/2026/Historia de la Filosofía junio examen __Historia-de-la-Filosofia.txt"
+      },
+      {
+       "id": "platon",
+       "nombre": "Platón",
+       "p": 0.754,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "1. Para Platón, la verdadera realidad es:",
+       "muestra_url": "manual:manual/castillalamancha/2026/Historia de la Filosofía julio examen __Historia-de-la-Filosofia.txt"
+      },
+      {
+       "id": "kant",
+       "nombre": "Kant",
+       "p": 0.708,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "como no conocida por nosotros, a pesar de ser real por s í misma ( I. KANT, Crí tica de la razó n pura, B XIX - XX, ed. P.",
+       "muestra_url": "manual:manual/castillalamancha/2026/Historia de la Filosofía junio examen __Historia-de-la-Filosofia.txt"
+      },
+      {
+       "id": "medieval",
+       "nombre": "Agustín de Hipona / Tomás de Aquino",
+       "p": 0.63,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "4. Seg ú n Tom á s de Aquino, la existencia de Dios",
+       "muestra_url": "manual:manual/castillalamancha/2026/Historia de la Filosofía junio examen __Historia-de-la-Filosofia.txt"
+      },
+      {
+       "id": "nietzsche",
+       "nombre": "Nietzsche",
+       "p": 0.549,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "6. Nietzsche defiende los valores tradicionales",
+       "muestra_url": "manual:manual/castillalamancha/2026/Historia de la Filosofía julio examen __Historia-de-la-Filosofia.txt"
+      },
+      {
+       "id": "descartes",
+       "nombre": "Descartes",
+       "p": 0.543,
+       "veces": 5,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "4. La duda metódica en Descartes tiene como",
+       "muestra_url": "manual:manual/castillalamancha/2026/Historia de la Filosofía julio examen __Historia-de-la-Filosofia.txt"
+      },
+      {
+       "id": "contemporanea",
+       "nombre": "Filosofía contemporánea (Arendt, Wittgenstein, Beauvoir…)",
+       "p": 0.497,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "7. Wittgenstein fue un fil ó sofo del siglo XVI",
+       "muestra_url": "manual:manual/castillalamancha/2026/Historia de la Filosofía junio examen __Historia-de-la-Filosofia.txt"
+      },
+      {
+       "id": "empirismo",
+       "nombre": "Hume / Locke",
+       "p": 0.485,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "5. Según Hume las impresiones son copias de",
+       "muestra_url": "manual:manual/castillalamancha/2025/Historia de la Filosofía junio examen __HISTORIA-DE-LA-FILOSOFIA.txt"
+      },
+      {
+       "id": "aristoteles",
+       "nombre": "Aristóteles",
+       "p": 0.348,
+       "veces": 5,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "baja",
+       "muestra": "la casa familiar y la ciudad (ARISTÓTELES, Política , trad. de Carlos García Gual, Madrid, Alianza,",
+       "muestra_url": "manual:manual/castillalamancha/2025/Historia de la Filosofía julio examen __Historia-de-la-filosofia.txt"
+      },
+      {
+       "id": "ortega",
+       "nombre": "Ortega y Gasset",
+       "p": 0.05,
+       "veces": 1,
+       "de": 10,
+       "ultimo": 2022,
+       "tendencia": "estable",
+       "muestra": "1. Ortega y Gasset defendía la apertura de la cultura española a la tradición filosófica europea.",
+       "muestra_url": "manual:manual/castillalamancha/2022/Historia de la Filosofía julio examen __Historia-de-la-Filosofia.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 4,
+      "aciertos": 3,
+      "tasa": 0.75,
+      "azar": 0.4,
+      "top": [
+       "medieval",
+       "marx",
+       "platon",
+       "kant"
+      ],
+      "reales": [
+       "contemporanea",
+       "kant",
+       "marx",
+       "medieval"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "fisica": {
+     "nombre": "Física",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Física julio examen __Fisica.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Física junio examen __Fisica-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Física julio examen __Fisica-Extraordinaria.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Física junio examen __Fisica-Ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Física julio examen __FISICA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Física junio examen __FISICA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Física julio examen __Fisica.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Física junio examen __FISICA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Física julio examen __Fisica.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Física junio examen __Fisica_PAU_2026.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "electrico",
+       "nombre": "Campo eléctrico",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "PREGUNTA B 1. (0.5 puntos) Determinar el trabajo realizado sobre una carga de 4 nC al llevarla",
+       "muestra_url": "manual:manual/castillalamancha/2026/Física junio examen __Fisica_PAU_2026.txt"
+      },
+      {
+       "id": "optica",
+       "nombre": "Óptica",
+       "p": 0.861,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "PREGUNTA C1 . ( 0.5 puntos) Construye la imagen de un objeto situado a una distancia entre f y 2f",
+       "muestra_url": "manual:manual/castillalamancha/2026/Física junio examen __Fisica_PAU_2026.txt"
+      },
+      {
+       "id": "gravitacion",
+       "nombre": "Campo gravitatorio",
+       "p": 0.848,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "iniciar la reentrada a la atmósfera, Orion (masa 𝑚 = 26 . 3 · 10 3 kg) describe una órbita circular alrededor",
+       "muestra_url": "manual:manual/castillalamancha/2026/Física junio examen __Fisica_PAU_2026.txt"
+      },
+      {
+       "id": "ondas",
+       "nombre": "Ondas y sonido",
+       "p": 0.761,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "Orion con cuatro astronautas para la exploración de la cara oculta de la Luna. Uno de los aspectos clave",
+       "muestra_url": "manual:manual/castillalamancha/2026/Física junio examen __Fisica_PAU_2026.txt"
+      },
+      {
+       "id": "moderna",
+       "nombre": "Física moderna (cuántica, nuclear, relatividad)",
+       "p": 0.649,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "PET/TAC, tiene un periodo de semidesintegración (T 1/2 ) de 110 minutos. Se prepara una dosis que",
+       "muestra_url": "manual:manual/castillalamancha/2026/Física junio examen __Fisica_PAU_2026.txt"
+      },
+      {
+       "id": "magnetico",
+       "nombre": "Campo magnético e inducción",
+       "p": 0.531,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "PREGUNTA B2.A. (2.5 puntos) Dentro de un campo magnético uniforme",
+       "muestra_url": "manual:manual/castillalamancha/2026/Física junio examen __Fisica_PAU_2026.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 6,
+      "aciertos": 6,
+      "tasa": 1.0,
+      "azar": 1.0,
+      "top": [
+       "electrico",
+       "optica",
+       "gravitacion",
+       "ondas",
+       "moderna",
+       "magnetico"
+      ],
+      "reales": [
+       "electrico",
+       "gravitacion",
+       "magnetico",
+       "moderna",
+       "ondas",
+       "optica"
+      ]
+     },
+     "confianza": "baja"
+    },
+    "frances": {
+     "nombre": "Lengua Extranjera II: Francés",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Francés julio examen __Frances.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Francés junio examen __Frances-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Francés julio examen __Frances-Extraordinaria.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Francés junio examen __Frances-Ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Francés julio examen __FRANCES.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Francés junio examen __Frances.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Francés julio examen __Frances.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Francés junio examen __FRANCES.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Francés julio examen __Frances.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Francés junio examen __Frances.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "fundamentosart": {
+     "nombre": "Fundamentos Artísticos",
+     "n_examenes": 11,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Fundamentos del Arte II julio examen __Fundamentos-Arte-II.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Fundamentos del Arte II junio examen __Fundamentos-Arte-II-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Fundamentos del Arte II julio examen __Fundamentos-Arte-Extra.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Fundamentos del Arte II junio examen __Fundamentos-Arte-ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Fundamentos Artísticos julio examen __FUNDAMENTOS-ARTISTICOS.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Fundamentos Artísticos junio examen __Fundamentos-artisticos.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Fundamentos del Arte II junio examen __Fundamentos-Arte-II.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Fundamentos Artísticos julio examen __FUNDAMENTOS-ARTISTICOS.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Fundamentos Artísticos junio examen __FUNDAMENTOS-ARTISTICOS.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Fundamentos Artísticos julio examen __FUNDAMENTOS-ARTISTICOS.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Fundamentos Artísticos junio examen __FUNDAMENTOS-ARTISTICOS-2025_26.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "geografia": {
+     "nombre": "Geografía",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Geografía julio examen __GEOGRAFIA.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Geografía junio examen __Geografia-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Geografía julio examen __Geografia-Extraordinaria.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Geografía junio examen __Geografia-Ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Geografía julio examen __GEOGRAFIA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Geografía junio examen __GEOGRAFIA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Geografía julio examen __GEOGRAFIA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Geografía junio examen __GEOGRAFIA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Geografía julio examen __GEOGRAFIA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Geografía junio examen __GEOGRAFIA.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "poblacion",
+       "nombre": "Población",
+       "p": 0.746,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "Ejercicio 2. Población y densidad de población Cuestiones por responder",
+       "muestra_url": "manual:manual/castillalamancha/2026/Geografía junio examen __GEOGRAFIA.txt"
+      },
+      {
+       "id": "territorio",
+       "nombre": "Organización territorial y Europa",
+       "p": 0.716,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "3.B.2. Cita las cuatro provincias con las tasas de",
+       "muestra_url": "manual:manual/castillalamancha/2026/Geografía junio examen __GEOGRAFIA.txt"
+      },
+      {
+       "id": "relieve",
+       "nombre": "Relieve",
+       "p": 0.705,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "baja",
+       "muestra": "o la roja discontinua, y cite ordenadamente las principales unidades de relieve, ríos y provincias que",
+       "muestra_url": "manual:manual/castillalamancha/2025/Geografía junio examen __GEOGRAFIA.txt"
+      },
+      {
+       "id": "sectores",
+       "nombre": "Sectores económicos",
+       "p": 0.646,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Opción 3. B . Población activa en el sector agrario Cuestiones por responder",
+       "muestra_url": "manual:manual/castillalamancha/2026/Geografía junio examen __GEOGRAFIA.txt"
+      },
+      {
+       "id": "clima",
+       "nombre": "Clima y aguas",
+       "p": 0.639,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "baja",
+       "muestra": "Como criterio general de corrección, se valorará la coherencia, cohesión, corrección gramatical, léxica y",
+       "muestra_url": "manual:manual/castillalamancha/2025/Geografía junio examen __GEOGRAFIA.txt"
+      },
+      {
+       "id": "urbano",
+       "nombre": "Espacio urbano",
+       "p": 0.536,
+       "veces": 5,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "y Jaén ( carácter rural o urbano, uso del suelo,",
+       "muestra_url": "manual:manual/castillalamancha/2026/Geografía junio examen __GEOGRAFIA.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 4,
+      "aciertos": 2,
+      "tasa": 0.5,
+      "azar": 0.67,
+      "top": [
+       "relieve",
+       "clima",
+       "poblacion",
+       "territorio"
+      ],
+      "reales": [
+       "poblacion",
+       "sectores",
+       "territorio",
+       "urbano"
+      ]
+     },
+     "confianza": "baja"
+    },
+    "geologia": {
+     "nombre": "Geología y Ciencias Ambientales",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Geología julio examen __GEOLOGIA.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Geología junio examen __GEOLOGA-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Geología julio examen __Geologia-Extraordinaria.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Geología junio examen __Geologia-ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Geología y Ciencias Ambientales julio examen __GEOLOGIA-Y-CIENCIAS-AMBIENTALES.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Geología y Ciencias Ambientales junio examen __Geologia_Ambientales.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Geología y Ciencias Ambientales julio examen __GEOLOGIA-Y-CIENCIAS-AMBIENTALES.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Geología y Ciencias Ambientales junio examen __GEOLOGIA-Y-CIENCIAS-AMBIENTALES.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Geología y Ciencias Ambientales julio examen __Geologia-y-Ciencias-Ambientales.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Geología y Ciencias Ambientales junio examen __Geologia-y-Ciencias-Ambientales.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "tectonica",
+       "nombre": "Tectónica y riesgos geológicos",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "1ª (1p) . ¿Qué tipo de fallas son las marcadas como F 1, y F2 ?",
+       "muestra_url": "manual:manual/castillalamancha/2026/Geología y Ciencias Ambientales junio examen __Geologia-y-Ciencias-Ambientales.txt"
+      },
+      {
+       "id": "procesos",
+       "nombre": "Procesos externos y mapas geológicos",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Observe detenidamente el siguiente corte geológico y responda a los apartados justificando",
+       "muestra_url": "manual:manual/castillalamancha/2026/Geología y Ciencias Ambientales junio examen __Geologia-y-Ciencias-Ambientales.txt"
+      },
+      {
+       "id": "minerales",
+       "nombre": "Minerales y rocas",
+       "p": 0.836,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "10ª (1p) . Describa las principales propiedades físicas de los minerales utilizadas en su",
+       "muestra_url": "manual:manual/castillalamancha/2026/Geología y Ciencias Ambientales julio examen __Geologia-y-Ciencias-Ambientales.txt"
+      },
+      {
+       "id": "recursos",
+       "nombre": "Recursos y medio ambiente",
+       "p": 0.275,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "13ª (1p) . Defina la contaminación atmosférica y enumere sus principales tipos.",
+       "muestra_url": "manual:manual/castillalamancha/2026/Geología y Ciencias Ambientales junio examen __Geologia-y-Ciencias-Ambientales.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 3,
+      "aciertos": 2,
+      "tasa": 0.67,
+      "azar": 0.75,
+      "top": [
+       "tectonica",
+       "minerales",
+       "procesos"
+      ],
+      "reales": [
+       "procesos",
+       "recursos",
+       "tectonica"
+      ]
+     },
+     "confianza": "baja"
+    },
+    "graficoplastica": {
+     "nombre": "Técnicas de Expresión Gráfico-Plástica",
+     "n_examenes": 4,
+     "anios": [
+      2024,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Técnicas de Expresión Gráfico-Plástica julio examen __TECNICAS-DE-EXPRESION-GRAFICO-PLASTICA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Técnicas de Expresión Gráfico-Plástica junio examen __Tecnicas-de-Expresion-Grafico-Plastica.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Técnicas de Expresión Gráfico-Plástica julio examen __Tecnicas-de-expresion-grafico-plasticas_2026.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Técnicas de Expresión Gráfico-Plástica junio examen __Tecnicas-de-expresion-grafico-plasticas_2026.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "griego": {
+     "nombre": "Griego II",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Griego II julio examen __GRIEGO.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Griego II junio examen __GRIEGO-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Griego II julio examen __Griego-Extraordinaria.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Griego II junio examen __Griego-Ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Griego II julio examen __GRIEGO.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Griego II junio examen __GRIEGO.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Griego II julio examen __GRIEGO.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Griego II junio examen __GRIEGO.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Griego II julio examen __GRIEGO-II.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Griego II junio examen __GRIEGO-II-PAU-2026.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "literatura",
+       "nombre": "Literatura griega",
+       "p": 0.705,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "baja",
+       "muestra": "B. Épica 2 Aristófanes b. Anábasis β Obra poética que contiene una de las más antiguas",
+       "muestra_url": "manual:manual/castillalamancha/2025/Griego II junio examen __GRIEGO.txt"
+      },
+      {
+       "id": "morfosintaxis",
+       "nombre": "Morfosintaxis",
+       "p": 0.649,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "NOTAS. 1. Aoristo de ἀφαιρέω . 2. Participio de aoristo pasivo del verbo ἵστημι . 3. Segunda persona del singular del aoristo de indicativo medio del verbo ἀφαιρέω .",
+       "muestra_url": "manual:manual/castillalamancha/2026/Griego II junio examen __GRIEGO-II-PAU-2026.txt"
+      },
+      {
+       "id": "lexico",
+       "nombre": "Léxico y etimología",
+       "p": 0.611,
+       "veces": 5,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "se podrá usar el diccionario con su apéndice gramatical. Los ejercicios 2, 3 y 4 (sintaxis, morfología y etimología)",
+       "muestra_url": "manual:manual/castillalamancha/2026/Griego II junio examen __GRIEGO-II-PAU-2026.txt"
+      },
+      {
+       "id": "traduccion",
+       "nombre": "Traducción",
+       "p": 0.546,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "1. EL TEXTO: TRADUCCIÓN . Traduce uno de los dos textos con ayuda del diccionario ( 4 puntos ).",
+       "muestra_url": "manual:manual/castillalamancha/2026/Griego II junio examen __GRIEGO-II-PAU-2026.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 3,
+      "aciertos": 2,
+      "tasa": 0.67,
+      "azar": 0.75,
+      "top": [
+       "literatura",
+       "morfosintaxis",
+       "lexico"
+      ],
+      "reales": [
+       "lexico",
+       "morfosintaxis",
+       "traduccion"
+      ]
+     },
+     "confianza": "baja"
+    },
+    "historia": {
+     "nombre": "Historia de España",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Historia de España julio examen __HISTORIA-DE-ESPANA.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Historia de España junio examen __Historia-de-Espana-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Historia de España julio examen __Historia-de-Espana-Extra.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Historia de España junio examen __Historia-de-Espana-Ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Historia de España julio examen __HISTORIA-DE-ESPANA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Historia de España junio examen __Historia-de-Espana.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Historia de España julio examen __HISTORIA-DE-ESPANA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Historia de España junio examen __HISTORIA-DE-ESPANA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Historia de España julio examen __Historia-de-Espana.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Historia de España junio examen __Historia-de-Espana.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "liberalismo",
+       "nombre": "Crisis del Antiguo Régimen y liberalismo (1808-1874)",
+       "p": 0.861,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": "manual:manual/castillalamancha/2026/Historia de España junio examen __Historia-de-Espana.txt"
+      },
+      {
+       "id": "franquismo",
+       "nombre": "Franquismo (1939-1975)",
+       "p": 0.684,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "TEMA 17 . ECONOMÍA Y SOCIEDAD EN EL FRANQUISMO: AUTARQUÍA,",
+       "muestra_url": "manual:manual/castillalamancha/2026/Historia de España junio examen __Historia-de-Espana.txt"
+      },
+      {
+       "id": "restauracion",
+       "nombre": "Restauración (1874-1931)",
+       "p": 0.351,
+       "veces": 5,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "con motivo del desastre de Annual, más que las mujeres, que iban en mayor número que los",
+       "muestra_url": "manual:manual/castillalamancha/2026/Historia de España julio examen __Historia-de-Espana.txt"
+      },
+      {
+       "id": "republica",
+       "nombre": "Segunda República (1931-1936)",
+       "p": 0.339,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "baja",
+       "muestra": "Epígrafe 1. La proclamación de la República, la Constitución de 1931 y el bienio reformista.",
+       "muestra_url": "manual:manual/castillalamancha/2025/Historia de España junio examen __HISTORIA-DE-ESPANA.txt"
+      },
+      {
+       "id": "guerracivil",
+       "nombre": "Guerra Civil (1936-1939)",
+       "p": 0.282,
+       "veces": 3,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": "manual:manual/castillalamancha/2026/Historia de España junio examen __Historia-de-Espana.txt"
+      },
+      {
+       "id": "antigua",
+       "nombre": "Prehistoria a Edad Media (Al-Ándalus, reinos cristianos)",
+       "p": 0.213,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "1. P roceso (siglos VIII - XV) de expansión de los reinos cristianos sobre Al - Ándalus,",
+       "muestra_url": "manual:manual/castillalamancha/2026/Historia de España junio examen __Historia-de-Espana.txt"
+      },
+      {
+       "id": "moderna",
+       "nombre": "Monarquía hispánica (Reyes Católicos, Austrias, Borbones s. XVIII)",
+       "p": 0.157,
+       "veces": 3,
+       "de": 10,
+       "ultimo": 2023,
+       "tendencia": "baja",
+       "muestra": "El siglo XVI: la España de Carlos I y Felipe II",
+       "muestra_url": "manual:manual/castillalamancha/2023/Historia de España junio examen __Historia-de-Espana-Ordinaria-2023.txt"
+      },
+      {
+       "id": "transicion",
+       "nombre": "Transición y democracia",
+       "p": 0.066,
+       "veces": 1,
+       "de": 10,
+       "ultimo": 2023,
+       "tendencia": "estable",
+       "muestra": "[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/ModelosPruebas2223/ConvocatoriaOrdinaria/Historia-de-Espana-Ordinaria-2023.ashx] Evaluación para el Acceso a la Universidad",
+       "muestra_url": "manual:manual/castillalamancha/2023/Historia de España junio examen __Historia-de-Espana-Ordinaria-2023.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 4,
+      "aciertos": 2,
+      "tasa": 0.5,
+      "azar": 0.5,
+      "top": [
+       "liberalismo",
+       "franquismo",
+       "republica",
+       "restauracion"
+      ],
+      "reales": [
+       "antigua",
+       "franquismo",
+       "guerracivil",
+       "liberalismo"
+      ]
+     },
+     "confianza": "baja"
+    },
+    "historiaarte": {
+     "nombre": "Historia del Arte",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Historia del Arte julio examen __Historia-del-Arte.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Historia del Arte junio examen __Historia-Arte-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Historia del Arte julio examen __Historia-del-Arte-Extraordinaria.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Historia del Arte junio examen __Historia-del-Arte-ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Historia del Arte julio examen __HISTORIA-DEL-ARTE.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Historia del Arte junio examen __HISTORIA-DEL-ARTE.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Historia del Arte julio examen __HISTORIA-DEL-ARTE.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Historia del Arte junio examen __HISTORIA-DEL-ARTE-II.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Historia del Arte julio examen __HISTORIA-DEL-ARTE-III.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Historia del Arte junio examen __HISTORIA-DEL-ARTE--2025-26.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "sigloxix",
+       "nombre": "Goya y siglo XIX",
+       "p": 0.561,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": "manual:manual/castillalamancha/2026/Historia del Arte junio examen __HISTORIA-DEL-ARTE--2025-26.txt"
+      },
+      {
+       "id": "vanguardias",
+       "nombre": "Vanguardias y siglo XX",
+       "p": 0.298,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "",
+       "muestra_url": "manual:manual/castillalamancha/2026/Historia del Arte julio examen __HISTORIA-DEL-ARTE-III.txt"
+      },
+      {
+       "id": "barroco",
+       "nombre": "Barroco",
+       "p": 0.216,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "4. Estilo arquitectónico del barroco español caracterizado por",
+       "muestra_url": "manual:manual/castillalamancha/2026/Historia del Arte junio examen __HISTORIA-DEL-ARTE--2025-26.txt"
+      },
+      {
+       "id": "clasico",
+       "nombre": "Arte clásico (Grecia y Roma)",
+       "p": 0.213,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "5. Estilo artístico que recupera las formas del arte griego y",
+       "muestra_url": "manual:manual/castillalamancha/2026/Historia del Arte junio examen __HISTORIA-DEL-ARTE--2025-26.txt"
+      },
+      {
+       "id": "renacimiento",
+       "nombre": "Renacimiento",
+       "p": 0.192,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "2. Evolución de la pintura renacentista italiana. Siglo XVI: Leonardo, Miguel Ángel y Rafael. La escuela",
+       "muestra_url": "manual:manual/castillalamancha/2025/Historia del Arte junio examen __HISTORIA-DEL-ARTE-II.txt"
+      },
+      {
+       "id": "medieval",
+       "nombre": "Románico y gótico",
+       "p": 0.05,
+       "veces": 1,
+       "de": 10,
+       "ultimo": 2022,
+       "tendencia": "estable",
+       "muestra": "1. Características de la arquitectura gótica: catedrales, lonjas y ayuntamientos.",
+       "muestra_url": "manual:manual/castillalamancha/2022/Historia del Arte junio examen __Historia-Arte-2022.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 3,
+      "aciertos": 1,
+      "tasa": 0.33,
+      "azar": 0.5,
+      "top": [
+       "sigloxix",
+       "renacimiento",
+       "vanguardias"
+      ],
+      "reales": [
+       "barroco",
+       "clasico",
+       "sigloxix"
+      ]
+     },
+     "confianza": "baja"
+    },
+    "ingles": {
+     "nombre": "Lengua Extranjera II: Inglés",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Inglés julio examen __INGLES.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Inglés junio examen __Ingles-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Inglés julio examen __Ingles-Extra.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Inglés junio examen __Ingles-ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Inglés julio examen __INGLES.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Inglés junio examen __Ingles.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Inglés julio examen __INGLES.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Inglés junio examen __INGLES.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Inglés julio examen __Ingles.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Inglés junio examen __Ingles-II.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "reading",
+       "nombre": "Comprensión lectora (true/false, preguntas)",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "RE A DING COMPREHENSION. (2 POINTS) (0.5 points for each correct answer). Add TRUE or FALSE",
+       "muestra_url": "manual:manual/castillalamancha/2026/Inglés junio examen __Ingles-II.txt"
+      },
+      {
+       "id": "writing",
+       "nombre": "Redacción (opinión, carta, email)",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "sentences and rewrite them starting with the words given. Only the first six will be corrected.",
+       "muestra_url": "manual:manual/castillalamancha/2026/Inglés junio examen __Ingles-II.txt"
+      },
+      {
+       "id": "vocab",
+       "nombre": "Vocabulario (sinónimos, definiciones)",
+       "p": 0.223,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2024,
+       "tendencia": "baja",
+       "muestra": "Find words or phrases in the text that mean the same as these given .",
+       "muestra_url": "manual:manual/castillalamancha/2024/Inglés junio examen __Ingles.txt"
+      },
+      {
+       "id": "grammar",
+       "nombre": "Gramática (reescritura, transformaciones)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "mediation",
+       "nombre": "Mediación",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 2,
+      "aciertos": 2,
+      "tasa": 1.0,
+      "azar": 0.4,
+      "top": [
+       "reading",
+       "writing"
+      ],
+      "reales": [
+       "reading",
+       "writing"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "italiano": {
+     "nombre": "Lengua Extranjera II: Italiano",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Italiano julio examen __ITALIANO.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Italiano junio examen __Italiano-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Italiano julio examen __Italiano-Extra.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Italiano junio examen __Italiano-Ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Italiano julio examen __ITALIANO.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Italiano junio examen __Italiano.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Italiano julio examen __ITALIANO.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Italiano junio examen __ITALIANO.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Italiano julio examen __ITALIANO.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Italiano junio examen __ITALIANO_PAU-2026.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "latin": {
+     "nombre": "Latín II",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Latín II julio examen __LATIN.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Latín II junio examen __LATIN-II-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Latín II julio examen __Latin-Extra.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Latín II junio examen __Latin-Ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Latín II julio examen __LATIN-II.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Latín II junio examen __Latn-II.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Latín II julio examen __LATIN.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Latín II junio examen __LATIN.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Latín II julio examen __LATIN.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Latín II junio examen __LATIN.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "morfosintaxis",
+       "nombre": "Morfosintaxis",
+       "p": 0.811,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": " Analiza las 4 palabras en negrita indicando el caso en el que está en el texto, el género, el",
+       "muestra_url": "manual:manual/castillalamancha/2026/Latín II junio examen __LATIN.txt"
+      },
+      {
+       "id": "literatura",
+       "nombre": "Literatura latina",
+       "p": 0.68,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "A) Elige uno de los textos e indica el género literario al que pertenece (0,25), el autor y la obra",
+       "muestra_url": "manual:manual/castillalamancha/2026/Latín II junio examen __LATIN.txt"
+      },
+      {
+       "id": "lexico",
+       "nombre": "Léxico y etimología",
+       "p": 0.616,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "b) Escribe una palabra patrimonial y un cultismo de las siguientes palabras latinas:",
+       "muestra_url": "manual:manual/castillalamancha/2025/Latín II junio examen __LATIN.txt"
+      },
+      {
+       "id": "traduccion",
+       "nombre": "Traducción",
+       "p": 0.546,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "Realiza la traducción de uno de estos textos:",
+       "muestra_url": "manual:manual/castillalamancha/2026/Latín II junio examen __LATIN.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 3,
+      "aciertos": 2,
+      "tasa": 0.67,
+      "azar": 0.75,
+      "top": [
+       "morfosintaxis",
+       "lexico",
+       "literatura"
+      ],
+      "reales": [
+       "literatura",
+       "morfosintaxis",
+       "traduccion"
+      ]
+     },
+     "confianza": "baja"
+    },
+    "lengua": {
+     "nombre": "Lengua Castellana y Literatura II",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Lengua Castellana y Literatura julio examen __Lengua-Castellan-y-Literatura.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Lengua Castellana y Literatura junio examen __Lengua-y-Literatura-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Lengua Castellana y Literatura julio examen __Lengua-Extra.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Lengua Castellana y Literatura junio examen __Lengua-castellana-y-literatura-Ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Lengua Castellana y Literatura julio examen __LENGUA-CASTELLANA-Y-LITERATURA-II.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Lengua Castellana y Literatura junio examen __Lengua-Castellana-y-Literatura.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Lengua Castellana y Literatura julio examen __LENGUA-CASTELLANA-Y-LITERATURA-II.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Lengua Castellana y Literatura junio examen __LENGUA-CASTELLANA-Y-Literatura.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Lengua Castellana y Literatura julio examen __Lengua-Castellana-y-Literatura-II.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Lengua Castellana y Literatura junio examen __Lengua-Castellana-y-Literatura-II.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "sintaxis",
+       "nombre": "Sintaxis (oración compuesta)",
+       "p": 0.649,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "40 y 50 palabras y, el ejercicio 1.3., entre 150 y 200 palabras, aunque en ningún caso su valoración será",
+       "muestra_url": "manual:manual/castillalamancha/2026/Lengua Castellana y Literatura junio examen __Lengua-Castellana-y-Literatura-II.txt"
+      },
+      {
+       "id": "comprension",
+       "nombre": "Comprensión y resumen del texto",
+       "p": 0.593,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "baja",
+       "muestra": "",
+       "muestra_url": "manual:manual/castillalamancha/2025/Lengua Castellana y Literatura junio examen __LENGUA-CASTELLANA-Y-Literatura.txt"
+      },
+      {
+       "id": "lit98",
+       "nombre": "Literatura: Modernismo y 98, novecentismo",
+       "p": 0.592,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Antonio Machado y Álvarez, Cantes flamencos .",
+       "muestra_url": "manual:manual/castillalamancha/2026/Lengua Castellana y Literatura julio examen __Lengua-Castellana-y-Literatura-II.txt"
+      },
+      {
+       "id": "morfologia",
+       "nombre": "Léxico, morfología y semántica",
+       "p": 0.546,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "40 y 50 palabras y, el ejercicio 1.3., entre 150 y 200 palabras, aunque en ningún caso su valoración será",
+       "muestra_url": "manual:manual/castillalamancha/2026/Lengua Castellana y Literatura junio examen __Lengua-Castellana-y-Literatura-II.txt"
+      },
+      {
+       "id": "novela",
+       "nombre": "Novela del siglo XX y actual",
+       "p": 0.484,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "baja",
+       "muestra": "B. La novela en los años cuarenta: novela n acionalista y novela existencial y tremendista (Carmen Laforet,",
+       "muestra_url": "manual:manual/castillalamancha/2025/Lengua Castellana y Literatura julio examen __LENGUA-CASTELLANA-Y-LITERATURA-II.txt"
+      },
+      {
+       "id": "lit27",
+       "nombre": "Literatura: 27, Lorca, poesía de posguerra",
+       "p": 0.482,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "que permitan justificar que pertenece a la producción literaria de Federico García Lorca.",
+       "muestra_url": "manual:manual/castillalamancha/2025/Lengua Castellana y Literatura junio examen __LENGUA-CASTELLANA-Y-Literatura.txt"
+      },
+      {
+       "id": "argumentacion",
+       "nombre": "Texto argumentativo / opinión",
+       "p": 0.377,
+       "veces": 3,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "1.3. Realice un texto argumentativo en el que exponga su opinión sobre los peligros de la exposición del",
+       "muestra_url": "manual:manual/castillalamancha/2026/Lengua Castellana y Literatura junio examen __Lengua-Castellana-y-Literatura-II.txt"
+      },
+      {
+       "id": "teatro",
+       "nombre": "Teatro del siglo XX",
+       "p": 0.298,
+       "veces": 3,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "dramático. Como en los antiguos cortijos, el interés de los señoritos pisotea cada día la dignidad de los",
+       "muestra_url": "manual:manual/castillalamancha/2026/Lengua Castellana y Literatura junio examen __Lengua-Castellana-y-Literatura-II.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 4,
+      "aciertos": 1,
+      "tasa": 0.25,
+      "azar": 0.5,
+      "top": [
+       "comprension",
+       "novela",
+       "lit98",
+       "sintaxis"
+      ],
+      "reales": [
+       "argumentacion",
+       "morfologia",
+       "sintaxis",
+       "teatro"
+      ]
+     },
+     "confianza": "baja"
+    },
+    "literaturadram": {
+     "nombre": "Literatura Dramática",
+     "n_examenes": 5,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Literatura Dramática julio examen __LITERATURA-DRAMATICA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Literatura Dramática junio examen __LITERATURA-DRAMATICA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Literatura Dramática junio examen __LITERATURA-DRAMATICA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Literatura Dramática julio examen __LITERATURA-DRAMATICA-2026.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Literatura Dramática junio examen __LITERATURA-DRAMATICA-2026.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "matccss": {
+     "nombre": "Matemáticas Aplicadas a las CC. Sociales II",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Matemáticas Aplicadas a las Ciencias Sociales II julio examen __Matematicas-aplicadas-CCSS.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Matemáticas Aplicadas a las Ciencias Sociales II junio examen __Matematicas-CCSS-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Matemáticas Aplicadas a las Ciencias Sociales II julio examen __Matematicas-aplicadas-CCSS-Extraordinaria.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Matemáticas Aplicadas a las Ciencias Sociales II junio examen __Matematicas-CCSS-Ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Matemáticas Aplicadas a las Ciencias Sociales II julio examen __MATEMATICAS-APLICADAS-CCSS.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Matemáticas Aplicadas a las Ciencias Sociales II junio examen __Matematicas-CCSS.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Matemáticas Aplicadas a las Ciencias Sociales II julio examen __Matem_aplic_CCSS.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Matemáticas Aplicadas a las Ciencias Sociales II junio examen __Matem_aplic_CCSS_.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Matemáticas Aplicadas a las Ciencias Sociales II julio examen __Matematicas-aplicadas-CCSS.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Matemáticas Aplicadas a las Ciencias Sociales II junio examen __MatemCCSS.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "probabilidad",
+       "nombre": "Probabilidad",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "a) Si se e l ige un club deportivo al azar, calcula la probabilidad de que sea femenino . (1 punto)",
+       "muestra_url": "manual:manual/castillalamancha/2026/Matemáticas Aplicadas a las Ciencias Sociales II junio examen __MatemCCSS.txt"
+      },
+      {
+       "id": "inferencia",
+       "nombre": "Inferencia y distribución normal",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "sigue una distribución normal con una desviación típica de 𝜎 = 60 segundo s. Se seleccionan al azar",
+       "muestra_url": "manual:manual/castillalamancha/2026/Matemáticas Aplicadas a las Ciencias Sociales II junio examen __MatemCCSS.txt"
+      },
+      {
+       "id": "matrices",
+       "nombre": "Matrices y sistemas",
+       "p": 0.769,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "a) Plantea un sistema de ecuaciones lineales para determinar cuánto dinero invirtió la empresa en",
+       "muestra_url": "manual:manual/castillalamancha/2026/Matemáticas Aplicadas a las Ciencias Sociales II junio examen __MatemCCSS.txt"
+      },
+      {
+       "id": "funciones",
+       "nombre": "Funciones y derivadas",
+       "p": 0.707,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "beneficio que obtuvo por cada euro invertido en el fondo A fue de 0,05 euros, el beneficio que obtuvo",
+       "muestra_url": "manual:manual/castillalamancha/2026/Matemáticas Aplicadas a las Ciencias Sociales II junio examen __MatemCCSS.txt"
+      },
+      {
+       "id": "progl",
+       "nombre": "Programación lineal",
+       "p": 0.7,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Consejería de Agricultura de la JCCM, se han determinado las siguientes restricciones: el número",
+       "muestra_url": "manual:manual/castillalamancha/2026/Matemáticas Aplicadas a las Ciencias Sociales II junio examen __MatemCCSS.txt"
+      },
+      {
+       "id": "integrales",
+       "nombre": "Integrales y áreas",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 5,
+      "aciertos": 5,
+      "tasa": 1.0,
+      "azar": 0.83,
+      "top": [
+       "matrices",
+       "probabilidad",
+       "inferencia",
+       "funciones",
+       "progl"
+      ],
+      "reales": [
+       "funciones",
+       "inferencia",
+       "matrices",
+       "probabilidad",
+       "progl"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "matematicas2": {
+     "nombre": "Matemáticas II",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Matemáticas II julio examen __Matematicas-II.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Matemáticas II junio examen __MatematicasII-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Matemáticas II julio examen __Matematicas-II-Extra.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Matemáticas II junio examen __Matematicas-II-ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Matemáticas II julio examen __MATEMATICAS-II.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Matemáticas II junio examen __Matematicas-II.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Matemáticas II julio examen __MATEMATICAS-II.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Matemáticas II junio examen __MATEMATICAS-II.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Matemáticas II julio examen __Matemticas-II.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Matemáticas II junio examen __Matematicas-II.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "geometria",
+       "nombre": "Geometría en el espacio",
+       "p": 0.759,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "b) [ 0,75 punto s ] A largo plazo, ¿tiende el beneficio diario a estabilizarse en algún valor? En caso",
+       "muestra_url": "manual:manual/castillalamancha/2026/Matemáticas II junio examen __Matematicas-II.txt"
+      },
+      {
+       "id": "probabilidad",
+       "nombre": "Probabilidad y distribuciones",
+       "p": 0.695,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "plataformas de películas y series en streaming puede modelizarse mediante una distribución normal de",
+       "muestra_url": "manual:manual/castillalamancha/2026/Matemáticas II julio examen __Matemticas-II.txt"
+      },
+      {
+       "id": "sistemas",
+       "nombre": "Sistemas de ecuaciones (discusión)",
+       "p": 0.63,
+       "veces": 5,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "a) [ 1,5 puntos] Estudia el rango de la siguiente matriz, en función del parámetro real 𝑎 .",
+       "muestra_url": "manual:manual/castillalamancha/2026/Matemáticas II julio examen __Matemticas-II.txt"
+      },
+      {
+       "id": "matrices",
+       "nombre": "Matrices y determinantes",
+       "p": 0.62,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "a) [1 punto] Determina los valores de 𝑎 y 𝑏 para que las matrices A y B cumplan que A ∙ B=I , donde I",
+       "muestra_url": "manual:manual/castillalamancha/2026/Matemáticas II junio examen __Matematicas-II.txt"
+      },
+      {
+       "id": "limites",
+       "nombre": "Límites y continuidad",
+       "p": 0.508,
+       "veces": 5,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "a) [1 punto] Calcula justificadamente el siguiente límite : lim",
+       "muestra_url": "manual:manual/castillalamancha/2026/Matemáticas II junio examen __Matematicas-II.txt"
+      },
+      {
+       "id": "derivadas",
+       "nombre": "Derivadas y aplicaciones",
+       "p": 0.369,
+       "veces": 3,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "los valores de 𝑎 y 𝑏 para que la función sea continua y derivable en x=1",
+       "muestra_url": "manual:manual/castillalamancha/2026/Matemáticas II junio examen __Matematicas-II.txt"
+      },
+      {
+       "id": "integrales",
+       "nombre": "Integrales y áreas",
+       "p": 0.325,
+       "veces": 3,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "a) [ 1,25 puntos] Calcula razonadamente el área de l recinto limitado por las gráficas de las funciones",
+       "muestra_url": "manual:manual/castillalamancha/2026/Matemáticas II julio examen __Matemticas-II.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 4,
+      "aciertos": 2,
+      "tasa": 0.5,
+      "azar": 0.57,
+      "top": [
+       "geometria",
+       "probabilidad",
+       "sistemas",
+       "matrices"
+      ],
+      "reales": [
+       "derivadas",
+       "geometria",
+       "limites",
+       "matrices"
+      ]
+     },
+     "confianza": "baja"
+    },
+    "movimientos": {
+     "nombre": "Movimientos Culturales y Artísticos",
+     "n_examenes": 6,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Movimientos Culturales y Artísticos julio examen __MOVIMIENTOS-CULTURALES-Y-ARTISTICOS.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Movimientos Culturales y Artísticos junio examen __Movimientos-culturales.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Movimientos Culturales y Artísticos julio examen __MOV-CULTURALES-Y-ARTISTICOS.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Movimientos Culturales y Artísticos junio examen __MOV-CULTURALES-Y-ARTISTICOS.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Movimientos Culturales y Artísticos julio examen __MOVIMIENTOS-CULTURALES.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Movimientos Culturales y Artísticos junio examen __MOVIMIENTOS-CULTURALES-2025_26.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "musica": {
+     "nombre": "Análisis Musical II / Historia de la Música",
+     "n_examenes": 12,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Análisis Musical II (Audición 1 Audición 2) julio examen __ANALISIS-MUSICAL.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Historia de la Música y de la Danza (Audición 1 Audición 2) julio examen __HISTORIA-DE-LA-MUSICA-Y-DE-LA-DANZA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Análisis Musical II (Audición 1 Audición 2) junio examen __ANALISIS-MUSICAL-II.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Historia de la Música y de la Danza (Audición 1 Audición 2) junio examen __H-de-la-Musica.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Análisis Musical II (Audición) julio examen __Analisis-Musical-II.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Historia de la Música y de la Danza (Audición) julio examen __Historia-de-la-Musica-y-la-Danza.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Análisis Musical II (Audición) junio examen __Anlisis-Musical-II.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Historia de la Música y de la Danza (Audición) junio examen __H-de-la-Musica-y-la-Danza.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Análisis Musical II julio examen __Analisis-Musical-II.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Historia de la Música y de la Danza julio examen __H-de-la-Musica-y-la-Danza-PAU-2026.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Análisis Musical II junio examen __Analisis-Musical-II.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Historia de la Música y de la Danza junio examen __H-de-la-Musica-y-la-Danza-PAU-2026.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "quimica": {
+     "nombre": "Química",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2022/Química julio examen __QUIMICA.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2022/Química junio examen __Quimica-2022.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2023/Química julio examen __Quimica-Extraordinaria.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2023/Química junio examen __Quimica-Ordinaria-2023.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Química julio examen __QUIMICA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Química junio examen __Quimica.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Química julio examen __QUIMICA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Química junio examen __QUIMICA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Química julio examen __Quimica.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Química junio examen __Quimica.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "equilibrio",
+       "nombre": "Equilibrio químico y solubilidad",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "a ) (1 punto) Indique la reacción de equilibrio básico del NH 3 en agua. Calcule la concentración de todas",
+       "muestra_url": "manual:manual/castillalamancha/2026/Química junio examen __Quimica.txt"
+      },
+      {
+       "id": "acidobase",
+       "nombre": "Ácido-base",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "( NH 3 ) para regular el pH del agua de riego. Para preparar una nueva disolución , disuelve 7 g de amoniaco",
+       "muestra_url": "manual:manual/castillalamancha/2026/Química junio examen __Quimica.txt"
+      },
+      {
+       "id": "redox",
+       "nombre": "Redox y electroquímica",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "a ) (1,5 puntos) A juste por el método del i o n electrón las semirreacciones de oxidación y reducción. Indique",
+       "muestra_url": "manual:manual/castillalamancha/2026/Química junio examen __Quimica.txt"
+      },
+      {
+       "id": "enlace",
+       "nombre": "Enlace químico",
+       "p": 0.818,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "a) ( 1 punto ) En los siguientes compuestos, indique qué tipo de hibridación presenta cada carbono:",
+       "muestra_url": "manual:manual/castillalamancha/2026/Química junio examen __Quimica.txt"
+      },
+      {
+       "id": "organica",
+       "nombre": "Química orgánica",
+       "p": 0.7,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "alcohólica, en el cual se produce etanol (CH 3 - CH 2 OH) y dióxido de carbono (CO 2 ) según la siguiente",
+       "muestra_url": "manual:manual/castillalamancha/2026/Química junio examen __Quimica.txt"
+      },
+      {
+       "id": "cinetica",
+       "nombre": "Cinética química",
+       "p": 0.48,
+       "veces": 5,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "a ) ( 1 punto ) Calcule el orden total de la reacción y escriba la ecuación de velocidad.",
+       "muestra_url": "manual:manual/castillalamancha/2026/Química julio examen __Quimica.txt"
+      },
+      {
+       "id": "termo",
+       "nombre": "Termoquímica y espontaneidad",
+       "p": 0.443,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "a ) (1 punto) Utilizando la Ley de Hess, determin e la energía intercambiada en la fermentación de un mol",
+       "muestra_url": "manual:manual/castillalamancha/2026/Química junio examen __Quimica.txt"
+      },
+      {
+       "id": "estructura",
+       "nombre": "Estructura atómica y tabla periódica",
+       "p": 0.307,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "baja",
+       "muestra": "a) ( 1 punto) Explique cuáles de los siguientes grupos de números cuánticos son imposibles para un",
+       "muestra_url": "manual:manual/castillalamancha/2025/Química junio examen __QUIMICA.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 6,
+      "aciertos": 5,
+      "tasa": 0.83,
+      "azar": 0.75,
+      "top": [
+       "equilibrio",
+       "acidobase",
+       "redox",
+       "enlace",
+       "organica",
+       "cinetica"
+      ],
+      "reales": [
+       "acidobase",
+       "enlace",
+       "equilibrio",
+       "organica",
+       "redox",
+       "termo"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "tecnologia": {
+     "nombre": "Tecnología e Ingeniería II",
+     "n_examenes": 6,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2024/Tecnología e Ingeniería II julio examen __TECNOLOGIA-E-INGENIERIA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2024/Tecnología e Ingeniería II junio examen __Tecnologia-e-Ingenieria.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2025/Tecnología e Ingeniería II julio examen __TECNOLOGIA-e-Ing.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2025/Tecnología e Ingeniería II junio examen __TECNOLOGIA-e-IINGENIERIA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/castillalamancha/2026/Tecnología e Ingeniería II julio examen __Tecnologia-e-Ingenieria.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/castillalamancha/2026/Tecnología e Ingeniería II junio examen __Tecnologia-e-Ingenieria-26.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    }
+   },
+   "predecibilidad": 0.71
+  },
   "castillaleon": {
    "nombre": "Castilla y León",
    "materias": {
@@ -55794,82 +59036,82 @@
    {
     "id": "molecular",
     "nombre": "Genética molecular y biotecnología",
-    "p": 0.78,
-    "ccaa": 14
+    "p": 0.785,
+    "ccaa": 15
    },
    {
     "id": "biomoleculas",
     "nombre": "Biomoléculas",
-    "p": 0.767,
-    "ccaa": 14
+    "p": 0.772,
+    "ccaa": 15
    },
    {
     "id": "inmunologia",
     "nombre": "Inmunología",
-    "p": 0.711,
-    "ccaa": 14
+    "p": 0.719,
+    "ccaa": 15
    },
    {
     "id": "metabolismo",
     "nombre": "Metabolismo",
-    "p": 0.664,
-    "ccaa": 14
+    "p": 0.674,
+    "ccaa": 15
    },
    {
     "id": "celula",
     "nombre": "La célula",
-    "p": 0.64,
-    "ccaa": 14
+    "p": 0.65,
+    "ccaa": 15
    },
    {
     "id": "microbiologia",
     "nombre": "Microbiología",
-    "p": 0.597,
-    "ccaa": 14
+    "p": 0.596,
+    "ccaa": 15
    },
    {
     "id": "division",
     "nombre": "División celular",
-    "p": 0.473,
-    "ccaa": 14
+    "p": 0.482,
+    "ccaa": 15
    },
    {
     "id": "genetica",
     "nombre": "Genética mendeliana",
-    "p": 0.289,
-    "ccaa": 14
+    "p": 0.286,
+    "ccaa": 15
    }
   ],
   "dibujo": [
    {
     "id": "normalizacion",
     "nombre": "Normalización y vistas",
-    "p": 0.716,
-    "ccaa": 14
+    "p": 0.705,
+    "ccaa": 15
    },
    {
     "id": "axonometrico",
     "nombre": "Axonométrico y perspectiva",
-    "p": 0.657,
-    "ccaa": 14
+    "p": 0.649,
+    "ccaa": 15
    },
    {
     "id": "diedrico",
     "nombre": "Sistema diédrico",
-    "p": 0.578,
-    "ccaa": 14
+    "p": 0.582,
+    "ccaa": 15
    },
    {
     "id": "geometriaplana",
     "nombre": "Geometría plana (tangencias, transformaciones)",
-    "p": 0.547,
-    "ccaa": 14
+    "p": 0.545,
+    "ccaa": 15
    },
    {
     "id": "conicas",
     "nombre": "Cónicas",
     "p": 0.455,
-    "ccaa": 14
+    "ccaa": 15
    }
   ],
   "empresa": [
@@ -55877,137 +59119,137 @@
     "id": "contabilidad",
     "nombre": "Balance y análisis financiero (ratios)",
     "p": 0.772,
-    "ccaa": 14
+    "ccaa": 15
    },
    {
     "id": "marketing",
     "nombre": "Marketing",
-    "p": 0.746,
-    "ccaa": 14
+    "p": 0.748,
+    "ccaa": 15
    },
    {
     "id": "financiacion",
     "nombre": "Inversión y financiación (VAN, TIR, payback)",
-    "p": 0.71,
-    "ccaa": 14
+    "p": 0.711,
+    "ccaa": 15
    },
    {
     "id": "produccion",
     "nombre": "Producción, costes y umbral de rentabilidad",
-    "p": 0.672,
-    "ccaa": 14
+    "p": 0.68,
+    "ccaa": 15
    },
    {
     "id": "modelonegocio",
     "nombre": "Modelo de negocio y emprendimiento (Canvas)",
-    "p": 0.448,
-    "ccaa": 14
+    "p": 0.441,
+    "ccaa": 15
    },
    {
     "id": "organizacion",
     "nombre": "Organización y dirección",
-    "p": 0.378,
-    "ccaa": 14
+    "p": 0.362,
+    "ccaa": 15
    }
   ],
   "filosofia": [
    {
     "id": "platon",
     "nombre": "Platón",
-    "p": 0.495,
-    "ccaa": 14
+    "p": 0.506,
+    "ccaa": 15
    },
    {
     "id": "descartes",
     "nombre": "Descartes",
-    "p": 0.343,
-    "ccaa": 14
+    "p": 0.351,
+    "ccaa": 15
    },
    {
     "id": "kant",
     "nombre": "Kant",
-    "p": 0.325,
-    "ccaa": 14
+    "p": 0.341,
+    "ccaa": 15
    },
    {
     "id": "aristoteles",
     "nombre": "Aristóteles",
-    "p": 0.263,
-    "ccaa": 14
+    "p": 0.266,
+    "ccaa": 15
    },
    {
     "id": "empirismo",
     "nombre": "Hume / Locke",
-    "p": 0.239,
-    "ccaa": 14
+    "p": 0.249,
+    "ccaa": 15
    },
    {
     "id": "nietzsche",
     "nombre": "Nietzsche",
-    "p": 0.236,
-    "ccaa": 14
+    "p": 0.249,
+    "ccaa": 15
    },
    {
     "id": "contemporanea",
     "nombre": "Filosofía contemporánea (Arendt, Wittgenstein, Beauvoir…)",
-    "p": 0.229,
-    "ccaa": 14
+    "p": 0.24,
+    "ccaa": 15
    },
    {
     "id": "medieval",
     "nombre": "Agustín de Hipona / Tomás de Aquino",
-    "p": 0.18,
-    "ccaa": 14
+    "p": 0.199,
+    "ccaa": 15
    },
    {
     "id": "marx",
     "nombre": "Marx",
-    "p": 0.149,
-    "ccaa": 14
+    "p": 0.175,
+    "ccaa": 15
    },
    {
     "id": "ortega",
     "nombre": "Ortega y Gasset",
-    "p": 0.088,
-    "ccaa": 14
+    "p": 0.086,
+    "ccaa": 15
    }
   ],
   "fisica": [
    {
     "id": "gravitacion",
     "nombre": "Campo gravitatorio",
-    "p": 0.783,
-    "ccaa": 14
+    "p": 0.786,
+    "ccaa": 15
    },
    {
     "id": "ondas",
     "nombre": "Ondas y sonido",
-    "p": 0.663,
-    "ccaa": 14
-   },
-   {
-    "id": "magnetico",
-    "nombre": "Campo magnético e inducción",
-    "p": 0.662,
-    "ccaa": 14
+    "p": 0.667,
+    "ccaa": 15
    },
    {
     "id": "optica",
     "nombre": "Óptica",
-    "p": 0.658,
-    "ccaa": 14
+    "p": 0.666,
+    "ccaa": 15
+   },
+   {
+    "id": "electrico",
+    "nombre": "Campo eléctrico",
+    "p": 0.66,
+    "ccaa": 15
    },
    {
     "id": "moderna",
     "nombre": "Física moderna (cuántica, nuclear, relatividad)",
     "p": 0.657,
-    "ccaa": 14
+    "ccaa": 15
    },
    {
-    "id": "electrico",
-    "nombre": "Campo eléctrico",
-    "p": 0.65,
-    "ccaa": 14
+    "id": "magnetico",
+    "nombre": "Campo magnético e inducción",
+    "p": 0.656,
+    "ccaa": 15
    }
   ],
   "geografia": [
@@ -56015,417 +59257,417 @@
     "id": "sectores",
     "nombre": "Sectores económicos",
     "p": 0.658,
-    "ccaa": 14
+    "ccaa": 15
    },
    {
     "id": "clima",
     "nombre": "Clima y aguas",
-    "p": 0.612,
-    "ccaa": 14
+    "p": 0.614,
+    "ccaa": 15
    },
    {
     "id": "poblacion",
     "nombre": "Población",
-    "p": 0.523,
-    "ccaa": 14
+    "p": 0.532,
+    "ccaa": 15
    },
    {
     "id": "relieve",
     "nombre": "Relieve",
-    "p": 0.483,
-    "ccaa": 14
+    "p": 0.492,
+    "ccaa": 15
    },
    {
     "id": "territorio",
     "nombre": "Organización territorial y Europa",
-    "p": 0.458,
-    "ccaa": 14
+    "p": 0.469,
+    "ccaa": 15
    },
    {
     "id": "urbano",
     "nombre": "Espacio urbano",
-    "p": 0.426,
-    "ccaa": 14
+    "p": 0.431,
+    "ccaa": 15
    }
   ],
   "geologia": [
    {
     "id": "tectonica",
     "nombre": "Tectónica y riesgos geológicos",
-    "p": 0.74,
-    "ccaa": 14
+    "p": 0.749,
+    "ccaa": 15
    },
    {
     "id": "minerales",
     "nombre": "Minerales y rocas",
-    "p": 0.732,
-    "ccaa": 14
+    "p": 0.737,
+    "ccaa": 15
    },
    {
     "id": "procesos",
     "nombre": "Procesos externos y mapas geológicos",
-    "p": 0.616,
-    "ccaa": 14
+    "p": 0.632,
+    "ccaa": 15
    },
    {
     "id": "recursos",
     "nombre": "Recursos y medio ambiente",
-    "p": 0.508,
-    "ccaa": 14
+    "p": 0.495,
+    "ccaa": 15
    }
   ],
   "griego": [
    {
     "id": "morfosintaxis",
     "nombre": "Morfosintaxis",
-    "p": 0.677,
-    "ccaa": 14
+    "p": 0.676,
+    "ccaa": 15
    },
    {
     "id": "traduccion",
     "nombre": "Traducción",
-    "p": 0.632,
-    "ccaa": 14
+    "p": 0.627,
+    "ccaa": 15
    },
    {
     "id": "lexico",
     "nombre": "Léxico y etimología",
-    "p": 0.583,
-    "ccaa": 14
+    "p": 0.585,
+    "ccaa": 15
    },
    {
     "id": "literatura",
     "nombre": "Literatura griega",
-    "p": 0.488,
-    "ccaa": 14
+    "p": 0.501,
+    "ccaa": 15
    }
   ],
   "historia": [
    {
-    "id": "guerracivil",
-    "nombre": "Guerra Civil (1936-1939)",
-    "p": 0.332,
-    "ccaa": 14
-   },
-   {
     "id": "liberalismo",
     "nombre": "Crisis del Antiguo Régimen y liberalismo (1808-1874)",
-    "p": 0.329,
-    "ccaa": 14
+    "p": 0.343,
+    "ccaa": 15
+   },
+   {
+    "id": "guerracivil",
+    "nombre": "Guerra Civil (1936-1939)",
+    "p": 0.331,
+    "ccaa": 15
    },
    {
     "id": "franquismo",
     "nombre": "Franquismo (1939-1975)",
-    "p": 0.293,
-    "ccaa": 14
+    "p": 0.304,
+    "ccaa": 15
    },
    {
     "id": "restauracion",
     "nombre": "Restauración (1874-1931)",
-    "p": 0.277,
-    "ccaa": 14
+    "p": 0.279,
+    "ccaa": 15
    },
    {
     "id": "moderna",
     "nombre": "Monarquía hispánica (Reyes Católicos, Austrias, Borbones s. XVIII)",
-    "p": 0.244,
-    "ccaa": 14
+    "p": 0.241,
+    "ccaa": 15
    },
    {
     "id": "transicion",
     "nombre": "Transición y democracia",
-    "p": 0.236,
-    "ccaa": 14
+    "p": 0.231,
+    "ccaa": 15
    },
    {
     "id": "republica",
     "nombre": "Segunda República (1931-1936)",
-    "p": 0.221,
-    "ccaa": 14
+    "p": 0.224,
+    "ccaa": 15
    },
    {
     "id": "antigua",
     "nombre": "Prehistoria a Edad Media (Al-Ándalus, reinos cristianos)",
     "p": 0.204,
-    "ccaa": 14
+    "ccaa": 15
    }
   ],
   "ingles": [
    {
     "id": "writing",
     "nombre": "Redacción (opinión, carta, email)",
-    "p": 0.863,
-    "ccaa": 14
+    "p": 0.864,
+    "ccaa": 15
    },
    {
     "id": "reading",
     "nombre": "Comprensión lectora (true/false, preguntas)",
-    "p": 0.63,
-    "ccaa": 14
+    "p": 0.639,
+    "ccaa": 15
    },
    {
     "id": "vocab",
     "nombre": "Vocabulario (sinónimos, definiciones)",
-    "p": 0.571,
-    "ccaa": 14
+    "p": 0.56,
+    "ccaa": 15
    },
    {
     "id": "grammar",
     "nombre": "Gramática (reescritura, transformaciones)",
-    "p": 0.198,
-    "ccaa": 14
+    "p": 0.193,
+    "ccaa": 15
    },
    {
     "id": "mediation",
     "nombre": "Mediación",
     "p": 0.05,
-    "ccaa": 14
+    "ccaa": 15
    }
   ],
   "latin": [
    {
     "id": "traduccion",
     "nombre": "Traducción",
-    "p": 0.65,
-    "ccaa": 13
+    "p": 0.645,
+    "ccaa": 14
    },
    {
     "id": "morfosintaxis",
     "nombre": "Morfosintaxis",
-    "p": 0.598,
-    "ccaa": 13
+    "p": 0.608,
+    "ccaa": 14
    },
    {
     "id": "lexico",
     "nombre": "Léxico y etimología",
-    "p": 0.421,
-    "ccaa": 13
+    "p": 0.431,
+    "ccaa": 14
    },
    {
     "id": "literatura",
     "nombre": "Literatura latina",
-    "p": 0.404,
-    "ccaa": 13
+    "p": 0.417,
+    "ccaa": 14
    }
   ],
   "lengua": [
    {
     "id": "morfologia",
     "nombre": "Léxico, morfología y semántica",
-    "p": 0.484,
-    "ccaa": 14
+    "p": 0.485,
+    "ccaa": 15
    },
    {
     "id": "sintaxis",
     "nombre": "Sintaxis (oración compuesta)",
-    "p": 0.394,
-    "ccaa": 14
+    "p": 0.399,
+    "ccaa": 15
    },
    {
     "id": "argumentacion",
     "nombre": "Texto argumentativo / opinión",
-    "p": 0.334,
-    "ccaa": 14
+    "p": 0.335,
+    "ccaa": 15
    },
    {
     "id": "comprension",
     "nombre": "Comprensión y resumen del texto",
-    "p": 0.278,
-    "ccaa": 14
+    "p": 0.285,
+    "ccaa": 15
    },
    {
     "id": "novela",
     "nombre": "Novela del siglo XX y actual",
-    "p": 0.26,
-    "ccaa": 14
+    "p": 0.265,
+    "ccaa": 15
    },
    {
     "id": "teatro",
     "nombre": "Teatro del siglo XX",
-    "p": 0.215,
-    "ccaa": 14
+    "p": 0.217,
+    "ccaa": 15
    },
    {
     "id": "lit27",
     "nombre": "Literatura: 27, Lorca, poesía de posguerra",
-    "p": 0.17,
-    "ccaa": 14
+    "p": 0.176,
+    "ccaa": 15
    },
    {
     "id": "lit98",
     "nombre": "Literatura: Modernismo y 98, novecentismo",
-    "p": 0.152,
-    "ccaa": 14
+    "p": 0.161,
+    "ccaa": 15
    }
   ],
   "matccss": [
    {
     "id": "probabilidad",
     "nombre": "Probabilidad",
-    "p": 0.777,
-    "ccaa": 14
+    "p": 0.783,
+    "ccaa": 15
    },
    {
     "id": "inferencia",
     "nombre": "Inferencia y distribución normal",
-    "p": 0.615,
-    "ccaa": 14
+    "p": 0.628,
+    "ccaa": 15
    },
    {
     "id": "funciones",
     "nombre": "Funciones y derivadas",
-    "p": 0.614,
-    "ccaa": 14
+    "p": 0.618,
+    "ccaa": 15
    },
    {
     "id": "matrices",
     "nombre": "Matrices y sistemas",
-    "p": 0.583,
-    "ccaa": 14
+    "p": 0.591,
+    "ccaa": 15
    },
    {
     "id": "progl",
     "nombre": "Programación lineal",
-    "p": 0.394,
-    "ccaa": 14
+    "p": 0.408,
+    "ccaa": 15
    },
    {
     "id": "integrales",
     "nombre": "Integrales y áreas",
-    "p": 0.267,
-    "ccaa": 14
+    "p": 0.257,
+    "ccaa": 15
    }
   ],
   "matematicas2": [
    {
     "id": "geometria",
     "nombre": "Geometría en el espacio",
-    "p": 0.812,
-    "ccaa": 14
+    "p": 0.81,
+    "ccaa": 15
    },
    {
     "id": "probabilidad",
     "nombre": "Probabilidad y distribuciones",
-    "p": 0.764,
-    "ccaa": 14
+    "p": 0.761,
+    "ccaa": 15
    },
    {
     "id": "matrices",
     "nombre": "Matrices y determinantes",
-    "p": 0.723,
-    "ccaa": 14
+    "p": 0.718,
+    "ccaa": 15
    },
    {
     "id": "integrales",
     "nombre": "Integrales y áreas",
-    "p": 0.617,
-    "ccaa": 14
+    "p": 0.604,
+    "ccaa": 15
    },
    {
     "id": "derivadas",
     "nombre": "Derivadas y aplicaciones",
-    "p": 0.606,
-    "ccaa": 14
+    "p": 0.596,
+    "ccaa": 15
    },
    {
     "id": "sistemas",
     "nombre": "Sistemas de ecuaciones (discusión)",
-    "p": 0.564,
-    "ccaa": 14
+    "p": 0.567,
+    "ccaa": 15
    },
    {
     "id": "limites",
     "nombre": "Límites y continuidad",
-    "p": 0.491,
-    "ccaa": 14
+    "p": 0.492,
+    "ccaa": 15
    }
   ],
   "quimica": [
    {
     "id": "acidobase",
     "nombre": "Ácido-base",
-    "p": 0.825,
-    "ccaa": 13
-   },
-   {
-    "id": "organica",
-    "nombre": "Química orgánica",
-    "p": 0.79,
-    "ccaa": 13
+    "p": 0.829,
+    "ccaa": 14
    },
    {
     "id": "equilibrio",
     "nombre": "Equilibrio químico y solubilidad",
-    "p": 0.789,
-    "ccaa": 13
+    "p": 0.795,
+    "ccaa": 14
+   },
+   {
+    "id": "organica",
+    "nombre": "Química orgánica",
+    "p": 0.785,
+    "ccaa": 14
    },
    {
     "id": "redox",
     "nombre": "Redox y electroquímica",
-    "p": 0.645,
-    "ccaa": 13
+    "p": 0.658,
+    "ccaa": 14
    },
    {
     "id": "termo",
     "nombre": "Termoquímica y espontaneidad",
-    "p": 0.627,
-    "ccaa": 13
+    "p": 0.618,
+    "ccaa": 14
    },
    {
     "id": "enlace",
     "nombre": "Enlace químico",
-    "p": 0.592,
-    "ccaa": 13
+    "p": 0.603,
+    "ccaa": 14
    },
    {
     "id": "estructura",
     "nombre": "Estructura atómica y tabla periódica",
-    "p": 0.568,
-    "ccaa": 13
+    "p": 0.555,
+    "ccaa": 14
    },
    {
     "id": "cinetica",
     "nombre": "Cinética química",
-    "p": 0.248,
-    "ccaa": 13
+    "p": 0.259,
+    "ccaa": 14
    }
   ],
   "historiaarte": [
    {
     "id": "sigloxix",
     "nombre": "Goya y siglo XIX",
-    "p": 0.397,
-    "ccaa": 13
+    "p": 0.409,
+    "ccaa": 14
    },
    {
     "id": "clasico",
     "nombre": "Arte clásico (Grecia y Roma)",
-    "p": 0.328,
-    "ccaa": 13
-   },
-   {
-    "id": "renacimiento",
-    "nombre": "Renacimiento",
-    "p": 0.319,
-    "ccaa": 13
+    "p": 0.32,
+    "ccaa": 14
    },
    {
     "id": "barroco",
     "nombre": "Barroco",
-    "p": 0.319,
-    "ccaa": 13
+    "p": 0.312,
+    "ccaa": 14
+   },
+   {
+    "id": "renacimiento",
+    "nombre": "Renacimiento",
+    "p": 0.31,
+    "ccaa": 14
    },
    {
     "id": "vanguardias",
     "nombre": "Vanguardias y siglo XX",
-    "p": 0.282,
-    "ccaa": 13
+    "p": 0.283,
+    "ccaa": 14
    },
    {
     "id": "medieval",
     "nombre": "Románico y gótico",
-    "p": 0.278,
-    "ccaa": 13
+    "p": 0.263,
+    "ccaa": 14
    }
   ]
  }
