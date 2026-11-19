@@ -1,0 +1,710 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2122/Matemticas-CCSS-2022.ashx]
+Evaluaci´ on para el Acceso a la Universidad. Convocatoria de 2022
+Materia: MATEM ´ ATICAS APLICADAS A LAS CIENCIAS SOCIALES II
+El examen est´ a compuesto de 3 secciones de dos bloques cada una. A su vez cada bloque
+tiene dos ejercicios. El alumno deber´ a elegir un bloque de cada una de las tres secciones.
+Se podr´ a utilizar cualquier tipo de calculadora.
+Secci´ on 1 (3 puntos) Bloque 1
+1.   Un fabricante comercializa   2   modelos de zapatillas para monta˜ na, uno para mujer que le proporciona un beneficio de   28   euros
+por par y otro para hombre con un beneficio por cada par de   30   euros. El pr´ oximo mes tiene que fabricar entre   100   y   600   pares de
+zapatillas de hombre y un m´ ınimo de   400   pares de mujer. Adem´ as solamente puede fabricar un m´ aximo de   1200   pares de zapatillas.
+a) Expresa la funci´ on objetivo, escribe mediante inecuaciones las restricciones del problema y representa gr´ aficamente el recinto
+definido. (1.25 puntos)
+b) Determina cu´ antos pares de zapatillas de cada modelo debe fabricar para que el beneficio sea m´ aximo. (0.25 puntos)
+
+Soluci´ on:
+
+a) Llamando   x   a las zapatillas de mujer e   y   a las zapatillas de hombre, la funci´ on objetivo ser´ a:   Z   = 28 x   + 30 y.   (0.25 puntos)
+Las restricciones del problema son
+
+
+
+
+
+x   +   y   ≤   1200
+100   ≤   y   ≤   600
+
+x   ≥   400
+(0.5 puntos por las restricciones y 0.25 puntos por representar la regi´ on
+factible)
+( 400,600 )   ( 600,600 )
+
+( 1100,100 ) ( 400,100 )
+
+200   400   600   800   1000   1200
+200
+400
+600
+800
+1000
+1200
+
+Los vertices de la regi´ on factible son:   A   = (400 ,   100) , B   = (400 ,   600) , C   = (600 ,   600) ,   y   D   = (1100 ,   100) .   (0.25 puntos por los
+v´ ertices)
+b) Aplicados los v´ ertices a la funci´ on objetivo   Z ( A ) = 14200;   Z ( B ) = 29200;   Z ( C ) = 34800;   Z ( D ) = 33800 .   El m´ aximo beneficio
+se obtiene fabricando 600 zapatillas de cada tipo con un beneficio de 34800 euros (0.25 puntos por ´ optimo)
+
+2.   La caja de bombones que compro cuesta   51   euros y contiene   12   bombones de chocolate negro,   6   de chocolate con leche y   6   de
+chocolate blanco. Cada bomb´ on de chocolate negro cuesta un euro m´ as que los de chocolate con leche y estos ´ ultimos cuestan   50
+
+c´ entimos menos que los de chocolate blanco.
+a) Plantea el sistema de ecuaciones que nos permita averiguar cu´ anto cuesta cada tipo de bomb´ on. (0.75 puntos)
+b) Resuelve razonadamente el sistema planteado en el apartado anterior. (0.75 puntos)
+
+Soluci´ on:
+
+a) Tomando   x   ≡   precio bomb´ on de chocolate negro;   y   ≡   precio bomb´ on de chocolate con leche;   z   ≡   precio bomb´ on de chocolate
+blanco.   
+
+
+
+12 x   + 6 y   + 6 z   = 51
+
+x   =   y   + 1
+
+y   =   z   −   0 . 5
+(0.25 puntos por cada ecuaci´ on bien planteada).
+b) La soluci´ on del sistema es ( x, y, z ) = (2 . 5 ,   1 . 5 ,   2) euros. El bomb´ on de chocolate negro cuesta 2.5 euros, el de chocolate con
+leche 1.5 y el de chocolate blanco 2 euros. (0.5 puntos por el desarrollo de la resoluci´ on y 0.25 puntos por la soluci´ on correcta)
+
+Bloque 2
+1.   Se considera la funci´ on   f   ( x ) =
+
+{  
+2 x   −   4   si   x   ≤   c
+
+− ( x   −   3)
+2  
++ 2   si   x > c
+
+a) ¿Para qu´ e valor de   c   la funci´ on   f   ( x )   es continua en   x   =   c ?   (0.75 puntos)
+b) Representa gr´ aficamente la funci´ on   f   ( x )   para   c   = 1 .   (0.75 puntos)
+
+Soluci´ on:
+
+a) La funci´ on es continua en   x   =   c   ⇔   l´ ım x → c   f   ( x ) =   f   ( c ) .   Para que exista el l´ ımite, los l´ ımites laterales tienen que ser iguales:
+l´ ım x → c −   f   ( x ) = l´ ım x → c (2 x   −   4) = 2 c   −   4 =   f   ( c ) y l´ ım x → c +   f   ( x ) = l´ ım x → c ( − ( x   −   3)
+2  
++ 2) =   − ( c   −   3)
+2  
++ 2 =   − c
+2  
++ 6 c   −   7 .
+
+2 c   −   4 =   − c
+2  
++ 6 c   −   7   ⇒   c
+2  
+−   4 c   + 3 = 0   ⇒   c   = 1 y   c   = 3 .   (Saber las condiciones 0.25 puntos. C´ alculo correcto 0.5 puntos)
+b) (0.25 puntos por cada trozo bien dibujado. Todo correcto 0.75 puntos)
+- 2   - 1   1   2   3   4   5   6
+
+- 6
+
+- 5
+
+- 4
+
+- 3
+
+- 2
+
+- 1
+1
+2
+
+2.   La funci´ on   f   ( x ) =   ax
+4  
++   bx
+2  
++   c   tiene un m´ ınimo en el punto   ( − 1 ,   0)   y corta al eje   OY   en el punto de ordenada   y   = 1 .   Con
+estos datos, halla razonadamente los valores de los par´ ametros   a, b   y   c.   (1.5 puntos)
+
+Soluci´ on:
+
+f   ( x ) =   ax
+4  
++   bx
+2  
++   c   ⇒   f  
+′
+( x ) = 4 ax
+3  
++ 2 bx.
+
+
+
+
+
+f   ( − 1) = 0
+
+f  
+′
+( − 1) = 0
+
+f   (0) = 1
+
+⇒
+
+
+
+
+
+a   +   b   +   c   = 0
+
+− 4 a   −   2 b   = 0
+
+c   = 1
+
+⇒   a   = 1 , b   =   − 2   ⇒   f   ( x ) =   x
+4  
+−   2 x
+2  
++ 1 .
+
+(0.25 por cada condici´ on. 0.75 por la soluci´ on correcta)
+
+Secci´ on 2 (3.5 puntos) Bloque 1
+3.   El   70 %   de los turistas que visitan una determinada ciudad se alojan en el centro, y el resto lo hace en las afueras. El   60 %   de
+los que se alojan en el centro y el   40 %   de los que se alojan en las afueras lo hacen en hoteles de   3   o m´ as estrellas, mientras que
+el resto lo hace en establecimientos de menor calidad.
+a) Elegida una persona al azar, ¿cu´ al es la probabilidad de que se haya alojado en un hotel de   3   o m´ as estrellas? (0.75 puntos)
+b) Si se sabe que una persona se ha alojado en un establecimiento de menor calidad, ¿cu´ al es la probabilidad de que esta persona
+se haya alojado en el centro? (0.75 puntos)
+
+Soluci´ on:
+
+C   = Centro;   A   = Afueras;   H   = Hotel 3 o m´ as estrellas;   H
+c  
+= No hotel 3 o m´ as estrellas.
+
+P   ( C ) = 0 . 7;   P   ( A ) = 0 . 3;   P   ( H   |   C ) = 0 . 6;   P   ( H   |   A ) = 0 . 4;   P   ( H
+c  
+|   C ) = 0 . 4;   P   ( H
+c  
+|   A ) = 0 . 6 .
+
+a)   P   ( H ) =   P   ( C )   ·   P   ( H   |   C ) +   P   ( A )   ·   P   ( H   |   A ) = 0 . 7   ·   0 . 6 + 0 . 3   ·   0 . 4 = 0 . 54 .   (0.75 puntos)
+b)   P   ( C   |   H
+c
+) =  
+P   ( C ∩ H
+c
+)
+
+P   ( H c )  
+=  
+P   ( C ) · P   ( H
+c
+| C )
+
+P   ( H c )  
+=  
+0 . 7 · 0 . 4
+1 − 0 . 54  
+=  
+0 . 28
+0 . 46  
+= 0 . 609 .   (0.75 puntos)
+
+4.   El n´ umero de pacientes que se atienden en un centro de salud a la semana sigue una distribuci´ on normal de media desconocida
+y desviaci´ on t´ ıpica   σ   = 50   pacientes. Se ha tomado una muestra aleatoria de   25   semanas y se ha registrado el n´ umero de pacientes
+atendidos, proporcionando una media de   322   pacientes.
+a) Calcula el intervalo de confianza para la media poblacional del n´ umero de pacientes atendidos con un nivel de confianza del
+
+95 % .   (1 punto)
+b) Explica razonadamente qu´ e ocurrir´ a con la amplitud del intervalo si para el mismo nivel de confianza aumentamos el tama˜ no
+de muestra. (0.5 puntos)
+c) ¿Se puede aceptar la afirmaci´ on de que la media de pacientes atendidos a la semana es de   330   con un nivel de confianza del
+
+99 %?   Justificar la respuesta. (0.5 puntos)
+
+Soluci´ on:
+
+a) Del enunciado se deduce:  
+¯
+X   = 322 pacientes,   σ   = 50 pacientes,   n   = 25, 1   −   α   = 0 . 95   ⇒   Z   α
+
+2  
+= 1 . 96 (0.25 puntos)
+IC =
+
+(  
+¯
+X   −   Z   α
+
+2
+
+σ
+√
+n  
+,  
+¯
+X   +   Z   α
+
+2
+
+σ
+√
+n
+
+)
+
+(0.25 puntos)
+IC =
+
+(
+
+322   −   1 . 96  
+50 √
+25  
+,   322 + 1 . 96  
+50 √
+25
+
+)
+
+= (302 . 4 ,   341 . 6) (0.5 puntos)
+b) Al aumentar el tama˜ no de muestra, disminuye el valor de  
+σ √
+n  
+y por tanto disminuir´ a la amplitud del intervalo. (0.5 puntos)
+c) El valor de 330 pacientes est´ a en el intervalo calculado al 95 %, como al aumentar el nivel de confianza aumenta la amplitud del
+intervalo, el valor de 330 pacientes tambi´ en estar´ a en el IC al 99 % y por lo tanto se puede aceptar la afirmaci´ on. (0.5 puntos)
+
+Bloque 2
+3.   En un programa de televisi´ on hay tres secciones: magia, humor y noticias. La secci´ on de humor dura cinco minutos m´ as que
+la de magia. El tiempo ocupado por la magia y el humor es en total la cuarta parte del dedicado a noticias y la duraci´ on total de
+programa es de   1   hora y   55   minutos.
+a) Plantea el sistema de ecuaciones que nos permita averiguar cu´ anto tiempo se dedica a cada una de las tres secciones del
+programa. (0.75 puntos)
+b) Resuelve razonadamente el sistema planteado en el apartado anterior. (0.75 puntos)
+
+Soluci´ on:
+
+a) Tomando   x   ≡   tiempo secci´ on de magia;   y   ≡   tiempo secci´ on de humor;   z   ≡   tiempo secci´ on de noticias.
+
+
+
+
+
+x   + 5 =   y
+x   +   y   =  
+1
+4  
+z
+x   +   y   +   z   = 115
+(0.25 puntos por cada ecuaci´ on bien planteada).
+b) La soluci´ on del sistema es ( x, y, z ) = (9 ,   14 ,   92) minutos. La secci´ on de magia dura 9 minutos, la de humor 14 minutos y la de
+noticias 92 minutos (0.5 puntos por el desarrollo de la resoluci´ on y 0.25 puntos por la soluci´ on correcta).
+
+4.   a) Dadas dos matrices cuadradas A y B, razona si se obtendr´ ıa el mismo resultado en la resoluci´ on de las ecuaciones   A · X   =   B
+
+y   B   =   X   ·   A ?   ¿De qu´ e propiedad estamos hablando? (0.5 puntos)
+b) Si la dimensi´ on de la matriz   M   es   3   ×   m , la dimensi´ on de la matriz   N   es   2   ×   5   y   P   es una matriz cuadrada de orden   p . ¿Qu´ e
+valores han de tomar   m   y   p   para que se pueda realizar el producto   M   ·   N   ·   P   ?   ¿Qu´ e dimensi´ on tendr´ ıa la matriz resultante?
+(0.5 puntos).
+c) Para las matrices   C   =
+
+(  
+− 4   11
+1   − 3
+
+)
+
+, D   =
+
+(  
+5   0
+
+− 1   2
+
+)
+
+y   E   =
+
+(  
+9   − 3
+
+− 9   3
+
+)
+
+resuelve la ecuaci´ on   X   ·   C   −   D
+2  
+=  
+1
+3  
+E
+T  
+(1 punto)
+
+Soluci´ on:
+
+a) Las ecuaciones despejadas nos dan:   X   =   A
+− 1  
+·   B   y   X   =   B   ·   A
+− 1  
+y el resultado no ser´ ıa el mismo ya que en una multiplicamos
+por la izquierda y en la otra por la derecha y la propiedad conmutativa en general no se cumple. (0.5 puntos)
+b) Para poder multiplicar   M   ·   N   el n´ umero de columnas de   M   debe ser igual que el n´ umero de filas de   N   , luego   m   = 2. Por la
+misma raz´ on la matriz   P   ha de ser de orden   p   = 5 (0.25 puntos). La matriz resultante tendr´ a dim = 3   ×   5 .   (0.25 puntos)
+
+c)   X   ·   C   −   D
+2  
+=  
+1
+3  
+E
+T  
+⇒   X   ·   C   =  
+1
+3  
+E
+T  
++   D
+2  
+⇒   X   =  
+[  
+1
+3  
+E
+T  
++   D
+2
+]  
+·   C
+− 1
+.
+X   =
+
+[
+
+1
+3
+
+(  
+9   − 3
+
+− 9   3
+
+) T
+
++
+
+(  
+5   0
+
+− 1   2
+
+) 2
+]
+
+·
+
+(  
+− 4   11
+1   − 3
+
+) − 1
+
+=
+
+[(  
+3   − 3
+
+− 1   1
+
+)
+
++
+
+(  
+25   0
+
+− 7   4
+
+)]
+
+·
+
+(  
+− 3   − 11
+
+− 1   − 4
+
+)
+
+=
+=
+
+(  
+28   − 3
+
+− 8   5
+
+)
+
+·
+
+(  
+− 3   − 11
+
+− 1   − 4
+
+)
+
+=
+
+(  
+− 81   − 296
+19   68
+
+)
+
+(0.5 puntos la matriz inversa. Todo correcto 1 punto)
+
+Secci´ on 3 (3.5 puntos) Bloque 1
+5.   El   40 %   de las personas que acuden a una consulta m´ edica lo hacen para diagnosticar una enfermedad, el   30 %   para solicitar
+recetas y un   10 %   para ambas cosas, diagnosticar enfermedad y solicitar recetas.
+a) Elegida una persona al azar, ¿cu´ al es la probabilidad de que acuda a solicitar recetas o a diagnosticar una enfermedad o ambos?
+(0.75 puntos)
+b) Si se sabe que una persona ha acudido a diagnosticar una enfermedad, ¿cu´ al es la probabilidad de que esta persona tambi´ en
+solicite recetas? (0.75 puntos)
+
+Soluci´ on:
+
+D   = Diagn´ ostico;   R   = Recetas;   P   ( D ) = 0 . 4;   P   ( R ) = 0 . 3;   P   ( D   ∩   R ) = 0 . 1 .
+
+a)   P   ( D   ∪   R ) =   P   ( D ) +   P   ( R )   −   P   ( R   ∩   D ) = 0 . 4 + 0 . 3   −   0 . 1 = 0 . 6 .   (0.75 puntos)
+b)   P   ( R   |   D ) =  
+P   ( D ∩ R )
+
+P   ( D )  
+=  
+0 . 1
+0 . 4  
+= 0 . 25 .   (0.75 puntos)
+
+6.   El n´ umero de libros que lee un estudiante de Bachillerato al a˜ no sigue una distribuci´ on normal de media desconocida y
+varianza   σ
+2  
+= 6   libros
+2
+.   Se ha tomado una muestra de   10   estudiantes de Bachillerato y el n´ umero de libros que han le´ ıdo han sido
+
+4 ,   8 ,   2 ,   9 ,   3 ,   7 ,   5 ,   6 ,   7   y   4   libros.
+a) Calcula el intervalo de confianza para la media poblacional de libros le´ ıdos con un nivel de confianza del   97 % .   (1 punto)
+b) Explica razonadamente qu´ e se podr´ ıa hacer para conseguir un intervalo de confianza con mayor amplitud para el mismo nivel
+de confianza. (0.5 puntos)
+c) ¿Cu´ al ser´ ıa el error m´ aximo admisible si se hubiera utilizado una muestra de tama˜ no   64   estudiantes y un nivel de confianza
+del   95 . 96 %?   (0.5 puntos)
+
+Soluci´ on:
+
+a) La media muestral es:  
+¯
+X   =  
+4+8+2+9+3+7+5+6+7+4
+10  
+= 5 . 5 libros.
+Del enunciado se deduce:   σ
+2  
+= 6 libros
+2  
+⇒   σ   = 2 . 45 libros,   n   = 10, 1   −   α   = 0 . 97   ⇒   Z   α
+
+2  
+= 2 . 17 .   (0.25 puntos)
+IC =
+
+(  
+¯ X   −   Z   α
+
+2
+
+σ
+√
+n  
+,   ¯ X   +   Z   α
+
+2
+
+σ
+√
+n
+
+)
+
+(0.25 puntos)
+IC =
+
+(
+
+5 . 5   −   2 . 17  
+2 . 45
+√
+10  
+,   5 . 5 + 2 . 17  
+2 . 45
+√
+10
+
+)
+
+= (3 . 819 ,   7 . 181) .   (0.5 puntos)
+b) Para aumentar la amplitud del intervalo manteniendo el nivel de confianza, hay que aumentar el valor de  
+σ
+√
+n  
+y como   σ   es un
+valor dado, la ´ unica opci´ on es disminuir el tama˜ no de muestra. (0.5 puntos)
+c) 1   −   α   = 0 . 9596   ⇒   α   = 0 . 0404   ⇒  
+α
+
+2  
+= 0 . 0202   ⇒   Z   α
+
+2  
+= 2 . 05 .   (0.25 puntos)
+Error m´ aximo admisible   E   =   Z   α
+
+2
+
+σ
+√
+n  
+= 2 . 05  
+2 . 45
+√
+64  
+= 0 . 628 .   (0.25 puntos)
+
+Bloque 2
+5.   Se considera la funci´ on   f   ( x ) =
+
+
+
+
+
+( x   +   t   + 1)
+2  
+si   x <   − 1
+1   si   x   =   − 1
+
+− x
+2  
++ ( t   + 2) x   + 5   si   x >   − 1
+
+a) ¿Para qu´ e valor de   t   la funci´ on   f   ( x )   es continua   x   =   − 1?   (0.5 puntos)
+b) Para   t   = 0 ,   calcula los extremos relativos de la funci´ on   f   ( x )   en el intervalo   ( − 1 ,   ∞ ) . (0.5 puntos)
+c) Para   t   = 0 ,   calcula los intervalos de crecimiento y decrecimiento de la funci´ on   f   ( x )   en   ( − 1 ,   ∞ ) . (0.5 puntos)
+
+Soluci´ on:
+- 3   - 2   - 1   1   2   3   4
+
+- 3
+
+- 2
+
+- 1
+1
+2
+3
+4
+5
+6
+
+a) La funci´ on es continua en   x   =   − 1   ⇔   l´ ım x →− 1   f   ( x ) =   f   ( − 1) .   Para que exista el l´ ımite, los l´ ımites laterales tienen que ser
+iguales:
+l´ ım x →− 1 −   f   ( x ) = l´ ım x →− 1 ( x   +   t   + 1)
+2  
+=   t
+2  
+y l´ ım x →− 1 +   f   ( x ) = l´ ım x →− 1 ( − x
+2  
++ ( t   + 2) x   + 5) =   − t   + 2 .
+t
+2  
+=   − t   + 2   ⇒   t
+2  
++   t   −   2 = 0   ⇒   t   =   − 2 y   t   = 1 .   Como   f   ( − 1) = 1   ⇒   t   = 1 .   (Saber las condiciones 0.25 puntos. C´ alculo correcto
+0.25 puntos)
+b) Los extremos relativos verifican   f  
+′  
+( x ) = 0   ⇒   f  
+′  
+( x ) =   − 2 x   + 2 = 0   ⇔   x   = 1 .   Se eval´ ua el valor obtenido en   f  
+′′
+
+( x ) =   − 2 para
+determinar si el puntos encontrado es m´ aximo o m´ ınimo,   f  
+′′
+
+(1) =   − 2   <   0   ⇒   m´ aximo relativo en (1 ,   6). (Saber las condiciones
+0.25 puntos. C´ alculo correcto 0.25 puntos)
+c)   f  
+′
+
+( x )   >   0 en el intervalo ( − 1 ,   1) por lo que la funci´ on crece y   f  
+′
+
+( x )   <   0 en el intervalo (1 ,   ∞ ) donde decrece. (0.25 por cada
+intervalo correcto)
+
+6.   El n´ umero de socios de una protectora de animales durante los cinco primeros a˜ nos de su existencia viene dado por la siguiente
+funci´ on   P   ( x ) =   x
+3  
+−   6 x
+2  
++ 9 x   + 4   con   x   =   a˜ nos y   1   ≤   x   ≤   5 .
+
+a) ¿En qu´ e intervalos aumenta el n´ umero de socios? ¿Y en cu´ ales disminuye? (0.5 puntos)
+b) ¿Cu´ ando hay mayor n´ umero de socios y cu´ antos son? (0.75 puntos)
+c) ¿En qu´ e a˜ no son menos socios y cu´ antos hay? (0.75 puntos)
+
+Soluci´ on:
+
+a)   P  
+′
+
+( x ) = 3 x
+2  
+−   12 x   + 9 y   P  
+′
+
+( x ) = 0   ⇒   x   = 1 y   x   = 3 .   Decrece en (1 ,   3) ya que   P  
+′
+
+( x )   <   0 en este intervalo (0.25 puntos) y crece
+en (3 ,   5) ya que   P  
+′
+
+( x )   >   0 .   (0.25 puntos)
+b)   P  
+′′
+
+( x ) = 6 x   −   12 y   P  
+′′
+
+(1) =   − 6   <   0   ⇒   m´ aximo relativo con   P   (1) = 1
+3  
+−   6   ·   1
+2  
++ 9   ·   1 + 4 = 8 .   Hay que comprobar el otro
+extremo del intervalo   P   (5) = 5
+3  
+−   6   ·   5
+2  
++ 9   ·   5 + 4 = 24 .   M´ aximo el quinto a˜ no con 24 socios. (Saber las condiciones 0.25 puntos.
+C´ alculo correcto 0.5 puntos)
+c)   P  
+′′
+
+(3) = 6   >   0   ⇒   m´ ınimo relativo con   P   (3) = 3
+3  
+−   6   ·   3
+2  
++ 9   ·   3 + 4 = 4 .   M´ ınimo el tercer a˜ no con 4 socios. (Saber las condiciones
+0.25 puntos. C´ alculo correcto 0.5 puntos)
+

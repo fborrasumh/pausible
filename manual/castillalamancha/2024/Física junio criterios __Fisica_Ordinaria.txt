@@ -1,0 +1,715 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2324/ORDINARIA/Fisica_Ordinaria.ashx]
+EvAU
+
+Curso 2023/2024
+Física
+
+Pág 1
+
+Solucionario del Examen ORDINARIO
+
+El presente documento se debe tomar como una ayuda a los correctores y para concretar de la forma más uniforme posible los criterios
+específicos de corrección. No es un documento docente que pretenda enseñar a nadie a resolver los problemas, con lo que en ocasiones faltarán
+detalles en las explicaciones y pasos matemáticos en los desarrollos que según el caso pueden ser exigibles en los exámenes de los alumnos para
+llegar a la máxima puntuación. En algunos casos puede haber otras maneras distintas y válidas de resolver los problemas. Los correctores
+adaptaran la filosofía de estos criterios específicos a esos casos cuando sean leves variantes. En los casos en que las diferencias sean notables
+lo comunicarán al coordinador y a los demás correctores durante las sesiones de evaluación de manera que pueda unificarse también la
+baremación de esas otras alternativas. En la mayoría de los casos se valora conocer (o deducir) la expresión matemática necesaria, por un
+lado, y el valor numérico final por otro. En ningún caso se invalidará todo un apartado sólo porque el valor numérico final no coincida con el
+dado aquí como solución, aunque estén dados en negrita como referencia.
+
+Sección 1: Problemas (elegir 2).   Puntuación máxima 3 puntos cada uno.
+
+1.   Una onda armónica se propaga por el espacio a una velocidad de 350 m/s, y viene descrita por la siguiente
+función de onda: y(x,t)=5·sen(k·x- 10π·t+ ϕ ), todo en el sistema internacional. Sabiendo que y(0,0)=2.5 m y
+que la velocidad de oscilación en (0,0) es negativa determina, justificadamente, lo siguiente:
+
+a)   Valores del número de ondas y del desfase inicial
+
+b)   Valor numérico de la velocidad de oscilación en (0,0) y velocidad máxima de oscilación de un punto
+cualquiera del espacio (x).
+
+c)   Aceleración máxima de oscilación de un punto cualquiera (x), y diferencia de fase (expresada en
+grados) para un punto cualquiera entre dos instantes de tiempo separados 0.025 segundos.
+
+Apartado (a)   Puntos
+
+Evaluando la onda en los puntos dados:
+
+y(0,0)=5·sen( ϕ )=2.5      ϕ =arcse n(0.5)=π/6 o bien 5π/6 (30º ó 150º)
+
+v   y (0,0)=dy/dt (0,0)=-50 π ·cos( ϕ )<0      cos ϕ >0.
+
+(damos 0.25 por considerar los 2 posibles valores de desfase)
+
+Como cos(5π/6) < 0 y cos (π/6)>0   el desfase es π/6 (30º)
+
+0.25
+
+0.25
+
+0.25
+
+La velocidad de propagación es v   p = ⍵ /k      k= ⍵ /v p = 10π/350= 0.089 m -1   0. 2 5
+
+Apartado (b)   Puntos
+
+Como la velocidad de oscilación era v   y (0,0)=-50 π ·cos( ϕ )   evaluando con el desfase sale v(0,0)= - 136 m/s
+
+Recordad que como no se propagan los fallos en la corrección, si un alumno emplea la fórmula adecuada
+
+pero introduce en ella un valor de desfase diferente al correcto se le da por buena esta respuesta aunque
+
+el valor de velocidad no sea este.
+
+La velocidad es negativa, si algún alumno omite el signo 
+   error leve
+
+0. 5
+
+La velocidad máxima de oscilación de un punto es v O =Aω      v   max = 5·10π = 157.1   m /s   0.5
+
+Apartado (c)   Puntos
+
+La aceleración es a=-   5 00π
+2
+·sen(k·x- 10π·t+ ϕ ),
+
+El valor máximo      a max   = 500π
+2
+= 4934.8 m/s  
+2
+
+0.25
+
+0.25
+
+La fase es el argumento de la función trigonométrica:   k·x- 10π·t+ ϕ
+
+La diferencia entre 2 momentos determinados será Δϕ =- 10π·Δt= - 0.7854 rad   =- 45º
+
+No descontamos aquí nada si se toma el incremento al revés y sale cambiado de signo el resultado.
+
+0.25
+
+0.25
+
+EvAU
+
+Curso 2023/2024
+Física
+
+Pág 2
+
+2.   Nos encontramos en una nave espacial de 50000 kg sobre la superficie de Mercurio. Sabemos que el radio de
+este planeta es 2440 km y su masa 3.3·10  
+23  
+kg.
+
+a)   Determina el valor de la gravedad en la superficie de Mercurio y el peso que tendrá allí la nave.
+
+b)   Deduce la expresión de la velocidad que necesita la nave para abandonar el planeta y calcula su valor
+para este caso.
+
+c)   Suponiendo que cuando se encuentre a una altura de 9 veces el radio de Mercurio su velocidad sea 1
+km/s, determina a qué altura (en km) se parará antes de volver a caer sobre Mercurio.
+
+Datos: G=6.67·10  
+-11  
+N·m  
+2
+·kg
+-2
+
+Apartado (a)   Puntos
+
+Igualando la fuerza gravitatoria en la superficie del planeta a masa por aceleración de gravedad…
+
+𝐹𝐹   =   𝐺𝐺  
+𝑀𝑀 · 𝑚𝑚
+𝑑𝑑  
+2   =   𝑚𝑚𝑚𝑚    g =   𝐺𝐺  
+𝑀𝑀
+𝑅𝑅  
+2   (con dar la fórmula concedemos el 0.25)  
+0.25
+
+Sustituyendo:   g=3.69 m/s 2   0.25
+
+El peso de la nave es la fuerza con que la gravedad lo atrae F=mg   0.25
+
+Sustituyendo P=50000·3.69= 184500 N   0.25
+
+Apartado (b)   Puntos
+
+La velocidad necesaria para abandonar el planeta es la velocidad de escape, que es la que proporciona al
+
+cuerpo una energía cinética tal que la mecánica total sea nula:   (Identifica el concepto de vel. escape)
+
+E= –GMm/R   + mv e
+2 /2=0. Despejando   𝑣𝑣 𝑒𝑒   =   �  
+2 · 𝐺𝐺𝑀𝑀
+𝑅𝑅
+
+Como se pide “deducir” si solo se pone la expresión final no damos aquí nada.
+
+0.25
+
+0.5
+
+Sustituyendo valores se obtiene v =4247.5 m/s.
+
+Si solo pone la formula y el resultado final tendría este 0.25.
+
+0.25
+
+Apartado (c)   Puntos
+
+En su movimiento, la energía mecánica se mantiene constante. Como los datos se refieren a altura la
+
+distancia al centro del planeta es R+h.
+
+E p =-GMm/ (R+h)   E c =mv   2 /2,   donde M es la masa de Mercurio y m la de la nave.
+
+0.25
+
+Evaluamos en el punto inicial
+
+E 0   =-G·M·m / (9R+ R) +m·1000
+2
+/2= -4.5·10
+10  
++ 2.5·10
+10  
+=-2·10
+10  
+J.
+
+En el punto mas alto su velocidad es cero y solo tiene Energía potencial   E f   =-G·M·m / (R+h f   )
+
+0.25
+
+0.25
+
+Igualando   ℎ′   =  
+− 𝐺𝐺 𝑀𝑀𝑚𝑚
+
+−2 · 10   10  
+− 𝑅𝑅   =   𝟓𝟓𝟓𝟓𝟓𝟓𝟓𝟓𝟓𝟓 .   𝟓𝟓   𝒌𝒌𝒌𝒌 ,
+
+(   que corresponde a una distancia al centro de Mercurio de 55027.5 km)
+
+(*) Si algún alumno toma los datos de “altura” como distancias al centro del planeta los resultados
+serán algo diferentes, pero si las fórmulas y razonamiento son correctos le damos toda la puntuación
+y contamos 1 error leve.
+
+0.25
+
+EvAU
+
+Curso 2023/2024
+Física
+
+Pág 3
+
+3.   Tres cargas: A, B y C se colocan en los puntos (-1,0), (2,0) y (1,2) respectivamente como se muestra en el
+
+esquema (coordenadas en metros). Las cargas A y B valen 2μC, y sabemos que el
+potencial en el punto (0,1) es 1685.9 V.
+
+a)   Determina el valor de la carga C
+
+b)   Trabajo necesario para mover una carga de 5μC desde el punto (0,1) hasta
+
+(1,0). Interpreta el signo del trabajo obtenido.
+
+c)   Determina el valor del vector campo eléctrico en este último punto (1,0)
+debido a las cargas A, B y C
+
+Datos: K=9·10  
+9  
+Nm  
+2
+/C
+2
+
+Apartado (a)   Puntos
+
+El potencial que crea una carga Q en un punto a distancia r de ella es V=KQ/r   0. 2 5
+
+El potencial en (0,1) es la suma del creado por cada carga:
+
+V=KQ A /r A + KQ B /r B + KQ C /r C
+
+0.25
+
+Por ejemplo, usando el teorema de Pitágoras obtenemos las distancias r A =√2=r C ; r B =√5   0.25
+
+Sustituyendo valores: 1685.9=9·10  
+9
+·(2·10  
+-6
+/√2+2·10
+-6
+/√5+Q C /√2)
+
+Despejamos   Q C =–3·10 -6   C
+
+0.25
+
+Apartado (b)   Puntos
+
+El trabajo es W=– ΔE p =q(V ini -V fin )   0.25
+
+En (0,1) el potencial se da como dato: 1685.9 V
+
+En (1,0) hay que calcular el potencial   con la misma formula de (a) pero con distancias diferentes:
+
+V fin   =KQ A /r’   A + KQ B   /r’   B + KQ C /r’   C   r’   A =2; r B   =1; r C =2
+
+0.25
+
+Sustituyendo V   fin   =13500 V
+
+Por tanto W=– ΔE p =5·10  
+-6
+·(1685.9-13500)=-0.059 J
+
+0.25
+
+W<0 significa que el trabajo   se realiza externament e   ya que la carga aumenta su energia potencial al
+ser desplazada.
+
+0.25
+
+Apartado (c)   Puntos
+
+El campo creado por cada carga es   𝐸𝐸   =   𝐾𝐾  
+𝑄𝑄 𝑖𝑖
+𝑟𝑟
+𝑖𝑖
+2   en la dirección que une el punto con la carga.  
+0.25
+
+Las distancias son las del apdo (b). Con ellas los módulos son
+
+E A =
+𝐾𝐾𝑄𝑄 𝐴𝐴
+𝑟𝑟 𝐴𝐴
+′   2   = 4500   N/C; E B   =
+𝐾𝐾𝑄𝑄 𝐵𝐵
+𝑟𝑟 𝐵𝐵
+′   2   = 18000   N/C; E C =
+𝐾𝐾𝑄𝑄 𝐶𝐶
+𝑟𝑟 𝐶𝐶
+′   2   =   6750   N/C;
+
+0.5
+
+Dotando a cada campo de su carácter vectorial resulta E=[(E A -E B   ),E C ];   𝑬𝑬 ��⃗   = (-13500,6750) N/C   0.25
+
+E A
+
+E C
+
+E B
+
+EvAU
+
+Curso 2023/2024
+Física
+
+Pág 4
+
+4.   Un haz de electrones circula en la dirección horizontal (eje +X) dentro de un tubo de vacío con una velocidad de 10
+6
+m/s, y entra en una región donde aplicamos mediante un imán un campo magnético de 0.04 T en la dirección
+
+vertical (eje +Y).
+
+a)   Escribe la expresión vectorial de la fuerza que aparece sobre los electrones en este caso, y describe
+cualitativamente en base a ella la trayectoria que seguirán incluyendo un esquema.
+
+b)   Calcula   los   valores   numéricos   del   radio   y   periodo   del   movimiento   deduciendo   las   expresiones
+correspondientes.
+
+c)   Queremos añadir un campo eléctrico que pueda mantener la trayectoria lineal original. Indicar en qué
+dirección y sentido tendríamos que aplicarlo y cuál debería ser su valor.
+
+Datos: m   e =9.1·10   -31   kg; q   e = –1.6·10   -19   C
+
+Apartado (a)   Puntos
+
+La fuerza que aparece sobre la carga es la fuerza de Lorentz:   𝐹𝐹⃗   =   𝑞𝑞𝑣𝑣⃗   ×   𝐵𝐵 �⃗   0.25
+
+El producto vectorial de un vector en dirección +X
+
+con otro en +Y ,   da un vector en dirección +Z . Como
+la carga es negativa, sin embargo,   la dirección
+inicial de la fuerza magnética será -Z.
+
+Al ser perpendicular a la velocidad, esta fuerza hace
+
+que la velocidad no cambie en módulo, sólo de
+dirección . Al hacerlo ,   hace   también lo hace la
+
+fuerza,   de   manera   que   siempre   son
+perpendiculares, dando lugar a una trayectoria
+circular como se ve en el esquema en 3 puntos de la
+trayectoria: el inicial (arriba) y dos más.
+
+El campo lleva la dirección +Y que está en este
+esquema perpendicular al papel y hacia adentro .
+
+0.25
+
+(dirección   y
+sentido de F)
+
+0.25
+(trayectoria)
+
+0.25
+(esquema)
+
+Colocamos aquí el eje Z en dirección vertical para representar mejor la trayectoria. Un esquema en perspectiva
+tambien sería válido, como es natural
+
+Apartado (b)   Puntos
+
+Igualando la fuerza de Lorentz a masa por aceleración centrípeta, se puede deducir el radio de la
+
+trayectoria circular
+
+F=qvB=mv   2 /R      R=mv/qB
+
+0.25
+
+Sustituyendo R=1.42·10   -4   m   0.25
+
+El periodo es el tiempo que le lleva dar una vuelta entera (perimetro de la circunferencia):
+
+T=2πR/v=2πm/qB   0.25
+
+Sustituyendo resulta T=8.93·10   -10   0.25
+
+Apartado (c)   Puntos
+
+Para mantener la dirección original invariable (que va según - Z) hace falta una fuerza de igual valor a la
+
+magnética y que vaya en sentido +Z
+
+0.25
+
+La fuerza eléctrica es F=qE
+
+qvB=qE      E=vB
+
+0.25
+
+0.25
+
+Sustituyendo valores resulta   𝐸𝐸 �⃗   =   − 40000   𝑘𝑘
+�⃗
+
+Si se especifica claramente la dirección y sentido del campo eléctrico   en lo anterior   no hace falta aquí
+
+0.25
+
+EvAU
+
+Curso 2023/2024
+Física
+
+Pág 5
+
+dar la solución   final   en formato vectorial , sólo determinar el valor del módulo.
+
+Sección 2: Cuestiones (elegir 3).   Puntuación máxima 1 punto cada una.
+
+5.   Si dispusieras de un cronómetro como único aparato de medida, ¿podrías determinar la masa de un objeto colgándolo
+de un muelle de constante elástica conocida (k) y dejándolo oscilar unas cuantas veces? En caso afirmativo explica
+cómo lo calcularías ¿Se obtendrían los mismos resultados en La Luna? Justifica tu respuesta.
+
+Cuestión 5   Puntos
+
+Partimos de una masa colgando de un muelle en equilibrio. Si lo sacamos de ese equilibrio la fuerza
+elástica (Hooke) es - k·x, donde k es la constante elástica del muelle y x lo que hemos estirado el
+
+muelle a partir de su posición ya estirada de equilibrio inicial. La ecuación del movimiento entonces
+es: -k·x=m·a      a= - (k/m)·x = - ⍵ 2   ·x,   que es la ecuación de un movimiento armónico simple (MAS)
+
+0.25
+
+En este MAS, el periodo de oscilación es   𝑇𝑇   = 
+2 𝜋𝜋  
+𝜔𝜔
+�   = 2 𝜋𝜋�𝑚𝑚 / 𝑘𝑘   0.25
+
+Por tanto, si medimos T podemos despejar m dado que k es conocido   𝑚𝑚   =  
+𝑘𝑘𝑇𝑇   2
+4𝜋𝜋  
+2
+
+0.25
+
+Ninguno de los parámetros depende de la gravedad, de modo que el resultado en la Luna sería el
+mismo
+
+0.25
+
+No es válido colgar la masa para medir el estiramiento del muelle y a partir de ahí sacar el peso (y con él la
+masa) usando la ley de Hooke, dado que se especifica en el enunciado que   el único   aparato de medida es un
+cronómetro. En ese otro experimento sí habría dependencia con la gravedad…
+
+6.   Un avión produce 150 dB a 1 m de distancia. ¿A qué distancia del avión el nivel de intensidad sonora se encuentra al
+máximo de lo que establece la ley, es decir 65 dB?
+
+Cuestión 6   Puntos
+
+El nivel de intensidad sonora se define como L(dB)=10·log(I/I 0 )   0.25
+
+En este caso L 1   =150 dB de modo que I 1   =I 0   ·10   15   y para el caso L 2 =65 dB será I 2 =I 0   ·10   6.5   0.25
+
+Como en una onda esférica la intensidad cae con el cuadrado de la distancia  
+𝐼𝐼 1
+𝐼𝐼 2
+
+=   �  
+𝑟𝑟 2
+𝑟𝑟 1
+
+�  
+2
+
+Tambien puede obtenerse a partir de igualar las potencias P 1   =P   2 =I·r
+2
+
+0.25
+
+Por tanto   𝑟𝑟 2   =   𝑟𝑟 1   ·   �
+𝐼𝐼 1
+𝐼𝐼 2
+�   =1· �  
+𝐼𝐼 0 · 10   15
+𝐼𝐼 0 · 10   6 . 5  
+= 17.78   𝑘𝑘 𝑚𝑚  
+0.25
+
+Nótese que no es necesario el valor de I 0   porque al simplificarse no aparece en la solución. En la reunion de
+coordinación se estableció hace un par de años que si el valor de una constante no aparece en la solución no se
+dará en el enunciado para no inducir al alumno a creer que la tiene que usar. No hay problema si algún alumno
+se la sabe y la usa para obtener valores intermedios de intensidad (que no se piden)
+
+7.   Al llegar a una superficie, una radiación arranca electrones con una velocidad de 10  
+5  
+m/s. Si dicha radiación tiene
+una longitud de onda λ=1.5 μm, calcular el trabajo de extracción y la frecuencia umbral del elemento.
+
+Datos:   h =   6.63 × 10   - 34   J   ⋅   s; c= 3·10   8   m·s -1   ; m   e =9.11·10   -31   Kg
+
+Cuestión 7   Puntos
+
+En el efecto fotoeléctrico la energía de la luz incidente se gasta en el trabajo de extracción y en la
+energía cinética que adquiere el electrón arrancado E=W   0 +E c
+
+Usando la fórmula de Planck determinamos la energía incidente a partir de la longitud de onda
+
+E=hc/λ=1.326·10
+-19  
+J
+
+0.25
+
+La Energía cinética de los electrones es E c =mv   2 /2=4.55·10   -21   J   0.25
+
+Por tanto la diferencia entre ambas es el trabajo de extracción: W=E-E c =1.28·10   -19   J   0.25
+
+Como E=hν a partir del W obtenemos la   frecuencia umbral: ν 0 =W/h=1.93·10 14   Hz   0.25
+
+EvAU
+
+Curso 2023/2024
+Física
+
+Pág 6
+
+8.   Un trozo de papel (producido a partir de materia vegetal antiguamente viva), extraído de los Manuscritos del Mar
+Muerto, tiene una actividad de 10.93 desintegraciones por minuto por gramo de Carbono. Calcula la edad de los
+Manuscritos sabiendo que la actividad radioactiva del carbono atmosférico (C-14) es 13.6 desintegraciones·min
+-1  
+·g
+-1  
+.
+Dato: Periodo de semidesintegración del C-14 = 5730 años
+
+Cuestión 8   Puntos
+
+La actividad viene dada por A=A 0 ·e - t/τ ,   donde τ es la vida media   0.25
+
+La vida media está relacionada   con el tiempo de semidesintegración mediante τ=T 1/2 /ln(2)
+
+Por tanto,   τ = 8266.6 años
+
+0.25
+
+Sustituyendo en la expresión inicial obtenemos el tiempo transcurrido entre que la actividad era
+13.6 y cuando es 10.93: 10.93=13.6 e
+-t/8266.6  
+   t=-8266.6·ln(10.93/13.6)
+
+t=1806 años
+
+0.25
+
+0.25
+
+Atención: al ser una función exponencial es muy sensible a los valores numéricos exactos. En función del número
+de decimales tomados o cómo se redondeen en la solución pueden fluctuar unos cuantos años arriba o abajo… No
+lo tenemos en cuenta para dar la máxima puntuación.
+
+9.   Dos esferas conductoras de radios 80cm y 40 cm, tienen una carga de 16 C cada una. Se colocan en el vacío y muy
+alejadas entre sí . Determina la carga final de cada una tras unirlas mediante un hilo conductor de capacidad
+
+despreciable
+
+Cuestión 9   Puntos
+
+Al poner en contacto las esferas, intercambiarán carga hasta igualar sus potenciales eléctricos   0.25
+
+El potencial de una esfera viene dado por V=KQ/R   0.25
+
+Igualamos los potenciales tras haber intercambiado una cantidad de carga q que pasa de   2 (r=0.4m)
+
+hacia   1 (r=0.8 m) ya que al tener más radio tendrá más capacidad (*)
+
+K(q 1 + q)/R   1 = K(q   2 -q)/R   2      0.4(16 + q)=0.8(16-q)
+
+0.25
+
+Despejando resulta q=5.33 C      Q 1 ’=21.33 C; Q 2   ’=10.66 C   0.25
+
+(*) No es imprescindible hacer este razonamiento, si se supone una transferencia de carga en sentido opuesto
+saldrá q<0 y el alumno interpretará que el intercambio es en el otro sentido. En ese caso la ecuación es
+ligeramente diferente pero el módulo de la cantidad intercambiada es la misma…
+
+10.   Una espira conductora circular descansa sobre el plano XY y está sometida a un campo magnético uniforme cuyo
+
+valor es   𝐵𝐵 �⃗   (t) = 0.014 · t   2   𝑘𝑘 �⃗   , donde el campo y el tiempo están en unidades del S.I. Razona si aparecerá corriente en
+
+la espira (no hay que calcular su valor). En caso de producirse, explica su sentido y dibújalo en un esquema donde
+
+aparezca la dirección y sentido de   𝐵𝐵 �⃗   .
+
+Cuestión 10   Puntos
+
+El flujo del campo magnético en este caso es   Φ   =   𝐵𝐵 �⃗   ·   𝑆𝑆⃗ .   Como la espira está en el plano XY su vector
+
+𝑆𝑆 ⃗   va en la dirección Z, es decir paralelo a   𝐵𝐵 �⃗   con lo que   Φ   =   𝐵𝐵   ·   𝑆𝑆   ·   cos ( 0 )   =   𝐵𝐵 𝑆𝑆
+
+0. 2 5
+
+S es constante, pero como B aumenta con el tiempo también lo   hará el flujo, en consecuencia,
+
+aparecerá corriente inducida en la espira ya que ε= - dФ/dt
+
+0.25
+
+Para oponerse a la variación del flujo la corriente tendrá sentido horario visto desde arriba (Ley de
+
+Lenz)
+
+0.25
+
+0.25
+
+EvAU
+
+Curso 2023/2024
+Física
+
+Pág 7
+
+Sección 3: Cuestiones experimentales (elegir una).   Puntuación máxima 1 punto cada una.
+
+11.   El exoplaneta Kepler- 442b es de momento el más parecido a la Tierra de todos los descubiertos. Si hiciésemos un
+
+experimento de medida del periodo de un péndulo de m=20 g para determinar su valor, contando el tiempo que
+tarda en oscilar 5 veces, obtendríamos los siguientes resultados cuando la longitud del péndulo es 30 cm:
+
+t   5   (s)   4.95   5.02   5.12   4.92   4.89   4.91
+
+Explica el procedimiento para determinar el valor de la gravedad en la superficie del planeta y calcula su valor. ¿Qué
+
+valor habríamos obtenido con un péndulo que tuviera el doble de masa?
+
+Cuestión 11   Puntos
+
+Para oscilaciones pequeñas el péndulo desarrolla un movimiento armónico simple, cuyo periodo es
+
+𝑇𝑇   = 2 𝜋𝜋�
+𝐿𝐿  
+𝑚𝑚 �
+
+0.25
+
+Por tanto, midiendo el periodo del movimiento (por ejemplo viendo el tiempo que tarda en dar 5
+oscilaciones y dividiendo por 5 para tener mejor resolución), y sabiendo la longitud de la cuerda podemos
+deducir el valor de la gravedad en el planeta. g=4 π
+2
+L/T
+2
+
+0.25
+
+El tiempo medio de nuestro experimento es 4.968 s y el periodo promedio   𝑇𝑇   = 0.993 s. Por tanto, usando
+la fórmula anterior   g=12 m/s   2
+
+0.25
+
+Al no depender el periodo de la masa del péndulo obtendríamos el mismo resultado con una masa doble.   0.25
+
+Nota: Aunque no es matemáticamente correcto sacar con cada tiempo una gravedad, y luego hacer el promedio
+de los valores g individuales, si alguien lo hace lo damos por válido anotando sólo   1 error leve .
+
+12.   En un experimento de las leyes de Snell la luz puede viajar por el aire (fondo blanco) o por un cristal desconocido
+(fondo oscuro). Extrae de los casos (a) y (b) los ángulos de incidencia y refracción, y determina justificadamente el
+índice de refracción del vidrio, justificando si es o no el mismo material en los dos casos. Explica por qué en el caso
+(c) no se observa rayo refractado.
+
+Cuestión 12   Puntos
+
+Las leyes de Snell establecen que el ángulo reflejado es igual al incidente, y el   refractado cumple
+
+n   1 sen(θ inc )= n   2 sen(θ ref ). ( Con enunciar la 2º ley es suficiente para el 0.25)
+
+0.25
+
+En el primer caso (a) θ inc = 30º y θ ref   =20º; como n   1 =1 (aire)      1·sen(30)=n   2 ·sen(20)    n 2 =1.4   0.25
+
+(a)   (b)  
+(c)
+
+EvAU
+
+Curso 2023/2024
+Física
+
+Pág 8
+
+En el segundo caso el medio incidente es n   2 ; y   θ inc = 30º y   θ ref   =45º n   2 ·sen(30)= 1·sen(45)      n 2 =1.4
+
+Por tanto, se trata del mismo material.   Si se toman más decimales los valores no son exactamente
+iguales y podría deducirse que no son el mismo material. Se aceptan ambos razonamientos como
+perfectamente correctos.
+
+0.25
+
+En el caso (c) no hay haz refractado porque la incidencia se da a 70º, un ángulo mayor que el ángulo
+
+crítico de reflexión total, que se da cuando el haz transmitido es justo 90º: 1.4·sen(θ crit )=1·sen(90)   
+
+θ crit =45º
+
+0.25
+

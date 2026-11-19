@@ -1,0 +1,716 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2526/EXTRAORDINARIA/Tecnologia-e-Ingenieria.ashx]
+Prueba de acceso a la
+Universidad   Curso 202 5 /202 6
+
+Materia:   Tecnología   e   Ingeniería II
+
+INSTRUCCIONES:
+
+‐   La prueba consta de   4 ejercicios de 2,5 puntos cada uno .
+
+‐   Los ejercicios 1, 2 y 3   tienen dos opciones cada uno (a o b), tienes que resolver   solo   una de las
+
+opciones .
+
+‐   S i   realizas   opciones de más ,   se corregirá n   solo la s   primera s   que   aparezcan   resueltas .
+
+‐   Debes redactar l os ejercicios con claridad, detalladamente y razonando las respuestas.
+
+‐   Se penalizará n   la s   faltas de ortografía,   no poner las fórmulas,   errores y   ausencia de unidades.
+
+‐   La duración máxima de la prueba será   1 hora y 30 minutos .
+
+‐   Solo   podrás   utilizar   calculadora s permitidas (Tipo 1 o 2) .
+
+Criterios de corrección
+
+‐   En aquellos apartados en los que los resultados dependan del anterior, se valorará como   válidos si el
+
+planteamiento fuese correcto pero el resultado no, siempre que se deba a un error derivado del primer apartado.
+
+‐   En las soluciones numéricas se debe especificar la unidad, en caso de ser necesario, manteniéndose las
+
+unidades usadas en el enunc iado, salvo que se pida otra explícitamente, como las del Sistema Internacional. Los
+
+errores en las unidades se contabilizan globalmente en el examen, teniendo en cuenta tanto la unidad como el
+
+prefijo (de pico hasta Tera). La siguiente tabla muestra la pe nalización en la puntuación en función de los errores
+
+cometidos:
+
+Errores   1   2   3   4   5   6 o más
+
+Puntuación   0   0.25   0.25   0.5   0.5   0.75
+
+‐   Las faltas de ortografía serán penalizadas según la siguiente tabla:
+
+Faltas de ortografía   1   2   3   4 o más
+
+Puntuación   0   0.25   0.5   1
+
+‐   En la valoración de los ejercicios se tendrá en cuenta los criterios generales:
+
+a.   El planteamiento, desarrollo y la corrección en las operaciones.
+
+b.   La interpretación de los resultados cuando sea necesario.
+
+c.   Pensamiento crítico en la resolución de los e jercicios y cuestiones.
+
+d.   Los errores conceptuales y los errores operativos.
+
+e.   La claridad en la exposición, las explicaciones adicionales y la presentación y calidad del ejercicio.
+
+Ejercicio 1
+
+Opción a . (2 , 5 puntos)   Se diseña una prensa neumática con un cilindro de doble efecto para compactar
+
+material. El cilindro tiene: diámetro de émbolo   12 cm , diámetro de vástago   4 cm , carrera   50 cm   y
+
+rendimiento del   90% . El sistema trabaja a   6 bar   y realiza   80 ciclos por hora   (com presión y liberación).
+
+Se pide:
+
+a.   (1 punto)   Calcular la fuerza máxima de avance (en N) y la fuerz a máxima de retorno (en N).
+
+b.   (1 punto)   Determinar el consumo de aire d e la instalación   en condiciones normales   (en m³/h).
+
+c.   (0,5   punto s )   Calcular el trabajo realiza do en la carrera de avance.
+
+Solución 1.a:
+
+a. Calculamos el área del émbolo:
+
+𝐴   =  
+𝜋 𝐷
+2
+
+4  
+=  
+𝜋   ·   0 , 12
+2
+
+4  
+=   0 , 01131   𝑚
+2
+
+Sabemos que 1 bar = 100000 Pa.   La fuerza máxima de avance es:
+
+𝐹   =   𝑝   ·   𝐴   ·   𝜂   =   6   ·   10  
+5  
+·   0 , 0113   ·   0 , 9   →   𝑭   =   𝟔𝟏𝟎𝟕   𝑵
+
+Calculamos el área del émbolo menos   el área del vástago:
+
+𝐴 𝑟   =  
+𝜋 ( 𝐷
+2  
+−   𝑑
+2
+)
+
+4  
+=  
+𝜋 ( 0 , 12
+2  
+−   0 . 0 4
+2
+)
+
+4  
+=   0 , 01005   𝑚
+2
+
+(0,5 puntos)
+
+Prueba de   acceso a la Universidad
+
+Curso   202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+La fuerza máxima de retroceso es:
+
+𝐹
+𝑟  
+=   𝑝   ·   𝐴
+𝑟  
+·   𝜂   =   6   ·   10  
+5  
+·   0 , 01005   ·   0 , 9   →   𝑭
+𝒓  
+=   𝟓𝟒𝟐𝟕   𝑵
+
+b . Consumo de aire de la instalación:
+
+Volumen de avance:   V 𝑎   =   A   ·   L   =   0 , 01131   ·   0 , 5   =   0 , 00566   m
+3
+
+Volumen   de retroceso:   V 𝑟   =   A 𝑟   ·   L   =   0 , 01005   ·   0 , 5   =   0 , 00503   m
+3
+
+Volumen por ciclo:   𝑉 𝑐   =   V 𝑎   +   V 𝑟   =   0 , 00566   +   0 , 00503   =   0 , 01069   m
+3
+
+Consumo horario:   𝑄   =   80   ·   0 , 01069   =   0 , 855   m
+3
+/ ℎ
+
+Para convertir el consumo de aire del cilindro al consumo de aire   en condiciones
+
+normales aplicamos :
+
+𝑉𝑎𝑖𝑟𝑒   =   ( 𝑃𝑚𝑎𝑛   +   1 )   ·   𝑉𝑐𝑖   →   𝑉𝑎𝑖𝑟𝑒   =   ( 6   +   1 )   ·   0 , 855   →   𝑽𝒂𝒊𝒓𝒆   =   𝟓 ,   𝟗𝟖𝟓   𝒎
+𝟑
+/ 𝒉
+
+c. Trabajo en la carrera de avance.
+
+𝑊   =   𝐹   ·   𝐿   =   6107   ·   0 , 5   →   𝑾   =   𝟑𝟎𝟓𝟑   𝑱
+
+(0,5 puntos)
+
+(0,5 puntos)
+
+(0,5 puntos)
+
+(0,5 puntos)
+
+Opción b. (2,5 puntos)   Dado el siguiente circuito neumático, responde:
+
+a.   (1 puntos)   Nombra los elementos que forman el circuito neumático de abajo. En las válvulas
+
+distribuidoras indica qué tipo de accionamiento y retorno tienen.
+
+b.   (1,5 puntos)   Explica su   funcionamiento.
+
+Solución 1.b:
+
+a.   Nombre de los elementos del circuito neumático:
+
+   0P: compresor de aire.
+
+   0Z1: unidad de mantenimiento (filtro + regulador).
+
+   1.2: válvula 3/2 con pulsador y muelle.
+
+   1.1: válvula 3/2 pilotada   neumáticamente con muelle.
+
+   1.0: cilindro de simple efecto con muelle.
+
+b.   Funcionamiento:   El circuito controla un cilindro de simple efecto mediante una
+
+válvula 3/2 pilotada. Al accionar manualmente la válvula 1.2, se pilota la válvula 1.1,
+
+permitiendo el paso de aire al cilindro, que avanza. Al soltar 1.2, desaparece el
+
+pilotaje, 1.1 retorna   por muelle y el cilindro vuelve a su posición inicial por acción de
+
+su muelle.
+
+( 1 punto)
+
+( -   0,25 puntos
+
+por   nombre
+
+incorrecto).
+
+( 1,5   puntos)
+
+Prueba de   acceso a la Universidad
+
+Curso   202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+Otra explicación:
+
+Estado inicial: La válvula 1.2 no está pulsada y la 1.1 está en reposo debido al
+
+muelle, por lo que no llega presión al cilindro que está retraído   debido a su   muelle.
+
+Accionamiento (se pulsa válvula 1.2): El aire va desde OZ1 a 1.2 y a pilotaje de 1.1,
+
+esta válvula conmuta, y el aire fluye al cilindro, este avanza.
+
+Se suelta la válvula 1.2: se corta la señal de pilotaje. La válvula 1.1 vuelve a su
+
+posición inici al debido al muelle; el cilindro retrocede por el muelle evacuando el aire
+
+por el escape (válvula 1.1, orificio 3) .
+
+(Debe   explicar
+
+bien   cada   fase
+
+del
+
+funcionamiento)
+
+Ejercicio 2
+
+Opción a. (2,5 puntos)   En la figura se muestra un sistema de control de una variable física X y un sistema
+
+de actuación. El sistema está compuesto por una red de amplificación, un comparador y un actuador. La
+
+señal intermedia del sistema es Y, la cual depe nde de la entrada X. La función del comparador es:
+
+Y < 5   ⇒   S = 1
+
+Y ≥ 5   ⇒   S = 0
+
+El actuador se activa cuando a su entrada se tiene un nivel alto (S=1).
+
+a.   (1,5 puntos)   Obtenga la expresión de la señal Y=f(X).
+
+b.   (1 punto)   Determine el rango de valores de la v ariable X para los cuales se activa el actuador.
+
+a.
+
+Solución 2.a:
+
+a . Función de transferencia de la realimentación negativa interna:
+
+𝐹𝑡   =  
+𝐺
+
+1   +   𝐺   ·   𝐻  
+→  
+𝒀
+
+𝑿
+𝟏
+
+=  
+3
+
+1   +   3   ·   2  
+=  
+𝟑
+
+𝟕
+
+Función de transferencia de la realimentación negativa externa:
+
+𝑌
+
+𝑋  
+=  
+3 / 7
+
+1   +   3 / 7  
+=  
+3
+
+10  
+→   𝒀   =  
+𝟑
+
+𝟏𝟎  
+𝑿   =   𝟎 ,   𝟑𝑿
+
+b.   El comparador cumple   Y < 5   ⇒   S = 1,   y el actuador se activa cuando S = 1.
+
+S ustituimos Y por su relación con X:
+
+0 , 3 𝑋   <   5   →   𝑋   <  
+5
+
+0 , 3  
+→   𝑋   <   16 , 66
+
+Por tanto, el actuador se activa cuando   𝑿   <   𝟏𝟔 ,   𝟔𝟔
+
+(0, 7 5 puntos)
+
+(0, 7 5 puntos)
+
+(0,7 5 puntos)
+
+(0,2 5 puntos)
+
+Prueba de   acceso a la Universidad
+
+Curso   202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+Opción b. (2,5 puntos)
+
+a.   (1 punto)   Obtener la función de transferencia del sistema que sigue.
+
+b.   (1,5 puntos)   Determina si el sistema de control que sigue es estable averiguando los polos del
+
+sistema.
+
+Solución 2.b:
+
+a.   Función de transferencia del sistema, es una realimentación negativa cuyo valor
+
+de realimentación es la unidad. Po r   tanto:
+
+𝐹𝑡   =  
+𝐺
+
+1   +   𝐺  
+→  
+𝑪
+
+𝑹  
+=
+
+500
+
+( 𝑠   +   1 ) ( 𝑠   +   4 )
+
+1   +  
+500
+
+( 𝑠   +   1 ) ( 𝑠   +   4 )
+
+=  
+𝟓𝟎𝟎
+
+( 𝒔   +   𝟏 ) ( 𝒔   +   𝟒 )   +   𝟓𝟎𝟎
+
+b.   La ecuación característica es:
+
+( 𝑠   +   1 ) ( 𝑠   +   4 )   +   500   =   0   →   𝑠
+2  
++   5 𝑠   +   4   +   500   =   0
+
+𝑠
+2  
++   5 𝑠   +   504   =   0
+
+Aplicamos la fórmula general para hallar las raíces del sistema:
+
+𝑠   =  
+− 𝑏   ±   √ 𝑏
+2  
+−   4 𝑎𝑐
+
+2 𝑎  
+=  
+− 5   ±   √ 5
+2  
+−   4   ·   1   ·   504
+
+2  
+=  
+− 5   ±   √ − 1991
+
+2  
+=  
+− 5   ±   44 , 64   j
+
+2
+
+𝑠   =   − 2 , 5   ±   22 , 32j
+
+Las dos raíces tienen la parte real negativa, por lo cual podemos decir que   el sistema
+
+es estable.
+
+(1 punto )
+
+( 0,5   punto s )
+
+(0,75 puntos)
+
+(0,25 puntos)
+
+Ejercicio   3
+
+Opción a. (2,5 puntos)   Una bomba de calor funciona según el ciclo de Carnot. Extrae calor del exterior,
+
+que está a 5 °C, y lo cede al interior de una   vivienda que se mantiene a 25 °C. La bomba suministra
+
+calor a un ritmo de 36 000 kJ/h. Calcula:
+
+a.   (1 punto)   Rendimiento (COP) de la bomba de calor .
+
+b.   (1 punto)   Trabajo realizado por la bomba de calor en 1 hora.
+
+c.   (0,5   punto s )   Potencia del motor de la bomba de   calor.
+
+Solución 3.a:
+
+Prueba de   acceso a la Universidad
+
+Curso   202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+a.   Según el enunciado tenemos:
+
+𝑇 𝑓   =   5º 𝐶   =   278   𝐾 .   𝑇 𝑐   =   25º 𝐶   =   298   𝐾 .   𝑄 𝑐   =   36000  
+𝐾𝑗
+
+ℎ
+
+Calculamos el COP según Carnot:
+
+𝐶𝑂𝑃   =  
+𝑇 𝑐
+
+𝑇 𝑐   −   𝑇 𝑓
+
+=  
+298
+
+298   −   278  
+→   𝑪𝑶𝑷   =   𝟏𝟒 ,   𝟗
+
+b. Para una bomba de calor se cumple:
+
+𝐶𝑂𝑃   =  
+𝑄 𝑐
+
+𝑊  
+→   𝑊   =  
+𝑄 𝑐
+
+𝐶𝑂𝑃  
+=  
+36000
+
+14 , 9  
+→   𝑾   =   𝟐𝟒𝟏𝟔 ,   𝟏𝟔   𝒌𝑱   𝒆𝒏   𝒖𝒏𝒂   𝒉𝒐𝒓𝒂
+
+c. Sabemos que:
+
+𝑃   =  
+𝑊
+
+𝑇  
+=  
+2416 , 16   ·   1000
+
+3600  
+→   𝑷   =   𝟔𝟕𝟏 ,   𝟏𝟓   𝑾   =   𝟎 ,   𝟔𝟕𝟏   𝒌𝑾
+
+(1 punto )
+
+(1 punto )
+
+(0,5 puntos)
+
+Opción b. (2,5 puntos)   Un motor térmico funciona entre una fuente caliente a   600 K   y una fuente fría a
+
+300 K . Consume   2,5 kg/h de combustible   con un poder calorífico de   40 000   kJ/kg . El motor tiene un
+
+rendimiento real del   40% del rendimiento de Carnot .   Calcula:
+
+a.   (1 punto)   El   rendi miento de Carnot   y el rendimiento real del motor .
+
+b.   (1 punto)   El   calor útil desarrollado.
+
+c.   (0,5   punto s )   La   potencia útil en W.
+
+Solución 3.b:
+
+a. Según el enunciado tenemos:
+
+𝑇 𝑐   =   600   𝐾 .   𝑇 𝑓   =   300   𝐾 .   𝑄 𝑐   =   40000  
+𝐾𝑗
+
+ℎ  
+𝑑𝑒𝑙   𝑐𝑜𝑚𝑏𝑢𝑠𝑡𝑖𝑏𝑙𝑒 .
+
+𝐺   =   2 , 5  
+𝐾𝑔
+
+ℎ  
+,   𝑔𝑎𝑠𝑡𝑜   𝑐𝑜𝑚𝑏𝑢𝑠𝑡𝑖𝑏𝑙𝑒
+
+Calculamos el rendimiento de Carnot:
+
+𝜂   =   1   −  
+𝑇 𝑓
+
+𝑇 𝑐
+
+=   1   −  
+300
+
+600  
+→   𝜼   =   𝟎 ,   𝟓
+
+El rendimiento real es
+
+𝜂
+𝑟𝑒𝑎𝑙  
+=   0 , 4   ·   𝜂   =   0 , 4   ·   0 . 5   →   𝜼
+𝒓𝒆𝒂𝒍  
+=   𝟎 ,   𝟐
+
+b .   Calculamos el calor total aportado por el combustible:
+
+𝑄   =   𝑄
+𝑐  
+·   𝐺   =   40000   ·   2 , 5   →   𝑸   =   𝟏𝟎𝟎𝟎𝟎𝟎   𝒌𝑱 / h
+
+Calculamos el calor útil que es el trabajo:
+
+𝜂   =  
+𝑊
+
+𝑄  
+→   𝑊   =   𝜂   ·   𝑄   =   0 , 2   ·   100000   →   𝑾   =   𝟐𝟎𝟎𝟎𝟎   𝒌𝑱 / 𝒉
+
+c.   Sabemos que:
+
+𝑃   =  
+𝑊
+
+𝑇  
+=  
+20000   ·   1000
+
+3600  
+→   𝑷   =   𝟓𝟓𝟓𝟓 ,   𝟓𝟓   𝑾   =   𝟓 ,   𝟓   𝒌𝑾
+
+(0,75 puntos)
+
+(0,25 puntos)
+
+(0,5 puntos)
+
+(0,5   puntos)
+
+(0,5 puntos)
+
+Prueba de   acceso a la Universidad
+
+Curso   202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+Ejercicio   4
+
+(2,5   puntos)   Una   empresa   de   fabricación   de   componentes   mecánicos   en   Toledo   produce   ejes   de
+
+transmisión   destinados a maquinaria industrial pesada. Estos ejes deben soportar esfuerzos de torsión y
+
+desgaste, por lo   que es necesario garantizar que su dureza se encuentra dentro de un rango adecuado.
+
+Durante el control de calidad, se realiza un   ensayo de dureza Brinell   sobre uno de los ejes, aplicando una
+
+carga mediante una bola de acero durante 45 segundos. El   diámetro de la bola utilizada es de 10 mm y la
+
+constante del ensayo es k = 30.
+
+Tras realizar el ensayo, se mide la huella dejada por el penetrador en la superficie del eje utilizando un
+
+microscopio, obteniéndose un diámetro medio de   d = 4 mm .   Además, el d epartamento técnico establece
+
+que los ejes son aptos si su dureza está comprendida entre   200 HB y 300 HB . S e pide:
+
+a.   (1 ,5 puntos)   Calcula la carga aplicada d urante el ensayo y l a dureza Brinell del material del eje.
+
+b.   (0 ,5 puntos)   Expresa la dureza Brinell d e forma normalizada e indica si estos ejes son adecuados
+
+para la maquinaria industrial.
+
+c.   (0 ,5 puntos)   Explica   matemáticamente   cómo afectaría un aumento del diámetro de la huella al
+
+valor de la dureza.
+
+Solución 4:
+
+a.   La carga se calcula usando:
+
+𝐹   =   𝑘   ·   𝐷
+2  
+=   30   ·   10
+2  
+→   𝑭   =   𝟑𝟎𝟎𝟎   𝒌𝒑
+
+Para calcular la dureza B rinell utilizamos la fórmula:
+
+𝐻𝐵   =  
+2   ·   𝐹
+
+𝜋𝐷 ( 𝐷   −   √ 𝐷
+2  
+−   𝑑
+2
+)  
+=  
+2   ·   3000   𝐾𝑝
+
+𝜋   ·   10   ( 10   −   √ 10
+2  
+−   4
+2
+)   𝑚𝑚
+2  
+→   𝑯𝑩   =   𝟐𝟐𝟖 ,   𝟕𝟔  
+𝐤𝐩
+
+𝐦 𝐦
+𝟐
+
+b. La expresión de la dureza Brinell normalizada sería:   229 HB 10 / 3000 / 45
+
+Estos ejes son   aptos   ya que se encuentran dentro del rango especificado: entre 200
+
+y 300 HB.
+
+c. Si observamos la fórmula para calcular la dureza Brinel l ,   al aumentar d ,   la
+
+√ 𝑫
+𝟐  
+−   𝒅
+𝟐
+, disminuye   ya que es una resta. Por tanto,   ( 𝑫   −   √ 𝑫
+𝟐  
+−   𝒅
+𝟐
+) , es mayor ,
+
+está d entro de otra resta. Esto hace que   el denominador aumente su valor   y, como
+
+consecuencia,   la dureza disminuye.
+
+Otra forma:
+
+Si aumenta d:   √ 𝐷
+2  
+−   𝑑
+2  
+disminuye.
+
+Si disminuye   √ 𝐷
+2  
+−   𝑑
+2
+:   ( 𝐷   −   √ 𝐷
+2  
+−   𝑑
+2
+)   aumenta.
+
+Si aumenta   ( 𝐷   −   √ 𝐷
+2  
+−   𝑑
+2
+) :   aumenta el denominador.
+
+Si el denominador aumenta, disminuye   el valor   de HB.
+
+Lo   cual   tiene   sentido,   porque   el   material   ofrece   menos   resistencia   a   la
+
+penetración.
+
+(0,5   puntos)
+
+(1   punto)
+
+(0,25 puntos)
+
+(0,25 puntos)
+
+(0,5 puntos)
+

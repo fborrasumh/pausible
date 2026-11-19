@@ -1,0 +1,668 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2526/EXTRAORDINARIA/Matematicas-II.ashx]
+Prueba de acceso a la Universidad
+
+Curso 202 5 / 202 6
+
+Materia:   Matemáticas II
+
+INSTRUCCIONES:   El estudiante   deberá resolver obligatoriamente las preguntas   de la   1 a   la   3,   y   elegir una opción de las dos
+
+propuestas en la pregunta 4 y 5.   Es decir, en las preguntas 4 y 5, contestará UNA sola de las opciones propuestas. Si resuelve
+
+más, se corregirá solo el primero de los dos apartados resueltos. L as respuestas a los   ejercicios deben redactarse con claridad,
+
+detalladamente y razonando   dichas   respuestas , ya que   se valorará en estas y en los procedimientos desarrollados el rigor
+
+matemático. Su falta   se   podrá penalizar   con   hasta 1 punto en todo el examen.   Solo   se   permite   el   uso   de   calculador a s   de
+
+tipo   1   y   2 ,   tal   y   como   se   indica   en   la información   de   las   pruebas.   Cada   ejercicio   completo   puntuará   2   puntos.   Duración   de   la
+
+prueba:   90   minutos .
+
+PARTE A (preguntas 1, 2 y 3). Conteste TODAS las preguntas de esta parte
+
+Pregunta 1.
+
+En un estudio sobre hábitos de consumo digital, se observa que la edad de las personas suscritas a
+
+plataformas de películas y series en streaming puede modelizarse mediante una distribución normal de
+
+media 34 años y desviación típica de 6 años.
+
+Sea X la variable aleatoria que representa la edad, en años, de una persona susc r ita elegida al azar.
+
+Calcula :
+
+a)   [1   punto]   La   probabilidad   de   que   una   persona   suscrita   elegida   al   azar   tenga   una   edad
+
+comprendida entre 28 y 4 6   años.
+
+b)   [1 punto]   La edad K tal que el   15,87 % de las personas suscritas tenga una edad   superior   a K   años .
+
+Solución:
+
+a)
+
+Sea X la variable aleatoria que representa la edad, en años, de una persona suscrita elegida al
+
+azar, que es una variable aleatoria N( 𝜇   =   34 ,   𝜎   =   6 ) . Se pide:
+
+𝑃 ( 28   <   𝑋   <   46 )   =   𝑃   (
+28   −   34
+
+6  
+<  
+𝑋   −   34
+
+6  
+<  
+46   −   34
+
+6  
+)   =   𝑃 ( − 1   <   𝑍   <   2 )   =   𝑃 ( 𝑍   <   2 )   −   𝑃 ( 𝑍   <   − 1 )
+
+=   𝑃 ( 𝑍   <   2 )   −   𝑃 ( 𝑍   >   1 )   =   𝑃 ( 𝑍   <   2 )   −   [ 1   −   𝑃 ( 𝑍   <   1 ) ]   =   0 , 9772   −   [ 1   −   0 , 8413 ]   =   0 , 8185
+
+Criterios de corrección :
+
+D efinir la probabilidad correcta   en X , 0,25; determinar la expresión correcta con variable tipificada
+
+Z, 0,25; determinar los valores correctos de cada probabilidad, 0,25; obtener la solución correcta,
+
+0,25.
+
+b)   Se busca   𝐾   ∈   ℝ , de manera que   𝑃 ( 𝑋   >   𝐾 )   =   0 , 1587 .
+
+0 , 1587   =   𝑃 ( 𝑋   >   𝐾 )   =   𝑃   (
+𝑋   −   34
+
+6  
+>  
+𝐾   −   34
+
+6  
+)   =   𝑃   ( 𝑍   >  
+𝐾   −   34
+
+6  
+)   =   1   −   𝑃   ( 𝑍   <  
+𝐾   −   34
+
+6  
+)
+
+Por tanto,   𝑃   ( 𝑍   <  
+𝐾 − 34
+
+6  
+)   =   0 , 8413 ,   lo que implica que  
+𝐾 − 34
+
+6  
+=   1   y K=40 años
+
+Criterios de corrección :
+
+D efinir la probabilidad correcta   en X   0,25; determinar la expresión correcta con variable tipificada
+
+Z, 0,25; igualar el cociente al cuantil correspondiente, 0,25; obtener el valor correcto de K, 0,25.
+
+Prueba de acceso a la Universidad
+
+Curso 202 5 / 202 6
+
+Materia:   Matemáticas II
+
+Pregunta 2.
+
+En la toma de un antibiótico vía oral, la concentración en sangre (mg/l) tras su administración se puede
+
+modelizar como la función   𝐶 ( 𝑡 )   =  
+12 𝑡
+
+𝑡 2 + 4  
+,   donde t es el tiempo transcurrido, en horas, desde la toma.
+
+a)   [1 punto]   Determina el momento en el que la concentración en sangre es máxima .
+
+b)   [1 punto ] La concentración media de dicho medicamento en el intervalo de tiempo [a, b] viene dada
+
+por la expresión  
+1
+
+𝑏 − 𝑎  
+∙   ∫   𝐶 ( 𝑡 ) 𝑑𝑡
+
+𝑏
+
+𝑎  
+. Calcula la concentración media entre las 0 y 6 horas.
+
+Solución:
+
+a)   Se calcula la derivada de la función   𝐶 ( 𝑡 ) ,   𝐶 ′ ( 𝑡 )   =  
+− 12 𝑡
+2
++ 48
+
+( 𝑡
+2
++ 4 )
+2  
+y se obtienen sus raíces,   𝑡   =   2   y
+
+𝑡   =   − 2 . Como   𝑡   >   0 , solo se estudia el caso   𝑡   =   2 . Se comprueba que la máxima concentración se
+
+alcanza en   𝑡   =   2   horas , mediante comprobación de   estudio de monotonía o con la segunda
+
+derivada
+
+Criterios de corrección:
+
+Calcular la función derivada, 0,25; encontrar sus raíces o ceros, 0,25; justificar el valor de t en el
+
+que la función alcanza su máximo, 0,25; obtener la solución correcta, 0,25
+
+b)
+
+Se resuelve la integral correspondiente:
+
+1
+
+6   −   0  
+∫  
+12 𝑡
+
+𝑡
+2  
++   4  
+𝑑𝑡   =  
+6
+
+6  
+[ 𝑙𝑛 | 𝑡
+2  
++   4 | ]
+0
+
+6  
+=   { 𝑙𝑛 40   −   𝑙𝑛 4 }   =   2 , 30   𝑚𝑔 / 𝑙
+
+6
+
+0
+
+Criterios de corrección:
+
+Definir correctamente la integral; 0,25; resolver   razonada y cor rectamente l a integral , 0,5; obtener
+
+el resultado correcto, 0,25
+
+Pregunta 3.
+
+a)   [ 1,5   puntos]   Estudia el rango de la siguiente matriz, en función del parámetro real   𝑎 .
+
+𝐴   =   (
+
+𝑎   𝑎   −   1   𝑎
+2  
+−   𝑎
+
+𝑎   1   𝑎
+
+𝑎   1   𝑎   −   1
+
+)
+
+b)   [0,5 puntos] ¿Para qué valores   de   𝑎   la matriz A tiene inversa? Justifica tu respuesta .
+
+Solución:
+
+a)   Se calcula el   det   𝐴   =   𝑎
+2  
+−   2 𝑎 , y los valores de a que lo anulan,   𝑎   =   0   𝑦   𝑎   =   2 . Se estudian los casos:
+
+si a≠0 y a≠2, entonces   𝑑𝑒𝑡𝐴   ≠   0   y   𝑟𝑔𝐴   =   3 ; si a=0,   𝑟𝑔𝐴 <3, y como hay un menor de orden 2 distinto
+
+de 0,   𝑟𝑔𝐴   =2; si a=2,   𝑟𝑔𝐴 <3, y como hay un menor de orden 2 distinto de 0,   𝑟𝑔𝐴   =   2 .
+
+Criterios de corrección:
+
+Calcular el determinante de A, 0, 5; calcular los valores que lo anulan, 0,25;   encontrar y justificar el
+
+rango   en a=0 , 0,25; encontrar y justificar el rango en a=2, 0,25;   encontrar y justificar el rango   para
+
+el resto de valores de a , 0,25 .
+
+Prueba de acceso a la Universidad
+
+Curso 202 5 / 202 6
+
+Materia:   Matemáticas II
+
+b)   La matriz A tiene inversa si el   𝑑𝑒𝑡𝐴   ≠   0 . Como el   det   𝐴   =   𝑎
+2  
+−   2 𝑎   se anula en a=0 y a=2, la matriz
+
+tiene inversa si a   ≠   0   𝑦   𝑎   ≠   2 .
+
+Criterios de corrección:
+
+Determinar la condición de existencia de la matriz inversa, 0,25; especificar los valores para los
+
+que existe la matriz inversa, 0,25.
+
+Nota:   En caso de haber obtenido valores de a erróneos en el apartado anterior, se calificará
+
+positivamente este apartado siempre que el procedimiento sea correcto y coherente con   los   valores
+
+obtenidos .
+
+PARTE B (preguntas 4 y 5)
+
+Pregunta 4. Conteste solo UNA de las siguientes preguntas (4.1 o 4.2)
+
+4.1.   Se consideran los puntos A(1, 1, 0), B(2,0, 1), C(0,2,1) y D( a ,   1 ,   2 ) , con a un número real.
+
+a)   [ 0,75   punto s ]   Determina   la ecuación del plano   que pasa por los puntos A, B y C .
+
+b)   [ 1 ,25   punto s ]   Determina los valores reales del parámetro   a,   para que el tetraedro formado por los
+
+cuatro puntos   del enunciado   tenga volumen 3 unidades cúbicas.
+
+Solución:
+
+a)   Se determinan los vectores directores del plano, por ejemplo   𝐴𝐵 ⃗ ⃗ ⃗ ⃗ ⃗   =   ( 1 ,   − 1 , 1 )   𝑦   𝐴𝐶 ⃗ ⃗ ⃗ ⃗ ⃗   =   ( − 1 , 1 , 1 ) , y se
+
+considera el punto   A(1, 1, 0) como punto del   plano . Se obtiene la ecuación   del plano con estos
+
+elementos   en su forma paramétrica o general, siendo cada una de ellas, respectivamente
+
+Paramétrica: π:   {
+
+𝑥   =   1   +   𝜆   −   𝛽
+
+𝑦   =   1   −   𝜆   +   𝛽
+
+𝑧   =   𝜆   +   𝛽
+
+;   g eneral: se calcula:   |
+
+𝑥   −   1   𝑦   −   1   𝑧
+
+1   − 1   1
+
+− 1   1   1
+
+|   =0   ⟶   x+y - 2=0
+
+Criterios de corrección:
+
+Determinar los elementos necesarios para obtener la ecuación del plano 0,5;   obtener la   ecuación
+
+correcta del plano (en cualquiera de sus formas) 0,25.
+
+b)   El volumen del tetraedro es 1/6 del volumen del paralelepípedo determinado por   𝐴𝐵 ⃗ ⃗ ⃗ ⃗ ⃗   ,   𝐴𝐶 ⃗ ⃗ ⃗ ⃗ ⃗   , y   𝐴𝐷 ⃗ ⃗ ⃗ ⃗ ⃗   .
+
+Primero   se   determinan   los   vectores   𝐴𝐵 ⃗ ⃗ ⃗ ⃗ ⃗   =   ( 1 ,   − 1 , 1 ) ,   𝐴𝐶 ⃗ ⃗ ⃗ ⃗ ⃗   =   ( − 1 , 1 , 1 )   𝑦   𝐴𝐷 ⃗ ⃗ ⃗ ⃗ ⃗   =   ( 𝑎   −   1 ,   0 , 2 )   y,   a
+
+continuación, se calcula el volumen en función de a.
+
+𝑉   =  
+1
+
+6  
+∙   |   [ 𝐴𝐵 ⃗ ⃗ ⃗ ⃗ ⃗   ,   𝐴𝐶 ⃗ ⃗ ⃗ ⃗ ⃗   ,   𝐴𝐷 ⃗ ⃗ ⃗ ⃗ ⃗   ] |   =  
+1
+
+6  
+|
+
+1   − 1   1
+
+− 1   1   1
+
+𝑎   −   1   0   2
+
+|   =  
+1
+
+6  
+∙   | − 2 𝑎   +   2 |
+
+Dado que   𝑉   =   3   𝑢 , se resuelve la ecuación  
+1
+
+6  
+∙   | − 2 𝑎   +   2 |   =   3 ,   obteniendo los valores a=   − 8 y a=10.
+
+Criterios de corrección:
+
+Determinar los vectores correctamente, 0,25; calcular el determinante correctamente, 0,25; plantear
+
+correctamente la ecuación con el valor absoluto, 0,25; obtener los dos valores de a, 0,5.
+
+4.2.   Sean los puntos del espacio A(1, 2,   - 1), B( 3, 6, 1) y C(m, m, m - 2), donde m es un número real.
+
+a)   [ 0,75   punto s ]   Determina el valor de m para que los puntos A, B y C estén alineados .
+
+Prueba de acceso a la Universidad
+
+Curso 202 5 / 202 6
+
+Materia:   Matemáticas II
+
+b)   [1 ,25   punto]   Para el valor   de m   obtenido en el apartado anterior,   determina la distancia del punto
+
+P(2,0,1) a la recta   que forman A, B y C .
+
+Solución:
+
+a)   A, B y C están alineados si los vectores   𝐴𝐵 ⃗ ⃗ ⃗ ⃗ ⃗   =   ( 2 , 4 , 2 )   𝑦   𝐴𝐶 ⃗ ⃗ ⃗ ⃗ ⃗   =   ( 𝑚   −   1 ,   𝑚   −   2 ,   𝑚   −   1 )   son
+
+linealmente dependientes. Para ello, se determinan qué valores debe tomar m, para que las
+
+coordenadas de estos vectores sean proporcionales, es decir,  
+2
+
+𝑚 − 1  
+=  
+4
+
+𝑚 − 2  
+=  
+2
+
+𝑚 − 1
+; resolviéndolo, se
+
+obtiene que m = 0
+
+Criterios de corrección :
+
+Plantear la condición de linealidad, 0,25; determinar los vectores   𝐴𝐵
+⃗ ⃗ ⃗ ⃗ ⃗
+  y   𝐴𝐶
+⃗ ⃗ ⃗ ⃗ ⃗
+  , 0,25; obtener el valor
+
+de m correcto, 0,25.
+
+b)   Para el cálculo de la distancia se utiliza   𝑑 ( 𝑃 ,   𝑟 )   =  
+| 𝐴𝑃 ⃗ ⃗ ⃗ ⃗ ⃗   𝑥 𝑟   |
+
+| 𝑟   |  
+, donde r es la recta que pasa por A, B y
+
+C,   𝑟   su vector director y   𝐴𝑃 ⃗ ⃗ ⃗ ⃗ ⃗   =   ( 1 ,   − 2 ,   2 )   . Para m= 0, se tiene que   𝑟   =   𝐴𝐵 ⃗ ⃗ ⃗ ⃗ ⃗   =   ( 2 , 4 , 2 ) ;
+
+| 𝑟 | = √ 4   +   16   +   4   =   √ 24 ;   𝐴𝑃 ⃗ ⃗ ⃗ ⃗ ⃗   𝑥   𝑟   =   |
+
+𝑖   𝑗   𝑘
+
+1   − 2   2
+
+2   4   2
+
+|   =   − 12 𝑖   +   2 𝑗   +   8 𝑘 ⃗   y   | 𝐴𝑃 ⃗ ⃗ ⃗ ⃗ ⃗   𝑥   𝑟 | ⃗ ⃗ ⃗   =   √ 212   . Sustituyendo
+
+estos valores en la fórmula de la distancia se obtiene que   𝑑 ( 𝑃 ,   𝑟 )   =  
+√ 318
+
+6  
+=   2 , 97   𝑢   .
+
+Criterios de corrección:
+
+Determinar el módulo del vector director de la recta r, 0,25; determinar el vector   𝐴𝑃 ⃗ ⃗ ⃗ ⃗ ⃗   ,   0,25; determinar
+
+razonadamente el producto vectorial   𝐴𝑃 ⃗ ⃗ ⃗ ⃗ ⃗   𝑥   𝑟 , 0,25; determinar   | 𝐴𝑃 ⃗ ⃗ ⃗ ⃗ ⃗   𝑥   𝑟 |
+⃗ ⃗ ⃗
+  , 0,25; obtener el valor correcto
+
+de la distancia, 0,25.
+
+Nota:   En caso de haber obtenido un valor de m erróneo en el apartado anterior, se calificará
+
+positivamente este apartado siempre que el procedimiento sea correcto y coherente con dicho
+
+valor.
+
+Pregunta 5. Conteste solo UNA de las siguientes preguntas (5.1 o 5.2)
+
+5.1.   Dada la función   𝑓 ( 𝑥 )   =   𝑥
+3  
++   𝑎 𝑥
+2  
++   𝑏𝑥   +   𝑐
+
+a)   [ 1   punto]   Halla , razonadamente,   los coeficientes   𝑎 ,   𝑏   y   𝑐   sabiendo que la función tiene un   extremo
+
+relativo en el punto   de coordenadas   ( 1 , 4 ) y   que   la recta tangente en el punto de abscisa x=3 es
+
+paralela a la recta de ecuación   𝑦   =   2 𝑥   −   1
+
+b)   [ 1   punto]   Para los valores   de los coeficientes   obtenidos en el apartado anterior, determina la
+
+ecuación de la recta   normal   a   f(x) en x=0 .
+
+Solución:
+
+a)   Para que se verifiquen las condiciones del enunciado, se debe cumplir:
+
+𝑓
+′
+( 1 )   =   0 ;   𝑓 ( 1 )   =   4   ;   𝑓
+′
+( 3 )   =   2
+
+Se calcula la derivada   𝑓 ′ ( 𝑥 )   =   3 𝑥
+2  
++   2 𝑎𝑥   +   𝑏   y se resuelve el sistema de ecuaciones formado por
+
+las condiciones anteriores   {
+
+3   +   2 𝑎   +   𝑏   =   0
+
+27   +   6 𝑎   +   𝑏   =   2
+
+1   +   𝑎   +   𝑏   +   𝑐   =   4
+
+, obteniendo los valores   𝑎   =   −  
+11
+
+2  
+,   𝑏   =   8   𝑦   𝑐   =  
+1
+
+2
+.
+
+Criterios de corrección:
+
+Prueba de acceso a la Universidad
+
+Curso 202 5 / 202 6
+
+Materia:   Matemáticas II
+
+Plantear correctamente las tres ecuaciones, 0,75; obtener la solución correcta, 0,25.
+
+b)   La ecuación de la recta normal a la gráfica de   𝑓 ( 𝑥 )   en x= 0 es de la forma:
+
+𝑦   −   𝑓 ( 0 )   =   −  
+1
+
+𝑓
+′ ( 0 )  
+( 𝑥   −   0 ) ;   donde   𝑓 ( 𝑥 )   =   𝑥
+3  
+−  
+11
+
+2  
+𝑥
+2  
++   8 𝑥   +  
+1
+
+2
+
+Sustituyendo los valores   𝑓 ( 0 )   =  
+1
+
+2  
+𝑦   𝑓
+′
+( 0 )   =   8 , se obtiene que la recta normal a la gráfica de   𝑓 ( 𝑥 )
+
+en x=0 es   𝑦   −  
+1
+
+2  
+=   −  
+𝑥
+
+8
+.
+
+Criterios de corrección:
+
+Obtener el valor de la función en x=0, 0,25; determinar la derivada de   𝑓 ( 𝑥 ) , 0,25; obtener el valor
+
+de la derivada en x=0, 0,25; determ i nar la ecuación correcta de la recta normal, 0,25.
+
+Nota:   En caso de haber obtenido valores de a y/o b erróneos en el apartado anterior, se calificará
+
+positivamente este apartado siempre que el procedimiento sea correcto y coherente con   l os valores
+
+obtenidos .
+
+5.2.   Resuelve los siguientes apartados
+
+a)   [ 1,25   puntos]   Calcula   razonadamente   el área de l recinto limitado por las gráficas de las funciones
+
+𝑓 ( 𝑥 )   =  
+3
+
+𝑥  
+y   𝑔 ( 𝑥 )   =   − 𝑥   +   4 .
+
+b)   [0,75 puntos]   Calcula razonadamente el siguiente límite   lim
+
+𝑥 → 0
+
+𝑒
+𝑥
+− 𝑠𝑒𝑛𝑥 − 1
+
+𝑥 2
+
+Solución:
+
+a)   Se   calculan los puntos en los que las gráficas de ambas funciones se cortan, esto es, los valores
+
+de x tal que   𝑓 ( 𝑥 )   =   𝑔 ( 𝑥 ) .   De esta igualdad se obtiene la ecuación  
+3
+
+𝑥  
+=   − 𝑥   +   4 ;   𝑥
+2  
+−   4 𝑥   +   3   =   0 ,
+
+cuyas soluciones son x=1 y x=3. El área del recinto sería:
+
+𝐴   =   | ∫   ( 𝑓 ( 𝑥 )   −   𝑔 ( 𝑥 ) ) 𝑑𝑥
+
+3
+
+1
+
+|
+
+Se resuelve la integral   ∫   [  
+3
+
+𝑥  
+−   ( − 𝑥   +   4 ) ]   𝑑𝑥
+
+3
+
+1  
+=   [ 3   ln | 𝑥 |   +  
+𝑥
+2
+
+2  
+−   4 𝑥 ]
+1
+
+3
+
+=   − 0 , 70 . Luego el área pedida
+
+es   𝐴   =   | − 0 , 70 |   =   0 , 70 𝑢
+2
+.
+
+Criterios de corrección:
+
+Calcular los puntos de corte entre las dos funciones, 0,25; definir el área como el valor absolut o   de
+
+la integral definida, 0,25; resolver   de forma razonada y   correcta   la integral, 0,5; dar la solución
+
+correcta, 0,25.
+
+b)   El límite se puede resolver aplicando dos veces L’Hôpital.
+
+lim
+
+𝑥 → 0
+
+𝑒
+𝑥
+− 𝑠𝑒𝑛𝑥 − 1
+
+𝑥
+2  
+=   [
+0
+
+0
+]   =   lim
+
+𝑥 → 0
+
+𝑒
+𝑥
+− 𝐶𝑜𝑠𝑥
+
+2 𝑥  
+=   [
+0
+
+0
+]   =   lim
+
+𝑥 → 0
+
+𝑒
+𝑥
++ 𝑆𝑒𝑛𝑥
+
+2  
+=  
+1
+
+2
+
+C riterios de corrección:
+
+R esolver   de forma razonada y   correctamente el límite, 0,5; obtener la solución correcta, 0,25.
+
+Prueba de acceso a la Universidad
+
+Curso 202 5 / 202 6
+
+Materia:   Matemáticas II
+

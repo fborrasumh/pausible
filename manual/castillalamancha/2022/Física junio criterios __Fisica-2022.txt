@@ -1,0 +1,776 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2122/Fisica-2022.ashx]
+EvAU
+
+Curso 2021/2022
+Física
+
+Pág 1
+
+Solucionario del Examen ORDINARIO
+
+El presente documento de debe tomar como una ayuda a los correctores y para concretar de la forma más uniforme posible los criterios
+específicos de corrección. No es un documento docente que pretenda enseñar a nadie a resolver los problemas, con lo que en ocasiones faltarán
+detalles en las explicaciones y pasos matemáticos en los desarrollos que es esperable que tengan los exámenes de los alumnos. En algunos casos
+puede haber otras maneras distintas y válidas de resolver los problemas. Los correctores adaptaran la filosofía de estos criterios específicos a
+esos casos cuando sean leves variantes. En los casos en que las diferencias sean notables lo comunicarán al coordinador y a los demás
+correctores durante las sesiones de evaluación de manera que pueda unificarse también la baremación de esas otras alternativas.
+
+Sección 1: Problemas (elegir 2).   Puntuación máxima 3 puntos cada uno.
+
+1.   Tres cargas están situadas en los vértices de un triángulo rectángulo como
+indica la figura.
+
+a.   Determina la energía potencial electrostática de la carga q   3.
+
+b.   Calcula la fuerza que siente la carga q   2   y su módulo   �𝐹𝐹⃗� .
+
+c.   ¿Cuánto trabajo costaría llevar la carga q   3   desde su ubicación inicial
+(A) a la ubicación alternativa (B)? Indica si sería necesaria una fuerza
+externa para ello.
+
+Datos: q   1   = 2 mC ;   q   2 = -1 mC ;   q   3   = -5 mC ;   K=9·10
+9  
+Nm
+2
+/C  
+2
+
+Apartado (a)   Puntos
+
+La energía potencial eléctrica de un par de cargas puntuales separadas una distancia r ij   viene dada por
+
+𝐸𝐸𝐸𝐸   =   𝐾𝐾  
+𝑞𝑞 𝑖𝑖 · 𝑞𝑞 𝑗𝑗
+𝑟𝑟 𝑖𝑖 𝑗𝑗
+
+0.25
+
+En este caso la carga q 3   interacciona con q   1   y con q   2 , y por el principio de superposición será
+
+𝐸𝐸 𝑝𝑝3   =   𝐾𝐾 �
+𝑞𝑞 1   𝑞𝑞 3
+𝑟𝑟 13
+
++  
+𝑞𝑞 2   𝑞𝑞 3
+𝑟𝑟 23
+
+�
+
+0.25
+
+Del esquema r 23   =6 cm, y la distancia entre 1 y 3 la sacamos con el teorema de Pitágoras: r 13   =6.32 cm   0.25
+
+Sustituimos los valores en la expresión teniendo en cuenta los signos negativos de q   2   y q   3   y obtenemos
+
+E p3   =-6.73 ·10  
+5  
+J
+
+0.25
+
+Apartado (b)   Puntos
+
+La fuerza electrostática entre un par de cargas puntuales separadas una distancia r   ij   viene dada por la ley
+de Coulomb   𝐹𝐹⃗   =   𝐾𝐾  
+𝑞𝑞 𝑖𝑖 · 𝑞𝑞 𝑗𝑗
+𝑟𝑟 𝑖𝑖 𝑗𝑗
+
+2   𝑢𝑢 �⃗   𝑖𝑖𝑖𝑖 . Lo aplicamos a   𝐹𝐹⃗ 21 y   𝐹𝐹⃗ 23
+
+q   1   y q   2   tienen signos opuestos y se atraen. La fuerza irá en sentido vertical ascendente
+
+𝐹𝐹⃗
+21  
+=   � 0, 9 · 10
+9  
+1 · 10
+−3  
+· 2 · 10
+−3
+
+0.02
+2  
+�   = (0, 4.5 · 10
+7
+)   𝑁𝑁
+
+La fuerza entre q   2   y q   3   es repulsiva al ser ambas negativas. Sobre q   2   ira en sentido horizontal negativo
+
+𝐹𝐹⃗ 23   =   �   9 · 10
+9  
+1 · 10
+−3  
+· 5 · 10
+−3
+
+0.06
+2  
+�   = ( − 1.25 · 10
+7
+, 0)   𝑁𝑁
+
+Esta es una operación previa para determinar la F total, y que no se pide explícitamente. Si no se
+expresa   vectorialmente   no   se   descuenta   nada.   En   cambio,   este   tratamiento   vectorial   sí   es
+imprescindible en el siguiente apartado.
+
+0.25
+
+0.25
+
+La fuerza total será la suma   vectorial   de ambas fuerzas
+
+𝐹𝐹⃗ 2   = (0,4.5 · 10
+7
+) + ( − 1.25 · 10
+7
+, 0) = ( − 1.25,4.5) · 10
+7  
+𝑁𝑁
+
+(sumar los módulos es error grave: 0 puntos en este subapartado)
+
+0.25
+
+Obtenemos el módulo de la fuerza resultante:   �𝐹𝐹⃗�   = 4.67 · 10
+7  
+𝑁𝑁   0.25
+
+Apartado (c)   Puntos
+
+El trabajo para llevar una carga desde A hasta B será igual a la diferencia de energía potencial
+electrostática entre ambos puntos, cambiada de signo: W   A  B   =-(E p (B)-E p (A))
+
+0.25
+
+La Energía potencial en A ya la tenemos el apartado (a), es E p3   . Calculamos la energía en B. Ojo porque
+la distancia r 13   es ahora 6 cm y r 23   es ahora 6.32 cm por el cambio de posición relativo.
+
+𝐸𝐸 𝐵𝐵   =   𝐾𝐾 �  
+𝑞𝑞 1 𝑞𝑞 3
+
+𝑟𝑟 13
+
++  
+𝑞𝑞 2 𝑞𝑞 3
+
+𝑟𝑟 23
+
+� = 9 · 10
+9  
+�
+−5 · 10   −3 · 2 · 10   −3
+0 . 06  
++  
+−5 · 10   −3 · −1 · 10   −3
+0 . 0632  
+�   = -7.88·10   5   J
+
+W A  B   =-(-7.88-(-6.73))·10   5 =1.15·10   5   J
+
+0.25
+
+0.25
+
+Puesto que la carga en B tiene menos energía (es más negativa) que en A, el proceso lo realizan las fuerzas
+del campo. Por eso sale W>0. No es necesario aplicar una fuerza externa.
+
+0.25
+
+EvAU
+
+Curso 2021/2022
+Física
+
+Pág 2
+
+2.   El primer exoplaneta detectado en 1995, Dimidio, presenta una órbita circular alrededor de su estrella con una
+velocidad de 136 km/s y a una distancia de 7.78 millones de km (de centro a centro). Su radio es de 132800 km
+y su masa 9·10   28   kg.
+
+a.   Calcula la masa que tiene la estrella en torno a la que orbita, deduciendo la expresión necesaria
+
+b.   ¿Durante cuántos días tenemos que observar la estrella para registrar 5 tránsitos completos del planeta (es
+decir 5 vueltas completas alrededor de su estrella) y confirmar su existencia?
+
+c.   ¿Qué velocidad mínima deberíamos proporcionar a una sonda que se hubiera posado en el planeta para
+que pudiese escapar de la atracción del planeta? Deduce razonadamente la expresión.
+
+Dato:   G=6.67·10   -11   Nm 2 /kg 2
+
+Apartado (a)   Puntos
+
+Igualamos la fuerza gravitatoria (Newton) a masa por aceleración centrípeta.
+
+𝐺𝐺 
+𝑀𝑀𝑀𝑀
+𝑑𝑑  
+2  
+=   𝑀𝑀 𝑎𝑎 𝑐𝑐   =   𝑀𝑀  
+𝑣𝑣  
+2
+𝑑𝑑
+
+0.5
+
+Despejamos la masa de la estrella   𝑀𝑀   =  
+𝑣𝑣  
+2  
+𝑑𝑑
+𝐺𝐺  
+(o se escribe de memoria sin ninguna justificación)  
+0.25
+
+Sustituimos valores con las unidades apropiadas M=2.16·10  
+30  
+kg.   0.25
+
+Apartado (b)   Puntos
+
+El periodo es el cociente entre el perímetro de la circunferencia (2πd) y la velocidad
+
+(También podría llegarse a la expresión desde la 3ª ley de Kepler)
+
+T=2πd/v
+
+0.5
+
+Sustituimos y convertimos el resultado a días
+
+T=359435 s= 99.8 h=4.16 días
+
+0.25
+
+Para 5 vueltas simplemente multiplicamos lo anterior por 5    t=5T=20.8 días   0.25
+
+Apartado (c)   Puntos
+
+La mínima velocidad será aquella que haga que la suma de energía cinética y potencial gravitatoria sea
+nula (para E>0 orbita no ligada). Para el caso E=0 la velocidad es la velocidad de escape
+
+−𝐺𝐺 𝑀𝑀𝑀𝑀
+
+𝑑𝑑  
++  
+𝑀𝑀 𝑣𝑣 𝑒𝑒
+2
+
+2  
+= 0
+
+0.5
+
+Despejamos de lo anterior la velocidad   𝑣𝑣 𝑒𝑒   =   �  
+2𝐺𝐺𝐺𝐺
+𝑑𝑑  
+(o se escribe de memoria sin ninguna justificación)  
+0.25
+
+Sustituimos valores con las unidades apropiadas v   e =300676 m/s= 300.7 km/s   0.25
+
+EvAU
+
+Curso 2021/2022
+Física
+
+Pág 3
+
+Una bobina circular de radio 15 cm y 50 espiras se coloca de manera que su eje forma un ángulo de 30º con un
+campo magnético uniforme cuyo valor varía en el tiempo según B(t)=4-(t-2)   2   T. La resistencia total de la bobina
+son 5   Ω .
+
+a.   Calcula el valor del flujo magnético en t=2 s.
+
+b.   Determina el valor la corriente inducida en la bobina en función del tiempo.
+
+c.   Calcula el valor de la corriente inducida en t=1 s y en t=3 s, y razona si el sentido en cada caso será el indicado
+en el esquema como “A” (horario visto desde arriba) o el “B” (antihorario visto desde arriba). Explica por qué
+no son iguales si el valor del campo es en ambos momentos igual (3 T).
+
+Apartado (a)   Puntos
+
+El flujo magnético viene dado por   Φ   =   𝐵𝐵 �⃗   ·   𝑆𝑆⃗   =   𝐵𝐵   ·   𝑆𝑆   · cos   𝜃𝜃 , donde  
+0.25
+
+S= N π r
+2
+
+B=4-(t-2)  
+2
+
+y θ=30º en este caso
+
+Φ= N π r
+2  
+(4-(t-2)  
+2
+) cos 30º
+
+0.50
+
+Sustituyendo para t=2 queda Φ=12.24 Wb   0.25
+
+Apartado (b)   Puntos
+
+Según la ley de Faraday la fuerza electromotriz es   𝜀𝜀   =   −  
+𝑑𝑑Φ
+𝑑𝑑𝑑𝑑  
+0.25
+
+En este caso queda al derivar   𝜀𝜀   =   −𝑁𝑁𝑁𝑁𝑟𝑟  
+2  
+cos   𝜃𝜃 �− 2( 𝑡𝑡 −   2) �   = 2 𝑁𝑁𝑁𝑁𝑟𝑟  
+2  
+cos   𝜃𝜃   ( 𝑡𝑡 −   2)   = 6.12 (t-2) V   0.5
+
+La intensidad de corriente por la ley de Ohm será I= ε/R y como R= 5   Ω      I=1.22(t-2) A   0.25
+
+Apartado (c)   Puntos
+
+Sustituyendo t en la expresión anterior por 1 s y 3 s respectivamente queda I(1)=-1.22 A; I(2)=+1.22 A   0.25
+
+Esta parte puede hacerse de dos maneras (ambas válidas).
+
+•   Según la regla de la mano derecha, y siendo el sentido positivo el marcado por   𝑆𝑆⃗ , el sentido en
+t=1 sería el que vaya “hacia abajo”, es decir, el horario (A); y para t=3 el opuesto a este: hacia
+arriba      antihorario      B
+
+•   Otra forma, que en realidad contesta ya a la otra pregunta que se hace, es basándose en el cambio
+de flujo. Como B y S forman menos de 90º (en concreto 30º), cuando aumenta B (como es el
+caso en t=1) aumenta el flujo, y la corriente irá en sentido opuesto a este incremento “hacia
+arriba” (ley Lenz) por tanto para t=1 s el sentido será horario (A). En cambio, en t=3 s el campo
+B está disminuyendo con t, y con él el flujo por lo que la corriente inducida tratará de aumentar
+el flujo. Para ello tiene que tener el sentido antihorario (B)
+
+Si sólo se da el sentido sin ninguna explicación no se puntúa nada en esta sección. En la medida en que
+la explicación sea más o menos completa damos 0.25 ó 0.50.
+
+0.5
+
+A pesar de tener el mismo valor B en ambos momentos, lo importante para la inducción e s el   ritmo de
+
+cambio del flujo. En t=1 s está aumentando y en t=3 s disminuyendo. De ahí la diferencia de signo
+
+Esta cuesti ó n puede entenderse por contestada según se haya discutido lo anterior
+
+0.25
+
+EvAU
+
+Curso 2021/2022
+Física
+
+Pág 4
+
+4.   A una distancia de 15 cm a la derecha de una lente convergente de 5 cm de focal se registra una imagen óptica
+de 3 cm de alto en posición invertida.
+
+a.   Realiza un trazado de rayos para localizar la posición y tamaño del objeto que produce dicha imagen,
+
+explicando las reglas de trazado para los rayos que uses.
+
+b.   Determina numéricamente el tamaño y posición del objeto , así como el aumento lateral de este sistema
+óptico.
+
+c.   ¿Qué características de la imagen cambian si el objeto se sitúa a 3.5 cm a la izquierda de la   lente? Realiza
+
+un trazado de rayos para ilustrarlo y determina la posición de la imagen y el aumento lateral para este
+caso, indicando razonadamente si la imagen es real o virtual.
+
+Apartado (a)   Puntos
+
+Realiza el trazado de rayos completo para este caso .   ( D ebe ser cualitativamente correcto aunque no se
+
+realice a escala)   0.5
+
+Explica   al menos   dos   reglas de trazado de rayos: (con 2 bien explicados ya damos 0.5 aquí)
+
+•   El rayo que llega a la lente paralelo al eje óptico sale pasando por el foco imagen (f’)
+
+•   El rayo que pasa por el foco objeto sale de la lente paralelo al eje óptico
+
+•   El rayo que incide en el centro de la lente no se desvía
+
+0.5
+
+Apartado (b)   Puntos
+
+La f ó rmula de   Gauss de   las lentes delgadas establece (criterio DIN)
+
+1
+
+𝑠𝑠 ′  
+−  
+1
+
+𝑠𝑠  
+= 
+1
+
+𝑓𝑓 ′
+
+0.25
+
+En este caso nos dan datos para disponer de f’=+5 cm; f=-5 cm; s’=+15 cm; y’=-3 cm
+
+Despejamos s= -7.5 cm ( posición del   objeto )
+
+0.25
+
+El aumento lateral es y’/y=A. Además sabemos que A está relacionado con las posiciones A=s’/s.
+
+Por tanto y=y’·s/s’=1.5 cm ( tamaño objeto )
+
+0.25
+
+El   aumento lateral   es A=y’/y=-3 cm/1.5 cm = -2   0.25
+
+Nota: En caso de no utilizar este criterio de signos la fórmula de Gauss sería  
+1
+𝑠𝑠′  
++  
+1
+𝑠𝑠  
+=  
+1
+𝑓𝑓′  
+y el aumento lateral
+A=y’/y=-s’/s . En este caso s’ sería >0 y sale s=+7.5 cm y A=-2 (igual). Si se mantiene con coherencia este criterio
+también es válido. Lo mismo para el apartado siguiente, donde A sería positivo y s’<0 al ser virtual.
+
+Apartado (c)   Puntos
+
+Realiza el trazado
+
+de rayos completo
+para   este   caso.
+
+(Debe   ser
+cualitativamente
+correcto,   aunque
+no   se   realice   a
+escala)
+
+0.5
+
+y=+1.5cm
+
+y’=+5 cm
+
+EvAU
+
+Curso 2021/2022
+Física
+
+Pág 5
+
+Calcula con las mismas fó rmulas antes expuestas la posición, tamaño y aumento lateral. Como en este
+
+caso el objeto está a una distancia de la lente   menor   que la focal la imagen sale virtual (s’<0) y derecha
+(y’>0). Esta es la principal diferencia con el caso anterior.
+
+Ahora f’=+5 cm; f=-5 cm; s=-3.5 cm; y=1.5 cm
+
+Como el tamaño “y” viene del apartado anterior, si hubiera un error previo y se pusiese aquí cualquier
+otro valor (positivo) no se tiene en cuenta. Se mira la coherencia
+
+1/s’=1/s+1/f=1/(-3.5)+1/5      s’=-11.7 cm   posición imagen
+
+y’=y·s’/s=5 cm   tamaño   imagen
+
+A=y’/y=3.34   aumento lateral
+
+La imagen es virtual pues queda en el mismo lado de la lente por el que llegan los rayos. No se puede
+recoger en una pantalla.
+
+0.5
+
+Sección 2: Cuestiones (elegir 3).   Puntuación máxima 1 punto cada una.
+
+5.   ¿Cuál es la longitud de onda asociada de un electrón cuya velocidad es la mitad de la velocidad de la luz? ¿Y la de
+una pelota de tenis de 50 g que se mueve a una velocidad de 400 m/s?   Teniendo en cuenta que el tamaño de un
+
+núcleo atómico es del orden de 10  
+-15  
+m ¿Qué conclusión sacas de los valores calculados para las longitudes de
+onda?
+
+Datos: h = 6.63·10  
+-34  
+J·s ; m   e =9.11·10  
+-31  
+kg ; c=3·10  
+8  
+m/s
+
+Cuestión 5   Puntos
+
+La longitud de onda asociada a una partícula según De Broglie es λ=h/p=h/mv   0.25
+
+Para el electrón λ e =  
+6 . 63 · 10   −34   𝐽𝐽 · 𝑠𝑠
+9 . 1   · 10   −31 ·
+1
+2
+· 3 · 10   8   𝑘𝑘𝑘𝑘   𝑚𝑚 / 𝑠𝑠  
+= 4.85 · 10
+−12  
+𝑀𝑀  
+0.25
+
+Para la pelota λ p =  
+6 . 63 · 10
+− 34  
+𝐽𝐽 · 𝑠𝑠
+
+50   · 10  
+−3
+· 400   𝑘𝑘𝑘𝑘   𝑚𝑚 / 𝑠𝑠  
+= 3.31 · 10
+−35  
+𝑀𝑀  
+0.25
+
+Dado que el resultado para la pelota es 20 órdenes de magnitud inferior al tamaño de un n úcleo, será
+imposible mediante un experimento poner de manifiesto el carácter ondulatorio asociado a la pelota,
+
+mientras que sí podrá manifestarse el correspondiente al electrón, que es 1000 veces mayor al tamaño
+
+de un núcleo.
+
+0.25
+
+6.   El potencial de detención de un metal es 0.1 V y el trabajo de extracción del metal es 10   -18   J. ¿Cuánto vale la
+energía del fotón incidente? ¿Y su frecuencia?
+
+Datos: h=6.63·10  
+-34  
+J·s ; q   e   = 1.602·10  
+-19  
+C
+
+Cuestión 6   Puntos
+
+El potencial de detención refleja la energía cinética del electrón, y se expresa en término de la energía
+potencial eléctrica necesaria para detenerlo: E c =E p =qV=1.6·10   -20   J   0.25
+
+La fórmula para el efecto fotoeléctrico establece que la energía dada al metal por el fotón incidente E γ   se
+
+consume en liberar al electrón de la energía que lo retiene al sólido (trabajo de extracción, W). El resto
+queda como energía cinética del electrón liberado (que es la determinada antes mediante el potencial de
+detención)
+
+E γ =W+E c   =10   -18   + 1.6·10   -20   =1.016·10   -18   J      energía del fotón
+
+0.50
+
+Según la ley de Planck esta energía corresponde a una frecuencia ν=E/h= 1.53·10 15   Hz   0.25
+
+EvAU
+
+Curso 2021/2022
+Física
+
+Pág 6
+
+7.   Escribe las reacciones nucleares que tienen lugar cuando el Neptunio (Np-241) se desintegra emitiendo dos
+partículas   β   seguidas de una partícula   α . Puedes ayudarte del siguiente fragmento de la tabla periódica para
+obtener información necesaria, incluye los números atómicos.
+
+90   91   92   93   94   95   96
+
+Th   Pa   U   Np   Pu   Am   Cm
+
+Torio   Protactinio   Uranio   Neptunio   Plutonio   Americio   Curio
+
+Cuestión 7   Puntos
+
+La partícula α es un núcleo de Helio, por tanto   tiene 2 protones (Z) y como además tiene 2 neutrones su
+masa atómica es 4. Por tanto   𝛼𝛼 2
+4
+
+No es preciso utilizar el mismo formalismo,   pero sí conocer la partícula α y sus propiedades Z y A de
+
+cara a la emisión
+
+0.25
+
+La partícula β es un electrón que se   genera por la conversión de un protón en un neutrón, por tanto
+ocasiona un cambio de Z de -1 unidad pero deja la masa atómica total invariable. De esta forma lo
+representamos como   𝛽𝛽 −1
+0
+
+No es preciso utilizar el mismo formalismo, pero sí conocer la partícula   β   y sus propiedades Z y A de
+
+cara a la emisión
+
+0.25
+
+Mediante la emisión de una partícula α y 2 β el núcleo será (obtenemos su Z de la tabla):
+
+𝑁𝑁 𝐸𝐸 93
+241  
+   𝛼𝛼 2
+4  
++   𝛽𝛽 −1
+0  
++   𝛽𝛽   +   𝑋𝑋 93
+237
+−1
+0
+
+Donde hemos realizado el cálculo del núcleo producto a partir del balance de A por un lado y Z por otro.
+Los cambios en Z se compensan con +2-1-1 con lo que el producto sigue siendo Np, pero un isótopo
+diferente ya que su masa es 237. Núcleo final   𝑁𝑁 𝐸𝐸 93
+237
+
+0.5
+
+8.   Calcular para el instante t = T/4 la elongación de un punto cuya distancia a un foco emisor de ondas es x = λ /4
+sabiendo que la amplitud de la vibración es 2 cm y que la onda se desplaza de izquierda a derecha. ¿Y si viaja en
+sentido contrario?
+
+Cuestión 8   Puntos
+
+La expresión general de una onda armónica que viaja de izquierda a derecha es   Ψ= A·sen(k·x- ω·t+δ)
+
+A=2 cm. Al no dar el valor del desfase ni datos para calcularlo asumimos que es nulo
+
+Como ω =2π/T, para t=T/4 queda ω·t=2π/4=π/2   0.25
+
+Como k= 2π/λ, para x=λ/4 queda k·x=2π/4=π/2   0.25
+
+El valor por tanto será Ψ=2·sin(   π/2 -   π/2)=0   0.25
+
+Si viaja en sentido contrario, el signo de ω·t es el opuesto
+
+Ψ=2·sin(π/2+ π/2)=0, también está en ese   caso pasando por el punto de equilibrio (elongación nula)
+
+0.25
+
+Nota 1 : Al no dar información explicita del desfase, si se deja todo en función de un δ genérico también lo damos
+
+por válido.
+
+Nota 2: En caso de tomar función COSENO en la onda los valores se rían (con δ=0)   de 2 cm cuando viaja hacia la
+derecha y -2 cm cuando viaja hacia la izquierda. También se da por válido si se toma esta forma.
+
+9.   Dos esferas metálicas de radios   R 1 = R y R 2 = 2R están cargadas con una carga Q cada una de ellas. Determina la
+
+relación entre sus potenciales (V 1   /V 2 ) y si intercambiarán carga entre ellas al ponerlas en contacto: en caso
+afirmativo indica cuál de ellas da carga y cual recibe; en caso negativo justifica por qué.
+
+Cuestión 9   Puntos
+
+El potencial   electrostático de una esfera de radio R cargada con carga Q es V=KQ/R   0.25
+
+Como las cargas son iguales y R 2 =2R 1   El cociente de potenciales en este caso es V   1 /V 2 =
+𝑞𝑞 1   𝑅𝑅 2
+𝑅𝑅 1   𝑞𝑞 2
+
+=2  
+0.25
+
+Al ponerlas en contacto eléctrico intercambiarán carga hasta igualar sus potenciales   0.25
+
+Como V 1   > V 2   será la esfera 1 la que cederá carga a la esfera 2   0.25
+
+EvAU
+
+Curso 2021/2022
+Física
+
+Pág 7
+
+10.   Dos satélites de igual masa: A y B, describen órbitas circulares de diferentes radios alrededor de la Tierra:   r A   >
+r B . Contesta razonadamente a las siguientes preguntas:
+
+a) ¿Cuál de los dos tiene mayor energía cinética?
+
+b) Si los dos satélites estuvieran en la misma órbita   r A   = r B   y tuviesen distinta masa   m   A   < m B   , ¿Cuál
+de los dos tendría más energía cinética?
+
+Cuestión 10   Puntos
+
+El equilibrio en una órbita circular se da cuando F=m·a c     
+𝐺𝐺𝐺𝐺 𝑚𝑚
+
+𝑅𝑅   2  
+=  
+𝑚𝑚𝑣𝑣   2
+𝑅𝑅  
+, luego   𝑣𝑣  
+2  
+=  
+𝐺𝐺𝐺𝐺
+𝑅𝑅
+
+La energía cinética entonces será   𝐸𝐸 𝑐𝑐   =  
+𝑚𝑚𝑣𝑣  
+2
+2  
+=  
+𝐺𝐺𝐺𝐺 𝑚𝑚
+
+2𝑅𝑅
+
+0.25
+
+0.25
+
+Según lo anterior, para una misma masa m al estar R en el denominador, si R A   >   R B      E cA <E cB   0.25
+
+Si los radios son iguales pero m   A   < m B,   al ir en el numerador E cA <E cB   0.25
+
+Sección 3: Cuestiones experimentales (elegir una).   Puntuación máxima 1 punto cada una.
+
+11. En un experimento de refracción de luz hacemos que un haz que viaja por vidrio (n=1.5) llegue a la frontera de
+separación con el aire (n=1) a distintos ángulos de incidencia (en grados). Copia la siguiente tabla en tu cuadernillo
+de examen, completa las casillas que puedas y explica por qué alguna(s) tienen que quedarse en blanco.
+
+Θ   incidente   4.4   25   35   45   55
+
+Θ   refractado   6.6   39.3   59.3   ---   ---
+
+Cuestión 11   Puntos
+
+La ley de Snell de la refracción establece la relación entre el ángulo incidente desde el   medio 1 y el ángulo
+
+transmitido al medio 2: n   1 sen(θ i   )=n   2 sen(θ t )
+
+0.25
+
+Aplicamos dicha ley a todos los casos con n 1   =1.5; n   2 =1 y se obtienen los valores en rojo de la tabla   0.25
+
+En los casos de θ i =45º y 55º la ecuación no tiene solución al quedar sen(θ   t )>1
+
+En este caso se produce el fenómeno de reflexión interna total para ángulos incidentes mayores que el
+á ngulo crítico, que es θ c =arcsen(1/1.5)=41.8º   (no se pide calcular este ángulo crítico por lo que no se
+exige para la máxima puntuación aquí, pero sí la explicación del fenómeno)
+
+0.5
+
+12.   Acercamos a un imán fijo una bobina a la que tenemos conectado un voltímetro, hasta que la bobina queda
+completamente dentro del imán, y la dejamos ahí unos segundos y la retiramos. Explica razonadamente cómo varían
+en este proceso el flujo del campo magnético que atraviesa la bobina y la lectura del voltímetro que tenemos
+conectado.
+
+Cuestión 12   Puntos
+
+El flujo magnético es el producto escalar del campo y el vector representativo de la superficie de la bobina.
+Conforme se acerca el imán la intensidad del campo en la posición de la bobina, y por tanto el flujo,
+aumenta de valor. Al pararse el imán el flujo queda en un valor constante, y va disminuyendo cuando
+alejamos el imán.
+
+0.5
+
+La fuerza electromotriz inducida en la bobina, que es lo que registra el voltímetro, depende según la ley
+de Faraday del ritmo de cambio del flujo. Por tanto, será distinto de cero al acercar el imán, se hace cero
+mientras el imán esta parado, y cambia de signo al alejar el imán.
+
+0.5
+
+Nota: Dado que no se dan detalles ni se establece un criterio de signos, no es preciso decir si el flujo o el voltaje
+son positivos o negativos en cada caso. Lo esencial es que el flujo primero aumenta y luego disminuye (pero
+siempre con un mismo signo) y la fem cambia de signo entre el acercamiento y el alejamiento.
+

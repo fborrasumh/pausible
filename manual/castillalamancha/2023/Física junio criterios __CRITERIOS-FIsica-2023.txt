@@ -1,0 +1,814 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2223/ConvocatoriaOrdinaria/CRITERIOS-FIsica-2023.ashx]
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág 1
+
+Solucionario del Examen ORDINARIO
+
+El presente documento se debe tomar como una ayuda a los correctores y para concretar de la forma más uniforme posible los criterios
+específicos de corrección. No es un documento docente que pretenda enseñar a nadie a resolver los problemas, con lo que en ocasiones faltarán
+detalles en las explicaciones y pasos matemáticos en los desarrollos que según el caso puede ser exigible a los exámenes de los alumnos para
+llegar a la máxima puntuación. En algunos casos puede haber otras maneras distintas y válidas de resolver los problemas. Los correctores
+adaptaran la filosofía de estos criterios específicos a esos casos cuando sean leves variantes. En los casos en que las diferencias sean notables
+lo comunicarán al coordinador y a los demás correctores durante las sesiones de evaluación de manera que pueda unificarse también la
+baremación de esas otras alternativas.
+
+Sección 1: Problemas (elegir 2).   Puntuación máxima 3 puntos cada uno.
+
+1.   Dos cargas positivas iguales q 1   y q 2   de valor 10   μ C se sitúan en la base de un triángulo isósceles separadas una
+
+distancia a=6 cm. La altura del triángulo es 4 cm. En el
+punto medio de la base del triángulo (P) se sitúa una
+tercera carga q 3   de valor 50   μ C. Cuando la soltamos se
+mueve   y   pasa   por   el   vértice   superior   del   triángulo.
+Teniendo en cuenta que K=9·10
+9  
+Nm  
+2
+C
+-2
+
+a.   Determina   la   energía   potencial   de   q 3   en   su
+posición original y en el vértice superior.
+
+b.   Determina la fuerza sobre q 3   en la posición inicial
+y en la final, así como su módulo.
+
+c.   Si sale desde el reposo en P ¿Con qué velocidad
+pasará la carga por el vértice, si tiene una masa de 2.4 g?
+
+Apartado (a)   Puntos
+
+La energía potencial eléctrica de un par de cargas puntuales separadas una distancia r ij   viene dada por
+
+𝐸𝐸𝐸𝐸   =   𝐾𝐾  
+𝑞𝑞 𝑖𝑖 · 𝑞𝑞 𝑗𝑗
+𝑟𝑟 𝑖𝑖 𝑗𝑗
+
+0.25
+
+En este caso la carga q 3   interacciona con q   1   y con q   2 , y por el principio de superposición será
+
+𝐸𝐸 𝑝𝑝3   =   𝐾𝐾 �
+𝑞𝑞
+1  
+𝑞𝑞
+3
+𝑟𝑟 13
+
++  
+𝑞𝑞
+2  
+𝑞𝑞
+3
+𝑟𝑟 23
+
+�
+
+0.25
+
+En el punto inferior ambas distancias son 3 cm y sustituyendo resulta E p (q   3 )=   300 J   0.25
+
+En el punto superior las distancias son también iguales entre sí, y la sacamos con el teorema de Pitágoras:
+r 13   = r 23   =5.0 cm. Sustituimos los valores y obtenemos E p3   =   180 J
+
+0.25
+
+Apartado (b)   Puntos
+
+La fuerza electrostática entre un par de cargas puntuales separadas una distancia r   ij   viene dada por la ley
+de Coulomb   𝐹𝐹⃗   =   𝐾𝐾  
+𝑞𝑞 𝑖𝑖 · 𝑞𝑞 𝑗𝑗
+𝑟𝑟
+𝑖𝑖 𝑗𝑗
+
+2   𝑢𝑢 �⃗   𝑖𝑖𝑖𝑖 . Lo aplicamos a   𝐹𝐹⃗ 13 y   𝐹𝐹⃗ 23
+
+Todas las cargas son positivas así que se repelen. En el punto inferior los módulos son idénticos, la
+
+dirección igual y los sentidos opuestos de modo que la fuerza total es nula.   F inf =0
+
+0.25
+
+En el punto superior los módulos son también iguales pero las direcciones diferentes. La distancia entre
+
+las cargas 5 cm (como antes). El módulo de cada una es   9 · 10
+9 
+10 · 10   −6 · 50 · 10   −6
+0 . 05   2  
+= 1800   𝑁𝑁
+
+Por otro lado de los triángulos rectángulos se obtiene
+
+sen (θ)=3/5=0.6 y cos (θ)=4/5=0.8
+
+así que descomponemos las fuerzas y sumamos
+
+𝐹𝐹⃗ 13 1800 ( 𝑠𝑠𝑠𝑠𝑠𝑠 ( 𝜃𝜃 ), cos ( 𝜃𝜃 ))   N;   𝐹𝐹⃗ 23   = 1800 ( −𝑠𝑠𝑠𝑠𝑠𝑠 ( 𝜃𝜃 ), cos ( 𝜃𝜃 ))   N
+
+0.25
+
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág 2
+
+Valoramos un diagrama con las fuerzas que justifique los cálculos
+anteriores  
+0.25
+
+𝑭𝑭 ��⃗  
+𝒕𝒕𝒕𝒕𝒕𝒕   =   𝟏𝟏𝟏𝟏𝟏𝟏𝟏𝟏   ( 𝟏𝟏 ,   𝟐𝟐 𝐜𝐜𝐜𝐜𝐜𝐜 ( 𝜽𝜽 )) = (   0, 2880) N;
+
+El módulo de esta fuerza resultante es 2880 N
+
+0.25
+
+Apartado (c)   Puntos
+
+Al ser una interacción conservativa, la masa en su movimiento mantiene constante su energía mecánica
+Ep   ini   + Ec ini   = Ep fin   + Ec fin
+
+0.25
+
+E ini   = 300 + 0   (tomando las energías potenciales del apartado (a))
+
+E fin = 180 + mv 2 /2
+
+0.25
+
+0.25
+
+Despejamos v= 316.2 m/s   0.25
+
+Nótese que aquí no puede utilizarse la cinemática del movimiento uniformemente acelerado ya que la fuerza, y con
+ella la aceleración, va variando durante el recorrido.
+
+2.   La Tierra tiene una masa de 5.98·10
+24  
+kg, y La Luna 7.35·10
+22  
+kg. La distancia entre los centros de ambos astros
+es 3.84·10
+8  
+m
+
+a.   ¿Qué energía potencial tiene la Luna debida a la Tierra? ¿Cuál es su periodo (en días)?
+
+b.   Determina a qué distancia de la Tierra, en la línea que la une con la Luna, las fuerzas gravitatorias de
+ambos cuerpos se cancelan.
+
+c.   Si en el punto de equilibrio anterior damos a un cuerpo de 3·10
+4  
+kg una velocidad de 1 km/s, cuanto valdrá
+su energía mecánica total?
+
+Datos: G = 6.67 · 10
+-11  
+N·m  
+2·
+Kg
+-2
+
+Apartado (a)   Puntos
+
+La energía potencial gravitatoria es   𝐸𝐸 𝑝𝑝   =   −𝐺𝐺  
+𝑚𝑚 𝑇𝑇 · 𝑚𝑚 𝐿𝐿
+𝑑𝑑   𝑇𝑇 𝐿𝐿
+
+Sustituyendo los valores dados resulta E= − 7.63 · 10
+28  
+𝐽𝐽
+
+0.25
+
+0.25
+
+El periodo se puede obtener directamente de la 3ª ley de Kepler, si se conoce, o deduciendo la expresión
+igualando la fuerza gravitatoria a masa por aceleración (centrípeta),
+
+No obstante, al no pedirse explícitamente en el enunciado, no es imprescindible hacer esta deducción.
+
+𝐺𝐺  
+𝑚𝑚 𝑇𝑇
+4𝜋𝜋   2  
+𝑇𝑇  
+2  
+=   𝑑𝑑  
+3
+
+0.25
+
+   Sustituimos y cambiamos unidades para obtener T=27.39 días ( si no se da en días no puntúa este
+
+0.25 )
+
+0.25
+
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág 3
+
+Apartado (b)   Puntos
+
+El módulo de cada fuerza es, según la ley de gravitación universal   𝐹𝐹 𝑖𝑖   =   −𝐺𝐺  
+𝑚𝑚 𝑇𝑇 · 𝑚𝑚 𝐿𝐿
+𝑥𝑥 𝑖𝑖
+2  
+0.25
+
+Las dos fuerzas son atractivas y por tanto al estar el punto considerado entre ambos astros las fuerzas
+tienen la misma dirección y sentidos opuestos.
+
+F Tierra-masa   +F Luna-masa   =0     
+𝑚𝑚 𝑇𝑇 · 𝑚𝑚
+𝑑𝑑   𝑇𝑇−𝑚𝑚
+2   − 𝐺𝐺  
+𝑚𝑚 𝐿𝐿 · 𝑚𝑚
+𝑑𝑑   𝐿𝐿−𝑚𝑚
+2   = 0
+
+0.25
+
+Llamamos x a la distancia a la Tierra, con lo que la distancia a la Luna es (d-x)
+
+Σ𝐹𝐹   =   𝐺𝐺 
+𝑚𝑚   𝑇𝑇   ·   𝑚𝑚
+𝑥𝑥  
+2  
+− 𝐺𝐺 
+𝑚𝑚 𝐿𝐿   ·   𝑚𝑚
+
+( 𝑑𝑑 − 𝑥𝑥 )
+2  
+= 0 ( 𝑠𝑠𝑞𝑞𝑢𝑢 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 𝑟𝑟 𝑒𝑒𝑒𝑒 )
+
+Operamos para obtener una ecuación de segundo grado en x
+
+(m T   -m   L )·x 2   – 2d·m T ·x +m   T ·d 2 =0
+
+0.25
+
+Resolviendo obtenemos 2 posibles soluciones: x =3.45·10 8   m y   x =4.3·10   8   m. La segunda es mayor que la
+
+distancia Tierra-Luna, por tanto la solución con sentido físico es la primera   x=3.45·10 8   m
+
+0.25
+
+Apartado (c)   Puntos
+
+Le energía potencial gravitatoria es   𝐸𝐸 𝑝𝑝   =   −𝐺𝐺  
+𝑚𝑚 1 · 𝑚𝑚 2
+𝑥𝑥  
+0.25
+
+La energía potencial total es la suma de la debida a la interacción con la Tierra y la debida a la Luna
+
+𝐸𝐸 𝑝𝑝   =   −𝐺𝐺  
+𝑚𝑚 𝑇𝑇 · 𝑚𝑚
+𝑥𝑥  
+− 𝐺𝐺  
+𝑚𝑚 𝐿𝐿 · 𝑚𝑚
+𝑑𝑑−𝑥𝑥  
+donde m=3·10
+4  
+kg
+
+0.25
+
+Por otro lado, la Energía mecánica es suma de potencial y cinética, siendo E c =mv  
+2
+/2   0.25
+
+Sumando ambas contribuciones y sustituyendo obtenemos la E total=- 3.47·10 10   - 3.77·10   9   + 1.5·10   10
+
+E mec   =-2.35·10  
+10  
+J
+
+0.25
+
+3.   Una espira cuadrada de lado a=2 m se sitúa en el plano XY, y se activa un campo magnético en la dirección Z
+positiva. Este campo es variable en el tiempo, y su módulo en Tesla se expresa como B(t) = 0.04 t  
+2
+. Detectamos
+que aparece en la espira una corriente inducida de 200 mA cuando t=10 s
+
+a.   Determina razonadamente la resistencia de la espira e indica en un esquema el
+sentido que tendrá la corriente.
+
+b.   Razona cuánto valdría la corriente inducida en los siguientes casos:
+
+a)   Se cambia la direccion del campo de modo que forme 60º con el eje Z
+
+b)   La espira se coloca en el plano XZ
+
+c)   La espira se coloca en el plano YZ
+
+c.   Volviendo al caso en que está colocada en XY y el campo a lo largo de Z, ocurre que como la corriente
+inducida circula en presencia del mencionado campo externo, sobre cada tramo de la espira aparecerá una
+fuerza. Calcúlala en t=3 s indicando modulo, dirección y sentido para cada tramo del cuadrado; y determina
+la fuerza total que sufrirá la espira.
+
+Apartado (a)   Puntos
+
+El flujo magnético viene dado por   Φ   =   𝐵𝐵 �⃗   ·   𝑆𝑆⃗   =   𝐵𝐵   ·   𝑆𝑆   · cos   𝜃𝜃 , donde S=a
+2
+,   θ =0º por tanto   Φ =0.04·2
+2
+·t  
+2
+
+Al depender este flujo del tiempo se inducirá una corriente eléctrica en la espira
+
+ε =-d Φ /dt =-0.32·t. En concreto en t=10 s será   ε =-3.2 V (el signo lo interpretamos más adelante)
+
+0.5
+
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág   4
+
+Usando la ley de Ohm I=V/R      R=V/I=3.2/0.2= 16   Ω   0.25
+
+Dado que el flujo aumenta con el tiempo, la corriente inducida se opone a esto
+circulando en sentido horario (visto desde arriba)
+
+0.25
+
+Apartado (b)   Puntos
+
+En el flujo aparece el ángulo que forma la perpendicular a la superficie del circuito con el campo
+magnético:   𝐵𝐵   ·   𝑆𝑆   · cos   𝜃𝜃   ya que se trata de un producto escalar
+
+0.25
+
+Si el campo magnético se gira para formar 60º con Z , el flujo y con él la corriente inducida se reducen en
+
+un factor cos (60)=0.5, así que valdrá la mitad.   I=100 mA
+
+0.25
+
+En los casos propuestos (tanto en XZ como en YZ) forman 90º y el flujo
+
+es nulo constantemente, independientemente del valor del campo .
+
+Si la espira se colo ca en XZ el vector de superficie va en dir Y
+
+Si la espira se coloca en YZ el vector de superficie va en dir X
+
+En ambos casos el producto escalar con B (en dirección Z) es nulo
+
+0.5
+
+Apartado (c)   Puntos
+
+La fem en t=3 será, según la formula ya indicada en (a),   ε =0.32·t=0.96V y la corriente
+
+I =   ε /R = 0.06 A=   60 mA
+
+0.25
+
+La fuerza sobre un conductor rectilíneo en presencia de un B uniforme es   𝐹𝐹⃗   =   𝐼𝐼   ·   𝐿𝐿 �⃗   ×   𝐵𝐵 �⃗
+
+Donde L lleva la dirección de la corriente antes indicada. Dado que L y B forman 90º el módulo de la
+fuerza sobre cada lado en t=3 s es F i   =I·a·B=0.0 6 · 2 · 0.04· 3 2 = 0.0432 N
+
+0.25
+
+Las fuerzas sobre cada tramo de la espira se obtienen a partir de la regla
+de la mano derecha aplicada a L y B. Se marcan en rojo en el esquema.
+
+Dado que todas tienen igual módulo se anulan mutuamente y la fuerza
+neta sobre la espira es cero.
+
+0.25
+
+0.25
+
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág 5
+
+4. Una onda electromagnética se propaga por el agua y tiene la siguiente función de onda:
+
+E(x,t) =100·sen(1.2·10
+7  
+x – 2.72·10
+15  
+t) V/m, donde x se expresa en metros y t en segundos.
+
+a.   Determina su longitud de onda, su frecuencia y el sentido en que se propaga.
+
+b.   Calcula la velocidad con que se propaga y el índice de refracción del agua.
+
+c.   Calcula la diferencia de fase (en radianes) que habrá para un punto del medio, entre un instante
+dado y 1 femtosegundo después (1 fs=10
+-15  
+s). Calcula también qué desfase inicial tendríamos que
+darle a la onda para que un punto en x=30 nm tenga en t=0 un valor de E=50 V/m.
+
+Datos: c=3·10
+8  
+m/s
+
+Apartado (a)   Puntos
+
+Dado que la expresión general de una onda armónica es A sen (k·x- ω ·t+ ϕ ), identificamos
+
+k=1.2·10 7   m -1   y   ω =2.72·10 15   s -1   .   (No es preciso sacar estos valores numéricos intermedios, solo
+
+valoramos que se sepa que k es lo que acompaña a x y 
+⍵   lo que va con t)
+
+0.25
+
+Como k=2π/λ      λ=5.23·10
+-7  
+m   0.25
+
+Como   ω =2π ν      ν=4.33·10 14   Hz   0.25
+
+El sentido viene dado por el signo “ - “, que indica que se propaga en   sentido positivo   de las X.   0.25
+
+Apartado (b)   Puntos
+
+La velocidad de propagación es v= ω /k=λ/T   0.25
+
+Sustituimos y resulta v=2.266·10
+8  
+m/s   0.25
+
+El índice de refracción se define como n= c / v   0.25
+
+Sustituyendo resulta n= 3/2.266 = 1.3241   0.25
+
+Apartado (c)   Puntos
+
+La fase es el argumento de la función trigonométrica   𝜙𝜙   =   𝑘𝑘 𝑥𝑥   −   𝜔𝜔𝜔𝜔   +   𝜑𝜑
+
+En este caso se trata de un mismo punto del medio (misma x) de modo que   𝚫𝚫𝝓𝝓   =   𝝎𝝎   ·   𝚫𝚫𝒕𝒕
+
+Δ𝜙𝜙   = 2.72·10
+15  
+· 10  
+-15  
+=   2.72 rad
+
+0.25
+
+0.25
+
+En el segundo caso E(x,t) =100·sen (1.2·10  
+7  
+·30·10  
+-9  
+– 2.72·10  
+15  
+·0+ ϕ ) = 50 V/m
+
+Sen (0.36+ ϕ )=50/100=0.5      la fase son 30º=π/6
+
+ϕ =π/6 - 0.36=0.16 rad .
+
+En realidad,   también 150º (5π/6) es una fase compatible con lo anterior… Lo damos por válido, pero
+
+no   es necesario dar las dos posibilidades para tener el máximo de puntuación
+
+0.25
+
+0.25
+
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág   6
+
+Sección 2: Cuestiones (elegir 3).   Puntuación máxima 1 punto cada una.
+
+5. Queremos mover una carga de 10 C de la línea equipotencial A hasta la C. Para ello se
+realiza un trabajo en contra del campo de 200J.
+
+a.   Razone si la carga será positiva o negativa.
+
+b.   Calcule el potencial eléctrico en C.
+
+Cuestión 5   Puntos
+
+Según el esquema, al pasar de A a C el potencial eléctrico disminuye. Si para ello tenemos que realizar
+trabajo   contra   el campo es que   la carga es negativa , pues de ser positiva habría ido de manera natural,
+sin requerir un trabajo externo.
+
+Puede llegarse a esta conclusión también razonando a partir de los signos como se detalla a
+
+continuación… Lo damos por válido .
+
+0.25
+
+Como W=- ΔE p   y el trabajo es contra el campo W = - 200 J   0.25
+
+La Energía potencial es E p =q·V= -10 ·V   0.25
+
+-200=-(- 10 ΔV)      ΔV= -20 V
+
+El potencial cae en 20 V por tanto la equipotencial de C corresponde a 0 V
+
+0.25
+
+Aquí el juego de signos puede ser lioso. No exigimos que cada expresión los lleve con rigor, puede operarse con
+módulos y como se ve que disminuye restar a los 20V iniciales el incremento para obtener el resultado (o V).
+
+6. El 20 de julio de 1969, la nave Apolo 11 consiguió alunizar. Calcula la   energía   mínima que tendrían que aportar
+los motores a la nave para poder escapar de la gravedad de la Luna, partiendo de su superficie. ¿Cuál será la
+velocidad de despegue? Deduce las expresiones necesarias.
+
+Datos: G= 6.67 × 10
+–11  
+N m  
+2  
+kg
+–2
+; m Luna   = 7.35 × 10
+22  
+kg; r Luna   = 1.74 × 10
+3  
+km; m nave =45.7·10
+3  
+kg.
+
+Cuestión 6   Puntos
+
+La energía parado en la superficie de la Luna es   𝐸𝐸 𝑝𝑝   =   −𝐺𝐺  
+𝑀𝑀 𝑚𝑚
+
+𝑅𝑅  
+=   − 1.29 · 10
+11  
+𝐽𝐽  
+0.25
+
+Escapar de la Luna implica que tenga Energía total cero, así que los motores tendrían que aportar
++1.29·10   11   J en forma de energía cinética  
+0.25
+
+La Energía cinética es mv   2 /2=E c ,
+
+luego   𝑣𝑣   =   �  
+2𝐸𝐸
+𝑚𝑚  
+= 2373.8   𝑚𝑚 / 𝑠𝑠
+
+0.25
+
+0.25
+
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág 7
+
+7.   El yodo radiactivo   𝐼𝐼 53
+131  
+es un isótopo usado en radioterapia para tratar algunos cánceres de tiroides mientras que
+el isótopo 19 del flúor   𝐹𝐹 9
+19  
+tiene características que permiten su uso en técnicas de RMN (Resonancia magnética
+nuclear). Las masas respectivas de los dos núclidos son 130.9061 uma y 18.9984 uma. Indique, de forma razonada,
+cuál de los dos núcleos tiene mayor estabilidad.
+
+Datos: m   p   = 1.007276 uma; m n   = 1.008665 uma; 1uma = 1.66 ·10
+-27  
+kg; c = 3·10
+8  
+m/s
+
+Cuestión 7   Puntos
+
+La estabilidad de un núcleo viene dada por su   energía de enlace   por nucleón , que es la diferencia entre la
+
+energía equivalente a la masa del núcleo en reposo menos la masa de sus componentes separados
+(protones y neutrones) en reposo
+
+E=[mc 2   –   Z·m p   c 2   - (A- Z) m n   c 2 ]/A
+
+0.25
+
+𝐼𝐼
+53
+131  
+tiene Z=53, A=131, por tanto usando los datos
+
+E I   = [ 130.9061 -   53·1.007276 - (131- 53)· 1.008665] 1.66 ·10 -27   ·(3·10 8 )   2   /131   = -1.317·10   -12   J
+
+Usamos el factor para convertir las unidades de masa atómica en kg de manera que la Energía esté en
+Julios
+
+0.25
+
+Repetimos para el núcleo de Flúor
+
+𝐹𝐹 9
+19  
+tiene Z=9, A=19, por tanto usando los datos
+
+E F = [ 18.9984   -   9·1.007276 - (19- 9)· 1.008665] 1.66 ·10 -27   ·(3·10 8 )   2   /19 =   -1.21·10   -12   J
+
+0.25
+
+La energía de enlace es mayor para el   Iodo   de manera que es el   más   estable.   0.25
+
+La energía puede definirse invirtiendo el orden de los sumandos con lo que las energías serían positivas. Se
+considera igualmente correcto.
+
+8.   En la gráfica adjunta se presenta la evolución temporal de la actividad de
+una muestra de Yodo-131 (
+131  
+I). Hallar la constante de desintegración radiactiva
+y la actividad a los 50 días.
+
+Cuestión 8   Puntos
+
+La actividad radiactiva sigue la siguiente ley A=A 0·   e
+- λ·t  
+donde λ es la constante de desintegración   0.25
+
+De la gráfica deducimos que A 0 =6 MBq   0.25
+
+Tomamos el periodo de semidesintegración en la gráfica (cuando A se reduce a la mitad, 3 MBq que
+
+ocurre a los 8 días)
+
+A(8)=3      A(8)=3= 6· ·   e
+- λ·8  
+de donde deducimos que λ=0.087 días  
+-1  
+(constante de desintegración)
+
+Nota: Es válido hacerlo a partir de cualquier otro punto de la gráfica, aunque los valores pueden
+cambiar un poco , por ejemplo t=12 días…   A(12)=2= 6·   · e   - λ·12   de donde deducimos que λ=0.0915 días -1   . Lo
+damos por válido.
+
+0. 2 5
+
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág   8
+
+La actividad a los 50 días se obtiene sustituyendo en la expresión general
+
+A(50)=6 e - 0.087·50   =0.0774408 MBq=77440.8 desintegraciones por segundo
+
+Usando el otro valor de λ puede dar un valor algo diferente… A(50)=6 e
+- 0.0915·50  
+=0.06168 MBq=61680
+
+desintegraciones por segundo. Se da por válido.
+
+0.25
+
+9.   Se dispone de una lente de potencia negativa (P<0) ¿qué características presentará la imagen para un
+objeto situado sobre el eje, a la izquierda de la lente? Apoya la respuesta con un diagrama de rayos
+
+Cuestión 9   Puntos
+
+Potencia negativa significa que es un a lente divergente   0.25
+
+La imagen de una lente de este tipo, independientemente de si el objeto esta delante o detrás del   foco, es
+
+una imagen   virtual, derecha   y de menor tamaño que el objeto.
+
+0.25
+
+0.5
+
+10.   Un claxon se oye hasta una distancia de 2 km.
+
+a.   Calcular la sensación sonora en dB a 200 m
+
+b.   ¿Cuántos cláxones habría que juntar para que a 200 m la sensación sonora fuera de 90 dB?
+
+Dato: I   0   = 10
+-12  
+W/m
+2
+
+Cuestión 10   Puntos
+
+Si se oye hasta 2 km quiere decir que a esa distancia su intensidad sonora es la umbral del oído humano
+que es precisamente el dato I 0   dado.
+
+0.25
+
+La sensación sonora es   β =10 log(I/I 0   )   0.25
+
+La intensidad cae con el cuadrado de la distancia
+
+I(200)/   I(2000)=2000  
+2
+/200
+2
+=100      I(200m)=100 I(2km)=100 I 0
+
+Por tanto   β (200m)=10 log(100)=20 dB
+
+0.25
+
+Para tener 90 dB necesitamos   90 = 10 log  
+𝑁𝑁 · 100 · 𝐼𝐼 0
+𝐼𝐼 0
+
+, luego 100 N=10   9      N=10   7   cláxones   0.25
+
+F’
+
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág 9
+
+Sección 3: Cuestiones experimentales (elegir una).   Puntuación máxima 1 punto cada una.
+
+Cuestión 11   Puntos
+
+La ley de Snell para la refracción establece que n   v   sen( θ i )= n   aire   sen( θ t ), donde n   aire =1   0.25
+
+En este caso de cualquiera de las filas proporcionadas obtenemos cercanos a n   v =1.60
+
+Angulo incidente (θ i )   Sen (θ i )   Angulo Refractado (θ r )   Sen (θ r )   n vidrio
+
+12º   0.21   20º   0.34   1.619
+
+18º   0.31   30º   0.50   1.612
+
+25º   0.42   42º   0.67   1.595
+
+30º   0.50   52º   0.79   1.580
+
+0.25
+
+Realizamos una media aritmética para quedarnos con el valor más probable   n=1.6015   0. 2 5
+
+Para que la reflexión total pueda darse el rayo tiene que refractarse a un medio m enos   denso ópticamente
+
+(menor n). En este caso pasa del vidrio al aire así que   sí puede darse . No es preciso calcular el ángulo
+
+crítico, pero si lo hacen resulta ser 38.7º
+
+0.25
+
+Cuestión 12   Puntos
+
+El periodo de un péndulo esta   relacionado con su longitud y la gravedad según
+
+𝑇𝑇   = 2 𝜋𝜋�  
+𝐿𝐿
+𝑔𝑔  
+de manera que   𝑔𝑔   =  
+4𝜋𝜋  
+2  
+𝐿𝐿
+𝑇𝑇  
+2
+
+0.5
+
+Calculamos la gravedad en cada experimento teniendo en cuenta que el tiempo dado es 10·T
+
+Longitud (m)   Tiempo (s)   g (m/s
+2)
+
+0.5   24   3.43
+
+1.0   32   3.85
+
+1.5   40   3.7
+
+0.25
+
+El valor promedio es 3.66 m/s
+2  
+así que el astronauta está en Marte   0.25
+

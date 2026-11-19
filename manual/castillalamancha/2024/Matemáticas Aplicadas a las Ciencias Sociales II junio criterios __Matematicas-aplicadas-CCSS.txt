@@ -1,0 +1,858 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2324/ORDINARIA/Matematicas-aplicadas-CCSS.ashx]
+Evaluación para el Acceso a la Universidad. Convocatoria de 2024
+Materia: MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+Instrucciones:   El examen se compone de tres secciones de dos bloques cada una y cada bloque
+tiene dos ejercicios. Se debe elegir un bloque de cada una de las tres secciones.
+
+Sólo están permitidas las calculadoras tipo I y II . Se puede hacer uso de colores salvo el color
+rojo. Es necesario   detallar   el proceso de resolución de los ejercicios.
+
+Sección 1 (3 puntos) Bloque 1
+1.   Una empresa de productos de papelería dispone de   270   m
+2  
+de cartón y de   432   m de cinta de goma para la fabricación
+de dos tipos de carpetas: tamaño folio y tamaño cuartilla. Para una del primer tipo se necesitan   0 . 20   m
+2  
+de cartón y   0 . 30   m
+de cinta de goma y se vende a   2 . 10 e   la unidad. Para una carpeta del segundo tipo se necesitan   0 . 15   m
+2  
+de cartón y   0 . 27   m
+de cinta de goma y se vende a   1 . 50 e   la unidad.
+a) Expresa la función objetivo, escribe mediante inecuaciones las restricciones del problema y representa gráficamente el
+recinto definido. (1.25 puntos)
+b) Determina cuántas carpetas de cada tipo tiene que fabricar la empresa para que el beneficio sea máximo. (0.25 puntos)
+
+Solución:
+
+a) Llamando   x   a las carpetas de tamaño folio e   y   a las de tamaño cuartilla, la función objetivo será:   Z ( x, y ) = 2 . 1 x   + 1 . 5 y.
+
+(0.25 puntos)
+Las restricciones del problema son
+
+
+
+
+
+0 . 2 x   + 0 . 15 y   ≤   270
+0 . 3 x   + 0 . 27 y   ≤   432
+
+x   ≥   0 , y   ≥   0
+
+(0.5 puntos por las restricciones y 0.25 puntos por representar la región factible)
+( 900, 600 )
+
+( 0, 0 )   ( 1350, 0 )
+
+( 0, 1600 )
+
+300   600   900   1200   1500
+300
+600
+900
+1200
+1500
+1800
+
+Los vértices de la región factible son:   A   = (0 ,   0) , B   = (0 ,   1600) , C   = (1350 ,   0) ,   y   D   = (900 ,   600) .   (0.25 puntos)
+b) Aplicados los vértices a la función objetivo   Z ( A ) = 0;   Z ( B ) = 2400;   Z ( C ) = 2835;   Z ( D ) = 2790 .   Se tiene un beneficio
+máximo de   2835 e   con   1350   carpetas de tamaño folio y   0   carpetas de tamaño cuartilla. (0.25 puntos)
+
+2.   En la fase nacional de la Olimpiada de Matemáticas Española se reparten un total de 36 medallas, divididas en oro, plata
+y bronce. El número de medallas de bronce triplica a las medallas de oro y sabemos que, si dos de las medallas de plata se
+pasaran a la categoría de bronce, entonces la cantidad de medallas de bronce duplicaría la cantidad de medallas de plata.
+a) Plantea el sistema de ecuaciones para calcular qué cantidad de medallas de cada tipo se reparten. (0.75 puntos)
+b) Resuelve razonadamente el sistema planteado en el apartado anterior. (0.75 puntos)
+
+Solución:
+
+a) Tomando   x   ≡   número de medallas de oro;   y   ≡   número de medallas de plata;   z   ≡   número de medallas de bronce.
+
+
+
+
+
+x   +   y   +   z   = 36
+3 x   =   z
+
+2( y   −   2) =   z   + 2
+
+(0.25 puntos por cada ecuación bien planteada)
+b) La solución del sistema es   ( x, y, z ) = (6 ,   12 ,   18)   medallas. Se reparten   6   medallas de oro,   12   medallas de plata y   18
+
+medallas de bronce. (0.5 puntos por el desarrollo de la resolución y 0.25 puntos por la solución correcta)
+
+Bloque 2
+1.   La evolución de la rentabilidad de un fondo de inversión a lo largo del tiempo,   x   en años, viene definida por la función
+
+R ( x ) =
+
+{  
+− ( x   + ( t   −   3))
+2  
++ ( t   + 27)   si   0   ≤   x   ≤   3
+
+−  
+1
+3  
+x
+3  
+−   tx
+2  
++ 5 x   −   3   si   x >   3
+
+a) ¿Para qué valores de   t   la rentabilidad del fondo,   R ( x ) ,   es una función continua en   x   = 3?   (0.5 puntos)
+b) Para   t   =   − 2 , ¿cuándo se tiene la mayor rentabilidad en el fondo a partir del tercer año? (0.5 puntos)
+c) Para   t   =   − 2 , determina en qué intervalos de tiempo la rentabilidad del fondo crece y en cuáles decrece a partir del tercer
+año. (0.5 puntos)
+
+Solución:
+
+a) La función es continua en   x   = 3   ⇔   l´ ım x → 3   R   ( x ) =   R (3) .   Para que exista el límite, los límites laterales tienen que ser
+iguales:
+
+l´ ım x → 3 −   R ( x ) = l´ ım x → 3   − ( x   + ( t   −   3))
+2  
++ ( t   + 27) =   − t
+2  
++   t   + 27 =   R (3) .
+
+l´ ım x → 3 +   R ( x ) = l´ ım x → 3   −  
+1
+3  
+x
+3  
+−   tx
+2  
++ 5 x   −   3 =   − 9 t   + 3 .
+
+− t
+2  
++   t   + 27 =   − 9 t   + 3   ⇒   t
+2  
+−   10 t   −   24 = 0   ⇒   t   =   − 2   y   t   = 12 .
+
+(Saber las condiciones 0.25 puntos. Cálculo correcto 0.25 puntos)
+b) Los extremos relativos verifican   R
+′  
+( x ) = 0   ⇒   R
+′  
+( x ) =   − x
+2  
++ 4 x   + 5 = 0   ⇔   x   =   − 1   y   x   = 5 .
+R
+′′  
+( x ) =   − 2 x   + 4   ⇒   R
+′′  
+(5) =   − 6   <   0   ⇒   máximo relativo en   (5 ,  
+91
+3  
+)   ( x   =   − 1   / ∈   (3 ,   ∞ ) ).
+(Saber las condiciones 0.25 puntos. Cálculo correcto 0.25 puntos)
+c)   R
+′
+( x )   >   0   en el intervalo   (3 ,   5)   por lo que la función crece y   R
+′
+( x )   <   0   en el intervalo   (5 ,   ∞ )   donde decrece.
+(0.25 por cada intervalo correcto)
+0   2   4   6   8
+5
+10
+15
+20
+25
+30
+
+2.   Dada la función   f   ( x ) =   x
+4  
++   ax
+3  
++   bx
+2  
++   cx,   encuentra el valor de los parámetros   a, b   y   c   sabiendo que la función tiene
+un extremo relativo en el punto   ( − 1 ,   0)   y la ecuación de la recta tangente a la función en   x   = 0   es   y   =   x.   (1.5 puntos)
+
+Solución:
+
+f   ( x ) =   x
+4  
++   ax
+3  
++   bx
+2  
++   cx   ⇒   f  
+′
+( x ) = 4 x
+3  
++ 3 ax
+2  
++ 2 bx   +   c.
+
+
+
+
+
+f   ( − 1) = 0
+
+f  
+′
+( − 1) = 0
+
+f  
+′
+(0) = 1
+
+⇒
+
+
+
+
+
+1   −   a   +   b   −   c   = 0
+
+− 4 + 3 a   −   2 b   +   c   = 0
+
+c   = 1
+
+⇒   a   = 3 , b   = 3 , c   = 1   ⇒   f   ( x ) =   x
+4  
++ 3 x
+3  
++ 3 x
+2  
++   x.
+
+(0.25 por cada condición. 0.75 por la solución correcta)
+
+Sección 2 (3.5 puntos) Bloque 1
+3.   Una empresa de consultoría tiene dos sedes, una en Toledo y otra en Cuenca. La sede de Toledo está formada por   6
+
+analistas y   6   desarrolladores, mientras que la de Cuenca la forman   4   analistas y   6   desarrolladores. Además, se sabe que el
+
+30 %   de los analistas y el   50 %   de los desarrolladores de la empresa usan MacBooks en su trabajo diario.
+a) Elegido un trabajador al azar, ¿cuál es la probabilidad de que no use MacBook? (0.75 puntos)
+b) Si se sabe que un trabajador usa MacBook, ¿cuál es la probabilidad de que sea desarrollador? (0.75 puntos)
+
+Solución:   Como en las probabilidades a calcular hacen referencia únicamente a los trabajadores de la empresa, los
+sucesos y probabilidades necesarias para resolver el problema son:   A   =   Analista;   D   =   Desarrollador;   M   =   Usa MacBook.
+
+P   ( A ) =  
+10
+22  
+;   P   ( D ) =  
+12
+22  
+;   P   ( M   |   A ) = 0 . 3 ;   P   ( M   |   D ) = 0 . 5 .
+
+a)   P   ( M  
+c
+) =   P   ( A )   ·   P   ( M  
+c  
+|   A ) +   P   ( D )   ·   P   ( M  
+c  
+|   D ) =  
+10
+22  
+·   0 . 7 +  
+12
+22  
+·   0 . 5 = 0 . 591 .   (0.75 puntos)
+b)   P   ( D   |   M   ) =  
+P   ( D ∩ M   )
+
+P   ( M   )  
+=  
+P   ( D ) · P   ( M   | D )
+
+P   ( M   )  
+=  
+12
+22   · 0 . 5
+1 − 0 . 591  
+= 0 . 667 .   (0.75 puntos)
+Sin embargo, aunque la frase   ...se sabe que el   30 %   de los analistas y el   50 %   de los desarrolladores de la empresa usan
+MacBooks...   se refiere al global de la empresa, se podía representar en forma de árbol el ejercicio incluyendo las sedes de
+la empresa y resolver el ejercicio de esta forma obteniendo los mismos resultados.
+Desarrollador
+
+Analista
+
+Cuenca
+
+Toledo
+
+Desarrollador
+
+Analista
+
+McBook
+
+McBook
+
+McBook
+
+McBook
+
+No McBook
+
+No McBook
+
+No McBook
+
+No McBook
+
+0,5
+
+0,5
+
+0,3
+
+0,7
+
+0,5
+
+0,5
+
+0,7
+
+0,3
+
+Empresa
+
+12/22
+
+10/22
+
+6/ 1 2
+
+6/ 1 2
+
+6/ 10
+
+4/ 10
+
+0 , 5   ·   6   12 Τ   ·   12   22 Τ
+
+0 , 5   ·   6   / 22
+
+0 , 3   ·   6   / 22
+
+0 , 7   ·   6   / 22
+
+0 , 5   ·   6   / 22
+
+0 , 5   ·   6   / 22
+
+0 , 3   ·   4   / 22
+
+0 , 7   ·   4 / 22
+
+0 , 5   ·   6   12 Τ   ·   12   22 Τ
+
+0 , 3   ·   6   12 Τ   ·   12   22 Τ
+
+0 , 7   ·   6   12 Τ   ·   12   22 Τ
+
+0 , 5   ·   6   10 Τ   ·   10   22 Τ
+
+0 , 5   ·   6   10 Τ   ·   10   22 Τ
+
+0 , 3   ·   4   10 Τ   ·   10   22 Τ
+
+0 , 7   ·   4   10 Τ   ·   10   22 Τ
+
+4.   Un fabricante de microprocesadores ha tomado una muestra aleatoria de   144   chips y ha medido el tiempo de ejecución
+de una operación, proporcionando una media de   142   milisegundos. Si se sabe que el tiempo de ejecución de los chips sigue
+una distribución normal de media desconocida y desviación típica   σ   = 42   milisegundos,
+a) Calcula el intervalo de confianza para la media poblacional del tiempo de ejecución de los chips con un nivel de confianza
+del   94 . 64 % .   (1 punto)
+b) Calcula el tamaño mínimo de la muestra elegida para que, con un nivel de confianza del   94 . 12 % , el error máximo
+admisible sea menor que   8   milisegundos. (1 punto)
+
+Solución:
+
+a)   ¯ X   = 142   milisegundos,   σ   = 42   milisegundos,   n   = 144 ,   1   −   α   = 0 . 9464   ⇒   Z   α
+
+2  
+= 1 . 93   (0.25 puntos)
+IC   =
+
+(  
+¯ X   −   Z   α
+
+2
+
+σ
+√
+n  
+,   ¯ X   +   Z   α
+
+2
+
+σ
+√
+n
+
+)
+
+.   (0.25 puntos)
+IC   =
+
+(
+
+142   −   1 . 93  
+42
+√
+144  
+,   142 + 1 . 93  
+42
+√
+144
+
+)
+
+= (135 . 245 ,   148 . 755) .   (0.5 puntos)
+b) El error máximo admisible viene dado por   E   =   Z   α
+
+2
+
+σ √
+n  
+⇒   n   =
+
+(  
+Z   α
+
+2  
+σ
+E
+
+) 2
+
+(0.25 puntos)
+
+1   −   α   = 0 . 9412   ⇒   α   = 0 . 0588   ⇒  
+α
+
+2  
+= 0 . 0294   ⇒   Z   α
+
+2  
+= 1 . 89 .   (0.25 puntos)
+Para   E   = 8   ⇒   n   =  
+(  
+1 . 89 · 42
+8
+
+) 2  
+= (9 . 9225)
+2  
+= 98 . 456 .   El tamaño mínimo de la muestra para que el error de estimación
+de la media sea inferior a   8   milisegundos, con un nivel de confianza del   94 . 12 %   debe ser de   99   chips. (0.5 puntos)
+
+Bloque 2
+3.   En una clase se celebran elecciones para delegada y se presentan dos candidatas, Inés y Nerea. Se sabe que cuatro
+veces el número de votos obtenido por Nerea menos tres veces el número de votos obtenidos por Inés excede al número
+de votos nulos en un voto. Si dividimos el número de votos obtenidos por Inés entre el número de los obtenidos por Nerea
+se obtiene de cociente 1 y de resto 7 (Algoritmo de la división: D=d · c+r). El   5 %   del total de votos emitidos es nulo.
+a) Plantea el sistema de ecuaciones para calcular el número de votos nulos y los que recibieron Inés y Nerea. (0.75 puntos)
+b) Resuelve razonadamente el sistema planteado en el apartado anterior. (0.75 puntos)
+
+Solución:
+
+a) Tomando   x   ≡   número de votos de Inés;   y   ≡   número de votos de Nerea;   z   ≡   número de votos nulos.
+
+
+
+
+
+4 y   −   3 x   =   z   + 1
+
+x   =   y   + 7
+
+z   =  
+5
+100  
+( x   +   y   +   z )
+
+(0.25 puntos por cada ecuación bien planteada)
+b) La solución del sistema es   ( x, y, z ) = (32 ,   25 ,   3)   votos. Inés obtuvo   32   votos, Nerea   25   votos y   3   votos fueron nulos. (0.5
+puntos por el desarrollo de la resolución y 0.25 puntos por la solución correcta)
+
+4.   Dadas las matrices   A   =
+
+(  
+1   2   3
+2   1   1
+
+)
+
+,   B   =
+
+
+
+
+− 1   0
+2   2
+
+− 1   1
+
+
+   y   C   =
+
+(  
+1   − 1
+1   0
+
+)
+
+.
+
+a) Calcula, si es posible,   C   +   A   ·   B   (0.75 puntos)
+b) ¿Son iguales   C
+− 1  
++ ( A   ·   B )
+− 1  
+y   ( C   +   A   ·   B )
+− 1
+? (1.25 puntos)
+
+Solución:
+
+a)   C   +   A   ·   B   =
+
+(  
+1   − 1
+1   0
+
+)
+
++
+
+(  
+1   2   3
+2   1   1
+
+)
+
+·
+
+
+
+
+− 1   0
+2   2
+
+− 1   1
+
+
+   =
+
+(  
+1   − 1
+1   0
+
+)
+
++
+
+(  
+0   7
+
+− 1   3
+
+)
+
+=
+
+(  
+1   6
+0   3
+
+)
+
+. (0.75 puntos)
+b)   C
+− 1  
+=
+
+(  
+0   1
+
+− 1   1
+
+)
+
+;   ( A   ·   B )
+− 1  
+=  
+1
+7
+
+(  
+3   − 7
+1   0
+
+)
+
+;   ( C   +   A   ·   B )
+− 1  
+=  
+1
+3
+
+(  
+3   − 6
+0   1
+
+)
+
+. (0.25 puntos por inversa)
+
+C
+− 1  
++ ( A   ·   B )
+− 1  
+=
+
+(  
+0   1
+
+− 1   1
+
+)
+
++  
+1
+7
+
+(  
+3   − 7
+1   0
+
+)
+
+=
+
+(  
+3 / 7   0
+
+− 6 / 7   1
+
+)
+
+6 
+=
+
+(  
+1   − 2
+0   1 / 3
+
+)
+
+= ( C   +   A   ·   B )
+− 1
+. (0.5 puntos)
+
+Sección 3 (3.5 puntos) Bloque 1
+5.   En un instituto el   64 %   de los estudiantes aprueban Matemáticas, el   72 %   aprueban Inglés y el   78 %   aprueban Matemáticas
+o Inglés o ambas.
+a) ¿Cuál es la probabilidad de suspender alguna de las dos asignaturas? (0.75 puntos)
+b) ¿Son independientes los sucesos aprobar Matemáticas y aprobar Inglés? Justica la respuesta. (0.75 puntos)
+
+Solución:
+
+M   =   aprobar Matemáticas;   I   =   aprobar Inglés;   P   ( M   ) = 0 . 64 ;   P   ( I ) = 0 . 72 ;   P   ( M   ∪   I ) = 0 . 78 .
+
+a)   P   ( M  
+c  
+∪   I
+c
+) = 1   −   P   ( M   ∩   I ) = 1   −   ( P   ( M   ) +   P   ( I )   −   P   ( M   ∪   I )) = 1   −   (0 . 64 + 0 . 72   −   0 . 78) = 1   −   0 . 58 = 0 . 42 .   (0.75
+puntos)
+b) Dos sucesos son independientes si   P   ( M   ∩   I ) =   P   ( M   )   ·   P   ( I )   ⇔   0 . 58 = 0 . 64   ·   0 . 72   como   0 . 58   6   = 0 . 4608   entonces los
+sucesos no son independientes. (0.75 puntos)
+
+6.   La edad de los usuarios de un juego online sigue una distribución normal de media desconocida y varianza   σ
+2  
+= 4   años
+2
+.
+
+Se ha tomado una muestra de   10   usuarios y sus edades eran   16 ,   19 ,   21 ,   15 ,   14 ,   18 ,   20 ,   15 ,   14   y   18   años.
+a) Calcula el intervalo de confianza para la media poblacional de la edad de los usuarios con un nivel de confianza del   97 % .
+
+(1 punto)
+b) Explica, justificando la respuesta, qué se podría hacer para conseguir un intervalo de confianza con menor amplitud para
+el mismo nivel de confianza. (0.5 puntos)
+c) ¿Cuál sería el error máximo admisible si se hubiera utilizado una muestra de tamaño   81   y un nivel de confianza del
+
+95 . 44 %?   (0.5 puntos)
+
+Solución:
+
+a) La media muestral es:   ¯ X   =  
+16+19+21+15+14+18+20+15+14+18
+10  
+= 17   años.
+Del enunciado se deduce:   σ
+2  
+= 4   años
+2  
+⇒   σ   = 2   años,   n   = 10 ,   1   −   α   = 0 . 97   ⇒   Z   α
+
+2  
+= 2 . 17 .   (0.25 puntos)
+IC   =
+
+(  
+¯ X   −   Z   α
+
+2
+
+σ
+√
+n  
+,   ¯ X   +   Z   α
+
+2
+
+σ
+√
+n
+
+)
+
+(0.25 puntos)
+IC   =
+
+(
+
+17   −   2 . 17  
+2
+√
+10  
+,   17 + 2 . 17  
+2
+√
+10
+
+)
+
+= (15 . 628 ,   18 . 372) .   (0.5 puntos)
+b) Para disminuir la amplitud del intervalo manteniendo el nivel de confianza, hay que disminuir el valor de  
+σ
+√
+n  
+y como   σ   es
+un valor dado, la única opción es aumentar el tamaño de muestra.
+(0.25 puntos por la respuesta correcta y 0.25 puntos por la justificación)
+c)   1   −   α   = 0 . 9544   ⇒   α   = 0 . 0456   ⇒  
+α
+
+2  
+= 0 . 0228   ⇒   Z   α
+
+2  
+= 2 .   (0.25 puntos)
+Error máximo admisible   E   =   Z   α
+
+2
+
+σ √
+n  
+= 2  
+2 √
+81  
+= 0 . 444 .   (0.25 puntos)
+
+Bloque 2
+5.   Durante una tormenta, la altura,   A ( x ) ,   que han alcanzado las olas del mar, en metros, se puede expresar con respecto
+al tiempo ( x   en horas) mediante la función
+
+A ( x ) =
+
+{  
+− (2 x   +   t )
+2  
++ (11 +   t )   si   0   ≤   x <   2
+
+x
+2  
+−   8 x   + 19 +   t   si   2   ≤   x   ≤   7
+
+a) Halla los valores de   t   para que la función de la altura de las olas sea continua en   x   = 2 .   (0.75 puntos)
+b) Representa gráficamente la función de la altura de las olas,   A ( x ) ,   para el valor   t   =   − 1 .   (0.75 puntos)
+
+Solución:
+
+a) La función es continua en   x   = 2   ⇔   l´ ım x → 2   A   ( x ) =   A (2) .   Para que exista el límite, los límites laterales tienen que ser
+iguales:
+
+l´ ım x → 2 −   A ( x ) = l´ ım x → 2 ( − (2 x   +   t )
+2  
++ (11 +   t )) =   − t
+2  
+−   7 t   −   5 .
+
+l´ ım x → 2 +   A ( x ) = l´ ım x → 2 ( x
+2  
+−   8 x   + 19 +   t ) =   t   + 7 =   A (2) .
+
+− t
+2  
+−   7 t   −   5 =   t   + 7   ⇒   t
+2  
++ 8 t   + 12 = 0   ⇒   t   =   − 2   y   t   =   − 6 .
+
+(Saber las condiciones 0.25 puntos. Cálculo correcto 0.5 puntos)
+
+b) (0.25 puntos por cada trozo bien dibujado. Todo correcto 0.75 puntos)
+0   1   2   3   4   5   6   7
+2
+4
+6
+8
+10
+
+6.   La evolución del número de socios de un determinado club de fútbol desde el año de su fundación,   1965 ( t   = 0) ,   hasta
+su desaparición en   2018 ( t   = 53)   viene dada por la expresión   S ( t ) =   − 0 . 5   ·   (2 t
+3  
+−   34 t
+2  
+−   3968 t   −   60)   donde   t   se expresa
+en años.
+a) ¿Cuántos socios tenía el club en el año del mundial en España, 1982? (0.5 puntos)
+b) ¿En qué momento de la existencia del club se alcanzan el máximo y mínimo número de socios? ¿Cuáles son los valores
+del máximo y mínimo número de socios? (1.5 puntos)
+
+Solución:
+
+a) El año   1982   ⇒   t   = 17   ⇒   S (17) = 33758   socios .   (0.5 puntos)
+b) Extremo relativo si   S
+′
+( t ) = 0   ⇒   S
+′
+( t ) =   − 3 t
+2  
++ 34 t   + 1984 = 0   ⇒   t   = 32   y   t   =   −  
+62
+3  
+.   El valor   t   =   −  
+62
+3  
+no tiene sentido
+por lo que se descarta.
+
+S
+′′
+( t ) =   − 6 t   + 34   ⇒   S
+′′
+(32) =   − 158   <   0   ⇒   t   = 32   es un máximo relativo.
+Se evalúan los extremos y se tiene que   S (0) = 30   y   S (53) = 4058 .
+
+El máximo se alcanza a los   32   años, en   1997 ,   con   S (32) = 48158   socios y el mínimo el año de la fundación,   1965 ,   con
+
+S (0) = 30   socios.
+(Saber las condiciones 0.25 puntos. Cálculo correcto del máximo 0.5 puntos. Valores máximo y mínimo de socios 0.75
+puntos)
+

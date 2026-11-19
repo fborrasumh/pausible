@@ -1,0 +1,944 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2324/EXTRAORDINARIA/Tecnologia.ashx]
+Evaluación para el acceso a la Universidad
+
+Curso 2023/2024
+Materia: Tecnología e Ingeniería II
+
+Página   1   de   8
+
+INSTRUCCIONES:
+
+‐   Debes   elegir 4 de los 5 ejercicios   propuestos y   resolver solo una de las opciones (a o b) .
+
+‐   Si realizas ejercicios u opciones de más,   se corregirán solo las primeras   que aparezcan resueltas.
+
+‐   Debes redactar los ejercicios con claridad, detalladamente y razonando las respuestas.
+
+‐   Se penalizará los errores o ausencia de unidades.
+
+‐   La duración máxima de la prueba será   1 hora y 30 minutos .
+
+‐   Solo podrás utilizar   calculadores permitidas (Tipo 1 o 2) .
+
+Criterios de corrección
+
+‐   En aquellos apartados en los que los resultados dependan del anterior, se valorará como válidos si el
+planteamiento fuese correcto pero el resultado no, siempre que se deba a un error derivado del primer apartado.
+
+‐   En las soluciones numéricas se debe especificar la unidad, en caso de ser necesario, manteniéndose las
+unidades usadas en el enunciado, salvo que se pida otra explícitamente, como las del Sistema Internacional. Los
+errores en las unidades se contabilizan globalmente en el examen, teniendo en cuenta tanto la unidad como el
+prefijo (de pico hasta Tera). La siguiente tabla muestra la penalización en la puntuación en función de los errores
+cometidos:
+
+Errores   1   2   3   4   5   6 o más
+
+Puntuación   0   0.25   0.25   0.5   0.5   0.75
+
+‐   En la valoración de los ejercicios se tendrá en cuenta los criterios generales:
+
+a.   El planteamiento, desarrollo y la corrección en las operaciones.
+
+b.   La interpretación de los resultados cuando sea necesario.
+
+c.   Pensamiento crítico en la resolución de los ejercicios y cuestiones.
+
+d.   Los errores conceptuales y los errores operativos.
+
+e.   La claridad en la exposición, las explicaciones adicionales y la presentación y calidad del ejercicio.
+
+Ejercicio 1
+
+Opción a. (2,5 puntos)   Se tiene una pieza de plomo con una dureza de Brinell   23 HB 5 100 15 :
+
+a.   (1 punto)   ¿Cuál es la profundidad de la huella que dejó el ensayo?
+
+b.   (1 punto)   Se quiere realizar un nuevo ensayo con la misma pieza durante   20 s   que deje una
+profundidad de huella   0,5 mm   ¿Cuánto debería valer la carga que hay que aplicar?
+
+c.   (0,5 puntos)   ¿Cuál sería la expresión de dureza normalizada a partir del nuevo ensayo?
+
+Solución 1.a:
+
+Datos:
+
+𝐻𝐻𝐻𝐻
+
+= 23 kp/mm
+2
+
+𝐹𝐹
+𝑖𝑖  
+= 100 kp
+
+𝐷𝐷   = 5 mm
+
+𝑡𝑡
+𝑖𝑖  
+= 15 s
+
+𝑡𝑡   = 20 s
+
+𝑓𝑓   = 0.5 mm
+
+a.   Partiendo de la ecuación de la dureza de Brinell, la profundidad de la huella será:
+
+𝐻𝐻𝐻𝐻   =  
+𝐹𝐹
+𝑖𝑖
+𝑠𝑠  
+=  
+𝐹𝐹
+𝑖𝑖
+𝜋𝜋   ·   𝐷𝐷   ·   𝑓𝑓  
+→   𝒇𝒇   =  
+𝐹𝐹
+𝑖𝑖
+𝜋𝜋   ·   𝐷𝐷   ·   𝐻𝐻𝐻𝐻  
+=  
+100
+
+𝜋𝜋   · 5 · 23  
+=   𝟎𝟎 ,   𝟐𝟐𝟐𝟐   𝐦𝐦𝐦𝐦   (1 punto)
+
+b.   Partiendo de la ecuación de la dureza de Brinell, la carga a aplicar sería:
+
+𝐻𝐻𝐻𝐻   =  
+𝐹𝐹
+𝑠𝑠  
+=  
+𝐹𝐹
+𝜋𝜋   ·   𝐷𝐷   ·   𝑓𝑓  
+→
+
+→ 𝑭𝑭   =   𝐻𝐻𝐻𝐻   ·   𝜋𝜋   ·   𝐷𝐷   ·   𝑓𝑓   = 23 ·   𝜋𝜋   · 5 · 0,5 =   𝟏𝟏 𝟐𝟐𝟎𝟎 ,   𝟔𝟔𝟔𝟔   𝐤𝐤𝐤𝐤
+
+(1 punto)
+
+c.   En este caso, habría cambiado la carga y el tiempo de aplicación, por lo que la
+nueva expresión queda:
+
+𝟐𝟐𝟐𝟐   𝐇𝐇𝐇𝐇   𝟓𝟓   𝟏𝟏 𝟐𝟐 𝟏𝟏   𝟐𝟐 𝟎𝟎   (0,5 puntos)
+
+Evaluación para el acceso a la Universidad
+
+Curso 2023/2024
+Materia: Tecnología e Ingeniería II
+
+Página   2   de   8
+
+Opción b. (2,5 puntos)   Se quiere medir la resiliencia de un material bajo un ensayo de Charpy. Para ello
+se usa una probeta de área resistente de   10 mm   de lado sobre la que se lanza un péndulo de   20 kg   de
+masa desde una altura de   1 m . Tras el impacto el péndulo alcanza una altura de   300 mm . Calcule:
+
+a.   (1,25 puntos)   La energía que se ha empleado en partir la probeta expresado en   J .
+
+b.   (1,25 puntos)   La resiliencia del material expresada en   J/cm
+2
+.
+
+Solución 1.b:
+
+Datos:
+
+𝑙𝑙   = 10 mm = 1 cm
+
+𝑚𝑚   = 20 kg
+
+ℎ 0   = 1 m
+
+ℎ
+1  
+= 300 mm = 0,3 m
+
+a.   La   energía absorbida por la probeta será la diferencia entre la energía
+
+potencial en las dos posiciones del martillo:
+
+𝑬𝑬   =   𝑚𝑚   ·   𝑔𝑔   ·   𝛥𝛥 ℎ   =   𝑚𝑚   ·   𝑔𝑔   · ( ℎ 0   −   ℎ 1
+) =
+=   20   kg ·   9,8  
+m
+s
+2  
+· ( 1   −   0,3 ) m =   𝟏𝟏 𝟐𝟐 𝟏𝟏 ,   𝟐𝟐   𝐉𝐉  
+(1,25 puntos)
+
+b.   La resiliencia es:
+
+𝑆𝑆   = 10 𝑥𝑥 (10 mm   −   2 mm) = 80 mm
+2  
+= 0,8 cm
+2  
+(0,25 puntos)
+
+𝝆𝝆   =  
+𝐸𝐸
+𝑆𝑆  
+= 
+137,2 J
+0,8 cm
+2  
+=   𝟏𝟏𝟏𝟏𝟏𝟏 ,   𝟓𝟓  
+𝐉𝐉
+𝐜𝐜 𝐦𝐦
+𝟐𝟐  
+(1 punto)
+
+Ejercicio 2
+
+Opción a. (2,5 puntos)   El rendimiento de una máquina térmica es una tercera parte del ciclo de Carnot
+funcionando entre las temperaturas de   230
+𝑜𝑜
+C   y   10
+𝑜𝑜
+C . Si el calor obtenido del foco caliente es de   2500 J ,
+determine:
+
+a.   (0,75 puntos)   El rendimiento real de la máquina.
+
+b.   (1 punto)   El calor cedido al foco frío y el trabajo realizado.
+
+c.   (0,75 puntos)   La temperatura del foco caliente si queremos conseguir un rendimiento del ciclo de
+Carnot del   58% .
+
+Solución 2.a:
+
+Datos:
+
+Máquina térmica
+
+𝜂𝜂 𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟   = 0,3   𝜂𝜂 𝑖𝑖𝑖𝑖 𝑟𝑟𝑟𝑟𝑟𝑟
+
+𝑇𝑇
+1  
+= 230
+𝑜𝑜
+C
+= 503 K
+
+𝑇𝑇 2   = 10
+𝑜𝑜
+C = 283 K
+
+𝑄𝑄 1   = 2500 J
+
+a.   Sabiendo que el rendimiento ideal es:
+
+𝜂𝜂 𝑖𝑖𝑖𝑖 𝑟𝑟𝑟𝑟𝑟𝑟   =  
+𝑇𝑇 1   − 𝑇𝑇 2
+𝑇𝑇 1
+
+= 
+503   −   283
+503  
+= 0,44   (0,25 puntos)
+
+El rendimiento real de la máquina es:
+
+𝜼𝜼 𝒓𝒓𝒓𝒓𝒓𝒓𝒓𝒓   =   𝜂𝜂 𝑖𝑖𝑖𝑖 𝑟𝑟𝑟𝑟𝑟𝑟   · 0,3 = 0,44 · 0,3 =   𝟎𝟎 ,   𝟏𝟏 𝟐𝟐𝟐𝟐   (0,5 puntos)
+
+b.   El calor cedido ( 𝑄𝑄 2 ) y el trabajo ( 𝑊𝑊 ) son:
+
+𝑸𝑸
+𝟐𝟐  
+=   ( 1   − 𝜂𝜂
+𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟
+)   ·   𝑄𝑄
+1  
+=   ( 1   −   0.132 )   · 2500 J =
+
+= 2170 J =   𝟓𝟓 𝟐𝟐𝟎𝟎 ,   𝟐𝟐   𝐜𝐜𝐜𝐜𝐜𝐜  
+(0,5 puntos)
+
+𝑾𝑾   =   𝑄𝑄
+1  
+−   𝑄𝑄
+2  
+= 2500 J   −   2170 J =   𝟐𝟐𝟐𝟐𝟎𝟎   𝐉𝐉   (0,5 puntos)
+
+c.   Si queremos un rendimiento del   58% , la temperatura del foco caliente ( 𝑇𝑇 1 ) debe
+ser:
+
+𝑻𝑻
+𝟏𝟏  
+=  
+𝑇𝑇 2
+
+1   − 𝜂𝜂 𝐶𝐶 𝑟𝑟𝑟𝑟 𝐶𝐶 𝑜𝑜 𝐶𝐶
+
+=  
+283
+1   −   0,58 
+=   𝟔𝟔 𝟏𝟏𝟐𝟐 ,   𝟐𝟐   𝐊𝐊   (0,75 puntos)
+
+10 mm
+10 mm  
+2 mm
+
+Evaluación para el acceso a la Universidad
+
+Curso 2023/2024
+Materia: Tecnología e Ingeniería II
+
+Página   3   de   8
+
+Opción b. (2,5 puntos)   Un cajón congelador que consume   250 W   mantiene una temperatura interior de
+
+− 8
+𝑜𝑜
+C   mientras que en el exterior hay una temperatura de   21
+𝑜𝑜
+C . Calcula:
+
+a.   (1 punto)   La eficiencia del cajón congelador si su funcionamiento es según un ciclo de Carnot.
+
+b.   (1,5 puntos)   El calor cedido y el absorbido por el congelador en   24 h   sabiendo que la eficiencia real
+del cajón es la mitad de la de Carnot.
+
+Solución 2.b:
+
+Datos:
+
+Máquina frigorífica
+
+𝑃𝑃   = 250 W
+
+𝑇𝑇 1   = 21
+𝑜𝑜
+C = 294 K
+
+𝑇𝑇 2   =   − 8
+𝑜𝑜
+C = 265 K
+
+a)   ¿   𝜀𝜀 𝑖𝑖𝑖𝑖 𝑟𝑟𝑟𝑟𝑟𝑟 ?
+
+b)   ¿   𝑄𝑄 1   𝑦𝑦   𝑄𝑄 2 ?
+
+𝑡𝑡   = 24 h
+
+𝜀𝜀
+𝑖𝑖𝑖𝑖 𝑟𝑟𝑟𝑟𝑟𝑟  
+= 2   𝜀𝜀
+𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟
+
+a.   La eficiencia ideal ( 𝜀𝜀 𝑖𝑖𝑖𝑖 𝑟𝑟𝑟𝑟𝑟𝑟 ) es:
+
+𝜺𝜺 𝒊𝒊𝒊𝒊 𝒓𝒓𝒓𝒓𝒓𝒓   =  
+𝑇𝑇
+2
+
+𝑇𝑇 1   −   𝑇𝑇 2
+
+=  
+265
+294   −   265  
+=   𝟗𝟗 ,   𝟏𝟏 𝟔𝟔   (1 punto)
+
+b.   El calor cedido y el absorbido por el congelador en   24 h   es:
+
+𝜀𝜀 𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟   =  
+𝜀𝜀
+𝑖𝑖𝑖𝑖 𝑟𝑟𝑟𝑟𝑟𝑟
+
+2  
+= 
+9,14
+2  
+= 4,57   (0,25 puntos)
+
+𝑊𝑊
+𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟  
+=   𝑃𝑃   ·   𝑡𝑡   = 250 W · 24 h · 3600 
+s
+h  
+= 21600 KW · s = 21600 KJ   (0,25 puntos)
+
+𝑸𝑸 𝟐𝟐   =   𝑊𝑊 𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟   ·   𝜀𝜀 𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟   = 21600 KJ · 4,57 =   𝟗𝟗 𝟐𝟐𝟏𝟏𝟏𝟏𝟐𝟐   𝐊𝐊 𝐉𝐉   (0,5 puntos)
+
+𝑸𝑸 𝟏𝟏   =   𝑊𝑊 𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟   +   𝑄𝑄 2   = 21600 KJ + 98712 KJ =   𝟏𝟏 𝟐𝟐𝟎𝟎𝟐𝟐 𝟏𝟏 𝟐𝟐   𝐊𝐊 𝐉𝐉   (0,5 puntos)
+
+Ejercicio 3
+
+Opción a. (2,5 puntos)   Obtenga la Función de Transferencia del diagrama de   bloques de la figura:
+
+Solución 3.a:
+
+Sumando   𝑃𝑃
+1  
+y   𝑃𝑃
+2
+:
+
+𝑀𝑀 1   =   𝑃𝑃 1   +   𝑃𝑃 2   (0,75 punto)
+
+Y realimentando   𝑀𝑀 1   y   𝑃𝑃 3 :
+
+𝑴𝑴   =  
+𝑌𝑌
+𝑋𝑋  
+=  
+𝑃𝑃
+1  
++   𝑃𝑃
+2
+
+1 + ( 𝑃𝑃 1   +   𝑃𝑃 2 ) 𝑃𝑃 3
+
+=  
+𝑷𝑷
+𝟏𝟏  
++   𝑷𝑷
+𝟐𝟐
+𝟏𝟏   +   𝑷𝑷 𝟏𝟏   𝑷𝑷 𝟐𝟐   +   𝑷𝑷 𝟐𝟐   𝑷𝑷 𝟐𝟐
+
+(1,75 punto)
+
+Opción b. (2,5 puntos)   Un sistema de control está representado con la siguiente función de transferencia:
+
+𝐹𝐹 ( 𝑠𝑠 ) =  
+1
+
+𝑠𝑠   +   𝑘𝑘
+
+Donde   𝑘𝑘   es una variable que puede tomar cualquier valor. Analizando los polos, determina para que valores
+de   𝑘𝑘   el sistema es estable. Razone la respuesta.
+
+Solución 3.b:
+
+El sistema tiene un polo que se encuentra situado en:
+
+𝑝𝑝   =   −𝑘𝑘
+
+Puesto que la estabilidad del sistema depende de la posición de los polos en el semiplano real, siendo
+estable cuando están en la parte negativa, significa que:
+
+−𝑘𝑘   < 0   → 𝒌𝒌   >   𝟎𝟎
+
+El sistema será establa siempre y cuando   𝑘𝑘   >   0 .
+
+P2
+
+P1
+
+P3
+
+X   Y
+
+Evaluación para el acceso a la Universidad
+
+Curso 2023/2024
+Materia: Tecnología e Ingeniería II
+
+Página   4   de   8
+
+Ejercicio 4
+
+Opción a. (2,5 puntos)   Partiendo de la expresión lógica:
+
+𝑆𝑆   = ( 𝐴𝐴   +   𝐻𝐻 ) · ( 𝐴𝐴̅   +   𝐶𝐶 )
+
+Obtener:
+
+a.   (1 punto)   La tabla de verdad que representa la función lógica.
+
+b.   (1,5 puntos)   El circuito implementado únicamente con puertas NOR.
+
+Solución 4.a:
+
+a.   La tabla de verdad que
+representa la función
+lógica es:
+
+A   B   C   D
+
+0   0   0   0
+
+0   0   1   0
+
+0   1   0   1
+
+0   1   1   1
+
+1   0   0   0
+
+1   0   1   1
+
+1
+
+1
+
+1
+
+1
+
+0
+
+1
+
+0
+
+1
+
+(1 punto)
+
+b.   El circuito implementado con puertas NOR es:
+
+𝑆𝑆   =   ( 𝐴𝐴   +   𝐻𝐻 )   ·   �𝐴𝐴   +   𝐶𝐶�   =   ( 𝐴𝐴   +   𝐻𝐻 )   ·   �𝐴𝐴   +   𝐶𝐶�   =
+=   � ( 𝐴𝐴   +   𝐻𝐻 )   +   �𝐴𝐴   +   𝐶𝐶� �
+
+(0,5 puntos)
+
+Circuito:
+
+‐   Implementado con puertas NOR.   (1 punto)
+
+‐   Implementado con cualquier tipo de puerta lógica.   (0,5 puntos)
+
+Opción b. (2,5 puntos)   Diseña un circuito con puertas lógicas formado por cuatro sensores (A, B, C y D)
+
+y una salida (S) que sigue el siguiente funcionamiento:
+
+1.   Siempre que A y B están desactivados a la vez, la salida también lo está.
+
+2.   Si A y D están activados, pero B no, la salida estará activada.
+
+3.   Si B está activado la salida también lo estará, siempre y cuando no coincidan activados C y D.
+
+Obtener:
+
+a.   (1 punto)   La tabla de verdad.
+
+b.   (0,75 puntos)   El mapa de Karnaugh y función reducida.
+
+c.   (0,75 puntos)   El diagrama con puertas lógicas.
+
+A
+
+B
+
+C
+
+S
+
+Evaluación para el acceso a la Universidad
+
+Curso 2023/2024
+Materia: Tecnología e Ingeniería II
+
+Página   5   de   8
+
+Solución 4.b:
+
+a.   La tabla de verdad es:
+
+A   B   C   D   S
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+0
+
+0
+
+1
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+(1 punto)
+
+b.   Partiendo de la tabla de verdad del apartado anterior se obtiene el
+siguiente mapa de Karnaugh
+
+CD \ AB   00   01   11   10
+
+00   0   1   1   0
+
+01   0   1   1   1
+
+11   0   0   0   1
+
+10   0   1   1   0
+
+Quedando la función reducida:
+
+𝑆𝑆   =   𝐴𝐴 𝐻𝐻 �𝐷𝐷   +   𝐻𝐻 𝐶𝐶̅   +   𝐻𝐻 𝐷𝐷 �
+
+Mapa de Karnaugh   (0,25 puntos)
+
+Función:
+
+‐   Simplificada al máximo.   (0,5 puntos)
+
+‐   Que cumpla con la función lógica del circuito pero que no esté
+simplificada al máximo.  
+(0,25 puntos)
+
+Las funciones simplificadas obtenidas mediante algebra de Boole también serán
+consideradas ( Hasta 0,5 puntos ).
+
+c.   El diagrama con puertas lógicas es:
+
+Los circuitos obtenidos de forma correcta a partir de la función del
+apartado   (b),   aunque   la   función   sea   incorrecta   o   no   esté
+simplificada al máximo, serán considerados correctos.
+
+(0,75 puntos)
+
+A
+
+B
+
+C
+
+S
+
+D
+
+Evaluación para el acceso a la Universidad
+
+Curso 2023/2024
+Materia: Tecnología e Ingeniería II
+
+Página   6   de   8
+
+Ejercicio   5
+
+Opción a. (2,5 puntos)   Se tiene la viga en voladizo de la figura con una carga puntual   𝐹𝐹 .
+
+Se pide:
+
+a.   (1 punto)   Calcular las reacciones en el empotramiento.
+
+b.   (1,5 puntos)   Calcular y representar los diagramas del momento flector y esfuerzo cortante.
+
+Solución 5.a:
+
+a.   Atendiendo al siguiente dibujo:
+
+Las reacciones son:
+
+� 𝐹𝐹 𝑥𝑥   = 0
+
+� 𝐹𝐹 𝑦𝑦   =   𝐹𝐹 𝐴𝐴 𝑦𝑦   − 𝐹𝐹   = 0   → 𝑭𝑭   𝑨𝑨𝑨𝑨   =   𝐹𝐹   =   𝟏𝟏 𝟎𝟎   𝐤𝐤𝐤𝐤   (0,5 puntos)
+
+� 𝑀𝑀 𝐴𝐴   =   −𝑀𝑀 𝐴𝐴   +   𝐹𝐹   ·   𝑑𝑑 1   → 𝑴𝑴 𝑨𝑨   =   𝐹𝐹   ·   𝑑𝑑 1   = 10 · 5 =   𝟓𝟓 𝟎𝟎   𝐤𝐤𝐤𝐤 𝐦𝐦   (0,5 puntos)
+
+b.   Analizando los dos tramos que hay en la viga:
+
+1)   0   ≤ 𝑥𝑥 ≤ 𝑑𝑑 1 :
+
+� 𝐹𝐹 𝑦𝑦   =   𝐹𝐹 𝐴𝐴 𝑦𝑦   − 𝑉𝑉 1   = 0   → 𝑽𝑽   𝟏𝟏   =   𝐹𝐹 𝐴𝐴 𝑦𝑦   =   𝟏𝟏 𝟎𝟎   𝐤𝐤𝐤𝐤   (0,25 puntos)
+
+� 𝑀𝑀   =   𝐹𝐹
+𝐴𝐴 𝑦𝑦  
+·   𝑥𝑥 − 𝑀𝑀
+1  
+− 𝑀𝑀
+𝐴𝐴  
+= 0   →   𝑴𝑴
+𝟏𝟏  
+=   𝐹𝐹
+𝐴𝐴 𝑦𝑦  
+·   𝑥𝑥 − 𝑀𝑀
+𝐴𝐴  
+=   𝟏𝟏 𝟎𝟎   ·   𝒙𝒙 − 𝟓𝟓 𝟎𝟎   𝐤𝐤𝐤𝐤 𝐦𝐦   (0,25 puntos)
+
+2)   𝑑𝑑 1   ≤ 𝑥𝑥 ≤ 𝑑𝑑 2 :
+
+� 𝐹𝐹 𝑦𝑦   =   𝐹𝐹 𝐴𝐴 𝑦𝑦   − 𝐹𝐹 − 𝑉𝑉 2   = 0   → 𝑽𝑽   𝟐𝟐   =   𝐹𝐹 𝐴𝐴 𝑦𝑦   − 𝐹𝐹   = 10   −   10 kN =   𝟎𝟎   𝐤𝐤𝐤𝐤   (0,25 puntos)
+
+� 𝑀𝑀   =   𝐹𝐹 𝐴𝐴 𝑦𝑦 𝑥𝑥 − 𝐹𝐹 ( 𝑥𝑥 − 𝑑𝑑 1 )   − 𝑀𝑀 𝐴𝐴   − 𝑀𝑀 2   = 0   → 𝑴𝑴 𝟐𝟐   =   𝐹𝐹 𝐴𝐴 𝑦𝑦   ·   𝑥𝑥 − 𝐹𝐹 ( 𝑥𝑥 − 𝑑𝑑 1 )   − 𝑀𝑀 𝐴𝐴   =   𝟎𝟎   𝐤𝐤𝐤𝐤 𝐦𝐦   (0,25 puntos)
+
+F   = 10 kN
+
+d 1   = 5 m 
+d 2   = 1 m
+
+F   = 10 kN
+
+d 1   = 5 m 
+d 2   = 1 m
+
+F Ay
+
+M A
+
+F Ax
+
+Evaluación para el acceso a la Universidad
+
+Curso 2023/2024
+Materia: Tecnología e Ingeniería II
+
+Página   7   de   8
+
+Representación diagramas:
+
+‐   Flector.   (0,25 puntos)
+
+‐   Cortante.   (0,25 puntos)
+
+Los diagramas obtenidos de forma correcta a partir de las
+funciones   de   los   tramos,   aunque   las   funciones   sean
+incorrectas, serán considerados correctos. ( Hasta 0,5 puntos ).
+
+Opción b. (2,5 puntos)   Se tiene la viga simplemente apoyada de la figura con las cargas puntuales   𝐹𝐹 1   y
+
+𝐹𝐹 2 .
+
+Se pide:
+
+a.   (1 punto)   Calcular las reacciones en los apoyos.
+
+b.   (0,75 puntos)   Enumere los tipos de esfuerzos a los que puede estar sometido una estructura.
+
+c.   (0,75 puntos)   De los tipos de esfuerzo, nombre y defina los que se dan en la viga de la imagen.
+
+Solución 5.b:
+
+a.   Atendiendo al siguiente dibujo:
+
+F 1 = 10 kN
+
+d 1   = 2 m 
+d 3   = 2 m
+
+F 2   = 10 kN
+
+d 2   = 4 m
+
+F Ay   F By
+
+M B M A
+
+F Ax
+
+F 1 = 10 kN 
+F 2   = 10 kN
+
+d 1   = 2 m 
+d 3   = 2 m 
+d 2   = 4 m
+
+F   = 10 kN
+
+V M
+
+x
+
+V
+
+M
+
+F Ay
+
+10 kN
+
+- 50 kNm
+
+2
+
+M A
+
+0
+
+0
+
+x
+
+x
+
+1
+
+x 1   x 2
+
+Evaluación para el acceso a la Universidad
+
+Curso 2023/2024
+Materia: Tecnología e Ingeniería II
+
+Página   8   de   8
+
+Las reacciones son:
+
+� 𝐹𝐹 𝑥𝑥   = 0
+
+� 𝑀𝑀 𝐴𝐴   =   𝐹𝐹 1   ·   𝑑𝑑 1   +   𝐹𝐹 2
+( 𝑑𝑑 1   +   𝑑𝑑 2
+)   − 𝐹𝐹 𝐵𝐵 𝑦𝑦   · ( 𝑑𝑑 1   +   𝑑𝑑 2   +   𝑑𝑑 3
+)   →
+
+→ 𝑭𝑭   𝑩𝑩 𝑨𝑨   =  
+𝐹𝐹 1   ·   𝑑𝑑 1   +   𝐹𝐹 2 ( 𝑑𝑑 1   +   𝑑𝑑 2 )
+
+𝑑𝑑 1   +   𝑑𝑑 2   +   𝑑𝑑 3
+
+= 
+10 · 2 + 10 · (2 + 4)
+2 + 4 + 2  
+=   𝟏𝟏 𝟎𝟎   𝐤𝐤𝐤𝐤
+
+(0,5 puntos)
+
+� 𝐹𝐹 𝑦𝑦   =   𝐹𝐹 𝐴𝐴 𝑦𝑦   +   𝐹𝐹 𝐵𝐵 𝑦𝑦   − 𝐹𝐹 1   − 𝐹𝐹 2   = 0   → 𝑭𝑭   𝑨𝑨𝑨𝑨   =   𝐹𝐹 1   +   𝐹𝐹 2   − 𝐹𝐹 𝐵𝐵 𝑦𝑦   = 10 + 10   −   10 =   𝟏𝟏 𝟎𝟎   𝐤𝐤𝐤𝐤   (0,5 puntos)
+
+b.   Los esfuerzos a los que puede estar sometida una estructura son: tracción, compresión; flexión;
+torsión; y cortante.   (0,75 puntos)
+
+c.   De los cinco tipos vistos, la viga sufre:
+
+   Flexión   (0,25 puntos)   :   es un tipo de esfuerzo que ocurre cuando se aplica una carga que tiende a
+doblar una estructura sobre sí misma. Esto provoca tensiones de compresión en un lado y
+tensiones de tracción en el lado opuesto de la sección transversal de la estructura.   (0,5 puntos)
+
