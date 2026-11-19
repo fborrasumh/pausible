@@ -1,0 +1,218 @@
+{
+ "ccaa": "castillalamancha",
+ "materia": "geologia",
+ "titulo": "Prueba de acceso a la Universidad 2027 — Geología y Ciencias Ambientales — Castilla-La Mancha",
+ "duracion_min": 90,
+ "instrucciones": "La prueba consta de cinco bloques y suma 10 puntos. Bloque I: preguntas 1 y 2, obligatorias (2 puntos). Bloque II: pregunta 3 obligatoria y se elegirá una de las preguntas 4 o 5 (2 puntos). Bloque III: pregunta 6 obligatoria y se elegirá una de las preguntas 7 u 8 (2 puntos). Bloque IV: pregunta 9 obligatoria y se elegirá una de las preguntas 10 u 11 (2 puntos). Bloque V: se elegirán dos preguntas entre la 12 y la 15 (2 puntos). Cada pregunta vale 1 punto. Se corregirán únicamente las respuestas solicitadas y, si se contestan varias opciones, las primeras por orden numérico. Identifique cada respuesta por su bloque y número. Los esquemas y datos necesarios se describen en los enunciados; justifique brevemente las respuestas cuando se solicite.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Bloque I. En el perfil de una obra viaria se ha correlacionado el mismo estrato a ambos lados de una falla: aparece a 420 m de altitud en el bloque occidental y a 390 m en el oriental. El plano de falla buza hacia el este y el bloque oriental es el bloque de techo. Calcula el salto vertical del estrato e identifica el tipo de falla.",
+   "solucion": "1. **Diferencia de altitud:** el estrato aparece a $420\\,\\text{m}$ en el bloque occidental y a $390\\,\\text{m}$ en el oriental. El salto vertical es $|420-390|=30\\,\\text{m}$.\n2. **Tipo de falla:** como el plano buza hacia el este, el bloque oriental es el bloque de techo. Este se encuentra más bajo que el bloque occidental, por lo que ha descendido respecto a él. Se trata de una **falla normal**.",
+   "resultado": "Salto vertical: 30 m; falla normal.",
+   "criterios": "1 punto en total: 0,5 puntos por calcular correctamente el salto vertical (|420 − 390| = 30 m); 0,5 puntos por identificarla como falla normal y justificar que el bloque de techo, el oriental, está descendido.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "procesos",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Bloque I. En otro tramo del mismo perfil, una serie de calizas plegadas y basculadas 35° está truncada por una superficie erosiva. Sobre ella se dispone un conglomerado basal cuyos estratos son horizontales. Indica el tipo de discontinuidad entre ambas unidades.",
+   "solucion": "1. Las calizas se depositaron primero y después fueron plegadas y basculadas, quedando inclinadas $35°$.\n2. La erosión truncó esos estratos inclinados.\n3. Sobre la superficie erosiva se depositó el conglomerado basal con estratos horizontales.\n4. Como las capas de ambas unidades presentan orientaciones diferentes y están separadas por una superficie erosiva, la discontinuidad es una **discordancia angular erosiva**. Comprobación: no es una disconformidad, porque las capas no son paralelas a ambos lados de la superficie.",
+   "resultado": "Discordancia angular erosiva.",
+   "criterios": "1,0 punto: 0,7 por identificar correctamente la discordancia angular erosiva y 0,3 por justificarla mediante el truncamiento erosivo de estratos inclinados bajo estratos horizontales.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Bloque II, apartado A. Una red de vigilancia registra un terremoto de magnitud 8,2 bajo una zona oceánica de subducción. El mecanismo focal indica compresión y el fondo marino se eleva aproximadamente 1,5 m en una extensa franja. Identifica el peligro geológico secundario que podría alcanzar la costa y explica qué dato del caso permite preverlo.",
+   "solucion": "1. **Identificación:** el peligro geológico secundario es un **tsunami** (maremoto), que podría propagarse hasta la costa.\n2. **Dato que permite preverlo:** el fondo marino se ha elevado aproximadamente **1,5 m a lo largo de una extensa franja**. Esa deformación vertical desplaza la columna de agua situada encima y puede generar ondas que se propagan por el océano.\n3. **Comprobación:** el origen submarino y el mecanismo compresivo de una zona de subducción son compatibles con una deformación vertical del fondo. El dato decisivo para prever la generación del tsunami es, en particular, la elevación extensa del fondo marino; la magnitud elevada por sí sola no basta para determinarla.\n4. No procede aplicar un método numérico alternativo: la pregunta requiere identificar el peligro y justificar el mecanismo.",
+   "resultado": "Tsunami generado por el desplazamiento vertical extenso del fondo marino, que desplaza la columna de agua.",
+   "criterios": "Total: 1 punto. 0,3 puntos por identificar el tsunami; 0,4 puntos por señalar la elevación vertical extensa del fondo marino como dato relevante; 0,3 puntos por explicar que esa deformación desplaza la columna de agua y puede originar ondas que alcancen la costa.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Bloque II, apartado B. Para estimar el tiempo disponible entre las llegadas de las ondas sísmicas a una estación, considera una distancia de 84 km al epicentro, una velocidad de las ondas P de 6 km/s y una velocidad de las ondas S de 3,5 km/s. Suponiendo que recorren la misma distancia, calcula cuántos segundos separan sus llegadas. Usa $\\Delta t = \\frac{d}{v_S}-\\frac{d}{v_P}$.",
+   "solucion": "Aplicamos la expresión indicada, suponiendo que ambas ondas recorren la misma distancia:\n\n$$\\Delta t=\\frac{d}{v_S}-\\frac{d}{v_P}$$\n\nSustituimos los datos, $d=84\\,\\text{km}$, $v_S=3{,}5\\,\\text{km/s}$ y $v_P=6\\,\\text{km/s}$:\n\n$$\\Delta t=\\frac{84\\,\\text{km}}{3{,}5\\,\\text{km/s}}-\\frac{84\\,\\text{km}}{6\\,\\text{km/s}}=24\\,\\text{s}-14\\,\\text{s}=10\\,\\text{s}$$\n\nPor tanto, las llegadas de las ondas están separadas por $10$ segundos.",
+   "resultado": "Las llegadas de las ondas P y S se separan 10 s.",
+   "criterios": "Total: 1 punto. 0,25 puntos por plantear correctamente la diferencia entre los tiempos de llegada usando la fórmula dada; 0,50 puntos por sustituir los datos y calcular correctamente los tiempos (24 s para las ondas S y 14 s para las ondas P); 0,25 puntos por expresar la diferencia final con unidades: 10 s.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Bloque II, apartado B. Un boletín asigna a un terremoto una magnitud de 6,1 Mw, mientras que en una localidad concreta se informa de una intensidad VII. Indica cuál de esos dos valores expresa el tamaño del terremoto en su foco y cuál describe los efectos observados en esa localidad.",
+   "solucion": "- La **magnitud $M_w = 6,1$** expresa el tamaño del terremoto en su foco; es una medida del sismo como fuente.\n- La **intensidad VII** describe los efectos y daños observados en la localidad indicada. Puede variar de un lugar a otro según factores como la distancia al foco y las condiciones del terreno y de las construcciones.",
+   "resultado": "$M_w = 6,1$: tamaño en el foco; intensidad VII: efectos observados en la localidad.",
+   "criterios": "1 punto: 0,5 por identificar correctamente la magnitud 6,1 como medida del tamaño del terremoto en el foco y 0,5 por identificar la intensidad VII como descripción de los efectos observados en la localidad.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "6",
+   "tema": "procesos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Bloque III, apartado A. En un mapa topográfico a escala 1:50 000, un tramo de río mide 4 cm entre los puntos A y B. La altitud es de 620 m en A y de 560 m en B. Calcula la pendiente media del tramo en porcentaje, usando $\\text{pendiente}=\\frac{\\Delta h}{L}\\times100$. Expresa el resultado con una cifra decimal como máximo.",
+   "solucion": "1. La distancia real entre A y B se obtiene aplicando la escala $1:50\\,000$:\n\n   $L=4\\ \\text{cm}\\times 50\\,000=200\\,000\\ \\text{cm}=2\\,000\\ \\text{m}$.\n\n2. La diferencia de altitud es $\\Delta h=|620-560|=60\\ \\text{m}$.\n\n3. Sustituyendo en la expresión de la pendiente:\n\n   $\\text{pendiente}=\\frac{60}{2\\,000}\\times 100=3\\%$.\n\nLa pendiente media del tramo es **3,0 %**.",
+   "resultado": "3,0 %",
+   "criterios": "1,0 punto en total: 0,25 por calcular correctamente la distancia real (2 000 m); 0,25 por obtener la diferencia de altitud (60 m); 0,40 por aplicar correctamente la fórmula y calcular el 3 %; 0,10 por expresar el resultado con unidades y con una cifra decimal como máximo.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "7",
+   "tema": "procesos",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Bloque III, apartado B. Tras una avenida torrencial, se observa al pie de un valle montañoso un depósito de sedimentos con forma de abanico. Los materiales más gruesos se acumulan cerca de la salida del valle y los más finos llegan más lejos, sobre la llanura. Identifica la forma de relieve y el proceso que la origina.",
+   "solucion": "La forma de relieve es un **abanico aluvial o cono de deyección**. Se origina cuando una corriente torrencial sale del valle montañoso y alcanza una llanura: al disminuir la pendiente y perder velocidad, reduce su capacidad de transporte y deposita los sedimentos. Los materiales gruesos quedan más cerca de la salida del valle, mientras que los finos son transportados más lejos.",
+   "resultado": "Abanico aluvial (cono de deyección), formado por la deposición de sedimentos de una corriente torrencial al perder velocidad al salir del valle.",
+   "criterios": "1 punto: 0,5 por identificar correctamente el abanico aluvial o cono de deyección; 0,5 por explicar su origen mediante la deposición torrencial al disminuir la velocidad al salir a la llanura, incluyendo la distribución de tamaños indicada.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "8",
+   "tema": "procesos",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Bloque III, apartado B. Después de varios días de lluvia, una carretera de montaña presenta una cicatriz de rotura curva y una masa de terreno desplazada que ha girado hacia atrás durante el movimiento. Clasifica el movimiento de ladera descrito.",
+   "solucion": "1. La cicatriz de rotura curva indica que la superficie de deslizamiento es cóncava y arqueada. 2. La masa desplazada ha girado hacia atrás durante el movimiento. 3. Estos rasgos caracterizan un **deslizamiento rotacional** (también llamado *slump* o deslizamiento de rotación).",
+   "resultado": "Deslizamiento rotacional (*slump*).",
+   "criterios": "1 punto: 0,5 por identificar el deslizamiento rotacional y 0,5 por justificarlo mediante la superficie curva y la rotación hacia atrás de la masa.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "9",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Bloque IV, apartado A. En una práctica de identificación de rocas, una muestra presenta cristales visibles y está formada aproximadamente por un 55 % de plagioclasa, un 35 % de piroxeno y un 10 % de olivino. Entre las opciones basalto, gabro, andesita y granito, identifica la roca.",
+   "solucion": "**Método de descarte:**\n\n1. Los cristales visibles indican una textura de grano grueso, típica de una roca ígnea plutónica, formada por enfriamiento lento en profundidad.\n2. La asociación mineral es máfica: predominan plagioclasa y piroxeno, y también hay olivino.\n3. El basalto tiene una composición similar, pero suele presentar cristales no visibles o muy pequeños por su enfriamiento rápido en superficie. La andesita es de composición intermedia y el granito es félsico, por lo que no corresponden a la asociación descrita.\n4. La roca plutónica de composición máfica entre las opciones es el **gabro**.\n\n**Comprobación:** el gabro es la equivalente plutónica de grano grueso del basalto; su textura y mineralogía concuerdan con los datos.",
+   "resultado": "La roca es gabro.",
+   "criterios": "1 punto: 0,3 por relacionar los cristales visibles con una textura de grano grueso y enfriamiento lento; 0,3 por reconocer la composición máfica a partir de los minerales indicados; 0,4 por identificar el gabro y distinguirlo del basalto por la textura.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "10",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Bloque IV, apartado B. En una salida de campo, un mineral de dureza aproximada 3 presenta exfoliación romboédrica y produce efervescencia intensa al añadirle unas gotas de ácido clorhídrico diluido. Identifica el mineral.",
+   "solucion": "### Identificación por convergencia de indicios\n\n1. La dureza aproximada de $3$ es compatible con la calcita.\n2. La exfoliación romboédrica también coincide con la calcita.\n3. La efervescencia intensa con HCl diluido indica liberación de $\\mathrm{CO_2}$ al reaccionar un carbonato. En la calcita, la reacción es:\n\n   $$\\mathrm{CaCO_3 + 2HCl \\rightarrow CaCl_2 + CO_2\\uparrow + H_2O}$$\n\n**Comprobación:** los tres indicios concuerdan con la calcita. La efervescencia intensa favorece esta identificación frente a la dolomita, que suele reaccionar débilmente con ácido diluido en muestra no pulverizada.",
+   "resultado": "El mineral es calcita ($\\mathrm{CaCO_3}$).",
+   "criterios": "1,0 punto: identificación correcta de calcita (0,4); uso de la dureza y la exfoliación romboédrica como indicios (0,3); interpretación de la efervescencia como reacción del carbonato con liberación de CO₂ y comprobación de la identificación (0,3).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "11",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Bloque IV, apartado B. En una excavación se observa una estrecha aureola de rocas transformadas alrededor de una intrusión granítica. La transformación se debe al aumento de temperatura y no se aprecian indicios de presión dirigida intensa. Indica el tipo de metamorfismo.",
+   "solucion": "La transformación se produce por el calor de la intrusión granítica y queda limitada a una aureola estrecha alrededor de ella. Por tanto, es **metamorfismo de contacto o térmico**.",
+   "resultado": "Metamorfismo de contacto (térmico).",
+   "criterios": "1 punto: 0,5 por identificar el metamorfismo de contacto (o térmico) y 0,5 por relacionarlo con el calentamiento local causado por la intrusión. Se acepta cualquiera de las dos denominaciones si es correcta.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "12",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Bloque V. Un municipio estima que su acuífero recibe una recarga natural de 1,8 hm³ al año y que las captaciones extraen 2,1 hm³ al año. Calcula el déficit anual de agua subterránea, definido como extracción menos recarga, e indica si el balance es sostenible. Usa $\\text{déficit}=\\text{extracción}-\\text{recarga}$.",
+   "solucion": "Aplicamos la definición indicada:\n\n$$\\text{déficit}=\\text{extracción}-\\text{recarga}=2{,}1-1{,}8=0{,}3\\ \\text{hm}^3/\\text{año}$$\n\nEl acuífero presenta un déficit anual de $0{,}3\\ \\text{hm}^3$. El balance no es sostenible, porque se extrae más agua de la que se repone mediante la recarga natural.",
+   "resultado": "Déficit: 0,3 hm³/año; balance no sostenible.",
+   "criterios": "1 punto: 0,5 por aplicar correctamente la operación extracción menos recarga y obtener 0,3 hm³/año; 0,5 por indicar que el balance no es sostenible, ya que la extracción supera la recarga.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "13",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Bloque V. Un municipio compara cuatro fuentes para producir electricidad: energía eólica, lignito, gas natural y uranio. Indica cuál es renovable.",
+   "solucion": "La fuente renovable es la **energía eólica**, porque utiliza el viento, un recurso que se repone de forma natural. El lignito y el gas natural son combustibles fósiles, y el uranio es un recurso mineral finito utilizado en la energía nuclear; por tanto, no se consideran renovables. Comprobación: de las cuatro opciones, solo la eólica procede de un recurso renovable.",
+   "resultado": "La energía eólica es renovable.",
+   "criterios": "1 punto: 1 punto por indicar correctamente que la energía eólica es la renovable. No se asigna puntuación si se elige otra fuente.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "14",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Bloque V. Tras el cierre de una mina, los residuos ricos en sulfuros quedan expuestos al agua y al aire y generan drenaje ácido. Entre estas actuaciones, elige la más adecuada para reducir el problema: a) triturar los residuos y dejarlos descubiertos; b) limitar el contacto de los residuos con el agua y el oxígeno, recoger las filtraciones y tratarlas; c) conducir las filtraciones directamente al arroyo.",
+   "solucion": "### Resolución paso a paso\n1. **Identificar el proceso:** al quedar los sulfuros en contacto con el agua y el oxígeno, se oxidan y pueden generar drenaje ácido, que además puede movilizar metales contaminantes.\n2. **Evaluar las medidas por los puntos de control:** la opción **b)** actúa tanto en la prevención —reduce el contacto con agua y oxígeno— como en la gestión del contaminante —recoge las filtraciones y las trata antes de su vertido—.\n3. **Descartar las alternativas:** triturar y dejar los residuos descubiertos aumenta su exposición; conducir las filtraciones directamente al arroyo traslada la contaminación al medio receptor sin tratarla.\n4. **Comprobación:** la opción elegida limita la generación del drenaje y evita que las filtraciones sin tratar lleguen al arroyo, por lo que es la más adecuada.\n\n**Respuesta: b)**",
+   "resultado": "b) Limitar el contacto de los residuos con el agua y el oxígeno, recoger las filtraciones y tratarlas.",
+   "criterios": "1 punto: 0,5 por seleccionar la opción b y 0,5 por justificar que reduce la generación del drenaje y que las filtraciones deben recogerse y tratarse. Se aceptará una justificación equivalente.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "15",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Bloque V. Una planta procesa 1 000 toneladas de mineral con una ley de cobre del 0,8 % y recupera el 80 % del cobre contenido. Calcula las toneladas de cobre obtenidas. Usa $\\text{cobre obtenido}=\\text{masa de mineral}\\times\\text{ley}\\times\\text{recuperación}$.",
+   "solucion": "1. Convertimos la ley de cobre a fracción: $0{,}8\\%=0{,}008$.\n2. Aplicamos la fórmula indicada, teniendo en cuenta que se recupera el $80\\%=0{,}80$ del cobre contenido:\n   $$\\text{cobre obtenido}=1000\\ \\text{t}\\times 0{,}008\\times 0{,}80=6{,}4\\ \\text{t}$$\nPor tanto, se obtienen $6{,}4$ toneladas de cobre.",
+   "resultado": "Se obtienen 6,4 toneladas de cobre.",
+   "criterios": "1 punto en total: conversión correcta de la ley a 0,008 y uso de la recuperación 0,80 (0,4 puntos); cálculo correcto de 1000 × 0,008 × 0,80 = 6,4 (0,4 puntos); expresión del resultado con unidades, toneladas de cobre (0,2 puntos).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "tectonica",
+   "p": 0.9
+  },
+  {
+   "id": "procesos",
+   "p": 0.9
+  },
+  {
+   "id": "minerales",
+   "p": 0.836
+  },
+  {
+   "id": "recursos",
+   "p": 0.275
+  }
+ ],
+ "referencias": [
+  "manual:manual/castillalamancha/2026/Geología y Ciencias Ambientales junio examen __Geologia-y-Ciencias-Ambientales.txt",
+  "manual:manual/castillalamancha/2026/Geología y Ciencias Ambientales julio examen __Geologia-y-Ciencias-Ambientales.txt",
+  "manual:manual/castillalamancha/2025/Geología y Ciencias Ambientales julio examen __GEOLOGIA-Y-CIENCIAS-AMBIENTALES.txt",
+  "manual:manual/castillalamancha/2025/Geología y Ciencias Ambientales junio examen __GEOLOGIA-Y-CIENCIAS-AMBIENTALES.txt",
+  "manual:manual/castillalamancha/2026/Geología y Ciencias Ambientales julio examen __Geologia-y-Ciencias-Ambientales.txt",
+  "manual:manual/castillalamancha/2026/Geología y Ciencias Ambientales junio examen __Geologia-y-Ciencias-Ambientales.txt"
+ ]
+}
