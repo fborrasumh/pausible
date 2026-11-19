@@ -1,0 +1,313 @@
+{
+ "ccaa": "castillalamancha",
+ "materia": "filosofia",
+ "titulo": "Prueba de acceso a la Universidad · Historia de la Filosofía · Castilla-La Mancha · Modelo original PAU 2027",
+ "duracion_min": 90,
+ "instrucciones": "PARTE 1. Responde a 8 de las 10 preguntas. Cada acierto vale 0,25 puntos; los errores no restan. Si contestas a más de 8, solo se corregirán las 8 primeras. Valor máximo: 2 puntos. PARTE 2. Responde a la cuestión de síntesis. Extensión orientativa: 3/4 de cara de un folio. Valor: 1 punto. PARTE 3. Elige la opción A o la opción B y responde a sus dos preguntas. Extensión orientativa: 3/4 de cara de un folio entre ambas respuestas. Cada pregunta vale 1,5 puntos; valor total: 3 puntos. PARTE 4. Elige el texto A o el texto B y responde a sus tres preguntas. Extensión orientativa: una cara de un folio. Valor total: 2,5 puntos. PARTE 5. Responde a la cuestión de síntesis aplicada. Extensión orientativa: 3/4 de cara de un folio. Valor: 1,5 puntos. No se penalizará que las respuestas superen la extensión orientativa. Ortografía, coherencia y cohesión: se restarán 0,25 puntos por cada tres faltas ortográficas, hasta un máximo de 1 punto.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "platon",
+   "puntos": 0.25,
+   "tipo": "abierta",
+   "enunciado": "En una clase de geometría, una alumna distingue el triángulo imperfecto dibujado en la pizarra de la forma universal que permite comprender qué es un triángulo. ¿Qué afirmaría Platón sobre esa forma universal? a) Que pertenece al ámbito inteligible y es más estable que los objetos sensibles. b) Que es solo una impresión subjetiva sin realidad propia. c) Que es un objeto material situado dentro de la pizarra.",
+   "solucion": "**Método de descarte y comprobación:** La pregunta contrapone la realidad sensible del dibujo con la realidad de la forma universal. La opción **b)** se descarta porque, para Platón, las Formas no son impresiones subjetivas: existen objetivamente. La opción **c)** también es incorrecta, pues la forma universal no es un objeto material situado en la pizarra. Por tanto, corresponde la **a)**: la Forma o Idea de triángulo pertenece al ámbito inteligible y es más estable que los triángulos sensibles, que son imperfectos y cambiantes. **Comprobación:** esta respuesta concuerda con la distinción platónica entre las Ideas, universales e inmutables, y las cosas sensibles, particulares e imperfectas.",
+   "resultado": "a) Pertenece al ámbito inteligible y es más estable que los objetos sensibles.",
+   "criterios": "0,25 puntos por seleccionar la opción a). 0 puntos por seleccionar b) o c), o por no responder. La justificación confirma el sentido de la opción, pero la puntuación indicada corresponde a la pregunta tipo test.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "marx",
+   "puntos": 0.25,
+   "tipo": "abierta",
+   "enunciado": "En una tienda, las relaciones sociales entre quienes producen y quienes compran parecen quedar ocultas y los productos se presentan como si tuvieran valor por sí mismos. ¿Qué concepto de Marx describe mejor este fenómeno? a) La reminiscencia. b) El fetichismo de la mercancía. c) La duda metódica.",
+   "solucion": "1. Identificamos el fenómeno: las relaciones sociales entre productores quedan ocultas y los productos parecen poseer valor por sí mismos.\n2. En Marx, esto se denomina **fetichismo de la mercancía**: las relaciones sociales de producción se presentan como propiedades o relaciones propias de las mercancías.\n3. Por tanto, la opción correcta es **b)**. La reminiscencia es un concepto platónico y la duda metódica se asocia a Descartes.",
+   "resultado": "b) El fetichismo de la mercancía.",
+   "criterios": "0,25 puntos por identificar correctamente el fetichismo de la mercancía. 0 puntos si se elige otra opción. La explicación puede servir para justificar la elección, pero no se exige para obtener la puntuación completa.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "kant",
+   "puntos": 0.25,
+   "tipo": "abierta",
+   "enunciado": "¿Cómo clasifica Kant los juicios que amplían nuestro conocimiento y, sin embargo, pueden conocerse con independencia de una experiencia particular, como los juicios matemáticos? a) Analíticos a posteriori. b) Sintéticos a priori. c) Sintéticos a posteriori exclusivamente.",
+   "solucion": "1. **Identificar qué aportan:** estos juicios amplían el conocimiento; por tanto, son **sintéticos**, no analíticos.\n2. **Identificar cómo se conocen:** pueden conocerse con independencia de una experiencia particular; por tanto, son **a priori**.\n3. **Combinar ambas características:** Kant los clasifica como **juicios sintéticos a priori**. Los juicios matemáticos son un ejemplo.\n\n**Comprobación por descarte:** la opción a) es incorrecta porque los juicios analíticos no amplían el conocimiento; la c) es incorrecta porque los juicios a posteriori dependen de la experiencia. Por tanto, la respuesta correcta es b).",
+   "resultado": "b) Sintéticos a priori.",
+   "criterios": "0,25 puntos: se concede la puntuación completa por elegir la opción b) y reconocer que combina el carácter sintético (amplía el conocimiento) con el carácter a priori (independiente de la experiencia particular). Sin puntuación si se elige a) o c).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "medieval",
+   "puntos": 0.25,
+   "tipo": "abierta",
+   "enunciado": "Según Agustín de Hipona, ¿qué hace posible que el ser humano alcance verdades necesarias e inmutables? a) La iluminación divina, que permite reconocerlas interiormente. b) La observación sensible por sí sola. c) La renuncia a toda búsqueda de la verdad.",
+   "solucion": "**Resolución por descarte:** la opción b) es incorrecta porque los sentidos, por sí solos, no proporcionan verdades necesarias e inmutables. La opción c) también es incorrecta: Agustín considera que la búsqueda de la verdad es posible y valiosa. Por tanto, la respuesta correcta es **a)**. Según Agustín, la iluminación divina permite al ser humano reconocer interiormente verdades necesarias e inmutables. **Comprobación:** esta explicación corresponde a la teoría agustiniana de la iluminación. **Puntuación:** 0,25/0,25 puntos.",
+   "resultado": "a) La iluminación divina, que permite reconocerlas interiormente.",
+   "criterios": "0,25 puntos por seleccionar la opción a). Se acepta la puntuación completa si identifica la iluminación divina como condición para reconocer interiormente las verdades necesarias e inmutables. Las opciones b) y c) no obtienen puntuación.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "nietzsche",
+   "puntos": 0.25,
+   "tipo": "abierta",
+   "enunciado": "Una investigación filosófica estudia cómo surgieron históricamente ciertos valores morales y a qué formas de vida favorecen. ¿Qué método de Nietzsche refleja mejor ese enfoque? a) La genealogía. b) La deducción geométrica. c) La demostración de las cinco vías.",
+   "solucion": "### Resolución por comparación de opciones\n1. La pregunta destaca dos aspectos: el **origen histórico** de los valores morales y las **formas de vida** a las que favorecen.\n2. La genealogía de Nietzsche investiga precisamente cómo se forman históricamente los valores y qué intereses o tipos de vida expresan.\n3. La deducción geométrica es un procedimiento demostrativo matemático, y las cinco vías son argumentos de Tomás de Aquino; ninguna corresponde al enfoque descrito.\n\n**Comprobación:** la opción que reúne ambos rasgos —origen histórico y relación con formas de vida— es la **a)**.",
+   "resultado": "a) La genealogía.",
+   "criterios": "0,25 puntos por marcar la opción a) o identificar inequívocamente la genealogía. Sin puntuación parcial.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "6",
+   "tema": "descartes",
+   "puntos": 0.25,
+   "tipo": "abierta",
+   "enunciado": "¿Qué hace que el cogito sea, para Descartes, una primera certeza que resiste incluso la hipótesis de que un engañador lo confunda? a) Que la existencia del acto de pensar no puede negarse mientras se está pensando. b) Que los sentidos nunca se equivocan. c) Que toda idea recibida por tradición es necesariamente verdadera.",
+   "solucion": "1. Descartes pone en duda todo aquello que podría ser falso, incluidos los datos de los sentidos y la posibilidad de estar siendo engañado.\n2. Sin embargo, mientras duda o piensa, no puede negar que está realizando ese acto de pensar: para ser engañado, tiene que existir como sujeto que piensa.\n3. Por ello, el cogito conserva su certeza incluso bajo la hipótesis de un engañador. La opción correcta es **a)**. La opción b) es falsa porque los sentidos pueden engañarnos; la c) también, porque la tradición no garantiza la verdad.",
+   "resultado": "a) La existencia del acto de pensar no puede negarse mientras se está pensando.",
+   "criterios": "0,25 puntos por identificar la opción a) como correcta. No se otorga puntuación por elegir b) o c).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "7",
+   "tema": "contemporanea",
+   "puntos": 0.25,
+   "tipo": "abierta",
+   "enunciado": "En la filosofía política de Hannah Arendt, ¿qué condición hace posible la acción y la vida política entre personas distintas? a) La pluralidad humana. b) La desaparición de toda diferencia entre individuos. c) El aislamiento permanente de cada persona.",
+   "solucion": "La respuesta correcta es **a) La pluralidad humana**. Para Hannah Arendt, la política surge porque los seres humanos viven juntos siendo iguales en cuanto humanos y, a la vez, distintos entre sí. Esa pluralidad permite que aparezcan ante los demás mediante la palabra y la acción. La desaparición de las diferencias negaría la pluralidad, mientras que el aislamiento impediría la relación política.",
+   "resultado": "a) La pluralidad humana.",
+   "criterios": "0,25 puntos por seleccionar la opción a). No se conceden puntos por elegir b) o c).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "8",
+   "tema": "empirismo",
+   "puntos": 0.25,
+   "tipo": "abierta",
+   "enunciado": "¿Cuál de estas afirmaciones concuerda con la teoría del conocimiento de Locke? a) La mente posee desde el nacimiento todas las ideas necesarias. b) Las ideas proceden de la experiencia, mediante la sensación y la reflexión. c) La experiencia no aporta ningún contenido al conocimiento.",
+   "solucion": "### Resolución por eliminación y comprobación\n1. Locke defiende el empirismo: el conocimiento no se basa en ideas innatas presentes desde el nacimiento, así que se descarta **a)**.\n2. La experiencia es el origen de las ideas. Locke distingue dos fuentes: la **sensación**, referida a los objetos externos, y la **reflexión**, referida a las operaciones de la propia mente.\n3. Por tanto, **c)** también es incorrecta, pues niega que la experiencia aporte contenido al conocimiento.\n4. La opción que expresa ambas fuentes de las ideas es **b)**.\n\n**Comprobación:** la opción b coincide con la tesis empirista de Locke y las otras dos la contradicen.",
+   "resultado": "b) Las ideas proceden de la experiencia, mediante la sensación y la reflexión.",
+   "criterios": "0,25 puntos por seleccionar la opción b), que identifica correctamente la experiencia como origen de las ideas mediante la sensación y la reflexión. 0 puntos por seleccionar a), c) o más de una opción.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "9",
+   "tema": "aristoteles",
+   "puntos": 0.25,
+   "tipo": "abierta",
+   "enunciado": "Una persona pregunta de qué material está hecha una estatua. Según la teoría aristotélica de las cuatro causas, está preguntando por la causa: a) Material. b) Formal. c) Final.",
+   "solucion": "1. La pregunta «¿de qué material está hecha la estatua?» busca identificar la materia de la que está compuesta.\n2. En Aristóteles, la causa material es aquello de lo que una cosa está hecha; la causa formal es su forma, y la causa final es su finalidad.\n3. Por tanto, la respuesta correcta es **a) Material**.\n4. Comprobación: la pregunta no indaga ni por la forma de la estatua ni por su propósito, sino por su composición.",
+   "resultado": "a) Causa material.",
+   "criterios": "0,25 puntos: identifica la opción a) causa material y la justifica correctamente indicando que responde de qué está hecha la estatua. 0 puntos: elige otra opción o no identifica correctamente la causa.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "10",
+   "tema": "marx",
+   "puntos": 0.25,
+   "tipo": "abierta",
+   "enunciado": "¿Qué tesis expresa mejor la concepción materialista de la historia de Marx? a) La organización social y sus transformaciones se relacionan con las condiciones materiales de producción y las relaciones sociales que estas generan. b) Las ideas individuales explican por sí solas toda transformación histórica. c) La historia avanza al margen de las condiciones de vida y de trabajo.",
+   "solucion": "1. La concepción materialista de la historia sostiene que las condiciones materiales de vida —en particular, la producción— y las relaciones sociales que se organizan en torno a ella son fundamentales para comprender la organización y las transformaciones históricas.\n2. Por ello, la opción **a)** expresa correctamente la tesis de Marx.\n3. La opción **b)** es incorrecta porque atribuye la explicación histórica exclusivamente a las ideas individuales; la **c)** también lo es porque separa la historia de las condiciones materiales de vida y de trabajo.",
+   "resultado": "a) La organización social y sus transformaciones se relacionan con las condiciones materiales de producción y las relaciones sociales que estas generan.",
+   "criterios": "0,25 puntos por seleccionar la opción a). 0 puntos si se selecciona b) o c).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "11",
+   "tema": "medieval",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una exposición titulada De la escolástica al sujeto moderno necesita una breve ficha comparativa. En unas 5-6 frases, explica: una idea de Tomás de Aquino sobre la relación entre razón y fe; qué busca Descartes al iniciar la duda metódica y qué certeza encuentra; y una diferencia entre el modo de fundamentar el conocimiento en ambos autores. Se valorará que emplees correctamente esos conceptos y señales el cambio entre ambos planteamientos.",
+   "solucion": "Para Tomás de Aquino, razón y fe son vías distintas pero compatibles: algunas verdades pueden alcanzarse mediante la razón y otras son reveladas, sin que exista contradicción auténtica entre ellas. La razón puede prestar servicio a la fe, aunque esta se refiere también a verdades que la superan. Descartes inicia la duda metódica para apartar como falso todo aquello que admita la menor duda y encontrar un fundamento absolutamente seguro. Al dudar, descubre que no puede dudar de que está pensando y, por tanto, de que existe: «pienso, luego existo» (*cogito, ergo sum*). En Aquino, el conocimiento se apoya en la razón, que parte de la experiencia sensible, y se armoniza con la revelación; en Descartes, se funda primero en la certeza del sujeto pensante y en las ideas claras y distintas. Así, se pasa de una síntesis escolástica entre razón, experiencia y fe a una fundamentación moderna que toma al sujeto como punto de partida.",
+   "resultado": "Aquino armoniza razón y fe; Descartes busca una certeza indudable en el cogito y sitúa al sujeto como fundamento del conocimiento.",
+   "criterios": "Puntuación total: 1 punto. 0,25 por explicar correctamente la relación entre razón y fe en Tomás de Aquino; 0,20 por indicar que la duda metódica busca una certeza indudable; 0,20 por identificar el cogito como certeza de la existencia del sujeto pensante; 0,25 por comparar correctamente el fundamento del conocimiento en ambos autores; 0,10 por expresar con claridad el cambio entre los planteamientos y emplear adecuadamente los conceptos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "12A.1",
+   "tema": "marx",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "OPCIÓN A. Una cooperativa de reparto informa a sus trabajadores de que la aplicación asigna rutas, fija ritmos de entrega y registra cada movimiento. Algunos trabajadores afirman que apenas reconocen como propio el resultado de su actividad. Explica dos dimensiones de la alienación del trabajo en Marx y aplícalas a esta situación.",
+   "solucion": "### Resolución por lectura de los indicios\n\n1. **Rutas, ritmos y vigilancia: alienación respecto de la actividad productiva.** Para Marx, el trabajo está alienado cuando quien trabaja no decide autónomamente cómo realizarlo y la actividad se le impone como algo externo. Aquí la aplicación asigna las rutas, fija el ritmo y registra los movimientos: los trabajadores tienen poco control sobre el proceso y sobre su propio modo de trabajar.\n\n2. **Falta de identificación con el resultado: alienación respecto del producto del trabajo.** El producto o resultado se vuelve ajeno cuando quienes lo producen no lo controlan ni lo reconocen como obra propia, sino que aparece separado de ellos. En este caso, los trabajadores afirman que apenas reconocen como suyo el resultado de su actividad. Al tratarse de una cooperativa, no cabe dar por supuesto que el producto sea jurídicamente propiedad de terceros; lo relevante para el análisis es la falta de control y de identificación que describe el enunciado.\n\n**Comprobación:** la asignación de tareas y la vigilancia corresponden a la alienación de la actividad; la falta de reconocimiento del resultado corresponde a la alienación del producto. Son dos dimensiones distintas y ambas quedan aplicadas a los datos del caso.",
+   "resultado": "Alienación de la actividad productiva por el control algorítmico y alienación del producto por la falta de reconocimiento del resultado como propio.",
+   "criterios": "Calificación máxima: 1,5 puntos. 0,75 por cada dimensión: hasta 0,35 por explicar correctamente el concepto y hasta 0,40 por aplicarlo al caso. Se valorará la distinción entre actividad y producto, así como la precisión de no deducir automáticamente de la palabra «cooperativa» quién controla o posee el resultado. La respuesta modelo obtiene 1,5/1,5.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "12A.2",
+   "tema": "marx",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "La empresa presenta el sistema como una solución neutral que beneficia por igual a todos, aunque las decisiones sobre horarios y remuneración las toma la dirección. Explica la relación que establece Marx entre las condiciones materiales de una sociedad y las ideas dominantes, y aplícala a este caso.",
+   "solucion": "### Desarrollo\n1. Para Marx, las condiciones materiales de una sociedad —la forma de producir, la propiedad de los medios de producción y las relaciones entre quienes dirigen y quienes trabajan— constituyen su estructura económica o base. Sobre ella se configura una superestructura que incluye las instituciones, las leyes y las ideas dominantes. La relación no debe entenderse como una explicación mecánica de cada idea, sino como una influencia fundamental de las relaciones materiales sobre la vida social y sus representaciones.\n2. Las ideas dominantes tienden a expresar y legitimar los intereses de la clase que controla los medios de producción y dispone de mayor poder social. La ideología puede presentar como naturales, neutrales o beneficiosas para todos unas relaciones que son desiguales, ocultando quién decide y quién obtiene ventajas.\n3. En este caso, la dirección controla decisiones materiales relevantes —los horarios y la remuneración—, mientras que la empresa describe el sistema como neutral y provechoso por igual. Desde el análisis marxista, esa presentación puede funcionar ideológicamente: disimula la desigualdad de poder entre dirección y trabajadores y hace parecer universal una organización que puede favorecer especialmente a quienes toman las decisiones. Para Marx, habría que examinar las condiciones reales de trabajo y la distribución de sus beneficios, no aceptar sin más la descripción empresarial.",
+   "resultado": "Para Marx, las ideas dominantes están condicionadas por las relaciones materiales y pueden legitimar los intereses de quienes tienen el poder; aquí, el discurso de neutralidad puede ocultar que la dirección controla horarios y remuneraciones.",
+   "criterios": "1,5 puntos: 0,5 por explicar la relación entre condiciones materiales, estructura económica e ideas; 0,5 por explicar la función ideológica de las ideas dominantes y su vínculo con los intereses de la clase dominante; 0,5 por aplicar ambos conceptos al caso, identificando el control de la dirección y el posible efecto legitimador del discurso de neutralidad. Se valorará la precisión conceptual y la aplicación razonada.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "12B.1",
+   "tema": "platon",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "OPCIÓN B. Un museo conserva distintas representaciones de una misma figura geométrica; ninguna es exacta, pero los visitantes pueden reconocer en todas ellas la misma figura. Explica cómo permite interpretar Platón esta diferencia entre los objetos particulares y aquello que se conoce como universal.",
+   "solucion": "Para Platón, las representaciones expuestas en el museo son **objetos particulares sensibles**: cada una está hecha de un modo distinto y puede ser imperfecta, cambiante o aproximada. Ninguna agota por sí sola lo que es la figura.\n\nQue, pese a sus diferencias, podamos reconocer en todas la misma figura se explica porque remiten a una realidad universal: la **Idea o Forma** de esa figura. La Forma es única, inteligible, inmutable y perfecta; los objetos particulares se relacionan con ella porque la imitan o participan de ella. No es, por tanto, una mera semejanza común obtenida agrupando las imágenes, sino el modelo universal que permite entenderlas como representaciones de la misma figura.\n\nLa percepción de los dibujos particulares puede servir de ocasión para reconocer esa unidad, pero el conocimiento propiamente dicho se dirige a la Forma inteligible, no a cada representación sensible. Así se distingue la multiplicidad imperfecta de los particulares de la unidad universal que conoce la razón.",
+   "resultado": "Los particulares son representaciones sensibles e imperfectas; la Forma platónica, universal, inteligible y perfecta, permite reconocer en ellos la misma figura.",
+   "criterios": "Total: 1,5 puntos. 0,4 por distinguir particulares sensibles y universal; 0,4 por caracterizar correctamente la Forma platónica; 0,4 por explicar la relación de imitación o participación y aplicarla al ejemplo; 0,3 por diferenciar percepción sensible y conocimiento racional de la Forma. Se valorará la precisión conceptual y la coherencia; no se otorgará la puntuación completa si se presenta la Forma como una simple idea subjetiva o como una generalización obtenida solo agrupando dibujos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "12B.2",
+   "tema": "platon",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "Un equipo municipal debe elegir entre varios proyectos de espacio público y busca un criterio que no se reduzca a la popularidad inmediata de cada propuesta. Explica qué función cumple la Idea del Bien en el conocimiento y cómo puede orientar, según Platón, la formación de quienes toman decisiones políticas.",
+   "solucion": "1. **Función en el conocimiento.** En *La República*, la Idea del Bien es la realidad inteligible suprema. Platón la compara con el sol: así como este hace posibles la visión y la visibilidad, el Bien hace posibles la verdad y el conocimiento de las realidades inteligibles. Por eso conocer el Bien no equivale a expresar una preferencia mayoritaria, sino a orientar el juicio hacia aquello que permite comprender qué es justo y valioso.\n\n2. **Formación de quienes deciden.** La educación filosófica debe apartar a quienes gobiernan de la mera opinión y de las apariencias cambiantes, y conducirlos, mediante la dialéctica, al conocimiento de las Ideas y, en último término, del Bien. Esa formación ha de capacitarles para deliberar con conocimiento y no guiados únicamente por intereses particulares o por la popularidad inmediata.\n\n3. **Aplicación al caso.** El Bien funcionaría como horizonte para examinar qué proyecto contribuye mejor a una ciudad justa y al bien común. No ofrece por sí solo una lista automática de obras ni sustituye la deliberación sobre las circunstancias concretas: proporciona el criterio último con el que evaluar las propuestas. En el planteamiento platónico, quien alcanza ese conocimiento debe volver a la vida pública y ponerlo al servicio de la comunidad.\n\n**Comprobación:** la respuesta vincula correctamente el Bien con la posibilidad de conocer y con la educación del gobernante, y evita identificarlo tanto con la opinión mayoritaria como con una solución técnica automática.",
+   "resultado": "La Idea del Bien hace posible el conocimiento verdadero y orienta la formación filosófica de quienes deciden para que gobiernen buscando racionalmente la justicia y el bien común, no la mera popularidad.",
+   "criterios": "Puntuación total: 1,5 puntos. 0,5 por explicar la función epistemológica del Bien (verdad y posibilidad de conocimiento); 0,5 por relacionarla con la educación filosófica, el tránsito de la opinión al conocimiento y la formación de quienes gobiernan; 0,5 por aplicar la idea al caso, mostrando su orientación hacia la justicia y el bien común y evitando reducirla a popularidad o presentarla como una receta automática. Se valoran la precisión conceptual, la coherencia y la claridad.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "13A.1",
+   "tema": "kant",
+   "puntos": 0.5,
+   "tipo": "abierta",
+   "enunciado": "TEXTO A. Síntesis didáctica inspirada en la filosofía moral de Kant; no es una cita literal: Una regla de conducta no se convierte en moralmente válida solo porque prometa una ventaja. Quien actúa debe poder querer que la máxima de su acción valga para cualquiera y debe tratar a cada persona como alguien que no puede reducirse a un instrumento. Sitúa a Kant en su contexto histórico y filosófico.",
+   "solucion": "1. **Contexto histórico:** Immanuel Kant (Königsberg, Prusia, 1724-1804) vivió en el siglo XVIII, en la época de la Ilustración europea. Fue contemporáneo de las revoluciones americana y francesa y defendió el uso autónomo de la razón, característico del ideal ilustrado.\n\n2. **Contexto filosófico:** Su filosofía crítica busca superar tanto el racionalismo como el empirismo. Frente a la metafísica dogmática y al escepticismo de Hume, examina las condiciones y los límites del conocimiento. Esta síntesis se expresa especialmente en la *Crítica de la razón pura*.\n\n3. **Relación con el texto:** En ética, Kant sostiene que la moral no depende de las ventajas o consecuencias esperadas, sino de principios que la razón pueda reconocer como universales. El texto alude al imperativo categórico: actuar según máximas universalizables y tratar a toda persona siempre como fin, no solo como medio. Por ello, su ética es autónoma y deontológica.",
+   "resultado": "Kant es un filósofo ilustrado del siglo XVIII cuya filosofía crítica sintetiza racionalismo y empirismo; su ética autónoma exige universalizar las máximas y respetar a cada persona como fin.",
+   "criterios": "Puntuación máxima: 0,5 puntos. 0,10 por situar correctamente a Kant en el siglo XVIII y la Ilustración; 0,15 por explicar su contexto filosófico crítico y la superación del racionalismo y el empirismo; 0,15 por relacionar el texto con el imperativo categórico y sus dos formulaciones; 0,10 por caracterizar la ética como autónoma y no basada en ventajas o consecuencias. Una respuesta que solo enumere datos biográficos, sin contextualización filosófica, no obtendría la puntuación completa.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "13A.2",
+   "tema": "kant",
+   "puntos": 0.5,
+   "tipo": "abierta",
+   "enunciado": "TEXTO A. Identifica la tesis central del texto y señala las dos exigencias morales que aparecen en él.",
+   "solucion": "No es posible identificar la tesis central ni las dos exigencias morales porque no se ha incluido el «TEXTO A». Para resolver la pregunta hace falta el fragmento al que se refiere el enunciado.",
+   "resultado": "Falta el TEXTO A; no se puede determinar la respuesta.",
+   "criterios": "0,5 puntos en total. Sin el fragmento no puede asignarse una puntuación sustantiva: la corrección requiere valorar la identificación de la tesis central y de las dos exigencias morales según el contenido exacto del texto.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "13A.3",
+   "tema": "kant",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "TEXTO A. Explica las ideas del texto relacionándolas con la ética de Kant: el imperativo categórico, la universalidad de la máxima y la consideración de la humanidad como fin en sí misma.",
+   "solucion": "**Aviso:** el fragmento denominado «TEXTO A» no aparece en el enunciado facilitado. Por ello no es posible identificar ni comentar con rigor sus ideas concretas; hacerlo supondría inventar contenido. La siguiente es una respuesta teórica modelo que habría que vincular con las afirmaciones efectivas del texto.\n\n**Reconstrucción argumental (de la acción a la ley moral):**\n\n1. Para Kant, al actuar seguimos una **máxima**, es decir, un principio subjetivo que expresa qué hacemos y con qué propósito. La corrección moral no depende principalmente de las consecuencias, sino de si la voluntad actúa por deber y puede justificar racionalmente esa máxima.\n2. El **imperativo categórico** ordena actuar solo según una máxima que podamos querer, al mismo tiempo, como ley universal. Es categórico porque obliga sin depender de un fin o deseo particular. Aplicarlo exige preguntar si podríamos querer racionalmente que todos actuaran conforme a esa misma máxima; no basta con que una conducta sea frecuente o conveniente. Si su universalización genera una contradicción o no puede quererse racionalmente, la máxima no es moralmente admisible.\n3. La formulación de la **humanidad como fin en sí misma** exige tratar a toda persona —en uno mismo y en los demás— siempre como fin y nunca meramente como medio. Las personas, por su racionalidad y autonomía, poseen dignidad, no un valor intercambiable. Esto no prohíbe toda cooperación o uso instrumental en sentido cotidiano: prohíbe instrumentalizar a alguien sin respetar su capacidad de decidir y sus propios fines.\n4. Así, las dos formulaciones expresan exigencias relacionadas: la universalidad somete la máxima a una ley válida para todos, y la humanidad como fin protege el valor de cada agente racional. Al aplicar estas ideas al texto habría que señalar qué máxima o conducta plantea y explicar si puede universalizarse y si respeta a las personas como fines.\n\n**Comprobación final:** la respuesta no confunde universalidad con mera generalización estadística, ni «no usar nunca como medio» con la exigencia kantiana de no tratar a nadie **meramente** como medio. La aplicación concreta queda pendiente porque falta el texto.\n\n**Nota orientativa:** 1,2/1,5 para esta respuesta teórica; no puede valorarse el vínculo específico con el fragmento ausente. Si se aportara el texto y se relacionara correctamente con estas nociones, podría alcanzarse la puntuación completa.",
+   "resultado": "Respuesta teórica correcta: máximas universalizables y respeto a toda persona como fin; nota orientativa 1,2/1,5 por faltar el texto para la aplicación concreta.",
+   "criterios": "Distribución propuesta sobre 1,5 puntos: 0,30 por explicar máximas y deber; 0,45 por formular correctamente el imperativo categórico y la prueba de universalización; 0,45 por explicar humanidad como fin, dignidad y la prohibición de tratar a alguien meramente como medio; 0,30 por relacionar esas ideas con el texto concreto. Al no haberse proporcionado el fragmento, la relación textual no puede acreditarse y la nota orientativa de la respuesta teórica es 1,2/1,5; la calificación definitiva requiere el texto.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "13B.1",
+   "tema": "nietzsche",
+   "puntos": 0.5,
+   "tipo": "abierta",
+   "enunciado": "TEXTO B. Síntesis didáctica inspirada en la filosofía de Nietzsche; no es una cita literal: Cuando una sociedad llama bueno a un valor, no basta con preguntar si ese valor se obedece. También hay que investigar cómo se originó, qué tipo de vida expresa y a quién beneficia. Esa investigación muestra que los valores tienen una historia y permite someterlos a crítica. Sitúa a Nietzsche en su contexto histórico y filosófico.",
+   "solucion": "1. **Partir de las pistas del texto.** La investigación del origen y la función de los valores remite al método genealógico de Nietzsche: no se limita a preguntar si una norma se cumple, sino qué condiciones históricas la produjeron y qué forma de vida expresa. El enunciado advierte que es una síntesis didáctica, no una cita literal.\n2. **Situación histórica.** Friedrich Nietzsche (1844–1900) fue un filósofo alemán de la segunda mitad del siglo XIX. Su pensamiento se desarrolla en una Europa marcada por la secularización, la expansión de las ciencias, el positivismo y la crisis de la autoridad tradicional del cristianismo, en el contexto de la modernización e industrialización.\n3. **Situación filosófica.** Es posterior al idealismo alemán y mantiene una relación crítica con la tradición metafísica occidental, especialmente con el platonismo y la moral cristiana. Recibió la influencia inicial de Schopenhauer y, en sus primeros años, de Wagner, pero desarrolló una filosofía propia. Se le relaciona con el vitalismo y el perspectivismo, aunque no conviene reducirlo sin matices a una escuela.\n4. **Comprobación.** Esta contextualización concuerda con el pasaje: la genealogía nietzscheana historiza y somete a crítica los valores, atendiendo a su relación con determinadas formas de vida; no equivale simplemente a afirmar que todos los valores sean iguales o que solo importe quién obtiene un beneficio.",
+   "resultado": "Nietzsche es un filósofo alemán del siglo XIX que, en el contexto de la crisis de la cultura cristiana y de la metafísica tradicional, desarrolló una crítica genealógica de los valores.",
+   "criterios": "Total: 0,5 puntos. 0,25 por situarlo correctamente en el contexto histórico del siglo XIX y reconocer la crisis de la cultura cristiana y la modernidad; 0,25 por explicar su posición filosófica crítica y vincularla con la genealogía de los valores. Se valoran la precisión y la ausencia de etiquetas simplificadoras o atribuciones de citas literales.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "13B.2",
+   "tema": "nietzsche",
+   "puntos": 0.5,
+   "tipo": "abierta",
+   "enunciado": "TEXTO B. Indica la idea principal del texto y explica qué significa investigar el origen de los valores morales.",
+   "solucion": "**Advertencia:** no se ha incluido el Texto B, por lo que no es posible determinar con rigor su idea principal concreta. Si, como sugiere la pregunta, el texto trata de la genealogía de la moral en Nietzsche, una respuesta adecuada sería: **La idea principal es que los valores morales no son verdades eternas ni tienen un fundamento independiente de la historia, sino que han surgido en determinadas condiciones humanas e históricas.** Investigar su origen significa realizar una genealogía: examinar cómo se formaron y transformaron esos valores, qué necesidades, intereses y relaciones de poder expresan, y qué tipo de vida favorecen o perjudican. No consiste únicamente en localizar una fecha o un primer autor, sino en analizar el proceso y el sentido de su creación. **Comprobación:** la respuesta conecta el origen histórico de los valores con su carácter no absoluto y explica qué implica investigarlo; para ajustarla exactamente al pasaje, sería necesario disponer del texto.",
+   "resultado": "Los valores morales se comprenden investigando genealógicamente las condiciones históricas y humanas de su formación, no tratándolos como verdades eternas; la idea concreta del texto requiere el fragmento.",
+   "criterios": "Propuesta de corrección sobre 0,5 puntos: 0,25 por formular adecuadamente la idea principal del fragmento (debe ajustarse al texto cuando este se aporte); 0,25 por explicar la investigación genealógica como análisis del proceso histórico y de las condiciones, intereses o relaciones que originan los valores. Se aceptan formulaciones equivalentes. Sin el Texto B, la identificación de su idea concreta no puede verificarse.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "13B.3",
+   "tema": "nietzsche",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "TEXTO B. Explica las ideas del texto relacionándolas con la genealogía nietzscheana, su crítica a la pretensión de que los valores morales sean eternos y la posibilidad de una transvaloración.",
+   "solucion": "### Desarrollo\n\n**Nota previa:** no se ha incluido el fragmento del «Texto B». Por ello, no es posible identificar sus expresiones o reconstruir con precisión su argumento; esta respuesta ofrece el marco nietzscheano que habría que vincular con las ideas concretas del pasaje.\n\n1. **Reconstrucción genealógica.** Nietzsche no trata los valores morales como verdades evidentes, sino que pregunta por su origen y por las condiciones históricas, psicológicas y sociales en que surgieron. La genealogía analiza quién valora, desde qué forma de vida y con qué efectos.\n\n2. **Tipos de valoración.** En su análisis, la moral de señores parte de una afirmación de sí y llama «bueno» a lo noble, fuerte o afirmativo; considera «malo» lo bajo o débil. La moral de esclavos, en cambio, nace del *ressentiment*: invierte esa valoración y denomina «malvado» al poderoso, mientras presenta como «bueno» lo humilde, obediente o impotente. Esta oposición explica históricamente ciertas valoraciones; no debe convertirse en una clasificación simplista de todas las morales.\n\n3. **Crítica de la eternidad de los valores.** Si las valoraciones tienen una génesis y responden a determinadas formas de vida, no son mandatos eternos, universales e inmutables, ni proceden de un fundamento trascendente indiscutible. Nietzsche cuestiona así la pretensión de que la moral vigente sea la única posible. Esto no significa que todos los valores sean equivalentes o arbitrarios: también cabe preguntar qué tipo de vida expresan y favorecen.\n\n4. **Transvaloración.** La crítica genealógica abre la posibilidad de revisar y crear valores. Transvalorar no consiste simplemente en intercambiar las etiquetas de «bueno» y «malo», sino en superar valores que niegan o empobrecen la vida y promover una valoración afirmativa, creadora y capaz de asumir el devenir. Es una tarea de creación, no el descubrimiento de una nueva tabla eterna.\n\n**Comprobación final.** La respuesta enlaza los tres aspectos solicitados: explica la genealogía como investigación del origen y función de los valores, deriva de ella la crítica a su pretendida eternidad y concluye con la posibilidad de una transvaloración. Para una respuesta plenamente ajustada al examen, estos puntos deben relacionarse con las ideas y formulaciones concretas del fragmento.",
+   "resultado": "La genealogía muestra que los valores morales tienen un origen histórico y expresan determinadas formas de vida; por ello no son eternos ni inmutables, y pueden ser revisados y creados mediante una transvaloración afirmativa de la vida.",
+   "criterios": "Puntuación máxima: 1,5 puntos. 0,4 por explicar la genealogía como análisis del origen y función de los valores; 0,3 por exponer con precisión la oposición entre moral de señores y moral de esclavos o el papel del resentimiento, cuando sea pertinente al texto; 0,4 por relacionar la genealogía con la crítica a la pretensión de eternidad y universalidad; 0,3 por explicar la transvaloración como revisión y creación de valores afirmativos; 0,1 por claridad, precisión conceptual y conexión explícita con el fragmento. La puntuación debe ajustarse a las ideas efectivamente presentes en el Texto B.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "14",
+   "tema": "contemporanea",
+   "puntos": 1.5,
+   "tipo": "abierta",
+   "enunciado": "Un ayuntamiento quiere usar un sistema automatizado para decidir qué solicitudes de ayuda reciben prioridad. En una intervención para un debate ciudadano, analiza el problema desde Hannah Arendt y Simone de Beauvoir: explica qué aportan, respectivamente, las ideas de pluralidad y acción política, y las de libertad situada y responsabilidad; después, aplica ambas perspectivas al caso. La respuesta debe distinguir con claridad los conceptos de las dos filósofas.",
+   "solucion": "### 1. Planteamiento\nEl problema no es solo técnico: decidir qué solicitudes reciben prioridad distribuye recursos y afecta a personas con necesidades y circunstancias distintas. Por eso hay que preguntar tanto quién participa en la decisión como quién responde por sus efectos.\n\n### 2. Perspectiva de Hannah Arendt\nPara Arendt, la **pluralidad** es la condición de la vida política: las personas comparten un mundo, pero son distintas y pueden mostrar sus perspectivas mediante la palabra y la acción. La política no consiste únicamente en administrar necesidades; también requiere un espacio público donde las personas puedan aparecer, expresarse y actuar junto a otras.\n\nLa **acción política**, vinculada al discurso y a la iniciativa, permite comenzar algo nuevo y participar en la construcción de un mundo común. Aplicado al caso, un sistema automatizado no debería sustituir la deliberación pública ni convertir una decisión controvertida en una mera operación técnica. Las personas afectadas y la ciudadanía deberían poder intervenir en la definición de prioridades y debatir los criterios. El sistema podría aportar información, pero no reemplazar la decisión política ni cerrar la discusión.\n\n### 3. Perspectiva de Simone de Beauvoir\nPara Beauvoir, la **libertad es situada**: las personas eligen y actúan, pero lo hacen en condiciones concretas —sociales, económicas, históricas y corporales— que pueden ampliar o limitar sus posibilidades. No se trata de una libertad abstracta ni de afirmar que todas las personas parten de la misma situación.\n\nLa libertad comporta **responsabilidad**: nuestras decisiones expresan valores y tienen consecuencias para otras personas y para sus posibilidades de actuar. Aplicado al caso, quienes diseñan, implantan y usan el sistema deben responder por los criterios elegidos y por sus efectos. Deben examinar si los datos o las reglas perjudican a grupos en situaciones de desventaja, ofrecer explicaciones comprensibles y permitir revisión, reclamación y corrección. La decisión no puede justificarse alegando que el algoritmo actuó por sí solo.\n\n### 4. Aplicación conjunta y distinción\nArendt permite preguntar si el procedimiento conserva la pluralidad y la participación política; Beauvoir permite examinar cómo las condiciones concretas afectan a las personas y quién asume la responsabilidad moral por las consecuencias. Son enfoques complementarios, pero distintos: la primera destaca la acción y el espacio público compartido; la segunda, la libertad situada y la responsabilidad ética.\n\nPor tanto, el ayuntamiento podría emplear el sistema como apoyo, siempre que los criterios sean públicos y discutibles, se evalúen sus posibles sesgos y exista supervisión humana con capacidad real de revisar decisiones. Las personas afectadas deben poder conocer los motivos de una prioridad y cuestionarlos. La eficiencia, por sí sola, no legitima el procedimiento.\n\n### 5. Comprobación final\nLa respuesta distingue las dos perspectivas, aplica cada una al caso y evita atribuir al algoritmo la responsabilidad que corresponde a las instituciones y a quienes toman las decisiones.",
+   "resultado": "El sistema solo es aceptable como apoyo a una decisión pública deliberada, contextual y revisable, con responsabilidad humana por sus efectos.",
+   "criterios": "Total: 1,5 puntos. Arendt: explicación de pluralidad y acción política, 0,35; aplicación al caso, 0,25. Beauvoir: explicación de libertad situada y responsabilidad, 0,35; aplicación al caso, 0,25. Distinción clara entre ambas, coherencia y argumentación, 0,30. Se valorará la precisión conceptual; la mera enumeración de términos o la confusión entre las autoras no permite obtener la puntuación completa.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "marx",
+   "p": 0.761
+  },
+  {
+   "id": "platon",
+   "p": 0.754
+  },
+  {
+   "id": "kant",
+   "p": 0.708
+  },
+  {
+   "id": "medieval",
+   "p": 0.63
+  },
+  {
+   "id": "nietzsche",
+   "p": 0.549
+  },
+  {
+   "id": "descartes",
+   "p": 0.543
+  }
+ ],
+ "referencias": [
+  "manual:manual/castillalamancha/2026/Historia de la Filosofía junio examen __Historia-de-la-Filosofia.txt",
+  "manual:manual/castillalamancha/2026/Historia de la Filosofía julio examen __Historia-de-la-Filosofia.txt",
+  "manual:manual/castillalamancha/2022/Historia de la Filosofía julio examen __Historia-de-la-Filosofia.txt",
+  "manual:manual/castillalamancha/2024/Historia de la Filosofía julio examen __HISTORIA-DE-LA-FILOSOFIA.txt",
+  "manual:manual/castillalamancha/2024/Historia de la Filosofía junio examen __Historia-de-la-Filosofia.txt",
+  "manual:manual/castillalamancha/2025/Historia de la Filosofía julio examen __Historia-de-la-filosofia.txt",
+  "manual:manual/castillalamancha/2025/Historia de la Filosofía junio examen __HISTORIA-DE-LA-FILOSOFIA.txt",
+  "manual:manual/castillalamancha/2026/Historia de la Filosofía julio examen __Historia-de-la-Filosofia.txt",
+  "manual:manual/castillalamancha/2026/Historia de la Filosofía junio examen __Historia-de-la-Filosofia.txt"
+ ]
+}
