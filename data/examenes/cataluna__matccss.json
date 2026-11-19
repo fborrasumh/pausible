@@ -1,0 +1,95 @@
+{
+ "ccaa": "cataluna",
+ "materia": "matccss",
+ "titulo": "Matemáticas Aplicadas a las Ciencias Sociales II — PAU 2027 (Cataluña)",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro ejercicios obligatorios, de 2,5 puntos cada uno. Responde a todas las cuestiones de los ejercicios 1, 2 y 3. En el ejercicio 4, elige una sola opción, A o B, e indícala claramente. Justifica los procedimientos y expresa los resultados con claridad. Se permite el uso de calculadora.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "funciones",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Una plataforma municipal de actividades culturales registra el número de personas usuarias activas durante una campaña. El modelo que describe ese número, en función del tiempo $t$ medido en semanas, es $f(t)=t^3-9t^2+24t+100$, para $t\\in[0,8]$. 1.1. ¿Cuántas personas usuarias activas hay al inicio y al cabo de ocho semanas? Estudia los intervalos de crecimiento y decrecimiento de $f$, determina sus extremos locales y haz un esbozo de la gráfica a partir de esa información. [1,75 puntos] 1.2. ¿En qué semana alcanza la plataforma el máximo número de personas usuarias activas durante el periodo estudiado y cuántas son? [0,75 puntos]",
+   "solucion": "### 1.1. Valores, crecimiento, decrecimiento y extremos\n\nCalculamos los valores en los extremos del periodo:\n\n$f(0)=100$ personas y $f(8)=8^3-9\\cdot 8^2+24\\cdot 8+100=228$ personas.\n\nEstudiamos el signo de la derivada:\n\n$f'(t)=3t^2-18t+24=3(t-2)(t-4)$.\n\nLos puntos críticos del intervalo son $t=2$ y $t=4$. El signo de $f'(t)$ es positivo en $[0,2)$, negativo en $(2,4)$ y positivo en $(4,8]$. Por tanto, $f$ es creciente en $[0,2]$ y $[4,8]$, y decreciente en $[2,4]$.\n\nEn los puntos críticos:\n\n$f(2)=120$ y $f(4)=116$.\n\nAsí, hay un máximo local en $(2,120)$ y un mínimo local en $(4,116)$. Para esbozar la gráfica, se parte de $(0,100)$, sube hasta $(2,120)$, baja hasta $(4,116)$ y vuelve a subir hasta $(8,228)$. Como referencia para el trazado, $f''(t)=6t-18$ cambia de signo en $t=3$, donde $f(3)=118$.\n\n### 1.2. Máximo durante el periodo\n\nComparamos los valores en los extremos y en los puntos críticos del intervalo: $f(0)=100$, $f(2)=120$, $f(4)=116$ y $f(8)=228$. El mayor es $228$, que se alcanza en $t=8$. Por tanto, el máximo número de personas usuarias activas durante el periodo es de $228$, al cabo de ocho semanas.\n\n**Comprobación:** el estudio del signo confirma que, después del mínimo local en $t=4$, la función crece hasta el extremo final $t=8$; además, $f(8)=228$ supera los demás valores candidatos.",
+   "resultado": "Máximo durante el periodo: 228 personas usuarias activas en la semana 8.",
+   "criterios": "Total: 2,5 puntos. 1.1 (1,75 puntos): cálculo correcto de f(0) y f(8), 0,25; derivada, factorización y puntos críticos, 0,45; signo de la derivada e intervalos de crecimiento y decrecimiento, 0,35; extremos locales con sus valores, 0,40; esbozo coherente con los puntos y la monotonía, 0,30. 1.2 (0,75 puntos): comparación de los valores candidatos del intervalo, 0,50; identificación de la semana 8 y de las 228 personas como máximo absoluto, 0,25.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "matrices",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un vivero prepara tres tipos de lotes de plantas autóctonas: aromáticas, polinizadoras y hortícolas. Sean $x$, $y$ y $z$, respectivamente, sus precios en euros. Tres pedidos distintos contienen las siguientes cantidades y tienen estos costes: 2 lotes aromáticos, 1 polinizador y 1 hortícola cuestan 23 €; 1 lote aromático, 3 polinizadores y 2 hortícolas cuestan 37 €; 3 lotes aromáticos, 2 polinizadores y 1 hortícola cuestan 34 €. 2.1. Expresa los datos mediante una ecuación matricial, indicando qué representan las filas y las columnas, y resuelve el sistema por eliminación de Gauss para encontrar los tres precios. [1,75 puntos] 2.2. Calcula, mediante un producto matricial, el coste de un pedido de 4 lotes aromáticos, 5 polinizadores y 3 hortícolas. [0,75 puntos]",
+   "solucion": "### 2.1. Ecuación matricial y resolución por Gauss\n\nLas columnas de la matriz de coeficientes corresponden, en este orden, a los lotes aromáticos, polinizadores y hortícolas. Cada fila representa uno de los tres pedidos, y el vector de términos independientes recoge sus costes. Por tanto, $x$, $y$ y $z$ son los precios, en euros, de cada tipo de lote:\n\n$$\n\\begin{pmatrix}\n2&1&1\\\\\n1&3&2\\\\\n3&2&1\n\\end{pmatrix}\n\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}\n=\n\\begin{pmatrix}23\\\\37\\\\34\\end{pmatrix}.\n$$\n\nAplicamos eliminación de Gauss a la matriz ampliada. Intercambiamos las dos primeras filas y hacemos $F_2\\leftarrow F_2-2F_1$ y $F_3\\leftarrow F_3-3F_1$:\n\n$$\n\\left[\\begin{array}{ccc|c}\n2&1&1&23\\\\\n1&3&2&37\\\\\n3&2&1&34\n\\end{array}\\right]\n\\xrightarrow{F_1\\leftrightarrow F_2}\n\\left[\\begin{array}{ccc|c}\n1&3&2&37\\\\\n2&1&1&23\\\\\n3&2&1&34\n\\end{array}\\right]\n\\xrightarrow{\\substack{F_2\\leftarrow F_2-2F_1\\\\F_3\\leftarrow F_3-3F_1}}\n\\left[\\begin{array}{ccc|c}\n1&3&2&37\\\\\n0&-5&-3&-51\\\\\n0&-7&-5&-77\n\\end{array}\\right].\n$$\n\nAhora hacemos $F_3\\leftarrow 5F_3-7F_2$:\n\n$$\n\\left[\\begin{array}{ccc|c}\n1&3&2&37\\\\\n0&-5&-3&-51\\\\\n0&-7&-5&-77\n\\end{array}\\right]\n\\xrightarrow{F_3\\leftarrow 5F_3-7F_2}\n\\left[\\begin{array}{ccc|c}\n1&3&2&37\\\\\n0&-5&-3&-51\\\\\n0&0&-4&-28\n\\end{array}\\right].\n$$\n\nPor sustitución hacia atrás:\n\n$$\n-4z=-28\\Rightarrow z=7,\\qquad\n-5y-3(7)=-51\\Rightarrow y=6,\\qquad\nx+3(6)+2(7)=37\\Rightarrow x=5.\n$$\n\nLos precios son $5\\,€$ por lote aromático, $6\\,€$ por lote polinizador y $7\\,€$ por lote hortícola.\n\n### 2.2. Coste del nuevo pedido\n\nEl coste se obtiene multiplicando el vector fila de cantidades por el vector columna de precios:\n\n$$\n\\begin{pmatrix}4&5&3\\end{pmatrix}\n\\begin{pmatrix}5\\\\6\\\\7\\end{pmatrix}\n=4\\cdot5+5\\cdot6+3\\cdot7=71.\n$$\n\nEl pedido cuesta $71\\,€$.",
+   "resultado": "$x=5\\,€,\\ y=6\\,€,\\ z=7\\,€$; coste del pedido: $71\\,€$.",
+   "criterios": "2.1 (1,75 puntos): planteamiento matricial correcto, identificando el significado de filas y columnas (0,50); eliminación de Gauss correcta, con operaciones y cálculos justificados (0,75); obtención de los tres precios con sus unidades (0,50). 2.2 (0,75 puntos): planteamiento del producto matricial con las cantidades y los precios en el orden correcto (0,25); cálculo correcto del producto (0,25); resultado final con unidades (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "inferencia",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un servicio municipal de préstamo de vasos reutilizables quiere estudiar qué proporción de usuarios los devuelve en un plazo máximo de 24 horas. En una muestra aleatoria de 400 préstamos, 220 vasos se devolvieron dentro de ese plazo. 3.1. Suponiendo que la proporción real fuera $p=0{,}5$ y que las devoluciones fueran independientes, define la variable aleatoria $X$ que cuenta las devoluciones dentro de plazo en una muestra de 400 préstamos. Indica su distribución y aproxima mediante una normal, sin corrección por continuidad, la probabilidad de obtener al menos 220 devoluciones dentro de plazo. [1,25 puntos] 3.2. Calcula un intervalo de confianza del 95 % para la proporción real de devoluciones dentro de plazo y concluye si el valor $0{,}5$ pertenece al intervalo. Puedes utilizar $z=1{,}96$ y la fórmula $\\hat p\\pm1{,}96\\sqrt{\\frac{\\hat p(1-\\hat p)}{n}}$. Para el apartado 3.1, puedes utilizar $P(Z\\ge2)=0{,}0228$, donde $Z$ sigue una normal estándar. Redondea los extremos del intervalo a cuatro decimales. [1,25 puntos]",
+   "solucion": "### 3.1. Aproximación normal\n\nSea $X$ el número de vasos devueltos dentro de las 24 horas en los $400$ préstamos. Bajo la hipótesis de que la proporción real es $p=0{,}5$ y las devoluciones son independientes, cada préstamo constituye un ensayo de Bernoulli, por lo que\n\n$$X\\sim\\operatorname{Binomial}(400,0{,}5).$$\n\nSu media y desviación típica son\n\n$$\\mu=np=400\\cdot0{,}5=200,\\qquad \\sigma=\\sqrt{np(1-p)}=\\sqrt{100}=10.$$\n\nAproximamos $X$ mediante una normal $Y\\sim N(200,10)$, sin corrección por continuidad. Así,\n\n$$P(X\\ge220)\\approx P(Y\\ge220)=P\\!\\left(Z\\ge\\frac{220-200}{10}\\right)=P(Z\\ge2)\\approx0{,}0228.$$\n\n### 3.2. Intervalo de confianza del 95 %\n\nLa proporción muestral es $\\hat p=220/400=0{,}55$. Aplicando la fórmula indicada:\n\n$$\\hat p\\pm1{,}96\\sqrt{\\frac{\\hat p(1-\\hat p)}{n}}=0{,}55\\pm1{,}96\\sqrt{\\frac{0{,}55\\cdot0{,}45}{400}}=0{,}55\\pm0{,}0487544.$$\n\nPor tanto, redondeando a cuatro decimales, el intervalo es\n\n$$[0{,}5012,\\ 0{,}5988].$$\n\nComprobación: $0{,}55$ está en el intervalo y el extremo inferior es mayor que $0{,}5$. Por tanto, $0{,}5$ no pertenece al intervalo de confianza.",
+   "resultado": "P(X≥220)≈0,0228; IC del 95 %: [0,5012; 0,5988]; 0,5 no pertenece al intervalo.",
+   "criterios": "3.1 (1,25 puntos): definir X e identificar X~Binomial(400; 0,5), 0,35; calcular la media, la desviación típica y establecer la aproximación normal, 0,35; estandarizar el umbral 220 sin corrección por continuidad, 0,35; obtener la probabilidad aproximada 0,0228, 0,20. 3.2 (1,25 puntos): calcular la proporción muestral 0,55, 0,20; sustituir correctamente en la fórmula y calcular el error, 0,45; dar los dos extremos redondeados a cuatro decimales, 0,40; concluir que 0,5 no pertenece al intervalo, 0,20.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "4",
+   "tema": "probabilidad",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Elige una sola de las dos opciones siguientes. OPCIÓN A. Una empresa envasa una bebida en tres líneas de producción. La línea $L_1$ envasa el 40 % de las botellas, la línea $L_2$ el 35 % y la línea $L_3$ el 25 %. Las proporciones de botellas defectuosas de cada línea son, respectivamente, el 1 %, el 2 % y el 4 %. Se elige una botella al azar. a) Calcula la probabilidad de que sea defectuosa. [1,25 puntos] b) Sabiendo que la botella elegida es defectuosa, calcula la probabilidad de que proceda de la línea $L_3$. [1,25 puntos] OPCIÓN B. En una aplicación de reservas, cada persona que ha reservado una plaza tiene una probabilidad de $0{,}25$ de no presentarse, independientemente de las demás. Para un grupo de 12 reservas, sea $X$ el número de personas que no se presentan. a) Indica la distribución de $X$ y calcula $P(X=3)$. [1 punto] b) Calcula la probabilidad de que no se presenten como máximo dos personas. [1 punto] c) Calcula el valor esperado de $X$. [0,5 puntos]",
+   "solucion": "Elegimos la opción A. Sea $D$ el suceso «la botella es defectuosa».\n\n**a) Probabilidad de que la botella sea defectuosa.** Aplicamos la ley de la probabilidad total:\n\n$P(D)=P(L_1)P(D|L_1)+P(L_2)P(D|L_2)+P(L_3)P(D|L_3)$\n\n$P(D)=0.40\\cdot0.01+0.35\\cdot0.02+0.25\\cdot0.04=0.004+0.007+0.010=0.021$.\n\nPor tanto, la probabilidad de que la botella sea defectuosa es $0.021$, es decir, un $2.1\\%$.\n\n**b) Probabilidad de que proceda de $L_3$, sabiendo que es defectuosa.** Aplicamos el teorema de Bayes:\n\n$P(L_3|D)=\\frac{P(L_3)P(D|L_3)}{P(D)}=\\frac{0.25\\cdot0.04}{0.021}=\\frac{10}{21}\\approx0.47619$.\n\nLa probabilidad pedida es aproximadamente $0.47619$, es decir, un $47.619\\%$.",
+   "resultado": "a) 0,021 (2,1 %); b) 10/21 ≈ 0,47619 (47,619 %).",
+   "criterios": "a) 1,25 puntos: planteamiento correcto de la probabilidad total con las tres líneas (0,50); sustitución de los datos y cálculo de 0,021 (0,50); expresión del resultado como probabilidad o porcentaje (0,25). b) 1,25 puntos: planteamiento correcto mediante el teorema de Bayes (0,75); sustitución de los datos y cálculo de 10/21 ≈ 0,47619 (0,50).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "probabilidad",
+   "p": 0.85
+  },
+  {
+   "id": "matrices",
+   "p": 0.744
+  },
+  {
+   "id": "inferencia",
+   "p": 0.667
+  },
+  {
+   "id": "funciones",
+   "p": 0.473
+  },
+  {
+   "id": "progl",
+   "p": 0.05
+  },
+  {
+   "id": "integrales",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/matematiques-aplicades-cc/ord/pau_macs26o.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/matematiques-aplicades-cc/ord/pau_macs26o_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/matematiques-aplicades-cc/ext/pau_macs25sl.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/matematiques-aplicades-cc/ext/pau_macs25sl_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/matematiques-aplicades-cc/ord/pau_macs25jl_es_tei.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/matematiques-aplicades-cc/ext/pau_macs26e.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/matematiques-aplicades-cc/ord/pau_macs26o.pdf"
+ ]
+}
