@@ -1,0 +1,97 @@
+{
+ "ccaa": "cataluna",
+ "materia": "quimica",
+ "titulo": "Prova d’accés a la universitat 2027 — Química — Catalunya",
+ "duracion_min": 90,
+ "instrucciones": "L’examen consta de quatre exercicis obligatoris, cadascun de 2,5 punts. Responeu totes les qüestions dels exercicis 1, 2 i 3. De l’exercici 4, responeu només dues de les quatre opcions; si en responeu més de dues, només es valoraran les dues primeres. Justifiqueu les respostes i indiqueu les unitats en els càlculs. Podeu utilitzar calculadora, però no aparells capaços d’emmagatzemar dades o de transmetre o rebre informació.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "equilibrio",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "En una instal·lació pilot per obtenir calç viva a partir de pedra calcària té lloc l’equilibri $\\ce{CaCO3(s) <=> CaO(s) + CO2(g)}$.\\n\\n1.1. A $1200\\ \\mathrm{K}$, en un recipient de $2,00\\ \\mathrm{L}$ on són presents les dues fases sòlides, s’han mesurat $0,0800\\ \\mathrm{mol}$ de $\\ce{CO2}$ quan s’ha assolit l’equilibri. Escriviu l’expressió de $K_c$ i calculeu-ne el valor numèric. Si a temperatura constant es redueix el volum del recipient a la meitat, indiqueu cap a quin sentit es desplaçarà l’equilibri i justifiqueu-ho. [1,25 punts]\\n\\n1.2. Per a la reacció anterior, a $298\\ \\mathrm{K}$ es disposa de les dades següents: $\\Delta H_f^\\circ(\\ce{CaCO3(s)})=-1206,9\\ \\mathrm{kJ\\,mol^{-1}}$, $\\Delta H_f^\\circ(\\ce{CaO(s)})=-635,1\\ \\mathrm{kJ\\,mol^{-1}}$, $\\Delta H_f^\\circ(\\ce{CO2(g)})=-393,5\\ \\mathrm{kJ\\,mol^{-1}}$; $S^\\circ(\\ce{CaCO3(s)})=92,9\\ \\mathrm{J\\,mol^{-1}\\,K^{-1}}$, $S^\\circ(\\ce{CaO(s)})=39,8\\ \\mathrm{J\\,mol^{-1}\\,K^{-1}}$ i $S^\\circ(\\ce{CO2(g)})=213,8\\ \\mathrm{J\\,mol^{-1}\\,K^{-1}}$. Calculeu $\\Delta H^\\circ$ i $\\Delta S^\\circ$ de la reacció, i la temperatura a la qual $\\Delta G^\\circ=0$. Suposant que $\\Delta H^\\circ$ i $\\Delta S^\\circ$ no varien amb la temperatura, determineu si la reacció és espontània en condicions estàndard a $1200\\ \\mathrm{K}$. [1,25 punts]",
+   "solucion": "### 1.1. Constante de equilibrio y cambio de volumen\n\nComo las dos sustancias sólidas tienen actividad constante, no aparecen en la expresión de equilibrio:\n\n$$K_c=[\\ce{CO2}]_{eq}$$\n\nLa concentración de dióxido de carbono en el equilibrio es:\n\n$$[\\ce{CO2}]_{eq}=\\frac{0,0800\\ \\mathrm{mol}}{2,00\\ \\mathrm{L}}=0,0400\\ \\mathrm{mol\\,L^{-1}}$$\n\nPor tanto, usando la convención de concentraciones:\n\n$$K_c=0,0400\\ \\mathrm{mol\\,L^{-1}}$$\n\nAl reducir el volumen a la mitad, la concentración de $\\ce{CO2}$ se duplica instantáneamente: el cociente de reacción pasa a ser $Q_c=0,0800\\ \\mathrm{mol\\,L^{-1}}$, mayor que $K_c$. La reacción se desplaza hacia la izquierda, consumiendo $\\ce{CO2}$ y formando $\\ce{CaCO3(s)}$. Esto también concuerda con el principio de Le Châtelier: el equilibrio se desplaza hacia el lado con menos moles de gas.\n\n### 1.2. Magnitudes termodinámicas\n\nLa entalpía estándar de reacción es la suma de las entalpías de formación de los productos menos la de los reactivos:\n\n$$\\Delta H^\\circ=[-635,1+(-393,5)]-(-1206,9)=+178,3\\ \\mathrm{kJ\\,mol^{-1}}$$\n\nLa entropía estándar de reacción es:\n\n$$\\Delta S^\\circ=(39,8+213,8)-92,9=+160,7\\ \\mathrm{J\\,mol^{-1}\\,K^{-1}}$$\n\nEn el cálculo de la temperatura, se convierten las unidades de entropía a $\\mathrm{kJ\\,mol^{-1}\\,K^{-1}}$: $\\Delta S^\\circ=0,1607\\ \\mathrm{kJ\\,mol^{-1}\\,K^{-1}}$. De $\\Delta G^\\circ=\\Delta H^\\circ-T\\Delta S^\\circ=0$:\n\n$$T=\\frac{\\Delta H^\\circ}{\\Delta S^\\circ}=\\frac{178,3}{0,1607}=1109,52\\ \\mathrm{K}\\approx1,11\\times10^3\\ \\mathrm{K}$$\n\nA $1200\\ \\mathrm{K}$:\n\n$$\\Delta G^\\circ=178,3-(1200)(0,1607)=-14,54\\ \\mathrm{kJ\\,mol^{-1}}$$\n\nComo $\\Delta G^\\circ<0$, la reacción es espontánea en condiciones estándar a $1200\\ \\mathrm{K}$.",
+   "resultado": "K_c = 0,0400 mol·L⁻¹; al comprimir, el equilibrio se desplaza a la izquierda; ΔH° = +178,3 kJ·mol⁻¹; ΔS° = +160,7 J·mol⁻¹·K⁻¹; T(ΔG° = 0) = 1109,52 K; a 1200 K, ΔG° = −14,54 kJ·mol⁻¹ y la reacción es espontánea.",
+   "criterios": "Total: 2,5 puntos.\n\n1.1 (1,25 puntos): expresión de Kc sin incluir los sólidos (0,25); cálculo de [CO2] a partir de n/V y valor numérico de Kc con unidades (0,50); sentido del desplazamiento al comprimir y justificación mediante Qc > Kc o Le Châtelier (0,50).\n\n1.2 (1,25 puntos): cálculo de ΔH° con los datos de formación (0,25); cálculo de ΔS° (0,25); cálculo de la temperatura de ΔG° = 0 con unidades coherentes (0,35); cálculo o determinación del signo de ΔG° a 1200 K y conclusión sobre espontaneidad en condiciones estándar (0,40).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "acidobase",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "2.1. L’àcid benzoic, $\\ce{C6H5COOH}$, s’utilitza com a conservant en alguns aliments. Es prepara una dissolució aquosa $0,100\\ \\mathrm{mol\\,L^{-1}}$ d’aquest àcid, amb $K_a=6,3\\times10^{-5}$ a $25\\ ^\\circ\\mathrm{C}$. Calculeu-ne el pH emprant l’aproximació que la quantitat ionitzada és molt menor que la concentració inicial, i comproveu que el percentatge d’ionització és inferior al $5\\ \\%$. Es valora aquest àcid amb hidròxid de sodi $0,100\\ \\mathrm{mol\\,L^{-1}}$: escriviu l’equació iònica neta de la reacció i calculeu el volum de base necessari per arribar al punt d’equivalència si es valora una mostra de $25,0\\ \\mathrm{mL}$ de la dissolució àcida. Indiqueu si el pH al punt d’equivalència serà àcid, neutre o bàsic i escolliu l’indicador més adequat entre els següents: taronja de metil (interval $3,1$–$4,4$), blau de bromotimol (interval $6,0$–$7,6$) i fenolftaleïna (interval $8,2$–$10,0$). [1,25 punts]\\n\\n2.2. En un laboratori es comparen les molècules de tetraclorur de carboni i diclorometà, $\\ce{CCl4}$ i $\\ce{CH2Cl2}$. Representeu les estructures de Lewis i indiqueu la geometria al voltant de l’àtom de carboni de cadascuna. Justifiqueu quina de les molècules és polar i indiqueu les forces intermoleculars principals que es poden donar en cada substància. [1,25 punts]",
+   "solucion": "## 2.1. Valoración del ácido benzoico\n\n### pH de la disolución\n\nEl equilibrio de ionización es:\n\n$$\\ce{C6H5COOH + H2O <=> C6H5COO- + H3O+}$$\n\nSi $x$ es la concentración ionizada, la expresión de la constante es:\n\n$$K_a=\\frac{x^2}{0,100-x}\\simeq\\frac{x^2}{0,100}$$\n\nAplicando la aproximación indicada:\n\n$$x=[\\ce{H3O+}]=\\sqrt{K_a C_0}=\\sqrt{(6,3\\times10^{-5})(0,100)}=2,51\\times10^{-3}\\ \\mathrm{mol\\,L^{-1}}$$\n\nPor tanto,\n\n$$\\mathrm{pH}=-\\log[\\ce{H3O+}]=2,60$$\n\nEl porcentaje de ionización es:\n\n$$\\%\\text{ ionización}=\\frac{x}{C_0}\\times100=\\frac{2,51\\times10^{-3}}{0,100}\\times100=2,51\\%$$\n\nComo $2,51\\%<5\\%$, queda comprobada la validez de la aproximación.\n\n### Reacción y volumen en el punto de equivalencia\n\nLa ecuación iónica neta es:\n\n$$\\ce{C6H5COOH(aq) + OH-(aq) -> C6H5COO-(aq) + H2O(l)}$$\n\nLa estequiometría es $1:1$. Los moles iniciales de ácido son:\n\n$$n_{\\mathrm{ácido}}=(0,100\\ \\mathrm{mol\\,L^{-1}})(0,0250\\ \\mathrm{L})=2,50\\times10^{-3}\\ \\mathrm{mol}$$\n\nEn la equivalencia se requiere la misma cantidad de $\\ce{OH-}$:\n\n$$V_{\\ce{NaOH}}=\\frac{2,50\\times10^{-3}\\ \\mathrm{mol}}{0,100\\ \\mathrm{mol\\,L^{-1}}}=0,0250\\ \\mathrm{L}=25,0\\ \\mathrm{mL}$$\n\nEn equivalencia queda benzoato, que se hidroliza y produce $\\ce{OH-}$; por ello el medio es **básico**. Como comprobación, su concentración es $0,0500\\ \\mathrm{mol\\,L^{-1}}$ y $K_b=K_w/K_a=1,59\\times10^{-10}$. La aproximación $[\\ce{OH-}]\\simeq\\sqrt{K_b C}$ da un pH aproximado de $8,45$. El indicador más adecuado es la **fenolftaleína**, cuyo intervalo, $8,2$–$10,0$, incluye ese pH.\n\n## 2.2. Estructura, geometría y polaridad\n\nEn los siguientes esqueletos, cada enlace dibujado es sencillo y cada átomo de $\\ce{Cl}$ tiene **tres pares de electrones no enlazantes**; el carbono no tiene pares libres:\n\n$$\n\\begin{array}{ccccc}\n&&\\mathrm{Cl}&&\\\\\n&&|&&\\\\\n\\mathrm{Cl}&-&\\mathrm{C}&-&\\mathrm{Cl}\\\\\n&&|&&\\\\\n&&\\mathrm{Cl}&&\n\\end{array}\n\\qquad\\qquad\n\\begin{array}{ccccc}\n&&\\mathrm{Cl}&&\\\\\n&&|&&\\\\\n\\mathrm{H}&-&\\mathrm{C}&-&\\mathrm{Cl}\\\\\n&&|&&\\\\\n&&\\mathrm{H}&&\n\\end{array}\n$$\n\nEn ambas moléculas el carbono tiene cuatro pares enlazantes y ningún par libre: la geometría alrededor de él es **tetraédrica** (ángulos próximos a $109,5^\\circ$).\n\nEn $\\ce{CCl4}$, los cuatro enlaces $\\ce{C-Cl}$ son equivalentes y sus momentos dipolares se cancelan por simetría; la molécula es **apolar**. En $\\ce{CH2Cl2}$ los sustituyentes no son todos iguales, por lo que los momentos dipolares no se cancelan y la molécula es **polar**.\n\nLas fuerzas intermoleculares principales son las de **dispersión de London** en $\\ce{CCl4}$. En $\\ce{CH2Cl2}$ hay fuerzas de London y también interacciones **dipolo-dipolo**. No se espera enlace de hidrógeno, pues el hidrógeno está enlazado al carbono.",
+   "resultado": "pH = 2,60; ionización = 2,51 % (< 5 %); V(NaOH) = 25,0 mL; equivalencia básica (pH ≈ 8,45), indicador: fenolftaleína. CCl4: tetraédrica y apolar; CH2Cl2: tetraédrica y polar.",
+   "criterios": "Puntuación total: 2,50 puntos.\n\n**2.1 (1,25 puntos)**\n- Planteamiento del equilibrio y cálculo aproximado de [H3O+] y pH: 0,40 puntos.\n- Cálculo del porcentaje de ionización y comprobación de que es inferior al 5 %: 0,20 puntos.\n- Ecuación iónica neta correcta: 0,15 puntos.\n- Estequiometría y volumen de NaOH en equivalencia: 0,20 puntos.\n- Carácter básico del punto de equivalencia e indicador adecuado, con justificación: 0,30 puntos.\n\n**2.2 (1,25 puntos)**\n- Estructuras de Lewis correctas, incluidos los pares libres de los cloros: 0,45 puntos.\n- Geometría tetraédrica alrededor del carbono en ambas moléculas: 0,30 puntos.\n- Identificación y justificación de la polaridad de cada molécula: 0,25 puntos.\n- Fuerzas intermoleculares principales correctamente indicadas: 0,25 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "3",
+   "tema": "organica",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Un laboratori de control d’aromes analitza el butanoat d’etil, un èster emprat en formulacions d’aromes afruitats. La seva fórmula semidesenvolupada és $\\ce{CH3CH2CH2C(=O)OCH2CH3}$.\\n\\n3.1. Identifiqueu el grup funcional del compost i deduïu-ne la fórmula molecular. [0,75 punts]\\n\\n3.2. Escriviu l’equació de la hidròlisi àcida del butanoat d’etil en medi aquós i indiqueu els noms dels dos productes orgànics que s’obtenen. [0,90 punts]\\n\\n3.3. L’àcid hexanoic té fórmula semidesenvolupada $\\ce{CH3(CH2)4COOH}$. Determineu si l’àcid hexanoic i el butanoat d’etil són isòmers i justifiqueu la resposta indicant el tipus d’isomeria. [0,85 punts]",
+   "solucion": "### 3.1. Grup funcional i fórmula molecular\nEl compost presenta el grup funcional èster, identificable pel fragment $\\ce{-C(=O)-O-}$. Comptant els àtoms de la fórmula semidesenvolupada, hi ha $3+1+2=6$ àtoms de carboni, $3+2+2+2+3=12$ d’hidrogen i $2$ d’oxigen. Per tant, la fórmula molecular és $\\ce{C6H12O2}$.\n\n### 3.2. Hidròlisi àcida\nLa hidròlisi de l’èster amb aigua, catalitzada per àcid, és reversible:\n\n$$\\ce{CH3CH2CH2C(=O)OCH2CH3 + H2O <=>[H+] CH3CH2CH2COOH + CH3CH2OH}$$\n\nEls productes orgànics són l’àcid butanoic i l’etanol. El $\\ce{H+}$ actua com a catalitzador i no es consumeix.\n\n### 3.3. Isomeria\nPer a l’àcid hexanoic, $\\ce{CH3(CH2)4COOH}$, el recompte és $1+4+1=6$ àtoms de carboni, $3+8+1=12$ d’hidrogen i $2$ d’oxigen: també té fórmula molecular $\\ce{C6H12O2}$. Així, l’àcid hexanoic i el butanoat d’etil són isòmers constitucionals de funció: tenen la mateixa fórmula molecular, però el primer és un àcid carboxílic i el segon és un èster.\n\n**Puntuació màxima: 2,50/2,50 punts.**",
+   "resultado": "Butanoat d’etil: èster, $\\ce{C6H12O2}$; hidròlisi: àcid butanoic i etanol; és isòmer funcional de l’àcid hexanoic.",
+   "criterios": "3.1 (0,75 punts): 0,30 per identificar el grup èster; 0,45 per deduir correctament $\\ce{C6H12O2}$. 3.2 (0,90 punts): 0,60 per una equació d’hidròlisi àcida correcta i equilibrada; 0,15 per cadascun dels noms dels productes orgànics. 3.3 (0,85 punts): 0,40 per justificar que l’àcid hexanoic té la mateixa fórmula molecular; 0,20 per concloure que són isòmers; 0,25 per especificar que és isomeria de funció i distingir els grups funcionals.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "organica",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "En una activitat de selecció de matèries primeres per a recobriments, es revisen diferents transformacions i propietats de compostos orgànics. Responeu només dues de les quatre opcions següents; cada opció val 1,25 punts.\\n\\na) Escriviu l’equació de la reacció entre el propè, $\\ce{CH3CH=CH2}$, i l’hidrogen que dona lloc a propà. Classifiqueu el tipus de reacció.\\n\\nb) En la molècula de 2-bromobutà, $\\ce{CH3CH(Br)CH2CH3}$, identifiqueu si hi ha un carboni estereogènic. Indiqueu quants estereoisòmers presenta aquesta molècula i quina relació hi ha entre ells.\\n\\nc) Escriviu les fórmules semidesenvolupades del propanal i de la propanona. Indiqueu el grup funcional de cadascun i expliqueu si són isòmers.\\n\\nd) Completeu i ajusteu l’equació de combustió completa del propan-1-ol, $\\ce{CH3CH2CH2OH}$, amb oxigen. Calculeu la quantitat de $\\ce{CO2}$ que es forma en cremar completament $0,200\\ \\mathrm{mol}$ de propan-1-ol.",
+   "solucion": "Se resuelven las opciones **a)** y **d)**, que suman los 2,5 puntos.\n\n### a) Hidrogenación del propè\n\nEl hidrógeno se adiciona al doble enlace del propè y se obtiene propà:\n\n$$\\mathrm{CH_3CH{=}CH_2 + H_2 \\longrightarrow CH_3CH_2CH_3}$$\n\nEs una reacción de **adición**, concretamente una **hidrogenación**: el doble enlace se transforma en enlace simple.\n\n### d) Combustión del propan-1-ol\n\nSe plantean coeficientes desconocidos y se aplican las conservaciones de átomos. Para\n\n$$a\\,\\mathrm{C_3H_8O}+b\\,\\mathrm{O_2}\\longrightarrow c\\,\\mathrm{CO_2}+d\\,\\mathrm{H_2O}$$\n\nlos balances de carbono e hidrógeno dan $c=3a$ y $d=4a$. El balance de oxígeno da $a+2b=2c+d=10a$, por lo que $b=\\frac{9a}{2}$. Tomando $a=2$ para obtener coeficientes enteros:\n\n$$\\mathrm{2\\,CH_3CH_2CH_2OH+9\\,O_2\\longrightarrow 6\\,CO_2+8\\,H_2O}$$\n\nLa proporción estequiométrica es $2\\ \\mathrm{mol}$ de propan-1-ol por $6\\ \\mathrm{mol}$ de dióxido de carbono; por tanto:\n\n$$n(\\mathrm{CO_2})=0{,}200\\ \\mathrm{mol}\\times\\frac{6\\ \\mathrm{mol\\ CO_2}}{2\\ \\mathrm{mol\\ propan\\text{-}1\\text{-}ol}}=0{,}600\\ \\mathrm{mol}$$\n\n**Comprobación:** en ambos miembros hay 6 átomos de carbono, 16 de hidrógeno y 20 de oxígeno. La ecuación está ajustada.",
+   "resultado": "a) \\(\\mathrm{CH_3CH{=}CH_2+H_2\\longrightarrow CH_3CH_2CH_3}\\), reacción de adición (hidrogenación). d) \\(\\mathrm{2\\,CH_3CH_2CH_2OH+9\\,O_2\\longrightarrow6\\,CO_2+8\\,H_2O}\\); se forman \\(0{,}600\\ \\mathrm{mol}\\) de \\(\\mathrm{CO_2}\\).",
+   "criterios": "Se corrigen únicamente las opciones a) y d), cada una sobre 1,25 puntos. a) 0,75 puntos por la ecuación correcta y ajustada; 0,50 puntos por clasificarla como reacción de adición o hidrogenación. d) 0,75 puntos por completar y ajustar correctamente la combustión; 0,50 puntos por la relación estequiométrica, el cálculo de 0,600 mol de CO₂ y sus unidades. La comprobación de los átomos confirma el ajuste.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "acidobase",
+   "p": 0.9
+  },
+  {
+   "id": "equilibrio",
+   "p": 0.844
+  },
+  {
+   "id": "termo",
+   "p": 0.837
+  },
+  {
+   "id": "enlace",
+   "p": 0.751
+  },
+  {
+   "id": "organica",
+   "p": 0.733
+  },
+  {
+   "id": "estructura",
+   "p": 0.376
+  }
+ ],
+ "referencias": [
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/quimica/ord/pau_quim26o.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/quimica/ord/pau_quim26o_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/quimica/ext/pau_quim25sl.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/quimica/ext/pau_quim25sl_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/quimica/ord/pau_quim25jl_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/quimica/ord/pau_quim25jl_es_tei.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/quimica/ext/pau_quim26e.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/quimica/ord/pau_quim26o.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/quimica/ord/pau_quim26o_es.pdf"
+ ]
+}
