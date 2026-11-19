@@ -1,0 +1,109 @@
+{
+ "ccaa": "baleares",
+ "materia": "fisica",
+ "titulo": "Física — Propuesta original PAU 2027 de Illes Balears",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cinco preguntas, de 2 puntos cada una (10 puntos en total). En la pregunta 1, responded a todos los apartados. En la pregunta 2, responded al apartado a y elegid entre b.1 y b.2. En la pregunta 3, elegid entre a.1 y a.2. En la pregunta 4, responded al apartado a y elegid entre b.1 y b.2. En la pregunta 5, elegid entre a.1 y a.2. Responded solo a una opción cuando se indique; si respondéis ambas, se corregirá únicamente la que aparezca primero. Se permite usar calculadora y regla, de acuerdo con las especificaciones generales de la PAU. Utilizad bolígrafo azul o negro y las constantes físicas del formulario oficial. Indicad los razonamientos y las unidades en los resultados.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "gravitacion",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Una misión de prospección ha situado una sonda alrededor de un asteroide aproximadamente esférico, de masa $1,50×10^{20}$ kg y radio $1,00×10^{5}$ m. La órbita de la sonda es circular y se encuentra a una altura igual al radio del asteroide. Considerad despreciables la influencia de otros cuerpos y la resistencia del medio. a) Calculad la intensidad del campo gravitatorio en la superficie del asteroide y en la órbita de la sonda (0,6 puntos). b) Calculad la energía potencial gravitatoria de una sonda de 500 kg en esa órbita, tomando como referencia el infinito (0,6 puntos). c) Determinad la velocidad orbital y el periodo de la sonda (0,8 puntos).",
+   "solucion": "### Datos y distancia orbital\nLa altura de la sonda es igual al radio del asteroide, por lo que su distancia al centro es $r=R+h=2R=2,00\\times10^{5}\\,\\mathrm{m}$. Se usa $G=6,67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}$.\n\n### a) Intensidad del campo gravitatorio\nLa intensidad del campo a una distancia $r$ del centro es $g(r)=\\dfrac{GM}{r^2}$.\n\nEn la superficie, $r=R$:\n$$g_{\\mathrm{sup}}=\\frac{GM}{R^2}=\\frac{(6,67\\times10^{-11})(1,50\\times10^{20})}{(1,00\\times10^5)^2}=1,0005\\,\\mathrm{m\\,s^{-2}}\\approx1,00\\,\\mathrm{m\\,s^{-2}}.$$\n\nEn la órbita, $r=2R$:\n$$g_{\\mathrm{orb}}=\\frac{GM}{(2R)^2}=0,250125\\,\\mathrm{m\\,s^{-2}}\\approx0,250\\,\\mathrm{m\\,s^{-2}}.$$\n\n### b) Energía potencial gravitatoria\nTomando nula la energía potencial en el infinito, $U(r)=-\\dfrac{GMm}{r}$. Para $m=500\\,\\mathrm{kg}$ y $r=2,00\\times10^5\\,\\mathrm{m}$:\n$$U=-\\frac{(6,67\\times10^{-11})(1,50\\times10^{20})(500)}{2,00\\times10^5}=-2,50125\\times10^7\\,\\mathrm{J}\\approx-2,50\\times10^7\\,\\mathrm{J}.$$\n\n### c) Velocidad orbital y periodo\nPara una órbita circular, la fuerza gravitatoria proporciona la fuerza centrípeta: $\\dfrac{GMm}{r^2}=\\dfrac{mv^2}{r}$. Por tanto,\n$$v=\\sqrt{\\frac{GM}{r}}=\\sqrt{\\frac{(6,67\\times10^{-11})(1,50\\times10^{20})}{2,00\\times10^5}}=223,663\\,\\mathrm{m\\,s^{-1}}\\approx224\\,\\mathrm{m\\,s^{-1}}.$$\n\nEl periodo es $T=\\dfrac{2\\pi r}{v}$:\n$$T=\\frac{2\\pi(2,00\\times10^5)}{223,663}=5,6184\\times10^3\\,\\mathrm{s}\\approx5,62\\times10^3\\,\\mathrm{s}.$$\n",
+   "resultado": "$g_{\\mathrm{sup}}=1,00\\,\\mathrm{m\\,s^{-2}}$; $g_{\\mathrm{orb}}=0,250\\,\\mathrm{m\\,s^{-2}}$; $U=-2,50\\times10^7\\,\\mathrm{J}$; $v=224\\,\\mathrm{m\\,s^{-1}}$; $T=5,62\\times10^3\\,\\mathrm{s}$.",
+   "criterios": "Total: 2,0 puntos. a) 0,6 puntos: 0,3 por aplicar correctamente $g=GM/r^2$ y obtener el valor en la superficie; 0,3 por usar la distancia orbital $r=2R$ y obtener el valor en la órbita. b) 0,6 puntos: 0,2 por la expresión $U=-GMm/r$ con referencia en el infinito; 0,4 por la sustitución, el signo y el resultado con unidades. c) 0,8 puntos: 0,4 por plantear y calcular la velocidad a partir de la condición de órbita circular; 0,4 por calcular el periodo con $T=2\\pi r/v$ y expresar el resultado con unidades. Se aceptan diferencias menores debidas al redondeo.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "electrico",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Un sensor de campo eléctrico se coloca en el punto $P$ de un montaje plano. En un sistema cartesiano, las cargas son $q_1=+5,00$ nC en $(0,0)$ y $q_2=-2,56$ nC en $(0,30;0)$ m, mientras que $P=(0,30;0,40)$ m. El eje $x$ apunta hacia la derecha y el eje $y$ hacia arriba. a) Calculad las componentes $E_x$ y $E_y$ del campo eléctrico total en $P$. Calculad también la fuerza eléctrica sobre una carga de prueba $+2,00$ nC situada en ese punto (1,2 puntos). b.1) Se añade una carga puntual $q$ en $A=(0,50;0,40)$ m. Determinad el signo y el valor de $q$ para que el campo total en $P$ sea nulo (0,8 puntos). O bien b.2) Calculad el potencial eléctrico en $P$ debido a $q_1$ y $q_2$ (0,8 puntos).",
+   "solucion": "Tomamos $k=8{,}9875517923\\times10^9\\ \\mathrm{N\\,m^2/C^2}$. El campo creado por una carga puntual es $\\vec E=kq\\,\\vec r/r^3$, donde $\\vec r$ va desde la carga hasta el punto $P$.\n\n### a) Campo y fuerza en $P$\n\nPara $q_1$, el vector desde la carga hasta $P$ es $\\vec r_1=(0{,}30;0{,}40)\\ \\mathrm m$ y $r_1=0{,}50\\ \\mathrm m$. Por tanto,\n\n$$\\vec E_1=k\\frac{5{,}00\\times10^{-9}}{(0{,}50)^3}(0{,}30;0{,}40)=(107{,}851;143{,}801)\\ \\mathrm{N/C}.$$\n\nPara $q_2$, $\\vec r_2=(0;0{,}40)\\ \\mathrm m$ y $r_2=0{,}40\\ \\mathrm m$. Como $q_2$ es negativa, el campo en $P$ apunta hacia abajo:\n\n$$\\vec E_2=k\\frac{-2{,}56\\times10^{-9}}{(0{,}40)^3}(0;0{,}40)=(0;-143{,}801)\\ \\mathrm{N/C}.$$\n\nSumando las contribuciones,\n\n$$\\boxed{E_x=107{,}851\\ \\mathrm{N/C},\\qquad E_y=0\\ \\mathrm{N/C}.}$$\n\nLa fuerza sobre la carga de prueba $q_t=+2{,}00\\times10^{-9}\\ \\mathrm C$ es $\\vec F=q_t\\vec E$:\n\n$$\\boxed{\\vec F=(2{,}157\\times10^{-7};0)\\ \\mathrm N,\\qquad |\\vec F|=2{,}157\\times10^{-7}\\ \\mathrm N.}$$\n\n### b.1) Carga que anula el campo\n\nEl campo que ya existe en $P$ apunta hacia $+x$. La carga añadida está a la derecha de $P$, a una distancia de $0{,}20\\ \\mathrm m$. Para crear en $P$ un campo hacia $-x$, debe ser positiva. Su campo es $\\vec E_q=(-kq/(0{,}20)^2;0)$. Imponiendo que la componente $x$ total sea nula:\n\n$$107{,}8506215-\\frac{kq}{(0{,}20)^2}=0\\quad\\Longrightarrow\\quad \\boxed{q=+4{,}80\\times10^{-10}\\ \\mathrm C=+0{,}480\\ \\mathrm{nC}.}$$\n\nLa componente $y$ ya era nula y la carga añadida no aporta campo en esa dirección.\n\n### b.2) Potencial en $P$\n\nEl potencial es escalar y se suman las contribuciones con su signo. Las distancias son $r_1=0{,}50\\ \\mathrm m$ y $r_2=0{,}40\\ \\mathrm m$:\n\n$$V(P)=k\\left(\\frac{5{,}00\\times10^{-9}}{0{,}50}+\\frac{-2{,}56\\times10^{-9}}{0{,}40}\\right)=\\boxed{32{,}355\\ \\mathrm V\\simeq32{,}4\\ \\mathrm V.}$$\n\nLos apartados b.1 y b.2 son alternativas; se muestran ambos desarrollos.",
+   "resultado": "a) $\\vec E=(107{,}851;0)\\ \\mathrm{N/C}$ y $\\vec F=(2{,}157\\times10^{-7};0)\\ \\mathrm N$. b.1) $q=+0{,}480\\ \\mathrm{nC}$. b.2) $V(P)=32{,}355\\ \\mathrm V$.",
+   "criterios": "Puntuación total: 2,0 puntos. Apartado a (1,2 puntos): 0,4 por establecer correctamente los vectores, distancias y sentidos de los campos; 0,4 por calcular y sumar las componentes de ambos campos; 0,4 por aplicar $\\vec F=q_t\\vec E$ y dar correctamente la fuerza. Apartado b, se corrige una sola de las dos alternativas (0,8 puntos): b.1, 0,3 por justificar el signo de la carga y la dirección del campo requerido, y 0,5 por plantear la anulación del campo y obtener su valor; o b.2, 0,3 por usar las distancias y los signos correctos en las contribuciones al potencial, y 0,5 por sumarlas y dar el resultado con unidad. Se aceptan pequeñas diferencias de redondeo.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "magnetico",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Elegid una de las dos situaciones siguientes. a.1) Una bobina de 80 espiras cuadradas, de lado 5,0 cm, está conectada a una resistencia de 20 Ω. El campo magnético es perpendicular al plano de la bobina y entra en la página; su módulo aumenta uniformemente de 0,10 T a 0,50 T en 0,20 s. Calculad el módulo de la fuerza electromotriz inducida y de la corriente (1,4 puntos) e indicad el sentido de la corriente, visto de frente a la página (0,6 puntos). a.2) En un analizador de partículas, un ion de carga $+3,0$ μC y masa $6,0×10^{-9}$ kg entra con una velocidad de 20 m/s perpendicular a un campo magnético uniforme de 0,10 T, dirigido hacia dentro de la página. Calculad el módulo y el sentido de la fuerza magnética inicial (0,7 puntos), el radio de la trayectoria circular (0,7 puntos) y el periodo del movimiento (0,6 puntos).",
+   "solucion": "### Opción elegida: a.1\n\nEl área de cada espira cuadrada es $A=(0,050\\,\\text{m})^2=2,5\\times10^{-3}\\,\\text{m}^2$. Como el campo es perpendicular al plano de la bobina, el flujo por espira es $\\Phi_B=BA$. Aplicando la ley de Faraday al módulo de la fuerza electromotriz inducida:\n\n$$|\\mathcal{E}|=N\\frac{|\\Delta\\Phi_B|}{\\Delta t}=NA\\frac{|B_f-B_i|}{\\Delta t}.$$\n\nCon $N=80$, $B_i=0,10\\,\\text{T}$, $B_f=0,50\\,\\text{T}$ y $\\Delta t=0,20\\,\\text{s}$:\n\n$$|\\mathcal{E}|=80(2,5\\times10^{-3})\\frac{0,50-0,10}{0,20}=0,40\\,\\text{V}.$$\n\nPor la ley de Ohm, la intensidad de corriente es\n\n$$I=\\frac{|\\mathcal{E}|}{R}=\\frac{0,40}{20}=0,020\\,\\text{A}.$$\n\nEl campo magnético entrante está aumentando. Por la ley de Lenz, la corriente inducida debe crear un campo saliente de la página para oponerse a ese aumento. Con la regla de la mano derecha, ese campo corresponde a una corriente en sentido antihorario, vista de frente a la página.",
+   "resultado": "|ε| = 0,40 V; I = 0,020 A; sentido antihorario visto de frente a la página.",
+   "criterios": "Total: 2,0 puntos. Cálculo del área de la espira y aplicación de la ley de Faraday, incluyendo el número de espiras y la variación temporal del campo: 0,6 puntos. Valor de la fuerza electromotriz inducida con unidad: 0,4 puntos. Aplicación de la ley de Ohm y valor de la corriente con unidad: 0,4 puntos. Aplicación de la ley de Lenz para identificar que el campo inducido es saliente: 0,3 puntos. Uso de la regla de la mano derecha para indicar correctamente el sentido antihorario visto de frente: 0,3 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "ondas",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Un cable de instrumentación instalado en un puente transmite una vibración transversal que se modeliza mediante $y(x,t)=0,020\\cos(2πx-4πt)$, con $y$ y $x$ en metros y $t$ en segundos. a) Indicad el sentido de propagación y calculad la longitud de onda, el periodo y la velocidad de propagación (0,6 puntos). Calculad también el desplazamiento del cable en $x=0,25$ m y $t=0,125$ s (0,2 puntos). b.1) Para proyectar una señal luminosa sobre una pantalla se usa una lente convergente de distancia focal $+20$ cm. Un objeto de 2,0 cm de altura se coloca a 30 cm de la lente. Calculad la posición de la imagen (0,6 puntos) y su altura y naturaleza (0,6 puntos). O bien b.2) Un equipo de comunicación óptica emite luz desde un líquido de índice de refracción 1,50 hacia el aire, de índice 1,00. Calculad el ángulo crítico, medido desde la normal, y especificad para qué ángulos de incidencia se produce reflexión total interna (1,2 puntos).",
+   "solucion": "## a) Onda transversal\n\nLa expresión puede escribirse como $y(x,t)=A\\cos(kx-\\omega t)$, con $A=0{,}020\\,\\text{m}$, $k=2\\pi\\,\\text{rad/m}$ y $\\omega=4\\pi\\,\\text{rad/s}$. La fase constante cumple $kx-\\omega t=\\text{constante}$, por lo que $x$ aumenta al aumentar $t$: la onda se propaga en el sentido positivo del eje $x$.\n\nLa longitud de onda es $\\lambda=\\frac{2\\pi}{k}=1{,}0\\,\\text{m}$. El periodo es $T=\\frac{2\\pi}{\\omega}=0{,}50\\,\\text{s}$. La rapidez de propagación es $v=\\frac{\\omega}{k}=2{,}0\\,\\text{m/s}$, en el sentido $+x$.\n\nPara $x=0{,}25\\,\\text{m}$ y $t=0{,}125\\,\\text{s}$, la fase vale $2\\pi(0{,}25)-4\\pi(0{,}125)=0$, de modo que $y=0{,}020\\cos(0)=0{,}020\\,\\text{m}$.\n\n## b.1) Lente convergente\n\nCon la convención de signos habitual, $f=+20\\,\\text{cm}$ y $s_o=30\\,\\text{cm}$. La ecuación de la lente delgada da $\\frac{1}{f}=\\frac{1}{s_o}+\\frac{1}{s_i}$, por lo que $\\frac{1}{s_i}=\\frac{1}{20}-\\frac{1}{30}=\\frac{1}{60}$ y $s_i=+60\\,\\text{cm}$. La imagen se forma a $60\\,\\text{cm}$ de la lente, al lado opuesto al objeto.\n\nEl aumento es $m=-\\frac{s_i}{s_o}=-2$. Por tanto, $h_i=m h_o=(-2)(2{,}0\\,\\text{cm})=-4{,}0\\,\\text{cm}$. La imagen es real, invertida y de altura doble que el objeto.\n\n## b.2) Alternativa de reflexión total interna\n\nLa ley de Snell en el ángulo crítico, para el rayo refractado paralelo a la superficie, da $n_1\\sin\\theta_c=n_2$, así que $\\theta_c=\\arcsin\\left(\\frac{1{,}00}{1{,}50}\\right)=41{,}8^\\circ$ aproximadamente. La reflexión total interna se produce para ángulos de incidencia medidos desde la normal estrictamente mayores que el ángulo crítico: $\\theta_i>41{,}8^\\circ$ (hasta $90^\\circ$). En el ángulo crítico el rayo refractado va rasante a la interfaz.",
+   "resultado": "Onda: sentido +x, λ = 1,0 m, T = 0,50 s, v = 2,0 m/s y y = 0,020 m. b.1: imagen a 60 cm, altura −4,0 cm, real e invertida. b.2: θc = 41,8°; hay reflexión total interna si θi > 41,8°.",
+   "criterios": "Total: 2,0 puntos. a) 0,6 puntos: sentido de propagación (0,15), longitud de onda (0,15), periodo (0,15) y velocidad (0,15), con unidades; 0,2 puntos por evaluar correctamente el desplazamiento. Se corrige una sola alternativa de b). b.1) 0,6 puntos por la posición de la imagen, con signo y unidades, y 0,6 puntos por la altura y la naturaleza: altura con signo (0,3) y clasificación coherente (0,3). b.2) 1,2 puntos: cálculo del ángulo crítico (0,6) y condición correcta de reflexión total interna, especificando que se mide desde la normal y que debe ser estrictamente mayor que el ángulo crítico (0,6).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "moderna",
+   "puntos": 2.0,
+   "tipo": "calculo",
+   "enunciado": "Elegid una de las dos situaciones siguientes. a.1) Un fotocátodo empleado en un detector tiene un trabajo de extracción de 2,00 eV y se ilumina con luz de longitud de onda 400 nm. Usad $hc=1240$ eV·nm. Calculad la longitud de onda umbral (0,6 puntos), la energía cinética máxima de los electrones y la tensión de frenado necesaria (0,8 puntos). Indicad si duplicar la intensidad de la luz, manteniendo su longitud de onda, modifica la energía cinética máxima o la tasa de electrones emitidos (0,6 puntos). a.2) El yodo-131 se utiliza como trazador en medicina nuclear. Una muestra tiene una actividad inicial de 480 MBq y un periodo de semidesintegración de 8,0 días. Escribid la ecuación de su desintegración beta menos, incluyendo el antineutrino electrónico (1,0 punto), y calculad la actividad de la muestra al cabo de 24 días (1,0 punto).",
+   "solucion": "### Se elige la situación a.1\n\nLa función de trabajo del fotocátodo es $W=2,00\\,\\text{eV}$ y la longitud de onda incidente es $\\lambda=400\\,\\text{nm}$.\n\n**1. Longitud de onda umbral**\n\nEn el umbral, la energía del fotón iguala el trabajo de extracción: $W=hc/\\lambda_0$. Por tanto,\n\n$$\\lambda_0=\\frac{hc}{W}=\\frac{1240\\,\\text{eV}\\cdot\\text{nm}}{2,00\\,\\text{eV}}=620\\,\\text{nm}.$$\n\n**2. Energía cinética máxima y tensión de frenado**\n\nLa energía del fotón incidente es\n\n$$E_\\gamma=\\frac{hc}{\\lambda}=\\frac{1240}{400}\\,\\text{eV}=3,10\\,\\text{eV}.$$\n\nAplicando la ecuación fotoeléctrica de Einstein:\n\n$$K_{\\max}=E_\\gamma-W=3,10\\,\\text{eV}-2,00\\,\\text{eV}=1,10\\,\\text{eV}.$$\n\nLa tensión de frenado satisface $eV_f=K_{\\max}$. Cuando la energía se expresa en electronvoltios, su valor numérico coincide con la tensión en voltios; así, $V_f=1,10\\,\\text{V}$.\n\n**3. Efecto de duplicar la intensidad**\n\nSi se mantiene la longitud de onda, no cambia la energía de cada fotón y, por tanto, tampoco cambia $K_{\\max}$. Al duplicar la intensidad aumenta el flujo de fotones; suponiendo que se mantiene la eficiencia del fotocátodo, se duplica la tasa de electrones emitidos.",
+   "resultado": "Longitud de onda umbral: 620 nm; energía cinética máxima: 1,10 eV; tensión de frenado: 1,10 V. Al duplicar la intensidad, la energía cinética máxima no cambia y la tasa de electrones emitidos se duplica.",
+   "criterios": "Total: 2,0 puntos. Longitud de onda umbral, 0,6 puntos: planteamiento de la condición de umbral, 0,3; cálculo y resultado con unidad, 0,3. Energía cinética máxima y tensión de frenado, 0,8 puntos: energía del fotón, 0,2; aplicación de la ecuación fotoeléctrica y resultado de Kmax, 0,3; relación entre Kmax y la tensión de frenado y resultado, 0,3. Efecto de duplicar la intensidad, 0,6 puntos: indicar que Kmax no cambia, 0,3; indicar que la tasa de electrones emitidos se duplica, 0,3.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "gravitacion",
+   "p": 0.9
+  },
+  {
+   "id": "electrico",
+   "p": 0.9
+  },
+  {
+   "id": "magnetico",
+   "p": 0.777
+  },
+  {
+   "id": "moderna",
+   "p": 0.563
+  },
+  {
+   "id": "ondas",
+   "p": 0.472
+  },
+  {
+   "id": "optica",
+   "p": 0.436
+  }
+ ],
+ "referencias": [
+  "manual:manual/baleares/2026/Física junio examen __FISICA.txt",
+  "manual:manual/baleares/2026/Física julio examen __FISICA.txt",
+  "manual:manual/baleares/2023/Física julio examen __FISICA.txt",
+  "manual:manual/baleares/2023/Física junio examen __FISICA.txt",
+  "manual:manual/baleares/2024/Física julio examen __FISICA.txt",
+  "manual:manual/baleares/2025/Física julio examen __FISICA.txt",
+  "manual:manual/baleares/2025/Física junio examen __FISICA.txt",
+  "manual:manual/baleares/2026/Física julio examen __FISICA.txt",
+  "manual:manual/baleares/2026/Física junio examen __FISICA.txt"
+ ]
+}
