@@ -1,0 +1,94 @@
+{
+ "ccaa": "castillalamancha",
+ "materia": "matccss",
+ "titulo": "Propuesta original de Matemáticas Aplicadas a las Ciencias Sociales II — PAU 2027 de Castilla-La Mancha",
+ "duracion_min": 90,
+ "instrucciones": "Resuelve los cuatro ejercicios. En los ejercicios 3 y 4 contesta solamente a uno de los dos apartados propuestos; si resuelves los dos, se corregirá únicamente el primero que hayas resuelto. Cada ejercicio completo puntúa 2,5 puntos. Redacta las respuestas con claridad y razona los procedimientos. Solo están permitidas las calculadoras de tipo 1 y 2.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "probabilidad",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una cooperativa de reparto de productos de proximidad clasifica sus pedidos según cómo se realizan: el 50% se solicita mediante una aplicación, el 30% por teléfono y el resto en un punto de recogida. Respectivamente, el 20%, el 50% y el 25% de esos pedidos solicitan el uso de envases reutilizables. a) Si se elige un pedido al azar, calcula la probabilidad de que solicite envases reutilizables. (1 punto) b) Si un pedido solicita envases reutilizables, calcula la probabilidad de que se haya realizado por teléfono. (1 punto) c) Se eligen al azar dos pedidos de un registro grande, suponiendo que las selecciones son independientes. Calcula la probabilidad de que uno se haya realizado mediante la aplicación y el otro en un punto de recogida. (0,5 puntos)",
+   "solucion": "Sea $A$ el suceso «pedido realizado mediante la aplicación», $T$ «pedido realizado por teléfono», $P$ «pedido realizado en un punto de recogida» y $R$ «pedido que solicita envases reutilizables».\n\nLas probabilidades de los tres canales son $P(A)=0{,}50$, $P(T)=0{,}30$ y $P(P)=1-0{,}50-0{,}30=0{,}20$. Además, $P(R\\mid A)=0{,}20$, $P(R\\mid T)=0{,}50$ y $P(R\\mid P)=0{,}25$.\n\n**a)** Por la ley de la probabilidad total:\n$$P(R)=P(A)P(R\\mid A)+P(T)P(R\\mid T)+P(P)P(R\\mid P).$$\n$$P(R)=0{,}50\\cdot0{,}20+0{,}30\\cdot0{,}50+0{,}20\\cdot0{,}25=0{,}30.$$\n\n**b)** Por la definición de probabilidad condicionada:\n$$P(T\\mid R)=\\frac{P(T\\cap R)}{P(R)}=\\frac{P(T)P(R\\mid T)}{P(R)}=\\frac{0{,}30\\cdot0{,}50}{0{,}30}=0{,}50.$$\n\n**c)** Como las selecciones son independientes, hay dos casos excluyentes: primero aplicación y después punto de recogida, o al revés. Por tanto,\n$$P(\\text{uno de cada canal})=P(A)P(P)+P(P)P(A)=2\\cdot0{,}50\\cdot0{,}20=0{,}20.$$\n\n**Resultados:** a) $0{,}30$; b) $0{,}50$; c) $0{,}20$.",
+   "resultado": "a) 0,30; b) 0,50; c) 0,20.",
+   "criterios": "a) 1 punto: determinar que la proporción de pedidos en punto de recogida es 0,20 (0,20 puntos); aplicar correctamente la ley de la probabilidad total con los tres canales (0,50 puntos); obtener 0,30 (0,30 puntos). b) 1 punto: expresar la probabilidad condicionada mediante el cociente correspondiente (0,40 puntos); calcular correctamente P(T∩R)=0,30·0,50 y usar P(R)=0,30 (0,35 puntos); obtener 0,50 (0,25 puntos). c) 0,5 puntos: reconocer los dos órdenes posibles y que son casos excluyentes (0,20 puntos); aplicar la independencia y sumar 2·0,50·0,20 (0,20 puntos); obtener 0,20 (0,10 puntos).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "matrices",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una cooperativa distribuye 24000 euros entre tres fondos, A, B y C. Por cada euro invertido obtiene un beneficio de 0,04 euros en A, 0,08 euros en B y 0,06 euros en C. El beneficio total es de 1340 euros y la cantidad invertida en A es igual a la suma de las cantidades invertidas en B y C. Sean $x$, $y$ y $z$ las cantidades, en euros, invertidas en A, B y C, respectivamente. a) Plantea el sistema de ecuaciones que permite determinar las tres cantidades y escribe su matriz ampliada. (1,5 puntos) b) Resuelve el sistema y determina cuánto se invirtió en cada fondo. (1 punto)",
+   "solucion": "Sea $x$, $y$ y $z$ la cantidad invertida, en euros, en los fondos A, B y C, respectivamente.\n\n**a) Planteamiento del sistema y matriz ampliada**\n\nLa inversión total, el beneficio total y la relación entre las cantidades cumplen:\n\n$$\\begin{cases}\nx+y+z=24000,\\\\\n0{,}04x+0{,}08y+0{,}06z=1340,\\\\\nx=y+z.\n\\end{cases}$$\n\nEscribiendo la tercera ecuación como $x-y-z=0$, la matriz ampliada del sistema es\n\n$$\\left(\\begin{array}{ccc|c}\n1&1&1&24000\\\\\n0{,}04&0{,}08&0{,}06&1340\\\\\n1&-1&-1&0\n\\end{array}\\right).$$\n\n**b) Resolución**\n\nDe $x=y+z$ y $x+y+z=24000$ se obtiene $2x=24000$, luego $x=12000$. Por tanto, $y+z=12000$.\n\nSustituyendo $x=12000$ en la ecuación del beneficio:\n\n$$0{,}04\\cdot12000+0{,}08y+0{,}06z=1340,$$\n\n$$0{,}08y+0{,}06z=860.$$\n\nMultiplicando esta última ecuación por $100$ y usando $y+z=12000$:\n\n$$8y+6z=86000,\\qquad 6y+6z=72000.$$\n\nRestando las ecuaciones resulta $2y=14000$, así que $y=7000$. Entonces $z=12000-7000=5000$.\n\nComprobación: $12000+7000+5000=24000$ y $0{,}04\\cdot12000+0{,}08\\cdot7000+0{,}06\\cdot5000=1340$.",
+   "resultado": "Fondo A: 12 000 €; fondo B: 7 000 €; fondo C: 5 000 €.",
+   "criterios": "Total: 2,5 puntos. a) 1,5 puntos: 0,75 por expresar correctamente las tres condiciones como ecuaciones; 0,75 por escribir correctamente la matriz ampliada. b) 1 punto: 0,5 por un procedimiento válido de resolución del sistema; 0,5 por obtener e identificar correctamente las tres cantidades (aproximadamente 0,17 por cada fondo).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "funciones",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Elige y resuelve solo uno de los dos apartados siguientes. Apartado a) En un estudio sobre la recuperación de un hábitat, un indicador de actividad de los polinizadores, medido en puntos, se modeliza durante los dos primeros días mediante $R(t)=t^3-6t^2+9t+5$, con $0≤t≤2$, donde $t$ es el tiempo en días. a.1) Calcula la derivada de $R$ y determina los puntos críticos del modelo en el intervalo estudiado. (0,75 puntos) a.2) Indica en qué intervalos aumenta y disminuye el indicador. (0,75 puntos) a.3) Determina el valor máximo del indicador durante esos dos días y cuándo se alcanza. Interpreta el resultado en el contexto. (1 punto) Apartado b) El beneficio diario, en decenas de euros, de un taller de reparación se modeliza mediante $P(x)=-2x^2+48x-160$, con $0≤x≤20$, donde $x$ representa el volumen de trabajo en lotes de diez reparaciones y se considera una variable continua. b.1) Utilizando la derivada, determina el volumen de trabajo que maximiza el beneficio y calcula dicho beneficio máximo. (1,5 puntos) b.2) Calcula los niveles de actividad para los que el beneficio es cero e indica para qué valores de $x$ el beneficio es positivo. (1 punto)",
+   "solucion": "### Apartado a)\n\nSea $R(t)=t^3-6t^2+9t+5$, con $0\\le t\\le 2$.\n\n**a.1) Derivada y puntos críticos**\n\nDerivamos y factorizamos:\n$$R'(t)=3t^2-12t+9=3(t-1)(t-3).$$\nLos puntos críticos interiores satisfacen $R'(t)=0$. Las soluciones son $t=1$ y $t=3$, pero solo $t=1$ pertenece al intervalo estudiado. Además, $R(1)=9$, por lo que el punto crítico del modelo en el intervalo es $(1,9)$.\n\n**a.2) Intervalos de crecimiento y decrecimiento**\n\nComo $3>0$, el signo de la derivada viene dado por $(t-1)(t-3)$. Para $0<t<1$, ambos factores son negativos y $R'(t)>0$; para $1<t<2$, el primer factor es positivo y el segundo negativo, así que $R'(t)<0$. Por tanto, $R$ aumenta en $[0,1]$ y disminuye en $[1,2]$.\n\n**a.3) Máximo en los dos días**\n\nLa función aumenta hasta $t=1$ y luego disminuye, así que alcanza su máximo en ese instante. Comprobamos también los extremos del intervalo:\n$$R(0)=5,\\qquad R(1)=9,\\qquad R(2)=8.$$\nAsí, el valor máximo es $9$ puntos y se alcanza al cabo de $1$ día. En el contexto del modelo, la actividad de los polinizadores llega a $9$ puntos durante el primer día.\n\n**Comprobación:** la derivada cambia de positiva a negativa en $t=1$, y el valor $R(1)=9$ supera los valores en ambos extremos del intervalo, $5$ y $8$.",
+   "resultado": "El indicador alcanza un máximo de 9 puntos en t = 1 día.",
+   "criterios": "Total: 2,5 puntos. a.1 (0,75): 0,25 por calcular correctamente R'(t)=3t²−12t+9; 0,25 por resolver R'(t)=0; 0,25 por identificar que solo t=1 pertenece al intervalo y dar el punto (1,9). a.2 (0,75): 0,25 por estudiar correctamente el signo de la derivada; 0,25 por indicar que aumenta en [0,1]; 0,25 por indicar que disminuye en [1,2]. a.3 (1,00): 0,30 por calcular los valores relevantes R(0)=5, R(1)=9 y R(2)=8; 0,40 por concluir que el máximo global es 9 puntos en t=1; 0,30 por interpretarlo correctamente en el contexto.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "4",
+   "tema": "progl",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Elige y resuelve solo uno de los dos apartados siguientes. Apartado a) Una empresa social fabrica dos tipos de kits de riego para huertos escolares: el básico y el avanzado. Cada kit básico requiere 2 metros de tubo y 1 hora de montaje; cada kit avanzado requiere 1 metro de tubo y 2 horas de montaje. La empresa dispone de 40 metros de tubo y 50 horas de montaje. El beneficio por kit básico es de 30 euros y por kit avanzado, de 40 euros. a.1) Define las variables, expresa la función objetivo, escribe las restricciones mediante inecuaciones y representa gráficamente el recinto factible, indicando sus vértices. (1,5 puntos) a.2) Determina cuántos kits de cada tipo debe fabricar para maximizar el beneficio y calcula ese beneficio máximo. (1 punto) Apartado b) La duración, en horas, de las baterías de un modelo de acumulador se distribuye normalmente, con desviación típica poblacional de 12 horas. En una muestra aleatoria de 144 acumuladores, la duración media observada es de 180 horas. Para un nivel de confianza del 95%, puede utilizarse el valor crítico 1,96. b.1) Calcula un intervalo de confianza para la duración media poblacional. (1 punto) b.2) Si se aumentara la muestra a 576 acumuladores y se mantuviera la misma media muestral, calcula el nuevo intervalo de confianza y su longitud total. (0,75 puntos) b.3) El valor de 179 horas está contenido en el intervalo del apartado b.1). Si se desea que deje de estar contenido, ¿se debería aumentar o disminuir el nivel de confianza? Justifica la respuesta. (0,75 puntos)",
+   "solucion": "Elijo el apartado a).\n\n### a.1) Variables, función objetivo y restricciones\n\nSean $x$ el número de kits básicos e $y$ el número de kits avanzados que se fabrican. El beneficio total, en euros, es\n\n$$B(x,y)=30x+40y.$$\n\nLas restricciones de recursos y no negatividad son\n\n$$\\begin{cases}\n2x+y\\le 40 & \\text{(tubo)}\\\\\nx+2y\\le 50 & \\text{(horas de montaje)}\\\\\nx\\ge 0,\\quad y\\ge 0.\n\\end{cases}$$\n\nPara representar el recinto, se trazan las rectas $2x+y=40$ y $x+2y=50$ en el primer cuadrante, y se toma la zona situada por debajo de ambas. La primera recta corta los ejes en $(20,0)$ y $(0,40)$; la segunda, en $(50,0)$ y $(0,25)$. Su intersección se obtiene resolviendo\n\n$$\\begin{cases}2x+y=40\\\\x+2y=50\\end{cases}\n\\quad\\Longrightarrow\\quad (x,y)=(10,20).$$\n\nPor tanto, los vértices del recinto factible, en orden, son $(0,0)$, $(20,0)$, $(10,20)$ y $(0,25)$.\n\n### a.2) Máximo beneficio\n\nEvaluamos la función objetivo en los vértices:\n\n$$\\begin{array}{c|c}\n(x,y)&B(x,y)\\\\\\hline\n(0,0)&0\\\\\n(20,0)&600\\\\\n(10,20)&1100\\\\\n(0,25)&1000\n\\end{array}$$\n\nEl mayor valor se obtiene en $(10,20)$. Por tanto, se deben fabricar $10$ kits básicos y $20$ avanzados. La solución es entera, así que también es válida si se exige fabricar un número entero de kits. El beneficio máximo es de $1100$ euros.",
+   "resultado": "Fabricar 10 kits básicos y 20 kits avanzados; beneficio máximo: 1100 €.",
+   "criterios": "Total: 2,5 puntos. Apartado a.1 (1,5 puntos): definición correcta de variables, 0,2; función objetivo, 0,2; restricciones, 0,4; representación adecuada del recinto e identificación de los cuatro vértices, 0,7. Apartado a.2 (1 punto): evaluación de la función objetivo en los vértices, 0,5; identificación de la solución óptima y del beneficio máximo, 0,5. Se admiten repartos equivalentes que valoren correctamente el planteamiento, el recinto y la optimización.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "probabilidad",
+   "p": 0.9
+  },
+  {
+   "id": "inferencia",
+   "p": 0.9
+  },
+  {
+   "id": "matrices",
+   "p": 0.769
+  },
+  {
+   "id": "funciones",
+   "p": 0.707
+  },
+  {
+   "id": "progl",
+   "p": 0.7
+  },
+  {
+   "id": "integrales",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "manual:manual/castillalamancha/2026/Matemáticas Aplicadas a las Ciencias Sociales II junio examen __MatemCCSS.txt",
+  "manual:manual/castillalamancha/2026/Matemáticas Aplicadas a las Ciencias Sociales II julio examen __Matematicas-aplicadas-CCSS.txt",
+  "manual:manual/castillalamancha/2025/Matemáticas Aplicadas a las Ciencias Sociales II julio examen __Matem_aplic_CCSS.txt",
+  "manual:manual/castillalamancha/2025/Matemáticas Aplicadas a las Ciencias Sociales II junio examen __Matem_aplic_CCSS_.txt",
+  "manual:manual/castillalamancha/2026/Matemáticas Aplicadas a las Ciencias Sociales II julio examen __Matematicas-aplicadas-CCSS.txt",
+  "manual:manual/castillalamancha/2026/Matemáticas Aplicadas a las Ciencias Sociales II junio examen __MatemCCSS.txt"
+ ]
+}
