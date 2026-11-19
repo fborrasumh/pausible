@@ -11844,6 +11844,3177 @@
    },
    "predecibilidad": 0.78
   },
+  "baleares": {
+   "nombre": "Illes Balears",
+   "materias": {
+    "aleman": {
+     "nombre": "Lengua Extranjera II: Alemán",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Lengua Extranjera II Alemán julio examen __ALEMANY.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Lengua Extranjera II Alemán junio examen __ALEMANY.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Lengua Extranjera II Alemán julio examen __ALEMANY.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Lengua Extranjera II Alemán junio examen __ALEMANY.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Lengua Extranjera II Alemán julio examen __ALEMANY.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Lengua Extranjera II Alemán junio examen __ALEMANY.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Lengua Extranjera II Alemán julio examen __ALEMANY.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Lengua Extranjera II Alemán junio examen __ALEMANY.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Lengua Extranjera II Alemán julio examen __ALEMANY.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Lengua Extranjera II Alemán junio examen __ALEMANY.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "audiovisual": {
+     "nombre": "Cultura Audiovisual",
+     "n_examenes": 4,
+     "anios": [
+      2022,
+      2023
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Cultura Audiovisual julio examen __CAUB.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Cultura Audiovisual junio examen __CAUB.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Cultura Audiovisual julio examen __CAUB.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Cultura Audiovisual junio examen __CAUB.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "biologia": {
+     "nombre": "Biología",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Biología julio examen __BIOLOGIA.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Biología junio examen __BIOLOGIA.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Biología julio examen __BIOLOGIA.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Biología junio examen __BIOLOGIA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Biología julio examen __BIOLOGIA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Biología junio examen __BIOLOGIA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Biología julio examen __BIOLOGIA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Biología junio examen __BIOLOGIA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Biología julio examen __BIOLOGIA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Biología junio examen __BIOLOGIA.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "molecular",
+       "nombre": "Genética molecular y biotecnología",
+       "p": 0.339,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "baja",
+       "muestra": "2. Les mutacions ( contestau els apartats a ) i b ) i dos a escollir entre els apartats",
+       "muestra_url": "manual:manual/baleares/2025/Biología junio examen __BIOLOGIA.txt"
+      },
+      {
+       "id": "inmunologia",
+       "nombre": "Inmunología",
+       "p": 0.331,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "una mutació humana, s’indica que ha estat possible desenvolupar una vacuna",
+       "muestra_url": "manual:manual/baleares/2026/Biología junio examen __BIOLOGIA.txt"
+      },
+      {
+       "id": "biomoleculas",
+       "nombre": "Biomoléculas",
+       "p": 0.233,
+       "veces": 3,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "b) El cobalt és un bioelement present a la vitamina B12. A quin grup de",
+       "muestra_url": "manual:manual/baleares/2026/Biología julio examen __BIOLOGIA.txt"
+      },
+      {
+       "id": "microbiologia",
+       "nombre": "Microbiología",
+       "p": 0.207,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2024,
+       "tendencia": "baja",
+       "muestra": "c) Dig a u quins tipus d’organismes o similars (virus, bacteris, fongs, animals",
+       "muestra_url": "manual:manual/baleares/2024/Biología julio examen __BIOLOGIA.txt"
+      },
+      {
+       "id": "celula",
+       "nombre": "La célula",
+       "p": 0.197,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "membrana semipermeable. No s’ha de justificar la resposta. (0 , 2 5 punts)",
+       "muestra_url": "manual:manual/baleares/2026/Biología julio examen __BIOLOGIA.txt"
+      },
+      {
+       "id": "division",
+       "nombre": "División celular",
+       "p": 0.139,
+       "veces": 1,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "sube",
+       "muestra": "e ) La fase S de síntesi forma part de la interfase .",
+       "muestra_url": "manual:manual/baleares/2025/Biología junio examen __BIOLOGIA.txt"
+      },
+      {
+       "id": "genetica",
+       "nombre": "Genética mendeliana",
+       "p": 0.118,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2023,
+       "tendencia": "baja",
+       "muestra": "l’herència [...] En el temps de Darwin no es coneixien els principis de la",
+       "muestra_url": "manual:manual/baleares/2023/Biología junio examen __BIOLOGIA.txt"
+      },
+      {
+       "id": "metabolismo",
+       "nombre": "Metabolismo",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 1,
+      "aciertos": 0,
+      "tasa": 0.0,
+      "azar": 0.12,
+      "top": [
+       "molecular"
+      ],
+      "reales": [
+       "inmunologia"
+      ]
+     },
+     "confianza": "baja"
+    },
+    "catalan": {
+     "nombre": "Llengua Catalana i Literatura",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Llengua Catalana i Literatura julio examen __LLCATALANAII.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Llengua Catalana i Literatura junio examen __LLCATALANAII.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Llengua Catalana i Literatura julio examen __LLCATALANAII.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Llengua Catalana i Literatura junio examen __LLCATALANAII.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Llengua Catalana i Literatura julio examen __LLCATALANAII.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Llengua Catalana i Literatura junio examen __LLCATALANAII.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Llengua Catalana i Literatura julio examen __LLCATALANAII.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Llengua Catalana i Literatura junio examen __LLCATALANAII.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Llengua Catalana i Literatura julio examen __LLCATALANAII.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Llengua Catalana i Literatura junio examen __LLCATALANAII.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "ciencias": {
+     "nombre": "Ciencias Generales",
+     "n_examenes": 6,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Ciencias Generales julio examen __CGENERALS.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Ciencias Generales junio examen __CGENERALS.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Ciencias Generales julio examen __CGENERALS.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Ciencias Generales junio examen __CGENERALS.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Ciencias Generales julio examen __CGENERALS.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Ciencias Generales junio examen __CGENERALS.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "dibujo": {
+     "nombre": "Dibujo Técnico II",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Dibujo Técnico II julio examen __DTECNIC.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Dibujo Técnico II junio examen __DTECNIC.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Dibujo Técnico II julio examen __DTECNIC.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Dibujo Técnico II junio examen __DTECNIC.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Dibujo Técnico II julio examen __DTECNIC.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Dibujo Técnico II junio examen __DTECNIC.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Dibujo Técnico II julio examen __DTECNIC.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Dibujo Técnico II junio examen __DTECNIC.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Dibujo Técnico II julio examen __DTECNIC.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Dibujo Técnico II junio examen __DTECNIC.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "axonometrico",
+       "nombre": "Axonométrico y perspectiva",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "4 ) Dibuixa u la perspectiva isomètrica de la figura següent segons els eixos donats,",
+       "muestra_url": "manual:manual/baleares/2026/Dibujo Técnico II junio examen __DTECNIC.txt"
+      },
+      {
+       "id": "normalizacion",
+       "nombre": "Normalización y vistas",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "5) Realitza u el croquis acotat , a mà alçada , de les projeccions en alçat, planta i perfil",
+       "muestra_url": "manual:manual/baleares/2026/Dibujo Técnico II junio examen __DTECNIC.txt"
+      },
+      {
+       "id": "geometriaplana",
+       "nombre": "Geometría plana (tangencias, transformaciones)",
+       "p": 0.164,
+       "veces": 1,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "(tangència interior), sent cada costat tangent a dues d'elles. (1 punt)",
+       "muestra_url": "manual:manual/baleares/2026/Dibujo Técnico II junio examen __DTECNIC.txt"
+      },
+      {
+       "id": "conicas",
+       "nombre": "Cónicas",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "diedrico",
+       "nombre": "Sistema diédrico",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 3,
+      "aciertos": 3,
+      "tasa": 1.0,
+      "azar": 0.6,
+      "top": [
+       "axonometrico",
+       "normalizacion",
+       "geometriaplana"
+      ],
+      "reales": [
+       "axonometrico",
+       "geometriaplana",
+       "normalizacion"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "dibujoartistico": {
+     "nombre": "Dibujo Artístico II",
+     "n_examenes": 6,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Dibujo Artístico II julio examen __DARTISTIC.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Dibujo Artístico II junio examen __DARTISTIC.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Dibujo Artístico II julio examen __DARTISTIC.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Dibujo Artístico II junio examen __DARTISTIC.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Dibujo Artístico II julio examen __DARTISTIC.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Dibujo Artístico II junio examen __DARTISTIC.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "diseno": {
+     "nombre": "Diseño",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Diseño julio examen __FDISSENY.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Diseño junio examen __FDISSENY.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Diseño julio examen __FDISSENY.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Diseño junio examen __FDISSENY.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Diseño julio examen __FDISSENY.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Diseño junio examen __FDISSENY.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Diseño julio examen __FDISSENY.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Diseño junio examen __FDISSENY.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Diseño julio examen __FDISSENY.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Diseño junio examen __FDISSENY.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "empresa": {
+     "nombre": "Empresa y Diseño de Modelos de Negocio / Economía de la Empresa",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa julio examen __ECONOMIA.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa junio examen __ECONOMIA.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa julio examen __ECONOMIA.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa junio examen __ECONOMIA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa julio examen __ECONOMIA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa junio examen __ECONOMIA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa julio examen __ECONOMIA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa junio examen __ECONOMIA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa julio examen __ECONOMIA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa junio examen __ECONOMIA.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "financiacion",
+       "nombre": "Inversión y financiación (VAN, TIR, payback)",
+       "p": 0.298,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "- Hem obtingut 900 € d'interessos cobrats per les inversions financeres",
+       "muestra_url": "manual:manual/baleares/2026/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa julio examen __ECONOMIA.txt"
+      },
+      {
+       "id": "contabilidad",
+       "nombre": "Balance y análisis financiero (ratios)",
+       "p": 0.131,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2024,
+       "tendencia": "baja",
+       "muestra": "4. Amb les següents partides patrimonials, calcula i interpreta les ràtios de garantia",
+       "muestra_url": "manual:manual/baleares/2024/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa julio examen __ECONOMIA.txt"
+      },
+      {
+       "id": "produccion",
+       "nombre": "Producción, costes y umbral de rentabilidad",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "marketing",
+       "nombre": "Marketing",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "modelonegocio",
+       "nombre": "Modelo de negocio y emprendimiento (Canvas)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "organizacion",
+       "nombre": "Organización y dirección",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "escenicas": {
+     "nombre": "Artes Escénicas II",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Artes Escénicas II julio examen __ARTS_ESCENIQUES.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Artes Escénicas II junio examen __ARTS_ESCENIQUES.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Artes Escénicas II julio examen __ARTS_ESCENIQUES.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Artes Escénicas II junio examen __ARTS_ESCENIQUES.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Artes Escénicas II julio examen __ARTS_ESCENIQUES.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Artes Escénicas II junio examen __ARTS_ESCENIQUES.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Artes Escénicas II julio examen __ARTS_ESCENIQUES.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Artes Escénicas II junio examen __ARTS_ESCENIQUES.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Artes Escénicas II julio examen __ARTS_ESCENIQUES.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Artes Escénicas II junio examen __ARTS_ESCENIQUES.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "filosofia": {
+     "nombre": "Historia de la Filosofía",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Historia de la Filosofía julio examen __FILOSOFIAII.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Historia de la Filosofía junio examen __FILOSOFIAII.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Historia de la Filosofía julio examen __FILOSOFIAII.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Historia de la Filosofía junio examen __FILOSOFIAII.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Historia de la Filosofía julio examen __FILOSOFIAII.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Historia de la Filosofía junio examen __FILOSOFIAII.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Historia de la Filosofía julio examen __FILOSOFIAII.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Historia de la Filosofía junio examen __FILOSOFIAII.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Historia de la Filosofía julio examen __FILOSOFIAII.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Historia de la Filosofía junio examen __FILOSOFIAII.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "kant",
+       "nombre": "Kant",
+       "p": 0.515,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "b) Comparau la concepció de la ciència d ' I. Kant amb alguna altra concepció",
+       "muestra_url": "manual:manual/baleares/2026/Historia de la Filosofía junio examen __FILOSOFIAII.txt"
+      },
+      {
+       "id": "platon",
+       "nombre": "Platón",
+       "p": 0.302,
+       "veces": 5,
+       "de": 10,
+       "ultimo": 2024,
+       "tendencia": "baja",
+       "muestra": "a) Explicau la teori a de l’Estat de Plató .",
+       "muestra_url": "manual:manual/baleares/2024/Historia de la Filosofía junio examen __FILOSOFIAII.txt"
+      },
+      {
+       "id": "descartes",
+       "nombre": "Descartes",
+       "p": 0.262,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2024,
+       "tendencia": "baja",
+       "muestra": "c) Explicau la teori a de le s idees de R. Descartes .",
+       "muestra_url": "manual:manual/baleares/2024/Historia de la Filosofía junio examen __FILOSOFIAII.txt"
+      },
+      {
+       "id": "empirismo",
+       "nombre": "Hume / Locke",
+       "p": 0.233,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2024,
+       "tendencia": "baja",
+       "muestra": "b) Explicau el concepte de costum en la filosofia de Hume.",
+       "muestra_url": "manual:manual/baleares/2024/Historia de la Filosofía julio examen __FILOSOFIAII.txt"
+      },
+      {
+       "id": "contemporanea",
+       "nombre": "Filosofía contemporánea (Arendt, Wittgenstein, Beauvoir…)",
+       "p": 0.139,
+       "veces": 1,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "sube",
+       "muestra": "b) Comparau la concepció de l’acció política de Hannah Arendt amb alguna",
+       "muestra_url": "manual:manual/baleares/2025/Historia de la Filosofía junio examen __FILOSOFIAII.txt"
+      },
+      {
+       "id": "nietzsche",
+       "nombre": "Nietzsche",
+       "p": 0.118,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2024,
+       "tendencia": "baja",
+       "muestra": "",
+       "muestra_url": "manual:manual/baleares/2024/Historia de la Filosofía julio examen __FILOSOFIAII.txt"
+      },
+      {
+       "id": "marx",
+       "nombre": "Marx",
+       "p": 0.066,
+       "veces": 1,
+       "de": 10,
+       "ultimo": 2023,
+       "tendencia": "estable",
+       "muestra": "K. Marx i F. Engels , El manifest comunista , I",
+       "muestra_url": "manual:manual/baleares/2023/Historia de la Filosofía junio examen __FILOSOFIAII.txt"
+      },
+      {
+       "id": "aristoteles",
+       "nombre": "Aristóteles",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "medieval",
+       "nombre": "Agustín de Hipona / Tomás de Aquino",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "ortega",
+       "nombre": "Ortega y Gasset",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 1,
+      "aciertos": 1,
+      "tasa": 1.0,
+      "azar": 0.1,
+      "top": [
+       "kant"
+      ],
+      "reales": [
+       "kant"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "fisica": {
+     "nombre": "Física",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Física julio examen __FISICA.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Física junio examen __FISICA.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Física julio examen __FISICA.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Física junio examen __FISICA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Física julio examen __FISICA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Física julio examen __FISICA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Física junio examen __FISICA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Física julio examen __FISICA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Física junio examen __FISICA.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "gravitacion",
+       "nombre": "Campo gravitatorio",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "gravitatòries de la Terra i la Lluna es cancel·laren el dia 5 de novembre",
+       "muestra_url": "manual:manual/baleares/2026/Física junio examen __FISICA.txt"
+      },
+      {
+       "id": "electrico",
+       "nombre": "Campo eléctrico",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "( i) Calculau el camp elèctric generat per les dues càrregues al punt B .",
+       "muestra_url": "manual:manual/baleares/2026/Física junio examen __FISICA.txt"
+      },
+      {
+       "id": "magnetico",
+       "nombre": "Campo magnético e inducción",
+       "p": 0.777,
+       "veces": 8,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "a.2 ) Es genera una força electromotriu en una espira quadrada situada dins",
+       "muestra_url": "manual:manual/baleares/2026/Física junio examen __FISICA.txt"
+      },
+      {
+       "id": "moderna",
+       "nombre": "Física moderna (cuántica, nuclear, relatividad)",
+       "p": 0.563,
+       "veces": 5,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "plom 206 després d’ una seqüència de desintegracion s alfa i beta menys.",
+       "muestra_url": "manual:manual/baleares/2026/Física junio examen __FISICA.txt"
+      },
+      {
+       "id": "ondas",
+       "nombre": "Ondas y sonido",
+       "p": 0.472,
+       "veces": 5,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "• Alguns apartats tenen dos blocs de preguntes opcionals .",
+       "muestra_url": "manual:manual/baleares/2026/Física julio examen __FISICA.txt"
+      },
+      {
+       "id": "optica",
+       "nombre": "Óptica",
+       "p": 0.436,
+       "veces": 5,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "( ii) Donada una lent prima convergent amb distància focal +18 cm , a",
+       "muestra_url": "manual:manual/baleares/2026/Física junio examen __FISICA.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 5,
+      "aciertos": 5,
+      "tasa": 1.0,
+      "azar": 0.83,
+      "top": [
+       "gravitacion",
+       "electrico",
+       "magnetico",
+       "optica",
+       "moderna"
+      ],
+      "reales": [
+       "electrico",
+       "gravitacion",
+       "magnetico",
+       "moderna",
+       "optica"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "frances": {
+     "nombre": "Lengua Extranjera II: Francés",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Lengua Extranjera II Francés julio examen __FRANCES.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Lengua Extranjera II Francés junio examen __FRANCES.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Lengua Extranjera II Francés julio examen __FRANCES.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Lengua Extranjera II Francés junio examen __FRANCES.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Lengua Extranjera II Francés julio examen __FRANCES.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Lengua Extranjera II Francés junio examen __FRANCES.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Lengua Extranjera II Francés julio examen __FRANCES.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Lengua Extranjera II Francés junio examen __FRANCES.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Lengua Extranjera II Francés julio examen __FRANCES.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Lengua Extranjera II Francés junio examen __FRANCES.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "fundamentosart": {
+     "nombre": "Fundamentos Artísticos",
+     "n_examenes": 12,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Fundamentos Artísticos julio examen __FARB.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Fundamentos Artísticos junio examen __FARB.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Fundamentos Artísticos julio examen __FARB.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Fundamentos Artísticos junio examen __FARB.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Fundamentos Artísticos julio examen __FARB.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Fundamentos Artísticos julio examen __FARTISTICS.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Fundamentos Artísticos junio examen __FARB.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Fundamentos Artísticos junio examen __FARTISTICS.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Fundamentos Artísticos julio examen __FARTISTICS.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Fundamentos Artísticos junio examen __FARTISTICS.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Fundamentos Artísticos julio examen __FARTISTICS.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Fundamentos Artísticos junio examen __FARTISTICS.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "geografia": {
+     "nombre": "Geografía",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Geografía julio examen __GEOGRAFIA.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Geografía junio examen __GEOGRAFIA.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Geografía julio examen __GEOGRAFIA.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Geografía junio examen __GEOGRAFIA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Geografía julio examen __GEOGRAFIA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Geografía junio examen __GEOGRAFIA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Geografía julio examen __GEOGRAFIA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Geografía junio examen __GEOGRAFIA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Geografía julio examen __GEOGRAFIA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Geografía junio examen __GEOGRAFIA.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "clima",
+       "nombre": "Clima y aguas",
+       "p": 0.746,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "OPCIÓ B. Distingiu al mapa adjunt dues àrees amb clima mediterrani de",
+       "muestra_url": "manual:manual/baleares/2026/Geografía junio examen __GEOGRAFIA.txt"
+      },
+      {
+       "id": "territorio",
+       "nombre": "Organización territorial y Europa",
+       "p": 0.189,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "província de més de 500.000 habitants estan connectades directament entre elles,",
+       "muestra_url": "manual:manual/baleares/2025/Geografía junio examen __GEOGRAFIA.txt"
+      },
+      {
+       "id": "relieve",
+       "nombre": "Relieve",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "poblacion",
+       "nombre": "Población",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "urbano",
+       "nombre": "Espacio urbano",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "sectores",
+       "nombre": "Sectores económicos",
+       "p": 0.05,
+       "veces": 1,
+       "de": 10,
+       "ultimo": 2022,
+       "tendencia": "estable",
+       "muestra": "1 . Distingiu al mapa adjunt tres àrees amb indústries agroalimentàries i dues àrees on l’activitat industrial ha estat sotmesa a reconversió.",
+       "muestra_url": "manual:manual/baleares/2022/Geografía junio examen __GEOGRAFIA.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 1,
+      "aciertos": 1,
+      "tasa": 1.0,
+      "azar": 0.17,
+      "top": [
+       "clima"
+      ],
+      "reales": [
+       "clima"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "geologia": {
+     "nombre": "Geología y Ciencias Ambientales",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Geología y Ciencias Ambientales julio examen __GEOB.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Geología y Ciencias Ambientales junio examen __GEOB.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Geología y Ciencias Ambientales julio examen __GEOB.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Geología y Ciencias Ambientales junio examen __GEOB.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Geología y Ciencias Ambientales julio examen __GEOB.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Geología y Ciencias Ambientales junio examen __GEOB.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Geología y Ciencias Ambientales julio examen __GEOB.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Geología y Ciencias Ambientales junio examen __GEOB.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Geología y Ciencias Ambientales julio examen __GEOB.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Geología y Ciencias Ambientales junio examen __GEOB.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "tectonica",
+       "nombre": "Tectónica y riesgos geológicos",
+       "p": 0.761,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "BLOC 2: Tectònica de plaques i g eodinàmica i nterna",
+       "muestra_url": "manual:manual/baleares/2026/Geología y Ciencias Ambientales junio examen __GEOB.txt"
+      },
+      {
+       "id": "minerales",
+       "nombre": "Minerales y rocas",
+       "p": 0.711,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Tria i respon només una pregunta sobr e minerals (preguntes 4.1 i 4.2) i només",
+       "muestra_url": "manual:manual/baleares/2026/Geología y Ciencias Ambientales junio examen __GEOB.txt"
+      },
+      {
+       "id": "recursos",
+       "nombre": "Recursos y medio ambiente",
+       "p": 0.295,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "BLOC 5: Capes flu i des de la Terra ; r ecursos i la seva gestió sostenible",
+       "muestra_url": "manual:manual/baleares/2026/Geología y Ciencias Ambientales junio examen __GEOB.txt"
+      },
+      {
+       "id": "procesos",
+       "nombre": "Procesos externos y mapas geológicos",
+       "p": 0.207,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2023,
+       "tendencia": "baja",
+       "muestra": "14. Hi ha algun tipus de discontinuïtat estratigràfica? Comenta-les i situa-les al tall.",
+       "muestra_url": "manual:manual/baleares/2023/Geología y Ciencias Ambientales junio examen __GEOB.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 3,
+      "aciertos": 2,
+      "tasa": 0.67,
+      "azar": 0.75,
+      "top": [
+       "tectonica",
+       "minerales",
+       "procesos"
+      ],
+      "reales": [
+       "minerales",
+       "recursos",
+       "tectonica"
+      ]
+     },
+     "confianza": "baja"
+    },
+    "graficoplastica": {
+     "nombre": "Técnicas de Expresión Gráfico-Plástica",
+     "n_examenes": 6,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Técnicas de Expresión Gráfico-Plástica julio examen __TEG.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Técnicas de Expresión Gráfico-Plástica junio examen __TEG.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Técnicas de Expresión Gráfico-Plástica julio examen __TEG.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Técnicas de Expresión Gráfico-Plástica junio examen __TEG.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Técnicas de Expresión Gráfico-Plástica julio examen __TEG.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Técnicas de Expresión Gráfico-Plástica junio examen __TEG.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "griego": {
+     "nombre": "Griego II",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Griego II julio examen __GRECII.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Griego II junio examen __GRECII.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Griego II julio examen __GRECII.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Griego II junio examen __GRECII.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Griego II julio examen __GRECII.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Griego II junio examen __GRECII.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Griego II julio examen __GRECII.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Griego II junio examen __GRECII.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Griego II julio examen __GRECII.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Griego II junio examen __GRECII.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "lexico",
+       "nombre": "Léxico y etimología",
+       "p": 0.354,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2024,
+       "tendencia": "baja",
+       "muestra": "3. Explicau l'etimologia i el significat dels mots: amfiteatre, misantrop,",
+       "muestra_url": "manual:manual/baleares/2024/Griego II junio examen __GRECII.txt"
+      },
+      {
+       "id": "traduccion",
+       "nombre": "Traducción",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "morfosintaxis",
+       "nombre": "Morfosintaxis",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "literatura",
+       "nombre": "Literatura griega",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "historia": {
+     "nombre": "Historia de España",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Historia de España julio examen __HESPANYA.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Historia de España junio examen __HESPANYA.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Historia de España julio examen __HESPANYA.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Historia de España junio examen __HESPANYA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Historia de España julio examen __HESPANYA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Historia de España junio examen __HESPANYA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Historia de España julio examen __HESPANYA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Historia de España junio examen __HESPANYA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Historia de España julio examen __HESPANYA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Historia de España junio examen __HESPANYA.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "guerracivil",
+       "nombre": "Guerra Civil (1936-1939)",
+       "p": 0.675,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "juliol de 1936? Com i per què es va iniciar la Guerra Civil a Espanya?",
+       "muestra_url": "manual:manual/baleares/2026/Historia de España julio examen __HESPANYA.txt"
+      },
+      {
+       "id": "liberalismo",
+       "nombre": "Crisis del Antiguo Régimen y liberalismo (1808-1874)",
+       "p": 0.548,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "A.2. Defineix breument ( d’ 1 a 3 línies en cada cas): Primera República",
+       "muestra_url": "manual:manual/baleares/2026/Historia de España junio examen __HESPANYA.txt"
+      },
+      {
+       "id": "franquismo",
+       "nombre": "Franquismo (1939-1975)",
+       "p": 0.503,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "1r La Dictadura de Primo de Rivera (1923 - 30). Concepte,",
+       "muestra_url": "manual:manual/baleares/2026/Historia de España julio examen __HESPANYA.txt"
+      },
+      {
+       "id": "antigua",
+       "nombre": "Prehistoria a Edad Media (Al-Ándalus, reinos cristianos)",
+       "p": 0.207,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2023,
+       "tendencia": "baja",
+       "muestra": "1. Defineix breument al-Àndalus, esmenta les etapes de la seva evolució política i",
+       "muestra_url": "manual:manual/baleares/2023/Historia de España junio examen __HESPANYA.txt"
+      },
+      {
+       "id": "restauracion",
+       "nombre": "Restauración (1874-1931)",
+       "p": 0.102,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2023,
+       "tendencia": "baja",
+       "muestra": "2. La Dictadura de Primo de Rivera (1923-30): concepte, característiques i etapes: el",
+       "muestra_url": "manual:manual/baleares/2023/Historia de España julio examen __HESPANYA.txt"
+      },
+      {
+       "id": "moderna",
+       "nombre": "Monarquía hispánica (Reyes Católicos, Austrias, Borbones s. XVIII)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "republica",
+       "nombre": "Segunda República (1931-1936)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "transicion",
+       "nombre": "Transición y democracia",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 1,
+      "aciertos": 1,
+      "tasa": 1.0,
+      "azar": 0.12,
+      "top": [
+       "liberalismo"
+      ],
+      "reales": [
+       "liberalismo"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "historiaarte": {
+     "nombre": "Historia del Arte",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Historia del Arte julio examen __HART.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Historia del Arte junio examen __HART.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Historia del Arte julio examen __HART.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Historia del Arte junio examen __HART.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Historia del Arte julio examen __HART.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Historia del Arte junio examen __HART.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Historia del Arte julio examen __HART.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Historia del Arte junio examen __HART.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Historia del Arte julio examen __HART.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Historia del Arte junio examen __HART.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "clasico",
+       "nombre": "Arte clásico (Grecia y Roma)",
+       "p": 0.236,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2024,
+       "tendencia": "baja",
+       "muestra": "de Déu en majestat. Característic de l’art romànic.",
+       "muestra_url": "manual:manual/baleares/2024/Historia del Arte junio examen __HART.txt"
+      },
+      {
+       "id": "renacimiento",
+       "nombre": "Renacimiento",
+       "p": 0.192,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Mo n na Lisa , Leonardo da Vinci (1503) : inserció en el context històric i estilístic",
+       "muestra_url": "manual:manual/baleares/2025/Historia del Arte junio examen __HART.txt"
+      },
+      {
+       "id": "medieval",
+       "nombre": "Románico y gótico",
+       "p": 0.141,
+       "veces": 3,
+       "de": 10,
+       "ultimo": 2023,
+       "tendencia": "baja",
+       "muestra": "1. Catedral de Lleó , s. XIII-XV: inserció en el context històric i estilístic (1 pt.),",
+       "muestra_url": "manual:manual/baleares/2023/Historia del Arte julio examen __HART.txt"
+      },
+      {
+       "id": "barroco",
+       "nombre": "Barroco",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "sigloxix",
+       "nombre": "Goya y siglo XIX",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "vanguardias",
+       "nombre": "Vanguardias y siglo XX",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "ingles": {
+     "nombre": "Lengua Extranjera II: Inglés",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Lengua Extranjera II Inglés julio examen __ANGLES.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Lengua Extranjera II Inglés junio examen __ANGLES.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Lengua Extranjera II Inglés julio examen __ANGLES.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Lengua Extranjera II Inglés junio examen __ANGLES.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Lengua Extranjera II Inglés julio examen __ANGLES.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Lengua Extranjera II Inglés junio examen __ANGLES.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Lengua Extranjera II Inglés julio examen __ANGLES.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Lengua Extranjera II Inglés junio examen __ANGLES.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Lengua Extranjera II Inglés julio examen __ANGLES.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Lengua Extranjera II Inglés junio examen __ANGLES.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "reading",
+       "nombre": "Comprensión lectora (true/false, preguntas)",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "• Answer the following five questions in ENGLISH after carefully reading the text: 1) True/False; 2)",
+       "muestra_url": "manual:manual/baleares/2026/Lengua Extranjera II Inglés junio examen __ANGLES.txt"
+      },
+      {
+       "id": "vocab",
+       "nombre": "Vocabulario (sinónimos, definiciones)",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Com prehension questions and written production; 3) Vocabulary; 4) Com m unicative use of",
+       "muestra_url": "manual:manual/baleares/2026/Lengua Extranjera II Inglés junio examen __ANGLES.txt"
+      },
+      {
+       "id": "writing",
+       "nombre": "Redacción (opinión, carta, email)",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "2. In your own words and based on the ideas from the text, answer TWO of",
+       "muestra_url": "manual:manual/baleares/2026/Lengua Extranjera II Inglés junio examen __ANGLES.txt"
+      },
+      {
+       "id": "grammar",
+       "nombre": "Gramática (reescritura, transformaciones)",
+       "p": 0.354,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2024,
+       "tendencia": "baja",
+       "muestra": "4.4. Turn the following sentence into the passive voice. (0, 5)",
+       "muestra_url": "manual:manual/baleares/2024/Lengua Extranjera II Inglés junio examen __ANGLES.txt"
+      },
+      {
+       "id": "mediation",
+       "nombre": "Mediación",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 3,
+      "aciertos": 3,
+      "tasa": 1.0,
+      "azar": 0.6,
+      "top": [
+       "reading",
+       "vocab",
+       "writing"
+      ],
+      "reales": [
+       "reading",
+       "vocab",
+       "writing"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "italiano": {
+     "nombre": "Lengua Extranjera II: Italiano",
+     "n_examenes": 3,
+     "anios": [
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Lengua Extranjera II Italiano junio examen __ITALIA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Lengua Extranjera II Italiano julio examen __ITALIA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Lengua Extranjera II Italiano junio examen __ITALIA.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "latin": {
+     "nombre": "Latín II",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Latín II julio examen __LLATIII.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Latín II junio examen __LLATIII.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Latín II julio examen __LLATIII.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Latín II junio examen __LLATIII.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Latín II julio examen __LLATIII.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Latín II junio examen __LLATIII.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Latín II julio examen __LLATIII.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Latín II junio examen __LLATIII.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Latín II julio examen __LLATIII.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Latín II junio examen __LLATIII.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "literatura",
+       "nombre": "Literatura latina",
+       "p": 0.18,
+       "veces": 3,
+       "de": 10,
+       "ultimo": 2024,
+       "tendencia": "baja",
+       "muestra": "4. La historiografia llatina. Titus Livi. (1 punt)",
+       "muestra_url": "manual:manual/baleares/2024/Latín II julio examen __LLATIII.txt"
+      },
+      {
+       "id": "traduccion",
+       "nombre": "Traducción",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "morfosintaxis",
+       "nombre": "Morfosintaxis",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "lexico",
+       "nombre": "Léxico y etimología",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": null,
+     "confianza": "baja"
+    },
+    "lengua": {
+     "nombre": "Lengua Castellana y Literatura II",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Lengua Castellana y Literatura II julio examen __LLCASTELLANAII.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Lengua Castellana y Literatura II junio examen __LLCASTELLANAII.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Lengua Castellana y Literatura II julio examen __LLCASTELLANAII.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Lengua Castellana y Literatura II junio examen __LLCASTELLANAII.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Lengua Castellana y Literatura II julio examen __LLCASTELLANAII.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Lengua Castellana y Literatura II junio examen __LLCASTELLANAII.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Lengua Castellana y Literatura II julio examen __LLCASTELLANAII.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Lengua Castellana y Literatura II junio examen __LLCASTELLANAII.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Lengua Castellana y Literatura II julio examen __LLCASTELLANAII.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Lengua Castellana y Literatura II junio examen __LLCASTELLANAII.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "sintaxis",
+       "nombre": "Sintaxis (oración compuesta)",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "oraciones del fragmento siguiente: (1,5 puntos)",
+       "muestra_url": "manual:manual/baleares/2026/Lengua Castellana y Literatura II junio examen __LLCASTELLANAII.txt"
+      },
+      {
+       "id": "morfologia",
+       "nombre": "Léxico, morfología y semántica",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "5.2. Indique a qué categoría gramatical pertenecen las palabras destacadas en",
+       "muestra_url": "manual:manual/baleares/2026/Lengua Castellana y Literatura II junio examen __LLCASTELLANAII.txt"
+      },
+      {
+       "id": "comprension",
+       "nombre": "Comprensión y resumen del texto",
+       "p": 0.546,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "1) Identifique el tema del texto y elabore un resumen que recoja las ideas",
+       "muestra_url": "manual:manual/baleares/2026/Lengua Castellana y Literatura II junio examen __LLCASTELLANAII.txt"
+      },
+      {
+       "id": "argumentacion",
+       "nombre": "Texto argumentativo / opinión",
+       "p": 0.354,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2024,
+       "tendencia": "baja",
+       "muestra": "valorar á n los siguientes aspectos: adecuaci ó n y coherencia del contenido; argumentaci ó n",
+       "muestra_url": "manual:manual/baleares/2024/Lengua Castellana y Literatura II junio examen __LLCASTELLANAII.txt"
+      },
+      {
+       "id": "novela",
+       "nombre": "Novela del siglo XX y actual",
+       "p": 0.221,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "novelas, es decir, ficción, fomenta la empatía . Como he dicho antes, es una",
+       "muestra_url": "manual:manual/baleares/2025/Lengua Castellana y Literatura II junio examen __LLCASTELLANAII.txt"
+      },
+      {
+       "id": "lit98",
+       "nombre": "Literatura: Modernismo y 98, novecentismo",
+       "p": 0.052,
+       "veces": 1,
+       "de": 10,
+       "ultimo": 2023,
+       "tendencia": "estable",
+       "muestra": "[…] Justina ha entrado en un convento. Y Azorín medita tristemente, a solas en su cuarto,",
+       "muestra_url": "manual:manual/baleares/2023/Lengua Castellana y Literatura II julio examen __LLCASTELLANAII.txt"
+      },
+      {
+       "id": "lit27",
+       "nombre": "Literatura: 27, Lorca, poesía de posguerra",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "teatro",
+       "nombre": "Teatro del siglo XX",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 3,
+      "aciertos": 2,
+      "tasa": 0.67,
+      "azar": 0.38,
+      "top": [
+       "sintaxis",
+       "morfologia",
+       "argumentacion"
+      ],
+      "reales": [
+       "comprension",
+       "morfologia",
+       "sintaxis"
+      ]
+     },
+     "confianza": "media"
+    },
+    "literaturadram": {
+     "nombre": "Literatura Dramática",
+     "n_examenes": 6,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Literatura Dramática julio examen __LITERATURA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Literatura Dramática junio examen __LITERATURA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Literatura Dramática julio examen __LITERATURA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Literatura Dramática junio examen __LITERATURA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Literatura Dramática julio examen __LITERATURA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Literatura Dramática junio examen __LITERATURA.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "matccss": {
+     "nombre": "Matemáticas Aplicadas a las CC. Sociales II",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Matemáticas Aplicadas a las CC. Sociales II julio examen __MATEMSOCIALSII.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Matemáticas Aplicadas a las CC. Sociales II junio examen __MATEMSOCIALSII.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Matemáticas Aplicadas a las CC. Sociales II julio examen __MATEMSOCIALSII.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Matemáticas Aplicadas a las CC. Sociales II junio examen __MATEMSOCIALSII.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Matemáticas Aplicadas a las CC. Sociales II julio examen __MATEMSOCIALSII.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Matemáticas Aplicadas a las CC. Sociales II junio examen __MATEMSOCIALSII.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Matemáticas Aplicadas a las CC. Sociales II julio examen __MATEMSOCIALSII.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Matemáticas Aplicadas a las CC. Sociales II junio examen __MATEMSOCIALSII.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Matemáticas Aplicadas a las CC. Sociales II julio examen __MATEMSOCIALSII.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Matemáticas Aplicadas a las CC. Sociales II junio examen __MATEMSOCIALSII.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "probabilidad",
+       "nombre": "Probabilidad",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Problema A1. — L’any 2025 la mediana dels salaris a Espanya va ser d’aproximadament 24 000 A C anuals. ´ Es a dir, la meitat de treballadors guanyaren m´ es, i la meitat de treballadors guanyaren menys d’aquesta quantitat. Segons l’Institut Nacional d’Estad´ ıstica, – dels trebal…",
+       "muestra_url": "manual:manual/baleares/2026/Matemáticas Aplicadas a las CC. Sociales II junio examen __MATEMSOCIALSII.txt"
+      },
+      {
+       "id": "matrices",
+       "nombre": "Matrices y sistemas",
+       "p": 0.43,
+       "veces": 5,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Problema B2. — Considera la matriu M i la seva inversa, M − 1 , seg¨ uents:",
+       "muestra_url": "manual:manual/baleares/2026/Matemáticas Aplicadas a las CC. Sociales II junio examen __MATEMSOCIALSII.txt"
+      },
+      {
+       "id": "progl",
+       "nombre": "Programación lineal",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "funciones",
+       "nombre": "Funciones y derivadas",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "integrales",
+       "nombre": "Integrales y áreas",
+       "p": 0.05,
+       "veces": 1,
+       "de": 10,
+       "ultimo": 2022,
+       "tendencia": "estable",
+       "muestra": "b) Calculau una primitiva de f ( x ). (3 punts)",
+       "muestra_url": "manual:manual/baleares/2022/Matemáticas Aplicadas a las CC. Sociales II julio examen __MATEMSOCIALSII.txt"
+      },
+      {
+       "id": "inferencia",
+       "nombre": "Inferencia y distribución normal",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 2,
+      "aciertos": 2,
+      "tasa": 1.0,
+      "azar": 0.33,
+      "top": [
+       "probabilidad",
+       "matrices"
+      ],
+      "reales": [
+       "matrices",
+       "probabilidad"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "matematicas2": {
+     "nombre": "Matemáticas II",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Matemáticas II julio examen __MATEMATIQUESII.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Matemáticas II junio examen __MATEMATIQUESII.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Matemáticas II julio examen __MATEMATIQUESII.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Matemáticas II junio examen __MATEMATIQUESII.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Matemáticas II julio examen __MATEMATIQUESII.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Matemáticas II junio examen __MATEMATIQUESII.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Matemáticas II julio examen __MATEMATIQUESII.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Matemáticas II junio examen __MATEMATIQUESII.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Matemáticas II julio examen __MATEMATIQUESII.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Matemáticas II junio examen __MATEMATIQUESII.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "geometria",
+       "nombre": "Geometría en el espacio",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Durant l’assaig, un m´ usic es col · loca en el punt P (4 , 3 , 0), que representa la seva posici´ o sobre l’escenari. (a) [1 punt] Determina les coordenades dels tres micr` ofons i calcula l’equaci´ o del pla que els cont´ e. (b) [1 punt] Sigui π el pla que cont´ e els micr` ofo…",
+       "muestra_url": "manual:manual/baleares/2026/Matemáticas II junio examen __MATEMATIQUESII.txt"
+      },
+      {
+       "id": "matrices",
+       "nombre": "Matrices y determinantes",
+       "p": 0.789,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "P5.1 Siguin A i B dues matrius 3 × 3 tals que A ´ es invertible i",
+       "muestra_url": "manual:manual/baleares/2026/Matemáticas II junio examen __MATEMATIQUESII.txt"
+      },
+      {
+       "id": "probabilidad",
+       "nombre": "Probabilidad y distribuciones",
+       "p": 0.557,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Problema D1. — Suposem que la probabilitat de tenir tuberculosi ´ es de 0 . 0005. Sabent que la probabilitat que la prova doni positiu sabent que la malaltia ´ es present ´ es del 99% i la probabilitat que doni negatiu quan no ho ´ es tamb´ e ´ es del 99%, contesta: (a) [1.25 pun…",
+       "muestra_url": "manual:manual/baleares/2025/Matemáticas II junio examen __MATEMATIQUESII.txt"
+      },
+      {
+       "id": "integrales",
+       "nombre": "Integrales y áreas",
+       "p": 0.361,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "P4.1 Es pret´ en estudiar la intensitat del senyal el` ectric registrat per un el` ectrode implantat en una ` area del c` ortex cerebral. La intensitat del senyal I ( t ) (en microvolts) en funci´ o del temps t (en mil · lisegons) despr´ es d’un est´ ımul ve donada per la funci´ …",
+       "muestra_url": "manual:manual/baleares/2026/Matemáticas II junio examen __MATEMATIQUESII.txt"
+      },
+      {
+       "id": "sistemas",
+       "nombre": "Sistemas de ecuaciones (discusión)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "limites",
+       "nombre": "Límites y continuidad",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "derivadas",
+       "nombre": "Derivadas y aplicaciones",
+       "p": 0.05,
+       "veces": 1,
+       "de": 10,
+       "ultimo": 2022,
+       "tendencia": "estable",
+       "muestra": "√ x 2 . (a) Calculau el domini i els punts de tall de la gr` afica de la funci´ o amb els eixos.(2 punts) (b) Calculau la derivada de la funci´ o i obteniu els intervals de creixement i decreixement. (2 punts) (c) Comprovau que f ( − 1) = f (1) i que f ′ ( x ) no ´ es mai zero a …",
+       "muestra_url": "manual:manual/baleares/2022/Matemáticas II julio examen __MATEMATIQUESII.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 3,
+      "aciertos": 2,
+      "tasa": 0.67,
+      "azar": 0.43,
+      "top": [
+       "geometria",
+       "matrices",
+       "probabilidad"
+      ],
+      "reales": [
+       "geometria",
+       "integrales",
+       "matrices"
+      ]
+     },
+     "confianza": "media"
+    },
+    "movimientos": {
+     "nombre": "Movimientos Culturales y Artísticos",
+     "n_examenes": 6,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Movimientos Culturales y Artísticos julio examen __MCULTURALS.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Movimientos Culturales y Artísticos junio examen __MCULTURALS.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Movimientos Culturales y Artísticos julio examen __MCULTURALS.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Movimientos Culturales y Artísticos junio examen __MCULTURALS.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Movimientos Culturales y Artísticos julio examen __MCULTURALS.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Movimientos Culturales y Artísticos junio examen __MCULTURALS.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "musica": {
+     "nombre": "Análisis Musical II / Historia de la Música",
+     "n_examenes": 6,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Análisis Musical II  Historia de la Música julio examen __AMUSICAL.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Análisis Musical II  Historia de la Música junio examen __AMUSICAL.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Análisis Musical II  Historia de la Música julio examen __AMUSICAL.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Análisis Musical II  Historia de la Música junio examen __AMUSICAL.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Análisis Musical II  Historia de la Música julio examen __AMUSICAL.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Análisis Musical II  Historia de la Música junio examen __AMUSICAL.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "portugues": {
+     "nombre": "Lengua Extranjera II: Portugués",
+     "n_examenes": 3,
+     "anios": [
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Lengua Extranjera II Portugués junio examen __PORTUGUES.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Lengua Extranjera II Portugués julio examen __PORTUGUES.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Lengua Extranjera II Portugués junio examen __PORTUGUES.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "quimica": {
+     "nombre": "Química",
+     "n_examenes": 10,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2022/Química julio examen __QUIMICA.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2022/Química junio examen __QUIMICA.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2023/Química julio examen __QUIMICA.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2023/Química junio examen __QUIMICA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Química julio examen __QUIMICA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Química junio examen __QUIMICA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Química julio examen __QUIMICA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Química junio examen __QUIMICA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Química julio examen __QUIMICA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Química junio examen __QUIMICA.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "acidobase",
+       "nombre": "Ácido-base",
+       "p": 0.9,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "d) Quan s’utilitza CH ₃ COOH, és habitual afegir NaOH per ajustar el pH del",
+       "muestra_url": "manual:manual/baleares/2026/Química junio examen __QUIMICA.txt"
+      },
+      {
+       "id": "redox",
+       "nombre": "Redox y electroquímica",
+       "p": 0.848,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "d) Quan s’utilitza CH ₃ COOH, és habitual afegir NaOH per ajustar el pH del",
+       "muestra_url": "manual:manual/baleares/2026/Química junio examen __QUIMICA.txt"
+      },
+      {
+       "id": "equilibrio",
+       "nombre": "Equilibrio químico y solubilidad",
+       "p": 0.759,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "industrialment a partir dels seus elements en fase gasosa, segons l’equilibri",
+       "muestra_url": "manual:manual/baleares/2026/Química junio examen __QUIMICA.txt"
+      },
+      {
+       "id": "organica",
+       "nombre": "Química orgánica",
+       "p": 0.713,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "i) Escriu la fórmula del nitrat de zinc, un precursor inorgànic freqüent.",
+       "muestra_url": "manual:manual/baleares/2026/Química junio examen __QUIMICA.txt"
+      },
+      {
+       "id": "termo",
+       "nombre": "Termoquímica y espontaneidad",
+       "p": 0.434,
+       "veces": 3,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "H ₂ (g) + I ₂ (g) ⇄ 2 HI (g) amb ΔHº < 0 (exotèrmica)",
+       "muestra_url": "manual:manual/baleares/2026/Química junio examen __QUIMICA.txt"
+      },
+      {
+       "id": "enlace",
+       "nombre": "Enlace químico",
+       "p": 0.295,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "representada a la figura 2 es troba enllaçat aquest protó? Raona la",
+       "muestra_url": "manual:manual/baleares/2026/Química junio examen __QUIMICA.txt"
+      },
+      {
+       "id": "estructura",
+       "nombre": "Estructura atómica y tabla periódica",
+       "p": 0.148,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2024,
+       "tendencia": "baja",
+       "muestra": "b) Donat s el s següents n ombre s quàntics d’un determinat orbital : n = 3 i",
+       "muestra_url": "manual:manual/baleares/2024/Química junio examen __QUIMICA.txt"
+      },
+      {
+       "id": "cinetica",
+       "nombre": "Cinética química",
+       "p": 0.05,
+       "veces": 0,
+       "de": 10,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 6,
+      "aciertos": 5,
+      "tasa": 0.83,
+      "azar": 0.75,
+      "top": [
+       "acidobase",
+       "redox",
+       "equilibrio",
+       "organica",
+       "estructura",
+       "termo"
+      ],
+      "reales": [
+       "acidobase",
+       "enlace",
+       "equilibrio",
+       "organica",
+       "redox",
+       "termo"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "tecnologia": {
+     "nombre": "Tecnología e Ingeniería II",
+     "n_examenes": 6,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2024/Tecnología e Ingeniería II julio examen __TECNOLOGIA.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2024/Tecnología e Ingeniería II junio examen __TECNOLOGIA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2025/Tecnología e Ingeniería II julio examen __TECNOLOGIA.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2025/Tecnología e Ingeniería II junio examen __TECNOLOGIA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/baleares/2026/Tecnología e Ingeniería II julio examen __TECNOLOGIA.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/baleares/2026/Tecnología e Ingeniería II junio examen __TECNOLOGIA.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    }
+   },
+   "predecibilidad": 0.82
+  },
   "canarias": {
    "nombre": "Canarias",
    "materias": {
@@ -52623,638 +55794,638 @@
    {
     "id": "molecular",
     "nombre": "Genética molecular y biotecnología",
-    "p": 0.799,
-    "ccaa": 13
+    "p": 0.78,
+    "ccaa": 14
    },
    {
     "id": "biomoleculas",
     "nombre": "Biomoléculas",
-    "p": 0.79,
-    "ccaa": 13
+    "p": 0.767,
+    "ccaa": 14
    },
    {
     "id": "inmunologia",
     "nombre": "Inmunología",
-    "p": 0.728,
-    "ccaa": 13
+    "p": 0.711,
+    "ccaa": 14
    },
    {
     "id": "metabolismo",
     "nombre": "Metabolismo",
-    "p": 0.691,
-    "ccaa": 13
+    "p": 0.664,
+    "ccaa": 14
    },
    {
     "id": "celula",
     "nombre": "La célula",
-    "p": 0.659,
-    "ccaa": 13
+    "p": 0.64,
+    "ccaa": 14
    },
    {
     "id": "microbiologia",
     "nombre": "Microbiología",
-    "p": 0.614,
-    "ccaa": 13
+    "p": 0.597,
+    "ccaa": 14
    },
    {
     "id": "division",
     "nombre": "División celular",
-    "p": 0.488,
-    "ccaa": 13
+    "p": 0.473,
+    "ccaa": 14
    },
    {
     "id": "genetica",
     "nombre": "Genética mendeliana",
-    "p": 0.297,
-    "ccaa": 13
+    "p": 0.289,
+    "ccaa": 14
    }
   ],
   "dibujo": [
    {
     "id": "normalizacion",
     "nombre": "Normalización y vistas",
-    "p": 0.709,
-    "ccaa": 13
+    "p": 0.716,
+    "ccaa": 14
    },
    {
     "id": "axonometrico",
     "nombre": "Axonométrico y perspectiva",
-    "p": 0.648,
-    "ccaa": 13
+    "p": 0.657,
+    "ccaa": 14
    },
    {
     "id": "diedrico",
     "nombre": "Sistema diédrico",
-    "p": 0.598,
-    "ccaa": 13
+    "p": 0.578,
+    "ccaa": 14
    },
    {
     "id": "geometriaplana",
     "nombre": "Geometría plana (tangencias, transformaciones)",
-    "p": 0.561,
-    "ccaa": 13
+    "p": 0.547,
+    "ccaa": 14
    },
    {
     "id": "conicas",
     "nombre": "Cónicas",
-    "p": 0.47,
-    "ccaa": 13
+    "p": 0.455,
+    "ccaa": 14
    }
   ],
   "empresa": [
    {
     "id": "contabilidad",
     "nombre": "Balance y análisis financiero (ratios)",
-    "p": 0.805,
-    "ccaa": 13
+    "p": 0.772,
+    "ccaa": 14
    },
    {
     "id": "marketing",
     "nombre": "Marketing",
-    "p": 0.782,
-    "ccaa": 13
+    "p": 0.746,
+    "ccaa": 14
    },
    {
     "id": "financiacion",
     "nombre": "Inversión y financiación (VAN, TIR, payback)",
-    "p": 0.731,
-    "ccaa": 13
+    "p": 0.71,
+    "ccaa": 14
    },
    {
     "id": "produccion",
     "nombre": "Producción, costes y umbral de rentabilidad",
-    "p": 0.704,
-    "ccaa": 13
+    "p": 0.672,
+    "ccaa": 14
    },
    {
     "id": "modelonegocio",
     "nombre": "Modelo de negocio y emprendimiento (Canvas)",
-    "p": 0.469,
-    "ccaa": 13
+    "p": 0.448,
+    "ccaa": 14
    },
    {
     "id": "organizacion",
     "nombre": "Organización y dirección",
-    "p": 0.395,
-    "ccaa": 13
+    "p": 0.378,
+    "ccaa": 14
    }
   ],
   "filosofia": [
    {
     "id": "platon",
     "nombre": "Platón",
-    "p": 0.504,
-    "ccaa": 13
+    "p": 0.495,
+    "ccaa": 14
    },
    {
     "id": "descartes",
     "nombre": "Descartes",
-    "p": 0.346,
-    "ccaa": 13
+    "p": 0.343,
+    "ccaa": 14
    },
    {
     "id": "kant",
     "nombre": "Kant",
-    "p": 0.316,
-    "ccaa": 13
+    "p": 0.325,
+    "ccaa": 14
    },
    {
     "id": "aristoteles",
     "nombre": "Aristóteles",
-    "p": 0.272,
-    "ccaa": 13
-   },
-   {
-    "id": "nietzsche",
-    "nombre": "Nietzsche",
-    "p": 0.241,
-    "ccaa": 13
+    "p": 0.263,
+    "ccaa": 14
    },
    {
     "id": "empirismo",
     "nombre": "Hume / Locke",
     "p": 0.239,
-    "ccaa": 13
+    "ccaa": 14
+   },
+   {
+    "id": "nietzsche",
+    "nombre": "Nietzsche",
+    "p": 0.236,
+    "ccaa": 14
    },
    {
     "id": "contemporanea",
     "nombre": "Filosofía contemporánea (Arendt, Wittgenstein, Beauvoir…)",
-    "p": 0.233,
-    "ccaa": 13
+    "p": 0.229,
+    "ccaa": 14
    },
    {
     "id": "medieval",
     "nombre": "Agustín de Hipona / Tomás de Aquino",
-    "p": 0.186,
-    "ccaa": 13
+    "p": 0.18,
+    "ccaa": 14
    },
    {
     "id": "marx",
     "nombre": "Marx",
-    "p": 0.153,
-    "ccaa": 13
+    "p": 0.149,
+    "ccaa": 14
    },
    {
     "id": "ortega",
     "nombre": "Ortega y Gasset",
-    "p": 0.09,
-    "ccaa": 13
+    "p": 0.088,
+    "ccaa": 14
    }
   ],
   "fisica": [
    {
     "id": "gravitacion",
     "nombre": "Campo gravitatorio",
-    "p": 0.778,
-    "ccaa": 13
+    "p": 0.783,
+    "ccaa": 14
    },
    {
     "id": "ondas",
     "nombre": "Ondas y sonido",
-    "p": 0.671,
-    "ccaa": 13
-   },
-   {
-    "id": "optica",
-    "nombre": "Óptica",
-    "p": 0.667,
-    "ccaa": 13
-   },
-   {
-    "id": "moderna",
-    "nombre": "Física moderna (cuántica, nuclear, relatividad)",
-    "p": 0.661,
-    "ccaa": 13
+    "p": 0.663,
+    "ccaa": 14
    },
    {
     "id": "magnetico",
     "nombre": "Campo magnético e inducción",
+    "p": 0.662,
+    "ccaa": 14
+   },
+   {
+    "id": "optica",
+    "nombre": "Óptica",
+    "p": 0.658,
+    "ccaa": 14
+   },
+   {
+    "id": "moderna",
+    "nombre": "Física moderna (cuántica, nuclear, relatividad)",
     "p": 0.657,
-    "ccaa": 13
+    "ccaa": 14
    },
    {
     "id": "electrico",
     "nombre": "Campo eléctrico",
-    "p": 0.64,
-    "ccaa": 13
+    "p": 0.65,
+    "ccaa": 14
    }
   ],
   "geografia": [
    {
     "id": "sectores",
     "nombre": "Sectores económicos",
-    "p": 0.685,
-    "ccaa": 13
+    "p": 0.658,
+    "ccaa": 14
    },
    {
     "id": "clima",
     "nombre": "Clima y aguas",
-    "p": 0.606,
-    "ccaa": 13
+    "p": 0.612,
+    "ccaa": 14
    },
    {
     "id": "poblacion",
     "nombre": "Población",
-    "p": 0.544,
-    "ccaa": 13
+    "p": 0.523,
+    "ccaa": 14
    },
    {
     "id": "relieve",
     "nombre": "Relieve",
-    "p": 0.502,
-    "ccaa": 13
+    "p": 0.483,
+    "ccaa": 14
    },
    {
     "id": "territorio",
     "nombre": "Organización territorial y Europa",
-    "p": 0.47,
-    "ccaa": 13
+    "p": 0.458,
+    "ccaa": 14
    },
    {
     "id": "urbano",
     "nombre": "Espacio urbano",
-    "p": 0.443,
-    "ccaa": 13
+    "p": 0.426,
+    "ccaa": 14
    }
   ],
   "geologia": [
    {
     "id": "tectonica",
     "nombre": "Tectónica y riesgos geológicos",
-    "p": 0.739,
-    "ccaa": 13
+    "p": 0.74,
+    "ccaa": 14
    },
    {
     "id": "minerales",
     "nombre": "Minerales y rocas",
-    "p": 0.733,
-    "ccaa": 13
+    "p": 0.732,
+    "ccaa": 14
    },
    {
     "id": "procesos",
     "nombre": "Procesos externos y mapas geológicos",
-    "p": 0.641,
-    "ccaa": 13
+    "p": 0.616,
+    "ccaa": 14
    },
    {
     "id": "recursos",
     "nombre": "Recursos y medio ambiente",
-    "p": 0.521,
-    "ccaa": 13
+    "p": 0.508,
+    "ccaa": 14
    }
   ],
   "griego": [
    {
     "id": "morfosintaxis",
     "nombre": "Morfosintaxis",
-    "p": 0.717,
-    "ccaa": 13
+    "p": 0.677,
+    "ccaa": 14
    },
    {
     "id": "traduccion",
     "nombre": "Traducción",
-    "p": 0.669,
-    "ccaa": 13
+    "p": 0.632,
+    "ccaa": 14
    },
    {
     "id": "lexico",
     "nombre": "Léxico y etimología",
-    "p": 0.598,
-    "ccaa": 13
+    "p": 0.583,
+    "ccaa": 14
    },
    {
     "id": "literatura",
     "nombre": "Literatura griega",
-    "p": 0.516,
-    "ccaa": 13
+    "p": 0.488,
+    "ccaa": 14
    }
   ],
   "historia": [
    {
-    "id": "liberalismo",
-    "nombre": "Crisis del Antiguo Régimen y liberalismo (1808-1874)",
-    "p": 0.322,
-    "ccaa": 13
-   },
-   {
     "id": "guerracivil",
     "nombre": "Guerra Civil (1936-1939)",
-    "p": 0.322,
-    "ccaa": 13
+    "p": 0.332,
+    "ccaa": 14
+   },
+   {
+    "id": "liberalismo",
+    "nombre": "Crisis del Antiguo Régimen y liberalismo (1808-1874)",
+    "p": 0.329,
+    "ccaa": 14
    },
    {
     "id": "franquismo",
     "nombre": "Franquismo (1939-1975)",
-    "p": 0.287,
-    "ccaa": 13
+    "p": 0.293,
+    "ccaa": 14
    },
    {
     "id": "restauracion",
     "nombre": "Restauración (1874-1931)",
-    "p": 0.282,
-    "ccaa": 13
+    "p": 0.277,
+    "ccaa": 14
    },
    {
     "id": "moderna",
     "nombre": "Monarquía hispánica (Reyes Católicos, Austrias, Borbones s. XVIII)",
-    "p": 0.249,
-    "ccaa": 13
+    "p": 0.244,
+    "ccaa": 14
    },
    {
     "id": "transicion",
     "nombre": "Transición y democracia",
-    "p": 0.241,
-    "ccaa": 13
+    "p": 0.236,
+    "ccaa": 14
    },
    {
     "id": "republica",
     "nombre": "Segunda República (1931-1936)",
-    "p": 0.226,
-    "ccaa": 13
+    "p": 0.221,
+    "ccaa": 14
    },
    {
     "id": "antigua",
     "nombre": "Prehistoria a Edad Media (Al-Ándalus, reinos cristianos)",
     "p": 0.204,
-    "ccaa": 13
+    "ccaa": 14
    }
   ],
   "ingles": [
    {
     "id": "writing",
     "nombre": "Redacción (opinión, carta, email)",
-    "p": 0.862,
-    "ccaa": 13
+    "p": 0.863,
+    "ccaa": 14
    },
    {
     "id": "reading",
     "nombre": "Comprensión lectora (true/false, preguntas)",
-    "p": 0.62,
-    "ccaa": 13
+    "p": 0.63,
+    "ccaa": 14
    },
    {
     "id": "vocab",
     "nombre": "Vocabulario (sinónimos, definiciones)",
-    "p": 0.56,
-    "ccaa": 13
+    "p": 0.571,
+    "ccaa": 14
    },
    {
     "id": "grammar",
     "nombre": "Gramática (reescritura, transformaciones)",
-    "p": 0.193,
-    "ccaa": 13
+    "p": 0.198,
+    "ccaa": 14
    },
    {
     "id": "mediation",
     "nombre": "Mediación",
     "p": 0.05,
-    "ccaa": 13
+    "ccaa": 14
    }
   ],
   "latin": [
    {
     "id": "traduccion",
     "nombre": "Traducción",
-    "p": 0.682,
-    "ccaa": 12
+    "p": 0.65,
+    "ccaa": 13
    },
    {
     "id": "morfosintaxis",
     "nombre": "Morfosintaxis",
-    "p": 0.628,
-    "ccaa": 12
+    "p": 0.598,
+    "ccaa": 13
    },
    {
     "id": "lexico",
     "nombre": "Léxico y etimología",
-    "p": 0.441,
-    "ccaa": 12
+    "p": 0.421,
+    "ccaa": 13
    },
    {
     "id": "literatura",
     "nombre": "Literatura latina",
-    "p": 0.416,
-    "ccaa": 12
+    "p": 0.404,
+    "ccaa": 13
    }
   ],
   "lengua": [
    {
     "id": "morfologia",
     "nombre": "Léxico, morfología y semántica",
-    "p": 0.475,
-    "ccaa": 13
+    "p": 0.484,
+    "ccaa": 14
    },
    {
     "id": "sintaxis",
     "nombre": "Sintaxis (oración compuesta)",
-    "p": 0.383,
-    "ccaa": 13
+    "p": 0.394,
+    "ccaa": 14
    },
    {
     "id": "argumentacion",
     "nombre": "Texto argumentativo / opinión",
-    "p": 0.333,
-    "ccaa": 13
+    "p": 0.334,
+    "ccaa": 14
    },
    {
     "id": "comprension",
     "nombre": "Comprensión y resumen del texto",
-    "p": 0.272,
-    "ccaa": 13
+    "p": 0.278,
+    "ccaa": 14
    },
    {
     "id": "novela",
     "nombre": "Novela del siglo XX y actual",
-    "p": 0.261,
-    "ccaa": 13
+    "p": 0.26,
+    "ccaa": 14
    },
    {
     "id": "teatro",
     "nombre": "Teatro del siglo XX",
-    "p": 0.219,
-    "ccaa": 13
+    "p": 0.215,
+    "ccaa": 14
    },
    {
     "id": "lit27",
     "nombre": "Literatura: 27, Lorca, poesía de posguerra",
-    "p": 0.172,
-    "ccaa": 13
+    "p": 0.17,
+    "ccaa": 14
    },
    {
     "id": "lit98",
     "nombre": "Literatura: Modernismo y 98, novecentismo",
-    "p": 0.154,
-    "ccaa": 13
+    "p": 0.152,
+    "ccaa": 14
    }
   ],
   "matccss": [
    {
     "id": "probabilidad",
     "nombre": "Probabilidad",
-    "p": 0.771,
-    "ccaa": 13
+    "p": 0.777,
+    "ccaa": 14
    },
    {
     "id": "inferencia",
     "nombre": "Inferencia y distribución normal",
-    "p": 0.644,
-    "ccaa": 13
+    "p": 0.615,
+    "ccaa": 14
    },
    {
     "id": "funciones",
     "nombre": "Funciones y derivadas",
-    "p": 0.643,
-    "ccaa": 13
+    "p": 0.614,
+    "ccaa": 14
    },
    {
     "id": "matrices",
     "nombre": "Matrices y sistemas",
-    "p": 0.591,
-    "ccaa": 13
+    "p": 0.583,
+    "ccaa": 14
    },
    {
     "id": "progl",
     "nombre": "Programación lineal",
-    "p": 0.412,
-    "ccaa": 13
+    "p": 0.394,
+    "ccaa": 14
    },
    {
     "id": "integrales",
     "nombre": "Integrales y áreas",
-    "p": 0.278,
-    "ccaa": 13
+    "p": 0.267,
+    "ccaa": 14
    }
   ],
   "matematicas2": [
    {
     "id": "geometria",
     "nombre": "Geometría en el espacio",
-    "p": 0.808,
-    "ccaa": 13
+    "p": 0.812,
+    "ccaa": 14
    },
    {
     "id": "probabilidad",
     "nombre": "Probabilidad y distribuciones",
-    "p": 0.774,
-    "ccaa": 13
+    "p": 0.764,
+    "ccaa": 14
    },
    {
     "id": "matrices",
     "nombre": "Matrices y determinantes",
-    "p": 0.72,
-    "ccaa": 13
-   },
-   {
-    "id": "derivadas",
-    "nombre": "Derivadas y aplicaciones",
-    "p": 0.632,
-    "ccaa": 13
+    "p": 0.723,
+    "ccaa": 14
    },
    {
     "id": "integrales",
     "nombre": "Integrales y áreas",
-    "p": 0.629,
-    "ccaa": 13
+    "p": 0.617,
+    "ccaa": 14
+   },
+   {
+    "id": "derivadas",
+    "nombre": "Derivadas y aplicaciones",
+    "p": 0.606,
+    "ccaa": 14
    },
    {
     "id": "sistemas",
     "nombre": "Sistemas de ecuaciones (discusión)",
-    "p": 0.588,
-    "ccaa": 13
+    "p": 0.564,
+    "ccaa": 14
    },
    {
     "id": "limites",
     "nombre": "Límites y continuidad",
-    "p": 0.512,
-    "ccaa": 13
+    "p": 0.491,
+    "ccaa": 14
    }
   ],
   "quimica": [
    {
     "id": "acidobase",
     "nombre": "Ácido-base",
-    "p": 0.821,
-    "ccaa": 12
+    "p": 0.825,
+    "ccaa": 13
    },
    {
     "id": "organica",
     "nombre": "Química orgánica",
-    "p": 0.794,
-    "ccaa": 12
+    "p": 0.79,
+    "ccaa": 13
    },
    {
     "id": "equilibrio",
     "nombre": "Equilibrio químico y solubilidad",
-    "p": 0.791,
-    "ccaa": 12
-   },
-   {
-    "id": "termo",
-    "nombre": "Termoquímica y espontaneidad",
-    "p": 0.637,
-    "ccaa": 12
+    "p": 0.789,
+    "ccaa": 13
    },
    {
     "id": "redox",
     "nombre": "Redox y electroquímica",
-    "p": 0.634,
-    "ccaa": 12
+    "p": 0.645,
+    "ccaa": 13
+   },
+   {
+    "id": "termo",
+    "nombre": "Termoquímica y espontaneidad",
+    "p": 0.627,
+    "ccaa": 13
    },
    {
     "id": "enlace",
     "nombre": "Enlace químico",
-    "p": 0.608,
-    "ccaa": 12
+    "p": 0.592,
+    "ccaa": 13
    },
    {
     "id": "estructura",
     "nombre": "Estructura atómica y tabla periódica",
-    "p": 0.591,
-    "ccaa": 12
+    "p": 0.568,
+    "ccaa": 13
    },
    {
     "id": "cinetica",
     "nombre": "Cinética química",
-    "p": 0.259,
-    "ccaa": 12
+    "p": 0.248,
+    "ccaa": 13
    }
   ],
   "historiaarte": [
    {
     "id": "sigloxix",
     "nombre": "Goya y siglo XIX",
-    "p": 0.425,
-    "ccaa": 12
-   },
-   {
-    "id": "barroco",
-    "nombre": "Barroco",
-    "p": 0.341,
-    "ccaa": 12
+    "p": 0.397,
+    "ccaa": 13
    },
    {
     "id": "clasico",
     "nombre": "Arte clásico (Grecia y Roma)",
-    "p": 0.335,
-    "ccaa": 12
+    "p": 0.328,
+    "ccaa": 13
    },
    {
     "id": "renacimiento",
     "nombre": "Renacimiento",
-    "p": 0.329,
-    "ccaa": 12
+    "p": 0.319,
+    "ccaa": 13
+   },
+   {
+    "id": "barroco",
+    "nombre": "Barroco",
+    "p": 0.319,
+    "ccaa": 13
    },
    {
     "id": "vanguardias",
     "nombre": "Vanguardias y siglo XX",
-    "p": 0.301,
-    "ccaa": 12
+    "p": 0.282,
+    "ccaa": 13
    },
    {
     "id": "medieval",
     "nombre": "Románico y gótico",
-    "p": 0.289,
-    "ccaa": 12
+    "p": 0.278,
+    "ccaa": 13
    }
   ]
  }
