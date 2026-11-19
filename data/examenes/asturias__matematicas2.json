@@ -1,0 +1,107 @@
+{
+ "ccaa": "asturias",
+ "materia": "matematicas2",
+ "titulo": "Matemáticas II · PAU 2027 · Principado de Asturias",
+ "duracion_min": 90,
+ "instrucciones": "Responda a cuatro de las cinco preguntas. De cada pregunta seleccionada, conteste una única opción, A o B. Cada pregunta se calificará con un máximo de 2,5 puntos; la puntuación máxima de la prueba es de 10 puntos. Si responde a más preguntas o a más de una opción de una misma pregunta, se aplicarán los criterios de anulación de las últimas respuestas que correspondan.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "sistemas",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Opción A. En un ensayo de calibración, los ajustes de tres sensores, representados por $x$, $y$ y $z$, deben satisfacer las relaciones $x+y+z=1$, $x+2y+3z=2$ y $2x+3y+az=3$, donde $a$ es un parámetro real. (a) Discuta el sistema según los valores de $a$, indicando en cada caso si es compatible determinado, compatible indeterminado o incompatible. (1,5 puntos) (b) Para $a=1$, resuelva el sistema. (1 punto)\nOpción B. Un dispositivo transforma dos señales mediante la matriz $M(t)=\\begin{pmatrix}t&1\\\\2&t-1\\end{pmatrix}$, donde $t$ es un parámetro real. (a) Calcule $\\det M(t)$ y determine los valores de $t$ para los que el dispositivo no es invertible. (1 punto) (b) Para $t=3$, calcule $M(3)^{-1}$. (1 punto) (c) Para $t=3$, calcule $\\det(M(3)^2)$ sin desarrollar el producto matricial. (0,5 puntos).",
+   "solucion": "### Opción A\nSea $A(a)$ la matriz de coeficientes. Mediante operaciones elementales en la matriz ampliada:\n$$\n\\left(\\begin{array}{ccc|c}1&1&1&1\\\\1&2&3&2\\\\2&3&a&3\\end{array}\\right)\n\\xrightarrow{R_2-R_1,\\;R_3-2R_1}\n\\left(\\begin{array}{ccc|c}1&1&1&1\\\\0&1&2&1\\\\0&1&a-2&1\\end{array}\\right)\n\\xrightarrow{R_3-R_2}\n\\left(\\begin{array}{ccc|c}1&1&1&1\\\\0&1&2&1\\\\0&0&a-4&0\\end{array}\\right).\n$$\nLa última ecuación es $(a-4)z=0$.\n\n- Si $a\\ne4$, se obtiene $z=0$, luego $y=1$ y $x=0$. El sistema es **compatible determinado** y su única solución es $(x,y,z)=(0,1,0)$.\n- Si $a=4$, la última fila es nula y queda una variable libre. Tomando $z=s$, las otras ecuaciones dan $y=1-2s$ y $x=s$. El sistema es **compatible indeterminado**, con soluciones $(x,y,z)=(s,1-2s,s)$, para $s\\in\\mathbb R$.\n\nNo hay ningún valor de $a$ para el que el sistema sea incompatible. Como comprobación del caso singular, $\\det A(a)=a-4$, de modo que la única posibilidad de que no haya solución única es $a=4$; la reducción muestra que en ese caso sí hay soluciones.\n\nPara $a=1$, que satisface $a\\ne4$, resulta $(x,y,z)=(0,1,0)$. Comprobación en las ecuaciones originales: $0+1+0=1$, $0+2+0=2$ y $2\\cdot0+3\\cdot1+1\\cdot0=3$.\n\n### Opción B\nEl determinante es\n$$\n\\det M(t)=t(t-1)-2=t^2-t-2=(t-2)(t+1).\n$$\nPor tanto, el dispositivo no es invertible para $t=2$ o $t=-1$.\n\nPara $t=3$,\n$$\nM(3)=\\begin{pmatrix}3&1\\\\2&2\\end{pmatrix},\\qquad \\det M(3)=4,\n$$\ny, usando la fórmula de la inversa de una matriz $2\\times2$,\n$$\nM(3)^{-1}=\\frac{1}{4}\\begin{pmatrix}2&-1\\\\-2&3\\end{pmatrix}\n=\\begin{pmatrix}\\frac12&-\\frac14\\\\-\\frac12&\\frac34\\end{pmatrix}.\n$$\nLa multiplicación de $M(3)$ por esta matriz da la identidad, como comprobación.\n\nSin desarrollar el producto matricial, por la propiedad multiplicativa del determinante,\n$$\n\\det\\bigl(M(3)^2\\bigr)=\\det(M(3))^2=4^2=16.\n$$",
+   "resultado": "A: compatible determinado si $a\\ne4$, con $(0,1,0)$; compatible indeterminado si $a=4$, con $(s,1-2s,s)$; nunca incompatible. Para $a=1$: $(0,1,0)$. B: no invertible para $t=-1,2$; $M(3)^{-1}=\\begin{pmatrix}1/2&-1/4\\\\-1/2&3/4\\end{pmatrix}$; $\\det(M(3)^2)=16$.",
+   "criterios": "Opción A (2,5 puntos): apartado (a), 1,5 puntos: 0,5 por la reducción o el análisis equivalente que identifica el caso singular $a=4$; 0,5 por clasificar correctamente el caso $a\\ne4$; 0,5 por clasificar $a=4$ como compatible indeterminado, dar su familia de soluciones y descartar la incompatibilidad. Apartado (b), 1 punto: 0,5 por obtener $(0,1,0)$ para $a=1$ y 0,5 por comprobarlo en el sistema. Opción B (2,5 puntos): apartado (a), 1 punto: 0,5 por calcular el determinante y 0,5 por identificar sus ceros; apartado (b), 1 punto: 0,5 por aplicar correctamente la fórmula de la inversa y 0,5 por la matriz inversa correcta; apartado (c), 0,5 por usar la multiplicatividad del determinante y obtener 16. Las opciones A y B son alternativas y se puntúan cada una sobre 2,5 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "derivadas",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Opción A. Para construir una caja abierta, se recortan cuadrados de lado $x$ centímetros en las cuatro esquinas de una lámina cuadrada de $24$ centímetros de lado y se doblan los bordes. (a) Exprese el volumen $V(x)$ de la caja y determine los valores físicamente posibles de $x$. (0,75 puntos) (b) Determine el valor de $x$ que hace máximo el volumen y calcule las dimensiones de la caja de volumen máximo. (1,75 puntos)\nOpción B. Un sensor asigna a cada entrada real $t$ la lectura $f(t)=\\begin{cases}\\dfrac{t^2-9}{t-3},&t\\ne3,\\\\a,&t=3,\\end{cases}$ donde $a$ es un parámetro real. (a) Calcule $\\lim_{t\\to3}f(t)$. (1,25 puntos) (b) Determine el valor de $a$ para que la lectura sea continua en $t=3$. (1,25 puntos).",
+   "solucion": "**Se resuelven las dos opciones; en el examen se elegiría una de ellas.**\n\n## Opción A\n\n### (a) Volumen y valores físicamente posibles\n\nAl recortar cuadrados de lado $x$, la altura de la caja es $x$ y cada lado de la base mide $24-2x$. Por tanto,\n\n$$V(x)=x(24-2x)^2\\ \\text{cm}^3.$$\n\nPara que la caja tenga dimensiones positivas se requiere $x>0$ y $24-2x>0$. Así, los valores físicamente posibles son\n\n$$0<x<12.$$\n\n### (b) Máximo y dimensiones\n\nUsamos la desigualdad entre las medias aritmética y geométrica para obtener directamente una cota máxima. Sea $y=24-2x$, de modo que $2x+y=24$. Los tres números positivos $2x$, $y/2$ e $y/2$ suman $24$, así que\n\n$$\\sqrt[3]{(2x)\\left(\\frac y2\\right)^2}\\leq \\frac{24}{3}=8.$$\n\nComo $(2x)(y/2)^2=xy^2/2$, resulta que $xy^2\\leq 1024$. Por tanto, $V(x)\\leq1024\\ \\text{cm}^3$. La igualdad se alcanza cuando los tres números son iguales: $2x=y/2$, es decir, $y=4x$. Junto con $2x+y=24$, esto da $6x=24$, luego\n\n$$x=4\\ \\text{cm}.$$\n\nLa base mide $24-2(4)=16\\ \\text{cm}$ por $16\\ \\text{cm}$ y la altura mide $4\\ \\text{cm}$. El volumen máximo es\n\n$$V(4)=4\\cdot16^2=1024\\ \\text{cm}^3.$$\n\n**Comprobación:** $x=4$ pertenece al intervalo físicamente posible y alcanza la igualdad de la cota obtenida; además, $4\\cdot16\\cdot16=1024$.\n\n## Opción B\n\n### (a) Límite\n\nPara $t\\ne3$ se factoriza y simplifica:\n\n$$\\frac{t^2-9}{t-3}=\\frac{(t-3)(t+3)}{t-3}=t+3.$$\n\nPor tanto,\n\n$$\\lim_{t\\to3}f(t)=6.$$\n\n### (b) Continuidad\n\nLa función es continua en $t=3$ si y solo si su valor en ese punto coincide con el límite. Por consiguiente, el valor requerido es\n\n$$a=6.$$\n\n**Comprobación:** con $a=6$, el valor de la función en $t=3$ coincide con el límite; para cualquier otro valor de $a$ no es continua.",
+   "resultado": "Opción A: $0<x<12$; máximo para $x=4$ cm, con caja $16\\times16\\times4$ cm y volumen $1024$ cm³. Opción B: el límite es $6$ y la continuidad requiere $a=6$.",
+   "criterios": "Opción A (2,5 puntos): (a) planteamiento correcto de las dimensiones y del volumen, 0,50; intervalo físicamente posible, 0,25. (b) método de optimización válido y justificación de que se alcanza el máximo, 0,95; valor de x, 0,35; dimensiones y volumen máximo, 0,45. Opción B (2,5 puntos): (a) factorización/simplificación válida y cálculo del límite, 1,25; (b) aplicación de la condición de continuidad y obtención de a, 1,25.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "3",
+   "tema": "integrales",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Opción A. La sección transversal de un canal queda delimitada por el eje horizontal y el arco de altura $h(x)=3x(2-x)$ metros, para $0\\le x\\le2$, donde $x$ se mide en metros. (a) Calcule una primitiva $G$ de $h$ que cumpla $G(0)=0$. (1 punto) (b) Calcule el área de la sección transversal. (1,5 puntos)\nOpción B. En un mapa tridimensional, una trayectoria rectilínea está dada por $r:(x,y,z)=(1,0,0)+\\lambda(1,0,1)$, con $\\lambda\\in\\mathbb{R}$, y un punto de referencia es $Q=(0,2,0)$. (a) Determine una ecuación cartesiana del plano que contiene a $r$ y a $Q$. (1,75 puntos) (b) Calcule la distancia del origen $O=(0,0,0)$ a dicho plano. (0,75 puntos).",
+   "solucion": "## Opción A\n\n### (a) Primitiva con $G(0)=0$\n\nDesarrollamos la expresión de la altura:\n$$h(x)=3x(2-x)=6x-3x^2.$$\nUna primitiva es\n$$G(x)=\\int (6x-3x^2)\\,dx=3x^2-x^3+C.$$\nLa condición $G(0)=0$ implica $C=0$. Por tanto,\n$$\\boxed{G(x)=3x^2-x^3}.$$\n\n### (b) Área de la sección\n\nEl área es la integral de la altura entre los extremos del intervalo:\n$$A=\\int_0^2 3x(2-x)\\,dx=\\left[3x^2-x^3\\right]_0^2=12-8=\\boxed{4\\ \\mathrm{m}^2}.$$\n\n## Opción B\n\n### (a) Ecuación cartesiana del plano\n\nTomamos un punto de la recta $P=(1,0,0)$ y su vector director $v=(1,0,1)$. Como el plano también contiene $Q=(0,2,0)$, otro vector contenido en él es\n$$\\overrightarrow{PQ}=Q-P=(-1,2,0).$$\nUn vector normal al plano es el producto vectorial\n$$n=v\\times\\overrightarrow{PQ}=(-2,-1,2).$$\nLa ecuación del plano que pasa por $P$ es\n$$-2(x-1)-y+2z=0,$$\nequivalente a\n$$\\boxed{2x+y-2z-2=0}.$$\n\n### (b) Distancia del origen al plano\n\nPara un plano $ax+by+cz+d=0$, la distancia del punto $(x_0,y_0,z_0)$ al plano es\n$$\\frac{|ax_0+by_0+cz_0+d|}{\\sqrt{a^2+b^2+c^2}}.$$\nCon el plano obtenido y el origen $O=(0,0,0)$:\n$$d(O,\\pi)=\\frac{|-2|}{\\sqrt{2^2+1^2+(-2)^2}}=\\boxed{\\frac{2}{3}}.$$\n\n## Nota de corrección\n\nLos apartados de cada opción suman $2,5$ puntos; se corrige la opción elegida. En el campo `numeros` y en la salida del programa se incluyen ambas opciones: primero los coeficientes de $G$ en orden descendente de potencias, luego el área; a continuación, los coeficientes del plano en el orden $(x,y,z,1)$ y, finalmente, la distancia.",
+   "resultado": "Opción A: $G(x)=3x^2-x^3$ y $A=4\\,\\mathrm{m}^2$. Opción B: $2x+y-2z-2=0$ y $d(O,\\pi)=\\frac{2}{3}$.",
+   "criterios": "Opción A (2,5 puntos): (a) 0,75 por integrar correctamente $6x-3x^2$ y obtener una primitiva; 0,25 por imponer $G(0)=0$ y dar la primitiva correcta (1 punto). (b) 0,50 por plantear la integral definida en $[0,2]$; 0,75 por evaluarla correctamente; 0,25 por expresar el área con unidades (1,5 puntos). Opción B (2,5 puntos): (a) 0,50 por obtener vectores contenidos en el plano; 0,50 por calcular un vector normal; 0,75 por establecer una ecuación cartesiana válida que contenga la recta y el punto $Q$ (1,75 puntos). (b) 0,25 por aplicar la fórmula de distancia punto-plano; 0,50 por sustituir y obtener $2/3$ (0,75 puntos). Se aceptan ecuaciones equivalentes del plano y procedimientos correctos aunque difieran en la elección del vector normal.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "geometria",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Opción A. En un modelo tridimensional, una plataforma está representada por el plano $\\pi:2x-y+2z=5$ y un escáner ocupa la posición $P=(1,2,0)$. (a) Escriba una ecuación paramétrica de la recta perpendicular a $\\pi$ que pasa por $P$. (1 punto) (b) Calcule la distancia de $P$ a $\\pi$. (1,5 puntos)\nOpción B. Una empresa recibe unidades de tres talleres: el taller A suministra el $50\\%$, el B el $30\\%$ y el C el resto. Las proporciones de unidades defectuosas son, respectivamente, el $1\\%$, el $2\\%$ y el $5\\%$. Se elige una unidad al azar. (a) Calcule la probabilidad de que sea defectuosa. (1,25 puntos) (b) Sabiendo que la unidad elegida es defectuosa, calcule la probabilidad de que proceda del taller C. (1,25 puntos).",
+   "solucion": "Se resuelven las dos opciones, que son alternativas en el examen.\n\n## Opción A\n\n### (a) Recta perpendicular al plano\n\nUn vector normal al plano $\\pi:2x-y+2z=5$ es $\\vec n=(2,-1,2)$. La recta perpendicular a $\\pi$ que pasa por $P=(1,2,0)$ tiene ese vector como vector director. Por tanto, una ecuación paramétrica es\n\n$$\n\\begin{cases}\nx=1+2t,\\\\\ny=2-t,\\\\\nz=2t,\n\\end{cases}\\qquad t\\in\\mathbb R.\n$$\n\n### (b) Distancia de $P$ al plano\n\nUsamos la fórmula de distancia de un punto $(x_0,y_0,z_0)$ al plano $ax+by+cz+d=0$:\n\n$$\nd(P,\\pi)=\\frac{|ax_0+by_0+cz_0+d|}{\\sqrt{a^2+b^2+c^2}}.\n$$\n\nEscribimos el plano como $2x-y+2z-5=0$. Así,\n\n$$\nd(P,\\pi)=\\frac{|2\\cdot1-1\\cdot2+2\\cdot0-5|}{\\sqrt{2^2+(-1)^2+2^2}}\n=\\frac{5}{3}.\n$$\n\n## Opción B\n\nSean $D$ el suceso «la unidad es defectuosa» y $C$ el suceso «procede del taller C». Las probabilidades de procedencia son $P(A)=0{,}5$, $P(B)=0{,}3$ y $P(C)=0{,}2$.\n\n### (a) Probabilidad de que la unidad sea defectuosa\n\nPor la probabilidad total,\n\n$$\nP(D)=P(A)P(D\\mid A)+P(B)P(D\\mid B)+P(C)P(D\\mid C)\n$$\n\n$$\nP(D)=0{,}5\\cdot0{,}01+0{,}3\\cdot0{,}02+0{,}2\\cdot0{,}05\n=0{,}021.\n$$\n\n### (b) Probabilidad de que proceda de C sabiendo que es defectuosa\n\nPor el teorema de Bayes,\n\n$$\nP(C\\mid D)=\\frac{P(C)P(D\\mid C)}{P(D)}\n=\\frac{0{,}2\\cdot0{,}05}{0{,}021}\n=\\frac{10}{21}\\approx0{,}47619.\n$$",
+   "resultado": "A: (x,y,z)=(1+2t,2-t,2t), d(P,π)=5/3. B: P(defectuosa)=0,021; P(C|defectuosa)=10/21≈0,47619.",
+   "criterios": "Opción A (2,5 puntos): (a) identificar un vector normal válido como vector director y dar una recta que pase por P: 1 punto; (b) aplicar correctamente la fórmula de distancia al plano: 1 punto, y obtener 5/3: 0,5 puntos. Opción B (2,5 puntos): (a) plantear la probabilidad total con las proporciones y tasas de defecto correctas: 0,75 puntos; obtener 0,021: 0,5 puntos; (b) aplicar Bayes usando el numerador y denominador adecuados: 1 punto; obtener 10/21 (o su aproximación): 0,25 puntos. Se acepta cualquier forma equivalente; las opciones son alternativas y cada una se califica sobre 2,5 puntos. En numeros, los seis primeros valores describen la recta como punto base y vector director, en ese orden.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "probabilidad",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Opción A. En un cuestionario de seis preguntas, cada una tiene tres respuestas posibles y solo una es correcta. Una persona responde al azar y de forma independiente en cada pregunta. Sea $X$ el número de respuestas correctas. (a) Calcule la probabilidad de que acierte exactamente dos preguntas. (1,25 puntos) (b) Calcule la probabilidad de que acierte al menos una pregunta. (1,25 puntos)\nOpción B. Durante seis minutos, el caudal de entrada a un depósito es $q(t)=t(6-t)$ metros cúbicos por minuto, donde $t$ es el tiempo en minutos y $0\\le t\\le6$. (a) Mediante el estudio de la derivada, determine cuándo alcanza el caudal su valor máximo y calcule dicho valor. (1,25 puntos) (b) Calcule el volumen total de agua que entra en el depósito durante esos seis minutos. (1,25 puntos).",
+   "solucion": "## Opción A\n\nCada respuesta es correcta con probabilidad $p=\\frac{1}{3}$ e incorrecta con probabilidad $\\frac{2}{3}$. Por la independencia, $X\\sim\\operatorname{Bin}(6,\\frac{1}{3})$.\n\n**a) Exactamente dos respuestas correctas.**\n\n$$P(X=2)=\\binom{6}{2}\\left(\\frac{1}{3}\\right)^2\\left(\\frac{2}{3}\\right)^4=15\\cdot\\frac{1}{9}\\cdot\\frac{16}{81}=\\frac{80}{243}.$$\n\n**b) Al menos una respuesta correcta.** Se calcula mediante el suceso complementario de no acertar ninguna:\n\n$$P(X\\geq 1)=1-P(X=0)=1-\\left(\\frac{2}{3}\\right)^6=1-\\frac{64}{729}=\\frac{665}{729}.$$\n\n## Opción B\n\nEl caudal es $q(t)=t(6-t)=6t-t^2$, para $0\\leq t\\leq 6$.\n\n**a) Máximo del caudal.** Derivamos:\n\n$$q'(t)=6-2t.$$\n\nEl único punto crítico del intervalo satisface $6-2t=0$, de donde $t=3$. Para $t<3$, $q'(t)>0$, y para $t>3$, $q'(t)<0$; por tanto, el caudal crece hasta $t=3$ y después decrece. Su valor máximo es\n\n$$q(3)=3(6-3)=9\\ \\text{m}^3/\\text{min}.$$\n\n**b) Volumen total.** Integramos el caudal durante los seis minutos:\n\n$$V=\\int_0^6 q(t)\\,dt=\\int_0^6(6t-t^2)\\,dt=\\left[3t^2-\\frac{t^3}{3}\\right]_0^6=108-72=36\\ \\text{m}^3.$$\n\n",
+   "resultado": "Opción A: (a) $\\frac{80}{243}$; (b) $\\frac{665}{729}$. Opción B: (a) máximo en $t=3$ min, de $9$ m$^3$/min; (b) $36$ m$^3$.",
+   "criterios": "Cada opción se corrige sobre 2,5 puntos; el alumnado responde solo a una de las dos opciones. Opción A: (a) 1,25 puntos: identificar el modelo binomial y sus parámetros (0,25), plantear correctamente la probabilidad de exactamente dos aciertos (0,50) y obtener el resultado (0,50). (b) 1,25 puntos: usar correctamente el suceso complementario de cero aciertos (0,50), calcularlo (0,50) y dar la probabilidad pedida (0,25). Opción B: (a) 1,25 puntos: derivar correctamente el caudal (0,35), hallar el punto crítico (0,30), justificar que es máximo en el intervalo mediante el signo de la derivada (0,35) y calcular el caudal máximo con sus unidades (0,25). (b) 1,25 puntos: plantear la integral definida del caudal (0,40), integrar y evaluar en los límites correctamente (0,60) y expresar el volumen con unidades (0,25). Se admite cualquier procedimiento equivalente correctamente justificado.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "matrices",
+   "p": 0.9
+  },
+  {
+   "id": "geometria",
+   "p": 0.9
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.9
+  },
+  {
+   "id": "integrales",
+   "p": 0.808
+  },
+  {
+   "id": "sistemas",
+   "p": 0.682
+  },
+  {
+   "id": "derivadas",
+   "p": 0.515
+  }
+ ],
+ "referencias": [
+  "https://www.uniovi.es/documents/39158/3e334f59-7bbf-6396-ec0a-0bbbc7970351",
+  "https://www.uniovi.es/documents/39158/1907c032-98d2-2cfe-1031-3e80d42ade5f",
+  "https://www.uniovi.es/documents/39158/02f3d0c3-279d-4eab-30b0-eb885057904e",
+  "https://www.uniovi.es/documents/39158/0c720e76-e806-1b45-1757-e841736e7416",
+  "https://www.uniovi.es/documents/39158/1907c032-98d2-2cfe-1031-3e80d42ade5f",
+  "https://www.uniovi.es/documents/39158/3e334f59-7bbf-6396-ec0a-0bbbc7970351",
+  "https://www.uniovi.es/documents/39158/a6217868-41f9-391a-cfeb-53edbb19574c"
+ ]
+}
