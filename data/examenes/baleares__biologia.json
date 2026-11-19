@@ -1,0 +1,110 @@
+{
+ "ccaa": "baleares",
+ "materia": "biologia",
+ "titulo": "Biología — PAU 2027 — Illes Balears",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cinco preguntas, con una puntuación máxima de 2 puntos cada una. Las preguntas 1, 2 y 3 son conceptuales; las preguntas 4 y 5 son competenciales. En cada pregunta, contestad los apartados obligatorios y únicamente el número de apartados optativos indicado. La puntuación de cada apartado figura en el enunciado. La presentación, la redacción y la corrección ortográfica se valorarán globalmente; podrán descontarse hasta 0,5 puntos por ortografía y hasta 0,5 puntos por los demás aspectos formales. No contestéis en el enunciado. Tiempo máximo: 90 minutos.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "biomoleculas",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En el análisis de un alimento se detectan fosfolípidos y polisacáridos de reserva. Contestad los apartados a) y b), y elegid dos de los apartados c), d) y e):\na) Describid los componentes de un fosfolípido e indicad qué regiones son hidrófilas y cuáles hidrófobas. Explicad cómo se orientaría en un medio acuoso. (0,75 puntos)\nb) Comparad el almidón y el glucógeno en cuanto a sus monómeros, función biológica y grado de ramificación. (0,75 puntos)\nc) ¿La vitamina A es hidrosoluble o liposoluble? (0,25 puntos)\nd) Verdadero o falso: una enzima aumenta la energía de activación de la reacción que cataliza. No es necesario justificar la respuesta. (0,25 puntos)\ne) ¿Qué tipo de enlace une los dos monosacáridos de la maltosa? (0,25 puntos)",
+   "solucion": "### a) Fosfolípido\n1. En el modelo habitual de un glicerofosfolípido, la molécula contiene glicerol unido a dos ácidos grasos y a un grupo fosfato, que a su vez puede estar unido a otro grupo polar.\n2. La cabeza, formada por el fosfato y el grupo polar, es hidrófila; las dos cadenas de ácidos grasos son hidrófobas. Por tanto, el fosfolípido es anfipático.\n3. En agua se organiza normalmente en una bicapa: las cabezas hidrófilas quedan en contacto con el agua a ambos lados y las colas hidrófobas se orientan hacia el interior, enfrentadas entre sí.\n\n### b) Comparación entre almidón y glucógeno\n| Característica | Almidón | Glucógeno |\n|---|---|---|\n| Monómero | Unidades de α-D-glucosa. | Unidades de α-D-glucosa. |\n| Función | Reserva energética de los vegetales. | Reserva energética principalmente de animales y también de hongos. |\n| Ramificación | Incluye amilosa, esencialmente lineal, y amilopectina, ramificada. | Muy ramificado; sus ramificaciones son más frecuentes que las de la amilopectina. |\n\nEn ambos polímeros, las cadenas presentan enlaces $\\alpha(1\\to4)$ y los puntos de ramificación, enlaces $\\alpha(1\\to6)$.\n\n### c) Vitamina A\nLa vitamina A es liposoluble.\n\n### d) Enzimas y energía de activación\nLa afirmación es falsa: las enzimas disminuyen la energía de activación de la reacción que catalizan.\n\nSe eligen los apartados c) y d); no se responde el apartado e).\n\n### Comprobación final\nLas respuestas son coherentes: las regiones polares del fosfolípido contactan con el agua, mientras que las apolares quedan protegidas; ambos polisacáridos son reservas de glucosa, pero el glucógeno presenta mayor ramificación; y las enzimas reducen, no aumentan, la energía de activación.",
+   "resultado": "Fosfolípido anfipático en bicapa; almidón y glucógeno son reservas de α-D-glucosa, y el glucógeno está más ramificado; c) liposoluble; d) falso.",
+   "criterios": "a) 0,75 puntos: composición del fosfolípido (0,25), identificación de las regiones hidrófila e hidrófobas (0,25) y orientación correcta en medio acuoso (0,25). b) 0,75 puntos: monómeros (0,25), función biológica (0,25) y ramificación (0,25). c) 0,25 puntos por indicar que la vitamina A es liposoluble. d) 0,25 puntos por responder falso. Total: 2 puntos. Se han elegido c) y d), según lo permitido.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "molecular",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Un equipo de conservación quiere detectar, en muestras de agua, trazas de ADN de una especie protegida. Para ello amplifica un fragmento concreto mediante PCR. Contestad los apartados a) y b), y elegid dos de los apartados c), d) y e):\na) Indicad qué objetivo tiene la PCR y describid, en el orden correcto, las tres etapas que se repiten en cada ciclo. (0,75 puntos)\nb) Explicad la función de los cebadores y de la ADN polimerasa termoestable en esta técnica. (0,75 puntos)\nc) Verdadero o falso: la PCR convencional amplifica directamente una molécula de ARN sin ningún paso previo. No es necesario justificar la respuesta. (0,25 puntos)\nd) ¿Qué función tienen los desoxirribonucleótidos libres durante la PCR? (0,25 puntos)\ne) ¿Qué función tienen las enzimas de restricción en la obtención de moléculas de ADN recombinante? (0,25 puntos)",
+   "solucion": "### Enfoque funcional\nComo es una pregunta conceptual, no hay un método alternativo de cálculo. Se puede ordenar la explicación siguiendo qué ocurre con el ADN molde y qué función cumple cada componente.\n\n### a) Objetivo y etapas de la PCR\nEl objetivo es amplificar selectivamente un fragmento concreto de ADN, de modo que se obtengan muchas copias detectables a partir de una cantidad inicial muy pequeña.\n\nEn cada ciclo se repiten, en este orden:\n1. **Desnaturalización** (aproximadamente 95 °C): el calor separa las dos hebras del ADN molde.\n2. **Alineamiento o hibridación** (temperatura dependiente de los cebadores, habitualmente alrededor de 50–65 °C): los cebadores se unen a secuencias complementarias que flanquean el fragmento que se quiere amplificar.\n3. **Extensión o elongación** (habitualmente alrededor de 72 °C): la ADN polimerasa sintetiza nuevas hebras a partir de los cebadores, usando las hebras molde.\n\nAl repetirse los ciclos, aumenta el número de copias del fragmento diana.\n\n### b) Función de los cebadores y de la ADN polimerasa termoestable\nLos **cebadores** son oligonucleótidos cortos de ADN complementarios a las regiones que delimitan el fragmento diana. Aportan un extremo 3′-OH desde el que puede comenzar la síntesis y determinan qué región se amplifica.\n\nLa **ADN polimerasa termoestable** cataliza la formación de las nuevas hebras, incorporando nucleótidos complementarios al molde. Es termoestable para conservar su actividad tras las altas temperaturas de desnaturalización de los ciclos.\n\n### c) Opción elegida: verdadero o falso\n**Falso.** La PCR convencional amplifica ADN, no ARN directamente; para partir de ARN se requiere previamente una transcripción inversa que genere ADN complementario.\n\n### d) Opción elegida: función de los desoxirribonucleótidos libres\nSon los sustratos y unidades que la ADN polimerasa incorpora, en el orden complementario a la hebra molde, para formar las nuevas cadenas de ADN.\n\nSe responden los apartados c) y d), que son dos de las tres opciones propuestas.\n\n### Comprobación final\nLa secuencia de etapas es desnaturalización → alineamiento → extensión; la polimerasa necesita cebadores y nucleótidos para sintetizar ADN. Por ello, la afirmación de que la PCR convencional amplifica ARN directamente es falsa. El reparto elegido comprende a), b), c) y d), con un total de 2,00 puntos.",
+   "resultado": "La PCR amplifica un fragmento específico de ADN mediante desnaturalización, alineamiento y extensión; los cebadores delimitan e inician la copia y la polimerasa termoestable la sintetiza. c) Falso; d) los desoxirribonucleótidos son los sustratos para formar las nuevas hebras.",
+   "criterios": "Reparto propuesto para los 2,00 puntos: a) 0,75 puntos (0,15 por indicar el objetivo y 0,20 por cada una de las tres etapas, correctamente descritas y ordenadas); b) 0,75 puntos (0,35 por la función de los cebadores y 0,40 por la función y termoestabilidad de la ADN polimerasa); c) 0,25 puntos por marcar Falso; d) 0,25 puntos por indicar que los desoxirribonucleótidos son sustratos de la síntesis. Se han elegido c) y d), tal como permite el enunciado. Total: 2,00 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "microbiologia",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En un proyecto de acuicultura se estudia el uso de bacteriófagos para reducir la cantidad de bacterias patógenas en los tanques. Contestad los apartados a) y b), y elegid dos de los apartados c), d) y e):\na) Indicad los dos componentes imprescindibles de un virus y nombrad un componente que solo presentan algunos virus. (0,75 puntos)\nb) Describid, en el orden correcto, las etapas del ciclo lítico de un bacteriófago. (0,75 puntos)\nc) ¿Por qué un bacteriófago infecta solo bacterias que presentan receptores adecuados en su superficie? (0,25 puntos)\nd) Verdadero o falso: los virus se reproducen por fisión binaria. No es necesario justificar la respuesta. (0,25 puntos)\ne) ¿En qué región de una célula bacteriana se encuentra principalmente su ADN cromosómico? (0,25 puntos)",
+   "solucion": "### a) Componentes del virus\nLos dos componentes imprescindibles son el **material genético** (ADN o ARN) y la **cápsida proteica**, que lo rodea. Un componente presente solo en algunos virus es la **envoltura lipídica**.\n\n### b) Ciclo lítico de un bacteriófago\n1. **Adsorción:** el fago reconoce y se fija a receptores específicos de la superficie bacteriana.\n2. **Penetración:** inyecta su ácido nucleico en la bacteria; la cápsida queda en el exterior.\n3. **Biosíntesis:** se replica el genoma vírico y se sintetizan las proteínas del fago utilizando la maquinaria celular.\n4. **Ensamblaje o maduración:** se forman nuevos viriones al empaquetarse el material genético en las cápsidas.\n5. **Lisis y liberación:** se rompe la célula bacteriana y salen los nuevos fagos.\n\n### c) Especificidad de infección\nLas proteínas de unión del bacteriófago reconocen específicamente ciertos receptores bacterianos; si la bacteria no presenta el receptor compatible, el fago no puede adsorberse e iniciar la infección.\n\n### d) Verdadero o falso\n**Falso.** Los virus no se reproducen por fisión binaria: sus componentes se sintetizan y ensamblan dentro de una célula huésped.\n\n### Comprobación final\nSe han respondido a) y b), y dos de los tres apartados optativos (c y d). La puntuación máxima correspondiente es $0,75+0,75+0,25+0,25=2,00$ puntos. No existe un método alternativo de cálculo aplicable, pues se trata de una pregunta conceptual.",
+   "resultado": "Virus: ácido nucleico y cápsida; algunos presentan envoltura. Ciclo lítico: adsorción, penetración, biosíntesis, ensamblaje y lisis. c) especificidad receptor-ligando; d) falso. Puntuación: 2,00 puntos.",
+   "criterios": "a) 0,75 puntos: 0,25 por el ácido nucleico, 0,25 por la cápsida y 0,25 por un componente opcional correcto, como la envoltura. b) 0,75 puntos: 0,15 por cada etapa del ciclo lítico correctamente identificada y ordenada. Se eligen dos entre c), d) y e): 0,25 puntos por cada respuesta correcta. En esta resolución se contestan c) y d), por lo que la puntuación total es 2,00 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "genetica",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En un programa de recuperación de una planta autóctona se estudian dos caracteres: el color violeta de la flor, dominante sobre el blanco, y el margen entero de la hoja, dominante sobre el margen dentado. Los genes son autosómicos y se heredan de forma independiente; se considera que todos los genotipos tienen la misma viabilidad. Se cruza una planta heterocigota para ambos caracteres con una planta homocigota recesiva para ambos: $VvEe \\times vvee$. Contestad los apartados a), b) y c), y elegid uno de los apartados d) y e):\na) Indicad los gametos que puede formar la planta heterocigota y la proporción de cada tipo. (0,5 puntos)\nb) Calculad la proporción fenotípica esperada en la descendencia. (0,75 puntos)\nc) Si se obtienen 240 descendientes, ¿cuántos se esperan de cada fenotipo? (0,5 puntos)\nd) ¿En qué etapa de la meiosis se separan los cromosomas homólogos? (0,25 puntos)\ne) ¿Cómo se denomina el intercambio de fragmentos entre cromátidas no hermanas de cromosomas homólogos? (0,25 puntos)",
+   "solucion": "### a) Gametos de la planta heterocigota\nAl ser los genes independientes, los alelos de cada gen se distribuyen de forma independiente durante la formación de gametos. La planta $VvEe$ forma cuatro tipos de gametos en igual proporción: $VE$, $Ve$, $vE$ y $ve$, cada uno con probabilidad $\\frac{1}{4}$.\n\n### b) Proporción fenotípica esperada\nLa planta $vvee$ solo puede formar gametos $ve$. Al cruzarlos con los cuatro tipos de gametos de la planta heterocigota se obtienen, en proporciones iguales:\n\n- $VE \\times ve \\rightarrow VvEe$: flor violeta y margen entero.\n- $Ve \\times ve \\rightarrow Vvee$: flor violeta y margen dentado.\n- $vE \\times ve \\rightarrow vvEe$: flor blanca y margen entero.\n- $ve \\times ve \\rightarrow vvee$: flor blanca y margen dentado.\n\nPor tanto, la proporción fenotípica es $1:1:1:1$; cada fenotipo representa $\\frac{1}{4}$ de la descendencia.\n\n### c) Número esperado entre 240 descendientes\nCada fenotipo se espera con una frecuencia de $\\frac{1}{4}$, así que $240 \\times \\frac{1}{4}=60$. Se esperan 60 plantas de cada fenotipo.\n\n### d) Etapa de separación de los cromosomas homólogos\nLos cromosomas homólogos se separan durante la anafase I de la meiosis.",
+   "resultado": "Gametos: VE, Ve, vE y ve, cada uno 1/4; fenotipos en proporción 1:1:1:1, 60 de cada uno entre 240; los homólogos se separan en anafase I.",
+   "criterios": "Total: 2 puntos. a) 0,5 puntos: identifica los cuatro gametos $VE$, $Ve$, $vE$ y $ve$ y asigna a cada uno una proporción de 1/4. b) 0,75 puntos: obtiene los cuatro fenotipos posibles y la proporción 1:1:1:1 (1/4 cada uno). c) 0,5 puntos: calcula correctamente 60 descendientes esperados de cada fenotipo. d) 0,25 puntos: indica la anafase I como etapa de separación de los cromosomas homólogos. Se responde d), por lo que no es necesario contestar e).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "inmunologia",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En un centro de transfusión se determina el grupo sanguíneo de una persona usando reactivos anti-A, anti-B y anti-D. La muestra aglutina con anti-A y anti-D, pero no con anti-B. Para esta pregunta, considerad únicamente los sistemas ABO y RhD y la compatibilidad de concentrados de eritrocitos. Contestad los apartados a), b) y c), y elegid uno de los apartados d) y e):\na) Indicad el grupo sanguíneo ABO y el factor RhD de la persona. (0,5 puntos)\nb) De los concentrados de eritrocitos A+, O−, B− y AB+, indicad cuáles serían compatibles para transfundir a esta persona. (0,5 puntos)\nc) Explicad qué significa la aglutinación observada y cómo se produce en esta prueba. (0,75 puntos)\nd) ¿Qué clase de inmunoglobulina puede atravesar la placenta? (0,25 puntos)\ne) ¿Qué sistema de proteínas plasmáticas puede formar poros en membranas celulares como parte de la respuesta inmunitaria innata? (0,25 puntos)",
+   "solucion": "### a) Grupo sanguíneo\nLa aglutinación con anti-A indica que los eritrocitos presentan el antígeno A. La ausencia de aglutinación con anti-B indica que no presentan el antígeno B. La reacción con anti-D demuestra que presentan el antígeno D del sistema Rh. Por tanto, el grupo es **A RhD positivo (A+)**.\n\n### b) Compatibilidad de concentrados de eritrocitos\nLo comprobamos desde el receptor: una persona del grupo A puede recibir eritrocitos que no tengan el antígeno B, y una persona RhD positiva puede recibir eritrocitos RhD positivos o negativos.\n\n- **A+**: compatible; presenta antígeno A, pero no B, y es RhD positivo.\n- **O−**: compatible; no presenta antígenos A ni B y es RhD negativo.\n- **B−**: incompatible; presenta el antígeno B.\n- **AB+**: incompatible; presenta el antígeno B.\n\nPor tanto, son compatibles **A+ y O−**.\n\n### c) Significado y mecanismo de la aglutinación\nLa aglutinación observada indica que los eritrocitos tienen los antígenos reconocidos por los reactivos correspondientes. Los anticuerpos de los reactivos anti-A y anti-D se unen específicamente a los antígenos A y D, respectivamente. Al unirse a antígenos de varios eritrocitos, los anticuerpos los entrecruzan y forman agregados visibles. El reactivo anti-B no produce aglutinación porque no se detecta el antígeno B.\n\n### d) Apartado elegido\nLa inmunoglobulina que puede atravesar la placenta es la **IgG**.\n\n### Comprobación final\nEl patrón anti-A positivo, anti-B negativo y anti-D positivo corresponde a A+. De los concentrados propuestos, A+ y O− no aportan el antígeno B que sería incompatible con el receptor; B− y AB+ sí lo aportan. Se han contestado a), b), c) y d), que suman los 2 puntos.",
+   "resultado": "Grupo A RhD positivo; compatibles A+ y O−; la aglutinación refleja unión y entrecruzamiento antígeno-anticuerpo; la IgG atraviesa la placenta.",
+   "criterios": "Total: 2 puntos. a) 0,5: 0,25 por identificar el grupo ABO A y 0,25 por RhD positivo. b) 0,5: 0,125 por cada opción correctamente clasificada como compatible o incompatible. c) 0,75: 0,25 por explicar la unión específica antígeno-anticuerpo, 0,25 por el entrecruzamiento y formación de agregados visibles, y 0,25 por interpretar correctamente las reacciones con anti-A, anti-B y anti-D. d) 0,25 por indicar IgG. Se responde d) como el único apartado opcional elegido.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "molecular",
+   "p": 0.339
+  },
+  {
+   "id": "inmunologia",
+   "p": 0.331
+  },
+  {
+   "id": "biomoleculas",
+   "p": 0.233
+  },
+  {
+   "id": "microbiologia",
+   "p": 0.207
+  },
+  {
+   "id": "celula",
+   "p": 0.197
+  },
+  {
+   "id": "division",
+   "p": 0.139
+  }
+ ],
+ "referencias": [
+  "manual:manual/baleares/2026/Biología junio examen __BIOLOGIA.txt",
+  "manual:manual/baleares/2026/Biología julio examen __BIOLOGIA.txt",
+  "manual:manual/baleares/2022/Biología junio examen __BIOLOGIA.txt",
+  "manual:manual/baleares/2023/Biología julio examen __BIOLOGIA.txt",
+  "manual:manual/baleares/2023/Biología junio examen __BIOLOGIA.txt",
+  "manual:manual/baleares/2024/Biología julio examen __BIOLOGIA.txt",
+  "manual:manual/baleares/2024/Biología junio examen __BIOLOGIA.txt",
+  "manual:manual/baleares/2025/Biología junio examen __BIOLOGIA.txt",
+  "manual:manual/baleares/2026/Biología julio examen __BIOLOGIA.txt",
+  "manual:manual/baleares/2026/Biología junio examen __BIOLOGIA.txt"
+ ]
+}
