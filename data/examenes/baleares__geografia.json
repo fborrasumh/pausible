@@ -1,0 +1,94 @@
+{
+ "ccaa": "baleares",
+ "materia": "geografia",
+ "titulo": "Geografía — PAU 2027 — Illes Balears",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro partes, valoradas cada una en 2,5 puntos. En la parte 1, elegid y resolved una de las dos opciones de localización sobre el mapa mudo adjunto. Las partes 2 y 3 son obligatorias. En la parte 4, elegid y resolved una de las dos opciones. Responded a cada apartado indicando su número y respetando la puntuación especificada. En los ejercicios de localización, señalad y nombrad los elementos, incorporad una leyenda y añadid una breve nota explicativa. Los datos de las tablas y situaciones que se indican como simulados se han creado exclusivamente para este examen. Se valorarán el razonamiento, la coherencia, la corrección lingüística y la presentación. Responded con bolígrafo azul o negro; se pueden utilizar colores distintos del rojo y el verde.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "clima",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "PARTE 1. Elegid una opción y desarrolladla. Puntuación máxima: 2,5 puntos.\n\nOPCIÓN A. En el mapa mudo adjunto de España, localizad y nombrad las cuencas hidrográficas del Miño-Sil, Duero, Tajo, Guadiana y Guadalquivir. Delimitadlas aproximadamente con colores o símbolos diferentes, añadid una leyenda e indicad brevemente hacia qué vertiente drenan.\n\nOPCIÓN B. En el mapa mudo adjunto de España, localizad y nombrad las siete comunidades autónomas uniprovinciales. Diferenciadlas con colores o símbolos, añadid una leyenda y escribid sus nombres sobre el territorio correspondiente.",
+   "solucion": "### Opción B: comunidades autónomas uniprovinciales\n\nComo no se adjunta el mapa mudo, se indican las posiciones para trasladarlas al mapa y una leyenda posible.\n\n1. **Localizar por referencias geográficas:**\n   - En la costa cantábrica, de oeste a este: **Principado de Asturias**, entre Galicia y Cantabria; **Cantabria**, al este de Asturias y al oeste del País Vasco.\n   - En el interior norte: **La Rioja**, al sur del País Vasco y al oeste de Navarra; **Comunidad Foral de Navarra**, al este de La Rioja y al sur de Francia.\n   - En el centro peninsular: **Comunidad de Madrid**, en el centro de la Península, entre Castilla y León y Castilla-La Mancha.\n   - En el sureste: **Región de Murcia**, junto al Mediterráneo, al sur de la Comunidad Valenciana y al este de Andalucía.\n   - En el Mediterráneo, frente a la costa oriental peninsular: **Illes Balears**.\n\n2. **Diferenciar y rotular:** colorear o marcar cada comunidad con un símbolo distinto y escribir su nombre dentro de su territorio. Por ejemplo, usar siete tramas o colores diferentes y asociarlos en una leyenda con los siete nombres. En Illes Balears, señalar el archipiélago en su posición insular, al este de la costa peninsular.\n\n3. **Comprobación:** el conjunto contiene siete comunidades; cada una corresponde a una sola provincia: Asturias, Cantabria, La Rioja, Navarra, Madrid, Murcia e Illes Balears. La distribución queda comprobada al recorrer la costa cantábrica, el interior norte, el centro, el sureste y las islas.",
+   "resultado": "Asturias, Cantabria, La Rioja, Navarra, Comunidad de Madrid, Región de Murcia e Illes Balears; son siete comunidades autónomas uniprovinciales.",
+   "criterios": "Propuesta de corrección sobre 2,5 puntos: 1,40 puntos por identificar correctamente las siete comunidades (0,20 por cada una); 0,70 puntos por su localización correcta en el mapa (0,10 por cada una); 0,25 puntos por diferenciarlas con colores o símbolos y añadir una leyenda coherente; 0,15 puntos por rotularlas con claridad sobre el territorio correspondiente. Se acepta una simbología equivalente siempre que sea consistente y legible.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "clima",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "PARTE 2. Una agencia de cuenca del sureste peninsular evalúa los recursos de una cuenca de abastecimiento en un año seco. La superficie de la cuenca es de 12 km², la precipitación anual registrada es de 400 mm y el coeficiente de escorrentía es del 25 %. La demanda anual prevista es de 1,5 hm³. Para este ejercicio, suponed que toda la escorrentía estimada puede incorporarse al balance y que no hay otras fuentes ni pérdidas.\n\n1. Calculad el volumen anual de escorrentía, expresado en hm³. (0,5 puntos)\n2. Calculad el déficit anual respecto a la demanda prevista. (0,5 puntos)\n3. La agencia compara estas medidas: A) reparar fugas de la red e instalar dispositivos de bajo consumo; B) construir una planta desaladora; C) aumentar las extracciones de los acuíferos. ¿Cuál reduce directamente la demanda sin añadir nuevos recursos? Indicad la opción y explicad brevemente por qué. (0,75 puntos)\n4. Definid sobreexplotación de un acuífero. (0,75 puntos)",
+   "solucion": "### 1. Volumen anual de escorrentía\n\nConvertimos los datos a unidades coherentes: $400\\,\\text{mm}=0,4\\,\\text{m}$ y $12\\,\\text{km}^2=12\\times10^6\\,\\text{m}^2$. El volumen de escorrentía se calcula aplicando el coeficiente de escorrentía:\n\n$$V= S\\times P\\times C_e$$\n\n$$V=(12\\times10^6)\\times0,4\\times0,25=1,2\\times10^6\\,\\text{m}^3=1,2\\,\\text{hm}^3$$\n\n### 2. Déficit anual\n\nSegún el supuesto del enunciado, la escorrentía estimada es el único recurso disponible. Por tanto:\n\n$$\\text{Déficit}=\\text{demanda}-\\text{recursos}=1,5-1,2=0,3\\,\\text{hm}^3$$\n\n### 3. Medida que reduce directamente la demanda\n\nLa opción **A**. Reparar fugas y utilizar dispositivos de bajo consumo disminuye el agua demandada. La desalación (B) incorpora nuevos recursos, mientras que aumentar las extracciones de los acuíferos (C) incrementa la captación y puede agravar su sobreexplotación.\n\n### 4. Sobreexplotación de un acuífero\n\nSe produce cuando las extracciones de agua subterránea superan de forma sostenida la recarga natural del acuífero. Esto reduce sus reservas y puede provocar el descenso del nivel freático y otros impactos ambientales.",
+   "resultado": "Escorrentía anual: 1,2 hm³; déficit anual: 0,3 hm³; medida: A; sobreexplotación: extracción sostenida superior a la recarga.",
+   "criterios": "Puntuación total: 2,5 puntos. 1) Volumen de escorrentía: 0,5 puntos por planteamiento, conversiones y resultado correcto (1,2 hm³). 2) Déficit: 0,5 puntos por restar los recursos disponibles de la demanda y obtener 0,3 hm³. 3) Medida: 0,75 puntos; 0,25 por identificar la opción A y 0,5 por explicar que reduce la demanda, a diferencia de las opciones B y C. 4) Definición de sobreexplotación: 0,75 puntos por indicar que las extracciones superan de forma sostenida la recarga del acuífero.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "territorio",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "PARTE 3. Un equipo prepara una actividad sobre las diferencias territoriales en la Unión Europea. La tabla contiene un índice simulado del PIB per cápita regional, con la media de la UE igual a 100; los valores no son datos oficiales.\n\nTerritorio: Illes Balears — índice 112\nTerritorio: Galicia — índice 91\nTerritorio: Extremadura — índice 74\n\nPara el ejercicio, aplicad estos intervalos: región menos desarrollada, índice inferior a 75; región en transición, desde 75 hasta menos de 100; región más desarrollada, índice igual o superior a 100.\n\n1. ¿Qué territorio presenta el índice más alejado por debajo de la media de la UE y cuántos puntos de índice lo separan de 100? (0,5 puntos)\n2. Clasificad cada uno de los tres territorios según los intervalos proporcionados. (0,75 puntos)\n3. Indicad el nivel NUTS al que corresponde cada territorio de la tabla, sabiendo que son comunidades autónomas españolas. (0,5 puntos)\n4. Ordenad de menor a mayor escala territorial estas unidades: municipio de Sóller, comunidad autónoma de Illes Balears, Estado español y Unión Europea. (0,75 puntos)",
+   "solucion": "### 1. Territorio más alejado por debajo de la media\nLa media de referencia es 100. Galicia está 9 puntos por debajo ($100-91=9$), mientras que Extremadura está 26 puntos por debajo ($100-74=26$). Por tanto, el territorio más alejado por debajo de la media es **Extremadura**, a **26 puntos de índice**.\n\n### 2. Clasificación de los territorios\nAplicando los intervalos indicados:\n- **Illes Balears (112): región más desarrollada**, porque $112\\geq100$.\n- **Galicia (91): región en transición**, porque $75\\leq91<100$.\n- **Extremadura (74): región menos desarrollada**, porque $74<75$.\n\n### 3. Nivel NUTS\nAl ser las tres unidades comunidades autónomas españolas, cada una corresponde al nivel **NUTS 2**: Illes Balears, Galicia y Extremadura.\n\n### 4. Orden de menor a mayor escala territorial\n**Municipio de Sóller → comunidad autónoma de Illes Balears → Estado español → Unión Europea.**\n\nPara que la lista numérica solicitada represente también las respuestas no numéricas, se usan estos códigos: territorios según el orden de la tabla (Illes Balears = 1, Galicia = 2, Extremadura = 3); clasificación (menos desarrollada = 1, en transición = 2, más desarrollada = 3); el nivel NUTS se expresa con su número (2); y las unidades de la última pregunta se codifican según el orden en que aparecen en ella (Sóller = 1, Illes Balears = 2, España = 3, UE = 4).",
+   "resultado": "Extremadura, 26 puntos por debajo de la media; Illes Balears: más desarrollada, Galicia: en transición, Extremadura: menos desarrollada; las tres son NUTS 2; orden: Sóller → Illes Balears → España → Unión Europea.",
+   "criterios": "Puntuación total: 2,5 puntos. 1) 0,5 puntos: 0,25 por identificar Extremadura y 0,25 por calcular correctamente la diferencia de 26 puntos respecto a 100. 2) 0,75 puntos: 0,25 por cada clasificación correcta (Illes Balears, más desarrollada; Galicia, en transición; Extremadura, menos desarrollada). 3) 0,5 puntos: identificar las tres comunidades autónomas como NUTS 2; puede distribuirse proporcionalmente entre los tres casos. 4) 0,75 puntos: orden completo correcto de menor a mayor escala: municipio de Sóller, comunidad autónoma de Illes Balears, Estado español y Unión Europea; se admite puntuación parcial proporcional si el orden es parcialmente correcto.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "clima",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "PARTE 4. Elegid una opción y resolved sus cuatro apartados. Puntuación máxima: 2,5 puntos.\n\nOPCIÓN A. En un simulacro de protección civil en una cuenca costera mediterránea se registra una precipitación de 120 mm en dos horas. La precipitación media anual de la estación es de 600 mm. El protocolo simulado establece aviso rojo cuando se alcanzan 100 mm en dos horas. La cuenca tiene pendientes pronunciadas y abundantes superficies urbanizadas impermeables.\n\n1. ¿Qué porcentaje de la precipitación media anual representan los 120 mm registrados? (0,5 puntos)\n2. ¿Se alcanza el umbral del aviso rojo? Indicad en cuántos milímetros se supera o cuánto falta para alcanzarlo. (0,5 puntos)\n3. Elegid el conjunto de características que favorece más una respuesta rápida de la cuenca: A) pendientes pronunciadas y superficies impermeables; B) relieve llano y suelos muy permeables; C) vegetación densa y elevada infiltración. (0,75 puntos)\n4. En caso de inundación, elegid la actuación más segura: A) dirigirse a la zona elevada indicada por los servicios de emergencia; B) cruzar en coche una carretera inundada; C) acercarse a un paso subterráneo para observar la crecida. (0,75 puntos)\n\nOPCIÓN B. Una cooperativa agraria compara el agua utilizada y la producción anual de dos cultivos. Los datos son simulados.\n\nCultivo de almendra: producción anual, 24 toneladas; agua de riego, 12.000 m³.\nCultivo de tomate: producción anual, 90 toneladas; agua de riego, 30.000 m³.\n\n1. ¿A qué sector económico pertenece la actividad agraria de la cooperativa? (0,5 puntos)\n2. Calculad la productividad del agua de cada cultivo en kilogramos por metro cúbico. (0,75 puntos)\n3. ¿Qué cultivo obtiene más kilogramos por metro cúbico y cuál es la diferencia entre ambos resultados? (0,5 puntos)\n4. Elegid la medida que contribuye más directamente a mejorar la eficiencia del riego: A) instalar riego por goteo y sensores de humedad; B) regar al mediodía con un horario fijo; C) ampliar la superficie regada sin aumentar la dotación de agua. (0,75 puntos)",
+   "solucion": "## Opción B\n\n### 1. Sector económico\nLa actividad agraria pertenece al **sector primario**, porque obtiene productos directamente de la agricultura.\n\n### 2. Productividad del agua\nSe calcula dividiendo la producción, expresada en kilogramos, entre el agua utilizada en metros cúbicos:\n\n$$\\text{Productividad} = \\frac{\\text{producción (kg)}}{\\text{agua (m}^3\\text{)}}$$\n\n- **Almendra:** $24\\ \\text{t} = 24\\,000\\ \\text{kg}$; por tanto, $24\\,000 / 12\\,000 = 2\\ \\text{kg/m}^3$.\n- **Tomate:** $90\\ \\text{t} = 90\\,000\\ \\text{kg}$; por tanto, $90\\,000 / 30\\,000 = 3\\ \\text{kg/m}^3$.\n\n### 3. Comparación\nEl tomate obtiene más kilogramos por metro cúbico. La diferencia es $3 - 2 = 1\\ \\text{kg/m}^3$.\n\n### 4. Medida de eficiencia del riego\nLa opción correcta es **A) instalar riego por goteo y sensores de humedad**, pues permite ajustar el aporte de agua a las necesidades del cultivo y reducir pérdidas.",
+   "resultado": "Opción B: sector primario; almendra, 2 kg/m³; tomate, 3 kg/m³; diferencia, 1 kg/m³; medida de riego, A.",
+   "criterios": "Puntuación máxima: 2,5 puntos. 1) Identifica el sector primario: 0,5 puntos. 2) Calcula correctamente la productividad de la almendra (conversión a kilogramos y resultado con unidades): 0,375 puntos; productividad del tomate: 0,375 puntos. 3) Indica que el tomate presenta mayor productividad: 0,25 puntos; calcula la diferencia de 1 kg/m³: 0,25 puntos. 4) Selecciona la opción A y justifica que el riego por goteo y los sensores ajustan el aporte de agua y mejoran su eficiencia: 0,75 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "clima",
+   "p": 0.746
+  },
+  {
+   "id": "territorio",
+   "p": 0.189
+  },
+  {
+   "id": "relieve",
+   "p": 0.05
+  },
+  {
+   "id": "poblacion",
+   "p": 0.05
+  },
+  {
+   "id": "urbano",
+   "p": 0.05
+  },
+  {
+   "id": "sectores",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "manual:manual/baleares/2026/Geografía junio examen __GEOGRAFIA.txt",
+  "manual:manual/baleares/2026/Geografía julio examen __GEOGRAFIA.txt",
+  "manual:manual/baleares/2022/Geografía junio examen __GEOGRAFIA.txt",
+  "manual:manual/baleares/2025/Geografía junio examen __GEOGRAFIA.txt",
+  "manual:manual/baleares/2026/Geografía julio examen __GEOGRAFIA.txt",
+  "manual:manual/baleares/2026/Geografía junio examen __GEOGRAFIA.txt"
+ ]
+}
