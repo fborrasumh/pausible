@@ -1,0 +1,108 @@
+{
+ "ccaa": "asturias",
+ "materia": "matccss",
+ "titulo": "PAU 2027 · Matemáticas Aplicadas a las Ciencias Sociales II · Principado de Asturias",
+ "duracion_min": 90,
+ "instrucciones": "Responde una de las dos opciones (A o B) de cuatro de las cinco preguntas. Todas las preguntas se califican con un máximo de 2,5 puntos. Indica claramente qué opción respondes en cada pregunta. La puntuación máxima es de 10 puntos.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "funciones",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Opción A. Durante una jornada de atención, el número de solicitudes recibidas por un portal municipal, medido en decenas, se modela durante las primeras ocho horas mediante $f(t)=-t^2+10t+6$, donde $t$ es el tiempo en horas y $0\\le t\\le 8$. a) Estudia la continuidad y los intervalos de crecimiento y decrecimiento de $f$. Determina los valores máximo y mínimo absolutos del índice en ese intervalo y cuándo se alcanzan. (1,75 puntos) b) ¿En qué intervalo de tiempo el índice es estrictamente superior a $30$ decenas? (0,75 puntos)\nOpción B. Durante cuatro minutos, el caudal de entrada de agua a un depósito, en litros por minuto, viene dado por $r(t)=t^2-4t+5$, con $0\\le t\\le 4$. Al comienzo hay $2$ litros en el depósito. a) Encuentra la función $G(t)$ que expresa la cantidad de agua en el depósito, sabiendo que $G'(t)=r(t)$ y $G(0)=2$. (0,75 puntos) b) Calcula cuántos litros han entrado durante esos cuatro minutos y la cantidad de agua que queda en el depósito al final. (1,75 puntos)",
+   "solucion": "## Opción A\n\n### a) Continuidad, monotonía y extremos absolutos\n\nLa función $f(t)=-t^2+10t+6$ es un polinomio, por lo que es continua en todo $\\mathbb{R}$ y, en particular, en $[0,8]$.\n\nPara estudiar la monotonía sin recurrir al cálculo de la derivada, completamos el cuadrado:\n\n$$f(t)=-(t-5)^2+31.$$\n\nEn $[0,5]$, al aumentar $t$, disminuye estrictamente $(t-5)^2$; por tanto, $f$ crece estrictamente. En $[5,8]$, $(t-5)^2$ aumenta estrictamente y, por tanto, $f$ decrece estrictamente.\n\nAsí, $f$ crece en $[0,5]$ y decrece en $[5,8]$. Para hallar los extremos absolutos, evaluamos en los extremos del intervalo y en el vértice:\n\n$$f(0)=6,\\qquad f(5)=31,\\qquad f(8)=22.$$\n\nPor consiguiente, el mínimo absoluto es $6$ decenas y se alcanza en $t=0$ horas; el máximo absoluto es $31$ decenas y se alcanza en $t=5$ horas.\n\n### b) Índice estrictamente superior a $30$ decenas\n\nResolvemos la desigualdad estricta:\n\n$$f(t)>30\\iff -(t-5)^2+31>30\\iff (t-5)^2<1\\iff 4<t<6.$$\n\nEste intervalo está contenido en $[0,8]$. Por tanto, el índice es estrictamente superior a $30$ decenas entre las horas $4$ y $6$, sin incluir los extremos.\n\n## Opción B\n\n### a) Función que expresa la cantidad de agua\n\nComo $G'(t)=r(t)=t^2-4t+5$, integramos:\n\n$$G(t)=\\int(t^2-4t+5)\\,dt=\\frac{t^3}{3}-2t^2+5t+C.$$\n\nLa condición inicial $G(0)=2$ da $C=2$. Luego,\n\n$$G(t)=\\frac{t^3}{3}-2t^2+5t+2.$$\n\n### b) Agua que entra y cantidad final\n\nLa cantidad que entra durante los cuatro minutos es la integral del caudal:\n\n$$\\int_0^4 r(t)\\,dt=\\left[\\frac{t^3}{3}-2t^2+5t\\right]_0^4=\\frac{64}{3}-32+20=\\frac{28}{3}\\text{ litros}.$$\n\nLa cantidad de agua al final es\n\n$$G(4)=\\frac{64}{3}-32+20+2=\\frac{34}{3}\\text{ litros}.$$\n\n**Comprobación:** $G'(t)=t^2-4t+5=r(t)$ y $G(0)=2$. Además, el aumento de agua es $G(4)-G(0)=\\frac{34}{3}-2=\\frac{28}{3}$ litros, que coincide con la integral del caudal.",
+   "resultado": "A: mínimo absoluto 6 decenas en t=0; máximo absoluto 31 decenas en t=5; f(t)>30 para 4<t<6. B: G(t)=t³/3−2t²+5t+2; entran 28/3 litros y quedan 34/3 litros.",
+   "criterios": "Cada opción vale 2,5 puntos; en un examen se corrige la opción elegida. Opción A: apartado a), 1,75 puntos: continuidad, 0,25; intervalos de crecimiento y decrecimiento, 0,50; cálculo y localización de los extremos absolutos, 1,00. Apartado b), 0,75 puntos: planteamiento y resolución de la desigualdad estricta, 0,60; expresión correcta del intervalo y sus extremos excluidos, 0,15. Opción B: apartado a), 0,75 puntos: integración correcta, 0,45; uso de la condición inicial y determinación de la constante, 0,30. Apartado b), 1,75 puntos: cálculo de la integral del caudal en [0,4], 1,00; cantidad final, 0,75. Se valoran los procedimientos equivalentes correctamente justificados y se pueden asignar puntuaciones parciales.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "progl",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Opción A. Un obrador prepara dos tipos de cajas de comida: estándar y vegetal. Cada caja estándar requiere $2$ unidades de material de embalaje y cada caja vegetal, $1$; se dispone de $40$ unidades. El tiempo de preparación disponible permite elaborar, como máximo, $50$ cajas si cada estándar consume $1$ unidad de tiempo y cada vegetal, $2$. El margen por caja es de $8$ euros para la estándar y de $7$ euros para la vegetal. Se deben fabricar cantidades enteras no negativas. a) Si $x$ e $y$ son las cantidades de cajas estándar y vegetales, plantea las restricciones y determina si es posible fabricar $11$ cajas estándar y $19$ vegetales. (1,25 puntos) b) Representa la región factible, indica sus vértices y determina cuántas cajas de cada tipo conviene fabricar para maximizar el margen. (1,25 puntos)\nOpción B. Una pequeña fábrica estima que el coste de producción de un artículo viene dado por $C(q)=q^2-8q+30$, en cientos de euros, donde $q$ es la producción en centenas de artículos y $0\\le q\\le 10$. a) Estudia mediante la derivada los intervalos en que el coste decrece y crece. (1,25 puntos) b) ¿Qué producción minimiza el coste y cuál es ese coste en euros? (1,25 puntos)",
+   "solucion": "## Opción A\n\n### a) Restricciones y comprobación\n\nSean $x$ el número de cajas estándar e $y$ el de cajas vegetales. Las restricciones son\n\n$$\n\\begin{cases}\n2x+y\\le 40 & \\text{(material)}\\\\\nx+2y\\le 50 & \\text{(tiempo)}\\\\\nx\\ge 0,\\quad y\\ge 0,\\quad x,y\\in\\mathbb Z.\n\\end{cases}\n$$\n\nPara $x=11$, $y=19$: el material requerido es $2(11)+19=41>40$, mientras que el tiempo es $11+2(19)=49\\le 50$. Por tanto, **no es posible** fabricarlas, pues se incumple la restricción de material.\n\n### b) Región factible y máximo\n\nEn el primer cuadrante se toma la zona situada por debajo de las rectas $2x+y=40$ y $x+2y=50$. Sus vértices, en orden, son\n\n$$\n(0,0),\\quad (20,0),\\quad (10,20),\\quad (0,25).\n$$\n\nLa función que se maximiza es $M=8x+7y$. En los vértices toma, respectivamente, los valores $0$, $160$, $220$ y $175$ euros. Así, el máximo se alcanza en $(10,20)$, punto que además cumple que las cantidades son enteras.\n\nComo comprobación alternativa del máximo, se puede combinar las restricciones:\n\n$$\n8x+7y=3(2x+y)+2(x+2y)\\le 3(40)+2(50)=220.\n$$\n\nEn $(10,20)$ se alcanza la igualdad en ambas restricciones, de modo que el margen máximo es **220 euros**, fabricando **10 cajas estándar y 20 vegetales**.\n\n**Comprobación:** se usan $2(10)+20=40$ unidades de material y $10+2(20)=50$ unidades de tiempo; el margen es $8(10)+7(20)=220$ euros.\n\n## Opción B\n\n### a) Intervalos de decrecimiento y crecimiento\n\n$$\nC'(q)=2q-8.\n$$\n\nEn el dominio $0\\le q\\le 10$, la derivada es negativa si $0\\le q<4$ y positiva si $4<q\\le 10$. Por tanto, el coste decrece en $[0,4]$ y crece en $[4,10]$.\n\n### b) Producción y coste mínimos\n\nEl mínimo se alcanza en $q=4$. Como $q$ se mide en centenas de artículos, corresponde a una producción de **400 artículos**. El coste es\n\n$$\nC(4)=4^2-8(4)+30=14\n$$\n\ncentenas de euros, es decir, **1.400 euros**.\n\n**Comprobación:** en los extremos, $C(0)=30$ y $C(10)=50$ centenas de euros, ambos superiores a $C(4)=14$; además, $C''(q)=2>0$, así que el punto crítico es un mínimo.",
+   "resultado": "A: no es posible fabricar (11,19); máximo de 220 € con 10 cajas estándar y 20 vegetales. B: mínimo con 400 artículos, coste 1.400 €.",
+   "criterios": "Opción A (2,5 puntos): a) 0,75 por definir variables y plantear correctamente las restricciones; 0,50 por sustituir (11,19), comprobar material y tiempo y concluir que no es factible. b) 0,75 por representar o describir correctamente la región y obtener sus vértices; 0,50 por maximizar el margen y justificar el óptimo, incluyendo su factibilidad entera. Opción B (2,5 puntos): a) 0,50 por calcular la derivada; 0,75 por estudiar el signo y dar los intervalos de decrecimiento y crecimiento. b) 0,50 por localizar y justificar el mínimo; 0,50 por interpretar la producción en artículos; 0,25 por expresar el coste en euros y comprobar que es mínimo absoluto en el dominio. Las opciones se corrigen por separado, según la opción elegida.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "matrices",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Opción A. Para ajustar la proporción de dos componentes en una mezcla, se obtiene el sistema dependiente de un parámetro real $m$: $\\begin{cases}(m-2)x+y=3,\\\\2x+(m-1)y=1.\\end{cases}$ a) Discute, según los valores de $m$, cuándo el sistema tiene solución única, ninguna solución o infinitas soluciones. (1,5 puntos) b) Resuelve el sistema para $m=1$. (1 punto)\nOpción B. Una cooperativa prepara lotes de dos tipos, $X$ e $Y$. Cada lote $X$ utiliza $2$ kg de avena y $1$ kg de semillas; cada lote $Y$ utiliza $3$ kg de avena y $2$ kg de semillas. En total se emplean $24$ kg de avena y $14$ kg de semillas. Sean $x$ e $y$ los números de lotes de cada tipo. a) Escribe el sistema en forma matricial y calcula el determinante de la matriz de coeficientes. (1 punto) b) Resuelve el sistema mediante la matriz inversa o el método de Gauss e interpreta el resultado. (1,5 puntos)",
+   "solucion": "## Opción A\n\nSea la matriz de coeficientes $A=\\begin{pmatrix}m-2&1\\\\2&m-1\\end{pmatrix}$. Su determinante es\n$$\\det(A)=(m-2)(m-1)-2=m(m-3).$$\n\n- Si $m\\neq 0$ y $m\\neq 3$, el determinante es distinto de cero y el sistema tiene **solución única**.\n- Si $m=0$, las ecuaciones son $-2x+y=3$ y $2x-y=1$. Al sumarlas se obtiene $0=4$, luego el sistema es **incompatible** y no tiene solución.\n- Si $m=3$, las ecuaciones son $x+y=3$ y $2x+2y=1$. La segunda tendría que tener término independiente $6$ para ser compatible con la primera; por tanto, el sistema es **incompatible** y no tiene solución.\n\nNo hay ningún valor de $m$ para el que el sistema tenga infinitas soluciones.\n\nPara $m=1$, el sistema queda $-x+y=3$, $2x=1$. De la segunda ecuación, $x=\\frac12$; sustituyendo en la primera, $y=3+\\frac12=\\frac72$. Por tanto, $(x,y)=\\left(\\frac12,\\frac72\\right)$.\n\n**Comprobación:** $-\\frac12+\\frac72=3$ y $2\\cdot\\frac12=1$.\n\n## Opción B\n\nLas ecuaciones de los recursos son $2x+3y=24$ y $x+2y=14$. En forma matricial:\n$$\\begin{pmatrix}2&3\\\\1&2\\end{pmatrix}\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}24\\\\14\\end{pmatrix}.$$\n\nEl determinante de la matriz de coeficientes es $2\\cdot2-3\\cdot1=1$.\n\nResolvemos por eliminación de Gauss. Partimos de la matriz ampliada y sustituimos la primera fila por la primera menos el doble de la segunda:\n$$\\left(\\begin{array}{cc|c}2&3&24\\\\1&2&14\\end{array}\\right)\\sim\\left(\\begin{array}{cc|c}0&-1&-4\\\\1&2&14\\end{array}\\right).$$\nDe la primera fila, $y=4$; sustituyendo en la segunda, $x+2\\cdot4=14$, de donde $x=6$.\n\nLa cooperativa prepara **6 lotes de tipo $X$ y 4 lotes de tipo $Y$**.\n\n**Comprobación:** avena: $2\\cdot6+3\\cdot4=24$ kg; semillas: $6+2\\cdot4=14$ kg.",
+   "resultado": "A: única solución si $m\\neq0,3$; ninguna si $m=0$ o $m=3$; nunca infinitas. Para $m=1$, $(x,y)=(\\frac12,\\frac72)$. B: determinante $1$; $(x,y)=(6,4)$ lotes.",
+   "criterios": "Opción A (2,5 puntos): discusión por el determinante y clasificación de los valores no singulares, 0,5; análisis justificado de $m=0$ y $m=3$ y conclusión de que no hay casos de infinitas soluciones, 1,0; resolución para $m=1$, 0,75; comprobación, 0,25. Opción B (2,5 puntos): planteamiento matricial correcto, 0,5; cálculo del determinante, 0,5; eliminación de Gauss y obtención de $x=6$, $y=4$, 1,0; interpretación y comprobación, 0,5.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "probabilidad",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Opción A. Una empresa de reparto utiliza un sistema automatizado para preparar el $60\\%$ de sus pedidos y prepara manualmente el resto. De los pedidos automatizados, el $75\\%$ se envía en embalaje reutilizable; de los preparados manualmente, lo hace el $25\\%$. Se elige un pedido al azar. a) ¿Cuál es la probabilidad de que se envíe en embalaje reutilizable? (1,25 puntos) b) Si se sabe que el embalaje es reutilizable, ¿cuál es la probabilidad de que el pedido se haya preparado mediante el sistema automatizado? (1,25 puntos)\nOpción B. Una tienda recibe el $60\\%$ de sus pedidos a través de una aplicación móvil y el resto mediante su página web. Se cancela el $5\\%$ de los pedidos de la aplicación y el $20\\%$ de los pedidos de la web. Se elige un pedido al azar. a) ¿Cuál es la probabilidad de que se cancele? (1,25 puntos) b) Si se ha cancelado, ¿cuál es la probabilidad de que se hubiera recibido mediante la página web? (1,25 puntos)",
+   "solucion": "## Opción A\n\nSean $A$ el suceso «pedido preparado automáticamente», $M$ «pedido preparado manualmente» y $R$ «envío en embalaje reutilizable». Los datos son $P(A)=0.60$, $P(M)=0.40$, $P(R\\mid A)=0.75$ y $P(R\\mid M)=0.25$.\n\n**a)** Por la regla de la probabilidad total:\n\n$$P(R)=P(A)P(R\\mid A)+P(M)P(R\\mid M)=0.60\\cdot0.75+0.40\\cdot0.25=0.55.$$\n\nLa probabilidad de que se envíe en embalaje reutilizable es $0.55$.\n\n**b)** Por la fórmula de Bayes:\n\n$$P(A\\mid R)=\\frac{P(A)P(R\\mid A)}{P(R)}=\\frac{0.60\\cdot0.75}{0.55}=\\frac{9}{11}\\approx0.8182.$$\n\n## Opción B\n\nSean $A$ el suceso «pedido recibido por la aplicación», $W$ «pedido recibido por la web» y $C$ «pedido cancelado». Los datos son $P(A)=0.60$, $P(W)=0.40$, $P(C\\mid A)=0.05$ y $P(C\\mid W)=0.20$.\n\n**a)** Por la regla de la probabilidad total:\n\n$$P(C)=P(A)P(C\\mid A)+P(W)P(C\\mid W)=0.60\\cdot0.05+0.40\\cdot0.20=0.11.$$\n\nLa probabilidad de que se cancele el pedido es $0.11$.\n\n**b)** Por la fórmula de Bayes:\n\n$$P(W\\mid C)=\\frac{P(W)P(C\\mid W)}{P(C)}=\\frac{0.40\\cdot0.20}{0.11}=\\frac{8}{11}\\approx0.7273.$$\n\nLa probabilidad de que el pedido cancelado se hubiera recibido mediante la web es $\\frac{8}{11}\\approx0.7273$.",
+   "resultado": "Opción A: a) 0.55; b) 9/11 ≈ 0.8182. Opción B: a) 0.11; b) 8/11 ≈ 0.7273.",
+   "criterios": "La Opción A y la Opción B se corrigen por separado; cada una vale 2,5 puntos (se responde a la opción elegida). En cada apartado a), 0,50 puntos por identificar y aplicar correctamente la probabilidad total, 0,50 por sustituir y operar los datos y 0,25 por expresar el resultado. En cada apartado b), 0,50 puntos por plantear correctamente Bayes, 0,50 por sustituir el numerador y el denominador adecuados y 0,25 por obtener y expresar el resultado. Se valorará el planteamiento correcto aunque haya un error aritmético posterior.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "inferencia",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Opción A. El peso de llenado de un tipo de cápsulas de café se distribuye normalmente, con desviación típica conocida de $1,5$ g. En una muestra aleatoria de $100$ cápsulas se obtiene un peso medio de $9,8$ g. Para un nivel de confianza del $95\\%$, utiliza el valor crítico $z=1,96$. a) Construye un intervalo de confianza para el peso medio de llenado de todas las cápsulas. (1,5 puntos) b) ¿Cuál es el tamaño muestral mínimo necesario para estimar ese peso medio con un error máximo de $0,3$ g y el mismo nivel de confianza? (1 punto)\nOpción B. En una encuesta a $240$ usuarios de transporte público, $180$ manifiestan que utilizarían una nueva línea de autobús. Para un nivel de confianza del $90\\%$, utiliza el valor crítico $z=1,64$. a) Construye un intervalo de confianza para la proporción de todos los usuarios que utilizarían la nueva línea. Expresa sus extremos con tres decimales. (1,5 puntos) b) Sin disponer de una estimación previa de esa proporción, calcula el tamaño muestral mínimo necesario para que el error de estimación no supere $0,05$, con el mismo nivel de confianza. (1 punto)",
+   "solucion": "## Opción A\n\n### a) Intervalo de confianza para la media\n\nComo la desviación típica poblacional es conocida, el intervalo de confianza para la media es\n\n$$\\bar{x}\\pm z\\frac{\\sigma}{\\sqrt{n}}.$$\n\nCon $\\bar{x}=9,8$, $\\sigma=1,5$, $n=100$ y $z=1,96$, el error máximo es\n\n$$E=1,96\\frac{1,5}{\\sqrt{100}}=1,96\\cdot 0,15=0,294\\text{ g}.$$\n\nPor tanto,\n\n$$IC_{95\\%}=(9,8-0,294,\\;9,8+0,294)=(9,506,\\;10,094)\\text{ g}.$$\n\n### b) Tamaño muestral mínimo\n\nDebe cumplirse $z\\frac{\\sigma}{\\sqrt{n}}\\leq 0,3$. Despejando $n$,\n\n$$n\\geq \\left(\\frac{1,96\\cdot 1,5}{0,3}\\right)^2=96,04.$$\n\nEl tamaño debe ser entero y garantizar el error máximo, así que se redondea hacia arriba: $n_{\\min}=97$ cápsulas.\n\n## Opción B\n\n### a) Intervalo de confianza para la proporción\n\nLa proporción muestral es $\\hat{p}=\\frac{180}{240}=0,75$, y $\\hat{q}=1-\\hat{p}=0,25$. El intervalo de confianza es\n\n$$\\hat{p}\\pm z\\sqrt{\\frac{\\hat{p}\\hat{q}}{n}}.$$\n\nEl error máximo es\n\n$$E=1,64\\sqrt{\\frac{0,75\\cdot 0,25}{240}}\\approx 0,045839.$$\n\nAsí,\n\n$$IC_{90\\%}=(0,75-0,045839,\\;0,75+0,045839)\\approx (0,704,\\;0,796),$$\n\ncon los extremos expresados con tres decimales.\n\n### b) Tamaño muestral mínimo sin estimación previa\n\nSin una estimación previa se toma $p=0,5$, que maximiza $p(1-p)$. Para un error máximo de $0,05$,\n\n$$n\\geq \\frac{z^2p(1-p)}{E^2}=\\frac{1,64^2\\cdot 0,5\\cdot 0,5}{0,05^2}=268,96.$$\n\nRedondeando hacia arriba, se necesitan como mínimo $n_{\\min}=269$ usuarios.",
+   "resultado": "Opción A: IC = (9,506; 10,094) g y n mínimo = 97. Opción B: IC = (0,704; 0,796) y n mínimo = 269.",
+   "criterios": "Las opciones A y B son alternativas independientes; cada una suma 2,5 puntos. Opción A: apartado a (1,5 puntos): planteamiento del intervalo para la media con desviación típica conocida, 0,5; cálculo del error máximo, 0,5; extremos correctos, 0,5. Apartado b (1 punto): planteamiento y despeje de la fórmula del tamaño muestral, 0,5; sustitución, redondeo hacia arriba y respuesta 97, 0,5. Opción B: apartado a (1,5 puntos): cálculo de la proporción muestral, 0,25; planteamiento y cálculo del error máximo, 0,5; extremos correctos redondeados a tres decimales, 0,75. Apartado b (1 punto): uso de p=0,5 por no disponer de estimación previa y planteamiento de la fórmula, 0,5; cálculo y redondeo hacia arriba a 269, 0,5.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 3,
+ "temas_base": [
+  {
+   "id": "probabilidad",
+   "p": 0.9
+  },
+  {
+   "id": "inferencia",
+   "p": 0.9
+  },
+  {
+   "id": "funciones",
+   "p": 0.77
+  },
+  {
+   "id": "progl",
+   "p": 0.607
+  },
+  {
+   "id": "matrices",
+   "p": 0.385
+  },
+  {
+   "id": "integrales",
+   "p": 0.342
+  }
+ ],
+ "referencias": [
+  "https://www.uniovi.es/documents/39158/c6c1b0bb-338c-b2da-b1f7-3b56638d12fc",
+  "https://www.uniovi.es/documents/39158/5514b547-acd6-7e10-ee3a-b8a1100c887a",
+  "https://www.uniovi.es/documents/39158/2928c8d9-4aff-d540-d5d2-4aa45fbdf8f9",
+  "https://www.uniovi.es/documents/39158/3dbdb7bd-a0c6-3e70-5a2a-683a592ba0c2",
+  "https://www.uniovi.es/documents/39158/5514b547-acd6-7e10-ee3a-b8a1100c887a",
+  "https://www.uniovi.es/documents/39158/b1bb70b3-9582-a18e-600e-8b119ed14a7d",
+  "https://www.uniovi.es/documents/39158/c6c1b0bb-338c-b2da-b1f7-3b56638d12fc",
+  "https://www.uniovi.es/documents/39158/f21c7ad2-0ffd-f587-2ce5-7cade2b3f593"
+ ]
+}
