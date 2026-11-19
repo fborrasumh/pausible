@@ -1,0 +1,98 @@
+{
+ "ccaa": "asturias",
+ "materia": "latin",
+ "titulo": "Latín II — PAU 2027 (propuesta original para el Principado de Asturias)",
+ "duracion_min": 90,
+ "instrucciones": "Responda obligatoriamente a la pregunta 1 y elija un apartado (A o B) en cada una de las preguntas 2, 3, 4 y 5. La traducción se califica con un máximo de 4 puntos; la pregunta 2, con 1 punto; la pregunta 3, con 1 punto; y las preguntas 4 y 5, con 2 puntos cada una. En las preguntas 2 y 3, cada apartado consta de dos cuestiones: en la pregunta 2, cada forma vale 0,25 puntos; en la pregunta 3, cada cuestión vale 0,5 puntos. En las preguntas 4 y 5, cada cuestión vale 1 punto. La puntuación máxima del examen es de 10 puntos.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "traduccion",
+   "puntos": 4,
+   "tipo": "abierta",
+   "enunciado": "En una actividad de patrimonio local, el alumnado prepara un dossier bilingüe para una exposición sobre la defensa de un puente. Traduzca al castellano el siguiente texto: Legati oppidi ad castra venerunt auxilium petentes. Dux, cognito periculo, duas cohortes ex silva educi iussit. Milites, quamquam longa via fessi erant, celeriter ad pontem contenderunt. Ibi paucos hostes conspexerunt, qui pontem incendere parabant. Tum centurio signum dedit; milites scuta sustulerunt et hostes ab opere pepulerunt. Postquam pontem servaverunt, legati civibus nuntium pacis attulerunt.",
+   "solucion": "### Análisis y traducción\n\n1. **Legati oppidi ad castra venerunt auxilium petentes.** *Legati oppidi* es el sujeto; *ad castra* indica dirección; *venerunt* es el verbo principal. *Auxilium petentes* es un participio concertado con *legati*: llegaron solicitando ayuda.\n\n2. **Dux, cognito periculo, duas cohortes ex silva educi iussit.** *Cognito periculo* es un ablativo absoluto, traducible por una vez informado del peligro. *Duas cohortes* es el complemento directo de *iussit* y *educi* es un infinitivo pasivo dependiente de ese verbo: ordenó que sacaran dos cohortes del bosque.\n\n3. **Milites, quamquam longa via fessi erant, celeriter ad pontem contenderunt.** *Quamquam* introduce una subordinada concesiva; *fessi erant* significa estaban cansados. *Contenderunt* expresa que se dirigieron apresuradamente hacia el puente.\n\n4. **Ibi paucos hostes conspexerunt, qui pontem incendere parabant.** *Ibi* significa allí; *paucos hostes* es el complemento directo de *conspexerunt*. *Qui* introduce una subordinada de relativo referida a los enemigos; *incendere* depende de *parabant*: se disponían a incendiar el puente.\n\n5. **Tum centurio signum dedit; milites scuta sustulerunt et hostes ab opere pepulerunt.** *Signum dedit* significa dio la señal. Los soldados levantaron sus escudos y expulsaron a los enemigos de la obra o del lugar donde trabajaban.\n\n6. **Postquam pontem servaverunt, legati civibus nuntium pacis attulerunt.** *Postquam* introduce una subordinada temporal: después de salvar el puente. *Nuntium pacis* significa un mensaje de paz, que los legados llevaron a los ciudadanos.\n\n### Traducción completa\n\nLos legados de la ciudad llegaron al campamento solicitando ayuda. El jefe, una vez informado del peligro, ordenó que sacaran del bosque dos cohortes. Los soldados, aunque estaban cansados por el largo camino, se dirigieron rápidamente hacia el puente. Allí vieron a unos pocos enemigos que se disponían a incendiarlo. Entonces el centurión dio la señal; los soldados levantaron sus escudos y expulsaron a los enemigos de la obra. Después de salvar el puente, los legados llevaron a los ciudadanos un mensaje de paz.",
+   "resultado": "Los legados de la ciudad llegaron al campamento solicitando ayuda. El jefe, informado del peligro, ordenó sacar del bosque dos cohortes. Los soldados, aunque cansados por el largo camino, se dirigieron rápidamente al puente. Allí vieron a unos pocos enemigos que se disponían a incendiarlo. Entonces el centurión dio la señal; los soldados levantaron sus escudos y expulsaron a los enemigos de la obra. Después de salvar el puente, los legados llevaron a los ciudadanos un mensaje de paz.",
+   "criterios": "Total: 4 puntos. 1) Legati oppidi… auxilium petentes: 0,75 puntos (sentido de la oración principal: 0,50; valor de petentes y traducción de auxilium: 0,25). 2) Dux… educi iussit: 0,75 puntos (ablativo absoluto cognito periculo: 0,25; construcción iussit + acusativo + infinitivo pasivo y resto de la oración: 0,50). 3) Milites… contenderunt: 0,50 puntos (concesiva quamquam…: 0,25; oración principal: 0,25). 4) Ibi… parabant: 0,75 puntos (oración principal: 0,25; relativa: 0,25; construcción incendere parabant: 0,25). 5) Tum… pepulerunt: 0,75 puntos (signum dedit: 0,25; acciones de los soldados y sentido de ab opere pepulerunt: 0,50). 6) Postquam… attulerunt: 0,50 puntos (subordinada temporal: 0,25; oración principal y nuntium pacis: 0,25). Se admiten equivalencias léxicas y sintácticas correctas; se descontarán los errores de traducción según su alcance y no se penalizará dos veces un mismo error.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "morfosintaxis",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Morfología. Analice morfológicamente, según el uso de cada forma en el texto de la pregunta 1, las cuatro palabras de uno de los apartados. En las formas nominales indique categoría, caso, número y género; en las formas verbales, persona, número, tiempo, modo y voz. Apartado A: venerunt, auxilium, duas, fessi. Apartado B: iussit, cohortes, incendere, civibus.",
+   "solucion": "### Apartado B\n\n**Método:** identifico primero la forma verbal finita y el infinitivo; después analizo las terminaciones nominales y compruebo qué caso permite la construcción. El texto de la pregunta 1 no se ha incluido, por lo que en `civibus` no puede decidirse de forma única entre dos casos sin conocer su función sintáctica.\n\n1. **`iussit`**: verbo *iubeo, iubēre, iussi, iussum*; **3.ª persona del singular, pretérito perfecto de indicativo, voz activa**.\n2. **`cohortes`**: sustantivo *cohors, cohortis*, **femenino, acusativo plural** en la construcción con `incendere`: puede ser el objeto de «incendiar» o el sujeto en acusativo del infinitivo dependiente de `iussit`.\n3. **`incendere`**: verbo *incendo, incendere*; **infinitivo de presente activo**. Por ser forma no personal, no tiene persona ni número.\n4. **`civibus`**: sustantivo *civis, civis*, de **género común** (masculino o femenino según el referente), **plural**. La forma puede ser **dativo plural o ablativo plural**; el texto completo es necesario para escoger entre ambos.\n\n**Comprobación:** `-it` concuerda con la tercera persona singular de `iussit`; `cohortes` es compatible con el acusativo plural femenino; `incendere` presenta la terminación de infinitivo presente activo; y `-ibus` corresponde tanto al dativo como al ablativo plural de `civis`.",
+   "resultado": "Apartado B: iussit, 3.ª singular, perfecto de indicativo activo; cohortes, acusativo femenino plural; incendere, infinitivo de presente activo; civibus, dativo o ablativo plural, según el contexto omitido.",
+   "criterios": "1 punto en total: 0,25 por cada forma, valorando categoría y rasgos morfológicos pertinentes. En `civibus`, al no proporcionarse el texto, se considera correcta la identificación del sincretismo dativo/ablativo plural; no se exige elegir uno sin contexto.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "morfosintaxis",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Análisis sintáctico, en referencia al texto de la pregunta 1. Responda a las dos cuestiones de un apartado. Apartado A: 1) Analice sintácticamente la oración «Dux, cognito periculo, duas cohortes ex silva educi iussit». 2) Analice internamente e indique la función del sintagma «cognito periculo». Apartado B: 1) Analice sintácticamente la oración subordinada «qui pontem incendere parabant». 2) Analice internamente e indique la función del sintagma «ad pontem».",
+   "solucion": "## Método de análisis\nSe parte del verbo conjugado de cada oración y se identifican sus argumentos; después se analizan las formas no personales y los sintagmas subordinados o circunstanciales. Se ofrecen los dos apartados alternativos del enunciado; en el examen basta responder uno.\n\n## Apartado A\n\n### 1) Análisis sintáctico de *Dux, cognito periculo, duas cohortes ex silva educi iussit*\n\n- **Predicado principal:** *iussit*, verbo *iubeo*, 3.ª persona del singular, perfecto de indicativo activo: «ordenó».\n- **Sujeto de la oración principal:** *dux*, nominativo singular: «el jefe».\n- **Construcción de infinitivo dependiente de *iussit*:** *duas cohortes ex silva educi* («que dos cohortes fueran sacadas del bosque»). *Duas cohortes*, acusativo plural, es el sujeto en acusativo del infinitivo *educi*; *educi* es infinitivo presente pasivo de *educo* y funciona como infinitivo complementario de *iussit*.\n- **Complemento de *educi*:** *ex silva*, sintagma preposicional con *ex* + ablativo (*silva*), expresa procedencia o lugar desde el que se sacan las cohortes.\n- **Construcción absoluta:** *cognito periculo*, ablativo absoluto, con valor circunstancial —especialmente temporal o causal según el contexto—: «conocido el peligro» / «una vez conocido el peligro».\n\n### 2) Análisis interno y función de *cognito periculo*\n\nEs un **ablativo absoluto** formado por *periculo*, sustantivo neutro en ablativo singular, y *cognito*, participio perfecto pasivo de *cognosco*, también en ablativo singular neutro y concordado con *periculo*. Dentro de la construcción, *periculo* es el término nominal y *cognito* su participio predicativo. La construcción funciona como complemento circunstancial de la oración principal, con sentido temporal o causal según el contexto.\n\n## Apartado B\n\n### 1) Análisis sintáctico de la subordinada *qui pontem incendere parabant*\n\nEs una **subordinada adjetiva de relativo**; su antecedente no aparece en el fragmento proporcionado.\n\n- **Verbo conjugado:** *parabant*, 3.ª persona del plural, imperfecto de indicativo activo de *paro* («se preparaban»).\n- **Sujeto:** *qui*, pronombre relativo, nominativo masculino plural, referido a su antecedente.\n- **Infinitivo complementario:** *incendere*, infinitivo presente activo de *incendo*, dependiente de *parabant* («prepararse para incendiar»).\n- **Complemento directo de *incendere*:** *pontem*, acusativo singular («el puente»).\n\n### 2) Análisis interno y función de *ad pontem*\n\n*Ad pontem* es un sintagma preposicional formado por la preposición *ad*, que rige acusativo, y *pontem*, sustantivo masculino en acusativo singular. Su valor usual es el de **complemento circunstancial de dirección o destino** («hacia/al puente»), vinculado al verbo que indique desplazamiento en el contexto. Como ese contexto no se ha incluido, la identificación de su relación exacta con el predicado queda condicionada por la oración completa.\n\n## Comprobación final\nEn A, *dux* concuerda en número con *iussit* y *duas cohortes* concuerda en acusativo con el infinitivo pasivo *educi* como su sujeto; *cognito* concuerda con *periculo* en género, número y caso. En B, *qui* es plural y concuerda con *parabant*, mientras que *pontem* es acusativo, adecuado como complemento directo de *incendere*. La construcción *ad pontem* presenta la estructura preposición + acusativo.",
+   "resultado": "La solución completa de cualquiera de los dos apartados obtiene 1 punto; se responde solo a uno en el examen.",
+   "criterios": "Cada apartado vale 1 punto y contiene dos cuestiones, valoradas en 0,5 puntos cada una. A: 0,5 por la estructura de la oración, la construcción de acusativo e infinitivo y los complementos; 0,5 por identificar y analizar internamente el ablativo absoluto, con concordancia y función. B: 0,5 por clasificar la subordinada y analizar sus elementos principales; 0,5 por la composición de *ad pontem* y su función contextual. Se corrige únicamente el apartado elegido por el alumnado; los dos apartados se incluyen aquí como alternativas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "lexico",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Léxico y etimología. Responda a las dos cuestiones de un apartado. Apartado A: 1) Escriba la evolución fonética del latín al castellano de pontem e indique el resultado. 2) Indique un término castellano relacionado etimológicamente con hostes y explique su significado. Apartado B: 1) Escriba la evolución fonética del latín al castellano de silvam —forma cuyo ablativo aparece en el texto como silva— e indique el resultado. 2) Señale el prefijo de educi y explique el valor que aporta en el contexto.",
+   "solucion": "La pregunta permite elegir un apartado; se ofrecen aquí los dos modelos de respuesta.\n\n### Apartado A\n\n1. `pontem` pierde la `-m` final: `pontem > ponte`. La `ŏ` breve tónica diptonga en castellano en `ue`: `ponte > puente`. **Resultado: puente.**\n\n2. Un término relacionado con `hostes` (plural de `hostis`, «enemigo») es **hostil**, procedente de `hostilis`. Significa «propio del enemigo» o «contrario o poco amistoso».\n\n### Apartado B\n\n1. En `silvam`, la `-m` final desaparece: `silvam > silva`. La `ĭ` breve tónica evoluciona a `e`: `silva > selva`. **Resultado: selva.** La `v` se conserva gráficamente.\n\n2. En `educi`, el prefijo es **e-**, variante de `ex-`. Aporta valor de movimiento hacia fuera o separación; en el contexto, significa «ser llevado o conducido fuera».\n\n### Nota de corrección\n\nSe corrige el apartado elegido. Cada una de sus dos cuestiones vale 1 punto: en la evolución, hasta 0,5 por los cambios fonéticos y 0,5 por el resultado; en la cuestión léxica o morfológica, hasta 0,5 por identificar correctamente el término o prefijo y 0,5 por explicar su significado o valor contextual.",
+   "resultado": "A: pontem > ponte > puente; hostes → hostil («propio del enemigo»). B: silvam > silva > selva; e- en educi («hacia fuera»).",
+   "criterios": "La pregunta vale 2 puntos y se responde a un solo apartado. Cada cuestión vale 1 punto. En la evolución fonética: hasta 0,5 por indicar correctamente los pasos pertinentes y 0,5 por dar el resultado castellano. En la cuestión de léxico o prefijación: hasta 0,5 por identificar el término relacionado o el prefijo y 0,5 por explicar correctamente su significado o valor en contexto.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "literatura",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Un archivo escolar está catalogando textos latinos para una colección digital. Responda a las dos cuestiones de uno de los apartados. Apartado A: 1) ¿Quién compuso la Eneida? 2) ¿Cómo se llama el héroe troyano que protagoniza esta obra? Apartado B: 1) ¿Quién compuso Adelphoe? 2) ¿A qué género dramático pertenece esta obra?",
+   "solucion": "### Apartado B\n\n1. **Autoría:** *Adelphoe* fue compuesta por **Publio Terencio Afro (Terencio)**. Para identificarla, se reconoce el título entre las comedias conservadas de Terencio.\n2. **Género:** pertenece al género dramático de la **comedia**; más concretamente, es una *fabula palliata*, comedia latina de ambientación griega.\n\n**Comprobación:** *Adelphoe* figura entre las seis comedias conservadas de Terencio, por lo que la atribución y la clasificación como comedia coinciden.",
+   "resultado": "Apartado B: Terencio compuso Adelphoe; es una comedia (fabula palliata).",
+   "criterios": "2 puntos en total: 1 punto por identificar correctamente a Terencio como autor y 1 punto por indicar que la obra es una comedia. La precisión fabula palliata puede aceptarse como especificación del género, pero no es imprescindible.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 3,
+ "temas_base": [
+  {
+   "id": "traduccion",
+   "p": 0.9
+  },
+  {
+   "id": "lexico",
+   "p": 0.9
+  },
+  {
+   "id": "morfosintaxis",
+   "p": 0.577
+  },
+  {
+   "id": "literatura",
+   "p": 0.502
+  }
+ ],
+ "referencias": [
+  "https://www.uniovi.es/documents/39158/3f223406-4f4e-bc1d-fff6-538ea03f67c5",
+  "https://www.uniovi.es/documents/39158/41de8946-8500-5d03-fd7e-46e4b7d74eb6",
+  "https://www.uniovi.es/documents/39158/3f223406-4f4e-bc1d-fff6-538ea03f67c5",
+  "https://www.uniovi.es/documents/39158/41de8946-8500-5d03-fd7e-46e4b7d74eb6",
+  "https://www.uniovi.es/documents/39158/4b02c15b-abc7-fce6-1c93-f8baaa8ea623",
+  "https://www.uniovi.es/documents/39158/7f993331-8741-c6b6-b90c-0462bf697944"
+ ]
+}
