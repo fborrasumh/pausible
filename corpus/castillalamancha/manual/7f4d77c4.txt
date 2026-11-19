@@ -1,0 +1,673 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2122/Convocatoria-extraordinaria/Fisica-julio.ashx]
+EvAU
+
+Curso 2021/2022
+Física
+
+1
+
+Solucionario del Examen EXTRAORDINARIO
+
+Sección 1: Problemas (elegir 2).   Puntuación máxima 3 puntos cada uno.
+
+1.   Los centros de dos esferas metálicas de radios R   1   =2.5 cm y R   2 =4 cm están separados una distancia d=0.2 m. La
+primera tiene una carga de 3·10  
+-6  
+C y la segunda de –6·10  
+-6  
+C.
+
+a.   Determina el potencial eléctrico de cada una y la fuerza con que interaccionan, aclarando si es atractiva o
+repulsiva.
+
+A continuación, realizamos una conexión eléctrica entre ellas haciendo que se toquen y llevándolas de nuevo tras
+el contacto a sus posiciones originales
+
+b.   Explica qué ocurre cuando se tocan y determina el potencial final de cada una.
+
+c.   Determinar la carga final de cada una.
+
+Dato: K=9·10   9   Nm 2 /C   2
+
+Apartado 1(a)   Puntos
+
+El potencial eléctrico de una esfera metálica de radio R y carga Q viene dado por   𝑉𝑉   =   𝐾𝐾  
+𝑄𝑄
+𝑅𝑅
+
+0.25
+
+Aplicado a cada esfera resulta   𝑉𝑉 1   =   𝐾𝐾  
+𝑄𝑄 1
+𝑅𝑅 1
+
+=   𝟏𝟏 .   𝟎𝟎𝟎𝟎   𝑴𝑴𝑴𝑴 ,   𝑉𝑉 2   =   𝐾𝐾  
+𝑄𝑄 2
+𝑅𝑅 2
+
+=   −𝟏𝟏 .   𝟑𝟑𝟑𝟑   𝑴𝑴𝑴𝑴  
+0.25
+
+La fuerza electrostática entre las esferas viene dada por la ley de Coulomb   𝐹𝐹⃗   =   𝐾𝐾  
+𝑄𝑄 1   𝑄𝑄 2
+𝑟𝑟 12
+2  
+𝑢𝑢 �⃗   siendo   𝑢𝑢 �⃗   el vector
+que une los centros de ambas esferas y r 12   la distancia entre esos centros.
+
+0.25
+
+Sustituyendo obtenemos   F= –4.05 N . El sentido negativo indica que la fuerza es   atractiva .  
+0.25
+
+Apartados 1(b) y 1(c)   Puntos
+
+Cuando las esferas entran en contacto intercambian carga hasta igualar sus potenciales electrostáticos.
+La esfera con mayor potencial, la número 1, cede una carga q a la de menor potencial, la esfera 2. De esta
+manera el potencial 1 disminuye y el 2 aumenta hasta igualarse.
+
+0.5
+
+𝑉𝑉 1
+′  
+=   𝐾𝐾  
+𝑄𝑄 1   − 𝑞𝑞
+𝑅𝑅 1
+
+=   𝐾𝐾  
+𝑄𝑄 2   + 𝑞𝑞
+𝑅𝑅 2
+
+=   𝑉𝑉 2
+′  
+0.5
+
+Operando para despejar la carga intercambiada resulta   𝑞𝑞   =  
+𝑄𝑄 1   𝑅𝑅 2   −𝑄𝑄 2   𝑅𝑅 1
+𝑅𝑅 1   +𝑅𝑅 2
+
+= 4.15   𝜇𝜇𝜇𝜇   Con lo que los valores
+finales de carga son Q 1 ’=-1.15 μC; Q 2 ’=-1.85 μC
+
+0.5
+
+Sustituyendo en el potencial de cualquier esfera (son iguales al final) V’=   𝐾𝐾  
+𝑄𝑄 1   ′
+𝑅𝑅 1
+
+=   𝐾𝐾  
+𝑄𝑄 2   ′
+𝑅𝑅 2
+
+=   − 4.16 · 10
+5  
+𝑉𝑉  
+0.5
+
+El presente documento de debe tomar como una ayuda a los correctores y para concretar de la forma más uniforme posible los cr iterios
+
+específicos de corrección. No es un documento docente que pretenda enseñar a nadie a resolver los problemas, con lo que en ocasiones
+faltarán detalles en las explicaciones y pasos matemáticos en los desarrollos que es esperable que tengan los exámenes de los alumnos. En
+algunos casos puede haber otras maneras distintas y válidas de resolver los problemas. Los correctores adaptaran la filosofía de estos
+criterios específicos a esos casos cuando sean leves variantes. En los casos en que las diferencias sean notables lo comunicarán al coordinador
+y a los demás correctores durante las sesiones de evaluación de manera que pueda unificarse también la baremación de esas otras
+alternativas.
+
+EvAU
+
+Curso 2021/2022
+Física
+
+2
+
+2.   Desde una base científica establecida en Urano, queremos lanzar un satélite de comunicaciones que orbite
+alrededor de este planeta, pero manteniéndose siempre en la vertical de nuestra base. Teniendo en cuenta que el
+periodo de rotación de Urano es de 17 horas, y la masa del satélite 250 kg determina:
+
+a.   La altura sobre la superficie del planeta a que debe orbitar el satélite
+
+b.   La energía cinética y potencial que posee en esa órbita
+
+c.   Velocidad con que impactaría con la superficie del planeta si por alguna razón se desestabilizase su órbita y
+cayera sobre él.
+
+Datos: M   Urano =8.7·10   25   kg;   R   Urano =25300 km;   G=6.67·10   -11   Nm 2 /kg 2
+
+Apartado 2(a)   Puntos
+
+Para que el satélite orbite siempre sobre el mismo punto de la superficie de Urano los dos cuerpos tienen
+que tener la misma velocidad angular y por tanto el mismo periodo: T   sat =T Urano
+
+0.25
+
+Igualamos la fuerza gravitatoria (Newton) a masa por aceleración centrípeta   [ω 2 (r+h)] y luego como
+
+ω=2π/T   despejamos la altura de la órbita en función del periodo dado.
+
+𝐺𝐺  
+𝑀𝑀𝑀𝑀
+
+( 𝑅𝑅   +   ℎ )
+2  
+=   𝑀𝑀 𝑎𝑎 𝑐𝑐   =   𝑀𝑀  
+𝑣𝑣  
+2
+𝑅𝑅   +   ℎ  
+=   𝑀𝑀 𝜔𝜔  
+2
+( 𝑅𝑅   +   ℎ ) = 
+4 𝜋𝜋  
+2
+𝑀𝑀 ( 𝑅𝑅   +   ℎ )
+
+𝑇𝑇  
+2
+
+Esto en el fondo es la deducción de la tercera ley de Kepler, que puede usarse aquí sin demostración (ni
+penalización por ello) puesto que no se pide explícitamente hacerla   ( 𝑅𝑅   +   ℎ )
+3  
+=  
+𝐺𝐺𝐺𝐺
+4𝜋𝜋   2  
+𝑇𝑇  
+2
+
+0.25
+
+Operamos para despejar R+h=8.19·10   7   m;   h=5.66·10 7   m   (si dan R+h -0.25)  
+0.5
+
+Apartado 2(b)   Puntos
+
+La Energía cinética es E C =m s   v   2 /2 , donde v=2π(R+h)/T=8408.38 m/s      E c =8.83·10   9 J
+
+(Si el resultado está mal como consecuencia de un mal valor introducido en h no se penaliza aquí)
+
+0.5
+
+La Energía potencial es E p =-GMm/(R+h)=-1.77·10  
+10  
+J
+
+(Si el resultado está mal como consecuencia de un mal valor introducido en h no se penaliza aquí)
+
+0.5
+
+Apartado 2(c)   Puntos
+
+La energía mecánica inicial es la suma de los 2 valores calculados antes E m   =–8.96·10   9   J
+
+Imponemos la conservación de le energía mecánica entre el punto en órbita y el punto de impacto.
+
+−𝐺𝐺 𝑀𝑀𝑀𝑀
+
+𝑅𝑅  
++  
+𝑀𝑀 𝑣𝑣   𝑖𝑖
+2
+
+2  
+=   𝐸𝐸 𝑚𝑚   =– 8.96 · 10
+9
+
+0.5
+
+Despejamos el valor de la velocidad de impacto   𝑣𝑣   𝑖𝑖   =   �  
+2 ( 𝐸𝐸 𝑚𝑚   +𝐺𝐺𝐺𝐺 𝑚𝑚 / 𝑅𝑅 )
+
+𝑚𝑚  
+= 19.6   𝑘𝑘 𝑀𝑀 / 𝑠𝑠
+
+0.5
+
+EvAU
+
+Curso 2021/2022
+Física
+
+3
+
+3.   Una partícula   𝛼𝛼   entra en una región el espacio comprendido entre dos placas paralelas que crean un campo
+eléctrico E=5·10   5   N/C como se ve en el esquema. Queremos que las partículas que lleven una velocidad de v   0   =10   6
+m/s paralela a dichas placas atraviesen la región sin desviarse. Para ello hay que añadir en esa región un campo
+
+magnético B 1   .
+
+a.   Razona qué dirección y sentido tiene que llevar ese campo magnético B 1   para que
+sea posible lo que queremos, y explica cualitativamente qué trayectoria seguiría
+una partícula que entrase a una velocidad   mayor   de la mencionada v   0   (se valorará
+la inclusión un esquema aclaratorio)
+
+b.   Realiza un balance de fuerzas en la región y deduce el módulo del campo
+magnético requerido en este caso. Razona   cómo afectaría al resultado que entrase
+un electrón en lugar de una partícula   𝛼𝛼   .
+
+c.   Si a la salida de la región existe sólo un campo magnético B 2 =1.5 T con el sentido
+indicado en el esquema, dibuja qué trayectoria seguirá la partícula   𝛼𝛼   y deduce la
+
+expresión que te permita determinar a qué distancia del punto de entrada chocará contra la pantalla que
+separa ambas regiones.
+
+Datos: q α =3.2·10   -19   C;   m α =6.64·10   -27   kg
+
+Apartado 3(a)   Puntos
+
+La fuerza eléctrica lleva la dirección del campo eléctrico. Como la fuerza de Lorentz
+viene dada por   𝐹𝐹⃗   =   𝑞𝑞   ·   𝑣𝑣⃗   ^ 𝐵𝐵 �⃗   hay que elegir la dirección del campo magnético de tal
+modo que la fuerza resultante sea opuesta a la eléctrica, y puedan así cancelarse. De
+este modo B tendrá que ser perpendicular al papel, y usando la regla de la mano
+derecha el sentido de B tendrá que ser   hacia adentro .
+
+0.5
+
+Siendo   la   Fuerza   eléctrica   independiente   de   la   velocidad   y   la   magnética
+proporcional a ella, para partículas más rápidas la Fuerza magnética domina
+sobre la eléctrica y se desvía hacia la derecha según miramos el esquema – flecha
+negra (la izquierda desde el punto de vista de la partícula). Si en cambio la
+velocidad es menor gana la fuerza eléctrica y se desvía hacia la izquierda según
+miramos el esquema (flecha roja).
+
+0.50
+
+Apartado 3(b)   Puntos
+
+Igualamos los módulos de las fuerzas eléctrica y magnética   q·v·B 1   sen(90º)=q·E    B 1 =E/v=0.5 T  
+0.5
+
+La diferencia entre una partícula α y un electrón es la carga y la masa.   En la expresión anterior el valor
+de la carga se simplifica, y la masa no aparece; por lo tanto el valor de B encontrado sería el mismo para
+cualquier partícula independientemente de su carga o masa. Para un electrón el valor de campo
+magnético requerido es el mismo.
+
+0.5
+
+Apartado 3(c)   Puntos
+
+En presencia sólo de campo magnético la fuerza es siempre perpendicular
+a la trayectoria (centrípeta -flechas negras) y hace que la partícula describa
+una semicircunferencia hasta chocar con la pantalla, como se ve en el
+esquema. Como el campo es hacia afuera, y dado que la carga es positiva,
+la regla de la mano derecha establece que la desviación de la partícula es
+hacia la izquierda según vemos en el esquema.
+
+0.25
+
+La ecuación del movimiento es F m   =q·v·B 2 =m·a c
+
+0.25
+
+Teniendo en cuenta que la aceleración es centrípeta qvB 2 =mv   2 /R    R=m·v/(qB 2 )=1.38 cm.
+
+El punto de impacto estará a una distancia de la salida de un diámetro d=2R=2.77 cm
+
+0.5
+
+EvAU
+
+Curso 2021/2022
+Física
+
+4
+
+4.   La expresión de una onda sonora unidimensional que se propaga por un líquido, en Pascales, es la siguiente:
+
+P(x,t)= 0.3 sen ( π ·x/10 – 451 t), donde x está en metros y t en segundos.
+
+a.   Determina la amplitud, la longitud de onda y el desfase inicial de la onda. Indica en qué sentido del eje X se
+está propagando.
+
+b.   Determina la frecuencia de la onda y calcula la velocidad con que se propaga.
+
+c.   Calcula la diferencia de fase (en grados) y la diferencia en el valor de presión que se sentirá en t=0 entre los
+puntos x=2 m y x=5 m.
+
+Apartado 4(a)   Puntos
+
+La estructura genérica de una onda armónica es   𝜓𝜓 ( 𝑥𝑥 ,   𝑡𝑡 ) =   𝐴𝐴   ·   𝑠𝑠𝑠𝑠𝑠𝑠 ( 𝑘𝑘 𝑥𝑥   ±   𝜔𝜔 𝑡𝑡   +   𝜑𝜑 )
+
+Comparando con la expresión dada identificamos:
+
+•   Amplitud=0.3 Pa
+
+•   desfase φ=0
+
+•   k=π/10 rad/m      k=2π/λ      λ=20 m
+
+•   La onda además se propaga en sentido positivo del eje X por   llevar el término ωt signo “ – “
+
+0.25
+
+0.25
+
+0.25
+
+0.25
+
+Apartado 4(b)   Puntos
+
+De nuevo de la expresión dada identificamos ω=451 rad/s      ν=ω/2π= 71.78 Hz
+
+La velocidad de propagación es v = ω/k =   1435.4 m/s
+
+0.5
+
+0.5
+
+Apartado 4(c)   Puntos
+
+La fase es el argumento de la función trigonométrica   𝜙𝜙 ( 𝑥𝑥 ,   𝑡𝑡 ) =   π ·x/10 – 451 t
+
+𝜙𝜙 (2,0) =  
+2𝜋𝜋
+10  
+=  
+𝜋𝜋
+5  
+;   𝜙𝜙 (5,0) =  
+𝜋𝜋
+2  
+Luego   Δ𝜙𝜙   = 0.9424   𝑟𝑟 𝑎𝑎 𝑟𝑟   =   𝟑𝟑 𝟓𝟓 º   (si no se da en grados -0.25)  
+0.5
+
+La presión es el propio valor de la onda P(x,t)= 0.3 sen ( π ·x/10 – 451 t)
+
+P(2,0)=0.176 Pa;   P(5,0)=0.3 Pa.   Luego la dif de presión entre los puntos es   ΔP=0.1 24 Pa   0.5
+
+EvAU
+
+Curso 2021/2022
+Física
+
+5
+
+Sección 2: Cuestiones (elegir 3).   Puntuación máxima 1 punto cada una.
+
+5.   En cada reacción de fusión nuclear en el Sol se emiten 26.7 MeV en forma de 6 fotones de radiación gamma.
+Calcula la frecuencia de dicha radiación y su longitud de onda.
+
+Datos: h = 6.63·10   -34   J·s;   1 eV = 1.6·10   -19   J;   c=3·10   8   m/s
+
+Cuestión 5   Puntos
+
+La energía de cada fotón será E/6 = 4.45 MeV = 7.12·10 -13   J  
+0.25
+
+Según Planck E=hν, luego la frecuencia es ν=1.07 ·10 21   Hz  
+0.5
+
+Como la velocidad de propagación es la de la luz y es c=λ·ν      λ= 2.79·10   -13   m  
+0.25
+
+6.   La edad de la Tierra es 4500 millones de años. El período de semidesintegración del uranio-235 es 704 millones
+de años. ¿Qué porcentaje de uranio-235 natural hay en la actualidad en la Tierra respecto a la cantidad inicial?
+
+Cuestión 6   Puntos
+
+La evolución temporal del número de átomos de una muestra radiactiva sigue la ley   𝑁𝑁   =   𝑁𝑁 0 𝑠𝑠
+−𝜆𝜆 · 𝑡𝑡  
+donde
+
+λ es la constante de desintegración.
+
+0. 5
+
+La constante de desintegración (λ) está relacionada con el   periodo de semidesintegración (t   1/2 ) según
+
+λ=ln(2)/t 1/2 =9.84·10  
+-4  
+(millones de años)  
+-1  
+(es igualmente válido si se pasan los tiempos a segundos)
+
+0.25
+
+Al cabo de 4500 millones de años entonces queda N/N 0   =e
+-4.43  
+=0.0119, lo que supone el 1.19% de la
+cantidad inicial
+
+0.25
+
+7.   El nivel de presión acústica que medimos con un sonómetro a 5 m de un altavoz es de 80 dB. Determina la
+intensidad de la onda en esa localización y a qué distancia habrá que alejarse para que el nivel se reduzca a 75 dB.
+
+Dato: I 0   = 10   -12   W m   -2
+
+Cuestión 7   Puntos
+
+El nivel de presión acústica en decibelios viene definido en función de la intensidad del sonido (I) y de la
+intensidad umbral (I 0 ) como L(dB)=10 log I/I 0
+
+0.25
+
+El nivel a 5 m es 80 dB=10 log (I/10  
+-12
+) luego I=10  
+8
+·10  
+-12
+= 10
+-4  
+W/m  
+2
+
+Si a otra distancia es 75 dB la I’ será I’=10   -12 ·10   7.5 = 3.16·10 -5   W/m   2
+
+0.25
+
+En una onda esférica la intensidad cae con el cuadrado de la distancia a la fuente I ~ 1/r
+2
+
+I/I’=r’   2 /r 2      𝑟𝑟
+′  
+=   𝑟𝑟�𝐼𝐼 / 𝐼𝐼 ′   = 5 · 1.778 =   𝟎𝟎 .   𝟎𝟎 𝟖𝟖   𝒎𝒎
+
+0.25
+
+0.25
+
+EvAU
+
+Curso 2021/2022
+Física
+
+6
+
+8.   Sabemos que la variación del flujo magnético a través de la superficie limitada por un circuito hace aparecer en
+éste una corriente inducida. Define flujo magnético, y detalla el tipo de magnitudes cuya variación puede dar
+origen a un cambio en su valor
+
+Cuestión 8   Puntos
+
+El flujo magnético se define en el caso más general como   Φ   =   ∬   𝐵𝐵 �⃗   ·   𝑟𝑟 𝑆𝑆⃗
+𝑆𝑆  
+. Si el campo es homogéneo en la
+superficie considerada se simplifica como   Φ   =   𝐵𝐵 �⃗   ·   𝑆𝑆⃗
+
+No exigimos la expresión con la integral pero sí la expresión considerando que tanto B como S son
+vectores, y us ando producto escalar. Si solo dicen Φ=BS   cos(θ)   damos la mitad (0.25) y si sólo dicen
+
+Φ=BS   damos cero en esta parte.
+
+0.5
+
+La variación temporal del flujo puede venir de cambios en el campo magnético, en la superficie…  
+0.25
+
+… o en el ángulo que forman ambos vectores  
+0.25
+
+9.   Deduce razonadamente a qué altura de la superficie terrestre el valor de la gravedad se reduce a la cuarta parte
+del valor que tiene en la superficie, teniendo en cuenta que R T   =6370 km.
+
+Cuestión 9   Puntos
+
+Al ser F=GMm/r 2 =mg la aceleración de la gravedad se puede expresar como g=GM/r 2  
+0.25
+
+En la superficie g s   =GM/R  
+2  
+y a cierta altura g’=GM/(R+h)  
+2  
+0.25
+
+Como g s   /g’=4      (R+h)  
+2
+/R  
+2
+=4
+
+   R+h=2R      h=R=6340 km
+
+A una altura igual al radio de la Tierra (es decir a una distancia 2R del centro) la aceleración de la
+gravedad es 4 veces menor que en la superficie del planeta
+
+0.25
+
+0.25
+
+10.   En   una   reacción   nuclear   un   núcleo   de   𝐿𝐿𝐿𝐿
+3
+7  
+absorbe un   protón   de   baja   energía   y   se   vuelve   inestable,
+descomponiéndose en varias partículas   α . Escribe la reacción nuclear que tiene lugar representándola con la
+notación correspondiente, determina cuántas partículas   α   aparecerán y cuánta energía se liberará en el proceso,
+expresada en MeV.
+
+Datos: m (   𝐿𝐿𝐿𝐿
+3
+7  
+)=7.01818 uma;   m(protón)=1.00813 uma;   m(α)=4.0026033 uma; 1 uma=1.67·10 -27   kg;
+
+c = 3·10  
+8  
+m/s;   1eV= 1.6·10  
+-19  
+J
+
+Cuestión 10   Puntos
+
+La reacción que tiene lugar la representamos con la notación   𝑋𝑋
+𝑍𝑍
+𝐴𝐴  
+, donde X es el símbolo del elemento, Z
+
+su número atómico y A su número másico
+
+El protón es   𝑝𝑝 1
+1  
+y la partícula α (núcleo de He)   𝛼𝛼 2
+4
+
+0.25
+
+La reacción es   𝐿𝐿𝐿𝐿   +   𝑝𝑝 1
+1  
+→   2 ·   𝛼𝛼 2
+4
+3
+7
+
+Se puede aceptar que no se use estrictamente esta notación, pero el alumno debe conocer el numero
+atómico y másico de cada especie y mostrar que el balance de protones y neutrones casa en la reacción.
+
+0.25
+
+La energía liberada la obtenemos a partir de   defecto de masa en los productos . Lo tomamos en valor
+
+absoluto como m reactivos   -m   productos   para que el número sea positivo.
+
+m p+ m Li   -2·m α   =(1.00813+7.01818-2·4.0026033) uma = 0.0211034 uma = 3.5242·10   -29   kg
+
+0.25
+
+Convertimos ese defecto de masa en energía según la conocida fórmula de Einstein E=mc 2
+
+E=3.1718·10   -12   J =   19.82 MeV   que es la energía que se libera en el proceso
+
+0.25
+
+EvAU
+
+Curso 2021/2022
+Física
+
+7
+
+Sección 3: Cuestiones experimentales (elegir una).   Puntuación máxima 1 punto cada una.
+
+11. En un experimento de óptica introducimos un haz láser por la parte circular de
+un vidrio con forma de medio cilindro. Cuando el haz de entrada llega a la separación
+entre vidrio y aire formando un ángulo de 15º respecto a la normal vemos 2 haces a
+la salida, como en el esquema. Sin embargo, si el ángulo es 55º sólo observamos un
+único haz a la salida. Explica a qué se debe la diferencia y a partir de qué ángulo de
+incidencia cambia el comportamiento.
+
+Datos n   vidrio   =1.66; n   aire =1
+
+Cuestión 11   Puntos
+
+La ley de Snell de la refracción establece la relación entre el ángulo incidente desde el medio 1 y el ángulo
+transmitido al medio 2: n   1 sen(θ i   )=n   2 sen(θ t )
+
+0.25
+
+Cuando lo anterior se aplica al paso de luz de un medio a otro menos denso ópticamente (n menor) el
+ángulo refractado es mayor que el de incidencia, y existe un ángulo (llamado límite) para el cual el ángulo
+refractado es 90º, con lo que en la práctica el haz no penetra en el segundo medio (aire en este caso), sino
+que queda en el vidrio. El ángulo de 15º es inferior a este ángulo límite, pero 55º es superior a él. Para
+ángulos mayores que el límite la ley de la refracción no tiene solución ya que ningún ángulo tiene un seno
+mayor que la unidad, por eso solo se observa el haz reflejado en esos casos.
+
+(En función de lo detallado de la explicación damos 0.25 ó 0.5 aquí)
+
+0.5
+
+Igualamos el haz refractado a 90º para obtener el valor del ángulo límite en ese caso
+
+n   1   sen ( θ c )=n   2   ·sen 90=n   2      θ c =arcsen(1/1.66)=37.0º .
+
+A partir de una incidencia de 37º no hay haz transmitido y se da la reflexión interna total
+
+0.25
+
+12.   Un astronauta desea medir el valor de la aceleración de la gravedad en el exoplaneta en que ha aterrizado
+empleando un péndulo simple con una longitud de 150 cm. Para mejorar la precisión cronometra el tiempo que
+tarda el mismo en oscilar 5 veces, y repite la medida cuatro veces encontrando los siguientes valores:
+
+Determina un único valor de gravedad que pueda ofrecer como resultado de su experimento.
+
+Cuestión 12   Puntos
+
+El periodo de un péndulo está relacionado con la longitud de la cuerda y la gravedad local según
+
+𝑇𝑇   = 2 𝜋𝜋�  
+𝐿𝐿
+𝑔𝑔  
+por lo tanto   𝑔𝑔   =  
+4𝜋𝜋   2   𝐿𝐿
+𝑇𝑇   2
+
+0.5
+
+De cada experimento sacamos el periodo dividiendo el tiempo medido por las 5 oscilaciones a que
+corresponde, y hacemos la media aritmética de esos periodos: 2.10 s, 2.20 s, 2.16 s, 2.04 s      𝑇𝑇 �   = 2.125   𝑠𝑠
+
+0.25
+
+Insertamos ese periodo medio en la fórmula, con L=1.5 m y obtenemos la gravedad:   g=13.114 m/s   2  
+0.25
+
+Atención: La anterior es la manera correcta de hacer el cálculo. Si se introduce cada periodo en la fórmula, se
+obtienen 4 valores para la gravedad y luego se hace la media de esos valores el resultado es ligeramente diferente:
+
+g(m/s
+2
+)= 13.428, 12.2350, 12.6923, 14.2295 
+   𝑔𝑔̅   = 13.146   𝑀𝑀 / 𝑠𝑠  
+2
+
+Dado que no es materia del curso la sutil diferencia entre estos dos procedimientos   damos ambos por válidos.
+
+t (s)   10.5   11.0   10.8   10.2
+

@@ -1,0 +1,991 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2324/EXTRAORDINARIA/Matematicas-II.ashx]
+Evaluación   para   el   Acceso   a   la   Universidad
+
+Curso 2023/2024
+
+Materia:   MATEMÁTICAS   II
+
+Instrucciones:   El estudiante deberá resolver   CUATRO   de los ocho ejercicios propuestos. Si resuelve más,
+
+se   corregirán   solo   los   cuatro   primeros.   Los   ejercicios   deben   redactarse   con   claridad,   detalladamente   y razonando
+
+las   respuestas.   S o lo se permite el uso de calculadores de tipo 1 y 2 (tal y como se indica en la información de
+
+las pruebas).   Cada   ejercicio   completo   puntuará 2 , 5 puntos. Duración de la prueba: 1 hora y 30 minutos.
+
+1.   Una heladería vende helados de una, dos y tres bolas a uno, dos y tres euros ,   respectivamente. El viernes ha
+
+vendido 157 helados obteniendo 278 euros . También   sabemos que el número de helados de una bola
+
+vendidos es   !   veces el número de helados de tres bolas , con   !   >   0 .
+
+a)   [1,25 puntos]   Plantea un sistema de ecuaciones lineales cuya resolución permita determinar el número
+
+de helados vendidos de cada tipo.
+
+b)   [1,25 puntos]   Estudia para qu é   valores del parámetro   k   el sistema tiene solución   única .   Para   los   caso s
+
+en   los   que el sistema tiene solución única ,   ¿ e s posible que   en alguno de ellos   se hayan vendido el
+
+mismo número de helados de una bola que de tres bolas?   Justifica   tu respuesta.
+
+Solución:
+
+a)   Sean   $ ,   % ,   &   las variables que representan el número de helados de   una, dos y tres bolas vendidos ,
+
+respectivamente. De las ventas del viernes obtenemos estas dos ecuaciones:   $   +   %   +   &   =   157 ;   $   +
+
+2 %   +   3 &   =   278 . De la última condición obtenemos la ecuación   $   =   !& , con   !   >   0 .   Por tanto, el
+
+sistema de ecuaciones que se plantea es:
+
+/
+
+$   +   %   +   &   =   157
+
+$   +   2 %   +   3 &   =   278
+
+$   −   !&   =   0
+
+Criterios de corrección:
+
+•   Definir   las   incógnitas   del   problema,   0,25   puntos;   p lantear   la   primera   ecuación,   0,25;
+
+plantear la segunda ecuación, 0, 2 5   puntos; plantear la tercera ecuación, 0,5 puntos.
+
+b)   Estudiamos   el   sistema   de   ecuaciones   con   matriz   de   coeficientes   2   =   3
+
+1   1   1
+
+1   2   3
+
+1   0   − !
+
+4   y   matriz
+
+ampliada   2
+∗  
+=   3
+
+1
+
+1
+
+1
+
+1
+
+2
+
+0
+
+1
+
+3
+
+− !
+
+157
+
+278
+
+0
+
+4 .   Tenemos   que   | 2 |   =   − 2 !   +   3   +   0   −   2   +   !   +   0   =   − !   +   1 .   Por
+
+tanto, este determinante solamente se anula cuando   !   =   1   >   0 .   Por tanto, cuando   !   ≠   1   el rango de
+
+2   es 3 y el sistema es compatible determinado (y tiene una única solución).
+
+Para el caso   !   =   1 , el rango de la matriz de coeficientes   2   es 2 y el de la matriz ampliada   2
+∗  
+es   3.
+
+Esto se puede comprobar tomando, por ejemplo ,   7
+
+1   1   157
+
+1   2   278
+
+1   0   0
+
+7   =   − 36   ≠   0 . Por tanto, en este caso
+
+tenemos un sistema incompatible.
+
+Con respecto a la pregunta que se hace, el caso en el que se venden el   mismo número de helados
+
+de una bola que de tres bolas   se corresponde con   !   =   1 . Por tanto,   este caso   no   se corresponde
+
+con ningún caso en los que el sistema tiene solución única.
+
+C riterios de corrección:
+
+•   Cálculo del determinante de   2   y de los valores en los que se anula, 0,25 puntos;   discusión
+
+razonada del caso   !   ≠   1 , 0,25 puntos;   estudiar los rangos en el caso   !   =   1 , 0, 2 5 puntos;
+
+discusión   razonada   del   caso   !   =   1 ,   0,25   puntos;   respuesta   razonada   a   la   cuestión
+
+planteada , 0, 2 5 puntos.   Si se equivoca al calcular el determinante, no tenerlo en cuenta y
+
+valorar el resto.
+
+2.   Sea   la función   9 ( $ )   =   <
+$
+"  
++   2 $   +   1   $   <   3
+
+" #
+
+# $ %  
+$   ≥   3  
+.
+
+a)   [1,5 puntos]   Estudia la continuidad de la función y, en caso de existir, indica y clasifica el tipo de
+
+discontinuidades.
+
+b)   [1 punto]   Halla la ecuación de la recta tangente a la gráfica de   la función   9 ( $ )   en el punto de abscisa
+
+$   =   2 .
+
+Solución:
+
+a)   La función es continua cuando   $   <   3   porque es un polinomio.   También es continua cuando   $   >   3
+
+( salvo tal vez en   $   =   4 )   por tratarse de un cociente de polinomios tales que el   denominador solo   se
+
+anula en   $   =   4 . Por tanto, tendremos que estudiar la continuidad en   $   =   3   y en   $   =   4 .
+
+Para el caso   $   =   3   tenemos:   lim
+
+# → ' !  
+9 ( $ )   =   16   ;   lim
+
+# → '
+"  
+9 ( $ )   =   − 6 ;   9 ( 3 )   =   16 . Por tanto, la función no
+
+es continua en   $   =   3   y tiene una discontinuidad de salto finito.
+
+Para el caso   $   =   4   tenemos:   lim
+
+# → % !  
+9 ( $ )   =   − ∞   ;   lim
+
+# → % "  
+9 ( $ )   =   + ∞ ;   9 ( 4 )   no está definido. Por tanto, la
+
+función no es continua en   $   =   4   y tiene una discontinuidad de salto infinito.
+
+Criterios de corrección:
+
+•   De cir   d ónde la funci ón es continua y   los dos posibles puntos de discontinuidad, 0,5 puntos;
+
+estudiar el caso   $   =   3 , 0, 2 5 puntos;   indicar tipo de discontinuidad para   $   =   3 , 0,25 puntos;
+
+estudiar el caso   $   =   4 , 0, 2 5 puntos ; indicar tipo de discontinuidad para   $   =   4 , 0,25 puntos .
+
+b)   Cuando   $   <   3   la derivada de la función es   9
+)
+( $ )   =   2 $   +   2 .   Además,   9 ( 2 )   =   2
+"  
++   2   ⋅   2   +   1   =   9   y
+
+9
+)
+( 2 )   =   2   ⋅   2   +   2   =   6 .   Por tanto, la ecuación de la recta tangente a la gráfica de la función en   $   =   2
+
+es   %   −   9   =   6 ( $   −   2 ) .
+
+Criterios de corrección:
+
+•   Plantear la ecuación de la recta tangente, 0,25 puntos; cálculo de la derivada de   9 ( $ ) , 0, 2 5
+
+puntos;   evaluar   9
+)
+( 2 ) , 0,25 puntos;   escribir la   ecuación de la recta tangente que se pide,
+
+0, 2 5 puntos.
+
+3.   Se quiere instalar un toldo que pase por el punto de coordenadas   F ( 2 , 1 , 1 )   y que sea perpendicular a una
+
+barra metálica de ecuación   H   ≡   J
+2 $   −   %   +   &   =   3
+
+$   −   &   =   1
+.
+
+a)   [1,25 puntos]   Determina la ecuación del plano que define el toldo.
+
+b)   [1,25 puntos]   Si se quiere colocar un foco en el punto de coordenadas   K ( 2 ,   − 2 , 1 ) . ¿A qué distancia se
+
+encuentra del   plano que   define   e l   toldo?
+
+Solución:
+
+a)   La   ecuación   de   la   recta   depende   de   un   parámetro   L   ∈   ℝ .   Tomamos,   por   ejemplo,   &   =   L   y
+
+despejamos   $   e   %   para obtener las ecuaciones paramétricas de la recta y su vector director:
+
+$   −   &   =   1   →   $   =   1   +   L ;   2 $   −   %   +   &   =   3   →   %   =   2 $   +   &   −   3   =   2 ( 1   +   L )   +   L   −   3   =   − 1   +   3 L .
+
+Por tanto, las ecuaciones paramétricas de la recta son:
+
+/
+
+$   =   1   +   L
+
+%   =   − 1   +   3 L
+
+&   =   0   +   L
+
+Así, el vector director de la recta es el   R S ⃗   =   ( 1 ,   3 ,   1 ) , que es también el vector normal del plano que
+
+se pide.
+
+Por tanto, la ecuación del plano será   U
+*  
+≡   $   +   3 %   +   &   =   V , con   V   ∈   ℝ . Como sabemos que el plano
+
+pasa por el punto   F ( 2 , 1 , 1 )   podemos calcular   V :   1   ⋅   2   +   3   ⋅   1   +   1   ⋅   1   =   V   =   6 . Finalmente, la ecuación
+
+del plano es   U *   ≡   $   +   3 %   +   &   =   6 .
+
+Criterios de corrección:
+
+•   Obtener las ecuaciones paramétricas de la recta, 0,5 puntos; d eterminar el vector normal
+
+del plano, 0,25 puntos; obtener el   valor de   V , 0,25 puntos ; dar la ecuación correcta del
+
+plano, 0,25 puntos.
+
+b)   La distancia del punto   K   al plano   U *   viene dada por
+
+W ( K ,   U *
+)   =  
+| 1   ⋅   2   +   3   ⋅   ( − 2 )   +   1   ⋅   1   −   6 |
+
+√ 1
+"  
++   3
+"  
++   1
+"  
+=  
+9
+
+√ 11  
+=  
+9 √ 11
+
+11  
+RYZW[W\] .
+
+Criterios de corrección:
+
+•   Plantear la ecuación de la distancia de un punto a un plano, 0,5 puntos; calcular el
+
+numerador, 0, 25; calcular el denominador, 0,25 puntos; dar el valor correcto de la distancia,
+
+0,25 puntos.
+
+4.
+
+a)   [ 1 punto ] Calcula la   siguiente   integral :   ∫  
+" # #
+
+# # + *  
+W$ .
+
+b)   [ 1,5 puntos ] Sea la matriz   F   =   _
+[   2
+
+0   1
+` , con   [   ∈   ℝ . Calcula el determinante de   F   y de   F   ⋅   F . ¿Cuál crees
+
+que será el determinante del producto de   Y   veces   F   (con   Y   >   2   y entero)? Justifica   y razona   tu
+
+respuesta.
+
+Solución:
+
+a)   La integral puede resolverse de la siguiente manera:
+
+∫  
+" #
+#
+
+# # + *  
+W$   =   ∫  
+" #
+#
++ " $ "
+
+# # + *  
+W$   =   ∫  
+" #
+#
++ "
+
+# # + *  
+W$   +   ∫  
+$ "
+
+# # + *  
+W$   =   2 ∫   W$   −   2 ∫  
+*
+
+# # + *  
+W$   =   2 $   −   2 [Habc ( $ )   +   d .
+
+Criterios de corrección:
+
+•   Realizar el cociente , 0,25 puntos; resolver la primera integral, 0,25 puntos; resolver la
+
+segunda integral, 0, 2 5 puntos ; dar el valor final de la integral, 0,25 puntos .
+
+b)   Tenemos   que   | F |   =   [   y   | F   ⋅   F |   =   | F |   ⋅   | F |   =   [   ⋅   [   =   [
+"
+.   Si   tenemos   el   producto   de   F   Y   veces,
+
+tenemos que   e F   ⋅   …   ⋅   F g h h i h h j
+
+,   -./.0
+
+e   =   | F |   ⋅   …   ⋅   | F |
+g h h i h h j
+
+,   -./.0
+
+=   [   ⋅   …   ⋅   [ g h i h j
+
+,   -./.0
+
+=   [
+,
+.
+
+Criterios de corrección:
+
+•   Calcular del determinante de   F , 0,25 puntos; calcular el determinante de   F   ⋅   F , 0, 2 5 puntos;
+
+aplicar las propiedades del determinante para el cálculo de   | F
+,
+| , 0,5 puntos;   calcular el
+
+determinante de   F
+,
+, 0,5 puntos.
+
+5.
+
+a)   [ 1 punto ] Calcula el volumen de la región generada al girar la función   9 ( $ )   =   $   entre los puntos   $   =   2   y
+
+$   =   3   con respecto al eje X.
+
+b)   [ 1,5 puntos ] Estudia la posición relativa de los   siguientes   planos :
+
+U
+*  
+≡   $   +   %   =   1 ;   U
+"  
+≡   $   +   %   +   &   =   2 ;   U
+'  
+≡   &   =   0 .
+
+Solución:
+
+a)   La región que   gira viene dada por:
+
+Así, e l volumen viene dado por la expresión :
+
+k   =   l   U ( $ )
+"
+W$
+
+'
+
+"
+
+=   U   m
+$
+'
+
+3  
+n
+
+"
+
+'
+
+=   U   o
+27
+
+3  
+−  
+8
+
+3
+p   =   U  
+19
+
+3  
+RYZW[W\]
+'
+.
+
+Criterios de corrección:
+
+•   Plantear el cálculo del volumen, 0,5 puntos; resolver la integral definida, 0,25 puntos; dar el
+
+valor   correcto del volumen, 0,25 puntos.
+
+b)   Para estudiar la posición relativ a   de esos tres planos   podemos   estudiar   cómo son las soluciones
+
+del sistema de ecuaciones siguiente:
+
+/
+
+$   +   %   =   1
+
+$   +   %   +   &   =   2
+
+&   =   0
+
+.
+
+Si consideramos la matriz de coeficiente s   2   =   3
+
+1   1   0
+
+1   1   1
+
+0   0   1
+
+4   vemos que   tiene dos columnas iguales,
+
+por lo que no puede tener rango 3 y   | 2 |   =   0 .   Es   fácil ver que tiene rango 2   tomando, por ejemplo, el
+
+determinante   q
+1   0
+
+1   1
+q   =   1   ≠   0 .
+
+Consideramos ahora el estudio del   rango de la matriz ampliada   2
+∗  
+=   3
+
+1
+
+1
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+1
+
+2
+
+0
+
+4 . Como las dos
+
+primeras   columnas   son   iguales,   todos   los   menores   de   orden   3   que   las   incluyan   tendrán
+
+determinante 0. Así, tomamos   7
+
+1   0   1
+
+1   1   2
+
+0   1   0
+
+7   =   0   +   0   +   1   −   0   −   0   −   2   =   − 1   ≠   0 . Por tanto, el rango de la
+
+mat r iz ampliada es 3 y el sistema planteado sería incompatible .
+
+Por tanto, los planos   no se cortan ni en un punto ni en una recta .   Veamos todos los   pares de   casos:
+
+•   U * ,   U " :   Tanto la matriz de   coeficientes como l a matriz ampliada del sistema definido por las
+
+dos ecuaciones tiene n   rango 2. Por tanto, los planos se cortan.
+
+•   U * ,   U ' :   Tanto la matriz de coeficientes como la matriz ampliada del sistema definido por las
+
+dos ecuaciones tienen rango 2. Por tanto, los planos se cortan.
+
+•   U " ,   U ' :   Tanto la matriz de coeficientes como la matriz ampliada del sistema definido por las
+
+dos ecuaciones tienen rango 2. Por tanto, los planos se cortan.
+
+Así, los planos se cortan dos a dos.
+
+Criterios de   corrección:
+
+•   Estudiar el rango de   2 ,   0,25 puntos; estudiar el rango de   2
+∗
+, 0,25 puntos; determinar que
+
+los tres planos no se cortan, 0,25 puntos;   estudiar la relación entre cada par de planos, 0,25
+
+por cada uno de los tres casos.
+
+6.
+
+a)   [ 1 punto ]   Calcula el siguiente límite:   lim
+
+# → $ "
+
+# $ + " # # + # + "
+
+# # + " #  
+.
+
+b)   En un mazo hay 40 cartas. De estas, 4 están marcadas   solo   con un punto verde, 5   solo   con un punto
+
+rojo y 7   están ma r cadas con los dos puntos ( verde y rojo ) .
+
+b.1)   [ 0,75 puntos ] ¿Cuál es la probabilidad de sacar dos cartas sin reemplazamiento y que ambas
+
+tengan un punto verde?
+
+b.2)   [ 0,75 puntos ] Si saco una carta y tiene un punto verde, ¿cuál es la probabilidad de que tenga
+
+también un punto rojo?
+
+En ambos apartados se considera que una carta tiene un punto verde   si   tiene solo un punto verde   o
+
+también   si   tiene un punto verde y otro rojo.
+
+Solución:
+
+a)   S i   resolvemos el   límite directamente obtenemos:
+
+lim
+
+# → $ "
+
+$
+'  
++   2 $
+"  
++   $   +   2
+
+$
+"  
++   2 $  
+=  
+0
+
+0  
+.
+
+Para eliminar la indeterminación podemos   simplificar el cociente de   los dos polinomios (puesto que
+
+el   − 2   es raíz de ambos) o aplicar la regla de L’Hôpital.   Aplicando el primer método (por ej e mplo)
+
+obtenemos:
+
+lim
+
+# → $ "
+
+$
+'  
++   2 $
+"  
++   $   +   2
+
+$
+"  
++   2 $  
+=   lim
+
+# → $ "
+
+$
+"  
++   1
+
+$  
+=  
+5
+
+− 2  
+=  
+− 5
+
+2  
+.
+
+Criterios de corrección:
+
+•   Establecer la indeterminación, 0,25 puntos; plantear el método de resolución de la
+
+indeterminación, 0,25 puntos;   ejecutar el método de resolución, 0,25; dar el valor correcto
+
+del límite, 0,25 puntos.
+
+b)   Sea   k   el   suceso   correspondiente   a   sacar   una   carta   con   un   punto   verde   y   el   suceso   r   el
+
+correspondiente a sacar   una carta con un punto rojo. Tenemos las siguiente s   probabilidades:
+
+s ( k )   =  
+4   +   7
+
+40  
+=  
+11
+
+40  
+;   s ( r )   =  
+5   +   7
+
+40  
+=  
+12
+
+40  
+;   s ( k   ∩   r )   =  
+7
+
+40  
+.
+
+b.1)   Si hacemos dos extracciones sin reemplazamiento te ndríamos:
+
+s ( kk )   =  
+11
+
+40  
+⋅  
+10
+
+39  
+=  
+110
+
+1560  
+.
+
+Criterios de corrección:
+
+•   Plantear la probabilidad que se pide,   0,25 puntos;   obtener   s ( k ) , 0,25 puntos;   calcular
+
+s ( kk ) , 0, 2 5 puntos.
+
+b.2)   La probabilidad que se pide es
+
+s (   r   ∣   k   )   =  
+s ( r   ∩   k )
+
+s ( k )  
+=  
+7 / 40
+
+11 / 40  
+=  
+7
+
+11
+.
+
+Criterios de corrección:
+
+•   Plantear la probabilidad que se pide, 0,25 puntos; dar   la regla de la probabilidad
+
+condicionada, 0,25 puntos; obtener correctamente   s (   r   ∣   k   ) , 0, 2 5 puntos.
+
+7.
+
+a)   [ 1,25   puntos ]   Sea   el   determinante   e
+
+$   %   &
+
+[   w   a
+
+3   2   1
+
+e   =   1 .   Calcula   razonadamente   el   valor   del   siguiente
+
+determinante:   7
+
+$   +   [   %   +   w   &   +   a
+
+2 [   2 w   2 a
+
+3   2   1
+
+7 .
+
+b)   [ 1,25 puntos ]   Obtén la ecuación de la recta que es paralela a la recta  
+# $ *
+
+*  
+=  
+1 $ *
+
+*  
+=  
+2
+
+$ "  
+y contiene al punto
+
+F ( 0 , 1 , 0 ) .
+
+Solución:
+
+a)   Aplicando las propiedades de los determinantes obtenemos:
+
+7
+
+$   +   [   %   +   w   &   +   a
+
+2 [   2 w   2 a
+
+3   2   1
+
+7   =   e
+
+$   %   &
+
+2 [   2 w   2 a
+
+3   2   1
+
+e   +   7
+
+[   w   a
+
+2 [   2 w   2 a
+
+3   2   1
+
+7   =   2   e
+
+$   %   &
+
+[   w   a
+
+3   2   1
+
+e   +   2   7
+
+[   w   a
+
+[   w   a
+
+3   2   1
+
+7   =   2   ⋅   1   +   0   =   2 .
+
+Criterios de corrección:
+
+•   Descomponer el determinante como suma de dos, 0,25 puntos;   calcular el primero, 0,25
+
+puntos; calcular el segundo, 0,25 puntos; dar el valor correcto del determinante, 0,5 puntos.
+
+b)   La recta tiene como vector director el vector   ( 1 ,   1 ,   − 2 ) .   Por tanto, la ecuación de la recta que pasa
+
+por   F ( 0 , 1 , 0 )   y es paralela a la recta dada es
+
+$
+
+1  
+=  
+%   −   1
+
+1  
+=  
+&
+
+− 2
+
+Criterios de corrección:
+
+•   Determinar los elementos que definen la recta (punto y vector director), 0,25 puntos; cálculo
+
+del vector   director   0,5 puntos; ecuación de la recta (en cualquiera de sus formas), 0,5
+
+puntos.
+
+8.
+
+a)   Se tienen tres cajas A, B y C. En la caja A hay dos cartas de espadas y tres de copas. En la caja B, tres
+
+cartas de espadas y dos de copas y en la   caja   C, cuatro de espadas y una de copas. Se tira un dado   de
+
+seis caras   y ,   si el resultado es impar, se saca una carta de la caja A ;   si el resultado es 4 o 6, se saca
+
+una carta de la caja B y ,   si el resultado es 2, se saca una carta de la caja C.
+
+a.1)   [0,5 puntos]   Calcula la probabilidad de que se obtenga una carta de copas.
+
+a.2)   [0,75 puntos]   Sabiendo que la carta extraída es de copas, ¿cuál es la probabilidad que se haya
+
+extraído de la caja B?
+
+b)   La probabilidad de que un paracaidista novato caiga en el punto correcto es de 0,25. Si se lanza 5
+
+veces, determina:
+
+b.1)   [0,5 puntos]   ¿Cuál es la probabilidad de que caiga en el punto correcto exactamente dos veces?
+
+b.2)   [0,75 puntos]   ¿Cuál es la probabilidad de que caiga en el punto correcto al menos una vez?
+
+p
+
+n   k   0.1   0.15   0.2   0.25   0.3   0.35   0.4   0.45   0.5
+
+5   0   0.5905   0.4437   0.3277   0.2373   0.1681   0.1160   0.0778   0.0503   0.0313
+
+1   0.3281   0.3915   0.4096   0.3955   0.3602   0.3124   0.2592   0.2059   0.1563
+
+2   0.0729   0.1382   0.2048   0.2637   0.3087   0.3364   0.3456   0.3369   0.3125
+
+3   0.0081   0.0244   0.0512   0.0879   0.1323   0.1811   0.2304   0.2757   0.3125
+
+4   0.0005   0.0022   0.0064   0.0146   0.0284   0.0488   0.0768   0.1128   0.1563
+
+5   0.0000   0.0001   0.0003   0.0010   0.0024   0.0053   0.0102   0.0185   0.0313
+
+Solución:
+
+a)   Tenemos las siguientes probabilidades   para seleccionar cada una de las cajas al tirar el dado :
+
+s ( F )   =  
+3
+
+6  
+;   s ( x )   =  
+2
+
+6  
+;   s ( d )   =  
+1
+
+6
+
+Además, las probabilidades de sacar una carta de   copas de ca d a caja son:
+
+s (   ayz[]   ∣ ∣   F   )   =  
+3
+
+5  
+;   s (   ayz[]   ∣ ∣   x   )   =  
+2
+
+5  
+;   s (   ayz[]   ∣ ∣   d   )   =  
+1
+
+5
+.
+
+a.1)   Así, la probabilidad de sacar una carta de copas es
+
+s ( ayz[] )   =   s ( ayz[]   ∩   F )   +   s ( ayz[]   ∩   x )   +   s ( ayz[]   ∩   d )   =
+
+s ( F )   ⋅   s (   ayz[]   ∣ ∣   F   )   +   s ( x )   ⋅   s (   ayz[]   ∣ ∣   x   )   +   s ( d )   ⋅   s (   ayz[]   ∣ ∣   d   )   =
+
+3
+
+6  
+⋅  
+3
+
+5  
++  
+2
+
+6  
+⋅  
+2
+
+5  
++  
+1
+
+6  
+⋅  
+1
+
+5  
+=  
+14
+
+30
+
+Criterios de corrección:
+
+•   Plantear la probabilidad que se pide correctamente, 0,25 puntos; obtener la solución
+
+correcta, 0,25 puntos.
+
+a.2)   Para calcular esta probabilidad usaremos la   regla de Bayes ya que la probabilidad que se
+
+pide es
+
+s (   x   ∣ ∣   ayz[]   )   =  
+s ( x   ∩   ayz[] )
+
+s ( ayz[] )  
+=  
+s ( x ) s ( ayz[]   ∣   x )
+
+s ( ayz[] )  
+=  
+4 / 30
+
+14 / 30  
+=  
+4
+
+14
+.
+
+Criterios de corrección:
+
+•   Plantear la probabilidad que se pide correctamente, 0,25 puntos; escribir la regla de la
+
+probabilidad   condicionada   correctamente,   0,25   puntos;   obtener   el   valor   correcto,   0,25
+
+puntos.
+
+b)   Sea   {   la variable aleatoria que mide el número de veces que cae el paracaidista novato en el punto
+
+correcto. Se trata de una binomial con   Y   =   5   y probabilidad de éxito   z   =   0 , 25 .
+
+b.1)   La probabilidad que se pide es   s ( {   =   2 )   =   0 , 2637 .
+
+Criterios de corrección:
+
+•   Plantear la probabilidad que se pide correctamente, 0,25 puntos; obtener el valor correcto,
+
+0,25 puntos.
+
+b.2)   La probabilidad que se pide es
+
+s ( {   ≥   1 )   =   1   −   s ( {   =   0 )   =   1   −   0 , 2373   =   0 , 7627 .
+
+Criterios de corrección:
+
+•   Plantear la probabilidad que se pide correctamente, 0,5 puntos; obtener el valor correcto,
+
+0,25 puntos.
+

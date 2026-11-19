@@ -1,0 +1,480 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2425/Matem_aplic_CCSS.ashx]
+Prueba de acceso a la   Universidad
+
+C urso 202 4 / 202 5
+
+Materia:   MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+
+INSTRUCCIONES:   El estudiante deberá resolver los cuatro ejercicios propuestos. En   los ejercicios 3 y 4   deberá
+
+contestar solamente a   UNO   de los dos apartados propuestos. Si resuelve más, se corregirá solo el primero de los
+
+dos apartados resueltos. Los ejercicios deben redactarse con claridad, detalladamente y razonando las respuestas.
+
+Solo están permitidas   las calculadoras de tipo 1 y 2 .   Cada ejercicio completo puntuará 2.5 puntos.
+
+Duración de la prueba: 90 minutos.
+
+Ejercicio 1. -   Un centro de atención telefónica estima que el tiempo, en minutos, de atención a las
+
+llamadas que recibe se aproxima por una distribución normal con desviación típica   𝜎   =   4   minutos. Se
+
+toma una muestra de 36 llamadas y se observa que el tiempo medio de atención es de 15 minutos.
+
+Con un nivel de confianza del 97%,
+
+a) Calcula el intervalo de confianza para el tiempo de atención medio poblacional.   (1 punto)
+
+b) Explica, justificando la respuesta, cómo se podría obtener un intervalo de confianza con menor
+
+amplitud sin modificar el nivel de confianza.   (0. 7 5   puntos )
+
+c) Una asociación de consumidores afirma que el tiempo medio de atención a las llamadas es de
+
+17 minutos.   Dado el intervalo del apartado a),   ¿ s e puede aceptar tal afirmación con un nivel de
+
+confianza del 95%? Justificar la respuesta.   ( 0. 7 5 puntos )
+
+Solución:
+
+a)   𝑧 ! . #$%   =   2 . 17 ,   𝐼 .   𝐶 . ! . #&   =   + 𝑥 ̅   ±   𝑧 ! . #$%  
+𝜎
+
+√ 𝑛
+1   2   =   + 15   ±   2 . 17   ·  
+4
+
+√ 36
+
+1   2   =   ( 13 . 5533   ,   16 . 4467 )
+
+(Obtención del cuantil, 0.25 puntos; planteamiento del   intervalo, 0.5 puntos; solución, 0.25)
+
+b)   El único valor que se podría modificar es el tamaño muestral,   n . Para reducir la amplitud,
+
+debería aumentar el tamaño muestral.
+
+(Referencia a   n , 0.25 puntos; justificación, 0.5 puntos)
+
+c)   El valor   𝜇   =   1 7   no está en el intervalo al 97% de confianza, luego no estará en el intervalo al
+
+95% de confianza, puesto que tiene menor amplitud. Por tanto, no se puede aceptar la
+
+afirmación.
+
+(Conclusión, 0.25 puntos; justificación, 0.5 puntos)
+
+Ejercicio 2. -   Lucía, en un examen de Historia que constaba de tres preguntas, ha obtenido una
+
+calificación total de 7 . 2 puntos. La puntuación obtenida en la primera pregunta fue un 40 % más que
+
+la obtenida en la segunda, y la puntuación del tercer enunciado fue el doble de la suma de las
+
+puntuaciones obtenidas en la primera y segunda pregunta. ¿Cuál fue la puntuación obte nida por Lucía
+
+en cada pregunta?   ( 2.5   puntos)
+
+Solución:
+
+P 1 = calificación de la pregunta 1; P 2 = calificación de la pregunta 2; P 3 = calificación de la pregunta 3.
+
+<
+
+𝑝
+'  
++   𝑝
+(  
++   𝑝
+)  
+=   7 . 2
+
+𝑝 '   =   1 . 4   ·   𝑝 (
+
+𝑝 )   =   2   ·   ( 𝑝 '   +   𝑝 ( )
+
+→   1 . 4   ·   𝑝 (   +   𝑝 (   +   2   ·   ( 1 . 4   ·   𝑝 (   +   𝑝 ( )   =   7 . 2   →   7 . 2   ·   𝑝 (   =   7 . 2   →   𝑝 (   =   1
+
+Luego   𝒑 𝟏   =   𝟏 .   𝟒   𝒑 𝟐   =   𝟏   𝒑 𝟑   =   𝟒 .   𝟖
+
+(Por cada ecuación correcta, 0.5 puntos;   desarrollo de la resolución , 0.5 puntos;   solución
+
+correcta , 0.5 puntos )
+
+Prueba de acceso a la   Universidad
+
+C urso 202 4 / 202 5
+
+Materia:   MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+
+Ejercicio 3. -   Elige y resuelve   sólo uno   de los dos apartados siguientes:
+
+Apartado a)   Se considera la función   𝑓 ( 𝑥 )   =   E
+− 𝑥
+(  
+−   3 𝑥   +   10   𝑠𝑖   𝑥   ≤   𝑘
+
+𝑥
+(  
+−   4 𝑥   +   9   𝑠𝑖   𝑥   >   𝑘
+
+a.1) ¿Para qué valores de   𝑘   la función   𝑓 ( 𝑥 )   es continua en   𝑥   =   𝑘   ?   (1 punto)
+
+a.2) S i   𝑘   =   1 , calcula los   máximo s   y mínimos   relativos de la función   𝑓 ( 𝑥 ) .   (0.75 puntos)
+
+a.3) En ese mismo supuesto, determina en qué intervalos la función es creciente y en cuáles
+
+es decreciente.   (0.75 puntos)
+
+Solución:
+
+a.1)   Condici ón de continuidad en   𝑥   =   𝑘 ,   lim
+
+- → /
+!  
+𝑓 ( 𝑥 )   =   lim
+
+- → / "  
+𝑓 ( 𝑥 )   =   𝑓 ( 𝑘 )
+
+lim
+
+- → / !
+( − 𝑥
+(  
+−   3 𝑥   +   10 )   =   − 𝑘
+(  
+−   3 𝑘   +   10
+
+lim
+
+- → /
+"
+( 𝑥
+(  
+−   4 𝑥   +   9 )   =   𝑘
+(  
+−   4 𝑘   +   9  
+lim
+
+- → / !  
+𝑓 ( 𝑥 )   =   lim
+
+- → / "  
+𝑓 ( 𝑥 )   →   ( − 𝑘
+(  
+−   3 𝑘   +   10 )   =   ( 𝑘
+(  
+−   4 𝑘   +   9 )
+
+luego   2 𝑘
+(  
+−   𝑘   −   1   =   0   →  
+𝑘   =   − 0 . 5
+
+𝑘   =   1
+
+(Condición de continuidad, 0.25 puntos; planteamiento de la ecuación, 0.25 puntos; solución
+
+correcta, 0.5 puntos)
+
+a.2)   𝑓 ( 𝑥 )   =   E
+− 𝑥
+(  
+−   3 𝑥   +   10   𝑠𝑖   𝑥   ≤   1
+
+𝑥
+(  
+−   4 𝑥   +   9   𝑠𝑖   𝑥   >   1  
+;
+
+𝑓
+0
+( 𝑥 )   =   Q
+− 2 𝑥   −   3   𝑠𝑖   𝑥   ≤   1
+
+2 𝑥   −   4   𝑠𝑖   𝑥   >   1  
+;   𝑓
+0
+( 𝑥 )   =   0   →   Q
+𝑥   =   − 1 . 5
+
+𝑥   =   2
+
+Como  
+𝑓
+00
+( − 1 . 5 )   =   − 2   <   0   𝐸𝑛   𝑥   =   − 1 . 5   ℎ 𝑎𝑦   𝑢𝑛   𝑚 á 𝑥𝑖𝑚𝑜   𝑟𝑒𝑙𝑎𝑡𝑖𝑣𝑜
+
+𝑓
+00
+( 2 )   =   2   >   0   𝐸𝑛   𝑥   =   2   ℎ 𝑎𝑦   𝑢𝑛   𝑚 í 𝑛𝑖𝑚𝑜   𝑟𝑒𝑙𝑎𝑡𝑖𝑣𝑜  
+.   𝑓 ( 1 )   =   6   No es extremo.
+
+( Obtención de cada extremo, 0.25 puntos; justificación de máximo - mínimo, 0.25 puntos)
+
+a.3)   𝑓
+0
+( 𝑥 )   =   Q
+− 2 𝑥   −   3   𝑠𝑖   𝑥   ≤   1
+
+2 𝑥   −   4   𝑠𝑖   𝑥   >   1  
+;   E
+𝑓
+0
+( 𝑥 )   <   0   →   𝑥   >   − 1 . 5
+
+𝑓
+0
+( 𝑥 )   <   0   →   𝑥   <   2  
+. Luego   𝑓 ( 𝑥 )   es decreciente en el intervalo
+
+( − 1 . 5   ,   2 )   y creciente en los intervalos   ( − ∞   ,   − 1 . 5 )   ∪   ( 2 ,   + ∞ ) .
+
+(Condición de   crecimiento - decrecimiento, 0.25 puntos, obtención de intervalos, 0.5 puntos)
+
+Apartado b)   Dada la función   𝑓 ( 𝑥 )   =   𝑎 𝑥
+)  
++   𝑏 𝑥
+(  
++   𝑐 ,   se sabe que tiene un mínimo relativo en el punto
+
+( 2 ,   − 3 )   y un punto de inflexión en   ( 1 ,   − 1 ) .
+
+b.1) Encuentra el valor de los parámetros   𝑎 ,   𝑏   y   𝑐 .   (1.5 puntos)
+
+b.2) Dadas las matrices   𝐴   =   g
+− 1   3   2
+
+2   0   1
+h   ,   𝐵   =   j
+
+2   1
+
+− 1   0
+
+0   2
+
+k   𝑦   𝐶   =   g
+− 3   1
+
+2   4
+h , calcula   la matriz   𝑋
+
+en la ecuación matricial   𝐴   ⋅   𝐵   ⋅   𝑋   =   𝐶   ⋅   𝑋   +   𝐼 ,   donde   𝐼   es la matriz identidad de orden 2.
+
+(1 punto)
+
+Solución:
+
+b.1)
+
+𝑓
+0
+( 2 )   =   0   →   12 𝑎   +   4 𝑏   =   0
+
+𝑓 ( 2 )   =   − 3   →   8 𝑎   +   4 𝑏   +   𝑐   =   − 3
+
+𝑓
+00
+( 1 )   =   0   →   6 𝑎   +   2 𝑏   =   0
+
+𝑓 ( 1 )   =   − 1   →   𝑎   +   𝑏   +   𝑐   =   − 1
+
+→
+
+𝑎   =   1
+
+𝑏   =   − 3
+
+𝑐   =   1
+
+(Planteamiento de cada ecuación,   0.25   punto s ; resolución del sistema, 0.5 puntos)
+
+Prueba de acceso a la   Universidad
+
+C urso 202 4 / 202 5
+
+Materia:   MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+
+b.2)   ( 𝐴   ·   𝐵   −   𝐶 )   ·   𝑋   =   𝐼   →   𝑋   =   ( 𝐴   ·   𝐵   −   𝐶 )
+1 '
+
+𝐴   ·   𝐵   =   g
+− 5   3
+
+4   4
+h   ;   ( 𝐴   ·   𝐵   −   𝐶 )   =   g
+− 2   2
+
+2   0
+h   ;   det r ( 𝐴   ·   𝐵   −   𝐶 ) s   =   − 4
+
+Luego   ( 𝐴   ·   𝐵   −   𝐶 )
+1 '  
+=   g  
+0   0 . 5
+
+0 . 5   0 . 5
+h
+
+(Planteamiento de la ecuación, 0.25 puntos;   producto   de matrices,   0.25   puntos;   inversa y
+
+solución ,   0.5 puntos)
+
+Ejercicio 4. -   Elige y resuelve   sólo uno   de los dos apartados siguientes:
+
+Apartado a)   Una fábrica de quesos organiza paquetes para enviar: A y B. Para la elaboración del
+
+paquete tipo A se necesitan 30 minutos de trabajo manual y 45 minutos de trabajo en máquinas. Para
+
+la de tipo B, 60 minutos de trabajo manual y 20 minutos de máquinas. Tie nen necesidad de enviarlo
+
+pronto, por lo que disponen de 85 horas de trabajo manual y 75 horas de trabajo con máquinas y
+
+deben enviar, al menos, 100 paquetes. El beneficio total es de 20 € por cada paquete tipo A y 17 €
+
+por cada paquete tipo B   y se pretende maximizar el beneficio total .
+
+a.1) Expresa la función objetivo ;   escribe ,   mediante inecuaciones ,   las restricciones del problema y
+
+representa gráficamente el recinto definido.   (2 puntos)
+
+a.2) Determina cuántos paquetes de cada tipo tiene que fabricar la empresa para que el beneficio
+
+sea máximo.   (0.5 puntos)
+
+Solución:
+
+a.1)   𝑎   =   𝑛 ú 𝑚𝑒𝑟𝑜   𝑑𝑒   𝑝𝑎𝑞𝑢𝑒𝑡𝑒𝑠   𝑑𝑒   𝑡𝑖𝑝𝑜   𝐴 ;   𝑏   =   𝑛 ú 𝑚𝑒𝑟𝑜   𝑑𝑒   𝑝𝑎𝑞𝑢𝑒𝑡𝑒𝑠   𝑑𝑒   𝑡𝑖𝑝𝑜   𝐵
+
+Función objetivo:   𝐵𝑒𝑛𝑒𝑓𝑖𝑐𝑖𝑜 ( 𝑎 ,   𝑏 )   =   20   ·   𝑎   +   17   ·   𝑏   →   max
+
+2 , 4  
+( 20   ·   𝑎   +   17   ·   𝑏 )
+
+Restricciones del problema:
+
+𝑡𝑟𝑎𝑏𝑎𝑗𝑜   𝑚𝑎𝑛𝑢𝑎𝑙   →   30 𝑎   +   60 𝑏   ≤   5100
+
+𝑡𝑟𝑎𝑏𝑎𝑗𝑜   𝑚 á 𝑞𝑢𝑖𝑛𝑎𝑠   →   45 𝑎   +   20 𝑏   ≤   4500
+
+𝑎   +   𝑏   ≥   100
+
+Recinto factible:
+
+(Función objetivo, 0.5 puntos; restricciones,   0. 2 5   punto s   por cada inecuación ; región factible,
+
+0. 5   puntos   y vértices: 0.25 puntos )
+
+Prueba de acceso a la   Universidad
+
+C urso 202 4 / 202 5
+
+Materia:   MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+
+a.2)   𝐵𝑒𝑛 ( 30 , 70 )   =   1790   𝐵𝑒𝑛 ( 80 , 45 )   =   2365   𝐵𝑒𝑛 ( 100 , 0 )   =   2000 . Luego el beneficio máximo se
+
+obtiene con 80 paquetes de tipo A y 45   de tipo B.
+
+(Valor del beneficio en los tres vértices   y máximo , 0.5 puntos)
+
+Apartado b)   Se va a proceder a la selección de pilotos para una compañía de vuelos. Se realizan
+
+tres pruebas   independientes : A (idiomas), B (conocimientos teórico - prácticos) y C (pruebas físicas).
+
+Para acceder al puesto hay que superar las tres pruebas y se sabe, por procesos realizados
+
+anteriormente, que el 10 % de los presentados superan la prueba A, la B, el 40 % y la C, el   20 %.
+
+Sabiendo que todos los candidatos realizan las tres pruebas ,   s e pide, de forma razonada:
+
+b.1) ¿Cuál es la probabilidad de que un candidato pase la selección?   (0.5 puntos)
+
+b.2) ¿Cuál es la probabilidad de que un candidato no sea seleccionado por haber fallado en
+
+una sola prueba?   (0.5 puntos)
+
+b.3) Sabiendo que un candidato   no ha sido seleccionado por haber fallado en una sola
+
+prueba , ¿cuál es la probabilidad de que haya fallado en la prueba B?   (0.25 puntos)
+
+b.4) Si la velocidad punta de la prueba física de carrera de 1000 m sigue una función de la
+
+forma:   𝑉 ( 𝑡 )   =   𝑎 𝑡
+)  
++   𝑏 𝑡
+(  
++   𝑡   , con   𝑡   en minutos, y sabemos que alcanza el máximo en el instante
+
+𝑡   =   1   alcanzando, en ese instante, una velocidad de 150 m/min, encuentra los valores de los
+
+parámetros   𝑎   y   𝑏 .   (1.25 puntos)
+
+Solución:
+
+𝐴   =   𝑆𝑢𝑝𝑒𝑟𝑎𝑟   𝑙𝑎   𝑝𝑟𝑢𝑒𝑏𝑎   𝐴   →   𝑃 ( 𝐴 )   =   0 . 1
+
+𝐵   =   𝑆𝑢𝑝𝑒𝑟𝑎𝑟   𝑙𝑎   𝑝𝑟𝑢𝑒𝑏𝑎   𝐵   →   𝑃 ( 𝐵 )   =   0 . 4
+
+𝐶   =   𝑆𝑢𝑝𝑒𝑟𝑎𝑟   𝑙𝑎   𝑝𝑟𝑢𝑒𝑏𝑎   𝐶   →   𝑃 ( 𝐶 )   =   0 . 2
+
+b.1)   𝑃 ( 𝑆𝑢𝑝𝑒𝑟𝑎𝑟   𝑙𝑎   𝑠𝑒𝑙𝑒𝑐𝑐𝑖 ó 𝑛 )   =   𝑃 ( 𝐴   ∩   𝐵   ∩   𝐶 )   =   𝑃 ( 𝐴 )   ·   𝑃 ( 𝐵 )   ·   𝑃 ( 𝐶 )   =   0 . 1   ·   0 . 4   ·   0 . 2   =   0 . 008
+
+(Resolución, 0.5 puntos)
+
+b.2).
+
+𝑃 ( 𝐹𝑎𝑙𝑙𝑎𝑟   𝑠 ó 𝑙𝑜   𝑒𝑛   𝐴 )   =   𝑃 ( 𝐴 ̅   ∩   𝐵   ∩   𝐶 )   =   0 . 9   ·   0 . 4   ·   0 . 2   =   0 . 072
+
+𝑃 ( 𝐹𝑎𝑙𝑙𝑎𝑟   𝑠 ó 𝑙𝑜   𝑒𝑛   𝐵 )   =   𝑃 ( 𝐴   ∩   𝐵    ∩   𝐶 )   =   0 . 1   ·   0 . 6   ·   0 . 2   =   0 . 012
+
+𝑃 ( 𝐹𝑎𝑙𝑙𝑎𝑟   𝑠 ó 𝑙𝑜   𝑒𝑛   𝐶 )   =   𝑃 ( 𝐴   ∩   𝐵   ∩   𝐶
+̅
+  )   =   0 . 1   ·   0 . 4   ·   0 . 8   =   0 . 032
+
+𝑃 ( 𝐹𝑎𝑙𝑙𝑎𝑟   𝑠 ó 𝑙𝑜   𝑒𝑛   𝑢𝑛𝑎   𝑝𝑟𝑢𝑒𝑏𝑎 )   =   𝑃 r ( 𝐴 ̅   ∩   𝐵   ∩   𝐶 )   ∪   ( 𝐴   ∩   𝐵    ∩   𝐶 )   ∪   ( 𝐴   ∩   𝐵   ∩   𝐶 ̅   ) s   =
+
+=   0 . 072   +   0 . 012   +   0 . 032   =   0 . 116
+
+(Cálculo de la probabilidad parciales, 0.25 puntos; cálculo de la global, 0.25 puntos)
+
+b.3)   𝑃   g
+𝐹𝑎𝑙𝑙𝑎𝑟   𝑠 ó 𝑙𝑜   𝑒𝑛   𝐵  
+𝐹𝑎𝑙𝑙𝑎   𝑠 ó 𝑙𝑜   𝑒𝑛   𝑢𝑛𝑎   𝑝𝑟𝑢𝑒𝑏𝑎
+1   h   =  
+5 ( 7 ∩ 9 :   ∩ ; )
+
+5 ( =2>>2?   A ó >C   DE   FE2   G?FD42 )  
+=  
+! . !'(
+
+! . ''H  
+=   0 . 103
+
+(Resolución, 0.25 puntos)
+
+b.4)  
+𝑉 ( 𝑡 )   =   𝑎 𝑡
+)  
++   𝑏 𝑡
+(  
++   𝑡
+
+𝑉
+0
+( 𝑡 )   =   3 𝑎 𝑡
+(  
++   2 𝑏𝑡   +   1
+
+𝑉 ( 1 )   =   150   →   𝑎   +   𝑏   +   1   =   150
+
+𝑉
+0
+( 1 )   =   0   →   3 𝑎   +   2 𝑏   +   1   =   0  
+Luego  
+𝑎   =   − 299
+
+𝑏   =   448
+
+( Por derivada, 0.25 puntos; por   cada ecuación, 0.25 puntos; r esolución, 0.5 puntos)
+

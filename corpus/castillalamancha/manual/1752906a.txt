@@ -1,0 +1,715 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2122/Matemticas-II-2022.ashx]
+Evaluación para el Acceso a la Universidad
+Curso 2021/2022
+
+Materia: MATEMÁTICAS II
+Instrucciones:   El estudiante deberá resolver   CUATRO   de los ocho ejercicios propuestos. Si resuelve
+más, se corregirán solo los cuatro primeros. Los ejercicios deben redactarse con claridad, detalladamente y
+razonando las respuestas. Se podrá utilizar cualquier tipo de calculadora. Cada ejercicio completo puntuará
+2 , 5 puntos. Duración de la prueba: 1 hora y 30 minutos.
+
+1.   a )   [1,5 puntos]   Encuentra todas las matrices   X   que conmutan con la matriz
+
+A   = (
+2   0
+1   − 1
+) ,
+
+es decir, que verifican que   AX   =   XA .
+
+b )   [1 punto]   ¿Existe alguna matriz simétrica que conmute con   A   y cuyo determinante valga 4?
+
+Solución:
+
+a )   Sea   X   = (
+a   b
+c   d
+) ,   se ha de cumplir que   AX   =   XA , es decir:
+
+(  
+2   a   2   b
+a   −   c   b   −   d
+) = (
+b   +   2   a   − b
+d   +   2   c   − d
+) .
+
+Esto da lugar al siguiente sistema:
+2 a   =   b   +   2 a
+
+2 b   =   − b
+a   −   c   =   d   +   2 c
+b   −   d   =   − d
+
+⟷
+
+b   =   0
+
+b   =   0
+
+a   −   3 c   −   d   =   0
+
+b   =   0
+Por tanto, se ha de cumplir que   b   =   0 y   a   −   3 c   −   d   =   0. Por tanto, tenemos que   b   =   0 y   a ,   c   y   d   son solución
+de un sistema de tres variables con una ecuación, por lo que es un sistema compatible indeterminado (y no existe
+solución única). Cualquier matriz   X   que cumpla estas dos condiciones verifica que XA = AX.
+
+Criterios de corrección:
+
+Plantear el sistema del problema correctamente (ya sea igualando dos matrices 2   ×   2 o escribiendo las 4
+ecuaciones por separado), 1 , 25 puntos; obtener las dos condiciones, 0 , 25 puntos. Basta con obtener las dos
+condiciones   b   =   0 y   a   −   3 c   −   d   =   0 sin necesidad de resolver este sistema.
+
+b )   Si   X   es simétrica entonces   b   =   c . Por tanto,   b   =   c   =   0 y   a   −   d   =   0, es decir   a   =   d . Por tanto,   X   = (
+a   0
+0   a
+) .
+
+Como el determinante de   X   es   a
+2  
+y tiene que ser 4, tenemos que las soluciones para   a   son   a   =   2 y   a   = − 2 (con
+dar una de ellas sería suficiente).
+
+Criterios de corrección:
+
+Poner la condición de simetría, 0 , 75 puntos; calcular el determinante y obtener la solución, 0 , 25 puntos.
+2.   a )   [1,5 puntos]   Tres lápices, un cuaderno y una agenda han costado 5 euros, lo mismo que dos cuadernos y una
+agenda. ¿Podemos saber el precio de cada artículo si ninguno es gratis y en céntimos todos son múltiplos de 50?
+
+b )   [1 punto]   Calcula razonadamente el siguiente límite:
+lím
+
+x →+∞  
+(
+x   +   1
+
+x  
+)
+
+x
+2
++ 1
+
+x  
+.
+
+Solución:
+
+1
+
+a )   Sea   L   el precio en euros de un lápiz,   C   el de un cuaderno y   A   el de la agenda. El enunciado nos dice que:
+3 L   +   C   +   A   =   5
+2 C   +   A   =   5
+Es un sistema compatible indeterminado. Se resuelve (en función de   C , por ejemplo) y tenemos:
+
+C   =   C
+A   =   5   −   2 C
+L   =   ( 5   −   A   −   C )/ 3   = ( 5   − ( 5   −   2 C ) −   C )/ 3   =   C / 3
+Todos estos valores tienen que ser positivos. Entonces,   A   =   5 − 2 C   >   0, luego   C   <   2 , 5. Como   L   =   C / 3 tiene que
+ser múltiplo de 0 , 50 euros. Entonces,   C   tiene que ser 1 , 5 porque es la única solución. Por tanto,   L   =   1 , 50 / 3   =   0 , 50
+y   A   =   5   −   2   ⋅   1 , 5   =   5   −   3   =   2.
+
+Criterios de corrección:
+
+Plantear el sistema de dos ecuaciones, 1 , 25 puntos; obtener   C ,   A , y   L , 0 , 25 puntos.
+
+b )   Este límite es indeterminado del tipo 1
++∞
+. Se puede resolver, por ejemplo, de la siguiente forma:
+lím
+
+x →+∞  
+(
+x   +   1
+
+x  
+)
+
+x
+2
++ 1
+
+x  
+=   exp   (   lím
+
+x →+∞
+(
+x   +   1
+
+x  
+−   1 )
+x
+2  
++   1
+
+x  
+) =   exp   (   lím
+
+x →+∞
+(
+x   +   1   −   x
+x  
+)
+x
+2  
++   1
+
+x  
+) =
+
+exp   (   lím
+
+x →+∞
+
+x
+2  
++   1
+
+x
+2  
+) =   exp ( 1 ) =   e .
+
+Criterios de corrección:
+
+Indicar el tipo de indeterminación, 0 , 25 puntos; plantear la resolución, 0 , 5 puntos; dar la solución correcta, 0 , 25
+puntos. Este límite se puede resolver de otras maneras y estos métodos de resolución, evidentemente, se
+darán como correctos.
+3.   a )   Sea la curva   f ( x ) =   a   −   x
+2
+.
+a.1)   [0,5 puntos]   ¿Qué valores puede tomar   a   ∈ ℝ   para que la curva   f ( x ) =   a   −   x
+2  
+corte al eje de abscisas (eje
+OX) en dos puntos y, por tanto, delimite con dicho eje un recinto cerrado?
+a.2)   [1 punto]   Encuentra razonadamente   a   ∈ ℝ   para que el área de dicho recinto valga 36.
+
+b )   [1 punto]   Resuelve la siguiente integral:
+
+∫  
+2 x
+
+√ 1   +   3 x
+2
+
+dx .
+
+El cambio de variable   t   =   1   +   3 x
+2  
+te puede ayudar.
+
+Solución:
+
+a ) a.1)   Para que   f ( x )   corte al eje OX se tiene que cumplir que   f ( x ) =   a   −   x
+2  
+=   0. Esto se cumple si   x   = ±√ a   =
+± a
+1 / 2
+. Para que la solución exista y el corte sea en dos puntos se tiene que dar que   a   >   0.
+
+Criterios de corrección:
+
+Plantear el problema y encontrar los valores de   a , 0 , 5 puntos.
+a.2)   Para un   a   >   0 el área es
+
+∫
+
++ a
+1 / 2
+
+− a
+1 / 2
+
+( a   −   x
+2
+) dx   = [ ax   −   x
+3
+/ 3 ]
+a
+1 / 2
+
+− a
+1 / 2  
+=   a   ⋅   a
+1 / 2  
+−   a
+3 / 2
+/ 3   − (− a   ⋅   a
+1 / 2  
++   a
+3 / 2
+/ 3 ) =
+
+2 ( a   ⋅   a
+1 / 2  
+−   a
+3 / 2
+/ 3 ) =   2 ( a
+3 / 2  
+−   a
+3 / 2
+/ 3 ) = ( 4 / 3 ) a
+3 / 2
+.
+
+2
+
+Para que la integral valga 36 se ha de cumplir que   ( 4 / 3 ) a
+3 / 2  
+=   36, es decir,   a   =   9.
+
+Criterios de corrección:
+
+Plantear la integral, 0 , 75 puntos; hallar el valor de   a , 0 , 25 puntos.
+
+b )   Del cambio de variable tenemos que   dt   =   6 xdx . Por tanto, la integral quedaría:
+
+∫  
+2 x
+
+√ 1   +   3 x
+2
+
+dx   = ∫  
+1 / 3
+
+t
+1 / 2  
+dt   =  
+2
+3  
+t
+1 / 2  
++   C   =  
+2
+3  
+( 1   +   3 x
+2
+)
+1 / 2  
++   C
+
+Criterios de corrección:
+
+Hacer el cambio de variable, 0 , 5 puntos; resolver la integral; 0 , 5 puntos. Si se utiliza otro cambio de variable
+para resolver la integral correctamente, se dará también por correcta la respuesta.
+4.   Sean las rectas
+
+r   ≡
+⎧
+{
+⎨
+{
+⎩
+
+x   =   2 λ
+y   =   − λ
+z   =   a
+
+,   s   ≡
+⎧
+{
+⎨
+{
+⎩
+
+x   =   − 1
+
+y   =   μ
+z   =   − 5 μ
+
+,
+
+donde   λ   y   μ   son los parámetros y   a   ∈ ℝ .
+
+a )   [1,5 puntos]   Estudia su posición relativa en función de los valores que toma   a .
+
+b )   [1 punto]   Encuentra razonadamente un plano que contenga a   s   y que sea paralelo a   r .
+
+Solución:
+
+a )   El vector director de   r   es ⃗   u   = ( 2 , − 1 ,   0 )   y el de   s   es ⃗   v   = ( 0 ,   1 , − 5 ) . Como ⃗   u   y ⃗   v   no son paralelos, las rectas no
+son paralelas ni coincidentes. Entones, van a ser secantes o se van a cruzar.
+Tomamos un punto de   r ,   A   = ( 0 ,   0 ,   a ) , y otro de   s ,   B   = (− 1 ,   0 ,   0 ) , y estudiamos la relación entre los vectores ⃗   u ,
+⃗ 
+v   y ⃗   AB   = (− 1 ,   0 , − a ) . Cuando sean coplanarios las rectas son secantes y en otro caso las rectas se cruzan. Los
+tres vectores son coplanarios cuando el siguiente determinante es cero:
+
+∣
+
+2   − 1   0
+0   1   − 5
+
+− 1   0   − a
+
+∣ = − 2 a   −   5 .
+
+Por tanto, las rectas son secantes cuando   − 2 a   −   5   =   0, es decir,   a   = − 5 / 2. Para cualquier otro valor de   a   las
+rectas se cruzan.
+
+Criterios de corrección:
+
+Plantear el problema, 1 punto; identificar que las rectas no son paralelas, 0 , 25 puntos; identificar el caso en el
+que se cortan, 0 , 25 puntos. La resolución correcta de este problema por otros métodos también se dará por
+válida.
+
+b )   El plano buscado tendrá como vectores directores ⃗   u   = ( 2 , − 1 ,   0 )   y ⃗   v   = ( 0 ,   1 , − 5 ) , y pasará por un punto de
+la recta   s   (por ejemplo, el punto   B   = (− 1 ,   0 ,   0 ) ). La ecuación del plano se puede obtener calculado el siguiente
+determinante:
+
+∣
+
+x   +   1   y   −   0   z   −   0
+2   − 1   0
+0   1   − 5
+
+∣ =   0 .
+
+La ecuación del plano es   ( x   +   1 ) 5   +   0   +   2 z   +   10 y   =   0, es decir, 5 x   +   10 y   +   2 z   = − 5.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 75 puntos; obtener la ecuación del plano, 0 , 25 puntos.
+3
+
+5.   a )   [1 punto]   Expresa razonadamente en forma de ecuaciones paramétricas la recta intersección de los planos   π
+1  
+≡
+
+x   =   y   +   1 y   π
+2  
+≡   y   +   2 z   =   5.
+
+b )   [1,5 puntos]   Enuncia el teorema del valor medio del cálculo integral. Encuentra razonadamente el punto al que hace
+alusión dicho teorema para la función   f ( x ) =   3 / x
+2  
+en el intervalo   [ 1 ,   3 ] . Interpreta geométricamente lo hallado.
+
+Solución:
+
+a )   La ecuación de la recta se obtiene al resolver el sistema siguiente:
+
+x   −   y   =   1
+
+y   +   2 z   =   5
+Tomando   z   =   t   las ecuaciones paramétricas que se piden son   y   =   5   −   2 z   =   5   −   2 t ,   x   =   1   +   y   =   1   +   5   −   2 t   =
+
+6   −   2 t . Las ecuaciones quedarían:
+
+x   =   6   −   2 t
+y   =   5   −   2 t
+z   =   t
+
+.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 75 puntos; obtener las ecuaciones paramétricas, 0 , 25 puntos.
+
+b )   El teorema dice:
+Sea   f ( x )   una función continua en el intervalo cerrado   [ a ,   b ] , entonces existe al menos un   c   ∈ ( a ,   b )
+
+tal que
+
+∫
+
+b
+a
+
+f ( x ) dx   =   f ( c )( b   −   a ).
+
+Se trata de encontrar el valor   c   que cumple lo que enuncia el teorema del valor medio:   c   ∈ ( 1 ,   3 )   y
+
+∫
+3
+1  
+( 3 / x
+2
+) dx   = ( 3 / c
+2
+)( 3   −   1 ) .
+Para el caso de   f ( x ) =   3 / x
+2  
+tenemos que
+
+∫
+
+3
+1
+
+( 3 / x
+2
+) dx   = [− 3 / x ]
+3
+1  
+= − 1   +   3   =   2 .
+
+Entonces,   c   ∈ ( 1 ,   3 )   y   f ( c )( 3   −   1 ) =   2, es decir,   ( 3 / c
+2
+) 2   =   2. Así,   c   = +√ 3 porque la solución
+
+c   = −√ 3 no está en el intervalo.
+
+Criterios de corrección:
+
+Enunciar el teorema, 1 , 25 puntos; identificar los elementos del enunciado del teorema y calcular el valor de   c ,
+0 , 25 puntos.
+6.   a )   [1,5 puntos]   Estudia el rango de la matriz   M   en función del parámetro   m   ∈ ℝ , siendo
+
+M   = (
+
+2   m   0   1
+2   1   0   m
+
+4   1   m   2
+
+) .
+
+b )   [1 punto]   Sean los planos   π
+1  
+≡   2 x   +   my   =   1,   π
+2  
+≡   2 x   +   y   =   m   y   π
+3  
+≡   4 x   +   y   +   mz   =   2. Estudia su posición
+relativa según los valores de   m . Puedes utilizar los resultados obtenidos en el apartado anterior.
+
+Solución:
+
+4
+
+a )   Estudiamos el rango del menor que resulta de eliminar la última columna (por ejemplo):
+
+∣
+
+2   m   0
+2   1   0
+4   1   m
+
+∣ =   m ( 2   −   2 m )
+
+Por tanto, si   m   es distinto de 0 y 1, el rango es 3. Veamos qué pasa en estos casos:
+
+m   =   0:
+
+M   = (
+
+2   0   0   1
+2   1   0   0
+4   1   0   2
+
+) .
+
+El rango de esta matriz es 3 porque
+
+∣
+
+2   0   1
+2   1   0
+4   1   2
+
+∣ =   4   +   2   −   4   =   2   ≠   0 .
+
+m   =   1
+
+M   = (
+
+2   1   0   1
+2   1   0   1
+4   1   1   2
+
+) .
+
+El rango es 2 porque la primera y la segunda fila son iguales.
+Por tanto, el rango de la matriz es 3 salvo para   m   =   1, en cuyo caso el rango es 2.
+
+Criterios de corrección:
+
+Plantear el problema, 1 punto; determinar el rango para   m   =   1, 0 , 25 puntos; determinar el rango en el resto
+de casos, 0 , 25 puntos.
+
+b )   Para estudiar la posición relativa hay que estudiar el sistema
+2 x   +   my   =   1
+2 x   +   y   =   m
+
+4 x   +   y   +   mz   =   2
+Por el resultado anterior, si   m   =   1 el rango es 2 y las ecuaciones de   π
+1  
+y   π
+2  
+son iguales, y   π
+3  
+es secante a los
+otros dos.
+Estudiamos además el rango de la matriz de coeficientes en función de   m   por si hubiera otro caso particular:
+
+M
+′  
+= (
+
+2   m   0
+2   1   0
+4   1   m
+
+) .
+
+Tiene rango 3 excepto para   m   =   0 y   m   =   1. Para   m   =   0 el sistema es incompatible y, por tanto, los tres planos
+se cortan dos a dos según rectas paralelas entre sí (es decir, son las paredes de un prisma triangular).
+Para el resto de valores ( m   ≠   0 y   m   ≠   1 )   los tres planos se cortan en un punto.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 75 puntos; determinar los distintos casos en función de   m , 0 , 25 puntos.
+7.   a )   [1,25 puntos]   Sean los vectores ⃗   u   = ( 1 ,   1 ,   1 )   y ⃗   v   = ( 1 ,   0 ,   1 ) . Calcula el plano que pasa por el punto   A   = ( 0 ,   0 ,   1 )
+
+y con vector normal el producto vectorial de ⃗   u   y ⃗   v .
+
+b )   El EVAU club de fútbol tiene una probabilidad del 90 % de ganar un partido cuando juega Benceno (su delantero
+estrella) y del 60 % cuando no lo hace. Se sabe que la probabilidad de que Benceno juegue un partido es del 80 %.
+5
+
+b.1)   [0,5 puntos]   ¿Cuál es la probabilidad de que el EVAU C.F. gane un partido cualquiera?
+b.2)   [0,75 puntos]   Si el EVAU C.F. acaba de ganar un partido, ¿cuál es la probabilidad de que Benceno haya
+jugado?
+
+Solución:
+
+a )   El producto vectorial de ⃗   u   y ⃗   v   es ⃗   u   ×⃗   v   = ( 1 ,   0 , − 1 ) . El plano queda   x   −   z   =   C , donde   C   ∈ ℝ . Como el punto
+
+A   = ( 0 ,   0 ,   1 )   está cotenido en el plano tenemos que 0   −   1   =   C . Por tanto, la ecuación del plano es   x   −   z   = − 1.
+
+Criterios de corrección:
+
+Calcular el producto vectorial, 0 , 75 puntos; obtener la ecuación del plano, 0 , 5 puntos.
+
+b )   Sea   P ( B ) =   0 , 8 la probabilidad de que juegue Benzeno, sea   P ( G | B ) =   0 , 90 la probabilidad de que gane el equipo
+cuando juega Benzeno y   P ( G | B ) =   0 , 60 la probabilidad de que gane el equipo cuando no juega Benzeno.
+b.1)   La probabilidad de que gane el equipo es (usando la regla de la probabilidad total):
+
+P ( G ) =   P ( B ) P ( G | B ) + ( 1   −   P ( B )) P ( G | B ) =   0 , 8   ⋅   0 , 9   + ( 1   −   0 , 8 ) ⋅   0 , 60   =   0 , 84
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 25 puntos; resolver el problema, 0 , 25 puntos.
+b.2)   La probabilidad que se pide es (usando el teorema de Bayes):
+
+P ( B   ∣   G ) =  
+P ( B   ∩   G )
+
+P ( G )  
+=  
+P ( G   ∣   B ) P ( B )
+
+P ( G )  
+=  
+0 , 8   ⋅   0 , 9
+0 , 84  
+=   0 , 8571
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; resolver el problema, 0 , 25 puntos.
+8.   a )   Se calcula que una quinta parte de los niños españoles presentan algún tipo de intolerancia alimentaria. En una
+cantina escolar los niños se sientan al azar en mesas de 4 comensales.
+a.1)   [0,5 puntos]   ¿Cuál es la probabilidad de que en una mesa haya algún niño con intolerancia alimentaria?
+a.2)   [0,75 puntos]   Cuando en una mesa hay algún niño con intolerancia alimentaria, a esa mesa se le sirve el pan
+sin gluten. Si un día hay ocupadas 8 mesas, ¿cuál es la probabilidad de que haya que servir pan sin gluten en
+alguna mesa?
+
+b )   El peso de los paquetes de 1 kg arroz que comercializa determinada marca siguen una distribución normal de 985
+g de media y 25 g de desviación típica.
+b.1)   [0,5 puntos]   ¿Cuántos pesarán más de un kilo?
+b.2)   [0,75 puntos]   ¿Cuánto pesará el más ligero del 70 % de los que más pesan?
+
+a   0.00   0.01   0.02   0.03   0.04   0.05   0.06   0.07   0.08   0.09
+0.10   0.5398   0.5438   0.5478   0.5517   0.5557   0.5596   0.5636   0.5675   0.5714   0.5753
+
+0.20   0.5793   0.5832   0.5871   0.5910   0.5948   0.5987   0.6026   0.6064   0.6103   0.6141
+
+0.30   0.6179   0.6217   0.6255   0.6293   0.6331   0.6368   0.6406   0.6443   0.6480   0.6517
+
+0.40   0.6554   0.6591   0.6628   0.6664   0.6700   0.6736   0.6772   0.6808   0.6844   0.6879
+
+0.50   0.6915   0.6950   0.6985   0.7019   0.7054   0.7088   0.7123   0.7157   0.7190   0.7224
+
+0.60   0.7257   0.7291   0.7324   0.7357   0.7389   0.7422   0.7454   0.7486   0.7517   0.7549
+
+Solución:
+
+a ) a.1)   La probabilidad de que un niño tenga alguna intolerancia alimentaria es de 1 / 5 y de que no la tenga es
+4 / 5. La probabilidad de que haya al menos un niño con intolerancia alimentaria en una mesa es 1 menos
+la probabilidad de que no haya ninguno. La probabilidad de que ninguno de esos 4 niños tenga intolerancia
+alimentaria es   ( 4 / 5 )
+4
+. Por tanto, la probabilidad de que haya al menos un niño con intolerancia alimentaria
+es 1   − ( 4 / 5 )
+4  
+=   0 , 5904.
+6
+
+Aunque no es necesario, este problema se puede plantear usando la distribución binomial. Sea   X   el número de
+niños con intolerancia alimentaria en una mesa de 4 comensales. La distribución de   X   es binomial con   n   =   4
+y   p   =   1 / 5 y la probabilidad que se pide es   P ( X   ≥   1 ) =   1   −   P ( X   =   0 ) .
+
+Criterios de corrección:
+
+Plantear y resolver el problema, 0 , 5 puntos. Si el problema se plantea como una binomial, se dará por
+correcto si se plantea el cálculo de la probabilidad aunque no se calcule numéricamente puesto que no
+se ha proporcionado la tabla correspondiente.
+a.2)   La probabilidad de servir pan sin gluten es una mesa es 0 , 5904 y la de no servirlo es 1   −   0 , 5904   =   0 , 4096.
+La probabilidad de servir pan sin gluten en alguna mesa de esas 8 es 1 menos la probabilidad de no servirla
+en ninguna. La probabilidad de no servir pan sin gluten en ninguna de las 8 mesas es 0 , 4096
+8
+. Por tanto, la
+probabilidad que se pide es 1   −   0 , 4096
+8  
+=   0 , 9992.
+Aunque no es necesario, este problema se puede plantear usando la distribución binomial. Sea   X   el número de
+mesas en las que se sirve pan sin gluten. La distribución de   X   es binomial con   n   =   8 y   p   =   0 , 5904 (obtenida
+en el apartado anterior) y la probabilidad que se pide es   P ( X   ≥   1 ) =   1   −   P ( X   =   0 ) .
+
+Criterios de corrección:
+
+Plantear y resolver el problema, 0 , 75 puntos. Si la probabilidad del apartado anterior no se ha calculado
+correctamente, se corregirá el ejercicio como si fuera correcta. Si el problema se plantea como una bino
+mial, se dará por correcto si se plantea el cálculo de la probabilidad aunque no se calcule numéricamente
+puesto que no se ha proporcionado la tabla correspondiente.
+
+b )   Sea   X   la variable aleatoria que representa el peso de un paquete de arroz.
+b.1)   La proporción de paquetes que pesan más de un kilo es
+
+P ( X   >   1000 ) =   P (
+X   −   985
+25  
+>  
+1000   −   985
+25  
+) =   P ( Z   >   0 , 6 ) =   1 − P ( Z   ≤   0 , 6 ) =   1 − 0 , 7257   =   0 , 2743 .
+
+Por tanto, la respuesta a cuántos pesarán más de un kilogramo sería el 27 , 43 % del total comercializados.
+
+Criterios de corrección:
+
+Plantear y resolver el problema, 0 , 5 puntos.
+b.2)   Sea   q   el peso del más ligero del 70 % que más pesa. Se cumple que
+
+P ( X   >   q ) =   0 , 7 ;   P (
+X   −   985
+25  
+>  
+q   −   985
+25  
+) =   0 , 7 ;   P ( Z   >  
+q   −   985
+25  
+) =   P ( Z   < −
+q   −   985
+25  
+) =   0 , 7
+Mirando en la tabla, el valor   (− q   +   985 )/ 25 tiene que ser, aproximadamente, 0 , 52 (o 0 , 53), es decir,   q   =
+− 0 , 52   ∗   25   +   985   =   972 (o   q   = − 0 , 53   ∗   25   +   985   =   971 , 75).
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener el valor de   q , 0 , 25 puntos.
+7
+

@@ -1,0 +1,496 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2425/EXTRAORDINARIA/Matem_aplic_CCSS.ashx]
+Prueba de acceso a la   Universidad
+
+C urso 202 4 / 202 5
+
+Materia:   MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES   II
+
+Ejercicio 1. -   Una empresa envasa zumos en botellas de 1 litro. La cantidad de zumo que la máquina
+
+embotelladora inyecta en cada botella sigue una distribución normal con una desviación típica   𝜎   =
+
+0 . 05   litros. Se toma una muestra aleatoria de 16 botellas y se observa que el contenido medio es de
+
+0.97 litros. Con un nivel de confianza del 97%,
+
+a) Calcula el intervalo de confianza para el contenido medio poblacional de una botella.   (1 punto)
+
+b) Explica, justificando la respuesta, cómo se podría obtener un intervalo de confianza con menor
+
+amplitud sin modificar el nivel de confianza.   (0.75 puntos)
+
+c)   Dado el intervalo del apartado a),   ¿ s e puede aceptar que el contenido medio poblacional es de
+
+1 litro con un nivel de confianza del 95%? Justificar la respuesta.   (0.75 puntos)
+
+Solución:
+
+a)   𝑧 ! . #$%   =   2 . 17 ,   𝐼 .   𝐶 . ! . #&   =   , 𝑥 ̅   ±   𝑧 ! . #$%  
+𝜎
+
+√ 𝑛
+2   3   =   , 0 , 97   ±   2 . 17   ·  
+0 , 05
+
+√ 16
+
+8   3   =   ( 0 . 9429   ,   0 . 9971 )
+
+(Obtención del cuantil, 0.25 puntos; planteamiento del intervalo, 0.5 puntos; solución, 0.25)
+
+b)   El único valor que se podría modificar es el tamaño muestral,   n . Para reducir la amplitud,
+
+debería aumentar el tamaño muestral.
+
+(Referencia a   n , 0.25 puntos; justificación, 0.5 puntos)
+
+c)   El valor   𝜇   =   1   no está en el intervalo al 97% de confianza, luego no estará en el intervalo al
+
+95% de confianza, puesto que tiene menor amplitud. Por tanto, no se puede aceptar la
+
+afirmación.
+
+(Conclusión, 0.25 puntos; justificación, 0.5 puntos)
+
+Ejercicio 2. -   En el Parador de Turismo de Almagro se alojaron ayer 25 huéspedes que hicieron las
+
+reservas con distintas compañías, procedentes de Italia, Portugal y Japón. El gasto total en el Parador
+
+fue de 3610 €, correspondiendo 140 € a cada huésped italiano, 130 € a   cada huésped portugués y
+
+160 € a cada huésped japonés. El registro del Parador muestra que el número de portugueses es la
+
+cuarta parte de la suma del número de huéspedes de los otros dos países.
+
+a) Plantea el sistema de ecuaciones para calcular cuántos huéspedes hay de cada país.   (1.5
+
+puntos)
+
+b) Calcula número de huéspedes de cada uno de los países.   (1 punto)
+
+Solución:
+
+𝑥   =   𝑁 º   𝑑𝑒   𝑟𝑒𝑠𝑒𝑟𝑣𝑎𝑠   𝑑𝑒𝑠𝑑𝑒   𝐼𝑡𝑎𝑙𝑖𝑎 ;   𝑦   =   𝑁 º   𝑑𝑒   𝑟𝑒𝑠𝑒𝑟𝑣𝑎𝑠   𝑑𝑒𝑠𝑑𝑒   𝑃𝑜𝑟𝑡𝑢𝑔𝑎𝑙 ;   𝑧   =
+
+𝑁 º   𝑑𝑒   𝑟𝑒𝑠𝑒𝑟𝑣𝑎𝑠   𝑑𝑒𝑠𝑑𝑒   𝐽𝑎𝑝 ó 𝑛 .
+
+R
+
+𝑥   +   𝑦   +   𝑧   =   25
+
+140 𝑥   +   130 𝑦   +   160 𝑧   =   3610
+
+𝑦   =  
+1
+
+4  
+·   ( 𝑥   +   𝑧 )
+
+⟺   V
+
+𝑥   +   𝑦   +   𝑧   =   25
+
+140 𝑥   +   130 𝑦   +   160 𝑧   =   3610
+
+𝑥   −   4 𝑦   +   𝑧   =   0 )
+
+⟺   5 𝑦   =   25   ⟺   𝑦   =   5 ;
+
+X  
+𝑥   +   𝑧   =   20
+
+14 𝑥   +   16 𝑧   =   296  
+⟺   𝑧   =   8 ;   𝑥   =   12
+
+Luego   𝒙   =   𝟏𝟐 ;   𝒚   =   𝟓 ;   𝒛   =   𝟖
+
+(Por cada ecuación correcta, 0.5 puntos;   0.5 puntos por desarrollo de la resolución y 0.5
+
+puntos por la solución correcta)
+
+Prueba de acceso a la   Universidad
+
+C urso 202 4 / 202 5
+
+Materia:   MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES   II
+
+Ejercicio 3. -   Elige y resuelve   sólo uno   de los dos apartados siguientes:
+
+Apartado a)   Se considera la función   𝑓 ( 𝑥 )   =   b  
+2 𝑥
+'  
++   4   𝑠𝑖   𝑥   ≤   𝑘
+
+− 2 𝑥
+'  
++   8 𝑥   𝑠𝑖   𝑥   >   𝑘
+
+a.1) ¿Para qué valor de   𝑘   la función   𝑓 ( 𝑥 )   es continua en   𝑥   =   𝑘   ?   (1 punto)
+
+a.2) S i   𝑘   =   1 , calcula los   máximos y mínimos   relativos de la función   𝑓 ( 𝑥 ) .   (0.75 puntos)
+
+a.3) En ese mismo supuesto, determina en qué intervalos la función es cóncava y en cuáles es
+
+convexa.   (0.75 puntos)
+
+Solución:
+
+a.1)   lim
+
+( → *  
+𝑓 ( 𝑥 )   =   𝑓 ( 𝑘 )   =   2 𝑘
+'  
++   4
+
+lim
+
+( → * !  
+𝑓 ( 𝑥 )   =   lim
+
+( → *
+( 2 𝑥
+'  
++   4 )   =   2 𝑘
+'  
++   4
+
+lim
+
+( → *
+"  
+𝑓 ( 𝑥 )   =   lim
+
+( → *
+( − 2 𝑥
+'  
++   8 𝑥 )   =   − 2 𝑘
+'  
++   8 𝑘  
+∃   lim
+
+( → *  
+𝑓 ( 𝑥 )   ⟺   lim
+
+( → * !  
+𝑓 ( 𝑥 )   =   lim
+
+( → * "  
+𝑓 ( 𝑥 )   ⟺   ( 2 𝑘
+'  
++   4 )   =
+
+( − 2 𝑘
+'  
++   8 𝑘 )
+
+luego   4 𝑘
+'  
+−   8 𝑘   +   4   =   0   ⇔   𝑘   =   1 . En ese caso, es continua.
+
+(Condición de continuidad, 0.25 puntos; planteamiento de la ecuación, 0.25 puntos; solución
+
+correcta, 0.5 puntos)
+
+a.2)   𝑓 ( 𝑥 )   =   b  
+2 𝑥
+'  
++   4   𝑠𝑖   𝑥   ≤   1
+
+− 2 𝑥
+'  
++   8 𝑥   𝑠𝑖   𝑥   >   1  
+;   𝑓 ( 1 )   =   6
+
+𝑓
++
+( 𝑥 )   =   X  
+4 𝑥   𝑠𝑖   𝑥   <   1
+
+− 4 𝑥   +   8   𝑠𝑖   𝑥   >   1  
+;   𝑓
++
+( 𝑥 )   =   0   →   X
+𝑥   =   0
+
+𝑥   =   2  
+⟹   𝑓 ′′ ( 𝑥 )   =   X  
+4   𝑠𝑖   𝑥   <   1
+
+− 4   𝑠𝑖   𝑥   >   1
+
+Como  
+𝑓
+++
+( 0 )   =   4   >   0   𝐸𝑛   𝑥   =   0   ℎ 𝑎𝑦   𝑢𝑛   𝑚 í 𝑛𝑖𝑚𝑜   𝑟𝑒𝑙𝑎𝑡𝑖𝑣𝑜
+
+𝑓
+++
+( 2 )   =   − 4   <   0   𝐸𝑛   𝑥   =   2   ℎ 𝑎𝑦   𝑢𝑛   𝑚 á 𝑥𝑖𝑚𝑜   𝑟𝑒𝑙𝑎𝑡𝑖𝑣𝑜
+.   𝑓 ( 1 )   =   6   No es extremo.
+
+(Obtención de cada extremo, 0.25 puntos; justificación de máximo - mínimo, 0.25 puntos)
+
+a.3) 𝑓 ′′ ( 𝑥 )   =   X  
+4   𝑠𝑖   𝑥   <   1
+
+− 4   𝑠𝑖   𝑥   >   1
+. Luego   𝑓 ( 𝑥 )   es   convexa [   È   ] en el intervalo   ( − ∞   , 1 ]   y   cóncava   [   Ç   ]   en
+
+el intervalo   ( 1   ,   + ∞ ) .
+
+( Condición de   concavidad y convexidad,   0.25 puntos, obtención de intervalos, 0.5 puntos )
+
+Apartado b)   Dada la función   𝑓 ( 𝑥 )   =   𝑎 𝑥
+,  
++   𝑏 𝑥
+'  
++   𝑐𝑥   −   3 ,   se sabe que tiene un mínimo relativo en el
+
+punto   ( − 1 ,   2 )   y un punto de inflexión en   ( 1 ,   − 14 ) .
+
+b.1) Encuentra el valor de los parámetros   𝑎 ,   𝑏   y   𝑐   .   (1.5 puntos)
+
+b.2) Dadas las matrices   𝐴   =   y
+1   0   2
+
+2   − 1   0
+z   ,   𝐵   =   |
+
+1   2
+
+0   3
+
+2   − 1
+
+}   𝑦   𝐶   =   y
+3   2
+
+0   2
+z , calcula   la matriz   𝑋   en la
+
+ecuación matricial   𝐶   ·   𝑋   =   𝐴   ⋅   𝐵   +   𝑋 .   (1 punto)
+
+Prueba de acceso a la   Universidad
+
+C urso 202 4 / 202 5
+
+Materia:   MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES   II
+
+Solución:   𝑓 ( 𝑥 )   =   𝑎 𝑥
+,  
++   𝑏 𝑥
+'  
++   𝑐𝑥   −   3   ⟹   𝑓 ′ ( 𝑥 )   =   3 𝑎 𝑥
+'  
++   2 𝑏𝑥   +   𝑐   ⟹   𝑓 ′′ ( 𝑥 )   =   6 𝑎 x   +   2 𝑏
+
+b.1)
+
+𝑓
++
+( − 1 )   =   0   →   3 𝑎   −   2 𝑏   +   𝑐   =   0
+
+𝑓 ( − 1 )   =   2   →   − 𝑎   +   𝑏   −   𝑐   −   3   =   2
+
+𝑓
+++
+( 1 )   =   0   →   6 𝑎   +   2 𝑏   =   0
+
+𝑓 ( 1 )   =   − 14   →   𝑎   +   𝑏   +   𝑐   −   3   =   − 14
+
+→
+
+𝑎   =   1
+
+𝑏   =   − 3
+
+𝑐   =   − 9
+
+(Planteamiento de cada ecuación,   0.25   punto s ; resolución del sistema, 0.5 puntos)
+
+b.2)   ( 𝐶   −   𝐼 )   ·   𝑋   =   𝐴   ·   𝐵   →   𝑋   =   ( 𝐶   −   𝐼 )
+- .  
+·   𝐴   ·   𝐵
+
+𝐴   ·   𝐵   =   y
+5   0
+
+2   1
+z   ;   ( 𝐶   −   𝐼 )   =   y
+2   2
+
+0   1
+z   ;   det  ( 𝐶   −   𝐼 )    =   2
+
+Luego   ( 𝐶   −   𝐼 )
+- .  
+=   y
+0 . 5   − 1
+
+0   1  
+z   Y por tanto,   𝑋   =   y
+0 . 5   − 1
+
+2   1  
+z
+
+( Planteamiento de la ecuación, 0.25 puntos; solución correcta: producto 0.25, inversa y
+
+solución 0.5 puntos)
+
+Ejercicio 4. -   Elige y resuelve   sólo uno   de los dos apartados siguientes:
+
+Apartado a)   En un examen de matemáticas se propone el siguiente problema:
+
+“Indica el punto donde la función   𝐹 ( 𝑥 ,   𝑦 )   =   6 𝑥   +   3 𝑦   −   2 , alcanza el mínimo en la región determinada
+
+por las siguientes restricciones:   2 𝑥   +   𝑦   ≥   6   ;   2 𝑥   +   5 𝑦   ≤   30   ;   2 𝑥   −   𝑦   ≤   6 ”
+
+Laura responde que el mínimo de la función se alcanza en el punto   ( 1 ,   2 )   y Jesús, por el contrario,
+
+que lo hace en el punto   ( 3 ,   0 ) .
+
+a.1) ¿Es exacta la respuesta de Laura?   Razona tu respuesta. (1.25 puntos)
+
+a.2) ¿Es cierto que el mínimo se alcanza en el punto   ( 3 ,   0 ) ?   Razona tu respuesta.   (0.75 puntos)
+
+a.3) ¿Cuánto vale dicho mínimo?   (0.5 puntos)
+
+Solución:
+
+a.1)   Dibujamos la región   factible.   Restricciones del problema:   V
+
+2 𝑥   +   𝑦   ≥   6
+
+2 𝑥   +   5 𝑦   ≤   30
+
+2 𝑥   −   𝑦   ≤   6
+
+La respuesta de Laura no puede ser correcta, ya que el punto   ( 1 ,   2 )   no está en la región factible .
+
+Puede justificarse, también, que no es correcta porque no cumple la primera de las restricciones:
+
+2 𝑥   +   𝑦   ≥   6
+
+Prueba de acceso a la   Universidad
+
+C urso 202 4 / 202 5
+
+Materia:   MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES   II
+
+(Región factible ,   0.75   punto s ( 0.25 por cada   inecuación)   y 0.5 por la respuesta y razonamiento
+
+correcto. Si se resuelve argumentando que no cumple la primera restricción, 0.5 por la
+
+operación y 0.75 por el argumento)
+
+a.2)   Función objetivo:   𝐹 ( 𝑥 ,   𝑦 )   =   6 𝑥   +   3 𝑦   −   2   →   min
+
+( , 0  
+( 6 𝑥   +   3 𝑦   −   2 )
+
+𝐹 ( 𝐴 )   =   𝐹 ( 0 , 6 )   =   16 ;   𝐹 ( 𝐵 )   =   𝐹 ( 5 , 4 )   =   40 ;   𝐹 ( 𝐶 )   =   𝐹 ( 3 , 0 )   =   16 .   Por lo tant o, tampoco es cierto que se
+
+alcance en el punto   ( 3 ,   0 ) , sino que se alcanza en   el segmento que une los puntos   ( 3 ,   0 )   y   ( 0 ,   6 )
+
+( 0.5 puntos por el cálculo de los vértices y evaluación de la función objetivo en los mismos y
+
+0.25   puntos por la justificación negativa por ser el segmento )
+
+a.3)   El mínimo   vale 16
+
+( 0.5 puntos   por el valor justificado del mínimo )
+
+Apartado b)   La compañía de seguros SEGURVIDA utiliza tres bufetes de abogados para resolver sus
+
+casos legales en los tribunales. El bufete A recibe el 30 % de los casos legales y gana en los tribunales
+
+el 60 % de los casos presentados. El bufete B recibe el 50 % de lo s casos legales y gana el 80 % de
+
+los casos presentados y el bufete C recibe el resto de los casos y gana el 70 % de los presentados.
+
+Se elige al azar uno de los casos que ha llegado a los tribunales y ya ha sido resuelto. Se pide, de
+
+forma razonada:
+
+b.1)   ¿Cuál es la probabilidad de que la   compañía haya   gan ado   el caso?   (0.75 puntos)
+
+b.2)   Si el caso elegido se ha perdido, calcula la probabilidad de que haya sido defendido por el
+
+bufete A.   (0.5 puntos)
+
+b.3)   Si el precio por acción de la compañía de seguros sigue una función de la forma   𝐴 ( 𝑡 )   =   𝑎 𝑡
+,  
+−
+
+12 𝑡
+'  
++   𝑏𝑡 ,   donde   𝑡   =   tiempo en horas transcurridas desde el inicio, alcanza un máximo en la
+
+tercera hora   𝑡   =   3 , alcanzando un valor de 54 € la acción en ese instante,   encuentra el valor de
+
+los parámetros   𝑎   y   𝑏 .   (1.25 puntos)
+
+Solución:
+
+𝐴   =   𝑅𝑒𝑠𝑢𝑒𝑙𝑣𝑒   𝑏𝑢𝑓𝑒𝑡𝑒   𝐴   →   𝑃 ( 𝐴 )   =   0 . 3
+
+𝐵   =   𝑅𝑒𝑠𝑢𝑒𝑙𝑣𝑒   𝑏𝑢𝑓𝑒𝑡𝑒   𝐵   →   𝑃 ( 𝐵 )   =   0 . 5
+
+𝐶   =   𝑅𝑒𝑠𝑢𝑒𝑙𝑣𝑒   𝑏𝑢𝑓𝑒𝑡𝑒   𝐶   →   𝑃 ( 𝐶 )   =   0 . 2
+
+𝐺   =   𝐸𝑙   𝑐𝑎𝑠𝑜   𝑒𝑠   𝑔𝑎𝑛𝑎𝑑𝑜   →   𝑃 ( 𝐺 / 𝐴 )   =   0 . 6 ;   𝑃 ( 𝐺 / 𝐵 )   =   0 . 8 ;   𝑃 ( 𝐺 / 𝐶 )   =   0 . 7
+
+b.1)   Aplicando el teorema de la probabilidad total,
+
+𝑃 ( 𝐺 )   =   𝑃 ( 𝐴 )   ·   𝑃 ( 𝐺 / 𝐴 )   +   𝑃 ( 𝐵 )   ·   𝑃 ( 𝐺 / 𝐵 )   +   𝑃 ( 𝐶 )   ·   𝑃 ( 𝐺 / 𝐶 )   =   0 . 3   ·   0 . 6   +   0 . 5   ·   0 . 8   +   0 . 2   ·   0 . 7   =   0 . 72
+
+( Planteamiento 0.5 puntos, resultado   0. 2 5   punto s )
+
+b.2).   𝑃  𝐺    =   1   −   𝑃 ( 𝐺 )   =   0 . 28
+
+Por el Teorema de Bayes,   𝑃  𝐴 / 𝐺    =  
+1 ( 3 ∩ 5 )
+
+1 7 5 8  
+=  
+! . .'
+
+! . '$  
+=   0 . 4286
+
+( Cálculo de la probabilidad   del suceso contrario ,   0.25   punto s;   solución final correcta , 0.25
+
+puntos )
+
+Prueba de acceso a la   Universidad
+
+C urso 202 4 / 202 5
+
+Materia:   MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES   II
+
+b.4)  
+𝐴 ( 𝑡 )   =   𝑎 𝑡
+,  
+−   12 𝑡
+'  
++   𝑏𝑡
+
+𝐴
++
+( 𝑡 )   =   3 𝑎 𝑡
+'  
+−   24 𝑡   +   𝑏
+
+𝐴 ( 3 )   =   54   →   27 𝑎   −   108   +   3 𝑏   =   54
+
+𝐴
++
+( 3 )   =   0   →   27 𝑎   −   72   +   𝑏   =   0  
+Luego  
+𝑎   =   1
+
+𝑏   =   45
+
+( Por derivada, 0.25 puntos; por cada ecuación, 0.25 puntos; resolución ,   0.5   punto s )
+

@@ -1,0 +1,300 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/ModelosPruebas2425/EXTRAORDINARIA/TECNOLOGIA-e-Ing.ashx]
+Prueba de   acceso   a la Universidad
+
+C urso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+INSTRUCCIONES:
+
+‐   La prueba consta de   4 ejercicios de 2,5 puntos cada uno .
+
+‐   Los ejercicios 1, 2 y 3   tienen dos opciones cada uno (a o b), tienes que resolver   solo   una de las
+
+opciones .
+
+‐   S i   realizas   opciones de más ,   se corregirá n   solo la s   primera s   que   aparezcan   resueltas .
+
+‐   Debes redactar l os ejercicios con claridad, detalladamente y razonando las respuestas.
+
+‐   Se penalizará n   la s   faltas de ortografía   (hasta un punto) ,   no poner las fórmulas,   errores y   ausencia de
+
+unidades.
+
+‐   La duración máxima de la prueba será   1 hora y 30 minutos .
+
+‐   Solo   podrás   utilizar   calculadora s permitidas (Tipo 1 o 2) .
+
+Ejercicio 1
+
+Opción a . (2 , 5 puntos)   Partiendo de la tabla de verdad mostrada, donde A, B, C y
+
+D son entradas, y S es la salida. Se pide:
+
+a.   (1 , 2 5   punto s )   Simplificar   la   función   al   máximo   mediante   el   mapa   de
+
+Karnaugh.
+
+b.   (1 , 2 5 puntos)   Implementar el circuito utilizando solo puertas NAND.
+
+A   B   C   D   S
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+0
+
+1
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+Opción b. (2 , 5 puntos)   Partiendo de la expresión lógica:
+
+𝑆   =   𝐴𝐵   +   𝐴 𝐶 ̅   +   𝐴 ̅   𝐶 ̅   +   𝐵 ̅   𝐶 ̅
+
+Obtener:
+
+a.   (1,25   puntos)   La tabla de   verdad que representa la función lógica. Expresa la función en la 1ª
+
+forma canónica.
+
+b.   (0, 7 5 puntos)   La expresión lógica simplificada al máximo.
+
+c.   (0,5   punto s )   El circuito implementado con puertas lógicas.
+
+Ejercicio 2
+
+Opción a. (2 , 5 puntos)   Obtener la función de transferencia del   sistema de control que rep resenta el
+
+siguiente diagrama de bloques   que sigue :
+
+Prueba de   acceso   a la Universidad
+
+C urso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+Opción b. (2 , 5 puntos)   Responde:
+
+a.   (1,2 5   punto s )   Define el concepto de función de transferencia en un sistema de control. ¿Qué es
+
+la   ecuación característica? ¿Cuándo un sistema es estable atendiendo a las raíces de la
+
+ecuación característica?
+
+b.   (1 , 2 5   punto s )   Averigua si el sistema de control representado por la función de transferencia que
+
+sigue es estable.
+
+𝐹 ( 𝑠 )   =  
+𝑠
+
+( 𝑠   +   3 ) ( 𝑠
+2  
++   6 𝑠   +   25 )
+
+Ejercicio   3
+
+Opción a. (2 , 5 puntos)   Una varilla de   acero estructural   con una sección transversal de   20   mm²   está fijada
+
+en un extremo a un soporte rígido y sostiene una carga de   5 000 N   en su otro extremo. El material de la
+
+varilla tiene un   módulo de elasticidad de 110   GPa   y un   límite elástico de 300   MPa .
+
+a.   (1   punto )   Si se retira la carga, ¿la varilla recuperará su longitud original?   Justifica la respuesta.
+
+b.   (0 , 7 5 puntos)   ¿Cuál es la máxima carga que puede soportar la varilla sin sufrir deformación
+
+permanente?
+
+c.   (0,75 punto)   ¿Cuál es el máximo alargamiento unitario que puede experimentar la varilla sin
+
+presentar deformación permanente?
+
+Opción b. (2 , 5 puntos)   Una barra cilíndrica de aluminio está sometida a una fuerza de tracción de 6200
+
+Kp. Si su límite elástico es de 2800 Kp/cm², su longitud es de 350 mm y su módulo de elasticidad es
+
+0,7×10
+6  
+Kp/cm², determina el diámetro mínimo que debe tener la barra para que su alargamiento no supere
+
+0,30 mm.
+
+Ejercicio   4
+
+(2,5 puntos)   Una planta termoeléctrica opera utilizando vapor de agua como fluido de trabajo. La planta
+
+extrae calor de la combustión de gas natural en una caldera y convierte parte de esa energía en   electricidad
+
+mediante una turbina.
+
+El rendimiento de la planta es del 30 %, y el calor residual se disipa en un río cercano, cuya temperatura
+
+promedio es de   25 °C . Durante cada ciclo de operación, la planta libera   500 MJ   de calor al agua del río a
+
+través de un condensador.
+
+Dado que la eficiencia de una máquina térmica ideal está limitada por el ciclo de Carnot, se asume que la
+
+planta opera en condiciones cercanas a este límite.
+
+Teniendo como base esta información, determina:
+
+a.   (1   punto)   La temperatura de la caldera (foco caliente) en   °C .
+
+b.   (1   punto)   La cantidad de calor absorbida por la planta en cada ciclo.
+
+c.   (0,5 puntos)   La cantidad de energía útil convertida en electricidad por ciclo.
+

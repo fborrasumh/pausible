@@ -1,0 +1,650 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2324/EXTRAORDINARIA/Fisica.ashx]
+EvAU
+
+Curso 2023/2024
+Física
+
+Pág 1
+
+Solucionario del Examen EXTRAORDINARIO
+
+El presente documento se debe tomar como una ayuda a los correctores y para concretar de la forma más uniforme posible los criterios
+específicos de corrección. No es un documento docente que pretenda enseñar a nadie a resolver los problemas, con lo que en ocasiones faltarán
+detalles en las explicaciones y pasos matemáticos en los desarrollos que según el caso pueden ser exigibles en los exámenes de los alumnos para
+llegar a la máxima puntuación. En otros casos por el contrario quizás haya parte de los desarrollos que no sean imprescindibles para otorgar
+el máximo porque no se requieran explícitamente en el enunciado. Por otra parte, en algunos casos puede haber otras maneras distintas y
+válidas de resolver los problemas. Los correctores adaptaran la filosofía de estos criterios específicos a esos casos cuando sean leves variantes.
+En los casos en que las diferencias sean notables lo comunicarán al coordinador y a los demás correctores durante las sesiones de evaluación
+de manera que pueda unificarse también la baremación de esas otras alternativas.
+
+Sección 1: Problemas (elegir 2).   Puntuación máxima 3 puntos cada uno.
+
+1.   Un vibrador a 400 Hz genera una onda armónica en una cuerda que se propaga en sentido negativo del eje x
+con una longitud de onda de 2 m. La velocidad máxima con que oscila un punto cualquiera de la onda es 100
+m/s. Determina:
+
+a)   La frecuencia angular y el número de ondas
+
+b)   La amplitud de las ondas y su velocidad de propagación por la cuerda.
+
+c)   Teniendo en cuenta que un punto situado en x=0 cuando t=300 μs presenta una elongación de 1 cm y
+velocidad de oscilación positiva, determina el desfase de la onda (en radianes) y escribe su función de onda
+completa.
+
+Apartado (a)   Puntos
+
+La frecuencia angular es ω=2πν=800π=2513.27 rad/s   0.2 5   expresión + 0.25 valor numérico
+
+Por otro lado, el número de ondas es k=2π/λ=π=3.14 m -1   0.25 expresión + 0.25 valor numérico
+
+Apartado (b)   Puntos
+
+La velocidad de propagación es v   p =ω/k (o equivalentemente λ·ν) =
+
+v   p =800 m/s
+
+0.25 expresión + 0.25   valor numérico
+
+La   velocidad   máxima   de   oscilación   de   un   punto   es   v   O =Aω   
+
+A=100/2513.27=0.0398 m
+
+0.25 expresión + 0.25 valor numérico
+
+Apartado (c)   Puntos
+
+La función de onda genérica cuando viaja en sentido negativo es ψ(x,t)=A·sen (kx + ωt+φ)   0.25
+
+Particularizando para x=0 y t=300 μs:
+
+ψ(0,3·10 -4 )=0.0398·sen(0.7539+φ )=0.01 m      0.7539+φ=0.254 ó 2.888   
+
+La velocidad de oscilación es v   o =dψ/dt=Aω·cos(kx + ωt+φ)      v   o =100·cos(0.7539+φ ) debe ser positivo.
+Como c os(0.254)>0 y cos(2.888)<0   descartamos la segunda opción (*)
+
+φ = -0.5 rad=-28.6º=331.3º   (cualquiera de estos valores equivalentes es válido aquí)
+
+0.25
+
+0.25
+
+La solución final por tanto es   ψ(x,t)=0.0398·sen (πx+800π·t - 0.5)   (aquí sólo válido el desfase en rad)   0.25
+
+(*) Nota: Hay q ue considerar los dos posibles valores angulares (α ó π - α) y hacer la comprobación en base
+
+a la velocidad. Si se llega a la solución correcta sin hacerlo 0.25, haciéndolo 0.5.
+
+EvAU
+
+Curso 2023/2024
+Física
+
+Pág 2
+
+2.   Como por su propia naturaleza son invisibles, los agujeros negros tienen que ser detectados de manera
+indirecta. El primero en serlo fue Cygnus X-1, un objeto invisible en torno al cual se veía dar vueltas a una
+
+estrella de 30 veces la masa del Sol con un periodo de 5.6 días. La masa que se deduce para el agujero negro e   s
+
+de 7 veces la del Sol.
+
+a)   Deduce la tercera ley de Kepler y aplícala en este caso para determinar el radio de la órbita de la estrella en
+torno al agujero negro, expresada en unidades astronómicas (UA).
+
+b)   Supongamos que en este caso el radio del agujero negro es justo el necesario para que la velocidad de escape
+en su superficie sea la de la luz. Deduce la expresión de la velocidad de escape y determina el radio del
+agujero negro, en km.
+
+c)   Si colocamos un cuerpo en reposo a 1000 km del centro del   agujero negro y lo dejamos caer. ¿Qué velocidad
+
+llevará (en km/s) cuando haya reducido esa distancia a la cuarta parte?
+
+Datos: G=6.67·10
+-11  
+N·m
+2
+·kg  
+–2  
+; M   Sol =2·10
+30  
+kg; 1 UA=1.5·10
+11  
+m; c=3·10
+8  
+m/s
+
+Apartado (a)   Puntos
+
+Igualando la fuerza gravitatoria a masa por aceleración centrípeta
+
+𝐹𝐹   =   𝐺𝐺 
+𝑀𝑀   ·   𝑚𝑚
+𝑑𝑑  
+2  
+=   𝑚𝑚𝜔𝜔  
+2  
+𝑑𝑑
+
+Además, la velocidad angular se expresa en función del periodo como 2πd/T
+
+𝐺𝐺 
+𝑀𝑀   ·   𝑚𝑚
+𝑑𝑑  
+2  
+=   𝑚𝑚𝜔𝜔  
+2  
+𝑑𝑑   =   𝑚𝑚  
+4 𝜋𝜋  
+2  
+𝑑𝑑  
+⬚
+𝑇𝑇  
+2
+
+Despejando aquí se obtiene la tercera ley de Kepler, que establece la proporcionalidad entre el periodo
+de un astro y su radio orbital   𝑇𝑇  
+2  
+=  
+4𝜋𝜋  
+2
+𝐺𝐺𝐺𝐺  
+𝑑𝑑  
+3
+
+0.25
+
+0.2 5
+
+En este caso T=5.6 días y el M=7·M Sol   (agujero negro)   𝑑𝑑   =   �  
+𝐺𝐺7 𝐺𝐺 𝑆𝑆𝑆𝑆𝑆𝑆   𝑇𝑇   2
+4𝜋𝜋   2
+3   0.2 5
+
+Sustituyendo valores se obtiene d= 1 . 77   ·   10
+10
+𝑚𝑚   =   0 . 118   𝑈𝑈𝑈𝑈 .   (Si no lo dan en esas unidades 
+   error leve)   0.25
+
+Apartado (b)   Puntos
+
+La velocidad de escape es aquella que debe tener el cuerpo en la superficie del astro para la que la energía
+
+mecánica del cuerpo sea cero. E= –GMm/R   + mv   e
+2 /2=0
+
+Despejando   𝑣𝑣
+𝑒𝑒  
+=   �  
+2 · 𝐺𝐺 𝐺𝐺 ⬚
+𝑅𝑅 ⬚
+
+0.25
+
+0.25
+
+Se aplica a este caso haciendo que v   e   = velocidad de la luz= c =   3·10
+8  
+m/s
+
+Se sustituye y resulta R=20.75 km
+
+0.25
+
+0.25
+
+Apartado (c)   Puntos
+
+En su movimiento la energía mecánica se mantiene constante
+
+E p =-GMm/r   E c =mv   2 /2
+
+0.25
+
+Evaluamos en el punto inicial E 0   =- G·7M Sol · m /1000000+0=- 5.60·10 46   J   (*)
+
+Ef==- G·7M Sol · m   /250000+ m ·v 2 /2 (la   distancia es 250 km)   0.25
+
+Igualando   𝑣𝑣   =   �  
+3   𝐺𝐺   7 𝐺𝐺 𝑆𝑆𝑆𝑆𝑆𝑆
+1000000  
+· 2  
+0.25
+
+Sustituimos y resulta v= 7.48 ·10 4   km/s= 74851   km/s   0.25
+
+(*) No se pide el valor de la energía así que este valor no es imprescindible. Damos los 0.25 por considerar las
+expresiones correctas para E c   y E p   antes y después.
+
+EvAU
+
+Curso 2023/2024
+Física
+
+Pág 3
+
+3. Dos esferas metálicas de radios R   1   y R   2   (R 1 =5·R 2 ) se cargan de forma aislada de manera que la primera tenga 3
+veces más carga que la segunda.
+
+a)   Determina cuál de las esferas tiene mayor potencial, y cuántas veces es mayor el de una que el de la otra.
+
+b)   Posteriormente se conectan eléctricamente entre sí, y se observa que intercambian 3μC. Determina la carga
+
+inicial de cada una e indica cuál cede carga y cuál la absorbe.
+
+c)   Determina   el cociente entre la fuerza de interacción entre las esferas antes y después del contacto,
+
+asumiendo que no ha cambiado la separación entre ellas.
+
+Apartado (a)   Puntos
+
+El potencial de una esfera metálica cargada es V=KQ/R   0. 2 5
+
+En este caso V 2 =KQ 2 /R   2   y V 1   =KQ 1   /R   1   = K·3Q 2 /(5R 2 )=3V 2 /5 por tanto V 2 >V 1   0.5
+
+V 2 /V 1 =5/3   0.25
+
+Apartado (b)   Puntos
+
+Al conectarlas intercambian carga q hasta igualar potenciales.   0.25
+
+Como V2>V1 la esfera 2 cede carga a la 1 asi que ponemos Q 2 ’=Q 2 -q y Q 1   ’=Q 1   +q   0.25
+
+K(Q 2 -q)/R   2 = K·(3Q 2 +q) /(5R 2 )   0.25
+
+En la expresion anterior K y R   2   se simplifican, y sabemos que q=3·10 - 6   C      Q 2 =9 μC   y   Q 1 =3Q 2 =27 μC   0.25
+
+Apartado (c)   Puntos
+
+La fuerza es   𝐹𝐹   =   𝐾𝐾  
+𝑄𝑄 1 · 𝑄𝑄 2
+𝑑𝑑  
+2  
+0.25
+
+Como K y d no varían resulta F ini   / F fin   = Q 1   Q 2 /(Q 1 ’Q 2 ’)   0.5
+
+Sustituyendo valores   F ini   / F fin   = (9·27)/(30·6)=1.35      F ini =1.35 F fin   0.25
+
+4.   Dos hilos conductores indefinidos paralelos al eje Z (perpendicular al papel y saliente), pasan
+por los puntos (2, 0) m y (0, 4) m, recorridos por una misma intensidad de corriente de 2 A
+con los sentidos indicados en la figura: hacia afuera y hacia adentro. Sabiendo que μ   0 =4·π·10
+- 7
+
+T·m/A
+
+a)   Determinar el módulo   del vector campo magnético en el origen de coordenadas
+
+b)   Determina justificadamente la fuerza por unidad de longitud con que interaccionan
+los cables, indicando si es atractiva o repulsiva.
+
+c)   Determina la intensidad que tenemos que dar al conductor de (0,4) para que el campo
+resultante lleve la dirección de la bisectriz de los cuadrantes 1 y 3 (línea punteada).
+
+Apartado (a)   Puntos
+
+El módulo del campo que crea un hilo infinito a una distancia r es B=μ   0 I/(2πr)   0.2 5
+
+La dirección es perpendicular al hilo y al vector de posición del punto desde el hilo. En base eso y a la
+regla de la mano derecha, el campo que crea el hilo de (0,4) lleva la dirección de -X, y el del hilo de (2,0)
+lleva la dirección de -Y (flechas rojas añadidas al esquema)
+
+0.25
+
+B (o,4) =- 4π·10
+- 7
+·2/(2π·4)   𝚤𝚤 � ⃗   =   - 10
+- 7  
+𝚤𝚤 ⃗
+
+B (2,0) =- 4π·10
+- 7  
+·2/(2π·2)   𝚥𝚥 � � ⃗   = - 2·10
+- 7  
+𝚥𝚥⃗
+
+Por tanto, el campo total en el origen es   𝐵𝐵 �⃗   = ( − 1,   − 2) · 10
+−7  
+𝑇𝑇
+
+0.25
+
+El módulo será por tanto   √ 5   · 10
+−7  
+𝑇𝑇   = 2.24 · 10
+−7  
+𝑇𝑇   0.25
+
+EvAU
+
+Curso 2023/2024
+Física
+
+Pág 4
+
+Apartado (b)   Puntos
+
+El campo que   crea uno de los hilos en el otro es perpendicular a él en todos sus
+
+puntos y tiene un módulo fijo:   μ 0 I/(2πd) , donde d es la separación entre los
+
+hilos.
+
+L a fuerza magnética debida a este campo actuando sobre la corriente es
+
+F=I·L·B , y la dirección es la que une los dos hilos. En base a la regla de la mano
+
+derecha la fuerza de interacción será   repulsiva .
+
+Si no justifica el sentido repulsivo de la fuerza 
+   error leve
+
+No se exige el esquema adjunto, que añado aquí como complemento.
+
+0.25
+
+0.25
+
+La fuerza por unidad de longitud por tanto sera
+
+F/L =   I·B =   μ   0   I
+2
+/(2 π d), por ser las corrientes iguales
+
+0.25
+
+Calculamos d=√(16+4)=5; y con el   F/L=8·10
+- 7
+/5 N/m= 1.6·10
+- 7  
+N/m   0.25
+
+Apartado (c)   Puntos
+
+Para que el campo resultante lleve la dirección de la bisectriz, las dos componentes (x e y), deben ser
+iguales
+
+0.25
+
+B (o,4) =4π·10 - 7 ·I/(2π·4)   Ahora la Intensidad de este hilo es la inc ógnita
+
+B (2,o) =4π·10 - 7 ·2/(2π·2)
+
+0.25
+
+0.25
+
+Igualando los módulos resulta I=4 A   0.25
+
+Sección 2: Cuestiones (elegir 3) .   Puntuación máxima 1 punto cada una.
+
+5.   Se tiene la siguiente disposición de objeto y espejo parabólico de focal F. Traslada
+este esquema a tu cuadernillo y realiza un trazado de rayos para obtener la
+imagen indicando cómo se traza cada rayo empleado. Finalmente, indica las
+características de la imagen generada.
+
+Cuestión 5   Puntos
+
+1.   El rayo que pasa por el foco vuelve paralelo al eje
+óptico tras llegar a la superficie del espejo
+
+2.   El rayo que llega al espejo paralelo al eje óptico
+vuelve pasando por el foco
+
+3.   El rayo que incide en el punto de corte del espejo
+con el eje óptico sale con el mismo ángulo que entra.
+
+Basta con dar 2 reglas para el 0.25
+
+0.25
+
+(reglas)
+
+0.5
+
+(esquema)
+
+La imagen es real, invertida y de menor tamaño que el objeto.   0.25
+
+F
+
+EvAU
+
+Curso 2023/2024
+Física
+
+Pág   5
+
+6.   Un   cuerpo con un peso de 8 N cuelga de un muelle y se mueve con un MAS. Si la amplitud es de 25 cm y su velocidad
+máxima es de 3 m/s. Calcular la distancia medida desde la posición de equilibrio en la que la energía cinética es 1.3   J.
+
+Cuestión 6   Puntos
+
+En el MAS la velocidad es v= A ⍵   cos( ⍵ t+φ) y por tanto su valor máximo es A ⍵ .   Por tanto
+
+3 =0.25 ·   ⍵      ⍵ =12 rad/s
+
+0.25
+
+Del peso sacamos la masa, y de la ecuación de movimiento   ⍵ 2 =k/m      k=m ⍵ 2 =(8/9.8)·12 2 ;
+
+k=117.5 N/m
+
+0.25
+
+La energía total es constante, puede obtenerse de los puntos extremos de la trayectoria (x=A) de modo
+que E T   =kA 2 /2=3.67J
+
+0.25
+
+En el punto citado E T =k·x 2 /2+E c      3.67=117.5/2 ·x 2 +1.3      x=0.2 m   0.25
+
+7.   En una fábrica se están instalando alarmas contra incendios. Para medir la intensidad del sonido que generan se hace sonar
+
+una de ellas a 150 m de un receptor, donde se mide una intensidad de 0.20 W/m   2   . Calcula el nivel de intensidad sonora
+
+correspondiente a esa lectura inicial. ¿A qué distancia habría que colocarse de ella para que el nivel de intensidad sonora
+fuera el máximo que permite la ley: 90 dB?
+
+Dato: Intensidad umbral oído humano I   0 =10 -12   W/m 2   .
+
+Cuestión 7   Puntos
+
+Por definición el nivel de intensidad sonora es   L=10·log(I /I 0 )=10·log (0. 2/10   -12 )= 113 dB   0.5
+
+Para que   fuesen 90 dB la I’ debería ser… I’=I 0 ·10 90/10   = 10   -3   W/m 2   0.25
+
+Como la I cae con r 2      I /I’=(r’/r) 2      r’=2121 m   0.25
+
+8.   Con objeto de estimar experimentalmente el valor de la constante de Planck, se ilumina la superficie de un metal con
+una luz de   frecuencia 2.4·10
+15  
+Hz, y se produce el efecto fotoeléctrico de forma que los electrones llevan una energía
+de 1.152·10 - 18   J. En un segundo ensayo, a la radiación incidente se le da una frecuencia de 1.97·10 15   Hz, y la energía de
+
+los electrones se reduce hasta 8.9·10
+- 19  
+J. Deduce el valor estimado de la constante de Planck y el valor del trabajo de
+extracción.
+
+Cuestión 8   Puntos
+
+En el efecto fotoeléctrico la Energía de la luz incidente se gasta en el trabajo de extracción y en la
+
+energía cinética que   adquiere el electrón arrancado E=h ν =W 0   +E c
+
+0.25
+
+En el primer ensayo   h·2.4· 10 15   =   W 0   +   1. 152·10 - 18
+
+En el segundo   h·1.97· 10 15   =   W 0   +   8.9·10 - 19
+
+0.25
+
+Resolvemos el sistema de ecuaciones y obtenemos ambas incógnitas
+
+h=6.09·10
+-34  
+J·s   W 0 =3.1·10
+- 19  
+J
+
+0.25
+
+0.25
+
+9.   ¿En qué consiste una partícula α? ¿Y una β? El   Po
+210
+84  
+es tóxico por inhalación e ingestión. Este isótopo es inestable y emite
+
+una partícula α, con lo que se   transforma en plomo. Escribe la ecuación de desintegración correspondiente y determina los
+
+números másico y atómico del isótopo resultante del plomo. Si en lugar de una α observamos que emite 2 partículas β,
+
+determina los números atómico y másico del núcleo final.
+
+Cuestión 9   Puntos
+
+Una partícula   α   es un núcleo de Helio, con 2 protones y 2 neutrones   0.25
+
+Una partícula   β   es un electrón   0.25
+
+Dado que el número má sico de α es 4 y el atómico 2 la reacción tiene que ser   𝑃𝑃
+84
+210  
+𝑜𝑜  
+⬚
+→   𝛼𝛼   +   𝑃𝑃
+82
+206  
+𝑏𝑏
+2
+4   0.25
+
+Si emite 2 partículas beta sería   𝑃𝑃 84
+210  
+𝑜𝑜  
+⬚
+→   2   𝛽𝛽   +   𝑅𝑅𝑅𝑅 86
+210
+−1
+0  
+El número atómico es Z=86 y el másico A=210
+
+Nota: No hay por qué saber que el producto corresponde a Radón, sólo dar Z y A
+
+0.25
+
+EvAU
+
+Curso 2023/2024
+Física
+
+Pág   6
+
+10.   Se tienen dos cargas puntuales: q   1   = 5   nC en el punto de coordenadas (a, a) y q   2   = -   5   nC en el punto de coordenadas
+(-a, -a). Las posiciones están en metros.
+
+a)   Hacer un esquema de las cargas y dibujar el vector campo eléctrico en los   puntos de coordenadas (-a, a) y (a, -a).
+
+b)   Sabiendo que en el punto (-a, a) una carga q   0   = 4 nC experimenta una fuerza dada por
+
+F � ⃗   =   − 5 · 10
+−9  
+ı ⃗   −   5 · 10
+−9  
+ȷ ⃗   (N)   , determinar el valor de a.   Dato: K = 9·10
+9  
+Nm
+2
+/C  
+2
+.
+
+Cuestión 10   Puntos
+
+En base a los signos de las cargas, y a que sus
+valores absolutos son iguales y las distancias
+tambien el esquema sería así.
+
+0.5
+
+Con cualquiera de las componentes (son iguales) se puede deducir “a” dado que por ejemplo
+|F x   |=Kq   1 q 0   /(2a)   2
+
+5·10
+- 9
+=9·10  
+9
+·5·10
+- 9
+· 4 ·10
+- 9
+/4a
+2  
+   a=3m
+
+0.5
+
+EvAU
+
+Curso 2023/2024
+Física
+
+Pág   7
+
+Sección 3: Cuestiones experimentales (elegir una) .   Puntuación máxima 1 punto cada una.
+
+11.   En lo más alto del monte Everest, realizamos un experimento para medir el valor de la gravedad terrestre, que a esta
+
+altura es de 9.77 m/s 2 . Si medimos el periodo de oscilación varias veces obtenemos los siguientes resultados
+
+T(s)   0.89   0.88   0.90   0.88   0.91   0.92
+
+¿Qué longitud tiene el péndulo que estamos usando? ¿Si duplicamos su longitud, el periodo de oscilación también se
+
+duplica? Justifica la respuesta.
+
+Cuestión 11   Puntos
+
+El periodo medio de nuestro experimento es   𝑇𝑇   = 0.8966 s   0.25
+
+Como   𝑇𝑇   = 2 𝜋𝜋�
+𝐿𝐿 
+𝑔𝑔 �  
+0.25
+
+L=g(T/(2π)) 2 =0.1989 m   0.2 5
+
+Al depender el periodo de √L y no de L directamente, duplicar la longitud sólo se traduce en un aumento
+
+del periodo en √2. No se duplica
+
+0.25
+
+Nota: Aunque no es matemáticamente correcto sacar con cada tiempo una longitud, y luego hacer el promedio de
+los valores de L individuales, si alguien lo hace lo damos por válido anotando sólo   1 error leve .
+
+12.   Hacemos incidir un haz de luz   en la parte curva   de un hemicilindro de un material
+desconocido, y registramos los ángulos de entrada y salida del haz en una tabla. Determina
+justificadamente el valor del índice de refracción del material, y copia la siguiente tabla en tus
+hojas completando las casillas vacías. Si algún valor no puede calcularse márcalo con un
+
+asterisco (*) y explica por qué.
+
+θ incidente   (grados)   5   10   20   22.2   50
+
+θ reflejado   (grados)   5   10   20   22.2   50
+
+θ transmitido   (grados)   8.5   17.2   35.5   40   *
+
+Cuestión 12   Puntos
+
+Calcula los datos faltantes de la tabla (en rojo)   0. 2 5
+
+Conoce la 2ª ley de Snell: n 1 ·sen(θ inc )=n   2   sen(θ trans   )   0.25
+
+Determina n a partir de la segunda columna:   n=1.70   0.25
+
+En el caso de 50º se da reflexión total, de modo que NO hay haz transmitido   0.25
+

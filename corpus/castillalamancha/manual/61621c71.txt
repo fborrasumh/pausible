@@ -1,0 +1,631 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2223/ConvocatoriaExtraordinaria/Matematicas-II-criterios-Extraordinaria.ashx]
+Evaluación para el Acceso a la Universidad
+Curso 2022/2023
+
+Materia: MATEMÁTICAS II
+Instrucciones:   El estudiante deberá resolver   CUATRO   de los ocho ejercicios propuestos. Si resuelve
+más, se corregirán solo los cuatro primeros. Los ejercicios deben redactarse con claridad, detalladamente y
+razonando las respuestas. Se podrá utilizar cualquier tipo de calculadora. Cada ejercicio completo puntuará
+2 , 5 puntos. Duración de la prueba: 1 hora y 30 minutos.
+
+1.   Sea el sistema de ecuaciones lineales
+
+⎧
+{
+⎨
+{
+⎩
+− 2 x   +   y   −   z   =   − 1
+
+− x   +   a   ⋅   y   +   z   =   2
+2 x   +   y   +   a   ⋅   z   =   3
+
+,   con   a   ∈ ℝ .
+
+a )   [1,75 punto]   Discute cómo es el sistema en función de los valores del parámetro   a .
+
+b )   [0,75 puntos]   Resuelve razonadamente el sistema anterior para   a   =   2, si es posible.
+
+Solución:
+
+a )   Sean las matrices   M   = (
+− 2   1   − 1   − 1
+
+− 1   a   1   2
+2   1   a   3
+
+)   y   A   = (
+− 2   1   − 1
+
+− 1   a   1
+2   1   a
+
+) .   Para estudiar cómo es el sistema en
+función de   a   tenemos que estudiar su rango.
+Como   | A | = − 2 a
+2  
++   3 a   +   5, éste se anula para   a   = − 1 y   a   =   5 / 2. Estudiemos el rango de   M   para cada uno
+de estos casos.
+
+a   = − 1: El rango de   M   es 3, por lo que tenemos un sistema incompatible.
+
+a   =   5 / 2: El rango de   M   es 3, por lo que tenemos un sistema incompatible.
+Para el resto de valores de   a , tanto el rango de   A   como el de   M   es tres y, por tanto, el sistema es compatible
+determinado.
+
+Criterios de corrección:
+
+Cálculo del determinante de   A   y de los valores de   a   para los que se anula, 0 , 5 puntos; cálculo del rango de   A
+
+y   M   cuando   a   = − 1, 0 , 25 puntos; discusión razonada de este caso, 0 , 25 puntos; cálculo del rango de   A   y   M
+
+cuando   a   =   5 / 2, 0 , 25 puntos; discusión razonada de este caso, 0 , 25 puntos; discusión razonada del resto
+de casos, 0 , 25 puntos. Si se equivoca al calcular el determinante no tenerlo en cuenta y valorar el resto.
+
+b )   En este caso tenemos un sistema compatible determinado y la solución es   x   =   0,   y   =   1 / 3,   z   =   4 / 3.
+
+Criterios de corrección:
+
+Plantear el método de resolución, 0 , 5 puntos; obtener la solución correcta, 0 , 25 puntos.
+2.   Una empresa desea construir un aparcamiento para sus empleados y necesita vallarlo de manera que la región resultante
+sea un rectángulo más medio círculo, tal y como se ve en la figura adjunta. El rectángulo tiene de lados   h ,   r   ∈ ℝ , de
+manera que el radio del semicírculo es   h / 2. La empresa tiene solamente presupuesto para comprar una valla de 80
+metros de longitud, que ha de ser el perímetro del aparcamiento. La empresa desea construir un aparcamiento con el
+mayor área posible con ese perímetro de 80 metros.
+
+a )   [1 punto]   Escribe el área del aparcamiento en función del valor   h .
+
+b )   [1,5 puntos]   ¿Cuánto deben valer   h   y   r   para que el área del aparcamiento sea lo mayor posible?
+
+Solución:
+
+a )   El perímetro es   P ( h ,   r ) =   h   +   2 r   +   2 π ( h / 2 )/ 2   =   h   +   2 r   +   π ( h / 2 )   por ser el radio de la semicircunferencia igual
+a   h / 2. Además, este perímetro ha de ser igual a 80. El área es   A ( h ,   r ) =   h   ⋅   r   +   π ( h / 2 )
+2
+/ 2 ) =   h   ⋅   r   +   πh
+2
+/ 8.
+Despejamos el valor de   r   de la ecuación del perímetro:   r   = ( 80   −   h ( 1   +   π / 2 ))/ 2. Sustituimos este valor de   r   en
+la ecuación del área y obtenemos:
+
+A ( h ) =   h   ⋅ ( 40   −   h  
+1   +   π / 2
+2  
+) +   πh
+2
+/ 8   =   h
+2
+( π / 8   −  
+1   +   π / 2
+2  
+) +   40 h .
+
+Criterios de corrección:
+
+Dar la ecuación del perímetro, 0 , 25 puntos; dar la ecuación del área, 0 , 25 puntos; despejar el valor de   r   de la
+ecuación del perímetro, 0 , 25 puntos; dar el área en función de   h   correctamente, 0 , 25 puntos.
+
+b )   En este caso, tenemos que encontrar el valor de   h   que maximiza el área. Para ello, obtendremos la derivada de
+
+A ( h ) :   A
+′
+( h ) =   40   +   2   ⋅   h ( π / 8   −  
+1 + π / 2
+2  
+) . Se anula para   h   = − 40 / ( 2 ( π / 8   −  
+1 + π / 2
+2  
+) ≃   22 , 40 .
+
+Como   A
+′′  
+=   2 ( π / 8   −  
+1 + π / 2
+2  
+) ≃ − 1 , 785   <   0, entonces se trata de un máximo. El valor para el radio es
+
+r   ≃   11 , 21.
+
+Criterios de corrección:
+
+Plantear el problema de optimización, 0 , 5 puntos; calcular la derivada del área, 0 , 25 puntos; obtener el valor
+de   h , 0 , 25 puntos; calcular la derivada segunda del área y comprobar que se trata de un máximo, 0 , 25; obtener
+el valor de   r , 0 , 25 puntos.
+3.   a )   Tenemos dos urnas con bolas. La urna A tiene 6 bolas rojas y 8 negras y la urna B tiene 8 bolas rojas y 10 bolas
+negras. Disponemos de un dado de 12 caras numeradas del 1 al 12. Lanzamos el dado y si sale un número múltiplo
+de 4 se extrae una bola de la urna A. Si sale otro número se extrae una bola de la urna B. Calcula razonadamente:
+a.1)   [0,5 puntos]   La probabilidad de obtener una bola roja.
+a.2)   [0,75 puntos]   Sabiendo que la bola extraída es roja, la probabilidad de que haya sido extraída de la urna A.
+
+b )   Una empresa de mensajería sabe que la probabilidad de que el destinatario esté ausente (y no se pueda hacer la
+entrega) durante el reparto es del 25 %. Un repartidor de esta empresa ha de entregar 6 paquetes.
+b.1)   [0,5 puntos]   ¿Cuál es la probabilidad de que no pueda entregar uno de ellos porque el destinatario esté
+ausente?
+b.2)   [0,75 puntos]   ¿Cuál es la probabilidad de que pueda entregar al menos uno de los paquetes?
+
+n  
+k
+p  
+0.05   0.15   0.25   0.35   0.45   0.55   0.65   0.75   0.85   0.95
+6   0   0.7351   0.3771   0.1780   0.0754   0.0277   0.0083   0.0018   0.0002   0.0000   0.0000
+
+1   0.2321   0.3993   0.3560   0.2437   0.1359   0.0609   0.0205   0.0044   0.0004   0.0000
+
+2   0.0305   0.1762   0.2966   0.3280   0.2780   0.1861   0.0951   0.0330   0.0055   0.0001
+
+3   0.0021   0.0415   0.1318   0.2355   0.3032   0.3032   0.2355   0.1318   0.0415   0.0021
+
+4   0.0001   0.0055   0.0330   0.0951   0.1861   0.2780   0.3280   0.2966   0.1762   0.0305
+
+5   0.0000   0.0004   0.0044   0.0205   0.0609   0.1359   0.2437   0.3560   0.3993   0.2321
+
+6   0.0000   0.0000   0.0002   0.0018   0.0083   0.0277   0.0754   0.1780   0.3771   0.7351
+
+Solución:
+
+a )   Sea   M 4 el suceso que representa sacar un múltiplo de 4 en la tirada de dado y   M 4 su complementario. El suceso
+
+A   representa sacar una bola de la urna   A   y el suceso   B   sacar una bola de la urna   B . Claramente,   P ( M 4 ) =   P ( A )
+
+y   P ( M 4 ) =   P ( B ) . Las probabilidades de este experimento aleatorio vienen dadas por:
+
+•
+
+M 4
+Negra
+10
+/ 18
+Roja
+8 /
+18
+9
+/
+12
+
+M 4
+Negra
+8 /
+14
+Roja
+6 / 14
+3
+/
+12
+1)   P ( Roja ) =   P ( Roja ∩ M 4 )+ P ( Roja ∩ M 4 ) = ( 3 / 12 )( 6 / 14 )+
+( 9 / 12 )( 8 / 18 ) =   3 / 28   + 1 / 3   =   9 / 84   + 28 / 84   =   37 / 84   ≃
+
+0 , 44.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 25 puntos; obtener la solución co
+rrecta, 0 , 25 puntos.
+2)   Utilizando la regla de Bayes:
+
+P ( A   ∣   Roja ) =  
+P ( A   ∩   Roja )
+
+P ( Roja )  
+=  
+3 / 28
+37 / 84  
+=  
+252
+1036  
+≃   0 , 24 .
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener la solución correc
+ta, 0 , 25 puntos.
+
+b )   Sea   X   la variable aleatoria que representa el número de paquetes que no se han podido entregar. Se trata de una
+binomial con   p   =   0 , 25 y   n   =   6.
+1)   Se pide   P ( X   =   1 ) =   0 , 3560.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 25 puntos; obtener la solución correcta, 0 , 25 puntos.
+2)   Que se pueda entregar al menos uno de los paquetes es equivalente a que no se puedan entregar 5 o menos
+paquetes, es decir,   P ( X   ≤   5 ) =   1   −   P ( X   =   6 ) =   1   −   0 , 0002   =   0 , 9998.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener la solución correcta, 0 , 25 puntos.
+4.   Sean el plano   π   ≡   a   ⋅   x   +   y   −   z   =   1, con   a   ∈ ℝ , y los puntos   A ( 1 ,   0 ,   0 )   y   B ( b ,   1 , − 1 ) , con   b   ∈ ℝ .
+
+a )   [1,5 puntos]   Determina el valor de   a ,   b   para que el vector ⃗   AB   sea perpendicular al plano   π   y el punto   A   esté contenido
+en el plano   π .
+
+b )   [1 puntos]   Con los valores de   a ,   b   obtenidos en el apartado anterior, escribe la ecuación de la recta que pasa por
+
+A   y es perpendicular al plano   π .
+
+Solución:
+
+a )   El vector ⃗   AB   es   ( b   −   1 ,   1 , − 1 ) . Para que este vector sea perpendicular al planto   π   se tiene que cumplir que sea
+paralelo al vector normal del plano   ( a ,   1 , − 1 ) . En este caso particular, esto se cumple solamente cuando   b − 1   =   a .
+La otra condición implica que el punto   A   cumple la ecuación del plano, es decir,   a   ⋅   1   +   0   −   0   =   1, es decir,   a   =   1.
+Por tanto,   b   −   1   =   1, es decir,   b   =   2.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener las ecuaciones correctamente, 0 , 5 puntos; obtener los valores de   a
+
+y   b , 0 , 5 puntos.
+
+b )   El vector director de la recta es el vector normal al plano   π :   ( 1 ,   1 , − 1 ) . Por tanto, la ecuación que se pide es
+
+( x ,   y ,   z ) = ( 1 ,   0 ,   0 ) +   λ ( 1 ,   1 , − 1 ),   λ   ∈ ℝ.
+
+Criterios de corrección:
+
+Plantear la ecuación de la recta, 0 , 5 puntos; escribir la ecuación de la recta correctamente, 0 , 5 puntos. Si
+los valores de   a   y   b   obtenidos en el apartado anterior son incorrectos corregir este apartado como si fueran
+correctos.
+5.   a )   [1 punto]   Encontrar el área encerrada por la recta   x   = − 1 y las gráficas de las funciones   f ( x ) =   x
+2  
+−   2 x   +   3 y
+
+g ( x ) =  
+1
+2  
+x
+2  
++   1.
+
+b )   [1,5 puntos]   Sea la matriz   A   = (
+− 2   1   a
+
+− 1   0   0
+
+− 1   a   +   1   a   +   1
+
+)   con   a   ∈ ℝ . Estudia el rango de   A   en función de los
+valores de   a .
+
+Solución:
+
+a )   El área que se pide es
+−2   −1   0   1   2   3
+0
+ 
+2
+ 
+4
+ 
+6
+ 
+8
+ 
+10
+ 
+12
+
+x
+y
+
+g(x)
+f(x)
+
+Las gráficas de estas funciones se cortan cuando   x   =   2, por tanto el área es
+
+∫
+
+2
+
+− 1
+
+( f ( x ) −   g ( x )) dx   = ∫
+
+2
+
+− 1
+
+( x
+2  
+−   2 x   +   3   − (
+1
+2  
+x
+2  
++   1 )) dx   =   9 / 2 .
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener el punto de intersección entre   f ( x )   y   g ( x ) , 0 , 25 puntos; obtener el
+valor correcto del área, 0 , 25 puntos.
+
+b )   El determinante de   A   es   | A | = − a
+2  
++   1. Este determinante se anula para   a   =   1 y   a   = − 1. Como además,
+
+∣
+− 2   1
+
+− 1   0
+∣ =   1   ≠   0 sabemos que el rango de   A   va a ser al menos 2.
+Por tanto, para   a   = ± 1 el rango será 2 y para el resto de casos el rango será 3.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener y discutir para los valores de   a   que anulan el determinante de   A , 0 , 5
+puntos; discutir para el resto de valores de   a , 0 , 5 puntos.
+6.   a )   [1 punto]   Calcula el límite siguiente:
+lím
+
+x → 3
+
+x
+3  
+−   3 x
+2  
++   3 x   −   9
+3 x   −   9  
+.
+
+b )   [1,5 puntos]   Sean el punto   A ( 1 ,   2 ,   1 )   y el plano   π   ≡   x   −   y   =   1. Calcula la distancia del punto   A   al plano   π .
+
+Solución:
+
+a )   El límite es del tipo 0 / 0. Como el 3 es raíz del numerador y denominadorar podemos escribir el límite así:
+lím
+
+x → 3
+
+x
+3  
+−   3 x
+2  
++   3 x   −   9
+3 x   −   9  
+=   lím
+
+x → 3
+
+( x
+2  
++   3 )( x   −   3 )
+
+3 ( x   −   3 )  
+=  
+9   +   3
+3  
+=   4 .
+
+Criterios de corrección:
+
+Plantear el problema y determinar el tipo de indeterminación, 0 , 5 puntos; plantear la resolución del límite, 0 , 25
+puntos; obtener la solución correcta, 0 , 25 puntos.
+
+b )   La distancia es
+
+d ( A ,   π ) =  
+| 1   −   2   −   1 |
+√ 1
+2  
++ (− 1 )
+2  
++   0
+2
+
+=  
+2
+
+√ 2
+
+= √ 2 .
+
+Criterios de corrección:
+
+Plantear el problema y escribir la fórmula de la distancia, 0 , 5 puntos; calcular el numerador, 0 , 25 puntos;
+calcular el denominador, 0 , 25 puntos; obtener el valor correcto de la distancia, 0 , 5 puntos.
+7.   a )   [1 punto]   Resuelve la siguiente integral:
+
+∫( x   +   3 ) e
+− 2 x
+dx .
+
+b )   En un juego de azar cada jugador tira un dado de seis caras. Si sale un 1 vuelve a tirar. Si sale otro resultado deja
+de tirar y la puntuación obtenida es el número de unos obtenidos durante las tiradas.
+b.1)   [0,75 puntos]   ¿Cuál es la probabilidad de no obtener ningún uno? ¿Cuál es la probabilidad de obtener una
+puntuación de uno? ¿Y la de obtener una puntuación de tres?
+b.2)   [0,75 puntos]   ¿Podrías dar la probabilidad de obtener una puntuación de   n   ∈ ℕ ?
+
+Solución:
+
+a )   Se trata de una integral que se resuelve por partes tomando   u   =   x   +   3 y   dv   =   e
+− 2 x
+dx . Entonces,   du   =   dx   y
+
+v   = (− 1 / 2 ) e
+− 2 x
+. Así,
+
+∫( x   +   3 ) e
+− 2 x
+dx   = 
+−( x   +   3 )
+
+2  
+e
+− 2 x  
+−  
+1
+4  
+e
+− 2 x  
++   C .
+
+Criterios de corrección:
+
+Plantear la resolución, 0 , 5 puntos; realizar la integración por partes, 0 , 25 puntos; dar la solución correcta, 0 , 25
+puntos.
+
+b )   Sea   X   la variable aleatoria que representa el número de unos obtenidos. En cualquier momento del juego, la pro
+babilidad de obtener un 1 es de 1 / 6 y la de obtener otro valor es de 5 / 6.
+1)   Tenemos que   P ( X   =   0 ) =   5 / 6, puesto que se trataría de una situación en la que el jugador no obtiene un 1
+en la primera tirada. Las otras dos probabilidades que se piden son:
+
+P ( X   =   1 ) =  
+1
+6
+5
+6  
+= (
+1
+6  
+)
+1  
+5
+6  
+=  
+5
+6
+1 + 1  
+.
+
+P ( X   =   3 ) =  
+1
+6
+1
+6
+1
+6
+5
+6  
+= (
+1
+6  
+)
+3  
+5
+6  
+=  
+5
+6
+3 + 1  
+.
+
+Criterios de corrección:
+
+Cada una de las probabilidades que se piden, 0 , 25 puntos.
+
+2)   Se pide   P ( X   =   n )   con   n   ∈ ℕ . Viendo los resultados del apartado anterior, tenemos que
+
+P ( X   =   n ) = (
+1
+6  
+)
+n  
+5
+6  
+=  
+5
+6
+n + 1  
+.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener la solución correcta, 0 , 25 puntos.
+8.   a )   [1,25 puntos]   Sabiendo que   ∣
+
+1   3   5
+
+a   b   c
+x   y   z
+
+∣ =   6 con   a ,   b ,   c ,   x ,   y ,   z   ∈ ℝ . Calcula el valor de   ∣
+
+1 / 2   3 / 2   5 / 2
+
+a   +   2   b   +   6   c   +   10
+4 x   4 y   4 z
+
+∣
+
+e indica en cada paso las propiedades que utilizas.
+
+b )   [1,25 puntos]   Calcula el ángulo que forman los vectores ⃗   u   = ( 1 ,   1 ,   1 )   y ⃗   v   = ( 3 ,   2 ,   3 ) .
+
+Solución:
+
+a )   Aplicando las propiedades de los determinantes:
+
+∣
+
+1 / 2   3 / 2   5 / 2
+
+a   +   2   b   +   6   c   +   10
+4 x   4 y   4 z
+
+∣ = ∣
+
+1 / 2   3 / 2   5 / 2
+
+a   b   c
+
+4 x   4 y   4 z
+
+∣ + ∣
+
+1 / 2   3 / 2   5 / 2
+2   6   10
+4 x   4 y   4 z
+
+∣ =  
+4
+2  
+∣
+
+1   3   5
+
+a   b   c
+x   y   z
+
+∣ +  
+4
+2  
+∣
+
+1   3   5
+2   6   10
+
+x   y   z
+
+∣ =
+
+2   ⋅   6   +   2   ⋅   0   =   12 .
+
+Criterios de corrección:
+
+Realizar todas las operaciones intermedias correctamente, 1 punto; obtener la solución correcta, 0 , 25 puntos.
+
+b )   El coseno del ángulo   α   formado por dos vectores es:
+cos ( α ) = 
+|⃗ u   ⋅⃗   v |
+|⃗ u | ⋅ |⃗ v | 
+=  
+| 3   +   2   +   3 |
+√ 1   +   1   +   1 √ 3
+2  
++   2
+2  
++   3
+2
+
+=  
+8
+
+√ 3 √ 22
+
+=   0 , 98 .
+
+Entonces,   α   =   arc cos ( 0 , 98 ) =   0 , 20 radianes   =   11 , 46º.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener el producto escalar, 0 , 25 puntos; calcular la norma de los dos vec
+tores, 0 , 25 puntos; obtener el ángulo, 0 , 25 puntos.
+

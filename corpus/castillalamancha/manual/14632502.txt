@@ -1,0 +1,593 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2425/EXTRAORDINARIA/MatematicasII.ashx]
+Evaluación   para   el   Acceso   a   la   Universidad
+
+Curso 202 4 /202 5
+
+Materia:   MATEMÁTICAS   II
+
+Instrucciones:   El estudiante deberá resolver   los cuatro ejercicios propuestos. En los   ejercicios 2, 3 y 4
+
+deberá contestar solamente a   UNO   de los dos apartados propuestos . Si resuelve más,   se   corregirá   solo   el primero
+
+de los dos apartados resueltos .   Los   ejercicios   deben   redactarse   con   claridad,   detalladamente   y razonando   las
+
+respuestas.   S o lo se permite el uso de calculadores de tipo 1 y 2 (tal y como se indica en la información de las
+
+pruebas).   Cada   ejercicio   completo   puntuará 2 , 5 puntos.   Duración de la prueba:   90   minutos.
+
+EJERCICIO 1.   Para guardar el material escolar, se quiere construir una caja (sin tapa) a partir de una plancha
+
+de cartón de 48 cm de   largo   por 30 cm de   ancho , a   l a   que se le ha recortado un cuadrado de lado   !   en cada
+
+una de sus esquinas   (v éase el dibujo) .
+
+a)   [0 , 75 puntos]   Determina el volumen de la caja.
+
+b)   [1 punto]   Determina las dimensiones de la caja si se quiere que contenga   el mayor volumen posible.
+
+c)   [0 , 75 puntos]   Para poder trasportar la caja cómodamente, se van a realizar dos aberturas. El área de
+
+cada una de ellas está encerrada por las curvas   " ( $ )   =   $
+!  
+−   4 $   y   ) ( $ )   =   2 $   −   5 .   Calcula el área de una
+
+de las aberturas.
+
+Solución:
+
+a)   El volumen de la caja es el área de la base por la altura. El área de la base es   ( 48   −   2 ! )   ⋅   ( 30   −   2 ! )   y
+
+la altura de la caja es   ! . Por tanto, el volumen de la caja se puede   escribir como   la siguiente función:
+
+2 ( ! )   =   ( 48   −   2 ! )   ⋅   ( 30   −   2 ! )   ⋅   ! ,   con   !   ∈   ( 0 ,   15 ) , para que el volumen sea siempre positivo, nunca
+
+negativo.
+
+Criterios de corrección:
+
+•   Determinar el área de la base, 0,25 puntos;   determinar la altura de la caja, 0,25 puntos;
+
+determinar la función del volumen en función de   ! , 0,25 puntos.
+
+b)   Para determinar las dimensiones de la caja   de   volumen máximo podemos trabajar con   2 ( ! )   y buscar
+
+el valor de   !   que maximiza su valor.   Para ello , lo que haremos   será   tomar   la derivada del volumen,
+
+2
+"
+( ! )   =   12 !
+!  
+−   312 !   +   1440 ,   e igualarla   a cero.   En este   caso, la derivada es cero si y s o lo si   !   =   6   o
+
+!   =   20 . Por tanto, la única solución posible es   !   =   6 .
+
+La derivada segunda del volumen es   2
+""
+( ! )   =   24 !   −   312 . Como   2
+""
+( 6 )   =   144   −   312   =   − 168   <   0 ,
+
+tenemos que   para   !   =   6   el volumen es máximo.
+
+Criterios de corrección:
+
+•   Obtener   la primera derivada de   2 ( ! ) , 0,25 puntos; determinar los puntos en los que se anula,
+
+0,25 puntos; determinar y justificar el máximo, 0,5 puntos.
+
+c)   En primer lugar, determinamos los puntos de corte de las dos funciones, para lo que resolvemos
+
+" ( $ )   =   ) ( $ )   o ,   también ,   " ( $ )   −   ) ( $ )   =   0 . Por tanto,   $
+!  
+−   4 $   −   ( 2 $   −   5 )   =   $
+!  
+−   6 $   +   5   =   0 . Los valores
+
+de   $   que cumplen esa ecuación son   $   =   1   y   $   =   5 .
+
+Por tanto, el área que se pide es
+
+Á :;<   =   = >   ( $
+!  
+−   6 $   +   5 ) ?$
+
+#
+
+$
+
+=   =   @ A
+$
+%
+
+3  
+−   3 $
+!  
++   5 $ B
+
+$
+
+#
+
+@   =   C −  
+32
+
+3  
+C   =  
+32
+
+3  
+DEF?<?; G
+!
+
+Criterios de corrección:
+
+•   Obtener   los puntos de corte, 0,25 puntos; calcular la integral   indefinida, 0,25 puntos;   obtener
+
+el valor del área, 0,25 puntos.
+
+EJERCICIO 2.   Elige y resuelve   solo uno   de los dos apartados siguientes:
+
+Apartado a)   Para las fiestas del Corpus Christi que se celebran en Toledo, se instalan toldos en las calles
+
+por las que transcurre la procesión. En una de ellas, los operarios colocan los siguientes puntos de apoyo:
+
+H ( 0 , 1 ,   − 2 ) ,   I ( 1 , 2 , 0 ) ,   J ( 0 , 0 , 1 )   y   K ( 1 , 0 ,   L ) , con   L   ∈   ℝ .
+
+a.1)   [1 punto]   Calcula el valor de   L   para que los cuatro puntos sean coplanarios.
+
+a.2)   [0 , 75 puntos]   Determina la ecuación del plano   N   que contiene al toldo.
+
+a.3)   [0 , 75 puntos ] Si los adornos flor ales   deben estar como mínimo a 1 metro de distancia del toldo y se ha
+
+colocado un adorno de flores en el punto   O ( 1 , 2 , 3 ) , ¿estará correctamente ubicado?
+
+Solución:
+
+a.1)   Para que los tres puntos sean coplanarios ,   tiene que ocurrir que   el   producto mixto   de los   tres   vectores
+
+HI P P P P P ⃗   =   ( 1 , 1 , 2 ) ,   HJ P P P P P ⃗   =   ( 0 ,   − 1 , 3 )   y   HK P P P P P ⃗   =   ( 1 ,   − 1 ,   L   +   2 )   sea   cero.   El producto mixto   es   @
+
+1   1   2
+
+0   − 1   3
+
+1   − 1   L   +   2
+
+@   =
+
+− L   +   6 , que toma el valor   cero si y solo si   L   =   6 .
+
+Criterios de corrección:
+
+•   Plantear el problema, 0,25 puntos; calcular el producto mixto, 0,5 puntos; obtener el valor
+
+correcto de   L , 0,25 puntos.
+
+a.2)   Para obtener el plano tomamos   el punto   J ( 0 , 0 , 1 )   y los vectores   HI P P P P P ⃗   y   HJ P P P P P ⃗   (por ejemplo). Así, la
+
+ecuación del plano es
+
+@
+
+!   −   0   R   −   0   S   −   1
+
+1   1   2
+
+0   − 1   3
+
+@   =   0   ↔   5 !   −   3 R   −   S   +   1   =   0
+
+Criterios de corrección:
+
+•   Determinar los   elementos que definen el plano (punto y vectores directores), 0, 2 5 puntos;
+
+ecuación del plano (en cualquiera de sus formas), 0,5 puntos.
+
+a.3)   La distancia del punto   O   al plano   N   viene dada por
+
+? ( O ,   N )   =  
+| # ⋅ $ ( % ⋅ ! ( $ ⋅ % ) $ |
+
+* # ! ) ( ( % ) ! ) ( ( $ ) !  
+=  
+| ( % |
+
+√ %#  
+=  
+% √ %#
+
+%#  
+≃   0 , 51   m
+
+Como   la distancia es menor que 1 ,   el adorno de flores está demasiado cerca del toldo.
+
+Criterios de corrección:
+
+•   Plantear el problema   y   escribir   la fórmula de la distancia   de un punto a un plano , 0,25 puntos;
+
+obtener la   distancia , 0,25 puntos ;   indicar que el adorno no está bien colocado, 0,25 puntos.
+
+Apartado b)   Resuelve los problemas siguientes:
+
+b.1)   [1 punto]   Calcula la ecuación del plano   N
+"  
+que pasa por   J ( 1 , 1 ,   − 2 ) , es paralelo a la recta   :   que pasa por
+
+los puntos   H ( 1 ,   0 ,   3 )   y   I ( 0 , 4 ,   − 1 )   y perpendicular al plano   N   ≡   − !   +   R   +   2 S   =   1 .
+
+b.2)   [1 , 5 puntos]   Determina los valores reales de   L   ∈   ℝ , para que los puntos   H ( − 1 ,   2 ,   3 ) ,   I ( − 1 ,   0 ,   − 1 ) ,
+
+J ( 2 ,   − 1 ,   1 )   y   K ( 2 ,   3   ,   L ) , formen un tetraedro de volumen   8   unidades cúbicas.
+
+Solución:
+
+b.1)   El plano viene dado por el punto   J ( 1 , 1 ,   − 2 ) , el vector   HI P P P P P ⃗   =   ( − 1 ,   4 ,   − 4 )   y el vector   E P ⃗   =   ( − 1 ,   1 ,   2 ) . Por
+
+tanto, la ecuación del plano es
+
+( ! ,   R ,   S )   =   ( 1 ,   1 ,   − 2 )   +   W ( − 1 ,   4 ,   − 4 )   +   X ( − 1 , 1 , 2 ) , con   W ,   X   ∈   ℝ
+
+También podemos usar la ecuación implícita   @
+
+!   −   1   R   −   1   S   +   2
+
+− 1   4   − 4
+
+− 1   1   2
+
+@   =   12 !   +   6 R   +   3 S   −   12   =   0 . Si
+
+simplificamos , la ecuación del plano   quedaría   así:   4 !   +   2 R   +   S   −   4   =   0 .
+
+Criterios de corrección:
+
+•   Determinar los elementos que definen el plano (punto y vectores directores), 0,5 puntos;
+
+ecuación del plano (en cualquiera de sus formas), 0,5 puntos.
+
+b.2)   Si tomamos los vectores   HI P P P P P ⃗   =   ( 0 ,   − 2 ,   − 4 ) ,   HJ P P P P P ⃗   =   ( 3 ,   − 3 ,   − 2 )   y   HK P P P P P ⃗   =   ( 3 , 1 ,   L   −   3 ) , el volumen del
+
+tetraedro viene dado por
+
+2   =   Y
+1
+
+6  
+@
+
+0   − 2   − 4
+
+3   − 3   − 2
+
+3   1   L   −   3
+
+@ Y   =  
+1
+
+6  
+| − 36   +   6 ( L   −   3 ) |   =   8   ↔   | − 36   +   6 ( L   −   3 ) |   =   48
+
+Tenemos dos opciones:
+
+•   − 36   +   6 ( L   −   3 )   =   48 , por lo que   L   =   17 .
+
+•   − \ − 36   +   6 ( L   −   3 ) ]   =   48 , por lo que   L   =   1 .
+
+Por tanto, para   L   =   1   o   L   =   17   el tetraedro tendrá un volumen de   8 unidades cúbicas.
+
+Criterios de corrección:
+
+•   Plantear el problema   y   escribir la fórmula del   volumen del   tetraedro, 0, 2 5 puntos; obtener   los
+
+vectores para el c álculo del área, 0,75 puntos; obtener   los valores correctos   de   L , 0,5 puntos.
+
+EJERCICIO 3.   Elige y resuelve   solo uno   de los dos apartados siguientes.
+
+Apartado a)   Dado el siguiente sistema de ecuaciones lineales.   ^
+
+!   +   R   −   S   =   2
+
+4 !   +   2 R   =   <
+
+<!   +   R   +   S   =   1
+
+.
+
+a.1)   [1 , 5 puntos]   Discute la resolución del sistema según los valores que pueda tomar el parámetro   <   ∈   ℝ   e
+
+indica el número de soluciones en cada caso.
+
+a.2)   [ 1 punto]   Para   <   =   0 ,   resuelve el sistema de ecuaciones, de forma razonada.
+
+Solución:
+
+a.1)   Sea   _   la matriz de coeficientes y   _
+∗  
+la matriz ampliada. Tenemos que   | _ |   =   2 <   −   6 , que se anula
+
+cuando   <   =   3 . Por tanto, para   <   ≠   3   el sistema es compatible determinado y tiene una única solución.
+
+Para el caso   <   =   3 , tenemos que el rango de   _   es 2 y el de   _ ′   es   2 . Por tanto, el sistema es   compatible
+
+in determinado   y   tiene infinitas soluciones .
+
+Criterios de corrección:
+
+•   Cálculo del determinante de   _   y de los valores de   <   en los que se anula, 0,5 puntos; discusión
+
+razonada para   <   ≠   3 , 0,25 puntos; cálculo del rango de   _   y   _
+∗  
+cuando   <   =   3 , 0,5 puntos;
+
+discusión razonada de este caso, 0,25 puntos. Si se equivoca al calcular el determinante, no
+
+tenerlo en cuenta y valorar el resto.
+
+a.2)   Para   <   =   0   el sistema es compatible determinado y tiene una única solución. Además, la solución es
+
+( ! ,   R ,   S )   =   ( − 1 ,   2 ,   − 1 ) .
+
+Criterios de corrección:
+
+•   Plantear el método de resolución, 0,75 puntos; obtener la   solución correcta, 0,25 puntos.
+
+Apartado b)   Dadas la s   matrices   H   =   b
+1   2   <
+
+1   − 1   − 1
+c   y   I   =   d
+
+1   3
+
+<   0
+
+0   2
+
+e , con   <   ∈   ℝ .
+
+b.1)   [ 1 , 25 puntos ]   Calcula los valores del parámetro   <   para que   H   ∙   I   sea invertible. Justifica tu respuesta.
+
+b.2)   [1 , 25 puntos]   Calcula la inversa de   H   ∙   I   en función de   < .
+
+Solución:
+
+b.1)   Tenemos que   H   ∙   I   =   b
+1   2   <
+
+1   − 1   − 1
+c   ⋅   d
+
+1   3
+
+<   0
+
+0   2
+
+e   =   b
+1   +   2 <   3   +   2 <
+
+1   −   <   1  
+c   , que es una matriz   2   ×   2 . Para que
+
+sea invertible su determinante tiene que ser distinto de cero.   Así,
+
+| H   ⋅   I |   =   1   +   2 <   −   ( 3   +   2 < )   ⋅   ( 1   −   < )   =   1   +   2 <   −   3   +   3 <   −   2 <   +   2 <
+!  
+=   2 <
+!  
++   3 <   −   2
+
+Este determinante es cero cuando   <   =   1 / 2   o   <   =   − 2 .   Por tanto, la matriz es invertible siempre y
+
+cuando   <   no sea  
+$
+
+!  
+o   − 2 .
+
+Criterios de corrección:
+
+•   Justificar cuándo la   matriz es invertible , 0, 2 5 puntos; obtener el determinante   de   H   ∙   I ,   0,5
+
+puntos;   encontrar   los valores para los que   el determinante se anula , 0,5 puntos.
+
+b.2)   La inversa de   H   ∙   I   es
+
+( H   ∙   I )
+( $  
+=  
+1
+
+| H |  
+<?i ( H )   =  
+1
+
+| H |  
+b  
+1   − 3   −   2 <
+
+− 1   +   <   1   +   2 <  
+c   =  
+1
+
+2 <
+!  
++   3 <   −   2  
+b  
+1   − 3   −   2 <
+
+− 1   +   <   1   +   2 <  
+c
+
+Criterios de corrección:
+
+•   Escribir   la   forma   de la matriz   inversa , 0,25 puntos; obtener la matriz   adjunta , 0.5 puntos;
+
+obtener la inversa, 0,5 puntos.
+
+EJERCICIO 4.   Elige y resuelve   solo uno   de los dos apartados siguientes:
+
+Apartado a)   En la entrada del instituto hay tres fotocopiadoras A, B y C cuyos porcentaje s   de fallos son 3%,
+
+5% y 4%, respectivamente. Un estudiante entra en el instituto y, como las tres fotocopiadoras están libres,
+
+elige una al azar.
+
+a.1)   [1 punto]   ¿Cuál es la probabilidad de que fotocopie sin fallos?
+
+a.2)   [1 , 5 puntos]   Si al fotocopiar observa que un a   página es defectuosa, ¿qué probabilidad hay de que se
+
+haya utilizado la fotocopiadora B?
+
+Solución :   Como la fotocopiadora se elige al azar tenemos que   O ( H )   =   O ( I )   =   O ( J )   =  
+$
+
+%
+.   Además, tenemos
+
+que   O (   "<jjk   ∣ ∣   H   )   =   0 , 03 ;   O (   "<jjk   ∣ ∣   I   )   =   0 , 05 ;   O (   "<jjk   ∣ ∣   J   )   =   0 , 04 .
+
+a.1)   Se pide   O \ "<jjk m m m m m m m ]   =   1   −   O ( "<jjk ) .   Usando la regla de probabilidad total:
+
+O ( "<jjk )   =   O ( "<jjk   ∩   H )   +   O ( "<jjk   ∩   I )   +   O ( "<jjk   ∩   J )   =
+
+=   O (   "<jjk   ∣ ∣   H   ) O ( H )   +   O (   "<jjk   ∣ ∣   I   ) O ( I )   +   O (   "<jjk   ∣ ∣   J   ) O ( J )   =
+
+0 , 03  
+1
+
+3  
++   0 , 05  
+1
+
+3  
++   0 , 04  
+1
+
+3  
+=  
+1
+
+3  
+0 , 12   =   0 , 04
+
+Por tanto, la probabilidad que se pide es   O \ "<jjk
+m m m m m m m
+]   =   1   −   O ( "<jjk )   =   1   −   0 , 04   =   0 , 96 .
+
+De manera alternativa, el ejer ci cio se podría haber resuelto considerando
+
+O \ "<jjk m m m m m m m ]   =   O \ "<jjk m m m m m m m   ∩   H ]   +   O \ "<jjk m m m m m m m   ∩   I ]   +   O \ "<jjk m m m m m m m   ∩   J ]   =   O \   "<jjk m m m m m m m  
+∣ ∣   H   ] O ( H )   +   ⋯
+
+Criterios de corrección:
+
+•   Plantear la probabilidad que se pide correctamente, 0,25 puntos;   desarrollar la regla de la
+
+probabilidad total, 0,5 puntos;   obtener la solución correcta, 0,25 puntos.
+
+a.2)   La probabilidad que se pide es   O (   I   ∣ ∣   "<jjk   ) , que se puede obtener   mediante la regla de Bayes:
+
+O (   I   ∣ ∣   "<jjk   )   =  
+O ( I   ∩   "<jjk )
+
+O ( "<jjk )  
+=  
+O (   "<jjk   ∣ ∣   I   ) O ( I )
+
+O ( "<jjk )  
+=  
+0 , 05  
+1
+
+3
+
+0 , 04  
+=  
+0 , 05
+
+0 , 12  
+=  
+5
+
+12  
+≃   0 , 417
+
+Criterios de corrección:
+
+•   Plantear la probabilidad que se pide correctamente, 0,5 puntos; escribir la regla de la
+
+probabilidad condicionada correctamente, 0,5 puntos; obtener el valor correcto, 0,5 puntos.
+
+Apartado b)   Una inspectora de sanidad   sabe que el 5% de los restaurantes no pasará una inspección .   Si
+
+el i g e 8 restaurantes al azar , calcula:
+
+b.1)   [0,75 puntos]   Probabilidad de que   tres restaurantes no pasen la inspección.
+
+b.2)   [0,75 puntos]   Probabilidad de que todos   los restaurantes   pasen la inspección.
+
+b.3)   [1 punto]   Probabilidad de que al menos dos   restaurantes   pasen la inspección .
+
+p
+
+n   k   0.05   0.1   0.15   0.2   0.25   0.3   0.35   0.4   0.45   0.5
+
+8   0   0.6634   0.4305   0.2725   0.1678   0.1001   0.0576   0.0319   0.0168   0.0084   0.0039
+
+1   0.2793   0.3826   0.3847   0.3355   0.2670   0.1977   0.1373   0.0896   0.0548   0.0313
+
+2   0.0515   0.1488   0.2376   0.2936   0.3115   0.2965   0.2587   0.2090   0.1569   0.1094
+
+3   0.0054   0.0331   0.0839   0.1468   0.2076   0.2541   0.2786   0.2787   0.2568   0.2188
+
+4   0.0004   0.0046   0.0185   0.0459   0.0865   0.1361   0.1875   0.2322   0.2627   0.2734
+
+5   0.000 0   0.0004   0.0026   0.0092   0.0231   0.0467   0.0808   0.1239   0.1719   0.2188
+
+6   0.000 0   0.000 0   0.0002   0.0011   0.0038   0.0100   0.0217   0.0413   0.0703   0.1094
+
+7   0.000 0   0.000 0   0.000 0   0.0001   0.0004   0.0012   0.0033   0.0079   0.0164   0.0313
+
+8   0.000 0   0.000 0   0.000 0   0.000 0   0.000 0   0.0001   0.0002   0.0007   0.0017   0.0039
+
+Solución :   Sea   q   la variable   aleatoria   que representa   el número de restaurantes que no pasará la inspección.
+
+La distribución de   q   es una binomial con   E   =   8   y probabilidad igual a   0 , 05 .
+
+b.1)   Se pide   O ( q   =   3 )   =   0 , 0054   (según aparece en la tabla).
+
+Criterios de corrección:
+
+•   Plantear la probabilidad que se pide   correctamente, 0,5 puntos; obtener el valor correcto, 0,25
+
+puntos.
+
+b.2)   SI   todos los restaurantes pas a n la inspección   tenemos que no hay restaurantes   que   no la pase n , es
+
+decir,   ocurre que   q   =   0 . Por tanto, la probabilidad que se pide es   O ( q   =   0 )   =   0 , 6634   (según aparece
+
+en la tabla).
+
+Criterios de corrección:
+
+•   Plantear la probabilidad que se pide correctamente, 0,5 puntos; obtener el valor correcto, 0,25
+
+puntos.
+
+b.3)   La probabilidad de que al menos dos restaurantes pasen la inspección es la misma de que   como
+
+mucho seis no la pasen, es decir,   que   q   sea menor o igual que 6. Por tanto, l a probabilidad que se
+
+pide es
+
+O ( q   ≤   6 )   =   O ( q   =   0 )   +   ⋯   +   O ( q   =   6 )   =   1   −   \ O ( q   =   7 )   +   O ( q   =   8 ) ]   ≃   1
+
+Criterios de corrección:
+
+•   Plantear la probabilidad que se pide correctamente, 0, 2 5 puntos;   expresar esa   probabil i dad
+
+en función de   las probabilidad es   de   sucesos elementales, 0, 5 puntos; obtener el valor
+
+correcto, 0, 2 5 puntos.
+

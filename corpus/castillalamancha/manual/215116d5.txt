@@ -1,0 +1,923 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2324/ORDINARIA/Tecnologia-criterios.ashx]
+Evaluación para el acceso a la Universidad
+
+Curso 2023/2024
+Materia: Tecnología e Ingeniería II
+
+INSTRUCCIONES:
+
+‐   Debes   elegir 4 de los 5 ejercicios   propuestos y   resolver solo una de las opciones (a o b) .
+
+‐   Si realizas ejercicios u opciones de más,   se corregirán solo las primeras   que aparezcan resueltas.
+
+‐   Debes redactar los ejercicios con claridad, detalladamente y razonando las respuestas.
+
+‐   Se penalizará los errores o ausencia de unidades.
+
+‐   La duración máxima de la prueba será   1 hora y 30 minutos .
+
+‐   Solo podrás utilizar   calculadores permitidas (Tipo 1 o 2) .
+
+Criterios de corrección
+
+‐   En aquellos apartados en los que los resultados dependan del anterior, se valorará como válidos si el
+planteamiento fuese correcto pero el resultado no, siempre que se deba a un error derivado del primer apartado.
+
+‐   En las soluciones numéricas se debe especificar la unidad, en caso de ser necesario, manteniéndose las
+unidades usadas en el enunciado, salvo que se pida otra explícitamente, como las del Sistema Internacional. Los
+errores en las unidades se contabilizan globalmente en el examen, teniendo en cuenta tanto la unidad como el
+prefijo (de pico hasta Tera). La siguiente tabla muestra la penalización en la puntuación en función de los errores
+cometidos:
+
+Errores   1   2   3   4   5   6 o más
+
+Puntuación   0   0.25   0.25   0.5   0.5   0.75
+
+‐   En la valoración de los ejercicios se tendrá en cuenta los criterios generales:
+
+a.   El planteamiento, desarrollo y la corrección en las operaciones.
+
+b.   La interpretación de los resultados cuando sea necesario.
+
+c.   Pensamiento crítico en la resolución de los ejercicios y cuestiones.
+
+d.   Los errores conceptuales y los errores operativos.
+
+e.   La claridad en la exposición, las explicaciones adicionales y la presentación y calidad del ejercicio.
+
+Ejercicio 1
+
+Opción a. (2,5 puntos)   Se ha realizado un ensayo de tracción sobre un material en el que la carga máxima
+aplicada antes de la rotura fue de   40000 N . La longitud final medida en la probeta fue   85 mm . Si la sección
+transversal de la probeta inicialmente fue   100 mm
+2  
+y la longitud inicial   55 mm , obtén el esfuerzo y la
+
+deformación de rotura unitaria del material.
+
+Solución 1.a:
+
+Datos:
+
+𝐹𝐹 𝑟𝑟   = 40000 N
+
+𝐿𝐿   = 85 mm
+
+𝐴𝐴 𝑜𝑜   = 100 mm
+2
+
+𝐿𝐿   𝑜𝑜   = 55 mm
+
+El esfuerzo de rotura es:
+
+𝝈𝝈  
+𝒓𝒓  
+=  
+𝐹𝐹 𝑟𝑟
+𝐴𝐴 𝑜𝑜
+
+= 
+40000
+100
+
+𝑁𝑁
+𝑚𝑚𝑚𝑚
+2
+
+𝑚𝑚𝑚𝑚
+2
+
+10
+−6  
+𝑚𝑚  
+2  
+= 400 · 10
+6  
+𝑁𝑁
+𝑚𝑚  
+2  
+=   𝟒𝟒𝟒𝟒𝟒𝟒   𝑴𝑴𝑴𝑴𝑴𝑴   (1,5 puntos)
+
+Y la deformación de rotura:
+
+𝜺𝜺   =  
+𝛥𝛥 𝐿𝐿
+
+𝐿𝐿   𝑜𝑜
+
+=  
+𝐿𝐿 − 𝐿𝐿   𝑜𝑜
+𝐿𝐿   𝑜𝑜
+
+= 
+85   −   55
+55  
+=   𝟒𝟒 ,   𝟓𝟓 𝟒𝟒 𝟓𝟓𝟓𝟓   (1 punto)
+
+Opción b. (2,5 puntos)   Se ensaya una pieza de bronce mediante un ensayo de dureza Vickers. Para ello,
+se aplica una fuerza de   30 kgf   sobre un material durante   10 s . Al finalizar el ensayo, las diagonales
+
+obtenidas de la huella valen   𝑑𝑑 1   = 0,63 mm   y   𝑑𝑑 2   = 0,61 mm . Según los datos obtenidos:
+
+a.   (1 punto)   ¿Cuál es el valor de la diagonal que se debe utilizar para calcular la dureza?
+
+b.   (1 punto)   ¿Cuál es el valor de la dureza del material?
+
+c.   (0,5 puntos)   Exprese la dureza Vickers en valor normalizado.
+
+Evaluación para el acceso a la Universidad
+
+Curso 2023/2024
+Materia: Tecnología e Ingeniería II
+
+Solución 1.b:
+
+Datos:
+
+𝐹𝐹   = 30 kgf
+
+𝑡𝑡   = 10 s
+
+𝑑𝑑 1   = 0.63 mm
+
+𝑑𝑑
+2  
+= 0.61 mm
+
+a.   La diagonal será la media de las dos diagonales obtenidas:
+
+𝒅𝒅   =  
+𝑑𝑑 1   +   𝑑𝑑 2
+
+2  
+= 
+0.63 + 0.61
+2  
+=   𝟒𝟒 ,   𝟔𝟔𝟔𝟔   𝐦𝐦𝐦𝐦   (1 punto)
+
+b.   La dureza del material es:
+
+𝑯𝑯𝑯𝑯   =  
+𝐹𝐹
+𝑠𝑠  
+= 1,8453  
+𝐹𝐹
+𝑑𝑑  
+2  
+= 1,8453  
+30
+0,62
+2  
+=   𝟏𝟏 𝟒𝟒𝟒𝟒 ,   𝟒𝟒𝟏𝟏  
+𝐤𝐤𝐤𝐤
+𝐦𝐦𝐦𝐦
+𝟔𝟔  
+(1 punto)
+
+Se tomará como buenas las unidades  
+kp
+mm   2  
+y  
+kgf
+
+mm   2
+.
+
+c.   La expresión normalizada es:
+
+𝟏𝟏 𝟒𝟒𝟒𝟒   𝐇𝐇𝐇𝐇   𝟑𝟑 𝟒𝟒   (0,5 puntos)
+
+Ejercicio 2
+
+Opción a. (2,5 puntos)   Una máquina térmica opera con un rendimiento ideal del   35% , absorbiendo   1200 J
+
+de calor por ciclo desde una fuente caliente a   600 K . Se te pide determinar el calor liberado por ciclo y la
+temperatura de la fuente fría.
+
+Solución 2.a:
+
+Datos:
+
+Máquina térmica
+
+𝜂𝜂 𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖   = 35%
+
+𝑄𝑄 1   = 1200 J
+
+𝑇𝑇 1   = 600 K
+
+Partiendo del rendimiento ideal de la máquina térmica, el calor liberado es:
+
+𝜂𝜂 𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖   =  
+𝑄𝑄 1   − 𝑄𝑄 2
+𝑄𝑄 1
+
+→
+
+𝑸𝑸 𝟔𝟔   = (1   − 𝜂𝜂 𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖 ) ·   𝑄𝑄 1   = (1   −   0,35) · 1200 J = 780 J =   𝟏𝟏𝟏𝟏 𝟔𝟔 ,   𝟏𝟏 𝟓𝟓   𝐜𝐜𝐜𝐜𝐜𝐜
+
+(1,25 puntos)
+
+Partiendo del rendimiento ideal de la máquina térmica, la temperatura de la fuente fría
+es:
+
+𝜂𝜂 𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖   =  
+𝑇𝑇 1   − 𝑇𝑇 2
+𝑇𝑇 1
+
+→
+
+𝑻𝑻
+𝟔𝟔  
+= (1   − 𝜂𝜂
+𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖
+) ·   𝑇𝑇
+1  
+= (1   −   0,35) · 600 K =   𝟑𝟑𝟑𝟑 𝟒𝟒   𝐊𝐊
+
+(1,25 puntos)
+
+Opción b. (2,5 puntos)   Un tractor se encuentra en el campo un día que hace una temperatura de   35
+𝑜𝑜
+C ,
+por lo que pone el aire acondicionado para tener una temperatura interior de   23
+𝑜𝑜  
+𝐶𝐶 . Para conseguir esta
+temperatura, la instalación de aire acondicionado debe absorber del interior del tractor   16000 kJ/h .
+
+a.   (1,25 puntos)   ¿Qué potencia tendrá que suministrar el motor del tractor para conseguir la
+temperatura deseada suponiendo un funcionamiento ideal de la instalación?
+
+b.   (1,25 puntos)   Como la eficiencia ideal es tres veces la real, ¿cuál es la potencia real que debe
+suministrar el motor?
+
+Solución 2.b:
+
+Datos:
+
+Máquina frigorífica
+
+𝑇𝑇 1   = 35
+𝑜𝑜
+C = 308 K
+
+𝑇𝑇 2   = 23
+𝑜𝑜
+C = 296 K
+
+𝑄𝑄 2
+𝑡𝑡  
+= 16000 kJ/h
+
+a.   El rendimiento ideal es:
+
+𝜀𝜀 𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖   =  
+𝑇𝑇 2
+𝑇𝑇 1   − 𝑇𝑇 2
+
+=  
+296
+308   −   296  
+= 24,66   (0,5 puntos)
+
+Por   lo   que   la   potencia   que   debe   suministrar   el   motor   para   conseguir   la
+temperatura deseada, suponiendo un funcionamiento ideal, es la siguiente:
+
+𝑴𝑴 𝒊𝒊 𝒅𝒅 𝒊𝒊 𝑴𝑴 𝒊𝒊   =
+
+𝑄𝑄
+2
+𝑡𝑡
+
+𝜀𝜀 𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖
+
+= 
+16000 
+kJ
+h
+
+24,66  
+= 648,65 
+kJ
+
+h  
+·  
+1 h
+
+3600 s  
+· 
+1 kW · s
+
+1   𝑘𝑘 J  
+=
+= 0,18 KW =   𝟏𝟏𝟏𝟏 𝟒𝟒   𝐖𝐖
+
+(0,75 puntos)
+
+b.   El rendimiento real es:
+
+Evaluación para el acceso a la Universidad
+
+Curso 2023/2024
+Materia: Tecnología e Ingeniería II
+
+𝜀𝜀
+𝑟𝑟 𝑖𝑖𝑖𝑖𝑖𝑖  
+=  
+𝜀𝜀 𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖
+
+3  
+= 
+24.66
+3  
+= 8,22   (0,5 puntos)
+
+Siendo la potencia real que debe suministrar el motor:
+
+𝑴𝑴
+𝒓𝒓 𝒊𝒊𝑴𝑴𝒊𝒊  
+=
+
+𝑄𝑄
+2
+𝑡𝑡
+
+𝜀𝜀 𝑟𝑟 𝑖𝑖𝑖𝑖𝑖𝑖
+
+= 
+16000 
+kJ
+h
+
+8,22  
+= 1945,94 
+kJ
+
+h  
+·  
+1 h
+
+3600 s  
+· 
+1 kW · s
+
+1   kJ
+
+= 0,54 kW =   𝟓𝟓 𝟒𝟒𝟒𝟒   𝐖𝐖
+
+(0,75 puntos)
+
+La obtención de la potencia real multiplicando directamente por el rendimiento se
+
+considera como correcto   (1,25 puntos).
+
+Ejercicio 3
+
+Opción a. (2,5 puntos)   Partiendo de la tabla de verdad mostrada, donde A, B,
+C y D son entradas, y S es la salida. Se pide:
+
+a.   (1,25 puntos)   Simplificar al máximo la función mediante el mapa de
+Karnaugh.
+
+b.   (1,25 puntos)   Implementar el circuito con el menor número de puertas
+lógicas.
+
+A   B   C   D   S
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+0
+
+1
+
+0
+
+1
+
+0
+
+0
+
+1
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+Solución 3.a:
+
+a.   La función simplificada mediante el mapa de
+
+Karnaugh es:
+
+AB\CD   00   01   11   10
+
+00   0   1   1   0
+
+01   1   0   0   1
+
+11   0   0   0   1
+
+10   0   1   1   0
+
+𝐼𝐼   =   𝐵𝐵   ·   𝐷𝐷   +   𝐴𝐴   ·   𝐵𝐵   ·   𝐷𝐷   +   𝐵𝐵 �   ·   𝐶𝐶̅   ·   𝐷𝐷
+
+Mapa de Karnaugh   (0,25 puntos)
+
+Función:
+
+‐   Simplificada al máximo.   (1 puntos)
+
+‐   Que cumpla la tabla de verdad,
+pero sin simplificar al máximo.  
+(0,5 puntos)
+
+b.   El circuito con menor puertas lógicas es:
+
+A
+
+B
+
+C
+
+S
+
+D
+
+Circuito obtenido de forma correcta a
+partir de la función del apartado   (a),
+
+aunque la función sea incorrecta o no
+esté simplificada al máximo.
+
+(1,25 puntos)
+
+Evaluación para el acceso a la Universidad
+
+Curso 2023/2024
+Materia: Tecnología e Ingeniería II
+
+Opción b. (2,5 puntos)   Partiendo del circuito combinacional de la figura. Obtenga:
+
+a.   (0,5 puntos)   La función lógica que representa.
+
+b.   (1 punto)   Simplifique al máximo la función obtenida en el apartado anterior.
+
+c.   (1 punto)   Dibuje el nuevo circuito.
+
+Solución 3.b:
+
+a.   Analizando el circuito de la figura:
+
+Se obtiene la siguiente función lógica:
+
+S = A · C + B · C �   + B �   · C �   (0,5 puntos)
+
+b.   Partiendo de la tabla de verdad y aplicando el mapa de Karnaugh:
+
+A   B   C   S
+
+0   0   0   1
+
+0   0   1   0
+
+0   1   0   1
+
+0   1   1   0
+
+1   0   0   1
+
+1   0   1   1
+
+1   1   0   1
+
+1   1   1   1
+
+A\BC   00   01   11   10
+
+0   1   0   0   1
+
+1   1   1   1   1
+
+La función lógica simplificada queda:
+
+𝑆𝑆   =   𝐶𝐶̅   +   𝐴𝐴
+
+Mapa de Karnaugh   (0,25 puntos)
+
+Función:
+
+‐   Simplificada al máximo con o sin XOR.   (0,75 puntos)
+
+‐   Que cumpla con la función lógica del circuito pero que no
+esté simplificada al máximo.  
+(0,25 puntos)
+
+No es necesaria la tabla de verdad para resolver el apartado. Los ejercicios
+resueltos directamente con simplificación mediante algebra de Boole también serán
+considerados correctos ( 1 punto ).
+
+c.   El nuevo circuito queda:
+
+A
+
+B
+
+C
+
+S
+
+A
+
+B
+
+C
+
+S
+
+C �
+
+C �
+
+B �
+
+B
+
+A   ·   C
+
+B �   ·   C �
+
+B   ·   C �
+
+A
+
+C
+
+S   =   A   ·   C   +   B   ·   C
+�  
++   B �   ·   C
+�
+
+Evaluación para el acceso a la Universidad
+
+Curso 2023/2024
+Materia: Tecnología e Ingeniería II
+
+Los circuitos obtenidos de forma correcta a partir de la función del apartado   (b),   aunque la
+función sea incorrecta o no esté simplificada al máximo.  
+(1 puntos)
+
+Ejercicio 4
+
+Opción a. (2,5 puntos)   Una señal sinusoidal de tensión está definida por la expresión   𝑈𝑈 ( 𝑡𝑡 ) = 150 ·
+sin(377 ·   𝑡𝑡 ) V . Calcula:
+
+a.   (1 punto)   Tensión de pico, pico a pico y valor eficaz.
+
+b.   (1 punto)   Periodo y frecuencia.
+
+c.   (0,5 puntos)   La intensidad instantánea si se aplica a una resistencia pura de   100   Ω .
+
+Solución 4.a:
+
+a.   Los valores de la tensión de pico, pico a pico y valor eficaz, son los siguientes:
+
+𝑯𝑯
+𝒑𝒑  
+=   𝑉𝑉
+𝑚𝑚 𝑖𝑖 𝑚𝑚  
+=   𝟏𝟏 𝟓𝟓𝟒𝟒   𝐇𝐇   (0,25 puntos)
+
+𝑯𝑯 𝒑𝒑𝒑𝒑   = 2 ·   𝑉𝑉 𝑝𝑝   = 2 · 150 =   𝟑𝟑 𝟒𝟒𝟒𝟒   𝐇𝐇   (0,25 puntos)
+
+𝑯𝑯 𝑹𝑹 𝑴𝑴 𝑹𝑹   =  
+𝑈𝑈
+𝑝𝑝
+√ 2  
+= 
+150
+
+√ 2  
+=   𝟏𝟏 𝟒𝟒𝟔𝟔 ,   𝟏𝟏   𝐇𝐇   (0,5 puntos)
+
+b.   La frecuencia de la señal es:
+
+𝜔𝜔   = 2 𝜋𝜋𝜋𝜋 → 𝒇𝒇   =  
+𝜔𝜔
+
+2 𝜋𝜋  
+= 
+377
+2 𝜋𝜋  
+=   𝟔𝟔 𝟒𝟒   𝐇𝐇𝐇𝐇   (0,5 puntos)
+
+Por lo que el período es:
+
+𝑻𝑻   = 
+1
+
+𝜋𝜋  
+= 
+1
+60  
+=   𝟒𝟒 ,   𝟒𝟒𝟏𝟏𝟔𝟔 𝟎𝟎   𝐬𝐬   (0,5 puntos)
+
+c.   Si se aplica a una carga resistiva pura, la intensidad instantánea es:
+
+𝑰𝑰 ( 𝒕𝒕 ) =  
+𝑈𝑈 ( 𝑡𝑡 )
+
+𝑅𝑅  
+= 
+150 · sin(377 ·   𝑡𝑡 )
+100  
+=   𝟏𝟏 ,   𝟓𝟓   ·   𝐬𝐬𝐬𝐬𝐬𝐬 ( 𝟑𝟑 𝟎𝟎𝟎𝟎   ·   𝒕𝒕 )   𝐀𝐀   (0,5 puntos)
+
+Opción b. (2,5 puntos)   Se tiene una carga con una impedancia   𝑍𝑍   = 40
+∠45
+𝑜𝑜   Ω . La carga se conecta a una
+fuente de tensión eficaz de   230 V . Calcula:
+
+a.   (0,5 puntos)   Tensión e intensidad eficaz de la carga.
+
+b.   (1 punto)   Potencia activa, reactiva y aparente.
+
+c.   (1 punto)   Represente el triángulo de potencia y calcule el factor de potencia.
+
+A
+
+B
+
+C
+
+S
+
+Evaluación para el acceso a la Universidad
+
+Curso 2023/2024
+Materia: Tecnología e Ingeniería II
+
+Solución 4.b:
+
+a.   La tensión de la carga es directamente la del generador:
+
+𝑼𝑼   =   𝟔𝟔𝟑𝟑𝟒𝟒 ∠ 𝟒𝟒
+𝒐𝒐   𝐇𝐇   (0,25 puntos)
+
+Y la intensidad:
+
+𝑰𝑰   =  
+𝑈𝑈
+𝑍𝑍  
+= 
+230 ∠0  
+𝑜𝑜
+
+40 ∠45   𝑜𝑜
+
+=   𝟓𝟓 ,   𝟎𝟎𝟓𝟓 ∠−𝟒𝟒 𝟓𝟓
+𝒐𝒐   𝐀𝐀   (0,25 puntos)
+
+b.   Las potencias son las siguientes:
+
+𝑹𝑹   =   𝑈𝑈   ·   𝐼𝐼   = 230 · 5,75 =   𝟏𝟏 𝟑𝟑𝟔𝟔𝟔𝟔 ,   𝟓𝟓   𝐇𝐇𝐀𝐀   (0,5 puntos)
+
+𝑴𝑴   =   𝑆𝑆   · cos ( 𝜑𝜑 )   = 1322,5 · cos(45
+𝑜𝑜
+) =   𝟑𝟑𝟑𝟑𝟓𝟓 ,   𝟏𝟏 𝟓𝟓   𝐖𝐖   (0,25 puntos)
+
+𝑸𝑸   =   𝑆𝑆   · sin( 𝜑𝜑 ) = 1322,5 · sin(45) =   𝟑𝟑𝟑𝟑𝟓𝟓 ,   𝟏𝟏 𝟓𝟓   𝐇𝐇𝐀𝐀 𝐕𝐕   (0,25 puntos)
+
+c.   El factor de potencia es:
+
+𝐜𝐜𝐜𝐜 𝐬𝐬 ( 𝝋𝝋 ) =  
+𝑃𝑃
+𝑆𝑆  
+= 
+935,15
+1322,5  
+=   𝟒𝟒 ,   𝟎𝟎𝟒𝟒𝟎𝟎   (0,5 puntos)
+
+Y el triángulo de potencias:
+
+(0,5 puntos)
+
+Q=0.93 kVAR
+
+S=1.3 kVA
+
+P=0.93 kW
+
+φ   =45
+o
+
+Evaluación para el acceso a la Universidad
+
+Curso 2023/2024
+Materia: Tecnología e Ingeniería II
+
+Ejercicio 5
+
+Opción a. (2,5 puntos)   Diseña un circuito neumático tal que su funcionamiento sea el siguiente:
+
+1.   Cuando se activan de forma simultánea dos válvulas 3/2, un émbolo neumático de simple efecto
+avanza reguladamente.
+
+2.   Cuando éste llega al final, retrocede automáticamente.
+
+Solución 5.a:
+
+Uso de los componentes pedidos:
+
+‐   Dos válvulas 3/2.   (0,5 puntos)
+
+‐   Un émbolo neumático de simple efecto.   (0,25 puntos)
+
+Comportamiento de simultaneidad.   (0,5 puntos)
+
+Entrada de aire.   (0,25 puntos)
+
+Avance regulado del cilindro   (0,25 puntos)
+
+Retroceso:
+
+‐   Retroceso automático cuando el émbolo llega al final del recorrido.   (0,5 puntos)
+
+‐   Otro tipo de retroceso.   (0,25 puntos)
+
+El planteamiento, desarrollo y la corrección del esquema.   (0,25 puntos)
+
+La solución no es única. Es posible conseguir el comportamiento pedido con distintos circuitos.
+
+Evaluación para el acceso a la Universidad
+
+Curso 2023/2024
+Materia: Tecnología e Ingeniería II
+
+Opción b. (2,5 puntos)   Dado el siguiente circuito neumático, explica el funcionamiento de este.
+
+Solución 5.b:
+
+El comportamiento del circuito neumático es el siguiente:
+
+1.   Al accionar la válvula 3/2 con el pulsador, el primer cilindro avanza reguladamente
+hasta el final de su recorrido.  
+(0,75 puntos)
+
+2.   Cuando el primer cilindro llega al final de su recorrido, el segundo comienza a
+avanzar reguladamente, debido al accionamiento de la segunda válvula 3/2.  
+(0,5 puntos)
+
+3.   Al llegar el cilindro el segundo cilindro al final del recorrido, el tercero comienza a
+avanzar reguladamente, debido al accionamiento de la tercera válvula 3/2.  
+(0,5 puntos)
+
+4.   Cuando el tercer cilindro llega al final de su recorrido, todos los cilindros retroceden
+de forma simultánea, debido al accionamiento de la última válvula 3/2. Esta última
+válvula tiene retorno por muelle, de forma que cuando el último cilindro comienza a
+retirarse, esta cambia de posición.
+
+(0,75 punto)
+
+1
+

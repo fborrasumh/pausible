@@ -1,0 +1,701 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2223/ConvocatoriaOrdinaria/Criterios-Matematicas-II-ordinaria-2023.ashx]
+Evaluación para el Acceso a la Universidad
+Curso 2022/2023
+
+Materia: MATEMÁTICAS II
+Instrucciones:   El estudiante deberá resolver   CUATRO   de los ocho ejercicios propuestos. Si resuelve
+más, se corregirán solo los cuatro primeros. Los ejercicios deben redactarse con claridad, detalladamente y
+razonando las respuestas. Se podrá utilizar cualquier tipo de calculadora. Cada ejercicio completo puntuará
+2 , 5 puntos. Duración de la prueba: 1 hora y 30 minutos.
+
+1.   Sean las matrices   X   = (
+a   b
+c   0
+) ,   con   a ,   b ,   c   ∈ ℝ ,   A   = (
+2   1
+4   2
+)   y   B   = (
+1   0
+2   0
+) .
+
+a )   [1,5 puntos]   Determina las condiciones que tienen que cumplir los valores   a ,   b ,   c   para que   A   ⋅   X   =   B .
+
+b )   [1 punto]   Si además queremos que   X   sea simétrica, ¿qué se debe cumplir? ¿Cómo es la matriz   X   resultante?
+
+Solución:
+
+a )   Se ha de cumplir que   (
+2   1
+4   2
+) (
+a   b
+c   0
+) = (
+1   0
+2   0
+) .   Las ecuaciones resultantes son: 2 a   +   c   =   1 ;   2 b   =
+
+0 ;   4 a   +   2 c   =   2 ;   4 b   =   0 .   Por tanto, b=0 y 2 a   +   c   =   1 son las condiciones que se han de cumplir.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener las condiciones, 1 punto.
+
+b )   Para que la matriz   X   sea simétrica se tiene que cumplir que   b   =   c . Como ya hemos visto que   b   =   0, entonces
+
+c   =   0 y   a   =   1 / 2. La matrix resultante es   X   = (
+1 / 2   0
+0   0
+) .
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener las nuevas condiciones y   X , 0 , 5 puntos.
+2.   a )   [0,5 puntos]   Enuncia el teorema de Bolzano.
+
+b )   [1 punto]   Sea la función   f ( x ) =   x
+3  
++   6 x
+2  
++   3 x   −   10. Utiliza el teorema de Bolzano para justificar que esta función
+tiene al menos una raíz en el intervalo   [ 0 ,   2 ] .
+
+c )   [1 punto]   ¿Podría   f ( x )   tener más de una raíz en el intervalo   [ 0 ,   2 ] ? Justifica tu respuesta.
+
+Solución:
+
+a )   El teorema de Bolzano se puede enunciar de la siguiente manera:
+Sea una   f ( x )   una función continua en el intervalo cerrado   [ a ,   b ]   y tal que   f ( a ) ⋅   f ( b ) <   0, entonces
+existe   c   ∈ ( a ,   b )   tal que   f ( c ) =   0.
+
+Criterios de corrección:
+
+Enunciar el teorema correctamente, 0 , 5 puntos.
+
+b )   La función   f ( x )   es un polinomio y, por tanto, es continua en   ℝ . Además, como   f ( 0 ) = − 10 y   f ( 2 ) =   28, por el
+teorema de Bolzano existe   c   ∈ ( 0 ,   2 )   tal que   f ( c ) =   0. Por tanto,   f ( x )   tiene al menos una raíz en el intervalo
+
+[ 0 ,   2 ] .
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; justificar el resultado, 0 , 5 puntos.
+
+c )   Veamos si la función crece y/o decrece en el intervalo. Su primera derivada es   f
+′
+( x ) =   3 x
+2  
++   12 x   +   3, que es
+estrictamente positiva en el intervalo   [ 0 ,   2 ] . Por tanto, la función   f ( x )   es estrictamente creciente en el intervalo y
+sólo puede tener una raíz en ese intervalo.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; justificar el resultado, 0 , 5 puntos.
+3.   Sean el punto   A ( 1 ,   1 ,   a )   y el plano   π   ≡   b   ⋅   x   +   y   +   z   =   1, con   a ,   b   ∈ ℝ .
+
+a )   [1,5 puntos]   ¿Qué deben cumplir los valores   a ,   b   para que el punto   A   esté contenido en el plano   π   y éste tenga
+como vector normal uno que es perpendicular al vector ⃗   u   = ( 1 ,   2 ,   0 ) ?
+
+b )   [1 punto]   Con los valores de   a ,   b   del apartado anterior, obtén la ecuación de la recta perpendicular al plano   π   y que
+pasa por el punto   A .
+
+Solución:
+
+a )   Si el punto   A   está contenido en el plano   π   se debe cumplir que   b   +   1   +   a   =   1, es decir,   a   = − b . De la segunda
+condición se ha de cumplir que el vector normal   ( b ,   1 ,   1 )   es perpendicular a ⃗   u , que se cumple sólo si su producto
+escalar es cero, es decir, cuando   b   +   2   +   0   =   0. Por tanto,   b   = − 2 y   a   =   2.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener las dos condiciones correctamente, 0 , 5 puntos; obtener los valores
+correctos de   a   y   b , 0 , 5 puntos.
+
+b )   El punto es   A ( 1 ,   1 ,   2 )   y el vector normal de   π   es   (− 2 ,   1 ,   1 ) , que será el vector director de la recta que se pide. Por
+tanto, la ecuación de la recta que pasa por el punto   A   y es perpendicular al plano   π   es
+
+( x ,   y ,   z ) = ( 1 ,   1 ,   2 ) +   λ (− 2 ,   1 ,   1 ),   λ   ∈ ℝ
+
+Criterios de corrección:
+
+Plantear el problema, calcular el punto   A   y el vector normal, 0 , 5 puntos; dar la ecuación de la recta correcta,
+0 , 5 puntos. Si los valores de   a   y   b   obtenidos en el primer apartado no son correctos, resolver este apartado
+como si lo fueran.
+4.   a )   Una empresa de mantenimiento da servicio a empresas de dos polígonos industriales (el polígono Campo y el
+polígono Llano). El 30 % de las reparaciones se realizan en el polígono Campo mientras que el 70 % se realiza en
+el polígono Llano. Además, en el polígono Campo el 10 % de las reparaciones son de tipo mecánico y el 90 % de
+tipo eléctrico. En el polígono Llano el 30 % de las reparaciones son de tipo mecánico y el resto de tipo eléctrico.
+a.1)   [0,5 puntos]   ¿Cuál es la probabilidad de que en un momento dado se realice una reparación de tipo mecánico?
+a.2)   [0,75 puntos]   Si se ha realizado una reparación de tipo eléctrico, ¿qué probabilidad hay de que se haya
+realizado en el polígono Llano?
+
+b )   El famoso piloto de carreras Fernando Osnola es capaz de completar una vuelta a un circuito en un tiempo que
+sigue una distribución normal de media 1.5 minutos y desviación típica 0.15 minutos.
+b.1)   [0,5 puntos]   ¿Cuál es la probabilidad de que complete una vuelta en menos de 1.35 minutos?
+b.2)   [0,75 puntos]   ¿Cuál sería el tiempo exacto que es mayor que el 85.08 % de los tiempos realizados al completar
+una vuelta al circuito?
+
+a   0.00   0.01   0.02   0.03   0.04   0.05   0.06   0.07   0.08   0.09
+0.90   0.8159   0.8186   0.8212   0.8238   0.8264   0.8289   0.8315   0.8340   0.8365   0.8389
+
+1.00   0.8413   0.8438   0.8461   0.8485   0.8508   0.8531   0.8554   0.8577   0.8599   0.8621
+
+1.10   0.8643   0.8665   0.8686   0.8708   0.8729   0.8749   0.8770   0.8790   0.8810   0.8830
+
+1.20   0.8849   0.8869   0.8888   0.8907   0.8925   0.8944   0.8962   0.8980   0.8997   0.9015
+
+1.30   0.9032   0.9049   0.9066   0.9082   0.9099   0.9115   0.9131   0.9147   0.9162   0.9177
+
+1.40   0.9192   0.9207   0.9222   0.9236   0.9251   0.9265   0.9279   0.9292   0.9306   0.9319
+
+1.50   0.9332   0.9345   0.9357   0.9370   0.9382   0.9394   0.9406   0.9418   0.9429   0.9441
+
+1.60   0.9452   0.9463   0.9474   0.9484   0.9495   0.9505   0.9515   0.9525   0.9535   0.9545
+
+1.70   0.9554   0.9564   0.9573   0.9582   0.9591   0.9599   0.9608   0.9616   0.9625   0.9633
+
+Solución:
+
+a )   La probabilidad de que se haga una reparación en el polígono Campo es   P ( CA ) =   0 , 30 y de que se haga en el
+polígono Llano es   P ( LL ) =   0 , 70. La probabilidad de que se haga una reparación de tipo mecánico en el polígono
+Campo es   P ( M   ∣   CA ) =   0 , 10 y de que se haga de tipo eléctrico es   P ( E   ∣   CA ) =   0 , 90. De manera similar,
+
+P ( M   ∣   LL ) =   0 , 30 y   P ( E   ∣   LL ) =   0 , 70.
+
+•
+
+LL
+E
+0 , 70
+M
+0 , 30
+0
+, 70
+CA
+E
+0 , 90
+M
+0 , 10
+0
+, 30
+1)   Se pide   P ( M ) =   0 , 30   ⋅   0 , 10   +   0 , 70   ⋅   0 , 30   =   0 , 24.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 25 puntos; obtener la solución co-
+rrecta, 0 , 25 puntos.
+2)   Resolveremos este apartado usando el teorema de Bayes:
+
+P ( LL   ∣   E ) =  
+P ( LL   ∩   E )
+
+P ( E )  
+=  
+P ( LL ) P ( E   ∣   LL )
+
+1   −   P ( M )  
+=  
+0 , 70   ⋅   0 , 70
+1   −   0 , 24  
+=
+
+0 , 49
+0 , 76  
+=   0 , 6447
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener la solución correc-
+ta, 0 , 25 puntos.
+
+b )   1)   Sea   X   la variable aleatoria que representa el tiempo que tarda el piloto en dar una vuelta al circuito. La distri-
+bución de   X   es normal con media 1.5 minutos y desviación típica de 0.15 minutos. La probabilidad que se pide
+es:
+
+P ( X   <   1 , 35 ) =   P ( Z   <  
+1 , 35   −   1 , 5
+0 , 15  
+) =   P ( Z   < − 1 ) =   1   −   P ( Z   <   1 ) =   1   −   0 , 8413   =   0 , 1587 .
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 25 puntos; obtener la solución correcta, 0 , 25 puntos.
+2)   Sea   q   el tiempo que se pide en el enunciado. Este valor cumple   P ( X   <   q ) =   0 , 8508. Para obtenerlo operamos
+de la siguiente manera:
+
+P ( X   <   q ) =   0 , 8508   =   P ( Z   <  
+q   −   1 , 5
+0 , 15  
+)
+
+Mirando en la tabla adjunta vemos que  
+q − 1 , 5
+0 , 15  
+=   1 , 04. Por tanto,   q   =   1 , 5   +   0 , 15   ⋅   1 , 04   =   1 , 6560.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener la solución correcta, 0 , 25 puntos.
+5.   a )   [1 punto]   Calcula la siguiente integral:
+
+∫  
+dx
+
+( 1   −   3 x )
+1 / 2  
+− ( 1   −   3 x )
+2 / 3  
+.
+
+Puedes utilizar el cambio de variable 1   −   3 x   =   t
+6
+.
+
+b )   [1,5 puntos]   Sean las matrices   A   = (
+
+1   0   1
+0   1   0
+2   0   0
+
+)   y   B   = (
+
+1   0   0
+0   0   0
+2   1   1
+
+) . Sin calcular   A
+− 1
+, razona por qué   A
+− 1
+
+existe y discute si la matriz   A
+− 1  
+⋅   B   tiene inversa.
+
+Solución:
+
+a )   Del cambio de variable propuesto obtenemos   − 3 dx   =   6 t
+5
+dt , es decir,   dx   = − 2 t
+5
+dt . Haciendo el cambio:
+
+∫  
+dx
+
+( 1   −   3 x )
+1 / 2  
+− ( 1   −   3 x )
+2 / 3  
+= ∫  
+− 2 t
+5
+dt
+
+( t
+6
+)
+1 / 2  
+− ( t
+6
+)
+2 / 3  
+= ∫ 
+− 2 t
+5
+dt
+t
+3  
+−   t
+4  
+= − 2   ∫  
+t
+2
+dt
+
+1   −   t  
+=
+− 2   (∫(− 1   −   t ) dt   + ∫  
+dt
+
+1   −   t  
+) = − 2   (− t   −   t
+2
+/ 2   −   log ( 1   −   t )) +   C   =
+
+(deshacemos el cambio de variable teniendo en cuenta que   t   = ( 1   −   3 x )
+1 / 6
+)
+
+− 2   (−( 1   −   3 x )
+1 / 6  
+− 
+( 1   −   3 x )
+1 / 3
+
+2  
+−   log ( 1   − ( 1   −   3 x )
+1 / 6
+)) +   C .
+
+Criterios de corrección:
+
+Plantear la resolución, 0 , 5 puntos; realizar el cambio de variable y resolver la integral, 0 , 25 puntos; dar la
+solución correcta, 0 , 25 puntos.
+
+b )   La matriz   A   tendrá inversa si y sólo si su determinante es distinto de cero. Como   | A | = − 2, la matriz   A
+− 1  
+existe.
+Para estudiar si   A
+− 1  
+⋅   B   tiene inversa usaremos un razonamiento similar teniendo en cuenta que   | A
+− 1  
+⋅   B | =
+| A
+− 1
+| ⋅ | B | .
+Como   | A
+− 1
+| =   1 /| A | = − 1 / 2 y   | B | =   0, entonces   | A
+− 1  
+⋅   B | = (− 1 / 2 ) ⋅   0   =   0. Por tanto, la matriz   A
+− 1  
+⋅   B
+
+no tiene inversa.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; justificar la existencia de   A
+− 1
+, 0 , 5 puntos; justificar la no existencia de la
+inversa de   A
+− 1  
+⋅   B , 0 , 5 puntos.
+6.   a )   [1 punto]   Calcula el siguiente límite:
+lím
+
+x →+∞  
+(
+5 x   +   1
+5 x  
+)
+
+x
+2
+
+.
+
+b )   [1,5 puntos]   Calcula la ecuación de la recta que pasa por el punto   A ( 2 ,   1 ,   3 )   y cuyo vector director es perpendicular
+a los vectores ⃗   u   = ( 2 ,   2 ,   0 )   y ⃗   v   = ( 0 ,   0 , − 1 ) .
+
+Solución:
+
+a )   El límite es indeterminado del tipo 1
+∞
+. Lo resolvemos reorganizando términos (por ejemplo):
+lím
+
+x →+∞  
+(
+5 x   +   1
+5 x  
+)
+
+x
+2
+
+=   lím
+
+x →+∞  
+( 1   +  
+1
+5 x  
+)
+
+5 x
+
+5 x  
+x
+2
+
+=   lím
+
+x →+∞  
+(( 1   +  
+1
+5 x  
+)
+
+5 x
+
+)
+
+x
+2
+5 x
+
+=   e
++∞  
+= +∞.
+
+Criterios de corrección:
+
+Determinar el tipo de indeterminación, 0 , 25 puntos; plantear el método de resolución y realizar los cálculos
+correctamente, 0 , 5 puntos; dar la solución correcta 0 , 25 puntos.
+
+b )   El vector director será el producto vectorial de ⃗   u   y ⃗   v :
+⃗ 
+w   =⃗   u   ×⃗   v   = ∣
+
+i   j   k
+
+2   2   0
+0   0   − 1
+
+∣ = − 2 i   +   2 j   +   0 k   = (− 2 ,   2 ,   0 ).
+
+Por tanto, a ecuación de la recta es:
+
+( x ,   y ,   z ) = ( 2 ,   1 ,   3 ) +   λ (− 2 ,   2 ,   0 ),   λ   ∈ ℝ.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5; calcular el vector director, 0 , 5; dar la ecuación de la recta, 0 , 5 puntos.
+7.   a )   [1 punto]   Sea la función   f ( x ) =   x
+3  
++   3 x
+2  
++   x   +   3. Obtén sus máximos y mínimos relativos.
+
+b )   Una urna contiene cuatro bolas numeradas del 1 al 4. Se extraen al azar dos bolas sin reemplazamiento y se obtiene
+una puntuación igual a la suma de los valores correspondientes.
+b.1)   [0,75 puntos]   ¿Cuál es la probabilidad de que la puntuación obtenida sea de 3?
+b.2)   [0,75 puntos]   ¿Cuál es la probabilidad de que la puntuación sea mayor de 3?
+
+Solución:
+
+a )   La función   f ( x )   es continua y derivable en   ℝ   al tratarse de un polinomio. Los máximos y mínimos relativos los
+obtendremos igualando la derivada a cero. Como   f
+′
+( x ) =   3 x
+2  
++   6 x   +   1, entonces los posibles extremos relativos
+están en   x
+1  
+= − 1   −  
+√ 6
+3  
+y   x
+2  
+= − 1   +  
+√ 6
+3  
+.
+Para ver si se trata de máximos o mínimos relativos estudiaremos el signo de la segunda derivada. Como   f
+′′
+( x ) =
+
+6 x   +   6   =   6 ( x   +   1 ) , vemos que   f
+′′
+( x
+1
+) <   0 ( x
+1  
+es un máximo relativo) y   f
+′′
+( x
+2
+) >   0 (es un mínimo relativo).
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener los puntos a estudiar y decir si son máximos o mínimos relativos
+correctamente, 0 , 5 puntos.
+
+b )   Sea   X   la variable aleatoria que representa la suma de los dos valores de las bolas extraídas de la bolsa. El siguiente
+diagrama de árbol representa todas las posibles extraccciones de dos bolas sin reemplazamiento, el valor de   X   y
+su probabilidad:
+
+•
+
+4
+3 ( X   =   7 )
+
+1
+/
+3
+2   ( X   =   6 )
+
+1 / 3
+1   ( X   =   5 )
+
+1
+/
+3
+1
+/
+4
+3
+4   ( X   =   7 )
+
+1
+/
+3
+2   ( X   =   5 )
+
+1 / 3
+1   ( X   =   4 )
+
+1
+/
+3
+1
+/
+4
+2
+4   ( X   =   6 )
+
+1
+/
+3
+3   ( X   =   5 )
+
+1 / 3
+1   ( X   =   3 )
+
+1
+/
+3
+1
+/
+4
+1
+4   ( X   =   5 )
+
+1
+/
+3
+3   ( X   =   4 )
+
+1 / 3
+2   ( X   =   3 )
+
+1
+/
+3
+1
+/
+4
+Aunque no se pida en el examen, el espacio muestral de   X   es
+
+{ 3 ,   4 ,   5 ,   6 ,   7 }   y las probabilidades son   P ( X   =   3 ) =   P ( X   =   4 ) =
+
+P ( X   =   6 ) =   P ( X   =   7 ) =  
+2
+12  
+y   P ( X   =   5 ) =  
+4
+12  
+.
+1)   En este caso,   P ( X   =   3 ) =  
+2
+12  
+, que se obtiene fácilmente con-
+sultando el diagrama de árbol.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener la solución correc-
+ta, 0 , 25 puntos.
+2)   Como el valor mínimo de   X   es 3, los sucesos   ( X   =   3 )   y   ( X   >   3 )
+
+son complementarios. Así,   P ( X   >   3 ) =   1   −   P ( X   =   3 ) =  
+10
+12  
+.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener la solución correc-
+ta, 0 , 25 puntos.
+
+8.   a )   [1,25 puntos]   Sea la matriz   A   = (
+
+1   1   1   1
+0   1   2   1
+2   1   0   1
+
+) . Calcula el rango de   A .
+
+b )   [1,25 puntos]   Sea la recta   r   definida por la intersección de los planos   π
+1  
+≡   x   +   y   +   z   =   1,   π
+2  
+≡   y   +   2 z   =   1.
+Por otro lado, consideraremos el plano   π
+3  
+≡   2 x   +   y   =   1. Determina la posición relativa de la recta   r   y el plano   π
+3
+.
+El resultado del apartado anterior te puede ayudar.
+
+Solución:
+
+a )   El rango de la matriz es al menos 2 porque   ∣
+1   1
+0   1
+∣ =   1   ≠   0. Veamos qué pasa con el rango de las submatrices
+3   ×   3 (calculando sus determinantes):
+
+∣
+
+1   1   1
+1   2   1
+1   0   1
+
+∣ = ∣
+
+1   1   1
+0   2   1
+2   0   1
+
+∣ = ∣
+
+1   1   1
+0   1   1
+2   1   1
+
+∣ = ∣
+
+1   1   1
+0   1   2
+2   1   0
+
+∣ =   0 .
+
+Por tanto, el rango de   A   es 2.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; calcular los determinantes 3   ×   3, 0 ,   5; dar la solución correcta, 0 , 25 puntos.
+
+b )   Para estudiar la posición relativa de la recta   r   (definida por los planos   π
+1  
+y   π
+2
+) y el plano   π
+3  
+hay que estudiar las
+soluciones del sistema de ecuaciones cuya matriz asociada es la matriz   A   del apartado anterior. Ya hemos visto
+que el rango de   A   es 2, así que el sistema es compatible indeterminado. Por tanto, la recta   r   está contenida en el
+plano   π
+3
+.
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; justificar la solución, 0 , 5 puntos; dar la solución correcta, 0 , 25 puntos. Si hay
+un error en el apartado anterior y se usa en este, corregir teniendo en cuenta cómo se justifica el resultado.
+

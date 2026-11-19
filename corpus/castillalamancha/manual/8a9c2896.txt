@@ -1,0 +1,577 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2425/MatematicasII.ashx]
+Evaluación   para   el   Acceso   a   la   Universidad
+
+Curso 202 4 /202 5
+
+Materia:   MATEMÁTICAS   II
+
+Instrucciones:   El estudiante deberá resolver   los cuatro ejercicios propuestos. En los   ejercicios 2, 3 y 4
+
+deberá contestar solamente a   UNO   de los dos apartados propuestos . Si resuelve más,   se   corregirá   solo   el primero
+
+de los dos apartados resueltos .   Los   ejercicios   deben   redactarse   con   claridad,   detalladamente   y razonando   las
+
+respuestas.   S o lo se permite el uso de calculadores de tipo 1 y 2 (tal y como se indica en la información de las
+
+pruebas).   Cada   ejercicio   completo   puntuará 2 , 5 puntos.   Duración de la prueba: 90 minutos.
+
+EJERCICIO 1.   La concentración de virus   activos   en una muestra de sangre   ( en un tiempo   !   desde que se tomó
+
+la muestra)   se puede modelizar como una función   " ( ! )   =   5 ( !   +   1 ) )
+! "
+, con   !   ≥   0 .
+
+a)   [1 , 2 5   punto s ]   La pendiente de   la recta tangente a la gráfica de   " ( ! )   mide   cómo cambia la concentración
+
+de virus activos . Calcula el tiempo en el que este cambio   toma el valor más pequeño   posible , es decir, el
+
+tiempo   !   en el que   el valor de   la   derivada   de   " ( ! )   es mínimo.
+
+b)   [1 ,25   punto s ]   ¿Cuál sería el valor de la concentración   de virus   a largo plazo ? Es   decir,   el valor   cuando
+
+el tiempo tiende a infinito :   lim
+
+" → $ %  
+" ( ! ) .
+
+Solución:
+
+a)   La derivada de   " ( ! )   es   "
+&
+( ! )   =   / ( ! )   =   − 5 !)
+! "
+. Por tanto, podemos hallar sus extremos relativos
+
+derivando e igualando a cero.   C omo   /
+&
+( ! )   =   − 5 )
+! "
+( 1   −   ! ) ,   tenemos que en   !   =   1   hay un extremo
+
+relativo.   Además,   /
+&
+( ! )   <   0   cuando   !   <   1   y   /
+&
+( ! )   >   0   cuando   !   >   1 . Por tanto, en   !   =   1   hay un mínimo
+
+relativo   (que además es absoluto).
+
+La s   gráfica s   de   " ( ! )   y   / ( ! )   son, respectivamente, estas:
+
+Criterios de corrección:
+
+•   Obtener   / ( ! ) , 0,25 puntos; cálculo de   /
+&
+( ! ) , 0,25 puntos; determinar el punto en el que se
+
+anula la derivada, 0,25 puntos; justificar que es mínimo   absoluto , 0,5 puntos.
+
+b)   En este caso tenemos una indeterminación de tipo   ∞   / ∞ :
+
+lim
+
+" → $ %  
+" ( ! )   =   lim
+
+" → $ %
+5 ( !   +   1 ) )
+! "  
+=   lim
+
+" → $ %
+
+5 ( !   +   1 )
+
+)
+"  
+=  
+∞
+
+∞
+
+Aplicando la regla de L’Hôpital:
+
+lim
+
+" → $ %  
+" ( ! )   =   lim
+
+" → $ %
+
+5 ( !   +   1 )
+
+)
+"  
+=   lim
+
+" → $ %
+
+5
+
+)
+"  
+=   0
+
+Criterios de corrección:
+
+•   Establecer la indeterminación, 0,25 puntos;   plantear el método de resolución, 0,5 puntos;
+
+resolver el límite, 0,5 puntos.
+
+EJERCICIO 2.   Elige y resuelve   solo uno   de los dos apartados siguientes:
+
+Apartado a)   Sean las rectas   6 '   ≡  
+( $ )
+
+'  
+=  
+* ! '
+
+! '  
+=  
++ $ '
+
+'  
+y   6 )   ≡  
+( ! '
+
+)  
+=  
+* ! '
+
+'  
+=  
++ ! '
+
+! '  
+.
+
+a.1)   [1 ,25   punto s ]   Determina la ecuación de la recta ,   6 , ,   cuyo vector director es perpendicular a los vectores
+
+directores de las rectas   6
+'  
+y   6
+)  
+y que pasa por el punto   8 ( 0 ,   0 ,   0 ) .
+
+a.2)   [1, 2 5 puntos]   Calcula la distancia de   la recta   6 )   al punto   : ( − 1 ,   − 1 ,   2 ) .
+
+Solución:
+
+a.1)   Se an   6 ' < < < ⃗   ,   6 ) < < < ⃗   y   6 , < < < ⃗   los vectores directores de las rectas   6 ' ,   6 )   y   6 , , respectivamente. Tenemos que
+
+6
+,
+< < < ⃗   =   6
+'
+< < < ⃗   ×   6
+)
+< < < ⃗   =   ( 1 ,   − 1 ,   1 )   ×   ( 2 ,   1 ,   − 1 )   =   ( 0 ,   3 ,   3 )
+
+Así, podemos definir la recta que se pide de la siguiente manera:
+
+6 ,   ≡   ( @ ,   A ,   B )   =   ( 0 , 0 , 0 )   +   C ( 0 ,   3 ,   3 ) , con   C   ∈   ℝ .
+
+Criterios de corrección:
+
+•   Determinar los elementos que definen la recta (punto y vector director), 0,25 puntos ; o btener
+
+6 , < < < ⃗   , 0,5 puntos;   ecuación de la recta (en cualquiera de sus formas), 0,5 puntos.
+
+a.2)   En primer lugar,   podemos comprobar   que el punto   :   no pertenece a la recta   6 )   para descartar este
+
+caso :
+! ' ! '
+
+)  
+≠  
+! ' ! '
+
+'  
+.   Sea   G   un punto de la recta   6 ) , s abemos que la distancia de   :   a la recta es:
+
+H ( : ,   6 ) )   =  
+| | G: < < < < < ⃗   ×   6 ) < < < ⃗   | |
+
+| | 6 ) < < < ⃗   | |
+
+Si tomamos   G   =   ( 1 ,   1 ,   1 ) , tenemos que   G: < < < < < ⃗   =   ( − 2 ,   − 2 ,   1 )   y   G: < < < < < ⃗   ×   6 ) < < < ⃗   =   ( 1 ,   0 ,   2 ) .   Por tanto, la distancia
+
+es
+
+H ( : ,   6 ) )   =  
+| | G: < < < < < ⃗   ×   6 ) < < < ⃗   | |
+
+| | 6 ) < < < ⃗   | |  
+=  
+√ 5
+
+√ 6
+
+Criterios de corrección:
+
+•   Plantear el problema , 0,25 puntos; plantear   la fórmula de la distancia, 0, 2 5 puntos;   obtener
+
+G: < < < < < ⃗   ×   6 ) < < < ⃗   , 0,5 puntos;   obtener la solución correcta, 0,25 puntos.
+
+Apartado b)   Sea la recta   6   ≡  
+(
+
+'  
+=  
+*
+
+! '  
+=  
++
+
+)  
+y el plano   L   ≡   @   −   A   +   3 B   =   0 .
+
+b.1)   [ 1,25 puntos ]   Determina la ecuación del plano que contiene a la recta   6   y es   perpendicular al plano   L .
+
+b.2)   [ 1 ,25   punto s ]   Calcula el ángulo entre la recta   6   y el plano   L   teniendo en cuenta que se cortan en el punto
+
+8 ( 0 ,   0 ,   0 ) .
+
+Solución:
+
+b.1)   El p l ano vendrá definido por un punto de la recta,   G ,   su vector director ,   6 ⃗   ,   y el vector normal del plano
+
+L ,   M < ⃗   . Sus valores son   G   =   ( 0 , 0 , 0 ) , por ejemplo,   6 ⃗   =   ( 1 ,   − 1 ,   2 )   y   M < ⃗   =   ( 1 ,   − 1 ,   3 ) . Así, la ecuación del plano
+
+es:
+
+( @ ,   A ,   B )   =   ( 0 , 0 , 0 )   +   C ( 1 ,   − 1 ,   2 )   +   N ( 1 ,   − 1 ,   3 ) , con   C ,   N   ∈   ℝ .
+
+Criterios de corrección:
+
+•   Determinar los elementos que   definen   el p lano   (punto y vector es   director es ), 0, 7 5 puntos ;
+
+ecuación de l plano   (en cualquiera de sus formas), 0,5 puntos.
+
+b.2)   Podemos calcular el ángulo entre el plano y la recta ,   O ,   co mo
+
+P)M ( O )   =  
+| M < ⃗   ⋅   6 ⃗   |
+
+| | M < ⃗   | |   ⋅   | | 6 ⃗   | |  
+=  
+| 1   +   1   +   6 |
+
+√ 11   ⋅   √ 6  
+=  
+8
+
+√ 11   ⋅   √ 6  
+=   0 . 9847
+
+Entonces,   O   =   W6XP)M ( 0 . 9847 )   =   1 . 396   radianes =   79 . 96451   grados.
+
+Criterios de corrección:
+
+•   Plantear la ecuación del ángulo entre recta y plano, 0,25 puntos; determinar   M < ⃗   , 0,25 puntos;
+
+determinar   6 ⃗   , 0,25 puntos; obtener   P)M ( O ) , 0, 2 5 puntos; obtener el   ángulo, 0, 2 5 puntos.
+
+EJERCICIO 3.   Elige y resuelve   solo uno   de los dos apartados siguientes.
+
+Apartado a)   Considera el siguiente sistema de ecuaciones, donde   W   ∈   ℝ :   Y
+
+@   +   A   +   W   ⋅   B   =   1
+
+@   −   2 B   =   W
+
+2 @   +   A   +   B   =   3
+
+.
+
+a.1)   [ 1’5 puntos ] Discute el sistema de ecuaciones según los valores de   W , e identifica el número de
+
+soluciones en cada caso.
+
+a.2)   [ 1 punto ] Resuelve, razonadamente, el sistema de ecuaciones para   W   =   0 .
+
+Solución:
+
+a.1)   Sea   Z   la matriz de coeficientes   y   Z
+∗  
+la matriz ampliada .   Tenemos que   | Z |   =   W   −   3 . Por tanto, para
+
+W   ≠   3   el sistema es compatible determinado y tiene una única solución.
+
+Para el caso   W   =   3 , tenemos que el rango de   Z   es   2 y el de   Z ′   es 3. Por tanto, el sistema es
+
+incompatible y no tiene solución.
+
+Criterios de corrección:
+
+•   Cálculo del determinante de   Z   y   de los valores de   W   en los que se anula, 0,5 puntos;   discusión
+
+razonada para   W   ≠   3 , 0,25 puntos;   cálculo del rango de   Z   y   Z
+∗  
+cuando   W   =   3 , 0,5 puntos;
+
+discusión razonada de este caso, 0,25 puntos . Si se equivoca al calcular el   determinante, no
+
+tenerlo en cuenta y valorar el resto.
+
+a.2)   Para   W   =   0   el sistema es compatible determinado y la solución es   @   =   4 / 3 ,   A   =   − 1 / 3 ,   B   =   2 / 3 .
+
+Criterios de corrección:
+
+•   Plantear el método de resolución, 0,75 puntos; obtener la solución correcta, 0,25 puntos.
+
+Apartado b)   Sea el   sistema de ecuaciones   8   ⋅   \   −   :   =   \ , con   8   =   ]
+2   1
+
+1   ^
+_ , tal que   ^   ∈   ℝ ,   y   :   =   ]
+1   1
+
+1   0
+_ .
+
+Además, la matriz   \   es de dimensión   2   ×   2 .
+
+b.1)   [ 1 ,5   punto s ]   ¿Para qué valores del parámetro   ^   el sistema anterior tiene solución única?
+
+b.2)   [ 1 punto ]   Para   ^   =   1 , resuelve el sistema y obtén el valor de   \ .
+
+Solución:
+
+b.1)   Podemos escribir la ecuación   matricial   así:
+
+( 8   −   ` )   ⋅   \   =   :
+
+Si tomamos   a   =   8   −   `   =   ]
+1   1
+
+1   ^   −   1
+_ , habrá solución única cuando podamos invertir   a . Esto se cumple
+
+cuando el determinante de   a   es distinto de cero. Así,   | a |   =   ^   −   1   −   1   =   ^   −   2 .   La ecuaci ón matricial
+
+tendrá solución única cuando   ^   ≠   2 .
+
+Aunque no se pide, p ara el caso   ^   =   2   la ecuaci ón   matricial   no tiene soluci ón .
+
+Criterios de corrección:
+
+•   Justificar cuándo la solución es única, 0, 7 5 puntos ;   obtener el determinante de   a , 0,5 puntos;
+
+justificar los valores para los que   la ecuaci ón matricial   tiene solución únic a , 0, 2 5 puntos .
+
+b.2)   Para   ^   =   1 ,   tenemos que   a   =   ]
+1   1
+
+1   0
+_   y   a
+! '  
+=   ]
+0   1
+
+1   − 1
+_ . Por tanto   \   =   a
+! '
+:   =   ]
+0   1
+
+1   − 1
+_   ]
+1   1
+
+1   0
+_   =
+
+]
+1   0
+
+0   1
+_ .
+
+Criterios de corrección:
+
+•   Obtener   a
+! '
+, 0,5 puntos; obtener el valor correcto de   \ , 0,5 puntos.
+
+EJERCICIO 4.   Elige y resuelve   solo uno   de los dos apartados siguientes:
+
+Apartado a)   Una baraja española está compuesta de 40 cartas, entr e   las que hay 4 ases. En un juego de
+
+azar   dos jugadores compiten entre sí. El primer jugador   baraja las cartas y las va sacando una a una
+
+hasta que encuentra un as. A continuación, el otro jugador   vuelve a juntar todas las cartas y   repite estos
+
+pasos   (es decir, vuelve a barajar y va sacando cartas hasta encontrar un as) . Gana el jugador que más
+
+cartas haya sacado (contando el as).   Si ambos sacan el mismo número de cartas, entonces se produce
+
+un empate.
+
+a.1)   [ 1,5 puntos ] Calcula las probabilidades de que el as salga al sacar 1, 2 y 3 cartas, respectivamente.
+
+a.2)   [ 1 punto ] Si el primer jugador ha   sacado   dos cartas (contando el as) ,   ¿ c uál es la probabilidad de que el
+
+segundo jugador le gane?
+
+Solución:
+
+a.1)   Sea   \   la variable aleatoria que representa   el número de cartas sacadas por un jugador (contando el
+
+as).   El espacio muestral de   \   es   Ω   =   { 1 ,   2 ,   …   ,   37 } .   Las probabilidades que se piden son:
+
+G ( \   =   1 )   =  
+4
+
+40  
+=  
+1
+
+10  
+=   0 . 1
+
+G ( \   =   2 )   =  
+36
+
+40  
+⋅  
+4
+
+39  
+=   0 . 0923
+
+G ( \   =   3 )   =  
+36
+
+40  
+⋅  
+35
+
+39  
+⋅  
+4
+
+38  
+=   0 . 0850
+
+Criterios de corrección:
+
+•   Obtener las probabilidades, 0,5 puntos cada una.
+
+a.2)   Dado que el primer jugador ha sacado dos cartas y que el número de cartas que saca cada jugador
+
+es independiente   de las que saca el otro , el segundo jugador ganará si saca al menos 3 cartas:
+
+G ( \   ≥   3 )   =   1   −   G ( \   ≤   2 )   =   1   −   g G ( \   =   1 )   +   G ( \   =   2 ) h   =   1   −   0 . 1923   =   0 . 8077
+
+Criterios de corrección:
+
+•   Justificar   que las cartas que saca cada jugador son sucesos independientes, 0,25 puntos;
+
+justificar   la probabilidad que se pide, 0,5 puntos; obtener   el valor   correct o , 0,25 puntos.
+
+Apartado b)   Una empresa produce aparatos para medir distancias. Durante el proceso de calibración realiza
+
+una serie de experimentos para medir la distancia entre dos puntos, que están separados 1.5 metros
+
+entre sí. Debido al error de los aparatos, se sabe que los valo res medidos siguen una distribución normal
+
+de media 1 . 5 m y varianza 0 . 64   m
+2
+.
+
+b.1)   [0, 7 5 puntos]   ¿Cuál es la probabilidad de que la medición del aparato sea de más de   2 .1   m?
+
+b.2)   [0, 7 5   puntos]   ¿Cuál es la probabilidad de la que medición del aparato sea superior a   0.9   m?
+
+b.3)   [ 1   punto]   ¿Cuál es el valor   de la distancia   tal que el 80.51% de las mediciones estarían por encima de
+
+él?
+
+Solución:
+
+Sea   \   la variable aleatoria que representa el valor medido por el aparato. La distribución de   \   es normal de
+
+media 1.5 m y varianza 0.64 m
+2  
+(desviación típica de 0.8 m).
+
+b.1)   La probabilidad que se pide es
+
+G ( \   >   2 . 1 )   =   G   ] i   >  
+) . ' ! ' . /
+
+0 . 1  
+_   =   G ( i   >   0 . 75 )   =   1   −   G ( i   <   0 . 75 )   =   1   −   0 . 7734   =   0 . 2266 .
+
+Criterios de corrección:
+
+•   Plantear la probabilidad que se pide correctamente, 0, 2 5 puntos;   e xpresar la probabilidad en
+
+función del área acumulada, 0,25 puntos;   obtener el valor correcto, 0,25 puntos.
+
+b.2)   La probabilidad que se pide es
+
+G ( \   >   0 . 9 )   =   G   j i   >  
+0 . 9   −   1 . 5
+
+0 . 8  
+k   =   G ( i   >   − 0 . 75 )   =   1   −   G ( i   <   − 0 . 75 )   =   1   −   g 1   −   G ( i   <   0 . 75 ) h
+
+=   G ( i   <   0 . 75 )   =   0 . 7734
+
+Criterios de corrección:
+
+•   Plantear la probabilidad que se pide correctamente, 0, 2 5 puntos;   expresar la probabilidad en
+
+función del área acumulada, 0,25 puntos;   obtener el valor correcto, 0,25 puntos.
+
+b.3)   Sea   l   el valor que se pide. Este valor cumple que   G ( \   >   l )   =   0 . 8051 . Por tanto, tenemos:
+
+G ( \   >   l )   =   G   j i   >  
+l   −   1 . 5
+
+0 . 8  
+k   =   G   j i   <   −  
+l   −   1 . 5
+
+0 . 8  
+k   =   0 . 8051
+
+Así,   −  
+2 ! ' . /
+
+0 . 1  
+=   0 . 86   y tenemos que   l   =   1 . 5   −   0 . 86   ⋅   0 . 8   =   0 . 812
+
+Criterios de corrección:
+
+•   Plantear la probabilidad que se pide correctamente, 0, 2 5 puntos;   igualar el cociente al valor
+
+del cuantil correctamente, 0,5 puntos;   obtener el valor correcto, 0,25 puntos.
+
+z   0.00   0.01   0.02   0.03   0.04   0.05   0.06   0.07   0.08   0.09
+
+0.50  
+0.6915   0.6950   0.6985   0.7019   0.7054   0.7088   0.7123   0.7157   0.7190   0.7224
+
+0.60   0.7257   0.7291   0.7324   0.7357   0.7389   0.7422   0.7454   0.7486   0.7517   0.7549
+
+0.70   0.7580   0.7611   0.7642   0.7673   0.7704   0.7734   0.7764   0.7794   0.7823   0.7852
+
+0.80   0.7881   0.7910   0.7939   0.7967   0.7995   0.8023   0.8051   0.8078   0.8106   0.8133
+
+0.90  
+0.8159   0.8186   0.8212   0.8238   0.8264   0.8289   0.8315   0.8340   0.8365   0.8389
+
+1.00   0.8413   0.8438   0.8461   0.8485   0.8508   0.8531   0.8554   0.8577   0.8599   0.8621
+
+1.10   0.8643   0.8665   0.8686   0.8708   0.8729   0.8749   0.8770   0.8790   0.8810   0.8830
+
+1.20   0.8849   0.8869   0.8888   0.8907   0.8925   0.8944   0.8962   0.8980   0.8997   0.9015
+
+1.30  
+0.9032   0.9049   0.9066   0.9082   0.9099   0.9115   0.9131   0.9147   0.9162   0.9177
+

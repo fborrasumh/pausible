@@ -1,0 +1,315 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/ModelosPruebas2526/Tecnologia-e-Ingenieria-26.ashx]
+Prueba de acceso a la Universidad
+
+Curso 202 5 / 202 6
+
+Materia :   Tecnología e Ingeniería II
+
+INSTRUCCIONES:
+
+‐   La prueba consta de   4 ejercicios de 2,5 puntos cada uno .
+
+‐   Los ejercicios 1, 2 y 3   tienen dos opciones cada uno (a o b), tienes que resolver   solo   una de las
+
+opciones .
+
+‐   S i   realizas   opciones de más ,   se corregirá n   solo la s   primera s   que   aparezcan   resueltas .
+
+‐   Debes redactar l os ejercicios con claridad, detalladamente y razonando las respuestas.
+
+‐   Se penalizará n   la s   faltas de ortografía,   no poner las fórmulas,   errores y   ausencia de unidades.
+
+‐   La duración máxima de la prueba será   1 hora y 30 minutos .
+
+‐   Solo   podrás   utilizar   calculadora s permitidas (Tipo 1 o 2) .
+
+Ejercicio 1
+
+Opción a . (2 , 5 puntos)   Un circuito en serie RC tiene un generador de 220 V y 50 HZ. Su resistencia es
+
+de 15    .   La capacidad del condensador es de 159    F.   Averigua:
+
+a.   (1 punto)   Impedancia del circuito .
+
+b.   (0 , 5 puntos)   La intensidad que pasa por el circuito.
+
+c.   (1   punto )   Potencia aparente, activa y reactiva del circuito. .
+
+Opción b. (2 , 5 puntos)   Calcula en la expresión de la señal alterna   𝑣   =   250   ∙   𝑠𝑒𝑛   800 𝑡   las magnitudes
+
+que siguen:
+
+a.   (0,5 puntos)   Periodo y frecuencia.
+
+b.   (0,5 puntos)   Valor instantáneo para t = 5 ms.
+
+c.   (1 punto)   Val or máximo, medio y eficaz.
+
+d.   (0,5 puntos)   Factor de forma.
+
+Ejercicio 2
+
+Opción a. (2 , 5 puntos)   Una máquina térmica reversible mantiene la temperatura de una vivienda a   22 ºC .
+
+En verano, la temperatura promedio del ambiente exterior es de   35 ºC , mientras que en invierno desciende
+
+a   0 ºC .
+
+a.   (1,25 puntos)   Determina el coeficiente de rendimiento (COP) ideal de la máquina tanto en verano
+
+como en invierno.
+
+b.   (1,25 puntos)   Para la estación en la que la máquina opera con menor eficiencia, calcula la potencia
+
+requerida por el motor del compresor si se deben extraer 1000 kcal/min del foco frío. Supón que la
+
+eficiencia real de la máquina es el 40% del COP de Carnot.
+
+Opción b. (2 , 5 puntos)   Responde:
+
+a.   (2 ,5   punto s )   Un motor alternativo de 6 cilindros genera un par máximo de M max =350 Nm cuando
+
+gira a una velocidad de n par máximo =4.200 rpm. El diámetro de cada uno de los cilindros es de 75
+
+mm, la carrera es de 85 mm, y el volumen de la cámara de combustió n de cada cilindro es de 62
+
+cm³.   Determina:
+
+a.   (0,75   punto s )   La   cilindrada total   del motor.
+
+b.   (1   punto)   La   potencia desarrollada   por el motor operando en par máximo.
+
+c.   (0, 7 5   puntos)   La   relación volumétrica de compresión .
+
+Prueba de acceso a la Universidad
+
+Curso 202 5 / 202 6
+
+Materia :   Tecnología e Ingeniería II
+
+Ejercicio   3
+
+Opción a. (2 , 5 puntos)   Partiendo de la tabla de verdad mostrada, donde A, B, C y
+
+D son entradas, y S es la salida. Se pide:
+
+a.   (0,5   puntos)   Escribe   la   primera   forma   canónica   de   la   función   lógica
+
+representada en la tabla de verdad.
+
+b.   (1 punto)   Simplificar al máximo la función mediante el mapa de Karnaugh.
+
+a.   ( 1 punto )   Implementar el circuito con el menor número de puertas lógicas
+
+utilizando puertas NAND.
+
+A   B   C   D   S
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+1
+
+1
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+0
+
+1
+
+0
+
+1
+
+Opción b. (2 , 5 puntos)   Diseña un sistema de control para activar una alarma en caso de que sea
+
+necesario. El sistema depende de cuatro sensores (A, B, C y D). El sistema debe activar la alarma ( S = 1 )
+
+cuando se cumpla cualquiera de los siguientes puntos:
+
+•   Si se activan 3 o 4 sensores simultáneamente.
+
+•   Si se activan 2 sensores simultáneamente ,   siempre   que sean C y D o A y D.
+
+Realiza:
+
+a.   (1 punto )   Obtén la tabla de verdad del sistema   de activación de la alarma.
+
+b.   (1   punto )   Simplifica la función lógica obtenida en el apartado anterior mediante mapas de
+
+Karnaugh.
+
+c.   (0,5   punto s )   Dibuja el diagrama lógico de la función simplificada.
+
+Ejercicio   4
+
+(2,5 puntos)   En una planta de producción dedicada al ensamblaje de componentes metálicos, se
+
+requiere automatizar el proceso de prensado de piezas para mejorar la productividad y la seguridad del
+
+operario. Esta operación consiste en colocar una pieza dentro de un útil   y aplicar una fuerza de prensado
+
+controlada mediante un   cilindro neumático de doble efecto .   Para garantizar precisión en el prensado y
+
+proteger tanto la pieza como el útil, el sistema debe cumplir con las siguientes condiciones de operación:
+
+1.   La operación de prensado comienza cuando el operario acciona momentáneamente   una vál vula
+
+neumática de tipo pulsador provocando ,   de forma indirecta ,   que el cilindro avance.
+
+2.   Durante su recorrido de avance, el cilindro debe moverse a velocidad controlada .
+
+3.   Cuando el cilindro ha avanzado lo máximo, la operación de prensado se ha completado y   el
+
+cilindro debe retornar automáticamente a su posición inicial.
+
+Resuelve:
+
+a.   (2   punto s )   Diseñar el circuito neumático que responda a los puntos anteriores.
+
+b.   (0,5   punto s )   Indica el nombre de los elementos que has utilizado en el diseño anterior.
+

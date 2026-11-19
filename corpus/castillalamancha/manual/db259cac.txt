@@ -1,0 +1,1102 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2526/Tecnicas-de-Expresion26.ashx]
+Prueba de acceso a la
+Universidad   Curso 202 5 /202 6
+
+Materia:   Tecnología   e   Ingeniería II
+
+INSTRUCCIONES:
+
+‐   La prueba consta de   4 ejercicios de 2,5 puntos cada uno .
+
+‐   Los ejercicios 1, 2 y 3   tienen dos opciones cada uno (a o b), tienes que resolver   solo   una de las
+
+opciones .
+
+‐   S i   realizas   opciones de más ,   se corregirá n   solo la s   primera s   que   aparezcan   resueltas .
+
+‐   Debes redactar l os ejercicios con claridad, detalladamente y razonando las respuestas.
+
+‐   Se penalizará n   la s   faltas de ortografía,   no poner las fórmulas,   errores y   ausencia de unidades.
+
+‐   La duración máxima de la prueba será   1 hora y 30 minutos .
+
+‐   Solo   podrás   utilizar   calculadora s permitidas (Tipo 1 o 2) .
+
+Criterios de corrección
+
+‐   En aquellos apartados en los que los resultados dependan del anterior, se valorará como   válidos si el
+
+planteamiento fuese correcto pero el resultado no, siempre que se deba a un error derivado del primer apartado.
+
+‐   En las soluciones numéricas se debe especificar la unidad, en caso de ser necesario, manteniéndose las
+
+unidades usadas en el enunc iado, salvo que se pida otra explícitamente, como las del Sistema Internacional. Los
+
+errores en las unidades se contabilizan globalmente en el examen, teniendo en cuenta tanto la unidad como el
+
+prefijo (de pico hasta Tera). La siguiente tabla muestra la pe nalización en la puntuación en función de los errores
+
+cometidos:
+
+Errores   1   2   3   4   5   6 o más
+
+Puntuación   0   0.25   0.25   0.5   0.5   0.75
+
+‐   Las faltas de ortografía serán penalizadas según la siguiente tabla:
+
+Faltas de ortografía   1   2   3   4 o más
+
+Puntuación   0   0.25   0.5   1
+
+‐   En la valoración de los ejercicios se tendrá en cuenta los criterios generales:
+
+a.   El planteamiento, desarrollo y la corrección en las operaciones.
+
+b.   La interpretación de los resultados cuando sea necesario.
+
+c.   Pensamiento crítico en la resolución de los e jercicios y cuestiones.
+
+d.   Los errores conceptuales y los errores operativos.
+
+e.   La claridad en la exposición, las explicaciones adicionales y la presentación y calidad del ejercicio.
+
+Ejercicio 1
+
+Opción a. (2,5 puntos)   Un circuito en serie RC tiene un generador de 220 V y 50 HZ. Su resistencia es de
+
+15    . La capacidad del condensador es de 159    F.   Averigua:
+
+a.   (1 punto )   Impedancia del circuito .
+
+b.   (0,5 puntos)   La intensidad que pasa por el circuito.
+
+c.   (1 punto )   Potencia   aparente, activa y reactiva del circuito .
+
+Solución 1.a:
+
+Datos:
+
+V=220 V
+
+f = 50 Hz.
+
+R=15   
+
+| 𝑍 |   =   25 
+
+
+a.   Calculamos la reactancia capacitiva:
+
+𝑋𝑐   =  
+1
+
+2   · 
+   ·   𝑓   ·   𝐶  
+=  
+1
+
+2   · 
+   ·   50   ·   159   ·   10
+− 6  
+→   𝑋𝑐   =   20 
+
+
+En un circuito RC la impedancia es:
+
+𝑍 ⃗   =   𝑅   −   𝑋𝑐𝑗   →   𝒁 ⃗ ⃗ ⃗   =   𝟏𝟓   −   𝟐𝟎𝒋   (  )
+
+b.   Para calcular la intensidad, calculamos el módulo de la impedancia:
+
+| 𝑍 |   =   √ 𝑅
+2  
++   𝑋𝑐
+2  
+=   √ 15
+2  
++   20
+2  
+=   √ 625   →   | 𝑍 |   =   25 
+
+
+(0,5   punto s )
+
+(0,5 puntos)
+
+(0, 2 5 puntos)
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+Con   V y Z, calculamos la intensidad:
+
+𝑰   =  
+𝑉
+
+𝑍  
+=  
+220
+
+25  
+=   𝟖 ,   𝟖   𝑨
+
+c. -   Averiguamos    :
+
+   =   𝑎𝑟𝑐𝑡𝑔  
+− 𝑋𝑐
+
+𝑅  
+=   𝑎𝑟𝑐𝑡𝑔  
+− 20
+
+15  
+→ 
+   =   − 𝟓𝟑 ,   𝟏𝟑 º
+
+Así, calculamos   las potencias :
+
+Potencia activa:
+
+𝑷   =   𝑉   ·   𝐼   ·   cos 
+   =   220   ·   8 , 8   ·   cos ( − 53 , 13º )   =   𝟏𝟏𝟔𝟏 ,   𝟓   𝑾
+
+Potencia reactiva:
+
+𝑸   =   𝑉   ·   𝐼   ·   sen 
+   =   220   ·   8 , 8   ·   𝑠𝑒𝑛   ( − 53 , 13º )   =   − 𝟏𝟓𝟒𝟖 ,   𝟕   𝑽𝑨𝒓
+
+Potencia aparente:
+
+𝑺   =   𝑉   ·   𝐼   =   220   ·   8 , 8   =   𝟏𝟗𝟑𝟔   𝑽𝑨
+
+Otra forma de calcular las potencias:
+
+Potencia activa:   𝑷   =   𝐼
+2  
+·   R   =   8 , 8
+2  
+·   15   =   𝟏𝟏𝟔𝟏 ,   𝟔   𝑾
+
+Potencia reactiva:   𝑸   =   𝐼
+2  
+·   X
+𝐶  
+=   8 , 8
+2  
+·   20   =   𝟏𝟓𝟒𝟖 ,   𝟖   𝑽𝑨𝒓
+
+Potencia aparente:   𝑺   =   √ 𝑃
+2  
++   𝑄
+2  
+=   √ 1161 , 6
+2  
++   1548 , 8
+2  
+=   𝟏𝟗𝟑𝟔   𝑽𝑨
+
+(0, 2 5 puntos)
+
+(0,25 puntos)
+
+(0, 7 5 puntos)
+
+Opción b. (2 , 5 puntos)   Calcula en la expresión de la señal alterna   𝑣   =   250   ∙   𝑠𝑒𝑛   800 𝑡   las magnitudes que
+
+siguen:
+
+a.   (0,5 puntos)   Periodo y frecuencia.
+
+b.   (0,5 puntos)   Valor   instantáneo para t = 5 ms.
+
+c.   (1 punto)   Val or máximo, medio y eficaz.
+
+d.   (0,5 puntos)   Factor de forma.
+
+Solución 1.b:
+
+a. De la expresión obtenemos que 
+   =   800   𝑟𝑎𝑑 / 𝑠 . Por tanto:
+
+   =   2 
+ 𝑓   →   𝒇   =
+
+
+
+2 
+  
+=  
+800  
+𝑟𝑎𝑑
+
+𝑠
+
+2 
+   𝑟𝑎𝑑  
+=   𝟏𝟐𝟕 ,   𝟑𝟐   𝑯𝒛
+
+𝑇   =  
+1
+
+𝑓  
+→   𝑻   =  
+1
+
+127 , 32  
+=   𝟎 ,   𝟎𝟎𝟕𝟖   𝒔   =   𝟕 ,   𝟖   𝒎𝒔
+
+b. Sustituimos el valor de t en la expresión de la señal alterna teniendo en cuenta
+
+que 
+ t   se expresa en radianes. Nos queda:
+
+𝒗   =   𝟐𝟓𝟎   ∙   𝒔𝒆𝒏   ( 𝟖𝟎𝟎   ·   𝟎 ,   𝟎𝟎𝟓 )   =   − 𝟏𝟖𝟗 ,   𝟐𝟎   𝑽
+
+c.
+
+Valor máximo:   𝑽 𝒎𝒂𝒙   =   𝟐𝟓𝟎   𝑽
+
+(0,25 puntos)
+
+(0,25 puntos)
+
+(0,5 puntos)
+
+(0,25 puntos)
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+Valor medio:   𝑽 𝒎   =  
+2 · 𝑉 𝑚𝑎𝑥
+
+  
+=  
+2 · 250
+
+  
+=   𝟏𝟓𝟗 ,   𝟏𝟓   𝑽
+
+Valor eficaz:   𝑽   =  
+𝑉 𝑚𝑎𝑥
+
+√ 2  
+=  
+250
+
+√ 2  
+=   𝟏𝟕𝟔 ,   𝟕𝟕   𝑽
+
+d.
+
+𝐹𝑎𝑐𝑡𝑜𝑟   𝑓𝑜𝑟𝑚𝑎   =  
+𝑉
+
+𝑉 𝑚
+
+=  
+176 , 77
+
+159 , 15  
+=   𝟏 ,   𝟏𝟏
+
+(0,5 puntos)
+
+(0,25 puntos)
+
+(0,5 puntos)
+
+Ejercicio   2
+
+Opción a. (2 , 5 puntos)   Una máquina térmica reversible mantiene la temperatura de una vivienda a   22 ºC .
+
+En verano, la temperatura promedio del ambiente exterior es de   35 ºC , mientras que en invierno desciende
+
+a   0 ºC .
+
+a.   (1,25 puntos)   Determina el   coeficiente de rendimiento (COP) ideal de la máquina tanto en verano
+
+como en invierno.
+
+b.   (1,25 puntos)   Para la estación en la que la máquina opera con menor eficiencia, calcula la potencia
+
+requerida por el motor del compresor si se deben extraer 1000 kcal/mi n del foco frío. Supón que la
+
+eficiencia real de la máquina es el 40% del COP de Carnot.
+
+Solución 2.a:
+
+a. En verano la máquina funciona como una máquina frigorífica, tomando:
+
+-   Vivienda, foco frío y   𝑇
+𝑓  
+=   22   ° 𝐶   +   273   =   295   ° 𝐾
+
+-   Exterior, foco caliente,   𝑇 𝑐   =   35   ° 𝐶   +   273   =   308   ° 𝐾
+
+Como es reversible, podemos calcular el COP o eficiencia mediante las temperaturas:
+
+   =  
+𝑇 𝑓
+
+𝑇 𝑐   −   𝑇 𝑓
+
+=  
+295
+
+308   −   295  
+=   𝟐𝟐 ,   𝟔
+
+En invierno, la máquina funciona como una bomba de calor, así:
+
+-   Vivienda, foco caliente y   𝑇
+𝑐  
+=   22   º 𝐶   +   273   =   295   ° 𝐾
+
+-   Exterior, foco frío,   𝑇 𝑓   =   0   º 𝐶   +   273   =   273   ° 𝐾
+
+En este caso, el COP o coeficiente de funcionamiento es:
+
+
+′  
+=  
+𝑇
+𝑐
+
+𝑇
+𝑐  
+−   𝑇
+𝑓
+
+=  
+295
+
+295   −   273  
+=   𝟏𝟑 ,   𝟒
+
+b. El menor COP se da en invierno, cuando funciona como una bomba de calor.
+
+Calculamos el COP real:
+
+
+′
+𝒓𝒆𝒂𝒍  
+=   13 , 4   ·   0 , 4   =   5 , 36
+
+Sabiendo el COP real y que Qf =   1000 kcal/min , podemos averiguar el Qc:
+
+′
+𝒓𝒆𝒂𝒍   =  
+𝑄
+𝑐
+
+𝑄
+𝑐  
+−   𝑄
+𝑓
+
+→   5 , 36   =  
+𝑄
+𝑐
+
+𝑄
+𝑐  
+−   1000  
+→   5 , 36 ( 𝑄 𝑐   −   1000 )   =   𝑄 𝑐   →
+
+5 , 36   ·   𝑄 𝑐   −   5360   =   𝑄 𝑐   →   𝑄 𝑐
+( 5 , 36   −   1 )   =   5360   →   𝑄 𝑐   =  
+5360
+
+5 , 36   −   1  
+→
+
+𝑸 𝒄   =   𝟏𝟐𝟐𝟗 ,   𝟑𝟓   𝒌𝒄𝒂𝒍 / 𝒎𝒊𝒏
+
+Sabemos que:
+
+(0, 7 5 puntos)
+
+(0,5   puntos)
+
+(0,75 puntos)
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+𝑊   =   𝑄
+𝑐  
+−   𝑄
+𝑓  
+→   𝑊   =   1229 , 35   −   1000   =   229 , 35  
+𝑘𝑐𝑎𝑙
+
+𝑚𝑖𝑛
+
+Si lo expresamos en vatios:
+
+𝑊   =   229 , 35   ·  
+𝐾𝑐𝑎𝑙
+
+𝑚𝑖𝑛  
+·  
+1000   𝑐𝑎𝑙
+
+𝐾𝑐𝑎𝑙  
+·  
+𝑚𝑖𝑛
+
+60   𝑠  
+·  
+4 , 18   𝐽
+
+𝑐𝑎𝑙  
+=   15 , 97   𝑘𝑊 .
+
+Por tanto,   la potencia del motor del compresor   sería   229 ,35 Kcal/min o   15,97 kW.
+
+(0, 5 puntos)
+
+Opción b. (2 , 5 puntos)   Responde:
+
+a.   (2 ,5   punto s )   Un motor alternativo de 6 cilindros genera un par máximo de M max =350 Nm cuando
+
+gira a una velocidad de n par máximo =4.200 rpm. El   diámetro de cada uno de los cilindros es de 75
+
+mm, la carrera es de 85 mm, y el volumen de la cámara de combustió n de cada cilindro es de 62
+
+cm³.   Determina:
+
+a.   (0,75 puntos)   La   cilindrada total   del motor.
+
+b.   (1 punto)   La   potencia desarrollada   por el motor oper ando en par máximo.
+
+c.   (0,75 puntos)   La   relación volumétrica de compresión .
+
+Solución 2.b:
+
+Datos:
+
+𝑛   =   6   𝑐𝑖𝑙𝑖𝑛𝑑𝑟𝑜𝑠
+
+𝑀 𝑚𝑎𝑥   =   350   𝑁𝑚
+
+𝑛
+𝑝𝑎𝑟   𝑚𝑎𝑥  
+=   4 . 200   𝑟𝑝𝑚
+
+𝑑 𝑐𝑖𝑙   =   75   𝑚𝑚
+
+𝐿   =   85   𝑚𝑚
+
+𝑉 𝑐   =   62   𝑐𝑚
+3
+
+a.   Cilindrada de l motor.
+
+Calculamos la cilindrada de   un cilindro:
+
+𝑉 𝑐𝑖𝑙   =
+
+   ·   𝐷
+2
+
+4  
+·   𝐿   =
+
+   ·   7 , 5
+2
+
+4  
+·   8 , 5   =   375   𝑐𝑚
+3
+
+Cilindrada del motor:
+
+𝑽 𝑻   =   𝑛   ·   𝑉 𝑐𝑖𝑙   =   6   ·   375 , 5   =   𝟐𝟐𝟓𝟑 ,   𝟏   𝒄𝒎
+𝟑
+
+b.   Potencia del motor.
+
+𝑃   =   𝑀   · 
+
+
+La velocidad angular la expresamos en rad/s:
+
+   =   4200   ·  
+𝑟𝑒𝑣
+
+𝑚𝑖𝑛  
+·  
+2 
+   𝑟𝑎𝑑
+
+𝑟𝑒𝑣  
+·  
+𝑚𝑖𝑛
+
+60   𝑠  
+→ 
+   =   439 , 8   𝑟𝑎𝑑 / 𝑠
+
+Calculamos la potencia:
+
+𝑷   =   𝑀   · 
+   =   350   𝑁𝑚   ·   439 , 8  
+𝑟𝑎𝑑
+
+𝑠  
+=   𝟏𝟓𝟑 ,   𝟗   𝒌𝑾
+
+c.   Relación de compresión
+
+𝑹𝒄   =  
+𝑉 𝑐𝑖𝑙   +   𝑉 𝑐
+
+𝑉
+𝑐
+
+=  
+375   +   62
+
+62  
+=   𝟕 ,   𝟎𝟒
+
+Por tanto:   𝑹𝒄   =   𝟕 ,   𝟎𝟒 :   𝟏
+
+(0,5 puntos)
+
+(0, 2 5 puntos)
+
+(0, 2 5   puntos)
+
+( 0,75   punto s )
+
+(0, 7 5 puntos)
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+Ejercicio   3
+
+Opción a. (2 , 5 puntos)   Partiendo de la tabla de verdad mostrada, donde A, B, C y
+
+D son entradas, y S es la salida. Se pide:
+
+a.   (0,5   puntos)   Escribe   la   primera   forma   canónica   de   la   función   lógica
+
+representada en la tabla de verdad.
+
+b.   (1 punto)   Simplificar al máximo la función mediante el mapa de Karnaugh.
+
+a.   ( 1 punto )   Implementar el circuito con el menor número de puertas lógicas
+
+utilizando puertas NAND.
+
+A   B   C   D   S
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+1
+
+1
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+0
+
+1
+
+0
+
+1
+
+Solución 3.a:
+
+a.
+
+𝑺   =   𝑨 ̅   𝑩 ̅ 𝑪 ̅   𝑫 ̅   +   𝑨 ̅   𝑩 ̅   𝑪 𝑫 ̅   +   𝑨 ̅   𝑩 𝑪 ̅   𝑫 ̅   +   𝑨 ̅   𝑩 𝑪 ̅ 𝑫   +   𝑨 ̅   𝑩𝑪𝑫   +   𝑨 𝑩 ̅   𝑪 ̅ 𝑫 ̅   +   𝑨 𝑩 ̅ 𝑪 𝑫 ̅   +   𝑨𝑩 𝑪 ̅ 𝑫   +   𝑨𝑩𝑪𝑫
+
+Otra forma de   ponerlo:
+
+𝑺 ( 𝑨 ,   𝑩 ,   𝑪 ,   𝑫 )   =   ∑   𝒎 ( 𝟎 ,   𝟐 ,   𝟒 ,   𝟓 ,   𝟕 ,   𝟖 ,   𝟏𝟎 ,   𝟏𝟑 ,   𝟏𝟓 )
+
+b.
+
+CD \ AB   00   01   11   10
+
+00   1   1   1
+
+01   1   1
+
+11   1   1
+
+10   1   1
+
+Se obtienen 2 grupos de 4 y 1 grupo de 2:   𝑺   =   𝑩𝑫   +   𝑩 ̅ 𝑫 ̅   +   𝑨 ̅   𝑪 ̅   𝑫 ̅
+
+Otra posible solución (cogiendo el grupo de 2 con las   combinaciones 0 10 0 y 0101 ):
+
+𝑺   =   𝑩𝑫   +   𝑩 ̅ 𝑫 ̅   +   𝑨 ̅   𝑩 𝑪 ̅
+
+c. Realizamos la función con puertas NAND aplicando las propiedades del álgebra de Boole:
+
+𝑆   =   𝐵𝐷   +   𝐵 ̅   𝐷 ̅   +   𝐴 ̅   𝐶 ̅   𝐷 ̅ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿
+  =   𝐵𝐷 ̅ ̅ ̅ ̅   ·   𝐵 ̅   𝐷 ̅ ̅ ̅ ̅ ̅
+  ·   𝐴 ̅   𝐶 ̅   𝐷 ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅
+
+Ahora implementamos con puertas NAND:
+
+(0,5 puntos)
+
+(0,5 puntos)
+
+(0,5 puntos)
+
+(0,25 puntos)
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+Si tomamos la   segunda solución:
+
+𝑆   =   𝐵𝐷   +   𝐵 ̅   𝐷 ̅   +   𝐴 ̅   𝐵 𝐶 ̅ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿
+  =   𝐵𝐷 ̅ ̅ ̅ ̅   ·   𝐵 ̅   𝐷 ̅ ̅ ̅ ̅ ̅
+  ·   𝐴 ̅   𝐵 𝐶 ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅
+
+(0,75 puntos)
+
+Opción b. (2 , 5 puntos)   Diseña un sistema de control para activar una   alarma en caso de que sea
+
+necesario. El sistema depende de cuatro sensores (A, B, C y D). El sistema debe activar la alarma ( S = 1 )
+
+cuando se cumpla cualquiera de los siguientes puntos:
+
+   Si se activan 3 o 4 sensores simultáneamente.
+
+   Si se activan 2 sensores   simultáneamente ,   siempre   que sean C y D o A y D.
+
+Realiza:
+
+a.   (1 punto )   Obtén la tabla de verdad del sistema   de activación de la alarma.
+
+b.   (1   punto )   Simplifica la función lógica obtenida en el apartado anterior mediante mapas de
+
+Karnaugh.
+
+c.   (0,5   punto s )   Dibuja   el diagrama lógico de la función simplificada.
+
+Solución 3.b:
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+a. Se considera que las entradas (A, B, C y D) están activas cuando valen 1. La tabla
+
+que se obtiene es la que sigue:
+
+b. Mapa de Karnaugh:
+
+𝑺   =   𝑨𝑫   +   𝑪𝑫   +   𝑨𝑩𝑪
+
+c. Circuito lógico:
+
+A   B   C   D   S
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+0
+
+0
+
+1
+
+0
+
+0
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+1
+
+1
+
+CD \ AB   00   01   11   10
+
+00
+
+01   1   1
+
+11   1   1   1   1
+
+10   1
+
+(1 punto)
+
+* cada error   - 0,25
+
+(1 punto)
+
+(0,5 puntos)
+
+Ejercicio   4
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+(2,5 puntos)   En una planta de producción dedicada al ensamblaje de componentes metálicos, se
+
+requiere automatizar el proceso de prensado de piezas para mejorar la productividad y la seguridad del
+
+operario. Esta operación consiste en colocar una pieza dentro de un útil   y aplicar una fuerza de prensado
+
+controlada mediante un   cilindro neumático de doble efecto .   Para garantizar precisión en el prensado y
+
+proteger tanto la pieza como el útil, el sistema debe cumplir con las siguientes condiciones de operación:
+
+1.   La operación de prensado comienza cuando el operario acciona momentáneamente   una vál vula
+
+neumática de tipo pulsador provocando ,   de forma indirecta ,   que el cilindro avance.
+
+2.   Durante su recorrido de avance, el cilindro debe moverse a velocidad controlada .
+
+3.   Cua ndo el cilindro ha avanzado lo máximo, la operación de prensado se ha completado y   el
+
+cilindro debe retornar automáticamente a su posición inicial.
+
+Resuelve:
+
+a.   (2   punto s )   Diseñar el circuito neumático que responda a los puntos anteriores.
+
+b.   (0,5   punto s )   Indica   el nombre de los elementos que has utilizado en el diseño anterior.
+
+Solución 4:
+
+a.
+
+b.
+
+1.0: cilindro de doble efecto
+
+1.01: válvula reguladora de caudal
+
+1.1: válvula 5/2 con activación y retorno neumático.
+
+1.2: válvula 3/2 activado por   pulsador y retorno por muelle
+
+1.3: válvula 3/2 de fin de recorrido activado con rodillo y retorno por muelle.
+
+(2 puntos)
+
+(0,5 puntos)
+
+También valdría
+
+una válvula 4/2
+

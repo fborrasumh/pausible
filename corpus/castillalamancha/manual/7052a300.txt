@@ -1,0 +1,876 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2425/EXTRAORDINARIA/Tec-e-Ing.ashx]
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+1
+
+INSTRUCCIONES:
+
+‐   La prueba consta de   4 ejercicios de 2,5 puntos cada uno .
+
+‐   Los ejercicios 1, 2 y 3   tienen dos opciones cada uno (a o b), tienes que resolver   solo   una de las
+
+opciones .
+
+‐   S i   realizas   opciones de más ,   se corregirá n   solo la s   primera s   que   aparezcan   resueltas .
+
+‐   Debes redactar l os ejercicios con claridad, detalladamente y razonando las respuestas.
+
+‐   Se penalizará n   la s   faltas de ortografía,   no poner las fórmulas,   errores y   ausencia de unidades.
+
+‐   La duración máxima de la prueba será   1 hora y 30 minutos .
+
+‐   Solo   podrás   utilizar   calculadora s permitidas (Tipo 1 o 2) .
+
+Criterios de corrección
+
+‐   En aquellos apartados en los que los resultados dependan del anterior, se valorará como válidos si el
+
+planteamiento fuese correcto pero el resultado no, siempre que se deba a   un error derivado del primer apartado.
+
+‐   En las soluciones numéricas se debe especificar la unidad, en caso de ser necesario, manteniéndose las
+
+unidades usadas en el enunciado, salvo que se pida otra explícitamente, como las del Sistema Internacional. Los
+
+er rores en las unidades se contabilizan globalmente en el examen, teniendo en cuenta tanto la unidad como el
+
+prefijo (de pico hasta Tera). La siguiente tabla muestra la penalización en la puntuación en función de los errores
+
+cometidos:
+
+Errores   1   2   3   4   5   6 o   más
+
+Puntuación   0   0.25   0.25   0.5   0.5   0.75
+
+‐   L as faltas de ortografía se rán penalizadas según la siguiente   tabla:
+
+Faltas de ortografía   1   2   3   4 o más
+
+Puntuación   0   0.25   0.5   1
+
+‐   En la valoración de los ejercicios se tendrá en cuenta los criterios generales:
+
+a.   El planteamiento, desarrollo y la corrección en las operaciones.
+
+b.   La interpretación de los resultados cuando sea necesario.
+
+c.   Pensamiento crítico en la resolución de los ejercicios y cuestiones.
+
+d.   Los errores conceptuales y los errores operativos.
+
+e.   La claridad e n la exposición, las explicaciones adicionales y la presentación y calidad del ejercicio.
+
+Ejercicio 1
+
+Opción a . (2 , 5 puntos)   Partiendo de la tabla de verdad mostrada, donde A, B, C y
+
+D son entradas, y S es la salida. Se pide:
+
+a.   (1 , 2 5   punto s )   Simplificar   la   función   al   máximo   mediante   el   mapa   de
+
+Karnaugh.
+
+b.   (1 , 2 5 puntos)   Implementar el circui to utilizando solo puertas NAND.
+
+A   B   C   D   S
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+0
+
+1
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+Solución 1.a:
+
+a.   La función simplificada mediante el mapa de Karnaugh es:
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+2
+
+CD \ AB   00   01   11   10
+
+00   1   1
+
+01   1   1
+
+11   1   1
+
+10   1   1
+
+𝑰   =   𝑩   ·   𝑫   +   𝑩   ·   𝑫
+
+b.   El circuito utilizando únicamente puertas NAND es el siguiente:
+
+𝐼   =   𝐵   ·   𝐷   +   𝐵   ·   𝐷   =   𝐵   ·   𝐷   +   𝐵   ·   𝐷   =   ( ( 𝐵   ·   𝐷 )   ·   ( 𝐵   ·   𝐷 ) )
+
+(1,25 puntos)
+
+(0,7 5 puntos)
+
+(0 ,5 puntos)
+
+Opción b. (2 , 5 puntos)   Partiendo de   la expresión lógica:
+
+𝑆   =   𝐴𝐵   +   𝐴 𝐶
+̅
+  +   𝐴
+̅
+  𝐶
+̅
+  +   𝐵
+̅
+  𝐶
+̅
+
+Obtener:
+
+a.   (1,25   puntos)   La tabla de verdad que representa la función lógica. Expresa la función en la 1ª
+
+forma canónica.
+
+b.   (0, 7 5 puntos)   La expresión lógica simplificada al máximo.
+
+c.   (0,5   punto s )   El circui to implementado con puertas lógicas.
+
+Solución 1.b:
+
+a.
+
+𝑆   =   𝐴 ̅   𝐵 ̅   𝐶 ̅   +   𝐴 ̅   𝐵 𝐶 ̅   +   𝐴 𝐵 ̅   𝐶 ̅   +   𝐴𝐵 𝐶 ̅   +   𝐴𝐵𝐶
+
+b.
+
+A   B   C   S
+
+0   0   0   1
+
+0   0   1   0
+
+0   1   0   1
+
+0   1   1   0
+
+1   0   0   1
+
+1   0   1   0
+
+1   1   0   1
+
+1   1   1   1
+
+(0,7 5 puntos)
+
+(0, 5 puntos)
+A
+
+B
+
+C
+
+D
+
+S
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+3
+
+C \ AB   00   01   11   10
+
+0   1   1   1   1
+
+1   1
+
+𝑆   =   𝐶
+̅
+  +   𝐴𝐵
+
+c.
+
+(0,7 5 puntos)
+
+(0, 5 puntos)
+
+Ejercicio 2
+
+Opción a. (2 , 5 puntos)   Obtener la función de transferencia del   sistema de control que rep resenta el
+
+siguiente diagrama de bloques   que   sigue :
+
+Solución 2.a:
+
+La realimentación formada por H3 y G3 se puede sustituir por:
+
+𝐶
+
+𝐸 1
+
+=  
+𝐺 3
+
+1   +   𝐺 3   ·   𝐻 3
+
+Si cogemos desde el segundo comparador, tendríamos:
+
+(0 ,5 puntos)
+A
+
+B
+
+C
+
+S
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+4
+
+𝐶
+
+𝐸
+2
+
+=
+
+𝐺 2   ·   𝐺 3
+
+1   +   𝐺 3   ·   𝐻 3
+
+1   +  
+𝐺 2   ·   𝐺 3
+
+1   +   𝐺 3   ·   𝐻 3  
+·   𝐻 1
+
+𝐶
+
+𝐸 2
+
+=  
+𝐺 2   ·   𝐺 3
+
+1   +   𝐺 3   ·   𝐻 3   +   𝐺 2   ·   𝐺 3   ·   𝐻 1
+
+El sistema sería como el que sigue:
+
+Aplicando la fórmula del equivalente de una realimentación negativa, obtenemos la
+
+función de transferencia del sistema:
+
+𝐶
+
+𝐸  
+=
+
+𝐺 1   ·   𝐺 2   ·   𝐺 3
+
+1   +   𝐺 3   ·   𝐻 3   +   𝐺 2   ·   𝐺 3   ·   𝐻 1
+
+1   +  
+𝐺 1   ·   𝐺 2   ·   𝐺 3   ·   𝐻 2
+
+1   +   𝐺 3   ·   𝐻 3   +   𝐺 2   ·   𝐺 3   ·   𝐻 1
+
+𝑪
+
+𝑬  
+=  
+𝑮𝟏   ·   𝑮𝟐   ·   𝑮𝟑
+
+𝟏   +   𝑮𝟑   ·   𝑯𝟑   +   𝑮𝟐   ·   𝑮𝟑   ·   𝑯𝟏   +   𝑮𝟏   ·   𝑮𝟐   ·   𝑮𝟑   ·   𝑯𝟐
+
+(0 , 7 5 puntos)
+
+(0 ,5 puntos)
+
+(0 , 75 puntos
+
+Opción b. (2 , 5 puntos)   Responde:
+
+a.   (1,2 5   punto s )   Define el concepto de función de transferencia en un sistema de control. ¿Qué es
+
+la ecuación característica? ¿Cuándo un sistema es estable atendiendo a las raíces de la
+
+ecuación característica?
+
+b.   (1 , 2 5   punto s )   Averigua si el sistema de control representad o por la función de transferencia que
+
+sigue es estable.
+
+𝐹 ( 𝑠 )   =  
+𝑠
+
+( 𝑠   +   3 ) ( 𝑠
+2  
++   6 𝑠   +   25 )
+
+Solución 2.b:
+
+a.   La función de transferencia es una representación matemática que relaciona
+
+la salida de un sistema de control con su entrada utilizando la transformada de
+
+Laplace. Se define función de trasferenci a G(s) como el cociente de la señal de salida   (0,7 5 puntos)
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+5
+
+del sistema S(s) entre la señal de entrada, E(s).
+
+La ecuación característica se obtiene de igualar a cero el denominador de la función
+
+de transferencia.
+
+Un sistema de control es estable cuando las raíces de   la ecuación característica se
+
+encuentran en el lado izquierdo del semiplano complejo de Laplace, es decir, la parte
+
+real de las raíces es negativa.
+
+b.   Los polos del sistema son:
+
+Como vemos los polos   tienen la parte real negativa, por lo cual , el sistema
+
+es estable.
+
+(0 ,25 puntos)
+
+(0 ,25 puntos)
+
+( 0,7 5 puntos)
+
+(0, 5 puntos)
+
+Ejercicio   3
+
+Opción a. (2 , 5 puntos)   Una varilla de   acero estructural   con una sección transversal de   20   mm²   está fijada
+
+en un extremo a un   soporte rígido y sostiene una carga de   5 000 N   en su otro extremo. El material de la
+
+varilla tiene un   módulo de elasticidad de 110   GPa   y un   límite elástico de 300   MPa .
+
+a.   (1   punto )   Si se retira la carga, ¿la varilla recuperará su longitud original?   Justifica   la respuesta.
+
+b.   (0 , 7 5 puntos)   ¿Cuál es la máxima carga que puede soportar la varilla sin sufrir deformación
+
+permanente?
+
+c.   (0,75 punto)   ¿Cuál es el máximo alargamiento unitario que puede experimentar la varilla sin
+
+presentar deformación permanente?
+
+Solución 3 .a:
+
+Datos:
+
+𝑆   =   20   𝑚𝑚
+2
+
+𝐹   =   5000   𝑁
+
+𝐸   =   110   𝐺𝑃𝑎
+
+𝜎 𝐸   =   300   𝑀𝑃𝑎
+
+a.   Calculamos la tensión:
+
+𝜎   =  
+𝐹
+
+𝑆  
+=  
+5000   𝑁
+
+20   𝑚𝑚
+2
+
+𝑚𝑚
+2
+
+10
+− 6  
+𝑚
+2  
+=   250   ·   10
+6
+𝑃𝑎   → 
+   =   250   𝑀𝑃𝑎
+
+Como 250 MPa < 300 MPa (  E ), la varilla está en la zona elástica,
+
+por lo que   recuper ará su longitud inicial .
+
+b.   Suponemos que la varilla está soportando   una tensión igual al
+
+ E , que es el límite a partir del cual la varilla sufriría deformación
+
+permanente. Así, calculamos la Fuerza que soporta:
+
+𝐹   = 
+
+𝐸  
+·   𝑆   =   300   ·   10
+6  
+𝑃𝑎   ·   20   ·   10
+− 6  
+𝑚
+2  
+→   𝑭   =   𝟔𝟎𝟎𝟎𝑵
+
+c.   Dentro de la zona elástica se cumple:
+
+   =   𝐸   · 
+
+
+   =
+
+ 𝐸
+
+𝐸  
+=  
+300   ·   10
+6  
+𝑃𝑎
+
+110   ·   10
+9  
+𝑃𝑎  
+→ 
+   =   𝟎 ,   𝟎𝟎𝟐𝟕   =   𝟎 ,   𝟐𝟕 %
+
+(0,5 puntos)
+
+(0,5 puntos)
+
+(0, 2 5 puntos)
+
+(0,5 puntos)
+
+(0, 2 5 puntos)
+
+(0,5 puntos)
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+6
+
+Opción b. (2 , 5 puntos)   Una barra cilíndrica de aluminio está sometida a una fuerza de tracción de 6200
+
+Kp. Si su límite elástico es de 2800 Kp/cm², su longitud es de 350 mm y su módulo de elasticidad es
+
+0,7×10
+6  
+Kp/cm², determina el diámetro mínimo que debe tener la bar ra para que su alargamiento no supere
+
+0,30 mm.
+
+Solución 3.b :
+
+Datos:
+
+𝐹   =   6200   𝐾𝑝
+
+𝜎 𝐸   =   2800   𝐾𝑝 / 𝑐 𝑚
+2
+
+𝐿   =   350   𝑚𝑚
+
+𝐸   =   0 , 7   ·   10
+6  
+𝑘𝑝 / 𝑐𝑚
+2
+
+∆ 𝐿   =   0 , 30   𝑚𝑚
+
+Con   los   datos   del   problema   podemos   calcular   el
+
+alargamiento unitario y la tensión:
+
+   =  
+∆ 𝐿
+
+𝐿 𝑜
+
+=  
+0 , 3
+
+350  
+=   8 , 57   ·   10
+− 4
+
+Aplicamos la ley de Hooke:
+
+   =   𝐸   · 
+   =   0 , 7   ·   10
+6  
+𝑘𝑝
+
+𝑐𝑚
+2  
+·   8 , 57   ·   10
+− 4  
+=   600   𝑘𝑝 / 𝑐𝑚
+2
+
+Como   el   esfuerzo   obtenido   es   menor   que   el   límite   de
+
+elasticidad (600 < 2800), significa que estamos trabajando
+
+en la zona proporcional. Así, se puede aplicar la ley de
+
+Hooke, como hemos hecho anteriorme nte.
+
+Sabemos que:
+
+𝜎   =  
+𝐹
+
+𝑆  
+→   𝑆   =  
+𝐹
+
+𝜎  
+=  
+6200   𝐾𝑝
+
+600   𝑘𝑝 / 𝑐𝑚
+2  
+=   10 , 333   𝑐𝑚
+2
+
+Al se r una barra cilíndrica y saber cuánto es su sección
+
+transversal, podemos calcular el diámetro mínimo:
+
+𝑆   =  
+𝜋   ·   𝑑
+2
+
+4  
+→   𝑑   =   √
+4   ·   10 , 333
+
+𝜋  
+→   𝒅   =   𝟑 ,   𝟔𝟐   𝒄𝒎
+
+(0, 5 puntos)
+
+(0,5 puntos)
+
+(0,5 puntos)
+
+(0,5 puntos)
+
+(0,5 puntos)
+
+Ejercicio   4
+
+(2,5 puntos)   Una planta termoeléctrica opera utilizando vapor de agua como fluido de trabajo. La planta
+
+extrae calor de la combustión de gas natural en una caldera y con vierte parte de esa energía en electricidad
+
+mediante una turbina.
+
+El ren dimiento de la planta es del 30 %, y el calor residual se disipa en un río cercano, cuya temperatura
+
+promedio es de   25 °C . Durante cada ciclo de operación, la planta libera   500 MJ   de ca lor al agua del río a
+
+través de un condensador.
+
+Dado que la eficiencia de una máquina térmica ideal está limitada por el ciclo de Carnot, se asume que la
+
+planta opera en condiciones cercanas a este límite.
+
+Teniendo como base esta información, determina:
+
+a.   (1   punto)   La temperatura de la caldera (foco caliente) en   °C .
+
+b.   (1   punto)   La cantidad de calor absorbida por la planta en cada ciclo.
+
+c.   (0,5 puntos)   La cantidad de energía útil convertida en electricidad por ciclo.
+
+Solución 4:
+
+Datos:
+   =   30%
+
+a.   Al operar la planta según el ciclo de Carnot, a partir de la fórmula
+
+del rendimiento ,   podemos calcular la temperatura de la caldera (foco
+
+caliente):
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+7
+
+𝑇 𝑓   =   25   º 𝐶   +   273
+
+=   298º 𝐾
+
+𝑄
+𝑓  
+=   500   𝑀𝐽
+
+   =   1   −  
+𝑇 𝑓
+
+𝑇 𝑐
+
+→   1   − 
+   =  
+𝑇 𝑓
+
+𝑇 𝑐
+
+→   𝑻 𝒄   =  
+𝑻 𝒇
+
+𝟏   − 
+
+
+𝑇
+𝑐  
+=  
+298
+
+1   −   0 , 3  
+=   425 , 7   º 𝐾   →   𝑻
+𝒄  
+=   𝟏𝟓𝟐 ,   𝟕   º 𝑪
+
+b.   Sabiendo el calor del foco frío y el rendimiento, podemos calcular
+
+el calor del foco caliente utilizando la fórmula del rendimiento   a partir
+
+de los calores:
+
+   =   1   −  
+𝑄 𝑓
+
+𝑄 𝑐
+
+→   𝑄
+𝑐  
+=  
+𝑄 𝑓
+
+1   − 
+  
+→   𝑸
+𝒄  
+=  
+𝟓𝟎𝟎
+
+𝟏   −   𝟎 ,   𝟑  
+=   𝟕𝟏𝟒 ,   𝟐𝟖   𝑴𝑱
+
+c. Usando la fórmula del rendimiento donde aparece la energía útil
+
+y la energía total, que en este caso coincide con Qc,   podemos
+
+obtener la en ergía útil:
+
+   =  
+𝑊
+
+𝑄 𝑐
+
+→   𝑊   = 
+   ·   𝑄 𝑐   →   𝑾   =   𝟎 ,   𝟑   ·   𝟕𝟏𝟒 ,   𝟐𝟖   =   𝟐𝟏𝟒   𝑴𝑱
+
+Otra forma de   calcularlo:
+
+𝑊   =   𝑄 𝑐   −   𝑄 𝑓   =   714 , 28   𝑀𝐽   −   500   𝑀𝐽   =   𝟐𝟏𝟒   𝑴𝑱
+
+Conclusión: por cada ciclo, se convierten 214 MJ a electricidad.
+
+(1 punto )
+
+(1 punto )
+
+(0,5 puntos)
+

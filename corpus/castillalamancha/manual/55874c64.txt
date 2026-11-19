@@ -1,0 +1,998 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2425/Tec-e-Ing.ashx]
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+INSTRUCCIONES:
+
+‐   La prueba consta de   4 ejercicios de 2,5 puntos cada uno .
+
+‐   Los ejercicios 1, 2 y 3   tienen dos opciones cada uno (a o b), tienes que resolver   solo   una de las
+
+opciones .
+
+‐   S i   realizas   opciones de más ,   se corregirá n   solo la s   primera s   que   aparezcan   resueltas .
+
+‐   Debes redactar l os ejercicios con claridad, detalladamente y razonando las respuestas.
+
+‐   Se penalizará n   la s   faltas de ortografía,   errores y   ausencia de unidades.
+
+‐   La duración máxima de la prueba será   1 hora y 30 minutos .
+
+‐   Solo   podrás   utilizar   calcul adora s permitidas (Tipo 1 o 2) .
+
+Criterios de corrección
+
+‐   En aquellos apartados en los que los resultados dependan del anterior, se valorará como válidos si el
+
+planteamiento fuese correcto pero el resultado no, siempre que se deba a un error derivado del p rimer apartado.
+
+‐   L as faltas de ortografía se rán penalizadas según la siguiente   tabla:
+
+Faltas de ortografía   1   2   3   4 o más
+
+Puntuación   0   0, 25   0, 5   1
+
+‐   En las soluciones numéricas se debe especificar la unidad, en caso de ser necesario, manteniéndose las
+
+un idades usadas en el enunciado, salvo que se pida otra explícitamente, como las del Sistema Internacional. Los
+
+errores en las unidades se contabilizan globalmente en el examen, teniendo en cuenta tanto la unidad como el
+
+prefijo (de pico hasta Tera). La sigu iente tabla muestra la penalización en la puntuación en función de los errores
+
+cometidos:
+
+Errores   Unidades   1   2   3   4   5   6 o más
+
+Puntuación   0   0 , 25   0 , 25   0, 5   0, 5   0, 75
+
+‐   En la valoración de los ejercicios se tendrá en cuenta los criterios generales:
+
+a.   El planteam iento, desarrollo y la corrección en las operaciones.
+
+b.   La interpretación de los resultados cuando sea necesario.
+
+c.   Pensamiento crítico en la resolución de los ejercicios y cuestiones.
+
+d.   Los errores conceptuales y los errores operativos.
+
+e.   La claridad en la exposi ción, las explicaciones adicionales y la presentación y calidad del ejercicio.
+
+Ejercicio 1
+
+Opción a . (2 , 5 puntos)   Se desea determinar la dureza de una pieza de   acero al carbono   mediante un
+
+ensayo de dureza Brinell .   Para ello, se aplica una carga de   1200   kp , generando una huella en el material
+
+con un diámetro de   5.0 mm.   Con base en esta información, responde lo siguiente:
+
+a.   (1 punto)   Determina el diámetro de la bola de ensayo, considerando que el acero al carbono tiene
+
+una constante K=12 kp/mm².
+
+b.   (1 punto )   ¿ Cuál es la dureza Brinell (HB) de la pieza de acero?
+
+c.   (0,5   punto s )   Sabiendo que el tiempo de aplicación de la carga fue de   25 s , escribe la expresión
+
+normalizada de la dureza Brinell.
+
+Solución 1.a:
+
+Datos:
+
+𝐹   =   1200   Kp
+
+𝑑   =   5   mm
+
+𝐾   =   12   𝐾𝑝 / m m
+2
+
+𝑇   =   25   s
+
+a.   Sabemos que   𝐹   =   𝐾   ·   𝐷
+2
+, despejamos el diámetro:
+
+𝐷   =   √
+𝐹
+
+𝐾  
+=   √
+1200   𝐾𝑝
+
+12   𝑚𝑚
+2  
+=   𝟏𝟎   𝒎𝒎
+
+b. Aplicamos la fórmula para calcular la dureza Brinel l :
+
+𝑯𝑩   =  
+2 · 𝐹
+
+𝜋𝐷 ( 𝐷 − √ 𝐷
+2
+− 𝑑
+2
+)  
+=  
+2 · 1200   𝐾𝑝
+
+10 · 𝜋 ( 10 − √ 10
+2
+− 5
+2
+)   𝑚𝑚
+2  
+=   𝟓𝟕 ,   𝟎𝟐  
+𝐤𝐩
+
+𝐦 𝐦 𝟐
+
+c.   La expresión normalizada es
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+𝟓𝟕   𝐇𝐁   𝟏𝟎   𝟏𝟐𝟎𝟎   𝟐𝟓
+
+Opción b. (2 , 5 puntos)   Responde a las siguientes cuestiones s obre el ensayo de tracción:
+
+a.   (0,5 puntos )   Explica en qué consiste el ensayo de tracción.
+
+b.   (1 punto )   Dibuja el diagrama esfuerzo - deformación típico de un metal indicando las zonas que se
+
+distinguen en él.
+
+c.   (1   punto )   Explica el comportamiento del metal en cada   zona   con sus datos más relevantes.
+
+Solución 1.b:
+
+a. El ensayo consiste en someter a una pieza cilíndrica o prismática de dimensiones normalizadas
+
+(probeta), a una fuerza normal de tracción que crece con el tiempo de una forma lenta y continua, el cual
+
+fi naliza, por lo general, con la rotura de la probeta. Durante el ensayo se mide el alargamiento que
+
+experimenta la probeta al estar sometida a una fuerza de tracción. Obteniéndose el diagrama esfuerzo   –
+
+deformación.
+
+b. El diagrama típic o de un metal es el siguiente:
+
+En el eje horizontal se representa el alargamiento o deformación unitaria:
+
+Y en el eje vertical la tensión o esfuerzo:
+
+Se aprecian 2 zonas: zona elástica (OE) y zona plástica (EU).
+
+Dentro de la zona elástica se distingue n: zona proporcional (OP) y zona no proporcional (PE):
+
+Dentro de la zona plástica se distinguen: zona límite de rotura (ER) y zona de estricción o de rotura (RU).
+
+c.   Zona elástica (OE): La deformación experimentada por l a probeta no es permanente, es decir, si en
+
+cualquier punto entre O y E se detiene el ensayo, la probeta recupera su longitud inicial.
+
+-   Zona plástica (EU): Sus alargamientos son permanentes, si se detiene el ensayo en algún punto de esta
+
+zona, la probeta   tiene ya se queda deformada.
+
+-   Zona proporcional (OP): Hay una relación proporcional entre la tensión y la deformación de la probeta.
+
+Se cumple:   donde E es el módulo de elasticidad.
+
+-   Zona no proporcional (PE): No hay una relación proporcional entre la   tensión o deformación. Al punto
+
+se le llama límite de elasticidad.
+
+-   Zona límite de rotura (ER): con incrementos de carga pequeños se consiguen grandes alargamientos.
+
+Al punto    R   se le llama límite de rotura, a partir del cual el material se considera   roto, aunque no se haya
+
+producido la rotura visual.
+
+-   Zona de estricción o de rotura (RU): Aunque baje la tensión a partir del punto R, el material sigue
+
+alargándose y se produce la rotura física total del material.
+
+(0, 7 5
+
+punto
+
+(0, 2 5
+
+punto
+
+E jercicio 2
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+Opción a. (2 , 5 puntos)   Se tiene la viga simplemente apoyada de la figura con las cargas puntuales   𝐹 1   y
+
+𝐹
+2
+.
+
+Se pide:
+
+a.   (1 punto )   Las reacciones en los apoyos.
+
+b.   (1, 5 puntos)   Cálculo y representación del diagrama de momento flector y esfuerzo cortante.
+
+Solución 2.a
+
+a. R ealizamos el diagrama del cuerpo libre para identificar las reacciones:
+
+Aplicamos las ecuaciones de equilibrio:
+
+∑   𝐹 𝑥   =   0   →   𝐹 𝐴𝑥   =   𝟎   𝒌𝑵
+
+∑   𝑀
+𝐴  
+=   𝐹
+1  
+·   𝑑
+1  
++   𝐹
+2
+( 𝑑
+1  
++   𝑑
+2
+)   −   𝐹
+𝐵𝑦  
+·   ( 𝑑
+1  
++   𝑑
+2  
++   𝑑
+3
+)   =   0   →
+
+→   𝑭
+𝑩𝒚  
+=  
+𝐹 1   ·   𝑑 1   +   𝐹 2 ( 𝑑 1   +   𝑑 2 )
+
+𝑑 1   +   𝑑 2   +   𝑑 3
+
+=  
+15   ·   3   +   20   ·   ( 3   +   6 )
+
+3   +   6   +   3  
+=   𝟏𝟖 ,   𝟕𝟓   𝐤𝐍
+
+∑   𝐹
+𝑦  
+=   𝐹
+𝐴𝑦  
++   𝐹
+𝐵𝑦  
+−   𝐹
+1  
+−   𝐹
+2  
+=   0   →   𝑭
+𝑨𝒚  
+=   𝐹
+1  
++   𝐹
+2  
+−   𝐹
+𝐵𝑦  
+=   15   +   20   −   18 , 75   =   𝟏𝟔 ,   𝟐𝟓   𝐤𝐍
+
+b. Momento flector:
+
+1 tramo:   0   ≤   𝑥   ≤   3 :   𝑀 𝑥 1   −   𝐹 𝐴𝑦   ·   𝑥   =   0   →   𝑀 𝑥 1   =   𝐹 𝐴𝑦   ·   𝑥   →   𝑴 𝒙𝟏   =   𝟏𝟔 ,   𝟐𝟓𝒙   𝒌𝑵𝒎
+
+𝑀
+𝑥 1
+( 0 )   =   16 , 25   ·   0   =   0   𝑘𝑁𝑚
+
+𝑀
+𝑥 1
+( 3 )   =   16 , 25   ·   3   =   48 , 75   𝑘𝑁𝑚
+
+2 tramo:   3   ≤   𝑥   ≤   9 :   𝑀 𝑥 2   −   𝐹 𝐴𝑦   ·   𝑥   +   𝐹 1
+( 𝑥   −   3 )   =   0   →   𝑀 𝑥 2   =   𝐹 𝐴𝑦 𝑥   −   𝐹 1 𝑥   +   3 𝐹 1   →   𝑀 𝑥 2   =   16 , 25 𝑥   −   15 𝑥   +   45
+
+𝑴 𝒙𝟐   =   𝟏 ,   𝟐𝟓𝒙   +   𝟒𝟓   𝒌𝑵𝒎
+
+𝑀 𝑥 2 ( 3 )   =   3 , 75   +   45   =   48 , 75   𝑘𝑁𝑚
+
+𝑀 𝑥 1 ( 9 )   =   11 , 25   +   45   =   56 , 25   𝑘𝑁𝑚
+
+3 tramo:   9   ≤   𝑥   ≤   12 :   𝑀
+𝑥 3  
+−   𝐹
+𝐴𝑦  
+·   𝑥   +   𝐹
+1
+( 𝑥   −   3 )   +   𝐹
+2
+( 𝑥   −   9 )   =   0   →   𝑀
+𝑥 3  
+=   𝐹
+𝐴𝑦
+𝑥   −   𝐹
+1
+𝑥   +   3 𝐹
+1  
+−   𝐹
+2
+𝑥   +   9 𝐹
+2
+
+𝑀 𝑥 3   =   16 , 25 𝑥   −   15 𝑥   +   45   −   20 𝑥   +   180   →   𝑴 𝒙𝟑   =   − 𝟏𝟖 ,   𝟕𝟓𝒙   +   𝟐𝟐𝟓   𝒌𝑵𝒎
+
+𝑀 𝑥 3
+( 9 )   =   − 18 , 75   ·   9   +   225   =   56 , 25   𝑘𝑁𝑚
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+𝑀 𝑥 3
+( 12 )   =   − 18 , 75   ·   12   +   225   =   0   𝑘𝑁𝑚
+
+Esfuerzo cortante
+
+Se puede calcular el efecto cortante usando   𝑇   =  
+𝑑𝑀
+
+𝑑𝑥  
+en los diferentes tramos:
+
+1 tramo:   0   ≤   𝑥   ≤   3 :   𝑻
+𝒙𝟏  
+=  
+𝑑 𝑀 𝑥 1
+
+𝑑𝑥  
+=  
+𝑑 ( 16 , 25 𝑥   )
+
+𝑑𝑥  
+=   𝟏𝟔 ,   𝟐𝟓   𝒌𝑵
+
+2 tramo:   3   ≤   𝑥   ≤   9 :   𝑻 𝒙𝟐   =  
+𝑑 𝑀 𝑥 2
+
+𝑑𝑥  
+=  
+𝑑 ( 1 , 25 𝑥 + 45   )
+
+𝑑𝑥  
+=   𝟏 ,   𝟐𝟓   𝒌𝑵
+
+3 tramo:   9   ≤   𝑥   ≤   12 :   𝑻 𝒙𝟑   =  
+𝑑 𝑀 𝑥 3
+
+𝑑𝑥  
+=  
+𝑑 ( − 18 , 75 𝑥 + 225   )
+
+𝑑𝑥  
+=   − 𝟏𝟖 ,   𝟕𝟓   𝒌𝑵
+
+Otro método para calcular el esfuerzo cortante:
+
+1 tramo:   0   ≤   𝑥   ≤   3 :   ∑   𝐹 𝑦   =   𝐹 𝐴𝑦   −   𝑇 𝑥 1   =   0   →   𝑻 𝒙𝟏   =   𝐹 𝐴𝑦   =   𝟏𝟔 ,   𝟐𝟓   𝐤𝐍
+
+2 tramo:   3   ≤   𝑥   ≤   9 :   ∑   𝐹 𝑦   =   𝐹 𝐴𝑦   −   𝐹 1   −   𝑇 𝑥 2   =   0   →   𝑻 𝒙𝟐   =   𝐹 𝐴𝑦   −   𝐹 1   =   16 , 25   −   15   =   𝟏 ,   𝟐𝟓   𝐤𝐍
+
+3 tramo:   9   ≤   𝑥   ≤   12 :   ∑   𝐹 𝑦   =   𝐹 𝐴𝑦   −   𝐹 1   −   𝐹 2   −   𝑇 𝑥 3   =   0   →   𝑻 𝒙𝟑   =   𝐹 𝐴𝑦   −   𝐹 1   −   𝐹 2   =   16 , 25   −   15   −   20   =
+
+− 𝟏𝟖 ,   𝟕𝟓   𝐤𝐍
+
+R epresentación de Diagramas esfuerzo cortante y momento flector:
+
+Opción b. (2 , 5 puntos)   Se tiene la viga en voladizo de la figura
+
+con una   carga puntual   𝐹 .
+
+a.   (1 punto)   Calcular las reacciones en el empotramiento.
+
+b.   (1 ,5   punto s )   Calcular y representar los diagramas del
+
+momento flector y esfuerzo cortante.
+
+Solución 2.b:
+
+a. Atendiendo al siguiente dibujo:
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+Las reacciones son :
+
+∑   𝐹
+𝑥  
+=   0
+
+∑   𝐹 𝑦   =   𝐹 𝐴𝑦   −   𝐹   =   0   →   𝑭 𝑨𝒚   =   𝐹   =   𝟓𝟎   𝐤𝐍
+
+∑   𝑀 𝐴
+′   =   − 𝑀 𝐴   +   𝐹   ·   𝑑 1   =   0   →   𝑴 𝑨   =   𝐹   ·   𝑑 1   =   50   ·   4   =   𝟐𝟎𝟎   𝐤𝐍𝐦
+
+b.   Analizando los dos tramos que hay en la viga:
+
+1)   0   ≤   𝑥   ≤   𝑑 1 :
+
+∑   𝐹
+𝑦  
+=   𝐹
+𝐴𝑦  
+−   𝑉
+1  
+=   0   →   𝑽
+𝟏  
+=   𝐹
+𝐴𝑦  
+=   𝟓𝟎   𝐤𝐍
+
+∑   𝑀   =   𝐹 𝐴𝑦   ·   𝑥   −   𝑀 1   −   𝑀 𝐴   =   0   →   𝑴 𝟏   =   𝐹 𝐴𝑦   ·   𝑥   −   𝑀 𝐴   =   𝟓𝟎𝒙   −   𝟐𝟎𝟎   𝐤𝐍𝐦
+
+2)   𝑑 1   ≤   𝑥   ≤   𝑑 2 :
+
+∑   𝐹
+𝑦  
+=   𝐹
+𝐴𝑦  
+−   𝐹   −   𝑉
+2  
+=   0   →   𝑽
+𝟐  
+=   𝐹
+𝐴𝑦  
+−   𝐹   =   50   −   50   kN   =   𝟎   𝐤𝐍
+
+∑   𝑀   =   𝐹 𝐴𝑦 𝑥   −   𝐹 ( 𝑥   −   𝑑 1
+)   −   𝑀 𝐴   −   𝑀 2   =   0   →   𝑴 𝟐   =   𝐹 𝐴𝑦   ·   𝑥   −   𝐹 ( 𝑥   −   𝑑 1
+)   −   𝑀 𝐴   =   𝟎   𝐤𝐍𝐦
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+Representación diagramas:
+
+‐   Flector.   (0,25 puntos) *
+
+‐   Cortante.   (0,25 puntos) *
+
+Ejercicio   3
+
+Opción a. (2 , 5 puntos)   Tenemos un circuito   serie RLC en serie que tiene un condensador de 30
+
+microfaradios, una bobina de   0 , 7   henrios y una resistencia de   100   Ω   conectados a un gener ador de 110 V
+
+y 60 Hz.
+
+a.   (0, 7 5   puntos)   Calcula la reactancia inductiva, la capacitiva y la impedancia del circuito.
+
+b.   (0,5   puntos)   Calcula la intensidad que circula por el circuito y exprésala en forma polar y
+
+binómica.
+
+c.   (1 , 2 5 puntos)   Dibuja el triángulo de impedancia y de tensiones.
+
+Solución 3.a
+
+El circuito es el que sigue:
+
+a.
+
+𝑿
+𝑳  
+=   𝜔𝐿   =   2 𝜋   ∙   60   𝐻𝑧   ∙   0 , 7   𝐻   =   𝟐𝟔𝟑 ,   𝟖𝟗   𝜴
+
+𝑿 𝑪   =  
+1
+
+𝜔𝐶  
+=  
+1
+
+2 𝜋   ∙ 60   𝐻𝑧   ∙ 30 · 10 − 6   𝐹  
+=   𝟖𝟖 ,   𝟒𝟏   𝜴
+
+𝒁 ⃗ ⃗   =   100   +   263 , 89 𝑗   −   88 , 41 𝑗   =   100   +   175 , 48 𝑗   =   𝟐𝟎𝟏 ,   𝟗𝟕 𝟔𝟎 , 𝟑𝟐
+𝒐   ( 𝜴 )
+
+b.
+
+𝑖   =  
+𝑣
+
+𝑍  
+=  
+110 0
+𝑜
+
+201 , 97
+60 , 32
+𝑜
+
+→   𝒊   =   𝟎 ,   𝟓𝟒
+− 𝟔𝟎 . 𝟑𝟐
+𝟎   →   𝐹𝑜𝑟𝑚𝑎   𝑝𝑜𝑙𝑎𝑟
+
+Forma binómica:
+
+𝑎   =   0 , 54   ·   cos   ( − 60 , 32 )   =   0,267
+
+𝑏   =   0 , 54   ·   sen   ( − 60 , 32 )   =   0,469
+
+𝒊   =   𝟎 ,   𝟐𝟔𝟕   −   𝟎 ,   𝟒𝟔𝟗𝒋
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+c.   Triángulo de impedancias:
+
+Para calcular el triángulo de tensiones, tomaremos la intensidad del circuito en el origen de
+
+fases. Calculamo s la tensión que cae en cada componente :
+
+V R   =   i   ∙   Z R   =   0 , 54   ·   100   =   54   V
+
+V L   =   i   ∙   Z L   =   0 , 54   ·   263 , 89   =   142 , 5   V
+
+V C   =   i   ∙   Z C   =   0 , 54   ·   88 , 41   =   47 , 74   V
+
+Opción b. (2 , 5 puntos)   Un circuito serie RL tiene un   generador de   120   𝑉   𝑦   60   𝐻𝑧 , la resistencia tiene un
+
+valor de   9   Ω   y la bobina una reactancia inductiva de   14   Ω .
+
+a.   (1 ,5   punto s )   Ave rigua la potencia activa, reactiva y aparente del circuito. Dibuja el triángulo de
+
+potencias.
+
+b.   (1   punto )   Calcular la capacidad que hay que conectar en paralelo con el generador para obtener
+
+un factor de potencia de 0,9.
+
+Solución 3.b
+
+El circuito es:
+
+a.   Hallamos la impedancia:   𝑍   =   9   +   14 𝑗
+
+Si pasamos la impedancia a forma polar, obtenemos el desfase entre la V y la I, es decir    .
+
+| 𝑍 |   =   √ 9
+2  
++   14
+2  
+=   16 , 64 
+
+
+   =   𝑎𝑟𝑐𝑡𝑔   (
+𝑋 𝐿
+
+𝑅  
+)   =   𝑎𝑟𝑐𝑡𝑔   (
+14
+
+9  
+)   =   57 ,   26
+0  
+→   𝑐𝑜𝑠 
+   =   0 , 54
+
+Ahora calcu lamos la intensidad en el circuito:
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+𝐼   =  
+𝑉
+
+𝑍  
+=  
+120
+
+16 , 64  
+=   7 , 21   𝐴
+
+Calculamos las potencias:
+
+Potencia activa:   𝑷   =   𝑉   ·   𝐼   ·   cos 
+   =   120   ·   7 , 21   ·   0 , 54   =   𝟒𝟔𝟕 ,   𝟐   𝑾
+
+Potencia reactiva:   𝑸   =   𝑉   ·   𝐼   ·   sen 
+   =   120   ·   7 , 21   ·   𝑠𝑒𝑛   57 , 26
+0  
+=   𝟕𝟐𝟕 ,   𝟕𝟒   𝑽𝑨𝒓
+
+Potencia aparente:   𝑺   =   𝑉   ·   𝐼   =   120   ·   7 , 21   =   𝟖𝟔𝟓 ,   𝟐   𝑽𝑨
+
+Otra forma:
+
+Potencia activa:   𝑷   =   𝐼
+2  
+·   R   =   7 , 21
+2  
+·   9   =   𝟒𝟔𝟕 ,   𝟖   𝑾
+
+Potencia reactiva:   𝑸   =   𝐼
+2  
+·   X 𝐿   =   7 , 21
+2  
+·   14   =   𝟕𝟐𝟕 ,   𝟕   𝑽𝑨𝒓
+
+Potencia aparente:   𝑺   =   √ 𝑃
+2  
++   𝑆
+2  
+=   √ 467 , 8
+2  
++   727 , 7
+2  
+=   𝟖𝟔𝟓 ,   𝟎𝟗   𝑽𝑨𝒓
+
+El triángulo   de potencias queda:
+
+b.   Si   𝑐𝑜𝑠 
+
+2  
+=   0 , 9   → 
+
+2  
+=   arccos   0 , 9   =   25 , 84
+0
+
+Aplicamos la fórmula para calcula r   el valor del condensador:
+
+𝑪   =  
+𝑃 ( 𝑡𝑔 
+
+1  
+−   𝑡𝑔 
+
+2
+)
+
+   ·   𝑉
+2  
+=  
+467 , 2   ( 𝑡𝑔   57 , 26   −   𝑡𝑔   25 , 84 )
+
+2   · 
+   ·   60   ·   120
+2  
+=   𝟗𝟐 ,   𝟑𝟗 
+ 𝑭
+
+Otro   método :   Tomamos   𝑄
+1  
+=   727 , 74   𝑉𝐴𝑟 .
+
+La potencia reactiva con   𝑐𝑜𝑠 
+
+2  
+ser ía:   𝑄 2   =   tan   25 , 84   ·   467 , 2   =   226 , 25   𝑉𝐴𝑟
+
+Se cumple que   𝑄 2   =   𝑄 1   −   𝑄 𝑐   siendo   𝑄 𝑐   la potencia reactiva del condensador.
+
+Despejamos   𝑄 𝑐 :
+
+𝑄
+𝑐  
+=   𝑄
+1  
+−   𝑄
+2  
+→   𝑄
+𝑐  
+=   727 , 74   −   226 , 25   =   501 , 49   𝑉𝐴𝑟
+
+Como   𝑄 𝑐   =  
+𝑉
+2
+
+𝑋 𝑐
+
+→   𝑋 𝑐   =  
+120
+2
+
+501 , 49  
+=   28 , 71 
+
+
+Sabemos que   𝑋 𝑐   =  
+1
+
+ · 𝐶  
+→   𝑪   =  
+1
+
+𝑋 𝑐 · 
+  
+=  
+1
+
+28 , 71 · 2 · 
+ · 60  
+=   𝟗𝟐 ,   𝟑𝟗 
+ 𝑭
+
+Ejercicio   4
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+(2,5 puntos)   Para proteger de forma eficiente una bodega donde hay botellas de vino valiosas se ha
+
+diseñado un sistema de seguridad formado por cuatro sensores y una alarma que nos avisa cuando se
+
+están produciendo situaciones de ri esgo en la bodega.
+
+Los cuatro sensores son los siguientes:
+
+A: un sensor de puerta principal que detecta si la puerta está abierta o cerrada.
+
+B: Un sensor de movimiento que nos indica si hay alguien dentro del almacén.
+
+C: un sensor de ventana que detecta s i la ventana está rota o no.
+
+D: Sensor de horario nocturno que nos dice si es de noche o es de día.
+
+La alarma debe activarse (S = 1) en los siguientes casos:
+
+1. -   Si la puerta está abierta y hay movimiento dentro de la bodega.
+
+2. -   Si la ventana está rota y   es de noche.
+
+3. -   Si hay movimiento dentro de la bodega y es de noche.
+
+Responde:
+
+a.   ( 1   punto)   Construye la tabla de verdad con las cuatro variables de entrada (A, B, C, D) y la salida
+
+(Alarma).
+
+b.   (0, 7 5   punto s )   Obtén la función lógica simplificada de la tabla a nterior usando mapas de Karnaugh.
+
+c.   (0,75 puntos)   Implementa la función lógica obtenida mediante puertas NAND.
+
+Solución   4.
+
+a.   Consideramos que:
+
+-   A = 1      puerta abierta. A = 0      puerta cerrada.
+
+-   B = 1      hay movimiento en la bodega. B = 0      No hay movimie nto en la bodega.
+
+-   C = 1      ventana rota. C = 0      ventana intacta.
+
+-   D = 1      horario nocturno. D = 0      horario diurno.
+
+Tabla de verdad:
+
+A   B   C   D   S
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+0
+
+0
+
+1
+
+0
+
+1
+
+0
+
+1
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+1
+
+b. Mapas de K arnaugh:
+
+CD \ AB   00   01   11   10
+
+00   1
+
+01   1   1
+
+11   1   1   1   1
+
+10   1
+
+Prueba de   acceso a la Universidad
+
+Curso 202 4 / 202 5
+
+Materia:   Tecnología   e   Ingeniería II
+
+Hay 3 grupos de cuatro.
+
+𝑺   =   𝑨   ·   𝑩   +   𝑩   ·   𝑫   +   𝑪   ·   𝑫
+
+c. Usamos puertas NAND para realizar la función anterior:
+
+𝑆   =   𝐴   ·   𝐵   +   𝐵   ·   𝐷   +   𝐶   ·   𝐷
+̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿ ̿
+  =   𝑨   ·   𝑩
+̅ ̅ ̅ ̅ ̅ ̅ ̅
+  ·   𝑩   ·   𝑫
+̅ ̅ ̅ ̅ ̅ ̅ ̅
+  ·   𝑪   ·   𝑫
+̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅
+
+Ahora, implementamos la función con puertas NAND:
+

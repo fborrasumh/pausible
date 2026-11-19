@@ -1,0 +1,932 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2526/Fisica.ashx]
+Prueba de Acceso a la Universidad. Curso 2025/2026
+Criterios de Correcci´ on: Materia F´ ısica
+
+EXAMEN CONVOCATORIA ORDINARIA
+
+Indicaciones Generales de Correcci´ on:
+
+•   El presente documento se debe tomar como una ayuda a los correctores y para concretar de la
+forma m´ as uniforme posible los criterios espec´ ıficos de correcci´ on. No es un documento docente
+que pretenda ense˜ nar a nadie a resolver los problemas, con lo que en ocasiones faltar´ an detalles
+en las explicaciones y pasos matem´ aticos en los desarrollos que seg´ un el caso pueden ser exigibles
+en los ex´ amenes de los alumnos para llegar a la m´ axima puntuaci´ on.
+
+•   En algunos casos puede haber otras maneras distintas y v´ alidas de resolver los problemas. Los
+correctores adaptaran la filosof´ ıa de estos criterios espec´ ıficos a esos casos cuando sean leves
+variantes.
+
+•   En los casos en que las diferencias sean notables lo comunicar´ an al coordinador y a los dem´ as cor-
+rectores durante las sesiones de evaluaci´ on de manera que pueda unificarse tambi´ en la baremaci´ on
+de esas otras alternativas.
+
+•   En la mayor´ ıa de los casos se valora conocer (o deducir) la expresi´ on matem´ atica necesaria, por
+un lado, y el valor num´ erico final por otro.
+
+•   En ning´ un caso se invalidar´ a todo un apartado s´ olo porque el valor num´ erico final no coincida
+con el dado aqu´ ı como soluci´ on, aunque est´ en dados en negrita como referencia.
+
+•   La puntuaci´ on de los ejercicios se realizar´ a en m´ ultiplos de 0.25 puntos.
+
+•   Este a˜ no como novedad, se incluye la penalizaci´ on por faltas de ortograf´ ıa. Cada tres faltas de
+ortograf´ ıa se restar´ a a la nota final 0.25 hasta un m´ aximo de 1 punto.
+
+–   1-2 faltas no resta puntuaci´ on.
+
+–   3-4-5 faltas, restan 0.25 puntos.
+
+–   6-7-8 faltas, restan 0.50 puntos.
+
+–   9-10-11 faltas, restan 0.75 puntos.
+
+–   12 faltas o m´ as, resta 1 punto.
+
+•   Se consideran faltas leves los siguientes errores:
+
+–   Ausencia o incorrecci´ on de unidades en las respuestas.
+
+–   No indicar el s´ ımbolo de vector en una magnitud .
+
+–   errores leves calculadora.
+
+–   prefijos m´ ultiplos y subm´ ultiplos.
+Las faltas leves restan 0.25 puntos cuando se comenten de tres en tres. Es decir hasta 3 faltas
+leves restan 0.25. De 4 a 6 restan 0.50 puntos, etc,..
+1
+
+Prueba de Acceso a la Universidad. Curso 2025/2026
+Criterios de Correcci´ on: Materia F´ ısica
+APARTADO A.- (2 puntos)   El 1 abril de 2026 se lanz´ o la misi´ on Artemis II, que transportaba a
+la nave Orion con cuatro astronautas para la exploraci´ on de la cara oculta de la Luna.   Uno de los
+aspectos clave para garantizar la seguridad de la tripulaci´ on es la reentrada en la atm´ osfera terrestre
+y el aterrizaje sobre la superficie de la Tierra.   Para estudiar de forma simplificada estos aspectos,
+supondremos que, antes de iniciar la reentrada a la atm´ osfera, Orion (masa   m   = 26 . 3   ·   10
+3  
+kg) describe
+una ´ orbita circular alrededor de la Tierra a una altura de h=100 km sobre su superficie. Se pide:
+
+PREGUNTA A1.-   (1 punto) Calcula la velocidad orbital de la nave y compararla con la velocidad
+de escape de la Tierra.
+
+PREGUNTA A2.-   (1 punto) Antes de la reentrada, el m´ odulo de servicio se separa y solo desciende
+a la Tierra la c´ apsula Orion, de masa   m 0   = 9 . 3 · 10
+3  
+kg. Calcular la energ´ ıa mec´ anica total de la c´ apsula
+en dicha ´ orbita y obtener la energ´ ıa que tendr´ ıa en reposo sobre la superficie terrestre. Determinar la
+energ´ ıa que debe disipar (principalmente en forma de calor) para realizar un aterrizaje seguro y suave.
+
+Datos: radio Tierra,   R T   = 6 . 37   ·   10
+3  
+km; masa Tierra,   M T   = 5 . 97   ·   10
+24  
+kg.   G   = 6 . 67   ·   10
+− 11  
+Nm
+2
+kg
+− 2
+.
+
+SOLUCI ´ ON:
+PREGUNTA A1.   Items   Puntos
+La velocidad orbital,   v 0 , se deduce a partir de igualar la fuerza de la gravedad,   F g   y la
+fuerza centr´ ıpeta,   F C   en una ´ orbita circular de radio   r   =   R T   +   h :
+
+F g   =   F C   →  
+GM T   m
+r
+2  
+=  
+mv
+2
+0
+
+r  
+→   v 0   =
+
+s
+
+GM T
+
+r  
+= 7 . 84   ·   10
+3
+m/s ,
+
+(Se considera el resultado correcto si se calcula diretamente a partir de la f´ ormula anterior)
+0.50
+La velocidad de escape de la Tierra,   v e   (desde su superficie,   R T   ) se deduce a partir de
+imponer conservaci´ on de la energ´ ıa entre la energ´ ıa inicial,   E i   y final,   E f   :
+
+E i   =   E f   →  
+1
+2  
+mv
+2
+
+e  
+−  
+GM T   m
+R T
+
+= 0   →   v e   =
+
+s
+
+2 GM T
+
+R T
+
+= 1 . 12   ·   10
+4
+m/s ,
+
+(Se considera el resultado correcto si se calcula diretamente a partir de la f´ ormula anterior).
+Se considerar´ a correcto si el estudiante ha interpretado que se le ped´ ıa la velocidad de
+escape desde la ´ orbita.
+Ahora se comparan ambas velocidades:
+
+v e
+
+v 0
+
+= 1 . 42   →   v e   = 1 . 42 v 0
+
+0.50
+
+PREGUNTA A2.   Items   Puntos
+Identificar y calcular la energ´ ıa mec´ anica total en la ´ orbita,   E O   en la ´ orbita:
+
+E O   =   E p   +   E c   =   −  
+GM m 0
+
+r  
++ 
+1
+2  
+m 0 v
+2
+0   =   − 5 . 72   ·   10
+11  
+J + 2 . 86   ·   10
+11  
+J =   − 2 . 86   ·   10
+11  
+J   0.50
+Identificar y calcular la energ´ ıa en reposo,   E R , de la c´ apsula sobre la superficie Terrestre:
+
+E R   =   −  
+GM m 0
+
+R T
+
+=   − 5 . 81   ·   10
+11  
+J  
+0.25
+Identificar y calcular la energ´ ıa que debe disipar, ∆ E , como la p´ erdida de energ´ ıa entre la
+energ´ ıa que la c´ apsula tiene en la ´ orbita,   E O , menos la energ´ ıa en reposo en la superficie
+Terrestre,   E R :  
+∆ E   =   E O   −   E R   = 2 . 95   ·   10
+11  
+J  
+0.25
+2
+
+Prueba de Acceso a la Universidad. Curso 2025/2026
+Criterios de Correcci´ on: Materia F´ ısica
+APARTADO B.- (3 puntos)   Realizar la pregunta B1 y elegir entre la B2.A y la B2.B:
+
+PREGUNTA B1.   (0.5 puntos) Determinar el trabajo realizado sobre una carga de 4 nC al llevarla
+desde un potencial de   V 1   = 200 V a otro de   V 2   = 500 V. Razonar el resultado.
+
+SOLUCI ´ ON:
+PREGUNTA B1. : Items   Puntos
+Identificar y calcular la f´ ormula del trabajo,   W   , desde un potencial inicial,   V i , a otro final,
+
+V f   :  
+W   =   − q ( V f   −   V i ) =   − 1 . 2   ·   10
+− 6  
+J .  
+0.25
+Razonamiento: el signo negativo se explica debido a que el trabajo es realizado por una
+fuerza externa al llevar la carga positiva desde un potencial menor a otro mayor.  
+0.25
+Elegir una de las siguientes preguntas (B2.A o B2.B):
+x
+
+y
+
+z
+
+w
+
+fem
+⃗
+
+B
+⃗
+
+S
+
+b
+
+a
+
+PREGUNTA   B2.A.   (2.5   puntos)   Dentro   de   un   campo
+magn´ etico uniforme
+⃗
+  B   = 10 ⃗ i   T, una espira plana rectangular de
+lados   a   = 5 cm y   b   = 10 cm gira alrededor del eje   Y   con velocidad
+angular uniforme   ω   = 2 π   s
+− 1
+.   La resistencia del conductor que
+forma la espira es   R   = 5 Ω. En el instante   t   = 0 s la espira est´ a
+perpendicular al campo
+⃗
+  B , tal y como se representa en la figura.
+Se pide:
+a) (1.25 puntos) Deducir el flujo magn´ etico que atraviesa la su-
+perficie de la espira en funci´ on del tiempo y calcularlo en el
+instante   t   = 0 . 5 s.
+b) (1.25 puntos) Hallar la   f em   inducida y calcular la intensidad
+de corriente generada en la espira en funci´ on del tiempo, as´ ı
+como su valor m´ aximo.
+
+SOLUCI ´ ON:
+PREGUNTA B2.A a) : Items   Puntos
+Identificar y calcular el flujo magn´ etico,   ϕ ( t ):
+
+ϕ ( t ) =
+⃗
+  B   ·
+⃗
+  S   =   B   ·   S   ·   cos( θ ) ,
+
+donde   θ   es el ´ angulo que forman el vector campo magnetico,
+⃗
+  B , con el vector superficie,
+⃗
+S .
+0.50
+Desarrollar la relaci´ on anterior para obtener el flujo en funci´ on del tiempo:
+
+ϕ ( t ) =   B 0 S   cos( ωt ) =   B 0 ab   cos( ωt ) = 0 . 05 cos(2 πt ) Tm
+2
+(Wb)
+0.50
+Hallar el flujo magn´ etico a un tiempo   t   = 0 . 5 s.   ϕ ( t   = 0 . 5 s) =   − 0 . 05 Tm
+2  
+0.25
+
+PREGUNTA B2.A b) : Items   Puntos
+Identificar y calcular el   f em ( t )  
+f em   =   −  
+dϕ
+dt  
+=   ωB 0 ab   sin( ωt ) = 0 . 1 π   sin(2 πt ) V .   0.50
+Identificar y calcular el   I ( t ):  
+I   =  
+f em
+R  
+= 
+0 . 1 π   sin(2 πt ) V
+5Ω  
+= 0 . 02 π   sin(2 πt ) A .   0.50
+De la expresi´ on anterior se puede identificar la corriente m´ axima,   I max   = 0 . 02 π   A.   0.25
+3
+
+Prueba de Acceso a la Universidad. Curso 2025/2026
+Criterios de Correcci´ on: Materia F´ ısica
++
+( 0,0 )
+
++
+q
+2
+
+Esfera 2
+
+Esfera 1
+
+q
+1
+
+d
+
+PREGUNTA   B2.B   (2.5 puntos) En un experimento de electrost´ atica se
+tienen dos esferas conductoras cargadas con carga   q 1   =   q 2   = 10   μ C, de ra-
+dio   r 1   = 10 cm y   r 2   = 5 cm, respectivamente.   El centro de la esfera 1 est´ a
+fijada en el punto (0,0), pero la esfera 2 tiene restringido su movimiento de
+forma vertical (eje y) encontr´ andose inicialmente en el punto (0,d) y sobre la
+que act´ ua la fuerza de la gravedad (ver dibujo esquem´ atico). Si la masa de la
+esfera 2 es de   m 2   = 0 . 1 kg, se pide:
+a) (1.25 puntos) Realizar un diagrama de fuerzas sobre la esfera 2 y obtener la
+distancia de equilibrio, d, entre los centros de ambas esferas.
+b) (1.25 puntos) Se conectan las dos esferas con un hilo conductor ideal inex-
+tensible que no almacena carga.   Calcular la carga y el potencial de cada
+esfera despu´ es de conectarlas.
+Datos:   K   = 9   ·   10
+9  
+Nm
+2
+C
+− 2
+.
+
+SOLUCI ´ ON:
+Apartado a) : Items   Puntos
+Identificar las fuerzas: fuerza el´ ectrica,   F e   hacia arriba debido
+a la repulsi´ on entre las cargas positivas y fuerza gravitatoria
+debida a la gravedad con direcci´ on contraria.
++
+( 0,0 )
+
++ q 2
+
+Esfera 2
+
+Esfera 1
+
+q
+1
+
+d  
+q 2
+
+Esfera 2
+
+F
+g
+
+F
+e
+
++  
+0.50
+Aplicar la Segunda ley de newton para resolver el ejercicio en el equilibrio, donde la
+aceleraci´ on es cero, ⃗ a   = 0   X
+
+i
+⃗
+F   = 0   →   F e   =   F g
+
+0.25
+sustituir las fuerzas por sus expresiones y resolver la distancia,   d , en el equilibrio
+
+F e   =   F g   →  
+kq 1 q 2
+
+d
+2  
+=   mg   →   d   =
+
+s
+
+kq 1 q 2
+
+mg  
+= 0 . 96 m = 96 cm .  
+0.50
+
+Apartado b) : Items   Puntos
+Identificar que al conectar las esferas la carga se redistribuye, pero la carga total se con-
+serva.   Esto lleva a que la carga total inicial (antes de la conexi´ on) se iguala a la carga
+total final (despu´ es de la conexi´ on):
+
+q
+i
+
+1  
++   q
+i
+
+2  
+= 20   μ C =   q
+f
+
+1  
++   q
+f
+
+2
+
+0.25
+Identificar que al conectar las esferas se iguala el potencial electrost´ atico:
+
+V  
+f
+
+1  
+=   V  
+f
+
+2  
+→  
+kq
+f
+
+1
+
+r 1
+
+=  
+kq
+f
+
+2
+
+r 2
+
+→   q
+f
+
+1  
+=  
+r 1
+
+r 2
+
+q
+f
+
+2  
+= 2 q
+f
+
+2  
+.  
+0.50
+Resolver el sistema de 2 ecuaciones formado por la ecuaci´ on de la conservaci´ on de la carga
+y la igualdad de los potenciales:  
+q
+f
+
+1  
+= 13 . 33 μ C ,   q
+f
+
+2  
+= 6 . 67 μ C  
+0.25
+Finalmente se calcula el potencial en cada esfera. Este ser´ a el mismo:
+
+V  
+f
+
+1  
+=   V  
+f
+
+2  
+=   V  
+f  
+=  
+kq
+f
+
+1
+
+r 1
+
+=  
+kq
+f
+
+2
+
+r 2
+
+= 1 . 2   ·   10
+6  
+V = 1 . 2 MV .  
+0.25
+Si el alumno resuelve el ejercicio con   otro procedimiento , ser´ a correcto:
+Calculo de los potenciales iniciales (antes de conectar las cargas)
+
+V  
+i
+
+1   = 900 V   V  
+i
+
+2   = 1800 V
+Pasar´ a carga   q   de la esfera 2 a la 1 hasta igualar potenciales. Y se resolver´ a el sistema.
+
+V  
+f
+
+1  
+=   V  
+f
+
+2  
+=   V  
+f  
+=  
+kq
+f
+
+1
+
+r 1
+
+=  
+kq
+f
+
+2
+
+r 2
+
+→  
+q 1   +   q
+r 1
+
+=  
+q 2   −   q
+r 2
+
+...
+
+4
+
+Prueba de Acceso a la Universidad. Curso 2025/2026
+Criterios de Correcci´ on: Materia F´ ısica
+APARTADO C.- (3 puntos)   Realizar la pregunta C1 y elegir entre la C2.A y la C2.B:
+
+PREGUNTA C1.   (0.5 puntos) Construye la imagen de un objeto situado a una distancia entre   f
+
+y 2 f   de una lente convergente y exp´ on sus caracter´ ısticas.
+
+SOLUCI ´ ON:
+PREGUNTA C1. : Items   Puntos
+Las caracter´ ısticas de la imagen son:
+real, invertida y aumentada
+o igual (caso   s   = 2 f   ).
+(es v´ alida la representaci´ on con
+el objeto dibujado invertido)
+F
+
+y ′
+
+f   <   s   <   2 f
+
+f   f ′   =   +   10   cm
+
+F ′
+
+s ′   >   s
+
+2 f
+
+0.50
+Elegir una de las siguientes preguntas (C2.A o C2.B):
+
+PREGUNTA C2.A.   (2.5 puntos) Una part´ ıcula de masa,   m   = 0 . 1 kg, oscila, al estar unida a un
+muelle, con movimiento arm´ onico simple (MAS). La posici´ on de la part´ ıcula en funci´ on del tiempo
+queda determinada por la ecuaci´ on   x ( t ) = 10   ·   cos( π/ 2 t   +   π ) cm. Se pide:
+a) (1.25 puntos) Determinar la constante el´ astica del muelle y hallar la energ´ ıa cin´ etica y la velocidad
+de la part´ ıcula cuando la part´ ıcula pasa por el punto intermedio de la oscilaci´ on.
+b) (1.25 puntos) Para el mismo sistema, encontrar la ecuaci´ on de la posici´ on de la part´ ıcula,   x ( t ), en
+caso de que la velocidad en el punto intermedio fuera de 20 π   cm/s.
+
+SOLUCI ´ ON:
+PREGUNTA C2.A a) : Items   Puntos
+Obtener la constante el´ astica del muelle,   k . A partir de los datos de la ecuaci´ on   x ( t ) se
+puede obtener que la frecuencia angular es   ω   =   π/ 2 y por tanto:
+
+k   =   mω
+2  
+= 2 . 47   ·   10
+− 1  
+Nm
+− 1
+.
+
+0.50
+Identificar y obtener la energ´ ıa cin´ etica en el punto intermedio de la oscilaci´ on (x=0). Por
+conservaci´ on de energ´ ıa mec´ anica se elige el punto de mayor amplitud del MAS, donde
+solo hay energ´ ıa potencial,   E A , y se iguala a la energ´ ıa en el punto intermedio,   E B   , donde
+solo hay energ´ ıa cin´ etica,   E c :
+
+E A   =   E B   →  
+1
+2  
+kA
+2  
+=   E B   E c   = 1 . 23   ·   10
+− 3  
+J .
+
+0.50
+A partir de la energ´ ıa cin´ etica,   E c , calculada anteriormente se obtiene la velocidad:
+
+E c   = 
+1
+2  
+mv
+2  
+→   v   =
+
+s
+
+2 E c
+
+m  
+= 0 . 157 m/s  
+0.25
+
+PREGUNTA C2.A b) : Items   Puntos
+Identificar que como es el mismo muelle la frecuencia angular del MAS   ω   no cambia.
+
+→   ω   =   π/ 2 s
+− 1
+.  
+0.25
+Establecer que en el caso de que la velocidad en   x   = 0 cambia, se producir´ a un cambio en
+la amplitud, A, del MAS. Este cambio se puede hallar por conservaci´ on de la energ´ ıa del
+punto de m´ axima amplitud,   E A   y el punto intermedio,   E B   :
+
+E A   =   E B   →  
+1
+2  
+kA
+2  
+= 
+1
+2  
+mω
+2
+A
+2  
+= 
+1
+2  
+mv 2   →   A   =  
+v
+ω  
+= 40 cm   = 0 . 4 m.
+
+Se puede hacer derivando la ecuaci´ on de posici´ on y haciendo el sin( ωt ) = 1.
+0.50
+Exponer la nueva ecuaci´ on del MAS (suponiendo que no hay cambio de fase):
+
+x ( t ) = 40 cos
+
+  
+π
+
+2  
+t   +   π
+
+
+
+cm .  
+0.50
+5
+
+Prueba de Acceso a la Universidad. Curso 2025/2026
+Criterios de Correcci´ on: Materia F´ ısica
+PREGUNTA C2.B.   (2.5 puntos) Una onda electromagn´ etica que se propaga en un medio en el
+sentido negativo del eje   Z   tiene una longitud de onda   λ   = 10 nm y una frecuencia de   f   = 2 . 5   ·   10
+16
+
+Hz. El campo el´ ectrico m´ aximo es   E 0   = 50 V/m y en el instante inicial a   t   = 0 s y con   z   = 0 m el
+campo el´ ectrico es   E   = 0 V/m. Se pide:
+a) (1.25 puntos) Hallar la frecuencia angular y el n´ umero de ondas. Determinar la ecuaci´ on de ondas.
+b) (1.25 puntos) Hallar la velocidad de propagaci´ on de la onda y el ´ ındice de refracci´ on del medio en
+el que se propaga.
+Datos:   c   = 3   ·   10
+8  
+m/s.
+
+SOLUCI ´ ON:
+PREGUNTA C2.B a) : Items   Puntos
+Obtener la frecuencia angular  
+ω   = 2 πf   = 1 . 57   ·   10
+17  
+s
+− 1
+(rad s
+− 1
+) .  
+0.25
+Obtener el n´ umero de onda  
+k   = 
+2 π
+λ  
+= 2 π   ·   10
+8  
+m
+− 1
+.   0.25
+Exponer la ecuaci´ on de la onda general:  
+E ( z, t ) =   E 0   sin( kz   ±   ωt   +   ϕ ) ,
+
+donde   E 0   es la amplitud de la onda, el signo ( ± ) de la parte temporal depende del sentido
+de propagaci´ on de la onda y la fase   ϕ   depender´ a de los datos iniciales del problema. (la
+ecuaci´ on de la onda con el coseno tambi´ en es correcta).
+0.25
+Aplicaci´ on de los datos del problema:
+onda en sentido negativo   →   singo + en la parte temporal.
+De las condiciones iniciales se obtiene que   E (0 ,   0) =   E 0 , siendo posible para   ϕ   = 0.
+Con todo ello, la ecuaci´ on de la onda se puede representar por:
+
+E ( z, t ) =   E 0   sin( kz   +   ωt ) V/m = 50 sin(2 π   ·   10
+8
+z   + 1 . 57   ·   10
+17
+t ) V/m
+(donde   z ( m ), y   t ( s )).
+0.50
+
+PREGUNTA C2.B b) : Items   Puntos
+Identificar y calcular la velocidad de propagaci´ on de la onda,   v :
+
+v   =   λf   = 2 . 5   ·   10
+8  
+m/s   0.75
+Hallar el ´ ındice de refracci´ on,   n :  
+n   =  
+c
+v  
+= 1 . 2   0.50
+6
+
+Prueba de Acceso a la Universidad. Curso 2025/2026
+Criterios de Correcci´ on: Materia F´ ısica
+APARTADO D.- (2 puntos)   Elegir una pregunta de las dos siguientes:
+
+PREGUNTA D1.   (2 puntos) Las part´ ıculas   α   son n´ ucleos de helio, de masa cuatro veces la del
+prot´ on aproximadamente. Si una part´ ıcula   α   y un prot´ on, que poseen la misma energ´ ıa cin´ etica, se
+mueven a velocidades mucho menores que la de la luz. Se pide:
+a) (1 punto) Hallar la relaci´ on entre sus velocidades.
+b) (1 punto) Hallar la relaci´ on existente entre las longitudes de onda de De Bloglie correspondientes
+a las dos part´ ıculas.
+
+SOLUCI ´ ON:
+APARTADO D1 a)   : Items   Puntos
+Identificar la energ´ ıa cin´ etica
+del prot´ on,   E c ( p ) y de la part´ ıcula   α ,   E c ( α ):  
+E c ( p ) = 
+1
+2  
+m p v
+2
+
+p  
+E c ( α ) = 
+1
+2  
+m α v
+2
+
+α  
+0.50
+Igualar estas energ´ ıas cin´ eticas como nos indica el enunciado para obtener la relaci´ on entre
+velocidades:
+
+→  
+1
+2  
+m p v
+2
+
+p  
+= 
+1
+2  
+m α v
+2
+
+α  
+→  
+v p
+
+v α
+
+=
+
+s  
+m α
+
+m p
+
+=
+
+s
+
+4 m p
+
+m p
+
+=  
+√
+4 = 2  
+0.50
+
+APARTADO D1 b)   : Items   Puntos
+Identificar cual es la relaci´ on que nos da longitud de De Broglie,   λ B   , de cada part´ ıcula
+
+λ B   =  
+h
+p  
+=  
+h
+mv  
+=  
+h
+
+√
+2 mE c
+
+;   λ B   ( p ) =  
+h
+
+p
+2 m p E c
+
+;   λ B   ( α ) =  
+h
+
+√
+2 m α E c
+
+0.50
+Alcanzar la relaci´ on entre las   λ B   de las dos part´ ıculas:
+
+λ B   ( p )
+
+λ B   ( α ) 
+=
+
+h
+√
+2 m p E c
+
+h
+√
+2 m α E c
+
+=
+
+s  
+m α
+
+m p
+
+=
+
+s
+
+4 m p
+
+m p
+
+=  
+√
+4 = 2  
+0.50
+
+PREGUNTA D2.   (2 puntos) El radion´ uclido Fl´ uor-18 (
+18
+F), utilizado como trazador en tomograf´ ıas
+PET/TAC, tiene un periodo de semidesintegraci´ on (T 1 / 2 ) de 110 minutos. Se prepara una dosis que
+contiene inicialmente 1 . 5   ·   10
+− 12  
+gramos de este is´ otopo. Se pide:
+a) (1 punto) Calcular la constante de desintegraci´ on radiactiva ( λ ) del Fl´ uor-18.
+b) (1 punto) Determinar qu´ e masa de is´ otopo quedar´ a en el organismo del paciente tras 5 . 5 horas de
+la inyecci´ on.
+
+SOLUCI ´ ON:
+APARTADO D2 a)   : Items   Puntos
+Directamente, se identifica y calcula la constante de desintegraci´ on,   λ   como:
+
+λ   = 
+ln 2
+
+T 1 / 2
+
+= 6 . 30   ·   10
+− 3  
+min
+− 1
+.  
+1.00
+
+APARTADO D2 b)   : Items   Puntos
+Hallar directamente la masa del is´ otopo que quedar´ a en el paciente tras 5.5 horas utilizando
+la ecuaci´ on de desintegraci´ on radiactiva:  
+m   =   m 0 e
+− λt  
+= 1 . 875   ·   10
+− 13
+g
+
+observaci´ on: hay que pasar el   t   a minutos para que el resultado sea correcto.
+5 . 5 horas = 330 min, equivalente a 3 periodos de semidesintegraci´ on.
+1.0
+7
+

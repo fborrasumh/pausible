@@ -1,0 +1,763 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2223/ConvocatoriaExtraordinaria/Fisica-criterios-Extraordinaria.ashx]
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág 1
+
+Solucionario del Examen EXTRAORDINARIO
+
+El presente documento se debe tomar como una ayuda a los correctores y para concretar de la forma más uniforme posible los criterios
+específicos de corrección. No es un documento docente que pretenda enseñar a nadie a resolver los problemas, con lo que en ocasiones faltarán
+detalles en las explicaciones y pasos matemáticos en los desarrollos que según el caso puede ser exigible a los exámenes de los alumnos para
+llegar a la máxima puntuación. En algunos casos puede haber otras maneras distintas y válidas de resolver los problemas. Los correctores
+adaptaran la filosofía de estos criterios específicos a esos casos cuando sean leves variantes. En los casos en que las diferencias sean notables
+lo comunicarán al coordinador y a los demás correctores durante las sesiones de evaluación de manera que pueda unificarse también la
+baremación de esas otras alternativas.
+
+Sección 1: Problemas (elegir 2).   Puntuación máxima 3 puntos cada uno.
+
+1.   Una esfera metálica de 20 cm de radio se carga conectándola a una batería de 50 V. Posteriormente se coloca a 3
+m de una segunda esfera de 30 cm de radio que contiene una carga de -3 nC.
+
+a.   Calcula la carga que la primera esfera absorbe de la batería y el potencial inicial de la segunda.
+
+b.   Determina la fuerza con que interaccionan las esferas, indicando módulo dirección y sentido.
+
+c.   Si se conectan eléctricamente las esferas entre sí, determina la carga y el potencial con que termina cada
+una.   Datos: K=9·10   9   Nm 2 C   -2
+
+Apartado (a)   Puntos
+
+El potencial de una esfera conductora es V=Kq/R.   0.25
+
+Aplicándolo a la primera obtenemos la carga que absorbe de la batería q   1 =V·R/K=1.11·10   -9   C =1.11 nC   0.5
+
+En el caso de la segunda sustituimos sus datos para obtener V   2 = -90V   0.25
+
+Apartado (b)   Puntos
+
+El campo fuera de las esferas es como si fuesen cargan puntuales. La fuerza lleva la   dirección de la
+
+línea que une las cargas   y es   atractiva   puesto que tienen cargas de signos opuestos
+
+0.5
+
+El módulo es F=Kq 1   q   2 /d 2 . En este caso   F=3.33·10 - 9   N
+
+Nota: El dato que se da d=3 m se refiere a la distancia entre centros de las esferas. Si algún alumno ha
+
+considerado que lo que se daba es la distancia entre las superficies sería d’=3+0.2+0.3=3.5 m y resulta
+
+F=2.44 ·10
+-9  
+N . Lo damos por válido puesto que no se explicita que sea distancia “entre centros”.
+
+0.5
+
+Apartado (c)   Puntos
+
+Cuando se conectan eléctricamente, las esferas intercambian carga hasta igualar sus potenciales   0.25
+
+Llamamos q a la cantidad de carga que (1) le cede a (2). Igualamos los potenciales finales con la carga
+modificada
+
+𝑉𝑉 1
+′  
+=   𝐾𝐾 
+𝑞𝑞 1   − 𝑞𝑞
+𝑅𝑅 1
+
+=   𝐾𝐾 
+𝑞𝑞 2   +   𝑞𝑞
+𝑅𝑅 2
+
+=   𝑉𝑉 2
+′
+
+0.25
+
+Desarrollamos la ecuación anterior para llegar a q=1.866 nC   0.25
+
+Con esta carga final, sustituimos en cualquiera de los potenciales finales para obtener el mismo valor,
+por ejemplo, con (1)…
+
+𝑉𝑉
+1
+′  
+=   𝐾𝐾 
+𝑞𝑞 1   − 𝑞𝑞
+𝑅𝑅 1
+
+=   − 34   𝑉𝑉
+
+0.25
+
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág 2
+
+2.   La Luna tiene una masa de 7.35·10   22   kg y un radio de 1740 km. La nave Artemisa, con una masa de 5000 kg, orbita
+alrededor a una distancia de su centro igual a 5 veces el radio de la Luna. Determina de manera razonada y
+deduciendo las expresiones matemáticas empleadas:
+
+a.   El periodo de rotación de la nave, en horas.
+
+b.   La Energía mecánica de la nave.
+
+c.   La velocidad mínima que necesitarán proporcionar los cohetes de la nave para abandonar la superficie de
+la Luna y volver a la Tierra al terminar la misión.
+
+Dato: G=6.67·10   -11   Nm 2 kg -2
+
+Apartado (a)   Puntos
+
+Igualando la fuerza gravitatoria a masa por aceleración centrípeta
+
+𝐹𝐹   =   𝐺𝐺 
+𝑀𝑀   ·   𝑚𝑚
+𝑑𝑑  
+2  
+=   𝑚𝑚𝜔𝜔  
+2  
+𝑑𝑑
+
+Además,   la velocidad angular se expresa en función del periodo como 2πd/T
+
+𝐺𝐺 
+𝑀𝑀   ·   𝑚𝑚
+𝑑𝑑  
+2  
+=   𝑚𝑚𝜔𝜔  
+2  
+𝑑𝑑   =   𝑚𝑚  
+4 𝜋𝜋  
+2  
+𝑑𝑑
+𝑇𝑇  
+2
+
+Despejando aquí se obtiene la tercera ley de Kepler, que establece la proporcionalidad entre el periodo
+de un astro y su radio orbital   𝑇𝑇  
+2  
+=  
+4𝜋𝜋  
+2
+𝐺𝐺𝐺𝐺  
+𝑑𝑑  
+3
+
+0.25
+
+0.50
+
+La distancia orbital es 5 veces el radio de la Luna: d=5·R L =8.7·10  
+6  
+m y la masa que aparece en la expresión
+es la de la Luna (¡no la del satélite!) Sustituyendo   T=20.2 horas   (si no se da en horas, pero el valor es
+correcto, error leve)  
+0.25
+
+Apartado (b)   Puntos
+
+La energía mecánica es suma de la cinética y la potencial gravitatoria   0.25
+
+E c =mv  
+2
+/2, donde v=2πd/T =750.6 m/s (del apartado anterior)
+
+E c =1.41·10  
+9  
+J
+
+0.25
+
+La energía potencial gravitatoria es   𝐸𝐸 𝑝𝑝   =   −  
+𝐺𝐺𝐺𝐺𝐺𝐺
+𝑑𝑑  
+=   − 2.82 · 10
+9  
+𝐽𝐽  
+0.25
+
+La energía mecánica total es E c +E p =–1.40·10   9   J   0.25
+
+No se exige dar el valor por separado de cada energía, puesto que no se pide así. Valoramos la expresión de cada
+una. Por otra parte, de otro desarrollo se puede llegar a E mec =1/2 E p   . Si se deduce esta expresión es correcto (1
+punto) pero si se da la fórmula sin más damos un máximo de 0.5 puntos, ya que se dice “ Determina de manera
+razonada y deduciendo las expresiones matemáticas empleadas”.
+
+Apartado (c)   Puntos
+
+El alumno identifica lo que se pide como la velocidad de escape   0.25
+
+La energía   potencial corresponde a estar a una distancia de la Luna igual a su radio
+
+E p =–GM   L m/R   L
+
+0.25
+
+Para abandonar la Luna necesitan una energía mecánica mínima de cero
+
+E= –GM   L m/R   L   + mv   e 2 /2=0
+
+0.25
+
+Despejando   𝑣𝑣 𝑒𝑒   =   �  
+2 · 𝐺𝐺 𝐺𝐺 𝐿𝐿
+𝑅𝑅 𝐿𝐿
+
+= 2373.8   𝑚𝑚 / 𝑠𝑠  
+0.25
+
+Si el alumno sólo identifica que se pide la velocidad de escape y pone la expresión final de memoria tendrá como
+máximo 0.5 en este apartado.
+
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág 3
+
+3.   Un hilo rectilíneo muy largo que transporta una intensidad de 150 A se coloca en una región en la que hay un
+
+campo magnético uniforme en dirección eje X positivo de valor B 0   =0.2 T.
+
+a.   Razona si hay alguna orientación posible para el hilo de modo que no sufra
+fuerza magnética, y en qué orientaciones será máxima esta fuerza.
+
+b.   Determina la fuerza por unidad de longitud que sufrirá el hilo debido a este
+campo externo B 0   , indicando módulo, dirección y sentido en los siguientes
+casos (Incluye en tu respuesta un esquema aclaratorio, y ten en cuenta que en
+los esquemas adjuntos de los dos casos el punto de vista se ha cambiado para
+visualizar mejor las condiciones particulares de cada pregunta)
+
+(b1) La corriente circula en la dirección del eje Y positivo.
+
+(b2) La corriente lleva la dirección de la bisectriz del plano XY.
+
+c.   Queremos anular la fuerza en el caso (b1) añadiendo un segundo hilo paralelo
+por encima del anterior, en el plano YZ, y con la misma corriente. Determina
+a qué distancia habrá que colocarlo y si el sentido de la corriente tendrá que
+ser la misma del hilo inicial o la contraria.
+
+Datos: μ 0   =4 π ·10  
+-7  
+T·m/A
+
+Apartado (a)   total:0.75   Puntos
+
+La fuerza magnética sobre una corriente eléctrica depende de la intensidad, el módulo del campo, la
+longitud del conductor y su orientación relativa
+
+F=I·L^B=ILB sen   (θ)
+
+0.25
+
+En este caso sólo jugamos con la orientación (θ). La fuerza   será cero   si lo es sen(θ), por tanto si el
+
+conductor se coloca   paralelo   al campo magnético
+
+0.25
+
+Para que sea máxima la fuerza      sen θ=1, lo que ocurrirá si el conductor se coloca perpendicular a   la
+dirección de eje X, es decir en cualquier dirección en el plano YZ   (damos por válido si sólo dicen “eje Y”
+o “eje Z”)
+
+0.25
+
+Apartado (b1)   total:0.75   Puntos
+
+En este caso θ= 90º, con lo que el módulo será F/L=I·B·sen90º= 30   N/m   0.25
+
+El producto vectorial de la corriente y el campo lleva la dirección de las flechas
+rojas. Valoramos con este 0.25 el   esquema
+
+0.25
+
+La   dirección   de la fuerza será la del   eje Z .   Según la regla de la mano derecha, el   sentido   será el
+
+negativo   del eje Z
+
+0.25
+
+Apartado (b2)   total:0.75   Puntos
+
+En este caso θ= 45º, con lo que el módulo será F/L=I·B sen45º = 21.2   N/m   0.25
+
+El producto vectorial de la corriente y el campo lleva la dirección perpendicular al papel. Valoramos con
+este 0.25 el   esquema.   El alumno podría utilizar otro punto de vista en el diagrama igualmente válido
+para mostrar la dirección Z.
+
+0.25
+
+La   dirección   de la fuerza será la del   eje Z .   Según la regla de la mano derecha, el   sentido   será el
+
+negativo   del eje Z
+
+0.25
+
+(eje X sale del papel)
+
+(eje   Z   sale del papel)
+
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág 4
+
+Apartado (c)   total:0.75   Puntos
+
+El campo que crea un hilo rectilíneo es B=μ   0 I/2πd, y la fuerza magnética entre corrientes paralelas por
+
+unidad de longitud es F/L=I 1   B 2 =μ 0   I 1   I 2 /2πd
+
+0.25
+
+Como la fuerza del campo externo va hacia abajo y colocamos el hilo por encima, necesitamos que la
+fuerza sea   atractiva . Para ello las corrientes tienen que tener el   mismo sentido
+
+0.25
+
+Para dejar al hilo en equilibrio la fuerza debida al campo externo (obtenida en (b1), 30 N debe ser igual
+a la del nuevo conductor. Como las corrientes son iguales
+
+μ   0   I 1   I 2 /2 π d=30    d=μ 0   I 2 /(2 π ·30)= 0.15 mm
+
+0.25
+
+4. Un objeto de 4.4 cm de altura está situado 4.0 cm a la izquierda de una lente divergente, y se observa una imagen
+virtual 2.8 cm a la izquierda de la lente cuando se ilumina con una luz que viene de la izquierda.
+
+a.   Determina la focal de la lente, su potencia en dioptrías, el tamaño de la imagen y su orientación.
+
+b.   Explica las 3 reglas de trazado de rayos, y aplícalas a este caso para mostrar los resultados anteriores. Trata
+de mantener las proporciones en el dibujo.
+
+c.   Si sustituimos la lente divergente por una convergente con la misma focal, calcula dónde aparecerá la
+imagen y qué altura tendrá. Realiza un trazado de rayos para ilustrarlo.
+
+Apartado (a)   Puntos
+
+La fórmula de Gauss de las lentes delgadas establece (criterio DIN)  
+1
+
+𝑠𝑠′  
+−  
+1
+𝑠𝑠  
+=  
+1
+
+𝑓𝑓′
+
+En este caso nos dan datos para disponer de s=-4.0 cm; s’=-2.8 cm. Despejamos   f’= –9.3 cm  
+0.25
+
+La potencia será   P=1/f’= – 10.75 m - 1   =   - 10.75 Dioptrías   0.25
+
+El aumento lateral es y’/y=A. Además sabemos que A está relacionado con las posiciones de objeto e
+imagen A=s’/s. Por tanto y’=y·s’/s= 3.1 cm (tamaño imagen )
+
+0.25
+
+Como es positivo el resultado la imagen es   derecha   0.25
+
+Nota sobre el criterio de signos:   En caso de no utilizar este criterio de signos (DIN), la fórmula de Gauss
+sería  
+1
+𝑠𝑠′  
++  
+1
+𝑠𝑠  
+=  
+1
+𝑓𝑓′  
+y el aumento lateral A=y’/y=-s’/s. Si se mantiene con coherencia este criterio también es válido.
+Ojo porque en este caso algunos resultados podrían tener signo cambiado y estar bien.
+
+Apartado (b)   Puntos
+
+Explica   al menos dos   reglas de trazado de rayos: (con 2 bien explicados ya damos 0.5 aquí)
+
+•   El rayo que llega a la lente paralelo al eje óptico sale pasando por el foco imagen (f’)
+
+•   El rayo que pasa por el foco objeto sale de la lente paralelo al eje óptico
+
+•   El rayo que incide en el centro de la lente no se desvía
+
+0.5
+
+Realiza   el   trazado   de   rayos
+completo para este caso.
+
+(Debe   ser   cualitativamente
+correcto aunque no se realice a
+escala)
+
+0.5
+
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág 5
+
+Apartado (c)   Puntos
+
+Si la lente es convergente cambiamos el signo de f’=93.3 cm y s’ pasa a ser incógnita
+
+1
+
+𝑠𝑠′  
+−  
+1
+
+𝑠𝑠  
+= 
+1
+
+𝑓𝑓′
+
+Resulta   s’=-7 cm   y como antes y’=y·s’/s=4.4·(-7/-4)= 7.7 cm
+
+Si los resultados salen incorrectos como consecuencia de un error previo en la determinación de f’
+no se arrastra aquí el error. Hay que comprobar si se ha aplicado la formula coherentemente.
+
+0.25
+
+0.25
+
+0.5
+
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág 6
+
+Sección 2: Cuestiones (elegir 3).   Puntuación máxima 1 punto cada una.
+
+5.   En un concierto hay 10000 personas pidiendo un “BIS”. Si emplean 1.5 s en cada grito y la sonoridad a la
+misma distancia de cada emisor es de 75 dB, determinar la sonoridad total y la energía total transmitida por el aire a
+través de 1 cm  
+2
+.   Dato: I 0   = 10  
+-12  
+W/m
+2
+
+Cuestión 5   Puntos
+
+La sonoridad viene dada en función de la intensidad como L(dB)=10·log(I/I 0   ), por tanto
+
+I=I 0   ·10   7.5 =3.16·10   -5   W/m   2
+
+0.25
+
+Para 10000 fuentes iguales la intensidad será simplemente 10000·I=0.316 W/m 2
+
+L tot =115 dB
+
+Nótese que no es imprescindible obtener esta I total si se opera en el logaritmo, pues 10·log(10000I/I 0 )=
+10·log(I/I 0   )+ 10·log(10   4 )=75+40=115 dB
+
+0.25
+
+La Intensidad es energía por unidad de superficie y tiempo.   E=I·S·t   0.25
+
+Para t=1.5 s y S=1 cm 2 =10   -4   m 2   E=I·S·t=4.74·10   -5   J   0.25
+
+6.   La imagen de la derecha representa el perfil de una onda que tiene
+una velocidad de propagación v=200 m/s. Determinar su longitud de
+onda, frecuencia, desfase y escribir la función de la onda .
+
+Cu estión 6   Puntos
+
+De la gráfica se extrae que λ= 0.02m=2 cm      k=2π/λ= 31.83 m -1   ( N o es necesario dar k )   0.25
+
+Como v=λ·ν se obtiene ν=200/0.02= 10000 Hz   (La frecuencia angular es   ⍵ =2πν=62831.8 rad/s, se
+
+acepta también como respuesta a “frecuencia”)
+
+0.25
+
+y=A·sin(kx- ⍵ t+δ). Por ejemplo para x=0 y suponiendo que el gráfico dado es para t=0 resulta y=Asin(δ)
+
+Como vemos que para este caso y=A debe ser sen δ=1      δ=π/2   0.25
+
+Del gráfico también se obtiene que   A=0.03 m .
+
+La función de onda final   y=0.03·sen   2π (x/0.02- 10000·t+π/2)= 0.03·sen(31.83·x- 62831.8·t+π/2)
+
+Puede expresarse la solución dejando 2π factor común o sin hacerlo. Es igualmente correcto
+
+0.25
+
+7.   El isótopo   C
+14  
+es radiactivo y se produce en la atmósfera como resultado del bombardeo de la radiación cósmica
+del espacio. Los seres vivos asimilan este carbono y muestran una actividad de 600 Bq por gramo de carbono.
+Cuando mueren dejan de absorber carbono y el que tienen se desintegra con un periodo de semidesintegración
+de 5500 años. El carbono tomado de una madera de una tumba egipcia muestra 457.2 Bq por gramo de carbono.
+¿Qué edad tiene la tumba?
+
+Cuestión 7   Puntos
+
+La Actividad de una muestra radiactiva sigue la ley A=A 0   ·e - λ·t   0.25
+
+De los datos se extrae que la actividad inicial (t=0) es 600 Bq=A 0   0.25
+
+La constante de desintegración está relacionada con el periodo de semidesintegración según
+
+λ=ln(2)/T 1/2 =1.26·10   -4   años -1
+
+0.25
+
+Sustituyendo en la expresión inicial para la madera de la tumba resulta 457.2=600·e -0.000126·t      t=2157
+
+años
+
+0.25
+
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág 7
+
+8.   Un Kilogramo de carbón, al arder, produce 7000 kcal. Calcular la cantidad de carbón necesaria para producir la
+misma energía que 1 kg de   𝑈𝑈 92
+235  
+, si la fisión de un núcleo de este elemento libera 200 MeV.
+
+Datos: 1J = 0.24 cal; 1eV= 1.6:10   -19   J; N A   = 6.02 ⋅ 10   23   mol -1   ; Peso atómico   𝑈𝑈 92
+235  
+= 235.04 g/mol
+
+Cuestión 8   Puntos
+
+Determinamos el número de átomos de Uranio en 1 kg diviendo por Pa (para obtener mol) y
+multiplicando por el numero de Avogadro (para obtener átomos)
+
+1 000 𝑔𝑔   · 
+1
+
+𝑃𝑃𝑃𝑃  
+·   𝑁𝑁 𝐴𝐴   = 2.56 · 10
+24  
+á 𝑡𝑡𝑡𝑡 𝑚𝑚 𝑡𝑡𝑠𝑠
+
+0.25
+
+Cada uno de estos átomos produce al fisionarse 200MeV=200·10   6 ·1.6·10   -19   J =3.2·10   -11   J de energía   0.25
+
+La energía total producida es 8.19·10   13   J, que en calorías es 1.96·10 13   cal   0.25
+
+Dividiendo por el calor producido por un kg de carbón (7·10   6   cal) al arder resulta equivalente a   2.81·10 6
+
+kg
+
+0.25
+
+En este caso no se piden los valores intermedios que hemos ido calculando de modo que se valorará si han ido
+sabiendo aplicar los diferentes factores de conversión.
+
+9.   En la figura se muestra un conductor muy largo y un electrón que se mueve
+paralelamente al conductor.
+
+a.   Calcula el módulo del vector B que produce la corriente eléctrica en el punto en
+que se encuentra el electrón.
+
+b.   Qué dirección y sentido habría que dar a un campo eléctrico externo que
+añadiésemos   para   que   el   electrón   mantenga   la   trayectoria   rectilínea
+
+mostrada. Incluye un esquema donde aparezcan las fuerzas implicadas y los vectores   𝐵𝐵 �⃗   y   𝐸𝐸 �⃗
+
+Dato: μ 0   = 4π·10 -7   T m A -1
+
+Cuestión 9   Puntos
+
+El campo magnético creado por un hilo rectilineo a una distancia d de él es B=μ   0 I/2πd
+
+Sustituyendo en este caso resulta B= 5·10 -6   T
+
+0.25
+
+La dirección de F m   es la del producto vectorial de velocidad y
+campo, cambiada de sentido por el signo negativo de la carga del
+electrón.   El campo magnético va hacia adentro del papel ,
+y la velocidad hacia la derecha, por tanto F m   va   hacia abajo
+
+0.25
+
+0.25
+
+Para que el electrón no se desvíe, la fuerza eléctrica tiene que igualar a la magnética y tener misma
+dirección y sentido opuesto. Por tanto F e   tiene que ir hacia arriba, como es un electrón (q<0) el campo
+eléctrico debe ir   hacia abajo .   Nótese que no se pide calcular el módulo del campo eléctrico
+
+0.25
+
+10.   Si se redujera a la mitad el volumen de la Tierra y perdiese la mitad de su masa. ¿Cómo se vería afectada la
+aceleración de la gravedad en su superficie?
+
+Cuestión 10   Puntos
+
+La aceleración de la gravedad viene dada por   𝑔𝑔   =  
+𝐺𝐺𝐺𝐺
+
+𝑅𝑅   2  
+0.25
+
+El volumen de la esfera es   V=4πR
+3  
+/3. La mitad del volumen corresponde a un cambio de radio
+
+4
+3  
+𝜋𝜋𝑟𝑟  
+3  
+=  
+𝑉𝑉
+2  
+=  
+1
+2  
+·  
+4
+3  
+𝜋𝜋𝑅𝑅  
+3  
+Luego   𝑟𝑟  
+3  
+=  
+1
+2  
+𝑅𝑅  
+3  
+→ 𝑟𝑟   =  
+1
+√2
+
+3   𝑅𝑅   = 0.7937 𝑅𝑅
+
+0.5
+
+𝑔𝑔  
+′  
+=  
+𝐺𝐺 · 𝐺𝐺 / 2
+
+( 0 . 7937 𝑅𝑅 )  
+2  
+=  
+𝐺𝐺 𝑀𝑀
+
+𝑅𝑅
+2  
+· 0.794   La gravedad se reduce al 79.4%  
+0.25
+
+EvAU
+
+Curso 2022/2023
+Física
+
+Pág 8
+
+Sección 3: Cuestiones experimentales (elegir una).   Puntuación máxima 1 punto cada una.
+
+11.   El péndulo de segundos es un péndulo cuyo periodo en La Tierra es, precisamente, dos segundos (un segundo
+
+para el camino de ida y un segundo para el de vuelta). Si se llevara uno a la Luna podríamos encontrar los
+
+siguientes periodos medidos en segundos
+
+T   1   T   2   T   3   T   4
+
+4.92   4.97   4.91   4.90
+
+Determina la gravedad en la Luna a partir de los datos
+
+Cuestión 11   Puntos
+
+El periodo de un péndulo est á   relacionado con su longitud y la gravedad según
+
+𝑇𝑇   = 2 𝜋𝜋�  
+𝐿𝐿
+𝑔𝑔  
+de manera que si en la Tierra T=2 s como g=9.8m/s 2   resulta   L=99.4 cm
+
+0.25
+
+Como   𝑔𝑔   =  
+4 𝜋𝜋
+2
+𝐿𝐿
+
+𝑇𝑇
+2   y ya conocemos L obtenemos los valores de g para cada T en la Luna  
+0.25
+
+T   1   =4.92 s   T   2 =4.97 s   T   3   =4.91 s   T   4 =4.90 s
+
+g 1   =1.621 m/s
+2  
+g 2 =1.589 m/s
+2  
+g 3   =1.628 m/s
+2  
+g 4 =1.634 m/s
+2
+
+0.25
+
+Finalmente hacemos la media aritmética de los 4 valores g=1.618 m/s 2   0.25
+
+12.   Procedente de un foco dentro de una piscina con agua (n=1.33), llegan a la superficie agua-aire varios rayos con
+distinta inclinación. Se ha rellenado una tabla, pero sospechamos que algunos valores de ángulo refractado
+pueden ser incorrectos, y hay otros que faltan por rellenar. Copia la tabla en tu cuadernillo, corrige los valores
+incorrectos y completa los que faltan explicando cómo lo has hecho.
+
+Θ incidente   (grados)   36   40   45   46   52   60
+
+Θ refractado   (grados)   51.4   19.8   No hay haz   120
+
+Cuestión 12   Puntos
+
+La ley de Snell para la refracción establece que n agua   sen( θ i   )= n   aire   sen( θ t ), donde n   aire =1   0.25
+
+Aplicamos la expresión a los valores de la tabla dando por buenos los ángulos incidentes
+
+Θ incidente   (grados)   36   40   45   46   52   60
+
+Θ refractado   (grados)   51.4   58.7   19.8
+
+70.1
+
+No hay haz
+
+73.1
+
+120
+
+No hay haz
+
+No hay haz   0.5
+
+En los casos de 52º y 60º la segunda ley de Snell no da solución, lo que quiere decir que no hay haz
+transmitido debido a reflexión total.
+
+0.25
+

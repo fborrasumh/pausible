@@ -1,0 +1,848 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2223/ConvocatoriaExtraordinaria/Mates-CCSS-criterios-Extraordinaria.ashx]
+Evaluación para el Acceso a la Universidad. Convocatoria de 2023
+Materia: MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II
+El examen está compuesto de tres secciones de dos bloques cada una. A su vez
+cada bloque tiene dos ejercicios. El alumno deberá elegir un bloque de cada una de las
+tres secciones. Se podrá utilizar cualquier tipo de calculadora. Es necesario detallar el
+proceso de resolución de los ejercicios.
+Sección 1 (3 puntos) Bloque 1
+1.   En el siguiente problema de programación lineal optimiza la función   f   ( x, y ) = 4 x   + 5 y   −   3   sujeta a las siguientes
+restricciones:
+
+
+
+
+
+
+
+
+
+x   +   y   ≤   2
+
+x   −   2 y   ≤   5
+
+y   ≤   0
+
+x   ≥   1
+
+a) Dibuja la región factible y determina sus vértices. (1.25 puntos)
+b) Indica los puntos óptimos (máximo y mínimo) y sus respectivos valores. (0.25 puntos)
+
+Solución:
+
+a) Los vértices de la región factible son   A   = (1 ,   − 2) , B   = (1 ,   0) , C   = (2 ,   0) ,   y   D   = (3 ,   − 1) .   (0.25 puntos por determinar los
+vértices y 0.25 por cada inecuación bien representada)
+( 2,0 )
+( 3, - 1 )
+( 1, - 2 )
+( 1,0 )
+- 1   1   2   3   4   5
+
+- 3
+
+- 2
+
+- 1
+1
+2
+3
+
+b) Aplicados a la función objetivo   f   ( A ) =   − 9;   f   ( B ) = 1;   f   ( C ) = 5;   f   ( D ) = 4 .   Luego el máximo está en el punto   (2 ,   0)   con
+5 unidades y el mínimo en   (1 ,   − 2)   con -9 unidades. (0.25 puntos)
+
+2.   En una galería de arte disponen de cuadros de tres artistas: uno realiza arte urbano, otro se dedica al arte abstracto y
+el tercero al grafiti. El   40   % de la suma de los cuadros pintados por el primero y el segundo es   28 . El doble de los cuadros
+del que realiza arte abstracto equivale al triple de los cuadros del que hace grafiti. En total, en la galería disponen de   110
+
+cuadros.
+a) Plantea el sistema de ecuaciones para determinar cuántos cuadros tiene cada artista en la galería. (0.75 puntos)
+b) Resuelve razonadamente el sistema planteado en el apartado anterior. (0.75 puntos)
+
+Solución:
+
+a) Tomando   x   ≡   n
+o  
+de cuadros de arte urbano;   y   ≡   n
+o  
+de cuadros de arte abstracto;   z   ≡   n
+o  
+de cuadros de graffiti.
+
+
+
+
+
+0 . 4( x   +   y ) = 28
+2 y   = 3 z
+x   +   y   +   z   = 110
+
+(0.25 puntos por cada ecuación bien planteada).
+b) La solución del sistema es   ( x, y, z ) = (10 ,   60 ,   40)   cuadros. El que realiza arte urbano tiene   10   cuadros, el de arte
+abstracto   60   y el de graffiti   40 .   (0.5 puntos por el desarrollo de la resolución y 0.25 puntos por la solución correcta)
+
+Bloque 2
+1.   Se considera la función   f   ( x ) =
+
+{  
+| x   + 1 |   +   t   si   x   ≤   0
+
+− x
+3  
++ 2 x
+2  
++ ( t   + 2) x   + 3   si   x >   0
+
+a) ¿Para qué valor de   t   la función   f   ( x )   es continua en   x   = 0?   (0.5 puntos)
+b) Para   t   = 2 , calcula los extremos relativos de la función   f   ( x )   en el intervalo   (0 ,   ∞ ) . (0.5 puntos)
+c) Para   t   = 2 , calcula los intervalos de crecimiento y decrecimiento de la función   f   ( x )   en   (0 ,   ∞ ) . (0.5 puntos)
+
+Solución:
+
+a) La función es continua en   x   = 0   ⇔   l´ ım x → 0   f   ( x ) =   f   (0) .   Para que exista el límite, los límites laterales tienen que ser
+iguales:
+
+l´ ım x → 0 −   f   ( x ) = l´ ım x → 0 ( | x   + 1 |   +   t ) =   t   + 1 =   f   (0) .
+
+l´ ım x → 0 +   f   ( x ) = l´ ım x → 0 ( − x
+3  
++ 2 x
+2  
++ ( t   + 2) x   + 3) = 3 .
+t   + 1 = 3   ⇒   t   = 2 .   (Saber las condiciones 0.25 puntos. Cálculo correcto 0.25 puntos)
+b) Los extremos relativos verifican   f  
+′  
+( x ) = 0   ⇒   f  
+′  
+( x ) =   − 3 x
+2  
++ 4 x   + 4 = 0   ⇔   x   =   −  
+2
+3  
+y   x   = 2 .
+f  
+′′
+
+( x ) =   − 6 x   + 4   ⇒   f  
+′′
+
+(2) =   − 8   <   0   ⇒   máximo relativo en   (2 ,   11)   ( x   =   −  
+2
+3  
+/ ∈   (0 ,   ∞ ) ). (Saber las condiciones 0.25
+puntos. Cálculo correcto 0.25 puntos)
+c)   f  
+′
+
+( x )   >   0   en el intervalo   (0 ,   2)   por lo que la función crece y   f  
+′
+
+( x )   <   0   en el intervalo   (2 ,   ∞ )   donde decrece. (0.25 por
+cada intervalo correcto)
+- 5   - 4   - 3   - 2   - 1   1   2   3   4
+2
+4
+6
+8
+10
+12
+
+2.   Halla razonadamente los parámetros   a   y   b   de la función   f   ( x ) =   ax
+2  
++   bx   −   20 ,   sabiendo que dicha función tiene un
+máximo en el punto   (6 ,   16) .   (1.5 puntos)
+
+Solución:
+
+f   ( x ) =   ax
+2  
++   bx   −   20   ⇒   f  
+′
+( x ) = 2 ax   +   b.
+
+{  
+f   (6) = 16
+
+f  
+′
+(6) = 0  
+⇒
+
+{  
+36 a   + 6 b   −   20 = 16
+12 a   +   b   = 0  
+⇒   a   =   − 1 , b   = 12   ⇒   f   ( x ) =   − x
+2  
++ 12 x   −   20 .
+
+(0.5 por cada condición. 0.5 por la solución correcta)
+
+Sección 2 (3.5 puntos) Bloque 1
+3.   Un estudio sobre ingredientes de pizza indica que solo al   30 %   de la población le gusta la piña en la pizza y de estos, a
+un   60 %   le gustan las anchoas. Sin embargo, de los que no les gusta la piña, el   75 %   afirman que no les gustan las anchoas
+en la pizza.
+a) Elegido un individuo al azar, ¿cuál es la probabilidad de que le gusten las anchoas en la pizza? (0.75 puntos)
+b) Si se sabe que a una persona no le gustan las anchoas en la pizza, ¿cuál es la probabilidad de que le guste la piña?
+(0.75 puntos)
+
+Solución:
+
+p   =   Piña;   A   =   Anchoas;   p
+c  
+=   No piña;   A
+c  
+=   No anchoas.
+
+P   ( p ) = 0 . 3 ;   P   ( p
+c
+) = 0 . 7 ;   P   ( A   |   p ) = 0 . 6 ;   P   ( A
+c  
+|   p ) = 0 . 4 ;   P   ( A   |   p
+c
+) = 0 . 25 ;   P   ( A
+c  
+|   p
+c
+) = 0 . 75 .
+
+a)   P   ( A ) =   P   ( p )   ·   P   ( A   |   p ) +   P   ( p
+c
+)   ·   P   ( A   |   p
+c
+) = 0 . 3   ·   0 . 6 + 0 . 7   ·   0 . 25 = 0 . 355 .   (0.75 puntos)
+b)   P   ( p   |   A
+c
+) =  
+P   ( p ∩ A
+c
+)
+
+P   ( A c )  
+=  
+P   ( p ) · P   ( A
+c
+| p )
+
+P   ( A c )  
+=  
+0 . 3 · 0 . 4
+1 − 0 . 355  
+=  
+0 . 12
+0 . 645  
+= 0 . 186 .   (0.75 puntos)
+
+4.   Una marca de productos de repostería ha tomado una muestra aleatoria de   36   bizcochos y ha medido su contenido
+calórico, proporcionando una media de   223   calorías. Si se sabe que el contenido calórico sigue una distribución normal de
+media desconocida y desviación típica   σ   = 51   calorías,
+a) Calcula el intervalo de confianza para la media poblacional del contenido calórico de los bizcochos con un nivel de
+confianza del   95 % .   (1 punto)
+b) Calcula el tamaño mínimo de la muestra elegida para que, con un nivel de confianza del   94 . 64 % , el error máximo
+admisible sea menor que   10   calorías. (1 punto)
+
+Solución:
+
+a) Del enunciado se deduce:  
+¯
+X   = 223   calorías,   σ   = 51   calorías,   n   = 36 ,   1   −   α   = 0 . 95   ⇒   Z   α
+
+2  
+= 1 . 96   (0.25 puntos)
+IC   =
+
+(  
+¯ X   −   Z   α
+
+2
+
+σ
+√
+n  
+,   ¯ X   +   Z   α
+
+2
+
+σ
+√
+n
+
+)
+
+.   (0.25 puntos)
+IC   =
+
+(
+
+223   −   1 . 96  
+51
+√
+36  
+,   223 + 1 . 96  
+51
+√
+36
+
+)
+
+= (206 . 34 ,   239 . 66) .   (0.5 puntos)
+b) El error máximo admisible viene dado por   E   =   Z   α
+
+2
+
+σ
+√
+n  
+⇒   n   =
+
+(  
+Z   α
+
+2  
+σ
+E
+
+) 2
+
+(0.25 puntos)
+
+1   −   α   = 0 . 9464   ⇒   α   = 0 . 0536   ⇒  
+α
+
+2  
+= 0 . 0268   ⇒   Z   α
+
+2  
+= 1 . 93 .   (0.25 puntos)
+Para   E   = 10   ⇒   n   =  
+(  
+1 . 93 · 51
+10
+
+) 2  
+= (9 . 843)
+2  
+= 96 . 885 .   El tamaño mínimo de la muestra para que el error de estimación
+de la media sea inferior a   10   calorías, con un nivel de confianza del   94 . 64 %   debe ser   97   bizcochos. (0.5 puntos)
+
+Bloque 2
+3.   Una cooperativa manchega que distribuye tres tipos de vino, blanco, rosado y tinto, ha recibido un pedido de   50   botellas.
+Se sabe que el doble de botellas de vino blanco, por una parte, excede en una unidad al de botellas de vino rosado y, por
+otra parte, coincide con el quíntuplo del número de botellas vino tinto.
+a) Plantea un sistema de ecuaciones para averiguar cuántas botellas de vino blanco, rosado y tinto se pidieron. (0.75
+puntos)
+b) Resuelve razonadamente el sistema planteado en el apartado anterior. (0.75 puntos)
+
+Solución:
+
+a) Tomando   x   ≡   n
+o  
+de botellas de vino blanco;   y   ≡   n
+o  
+de botellas de vino rosado;   z   ≡   n
+o  
+de botellas de vino tinto.
+
+
+
+
+
+2 x   = 5 z
+
+2 x   =   y   + 1
+
+x   +   y   +   z   = 50
+
+(0.25 puntos por cada ecuación bien planteada).
+b) La solución del sistema es   ( x, y, z ) = (15 ,   29 ,   6)   botellas. Se pidieron   15   botellas de vino blanco,   29   de rosado y   6   de
+tinto. (0.5 puntos por el desarrollo de la resolución y 0.25 puntos por la solución correcta)
+
+4.   a) Dadas las matrices   M   =
+
+(  
+4   9
+1   2
+
+)
+
+,   N   =
+
+(  
+− 2   9
+1   − 4
+
+)
+
+y   P   =
+
+(  
+6   − 3
+
+− 3   1
+
+)
+
+demuestra que   M   y   N   conmutan.
+(0.5 puntos)
+b) Resuelve la ecuación   M   ·   P   ·   X   =   N  
+T  
+−   M.   (1 punto)
+c) Calcula la matriz que sumada con la matriz   ( N   +   I )
+2  
+da como resultado la matriz nula, siendo   I   la matriz identidad de
+orden   2 . (0.5 puntos)
+
+Solución:
+
+a)   M   ·   N   =
+
+(  
+4   9
+1   2
+
+)
+
+·
+
+(  
+− 2   9
+1   − 4
+
+)
+
+=
+
+(  
+1   0
+0   1
+
+)
+
+y   N   ·   M   =
+
+(  
+− 2   9
+1   − 4
+
+)
+
+·
+
+(  
+4   9
+1   2
+
+)
+
+=
+
+(  
+1   0
+0   1
+
+)
+
+.
+
+Luego se demuestra que las matrices conmutan y al ser el resultado la matriz identidad son inversas entre sí. (0.5 puntos)
+b)   M   ·   P   ·   X   =   N  
+T  
+−   M   ⇒   X   = ( M   ·   P   )
+− 1  
+·   ( N  
+T  
+−   M   ) .
+X   =
+
+[(  
+4   9
+1   2
+
+)
+
+·
+
+(  
+6   − 3
+
+− 3   1
+
+)] − 1
+
+·
+
+[
+(  
+− 2   9
+1   − 4
+
+) T
+
+−
+
+(  
+4   9
+1   2
+
+)
+]
+
+=
+
+(  
+− 3   − 3
+0   − 1
+
+) − 1
+
+·
+
+(  
+− 6   − 8
+8   − 6
+
+)
+
+=
+=
+
+(  
+− 1 / 3   1
+0   − 1
+
+)
+
+·
+
+(  
+− 6   − 8
+8   − 6
+
+)
+
+=
+
+(  
+10   − 10 / 3
+
+− 8   6
+
+)
+
+. (0.5 puntos la matriz inversa. Todo correcto 1 punto)
+c) La matriz a calcular ha de ser cuadrada de orden 2.
+
+( N   +   I )
+2  
++
+
+(  
+a   b
+c   d
+
+)
+
+=
+
+(  
+0   0
+0   0
+
+)
+
+⇒
+
+[(  
+− 2   9
+1   − 4
+
+)
+
++
+
+(  
+1   0
+0   1
+
+)] 2
+
++
+
+(  
+a   b
+c   d
+
+)
+
+=
+
+(  
+0   0
+0   0
+
+)
+
+⇒
+
+(  
+− 1   9
+1   − 3
+
+) 2
+
++
+
+(  
+a   b
+c   d
+
+)
+
+=
+
+(  
+0   0
+0   0
+
+)
+
+⇒
+
+(  
+10   − 36
+
+− 4   18
+
+)
+
++
+
+(  
+a   b
+c   d
+
+)
+
+=
+
+(  
+0   0
+0   0
+
+)
+
+⇒
+
+(  
+a   b
+c   d
+
+)
+
+=
+
+(  
+− 10   36
+4   − 18
+
+)
+
+. (0.5 puntos)
+
+Sección 3 (3.5 puntos) Bloque 1
+5.   En una empresa de reparto el   9 %   de los paquetes llega con retraso, el   14 %   llega defectuoso y   19 %   llega con retraso o
+defectuoso o ambos.
+a) Elegido un paquete al azar, ¿cuál es la probabilidad de que llegue defectuoso y con retraso? (0.75 puntos)
+b) Si se sabe que un paquete llega con retraso, ¿cuál es la probabilidad de que llegue defectuoso? (0.75 puntos)
+
+Solución:
+
+R   =   retraso;   D   =   Defectuoso;   P   ( R ) = 0 . 09 ;   P   ( D ) = 0 . 14 ;   P   ( R   ∪   D ) = 0 . 19 .
+
+a)   P   ( D   ∩   R ) =   P   ( D ) +   P   ( R )   −   P   ( R   ∪   D ) = 0 . 09 + 0 . 14   −   0 . 19 = 0 . 04 .   (0.75 puntos)
+b)   P   ( D   |   R ) =  
+P   ( D ∩ R )
+
+P   ( R )  
+=  
+0 . 04
+0 . 09  
+= 0 . 444 .   (0.75 puntos)
+
+6.   La distancia alcanzada en el lanzamiento de jabalina por los integrantes de un equipo de atletismo infantil sigue una
+distribución normal de media desconocida y varianza   σ
+2  
+= 81   metros
+2
+.   Se ha tomado una muestra de   9   atletas del equipo
+y las distancias alcanzadas han sido   16 ,   21 ,   15 ,   17 ,   16 ,   19 ,   14 ,   14   y   19   metros.
+a) Calcula el intervalo de confianza para la media poblacional de la distancia de lanzamiento de jabalina con un nivel de
+confianza del   97 % .   (1 punto)
+b) Explica, justificando la respuesta, qué se podría hacer para conseguir un intervalo de confianza con mayor amplitud para
+el mismo nivel de confianza. (0.5 puntos)
+c) ¿Cuál sería el error máximo admisible si se hubiera utilizado una muestra de tamaño   49   atletas y un nivel de confianza
+del   95 . 96 %?   (0.5 puntos)
+
+Solución:
+
+a) La media muestral es:   ¯ X   =  
+16+21+15+17+16+19+14+14+19
+9  
+= 16 . 778   metros.
+Del enunciado se deduce:   σ
+2  
+= 81   metros
+2  
+⇒   σ   = 9   metros,   n   = 9 ,   1   −   α   = 0 . 97   ⇒   Z   α
+
+2  
+= 2 . 17 .   (0.25 puntos)
+IC   =
+
+(  
+¯
+X   −   Z   α
+
+2
+
+σ √
+n  
+,  
+¯
+X   +   Z   α
+
+2
+
+σ √
+n
+
+)
+
+(0.25 puntos)
+IC   =
+
+(
+
+16 . 778   −   2 . 17  
+9 √
+9  
+,   16 . 778 + 2 . 17  
+9 √
+9
+
+)
+
+= (10 . 268 ,   23 . 288) .   (0.5 puntos)
+b) Para aumentar la amplitud del intervalo manteniendo el nivel de confianza, hay que aumentar el valor de  
+σ
+√
+n  
+y como   σ   es
+un valor dado, la única opción es disminuir el tamaño de muestra. (0.25 puntos por la respuesta correcta y 0.25 puntos
+por la justificación)
+c)   1   −   α   = 0 . 9596   ⇒   α   = 0 . 0404   ⇒  
+α
+
+2  
+= 0 . 0202   ⇒   Z   α
+
+2  
+= 2 . 05 .   (0.25 puntos)
+Error máximo admisible   E   =   Z   α
+
+2
+
+σ
+√
+n  
+= 2 . 05  
+9
+√
+49  
+= 2 . 6357 .   (0.25 puntos)
+
+Bloque 2
+5.   Se considera la función   f   ( x ) =
+
+{  
+( x   + 2)
+2  
+si   x   ≤   c
+
+6 x   + 3   si   x > c
+
+a) ¿Para qué valor de   c   la función   f   ( x )   es continua en   x   =   c ?   (0.75 puntos)
+b) Representa gráficamente la función   f   ( x )   para   c   = 0 .   (0.75 puntos)
+
+Solución:
+
+a) La función es continua en   x   =   c   ⇔   l´ ım x → c   f   ( x ) =   f   ( c ) .   Para que exista el límite, los límites laterales tienen que ser
+iguales:
+
+l´ ım x → c −   f   ( x ) = l´ ım x → c ( x   + 2)
+2  
+= ( c   + 2)
+2  
+=   c
+2  
++ 4 c   + 4 =   f   ( c ) .
+
+l´ ım x → c +   f   ( x ) = l´ ım x → c (6 x   + 3) = 6 c   + 3 .
+c
+2  
++ 4 c   + 4 = 6 c   + 3   ⇒   c
+2  
+−   2 c   + 1 = 0   ⇒   c   = 1 .   (Saber las condiciones 0.25 puntos. Cálculo correcto 0.5 puntos)
+b) (0.25 puntos por cada trozo bien dibujado. Todo correcto 0.75 puntos)
+- 4   - 3   - 2   - 1   1   2   3
+2
+4
+6
+8
+10
+12
+14
+
+6.   El consumo de agua, en dm
+3
+,   de una urbanización durante   6   horas viene reflejado por la función   C ( x ) =   x
+3  
+−   12 x
+2  
++ 45 x
+
+siendo   x   =   el tiempo medido en horas y   0   ≤   x   ≤   6 .
+
+a) ¿En qué momentos se produjo el mayor consumo y a cuánto ascendió? (1.25 puntos)
+b) ¿En qué intervalo de tiempo disminuyó el consumo de agua? (0.75 puntos)
+
+Solución:
+
+a) Máximo relativo si   C
+′
+( x ) = 0   y   C
+′′
+( x )   <   0 . C
+′
+( x ) = 3 x
+2  
+−   24 x   + 45 = 0   ⇒   x   = 3   y   x   = 5 .
+C
+′′
+( x ) = 6 x   −   24   ⇒   C
+′′
+(3) =   − 6   <   0   y   C
+′′
+(5) = 6   >   0 .   Se tiene que   C (3) = 54   dm
+3
+.
+
+Se evalúan los extremos y se tiene que   C (0) = 0   y   C (6) = 54 .
+
+Los consumos máximos se alcanzaron a la tercera y sexta hora siendo de   54   dm
+3
+. (Saber las condiciones 0.25 puntos.
+Cálculo correcto del máximo 0.5 puntos y valores máximos 0.5 puntos)
+b)   C
+′
+
+( x )   <   0   en el intervalo   (3 ,   5)   por lo que la función decrece en ese intervalo. (0.75 puntos)
+

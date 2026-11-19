@@ -1,0 +1,544 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2122/Convocatoria-extraordinaria/Matematicas-II-julio.ashx]
+Evaluación para el Acceso a la Universidad
+Curso 2021/2022
+
+Materia: MATEMÁTICAS II
+Instrucciones:   El estudiante deberá resolver   CUATRO   de los ocho ejercicios propuestos. Si resuelve
+más, se corregirán solo los cuatro primeros. Los ejercicios deben redactarse con claridad, detalladamente y
+razonando las respuestas. Se podrá utilizar cualquier tipo de calculadora. Cada ejercicio completo puntuará
+2 , 5 puntos. Duración de la prueba: 1 hora y 30 minutos.
+
+1.   a )   [1,75 puntos]   Discute el siguiente sistema de ecuaciones lineales en función del parámetro   a   ∈ ℝ :
+
+⎧
+{
+⎨
+{
+⎩
+
+x   + 2 y   + 3 z   =   a   +   1
+
+ax   + z   =   0
+
+x   + y   + 2 z   =   1
+
+.
+
+b )   [0,75 puntos]   Resuelve razonadamente el sistema anterior para   a   =   1, si es posible.
+
+Solución:
+
+a )   En primer lugar, estudiamos el rango de la matriz de coeficientes
+
+M   = (
+
+1   2   3
+
+a   0   1
+1   1   2
+
+) .
+
+Como   | M | =   1 − a   tenemos que el rango de   M   es 3 cuando   a   ≠   1, por lo que el sistema es compatible determinado.
+Cuando   a   =   1 el rango de   M   es 2 y el de la matriz extendida es también 2, por lo que el sistema es compatible
+indeterminado.
+
+Criterios de corrección:
+
+Cálculo del determinante de   M , 0 ,   25 puntos; obtener los valores de   a , 0 , 25; discusión para   a   =   1, 0 , 75 puntos;
+discusión para   a   ≠   1, 0 , 50 puntos.
+
+b )   Para   a   =   1 tenemos un sistema compatible indeterminado (según el apartado anterior). Resolvemos en función
+de   z   =   t :
+
+x   =   − t
+y   =   1   −   t
+z   =   t
+
+Criterios de corrección:
+
+Resolver el sistema correctamente, 0 , 75 puntos.
+2.   a )   [1,5 puntos]   Encuentra razonadamente el valor de   a ,   b   ∈ ℝ   para que la función
+
+f ( x ) =  
+ax   +   1
+2 x   +   b
+
+tenga una discontinuidad de salto infinito en   x   =   1 y tienda a 2 cuando   x   ⟶ +∞ .
+
+b )   [1 punto]   Resuelve la siguiente integral:
+
+∫   x   ⋅   cos ( 2 x ) dx .
+
+Solución:
+
+a )   El enunciado establece dos condiciones para obtener   a   y   b :
+1
+
+(1)   lím
+x ⟶ 1  
+f ( x ) = ±∞ .
+(2)   lím
+x ⟶+∞  
+f ( x ) =   2.
+La condición (1) implica que el denominador se anule cuando la función tiende a 1, es decir, 2   ⋅   1   +   b   =   0. Por lo
+que   b   = − 2.
+La condición (2) implica que   a / 2   =   2, por lo que   a   =   4.
+
+Criterios de corrección:
+
+Plantear las dos condiciones de manera razonada, 1 punto; obtener el valor de   a , 0 , 25 puntos; obtener el valor
+de   b , 0 , 25 puntos.
+
+b )   Resolvemos esta integral integrando por partes tomando:
+
+u   =   x
+dv   =   cos ( 2 x )  
+⟹  
+du   =   dx
+v   =   sen ( 2 x )/ 2
+Entonces, la integral quedaría:
+
+∫   x   ⋅   cos ( 2 x ) dx   =   x   ⋅   sen ( 2 x )/ 2   − ∫( sen ( 2 x )/ 2 ) dx   =   x   ⋅   sen ( 2 x )/ 2   +   cos ( 2 x )/ 4   +   C
+
+.
+
+Criterios de corrección:
+
+Plantear resolución por partes, 0 , 25 puntos; hallar   v , 0 , 25 puntos; resolver la integral correctamente, 0 , 5 puntos.
+3.   a )   [1,5 puntos]   Estudia la continuidad en   ℝ   de la función
+
+f ( x ) = ( 2 e
+x
+2
+− 4  
+−   8 x   +   14 ) / ( x
+2  
+−   2 x ) .
+
+b )   [1 punto]   Sea el determinante
+
+∣
+
+x   y   z
+a   b   c
+
+1   2   3
+
+∣ =   2 ,
+
+donde   x ,   y ,   z ,   a ,   b ,   c   ∈ ℝ . Calcula razonadamente (e indicando las propiedades de los determinantes que utilizas)
+el determinante
+
+∣
+
+1   2   3
+
+a   −   2   b   −   4   c   −   6
+2 x   2 y   2 z
+
+∣ .
+
+Solución:
+
+a )   La función   f ( x )   es cociente de funciones continuas, por lo que será continua en todo   ℝ   salvo en aquellos puntos
+en los que se anule el denominador. El denominador se anula cuando   x
+2  
+−   2 x   =   x ( x   −   2 ) =   0, es decir, cuando
+
+x   =   0 o   x   =   2. Para ver de qué tipo es la discontinuidad estudiaremos los límites de cada caso por separado:
+
+x   =   0:
+lím
+x ⟶ 0  
+f ( x ) = ( 2 e
+− 4  
++   14 )/ 0   = ±∞ .
+Por tanto, en este caso tenemos una discontinuidad de salto infinito.
+
+x   =   2:
+lím
+x ⟶ 2  
+f ( x ) =   0 / 0. Por tanto, tenemos una indeterminación y resolveremos el límite utilizando la regla de
+L’Hôpital:
+lím
+x ⟶ 2  
+f ( x ) =   lím
+x ⟶ 2   ( 4 xe
+x
+2
+− 4  
+−   8 ) /( 2 x   −   2 ) = ( 4   ⋅   2   ⋅   1   −   8 )/( 2   ⋅   2   −   2 ) =   0 / 2   =   0.
+Por tanto, la función tiene una discontinuidad evitable en   x   =   2.
+2
+
+Criterios de corrección:
+
+Encontrar los valores en los que se anula el denominador, 0 , 25 puntos; hallar límites cuando   x   ⟶   0, 0 , 5
+puntos; hallar límites cuando   x   ⟶   2, 0 , 75 puntos.
+
+b )   Escribimos las propiedades que usamos paso a paso:
+
+∣
+
+1   2   3
+
+a   −   2   b   −   4   c   −   6
+2 x   2 y   2 z
+
+∣ = ( F 2   ∶   F 2   +   2   ⋅   F 1 ) = ∣
+
+1   2   3
+
+a   b   c
+
+2 x   2 y   2 z
+
+∣ =
+= ( Sacamos el 2 que multiplica a F3 ) =   2   ∣
+
+1   2   3
+
+a   b   c
+x   y   z
+
+∣ = ( Intercambiamos F1 y F3 ) =
+− 2   ∣
+
+x   y   z
+a   b   c
+
+1   2   3
+
+∣ = − 2   ⋅   2   = − 4 .
+
+Criterios de corrección:
+
+Indicar cada uno de los 4 pasos a seguir, 0 , 25 puntos (cada paso).
+4.   Sea el punto   A   = ( 1 ,   0 ,   1 )   y el plano   π   ≡   x   +   y   +   z   =   8.
+
+a )   [1,5 puntos]   Calcula la recta perpendicular a   π   y que pasa por   A . ¿En qué punto se cortan la recta y el plano?
+
+b )   [1 punto]   Obtén el punto de la recta anterior distinto de   A   que dista de   π   igual que   A , es decir, el punto simétrico
+de   A   con respecto a   π .
+
+Solución:
+
+a )   El vector normal a   π   es ⃗   u   = ( 1 ,   1 ,   1 ) , por lo que las ecuaciones paramétricas de la recta son:
+
+x   =   1   +   λ
+y   =   0   +   λ
+z   =   1   +   λ
+
+El punto de intersección entre la recta y el plano es aquel que cumple las ecuaciones de la recta y el plano. Susti
+tuimos en la ecuación del plano las ecuaciones paramétricas de la recta:
+
+( 1   +   λ ) + ( λ ) + ( 1   +   λ ) =   8   ⟹   2   +   3 λ   =   8   ⟹   λ   =   2
+Por tanto, el punto de intersección es   B   = ( 1   +   2 ,   0   +   2 ,   1   +   2 ) = ( 3 ,   2 ,   3 ) .
+
+Criterios de corrección:
+
+Obtener el vector normal, 0 , 25 puntos; obtener la ecuación de la recta perpendicular, 0 , 5 puntos; obtener el
+punto de corte, 0 , 75 puntos.
+
+b )   El punto simétrico de   A   con respecto a   π   se puede obtener, por ejemplo, sumando al punto   A   dos veces el vector
+⃗ 
+AB   = ( 3   −   1 ,   2   −   0 ,   3   −   1 ) = ( 2 ,   2 ,   2 ) . Por tanto, el punto que se pide es   C   = ( 1 ,   0 ,   1 ) +   2 ( 2 ,   2 ,   2 ) = ( 5 ,   4 ,   5 ) .
+
+Criterios de corrección:
+
+Plantear la resolución, 0 , 5 puntos; hallar el punto, 0 , 5 puntos.
+5.   a )   [1 punto]   Sea el plano   π   ≡   x   −   3 y   +   z   =   0 y los puntos   A   = ( 0 ,   0 , − 1 )   y   B   = ( 1 ,   1 ,   1 ) . Obtén el plano
+perpendicular a   π   y que contiene a   A   y   B .
+3
+
+b )   [1,5 puntos]   Calcula el área de la región delimitada por las funciones   f ( x ) =   x
+2  
+−   4 x   +   5 y   g ( x ) =   3   −   x .
+
+Solución:
+
+a )   Para definir el plano que se pide tomaremos el vector normal a   π , ⃗   u   = ( 1 , − 3 ,   1 ) , el vector ⃗   AB   = ( 1 ,   1 ,   2 )   y el
+punto   A . De esta manera, el plano queda definido por las siguientes ecuaciones paramétricas:
+
+x   =   0   +   λ   +   γ
+y   =   0   −   3 λ   +   γ
+z   =   − 1   +   λ   +   2 γ
+
+Criterios de corrección:
+
+Obtener el vector normal a   π , 0 , 25 puntos; obtener el otro vector necesario, 0 , 25 puntos; obtener la ecuación
+del plano, 0 , 5 puntos.
+
+b )   En primer lugar, calculamos los puntos de intersección de   f ( x )   y   g ( x ) , que son   ( 1 ,   2 )   y   ( 2 ,   1 ) . Por tanto, el área que
+se pide es
+
+∫
+
+2
+1
+
+(( 3   −   x ) − ( x
+2  
+−   4 x   +   5 ))   dx   = ∫
+
+2
+1
+
+(− x
+2  
++   3 x   −   2 )   dx   =   1 / 6 .
+
+Criterios de corrección:
+
+Obtener los puntos de intersección, 0 , 25 puntos; plantear la integral, 0 , 5 puntos; hallar la primitiva, 0 , 25 puntos;
+obtener el área, 0 , 5 puntos.
+6.   a )   [1,5 puntos]   Sea el tetraedro cuyos vértices son los puntos   A   = ( a ,   0 ,   1 ) ,   B   = ( 1 ,   3 ,   0 ) ,   C   = ( 0 ,   1 ,   0 )   y
+
+D   = ( 1 ,   1 ,   1 ) , con   a   ∈ ℝ . Halla los valores de   a   para que el volumen de dicho tetraedro sea 1.
+
+b )   [1 punto]   Enuncia el teorema de Bolzano. Utiliza este teorema para razonar que la función
+
+f ( x ) = ( 2 e
+x  
+−   8 x   −   3 ) / ( x
+2  
++   2 )
+
+corta al eje de abscisas al menos una vez.
+
+Solución:
+
+a )   El volumen del tetraedro viene dado por un sexto del producto mixto de los vectores ⃗   AB   = ( 1   −   a ,   3 , − 1 ) ,
+⃗ 
+AC   = (− a ,   1 , − 1 )   y ⃗   AD   = ( 1   −   a ,   1 ,   0 ) , es decir,
+
+V   =  
+1
+6  
+|[⃗ AB ,⃗   AC ,⃗   AD ]| =  
+1
+6  
+∣∣
+
+1   −   a   3   − 1
+
+− a   1   − 1
+1   −   a   1   0
+
+∣∣ = |( 2 a   −   1 )/ 6 |
+
+Entonces, tenemos que   |( 2 a   −   1 )/ 6 | =   1   ⟹ | 2 a   −   1 | =   6   ⟹   2 a   −   1   = ± 6. Por tanto, los valores de   a
+
+qeu buscamos son   a   =   7 / 2 y   a   = − 5 / 2.
+
+Criterios de corrección:
+
+Plantear el producto mixto, 0 , 75 puntos; hallar el valor de   a , 0 , 75 puntos.
+
+b )   El teorema de Bolzano dice lo siguiente:
+Sea   f ( x )   una función continua en un intervalo cerrado   [ a ,   b ]   tal que   f ( a )   y   f ( b )   toman valores de signo
+contratio, entonces existe al menos un valor   c   ∈ ( a ,   b )   tal que   f ( c ) =   0.
+La función   f ( x )   es continua en todo   ℝ   por ser cociente de funciones continuas con un denominador que nunca se
+anula. Para poder aplicar el teorema de Bolzano bastaría con encontrar un intervalo cerrado en el que la función tome
+valores de signo contrario en los extremos del intervalor. Por ejemplo, podríamos tomar el intervalo   [ 0 ,   10 ]   (aunque
+existen otros que nos servirían igualmente) ya que   f ( 0 ) = − 1 / 2   <   0 y   f ( 10 ) = ( 2 e
+10  
+−   83 )/( 10
+2  
++   2 ) >   0.
+Por tanto, aplicando el teorema del Bolzano podemos afirmar que existe un   c   ∈ [ 0 ,   10 ]   tal que   f ( c ) =   0 y que,
+por tanto, la función   f ( x )   corta al eje de abscisas al menos una vez.
+
+Criterios de corrección:
+
+4
+
+Enunciar el teorema de Bolzano, 0 , 25 puntos; argumentar la continuidad de   f ( x ) , 0 , 25 puntos; argumentar que
+haya al menos una raíz, 0 , 5 puntos.
+7.   a )   [1,5 puntos]   Despeja la matriz   X   de la ecuación matricial   A   ⋅   X   +   B   =   X , siendo   X ,   A   y   B   matrices cuadradas
+cualesquiera. Calcula   X   para las matrices
+
+A   = (
+3   − 1
+0   2  
+) ;   B   = (
+2   0
+1   2
+) .
+
+b )   [1 punto]   Un piloto de Fórmula 1 tiene una probabilidad del 60 % de ganar una carrera cualquiera. Si participa en
+las próximas 4 carreras, ¿cuál es la probabilidad de que gane al menos dos?
+
+n  
+k
+p  
+0.1   0.2   0.3   0.4   0.5   0.6   0.7   0.8   0.9
+4   0   0.6561   0.4096   0.2401   0.1296   0.0625   0.0256   0.0081   0.0016   0.0001
+
+1   0.2916   0.4096   0.4116   0.3456   0.2500   0.1536   0.0756   0.0256   0.0036
+
+2   0.0486   0.1536   0.2646   0.3456   0.3750   0.3456   0.2646   0.1536   0.0486
+
+3   0.0036   0.0256   0.0756   0.1536   0.2500   0.3456   0.4116   0.4096   0.2916
+
+4   0.0001   0.0016   0.0081   0.0256   0.0625   0.1296   0.2401   0.4096   0.6561
+
+Solución:
+
+a )   Despejando   X   obtenemos:
+
+X   = ( I   −   A )
+− 1
+B ,
+
+que se puede calcular siempre y cuando la matriz   I   −   A   sea invertible (con   I   la matriz identidad).
+
+I   −   A   = (
+− 2   1
+0   − 1
+)
+( I   −   A )
+− 1  
+= (
+−
+1
+2  
+−
+1
+2
+
+0   − 1
+)
+
+X   = ( I   −   A )
+− 1
+B   = (
+−
+3
+2  
+− 1
+
+− 1   − 2
+)
+
+Criterios de corrección:
+
+Despejar   X   en la ecuación, 0 , 75 puntos; obtener la inversa de   I − A , 0 , 5 puntos; realizar el producto   ( I − A )
+− 1
+B ,
+0 , 25 puntos.
+
+b )   Sea   X   la variable aleatoria que representa el número de carreras que gana el piloto de esas 4 carreras. Esta variable
+sigue una distribución binomial con probabilidad 0 , 6 y   n   =   4. La probabilidad que se pide es
+
+P ( X   ≥   2 ) =   1   − ( P ( X   =   0 ) +   P ( X   =   1 )) =   1   − ( 0 , 0256   +   0 , 1536 ) =   0 , 8208 .
+
+Criterios de corrección:
+
+Identificar la variable aleatoria binomial y sus parámetros, 0 , 5 puntos; hallar la probabilidad, 0 , 5 puntos.
+8.   a )   En un determinado I.E.S. la probabilidad de que un alumno apruebe si va a clase es del 80 % mientras que si no va
+a clase es del 50 %. El 90 % de los alumnos va a clase.
+a.1)   [0,5 puntos]   ¿Cuál es la probabilidad de que un alumno apruebe?
+a.2)   [0,75 puntos]   Si un alumno ha suspendido, ¿cuál es la probabilidad de que no haya ido a clase?
+5
+
+b )   Una empresa embotelladora de agua produce botellas de 150 ml. La cantidad que realmente contienen sigue una
+distribución normal con media 150 ml y desviación típica 5 ml.
+b.1)   [0,5 puntos]   ¿Qué proporción de las botellas contiene más de 152 ml?
+b.2)   [0,75 puntos]   ¿Qué proporción de botellas tiene entre 149 y 152 ml?
+
+a   0.00   0.01   0.02   0.03   0.04   0.05   0.06   0.07   0.08   0.09
+0.10   0.5398   0.5438   0.5478   0.5517   0.5557   0.5596   0.5636   0.5675   0.5714   0.5753
+
+0.20   0.5793   0.5832   0.5871   0.5910   0.5948   0.5987   0.6026   0.6064   0.6103   0.6141
+
+0.30   0.6179   0.6217   0.6255   0.6293   0.6331   0.6368   0.6406   0.6443   0.6480   0.6517
+
+0.40   0.6554   0.6591   0.6628   0.6664   0.6700   0.6736   0.6772   0.6808   0.6844   0.6879
+
+0.50   0.6915   0.6950   0.6985   0.7019   0.7054   0.7088   0.7123   0.7157   0.7190   0.7224
+
+0.60   0.7257   0.7291   0.7324   0.7357   0.7389   0.7422   0.7454   0.7486   0.7517   0.7549
+
+Solución:
+
+a )   Sea   C   el evento que representa que un alumno va a clase y   A   el que representa que un alumno aprueba. El enun
+ciado nos dice que   P ( C ) =   0 , 90,   P ( A   ∣   C ) =   0 , 80 y   P ( A   ∣   C
+c
+) =   0 , 50, donde   C
+c  
+es el suceso complementario
+de   C   (es decir, el alumno no va a clase).
+a.1)   La probabilidad que se pide es:
+
+P ( A ) =   P ( A   ∣   C ) P ( C ) +   P ( A   ∣   C
+c
+) P ( C
+c
+) =   0 , 80   ⋅   0 , 90   +   0 , 50 ( 1   −   0 , 90 ) =   0 , 77
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 25 puntos; obtener la solución correcta, 0 , 25 puntos.
+a.2)   La probabilidad que se pide es:
+
+P ( C
+c  
+∣   A
+c
+) =  
+P ( C
+c  
+∩   A
+c
+)
+
+P ( A
+c
+)  
+=  
+P ( A
+c  
+∣   C
+c
+) P ( C
+c
+)
+
+P ( A
+c
+)  
+= 
+( 1   −   0 , 50 )( 1   −   0 , 90 )
+
+1   −   0 , 77  
+=   0 , 2174
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener la solución correcta, 0 , 25 puntos.
+
+b )   Sea   X   la variable aleatoria que representa la cantidad de agua embotellada. Su distribución es normal de media
+150 ml y desviación típica 5 ml.
+b.1)   La probabilidad que se pide es
+
+P ( X   >   152 ) =   P ( Z   >  
+152   −   150
+5  
+) =   P ( Z   >   0 , 40 ) =   1   −   P ( Z   ≤   0 , 40 ) =   1   −   0 , 6554   =   0 , 3446 .
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 25 puntos; obtener la solución correcta, 0 , 25 puntos.
+b.2)   La probabilidad que se pide es
+
+P ( 149   ≤   X   ≤   152 ) =   P ( X   ≤   152 ) −   P ( X   ≤   149 ) =   P ( Z   ≤   0 , 40 ) −   P ( Z   ≤ − 0 , 20 ) =
+
+P ( Z   ≤   0 , 40 ) − ( 1   −   P ( Z   ≤   0 , 20 )) =   0 , 6554   − ( 1   −   0 , 5793 ) =   0 , 2347 .
+
+Criterios de corrección:
+
+Plantear el problema, 0 , 5 puntos; obtener la solución correcta, 0 , 25 puntos.
+6
+

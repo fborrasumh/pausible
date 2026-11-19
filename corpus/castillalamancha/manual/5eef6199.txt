@@ -1,0 +1,669 @@
+[Fuente: https://www.uclm.es/-/media/Files/A04-Gestion-Academica/PDFEstudiantes/PDFEvAU/CriteriosCorreccion2425/EXTRAORDINARIA/Fisica.ashx]
+Prueba de Acceso a la Universidad. Curso 2024/2025
+Criterios de Correcci´ on: Materia F´ ısica
+
+EXAMEN CONVOCATORIA EXTRAORDINARIA
+
+Indicaciones Generales de Correcci´ on:
+
+•   El presente documento se debe tomar como una ayuda a los correctores y para concretar de la
+forma m´ as uniforme posible los criterios espec´ ıficos de correcci´ on. No es un documento docente
+que pretenda ense˜ nar a nadie a resolver los problemas, con lo que en ocasiones faltar´ an detalles
+en las explicaciones y pasos matem´ aticos en los desarrollos que seg´ un el caso pueden ser exigibles
+en los ex´ amenes de los alumnos para llegar a la m´ axima puntuaci´ on.
+
+•   En algunos casos puede haber otras maneras distintas y v´ alidas de resolver los problemas. Los
+correctores adaptaran la filosof´ ıa de estos criterios espec´ ıficos a esos casos cuando sean leves
+variantes.
+
+•   En los casos en que las diferencias sean notables lo comunicar´ an al coordinador y a los dem´ as cor-
+rectores durante las sesiones de evaluaci´ on de manera que pueda unificarse tambi´ en la baremaci´ on
+de esas otras alternativas.
+
+•   En la mayor´ ıa de los casos se valora conocer (o deducir) la expresi´ on matem´ atica necesaria, por
+un lado, y el valor num´ erico final por otro.
+
+•   En ning´ un caso se invalidar´ a todo un apartado s´ olo porque el valor num´ erico final no coincida
+con el dado aqu´ ı como soluci´ on, aunque est´ en dados en negrita como referencia.
+
+•   La puntuaci´ on de los ejercicios se realizar´ a en m´ ultiplos de 0.25 puntos.
+1
+
+Prueba de Acceso a la Universidad. Curso 2024/2025
+Criterios de Correcci´ on: Materia F´ ısica
+PROBLEMA 1   (2.5 puntos) Recientemente se ha descubierto un exoplaneta con posibilidad de
+albergar vida. Su nombre es “Gliese 12b” y orbita alrededor de su estrella con nombre “Gliese 12”.
+El exoplaneta presenta un periodo de 12.8 d´ ıas alrededor de su estrella y la distancia de separaci´ on
+entre ambos es de 1 . 05   ·   10
+7  
+km (de centro a centro). El radio del planeta es de 6000 km y su masa de
+5   ·   10
+24  
+kg. El radio de la estrella es de 9   ·   10
+5  
+km. Elige dos apartados a realizar:
+a) (1.25 puntos) Calcular la velocidad con la que orbita alrededor de la estrella y la masa de la estrella
+(deducir razonadamente las expresiones).
+b) (1.25 puntos) ¿Qu´ e velocidad m´ ınima deber´ ıamos proporcionar a una sonda que se hubiera posado
+en el planeta para que pudiese escapar de la atracci´ on del planeta?   Deduce razonadamente la
+expresi´ on.
+c) (1.25 puntos) Imag´ ınese que un objeto astron´ omico impacta con el planeta.   En la colisi´ on se
+desprende un trozo peque˜ no de masa m del planeta. Este trozo se detiene inmediatamente, y se
+dirige hacia la estrella con velocidad inicial cero.   Halle la velocidad final con la que impactar´ a
+sobre la superficie de la estrella suponiendo una masa de la estrella de M = 5 . 6   ·   10
+29  
+kg.
+Datos: G = 6 . 67   ·   10
+− 11  
+N · m
+2
+· kg
+− 2
+.
+
+SOLUCI ´ ON:
+Apartado a) : Items   Puntos
+Deducci´ on de la relaci´ on de la velocidad orbital,   v   a partir de la velocidad angular   ω   y del
+periodo de la orbita,   T  
+v   =   ωR   = 
+2 π
+T 
+R  
+0.25
+Sustituyendo los valores num´ ericos:   v   = 59652 m/s = 59 . 65 km/s   0.25
+Identificar que se puede hallar la masa de la estrella por la relaci´ on entre la fuerza de la
+gravedad y la masa por la aceleraci´ on centr´ ıpeta:   F   =   ma c
+
+0.25
+Deducir la ecuaci´ on y despejar   M  
+G 
+M m
+D
+2  
+=   m 
+v
+2
+
+D  
+→   G 
+M
+D  
+=   v
+2  
+→   M   =  
+Dv
+2
+
+G  
+0.25
+Sustituyendo los valores num´ ericos:   M   = 5 . 6   ·   10
+29  
+kg   0.25
+
+Apartado b) : Items   Puntos
+Identificaci´ on del concepto de   v e : la velocidad necesaria para abandonar el planeta es la
+velocidad de escape   v e .  
+0.25
+La   v e   proporciona al cuerpo una energ´ ıa cin´ etica tal que la energ´ ıa mec´ anica total ser´ a
+nula. Deducci´ on por conservaci´ on de la energ´ ıa mec´ anica   E
+i  
+y   E
+f  
+e identificar que   E
+f  
+= 0:
+
+E
+i
+c  
++   E
+i
+p  
+= 0  
+0.25
+Identificar cada energ´ ıa y hallar la ecuaci´ on para   v e
+
+E   =   − G 
+M m
+R  
++ 
+1
+2  
+mv
+2
+
+e  
+⇒   v e   =
+
+s
+
+2 GM
+R  
+0.50
+Sustituyendo los valores num´ ericos:   v e   = 10543 m/s   ∼   10 . 5 km/s   0.25
+
+Apartado c) : Items   Puntos
+Identificar la resoluci´ on del ejercicio por conservaci´ on de la energ´ ıa mec´ anica:   E
+i  
+=   E
+f  
+.   0.25
+Identificar aquellos t´ erminos de la energ´ ıa que contribuyen en el problema.   La masa m
+parte desde parada, luego   E
+i
+c   = 0 y hay que resolver:   E
+i
+p   =   E
+f
+c   +   E
+f
+p
+
+0.25
+Identificar t´ erminos para cada energ´ ıa
+
+E
+f
+c   =   E
+i
+p − E
+f
+p   =   − ∆ E p   →  
+1
+2  
+m ( v
+f  
+)
+2  
+=   GM m  
+1
+
+R
+estrella
+
+−  
+1
+
+D
+
+!
+
+0.25
+Despejar   v
+f
+
+v
+f  
+=  
+√
+2 GM  
+1
+
+R
+estrella
+
+−  
+1
+
+D
+
+!
+1 / 2
+
+0.25
+Hallar el valor num´ erico de la distancia   v
+f  
+= 275481 m/s   ∼   275 . 5 km/s.   0.25
+2
+
+Prueba de Acceso a la Universidad. Curso 2024/2025
+Criterios de Correcci´ on: Materia F´ ısica
+⃗
+E
+⃗
+  E
+
+θ
+
+x
+
+y
+
+z
+
+m
+
+PROBLEMA 2   (2.5 puntos) Una peque˜ na bola de masa   m   = 50 g se
+ha situado colgando de un hilo dentro de un campo el´ ectrico uniforme
+⃗
+E   = 3000 ⃗   i   V/m, horizontal y dirigido de izquierda a derecha (v´ ease
+figura). La bola se mantiene en la posici´ on indicada, y tiene una carga
+el´ ectrica neta que debemos determinar. El hilo que sostiene la bola
+forma un ´ angulo de   θ   = 25
+◦  
+con la vertical.   Elige dos apartados a
+realizar:
+a) (1.25 puntos) Observando la disposici´ on de la figura, explicar razonadamente cu´ al es el signo de la
+carga. Se valorar´ a un esquema de fuerzas adecuado.
+b) (1.25 puntos) Calcular el valor de la carga y la tensi´ on del hilo que la sostiene.
+c) (1.25 puntos) Para un valor de la carga de la bola igual a 10   μ C. ¿Qu´ e valor deber´ ıa tener el campo
+el´ ectrico para que el ´ angulo del hilo con la vertical fuese 45
+◦
+? En este caso, ¿cu´ al ser´ ıa la tensi´ on
+del hilo?
+
+SOLUCI ´ ON:
+Apartado a) : Items   Puntos
+Realiza el diagrama de Fuerzas sobre la masa   m
+
+Explica cada una de las fuerzas:
+
+·
+⃗
+  T   : Tensi´ on del hilo, direcci´ on el del hilo
+
+·
+⃗
+  P   : Peso de la masa, direcci´ on en el eje   y   hacia abajo
+
+·
+⃗
+  F e   : Fuerza producida por el campo el´ ectrico sobre
+la masa m que tiene una carga   a .
+⃗
+E
+
+θ
+
+x
+
+y
+
+z
+
+m
+⃗ 
+T
+⃗
+
+P
+⃗
+
+F
+e
+⃗
+ 
+E
+
+0.75
+Indicar como es la carga   q   y la direcci´ on de
+⃗
+  F e .   Para que la bola se mantenga en esa
+posici´ on debe existir una fuerza en la direcci´ on   − i   que contrarreste la tensi´ on. Entonces
+la carga debe ser negativa. ⃗   F e   =   − q⃗E   |
+⃗
+E |   >   0   →   q <   0
+0.50
+
+Apartado b) : Items   Puntos
+Plantear el sistema de Fuerzas
+separadas en las ejes:
+
+(
+
+eje x   |
+⃗
+F e |   =   |
+⃗
+  T   |   sin   θ   →   | qE |   =   |
+⃗
+T   |   sin   θ
+eje y   |
+⃗
+  P   |   =   |
+⃗
+T   |   cos   θ   →   mg   =   |
+⃗
+T   |   cos   θ  
+0.25
+Del sistema anterior, despejar la carga   q   =   mg   tan   θ/ | ⃗ E |   0.25
+Hallar el valor num´ erico de la carga   q   =   − 7 . 6   ·   10
+− 5  
+C.   0.25
+Despejar el m´ odulo de la tensi´ on   | ⃗   T   |
+
+desde cualquiera de las ecuaciones planteadas:
+⃗
+ 
+T   =  
+mg
+
+cos   θ  
+0.25
+Hallar el valor del m´ odulo de la tensi´ on   | ⃗ T   |   = 0 . 54 N   0.25
+
+Apartado c) : Items   Puntos
+Plantear el sistema de Fuerzas
+separadas en los ejes:
+
+(
+
+eje x   |
+⃗
+F e |   =   |
+⃗
+  T   |   sin   θ   →   | q⃗E |   =   |
+⃗
+T   |   sin   θ
+eje y   | ⃗   P   |   =   | ⃗ T   |   cos   θ   →   mg   =   | ⃗ T   |   cos   θ  
+0.25
+Del sistema anterior, despejar el campo
+el´ ectrico al dividir las dos ecuaciones
+
+F e
+
+mg  
+=  
+| q⃗E |
+
+mg  
+= tan   θ   → |
+⃗
+E |   =  
+mg   tan   θ
+
+| q |  
+0.25
+Hallar el valor num´ erico del m´ odulo del campo el´ ectrico   | ⃗ E |   = 4 . 9   ·   10
+4  
+V/m.   0.25
+Para hallar el m´ odulo de la tensi´ on del hilo, despejar de
+cualquiera de las dos ecuaciones planteadas.  
+⇒ |
+⃗
+T   |   =  
+mg
+
+cos   θ  
+0.25
+Dar el valor num´ erico correcto,   | ⃗   T   |   = 0 . 69 N.   0.25
+3
+
+Prueba de Acceso a la Universidad. Curso 2024/2025
+Criterios de Correcci´ on: Materia F´ ısica
+PROBLEMA 3   (2.5 puntos) A una distancia de 30 cm a la izquierda de una lente convergente se
+sit´ ua un objeto de 2 cm de altura. La imagen del objeto se forma a 20 cm a la derecha de la lente.
+Elige dos apartados a realizar:
+a) (1.25 puntos) Hallar el punto focal de la lente y realizar un trazado de rayos, explicando las reglas
+de trazado para los rayos que uses. Indica las caracter´ ısticas de la imagen.
+b) (1.25 puntos) Determinar num´ ericamente la potencia de la lente, el aumento lateral del sistema
+´ optico y el tama˜ no de la imagen.
+c) (1.25 puntos) Si el objeto se sit´ ua en el punto focal de la lente y posteriormente en el doble del
+punto focal, ¿cu´ al ser´ a el aumento lateral en uno y otro caso? Realizar el trazado de rayos indicando
+como ser´ a la imagen formada para cada uno de los dos casos.
+
+SOLUCI ´ ON:
+Apartado a) : Items   Puntos
+Hallar la posici´ on de los focos a partir
+de la ecuaci´ on de las lentes delgadas
+1
+
+s
+′  
+−  
+1
+
+s  
+= 
+1
+
+f  
+′  
+⇒   f  
+′  
+=  
+s
+′
+s
+s   −   s
+′  
+= +12 cm   0.25
+valor num´ erico de los puntos focales:
+
+f   =   − 12 cm;   f  
+′  
+= +12 cm.
+(Debe ser cualitativamente correcto) F
+
+y   =   2   cm
+
+y ′
+
+s   =   −   30   cm
+
+f   =   −   12   cm
+
+f ′   =   +   12   cm
+
+F ′
+  0.50
+Explica al menos dos reglas de trazado de rayos: (con 2 bien explicados ya damos 0.25
+aqu´ ı)
+
+· El rayo que llega a la lente paralelo al eje ´ optico sale pasando por el foco imagen ( F  
+′
+).
+
+· El rayo que pasa por el foco objeto ( F   ) sale de la lente paralelo al eje ´ optico.
+
+· El rayo que incide en el centro de la lente no se desv´ ıa.
+0.25
+Indicar que la imagen ser´ a: real, invertida y disminuida (menor).   0.25
+
+Apartado b) : Items   Puntos
+Hallar la potencia,   P   = 1 /f  
+′  
+= 1 / (0 . 12 m) = 8.33 D.   0.25
+Hallar el aumento lateral
+y su valor:  
+m   =  
+s
+′
+
+s  
+=  
+20 cm
+
+− 30 cm 
+=   −  
+2
+3  
+0.50
+Hallar la altura de la imagen   y
+′  
+=   my   = 2 cm( − 2 / 3) =   − 1 . 33 cm   0.50
+
+Apartado c) : Items   Puntos
+Caso ( s   =   f   ): los rayos paraxiales salen paralelos.
+y la imagen se formar´ a en el infinito,
+luego no se formar´ a imagen
+siendo   s
+′  
+=   ∞
+
+y por tanto   m   =   ∞
+F
+
+y   =   2   cm
+
+s   =   −   12   cm
+
+f   =   −   12   cm   f ′   =   +   12   cm  
+F ′
+
+0.50
+Hallar   s
+′  
+cuando   s   = 2 f
+
+aplicando la ecuaci´ on de las lentes
+1
+
+s
+′  
+−  
+1
+
+s  
+= 
+1
+
+f  
+′  
+→   s
+′  
+= 2 f  
+′  
+0.25
+Imagen que se forma es real, invertida e igual.
+
+m   =   s
+′
+/s   =   − 1
+F
+
+y   =   2   cm
+
+s   =   −   12   cm
+
+f   =   −   12   cm   f ′   =   +   12   cm  
+F ′
+
+F
+
+s   =   2 f   =   −   24   cm
+
+f   =   −   12   cm   f ′   =   +   12   cm  
+F ′
+
+s ′   =   2 f ′   =   24   cm
+
+0.50
+
+∗  
+Nota sobre el criterio de signos:   En caso de no utilizar este criterio de signos (DIN), la f´ ormula
+de las lentes delgadas (Gauss) ser´ ıa  
+1
+
+s ′   +  
+1
+
+s  
+=  
+1
+
+f   ′   y el aumento lateral   m   =   y
+′
+/y   =   − s
+′
+/s . Si se mantiene
+con coherencia este criterio es v´ alido.
+4
+
+Prueba de Acceso a la Universidad. Curso 2024/2025
+Criterios de Correcci´ on: Materia F´ ısica
+CUESTIONES   (2.5 puntos) Elegir 2 de las siguientes cuestiones:
+a) (1.25 puntos) La masa at´ omica del plomo-208 (Z=82) es 207.9766 u.   Determina qu´ e energ´ ıa se
+desprende en la formaci´ on del n´ ucleo y cu´ al es su energ´ ıa de enlace por nucle´ on. Datos: m
+prot´ on
+= 1.0073 u; m
+neutr´ on 
+= 1.0087 u; 1u = 931.5 MeV.
+b) (1.25 puntos) Se agita el extremo de una cuerda con una frecuencia de 4 Hz y una amplitud de
+6 cm. Si la perturbaci´ on se propaga de izquierda a derecha con una velocidad de 1 m/s, escribir
+la expresi´ on (ecuaci´ on de la onda) que representa el movimiento por la cuerda.   Las condiciones
+iniciales son: t = 0 s; x = 0 cm; y = -6 cm.
+c)   (1.25 puntos) Un estudiante de F´ ısica dispone de una bobina formada
+por un estrecho arrollamiento de espiras de cable conductor y un
+amper´ ımetro conectado con la misma (ver figura). El estudiante tiene
+dos imanes:   uno de gran potencia y otro poco potente.   ¿De qu´ e
+forma registrar´ a el amper´ ımetro una lectura mayor, si introduce el
+im´ an potente y lo deja en reposo en el interior del hueco de la bobina
+o si mueve el im´ an menos potente alternativamente hacia dentro y
+hacia fuera en el hueco de la bobina? Justificar la respuesta.
+
+SOLUCI ´ ON:
+CUESTI ´ ON a) : Items   Puntos
+Incluir la f´ ormula del incremento de masa, ∆ m , en funci´ on del n´ umero de protones,   Z ,
+del n´ umero de neutrones,   N n , y de la masa del elemento,   M   (elemento):
+∆ m   =   N p   ·   m p   +   N n   ·   m n   −   M   (elemento)
+0.25
+Hallar el valor de ∆ m , ∆ m   = (82   ·   1 . 0073 + 126   ·   1 . 0087   −   207 . 9766) u= 1 . 7182 u.   0.25
+Hallar la energ´ ıa haciendo
+el cambio de unidades  
+E   = 1 . 7182 u   ·  
+931 MeV
+1 u  
+= 1599 . 6 MeV  
+0.25
+Darse cuenta de que la energ´ ıa de enlace ser´ a la energ´ ıa hallada anteriormente dividida
+entre el n´ umero de protones y neutrones que tenga el n´ ucleo,   E
+nucle´ on 
+=   E/A  
+0.25
+Hallar el valor num´ erico:   E/A   = 1599 . 6 MeV / 208 nucleones= 7.69 MeV/nucle´ on   0.25
+
+CUESTI ´ ON b) : Items   Puntos
+Exponer la ecuaci´ on de la onda transversal:
+donde   A   : amplitud,   ω   :frecuencia angular,   k   :n´ umero de onda y   φ 0   la fase.
+
+y ( x, t ) =   A   sin( ωt   −   kx   +   φ o ) ,  
+0.25
+Hallar la frecuencia angular,   ω   = 2 π   ·   f   = 2 π   ·   4 s
+− 1  
+= 8 π   rad/s   0.25
+Hallar   k   a partir de
+la longitud de onda,   λ  
+λ   =  
+v
+f  
+= 
+1 m/s
+4s
+− 1  
+= 0 . 25 m ,   ⇒   k   = 
+2 π
+λ  
+= (8 π ) m
+− 1  
+0.25
+Hallar la   φ 0   a partir de las cond. iniciales:   − 6 = 6 sin( φ 0 )   →   sin( φ 0 ) =   − 1 , φ 0   =   − π/ 2 rad .   0.25
+Incluir la ecuaci´ on definitiva   y ( x, t ) = 0 . 06 sin [8 π ( t   −   x )   −   π/ 2] m; ,   x   en m,   t   en s.   0.25
+
+CUESTI ´ ON C) : Items   Puntos
+La intensidad,   I   que lee el amper´ ımetro est´ a relacionada con la
+
+f em   inducida en la espira,   ε , por la ley de Ohm  
+I   =  
+ε
+R  
+0.25
+como   R   es la resistencia que es constante. La   I   vendr´ a determinada
+por la   ε , que a su vez se determina por la Ley de Faraday-Lenz:
+donde   ϕ   es el flujo magn´ etico a trav´ es de la espira
+
+ε   =   − N 
+dϕ
+dt 
+,  
+0.25
+Para que exista   ε   se necesita una variaci´ on de   ϕ   con respecto al tiempo. Esto se consigue
+con el movimiento relativo entre el im´ an y la espira.  
+0.25
+Por lo tanto ser´ a en el caso de que im´ an menos potente se mueva alternativamente hacia
+dentro y fuera del hueco cuando se registre una lectura en el amper´ ımetro. Cuanto m´ as
+r´ apido se mueva, la lectura ser´ a mayor.
+0.25
+Un im´ an potente en reposo en el interior de la espria no produce   ε   y por tanto   I   = 0 A.   0.25
+5
+
