@@ -1,0 +1,91 @@
+{
+ "ccaa": "cataluna",
+ "materia": "geologia",
+ "titulo": "Geología y Ciencias Ambientales — PAU 2027 de Cataluña (modelo original)",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro ejercicios obligatorios, cada uno puntuado con 2,5 puntos. Responda a todas las cuestiones de los ejercicios 1, 3 y 4. En el ejercicio 2, responda al apartado 2.1 y elija una sola opción, A o B, del apartado 2.2; ambas opciones puntúan lo mismo. Puede utilizar calculadora, pero no dispositivos capaces de almacenar o transmitir información. Justifique los cálculos e indique las unidades cuando corresponda.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "tectonica",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Una administración insular estudia el riesgo geológico de la costa de la isla ficticia de Neria. Frente a ella hay una fosa oceánica. En una línea perpendicular a la fosa se han localizado tres terremotos: a 20 km de la fosa, foco a 15 km de profundidad; a 100 km, foco a 70 km; y a 200 km, foco a 140 km. La corteza oceánica se desplaza hacia la isla y, tierra adentro, existe una alineación de volcanes.\\n1.1. Identifique el tipo de límite de placas y cuál de las placas se introduce bajo la otra. Explique qué indica el aumento de profundidad de los focos al alejarse de la fosa y relacione el límite de placas con la presencia de volcanes. [1,5 puntos]\\n1.2. Para priorizar las actuaciones municipales se define el índice de riesgo simplificado $R=H\\\\times N\\\\times V$, donde $H$ es la peligrosidad sísmica, de 1 a 5; $N$ es la población expuesta, expresada en miles de habitantes; y $V$ es la vulnerabilidad, entre 0 y 1. Los datos son: localidad A, $H=4$, $N=2$, $V=0,5$; localidad B, $H=3$, $N=8$, $V=0,5$; localidad C, $H=5$, $N=1$, $V=0,4$. Calcule el índice de las tres localidades e indique cuál debe priorizarse. Entre estas actuaciones, señale cuál reduce directamente la vulnerabilidad física de los edificios: instalar otra estación sismológica; reforzar la estructura del hospital según la normativa sísmica; o redactar un protocolo de evacuación. [1 punto]",
+   "solucion": "### 1.1. Tipo de límite y relación con el vulcanismo\n\n1. La presencia de una fosa y el desplazamiento de corteza oceánica hacia la isla indican un **límite convergente con subducción**.\n2. La **placa oceánica** es la que se introduce bajo la placa superior que sostiene la isla. Los datos muestran que los focos pasan de 15 km de profundidad a 20 km de la fosa, a 70 km a 100 km y a 140 km a 200 km. Este aumento al alejarnos de la fosa hacia tierra adentro indica que la placa subducida se inclina y desciende bajo la isla; los terremotos se distribuyen a lo largo de esa placa.\n3. En la subducción, la liberación de fluidos de la placa descendente favorece la fusión parcial del manto situado sobre ella. El magma generado puede ascender y formar la alineación de volcanes tierra adentro.\n\n### 1.2. Índice de riesgo y actuación\n\nSe utiliza un procedimiento de cálculo alternativo agrupando primero la peligrosidad y la vulnerabilidad, $R=(H\\times V)\\times N$:\n\n- **A:** $(4\\times0,5)\\times2=2\\times2=4$.\n- **B:** $(3\\times0,5)\\times8=1,5\\times8=12$.\n- **C:** $(5\\times0,4)\\times1=2\\times1=2$.\n\nEl mayor índice es el de **B (12)**, por lo que debe priorizarse, aunque su peligrosidad sea menor que la de C, debido a su mayor población expuesta.\n\nLa actuación que reduce directamente la **vulnerabilidad física de los edificios** es **reforzar la estructura del hospital según la normativa sísmica**. La estación sismológica mejora la observación y el conocimiento de la peligrosidad; el protocolo organiza la respuesta y la evacuación, pero ninguna de esas dos medidas refuerza físicamente los edificios.\n\n**Comprobación:** con el cálculo directo de la expresión original, A: $4\\times2\\times0,5=4$; B: $3\\times8\\times0,5=12$; C: $5\\times1\\times0,4=2$. Coinciden los tres índices y B sigue siendo la localidad prioritaria.",
+   "resultado": "Límite convergente con subducción de la placa oceánica bajo la placa de la isla; índices A=4, B=12 y C=2, por lo que se prioriza B; se debe reforzar la estructura del hospital.",
+   "criterios": "Total: 2,5 puntos. 1.1 (1,5 puntos): 0,4 por identificar el límite convergente con subducción; 0,3 por señalar que la placa oceánica subduce bajo la placa de la isla; 0,4 por interpretar el aumento de profundidad como una placa que desciende hacia tierra adentro; 0,4 por explicar la relación entre subducción, generación de magma y volcanismo. 1.2 (1 punto): 0,15 por cada índice correcto (0,45 en total); 0,15 por priorizar B justificándolo por ser el índice mayor; 0,25 por elegir el refuerzo estructural; 0,15 por distinguirlo de las medidas de observación o evacuación.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "procesos",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un municipio analiza el acuífero libre sobre el que se asienta antes de aprobar nuevas obras. El nivel piezométrico coincide con el nivel freático. Tres pozos están alineados de oeste a este; sus distancias horizontales desde el pozo occidental y sus cotas del nivel freático son, respectivamente: pozo 1, 0 m y 132 m; pozo 2, 400 m y 128 m; pozo 3, 800 m y 124 m. El suelo del aparcamiento subterráneo previsto junto al pozo 2 quedaría a la cota 126 m.\\n2.1. Determine el sentido del flujo subterráneo. Calcule el gradiente hidráulico entre los pozos 1 y 3 mediante $i=\\\\frac{\\\\Delta h}{L}$, donde $\\\\Delta h$ es la diferencia de cotas y $L$ la distancia horizontal. Indique cuántos metros por encima del suelo del aparcamiento se encuentra el nivel freático en el pozo 2 y si existe riesgo de entrada de agua. [1 punto]\\n2.2. Elija y responda solo una opción. [1,5 puntos]\\nOpción A. En un río, la cota del nacimiento es 510 m y la de la desembocadura, 270 m. La longitud del cauce entre ambos puntos es 12 km. Calcule el gradiente medio en m/km y en porcentaje. En el tramo final, el río deja barras de arena en una llanura aluvial: indique si predomina allí la erosión o la sedimentación. [0,75 puntos por el cálculo y 0,75 puntos por la interpretación]\\nOpción B. En una ladera, la cota de la parte superior es 360 m y la de la base, 240 m; la distancia horizontal entre ambas es 600 m. Calcule el porcentaje de pendiente mediante $p=\\\\frac{\\\\Delta h}{L}\\\\times100$. En la ladera húmeda, el terreno se desplaza pendiente abajo por una superficie de rotura curva y cóncava. Identifique el tipo de movimiento. [0,75 puntos por el cálculo y 0,75 puntos por la identificación]",
+   "solucion": "### 2.1. Flujo subterráneo\nEl nivel piezométrico desciende de oeste a este: pasa de $132\\,\\text{m}$ en el pozo 1 a $124\\,\\text{m}$ en el pozo 3. Por tanto, el flujo subterráneo va **de oeste a este**, desde la mayor hacia la menor carga hidráulica.\n\nLa diferencia de cotas y la distancia horizontal entre los pozos 1 y 3 son $\\Delta h=132-124=8\\,\\text{m}$ y $L=800-0=800\\,\\text{m}$. Así,\n$$i=\\frac{\\Delta h}{L}=\\frac{8}{800}=0{,}01.$$\n\nEn el pozo 2, el nivel freático está a $128\\,\\text{m}$ y el suelo del aparcamiento quedaría a $126\\,\\text{m}$; por tanto, el nivel freático se encuentra $128-126=2\\,\\text{m}$ por encima del suelo. **Existe riesgo de entrada de agua**, porque la excavación quedaría por debajo del nivel freático.\n\n### 2.2. Opción A\nEl desnivel entre el nacimiento y la desembocadura es $\\Delta h=510-270=240\\,\\text{m}$, y la longitud del cauce es $12\\,\\text{km}$.\n\nEl gradiente medio es\n$$\\frac{240\\,\\text{m}}{12\\,\\text{km}}=20\\,\\text{m/km}.$$\n\nPara expresarlo en porcentaje, se convierte la longitud a metros:\n$$\\frac{240\\,\\text{m}}{12\\,000\\,\\text{m}}\\times100=2\\%.$$\n\nEn el tramo final, la presencia de barras de arena indica que predomina la **sedimentación**: el río deposita materiales al disminuir su capacidad de transporte.",
+   "resultado": "Flujo de oeste a este; gradiente hidráulico = 0,01; nivel freático 2 m sobre el suelo del aparcamiento, con riesgo de entrada de agua; Opción A: 20 m/km, 2 % y sedimentación.",
+   "criterios": "Puntuación total: 2,5 puntos. 2.1 (1 punto): sentido correcto del flujo, 0,25; planteamiento y cálculo del gradiente hidráulico con unidades coherentes, 0,35; diferencia de 2 m entre el nivel freático y el suelo del aparcamiento, 0,20; identificación del riesgo de entrada de agua, 0,20. 2.2, opción A (1,5 puntos): cálculo del desnivel y uso de la longitud, 0,25; gradiente de 20 m/km, 0,25; conversión correcta a 2 %, 0,25; identificación de la sedimentación en el tramo con barras de arena, 0,75. No se puntúa la opción B, ya que se debe responder solo una opción.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "3",
+   "tema": "tectonica",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una red de vigilancia registra un terremoto cerca de una línea de falla que cruza una comarca. En una estación, las ondas P llegan 18 s antes que las ondas S. Para este ejercicio, considere que sus velocidades son $v_P=6\\\\,\\\\mathrm{km/s}$ y $v_S=3\\\\,\\\\mathrm{km/s}$, y utilice $d=\\\\frac{\\\\Delta t}{1/v_S-1/v_P}$ para calcular la distancia entre la estación y el foco.\\n3.1. Calcule dicha distancia e indique por qué las ondas P llegan antes que las ondas S. [1 punto]\\n3.2. En la falla, dos marcadores geológicos aparecen desplazados horizontalmente uno respecto al otro, sin desnivel vertical apreciable. Clasifique el movimiento de la falla. [0,5 puntos]\\n3.3. Dos edificios reciben la misma sacudida: uno está sobre roca compacta y el otro sobre sedimentos sueltos y saturados de agua. Indique cuál puede sufrir mayores daños y nombre un proceso geológico que pueda explicar esa diferencia. [0,5 puntos]\\n3.4. El hospital comarcal está situado sobre esos sedimentos. ¿Cuál de las actuaciones siguientes reduce directamente la vulnerabilidad física del edificio sin cambiar su emplazamiento: instalar una nueva estación sismológica, reforzar su estructura con arriostramientos o redactar un protocolo de evacuación? [0,5 puntos]",
+   "solucion": "### 3.1. Distancia y llegada de las ondas\nAplicamos la expresión indicada, con las velocidades en km/s y el tiempo en segundos:\n\n$$d=\\frac{\\Delta t}{1/v_S-1/v_P}=\\frac{18}{1/3-1/6}=\\frac{18}{1/6}=108\\ \\mathrm{km}$$\n\nLa distancia entre la estación y el foco es **108 km**. Las ondas P llegan antes porque se propagan a mayor velocidad que las ondas S ($6\\ \\mathrm{km/s}>3\\ \\mathrm{km/s}$). Además, las P son ondas compresivas y las S son ondas de cizalla.\n\n### 3.2. Tipo de movimiento de la falla\nEl desplazamiento horizontal sin desnivel vertical apreciable corresponde a una **falla de desgarre** o de movimiento **direccional**. No se puede determinar si es dextra o sinistra con los datos proporcionados.\n\n### 3.3. Daños sobre sedimentos\nEl edificio situado sobre **sedimentos sueltos y saturados de agua** puede sufrir mayores daños. Estos materiales pueden amplificar el movimiento sísmico y, si se dan las condiciones adecuadas, sufrir **licuefacción**.\n\n### 3.4. Reducción de la vulnerabilidad física\nLa actuación adecuada es **reforzar la estructura con arriostramientos**, porque mejora directamente la resistencia del edificio sin modificar su emplazamiento. Una estación sismológica no refuerza el edificio y un protocolo de evacuación mejora la respuesta de las personas, no la resistencia física de la estructura.",
+   "resultado": "Distancia: 108 km; falla de desgarre; mayores daños potenciales sobre sedimentos sueltos y saturados por amplificación sísmica y posible licuefacción; actuación: reforzar con arriostramientos.",
+   "criterios": "3.1 (1 punto): 0,75 puntos por plantear y calcular correctamente la distancia, incluida la unidad (d = 108 km); 0,25 puntos por justificar que las ondas P llegan antes porque su velocidad es mayor que la de las ondas S. 3.2 (0,5 puntos): identificar el movimiento como falla de desgarre o direccional, con desplazamiento esencialmente horizontal. 3.3 (0,5 puntos): indicar que los sedimentos sueltos y saturados pueden favorecer mayores daños y nombrar un proceso pertinente, como la amplificación del movimiento sísmico o la licuefacción. 3.4 (0,5 puntos): elegir el refuerzo estructural mediante arriostramientos como medida que reduce directamente la vulnerabilidad física del edificio.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "recursos",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una cantera de caliza abastece las obras de una nueva vía comarcal. La reserva explotable certificada es de 360 000 t y se prevé extraer 24 000 t cada año, sin cambios en el ritmo de producción. La caliza de la cantera se formó por acumulación de fragmentos de conchas y está compuesta principalmente por calcita.\\n4.1. Calcule cuántos años durará la reserva al ritmo de extracción previsto. [0,5 puntos]\\n4.2. Clasifique la caliza según su origen como roca y nombre el mineral principal indicado en el texto. [0,5 puntos]\\n4.3. La obra necesita 18 000 t de áridos. Una planta recibe 25 000 t de residuos de hormigón y puede convertir el 60 % en árido reciclado apto para la obra. Calcule cuántas toneladas de árido reciclado obtendrá y cuántas toneladas de árido adicional tendrá que aportar. [0,75 puntos]\\n4.4. Para reducir específicamente el polvo en suspensión de la cantera, elija la actuación más adecuada: humedecer los caminos y los acopios; impermeabilizar la balsa de recogida de aguas; o revegetar los taludes al finalizar la explotación. Justifique brevemente la elección. [0,75 puntos]",
+   "solucion": "### 4.1. Duración de la reserva\n\nSe divide la reserva explotable por la extracción anual prevista:\n\n$$\\frac{360\\,000\\ \\mathrm{t}}{24\\,000\\ \\mathrm{t/año}}=15\\ \\mathrm{años}$$\n\nLa reserva durará **15 años**.\n\n### 4.2. Origen de la caliza y mineral principal\n\nAl haberse formado por acumulación de fragmentos de conchas, se clasifica como una **roca sedimentaria de origen biogénico u organógeno**. El mineral principal indicado es la **calcita** ($\\mathrm{CaCO_3}$).\n\n### 4.3. Árido reciclado y aporte adicional\n\nLa cantidad de árido reciclado obtenida es:\n\n$$25\\,000\\ \\mathrm{t}\\times 0{,}60=15\\,000\\ \\mathrm{t}$$\n\nEl aporte adicional necesario para cubrir las 18 000 t requeridas es:\n\n$$18\\,000\\ \\mathrm{t}-15\\,000\\ \\mathrm{t}=3\\,000\\ \\mathrm{t}$$\n\nSe obtendrán **15 000 t de árido reciclado** y habrá que aportar **3 000 t de árido adicional**.\n\n### 4.4. Medida para reducir el polvo\n\nLa actuación más adecuada es **humedecer los caminos y los acopios**, porque el agua reduce la resuspensión y dispersión de partículas de polvo por el tránsito de vehículos y por el viento. Impermeabilizar una balsa trata la posible infiltración de agua, y revegetar los taludes al final de la explotación no controla de forma tan directa el polvo generado durante la actividad.",
+   "resultado": "15 años; roca sedimentaria biogénica u organógena, calcita; 15 000 t de árido reciclado y 3 000 t de aporte adicional; humedecer caminos y acopios.",
+   "criterios": "4.1 (0,5 puntos): plantea correctamente la división entre reserva y extracción anual (0,25) y obtiene 15 años con unidades (0,25). 4.2 (0,5 puntos): clasifica la caliza como sedimentaria biogénica u organógena (0,25) e identifica la calcita como mineral principal (0,25). 4.3 (0,75 puntos): calcula 15 000 t de árido reciclado aplicando el 60 % a 25 000 t (0,4) y obtiene 3 000 t de aporte adicional restando a las 18 000 t necesarias (0,35). 4.4 (0,75 puntos): elige humedecer caminos y acopios (0,4) y justifica que reduce la resuspensión y dispersión del polvo (0,35).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "tectonica",
+   "p": 0.825
+  },
+  {
+   "id": "procesos",
+   "p": 0.256
+  },
+  {
+   "id": "recursos",
+   "p": 0.25
+  },
+  {
+   "id": "minerales",
+   "p": 0.134
+  }
+ ],
+ "referencias": [
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/geologia-cc-ambientals/ord/pau_geol26o.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/geologia-cc-ambientals/ord/pau_geol26o_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2024/geologia-cc-ambientals/ext/pau_geol24sl_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2024/geologia-cc-ambientals/ord/pau_geol24jl.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2024/geologia-cc-ambientals/ord/pau_geol24jl_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/geologia-cc-ambientals/ext/pau_geol25sl.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/geologia-cc-ambientals/ext/pau_geol25sl_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/geologia-cc-ambientals/ext/pau_geol26e.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/geologia-cc-ambientals/ord/pau_geol26o_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/geologia-cc-ambientals/ord/pau_geol26o_tei.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/geologia-cc-ambientals/ord/pau_geol26o_tei_es.pdf"
+ ]
+}
