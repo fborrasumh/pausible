@@ -1,0 +1,106 @@
+{
+ "ccaa": "cantabria",
+ "materia": "latin",
+ "titulo": "PAU 2027 Cantabria — Latín II — Propuesta original",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de 3 apartados y suma 10 puntos. APARTADO 1 [6 puntos]: elige uno de los dos textos y responde a las preguntas obligatorias 1, 2 y 3. APARTADO 2 [2 puntos]: responde a las preguntas obligatorias 4 y 5. APARTADO 3 [2 puntos]: elige uno de los dos textos literarios y responde a la pregunta 6. Se puede utilizar un diccionario que no contenga información sobre composición y derivación ni apéndice cultural. En los textos del apartado 1, los términos en negrita se indican con **...** y el fragmento subrayado con <u>...</u>.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "traduccion",
+   "puntos": 4,
+   "tipo": "abierta",
+   "enunciado": "APARTADO 1. Elige uno de los dos textos y tradúcelo al castellano.\n\nTexto 1. Un puerto durante una tormenta (texto de elaboración propia para esta prueba).\nCum tempestatem vitare **vellent**, nautae ad oppidum maritimum venerunt. Ibi cives eos benigne receperunt, quamquam **ventus** iam vehementer spirabat. Nocte ventus **naves** ad litus egit; tum iuvenes, <u>portum a fluctibus defendere cupientes</u>, lapides ad murum **pertulerunt**. Postero die mare tranquillum fuit, et nautae merces in urbem duxerunt atque magistratui gratias egerunt, qui auxilium **omnibus** promiserat.\n\nTexto 2. Un puente dañado tras la crecida de un río (texto de elaboración propia para esta prueba).\nCum **rumor** de ponte fracto ad vicum pervenisset, Marcus ad flumen cucurrit. Ibi **senes**, qui in ripa manebant, Marcum auxilium rogaverunt. Is funem ad arborem alligavit atque pontem firmare coepit. Deinde socios, **rebus** cognitis, ad se vocavit; illi statim advenerunt et una cum eo laboraverunt, <u>donec viatores tuto transire **possent**</u>. Postremo omnes pontem transierunt, atque magistratus Marcum laudavit, quod commune periculum sine mora **vitavisset**.",
+   "solucion": "### Método: análisis sintáctico por bloques\n\nEn lugar de traducir palabra por palabra, primero se identifican las oraciones y las relaciones entre sus verbos; después se formula una versión castellana natural.\n\n1. **Cum tempestatem vitare vellent, nautae ad oppidum maritimum venerunt.** La subordinada con *cum* y subjuntivo expresa aquí la circunstancia o causa; *vellent* es imperfecto de subjuntivo y *vitare* depende de él. El sujeto de *venerunt* es *nautae*.\n2. **Ibi cives eos benigne receperunt, quamquam ventus iam vehementer spirabat.** *Ibi* sitúa la acción; *eos* es el complemento directo de *receperunt*. La subordinada introducida por *quamquam* expresa concesión.\n3. **Nocte ventus naves ad litus egit; tum iuvenes, portum a fluctibus defendere cupientes, lapides ad murum pertulerunt.** *Nocte* significa «por la noche»; *egit* tiene como complemento directo *naves*. *Cupientes* concuerda con *iuvenes* y acompaña a la construcción de infinitivo *portum defendere*. *Pertulerunt* significa «llevaron» o «transportaron».\n4. **Postero die mare tranquillum fuit, et nautae merces in urbem duxerunt atque magistratui gratias egerunt, qui auxilium omnibus promiserat.** *Merces* es el complemento directo de *duxerunt*; *gratias agere* significa «dar las gracias». *Qui* se refiere a *magistratus* y *omnibus* significa «a todos».\n\n### Traducción\n\nComo querían evitar la tormenta, los marineros llegaron a una ciudad costera. Allí los ciudadanos los recibieron amablemente, aunque el viento ya soplaba con mucha fuerza. Por la noche, el viento empujó las naves hacia la costa; entonces unos jóvenes, deseosos de proteger el puerto de las olas, llevaron piedras hasta la muralla. Al día siguiente, el mar estaba tranquilo, y los marineros llevaron las mercancías a la ciudad y dieron las gracias al magistrado, que había prometido ayuda a todos.\n\n### Comprobación\n\nLa traducción conserva el sujeto de cada verbo principal, el valor concesivo de *quamquam*, la relación de *cupientes* con *iuvenes* y el antecedente de *qui*. También mantiene la secuencia temporal: llegada, tormenta nocturna y calma al día siguiente.",
+   "resultado": "Como querían evitar la tormenta, los marineros llegaron a una ciudad costera. Allí los ciudadanos los recibieron amablemente, aunque el viento ya soplaba con mucha fuerza. Por la noche, el viento empujó las naves hacia la costa; entonces unos jóvenes, deseosos de proteger el puerto de las olas, llevaron piedras hasta la muralla. Al día siguiente, el mar estaba tranquilo, y los marineros llevaron las mercancías a la ciudad y dieron las gracias al magistrado, que había prometido ayuda a todos.",
+   "criterios": "Puntuación total: 4 puntos. Propuesta de reparto: primera oración, 1 punto (valor de cum y traducción de la llegada); segunda oración, 0,75 puntos (recepción y concesiva); tercera oración, 1,25 puntos (acción del viento y construcción participial de los jóvenes); cuarta oración, 1 punto (acciones de los marineros y subordinada de relativo). Se valoran la comprensión sintáctica, la precisión léxica y la corrección del castellano; se aceptan equivalentes adecuados y se descuentan errores u omisiones que alteren el sentido.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "morfosintaxis",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Pregunta obligatoria 2. Analiza morfológicamente los cinco términos en negrita del texto elegido en la pregunta 1. Indica, según corresponda, categoría gramatical, lema, caso, número y género, o persona, número, tiempo, modo y voz. Cada término vale 0,2 puntos.",
+   "solucion": "No se puede completar el análisis morfológico porque no se ha incluido el texto de la pregunta 1 ni se identifican los cinco términos en negrita. Sin esos datos no es posible determinar sus lemas ni sus rasgos morfológicos sin inventarlos. Para resolverla, envía el texto elegido o copia los cinco términos tal como aparecen.",
+   "resultado": "Análisis no determinable: falta el texto de la pregunta 1 y la identificación de los cinco términos en negrita.",
+   "criterios": "1,0 punto en total: 0,2 puntos por cada uno de los cinco términos, conforme a la corrección de sus rasgos morfológicos. No se puede asignar una puntuación concreta sin conocer los términos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "morfosintaxis",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Pregunta obligatoria 3. Analiza sintácticamente el fragmento subrayado del texto elegido en la pregunta 1. Explica la función de sus elementos y la relación del fragmento con el resto de la oración.",
+   "solucion": "No es posible realizar el análisis sintáctico con la información proporcionada: falta el texto elegido en la pregunta 1 y no aparece identificado el fragmento subrayado. Para determinar la función de sus elementos y su relación con el resto de la oración se necesita el contexto latino exacto, incluida la puntuación.",
+   "resultado": "Análisis indeterminado: falta el texto y el fragmento subrayado.",
+   "criterios": "No procede asignar la puntuación sin el fragmento que debe analizarse. Envíese el texto de la pregunta 1 con el segmento subrayado para poder valorar el análisis sobre 1 punto.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "lexico",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "APARTADO 2. Pregunta obligatoria 4 [1 punto]. Explica las reglas fonéticas que se observan en la evolución al castellano de NOCTEM > noche y PLENUM > lleno. Cita, además, dos palabras de la familia léxica de cada étimo, cuatro palabras en total. Se valorará cada étimo con 0,5 puntos, incluida su evolución y las dos palabras de su familia.",
+   "solucion": "### 1. $\\text{NOCTEM} > \\text{noche}$\n\n- El grupo consonántico latino $-ct-$ evoluciona a la consonante castellana $ch$.\n- Se pierde la $-m$ final y se conserva la vocal final $e$: $\\text{noctem} > \\text{noche}$.\n- Dos palabras de su familia léxica: **nocturno** y **anochecer**.\n\n### 2. $\\text{PLENUM} > \\text{lleno}$\n\n- El grupo inicial $pl-$ palataliza y da $ll-$ en castellano.\n- Se pierde la $-m$ final; la terminación latina $-um$ da $-o$, y la $e$ tónica se conserva: $\\text{plenum} > \\text{lleno}$.\n- Dos palabras de su familia léxica: **llenar** y **plenitud**.",
+   "resultado": "NOCTEM > noche: -ct- > ch y pérdida de -m; PLENUM > lleno: pl- > ll- y pérdida de -m. Familias: nocturno, anochecer; llenar, plenitud.",
+   "criterios": "0,5 puntos por étimo. Para cada uno: 0,25 por explicar correctamente la evolución fonética y 0,125 por cada palabra válida de su familia léxica. Total: 1 punto.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "lexico",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Pregunta obligatoria 5 [1 punto]. Localiza los latinismos de estos textos informativos ficticios y explica su significado en el contexto. Cada latinismo correctamente localizado y explicado vale 0,5 puntos.\n\nA. El Ayuntamiento abrirá el plazo para solicitar las parcelas de los huertos vecinales. La convocatoria fija una cantidad idéntica por persona inscrita, es decir, la ayuda se calculará per capita.\n\nB. El equipo encargado de restaurar la antigua fuente examinó in situ las grietas de la piedra antes de decidir qué materiales utilizar.",
+   "solucion": "### Identificación y comprobación por paráfrasis\n\n1. **Texto A: *per capita*.** Se localiza en «la ayuda se calculará *per capita*». Significa «por persona» o «por cabeza». En este contexto, indica que la cantidad se calculará individualmente para cada persona inscrita. Se comprueba sustituyéndolo por «por persona»: «la ayuda se calculará por persona» conserva el sentido del texto.\n\n2. **Texto B: *in situ*.** Se localiza en «examinó *in situ* las grietas». Significa «en el lugar mismo» o «en el propio sitio». Aquí indica que el equipo examinó las grietas directamente en la fuente, no en otro lugar. La paráfrasis «examinó las grietas allí mismo» mantiene el significado.\n\n**Comprobación final:** se han localizado los dos latinismos y se ha explicado el sentido que adquiere cada uno en su contexto. Corresponden a 0,5 puntos cada uno: **1 punto en total**.",
+   "resultado": "A: per capita = por persona; B: in situ = en el propio lugar. Total: 1 punto.",
+   "criterios": "0,5 puntos por localizar correctamente per capita y explicar su significado contextual como «por persona»; 0,5 puntos por localizar correctamente in situ y explicar su significado contextual como «en el propio lugar». Total: 1 punto.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "6",
+   "tema": "literatura",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "APARTADO 3 [2 puntos]. Elige uno de los dos textos, que se ofrecen con traducción, y responde a las cuestiones a) y b).\n\nTexto 1.\nAurea prima sata est aetas, quae vindice nullo,\nsponte sua, sine lege fidem rectumque colebat.\nPoena metusque aberant, nec verba minantia fixo\naere legebantur, nec supplex turba timebat\niudicis ora sui, sed erant sine vindice tuti.\n\nLa primera edad fue la de oro; sin defensor alguno, por propia voluntad y sin ley, cultivaba la lealtad y lo justo. No existían el castigo ni el miedo, ni se leían amenazas grabadas en bronce; la multitud suplicante tampoco temía el rostro de su juez, sino que todos estaban seguros sin defensor.\n\nTexto 2.\nExcudent alii spirantia mollius aera,\n(credo equidem), vivos ducent de marmore vultus,\norabunt causas melius, caelique meatus\ndescribent radio et surgentia sidera dicent:\ntu regere imperio populos, Romane, memento;\nhae tibi erunt artes, pacisque imponere morem,\nparcere subiectis et debellare superbos.\n\nOtros modelarán con mayor suavidad los bronces que parecen respirar —así lo creo— y sacarán del mármol rostros vivos; defenderán mejor las causas, describirán con una vara los movimientos del cielo y anunciarán los astros que se alzan. Tú, romano, recuerda gobernar a los pueblos con tu autoridad: estas serán tus artes, imponer las normas de la paz, perdonar a los sometidos y derrotar a los soberbios.\n\na) Indica el autor, la obra y el género literario del texto elegido [0,75 puntos].\nb) Si eliges el texto 1, identifica la edad mítica descrita y explica los rasgos de la sociedad que aparecen en estos versos. Si eliges el texto 2, indica quién habla, a quién se dirige y qué misión asigna al pueblo romano [1,25 puntos].",
+   "solucion": "### Texto elegido: texto 2\n\n**a) Autor, obra y género (0,75 puntos)**\n\nEl autor es **Virgilio**; el pasaje pertenece a la **Eneida**, concretamente al libro VI. Es una obra de **poesía épica** latina.\n\n**b) Voz, destinatario y misión de Roma (1,25 puntos)**\n\nHabla **Anquises**, padre de Eneas, durante el encuentro de ambos en el inframundo. Se dirige a **Eneas** y le anuncia la misión histórica del pueblo romano: gobernar a los pueblos mediante su autoridad, establecer las normas de la paz, perdonar a los sometidos y derrotar a los soberbios. La exhortación queda condensada en la idea de que esas son las artes propias de Roma.",
+   "resultado": "Virgilio, Eneida (libro VI), épica; Anquises se dirige a Eneas y le atribuye a Roma la misión de gobernar, imponer la paz, perdonar a los sometidos y derrotar a los soberbios.",
+   "criterios": "a) 0,75 puntos: 0,25 por el autor, 0,25 por la obra y 0,25 por el género literario. b) 1,25 puntos: 0,35 por identificar a Anquises como hablante, 0,20 por señalar que se dirige a Eneas y 0,70 por explicar la misión romana: gobernar a los pueblos, imponer la paz, perdonar a los sometidos y derrotar a los soberbios. Se aceptan formulaciones equivalentes que recojan correctamente el sentido del texto.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "traduccion",
+   "p": 0.05
+  },
+  {
+   "id": "morfosintaxis",
+   "p": 0.05
+  },
+  {
+   "id": "lexico",
+   "p": 0.05
+  },
+  {
+   "id": "literatura",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/LATIN_junio_2026.pdf",
+  "https://web.unican.es/consejo-direccion/vcestudiantes/DocumentosEBAU/Examenes/LATIN Julio_2026.pdf"
+ ]
+}
