@@ -1,0 +1,107 @@
+{
+ "ccaa": "baleares",
+ "materia": "quimica",
+ "titulo": "Prueba de acceso a la universidad (PAU) 2027 — Química — Illes Balears",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cinco preguntas. La pregunta 1 es obligatoria. En cada una de las preguntas 2, 3, 4 y 5, contesta únicamente uno de los dos apartados propuestos: A o B. Cada pregunta vale 2 puntos. Se valorarán la coherencia, la claridad y la corrección lingüística, así como la presentación y la justificación de las respuestas. Se puede utilizar la tabla periódica y una calculadora convencional no programable.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "organica",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Pregunta 1. (2 puntos) (obligatoria)\n\nUna cooperativa de valorización de residuos alimentarios recupera ácido láctico para producir sustancias de interés industrial. Se representa el ácido láctico mediante la fórmula estructural condensada $\\ce{CH3-CH(OH)-COOH}$.\n\na) Escribe su fórmula molecular y su nombre sistemático. (0,5 puntos)\nb) Identifica los dos grupos funcionales presentes en la molécula. (0,5 puntos)\nc) En agua, el ácido láctico puede ceder un protón. Escribe su reacción con el agua e identifica, según Brønsted-Lowry, el ácido y su base conjugada. (0,5 puntos)\nd) El ácido láctico reacciona con metanol para formar un éster y agua. Escribe la ecuación ajustada de la reacción y nombra el éster obtenido. (0,5 puntos)",
+   "solucion": "### a) Fórmula molecular y nombre sistemático\n\nContando los átomos de la fórmula estructural condensada, hay tres átomos de carbono, seis de hidrógeno y tres de oxígeno: $\\mathrm{C_3H_6O_3}$. Al numerar la cadena desde el carbono del grupo carboxilo, el grupo hidroxilo está en el carbono 2. El nombre sistemático es **ácido 2-hidroxipropanoico**.\n\n### b) Grupos funcionales\n\nLa molécula contiene un grupo **carboxilo**, $\\mathrm{-COOH}$, propio de los ácidos carboxílicos, y un grupo **hidroxilo**, $\\mathrm{-OH}$, propio de los alcoholes.\n\n### c) Transferencia de protón en agua\n\nEl ácido láctico transfiere un protón al agua:\n\n$$\\mathrm{CH_3CH(OH)COOH + H_2O \\rightleftharpoons CH_3CH(OH)COO^- + H_3O^+}$$\n\nSegún Brønsted-Lowry, el ácido láctico actúa como ácido y su base conjugada es el ion lactato, $\\mathrm{CH_3CH(OH)COO^-}$. El agua actúa como base y su ácido conjugado es $\\mathrm{H_3O^+}$.\n\n### d) Esterificación con metanol\n\nSe sustituye el hidrógeno del grupo carboxilo por el grupo metilo procedente del metanol; se forma agua. La ecuación ajustada es:\n\n$$\\mathrm{CH_3CH(OH)COOH + CH_3OH \\rightleftharpoons CH_3CH(OH)COOCH_3 + H_2O}$$\n\nEl éster se nombra **2-hidroxipropanoato de metilo** (lactato de metilo). Como comprobación, en ambos lados hay $\\mathrm{C_4H_{10}O_4}$ en total, por lo que la ecuación está ajustada.\n\nSe ha empleado el recuento directo de átomos para obtener la fórmula molecular y la conservación de los átomos para comprobar la ecuación, en vez de limitarse a memorizar las fórmulas de estos compuestos.",
+   "resultado": "Ácido láctico: $\\mathrm{C_3H_6O_3}$, ácido 2-hidroxipropanoico; grupos carboxilo e hidroxilo; base conjugada $\\mathrm{CH_3CH(OH)COO^-}$; éster: 2-hidroxipropanoato de metilo.",
+   "criterios": "Reparto propuesto sobre 2,0 puntos: a) 0,25 por la fórmula molecular correcta y 0,25 por el nombre sistemático (0,5); b) 0,25 por cada grupo funcional correctamente identificado (0,5); c) 0,3 por la reacción de transferencia de protón correctamente escrita y 0,2 por identificar el ácido y su base conjugada (0,5); d) 0,3 por la ecuación de esterificación ajustada y 0,2 por nombrar correctamente el éster (0,5).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "enlace",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Pregunta 2. Contesta solo uno de los dos apartados: 2A o 2B.\n\n2A. (2 puntos) En la selección de materiales para un equipo de laboratorio se consideran las siguientes sustancias: $\\ce{I2(s)}$, $\\ce{MgCl2(s)}$, $\\ce{Cu(s)}$ y $\\ce{CH3OH(l)}$. Para cada propiedad, selecciona la sustancia que mejor se ajusta y justifica la elección mediante el tipo de enlace o las fuerzas intermoleculares. Cada apartado vale 0,5 puntos.\n\na) Sólido molecular que sublima con facilidad al calentarlo.\nb) Sólido que no conduce la electricidad, pero sí lo hace fundido.\nc) Material con elevada conductividad eléctrica y ductilidad.\nd) Líquido molecular polar cuyas moléculas forman enlaces de hidrógeno.\n\n2B. (2 puntos) Al interpretar la composición iónica de una muestra mineral, se comparan las especies $\\ce{Mg^{2+}}$, $\\ce{Ne}$, $\\ce{S}$ y $\\ce{Cl}$. Indica si cada afirmación es verdadera o falsa y justifica la respuesta. Cada apartado vale 0,5 puntos.\n\na) $\\ce{Mg^{2+}}$ y $\\ce{Ne}$ son especies isolectrónicas.\nb) El radio de $\\ce{Mg^{2+}}$ es mayor que el del átomo neutro de $\\ce{Mg}$.\nc) La segunda energía de ionización del magnesio es menor que la primera.\nd) El cloro tiene mayor electronegatividad que el azufre.",
+   "solucion": "**Se resuelve únicamente el apartado 2A.** Se identifican primero las sustancias por el tipo de estructura y, después, se comprueba qué propiedad corresponde a cada una.\n\n**a) Sólido molecular que sublima con facilidad: $\\ce{I2(s)}$.** El yodo está formado por moléculas apolares. Entre ellas actúan fuerzas de dispersión de London; al calentarlo, algunas moléculas pasan directamente al estado gaseoso.\n\n**b) Sólido que no conduce la electricidad, pero sí lo hace fundido: $\\ce{MgCl2(s)}$.** Es un sólido iónico. En estado sólido, los iones ocupan posiciones fijas y no pueden transportar carga; fundido, los iones tienen movilidad y conducen la corriente.\n\n**c) Material con elevada conductividad eléctrica y ductilidad: $\\ce{Cu(s)}$.** Presenta enlace metálico, con electrones deslocalizados responsables de la conductividad. La posibilidad de que las capas de átomos se deslicen sin romper el enlace metálico explica su ductilidad.\n\n**d) Líquido molecular polar cuyas moléculas forman enlaces de hidrógeno: $\\ce{CH3OH(l)}$.** El metanol es polar y sus grupos $\\ce{O-H}$ permiten formar enlaces de hidrógeno entre moléculas.\n\n**Comprobación final:** las cuatro asignaciones corresponden, respectivamente, a un sólido molecular volátil, un sólido iónico, un metal y un líquido molecular polar con enlaces de hidrógeno; por tanto, cada sustancia satisface la propiedad indicada.",
+   "resultado": "a) $\\ce{I2(s)}$; b) $\\ce{MgCl2(s)}$; c) $\\ce{Cu(s)}$; d) $\\ce{CH3OH(l)}$.",
+   "criterios": "Total: 2 puntos. Cada apartado vale 0,5 puntos: 0,25 por seleccionar la sustancia adecuada y 0,25 por justificarla correctamente mediante el tipo de enlace o las fuerzas intermoleculares. Se asignan, por tanto, 0,5 puntos por a) $\\ce{I2}$, b) $\\ce{MgCl2}$, c) $\\ce{Cu}$ y d) $\\ce{CH3OH}$. Una identificación correcta sin justificación recibe como máximo 0,25 puntos en ese apartado.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "acidobase",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Pregunta 3. Contesta solo uno de los dos apartados: 3A o 3B.\n\n3A. (2 puntos) Una empresa alimentaria controla la acidez de una disolución que contiene un ácido monoprótico débil $\\ce{HA}$. A $25\\,^\\circ\\mathrm{C}$, $K_a=1,0\\times10^{-5}$. Se dispone de $25,0\\,\\mathrm{mL}$ de una disolución $0,10\\,\\mathrm{M}$ de $\\ce{HA}$ y se valora con $\\ce{NaOH}$ $0,20\\,\\mathrm{M}$.\n\na) Escribe la ecuación iónica ajustada de la neutralización. (0,5 puntos)\nb) Calcula el pH inicial de la disolución de $\\ce{HA}$, comprobando si es válida la aproximación de disociación pequeña. Da el resultado con dos decimales. (0,75 puntos)\nc) Calcula el volumen de disolución de $\\ce{NaOH}$ necesario para alcanzar el punto de equivalencia y justifica si el pH en ese punto será menor, igual o mayor que 7. (0,75 puntos)\n\n3B. (2 puntos) Para estudiar la corrosión de una pieza metálica se monta una pila galvánica en condiciones estándar con los pares $\\ce{Ag+/Ag}$ y $\\ce{Zn^{2+}/Zn}$. Los potenciales estándar de reducción son $E^\\circ(\\ce{Ag+/Ag})=+0,80\\,\\mathrm{V}$ y $E^\\circ(\\ce{Zn^{2+}/Zn})=-0,76\\,\\mathrm{V}$.\n\na) Identifica el ánodo y el cátodo y escribe las semirreacciones y la reacción global ajustada. (0,8 puntos)\nb) Calcula el potencial estándar de la pila e indica si la reacción global es espontánea. (0,8 puntos)\nc) Explica la función del puente salino. (0,4 puntos)",
+   "solucion": "Se resuelve únicamente el apartado **3A**.\n\n### a) Ecuación iónica de neutralización\n\nEl ion hidróxido acepta un protón del ácido:\n\n$$\\ce{HA + OH^- -> A^- + H2O}$$\n\n### b) pH inicial\n\nSea $x=[\\ce{H3O+}]$ en el equilibrio de disociación. Despreciando la autoionización del agua:\n\n$$\\ce{HA + H2O <=> H3O+ + A^-}$$\n\n$$K_a=\\frac{[\\ce{H3O+}][\\ce{A^-}]}{[\\ce{HA}]}=\\frac{x^2}{0{,}10-x}=1{,}0\\times10^{-5}$$\n\nLa raíz positiva de esta ecuación es $x=9{,}95\\times10^{-4}\\ \\mathrm{M}$. La fracción disociada es:\n\n$$\\frac{x}{0{,}10}\\times100=0{,}995\\%$$\n\nComo es inferior al criterio habitual del $5\\%$, la aproximación de disociación pequeña es válida. Por tanto:\n\n$$\\mathrm{pH}=-\\log(9{,}95\\times10^{-4})=3{,}00$$\n\n### c) Punto de equivalencia\n\nLa cantidad inicial de ácido es $n(\\ce{HA})=0{,}10\\times0{,}0250=2{,}50\\times10^{-3}\\ \\mathrm{mol}$. En equivalencia, $n(\\ce{NaOH})=n(\\ce{HA})$, de modo que:\n\n$$V(\\ce{NaOH})=\\frac{2{,}50\\times10^{-3}}{0{,}20}=0{,}0125\\ \\mathrm{L}=12{,}5\\ \\mathrm{mL}$$\n\nEn equivalencia queda disuelto el anión $\\ce{A^-}$, base conjugada de un ácido débil, que se hidroliza según $\\ce{A^- + H2O <=> HA + OH^-}$. Al producirse $\\ce{OH^-}$, el pH en el punto de equivalencia es **mayor que 7**.",
+   "resultado": "pH inicial = 3,00; volumen de NaOH en equivalencia = 12,5 mL.",
+   "criterios": "Total: 2,00 puntos. a) 0,50: ecuación iónica de neutralización ajustada, con formación de agua y del anión conjugado. b) 0,75: planteamiento y resolución del equilibrio ácido (0,25); cálculo del porcentaje de disociación y comprobación de que la aproximación es válida (0,25); pH inicial con dos decimales (0,25). c) 0,75: cálculo estequiométrico correcto del volumen de NaOH en equivalencia (0,50); justificación de que el pH es mayor que 7 por la hidrólisis básica de A⁻ (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "equilibrio",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Pregunta 4. Contesta solo uno de los dos apartados: 4A o 4B.\n\n4A. (2 puntos) El dióxido de nitrógeno, relevante en el seguimiento de contaminantes atmosféricos, participa en el equilibrio gaseoso $\\ce{N2O4(g) <=> 2NO2(g)}$. A cierta temperatura, $K_c=\\frac{2}{3}\\,\\mathrm{mol\\,L^{-1}}$. Se introducen $1,00\\,\\mathrm{mol}$ de $\\ce{N2O4}$ en un recipiente de $1,00\\,\\mathrm{L}$, inicialmente sin $\\ce{NO2}$.\n\na) Calcula las concentraciones de $\\ce{N2O4}$ y $\\ce{NO2}$ en el equilibrio. (1 punto)\nb) Calcula el porcentaje de $\\ce{N2O4}$ que se ha disociado. (0,5 puntos)\nc) Una vez alcanzado el equilibrio, se reduce el volumen del recipiente a temperatura constante. Indica hacia qué lado se desplaza el equilibrio y justifica la respuesta. (0,5 puntos)\n\n4B. (2 puntos) Para recuperar plata de un residuo acuoso se estudia la solubilidad del cloruro de plata, $\\ce{AgCl(s) <=> Ag+(aq) + Cl-(aq)}$. A $25\\,^\\circ\\mathrm{C}$, $K_{ps}=4,0\\times10^{-10}$.\n\na) Calcula la solubilidad molar de $\\ce{AgCl}$ en agua pura. (0,75 puntos)\nb) Calcula su solubilidad molar en una disolución de $\\ce{NaCl}$ $0,10\\,\\mathrm{M}$. Supón que el $\\ce{NaCl}$ se disocia completamente y que la solubilidad del $\\ce{AgCl}$ es despreciable frente a $0,10\\,\\mathrm{M}$. (0,75 puntos)\nc) Explica el efecto del ion común observado. (0,5 puntos)",
+   "solucion": "### 4A\n\nLa concentración inicial de $\\mathrm{N_2O_4}$ es $1{,}00\\,\\mathrm{mol\\,L^{-1}}$, y la de $\\mathrm{NO_2}$ es cero. Sea $x$ la concentración de $\\mathrm{N_2O_4}$ que se disocia.\n\n| Especie | Inicial ($\\mathrm{mol\\,L^{-1}}$) | Cambio ($\\mathrm{mol\\,L^{-1}}$) | Equilibrio ($\\mathrm{mol\\,L^{-1}}$) |\n|---|---:|---:|---:|\n| $\\mathrm{N_2O_4}$ | $1$ | $-x$ | $1-x$ |\n| $\\mathrm{NO_2}$ | $0$ | $+2x$ | $2x$ |\n\n#### a) Concentraciones en el equilibrio\n\nAplicamos la expresión de la constante:\n\n$$K_c=\\frac{[\\mathrm{NO_2}]^2}{[\\mathrm{N_2O_4}]}=\\frac{(2x)^2}{1-x}=\\frac{2}{3}.$$\n\nDe aquí,\n\n$$12x^2=2(1-x),\\qquad 6x^2+x-1=0.$$\n\nLas soluciones son $x=\\frac{1}{3}$ y $x=-\\frac{1}{2}$. Se descarta la raíz negativa, porque no es físicamente posible una concentración disociada negativa. Por tanto,\n\n$$[\\mathrm{N_2O_4}]_{eq}=1-\\frac{1}{3}=\\frac{2}{3}=0{,}667\\,\\mathrm{mol\\,L^{-1}},$$\n\n$$[\\mathrm{NO_2}]_{eq}=2\\left(\\frac{1}{3}\\right)=\\frac{2}{3}=0{,}667\\,\\mathrm{mol\\,L^{-1}}.$$\n\n#### b) Porcentaje de $\\mathrm{N_2O_4}$ disociado\n\n$$\\%\\text{ disociado}=\\frac{x}{[\\mathrm{N_2O_4}]_0}\\times100\n=\\frac{1/3}{1}\\times100=33{,}3\\%.$$\n\n#### c) Efecto de reducir el volumen\n\nEl equilibrio se desplaza hacia la izquierda, favoreciendo la formación de $\\mathrm{N_2O_4}$. Al disminuir el volumen a temperatura constante aumenta la presión, y el sistema favorece el lado con menor número de moles gaseosos: la reacción inversa pasa de $2$ moles gaseosos de $\\mathrm{NO_2}$ a $1$ mol gaseoso de $\\mathrm{N_2O_4}$.",
+   "resultado": "$[\\mathrm{N_2O_4}]_{eq}=0{,}667\\,\\mathrm{mol\\,L^{-1}}$; $[\\mathrm{NO_2}]_{eq}=0{,}667\\,\\mathrm{mol\\,L^{-1}}$; disociación $=33{,}3\\%$; al reducir el volumen, el equilibrio se desplaza a la izquierda.",
+   "criterios": "Total: 2,00 puntos. a) 1,00 punto: 0,25 por plantear correctamente las concentraciones de equilibrio y la expresión de Kc; 0,50 por resolver la ecuación y seleccionar la raíz físicamente admisible; 0,25 por obtener ambas concentraciones de equilibrio. b) 0,50 puntos: cálculo correcto del porcentaje de disociación. c) 0,50 puntos: 0,25 por indicar el desplazamiento hacia la izquierda y 0,25 por justificarlo porque ese lado tiene menos moles gaseosos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "termo",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Pregunta 5. Contesta solo uno de los dos apartados: 5A o 5B.\n\n5A. (2 puntos) El hidrógeno puede emplearse como combustible en sistemas de almacenamiento energético. Para la combustión de un mol de hidrógeno a $298\\,\\mathrm{K}$ se considera la reacción $\\ce{H2(g) + 1/2 O2(g) -> H2O(l)}$. Se dan los siguientes datos: $\\Delta_fH^\\circ(\\ce{H2O(l)})=-285,8\\,\\mathrm{kJ\\,mol^{-1}}$; $S^\\circ(\\ce{H2(g)})=130,7\\,\\mathrm{J\\,K^{-1}\\,mol^{-1}}$; $S^\\circ(\\ce{O2(g)})=205,0\\,\\mathrm{J\\,K^{-1}\\,mol^{-1}}$; $S^\\circ(\\ce{H2O(l)})=69,9\\,\\mathrm{J\\,K^{-1}\\,mol^{-1}}$. Los elementos en su estado estándar tienen entalpía estándar de formación nula.\n\na) Calcula $\\Delta_rH^\\circ$ e indica si la reacción es endotérmica o exotérmica. (0,5 puntos)\nb) Calcula $\\Delta_rS^\\circ$. (0,5 puntos)\nc) Calcula $\\Delta_rG^\\circ$ a $298\\,\\mathrm{K}$ e indica si la reacción es espontánea en esas condiciones. (0,7 puntos)\nd) Calcula la energía liberada al quemar $0,50\\,\\mathrm{mol}$ de $\\ce{H2}$. (0,3 puntos)\n\n5B. (2 puntos) El butanoato de etilo es un éster asociado a aromas frutales y se representa mediante la fórmula $\\ce{CH3CH2CH2COOCH2CH3}$.\n\na) Nombra el compuesto e identifica el grupo funcional que caracteriza su familia. (0,75 puntos)\nb) Escribe la ecuación ajustada de su hidrólisis completa en medio acuoso ácido e identifica y nombra los dos productos orgánicos obtenidos. (1,25 puntos)",
+   "solucion": "### Apartado elegido: 5A\n\n#### a) Entalpía estándar de reacción\n\nLa entalpía estándar de reacción se calcula con las entalpías estándar de formación:\n\n$$\\Delta_r H^\\circ=\\sum \\nu_i\\Delta_f H_i^\\circ(\\text{productos})-\\sum \\nu_i\\Delta_f H_i^\\circ(\\text{reactivos})$$\n\nComo las entalpías de formación estándar de los elementos en su estado estándar son nulas:\n\n$$\\Delta_r H^\\circ=(-285{,}8)-\\left(0+\\frac{1}{2}\\cdot 0\\right)=-285{,}8\\ \\mathrm{kJ\\,mol^{-1}}$$\n\nAl ser negativa, la reacción es **exotérmica**.\n\n#### b) Entropía estándar de reacción\n\n$$\\Delta_r S^\\circ=S^\\circ(\\ce{H2O(l)})-S^\\circ(\\ce{H2(g)})-\\frac{1}{2}S^\\circ(\\ce{O2(g)})$$\n\n$$\\Delta_r S^\\circ=69{,}9-130{,}7-\\frac{1}{2}(205{,}0)=-163{,}3\\ \\mathrm{J\\,K^{-1}\\,mol^{-1}}$$\n\n#### c) Energía libre estándar de Gibbs\n\nSe convierte primero la entropía a $\\mathrm{kJ\\,K^{-1}\\,mol^{-1}}$:\n\n$$\\Delta_r S^\\circ=-0{,}1633\\ \\mathrm{kJ\\,K^{-1}\\,mol^{-1}}$$\n\nA $298\\,\\mathrm{K}$:\n\n$$\\Delta_r G^\\circ=\\Delta_r H^\\circ-T\\Delta_r S^\\circ$$\n\n$$\\Delta_r G^\\circ=-285{,}8-298(-0{,}1633)=-237{,}1366\\ \\mathrm{kJ\\,mol^{-1}}\\approx -237{,}1\\ \\mathrm{kJ\\,mol^{-1}}$$\n\nComo $\\Delta_r G^\\circ<0$, la reacción es **espontánea en condiciones estándar a $298\\,\\mathrm{K}$**.\n\n#### d) Energía liberada al quemar $0{,}50\\,\\mathrm{mol}$ de hidrógeno\n\n$$\\Delta H=(0{,}50\\ \\mathrm{mol})(-285{,}8\\ \\mathrm{kJ\\,mol^{-1}})=-142{,}9\\ \\mathrm{kJ}$$\n\nEl signo negativo indica que el sistema pierde energía; por tanto, se **liberan $142{,}9\\ \\mathrm{kJ}$**.",
+   "resultado": "5A: ΔrH° = −285,8 kJ·mol⁻¹ (exotérmica); ΔrS° = −163,3 J·K⁻¹·mol⁻¹; ΔrG°(298 K) = −237,1 kJ·mol⁻¹ (espontánea); energía liberada = 142,9 kJ.",
+   "criterios": "Total: 2,0 puntos. a) 0,5 puntos: expresión correcta de ΔrH° mediante entalpías de formación, resultado −285,8 kJ·mol⁻¹ y clasificación como exotérmica. b) 0,5 puntos: expresión estequiométrica correcta de ΔrS° y resultado −163,3 J·K⁻¹·mol⁻¹. c) 0,7 puntos: conversión coherente de unidades, aplicación de ΔrG° = ΔrH° − TΔrS°, resultado aproximadamente −237,1 kJ·mol⁻¹ e interpretación de espontaneidad. d) 0,3 puntos: cálculo para 0,50 mol y expresión de la energía liberada como cantidad positiva, 142,9 kJ (o ΔH = −142,9 kJ para el sistema).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "acidobase",
+   "p": 0.9
+  },
+  {
+   "id": "redox",
+   "p": 0.848
+  },
+  {
+   "id": "equilibrio",
+   "p": 0.759
+  },
+  {
+   "id": "organica",
+   "p": 0.713
+  },
+  {
+   "id": "termo",
+   "p": 0.434
+  },
+  {
+   "id": "enlace",
+   "p": 0.295
+  }
+ ],
+ "referencias": [
+  "manual:manual/baleares/2026/Química junio examen __QUIMICA.txt",
+  "manual:manual/baleares/2026/Química julio examen __QUIMICA.txt",
+  "manual:manual/baleares/2024/Química julio examen __QUIMICA.txt",
+  "manual:manual/baleares/2024/Química junio examen __QUIMICA.txt",
+  "manual:manual/baleares/2025/Química junio examen __QUIMICA.txt",
+  "manual:manual/baleares/2026/Química julio examen __QUIMICA.txt",
+  "manual:manual/baleares/2026/Química junio examen __QUIMICA.txt"
+ ]
+}
