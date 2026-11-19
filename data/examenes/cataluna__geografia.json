@@ -1,0 +1,99 @@
+{
+ "ccaa": "cataluna",
+ "materia": "geografia",
+ "titulo": "Pruebas de acceso a la universidad 2027 — Geografía (Cataluña), Serie 1",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro ejercicios obligatorios, de 2,5 puntos cada uno. Responda a todas las cuestiones de los ejercicios 1, 2, 3 y 4, excepto en la cuestión 1.3, en la que debe elegir UNA de las dos opciones (A o B) e indicarla claramente. Las respuestas deben estar redactadas de forma clara, coherente y cohesionada, con corrección gramatical, léxica y ortográfica. En el ejercicio 3, la falta de coherencia y cohesión, los errores lingüísticos y las deficiencias de presentación pueden comportar una deducción de hasta 0,25 puntos.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "poblacion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un observatorio demográfico está preparando un informe para un territorio catalán. Para el año 2025 dispone de estos datos: población a 1 de enero, 50 000 habitantes; nacimientos, 500; defunciones, 700; saldo migratorio, +1 200 personas.\n\n1.1. Calcule el saldo natural, el crecimiento demográfico total, la población al final del año y la tasa de crecimiento anual respecto a la población inicial. Muestre las operaciones. [1 punto]\n\n1.2. Explique cómo contribuye el saldo migratorio al cambio de población del territorio y señale un posible efecto de esta dinámica sobre la estructura por edades y una necesidad de planificación pública que pueda generar. [0,75 puntos]\n\n1.3. La evolución demográfica plantea retos para los servicios y la planificación territorial. Elija UNA de las opciones siguientes e indique cuál responde:\n\nOpción A. Proponga tres medidas para adaptar los servicios y los espacios públicos de este territorio a una población cada vez más envejecida.\n\nOpción B. Explique tres posibles consecuencias de la disminución sostenida de la natalidad y del envejecimiento para la actividad económica o los servicios del territorio. [0,75 puntos]",
+   "solucion": "### 1.1. Cálculos\n\n**Saldo natural** — diferencia entre nacimientos y defunciones:\n\n$500 - 700 = -200$ personas.\n\n**Crecimiento demográfico total** — suma del saldo natural y el saldo migratorio:\n\n$-200 + 1\\,200 = +1\\,000$ personas.\n\n**Población al final del año**:\n\n$50\\,000 + 1\\,000 = 51\\,000$ habitantes.\n\n**Tasa de crecimiento anual respecto a la población inicial**:\n\n$\\frac{1\\,000}{50\\,000} \\times 100 = 2\\%$.\n\n### 1.2. Saldo migratorio y efectos\n\nEl saldo migratorio positivo de $+1\\,200$ personas incrementa la población. Compensa el saldo natural negativo de $-200$ y hace que el crecimiento demográfico total sea de $+1\\,000$ personas. Si una parte importante de las personas que llegan son jóvenes o adultas en edad de trabajar, puede rejuvenecer la estructura por edades y aumentar la población activa. Esto puede generar, por ejemplo, una mayor necesidad de vivienda y de plazas en centros educativos, por lo que convendría planificar estos servicios según la distribución y las características de la población.\n\n### 1.3. Opción A\n\n1. **Adaptar los espacios públicos** con itinerarios accesibles, pavimentos seguros, bancos y zonas de sombra para facilitar los desplazamientos y el uso de estos espacios.\n2. **Reforzar la atención sociosanitaria y los cuidados**, por ejemplo, mediante atención domiciliaria, centros de día y servicios de proximidad.\n3. **Mejorar la movilidad y la vivienda accesible**, con transporte público adaptado y ayudas para eliminar barreras arquitectónicas en los hogares.",
+   "resultado": "Saldo natural: −200 personas; crecimiento demográfico total: +1 000 personas; población final: 51 000 habitantes; tasa de crecimiento: 2 %.",
+   "criterios": "Puntuación total: 2,5 puntos.\n\n1.1. Cálculos (1 punto): saldo natural correcto y operación (0,20); crecimiento total correcto y operación (0,25); población final correcta y operación (0,25); tasa calculada respecto a la población inicial, expresada como porcentaje (0,30).\n\n1.2. Interpretación (0,75 puntos): explica que el saldo migratorio positivo aumenta la población y cómo se combina con el saldo natural (0,25); señala un posible efecto sobre la estructura por edades, formulado de manera razonable y sin dar por conocida la edad de las personas migrantes (0,25); relaciona la dinámica con una necesidad concreta de planificación pública (0,25).\n\n1.3. Medidas o consecuencias (0,75 puntos): se corrige una sola opción. En la opción A, hasta 0,25 puntos por cada medida pertinente, diferenciada y explicada. En la opción B, hasta 0,25 puntos por cada consecuencia pertinente y explicada. No se penaliza elegir cualquiera de las dos opciones.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "territorio",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Un consorcio de municipios de Cataluña y del sur de Francia quiere presentar un proyecto conjunto para mejorar la movilidad cotidiana y coordinar la gestión de un río que atraviesa la frontera. El consorcio estudia solicitar financiación de Interreg, el programa de cooperación territorial de la Unión Europea.\n\n2.1. Responda a las cuestiones siguientes:\na) Explique cuál es el objetivo general de la política de cohesión de la Unión Europea y cómo contribuye a él la cooperación territorial europea. [0,75 puntos]\nb) Proponga dos actuaciones concretas para el proyecto que requieran cooperación entre ambos lados de la frontera y justifique brevemente su utilidad territorial. [0,75 puntos]\n\n2.2. Identifique las instituciones de la Unión Europea que corresponden a cada función:\na) Presentar habitualmente las propuestas de actos legislativos de la Unión. [0,5 puntos]\nb) Aprobar conjuntamente la mayoría de los actos legislativos y el presupuesto anual de la Unión. [0,5 puntos]",
+   "solucion": "### 2.1.a) Objetivo de la política de cohesión\nLa política de cohesión busca reducir las diferencias económicas, sociales y territoriales entre las regiones de la Unión Europea y favorecer un desarrollo equilibrado y sostenible. La cooperación territorial europea contribuye a ese objetivo financiando iniciativas compartidas entre territorios de distintos Estados —como las de Interreg— para resolver problemas comunes, mejorar su integración y evitar que las fronteras dificulten el desarrollo y la prestación de servicios.\n\n### 2.1.b) Actuaciones propuestas\n1. **Servicio transfronterizo de transporte público coordinado:** acordar rutas y horarios entre municipios de ambos lados, con billete integrado e información compartida. Facilitaría los desplazamientos cotidianos por trabajo, estudios o servicios y ampliaría las opciones de movilidad para la población fronteriza.\n2. **Plan común de gestión del río:** establecer seguimiento compartido de la calidad y el caudal del agua, protocolos de aviso y respuesta ante inundaciones o sequías, y actuaciones coordinadas de restauración fluvial. Es útil porque el agua y los riesgos asociados no se detienen en la frontera; una gestión conjunta mejora la prevención y la protección ambiental en toda la cuenca.\n\n### 2.2) Instituciones de la Unión Europea\nSe identifica cada institución a partir de su función: la iniciativa legislativa corresponde habitualmente a la **Comisión Europea**; la aprobación conjunta de la mayoría de las leyes y del presupuesto anual corresponde al **Parlamento Europeo y al Consejo de la Unión Europea**.\n\n### Comprobación final\nLas dos propuestas requieren coordinación efectiva a ambos lados de la frontera y responden, respectivamente, a la movilidad cotidiana y a la gestión de un río compartido. Las instituciones indicadas corresponden a las funciones descritas; el Consejo es el Consejo de la Unión Europea, no el Consejo Europeo.",
+   "resultado": "La Comisión Europea presenta habitualmente las propuestas legislativas; el Parlamento Europeo y el Consejo de la Unión Europea aprueban conjuntamente la mayoría de los actos legislativos y el presupuesto anual.",
+   "criterios": "Total: 2,5 puntos. 2.1.a (0,75): hasta 0,40 por explicar la reducción de desigualdades y el desarrollo equilibrado; hasta 0,35 por relacionar la cooperación territorial con la resolución de problemas compartidos y la integración entre regiones. 2.1.b (0,75): hasta 0,375 por cada actuación concreta, transfronteriza y justificada territorialmente. 2.2.a (0,5): Comisión Europea. 2.2.b (0,5): Parlamento Europeo y Consejo de la Unión Europea; no se considera correcto sustituir este último por el Consejo Europeo.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "sectores",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un territorio catalán analiza la creación de un centro de transformación agroalimentaria para reforzar los vínculos entre la producción local y los mercados. Un diagnóstico, elaborado con fines didácticos, estima una ocupación total de 40 000 personas: 4 000 en el sector primario, 8 000 en la industria, 2 000 en la construcción y 26 000 en los servicios. De las personas ocupadas en la industria, 3 200 trabajan en la transformación agroalimentaria.\n\n3.1. Calcule qué porcentaje de la ocupación total corresponde a la industria y qué porcentaje de la ocupación industrial corresponde a la transformación agroalimentaria. Muestre las operaciones. [1 punto]\n\n3.2. Explique cómo se relacionan el sector primario, la industria agroalimentaria y los servicios en esta cadena productiva. Mencione además dos factores que pueden influir en la localización del centro. [0,75 puntos]\n\n3.3. Proponga tres medidas para que el centro contribuya a generar empleo y actividad económica con criterios de sostenibilidad. [0,75 puntos]",
+   "solucion": "### 3.1. Cálculo de porcentajes\n\n**Porcentaje de la ocupación total correspondiente a la industria:**\n\n$$\\frac{8\\,000}{40\\,000}\\times 100=20\\%$$\n\nPor tanto, la industria representa el **20 % de la ocupación total**.\n\n**Porcentaje de la ocupación industrial correspondiente a la transformación agroalimentaria:**\n\n$$\\frac{3\\,200}{8\\,000}\\times 100=40\\%$$\n\nPor tanto, la transformación agroalimentaria representa el **40 % de la ocupación industrial**.\n\n### 3.2. Relación entre sectores y localización\n\nEl sector primario proporciona productos agrarios, ganaderos o forestales que sirven de materias primas. La industria agroalimentaria los transforma y puede conservarlos, envasarlos y elaborar productos con mayor valor añadido. Los servicios completan la cadena mediante el transporte, el almacenamiento, la distribución y la comercialización, además de otros servicios de apoyo. La demanda y la información de los mercados pueden, a su vez, influir en la producción primaria y en la actividad industrial.\n\nDos factores que pueden influir en la localización del centro son la **proximidad a las materias primas y a sus productores** y la **disponibilidad de buenas infraestructuras de transporte y logística**. También pueden considerarse la cercanía a los mercados, la disponibilidad de agua y energía y la normativa urbanística y ambiental.\n\n### 3.3. Medidas sostenibles\n\n1. Priorizar la compra a productores locales mediante acuerdos estables y condiciones comerciales justas, favoreciendo el empleo y la economía del entorno.\n2. Reducir el consumo energético e incorporar energías renovables; mejorar también la eficiencia en el uso del agua.\n3. Aplicar criterios de economía circular, aprovechando subproductos y reduciendo residuos y envases; complementar estas acciones con formación y contratación de trabajadores del territorio.",
+   "resultado": "Industria: 20 % de la ocupación total; transformación agroalimentaria: 40 % de la ocupación industrial.",
+   "criterios": "Total: 2,5 puntos. 3.1 (1 punto): 0,5 por calcular correctamente el porcentaje de la ocupación total que corresponde a la industria (20 %), y 0,5 por calcular el porcentaje de la ocupación industrial dedicado a la transformación agroalimentaria (40 %); se valoran las operaciones y los resultados. 3.2 (0,75 puntos): hasta 0,45 por explicar de forma coherente la relación entre producción primaria, transformación industrial y servicios; hasta 0,30 por mencionar y justificar dos factores de localización. 3.3 (0,75 puntos): 0,25 por cada medida pertinente, concreta y vinculada a la generación de empleo o actividad económica sostenible.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "clima",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un municipio de una cuenca mediterránea prepara un plan para afrontar episodios de sequía. En un mes, un embalse con capacidad máxima de 100 hm³ tiene un volumen inicial de 70 hm³; recibe 25 hm³ de aportaciones, suministra 40 hm³ y pierde 5 hm³ por evaporación. No se producen otras entradas ni salidas durante ese período.\n\n4.1. Calcule el volumen de agua al final del mes y qué porcentaje de la capacidad máxima representa. Muestre las operaciones. [0,8 puntos]\n\n4.2. Explique dos características del clima mediterráneo que puedan contribuir a la irregularidad de los recursos hídricos y agravar los períodos de sequía. [0,9 puntos]\n\n4.3. Proponga una medida de gestión para reducir la demanda de agua y otra para mejorar la disponibilidad de recursos hídricos, indicando cómo pueden aplicarse sin perjudicar innecesariamente los ecosistemas fluviales. [0,8 puntos]",
+   "solucion": "### 4.1. Balance del embalse\n\nEl volumen final se obtiene sumando las aportaciones y restando los suministros y las pérdidas por evaporación:\n\n$$V_f = 70 + 25 - 40 - 5 = 50\\ \\text{hm}^3$$\n\nEl porcentaje respecto a la capacidad máxima es:\n\n$$\\frac{50}{100}\\times 100 = 50\\%$$\n\nAl final del mes, el embalse contiene **50 hm³**, equivalentes al **50 %** de su capacidad máxima.\n\n### 4.2. Características del clima mediterráneo\n\n- **Irregularidad de las precipitaciones:** las lluvias varían mucho de unos años a otros y pueden concentrarse en episodios intensos. Esto dificulta la disponibilidad continua de agua; además, la lluvia torrencial puede producir escorrentía rápida y favorecer que una parte del agua no se infiltre ni quede disponible durante los meses secos.\n- **Sequía estival y elevada evapotranspiración:** las precipitaciones suelen ser escasas en verano, cuando las temperaturas y la evaporación son elevadas. Coincide así una menor recarga con una mayor demanda de agua, lo que agrava las sequías.\n\n### 4.3. Medidas de gestión\n\n- **Reducir la demanda:** mejorar la eficiencia del riego agrícola, por ejemplo mediante riego localizado, sensores de humedad y programación ajustada a las necesidades de los cultivos. Conviene acompañarlo de límites de extracción para que el ahorro no se traduzca en una expansión del consumo. Así se reducen las captaciones de ríos y acuíferos.\n- **Mejorar la disponibilidad:** reutilizar aguas residuales depuradas para usos compatibles, como el riego de zonas verdes o determinados usos agrícolas. La reutilización debe cumplir los requisitos de calidad y planificarse de modo que no reduzca los caudales necesarios para mantener los caudales ecológicos de los ríos.",
+   "resultado": "Volumen final: 50 hm³; porcentaje de la capacidad máxima: 50 %.",
+   "criterios": "4.1 (0,8 puntos): 0,5 por plantear y calcular correctamente el balance (70 + 25 − 40 − 5 = 50 hm³); 0,3 por calcular el porcentaje sobre la capacidad (50 %). 4.2 (0,9 puntos): 0,45 por cada característica climática pertinente, explicada y vinculada con la irregularidad de los recursos o la sequía. 4.3 (0,8 puntos): 0,4 por una medida viable de reducción de la demanda y 0,4 por una medida de mejora de la disponibilidad; en ambas se valorará que se explique su aplicación compatible con la protección de los ecosistemas fluviales, especialmente el respeto a los caudales ecológicos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "sectores",
+   "p": 0.608
+  },
+  {
+   "id": "poblacion",
+   "p": 0.55
+  },
+  {
+   "id": "territorio",
+   "p": 0.461
+  },
+  {
+   "id": "clima",
+   "p": 0.444
+  },
+  {
+   "id": "urbano",
+   "p": 0.17
+  },
+  {
+   "id": "relieve",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/geografia/ord/pau_geog26o.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/geografia/ord/pau_geog26o_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2024/geografia/ext/pau_geog24sl_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/geografia/ext/pau_geog25sl.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/geografia/ext/pau_geog25sl_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/geografia/ord/pau_geog25jl.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/geografia/ord/pau_geog25jl_es_tei.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/geografia/ext/pau_geog26e.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/geografia/ext/pau_geog26e_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/geografia/ord/pau_geog26o.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/geografia/ord/pau_geog26o_es.pdf"
+ ]
+}
