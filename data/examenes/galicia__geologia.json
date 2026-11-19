@@ -1,0 +1,87 @@
+{
+ "ccaa": "galicia",
+ "materia": "geologia",
+ "titulo": "PAU 2027 Galicia — Geología y Ciencias Ambientales",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de 4 preguntas obligatorias, de 2,5 puntos cada una. La pregunta 1 no tiene apartados optativos. En las preguntas 2, 3 y 4 debe responderse solo uno de los dos apartados propuestos. Se valorará la precisión en el uso de la terminología geológica y la justificación de las respuestas.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "recursos",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "PREGUNTA 1. RECURSOS Y GESTIÓN SOSTENIBLE. (2,5 puntos)\n\nCONTEXTO\nUna planta piloto de Galicia procesa aparatos electrónicos recogidos en varios puntos limpios. En una campaña se trataron 40 toneladas de aparatos. El análisis indicó que contenían un 1,5 % de cobalto en masa y que el proceso recuperó el 80 % del cobalto presente. El resto quedó en los residuos del proceso.\n\nComo técnico/a de la planta, responda:\n\n1.1. Calcule la masa de cobalto recuperada y la masa de cobalto que quedó en los residuos. Exprese los resultados en toneladas. (1 punto)\n\n1.2. Indique si el cobalto es un recurso mineral renovable o no renovable y justifique la respuesta en relación con el tiempo necesario para su formación geológica. (0,75 puntos)\n\n1.3. ¿Qué opción favorece más la economía circular y reduce la necesidad de extraer mineral primario? Elija una y justifique brevemente: A) mejorar la recogida y recuperación de aparatos al final de su vida útil; B) aumentar la extracción de mineral virgen; C) enviar los aparatos usados a un vertedero. (0,75 puntos)\n\nPara el cálculo, use $40\\ \\mathrm{t}\\times 0{,}015$ para obtener la masa inicial de cobalto.",
+   "solucion": "### 1.1. Masa de cobalto recuperada y en los residuos\n\nPrimero se calcula la masa inicial de cobalto contenida en los aparatos:\n\n$40\\ \\mathrm{t}\\times 0{,}015=0{,}60\\ \\mathrm{t}$\n\nLa planta recuperó el $80\\%$ de esa cantidad:\n\n$0{,}60\\ \\mathrm{t}\\times 0{,}80=0{,}48\\ \\mathrm{t}$\n\nEl $20\\%$ restante quedó en los residuos:\n\n$0{,}60\\ \\mathrm{t}\\times (1-0{,}80)=0{,}12\\ \\mathrm{t}$\n\n**Resultado:** se recuperaron $0{,}48\\ \\mathrm{t}$ de cobalto y quedaron $0{,}12\\ \\mathrm{t}$ en los residuos. La suma de ambas cantidades, $0{,}60\\ \\mathrm{t}$, coincide con la masa inicial de cobalto.\n\n### 1.2. Carácter renovable o no renovable\n\nEl cobalto es un recurso mineral **no renovable**. Aunque se forma mediante procesos geológicos naturales, estos requieren escalas de tiempo muy largas, normalmente millones de años. Por ello, no se repone a una velocidad comparable con su extracción y consumo humanos.\n\n### 1.3. Economía circular\n\nLa opción que más favorece la economía circular es **A) mejorar la recogida y recuperación de aparatos al final de su vida útil**. Así se recupera cobalto que ya está en circulación, se reduce la cantidad de residuos y disminuye la necesidad de extraer mineral primario. La extracción de mineral virgen no reduce esa necesidad, y el vertido impide aprovechar los materiales recuperables.",
+   "resultado": "Cobalto recuperado: 0,48 t; cobalto en residuos: 0,12 t; recurso no renovable; opción A.",
+   "criterios": "1.1 (1 punto): cálculo correcto de la masa inicial de cobalto, 0,25 puntos; cálculo de la masa recuperada, 0,375 puntos; cálculo de la masa que queda en los residuos, 0,375 puntos. 1.2 (0,75 puntos): identifica el cobalto como recurso no renovable, 0,25 puntos; justifica que su formación geológica requiere tiempos muy largos, incompatibles con su reposición a escala humana, 0,5 puntos. 1.3 (0,75 puntos): selecciona la opción A, 0,25 puntos; explica que recuperar materiales de aparatos usados reduce residuos y la necesidad de extraer mineral primario, 0,5 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "procesos",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "PREGUNTA 2. PROCESOS GEOLÓGICOS EXTERNOS Y MAPAS GEOLÓGICOS. (2,5 puntos)\n\nAnalice la siguiente descripción de un corte geológico esquemático, no representado a escala:\n\nA) Gneis de edad cámbrica, con la foliación plegada, constituye el basamento.\nB) Conglomerado triásico, con cantos redondeados y estratificación cruzada, se apoya sobre una superficie erosiva que corta el gneis. Sus capas son horizontales.\nC) Caliza jurásica con fósiles marinos, depositada concordantemente sobre B. Las capas B y C aparecen inclinadas conjuntamente 20° hacia el este.\nF) Una falla que buza hacia el este corta A, B y C y desplaza las capas ya inclinadas; el bloque oriental está 30 m más bajo que el occidental. La falla queda truncada por una superficie erosiva posterior.\nD) Areniscas y limolitas pliocenas horizontales, con fósiles de agua dulce, cubren la superficie erosiva y sellan la falla. La superficie corta A, B y C.\nE) Gravas holocenas rellenan un canal excavado en D, ocupado actualmente por un río.\n\nResponda uno de estos dos apartados:\n\n2.1. Ordene cronológicamente, del más antiguo al más moderno, la formación de los materiales y los acontecimientos geológicos representados. Incluya la erosión de las superficies de contacto, la inclinación de las capas, la falla y la excavación del canal. (2,5 puntos)\n\n2.2. Responda a todos los subapartados:\n2.2.1. Identifique los contactos A-B, B-C, D-A, D-B/C y E-D. (1 punto; 0,2 puntos por contacto)\n2.2.2. Deduzca el tipo de falla F y si es anterior o posterior al depósito de D. (0,5 puntos)\n2.2.3. Indique el ambiente de formación más probable de B y de C, usando los datos de la descripción. (0,5 puntos)\n2.2.4. En un mapa topográfico de escala $1:25\\,000$, un tramo de río mide $4{,}0\\ \\mathrm{cm}$ entre dos puntos cuyas altitudes son 420 m y 360 m. Calcule la pendiente media del tramo en m/km y en porcentaje. (0,5 puntos)",
+   "solucion": "### Apartado elegido: 2.2\n\n#### 2.2.1. Identificación de los contactos\n\n- **A-B:** contacto erosivo de **no conformidad** (o inconformidad): el conglomerado sedimentario se apoya sobre el basamento metamórfico y la superficie erosiva corta el gneis.\n- **B-C:** contacto **concordante** y sedimentario: la caliza se depositó sobre el conglomerado sin que se indique una interrupción o deformación entre ambos.\n- **D-A:** **no conformidad** erosiva entre las areniscas y limolitas sedimentarias pliocenas y el gneis metamórfico.\n- **D-B/C:** **discordancia angular**: la superficie erosiva corta las capas inclinadas de B y C y queda cubierta por las capas horizontales de D.\n- **E-D:** contacto **erosivo de relleno de canal**; las gravas holocenas rellenan una incisión excavada en D.\n\n#### 2.2.2. Falla F\n\nEs una **falla normal**. Al buzar hacia el este, el bloque oriental es el bloque de techo; como está desplazado hacia abajo respecto al occidental, se trata de una falla normal. Es **anterior al depósito de D**, porque la superficie erosiva trunca la falla y D la sella.\n\n#### 2.2.3. Ambientes de formación\n\n- **B:** ambiente continental de alta energía, probablemente **fluvial**. Los cantos redondeados indican transporte y la estratificación cruzada es compatible con la acción de corrientes.\n- **C:** ambiente **marino**, probablemente marino somero o de plataforma, de acuerdo con la caliza y los fósiles marinos.\n\n#### 2.2.4. Pendiente media\n\nLa distancia horizontal representada en el mapa es:\n\n$$4{,}0\\ \\mathrm{cm}\\times 25\\,000=100\\,000\\ \\mathrm{cm}=1\\ \\mathrm{km}$$\n\nEl desnivel es:\n\n$$420\\ \\mathrm{m}-360\\ \\mathrm{m}=60\\ \\mathrm{m}$$\n\nPor tanto, la pendiente media es:\n\n$$\\frac{60\\ \\mathrm{m}}{1\\ \\mathrm{km}}=60\\ \\mathrm{m/km}$$\n\n$$\\frac{60\\ \\mathrm{m}}{1000\\ \\mathrm{m}}\\times 100=6\\%$$",
+   "resultado": "A-B: no conformidad; B-C: concordante; D-A: no conformidad; D-B/C: discordancia angular; E-D: contacto erosivo de relleno de canal. F: normal y anterior a D. B: fluvial de alta energía; C: marino. Pendiente: 60 m/km y 6%.",
+   "criterios": "Total: 2,5 puntos. 2.2.1: 1 punto, 0,2 por cada contacto correctamente identificado. 2.2.2: 0,5 puntos: identificación justificada de la falla normal y reconocimiento de que es anterior al depósito de D y queda sellada por este. 2.2.3: 0,5 puntos: 0,25 por el ambiente fluvial de alta energía de B y 0,25 por el ambiente marino de C, ambos justificados con los datos. 2.2.4: 0,5 puntos: conversión de la distancia a 1 km y cálculo correcto de ambas expresiones de la pendiente, 60 m/km y 6%.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "tectonica",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "PREGUNTA 3. TECTÓNICA DE PLACAS Y RIESGOS GEOLÓGICOS. (2,5 puntos)\n\nUn equipo de vigilancia de una región costera registra una fosa oceánica frente a un continente. Los hipocentros de los terremotos se sitúan a 20 km de profundidad cerca de la fosa, a 80 km bajo una zona más alejada hacia el interior y a 180 km bajo el continente. Paralela a la costa, tierra adentro, existe una cadena de volcanes con lavas de composición andesítica. La placa oceánica se desplaza hacia la placa continental.\n\nResponda uno de estos dos apartados:\n\n3.1. Responda estos dos subapartados:\n3.1.1. Deduzca el tipo de límite de placas y qué tipo de placas interactúan. Justifique la respuesta con dos observaciones del contexto. (1,25 puntos)\n3.1.2. Explique por qué aumenta la profundidad de los hipocentros hacia el interior del continente y cómo se genera el magma asociado a la cadena volcánica. Indique además una medida de prevención adecuada para reducir el riesgo en la región. (1,25 puntos)\n\n3.2. Responda estos dos subapartados:\n3.2.1. Diferencie magnitud e intensidad sísmicas e indique qué mide cada una y por qué la intensidad puede variar de un lugar a otro durante un mismo terremoto. (1,25 puntos)\n3.2.2. Explique cómo un desplazamiento vertical brusco del fondo oceánico puede generar un tsunami. Indique una señal natural de alerta que pueda observarse en la costa y la actuación inmediata más segura ante ella. (1,25 puntos)",
+   "solucion": "### Apartado elegido: 3.1\n\n#### 3.1.1. Tipo de límite y placas\n\n1. **Lectura de la distribución sísmica:** los terremotos son poco profundos cerca de la fosa (20 km) y aparecen progresivamente a mayor profundidad hacia el continente (80 y 180 km). Esto indica una superficie sísmica inclinada que desciende bajo el continente, conocida como zona de Wadati-Benioff.\n2. **Interpretación tectónica:** esa geometría, junto con la fosa, identifica un límite convergente por subducción. La placa oceánica, más densa, se introduce bajo la placa continental.\n3. **Comprobación con el volcanismo:** la cadena volcánica paralela a la costa y sus lavas andesíticas son características de un arco volcánico asociado a la subducción océano-continente.\n\nLas dos observaciones principales que justifican la deducción son la fosa oceánica y el aumento de profundidad de los hipocentros hacia el interior; el arco de volcanes andesíticos proporciona una comprobación adicional.\n\n#### 3.1.2. Hipocentros, magma y prevención\n\nLa placa oceánica que se hunde conserva actividad sísmica a lo largo de su superficie de contacto y de su interior. Como esa placa desciende inclinada bajo el continente, los terremotos se originan a profundidades cada vez mayores al alejarnos de la fosa hacia el interior: los hipocentros delinean la zona de Wadati-Benioff.\n\nAl profundizar, la placa subducida libera agua y otros volátiles mediante reacciones de deshidratación. Estos fluidos ascienden al manto situado sobre la placa y reducen la temperatura de fusión de sus rocas, favoreciendo la fusión parcial y la generación de magma. El magma asciende y puede evolucionar durante su almacenamiento y ascenso; esto contribuye a la composición andesítica habitual de los arcos volcánicos.\n\n**Medida de prevención:** aplicar normas de construcción sismorresistente en las zonas pobladas, reduciendo la vulnerabilidad de edificios e infraestructuras ante los terremotos.\n\n**Comprobación final:** la subducción de una placa oceánica bajo una continental explica conjuntamente la fosa, los hipocentros que se hacen más profundos hacia el continente y el arco volcánico andesítico. Por tanto, las observaciones son coherentes con un límite convergente océano-continente.",
+   "resultado": "Límite convergente océano-continente con subducción de la placa oceánica bajo la continental; la zona de Wadati-Benioff y el arco andesítico corroboran la interpretación.",
+   "criterios": "Puntuación máxima: 2,5 puntos. 3.1.1 (1,25): 0,25 por identificar el límite convergente; 0,25 por indicar la subducción de la placa oceánica bajo la continental; 0,25 por relacionar la fosa con la convergencia; 0,25 por interpretar el aumento de profundidad de los hipocentros; 0,25 por usar el arco andesítico como evidencia. 3.1.2 (1,25): 0,50 por explicar la distribución de hipocentros en la placa inclinada; 0,50 por describir la liberación de fluidos, la fusión parcial del manto y la formación del magma; 0,25 por proponer una medida de prevención pertinente. Se aceptan formulaciones equivalentes científicamente correctas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "minerales",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "PREGUNTA 4. MINERALOGÍA Y PETROLOGÍA. (2,5 puntos)\n\nResponda uno de estos dos apartados:\n\n4.1. Clasifique cada roca de la lista según su origen. Escriba en la hoja de examen el número de la categoría correspondiente a cada letra. Cada letra se utiliza una sola vez. (2,5 puntos; 0,25 puntos por respuesta)\n\n1) Ígnea plutónica. 2) Ígnea volcánica. 3) Sedimentaria detrítica. 4) Sedimentaria química. 5) Metamórfica.\n\nA) Granito. B) Basalto. C) Conglomerado. D) Halita. E) Pizarra. F) Gabro. G) Obsidiana. H) Arenisca. I) Yeso. J) Mármol.\n\n4.2. En una práctica de identificación de minerales se obtuvieron las siguientes observaciones. Relacione cada muestra con un mineral de la lista. Escriba en la hoja de examen el número de muestra y la letra correspondiente. Cada mineral se utiliza una sola vez. (2,5 puntos; 0,5 puntos por respuesta)\n\nMinerales: A) calcita; B) yeso; C) halita; D) magnetita; E) cuarzo.\n\n1) Dureza 7, sin exfoliación y con fractura concoidea. 2) Dureza 3, exfoliación romboédrica y efervescencia al añadir ácido clorhídrico diluido. 3) Exfoliación cúbica muy marcada y elevada solubilidad en agua. 4) Dureza 2 y una exfoliación perfecta. 5) Raya negra y fuerte atracción por un imán.",
+   "solucion": "Se ofrecen las soluciones de las dos alternativas; en el examen se debe responder solo una. La clasificación se obtiene atendiendo al origen de las rocas en 4.1 y a las propiedades diagnósticas de los minerales en 4.2.\n\n### 4.1. Clasificación de las rocas\n\n- A) Granito: **1**, ígnea plutónica.\n- B) Basalto: **2**, ígnea volcánica.\n- C) Conglomerado: **3**, sedimentaria detrítica.\n- D) Halita: **4**, sedimentaria química.\n- E) Pizarra: **5**, metamórfica.\n- F) Gabro: **1**, ígnea plutónica.\n- G) Obsidiana: **2**, ígnea volcánica.\n- H) Arenisca: **3**, sedimentaria detrítica.\n- I) Yeso: **4**, sedimentaria química.\n- J) Mármol: **5**, metamórfica.\n\n**Comprobación:** las diez rocas tienen asignada una categoría; la halita y el yeso son precipitados químicos, mientras que el conglomerado y la arenisca son detríticos. Las rocas ígneas plutónicas (granito y gabro) se distinguen de las volcánicas (basalto y obsidiana) por su formación en profundidad o en superficie, respectivamente.\n\n### 4.2. Identificación de minerales\n\n- 1) **E) Cuarzo**: dureza 7, sin exfoliación y fractura concoidea.\n- 2) **A) Calcita**: dureza 3, exfoliación romboédrica y efervescencia con ácido clorhídrico diluido.\n- 3) **C) Halita**: exfoliación cúbica y elevada solubilidad en agua.\n- 4) **B) Yeso**: dureza 2 y exfoliación perfecta.\n- 5) **D) Magnetita**: raya negra y fuerte atracción magnética.\n\n**Comprobación:** cada mineral de la lista se utiliza una sola vez y las propiedades observadas son compatibles con la identificación asignada.",
+   "resultado": "4.1 (A-J): 1, 2, 3, 4, 5, 1, 2, 3, 4, 5. 4.2 (muestras 1-5): E, A, C, B, D.",
+   "criterios": "Se debe corregir solo la alternativa elegida. En 4.1: 0,25 puntos por cada clasificación correcta, hasta 2,5 puntos (10 respuestas). En 4.2: 0,5 puntos por cada identificación correcta, hasta 2,5 puntos (5 respuestas). Las dos alternativas se presentan aquí como soluciones modelo independientes; sus puntuaciones no se suman.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "tectonica",
+   "p": 0.9
+  },
+  {
+   "id": "minerales",
+   "p": 0.9
+  },
+  {
+   "id": "procesos",
+   "p": 0.735
+  },
+  {
+   "id": "recursos",
+   "p": 0.612
+  }
+ ],
+ "referencias": [
+  "https://ciug.gal/link/eibzoQFokEiZsadq",
+  "https://ciug.gal/link/jTZsV6UV3BXF3wPu",
+  "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/25.pdf",
+  "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/25.pdf",
+  "https://ciug.gal/PDF/2025/PAU/ordinaria/exames/25.pdf",
+  "https://ciug.gal/link/eibzoQFokEiZsadq",
+  "https://ciug.gal/link/jTZsV6UV3BXF3wPu"
+ ]
+}
