@@ -219,7 +219,7 @@ def main():
     od = R / 'data' / 'examenes'; od.mkdir(parents=True, exist_ok=True)
     hechos = 0
     for cid, c in pred['ccaa'].items():
-        if a.ccaa and cid != a.ccaa: continue
+        if a.ccaa and cid not in a.ccaa.split(','): continue   # admite varias: baleares,extremadura
         for mid, reg in c['materias'].items():
             if a.materia and mid != a.materia: continue
             f = od / f'{cid}__{mid}.json'

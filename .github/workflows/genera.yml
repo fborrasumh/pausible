@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       max_examenes: {description: 'Máximo de exámenes nuevos', required: false, default: '20'}
-      ccaa: {description: 'Solo esta comunidad (vacío = todas)', required: false, default: ''}
+      ccaa: {description: 'Solo estas comunidades, separadas por comas (vacío = todas)', required: false, default: ''}
   push:
     branches: [main]
     paths: ['pipeline/genera.py', '.github/workflows/genera.yml']
