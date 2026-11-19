@@ -1,0 +1,784 @@
+[Fuente: https://estudis.uib.cat/models-examen/examen/pbau/2023:JUNY:MATEMATIQUESII-Criteris/Criteris-MATEMATIQUESII-JUNY-2023.pdf]
+Matem` atiques II   Model 1
+
+Criteris de correcci´ o globals
+
+•   Heu de corregir quatre q¨ uestions en total d’entre les vuit proposades. Si l’alumne presenta m´ es de quatre
+q¨ uestions, corregiu-ne les quatre primeres.
+
+•   Cada problema t´ e una puntuaci´ o m` axima de 10. Cal tenir presents les puntuacions m` aximes que apareixen
+a cada apartat (si no est` a indicat, tots els apartats d’una mateixa pregunta tenen la mateixa valoraci´ o).
+Les puntuacions dels apartats s´ on independents: si l’alumne s’ha equivocat en qualque apartat per` o fa b´ e
+els altres (segons les “seves” dades equivocades), donau-li la puntuaci´ o adient.
+
+•   Es valorar` a conjuntament el resultat, la justificaci´ o (ja sigui simb` olica o escrita), la claredat i ´ us del
+llenguatge matem` atic i no matem` atic, i l’estructura de la resposta. Orientativament, penalitzau:
+– Els errors de c` alcul amb un 25%; els errors greus i/o que portin a resultats incoherents o absurds,
+amb un 50%.
+– En preguntes de justificar, si la justificaci´ o ´ es nom´ es “intu¨ ıtiva” (p. ex. una observaci´ o que no respon
+exhaustivament a all` o que s’ha demanat), amb el 30%-50%; en preguntes de justificar, una resposta
+sense cap justificaci´ o s’ha de penalitzar amb el 100%.
+– En qualsevol pregunta, si apareixen raonaments (que no s´ on clars/evidents) sense justificar, amb el
+20%-30%.
+– La imprecisi´ o en l’´ us del llenguatge matem` atic (p.   ex.   variables sense introduir/que canvien de
+significat), o la falta de claredat per abs` encia de llenguatge matem` atic, amb un 20%-30%.
+– L’estructura s’ha de penalitzar en funci´ o de la dificultat per entendre la resposta.
+
+•   Hi pot haver casos en qu` e hi hagi dubtes en aplicar els criteris generals o espec´ ıfics. En aquests casos, feu
+prevaler el vostre criteri i sentit com´ u.
+
+Criteris de correcci´ o espec´ ıfics
+
+Nom´ es es detallen els apartats en qu` e hi ha diverses preguntes o que es poden desglossar. En apartats on s’omet
+el criteri de correcci´ o espec´ ıfic, aquest ser` a simplement “C` alcul i/o justificaci´ o correcta”.
+
+P1. —   Considera la matriu   M   i el vector   b ,
+
+M   =
+
+
+
+
+2   1   a
+a   + 1   0   1
+1   1   1
+
+
+   i   b   =
+
+
+
+
+0
+1
+1
+
+
+   ,
+
+respectivament.
+(a)   [3 punts]   Indica per a quins valors de   a   la matriu   M   ´ es invertible.
+
+Criteris:   -1 punt per error de c` alcul. -1.5 punt si es malinterpreta la igualtat (i.e. que ´ es invertible si
+det = 0).
+(b)   [3 punts]   Calcula, per a tots els valors de   a   que sigui possible, la inversa de   M   .
+
+Criteris:   -1 punt per error de c` alcul. -1 punt si s’olvida una passa concreta. Nom´ es 1 punt si es calcula
+per a un cas concret.
+(c)   [4 punts]   Calcula, per al cas   a   = 0, el vector   x   tal que   M   x   =   b .
+
+Criteris:   -1 punt per error de c` alcul.   No penalitzar si es reutilitza el c` alcul incorrecte de l’apartat
+anterior.
+Convocat` oria 2023   |   1 / 5   |
+
+Matem` atiques II   Model 1
+
+P2. —   Considera les matrius
+
+A   =
+
+  
+3   − 1
+0   3
+
+
+
+i   B   =
+
+  
+2   1
+1   1
+
+
+
+,
+
+i sigui   O   la matriu nul · la d’ordre 2   ×   2.
+(a)   [4 punts]   Calcula totes les matrius   X   tals que   AX   −   X   =   B .
+
+Criteris:   2 punts si s’a¨ ılla b´ e el sistema, 1 punt si es calcula b´ e la inversa, i 1 punt si es proporciona
+la soluci´ o final correcta.   En cas de resoldre’l amb   X   com a matriu de 4 variables, -1 punt per error de
+c` alcul.
+(b)   [3 punts]   Troba una matriu   Y   diferent de   O   tal que ( A   −   B ) Y   =   O .
+
+Criteris:   -1 punt per error de c` alcul (m` axim 2 errors). Si es deixa el cas general est` a b´ e. Si es troba un
+´ unic cas particular, independentment del m` etode, ´ es v` alid.
+(c)   [3 punts]   Indica totes les matrius   Z   que compleixen la igualtat   AZ   =   O .
+
+Criteris:   -1 punt per error de c` alcul.
+
+P3. —   Considera el pla   π   : 2 x   + 3 y   +   z   −   6 = 0.
+(a)   [3 punts]   Determina els v` ertexs del triangle que ve determinat per la intersecci´ o del pla amb els eixos de
+coordenades.
+
+Criteris:   1 punt per cada v` ertex correctament calculat.
+(b)   [3 punts]   Calcula l’` area del triangle anterior.
+
+Criteris:   1 punt pel c` alcul dels vectors, 2 punts pel c` alcul de l’` area.   -1 punt per error de c` alcul.   No
+penalitzar si s’ometen unitats o no es simplifica el resultat.
+(c)   [4 punts]   Sigui   A   el v` ertex del triangle sobre l’eix d’abscisses (eix   OX ). Calcula la recta perpendicular
+al pla que passa per   A .
+
+Criteris:   2 punts per calcular b´ e el vector director de la recta, 2 punts per escriure una equaci´ o v` alida.
+-1 punt per error de c` alcul.
+Convocat` oria 2023   |   2 / 5   |
+
+Matem` atiques II   Model 1
+
+P4. —   Siguin   a   i   b   dues constants reals no nul · les.
+Considerem el pla   π   :   x   +   ay   −   2 z   = 3 i la recta
+
+r   :
+
+  
+x   +   bz   = 1 ,
+y   = 0 .
+
+(a)   [4 punts]   Per a quins valors de   a   i   b   la recta   r   ´ es perpendicular al pla   π ? Per a aquests casos concrets,
+calcula el punt de tall entre   r   i   π , i calcula o justifica quina ´ es la dist` ancia de la recta al pla.
+
+Criteris:   Si es determina que la ´ unica soluci´ o,   a   = 0, no est` a considerada per l’enunciat, 4 pt. Alterna-
+tivament, 1 punt pel vector director de   r , 1 punt pel punt d’intersecci´ o de la recta amb el pla, 1 punt per
+una expressi´ o de la recta, 1 punt per justificaci´ o de la dist` ancia igual a zero. Penalitzar -1 punt per error
+de c` alcul.
+(b)   [3 punts]   Per a quins valors de   a   i   b   la recta   r   ´ es paral · lela al pla   π ?
+
+Criteris:   1.5 punts per plantejar ( ⃗   d r   · ⃗ n   = 0 i no existeix punt en com´ u). 1.5 punts per c` alcul correcte
+(0.75 punts cada variable). -1 punt per error de c` alcul.
+(c)   [3 punts]   Existeixen alguns valors de   a   i   b   per als quals la recta   r   est` a continguda en el pla   π ?
+
+Criteris:   1.5 punts per plantejar (
+⃗
+d r   · ⃗ n   = 0 i existeix algun punt en com´ u). 1.5 punt per c` alcul correcte.
+-1 punt per error de c` alcul que no s’hagn penalitzat a l’apartat anterior.
+
+P5. —   La quantitat de tones d’aigua infectada per un bacteri s’espera que segueixi la funci´ o   f   ( x ) =   e
+− x  
++
+0 . 15 x   + 1 sent   x   ≥   0 els dies d’infecci´ o i   f   ( x ) les tones d’aigua infectada.
+(a)   [4 punts]   Quantes tones d’aigua hi havia inicialment infectades pel bacteri? Cap a quin valor tendeix la
+quantitat d’aigua infectada? Interpreta els resultats.
+
+Criteris:   1 punt pel c` alcul de   f   (0), 2 punts pel c` alcul del l´ ımit i 1 punt per la interpretaci´ o.
+(b)   [4 punts]   En quin moment hi ha menys quantitat d’aigua infectada?   Quantes tones hi ha en aquell
+moment?
+
+Criteris:   2 punts per cada pregunta (a: 1 punt plantejament, 1 punt resoluci´ o; b: 1 punt resoluci´ o, 1
+punt justificaci´ o). -1 punt per c` alculs mal fets.
+(c)   [2 punts]   Hi ha algun moment en qu` e l’aigua no estigui infectada? Justifica la resposta.
+
+Criteris:   -2 punts si no est` a justificat.
+
+P6. — [10 punts]   Representa la regi´ o compresa entre la corba   f   ( x ) =  
+2 x
+x 2   + 1 
+, l’eix d’abscisses (eix   OX ) i
+les rectes   x   = 0 i   x   = 7. Calcula’n l’` area.
+
+Criteris:   5 punts per la representaci´ o, dividits en: 1 pt domini, 1 pt as´ ımptotes, 2 pt monotonia, 1 pt gr` afic i
+eixos. 5 punts pel c` alcul de l’` area.
+Convocat` oria 2023   |   3 / 5   |
+
+Matem` atiques II   Model 1
+
+P7. —   Un espai mostral cont´ e dos successos   A   i   B .   Sabent que   P   ( A   ∩   B ) = 0 . 3,   P   ( A/B ) =   P   ( B/A ) i
+
+P   ( A
+c
+) = 0 . 4 (sent   A
+c  
+el succ´ es complementari), calcula:
+(a)   [2 punts]   P   ( B/A ).
+(b)   [3 punts]   P   ( B ).
+(c)   [3 punts]   P   ( A
+c  
+∩   B
+c
+).
+(d)   [2 punts]   S´ on   A   i   B   successos independents?
+
+Criteris:   en cada apartat, -1 punt si l’error ´ es de c` alcul. Si el resultat no t´ e sentit, s’elimina tota la puntuaci´ o.
+Es permet qualsevol resoluci´ o sempre que estigui justificada.
+
+P8. —   El pes dels nadons segueix una distribuci´ o normal de mitjana   μ   = 3 . 1 kg i desviaci´ o t´ ıpica   σ   desconeguda.
+Se sap que nom´ es el 30 . 5% dels nadons pesa m´ es de 3 . 8 kg. Calcula, arrodonint els resultats a 4 decimals,
+(a)   [4 punts]   Quina ´ es la desviaci´ o t´ ıpica?
+
+Criteris:   1 punt plantejar b´ e el problema, 1 punt tipificar correctament, 2 punts soluci´ o correcta.
+(b)   [3 punts]   Suposant que   σ   = 1 . 3725, quina ´ es la probabilitat que un nad´ o pesi menys de 2 . 7 kg?
+
+Criteris:   1 punt plantejar b´ e el problema, 1 punt tipificar correctament, 1 punt resultat correcte.
+(c)   [3 punts]   Suposant que   σ   = 1 . 3725, quina ´ es la probabilitat que un nad´ o pesi entre 2 . 7 i 3 . 5 kg?
+
+Criteris:   1 punt plantejar b´ e el problema, 1 punt tipificar correctament, 1 punt resultat correcte.
+Convocat` oria 2023   |   4 / 5   |
+
+Matem` atiques II   Model 1
+
+Taula de la distribuci´ o normal   N   (0 ,   1).
+Convocat` oria 2023   |   5 / 5   |
+
+Matem` atiques II   Model 1
+
+Contestau de manera clara i raonada quatre q¨ uestions qualssevol, escollides d’entre les vuit proposades.
+Disposau de 90 minuts. Cada q¨ uesti´ o es puntua sobre 10 punts. La qualificaci´ o final s’obt´ e de dividir el total
+de punts obtinguts entre 4.
+Nom´ es es tindran en compte les respostes clarament justificades i raonades usant llenguatge matem` atic, o
+no matem` atic, segons correspongui. Es valoraran negativament els errors de c` alcul.
+Es permet utilitzar calculadora cient´ ıfica b` asica. No es permet l’´ us de calculadores gr` afiques ni programables,
+ni de dispositius amb acc´ es a Internet o aparells que puguin transmetre o emmagatzemar informaci´ o.
+
+P1. —   Considera la matriu   M   i el vector   b ,
+
+M   =
+
+
+
+
+2   1   a
+a   + 1   0   1
+1   1   1
+
+
+   i   b   =
+
+
+
+
+0
+1
+1
+
+
+   ,
+
+respectivament.
+(a)   [3 punts]   Indica per a quins valors de   a   la matriu   M   ´ es invertible.
+
+Soluci´ o.
+
+det( M   ) =   a ( a   + 1) + 1   −   2   −   ( a   + 1) =   a
+2  
+−   2 = 0   ←→   a   =   ±
+√
+2 .
+
+Aleshores, la matriu ´ es invertible per a   a   ∈   R   − {−
+√
+2 ,   +
+√
+2 } .
+(b)   [3 punts]   Calcula, per a tots els valors de   a   que sigui possible, la inversa de   M   .
+
+Soluci´ o.
+
+M  
+− 1  
+=  
+1
+
+a
+2  
+−   2
+
+
+  
+− 1   − 1 +   a   1
+
+− a   2   −   a   − 2 +   a
+2  
++   a
+a   + 1   − 1   − a   −   1
+
+
+   .
+
+(c)   [4 punts]   Calcula, per al cas   a   = 0, el vector   x   tal que   M   x   =   b .
+
+Soluci´ o.   M   x   =   b   ←→   x   =   M  
+− 1
+b . Per   a   = 0 tenim que
+
+M  
+− 1  
+=   −  
+1
+2
+
+
+
+
+− 1   − 1   1
+0   2   − 2
+1   − 1   − 1
+
+
+   .
+
+Per tant,
+
+x   =
+
+
+
+
+0
+0
+1
+
+
+   .
+
+Notem que tamb´ e es pot veure directament substituint   a   = 0 a   M   , ja que la darrera columna de   M   ´ es el
+vector que es demana.
+
+P2. —   Considera les matrius
+
+A   =
+
+  
+3   − 1
+0   3
+
+
+
+i   B   =
+
+  
+2   1
+1   1
+
+
+
+,
+
+i sigui   O   la matriu nul · la d’ordre 2   ×   2.
+Convocat` oria 2023   |   1 / 6   |
+
+Matem` atiques II   Model 1
+
+(a)   [4 punts]   Calcula totes les matrius   X   tals que   AX   −   X   =   B .
+
+Soluci´ o.   AX   −   X   = ( A   −   I ) X   =   B . Per tant,
+
+X   = ( A   −   I )
+− 1
+B   =
+
+  
+1 / 2   1 / 4
+0   1 / 2
+
+   
+2   1
+1   1
+
+
+
+=
+
+  
+5 / 4   3 / 4
+1 / 2   1 / 2
+
+
+
+.
+
+(b)   [3 punts]   Troba una matriu   Y   diferent de   O   tal que ( A   −   B ) Y   =   O .
+
+Soluci´ o.   Sigui
+
+Y   =
+
+  
+a   b
+c   d
+
+
+
+,
+
+tenim que   Y   ha de complir que
+
+  
+a   −   2 c   b   −   2 d
+
+− a   + 2 c   − b   + 2 d
+
+
+
+=
+
+  
+0   0
+0   0
+
+
+
+.
+
+Per tant,   a   = 2 c   i   b   = 2 d . Llavors qualsevol matriu de la forma
+
+  
+2 c   2 d
+c   d
+
+
+
+´ es v` alida sempre que   c   i   d   no s’anul.lin a la vegada.
+(c)   [3 punts]   Indica totes les matrius   Z   que compleixen la igualtat   AZ   =   O .
+
+Soluci´ o .   A   ´ es una matriu invertible, ja que det( A ) = 9 ̸   = 0.   Aleshores,   AZ   =   O   ←→   A
+− 1
+AZ   =
+
+A
+− 1
+O   ←→   Z   =   A
+− 1
+O   =   O . L’´ unica matriu ´ es   Z   =   O .
+
+P3. —   Considera el pla   π   : 2 x   + 3 y   +   z   −   6 = 0.
+(a)   [3 punts]   Determina els v` ertexs del triangle que ve determinat per la intersecci´ o del pla amb els eixos de
+coordenades.
+
+Soluci´ o.   Sigui   A   el tall amb l’eix   OX , llavors   A   = ( a,   0 ,   0).
+Sigui   B   el tall amb l’eix   OY   , llavors   B   = (0 , b,   0).
+Sigui   C   el tall amb l’eix   OZ , llavors   C   = (0 ,   0 , c ).
+Imposem que aquests punts pertanyen al pla   π :
+
+A   compleix 2 a   + 0 + 0   −   6 = 0   →   a   = 3   →   A   = (3 ,   0 ,   0) .
+B   compleix 0 + 3 b   + 0   −   6 = 0   →   b   = 2   →   B   = (0 ,   2 ,   0) .
+C   compleix 0 + 0 +   c   −   6 = 0   →   c   = 6   →   C   = (0 ,   0 ,   6) .
+
+(b)   [3 punts]   Calcula l’` area del triangle anterior.
+
+Soluci´ o.   Tenim que
+⃗
+  AB   = ( − 3 ,   2 ,   0) i
+⃗
+  AC   = ( − 3 ,   0 ,   6).
+Aleshores, l’` area del triangle ve donada per
+
+A triangle   =  
+| ⃗ AB   × ⃗   AC |
+
+2  
+=
+
+i   j   k
+
+− 3   2   0
+
+− 3   0   6
+
+2  
+=
+
+√
+12
+2  
++ 18
+2  
++ 6
+2
+
+2  
+=
+
+√
+504
+2  
+= 
+6
+√
+14
+2  
+= 3
+√
+14 u
+2
+.
+
+Convocat` oria 2023   |   2 / 6   |
+
+Matem` atiques II   Model 1
+
+(c)   [4 punts]   Sigui   A   el v` ertex del triangle sobre l’eix d’abscisses (eix   OX ). Calcula la recta perpendicular
+al pla que passa per   A .
+
+Soluci´ o.   El vector director de la recta ´ es   d r   = (2 ,   3 ,   1) i ha de passar pel punt   A   = (3 ,   0 ,   0). Aleshores, la
+recta ´ es
+
+r   :
+
+
+
+
+
+x   = 3 + 2 λ,
+y   = 3 λ,
+z   =   λ.
+
+P4. —   Siguin   a   i   b   dues constants reals no nul · les.
+Considerem el pla   π   :   x   +   ay   −   2 z   = 3 i la recta
+
+r   :
+
+  
+x   +   bz   = 1 ,
+y   = 0 .
+
+(a)   [4 punts]   Per a quins valors de   a   i   b   la recta   r   ´ es perpendicular al pla   π ? Per a aquests casos concrets,
+calcula el punt de tall entre   r   i   π , i calcula o justifica quina ´ es la dist` ancia de la recta al pla.
+
+Soluci´ o.   Punts de   r :   A   = (0 ,   0 ,   1 /b ) i   B   = (1 ,   0 ,   0),
+⃗
+  d r   =
+⃗
+  AB   = (1 ,   0 ,   − 1 /b ).
+Vector normal al pla: ⃗ n   = (1 , a,   − 2). La recta ´ es perpendicular al pla si ⃗   d r   =   λ (1 , a,   − 2). I.e (1 ,   0 ,   − 1 /b ) =
+
+λ (1 , a,   − 2). Aleshores, s’ha de complir que
+
+λ   = 1 ,
+aλ   = 0   →   a   = 0 ,
+
+− 1 /b   =   − 2 λ   →   b   = 1 / 2 .
+
+Ara b´ e, com que   a   ´ es no nul, no es d´ ona aquest cas. L’exercici ja estaria acabat. Si alg´ u el calcula hauria
+de ser   P   ´ es tal que satisf` a el sistema. La dist` ancia ´ es 0 ja que s´ on secants.
+
+x   −   2 z   = 3   →   x   = 2 z   + 3 ,
+x   + 
+1
+2  
+z   = 1   →   2 z   + 3 +  
+1
+2  
+z   = 1   →  
+5
+2  
+z   =   − 2   →   z   =  
+− 4
+5  
+,
+y   = 0 .
+
+Per tant,   P   = (7 / 5 ,   0 ,   − 4 / 5).
+(b)   [3 punts]   Per a quins valors de   a   i   b   la recta   r   ´ es paral · lela al pla   π ?
+
+Soluci´ o.   Volem que
+⃗
+  d r   · ⃗ n   = 0. Per tant,
+⃗
+d r   · ⃗ n   = 1 + 0 + 
+2
+
+b  
+= 0   ↔   b   =   − 2 .
+
+Per tant,   a   pot ser qualsevol valor real, per` o   b   =   − 2.
+(c)   [3 punts]   Existeixen alguns valors de   a   i   b   per als quals la recta   r   est` a continguda en el pla   π ?
+
+Soluci´ o.   La recta estar` a continguda en el pla si
+⃗
+  d r   · ⃗ n   = 0 i, a m´ es, un punt qualsevol de   r   pertany a   π .
+Ara b´ e,   B / ∈   π , ja que 1 ̸   = 3. Aleshores, NO existeixen valors de   a   i   b   perqu` e la recta estigui continguda
+en   π .
+
+P5. —   La quantitat de tones d’aigua infectada per un bacteri s’espera que segueixi la funci´ o   f   ( x ) =   e
+− x  
++
+0 . 15 x   + 1 sent   x   ≥   0 els dies d’infecci´ o i   f   ( x ) les tones d’aigua infectada.
+Convocat` oria 2023   |   3 / 6   |
+
+Matem` atiques II   Model 1
+
+(a)   [4 punts]   Quantes tones d’aigua hi havia inicialment infectades pel bacteri? Cap a quin valor tendeix la
+quantitat d’aigua infectada? Interpreta els resultats.
+
+Soluci´ o.
+
+–   Inicialment hi ha   f   (0) = 2 tones d’aigua.
+
+–   Tenim que lim x → + ∞   e
+− x  
++ 0 . 15 x   + 1 = + ∞ . Llavors tendeix que tota l’aigua estigui infectada.
+(b)   [4 punts]   En quin moment hi ha menys quantitat d’aigua infectada?   Quantes tones hi ha en aquell
+moment?
+
+Soluci´ o.
+
+–   Cercam el m´ ınim de la funci´ o:   f  
+′
+( x ) =   − e
+− x
++0 . 15 = 0. 
+´
+Es a dir, a   x   =   −   ln(0 . 15)   ≈   1 . 897119984885881
+dies.
+
+–   En aquest moment hi ha un total de   f   ( −   ln(0 . 15)) =   e
+ln(0 . 15)  
+−   0 . 15 ln(0 . 15) + 1   ≈   1 . 434567997732882
+tones.
+(c)   [2 punts]   Hi ha algun moment en qu` e l’aigua no estigui infectada? Justifica la resposta.
+
+Soluci´ o.   No perqu` e el m´ ınim s’assoleix quan hi ha 1 . 434567997732882 tones. Tamb´ e es pot fer calculant
+
+x   perqu` e   f   ( x ) = 0 i veure que no t´ e soluci´ o.
+
+P6. — [10 punts]   Representa la regi´ o compresa entre la corba   f   ( x ) =  
+2 x
+x
+2  
++ 1 
+, l’eix d’abscisses (eix   OX ) i
+les rectes   x   = 0 i   x   = 7. Calcula’n l’` area.
+
+Soluci´ o.   La funci´ o   f   ( x ) = 0 nom´ es a   x   = 0.   A m´ es, ´ es una funci´ o positiva per a   x   ∈   (0 ,   + ∞ ].   La seva
+representaci´ o es troba a la figura 1.
+
+Figura 1: Regi´ o compresa entre la corba   f   ( x ) =  
+2 x
+x
+2  
++ 1 
+, l’eix   OX   i les rectes   x   = 0 i   x   = 7
+Aleshores, l’` area que volem calular ´ es
+
+A   =
+
+Z   7
+0
+
+2 x
+x
+2  
++ 1 
+=  
+
+ln   | x
+2  
++ 1 |
+ 7
+0  
+= ln(50)   −   ln(1) = ln(50)   ≈   3 . 912023005428146 u
+2
+
+P7. —   Un espai mostral cont´ e dos successos   A   i   B .   Sabent que   P   ( A   ∩   B ) = 0 . 3,   P   ( A/B ) =   P   ( B/A ) i
+
+P   ( A
+c
+) = 0 . 4 (sent   A
+c  
+el succ´ es complementari), calcula:
+(a)   [2 punts]   P   ( B/A ).
+Convocat` oria 2023   |   4 / 6   |
+
+Matem` atiques II   Model 1
+
+(b)   [3 punts]   P   ( B ).
+(c)   [3 punts]   P   ( A
+c  
+∩   B
+c
+).
+(d)   [2 punts]   S´ on   A   i   B   successos independents?
+
+Soluci´ o.
+
+(a)   P   ( B/A ) = 0 . 5,
+(b)   P   ( B ) = 0 . 6,
+(c)   P   ( A
+c  
+∩   B
+c
+) = 1   −   P   ( A   ∪   B ) = 1   −   (0 . 6 + 0 . 6   −   0 . 3) = 0 . 1,
+(d) No s´ on independents, perqu` e   P   ( B/A ) ̸   =   P   ( B ).
+
+P8. —   El pes dels nadons segueix una distribuci´ o normal de mitjana   μ   = 3 . 1 kg i desviaci´ o t´ ıpica   σ   desconeguda.
+Se sap que nom´ es el 30 . 5% dels nadons pesa m´ es de 3 . 8 kg. Calcula, arrodonint els resultats a 4 decimals,
+(a)   [4 punts]   Quina ´ es la desviaci´ o t´ ıpica?
+
+Soluci´ o .   p ( x >   3 . 8) =   p
+
+
+
+z >  
+3 . 8   −   3 . 1
+
+σ
+
+
+
+= 1   −   p
+
+
+
+z   ≤  
+3 . 8   −   3 . 1
+
+σ
+
+
+
+= 0 . 305.   Per tant, tenim que
+
+p
+
+
+
+z   ≤  
+3 . 8   −   3 . 1
+
+σ
+
+
+
+= 1   −   0 . 305 = 0 . 695. D’on
+3 . 8   −   3 . 1
+
+σ  
+= 0 . 51   →   σ   = 1 . 3725 .
+
+(b)   [3 punts]   Suposant que   σ   = 1 . 3725, quina ´ es la probabilitat que un nad´ o pesi menys de 2 . 7 kg?
+
+Soluci´ o.   p ( x <   2 . 7) =   p
+
+
+
+z <  
+2 . 7   −   3 . 1
+1 . 3725
+
+
+
+=   p   ( z <   − 0 . 2914) = 1   −   p   ( z <   0 . 2914) = 1   −   0 . 6141 = 0 . 3859 .
+
+(c)   [3 punts]   Suposant que   σ   = 1 . 3725, quina ´ es la probabilitat que un nad´ o pesi entre 2 . 7 i 3 . 5 kg?
+
+Soluci´ o.   p (2 . 7   < x <   3 . 5) =   p
+
+  
+2 . 7   −   3 . 1
+1 . 3725  
+< z <  
+3 . 5   −   3 . 1
+1 . 3725
+
+
+
+=   p   ( − 0 . 2914   < z <   0 . 2914) =   p   ( z <   0 . 2914) −
+
+p   ( z <   − 0 . 2914) = 2 p   ( z <   0 . 2914)   −   1 = 0 . 2282 .
+
+Convocat` oria 2023   |   5 / 6   |
+
+Matem` atiques II   Model 1
+
+Taula de la distribuci´ o normal   N   (0 ,   1).
+Convocat` oria 2023   |   6 / 6   |
+

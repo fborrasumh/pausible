@@ -1,0 +1,1501 @@
+[Fuente: https://estudis.uib.cat/models-examen/examen/pbau/2024:JUL:MATEMSOCIALSII-Criteris/Criteris-MATEMSOCIALSII-JUL-2024.pdf]
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Criteris de correcci´ o globals
+
+•   Heu de corregir quatre q¨ uestions en total d’entre les vuit proposades. Si l’alumne presenta m´ es
+de quatre q¨ uestions, corregiu-ne les quatre primeres.
+
+•   Cada problema t´ e una puntuaci´ o m` axima de 10. Cal tenir presents les puntuacions m` aximes que
+apareixen a cada apartat (si no est` a indicat, tots els apartats d’una mateixa pregunta tenen la
+mateixa valoraci´ o). Les puntuacions dels apartats s´ on independents: si l’alumne s’ha equivocat
+en qualque apartat, per` o fa b´ e els altres (segons les “seves” dades equivocades), donau-li la
+puntuaci´ o adient.
+
+•   Es valorar` a conjuntament el resultat, la justificaci´ o (ja sigui simb` olica o escrita), la claredat
+i ´ us del llenguatge matem` atic i no matem` atic, i l’estructura de la resposta.   Orientativament,
+penalitzau:
+– Els errors de c` alcul, amb un 25%; els errors greus i/o que portin a resultats incoherents o
+absurds, amb un 50%.
+– En preguntes mec` aniques o de c` alcul no justificades, amb el 30%-50%; en preguntes de
+justificar, una resposta sense cap justificaci´ o s’ha de penalitzar amb el 100%.
+– En qualsevol pregunta, si apareixen raonaments (que no s´ on clars/evidents) sense justificar,
+amb el 20%-30%.
+– La imprecisi´ o en l’´ us del llenguatge matem` atic (p. ex. variables sense introduir/que canvien
+de significat), o la falta de claredat per abs` encia de llenguatge matem` atic, amb un 20%-30%.
+– L’estructura s’ha de penalitzar en funci´ o de la dificultat per entendre la resposta.
+
+•   Hi pot haver casos en qu` e hi hagi dubtes en aplicar els criteris generals o espec´ ıfics. En aquests
+casos, feu prevaler el vostre criteri i sentit com´ u.
+
+Criteris de correcci´ o espec´ ıfics
+
+Nom´ es es detallen els apartats en qu` e hi ha diverses preguntes o que es poden desglossar. En apartats
+on s’omet el criteri de correcci´ o espec´ ıfic, aquest ser` a simplement “C` alcul i/o justificaci´ o correcta”.
+
+P1. —   Tens un petit negoci que ven pantalons i camises. El preu de cada pantal´ o ´ es de 60   A C , i el
+preu de cada camisa ´ es de 40   A C .
+a) Aquesta setmana s’han venut un total de 100 unitats entre pantalons i camises, i hem tingut
+uns ingressos totals de 5400   A C . Quants pantalons i quantes camises hem venut?
+
+Criteris:   2 pt per plantejar, 3 pt per resoldre.   Penalitzaci´ o amb -1 pt per no identificar les
+inc` ognites. Penalitzaci´ o amb -0.75 pt errors de c` alcul.   (Total   5 pt)
+
+Soluci´ o .   Considerem la matriu que, multiplicada per un vector que indica les unitats de
+pantalons i camises venudes (columnes), ens dona el nombre total d’unitats i els ingressos totals
+(fileres):
+
+M   =
+
+  
+1   1
+60   40
+
+
+
+.
+
+Convocat` oria 2024   |   1 / 10   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Aleshores, si   x   ´ es el nombre de pantalons venuts, i   y   el nombre de camises venudes,
+
+M   ·
+
+
+x
+y
+
+
+
+=
+
+  
+100
+5400
+
+
+
+= ⇒
+
+
+x
+y
+
+
+
+=
+
+
+70
+30
+
+
+
+,
+
+que hem pogut resoldre pel m` etode de Gauss, i hem obtingut que hem venut 70 pantalons i 30
+camises.
+b) Fa tres setmanes es varen vendre un total de 110 unitats entre pantalons i camises, i un empleat
+que va revisar la caixa va dir que els ingressos totals eren de 4200   A C ... per` o tu no creus l’empleat.
+Quants pantalons i quantes camises s’haurien d’haver venut segons el que diu l’empleat? Inter-
+preta el resultat obtingut.
+
+Criteris:   1 pt per plantejar, 2 pt per resoldre, 2 pt per interpretar.   (Total   5 pt)
+
+Soluci´ o.   Amb el mateix procediment que l’apartat anterior,
+
+M   ·
+
+
+x
+y
+
+
+
+=
+
+  
+110
+4200
+
+
+
+= ⇒
+
+
+x
+y
+
+
+
+=
+
+
+− 10
+120
+
+
+
+.
+
+No ´ es possible haver venut -10 pantalons, aix´ ı que aquesta combinaci´ o de 110 unitats i 4200   A C
+d’ingressos totals ´ es impossible.
+
+P2. —   Considera les matrius seg¨ uents:
+I =
+
+
+1   0
+0   1
+
+
+
+,   A   =
+
+
+2   3
+5   8
+
+
+
+,   B   =
+
+  
+x   − 3
+
+− 5   2
+
+
+
+,   C   =
+
+
+y   z
+
+7   − 1
+
+
+
+.
+
+a) Sabem que existeix un valor   x   tal que   B   ´ es la inversa de   A . Quin ´ es aquest valor   x ?
+
+(Total   3 pt)
+
+Soluci´ o.   A   i   B   s´ on inverses si i nom´ es si se satisf` a la igualtat matricial seg¨ uent:
+
+A   ·   B   = I   = ⇒
+
+
+2   3
+5   8
+
+
+
+·
+
+  
+x   − 3
+
+− 5   2
+
+
+
+=
+
+
+1   0
+0   1
+
+
+
+= ⇒   2 x   + 3   ·   ( − 5) = 1   = ⇒   x   = 8 .
+
+At` es que sabem que n’existeix un, aquest ´ es necess` ariament   x   = 8.   (Altrament, haur´ ıem de
+comprovar que la resta de termes del producte matricial coincideixen.)
+b) Per al valor   x   de l’apartat anterior, calcula ( A   + I)( B   −   I) + ( A   −   I)( B   + I).
+
+Criteris:   Penalitzaci´ o amb -1 pt per cada error de c` alcul. Penalitzaci´ o amb -1 pt si no utilitza
+el valor de   x   calculat pr` eviament, si s’escau.   (Total   4 pt)
+
+Soluci´ o.   Abans de fer c` alculs matricials, podem simplificar l’expressi´ o:
+( A   + I)( B   −   I) + ( A   −   I)( B   + I)
+= [ AB   −   A   +   B   −   I] + [ AB   +   A   −   B   −   I]
+= 2 AB   −   2I = 2I   −   2I = 0 ,
+
+´ es a dir, el resultat ´ es la matriu nul · la.
+Convocat` oria 2024   |   2 / 10   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+c) Existeixen alguns valors per a   y ,   z   de manera que   C   sigui la inversa de   A ?   (Total   3 pt)
+
+Soluci´ o.   No, ja que la inversa ´ es ´ unica.  
+´
+Es a dir, si   B   i   C   s´ on dues inverses de la mateixa
+matriu, haurien de ser la mateixa matriu:
+
+  
+A   ·   B   = I
+
+A   ·   C   = I  
+= ⇒   B   =   C   = ⇒
+
+  
+x   − 3
+
+− 5   2
+
+
+
+=
+
+
+y   z
+
+7   − 1
+
+
+
+= ⇒
+
+
+
+
+
+
+
+
+
+x   =   y,
+
+− 3   =   z,
+
+− 5   =   7 ,
+
+2   =   − 1 ,
+
+i ´ es clar que les dues darreres igualtats no s´ on certes.
+
+P3. —   Una empresa produeix dos tipus de productes: aspiradores i bateries el` ectriques.
+– Per produir una aspiradora, necessitam 5 h d’un operari i 4 kg de mat` eries primeres.
+– Per produir una bateria, necessitam 1 h d’un operari i 1 kg de mat` eries primeres.
+Cada aspiradora es ven per 100   A C , i cada bateria, per 22   A C .   Disposam d’un m` axim de 110 hores
+d’operaris i de 100 kg de mat` eries primeres. Suposarem que vendrem tota la producci´ o.
+a) Quantes unitats de cada tipus hem de produir per maximitzar els ingressos?
+
+Criteris:   2 pt per plantejar rectes (0.5 pt/recta).   2 pt per tra¸ car i identificar rectes (0.5
+pt/recta). 2 pt per calcular els v` ertexs (0.5 pt/v` ertex). 1 pt per indicar la funci´ o objectiu. 1 pt
+per calcular correctament el v` ertex corresponent al m` axim i interpretar-lo. Penalitzaci´ o amb -4
+pt si les variables s´ on incorrectes. Penalitzaci´ o amb -3 pt si la regi´ o factible no est` a dibuixada o
+´ es incorrecta. Penalitzaci´ o amb -1 pt si les rectes trivials no estan representades o es representen
+intercanviades.   (Total   8 pt)
+
+Soluci´ o .   Ho resoldrem com un problema de programaci´ o lineal en dues dimensions.   En
+particular, siguin   a   les aspiradores que produirem, i   b   les bateries que produirem. Aleshores, les
+restriccions s´ on:  
+a   ≥   0
+
+b   ≥   0
+5 a   +   b   ≤   110
+4 a   +   b   ≤   100
+
+
+
+
+
+
+
+
+
+Per una altra part, la funci´ o que volem maximitzar ´ es:
+
+f   ( a, b ) = 100 a   + 22 b.
+
+Les rectes que delimiten la regi´ o factible s´ on:
+–   r 1 :   a   = 0, que ´ es l’eix vertical.
+–   r 2 :   b   = 0, que ´ es l’eix horitzontal.
+–   r 3 : 5 a   +   b   = 110, que passa pels punts ( a   = 22 , b   = 0) i ( a   = 0 , b   = 110).
+–   r 4 : 4 a   +   b   = 100, que passa pels punts ( a   = 25 , b   = 0) i ( a   = 0 , b   = 100).
+La regi´ o factible ´ es, per tant:
+Convocat` oria 2024   |   3 / 10   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Tra¸ cant les rectes, observem que els punts de tall s´ on:
+–   A   ( r 1   i   r 2 ), que ´ es el punt (0 ,   0).
+–   B   ( r 1   i   r 4 ), que ´ es el punt (0 ,   100).
+–   C   ( r 4   i   r 3 ), que ´ es el punt (10 ,   60).
+–   D   ( r 3   i   r 2 ), que ´ es el punt (22 ,   0).
+Avaluant la funci´ o objectiu en els punts de tall,
+
+
+
+
+
+
+
+
+
+f   (0 ,   0) = 0   ·   100 + 0   ·   22 = 0 ,
+f   (0 ,   100) = 0   ·   100 + 100   ·   22 = 2200 ,
+f   (10 ,   60) = 10   ·   100 + 60   ·   22 = 2320 ,
+f   (22 ,   0) = 22   ·   100 + 0   ·   22 = 2200 .
+
+Per tant, per maximitzar els ingressos, haurem de fabricar 10 aspiradores i 60 bateries.   Els
+ingressos aix´ ı obtinguts seran de 2320   A C .
+b) Si el preu de venda de les aspiradores va disminuint, hi haur` a un moment en qu` e ser` a m´ es rendible
+fabricar nom´ es bateries. Calcula quin ´ es el preu de venda que han de tenir les aspiradores, de
+manera que el m` axim benefici total es dona quan nom´ es produ¨ ım bateries.
+
+Criteris:   No penalitzar si s’utilitza igualtat en comptes de desigualtat.   (Total   2 pt)
+
+Soluci´ o.   Cercam un nou preu   x   per a les aspiradores tal que els ingressos al v` ertex   C   siguin
+m´ es petits o iguals que els del v` ertex   B :
+0   ·   x   + 100   ·   22   ≥   10   ·   x   + 60   ·   22   = ⇒   10 x   ≤   40   ·   22   = ⇒   x   ≤   4   ·   22 = 88   A C   .
+
+´
+Es a dir, quan el preu de venda de les aspiradores ´ es de menys de 88   A C , el m` axim benefici total
+es dona quan nom´ es produ¨ ım bateries. Si el preu ´ es igual a 88   A C , el m` axim benefici total el
+podem obtenir produ¨ ınt nom´ es bateries, o tamb´ e produ¨ ınt 10 aspiradores i 22 bateries.
+Convocat` oria 2024   |   4 / 10   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+P4. —   Considera la funci´ o   f   ( x ) =   e
+x  
+−   e
+− x
+, per a   x   ≥   0.
+a) Calcula el valor de la funci´ o en els extrems del domini.
+
+Criteris:   1 pt per calcular correctament   f   (0); 2 pts per calcular correctament   l´ ım
+
+x → + ∞
+e
+x
+.
+
+(Total   3 pt)
+
+Soluci´ o.   En els extrems del domini,
+
+f   (0) =   e
+0  
+−   e
+− 0  
+= 1   −   1 = 0 ,   l´ ım
+
+x → + ∞
+e
+x  
+−   e
+− x  
+= + ∞ −   0 = + ∞ .
+
+b) Calcula   f  
+′
+( x ) i   f  
+′′
+( x ).
+
+Criteris:   (Total   4 pt)
+
+Soluci´ o.   La primera derivada ´ es:
+
+f  
+′
+( x ) =  
+ 
+e
+x  
+−   e
+− x
+
+′  
+=   e
+x  
+−   ( − 1)   ·   e
+− x  
+=   e
+x  
++   e
+− x
+.
+
+La segona derivada ´ es:
+
+f  
+′′
+( x ) =  
+ 
+e
+x  
++   e
+− x
+ ′  
+=   e
+x  
++ ( − 1)   ·   e
+− x  
+=   e
+x  
+−   e
+− x
+,
+
+que, casualment, coincideix amb   f   ( x ).
+c) Calcula
+
+Z  
+1
+0
+
+f   ( x ) d x .
+
+Criteris:   2 pts per calcular correctament una primitiva; 1 pt per aplicar correctament la regla
+de Barrow.   (Total   3 pt)
+
+Soluci´ o.   Per l’apartat anterior, podem deduir que, si la segona derivada ´ es la mateixa funci´ o,
+aleshores la seva derivada n’´ es una primitiva. Alternativament, podem calcular-ho aix´ ı:
+
+R  
+1
+0  
+f   ( x ) d x   =  
+R  
+1
+0  
+e
+x  
+−   e
+− x  
+d x   =  
+R  
+1
+0  
+e
+x  
++ ( − 1)   ·   e
+− x  
+d x   =   e
+x  
++   e
+− x
+]
+1
+0
+
+=  
+ 
+e
+1  
++   e
+− 1
+  
+−  
+ 
+e
+0  
++   e
+− 0
+  
+=  
+ 
+e
+1  
++   e
+− 1
+  
+−   (1 + 1) =   e   +  
+1
+
+e  
+−   2   ≈   1 . 086 .
+
+P5. —   Segons un estudi de mercat, la quantitat de gent que assistir` a a un espectacle,   g   (en nombre
+de persones), en funci´ o del preu de l’entrada,   p   (en   A C ), ser` a la seg¨ uent:
+
+g ( p ) =
+
+
+
+
+
+500 ,   per a   p   = 0 ,
+
+300   −   3 p,   per a 0   < p <   100 ,
+
+0 ,   per a   p   = 100 .
+
+Convocat` oria 2024   |   5 / 10   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+a) Quin ´ es el domini de   g ( p )?  ´ Es aquesta funci´ o cont´ ınua?
+
+Criteris:   1 pt per indicar el domini;   2 pts per estudiar la continu¨ ıtat.   No penalitzar si
+s’argumenta que ´ es discont´ ınua sense estudiar tot el domini.   (Total   3 pt)
+
+Soluci´ o.   El domini ´ es   p   ∈   [0 ,   100].
+La funci´ o no ´ es cont´ ınua, ja que no ho ´ es en el punt   p   = 0:
+
+g (0) = 500 ,   l´ ım
+
+p → 0 +  
+g ( p ) = 300   −   3   ·   0 = 300 .
+
+No obstant, la funci´ o s´ ı que ´ es cont´ ınua a l’interval (0 ,   100].
+b) Segons l’estudi de mercat, si hi assisteixen 240 persones, quin haur` a estat el preu de l’entrada?
+
+Criteris:   Penalitzaci´ o amb -0.5 pt si no comproven els extrems del domini.   (Total   2 pt)
+
+Soluci´ o.   Ens demanen calcular el preu   p   tal que   g ( p ) = 240. No ´ es ni   p   = 0 ni   p   = 100, aix´ ı
+que si la soluci´ o existeix, ser` a a   p   ∈   (0 ,   100):
+300   −   3 p   = 240   = ⇒   3 p   = 60   = ⇒   p   = 20   A C   .
+
+c) Els ingressos s´ on el producte del preu per la quantitat de gent que hi assitir` a. Segons l’estudi,
+quin preu maximitza els ingressos?
+
+Criteris:   1 pt per indicar la funci´ o objectiu; 2 pts per calcular la seva derivada; 2 pts per
+calcular el m` axim. Penalitzaci´ o amb -1 pt si no es comprova que ´ es un m` axim. Penalitzaci´ o amb
+-1 pt si no es comprova el valor en els extrems del domini.   (Total   5 pt)
+
+Soluci´ o.   Volem maximitzar la funci´ o
+
+f   ( p ) =   p   ·   g ( p ) =
+
+
+
+
+
+0   ·   500 ,   per a   p   = 0 ,
+p   ·   (300   −   3 p ) ,   per a 0   < p <   100 ,
+
+100   ·   0 ,   per a   p   = 100 .
+
+El valor en els extrems ´ es de   f   (0) = 0   A C i de   f   (100) = 0   A C . A l’interior de l’interval, la funci´ o
+pot tenir un m` axim nom´ es quan la seva derivada s’anul · la:
+( p   ·   (300   −   3 p ))
+′  
+= 0   = ⇒  
+ 
+300 p   −   3 p
+2
+ ′  
+= 0   = ⇒   300   −   6 p   = 0   = ⇒   p   = 50 .
+
+Aquesta funci´ o, que ´ es una par` abola, t´ e el v` ertex a   p   = 50   A C , que ´ es un m` axim absolut (el
+coeficient de   p
+2  
+´ es negatiu), i proporciona uns ingressos de   f   (50) = 7 . 500   A C .
+
+P6. —   Un estudi de mercat indica que uns clients determinats tenen un 7% de probabilitats de
+comprar un producte   A , i un 10% de probabilitats de comprar un producte   B .
+Convocat` oria 2024   |   6 / 10   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+a) Si la probabilitat de “comprar   A   i no comprar   B ” ´ es d’un 6%, s´ on els esdeveniments “comprar
+
+A ” i “comprar   B ” independents?
+
+Criteris:   2 pts per indicar que   P   ( A )   ·   P   ( B ) hauria de coincidir amb   P   ( A  
+∩
+B ); 3 pts per calcular
+
+P   ( A  
+∩
+B ).   (Total   5 pt)
+
+Soluci´ o.   Els esdeveniments seran independents si   P   ( A )   ·   P   ( B ) =   P   ( A  
+∩
+B ).
+Pel teorema de les probabilitats totals,
+
+P   ( A ) =   P   ( A  
+∩
+B ) +   P   ( A  
+∩
+B
+c
+)   = ⇒   P   ( A  
+∩
+B ) =   P   ( A )   −   P   ( A  
+∩
+B
+c
+) .
+
+Finalment,  
+  
+P   ( A )   ·   P   ( B ) = 0 . 07   ·   0 . 10 = 0 . 007 ,
+P   ( A  
+∩
+B ) =   P   ( A )   −   P   ( A  
+∩
+B
+c
+) = 0 . 07   −   0 . 06 = 0 . 010 ,
+
+i, per ser diferents, els esdeveniments s´ on dependents.
+b) Si els esdeveniments “comprar   A ” i “comprar   B ” fossin independents, qu` e seria major: la proba-
+bilitat de “no comprar   A ”; o la probabilitat de “no comprar   A , sabent que s’ha comprat   B ”?
+
+Criteris:   Si es calculen les probabilitats, 1 pt per indicar que   P   ( A  
+∩
+B ) =   P   ( A )   ·   P   ( B ), 2 pts
+per   P   ( A
+c
+), 2 pts per   P   ( A
+c
+| B ).   (Total   5 pt)
+
+Soluci´ o.   Si   A   i   B   s´ on esdeveniments independents, con` eixer si   B   ´ es cert o fals no afecta a la
+probabilitat que   A   sigui cert o fals. Per tant,   P   ( A
+c
+) =   P   ( A
+c
+| B ).
+
+P7. —   Segons les dades de l’Institut Nacional d’Estad´ ıstica (INE), l’1 de gener de 2023, a les Illes
+Balears hi havia 1 210 000 habitants en total.   A m´ es, el nombre d’habitatges, en funci´ o del nombre
+d’habitants que hi convivien, eren els seg¨ uents:
+Nombre de convivents
+1   2   3   4 o m´ es
+Nombre d’habitatges   118 000   124 000   93 000   119 000
+a) Quin ´ es el nombre mitj` a de convivents per habitatge?   (Total   2 pt)
+
+Soluci´ o .   El nombre mitj` a de convivents el calcularem tenint en compte el nombre total
+d’habitants, i el nombre total d’habitatges: 1 . 210 . 000 / 454 . 000 = 2 . 66 convivents per habitatge.
+b) Quants habitants pertanyen a un habitatge en el qual hi ha 4 o m´ es convivents?   Quin ´ es el
+nombre mitj` a de convivents en els habitatges en els quals hi ha 4 o m´ es convivents?
+
+Criteris:   1 pt per cada c` alcul.   (Total   2 pt)
+
+Soluci´ o.   Per calcular el nombre de convivents en els habitatges d’almenys 4 persones, observam
+que:
+Convocat` oria 2024   |   7 / 10   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Nombre de convivents
+1   2   3   4 i m´ es
+Habitatges   118.000   124.000   93.000   119.000
+Habitants   118.000   248.000   279.000   x
+Per tant,   x   = 1 . 210 . 000   −   118 . 000   −   248 . 000   −   279 . 000, d’on obtenim que el nombre mitj` a de
+convivents en aquests habitatges ´ es de   x/ 119 . 000 = 4 . 74.
+c) Escollint un habitant a l’atzar, quina ´ es la probabilitat que visqui en un habitatge unipersonal?
+Justifica la teva resposta.
+
+Criteris:   Penalitzaci´ o amb -1 pt si no indica que utilitza la llei de Laplace (o casos favora-
+bles/casos totals).   (Total   3 pt)
+
+Soluci´ o.   De l’1.210.000 habitants, 118.000 viuen en un habitatge unipersonal.   Per la llei de
+Laplace, la probabilitat demanada ´ es de  
+118 . 000
+1 . 210 . 000  
+= 0 . 0975 = 9 . 75%.
+d) Escollint, de manera independent, dos habitants a l’atzar, quina ´ es la probabilitat que algun
+d’ells visqui en un habitatge unipersonal? Justifica la teva resposta.
+
+Criteris:   1.5 pt per plantejar, 1.5 pt per calcular.   (Total   3 pt)
+
+Soluci´ o.   Siguin   U 1   i   U 2   els esdeveniments que indiquen que viu en un habitatge unipersonal, el
+primer i el segon habitant, respectivament. At` es que els hem escollit de manera independent,
+
+P   ( U 1   ∪   U 2 )= P   ( U 1 ) +   P   ( U 2 )   −   P   ( U 1  
+∩
+U 2 ) =   P   ( U 1 ) +   P   ( U 2 )   −   P   ( U 1 ) P   ( U 2 )
+=0 . 0975 + 0 . 0975   −   0 . 0975
+2  
+= 0 . 1855 = 18 . 55% .
+
+P8. —   Una empresa que fabrica components electr` onics realitza un estudi sobre la vida ´ util dels seus
+productes. Amb una mostra aleat` oria de 50 components electr` onics, el temps mitj` a de vida ´ util ´ es de
+507 hores. Suposem que el temps de vida ´ util segueix una distribuci´ o normal i que la seva desviaci´ o
+t´ ıpica ´ es coneguda i igual a 150 hores.
+a) Calcula un interval de confian¸ ca per a la mitjana poblacional de la vida ´ util dels components
+amb un nivell de confian¸ ca del 75%.
+
+Criteris:   C` alcul de   z α/ 2   1 pt, c` alcul de   z α/ 2   ·  
+σ
+√
+n  
+2 pts, c` alcul dels extrems de l’interval 2 pts.
+Penalitzaci´ o amb -1 pt si s’utilitza el valor de   z α/ 2   sense justificar.   (Total   5 pt)
+
+Soluci´ o.   Per a un nivell de confian¸ ca del 75%, el nivell de significaci´ o ´ es   α   = 0 . 25. Per tant,
+
+α/ 2 = 0 . 125 i   z α/ 2   = 1 . 15.   Amb les dades de l’enunciat ( n   = 50,   x   = 507,   σ   = 150), podem
+calcular l’interval demanat com a:
+
+
+
+x   −   z α/ 2   ·  
+σ
+
+√
+n 
+, x   +   z α/ 2   ·  
+σ
+
+√
+n
+
+
+
+= (482 . 60 ,   531 . 40)   .
+
+Convocat` oria 2024   |   8 / 10   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+b) Suposant ara que la mitjana poblacional ´ es de   μ   = 500 hores, quantes hores de vida ´ util tenen
+el 10% de productes que menys vida ´ util tenen?
+
+Criteris:   2 pts per plantejar, 2 pts per calcular, 1 pt per interpretar. Penalitzaci´ o amb -1 pt si
+la distribuci´ o no ´ es correcta. Penalitzaci´ o amb -0.5 pt per errors de c` alcul lleus.   (Total   5 pt)
+
+Soluci´ o.   Amb les mateixes variables que l’apartat anterior, cercam ara la vida ´ util   v   tal que:
+
+P   ( X   ≤   v ) = 10% = ⇒   P  
+   
+X − 500
+150  
+≤  
+v − 500
+150
+
+  
+= 10%
+= ⇒   P  
+ 
+Z   ≤  
+v − 500
+150
+
+  
+= 10%
+= ⇒   P  
+ 
+Z   ≥ −  
+v − 500
+150
+
+  
+= 90% .
+
+Comprovant-ho a la taula, el valor m´ es proper ´ es per a   Z   = 1 . 28 i, per tant,
+1 . 28   ≥ −  
+v   −   500
+150  
+= ⇒   v   = 500   −   150   ·   1 . 28 = 308 ,
+
+´ es a dir, el 10% de productes que menys vida ´ util tenen, en tenen 308 hores o menys.
+Convocat` oria 2024   |   9 / 10   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Taula de la distribuci´ o normal   N   (0 ,   1).
+Convocat` oria 2024   |   10 / 10   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Contestau de manera clara i raonada quatre q¨ uestions qualssevol, escollides d’entre les vuit pro-
+posades. Justificau les respostes usant llenguatge matem` atic i/o no matem` atic, segons correspongui.
+Disposau de 90 minuts. Cada q¨ uesti´ o es puntua sobre 10 punts. La qualificaci´ o final s’obt´ e de dividir
+el total de punts obtinguts entre 4.
+Es permet utilitzar calculadora cient´ ıfica b` asica.   No es permet l’´ us de calculadores gr` afiques ni
+programables, ni de dispositius que puguin transmetre o emmagatzemar informaci´ o.
+
+P1. —   Tens un petit negoci que ven pantalons i camises. El preu de cada pantal´ o ´ es de 60   A C , i el
+preu de cada camisa ´ es de 40   A C .
+a) Aquesta setmana s’han venut un total de 100 unitats entre pantalons i camises, i hem tingut
+uns ingressos totals de 5400   A C . Quants pantalons i quantes camises hem venut?   ( 5 pt)
+
+Soluci´ o .   Considerem la matriu que, multiplicada per un vector que indica les unitats de
+pantalons i camises venudes (columnes), ens dona el nombre total d’unitats i els ingressos totals
+(fileres):
+
+M   =
+
+  
+1   1
+60   40
+
+
+
+.
+
+Aleshores, si   x   ´ es el nombre de pantalons venuts, i   y   el nombre de camises venudes,
+
+M   ·
+
+
+x
+y
+
+
+
+=
+
+  
+100
+5400
+
+
+
+= ⇒
+
+
+x
+y
+
+
+
+=
+
+
+70
+30
+
+
+
+,
+
+que hem pogut resoldre pel m` etode de Gauss, i hem obtingut que hem venut 70 pantalons i 30
+camises.
+b) Fa tres setmanes es varen vendre un total de 110 unitats entre pantalons i camises, i un empleat
+que va revisar la caixa va dir que els ingressos totals eren de 4200   A C ... per` o tu no creus l’empleat.
+Quants pantalons i quantes camises s’haurien d’haver venut segons el que diu l’empleat? Inter-
+preta el resultat obtingut.   ( 5 pt)
+
+Soluci´ o.   Amb el mateix procediment que l’apartat anterior,
+
+M   ·
+
+
+x
+y
+
+
+
+=
+
+  
+110
+4200
+
+
+
+= ⇒
+
+
+x
+y
+
+
+
+=
+
+
+− 10
+120
+
+
+
+.
+
+No ´ es possible haver venut -10 pantalons, aix´ ı que aquesta combinaci´ o de 110 unitats i 4200   A C
+d’ingressos totals ´ es impossible.
+
+P2. —   Considera les matrius seg¨ uents:
+I =
+
+
+1   0
+0   1
+
+
+
+,   A   =
+
+
+2   3
+5   8
+
+
+
+,   B   =
+
+  
+x   − 3
+
+− 5   2
+
+
+
+,   C   =
+
+
+y   z
+
+7   − 1
+
+
+
+.
+
+Convocat` oria 2024   |   1 / 8   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+a) Sabem que existeix un valor   x   tal que   B   ´ es la inversa de   A . Quin ´ es aquest valor   x ?   ( 3 pt)
+
+Soluci´ o.   A   i   B   s´ on inverses si i nom´ es si se satisf` a la igualtat matricial seg¨ uent:
+
+A   ·   B   = I   = ⇒
+
+
+2   3
+5   8
+
+
+
+·
+
+  
+x   − 3
+
+− 5   2
+
+
+
+=
+
+
+1   0
+0   1
+
+
+
+= ⇒   2 x   + 3   ·   ( − 5) = 1   = ⇒   x   = 8 .
+
+At` es que sabem que n’existeix un, aquest ´ es necess` ariament   x   = 8.   (Altrament, haur´ ıem de
+comprovar que la resta de termes del producte matricial coincideixen.)
+b) Per al valor   x   de l’apartat anterior, calcula ( A   + I)( B   −   I) + ( A   −   I)( B   + I).   ( 4 pt)
+
+Soluci´ o.   Abans de fer c` alculs matricials, podem simplificar l’expressi´ o:
+( A   + I)( B   −   I) + ( A   −   I)( B   + I)
+= [ AB   −   A   +   B   −   I] + [ AB   +   A   −   B   −   I]
+= 2 AB   −   2I = 2I   −   2I = 0 ,
+
+´ es a dir, el resultat ´ es la matriu nul · la.
+c) Existeixen alguns valors per a   y ,   z   de manera que   C   sigui la inversa de   A ?   ( 3 pt)
+
+Soluci´ o.   No, ja que la inversa ´ es ´ unica.   ´ Es a dir, si   B   i   C   s´ on dues inverses de la mateixa
+matriu, haurien de ser la mateixa matriu:
+
+  
+A   ·   B   = I
+
+A   ·   C   = I  
+= ⇒   B   =   C   = ⇒
+
+  
+x   − 3
+
+− 5   2
+
+
+
+=
+
+
+y   z
+
+7   − 1
+
+
+
+= ⇒
+
+
+
+
+
+
+
+
+
+x   =   y,
+
+− 3   =   z,
+
+− 5   =   7 ,
+
+2   =   − 1 ,
+
+i ´ es clar que les dues darreres igualtats no s´ on certes.
+
+P3. —   Una empresa produeix dos tipus de productes: aspiradores i bateries el` ectriques.
+– Per produir una aspiradora, necessitam 5 h d’un operari i 4 kg de mat` eries primeres.
+– Per produir una bateria, necessitam 1 h d’un operari i 1 kg de mat` eries primeres.
+Cada aspiradora es ven per 100   A C , i cada bateria, per 22   A C .   Disposam d’un m` axim de 110 hores
+d’operaris i de 100 kg de mat` eries primeres. Suposarem que vendrem tota la producci´ o.
+a) Quantes unitats de cada tipus hem de produir per maximitzar els ingressos?   ( 8 pt)
+
+Soluci´ o .   Ho resoldrem com un problema de programaci´ o lineal en dues dimensions.   En
+particular, siguin   a   les aspiradores que produirem, i   b   les bateries que produirem. Aleshores, les
+restriccions s´ on:  
+a   ≥   0
+
+b   ≥   0
+5 a   +   b   ≤   110
+4 a   +   b   ≤   100
+
+
+
+
+
+
+
+
+
+Convocat` oria 2024   |   2 / 8   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Per una altra part, la funci´ o que volem maximitzar ´ es:
+
+f   ( a, b ) = 100 a   + 22 b.
+
+Les rectes que delimiten la regi´ o factible s´ on:
+–   r 1 :   a   = 0, que ´ es l’eix vertical.
+–   r 2 :   b   = 0, que ´ es l’eix horitzontal.
+–   r 3 : 5 a   +   b   = 110, que passa pels punts ( a   = 22 , b   = 0) i ( a   = 0 , b   = 110).
+–   r 4 : 4 a   +   b   = 100, que passa pels punts ( a   = 25 , b   = 0) i ( a   = 0 , b   = 100).
+La regi´ o factible ´ es, per tant:
+
+Tra¸ cant les rectes, observem que els punts de tall s´ on:
+–   A   ( r 1   i   r 2 ), que ´ es el punt (0 ,   0).
+–   B   ( r 1   i   r 4 ), que ´ es el punt (0 ,   100).
+–   C   ( r 4   i   r 3 ), que ´ es el punt (10 ,   60).
+–   D   ( r 3   i   r 2 ), que ´ es el punt (22 ,   0).
+Avaluant la funci´ o objectiu en els punts de tall,
+
+
+
+
+
+
+
+
+
+f   (0 ,   0) = 0   ·   100 + 0   ·   22 = 0 ,
+f   (0 ,   100) = 0   ·   100 + 100   ·   22 = 2200 ,
+f   (10 ,   60) = 10   ·   100 + 60   ·   22 = 2320 ,
+f   (22 ,   0) = 22   ·   100 + 0   ·   22 = 2200 .
+
+Per tant, per maximitzar els ingressos, haurem de fabricar 10 aspiradores i 60 bateries.   Els
+ingressos aix´ ı obtinguts seran de 2320   A C .
+Convocat` oria 2024   |   3 / 8   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+b) Si el preu de venda de les aspiradores va disminuint, hi haur` a un moment en qu` e ser` a m´ es rendible
+fabricar nom´ es bateries. Calcula quin ´ es el preu de venda que han de tenir les aspiradores, de
+manera que el m` axim benefici total es dona quan nom´ es produ¨ ım bateries.   ( 2 pt)
+
+Soluci´ o.   Cercam un nou preu   x   per a les aspiradores tal que els ingressos al v` ertex   C   siguin
+m´ es petits o iguals que els del v` ertex   B :
+0   ·   x   + 100   ·   22   ≥   10   ·   x   + 60   ·   22   = ⇒   10 x   ≤   40   ·   22   = ⇒   x   ≤   4   ·   22 = 88   A C   .
+
+´
+Es a dir, quan el preu de venda de les aspiradores ´ es de menys de 88   A C , el m` axim benefici total
+es dona quan nom´ es produ¨ ım bateries. Si el preu ´ es igual a 88   A C , el m` axim benefici total el
+podem obtenir produ¨ ınt nom´ es bateries, o tamb´ e produ¨ ınt 10 aspiradores i 22 bateries.
+
+P4. —   Considera la funci´ o   f   ( x ) =   e
+x  
+−   e
+− x
+, per a   x   ≥   0.
+a) Calcula el valor de la funci´ o en els extrems del domini.   ( 3 pt)
+
+Soluci´ o.   En els extrems del domini,
+
+f   (0) =   e
+0  
+−   e
+− 0  
+= 1   −   1 = 0 ,   l´ ım
+
+x → + ∞
+e
+x  
+−   e
+− x  
+= + ∞ −   0 = + ∞ .
+
+b) Calcula   f  
+′
+( x ) i   f  
+′′
+( x ).   ( 4 pt)
+
+Soluci´ o.   La primera derivada ´ es:
+
+f  
+′
+( x ) =  
+ 
+e
+x  
+−   e
+− x
+ ′  
+=   e
+x  
+−   ( − 1)   ·   e
+− x  
+=   e
+x  
++   e
+− x
+.
+
+La segona derivada ´ es:
+
+f  
+′′
+( x ) =  
+ 
+e
+x  
++   e
+− x
+
+′  
+=   e
+x  
++ ( − 1)   ·   e
+− x  
+=   e
+x  
+−   e
+− x
+,
+
+que, casualment, coincideix amb   f   ( x ).
+c) Calcula
+
+Z  
+1
+0
+
+f   ( x ) d x .   ( 3 pt)
+
+Soluci´ o.   Per l’apartat anterior, podem deduir que, si la segona derivada ´ es la mateixa funci´ o,
+aleshores la seva derivada n’´ es una primitiva. Alternativament, podem calcular-ho aix´ ı:
+
+R  
+1
+0  
+f   ( x ) d x   =  
+R  
+1
+0  
+e
+x  
+−   e
+− x  
+d x   =  
+R  
+1
+0  
+e
+x  
++ ( − 1)   ·   e
+− x  
+d x   =   e
+x  
++   e
+− x
+]
+1
+0
+
+=  
+ 
+e
+1  
++   e
+− 1
+  
+−  
+ 
+e
+0  
++   e
+− 0
+  
+=  
+ 
+e
+1  
++   e
+− 1
+  
+−   (1 + 1) =   e   +  
+1
+
+e  
+−   2 .
+
+P5. —   Segons un estudi de mercat, la quantitat de gent que assistir` a a un espectacle,   g   (en nombre
+de persones), en funci´ o del preu de l’entrada,   p   (en   A C ), ser` a la seg¨ uent:
+
+g ( p ) =
+
+
+
+
+
+500 ,   per a   p   = 0 ,
+
+300   −   3 p,   per a 0   < p <   100 ,
+
+0 ,   per a   p   = 100 .
+
+Convocat` oria 2024   |   4 / 8   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+a) Quin ´ es el domini de   g ( p )?  ´ Es aquesta funci´ o cont´ ınua?   ( 3 pt)
+
+Soluci´ o.   El domini ´ es   p   ∈   [0 ,   100].
+La funci´ o no ´ es cont´ ınua, ja que no ho ´ es en el punt   p   = 0:
+
+g (0) = 500 ,   l´ ım
+
+p → 0
++  
+g ( p ) = 300   −   3   ·   0 = 300 .
+
+No obstant, la funci´ o s´ ı que ´ es cont´ ınua a l’interval (0 ,   100].
+b) Segons l’estudi de mercat, si hi assisteixen 240 persones, quin haur` a estat el preu de l’entrada?
+
+( 2 pt)
+
+Soluci´ o.   Ens demanen calcular el preu   p   tal que   g ( p ) = 240. No ´ es ni   p   = 0 ni   p   = 100, aix´ ı
+que si la soluci´ o existeix, ser` a a   p   ∈   (0 ,   100):
+300   −   3 p   = 240   = ⇒   3 p   = 60   = ⇒   p   = 20   A C   .
+
+c) Els ingressos s´ on el producte del preu per la quantitat de gent que hi assitir` a. Segons l’estudi,
+quin preu maximitza els ingressos?   ( 5 pt)
+
+Soluci´ o.   Volem maximitzar la funci´ o
+
+f   ( p ) =   p   ·   g ( p )
+
+
+
+
+
+0   ·   500 ,   per a   p   = 0 ,
+p   ·   (300   −   3 p ) ,   per a 0   < p <   100 ,
+
+100   ·   0 ,   per a   p   = 100 .
+
+El valor en els extrems ´ es de   f   (0) = 0   A C i de   f   (100) = 0   A C . A l’interior de l’interval, la funci´ o
+pot tenir un m` axim nom´ es quan la seva derivada s’anul · la:
+( p   ·   (300   −   3 p ))
+′  
+= 0   = ⇒  
+ 
+300 p   −   3 p
+2
+ ′  
+= 0   = ⇒   300   −   6 p   = 0   = ⇒   p   = 50 .
+
+Aquesta funci´ o, que ´ es una par` abola, t´ e el v` ertex a   p   = 50   A C , que ´ es un m` axim absolut i
+proporciona uns ingressos de   f   (50) = 7 . 500   A C .
+
+P6. —   Un estudi de mercat indica que uns clients determinats tenen un 7% de probabilitats de
+comprar un producte   A , i un 10% de probabilitats de comprar un producte   B .
+a) Si la probabilitat de “comprar   A   i no comprar   B ” ´ es d’un 6%, s´ on els esdeveniments “comprar
+
+A ” i “comprar   B ” independents?   ( 5 pt)
+
+Soluci´ o.   Els esdeveniments seran independents si   P   ( A )   ·   P   ( B ) =   P   ( A  
+∩
+B ).
+Pel teorema de les probabilitats totals,
+
+P   ( A ) =   P   ( A  
+∩
+B ) +   P   ( A  
+∩
+B
+c
+)   = ⇒   P   ( A  
+∩
+B ) =   P   ( A )   −   P   ( A  
+∩
+B
+c
+) .
+
+Finalment,  
+  
+P   ( A )   ·   P   ( B ) = 0 . 07   ·   0 . 10 = 0 . 007 ,
+P   ( A  
+∩
+B ) =   P   ( A )   −   P   ( A  
+∩
+B
+c
+) = 0 . 07   −   0 . 06 = 0 . 010 ,
+
+i, per ser diferents, els esdeveniments s´ on dependents.
+Convocat` oria 2024   |   5 / 8   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+b) Si els esdeveniments “comprar   A ” i “comprar   B ” fossin independents, qu` e seria major: la prob-
+abilitat de “no comprar   A ”; o la probabilitat de “no comprar   A , sabent que s’ha comprat   B ”?
+
+( 5 pt)
+
+Soluci´ o.   Si   A   i   B   s´ on esdeveniments independents, con` eixer si   B   ´ es cert o fals no afecta a la
+probabilitat que   A   sigui cert o fals. Per tant,   P   ( A
+c
+) =   P   ( A
+c
+| B ).
+
+P7. —   Segons les dades de l’Institut Nacional d’Estad´ ıstica (INE), l’1 de gener de 2023, a les Illes
+Balears hi havia 1 210 000 habitants en total.   A m´ es, el nombre d’habitatges, en funci´ o del nombre
+d’habitants que hi convivien, eren els seg¨ uents:
+Nombre de convivents
+1   2   3   4 o m´ es
+Nombre d’habitatges   118 000   124 000   93 000   119 000
+a) Quin ´ es el nombre mitj` a de convivents per habitatge?   ( 2 pt)
+
+Soluci´ o .   El nombre mitj` a de convivents el calcularem tenint en compte el nombre total
+d’habitants, i el nombre total d’habitatges: 1 . 210 . 000 / 454 . 000 = 2 . 66 convivents per habitatge.
+b) Quants habitants pertanyen a un habitatge en el qual hi ha 4 o m´ es convivents?   Quin ´ es el
+nombre mitj` a de convivents en els habitatges en els quals hi ha 4 o m´ es convivents?   ( 2 pt)
+
+Soluci´ o.   Per calcular el nombre de convivents en els habitatges d’almenys 4 persones, observam
+que:
+Nombre de convivents
+1   2   3   4 i m´ es
+Habitatges   118.000   124.000   93.000   119.000
+Habitants   118.000   248.000   279.000   x
+Per tant,   x   = 1 . 210 . 000   −   118 . 000   −   248 . 000   −   279 . 000, d’on obtenim que el nombre mitj` a de
+convivents en aquests habitatges ´ es de   x/ 119 . 000 = 4 . 74.
+c) Escollint un habitant a l’atzar, quina ´ es la probabilitat que visqui en un habitatge unipersonal?
+Justifica la teva resposta.   ( 3 pt)
+
+Soluci´ o.   De l’1.210.000 habitants, 118.000 viuen en un habitatge unipersonal.   Per la llei de
+Laplace, la probabilitat demanada ´ es de  
+118 . 000
+1 . 210 . 000  
+= 0 . 0975 = 9 . 75%.
+d) Escollint, de manera independent, dos habitants a l’atzar, quina ´ es la probabilitat que algun
+d’ells visqui en un habitatge unipersonal? Justifica la teva resposta.   ( 3 pt)
+
+Convocat` oria 2024   |   6 / 8   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Soluci´ o.   Siguin   U 1   i   U 2   els esdeveniments que indiquen que viu en un habitatge unipersonal, el
+primer i el segon habitant, respectivament. At` es que els hem escollit de manera independent,
+
+P   ( U 1   ∪   U 2 )= P   ( U 1 ) +   P   ( U 2 )   −   P   ( U 1  
+∩
+U 2 ) =   P   ( U 1 ) +   P   ( U 2 )   −   P   ( U 1 ) P   ( U 2 )
+=0 . 0975 + 0 . 0975   −   0 . 0975
+2  
+= 0 . 1855 = 18 . 55% .
+
+P8. —   Una empresa que fabrica components electr` onics realitza un estudi sobre la vida ´ util dels seus
+productes. Amb una mostra aleat` oria de 50 components electr` onics, el temps mitj` a de vida ´ util ´ es de
+507 hores. Suposem que el temps de vida ´ util segueix una distribuci´ o normal i que la seva desviaci´ o
+est` andard ´ es coneguda i igual a 150 hores.
+a) Calcula un interval de confian¸ ca per a la mitjana poblacional de la vida ´ util dels components
+amb un nivell de confian¸ ca del 75%.   ( 5 pt)
+
+Soluci´ o.   Per a un nivell de confian¸ ca del 75%, el nivell de significaci´ o ´ es   α   = 0 . 25. Per tant,
+
+α/ 2 = 0 . 125 i   z α/ 2   = 1 . 15.   Amb les dades de l’enunciat ( n   = 50,   x   = 507,   σ   = 150), podem
+calcular l’interval demanat com a:
+
+
+
+x   −   z α/ 2   ·  
+σ
+
+√
+n 
+, x   +   z α/ 2   ·  
+σ
+
+√
+n
+
+
+
+= (482 . 60 ,   531 . 40)   .
+
+b) Suposant ara que la mitjana poblacional ´ es de   μ   = 500 hores, quantes hores de vida ´ util tenen
+el 10% de productes que menys vida ´ util tenen?   ( 5 pt)
+
+Soluci´ o.   Amb les mateixes variables que l’apartat anterior, cercam ara la vida ´ util   v   tal que:
+
+P   ( X   ≤   v ) = 10% = ⇒   P  
+   
+X − 500
+150  
+≤  
+v − 500
+150
+
+  
+= 10%
+= ⇒   P  
+ 
+Z   ≤  
+v − 500
+150
+
+  
+= 10%
+= ⇒   P  
+ 
+Z   ≥ −  
+v − 500
+150
+
+  
+= 90% .
+
+Comprovant-ho a la taula, el valor m´ es proper ´ es per a   Z   = 1 . 28 i, per tant,
+1 . 28   ≥ −  
+v   −   500
+150  
+= ⇒   v   = 500   −   150   ·   1 . 28 = 308 ,
+
+´ es a dir, el 10% de productes que menys vida ´ util tenen, en tenen 308 hores o menys.
+Convocat` oria 2024   |   7 / 8   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Taula de la distribuci´ o normal   N   (0 ,   1).
+Convocat` oria 2024   |   8 / 8   |
+

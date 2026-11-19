@@ -1,0 +1,162 @@
+[Fuente: https://estudis.uib.cat/models-examen/examen/pbau/2025:JUNY:MATEMATIQUESII-Enunciat/Enunciat-MATEMATIQUESII-JUNY-2025.pdf]
+Matem` atiques II   Model 2
+
+La prova consta de quatre parts:   la primera no t´ e diferents opcions, i les altres tres tenen dos
+possibles problemes, a contestar-ne un. En cas de contestar dos problemes d’una mateixa part, nom´ es
+s’avaluar` a el primer.
+Justificau les respostes usant llenguatge matem` atic i/o no matem` atic, segons correspongui. Es permet
+utilitzar calculadora cient´ ıfica b` asica, per` o NO es permet l’´ us de calculadores gr` afiques ni programables,
+ni de dispositius que puguin transmetre o emmagatzemar informaci´ o. Es poden usar regles i bol´ ıgrafs
+de colors (excepte vermell i verd).
+
+Part A.   Contestau l’´ unic problema d’aquesta part (total 2.5 pt).
+
+Problema A1. —   Un grup d’investigaci´ o de l’Escola Polit` ecnica Superior de la UIB va participar el
+desembre del 2023 en un estudi de les profunditats marines.
+L’equip va desplegar diverses tecnologies marines avan¸ cades
+amb la finalitat d’explorar i recollir dades d’h` abitats marins a
+una profunditat de 350 m. Per aquest motiu, una embarcaci´ o
+amb l’equip d’investigaci´ o es va dirigir cap a unes coordenades
+marines espec´ ıfiques.
+
+a)   [1 punt]   Un cop arribats al punt desitjat de la superf´ ıcie del mar, diguem-li   O , varen submergir
+un dispositiu verticalment 315 m (vegeu la figura). Tot seguit, aquest es va despla¸ car 37 m sobre
+la recta     
+x   = 0 ,
+
+35 y   + 12 z   =   − 3780 ,
+
+fins assolir la profunditat desitjada. Calcula el punt on es va situar el dispositiu despr´ es d’aquest
+moviment considerant el punt   O   el centre de refer` encia (l’origen de coordenades).
+b)   [0.5 punts]   Si volem mantenir la profunditat desitjada (350 m), sobre quin pla s’ha de despla¸ car
+el dispositiu?
+c)   [1 punt]   Es deixa que el dispositiu es desplaci lliurement sobre el pla calculat a l’apartat b) i
+es va monitorant des del vaixell. Amb un GPS s’ha detectat, des del vaixell, la pres` encia d’un
+objecte (possiblement un peix) que es despla¸ ca en l´ ınia recta sobre la traject` oria
+
+
+
+
+
+x   = 5 + 4 λ,
+y   = 10 +   λ,
+z   =   − 380 + 10 λ.
+
+Si el dit objecte no canvia la seva traject` oria, podria xocar contra el dispositiu? En cas afirmatiu,
+a quin punt podria oc´ orrer la col · lisi´ o?
+Convocat` oria 2025   |   1 / 3   |
+
+Matem` atiques II   Model 2
+
+Part B.   Escolliu nom´ es un problema d’aquesta part (total 2.5 pt).
+
+Problema B1. —   Una empresa de construcci´ o necessita comprar diferents mat` eries primeres per
+elaborar els seus productes.   Es construeixen 4 productes diferents, els quals requereixen una certa
+quantitat de fusta (que t´ e un cost de   x   A C   / kg), de ferro (que t´ e un cost de   y   A C   / kg) i de pl` astic (que
+t´ e un cost de   z   A C   / kg). Per a l’elaboraci´ o dels diferents productes s’ha recopilat la seg¨ uent informaci´ o
+sobre el cost en mat` eries primeres:
+Producte 1: 2 x   +   y   −   z   = 40   A C   ,
+
+Producte 2:   x   −   y   + 2 z   = 90   A C   ,
+
+Producte 3:   x   + 2 y   = 70   A C   ,
+
+Producte 4:   x   −   y   +   z   = 50   A C   .
+
+(a)   [0.5 punts]   Descriu qu` e significa l’equaci´ o del producte 1.
+(b)   [2 punts]   Amb les dades de qu` e disposam, ´ es possible calcular el preu del kg de cada mat` eria
+primera? 
+´
+Es a dir, calcular   x ,   y ,   z ? Justifica la teva resposta.
+
+Problema B2. —   Siguin   A   i   B   dues matrius 3 × 3 tals que   A   ´ es invertible. Sigui   I   la matriu identitat
+de dimensi´ o 3   ×   3.
+(a)   [1 punt]   Sabent que   AB   +   I   =   A , calcula la inversa de   A   en funci´ o de   I   i   B .
+(b)   [1.5 punts]   Sabent que   A   i la seva inversa   A
+− 1  
+s´ on tals que
+
+A   =
+
+
+
+
+0   1   − 1
+1   − 1   1
+1   2   0
+
+
+  
+,   A
+− 1  
+= 
+1
+2
+
+
+
+
+2   2   0
+
+− 1   − 1   1
+
+− 3   − 1   1
+
+
+  
+,
+
+calcula la matriu   B   que satisf` a la igualtat   AB   +   I   =   A .  ´ Es   B   invertible? Justifica la resposta.
+
+Part C.   Escolliu nom´ es un problema d’aquesta part (total 2.5 pt).
+
+Problema C1. —   La funci´ o que descriu l’altitud   A   d’un terreny (en metres) sobre un tram de 500
+metres ´ es
+
+A ( x ) =   − 0 . 0001 x
+3  
++ 0 . 05 x
+2  
+−   4 x   + 200 ,
+
+on   x   ∈   [0 ,   500] ´ es la dist` ancia recorreguda horitzontalment, mesurada en metres.
+(a)   [1.5 punts]   Demostra que existeix almenys un punt   x   on l’altitud ´ es 0 dins del tram considerat.
+
+Indicaci´ o: es pot fer ´ us del teorema de Bolzano.
+
+(b)   [1 punt]   Estudia els punts cr´ ıtics de la funci´ o i el seu creixement/decreixement per concloure si
+aquest punt ´ es ´ unic o no. Ho ´ es? Justifica la resposta.
+Convocat` oria 2025   |   2 / 3   |
+
+Problema C2. —   Donada la funci´ o
+
+f   ( x ) = 
+1
+
+x  
+ln(2 x ) ,
+
+(a)   [1 punt]   Determina el domini de la funci´ o i el comportament de la funci´ o als extrems del seu
+domini.
+(b)   [1.5 punts]   Calcula l’` area compresa entre   f   ( x ), l’eix d’abscisses i les rectes   x   =  
+1
+2  
+i   x   = 5.
+
+Part D.   Escolliu nom´ es un problema d’aquesta part (total 2.5 pt).
+
+Problema D1. —   Suposem que la probabilitat de tenir tuberculosi ´ es de 0 . 0005.   Sabent que la
+probabilitat que la prova doni positiu sabent que la malaltia ´ es present ´ es del 99% i la probabilitat
+que doni negatiu quan no ho ´ es tamb´ e ´ es del 99%, contesta:
+(a)   [1.25 punts]   Quina ´ es la probabilitat que el test doni positiu si la persona no t´ e la malaltia?
+(b)   [1.25 punts]   Quina ´ es la probabilitat de tenir tuberculosi si el resultat de la prova ´ es negatiu?
+
+Problema D2. —   En una universitat espanyola, el 55% de l’alumnat s´ on dones i el 45% s´ on homes.
+En aquesta universitat, el 13% de les dones estudien una carrera STEM, mentre que el 37% dels homes
+tamb´ e n’estudien una. Si escollim un estudiant a l’atzar:
+(a)   [0.75 punts]   Quina ´ es la probabilitat que l’estudiant escollit estudi¨ ı STEM?
+(b)   [1 punt]   Sabent que l’estudiant escollit estudia STEM, quina ´ es la probabilitat que sigui dona?
+(c)   [0.75 punts]   Sabent que l’estudiant escollit NO estudia STEM, quina ´ es la probabilitat que
+sigui dona?
+3
+

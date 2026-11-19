@@ -1,0 +1,419 @@
+[Fuente: https://estudis.uib.cat/models-examen/examen/pbau/2026:JUL:MATEMSOCIALSII-Criteris/Criteris-MATEMSOCIALSII-JUL-2026.pdf]
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Criteris de correcci´ o globals
+
+•   Les respostes a les preguntes o tasques s’han de realitzar expressant de forma raonada el proc´ es
+seguit per resoldre-les, amb el rigor i la precisi´ o necessaris, usant el llenguatge, la notaci´ o i els
+s´ ımbols matem` atics adequats, i utilitzant arguments, justificacions, explicacions i raonaments
+expl´ ıcits i coherents.   Es valorar` a el grau d’acompliment amb un m` axim de 0,25 punts cada
+exercici.
+– Els errors de c` alcul es penalitzaran amb un 25%; els errors greus i/o que portin a resultats
+incoherents o absurds, amb un 50%.
+– En preguntes mec` aniques o de c` alcul no justificades, amb el 30%-50%; en preguntes de
+justificar, una resposta sense cap justificaci´ o s’ha de penalitzar amb el 100%.
+– En qualsevol pregunta, si apareixen raonaments (que no s´ on clars/evidents) sense justificar,
+amb el 20%-30%.
+– La imprecisi´ o en l’´ us del llenguatge matem` atic (p. ex. variables sense introduir/que canvien
+de significat), o la falta de claredat per abs` encia de llenguatge matem` atic, amb un 20%-30%.
+– L’estructura s’ha de penalitzar en funci´ o de la dificultat per entendre la resposta.
+
+•   La simple descripci´ o del plantejament, sense que es dugui a terme la resoluci´ o de manera efectiva,
+no ´ es suficient per obtenir una valoraci´ o completa de la pregunta o tasca.
+
+•   En les preguntes o tasques en qu` e es demani expressament una deducci´ o raonada, la simple
+aplicaci´ o d’una f´ ormula no ser` a suficient per obtenir-ne una valoraci´ o completa.
+
+•   Els errors comesos en una pregunta o tasca (per exemple, en el c` alcul del valor d’un cert
+par` ametre) no es tindran en compte en la qualificaci´ o dels desenvolupaments posteriors que
+puguin veure’s afectats, sempre que resultin d’una complexitat equivalent.
+
+•   Els errors en les operacions aritm` etiques elementals es penalitzaran amb un m` axim de 0,25 punts
+en cada pregunta o tasca
+
+•   Si l’alumne presenta m´ es problemes que els demanats, corregiu-ne els que apareixen primer.
+
+Criteris de correcci´ o espec´ ıfics
+
+Nom´ es es detallen els apartats en qu` e hi ha diverses preguntes o que es poden desglossar. En apartats
+on s’omet el criteri de correcci´ o espec´ ıfic, aquest ser` a simplement “C` alcul i/o justificaci´ o correcta”. Si
+no est` a indicat, tots els apartats d’una mateixa pregunta tenen la mateixa valoraci´ o.
+Convocat` oria 2026   |   1 / 9   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+La prova consta de tres parts:   la primera no t´ e diferents opcions, i les altres dues tenen dos
+possibles problemes, a contestar-ne un. En cas de contestar dos problemes d’una mateixa part, nom´ es
+s’avaluar` a el primer. Vegeu la puntuaci´ o a cada exercici.
+No es permet l’´ us de calculadores gr` afiques ni programables, ni de dispositius que puguin transmetre
+o emmagatzemar informaci´ o. Es poden usar regles i bol´ ıgrafs de colors (excepte vermell i verd).
+
+Part A.   Contestau   tots els problemes   d’aquesta part (total 4 pt).
+
+Problema A1. —   En una regi´ o, la probabilitat que un dia determinat s’inici¨ ı un incendi forestal
+dep` en de l’estaci´ o de l’any: cada dia durant l’estiu aquesta probabilitat ´ es de 0.09, a la tardor ´ es de
+0.05, a l’hivern ´ es de 0.02, i a la primavera ´ es de 0.08. Escollirem un dia a l’atzar i suposarem que la
+probabilitat que l’estaci´ o de l’any sigui una o una altra ´ es la mateixa.
+a) Escollint un dia de l’any a l’atzar, quina ´ es la probabilitat que s’inici¨ ı un incendi forestal?
+
+Criteris:   0.25 pts per identificar els esdeveniments, 0.5 pts per justificar el c` alcul, 0.25 pts per
+indicar el resultat correcte. Penalitzau amb -0.25 pts per cada error d’escriptura.   (Total   1 pt)
+
+Soluci´ o.   Considerem els successos:
+–   A : s’inicia un incendi forestal.
+–   B 1 , B 2 , B 3 , B 4 : ´ es estiu/tardor/hivern/primavera, respectivament.
+At` es que estar en una o altra estaci´ o ´ es equiprobable, i totes elles passen amb probabilitat 1 / 4,
+podem calcular:
+
+P   ( A ) =   P   ( A   |   B 1 ) P   ( B 1 ) +   . . .   +   P   ( A   |   B 4 ) P   ( B 4 ) = 
+0 . 09 + 0 . 05 + 0 . 02 + 0 . 08
+4  
+= 0 . 06 .
+
+´ Es a dir, la probabilitat que s’inici¨ ı un incendi forestal ´ es de 0.06.
+b) Escollint un dia de l’any a l’atzar, considera els successos seg¨ uents:   A , s’inicia un incendi forestal
+aquest dia;   B , aquest dia ´ es de primavera. S´ on els successos   A   i   B   independents?
+
+Criteris:   0.5 pts per plantejar, 0.5 pts pels c` alculs i comprovaci´ o. Penalitzau amb -0.25 pts
+per cada error d’escriptura.   (Total   1 pt)
+
+Soluci´ o.   No s´ on independents, ja que la probabilitat que s’inici¨ ı un incendi forestal ´ es diferent
+quan sabem que ´ es primavera:
+
+P   ( A ) = 0 . 06 ̸   = 0 . 08 =   P   ( A   |   B 4 ) .
+
+Convocat` oria 2026   |   2 / 9   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Problema A2. —   En un estudi es va suggerir que el temps que cada jove d’una poblaci´ o dedica al
+dia a les xarxes socials segueix una distribuci´ o normal, de mitjana 116 minuts i desviaci´ o t´ ıpica 42
+minuts.
+a) Quina proporci´ o de joves d’aquesta poblaci´ o dedica entre 100 i 200 minuts a les xarxes so-
+cials?
+
+Criteris:   0.5 pts per plantejar, 0.5 pts per calcular.   Penalitzau amb -0.25 pts per cada er-
+ror d’escriptura.   Penalitzau amb -0.25 pts per cada error d’arrodoniment.   No penalitzeu per
+expressar el resultat en [0, 1].   (Total   1 pt)
+
+Soluci´ o.   Escollint un jove d’aquesta poblaci´ o, sigui   X   la variable aleat` oria que indica els minuts
+que dedica al dia a les xarxes socials. Aleshores,
+
+P   (100   ≤   X   ≤   200) = 0 . 626 .
+
+´
+Es a dir, el 62.6% de joves dedica entre 100 i 200 minuts a les xarxes socials.
+b) En Joan ´ es del 10% de joves que m´ es temps dedica a les xarxes socials.   Quants minuts hi
+dedica?
+
+Criteris:   0.5 pts per plantejar, 0.5 pts per calcular. Penalitzau amb -0.25 pts per cada error
+d’arrodoniment. No penalitzeu si indiquen que s´ on exactament 169.83 minuts.   (Total   1 pt)
+
+Soluci´ o.   Amb la notaci´ o de l’apartat anterior, cercam la quantitat de minuts   m   tals que:
+
+P   ( X   ≤   m ) = 0 . 9 ,
+
+i, calculant, obtenim   m   = 169 . 83.  ´ Es a dir, en Joan hi dedica almenys 169.83 minuts.
+Convocat` oria 2026   |   3 / 9   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Part B.   Contestau   nom´ es un problema   d’aquesta part (total 3 pt).
+
+Problema B1. —   En una sala d’operacions podem dur a terme dos tipus d’operacions:
+– Tipus A: Necessita 4 ap` osits, 2 cat` eters, i t´ e una durada de 0.5 hores.
+– Tipus B: Necessita 6 ap` osits, 1 cat` eter, i t´ e una durada d’1 hora.
+Necessitam fer almenys 10 operacions en total, i disposam nom´ es de 60 ap` osits i 26 cat` eters.
+Quantes operacions de cada tipus hem de fer per maximitzar les hores d’´ us de la sala d’operacions?
+
+Criteris:   0.5 pts per indicar funci´ o objectiu, 0.5 pt per determinar rectes (penalitzau amb -0.25
+pts si falten les rectes   x, y   ≥   0, penalitzau amb -0.25 per cada una de les altres rectes), 1 pt per tra¸ car
+rectes i regi´ o factible (penalitzau amb -0.25 pts per cada recta incorrectament tra¸ cada, penalitzau amb
+-0.5 pts si la regi´ o factible ´ es incorrecta), 0.5 pts per identificar els v` ertexs (penalitzau amb -0.25 per
+cada v` ertex incorrecte), 0.5 pts per calcular el m` axim i interpretar.   (Total   3 pt)
+
+Soluci´ o.   Plantejarem aquest problema com un problema de programaci´ o lineal, on intentarem
+maximitzar el nombre d’hores que est` a ocupada la sala d’operacions.
+Siguin   a   i   b   el nombre d’operacions de cada tipus respectiu que farem.   La funci´ o objectiu per
+maximitzar ser` a   f   ( a, b ) = 0 . 5 a   +   b .
+Les condicions que s’hauran de satisfer s´ on:
+
+
+
+
+
+
+
+
+
+
+
+
+
+(1)   a   ≥   0 ,
+
+(2)   b   ≥   0 ,
+
+(3)   4 a   + 6 b   ≤   60 ,
+
+(4)   2 a   +   b   ≤   26 ,
+
+(5)   a   +   b   ≥   10 ,
+
+Amb aquestes, els v` ertexs de la regi´ o factible s´ on   A   = (0 ,   10),   B   = (12 ,   2),   C   = (13 ,   0),
+
+D   = (10 ,   0). El m` axim nombre d’hores que es podr` a ocupar ´ es de 10 hores, corresponent al v` ertex   A .
+Convocat` oria 2026   |   4 / 9   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Convocat` oria 2026   |   5 / 9   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Problema B2. —   Per a qualsevol valor del par` ametre   x   podem trobar tres matrius,   A, B, C , de
+mida 3   ×   3, de manera que sempre se satisfan les igualtats seg¨ uents:
+
+A   =
+
+
+
+
+0   4   2
+
+− 2   x   x
+
+0   6   2
+
+
+   ,   A   ·   B   = Id ,   B   ·   ( C   +   C ) = Id .
+
+a) Per a quins valors del par` ametre   x ,   A   ·   A   = Id?
+
+Criteris:   0.5 pts per calcular   A   ·   A , 0.5 pts determinar els valors del par` ametre   x . Penalitzau
+amb -0.25 pts per cada error de c` alcul.   (Total   1 pt)
+
+Soluci´ o.   Calculant, ´ es suficient trobar un ´ unic valor en qu` e siguin diferents:
+
+A   ·   A   =
+
+
+
+
+0   4   2
+
+− 2   x   x
+
+0   6   2
+
+
+  
+·
+
+
+
+
+0   4   2
+
+− 2   x   x
+
+0   6   2
+
+
+  
+=
+
+
+
+
+
+− 8
+. 
+. 
+.
+
+
+
+ ̸   = Id .
+
+Per tant, per a cap valor de   x   no es satisf` a la igualtat.
+b) Determina C en funci´ o de   x .
+
+Criteris:   1 pt per indicar que   B   o ( C   +   C ) s´ on la inversa d’ A , 1 pt per expressar   C   =  
+1
+2  
+A .
+Penalitzau amb -0.5 pts per cada error de c` alcul.   (Total   2 pt)
+
+Soluci´ o.
+
+C   +   C   =   B
+− 1  
+=   A   =
+
+
+
+
+0   4   2
+
+− 2   x   x
+
+0   6   2
+
+
+   = ⇒   C   = 
+1
+2
+
+
+
+
+0   4   2
+
+− 2   x   x
+
+0   6   2
+
+
+   =
+
+
+
+
+0   2   1
+
+− 1   x/ 2   x/ 2
+0   3   1
+
+
+   .
+
+Convocat` oria 2026   |   6 / 9   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Part C.   Contestau   nom´ es un problema   d’aquesta part (total 3 pt).
+
+Problema C1. —   L’al¸ cada mitjana a Espanya s’ha incrementat els darrers 200 anys per factors com
+l’alimentaci´ o i la salut. Fa 200 anys, l’al¸ cada mitjana a Espanya era de 157 cm. Actualment ´ es de 169
+cm. Aproximarem l’al¸ cada mitjana a Espanya amb la funci´ o   f   ( t ), en cm, seg¨ uent:
+
+f   ( t ) = 169 +   t   ·   m,
+
+on   m   ´ es una constant desconeguda i   t   ´ es la variable que indica els anys que han passat des d’avui en
+dia.   ´ Es a dir,   f   (0) representa l’al¸ cada mitjana avui en dia, i   f   ( − 200) representa l’al¸ cada mitjana fa
+200 anys.
+a) Calcula el valor del par` ametre   m .
+
+Criteris:   0.5 pts per plantejar la igualtat   f   ( − 200) = 157, 0.5 pts per calcular.   (Total   1 pt)
+
+Soluci´ o.   Per l’enunciat podem deduir dues condicions.
+La primera ´ es 169 =   f   (0) = 169 + 0   ·   m .   Aquesta ´ es una igualtat certa independentment del
+par` ametre   m   i, per tant, no permet calcular el valor de   m .
+La segona condici´ o ´ es 157 =   f   ( − 200) = 169 + ( − 200)   ·   m , que implica que   m   =  
+157 − 169
+
+− 200  
+=  
+− 12
+
+− 200  
+=
+0 . 06.
+b) Segons la nostra funci´ o   f   ( t ), quina ser` a l’al¸ cada mitjana d’aqu´ ı a 50 anys?
+
+Criteris:   Penalitzau amb -0.5 pts per error de c` alcul.   (Total   1 pt)
+
+Soluci´ o.   f   (50) = 169 + 50   ·   0 . 06 = 172 cent´ ımetres.
+c) Calcula   f  
+′
+(0). Qu` e representa aquest valor?
+
+Criteris:   0.25 pts per calcular   f  
+′
+( t ), 0.25 pts per calcular   f  
+′
+(0), 0.5 pts per interpretar. Penal-
+itzau amb tota la puntuaci´ o per errors en la derivada.   (Total   1 pt)
+
+Soluci´ o.   La derivada de la funci´ o ´ es   f  
+′
+( t ) = (169 +   t   ·   m )
+′  
+=   m , ´ es a dir, ´ es constant igual a
+
+m .   Per tant, en l’origen, la derivada ´ es   f  
+′
+(0) =   m   = 0 . 06 cent´ ımetres per any.   Aquest valor
+representa quin ´ es l’increment en l’actualitat de l’al¸ cada mitjana de la poblaci´ o espanyola, en
+cent´ ımetres per any.
+Convocat` oria 2026   |   7 / 9   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Problema C2. —   Considera la funci´ o   f   ( x ) = ln(2 x ), per a   x   ∈   (0 ,   + ∞ ).
+a) Fes una gr` afica esquem` atica de la funci´ o   f   ( x ).   Calcula o justifica, i indica sobre la gr` afica el
+valor de la funci´ o en els extrems del domini, els intervals de creixement i decreixement, i els
+m` axims i m´ ınims relatius i absoluts.
+
+Criteris:   0.5 pts per indicar els valors en els extrems del domini (penalitzeu -0.125 pts per cada
+error de llenguatge en els l´ ımits), 0.5 pts per calcular la derivada, 0.75 pts per indicar els intervals
+de creixement/decreixement i identificar els m` axims/m´ ınims relatius i absoluts (penalitzau amb -
+0.25 pts si no indiquen quins s´ on els m` axims o m´ ınims absoluts), 0.25 pts per la claredat/correcci´ o
+de la gr` afica i els eixos.   Penalitzau amb tota la puntuaci´ o les gr` afiques basades ´ unicament en
+una taula de punts.   (Total   2 pt)
+
+Soluci´ o.   En els extrems del domini,
+l´ ım
+
+x → 0
++
+f   ( x ) = l´ ım
+
+x → 0
++  
+ln(2 x ) =   l´ ım
+
+x → 0
++  
+(ln(2) + ln( x )) =   −∞ ,
+
+l´ ım
+
+x →∞
+f   ( x ) = l´ ım
+
+x →∞  
+ln(2 x ) = l´ ım
+
+x →∞  
+(ln(2) + ln( x )) = + ∞ .
+
+La seva derivada ´ es   f  
+′
+( x ) =  
+1
+
+x  
+que, en el domini   x   ∈   (0 ,   + ∞ ) ´ es sempre positiva.   Per tant,
+la funci´ o ´ es creixent en tot l’interval (0 ,   + ∞ ), no t´ e extrems relatius i no t´ e m´ ınim ni m` axim
+absoluts.
+b) Sobre la mateixa gr` afica, tra¸ ca la recta tangent a la funci´ o en el punt   x   = 1. Quin ´ es el valor
+del seu pendent?
+
+Criteris:   0.5 pts per calcular el pendent, 0.5 pts per tra¸ car la recta.   (Total   1 pt)
+
+Soluci´ o.   Per a   x   = 1, el pendent de la recta tangent ´ es   f  
+′
+(1) =  
+1
+1  
+= 1.
+
+Convocat` oria 2026   |   8 / 9   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Taula de la distribuci´ o normal   N   (0 ,   1).
+Convocat` oria 2026   |   9 / 9   |
+

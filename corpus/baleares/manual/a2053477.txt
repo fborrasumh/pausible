@@ -1,0 +1,545 @@
+[Fuente: https://estudis.uib.cat/models-examen/examen/pbau/2026:JUL:MATEMATIQUESII-Criteris/Criteris-MATEMATIQUESII-JUL-2026.pdf]
+Matem` atiques II   Model 1
+
+Criteris de correcci´ o globals
+
+•   Les respostes a les preguntes o tasques s’han de redactar expressant de forma raonada el proc´ es
+seguit en la resoluci´ o, amb el rigor i la precisi´ o necessaris, usant el llenguatge, la notaci´ o i els
+s´ ımbols matem` atics adequats, i utilitzant arguments, justificacions, explicacions i raonaments
+expl´ ıcits i coherents.   El grau de compliment es valorar` a amb un m` axim d’1 punt en tota la
+prova.
+– Els errors de c` alcul es penalitzaran amb un 25%; els errors greus i/o que portin a resultats
+incoherents o absurds, amb un 50%.
+– En preguntes mec` aniques o de c` alcul no justificades, amb el 30%-50%; en preguntes de
+justificar, una resposta sense cap justificaci´ o s’ha de penalitzar amb el 100%.
+– En qualsevol pregunta, si apareixen raonaments (que no s´ on clars/evidents) sense justificar,
+amb el 20%-30%.
+– La imprecisi´ o en l’´ us del llenguatge matem` atic (per exemple, variables sense introduir/que
+canvien de significat), o la falta de claredat per abs` encia de llenguatge matem` atic, amb un
+20%-30%.
+– L’estructura s’ha de penalitzar en funci´ o de la dificultat per entendre la resposta.
+
+•   La simple descripci´ o del plantejament, sense que es dugui a terme la resoluci´ o de manera efectiva,
+no ´ es suficient per obtenir una valoraci´ o completa de la pregunta o tasca.
+
+•   En les preguntes o tasques en qu` e es demani expressament una deducci´ o raonada, la simple
+aplicaci´ o d’una f´ ormula no ser` a suficient per obtenir-ne una valoraci´ o completa.
+
+•   Els errors comesos en una pregunta o tasca (per exemple, en el c` alcul del valor d’un cert
+par` ametre) no es tendran en compte en la qualificaci´ o dels desenvolupaments posteriors que
+se’n puguin veure afectats, sempre que resultin d’una complexitat equivalent.   En el cas de la
+pregunta competencial-contextualitzada, s´ ı que es penalitzar` a si els resultats que es van obtenint
+no tenen coher` encia dins el context.
+
+•   Si l’alumne presenta m´ es problemes que els demanats, corregiu-ne els que apareixen primer.
+
+Criteris de correcci´ o espec´ ıfics
+
+Nom´ es es detallen els apartats en qu` e hi ha diverses preguntes o que es poden desglossar. En apartats
+on s’omet el criteri de correcci´ o espec´ ıfic, aquest ser` a simplement “C` alcul i/o justificaci´ o correcta”. Si
+no est` a indicat, tots els apartats d’una mateixa pregunta tenen la mateixa valoraci´ o.
+Convocat` oria 2026   |   1 / 7   |
+
+Matem` atiques II   Model 1
+
+Part A.
+Problema 1. —   Soluci´ o.
+
+(a) Sigui   π   el pla que cont´ e els sat` el · lits   A, B   i   C . Notem que els vectors directors del pla s´ on
+⃗
+AB   = (2 ,   0 ,   − 2) ,⃗   AC   = (4 ,   2 ,   0) .
+
+Aleshores,
+
+π   :
+
+
+
+
+
+
+
+x   = 1 + 2 λ   + 4 β,
+y   = 2 + 2 β,
+z   = 3   −   2 λ.
+
+Per veure que formen un pla orbital, cal veure que el centre de la Terra (origen) pertany a aquest
+pla. En efecte,
+
+
+
+
+
+
+
+0 = 1 + 2 λ   + 4 β,
+
+0 = 2 + 2 β,
+
+0 = 3   −   2 λ.
+
+⇒
+
+
+
+
+
+
+
+0 = 1 + 2 λ   + 4 β   ⇒   1 + 2  
+3
+2  
++ 4( − 1) = 0   ✓
+
+β   =   − 1 ,
+λ   =  
+3
+2
+
+Nota:   Si es vol donar l’equaci´ o expl´ ıcita del pla, tenim que el vector normal de   π   ´ es
+⃗
+n   =
+⃗
+i⃗   j⃗   k
+
+2   0   − 2
+4   2   0
+
+= (4 ,   − 8 ,   4)   ≡   (1 ,   − 2 ,   1) ,
+
+Per tant, l’equaci´ o expl´ ıcita del pla ´ es   x   −   2 y   +   z   +   d   = 0 tal que
+
+x   −   2 y   +   z   +   d   = 0   ⇒   1   −   2   ·   2 + 3 +   d   = 0   ⇒   d   = 0 .
+
+´
+Es a dir,   π 1   :   x   −   2 y   +   z   = 0 on podem observar que, en efecte, el punt (0 ,   0 ,   0) hi pertany.
+(b) Hem de proporcionar un punt   F   de tal manera que   D, E   i   F   formin un pla orbital. Aix´ ı doncs,
+
+F   ha de ser un punt del pla   DEO   (sent   O   l’origen (0 ,   0 ,   0)).
+Calculem el pla   DEO . Notem que t´ e vectors directors
+⃗
+DE   = (2 ,   2 ,   0)   ≡   (1 ,   1 ,   0) ,⃗   DO   = (2 ,   1 ,   1) .
+
+Aleshores,
+
+π 1   :
+
+
+
+
+
+
+
+x   =   λ   + 2 β,
+y   =   λ   +   β,
+z   =   β.
+
+Per tant,   F   ´ es qualsevol punt de la forma
+( λ   + 2 β, λ   +   β, β ) ;   λ, β   ∈   R ,
+
+Convocat` oria 2026   |   2 / 7   |
+
+Matem` atiques II   Model 1
+
+diferents de   O ,   D   i   E   (´ es a dir, ( λ, β )   ∈   R
+2  
+− { (0 ,   1) ,   (2 ,   1) ,   (0 ,   0) } ).   Un possible punt a donar seria
+
+F   (6 ,   4 ,   2) .
+
+Criteris:
+
+(a) 0 . 5 punts per calcular correctament l’equaci´ o del pla. 0 . 5 punts per comprovar que ´ es pla orbital
+((0 ,   0 ,   0)   ∈   π ).
+(b) 0 . 5 punts per calcular correctament l’equaci´ o del pla   DEO .   0 . 5 punts per propocionar un   F
+
+v` alid. Es penalitza amb   − 0 . 25 si nom´ es proporcionen el cas general i no especifiquen un punt
+concret.
+Aquest apartat es podria resoldre de manera diferent de la plantejada. En general, valoram amb
+0 . 5 punts per plantejar correctament el problema i 0 . 5 punts per executar-lo correctament.
+Es penalitza amb un m` axim de   − 0 . 4 punts si la formalitzaci´ o matem` atica no ´ es adequada.
+
+Problema 2. —   Soluci´ o.
+
+(a) Notem que el domini de la funci´ o ´ es   D   = (0 ,   + ∞ ). Per tant, hem de calcular
+l´ ım
+
+x → 0
+
+x
+4  
+−   6 x
+3  
++   e
+x
+√
+x
+
+√
+x  
+= l´ ım
+
+x → 0  
+x  
+7
+2   −   6 x  
+5
+2   +   e
+x  
+= 1 ,
+
+l´ ım
+
+x → + ∞
+
+x
+4  
+−   6 x
+3  
++   e
+x
+√
+x
+
+√
+x  
+=   l´ ım
+
+x → + ∞  
+x  
+7
+2   −   6 x  
+5
+2   +   e
+x  
+= + ∞ ,
+
+ja que   e
+x  
+creix m´ es de pressa que   x
+7 / 2
+.
+(b) Notem que   f   (2) =   − 15 . 2384   <   − 1 i   f   (4) =   − 9 . 4018. Aleshores, volem calcular
+
+Z  
+4
+2
+
+( − 1   −   f   ( x )) d x   =
+
+Z  
+4
+2
+
+
+
+− 1   −   x  
+7
+2   + 6 x  
+5
+2   −   e
+x
+
+
+d x   =
+
+
+
+− x   −  
+2
+9  
+x  
+9
+2   + 6 
+2
+7  
+x  
+7
+2   −   e
+x
+
+
+4
+2
+
+d x
+
+= 47 . 0526   −   4 . 9776 = 42 . 075   u
+2
+.
+
+Criteris:
+
+(a) 0 . 25 punts per cada l´ ımit ben plantejat i 0 . 25 per cada l´ ımit ben calculat.
+(b) 0 . 5 punts per plantejar correctament la integral, 0 . 25 punts per calcular b´ e la integral, 0 . 25 punts
+per aplicar correctament la regla de Barrow. Es penalitza amb   − 0 . 25 punts si no indiquen les
+unitats.
+Es penalitza amb un m` axim de   − 0 . 4 punts si la formalitzaci´ o matem` atica no ´ es adequada.
+Convocat` oria 2026   |   3 / 7   |
+
+Matem` atiques II   Model 1
+
+Problema 3. —   Soluci´ o.   Sigui   A   el succ´ es “Jugar a b` asquet” i   B   el succ´ es “Estar federat”. Segons
+les dades de l’enunciat, tenim que
+
+•   P   ( A ) =  
+60
+100  
+, que ens indica que el 60% de 60 = 36 alumnes juguen a b` asquet.
+
+•   P   ( B ) =  
+35
+100  
+, que ens indica que el 35% de 60 = 21 alumnes estan federats.
+
+•   P   ( A ∩ B ) =  
+25
+100  
+, que ens indica que el 25% de 60 = 15 alumnes juguen a b` asquet i estan federats.
+Tot seguit es pot observar el diagrama de Venn resultant.
+
+(a)   P   ( B   \   A ) =   P   ( B   ∩  
+¯
+A ) =   P   ( B )   −   P   ( A   ∩   B ) =  
+10
+100 
+= 0 . 1, per tant, el 10% de 60 = 6 alumnes
+estan federats, per` o no juguen.
+(b)   P   ( B | A ) =  
+P   ( A   ∩   B )
+
+P   ( A )  
+= 
+0 . 25
+0 . 6  
+= 0 . 4167.
+
+Criteris:
+
+(a) 0 . 25 punts pel plantejament i notaci´ o correctes, 0 . 25 punts per la resposta correcta de la proba-
+bilitat i 0 . 5 punts per calcular el nombre d’alumnes correctament.
+(b) 0 . 5 punts pel plantejament i notaci´ o correctes, 0 . 5 punts per la resposta correcta.
+Es penalitza amb   − 0 . 2 punts si no defineixen els successos correctament.
+Es penalitza tot l’apartat (puntuaci´ o 0 punts) si el resultat ´ es incoherent (probabilitats fora de
+l’interval [0 ,   1]).
+Convocat` oria 2026   |   4 / 7   |
+
+Matem` atiques II   Model 1
+
+Part B.
+Problema 4. — P4.1   Soluci´ o.
+
+(a) Volem veure que la derivada de la funci´ o s’anul · la en cada un dels intervals proporcionats.
+Per aix` o, calculem primer la derivada i vegem despr´ es l’exist` encia d’aquests punts aplicant
+el teorema de Bolzano en cada un dels intervals.
+
+f  
+′
+( x ) = 
+3 x
+2
+( x   + 2)   −   ( x
+3  
++ 1)
+( x   + 2)
+2  
+= 
+2 x
+3  
++ 6 x
+2  
+−   1
+( x   + 2)
+2  
+,
+
+la qual ´ es cont´ ınua a   x   ∈   R   − {− 2 } , ja que el denominador s’anul · la a   x   =   − 2. Ara b´ e, en
+cada un dels intervals proporcionats, la funci´ o ´ es cont´ ınua. A m´ es,
+
+f  
+′
+( − 3) =   − 1   <   0 ,   f  
+′
+( − 2 . 5) = 21   >   0   ⇒ Bolzano   ∃ c 1   ∈   ( − 3 ,   − 2 . 5);   f  
+′
+( c 1 ) = 0 .
+f  
+′
+( − 1) = 3 ,   f  
+′
+(0) =   − 0 . 25   ⇒ Bolzano   ∃ c 2   ∈   ( − 1 ,   0);   f  
+′
+( c 2 ) = 0 .
+f  
+′
+(0) =   − 0 . 25 ,   f  
+′
+(1) = 0 . 7778   ⇒ Bolzano   ∃ c 3   ∈   (0 ,   1);   f  
+′
+( c 3 ) = 0 .
+
+(b) Pel signe de la derivada en els extrems dels intervals, es conclou que en   c 1   hi ha un m´ ınim,
+en   c 2   un m` axim i en   c 3   un altre m´ ınim.
+
+Criteris:
+
+(a) 0 . 25 per calcular la derivada de la funci´ o, 0 . 5 per justificar b´ e que la funci´ o ´ es cont´ ınua,
+0 . 25 per veure que els extrems dels intervals tenen signe oposat, 0 . 25 punts per indicar que
+empren el teorema de Bolzano i concloure l’exist` encia dels diferents punts cr´ ıtics.
+(b) 0 . 25 punts per cada punt cr´ ıtic ben classificat.
+Es penalitza amb un m` axim de   − 0 . 4 punts si la formalitzaci´ o matem` atica no ´ es adequada.
+
+P4.2   Soluci´ o.
+
+(a) Volem veure cap a quina dist` ancia del punt inicial es dirigeix el dof´ ı a mesura que passa el
+temps. Per tant,
+l´ ım
+
+t →∞  
+d ( t ) = l´ ım
+
+t →∞  
+140  
+ 
+1   −   e
+− 0 . 05 t
+  
+= 140   m.
+
+(b) Volem veure el creixement i decreixement de la funci´ o velocitat, la qual ´ es   v ( t ) =   d
+′
+( t ) =
+140   ·   0 . 05 e
+− 0 . 05 t  
+= 7 e
+− 0 . 05 t
+.   Calculant la derivada de   v ( t ) tenim que
+
+v
+′
+( t ) =   − 0 . 35 e
+− 0 . 05 t  
+<   0 ,
+
+per tant, la velocitat sempre decreix, ja que la seva derivada ´ es sempre negativa. Aleshores,
+la velocitat m` axima s’assoleix a   t   = 0, sent aquesta   v (0) = 7 m/s. La velocitat m´ ınima no
+s’assoleix en un temps finit per` o s´ ı que tendeix a 0 m/s, ja que
+l´ ım
+
+t →∞  
+v ( t ) = l´ ım
+
+t →∞  
+7 e
+− 0 . 05 t  
+= 0 m/s .
+
+Tendeix a aturar-se.
+Convocat` oria 2026   |   5 / 7   |
+
+Matem` atiques II   Model 1
+
+Criteris:
+
+(a) Es valora amb 0 . 25 punts si es planteja correctament el problema i 0 . 25 punts m´ es si es
+resol correctament.
+(b) Es valora amb 0 . 25 punts per calcular correctament la funci´ o velocitat ( d
+′
+( t )), 0 . 25 punts
+per calcular correctament   v
+′
+( t ), 0 . 25 punts si veuen correctament que la velocitat sempre
+decreix, 0 . 25 punts per calcular la velocitat m` axima i 0 . 5 punts per calcular-ne la m´ ınima
+(0 . 25 al c` alcul i 0 . 25 per concloure que s’atura).
+Aquest apartat es pot resoldre, alternativament, indicant que, al ser la velocitat una funci´ o
+exponencial decreixent positiva, llavors el m` axim est` a en   t   = 0 i el m´ ınim ´ es 0.   En tal
+cas, 0 . 25 per calcular correctament la funci´ o velocitat ( d
+′
+( t )), 0 . 5 per indicar que ´ es una
+funci´ o exponencial decreixent, 0 . 25 per indicar que, a m´ es, ´ es positiva, 0 . 25 per calcular la
+velocitat m` axima i 0 . 25 per dir que tendeix a aturar-se.
+Es penalitza amb un m` axim de   − 0 . 4 punts si la formalitzaci´ o matem` atica no ´ es adequada.
+
+Problema 5. — P5.1   Soluci´ o.   Vegem primer de tot   AC . Notem que tant   A   com   C   s´ on de dimensi´ o
+2   ×   3. Per tant, el nombre de columnes de   A   no coincideix amb el nombre de files de   C , per la
+qual cosa no es poden multiplicar.
+Vegem ara   D
+− 1
+A . Notem que   D   no ´ es una matriu quadrada, ja que ´ es 2   ×   3 i, per tant, no ´ es
+invertible i no es pot realitzar l’operaci´ o.
+Vegem ara   B ( A   +   C )
+⊤
+. Notem que   A   i   C   tenen la mateixa dimensi´ o, per tant, es poden sumar,
+i donen lloc a una matriu 2   ×   3.   En transposar-la obtenim una matriu 3   ×   2.   Com que   B   ´ es
+una matriu de dimensi´ o 1   ×   3, el nombre de columnes de   B   coincideix amb el nombre de files de
+( A   +   C )
+⊤  
+i, per tant, es poden multiplicar, i donen lloc a una matriu 1   ×   2.
+
+Criteris:
+
+(i) 0 . 5 punts per discutir que   AC   no ´ es calculable;
+(ii) 0 . 5 punts per veure que   D   no ´ es invertible;
+(iii) 0 . 5 punts per discutir que   B ( A   +   C )
+⊤  
+´ es calculable i 0 . 5 punts per dir-ne correctament la
+dimensi´ o.
+Una resposta sense una justificaci´ o v` alida no s’avalua.
+
+P5.2   Soluci´ o.   Necessitam discutir si es tracta d’un sistema compatible determinat o no.
+El sistema en forma matricial s’escriu com a   A x   =   b   tal que
+
+A   =
+
+
+
+
+2   1   1
+4   5   7
+1   2   3
+
+
+  
+,   b   =
+
+
+
+
+6500
+22500
+8000
+
+
+  
+.
+
+Llavors,
+det( A ) =
+
+2   1   1
+4   5   7
+1   2   3
+
+= 30 + 8 + 7   −   5   −   28   −   12 = 0;   det( M 33 ) =  
+2   1
+4   5  
+= 10   −   4 = 6 ̸   = 0 .
+
+Convocat` oria 2026   |   6 / 7   |
+
+Per tant, el Rang( A ) = 2. Notem que amb aix` o ja basta per dir que el sistema no ´ es compatible
+determinat, ja que Rang( A ) ̸   = nombre d’inc` ognites. Conseg¨ uentment, no es pot donar una ´ unica
+soluci´ o del sistema, la qual cosa implica que no es poden determinar de manera ´ unica els costos
+del servei. Notem que pot passar que el sistema no tengui soluci´ o o que en tengui infinites. Si
+es vol assegurar que en t´ e infinites cal veure que Rang( A | b ) = 2 (no cal).
+Una altra manera d’atacar el problema seria resolent directament el sistema, d’on s’obtendria
+que hi ha infinites solucions o veure directament que
+(Esdeveniment 2) = (Esdeveniment 1) + 2(Esdeveniment 3) .
+
+Totes les estrat` egies s´ on v` alides.
+
+Criteris:   0 . 5 punts per plantejar correctament el problema, 1 punt per executar-lo correcta-
+ment, 0 . 5 punts per concloure el resultat.
+Es penalitza amb un m` axim de   − 0 . 4 punts si la formalitzaci´ o matem` atica no ´ es adequada.
+7
+

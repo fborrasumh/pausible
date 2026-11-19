@@ -1,0 +1,774 @@
+[Fuente: https://estudis.uib.cat/models-examen/examen/pbau/2023:JUL:MATEMATIQUESII-Criteris/Criteris-MATEMATIQUESII-JUL-2023.pdf]
+Matem` atiques II   Model 3
+
+Criteris de correcci´ o globals
+
+•   Heu de corregir quatre q¨ uestions en total d’entre les vuit proposades. Si l’alumne presenta m´ es de quatre
+q¨ uestions, corregiu-ne les quatre primeres.
+
+•   Cada problema t´ e una puntuaci´ o m` axima de 10. Cal tenir presents les puntuacions m` aximes que apareixen
+a cada apartat (si no est` a indicat, tots els apartats d’una mateixa pregunta tenen la mateixa valoraci´ o).
+Les puntuacions dels apartats s´ on independents: si l’alumne s’ha equivocat en qualque apartat per` o fa b´ e
+els altres (segons les “seves” dades equivocades), donau-li la puntuaci´ o adient.
+
+•   Es valorar` a conjuntament el resultat, la justificaci´ o (ja sigui simb` olica o escrita), la claredat i ´ us del
+llenguatge matem` atic i no matem` atic, i l’estructura de la resposta. Orientativament, penalitzau:
+– Els errors de c` alcul amb un 25%; els errors greus i/o que portin a resultats incoherents o absurds,
+amb un 50%.
+– En preguntes de justificar, si la justificaci´ o ´ es nom´ es “intu¨ ıtiva” (p. ex. una observaci´ o que no respon
+exhaustivament a all` o que s’ha demanat), amb el 30%-50%; en preguntes de justificar, una resposta
+sense cap justificaci´ o s’ha de penalitzar amb el 100%.
+– En qualsevol pregunta, si apareixen raonaments (que no s´ on clars/evidents) sense justificar, amb el
+20%-30%.
+– La imprecisi´ o en l’´ us del llenguatge matem` atic (p.   ex.   variables sense introduir/que canvien de
+significat), o la falta de claredat per abs` encia de llenguatge matem` atic, amb un 20%-30%.
+– L’estructura s’ha de penalitzar en funci´ o de la dificultat per entendre la resposta.
+
+•   Hi pot haver casos en qu` e hi hagi dubtes en aplicar els criteris generals o espec´ ıfics. En aquests casos, feu
+prevaler el vostre criteri i sentit com´ u.
+
+Criteris de correcci´ o espec´ ıfics
+
+Nom´ es es detallen els apartats en qu` e hi ha diverses preguntes o que es poden desglossar. En apartats on s’omet
+el criteri de correcci´ o espec´ ıfic, aquest ser` a simplement “C` alcul i/o justificaci´ o correcta”.
+
+P1. —   Sigui el sistema  
+
+
+
+
+mx   +   y   −   z   = 1
+2 x   +   my   = 1
+
+x   +   mz   = 0
+
+.
+
+(a)   [7 punts]   Discuteix el nombre de solucions que t´ e el sistema segons el par` ametre   m .
+
+Criteris:   1 punt pel c` alcul de det(A), 2 punts per cada cas concret. -1 punt per conclusi´ o mal feta. -1
+punt per error de c` alcul.
+(b)   [3 punts]   Resol el sistema per al cas   m   = 1.
+
+Criteris:   -1 punt per error de c` alcul.
+Convocat` oria 2023   |   1 / 4   |
+
+Matem` atiques II   Model 3
+
+P2. —   Sigui   A   una matriu invertible   n   ×   n   amb coeficients reals tal que compleix la igualtat   A
+2  
++   A   =   I .
+Aleshores,
+(a)   [3 punts]   Satisf` a la matriu
+
+M   =
+
+  
+0   − 1
+
+− 1   − 1
+
+
+
+les condicions de l’enunciat?  ´ Es a dir, compleix   M   la igualtat de l’enunciat i, a m´ es, ´ es invertible?
+
+Criteris:   +1 punt si comproven det( M   ) ̸   = 0 (invertible), +1 si punt realitzen correctament   M  
+2  
+i +1
+punt si demostren b´ e la igualtat   M  
+2  
++   M   =   I .
+Tornant a considerar que   A   ´ es una matriu qualsevol que satisf` a les condicions de l’enunciat,
+(b)   [3 punts]   Calcula la inversa de   A .
+
+Criteris:   +3 punts si proporciona el resultat. 0 altrament.
+(c)   [4 punts]   Comprova que se satisf` a la igualtat   A ( B   +   A )   −   I   =   A ( B   −   I ), sent   B   una matriu quadrada
+qualsevol   n   ×   n   amb coeficients reals.
+
+Criteris:   +2 punts si realitza les passes correctes, +2 si arriba al resultat final correcte.
+
+P3. —   Siguin els punts   A   = (1 ,   2 ,   0),   B   = ( − 1 ,   0 ,   1),   C   = (0 ,   0 ,   1) i   D   = (3 ,   1 ,   2).
+(a)   [4 punts]   Determina la recta   r   que passa per   D   i ´ es perpendicular al pla que cont´ e els punts   A ,   B   i   C .
+
+Criteris:   +2 punts si calcula b´ e el vector de la recta, +2 punts si proporciona la recta correctament.
+(b)   [4 punts]   Determina si els punts   A ,   B ,   C   i   D   s´ on coplanaris o no.
+
+Criteris:   +1 punt si calcula b´ e els vectors, +2 punts si calcula b´ e el determinant, +1 punt si dona b´ e la
+resposta.
+(c)   [2 punts]  
+´
+Es   D   el punt de tall de la recta amb el pla de l’apartat (a)? Justifica la resposta.
+
+Criteris:   +2 punts si la resposta est` a correctament justificada.
+
+P4. —   Sigui el pla   π   : 3 x   +   y   +   z   = 2 i els punts   P   = (0 ,   1 ,   1) i   Q   = (2 ,   − 1 ,   − 3).
+(a)   [2 punts]   S´ on   P   i   Q   punts del pla   π ? Justifica la resposta.
+
+Criteris:   +1 punt per punt ben justificat.
+(b)   [4 punts]   Calcula el punt   S   situat sobre la recta   P Q   que es troba a 3 / 4 parts de   P   i a 1 / 4 part de   Q .
+
+Criteris:   -1 punt per error de c` alcul.
+(c)   [4 punts]   Determina l’equaci´ o impl´ ıcita (tamb´ e anomenada cartesiana) de la recta que passa per   P   i ´ es
+perpendicular al pla   π .
+
+Criteris:   +2 punts pel c` alcul del vector director, +2 punts si proporcionen correctament l’equaci´ o
+impl´ ıcita. -1 punt per error de c` alcul.
+Convocat` oria 2023   |   2 / 4   |
+
+Matem` atiques II   Model 3
+
+P5. —   La reproducci´ o d’un insecte al llarg del temps segueix la funci´ o   f   ( x ) =   e
+− x
+(2 x   + 1) sent   x   ≥   0 el temps
+en mesos i   f   ( x ) el nombre d’insectes en milions.
+(a)   [4 punts]   Quants de milions d’insectes hi havia en l’instant inicial?   Cap a on tendeix la quantitat
+d’insectes al llarg dels anys? Interpreta els resultats.
+
+Criteris:   1 punt pel c` alcul de   f   (0), 2 punts pel c` alcul del l´ ımit i 1 punt per la interpretaci´ o.
+(b)   [4 punts]   Quin ´ es el m` axim nombre d’insectes que hi arriba a haver? En quin instant de temps s’assoleix
+aquest valor?
+
+Criteris:   2 punts per cada pregunta. -1 punt per c` alculs mal fets.
+(c)   [2 punts]   Hi ha algun moment en qu` e la poblaci´ o supera els 2 milions d’insectes? Justifica la resposta.
+
+Criteris:   -2 punts si no est` a justificat.
+
+P6. — [10 punts]   Calcula la integral de la funci´ o   f   ( x ) =  
+x
+4  
++ 2 x   −   6
+
+x
+2  
++   x   −   2 
+.
+
+Criteris:   3 punts si realitzan correctament la divisi´ o polin` omica, 3 punts si realitzan correctament la separaci´ o
+de la fracci´ o (A,B), 4 punts per les integrals immediates correctes, -1 punt per error de c` alcul.
+
+P7. —   En una classe on tots els alumnes practiquen algun esport, el 60% dels alumnes juga a futbol o b` asquet
+i el 10% practica els dos. Per altra banda, se sap que hi ha un 60% d’alumnes que no juga a futbol.
+(a)   [3 punts]   Sigui   F   =‘juga a futbol’ i sigui   B   =‘juga a b` asquet’, escriu, en termes d’unions, interseccions i
+complementaris d’aquests dos esdeveniments, les tres probabilitats que indica l’enunciat.
+
+Criteris:   1 punts per esdeveniment.
+(b) Calcula la probabilitat que, escollint a l’atzar un alumne de la classe,
+(b.1)   [1 punt]   Jugui a futbol.
+(b.2)   [2 punts]   Jugui a b` asquet.
+(b.3)   [2 punts]   Jugui a b` asquet i no a futbol (´ es a dir, nom´ es jugui a b` asquet).
+(b.4)   [2 punts]   No jugui ni a futbol ni a b` asquet.
+
+Criteris:   -1 punt per c` alcul mal realitzat. En els tres darrers ´ ıtems, 1 punt per desglossar la f´ ormula i 1 punt
+pel resultat. Si el resultat no t´ e sentit, es t´ e un 0 de l’apartat directament.
+
+P8. —   (a)   [5 punts]   En un examen de tecnologia, quina ´ es la probabilitat de treure una nota entre 5 i 7 si
+se sap que les notes segueixen una distribuci´ o normal de mitjana 6 i desviaci´ o t´ ıpica 2?
+
+Criteris:   2 punts pel plantejament, 1 punt per tipificar, 1 punt separar les probabilitats, 1 punt per la
+soluci´ o.
+(b)   [5 punts]   En un examen de filosofia, el 35% dels alumnes presentats varen obtenir una nota major que 6,
+mentre que el 51% en varen obtenir una menor que 4. Suposant que les notes segueixen una distribuci´ o
+normal, determina quina ´ es la seva mitjana   μ   i la seva desviaci´ o t´ ıpica   σ .
+
+Criteris:   1.5 punts per cada probabilitat ben plantejada (un total de 3 punts), 1 punt per tipificar, 1
+punt per resoldre el sistema i proporcionar la soluci´ o correcta.
+Convocat` oria 2023   |   3 / 4   |
+
+Matem` atiques II   Model 3
+
+Taula de la distribuci´ o normal   N   (0 ,   1).
+Convocat` oria 2023   |   4 / 4   |
+
+Matem` atiques II   Model 3
+
+Contestau de manera clara i raonada quatre q¨ uestions qualssevol, escollides d’entre les vuit proposades.
+Disposau de 90 minuts. Cada q¨ uesti´ o es puntua sobre 10 punts. La qualificaci´ o final s’obt´ e de dividir el total
+de punts obtinguts entre 4.
+Nom´ es es tindran en compte les respostes clarament justificades i raonades usant llenguatge matem` atic, o
+no matem` atic, segons correspongui. Es valoraran negativament els errors de c` alcul.
+Es permet utilitzar calculadora cient´ ıfica b` asica. No es permet l’´ us de calculadores gr` afiques ni programables,
+ni de dispositius amb acc´ es a Internet o aparells que puguin transmetre o emmagatzemar informaci´ o.
+
+P1. —   Sigui el sistema  
+
+
+
+
+mx   +   y   −   z   = 1
+2 x   +   my   = 1
+
+x   +   mz   = 0
+
+.
+
+(a)   [7 punts]   Discuteix el nombre de solucions que t´ e el sistema segons el par` ametre   m .
+
+Soluci´ o.   Sigui el sistema escrit en forma matricial   A x   =   b   on
+
+A   =
+
+
+
+
+m   1   − 1
+2   m   0
+1   0   m
+
+
+   ,   x   =
+
+
+
+
+x
+y
+z
+
+
+   i   b   =
+
+
+
+
+1
+1
+0
+
+
+   .
+
+Tenim que
+
+–   Cas general:
+det( A ) =   m
+3  
++   m   −   2 m   =   m ( m
+2  
+−   1) = 0 si i nom´ es si   m   = 0 , m   =   ± 1 .   →   Rang ( A ) = 3 .
+
+–   Si   m   = 0,
+
+A   =
+
+
+
+
+0   1   − 1
+2   0   0
+1   0   0
+
+
+   →  
+0   1
+2   0  
+=   − 2 ̸   = 0   →   Rang ( A ) = 2 .
+
+( A | b ) =
+
+
+
+
+0   1   − 1   1
+2   0   0   1
+1   0   0   0
+
+
+  
+→
+
+0   1   1
+2   0   1
+1   0   0
+
+= 1 ̸   = 0   →   Rang ( A | b ) = 3 .
+
+–   Si   m   = 1,
+
+A   =
+
+
+
+
+1   1   − 1
+2   1   0
+1   0   1
+
+
+   →  
+1   1
+2   1  
+=   − 1 ̸   = 0   →   Rang ( A ) = 2 .
+
+( A | b ) =
+
+
+  
+1   1   − 1   1
+2   1   0   1
+1   0   1   0
+
+
+   →   Rang ( A | b ) = 2 .
+
+–   Si   m   =   − 1,
+
+A   =
+
+
+
+
+− 1   1   − 1
+2   − 1   0
+1   0   − 1
+
+
+  
+→  
+− 1   1
+2   − 1  
+=   − 1 ̸   = 0   →   Rang ( A ) = 2 .
+
+( A | b ) =
+
+
+  
+− 1   1   − 1   1
+2   − 1   0   1
+1   0   − 1   0
+
+
+   →
+
+− 1   1   1
+2   − 1   1
+1   0   0
+
+= 2 ̸   = 0   →   Rang ( A | b ) = 3 .
+
+Convocat` oria 2023   |   1 / 6   |
+
+Matem` atiques II   Model 3
+
+Quadre soluci´ o:
+si   m ̸   = 0 i   m ̸   =   ± 1   Rang ( A ) = 3 =   Rang ( A | b )   Sistema comp. determinat   1 soluci´ o
+si   m   = 0   Rang ( A ) = 2 ̸   = 3 =   Rang ( A | b )   Sistema incompatible   0 solucions
+si   m   = 1   Rang ( A ) = 2 =   Rang ( A | b )   Sistema comp. indet.   ∞   solucions
+si   m   =   − 1   Rang ( A ) = 2 ̸   = 3 =   Rang ( A | b )   Sistema incompatible   0 solucions
+(b)   [3 punts]   Resol el sistema per al cas   m   = 1.
+
+Soluci´ o.   Com que el sistema ´ es compatible indeterminat, sigui   z   =   t   ∈   R . Aleshores,
+
+  
+x   +   y   = 1 +   t   →   x   + 1   −   2 x   = 1 +   t   →   x   =   − t,
+
+2 x   +   y   = 1   →   y   = 1   −   2 x   →   y   = 1 + 2 t.
+
+Aleshores,   x   = ( − t,   1 + 2 t, t ) amb   t   ∈   R .
+
+P2. —   Sigui   A   una matriu invertible   n   ×   n   amb coeficients reals tal que compleix la igualtat   A
+2  
++   A   =   I .
+Aleshores,
+(a)   [3 punts]   Satisf` a la matriu
+
+M   =
+
+  
+0   − 1
+
+− 1   − 1
+
+
+
+les condicions de l’enunciat?  ´ Es a dir, compleix   M   la igualtat de l’enunciat i, a m´ es, ´ es invertible?
+
+Soluci´ o.   S´ ı, ho compleix (det( M   ) ̸   = 0, per tant, ´ es invertible, i compleix que   M  
+2  
++   M   =   I ).
+Tornant a considerar que   A   ´ es una matriu qualsevol que satisf` a les condicions de l’enunciat,
+(b)   [3 punts]   Calcula la inversa de   A .
+
+Soluci´ o.   A ( A   +   I ) =   I   i, per tant,   A   +   I   =   A
+− 1
+.
+(c)   [4 punts]   Comprova que se satisf` a la igualtat   A ( B   +   A )   −   I   =   A ( B   −   I ), sent   B   una matriu quadrada
+qualsevol   n   ×   n   amb coeficients reals.
+
+Soluci´ o.   A ( B   +   A )   −   I   =   AB   +   A
+2  
+−   I   =   AB   + ( I   −   A )   −   I   =   AB   −   A   =   A ( B   −   I ) .
+
+P3. —   Siguin els punts   A   = (1 ,   2 ,   0),   B   = ( − 1 ,   0 ,   1),   C   = (0 ,   0 ,   1) i   D   = (3 ,   1 ,   2).
+(a)   [4 punts]   Determina la recta   r   que passa per   D   i ´ es perpendicular al pla que cont´ e els punts   A ,   B   i   C .
+
+Soluci´ o.   El pla que cont´ e els punts   A ,   B   i   C   t´ e per vectors directors ⃗   AB   = ( − 2 ,   − 2 ,   1) i ⃗   AC   = ( − 1 ,   − 2 ,   1).
+La recta   r   t´ e per vector director el vector normal del pla, que ´ es un vector perpendicular als dos vectors
+directors. I.e.
+⃗
+d r   =
+
+i   j   k
+
+− 2   − 2   1
+
+− 1   − 2   1
+
+= (0 ,   1 ,   2) .
+
+Per tant, la recta ´ es  
+
+
+
+
+x   = 3 ,
+y   = 1 +   t,
+z   = 2 + 2 t.
+
+Convocat` oria 2023   |   2 / 6   |
+
+Matem` atiques II   Model 3
+
+(b)   [4 punts]   Determina si els punts   A ,   B ,   C   i   D   s´ on coplanaris o no.
+
+Soluci´ o.   Els quatre punts seran coplanaris si els vectors ⃗   AB , ⃗   AC   i ⃗   AD   s´ on linealment independents.
+Tenim que
+⃗
+AB   = ( − 2 ,   − 2 ,   1) ,⃗   AC   = ( − 1 ,   − 2 ,   1) ,⃗   AD   = (2 ,   − 1 ,   2) ,
+
+Ara b´ e, com que
+
+− 2   − 2   1
+
+− 1   − 2   1
+2   − 1   2
+
+= 8 + 1   −   4 + 4   −   2   −   4 = 3 ̸   = 0 ,
+
+tenim que els 4 punts NO s´ on coplanaris.
+(c)   [2 punts]  
+´
+Es   D   el punt de tall de la recta amb el pla de l’apartat (a)? Justifica la resposta.
+
+Soluci´ o.   No. Ja hem vist que no pertany al pla.
+
+P4. —   Sigui el pla   π   : 3 x   +   y   +   z   = 2 i els punts   P   = (0 ,   1 ,   1) i   Q   = (2 ,   − 1 ,   − 3).
+(a)   [2 punts]   S´ on   P   i   Q   punts del pla   π ? Justifica la resposta.
+
+Soluci´ o.   S´ ı, perqu` e verifiquen l’equaci´ o: 0 + 1 + 1 = 2 i 6   −   1   −   3 = 2.
+(b)   [4 punts]   Calcula el punt   S   situat sobre la recta   P Q   que es troba a 3 / 4 parts de   P   i a 1 / 4 part de   Q .
+
+Soluci´ o.   Si no ho saben fer directament, basta fer dues vegades el punt mitj` a:
+- punt mitj` a de   P   i   Q :   M   = (1 ,   0 ,   − 1).
+- punt mitj` a de   M   i   Q :   S   = (3 / 2 ,   − 1 / 2 ,   − 2).
+(c)   [4 punts]   Determina l’equaci´ o impl´ ıcita (tamb´ e anomenada cartesiana) de la recta que passa per   P   i ´ es
+perpendicular al pla   π .
+
+Soluci´ o.   El vector director d’aquesta recta ha ser el vector normal del pla ( ⃗ n   = (3 ,   1 ,   1)).   Per tant,
+l’equaci´ o cont´ ınua ´ es  
+x
+
+3 
+=  
+y   −   1
+1  
+=  
+z   −   1
+1  
+.
+
+D’on tenim que l’equaci´ o impl´ ıcita ´ es  
+  
+x   −   3 y   + 3 = 0 ,
+y   −   z   = 0 .
+
+P5. —   La reproducci´ o d’un insecte al llarg del temps segueix la funci´ o   f   ( x ) =   e
+− x
+(2 x   + 1) sent   x   ≥   0 el temps
+en mesos i   f   ( x ) el nombre d’insectes en milions.
+(a)   [4 punts]   Quants de milions d’insectes hi havia en l’instant inicial?   Cap a on tendeix la quantitat
+d’insectes al llarg dels anys? Interpreta els resultats.
+
+Soluci´ o.
+
+–   Inicialment hi ha   f   (0) = 1 mili´ o d’insectes.
+
+–   Tenim que l´ ım x → + ∞   e
+− x
+(2 x   + 1) = 0 (per De L’Hˆ opital).   Llavors la poblaci´ o d’insectes tendeix a
+extingir-se.
+Convocat` oria 2023   |   3 / 6   |
+
+Matem` atiques II   Model 3
+
+(b)   [4 punts]   Quin ´ es el m` axim nombre d’insectes que hi arriba a haver? En quin instant de temps s’assoleix
+aquest valor?
+
+Soluci´ o.
+
+–   Cercam el m` axim de la funci´ o:   f  
+′
+( x ) =   − e
+− x
+(2 x   + 1) + 2 e
+− x  
+=   e
+− x
+( − 2 x   + 1) = 0 quan   − 2 x   + 1 = 0.
+´
+Es a dir, a   x   =  
+1
+2  
+mes.
+
+–   En aquest moment hi ha un total de   f   (  
+1
+2  
+) =   e
+−  
+1
+2   (2  
+1
+2  
++ 1) = 2 e
+−  
+1
+2   = 1 . 213 milions d’insectes.
+(c)   [2 punts]   Hi ha algun moment en qu` e la poblaci´ o supera els 2 milions d’insectes? Justifica la resposta.
+
+Soluci´ o.   No, perqu` e el m` axim s’assoleix quan hi ha 1 . 213061319425267 milions d’insectes.
+
+P6. — [10 punts]   Calcula la integral de la funci´ o   f   ( x ) =  
+x
+4  
++ 2 x   −   6
+
+x
+2  
++   x   −   2 
+.
+
+Soluci´ o.  
+Z     
+x
+4  
++ 2 x   −   6
+
+x
+2  
++   x   −   2
+
+
+
+dx   =
+
+Z   
+
+x
+2  
+−   x   + 3 +  
+− 3 x
+x
+2  
++   x   −   2
+
+
+
+dx   =
+
+Z  
+ 
+x
+2  
+−   x   + 3
+  
+dx   −   3
+
+Z     
+x
+
+( x   −   1)( x   + 2)
+
+
+
+dx   =  
+x
+3
+
+3  
+−  
+x
+2
+
+2  
++ 3 x   −   3
+
+Z     
+A
+x   −   1 
++  
+B
+x   + 2
+
+
+
+dx   = ( ∗ )
+Es troba que   A   = 1 / 3 i   B   = 2 / 3 i per tant,
+( ∗ ) =  
+x
+3
+
+3  
+−  
+x
+2
+
+2  
++ 3 x   −   3
+
+Z     
+1
+3
+1
+
+x   −   1 
++ 
+2
+3
+1
+
+x   + 2
+
+
+
+dx   =  
+x
+3
+
+3  
+−  
+x
+2
+
+2  
++ 3 x   −   (ln   | x   −   1 |   + 2 ln   | x   + 2 | ) +   C.
+
+P7. —   En una classe on tots els alumnes practiquen algun esport, el 60% dels alumnes juga a futbol o b` asquet
+i el 10% practica els dos. Per altra banda, se sap que hi ha un 60% d’alumnes que no juga a futbol.
+(a)   [3 punts]   Sigui   F   =‘juga a futbol’ i sigui   B   =‘juga a b` asquet’, escriu, en termes d’unions, interseccions i
+complementaris d’aquests dos esdeveniments, les tres probabilitats que indica l’enunciat.
+
+Soluci´ o.   Sigui   F   =‘juga a futbol’ i sigui   B   =‘juga a b` asquet’. L’enunciat ens diu que   P   ( F   ∪   B ) = 0 . 6,
+
+P   ( F   ∩   B ) = 0 . 1,   P   (  ¯ F   ) = 0 . 6.
+(b) Calcula la probabilitat que, escollint a l’atzar un alumne de la classe,
+(b.1)   [1 punt]   Jugui a futbol.
+(b.2)   [2 punts]   Jugui a b` asquet.
+(b.3)   [2 punts]   Jugui a b` asquet i no a futbol (´ es a dir, nom´ es jugui a b` asquet).
+(b.4)   [2 punts]   No jugui ni a futbol ni a b` asquet.
+
+Soluci´ o.   Tenim que
+
+•   P   ( F   ) = 1   −   P   ( 
+¯
+F   ) = 0 . 4
+
+•   P   ( B ) =   P   ( F   ∪   B )   −   P   ( F   ) +   P   ( F   ∩   B ) = 0 . 6   −   0 . 4 + 0 . 1 = 0 . 3
+
+•   P   ( B   ∩   ¯ F   ) =   P   ( B )   −   P   ( B   ∩   F   ) = 0 . 3   −   0 . 1 = 0 . 2
+
+•   P   (  ¯ F   ∩   ¯ B ) = 1   −   P   ( F   ∪   B ) = 1   −   0 . 6 = 0 . 4
+Convocat` oria 2023   |   4 / 6   |
+
+Matem` atiques II   Model 3
+
+P8. —   (a)   [5 punts]   En un examen de tecnologia, quina ´ es la probabilitat de treure una nota entre 5 i 7 si
+se sap que les notes segueixen una distribuci´ o normal de mitjana 6 i desviaci´ o t´ ıpica 2?
+
+Soluci´ o.   Les dades segueixen una   N   (6 ,   2). Per tant,
+
+p (5   < x <   7) =   p
+
+  
+5   −   6
+2  
+< z <  
+7   −   6
+2
+
+
+
+=   p ( − 0 . 5   < z <   0 . 5) =
+
+p ( z <   0 . 5)   −   p ( z <   − 0 . 5) = 2 p ( z <   0 . 5)   −   1 = 2   ·   0 . 6915   −   1 = 0 . 383 .
+
+(b)   [5 punts]   En un examen de filosofia, el 35% dels alumnes presentats varen obtenir una nota major que 6,
+mentre que el 51% en varen obtenir una menor que 4. Suposant que les notes segueixen una distribuci´ o
+normal, determina quina ´ es la seva mitjana   μ   i la seva desviaci´ o t´ ıpica   σ .
+
+Soluci´ o.   Les dades segueixen una   N   ( μ, σ ) i sabem que
+
+p ( x >   6) =   p
+
+
+
+z >  
+6   −   μ
+σ
+
+
+
+= 1   −   p
+
+
+
+z <  
+6   −   μ
+σ
+
+
+
+= 0 . 35   →   p
+
+
+
+z <  
+6   −   μ
+σ
+
+
+
+= 0 . 65
+
+p ( x <   4) =   p
+
+
+
+z <  
+4   −   μ
+σ
+
+
+
+= 0 . 51 .
+
+Aix´ ı doncs, mirant a la taula tenim que
+6   −   μ
+σ  
+= 0 . 385 ,  
+4   −   μ
+σ  
+= 0 . 025 .
+
+Resolent el sistema tenim que
+
+μ   = 3 . 86ˆ 1 ,   σ   = 5 .
+ˆ
+5 .
+
+Convocat` oria 2023   |   5 / 6   |
+
+Matem` atiques II   Model 3
+
+Taula de la distribuci´ o normal   N   (0 ,   1).
+Convocat` oria 2023   |   6 / 6   |
+

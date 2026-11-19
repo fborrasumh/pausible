@@ -1,0 +1,254 @@
+[Fuente: https://estudis.uib.cat/models-examen/examen/pbau/2026:JUNY:TECNOLOGIA-Enunciat/Enunciat-TECNOLOGIA-JUNY-2026.pdf]
+1   /   4
+
+Tecnologia i Enginyeria II
+
+Convocatòria 20 2 6
+
+M o d e l   2
+
+Instruccions generals
+
+•   L’examen consta de quatre apartats. Alguns tenen qüestions o problemes opcionals. En   cada
+
+apartat s’especifica quines opcions s’han de respondre.
+
+•   Es valorarà la correcció, claredat i concreció en la descripció dels aspectes o conceptes que
+
+l’alumne hagi de respondre, i la capacitat de fer els càlculs necessaris per resoldre les activitats
+
+de forma correcta i amb les unitats també correctes.
+
+•   Puntuació : vegeu les diferents parts de l'examen.
+
+•   Temps per fer l’examen : 90 minuts.
+
+•   Material   que   es   pot   utilitzar   per   contestar   l’examen :   bolígraf   (que   no   sigui   vermell)   i
+
+calculadora científica no programable.
+
+•   Material auxiliar : l’alumne pot disposar d’un formulari, que ha de lliurar juntament amb el
+
+quadernet de respostes.
+
+APARTAT 1   (2, 5 punts)
+
+En una passarel·la metàl·lica utilitzada en unes obres, s’instal·la una biga horitzontal
+
+de 20 m de llum que suporta diverses accions verticals. La biga està simplement
+
+recolzada horitzontal ment   als extrems:   té   un recolzament fix a l’esquerra (A) i un
+
+recolzament mòbil (rodolament) a la dreta (B).
+
+Sobre els primers 5 m des de l’extrem esquerre   hi   actua una càrrega total de 5 kN
+
+uniformement repartida al llarg d’aque st   tram . Just a la meitat de la biga hi ha un tirant
+
+vertical que exerceix una força cap amunt d ' 1 kN sobre la biga. Es considera que el pes
+
+propi de la biga és   menyspreable . Es demana:
+
+a)   Representa u   l’esquema estructural complet de la biga, sense   fer   cap càlcul,
+
+dibuixant correctament les càrregues aplicades i les reaccions als suports. (0,75
+
+punts)
+
+b)   Calcula u   les reaccions verticals als suports de la biga. (1   punt )
+
+c)   Representa u   el   diagrama   d’esforços   tallants   i   indica u   els   valors   més
+
+representatius als eixos del diagrama. (0,75 punts)
+
+APARTAT 2 (2,5 punts). Aquest apartat té dues opcions i   s 'ha de respondre
+
+una   de les dues opcions
+
+Opció A   (2,5 punts)
+
+En el circuit de la figura, considerant L   =   100   mH, C   =   50    F i V una tensió de 230   V i
+
+50   Hz es demana:
+
+a)   Calcula u   el valor de R tal que fa que el factor de potència sigui 0 , 9 .
+
+(0,75 punts)
+
+Ara considerau que R   =   100    . Calculau:
+
+b)   La impedància total connectada (mòdul i fase) (0,5 punts)
+
+c)   El factor de potència (0,25 punts)
+
+d)   La intensitat   𝐼 ⃗   total pel circuit (0,5 punts)
+
+e)   La potència activa (0,25 punts)
+
+f)   La tensió eficaç en borns del condensador (0,25 punts)
+
+2   /   4
+
+Tecnologia i Enginyeria II
+
+Convocatòria 20 2 6
+
+M o d e l   2
++
+
+V   I
+C
+I   C   L
+
+R
+
+I L
+
+Opció B   (2,5 punts)
+
+Un motor tèrmic d’un vehicle funciona a 4 temps i té 4 cilindres idèntics. Cada cilindre
+
+té un diàmetre de 8 cm i una carrera de 9 cm. El motor gira a 3.000 rpm i desenvolupa
+
+un parell motor constant de 80 N·m.   Mentre funciona , el motor consumeix combustible
+
+a un ritme tal que   la potència   química aportada és de 90 kW.   Es demana:
+
+a)   Calcula u   la cilindrada total del motor. (0,5 punts)
+
+b)   Determina u   la potència mecànica útil que desenvolupa el motor a aquest règim
+
+de gir. ( 1 punt )
+
+c)   Calcula u   el rendiment global del motor. ( 1 punt )
+
+APARTAT 3 (2,5 punts). Aquest apartat té dues opcions i   s 'ha de respondre
+
+una   de les dues opcions
+
+Opció A   (2,5 punts)
+
+Es disposa d’un sistema de seguretat per accedir al laboratori farm acèutic on   treballam,
+
+basat en l’entrada d’un codi per teclat o l’ús d’una targeta magnètica.
+
+•   En   horari   de   matí,   és   imprescindible   introduir   un   codi   correcte   al   teclat,
+
+independentment si es fa servir una targeta magnètica o no.
+
+•   A   l’horabaixa,   és   obligatori   introduir   una   targeta   magnètica   correcta,
+
+independentment si s’introdueix un codi al teclat.
+
+Així, disposam de:
+
+—   una variable   a   que val 1 si és horabaixa i 0 si és matí;
+
+—   una variable   b   que val 1 si s’ha introduït   una   tar get a magnètica correcta i 0 en cas
+
+contrari;
+
+—   i una variable   c   que   val 1 si s’ha introduït un codi correcte a través del teclat i 0 en
+
+cas contrari.
+
+A partir d’aquestes entrades ,   implementam un circuit amb una sortida   out , que val 1
+
+si permet l’entrada al laboratori o 0 si no la permet.
+
+3   /   4
+
+Tecnologia i Enginyeria II
+
+Convocatòria 20 2 6
+
+M o d e l   2
+
+a)   Repr esenta u   la taula de veritat. (0, 5 punts)
+
+b)   Escri vi u la fun ció lògica no simplificada. (0, 5 punts)
+
+c)   Representa u   el mapa de Karnaugh i simplifica u   la funció lògica. (1 punt)
+
+d)   Implementa u   el circu it amb portes AND, OR i NOT. (0, 5 punts)
+
+Opció B   (2,5 punts)
+
+Un dissenyador, a partir d’unes especificacions ,   ha implementat el circuit digital que es
+
+mostra a la figura següent. Aleshores ,   un altre dissenyador   creu   que el circuit no està
+
+ben simplificat.   Es demana :
+
+a)   Escri viu   la funció lògica com a suma de productes .   (0, 7 5 punts)
+
+b)   Representa u   la taula de veritat .   (0,75 punts)
+
+c)   Representa u   el mapa de Karnaugh   i simplifica u   la funció lògica .   (0,5 punts)
+
+d)   Representa u   l’esquema del nou circuit més simplificat .   (0,5 punts)
+A   B   C   D
+
+OUT
+
+4   /   4
+
+Tecnologia i Enginyeria II
+
+Convocatòria 20 2 6
+
+M o d e l   2
+
+APARTAT 4 (2,5 punts). S’han de respondre LES DUES OPCIONS d’aquest
+
+apartat
+
+Opció A   (1,25 punts)
+
+En un assaig de duresa Brinell ,   s’utilitza una bola d’acer de D   =   10 mm sobre un
+
+material de duresa HB = 180. En un primer assaig ,   s’observa una   empremta   de d   =
+
+4,0 mm.
+
+a)   Calcula u   la força F aplicada durant l’assaig.   (0, 5 p unts )
+
+Posteriorment, sobre el mateix material ,   s’utilitza una màquina que només pot aplicar
+
+F = 3 . 000 N.
+
+b)   Calcula u   quin hauria de   ser el diàmetre de l 'empremt a   obtinguda en aquest
+
+segon assaig.   (0, 7 5 p unts )
+
+Opció B   (1, 2 5   punt s )
+
+Calcula u   la funció de transferència G   =   Y/X pe r a l sistema de control representat per
+
+la figura següent :
++  
+-
+
+input
+
+output
+
+X
+
+Y
+
+A 5
+
+A 1
+
+A 3
+
++
++  
+A 2
+
+A 4
+
++
++
+

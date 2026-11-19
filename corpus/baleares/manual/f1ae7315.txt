@@ -1,0 +1,717 @@
+[Fuente: https://estudis.uib.cat/models-examen/examen/pbau/2026:JUNY:MATEMATIQUESII-Criteris/Criteris-MATEMATIQUESII-JUNY-2026.pdf]
+Matem` atiques II   Model 2
+
+Criteris de correcci´ o globals
+
+•   Les respostes a les preguntes o tasques s’han de redactar expressant de forma raonada el proc´ es
+seguit en la resoluci´ o, amb el rigor i la precisi´ o necessaris, usant el llenguatge, la notaci´ o i els
+s´ ımbols matem` atics adequats, i utilitzant arguments, justificacions, explicacions i raonaments
+expl´ ıcits i coherents.   El grau de compliment es valorar` a amb un m` axim d’1 punt en tota la
+prova.
+– Els errors de c` alcul es penalitzaran amb un 25%; els errors greus i/o que portin a resultats
+incoherents o absurds, amb un 50%.
+– En preguntes mec` aniques o de c` alcul no justificades, amb el 30%-50%; en preguntes de
+justificar, una resposta sense cap justificaci´ o s’ha de penalitzar amb el 100%.
+– En qualsevol pregunta, si apareixen raonaments (que no s´ on clars/evidents) sense justificar,
+amb el 20%-30%.
+– La imprecisi´ o en l’´ us del llenguatge matem` atic (per exemple, variables sense introduir/que
+canvien de significat), o la falta de claredat per abs` encia de llenguatge matem` atic, amb un
+20%-30%.
+– L’estructura s’ha de penalitzar en funci´ o de la dificultat per entendre la resposta.
+
+•   La simple descripci´ o del plantejament, sense que es dugui a terme la resoluci´ o de manera efectiva,
+no ´ es suficient per obtenir una valoraci´ o completa de la pregunta o tasca.
+
+•   En les preguntes o tasques en qu` e es demani expressament una deducci´ o raonada, la simple
+aplicaci´ o d’una f´ ormula no ser` a suficient per obtenir-ne una valoraci´ o completa.
+
+•   Els errors comesos en una pregunta o tasca (per exemple, en el c` alcul del valor d’un cert
+par` ametre) no es tendran en compte en la qualificaci´ o dels desenvolupaments posteriors que
+se’n puguin veure afectats, sempre que resultin d’una complexitat equivalent.   En el cas de la
+pregunta competencial-contextualitzada, s´ ı que es penalitzar` a si els resultats que es van obtenint
+no tenen coher` encia dins el context.
+
+•   Si l’alumne presenta m´ es problemes que els demanats, corregiu-ne els que apareixen primer.
+
+Criteris de correcci´ o espec´ ıfics
+
+Nom´ es es detallen els apartats en qu` e hi ha diverses preguntes o que es poden desglossar. En apartats
+on s’omet el criteri de correcci´ o espec´ ıfic, aquest ser` a simplement “C` alcul i/o justificaci´ o correcta”. Si
+no est` a indicat, tots els apartats d’una mateixa pregunta tenen la mateixa valoraci´ o.
+Convocat` oria 2026   |   1 / 8   |
+
+Matem` atiques II   Model 2
+
+Part A.
+Problema 1. —   Soluci´ o.
+
+(a) Les coordenades dels micr` ofons s´ on
+
+M 1   : (2 ,   3 ,   7   −   1) = (2 ,   3 ,   6) ,
+M 2   : (4 ,   4 ,   7   −   2) = (4 ,   4 ,   5)   ,
+M 3   : (5 ,   1 ,   7   −   3) = (5 ,   1 ,   4) .
+
+Aleshores, els vectors directors del pla que els cont´ e s´ on
+
+d 1   = ⃗   M 1 M 2   = (2 ,   1 ,   − 1)   ,   d 2   = ⃗   M 1 M 3   = (3 ,   − 2 ,   − 2)   .
+
+Finalment, l’equaci´ o vectorial del pla seria
+
+π   :
+
+
+
+
+
+
+
+x   = 2 + 2 λ   + 3 β,
+y   = 3 +   λ   −   2 β,
+z   = 6   −   λ   −   2 β.
+
+Si volem donar l’equaci´ o expl´ ıcita, necessitem calcular el vector normal al pla, ´ es a dir,
+⃗
+n   :
+⃗
+i⃗   j⃗   k
+
+2   1   − 1
+3   − 2   − 2
+
+= ( − 4 ,   1 ,   − 7)   ,
+
+i imposar que el punt   M 1   pertany al pla   π   :   − 4 x   +   y   −   7 z   +   D   = 0. Aix´ ı doncs,
+
+− 4   ·   2 + 1   ·   3   −   7   ·   6 +   D   = 0   ⇔   D   = 47 .
+
+Aleshores,
+
+π   :   − 4 x   +   y   −   7 z   + 47 = 0 .
+
+(b) Necessitem calcular la recta perpendicular al pla que passa per   P   , i quan la tenguem, calcular el
+punt d’intersecci´ o entre el pla i aquesta recta. Aleshores, la recta que cerquem t´ e vector director
+⃗
+n   = ( − 4 ,   1 ,   − 7) i passa per   P   (4 ,   3 ,   0), ´ es a dir,
+
+r   :
+
+
+
+
+
+
+
+x   = 4   −   4 λ
+y   = 3 +   λ
+z   =   − 7 λ.
+
+Calculant ara   r   ∩   π ,
+
+− 4(4   −   4 λ ) + (3 +   λ )   −   7( − 7 λ ) + 47 = 0 ,
+
+− 16 + 16 λ   + 3 +   λ   + 49 λ   + 47 = 0
+34 + 66 λ   = 0   ⇔   λ   =   −  
+17
+33  
+,
+
+Convocat` oria 2026   |   2 / 8   |
+
+Matem` atiques II   Model 2
+
+tenim que el punt on volem situar el quart micr` ofon   M 4   ´ es
+
+M 4   :
+
+
+
+4 + 4 
+17
+33  
+,   3   −  
+17
+33  
+,   7 
+17
+33
+
+
+
+=
+
+  
+200
+33  
+,  
+82
+33  
+,  
+119
+33
+
+
+
+≈   (6 . 0606 ,   2 . 4848 ,   3 . 6060) .
+
+Una altra manera de resoldre l’apartat ´ es considerant que
+⃗
+OM 4   =
+⃗
+  OP   + dist( P, π )
+⃗
+n
+
+| ⃗ n   |  
+,
+
+´ es a dir, que ens desplacem, des de   P   , dist( P, π ) unitats per sobre el vector normal unitari en
+direcci´ o   z >   0.
+Aix´ ı doncs, per una banda tenim que la dist` ancia del punt al pla ´ es
+dist( P, π ) =  
+| −   4   ·   4 + 1   ·   3   −   7   ·   0 + 47 |
+
+p
+( − 4)
+2  
++ 1
+2  
++ ( − 7)
+2  
+=  
+34
+
+√
+66  
+,
+
+el vector normal unitari, amb   z >   0, ´ es
+⃗
+n   0   =  
+1
+
+√
+66 
+(4 ,   − 1 ,   7) ,
+
+i, per tant,
+⃗
+OM 4   = (4 ,   3 ,   0) + 
+34
+66 
+(4 ,   − 1 ,   7) =
+
+  
+200
+33  
+,  
+82
+33  
+,  
+119
+33
+
+
+
+.
+
+Llavors   M 4   t´ e coordenades
+
+M   4 :
+
+  
+200
+33  
+,  
+82
+33  
+,  
+119
+33
+
+
+
+.
+
+Criteris:
+
+(a) 0 . 3 punts per calcular b´ e els punts. Si aquests s´ on correctes, i 0 . 7 punts per donar una equaci´ o
+del pla correcta (0 . 5 per calcular b´ e els vectors i 0 . 2 per proporcionar una expressi´ o correcta).
+Si els punts no s´ on correctes, no s’avalua la resta.
+(b) 0 . 5 punts per calcular correctament la recta   r   i 0 . 5 punts per calcular correctament la posici´ o de
+
+M 4 .
+Si ho resolen calculant dist` ancies, llavors s’avalua amb 0 . 25 punts el c` alcul de la dist` ancia del
+punt al pla, 0 . 25 punts per calcular correctament el vector unitari, 0 . 25 per utilitzar correctament
+la direcci´ o del vector normal i, finalment, 0 . 25 per calcular correctament el punt.
+Es penalitza amb   − 0 . 2 punts cada error de c` alcul (es permeten m` axim 2 errors).
+Es penalitza amb un m` axim de   − 0 . 4 punts si la formalitzaci´ o matem` atica no ´ es adequada.
+Convocat` oria 2026   |   3 / 8   |
+
+Matem` atiques II   Model 2
+
+Problema 2. —   Soluci´ o.
+
+(a) Notem que el domini de la funci´ o ´ es (0 ,   + ∞ ).   A m´ es, ln( x ) tendeix a   −∞   a mesura que   x
+
+s’aproxima a 0. Aleshores,
+l´ ım
+
+x → 0 +
+
+4 x
+3
+
+x
+2  
++ 1 
+ln( x ) = 0   ·   ( −∞ ) ,
+
+que ´ es una indeterminaci´ o que la podem convertir en una de la forma   ∞ / ∞   i aplicar L’Hˆ opital.
+Aix´ ı doncs,
+l´ ım
+
+x → 0
++
+
+4 x
+3
+
+x
+2  
++ 1 
+ln( x ) =   l´ ım
+
+x → 0
++
+
+ln( x )
+
+x
+2  
++ 1
+4 x
+3
+
+.
+
+Aplicant ara L’Hˆ opital,
+l´ ım
+
+x → 0
++
+
+1
+
+x
+
+2 x (4 x
+3
+)   −   ( x
+2  
++ 1)12 x
+2
+
+(4 x
+3
+)
+2
+
+=   l´ ım
+
+x → 0
++
+
+1
+
+x
+
+8 x
+4  
+−   12 x
+4  
+−   12 x
+2
+
+(4 x
+3
+)
+2
+
+=   l´ ım
+
+x → 0
++
+
+16 x
+6
+
+x
+3
+( − 4 x
+2  
+−   12) 
+=   l´ ım
+
+x → 0
++
+
+16 x
+3
+
+− 4 x
+2  
+−   12 
+= 0 .
+
+Per tant, com que el l´ ımit despr´ es d’aplicar l’Hˆ opital existeix,
+l´ ım
+
+x → 0 +
+
+4 x
+3
+
+x
+2  
++ 1 
+ln( x ) = 0 .
+
+Criteris:   0 . 25 punts per veure que es tracta d’una indeterminaci´ o 0 ·∞ , 0 . 25 punts per transformar
+la indeterminaci´ o 0   · ∞   en   ∞ / ∞ , 0 . 5 punts per aplicar correctament L’Hˆ opital a la funci´ o correcta, 1
+punt per calcular el l´ ımit resultant de L’Hˆ opital correctament (0 . 5 per simplificar l’expressi´ o correc-
+tament i 0 . 5 per arribar al resultat final).
+Es penalitza amb   − 0 . 2 punts si no indiquen expl´ ıcitament que apliquen l’Hˆ opital.
+Es penalitza amb un m` axim de   − 0 . 4 punts si la formalitzaci´ o matem` atica no ´ es adequada.
+La resoluci´ o per mitj` a d’una taula de valors ´ es incorrecta.
+
+Problema 3. —   Soluci´ o.   Sigui   C   el succ´ es “jugar principalment a jocs competitius” i   O   el succ´ es
+“participar en tornejos oficials”. Tenim que,
+(a)   P   ( 
+¯
+O |  
+¯
+C ) =  
+80
+100 
+= 0 . 8.
+(b) Calculem les dues probabilitats demanades per poder-les comparar. Llavors,
+
+P   ( C | O ) =  
+P   ( C   ∩   O )
+
+P   ( O )  
+=  
+12 / 100
+12 / 100 + 12 / 100 
+= 0 . 5 .
+P   (  ¯ C | O ) =  
+P   ( 
+¯
+C   ∩   O )
+
+P   ( O )  
+=  
+12 / 100
+12 / 100 + 12 / 100 
+= 0 . 5 .
+
+Com que ambdues probabilitats s´ on les mateixes, ´ es igual de probable.
+Convocat` oria 2026   |   4 / 8   |
+
+Matem` atiques II   Model 2
+
+Criteris:
+
+(a) 0 . 25 punts pel plantejament i notaci´ o correctes, 0 . 25 punts per la resposta correcta.
+(b) 0 . 25 punts per probabilitat ben plantejada, 0 . 25 punts per probabilitat ben calculada i 0 . 5 punts
+per donar la resposta final.
+Es penalitza amb   − 0 . 2 punts si no defineixen els successos correctament.
+Es penalitza tot l’apartat (puntuaci´ o: 0 punts) si el resultat ´ es incoherent (probabilitats fora de
+l’interval [0 ,   1]).
+
+Part B.
+Problema 4. — P4.1   Soluci´ o.
+
+(a) Volem trobar el m` axim de la funci´ o. Aleshores,
+
+I
+′
+( t ) = 50 e
+− 0 . 2 t  
++ 50 te
+− 0 . 2 t
+( − 0 . 2) = (50   −   10 t ) e
+− 0 . 2 t  
+= 0   ⇔   50   −   10 t   = 0   ⇔   t   = 5 ms .
+I (5) = 50   ·   5 e
+− 0 . 2 · 5  
+= 250 e
+− 1  
+≈   91 . 97 mV .
+
+Finalment, com que   I
+′
+(0)   >   0 i   I
+′
+(10)   <   0, veim que en efecte es tracte d’un m` axim.
+(b) Volem calcular una primitiva de   I ( t ) .   Aleshores,
+
+Z
+
+50 t e
+− 0 . 2 t
+dt   = 50
+
+Z
+
+t e
+− 0 . 2 t
+dt   =  
+u   =   t   ⇒   du   =   dt
+dv   =   e
+− 0 . 2
+dt   ⇒   v   =   − 5 e
+− 0 . 2 t
+
+= 50
+
+
+
+− 5 te
+− 0 . 2 t  
+−
+
+Z
+
+− 5 e
+− 0 . 2 t
+dt
+
+
+
+= 50
+
+
+
+− 5 te
+− 0 . 2 t  
+−   25
+
+Z
+
+− 0 . 2 e
+− 0 . 2 t
+dt
+
+
+
+=   − 250 te
+− 0 . 2 t  
+−   1250 e
+− 0 . 2 t  
++   K.
+
+Convocat` oria 2026   |   5 / 8   |
+
+Matem` atiques II   Model 2
+
+Criteris:
+
+(a) 0 . 25 punts per calcular correctament la derivada, 0 . 5 punts per veure que en   t   = 5 hi ha
+un m` axim (0 . 25 pel c` alcul de   t   i 0 . 25 per comprovar que ´ es un m` axim) i 0 . 25 punts per
+calcular correctament   I (5).
+(b) 0 . 5 punts per plantejar b´ e la integral per parts i 0 . 5 punts per resoldre correctament la
+integral.   Es penalitza amb   − 0 . 2 punts si no es posa la constant d’integraci´ o i amb   − 0 . 2
+punts per cada error de c` alcul (es permeten m` axim 2 errors).
+Es penalitza amb un m` axim de   − 0 . 4 punts si la formalitzaci´ o matem` atica no ´ es adequada. En
+el cas del diferencial   dt , si s’obliden m` axim de dos   dt , es penalitza amb   − 0 . 2 punts,   − 0 . 25
+altrament.
+
+P4.2   Soluci´ o.   Volem veure si existeix un punt   t   =   t
+∗  
+tal que   y ( t
+∗
+) = 0. Notem que la funci´ o   y ( t ) ´ es
+cont´ ınua per ser una divisi´ o de polinomis on el denominador no s’anul · la. A m´ es,   y (0) =   −  
+1
+2  
+<   0,
+mentre que   y (1) =  
+3
+3  
+= 1   >   0. Aleshores, pel teorema de Bolzano sabem que existeix un punt
+
+t
+∗  
+∈   (0 ,   1) tal que   y ( t
+∗
+) = 0 tal com vol´ ıem veure.
+
+Criteris:   0 . 5 per justificar b´ e que la funci´ o ´ es cont´ ınua, 0 . 5 per veure dos temps   t 1   i   t 2   tals
+que   y ( t 1 )   ·   y ( t 2 )   <   0, 0 . 5 punts per indicar que empren el teorema de Bolzano i 0 . 5 punts per
+concloure l’exist` encia de   t
+∗
+.
+Enunciar correctament el teorema de Bolzano sense aplicar-lo no ´ es suficient per a obtenir alguna
+puntuaci´ o del problema.
+
+Problema 5. — P5.1   Soluci´ o.
+
+(a) Reescrivim la igualtat del problema de tal manera que obtenguem   AA
+− 1  
+=   I   o   A
+− 1
+A   =   I .
+Aix´ ı doncs,
+
+AB   +   A   +   I   = 2 A   ⇔   AB   +   A   +   I   −   2 A   = 0   ⇔   AB   −   A   =   − I
+
+⇔   I   =   A   −   AB   ⇔   I   =   A ( I   −   B ) .
+
+Aleshores,   A
+− 1  
+=   I   −   B.
+
+(b) Volem calcular ara   A x   =   b   i sabem que   A
+− 1  
+=   I   −   B.   Aleshores, a¨ ıllant   x   tenim que
+
+x   =   A
+− 1
+b   = ( I   −   B ) b   =
+
+
+
+
+1   − 1   − 2
+
+− 1   0   − 1
+0   − 3   0
+
+
+
+
+
+
+0
+1
+0
+
+
+  
+=
+
+
+
+
+− 1
+0
+
+− 3
+
+
+  
+.
+
+Criteris:
+
+(a) Es penalitza amb 0 . 5 punts per error en l’a¨ ıllament per trobar   A
+− 1
+. En el cas de multipli-
+cacions, es penalitza tot l’apartat.
+(b) 0 . 5 punts si el procediment ´ es correcte i 0 . 5 punts si la soluci´ o ´ es correcta.
+Es penalitza amb un m` axim de   − 0 . 4 punts si la formalitzaci´ o matem` atica no ´ es adequada.
+Convocat` oria 2026   |   6 / 8   |
+
+P5.2   Soluci´ o.   El sistema escrit en forma matricial ´ es   A x   =   b   on
+
+A   =
+
+
+
+
+1   1   1
+2   1   1
+1   1   m
+
+
+   ,   x   =
+
+
+
+
+x
+y
+z
+
+
+   ,   i   b   =
+
+
+
+
+3
+4
+3
+
+
+   .
+
+Calculem primer el Rang( A ). Tenim que
+det( A ) =
+
+1   1   1
+2   1   1
+1   1   m
+
+=   m   + 2 + 1   −   1   −   1   −   2 m   =   − m   + 1 = 0   ⇔   m   = 1 .
+
+Aleshores,
+
+–   Si   m ̸   = 1, det( A ) ̸   = 0 i, per tant, Rang( A ) = 3.
+
+–   Si   m   = 1, det( A ) = 0, per` o
+det( M 33 ) =  
+1   1
+2   1  
+= 1   −   2 =   − 1 ̸   = 0 ,
+
+per la qual cosa Rang( A ) = 2.
+Calculem ara el rang de la matriu ampliada, ´ es a dir, Rang( A | b ).   Notem que ´ es una matriu
+3   ×   4, llavors Rang( A | b )   ≤   3.
+
+–   Si   m ̸   = 1, com que det( A ) ̸   = 0, Rang( A | b ) = 3.
+
+–   Si   m   = 1, tenim que la segona i tercera columna de   A   s´ on iguals, per la qual cosa se n’ha
+de substituir una pel vector   b   per tenir l’opci´ o d’obtenir un determinant no nul. Ara b´ e,
+
+1   1   3
+2   1   4
+1   1   3
+
+= 3 + 6 + 4   −   3   −   4   −   6 = 0 ,
+
+llavors Rang( A | b )   <   3. Ara b´ e, sabem que det( M 33 ) ̸   = 0 i, per tant, Rang( A | b ) = 2.
+En resum,
+Valor de   m   Rang( A )   Rang( A | b )   Nombre d’inc` ognites   Discussi´ o
+
+m ̸   = 1 i   m   ≥   0   3   3   3   SCD (una soluci´ o)
+
+m   = 1   2   2   3   SCI (una recta de solucions)
+Per conseg¨ uent, les quantitats de cada subst` ancia estan un´ ıvocament determinades si   m ̸   = 1 (i
+
+m   ≥   0 per l’enunciat). Altrament, hi ha una relaci´ o entre elles, per` o no podem saber-ne el valor
+exacte.
+
+Criteris:   Si ho resolen emprant rangs: (1) 0 . 25 punts per calcular correctament det( A ) = 0;
+(2) en el cas   m ̸   = 1, 0 . 25 punts per calcular correctament Rang( A ) i Rang( A | b ), i 0 . 25 punts
+per concloure que ´ es un SCD; (3) en el cas   m   = 1, 0 . 25 punts per calcular correctament el
+Rang( A ), 0 . 25 punts per calcular correctament el Rang( A | b ), i 0 . 25 punts per concloure que ´ es
+SCI; finalment, (4) 0 . 5 punts per respondre a la pregunta justificadament (0 . 25 punts cada cas).
+7
+
+Si ho resolen directament calculant les solucions del sistema o per Gauss, han d’arribar a la
+soluci´ o argumentat-la correctament per tenir la puntuaci´ o.
+Es penalitza amb un m` axim de   − 0 . 4 punts si la formalitzaci´ o matem` atica no ´ es adequada.
+8
+

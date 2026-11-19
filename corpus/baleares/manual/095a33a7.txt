@@ -1,0 +1,215 @@
+[Fuente: https://estudis.uib.cat/models-examen/examen/pbau/2024:JUL:TECNOLOGIA-Enunciat/Enunciat-TECNOLOGIA-JUL-2024.pdf]
+1   /   3
+
+Convocatòria 2024
+
+Tecnologia i Enginyeria II   Model 1
+
+Responeu a 4 de les 6 activitats proposades. Totes les activitats tenen la
+
+mateixa puntuació, que és 2.5 punts.
+
+Important:   Els alumnes poden tenir un formulari amb 50 fórmules que
+
+hauran d'entregar juntament amb l'examen.
+
+Activitat 1
+
+1.   Volem dissenyar un circuit que ens detecti si un nombre entre 0 i 15
+
+és primer. Per això codificarem els nombres amb 4 bits ( a, b, c   i   d ), que
+
+seran les entrades del circuit implementat. La sortida del circuit serà la
+
+variable   out , que valdrà 1 si detecta un nombre primer a l’entrada i 0 en
+
+cas contrari.
+
+a)   Representa la taula de veritat. (0.5 punts)
+
+b)   Escriu la funció lògica no simplificada. (0.5 punts)
+
+c)   Representa el mapa de Karnaugh i simplifica la funció lògica. (1
+
+punt)
+
+d)   Implementa el circuit amb portes AND, OR i NOT. (0.5 punts)
+
+Nota: Els nombres primers entre 0 i 15 són 2, 3, 5, 7, 11 i 13.
+
+Activitat 2
+
+2.   La biga de la figura es troba sotmesa a 3 forces F 1 , F 2   i F 3 , de 100 kN,
+
+200 kN i 300 kN, respectivament.
+
+a)   Calcula les forces de reacció dels suports de la biga. (1 punt)
+
+b)   Representa els diagrames dels moments flectors i dels esforços
+
+tallants i indica els valors representatius als eixos dels diagrames.
+
+(1 punt)
+
+c)   Considerant que les forces F 1 , F 2   i F 3   són iguals a F, i que el suport
+
+de la dreta pot fer una reacció màxima de 600 kN, quina és la força
+
+màxima F que es pot aplicar a la biga? Quina és la reacció del suport
+
+de l’esquerra ? (0.5 punts)
+
+5m   5m   5m
+
+F 1  
+F 2
+
+5m
+
+F 3
+
+2   /   3
+
+Convocatòria 2024
+
+Tecnologia i Enginyeria II   Model 1
+
+Activitat 3
+
+3.   En el circuit de la figura, considerant R 1 =20  , R 2 =10  , L=64mH i V
+
+una tensió de 230 V eficaços i freqüència 50 Hz, calcula:
+
+a)   Impedància total connectada. (0.5 punts)
+
+b)   Intensitat I del circuit. (0.5 punts)
+
+c)   Valors eficaços de V A   i V B . (0.75 punts)
+
+d)   Potències activa, reactiva i aparent. (0.75 punts)
+
++
+
+V   R 2
+
+R 1
+
+L
+
++ V A   -  
++
+
+V
+B
+
+-
+
+I
+
+Activitat 4
+
+4.1.   Un recipient conté 10 litres d’un gas ideal. La pressió del gas és de
+
+3 atmosferes, i la temperatura de 280 K. En una primera transformació
+
+isocora, el gas s’escalfa fins que arriba a una pressió de 5 atmosferes.
+
+Seguidament, en les condicions de P, T i V que té el gas després de la
+
+primera transformació, es fa una segona transformació isòbara escalfant
+
+el gas fins a una temperatura de 700 K.
+
+Dades: R=8.31 J/(mol K)=0.082 (litres·atm)/(mol·K), C V =30 J/(mol K)
+
+i 1 atm·litre=101.34 J
+
+Calcula:
+
+a)   Les   pressions,   volums   i   temperatures   després   de   la   primera
+
+transformació i també després de la segona. (1 punt)
+
+b)   Calcula el calor que absorbeix el gas i el treball realitzat durant la
+
+primera i durant la segona transformació. (1 punt)
+
+4.2.   Què és una transformació adiabàtica? (0.5 punts)
+
+3   /   3
+
+Convocatòria 2024
+
+Tecnologia i Enginyeria II   Model 1
+
+Activitat 5
+
+5.   a)   Calcula la funció de transferència G=Y/X per   al sistema de
+
+control representat per la figura següent. (1.5 punts)
+
+b)   Si els guanys són: K 1 =1/4, K 2 =1/2, K 3 =1/3 i K 4 =1, què ha de
+
+valer X si la sortida Y=5? (1 punt)
+
++  
+-
+
+K 1   K 2
+
+K 3
+
+K 4
+
+X
+
++  
+-
+
+Y
+
+Activitat 6
+
+6.   Es disposa d’una proveta d’acer amb secció circular de 3 cm de radi i
+
+40 cm de longitud.
+
+Calcula:
+
+a)   La força a la qual s’arriba al límit elàstic. (0.5 punts)
+
+b)   La força màxima que pot suportar sense trencar-se. (0.5 punts)
+
+c)   L’allargament que experimenta quan s’aplica una força de tracció
+
+de 10 kN. (0.5 punts)
+
+d)   L’allargament   màxim   abans   de   sortir   de   la   zona   elàstica.   (0.5
+
+punts)
+
+e)   Quin diàmetre mínim ha de tenir la proveta si, sotmesa a una
+
+tracció de 80 kN, no ha d’experimentar deformació permanent? (0.5
+
+punts)
+
+Proveta   Mòdul elàstic
+
+(Young)
+
+Tensió límit elàstica   Tensió de ruptura
+
+Acer   2 10
+7  
+N/cm
+2  
+2 10
+4  
+N/cm
+2  
+4 10
+4  
+N/cm
+2
+
