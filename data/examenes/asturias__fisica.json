@@ -1,0 +1,142 @@
+{
+ "ccaa": "asturias",
+ "materia": "fisica",
+ "titulo": "Prueba de Acceso a la Universidad (PAU) — Física — Modelo orientativo 2027 — Principado de Asturias",
+ "duracion_min": 90,
+ "instrucciones": "Responda a cinco preguntas cualesquiera de las ocho propuestas. Cada pregunta se calificará con un máximo de 2 puntos; la puntuación máxima total será de 10 puntos. Indique claramente qué cinco preguntas responde. Si responde a más de cinco, se tendrán en cuenta únicamente las cinco primeras.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "gravitacion",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Una sonda de prospección estudia el campo gravitatorio sobre la línea que une dos pequeños asteroides esféricos, que pueden modelarse como masas puntuales. Sus masas son $m_1=4,0\\times10^{12}\\ \\mathrm{kg}$ y $m_2=9,0\\times10^{12}\\ \\mathrm{kg}$, y sus centros están en $x=0$ y $x=5,0\\ \\mathrm{km}$, respectivamente. Use $G=6,67\\times10^{-11}\\ \\mathrm{N\\,m^2\\,kg^{-2}}$. a) Determine la coordenada del punto del eje $X$ donde se anula el campo gravitatorio total. (1 punto) b) Calcule el potencial gravitatorio total en el punto medio entre los asteroides. (1 punto)",
+   "solucion": "### a) Punto donde se anula el campo\n\nLa distancia entre los centros es $d=5,0\\ \\mathrm{km}=5,0\\times10^3\\ \\mathrm{m}$. Fuera del segmento que une los asteroides, ambos campos apuntan en el mismo sentido, así que el punto de anulación debe estar entre ellos. Si su coordenada es $x$, los campos tienen sentidos opuestos y sus módulos deben ser iguales:\n\n$$\\frac{Gm_1}{x^2}=\\frac{Gm_2}{(d-x)^2}.$$\n\nSe cancela $G$ y, tomando raíces positivas porque $0<x<d$:\n\n$$\\frac{x}{d-x}=\\sqrt{\\frac{m_1}{m_2}}=\\sqrt{\\frac{4,0\\times10^{12}}{9,0\\times10^{12}}}=\\frac{2}{3}.$$\n\nPor tanto,\n\n$$x=\\frac{2}{5}d=\\frac{2}{5}(5,0\\ \\mathrm{km})=2,0\\ \\mathrm{km}=2,0\\times10^3\\ \\mathrm{m}.$$\n\n### b) Potencial en el punto medio\n\nEl punto medio está a $r=2,5\\ \\mathrm{km}=2,5\\times10^3\\ \\mathrm{m}$ de cada asteroide. El potencial gravitatorio es una magnitud escalar y se suman los potenciales:\n\n$$V=-\\frac{Gm_1}{r}-\\frac{Gm_2}{r}=-\\frac{G(m_1+m_2)}{r}.$$\n\nSustituyendo los datos:\n\n$$V=-\\frac{(6,67\\times10^{-11})(13,0\\times10^{12})}{2,5\\times10^3}=-0,34684\\ \\mathrm{J\\,kg^{-1}}\\approx-0,347\\ \\mathrm{J\\,kg^{-1}}.$$\n\nEl signo negativo corresponde al potencial gravitatorio tomando cero en el infinito.",
+   "resultado": "a) $x=2,0\\times10^3\\ \\mathrm{m}$ desde el centro del asteroide de $m_1$; b) $V=-0,34684\\ \\mathrm{J\\,kg^{-1}}\\approx-0,347\\ \\mathrm{J\\,kg^{-1}}$.",
+   "criterios": "Total: 2 puntos. a) 1 punto: 0,4 por identificar que la anulación ocurre entre las masas y plantear la igualdad de módulos de los campos; 0,4 por resolver correctamente la relación de distancias usando las masas; 0,2 por dar la coordenada correcta con unidad. b) 1 punto: 0,4 por determinar que ambas distancias al punto medio son 2,5 km y plantear la suma escalar de potenciales; 0,4 por sustituir correctamente los datos; 0,2 por el valor numérico, el signo y la unidad. Se admiten redondeos razonables.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "magnetico",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Una bobina plana de $40$ espiras, área $25\\ \\mathrm{cm^2}$ y resistencia total $2,0\\ \\Omega$ se utiliza para comprobar el funcionamiento de un sensor de inducción. El campo magnético externo es perpendicular a la bobina y apunta hacia $+z$. Entre $t=0$ y $t=0,20\\ \\mathrm{s}$, su módulo aumenta linealmente de $0,10\\ \\mathrm{T}$ a $0,50\\ \\mathrm{T}$; entre $t=0,20\\ \\mathrm{s}$ y $t=0,50\\ \\mathrm{s}$ permanece constante; y entre $t=0,50\\ \\mathrm{s}$ y $t=0,70\\ \\mathrm{s}$ disminuye linealmente hasta $0,10\\ \\mathrm{T}$. a) Calcule la intensidad inducida y determine su sentido durante el primer y el tercer intervalo, indicando el sentido horario o antihorario visto desde $+z$. (1,5 puntos) b) Indique si circula corriente inducida durante el intervalo en que el campo permanece constante y justifique la respuesta. (0,5 puntos)",
+   "solucion": "### a) Intensidad y sentido de la corriente inducida\n\nEl área de la bobina en unidades del SI es:\n\n$$A=25\\ \\mathrm{cm}^2=25\\times10^{-4}\\ \\mathrm{m}^2=2.5\\times10^{-3}\\ \\mathrm{m}^2$$\n\nEl flujo por espira es $\\Phi=BA$. Por la ley de Faraday-Lenz, la fuerza electromotriz inducida es $\\varepsilon=-N A\\,dB/dt$; por tanto, la intensidad tiene módulo $I=N A|dB/dt|/R$.\n\n**Primer intervalo ($0\\leq t\\leq0.20\\ \\mathrm{s}$):**\n\n$$\\frac{dB}{dt}=\\frac{0.50-0.10}{0.20}=2.0\\ \\mathrm{T/s}$$\n\n$$I=\\frac{40(2.5\\times10^{-3})(2.0)}{2.0}=0.10\\ \\mathrm{A}$$\n\nEl campo externo hacia $+z$ aumenta, así que el campo inducido debe apuntar hacia $-z$. La corriente es **horaria vista desde $+z$**.\n\n**Tercer intervalo ($0.50\\leq t\\leq0.70\\ \\mathrm{s}$):**\n\n$$\\frac{dB}{dt}=\\frac{0.10-0.50}{0.20}=-2.0\\ \\mathrm{T/s}$$\n\n$$I=\\frac{40(2.5\\times10^{-3})(2.0)}{2.0}=0.10\\ \\mathrm{A}$$\n\nEl campo externo hacia $+z$ disminuye, así que el campo inducido debe apuntar hacia $+z$. La corriente es **antihoraria vista desde $+z$**.\n\n### b) Intervalo de campo constante\n\nNo circula corriente inducida: al ser constante el campo, también lo es el flujo magnético a través de la bobina, de modo que $d\\Phi/dt=0$ y la fuerza electromotriz inducida es nula.",
+   "resultado": "Primer intervalo: 0,10 A, sentido horario visto desde +z. Tercer intervalo: 0,10 A, sentido antihorario visto desde +z. Campo constante: no circula corriente inducida (0 A).",
+   "criterios": "Total: 2 puntos. a) 1,5 puntos: conversión correcta del área y planteamiento de la ley de Faraday-Lenz (0,25); cálculo de las variaciones de campo y de las intensidades en ambos intervalos (0,75); sentidos correctos, justificados mediante la ley de Lenz (0,50). b) 0,5 puntos: indicar que no hay corriente inducida y justificarlo porque el flujo es constante y su derivada temporal es nula.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "ondas",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Un cable de seguridad instrumentado transmite una perturbación transversal que se propaga en el sentido positivo del eje $X$. La amplitud es $A=0,040\\ \\mathrm{m}$, la longitud de onda es $\\lambda=2,00\\ \\mathrm{m}$ y la frecuencia es $f=5,00\\ \\mathrm{Hz}$. En $x=0$, para $t=0$, el cable pasa por su posición de equilibrio moviéndose en el sentido positivo del eje $Y$. a) Calcule la velocidad de propagación. (0,5 puntos) b) Escriba la función de onda en unidades del SI, especificando qué significan las variables $x$ y $t$. (1,5 puntos)",
+   "solucion": "### a) Velocidad de propagación\n\nLa velocidad de propagación de una onda periódica es $v=\\lambda f$. Por tanto,\n\n$$v=(2,00\\ \\mathrm{m})(5,00\\ \\mathrm{Hz})=10,0\\ \\mathrm{m\\,s^{-1}}.$$\n\n### b) Función de onda\n\nLa frecuencia angular y el número de onda son\n\n$$\\omega=2\\pi f=10\\pi\\ \\mathrm{rad\\,s^{-1}},\\qquad k=\\frac{2\\pi}{\\lambda}=\\pi\\ \\mathrm{rad\\,m^{-1}}.$$\n\nUna onda que se propaga en el sentido positivo de $X$ puede escribirse como $y(x,t)=A\\sin(\\omega t-kx+\\phi)$. La condición de equilibrio en $x=0$, $t=0$, implica $\\sin\\phi=0$. Además, la velocidad transversal es $\\partial y/\\partial t=A\\omega\\cos(\\omega t-kx+\\phi)$; para que en ese instante sea positiva debe cumplirse $\\cos\\phi>0$. Por tanto, se puede tomar $\\phi=0$.\n\nLa función de onda en unidades del SI es\n\n$$\\boxed{y(x,t)=0,040\\sin(10\\pi t-\\pi x)\\ \\mathrm{m}}.$$\n\nAquí $x$ es la posición a lo largo del cable, medida en metros, y $t$ es el tiempo, medido en segundos. La elongación transversal $y$ se expresa en metros.",
+   "resultado": "a) $v=10,0\\ \\mathrm{m\\,s^{-1}}$. b) $y(x,t)=0,040\\sin(10\\pi t-\\pi x)\\ \\mathrm{m}$, con $x$ en metros y $t$ en segundos.",
+   "criterios": "Total: 2 puntos. a) 0,5 puntos: plantea $v=\\lambda f$ (0,25) y obtiene $v=10,0\\ \\mathrm{m\\,s^{-1}}$ con unidades (0,25). b) 1,5 puntos: calcula correctamente $\\omega=2\\pi f$ y $k=2\\pi/\\lambda$ (0,5); determina el signo de la fase de modo que la onda avance en $+X$ y la velocidad transversal inicial sea positiva (0,5); escribe la función de onda correcta e identifica $x$ y $t$ con sus unidades SI (0,5).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "optica",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En un proyector portátil para una exposición, una diapositiva de altura $2,0\\ \\mathrm{cm}$ se coloca frente a una lente delgada convergente de distancia focal $12,0\\ \\mathrm{cm}$. La diapositiva está a $18,0\\ \\mathrm{cm}$ de la lente. a) Determine la posición de la imagen respecto a la lente. (1 punto) b) Calcule la altura de la imagen e indique si es real o virtual y si está derecha o invertida. (1 punto)",
+   "solucion": "Tomamos como positivas las distancias medidas hacia el lado de propagación de la luz, y usamos la ecuación de lentes delgadas.\n\n**a) Posición de la imagen**\n\nCon $f=12,0\\ \\mathrm{cm}$ y $s=18,0\\ \\mathrm{cm}$:\n\n$$\\frac{1}{f}=\\frac{1}{s}+\\frac{1}{s'}$$\n\n$$\\frac{1}{s'}=\\frac{1}{12,0}-\\frac{1}{18,0}=\\frac{1}{36,0}\\ \\mathrm{cm}^{-1}$$\n\nPor tanto, $s'=36,0\\ \\mathrm{cm}$. El signo positivo indica que la imagen se forma al otro lado de la lente respecto a la diapositiva.\n\n**b) Altura y características de la imagen**\n\nEl aumento lateral es:\n\n$$m=-\\frac{s'}{s}=-\\frac{36,0}{18,0}=-2,0$$\n\nAsí, la altura de la imagen es:\n\n$$h'=m h=(-2,0)(2,0\\ \\mathrm{cm})=-4,0\\ \\mathrm{cm}$$\n\nLa imagen tiene una altura de $4,0\\ \\mathrm{cm}$; el signo negativo indica que está invertida. Como $s'>0$, es real.",
+   "resultado": "La imagen se forma a 36,0 cm al otro lado de la lente; mide 4,0 cm, es real e invertida.",
+   "criterios": "a) 1,0 punto: 0,25 por plantear correctamente la ecuación de la lente; 0,50 por despejar y obtener $s'=36,0\\ \\mathrm{cm}$; 0,25 por indicar que la imagen está al otro lado de la lente. b) 1,0 punto: 0,40 por calcular el aumento $m=-2,0$; 0,30 por obtener la altura con signo $h'=-4,0\\ \\mathrm{cm}$; 0,30 por identificarla como real e invertida.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "moderna",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Un fotodetector empleado para medir radiación tiene un cátodo cuyo trabajo de extracción es $2,00\\ \\mathrm{eV}$. Se ilumina con luz monocromática de longitud de onda $400\\ \\mathrm{nm}$. Use $h=6,63\\times10^{-34}\\ \\mathrm{J\\,s}$, $c=3,00\\times10^8\\ \\mathrm{m\\,s^{-1}}$ y $e=1,60\\times10^{-19}\\ \\mathrm{C}$, con $1\\ \\mathrm{eV}=1,60\\times10^{-19}\\ \\mathrm{J}$. a) Calcule la longitud de onda umbral del cátodo. (0,75 puntos) b) Determine la energía cinética máxima de los fotoelectrones, en eV, y el potencial de frenado necesario para detenerlos. (1,25 puntos)",
+   "solucion": "### a) Longitud de onda umbral\n\nLa longitud de onda umbral corresponde a la energía mínima necesaria para extraer un electrón: $\\frac{hc}{\\lambda_0}=W_0$. El trabajo de extracción en unidades del SI es $W_0=2,00\\,\\mathrm{eV}\\times1,60\\times10^{-19}\\,\\mathrm{J/eV}=3,20\\times10^{-19}\\,\\mathrm{J}$. Por tanto,\n\n$$\\lambda_0=\\frac{hc}{W_0}=\\frac{(6,63\\times10^{-34})(3,00\\times10^8)}{3,20\\times10^{-19}}=6,2156\\times10^{-7}\\,\\mathrm{m}\\approx622\\,\\mathrm{nm}.$$\n\n### b) Energía cinética máxima y potencial de frenado\n\nLa energía del fotón incidente es\n\n$$E_\\gamma=\\frac{hc}{\\lambda}=\\frac{(6,63\\times10^{-34})(3,00\\times10^8)}{400\\times10^{-9}}=4,9725\\times10^{-19}\\,\\mathrm{J}=3,1078\\,\\mathrm{eV}.$$\n\nPor la ecuación fotoeléctrica de Einstein, $K_{\\max}=E_\\gamma-W_0$, así que\n\n$$K_{\\max}=3,1078-2,00=1,1078\\,\\mathrm{eV}.$$\n\nEl potencial de frenado satisface $eV_f=K_{\\max}$. Como la energía cinética está expresada en eV, su valor numérico coincide con el potencial expresado en V:\n\n$$V_f=1,1078\\,\\mathrm{V}.$$\n\n**Resultados:** $\\lambda_0=6,2156\\times10^{-7}\\,\\mathrm{m}$, $K_{\\max}=1,1078\\,\\mathrm{eV}$ y $V_f=1,1078\\,\\mathrm{V}$.",
+   "resultado": "λ₀ = 6,2156 × 10⁻⁷ m (≈ 622 nm); Kₘₐₓ = 1,1078 eV; V_f = 1,1078 V.",
+   "criterios": "Total: 2,00 puntos. a) 0,75 puntos: conversión del trabajo de extracción a julios (0,15); planteamiento y despeje de λ₀ = hc/W₀ (0,30); resultado numérico con unidad correcta (0,30). b) 1,25 puntos: cálculo de la energía del fotón en eV (0,35); aplicación de Kₘₐₓ = Eγ − W₀ y resultado con unidad (0,50); relación eV_f = Kₘₐₓ y potencial de frenado con unidad (0,40). Se admiten diferencias menores de redondeo.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "6",
+   "tema": "moderna",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En la preparación de una prueba diagnóstica se dispone de una muestra de Tc-99m con $N_0=1,60\\times10^{12}$ núcleos radiactivos. Su periodo de semidesintegración es $6,0\\ \\mathrm{h}$. Considere que la muestra no recibe nuevos núcleos y use $\\ln 2=0,693$. a) Calcule cuántos núcleos quedan sin desintegrar tras $12,0\\ \\mathrm{h}$. (1 punto) b) Determine la actividad de la muestra en ese instante, expresada en becquerelios. (1 punto)",
+   "solucion": "### a) Núcleos que quedan sin desintegrar\n\nEl número de periodos de semidesintegración transcurridos es\n\n$$n=\\frac{t}{T_{1/2}}=\\frac{12,0\\ \\mathrm{h}}{6,0\\ \\mathrm{h}}=2.$$\n\nAplicando la ley de desintegración radiactiva:\n\n$$N(t)=N_0\\left(\\frac{1}{2}\\right)^n=1,60\\times10^{12}\\left(\\frac{1}{2}\\right)^2=4,00\\times10^{11}\\ \\text{núcleos}.$$\n\n### b) Actividad a las 12,0 h\n\nLa actividad es $A=\\lambda N$, donde la constante de desintegración, expresando el periodo en segundos, vale\n\n$$\\lambda=\\frac{\\ln 2}{T_{1/2}}=\\frac{0,693}{6,0\\times3600\\ \\mathrm{s}}=3,2083\\times10^{-5}\\ \\mathrm{s}^{-1}.$$\n\nPor tanto, en ese instante:\n\n$$A=\\lambda N(t)=(3,2083\\times10^{-5}\\ \\mathrm{s}^{-1})(4,00\\times10^{11})=1,2833\\times10^7\\ \\mathrm{Bq}\\approx1,28\\times10^7\\ \\mathrm{Bq}.$$\n\nSe ha usado que $1\\ \\mathrm{Bq}=1\\ \\mathrm{s}^{-1}$.",
+   "resultado": "a) $4,00\\times10^{11}$ núcleos; b) $1,28\\times10^7\\ \\mathrm{Bq}$.",
+   "criterios": "Total: 2 puntos. a) (1 punto): planteamiento correcto de la ley de desintegración o identificación de los dos periodos transcurridos (0,5 puntos); cálculo de $N=4,00\\times10^{11}$ núcleos (0,5 puntos). b) (1 punto): conversión de $T_{1/2}$ a segundos y cálculo de $\\lambda=3,2083\\times10^{-5}\\ \\mathrm{s}^{-1}$ (0,5 puntos); aplicación de $A=\\lambda N(t)$ y resultado $A=1,28\\times10^7\\ \\mathrm{Bq}$ (0,5 puntos).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "7",
+   "tema": "electrico",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En un sensor de aerosoles, una gota de carga $q=+4,0\\ \\mathrm{nC}$ se desplaza desde $A$ hasta $B$ dentro de un campo eléctrico uniforme de módulo $E=3,0\\times10^4\\ \\mathrm{N\\,C^{-1}}$, dirigido hacia $+x$. El desplazamiento de $A$ a $B$ es de $0,20\\ \\mathrm{m}$ en el sentido del campo. a) Calcule el trabajo realizado por el campo eléctrico sobre la gota. (1 punto) b) Determine la diferencia de potencial $V_B-V_A$. (1 punto)",
+   "solucion": "### Datos\n$q=+4,0\\times10^{-9}\\,\\mathrm{C}$, $E=3,0\\times10^4\\,\\mathrm{N\\,C^{-1}}$ y $d=0,20\\,\\mathrm{m}$. El desplazamiento tiene el mismo sentido que el campo, por lo que el ángulo entre ambos es $0°$.\n\n### a) Trabajo realizado por el campo\nEl trabajo del campo eléctrico uniforme es\n$$W=qEd\\cos 0°.$$\nSustituyendo:\n$$W=(4,0\\times10^{-9})(3,0\\times10^4)(0,20)=+2,4\\times10^{-5}\\,\\mathrm{J}.$$\nEl signo es positivo porque la carga positiva se desplaza en el sentido de la fuerza eléctrica.\n\n### b) Diferencia de potencial\nEn un campo uniforme, la diferencia de potencial entre los puntos de inicio y final es\n$$V_B-V_A=-Ed\\cos 0°.$$\nPor tanto,\n$$V_B-V_A=-(3,0\\times10^4)(0,20)=-6,0\\times10^3\\,\\mathrm{V}.$$\nEl potencial disminuye en el sentido del campo. Se comprueba también que $W=-q(V_B-V_A)$.",
+   "resultado": "a) $W=+2,4\\times10^{-5}\\,\\mathrm{J}$; b) $V_B-V_A=-6,0\\times10^3\\,\\mathrm{V}$.",
+   "criterios": "a) (1 punto): planteamiento correcto del trabajo $W=qEd\\cos\\theta$ (0,5 puntos); sustitución, signo y resultado con unidades (0,5 puntos). b) (1 punto): relación correcta $V_B-V_A=-Ed\\cos\\theta$ (0,5 puntos); sustitución, signo y resultado con unidades (0,5 puntos).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "8",
+   "tema": "gravitacion",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Un satélite de comunicaciones describe una órbita circular alrededor de un asteroide. Para el asteroide, $GM=1,00\\times10^{12}\\ \\mathrm{m^3\\,s^{-2}}$, y el radio orbital medido desde su centro es $r=1,00\\times10^6\\ \\mathrm{m}$. a) Calcule la rapidez orbital del satélite. (1 punto) b) Determine el periodo de la órbita en segundos. (1 punto)",
+   "solucion": "### a) Rapidez orbital\n\nEn una órbita circular, la fuerza gravitatoria proporciona la fuerza centrípeta:\n\n$$\\frac{GMm}{r^2}=\\frac{mv^2}{r}$$\n\nDespejando la rapidez y sustituyendo los datos:\n\n$$v=\\sqrt{\\frac{GM}{r}}=\\sqrt{\\frac{1{,}00\\times10^{12}}{1{,}00\\times10^6}}=1{,}00\\times10^3\\ \\mathrm{m\\,s^{-1}}$$\n\n### b) Periodo orbital\n\nEl periodo es la longitud de la órbita dividida por la rapidez:\n\n$$T=\\frac{2\\pi r}{v}=2\\pi\\sqrt{\\frac{r^3}{GM}}$$\n\nSustituyendo:\n\n$$T=2\\pi\\sqrt{\\frac{(1{,}00\\times10^6)^3}{1{,}00\\times10^{12}}}=2000\\pi\\ \\mathrm{s}\\approx6{,}28\\times10^3\\ \\mathrm{s}$$",
+   "resultado": "a) $v=1{,}00\\times10^3\\ \\mathrm{m\\,s^{-1}}$; b) $T=2000\\pi\\ \\mathrm{s}\\approx6{,}28\\times10^3\\ \\mathrm{s}$.",
+   "criterios": "a) 1 punto: 0,4 por plantear la igualdad entre fuerza gravitatoria y centrípeta; 0,3 por despejar $v=\\sqrt{GM/r}$; 0,3 por sustituir correctamente y obtener $1{,}00\\times10^3\\ \\mathrm{m\\,s^{-1}}$. b) 1 punto: 0,4 por plantear $T=2\\pi r/v$ o su expresión equivalente; 0,3 por sustituir correctamente los datos; 0,3 por obtener $T=2000\\pi\\ \\mathrm{s}\\approx6{,}28\\times10^3\\ \\mathrm{s}$. Se aceptan resultados equivalentes con redondeo adecuado.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "gravitacion",
+   "p": 0.9
+  },
+  {
+   "id": "magnetico",
+   "p": 0.9
+  },
+  {
+   "id": "ondas",
+   "p": 0.9
+  },
+  {
+   "id": "optica",
+   "p": 0.9
+  },
+  {
+   "id": "moderna",
+   "p": 0.9
+  },
+  {
+   "id": "electrico",
+   "p": 0.77
+  }
+ ],
+ "referencias": [
+  "https://www.uniovi.es/documents/39158/d26da41e-33bc-70e7-62e0-14f3597df416",
+  "https://www.uniovi.es/documents/39158/b1431471-3e67-24ae-4274-6e99c6643703",
+  "https://www.uniovi.es/documents/39158/5ee04d66-317f-cb82-f238-82e2c51a23ea",
+  "https://www.uniovi.es/documents/39158/60495005-e85e-769e-0bfc-e94fd390c387",
+  "https://www.uniovi.es/documents/39158/b1431471-3e67-24ae-4274-6e99c6643703",
+  "https://www.uniovi.es/documents/39158/d26da41e-33bc-70e7-62e0-14f3597df416"
+ ]
+}
