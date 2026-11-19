@@ -1,0 +1,99 @@
+{
+ "ccaa": "galicia",
+ "materia": "empresa",
+ "titulo": "Propuesta original de examen PAU 2027 de Galicia — Empresa y Diseño de Modelos de Negocio",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de 4 preguntas obligatorias, de 2,5 puntos cada una. La pregunta 1 no tiene apartados optativos. En las preguntas 2, 3 y 4, responda el apartado obligatorio y elija únicamente uno de los dos subapartados propuestos. Justifique los cálculos e interprete los resultados cuando se solicite.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "marketing",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una empresa gallega fabrica mochilas reflectantes para personas que utilizan la bicicleta para desplazarse por la ciudad. Su público objetivo son personas de entre 20 y 40 años que usan la bicicleta a diario y valoran especialmente la visibilidad. En el último año vendió 4.800 mochilas en un mercado regional en el que se comercializaron 32.000 unidades. La empresa vende en su propia página web y en ocho tiendas de deporte independientes. Responda: 1.1. Calcule la cuota de mercado de la empresa en unidades y exprésela en porcentaje. (1 punto) 1.2. Identifique el público objetivo y señale los criterios demográfico y conductual que se utilizan para definirlo. (0,75 puntos) 1.3. Clasifique los dos canales de distribución según sean directos o indirectos e indique, en el caso de las tiendas, cuántos intermediarios hay entre la empresa y el consumidor final. (0,75 puntos)",
+   "solucion": "### 1.1. Cuota de mercado en unidades\n\nLa cuota de mercado se calcula dividiendo las unidades vendidas por la empresa entre las unidades comercializadas en el mercado y multiplicando por 100:\n\n$$\\text{Cuota de mercado} = \\frac{4.800}{32.000} \\times 100 = 15\\%$$\n\nLa cuota de mercado de la empresa es del **15 %**.\n\n### 1.2. Público objetivo y criterios de segmentación\n\nEl público objetivo está formado por **personas de entre 20 y 40 años que utilizan la bicicleta a diario para desplazarse por la ciudad y valoran especialmente la visibilidad**.\n\n- **Criterio demográfico:** la edad, de 20 a 40 años.\n- **Criterio conductual:** el uso diario de la bicicleta y la valoración de la visibilidad, que constituye un beneficio buscado.\n\n### 1.3. Canales de distribución\n\n- **Página web propia:** canal **directo**, ya que no intervienen intermediarios entre la empresa y el consumidor final.\n- **Ocho tiendas de deporte independientes:** canal **indirecto**. Hay **un intermediario**, la tienda minorista, entre la empresa y el consumidor final.",
+   "resultado": "Cuota de mercado: 15 %; público objetivo: personas de 20 a 40 años, ciclistas urbanos diarios que valoran la visibilidad; web: canal directo; tiendas: canal indirecto con 1 intermediario.",
+   "criterios": "1.1 (1 punto): planteamiento de la cuota como unidades vendidas por la empresa / unidades totales del mercado (0,5 puntos); cálculo correcto del 15 % (0,5 puntos). 1.2 (0,75 puntos): identificación del público objetivo (0,25 puntos); criterio demográfico de edad (0,25 puntos); criterio conductual —uso diario de la bicicleta y valoración de la visibilidad— (0,25 puntos). 1.3 (0,75 puntos): clasificación de la web propia como canal directo (0,25 puntos); clasificación de las tiendas como canal indirecto (0,25 puntos); identificación de un intermediario entre la empresa y el consumidor final (0,25 puntos).",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "2",
+   "tema": "contabilidad",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una cooperativa que solicita financiación presenta estos elementos patrimoniales: propiedad industrial, 20.000 €; locales, 90.000 €; maquinaria, 70.000 €; existencias de materias primas, 38.000 €; clientes, 42.000 €; bancos, 20.000 €; reservas, 35.000 €; préstamo bancario a largo plazo, 80.000 €; proveedores, 40.000 €; crédito bancario a corto plazo, 20.000 €. El capital social es desconocido. 2.1. Elabore el balance, clasificando sus elementos en activo no corriente, activo corriente, patrimonio neto, pasivo no corriente y pasivo corriente, y calcule el capital social. (1 punto) 2.2. Responda uno de estos dos subapartados: 2.2.1. Calcule el fondo de maniobra de dos formas distintas y comente el resultado. (1,5 puntos) 2.2.2. Sabiendo que el beneficio neto del ejercicio fue de 14.000 €, calcule la ratio de autonomía financiera, definida como $A = patrimonio\\\\ neto / (pasivo\\\\\\\\ no\\\\\\\\\\ corriente + pasivo\\\\\\\\\\ corriente)$, y la rentabilidad financiera, definida como $RF = (beneficio\\\\\\\\\\ neto / patrimonio\\\\\\\\\\ neto) × 100$. Comente ambos resultados. (1,5 puntos)",
+   "solucion": "### 2.1. Balance y cálculo del capital social\n\nTodos los importes se expresan en euros.\n\n| **Activo** | Importe | **Patrimonio neto y pasivo** | Importe |\n|---|---:|---|---:|\n| **Activo no corriente** | **180.000** | **Patrimonio neto** | **140.000** |\n| Propiedad industrial | 20.000 | Capital social | 105.000 |\n| Locales | 90.000 | Reservas | 35.000 |\n| Maquinaria | 70.000 | **Pasivo no corriente** | **80.000** |\n| **Activo corriente** | **100.000** | Préstamo bancario a largo plazo | 80.000 |\n| Existencias de materias primas | 38.000 | **Pasivo corriente** | **60.000** |\n| Clientes | 42.000 | Proveedores | 40.000 |\n| Bancos | 20.000 | Crédito bancario a corto plazo | 20.000 |\n| **Total activo** | **280.000** | **Total patrimonio neto y pasivo** | **280.000** |\n\nEl patrimonio neto se obtiene como diferencia entre el activo y las deudas: $PN = 280.000 - (80.000 + 40.000 + 20.000) = 140.000$. Como las reservas ascienden a $35.000$, el capital social es $Capital = 140.000 - 35.000 = 105.000$.\n\n### 2.2.1. Fondo de maniobra por dos métodos\n\n**Primera forma: activo corriente menos pasivo corriente.**\n\n$FM = AC - PC = 100.000 - (40.000 + 20.000) = 40.000\\ €$.\n\n**Segunda forma: recursos permanentes menos activo no corriente.** Los recursos permanentes son el patrimonio neto más el pasivo no corriente:\n\n$FM = (PN + PNC) - ANC = (140.000 + 80.000) - 180.000 = 40.000\\ €$.\n\n**Comentario y comprobación:** ambos métodos dan el mismo resultado, $40.000\\ €$. El fondo de maniobra es positivo: los recursos permanentes financian todo el activo no corriente y queda un excedente de $40.000\\ €$ para financiar parte del activo corriente. En general, esto proporciona un margen favorable para atender las deudas a corto plazo, aunque no garantiza por sí solo la liquidez efectiva.",
+   "resultado": "Capital social: 105.000 €; fondo de maniobra por ambos métodos: 40.000 €.",
+   "criterios": "Puntuación total: 2,5 puntos. **2.1 (1 punto):** clasificación correcta del activo no corriente y corriente y sus totales, 0,40; clasificación del patrimonio neto y de los pasivos corriente y no corriente, 0,25; cálculo del capital social a partir de la ecuación patrimonial, 0,25; comprobación de que el balance cuadra, 0,10. **2.2.1 (1,5 puntos):** expresión correcta de las dos fórmulas del fondo de maniobra, 0,50; cálculo correcto por el método AC − PC, 0,30; cálculo correcto por el método recursos permanentes − ANC, 0,30; comentario coherente sobre el signo y su significado, 0,40.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "3",
+   "tema": "financiacion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una empresa que fabrica paneles acústicos está valorando la adquisición de nueva maquinaria. Una propuesta requiere una inversión inicial de 24.000 € y genera flujos netos de caja de 8.000 € al final del primer año, 10.000 € al final del segundo y 12.000 € al final del tercero. Suponga que los flujos se generan uniformemente durante cada año. 3.1. Calcule el plazo de recuperación de esta inversión. (1 punto) 3.2. Responda uno de estos dos subapartados: 3.2.1. Para una máquina alternativa, la inversión inicial es de 10.000 € y los flujos netos de caja previstos son 5.500 € al final del primer año y 6.050 € al final del segundo. Calcule el VAN con una tasa de actualización del 10 %, aplicando $VAN = -I_0 + FC_1/(1+i) + FC_2/(1+i)^2$, y explique qué indica el resultado para la decisión de inversión. (1,5 puntos) 3.2.2. La empresa vende cada panel a 40 €; sus costes variables unitarios son de 22 € y sus costes fijos anuales ascienden a 27.000 €. Calcule el umbral de rentabilidad en unidades y el beneficio o pérdida si se producen y venden 1.800 paneles. Interprete ambos resultados. (1,5 puntos)",
+   "solucion": "### 3.1. Plazo de recuperación\n\nAl final del segundo año se han recuperado $8.000+10.000=18.000\\,€$. Quedan por recuperar $24.000-18.000=6.000\\,€$. Como los flujos del tercer año se generan uniformemente, el tiempo necesario para obtener esos $6.000\\,€$ es $\\frac{6.000}{12.000}=0,5$ años.\n\nPor tanto, el plazo de recuperación es $2+0,5=2,5$ años.\n\n### 3.2.1. VAN de la máquina alternativa\n\nAplicando la fórmula indicada, con $i=0,10$:\n\n$$VAN=-10.000+\\frac{5.500}{1+0,10}+\\frac{6.050}{(1+0,10)^2}$$\n\n$$VAN=-10.000+5.000+5.000=0\\,€$$\n\nEl VAN nulo indica que, al tipo de actualización del $10\\%$, la inversión no crea ni destruye valor. Según el criterio del VAN, la empresa sería indiferente entre realizarla o no, si no concurren otros factores o alternativas de inversión.",
+   "resultado": "Plazo de recuperación: 2,5 años; VAN de la máquina alternativa (subapartado 3.2.1): 0 €.",
+   "criterios": "Puntuación total: 2,5 puntos. **3.1 (1 punto):** 0,4 por calcular correctamente los flujos acumulados hasta el final del segundo año; 0,3 por determinar los 6.000 € pendientes de recuperar; 0,3 por calcular la fracción del tercer año y expresar el plazo como 2,5 años. **3.2.1 (1,5 puntos):** 0,4 por descontar correctamente el flujo del primer año; 0,4 por descontar correctamente el del segundo año; 0,4 por sustituir y obtener un VAN de 0 €; 0,3 por interpretar que el proyecto no crea ni destruye valor al 10 % y que, según el criterio del VAN, la decisión es indiferente. Se responde al subapartado 3.2.1, tal como permite el enunciado.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "modelonegocio",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Ronsel Circular ofrece servicios de revisión, reparación y calibración de instrumentos musicales a escuelas municipales de música y bandas juveniles. Su propuesta incluye la recogida y devolución de los instrumentos y un plazo estándar de reparación de 72 horas. Las reservas y el seguimiento se realizan en una plataforma digital; cada cliente cuenta, además, con una persona asesora. La empresa obtiene ingresos mediante suscripciones anuales por instrumento y reparaciones puntuales. Sus actividades principales son la revisión y reparación; dispone de técnicos especializados, herramientas de diagnóstico y la plataforma. Colabora con proveedores de repuestos y una empresa de mensajería. Sus principales costes son los salarios, los repuestos, el alquiler del taller y los servicios de recogida y entrega. 4.1. Identifique la propuesta de valor y el segmento o segmentos de clientes del modelo de negocio. (1 punto) 4.2. Responda uno de estos dos subapartados: 4.2.1. Identifique en el caso los canales, las fuentes de ingresos, los recursos clave y los socios clave del modelo Canvas. (1,5 puntos) 4.2.2. La empresa organiza su actividad en tres departamentos —reparaciones, atención al cliente y logística—, cada uno dirigido por una persona responsable que depende de la dirección general. Explique qué es la estructura organizativa y clasifique la estructura descrita, justificando la clasificación e indicando una ventaja de este tipo de organización. (1,5 puntos)",
+   "solucion": "### 4.1. Propuesta de valor y segmentos de clientes\n\n- **Propuesta de valor:** ofrecer a escuelas municipales de música y bandas juveniles un servicio especializado de revisión, reparación y calibración de instrumentos musicales. La recogida y devolución, el plazo estándar de 72 horas, la reserva y el seguimiento digitales y la atención de una persona asesora aportan comodidad, rapidez y acompañamiento.\n- **Segmentos de clientes:** escuelas municipales de música y bandas juveniles.\n\n### 4.2.1. Elementos del modelo Canvas\n\n1. **Canales:** la plataforma digital, mediante la que se reservan los servicios y se hace su seguimiento; y la recogida y devolución de los instrumentos, como canal de distribución del servicio. La atención de la persona asesora puede considerarse un canal de contacto personal, aunque también representa una relación de asistencia personal con el cliente.\n2. **Fuentes de ingresos:** suscripciones anuales por instrumento y cobros por reparaciones puntuales.\n3. **Recursos clave:** técnicos especializados, herramientas de diagnóstico y plataforma digital.\n4. **Socios clave:** proveedores de repuestos y empresa de mensajería.\n\n### Comprobación\n\nLos elementos se asignan a categorías distintas del Canvas: la plataforma y la logística permiten acceder al servicio; las suscripciones y reparaciones generan ingresos; los técnicos, herramientas y plataforma son recursos de la empresa; y los proveedores y la mensajería son colaboradores externos. No se confunden los costes indicados en el caso con los recursos o los socios clave.",
+   "resultado": "Propuesta de valor: mantenimiento especializado, cómodo y rápido de instrumentos; clientes: escuelas municipales de música y bandas juveniles. Se resuelve el apartado 4.2.1 del Canvas.",
+   "criterios": "Puntuación máxima: 2,5 puntos. 4.1 (1 punto): 0,5 por identificar la propuesta de valor de forma completa y 0,5 por señalar correctamente los dos segmentos de clientes. 4.2.1 (1,5 puntos): 0,375 por los canales; 0,375 por las fuentes de ingresos; 0,375 por los recursos clave; y 0,375 por los socios clave. Se admite considerar la asesoría personal como canal de contacto, aclarando que corresponde también a la relación con los clientes. Se responde únicamente el subapartado 4.2.1, conforme a la instrucción de elegir uno.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 3,
+ "temas_base": [
+  {
+   "id": "marketing",
+   "p": 0.698
+  },
+  {
+   "id": "contabilidad",
+   "p": 0.648
+  },
+  {
+   "id": "modelonegocio",
+   "p": 0.569
+  },
+  {
+   "id": "financiacion",
+   "p": 0.529
+  },
+  {
+   "id": "produccion",
+   "p": 0.446
+  },
+  {
+   "id": "organizacion",
+   "p": 0.205
+  }
+ ],
+ "referencias": [
+  "https://ciug.gal/link/xhaXFzVdZM9wWqMj",
+  "https://ciug.gal/link/6jWxUE4SAjqG8iDi",
+  "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/31.pdf",
+  "https://ciug.gal/PDF/2025/PAU/extraordinaria/exames/31.pdf",
+  "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/31.pdf",
+  "https://ciug.gal/PDF/2025/PAU/ordinaria/exames/31.pdf",
+  "https://ciug.gal/link/6jWxUE4SAjqG8iDi",
+  "https://ciug.gal/link/S9LNyVVc4BkSwjyU",
+  "https://ciug.gal/link/s3kLxGBt9T2hPP7u",
+  "https://ciug.gal/link/xhaXFzVdZM9wWqMj",
+  "https://ciug.gal/link/zGE6axrRs9wNJBTw"
+ ]
+}
