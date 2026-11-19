@@ -1,0 +1,87 @@
+{
+ "ccaa": "castillalamancha",
+ "materia": "latin",
+ "titulo": "Latín II — PAU 2027 de Castilla-La Mancha (modelo original)",
+ "duracion_min": 90,
+ "instrucciones": "La prueba consta de 4 preguntas, distribuidas en 3 bloques, con una puntuación total de 10 puntos. En la pregunta 1 traduce uno de los dos textos; en la pregunta 2 responde al apartado correspondiente al texto elegido. Las preguntas 3 y 4 son obligatorias, salvo la elección de uno de los textos del apartado A de la pregunta 4. Los textos y tareas se sitúan en contextos de gestión urbana, vida rural y difusión del patrimonio romano. Se valorarán la presentación, la claridad y la corrección ortográfica; las faltas de ortografía podrán descontar 0,25 puntos cada una, hasta un máximo de 1 punto. Se permite usar un diccionario latino-español con apéndice gramatical. Responde en el cuadernillo.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "traduccion",
+   "puntos": 4,
+   "tipo": "abierta",
+   "enunciado": "BLOQUE A. Traducción. Traduce uno de estos textos. Texto A: el relato de una reparación de la conducción de agua de una ciudad romana. Cada oración se puntuará con 1 punto. Cum aqua ad urbem tarde perveniret, magistratus fabros convocaverunt. (1) Hi, qui rivum diu inspexerant, lapidem ingentem in canali invenerunt. (1) Magistratus iusserunt ut operarii eum tollerent et fissuram saxo firmarent. (1) Postquam opus confectum est, aqua rursus per totam urbem fluxit. (1) Texto original elaborado para esta prueba. Rivus, -i: curso de agua; canalis, -is: canal; fissura, -ae: grieta. Texto B: escena poética original sobre un campesino que disfruta de una vida sencilla. Cada verso se puntuará con 1 punto. Rusticus in parvo laetus sua rura colebat, / dum nova per campos veris signa videbat. / Non aurum petebat, sed aquam de fonte recenti, / socios laeta voce ad pocula vocabat. Texto original elaborado para esta prueba.",
+   "solucion": "### Texto elegido: A\n\n1. **Cum aqua ad urbem tarde perveniret, magistratus fabros convocaverunt.** La subordinada introducida por *cum* lleva subjuntivo (*perveniret*) y expresa la circunstancia o causa: «Como el agua llegaba lentamente a la ciudad, los magistrados convocaron a los artesanos».\n\n2. **Hi, qui rivum diu inspexerant, lapidem ingentem in canali invenerunt.** *Hi* retoma a los artesanos; *qui rivum diu inspexerant* es una subordinada de relativo («que habían examinado durante mucho tiempo el curso de agua»). *Lapidem ingentem* es el complemento directo y *in canali*, el complemento de lugar: «Estos encontraron una enorme piedra en el canal».\n\n3. **Magistratus iusserunt ut operarii eum tollerent et fissuram saxo firmarent.** *Iusserunt ut* introduce una subordinada completiva con subjuntivo (*tollerent*, *firmarent*). *Eum* se refiere a la piedra; *saxo* es ablativo de medio: «Los magistrados ordenaron que los trabajadores la retiraran y aseguraran la grieta con una piedra».\n\n4. **Postquam opus confectum est, aqua rursus per totam urbem fluxit.** *Postquam* introduce una subordinada temporal: «Una vez terminada la obra, el agua volvió a fluir por toda la ciudad».\n\n### Traducción completa\nComo el agua llegaba lentamente a la ciudad, los magistrados convocaron a los artesanos. Estos, que habían examinado durante mucho tiempo el curso de agua, encontraron una enorme piedra en el canal. Los magistrados ordenaron que los trabajadores la retiraran y aseguraran la grieta con una piedra. Una vez terminada la obra, el agua volvió a fluir por toda la ciudad.",
+   "resultado": "Como el agua llegaba lentamente a la ciudad, los magistrados convocaron a los artesanos. Estos, que habían examinado durante mucho tiempo el curso de agua, encontraron una enorme piedra en el canal. Los magistrados ordenaron que los trabajadores la retiraran y aseguraran la grieta con una piedra. Una vez terminada la obra, el agua volvió a fluir por toda la ciudad.",
+   "criterios": "4 puntos en total: 1 punto por cada oración. Se valora en cada una la comprensión de las construcciones sintácticas y la traducción correcta de los elementos esenciales, con una expresión adecuada en español. Se admiten equivalencias léxicas razonables, como «canal» por «conducto» o «asegurar» por «reforzar» la grieta. La puntuación se distribuye como [1, 1, 1, 1]; total: 4 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "morfosintaxis",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "BLOQUE A. Análisis morfosintáctico. Responde únicamente al apartado A o B que corresponda al texto traducido en la pregunta 1. En cada apartado, el análisis sintáctico vale 1 punto y el análisis morfológico de las cuatro palabras destacadas vale 1 punto (0,25 cada una). A) Texto A. Analiza sintácticamente esta oración: Hi, qui rivum diu inspexerant, lapidem ingentem in canali invenerunt. Analiza morfológicamente las palabras destacadas, indicando caso, género y número, así como su enunciado; en los verbos, indica persona, número, tiempo y enunciado de sus temas: **Hi**, **rivum**, **inspexerant**, **invenerunt**. B) Texto B. Analiza sintácticamente esta oración: Socios laeta voce ad pocula vocabat. Analiza morfológicamente las palabras destacadas, indicando caso, género y número, así como su enunciado; en los verbos, indica persona, número, tiempo y enunciado de sus temas: **Socios**, **laeta**, **voce**, **vocabat**.",
+   "solucion": "La pregunta exige escoger el apartado que corresponda al texto traducido en la pregunta 1, pero ese dato no se ha incluido. Se ofrecen ambas resoluciones; debe utilizarse únicamente la pertinente.\n\n### A) Texto A\n\n**Análisis sintáctico**\n\n- Oración principal: **Hi ... lapidem ingentem in canali invenerunt**.\n- **Hi**: sujeto de *invenerunt* y antecedente del relativo *qui*.\n- **qui rivum diu inspexerant**: oración subordinada de relativo explicativa, referida a *Hi*. En ella, **qui** es sujeto de *inspexerant*; **rivum**, complemento directo; **diu**, complemento circunstancial de tiempo o duración.\n- **invenerunt**: núcleo verbal de la oración principal.\n- **lapidem ingentem**: complemento directo; *ingentem* es adjetivo que concuerda con *lapidem*.\n- **in canali**: complemento circunstancial de lugar (ubicación), formado por *in* y ablativo.\n\n**Análisis morfológico**\n\n- **Hi**: pronombre demostrativo sustantivado, nominativo masculino plural; enunciado: *hic, haec, hoc*.\n- **rivum**: sustantivo, acusativo masculino singular; enunciado: *rivus, -i* (m.).\n- **inspexerant**: 3.ª persona plural, pluscuamperfecto de indicativo activo; enunciado: *inspicio, inspicere, inspexi, inspectum* (temas: *inspici-*, *inspex-*, *inspect-*).\n- **invenerunt**: 3.ª persona plural, perfecto de indicativo activo; enunciado: *invenio, invenire, inveni, inventum* (temas: *inveni-*, *inven-*, *invent-*).\n\n### B) Texto B\n\n**Análisis sintáctico**\n\n- Sujeto omitido, recuperable como un pronombre de 3.ª persona singular, según el contexto.\n- **vocabat**: núcleo verbal de la oración.\n- **Socios**: complemento directo.\n- **laeta voce**: complemento circunstancial de modo; *laeta* concuerda con *voce*.\n- **ad pocula**: complemento circunstancial de dirección o destino, con *ad* y acusativo.\n\n**Análisis morfológico**\n\n- **Socios**: sustantivo, acusativo masculino plural; enunciado: *socius, -ii* (m.).\n- **laeta**: adjetivo, ablativo femenino singular, concordado con *voce*; enunciado: *laetus, -a, -um*.\n- **voce**: sustantivo, ablativo femenino singular; enunciado: *vox, vocis* (f.).\n- **vocabat**: 3.ª persona singular, imperfecto de indicativo activo; enunciado: *voco, vocare, vocavi, vocatum* (temas: *voca-*, *vocav-*, *vocat-*).",
+   "resultado": "La solución válida es A o B según el texto traducido en la pregunta 1; al no constar ese dato, se incluyen ambas alternativas.",
+   "criterios": "Cada apartado se califica sobre 2 puntos y solo debe corregirse el que corresponda al texto de la pregunta 1. Análisis sintáctico: 1 punto, distribuido entre la identificación de la estructura oracional, el sujeto y el verbo, los complementos y, en A, la subordinada de relativo. Análisis morfológico: 1 punto, a razón de 0,25 por cada palabra destacada correctamente analizada; en los sustantivos, pronombres y adjetivos se exige caso, género, número y enunciado, y en los verbos, persona, número, tiempo y enunciado verbal.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "lexico",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "BLOQUE B. Léxico y plurilingüismo. A) En la evolución de cada palabra al castellano, explica los dos cambios consonánticos indicados, además de la pérdida de la -m final, y escribe el resultado (0,5 puntos cada palabra): Fŏliam > (evolución de f- inicial y del grupo -li-); Clāvem > (evolución del grupo inicial cl- y de la consonante intervocálica v). B) Completa las oraciones con el latinismo adecuado, elegido entre estos: in situ, mea culpa, grosso modo, rara avis, ad hoc, curriculum vitae, persona non grata, et cetera (0,25 puntos cada respuesta). 1. La restauradora recomendó mantener el mosaico ______, en el lugar donde fue hallado. 2. Al explicar el retraso al equipo, el coordinador entonó un ______ y asumió la responsabilidad. 3. El informe resume ______ el estado de conservación, sin describir cada pieza. 4. Entre los códices expuestos, este ejemplar bilingüe es una ______ por su rareza.",
+   "solucion": "### Método\nAnalizo por separado cada correspondencia consonántica solicitada y después reúno los cambios para obtener la forma castellana. Al final compruebo las formas mediante el recorrido inverso de las correspondencias.\n\n### A) Evolución de las palabras\n\n1. **Fŏliam**\n   - La $f-$ inicial pasa a una aspiración, representada por $h-$, que luego deja de pronunciarse: $f- \\to h- \\to \\varnothing$. Se conserva la grafía **h**.\n   - El grupo latino $-li-$ ante vocal se palataliza y da la consonante representada por **j** en castellano: históricamente, $/lj/ \\to /ʎ/ \\to /ʒ/ \\to /x/$. Por eso aparece **j** en *hoja*.\n   - Se pierde la $-m$ final: $-m \\to \\varnothing$; se conserva la vocal final $-a$.\n   - Resultado: $\\text{Fŏliam} \\to \\text{hoja}$.\n\n2. **Clāvem**\n   - El grupo inicial $cl-$ se palataliza y da **ll**: $cl- \\to /ʎ/ \\to ll-$. La pronunciación actual de *ll* puede variar según el dialecto.\n   - La $v$ latina intervocálica, pronunciada originalmente como $/w/$, evoluciona a $/\\beta/$, sonido que en el castellano actual coincide con el de **b**. En *llave* se mantiene la grafía etimológica **v**.\n   - Se pierde la $-m$ final: $-m \\to \\varnothing$; se conserva la vocal final $-e$.\n   - Resultado: $\\text{Clāvem} \\to \\text{llave}$.\n\n### B) Latinismos\n1. La restauradora recomendó mantener el mosaico *in situ*, en el lugar donde fue hallado.\n2. Al explicar el retraso al equipo, el coordinador entonó un *mea culpa* y asumió la responsabilidad.\n3. El informe resume *grosso modo* el estado de conservación, sin describir cada pieza. La expresión se usa sin la preposición *a*.\n4. Entre los códices expuestos, este ejemplar bilingüe es una *rara avis* por su rareza.\n\n### Comprobación\nLas correspondencias indicadas conducen a **hoja** y **llave**, y en ambas palabras desaparece la $-m$ final. Los latinismos elegidos encajan, respectivamente, con las ideas de lugar original, reconocimiento de culpa, resumen aproximado y ejemplar excepcional.",
+   "resultado": "Fŏliam > hoja; Clāvem > llave; 1) in situ; 2) mea culpa; 3) grosso modo; 4) rara avis.",
+   "criterios": "Total: 2 puntos. A) 1 punto: 0,5 por cada palabra. En cada una: 0,15 por el primer cambio consonántico indicado, 0,15 por el segundo, 0,10 por señalar la pérdida de la -m final y la conservación de la vocal final, y 0,10 por el resultado castellano correcto. B) 1 punto: 0,25 por cada latinismo correctamente elegido y adecuado al contexto.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "literatura",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "BLOQUE C. Literatura, historia y patrimonio de la antigua Roma. A) Para preparar una cartela de una exposición, elige uno de los textos e indica el género literario (0,25 puntos), el autor y la obra (0,25 puntos), y dos características pertinentes (0,5 puntos). Texto A, fragmento adaptado: «Vulcano atendió la súplica de Venus y, en su fragua, preparó para su hijo armas dignas de un héroe. En el escudo grabó, con arte admirable, las guerras futuras y los destinos de Roma; en su centro brillaba el mar rodeado de pueblos y ciudades». Texto B, fragmento adaptado: «En silencio, el joven Mucio entró en el campamento enemigo. Creyendo que el hombre sentado junto al tribunal era el rey, lo hirió; pero era su secretario. Conducido ante Porsena, declaró que otros muchos jóvenes romanos habían jurado intentar lo mismo. Después puso la mano derecha sobre el fuego y soportó el dolor sin gritar». B) Relaciona cada personaje con su época y con el hecho correspondiente (1 punto; 0,25 por cada correspondencia completa). Escribe las respuestas en el formato personaje–época–hecho. PERSONAJES: 1. Numa Pompilio; 2. Cayo Graco; 3. Augusto; 4. Adriano. ÉPOCAS: A. República; B. Imperio; C. Monarquía. HECHOS: a. Promovió la construcción de una muralla en Britania para consolidar la frontera; b. Según la tradición, organizó instituciones religiosas y reguló el calendario; c. Como tribuno de la plebe impulsó reformas y murió en un enfrentamiento político; d. Estableció el principado e inauguró una etapa de estabilidad imperial.",
+   "solucion": "### A) Identificación por indicios del texto\n\n1. **Indicio:** Vulcano fabrica armas para el hijo de Venus y el escudo representa las guerras futuras y los destinos de Roma. La escena corresponde al escudo de Eneas descrito en el libro VIII de la *Eneida*.\n2. **Género literario:** épica o epopeya.\n3. **Autor y obra:** Virgilio, *Eneida*.\n4. **Dos características pertinentes:**\n   - Es un poema épico narrativo, compuesto en hexámetros dactílicos, que relata las hazañas de un héroe con intervención divina.\n   - Tiene una dimensión nacional y política: presenta proféticamente el futuro de Roma y ensalza su destino. La descripción del escudo constituye además una écfrasis.\n\n### B) Relación de personajes, épocas y hechos\n\nEn lugar de partir de una lista cronológica, se empareja cada personaje con el hecho más distintivo y se comprueba después la época:\n\n- Numa Pompilio se asocia a la organización religiosa y al calendario, hechos atribuidos a la monarquía: **Numa Pompilio–Monarquía–b**.\n- Cayo Graco fue tribuno de la plebe y promovió reformas durante la República; murió en un conflicto político: **Cayo Graco–República–c**.\n- Augusto estableció el principado y abrió una etapa de estabilidad imperial: **Augusto–Imperio–d**.\n- Adriano consolidó la frontera de Britania mediante la construcción de una muralla: **Adriano–Imperio–a**.\n\n**Comprobación:** las cuatro épocas y los cuatro hechos se asignan una sola vez. La distribución de la puntuación es: género (0,25), autor y obra (0,25), dos características (0,25 cada una) y cuatro correspondencias completas (0,25 cada una).",
+   "resultado": "Texto A: épica; Virgilio, Eneida; carácter heroico y destino nacional de Roma. Numa Pompilio–Monarquía–b; Cayo Graco–República–c; Augusto–Imperio–d; Adriano–Imperio–a.",
+   "criterios": "2 puntos en total. A) 1 punto: género literario, 0,25; autor y obra correctos, 0,25; dos características pertinentes, 0,25 cada una. B) 1 punto: 0,25 por cada correspondencia completa de personaje, época y hecho. La lista «numeros» expresa estas ocho fracciones de puntuación en ese orden.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "morfosintaxis",
+   "p": 0.811
+  },
+  {
+   "id": "literatura",
+   "p": 0.68
+  },
+  {
+   "id": "lexico",
+   "p": 0.616
+  },
+  {
+   "id": "traduccion",
+   "p": 0.546
+  }
+ ],
+ "referencias": [
+  "manual:manual/castillalamancha/2026/Latín II junio examen __LATIN.txt",
+  "manual:manual/castillalamancha/2026/Latín II julio examen __LATIN.txt",
+  "manual:manual/castillalamancha/2024/Latín II junio examen __Latn-II.txt",
+  "manual:manual/castillalamancha/2025/Latín II julio examen __LATIN.txt",
+  "manual:manual/castillalamancha/2025/Latín II junio examen __LATIN.txt",
+  "manual:manual/castillalamancha/2026/Latín II julio examen __LATIN.txt",
+  "manual:manual/castillalamancha/2026/Latín II junio examen __LATIN.txt"
+ ]
+}
