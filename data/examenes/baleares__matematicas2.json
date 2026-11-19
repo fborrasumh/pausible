@@ -1,0 +1,109 @@
+{
+ "ccaa": "baleares",
+ "materia": "matematicas2",
+ "titulo": "Matemáticas II — PAU 2027, Illes Balears",
+ "duracion_min": 90,
+ "instrucciones": "La prueba consta de cinco preguntas. Las tres primeras son obligatorias. En las preguntas 4 y 5, contestad solo una de las dos opciones propuestas. Si se responden las dos opciones de una misma pregunta, solo se evaluará la primera. La puntuación total es de 10 puntos; cada pregunta vale 2 puntos. Justificad las respuestas con lenguaje matemático y, cuando corresponda, interpretad los resultados en el contexto del problema. Se permite utilizar calculadora científica básica, pero no calculadoras gráficas ni programables ni dispositivos que puedan transmitir o almacenar información.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "geometria",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En un centro de investigación se instala un panel triangular sostenido por tres anclajes situados en $M_1=(1,0,2)$, $M_2=(3,1,1)$ y $M_3=(2,3,0)$, donde las coordenadas se expresan en metros. Se quiere orientar un emisor láser situado en $R=(5,7,11)$ para que su haz alcance perpendicularmente el panel. (a) [1 punto] Calcula la ecuación del plano que contiene los tres anclajes. (b) [1 punto] Determina las coordenadas del punto del panel al que debe dirigirse el haz, es decir, la proyección ortogonal de $R$ sobre dicho plano.",
+   "solucion": "### (a) Ecuación del plano\n\nTomamos dos vectores del plano a partir de los anclajes:\n\n$\\overrightarrow{M_1M_2}=(2,1,-1)$, $\\overrightarrow{M_1M_3}=(1,3,-2)$.\n\nUn vector normal al plano es su producto vectorial:\n\n$(2,1,-1)\\times(1,3,-2)=(1,3,5)$.\n\nPor tanto, para un punto genérico $(x,y,z)$ del plano se cumple\n\n$(x-1)+3y+5(z-2)=0$,\n\nes decir,\n\n$$x+3y+5z-11=0.$$\n\nComprobación: al sustituir $M_1$, $M_2$ o $M_3$ en la ecuación se obtiene $0$.\n\n### (b) Proyección ortogonal\n\nUsamos la recta perpendicular al plano que pasa por $R$. Su dirección es el vector normal $(1,3,5)$, así que puede expresarse como\n\n$(x,y,z)=(5,7,11)+t(1,3,5)$.\n\nAl sustituir $(x,y,z)=(5+t,7+3t,11+5t)$ en la ecuación del plano:\n\n$(5+t)+3(7+3t)+5(11+5t)-11=70+35t=0$.\n\nDe aquí, $t=-2$, y el punto de intersección es\n\n$$P=(5-2,7-6,11-10)=(3,1,1).$$\n\nComprobación: $3+3(1)+5(1)-11=0$, luego $P$ pertenece al plano. Además, $R-P=(2,6,10)=2(1,3,5)$ es perpendicular al plano, por lo que $P$ es efectivamente la proyección ortogonal.\n\nEn la lista numérica se dan primero los coeficientes $(a,b,c,d)$ de $ax+by+cz+d=0$ y, a continuación, las coordenadas de $P$.",
+   "resultado": "Plano: $x+3y+5z-11=0$; proyección ortogonal: $P=(3,1,1)$.",
+   "criterios": "(a) 1 punto: obtención de dos vectores directores y de un vector normal correcto, 0,40; ecuación correcta del plano, 0,45; comprobación con los anclajes, 0,15. (b) 1 punto: identificación de la dirección normal y planteamiento de la recta por R, 0,30; cálculo del parámetro de intersección con el plano, 0,40; coordenadas de la proyección, 0,20; comprobación de pertenencia al plano y perpendicularidad, 0,10.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "2",
+   "tema": "integrales",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "La sección transversal de un arco de un invernadero se modeliza mediante la curva $h(x)=\\frac{x(6-x)}{3}$, para $0\\le x\\le 6$, donde $x$ y $h(x)$ se miden en metros. La zona comprendida entre el arco y el suelo se cubrirá con una lámina. Calcula el área de la sección que debe cubrirse. Expresa el resultado en metros cuadrados y justifica la integral utilizada.",
+   "solucion": "La zona está delimitada por el arco $h(x)=\\frac{x(6-x)}{3}$ y el suelo, que corresponde al eje $x$. Como $h(x)\\geq 0$ para $0\\leq x\\leq 6$, el área buscada es la integral de la función en ese intervalo:\n\n$$\nA=\\int_0^6 h(x)\\,dx=\\int_0^6\\frac{x(6-x)}{3}\\,dx.\n$$\n\nCalculamos:\n\n$$\nA=\\frac{1}{3}\\left[3x^2-\\frac{x^3}{3}\\right]_0^6\n=\\frac{1}{3}(108-72)=12.\n$$\n\nPor tanto, el área de lámina necesaria es $12\\ \\text{m}^2$.",
+   "resultado": "12 m²",
+   "criterios": "2 puntos: justificar que el área entre el arco y el suelo se obtiene integrando h(x) entre x=0 y x=6 (0,5 puntos); plantear correctamente la integral (0,5 puntos); calcularla correctamente (0,75 puntos); expresar el resultado con unidades de superficie (0,25 puntos).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "probabilidad",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En una planta de fabricación, el $10\\%$ de las piezas producidas presenta un defecto. El sistema de inspección identifica correctamente como defectuosa una pieza defectuosa con probabilidad $0.80$; si la pieza no tiene defectos, el sistema la clasifica correctamente como no defectuosa con probabilidad $0.95$. (a) [0.75 puntos] Si se elige una pieza sin defectos, ¿cuál es la probabilidad de que el sistema la clasifique como no defectuosa? (b) [1.25 puntos] Si una pieza ha sido clasificada como defectuosa, ¿cuál es la probabilidad de que realmente tenga un defecto?",
+   "solucion": "Sea $D$ el suceso «la pieza tiene un defecto» y sea $C$ el suceso «el sistema la clasifica como defectuosa». Los datos son $P(D)=0.10$, $P(\\overline D)=0.90$, $P(C\\mid D)=0.80$ y $P(\\overline C\\mid\\overline D)=0.95$.\n\n**(a)** Si la pieza no tiene defectos, la probabilidad de que el sistema la clasifique como no defectuosa es directamente la probabilidad de clasificación correcta en ese caso:\n$$P(\\overline C\\mid\\overline D)=0.95.$$\n\n**(b)** La probabilidad de que una pieza sea clasificada como defectuosa, tanto si tiene defecto como si no, es\n$$P(C)=P(C\\mid D)P(D)+P(C\\mid\\overline D)P(\\overline D).$$\nComo $P(C\\mid\\overline D)=1-0.95=0.05$, resulta\n$$P(C)=0.80\\cdot0.10+0.05\\cdot0.90=0.125.$$\nPor el teorema de Bayes,\n$$P(D\\mid C)=\\frac{P(C\\mid D)P(D)}{P(C)}=\\frac{0.80\\cdot0.10}{0.125}=0.64.$$\nPor tanto, la probabilidad pedida es $0.64$, es decir, $64\\%$.",
+   "resultado": "(a) 0,95 (95 %); (b) 0,64 (64 %).",
+   "criterios": "Total: 2 puntos. (a) 0,75 puntos: identificar que se pide la probabilidad de clasificación correcta entre las piezas sin defectos (0,25) y dar el valor 0,95 o 95 % (0,50). (b) 1,25 puntos: obtener la probabilidad de falso positivo, 0,05 (0,25); calcular correctamente la probabilidad total de clasificación como defectuosa, 0,125 (0,40); plantear y aplicar el teorema de Bayes (0,40); obtener 0,64 o 64 % (0,20).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "integrales",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Contestad solo una de las opciones siguientes. P4.1 [2 puntos] Durante una prueba, la temperatura de una batería, en grados Celsius, tras $t$ horas viene dada por $T(t)=20+6t-t^2$, para $0\\le t\\le 6$. Determina en qué momento alcanza su temperatura máxima y calcula dicha temperatura. P4.2 [2 puntos] En una estación de recuperación de agua, el caudal de entrada durante una prueba es $q(t)=6t(2-t)$ litros por minuto, para $t\\in[0,2]$. Calcula el volumen total de agua que entra en la estación durante la prueba.",
+   "solucion": "### P4.1\n\nLa temperatura es $T(t)=20+6t-t^2$, con $t\\in[0,6]$. Derivamos para localizar los posibles extremos:\n\n$$T'(t)=6-2t.$$\n\nIgualando a cero, $6-2t=0$, obtenemos $t=3$, que pertenece al intervalo. Además, $T''(t)=-2<0$, por lo que en ese instante se alcanza un máximo. Comprobamos también los extremos del intervalo:\n\n$$T(0)=20,\\qquad T(3)=20+18-9=29,\\qquad T(6)=20+36-36=20.$$\n\nPor tanto, la temperatura máxima se alcanza a las $3$ horas y es de $29\\,^{\\circ}\\mathrm{C}$.",
+   "resultado": "La temperatura máxima se alcanza a las 3 horas y es 29 °C.",
+   "criterios": "2 puntos: 0,5 por calcular correctamente la derivada; 0,5 por hallar el punto crítico t=3; 0,5 por justificar que corresponde a un máximo (por ejemplo, con T''(t)=-2<0 o comparando con los extremos del intervalo); 0,5 por calcular la temperatura máxima, T(3)=29 °C.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "matrices",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Contestad solo una de las opciones siguientes. P5.1 [2 puntos] Una aplicación de cartografía transforma las coordenadas de un punto mediante la matriz $A=\\begin{pmatrix}2&1\\\\1&1\\end{pmatrix}$. La imagen de un punto es $(7,5)$. Calcula el determinante de $A$, justifica que la transformación se puede invertir y determina las coordenadas originales del punto. P5.2 [2 puntos] En una planta de clasificación, las cantidades $x$, $y$ y $z$ de tres tipos de material se relacionan con las lecturas de tres controles mediante $\\begin{pmatrix}1&1&0\\\\0&1&1\\\\1&0&1\\end{pmatrix}\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}5\\\\7\\\\6\\end{pmatrix}$. Calcula el determinante de la matriz de coeficientes y determina las cantidades $x$, $y$ y $z$.",
+   "solucion": "Resolvemos la opción P5.1.\n\nLa matriz de la transformación es $A=\\begin{pmatrix}2&1\\\\1&1\\end{pmatrix}$ y la imagen del punto es $\\begin{pmatrix}7\\\\5\\end{pmatrix}$.\n\nCalculamos el determinante:\n$$\\det(A)=2\\cdot1-1\\cdot1=1.$$\n\nComo $\\det(A)\\ne0$, la matriz $A$ es invertible y, por tanto, la transformación se puede invertir.\n\nLas coordenadas originales $(x,y)$ satisfacen\n$$\\begin{pmatrix}2&1\\\\1&1\\end{pmatrix}\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}7\\\\5\\end{pmatrix},$$\nes decir, $2x+y=7$ y $x+y=5$. Restando la segunda ecuación de la primera, obtenemos $x=2$. Sustituyendo en $x+y=5$, resulta $y=3$.\n\nPor tanto, las coordenadas originales son $(2,3)$.",
+   "resultado": "det(A)=1; la transformación es invertible; las coordenadas originales son (2,3).",
+   "criterios": "2 puntos: cálculo correcto del determinante, 0,5 puntos; justificación de que la transformación es invertible a partir de que el determinante es distinto de cero, 0,5 puntos; planteamiento y resolución del sistema para obtener las coordenadas originales, 1 punto.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "geometria",
+   "p": 0.9
+  },
+  {
+   "id": "matrices",
+   "p": 0.789
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.557
+  },
+  {
+   "id": "integrales",
+   "p": 0.361
+  },
+  {
+   "id": "sistemas",
+   "p": 0.05
+  },
+  {
+   "id": "limites",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "manual:manual/baleares/2026/Matemáticas II junio examen __MATEMATIQUESII.txt",
+  "manual:manual/baleares/2026/Matemáticas II julio examen __MATEMATIQUESII.txt",
+  "manual:manual/baleares/2022/Matemáticas II julio examen __MATEMATIQUESII.txt",
+  "manual:manual/baleares/2023/Matemáticas II junio examen __MATEMATIQUESII.txt",
+  "manual:manual/baleares/2024/Matemáticas II junio examen __MATEMATIQUESII.txt",
+  "manual:manual/baleares/2025/Matemáticas II julio examen __MATEMATIQUESII.txt",
+  "manual:manual/baleares/2025/Matemáticas II junio examen __MATEMATIQUESII.txt",
+  "manual:manual/baleares/2026/Matemáticas II julio examen __MATEMATIQUESII.txt",
+  "manual:manual/baleares/2026/Matemáticas II junio examen __MATEMATIQUESII.txt"
+ ]
+}
