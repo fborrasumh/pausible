@@ -1,0 +1,130 @@
+{
+ "ccaa": "baleares",
+ "materia": "empresa",
+ "titulo": "Empresa y Diseño de Modelos de Negocio / Economía de la Empresa — PAU 2027 Illes Balears (modelo orientativo original)",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de dos bloques. Bloque teórico: responde obligatoriamente la pregunta T1 (2 puntos) y elige dos de las preguntas T2-T5 (2 puntos cada una). Bloque práctico: responde obligatoriamente P1 y P2 (2 puntos cada una). La puntuación máxima es de 10 puntos. Tiempo máximo: 90 minutos. Se permite calculadora científica básica; no se permiten calculadoras programables ni con información almacenada o capacidad de transmisión.",
+ "preguntas": [
+  {
+   "n": "T1",
+   "tema": "organizacion",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Una empresa de reparación de bicicletas eléctricas consulta a sus técnicos antes de cambiar los turnos, aunque la dirección conserva la decisión final y fija las normas de seguridad. Identifica el estilo de liderazgo que refleja esta situación y explica dos características que lo diferencian de los estilos autocrático y laissez-faire. Indica, además, una ventaja que podría tener para la empresa.",
+   "solucion": "### 1. Identificación del estilo\nLa situación refleja un liderazgo **democrático o participativo**: la dirección consulta a los técnicos y tiene en cuenta su opinión antes de modificar los turnos, aunque conserva la decisión final.\n\n### 2. Diferencias respecto a otros estilos\n- **Frente al autocrático:** en el estilo autocrático, la persona líder decide de forma unilateral y la participación del equipo es escasa o nula. Aquí sí se consulta a los técnicos.\n- **Frente al laissez-faire:** en el estilo laissez-faire se concede al equipo una amplia autonomía y la dirección interviene poco. Aquí la dirección mantiene la autoridad para decidir y fija las normas de seguridad.\n\n### 3. Ventaja para la empresa\nLa consulta puede aumentar la motivación y la aceptación de los nuevos turnos, además de permitir que se aproveche la experiencia práctica de los técnicos.\n\n**Comprobación:** la consulta al equipo indica participación; la decisión final y las normas a cargo de la dirección descartan tanto la decisión unilateral autocrática como la escasa intervención propia del laissez-faire.",
+   "resultado": "Liderazgo democrático o participativo; favorece la motivación y la aceptación de los cambios.",
+   "criterios": "2 puntos: identificación correcta del liderazgo democrático o participativo (0,5); explicación de la diferencia respecto al autocrático (0,4); explicación de la diferencia respecto al laissez-faire (0,4); ventaja pertinente para la empresa (0,5); claridad y coherencia de la respuesta (0,2).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "T2",
+   "tema": "financiacion",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Una empresa de conservas necesita 40.000 € para adquirir una envasadora. Dispone de 15.000 € de reservas y puede solicitar un préstamo bancario a largo plazo. Sus propietarios no quieren incorporar nuevos socios y deciden utilizar todas las reservas disponibles. Clasifica las reservas y el préstamo según su origen (interno o externo) y según la titularidad de los fondos (propios o ajenos). Calcula qué importe deberá financiarse con el préstamo y señala una ventaja y una limitación de esta combinación.",
+   "solucion": "### Clasificación de las fuentes de financiación\n\n- **Reservas:** financiación de **origen interno**, porque proceden de recursos generados por la propia empresa y retenidos; son **fondos propios**.\n- **Préstamo bancario a largo plazo:** financiación de **origen externo**, porque se obtiene de una entidad ajena a la empresa; son **fondos ajenos**, que deberán devolverse con sus intereses.\n\n### Importe del préstamo\n\nPlanteamos la ecuación de equilibrio entre la inversión y las fuentes que la financian, tomando $x$ como el importe del préstamo:\n\n$$40.000 = 15.000 + x$$\n\n$$x = 40.000 - 15.000 = 25.000\\text{ €}$$\n\nPor tanto, el préstamo deberá ser de **25.000 €**.\n\n### Ventaja y limitación\n\n- **Ventaja:** se utilizan reservas y no se incorporan nuevos socios, por lo que los propietarios mantienen el control de la empresa; además, las reservas no generan intereses como un préstamo.\n- **Limitación:** el préstamo implica devolver el principal y pagar intereses, lo que genera obligaciones financieras y puede aumentar el riesgo de dificultades de liquidez.\n\n### Comprobación\n\n$$15.000 + 25.000 = 40.000\\text{ €}$$\n\nLa suma de las fuentes cubre exactamente el coste de la envasadora.",
+   "resultado": "Préstamo: 25.000 €; reservas: financiación interna y propia; préstamo: financiación externa y ajena.",
+   "criterios": "Puntuación máxima: 2 puntos. Clasificación de las cuatro dimensiones (origen y titularidad de reservas y préstamo): 0,8 puntos (0,2 por cada clasificación correcta). Cálculo del importe del préstamo mediante una ecuación o procedimiento equivalente: 0,5 puntos. Una ventaja pertinente: 0,35 puntos. Una limitación pertinente: 0,35 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "T3",
+   "tema": "produccion",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Una panadería paga un alquiler mensual fijo por su local y utiliza harina cuyo consumo aumenta con el número de panes elaborados. Si duplica la producción sin ampliar el local, identifica cuál de estos dos costes es fijo y cuál variable, y explica qué ocurre con el coste fijo medio por unidad. Explica también qué se entiende por economías de escala y por qué no basta con producir más para asegurar que se obtengan.",
+   "solucion": "### 1. Clasificación de los costes\n- **Alquiler mensual del local:** coste fijo en el periodo considerado, porque no cambia al variar la cantidad producida mientras no se amplíe el local ni cambien las condiciones del alquiler.\n- **Harina:** coste variable, porque su consumo —y, manteniéndose el precio, su coste total— aumenta con el número de panes elaborados.\n\n### 2. Coste fijo medio\nSi el coste fijo total es $CF$ y la producción inicial es $Q$, el coste fijo medio es $CFMe=CF/Q$. Al duplicarse la producción, el alquiler permanece igual y $CFMe'=CF/(2Q)=CFMe/2$. Por tanto, el coste fijo medio por pan se reduce a la mitad, suponiendo que no aparece ningún nuevo coste fijo.\n\n### 3. Economías de escala y comprobación\nHay **economías de escala** cuando, al aumentar la escala de producción, disminuye el coste medio total a largo plazo. Pueden surgir, por ejemplo, por la especialización, un mejor aprovechamiento de instalaciones o descuentos por compras de mayor volumen.\n\nNo basta con producir más: hay que comprobar que disminuye el coste medio total. El aumento de producción puede elevar otros costes o provocar límites de capacidad, cuellos de botella y problemas de coordinación; estos efectos pueden compensar o superar la reducción del coste fijo medio.\n\n**Comprobación del cálculo:** con un alquiler hipotético de $1.200$ euros y una producción de $600$ panes, el coste fijo medio sería $1.200/600=2$ euros por pan. Si se producen $1.200$ panes sin cambiar el alquiler, sería $1.200/1.200=1$ euro por pan: exactamente la mitad.",
+   "resultado": "Alquiler fijo; harina variable; al duplicar la producción sin ampliar el local, el coste fijo medio se reduce a la mitad. Las economías de escala requieren que disminuya el coste medio total, y producir más no lo garantiza.",
+   "criterios": "Puntuación total: 2 puntos. Alquiler como coste fijo: 0,4 puntos. Harina como coste variable: 0,4 puntos. Explicación y cálculo de que el coste fijo medio se reduce a la mitad al duplicarse la producción: 0,4 puntos. Definición correcta de economías de escala: 0,4 puntos. Explicación de por qué producir más no basta para asegurarlas: 0,4 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "T4",
+   "tema": "modelonegocio",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Una cooperativa ofrece cajas semanales de fruta de temporada a familias que quieren consumir productos locales. Las cajas se solicitan en su página web, se recogen en taquillas refrigeradas y se pagan mediante una cuota semanal. Explica brevemente para qué sirve el modelo Canvas e identifica, aplicándolos al caso, los bloques de segmentos de clientes, propuesta de valor, canales y fuentes de ingresos.",
+   "solucion": "### 1. Para qué sirve el modelo Canvas\nEl modelo Canvas sirve para representar de forma clara y resumida cómo funciona un negocio: cómo crea, ofrece y obtiene valor. Organiza esta información en bloques relacionados entre sí y ayuda a analizar la coherencia del modelo.\n\n### 2. Aplicación al caso\n- **Segmentos de clientes:** familias que desean consumir fruta de temporada y de origen local, especialmente las que viven en una zona desde la que pueden recoger las cajas en las taquillas.\n- **Propuesta de valor:** cajas semanales de fruta de temporada y local, con la comodidad de solicitarlas por internet y recogerlas en taquillas refrigeradas.\n- **Canales:** la página web permite informar sobre la oferta y solicitar las cajas; las taquillas refrigeradas sirven para entregarlas y facilitar su recogida.\n- **Fuentes de ingresos:** cuotas semanales pagadas por las familias a cambio de las cajas. Se trata de ingresos recurrentes mientras se mantenga la suscripción o el pago semanal.",
+   "resultado": "Canvas describe cómo la cooperativa crea y entrega valor a familias mediante cajas locales de fruta de temporada y obtiene ingresos con cuotas semanales.",
+   "criterios": "Puntuación total: 2 puntos. Finalidad del Canvas: 0,4 puntos. Segmentos de clientes aplicado al caso: 0,4 puntos. Propuesta de valor aplicada al caso: 0,4 puntos. Canales correctamente identificados y aplicados: 0,4 puntos. Fuente de ingresos aplicada al caso: 0,4 puntos. Se aceptarán formulaciones equivalentes; se otorgará puntuación parcial si el bloque está identificado pero la aplicación al caso es incompleta. No se debe atribuir a la cooperativa producción ecológica ni otros ingresos no indicados en el enunciado.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "T5",
+   "tema": "marketing",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Un pequeño taller de Palma lanza un servicio de reparación y puesta a punto de bicicletas para estudiantes universitarios. Explica las cuatro variables del marketing mix y propone una decisión concreta para cada una, coherente con el servicio y con el público al que se dirige.",
+   "solucion": "### Resolución paso a paso\n\n**1. Partir del público objetivo.** Los estudiantes universitarios suelen necesitar reparaciones fiables, accesibles y compatibles con un presupuesto limitado y horarios de estudio. A partir de esas necesidades se decide cada variable del marketing mix:\n\n**2. Producto (qué se ofrece).** Comprende el bien o servicio y sus características. El taller puede ofrecer un servicio de revisión y puesta a punto que incluya comprobación de frenos, cambios, ruedas y seguridad, además de reparaciones básicas.\n\n**3. Precio (cuánto paga el cliente).** Es el importe y las condiciones económicas de la oferta. Se puede establecer una tarifa cerrada y asequible para la puesta a punto básica, comunicada por adelantado, y aplicar un descuento acreditando que se es estudiante.\n\n**4. Distribución (dónde y cómo se presta).** Incluye los canales y la forma de hacer llegar el servicio al cliente. El taller puede facilitar la entrega y recogida de bicicletas con cita previa y situar el punto de recepción cerca de los campus universitarios de Palma, si es viable.\n\n**5. Promoción (cómo se da a conocer).** Comprende las acciones de comunicación para informar y atraer clientes. Puede anunciar el servicio y el descuento para estudiantes en redes sociales usadas por la comunidad universitaria y mediante asociaciones o tablones de los campus.\n\n**Comprobación final.** Se han identificado las cuatro variables —producto, precio, distribución y promoción— y se ha propuesto para cada una una decisión concreta, diferenciada y coherente con un taller de bicicletas y su público universitario.",
+   "resultado": "Marketing mix: servicio de puesta a punto adaptado, tarifa estudiantil transparente, acceso cómodo cerca de los campus y promoción en canales universitarios.",
+   "criterios": "Total: 2 puntos. Producto: 0,5 puntos (0,25 por explicar la variable y 0,25 por una decisión concreta y adecuada). Precio: 0,5 puntos con el mismo reparto. Distribución: 0,5 puntos con el mismo reparto. Promoción: 0,5 puntos con el mismo reparto. Se valorará la adecuación de las decisiones al servicio y al público universitario; no se otorgará la puntuación completa por limitarse a enumerar las cuatro variables sin explicarlas ni aplicarlas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "P1",
+   "tema": "financiacion",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Una cooperativa agroalimentaria estudia instalar un equipo de refrigeración para reducir las pérdidas de producto. El desembolso inicial es de 20.000 € y se prevén flujos de caja de 11.000 € al final del primer año y 12.100 € al final del segundo. El coste del capital es $k=5\\%$. Supón que los flujos se reciben uniformemente a lo largo de cada año para calcular el plazo de recuperación. a) Calcula el plazo de recuperación y exprésalo en años, redondeado a dos decimales. (0,5 puntos) b) Calcula el VAN mediante $VAN=-I_0+\\sum_{t=1}^{n}\\frac{FC_t}{(1+k)^t}$ y decide si conviene aceptar el proyecto según este criterio. (0,75 puntos) c) Plantea la ecuación de la TIR, calcula su valor y compáralo con el coste del capital para justificar la decisión. (0,75 puntos)",
+   "solucion": "### a) Plazo de recuperación\n\nAl terminar el primer año se han recuperado $11.000\\,€$, por lo que quedan por recuperar $20.000-11.000=9.000\\,€$. Como el flujo del segundo año se recibe uniformemente, la fracción de ese año necesaria es:\n\n$$\\frac{9.000}{12.100}=0,7438\\text{ años}$$\n\nPor tanto, el plazo de recuperación es:\n\n$$PR=1+\\frac{9.000}{12.100}=1,7438\\approx\\boxed{1,74\\text{ años}}$$\n\n### b) Valor actual neto\n\n$$VAN=-20.000+\\frac{11.000}{1+0,05}+\\frac{12.100}{(1+0,05)^2}$$\n\n$$VAN=-20.000+10.476,19+10.975,06=\\boxed{1.451,25\\,€}$$\n\nComo el VAN es positivo, se acepta el proyecto según este criterio.\n\n### c) Tasa interna de rentabilidad\n\nLa TIR es el valor $r$ que hace que el VAN sea cero:\n\n$$-20.000+\\frac{11.000}{1+r}+\\frac{12.100}{(1+r)^2}=0$$\n\nMultiplicando por $(1+r)^2$ y resolviendo:\n\n$$20.000(1+r)^2-11.000(1+r)-12.100=0$$\n\nLas soluciones son $r=0,10$ y $r=-1,55$. La segunda queda fuera del dominio económico habitual de la TIR ($r>-1$); por tanto, la TIR relevante es $\\boxed{10,00\\%}$. Como $10,00\\%>5,00\\%$, se acepta el proyecto según el criterio de la TIR.",
+   "resultado": "Plazo de recuperación: 1,74 años; VAN: 1.451,25 € (aceptar); TIR: 10,00 % > 5,00 % (aceptar).",
+   "criterios": "Total: 2 puntos. a) Plazo de recuperación (0,5): 0,25 por identificar que quedan 9.000 € tras el primer año y calcular la fracción del segundo año; 0,25 por expresar el resultado como 1,74 años. b) VAN (0,75): 0,50 por plantear y calcular correctamente el VAN con los flujos descontados; 0,25 por concluir que, al ser positivo, se acepta el proyecto. c) TIR (0,75): 0,25 por plantear la ecuación con VAN igual a cero; 0,25 por obtener la TIR relevante del 10 %; 0,25 por compararla con el coste del capital del 5 % y concluir que se acepta el proyecto.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "P2",
+   "tema": "contabilidad",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Una empresa de mobiliario facilita las siguientes partidas patrimoniales, en euros: maquinaria, 90.000; mobiliario, 20.000; amortización acumulada del inmovilizado material, 20.000; existencias, 18.000; clientes, 22.000; bancos, 10.000; caja, 2.000; capital social, 60.000; reservas, 12.000; resultado del ejercicio (beneficio), 8.000; deudas a largo plazo con entidades de crédito, 30.000; préstamos a corto plazo, 8.000; proveedores, 20.000; Hacienda Pública acreedora, 4.000. Clasifica las partidas y calcula el ratio de endeudamiento total, definido como pasivo total dividido entre activo total, el ratio de calidad de la deuda, definido como pasivo corriente dividido entre pasivo total, y el fondo de maniobra. Utiliza $R_{endeudamiento}=\\frac{Pasivo\\ total}{Activo\\ total}$, $R_{calidad}=\\frac{Pasivo\\ corriente}{Pasivo\\ total}$ y $FM=Activo\\ corriente-Pasivo\\ corriente$. Expresa los ratios en porcentaje y el fondo de maniobra en euros. Interpreta brevemente qué indica cada resultado. (2 puntos)",
+   "solucion": "### 1. Clasificación patrimonial\n\n**Activo no corriente (inmovilizado material):** maquinaria, 90.000 €; mobiliario, 20.000 €; y amortización acumulada, que resta 20.000 €. Por tanto, el activo no corriente neto es $90.000+20.000-20.000=90.000\\,€$.\n\n**Activo corriente:** existencias, 18.000 €; clientes, 22.000 €; bancos, 10.000 €; caja, 2.000 €. En total, $18.000+22.000+10.000+2.000=52.000\\,€$.\n\nEl **activo total** es $90.000+52.000=142.000\\,€$.\n\n**Patrimonio neto:** capital social, 60.000 €; reservas, 12.000 €; resultado del ejercicio, 8.000 €. Total: $80.000\\,€$.\n\n**Pasivo no corriente:** deudas a largo plazo con entidades de crédito, 30.000 €.\n\n**Pasivo corriente:** préstamos a corto plazo, 8.000 €; proveedores, 20.000 €; Hacienda Pública acreedora, 4.000 €. Total: $32.000\\,€$.\n\nEl pasivo total, entendido como pasivo corriente más pasivo no corriente, es $30.000+32.000=62.000\\,€$. Se comprueba el equilibrio patrimonial: $80.000+62.000=142.000\\,€$.\n\n### 2. Ratios y fondo de maniobra\n\n**Ratio de endeudamiento total:**\n\n$R_{endeudamiento}=\\frac{Pasivo\\ total}{Activo\\ total}=\\frac{62.000}{142.000}=0,4366197\\approx 43,66\\%$.\n\nAproximadamente el 43,66 % del activo está financiado con pasivo exigible.\n\n**Ratio de calidad de la deuda:**\n\n$R_{calidad}=\\frac{Pasivo\\ corriente}{Pasivo\\ total}=\\frac{32.000}{62.000}=0,5161290\\approx 51,61\\%$.\n\nEl 51,61 % de la deuda vence a corto plazo. Cuanto mayor sea este porcentaje, mayor será el peso de las obligaciones próximas; su valoración definitiva depende también de la liquidez y del sector.\n\n**Fondo de maniobra:**\n\n$FM=Activo\\ corriente-Pasivo\\ corriente=52.000-32.000=20.000\\,€$.\n\nEs positivo: el activo corriente supera en 20.000 € al pasivo corriente, lo que proporciona un margen para atender las obligaciones a corto plazo.",
+   "resultado": "Endeudamiento total: 43,66 %; calidad de la deuda: 51,61 %; fondo de maniobra: 20.000 €.",
+   "criterios": "Total: 2 puntos. Clasificación de las partidas y cálculo de los totales patrimoniales (activo total, patrimonio neto y pasivo): 0,6 puntos. Ratio de endeudamiento, con fórmula, sustitución y resultado porcentual: 0,4 puntos. Ratio de calidad de la deuda, con fórmula, sustitución y resultado porcentual: 0,4 puntos. Fondo de maniobra, con fórmula y resultado en euros: 0,3 puntos. Interpretación breve y coherente de los tres indicadores: 0,3 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "financiacion",
+   "p": 0.298
+  },
+  {
+   "id": "contabilidad",
+   "p": 0.131
+  },
+  {
+   "id": "produccion",
+   "p": 0.05
+  },
+  {
+   "id": "marketing",
+   "p": 0.05
+  },
+  {
+   "id": "modelonegocio",
+   "p": 0.05
+  },
+  {
+   "id": "organizacion",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "manual:manual/baleares/2026/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa junio examen __ECONOMIA.txt",
+  "manual:manual/baleares/2026/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa julio examen __ECONOMIA.txt",
+  "manual:manual/baleares/2023/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa julio examen __ECONOMIA.txt",
+  "manual:manual/baleares/2023/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa junio examen __ECONOMIA.txt",
+  "manual:manual/baleares/2024/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa julio examen __ECONOMIA.txt",
+  "manual:manual/baleares/2026/Empresa y Diseño de Modelos de Negocio  Economía de la Empresa julio examen __ECONOMIA.txt"
+ ]
+}
