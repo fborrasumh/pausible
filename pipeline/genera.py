@@ -187,10 +187,22 @@ def sube(f, msg):
     (f.parent / 'index.json').write_text(json.dumps(idx), encoding='utf-8')
     g = lambda *a: subprocess.run(['git', *a], cwd=R, capture_output=True, text=True)
     g('add', str(f), str(f.parent / 'index.json')); g('add', str(f.parent / 'archivo')); g('commit', '-q', '-m', msg)
-    for _ in range(6):
-        if g('push', '-q').returncode == 0: return
-        g('pull', '-q', '--rebase'); time.sleep(5)
-    print('  aviso: no se pudo subir', f.name)
+    err = ''
+    for i in range(8):
+        r = g('push', '-q')
+        if r.returncode == 0: return
+        err = (r.stderr or '').strip()[-300:]
+        # otro job ha subido entretanto (casi siempre index.json): se rebasa sobre lo remoto, ganando lo nuestro en
+        # conflicto, y se rehace el índice con los ficheros que hay de verdad
+        g('fetch', '-q', 'origin', 'main')
+        rb = g('rebase', '--autostash', '-X', 'theirs', 'origin/main')
+        if rb.returncode: err = (rb.stderr or rb.stdout or '').strip()[-300:]; g('rebase', '--abort')
+        idx = sorted(p.stem for p in f.parent.glob('*__*.json'))
+        if json.loads((f.parent / 'index.json').read_text(encoding='utf-8') or '[]') != idx:
+            (f.parent / 'index.json').write_text(json.dumps(idx), encoding='utf-8')
+            g('add', str(f.parent / 'index.json')); g('commit', '-q', '--amend', '--no-edit')
+        time.sleep(3 + 3 * i)
+    print('  aviso: no se pudo subir', f.name, '·', err.replace('\n', ' '))
 
 
 def main():
