@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18",
+ "generado": "2026-11-19",
  "metodo": "Del corpus (data/corpus.json + corpus/*.txt) a la predicción por comunidad y materia (data/predicciones.json).\n\nMétodo (determinista, sin IA; mismo corpus → misma predicción):\n  1. Cada examen se etiqueta por temas contando las raíces de temario.json (un tema está si suma ≥ 2 apariciones).\n  2. Frecuencia ponderada por antigüedad: el modelo actual de PAU empezó en 2025, así que 2025-2026 pesan más.\n     La extraordinaria pesa algo menos que la ordinaria y los modelos oficiales, la mitad.\n  3. «Rebote»: un tema frecuente que no salió en la última ordinaria sube un poco (las comisiones tienden a rotar).\n  4. Ningún tema baja del 5 %: la predicción ordena el estudio, no autoriza a saltarse temas.\n  5. Validación ciega: se oculta la última ordinaria, se predice con lo anterior y se mide cuántos de los temas\n     que de verdad cayeron estaban en el top. Se compara con el azar. De ahí sale la confianza que ve el estudiante.",
  "ccaa": {
   "andalucia": {
