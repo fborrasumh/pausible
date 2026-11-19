@@ -1,0 +1,193 @@
+[Fuente: /sites/academica_publico/Grado/Exámenes EBAU/Tecnología e Ingenieria/Tecnologia e Ingenieria_jun_25.pdf]
+Prueba de Acceso a la Universidad (PAU)
+Curso Académico:   2024-2025
+
+ASIGNATURA:   TECNOLOGÍA E INGENIERÍA II
+
+1
+
+INSTRUCCIONES:
+
+1.   El examen consta de 4 preguntas, la primera sin opciones y las tres siguientes con opcionalidad, de valor
+2.5 puntos cada una.
+
+2.   En las preguntas con opcionalidad el estudiante sólo contestará a una de las dos opciones (a su elección).
+
+PREGUNTA 1 (2,5 puntos)
+
+Un ayuntamiento pretende implantar un sistema de control de riego inteligente en diferentes zonas verdes de
+su ciudad con el que pretende conseguir un ahorro de agua del 32 %.
+
+Para la implementación del circuito se dispone de las siguientes entradas:
+
+V: Sensor de nivel que indica si el depósito de agua está vacío: Vacío: V=1 ; Hay agua: V=0.
+
+S: Sensor de humedad que indica si la tierra está seca. Tierra seca: S=1 ; Tierra húmeda: S=0.
+
+D: Célula fotoeléctrica que indica si es de día o de noche: Día: D=1 ; Noche: D=0.
+
+R: Señal que indica si hay restricciones en el riego (es verano). Hay restricciones: R=1;
+
+No hay restricciones: R=0.
+
+El circuito deberá accionar el riego de la siguiente forma:
+
+−   El circuito accionará el riego solamente cuando la tierra esté seca, pero antes debe comprobar las
+siguientes condiciones:
+
+o   Nunca se regará cuando el depósito de agua esté vacío.
+
+o   Si hay restricciones en el riego (época de verano), sólo se podrá regar de noche.
+
+o   En el resto del año (no hay restricciones) se podrá regar de día y de noche.
+
+Se pide:
+
+a)   Obtenga la tabla de verdad y la función lógica que activa el sistema de riego expresada en
+MINTERMS (suma de productos o primera forma canónica). (1 punto)
+
+b)   Simplifique la función de salida mediante el método de Karnaugh. (1 punto)
+
+c)   Implemente el circuito con puertas lógicas NAND. (0,5 puntos)
+
+Prueba de Acceso a la Universidad (PAU)
+Curso Académico:   2024-2025
+
+ASIGNATURA:   TECNOLOGÍA E INGENIERÍA II
+
+2
+
+PREGUNTA 2 (2,5 puntos)
+
+OPCIÓN 1:
+
+Para la viga representada en la figura de longitud L= 10 m y con una carga uniformemente distribuida de
+
+q=5 kN/m;
+
+Calcular:
+
+a)   Las reacciones en el punto A. (1 punto)
+
+b)   Los diagramas de esfuerzos cortantes y momentos flectores (1,5 puntos)
+
+OPCIÓN 2:
+
+Por la tubería circular de sección variable representada en la figura circula agua (densidad,   ρ =1000 kg/m  
+3
+)
+con un caudal de 0,1 m  
+3
+/s. En el punto 1, donde el diámetro de la sección del tubo es de 0,2 m, la presión del
+agua es de 1,2 bar. Calcular:
+
+a)   La velocidad del fluido en el punto 2, si el diámetro de la tubería en ese punto es la mitad que en
+el punto 1. (1 punto).
+
+b)   La presión (bar) en el punto 2 sabiendo que la diferencia de alturas entre los puntos 1 y 2 es de
+0,5 m. (1,5 puntos)
+
+Prueba de Acceso a la Universidad (PAU)
+Curso Académico:   2024-2025
+
+ASIGNATURA:   TECNOLOGÍA E INGENIERÍA II
+
+3
+
+PREGUNTA 3 (2,5 puntos)
+
+OPCIÓN 1:
+
+Una empresa se dedica a la fabricación de piezas de un determinado material. Se pretende medir la resiliencia
+de dicho material usando un péndulo de “Charpy”. La probeta utilizada tiene una sección de 64 mm  
+2
+. La
+energía utilizada en la rotura de la probeta ha sido de 50 J. El martillo empleado tiene una masa de 30 kg y la
+altura que alcanza después de la rotura de la probeta es de 0,6 m. Calcular:
+
+a)   La resiliencia del material empleado (J/cm  
+2
+). (1 punto)
+
+b)   La altura desde la que se lanzó el martillo (m). (1 punto)
+
+c)   Explique dos tecnologías de fabricación sostenible que se podrían aplicar en el proceso de fabricación
+de las piezas. (0,5 puntos)
+
+OPCIÓN 2:
+
+Dado el siguiente diagrama de bloques, se pide:
+
+a)   Obtener la función de transferencia Z/E. (1,25 punto)
+
+b)   Si G   1 =H   1 =1 y la señal E de entrada toma el valor 1 ¿qué valor tiene la función de transferencia G   2   para
+que Z sea 0,25? (0,75 puntos)
+
+c)   ¿Qué relación existe entre la utilización de sistemas automatizados en los procesos industriales y la
+sostenibilidad? (0,5 puntos)
+
+Prueba de Acceso a la Universidad (PAU)
+Curso Académico:   2024-2025
+
+ASIGNATURA:   TECNOLOGÍA E INGENIERÍA II
+
+4
+
+PREGUNTA 4 (2,5 puntos)
+
+OPCIÓN 1:
+
+Un motor de cuatro cilindros desarrolla una potencia de 70 CV a 3500 rpm. El diámetro de cada pistón es de
+70 mm y la carrera de 90 mm, teniendo una relación de compresión de 9:1. Calcular:
+
+a)   El volumen de la cámara de combustión (cm  
+3
+) (1 punto)
+
+b)   El par motor (Nm). (0,5 puntos)
+
+c)   El rendimiento del motor si el consumo es de 8 l/h de un combustible con poder calorífico de 12000
+kcal/kg y una densidad de 0,9 kg/dm  
+3
+. (1 punto)
+
+OPCIÓN 2:
+
+Se utiliza una bomba de calor para mantener el recinto de una piscina climatizada a 27 ºC cuando la
+temperatura exterior es de -3 º C. Sabiendo que hay que suministrar al recinto de la piscina un calor de 216
+MJ en 12 horas de funcionamiento. Calcule:
+
+a)   La eficiencia de la bomba si ésta es el 40 % de la ideal. (1 punto)
+
+b)   La potencia de la bomba (kW). (1 punto)
+
+c)   El calor absorbido del medio ambiente durante las 12 horas de funcionamiento.(0,5 puntos)
+
+Prueba de Acceso a la Universidad (PAU)
+Curso Académico:   2024-2025
+
+ASIGNATURA: TECNOLOGÍA E INGENIERÍA II
+
+1
+
+CRITERIOS ESPECÍFICOS DE CORRECCIÓN:
+
+En la valoración de las preguntas de la prueba se tendrán en cuenta los siguientes aspectos:
+
+•   Las preguntas deben resolverse expresando de forma razonada el proceso seguido
+en su resolución. Si es necesario, se incluirán: diagramas, esquemas, dibujos, etc.,
+que ayuden a la comprensión de la respuesta dada.
+
+•   La mera descripción del planteamiento, sin que se lleve a cabo la resolución de
+manera efectiva, no es suficiente para obtener una valoración completa de la
+pregunta.
+
+•   Los errores en las operaciones aritméticas elementales se penalizarán con un
+máximo del 10% del valor del apartado donde se produzcan.
+
+•   En las preguntas donde haya que resolver varios apartados y en los que la solución
+obtenida en uno de ellos sea imprescindible para la resolución del siguiente, se
+puntuará éste independientemente del resultado anterior, siempre que resulte una
+resolución de una complejidad equivalente y la solución no sea manifiestamente
+incoherente.
+

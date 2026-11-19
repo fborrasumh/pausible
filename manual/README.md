@@ -8,6 +8,12 @@ Algunas webs oficiales bloquean la descarga automática desde GitHub (Castilla-L
 
 Recorre las páginas oficiales de esas cuatro comunidades despacio (4 s entre peticiones, respetando `robots.txt`), guarda los PDF en `manual/<comunidad>/<año>/` con su materia y convocatoria en el nombre y los sube al repositorio con tu token (o te da un ZIP). Si desde Colab también hay bloqueo, el cuaderno explica cómo ejecutarlo en tu ordenador.
 
+## La Rioja: exámenes escaneados (OCR)
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fborrasumh/pausible/blob/main/notebooks/ocr_rioja.ipynb)
+
+La Universidad de La Rioja publica muchos exámenes como imágenes escaneadas. `manual/rioja/escaneados.json` tiene sus enlaces públicos de SharePoint; el cuaderno los descarga, los lee con Tesseract y deja el texto en `manual/rioja/<año>/`.
+
 ## A mano
 
 1. Descarga los PDF (o los ZIP) de la web oficial de la comunidad.
