@@ -1,0 +1,674 @@
+[Fuente: https://estudis.uib.cat/models-examen/examen/pbau/2025:JUL:MATEMSOCIALSII-Criteris/Criteris-MATEMSOCIALSII-JUL-2025.pdf]
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Criteris de correcci´ o globals
+
+•   Les respostes a les preguntes o tasques s’han de realitzar expressant de forma raonada el proc´ es
+seguit per resoldre-les, amb el rigor i la precisi´ o necessaris, usant el llenguatge, la notaci´ o i els
+s´ ımbols matem` atics adequats, i utilitzant arguments, justificacions, explicacions i raonaments
+expl´ ıcits i coherents.   Es valorar` a el grau d’acompliment amb un m` axim de 0,25 punts cada
+exercici.
+– Els errors de c` alcul es penalitzaran amb un 25%; els errors greus i/o que portin a resultats
+incoherents o absurds, amb un 50%.
+– En preguntes mec` aniques o de c` alcul no justificades, amb el 30%-50%; en preguntes de
+justificar, una resposta sense cap justificaci´ o s’ha de penalitzar amb el 100%.
+– En qualsevol pregunta, si apareixen raonaments (que no s´ on clars/evidents) sense justificar,
+amb el 20%-30%.
+– La imprecisi´ o en l’´ us del llenguatge matem` atic (p. ex. variables sense introduir/que canvien
+de significat), o la falta de claredat per abs` encia de llenguatge matem` atic, amb un 20%-30%.
+– L’estructura s’ha de penalitzar en funci´ o de la dificultat per entendre la resposta.
+
+•   La simple descripci´ o del plantejament, sense que es dugui a terme la resoluci´ o de manera efectiva,
+no ´ es suficient per obtenir una valoraci´ o completa de la pregunta o tasca.
+
+•   En les preguntes o tasques en qu` e es demani expressament una deducci´ o raonada, la simple
+aplicaci´ o d’una f´ ormula no ser` a suficient per obtenir-ne una valoraci´ o completa.
+
+•   Els errors comesos en una pregunta o tasca (per exemple, en el c` alcul del valor d’un cert
+par` ametre) no es tindran en compte en la qualificaci´ o dels desenvolupaments posteriors que
+puguin veure’s afectats, sempre que resultin d’una complexitat equivalent.
+
+•   Els errors en les operacions aritm` etiques elementals es penalitzaran amb un m` axim de 0,25 punts
+en cada pregunta o tasca
+
+•   Si l’alumne presenta m´ es problemes que els demanats, corregiu-ne els que apareixen primer.
+
+Criteris de correcci´ o espec´ ıfics
+
+Nom´ es es detallen els apartats en qu` e hi ha diverses preguntes o que es poden desglossar. En apartats
+on s’omet el criteri de correcci´ o espec´ ıfic, aquest ser` a simplement “C` alcul i/o justificaci´ o correcta”. Si
+no est` a indicat, tots els apartats d’una mateixa pregunta tenen la mateixa valoraci´ o.
+Convocat` oria 2025   |   1 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+No es permet l’´ us de calculadores gr` afiques ni programables, ni de dispositius que puguin transmetre
+o emmagatzemar informaci´ o. Es poden usar regles i bol´ ıgrafs de colors (excepte vermell i verd).
+
+Part A.   Contestau el problema A1, i contestau tamb´ e un problema a escollir entre el problema
+A2 i el problema A3 (total 4 pt).
+
+Problema A1 (obligatori). —   Donats dos esdeveniments,   A   i   B , d’un experiment aleatori, sabem
+que   P   ( A ) = 0 . 5, que   P   ( B ) = 0 . 1, i que   P   ( A   |   B ) =   x , on   x   ∈   [0 ,   1]. Es demana:
+a) Existeix algun valor de   x   per al qual els esdeveniments siguin independents?
+
+Criteris:   0.5 pts per indicar el valor, 0.5 pts per justificar-ho.   (Total   1 pt)
+
+Soluci´ o.   S´ ı: els esdeveniments s´ on independents quan   P   ( A   |   B ) =   P   ( A ), ´ es a dir, per a   x   = 0 . 5.
+b) Per a quin valor de   x   es t´ e que la probabilitat de   A   ∩   B   ´ es m` axima?
+
+Criteris:   0.5 pts per trobar el valor, 0.5 pts per justificar-ho.   (Total   1 pt)
+
+Soluci´ o.   P   ( A   ∩   B ) =   P   ( A   |   B )   ·   P   ( B ) = 0 . 1   ·   x , aix´ ı que aquesta probabilitat ´ es major quan
+m´ es gran ´ es   x . Per a   x   = 1, el valor m´ es gran per a   x , aleshores   P   ( A   ∩   B ) assoleix el seu valor
+m´ es gran, de 0.1.
+Convocat` oria 2025   |   2 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Problema A2. —   L’Institut Nacional d’Estad´ ıstica (INE) disposa d’aquestes dades, per al 2023,
+sobre la quantitat d’habitants a Espanya per nacionalitat i sexe:
+Espanyols   Estrangers
+Homes   20.6 milions   3.0 milions
+Dones   21.2 milions   3.3 milions
+a) Escollint un habitant a l’atzar, quina ´ es la probabilitat que sigui estranger?
+
+Criteris:   Penalitzaci´ o amb -0.25 pts si no indica “llei de Laplace” o casos favorables/casos
+totals. Penalitzaci´ o amb -0.25 pts per arrodoniment incorrecte.   (Total   1 pt)
+
+Soluci´ o.   Sigui   E   l’esdeveniment “l’habitant ´ es estranger”. Per la llei de Laplace,
+
+P   ( E ) = 
+# Casos favorables
+# Casos totals  
+=  
+3 + 3 . 3
+20 . 6 + 3 + 21 . 2 + 3 . 3 
+= 0 . 131 .
+
+b) Escollint dos habitants a l’atzar de manera independent, quina ´ es la probabilitat que almenys
+un sigui estranger?
+
+Criteris:   Penalitzaci´ o amb -0.25 pts si no indica els successos. Penalitzaci´ o amb -0.25 pts si
+no justifica el c` alcul. Penalitzaci´ o amb -0.25 pts per arrodoniment incorrecte.   (Total   1 pt)
+
+Soluci´ o .   Siguin   E 1 , E 2   els esdeveniments corresponents als fets que la primera i la segona
+elecci´ o, respectivament, siguin d’habitants estrangers. Aleshores,
+
+P   ( E 1   ∪   E 2 ) = 1   −   P   ( E
+c
+
+1  
+∩   E
+c
+
+2
+) = 1   −   (1   −   0 . 131)
+2  
+= 0 . 245 .
+
+Convocat` oria 2025   |   3 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Problema A3. —   Suposem que, quan un client entra en una botiga d’electrodom` estics, el temps que
+hi passa dedins ve donat per una variable aleat` oria   X   que segueix una distribuci´ o normal de mitjana
+poblacional   μ   = 15 minuts i desviaci´ o t´ ıpica   σ   = 10 minuts:   X   ∼ N   (15 ,   10).
+a) Quina ´ es la probabilitat que un client estigui dins la botiga 25 minuts o menys?
+
+Criteris:   0.5 pts per tipificar i 0.5 pts per calcular. Penalitzaci´ o amb -0.5 pts si la distribuci´ o
+no ´ es correcta. Penalitzaci´ o amb -0.25 pts per cada error de llenguatge.   (Total   1 pt)
+
+Soluci´ o.   Sigui   Z   = ( X   −   15) / 10, que segueix una distribuci´ o normal   N   (0 ,   1). Aleshores,
+
+P   ( X   ≤   25) =   P
+
+
+
+Z   ≤  
+25   −   15
+10
+
+
+
+=   P   ( Z   ≤   1) = 0 . 8413 .
+
+b) Quina ´ es la probabilitat que un client estigui dins la botiga entre 5 i 25 minuts?
+
+Criteris:   0.5 pts per tipificar i 0.5 pts per calcular. Penalitzaci´ o amb -0.5 pts si la distribuci´ o
+no ´ es correcta. Penalitzaci´ o amb -0.25 pts per cada error de llenguatge.   (Total   1 pt)
+
+Soluci´ o.   De manera similar a l’apartat anterior,
+
+P   ( X   ≤   5) =   P
+
+
+
+Z   ≤  
+5   −   15
+10
+
+
+
+=   P   ( Z   ≤ − 1) =   P   ( Z   ≥   1) = 1   −   P   ( Z   ≤   1) = 0 . 1587 .
+
+Per tant,
+
+P   (5   ≤   X   ≤   25) =   P   ( X   ≤   25)   −   P   ( X   ≤   5) = 0 . 8413   −   0 . 1587 = 0 . 6826 .
+
+Convocat` oria 2025   |   4 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Part B.   Escolliu nom´ es un problema d’aquesta part (total 3 pt).
+
+Problema B1. —   En una f` abrica t` extil fabricam vestits, samarretes i faldes.
+– Cada vestit requereix 5 m
+2  
+de teixit i 5 botons.
+– Cada samarreta requereix 4 m
+2  
+de teixit i 3 botons.
+– Cada falda requereix 4 m
+2  
+de teixit i cap bot´ o.
+a) Si volem fabricar 10 vestits, 15 samarretes i 20 faldes, quants m
+2  
+de teixit i quants botons
+necessitam?
+
+Criteris:   Penalitzaci´ o amb -0.25 pts per cada error de c` alcul. Penalitzaci´ o amb -0.25 pts per
+no justificar els c` alculs. Penalitzaci´ o amb -0.25 pts per no interpretar el resultat. (Total   0.5 pt)
+
+Soluci´ o.   Podem representar la informaci´ o donada en forma matricial:
+
+
+5   4   4
+5   3   0
+
+
+
+·
+
+
+
+
+10
+15
+20
+
+
+  
+=
+
+
+190
+95
+
+
+
+.
+
+´
+Es a dir, necessitarem 190 m
+2  
+de teixit i 95 botons.
+b) Resol el sistema d’equacions seg¨ uent:
+
+
+5   4   4
+5   3   0
+
+
+
+·
+
+
+
+
+x
+y
+z
+
+
+   =
+
+
+100
+120
+
+
+
+.
+
+Criteris:   Penalitzaci´ o amb -0.5 pts per cada error de c` alcul. Penalitzaci´ o amb -1 pt si nom´ es
+troben una soluci´ o particular.   (Total   1.5 pt)
+
+Soluci´ o.   Ho podem fer matricialment o amb les equacions lineals que el sistema representa:
+
+  
+5 x   +4 y   +4 z   = 100
+5 x   +3 y   = 120  
+= ⇒
+
+  
+5 x   +4 y   = 100   −   4 z
+
+5 x   +3 y   = 120  
+= ⇒
+
+  
+5 x   +4 y   = 100   −   4 z
+y   =   − 20   −   4 z
+
+= ⇒
+
+  
+5 x   = 180 + 12 z
+y   =   − 20   −   4 z
+
+´
+Es a dir, admet infinites solucions, totes elles de la forma
+
+
+
+
+x
+y
+z
+
+
+   =
+
+
+
+
+(180 + 12 z ) / 5
+
+− 20   −   4 z
+z
+
+
+   ,   per a   z   ∈   R .
+
+Convocat` oria 2025   |   5 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+c) Si disposam de 100 m
+2  
+de teixit i 120 botons, podem utilitzar completament els recursos fabricant
+productes?   (Total   1 pt)
+
+Soluci´ o.   D’acord amb la soluci´ o de l’apartat anterior: no, ja que qualsevol soluci´ o del sistema
+d’equacions implica que si   z   ´ es zero o positiva, aleshores   y   ´ es negativa, i per tant no ´ es una
+soluci´ o realitzable.
+Convocat` oria 2025   |   6 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Problema B2. —   Considera les matrius quadrades   A ,   B ,   M   , i   N   de mida 3   ×   3.
+a) Calcula tots els valors de   x   tals que   A
+2  
+=   A , on:
+
+A   =
+
+
+
+
+7   x   4
+9   x   6
+
+− 6   2   − 3
+
+
+  
+.
+
+Criteris:   Penalitzaci´ o amb -0.25 pts per cada error de c` alcul. Penalitzaci´ o amb -0.5 pts si no
+comprova que el valor de   x   calculat tamb´ e satisf` a totes les condicions necess` aries.   (Total   1 pt)
+
+Soluci´ o.   En la multiplicaci´ o   A   ·   A , ens podem fixar en la tercera filera per la segona columna:
+
+
+
+
+7   x   4
+9   x   6
+
+− 6   2   − 3
+
+
+   ·
+
+
+
+
+7   x   4
+9   x   6
+
+− 6   2   − 3
+
+
+   =
+
+
+
+
+7   x   4
+9   x   6
+
+− 6   2   − 3
+
+
+   = ⇒ − 6   ·   x   + 2   ·   x   + ( − 3)   ·   2 = 2 = ⇒   x   =   − 2 .
+
+´
+Es a dir, si existeix algun valor, l’´ unica possibilitat ´ es   x   =   − 2.   Fent el c` alcul, observam que
+aquest ´ es un valor v` alid:
+
+
+
+
+7   − 2   4
+9   − 2   6
+
+− 6   2   − 3
+
+
+   ·
+
+
+
+
+7   − 2   4
+9   − 2   6
+
+− 6   2   − 3
+
+
+   =
+
+
+
+
+7   − 2   4
+9   − 2   6
+
+− 6   2   − 3
+
+
+   .
+
+b) Troba una matriu   B   invertible, tal que   B
+2  
+=   B .
+
+Criteris:   No s’ha de penalitzar si no es dedueix a partir de l’expressi´ o matricial. (Total   1 pt)
+
+Soluci´ o.   Si   B   ´ es invertible, aleshores   B
+− 1  
+existeix i, aleshores,
+
+B
+2  
+=   B   = ⇒   B
+− 1  
+·   B
+2  
+=   B
+− 1  
+·   B   = ⇒   B   = Id ,
+
+que ´ es, de fet, l’´ unica matriu invertible que satisf` a la condici´ o.
+c) Donades dues matrius   M   i   N   invertibles tals que   M  
+2  
+=   M   i   N  
+2  
+=   N   , constru¨ ım la matriu
+seg¨ uent:   C   =   N   ·   M   ·   N  
+− 1
+. 
+´
+Es cert que   C
+2  
+=   C ?   (Total   1 pt)
+
+Soluci´ o.   S´ ı.   Podem veure que si   M, N   s´ on invertibles i satisfan la condici´ o, aleshores   M   =
+
+N   = Id i, per tant,   C   = Id, que satisf` a Id
+2  
+= Id.
+Alternativament, si   C   =   N   ·   M   ·   N  
+− 1
+,
+
+C
+2  
+=  
+ 
+N   ·   M   ·   N  
+− 1
+  
+·  
+ 
+N   ·   M   ·   N  
+− 1
+  
+=   N   ·   M  
+2  
+·   N  
+− 1  
+=   N   ·   M   ·   N  
+− 1  
+=   C.
+
+Convocat` oria 2025   |   7 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Part C.   Escolliu nom´ es un problema d’aquesta part (total 3 pt).
+
+Problema C1. —   Restringits al domini   x   ∈   [0 ,   20], considera les tres funcions seg¨ uents:
+
+f   ( x ) =   x (10   −   x ) ,   g ( x ) = 125   −   20 x,   h ( x ) =
+
+  
+f   ( x ) si 0   ≤   x   ≤   15 ,
+g ( x ) si 15   < x   ≤   20 .
+
+a) Per a quins   x   es t´ e que   f   ( x ) =   g ( x )? Per a quins   x   es t´ e que   f  
+′
+( x ) =   g
+′
+( x )?
+
+Criteris:   0.5 pts per cada pregunta.   Penalitzaci´ o amb -0.25 pts si no es rebutja   x   = 25.
+
+(Total   1 pt)
+
+Soluci´ o.   Ens demanen el valor de   x   tal que
+
+f   ( x ) =   g ( x )   = ⇒   x   ·   (10   −   x ) = 125   −   20 x   = ⇒   x
+2  
+−   30 x   + 125 = 0   = ⇒
+
+  
+x   = 5 ,
+x   = 25 .
+
+Per tant, l’´ unic valor ´ es   x   = 5, ja que l’altra soluci´ o no est` a dins del domini.
+Per a la segona pregunta,
+
+f  
+′
+( x ) =   g
+′
+( x )   = ⇒   10   −   2 x   =   − 20   = ⇒   x   = 15 ,
+
+que ´ es un punt dins del domini.
+b) Estudia la continu¨ ıtat de la funci´ o   h ( x ).
+
+Criteris:   0.5 pts per estudiar la continu¨ ıtat en   x   = 15, 0.5 pts per justificar la continu¨ ıtat a la
+resta del domini. No s’ha de penalitzar si no s’especifica el tipus de continu¨ ıtat.
+
+(Total   1 pt)
+
+Soluci´ o.   La funci´ o   h ( x ) est` a formada per dues funcions cont´ ınues, aix´ ı que l’´ unic punt en qu` e
+podria no ser cont´ ınua ´ es al punt frontera   x   = 15.   Tal i com hem vist a l’apartat anterior,
+
+f   ( x ) =   g ( x )   = ⇒   x   = 5, aix´ ı que a   x   = 15, les dues funcions tenen un valor diferent. 
+´
+Es a dir,
+
+h ( x ) t´ e una ´ unica discontinu¨ ıtat en el punt   x   = 15, que ´ es una discontinu¨ ıtat inevitable de salt.
+c) 
+´
+Es la funci´ o   h ( x ) derivable? En quins intervals ´ es creixent?
+
+Criteris:   0.25 pts per expressar la derivada a tro¸ cos, 0.25 pts estudiar la derivabilitat a   x   = 15,
+0.50 pt per estudiar el creixement. No s’ha de penalitzar si s’especifica l’interval de creixement
+obert, (0 ,   5). No s’ha de penalitzar si a l’expressi´ o de la derivada a tro¸ cos, aquesta es defineix
+per a   x   = 15.   (Total   1 pt)
+
+Soluci´ o.   No ´ es derivable perqu` e no ´ es cont´ ınua al punt   x   = 15.
+La derivada de la funci´ o   h ( x ) ´ es:
+
+h
+′
+( x ) =
+
+  
+10   −   2 x   si 0   ≤   x <   15 ,
+
+− 20   si 15   < x   ≤   20 . 
+,
+
+Convocat` oria 2025   |   8 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+i no est` a definida al punt   x   = 15.
+Al primer tram, la derivada ´ es estrictament positiva quan   x <   5, i ´ es estrictament negativa quan
+
+x >   5; al segon tram, la derivada ´ es sempre negativa. Per tant, l’´ unic interval en qu` e la funci´ o
+´ es creixent ´ es [0 ,   5).
+Convocat` oria 2025   |   9 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Problema C2. —   Considera la funci´ o   f   ( x ) = 10
+x  
++   x
+10
+, per a   x   ∈   (0 ,   + ∞ ).
+a) Calcula l´ ım
+
+x → 0
+f   ( x ) i   l´ ım
+
+x →∞
+f   ( x ).
+
+Criteris:   Penalitzaci´ o amb -0.5 pts per cada error de c` alcul. Penalitzaci´ o amb -0.25 pts per
+cada error de llenguatge.   (Total   1 pt)
+
+Soluci´ o.
+
+l´ ım
+
+x → 0
+f   ( x ) = 10
+0  
++ 0
+10  
+= 1 + 0 = 1 ,   l´ ım
+
+x →∞
+f   ( x ) = 10
+∞  
++   ∞
+10  
+=   ∞   +   ∞   =   ∞ .
+
+b) Calcula   f  
+′
+( x ).
+
+Criteris:   0.75 pts per calcular la derivada de 10
+x
+, 0.25 pts per calcular la derivada de   x
+10
+.
+
+(Total   1 pt)
+
+Soluci´ o.
+
+f  
+′
+( x ) =  
+ 
+10
+x  
++   x
+10
+
+′  
+= 10
+x  
+·   ln(10) +   x
+9  
+·   10 .
+
+c) Calcula justificadament
+
+Z  
+1
+0
+
+f  
+′
+( x ) d x .
+
+Criteris:   Penalitzaci´ o amb -0.5 pts per cada error de c` alcul.   (Total   1 pt)
+
+Soluci´ o.   At` es que   f   ( x ) ´ es una primitiva de   f  
+′
+( x ),
+
+Z  
+1
+0
+
+f  
+′
+( x ) d x   =   f   ( x )
+
+i
+1
+0  
+=  
+ 
+10
+1  
++ 1
+10
+  
+−  
+ 
+10
+0  
++ 0
+10
+  
+= 10 .
+
+Convocat` oria 2025   |   10 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 1
+
+Taula de la distribuci´ o normal   N   (0 ,   1).
+Convocat` oria 2025   |   11 / 11   |
+

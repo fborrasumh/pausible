@@ -375,7 +375,7 @@ def ingesta_manual(cid, docs, anios, log):
     if not base.exists(): return
     n = 0
     for f in sorted(base.rglob('*')):
-        if f.suffix.lower() not in ('.pdf', '.zip') or not f.is_file(): continue
+        if f.suffix.lower() not in ('.pdf', '.zip', '.txt') or not f.is_file() or f.name.upper().startswith('LEEME'): continue
         url = 'manual:' + f.relative_to(R).as_posix()
         if url in docs or any(k.startswith(url + '#') for k in docs): continue
         ruta = f.relative_to(base).as_posix()
@@ -387,7 +387,10 @@ def ingesta_manual(cid, docs, anios, log):
             for dz in desde_zip(d, f'{cid}/{d["materia"] or "sin_materia"}/{d["anio"]}_{d["conv"]}_{d["tipo"]}_{h}', f.read_bytes(), anios, log): docs[dz['url']] = dz; n += 1
             continue
         txt = R / 'corpus' / cid / 'manual' / f'{h}.txt'; txt.parent.mkdir(parents=True, exist_ok=True)
-        t = texto_pdf(f, txt); d['chars'] = len(t.strip()); completa_con_texto(d, t, anios)
+        if f.suffix.lower() == '.txt':   # texto ya extraído en el navegador (webs que bloquean a GitHub: UIB)
+            t = f.read_text(encoding='utf-8', errors='ignore'); txt.write_text(t, encoding='utf-8')
+        else: t = texto_pdf(f, txt)
+        d['chars'] = len(t.strip()); completa_con_texto(d, t, anios)
         if not d['anio'] or d['anio'] not in anios or NO_PAU.search(norm(t[:800])): txt.unlink(missing_ok=True); log(f'  manual descartado (año o tipo): {ruta}'); continue
         d['txt'] = txt.relative_to(R).as_posix(); docs[url] = d; n += 1
     log(f'  {n} documentos nuevos subidos a mano (manual/{cid}/)')

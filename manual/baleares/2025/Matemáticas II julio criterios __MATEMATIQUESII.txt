@@ -1,0 +1,674 @@
+[Fuente: https://estudis.uib.cat/models-examen/examen/pbau/2025:JUL:MATEMATIQUESII-Criteris/Criteris-MATEMATIQUESII-JUL-2025.pdf]
+Matem` atiques II   Model 1
+
+Criteris de correcci´ o globals
+
+•   Les respostes a les preguntes o tasques s’han de realitzar expressant de forma raonada el proc´ es
+seguit per resoldre-les, amb el rigor i la precisi´ o necessaris, usant el llenguatge, la notaci´ o i els
+s´ ımbols matem` atics adequats, i utilitzant arguments, justificacions, explicacions i raonaments
+expl´ ıcits i coherents.   Es valorar` a el grau d’acompliment amb un m` axim de 0 ,   25 punts cada
+exercici.
+– Els errors de c` alcul es penalitzaran amb un 25%; els errors greus i/o que portin a resultats
+incoherents o absurds, amb un 50%.
+– En preguntes mec` aniques o de c` alcul no justificades, amb el 30%-50%; en preguntes de
+justificar, una resposta sense cap justificaci´ o s’ha de penalitzar amb el 100%.
+– En qualsevol pregunta, si apareixen raonaments (que no s´ on clars/evidents) sense justificar,
+amb el 20%-30%.
+– La imprecisi´ o en l’´ us del llenguatge matem` atic (p. ex. variables sense introduir/que canvien
+de significat), o la falta de claredat per abs` encia de llenguatge matem` atic, amb un 20%-30%.
+– L’estructura s’ha de penalitzar en funci´ o de la dificultat per entendre la resposta.
+
+•   La simple descripci´ o del plantejament, sense que es dugui a terme la resoluci´ o de manera efectiva,
+no ´ es suficient per obtenir una valoraci´ o completa de la pregunta o tasca.
+
+•   En les preguntes o tasques en qu` e es demani expressament una deducci´ o raonada, la simple
+aplicaci´ o d’una f´ ormula no ser` a suficient per obtenir-ne una valoraci´ o completa.
+
+•   Els errors comesos en una pregunta o tasca (per exemple, en el c` alcul del valor d’un cert
+par` ametre) no es tindran en compte en la qualificaci´ o dels desenvolupaments posteriors que
+puguin veure’s afectats, sempre que resultin d’una complexitat equivalent.
+
+•   Si l’alumne presenta m´ es problemes que els demanats, corregiu-ne els que apareixen primer.
+
+Criteris de correcci´ o espec´ ıfics
+
+Nom´ es es detallen els apartats en qu` e hi ha diverses preguntes o que es poden desglossar. En apartats
+on s’omet el criteri de correcci´ o espec´ ıfic, aquest ser` a simplement “C` alcul i/o justificaci´ o correcta”. Si
+no est` a indicat, tots els apartats d’una mateixa pregunta tenen la mateixa valoraci´ o.
+Convocat` oria 2025   |   1 / 9   |
+
+Matem` atiques II   Model 1
+
+Part A.
+Problema A1. —   Soluci´ o.
+
+(a) Denotem cada un dels v` ertexs del prisma rectangular tal com es mostra a la figura. Notem que,
+segons el v` ertex que s’hagi situat a l’origen, les coordenades dels punts podrien canviar.
+
+Notem que el punt   B   resulta de despla¸ car-se, des de l’origen (punt   A ), 2 m sobre l’eix   OX .
+Llavors   B   = (2 ,   0 ,   0). Similarment,   D   = (0 ,   3 ,   0) i   A
+′  
+= (0 ,   0 ,   2 . 5).
+El punt   C   resulta de despla¸ car-se des de   B , 3 m sobre la recta paral · lela a l’eix   OY   . Aleshores,
+
+C   = (2 ,   3 ,   0). Movent-nos des de   C   2 . 5 m paral · lelament a l’eix   OZ   tenim que   C
+′  
+= (2 ,   3 ,   2 . 5).
+Similarment,   B
+′  
+= (2 ,   0 ,   2 . 5) i   D
+′  
+= (0 ,   3 ,   2 . 5).
+Aleshores, les coordenades dels punts que cercam s´ on:
+
+A   = (0 ,   0 ,   0) ,   B   = (2 ,   0 ,   0) ,   C   = (2 ,   3 ,   0) ,   D   = (0 ,   3 ,   0) ,
+A
+′  
+= (0 ,   0 ,   2 . 5) ,   B
+′  
+= (2 ,   0 ,   2 . 5) ,   C
+′  
+= (2 ,   3 ,   2 . 5) ,   D
+′  
+= (0 ,   3 ,   2 . 5) .
+
+(b) Segons l’enunciat i la notaci´ o que hem escollit, les bigues que volem calcular uneixen   A   amb   D
+′  
+i
+
+B   amb   C
+′
+. Notem, a m´ es, que, per simetria, ambdues longituds fan la mateixa mida. Aleshores,
+´ es suficient en calcular la longitud de la primera ( A   amb   D
+′
+). Una manera de fer-ho ´ es calcular
+el vector que uneix ambd´ os punts i mirar quin m` odul t´ e. Llavors,
+⃗
+AD
+′  
+= (0 ,   3 ,   2 . 5)
+
+|
+⃗
+AD
+′
+|   =  
+√
+3
+2  
++ 2 . 5
+2  
+=  
+√
+15 . 25   ≈   3 . 9051 m .
+
+Convocat` oria 2025   |   2 / 9   |
+
+Matem` atiques II   Model 1
+
+Calculem ara el pla que cont´ e les dues bigues que hem posat ( AD
+′  
+i   BC
+′
+).
+Per construcci´ o, les dues bigues s´ on paral · leles, i el pla que les cont´ e tamb´ e cont´ e els segments
+
+AB   i   C
+′
+D
+′  
+del contenidor (segons notaci´ o de la figura). Llavors cerquem l’equaci´ o del pla que
+cont´ e el punt   A   i t´ e vectors directors
+⃗
+  AD
+′  
+i
+⃗
+  AB .
+
+A   = (0 ,   0 ,   0) ,⃗
+AD
+′  
+= (0 ,   3 ,   2 . 5) ,⃗
+AB   = (2 ,   0 ,   0) ,⃗
+n   =
+⃗
+i⃗   j⃗   k
+
+0   3   2 . 5
+2   0   0
+
+= (0 ,   5 ,   − 6) .
+
+D’aquesta manera, les possibles expressions del pla serien
+
+
+
+
+
+x   = 0 ,
+y   = 5 γ,
+z   =   − 6 γ,
+
+(vectorial) ,   5 y   −   6 z   = 0 (expl´ ıcita) .
+
+(c) Notem que la porta del contenidor fa 2 . 5 m d’altura i 2 m d’amplada, amb una diagonal de
+
+|
+⃗
+BA
+′
+|   =   | (2 ,   0 ,   2 . 5) |   =  
+√
+2
+2  
++ 2 . 5
+2  
+=  
+√
+10 . 25   ≈   3 . 2   >   3 m. A m´ es, la profunditat del contenidor
+´ es de 3   m . Per tant s´ ı que podem introduir la l` amina de ferro “diagonalment”.
+
+Criteris:
+
+(a)   [1 punt]   0 . 2 punts per situar correctament els eixos de refer` encia. 0 . 1 punts per cada conjunt
+de coordenades ben calculades (0 . 8 punts per trobar   A ,   B ,   C ,   D ,   A
+′
+,   B
+′
+,   C
+′
+,   D
+′
+).
+(b)   [1 punt]   0 . 5 punts per calcular la longitud de les bigues (0 . 25 punts per cada una) i 0 . 5 punts
+per calcular l’equaci´ o del pla que les cont´ e (0 . 15 punts per cada vector director ben calculat i
+0 . 2 punts per indicar l’equaci´ o del pla).
+(c)   [0.5 punts]   0 . 25 punts per l’explicaci´ o del procediment a seguir i 0 . 25 punts per l’execuci´ o del
+plantejament i la soluci´ o correcta.
+Convocat` oria 2025   |   3 / 9   |
+
+Matem` atiques II   Model 1
+
+Part B.
+Problema B1. —   Soluci´ o.   Considerem el sistema en la seva forma matricial   A x   =   b   tal que
+
+A   =
+
+
+
+
+k   1   0
+0   k   1
+3   − 1   − 1
+
+
+  
+,   x   =
+
+
+
+
+x
+y
+z
+
+
+  
+,   i   b   =
+
+
+
+
+1
+0
+0
+
+
+  
+.
+
+Aleshores,
+(a) Notem que aquest apartat es podria resoldre de diverses maneres, entre elles, emprant el teorema
+de Rouch´ e-Frobenius (comparar rangs) o Gauss. Facem-ho comparant rangs.
+
+–   | A |   =   − k
+2  
++   k   + 3 = 0   ↔   k   =  
+1+
+√
+13
+2  
+o   k   =  
+1 −
+√
+13
+2  
+.
+Aleshores, si   k ̸   =  
+1+
+√
+13
+2  
+i   k ̸   =  
+1 −
+√
+13
+2  
+, Rang( A ) = Rang( A | b ) = 3 i tenim 3 inc` ognites. Per
+tant, el sistema ´ es compatible determinat (una ´ unica soluci´ o).
+
+–   si   k   =  
+1+
+√
+13
+2  
+o   k   =  
+1 −
+√
+13
+2  
+, notem que el determinant de menor   M 33   ´ es
+
+| M 33 |   =  
+k   1
+0   k  
+=   k
+2
+̸
+ 
+= 0 .
+
+Aleshores, Rang( A ) = 2 en ambd´ os casos.
+Aix` o no obstant, si miram el rang de la matriu ampliada ( A | b ) resultant d’orlar sobre
+aquest menor (i per tant, substituint la tercera columna de   A   pel vector   b   es t´ e que
+
+k   1   1
+0   k   0
+3   − 1   0
+
+=   − 3 k ̸   = 0 ,
+
+per a qualsevol valor de   k . Aleshores, en ambd´ os casos Rang( A | b ) = 3. Per tant, el sistema
+no t´ e solucions per a aquests dos valors del par` ametre   k .
+Taula resum:
+Valor de   k   Rang( A )   Rang( A | b )   Nombre d’inc` ognites   Tipus de sistema
+
+k ̸   =  
+1+
+√
+13
+2  
+i   k ̸   =  
+1 −
+√
+13
+2  
+3   3   3   SCD - una soluci´ o
+
+k   =  
+1+
+√
+13
+2  
+2   3   3   SI - cap soluci´ o
+
+k   =  
+1 −
+√
+13
+2  
+2   3   3   SI - cap soluci´ o
+(b) Suposem   k   ∈   R   tal que   k ̸   =  
+3+
+√
+13
+2  
+i   k ̸   =  
+3 −
+√
+13
+2  
+. Resolent el sistema directament pel m` etode de
+substituci´ o, tenim que
+
+y   = 1   −   kx
+z   =   − ky   =   − k (1   −   kx ) =   − k   +   k
+2
+x
+
+3 x   −   (1   −   kx )   −   ( − k   +   k
+2
+x ) = 0   ⇒   3 x   −   1 +   kx   +   k   −   k
+2
+x   = 0   ⇒   (3 +   k   −   k
+2
+) x   = 1   −   k
+
+Convocat` oria 2025   |   4 / 9   |
+
+Matem` atiques II   Model 1
+
+Notem que podem calcular   x , ja que suposam que 3 +   k   −   k
+2
+̸
+ 
+= 0 (determinant de   A ). Aleshores,
+la soluci´ o del sistema ´ es
+
+x   =  
+1   −   k
+
+3 +   k   −   k
+2  
+,   y   = 1   −  
+k (1   −   k )
+3 +   k   −   k
+2  
+,   z   =   − k   +  
+k
+2
+(1   −   k )
+3 +   k   −   k
+2  
+.
+
+Criteris:
+
+(a)   [1.5 punts]   0 . 3 punts per calcular b´ e el determinant de   A , 0 . 4 punts per discutir correctament
+cada cas.
+(b)   [1 punt]   Es lleven 0 . 4 punts per cada variable mal calculada. Els errors de c` alcul es penalitzen
+amb   − 0 . 2 punts, m` axim 3 errors.   Si resolen un cas particular, la puntuaci´ o m` axima ´ es de 0
+punts.
+
+Problema B2. —   Soluci´ o.
+
+(a) Sigui   x   el nombre de fr` ankfurts venuts,   y   el nombre d’hamburgueses i   z   el nombre de refrescs,
+de l’enunciat s’extreuen les dues informacions seg¨ uents:
+
+  
+3 . 50 x   + 4 y   + 1 . 5 z   = 328 ,
+x   +   y   +   z   = 132 .
+
+Com que tenim 2 equacions i 3 inc` ognites, no podem resoldre un´ ıvocament el sistema i, per tant,
+no podem reportar la informaci´ o que se’ns demana. Nom´ es es podrien reportar dos articles en
+funci´ o d’un tercer, ja que
+
+3 . 50   4
+1   1  
+=   − 0 . 5 ̸   = 0 .
+
+(b) Ara ens diuen, a m´ es, que s’han venut 20 hamburgueses. Llavors   y   = 20 i el sistema es reescriu
+com a     
+3 . 50 x   + 80 + 1 . 5 z   = 328 .
+x   + 20 +   z   = 132 ,  
+→
+
+  
+3 . 50 x   + 1 . 5 z   = 248 ,
+x   +   z   = 112 ,
+
+el qual ´ es un sistema de 2 equacions i 2 inc` ognites.   Resolent-lo s’obt´ e que   x   = 40 i   z   = 72.
+Aleshores, s’han venut 40 fr` ankfurts, 20 hamburgueses i 72 refrescs.
+
+Criteris:
+
+(a)   [1 punt]   0 . 25 punts per la resposta correcta i 0 . 75 punts per la justificaci´ o. Si algun alumne ha
+indicat que s´ ı que ´ es possible, per` o especificant que ´ es deixant-ho en funci´ o d’un dels articles, es
+dona per correcte. 
+´
+Es a dir, si veuen que ´ es un SCI i especifiquen que hi ha m´ es d’una soluci´ o,
+es d´ ona per v` alid. Si no especifiquen que hi pot haver moltes solucions,   − 0 . 25 punts.
+(b)   [1.5 punts]   0 . 25 punts per indicar qu` e representa cada variable, 0 . 5 punts per escriure el sistema
+a resoldre correctament, 0 . 5 punts per resoldre el sistema ( − 0 . 2 per error de c` alcul), i 0 . 25 punts
+per indicar la soluci´ o final.
+Convocat` oria 2025   |   5 / 9   |
+
+Matem` atiques II   Model 1
+
+Part C.
+Problema C1. —   Soluci´ o.
+
+(a) Volem calcular la recta tangent a la corba   y   =   x
+2  
+−   4 en el punt (2 ,   0). Aix´ ı doncs,
+
+–   El pendent de la recta tangent ´ es   m   =   y
+′
+(2). Notem que   y
+′
+( x ) = 2 x , per tant,   y
+′
+(2) = 4.
+
+–   La recta passa pel punt (2 ,   0) i t´ e pendent   m   = 4. Aleshores, l’equaci´ o de la recta tangent
+´ es
+
+y   = 0 + 4( x   −   2) = 4 x   −   8 .
+
+(b) Representem ara les corbes   y   =   x
+2  
+−   4,   y   = 4 x   −   8 i l’eix   OY   per veure la superf´ ıcie que volem
+considerar:
+
+–   y   =   x
+2  
+−   4 ´ es una par` abola que t´ e el v` ertex a (0 ,   − 4) i passa pels punts ( − 2 ,   0) i (2 ,   0).
+
+–   y   = 4 x   −   8 ´ es una recta que passa pels punts (2 ,   0) i (0 ,   − 8).
+Per tant, la regi´ o que hem de considerar ´ es la regi´ o morada de la figura.
+
+Notem que ja tenim calculat que els extrems d’integraci´ o s´ on   x   = 0 i   x   = 2.   Aix´ ı, hem de
+resoldre la integral
+
+Z  
+2
+0
+
+( x
+2  
+− 4) − (4 x − 8) dx   =
+
+Z  
+2
+0
+
+x
+2  
+−   4 x   + 4 dx   =  
+x
+3
+
+3  
+−   4  
+x
+2
+
+2 
++ 4 x
+
+2
+0
+
+= 
+2
+3
+
+3  
+− 4 
+2
+2
+
+2 
++8 − 0 = 
+2
+3
+
+3  
+≈   2 . 67 u
+2
+
+Criteris:
+
+(a)   [1 punt]   0 . 5 punts per calcular correctament el pendent de la recta i 0 . 5 punts per donar
+l’expressi´ o correcta de la recta tangent.
+Convocat` oria 2025   |   6 / 9   |
+
+Matem` atiques II   Model 1
+
+(b)   [1.5 punts]   0 . 75 punts per plantejar correctament la integral a calcular (es penalitza amb
+
+− 0 . 5 punts si nom´ es calculen correctament una de les dues coses - extrems o la difer` encia de
+funcions). 0 . 5 punts per resoldre b´ e la integral (0 . 25 punts per integrar i 0 . 25 punts per avaluar
+b´ e els extrems). 0 . 25 punts per les unitats.
+
+Problema C2. —   Soluci´ o.
+
+(a) Volem calcular   H ( t ) quan   t   = 0. Aleshores,
+
+H (0) =  
+20
+1 +   e
+− 0  
+= 
+20
+2  
+= 10 % .
+
+Per tant, la concentraci´ o inicial ´ es del 10 %.
+(b) Volem comprovar que la funci´ o   H ( t ) ´ es sempre creixent. Per aix` o calcularem la derivada i veurem
+que aquesta sempre ´ es positiva. En efecte,
+
+H
+′
+( t ) =  
+− 20( − e
+− t
+)
+(1 +   e
+− t
+)
+2  
+=  
+20 e
+− t
+
+(1 +   e
+− t
+)
+2  
+>   0 ,   ja que   e
+− t  
+>   0   ∀ t >   0 .
+
+(c) Volem calcular el l´ ımit de   H ( t ) quan   t   tendeix a + ∞ . 
+´
+Es a dir,
+l´ ım
+
+t → + ∞  
+H ( t ) =  
+20
+1 + 0 
+= 20 % .
+
+Criteris:
+
+(a)   [0.5 punts]   0 . 25 punts pel plantejament, 0 . 25 punts per l’execuci´ o correcta.
+(b)   [1 punt]   0 . 5 punts pel plantejament i notaci´ o, 0 . 5 punts per l’execuci´ o correcta.
+(c)   [1 punt]   0 . 5 punts pel plantejament i notaci´ o, 0 . 5 punts per l’execuci´ o correcta.
+Convocat` oria 2025   |   7 / 9   |
+
+Matem` atiques II   Model 1
+
+Part D.
+Problema D1. —   Soluci´ o.   Sigui   E   l’esdeveniment “espenyat abans dels 5 anys” i   M   l’esdeveniment
+“mal ´ us per part dels usuaris”. De l’enunciat, sabem que
+
+P   (E) =  
+45
+100  
+,   P   (M | E) =  
+40
+100  
+,   P   (M | no E) =  
+55
+100  
+.
+
+Aleshores,
+(a)   P   (no E) = 1   −   P   (E) = 1   −  
+45
+100  
+=  
+55
+100  
+.
+(b)   P   (no M | no E) = 1   −   P   (M | no E) = 1   −  
+55
+100  
+=  
+45
+100  
+.
+(c)   P   (no E | M) =  
+P   (no E   ∩   M)
+
+P   (M)  
+=
+
+55
+100
+55
+100
+40
+100
+45
+100  
++  
+55
+100
+55
+100
+
+=  
+0 ,   3025
+0 ,   18 + 0 ,   3025  
+≈   0 ,   6269.
+Tot seguit determinam el diagrama d’arbre amb totes les probabilitats calculades.
+
+Criteris:
+
+(a)   [0.75 punts]   0 . 25 punts pel plantejament correcte i notaci´ o, 0 . 25 punts per la resposta correcta
+i 0 . 25 punts per l’execuci´ o.
+(b)   [0.75 punts]   0 . 25 punts pel plantejament correcte i notaci´ o, 0 . 25 punts per la resposta correcta
+i 0 . 25 punts per l’execuci´ o.
+(c)   [1 punt]   0 . 25 punts pel plantejament correcte i notaci´ o, 0 . 25 punts per la resposta correcta i
+0 . 5 punts per l’execuci´ o.
+Es penalitza tot l’apartat (puntuaci´ o 0 punts) si el resultat ´ es incoherent (probabilitats fora de l’interval
+[0 ,   1]).
+Convocat` oria 2025   |   8 / 9   |
+
+Problema D2. —   Soluci´ o.
+
+(a)   P   ( A   ∩   B ) =   P   ( A )   −   P   ( A   −   B ) = 0 . 75   −   0 . 3 = 0 . 45 .
+
+(b)   P   ( B   −   A ) =   P   ( B )   −   P   ( A   ∩   B ) = 1   −   P   ( B
+′
+)   −   P   ( A   ∩   B ) = 1   −   0 . 45   −   0 . 45 = 0 . 1 .
+
+(c)   P   ( A
+′  
+∩   B
+′
+) = 1   −   P   ( A   ∪   B ) = 1   −   [ P   ( A ) +   P   ( B   −   A )] = 1   −   0 . 75   −   0 . 1 = 0 . 15 .
+
+Criteris:
+
+(a)   [0.75 punts]   0 . 5 punts pel procediment escrit i la notaci´ o, 0 . 25 punts per la resposta correcta.
+(b)   [0.75 punts]   0 . 5 punts pel procediment escrit i la notaci´ o, 0 . 25 punts per la resposta correcta.
+(c)   [1 punt]   0 . 5 punts pel procediment escrit i la notaci´ o, 0 . 5 punts per la resposta correcta.
+Es penalitza tot l’apartat (puntuaci´ o 0 punts) si el resultat ´ es incoherent (probabilitats fora de l’interval
+[0 ,   1]).
+9
+

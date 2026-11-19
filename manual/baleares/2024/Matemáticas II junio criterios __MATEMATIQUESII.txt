@@ -1,0 +1,980 @@
+[Fuente: https://estudis.uib.cat/models-examen/examen/pbau/2024:JUNY:MATEMATIQUESII-Criteris/Criteris-MATEMATIQUESII-JUNY-2024.pdf]
+Matem` atiques II   Model 2
+
+Criteris de correcci´ o globals
+
+•   Heu de corregir quatre q¨ uestions en total d’entre les vuit proposades. Si l’alumne presenta m´ es de quatre
+q¨ uestions, corregiu-ne les quatre primeres.
+
+•   Cada problema t´ e una puntuaci´ o m` axima de 10. Cal tenir presents les puntuacions m` aximes que apareixen
+a cada apartat (si no est` a indicat, tots els apartats d’una mateixa pregunta tenen la mateixa valoraci´ o).
+Les puntuacions dels apartats s´ on independents: si l’alumne s’ha equivocat en qualque apartat per` o fa b´ e
+els altres (segons les “seves” dades equivocades), donau-li la puntuaci´ o adient.
+
+•   Es valorar` a conjuntament el resultat, la justificaci´ o (ja sigui simb` olica o escrita), la claredat i ´ us del
+llenguatge matem` atic i no matem` atic, i l’estructura de la resposta. Orientativament, penalitzau:
+– Els errors de c` alcul amb un 25%; els errors greus i/o que portin a resultats incoherents o absurds,
+amb un 50%.
+– En preguntes de justificar, si la justificaci´ o ´ es nom´ es “intu¨ ıtiva” (p. ex. una observaci´ o que no respon
+exhaustivament a all` o que s’ha demanat), amb el 30%-50%; en preguntes de justificar, una resposta
+sense cap justificaci´ o s’ha de penalitzar amb el 100%.
+– En qualsevol pregunta, si apareixen raonaments (que no s´ on clars/evidents) sense justificar, amb el
+20%-30%.
+– La imprecisi´ o en l’´ us del llenguatge matem` atic (p.   ex.   variables sense introduir/que canvien de
+significat), o la falta de claredat per abs` encia de llenguatge matem` atic, amb un 20%-30%.
+– L’estructura s’ha de penalitzar en funci´ o de la dificultat per entendre la resposta.
+
+•   Hi pot haver casos en qu` e hi hagi dubtes en aplicar els criteris generals o espec´ ıfics. En aquests casos, feu
+prevaler el vostre criteri i sentit com´ u.
+
+Criteris de correcci´ o espec´ ıfics
+
+Nom´ es es detallen els apartats en qu` e hi ha diverses preguntes o que es poden desglossar. En apartats on s’omet
+el criteri de correcci´ o espec´ ıfic, aquest ser` a simplement “C` alcul i/o justificaci´ o correcta”.
+Convocat` oria 2024   |   1 / 5   |
+
+Matem` atiques II   Model 2
+
+P1. —   Una f` abrica de vi de Mallorca produeix 3 tipus de vi: negre, blanc i rosat. Amb la finalitat de saber el
+preu de cada tipus de vi, hem comprat vi, el mateix dia i a la f` abrica mateixa, de 4 maneres diferents:
+
+•   comprant 3 botelles de vi negre i 2 de vi blanc hem pagat 67   A C,
+
+•   comprant 2 botelles de vi negre, 4 de vi blanc i 1 de rosat hem pagat 85   A C,
+
+•   comprant 1 botella de vi negre i 1 de vi rosat hem pagat 21   A C, i finalment,
+
+•   comprant 4 botelles de vi blanc i 5 de vi rosat hem pagat 85   A C.
+(a)   [3 punts]   Escriu, en forma matricial, el sistema d’equacions lineals que s’hauria de resoldre per poder
+descobrir el preu de cada tipus de vi.
+
+Criteris:   Si nom´ es escriuen la matriu 3   ×   3, han de justificar per qu` e lleven ja una fila (-2 punts si no
+ho justifiquen). Es donar` a 1 punt si escriuen el sistema correctament per` o no ´ es en forma matricial. Es
+restar` a 1 punt per cada nombre mal posat.
+(b)   [2 punts]  
+´
+Es necessari tenir les dades de les 4 compres per saber el preu de cada tipus de vi? Justifica la
+resposta.
+
+Criteris:   -1 punt si no justifiquen que les compres han de ser linealment independents.
+(c)   [5 punts]   Calcula quin ´ es el preu de cada tipus de vi.
+
+Criteris:   -1 punt per error de c` alcul.
+
+P2. —   Considerem les matrius   A   de dimensi´ o 3   ×   3 que satisfan que 3 A   +   I   =   A
+2
+,   on   I   ´ es la matriu identitat
+de dimensi´ o 3   ×   3.
+(a)   [3 punts]   Calcula l’expressi´ o de la matriu inversa de   A .
+
+Criteris:   Nom´ es 1 punt si han a¨ ıllat la   I   correctament per` o no han donat la soluci´ o.
+(b)   [3 punts]   Donada l’equaci´ o matricial
+
+A   + 3 AX   = 5 I,
+
+on   A   ´ es una de les matrius de l’enunciat. Calcula, en funci´ o nom´ es de la matriu   A   (no de la seva inversa)
+i de la identitat   I , la matriu   X . Quina dimensi´ o t´ e la matriu   X ? Justifica la resposta.
+
+Criteris:   2 punts per a¨ ıllar b´ e   X . Ara b´ e, -1 punt si ho deixen en funci´ o de   A
+− 1
+. 1 punt si contesten b´ e
+la dimensi´ o de   X . Ara b´ e, -0.5 si la justificaci´ o no hi ´ es o ´ es incorrecta.
+(c)   [4 punts]   Calcula totes les matrius de la forma
+
+A   =
+
+
+  
+a   1   0
+1   b   0
+0   0   c
+
+
+
+
+que satisfan les condicions de l’enunciat.
+
+Criteris:   -0.5 punts per error de c` alcul.   M` axim 3 errors.   Finalment, -1 punt si no queden clares les
+diferents combinacions de resultats.
+Convocat` oria 2024   |   2 / 5   |
+
+Matem` atiques II   Model 2
+
+P3. —   Considerem els punts   A   = (0 ,   0 ,   0),   B   = (2 ,   − 1 ,   3) i   C   = ( − 1 ,   2 ,   1).
+(a)   [3 punts]   Calcula el punt   D   tal que   ABDC   sigui un paral · lelogram.
+
+Criteris:   1 punt per plantejar b´ e. 2 punts per la resoluci´ o. -0.5 per error de c` alcul.
+(b)   [4 punts]   Calcula un dels punts   E   de l’espai de tal manera que la recta   AE   sigui perpendicular al pla
+
+ABC   i que la dist` ancia entre els punts   A   i   E   sigui 1.
+
+Criteris:   1 punt per plantejar b´ e que   AE   i   ABC   s´ on perpendiculars; 1 punt per plantejar b´ e que la
+dist` ancia entre els punts val 1; i 2 punts per resoldre b´ e el problema. -0.5 per error de c` alcul.
+(c)   [3 punts]   Escriu l’equaci´ o d’un dels plans paral · lels al pla   ABC   que dista una unitat d’aquest.
+
+Criteris:   -1 punt per error de c` alcul.
+
+P4. —   (a)   [5 punts]   Discuteix, segons els valors de   a   i   b   (par` ametres reals), la posici´ o relativa dels plans
+
+π 1   : 3 x   +   ay   −   z   = 1   i   π 2   : 6 x   +   y   −   2 z   =   b.
+
+´
+Es a dir, si s´ on coincidents, paral · lels o es tallen.   En el darrer cas, especifica si ho fan perpendicular-
+ment.
+
+Criteris:   1 punt per calcular b´ e els vectors normals (o altres vectors si ho fan per mitj` a d’un procediment
+diferent). 1 punt per cada cas correcte
+(b)   [5 punts]   Calcula l’equaci´ o de la recta perpendicular al pla   π   i que passa pel punt de tall entre la recta
+
+s   i el mateix pla   π , sent
+
+π   :
+
+
+
+
+
+x   = 2 + 4 α   −   β,
+y   = 3 β,
+z   = 1 +   α,
+
+i   s   :  
+x   −   1
+2  
+=  
+y
+
+2 
+=  
+z   −   1
+
+− 1  
+,
+
+per a   α   i   β   valors reals qualssevol.
+
+Criteris:   2 punts pel c´ alcul correcte de   P   . 2 punts per calcular b´ e el vector director de la recta. 1 punt
+per escriure una equaci´ o v` alida. -1 punt per error de c` alcul.
+
+P5. — [10 punts]   Volem fer una tanca en un camp rectangular emprant diferents materials a cada costat.
+Comen¸ cant pel fons del camp i movent-nos al voltant d’aquest en el sentit contrari a les agulles del rellotge, el
+cost del material per a cada costat ´ es de 6   A C /m , 9   A C /m , 12   A C /m   i 14   A C /m , respectivament. Si hem de gastar
+exactament 1000   A C per comprar el material de tancament, determina les dimensions del camp que maximitzaran
+l’` area tancada.
+
+Criteris:   1 punt si indiquen qui ´ es cada variable; 2 punts si escriuen b´ e la relaci´ o del cost; 2 punts si plantegen
+b´ e la funci´ o a maximitzar; 2 punts per cada mida ben calculada; 1 punt si comproven que realment ´ es un
+m` axim.
+Convocat` oria 2024   |   3 / 5   |
+
+Matem` atiques II   Model 2
+
+P6. —   Sigui la funci´ o
+
+f   ( x ) =
+
+
+
+
+
+b e
+x  
++   a   + 1 ,   x   ≤   0 ,
+ax
+2  
++   b ( x   + 3) ,   0   < x   ≤   1 ,
+a   cos( πx ) + 7 bx,   x >   1 .
+
+(a)   [5 punts]   Calcula els valors de   a   i   b   per als quals la funci´ o   f   ( x ) ´ es cont´ ınua.
+
+Criteris:   2 punts per veure que cada subfunci´ o ´ es cont´ ınua dins del seu domini, 1 punt per imposar que
+´ es cont´ ınua a   x   = 0, 1 punt per imposar que ´ es cont´ ınua a   x   = 1, 1 punt per trobar els valors correctes de
+
+a   i   b .
+(b)   [5 punts]   Siguin   a   = 3 i   b   = 2, calcula l’` area compresa entre   x   =   − 1,   x   = 0 i l’eix   OX .
+
+Criteris:   1 punt per considerar la part de   f   ( x ) que toca. 1 punt per veure que   f 1 ( x ) no talla l’eix   OX .
+1 punt per plantejar b´ e la integral. 1 punt per resoldre b´ e la integral. 1 punt per aplicar b´ e la regla de
+Barrow.
+
+P7. —   Siguin   A   i   B   dos successos d’un mateix espai mostral tals que satisfan que   P   ( A ∪ B ) = 0 . 7,   P   ( A ∩ B ) = 0 . 1
+i   P   ( A   ∩   B
+c
+) = 0 . 35 (sent   B
+c  
+el succ´ es complementari de   B ), calcula:
+(a)   [3 punts]   P   ( A ).
+(b)   [3 punts]   P   ( B ).
+(c)   [2 punts]   P   ( A
+c  
+∪   B
+c
+).
+(d)   [2 punts]   S´ on   A   i   B   successos independents?
+
+Criteris:   (a,b) 2 punts per indicar qu` e han de calcular, 1 punt per la resposta correcta; (c,d) 1 punt per indicar
+qu` e han de calcular, 1 punt per la resposta correcta.
+
+P8. —   La durada dels embarassos humans des de la concepci´ o fins al naixement s’aproxima a una distribuci´ o
+normal amb una mitjana de 266 dies i una desviaci´ o t´ ıpica de 16 dies.
+(a)   [4 punts]   Quina proporci´ o de tots els embarassos durar` a entre 240 i 270 dies (aproximadament entre 8 i
+9 mesos)?
+
+Criteris:   1 punt pel plantejament, 1 punt per tipificar, 1 punt per separar les probabilitats, 1 punt per
+la soluci´ o correcta.
+(b)   [6 punts]   Si ens fixam en el 70% dels embarassos que m´ es duren, quina ´ es la seva durada?
+
+Criteris:   2 punts pel plantejament, 1 punt per tipificar, 1 punt per trobar el valor adequat a la taula, 2
+punts per a¨ ıllar   k .
+Convocat` oria 2024   |   4 / 5   |
+
+Matem` atiques II   Model 2
+
+Taula de la distribuci´ o normal   N   (0 ,   1).
+Convocat` oria 2024   |   5 / 5   |
+
+Matem` atiques II   Model 2
+
+Contestau de manera clara i raonada quatre q¨ uestions qualssevol, escollides d’entre les vuit proposades.
+Justificau les respostes usant llenguatge matem` atic i/o no matem` atic, segons correspongui.   Disposau de 90
+minuts. Cada q¨ uesti´ o es puntua sobre 10 punts. La qualificaci´ o final s’obt´ e de dividir el total de punts obtinguts
+entre 4.
+Es permet utilitzar calculadora cient´ ıfica b` asica. No es permet l’´ us de calculadores gr` afiques ni programables,
+ni de dispositius que puguin transmetre o emmagatzemar informaci´ o.
+
+P1. —   Una f` abrica de vi de Mallorca produeix 3 tipus de vi: negre, blanc i rosat. Amb la finalitat de saber el
+preu de cada tipus de vi, hem comprat vi, el mateix dia i a la f` abrica mateixa, de 4 maneres diferents:
+
+•   comprant 3 botelles de vi negre i 2 de vi blanc hem pagat 67   A C,
+
+•   comprant 2 botelles de vi negre, 4 de vi blanc i 1 de rosat hem pagat 85   A C,
+
+•   comprant 1 botella de vi negre i 1 de vi rosat hem pagat 21   A C, i finalment,
+
+•   comprant 4 botelles de vi blanc i 5 de vi rosat hem pagat 85   A C.
+(a)   [3 punts]   Escriu, en forma matricial, el sistema d’equacions lineals que s’hauria de resoldre per poder
+descobrir el preu de cada tipus de vi.
+
+Soluci´ o.   
+
+
+
+
+3   2   0
+2   4   1
+1   0   1
+0   4   5
+
+
+
+
+
+
+
+
+x
+y
+z
+
+
+   =
+
+
+
+
+
+
+67
+85
+21
+85
+
+
+
+
+
+
+(b)   [2 punts]   ´ Es necessari tenir les dades de les 4 compres per saber el preu de cada tipus de vi? Justifica la
+resposta.
+
+Soluci´ o .   No, perqu` e nom´ es tenim 3 inc` ognites.   3 compres s´ on suficients per` o han de ser “linealment
+independents” entre elles. S’accepta tant si diuen que s´ on “linealment independents” com si veuen que el
+Rang ´ es 3.
+(c)   [5 punts]   Calcula quin ´ es el preu de cada tipus de vi.
+
+Soluci´ o.   Vi negre = 14   A C, vi blanc = 12 . 5   A C   i vi rosat = 7   A C.
+
+P2. —   Considerem les matrius   A   de dimensi´ o 3   ×   3 que satisfan que 3 A   +   I   =   A
+2
+,   on   I   ´ es la matriu identitat
+de dimensi´ o 3   ×   3.
+(a)   [3 punts]   Calcula l’expressi´ o de la matriu inversa de   A .
+
+Soluci´ o.   I   =   A
+2  
+−   3 A   =   A ( A   −   3 I ), llavors   A
+− 1  
+=   A   −   3 I .
+(b)   [3 punts]   Donada l’equaci´ o matricial
+
+A   + 3 AX   = 5 I,
+
+on   A   ´ es una de les matrius de l’enunciat. Calcula, en funci´ o nom´ es de la matriu   A   (no de la seva inversa)
+i de la identitat   I , la matriu   X . Quina dimensi´ o t´ e la matriu   X ? Justifica la resposta.
+
+Soluci´ o.   A   + 3 AX   =   A ( I   + 3 X ) = 5 I   →   I   + 3 X   = 5 A
+− 1  
+→   I   + 3 X   = 5( A   −   3 I )   →   X   =  
+1
+3  
+(5 A   −   16 I ) .
+
+La matriu   X   ´ es de dimensi´ o 3   ×   3 per ser la resta de dues matrius d’aquesta mida.
+Convocat` oria 2024   |   1 / 7   |
+
+Matem` atiques II   Model 2
+
+(c)   [4 punts]   Calcula totes les matrius de la forma
+
+A   =
+
+
+
+
+a   1   0
+1   b   0
+0   0   c
+
+
+
+
+que satisfan les condicions de l’enunciat.
+
+Soluci´ o.   Volem que   A ( A   −   3 I ) =   I . Llavors tenim que,
+
+A   −   3 I   =
+
+
+
+
+a   −   3   1   0
+1   b   −   3   0
+0   0   c   −   3
+
+
+   ,
+
+i per tant, s’ha de satisfer que
+
+A ( A   −   3 I ) =
+
+
+
+
+a ( a   −   3) + 1   a   +   b   −   3   0
+
+a   −   3 +   b   1 +   b ( b   −   3)   0
+0   0   c ( c   −   3)
+
+
+   =   I,
+
+per la qual cosa, ´ es necessari que es compleixin les condicions seg¨ uents:
+
+a ( a   −   3) = 0 , a   +   b   = 3 , b ( b   −   3) = 0 , c ( c   −   3) = 1 .
+
+Que fan que les possibles solucions siguin quatre:
+(1)   a   = 0 , b   = 3 , c   = 
+3 +  
+√
+13
+2  
+;   (2)   a   = 0 , b   = 3 , c   = 
+3   − 
+√
+13
+2  
+;
+(3)   a   = 3 , b   = 0 , c   = 
+3 +  
+√
+13
+2  
+;   (4)   a   = 3 , b   = 0 , c   = 
+3   − 
+√
+13
+2  
+.
+
+P3. —   Considerem els punts   A   = (0 ,   0 ,   0),   B   = (2 ,   − 1 ,   3) i   C   = ( − 1 ,   2 ,   1).
+(a)   [3 punts]   Calcula el punt   D   tal que   ABDC   sigui un paral · lelogram.
+
+Soluci´ o.   Notem que, com que   A   ´ es l’origen de coordenades, les coordenades de   D   coincideixen amb les
+del vector   AD , el qual ´ es la suma dels vectors
+⃗
+  AB   i
+⃗
+  AC .
+⃗
+AB   = (2 ,   − 1 ,   3)
+⃗
+AC   = ( − 1 ,   2 ,   1)
+
+→
+⃗
+  AD   =
+⃗
+  AB   +
+⃗
+  AC   = (1 ,   1 ,   4)
+Si no agafen
+⃗
+  AB   i
+⃗
+  AC   com a costats (tot i que l’ordre de les lletres del paral · lelogram aix´ ı ho designa), es
+podria calcular similarment, tot i que les coordenades canviarien.
+Exemple:   Si agafam   ABCD , seria
+⃗
+  AC   =
+⃗
+  AB   +
+⃗
+  AD   →
+⃗
+  AD   =
+⃗
+  AC   −
+⃗
+  AB   = ( − 3 ,   3 ,   − 2).   Per tant,
+⃗
+OD   =
+⃗
+  OA   +
+⃗
+  AD   = ( − 3 ,   3 ,   − 2), que coincideix amb les coordenades de   D .
+(b)   [4 punts]   Calcula un dels punts   E   de l’espai de tal manera que la recta   AE   sigui perpendicular al pla
+
+ABC   i que la dist` ancia entre els punts   A   i   E   sigui 1.
+
+Soluci´ o.   El vector director de la recta   AE   es correspon amb el vector normal del pla   ABC . 
+´
+Es a dir,
+⃗
+d AE   = ⃗ n   ABC   =
+⃗
+i⃗   j⃗   k
+
+2   − 1   3
+
+− 1   2   1
+
+= ( − 7 ,   − 5 ,   3) .
+
+Convocat` oria 2024   |   2 / 7   |
+
+Matem` atiques II   Model 2
+
+Volem que el vector ⃗   d AE   tingui longitud 1. D’aquesta manera, la   dist ( A, E ) = 1. Per tant, el vector que
+cercam ´ es el
+⃗
+AE   =  
+1
+
+√
+83 
+( − 7 ,   − 5 ,   3) .
+
+Ara b´ e, com que ⃗   OE   = ⃗   OA   + ⃗   AE   = ⃗   AE   tenim que les coordenades del punt   E   s´ on
+
+  
+− 7
+√
+83  
+,  
+− 5
+√
+83  
+,  
+3
+√
+83
+
+
+
+.
+(c)   [3 punts]   Escriu l’equaci´ o d’un dels plans paral · lels al pla   ABC   que dista una unitat d’aquest.
+
+Soluci´ o .   El pla que cercam t´ e els mateixos vectors directors que   ABC   i passa pel punt   E   calculat a
+l’apartat anterior. De la mateixa manera, el vector normal coincideix en ambd´ os plans. Per tant:
+L’equaci´ o param` etrica ´ es  
+
+
+
+
+
+
+x   =  
+− 7
+√
+83  
++ 2 λ   −   β,
+y   =  
+− 5
+√
+83  
+−   λ   + 2 β,
+z   =  
+3
+√
+83  
++ 3 λ   +   β.
+
+Com que no s’especifica l’equaci´ o, es pot donar la soluci´ o tamb´ e amb l’equaci´ o impl´ ıcita, que ´ es   − 7 x   −
+
+5 y   + 3 z   +   D   = 0 tal que   D   compleix
+49
+
+√
+83 
++  
+25
+
+√
+83 
++  
+9
+
+√
+83 
++   D   = 0   →  
+83
+
+√
+83 
++   D   = 0   →   D   =   −
+√
+83 ,
+
+i, per tant, l’equaci´ o del pla ´ es   − 7 x   −   5 y   + 3 z   − 
+√
+83 = 0; o fins i tot es pot escollir-ne una altra de diferent
+que tamb´ e sigui v` alida.
+
+P4. —   (a)   [5 punts]   Discuteix, segons els valors de   a   i   b   (par` ametres reals), la posici´ o relativa dels plans
+
+π 1   : 3 x   +   ay   −   z   = 1   i   π 2   : 6 x   +   y   −   2 z   =   b.
+
+´
+Es a dir, si s´ on coincidents, paral · lels o es tallen.   En el darrer cas, especifica si ho fan perpendicular-
+ment.
+
+Soluci´ o.   Els vectors normals de cada pla s´ on, respectivament,
+⃗
+n   1   : (3 , a,   − 1)   i ⃗   n   2   : (6 ,   1 ,   − 2) .
+
+Llavors:
+
+–   π 1 //π 2   si i nom´ es si (3 , a,   − 1) =   k (6 ,   1 ,   − 2), i per tant,   a   = 1 / 2.
+
+–   π 1   i   π 2   s´ on coincidents si   a   = 1 / 2 i, a m´ es,   b   = 2.
+
+–   π 1   ⊥   π 2   si i nom´ es si (3 , a,   − 1)   ·   (6 ,   1 ,   − 2) = 18 +   a   + 2 = 0 i, per tant, si   a   =   − 20.
+
+–   altrament, s´ on secants.
+(b)   [5 punts]   Calcula l’equaci´ o de la recta perpendicular al pla   π   i que passa pel punt de tall entre la recta
+
+s   i el mateix pla   π , sent
+
+π   :
+
+
+
+
+
+x   = 2 + 4 α   −   β,
+y   = 3 β,
+z   = 1 +   α,
+
+i   s   :  
+x   −   1
+2  
+=  
+y
+
+2 
+=  
+z   −   1
+
+− 1  
+,
+
+per a   α   i   β   valors reals qualssevol.
+Convocat` oria 2024   |   3 / 7   |
+
+Matem` atiques II   Model 2
+
+Soluci´ o.   Calculem primer el punt de tall entre   s   i   π . Substituint les equacions de   x, y   i   z   del pla a l’equaci´ o
+de la recta, es t´ e que  
+2 + 4 α   −   β   −   1
+2  
+= 
+3 β
+
+2  
+= 
+1 +   α   −   1
+
+− 1  
+,
+
+i, per conseg¨ uent,   α   =   − 3 / 20 i   β   = 1 / 10. Finalmemt, substituint els seus valors a les equacions del pla,
+obtenim que   x   = 13 / 10,   y   = 3 / 10 i   z   = 17 / 20. Per tant, el punt de tall ´ es
+
+P   =
+
+  
+13
+10  
+,  
+3
+10  
+,  
+17
+20
+
+
+
+.
+
+Per altra banda, calculem el vector normal del pla   π :
+⃗
+n   =
+⃗
+i⃗   j⃗   k
+
+4   0   1
+
+− 1   3   0
+
+= ( − 3 ,   − 1 ,   12) .
+
+Per tant, l’equaci´ o de la recta ´ es  
+
+
+
+
+x   = 13 / 10   −   3 t,
+y   = 3 / 10   −   t,
+z   = 17 / 20 + 12 t.
+
+P5. — [10 punts]   Volem fer una tanca en un camp rectangular emprant diferents materials a cada costat.
+Comen¸ cant pel fons del camp i movent-nos al voltant d’aquest en el sentit contrari a les agulles del rellotge, el
+cost del material per a cada costat ´ es de 6   A C /m , 9   A C /m , 12   A C /m   i 14   A C /m , respectivament. Si hem de gastar
+exactament 1000   A C per comprar el material de tancament, determina les dimensions del camp que maximitzaran
+l’` area tancada.
+
+Soluci´ o.   Siguin   x   i   y   els costats del camp (davant i fons, i dreta i esquerra, respectivament). Notem que   x   i
+
+y   s´ on valors positius (i diferents de 0) ja que es refereixen a longituds. Aleshores,
+
+•   Com que el cost total ha de ser 1000 A C, tenim que 6 x   + 9 y   + 12 x   + 14 y   = 1000, ´ es a dir, 18 x   + 23 y   = 1000,
+d’on   y   = (1000   −   18 x ) / 23.
+
+•   Volem maximitzar l’` area del camp. Sabem que   A   =   xy . Aleshores, volem maximitzar la funci´ o
+
+A ( x ) =   x  
+1000   −   18 x
+
+23  
+= 
+1000
+23  
+x   −  
+18
+23  
+x
+2
+.
+
+Calculem els punts cr´ ıtics de   A ( x ) per veure quin ´ es el m` axim de la funci´ o.
+
+A
+′
+( x ) = 
+1000
+23  
+−  
+36
+23  
+x   = 0   ↔  
+1000
+23  
+= 
+36
+23  
+x   ↔   1000 = 36 x   ↔   x   = 
+250
+9  
+m.
+
+I per tant
+
+y   =
+1000   −   18 
+250
+9
+23  
+= 
+1000   −   500
+23  
+= 
+500
+23  
+m.
+
+Comprovem que es tracta realment d’un m` axim. Per a aix` o poden calcular la segona derivada o mirar el signe
+d’un punt a l’esquerra i un a la dreta de   x :
+
+A
+′′
+
+  
+250
+9
+
+
+
+=   −  
+36
+23
+250
+9  
+<   0 ,
+
+i, per tant, ´ es, en efecte, un m` axim. Aleshores, les dimensions del camp, recorrent-lo tal com diu l’enunciat, s´ on
+
+250
+9  
+m,  
+500
+23  
+m,  
+250
+9  
+m   i  
+500
+23  
+m , respectivament.
+Convocat` oria 2024   |   4 / 7   |
+
+Matem` atiques II   Model 2
+
+P6. —   Sigui la funci´ o
+
+f   ( x ) =
+
+
+
+
+
+b e
+x  
++   a   + 1 ,   x   ≤   0 ,
+ax
+2  
++   b ( x   + 3) ,   0   < x   ≤   1 ,
+a   cos( πx ) + 7 bx,   x >   1 .
+
+(a)   [5 punts]   Calcula els valors de   a   i   b   per als quals la funci´ o   f   ( x ) ´ es cont´ ınua.
+
+Soluci´ o .   Les tres funcions s´ on cont´ ınues per ser sumes i productes de cont´ ınues.   Hem d’imposar que
+tamb´ e sigui cont´ ınua als extrems:
+
+–   Continu¨ ıtat a   x   = 0:  
+l´ ım
+
+x → 0 −  
+b e
+x  
++   a   + 1 =   b   +   a   + 1 ,
+
+l´ ım
+
+x → 0 +  
+ax
+2  
++   b ( x   + 3) = 3 b,
+
+→   b   +   a   + 1 = 3 b   →   a   = 2 b   −   1 .
+
+–   Continu¨ ıtat a   x   = 1:  
+l´ ım
+
+x → 1 −  
+ax
+2  
++   b ( x   + 3) =   a   + 4 b,
+
+l´ ım
+
+x → 1 +
+a   cos( πx ) + 7 bx   =   − a   + 7 b,
+
+→   a   + 4 b   =   − a   + 7 b   →   2 a   = 3 b
+
+Per tant, hem de resoldre.
+
+a   = 2 b   −   1 ,
+
+2 a   = 3 b   →   4 b   −   2 = 3 b   →   b   = 2;   a   = 3 .
+
+(b)   [5 punts]   Siguin   a   = 3 i   b   = 2, calcula l’` area compresa entre   x   =   − 1,   x   = 0 i l’eix   OX .
+
+Soluci´ o.   La funci´ o definida en aquest interval de   x   ´ es   f 1 ( x ) = 2e
+x  
++ 4, la qual ´ es sempre creixent i positiva
+(funci´ o exponencial m´ es una constant positiva). Per tant,
+
+Z  
+0
+
+− 1
+
+2e
+x  
++ 4 dx   = [2e
+x  
++ 4 x ]
+0
+
+− 1  
+= (2 + 0)   −   (2e
+− 1  
+−   4) = 2   −   2e
+− 1  
++ 4 =   − 2e
+− 1  
++ 6 .
+
+Per tant, l’` area ´ es   − 2e
+− 1  
++ 6   u
+2  
+(5 . 2642   u
+2
+).
+
+P7. —   Siguin   A   i   B   dos successos d’un mateix espai mostral tals que satisfan que   P   ( A ∪ B ) = 0 . 7,   P   ( A ∩ B ) = 0 . 1
+i   P   ( A   ∩   B
+c
+) = 0 . 35 (sent   B
+c  
+el succ´ es complementari de   B ), calcula:
+(a)   [3 punts]   P   ( A ).
+(b)   [3 punts]   P   ( B ).
+(c)   [2 punts]   P   ( A
+c  
+∪   B
+c
+).
+(d)   [2 punts]   S´ on   A   i   B   successos independents?
+
+Soluci´ o.
+
+(a)   P   ( A ) =   P   ( A   ∩  
+¯
+B ) +   P   ( A   ∩   B ) = 0 . 45,
+(b)   P   ( B ) =   P   ( A   ∪   B )   −   P   ( A ) +   P   ( A   ∩   B ) = 0 . 35,
+(c)   P   (  ¯ A   ∪   ¯ B ) = 1   −   P   ( A   ∩   B ) = 0 . 9,
+(d)   P   ( B/A ) =  
+P   ( A   ∩   B )
+
+P   ( A )  
+=  
+0 . 1
+0 . 45 
+=  
+1
+45
+̸
+ 
+=   P   ( B ). No s´ on independents.
+Convocat` oria 2024   |   5 / 7   |
+
+Matem` atiques II   Model 2
+
+P8. —   La durada dels embarassos humans des de la concepci´ o fins al naixement s’aproxima a una distribuci´ o
+normal amb una mitjana de 266 dies i una desviaci´ o t´ ıpica de 16 dies.
+(a)   [4 punts]   Quina proporci´ o de tots els embarassos durar` a entre 240 i 270 dies (aproximadament entre 8 i
+9 mesos)?
+
+Soluci´ o.
+
+P   (240   < X <   270) =   P
+
+  
+240   −   266
+16  
+< Z <  
+270   −   266
+16
+
+
+
+=
+
+P   ( − 1 . 625   < Z <   0 . 25) =   P   ( Z <   0 . 25)   −   1 +   P   ( Z <   1 . 6) = 0 . 5987   −   1 + 0 . 9484 = 0 . 5471 .
+
+(b)   [6 punts]   Si ens fixam en el 70% dels embarassos que m´ es duren, quina ´ es la seva durada?
+
+Soluci´ o.
+
+P   ( X > k ) = 1   −   P
+
+
+
+Z < 
+k   −   266
+16
+
+
+
+= 0 . 70   →   P
+
+
+
+Z < 
+k   −   266
+16
+
+
+
+= 0 . 3 .
+
+Per tant, hem de cercam a la taula el valor   α   tal que   P   ( Z < α ) = 0 . 3, el que ´ es equivalent a cercar   α   tal
+que   P   ( Z <   − α ) = 0 . 7.
+Mirant a la taula tenim que 0 . 52 correspon a 0 . 6985 i 0 . 53 correspon a 0 . 7019.   Interpolant tenim que
+
+α   =   − 0 . 5244 ´ es el valor que correspon a una probabilitat de 0 . 3. Els alumnes poden emprar tant el valor
+interpolat com el valor central 0 . 525. Aleshores,
+
+–   emprant el punt mitj` a:  
+k   −   266
+16  
+=   − 0 . 525   →   k   = 257 . 6 dies .
+
+–   emprant el punt interpolat:
+
+k   −   266
+16  
+=   − 0 . 5244   →   k   = 257 . 61 dies .
+
+Resposta: Duren m´ es de 257 . 6 dies.
+Convocat` oria 2024   |   6 / 7   |
+
+Matem` atiques II   Model 2
+
+Taula de la distribuci´ o normal   N   (0 ,   1).
+Convocat` oria 2024   |   7 / 7   |
+

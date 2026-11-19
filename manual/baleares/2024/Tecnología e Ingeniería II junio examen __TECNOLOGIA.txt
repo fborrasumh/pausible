@@ -1,0 +1,175 @@
+[Fuente: https://estudis.uib.cat/models-examen/examen/pbau/2024:JUNY:TECNOLOGIA-Enunciat/Enunciat-TECNOLOGIA-JUNY-2024.pdf]
+Convocatòria 2024
+
+Responeu a 4 de les 6 activitats proposades. Totes les activitats tenen la
+
+mateixa puntuació, que és 2.5 punts.
+
+I mport a n t:   Els alumnes poden tenir un formulari amb 50 fórmules que
+
+hauran d'entregar juntament amb l'examen .
+
+Activitat 1
+
+1.   Disposam d’un sistema de quatre polsadors que ens serviran per posar
+
+en marxa un motor. Aquests polsadors generen un senyal digital cada
+
+un ( a,b,c   i   d ,   respectivament) que val 1 si estan activats i 0 si estan
+
+desactivats. Es vol dissenyar un circuit digital que a partir d’aquestes
+
+entrades ens proporcioni un senyal de sortida   out   que ens indiqui si el
+
+motor ha d’estar en marxa ( out =1) o aturat ( out =0). El motor ha d’estar
+
+en marxa si dos o més interruptors estan activats.
+
+a)   Representa la taula de veritat. ( 0.5   pun ts)
+
+b)   Escriu la f unció lògica no simplificada. (0.5   punt s )
+
+c)   Representa   el   mapa   de   Karnaugh   i   simplifica   la   funció   lògica.
+
+(1 punt)
+
+d)   Implementa el circuit amb portes AND, OR i NOT. ( 0.5   punt s )
+
+Activitat 2
+
+2.   Calcula la funció de transferència G=output/input pe r a l sistema de
+
+control representat per la figura següent.   (2.5 punts)
++   +
++ -  
++  
+-
+
+A 1   A 2   A 3
+
+A 4
+
+A 5
+
+input  
+output
+
+Convocatòria 2024
+
+Activi tat   3
+
+3.   A l   circuit de la figura, considerant R=20  , C=200  F, L=75mH i V una
+
+tensió de 230   V eficaços i freqüència 50 Hz, calcula:
+
+a)   Impedància total connectada .   (0.5 punts)
+
+b)   Intensitat I del circuit .   (0.5 punts)
+
+c)   Valors eficaços de V 1 , V 2   i V 3 .   (0.75   punts)
+
+d)   Potències activa, reactiva i aparent.   (0.75 punts)
++
+
+V
+
+R
+
+L
+
+C
+
++   V
+1  
+-  
++
+
+V
+3
+
+-
+
+I
+
++   V
+2  
+-
+
+Activi tat   4
+
+4.   A   la biga   dibuixada , si F 1 =20000N i F 2 =40000N,   es demana:
+
+a)   Calcula les forces de reacció dels suports de la biga . (1 punt)
+
+b)   Representa els diagrames dels moments flectors i dels esforços
+
+tallants   i   indica els valors representatius als eixos dels diagrames.
+
+(1 punt)
+
+c)   Considerant   que   F 1 =20000   N, si el suport de la dreta pot   exercir
+
+una reacció màxima de 50000   N, quin a   és la força F 2   màxi ma que es
+
+pot aplicar a la biga?   Què val la reacció al suport de l’esquerra?
+
+(0.5 punts)
+10 m   5 m   5 m
+
+F 1   F 2
+
+Convocatòria 2024
+
+Activitat 5
+
+5.   En un assaig de Brinell s’obté un valor de duresa de 400 HB. Si s’ha
+
+aplicat una càrrega de 500 kg i el radi del penetrador és de 3   mm,
+
+a)   Calcula l’amplada ( d)   de l’empremta. (1 punt)
+
+b)   Calcula la profunditat   ( f )   de l’empremta. (1 punt)
+
+c)   Quin és l’objectiu d’un assaig de resiliència   (o assaig de Charpy) ?
+
+(0.5 punts)
+
+Activitat 6
+
+6.1 .   A   la premsa hidràulica de la   F igura 1 ,   la superfície de la zona C és
+
+de 0.7   m
+2
+, la de la zona B   és   de 0.5   m
+2  
+i la de la zona A   és   de 0.2   m
+2
+.
+
+a)   Si aplicam   una força de 100   N   damunt   la superfície C, quina força
+
+es transmet a la zona B, i quina a la zona A? (0.5 punts)
+
+b)   Si ara aplicam aquesta força   damunt   la superfície   B, quina força es
+
+transmet a la zona C i a la zona A? (0.5 punts)
+
+c)   En la   situació de l’apartat a, quina hauria de ser la superfície de la
+
+zona A per poder elevar un cos de 5   kg de massa? (0.5 punts)
+
+6.2 .   A   la canonada de secc ió circular que es mostra a la F igura 2 , e l
+
+diàmetre a A 1   és de 0.2   m i a A 2   és   de 0.1   m. El cab al a A 1   és de 20 0
+
+litres/min. Determina la velocitat del fluid a A 1   i   a A 2 , i el ca b al a A 2 .
+
+(1 punt)
+A   B  
+C
+
+Figura 1
+A 1   A 2
+ 
+Figura 2
+

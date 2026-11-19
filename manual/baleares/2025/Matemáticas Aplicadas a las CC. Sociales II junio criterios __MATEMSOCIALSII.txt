@@ -1,0 +1,679 @@
+[Fuente: https://estudis.uib.cat/models-examen/examen/pbau/2025:JUNY:MATEMSOCIALSII-Criteris/Criteris-MATEMSOCIALSII-JUNY-2025.pdf]
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 2
+
+Criteris de correcci´ o globals
+
+•   Les respostes a les preguntes o tasques s’han de realitzar expressant de forma raonada el proc´ es
+seguit per resoldre-les, amb el rigor i la precisi´ o necessaris, usant el llenguatge, la notaci´ o i els
+s´ ımbols matem` atics adequats, i utilitzant arguments, justificacions, explicacions i raonaments
+expl´ ıcits i coherents.   Es valorar` a el grau d’acompliment amb un m` axim de 0,25 punts cada
+exercici.
+– Els errors de c` alcul es penalitzaran amb un 25%; els errors greus i/o que portin a resultats
+incoherents o absurds, amb un 50%.
+– En preguntes mec` aniques o de c` alcul no justificades, amb el 30%-50%; en preguntes de
+justificar, una resposta sense cap justificaci´ o s’ha de penalitzar amb el 100%.
+– En qualsevol pregunta, si apareixen raonaments (que no s´ on clars/evidents) sense justificar,
+amb el 20%-30%.
+– La imprecisi´ o en l’´ us del llenguatge matem` atic (p. ex. variables sense introduir/que canvien
+de significat), o la falta de claredat per abs` encia de llenguatge matem` atic, amb un 20%-30%.
+– L’estructura s’ha de penalitzar en funci´ o de la dificultat per entendre la resposta.
+
+•   La simple descripci´ o del plantejament, sense que es dugui a terme la resoluci´ o de manera efectiva,
+no ´ es suficient per obtenir una valoraci´ o completa de la pregunta o tasca.
+
+•   En les preguntes o tasques en qu` e es demani expressament una deducci´ o raonada, la simple
+aplicaci´ o d’una f´ ormula no ser` a suficient per obtenir-ne una valoraci´ o completa.
+
+•   Els errors comesos en una pregunta o tasca (per exemple, en el c` alcul del valor d’un cert
+par` ametre) no es tindran en compte en la qualificaci´ o dels desenvolupaments posteriors que
+puguin veure’s afectats, sempre que resultin d’una complexitat equivalent.
+
+•   Els errors en les operacions aritm` etiques elementals es penalitzaran amb un m` axim de 0,25 punts
+en cada pregunta o tasca
+
+•   Si l’alumne presenta m´ es problemes que els demanats, corregiu-ne els que apareixen primer.
+
+Criteris de correcci´ o espec´ ıfics
+
+Nom´ es es detallen els apartats en qu` e hi ha diverses preguntes o que es poden desglossar. En apartats
+on s’omet el criteri de correcci´ o espec´ ıfic, aquest ser` a simplement “C` alcul i/o justificaci´ o correcta”. Si
+no est` a indicat, tots els apartats d’una mateixa pregunta tenen la mateixa valoraci´ o.
+Convocat` oria 2025   |   1 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 2
+
+No es permet l’´ us de calculadores gr` afiques ni programables, ni de dispositius que puguin transmetre
+o emmagatzemar informaci´ o. Es poden usar regles i bol´ ıgrafs de colors (excepte vermell i verd).
+
+Part A.   Contestau el problema A1, i contestau tamb´ e un problema a escollir entre el problema
+A2 i el problema A3 (total 4 pt).
+
+Problema A1 (obligatori). —   A la loteria de Nadal, el n´ umero guanyador de la grossa ´ es un ´ unic
+n´ umero de 5 xifres. Tots els n´ umeros tenen la mateixa probabilitat de resultar guanyadors. Considera
+els seg¨ uents esdeveniments:
+–   A : el n´ umero guanyador el Nadal de 2025 ser` a el 00000.
+–   B : el n´ umero guanyador el Nadal de 2025 ser` a el 72480.
+–   C : el n´ umero guanyador el Nadal de 2026 ser` a el 72480.
+a) Expressa, amb les teves pr` opies paraules, qu` e volen dir els dos termes seg¨ uents:   P   ( C   |   B ), i
+
+P   ( A   ∩   B ).
+
+Criteris:   No penalitzar si s’expressa en termes d’ A   i   B .   (Total   1 pt)
+
+Soluci´ o.   Els termes s´ on:
+–   P   ( C   |   B ): Probabilitat que el Nadal de 2026 el n´ umero guanyador sigui el 72480, sabent
+que aquest mateix n´ umero tamb´ e ha estat el guanyador el proper Nadal de 2025.
+–   P   ( A   ∩   B ): Probabilitat que el n´ umero guanyador el proper Nadal de 2025 sigui el 00000 i
+tamb´ e sigui el 72480.
+b) Calcula   P   ( C   |   B ) i   P   ( A   ∩   B ).
+
+Criteris:   0.5 pts per cada c` alcul.   Penalitzaci´ o amb -0.25 pts si no es justifica el c` alcul.
+Penalitzaci´ o amb -0.25 pts si es considera 99999 per al nombre de casos totals, i penalitzaci´ o
+amb -0.5 pts per qualsevol altre valor incorrecte.   (Total   1 pt)
+
+Soluci´ o.   En el primer cas, els esdeveniments s´ on independents, aix´ ı que, per la llei de Laplace,
+
+P   ( C   |   B ) =   P   ( C ) = 
+# Casos favorables
+# Casos totals  
+=  
+1
+100000 
+= 0 . 00001 .
+
+En el segon cas, els esdeveniments s´ on incompatibles, aix´ ı que   P   ( A   ∩   B ) = 0.
+Convocat` oria 2025   |   2 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 2
+
+Problema A2. —   L’Institut Nacional d’Estad´ ıstica (INE) disposa de les dades, per al 2023, sobre
+la quantitat d’habitants totals i la quantitat de treballadors per nacionalitat i sexe a Espanya, que s´ on
+les seg¨ uents:
+Espanyols   Estrangers
+Homes   20.6 milions   3.0 milions
+Dones   21.2 milions   3.3 milions
+Quantitat d’habitants total.
+Espanyols   Estrangers
+Homes   10.8 milions   1.9 milions
+Dones   9.6 milions   1.7 milions
+Quantitat de treballadors.
+a) Escollint un home a l’atzar, quina ´ es la probabilitat que treballi?
+
+Criteris:   Penalitzaci´ o amb -0.5 pts si no es justifica el c` alcul.   (Total   1 pt)
+
+Soluci´ o.   Considerem els esdeveniments seg¨ uents:
+–   H : ser home.
+–   T   : treballar.
+Per la llei de Laplace,
+
+P   ( T   |   H ) = 
+# Homes que treballen
+# Homes  
+= 
+10 . 8 + 1 . 9
+20 . 6 + 3  
+= 0 . 538
+b) Escollint un individu a l’atzar, els esdeveniments “ser dona” i “treballar” s´ on independents?
+
+Criteris:   0.25 pts per plantejar, 0.75 pts per calcular. Penalitzaci´ o amb -0.25 pts si no indica
+en cap c` alcul llei de Laplace o casos favorables/casos totals.   (Total   1 pt)
+
+Soluci´ o.   Considerem els esdeveniments seg¨ uents:
+–   D : ser dona.
+–   T   : treballar.
+Per la llei de Laplace, i tenint en compte que hi ha 48.1 milions d’habitants,
+
+
+
+
+
+
+
+
+
+
+
+P   ( D ) =  
+# Dones
+# Habitants  
+=  
+21 . 2+3 . 3
+48 . 1  
+= 0 . 509 ,
+P   ( T   ) =  
+# Treballadors
+# Habitants  
+=  
+10 . 8+1 . 9+9 . 6+1 . 7
+48 . 1  
+= 0 . 499 .
+P   ( D   ∩   T   ) =  
+# Dones treballadores
+# Habitants  
+=  
+9 . 6+1 . 7
+48 . 1  
+= 0 . 235 .
+
+Els esdeveniments no s´ on independents ja que
+
+P   ( D )   ·   P   ( T   ) ̸   =   P   ( D   ∩   T   ) ,
+
+0 . 509   ·   0 . 499 ̸   =   0 . 235 .
+
+Convocat` oria 2025   |   3 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 2
+
+Problema A3. —   Despr´ es d’una formaci´ o acad` emica determinada, el temps que tarden els titulats
+a trobar feina el podem aproximar mitjan¸ cant una variable aleat` oria   X   que segueix una distribuci´ o
+normal de mitjana poblacional   μ   desconeguda, i desviaci´ o t´ ıpica   σ   = 30 dies. Respecte dels 22 titulats
+d’enguany, el nombre mitj` a de dies que han tardat a trobar feina ha estat de 86.
+Calcula un interval de confian¸ ca per a la mitjana poblacional   μ   amb un nivell de confian¸ ca del
+80%.
+
+Criteris:   0.5 pt per calcular   z α/ 2 , 1.5 pt per calcular l’interval. No penalitzar si s’utilitza el valor
+
+z α/ 2   m´ es proper o interpolat. Penalitzaci´ o amb -0.5 pts si s’utilitza el valor de   z α/ 2   sense justificar.
+Penalitzaci´ o amb -0.25 pts si utilitzen el valor   z α/ 2   = 1 . 29. Penalitzaci´ o amb -0.25 pts si no s’indica
+la f´ ormula de l’interval. Penalitzaci´ o amb -0.25 pts per cada error d’arrodoniment.   (Total   2 pt)
+
+Soluci´ o .   Per a un nivell de confian¸ ca del 80%, el nivell de significaci´ o ´ es   α   = 0 . 2.   Per tant,
+
+α/ 2 = 0 . 10 i   z α/ 2   = 1 . 285.   Amb les dades de l’enunciat ( n   = 22,   x   = 86,   σ   = 30), podem calcular
+l’interval demanat com a:
+
+
+
+x   −   z α/ 2   ·  
+σ
+
+√
+n 
+, x   +   z α/ 2   ·  
+σ
+
+√
+n
+
+
+
+= (77 . 78 ,   94 . 22)   .
+
+Convocat` oria 2025   |   4 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 2
+
+Part B.   Escolliu nom´ es un problema d’aquesta part (total 3 pt).
+
+Problema B1. —   Considera:
+
+A   =
+
+
+
+
+1   0   0
+5   4   1
+5   3   1
+
+
+   ,   B   =
+
+
+
+
+1   0   0
+0   1   − 1
+
+− 5   − 3   4
+
+
+   ,   v   =
+
+
+
+
+1
+
+− 1
+5
+
+
+   .
+
+a) 
+´
+Es cert que   A   =   B
+− 1
+? 
+´
+Es cert que   B   =   A
+− 1
+?
+
+Criteris:   Penalitzaci´ o amb -0.25 pt si es respon nom´ es a una de les dues q¨ uestions. Penalitzaci´ o
+amb -1 pt si es calcula la inversa amb calculadora.   (Total   1 pt)
+
+Soluci´ o.   Per comprovar-ho, les multiplicam:
+
+A   ·   B   =
+
+
+
+
+1   0   0
+5   4   1
+5   3   1
+
+
+   ·
+
+
+
+
+1   0   0
+0   1   − 1
+
+− 5   − 3   4
+
+
+   =
+
+
+
+
+1   0   0
+0   1   0
+0   0   1
+
+
+   = I .
+
+Per tant,   B   · A   = I, i podem dir que ambdues igualtats s´ on certes:   A   =   B
+− 1  
+i, per tant,   B   =   A
+− 1
+.
+b) Calcula   x   tal que   Ax   =   v .
+
+Criteris:   Penalitzaci´ o amb -1 pt per errors a¨ ıllant a l’equaci´ o matricial. Penalitzaci´ o amb -0.25
+pts per cada error de c` alcul num` eric.   (Total   1 pt)
+
+Soluci´ o.   Ens demanen calcular el vector   x   = ( x 1 , x 2 , x 3 )
+t  
+tal que
+
+
+
+
+1   0   0
+5   4   1
+5   3   1
+
+
+   ·
+
+
+
+
+x 1
+
+x 2
+
+x 3
+
+
+   =
+
+
+
+
+1
+
+− 1
+5
+
+
+   .
+
+Podem resoldre el problema pel m` etode de Gauss, per` o ´ es m´ es senzill utilitzar l’apartat anterior:
+
+Ax   =   v   = ⇒   x   =   A
+− 1
+v   = ⇒   x   =   Bv   = ⇒
+
+
+
+
+x 1
+
+x 2
+
+x 3
+
+
+   =
+
+
+
+
+1
+
+− 6
+18
+
+
+   .
+
+c) Amb el valor de   x   de l’apartat anterior, calcula   y   tal que   B
+2
+y   =   x .
+
+Criteris:   Penalitzaci´ o amb -1 pt per errors a¨ ıllant a l’equaci´ o matricial. Penalitzaci´ o amb -0.25
+pts per cada error de c` alcul num` eric.   (Total   1 pt)
+
+Soluci´ o.   De nou, ´ es m´ es senzill utilitzar els apartats anteriors:
+
+B
+2
+y   =   x   = ⇒   A   ·   B
+2
+y   =   Ax   = ⇒   I   ·   By   =   v   = ⇒   By   =   v   = ⇒   y   =   Av   = ⇒
+
+
+
+
+y 1
+
+y 2
+
+y 3
+
+
+   =
+
+
+
+
+1
+6
+7
+
+
+   .
+
+Convocat` oria 2025   |   5 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 2
+
+Problema B2. —   Per organitzar un esdeveniment social, volem contractar el transport amb una
+empresa que ens ofereix autocars i minibusos.
+– Cada autocar t´ e una capacitat de 50 viatgers i t´ e un preu de 100   A C .
+– Cada minib´ us t´ e una capacitat de 30 viatgers i t´ e un preu de 55   A C .
+Podem contractar tants autocars com vulguem, i fins a 8 minibusos. Per limitacions en el nombre de
+conductors, nom´ es podem contractar 11 vehicles. Si volem assegurar el transport per a almenys 450
+persones, quina ´ es la combinaci´ o m´ es avantatjosa i quin cost t´ e?
+
+Criteris:   0.5 pts per plantejar (0.1 pt/recta).   0.5 pts per indicar la funci´ o objectiu.   1 pt per
+tra¸ car les rectes i indicar la regi´ o factible (penalitzar amb -0.5 pts per cada recta incorrectament
+tra¸ cada). 0.5 pts per calcular els v` ertexs (penalitzar amb -0.25 pts per cada v` ertex incorrecte). 0.5 pts
+per calcular el v` ertex corresponent al m´ ınim i interpretar-lo. Penalitzaci´ o amb -3 pt si les variables
+s´ on incorrectes. Penalitzaci´ o amb -0.25 pts si no es descriuen les variables.
+
+(Total   3 pt)
+
+Soluci´ o.   Siguin   a   el nombre d’autocars i   b   el nombre de minibusos que contractarem. La funci´ o
+a minimitzar ser` a   f   ( a, b ) = 100 a   + 55 b . D’acord amb l’enunciat,
+
+
+
+
+
+
+
+
+
+a   ≥   0 ,
+
+0   ≤   b   ≤   8 ,
+a   +   b   ≤   11 ,
+
+50 a   + 30 b   ≥   450 ,
+
+= ⇒
+
+
+
+
+
+
+
+
+
+
+
+
+
+(1)   a   ≥   0 ,
+
+(2)   b   ≥   0 ,
+
+(3)   b   ≤   8 ,
+
+(4)   a   +   b   ≤   11 ,
+
+(5)   5 a   + 3 b   ≥   45 .
+
+Amb aquestes rectes tra¸ cam la seg¨ uent regi´ o factible:
+Convocat` oria 2025   |   6 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 2
+
+On els v` ertexs s´ on els punts   A   = (9 ,   0),   B   = (11 ,   0) i el punt d’intersecci´ o de les rectes (4) i
+(5),   C   = (6 ,   5).   Avaluant la funci´ o objectiu, s’observa que el m´ ınim es dona en el v` ertex   C , amb
+
+f   (6 ,   5) = 875. 
+´
+Es a dir, que la combinaci´ o m´ es avantatjosa ´ es contractar 6 autocars i 5 minibusos, per
+un preu de 875   A C .
+Convocat` oria 2025   |   7 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 2
+
+Part C.   Escolliu nom´ es un problema d’aquesta part (total 3 pt).
+
+Problema C1. —   Considera la funci´ o   f   ( x ) =   x
+3  
+−   3 x
+2
+, per a   x   ∈   [ − 1 ,   ∞ ).
+a) Fes una gr` afica esquem` atica de la funci´ o   f   ( x ). Calcula o justifica i indica sobre la gr` afica el valor
+de la funci´ o en els extrems del domini, els intervals de creixement i decreixement, i els m` axims
+i m´ ınims relatius i absoluts.
+
+Criteris:   0.5 pt per indicar els valors en els extrems del domini.   0.5 pt per indicar els
+intervals de creixement/decreixement. 0.75 pt per indicar els m` axims/m´ ınims relatius i absoluts
+(penalitzar amb -0.25 pts si no indiquen quins s´ on els m` axims o m´ ınims absoluts). 0.25 pt per
+la claredat/correcci´ o de la gr` afica i els eixos.   (Total   2 pt)
+
+Soluci´ o.   El domini ´ es   x   ∈   [ − 1 ,   ∞ ) per l’enunciat.
+En els extrems del domini,
+
+f   ( − 1) =   − 1
+3  
+−   3   ·   ( − 1)
+2  
+=   − 4 ,   l´ ım
+
+x →∞
+f   ( x ) = l´ ım
+
+x →∞
+x
+2  
+·   ( x   −   3) = + ∞ .
+
+Pels intervals de creixement i decreixement,   f  
+′
+( x ) = 3 x
+2  
+−   6 x , que s’anul · la a
+
+f  
+′
+( x ) = 0   = ⇒   3   ·   x   ·   ( x   −   2) = 0   = ⇒
+
+  
+x   = 0 ,
+x   = 2 .
+
+Amb el valor de la funci´ o en els punts d’inter` es,
+
+
+
+
+
+
+
+
+
+
+
+f   ( − 1)   =   − 4
+
+f   (0)   =   0
+
+f   (2)   =   − 4
+l´ ım
+
+x →∞
+f   ( x )   =   + ∞
+
+= ⇒
+
+
+
+
+
+f   ( x )   ´ es creixent per a   x   ∈   ( − 1 ,   0) ,
+f   ( x )   ´ es decreixent per a   x   ∈   (0 ,   2) ,
+f   ( x )   ´ es creixent per a   x   ∈   (2 ,   + ∞ ) .
+
+Per tant, t´ e un m` axim relatiu,   f   (0) = 0; un m´ ınim relatiu,   f   (2) =   − 4; el m´ ınim absolut s’assoleix
+a   x   =   − 1 i a   x   = 2; i no t´ e m` axim absolut.
+La gr` afica demanada ´ es la seg¨ uent:
+Convocat` oria 2025   |   8 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 2
+
+b) Sobre la mateixa gr` afica, tra¸ ca la recta tangent a la funci´ o en el punt   x   = 1. Quin ´ es el valor
+del seu pendent?
+
+Criteris:   0.5 pt per calcular el pendent, 0.5 pt per tra¸ car la recta.   (Total   1 pt)
+
+Soluci´ o.   El seu pendent ve donat per   f  
+′
+(1) = 3   ·   1
+2  
+−   6   ·   1 =   − 3.
+Sobre la gr` afica, la representaci´ o ´ es
+
+Convocat` oria 2025   |   9 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 2
+
+Problema C2. —   En psicologia, la funci´ o seg¨ uent modela com les persones valoren recompenses en
+un instant de temps futur,   t :
+
+V   ( t ) =  
+1
+(1 +   r )
+t  
+,   t   ∈   [0 ,   + ∞ ) ,
+
+on   r   ´ es una constant positiva, i   t   es mesura en dies.
+a) Si   r   = 0 . 01, qu` e val la funci´ o   V   ( t ) a   t   = 50?
+
+Criteris:   0.5 pt per plantejar, 0.5 pt per calcular.   Penalitzaci´ o amb -0.5 pts per errors de
+c` alcul. Penalitzaci´ o amb -0.25 pts per cada error d’arrodoniment.   (Total   1 pt)
+
+Soluci´ o.
+
+V   (50) =  
+1
+(1 + 0 . 01)
+50  
+= 0 . 61 .
+
+b) Per a quin valor de   r , la funci´ o   V   ( t ) val 0.75 a   t   = 50?
+
+Criteris:   0.25 pt per plantejar, 0.75 pt per calcular. Penalitzaci´ o amb -0.25 pt per cada error
+de c` alcul. Penalitzaci´ o amb -0.25 pts per cada error d’arrodoniment.   (Total   1 pt)
+
+Soluci´ o.   Ens demanen resoldre   r   per a:
+0 . 75 =   V   (50) =  
+1
+(1 +   r )
+50  
+.
+
+Operant,
+(1 +   r )
+50  
+=  
+1
+0 . 75  
+= ⇒   (1 +   r ) =
+
+  
+1
+0 . 75
+
+
+1 / 50
+
+= ⇒   r   =
+
+  
+1
+0 . 75
+
+
+1 / 50
+
+−   1   = ⇒   r   ≈   0 . 0058 .
+
+c) Si   r   = 0 . 03, a quin valor tendeix la valoraci´ o d’una recompensa en un futur molt lluny` a?
+
+Criteris:   0.5 pt per plantejar, 0.5 pt per calcular. Penalitzaci´ o amb -0.5 pts si no es justifica
+el c` alcul.   (Total   1 pt)
+
+Soluci´ o.   La tend` encia en un futur molt lluny` a ve donada pel l´ ımit d’aquesta funci´ o quan   t
+
+tendeix a infinit:
+l´ ım
+
+t →∞
+V   ( t ) = l´ ım
+
+t →∞
+
+1
+(1 + 0 . 03)
+t  
+=  
+1
+
+∞  
+= 0 .
+
+´
+Es a dir, el valor de la recompensa tendeix a zero.
+Convocat` oria 2025   |   10 / 11   |
+
+Matem` atiques Aplicades a les Ci` encies Socials II   Model 2
+
+Taula de la distribuci´ o normal   N   (0 ,   1).
+Convocat` oria 2025   |   11 / 11   |
+

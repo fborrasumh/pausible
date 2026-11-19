@@ -1,0 +1,667 @@
+[Fuente: https://estudis.uib.cat/models-examen/examen/pbau/2025:JUNY:MATEMATIQUESII-Criteris/Criteris-MATEMATIQUESII-JUNY-2025.pdf]
+Matem` atiques II   Model 2
+
+Criteris de correcci´ o globals
+
+•   Les respostes a les preguntes o tasques s’han de realitzar expressant de forma raonada el proc´ es
+seguit per resoldre-les, amb el rigor i la precisi´ o necessaris, usant el llenguatge, la notaci´ o i els
+s´ ımbols matem` atics adequats, i utilitzant arguments, justificacions, explicacions i raonaments
+expl´ ıcits i coherents.   Es valorar` a el grau d’acompliment amb un m` axim de 0 ,   25 punts cada
+exercici.
+– Els errors de c` alcul es penalitzaran amb un 25%; els errors greus i/o que portin a resultats
+incoherents o absurds, amb un 50%.
+– En preguntes mec` aniques o de c` alcul no justificades, amb el 30%-50%; en preguntes de
+justificar, una resposta sense cap justificaci´ o s’ha de penalitzar amb el 100%.
+– En qualsevol pregunta, si apareixen raonaments (que no s´ on clars/evidents) sense justificar,
+amb el 20%-30%.
+– La imprecisi´ o en l’´ us del llenguatge matem` atic (p. ex. variables sense introduir/que canvien
+de significat), o la falta de claredat per abs` encia de llenguatge matem` atic, amb un 20%-30%.
+– L’estructura s’ha de penalitzar en funci´ o de la dificultat per entendre la resposta.
+
+•   La simple descripci´ o del plantejament, sense que es dugui a terme la resoluci´ o de manera efectiva,
+no ´ es suficient per obtenir una valoraci´ o completa de la pregunta o tasca.
+
+•   En les preguntes o tasques en qu` e es demani expressament una deducci´ o raonada, la simple
+aplicaci´ o d’una f´ ormula no ser` a suficient per obtenir-ne una valoraci´ o completa.
+
+•   Els errors comesos en una pregunta o tasca (per exemple, en el c` alcul del valor d’un cert
+par` ametre) no es tindran en compte en la qualificaci´ o dels desenvolupaments posteriors que
+puguin veure’s afectats, sempre que resultin d’una complexitat equivalent.
+
+•   Si l’alumne presenta m´ es problemes que els demanats, corregiu-ne els que apareixen primer.
+
+Criteris de correcci´ o espec´ ıfics
+
+Nom´ es es detallen els apartats en qu` e hi ha diverses preguntes o que es poden desglossar. En apartats
+on s’omet el criteri de correcci´ o espec´ ıfic, aquest ser` a simplement “C` alcul i/o justificaci´ o correcta”. Si
+no est` a indicat, tots els apartats d’una mateixa pregunta tenen la mateixa valoraci´ o.
+
+Part A.
+Problema A1. —   Soluci´ o.
+
+a) Notem que el punt inicial del dispositiu, despr´ es de submergir-lo, ´ es el (0 ,   0 ,   − 315). Cercam un
+punt ( a, b, c ) tal que ha de pert` anyer a la recta que ens donen i el m` odul del vector ( a   −   0 , b   −
+
+0 , c   + 315) ha de ser 37   m .
+Manera 1: Sabem que el dispositiu assoleix la profunditat desitjada, ´ es a dir,   z   =   − 350   m .   A
+m´ es,   a   = 0, per pert` anyer a la recta. Llavors ens falta trobar   b   tal que 50 b   + 12   ·   ( − 350) =   − 3780,
+Convocat` oria 2025   |   1 / 8   |
+
+Matem` atiques II   Model 2
+
+d’on trobam que   b   = 12 i per tant, la posici´ o que cercam ´ es la (0 ,   12 ,   − 350).
+Manera 2: Hem d’imposar les dues condicions esmentades. 
+´
+Es a dir, hem de resoldre el sistema
+
+
+
+
+
+a   = 0 ,
+
+35 b   + 12 c   =   − 3780 ,
+a
+2  
++   b
+2  
++ ( c   + 315)
+2  
+= 37
+2
+,
+
+d’on s’obt´ e el resultat desitjat.
+(b) Volem mantenir-lo a   − 350   m   de profunditat, llavors el pla ´ es   z   =   − 350 ( x, y   lliures).
+(c) Hem de calcular la intersecci´ o entre el pla   z   =   − 350 i la recta proporcionada per l’enunciat. Per
+tant, cercam la intersecci´ o de
+
+
+
+
+
+x   = 5 + 4 λ,
+y   = 10 +   λ,
+z   =   − 380 + 10 λ,
+
+i
+
+
+
+
+
+x   =   β,
+y   =   γ,
+z   =   − 350 ,
+
+d’on tenim que  
+
+
+
+
+β   = 5 + 4 λ,
+γ   = 10 +   λ,
+
+− 350 =   − 380 + 10 λ.
+
+Resolent el sistema, tenim que aquest t´ e soluci´ o (podrien xocar), la qual ´ es   λ   = 3 , γ   = 13 i
+
+β   = 19. Per tant, el dispositiu podria xocar amb l’objecte en el punt (17 ,   13 ,   − 350). Punt que
+hauria d’evitar el dispositiu.
+
+Criteris:
+
+(a)   [1 punt]   0 . 5 punts per plantejar b´ e el problema a resoldre i 0 . 5 punts per executar-lo correcta-
+ment. Es lleven 0 . 5 punts error de c` alcul (m` axim 1 error).
+(b)   [0.5 punts]   0 . 5 punts si la resposta ´ es correcta. Altrament 0.
+(c)   [1 punt]   0 . 25 punts pel plantejament, 0 . 5 punts pel desenvolupament i 0 . 25 punts per la conclusi´ o
+final correcta. Es lleven 0 . 2 punts per error de c` alcul (m` axim 2 errors).
+Convocat` oria 2025   |   2 / 8   |
+
+Matem` atiques II   Model 2
+
+Part B.
+Problema B1. —   Soluci´ o.
+
+(a) L’equaci´ o del producte 1 ens indica que, per construir el producte 1 es requereixen 2 kg de fusta
+i 1 kg de ferro. El cost d’aquest material supera en 40   A C el cost d’1 kg de pl` astic.
+(b) Notem que la informaci´ o que ens proporcionen de cada producte ens permet establir una relaci´ o
+entre els costs de cada kg de mat` eria primera, la qual ve donada pel sistema d’equacions   A x   =   b ,
+on
+
+A   =
+
+
+
+
+
+
+2   1   − 1
+1   − 1   2
+1   2   0
+1   − 1   1
+
+
+
+
+  
+,   x   =
+
+
+
+
+x
+y
+z
+
+
+   ,   i   b   =
+
+
+
+
+
+
+40
+90
+70
+50
+
+
+
+
+  
+.
+
+Per tant, el problema es podria resoldre veient que el Rang( A ) = Rang( A | b ) = 3 (nombre
+d’inc` ognites) o simplement resolent el sistema que involucra les 3 primeres equacions i comprovar
+que satisfan la quarta.
+
+Manera 1:   Tenim que, prenent les 3 primeres equacions de la matriu   A ,
+
+2   1   − 1
+1   − 1   2
+1   2   0
+
+=   − 9 ̸   = 0 ,
+
+i, per tant, Rang( A ) = 3.
+Per altra part, calculant el determinant de la matriu ampliada ( A | b ), es t´ e que   | ( A | b ) |   = 0 i, per
+tant, Rang( A | b ) = 3. Com que el sistema t´ e 3 inc` ognites, podem concloure que ´ es un sistema
+compatible determinat i, per tant, s´ ı que es pot calcular el preu de cada kg de mat` eria primera.
+
+Manera 2:   Resolem el sistema que cont´ e les 3 primeres equacions i comprovam que la quarta
+tamb´ e es compleix.
+Resolent el sistema (per Cramer, Gauss, substituci´ o...)   s’obt´ e que la soluci´ o d’aquest ´ es   x   =
+30 , y   = 20 , z   = 40.   Substituint cada variable a la quarta equaci´ o del sistema, es t´ e que, en
+efecte, 30   −   20 + 40 = 50. Aleshores,   x   = 30 , y   = 20 , z   = 40 ´ es la soluci´ o del sistema, la qual
+cosa ens indica que s´ ı que ´ es possible calcular el preu de cada mat` eria primera.
+
+Criteris:
+
+(a)   [0.5 punts]   0 . 5 punts si explica correctament tota l’equaci´ o, 0 . 25 punts si nom´ es n’explica 3
+termes, 0 altrament.
+A la resoluci´ o es proporciona una possible manera; podria ser diferent.
+(b)   [2 punts]
+Manera 1:   0 . 5 punts pel c` alcul de Rang( A ), 1 punt pel c` alcul de Rang( A | b ), 0 . 5 punts per
+concloure b´ e el resultat (s’ha d’indicar almanco que ´ es un sistema compatible o que t´ e soluci´ o).
+
+Manera 2:   2 punts per resoldre correctament el sistema (si resolen el sub-sistema 3   ×   3, es
+lleven 0 . 5 punts si no es comprova que se satisf` a la quarta equaci´ o).
+Es lleven 0 . 2 punts per error de c` alcul (m` axim 3 errors).
+Convocat` oria 2025   |   3 / 8   |
+
+Matem` atiques II   Model 2
+
+Problema B2. —   Soluci´ o.
+
+(a) Sabem que   AB + I   =   A   i que   A   ´ es invertible, ´ es a dir, que existeix   A
+− 1  
+tal que   AA
+− 1  
+=   A
+− 1
+A   =   I .
+Aleshores, tenim que
+
+A
+− 1
+( AB   +   I ) =   A
+− 1
+A   ↔   B   +   A
+− 1  
+=   I   ↔   A
+− 1  
+=   I   −   B.
+
+(b) Notem que de l’apartat (a) sabem que   A
+− 1  
+=   I   −   B   o, el que ´ es equivalent,   B   =   I   −   A
+− 1
+. Per
+tant,
+
+B   =
+
+
+
+
+1   0   0
+0   1   0
+0   0   1
+
+
+  
+−  
+1
+2
+
+
+
+
+2   2   0
+
+− 1   − 1   1
+
+− 3   − 1   1
+
+
+  
+=
+
+
+
+
+0   − 1   0
+
+1
+2
+3
+2  
+−  
+1
+2
+3
+2
+1
+2
+1
+2
+
+
+  
+.
+
+Per veure si ´ es invertible o no necessitam calcular el seu determinant i veure si s’anul · la o no.
+Ara b´ e,
+
+| B |   = 
+3
+4 
++ 
+1
+4 
+= 1 ̸   = 0 .
+
+Aleshores, s´ ı que ´ es invertible.
+
+Criteris:
+
+(a)   [1 punt]   Es lleven 0 . 5 punts per error no significatiu [canvi d’algun signe o donar per assumit
+que existeix alguna inversa desconeguda].
+(b)   [1.5 punts]   1 punt per calcular correctament   B . Si ho resolen a¨ ıllant la   B , 0 . 5 punts per a¨ ıllar
+correctament   B   i 0 . 5 punts per calcular la soluci´ o correcta. En qualsevol dels dos casos, llevam
+0 . 2 punts per cada valor de   B   mal calculat (m` axim 3 errors).
+0 . 5 punts per veure, justificadament, que   B   ´ es invertible. Si nom´ es indiquen que ho ´ es per` o no
+ho comproven matem` aticament o no ho justifiquen, es lleva tota la puntuaci´ o.
+
+Part C.
+Problema C1. —   Soluci´ o.
+
+(a) Volem veure que existeix   x   ∈   [0 ,   500] tal que   A ( x ) = 0. Fem-ho aplicant el teorema de Bolzano.
+
+A ( x ) ´ es una funci´ o cont´ ınua per ser un polinomi. A m´ es,   A (0) = 200   >   0,   A (500) =   − 1800   <   0.
+Aleshores, pel teorema de Bolzano sabem que   ∃ x   ∈   [0 ,   500] tal que   A ( x ) = 0, tal com vol´ ıem
+veure.
+(b) Com que ´ es un polinomi de grau 3 (domini   D   =   R ), almenys hem de calcular on es troben els
+punts cr´ ıtics i veure el creixement de la funci´ o.
+Punts cr´ ıtics:
+
+A
+′
+( x ) =   − 0 . 0003 x
+2  
++ 0 . 1 x   −   4 = 0   ↔   x   =  
+− 0 . 1   ± 
+√
+0 . 0052
+
+− 0 . 0006  
+= 
+0 . 1   ± 
+√
+0 . 0052
+0 . 0006
+Convocat` oria 2025   |   4 / 8   |
+
+Matem` atiques II   Model 2
+
+Tenim dos punts cr´ ıtics
+
+p 1   :  
+0 . 1 +  
+√
+0 . 0052
+0 . 0006  
+, A  
+0 . 1 +  
+√
+0 . 0052
+0 . 0006
+
+!!
+
+= (286 . 8517 ,   806 . 4605);
+
+p 2   :  
+0 . 1   − 
+√
+0 . 0052
+0 . 0006  
+, A  
+0 . 1   − 
+√
+0 . 0052
+0 . 0006
+
+!!
+
+= (46 . 4816 ,   112 . 0580) .
+
+Estudiant el creixement i decreixement tenim que
+
+A
+′
+(40)   <   0 , A
+′
+(50)   >   0 , A
+′
+(500)   <   0 ,
+
+per la qual cosa   p 1   ´ es un m´ ınim i   p 2   ´ es un m` axim. Si ho representam, es veu que nom´ es es pot
+creuar una vegada l’eix   OY   i, per tant,   A ( x ) nom´ es s’anul · la una vegada.
+
+Criteris:
+
+(a)   [1.5 punts]   0 . 5 punts per comprovar cada una de les hip` otesis del teorema de Bolzano (con-
+tinu¨ ıtat i canvis de signe). 0 . 5 punts per aplicar el teorema i proporcionar la conclusi´ o. Nota:
+s’ha d’explicar perqu` e la funci´ o ´ es cont´ ınua. No basta en dir que ho ´ es ( − 0 . 25 punts si no ho
+fan).
+(b)   [1 punt]   0 . 25 punts per resoldre   A
+′
+( x ) = 0. 0 . 25 punts per proporcionar els dos punts cr´ ıtics.
+0 . 25 punts per calcular els intervals de creixement o veure el car` acter del punt cr´ ıtic. 0 . 25 punts
+per contestar que el punt s´ ı que ´ es ´ unic i justificar-ho.
+Notem que ambd´ os apartats es poden resoldre directament fent (b). Si ´ es el cas i el desenvolu-
+pament ´ es correcte i justificat, es proporciona tota la puntuaci´ o del problema.
+Convocat` oria 2025   |   5 / 8   |
+
+Matem` atiques II   Model 2
+
+Problema C2. —   Soluci´ o.
+
+(a) Notem que el ln(2 x ) nom´ es est` a definit quan 2 x >   0, i, per tant,   x >   0. Aix´ ı mateix, de  
+1
+
+x  
+tenim
+que   x   tampoc no pot ser 0. Aleshores, el domini ´ es   D   = (0 ,   + ∞ ).
+Calculem ara el comportament als extrems.
+l´ ım
+
+x → 0
+
+1
+
+x  
+ln(2 x ) =   −∞ ,
+
+l´ ım
+
+x → + ∞
+
+1
+
+x  
+ln(2 x ) =   l´ ım
+
+x → + ∞
+
+ln(2 x )
+
+x  
+= Hˆ opital   l´ ım
+
+x → + ∞
+
+1
+
+x
+
+1 
+= 0 .
+
+(b) Notem que,   f   ( x ) = 0 si i nom´ es si ln(2 x ) = 0 i, per tant, 2 x   = 1,   x   =  
+1
+2  
+. Aleshores, com que la
+funci´ o no s’anul · la per a   x   ∈  
+  
+1
+2  
+,   5
+
+, podem calcular directament  
+R  
+5
+
+1
+2
+
+f   ( x ) dx .
+
+Z  
+5
+
+1
+2
+
+1
+
+x  
+ln(2 x ) dx   = 
+1
+2 
+(ln(2 x ))
+2  
+5
+
+1
+2
+
+= 
+1
+2
+
+ 
+(ln(10))
+2  
+−   (ln(1))
+2
+  
+= 
+1
+2 
+(ln(10))
+2  
+u
+2  
+≈   2 . 65   u
+2
+.
+
+Notem que, si no se cerquen els punts on s’anul · la la funci´ o, una altra manera per saber els
+extrems de la integral ´ es representar la funci´ o i veure quina ´ es la regi´ o que ens demanen. Per
+aix` o ens faltaria calcular els m` axims i m´ ınims (calcular la derivada i veure quan s’anul · la). Aix´ ı
+doncs,
+
+f  
+′
+( x ) =   −  
+1
+
+x
+2  
+ln(2 x ) + 
+1
+
+x
+
+1
+2 x  
+2 =   −  
+1
+
+x
+2  
+ln(2 x ) + 
+1
+
+x
+2  
+=  
+1
+
+x
+2  
+(1   −   ln(2 x ))   ,
+
+la qual s’anul · la si i nom´ es si 1   −   ln(2 x ) = 0 i, per tant, ln(2 x ) = 1, d’on s’obt´ e   x   =  
+1
+2  
+e
+1
+.
+Aleshores, l’´ unic punt cr´ ıtic ´ es
+
+  
+1
+2  
+e
+1
+,   2 e
+− 1
+
+
+
+≈   (1 . 36 ,   0 . 74) .
+
+Com que   f  
+′
+(1)   >   0 i   f  
+′
+(2)   <   0, tenim que el punt cr´ ıtic ´ es un m` axim i ja podr´ ıem representar la
+funci´ o.
+
+Criteris:
+
+(a)   [1 punt]   0 . 25 punts pel c` alcul del domini, 0 . 25 punts per calcular el l´ ım x → 0   i 0 . 5 punts per
+calcular el l´ ım x → + ∞ .
+Convocat` oria 2025   |   6 / 8   |
+
+Matem` atiques II   Model 2
+
+(b)   [1.5 punts]   0 . 5 punts per plantejar b´ e la integral a resoldre. 0 . 5 punts per integrar correctament.
+0 . 5 punts per donar el resultat correcte amb les unitats. Es lleva   − 0 . 2 punts si no indiquen les
+unitats.
+
+Part D.
+Problema D1. —   Soluci´ o.   Sigui   T B   l’esdeveniment “tenir tuberculosi” i   P   l’esdeveniment “donar
+positiu”. De l’enunciat sabem que
+
+P   (TB) = 0 . 0005 ,   P   (P | TB) = 0 . 99 ,   P   (no P | no TB) = 0 . 99 .
+
+Aleshores,
+(a)   P   (P | no TB) = 0 ,   01.
+(b)   P   (TB | no P) =  
+P   (TB   ∩   no P)
+
+P   (no P)  
+=  
+0 ,   0005   ·   0 ,   01
+0 ,   0005   ·   0 ,   01 + 0 ,   9995   ·   0 ,   99 
+= 
+0 ,   000005
+0 ,   98951  
+≈   5 ,   053   ·   10
+− 6
+.
+
+Criteris:
+
+(a)   [1.25 punts]   0 . 5 punts si el plantejament ´ es correcte, 0 . 25 punts pel llenguatge matem` atic
+emprat, 0 . 5 punts si la resposta ´ es correcta.
+(b)   [1.25 punts]   0 . 5 punts si el plantejament ´ es correcte, 0 . 25 punts pel llenguatge matem` atic
+emprat, 0 . 5 punts si la resposta ´ es correcta.
+Es penalitza tot l’apartat (puntuaci´ o:   0 punts) si el resultat ´ es incoherent (probabilitats fora de
+l’interval [0 ,   1]).
+
+Problema D2. —   Soluci´ o.   Indiquem sobre una taula les dades que ens proporciona l’enunciat.
+Convocat` oria 2025   |   7 / 8   |
+
+STEM   No STEM   Total
+Dona   13% de 55   ≈   7   87% de 55   ≈   48   55
+Home   37% de 45   ≈   17   63% de 45   ≈   28   45
+Total   24   76   100
+Aleshores,
+(a)   P   (STEM) = 
+0 . 13   ·   55 + 0 . 37   ·   45
+100  
+= 0 . 238.
+(b)   P   (dona | STEM) =  
+0 . 13   ·   55
+0 . 13   ·   55 + 0 . 37   ·   45 
+= 
+7 . 15
+23 . 8 
+= 0 . 3.
+(c)   P   (dona | No STEM) =  
+0 . 87   ·   55
+0 . 87   ·   55 + 0 . 63   ·   45 
+= 
+47 . 85
+76 . 2  
+= 0 . 63.
+
+Criteris:
+
+(a)   [0.75 punts]   0 . 25 punts pel plantejament, 0 . 25 punts pel formalisme i 0 . 25 punts per la soluci´ o
+correcta. Si ho han calculat com a   P   (STEM) =  
+24
+100 
+= 0 . 24, tamb´ e s’accepta com a v` alid.
+(b)   [1 punt]   0 . 25 punts pel plantejament, 0 . 25 punts pel formalisme i 0 . 5 punts per la soluci´ o
+correcta. Si ho han calculat com a   P   (dona | STEM) =  
+7
+24 
+= 0 . 29, tamb´ e s’accepta com a v` alid.
+(c)   [0.75 punts]   0 . 25 punts pel plantejament, 0 . 25 punts pel formalisme i 0 . 25 punts per la soluci´ o
+correcta.   Si ho han calculat com a   P   (dona | no STEM) = 
+48
+76 
+= 0 . 63, tamb´ e s’accepta com a
+v` alid.
+Es penalitza tot l’apartat (puntuaci´ o:   0 punts) si el resultat ´ es incoherent (probabilitats fora de
+l’interval [0 ,   1]).
+8
+
