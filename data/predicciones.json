@@ -31266,6 +31266,2920 @@
    },
    "predecibilidad": 0.77
   },
+  "extremadura": {
+   "nombre": "Extremadura",
+   "materias": {
+    "audiovisual": {
+     "nombre": "Cultura Audiovisual",
+     "n_examenes": 4,
+     "anios": [
+      2022,
+      2023
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Cultura Audiovisual Ii julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Cultura Audiovisual Ii junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Cultura Audiovisual Ii julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Cultura Audiovisual Ii junio examen.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "biologia": {
+     "nombre": "Biología",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Biología julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Biología junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Biología julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Biología junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Biología julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Biología julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Biología junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Biología julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Biología junio examen.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "biomoleculas",
+       "nombre": "Biomoléculas",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Pre gunta 1. - Biomoléculas (2,0 puntos) y Metabolismo (0,5 puntos). (Sin optatividad).",
+       "muestra_url": "manual:manual/extremadura/2026/Biología junio examen.txt"
+      },
+      {
+       "id": "celula",
+       "nombre": "La célula",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "A3. - Explique por qué la difusión facilitada y el transporte activo requieren proteínas de membrana, aunque no",
+       "muestra_url": "manual:manual/extremadura/2026/Biología junio examen.txt"
+      },
+      {
+       "id": "metabolismo",
+       "nombre": "Metabolismo",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Pre gunta 1. - Biomoléculas (2,0 puntos) y Metabolismo (0,5 puntos). (Sin optatividad).",
+       "muestra_url": "manual:manual/extremadura/2026/Biología junio examen.txt"
+      },
+      {
+       "id": "molecular",
+       "nombre": "Genética molecular y biotecnología",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "b) Explique en qué consisten la desnaturalización y la renaturalización del ADN, e indique qué tipo de enlaces",
+       "muestra_url": "manual:manual/extremadura/2026/Biología junio examen.txt"
+      },
+      {
+       "id": "inmunologia",
+       "nombre": "Inmunología",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Pregunta 3. - Inmunología (2,0 puntos) e Ingeniería genética y biotecnología (0,5 puntos). (Con",
+       "muestra_url": "manual:manual/extremadura/2026/Biología junio examen.txt"
+      },
+      {
+       "id": "division",
+       "nombre": "División celular",
+       "p": 0.846,
+       "veces": 8,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "B2. - Explique dos diferencias entre mitosis y meiosis y relacione cada una con su s ignificado biológico (0,5 puntos).",
+       "muestra_url": "manual:manual/extremadura/2026/Biología junio examen.txt"
+      },
+      {
+       "id": "microbiologia",
+       "nombre": "Microbiología",
+       "p": 0.603,
+       "veces": 6,
+       "de": 9,
+       "ultimo": 2025,
+       "tendencia": "baja",
+       "muestra": "La α -amanitina es una de las toxinas producidas por el hongo Amanita phalloides . Su acción molecular va dirigida contra la ARN polimerasa II. La α -amanitina es una molécula muy polar y atraviesa la membrana plasmática con dificultad salvo en las células del hígado, donde es tr…",
+       "muestra_url": "manual:manual/extremadura/2025/Biología junio examen.txt"
+      },
+      {
+       "id": "genetica",
+       "nombre": "Genética mendeliana",
+       "p": 0.058,
+       "veces": 1,
+       "de": 9,
+       "ultimo": 2023,
+       "tendencia": "estable",
+       "muestra": "A. Si consideramos que se trata de una herencia autosómica recesiva, indique los genotipos de la pareja de la primera generación parental (línea I) y de sus cuatro descendientes (línea II). (1 punto)",
+       "muestra_url": "manual:manual/extremadura/2023/Biología julio examen.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 6,
+      "aciertos": 6,
+      "tasa": 1.0,
+      "azar": 0.75,
+      "top": [
+       "biomoleculas",
+       "celula",
+       "metabolismo",
+       "molecular",
+       "inmunologia",
+       "division"
+      ],
+      "reales": [
+       "biomoleculas",
+       "celula",
+       "division",
+       "inmunologia",
+       "metabolismo",
+       "molecular"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "ciencias": {
+     "nombre": "Ciencias Generales",
+     "n_examenes": 5,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Ciencias Generales julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Ciencias Generales julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Ciencias Generales junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Ciencias Generales julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Ciencias Generales junio examen.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "dibujo": {
+     "nombre": "Dibujo Técnico II",
+     "n_examenes": 4,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Dibujo Técnico Aplicado Alas Artes Yal Diseño julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Dibujo Tecnico julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Dibujo Técnico Aplicado Alas Artes Yal Diseño Ii junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Dibujo Técnico Aplicado Alas Artes Yal Diseño Ii junio examen.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "conicas",
+       "nombre": "Cónicas",
+       "p": 0.9,
+       "veces": 4,
+       "de": 4,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "BLOQUE 2. EJERCICIO 5. PERSPECTIVA CÓNICA OBLICUA.",
+       "muestra_url": "manual:manual/extremadura/2026/Dibujo Técnico Aplicado Alas Artes Yal Diseño Ii junio examen.txt"
+      },
+      {
+       "id": "diedrico",
+       "nombre": "Sistema diédrico",
+       "p": 0.9,
+       "veces": 4,
+       "de": 4,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "BLOQUE 1. EJERCICIO 1. POLÍGONOS. La borraja es una planta muy empleada en el valle del Ebro. Se puede consumir tanto su hoja cocinada como su flor en ensaladas o infusiones. En Extremadura crece como hierba, pero ahora se ha empezado a cultivar en huertas. Se quiere hacer una ce…",
+       "muestra_url": "manual:manual/extremadura/2026/Dibujo Técnico Aplicado Alas Artes Yal Diseño Ii junio examen.txt"
+      },
+      {
+       "id": "axonometrico",
+       "nombre": "Axonométrico y perspectiva",
+       "p": 0.9,
+       "veces": 4,
+       "de": 4,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "BLOQUE 2. EJERCICIO 5. PERSPECTIVA CÓNICA OBLICUA.",
+       "muestra_url": "manual:manual/extremadura/2026/Dibujo Técnico Aplicado Alas Artes Yal Diseño Ii junio examen.txt"
+      },
+      {
+       "id": "normalizacion",
+       "nombre": "Normalización y vistas",
+       "p": 0.9,
+       "veces": 4,
+       "de": 4,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "BLOQUE 3. EJERCICIO 6. NORMALIZACIÓN Y DISEÑO DE PROYECTOS. Analiza la imagen de una casita modernista diseñada por un arquitecto en la línea de Lego Arquitecture y proyecta sus vistas ortogonales con las acotaciones más significativas (con las medidas de tu dibujo). Máximo 2,5 p…",
+       "muestra_url": "manual:manual/extremadura/2026/Dibujo Técnico Aplicado Alas Artes Yal Diseño Ii junio examen.txt"
+      },
+      {
+       "id": "geometriaplana",
+       "nombre": "Geometría plana (tangencias, transformaciones)",
+       "p": 0.639,
+       "veces": 3,
+       "de": 4,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "BLOQUE 1. EJERCICIO 2. TANGENCIAS Y ENLACES Se",
+       "muestra_url": "manual:manual/extremadura/2026/Dibujo Técnico Aplicado Alas Artes Yal Diseño Ii junio examen.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 5,
+      "aciertos": 5,
+      "tasa": 1.0,
+      "azar": 1.0,
+      "top": [
+       "conicas",
+       "diedrico",
+       "axonometrico",
+       "normalizacion",
+       "geometriaplana"
+      ],
+      "reales": [
+       "axonometrico",
+       "conicas",
+       "diedrico",
+       "geometriaplana",
+       "normalizacion"
+      ]
+     },
+     "confianza": "baja"
+    },
+    "dibujoartistico": {
+     "nombre": "Dibujo Artístico II",
+     "n_examenes": 5,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Dibujo Artístico Ii julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Dibujo Artístico Ii julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Dibujo Artístico Ii junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Dibujo Artístico Ii julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Dibujo Artístico Ii junio examen.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "diseno": {
+     "nombre": "Diseño",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Diseño julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Diseño junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Diseño julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Diseño junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Diseño julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Diseño julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Diseño junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Diseño julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Diseño junio examen.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "empresa": {
+     "nombre": "Empresa y Diseño de Modelos de Negocio / Economía de la Empresa",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Economía De La Empresa julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Economía De La Empresa junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Economía De La Empresa julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Economía De La Empresa junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Empresa Ydiseño De Modelos De Negocio julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Empresa Ydiseño De Modelos De Negocio julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Empresa Ydiseño De Modelos De Negocio junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Empresa Ydiseño De Modelos De Negocio julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Empresa Ydiseño De Modelos De Negocio junio examen.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "produccion",
+       "nombre": "Producción, costes y umbral de rentabilidad",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "producido unos costes fijos de 120.000 euros, siendo los costes variables unitarios de 12 euros por sesión.",
+       "muestra_url": "manual:manual/extremadura/2026/Empresa Ydiseño De Modelos De Negocio junio examen.txt"
+      },
+      {
+       "id": "financiacion",
+       "nombre": "Inversión y financiación (VAN, TIR, payback)",
+       "p": 0.756,
+       "veces": 8,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "6. - L a empresa BRAVANCIA acude a Ana para redactar un adecuado plan de negocios. Explique brevemente en qué",
+       "muestra_url": "manual:manual/extremadura/2026/Empresa Ydiseño De Modelos De Negocio junio examen.txt"
+      },
+      {
+       "id": "contabilidad",
+       "nombre": "Balance y análisis financiero (ratios)",
+       "p": 0.747,
+       "veces": 8,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "a) Calcul e y represente gráficamente el punto muerto o umbral de rentabilidad. (1,25 puntos)",
+       "muestra_url": "manual:manual/extremadura/2026/Empresa Ydiseño De Modelos De Negocio junio examen.txt"
+      },
+      {
+       "id": "marketing",
+       "nombre": "Marketing",
+       "p": 0.675,
+       "veces": 7,
+       "de": 9,
+       "ultimo": 2025,
+       "tendencia": "baja",
+       "muestra": "3.- Cite 2 tipos de segmentación de mercados y explique qué tipo de segmentación le recomendaría a esta empresa. Razone la respuesta. (1 punto)",
+       "muestra_url": "manual:manual/extremadura/2025/Empresa Ydiseño De Modelos De Negocio junio examen.txt"
+      },
+      {
+       "id": "modelonegocio",
+       "nombre": "Modelo de negocio y emprendimiento (Canvas)",
+       "p": 0.397,
+       "veces": 3,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "proyectos de emprendimiento. Tiene a su cargo un equipo de trabajo con profesionales que conocen los sectores, con",
+       "muestra_url": "manual:manual/extremadura/2026/Empresa Ydiseño De Modelos De Negocio junio examen.txt"
+      },
+      {
+       "id": "organizacion",
+       "nombre": "Organización y dirección",
+       "p": 0.097,
+       "veces": 2,
+       "de": 9,
+       "ultimo": 2022,
+       "tendencia": "baja",
+       "muestra": "responsable del departamento o área de recursos humanos de la empresa. Identifique 4 funciones básicas de dicho",
+       "muestra_url": "manual:manual/extremadura/2022/Economía De La Empresa junio examen.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 4,
+      "aciertos": 3,
+      "tasa": 0.75,
+      "azar": 0.67,
+      "top": [
+       "financiacion",
+       "produccion",
+       "marketing",
+       "contabilidad"
+      ],
+      "reales": [
+       "contabilidad",
+       "financiacion",
+       "modelonegocio",
+       "produccion"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "escenicas": {
+     "nombre": "Artes Escénicas II",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Artes Escénicas julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Artes Escénicas junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Artes Escénicas julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Artes Escénicas junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Artes Escénicas julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Artes Escénicas julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Artes Escénicas junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Artes Escénicas julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Artes Escénicas junio examen.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "filosofia": {
+     "nombre": "Historia de la Filosofía",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Historia De La Filosofía julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Historia De La Filosofía junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Historia De La Filosofía julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Historia De La Filosofía junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Historia De La Filosofía julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Historia De La Filosofía julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Historia De La Filosofía junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Historia De La Filosofía julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Historia De La Filosofía junio examen.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "platon",
+       "nombre": "Platón",
+       "p": 0.756,
+       "veces": 8,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "Los cautivos en la caverna somos nosotros cuando consumimos contenido sin cuestionar su",
+       "muestra_url": "manual:manual/extremadura/2026/Historia De La Filosofía junio examen.txt"
+      },
+      {
+       "id": "kant",
+       "nombre": "Kant",
+       "p": 0.486,
+       "veces": 5,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "“Para esta ilustración tan sólo se requiere libertad y, a decir verdad, la más inofensiva de cuantas pueden llamarse así: el hacer uso público de la propia razón en todos los terrenos. Actualmente oigo clamar por doquier: ¡No razones! El oficial ordena: ¡No razones, adiéstrate! E…",
+       "muestra_url": "manual:manual/extremadura/2026/Historia De La Filosofía julio examen.txt"
+      },
+      {
+       "id": "medieval",
+       "nombre": "Agustín de Hipona / Tomás de Aquino",
+       "p": 0.245,
+       "veces": 3,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Tomás de Aquino: Suma Teológica , I, parte I, cuestión II.",
+       "muestra_url": "manual:manual/extremadura/2026/Historia De La Filosofía julio examen.txt"
+      },
+      {
+       "id": "marx",
+       "nombre": "Marx",
+       "p": 0.112,
+       "veces": 2,
+       "de": 9,
+       "ultimo": 2023,
+       "tendencia": "baja",
+       "muestra": "9. Explique los conceptos fundamentales del materialismo histórico de Marx . (2)",
+       "muestra_url": "manual:manual/extremadura/2023/Historia De La Filosofía julio examen.txt"
+      },
+      {
+       "id": "nietzsche",
+       "nombre": "Nietzsche",
+       "p": 0.101,
+       "veces": 2,
+       "de": 9,
+       "ultimo": 2023,
+       "tendencia": "baja",
+       "muestra": "a. Comente este fragmento de Nietzsche: “El mundo verdadero, asequible al sabio, al",
+       "muestra_url": "manual:manual/extremadura/2023/Historia De La Filosofía julio examen.txt"
+      },
+      {
+       "id": "descartes",
+       "nombre": "Descartes",
+       "p": 0.054,
+       "veces": 1,
+       "de": 9,
+       "ultimo": 2022,
+       "tendencia": "estable",
+       "muestra": "5. Expl ique la metafísica de Descartes o teoría de la sustancia en Descartes (2)",
+       "muestra_url": "manual:manual/extremadura/2022/Historia De La Filosofía junio examen.txt"
+      },
+      {
+       "id": "aristoteles",
+       "nombre": "Aristóteles",
+       "p": 0.05,
+       "veces": 0,
+       "de": 9,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "empirismo",
+       "nombre": "Hume / Locke",
+       "p": 0.05,
+       "veces": 0,
+       "de": 9,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "ortega",
+       "nombre": "Ortega y Gasset",
+       "p": 0.05,
+       "veces": 0,
+       "de": 9,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "contemporanea",
+       "nombre": "Filosofía contemporánea (Arendt, Wittgenstein, Beauvoir…)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 9,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 1,
+      "aciertos": 1,
+      "tasa": 1.0,
+      "azar": 0.1,
+      "top": [
+       "platon"
+      ],
+      "reales": [
+       "platon"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "fisica": {
+     "nombre": "Física",
+     "n_examenes": 6,
+     "anios": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Física junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Física julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Física julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Física junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Física julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Física junio examen.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "gravitacion",
+       "nombre": "Campo gravitatorio",
+       "p": 0.9,
+       "veces": 6,
+       "de": 6,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Kennedy. Al comienzo de la misión, Orión estaba en órbita circular, a 400 km de altura.",
+       "muestra_url": "manual:manual/extremadura/2026/Física junio examen.txt"
+      },
+      {
+       "id": "ondas",
+       "nombre": "Ondas y sonido",
+       "p": 0.9,
+       "veces": 6,
+       "de": 6,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Un resultado correcto en un problema sólo será tenido en cuenta si se justifica mediante su desarrollo razonado.",
+       "muestra_url": "manual:manual/extremadura/2026/Física junio examen.txt"
+      },
+      {
+       "id": "optica",
+       "nombre": "Óptica",
+       "p": 0.9,
+       "veces": 6,
+       "de": 6,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Mediante una lente se quiere proyectar la imagen real de una diapositiva aumentada 20 veces sobre una pared distante",
+       "muestra_url": "manual:manual/extremadura/2026/Física junio examen.txt"
+      },
+      {
+       "id": "moderna",
+       "nombre": "Física moderna (cuántica, nuclear, relatividad)",
+       "p": 0.9,
+       "veces": 6,
+       "de": 6,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "BLOQUE D. FÍSICA RELATIVISTA, CUÁNTICA, NUCLEAR Y DE PARTÍCULAS",
+       "muestra_url": "manual:manual/extremadura/2026/Física junio examen.txt"
+      },
+      {
+       "id": "electrico",
+       "nombre": "Campo eléctrico",
+       "p": 0.813,
+       "veces": 5,
+       "de": 6,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "En un plano se sitúan dos cargas puntuales: 𝑞𝑞 1 = +4 𝜇𝜇 C en el punto 𝐴𝐴 (0, 0) m y 𝑞𝑞 2 = − 3 𝜇𝜇 C en el punto 𝐵𝐵 (0, 4) m .",
+       "muestra_url": "manual:manual/extremadura/2026/Física junio examen.txt"
+      },
+      {
+       "id": "magnetico",
+       "nombre": "Campo magnético e inducción",
+       "p": 0.695,
+       "veces": 4,
+       "de": 6,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "Una espira circular de 7 cm de radio , situada inicialmente en el plano XY, está dentro de una zona de campo magnético",
+       "muestra_url": "manual:manual/extremadura/2026/Física julio examen.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 5,
+      "aciertos": 5,
+      "tasa": 1.0,
+      "azar": 0.83,
+      "top": [
+       "gravitacion",
+       "ondas",
+       "optica",
+       "moderna",
+       "electrico"
+      ],
+      "reales": [
+       "electrico",
+       "gravitacion",
+       "moderna",
+       "ondas",
+       "optica"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "frances": {
+     "nombre": "Lengua Extranjera II: Francés",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Lengua Extranjera Francés julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Lengua Extranjera Francés junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Lengua Extranjera Francés julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Lengua Extranjera Francés junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Lengua Extranjera Francés julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Lengua Extranjera Francés julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Lengua Extranjera Francés junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Lengua Extranjera Francés julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Lengua Extranjera Francés junio examen.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "fundamentosart": {
+     "nombre": "Fundamentos Artísticos",
+     "n_examenes": 6,
+     "anios": [
+      2022,
+      2023,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Fundamentos De Arte julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Fundamentos De Arte julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Fundamentos Artísticos julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Fundamentos Artísticos junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Fundamentos Artísticos julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Fundamentos Artísticos junio examen.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "geografia": {
+     "nombre": "Geografía",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Geografía julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Geografía junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Geografía julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Geografía junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Geografía julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Geografía julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Geografía junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Geografía julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Geografía junio examen.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "sectores",
+       "nombre": "Sectores económicos",
+       "p": 0.776,
+       "veces": 7,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "proponga al menos dos acciones que promuevan un turismo más respetuoso con el entorno y con la calidad de vida",
+       "muestra_url": "manual:manual/extremadura/2026/Geografía julio examen.txt"
+      },
+      {
+       "id": "poblacion",
+       "nombre": "Población",
+       "p": 0.703,
+       "veces": 7,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "2.1. A la vista de la pirámide de población de España (2025). Fuente: INE",
+       "muestra_url": "manual:manual/extremadura/2026/Geografía junio examen.txt"
+      },
+      {
+       "id": "urbano",
+       "nombre": "Espacio urbano",
+       "p": 0.633,
+       "veces": 6,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "b.2) Actividades que se realizan en las ciudades,",
+       "muestra_url": "manual:manual/extremadura/2026/Geografía junio examen.txt"
+      },
+      {
+       "id": "clima",
+       "nombre": "Clima y aguas",
+       "p": 0.618,
+       "veces": 6,
+       "de": 9,
+       "ultimo": 2025,
+       "tendencia": "baja",
+       "muestra": "1. Pregunta de tipo competencial a partir del comentario de textos o imágenes.(El alumno/a responderá a las cuestiones vinculadas a la",
+       "muestra_url": "manual:manual/extremadura/2025/Geografía junio examen.txt"
+      },
+      {
+       "id": "relieve",
+       "nombre": "Relieve",
+       "p": 0.602,
+       "veces": 7,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "2.2. A la vista de la siguiente cliserie de vegetación y el mapa del relieve que la acompaña:",
+       "muestra_url": "manual:manual/extremadura/2026/Geografía junio examen.txt"
+      },
+      {
+       "id": "territorio",
+       "nombre": "Organización territorial y Europa",
+       "p": 0.522,
+       "veces": 6,
+       "de": 9,
+       "ultimo": 2025,
+       "tendencia": "baja",
+       "muestra": "a) Indique tres Comunidades Autónomas que sufrieran grandes incendios forestales durante los últimos años y",
+       "muestra_url": "manual:manual/extremadura/2025/Geografía julio examen.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 3,
+      "aciertos": 1,
+      "tasa": 0.33,
+      "azar": 0.5,
+      "top": [
+       "sectores",
+       "clima",
+       "relieve"
+      ],
+      "reales": [
+       "poblacion",
+       "relieve",
+       "urbano"
+      ]
+     },
+     "confianza": "baja"
+    },
+    "geologia": {
+     "nombre": "Geología y Ciencias Ambientales",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Geología julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Geología junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Geología julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Geología junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Geología Yciencias Ambientales julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Geología Yciencias Ambientales julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Geología Yciencias Ambientales junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Geología Yciencias Ambientales julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Geología Yciencias Ambientales junio examen.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "tectonica",
+       "nombre": "Tectónica y riesgos geológicos",
+       "p": 0.857,
+       "veces": 8,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "- Definir horst y fosa tectónica (graben) e indicar, con ayuda de un esquema, los esfuerzos",
+       "muestra_url": "manual:manual/extremadura/2026/Geología Yciencias Ambientales junio examen.txt"
+      },
+      {
+       "id": "minerales",
+       "nombre": "Minerales y rocas",
+       "p": 0.64,
+       "veces": 6,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "- ¿Qué diferencias hay entre una roca intrusiva y una extrusiva? (0,5 puntos).",
+       "muestra_url": "manual:manual/extremadura/2026/Geología Yciencias Ambientales junio examen.txt"
+      },
+      {
+       "id": "recursos",
+       "nombre": "Recursos y medio ambiente",
+       "p": 0.559,
+       "veces": 5,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "- Por qué la deforestación contribuye al cambio climático y a la pérdida de biodiversidad? Explicar (1",
+       "muestra_url": "manual:manual/extremadura/2026/Geología Yciencias Ambientales junio examen.txt"
+      },
+      {
+       "id": "procesos",
+       "nombre": "Procesos externos y mapas geológicos",
+       "p": 0.195,
+       "veces": 2,
+       "de": 9,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "- Nombrar el tipo de discontinuidad estratigráfica que aparece en el perfil (0.25 puntos).",
+       "muestra_url": "manual:manual/extremadura/2025/Geología Yciencias Ambientales julio examen.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 3,
+      "aciertos": 3,
+      "tasa": 1.0,
+      "azar": 0.75,
+      "top": [
+       "tectonica",
+       "minerales",
+       "recursos"
+      ],
+      "reales": [
+       "minerales",
+       "recursos",
+       "tectonica"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "graficoplastica": {
+     "nombre": "Técnicas de Expresión Gráfico-Plástica",
+     "n_examenes": 5,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Técnicas De Expresión Gráfico-Plástica julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Técnicas De Expresión Gráfico Plásticas julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Técnicas De Expresión Gráfico-Plástica junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Técnicas De Expresión Gráfico - Plástica julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Técnicas De Expresión Gráfico - Plástica junio examen.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "griego": {
+     "nombre": "Griego II",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Griego Ii julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Griego Ii junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Griego Ii julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Griego Ii junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Griego Ii julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Griego Ii julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Griego Ii junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Griego Ii julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Griego Ii junio examen.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "morfosintaxis",
+       "nombre": "Morfosintaxis",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Notas: 1 . tema de aoristo de σχηματίζω. 2 . participio de aoristo activo de ἀναλαμβάνω. 3 . indicativo de aoristo de παραγίγνομαι. 4 . indicativo de aoristo medio de ἀποκρίνομαι. 5 . “Estaremos bien de salud”. 6 . “te marchas”. 7 . κἂν “aunque” (+ subjuntivo) Vocabulario del tex…",
+       "muestra_url": "manual:manual/extremadura/2026/Griego Ii junio examen.txt"
+      },
+      {
+       "id": "lexico",
+       "nombre": "Léxico y etimología",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "INSTRUCCIONES PARA REALIZAR EL EXAMEN Se permite el uso del diccionario y de la gramática incluida en él durante todo el examen. Las faltas de ortografía serán objeto de penalización, pudiendo suponer esta hasta un 10% de la calificación total otorgada al examen. El examen consta…",
+       "muestra_url": "manual:manual/extremadura/2026/Griego Ii junio examen.txt"
+      },
+      {
+       "id": "literatura",
+       "nombre": "Literatura griega",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "3.1: Desarrolle por escrito (máximo dos páginas o caras de folio) el tema: La lírica griega (1 punto).",
+       "muestra_url": "manual:manual/extremadura/2026/Griego Ii junio examen.txt"
+      },
+      {
+       "id": "traduccion",
+       "nombre": "Traducción",
+       "p": 0.05,
+       "veces": 0,
+       "de": 9,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 3,
+      "aciertos": 3,
+      "tasa": 1.0,
+      "azar": 0.75,
+      "top": [
+       "morfosintaxis",
+       "lexico",
+       "literatura"
+      ],
+      "reales": [
+       "lexico",
+       "literatura",
+       "morfosintaxis"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "historia": {
+     "nombre": "Historia de España",
+     "n_examenes": 7,
+     "anios": [
+      2022,
+      2023,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Historia De España julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Historia De España junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Historia De España junio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Historia De España julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Historia De España junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Historia De España julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Historia De España junio examen.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "guerracivil",
+       "nombre": "Guerra Civil (1936-1939)",
+       "p": 0.609,
+       "veces": 4,
+       "de": 7,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "b) General español que, tras ponerse al frente del bando sublevado de la Guerra Civil,",
+       "muestra_url": "manual:manual/extremadura/2026/Historia De España junio examen.txt"
+      },
+      {
+       "id": "franquismo",
+       "nombre": "Franquismo (1939-1975)",
+       "p": 0.533,
+       "veces": 3,
+       "de": 7,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "instauró una dictadura que encabezaría hasta el momento de su muerte.",
+       "muestra_url": "manual:manual/extremadura/2026/Historia De España junio examen.txt"
+      },
+      {
+       "id": "restauracion",
+       "nombre": "Restauración (1874-1931)",
+       "p": 0.274,
+       "veces": 2,
+       "de": 7,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "C.1. La dictadura de Primo de Rivera : de sde su instauración hasta su caída.",
+       "muestra_url": "manual:manual/extremadura/2026/Historia De España junio examen.txt"
+      },
+      {
+       "id": "liberalismo",
+       "nombre": "Crisis del Antiguo Régimen y liberalismo (1808-1874)",
+       "p": 0.253,
+       "veces": 2,
+       "de": 7,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "b) Militar español que ocupó la Regencia durante la minoría de edad de Isabel II .",
+       "muestra_url": "manual:manual/extremadura/2026/Historia De España julio examen.txt"
+      },
+      {
+       "id": "transicion",
+       "nombre": "Transición y democracia",
+       "p": 0.179,
+       "veces": 1,
+       "de": 7,
+       "ultimo": 2025,
+       "tendencia": "sube",
+       "muestra": "[Fuente: https://vrestudiantes.unex.es/wp-content/uploads/sites/23/2025/06/2024_25_JUN_Examenes.pdf]",
+       "muestra_url": "manual:manual/extremadura/2025/Historia De España junio examen.txt"
+      },
+      {
+       "id": "antigua",
+       "nombre": "Prehistoria a Edad Media (Al-Ándalus, reinos cristianos)",
+       "p": 0.148,
+       "veces": 2,
+       "de": 7,
+       "ultimo": 2023,
+       "tendencia": "baja",
+       "muestra": "B. Califato de Córd oba. Abderramán III y Almanzor (929 - 1031).",
+       "muestra_url": "manual:manual/extremadura/2023/Historia De España junio examen.txt"
+      },
+      {
+       "id": "republica",
+       "nombre": "Segunda República (1931-1936)",
+       "p": 0.143,
+       "veces": 1,
+       "de": 7,
+       "ultimo": 2025,
+       "tendencia": "sube",
+       "muestra": "2. - Política feminista adscrita al Partido Radical que, instaurada la II República, mantuvo",
+       "muestra_url": "manual:manual/extremadura/2025/Historia De España julio examen.txt"
+      },
+      {
+       "id": "moderna",
+       "nombre": "Monarquía hispánica (Reyes Católicos, Austrias, Borbones s. XVIII)",
+       "p": 0.05,
+       "veces": 0,
+       "de": 7,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 3,
+      "aciertos": 2,
+      "tasa": 0.67,
+      "azar": 0.38,
+      "top": [
+       "franquismo",
+       "guerracivil",
+       "transicion"
+      ],
+      "reales": [
+       "franquismo",
+       "guerracivil",
+       "restauracion"
+      ]
+     },
+     "confianza": "media"
+    },
+    "historiaarte": {
+     "nombre": "Historia del Arte",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Historia Del Arte julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Historia Del Arte junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Historia Del Arte julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Historia Del Arte junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Historia Del Arte julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Historia Del Arte julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Historia Del Arte junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Historia Del Arte julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Historia Del Arte junio examen.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "renacimiento",
+       "nombre": "Renacimiento",
+       "p": 0.46,
+       "veces": 4,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "2. La pintura del Cinquecento y el Manierismo: Leonardo, Rafael, Miguel Ángel, Tiziano y El Greco.",
+       "muestra_url": "manual:manual/extremadura/2026/Historia Del Arte junio examen.txt"
+      },
+      {
+       "id": "vanguardias",
+       "nombre": "Vanguardias y siglo XX",
+       "p": 0.197,
+       "veces": 2,
+       "de": 9,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "2. El Fauvismo y el Cubismo: Matisse y Picasso.",
+       "muestra_url": "manual:manual/extremadura/2025/Historia Del Arte junio examen.txt"
+      },
+      {
+       "id": "barroco",
+       "nombre": "Barroco",
+       "p": 0.18,
+       "veces": 2,
+       "de": 9,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "2. El siglo XVII en Italia: Bernini, Borromini y Caravaggio.",
+       "muestra_url": "manual:manual/extremadura/2025/Historia Del Arte julio examen.txt"
+      },
+      {
+       "id": "sigloxix",
+       "nombre": "Goya y siglo XIX",
+       "p": 0.144,
+       "veces": 1,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "2. Impresionismo y Postimpresionismo: Monet, Cézanne y Van Gogh",
+       "muestra_url": "manual:manual/extremadura/2026/Historia Del Arte julio examen.txt"
+      },
+      {
+       "id": "clasico",
+       "nombre": "Arte clásico (Grecia y Roma)",
+       "p": 0.054,
+       "veces": 1,
+       "de": 9,
+       "ultimo": 2022,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": "manual:manual/extremadura/2022/Historia Del Arte junio examen.txt"
+      },
+      {
+       "id": "medieval",
+       "nombre": "Románico y gótico",
+       "p": 0.05,
+       "veces": 0,
+       "de": 9,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 1,
+      "aciertos": 1,
+      "tasa": 1.0,
+      "azar": 0.17,
+      "top": [
+       "renacimiento"
+      ],
+      "reales": [
+       "renacimiento"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "ingles": {
+     "nombre": "Lengua Extranjera II: Inglés",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Lengua Extranjera (Inglés) julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Lengua Extranjera (Inglés) junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Lengua Extranjera (Inglés) julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Lengua Extranjera (Inglés) junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Lengua Extranjera (Inglés) julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Lengua Extranjera (Inglés) julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Lengua Extranjera (Inglés) junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Lengua Extranjera (Inglés) julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Lengua Extranjera (Inglés) junio examen.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "vocab",
+       "nombre": "Vocabulario (sinónimos, definiciones)",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Bad Bunny tapped into just how broad a definition of “America” could be, shouting “God bless America” before saying a list of countries and territories including the US and “mi madre,” Puerto Rico. In a five-star review, The Guardian ’s Stefanie",
+       "muestra_url": "manual:manual/extremadura/2026/Lengua Extranjera (Inglés) junio examen.txt"
+      },
+      {
+       "id": "writing",
+       "nombre": "Redacción (opinión, carta, email)",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "As blue, red and white fireworks filled the sky at the end of Bad Bunny’s Super Bowl half-time show, a message filled the screen in all capitals: “The only thing more powerful than hate is love.” It was the enduring statement from a 13-minute spectacle that invited an estimated 1…",
+       "muestra_url": "manual:manual/extremadura/2026/Lengua Extranjera (Inglés) junio examen.txt"
+      },
+      {
+       "id": "reading",
+       "nombre": "Comprensión lectora (true/false, preguntas)",
+       "p": 0.299,
+       "veces": 5,
+       "de": 9,
+       "ultimo": 2024,
+       "tendencia": "baja",
+       "muestra": "Este bloque contiene dos textos (“Reading comprehension: Text 1” y “Reading comprehension: Text 2”), cada uno de ellos seguido por dos grupos de preguntas de comprensión lectora. El alumno deberá escoger uno de los dos textos y contestar las preguntas del texto elegido de la sigu…",
+       "muestra_url": "manual:manual/extremadura/2024/Lengua Extranjera (Inglés) julio examen.txt"
+      },
+      {
+       "id": "grammar",
+       "nombre": "Gramática (reescritura, transformaciones)",
+       "p": 0.299,
+       "veces": 5,
+       "de": 9,
+       "ultimo": 2024,
+       "tendencia": "baja",
+       "muestra": "a. Rewri te the following sentence in reported speech, beginning “ Researchers complained …”",
+       "muestra_url": "manual:manual/extremadura/2024/Lengua Extranjera (Inglés) julio examen.txt"
+      },
+      {
+       "id": "mediation",
+       "nombre": "Mediación",
+       "p": 0.05,
+       "veces": 0,
+       "de": 9,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 2,
+      "aciertos": 2,
+      "tasa": 1.0,
+      "azar": 0.4,
+      "top": [
+       "vocab",
+       "writing"
+      ],
+      "reales": [
+       "vocab",
+       "writing"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "latin": {
+     "nombre": "Latín II",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Latín Ii julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Latín Ii junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Latín Ii julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Latín Ii junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Latín Ii julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Latín Ii julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Latín Ii junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Latín Ii julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Latín Ii junio examen.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "traduccion",
+       "nombre": "Traducción",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "APARTADO 1 (6 PUNTOS) TRADUCCIÓN DE UN TEXTO CON PREGUNTAS DE MORFOLOGÍA Y SINTAXIS VINCULADAS AL TEXTO",
+       "muestra_url": "manual:manual/extremadura/2026/Latín Ii junio examen.txt"
+      },
+      {
+       "id": "morfosintaxis",
+       "nombre": "Morfosintaxis",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "2. Análisis morfológico. Se presentan dos bloques, uno con formas nominales y otro con formas verbales presentes en el texto. El",
+       "muestra_url": "manual:manual/extremadura/2026/Latín Ii junio examen.txt"
+      },
+      {
+       "id": "lexico",
+       "nombre": "Léxico y etimología",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "2. Explicar la evolución fonética del latín al castellano de las dos palabras que se ofrecen, indicando claramente todos los pasos de",
+       "muestra_url": "manual:manual/extremadura/2026/Latín Ii junio examen.txt"
+      },
+      {
+       "id": "literatura",
+       "nombre": "Literatura latina",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "B. O RATORIA 2. Cicerón b. Anfitrión ii. Discurso contra la corrupción en la administración de Sicilia",
+       "muestra_url": "manual:manual/extremadura/2026/Latín Ii junio examen.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 4,
+      "aciertos": 4,
+      "tasa": 1.0,
+      "azar": 1.0,
+      "top": [
+       "traduccion",
+       "morfosintaxis",
+       "lexico",
+       "literatura"
+      ],
+      "reales": [
+       "lexico",
+       "literatura",
+       "morfosintaxis",
+       "traduccion"
+      ]
+     },
+     "confianza": "baja"
+    },
+    "lengua": {
+     "nombre": "Lengua Castellana y Literatura II",
+     "n_examenes": 4,
+     "anios": [
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Lengua Castellana Y Literatura julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Lengua Castellana Y Literatura junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Lengua Castellana Y Literatura Ii julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Lengua Castellana Y Literatura Ii junio examen.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "argumentacion",
+       "nombre": "Texto argumentativo / opinión",
+       "p": 0.9,
+       "veces": 4,
+       "de": 4,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Pregunta 3 (1.5 puntos) . Elabore un texto argumentativo de 200-250 palabras sobre la siguiente idea: “Cómo los objetos cotidianos o tecnologías actuales cumplen una función práctica e influyen en nuestro comportamiento y nuestras decisiones”.",
+       "muestra_url": "manual:manual/extremadura/2026/Lengua Castellana Y Literatura Ii junio examen.txt"
+      },
+      {
+       "id": "sintaxis",
+       "nombre": "Sintaxis (oración compuesta)",
+       "p": 0.9,
+       "veces": 4,
+       "de": 4,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Pregunta 1 (2 puntos) . Realice el análisis sintáctico de esta oración: “El blíster es ese pequeño objeto en el que los ansiolíticos esperan su turno para salvarte la vida.”",
+       "muestra_url": "manual:manual/extremadura/2026/Lengua Castellana Y Literatura Ii junio examen.txt"
+      },
+      {
+       "id": "morfologia",
+       "nombre": "Léxico, morfología y semántica",
+       "p": 0.9,
+       "veces": 4,
+       "de": 4,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Pregunta 3 (1.5 puntos) . Elabore un texto argumentativo de 200-250 palabras sobre la siguiente idea: “Cómo los objetos cotidianos o tecnologías actuales cumplen una función práctica e influyen en nuestro comportamiento y nuestras decisiones”.",
+       "muestra_url": "manual:manual/extremadura/2026/Lengua Castellana Y Literatura Ii junio examen.txt"
+      },
+      {
+       "id": "comprension",
+       "nombre": "Comprensión y resumen del texto",
+       "p": 0.05,
+       "veces": 0,
+       "de": 4,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "lit98",
+       "nombre": "Literatura: Modernismo y 98, novecentismo",
+       "p": 0.05,
+       "veces": 0,
+       "de": 4,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "lit27",
+       "nombre": "Literatura: 27, Lorca, poesía de posguerra",
+       "p": 0.05,
+       "veces": 0,
+       "de": 4,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "novela",
+       "nombre": "Novela del siglo XX y actual",
+       "p": 0.05,
+       "veces": 0,
+       "de": 4,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "teatro",
+       "nombre": "Teatro del siglo XX",
+       "p": 0.05,
+       "veces": 0,
+       "de": 4,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 3,
+      "aciertos": 3,
+      "tasa": 1.0,
+      "azar": 0.38,
+      "top": [
+       "argumentacion",
+       "sintaxis",
+       "morfologia"
+      ],
+      "reales": [
+       "argumentacion",
+       "morfologia",
+       "sintaxis"
+      ]
+     },
+     "confianza": "media"
+    },
+    "literaturadram": {
+     "nombre": "Literatura Dramática",
+     "n_examenes": 5,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Literatura Dramática julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Literatura Dramática julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Literatura Dramática junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Literatura Dramática julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Literatura Dramática junio examen.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "matccss": {
+     "nombre": "Matemáticas Aplicadas a las CC. Sociales II",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Matemáticas Aplicadas A Las Ciencias Sociales Ii julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Matemáticas Aplicadas A Las Ciencias Sociales Ii junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Matemáticas Aplicadas A Las Ciencias Sociales Ii julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Matemáticas Aplicadas A Las Ciencias Sociales Ii junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Matemáticas Aplicadas A Las Ciencias Sociales Ii julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Matemáticas Aplicadas A Las Ciencias Sociales Ii julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Matemáticas Aplicadas A Las Ciencias Sociales Ii junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Matemáticas Aplicadas A Las Ciencias Sociales Ii julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Matemáticas Aplicadas A Las Ciencias Sociales Ii junio examen.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "matrices",
+       "nombre": "Matrices y sistemas",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "a) Hallar , de forma razonada, la matriz 𝐴 99 . (de 0 a 1 .25 punto s )",
+       "muestra_url": "manual:manual/extremadura/2026/Matemáticas Aplicadas A Las Ciencias Sociales Ii junio examen.txt"
+      },
+      {
+       "id": "probabilidad",
+       "nombre": "Probabilidad",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "a) Calcular la probabilidad de que , elegido un producto al azar, resulte ser de los que se ha",
+       "muestra_url": "manual:manual/extremadura/2026/Matemáticas Aplicadas A Las Ciencias Sociales Ii junio examen.txt"
+      },
+      {
+       "id": "inferencia",
+       "nombre": "Inferencia y distribución normal",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "normal con desviación típica 16 g, se pide:",
+       "muestra_url": "manual:manual/extremadura/2026/Matemáticas Aplicadas A Las Ciencias Sociales Ii junio examen.txt"
+      },
+      {
+       "id": "funciones",
+       "nombre": "Funciones y derivadas",
+       "p": 0.698,
+       "veces": 7,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "mantecados, con un beneficio de 10€. Por otra parte, par a fabricar una caja de perrunillas, que le aporta",
+       "muestra_url": "manual:manual/extremadura/2026/Matemáticas Aplicadas A Las Ciencias Sociales Ii junio examen.txt"
+      },
+      {
+       "id": "progl",
+       "nombre": "Programación lineal",
+       "p": 0.05,
+       "veces": 0,
+       "de": 9,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      },
+      {
+       "id": "integrales",
+       "nombre": "Integrales y áreas",
+       "p": 0.05,
+       "veces": 0,
+       "de": 9,
+       "ultimo": null,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": ""
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 4,
+      "aciertos": 4,
+      "tasa": 1.0,
+      "azar": 0.67,
+      "top": [
+       "matrices",
+       "probabilidad",
+       "inferencia",
+       "funciones"
+      ],
+      "reales": [
+       "funciones",
+       "inferencia",
+       "matrices",
+       "probabilidad"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "matematicas2": {
+     "nombre": "Matemáticas II",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Matemáticas Ii julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Matemáticas Ii junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Matemáticas Ii julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Matemáticas Ii junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Matemáticas Ii julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Matemáticas Ii julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Matemáticas Ii junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Matemáticas Ii julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Matematicas Ii junio examen.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "matrices",
+       "nombre": "Matrices y determinantes",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Sean las matrices 2 3 1 -3 A = y B = 1 2 1 2",
+       "muestra_url": "manual:manual/extremadura/2026/Matematicas Ii junio examen.txt"
+      },
+      {
+       "id": "geometria",
+       "nombre": "Geometría en el espacio",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "a) Sean los puntos A(1,3, - 2) y B(3, - 1,2), calcula r la ecuación del plano perpendicular al vector AB",
+       "muestra_url": "manual:manual/extremadura/2026/Matematicas Ii junio examen.txt"
+      },
+      {
+       "id": "probabilidad",
+       "nombre": "Probabilidad y distribuciones",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Se adjunta al final tabla de la distribución NORMAL por si hiciera falta para algún ejercicio.",
+       "muestra_url": "manual:manual/extremadura/2026/Matematicas Ii junio examen.txt"
+      },
+      {
+       "id": "integrales",
+       "nombre": "Integrales y áreas",
+       "p": 0.846,
+       "veces": 8,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "b) Calcular el área del recinto limitado por la gráfica de g(x) y el eje X.",
+       "muestra_url": "manual:manual/extremadura/2026/Matematicas Ii junio examen.txt"
+      },
+      {
+       "id": "derivadas",
+       "nombre": "Derivadas y aplicaciones",
+       "p": 0.803,
+       "veces": 7,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "Materia : MATEMATICAS II Tiempo máximo de la prueba: 1h 30 min",
+       "muestra_url": "manual:manual/extremadura/2026/Matematicas Ii junio examen.txt"
+      },
+      {
+       "id": "sistemas",
+       "nombre": "Sistemas de ecuaciones (discusión)",
+       "p": 0.658,
+       "veces": 5,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "Considera el siguiente sistema de ecuaciones, donde k ∈ R: x+ y+ kz = k kx+ (k-1) y+ z = 2 x+ y+ z = 1",
+       "muestra_url": "manual:manual/extremadura/2026/Matematicas Ii junio examen.txt"
+      },
+      {
+       "id": "limites",
+       "nombre": "Límites y continuidad",
+       "p": 0.357,
+       "veces": 3,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "a) Estudiar y obtener las asíntotas de la función f.",
+       "muestra_url": "manual:manual/extremadura/2026/Matematicas Ii junio examen.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 7,
+      "aciertos": 7,
+      "tasa": 1.0,
+      "azar": 1.0,
+      "top": [
+       "matrices",
+       "geometria",
+       "probabilidad",
+       "integrales",
+       "derivadas",
+       "sistemas",
+       "limites"
+      ],
+      "reales": [
+       "derivadas",
+       "geometria",
+       "integrales",
+       "limites",
+       "matrices",
+       "probabilidad",
+       "sistemas"
+      ]
+     },
+     "confianza": "baja"
+    },
+    "movimientos": {
+     "nombre": "Movimientos Culturales y Artísticos",
+     "n_examenes": 3,
+     "anios": [
+      2024,
+      2025
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Movimientos Culturales Yartísticos julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Movimientos Culturales Yartísticos julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Movimientos Culturales Yartísticos junio examen.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "musica": {
+     "nombre": "Análisis Musical II / Historia de la Música",
+     "n_examenes": 10,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Análisis Musical Ii julio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Historia De La Música Yde La Danza julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Análisis Musical Ii julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Historia De La Música Yde La Danza julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Análisis Musical Ii junio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Historia De La Música Yde La Danza junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Análisis Musical Ii julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Historia De La Música Yde La Danza julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Análisis Musical Ii junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Historia De La Música Yde La Danza junio examen.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "portugues": {
+     "nombre": "Lengua Extranjera II: Portugués",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Lengua Extranjera - Portugués julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Lengua Extranjera - Portugués junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Lengua Extranjera - Portugués julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Lengua Extranjera - Portugués junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Lengua Extranjera - Portugués julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Lengua Extranjera – Portugués julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Lengua Extranjera – Portugués junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Lengua Extranjera - Portugués julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Lengua Extranjera-Portugués junio examen.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "quimica": {
+     "nombre": "Química",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2022/Química julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2022/Química junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2023/Química julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2023/Química junio examen.txt"
+      },
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Química julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Química julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Química junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Química julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Química junio examen.txt"
+      }
+     ],
+     "temas": [
+      {
+       "id": "equilibrio",
+       "nombre": "Equilibrio químico y solubilidad",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "b) Calcular la concentración de todas las especies en el equilibrio .",
+       "muestra_url": "manual:manual/extremadura/2026/Química junio examen.txt"
+      },
+      {
+       "id": "acidobase",
+       "nombre": "Ácido-base",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Ejercicio 1.2. Sean las moléculas CF 4 , CH 3 Br , H 2 O, PH 3 .",
+       "muestra_url": "manual:manual/extremadura/2026/Química junio examen.txt"
+      },
+      {
+       "id": "redox",
+       "nombre": "Redox y electroquímica",
+       "p": 0.9,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Ejercicio 3.3. (1,5 puntos) Para construir una pila se dispone de una lámina de cobre y otra de plata, y de",
+       "muestra_url": "manual:manual/extremadura/2026/Química junio examen.txt"
+      },
+      {
+       "id": "organica",
+       "nombre": "Química orgánica",
+       "p": 0.788,
+       "veces": 7,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "a) Formular y nombrar dos isómeros de cadena del compuesto C 5 H 1 2",
+       "muestra_url": "manual:manual/extremadura/2026/Química junio examen.txt"
+      },
+      {
+       "id": "enlace",
+       "nombre": "Enlace químico",
+       "p": 0.647,
+       "veces": 6,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "c) Razonar qué tipo de enlace se da entre los elementos cuyos números atómicos son 19 y 35 .",
+       "muestra_url": "manual:manual/extremadura/2026/Química junio examen.txt"
+      },
+      {
+       "id": "estructura",
+       "nombre": "Estructura atómica y tabla periódica",
+       "p": 0.536,
+       "veces": 5,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Ejercicio 1.1. Para cada uno de los elementos con la siguiente configuración electrónica:",
+       "muestra_url": "manual:manual/extremadura/2026/Química julio examen.txt"
+      },
+      {
+       "id": "termo",
+       "nombre": "Termoquímica y espontaneidad",
+       "p": 0.267,
+       "veces": 2,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "Ejercicio 3.2. (1,5 puntos) La entalpía de combustión de la glucosa (C 6 H 12 O 6 ) es - 2540 kJ·mol - 1 . Sabiendo que la",
+       "muestra_url": "manual:manual/extremadura/2026/Química julio examen.txt"
+      },
+      {
+       "id": "cinetica",
+       "nombre": "Cinética química",
+       "p": 0.249,
+       "veces": 3,
+       "de": 9,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "c) Razonar cómo variará la velocidad de reacción si:",
+       "muestra_url": "manual:manual/extremadura/2025/Química julio examen.txt"
+      }
+     ],
+     "validacion": {
+      "anio": 2026,
+      "k": 5,
+      "aciertos": 4,
+      "tasa": 0.8,
+      "azar": 0.62,
+      "top": [
+       "equilibrio",
+       "acidobase",
+       "redox",
+       "organica",
+       "estructura"
+      ],
+      "reales": [
+       "acidobase",
+       "enlace",
+       "equilibrio",
+       "organica",
+       "redox"
+      ]
+     },
+     "confianza": "alta"
+    },
+    "tecnologia": {
+     "nombre": "Tecnología e Ingeniería II",
+     "n_examenes": 5,
+     "anios": [
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2024,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2024/Tecnología Eingeniería Ii julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2025/Tecnología Eingeniería Ii julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2025/Tecnología Eingeniería Ii junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/extremadura/2026/Tecnología Eingeniería Ii julio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/extremadura/2026/Tecnología Eingeniería Ii junio examen.txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    }
+   },
+   "predecibilidad": 0.91
+  },
   "galicia": {
    "nombre": "Galicia",
    "materias": {
@@ -59036,638 +61950,638 @@
    {
     "id": "molecular",
     "nombre": "Genética molecular y biotecnología",
-    "p": 0.785,
-    "ccaa": 15
+    "p": 0.789,
+    "ccaa": 16
    },
    {
     "id": "biomoleculas",
     "nombre": "Biomoléculas",
-    "p": 0.772,
-    "ccaa": 15
+    "p": 0.777,
+    "ccaa": 16
    },
    {
     "id": "inmunologia",
     "nombre": "Inmunología",
-    "p": 0.719,
-    "ccaa": 15
+    "p": 0.725,
+    "ccaa": 16
    },
    {
     "id": "metabolismo",
     "nombre": "Metabolismo",
-    "p": 0.674,
-    "ccaa": 15
+    "p": 0.682,
+    "ccaa": 16
    },
    {
     "id": "celula",
     "nombre": "La célula",
-    "p": 0.65,
-    "ccaa": 15
+    "p": 0.659,
+    "ccaa": 16
    },
    {
     "id": "microbiologia",
     "nombre": "Microbiología",
     "p": 0.596,
-    "ccaa": 15
+    "ccaa": 16
    },
    {
     "id": "division",
     "nombre": "División celular",
-    "p": 0.482,
-    "ccaa": 15
+    "p": 0.494,
+    "ccaa": 16
    },
    {
     "id": "genetica",
     "nombre": "Genética mendeliana",
-    "p": 0.286,
-    "ccaa": 15
+    "p": 0.278,
+    "ccaa": 16
    }
   ],
   "dibujo": [
    {
     "id": "normalizacion",
     "nombre": "Normalización y vistas",
-    "p": 0.705,
-    "ccaa": 15
+    "p": 0.707,
+    "ccaa": 16
    },
    {
     "id": "axonometrico",
     "nombre": "Axonométrico y perspectiva",
-    "p": 0.649,
-    "ccaa": 15
+    "p": 0.652,
+    "ccaa": 16
    },
    {
     "id": "diedrico",
     "nombre": "Sistema diédrico",
-    "p": 0.582,
-    "ccaa": 15
+    "p": 0.587,
+    "ccaa": 16
    },
    {
     "id": "geometriaplana",
     "nombre": "Geometría plana (tangencias, transformaciones)",
-    "p": 0.545,
-    "ccaa": 15
+    "p": 0.546,
+    "ccaa": 16
    },
    {
     "id": "conicas",
     "nombre": "Cónicas",
-    "p": 0.455,
-    "ccaa": 15
+    "p": 0.461,
+    "ccaa": 16
    }
   ],
   "empresa": [
    {
     "id": "contabilidad",
     "nombre": "Balance y análisis financiero (ratios)",
-    "p": 0.772,
-    "ccaa": 15
+    "p": 0.771,
+    "ccaa": 16
    },
    {
     "id": "marketing",
     "nombre": "Marketing",
-    "p": 0.748,
-    "ccaa": 15
+    "p": 0.745,
+    "ccaa": 16
    },
    {
     "id": "financiacion",
     "nombre": "Inversión y financiación (VAN, TIR, payback)",
-    "p": 0.711,
-    "ccaa": 15
+    "p": 0.712,
+    "ccaa": 16
    },
    {
     "id": "produccion",
     "nombre": "Producción, costes y umbral de rentabilidad",
-    "p": 0.68,
-    "ccaa": 15
+    "p": 0.688,
+    "ccaa": 16
    },
    {
     "id": "modelonegocio",
     "nombre": "Modelo de negocio y emprendimiento (Canvas)",
-    "p": 0.441,
-    "ccaa": 15
+    "p": 0.439,
+    "ccaa": 16
    },
    {
     "id": "organizacion",
     "nombre": "Organización y dirección",
-    "p": 0.362,
-    "ccaa": 15
+    "p": 0.351,
+    "ccaa": 16
    }
   ],
   "filosofia": [
    {
     "id": "platon",
     "nombre": "Platón",
-    "p": 0.506,
-    "ccaa": 15
-   },
-   {
-    "id": "descartes",
-    "nombre": "Descartes",
-    "p": 0.351,
-    "ccaa": 15
+    "p": 0.515,
+    "ccaa": 16
    },
    {
     "id": "kant",
     "nombre": "Kant",
-    "p": 0.341,
-    "ccaa": 15
+    "p": 0.346,
+    "ccaa": 16
+   },
+   {
+    "id": "descartes",
+    "nombre": "Descartes",
+    "p": 0.34,
+    "ccaa": 16
    },
    {
     "id": "aristoteles",
     "nombre": "Aristóteles",
-    "p": 0.266,
-    "ccaa": 15
-   },
-   {
-    "id": "empirismo",
-    "nombre": "Hume / Locke",
-    "p": 0.249,
-    "ccaa": 15
+    "p": 0.258,
+    "ccaa": 16
    },
    {
     "id": "nietzsche",
     "nombre": "Nietzsche",
-    "p": 0.249,
-    "ccaa": 15
+    "p": 0.244,
+    "ccaa": 16
+   },
+   {
+    "id": "empirismo",
+    "nombre": "Hume / Locke",
+    "p": 0.242,
+    "ccaa": 16
    },
    {
     "id": "contemporanea",
     "nombre": "Filosofía contemporánea (Arendt, Wittgenstein, Beauvoir…)",
-    "p": 0.24,
-    "ccaa": 15
+    "p": 0.233,
+    "ccaa": 16
    },
    {
     "id": "medieval",
     "nombre": "Agustín de Hipona / Tomás de Aquino",
-    "p": 0.199,
-    "ccaa": 15
+    "p": 0.2,
+    "ccaa": 16
    },
    {
     "id": "marx",
     "nombre": "Marx",
-    "p": 0.175,
-    "ccaa": 15
+    "p": 0.173,
+    "ccaa": 16
    },
    {
     "id": "ortega",
     "nombre": "Ortega y Gasset",
-    "p": 0.086,
-    "ccaa": 15
+    "p": 0.085,
+    "ccaa": 16
    }
   ],
   "fisica": [
    {
     "id": "gravitacion",
     "nombre": "Campo gravitatorio",
-    "p": 0.786,
-    "ccaa": 15
+    "p": 0.788,
+    "ccaa": 16
    },
    {
     "id": "ondas",
     "nombre": "Ondas y sonido",
-    "p": 0.667,
-    "ccaa": 15
+    "p": 0.673,
+    "ccaa": 16
    },
    {
     "id": "optica",
     "nombre": "Óptica",
-    "p": 0.666,
-    "ccaa": 15
+    "p": 0.672,
+    "ccaa": 16
    },
    {
     "id": "electrico",
     "nombre": "Campo eléctrico",
-    "p": 0.66,
-    "ccaa": 15
+    "p": 0.664,
+    "ccaa": 16
    },
    {
     "id": "moderna",
     "nombre": "Física moderna (cuántica, nuclear, relatividad)",
-    "p": 0.657,
-    "ccaa": 15
+    "p": 0.662,
+    "ccaa": 16
    },
    {
     "id": "magnetico",
     "nombre": "Campo magnético e inducción",
-    "p": 0.656,
-    "ccaa": 15
+    "p": 0.657,
+    "ccaa": 16
    }
   ],
   "geografia": [
    {
     "id": "sectores",
     "nombre": "Sectores económicos",
-    "p": 0.658,
-    "ccaa": 15
+    "p": 0.662,
+    "ccaa": 16
    },
    {
     "id": "clima",
     "nombre": "Clima y aguas",
     "p": 0.614,
-    "ccaa": 15
+    "ccaa": 16
    },
    {
     "id": "poblacion",
     "nombre": "Población",
-    "p": 0.532,
-    "ccaa": 15
+    "p": 0.538,
+    "ccaa": 16
    },
    {
     "id": "relieve",
     "nombre": "Relieve",
-    "p": 0.492,
-    "ccaa": 15
+    "p": 0.496,
+    "ccaa": 16
    },
    {
     "id": "territorio",
     "nombre": "Organización territorial y Europa",
-    "p": 0.469,
-    "ccaa": 15
+    "p": 0.471,
+    "ccaa": 16
    },
    {
     "id": "urbano",
     "nombre": "Espacio urbano",
-    "p": 0.431,
-    "ccaa": 15
+    "p": 0.438,
+    "ccaa": 16
    }
   ],
   "geologia": [
    {
     "id": "tectonica",
     "nombre": "Tectónica y riesgos geológicos",
-    "p": 0.749,
-    "ccaa": 15
+    "p": 0.754,
+    "ccaa": 16
    },
    {
     "id": "minerales",
     "nombre": "Minerales y rocas",
-    "p": 0.737,
-    "ccaa": 15
+    "p": 0.733,
+    "ccaa": 16
    },
    {
     "id": "procesos",
     "nombre": "Procesos externos y mapas geológicos",
-    "p": 0.632,
-    "ccaa": 15
+    "p": 0.611,
+    "ccaa": 16
    },
    {
     "id": "recursos",
     "nombre": "Recursos y medio ambiente",
-    "p": 0.495,
-    "ccaa": 15
+    "p": 0.498,
+    "ccaa": 16
    }
   ],
   "griego": [
    {
     "id": "morfosintaxis",
     "nombre": "Morfosintaxis",
-    "p": 0.676,
-    "ccaa": 15
-   },
-   {
-    "id": "traduccion",
-    "nombre": "Traducción",
-    "p": 0.627,
-    "ccaa": 15
+    "p": 0.687,
+    "ccaa": 16
    },
    {
     "id": "lexico",
     "nombre": "Léxico y etimología",
-    "p": 0.585,
-    "ccaa": 15
+    "p": 0.6,
+    "ccaa": 16
+   },
+   {
+    "id": "traduccion",
+    "nombre": "Traducción",
+    "p": 0.599,
+    "ccaa": 16
    },
    {
     "id": "literatura",
     "nombre": "Literatura griega",
-    "p": 0.501,
-    "ccaa": 15
+    "p": 0.52,
+    "ccaa": 16
    }
   ],
   "historia": [
    {
     "id": "liberalismo",
     "nombre": "Crisis del Antiguo Régimen y liberalismo (1808-1874)",
-    "p": 0.343,
-    "ccaa": 15
+    "p": 0.342,
+    "ccaa": 16
    },
    {
     "id": "guerracivil",
     "nombre": "Guerra Civil (1936-1939)",
-    "p": 0.331,
-    "ccaa": 15
+    "p": 0.336,
+    "ccaa": 16
    },
    {
     "id": "franquismo",
     "nombre": "Franquismo (1939-1975)",
-    "p": 0.304,
-    "ccaa": 15
+    "p": 0.308,
+    "ccaa": 16
    },
    {
     "id": "restauracion",
     "nombre": "Restauración (1874-1931)",
     "p": 0.279,
-    "ccaa": 15
+    "ccaa": 16
    },
    {
     "id": "moderna",
     "nombre": "Monarquía hispánica (Reyes Católicos, Austrias, Borbones s. XVIII)",
-    "p": 0.241,
-    "ccaa": 15
+    "p": 0.238,
+    "ccaa": 16
    },
    {
     "id": "transicion",
     "nombre": "Transición y democracia",
-    "p": 0.231,
-    "ccaa": 15
+    "p": 0.23,
+    "ccaa": 16
    },
    {
     "id": "republica",
     "nombre": "Segunda República (1931-1936)",
-    "p": 0.224,
-    "ccaa": 15
+    "p": 0.223,
+    "ccaa": 16
    },
    {
     "id": "antigua",
     "nombre": "Prehistoria a Edad Media (Al-Ándalus, reinos cristianos)",
-    "p": 0.204,
-    "ccaa": 15
+    "p": 0.203,
+    "ccaa": 16
    }
   ],
   "ingles": [
    {
     "id": "writing",
     "nombre": "Redacción (opinión, carta, email)",
-    "p": 0.864,
-    "ccaa": 15
+    "p": 0.865,
+    "ccaa": 16
    },
    {
     "id": "reading",
     "nombre": "Comprensión lectora (true/false, preguntas)",
-    "p": 0.639,
-    "ccaa": 15
+    "p": 0.629,
+    "ccaa": 16
    },
    {
     "id": "vocab",
     "nombre": "Vocabulario (sinónimos, definiciones)",
-    "p": 0.56,
-    "ccaa": 15
+    "p": 0.57,
+    "ccaa": 16
    },
    {
     "id": "grammar",
     "nombre": "Gramática (reescritura, transformaciones)",
-    "p": 0.193,
-    "ccaa": 15
+    "p": 0.196,
+    "ccaa": 16
    },
    {
     "id": "mediation",
     "nombre": "Mediación",
     "p": 0.05,
-    "ccaa": 15
+    "ccaa": 16
    }
   ],
   "latin": [
    {
     "id": "traduccion",
     "nombre": "Traducción",
-    "p": 0.645,
-    "ccaa": 14
+    "p": 0.656,
+    "ccaa": 15
    },
    {
     "id": "morfosintaxis",
     "nombre": "Morfosintaxis",
-    "p": 0.608,
-    "ccaa": 14
+    "p": 0.621,
+    "ccaa": 15
    },
    {
     "id": "lexico",
     "nombre": "Léxico y etimología",
-    "p": 0.431,
-    "ccaa": 14
+    "p": 0.451,
+    "ccaa": 15
    },
    {
     "id": "literatura",
     "nombre": "Literatura latina",
-    "p": 0.417,
-    "ccaa": 14
+    "p": 0.438,
+    "ccaa": 15
    }
   ],
   "lengua": [
    {
     "id": "morfologia",
     "nombre": "Léxico, morfología y semántica",
-    "p": 0.485,
-    "ccaa": 15
+    "p": 0.488,
+    "ccaa": 16
    },
    {
     "id": "sintaxis",
     "nombre": "Sintaxis (oración compuesta)",
-    "p": 0.399,
-    "ccaa": 15
+    "p": 0.403,
+    "ccaa": 16
    },
    {
     "id": "argumentacion",
     "nombre": "Texto argumentativo / opinión",
-    "p": 0.335,
-    "ccaa": 15
+    "p": 0.339,
+    "ccaa": 16
    },
    {
     "id": "comprension",
     "nombre": "Comprensión y resumen del texto",
-    "p": 0.285,
-    "ccaa": 15
+    "p": 0.283,
+    "ccaa": 16
    },
    {
     "id": "novela",
     "nombre": "Novela del siglo XX y actual",
-    "p": 0.265,
-    "ccaa": 15
+    "p": 0.263,
+    "ccaa": 16
    },
    {
     "id": "teatro",
     "nombre": "Teatro del siglo XX",
-    "p": 0.217,
-    "ccaa": 15
+    "p": 0.216,
+    "ccaa": 16
    },
    {
     "id": "lit27",
     "nombre": "Literatura: 27, Lorca, poesía de posguerra",
-    "p": 0.176,
-    "ccaa": 15
+    "p": 0.175,
+    "ccaa": 16
    },
    {
     "id": "lit98",
     "nombre": "Literatura: Modernismo y 98, novecentismo",
-    "p": 0.161,
-    "ccaa": 15
+    "p": 0.16,
+    "ccaa": 16
    }
   ],
   "matccss": [
    {
     "id": "probabilidad",
     "nombre": "Probabilidad",
-    "p": 0.783,
-    "ccaa": 15
+    "p": 0.788,
+    "ccaa": 16
    },
    {
     "id": "inferencia",
     "nombre": "Inferencia y distribución normal",
-    "p": 0.628,
-    "ccaa": 15
+    "p": 0.639,
+    "ccaa": 16
    },
    {
     "id": "funciones",
     "nombre": "Funciones y derivadas",
-    "p": 0.618,
-    "ccaa": 15
+    "p": 0.621,
+    "ccaa": 16
    },
    {
     "id": "matrices",
     "nombre": "Matrices y sistemas",
-    "p": 0.591,
-    "ccaa": 15
+    "p": 0.604,
+    "ccaa": 16
    },
    {
     "id": "progl",
     "nombre": "Programación lineal",
-    "p": 0.408,
-    "ccaa": 15
+    "p": 0.393,
+    "ccaa": 16
    },
    {
     "id": "integrales",
     "nombre": "Integrales y áreas",
-    "p": 0.257,
-    "ccaa": 15
+    "p": 0.249,
+    "ccaa": 16
    }
   ],
   "matematicas2": [
    {
     "id": "geometria",
     "nombre": "Geometría en el espacio",
-    "p": 0.81,
-    "ccaa": 15
+    "p": 0.813,
+    "ccaa": 16
    },
    {
     "id": "probabilidad",
     "nombre": "Probabilidad y distribuciones",
-    "p": 0.761,
-    "ccaa": 15
+    "p": 0.766,
+    "ccaa": 16
    },
    {
     "id": "matrices",
     "nombre": "Matrices y determinantes",
-    "p": 0.718,
-    "ccaa": 15
+    "p": 0.725,
+    "ccaa": 16
    },
    {
     "id": "integrales",
     "nombre": "Integrales y áreas",
-    "p": 0.604,
-    "ccaa": 15
+    "p": 0.613,
+    "ccaa": 16
    },
    {
     "id": "derivadas",
     "nombre": "Derivadas y aplicaciones",
-    "p": 0.596,
-    "ccaa": 15
+    "p": 0.604,
+    "ccaa": 16
    },
    {
     "id": "sistemas",
     "nombre": "Sistemas de ecuaciones (discusión)",
-    "p": 0.567,
-    "ccaa": 15
+    "p": 0.57,
+    "ccaa": 16
    },
    {
     "id": "limites",
     "nombre": "Límites y continuidad",
-    "p": 0.492,
-    "ccaa": 15
+    "p": 0.487,
+    "ccaa": 16
    }
   ],
   "quimica": [
    {
     "id": "acidobase",
     "nombre": "Ácido-base",
-    "p": 0.829,
-    "ccaa": 14
+    "p": 0.832,
+    "ccaa": 15
    },
    {
     "id": "equilibrio",
     "nombre": "Equilibrio químico y solubilidad",
-    "p": 0.795,
-    "ccaa": 14
+    "p": 0.799,
+    "ccaa": 15
    },
    {
     "id": "organica",
     "nombre": "Química orgánica",
     "p": 0.785,
-    "ccaa": 14
+    "ccaa": 15
    },
    {
     "id": "redox",
     "nombre": "Redox y electroquímica",
-    "p": 0.658,
-    "ccaa": 14
-   },
-   {
-    "id": "termo",
-    "nombre": "Termoquímica y espontaneidad",
-    "p": 0.618,
-    "ccaa": 14
+    "p": 0.668,
+    "ccaa": 15
    },
    {
     "id": "enlace",
     "nombre": "Enlace químico",
+    "p": 0.605,
+    "ccaa": 15
+   },
+   {
+    "id": "termo",
+    "nombre": "Termoquímica y espontaneidad",
     "p": 0.603,
-    "ccaa": 14
+    "ccaa": 15
    },
    {
     "id": "estructura",
     "nombre": "Estructura atómica y tabla periódica",
     "p": 0.555,
-    "ccaa": 14
+    "ccaa": 15
    },
    {
     "id": "cinetica",
     "nombre": "Cinética química",
     "p": 0.259,
-    "ccaa": 14
+    "ccaa": 15
    }
   ],
   "historiaarte": [
    {
     "id": "sigloxix",
     "nombre": "Goya y siglo XIX",
-    "p": 0.409,
-    "ccaa": 14
-   },
-   {
-    "id": "clasico",
-    "nombre": "Arte clásico (Grecia y Roma)",
-    "p": 0.32,
-    "ccaa": 14
-   },
-   {
-    "id": "barroco",
-    "nombre": "Barroco",
-    "p": 0.312,
-    "ccaa": 14
+    "p": 0.393,
+    "ccaa": 15
    },
    {
     "id": "renacimiento",
     "nombre": "Renacimiento",
-    "p": 0.31,
-    "ccaa": 14
+    "p": 0.319,
+    "ccaa": 15
+   },
+   {
+    "id": "clasico",
+    "nombre": "Arte clásico (Grecia y Roma)",
+    "p": 0.305,
+    "ccaa": 15
+   },
+   {
+    "id": "barroco",
+    "nombre": "Barroco",
+    "p": 0.305,
+    "ccaa": 15
    },
    {
     "id": "vanguardias",
     "nombre": "Vanguardias y siglo XX",
-    "p": 0.283,
-    "ccaa": 14
+    "p": 0.278,
+    "ccaa": 15
    },
    {
     "id": "medieval",
     "nombre": "Románico y gótico",
-    "p": 0.263,
-    "ccaa": 14
+    "p": 0.25,
+    "ccaa": 15
    }
   ]
  }
