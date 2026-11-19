@@ -1,0 +1,244 @@
+{
+ "ccaa": "baleares",
+ "materia": "geologia",
+ "titulo": "PAU 2027 · Geología y Ciencias Ambientales · Illes Balears",
+ "duracion_min": 90,
+ "instrucciones": "Responde obligatoriamente la pregunta del bloque 1 y dos de las cuatro preguntas de cada uno de los bloques 2 y 3. En el bloque 4, responde una pregunta de minerales (4.1 o 4.2) y una de rocas (4.3 o 4.4). En el bloque 5, responde una pregunta sobre las capas fluidas de la Tierra (5.1 o 5.2) y una sobre recursos y gestión sostenible (5.3 o 5.4). Cada pregunta indica su puntuación; la puntuación máxima de las preguntas que debes responder es de 10 puntos. Se valorarán la coherencia, la corrección y la presentación. Duración: 90 minutos. Contesta con bolígrafo azul o negro; no se permite material auxiliar.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "tectonica",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Durante las obras de un túnel se elabora este esquema descriptivo de un corte geológico. En la base aflora un basamento metamórfico M atravesado por una intrusión granítica G, que genera una aureola de metamorfismo de contacto. Una superficie erosiva U1 corta M y G. Sobre ella se depositaron, en este orden, las capas sedimentarias A, B y C. Las tres capas están plegadas formando un anticlinal. Una falla normal F corta y desplaza el pliegue. Una segunda superficie erosiva U2 trunca las capas plegadas y la falla; encima se depositó horizontalmente la capa D. Un dique basáltico corta las unidades anteriores y alimenta una colada que cubre D. La erosión actual ha modelado la superficie del terreno y corta también la colada. Explica, de más antiguo a más reciente, la historia geológica representada. Identifica y clasifica U1 y U2, e incluye las etapas de deformación.",
+   "solucion": "### Método\nSe aplica la datación relativa mediante relaciones de corte y truncación, en vez de deducir la secuencia solo por la posición de las capas. Una estructura cortada es anterior a la que la corta; una superficie erosiva es anterior a los materiales que se depositan encima.\n\n### Historia geológica, de más antiguo a más reciente\n1. Se forma y metamorfiza el basamento **M**.\n2. La intrusión del granito **G** corta M y produce en él una aureola de metamorfismo de contacto. Por tanto, G es posterior a M.\n3. La erosión genera **U1**, que corta tanto M como G. Es una **inconformidad** (discordancia basal erosiva entre rocas cristalinas ígneas o metamórficas y las sedimentarias suprayacentes), no una discordancia angular.\n4. Sobre U1 se depositan sucesivamente las capas sedimentarias **A, B y C**.\n5. Una etapa tectónica de plegamiento, compatible con acortamiento, pliega las tres capas y forma el anticlinal.\n6. Después, una etapa de fallamiento normal desplaza el pliegue. La falla **F** es posterior al plegamiento porque lo corta.\n7. La erosión forma **U2**, que trunca las capas plegadas y F. Es una **discordancia angular**, pues separa estratos deformados de una capa suprayacente horizontal.\n8. Se deposita horizontalmente la capa **D** sobre U2.\n9. Se emplaza un dique basáltico que corta las unidades anteriores y alimenta una colada que cubre D. El dique y la colada pertenecen al mismo episodio volcánico; el magma asciende por el dique y alcanza la superficie.\n10. La erosión actual modela el relieve y corta también la colada, por lo que es el episodio más reciente.\n\n### Comprobación\nLa secuencia respeta las relaciones indicadas: G corta M; U1 corta M y G, pero queda bajo A; el plegamiento afecta A, B y C; F corta y desplaza el pliegue; U2 trunca F y las capas plegadas, pero queda bajo D; el dique corta unidades anteriores y alimenta la colada sobre D; y la erosión actual corta la colada.",
+   "resultado": "M y metamorfismo → intrusión G y aureola → U1 (inconformidad) → depósito A-B-C → plegamiento anticlinal → falla normal F → U2 (discordancia angular) → depósito horizontal D → dique y colada basálticos → erosión actual.",
+   "criterios": "Total: 2 puntos. Basamento M, intrusión G, aureola y relación temporal: 0,40 puntos. Identificación y clasificación de U1 y depósito ordenado de A-B-C: 0,30 puntos. Plegamiento anticlinal y reconocimiento de la etapa de deformación: 0,45 puntos. Falla normal posterior al plegamiento: 0,30 puntos. Identificación y clasificación de U2 y depósito horizontal de D: 0,30 puntos. Dique, colada y erosión actual como episodio final: 0,25 puntos. Se valorará que la secuencia esté justificada mediante relaciones de corte y truncación.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.1",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En un afloramiento junto a una carretera se observa un plano de falla que buza hacia el norte. El bloque situado al norte es el bloque de techo y se ha desplazado 4 m hacia abajo respecto al bloque meridional. Identifica el tipo de falla y justifica qué régimen tectónico indica.",
+   "solucion": "1. El bloque de techo es el situado al norte; el bloque meridional es el de muro. 2. El techo se ha desplazado 4 m hacia abajo respecto al muro. 3. Cuando el bloque de techo desciende respecto al de muro, la falla es **normal**. 4. Este desplazamiento es compatible con un régimen tectónico **distensivo o extensional**, que produce el alargamiento de la corteza. **Comprobación:** el descenso relativo del techo corresponde a una falla normal, no a una inversa, cuyo techo ascendería.",
+   "resultado": "Falla normal, indicativa de un régimen tectónico distensivo o extensional.",
+   "criterios": "1 punto: 0,5 por identificar correctamente la falla como normal y 0,5 por justificar que indica un régimen distensivo o extensional a partir del descenso del bloque de techo.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.2",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una zona oceánica, las mediciones GPS muestran que una placa oceánica se acerca a una placa continental a 5 cm/año. En el margen se observan una fosa oceánica y una alineación de volcanes en el continente. Identifica el tipo de límite de placas y explica qué proceso genera la fosa y el vulcanismo.",
+   "solucion": "El acercamiento de las placas, a razón de $5\\ \\text{cm/año}$, indica un límite convergente. Como una placa oceánica converge con una continental, la placa oceánica, más densa, se introduce bajo la continental: es un proceso de subducción. La flexión y el hundimiento de la placa oceánica en el fondo marino originan la fosa. Al descender, la placa libera fluidos que favorecen la fusión parcial del manto situado sobre ella; el magma generado asciende y produce el vulcanismo continental, que forma una alineación de volcanes.",
+   "resultado": "Límite convergente oceánico-continental con subducción de la placa oceánica; la subducción origina la fosa y favorece la fusión del manto, cuyo magma genera el vulcanismo continental.",
+   "criterios": "Puntuación total: 1 punto. Identificación del límite convergente oceánico-continental: 0,2 puntos. Explicación de la subducción de la placa oceánica bajo la continental: 0,2 puntos. Relación entre el hundimiento de la placa y la formación de la fosa: 0,2 puntos. Explicación del vulcanismo mediante la liberación de fluidos, la fusión parcial del manto y el ascenso del magma: 0,4 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.3",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Una estación sismológica registra una diferencia de 20 s entre la llegada de las ondas P y las ondas S. Considera que sus velocidades son, respectivamente, 6 km/s y 3 km/s. Calcula la distancia entre la estación y el foco sísmico mediante $\\Delta t=d(1/v_S-1/v_P)$.",
+   "solucion": "La diferencia entre los tiempos de llegada cumple $\\Delta t=d\\left(\\frac{1}{v_S}-\\frac{1}{v_P}\\right)$. Despejamos la distancia:\n\n$$d=\\frac{\\Delta t}{\\frac{1}{v_S}-\\frac{1}{v_P}}$$\n\nSustituyendo los datos:\n\n$$d=\\frac{20\\ \\text{s}}{\\frac{1}{3\\ \\text{km/s}}-\\frac{1}{6\\ \\text{km/s}}}=\\frac{20}{\\frac{1}{6}}\\ \\text{km}=120\\ \\text{km}$$\n\nLa distancia entre la estación y el foco sísmico es $120\\ \\text{km}$.",
+   "resultado": "La distancia entre la estación y el foco sísmico es 120 km.",
+   "criterios": "1 punto en total: 0,25 por plantear correctamente la relación entre la diferencia de tiempos y la distancia; 0,50 por sustituir los datos y calcular $d=120$; 0,25 por expresar el resultado con la unidad correcta (km).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.4",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Un equipo municipal compara el índice de riesgo sísmico de dos localidades mediante el modelo $I=P\\times E\\times V$, donde P es la peligrosidad, E la exposición y V la vulnerabilidad, todas expresadas como valores entre 0 y 1. Para la localidad A: P = 0,6, E = 0,8 y V = 0,5. Para la localidad B: P = 0,8, E = 0,4 y V = 0,5. Calcula ambos índices e indica en cuál de las dos localidades es mayor el riesgo según este modelo.",
+   "solucion": "El índice se calcula mediante $I=P\\times E\\times V$.\n\n- Localidad A: $I_A=0{,}6\\times0{,}8\\times0{,}5=0{,}24$.\n- Localidad B: $I_B=0{,}8\\times0{,}4\\times0{,}5=0{,}16$.\n\nComo $0{,}24>0{,}16$, el riesgo según este modelo es mayor en la localidad A.",
+   "resultado": "Localidad A: 0,24; localidad B: 0,16. El riesgo es mayor en la localidad A.",
+   "criterios": "Total: 1 punto. Planteamiento correcto del modelo y sustitución de los datos: 0,25 puntos. Cálculo del índice de A (0,24): 0,25 puntos. Cálculo del índice de B (0,16): 0,25 puntos. Comparación correcta e identificación de A como la localidad de mayor riesgo: 0,25 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.1",
+   "tema": "procesos",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una zona árida se observa una duna aislada, de planta creciente, cuyos dos extremos o cuernos apuntan hacia el noreste. Identifica el tipo de duna e indica la dirección y el sentido del viento predominante.",
+   "solucion": "1. La planta creciente y aislada corresponde a una **duna barján** o **barkhan**.\n2. Los cuernos de un barján apuntan en el sentido de desplazamiento de la duna, es decir, a favor del viento. Como apuntan hacia el noreste, el viento sopla **desde el suroeste hacia el noreste**.\n3. Comprobación: el sentido del viento coincide con la dirección a la que apuntan los cuernos.",
+   "resultado": "Duna barján; viento del suroeste hacia el noreste (SO → NE).",
+   "criterios": "1 punto: 0,5 por identificar correctamente la duna como barján y 0,5 por indicar que el viento sopla del suroeste hacia el noreste.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.2",
+   "tema": "procesos",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Después de una tormenta intensa en una cuenca de montaña, una mezcla de agua, barro y abundantes fragmentos de roca desciende rápidamente por un barranco y se acumula en forma de abanico al salir a una llanura. Identifica el proceso y la forma de depósito. Indica un riesgo concreto para las viviendas construidas sobre esa forma.",
+   "solucion": "1. **Proceso:** es un **flujo de derrubios** o **colada de detritos**, una corriente rápida de agua cargada de barro y fragmentos rocosos que desciende por el barranco.\n2. **Forma de depósito:** al perder velocidad al salir a la llanura, el material se acumula en un **abanico aluvial** (o abanico de derrubios).\n3. **Riesgo para las viviendas:** un nuevo flujo puede alcanzar el abanico y **sepultar o destruir las viviendas** por el impacto y la acumulación de agua, barro y bloques.\n\n**Comprobación:** la mezcla de agua y abundantes fragmentos, el descenso rápido por un barranco y la deposición en abanico al llegar a una llanura son rasgos coherentes con un flujo de derrubios y un abanico aluvial.",
+   "resultado": "Flujo de derrubios; abanico aluvial; riesgo de sepultamiento o destrucción de las viviendas.",
+   "criterios": "1 punto: 0,4 por identificar correctamente el flujo de derrubios; 0,3 por identificar el abanico aluvial; 0,3 por señalar un riesgo concreto para las viviendas, como sepultamiento o destrucción.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.3",
+   "tema": "procesos",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una región de calizas, un arroyo desaparece bajo tierra y el terreno presenta depresiones circulares y cavidades subterráneas. Identifica el proceso geomorfológico principal y relaciona las formas observadas con dicho proceso.",
+   "solucion": "### Razonamiento paso a paso\n1. La región está formada por calizas, rocas que pueden disolverse al entrar en contacto con agua ligeramente ácida.\n2. El arroyo que desaparece bajo tierra indica que el agua se infiltra por una abertura o sumidero, también denominado ponor, y continúa su recorrido bajo la superficie.\n3. Las depresiones circulares son dolinas: se forman por disolución de la caliza y, en algunos casos, por el hundimiento del terreno sobre cavidades.\n4. Las cavidades subterráneas son conductos y cavernas excavados principalmente por la disolución de la roca por el agua. La reacción puede representarse como $\\mathrm{CaCO_3 + CO_2 + H_2O \\rightarrow Ca^{2+} + 2HCO_3^-}$.\n\n**Proceso geomorfológico principal:** karstificación o modelado kárstico, producido sobre calizas por disolución. La infiltración del arroyo, las dolinas y las cavidades son formas superficiales y subterráneas propias de ese proceso.\n\n**Comprobación:** las tres formas descritas requieren circulación e infiltración de agua en una roca soluble, por lo que son coherentes con la karstificación y no con un proceso exclusivamente erosivo superficial.",
+   "resultado": "Karstificación de las calizas: genera dolinas, sumideros y cavidades subterráneas por disolución e infiltración del agua.",
+   "criterios": "1 punto en total: 0,4 puntos por identificar la karstificación como proceso principal; 0,2 puntos por relacionar la desaparición del arroyo con un sumidero o ponor y la infiltración; 0,2 puntos por identificar las depresiones como dolinas; 0,2 puntos por relacionar las cavidades con la disolución subterránea de la caliza. Se aceptan formulaciones equivalentes científicamente correctas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.4",
+   "tema": "procesos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "En un mapa topográfico de escala 1:20.000, la distancia horizontal entre dos puntos del mismo cauce mide 3 cm. La cota del punto inicial es 460 m y la del punto final, 340 m. Calcula la pendiente media del tramo en porcentaje, usando $i=(\\Delta h/L)\\times100$.",
+   "solucion": "1. **Distancia horizontal real:** la escala $1:20.000$ indica que $1$ cm en el mapa equivale a $20.000$ cm en el terreno. Por tanto, $L=3\\times20.000=60.000$ cm $=600$ m.\n2. **Desnivel:** $\\Delta h=|460-340|=120$ m.\n3. **Pendiente media:** $i=(\\Delta h/L)\\times100=(120/600)\\times100=20\\%$.",
+   "resultado": "20 %",
+   "criterios": "1,0 punto: conversión correcta de la distancia según la escala y expresión en metros (0,4); cálculo correcto del desnivel de 120 m (0,2); aplicación de la fórmula y resultado de 20 % (0,4).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.1",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una práctica de identificación se describen dos muestras. La muestra A tiene dureza 3, presenta exfoliación romboédrica y produce efervescencia al añadirle ácido clorhídrico diluido. La muestra B tiene dureza 2, se raya con la uña y presenta una exfoliación perfecta en una dirección. Identifica y nombra los dos minerales a partir de sus propiedades.",
+   "solucion": "### Identificación mediante una clave de propiedades\n\nEn vez de partir de una lista de minerales, se pueden usar primero las propiedades más diagnósticas y comprobar después que coinciden las restantes.\n\n1. **Muestra A:** la efervescencia con ácido clorhídrico diluido indica un mineral carbonatado. La dureza 3 y la exfoliación romboédrica confirman que es **calcita**.\n2. **Muestra B:** una dureza 2 permite que se raye con la uña; la exfoliación perfecta en una dirección es característica del **yeso**.\n\n**Comprobación:** la calcita presenta dureza 3, exfoliación romboédrica y efervescencia con ácido diluido; el yeso tiene dureza 2, se raya con la uña y presenta exfoliación perfecta en una dirección. Las propiedades descritas son coherentes con ambas identificaciones.",
+   "resultado": "Muestra A: calcita. Muestra B: yeso.",
+   "criterios": "1 punto en total: 0,5 puntos por identificar correctamente la muestra A como calcita y relacionar la identificación con sus propiedades diagnósticas; 0,5 puntos por identificar correctamente la muestra B como yeso y relacionarla con su dureza y exfoliación.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.2",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una colección de materiales volcánicos se conserva una pieza de obsidiana natural, sólida e inorgánica. Su estructura es vítrea y carece de orden cristalino. Explica si debe clasificarse como mineral y justifica la respuesta mediante los criterios de definición de mineral.",
+   "solucion": "### Comprobación de los criterios de mineral\n\n1. **Origen natural:** sí; la obsidiana se forma naturalmente por el enfriamiento rápido de lava.\n2. **Naturaleza inorgánica:** sí.\n3. **Estado sólido:** sí.\n4. **Composición química definida:** no suele presentar una composición fija expresable mediante una fórmula única; su composición puede variar.\n5. **Estructura cristalina ordenada:** no; la obsidiana tiene estructura vítrea y carece de orden cristalino de largo alcance.\n\nLa obsidiana cumple varios criterios, pero no cumple el de estructura cristalina, requisito de la definición habitual de mineral. Por tanto, **no se clasifica como mineral**, sino como un vidrio volcánico o **mineraloide**. La ausencia de estructura cristalina basta para justificar la conclusión.\n\n**Comprobación final:** al aplicar los criterios de forma conjunta, basta que falle uno de los requisitos definitorios; en este caso falla el de estructura cristalina, así que la conclusión es coherente.",
+   "resultado": "La obsidiana no es un mineral: es un vidrio volcánico o mineraloide porque carece de estructura cristalina.",
+   "criterios": "Total: 1 punto. 0,25 puntos por indicar correctamente los criterios definitorios relevantes de mineral; 0,25 por reconocer que la obsidiana es natural, inorgánica y sólida; 0,25 por señalar que su estructura vítrea carece de orden cristalino; 0,25 por concluir, con justificación, que no es un mineral y que se considera vidrio volcánico o mineraloide. La mención de la composición variable puede reforzar la respuesta, pero no es imprescindible si se identifica correctamente la ausencia de estructura cristalina.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.3",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En un corte de carretera se recoge una roca ígnea con cristales visibles e intercrecidos de cuarzo, feldespato potásico y mica. La textura indica un enfriamiento lento a cierta profundidad. Identifica la roca y clasifícala según su lugar de formación.",
+   "solucion": "1. La asociación de cuarzo, feldespato potásico y mica, junto con los cristales visibles e intercrecidos, identifica la roca como un **granito**.\n2. Su textura de grano grueso indica que el magma se enfrió lentamente a cierta profundidad.\n3. Por su lugar de formación, se clasifica como roca **plutónica o intrusiva**, formada en el interior de la corteza.",
+   "resultado": "La roca es un granito, de origen plutónico o intrusivo.",
+   "criterios": "1 punto: 0,5 por identificar correctamente la roca como granito y 0,5 por clasificarla como plutónica o intrusiva, relacionando su textura de cristales visibles con el enfriamiento lento en profundidad.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.4",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una roca sedimentaria está formada por fragmentos de más de 2 mm, mayoritariamente redondeados, unidos por un cemento. Indica su nombre y clasifícala según el origen de sus componentes.",
+   "solucion": "1. **Tamaño de los fragmentos:** son mayores de $2\\,\\text{mm}$, por lo que se trata de una roca sedimentaria detrítica de grano grueso.\n2. **Forma de los fragmentos:** son mayoritariamente redondeados; esta característica permite distinguirla de una brecha, cuyos fragmentos son angulosos.\n3. **Nombre y origen:** la roca es un **conglomerado** (o rudita) y, por estar formada por fragmentos de rocas o minerales preexistentes, se clasifica como **detrítica o clástica**.\n4. **Comprobación:** tanto el tamaño superior a $2\\,\\text{mm}$ como el redondeamiento de los clastos concuerdan con un conglomerado.",
+   "resultado": "Conglomerado (rudita), de origen detrítico o clástico.",
+   "criterios": "1,0 punto: 0,5 puntos por identificar la roca como conglomerado (o rudita), atendiendo al tamaño y redondeamiento de los fragmentos; 0,5 puntos por clasificarla como detrítica o clástica. Se aceptan denominaciones equivalentes correctas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5.1",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Una comunidad insular estima que su acuífero recibe una recarga anual de 1,8 hm³. En el mismo periodo se extraen 1,2 hm³ y se descargan de forma natural 0,3 hm³. Calcula el cambio anual de almacenamiento mediante $\\Delta S=R-B-D_n$, donde R es la recarga, B la extracción por bombeo y $D_n$ la descarga natural. Indica si las reservas aumentan o disminuyen.",
+   "solucion": "Aplicamos el balance indicado:\n\n$$\\Delta S=R-B-D_n$$\n\nSustituimos los datos, expresados en hm³/año:\n\n$$\\Delta S=1{,}8-1{,}2-0{,}3=+0{,}3\\ \\text{hm}^3/\\text{año}$$\n\nEl cambio es positivo; por tanto, las reservas del acuífero **aumentan** en 0,3 hm³ durante el año.",
+   "resultado": "ΔS=+0,3 hm³/año; las reservas aumentan.",
+   "criterios": "1 punto: 0,5 puntos por plantear y calcular correctamente ΔS=R−B−Dₙ=1,8−1,2−0,3=+0,3 hm³/año; 0,5 puntos por interpretar correctamente que, al ser positivo el cambio, las reservas aumentan.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5.2",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una estación meteorológica costera se mide, durante un día soleado de verano, una temperatura de 30 °C sobre la tierra y de 23 °C sobre el mar. Indica el sentido del viento de superficie esperado y explica brevemente el proceso que lo origina.",
+   "solucion": "1. La tierra alcanza una temperatura mayor que el mar: $30\\ ^\\circ\\mathrm{C}$ frente a $23\\ ^\\circ\\mathrm{C}$.\n2. El aire sobre la tierra se calienta más, se dilata y asciende, por lo que queda una zona de presión relativamente baja en superficie.\n3. El aire sobre el mar permanece más frío y denso, y genera una presión relativamente mayor.\n4. El gradiente de presión impulsa el viento de superficie desde el mar hacia la tierra: es una brisa marina. En altura suele establecerse el retorno hacia el mar.\n5. Comprobación: el sentido indicado lleva aire desde la zona más fría y de mayor presión hacia la más cálida y de menor presión, como corresponde a la circulación de brisa marina durante el día.",
+   "resultado": "Viento de superficie del mar hacia la tierra (brisa marina), originado por el calentamiento desigual de ambas superficies.",
+   "criterios": "Puntuación total: 1 punto. 0,4 puntos por indicar correctamente que el viento de superficie sopla del mar hacia la tierra. 0,6 puntos por explicar el origen térmico y la circulación: calentamiento más intenso de la tierra, ascenso del aire cálido y establecimiento de un gradiente de presión que impulsa aire desde el mar, más frío y de mayor presión relativa.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5.3",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Una iniciativa de economía circular recupera 2.000 toneladas de cobre al año para cubrir parte de una demanda anual de 8.000 toneladas. Calcula qué porcentaje de la demanda queda cubierto con el cobre reciclado.",
+   "solucion": "El porcentaje de la demanda cubierta se calcula dividiendo la cantidad de cobre reciclado entre la demanda total y multiplicando por $100$:\n\n$$\\frac{2.000\\ \\text{t/año}}{8.000\\ \\text{t/año}}\\times 100=25\\%$$\n\nPor tanto, el cobre reciclado cubre el $25\\%$ de la demanda anual.",
+   "resultado": "El cobre reciclado cubre el 25 % de la demanda anual.",
+   "criterios": "1 punto: planteamiento correcto del porcentaje como (cobre reciclado / demanda anual) × 100 (0,5 puntos) y cálculo correcto, con resultado expresado como 25 % (0,5 puntos).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5.4",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Una localidad consume 1,5 hm³ de agua potable al año. Un proyecto de reutilización suministra 0,45 hm³ anuales de agua regenerada para usos que no requieren calidad potable, sustituyendo esa misma cantidad de agua de origen natural. Calcula qué porcentaje de la demanda anual queda cubierto por el agua regenerada.",
+   "solucion": "La demanda anual de agua potable es $1{,}5\\ \\text{hm}^3$ y el agua regenerada que la sustituye es $0{,}45\\ \\text{hm}^3$. El porcentaje cubierto se calcula respecto a la demanda total:\n\n$$\\text{Porcentaje} = \\frac{0{,}45}{1{,}5} \\times 100 = 30\\,\\%$$\n\nPor tanto, el agua regenerada cubre el 30 % de la demanda anual.",
+   "resultado": "El agua regenerada cubre el 30 % de la demanda anual.",
+   "criterios": "1 punto: planteamiento correcto del porcentaje respecto a la demanda anual total (0,5 puntos) y cálculo correcto, con resultado expresado como porcentaje (0,5 puntos).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "tectonica",
+   "p": 0.761
+  },
+  {
+   "id": "minerales",
+   "p": 0.711
+  },
+  {
+   "id": "recursos",
+   "p": 0.295
+  },
+  {
+   "id": "procesos",
+   "p": 0.207
+  }
+ ],
+ "referencias": [
+  "manual:manual/baleares/2026/Geología y Ciencias Ambientales junio examen __GEOB.txt",
+  "manual:manual/baleares/2026/Geología y Ciencias Ambientales julio examen __GEOB.txt",
+  "manual:manual/baleares/2022/Geología y Ciencias Ambientales junio examen __GEOB.txt",
+  "manual:manual/baleares/2023/Geología y Ciencias Ambientales julio examen __GEOB.txt",
+  "manual:manual/baleares/2023/Geología y Ciencias Ambientales junio examen __GEOB.txt",
+  "manual:manual/baleares/2025/Geología y Ciencias Ambientales julio examen __GEOB.txt",
+  "manual:manual/baleares/2026/Geología y Ciencias Ambientales julio examen __GEOB.txt",
+  "manual:manual/baleares/2026/Geología y Ciencias Ambientales junio examen __GEOB.txt"
+ ]
+}
