@@ -1,0 +1,120 @@
+{
+ "ccaa": "baleares",
+ "materia": "matccss",
+ "titulo": "PAU 2027 — Matemáticas Aplicadas a las Ciencias Sociales II — Modelo propuesto",
+ "duracion_min": 90,
+ "instrucciones": "La prueba consta de tres partes. En la parte A hay que contestar todos los problemas. En las partes B y C hay que contestar solamente uno de los dos problemas de cada parte; si se contestan los dos, solo se evaluará el primero. La puntuación total de las respuestas evaluadas es de 10 puntos. No se permite el uso de calculadoras gráficas ni programables, ni de dispositivos que puedan transmitir o almacenar información. Se adjunta la tabla de la distribución normal estándar.",
+ "preguntas": [
+  {
+   "n": "A1",
+   "tema": "probabilidad",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Una empresa envasa semillas en dos líneas de producción. La línea $L_1$ prepara el $60\\%$ de los paquetes y la línea $L_2$ prepara el resto. En los controles de calidad se observa que el $2\\%$ de los paquetes de $L_1$ y el $5\\%$ de los de $L_2$ no supera la prueba de germinación. Se selecciona un paquete al azar. Sea $D$ el suceso de que no supere la prueba. a) Calcula la probabilidad de que el paquete seleccionado no supere la prueba. (1 punto) b) Sabiendo que el paquete no ha superado la prueba, calcula la probabilidad de que proceda de la línea $L_2$. (1 punto)",
+   "solucion": "Sea $D$ el suceso de que el paquete no supera la prueba. Las líneas forman una partición y sus probabilidades son $P(L_1)=0.60$ y $P(L_2)=0.40$.\n\n**a) Probabilidad de no superar la prueba**\n\nAplicamos la ley de la probabilidad total:\n\n$P(D)=P(L_1)P(D|L_1)+P(L_2)P(D|L_2)$\n\n$P(D)=0.60\\cdot0.02+0.40\\cdot0.05=0.012+0.020=0.032$.\n\nPor tanto, la probabilidad es $0.032$, es decir, un $3.2\\%$.\n\n**b) Probabilidad de que proceda de $L_2$, sabiendo que no supera la prueba**\n\nAplicamos el teorema de Bayes:\n\n$P(L_2|D)=\\dfrac{P(L_2)P(D|L_2)}{P(D)}=\\dfrac{0.40\\cdot0.05}{0.032}=\\dfrac{0.020}{0.032}=0.625$.\n\nPor tanto, la probabilidad es $0.625=\\dfrac{5}{8}$, es decir, un $62.5\\%$.",
+   "resultado": "a) $P(D)=0.032$ (3.2%). b) $P(L_2|D)=0.625$ (62.5%).",
+   "criterios": "a) 1 punto: 0.5 por aplicar correctamente la ley de la probabilidad total, identificando las probabilidades de ambas líneas y sus tasas de fallo; 0.5 por obtener $P(D)=0.032$ (3.2%). b) 1 punto: 0.5 por plantear correctamente el teorema de Bayes; 0.5 por obtener $P(L_2|D)=0.625$ (62.5%).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "A2",
+   "tema": "inferencia",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "El tiempo diario de desplazamiento de las personas que trabajan en una localidad se modeliza mediante una distribución normal de media $30$ minutos y desviación típica $5$ minutos. a) Calcula la proporción de personas cuyo desplazamiento dura entre $25$ y $35$ minutos. (1 punto) b) Una persona pertenece al $10\\%$ que realiza los desplazamientos más largos. Estima el menor tiempo de desplazamiento que puede tener, redondeando al minuto más próximo. (1 punto)",
+   "solucion": "### a) Proporción entre 25 y 35 minutos\n\nSea $X$ el tiempo de desplazamiento. Entonces $X\\sim N(30,5)$, donde la media es $30$ minutos y la desviación típica es $5$ minutos. Estandarizamos los extremos:\n\n$$z_1=\\frac{25-30}{5}=-1,\\qquad z_2=\\frac{35-30}{5}=1.$$\n\nPor tanto,\n\n$$P(25<X<35)=P(-1<Z<1)=\\Phi(1)-\\Phi(-1)=2\\Phi(1)-1\\approx 0{,}682689.$$\n\nLa proporción es aproximadamente $0{,}6827$, es decir, un $68{,}27\\%$.\n\n### b) Umbral del 10 % de desplazamientos más largos\n\nEl límite inferior de ese grupo es el percentil $90$ de la distribución. Si $z_{0{,}90}$ satisface $\\Phi(z_{0{,}90})=0{,}90$, entonces $z_{0{,}90}\\approx 1{,}2816$. El tiempo correspondiente es\n\n$$t=30+5z_{0{,}90}\\approx 30+5(1{,}2816)=36{,}4078\\text{ minutos}.$$\n\nRedondeando al minuto más próximo, el menor tiempo estimado es $36$ minutos.",
+   "resultado": "a) 0,682689 (68,27 %); b) 36 minutos.",
+   "criterios": "Total: 2 puntos. a) 1 punto: 0,25 por estandarizar correctamente los extremos; 0,50 por plantear y calcular la probabilidad entre ambos valores tipificados; 0,25 por expresar la proporción final (también se acepta el porcentaje). b) 1 punto: 0,25 por identificar que se necesita el percentil 90; 0,50 por calcular el cuantil y transformarlo a minutos; 0,25 por redondear correctamente al minuto más próximo.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "B1",
+   "tema": "progl",
+   "puntos": 3,
+   "tipo": "abierta",
+   "enunciado": "Un taller fabrica dos tipos de kits de reparación para bicicletas, A y B. Cada kit A requiere $2$ horas de trabajo y un conector; cada kit B requiere $1$ hora de trabajo y dos conectores. El taller dispone de un máximo de $24$ horas de trabajo y $30$ conectores. El beneficio es de $40$ euros por cada kit A y de $30$ euros por cada kit B. ¿Cuántos kits de cada tipo debe fabricar para maximizar el beneficio? Formula las restricciones, determina la región factible y justifica que la solución obtenida es óptima. (3 puntos)",
+   "solucion": "Sea $x$ el número de kits A e $y$ el número de kits B. El beneficio que se quiere maximizar es\n$$B(x,y)=40x+30y.$$\n\nLas restricciones de recursos y de no negatividad son\n$$2x+y\\leq 24,\\qquad x+2y\\leq 30,\\qquad x\\geq 0,\\quad y\\geq 0.$$\n\nLa región factible es la intersección de esos semiplanos. Sus vértices son $(0,0)$, $(12,0)$, $(6,12)$ y $(0,15)$. En particular, el vértice de intersección de las dos restricciones de recursos se obtiene resolviendo\n$$2x+y=24,\\qquad x+2y=30,$$\nque da $(x,y)=(6,12)$.\n\nPara justificar la optimalidad mediante una cota, y no solo comparando los vértices, multiplicamos la primera restricción por $\\frac{50}{3}$ y la segunda por $\\frac{20}{3}$. Como ambos multiplicadores son positivos, para cualquier punto factible:\n$$40x+30y=\\frac{50}{3}(2x+y)+\\frac{20}{3}(x+2y)\\leq \\frac{50}{3}\\cdot24+\\frac{20}{3}\\cdot30=600.$$\nAsí, ningún plan factible puede dar un beneficio superior a $600$ euros. En $(6,12)$ se alcanza esa cota: se usan $2\\cdot6+12=24$ horas y $6+2\\cdot12=30$ conectores, y el beneficio es $40\\cdot6+30\\cdot12=600$ euros. Por tanto, la solución es óptima.",
+   "resultado": "Fabricar 6 kits A y 12 kits B; beneficio máximo: 600 euros.",
+   "criterios": "3 puntos: definición de variables y función objetivo, 0,4; formulación correcta de las restricciones, 0,6; determinación de la región factible y sus vértices, 0,7; justificación de la cota óptima mediante la combinación de restricciones, 0,8; comprobación de que $(6,12)$ es factible y alcanza el beneficio máximo, 0,5.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "B2",
+   "tema": "matrices",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Una cooperativa comercializa tres variedades de un producto. El vector $\\mathbf{x}=(x_1,x_2,x_3)^T$ indica las cantidades vendidas de cada variedad. A partir de los registros de tres rutas de reparto se obtiene el sistema $M\\mathbf{x}=\\begin{pmatrix}5\\\\7\\\\6\\end{pmatrix}$, donde $M=\\begin{pmatrix}1&1&0\\\\0&1&1\\\\1&0&1\\end{pmatrix}$. a) Calcula las cantidades vendidas de cada variedad. (2 puntos) b) Si los precios unitarios de las tres variedades son, respectivamente, $10$, $20$ y $30$ euros, calcula el importe total de las ventas. (1 punto)",
+   "solucion": "### a) Cantidades vendidas\n\nEl sistema equivale a\n\n$$\n\\begin{cases}\nx_1+x_2=5,\\\\\nx_2+x_3=7,\\\\\nx_1+x_3=6.\n\\end{cases}\n$$\n\nSumando las tres ecuaciones, cada cantidad aparece dos veces, por lo que\n\n$$\n2(x_1+x_2+x_3)=5+7+6=18,\n\\qquad x_1+x_2+x_3=9.\n$$\n\nRestando a esta suma cada una de las ecuaciones, obtenemos\n\n$$\nx_1=9-(x_2+x_3)=9-7=2,\n\\qquad x_2=9-(x_1+x_3)=9-6=3,\n\\qquad x_3=9-(x_1+x_2)=9-5=4.\n$$\n\nPor tanto, las cantidades vendidas son $2$, $3$ y $4$ unidades, respectivamente.\n\n### b) Importe total\n\n$$\n10x_1+20x_2+30x_3\n=10\\cdot2+20\\cdot3+30\\cdot4\n=20+60+120=200\\text{ euros}.\n$$",
+   "resultado": "Cantidades: $x_1=2$, $x_2=3$, $x_3=4$; importe total: 200 euros.",
+   "criterios": "Total: 3 puntos. a) 2 puntos: 0,5 por plantear o interpretar correctamente las ecuaciones; 1 punto por resolver el sistema mediante un procedimiento válido; 0,5 por indicar correctamente las cantidades de cada variedad. b) 1 punto: 0,5 por plantear el importe como $10x_1+20x_2+30x_3$ y 0,5 por calcular correctamente los 200 euros.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "C1",
+   "tema": "funciones",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Una tienda estima que, si fija el precio de un artículo en $x$ euros, venderá $q(x)=120-2x$ unidades. El modelo se considera válido para $x\\in[0,60]$, y el ingreso total, en euros, es $R(x)=xq(x)$. a) Calcula la derivada $R'(x)$. (1 punto) b) Determina el precio que maximiza los ingresos y calcula dichos ingresos máximos. (1 punto) c) Calcula $R'(20)$ e interpreta su significado en este contexto. (1 punto)",
+   "solucion": "### a) Derivada\n\nEl ingreso total es\n\n$$R(x)=x(120-2x)=120x-2x^2.$$\n\nPor tanto,\n\n$$R'(x)=120-4x.$$\n\n### b) Precio que maximiza los ingresos\n\nBuscamos los puntos críticos:\n\n$$R'(x)=0 \\iff 120-4x=0 \\iff x=30.$$\n\nComo $R''(x)=-4<0$, la función es cóncava y el punto crítico es un máximo. Además, está en el intervalo válido $[0,60]$. El ingreso máximo es\n\n$$R(30)=30(120-2\\cdot30)=1800\\text{ euros}.$$\n\n### c) Valor e interpretación de $R'(20)$\n\n$$R'(20)=120-4\\cdot20=40.$$\n\nA un precio de $20$ euros, el ingreso está aumentando a razón de aproximadamente $40$ euros por cada euro de aumento del precio, para variaciones pequeñas del precio.",
+   "resultado": "$R'(x)=120-4x$; el precio que maximiza los ingresos es $30$ euros y el ingreso máximo es $1800$ euros; $R'(20)=40$ euros por euro.",
+   "criterios": "a) 1 punto: 0,5 por expresar correctamente $R(x)=120x-2x^2$ y 0,5 por obtener $R'(x)=120-4x$. b) 1 punto: 0,5 por determinar el punto crítico $x=30$ y justificar que es un máximo absoluto en el intervalo (por ejemplo, con $R''(x)=-4<0$); 0,5 por calcular $R(30)=1800$ euros. c) 1 punto: 0,5 por calcular $R'(20)=40$ y 0,5 por interpretar correctamente el valor como tasa marginal de variación del ingreso respecto al precio, en euros de ingreso por euro de precio.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "C2",
+   "tema": "integrales",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Dos pequeños sistemas de generación suministran energía durante las dos primeras horas de funcionamiento. Sus potencias, en kilovatios, en función del tiempo $t$ medido en horas son $P_A(t)=6$ y $P_B(t)=t^2+2$, para $t\\in[0,2]$. a) Determina en qué instante tienen la misma potencia e indica cuál de los dos sistemas suministra más potencia durante el resto del intervalo. (1 punto) b) Calcula la diferencia entre la energía total suministrada por el sistema A y la suministrada por el sistema B durante esas dos horas, expresada en kilovatios-hora. (1 punto) c) Calcula la diferencia entre sus potencias medias durante esas dos horas. (1 punto)",
+   "solucion": "### a) Instante de igualdad y comparación de potencias\n\nIgualamos las potencias:\n\n$$6=t^2+2 \\iff t^2=4 \\iff t=\\pm 2.$$\n\nComo $t\\in[0,2]$, el único instante válido es $t=2$ horas. Además,\n\n$$P_A(t)-P_B(t)=6-(t^2+2)=4-t^2.$$\n\nPara $0\\le t<2$, se cumple $4-t^2>0$, por lo que el sistema A suministra más potencia durante el resto del intervalo. En $t=2$ las potencias son iguales.\n\n### b) Diferencia entre las energías\n\nLa energía suministrada es la integral de la potencia respecto del tiempo:\n\n$$E_A=\\int_0^2 6\\,dt=12\\ \\mathrm{kWh},$$\n\n$$E_B=\\int_0^2(t^2+2)\\,dt=\\left[\\frac{t^3}{3}+2t\\right]_0^2=\\frac{20}{3}\\ \\mathrm{kWh}.$$\n\nTomando la diferencia como $E_A-E_B$:\n\n$$E_A-E_B=12-\\frac{20}{3}=\\frac{16}{3}\\ \\mathrm{kWh}.$$\n\n### c) Diferencia entre las potencias medias\n\nEl intervalo dura $2$ horas, así que las potencias medias son\n\n$$\\overline P_A=\\frac{E_A}{2}=6\\ \\mathrm{kW},\\qquad \\overline P_B=\\frac{E_B}{2}=\\frac{10}{3}\\ \\mathrm{kW}.$$\n\nPor tanto, tomando la diferencia como $\\overline P_A-\\overline P_B$:\n\n$$\\overline P_A-\\overline P_B=6-\\frac{10}{3}=\\frac{8}{3}\\ \\mathrm{kW}.$$",
+   "resultado": "Igualan sus potencias en t = 2 h; para 0 ≤ t < 2, A suministra más. La diferencia de energía A − B es 16/3 kWh y la diferencia de potencia media A − B es 8/3 kW.",
+   "criterios": "a) 1 punto: 0,5 por plantear y resolver la igualdad, seleccionando t = 2 dentro del intervalo; 0,5 por determinar que A tiene mayor potencia para 0 ≤ t < 2. b) 1 punto: 0,5 por calcular correctamente las dos integrales de potencia; 0,5 por hallar E_A − E_B = 16/3 kWh. c) 1 punto: 0,5 por calcular las potencias medias dividiendo cada energía entre 2 h; 0,5 por hallar la diferencia A − B = 8/3 kW.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "probabilidad",
+   "p": 0.9
+  },
+  {
+   "id": "matrices",
+   "p": 0.43
+  },
+  {
+   "id": "progl",
+   "p": 0.05
+  },
+  {
+   "id": "funciones",
+   "p": 0.05
+  },
+  {
+   "id": "integrales",
+   "p": 0.05
+  },
+  {
+   "id": "inferencia",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "manual:manual/baleares/2026/Matemáticas Aplicadas a las CC. Sociales II junio examen __MATEMSOCIALSII.txt",
+  "manual:manual/baleares/2026/Matemáticas Aplicadas a las CC. Sociales II julio examen __MATEMSOCIALSII.txt",
+  "manual:manual/baleares/2022/Matemáticas Aplicadas a las CC. Sociales II julio examen __MATEMSOCIALSII.txt",
+  "manual:manual/baleares/2024/Matemáticas Aplicadas a las CC. Sociales II julio examen __MATEMSOCIALSII.txt",
+  "manual:manual/baleares/2025/Matemáticas Aplicadas a las CC. Sociales II julio examen __MATEMSOCIALSII.txt",
+  "manual:manual/baleares/2025/Matemáticas Aplicadas a las CC. Sociales II junio examen __MATEMSOCIALSII.txt",
+  "manual:manual/baleares/2026/Matemáticas Aplicadas a las CC. Sociales II julio examen __MATEMSOCIALSII.txt",
+  "manual:manual/baleares/2026/Matemáticas Aplicadas a las CC. Sociales II junio examen __MATEMSOCIALSII.txt"
+ ]
+}
