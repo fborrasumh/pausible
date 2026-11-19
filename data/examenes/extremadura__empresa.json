@@ -1,0 +1,157 @@
+{
+ "ccaa": "extremadura",
+ "materia": "empresa",
+ "titulo": "Modelo orientativo original de PAU 2027 — Empresa y Diseño de Modelos de Negocio / Economía de la Empresa — Extremadura",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de dos bloques, cada uno valorado en 5 puntos. El bloque de teoría contiene 6 preguntas de 1 punto: responda como máximo 5. El bloque de problemas contiene 3 problemas de 2,5 puntos: resuelva como máximo 2. No se corregirá un número superior al indicado; se seguirá el orden de respuesta y solo se excluirá una respuesta si está tachada. Se valorarán la corrección ortográfica, la coherencia, la expresión y la presentación. Podrá deducirse hasta 1 punto de la calificación final por estos aspectos.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "marketing",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una empresa de productos apícolas de Las Hurdes decide dirigir una campaña exclusivamente a personas de entre 25 y 40 años que residan en la comarca. Identifique los dos criterios de segmentación que está utilizando y justifique brevemente cada respuesta.",
+   "solucion": "**Identificación de las variables de segmentación:**\n\n1. **Edad (25–40 años): criterio demográfico.** La edad es una característica demográfica de las personas y permite dividir el mercado en grupos.\n2. **Residencia en Las Hurdes: criterio geográfico.** Se selecciona a las personas según el lugar o área geográfica donde residen.\n\n**Comprobación:** la campaña combina un criterio referido a una característica de las personas (edad) y otro referido a su ubicación (residencia).",
+   "resultado": "Criterios demográfico (edad) y geográfico (residencia en Las Hurdes).",
+   "criterios": "1 punto en total: 0,5 puntos por identificar y justificar el criterio demográfico (edad) y 0,5 puntos por identificar y justificar el criterio geográfico (residencia en Las Hurdes).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "modelonegocio",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una empresa extremeña de reparación y reacondicionamiento de bicicletas describe tres elementos de su modelo de negocio: ofrece bicicletas revisadas con garantía para alargar su vida útil; capta clientes mediante su página web y acuerdos con talleres locales; y obtiene ingresos por la venta de bicicletas reacondicionadas. Relacione cada elemento con su bloque correspondiente del modelo Canvas: propuesta de valor, canales o fuentes de ingresos.",
+   "solucion": "### Identificación de los bloques\n1. **Bicicletas revisadas con garantía para alargar su vida útil:** corresponde a la **propuesta de valor**, porque describe el beneficio que la empresa ofrece a sus clientes.\n2. **Página web y acuerdos con talleres locales:** corresponden a los **canales**, porque son medios para llegar a los clientes y captar su interés.\n3. **Venta de bicicletas reacondicionadas:** corresponde a las **fuentes de ingresos**, porque indica cómo obtiene dinero la empresa.\n\n**Comprobación:** los tres elementos se asignan, respectivamente, a propuesta de valor, canales y fuentes de ingresos, sin confundir el beneficio ofrecido, los medios de contacto y el origen de los ingresos.",
+   "resultado": "Propuesta de valor: bicicletas revisadas con garantía; canales: página web y acuerdos con talleres; fuentes de ingresos: venta de bicicletas reacondicionadas.",
+   "criterios": "1 punto en total: 1/3 por identificar correctamente la propuesta de valor, 1/3 por identificar los canales y 1/3 por identificar las fuentes de ingresos. Se aceptará la suma de los dos elementos de captación en el bloque de canales.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "organizacion",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una empresa de conservas vegetales está revisando la labor de sus responsables. Indique qué función directiva corresponde a cada actuación: a) fijar los objetivos de ventas del próximo año y las acciones para alcanzarlos; b) repartir las tareas entre las áreas de producción y comercialización y asignar responsabilidades; c) orientar y motivar al equipo durante la actividad diaria; d) comparar los resultados obtenidos con los objetivos y corregir las desviaciones. Cada identificación correcta vale 0,25 puntos.",
+   "solucion": "### Identificación por el objeto de cada actuación\n1. **a) Planificación:** fija objetivos futuros (ventas) y determina las acciones para alcanzarlos.\n2. **b) Organización:** distribuye tareas entre áreas y asigna responsabilidades.\n3. **c) Dirección:** orienta y motiva a las personas durante la actividad diaria.\n4. **d) Control:** compara los resultados con los objetivos y corrige las desviaciones.\n\n### Comprobación\nLa clasificación distingue qué se hace en cada caso: definir el futuro, distribuir el trabajo, guiar al equipo y comprobar los resultados. Por tanto, las cuatro actuaciones corresponden, respectivamente, a planificación, organización, dirección y control.",
+   "resultado": "a) Planificación; b) Organización; c) Dirección; d) Control.",
+   "criterios": "0,25 puntos por cada identificación correcta: a) planificación; b) organización; c) dirección; d) control. Total: 1 punto.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "produccion",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Un obrador de productos de panadería produjo 16.000 unidades durante un año. Para ello trabajaron 8 personas, cada una durante 5 horas diarias y 200 días al año. Calcule la productividad del factor trabajo en unidades por hora de trabajo, utilizando $P_L=\\frac{\\text{unidades producidas}}{\\text{horas de trabajo}}$, e interprete el resultado.",
+   "solucion": "### Cálculo\n\nLas horas totales de trabajo son:\n\n$$8\\text{ personas}\\times 5\\text{ horas/día}\\times 200\\text{ días}=8.000\\text{ horas}$$\n\nPor tanto, la productividad del factor trabajo es:\n\n$$P_L=\\frac{16.000\\text{ unidades}}{8.000\\text{ horas}}=2\\text{ unidades por hora de trabajo}$$\n\n**Interpretación:** por cada hora de trabajo empleada, el obrador produce, en promedio, 2 unidades de panadería.",
+   "resultado": "Productividad del trabajo: 2 unidades por hora de trabajo.",
+   "criterios": "1 punto: cálculo correcto de las horas totales de trabajo y de la productividad (0,75 puntos); interpretación correcta del resultado, indicando que se producen 2 unidades por cada hora de trabajo (0,25 puntos).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "financiacion",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una sociedad destina a la compra de un horno industrial parte del beneficio del ejercicio que no ha repartido entre sus socios y que ha incorporado a reservas. Identifique el tipo concreto de autofinanciación que representa y clasifíquela atendiendo a si es financiación propia o ajena y a si es interna o externa.",
+   "solucion": "1. **Identificación:** el beneficio del ejercicio no distribuido a los socios y destinado a reservas es autofinanciación de **enriquecimiento**.\n2. **Origen de los fondos:** se genera dentro de la propia empresa, por lo que es financiación **interna**.\n3. **Naturaleza de los fondos:** las reservas forman parte de los recursos propios de la sociedad; por tanto, es financiación **propia**. La compra del horno no modifica esta clasificación.",
+   "resultado": "Autofinanciación de enriquecimiento, propia e interna.",
+   "criterios": "1 punto: 0,5 por identificarla como autofinanciación de enriquecimiento; 0,25 por clasificarla como financiación propia; 0,25 por clasificarla como financiación interna.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "6",
+   "tema": "marketing",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Una empresa lanza una botella reutilizable fabricada en Extremadura y adopta estas decisiones: a) diseña el producto en dos capacidades y utiliza acero inoxidable; b) fija un precio de 18 euros y ofrece un descuento por suscripción; c) la vende en su tienda en línea y en comercios colaboradores; d) difunde anuncios en redes sociales y en una emisora local. Indique a qué política del marketing mix corresponde cada decisión: producto, precio, distribución o comunicación. Cada identificación correcta vale 0,25 puntos.",
+   "solucion": "- **a) Producto:** las capacidades y el acero inoxidable son características del producto.\n- **b) Precio:** los 18 euros y el descuento por suscripción forman parte de la política de precios.\n- **c) Distribución:** la tienda en línea y los comercios colaboradores son canales de venta.\n- **d) Comunicación:** los anuncios en redes sociales y en la emisora local son acciones publicitarias.\n\nLa referencia a que se fabrica en Extremadura no cambia la clasificación de las decisiones indicadas.",
+   "resultado": "a) Producto; b) Precio; c) Distribución; d) Comunicación.",
+   "criterios": "0,25 puntos por cada identificación correcta: a) producto; b) precio; c) distribución; d) comunicación. Total: 1 punto. En «numeros», los cuatro primeros valores indican la puntuación de cada apartado y el último, la puntuación total.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "Problema 1",
+   "tema": "produccion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una pequeña empresa de Plasencia fabrica kits de riego doméstico. Cada kit se vende a 15 euros, el coste variable unitario es de 6 euros y los costes fijos anuales ascienden a 18.000 euros. a) Calcule el umbral de rentabilidad en unidades, utilizando $Q^*=\\frac{CF}{p-CVu}$, y represéntelo en un gráfico que muestre las unidades en el eje horizontal y los euros en el vertical, señalando las rectas de ingresos totales y costes totales y el punto de equilibrio. Explique su significado. (1,25 puntos) b) Calcule el beneficio o la pérdida si se producen y venden 3.000 kits. Utilice $B=IT-CT$. (1,25 puntos)",
+   "solucion": "### a) Umbral de rentabilidad\n\nDatos: precio unitario $p=15$ €, coste variable unitario $CVu=6$ € y costes fijos $CF=18.000$ €.\n\nAplicamos la fórmula indicada:\n\n$$Q^*=\\frac{CF}{p-CVu}=\\frac{18.000}{15-6}=2.000\\text{ kits}$$\n\nLas rectas que deben representarse son:\n\n- Ingresos totales: $IT=15Q$.\n- Costes totales: $CT=18.000+6Q$.\n\nEl punto de equilibrio es $E=(2.000,30.000)$: al vender 2.000 kits, tanto los ingresos como los costes totales son 30.000 €. El siguiente gráfico muestra las rectas; la intersección señala el equilibrio.\n\n```mermaid\nxychart-beta\n    x-axis \"Unidades (Q)\" [0, 1000, 2000, 3000]\n    y-axis \"Euros (€)\" 0 --> 45000\n    line [0, 15000, 30000, 45000]\n    line [18000, 24000, 30000, 36000]\n```\n\nLa primera serie corresponde a $IT$ y la segunda a $CT$. Por debajo de 2.000 unidades, la empresa incurre en pérdidas; por encima, obtiene beneficios. En el umbral, el beneficio es cero.\n\n### b) Beneficio con 3.000 kits\n\nIngresos totales:\n\n$$IT=15\\cdot3.000=45.000\\text{ €}$$\n\nCostes totales:\n\n$$CT=18.000+6\\cdot3.000=36.000\\text{ €}$$\n\nPor tanto:\n\n$$B=IT-CT=45.000-36.000=9.000\\text{ €}$$\n\nLa empresa obtiene un beneficio de 9.000 €.",
+   "resultado": "Umbral de rentabilidad: 2.000 kits; beneficio al vender 3.000 kits: 9.000 €.",
+   "criterios": "Total: 2,5 puntos.\na) 1,25 puntos: 0,50 por aplicar correctamente la fórmula y obtener 2.000 unidades; 0,50 por identificar y representar las rectas IT = 15Q y CT = 18.000 + 6Q, con el punto de equilibrio (2.000, 30.000); 0,25 por explicar que en ese punto ingresos y costes coinciden y que por debajo hay pérdidas y por encima beneficios.\nb) 1,25 puntos: 0,50 por calcular los ingresos totales (45.000 €); 0,50 por calcular los costes totales (36.000 €); 0,25 por aplicar B = IT − CT e interpretar el resultado como un beneficio de 9.000 €.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "Problema 2",
+   "tema": "financiacion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una empresa de logística rural estudia adquirir un sistema de clasificación de paquetes. La inversión inicial es de 10.000 euros y generaría unos flujos netos de caja de 6.000 euros al final del primer año y de 7.200 euros al final del segundo año. La tasa de actualización es del 10 % anual. a) Calcule el VAN mediante $VAN=-I_0+\\sum_{t=1}^{n}\\frac{FC_t}{(1+k)^t}$ y determine la TIR, definida como el tipo de descuento que hace que el VAN sea cero. (1,5 puntos) b) Calcule el plazo de recuperación simple suponiendo que los flujos se generan uniformemente a lo largo de cada año. Indique si recomendaría la inversión según el VAN y compare la TIR con la tasa de actualización. (1 punto)",
+   "solucion": "### a) VAN y TIR\n\nCon $I_0=10.000$, $FC_1=6.000$, $FC_2=7.200$ y $k=0,10$:\n\n$$VAN=-10.000+\\frac{6.000}{(1+0,10)^1}+\\frac{7.200}{(1+0,10)^2}$$\n\n$$VAN=-10.000+5.454,55+5.950,41=1.404,96\\text{ €}$$\n\nPara calcular la TIR, se iguala el VAN a cero:\n\n$$-10.000+\\frac{6.000}{1+r}+\\frac{7.200}{(1+r)^2}=0$$\n\nMultiplicando por $(1+r)^2$ y resolviendo la ecuación se obtienen $r=0,20$ y $r=-1,60$. La segunda solución equivale a $-160\\%$ y se descarta, pues una tasa de descuento anual válida en este contexto debe ser mayor que $-100\\%$. Por tanto, la TIR es $20\\%$.\n\n### b) Plazo de recuperación y decisión\n\nAl terminar el primer año se han recuperado $6.000$ €, por lo que quedan $10.000-6.000=4.000$ € por recuperar. Como los flujos del segundo año se generan uniformemente, la fracción de ese año necesaria es:\n\n$$\\frac{4.000}{7.200}=0,5556\\text{ años}$$\n\nAsí, el plazo de recuperación simple es:\n\n$$1+0,5556=1,5556\\text{ años}\\approx 1\\text{ año y }6,67\\text{ meses}$$\n\nRecomendaría la inversión: el VAN es positivo ($1.404,96$ €) y la TIR ($20\\%$) supera la tasa de actualización ($10\\%$).",
+   "resultado": "VAN = 1.404,96 €; TIR = 20 %; plazo de recuperación simple = 1,56 años (aprox. 1 año y 6,67 meses). Se recomienda la inversión.",
+   "criterios": "Total: 2,5 puntos. a) VAN (0,75): planteamiento con los flujos actualizados (0,35) y cálculo correcto del resultado (0,40). TIR (0,75): ecuación VAN = 0 correctamente planteada (0,35) y resolución, selección de la raíz económicamente válida e identificación de la TIR (0,40). b) Plazo de recuperación simple (0,60): saldo pendiente tras el primer año (0,20), cálculo de la fracción del segundo año (0,25) y expresión del plazo total (0,15). Decisión y comparación (0,40): recomendación coherente con el VAN positivo (0,20) y comparación correcta de la TIR con la tasa de actualización (0,20).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "Problema 3",
+   "tema": "contabilidad",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una empresa de fabricación de filtros de agua presenta los siguientes datos de balance, en euros: maquinaria, 48.000; aplicaciones informáticas, 12.000; existencias, 20.000; clientes, 16.000; bancos, 4.000; capital social, 40.000; reservas, 10.000; deuda bancaria a largo plazo, 30.000; proveedores, 12.000; deuda bancaria a corto plazo, 8.000. a) Ordene las partidas en masas patrimoniales, compruebe que el balance está equilibrado y calcule el fondo de maniobra mediante $FM=AC-PC$. Interprete el resultado. (1,25 puntos) b) Calcule e interprete la ratio de garantía, definida como activo total dividido entre pasivo exigible total, y la ratio de disponibilidad, definida como bancos dividido entre pasivo corriente. (1,25 puntos)",
+   "solucion": "### a) Masas patrimoniales y fondo de maniobra\n\n**Activo no corriente:** maquinaria, 48.000 €; aplicaciones informáticas, 12.000 €. Total: $60.000$ €.\n\n**Activo corriente:** existencias, 20.000 €; clientes, 16.000 €; bancos, 4.000 €. Total: $40.000$ €.\n\nPor tanto, el **activo total** es $60.000+40.000=100.000$ €.\n\n**Patrimonio neto:** capital social, 40.000 €; reservas, 10.000 €. Total: $50.000$ €.\n\n**Pasivo no corriente:** deuda bancaria a largo plazo, 30.000 €.\n\n**Pasivo corriente:** proveedores, 12.000 €; deuda bancaria a corto plazo, 8.000 €. Total: $20.000$ €.\n\nComprobación del equilibrio: patrimonio neto y pasivo suman $50.000+30.000+20.000=100.000$ €, igual al activo total de $100.000$ €. El balance está equilibrado.\n\nEl fondo de maniobra es:\n\n$$FM=AC-PC=40.000-20.000=20.000\\text{ €}$$\n\nEs positivo: los recursos permanentes financian todo el activo no corriente y $20.000$ € del activo corriente. En principio, esto indica un equilibrio financiero a corto plazo.\n\n### b) Ratios\n\nEl pasivo exigible total es la suma de las deudas a largo y corto plazo: $30.000+20.000=50.000$ €.\n\n**Ratio de garantía:**\n\n$$\\frac{Activo\\ total}{Pasivo\\ exigible\\ total}=\\frac{100.000}{50.000}=2$$\n\nLa empresa dispone de $2$ € de activo por cada euro de deuda exigible; sus activos cubren el pasivo exigible en el doble.\n\n**Ratio de disponibilidad:**\n\n$$\\frac{Bancos}{Pasivo\\ corriente}=\\frac{4.000}{20.000}=0,20$$\n\nEl efectivo en bancos cubre el $20\\%$ del pasivo corriente. La disponibilidad inmediata es limitada; la valoración de la liquidez a corto plazo debe considerar también los restantes componentes del activo corriente.",
+   "resultado": "Balance equilibrado: activo total = patrimonio neto y pasivo = 100.000 €; FM = 20.000 €; ratio de garantía = 2; ratio de disponibilidad = 0,20.",
+   "criterios": "Total: 2,5 puntos. a) (1,25 puntos): clasificación y ordenación correcta de las partidas en activo no corriente, activo corriente, patrimonio neto, pasivo no corriente y pasivo corriente (0,40); comprobación de que activo total y patrimonio neto más pasivo coinciden en 100.000 € (0,25); cálculo del fondo de maniobra, 20.000 € (0,35); interpretación del signo y significado financiero (0,25). b) (1,25 puntos): ratio de garantía correctamente calculada como 100.000/50.000 = 2 e interpretada (0,625); ratio de disponibilidad correctamente calculada como 4.000/20.000 = 0,20 e interpretada (0,625).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "produccion",
+   "p": 0.9
+  },
+  {
+   "id": "financiacion",
+   "p": 0.756
+  },
+  {
+   "id": "contabilidad",
+   "p": 0.747
+  },
+  {
+   "id": "marketing",
+   "p": 0.675
+  },
+  {
+   "id": "modelonegocio",
+   "p": 0.397
+  },
+  {
+   "id": "organizacion",
+   "p": 0.097
+  }
+ ],
+ "referencias": [
+  "manual:manual/extremadura/2026/Empresa Ydiseño De Modelos De Negocio junio examen.txt",
+  "manual:manual/extremadura/2026/Empresa Ydiseño De Modelos De Negocio julio examen.txt",
+  "manual:manual/extremadura/2022/Economía De La Empresa julio examen.txt",
+  "manual:manual/extremadura/2022/Economía De La Empresa junio examen.txt",
+  "manual:manual/extremadura/2024/Empresa Ydiseño De Modelos De Negocio julio examen.txt",
+  "manual:manual/extremadura/2025/Empresa Ydiseño De Modelos De Negocio julio examen.txt",
+  "manual:manual/extremadura/2025/Empresa Ydiseño De Modelos De Negocio junio examen.txt",
+  "manual:manual/extremadura/2026/Empresa Ydiseño De Modelos De Negocio julio examen.txt",
+  "manual:manual/extremadura/2026/Empresa Ydiseño De Modelos De Negocio junio examen.txt"
+ ]
+}
