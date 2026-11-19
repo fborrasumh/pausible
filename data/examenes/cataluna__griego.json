@@ -1,0 +1,91 @@
+{
+ "ccaa": "cataluna",
+ "materia": "griego",
+ "titulo": "Lengua y cultura griegas (Griego II) · PAU Cataluña 2027 · Examen original de práctica",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro ejercicios obligatorios: 1. Traducción; 2. Morfosintaxis; 3. Etimología y léxico; 4. Cultura, literatura y legado de la antigua Grecia. Responda todas las cuestiones de los ejercicios 1, 2 y 4. En el ejercicio 3, conteste solo dos de los tres apartados; si responde más de dos, se tendrán en cuenta únicamente los dos primeros. Puede utilizar el diccionario y el apéndice gramatical en todos los ejercicios. La puntuación total es de 10 puntos. Redacte las respuestas con claridad y corrección.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "traduccion",
+   "puntos": 3,
+   "tipo": "abierta",
+   "enunciado": "Ejercicio de traducción [3 puntos]. En un taller de traducción para una exposición sobre la gestión comunitaria del agua, traduzca al castellano el siguiente texto:\n\nCuando se agotó el agua de la fuente, los agricultores enviaron un mensajero al magistrado; este ordenó a los jóvenes cavar una zanja para que los agricultores salvaran los olivos. Después de realizar rápidamente el trabajo, condujeron agua al campo.\n\nοἱ γεωργοὶ, ἐπειδὴ τὸ ὕδωρ ἐκ τῆς πηγῆς ἐξέλιπεν, ἔπεμψαν ἄγγελον πρὸς τὸν ἄρχοντα· ὁ δὲ ἄρχων τοὺς νέους ἐκέλευσεν ὀρύττειν τάφρον, ἵνα οἱ γεωργοὶ τὰς ἐλαίας σῴζωσιν. οἱ δὲ ταχέως ἐργασάμενοι τὸ ἔργον, ὕδωρ ἐπὶ τὸν ἀγρὸν ἤγαγον.\n\nVocabulario: ἐξέλιπεν: se agotó; ἄρχων, -οντος: magistrado; τάφρος, -ου: zanja; ἐλαία, -ας: olivo; σῴζω: salvar; ἐργάζομαι: realizar, trabajar; ἀγρός, -οῦ: campo.",
+   "solucion": "### Análisis sintáctico por núcleos verbales\nEn lugar de seguir palabra por palabra el orden griego, identificamos primero los verbos y las relaciones entre las proposiciones:\n\n1. **ἐξέλιπεν** es aoristo, 3.ª persona singular: el agua se agotó. La subordinada temporal comienza con **ἐπειδή** y **ἐκ τῆς πηγῆς** indica procedencia: de la fuente.\n2. **ἔπεμψαν** es aoristo, 3.ª persona plural; su sujeto es **οἱ γεωργοί** (los agricultores). **ἄγγελον** es el complemento directo y **πρὸς τὸν ἄρχοντα** indica destino: al magistrado.\n3. **ἐκέλευσεν** tiene como sujeto **ὁ ἄρχων** (el magistrado). La construcción **τοὺς νέους + ὀρύττειν** expresa a quién ordenó y qué ordenó: a los jóvenes, cavar una zanja.\n4. **ἵνα** introduce una subordinada final. **σῴζωσιν** está en subjuntivo, con **οἱ γεωργοί** como sujeto y **τὰς ἐλαίας** como complemento directo: para que los agricultores salvaran los olivos.\n5. **ἐργασάμενοι** es un participio de aoristo, nominativo masculino plural, referido a los jóvenes; expresa anterioridad respecto de **ἤγαγον**: tras realizar rápidamente el trabajo, condujeron agua al campo.\n\n### Traducción\nCuando se agotó el agua de la fuente, los agricultores enviaron un mensajero al magistrado. Este ordenó a los jóvenes cavar una zanja para que los agricultores salvaran los olivos. Después de realizar rápidamente el trabajo, los jóvenes condujeron agua al campo.\n\n### Comprobación\nLa traducción conserva las cinco relaciones del texto: la temporalidad de **ἐπειδή**, el envío al magistrado, la orden con infinitivo, la finalidad introducida por **ἵνα** y la anterioridad expresada por el participio **ἐργασάμενοι**. También mantiene quién realiza cada acción: los agricultores envían el mensajero y salvan los olivos; los jóvenes cavan la zanja y conducen el agua.",
+   "resultado": "Cuando se agotó el agua de la fuente, los agricultores enviaron un mensajero al magistrado. Este ordenó a los jóvenes cavar una zanja para que los agricultores salvaran los olivos. Después de realizar rápidamente el trabajo, los jóvenes condujeron agua al campo.",
+   "criterios": "Puntuación total: 3 puntos. 0,50 por traducir correctamente la subordinada temporal sobre el agotamiento del agua; 0,75 por la acción de los agricultores de enviar un mensajero al magistrado; 0,75 por la orden del magistrado a los jóvenes de cavar una zanja; 0,50 por la subordinada final sobre salvar los olivos; 0,50 por traducir la acción de los jóvenes, incluyendo el valor temporal del participio, la realización rápida del trabajo y el traslado del agua al campo. Se aceptarán variantes castellanas equivalentes que mantengan las relaciones sintácticas y los sujetos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "morfosintaxis",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Ejercicio de morfosintaxis [2 puntos]. Responda a partir del texto del ejercicio 1.\n\n2.1. [0,8 puntos] Escriba ἐργασάμενοι y analice esta forma indicando el verbo del que procede, el tiempo, la voz, el género, el número y el caso. Señale con qué grupo de palabras concuerda y qué función sintáctica desempeña.\n\n2.2. [0,6 puntos] Analice la oración introducida por ἵνα: indique qué tipo de subordinada es y escriba su verbo, su modo y su sujeto.\n\n2.3. [0,6 puntos] En la construcción ἐκέλευσεν τοὺς νέους ὀρύττειν τάφρον, identifique el acusativo que funciona como sujeto del infinitivo y el complemento directo de ese infinitivo.",
+   "solucion": "## 2.1. ἐργασάμενοι\n\n**Análisis morfológico:** procede de **ἐργάζομαι** («trabajar», «hacer»); es participio de **aoristo medio**, **masculino**, **plural** y **nominativo**. La terminación **-μενοι** permite reconocer el participio medio nominativo masculino plural.\n\n**Concordancia y función:** concuerda con un sustantivo o grupo nominal masculino nominativo plural. Como no se ha incluido el texto del ejercicio 1, no es posible identificar ese grupo por su forma concreta ni determinar con seguridad el valor sintáctico y semántico del participio. En este tipo de construcción suele funcionar como participio concertado circunstancial, pero el contexto es necesario para precisarlo.\n\n## 2.2. Oración introducida por ἵνα\n\nἵνα introduce normalmente una **subordinada final** («para que»), cuyo verbo suele aparecer en **subjuntivo**; en determinados contextos de estilo indirecto y tras un tiempo histórico puede aparecer optativo. El verbo concreto y su sujeto —expreso o tácito— solo pueden identificarse leyendo la oración del ejercicio 1, que no se ha proporcionado. Por tanto, no es posible completar esos dos datos sin inventarlos.\n\n## 2.3. ἐκέλευσεν τοὺς νέους ὀρύττειν τάφρον\n\nEn la construcción de infinitivo **ὀρύττειν τάφρον**, **τοὺς νέους** es el sujeto del infinitivo en acusativo y **τάφρον** es su complemento directo, también en acusativo. La comprobación sintáctica es que los jóvenes son quienes realizan la acción de cavar y la fosa es aquello que cavan.\n\n## Comprobación\n\nLa forma de participio **-μενοι** concuerda con un referente masculino plural en nominativo; en cambio, en la construcción de infinitivo, **τοὺς νέους** está en acusativo como sujeto de **ὀρύττειν**, y **τάφρον** en acusativo como objeto directo. La identificación completa de la concordancia de ἐργασάμενοι y de los elementos de la subordinada con ἵνα queda pendiente del texto fuente.",
+   "resultado": "ἐργασάμενοι: participio de aoristo medio, masculino, plural, nominativo; τοὺς νέους es el sujeto acusativo de ὀρύττειν y τάφρον su complemento directo. Faltan el texto del ejercicio 1 y, por ello, los datos contextuales de concordancia y de la subordinada con ἵνα.",
+   "criterios": "Reparto de los 2 puntos: 2.1 (0,8): verbo de origen y análisis morfológico, hasta 0,5; concordancia y función sintáctica, hasta 0,3. 2.2 (0,6): tipo de subordinada, verbo y modo, y sujeto, hasta 0,2 por cada aspecto. 2.3 (0,6): identificación de τοὺς νέους como sujeto acusativo del infinitivo, 0,3; identificación de τάφρον como complemento directo, 0,3. Sin el texto del ejercicio 1 no pueden corregirse plenamente los elementos contextuales de 2.1 y 2.2.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "lexico",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Ejercicio de etimología y léxico [2 puntos]. El ejercicio consta de tres apartados, de los que debe contestar solo dos. Cada apartado vale 1 punto.\n\n3.1. Escriba en griego un étimo válido para cada palabra castellana. [1 punto: 0,2 por respuesta correcta]\n\ngeografía:\ncronómetro:\nbiología:\ndemocracia:\nfotografía:\n\n3.2. En la frase siguiente hay dos palabras derivadas de étimos griegos que aparecen en el texto del ejercicio 1. Complete la tabla con esas palabras, su significado etimológico y el término griego del texto con el que se relacionan. [1 punto: 0,5 por cada fila completa]\n\nLa agronomía y la hidrología estudian los campos y el agua.\n\nPalabra de la frase | Significado etimológico | Palabra griega del texto\n\n3.3. A partir de ὕδωρ, ὕδατος y γράφω, escriba el término castellano que designa la disciplina que describe y cartografía las aguas de una región. Después complete la frase con ese término. [1 punto]\n\nLa disciplina que describe y cartografía las aguas de una región se llama __________.",
+   "solucion": "### Elección de apartados\nSe contestan **3.1 y 3.3**, que suman los 2 puntos disponibles. Se deja 3.2 sin responder, conforme a la instrucción de elegir solo dos apartados.\n\n### 3.1. Étimos griegos\n**Método:** en lugar de memorizar cada palabra completa, se reconstruye su étimo identificando los elementos griegos que aportan su significado y se combinan en la forma griega correspondiente.\n\n| Palabra castellana | Étimo griego válido y análisis |\n|---|---|\n| geografía | **γεωγραφία**: γῆ, «tierra», + -γραφία, «descripción/escritura» |\n| cronómetro | **χρονόμετρον**: χρόνος, «tiempo», + μέτρον, «medida» |\n| biología | **βιολογία**: βίος, «vida», + λόγος, «estudio/discurso» |\n| democracia | **δημοκρατία**: δῆμος, «pueblo», + κράτος, «poder» |\n| fotografía | **φωτογραφία**: φῶς (genitivo φωτός), «luz», + -γραφία, «escritura/representación» |\n\nPuntuación: $5\\times 0{,}2=1$ punto.\n\n### 3.3. Formación de «hidrografía»\n1. El tema compositivo de ὕδωρ, cuyo genitivo es ὕδατος, es **ὑδρο-**, «agua».\n2. A ese elemento se une **-γραφία**, relacionado con γράφω, «escribir, describir».\n3. La formación griega es **ὑδρογραφία** y el término castellano es **hidrografía**.\n\nLa frase queda: «La disciplina que describe y cartografía las aguas de una región se llama **hidrografía**».\n\n**Comprobación:** ὑδρο- aporta el sentido de «agua» y -γραφία el de «descripción»; por tanto, *hidrografía* corresponde a la disciplina indicada.",
+   "resultado": "3.1: γεωγραφία, χρονόμετρον, βιολογία, δημοκρατία, φωτογραφία; 3.3: hidrografía. Total: 2 puntos.",
+   "criterios": "3.1: 1 punto, distribuido en 0,2 por cada étimo correcto; se aceptan formas griegas equivalentes que expresen correctamente los componentes. 3.3: 1 punto por identificar y escribir correctamente «hidrografía» en la frase. 3.2 no se responde porque el enunciado exige contestar solo dos apartados. Nota máxima de los dos apartados elegidos: 2 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "literatura",
+   "puntos": 3,
+   "tipo": "abierta",
+   "enunciado": "Ejercicio de cultura, literatura y legado de la antigua Grecia [3 puntos].\n\n4.1. En una actividad de preparación de una guía cultural, indique si cada afirmación es verdadera o falsa. [1 punto: 0,2 por respuesta correcta]\n\na) La épica homérica está compuesta en hexámetros dactílicos.\nb) Las tragedias atenienses se representaban en festivales celebrados en honor de Apolo.\nc) Lisístrata, de Aristófanes, pertenece a la comedia antigua.\nd) Heródoto narró principalmente la guerra del Peloponeso entre Atenas y Esparta.\ne) Píndaro compuso epinicios en honor de vencedores de los juegos panhelénicos.\n\n4.2. Un museo prepara una ficha para una exposición sobre el teatro griego. El texto de la ficha explica que Dioniso desciende al mundo de los muertos para devolver a Atenas a un poeta trágico y que, allí, se celebra una competición entre dos dramaturgos para decidir quién regresará con él. [2 puntos]\n\na) Identifique el autor y el título de la obra. [0,5 puntos]\nb) Indique el género y la modalidad histórica a la que pertenece. [0,5 puntos]\nc) Escriba los nombres de los dos dramaturgos que compiten. [0,5 puntos]\nd) Explique qué decisión debe tomar Dioniso al final de la competición. [0,5 puntos]",
+   "solucion": "### 4.1. Verdadero o falso\n\nSe contrasta cada afirmación con el dato literario correspondiente:\n\n- **a) Verdadera.** La épica homérica está compuesta en hexámetros dactílicos.\n- **b) Falsa.** Las tragedias atenienses se representaban en festivales dedicados a Dioniso, no a Apolo.\n- **c) Verdadera.** *Lisístrata* es una obra de Aristófanes perteneciente a la comedia antigua.\n- **d) Falsa.** Heródoto narró principalmente las guerras entre griegos y persas; la guerra del Peloponeso fue narrada por Tucídides.\n- **e) Verdadera.** Píndaro compuso epinicios para celebrar a vencedores de los juegos panhelénicos.\n\n### 4.2. Teatro griego\n\n**Comprobación a partir del argumento:** la bajada de Dioniso al Hades y el certamen entre poetas trágicos identifican la comedia *Las ranas*, de Aristófanes. La competición se desarrolla entre Esquilo y Eurípides.\n\n- **a) Autor y título:** Aristófanes, *Las ranas*.\n- **b) Género y modalidad histórica:** comedia; comedia antigua ática.\n- **c) Dramaturgos que compiten:** Esquilo y Eurípides.\n- **d) Decisión final:** Dioniso debe elegir a cuál de los dos poetas devolverá a Atenas. Aunque al principio busca a Eurípides, finalmente elige a Esquilo, a quien lleva de vuelta.\n\n**Comprobación de la puntuación:** las cinco respuestas de 4.1 suman 1 punto; las cuatro de 4.2 suman 2 puntos. La puntuación máxima es 3 puntos. No hay un procedimiento alternativo de resolución propiamente dicho para estas preguntas de conocimiento; se ha comprobado la identificación de la obra mediante sus indicios argumentales.",
+   "resultado": "4.1: a) V, b) F, c) V, d) F, e) V; 4.2: Aristófanes, Las ranas; comedia antigua; Esquilo y Eurípides; Dioniso elige a Esquilo para volver a Atenas. Total: 3/3.",
+   "criterios": "4.1: 0,2 puntos por cada una de las cinco respuestas correctas: 1 punto en total. 4.2: 0,5 puntos por identificar autor y título; 0,5 por género y modalidad histórica; 0,5 por nombrar a Esquilo y Eurípides; 0,5 por explicar que Dioniso elige a Esquilo para devolverlo a Atenas. Total: 3 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "lexico",
+   "p": 0.811
+  },
+  {
+   "id": "traduccion",
+   "p": 0.45
+  },
+  {
+   "id": "literatura",
+   "p": 0.358
+  },
+  {
+   "id": "morfosintaxis",
+   "p": 0.34
+  }
+ ],
+ "referencias": [
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/grec/ord/pau_grec26o.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/grec/ord/pau_grec26o_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2024/grec/ext/pau_grec24sl.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2024/grec/ext/pau_grec24sl_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/grec/ext/pau_grec25sl.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/grec/ext/pau_grec25sl_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/grec/ord/pau_grec25jl_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/grec/ext/pau_grec26e.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/grec/ext/pau_grec26e_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/grec/ord/pau_grec26o.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/grec/ord/pau_grec26o_es.pdf"
+ ]
+}
