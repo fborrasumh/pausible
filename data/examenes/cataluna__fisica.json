@@ -1,0 +1,98 @@
+{
+ "ccaa": "cataluna",
+ "materia": "fisica",
+ "titulo": "Proves d'accés a la universitat 2027 — Física",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro ejercicios obligatorios, de 2,5 puntos cada uno. En los ejercicios 1 y 4, elija UNA de las opciones A o B y responda únicamente a sus apartados. Puede utilizar calculadora, pero no calculadoras ni otros aparatos capaces de almacenar datos o de transmitir o recibir información. Redacte las respuestas de forma clara y justifique los procedimientos y las conclusiones cuando se solicite.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "gravitacion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Ejercicio 1. Campos gravitatorios. Elija UNA de las opciones A o B. OPCIÓN A. Una misión de exploración coloca una cápsula de comunicaciones en órbita circular alrededor de un asteroide esférico. Para el asteroide se conocen el radio, $R=5,00\\times10^4\\ m$, y el parámetro gravitatorio, $GM=1,00\\times10^{10}\\ m^3/s^2$. La cápsula tiene una masa de $250\\ kg$ y su órbita circular tiene un radio $r=1,00\\times10^5\\ m$. 1.1. Partiendo de la ley de gravitación universal y de la condición de órbita circular, deduzca las expresiones de la velocidad y del período orbital en función de $GM$ y $r$. Calcule ambos valores. [1,25 puntos] 1.2. Calcule el cambio de energía potencial gravitatoria de la cápsula al pasar desde la superficie del asteroide hasta la órbita y su energía mecánica en dicha órbita. Determine si la órbita es cerrada y justifique la respuesta. [1,25 puntos] OPCIÓN B. Una cápsula científica de $120\\ kg$ despega radialmente desde la superficie de un asteroide esférico de radio $R=1,00\\times10^6\\ m$. El parámetro gravitatorio del asteroide es $GM=4,50\\times10^{12}\\ m^3/s^2$. La cápsula parte con una rapidez de $1,50\\ km/s$ y, una vez iniciado el movimiento, no vuelve a encender sus motores. 1.1. Calcule la rapidez de escape desde la superficie y determine si la cápsula puede escapar del asteroide. [1,25 puntos] 1.2. Si la cápsula no escapa, calcule la distancia máxima al centro del asteroide que alcanza. Considere que en ese punto su rapidez es nula y justifique el método utilizado. [1,25 puntos]",
+   "solucion": "### Opción A\n\n#### 1.1. Velocidad y período orbital\n\nLa fuerza gravitatoria proporciona la fuerza centrípeta necesaria para la órbita circular:\n\n$$\\frac{GMm}{r^2}=\\frac{mv^2}{r}.$$\n\nAl despejar la velocidad, la masa de la cápsula se cancela:\n\n$$v=\\sqrt{\\frac{GM}{r}}.$$\n\nEl período es la longitud de la órbita dividida por la velocidad, por lo que:\n\n$$T=\\frac{2\\pi r}{v}=2\\pi\\sqrt{\\frac{r^3}{GM}}.$$\n\nCon $GM=1,00\\times10^{10}\\ \\mathrm{m^3/s^2}$ y $r=1,00\\times10^5\\ \\mathrm{m}$:\n\n$$v=\\sqrt{\\frac{1,00\\times10^{10}}{1,00\\times10^5}}=3,16\\times10^2\\ \\mathrm{m/s},$$\n\n$$T=2\\pi\\sqrt{\\frac{(1,00\\times10^5)^3}{1,00\\times10^{10}}}=1,99\\times10^3\\ \\mathrm{s}.$$\n\n#### 1.2. Cambio de energía potencial y energía mecánica\n\nLa energía potencial gravitatoria a una distancia $x$ del centro es $U(x)=-GMm/x$. Por tanto, el cambio al pasar desde la superficie ($R$) hasta la órbita ($r$) es:\n\n$$\\Delta U=U(r)-U(R)=GMm\\left(\\frac{1}{R}-\\frac{1}{r}\\right).$$\n\nSustituyendo $m=250\\ \\mathrm{kg}$, $R=5,00\\times10^4\\ \\mathrm{m}$ y $r=1,00\\times10^5\\ \\mathrm{m}$:\n\n$$\\Delta U=(1,00\\times10^{10})(250)\\left(\\frac{1}{5,00\\times10^4}-\\frac{1}{1,00\\times10^5}\\right)=2,50\\times10^7\\ \\mathrm{J}.$$\n\nEn la órbita circular, la energía cinética es $K=mv^2/2=GMm/(2r)$ y la energía potencial es $U=-GMm/r$. Así, la energía mecánica total resulta:\n\n$$E=K+U=-\\frac{GMm}{2r}=-1,25\\times10^7\\ \\mathrm{J}.$$\n\nLa órbita es cerrada: la energía mecánica es negativa, por lo que la cápsula permanece ligada gravitatoriamente al asteroide. En este caso, la trayectoria es circular.",
+   "resultado": "Opción A: $v=316,23\\ \\mathrm{m/s}$; $T=1986,92\\ \\mathrm{s}$; $\\Delta U=2,50\\times10^7\\ \\mathrm{J}$; $E=-1,25\\times10^7\\ \\mathrm{J}$. La órbita es cerrada.",
+   "criterios": "Total: 2,5 puntos. 1.1 (1,25 puntos): planteamiento de la igualdad entre fuerza gravitatoria y centrípeta, 0,35; deducción de $v=\\sqrt{GM/r}$, 0,25; deducción de $T=2\\pi\\sqrt{r^3/(GM)}$, 0,25; cálculo numérico correcto de velocidad y período con unidades, 0,40. 1.2 (1,25 puntos): expresión correcta de la energía potencial y de su variación entre la superficie y la órbita, 0,40; cálculo de $\\Delta U$ con signo y unidades, 0,25; cálculo de la energía mecánica orbital, 0,35; conclusión de que la órbita es cerrada, justificada por la energía mecánica negativa, 0,25.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "2",
+   "tema": "electrico",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Ejercicio 2. Campos electromagnéticos. Un laboratorio calibra dos dispositivos para una estación de seguimiento: un sensor capacitivo y una bobina de detección. 2.1. En el sensor, dos placas paralelas están separadas $4,00\\ mm$ y tienen una diferencia de potencial de $120\\ V$. La placa de la izquierda está a mayor potencial que la de la derecha. Suponiendo que el campo entre las placas es uniforme, calcule su módulo y el módulo de la fuerza eléctrica sobre un electrón. Indique el sentido del campo eléctrico y el de la fuerza sobre el electrón. [1,25 puntos] 2.2. La bobina tiene $200$ espiras, un área de $25,0\\ cm^2$ y una resistencia total de $5,00\\ Ω$. Vista de frente por un observador, el campo magnético uniforme que atraviesa la bobina apunta hacia dentro del papel y disminuye de $0,80\\ T$ a $0,20\\ T$ en $0,30\\ s$. Calcule el módulo de la fuerza electromotriz inducida y de la corriente. Determine, aplicando la ley de Lenz, el sentido de la corriente inducida tal como la ve el observador. [1,25 puntos] Datos: $|q_e|=1,60\\times10^{-19}\\ C$.",
+   "solucion": "### 2.1. Sensor capacitivo\n\nLa separación entre placas en unidades del SI es $d=4,00×10^{-3}$ m. Para un campo uniforme, su módulo es:\n\n$E=|ΔV|/d=120/(4,00×10^{-3})=3,00×10^4$ V/m.\n\nLa fuerza eléctrica sobre el electrón tiene módulo:\n\n$F=|q_e|E=(1,60×10^{-19})(3,00×10^4)=4,80×10^{-15}$ N.\n\nEl campo eléctrico apunta desde la placa de mayor potencial hacia la de menor potencial: de izquierda a derecha. Como el electrón tiene carga negativa, la fuerza sobre él apunta en sentido opuesto: de derecha a izquierda.\n\n### 2.2. Bobina de detección\n\nEl área de cada espira es $A=25,0×10^{-4}=2,50×10^{-3}$ m². El campo hacia dentro del papel disminuye en módulo $|ΔB|=0,80-0,20=0,60$ T durante $Δt=0,30$ s. Por la ley de Faraday, el módulo de la fuerza electromotriz inducida es:\n\n$ε=N A |ΔB|/Δt=200(2,50×10^{-3})(0,60)/(0,30)=1,00$ V.\n\nLa corriente inducida tiene módulo:\n\n$I=ε/R=1,00/5,00=0,200$ A.\n\nPor la ley de Lenz, la corriente induce un campo magnético hacia dentro del papel, que se opone a la disminución del campo magnético original. Aplicando la regla de la mano derecha, visto de frente por el observador, la corriente circula en sentido horario.",
+   "resultado": "E = 3,00×10⁴ V/m, de izquierda a derecha; F = 4,80×10⁻¹⁵ N, de derecha a izquierda; ε = 1,00 V; I = 0,200 A, sentido horario.",
+   "criterios": "Total: 2,50 puntos. 2.1 (1,25 puntos): conversión de la separación y cálculo correcto del campo eléctrico (0,45); cálculo del módulo de la fuerza eléctrica sobre el electrón (0,40); sentido del campo eléctrico (0,20); sentido opuesto de la fuerza sobre el electrón (0,20). 2.2 (1,25 puntos): conversión del área y determinación de la variación temporal del campo (0,20); aplicación de Faraday y cálculo de la fem inducida (0,45); cálculo de la corriente (0,20); aplicación de Lenz, justificación del campo inducido y determinación del sentido horario visto por el observador (0,40). Se valorará el planteamiento correcto aunque exista un error aritmético posterior.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "3",
+   "tema": "ondas",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Ejercicio 3. Óptica y ondas. Un equipo de investigación instala una cámara y un detector acústico para estudiar murciélagos en una cueva. 3.1. La cámara utiliza una lente delgada convergente de distancia focal $f=12,0\\ cm$. Un objeto de altura $4,00\\ mm$ está situado a $36,0\\ cm$ delante de la lente. Usando la convención de que las distancias del objeto real y de la imagen real son positivas, calcule la posición y la altura de la imagen. Indique si la imagen es real o virtual y si está derecha o invertida; especifique dónde debe colocarse el sensor. [1,25 puntos] 3.2. El detector registra un sonido de frecuencia $40,0\\ kHz$ y amplitud de desplazamiento de las partículas del aire $1,00\\ μm$. La rapidez del sonido en el aire es $340\\ m/s$. El sonido se propaga en el sentido positivo del eje $x$; en $x=0$ y $t=0$, el desplazamiento es nulo y las partículas empiezan a moverse en el sentido positivo. Calcule la longitud de onda y escriba la ecuación del desplazamiento de la onda en función de $x$ y $t$. Si una pared está a $17,0\\ m$ del detector, calcule el tiempo entre la emisión del sonido y la recepción de su eco. [1,25 puntos]",
+   "solucion": "## 3.1. Lente convergente\n\nTomamos $f=+12,0\\,\\mathrm{cm}$ y, al ser real, $s_o=+36,0\\,\\mathrm{cm}$. Aplicamos la ecuación de la lente delgada:\n\n$$\\frac{1}{f}=\\frac{1}{s_o}+\\frac{1}{s_i}.$$\n\nPor tanto,\n\n$$\\frac{1}{s_i}=\\frac{1}{12,0}-\\frac{1}{36,0}=\\frac{1}{18,0}\\quad\\Longrightarrow\\quad s_i=+18,0\\,\\mathrm{cm}.$$\n\nEl aumento lateral es\n\n$$m=-\\frac{s_i}{s_o}=-\\frac{18,0}{36,0}=-0,500,$$\n\ny la altura de la imagen resulta\n\n$$h_i=m h_o=(-0,500)(4,00\\,\\mathrm{mm})=-2,00\\,\\mathrm{mm}.$$\n\nEl signo positivo de $s_i$ indica que la imagen es **real**; el signo negativo de $h_i$ indica que está **invertida**. El sensor debe colocarse a $18,0\\,\\mathrm{cm}$ de la lente, en el lado opuesto al objeto.\n\n## 3.2. Onda sonora y eco\n\nLa longitud de onda es\n\n$$\\lambda=\\frac{v}{f}=\\frac{340\\,\\mathrm{m\\,s^{-1}}}{4,00\\times10^4\\,\\mathrm{s^{-1}}}=8,50\\times10^{-3}\\,\\mathrm{m}.$$\n\nAsí, $k=2\\pi/\\lambda=4000\\pi/17\\,\\mathrm{rad\\,m^{-1}}$ y $\\omega=2\\pi f=80000\\pi\\,\\mathrm{rad\\,s^{-1}}$. Para una onda que avanza en el sentido $+x$ podemos escribir $y=A\\sin(\\omega t-kx)$. En el origen y en el instante inicial, el desplazamiento es nulo y\n\n$$\\left.\\frac{\\partial y}{\\partial t}\\right|_{x=0,t=0}=A\\omega>0,$$\n\ncomo requiere el enunciado. Con $A=1,00\\times10^{-6}\\,\\mathrm{m}$, la ecuación es\n\n$$y(x,t)=(1,00\\times10^{-6}\\,\\mathrm{m})\\sin\\!\\left[(80000\\pi\\,\\mathrm{s^{-1}})t-\\left(\\frac{4000\\pi}{17}\\,\\mathrm{m^{-1}}\\right)x\\right].$$\n\nEl eco recorre la distancia de ida y vuelta, $2d$. Por ello,\n\n$$t_{\\mathrm{eco}}=\\frac{2d}{v}=\\frac{2(17,0\\,\\mathrm{m})}{340\\,\\mathrm{m\\,s^{-1}}}=0,100\\,\\mathrm{s}.$$\n\n## Resultado\n\nImagen: $s_i=+18,0\\,\\mathrm{cm}$ y $h_i=-2,00\\,\\mathrm{mm}$ (real e invertida; sensor a $18,0\\,\\mathrm{cm}$). Onda: $\\lambda=8,50\\times10^{-3}\\,\\mathrm{m}$ y $y(x,t)=(1,00\\times10^{-6}\\,\\mathrm{m})\\sin[(80000\\pi\\,\\mathrm{s^{-1}})t-(4000\\pi/17\\,\\mathrm{m^{-1}})x]$. Eco: $t_{\\mathrm{eco}}=0,100\\,\\mathrm{s}$.",
+   "resultado": "s_i=+18,0 cm; h_i=−2,00 mm; λ=8,50×10⁻³ m; y(x,t)=(1,00×10⁻⁶ m) sin[(80000π s⁻¹)t−(4000π/17 m⁻¹)x]; t_eco=0,100 s.",
+   "criterios": "Total: 2,50 puntos. 3.1 (1,25): 0,35 por plantear correctamente la ecuación de la lente con la convención de signos; 0,30 por obtener la posición de imagen (+18,0 cm); 0,30 por calcular el aumento y la altura (−2,00 mm); 0,30 por identificar que es real e invertida e indicar correctamente la ubicación del sensor. 3.2 (1,25): 0,25 por calcular la longitud de onda; 0,55 por escribir una ecuación compatible con propagación en +x, desplazamiento inicial nulo y velocidad inicial de las partículas positiva; 0,30 por calcular el tiempo de ida y vuelta del eco; 0,15 por expresar correctamente magnitudes y unidades. Se asignará crédito parcial por planteamientos correctos con errores aritméticos menores.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "4",
+   "tema": "moderna",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Ejercicio 4. Física moderna. Elija UNA de las opciones A o B. OPCIÓN A. El flúor-18 se emplea en algunas pruebas de tomografía por emisión de positrones (PET). 4.1. El flúor-18 se transforma en oxígeno-18 mediante emisión β⁺. Escriba la reacción nuclear completa, incluyendo la partícula neutra emitida, y justifique cómo se conservan el número másico y la carga. [1,25 puntos] 4.2. Una muestra tiene una actividad inicial de $64,0\\ MBq$. La vida media del flúor-18 es de $110\\ min$. Calcule la actividad y el porcentaje de núcleos de flúor-18 que quedan después de $330\\ min$. [1,25 puntos] OPCIÓN B. Un fotodiodo de seguridad detecta radiación ultravioleta mediante el efecto fotoeléctrico. La función de trabajo del material es $3,00\\ eV$. 4.1. Se ilumina el material con luz de longitud de onda $300\\ nm$. Calcule la energía de cada fotón en electronvoltios, la energía cinética máxima de los fotoelectrones y el potencial de frenado. [1,25 puntos] 4.2. Calcule la longitud de onda umbral del material y determine si una luz de longitud de onda $450\\ nm$ puede producir emisión fotoeléctrica. Justifique la respuesta comparando la energía del fotón con la función de trabajo. [1,25 puntos] Datos para la opción B: $h=6,63\\times10^{-34}\\ J·s$, $c=3,00\\times10^8\\ m/s$ y $1\\ eV=1,60\\times10^{-19}\\ J$.",
+   "solucion": "### Opción A\n\n#### 4.1. Reacción nuclear y conservación\n\nEn la desintegración $\\beta^+$, un protón del núcleo se transforma en un neutrón y se emiten un positrón y un neutrino electrónico. La reacción completa es:\n\n$$^{18}_{9}\\mathrm{F}\\rightarrow {}^{18}_{8}\\mathrm{O}+{}^{0}_{+1}\\mathrm{e}+{}^{0}_{0}\\nu_e$$\n\nSe conserva el número másico: $18=18+0+0$. También se conserva la carga: $9=8+1+0$.\n\n#### 4.2. Actividad y núcleos restantes\n\nTomamos los $110\\ \\mathrm{min}$ indicados como el periodo de semidesintegración del flúor-18. En $330\\ \\mathrm{min}$ transcurren:\n\n$$n=\\frac{330}{110}=3$$\n\nLa actividad y la fracción de núcleos restantes disminuyen según:\n\n$$A=A_0\\left(\\frac{1}{2}\\right)^n=64,0\\left(\\frac{1}{2}\\right)^3=8,00\\ \\mathrm{MBq}$$\n\nPor tanto, el porcentaje de núcleos de flúor-18 que queda es:\n\n$$100\\left(\\frac{1}{2}\\right)^3=12,5\\ \\%$$",
+   "resultado": "A(330 min) = 8,00 MBq; porcentaje de núcleos de flúor-18 restantes = 12,5 %.",
+   "criterios": "Total: 2,5 puntos.\n\n- 4.1 (1,25 puntos): reacción nuclear completa y correctamente ajustada, con el neutrino electrónico (0,65); justificación de la conservación del número másico (0,30) y de la carga (0,30).\n- 4.2 (1,25 puntos): cálculo del número de periodos transcurridos y aplicación de la ley de desintegración (0,50); actividad final correcta, con unidades (0,40); porcentaje de núcleos restantes correcto (0,35).",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "gravitacion",
+   "p": 0.9
+  },
+  {
+   "id": "electrico",
+   "p": 0.774
+  },
+  {
+   "id": "moderna",
+   "p": 0.774
+  },
+  {
+   "id": "magnetico",
+   "p": 0.588
+  },
+  {
+   "id": "optica",
+   "p": 0.461
+  },
+  {
+   "id": "ondas",
+   "p": 0.45
+  }
+ ],
+ "referencias": [
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/fisica/ord/pau_fisi26o.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/fisica/ord/pau_fisi26o_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/fisica/ext/pau_fisi25sl.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/fisica/ext/pau_fisi25sl_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/fisica/ord/pau_fisi25jl_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/fisica/ext/pau_fisi26e.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/fisica/ext/pau_fisi26e_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/fisica/ord/pau_fisi26o.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/fisica/ord/pau_fisi26o_es.pdf",
+  "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/fisica/ord/pau_fisi26o_tei.pdf"
+ ]
+}
