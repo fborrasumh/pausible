@@ -1,0 +1,108 @@
+{
+ "ccaa": "castillalamancha",
+ "materia": "matematicas2",
+ "titulo": "Prueba de acceso a la Universidad. Matemáticas II. Castilla-La Mancha. Modelo original 2027",
+ "duracion_min": 90,
+ "instrucciones": "El estudiante deberá resolver obligatoriamente las preguntas 1, 2 y 3, y elegir una sola de las dos opciones propuestas en cada una de las preguntas 4 y 5. Si resuelve las dos opciones de una pregunta, se corregirá únicamente la primera. Cada pregunta completa puntúa 2 puntos, por lo que la calificación máxima es de 10 puntos. Las respuestas deben redactarse con claridad y razonarse, valorándose el rigor matemático. La falta de rigor podrá penalizarse hasta con 1 punto en el conjunto del examen. Solo se permite el uso de calculadoras de tipo 1 y 2, según la normativa de la prueba.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "probabilidad",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Una cooperativa de Castilla-La Mancha envasa bolsas de un producto con una masa que se modeliza mediante una distribución normal de media 500 g y desviación típica 10 g. Sea $X$ la masa, en gramos, de una bolsa elegida al azar. Calcula: a) [1 punto] La probabilidad de que la masa esté entre 490 g y 515 g. Da el resultado redondeado a cuatro decimales. b) [1 punto] La masa $K$ tal que aproximadamente el 15,87 % de las bolsas tenga una masa superior a $K$. Para este apartado, utiliza que en la normal estándar $P(Z>1)\\approx 0,1587$.",
+   "solucion": "Sea $X\\sim N(500,10)$ y tipificamos mediante $Z=\\frac{X-500}{10}\\sim N(0,1)$.\n\n**a)**\n$$\nP(490\\le X\\le515)=P\\left(\\frac{490-500}{10}\\le Z\\le\\frac{515-500}{10}\\right)=P(-1\\le Z\\le1.5).\n$$\nPor tanto,\n$$\nP(-1\\le Z\\le1.5)=\\Phi(1.5)-\\Phi(-1)\\approx0.9332-0.1587=0.7745.\n$$\nLa probabilidad, redondeada a cuatro decimales, es **$0.7745$**.\n\n**b)** Se busca $K$ tal que $P(X>K)\\approx0.1587$. Según el dato del enunciado, esto corresponde a $P(Z>1)\\approx0.1587$, así que\n$$\n\\frac{K-500}{10}=1\\quad\\Longrightarrow\\quad K=500+10=510\\text{ g}.\n$$",
+   "resultado": "a) 0,7745; b) K = 510 g",
+   "criterios": "Total: 2 puntos.\na) 1 punto: 0,25 por tipificar correctamente los extremos; 0,50 por plantear y calcular la diferencia de probabilidades acumuladas; 0,25 por dar el resultado redondeado a cuatro decimales.\nb) 1 punto: 0,50 por identificar que la cola superior 0,1587 corresponde a Z = 1; 0,50 por deshacer la tipificación y obtener K = 510 g.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "derivadas",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Durante las seis horas de producción de una instalación solar, su potencia instantánea estimada, en kW, viene dada por $P(t)=t(6-t)^2$, donde $t$ es el tiempo transcurrido desde el inicio de la producción, medido en horas, y $0\\leq t\\leq 6$. a) [1,25 puntos] Estudia los intervalos de crecimiento y decrecimiento de $P(t)$. b) [0,75 puntos] Determina el instante en que la potencia es máxima y calcula dicha potencia.",
+   "solucion": "### a) Intervalos de crecimiento y decrecimiento\n\nDerivamos la función de potencia:\n\n$$P'(t)=(6-t)^2-2t(6-t)=3(6-t)(2-t).$$\n\nLos puntos que anulan la derivada en el intervalo de estudio son $t=2$ y $t=6$. Para $0<t<2$, ambos factores $(6-t)$ y $(2-t)$ son positivos, por lo que $P'(t)>0$. Para $2<t<6$, $(6-t)>0$ y $(2-t)<0$, así que $P'(t)<0$.\n\nPor tanto, $P$ es creciente en $[0,2]$ y decreciente en $[2,6]$.\n\n### b) Máximo de la potencia\n\nLa función pasa de creciente a decreciente en $t=2$, así que alcanza allí su máximo. Su valor es\n\n$$P(2)=2(6-2)^2=32\\text{ kW}.$$\n\nEn los extremos del intervalo, $P(0)=P(6)=0$, lo que confirma que el máximo absoluto es $32\\text{ kW}$, alcanzado a las $2$ horas.",
+   "resultado": "Creciente en [0, 2], decreciente en [2, 6]; máximo a las 2 horas: 32 kW.",
+   "criterios": "a) 1,25 puntos: 0,50 por calcular correctamente la derivada y localizar los puntos críticos; 0,50 por estudiar correctamente el signo de la derivada; 0,25 por indicar los intervalos de crecimiento y decrecimiento. b) 0,75 puntos: 0,25 por identificar el instante del máximo y 0,50 por calcular correctamente la potencia máxima, con unidades.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "sistemas",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En la calibración de un sistema de riego, los ajustes $x$, $y$ y $z$ deben satisfacer, para un parámetro real $a$, el sistema $\\begin{cases}x+y+z=1,\\\\x+ay+z=a,\\\\2x+y+(a+1)z=3.\\end{cases}$ a) [0,75 puntos] Escribe la matriz de coeficientes $A(a)$, calcula $\\det A(a)$ e indica para qué valores de $a$ es invertible. b) [0,75 puntos] Discute el sistema según los valores de $a$, indicando el número de soluciones en cada caso. En el caso singular, justifica la conclusión mediante los rangos de la matriz de coeficientes y de la matriz ampliada. c) [0,5 puntos] Resuelve el sistema para $a=0$.",
+   "solucion": "### a) Matriz, determinante e invertibilidad\nLa matriz de coeficientes es\n$$\nA(a)=\\begin{pmatrix}1&1&1\\\\1&a&1\\\\2&1&a+1\\end{pmatrix}.\n$$\nAplicando las operaciones $F_2\\leftarrow F_2-F_1$ y $F_3\\leftarrow F_3-2F_1$, que no modifican el determinante, queda\n$$\n\\det A(a)=\\begin{vmatrix}1&1&1\\\\0&a-1&0\\\\0&-1&a-1\\end{vmatrix}=(a-1)^2.\n$$\nPor tanto, $A(a)$ es invertible si y solo si $a\\ne 1$.\n\n### b) Discusión del sistema\nRestando la primera ecuación de la segunda y restando el doble de la primera a la tercera, se obtiene el sistema equivalente\n$$\n(a-1)y=a-1,\\qquad -y+(a-1)z=1.\n$$\nSi $a\\ne 1$, resulta $y=1$, $z=\\frac{2}{a-1}$ y, usando la primera ecuación, $x=-\\frac{2}{a-1}$. En consecuencia, hay una única solución para cada $a\\ne 1$.\n\nSi $a=1$, la matriz de coeficientes y la ampliada son\n$$\nA(1)=\\begin{pmatrix}1&1&1\\\\1&1&1\\\\2&1&2\\end{pmatrix},\\qquad\n(A(1)|b)=\\begin{pmatrix}1&1&1&1\\\\1&1&1&1\\\\2&1&2&3\\end{pmatrix}.\n$$\nEn ambas matrices hay dos filas linealmente independientes y la segunda fila coincide con la primera; por tanto, $\\operatorname{rg}A(1)=\\operatorname{rg}(A(1)|b)=2<3$. Por el teorema de Rouché-Frobenius, el sistema es compatible indeterminado y tiene infinitas soluciones. En concreto, las ecuaciones dan $y=-1$ y $x+z=2$, así que $$(x,y,z)=(2-t,-1,t),\\qquad t\\in\\mathbb{R}.$$\n\n### c) Caso $a=0$\nSustituyendo $a=0$ en la solución del caso no singular, se obtiene\n$$(x,y,z)=(2,1,-2).$$\nComprobación: $2+1-2=1$, $2-2=0$ y $2\\cdot2+1-2=3$.",
+   "resultado": "$\\det A(a)=(a-1)^2$; el sistema tiene solución única si $a\\ne1$ e infinitas soluciones si $a=1$ (rangos $2$ y $2$). Para $a=0$, $(x,y,z)=(2,1,-2)$.",
+   "criterios": "a) 0,75 puntos: matriz de coeficientes correcta (0,20); cálculo correcto del determinante $(a-1)^2$ (0,35); condición de invertibilidad $a\\ne1$ (0,20). b) 0,75 puntos: conclusión de solución única para $a\\ne1$ (0,20); cálculo y justificación de los rangos en $a=1$ (0,30); conclusión de infinitas soluciones y, preferiblemente, expresión de la familia (0,25). c) 0,50 puntos: resolución correcta para $a=0$, $(x,y,z)=(2,1,-2)$ (0,40), y comprobación en el sistema (0,10).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "geometria",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Contesta solo una de las opciones siguientes. Opción 4.1. En el replanteo de una marquesina se han medido tres puntos de su superficie: $A(1,0,2)$, $B(3,1,1)$ y $C(0,2,1)$. Un sensor está situado en $D(1,2,0)$. a) [0,75 puntos] Determina la ecuación del plano que contiene la superficie de la marquesina. b) [1,25 puntos] Calcula la distancia del sensor a dicho plano. Opción 4.2. La pared de una instalación se modeliza mediante el plano $\\pi: x+2y+2z=9$. Un punto de colocación previsto para un sensor es $P(1,1,4)$. a) [1,25 puntos] Determina las coordenadas de la proyección ortogonal de $P$ sobre $\\pi$. b) [0,75 puntos] Calcula la distancia de $P$ a la pared.",
+   "solucion": "Se resuelve la opción 4.1.\n\n### a) Plano de la marquesina\n\nTomamos dos vectores contenidos en el plano:\n\n$$\\overrightarrow{AB}=B-A=(2,1,-1),\\qquad \\overrightarrow{AC}=C-A=(-1,2,-1).$$\n\nUn vector normal se obtiene mediante el producto vectorial:\n\n$$\\overrightarrow{AB}\\times\\overrightarrow{AC}=(1,3,5).$$\n\nUsando el punto $A(1,0,2)$ y el vector normal $(1,3,5)$, la ecuación del plano es\n\n$$1(x-1)+3(y-0)+5(z-2)=0,$$\n\npor tanto,\n\n$$\\boxed{x+3y+5z-11=0}.$$\n\n### b) Distancia del sensor al plano\n\nLa distancia de $D(1,2,0)$ al plano $x+3y+5z-11=0$ es\n\n$$d=\\frac{|1\\cdot1+3\\cdot2+5\\cdot0-11|}{\\sqrt{1^2+3^2+5^2}}\n=\\frac{4}{\\sqrt{35}}=\\frac{4\\sqrt{35}}{35}.$$\n\nAsí, la distancia es $\\boxed{\\frac{4}{\\sqrt{35}}\\approx 0.6761}$ unidades.",
+   "resultado": "$x+3y+5z-11=0$; distancia $\\frac{4}{\\sqrt{35}}\\approx 0.6761$ unidades.",
+   "criterios": "Total: 2 puntos. a) Plano (0,75): obtención de dos vectores directores correctos, 0,15; cálculo de un vector normal mediante el producto vectorial, 0,25; ecuación del plano usando uno de los puntos, 0,35. b) Distancia (1,25): aplicación correcta de la fórmula de distancia punto-plano, 0,40; sustitución de las coordenadas de D y de los coeficientes del plano, 0,35; cálculo de la norma del vector normal, 0,25; resultado exacto simplificado, 0,25. Se aceptan expresiones equivalentes.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "limites",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Contesta solo una de las opciones siguientes. Opción 5.1. Resuelve los apartados: a) [1 punto] Calcula justificadamente $\\lim_{x\\to +\\infty}\\left(\\sqrt{x^2+6x+1}-x\\right)$. b) [1 punto] El caudal de agua que entra en un depósito, en litros por hora, durante la primera hora viene dado por $r(t)=\\frac{6t}{1+t^2}$, donde $t$ se mide en horas. Calcula el volumen de agua que entra en esa hora. Opción 5.2. Una empresa ajusta un modelo de coste mediante la función $f(x)=\\begin{cases}\\frac{x^2+2x-3}{x-1},&x<1,\\\\ax^2+b,&x\\geq 1,\\end{cases}$ donde $a$ y $b$ son números reales. Determina los valores de $a$ y $b$ para que $f$ sea continua y derivable en $x=1$. Justifica las condiciones que utilices.",
+   "solucion": "### Opción 5.1\n\n**a)** Racionalizamos la diferencia:\n\n$$\n\\sqrt{x^2+6x+1}-x\n=\\frac{(x^2+6x+1)-x^2}{\\sqrt{x^2+6x+1}+x}\n=\\frac{6x+1}{\\sqrt{x^2+6x+1}+x}.\n$$\n\nComo $x\\to +\\infty$, dividimos numerador y denominador por $x$:\n\n$$\n\\lim_{x\\to +\\infty}\\frac{6+1/x}{\\sqrt{1+6/x+1/x^2}+1}\n=\\frac{6}{2}=3.\n$$\n\n**b)** El volumen que entra durante la primera hora es la integral del caudal entre $t=0$ y $t=1$:\n\n$$\nV=\\int_0^1\\frac{6t}{1+t^2}\\,dt\n=\\left[3\\ln(1+t^2)\\right]_0^1\n=3\\ln 2\\text{ litros}.\n$$\n\nNuméricamente, $V\\approx 2.07944$ litros.",
+   "resultado": "a) 3; b) 3 ln 2 L ≈ 2.07944 L",
+   "criterios": "a) 1 punto: 0,5 por una transformación justificativa correcta (por ejemplo, racionalizar) y 0,5 por calcular el límite, obteniendo 3. b) 1 punto: 0,4 por plantear la integral del caudal entre 0 y 1 y 0,6 por integrar y evaluar correctamente, obteniendo 3 ln 2 litros.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "geometria",
+   "p": 0.759
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.695
+  },
+  {
+   "id": "sistemas",
+   "p": 0.63
+  },
+  {
+   "id": "matrices",
+   "p": 0.62
+  },
+  {
+   "id": "limites",
+   "p": 0.508
+  },
+  {
+   "id": "derivadas",
+   "p": 0.369
+  }
+ ],
+ "referencias": [
+  "manual:manual/castillalamancha/2026/Matemáticas II junio examen __Matematicas-II.txt",
+  "manual:manual/castillalamancha/2026/Matemáticas II julio examen __Matemticas-II.txt",
+  "manual:manual/castillalamancha/2023/Matemáticas II junio examen __Matematicas-II-ordinaria-2023.txt",
+  "manual:manual/castillalamancha/2024/Matemáticas II junio examen __Matematicas-II.txt",
+  "manual:manual/castillalamancha/2025/Matemáticas II julio examen __MATEMATICAS-II.txt",
+  "manual:manual/castillalamancha/2025/Matemáticas II junio examen __MATEMATICAS-II.txt",
+  "manual:manual/castillalamancha/2026/Matemáticas II julio examen __Matemticas-II.txt",
+  "manual:manual/castillalamancha/2026/Matemáticas II junio examen __Matematicas-II.txt"
+ ]
+}
