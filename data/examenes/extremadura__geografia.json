@@ -1,0 +1,96 @@
+{
+ "ccaa": "extremadura",
+ "materia": "geografia",
+ "titulo": "Prueba de Acceso a la Universidad (PAU) 2027 · Extremadura · Geografía",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro preguntas, con un valor de 2,5 puntos cada una. La pregunta 1 es obligatoria. En las preguntas 2 y 3 se responderá únicamente a una de las dos propuestas de cada pregunta; no se pueden combinar apartados de propuestas distintas. En la pregunta 4 se elegirá una de las dos agrupaciones de vocabulario. Responda solo a las cuestiones indicadas y señale con claridad la opción elegida. Se valorarán la precisión geográfica, la claridad y la corrección lingüística. En los ejercicios de cálculo, muestre el procedimiento y exprese el resultado con sus unidades cuando corresponda.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "sectores",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "PREGUNTA 1. Lea esta situación, elaborada para el examen, sobre una cooperativa oleícola extremeña. En 2026, su plantilla de 100 personas se distribuyó así: 48 trabajaron en el cultivo y la recolección de aceituna; 32, en la almazara y el envasado; y 20, en el transporte, la venta y las visitas guiadas. Ese año, el agua utilizada en la limpieza del aceite fue de 4.000 m³. La cooperativa instaló un sistema de reutilización que reduce esa extracción a 3.000 m³. Responda: a) Asigne cada grupo de actividades al sector económico correspondiente y calcule qué porcentaje de la plantilla trabaja conjuntamente en los sectores primario y secundario. (1,25 puntos) b) Calcule el ahorro anual de agua en m³ y como porcentaje del consumo inicial. Identifique el principio de producción sostenible que representa la reutilización y explique brevemente por qué se aplica en este caso. (1,25 puntos)",
+   "solucion": "### a) Sectores económicos y porcentaje de empleo\n\n- **Sector primario:** cultivo y recolección de aceituna: 48 personas. Son actividades de obtención de materias primas.\n- **Sector secundario:** trabajo en la almazara y envasado: 32 personas. Incluye la transformación de la aceituna y la elaboración y preparación del producto.\n- **Sector terciario:** transporte, venta y visitas guiadas: 20 personas. Son actividades de servicios y comercialización.\n\nEn los sectores primario y secundario trabajan conjuntamente $48+32=80$ personas, de una plantilla de 100. Por tanto:\n\n$$\\frac{80}{100}\\times 100=80\\%$$\n\n**El 80 % de la plantilla trabaja en los sectores primario y secundario.**\n\n### b) Ahorro de agua y producción sostenible\n\nEl ahorro anual es la diferencia entre el consumo inicial y la extracción posterior a la instalación del sistema:\n\n$$4.000-3.000=1.000\\ \\text{m}^3$$\n\nEl porcentaje de ahorro se calcula respecto al consumo inicial:\n\n$$\\frac{1.000}{4.000}\\times 100=25\\%$$\n\n**Se ahorran 1.000 m³ de agua al año, equivalentes al 25 % del consumo inicial.**\n\nLa reutilización representa un principio de **producción sostenible y uso eficiente de los recursos**, vinculado a la economía circular: se aprovecha de nuevo el agua en lugar de extraer la misma cantidad de agua nueva. En este caso, el sistema reduce la extracción necesaria para la limpieza del aceite y, por tanto, la presión sobre los recursos hídricos.\n\n**Nota de corrección:** se valoran la correcta asignación de las actividades a los tres sectores, el cálculo del porcentaje de empleo, ambos cálculos del ahorro de agua y la identificación y explicación del principio de sostenibilidad.",
+   "resultado": "80 % de la plantilla en los sectores primario y secundario; ahorro de 1.000 m³ de agua, equivalente al 25 % del consumo inicial.",
+   "criterios": "a) 1,25 puntos: 0,20 por cada asignación correcta de los grupos a los sectores (0,60); 0,25 por sumar correctamente las personas de los sectores primario y secundario; 0,40 por calcular y expresar correctamente el 80 %. b) 1,25 puntos: 0,25 por calcular el ahorro absoluto de 1.000 m³; 0,25 por calcular el ahorro porcentual del 25 % tomando como referencia el consumo inicial; 0,30 por identificar la reutilización como producción sostenible o uso eficiente de recursos; 0,45 por explicar que reduce la necesidad de extracción de agua nueva.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "poblacion",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "PREGUNTA 2. Desarrolle una de las siguientes propuestas. (2,5 puntos)\n\n2.1. Para interpretar las necesidades de servicios de una zona se utilizan estos datos demográficos didácticos: población de 0 a 14 años, 14 %; de 15 a 64 años, 65 %; y de 65 y más años, 21 %. Entre las personas de 65 y más años, el 56 % son mujeres. a) Calcule el índice de envejecimiento mediante la fórmula $\\text{población de 65 y más}/\\text{población de 0 a 14}\\times100$ e indique qué tipo de estructura por edades refleja. Señale también qué diferencia por sexo se desprende del dato aportado. (1,25 puntos) b) Explique cómo contribuyen la baja natalidad y el aumento de la esperanza de vida a esa estructura, e indique una consecuencia para la planificación de servicios. (1,25 puntos)\n\n2.2. En un perfil topográfico esquemático, no realizado a escala, del flanco norte de la sierra de Gredos, un punto de partida se sitúa a 992 m y la cumbre del Almanzor a 2.592 m; la distancia horizontal entre ambos puntos es de 8 km. a) Identifique la unidad del relieve y calcule el desnivel entre los dos puntos y la pendiente media porcentual, convirtiendo previamente la distancia a metros. (1,25 puntos) b) Indique el tipo de estructura geológica característico del Sistema Central y explique su origen ligado a la fracturación del antiguo zócalo. Señale qué grandes cuencas separa esta cordillera. (1,25 puntos)",
+   "solucion": "**Opción desarrollada: 2.1.**\n\n### a) Índice de envejecimiento y diferencia por sexo\n\nLa fórmula solicitada es $I = (P_{65+}/P_{0–14}) × 100$. Aplicamos los porcentajes de la población total: $I = (21/14) × 100 = 1,5 × 100 = 150$.\n\nUna forma de interpretarlo es simplificar la relación entre ambos grupos: hay 3 personas de 65 y más años por cada 2 de 0 a 14 años; expresado por cada 100 personas jóvenes, equivale a **150 personas mayores**. Como el índice supera 100 y la proporción de mayores (21 %) supera la de menores (14 %), se trata de una **estructura demográfica envejecida**.\n\nEntre las personas de 65 y más años, las mujeres representan el 56 % y los hombres el 44 % (100 % − 56 %). Por tanto, hay **12 puntos porcentuales más de mujeres que de hombres** en ese grupo; se aprecia una feminización de la población de edad avanzada.\n\n### b) Factores y consecuencia para los servicios\n\nLa **baja natalidad** reduce la proporción de población infantil y estrecha la base de la estructura por edades; al haber menos personas jóvenes, aumenta el peso relativo de los grupos de más edad. El **aumento de la esperanza de vida** hace que más personas alcancen edades avanzadas y permanezcan más tiempo en ellas, ampliando el peso de la parte superior de la estructura.\n\nUna consecuencia para la planificación es prever más recursos de **atención sanitaria y cuidados de larga duración**, incluidos servicios domiciliarios y de apoyo a la autonomía.\n\n**Comprobación final:** si se considera una población de 1.000 personas, habría 210 personas de 65 y más años y 140 de 0 a 14: $210/140 × 100 = 150$. Además, los porcentajes por sexo del grupo mayor suman $56 + 44 = 100$, y su diferencia es $56 − 44 = 12$ puntos porcentuales.",
+   "resultado": "Índice de envejecimiento: 150 personas de 65 y más años por cada 100 de 0 a 14; entre las personas mayores, 56 % son mujeres y 44 % hombres (diferencia de 12 puntos porcentuales a favor de las mujeres).",
+   "criterios": "Puntuación total: 2,5 puntos. a) 1,25 puntos: cálculo correcto del índice, con fórmula y resultado (0,50); interpretación como estructura envejecida y explicación del significado del valor (0,35); cálculo e interpretación de la diferencia por sexo —56 % de mujeres, 44 % de hombres y 12 puntos porcentuales— (0,40). b) 1,25 puntos: explicación del efecto de la baja natalidad sobre la base de la estructura (0,45); explicación del efecto del aumento de la esperanza de vida sobre el peso de las edades avanzadas (0,45); consecuencia pertinente para la planificación de servicios (0,35). Se valorará la precisión conceptual y la coherencia de la explicación.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "urbano",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "PREGUNTA 3. Desarrolle una de las siguientes propuestas. (2,5 puntos)\n\n3.1. Un municipio extremeño ficticio compara su evolución entre 2000 y 2025. La superficie urbanizada pasó de 10 a 14 km² y la población, de 100.000 a 110.000 habitantes. En 2025, el 65 % de los desplazamientos cotidianos al centro se realizaba en automóvil privado. a) Calcule el crecimiento porcentual de la superficie urbanizada y el de la población; indique en cuántos puntos porcentuales el primero supera al segundo e identifique el proceso urbano que muestran los datos. (1,25 puntos) b) Elija la actuación que incide más directamente en la dependencia del automóvil y explique brevemente por qué: A) ampliar el aparcamiento gratuito en el centro; B) conectar los barrios periféricos con el centro mediante autobuses frecuentes y vías ciclistas seguras; C) construir una nueva vía de circunvalación. (1,25 puntos)\n\n3.2. Una estación didáctica del interior peninsular registra los siguientes valores mensuales:\n\nMeses: enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre.\nTemperatura media (°C): 5, 7, 10, 12, 16, 21, 25, 25, 20, 14, 9, 6.\nPrecipitación (mm): 50, 45, 40, 55, 45, 25, 10, 15, 30, 60, 55, 55.\n\na) Calcule la precipitación anual y la amplitud térmica anual. Determine cuántos meses son secos aplicando el criterio de Gaussen, $P\\leq2T$, donde $P$ es la precipitación mensual en milímetros y $T$ la temperatura media mensual en grados Celsius. (1,25 puntos) b) Identifique el tipo de clima representado y justifique la identificación mediante dos rasgos de los datos. Indique una zona de España donde sea característico. (1,25 puntos)",
+   "solucion": "### Propuesta elegida: 3.1\n\n#### a) Crecimiento e interpretación\n\nEl crecimiento porcentual se calcula respecto al valor inicial:\n\n- **Superficie urbanizada:** $\\frac{14-10}{10}\\times100=40\\,\\%$.\n- **Población:** $\\frac{110000-100000}{100000}\\times100=10\\,\\%$.\n- La diferencia entre ambos crecimientos es $40-10=30$ **puntos porcentuales**.\n\nLa superficie urbanizada ha crecido mucho más que la población. Los datos muestran una **expansión urbana extensiva o dispersa** (urban sprawl), asociada a una disminución de la densidad urbana media.\n\n#### b) Actuación\n\nLa opción más adecuada es **B) conectar los barrios periféricos con el centro mediante autobuses frecuentes y vías ciclistas seguras**. Facilita alternativas al automóvil privado y reduce directamente la dependencia de este para los desplazamientos cotidianos. Ampliar el aparcamiento gratuito puede incentivar el uso del coche, mientras que una nueva circunvalación no ofrece por sí misma una alternativa de transporte y puede favorecer más tráfico.",
+   "resultado": "Crecimiento de la superficie: 40 %; crecimiento de la población: 10 %; diferencia: 30 puntos porcentuales; proceso: expansión urbana extensiva; actuación: B.",
+   "criterios": "Total: 2,5 puntos. a) 1,25 puntos: 0,35 por calcular el crecimiento de la superficie (40 %); 0,35 por calcular el crecimiento de la población (10 %); 0,20 por expresar correctamente la diferencia como 30 puntos porcentuales; 0,35 por identificar la expansión urbana extensiva o dispersa y relacionarla con el mayor crecimiento del suelo urbanizado. b) 1,25 puntos: 0,50 por elegir la opción B; 0,75 por explicar que el transporte público frecuente y las vías ciclistas seguras proporcionan alternativas al automóvil y reducen su dependencia. Se valorará el uso correcto de conceptos y unidades.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "territorio",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "PREGUNTA 4. VOCABULARIO GEOGRÁFICO ESPECÍFICO. Responda a una de las dos agrupaciones. En el apartado a), defina cada concepto en un máximo de tres líneas e incluya un ejemplo referido a España cuando proceda: 0,5 puntos por término. En el apartado b), identifique el término correspondiente a cada definición: 0,5 puntos por respuesta. (2,5 puntos)\n\nEjercicio 4.1.\na) Defina: a.1) Comunidad Autónoma; a.2) agricultura de secano; a.3) amplitud térmica anual. (1,5 puntos)\nb) Identifique los términos correspondientes a estas definiciones: b.1) Área central de la ciudad donde se concentran actividades terciarias de dirección, financieras y comerciales, con elevada accesibilidad y valor del suelo; b.2) Territorio cuyas aguas superficiales drenan hacia un mismo río principal y sus afluentes. (1 punto)\n\nEjercicio 4.2.\na) Defina: a.1) municipio; a.2) industria agroalimentaria; a.3) estiaje. (1,5 puntos)\nb) Identifique los términos correspondientes a estas definiciones: b.1) Unión física de los tejidos urbanos de dos o más ciudades que mantienen administraciones distintas; b.2) Fondo de la Unión Europea destinado a reducir las disparidades regionales mediante inversiones, entre otros ámbitos, en infraestructuras y competitividad empresarial. (1 punto)",
+   "solucion": "### Ejercicio 4.1\n\n**a) Definiciones**\n\n1. **Comunidad Autónoma:** entidad territorial del Estado español con autonomía para gestionar sus intereses, regulada por un Estatuto de Autonomía y dotada de instituciones y competencias propias. **Ejemplo:** Andalucía.\n2. **Agricultura de secano:** agricultura que obtiene el agua necesaria principalmente de las precipitaciones, sin aporte habitual de riego. En España son ejemplos característicos el cultivo de cereales o de olivar de secano.\n3. **Amplitud térmica anual:** diferencia entre la temperatura media del mes más cálido y la del mes más frío de un lugar.\n\n**b) Identificación de términos**\n\n1. Área central de la ciudad descrita: **distrito central de negocios (CBD)** o **centro de negocios**.\n2. Territorio cuyas aguas drenan hacia un mismo río principal y sus afluentes: **cuenca hidrográfica**.",
+   "resultado": "Ejercicio 4.1: Comunidad Autónoma; agricultura de secano; amplitud térmica anual; distrito central de negocios (CBD); cuenca hidrográfica.",
+   "criterios": "Puntuación máxima: 2,5 puntos. Apartado a): 0,5 puntos por cada definición correcta (Comunidad Autónoma, agricultura de secano y amplitud térmica anual), hasta 1,5 puntos. Apartado b): 0,5 puntos por cada término identificado correctamente (distrito central de negocios/CBD y cuenca hidrográfica), hasta 1 punto. Se admiten denominaciones equivalentes correctas; los ejemplos españoles pertinentes se incluyen cuando proceden.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-19",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "sectores",
+   "p": 0.776
+  },
+  {
+   "id": "poblacion",
+   "p": 0.703
+  },
+  {
+   "id": "urbano",
+   "p": 0.633
+  },
+  {
+   "id": "clima",
+   "p": 0.618
+  },
+  {
+   "id": "relieve",
+   "p": 0.602
+  },
+  {
+   "id": "territorio",
+   "p": 0.522
+  }
+ ],
+ "referencias": [
+  "manual:manual/extremadura/2026/Geografía junio examen.txt",
+  "manual:manual/extremadura/2026/Geografía julio examen.txt",
+  "manual:manual/extremadura/2023/Geografía junio examen.txt",
+  "manual:manual/extremadura/2024/Geografía julio examen.txt",
+  "manual:manual/extremadura/2025/Geografía julio examen.txt",
+  "manual:manual/extremadura/2025/Geografía junio examen.txt",
+  "manual:manual/extremadura/2026/Geografía julio examen.txt",
+  "manual:manual/extremadura/2026/Geografía junio examen.txt"
+ ]
+}
