@@ -1,0 +1,118 @@
+{
+ "ccaa": "extremadura",
+ "materia": "matccss",
+ "titulo": "Prueba de Acceso a la Universidad (PAU) 2027 — Matemáticas Aplicadas a las Ciencias Sociales II — Extremadura",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de tres apartados. En el apartado A, resuelve obligatoriamente A1 y A2, que suman 4 puntos. En el apartado B, elige y resuelve solo uno de los problemas B1 y B2, que vale 3 puntos. En el apartado C, elige y resuelve solo uno de los problemas C1 y C2, que vale 3 puntos. Si respondes a más opciones de las establecidas, solo se corregirá la que aparezca físicamente en primer lugar, salvo que esté tachada. Justifica el proceso seguido, utiliza notación matemática adecuada y expresa las conclusiones con claridad. Se permite calculadora no gráfica y no programable.",
+ "preguntas": [
+  {
+   "n": "A1",
+   "tema": "probabilidad",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Una empresa revisa los sensores que instala en equipos de climatización. El 50 % de los sensores procede del proveedor A, el 30 % del proveedor B y el resto del proveedor C. La proporción de sensores defectuosos es del 2 % para A, del 4 % para B y del 10 % para C. Se elige un sensor al azar. a) Calcula la probabilidad de que sea defectuoso. (De 0 a 1 punto). b) Sabiendo que el sensor elegido es defectuoso, calcula la probabilidad de que proceda del proveedor C. (De 0 a 1 punto).",
+   "solucion": "Sea $D$ el suceso «el sensor es defectuoso». Las proporciones de procedencia son $P(A)=0.50$, $P(B)=0.30$ y $P(C)=1-0.50-0.30=0.20$.\n\n**a) Probabilidad de que el sensor sea defectuoso.** Aplicando la fórmula de la probabilidad total:\n\n$$\nP(D)=P(A)P(D\\mid A)+P(B)P(D\\mid B)+P(C)P(D\\mid C)\n$$\n\n$$\nP(D)=0.50\\cdot0.02+0.30\\cdot0.04+0.20\\cdot0.10=0.01+0.012+0.02=0.042.\n$$\n\nPor tanto, la probabilidad de que sea defectuoso es $0.042$, es decir, $4.2\\%$.\n\n**b) Probabilidad de que proceda de C sabiendo que es defectuoso.** Por la fórmula de Bayes:\n\n$$\nP(C\\mid D)=\\frac{P(C)P(D\\mid C)}{P(D)}=\\frac{0.20\\cdot0.10}{0.042}=\\frac{0.02}{0.042}=\\frac{10}{21}\\approx0.47619.\n$$\n\nLa probabilidad pedida es aproximadamente $0.47619$, es decir, $47.62\\%$.",
+   "resultado": "a) $P(D)=0.042$ (4.2 %). b) $P(C\\mid D)=\\frac{10}{21}\\approx0.47619$ (47.62 %).",
+   "criterios": "Total: 2 puntos. a) 1 punto: 0.5 por aplicar correctamente la probabilidad total con las proporciones de los tres proveedores; 0.5 por obtener $P(D)=0.042$. b) 1 punto: 0.25 por identificar $P(C\\cap D)=0.20\\cdot0.10$; 0.5 por plantear correctamente Bayes dividiendo por $P(D)$; 0.25 por obtener $P(C\\mid D)=10/21\\approx0.47619$. Se admitirán resultados equivalentes en forma decimal o porcentual.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "A2",
+   "tema": "inferencia",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Una empresa de reparto estudia el tiempo de espera de sus clientes. En una muestra aleatoria de 100 entregas se obtiene un tiempo medio de 17 minutos. Se supone que el tiempo de espera sigue una distribución normal con desviación típica poblacional de 10 minutos. a) Calcula un intervalo de confianza del 95 % para el tiempo medio de espera de todas las entregas. Utiliza $z_{0.025}=1.96$. (De 0 a 1,25 puntos). b) Según el intervalo obtenido, ¿se puede sostener, con un nivel de confianza del 95 %, que el tiempo medio de espera supera los 20 minutos? Justifica la respuesta. (De 0 a 0,75 puntos).",
+   "solucion": "### a) Intervalo de confianza\n\nAplicamos el método de la variable pivotal. Como la población es normal y la desviación típica poblacional es conocida, se tiene\n\n$$Z=\\frac{\\overline X-\\mu}{\\sigma/\\sqrt n}\\sim N(0,1).$$\n\nPara un nivel de confianza del $95\\%$, usando el valor crítico indicado,\n\n$$P\\left(-1.96\\leq \\frac{\\overline X-\\mu}{\\sigma/\\sqrt n}\\leq 1.96\\right)=0.95.$$\n\nAl despejar $\\mu$, el intervalo queda centrado en la media muestral. El error típico y el margen de error son, respectivamente,\n\n$$\\frac{\\sigma}{\\sqrt n}=\\frac{10}{\\sqrt{100}}=1,\\qquad 1.96\\cdot 1=1.96.$$\n\nPor tanto,\n\n$$IC_{95\\%}=\\left[17-1.96,\\,17+1.96\\right]=[15.04,\\,18.96]\\text{ minutos}.$$\n\n### b) Comparación con $20$ minutos\n\nNo se puede sostener, con un nivel de confianza del $95\\%$, que la media supere los $20$ minutos: todo el intervalo está por debajo de $20$, pues su extremo superior es $18.96<20$. De hecho, el intervalo obtenido apunta a que la media es inferior a $20$ minutos.\n\n**Comprobación:** el intervalo está centrado en $17$ (su punto medio es $17$) y su semiamplitud es $1.96$, que coincide con el margen de error calculado. Además, $18.96<20$, como se ha usado en la conclusión.",
+   "resultado": "IC del 95 %: [15,04; 18,96] minutos. No se puede sostener que la media supere 20 minutos.",
+   "criterios": "Apartado a (1,25 puntos): planteamiento mediante la normal o la variable pivotal y uso del valor crítico correcto (0,25); cálculo del error típico (0,25); cálculo del margen de error (0,25); obtención correcta de los dos extremos del intervalo e identificación de sus unidades (0,50). Apartado b (0,75 puntos): comparación explícita de $18.96$ con $20$ (0,35); conclusión justificada y coherente con el nivel de confianza solicitado (0,40).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "B1",
+   "tema": "matrices",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "En un centro de distribución, las matrices $X$ e $Y$ representan ajustes de existencias para dos almacenes y tres familias de productos; sus entradas pueden ser negativas porque indican variaciones. Los datos de una auditoría establecen que $3X-2Y=\\begin{pmatrix}-1&-5&6\\\\2&4&-3\\end{pmatrix}$ y $X+Y=\\begin{pmatrix}3&0&2\\\\-1&3&4\\end{pmatrix}$. a) Calcula las matrices $X$ e $Y$. (De 0 a 2 puntos). b) En otro cálculo de control se utiliza la matriz $A(m)=\\begin{pmatrix}m&2\\\\3&m-1\\end{pmatrix}$. Determina los valores reales de $m$ para los que $A(m)$ no tiene inversa. (De 0 a 1 punto).",
+   "solucion": "### a) Cálculo de $X$ e $Y$\n\nSean $C=\\begin{pmatrix}-1&-5&6\\\\2&4&-3\\end{pmatrix}$ y $D=\\begin{pmatrix}3&0&2\\\\-1&3&4\\end{pmatrix}$. De $X+Y=D$ se obtiene $Y=D-X$. Sustituyendo en $3X-2Y=C$:\n\n$$3X-2(D-X)=C\\quad\\Longrightarrow\\quad 5X=C+2D.$$\n\nPor tanto,\n\n$$X=\\frac{C+2D}{5}=\\frac{1}{5}\\begin{pmatrix}5&-5&10\\\\0&10&5\\end{pmatrix}=\\begin{pmatrix}1&-1&2\\\\0&2&1\\end{pmatrix}.$$\n\nLuego,\n\n$$Y=D-X=\\begin{pmatrix}3&0&2\\\\-1&3&4\\end{pmatrix}-\\begin{pmatrix}1&-1&2\\\\0&2&1\\end{pmatrix}=\\begin{pmatrix}2&1&0\\\\-1&1&3\\end{pmatrix}.$$\n\n### b) Valores de $m$ para los que $A(m)$ no tiene inversa\n\nLa matriz no tiene inversa cuando su determinante es cero:\n\n$$\\det A(m)=m(m-1)-6=m^2-m-6=(m-3)(m+2)=0.$$\n\nAsí, $m=3$ o $m=-2$.",
+   "resultado": "$X=\\begin{pmatrix}1&-1&2\\\\0&2&1\\end{pmatrix}$, $Y=\\begin{pmatrix}2&1&0\\\\-1&1&3\\end{pmatrix}$; $A(m)$ no tiene inversa para $m=-2$ o $m=3$.",
+   "criterios": "Total: 3 puntos. a) 2 puntos: 0,5 por despejar correctamente usando $Y=D-X$ y obtener $5X=C+2D$; 0,75 por calcular correctamente $X$; 0,75 por obtener $Y=D-X$. b) 1 punto: 0,5 por plantear que la matriz no es invertible si y solo si su determinante es cero y calcularlo correctamente; 0,5 por resolver la ecuación y dar $m=-2$ y $m=3$. Se admitirán procedimientos equivalentes y errores aritméticos posteriores penalizados de forma coherente, sin penalizar dos veces el mismo error.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "B2",
+   "tema": "matrices",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Una asociación compra cuadernos, carpetas y bolígrafos para preparar lotes de material escolar. Un primer lote contiene 2 cuadernos, 1 carpeta y 1 bolígrafo y cuesta 11 euros. Un segundo lote contiene 1 cuaderno, 2 carpetas y 1 bolígrafo y cuesta 12 euros. Un tercer lote contiene 1 cuaderno, 1 carpeta y 2 bolígrafos y cuesta 13 euros. Calcula el precio de cada artículo, suponiendo que el precio de cada tipo de artículo es el mismo en los tres lotes. (De 0 a 3 puntos).",
+   "solucion": "Sea $x$ el precio de un cuaderno, $y$ el de una carpeta y $z$ el de un bolígrafo, en euros. Según los datos, se obtiene el sistema:\n\n$$\n\\begin{cases}\n2x+y+z=11,\\\\\nx+2y+z=12,\\\\\nx+y+2z=13.\n\\end{cases}\n$$\n\nRestando la primera ecuación de la segunda, resulta $-x+y=1$, luego $y=x+1$. Restando la segunda ecuación de la tercera, se obtiene $-y+z=1$, por lo que $z=y+1=x+2$.\n\nSustituyendo en la primera ecuación:\n\n$$\n2x+(x+1)+(x+2)=11 \\quad\\Longrightarrow\\quad 4x+3=11 \\quad\\Longrightarrow\\quad x=2.\n$$\n\nPor tanto, $y=3$ y $z=4$. Los precios son: cuaderno, $2$ euros; carpeta, $3$ euros; bolígrafo, $4$ euros.",
+   "resultado": "Cuaderno: 2 €; carpeta: 3 €; bolígrafo: 4 €.",
+   "criterios": "Total: 3 puntos. 1 punto por definir las incógnitas y plantear correctamente las tres ecuaciones. 1,5 puntos por resolver correctamente el sistema, con el procedimiento algebraico adecuado. 0,5 puntos por indicar e interpretar los tres precios, con sus unidades y en el orden solicitado.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "C1",
+   "tema": "funciones",
+   "puntos": 3,
+   "tipo": "abierta",
+   "enunciado": "Durante una feria, un índice de demanda de plazas, $D(t)$, se modela en función del tiempo transcurrido desde la apertura, $t$ en horas, mediante $D(t)=-t^3+6t^2-9t+20$, para $0\\leq t\\leq 4$. a) Calcula el valor del índice al abrir y cuatro horas después. (De 0 a 0,5 puntos). b) Determina los intervalos en los que el índice crece y aquellos en los que decrece. (De 0 a 1 punto). c) Indica cuándo alcanza sus valores máximo y mínimo absolutos y calcula dichos valores. (De 0 a 1,5 puntos).",
+   "solucion": "### a) Valores al abrir y cuatro horas después\n\nAl abrir, $t=0$:\n$$D(0)=20.$$\n\nCuatro horas después, $t=4$:\n$$D(4)=-4^3+6\\cdot4^2-9\\cdot4+20=16.$$\n\n### b) Intervalos de crecimiento y decrecimiento\n\nDerivamos y factorizamos:\n$$D'(t)=-3t^2+12t-9=-3(t-1)(t-3).$$\n\nLos puntos críticos del intervalo son $t=1$ y $t=3$. El signo de $D'(t)$ es negativo en $(0,1)$, positivo en $(1,3)$ y negativo en $(3,4)$. Por tanto, $D$ decrece en $[0,1]$ y $[3,4]$, y crece en $[1,3]$.\n\n### c) Máximo y mínimo absolutos\n\nComo $D$ es continua en el intervalo cerrado $[0,4]$, sus extremos absolutos se encuentran entre los extremos del intervalo y los puntos críticos. Evaluamos:\n$$D(0)=20,\\qquad D(1)=16,\\qquad D(3)=20,\\qquad D(4)=16.$$\n\nAsí, el máximo absoluto es $20$, alcanzado en $t=0$ y $t=3$ horas; el mínimo absoluto es $16$, alcanzado en $t=1$ y $t=4$ horas. Estos valores concuerdan con los intervalos de monotonía: el índice baja de $20$ a $16$, sube hasta $20$ y vuelve a bajar hasta $16$.",
+   "resultado": "D(0)=20, D(4)=16; crece en [1,3] y decrece en [0,1] y [3,4]; máximo absoluto 20 en t=0 y t=3, mínimo absoluto 16 en t=1 y t=4.",
+   "criterios": "a) 0,5 puntos: 0,25 por cada evaluación correcta, D(0) y D(4). b) 1 punto: 0,25 por la derivada correctamente calculada y factorizada; 0,5 por el estudio correcto del signo; 0,25 por indicar los intervalos de crecimiento y decrecimiento. c) 1,5 puntos: 0,5 por considerar los extremos del dominio y los puntos críticos; 0,5 por evaluar correctamente la función en esos puntos; 0,5 por identificar los valores y los instantes de máximo y mínimo absolutos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "C2",
+   "tema": "integrales",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "El perfil de una sección de una obra de drenaje, medido respecto a una línea horizontal de referencia, viene dado por $g(x)=x^2-4x+3$ para $0\\leq x\\leq 4$, donde $x$ y $g(x)$ se miden en metros. Calcula el área total comprendida entre la gráfica de $g$ y el eje $OX$ en ese intervalo. (De 0 a 3 puntos).",
+   "solucion": "Factorizamos la función para localizar los puntos donde la gráfica corta al eje $OX$:\n\n$$g(x)=x^2-4x+3=(x-1)(x-3).$$\n\nLos ceros del intervalo son $x=1$ y $x=3$. La función es positiva en $[0,1]$ y $[3,4]$, y negativa en $[1,3]$. Por tanto, el área total se obtiene sumando los valores absolutos de las integrales en esos tres intervalos.\n\nUna primitiva es\n\n$$G(x)=\\frac{x^3}{3}-2x^2+3x.$$\n\nEvaluamos en los extremos:\n\n$$G(0)=0,\\qquad G(1)=\\frac{4}{3},\\qquad G(3)=0,\\qquad G(4)=\\frac{4}{3}.$$\n\nAsí, el área es\n\n$$A=\\left|G(1)-G(0)\\right|+\\left|G(3)-G(1)\\right|+\\left|G(4)-G(3)\\right|=\\frac{4}{3}+\frac{4}{3}+\frac{4}{3}=4\\text{ m}^2.$$\n\nPor tanto, el área total comprendida entre la gráfica y el eje $OX$ es $4\\text{ m}^2$.",
+   "resultado": "Área total: $4\\text{ m}^2$.",
+   "criterios": "Reparto de los 3 puntos: 0,75 puntos por hallar los ceros $x=1$ y $x=3$ y determinar los intervalos en que la función cambia de signo; 0,5 puntos por calcular correctamente una primitiva; 1,25 puntos por plantear y evaluar las integrales en valor absoluto en los tres intervalos; 0,5 puntos por sumar las áreas y expresar el resultado con unidades de superficie.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-20",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "matrices",
+   "p": 0.9
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.9
+  },
+  {
+   "id": "inferencia",
+   "p": 0.9
+  },
+  {
+   "id": "funciones",
+   "p": 0.698
+  },
+  {
+   "id": "progl",
+   "p": 0.05
+  },
+  {
+   "id": "integrales",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "manual:manual/extremadura/2026/Matemáticas Aplicadas A Las Ciencias Sociales Ii junio examen.txt",
+  "manual:manual/extremadura/2026/Matemáticas Aplicadas A Las Ciencias Sociales Ii julio examen.txt",
+  "manual:manual/extremadura/2025/Matemáticas Aplicadas A Las Ciencias Sociales Ii julio examen.txt",
+  "manual:manual/extremadura/2025/Matemáticas Aplicadas A Las Ciencias Sociales Ii junio examen.txt",
+  "manual:manual/extremadura/2026/Matemáticas Aplicadas A Las Ciencias Sociales Ii julio examen.txt",
+  "manual:manual/extremadura/2026/Matemáticas Aplicadas A Las Ciencias Sociales Ii junio examen.txt"
+ ]
+}
