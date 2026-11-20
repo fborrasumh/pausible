@@ -1,0 +1,110 @@
+{
+ "ccaa": "castillalamancha",
+ "materia": "biologia",
+ "titulo": "Prueba de acceso a la Universidad (PAU) 2027 — Biología — Castilla-La Mancha",
+ "duracion_min": 90,
+ "instrucciones": "La prueba consta de CINCO PREGUNTAS y suma 10 puntos. PREGUNTA 1 (2 puntos): obligatoria; conteste todos sus apartados. PREGUNTAS 2 y 3 (2 puntos cada una): cada pregunta contiene dos cuestiones de 1 punto; en cada cuestión, seleccione como máximo dos de los tres apartados propuestos, que valen 0,5 puntos cada uno. PREGUNTA 4 (2 puntos): elija una de las dos imágenes esquemáticas y responda únicamente a sus apartados. PREGUNTA 5 (2 puntos): responda como máximo dos de los tres apartados, cada uno valorado en 1 punto. Si contesta más apartados de los permitidos, solo se evaluarán los primeros, siguiendo el orden de aparición. Se penalizarán las faltas de ortografía con 0,25 puntos por cada tres faltas, hasta un máximo de 1 punto.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "molecular",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Un equipo de biotecnología analiza un fragmento de ARNm eucariota para comprobar la secuencia de una proteína utilizada en un biosensor. El fragmento es $5′-AUG\\ GCU\\ UUU\\ CAA\\ GGA\\ UGA-3′$. a. Escriba la secuencia de aminoácidos codificada, indicando qué función cumple el codón final. [0,5 puntos] b. Escriba las secuencias de las dos hebras de ADN correspondientes, indicando en cada una los extremos $5′$ y $3′$ y cuál es la hebra molde. [0,5 puntos] c. En la hebra codificante de ADN, la base central del segundo triplete cambia de C a T. Indique el triplete de ADN y el codón de ARNm resultantes, el cambio de aminoácido y el tipo de mutación según su efecto sobre la proteína. [0,5 puntos] d. Nombre la enzima que sintetiza el ARNm a partir de ADN e indique el proceso en el que interviene. Mencione dos modificaciones que permiten obtener el ARNm maduro en una célula eucariota. [0,5 puntos]",
+   "solucion": "### a. Traducción\nSe separa el ARNm en codones y se consulta el código genético: $AUG \\to$ metionina, $GCU \\to$ alanina, $UUU \\to$ fenilalanina, $CAA \\to$ glutamina y $GGA \\to$ glicina. Por tanto, la secuencia es **metionina–alanina–fenilalanina–glutamina–glicina**. El codón final $UGA$ es un **codón de terminación**: no codifica un aminoácido y señala el final de la traducción.\n\n### b. Hebras de ADN\nPara obtener la hebra codificante, se conserva la secuencia del ARNm y se sustituye cada $U$ por $T$. La hebra molde se obtiene como complementaria y antiparalela:\n\n- Hebra codificante: $5′-ATG\\ GCT\\ TTT\\ CAA\\ GGA\\ TGA-3′$.\n- Hebra molde: $3′-TAC\\ CGA\\ AAA\\ GTT\\ CCT\\ ACT-5′$.\n\nLa hebra molde es la que lee la ARN polimerasa para sintetizar el ARN; la hebra codificante tiene la misma secuencia que el ARNm, salvo que contiene $T$ en lugar de $U$.\n\n### c. Mutación\nEl segundo triplete de la hebra codificante es $GCT$. Al cambiar su base central de $C$ a $T$, queda $GTT$. El codón correspondiente del ARNm cambia de $GCU$ a $GUU$. Según el código genético, $GCU$ codifica alanina y $GUU$ codifica valina: se produce un cambio de **alanina por valina**. Es una mutación puntual por sustitución de tipo **missense** (cambio de sentido), pues cambia el aminoácido de la proteína. Además, $C \\to T$ es una transición.\n\n### d. Transcripción y maduración\nEl ARNm se sintetiza mediante la **ARN polimerasa**; en eucariotas, la ARN polimerasa II sintetiza el pre-ARNm durante la **transcripción**. Para su maduración, entre otros procesos, se añade una caperuza en el extremo $5′$, se incorpora una cola de poli-$A$ en el extremo $3′$ y se eliminan los intrones mediante corte y empalme (splicing). Se piden dos modificaciones.\n\n### Comprobación\nLa hebra molde indicada es antiparalela y complementaria de la codificante: al transcribirla se recupera $5′-AUG\\ GCU\\ UUU\\ CAA\\ GGA\\ UGA-3′$. En la mutación, el triplete codificante $GTT$ corresponde a $GUU$ en el ARNm, que efectivamente codifica valina.",
+   "resultado": "Met–Ala–Phe–Gln–Gly; UGA es codón de terminación. ADN codificante: 5′-ATG GCT TTT CAA GGA TGA-3′; molde: 3′-TAC CGA AAA GTT CCT ACT-5′. Mutación: GCT→GTT y GCU→GUU; Ala→Val, missense. Transcripción por ARN polimerasa II; maduración con cap 5′ y cola poli-A (también splicing).",
+   "criterios": "Total: 2 puntos. a) 0,35 por la secuencia correcta de aminoácidos y 0,15 por identificar UGA como terminación (sin aminoácido). b) 0,25 por la hebra codificante con orientación correcta y 0,25 por la hebra molde complementaria, antiparalela y correctamente identificada. c) 0,20 por los tripletes de ADN y ARNm mutados, 0,15 por el cambio Ala→Val y 0,15 por clasificarla como missense (se acepta también indicar que es una sustitución puntual y transición). d) 0,25 por ARN polimerasa II y transcripción, y 0,25 por dos procesos/modificaciones de maduración válidos (0,125 cada uno: cap 5′, cola poli-A o splicing).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "metabolismo",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "PREGUNTA 2. Conteste las siguientes dos cuestiones. En cada una, seleccione como máximo dos apartados (0,5 puntos por apartado). 2.1. Un laboratorio compara el rendimiento energético de células musculares durante el ejercicio y de microalgas cultivadas con luz. a. Indique en qué compartimento celular tiene lugar la glucólisis y cuál es su rendimiento neto de ATP por molécula de glucosa. [0,5 puntos] b. En la fermentación láctica, ¿qué molécula se regenera a partir del NADH y por qué es necesaria esta regeneración? [0,5 puntos] c. Nombre el proceso por el que se forma ATP en la fase luminosa de la fotosíntesis e indique en qué membrana del cloroplasto ocurre. [0,5 puntos] 2.2. Unas células pancreáticas producen y secretan una enzima digestiva. a. Ordene las estructuras que atraviesa la proteína desde su síntesis hasta su liberación al exterior: aparato de Golgi, retículo endoplasmático rugoso, vesícula secretora y membrana plasmática. [0,5 puntos] b. Indique el orgánulo en el que se realiza la mayor parte de la respiración aerobia y nombre los repliegues de su membrana interna. [0,5 puntos] c. ¿Qué le ocurriría a una célula animal colocada en un medio hipotónico? Explique brevemente la causa. [0,5 puntos]",
+   "solucion": "### Apartados seleccionados\nSe contestan los apartados 2.1.a, 2.1.b, 2.2.a y 2.2.b: dos apartados en cada cuestión.\n\n### 2.1.a. Glucólisis\n1. La glucólisis tiene lugar en el **citosol**.\n2. Por cada molécula de glucosa se forman cuatro ATP, pero se consumen dos durante las primeras etapas. Por tanto, el rendimiento neto es $4-2=2$ ATP por glucosa.\n\n### 2.1.b. Fermentación láctica\n1. El NADH transfiere electrones al piruvato, que se reduce a lactato.\n2. En ese proceso, el NADH se oxida y se regenera **NAD$^+$**.\n3. La regeneración de NAD$^+$ es necesaria para que continúe la glucólisis, que lo requiere en una de sus reacciones y permite obtener ATP cuando no se dispone de oxígeno para la respiración aerobia.\n\n### 2.2.a. Secreción de la enzima\nEl recorrido, desde su síntesis hasta la liberación al exterior, es: **retículo endoplasmático rugoso → aparato de Golgi → vesícula secretora → membrana plasmática**. La vesícula se fusiona con la membrana y libera la enzima por exocitosis.\n\n### 2.2.b. Respiración aerobia\nLa mayor parte de la respiración aerobia tiene lugar en las **mitocondrias**. Los repliegues de su membrana interna se denominan **crestas mitocondriales**.\n\n### Comprobación\nEl balance de ATP de la glucólisis queda confirmado al restar los dos ATP consumidos de los cuatro producidos: el rendimiento neto es $2$ ATP. Asimismo, el orden de secreción va desde el RER, donde entra la proteína sintetizada, hasta la membrana plasmática, que permite su liberación al exterior.\n\nNo hay un método alternativo de cálculo relevante para estas cuestiones conceptuales; la comprobación se realiza revisando el balance energético y la secuencia de compartimentos.",
+   "resultado": "Glucólisis en el citosol: 2 ATP netos por glucosa; se regenera NAD$^+$; ruta secretora: RER → Golgi → vesícula → membrana; respiración aerobia en mitocondrias, con crestas.",
+   "criterios": "2.1.a: 0,5 puntos (0,25 por localizar la glucólisis en el citosol y 0,25 por indicar 2 ATP netos por glucosa). 2.1.b: 0,5 puntos (0,25 por identificar NAD$^+$ como la molécula regenerada y 0,25 por explicar que permite mantener la glucólisis). 2.2.a: 0,5 puntos por ordenar correctamente las cuatro estructuras y señalar la liberación por fusión con la membrana. 2.2.b: 0,5 puntos (0,25 por indicar mitocondria y 0,25 por nombrar las crestas). Total: 2 puntos. Se han seleccionado como máximo dos apartados en cada cuestión.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "biomoleculas",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "PREGUNTA 3. Conteste las siguientes dos cuestiones. En cada una, seleccione como máximo dos apartados (0,5 puntos por apartado). 3.1. Un laboratorio de nutrición estudia los componentes de alimentos destinados a la recuperación tras el ejercicio. a. Describa la estructura general de un aminoácido e indique qué tipo de enlace une los aminoácidos de una proteína. [0,5 puntos] b. Explique la diferencia entre un ácido graso saturado y uno insaturado atendiendo a sus enlaces entre átomos de carbono. [0,5 puntos] c. Indique el monómero que forma el glucógeno y su función principal en los animales. [0,5 puntos] 3.2. En un centro de salud se administra una vacuna y se recomienda una dosis de recuerdo. a. Clasifique la inmunidad que se adquiere mediante una vacuna como natural o artificial y como activa o pasiva. [0,5 puntos] b. Explique por qué la respuesta inmunitaria a una dosis de recuerdo suele ser más rápida que la respuesta inicial. [0,5 puntos] c. ¿Qué función desempeña una célula presentadora de antígeno al activar un linfocito T colaborador? [0,5 puntos]",
+   "solucion": "**Selección:** se responden 3.1.a y 3.1.b, y 3.2.a y 3.2.b: dos apartados en cada cuestión. Como son contenidos conceptuales, se emplea una comparación de categorías y mecanismos; no hay un método de cálculo alternativo aplicable.\n\n### 3.1.a. Estructura de un aminoácido y enlace entre aminoácidos\nUn aminoácido tiene un carbono α unido a un grupo amino ($\\mathrm{-NH_2}$), un grupo carboxilo ($\\mathrm{-COOH}$), un átomo de hidrógeno y una cadena lateral variable ($\\mathrm{R}$). Los aminoácidos de una proteína se unen mediante enlaces peptídicos, que son enlaces covalentes entre el grupo carboxilo de uno y el grupo amino de otro.\n\n### 3.1.b. Ácidos grasos saturados e insaturados\nUn ácido graso saturado no presenta dobles enlaces entre sus átomos de carbono: sus enlaces carbono-carbono son simples. Un ácido graso insaturado posee uno o más dobles enlaces carbono-carbono; si tiene uno es monoinsaturado y, si tiene varios, poliinsaturado.\n\n### 3.2.a. Tipo de inmunidad adquirida mediante una vacuna\nLa vacunación produce inmunidad **artificial activa**: es artificial porque se adquiere mediante una intervención deliberada, y activa porque el propio sistema inmunitario responde al antígeno y genera células de memoria. No es pasiva, pues no consiste en recibir directamente anticuerpos ya formados.\n\n### 3.2.b. Respuesta a una dosis de recuerdo\nLa primera exposición genera linfocitos de memoria. Al recibir la dosis de recuerdo, estos reconocen el antígeno y se activan con mayor rapidez que los linfocitos vírgenes de la respuesta inicial; proliferan y producen una respuesta inmunitaria más rápida y, por lo general, más intensa.\n\n**Comprobación:** se han contestado cuatro apartados, cada uno valorado en 0,5 puntos: $4\\times0{,}5=2$ puntos.",
+   "resultado": "3.1.a, 3.1.b, 3.2.a y 3.2.b: 2 puntos de 2.",
+   "criterios": "Se seleccionan dos apartados por cada cuestión, con un máximo de 0,5 puntos por apartado. 3.1.a: 0,25 por describir correctamente la estructura general del aminoácido y 0,25 por identificar el enlace peptídico. 3.1.b: 0,25 por definir correctamente el ácido graso saturado y 0,25 por distinguir el insaturado por sus dobles enlaces C=C. 3.2.a: 0,25 por clasificar la inmunidad como artificial y 0,25 como activa. 3.2.b: 0,5 por explicar la intervención de células de memoria y su relación con la mayor rapidez de la respuesta secundaria. Total: 2 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "division",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "PREGUNTA 4. Elija una de las dos imágenes esquemáticas descritas y responda únicamente a sus apartados (0,5 puntos por apartado). 4.1. IMAGEN 1. Esquema de una célula germinal con $2n=4$: los dos pares de cromosomas homólogos están alineados en la placa ecuatorial formando dos bivalentes. Las fibras del huso conectan cada homólogo con un polo opuesto; las cromátidas hermanas de cada cromosoma permanecen unidas. a. Identifique el tipo de división celular y la fase representada. [0,5 puntos] b. Indique qué estructuras se separan en la fase siguiente y si se divide entonces el centrómero. [0,5 puntos] c. Al finalizar la meiosis, ¿cuántas células se originan y cuántos cromosomas tendrá cada una? [0,5 puntos] d. Nombre el proceso de la profase I que intercambia segmentos entre cromosomas homólogos e indique su efecto sobre la variabilidad genética. [0,5 puntos] 4.2. IMAGEN 2. Gráfica de un cultivo bacteriano cerrado: el eje horizontal representa el tiempo y el vertical el número de bacterias viables por mililitro. El tramo A es casi horizontal a valores bajos; B asciende con rapidez; C forma una meseta; D desciende. a. Nombre las fases de crecimiento representadas por A, B, C y D, en ese orden. [0,5 puntos] b. ¿En qué tramo es mayor el aumento neto de la población? [0,5 puntos] c. ¿En qué tramo son aproximadamente iguales las tasas de división y muerte bacterianas? [0,5 puntos] d. Nombre y describa brevemente el mecanismo de reproducción bacteriana que permite el aumento de población durante el tramo B. [0,5 puntos]",
+   "solucion": "### Opción elegida: 4.1, imagen 1\n\n**a. División y fase.** Es una **meiosis**, concretamente la **metafase I**: los pares de cromosomas homólogos están emparejados como bivalentes y alineados en la placa ecuatorial.\n\n**b. Suceso siguiente.** En la anafase I se separan los **cromosomas homólogos** de cada bivalente y se desplazan a polos opuestos. Los centrómeros **no se dividen**; las cromátidas hermanas permanecen unidas.\n\n**c. Resultado final.** Al terminar la meiosis se originan **4 células haploides**, cada una con **2 cromosomas** ($n=2$), dado que la célula inicial tenía $2n=4$.\n\n**d. Variabilidad genética.** El **sobrecruzamiento** o *crossing-over* ocurre durante la profase I entre cromátidas no hermanas de cromosomas homólogos. Intercambia segmentos y genera nuevas combinaciones de alelos, aumentando la variabilidad genética.\n\n**Comprobación por recuento:** en la primera división, cada polo recibe un cromosoma de cada uno de los dos pares; por tanto, cada conjunto contiene 2 cromosomas. La segunda división separa las cromátidas hermanas y produce cuatro células, cada una con $n=2$ cromosomas.",
+   "resultado": "Meiosis I, metafase I; se separan los homólogos sin división del centrómero; se forman 4 células con 2 cromosomas cada una; el sobrecruzamiento aumenta la variabilidad genética.",
+   "criterios": "0,5 puntos por apartado: a) meiosis y metafase I; b) separación de homólogos y centrómeros sin dividirse; c) cuatro células con dos cromosomas cada una; d) identificación del sobrecruzamiento en profase I y efecto de aumento de la variabilidad genética.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "genetica",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "PREGUNTA 5. Responda como máximo dos de los tres apartados siguientes. Cada apartado vale 1 punto. a. En una especie de pez ornamental, el alelo dominante $L$ determina aletas largas y el alelo recesivo $l$ determina aletas cortas. Se cruzan dos peces heterocigotos y se obtienen 200 alevines. Suponiendo que todos sobreviven por igual, indique la proporción genotípica esperada y el número esperado de alevines con aletas largas y con aletas cortas. [1 punto] b. Un aislado bacteriano susceptible se trata con amoxicilina. Indique qué estructura bacteriana y qué proceso de su síntesis se ven afectados por este antibiótico. Explique por qué no es un tratamiento eficaz contra los virus. [1 punto] c. En una muestra se busca un virus cuyo material genético es ARN mediante RT-PCR. Explique por qué se utiliza primero la transcriptasa inversa y qué ocurre después con el ADN complementario durante la PCR. [1 punto]",
+   "solucion": "Se responden los apartados **a** y **c**, que son los dos permitidos por el enunciado.\n\n### a. Cruce de peces heterocigotos\n\nEl cruce es $Ll \\times Ll$. Cada progenitor produce gametos $L$ y $l$ en proporciones iguales. Al combinarse, se obtienen los genotipos $LL$, $Ll$, $Ll$ y $ll$; por tanto, la proporción genotípica esperada es $1:2:1$ (frecuencias $1/4$, $1/2$ y $1/4$, respectivamente).\n\nComo $L$ es dominante, los genotipos $LL$ y $Ll$ presentan aletas largas: su frecuencia es $3/4$. Los peces $ll$ presentan aletas cortas: su frecuencia es $1/4$. Para 200 alevines, se esperan $200 \\times 3/4 = 150$ con aletas largas y $200 \\times 1/4 = 50$ con aletas cortas.\n\n### c. RT-PCR de un virus de ARN\n\nSe utiliza primero la transcriptasa inversa porque la PCR convencional amplifica ADN, no ARN. Esta enzima sintetiza ADN complementario (ADNc) usando el ARN vírico como molde. A continuación, el ADNc sirve de molde en la PCR: sus hebras se separan, los cebadores se unen a las secuencias complementarias y una ADN polimerasa sintetiza nuevas hebras. La repetición de estos ciclos amplifica el ADN correspondiente al material genético del virus.",
+   "resultado": "a) Genotipos $LL:L l:ll = 1:2:1$; 150 alevines con aletas largas y 50 con aletas cortas. c) La transcriptasa inversa convierte el ARN en ADNc, que después se amplifica mediante PCR.",
+   "criterios": "Apartado a (1 punto): 0,25 por plantear correctamente el cruce y obtener la proporción genotípica $1:2:1$; 0,25 por identificar las frecuencias fenotípicas de aletas largas ($3/4$) y cortas ($1/4$); 0,25 por calcular 150 alevines con aletas largas; 0,25 por calcular 50 con aletas cortas. Apartado c (1 punto): 0,5 por explicar que la transcriptasa inversa sintetiza ADNc a partir del ARN porque la PCR amplifica ADN; 0,5 por indicar que el ADNc se utiliza como molde y se amplifica en los ciclos de PCR. No se responde el apartado b, conforme a la instrucción de contestar como máximo dos apartados.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-20",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "biomoleculas",
+   "p": 0.9
+  },
+  {
+   "id": "celula",
+   "p": 0.9
+  },
+  {
+   "id": "metabolismo",
+   "p": 0.9
+  },
+  {
+   "id": "molecular",
+   "p": 0.9
+  },
+  {
+   "id": "inmunologia",
+   "p": 0.9
+  },
+  {
+   "id": "division",
+   "p": 0.687
+  }
+ ],
+ "referencias": [
+  "manual:manual/castillalamancha/2026/Biología junio examen __Biologia.txt",
+  "manual:manual/castillalamancha/2026/Biología julio examen __Biologia.txt",
+  "manual:manual/castillalamancha/2022/Biología junio examen __Biologia-2022.txt",
+  "manual:manual/castillalamancha/2023/Biología julio examen __Biologia-Extraordinaria.txt",
+  "manual:manual/castillalamancha/2023/Biología junio examen __Biologia-Ordinaria-2023.txt",
+  "manual:manual/castillalamancha/2024/Biología julio examen __BIOLOGIA.txt",
+  "manual:manual/castillalamancha/2025/Biología julio examen __BIOLOGIA.txt",
+  "manual:manual/castillalamancha/2025/Biología junio examen __BIOLOGIA.txt",
+  "manual:manual/castillalamancha/2026/Biología julio examen __Biologia.txt",
+  "manual:manual/castillalamancha/2026/Biología junio examen __Biologia.txt"
+ ]
+}
