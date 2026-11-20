@@ -1,0 +1,145 @@
+{
+ "ccaa": "castillaleon",
+ "materia": "latin",
+ "titulo": "Prueba de Acceso a la Universidad — Latín II — Castilla y León — Modelo original 2027",
+ "duracion_min": 90,
+ "instrucciones": "Se permite utilizar el diccionario, incluido el apéndice gramatical. No se permiten diccionarios con información sobre literatura latina. En el apartado 1, elija uno de los textos A o B y responda sobre ese mismo texto a las cuestiones 1.1, 1.2 y 1.3. En el apartado 2, responda a todas las cuestiones. En el apartado 3, conteste a dos de las tres cuestiones. Las palabras entre corchetes delimitan las formas o el fragmento que se debe analizar.",
+ "preguntas": [
+  {
+   "n": "1.1",
+   "tema": "traduccion",
+   "puntos": 4,
+   "tipo": "abierta",
+   "enunciado": "Traduzca al castellano uno de los siguientes textos. Texto A — El ayuntamiento organiza la reparación de un puente tras una crecida: Postquam aqua in vicum irrupit, aediles operarios convocaverunt. Marcus, qui fontem publicum curabat, dixit se pontem reficere posse, si cives lapides ad ripam portarent. Itaque omnes, labore finito, domum laeti redierunt. Texto B — Un comerciante revisa la carga de un barco en el puerto: Cum navis ad portum appulisset, mercator nautis imperavit ut amphoras diligenter numerarent. Servus, qui merces in tabulas referebat, dominum monuit duas amphoras fractas esse. Quare nautae reliquas merces in horreum transtulerunt.",
+   "solucion": "### Texto elegido: B\n\n**Método: identificación de núcleos verbales y dependencias.** En lugar de traducir palabra por palabra, se localizan primero los verbos y se reconstruyen las relaciones entre cada oración y sus complementos.\n\n1. **Cum navis ad portum appulisset**: el núcleo es *appulisset*, tercera persona singular del pluscuamperfecto de subjuntivo. *Cum* introduce aquí una subordinada temporal anterior a la principal; *navis* es el sujeto y *ad portum* indica destino: «Cuando el barco había llegado al puerto».\n2. **mercator nautis imperavit ut amphoras diligenter numerarent**: *imperavit* es el verbo principal («ordenó»); *mercator* es su sujeto y *nautis*, el complemento en dativo («a los marineros»). La construcción *ut* + subjuntivo expresa lo ordenado: «que contaran cuidadosamente las ánforas».\n3. **Servus, qui merces in tabulas referebat, dominum monuit duas amphoras fractas esse**: *servus* es el sujeto de *monuit* («advirtió»). La relativa *qui merces in tabulas referebat* describe al esclavo: «que registraba las mercancías en las tablillas». Tras *monuit* aparece una oración de infinitivo: *duas amphoras fractas esse*, «que dos ánforas estaban rotas»; *duas amphoras* es el sujeto en acusativo del infinitivo.\n4. **Quare nautae reliquas merces in horreum transtulerunt**: *quare* expresa consecuencia («por ello»); *nautae* es el sujeto, *reliquas merces* el objeto y *in horreum* el destino: «los marineros trasladaron las mercancías restantes al almacén».\n\n### Traducción\nCuando el barco había llegado al puerto, el comerciante ordenó a los marineros que contaran cuidadosamente las ánforas. El esclavo que registraba las mercancías en las tablillas advirtió a su amo de que dos ánforas estaban rotas. Por ello, los marineros trasladaron las mercancías restantes al almacén.\n\n### Comprobación\nLa traducción conserva la secuencia temporal (llegada previa del barco), la orden expresada mediante *ut* con subjuntivo, el contenido de la advertencia en infinitivo y la consecuencia introducida por *quare*. No se han omitido los datos esenciales del texto.",
+   "resultado": "Cuando el barco había llegado al puerto, el comerciante ordenó a los marineros que contaran cuidadosamente las ánforas. El esclavo que registraba las mercancías en las tablillas advirtió a su amo de que dos ánforas estaban rotas. Por ello, los marineros trasladaron las mercancías restantes al almacén.",
+   "criterios": "Propuesta de corrección sobre 4 puntos: 0,75 por la subordinada temporal inicial; 1,00 por la orden del comerciante y la subordinada con *ut*; 1,50 por la oración del esclavo, la relativa y la construcción de infinitivo; 0,75 por la consecuencia final. Se valoran la comprensión sintáctica, la precisión léxica y la corrección del castellano. Los errores que alteren el sentido se penalizan proporcionalmente, evitando descontar dos veces por un mismo fallo.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "1.2",
+   "tema": "morfosintaxis",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Haga el análisis morfológico de las formas indicadas del texto elegido. En las formas nominales, indique caso, número y género, y enuncie el sustantivo o pronombre; en las formas verbales, indique las categorías que procedan y enuncie el verbo. Texto A: [irrupit, operarios, qui, reficere, portarent]. Texto B: [appulisset, nautis, numerarent, fractas, transtulerunt].",
+   "solucion": "### Método\nPrimero se identifican las terminaciones y se obtiene la forma morfológica; después se comprueba que encaje con el paradigma del lema y, cuando procede, con la concordancia sintáctica. Los textos A y B son alternativas: se califica el análisis del texto elegido.\n\n### Texto A\n- **irrupit**: verbo, perfecto de indicativo activo, 3.ª persona singular. Enunciado: *irrumpō, irrumpere, irrūpī, irrūptum*.\n- **operarios**: acusativo masculino plural. Sustantivo: *operarius, -ii*, masculino.\n- **qui**: pronombre relativo, nominativo masculino plural, referido a *operarios*. Enunciado: *qui, quae, quod*. La forma también puede ser nominativo masculino singular en otro contexto; aquí la concordancia con *portarent* indica plural.\n- **reficere**: infinitivo presente activo. Enunciado: *reficiō, reficere, refēcī, refectum*.\n- **portarent**: imperfecto de subjuntivo activo, 3.ª persona plural. Enunciado: *portō, portāre, portāvī, portātum*.\n\n**Comprobación de A:** *portarent* está en plural, de acuerdo con el antecedente *operarios* y el relativo *qui*; las formas verbales corresponden a los paradigmas indicados.\n\n### Texto B\n- **appulisset**: pluscuamperfecto de subjuntivo activo, 3.ª persona singular. Enunciado: *appellō, appellere, appulī, appulsum*.\n- **nautis**: dativo o ablativo plural, masculino. Sustantivo: *nauta, -ae*, masculino. Sin la oración completa, la forma no permite decidir entre ambos casos.\n- **numerarent**: imperfecto de subjuntivo activo, 3.ª persona plural. Enunciado: *numerō, numerāre, numerāvī, numerātum*.\n- **fractas**: participio perfecto pasivo de *frangō, frangere, frēgī, fractum*; acusativo femenino plural. Su terminación concuerda con un sustantivo femenino plural en acusativo.\n- **transtulerunt**: perfecto de indicativo activo, 3.ª persona plural. Enunciado: *transferō, transferre, transtulī, translātum*.\n\n**Comprobación de B:** *appulisset* presenta la formación de pluscuamperfecto de subjuntivo; *fractas* concuerda en género, número y caso con el nombre al que acompaña, y *transtulerunt* es la forma de perfecto plural del verbo indicado.",
+   "resultado": "Análisis completo de cualquiera de los textos: 1,00/1,00 puntos.",
+   "criterios": "1 punto por el análisis del texto elegido. Se asignan 0,20 puntos a cada una de sus cinco formas: identificación morfológica correcta y enunciado del lema cuando se solicita. Se concede puntuación parcial si la respuesta es correcta solo en parte. Para nautis se aceptan dativo o ablativo plural si se indica que el contexto decide; en qui se valora el nominativo masculino plural concordante con operarios.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "1.3",
+   "tema": "morfosintaxis",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Analice sintácticamente el fragmento señalado del texto elegido, indicando la estructura oracional y la función de sus componentes. Texto A: [Marcus, qui fontem publicum curabat, dixit se pontem reficere posse]. Texto B: [mercator nautis imperavit ut amphoras diligenter numerarent].",
+   "solucion": "## Método\nDelimito primero los predicados y las proposiciones; después asigno las funciones atendiendo al régimen de los verbos. Se ofrecen las dos alternativas: en el examen se corrige la opción elegida.\n\n### Texto A\n**Estructura:** oración principal con una subordinada de relativo explicativa y una subordinada sustantiva de infinitivo.\n\n`[Marcus, [qui fontem publicum curabat], dixit [se pontem reficere posse]].`\n\n- **Marcus**: sujeto, nominativo singular, de **dixit**.\n- **qui fontem publicum curabat**: subordinada adjetiva de relativo explicativa, que modifica a **Marcus**. **qui** es pronombre relativo, nominativo masculino singular y sujeto de **curabat**; **fontem** es complemento directo de **curabat** y **publicum** lo modifica; **curabat** es el núcleo verbal.\n- **dixit**: núcleo verbal de la oración principal.\n- **se pontem reficere posse**: subordinada sustantiva de infinitivo (acusativo con infinitivo), complemento directo de **dixit**. **se** es el sujeto en acusativo de la construcción de infinitivo y remite a **Marcus**; **posse** es el infinitivo principal de la subordinada y **reficere** su infinitivo complementario; **pontem** es complemento directo de **reficere**.\n\n### Texto B\n**Estructura:** oración principal con una subordinada sustantiva completiva de mandato, introducida por **ut**.\n\n`[Mercator nautis imperavit [ut amphoras diligenter numerarent]].`\n\n- **Mercator**: sujeto, nominativo singular, de **imperavit**.\n- **imperavit**: núcleo verbal de la oración principal.\n- **nautis**: complemento indirecto, dativo plural, regido por **imperavit**; designa a quienes reciben la orden.\n- **ut amphoras diligenter numerarent**: subordinada sustantiva completiva de mandato —tradicionalmente, complemento directo de **imperavit**—. **ut** es conjunción subordinante; **numerarent** es el núcleo verbal, imperfecto de subjuntivo, tercera persona plural, y su sujeto omitido es **nautae**, referido a **nautis**; **amphoras** es complemento directo y **diligenter**, complemento circunstancial de modo.\n\n### Comprobación\nEn A, **qui** concuerda con **Marcus** y funciona como sujeto de **curabat**; **fontem** y **pontem** están en acusativo como complementos directos. En B, **nautis** está en dativo como destinatario de la orden y **amphoras** en acusativo como objeto de **numerarent**. El subjuntivo imperfecto de **numerarent** concuerda con el sujeto plural tácito y es coherente con la secuencia temporal tras **imperavit**.",
+   "resultado": "A: subordinada de relativo explicativa y subordinada de infinitivo como CD de dixit. B: subordinada completiva de mandato como CD de imperavit; nautis es CI y amphoras, CD de numerarent.",
+   "criterios": "1 punto en total; se corrige la opción elegida. Texto A: 0,25 por delimitar correctamente la principal y la subordinada de relativo; 0,25 por reconocer el infinitivo como CD de dixit; 0,50 por asignar correctamente las funciones principales. Texto B: 0,25 por delimitar principal y subordinada; 0,25 por identificar la completiva de mandato; 0,50 por asignar correctamente sujeto, CI, CD y complemento de modo. Se admite terminología equivalente si las relaciones sintácticas quedan claras.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.1",
+   "tema": "lexico",
+   "puntos": 0.5,
+   "tipo": "abierta",
+   "enunciado": "En un aviso municipal se lee: La reapertura del puente queda aplazada sine die mientras continúan las obras. Elija el significado que tiene sine die en este contexto: 1) sin una fecha fijada; 2) durante todos los días; 3) dentro de un día.",
+   "solucion": "1. **Análisis de la expresión:** *sine* significa «sin» y rige ablativo; *die* es el ablativo singular de *dies* («día»).\n2. **Sentido literal:** *sine die* significa «sin día» o «sin una fecha fijada».\n3. **Aplicación al contexto:** si la reapertura queda aplazada *sine die*, no se ha establecido cuándo tendrá lugar. Por tanto, la opción correcta es la **1) sin una fecha fijada**. Las opciones 2 y 3 no expresan ese sentido.\n4. **Comprobación:** «La reapertura queda aplazada sin una fecha fijada mientras continúan las obras» conserva el sentido de la oración.",
+   "resultado": "1) sin una fecha fijada",
+   "criterios": "0,5 puntos: 0,25 por identificar correctamente el sentido de *sine die* («sin una fecha fijada») y 0,25 por elegir la opción 1. No se asigna la puntuación completa si se marca otra opción.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.2",
+   "tema": "lexico",
+   "puntos": 0.5,
+   "tipo": "abierta",
+   "enunciado": "Escriba al menos cuatro palabras castellanas relacionadas etimológicamente con el étimo latino terra, -ae.",
+   "solucion": "El étimo latino *terra, terrae* significa ‘tierra’. Se relacionan etimológicamente con él, entre otras, estas palabras castellanas: **tierra**, heredera directa del étimo; **terreno**, de *terrenus*; **terrestre**, de *terrestris*; **terrícola**, formado con *terra* y el elemento *-cola*; y **territorio**, procedente de *territorium*. Cualquiera de cuatro ejemplos correctos satisface lo solicitado.",
+   "resultado": "tierra, terreno, terrestre y terrícola",
+   "criterios": "0,5 puntos por aportar al menos cuatro palabras correctas. Como pauta de corrección, se asignan 0,125 puntos por cada una de las cuatro primeras; se aceptan otros ejemplos válidos. No se puntúan palabras sin relación etimológica demostrable con *terra*. ",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.3",
+   "tema": "lexico",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Indique el resultado en castellano de la evolución de noctem y explique los principales cambios fonéticos que intervienen.",
+   "solucion": "**Método comparativo y desarrollo:** Partimos de *noctem*, acusativo singular de *nox, noctis*. La comparación con formas patrimoniales como *lactem* > *leche* permite reconocer la evolución regular del grupo latino *-ct-* a castellano *ch* (con una evolución histórica que suele reconstruirse como /kt/ > /jt/ > /tʃ/). Además, la *-m* final latina desaparece: *noctem* > *nocte*. Aplicando ambos cambios y conservando la vocal *e*, obtenemos *nocte* > *noche*. **Comprobación:** el resultado coincide con la forma castellana heredada y con el paralelo *lactem* > *leche*.",
+   "resultado": "noctem > noche: desaparece la -m final y el grupo -ct- evoluciona a ch.",
+   "criterios": "1 punto: 0,25 por identificar la pérdida de la -m final; 0,50 por explicar correctamente la evolución de -ct- a ch; 0,25 por dar *noche* como resultado y presentar una evolución coherente.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.1",
+   "tema": "literatura",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Un equipo prepara una ficha introductoria sobre la elegía latina. Defina este género, exponga sus principales características y mencione autores representativos con alguna obra.",
+   "solucion": "### 1. Definición y forma\nLa elegía latina es un género poético escrito en dísticos elegíacos: cada dístico combina un hexámetro y un pentámetro. Aunque podía tratar asuntos diversos, en Roma se desarrolló especialmente como poesía personal y amorosa.\n\n### 2. Características principales\n- Predomina la expresión en primera persona y de experiencias o sentimientos del poeta.\n- Son frecuentes el amor, el deseo, los celos, la separación y el sufrimiento; también aparecen el lamento fúnebre y, en Ovidio, el destierro.\n- Entre sus convenciones figuran la *puella* (amada), el *servitium amoris* (el amante como siervo de la amada) y la *militia amoris* (el amor concebido como servicio o combate).\n- Combina la experiencia personal con convenciones literarias y alusiones cultas.\n\n### 3. Autores y obras\n- Galo: precursor de la elegía amorosa romana; su obra se conserva solo fragmentariamente.\n- Tibulo: *Elegías*.\n- Propercio: *Elegías*.\n- Ovidio: *Amores* y *Heroidas*; también *Tristes* y *Pónticas*, elegías del destierro.\n\nLa exposición se organiza por forma, rasgos y autores, en vez de seguir únicamente un orden cronológico. **Comprobación:** quedan definidos el género y su metro, se explican sus rasgos principales y se citan autores con obras, por lo que se cubren los tres aspectos solicitados.",
+   "resultado": "Respuesta completa: definición, características y autores con obras; puntuación máxima, 1/1.",
+   "criterios": "Total: 1 punto. Definición del género y descripción del dístico elegíaco: 0,30 puntos. Características temáticas y convenciones principales: 0,35 puntos. Autores representativos acompañados de obras pertinentes: 0,35 puntos. Se aceptan formulaciones equivalentes y otras obras correctas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.2",
+   "tema": "literatura",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Para una exposición sobre la palabra pública en Roma, explique los rasgos de la oratoria romana durante la República y valore la aportación de Cicerón, citando obras representativas.",
+   "solucion": "### Desarrollo (enfoque temático)\n\n1. **Marco cívico.** Durante la República, la oratoria estaba ligada a la vida pública: se pronunciaban discursos en el Senado, ante las asambleas populares y en los tribunales. El dominio de la palabra era, por ello, una herramienta política y jurídica importante para los ciudadanos que intervenían en la vida pública.\n\n2. **Rasgos principales.** Predominaba una finalidad práctica y persuasiva: defender una causa, orientar una decisión o influir en la opinión de los oyentes. Eran relevantes la solidez de los argumentos, el conocimiento de la política y del derecho, la capacidad de conmover y convencer, y la ejecución oral —voz, gesto y memoria—. La tradición romana se desarrolló en contacto con la retórica griega, cuyos recursos y enseñanza incorporó progresivamente. Entre sus precedentes republicanos destacan Catón el Viejo y, más tarde, los Gracos, Marco Antonio y Licinio Craso.\n\n3. **Aportación de Cicerón.** En el final de la República, Cicerón fue el orador más influyente y una figura decisiva en la consolidación de la prosa latina. Unió la práctica forense y política con la reflexión teórica, y defendió que el orador ideal debía combinar el dominio técnico de la palabra con la cultura y el juicio. Expuso sus ideas sobre la formación y el arte del orador en *De oratore*, *Brutus* y *Orator*. Como ejemplos de su oratoria práctica pueden citarse las *Catilinarias*, el discurso *Pro Archia* y las *Filípicas*.\n\n**Comprobación final.** La respuesta identifica los ámbitos públicos republicanos, explica el carácter persuasivo y oral de la práctica y la influencia griega, y valora la aportación de Cicerón con obras teóricas y discursos representativos.",
+   "resultado": "La oratoria republicana fue una práctica cívica y persuasiva, vinculada a las instituciones públicas; Cicerón la culminó y teorizó, como muestran sus discursos y obras retóricas.",
+   "criterios": "Total: 1 punto. 0,25 por situar la oratoria en las instituciones y la vida pública republicanas; 0,25 por explicar sus rasgos y la influencia griega; 0,25 por valorar la aportación de Cicerón; 0,25 por citar obras representativas pertinentes y diferenciarlas entre teóricas y oratorias. Se admiten otras obras y formulaciones correctas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.3",
+   "tema": "literatura",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una ficha sobre las Metamorfosis de Ovidio, identifique el género literario de la obra, señale dos rasgos característicos y explique dos episodios de transformación que los ilustren.",
+   "solucion": "### 1. Género literario\nLas *Metamorfosis* de Ovidio son un **poema épico-mitológico**, compuesto en hexámetros.\n\n### 2. Dos rasgos característicos\n- Presenta materia mitológica y la intervención de dioses en el destino de seres humanos.\n- La transformación física es el motivo que organiza y enlaza numerosos relatos, dentro de un recorrido que va desde los orígenes del mundo hasta la apoteosis de Julio César.\n\n### 3. Dos episodios\n- **Ío:** Júpiter la convierte en ternera para ocultarla de Juno. El episodio muestra la metamorfosis como recurso narrativo y la intervención de los dioses en la vida de los mortales.\n- **Acteón:** tras sorprender accidentalmente a Diana mientras se baña, la diosa lo transforma en ciervo; sus propios perros, que no lo reconocen, lo despedazan. El episodio ilustra la transformación provocada por una divinidad y sus consecuencias.\n\n### Comprobación\nLos dos episodios contienen una transformación física y muestran la intervención divina, por lo que ejemplifican los rasgos señalados.",
+   "resultado": "Poema épico-mitológico en hexámetros; sus relatos mitológicos se articulan mediante transformaciones, como las de Ío en ternera y Acteón en ciervo.",
+   "criterios": "Total: 1 punto. Género literario: 0,20. Dos rasgos característicos: 0,20 cada uno (0,40 en total). Dos episodios explicados correctamente y relacionados con los rasgos: 0,20 cada uno (0,40 en total). Se admiten otros episodios de transformación si su explicación es correcta.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-20",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "morfosintaxis",
+   "p": 0.9
+  },
+  {
+   "id": "literatura",
+   "p": 0.693
+  },
+  {
+   "id": "traduccion",
+   "p": 0.657
+  },
+  {
+   "id": "lexico",
+   "p": 0.657
+  }
+ ],
+ "referencias": [
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/guias-calificacion-pau-2026.ficheros/1815898-Gu%C3%ADa%20Calificaci%C3%B3n%20Lat%C3%ADn%20II.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/modelos-examen-0.ficheros/1810839-Modelo%200%20Lat%C3%ADn%20II.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2025-b5f5f/estructura-examen-orientativa-criterios-correccion/estructura-examen-orientativa-criterios-correccion.ficheros/1741757-Estructura%20de%20examen%20y%20criterios%20de%20correcci%C3%B3n%20LAT%C3%8DN%20II.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2025-b5f5f/guias-calificacion-pau-2025.ficheros/1768176-Gu%C3%ADa%20calificaci%C3%B3n%20Lat%C3%ADn%20II.pdf",
+  "https://www.educa.jcyl.es/universidad/es/servicio-ensenanza-universitaria/acceso-universidades-publicas-castilla-leon/pau-2026/guias-calificacion-pau-2026.ficheros/1815898-Gu%C3%ADa%20Calificaci%C3%B3n%20Lat%C3%ADn%20II.pdf"
+ ]
+}
