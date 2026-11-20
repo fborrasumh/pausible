@@ -1,0 +1,131 @@
+{
+ "ccaa": "extremadura",
+ "materia": "matematicas2",
+ "titulo": "Prueba de Acceso a la Universidad 2027 — Matemáticas II — Extremadura",
+ "duracion_min": 90,
+ "instrucciones": "Resuelve cuatro ejercicios: en los ejercicios 1, 2 y 3 elige una sola opción (A o B), y el ejercicio 4 es obligatorio. Si respondes a las dos opciones de un mismo ejercicio, solo se corregirá la primera que aparezca, salvo que esté tachada. Cada ejercicio completo puntúa como máximo 2,5 puntos; la puntuación máxima total es 10 puntos. Expresa de forma razonada el proceso seguido, con rigor y usando la notación matemática adecuada. Se adjunta una tabla de la distribución normal. Se permite calculadora no gráfica y no programable.",
+ "preguntas": [
+  {
+   "n": "1.A",
+   "tema": "matrices",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "EJERCICIO 1.A [2,5 puntos]. a) 1,25 puntos; b) 1,25 puntos. En un modelo de coordinación de dos señales se utilizan las matrices $A=\\begin{pmatrix}1&1\\\\0&2\\end{pmatrix}$ y $B=\\begin{pmatrix}4&4\\\\14&8\\end{pmatrix}$. a) Resuelve la ecuación matricial $AX=B^t-2X$, donde $B^t$ es la traspuesta de $B$. b) Resuelve el sistema matricial $2X+3Y=A$, $X-2Y=B$.",
+   "solucion": "### a)\nReagrupamos los términos que contienen $X$ por la izquierda:\n$$AX=B^t-2X\\iff (A+2I)X=B^t.$$\nComo\n$$A+2I=\\begin{pmatrix}3&1\\\\0&4\\end{pmatrix},\\qquad B^t=\\begin{pmatrix}4&14\\\\4&8\\end{pmatrix},$$\ny $\\det(A+2I)=12\\ne 0$, se puede despejar $X$:\n$$X=(A+2I)^{-1}B^t\n=\\begin{pmatrix}\\frac13&-\\frac1{12}\\\\0&\\frac14\\end{pmatrix}\n\\begin{pmatrix}4&14\\\\4&8\\end{pmatrix}\n=\\begin{pmatrix}1&4\\\\1&2\\end{pmatrix}.$$\n\n### b)\nCombinamos las ecuaciones para eliminar una de las incógnitas. El doble de la primera más el triple de la segunda da\n$$7X=2A+3B,\n\\qquad X=\\frac{2A+3B}{7}\n=\\frac17\\begin{pmatrix}14&14\\\\42&28\\end{pmatrix}\n=\\begin{pmatrix}2&2\\\\6&4\\end{pmatrix}.$$\nEliminando $X$, la primera ecuación menos el doble de la segunda da\n$$7Y=A-2B,\n\\qquad Y=\\frac{A-2B}{7}\n=\\frac17\\begin{pmatrix}-7&-7\\\\-28&-14\\end{pmatrix}\n=\\begin{pmatrix}-1&-1\\\\-4&-2\\end{pmatrix}.$$\n\nEn la lista numérica se incluyen, por filas, las entradas de $X$ del apartado a), seguidas por las de $X$ e $Y$ del apartado b).",
+   "resultado": "(a) $X=\\begin{pmatrix}1&4\\\\1&2\\end{pmatrix}$; (b) $X=\\begin{pmatrix}2&2\\\\6&4\\end{pmatrix}$, $Y=\\begin{pmatrix}-1&-1\\\\-4&-2\\end{pmatrix}$.",
+   "criterios": "a) 1,25 puntos: 0,25 por reordenar y factorizar correctamente como $(A+2I)X=B^t$; 0,25 por reconocer que $A+2I$ es invertible y obtener su inversa; 0,50 por efectuar correctamente el producto matricial; 0,25 por presentar la matriz solución. b) 1,25 puntos: 0,50 por obtener mediante eliminación $7X=2A+3B$ y $7Y=A-2B$; 0,25 por calcular correctamente $X$; 0,25 por calcular correctamente $Y$; 0,25 por expresar claramente ambas matrices solución. Se valorará el procedimiento equivalente correctamente desarrollado.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "1.B",
+   "tema": "sistemas",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "EJERCICIO 1.B [2,5 puntos]. a) 1,5 puntos; b) 1 punto. Al ajustar tres coeficientes de un modelo de calibración se obtiene, dependiendo del parámetro real $k$, el sistema $\\begin{cases}x+y+z=1,\\\\x+ky+z=k,\\\\x+y+kz=0.\\end{cases}$ a) Discute el sistema según los valores de $k$. b) Resuélvelo para $k=2$.",
+   "solucion": "### a) Discusión del sistema\n\nRestamos la primera ecuación a la segunda y a la tercera:\n\n- $(E_2)-(E_1):\\ (k-1)y=k-1$.\n- $(E_3)-(E_1):\\ (k-1)z=-1$.\n\nEstas operaciones dejan la matriz de coeficientes triangular, con diagonal $1,k-1,k-1$. Por tanto, su determinante es $D=(k-1)^2$.\n\n- Si $k\\ne 1$, entonces $D\\ne 0$ y el sistema es **compatible determinado**. De las ecuaciones obtenidas, $y=1$ y $z=-\\frac{1}{k-1}$. Sustituyendo en la primera ecuación, $x=1-y-z=\\frac{1}{k-1}$. Así, la solución es $(x,y,z)=\\left(\\frac{1}{k-1},1,-\\frac{1}{k-1}\\right)$.\n- Si $k=1$, la primera y la segunda ecuación son $x+y+z=1$, mientras que la tercera es $x+y+z=0$. Son incompatibles, por lo que el sistema es **incompatible** y no tiene solución.\n\n### b) Caso $k=2$\n\nSustituyendo $k=2$ en la solución obtenida para $k\\ne 1$:\n\n$$\n(x,y,z)=\\left(\\frac{1}{2-1},1,-\\frac{1}{2-1}\\right)=(1,1,-1).\n$$\n\nComprobación: $1+1-1=1$, $1+2-1=2$ y $1+1+2(-1)=0$; se cumplen las tres ecuaciones.",
+   "resultado": "Para $k\\ne1$: sistema compatible determinado, $(x,y,z)=\\left(\\frac{1}{k-1},1,-\\frac{1}{k-1}\\right)$; para $k=1$: incompatible. Si $k=2$, $(x,y,z)=(1,1,-1)$.",
+   "criterios": "a) 1,5 puntos: 0,5 por obtener el determinante o las ecuaciones reducidas; 0,5 por identificar y justificar la incompatibilidad en $k=1$; 0,5 por clasificar el caso $k\\ne1$ como compatible determinado y hallar la solución general. b) 1 punto: 0,75 por sustituir $k=2$ y obtener $(1,1,-1)$; 0,25 por comprobar que satisface el sistema.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.A",
+   "tema": "derivadas",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "EJERCICIO 2.A [2,5 puntos]. a) 0,75 puntos; b) 1,25 puntos; c) 0,5 puntos. En una fase de calibración, un índice adimensional $f$ se define mediante $f(x)=\\begin{cases}\\dfrac{x^3-1}{x-1},&x\\ne 1,\\\\a,&x=1.\\end{cases}$ a) Calcula el valor de $a$ para que $f$ sea continua en $x=1$. b) Para ese valor de $a$, determina los intervalos de crecimiento y decrecimiento de $f$ y sus extremos relativos. c) Calcula la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x=0$.",
+   "solucion": "### a) Continuidad en $x=1$\nFactorizamos el numerador y simplificamos para $x\\ne 1$:\n\n$$x^3-1=(x-1)(x^2+x+1),\\qquad f(x)=x^2+x+1.$$\n\nPor tanto,\n\n$$\\lim_{x\\to 1}f(x)=1^2+1+1=3.$$\n\nLa continuidad en $x=1$ exige que $f(1)=a$ coincida con ese límite. Así, $\\boxed{a=3}$.\n\n### b) Crecimiento, decrecimiento y extremos relativos\nCon $a=3$, la función coincide en todo $\\mathbb{R}$ con el polinomio $x^2+x+1$. Derivando esta forma simplificada,\n\n$$f'(x)=2x+1.$$\n\nLa derivada se anula en $x=-\\frac12$. Es negativa si $x<-\\frac12$ y positiva si $x>-\\frac12$. Por tanto, $f$ es decreciente en $(-\\infty,-\\frac12)$ y creciente en $(-\\frac12,\\infty)$.\n\nEn el punto crítico,\n\n$$f\\left(-\\frac12\\right)=\\left(-\\frac12\\right)^2-\\frac12+1=\\frac34.$$\n\nLuego hay un mínimo relativo (también absoluto) en $\\left(-\\frac12,\\frac34\\right)$ y no hay máximo relativo.\n\n### c) Recta tangente en $x=0$\nEl punto de tangencia es $(0,f(0))=(0,1)$ y la pendiente es $f'(0)=1$. La ecuación de la tangente es\n\n$$y-1=1(x-0),\\qquad \\boxed{y=x+1}.$$\n\n### Comprobación\nEn $x=1$, el límite calculado vale $3$, igual al valor asignado $a$. Además, la recta obtenida pasa por $(0,1)$ y tiene pendiente $1=f'(0)$, como corresponde a la tangente.",
+   "resultado": "$a=3$; decreciente en $(-\\infty,-\\frac12)$ y creciente en $(-\\frac12,\\infty)$; mínimo relativo en $(-\\frac12,\\frac34)$; tangente: $y=x+1$.",
+   "criterios": "Total: 2,5 puntos.\n- a) 0,75 puntos: factorizar y simplificar el cociente (0,25); calcular el límite en $x=1$ (0,25); imponer continuidad y obtener $a=3$ (0,25).\n- b) 1,25 puntos: reconocer la expresión polinómica válida en todo $\\mathbb{R}$ (0,25); calcular correctamente la derivada (0,25); estudiar su signo y dar los intervalos de decrecimiento y crecimiento (0,40); localizar y clasificar el mínimo, con su valor, e indicar que no hay máximo (0,35).\n- c) 0,50 puntos: obtener el punto y la pendiente de tangencia (0,20); escribir la ecuación correcta de la recta (0,30).",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "2.B",
+   "tema": "integrales",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "EJERCICIO 2.B [2,5 puntos]. a) 1,25 puntos; b) 1,25 puntos. En un modelo simplificado, la magnitud $g(t)=t^3-4t$ representa la desviación de un proceso respecto a su nivel de referencia, y su tasa de variación es $f(t)=3t^2-4$. a) Calcula $\\displaystyle\\int\\frac{f(t)}{g(t)}\\,dt$, indicando en qué intervalos es válida la primitiva. b) Calcula la suma de las áreas de todas las regiones acotadas por la gráfica de $g$ y el eje horizontal.",
+   "solucion": "### a) Primitiva e intervalos de validez\n\nPara usar un método distinto de reconocer directamente que el numerador es la derivada del denominador, factorizamos y descomponemos en fracciones simples:\n\n$$g(t)=t^3-4t=t(t-2)(t+2),\\qquad f(t)=3t^2-4.$$\n\n$$\\frac{f(t)}{g(t)}=\\frac{3t^2-4}{t(t-2)(t+2)}=\\frac1t+\\frac1{t-2}+\\frac1{t+2}.$$\n\nPor tanto,\n\n$$\\int\\frac{f(t)}{g(t)}\\,dt=\\ln|t|+\\ln|t-2|+\\ln|t+2|+C=\\ln|t^3-4t|+C.$$\n\nLa expresión integranda no está definida en $t=-2,0,2$. La primitiva es válida, con una constante que puede ser distinta en cada intervalo, en\n\n$$(-\\infty,-2),\\quad(-2,0),\\quad(0,2),\\quad(2,\\infty).$$\n\n### b) Suma de las áreas acotadas\n\nLos cortes con el eje horizontal son $t=-2,0,2$. La función es positiva en $(-2,0)$ y negativa en $(0,2)$, así que las únicas regiones acotadas son las comprendidas entre esos cortes. Una primitiva de $g$ es\n\n$$G(t)=\\frac{t^4}{4}-2t^2.$$\n\nEn el primer intervalo:\n\n$$A_1=\\int_{-2}^{0}(t^3-4t)\\,dt=G(0)-G(-2)=0-(-4)=4.$$\n\nEn el segundo, como $g(t)<0$:\n\n$$A_2=-\\int_{0}^{2}(t^3-4t)\\,dt=-(G(2)-G(0))=4.$$\n\nEn consecuencia, la suma es\n\n$$A_1+A_2=4+4=8.$$\n\n**Comprobación:** al derivar $\\ln|t^3-4t|$ se obtiene $\\frac{3t^2-4}{t^3-4t}$ en cada intervalo de su dominio. Además, $g$ es impar, por lo que las dos áreas deben ser iguales, como se ha obtenido.",
+   "resultado": "a) $\\ln|t^3-4t|+C$, válida en $(-\\infty,-2),(-2,0),(0,2),(2,\\infty)$. b) La suma de las áreas es $8$.",
+   "criterios": "Puntuación total: 2,5 puntos. a) 1,25 puntos: factorización y descomposición correcta en fracciones simples, 0,45; integración y expresión de la primitiva, 0,50; exclusión de los ceros del denominador e indicación de los cuatro intervalos, 0,30. b) 1,25 puntos: identificación de los cortes y de las regiones acotadas, 0,25; determinación correcta del signo en cada intervalo, 0,25; cálculo de las áreas mediante una primitiva y evaluación de los extremos, 0,55; suma y comprobación del resultado, 0,20.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "3.A",
+   "tema": "geometria",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "EJERCICIO 3.A [2,5 puntos]. a) 1 punto; b) 0,75 puntos; c) 0,75 puntos. En un levantamiento topográfico se registran los puntos $A(6,0,0)$, $B(0,3,0)$ y $C(0,0,3)$. a) Halla la ecuación del plano que pasa por los tres puntos. b) Una trayectoria de inspección viene dada por la recta $r:(x,y,z)=\\lambda(2,1,1)$, con $\\lambda\\in\\mathbb R$. Calcula el punto de corte de $r$ con el plano del apartado anterior. c) Calcula la distancia del origen de coordenadas a dicho plano.",
+   "solucion": "### a) Ecuación del plano\n\nTomamos dos vectores del plano:\n\n$$\\overrightarrow{AB}=B-A=(-6,3,0),\\qquad \\overrightarrow{AC}=C-A=(-6,0,3).$$\n\nUn vector normal al plano es su producto vectorial:\n\n$$\\overrightarrow{AB}\\times\\overrightarrow{AC}=(9,18,18),$$\n\npor lo que podemos tomar como vector normal $\\vec n=(1,2,2)$. La ecuación del plano que pasa por $A(6,0,0)$ es\n\n$$1(x-6)+2(y-0)+2(z-0)=0,$$\n\nes decir,\n\n$$\\boxed{x+2y+2z=6}.$$\n\n### b) Punto de corte\n\nEn la recta $r$ se tiene $(x,y,z)=(2\\lambda,\\lambda,\\lambda)$. Sustituyendo en la ecuación del plano:\n\n$$2\\lambda+2\\lambda+2\\lambda=6\\quad\\Longrightarrow\\quad 6\\lambda=6\\quad\\Longrightarrow\\quad \\lambda=1.$$\n\nPor tanto, el punto de corte es\n\n$$\\boxed{(2,1,1)}.$$\n\n### c) Distancia del origen al plano\n\nPara el plano $x+2y+2z-6=0$, la distancia desde el origen $O=(0,0,0)$ es\n\n$$d(O,\\pi)=\\frac{|1\\cdot 0+2\\cdot 0+2\\cdot 0-6|}{\\sqrt{1^2+2^2+2^2}}=\\frac{6}{3}=2.$$\n\nAsí, la distancia pedida es $\\boxed{2}$.",
+   "resultado": "Plano: x+2y+2z=6; punto de corte: (2,1,1); distancia: 2.",
+   "criterios": "a) 1,00 punto: obtención de un vector normal mediante el producto vectorial (0,40); planteamiento de la ecuación del plano usando uno de los puntos (0,40); ecuación final correcta y simplificada (0,20). b) 0,75 puntos: sustitución de la recta en el plano y resolución del parámetro (0,50); punto de corte correcto (0,25). c) 0,75 puntos: aplicación correcta de la fórmula de distancia de un punto a un plano (0,50); resultado final correcto (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.B",
+   "tema": "geometria",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "EJERCICIO 3.B [2,5 puntos]. a) 0,75 puntos; b) 1 punto; c) 0,75 puntos. Dos trayectorias de inspección espacial están descritas por las rectas $r:(x,y,z)=(t,t,0)$ y $s:(x,y,z)=(u,1-u,1)$, con $t,u\\in\\mathbb R$. a) Justifica que las rectas son alabeadas. b) Determina los puntos de $r$ y $s$ que están a mínima distancia entre sí. c) Calcula la distancia mínima entre las dos trayectorias.",
+   "solucion": "### a) Las rectas son alabeadas\n\nSus vectores directores son $\\vec v_r=(1,1,0)$ y $\\vec v_s=(1,-1,0)$. No son paralelos, pues $\\vec v_r\\times\\vec v_s=(0,0,-2)\\ne(0,0,0)$.\n\nTomamos $P=(0,0,0)\\in r$ y $Q=(0,1,1)\\in s$. Como\n\n$$\n(Q-P)\\cdot(\\vec v_r\\times\\vec v_s)=(0,1,1)\\cdot(0,0,-2)=-2\\ne0,\n$$\n\nlos tres vectores no son coplanarios. Por tanto, las rectas no son coplanarias y, al no ser paralelas, son alabeadas.\n\n### b) Puntos a mínima distancia\n\nMinimizamos directamente el cuadrado de la distancia entre un punto de cada recta. Para $R(t)=(t,t,0)$ y $S(u)=(u,1-u,1)$:\n\n$$\nF(t,u)=\\|R(t)-S(u)\\|^2=(t-u)^2+(t+u-1)^2+1.\n$$\n\nCompletando cuadrados,\n\n$$\nF(t,u)=2\\left(t-\\frac12\\right)^2+2\\left(u-\\frac12\\right)^2+1.\n$$\n\nEsta expresión alcanza su mínimo cuando $t=u=\\frac12$. Por tanto, los puntos buscados son\n\n$$\nR\\left(\\frac12\\right)=\\left(\\frac12,\\frac12,0\\right),\\qquad\nS\\left(\\frac12\\right)=\\left(\\frac12,\\frac12,1\\right).\n$$\n\n### c) Distancia mínima\n\nEl cuadrado de la distancia mínima es $F\\left(\\frac12,\\frac12\\right)=1$, luego la distancia mínima es $d_{\\min}=1$.\n\n**Comprobación:** el vector que une los puntos obtenidos es $(0,0,1)$, y es perpendicular a ambas direcciones, ya que $(0,0,1)\\cdot(1,1,0)=0$ y $(0,0,1)\\cdot(1,-1,0)=0$. Además, su módulo es $1$, como se ha calculado.",
+   "resultado": "Puntos más próximos: $\\left(\\frac12,\\frac12,0\\right)$ y $\\left(\\frac12,\\frac12,1\\right)$; distancia mínima: $1$.",
+   "criterios": "a) 0,75 puntos: 0,25 por identificar que las direcciones no son paralelas y 0,50 por justificar la no coplanariedad mediante un producto mixto no nulo. b) 1 punto: 0,35 por plantear correctamente el cuadrado de la distancia, 0,40 por hallar y justificar el mínimo, y 0,25 por dar los dos puntos. c) 0,75 puntos: 0,50 por calcular la distancia mínima y 0,25 por una comprobación coherente del resultado.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "probabilidad",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "EJERCICIO 4 [2,5 puntos]. a) 0,75 puntos; b) 0,75 puntos; c) 1 punto. El contenido de los envases llenados por una máquina sigue una distribución normal de media $500$ ml y desviación típica $40$ ml. a) Calcula la probabilidad de que un envase contenga entre $460$ y $540$ ml. b) Si se inspeccionan $1000$ envases, estima cuántos contendrán más de $540$ ml. c) La empresa desea ofrecer una bonificación al $10\\%$ de los envases con mayor contenido. ¿A partir de qué contenido, aproximadamente, se concederá la bonificación?",
+   "solucion": "Sea $X$ el contenido de un envase. Entonces $X\\sim N(500,40^2)$. Estandarizamos mediante $Z=\\frac{X-500}{40}\\sim N(0,1)$.\n\n**a)** Los extremos $460$ y $540$ se transforman, respectivamente, en $-1$ y $1$. Por simetría de la normal estándar,\n$$\nP(460<X<540)=P(-1<Z<1)=2\\Phi(1)-1=\\operatorname{erf}\\!\\left(\\frac{1}{\\sqrt2}\\right)\\approx 0.682689.\n$$\nLa probabilidad es aproximadamente **$0.6827$**, es decir, **$68.27\\%$**.\n\n**b)** Como $540$ corresponde a $Z=1$,\n$$\nP(X>540)=P(Z>1)=1-\\Phi(1)\\approx 0.158655.\n$$\nEn $1000$ envases, el número esperado es\n$$\n1000\\cdot 0.158655\\approx 158.655,\n$$\npor lo que se estima que **unos $159$ envases** superarán los $540$ ml.\n\n**c)** Si $c$ es el umbral de bonificación, el $10\\%$ superior debe satisfacer $P(X>c)=0.10$. Por tanto, $P(X\\le c)=0.90$ y el cuantil correspondiente de la normal estándar es\n$$\nz_{0.90}=\\Phi^{-1}(0.90)=\\sqrt2\\,\\operatorname{erf}^{-1}(0.8)\\approx 1.281552.\n$$\nDesestandarizando,\n$$\nc=500+40z_{0.90}\\approx 500+40(1.281552)=551.262\\text{ ml}.\n$$\nLa bonificación se concederá, aproximadamente, a partir de **$551.3$ ml**.\n\n**Comprobación:** para el apartado a), los límites estandarizados son simétricos y la probabilidad central resulta $0.682689$. En b), la cola superior $0.158655$ multiplicada por $1000$ da $158.655$, que se redondea a $159$. En c), $\\frac{551.262-500}{40}\\approx1.281552$ y $1-\\Phi(1.281552)\\approx0.10$, como se requiere.",
+   "resultado": "a) 0.682689 (68.27%); b) aproximadamente 159 envases; c) aproximadamente 551.3 ml.",
+   "criterios": "a) 0,75 puntos: 0,25 por estandarizar correctamente los límites; 0,50 por calcular la probabilidad central. b) 0,75 puntos: 0,25 por obtener la cola superior; 0,25 por multiplicar por 1000; 0,25 por expresar y redondear adecuadamente la estimación. c) 1 punto: 0,30 por plantear que la cola superior es 0,10; 0,40 por determinar el cuantil 0,90 de la normal estándar; 0,30 por desestandarizar y expresar el umbral en ml.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  }
+ ],
+ "generado": "2026-11-20",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "matrices",
+   "p": 0.9
+  },
+  {
+   "id": "geometria",
+   "p": 0.9
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.9
+  },
+  {
+   "id": "integrales",
+   "p": 0.846
+  },
+  {
+   "id": "derivadas",
+   "p": 0.803
+  },
+  {
+   "id": "sistemas",
+   "p": 0.658
+  }
+ ],
+ "referencias": [
+  "manual:manual/extremadura/2026/Matematicas Ii junio examen.txt",
+  "manual:manual/extremadura/2026/Matemáticas Ii julio examen.txt",
+  "manual:manual/extremadura/2022/Matemáticas Ii junio examen.txt",
+  "manual:manual/extremadura/2025/Matemáticas Ii julio examen.txt",
+  "manual:manual/extremadura/2025/Matemáticas Ii junio examen.txt",
+  "manual:manual/extremadura/2026/Matematicas Ii junio examen.txt",
+  "manual:manual/extremadura/2026/Matemáticas Ii julio examen.txt"
+ ]
+}
