@@ -1,0 +1,130 @@
+{
+ "ccaa": "extremadura",
+ "materia": "fisica",
+ "titulo": "Prueba de Acceso a la Universidad (PAU) 2027 – Física – Extremadura (modelo original)",
+ "duracion_min": 90,
+ "instrucciones": "Cada pregunta se califica sobre 2,50 puntos. El bloque A es obligatorio. En cada uno de los bloques B, C y D se debe responder a una sola de las dos preguntas propuestas; si se responden ambas, se corregirá únicamente la primera. La puntuación máxima es de 10 puntos. En los problemas se valorarán el planteamiento razonado, los cálculos, las representaciones solicitadas y el uso correcto de las unidades. Se permite calculadora conforme a las normas de la prueba.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "gravitacion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "BLOQUE A. CAMPO GRAVITATORIO. PREGUNTA 1 (2,50 puntos). Un satélite de observación ambiental describe una órbita circular de radio $r_1=8,00·10^6\\,\\text{m}$ respecto al centro de la Tierra. Su masa es $m=1,20·10^3\\,\\text{kg}$. Para planificar una nueva órbita, se estudia trasladarlo idealmente a otra órbita circular de radio $r_2=1,60·10^7\\,\\text{m}$. Considera despreciables la resistencia atmosférica y las pérdidas durante la maniobra. a) (0,70 puntos) Calcula la intensidad del campo gravitatorio terrestre en la órbita inicial. b) (0,60 puntos) Determina el módulo de la fuerza gravitatoria que actúa sobre el satélite en esa órbita. c) (1,20 puntos) Calcula el trabajo que debe aportar el sistema de propulsión para pasar de la órbita circular inicial a la final. Indica el signo del trabajo y justifícalo mediante la variación de energía mecánica orbital. Dato: $GM_T=4,00·10^{14}\\,\\text{m}^3\\text{/s}^2$.",
+   "solucion": "### a) Intensidad del campo gravitatorio\n\nEl módulo del campo gravitatorio a una distancia $r_1$ del centro terrestre es\n\n$$g_1=\\frac{GM_T}{r_1^2}.$$\n\nSustituyendo los datos:\n\n$$g_1=\\frac{4{,}00\\cdot10^{14}}{(8{,}00\\cdot10^6)^2}=6{,}25\\ \\text{m·s}^{-2}.$$\n\n### b) Fuerza gravitatoria\n\nLa fuerza sobre el satélite tiene módulo $F_g=mg_1$:\n\n$$F_g=(1{,}20\\cdot10^3)(6{,}25)=7{,}50\\cdot10^3\\ \\text{N}.$$\n\n### c) Trabajo de propulsión\n\nLa energía mecánica total de un satélite en una órbita circular de radio $r$ es\n\n$$E_m=K+U=-\\frac{GM_Tm}{2r}.$$\n\nComo no hay pérdidas, el trabajo aportado por el sistema de propulsión es la variación de energía mecánica orbital:\n\n$$W_{\\mathrm{prop}}=E_{m,2}-E_{m,1}=\\frac{GM_Tm}{2}\\left(\\frac{1}{r_1}-\\frac{1}{r_2}\\right).$$\n\nPor tanto,\n\n$$W_{\\mathrm{prop}}=\\frac{(4{,}00\\cdot10^{14})(1{,}20\\cdot10^3)}{2}\\left(\\frac{1}{8{,}00\\cdot10^6}-\\frac{1}{1{,}60\\cdot10^7}\\right)=1{,}50\\cdot10^{10}\\ \\text{J}.$$\n\nEl trabajo es **positivo**, pues la energía mecánica de la órbita final es menos negativa que la inicial: el sistema de propulsión debe aportar energía para elevar el satélite a una órbita de mayor radio.",
+   "resultado": "a) $g_1=6{,}25\\ \\text{m·s}^{-2}$; b) $F_g=7{,}50\\cdot10^3\\ \\text{N}$; c) $W_{\\mathrm{prop}}=+1{,}50\\cdot10^{10}\\ \\text{J}$.",
+   "criterios": "a) 0,70 puntos: planteamiento de $g=GM_T/r_1^2$ (0,35) y sustitución, resultado y unidades correctos (0,35). b) 0,60 puntos: planteamiento de $F_g=mg$ o $F_g=GM_Tm/r_1^2$ (0,30) y resultado con unidades (0,30). c) 1,20 puntos: expresión de la energía mecánica orbital circular $E_m=-GM_Tm/(2r)$ (0,45); cálculo de $W=E_{m,2}-E_{m,1}$ y resultado numérico con unidades (0,45); signo positivo y justificación mediante el aumento de energía mecánica (0,30).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "electrico",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "BLOQUE B. CAMPO ELECTROMAGNÉTICO. PREGUNTA 2 (2,50 puntos). En una cámara de ensayo para clasificar partículas cargadas, una guía horizontal coincide con el eje $x$. En la región de ensayo hay un campo eléctrico uniforme $\\vec E=(1,50·10^3\\,\\text{N/C})\\,\\hat\\imath$. Una partícula de masa $4,00\\,\\mu\\text{g}$ y carga $q=-2,00\\,\\text{nC}$ se mueve por la guía desde $x_i=0,10\\,\\text{m}$ hasta $x_f=0,50\\,\\text{m}$. La guía ejerce las fuerzas necesarias para mantener el movimiento horizontal, pero no realiza trabajo en esa dirección. a) (0,80 puntos) Calcula el vector fuerza eléctrica sobre la partícula y su aceleración debida al campo eléctrico. b) (1,00 punto) Halla el trabajo realizado por el campo eléctrico durante el desplazamiento. c) (0,70 puntos) Determina la diferencia de potencial $V_f-V_i$ entre los extremos del recorrido y comprueba que el trabajo obtenido es coherente con ella.",
+   "solucion": "### Datos y conversión\nLa componente del campo eléctrico es $E_x=1{,}50\\times10^3\\,\\text{N/C}$ y la carga es $q=-2{,}00\\times10^{-9}\\,\\text{C}$. La masa debe expresarse en unidades del SI: $4{,}00\\,\\mu\\text{g}=4{,}00\\times10^{-9}\\,\\text{kg}$. El desplazamiento es $\\Delta x=x_f-x_i=0{,}50-0{,}10=0{,}40\\,\\text{m}$.\n\n### a) Fuerza eléctrica y aceleración\nLa fuerza eléctrica es $\\vec F_e=q\\vec E$. Por tanto,\n$$\\vec F_e=(-2{,}00\\times10^{-9})(1{,}50\\times10^3)\\,\\hat\\imath=-3{,}00\\times10^{-6}\\,\\hat\\imath\\,\\text{N}.$$\nComo la fuerza apunta en la dirección negativa del eje $x$, la aceleración debida al campo es\n$$\\vec a_e=\\frac{\\vec F_e}{m}=\\frac{-3{,}00\\times10^{-6}}{4{,}00\\times10^{-9}}\\,\\hat\\imath=-7{,}50\\times10^2\\,\\hat\\imath\\,\\text{m/s}^2.$$\n\n### b) Trabajo del campo eléctrico\nEl campo es uniforme y el desplazamiento es horizontal, de modo que\n$$W_e=\\vec F_e\\cdot\\Delta\\vec r=qE_x\\Delta x=(-2{,}00\\times10^{-9})(1{,}50\\times10^3)(0{,}40)=-1{,}20\\times10^{-6}\\,\\text{J}.$$\nEl trabajo es negativo porque la fuerza eléctrica apunta en sentido contrario al desplazamiento.\n\n### c) Diferencia de potencial y comprobación\nLa diferencia de potencial entre los extremos es\n$$V_f-V_i=-\\int_{x_i}^{x_f}\\vec E\\cdot d\\vec r=-E_x(x_f-x_i)=-(1{,}50\\times10^3)(0{,}40)=-600\\,\\text{V}.$$\nEl trabajo del campo cumple $W_e=-q(V_f-V_i)$. Sustituyendo,\n$$W_e=-(-2{,}00\\times10^{-9})(-600)=-1{,}20\\times10^{-6}\\,\\text{J},$$\nque coincide con el resultado del apartado b).",
+   "resultado": "$\\vec F_e=-3{,}00\\times10^{-6}\\,\\hat\\imath\\,\\text{N}$; $\\vec a_e=-7{,}50\\times10^2\\,\\hat\\imath\\,\\text{m/s}^2$; $W_e=-1{,}20\\times10^{-6}\\,\\text{J}$; $V_f-V_i=-600\\,\\text{V}$.",
+   "criterios": "a) 0,80 puntos: 0,35 por aplicar $\\vec F_e=q\\vec E$ y obtener el módulo y sentido correctos; 0,15 por convertir correctamente $4{,}00\\,\\mu\\text{g}$ a kilogramos; 0,30 por calcular la aceleración con signo y unidades correctos. b) 1,00 punto: 0,35 por plantear el trabajo como producto escalar (o $qE_x\\Delta x$); 0,45 por obtener el valor numérico y el signo correctos; 0,20 por indicar las unidades y justificar el signo. c) 0,70 puntos: 0,40 por usar $V_f-V_i=-E_x\\Delta x$ y obtener el valor correcto; 0,30 por comprobar la coherencia mediante $W_e=-q(V_f-V_i)$.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "magnetico",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "BLOQUE B. CAMPO ELECTROMAGNÉTICO. PREGUNTA 3 (2,50 puntos). Para calibrar un sensor de inducción se utiliza una bobina plana de $N=40$ espiras, área $A=0,020\\,\\text{m}^2$ por espira y resistencia total $R=4,0\\,\\Omega$. La bobina está en el plano $xy$. En la región, el campo magnético es perpendicular a la bobina, entra en el plano de la página y su módulo varía como $B(t)=0,20+0,050t$, con $B$ en teslas y $t$ en segundos. a) (0,70 puntos) Calcula el módulo del flujo magnético a través de una espira en $t=4,0\\,\\text{s}$. b) (0,90 puntos) Determina el módulo de la fuerza electromotriz inducida. c) (0,90 puntos) Calcula la corriente inducida e indica su sentido, observando la bobina desde el semieje $z$ positivo. Justifica el sentido mediante la ley de Lenz.",
+   "solucion": "### a) Flujo magnético por espira\nEl campo en $t=4,0\\,\\text{s}$ es\n$$B(4)=0,20+0,050\\cdot 4,0=0,40\\,\\text{T}.$$\nComo el campo es perpendicular al plano de la espira, el módulo del flujo es\n$$|\\Phi|=BA=0,40\\cdot 0,020=8,0\\times10^{-3}\\,\\text{Wb}.$$\n\n### b) Fuerza electromotriz inducida\nPor la ley de Faraday, el módulo de la fem inducida en la bobina de $N$ espiras es\n$$|\\mathcal{E}|=N\\left|\\frac{d\\Phi}{dt}\\right|=NA\\left|\\frac{dB}{dt}\\right|.$$\nDado que $dB/dt=0,050\\,\\text{T s}^{-1}$,\n$$|\\mathcal{E}|=40\\cdot 0,020\\cdot 0,050=0,040\\,\\text{V}.$$\n\n### c) Corriente y sentido\nLa resistencia total de la bobina es $R=4,0\\,\\Omega$, por lo que\n$$I=\\frac{|\\mathcal{E}|}{R}=\\frac{0,040}{4,0}=0,010\\,\\text{A}.$$\nEl campo externo entra en el plano (dirección $-z$) y su módulo aumenta. Por la ley de Lenz, la corriente inducida genera un campo hacia $+z$ para oponerse a ese aumento. Aplicando la regla de la mano derecha, vista desde el semieje $z$ positivo, la corriente circula en sentido antihorario.",
+   "resultado": "Flujo por espira: 0,0080 Wb; fem inducida: 0,040 V; corriente: 0,010 A, en sentido antihorario vista desde +z.",
+   "criterios": "a) 0,70 puntos: cálculo de B(4,0) (0,20); identificación del flujo como BA al ser el campo perpendicular (0,20); resultado y unidad correctos (0,30). b) 0,90 puntos: aplicación de la ley de Faraday a N espiras (0,30); uso correcto de dB/dt (0,30); resultado y unidad correctos (0,30). c) 0,90 puntos: aplicación de la ley de Ohm I=|ε|/R (0,40); valor y unidad de la corriente (0,20); justificación del campo inducido mediante la ley de Lenz y sentido antihorario visto desde +z (0,30).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "ondas",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "BLOQUE C. VIBRACIONES Y ONDAS. PREGUNTA 4 (2,50 puntos). Un equipo de inspección acústica de una galería inundada emite ultrasonidos hacia el fondo. La frecuencia emitida es $f=5,00·10^4\\,\\text{Hz}$ y la velocidad del sonido en el agua es $v=1,50·10^3\\,\\text{m/s}$. El eco reflejado en el fondo se recibe $0,0400\\,\\text{s}$ después de la emisión. a) (0,80 puntos) Calcula el período y la longitud de onda del ultrasonido en el agua. b) (1,00 punto) Determina la profundidad del agua en el punto inspeccionado. c) (0,70 puntos) Explica por qué el cálculo de la profundidad requiere tener en cuenta que el tiempo medido corresponde al recorrido de ida y vuelta.",
+   "solucion": "### a) Período y longitud de onda\n\nEl período es el inverso de la frecuencia:\n\n$$T=\\frac{1}{f}=\\frac{1}{5{,}00\\cdot10^4\\,\\text{Hz}}=2{,}00\\cdot10^{-5}\\,\\text{s}.$$\n\nLa longitud de onda se obtiene mediante $\\lambda=vT$, o equivalentemente $\\lambda=v/f$:\n\n$$\\lambda=\\frac{1{,}50\\cdot10^3\\,\\text{m/s}}{5{,}00\\cdot10^4\\,\\text{Hz}}=3{,}00\\cdot10^{-2}\\,\\text{m}.$$\n\n### b) Profundidad\n\nEl tiempo medido corresponde al recorrido completo del ultrasonido hasta el fondo y de vuelta. Por tanto, la distancia recorrida es el doble de la profundidad:\n\n$$2h=vt_e\\quad\\Longrightarrow\\quad h=\\frac{vt_e}{2}.$$\n\nSustituyendo los datos:\n\n$$h=\\frac{(1{,}50\\cdot10^3\\,\\text{m/s})(0{,}0400\\,\\text{s})}{2}=30{,}0\\,\\text{m}.$$\n\n### c) Recorrido de ida y vuelta\n\nEl eco se recibe después de que el sonido haya recorrido la distancia desde el equipo hasta el fondo y nuevamente desde el fondo hasta el equipo. Si la profundidad es $h$, la distancia total recorrida es $2h$, no $h$. Por ello, para hallar la profundidad a partir del tiempo medido se usa $h=vt_e/2$. No dividir entre dos daría el recorrido total como si fuera la profundidad y produciría un valor doble.",
+   "resultado": "T = 2,00·10⁻⁵ s; λ = 3,00·10⁻² m; profundidad = 30,0 m.",
+   "criterios": "Total: 2,50 puntos. a) 0,80 puntos: cálculo del período con T=1/f (0,35) y de la longitud de onda con λ=v/f (0,45), con unidades correctas. b) 1,00 punto: planteamiento de la relación entre distancia y tiempo (0,35), consideración del recorrido de ida y vuelta mediante el factor 2 (0,45) y resultado con unidades y cifras significativas adecuadas (0,20). c) 0,70 puntos: explicación de que el eco recorre dos veces la profundidad y, por tanto, el tiempo dado corresponde al trayecto total; se admite cualquier explicación equivalente.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "optica",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "BLOQUE C. VIBRACIONES Y ONDAS. PREGUNTA 5 (2,50 puntos). Una técnica de laboratorio utiliza una lupa para leer una escala diminuta de un instrumento. La lupa es una lente delgada convergente de distancia focal $f=12\\,\\text{cm}$ y el objeto se coloca a $s=6,0\\,\\text{cm}$ de la lente. La altura del objeto es $h=3,0\\,\\text{mm}$. Usa la convención $1/f=1/s+1/s'$, con $s'>0$ para imágenes reales y $s'<0$ para imágenes virtuales. a) (0,90 puntos) Calcula la posición de la imagen. b) (0,60 puntos) Calcula el aumento lateral y la altura de la imagen, indicando su orientación. c) (1,00 punto) Dibuja un esquema de rayos con la lente, los focos, el objeto y la imagen. Utiliza dos rayos principales y describe cómo se obtiene la imagen.",
+   "solucion": "### a) Posición de la imagen\n\nAplicamos la ecuación de la lente delgada con la convención indicada:\n\n$$\\frac{1}{f}=\\frac{1}{s}+\\frac{1}{s'}$$\n\nDespejamos $s'$:\n\n$$\\frac{1}{s'}=\\frac{1}{f}-\\frac{1}{s}=\\frac{1}{12\\,\\text{cm}}-\\frac{1}{6,0\\,\\text{cm}}=-\\frac{1}{12\\,\\text{cm}}$$\n\nPor tanto,\n\n$$s'=-12\\,\\text{cm}$$\n\nEl signo negativo indica que la imagen es virtual y está en el mismo lado de la lente que el objeto.\n\n### b) Aumento lateral y altura de la imagen\n\nPara una lente delgada, el aumento lateral es $m=-s'/s$:\n\n$$m=-\\frac{-12\\,\\text{cm}}{6,0\\,\\text{cm}}=+2,0$$\n\nLa altura de la imagen es:\n\n$$h'=m h=(+2,0)(3,0\\,\\text{mm})=+6,0\\,\\text{mm}$$\n\nEl aumento positivo indica que la imagen es derecha (no invertida), y su tamaño es el doble del objeto.\n\n### c) Esquema de rayos\n\nEsquema cualitativo, no a escala. La imagen virtual coincide aquí con el foco objeto, ya que ambos están a $12\\,\\text{cm}$ a la izquierda de la lente.\n\n```text\n I virtual = F                 objeto             lente                         F'\n       ↑                          ↑                 │                            •\n       | · · · · · · · · · · · ·  | · · · · · · · · ●\\ · · · · · · · · · · · /\n       |  \\                       |───────────────→ ● \\_______________________/\n-------+---\\----------------------\\-----------------│------------------------------ eje\n           \\                       \\                │\n            \\_______________________\\_______________│\n             extensión hacia atrás   rayo por el centro\n                              rayo paralelo, luego refractado hacia F'\n```\n\nDesde la punta del objeto se trazan dos rayos principales: uno paralelo al eje, que al atravesar la lente se refracta hacia el foco imagen $F'$; y otro que pasa por el centro óptico y no se desvía. Los rayos emergentes divergen, por lo que se prolongan hacia atrás con líneas discontinuas. Sus prolongaciones se cortan en la punta de la imagen virtual, derecha y aumentada.",
+   "resultado": "s' = -12 cm; m = +2,0 (imagen derecha); h' = +6,0 mm.",
+   "criterios": "a) 0,90 puntos: planteamiento de la ecuación de la lente y despeje correcto (0,45); sustitución y cálculo de s' (0,30); signo y conclusión de que es virtual (0,15). b) 0,60 puntos: expresión y cálculo del aumento (0,30); cálculo de la altura de imagen con unidades (0,20); identificación de la orientación derecha (0,10). c) 1,00 punto: esquema con lente, eje, focos y objeto en posiciones relativas correctas (0,30); trazado correcto de los dos rayos principales (0,40); prolongaciones hacia atrás que localizan una imagen virtual, derecha y aumentada, más una descripción coherente (0,30).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "6",
+   "tema": "moderna",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "BLOQUE D. FÍSICA MODERNA. PREGUNTA 6 (2,50 puntos). En un instrumento de difracción de electrones, los electrones se aceleran desde el reposo mediante una diferencia de potencial de $100\\,\\text{V}$. Se estudia si su longitud de onda es adecuada para analizar un material cuyos planos atómicos están separados aproximadamente $0,20\\,\\text{nm}$. Supón que los electrones son no relativistas. a) (1,10 puntos) Calcula la energía cinética adquirida y la rapidez de los electrones. b) (0,90 puntos) Determina su longitud de onda de De Broglie. c) (0,50 puntos) Compara dicha longitud de onda con la separación entre planos y razona si es del mismo orden de magnitud, como requiere la difracción. Datos: $|e|=1,60·10^{-19}\\,\\text{C}$, $m_e=9,11·10^{-31}\\,\\text{kg}$, $h=6,626·10^{-34}\\,\\text{J·s}$.",
+   "solucion": "### a) Energía cinética y rapidez\n\nEl trabajo de la fuerza eléctrica se transforma en energía cinética. Como el electrón parte del reposo, la energía cinética adquirida es el valor absoluto de la carga por la diferencia de potencial:\n\n$$K=|e|V=(1{,}60\\times10^{-19}\\,\\text{C})(100\\,\\text{V})=1{,}60\\times10^{-17}\\,\\text{J}=100\\,\\text{eV}.$$\n\nUsando la relación clásica entre energía cinética y rapidez:\n\n$$K=\\frac12 m_e v^2\\quad\\Longrightarrow\\quad v=\\sqrt{\\frac{2K}{m_e}}=\\sqrt{\\frac{2(1{,}60\\times10^{-17})}{9{,}11\\times10^{-31}}}=5{,}93\\times10^6\\,\\text{m·s}^{-1}.$$\n\n### b) Longitud de onda de De Broglie\n\nCalculamos primero el momento lineal a partir de la rapidez obtenida y, a continuación, aplicamos la relación de De Broglie:\n\n$$p=m_e v=(9{,}11\\times10^{-31})(5{,}93\\times10^6)\\,\\text{kg·m·s}^{-1},\\qquad \\lambda=\\frac{h}{p}=\\frac{6{,}626\\times10^{-34}}{m_e v}=1{,}23\\times10^{-10}\\,\\text{m}.$$\n\nPor tanto, $\\lambda\\approx0{,}123\\,\\text{nm}$.\n\n### c) Comparación con la separación entre planos\n\nLa separación dada es $d=0{,}20\\,\\text{nm}=2{,}0\\times10^{-10}\\,\\text{m}$. La razón entre ambas longitudes es\n\n$$\\frac{\\lambda}{d}=\\frac{0{,}123}{0{,}20}\\approx0{,}61.$$\n\nLa longitud de onda y la separación entre planos son del mismo orden de magnitud (ambas son del orden de $10^{-10}\\,\\text{m}$), por lo que la longitud de onda es adecuada para estudiar la difracción en el material. Como comprobación de que puede satisfacerse la condición de Bragg en primer orden, $\\sin\\theta=\\lambda/(2d)\\approx0{,}307<1$.\n\n**Comprobación final:** la expresión equivalente $\\lambda=h/\\sqrt{2m_eK}$ da también $1{,}23\\times10^{-10}\\,\\text{m}$. Además, $v/c\\approx0{,}020$, compatible con la hipótesis no relativista.",
+   "resultado": "K = 1,60×10⁻¹⁷ J (100 eV); v = 5,93×10⁶ m·s⁻¹; λ = 1,23×10⁻¹⁰ m = 0,123 nm; λ/d ≈ 0,61: son del mismo orden.",
+   "criterios": "Total: 2,50 puntos. a) 1,10 puntos: planteamiento del trabajo eléctrico como variación de energía cinética, K=|e|V (0,45); cálculo numérico y unidades de K (0,15); relación clásica K=½mₑv² y despeje correcto de v (0,30); resultado numérico y unidades de v (0,20). b) 0,90 puntos: aplicación de la relación de De Broglie λ=h/p junto con p=mₑv (0,45); cálculo numérico con unidades (0,45). c) 0,50 puntos: conversión y comparación de λ con d, incluida la conclusión de que son del mismo orden (0,25); justificación de la adecuación para la difracción (0,25). Se admitirán métodos equivalentes y redondeos razonables.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "7",
+   "tema": "moderna",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "BLOQUE D. FÍSICA MODERNA. PREGUNTA 7 (2,50 puntos). En un estudio de fusión se considera la reacción $^2_1H+^3_1H → ^4_2He+^1_0n$. Se proporcionan las masas atómicas de los átomos neutros: $m(^2_1H)=2,014102\\,\\text{u}$, $m(^3_1H)=3,016049\\,\\text{u}$ y $m(^4_2He)=4,002603\\,\\text{u}$; la masa del neutrón es $m_n=1,008665\\,\\text{u}$. En esta reacción, el número de electrones es el mismo en ambos lados, por lo que sus masas se cancelan al calcular el defecto de masa. a) (0,50 puntos) Comprueba que se conservan el número másico y la carga eléctrica. b) (1,20 puntos) Calcula el defecto de masa y la energía liberada por reacción, expresando esta última en MeV y en julios. c) (0,80 puntos) Calcula la energía total liberada si se producen completamente $1,00\\,\\text{mmol}$ de reacciones. Datos: $1\\,\\text{u}=931,5\\,\\text{MeV}/c^2$, $1\\,\\text{MeV}=1,602·10^{-13}\\,\\text{J}$, $N_A=6,022·10^{23}\\,\\text{mol}^{-1}$.",
+   "solucion": "**a) Conservación de los números cuánticos**\n\nNúmero másico: en los reactivos, $A=2+3=5$; en los productos, $A=4+1=5$. Por tanto, se conserva el número másico.\n\nCarga eléctrica: en los reactivos, $Z=1+1=2$; en los productos, $Z=2+0=2$. Por tanto, se conserva la carga eléctrica.\n\n**b) Defecto de masa y energía por reacción**\n\nLa masa total de los reactivos es $m_i=2{,}014102+3{,}016049=5{,}030151\\,\\mathrm{u}$. La masa total de los productos es $m_f=4{,}002603+1{,}008665=5{,}011268\\,\\mathrm{u}$. Como se indica, las masas de los electrones se cancelan.\n\nEl defecto de masa es $\\Delta m=m_i-m_f=5{,}030151-5{,}011268=0{,}018883\\,\\mathrm{u}$.\n\nLa energía liberada por reacción es $E=\\Delta m c^2=0{,}018883\\times931{,}5=17{,}5895445\\,\\mathrm{MeV}\\approx17{,}59\\,\\mathrm{MeV}$. En julios, $E=17{,}5895445\\times1{,}602\\times10^{-13}=2{,}8178450289\\times10^{-12}\\,\\mathrm{J}\\approx2{,}818\\times10^{-12}\\,\\mathrm{J}$.\n\n**c) Energía total para $1{,}00\\,\\mathrm{mmol}$ de reacciones**\n\nLa cantidad de reacciones es $N=1{,}00\\times10^{-3}\\times6{,}022\\times10^{23}=6{,}022\\times10^{20}$. Por tanto, $E_{\\mathrm{total}}=N E=(6{,}022\\times10^{20})(2{,}8178450289\\times10^{-12})=1{,}6969062764\\times10^9\\,\\mathrm{J}\\approx1{,}70\\times10^9\\,\\mathrm{J}$.\n\nEl orden de los números proporcionados es: número másico de reactivos y productos, carga de reactivos y productos, defecto de masa en u, energía por reacción en MeV y J, y energía total en J.",
+   "resultado": "$A: 5=5$; $Z: 2=2$; $\\Delta m=0{,}018883\\,\\mathrm{u}$; $E=17{,}59\\,\\mathrm{MeV}=2{,}818\\times10^{-12}\\,\\mathrm{J}$; $E_{\\mathrm{total}}=1{,}70\\times10^9\\,\\mathrm{J}$.",
+   "criterios": "a) 0,50 puntos: 0,25 por comprobar la conservación del número másico y 0,25 por comprobar la conservación de la carga eléctrica. b) 1,20 puntos: 0,45 por calcular correctamente las masas totales y el defecto de masa; 0,45 por obtener la energía en MeV mediante E=Δmc²; 0,30 por convertirla correctamente a julios. c) 0,80 puntos: 0,30 por determinar el número de reacciones en 1,00 mmol y 0,50 por calcular la energía total liberada.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-20",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "gravitacion",
+   "p": 0.9
+  },
+  {
+   "id": "ondas",
+   "p": 0.9
+  },
+  {
+   "id": "optica",
+   "p": 0.9
+  },
+  {
+   "id": "moderna",
+   "p": 0.9
+  },
+  {
+   "id": "electrico",
+   "p": 0.813
+  },
+  {
+   "id": "magnetico",
+   "p": 0.695
+  }
+ ],
+ "referencias": [
+  "manual:manual/extremadura/2026/Física junio examen.txt",
+  "manual:manual/extremadura/2026/Física julio examen.txt",
+  "manual:manual/extremadura/2025/Física julio examen.txt",
+  "manual:manual/extremadura/2025/Física junio examen.txt",
+  "manual:manual/extremadura/2026/Física julio examen.txt",
+  "manual:manual/extremadura/2026/Física junio examen.txt"
+ ]
+}
