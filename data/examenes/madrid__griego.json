@@ -1,0 +1,158 @@
+{
+ "ccaa": "madrid",
+ "materia": "griego",
+ "titulo": "Prueba de Acceso a la Universidad 2027 — Griego II — Modelo original",
+ "duracion_min": 90,
+ "instrucciones": "Después de leer atentamente el examen, responda de la siguiente forma: BLOQUE I: elija el texto A o el texto B y responda a las preguntas 1, 2 y 3 del texto elegido. BLOQUE II: responda a la opción de etimología asociada al texto elegido. BLOQUE III: desarrolle una de las dos preguntas de literatura. La traducción se calificará sobre 5 puntos; la morfosintaxis y la etimología, sobre 1 punto cada una; y la literatura, sobre 2 puntos. Puntuación total: 10 puntos. Duración: 90 minutos. Los textos se presentan en el contexto de la preparación de materiales para dos exposiciones; traduzca y analice la información para que pueda incorporarse a sus respectivas fichas culturales.",
+ "preguntas": [
+  {
+   "n": "A.1",
+   "tema": "traduccion",
+   "puntos": 5,
+   "tipo": "abierta",
+   "enunciado": "TEXTO A. Ficha para una exposición municipal sobre la reparación de una ciudad tras una crecida. Texto original para esta prueba: οἱ πολῖται, ἐπειδὴ ὁ ποταμὸς ἐπὶ τὴν ἀγορὰν ἦλθεν, λίθους ἐκ τῆς γῆς ἐκόμισαν καὶ διώρυχας ὤρυξαν· ὁ δὲ νεανίας ἡγεμὼν τοὺς γεωργοὺς ἐκέλευσε τὸ ὕδωρ πρὸς τὰς ἀρούρας ἀπάγειν, ἵνα ἡ πόλις ταχέως σωθῇ. Traduzca el texto al español.",
+   "solucion": "### Método: análisis por cláusulas y verbos\nEn lugar de traducir palabra por palabra, se localizan primero los verbos y se reconstruyen las cláusulas; después se vierte cada bloque al español.\n\n1. **Cláusula temporal:** ἐπειδὴ introduce «cuando» y ὁ ποταμὸς ἦλθεν significa «el río llegó». ἐπὶ τὴν ἀγορὰν, con acusativo de dirección, se traduce «hasta la plaza».\n2. **Acciones de los ciudadanos:** οἱ πολῖται es el sujeto; ἐκόμισαν y ὤρυξαν son verbos coordinados: «transportaron piedras desde el terreno» y «excavaron zanjas/canales».\n3. **Instrucción del joven:** ὁ δὲ νεανίας es «el joven, por su parte»; ἡγεμών lo identifica como jefe o líder. ἐκέλευσε significa «ordenó». La construcción τοὺς γεωργοὺς ... ἀπάγειν es «a los agricultores conducir...»: τοὺς γεωργούς es el sujeto del infinitivo y τὸ ὕδωρ, su objeto. πρὸς τὰς ἀρούρας indica dirección: «hacia los campos de cultivo».\n4. **Finalidad:** ἵνα introduce una oración final; σωθῇ es subjuntivo pasivo: «para que la ciudad se salvara».\n\n### Traducción\n«Cuando el río llegó hasta la plaza, los ciudadanos transportaron piedras desde el terreno y excavaron canales. El joven, por su parte, como jefe, ordenó a los agricultores conducir el agua hacia los campos de cultivo, para que la ciudad se salvara rápidamente.»\n\n### Comprobación\nLa traducción conserva el orden lógico de los hechos, los sujetos de los verbos principales, la construcción de mandato con infinitivo y el valor final de ἵνα + subjuntivo. «Zanjas» por διώρυχας y «se salvase» por σωθῇ también serían equivalentes aceptables.",
+   "resultado": "Cuando el río llegó hasta la plaza, los ciudadanos transportaron piedras desde el terreno y excavaron canales. El joven, por su parte, como jefe, ordenó a los agricultores conducir el agua hacia los campos de cultivo, para que la ciudad se salvara rápidamente.",
+   "criterios": "Total: 5 puntos. Cláusula temporal y sentido de ἐπὶ + acusativo: 1 punto. Sujeto y traducción de las dos acciones de los ciudadanos: 1,25 puntos. Traducción de la cláusula del joven y reconocimiento de ἡγεμών: 0,75 puntos. Construcción de mandato con infinitivo, sus participantes y la dirección del agua: 1,25 puntos. Oración final con ἵνα y traducción de σωθῇ: 0,75 puntos. Se aceptan equivalentes correctos como «ágora», «plaza», «zanjas» o «canales», y «se salvara» o «se salvase».",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "A.2",
+   "tema": "morfosintaxis",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Analice morfológicamente los términos del texto A en la forma en que están usados. Para los nombres, pronombres y adjetivos, indique género, número y caso, así como el nominativo singular; para los verbos, indique la primera persona del singular del presente de indicativo del verbo del que proceden y, si son formas personales, persona, número, tiempo, modo y voz; si son infinitivos, tiempo y voz; si son participios, género, número, caso, tiempo y voz. Analice: πολῖται, ἦλθεν, ἐκόμισαν, ἐκέλευσε, ἀπάγειν. Cada término vale 0,20 puntos.",
+   "solucion": "### Análisis por identificación de tema y desinencias\n\nSe identifica primero la forma y su tema; después, la desinencia permite determinar sus rasgos morfológicos. Para los verbos se comprueba además el tiempo y la voz.\n\n| Forma | Identificación morfológica |\n|---|---|\n| **πολῖται** | Sustantivo masculino, nominativo plural; nominativo singular **πολίτης**. La forma también coincide formalmente con el vocativo plural; se analiza como nominativo según el uso sintáctico esperable en el texto. |\n| **ἦλθεν** | Del verbo **ἔρχομαι** (1.ª persona singular del presente de indicativo). Forma personal: 3.ª persona singular, aoristo segundo, indicativo, voz activa; la **-ν** final es móvil. |\n| **ἐκόμισαν** | Del verbo **κομίζω** (1.ª persona singular del presente de indicativo). Forma personal: 3.ª persona plural, aoristo, indicativo, voz activa. |\n| **ἐκέλευσε** | Del verbo **κελεύω** (1.ª persona singular del presente de indicativo). Forma personal: 3.ª persona singular, aoristo, indicativo, voz activa. |\n| **ἀπάγειν** | Del verbo **ἀπάγω** (1.ª persona singular del presente de indicativo). Infinitivo de presente, voz activa. No es el infinitivo de aoristo, que sería **ἀπαγαγεῖν**. |\n\n### Comprobación\nLas tres formas personales verbales terminadas en **-εν/-αν/-ε** corresponden aquí a terceras personas del aoristo de indicativo activo; **ἀπάγειν** lleva la terminación de infinitivo presente activo **-ειν**. **πολῖται** concuerda con el nominativo plural de **πολίτης**.",
+   "resultado": "πολῖται: masculino, nominativo plural, πολίτης; ἦλθεν: ἔρχομαι, 3.ª singular, aoristo segundo indicativo activo; ἐκόμισαν: κομίζω, 3.ª plural, aoristo indicativo activo; ἐκέλευσε: κελεύω, 3.ª singular, aoristo indicativo activo; ἀπάγειν: ἀπάγω, infinitivo presente activo. Nota: 1,00/1,00.",
+   "criterios": "0,20 puntos por cada término correctamente analizado: en el nombre, género, número, caso y nominativo singular; en cada verbo, primera persona singular del presente de indicativo del verbo de origen y los rasgos que correspondan a la forma (persona, número, tiempo, modo y voz si es personal; tiempo y voz si es infinitivo). Total: 1,00 punto.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "A.3",
+   "tema": "morfosintaxis",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Analice sintácticamente este fragmento del texto A: ὁ δὲ νεανίας ἡγεμὼν τοὺς γεωργοὺς ἐκέλευσε τὸ ὕδωρ πρὸς τὰς ἀρούρας ἀπάγειν, ἵνα ἡ πόλις ταχέως σωθῇ.",
+   "solucion": "### Análisis sintáctico\n\nComo método alternativo al análisis lineal, se identifican primero los núcleos verbales y, desde ellos, sus dependencias.\n\n1. **Oración principal:** el núcleo es **ἐκέλευσε** (aoristo de indicativo activo, 3.ª persona del singular: ‘ordenó’). Su sujeto es **ὁ νεανίας** (‘el joven’), y **ἡγεμών** (‘jefe’, ‘guía’) es un sustantivo en nominativo singular en aposición al sujeto. **δέ** es una partícula pospositiva de enlace o contraste.\n2. **Complementación de ἐκέλευσε:** se construye con acusativo más infinitivo. **τοὺς γεωργούς** (‘a los agricultores’) es el sujeto en acusativo de **ἀπάγειν**, infinitivo presente activo (‘llevar’). **τὸ ὕδωρ** (‘el agua’) es el complemento directo de ese infinitivo. **πρὸς τὰς ἀρούρας** (‘hacia los campos’) es un sintagma preposicional de dirección: **πρός** rige aquí acusativo.\n3. **Subordinada final:** **ἵνα … σωθῇ** expresa finalidad (‘para que … sea salvada’). **ἡ πόλις** es el sujeto de **σωθῇ**, aoristo de subjuntivo pasivo, 3.ª persona del singular; **ταχέως** es un adverbio que modifica al verbo (‘rápidamente’).\n\n**Comprobación:** **ἐκέλευσε** concuerda en singular con **ὁ νεανίας**; **σωθῇ** concuerda en singular con **ἡ πόλις**; y **τοὺς γεωργούς**, en acusativo, funciona como sujeto del infinitivo dependiente de **ἐκέλευσε**. La estructura y las relaciones sintácticas resultan coherentes.\n\n**Traducción orientativa:** El joven, jefe, ordenó a los agricultores llevar el agua hacia los campos para que la ciudad fuera salvada rápidamente.",
+   "resultado": "ὁ νεανίας es el sujeto de ἐκέλευσε; τοὺς γεωργούς es el sujeto acusativo de ἀπάγειν, y ἵνα ἡ πόλις ταχέως σωθῇ es una subordinada final.",
+   "criterios": "Puntuación total: 1 punto. 0,25 por identificar la oración principal, su sujeto, el verbo y la aposición ἡγεμών; 0,40 por reconocer la construcción de ἐκέλευσε con acusativo e infinitivo y asignar correctamente las funciones de τοὺς γεωργούς, τὸ ὕδωρ y πρὸς τὰς ἀρούρας; 0,25 por analizar ἵνα como subordinada final e identificar sujeto, verbo y adverbio; 0,10 por una explicación sintáctica coherente y la comprobación final.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "B.1",
+   "tema": "traduccion",
+   "puntos": 5,
+   "tipo": "abierta",
+   "enunciado": "TEXTO B. Ficha para una exposición marítima sobre una señal de socorro en una isla. Texto original para esta prueba: ἐν τῇ νήσῳ οἱ φύλακες, ὅτε νὺξ ἐγένετο καὶ ὁ ἄνεμος μέγας ἦλθεν, πῦρ ἐπὶ τοῦ πύργου ἔκαιον· οὐδὲν γὰρ ἄστρον ἐν τῷ οὐρανῷ ἐφαίνετο. οἱ δὲ ναῦται τὴν φλόγα ἰδόντες πρὸς τὸν λιμένα ἔπλευσαν, καὶ ὁ κυβερνήτης τοὺς ἀνθρώπους ἐκ τοῦ πλοίου ἐς τὴν γῆν ἔσωσεν. Traduzca el texto al español.",
+   "solucion": "### Análisis paso a paso\n\n1. **Lugar y sujeto:** ἐν τῇ νήσῳ significa «en la isla»; οἱ φύλακες es el sujeto, «los guardias» o «los guardianes».\n2. **Marco temporal:** ὅτε introduce «cuando». νὺξ ἐγένετο se traduce «cayó la noche» y ὁ ἄνεμος μέγας ἦλθεν, «llegó un fuerte viento».\n3. **Acción de los guardias:** πῦρ es el objeto, «un fuego»; ἐπὶ τοῦ πύργου indica «en/sobre la torre» y ἔκαιον es imperfecto, «encendían» o «hacían arder».\n4. **Causa:** γάρ introduce la explicación; οὐδὲν ἄστρον significa «ninguna estrella» y ἐν τῷ οὐρανῷ ἐφαίνετο, «se veía en el cielo».\n5. **Acción de los marineros:** οἱ ναῦται es «los marineros»; τὴν φλόγα ἰδόντες, «tras ver la llama»; πρὸς τὸν λιμένα ἔπλευσαν, «navegaron hacia el puerto».\n6. **Rescate:** ὁ κυβερνήτης es «el capitán»; τοὺς ἀνθρώπους, «a las personas»; ἐκ τοῦ πλοίου ἐς τὴν γῆν señala el recorrido «desde el barco hasta tierra», y ἔσωσεν significa «rescató».\n\n### Traducción\n\nEn la isla, los guardias, cuando cayó la noche y llegó un fuerte viento, encendían un fuego en la torre, pues no se veía ninguna estrella en el cielo. Entonces los marineros, tras ver la llama, navegaron hacia el puerto, y el capitán rescató a las personas del barco y las llevó a tierra.",
+   "resultado": "En la isla, los guardias, cuando cayó la noche y llegó un fuerte viento, encendían un fuego en la torre, pues no se veía ninguna estrella en el cielo. Entonces los marineros, tras ver la llama, navegaron hacia el puerto, y el capitán rescató a las personas del barco y las llevó a tierra.",
+   "criterios": "Puntuación máxima: 5 puntos. Reparto orientativo: 1,25 puntos por el marco inicial y la oración temporal; 0,75 por la acción de los guardias y la ubicación del fuego; 0,75 por la oración causal sobre las estrellas; 1,25 por la acción de los marineros, incluido el participio ἰδόντες y el destino; 1 punto por el rescate, sus complementos y el recorrido desde el barco hasta tierra. Se aceptan equivalentes léxicos y sintácticos correctos; se descuentan errores de sentido, omisiones relevantes o confusiones de sujeto, acción y complementos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "B.2",
+   "tema": "morfosintaxis",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Analice morfológicamente los términos del texto B en la forma en que están usados. Para los nombres, pronombres y adjetivos, indique género, número y caso, así como el nominativo singular; para los verbos, indique la primera persona del singular del presente de indicativo del verbo del que proceden y, si son formas personales, persona, número, tiempo, modo y voz; si son infinitivos, tiempo y voz; si son participios, género, número, caso, tiempo y voz. Analice: ἄνεμος, ἔκαιον, ἰδόντες, ἔπλευσαν, ἔσωσεν. Cada término vale 0,20 puntos.",
+   "solucion": "### Análisis morfológico\n\nSe identifican primero los rasgos por las terminaciones y, en las formas verbales, se comprueba el análisis con el aumento y el tema verbal.\n\n1. **ἄνεμος**: sustantivo masculino, nominativo singular. Nominativo singular: **ἄνεμος**.\n2. **ἔκαιον**: de **καίω**. Imperfecto de indicativo activo; la forma **-ον** es ambigua sin contexto: puede ser primera persona singular o tercera persona plural. Como no se ha incluido el texto B, no es posible decidir cuál de las dos personas corresponde a su uso. El aumento inicial **ἐ-** confirma el imperfecto.\n3. **ἰδόντες**: participio de aoristo activo de **ὁράω** (primera persona singular del presente: **ὁράω**, también **ὁρῶ**). Masculino, nominativo plural. Es el participio del segundo aoristo, con tema **ἰδ-**.\n4. **ἔπλευσαν**: de **πλέω**. Tercera persona plural del aoristo de indicativo activo.\n5. **ἔσωσεν**: de **σώζω**. Tercera persona singular del aoristo de indicativo activo.\n\n**Comprobación:** se han analizado los cinco términos solicitados. La suma de su puntuación máxima es cinco veces 0,20: **1,00 punto**. La única forma cuya persona no puede fijarse sin el contexto del texto B es **ἔκαιον**.",
+   "resultado": "ἄνεμος: masculino, nominativo singular; ἔκαιον: imperfecto activo, 1.ª singular o 3.ª plural según el contexto; ἰδόντες: participio aoristo activo, masculino nominativo plural; ἔπλευσαν: aoristo indicativo activo, 3.ª plural; ἔσωσεν: aoristo indicativo activo, 3.ª singular. Total: 1,00/1,00.",
+   "criterios": "0,20 puntos por término, hasta 1,00 punto. En cada caso se valora la identificación de la forma y su análisis morfológico; en las formas verbales, también el verbo de origen y los rasgos exigidos por el enunciado. Para ἔκαιον, se acepta la indicación de la ambigüedad entre primera singular y tercera plural si no se aporta el texto B que permitiría resolverla.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "B.3",
+   "tema": "morfosintaxis",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Analice sintácticamente este fragmento del texto B: οἱ δὲ ναῦται τὴν φλόγα ἰδόντες πρὸς τὸν λιμένα ἔπλευσαν.",
+   "solucion": "### Análisis sintáctico\n\n**Método:** análisis desde el verbo principal hacia sus dependencias, en vez de seguir el orden lineal de las palabras.\n\n1. **Predicado principal:** ἔπλευσαν es el núcleo verbal; aoristo de indicativo activo, 3.ª persona del plural, de πλέω («navegar»).\n2. **Sujeto:** οἱ ναῦται («los marineros»), sintagma nominal en nominativo masculino plural. Concuerda con ἔπλευσαν.\n3. **Participio circunstancial:** ἰδόντες es participio de aoristo activo, nominativo masculino plural, de ὁράω («ver»). Concuerda con el sujeto οἱ ναῦται y forma una construcción participial circunstancial, de valor principalmente temporal: «después de ver» o «al ver».\n4. **Complemento del participio:** τὴν φλόγα («la llama»), sintagma nominal en acusativo femenino singular, complemento directo de ἰδόντες.\n5. **Complemento de dirección:** πρὸς τὸν λιμένα («hacia el puerto»), sintagma preposicional con πρὸς + acusativo; indica dirección o destino y depende de ἔπλευσαν.\n6. **Partícula:** δέ es una partícula pospositiva de enlace, normalmente traducible como «y» o «pero» según el contexto.\n\n**Comprobación:** ἰδόντες concuerda en caso, género y número con οἱ ναῦται; τὴν φλόγα está en acusativo como complemento de «ver»; y el verbo principal está en plural, como su sujeto. La traducción resultante es coherente: «Los marineros, después de ver la llama, navegaron hacia el puerto».\n\n**Puntuación propuesta:** 1,00/1,00.",
+   "resultado": "Los marineros, después de ver la llama, navegaron hacia el puerto.",
+   "criterios": "1,00 punto en total: 0,20 por identificar el verbo principal y sus rasgos pertinentes; 0,20 por el sujeto; 0,30 por reconocer el participio, su concordancia y su función circunstancial; 0,15 por identificar τὴν φλόγα como complemento directo del participio; 0,10 por analizar πρὸς τὸν λιμένα como complemento de dirección con acusativo; 0,05 por reconocer la función de δέ. Se admite una formulación equivalente del valor temporal del participio.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "II.A",
+   "tema": "lexico",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Para la opción A, busque en el texto A palabras relacionadas etimológicamente con estas palabras españolas y explique brevemente su significado a partir de sus componentes griegos: politólogo, agorafobia, litografía, geología, hidrología. Cada respuesta vale 0,20 puntos.",
+   "solucion": "No se ha incluido el texto A, por lo que no es posible verificar ni citar las formas concretas que aparecen en él. Las correspondencias etimológicas que deben buscarse son:\n\n1. **Politólogo**: πόλις (*pólis*, «ciudad», «Estado») y λόγος (*lógos*, «estudio», «tratado»); se refiere a quien estudia la política y la organización de la ciudad o del Estado. Puede aparecer en el texto una forma derivada de πολιτικός (*politikós*, «relativo a la ciudad o al Estado»).\n2. **Agorafobia**: ἀγορά (*agorá*, «plaza», «lugar de reunión») y φόβος (*phóbos*, «miedo»); miedo a los espacios abiertos o públicos.\n3. **Litografía**: λίθος (*líthos*, «piedra») y γράφω (*gráphō*, «escribo», «dibujo») o γραφή (*graphḗ*, «escritura»); procedimiento de impresión realizado originalmente sobre piedra.\n4. **Geología**: γῆ (*gê*, «tierra») y λόγος (*lógos*, «estudio», «tratado»); ciencia que estudia la Tierra.\n5. **Hidrología**: ὕδωρ (*hýdōr*, «agua») y λόγος (*lógos*, «estudio», «tratado»); estudio del agua.\n\nPara una respuesta completa de examen habría que señalar, además, la palabra concreta y su forma tal como aparece en el texto A. Sin ese texto, las raíces anteriores permiten explicar la etimología, pero no confirmar la localización textual.",
+   "resultado": "Componentes: πόλις + λόγος; ἀγορά + φόβος; λίθος + γράφω/γραφή; γῆ + λόγος; ὕδωρ + λόγος. No se puede verificar su aparición en el texto A, que no se ha facilitado.",
+   "criterios": "0,20 puntos por cada correspondencia correcta, hasta 1,00 punto: identificación de la forma griega pertinente en el texto (0,10) y explicación adecuada de sus componentes y del significado resultante (0,10). Como no se ha proporcionado el texto A, no puede comprobarse ni puntuarse aquí la identificación de las formas textuales exactas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "II.B",
+   "tema": "lexico",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Para la opción B, busque en el texto B palabras relacionadas etimológicamente con estas palabras españolas y explique brevemente su significado a partir de sus componentes griegos: anemómetro, pirómano, nictalopía, náutico, astronauta. Cada respuesta vale 0,20 puntos.",
+   "solucion": "### Desarrollo etimológico\n\n1. **Anemómetro**: se relaciona con **ἄνεμος** (‘viento’) y **μέτρον** (‘medida’). Es un instrumento para medir el viento, especialmente su velocidad.\n2. **Pirómano**: se forma a partir de **πῦρ** (‘fuego’) y **μανία** (‘locura’, ‘manía’). Designa a quien tiene una compulsión patológica relacionada con provocar incendios.\n3. **Nictalopía**: contiene **νύξ** (genitivo **νυκτός**, ‘noche’) y **ἀλαός** (‘ciego’). Significa dificultad o incapacidad para ver con poca luz, es decir, ‘ceguera nocturna’.\n4. **Náutico**: se relaciona con **ναῦς** (‘nave’, ‘barco’), también presente en el adjetivo griego **ναυτικός**. Se refiere a la navegación o a lo relacionado con los barcos.\n5. **Astronauta**: combina **ἄστρον** (‘astro’, ‘estrella’) y **ναύτης** (‘marinero’, ‘navegante’): literalmente, ‘navegante de los astros’.\n\n**Comprobación:** las raíces explican los significados de las cinco palabras. El texto B no se ha incluido en el enunciado recibido; por ello, no se puede comprobar que las formas griegas señaladas aparezcan efectivamente en él.",
+   "resultado": "ἄνεμος + μέτρον: medida del viento; πῦρ + μανία: manía relacionada con el fuego; νύξ + ἀλαός: ceguera nocturna; ναῦς: nave; ἄστρον + ναύτης: navegante de los astros.",
+   "criterios": "0,20 puntos por cada palabra (total: 1 punto). En cada caso, 0,10 por identificar correctamente el componente o los componentes griegos pertinentes y 0,10 por explicar su significado y la relación con la palabra española. La comprobación de que las formas aparecen en el texto B queda pendiente, porque dicho texto no se ha proporcionado.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "III.1",
+   "tema": "literatura",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Para preparar una ficha sobre los conflictos representados en la tragedia griega, explique el conflicto central de Antígona de Sófocles, el papel de Antígona y Creonte y el desenlace. Relacione su explicación con algunos rasgos propios de la tragedia ática.",
+   "solucion": "### Desarrollo\n\n1. **Conflicto central.** La obra enfrenta dos deberes legítimos, pero incompatibles: la obediencia al decreto de Creonte, que prohíbe sepultar a Polinices por considerarlo enemigo de Tebas, y el deber religioso y familiar de darle sepultura. Antígona sostiene que las leyes divinas no escritas y el respeto debido a los muertos están por encima de una orden humana.\n\n2. **Antígona y Creonte.** Antígona, hermana de Polinices, desafía conscientemente el edicto y realiza los ritos funerarios. Representa la fidelidad a la familia y a las normas religiosas, aunque su firmeza la conduce a enfrentarse al poder. Creonte, rey de Tebas, defiende la autoridad del Estado y el orden de la ciudad; sin embargo, su decisión inflexible de castigarla muestra su orgullo y su incapacidad inicial para escuchar otras razones. Hemón, su hijo y prometido de Antígona, y el adivino Tiresias intentan advertirle.\n\n3. **Desenlace.** Creonte cambia de decisión demasiado tarde: Antígona, encerrada viva, se ha ahorcado. Hemón se suicida junto a ella y Eurídice, esposa de Creonte, también se quita la vida. Creonte queda vivo, abatido y consciente de las consecuencias de su obstinación.\n\n4. **Rasgos de la tragedia ática.** El conflicto entre leyes humanas y divinas plantea un dilema sin solución conciliadora; la caída de los personajes produce temor y compasión. La obstinación de Creonte conduce a la catástrofe, y sus advertencias ignoradas crean ironía trágica. El coro comenta la acción y los mensajeros relatan sucesos ocurridos fuera de escena, conforme a convenciones de la tragedia griega.\n\n**Comprobación final:** quedan explicados el conflicto central, la función de Antígona y Creonte, el desenlace y su relación con rasgos de la tragedia ática.",
+   "resultado": "Antígona enfrenta el deber religioso y familiar al decreto político de Creonte; la obstinación de ambos conduce a una catástrofe que ejemplifica el conflicto y la ironía trágicos.",
+   "criterios": "Puntuación máxima: 2 puntos. Conflicto central y oposición de valores: 0,5; caracterización de Antígona y Creonte: 0,5 (0,25 cada uno); desenlace y consecuencias: 0,5; relación razonada con rasgos de la tragedia ática: 0,5. Se valoran la precisión, la coherencia y la ausencia de errores; no es necesario emplear literalmente estos términos si la explicación es correcta.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "III.2",
+   "tema": "literatura",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Para redactar una guía de lectura de una comedia griega, exponga el argumento de Lisístrata de Aristófanes y comente algunos rasgos característicos de la comedia antigua, como la presencia del coro, la actualidad política o el uso del humor.",
+   "solucion": "### Desarrollo\n\n**Método de exposición:** en lugar de resumir la obra escena por escena, presento primero el conflicto que la pone en marcha, después sus principales episodios y, por último, el desenlace. A continuación relaciono los rasgos de la comedia antigua con la función que cumplen en la obra.\n\n1. **Conflicto y plan de Lisístrata.** La comedia, representada en 411 a. C., se sitúa en el contexto de la guerra del Peloponeso. Lisístrata reúne a mujeres de distintas ciudades griegas, entre ellas la espartana Lampito, y les propone una huelga sexual: no mantendrán relaciones con sus maridos hasta que estos acuerden la paz. Las atenienses, además, ocupan la Acrópolis y controlan el tesoro público para impedir que se destinen recursos a la guerra.\n\n2. **Oposición y episodios cómicos.** Los hombres intentan recuperar la Acrópolis; el conflicto se representa mediante enfrentamientos entre los coros de ancianos y ancianas y mediante la intervención del magistrado, que pretende desalojar a las mujeres. Lisístrata defiende su plan y critica que los hombres conduzcan la ciudad a la guerra. La decisión femenina se pone a prueba cuando Mirrina hace creer a su marido, Cinesias, que accederá a sus deseos, pero lo deja esperando y mantiene la huelga.\n\n3. **Desenlace.** El agotamiento de los hombres y la llegada de emisarios espartanos, también afectados por la abstinencia, facilitan la negociación. Atenienses y espartanos acuerdan la paz y las mujeres se reúnen con sus maridos. El final festivo, con banquete y celebración, restablece cómicamente la convivencia.\n\n4. **Rasgos de la comedia antigua.** El coro no es un mero acompañamiento: canta, baila, participa en la acción y confronta a los personajes. En esta obra se organiza en grupos de ancianos y ancianas, cuyo enfrentamiento escénico hace visible la oposición entre hombres y mujeres. La comedia antigua también podía incluir intervenciones directas del coro, como la parábase, aunque no conviene atribuir automáticamente cada elemento estructural a todas las obras.\n\n   La actualidad política es central: la guerra contemporánea y la incapacidad de los dirigentes para ponerle fin se convierten en materia dramática. Aristófanes las somete a crítica mediante una situación fantástica, pues las mujeres consiguen forzar la paz al controlar la sexualidad y el dinero. El humor procede de la inversión de roles, la exageración, los equívocos, las alusiones sexuales y la comicidad corporal. La solución no pretende ser realista: transforma un problema político grave en una fantasía cómica que permite satirizarlo.\n\n5. **Comprobación final.** La respuesta incluye el argumento —plan, oposición y desenlace— y comenta los tres rasgos solicitados: coro, actualidad política y humor. Distingue además los rasgos generales del género de los elementos concretos de *Lisístrata*.\n\n**Nota orientativa: 2/2 puntos.**",
+   "resultado": "Lisístrata impulsa una huelga sexual y la ocupación de la Acrópolis para forzar la paz; la obra combina coro activo, sátira política y humor sexual y de inversión de roles.",
+   "criterios": "Reparto sobre 2 puntos: argumento, 1 punto (0,25 por planteamiento y contexto; 0,50 por desarrollo del plan y sus conflictos; 0,25 por desenlace); rasgos de la comedia antigua, 1 punto (0,35 por el coro; 0,35 por la actualidad y crítica política; 0,30 por el humor). Se valora la precisión, la claridad y la distinción entre rasgos generales del género y aspectos concretos de la obra.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-23",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "traduccion",
+   "p": 0.9
+  },
+  {
+   "id": "morfosintaxis",
+   "p": 0.9
+  },
+  {
+   "id": "lexico",
+   "p": 0.9
+  },
+  {
+   "id": "literatura",
+   "p": 0.777
+  }
+ ],
+ "referencias": [
+  "https://www.ucm.es/file/griego-ii-14",
+  "https://drive.google.com/file/d/1G2-xJqgjNqwo5hQtcLLQSWwT5kT9Q6LC/view?usp=drive_link",
+  "https://drive.google.com/file/d/1G2-xJqgjNqwo5hQtcLLQSWwT5kT9Q6LC/view?usp=drive_link",
+  "https://drive.google.com/file/d/1_OQJvLToQpMTFUdAznxgdaMkanA0W9nS/view?usp=sharing",
+  "https://www.ucm.es/file/griego-ii-14",
+  "https://www.ucm.es/file/griego-ii-9"
+ ]
+}
