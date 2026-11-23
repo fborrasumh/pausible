@@ -1,0 +1,157 @@
+{
+ "ccaa": "madrid",
+ "materia": "biologia",
+ "titulo": "Biología — propuesta original de examen PAU 2027 de la Comunidad de Madrid",
+ "duracion_min": 90,
+ "instrucciones": "Responda como máximo a cinco preguntas. La pregunta 1 es obligatoria y no tiene opcionalidad. En cada una de las preguntas 2, 3, 4 y 5, elija y responda solo una de las dos propuestas (A o B). Todas las preguntas valen 2 puntos. Lea con atención los contextos y aplique sus conocimientos biológicos a las situaciones planteadas.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "microbiologia",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En un laboratorio de vigilancia de una explotación acuícola se aísla la bacteria K, que carece de núcleo y presenta un cromosoma circular. En un plásmido de K se detecta el gen blaR, asociado a resistencia a un antibiótico. El laboratorio amplifica ese gen mediante PCR y estudia una vacuna experimental frente a un antígeno de superficie de la bacteria. Una persona que participa en el estudio recibe una dosis de refuerzo de la vacuna.\n\na) Indique a qué tipo de organización celular pertenece K y cómo se reproduce habitualmente esta bacteria (0,4 puntos).\nb) En la PCR, explique la función de los cebadores y de la ADN polimerasa termoestable (0,6 puntos).\nc) Explique cómo podría transmitirse el plásmido con el gen blaR desde una bacteria a otra mediante conjugación (0,4 puntos).\nd) Tras la dosis de refuerzo, la concentración de anticuerpos específicos aumenta con mayor rapidez que tras la primera dosis. Explique este fenómeno e indique qué células son fundamentales para que ocurra (0,6 puntos).",
+   "solucion": "### a) Organización celular y reproducción (0,4 puntos)\nK es una bacteria, por tanto pertenece a la organización celular procariota: carece de núcleo y su ADN se encuentra en el citoplasma; su cromosoma es circular. Habitualmente se reproduce de forma asexual por fisión binaria o bipartición, tras duplicar su ADN y dividirse en dos células hijas.\n\n### b) Función de los componentes de la PCR (0,6 puntos)\nLos cebadores son secuencias cortas de ADN que se unen por complementariedad a las regiones que flanquean el fragmento que se quiere amplificar. Delimitan el fragmento y aportan un extremo $3'$ libre desde el que puede iniciarse la síntesis de ADN.\n\nLa ADN polimerasa termoestable sintetiza las nuevas cadenas añadiendo nucleótidos al extremo $3'$ de los cebadores, en sentido $5'\\to 3'$. Al resistir las altas temperaturas de la PCR, permanece activa durante los ciclos de desnaturalización, unión de cebadores y elongación.\n\n### c) Transmisión del plásmido por conjugación (0,4 puntos)\nUna bacteria donadora que posee el plásmido establece contacto directo con una bacteria receptora, normalmente mediante un pili sexual o un puente de conjugación. Si el plásmido es conjugativo —o puede movilizarse con la maquinaria de transferencia—, se transfiere una copia o una de sus cadenas de ADN a la receptora; allí se completa la cadena complementaria. La receptora puede adquirir así el plásmido con el gen *blaR* y la resistencia asociada.\n\n### d) Respuesta a la dosis de refuerzo (0,6 puntos)\nLa primera dosis induce una respuesta primaria y genera linfocitos de memoria específicos frente al antígeno. Tras el refuerzo, estos se activan con rapidez, proliferan y se diferencian en células plasmáticas productoras de anticuerpos; por ello, la respuesta secundaria es más rápida y, habitualmente, más intensa.\n\nSon fundamentales los linfocitos B de memoria. También pueden contribuir los linfocitos T colaboradores de memoria, que favorecen la activación y diferenciación de los B.",
+   "resultado": "K es procariota y se reproduce por fisión binaria; los cebadores delimitan e inician la amplificación, y la polimerasa termoestable sintetiza ADN; la conjugación puede transferir el plásmido blaR; el refuerzo activa linfocitos de memoria y produce una respuesta de anticuerpos más rápida.",
+   "criterios": "a) 0,4 puntos: 0,2 por identificar la organización procariota y 0,2 por indicar la fisión binaria. b) 0,6 puntos: 0,3 por la función de los cebadores y 0,3 por la función de la ADN polimerasa termoestable. c) 0,4 puntos: por describir el contacto directo y la transferencia del plásmido desde la bacteria donadora a la receptora. d) 0,6 puntos: 0,3 por explicar la respuesta secundaria más rápida debida a la memoria inmunológica y 0,3 por identificar los linfocitos B de memoria como fundamentales; se admite mencionar la participación de linfocitos T colaboradores.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.A",
+   "tema": "biomoleculas",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En un análisis de semillas oleaginosas se caracterizan tres lípidos. El lípido I está formado por una molécula de glicerol unida a tres ácidos grasos. El lípido II contiene glicerol, dos ácidos grasos, un grupo fosfato y colina. El lípido III es colesterol libre.\n\na) Identifique el lípido I e indique su función más habitual en una semilla (0,4 puntos).\nb) Identifique el lípido II y explique qué rasgo de su estructura le permite formar parte de una membrana biológica (0,6 puntos).\nc) Clasifique el colesterol libre como lípido saponificable o insaponificable y justifique su respuesta (0,5 puntos).\nd) Indique el tipo de enlace que une los ácidos grasos al glicerol en los lípidos I y II (0,5 puntos).",
+   "solucion": "**Resolución paso a paso (deducción a partir de la composición):**\n\n1. **Lípido I:** contiene glicerol y tres ácidos grasos; corresponde a un **triacilglicérido** o **triglicérido**. En las semillas oleaginosas su función más habitual es la **reserva energética**.\n2. **Lípido II:** contiene glicerol, dos ácidos grasos y un grupo fosfato unido a colina; es una **fosfatidilcolina**, un fosfoglicérido o glicerofosfolípido. Es **anfipática**: posee una cabeza polar hidrófila (fosfato-colina) y dos colas apolares hidrófobas (ácidos grasos). Esta doble naturaleza permite que se integre en las membranas, donde los fosfolípidos forman bicapas.\n3. **Lípido III:** el colesterol libre es un **lípido insaponificable**. No contiene ácidos grasos unidos mediante enlaces éster que puedan hidrolizarse en una saponificación. Su grupo hidroxilo no lo convierte en saponificable; el colesterol esterificado con un ácido graso sería un derivado distinto.\n4. **Enlaces:** en los lípidos I y II, los ácidos grasos se unen al glicerol mediante **enlaces éster**. El I presenta tres y el II dos.\n\n**Comprobación final:** las tres cadenas de ácidos grasos identifican el triacilglicérido; el fosfato y la colina identifican la fosfatidilcolina; el colesterol libre carece de ácidos grasos esterificados. Por tanto, las identificaciones, la clasificación y los enlaces son coherentes con las composiciones indicadas.",
+   "resultado": "I: triacilglicérido, reserva energética; II: fosfatidilcolina anfipática, componente de membranas; III: colesterol libre insaponificable; enlaces entre ácidos grasos y glicerol: éster.",
+   "criterios": "Puntuación total: 2 puntos. a) 0,2 por identificar el triacilglicérido y 0,2 por indicar su función de reserva energética. b) 0,3 por identificar la fosfatidilcolina y 0,3 por explicar su carácter anfipático y relacionarlo con la membrana. c) 0,2 por clasificar el colesterol libre como insaponificable y 0,3 por justificarlo por la ausencia de ácidos grasos unidos mediante enlaces éster saponificables. d) 0,25 por indicar los enlaces éster en el lípido I y 0,25 por indicarlos en el lípido II.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.B",
+   "tema": "celula",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Las células beta del páncreas producen insulina, una proteína que se libera al exterior celular. Considere la ruta que sigue esta proteína desde su síntesis hasta su secreción.\n\na) Ordene correctamente estos elementos de la ruta: vesícula secretora, retículo endoplasmático rugoso, medio extracelular y aparato de Golgi (0,8 puntos).\nb) Indique una función del aparato de Golgi en la ruta de una proteína destinada a la secreción (0,4 puntos).\nc) Nombre el proceso por el que la vesícula secretora libera su contenido al exterior y explique qué ocurre con su membrana (0,4 puntos).\nd) Explique por qué la síntesis de una proteína secretada se asocia a ribosomas del retículo endoplasmático rugoso y no, en general, a ribosomas libres del citosol (0,4 puntos).",
+   "solucion": "### a) Orden de la ruta\n\nLa secuencia correcta es:\n\n**Retículo endoplasmático rugoso → aparato de Golgi → vesícula secretora → medio extracelular.**\n\nLa proteína entra en el retículo endoplasmático rugoso durante su síntesis; después pasa al aparato de Golgi, se incorpora a vesículas secretoras y finalmente se libera fuera de la célula.\n\n### b) Función del aparato de Golgi\n\nEl aparato de Golgi modifica, clasifica y empaqueta proteínas en vesículas. En esta ruta, las dirige hacia vesículas secretoras que las transportarán hasta la membrana plasmática.\n\n### c) Liberación del contenido\n\nEl proceso se denomina **exocitosis**. La membrana de la vesícula se fusiona con la membrana plasmática y el contenido vesicular se vierte al medio extracelular. La membrana de la vesícula pasa a formar parte de la membrana plasmática, aunque puede recuperarse posteriormente mediante procesos de reciclaje.\n\n### d) Asociación de la síntesis al RER\n\nLa traducción comienza en un ribosoma del citosol. Si la proteína contiene una secuencia señal de destino al retículo, esta es reconocida por la partícula de reconocimiento de señal (SRP), que dirige el complejo ribosoma-molécula de ARN mensajero al RER. La traducción continúa y la proteína naciente se introduce en el retículo, desde donde seguirá la ruta secretora. Los ribosomas del RER no son distintos de los libres: su asociación al retículo depende de la señal de destino de la proteína que están sintetizando.\n\n### Comprobación\n\nLa secuencia es coherente con el transporte vesicular: la proteína entra en el sistema de endomembranas en el RER, se clasifica en el Golgi y sale en una vesícula cuya fusión con la membrana plasmática permite la secreción al exterior.",
+   "resultado": "RER → aparato de Golgi → vesícula secretora → medio extracelular; la liberación se produce por exocitosis.",
+   "criterios": "Total: 2 puntos. a) 0,8 puntos: 0,2 por cada elemento situado correctamente en la secuencia. b) 0,4 puntos: 0,2 por indicar una función pertinente del Golgi y 0,2 por relacionarla con la clasificación, el empaquetamiento o el envío de la proteína a la ruta secretora. c) 0,4 puntos: 0,2 por nombrar la exocitosis y 0,2 por explicar la fusión de membranas y la liberación del contenido. d) 0,4 puntos: 0,2 por explicar el reconocimiento de la señal y la dirección al RER, y 0,2 por indicar la entrada de la proteína naciente en el retículo y/o aclarar que los ribosomas libres y los asociados no son tipos diferentes.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.A",
+   "tema": "metabolismo",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En un biorreactor se cultivan levaduras para obtener una bebida fermentada. Cuando disminuye la disponibilidad de oxígeno, las células siguen consumiendo glucosa y producen etanol.\n\na) Nombre el proceso metabólico que permite producir etanol y señale en qué parte de la célula ocurre (0,4 puntos).\nb) Indique los productos finales de este proceso y explique qué ocurre con el NADH para que pueda continuar la glucólisis (0,6 puntos).\nc) ¿Cuál es el rendimiento neto de ATP por cada molécula de glucosa fermentada? Indique si la fermentación añade ATP adicional a los obtenidos en la glucólisis (0,4 puntos).\nd) En la respiración aerobia, ¿en qué etapa se consume directamente el oxígeno y qué función desempeña? (0,6 puntos).",
+   "solucion": "### a) Proceso y localización\nEs la **fermentación alcohólica**, que tiene lugar en el citosol (citoplasma) de la levadura.\n\n### b) Productos y regeneración del NAD⁺\nPor cada molécula de glucosa, los productos característicos son dos moléculas de etanol y dos de dióxido de carbono. El piruvato se descarboxila y forma acetaldehído; después, el acetaldehído se reduce a etanol mediante el NADH. En esa reacción, el NADH se oxida y regenera NAD⁺:\n\n$2\\,\\mathrm{CH_3CHO}+2\\,\\mathrm{NADH}+2\\,\\mathrm{H^+}\\rightarrow2\\,\\mathrm{CH_3CH_2OH}+2\\,\\mathrm{NAD^+}$\n\nLa regeneración del NAD⁺ permite que la glucólisis continúe, pues esta necesita NAD⁺ para oxidar la glucosa.\n\n### c) Rendimiento de ATP\nEl rendimiento neto es de **2 ATP por glucosa**. Se obtienen en la glucólisis por fosforilación a nivel de sustrato. La fermentación propiamente dicha no produce ATP adicional: su función es reoxidar el NADH y recuperar NAD⁺.\n\n### d) Consumo de oxígeno en la respiración aerobia\nEl oxígeno se consume directamente al final de la cadena de transporte de electrones, durante la fosforilación oxidativa, en el complejo IV. Actúa como aceptor final de electrones y, al combinarse con electrones y protones, se reduce a agua. Así permite que continúe el flujo de electrones por la cadena.\n\n### Comprobación independiente\nEl balance global de carbono de la fermentación es:\n\n$\\mathrm{C_6H_{12}O_6}\\rightarrow2\\,\\mathrm{CH_3CH_2OH}+2\\,\\mathrm{CO_2}$\n\nHay seis átomos de carbono a cada lado. Además, la glucólisis produce cuatro ATP y consume dos, por lo que su balance neto es dos ATP; la reacción fermentativa no añade ATP. La lista de números se ordena como etanol, dióxido de carbono, ATP neto y ATP adicional de la fermentación, por molécula de glucosa.",
+   "resultado": "Fermentación alcohólica en el citosol: por glucosa, 2 etanol y 2 CO₂; 2 ATP netos y 0 ATP adicional por la fermentación. El O₂ se consume en el complejo IV de la cadena respiratoria y se reduce a agua.",
+   "criterios": "Total: 2,0 puntos. a) 0,4: identificación de la fermentación alcohólica (0,2) y localización en el citosol (0,2). b) 0,6: identificación de etanol y CO₂ como productos (0,2); explicación de que el NADH se oxida a NAD⁺ al reducir el acetaldehído, y de que así se mantiene la glucólisis (0,4). c) 0,4: rendimiento neto de 2 ATP por glucosa (0,25) y aclaración de que la fermentación no añade ATP a los obtenidos en la glucólisis (0,15). d) 0,6: localización del consumo directo de O₂ al final de la cadena respiratoria/fosforilación oxidativa, en el complejo IV (0,3); función como aceptor final de electrones y reducción a agua (0,3).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.B",
+   "tema": "division",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En una planta, una célula madre de los granos de polen tiene un número diploide de cromosomas $2n=8$ y realiza meiosis.\n\na) Indique cuántos bivalentes y cuántos cromosomas hay en la célula durante la metafase I (0,4 puntos).\nb) Indique cuántos cromosomas y cuántas cromátidas hay en cada núcleo al finalizar la meiosis I (0,5 puntos).\nc) Indique cuántos cromosomas y cuántas cromátidas hay en cada célula resultante al finalizar la meiosis II (0,5 puntos).\nd) Señale en qué fase de la meiosis puede producirse el sobrecruzamiento, entre qué cromátidas ocurre y qué efecto tiene sobre la variabilidad genética (0,6 puntos).",
+   "solucion": "### a) Metafase I\nEl número haploide es $n=2n/2=8/2=4$. Los cromosomas homólogos están apareados, por lo que hay **4 bivalentes**. La célula contiene **8 cromosomas** en total.\n\n### b) Final de la meiosis I\nLos cromosomas homólogos se separan y cada núcleo recibe uno de cada pareja. En cada núcleo hay **4 cromosomas**. Cada cromosoma conserva sus dos cromátidas hermanas, de modo que hay **8 cromátidas** por núcleo.\n\n### c) Final de la meiosis II\nSe separan las cromátidas hermanas. Cada célula resultante tiene **4 cromosomas**, cada uno formado por una cromátida; por tanto, contiene **4 cromátidas**.\n\n### d) Sobrecruzamiento\nSe produce durante la **profase I**, concretamente en el **paquiteno**. Ocurre entre **cromátidas no hermanas de cromosomas homólogos**. El intercambio de fragmentos genera nuevas combinaciones de alelos y, por ello, **aumenta la variabilidad genética**.",
+   "resultado": "a) 4 bivalentes y 8 cromosomas; b) 4 cromosomas y 8 cromátidas por núcleo; c) 4 cromosomas y 4 cromátidas por célula; d) sobrecruzamiento en paquiteno de profase I, entre cromátidas no hermanas de homólogos, que aumenta la variabilidad genética.",
+   "criterios": "Total: 2 puntos. a) 0,4 puntos: 0,2 por indicar 4 bivalentes y 0,2 por indicar 8 cromosomas. b) 0,5 puntos: 0,25 por indicar 4 cromosomas por núcleo y 0,25 por indicar 8 cromátidas. c) 0,5 puntos: 0,25 por indicar 4 cromosomas por célula y 0,25 por indicar 4 cromátidas. d) 0,6 puntos: 0,2 por localizar el sobrecruzamiento en profase I (paquiteno), 0,2 por identificar que ocurre entre cromátidas no hermanas de cromosomas homólogos y 0,2 por explicar que produce nuevas combinaciones alélicas y aumenta la variabilidad genética.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.A",
+   "tema": "molecular",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Un laboratorio analiza el ARNm de una enzima de un alga. La secuencia estudiada es $5'-\\mathrm{AUG\\ GCU\\ UAC\\ CAA\\ UGA}-3'$.\n\na) Traduzca la secuencia desde el codón de inicio hasta el codón de terminación e indique la secuencia de aminoácidos (0,9 puntos).\nb) Se sustituye el nucleótido C situado en la posición 9 del ARNm por A. Indique en qué codón se produce el cambio y explique su consecuencia sobre la traducción (0,6 puntos).\nc) Si se quisiera expresar en una bacteria un gen eucariota que contiene intrones, explique por qué convendría emplear ADN complementario obtenido a partir del ARNm maduro e indique qué enzima permite sintetizarlo (0,5 puntos).",
+   "solucion": "### a) Traducción\n\nSe separa el ARNm en codones desde el codón de inicio: **AUG | GCU | UAC | CAA | UGA**.\n\n- **AUG** codifica metionina (Met) y señala el inicio de la traducción.\n- **GCU** codifica alanina (Ala).\n- **UAC** codifica tirosina (Tyr).\n- **CAA** codifica glutamina (Gln).\n- **UGA** es un codón de terminación y no codifica ningún aminoácido.\n\nLa secuencia traducida es **Met–Ala–Tyr–Gln**.\n\n### b) Sustitución en la posición 9\n\nLa posición 9 es la tercera base del tercer codón, **UAC**. Al sustituir su C por A, el codón pasa a ser **UAA**, que es un codón de terminación. Por tanto, se produce una mutación sin sentido y la traducción se detiene prematuramente: el polipéptido resultante es **Met–Ala**, más corto que el original.\n\n### c) Expresión en bacterias\n\nConviene utilizar ADN complementario (ADNc) obtenido del ARNm maduro porque los intrones ya han sido eliminados durante la maduración del ARNm eucariota. Las bacterias no disponen, en general, de la maquinaria necesaria para eliminar intrones eucariotas, por lo que podrían traducir una secuencia incorrecta. El ADNc se sintetiza mediante la **transcriptasa inversa** (o retrotranscriptasa).",
+   "resultado": "Met–Ala–Tyr–Gln; la mutación convierte el tercer codón UAC en UAA y produce Met–Ala; el ADNc se sintetiza con transcriptasa inversa.",
+   "criterios": "Total: 2,0 puntos. a) 0,9 puntos: 0,15 por reconocer AUG como inicio y metionina; 0,15 por cada uno de los cuatro aminoácidos traducidos correctamente (Ala, Tyr y Gln, junto con Met); 0,15 por identificar UGA como terminación y no asignarle un aminoácido. b) 0,6 puntos: 0,25 por localizar la posición 9 en el tercer codón y establecer el cambio UAC→UAA; 0,35 por explicar que aparece un codón de terminación prematuro y que se obtiene un polipéptido truncado Met–Ala. c) 0,5 puntos: 0,3 por explicar que el ARNm maduro carece de intrones y que las bacterias no suelen procesar intrones eucariotas; 0,2 por identificar la transcriptasa inversa como enzima que sintetiza el ADNc.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "4.B",
+   "tema": "microbiologia",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Un laboratorio compara la sensibilidad de una bacteria aislada de un alimento frente a tres antibióticos. En este ensayo, un halo de inhibición de 18 mm o más se interpreta como sensibilidad; un halo menor de 18 mm se interpreta como resistencia. Los diámetros medidos son: antibiótico P, 23 mm; antibiótico Q, 15 mm; antibiótico R, 19 mm.\n\na) Clasifique la bacteria como sensible o resistente frente a cada antibiótico e indique cuál presenta el mayor halo de inhibición (0,6 puntos).\nb) Explique por qué la exposición a un antibiótico puede aumentar la proporción de bacterias resistentes en una población, sin que el antibiótico tenga que inducir de forma dirigida esa resistencia (0,8 puntos).\nc) Diferencie entre un antibiótico bactericida y uno bacteriostático (0,6 puntos).",
+   "solucion": "### a) Clasificación mediante la diferencia respecto al umbral\nTomamos como referencia el umbral de $18\\,\\text{mm}$ y calculamos, para cada antibiótico, la diferencia entre el halo medido y ese umbral. Una diferencia igual o superior a cero indica sensibilidad; una diferencia negativa indica resistencia.\n\n- **P:** $23-18=+5\\,\\text{mm}$; la bacteria es **sensible**.\n- **Q:** $15-18=-3\\,\\text{mm}$; la bacteria es **resistente**.\n- **R:** $19-18=+1\\,\\text{mm}$; la bacteria es **sensible**.\n\nEl mayor halo es el de **P**, de $23\\,\\text{mm}$.\n\n### b) Aumento de la proporción de bacterias resistentes\nEn una población bacteriana puede haber variación previa: algunas bacterias presentan resistencia por mutaciones espontáneas o por genes de resistencia adquiridos, por ejemplo, mediante transferencia horizontal. El antibiótico actúa como una presión de selección: elimina o frena sobre todo a las bacterias sensibles, mientras que las resistentes sobreviven en mayor proporción y pueden reproducirse y transmitir la resistencia. Así aumenta la **proporción** de resistentes en la población, aunque el antibiótico no haya inducido de forma dirigida la aparición de esa resistencia.\n\n### c) Antibióticos bactericidas y bacteriostáticos\nUn antibiótico **bactericida** mata las bacterias. Uno **bacteriostático** inhibe su crecimiento o reproducción, sin necesariamente matarlas directamente; su eliminación puede depender después de las defensas del hospedador.\n\n### Comprobación final\nAplicando de nuevo el criterio dado: $23\\geq18$ y $19\\geq18$, por lo que P y R son sensibles; $15<18$, por lo que Q es resistente. El mayor diámetro sigue siendo el de P, $23\\,\\text{mm}$.",
+   "resultado": "P: sensible; Q: resistente; R: sensible. Mayor halo: P, 23 mm. El antibiótico selecciona bacterias resistentes preexistentes o surgidas al azar; bactericida mata y bacteriostático inhibe el crecimiento.",
+   "criterios": "a) 0,6 puntos: 0,15 por cada clasificación correcta (P sensible, Q resistente y R sensible) y 0,15 por identificar P como el de mayor halo. b) 0,8 puntos: explicar que existe variación o resistencia previa/surgida al azar (0,3); que el antibiótico elimina o inhibe preferentemente a las sensibles y selecciona a las resistentes (0,3); y que estas sobreviven, se reproducen y elevan su proporción sin que la resistencia sea inducida de forma dirigida (0,2). c) 0,6 puntos: indicar que el bactericida mata (0,3) y que el bacteriostático inhibe el crecimiento o la reproducción sin necesariamente matar directamente (0,3).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5.A",
+   "tema": "inmunologia",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En una campaña sanitaria se administra una vacuna y, meses después, una dosis de refuerzo frente al mismo antígeno.\n\na) Indique si la inmunidad adquirida por la vacunación es activa o pasiva, y natural o artificial. Justifique brevemente su respuesta (0,6 puntos).\nb) Explique por qué la respuesta inmunitaria tras la dosis de refuerzo suele ser más rápida e intensa que la respuesta tras la primera dosis (0,6 puntos).\nc) Diferencie la función de las células plasmáticas y la de los linfocitos B de memoria (0,4 puntos).\nd) Si el agente infeccioso entra en una célula y esta presenta fragmentos antigénicos en su superficie, indique qué tipo de linfocito puede destruirla y describa brevemente su acción (0,4 puntos).",
+   "solucion": "### a) Tipo de inmunidad\nLa inmunidad adquirida mediante vacunación es **activa y artificial**. Es activa porque la vacuna estimula al sistema inmunitario de la persona para que produzca su propia respuesta y células de memoria; es artificial porque el antígeno se administra deliberadamente mediante una intervención sanitaria, en vez de adquirirse por una infección natural.\n\n### b) Respuesta al refuerzo\nLa primera dosis activa linfocitos específicos y genera **linfocitos de memoria**. Al recibir de nuevo el mismo antígeno, estas células lo reconocen con rapidez, proliferan y se diferencian en células efectoras —entre ellas, células plasmáticas—, por lo que la respuesta secundaria suele ser más rápida y produce una mayor cantidad de anticuerpos; estos pueden tener también mayor afinidad por el antígeno.\n\n### c) Células plasmáticas y linfocitos B de memoria\nLas **células plasmáticas** secretan grandes cantidades de anticuerpos específicos. Los **linfocitos B de memoria** persisten tras la respuesta inicial y, ante una nueva exposición al mismo antígeno, se activan y originan con rapidez células productoras de anticuerpos.\n\n### d) Destrucción de la célula infectada\nPuede destruirla un **linfocito T citotóxico CD8+**. Reconoce el fragmento antigénico presentado por moléculas del MHC I en la superficie celular y provoca la muerte de la célula infectada, por ejemplo, mediante perforinas y granzimas que inducen apoptosis.\n\n### Comprobación\nLa clasificación distingue correctamente una respuesta producida por el propio organismo y provocada por vacunación; el refuerzo actúa sobre células de memoria; y la presentación de antígeno por MHC I en una célula infectada corresponde al reconocimiento por linfocitos T CD8+ citotóxicos.",
+   "resultado": "La vacunación induce inmunidad activa artificial; el refuerzo activa células de memoria; las plasmáticas secretan anticuerpos, y los linfocitos T CD8+ destruyen células infectadas que presentan antígenos por MHC I.",
+   "criterios": "a) 0,6 puntos: 0,3 por indicar que es activa y artificial; 0,3 por justificar que la vacuna estimula la respuesta propia y que el antígeno se administra deliberadamente. b) 0,6 puntos: explicar la generación de células de memoria tras la primera dosis y su activación/proliferación rápida ante el refuerzo, que produce una respuesta más intensa. c) 0,4 puntos: 0,2 por atribuir a las células plasmáticas la secreción de anticuerpos; 0,2 por explicar la persistencia y función de respuesta de los linfocitos B de memoria. d) 0,4 puntos: 0,2 por identificar al linfocito T citotóxico CD8+; 0,2 por describir su reconocimiento del antígeno presentado por MHC I y la inducción de muerte de la célula infectada.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5.B",
+   "tema": "genetica",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En una especie ornamental, el alelo C determina flores azules y es dominante completo sobre el alelo c, que determina flores blancas. Al cruzar una planta de flores azules con una planta de flores blancas se obtienen 40 descendientes azules y 40 blancos.\n\na) Deduzca el genotipo de cada planta parental y justifique la proporción fenotípica observada (0,8 puntos).\nb) Se cruzan dos plantas azules heterocigotas. Indique las proporciones genotípicas y fenotípicas esperadas. Si se obtienen 96 descendientes, calcule cuántos se esperan de cada fenotipo (1,2 puntos).",
+   "solucion": "### a) Genotipos parentales y proporción observada\n\nLa planta de flores blancas tiene genotipo $cc$, porque el alelo $c$ es recesivo y el fenotipo blanco solo aparece en homocigosis recesiva. La descendencia observada presenta $40$ plantas azules y $40$ blancas, es decir, una proporción fenotípica $1:1$. Si la planta azul fuera $CC$, toda la descendencia del cruce con $cc$ sería azul. Por tanto, la planta azul es heterocigota, $Cc$.\n\nEl cruce parental es $Cc \\times cc$. La planta $Cc$ produce gametos $C$ y $c$ en igual proporción, mientras que la planta $cc$ solo produce gametos $c$. La descendencia esperada es $1/2\\,Cc$ (azul) y $1/2\\,cc$ (blanca), lo que justifica la proporción observada $1:1$.\n\n### b) Cruce de dos plantas azules heterocigotas\n\nEl cruce es $Cc \\times Cc$. Cada progenitor produce gametos $C$ y $c$ en igual proporción. Las combinaciones posibles dan la proporción genotípica $1\\,CC:2\\,Cc:1\\,cc$.\n\nComo $C$ es dominante, $CC$ y $Cc$ son azules, mientras que $cc$ es blanco. La proporción fenotípica es, por tanto, $3$ azules por cada $1$ blanco, equivalente a $3/4$ azules y $1/4$ blancos.\n\nPara $96$ descendientes: azules esperados $=96\\times 3/4=72$; blancos esperados $=96\\times 1/4=24$.\n\n**Respuesta:** parentales iniciales $Cc$ (azul) y $cc$ (blanca); en $Cc\\times Cc$, proporción genotípica $1:2:1$, fenotípica $3:1$ y, entre $96$ descendientes, $72$ azules y $24$ blancos.",
+   "resultado": "a) $Cc$ (azul) × $cc$ (blanca), proporción 1:1. b) $Cc$ × $Cc$: genotipos 1:2:1, fenotipos 3:1; 72 azules y 24 blancos.",
+   "criterios": "Total: 2 puntos. a) 0,8 puntos: 0,4 por identificar correctamente los genotipos parentales ($Cc$ y $cc$); 0,4 por justificar que el cruce produce descendencia azul y blanca en proporción 1:1. b) 1,2 puntos: 0,4 por la proporción genotípica 1:2:1; 0,4 por la proporción fenotípica 3:1; 0,4 por calcular correctamente 72 descendientes azules y 24 blancos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-23",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "biomoleculas",
+   "p": 0.9
+  },
+  {
+   "id": "celula",
+   "p": 0.9
+  },
+  {
+   "id": "metabolismo",
+   "p": 0.9
+  },
+  {
+   "id": "molecular",
+   "p": 0.9
+  },
+  {
+   "id": "microbiologia",
+   "p": 0.9
+  },
+  {
+   "id": "inmunologia",
+   "p": 0.9
+  }
+ ],
+ "referencias": [
+  "https://www.ucm.es/file/biologÍa-26",
+  "https://www.ucm.es/file/biologÍa-27",
+  "https://drive.google.com/file/d/15eZNpjKyRbugft_1jsWx4F-oP6ufUHwf/view?usp=drive_link",
+  "https://drive.google.com/file/d/16X0F3q_k7WQkOPWZfxPLj4MZwBxgN_CV/view?usp=drive_link",
+  "https://drive.google.com/file/d/19edg0ezh4YG-brzxh4b5RYDt2yHoou3I/view?usp=sharing",
+  "https://drive.google.com/file/d/1E02H2il5E4cAc6NsW-9UdPRCvxKt4r9t/view?usp=drive_link",
+  "https://drive.google.com/file/d/1R0c-lDbmfcR1OxGk9yzVsoGb7fLV89lT/view?usp=drive_link",
+  "https://drive.google.com/file/d/1_WM2378qrkwfoNc7xjDXJdOqRwbIZ4Yi/view?usp=sharing",
+  "https://www.ucm.es/file/biologÍa-26"
+ ]
+}
