@@ -1,0 +1,107 @@
+{
+ "ccaa": "murcia",
+ "materia": "biologia",
+ "titulo": "PAU 2027 — Biología — Región de Murcia (examen original)",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cinco preguntas, valoradas con 2 puntos cada una. Responda obligatoriamente las preguntas 1 y 2. En cada una de las preguntas 3, 4 y 5, elija y responda solo una de las dos opciones propuestas. La puntuación máxima es de 10 puntos. Si responde las dos opciones de una pregunta, solo se corregirá la primera, salvo que la otra esté claramente tachada.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "metabolismo",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En un centro deportivo comparan dos bebidas para reponer energía después del ejercicio. Por cada 100 mL, la bebida A contiene 6 g de glucosa, 1 g de proteínas y 0 g de lípidos; la bebida B contiene 4 g de glucosa, 2 g de proteínas y 0 g de lípidos. Cada envase contiene 250 mL. Para estimar el valor energético, use 4 kcal/g para los glúcidos, 4 kcal/g para las proteínas y 9 kcal/g para los lípidos. A) Calcule la energía que aporta un envase completo de cada bebida. Muestre el cálculo (0,8 puntos). B) Indique cuál de las dos aporta menos energía y cuál es la diferencia entre ambas, en kcal por envase (0,4 puntos). C) Explique cómo pueden utilizar las células la glucosa para obtener ATP; mencione la glucólisis y señale dónde tiene lugar (0,8 puntos).",
+   "solucion": "### A) Energía por envase\n\nEl envase contiene $250/100 = 2,5$ veces la cantidad indicada para $100$ mL. Se suman las contribuciones energéticas de glúcidos, proteínas y lípidos.\n\n- **Bebida A:** por cada $100$ mL aporta $6$ g de glucosa y $1$ g de proteínas:\n  $E_A = (6 × 4 + 1 × 4 + 0 × 9) × 2,5 = 28 × 2,5 = 70$ kcal por envase.\n- **Bebida B:** por cada $100$ mL aporta $4$ g de glucosa y $2$ g de proteínas:\n  $E_B = (4 × 4 + 2 × 4 + 0 × 9) × 2,5 = 24 × 2,5 = 60$ kcal por envase.\n\n### B) Comparación\n\nLa bebida **B** aporta menos energía. La diferencia es $70 - 60 = 10$ kcal por envase.\n\n### C) Obtención de ATP a partir de glucosa\n\nLas células pueden degradar la glucosa mediante la **glucólisis**, que tiene lugar en el **citosol**. En ella, una molécula de glucosa se transforma en dos moléculas de piruvato y se obtiene una ganancia neta de $2$ ATP por glucosa, además de NADH. Si hay oxígeno, el piruvato puede continuar su degradación en las mitocondrias y producirse más ATP mediante la respiración celular.",
+   "resultado": "Bebida A: 70 kcal/envase; bebida B: 60 kcal/envase; la bebida B aporta 10 kcal menos por envase.",
+   "criterios": "A) 0,8 puntos: 0,4 por calcular correctamente la energía del envase A, incluyendo la conversión de 100 mL a 250 mL; 0,4 por el cálculo equivalente para B. B) 0,4 puntos: 0,2 por identificar que B aporta menos energía y 0,2 por indicar una diferencia de 10 kcal por envase. C) 0,8 puntos: 0,4 por explicar que la glucólisis degrada glucosa y permite obtener ATP (se acepta mencionar el rendimiento neto de 2 ATP por glucosa); 0,4 por indicar que tiene lugar en el citosol. Se acepta añadir que, en condiciones aerobias, el piruvato continúa su degradación en las mitocondrias.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "genetica",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Un vivero estudia la resistencia de una variedad de tomate a un hongo. La resistencia depende de un único gen autosómico, con dos alelos y dominancia completa, y no está influida por el ambiente. Al cruzar dos plantas resistentes obtienen algunas plantas descendientes susceptibles. A) Deduzca si el alelo de resistencia es dominante o recesivo y escriba el genotipo de cada progenitor, justificando la respuesta (0,5 puntos). B) Represente el cruce e indique las proporciones genotípicas y fenotípicas esperadas (0,9 puntos). C) Si se obtienen 160 descendientes, ¿cuántos se espera que sean susceptibles? (0,6 puntos).",
+   "solucion": "### A) Dominancia y genotipos parentales\nComo dos plantas resistentes producen descendientes susceptibles, cada progenitor debe poder transmitir el alelo de susceptibilidad. Si la resistencia fuera recesiva, dos plantas resistentes serían homocigotas recesivas y no podrían tener descendientes susceptibles. Por tanto, el alelo de resistencia es dominante.\n\nRepresentamos el alelo dominante de resistencia por $R$ y el alelo recesivo de susceptibilidad por $r$. Las plantas susceptibles son $rr$. Como ambos progenitores son resistentes pero portan el alelo $r$, sus genotipos son $Rr$ y $Rr$.\n\n### B) Cruce y proporciones esperadas\nCruce: $Rr \\times Rr$. Cada progenitor produce gametos $R$ y $r$.\n\n|   | $R$ | $r$ |\n|---|---|---|\n| $R$ | $RR$ | $Rr$ |\n| $r$ | $Rr$ | $rr$ |\n\nProporciones genotípicas: $\\frac{1}{4}RR : \\frac{1}{2}Rr : \\frac{1}{4}rr$, es decir, $1:2:1$.\n\nProporciones fenotípicas: $\\frac{3}{4}$ resistentes y $\\frac{1}{4}$ susceptibles, es decir, $3:1$.\n\n### C) Descendientes susceptibles\nSe espera que sean susceptibles $\\frac{1}{4}$ de los descendientes. Para $160$ descendientes: $160 \\times \\frac{1}{4}=40$ susceptibles.",
+   "resultado": "Progenitores: Rr × Rr; proporciones genotípicas RR:Rr:rr = 1:2:1; proporciones fenotípicas resistentes:susceptibles = 3:1; se esperan 40 descendientes susceptibles.",
+   "criterios": "A) 0,5 puntos: 0,25 por deducir que la resistencia es dominante y 0,25 por identificar ambos progenitores como heterocigotos y justificarlo. B) 0,9 puntos: 0,3 por representar correctamente el cruce y los gametos; 0,3 por las proporciones genotípicas; 0,3 por las proporciones fenotípicas. C) 0,6 puntos: planteamiento correcto de la proporción de susceptibles y cálculo de 40 individuos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "molecular",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Responda solo una opción. Opción 3.1. En una práctica de laboratorio se analiza una molécula de ADN. A) Describa los componentes de un nucleótido de ADN e indique qué enlaces unen sus componentes y qué enlace conecta los nucleótidos de una misma cadena (0,8 puntos). B) Escriba la cadena complementaria y antiparalela a esta cadena: 5′-ACGTTA-3′ (0,4 puntos). C) Explique qué significa que la replicación del ADN sea semiconservativa y describa la función de la helicasa y de la ADN polimerasa (0,8 puntos). Opción 3.2. En una célula eucariota se expresa un gen cuya cadena codificante de ADN es 5′-ATG GCT TTT TGA-3′. Considere que los codones del ARNm AUG, GCU y UUU codifican, respectivamente, metionina, alanina y fenilalanina, y que UGA es un codón de terminación. A) Escriba la secuencia de ARNm transcrita y la secuencia de aminoácidos producida antes de la terminación (0,8 puntos). B) Explique dónde tienen lugar la transcripción y la traducción en una célula eucariota, y describa la función del ARNm, el ARNt y el ARNr en la expresión de la información genética (1,2 puntos).",
+   "solucion": "### Opción 3.1\n\n#### A) Componentes y enlaces del nucleótido\n\n1. Cada nucleótido de ADN está formado por una base nitrogenada, una pentosa (desoxirribosa) y uno o más grupos fosfato. Las bases del ADN son adenina, guanina, citosina y timina.\n2. La base se une a la desoxirribosa mediante un enlace $\\beta$-N-glucosídico; el grupo fosfato se une a la pentosa mediante un enlace fosfoéster.\n3. Los nucleótidos de una misma cadena se enlazan mediante enlaces fosfodiéster $3′-5′$: el fosfato unido al carbono $5′$ de un nucleótido se une al grupo hidroxilo del carbono $3′$ de la desoxirribosa del siguiente.\n\n#### B) Cadena complementaria y antiparalela\n\nPara evitar confundir complementariedad con orientación, emparejo las bases manteniendo las cadenas antiparalelas: $A-T$, $C-G$, $G-C$, $T-A$, $T-A$, $A-T$. Así, alineada con la cadena dada, la complementaria es $3′-TGCAAT-5′$. Si se escribe también en sentido $5′\\to3′$, se invierte el orden de esa secuencia: $5′-TAACGT-3′$.\n\n#### C) Replicación del ADN\n\nLa replicación es semiconservativa porque cada molécula hija conserva una de las dos cadenas de la molécula parental y contiene otra cadena nueva, sintetizada usando la parental como molde.\n\nLa helicasa desenrolla el ADN y separa sus dos cadenas, rompiendo los puentes de hidrógeno entre las bases complementarias. La ADN polimerasa incorpora nucleótidos complementarios a la cadena molde y alarga la nueva cadena en dirección $5′\\to3′$, añadiendo nucleótidos a su extremo $3′$.\n\n**Comprobación:** en la secuencia complementaria, cada base queda emparejada correctamente con la original ($A-T$ y $C-G$), y la cadena alineada se escribe en sentido antiparalelo. Su forma equivalente en sentido $5′\\to3′$ es $5′-TAACGT-3′$.",
+   "resultado": "Cadena complementaria antiparalela: 3′-TGCAAT-5′; escrita 5′→3′: 5′-TAACGT-3′. Replicación semiconservativa: cada molécula hija conserva una cadena parental y sintetiza una nueva.",
+   "criterios": "A) 0,8 puntos: 0,3 por identificar base nitrogenada, desoxirribosa y fosfato; 0,25 por los enlaces que unen los componentes del nucleótido (N-glucosídico y fosfoéster); 0,25 por el enlace fosfodiéster 3′-5′ entre nucleótidos. B) 0,4 puntos por escribir correctamente la secuencia complementaria y respetar la antiparalelidad; se acepta también su forma equivalente escrita 5′→3′. C) 0,8 puntos: 0,3 por explicar el carácter semiconservativo; 0,25 por la función de la helicasa; 0,25 por la función y dirección de síntesis de la ADN polimerasa. Total: 2 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "division",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Responda solo una opción. Opción 4.1. En una especie con número cromosómico diploide 2n=8 se sigue una célula germinal durante la meiosis. En G1 contiene 8 moléculas de ADN; cada molécula de ADN corresponde a una cromátida. A) Indique, para el final de la fase S, para cada célula hija al terminar la meiosis I y para cada célula resultante al terminar la meiosis II, el número de cromosomas y el número de moléculas de ADN por célula (1 punto). B) Explique por qué se duplica la cantidad de ADN durante la fase S y por qué se reduce en cada una de las dos divisiones meióticas (0,8 puntos). C) Explique brevemente cómo permite la meiosis que la fecundación mantenga constante el número cromosómico de la especie (0,2 puntos). Opción 4.2. Un laboratorio estudia una célula pancreática que libera al medio una enzima proteica. A) Describa, en el orden en que ocurren, el recorrido de la proteína desde su síntesis hasta su salida de la célula, nombrando las estructuras celulares implicadas (1,1 puntos). B) Indique una función del retículo endoplasmático rugoso y otra del retículo endoplasmático liso (0,6 puntos). C) Explique por qué las mitocondrias contribuyen al proceso de secreción de la enzima (0,3 puntos).",
+   "solucion": "### Opción 4.1\n\nSe cuenta como cromosoma cada unidad con un centrómero; después de la fase S, cada cromosoma está formado por dos cromátidas.\n\n**A) Número de cromosomas y moléculas de ADN por célula**\n\n| Momento | Cromosomas por célula | Moléculas de ADN por célula |\n|---|---:|---:|\n| Final de la fase S | $8$ | $16$ |\n| Final de la meiosis I | $4$ | $8$ |\n| Final de la meiosis II | $4$ | $4$ |\n\nAl final de la fase S siguen existiendo $8$ cromosomas, pero cada uno tiene dos cromátidas, por lo que hay $16$ moléculas de ADN. Tras la meiosis I, cada célula recibe un cromosoma de cada pareja de homólogos: quedan $4$ cromosomas duplicados y $8$ moléculas de ADN. Tras la meiosis II, se separan las cromátidas hermanas; cada célula resultante tiene $4$ cromosomas de una cromátida y $4$ moléculas de ADN.\n\n**B) Cambios en la cantidad de ADN**\n\nDurante la fase S se replica el ADN: cada molécula se duplica y pasa a formar dos cromátidas hermanas. Por eso la cantidad de ADN pasa de $8$ a $16$ moléculas, aunque el número de cromosomas se mantiene en $8$.\n\nEn la meiosis I se separan los cromosomas homólogos de cada pareja. El ADN por célula se reduce de $16$ a $8$ moléculas y el número de cromosomas pasa de $8$ a $4$. En la meiosis II se separan las cromátidas hermanas, sin que haya una nueva fase S entre las dos divisiones; así, el ADN por célula se reduce de $8$ a $4$ moléculas. El número de cromosomas permanece en $4$, pues cada cromátida separada pasa a constituir un cromosoma.\n\n**C) Mantenimiento del número cromosómico**\n\nLa meiosis produce gametos haploides, con $n=4$ cromosomas. Al fusionarse dos gametos en la fecundación, se restablece el número diploide $2n=8$, propio de la especie.",
+   "resultado": "Final de S: 8 cromosomas y 16 moléculas de ADN; final de meiosis I: 4 y 8 por célula; final de meiosis II: 4 y 4 por célula.",
+   "criterios": "A) 1,0 punto: final de S (0,30; 0,15 por cada dato correcto), final de meiosis I por célula (0,35; reparto entre número de cromosomas y moléculas de ADN) y final de meiosis II por célula (0,35; reparto entre ambos datos). B) 0,8 puntos: explicar la duplicación del ADN en S y que no aumenta el número de cromosomas (0,20); separación de homólogos en meiosis I y reducción correspondiente por célula (0,30); separación de cromátidas hermanas en meiosis II, sin replicación intermedia, y reducción correspondiente (0,30). C) 0,2 puntos: indicar que la meiosis forma gametos haploides y que la fecundación restaura el número diploide de la especie.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "inmunologia",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Responda solo una opción. Opción 5.1. En una campaña de vacunación se mide la concentración de anticuerpos en sangre tras una primera dosis y una dosis de recuerdo. La respuesta posterior a la dosis de recuerdo es más rápida y alcanza una concentración de anticuerpos mayor. A) Explique la diferencia entre la respuesta inmunitaria primaria y la secundaria, incluyendo la participación de linfocitos B, células plasmáticas, anticuerpos y células de memoria (1,2 puntos). B) Indique si la respuesta descrita es humoral o celular y clasifique la inmunidad inducida por la vacunación según sea activa o pasiva y natural o artificial (0,5 puntos). C) Relacione la presencia de células de memoria con el resultado observado tras la dosis de recuerdo (0,3 puntos). Opción 5.2. En una instalación que trata aguas coloreadas se estudia una bacteria capaz de degradar un colorante. En condiciones controladas, el cultivo empieza con 200 bacterias y cada 20 minutos la población se duplica; durante una hora no hay muerte ni limitación de nutrientes. A) Calcule el número de bacterias al cabo de una hora (0,6 puntos). B) Indique si las bacterias son procariotas o eucariotas y mencione dos características celulares que justifiquen su clasificación (0,7 puntos). C) Defina biorremediación y explique por qué este uso de bacterias se considera una aplicación de la biotecnología ambiental (0,7 puntos).",
+   "solucion": "**Opción elegida: 5.2**\n\n### A) Número de bacterias\n\nEn una hora hay $60/20=3$ intervalos de duplicación. Siguiendo la población tras cada intervalo:\n\n- Inicio: 200 bacterias.\n- Tras 20 min: $200×2=400$.\n- Tras 40 min: $400×2=800$.\n- Tras 60 min: $800×2=1600$.\n\nPor tanto, al cabo de una hora habrá **1600 bacterias**.\n\n### B) Tipo celular\n\nLas bacterias son **procariotas**. Se justifica porque carecen de un núcleo delimitado por membrana y su ADN se encuentra en una región del citoplasma llamada nucleoide. Además, no poseen orgánulos membranosos, como mitocondrias o retículo endoplasmático.\n\n### C) Biorremediación y biotecnología ambiental\n\nLa **biorremediación** consiste en utilizar organismos vivos, como bacterias, o sus productos para degradar, transformar o eliminar contaminantes del medio. En este caso, las bacterias degradan un colorante presente en el agua; por ello, su empleo para tratar agua contaminada es una aplicación de la **biotecnología ambiental**, pues utiliza seres vivos para reducir la contaminación.\n\n### Comprobación\n\nEl cálculo exponencial confirma el resultado: hay tres duplicaciones, por lo que $N=200×2^3=1600$ bacterias.",
+   "resultado": "Opción 5.2: al cabo de una hora habrá 1600 bacterias; son procariotas y su uso para degradar el colorante es biorremediación aplicada a la biotecnología ambiental.",
+   "criterios": "A) 0,6 puntos: reconoce los tres intervalos de duplicación (0,2), aplica correctamente las duplicaciones (0,2) e indica el resultado con unidades (0,2). B) 0,7 puntos: clasificación como procariotas (0,2) y dos características celulares justificativas (0,25 cada una). C) 0,7 puntos: definición de biorremediación (0,4) y explicación de su aplicación ambiental al tratamiento del agua coloreada (0,3).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-23",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "molecular",
+   "p": 0.815
+  },
+  {
+   "id": "inmunologia",
+   "p": 0.732
+  },
+  {
+   "id": "biomoleculas",
+   "p": 0.699
+  },
+  {
+   "id": "division",
+   "p": 0.68
+  },
+  {
+   "id": "metabolismo",
+   "p": 0.674
+  },
+  {
+   "id": "genetica",
+   "p": 0.674
+  }
+ ],
+ "referencias": [
+  "https://www.um.es/documents/d/estudios/311-biologia-pau2026-junio-ejemplo-resueltorev-pdf",
+  "https://www.um.es/documents/d/estudios/pau2026-311-biologia-junio-pdf",
+  "https://www.um.es/documents/1083928/30934847/PAU+2025+311+BIOLOGI%CC%81A+Contenidos.pdf/3f039084-c133-1d32-7720-4962bedfe4f2?t=1731409203088",
+  "https://www.um.es/documents/d/estudios/311-biologia-1-pdf",
+  "https://www.um.es/documents/d/estudios/311-biologia-pau2026-junio-ejemplo-resueltorev-pdf",
+  "https://www.um.es/documents/d/estudios/311-biologia-pdf-1",
+  "https://www.um.es/documents/d/estudios/pau2026-311-biologia-ejemplo-de-examen-pdf"
+ ]
+}
