@@ -1,0 +1,129 @@
+{
+ "ccaa": "murcia",
+ "materia": "fisica",
+ "titulo": "Prueba de Acceso a la Universidad — 316 Física — PAU 2027 — Región de Murcia",
+ "duracion_min": 90,
+ "instrucciones": "Todas las preguntas del bloque 1 son obligatorias. En los bloques 2, 3 y 4, elija solo una de las dos opciones (A o B) de cada bloque; la elección es independiente en cada bloque. Si responde a más de una opción de un mismo bloque, solo se corregirá la primera que haya respondido. Indique en la hoja de respuestas el bloque y la opción elegida. La puntuación total es de 10 puntos.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "gravitacion",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Bloque 1: Campo gravitatorio [2 puntos]. Una sonda meteorológica de masa $m=1200\\ \\mathrm{kg}$ se coloca en una órbita circular alrededor de Marte para estudiar su atmósfera. a) [1p] Calcule su velocidad orbital a una altura de $300\\ \\mathrm{km}$ sobre la superficie marciana. b) [1p] La sonda pasa después a una órbita circular de altura $900\\ \\mathrm{km}$. Deduzca la expresión de la energía mecánica de un cuerpo en órbita circular y calcule la energía que debe suministrarse para realizar este cambio de órbita. Considere que solo actúa la gravedad de Marte. Datos: $GM_{\\mathrm{Marte}}=4.28\\times10^{13}\\ \\mathrm{m^3\\,s^{-2}}$; $R_{\\mathrm{Marte}}=3390\\ \\mathrm{km}$.",
+   "solucion": "### a) Velocidad orbital\n\nEl radio de la órbita es\n\n$$r_1=R_{\u0000\\mathrm{Marte}}+h_1=(3390+300)\\,\\mathrm{km}=3.690\\times10^6\\,\\mathrm{m}.$$\n\nEn una órbita circular, la fuerza gravitatoria proporciona la fuerza centrípeta:\n\n$$\\frac{GMm}{r_1^2}=\\frac{mv^2}{r_1}\n\\quad\\Longrightarrow\\quad\nv=\\sqrt{\\frac{GM}{r_1}}.$$\n\nPor tanto,\n\n$$v=\\sqrt{\\frac{4.28\\times10^{13}}{3.690\\times10^6}}\n=3.41\\times10^3\\,\\mathrm{m\\,s^{-1}}.$$\n\n### b) Energía mecánica y cambio de órbita\n\nTomando la energía potencial gravitatoria nula en el infinito, $U=-GMm/r$. Para una órbita circular, $v^2=GM/r$, por lo que la energía cinética es $K=\\frac12 mv^2=GMm/(2r)$. Así, la energía mecánica total resulta\n\n$$E=K+U=\\frac{GMm}{2r}-\\frac{GMm}{r}=-\\frac{GMm}{2r}.$$\n\nEl radio de la órbita final es\n\n$$r_2=R_{\u0000\\mathrm{Marte}}+h_2=(3390+900)\\,\\mathrm{km}=4.290\\times10^6\\,\\mathrm{m}.$$\n\nLa energía que debe suministrarse es el incremento de energía mecánica:\n\n$$\\Delta E=E_2-E_1=\\frac{GMm}{2}\\left(\\frac{1}{r_1}-\\frac{1}{r_2}\\right).$$\n\nSustituyendo los datos,\n\n$$\\Delta E=\\frac{(4.28\\times10^{13})(1200)}{2}\n\\left(\\frac{1}{3.690\\times10^6}-\\frac{1}{4.290\\times10^6}\\right)\n=9.73\\times10^8\\,\\mathrm{J}.$$\n\nEl resultado es positivo: hay que suministrar energía para pasar a la órbita más alta.",
+   "resultado": "a) $v=3.41\\times10^3\\,\\mathrm{m\\,s^{-1}}$; b) $\\Delta E=9.73\\times10^8\\,\\mathrm{J}$.",
+   "criterios": "Total: 2 puntos. a) 1 punto: 0,25 por expresar correctamente el radio orbital en unidades SI; 0,35 por plantear la igualdad entre fuerza gravitatoria y centrípeta y obtener $v=\\sqrt{GM/r}$; 0,40 por la sustitución numérica y el resultado con unidades. b) 1 punto: 0,50 por deducir la energía mecánica orbital $E=-GMm/(2r)$ a partir de las energías cinética y potencial; 0,25 por plantear correctamente $\\Delta E=E_2-E_1$ con los dos radios; 0,25 por el cálculo numérico, las unidades y reconocer que la energía suministrada es positiva.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2-A",
+   "tema": "electrico",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Bloque 2: Campo electromagnético [3 puntos]. Opción 2-A. En un dispositivo de calibración se fijan dos pequeñas esferas con carga $Q=+2.0\\ \\mathrm{\\mu C}$ en los puntos $x=-0.20\\ \\mathrm{m}$ y $x=+0.20\\ \\mathrm{m}$. Se coloca una partícula de carga $q=+1.0\\ \\mathrm{\\mu C}$ en el punto medio. a) [1.5p] Calcule el potencial eléctrico en el punto medio debido a las dos esferas. b) [1.5p] Determine el trabajo realizado por el campo eléctrico cuando la partícula se traslada desde el punto medio hasta el infinito. Dato: $k=1/(4\\pi\\varepsilon_0)=9.0\\times10^9\\ \\mathrm{N\\,m^2\\,C^{-2}}$.",
+   "solucion": "### a) Potencial eléctrico en el punto medio\n\nEl potencial es una magnitud escalar, por lo que se suman los potenciales debidos a las dos cargas. La distancia desde el punto medio a cada esfera es $r=0.20\\,\\mathrm{m}$:\n\n$$V=\\frac{kQ}{r}+\\frac{kQ}{r}=2\\frac{kQ}{r}.$$\n\nSustituyendo los datos:\n\n$$V=2\\frac{(9.0\\times10^9)(2.0\\times10^{-6})}{0.20}=1.8\\times10^5\\,\\mathrm{V}.$$\n\n### b) Trabajo realizado por el campo eléctrico\n\nEl trabajo del campo al trasladar la carga desde el potencial inicial $V_i$ hasta el potencial final $V_f$ es $W_{\\mathrm{campo}}=q(V_i-V_f)$. En el infinito, $V_f=0$, así que:\n\n$$W_{\\mathrm{campo}}=qV= (1.0\\times10^{-6})(1.8\\times10^5)=0.18\\,\\mathrm{J}.$$\n\nEl signo es positivo: la carga de prueba y las dos cargas fijas son positivas, por lo que el campo realiza trabajo positivo al alejar la partícula hasta el infinito.",
+   "resultado": "$V_{\\mathrm{medio}}=1.8\\times10^5\\,\\mathrm{V}$; $W_{\\mathrm{campo}}=+0.18\\,\\mathrm{J}$.",
+   "criterios": "a) [1,5 puntos] Identificación de que el potencial es escalar y suma de las contribuciones de ambas cargas: 0,5 puntos. Uso correcto de la distancia r=0,20 m y de la expresión V=kQ/r: 0,5 puntos. Resultado V=1,8×10^5 V, con unidad: 0,5 puntos. b) [1,5 puntos] Relación correcta entre trabajo del campo y diferencia de potencial, W_campo=q(V_i−V_f): 0,75 puntos. Consideración de V_f=0 en el infinito y sustitución numérica: 0,5 puntos. Resultado W_campo=+0,18 J, con signo y unidad: 0,25 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2-B",
+   "tema": "magnetico",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Bloque 2: Campo electromagnético [3 puntos]. Opción 2-B. Una bobina de $50$ espiras, cada una cuadrada de lado $0.10\\ \\mathrm{m}$, forma parte de un pequeño generador de emergencia. Está situada en el plano $xy$ y sometida a un campo magnético uniforme perpendicular a dicho plano, dirigido según $+z$, cuyo módulo varía como $B(t)=0.20+0.040t$, con $B$ en teslas y $t$ en segundos. La resistencia total de la bobina es $2.0\\ \\mathrm{\\Omega}$. a) [1.5p] Calcule el módulo de la fuerza electromotriz inducida y la intensidad de corriente. b) [1.5p] Determine el sentido de la corriente inducida, visto desde el semieje $+z$, y justifíquelo mediante la ley de Lenz.",
+   "solucion": "### a) Fuerza electromotriz e intensidad\n\nEl área de cada espira cuadrada es $A=(0.10\\,\\mathrm{m})^2=1.0\\times10^{-2}\\,\\mathrm{m^2}$. Como el campo es perpendicular al plano de la bobina, el flujo magnético por espira es $\\Phi_B(t)=B(t)A$. La ley de Faraday da, para una bobina de $N=50$ espiras,\n\n$$|\\mathcal{E}|=N\\left|\\frac{d\\Phi_B}{dt}\\right|=NA\\left|\\frac{dB}{dt}\\right|.$$\n\nDe $B(t)=0.20+0.040t$ se obtiene $dB/dt=0.040\\,\\mathrm{T\\,s^{-1}}$. Por tanto,\n\n$$|\\mathcal{E}|=50(1.0\\times10^{-2})(0.040)=2.0\\times10^{-2}\\,\\mathrm{V}.$$\n\nAplicando la ley de Ohm a la resistencia total de la bobina,\n\n$$I=\\frac{|\\mathcal{E}|}{R}=\\frac{2.0\\times10^{-2}}{2.0}=1.0\\times10^{-2}\\,\\mathrm{A}.$$\n\n### b) Sentido de la corriente\n\nEl flujo externo dirigido según $+z$ está aumentando. Por la ley de Lenz, la corriente inducida genera un campo magnético que se opone a ese aumento; por tanto, el campo inducido apunta según $-z$. Según la regla de la mano derecha, para generar un campo hacia $-z$ la corriente debe circular en sentido horario vista desde el semieje $+z$.",
+   "resultado": "|𝓔| = 0,020 V; I = 0,010 A; corriente en sentido horario vista desde +z.",
+   "criterios": "a) 1,5 puntos: 0,5 por calcular el área de una espira y aplicar correctamente la ley de Faraday a las 50 espiras; 0,5 por obtener |𝓔| = 0,020 V; 0,5 por aplicar la ley de Ohm y obtener I = 0,010 A. b) 1,5 puntos: 0,75 por justificar mediante la ley de Lenz que el campo inducido apunta hacia −z, al oponerse al aumento del flujo externo; 0,75 por deducir correctamente que la corriente es horaria vista desde +z, usando la regla de la mano derecha.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3-A",
+   "tema": "ondas",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Bloque 3: Vibraciones y ondas [3 puntos]. Opción 3-A. Un sensor instalado en el cable de una pasarela registra una onda transversal descrita por $y(x,t)=0.020\\cos(2\\pi x-4\\pi t)\\ \\mathrm{m}$, donde $x$ se expresa en metros y $t$ en segundos. a) [1.5p] Determine la longitud de onda, la frecuencia y la velocidad de propagación, indicando el sentido en que avanza la onda. b) [1.5p] Calcule la velocidad transversal máxima de un punto del cable y la diferencia de fase entre dos puntos separados $0.25\\ \\mathrm{m}$ en un mismo instante.",
+   "solucion": "### Datos e identificación de parámetros\n\nComparando la expresión dada con la forma $y(x,t)=A\\cos(kx-\\omega t)$, se obtiene $A=0.020\\,\\mathrm{m}$, $k=2\\pi\\,\\mathrm{rad\\,m^{-1}}$ y $\\omega=4\\pi\\,\\mathrm{rad\\,s^{-1}}$.\n\n### a) Longitud de onda, frecuencia y velocidad de propagación\n\nLa longitud de onda es $\\lambda=\\frac{2\\pi}{k}=\\frac{2\\pi}{2\\pi}=1.0\\,\\mathrm{m}$.\n\nLa frecuencia es $f=\\frac{\\omega}{2\\pi}=\\frac{4\\pi}{2\\pi}=2.0\\,\\mathrm{Hz}$.\n\nLa velocidad de propagación tiene módulo $v=\\frac{\\omega}{k}=\\frac{4\\pi}{2\\pi}=2.0\\,\\mathrm{m\\,s^{-1}}$. Como la fase $kx-\\omega t$ constante se desplaza hacia valores crecientes de $x$, la onda avanza en el sentido positivo del eje $x$.\n\n### b) Velocidad transversal máxima y diferencia de fase\n\nLa velocidad transversal de un punto del cable es $v_y=\\frac{\\partial y}{\\partial t}=A\\omega\\sin(kx-\\omega t)$. Por tanto, su valor máximo en módulo es $v_{y,\\max}=A\\omega=0.020\\cdot4\\pi=0.08\\pi\\,\\mathrm{m\\,s^{-1}}\\approx0.251\\,\\mathrm{m\\,s^{-1}}$.\n\nPara dos puntos separados $\\Delta x=0.25\\,\\mathrm{m}$ en un mismo instante, la diferencia de fase en módulo es $|\\Delta\\phi|=k\\Delta x=2\\pi\\cdot0.25=\\frac{\\pi}{2}\\,\\mathrm{rad}$. Si el segundo punto está en la dirección de $x$ creciente respecto del primero, entonces $\\phi_2-\\phi_1=\\frac{\\pi}{2}\\,\\mathrm{rad}$.",
+   "resultado": "$\\lambda=1.0\\,\\mathrm{m}$; $f=2.0\\,\\mathrm{Hz}$; $v=2.0\\,\\mathrm{m\\,s^{-1}}$ hacia $+x$; $v_{y,\\max}\\approx0.251\\,\\mathrm{m\\,s^{-1}}$; $|\\Delta\\phi|=\\frac{\\pi}{2}\\,\\mathrm{rad}$.",
+   "criterios": "Total: 3 puntos. a) 1,5 puntos: 0,5 por obtener la longitud de onda mediante $\\lambda=2\\pi/k$; 0,5 por obtener la frecuencia mediante $f=\\omega/(2\\pi)$; 0,5 por calcular el módulo de la velocidad de propagación mediante $v=\\omega/k$ e indicar correctamente que la onda avanza hacia $+x$. b) 1,5 puntos: 0,75 por derivar respecto del tiempo y calcular $v_{y,\\max}=A\\omega$ con unidades; 0,75 por usar $|\\Delta\\phi|=k\\Delta x$ y obtener la diferencia de fase en radianes.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3-B",
+   "tema": "optica",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Bloque 3: Vibraciones y ondas [3 puntos]. Opción 3-B. Una cámara de inspección de una línea de reciclaje utiliza una lente delgada convergente de distancia focal $f=+12\\ \\mathrm{cm}$. Un objeto pequeño se sitúa a $36\\ \\mathrm{cm}$ delante de la lente. Use el criterio de signos cartesiano habitual, con distancias negativas a la izquierda de la lente y positivas a la derecha. a) [1.5p] Calcule la posición de la imagen. b) [1.5p] Determine el aumento lateral y describa si la imagen es real o virtual, derecha o invertida, y mayor o menor que el objeto.",
+   "solucion": "### a) Posición de la imagen\n\nCon el criterio cartesiano indicado, la distancia del objeto es $s_o=-36\\,\\mathrm{cm}$ y la distancia focal de la lente convergente es $f=+12\\,\\mathrm{cm}$. La ecuación de la lente delgada es\n\n$$\\frac{1}{f}=\\frac{1}{s_i}-\\frac{1}{s_o}.$$\n\nSustituyendo los datos:\n\n$$\\frac{1}{12}=\\frac{1}{s_i}-\\frac{1}{-36}=\\frac{1}{s_i}+\\frac{1}{36},$$\n\n$$\\frac{1}{s_i}=\\frac{1}{12}-\\frac{1}{36}=\\frac{1}{18}.$$\n\nPor tanto, $s_i=+18\\,\\mathrm{cm}$. La imagen se forma $18\\,\\mathrm{cm}$ a la derecha de la lente.\n\n### b) Aumento y características de la imagen\n\nEl aumento lateral, con este criterio de signos, es\n\n$$m=\\frac{s_i}{s_o}=\\frac{+18}{-36}=-0.50.$$\n\nEl signo negativo indica que la imagen es invertida. Como $s_i>0$, es real; y como $|m|=0.50<1$, es menor que el objeto: su tamaño es la mitad.",
+   "resultado": "a) s_i=+18 cm. b) m=-0.50; imagen real, invertida y menor que el objeto.",
+   "criterios": "Total: 3 puntos. a) 1,5 puntos: 0,5 por aplicar correctamente la ecuación de la lente con el criterio cartesiano y asignar s_o=-36 cm; 0,75 por despejar y obtener s_i=+18 cm; 0,25 por indicar que la imagen queda a la derecha. b) 1,5 puntos: 0,75 por calcular m=s_i/s_o=-0,50; 0,25 por identificarla como real (s_i>0); 0,25 por identificarla como invertida (m<0); 0,25 por indicar que es menor (|m|<1).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4-A",
+   "tema": "moderna",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Bloque 4: Física relativista, cuántica, nuclear y de partículas [2 puntos]. Opción 4-A. Un fotodetector de una estación de vigilancia ambiental incorpora un material cuya función de trabajo es $2.0\\ \\mathrm{eV}$. Se ilumina con radiación de longitud de onda $400\\ \\mathrm{nm}$. a) [1p] Calcule la velocidad máxima de los fotoelectrones emitidos. b) [1p] Determine el potencial de frenado necesario para detenerlos. Datos: $h=6.63\\times10^{-34}\\ \\mathrm{J\\,s}$; $c=3.00\\times10^8\\ \\mathrm{m\\,s^{-1}}$; $m_e=9.11\\times10^{-31}\\ \\mathrm{kg}$; $1\\ \\mathrm{eV}=1.60\\times10^{-19}\\ \\mathrm{J}$; $|e|=1.60\\times10^{-19}\\ \\mathrm{C}$.",
+   "solucion": "### a) Velocidad máxima de los fotoelectrones\n\nLa energía del fotón incidente es\n\n$$E_\\gamma=\\frac{hc}{\\lambda}=\\frac{(6.63\\times10^{-34})(3.00\\times10^8)}{400\\times10^{-9}}=4.9725\\times10^{-19}\\ \\mathrm{J}=3.1078\\ \\mathrm{eV}.$$\n\nComo $E_\\gamma>\\phi=2.0\\ \\mathrm{eV}$, se produce emisión. Por la ecuación de Einstein del efecto fotoeléctrico,\n\n$$K_{\\max}=E_\\gamma-\\phi=1.1078\\ \\mathrm{eV}=1.7725\\times10^{-19}\\ \\mathrm{J}.$$\n\nIgualando esta energía cinética a la expresión clásica de la energía cinética,\n\n$$K_{\\max}=\\frac{1}{2}m_e v_{\\max}^2,\\qquad v_{\\max}=\\sqrt{\\frac{2K_{\\max}}{m_e}}=6.238\\times10^5\\ \\mathrm{m\\,s^{-1}}.$$\n\n### b) Potencial de frenado\n\nEl potencial de frenado en valor absoluto satisface $|e|V_f=K_{\\max}$. Por tanto,\n\n$$V_f=\\frac{K_{\\max}}{|e|}=\\frac{1.7725\\times10^{-19}}{1.60\\times10^{-19}}=1.108\\ \\mathrm{V}.$$\n\nSe necesita, por tanto, un potencial de frenado de aproximadamente $1.11\\ \\mathrm{V}$ (con la polaridad que se opone al movimiento de los fotoelectrones).",
+   "resultado": "a) $v_{\\max}=6.24\\times10^5\\ \\mathrm{m\\,s^{-1}}$; b) $V_f=1.11\\ \\mathrm{V}$.",
+   "criterios": "Total: 2 puntos. a) 1 punto: cálculo correcto de la energía del fotón y comprobación de que supera la función de trabajo (0,25); cálculo de la energía cinética máxima (0,25); aplicación de $K_{\\max}=\\frac12m_ev_{\\max}^2$ y resultado con unidades (0,50). b) 1 punto: relación correcta $|e|V_f=K_{\\max}$ y resultado numérico con unidades y polaridad de frenado adecuada (1,00).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4-B",
+   "tema": "moderna",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Bloque 4: Física relativista, cuántica, nuclear y de partículas [2 puntos]. Opción 4-B. a) [1p] El núcleo de deuterio está formado por un protón y un neutrón. Calcule su energía de enlace por nucleón a partir de las masas proporcionadas. Datos: $m_p=1.0073\\ \\mathrm{u}$; $m_n=1.0087\\ \\mathrm{u}$; masa del núcleo de deuterio $m_d=2.0136\\ \\mathrm{u}$; $1\\ \\mathrm{u}\\,c^2=931.5\\ \\mathrm{MeV}$. b) [1p] Clasifique el electrón y el fotón indicando para cada uno si es fermión o bosón y si es una partícula de materia o un mediador de interacción.",
+   "solucion": "### a) Energía de enlace por nucleón\n\nEl defecto de masa del núcleo de deuterio es\n\n$$\\Delta m=m_p+m_n-m_d=1.0073+1.0087-2.0136=0.0024\\ \\mathrm{u}.$$\n\nLa energía de enlace total resulta\n\n$$E_b=\\Delta m c^2=0.0024\\times 931.5=2.2356\\ \\mathrm{MeV}.$$\n\nComo el núcleo contiene dos nucleones, la energía de enlace por nucleón es\n\n$$\\frac{E_b}{A}=\\frac{2.2356}{2}=1.1178\\ \\mathrm{MeV/nucleón}\\approx 1.12\\ \\mathrm{MeV/nucleón}.$$\n\n### b) Clasificación\n\n- El electrón es un **fermión** y una **partícula de materia**.\n- El fotón es un **bosón** y un **mediador de la interacción electromagnética**.",
+   "resultado": "Energía de enlace del deuterio: $2.2356\\ \\mathrm{MeV}$; energía de enlace por nucleón: $1.1178\\ \\mathrm{MeV/nucleón}\\approx 1.12\\ \\mathrm{MeV/nucleón}$. El electrón es fermión y partícula de materia; el fotón es bosón y mediador de la interacción electromagnética.",
+   "criterios": "Total: 2 puntos. a) 1 punto: 0,3 por calcular correctamente el defecto de masa; 0,4 por obtener la energía de enlace total mediante $E_b=\\Delta m c^2$; 0,3 por dividir entre dos nucleones y expresar correctamente la energía de enlace por nucleón. b) 1 punto: 0,5 por clasificar correctamente el electrón (fermión y partícula de materia) y 0,5 por clasificar correctamente el fotón (bosón y mediador de la interacción electromagnética). Se aceptan resultados redondeados coherentes.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-23",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "gravitacion",
+   "p": 0.677
+  },
+  {
+   "id": "ondas",
+   "p": 0.609
+  },
+  {
+   "id": "moderna",
+   "p": 0.609
+  },
+  {
+   "id": "electrico",
+   "p": 0.592
+  },
+  {
+   "id": "optica",
+   "p": 0.592
+  },
+  {
+   "id": "magnetico",
+   "p": 0.545
+  }
+ ],
+ "referencias": [
+  "https://www.um.es/documents/d/estudios/pau2026-316-fisica-junio-pdf",
+  "https://www.um.es/documents/d/estudios/316-fisica-1-pdf",
+  "https://www.um.es/documents/d/estudios/316-fisica-1-pdf",
+  "https://www.um.es/documents/d/estudios/pau2026-316-fisica-ejemplo-de-examen-pdf",
+  "https://www.um.es/documents/d/estudios/pau2026-316-fisica-junio-pdf"
+ ]
+}
