@@ -1,0 +1,107 @@
+{
+ "ccaa": "murcia",
+ "materia": "matematicas2",
+ "titulo": "Propuesta original de examen PAU 2027 — Matemáticas II — Región de Murcia",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cinco preguntas, con una puntuación máxima de 2 puntos cada una. Las preguntas 1, 2 y 3 son obligatorias. En las preguntas 4 y 5 se debe contestar únicamente una de las dos opciones; si se responden ambas, solo se corregirá la primera. Las preguntas pueden contestarse en cualquier orden. Se pueden usar las tablas estadísticas adjuntas, pero no calculadoras gráficas ni programables.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "sistemas",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Un centro de almacenamiento reparte una carga entre tres módulos: $x$, $y$ y $z$ son las unidades asignadas a cada uno y se consideran no negativas. La carga total es de 10 unidades. Un primer índice, que asigna pesos 1, 2 y 3 a los módulos, toma el valor 18. Un segundo índice suma el doble de la carga del primer módulo, el triple de la del segundo y $t$ veces la del tercero, y toma el valor 28, donde $t>0$ es un parámetro de calibración. a) (0,5 puntos) Plantee el sistema que representa la situación. b) (1,5 puntos) Discuta el sistema según los valores de $t$, usando el determinante de la matriz de coeficientes, y resuélvalo en los casos en que tenga solución. Si hay infinitas soluciones, indique cuáles son físicamente admisibles.",
+   "solucion": "### a) Planteamiento\nSean $x,y,z\\ge 0$ las unidades asignadas a los tres módulos. Las condiciones del enunciado dan el sistema\n$$\n\\begin{cases}\nx+y+z=10,\\\\\nx+2y+3z=18,\\\\\n2x+3y+tz=28.\n\\end{cases}\n$$\n\n### b) Discusión y resolución\nLa matriz de coeficientes es\n$$\nA=\\begin{pmatrix}1&1&1\\\\1&2&3\\\\2&3&t\\end{pmatrix},\n$$\ny su determinante vale\n$$\n\\det A=1(2t-9)-1(t-6)+1(3-4)=t-4.\n$$\nPor tanto, si $t\\ne 4$, el sistema tiene solución única. Para obtenerla, restamos la primera ecuación de la segunda y el doble de la primera de la tercera:\n$$\n\\begin{cases}\ny+2z=8,\\\\\ny+(t-2)z=8.\n\\end{cases}\n$$\nAl restar estas ecuaciones resulta $(t-4)z=0$. Si $t\\ne4$, se obtiene $z=0$; entonces $y=8$ y, por la primera ecuación, $x=2$. Así, para todo $t>0$ con $t\\ne4$,\n$$\n(x,y,z)=(2,8,0),\n$$\nque es físicamente admisible.\n\nSi $t=4$, el determinante es nulo. Además, la tercera ecuación es la suma de las dos primeras, también en su término independiente, por lo que el sistema es compatible indeterminado. Tomando $z=s$, las ecuaciones reducidas dan\n$$\ny=8-2s,\\qquad x=2+s.\n$$\nLa no negatividad exige $s\\ge0$ y $8-2s\\ge0$, es decir, $0\\le s\\le4$; $x=2+s$ ya es no negativo en ese intervalo. Por tanto, las soluciones físicamente admisibles son\n$$\n(x,y,z)=(2+s,\\,8-2s,\\,s),\\qquad 0\\le s\\le4.\n$$\n\n### Comprobación\nPara $t\\ne4$, $(2,8,0)$ verifica las tres ecuaciones: $2+8+0=10$, $2+2\\cdot8+3\\cdot0=18$ y $2\\cdot2+3\\cdot8+t\\cdot0=28$. Para $t=4$, al sustituir la familia se obtiene $x+y+z=10$, $x+2y+3z=18$ y $2x+3y+4z=28$ para todo $s\\in[0,4]$.",
+   "resultado": "Si $t>0$ y $t\\ne4$, $(x,y,z)=(2,8,0)$. Si $t=4$, $(x,y,z)=(2+s,8-2s,s)$, con $0\\le s\\le4$.",
+   "criterios": "a) 0,5 puntos: 0,5 por plantear correctamente el sistema. b) 1,5 puntos: 0,4 por calcular el determinante y señalar el valor crítico; 0,4 por obtener y clasificar la solución para $t\\ne4$; 0,4 por justificar la compatibilidad y parametrizar las soluciones cuando $t=4$; 0,3 por aplicar la no negatividad y comprobar los resultados.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "derivadas",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Un centro vecinal quiere habilitar un espacio rectangular junto a un muro ya existente. Para cerrar los otros tres lados dispone de 24 metros de valla. Si $x$ es la longitud de cada lado perpendicular al muro e $y$ la del lado paralelo, determine las dimensiones que maximizan el área del recinto y calcule dicha área máxima. (0,75 puntos por plantear la función de área y su dominio; 1,25 puntos por justificar y calcular el máximo.)",
+   "solucion": "Sea $x$ la longitud de cada lado perpendicular al muro y $y$ la del lado paralelo. Como solo se valla el lado paralelo y los dos perpendiculares, la longitud total de valla cumple\n\n$$2x+y=24.$$\n\nPor tanto, $y=24-2x$. Para que el recinto tenga dimensiones positivas, $x>0$ e $y>0$, de donde $0<x<12$.\n\nEl área es $A=xy$, así que, expresada en función de $x$,\n\n$$A(x)=x(24-2x)=24x-2x^2,\\qquad 0<x<12.$$\n\nBuscamos los puntos críticos:\n\n$$A'(x)=24-4x=0\\quad\\Longrightarrow\\quad x=6.$$\n\nEste valor pertenece al dominio y $A''(x)=-4<0$, por lo que la función es cóncava y el punto crítico da un máximo. Así, $y=24-2\\cdot 6=12$ metros y el área máxima es\n\n$$A(6)=6\\cdot 12=72\\text{ m}^2.$$\n\nLas dimensiones que maximizan el área son $6$ m para cada lado perpendicular al muro y $12$ m para el lado paralelo.",
+   "resultado": "x = 6 m, y = 12 m; área máxima = 72 m².",
+   "criterios": "Total: 2 puntos. Planteamiento de la función y dominio (0,75): 0,25 por establecer correctamente la restricción 2x+y=24; 0,25 por expresar el área como A(x)=24x−2x²; 0,25 por indicar el dominio físico 0<x<12. Justificación y cálculo del máximo (1,25): 0,50 por obtener el punto crítico x=6; 0,50 por justificar que es un máximo (por ejemplo, mediante A''(x)=−4<0); 0,25 por calcular y=12 m y el área máxima de 72 m².",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "geometria",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En un modelo tridimensional, un haz de inspección sigue la recta $r:(x,y,z)=\\lambda(1,1,1)$ y atraviesa una pantalla cuyo plano es $\\pi:x+2y-z-2=0$. a) (0,5 puntos) Estudie la posición relativa de la recta y el plano. b) (0,75 puntos) Calcule el punto de intersección. c) (0,75 puntos) Calcule el ángulo agudo que forman la recta y el plano.",
+   "solucion": "### a) Posición relativa\n\nLa recta tiene vector director $\\vec v=(1,1,1)$ y el plano tiene vector normal $\\vec n=(1,2,-1)$. Como $\\vec v\\cdot\\vec n=1+2-1=2\\ne 0$, la recta no es paralela al plano ni está contenida en él. Por tanto, son **secantes**.\n\n### b) Punto de intersección\n\nSustituimos $x=y=z=\\lambda$ en la ecuación del plano:\n\n$$\\lambda+2\\lambda-\\lambda-2=0\\quad\\Longrightarrow\\quad 2\\lambda-2=0\\quad\\Longrightarrow\\quad \\lambda=1.$$\n\nAsí, el punto de intersección es $P=(1,1,1)$.\n\n### c) Ángulo agudo entre la recta y el plano\n\nSi $\\alpha$ es el ángulo entre la recta y el plano, se cumple\n\n$$\\sin\\alpha=\\frac{|\\vec v\\cdot\\vec n|}{\\|\\vec v\\|\\,\\|\\vec n\\|}.$$\n\nComo $\\|\\vec v\\|=\\sqrt{3}$ y $\\|\\vec n\\|=\\sqrt{6}$,\n\n$$\\sin\\alpha=\\frac{2}{\\sqrt{3}\\sqrt{6}}=\\frac{\\sqrt{2}}{3}.$$\n\nPor tanto,\n\n$$\\alpha=\\arcsin\\left(\\frac{\\sqrt{2}}{3}\\right)\\approx 28.1255^\\circ.$$\n\n",
+   "resultado": "Recta secante; $P=(1,1,1)$; $\\alpha=\\arcsin(\\sqrt{2}/3)\\approx 28.1255^\\circ$.",
+   "criterios": "Total: 2 puntos. a) 0,5 puntos: identifica el vector director y el normal, comprueba que su producto escalar es distinto de cero y concluye que la recta y el plano son secantes. b) 0,75 puntos: sustituye la parametrización en el plano (0,5 puntos) y obtiene correctamente el punto de intersección $P=(1,1,1)$ (0,25 puntos). c) 0,75 puntos: aplica correctamente la relación entre el ángulo recta-plano y el vector normal, incluyendo las normas (0,5 puntos), y da el valor exacto o su aproximación en grados (0,25 puntos).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "integrales",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Conteste solo una de las dos opciones. 4.1) Durante la calibración de un sensor, su respuesta viene dada por $g(u)=\\frac{u^2-9}{u-3}$ si $u\\ne3$, y por $g(3)=k$. a) (1,25 puntos) Calcule $\\lim_{u\\to3}g(u)$ y determine el valor de $k$ para que la respuesta sea continua en $u=3$. b) (0,75 puntos) Calcule $\\lim_{u\\to+\\infty}\\frac{g(u)}{u}$. 4.2) El perfil de una sección de una zona ajardinada, respecto a una línea de referencia horizontal, está descrito por $h(x)=x^2-1$ para $0\\le x\\le2$. a) (0,5 puntos) Calcule una primitiva de $h$. b) (1,5 puntos) Calcule el área total comprendida entre el perfil, la línea de referencia y las rectas verticales $x=0$ y $x=2$.",
+   "solucion": "### Opción 4.1\n\n**a)** Para $u\\ne3$, factorizamos el numerador:\n\n$$g(u)=\\frac{u^2-9}{u-3}=\\frac{(u-3)(u+3)}{u-3}=u+3.$$\n\nPor tanto,\n\n$$\\lim_{u\\to3}g(u)=\\lim_{u\\to3}(u+3)=6.$$\n\nPara que $g$ sea continua en $u=3$, debe cumplirse $g(3)=\\lim_{u\\to3}g(u)$. Así, $k=6$.\n\n**b)** Para $u\\ne3$,\n\n$$\\frac{g(u)}{u}=\\frac{u+3}{u}=1+\\frac{3}{u},$$\n\ny, por consiguiente,\n\n$$\\lim_{u\\to+\\infty}\\frac{g(u)}{u}=1.$$",
+   "resultado": "4.1: $\\lim_{u\\to3}g(u)=6$, $k=6$ y $\\lim_{u\\to+\\infty}\\frac{g(u)}{u}=1$.",
+   "criterios": "Total: 2 puntos. a) 1,25 puntos: 0,50 por factorizar $u^2-9=(u-3)(u+3)$ y simplificar para $u\\ne3$; 0,35 por calcular correctamente el límite, que es 6; 0,40 por aplicar la condición de continuidad y concluir que $k=6$. b) 0,75 puntos: 0,35 por obtener $g(u)/u=1+3/u$ para $u\\ne3$; 0,40 por calcular el límite cuando $u\\to+\\infty$ y obtener 1.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "probabilidad",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Conteste solo una de las dos opciones. 5.1) Una planta fabrica componentes con tres líneas. La línea A produce el 40 % del total y el 1 % de sus componentes es defectuoso; la línea B produce el 35 % y el 2 % es defectuoso; la línea C produce el 25 % y el 4 % es defectuoso. Se elige un componente al azar. a) (0,75 puntos) Calcule la probabilidad de que sea defectuoso. b) (0,75 puntos) Sabiendo que es defectuoso, calcule la probabilidad de que proceda de la línea B. c) (0,5 puntos) Calcule la probabilidad de que un componente de la línea C no sea defectuoso. 5.2) En una planta, el 10 % de los componentes producidos es defectuoso. Se supone que la selección de componentes es independiente. a) (0,75 puntos) Calcule la probabilidad de que, entre 10 componentes elegidos al azar, haya exactamente 2 defectuosos. b) (1,25 puntos) Para una muestra de 100 componentes, aproxime mediante una distribución normal la probabilidad de que haya al menos 15 defectuosos, aplicando la corrección de continuidad.",
+   "solucion": "### Opción 5.1\n\nSea $D$ el suceso «el componente es defectuoso» y sean $A$, $B$ y $C$ los sucesos «procede de la línea A, B o C», respectivamente.\n\n**a) Probabilidad de que sea defectuoso**\n\nPor la fórmula de la probabilidad total:\n\n$$\nP(D)=P(A)P(D\\mid A)+P(B)P(D\\mid B)+P(C)P(D\\mid C).\n$$\n\nSustituyendo los datos:\n\n$$\nP(D)=0{,}40\\cdot0{,}01+0{,}35\\cdot0{,}02+0{,}25\\cdot0{,}04\n=0{,}004+0{,}007+0{,}010=0{,}021.\n$$\n\n**b) Probabilidad de que proceda de B sabiendo que es defectuoso**\n\nAplicando la fórmula de Bayes:\n\n$$\nP(B\\mid D)=\\frac{P(B)P(D\\mid B)}{P(D)}\n=\\frac{0{,}35\\cdot0{,}02}{0{,}021}\n=\\frac{0{,}007}{0{,}021}=\\frac{1}{3}.\n$$\n\n**c) Probabilidad de que un componente de C no sea defectuoso**\n\n$$\nP(\\overline D\\mid C)=1-P(D\\mid C)=1-0{,}04=0{,}96.\n$$",
+   "resultado": "a) 0,021; b) 1/3; c) 0,96.",
+   "criterios": "Puntuación total: 2 puntos. a) 0,75 puntos: planteamiento correcto de la probabilidad total (0,25) y cálculo del resultado 0,021 (0,50). b) 0,75 puntos: identificación de la probabilidad conjunta P(B∩D)=0,35·0,02 (0,25) y aplicación correcta de Bayes con resultado 1/3 (0,50). c) 0,50 puntos: uso del suceso complementario 1−0,04 (0,25) y resultado 0,96 (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-23",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "matrices",
+   "p": 0.877
+  },
+  {
+   "id": "geometria",
+   "p": 0.818
+  },
+  {
+   "id": "integrales",
+   "p": 0.818
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.818
+  },
+  {
+   "id": "sistemas",
+   "p": 0.759
+  },
+  {
+   "id": "limites",
+   "p": 0.719
+  }
+ ],
+ "referencias": [
+  "https://www.um.es/documents/d/estudios/306-matematicas-ii-pau-2026-junio-examen-resuelto-v2-pdf",
+  "https://www.um.es/documents/d/estudios/pau2026-306-matematicas-ii-jemplo-de-examen-pdf",
+  "https://www.um.es/documents/1083928/30935670/PAU+2025+306+MATEMA%CC%81TICAS+II+Modelo+de+examen.pdf/e5e24f0a-2bf9-190f-1f33-7d51ad90df49?t=1732021339135",
+  "https://www.um.es/documents/d/estudios/306-matematicas-ii-1-pdf",
+  "https://www.um.es/documents/d/estudios/306-matematicas-ii-pau-2026-junio-examen-resuelto-v2-pdf",
+  "https://www.um.es/documents/d/estudios/306-matematicas-ii-pdf-1",
+  "https://www.um.es/documents/d/estudios/306-matematicas-ii-resuelto-pdf-1"
+ ]
+}
