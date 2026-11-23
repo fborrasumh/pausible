@@ -1,0 +1,91 @@
+{
+ "ccaa": "madrid",
+ "materia": "dibujo",
+ "titulo": "PAU 2027 Comunidad de Madrid — Dibujo Técnico II (modelo original orientativo)",
+ "duracion_min": 90,
+ "instrucciones": "Responda gráficamente a las preguntas 1, 2 y 3, eligiendo una sola de las dos opciones de cada pregunta, y a la pregunta 4, que es obligatoria. Si responde a las dos opciones de una pregunta, solo se calificará la primera. Delinee a lápiz y conserve las construcciones auxiliares. Salvo indicación expresa, las medidas están en milímetros. Justifique gráficamente las construcciones cuando proceda.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "geometriaplana",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Responda únicamente a una de las dos opciones.\n\nA) En el diseño de un pavimento, una inversión de centro $O=(0,0)$ y potencia $400\\ \\mathrm{mm}^2$ transforma una circunferencia $c$ de centro $C=(20,0)$ y radio $20$. Sean $A=(20,20)$ y $B=(20,-20)$, y considérese el arco de $c$ que une $A$ con $B$ pasando por $T=(40,0)$. Construya el arco homólogo de $AB$, indique sus extremos y exponga el fundamento de la construcción.\n\nB) Una plantilla ovalada se define mediante una elipse de centro $O=(0,0)$ cuyos diámetros conjugados tienen extremos $A=(-30,-24)$, $B=(30,24)$, $C=(40,-18)$ y $D=(-40,18)$. Determine y dibuje sus ejes principales y sus focos, y complete el trazado de la elipse.",
+   "solucion": "### Opción A\n\nSea $P=(x,y)$ un punto distinto de $O$ y $P'=(x',y')$ su inverso respecto de la inversión de potencia $k=400\\ \\mathrm{mm}^2$. Se cumple\n\n$$OP\\cdot OP'=400,\\qquad P'\\in\\overrightarrow{OP},$$\n\npor lo que\n\n$$x'=\\frac{400x}{x^2+y^2},\\qquad y'=\\frac{400y}{x^2+y^2}.$$\n\nLa circunferencia dada tiene ecuación\n\n$$c:\\ (x-20)^2+y^2=20^2\\quad\\Longleftrightarrow\\quad x^2+y^2=40x.$$\n\nAl sustituir en la expresión de la coordenada $x'$ de los puntos de $c$ distintos de $O$, se obtiene $x'=400x/(40x)=10$. Por tanto, la circunferencia se transforma en la recta $x'=10$, perpendicular a $OC$.\n\nCalculamos las imágenes de los extremos:\n\n$$OA^2=20^2+20^2=800,\\qquad A'=\\left(\\frac{400\\cdot20}{800},\\frac{400\\cdot20}{800}\\right)=(10,10),$$\n\n$$OB^2=20^2+(-20)^2=800,\\qquad B'=\\left(\\frac{400\\cdot20}{800},\\frac{400\\cdot(-20)}{800}\\right)=(10,-10).$$\n\nComo comprobación, $T=(40,0)$ se transforma en $T'=(10,0)$, que pertenece al segmento $A'B'$. El arco considerado no contiene el centro de inversión; su imagen es, por tanto, el segmento de la recta imagen comprendido entre las imágenes de sus extremos.\n\n**Construcción:**\n\n1. Dibujar $OC$ y reconocer que $O$ pertenece a $c$, pues $OC=20$, igual al radio.\n2. Sobre las semirrectas $OA$ y $OB$, situar $A'$ y $B'$ respectivamente cumpliendo $OA\\cdot OA'=OB\\cdot OB'=400$. Como $OA=OB=20\\sqrt{2}$, resulta $OA'=OB'=10\\sqrt{2}$.\n3. Unir $A'$ y $B'$. La recta obtenida es perpendicular a $OC$ y pasa por el punto medio de $OC$; su ecuación es $x'=10$.\n4. Destacar únicamente el segmento $A'B'$, que es el homólogo del arco pedido. El punto $T$ se transforma en $(10,0)$ y confirma qué tramo de la recta corresponde al arco.\n\n**Fundamento:** una circunferencia que pasa por el centro de una inversión se transforma en una recta perpendicular a la línea que une el centro de inversión con el centro de la circunferencia. En este caso, además, la relación de inversión $OP\\cdot OP'=400$ determina los extremos del segmento imagen.",
+   "resultado": "El arco dado se transforma en el segmento de la recta x=10 con extremos A'=(10,10) y B'=(10,-10).",
+   "criterios": "Total: 2,5 puntos. Ecuación de la circunferencia y fundamento de que su imagen es la recta x=10: 0,75 puntos. Cálculo o construcción correcta de A' y B' mediante la relación de inversión: 0,75 puntos. Identificación del segmento correspondiente al arco, incluyendo la elección correcta del tramo: 0,50 puntos. Claridad y precisión de la construcción y de sus justificaciones: 0,50 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "2",
+   "tema": "diedrico",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Responda únicamente a una de las dos opciones.\n\nA) Un cable recto atraviesa un panel triangular de una instalación. En coordenadas cartesianas tridimensionales, con $x$ horizontal, $y$ de profundidad y $z$ vertical, los vértices del panel son $A=(0,0,0)$, $B=(60,0,0)$ y $C=(0,40,40)$. El cable es el segmento $PQ$, con $P=(10,20,0)$ y $Q=(30,20,40)$. Represente en sistema diédrico las proyecciones del panel y del cable, y determine las dos proyecciones del punto de intersección.\n\nB) Para diseñar una cubierta cónica, se dispone de un cono circular recto cuyo plano de base es horizontal, cuyo radio de base es $30$ y cuya altura es $40$. Construya sus proyecciones diédricas y determine la esfera tangente al plano de la base y a la superficie lateral del cono. Represente las proyecciones de la esfera y señale el radio y la altura de su centro, así como la circunferencia de tangencia con la superficie lateral.",
+   "solucion": "### Opción A. Intersección del cable con el panel\n\nSe usa el método analítico vectorial: se obtiene la ecuación del plano del panel y se sustituye en la parametrización del cable. Es una alternativa a resolver la intersección mediante trazas o un plano auxiliar en sistema diédrico.\n\n#### 1. Proyecciones diédricas\n\nRepresentamos la planta mediante pares $(x,y)$ y el alzado mediante pares $(x,z)$. Se dibujan los triángulos del panel uniendo sus vértices y los segmentos del cable uniendo las proyecciones de $P$ y $Q$.\n\n- **Planta:** panel $A_1=(0,0)$, $B_1=(60,0)$, $C_1=(0,40)$; cable $P_1=(10,20)$, $Q_1=(30,20)$.\n- **Alzado:** panel $A_2=(0,0)$, $B_2=(60,0)$, $C_2=(0,40)$; cable $P_2=(10,0)$, $Q_2=(30,40)$.\n\n#### 2. Plano del panel\n\nCon $A=(0,0,0)$, $B=(60,0,0)$ y $C=(0,40,40)$, dos vectores directores del plano son $AB=(60,0,0)$ y $AC=(0,40,40)$. Un vector normal es $AB×AC=(0,-2400,2400)$, proporcional a $(0,-1,1)$. Por tanto, la ecuación del plano del panel es $-y+z=0$, es decir, $z=y$.\n\n#### 3. Intersección con el cable y comprobación de pertenencia\n\nParametrizamos el segmento del cable como $X(t)=P+t(Q-P)=(10+20t,20,40t)$, con $0≤t≤1$. La condición $z=y$ da $40t=20$, luego $t=1/2$ y\n\n$$R=X(1/2)=(20,20,20).$$\n\nComprobamos que el punto está dentro del triángulo, no solo en su plano. Si $R=A+u(B-A)+v(C-A)$, se obtiene $u=1/3$ y $v=1/2$. Como $u≥0$, $v≥0$ y $u+v=5/6≤1$, $R$ pertenece al panel.\n\n#### 4. Proyecciones del punto\n\nLa planta es $R_1=(x,y)=(20,20)$ y el alzado es $R_2=(x,z)=(20,20)$. En la lista numérica y en el programa, el orden es $(x_R,y_R,z_R,x_{R_1},y_{R_1},x_{R_2},z_{R_2})$.",
+   "resultado": "Intersección: R=(20,20,20); planta R₁=(20,20); alzado R₂=(20,20).",
+   "criterios": "Total: 2,5 puntos. Proyecciones correctamente situadas y segmentos del panel y del cable representados: 0,75 puntos. Obtención de la ecuación del plano y parametrización del cable: 0,75 puntos. Cálculo del parámetro y del punto de intersección: 0,50 puntos. Comprobación de que el punto pertenece al triángulo: 0,25 puntos. Determinación correcta de las dos proyecciones del punto: 0,25 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "3",
+   "tema": "axonometrico",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Responda únicamente a una de las dos opciones.\n\nA) Se va a fabricar un soporte para un sensor. Está formado por un prisma rectangular base definido por $0\\leq x\\leq80$, $0\\leq y\\leq50$, $0\\leq z\\leq20$, y por un resalte prismático definido por $20\\leq x\\leq60$, $10\\leq y\\leq40$, $20\\leq z\\leq45$. Un taladro cilíndrico vertical de diámetro $12$, centrado en $(40,25)$, atraviesa toda la pieza. Represente la pieza en perspectiva isométrica a escala $1:1$, con los ejes $x$ e $y$ a $30^\\circ$ y $150^\\circ$ respecto de la horizontal y el eje $z$ vertical. Distinga las aristas vistas y ocultas.\n\nB) Para ilustrar una vitrina con perspectiva cónica, se representa un prisma rectangular cuyos vértices tienen coordenadas $x\\in\\{0,80\\}$, $y\\in\\{100,300\\}$ y $z\\in\\{0,80\\}$. El plano del cuadro es $y=0$ y el punto de vista es $S=(40,-100,60)$. Las coordenadas $(u,v)$ de la proyección de cualquier vértice $(x,y,z)$ sobre el cuadro vienen dadas por $u=40+\\frac{100(x-40)}{y+100}$ y $v=60+\\frac{100(z-60)}{y+100}$. Determine las proyecciones de los ocho vértices, construya la perspectiva cónica del prisma y diferencie las aristas vistas y ocultas.",
+   "solucion": "## Opción B\n\n### 1. Proyección mediante homotecias\n\nReescribimos las ecuaciones dadas como\n\n$$\n(u,v)=(40,60)+\\lambda(y)(x-40,z-60),\\qquad \\lambda(y)=\\frac{100}{y+100}.\n$$\n\nAsí, para la cara más próxima, $y=100$, se tiene $\\lambda=\\frac12$; para la cara posterior, $y=300$, se tiene $\\lambda=\\frac14$. Este procedimiento permite obtener cada cara como una homotecia en el plano del cuadro, centrada en $(40,60)$.\n\n### 2. Coordenadas de los ocho vértices\n\nDenominamos $A,B,C,D$ a los vértices de la cara $y=100$, empezando por el inferior izquierdo y siguiendo el contorno; $E,F,G,H$ son los vértices correspondientes de la cara $y=300$.\n\n| Vértice | Coordenadas espaciales $(x,y,z)$ | Proyección $(u,v)$ |\n|---|---:|---:|\n| $A$ | $(0,100,0)$ | $(20,30)$ |\n| $B$ | $(80,100,0)$ | $(60,30)$ |\n| $C$ | $(80,100,80)$ | $(60,70)$ |\n| $D$ | $(0,100,80)$ | $(20,70)$ |\n| $E$ | $(0,300,0)$ | $(30,45)$ |\n| $F$ | $(80,300,0)$ | $(50,45)$ |\n| $G$ | $(80,300,80)$ | $(50,65)$ |\n| $H$ | $(0,300,80)$ | $(30,65)$ |\n\nPor ejemplo, $A$ se proyecta en $(40,60)+\\frac12(-40,-60)=(20,30)$, y $G$ en $(40,60)+\\frac14(40,20)=(50,65)$.\n\n### 3. Construcción y visibilidad\n\nSe sitúan los ocho puntos de la tabla y se unen las aristas del prisma: $AB,BC,CD,DA$; $EF,FG,GH,HE$; y $AE,BF,CG,DH$.\n\nLa cara próxima queda delimitada por $20\\leq u\\leq60$ y $30\\leq v\\leq70$. La cara posterior proyectada queda dentro de ella, pues sus vértices tienen $30\\leq u\\leq50$ y $45\\leq v\\leq65$. Además, los rayos hacia la cara posterior atraviesan antes el plano $y=100$ dentro de los límites de la cara próxima. Por tanto, la cara próxima oculta las aristas posteriores y las cuatro aristas de unión.\n\nSe dibujan **continuas** las aristas visibles $AB,BC,CD,DA$. Se dibujan **discontinuas** las aristas ocultas $EF,FG,GH,HE,AE,BF,CG,DH$. La comprobación final es que el rectángulo posterior proyectado está completamente contenido en el rectángulo de la cara próxima, de acuerdo con la clasificación de visibilidad.",
+   "resultado": "Vértices proyectados: A(20,30), B(60,30), C(60,70), D(20,70), E(30,45), F(50,45), G(50,65), H(30,65); visibles AB, BC, CD, DA y ocultas EF, FG, GH, HE, AE, BF, CG, DH.",
+   "criterios": "Total: 2,5 puntos. Coordenadas proyectadas de los ocho vértices: 1,2 puntos (0,15 por vértice correcto). Construcción y unión correcta de las aristas del prisma: 0,7 puntos. Clasificación y diferenciación gráfica de aristas vistas y ocultas: 0,4 puntos. Rotulación, claridad y comprobación geométrica de la oclusión: 0,2 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "normalizacion",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Un taller debe fabricar un soporte de sensor formado por una placa rectangular de dimensiones $80\\times50\\times10$ y una placa vertical solidaria con ella, de espesor $10$, que ocupa $35\\leq x\\leq45$, $0\\leq y\\leq50$ y $10\\leq z\\leq60$. La placa vertical tiene un taladro pasante de diámetro $12$, con eje paralelo a $x$ y centro en $(y,z)=(25,40)$. La placa base tiene dos taladros pasantes verticales de diámetro $8$, centrados en $(x,y)=(15,25)$ y $(65,25)$. Represente alzado, planta y perfil derecho según el sistema europeo del primer diedro, con las líneas ocultas necesarias. Añada una sección completa por el plano vertical $y=25$, indique su sentido de observación hacia $+y$, aplique el rayado normalizado y acote la pieza con las dimensiones necesarias para su fabricación.",
+   "solucion": "## Procedimiento por proyección de coordenadas\n\nSe toma como origen la esquina inferior delantera izquierda de la base. La base ocupa $0\\le x\\le80$, $0\\le y\\le50$, $0\\le z\\le10$; la placa vertical ocupa $35\\le x\\le45$, $0\\le y\\le50$, $10\\le z\\le60$. Se construyen las vistas trasladando directamente estos intervalos a sus planos de proyección.\n\nLos vaciados son: taladro de la placa vertical, eje paralelo a $x$, con $(y,z)=(25,40)$ y diámetro $12$; y dos taladros de la base, ejes paralelos a $z$, con $(x,y)=(15,25)$ y $(65,25)$, ambos de diámetro $8$.\n\n### Disposición según el primer diedro\n\n- **Alzado:** proyección sobre el plano $xz$, mirando desde $y=0$ hacia $+y$; $x$ horizontal y $z$ vertical.\n- **Planta:** debajo del alzado. $x$ horizontal; situar $y=0$ junto al alzado y $y=50$ en el borde inferior de la planta.\n- **Perfil derecho:** a la izquierda del alzado; $z$ vertical y profundidad invertida por el primer diedro: $y=50$ a la izquierda y $y=0$ a la derecha.\n\n### Alzado\n\nDibujar el contorno: base desde $x=0$ hasta $80$, entre $z=0$ y $10$; sobre ella, placa vertical entre $x=35$ y $45$, desde $z=10$ hasta $60$. En el borde superior de la base, dejar línea visible solamente en los tramos $0\\le x\\le35$ y $45\\le x\\le80$.\n\nRepresentar como **ocultas** las paredes proyectadas de los dos taladros verticales: líneas en $x=11$, $19$, $61$ y $69$, entre $z=0$ y $10$. El taladro transversal de la placa no se ve como círculo en este alzado: dibujar sus dos generatrices límite ocultas, entre $x=35$ y $45$, en $z=34$ y $z=46$.\n\n### Planta\n\nDibujar el rectángulo de la base, $80\\times50$. Señalar la huella de la placa vertical, entre $x=35$ y $45$, a todo lo largo de $y=0$ a $50$. Dibujar los dos taladros de la base como círculos visibles de diámetro $8$, centrados en $(15,25)$ y $(65,25)$.\n\nEl taladro transversal de la placa queda oculto desde arriba: dibujar sus límites ocultos en $y=19$ y $y=31$, entre $x=35$ y $45$.\n\n### Perfil derecho\n\nEl contorno proyectado es el rectángulo de profundidad $50$ y altura total $60$. Dibujar la arista visible de unión a $z=10$. El taladro de la placa vertical se ve de frente en este perfil: círculo visible de diámetro $12$, centro en $(y,z)=(25,40)$, con sus ejes de centro.\n\nLos dos taladros verticales de la base se proyectan coincidentes en este perfil; indicar una sola pareja de líneas ocultas en $y=21$ y $y=29$, entre $z=0$ y $10$, pues ambos tienen el mismo centro $y$ y la misma altura.\n\n### Sección completa A-A\n\nEn la planta, trazar el plano vertical $y=25$ y las flechas de observación hacia $+y$; el observador queda en el lado $y<25$. Rotular la sección A-A y dibujarla con $x$ horizontal y $z$ vertical, alineada con el alzado.\n\nEl corte contiene material de la base entre $x=0$ y $80$, $z=0$ y $10$, salvo los huecos $11\\le x\\le19$ y $61\\le x\\le69$. En la placa vertical contiene material entre $x=35$ y $45$, $z=10$ y $60$, salvo el hueco rectangular $35\\le x\\le45$, $34\\le z\\le46$, que es la intersección del taladro transversal con el plano medio $y=25$. Dejar los tres huecos sin rayar.\n\nRayar el material cortado con líneas finas, paralelas y equidistantes, a $45^\\circ$, manteniendo el mismo criterio en las dos placas y sin invadir contornos, huecos ni ejes.\n\n### Acotación para fabricación\n\nAcotar en la planta la base $80\\times50$, el espesor de base $10$, la posición de la placa vertical —desde el borde $x=0$ hasta $x=35$ y espesor $10$— y los taladros de base como $2\\times\\varnothing8$ pasantes. Para estos, basta indicar el eje común $y=25$, la distancia desde el extremo $x=0$ al primer centro $15$ y la separación entre centros $50$; resulta el segundo centro en $x=65$.\n\nEn alzado o perfil, acotar altura total $60$ y altura de placa sobre la base $50$. En perfil, indicar el taladro de la placa como $\\varnothing12$ pasante, con centro a $y=25$ y $z=40$, y especificar que su eje es paralelo a $x$. Añadir ejes de simetría y marcas de centro donde corresponda.\n\n### Comprobación\n\nLa sección A-A atraviesa los centros de los tres taladros: por ello aparecen dos huecos rectangulares de ancho $8$ en la base y un hueco de $10\\times12$ en la placa vertical. Además, los límites exteriores de las vistas dan $80$ en $x$, $50$ en $y$ y $60$ en $z$, coherentes con la pieza definida.\n\nComo comprobación independiente, el volumen antes de taladrar es $80\\cdot50\\cdot10+10\\cdot50\\cdot50=65000$. Los taladros retiran $2\\pi\\cdot4^2\\cdot10+\\pi\\cdot6^2\\cdot10=680\\pi$, de modo que el volumen neto es $65000-680\\pi\\approx62863.72$ unidades cúbicas.",
+   "resultado": "Tres vistas en primer diedro con ocultas; sección A-A por y=25 observada hacia +y, con dos huecos de Ø8 y el hueco de 10×12 del taladro Ø12; pieza acotada para fabricación.",
+   "criterios": "Puntuación total: 2,50 puntos. Alzado, planta y perfil, geometría y disposición en primer diedro: 1,00 (alzado 0,35; planta 0,35; perfil 0,30). Representación de líneas ocultas, ejes y centros: 0,40. Sección A-A, sentido de observación y contorno de los huecos: 0,60. Rayado normalizado: 0,20. Acotación completa, legible y no redundante: 0,30. Se admitirá una disposición gráfica equivalente si conserva correctamente la correspondencia de proyecciones.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-23",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "normalizacion",
+   "p": 0.86
+  },
+  {
+   "id": "diedrico",
+   "p": 0.788
+  },
+  {
+   "id": "conicas",
+   "p": 0.766
+  },
+  {
+   "id": "axonometrico",
+   "p": 0.753
+  },
+  {
+   "id": "geometriaplana",
+   "p": 0.749
+  }
+ ],
+ "referencias": [
+  "https://www.ucm.es/file/dibujo-tÉcnico-aplicado-1",
+  "https://www.ucm.es/file/dibujo-tÉcnico-ii-18",
+  "https://drive.google.com/file/d/19ZMm1fLnk4lu1R2O_saMHIQascYmCzUw/view?usp=drive_link",
+  "https://drive.google.com/file/d/1RS1wOvjYb2hGbetpedQba2A0E2GQDmQj/view?usp=drive_link",
+  "https://drive.google.com/file/d/1pFUu_jEn_QRNIM0dk5B8Q9Jk7DOnN3Ah/view?usp=drive_link",
+  "https://www.ucm.es/file/dibujo-tÉcnico-aplicado-1",
+  "https://www.ucm.es/file/dibujo-tÉcnico-ii-18"
+ ]
+}
