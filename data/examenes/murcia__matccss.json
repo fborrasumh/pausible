@@ -1,0 +1,94 @@
+{
+ "ccaa": "murcia",
+ "materia": "matccss",
+ "titulo": "PAU 2027 — Región de Murcia — Matemáticas Aplicadas a las Ciencias Sociales II",
+ "duracion_min": 90,
+ "instrucciones": "Las preguntas 1 y 2 son obligatorias. En las preguntas 3 y 4, seleccione una opción (A o B) y responda a todos sus apartados. Justifique los procedimientos y exprese los resultados con claridad. Se permite el uso de calculadora no gráfica ni programable.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "probabilidad",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "En una encuesta a 240 visitantes de un parque natural, 96 utilizaron el servicio de transporte eléctrico, 108 alquilaron una bicicleta y 42 hicieron ambas cosas. Se elige al azar una persona de las encuestadas.\na) Calcule la probabilidad de que utilizara al menos uno de los dos servicios. [0,25 puntos]\nb) Calcule la probabilidad de que no utilizara ninguno. [0,5 puntos]\nc) Calcule la probabilidad de que utilizara únicamente el transporte eléctrico. [0,5 puntos]\nd) Sabiendo que la persona elegida no alquiló una bicicleta, calcule la probabilidad de que utilizara el transporte eléctrico. [0,5 puntos]\n\nLa masa, en gramos, de las porciones de un producto alimentario sigue una distribución Normal de desviación típica $\\sigma=20$. En una muestra aleatoria de $100$ porciones se obtuvo para la media poblacional el intervalo de confianza $(196,08,\\ 203,92)$.\ne) Calcule la media muestral y el nivel de confianza utilizado. [0,75 puntos]\nf) ¿Cuál sería el error máximo admisible al estimar la media poblacional con una muestra de tamaño $64$ y un nivel de confianza del $95\\%$? [0,5 puntos]",
+   "solucion": "### a) Probabilidad de utilizar al menos uno\n\nDividimos a las personas en categorías excluyentes: ambas cosas, solo transporte y solo bicicleta. Las cantidades son $42$, $96-42=54$ y $108-42=66$, respectivamente. Por tanto,\n\n$$P(T\\cup B)=\\frac{42+54+66}{240}=\\frac{162}{240}=\\frac{27}{40}=0{,}675.$$\n\n### b) Probabilidad de no utilizar ninguno\n\nEl número de personas que utilizó al menos un servicio es $162$. Así, $240-162=78$ no utilizó ninguno y\n\n$$P(\\text{ninguno})=\\frac{78}{240}=\\frac{13}{40}=0{,}325.$$\n\n### c) Probabilidad de utilizar únicamente el transporte eléctrico\n\nDe las $96$ personas que utilizaron el transporte, $42$ también alquilaron una bicicleta. Luego, $96-42=54$ utilizaron únicamente el transporte:\n\n$$P(T\\cap B^{c})=\\frac{54}{240}=\\frac{9}{40}=0{,}225.$$\n\n### d) Probabilidad condicionada a no haber alquilado bicicleta\n\nNo alquilaron bicicleta $240-108=132$ personas. Entre ellas, $96-42=54$ utilizaron el transporte eléctrico. Por tanto,\n\n$$P(T\\mid B^{c})=\\frac{54}{132}=\\frac{9}{22}\\approx 0{,}4091.$$\n\n### e) Media muestral y nivel de confianza\n\nLa media muestral es el punto medio del intervalo:\n\n$$\\bar{x}=\\frac{196{,}08+203{,}92}{2}=200\\text{ g}.$$\n\nEl error observado es $E=203{,}92-200=3{,}92$ g. Como $n=100$ y $\\sigma=20$ g, el error típico es $\\sigma/\\sqrt{n}=2$ g. Por ello, el valor crítico es\n\n$$z=\\frac{E}{\\sigma/\\sqrt{n}}=\\frac{3{,}92}{2}=1{,}96.$$\n\nEl área central entre $-1{,}96$ y $1{,}96$ en la normal tipificada es aproximadamente $0{,}95$. El nivel de confianza utilizado es, por tanto, **95 %**.\n\n### f) Error máximo admisible\n\nPara un nivel de confianza del $95\\%$, se toma $z_{0{,}975}=1{,}96$. Con $n=64$:\n\n$$E=1{,}96\\frac{20}{\\sqrt{64}}=1{,}96\\cdot 2{,}5=4{,}90\\text{ g}.$$\n\n**Comprobación:** el intervalo del apartado e) queda centrado en $200$ y su semiamplitud es $3{,}92=1{,}96\\cdot 2$, coherente con el nivel de confianza del $95\\%$. En f), el error calculado corresponde al mismo valor crítico y al error típico $20/8=2{,}5$ g.",
+   "resultado": "a) 0,675; b) 0,325; c) 0,225; d) 9/22 ≈ 0,4091; e) media = 200 g, confianza ≈ 95 %; f) error máximo = 4,90 g.",
+   "criterios": "Total: 3 puntos. a) 0,25: identificar y calcular la unión, evitando contar dos veces a quienes usaron ambos servicios. b) 0,5: obtener el número de personas que no usó ninguno y dividirlo por 240. c) 0,5: calcular los usuarios exclusivos del transporte y su probabilidad. d) 0,5: identificar correctamente el condicionante, el numerador y calcular la probabilidad condicionada. e) 0,75: hallar la media como centro del intervalo (0,25); calcular el error típico y el valor crítico (0,25); identificar el nivel de confianza del 95 % (0,25). f) 0,5: aplicar el valor crítico 1,96, el error típico para n=64 y obtener 4,90 g.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "2",
+   "tema": "funciones",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Para analizar la respuesta de un modelo matemático según un parámetro real $x$, se considera la función $f(x)=x+\\frac{4}{x-2}$.\na) Determine el dominio de $f$. [0,25 puntos]\nb) Estudie las asíntotas verticales y oblicuas de la gráfica de $f$. [0,5 puntos]\nc) Determine los intervalos de crecimiento y decrecimiento y las coordenadas de los extremos relativos. [0,75 puntos]\nd) Calcule la ecuación de la recta tangente a la gráfica de $f$ en el punto de abscisa $x=1$. [0,5 puntos]\ne) En el diseño de una cubierta, dos perfiles están representados, en un tramo, por las curvas $y=x+2$ e $y=x^2+2$. Calcule el área de la región comprendida entre ambas curvas y las rectas $x=0$ y $x=1$. [1 punto]",
+   "solucion": "### a) Dominio\nLa función está definida cuando el denominador es distinto de cero. Como $x-2\\ne 0$ debe cumplirse $x\\ne 2$, luego\n$$D_f=\\mathbb{R}\\setminus\\{2\\}.$$\n\n### b) Asíntotas\nEn $x=2$ el denominador se anula y el numerador no, por lo que hay una asíntota vertical. Además,\n$$\\lim_{x\\to 2^-}f(x)=-\\infty,\\qquad \\lim_{x\\to 2^+}f(x)=+\\infty,$$\ny la asíntota vertical es $x=2$.\n\nPara estudiar la asíntota oblicua,\n$$\\lim_{x\\to\\pm\\infty}\\bigl(f(x)-x\\bigr)=\\lim_{x\\to\\pm\\infty}\\frac{4}{x-2}=0.$$\nPor tanto, la asíntota oblicua es $y=x$.\n\n### c) Crecimiento, decrecimiento y extremos relativos\nDerivamos:\n$$f'(x)=1-\\frac{4}{(x-2)^2}=\\frac{x(x-4)}{(x-2)^2}.$$\nEl denominador es positivo en el dominio, así que el signo de $f'(x)$ viene dado por $x(x-4)$. Por ello, $f$ es creciente en $(-\\infty,0)$ y $(4,+\\infty)$, y decreciente en $(0,2)$ y $(2,4)$.\n\nEn $x=0$ la derivada cambia de positiva a negativa, de modo que hay un máximo relativo. Como $f(0)=-2$, es $(0,-2)$. En $x=4$ cambia de negativa a positiva, de modo que hay un mínimo relativo. Como $f(4)=6$, es $(4,6)$.\n\n### d) Recta tangente en $x=1$\nEl punto de tangencia es $(1,f(1))=(1,-3)$ y la pendiente es $f'(1)=-3$. Así,\n$$y+3=-3(x-1),$$\npor lo que la recta tangente es $y=-3x$.\n\n### e) Área entre las curvas\nEn $[0,1]$ se cumple $x\\ge x^2$, por lo que la recta $y=x+2$ queda por encima de la parábola $y=x^2+2$. El área es\n$$A=\\int_0^1\\bigl[(x+2)-(x^2+2)\\bigr]\\,dx\n=\\int_0^1(x-x^2)\\,dx\n=\\left[\\frac{x^2}{2}-\\frac{x^3}{3}\\right]_0^1\n=\\frac16.$$\n\n**Reparto de la puntuación:** apartado a), $0,25$ puntos; b), $0,5$ puntos; c), $0,75$ puntos; d), $0,5$ puntos; e), $1$ punto.",
+   "resultado": "$D_f=\\mathbb{R}\\setminus\\{2\\}$; asíntotas: $x=2$ e $y=x$; creciente en $(-\\infty,0)$ y $(4,+\\infty)$, decreciente en $(0,2)$ y $(2,4)$; máximo relativo $(0,-2)$, mínimo relativo $(4,6)$; tangente $y=-3x$; área $\\frac16$.",
+   "criterios": "a) 0,25 puntos: identificar que el denominador debe ser distinto de cero y expresar correctamente el dominio. b) 0,5 puntos: 0,25 por la asíntota vertical $x=2$ (se acepta justificarla mediante los límites laterales) y 0,25 por la asíntota oblicua $y=x$. c) 0,75 puntos: 0,25 por calcular correctamente la derivada; 0,25 por obtener los intervalos de crecimiento y decrecimiento, teniendo en cuenta la discontinuidad en $x=2$; 0,25 por clasificar y dar las coordenadas de ambos extremos relativos. d) 0,5 puntos: 0,25 por hallar el punto y la pendiente de la tangente y 0,25 por obtener su ecuación. e) 1 punto: 0,25 por ordenar correctamente las curvas en el intervalo, 0,25 por plantear la integral del área y 0,5 por calcularla correctamente.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "progl",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "OPCIÓN A\nUn taller fabrica placas acústicas compactas y paneles acústicos grandes. Por cada placa compacta obtiene un beneficio de $50$ euros y por cada panel grande, $40$ euros. Cada placa compacta requiere $2$ horas de prensa y $1$ hora de corte; cada panel grande requiere $1$ hora de prensa y $2$ horas de corte. El taller dispone diariamente de un máximo de $14$ horas de prensa y $16$ horas de corte. Sean $x$ e $y$ las cantidades fabricadas, respectivamente.\na) Formule el problema de programación lineal que permite maximizar el beneficio diario. [0,5 puntos]\nb) Represente gráficamente la región factible. [0,5 puntos]\nc) Determine los vértices de la región factible. [0,25 puntos]\nd) Indique cuántas unidades de cada producto deben fabricarse para maximizar el beneficio y calcule dicho beneficio máximo. [0,5 puntos]\ne) Determine si es factible fabricar $3$ placas compactas y $2$ paneles grandes. Justifique la respuesta. [0,25 puntos]\n\nOPCIÓN B\nConsidere la función objetivo $F(x,y)=2x-y$ y la región definida por $x\\leq 7$, $y\\leq 6$, $x+y\\geq 4$, $x\\geq 0$ e $y\\geq 0$.\na) Represente gráficamente la región factible. [0,75 puntos]\nb) Determine todos sus vértices. [0,5 puntos]\nc) Determine los puntos en los que $F$ alcanza su máximo y su mínimo en la región, e indique ambos valores. [0,75 puntos]",
+   "solucion": "## Opción A\n\n### a) Formulación\n\nSean $x$ las placas compactas y $y$ los paneles grandes fabricados al día. El beneficio que se quiere maximizar es\n\n$$\\max B(x,y)=50x+40y$$\n\nsujeto a las limitaciones de horas y a la no negatividad:\n\n$$\\begin{cases}\n2x+y\\leq 14 & \\text{(prensa)},\\\\\nx+2y\\leq 16 & \\text{(corte)},\\\\\nx\\geq 0,\\quad y\\geq 0.\n\\end{cases}$$\n\n### b) Representación de la región factible\n\nSe representan las rectas $2x+y=14$ y $x+2y=16$ en el primer cuadrante y se sombrea la zona que queda por debajo de ambas. Sus intersecciones con los ejes son, respectivamente, $(7,0)$ y $(0,14)$ para la primera recta, y $(16,0)$ y $(0,8)$ para la segunda. La región factible es el polígono delimitado, en orden, por $(0,0)$, $(7,0)$, $(4,6)$ y $(0,8)$.\n\n### c) Vértices\n\nLos vértices son\n\n$$(0,0),\\quad (7,0),\\quad (4,6),\\quad (0,8).$$\n\nLa intersección de las dos rectas se obtiene resolviendo $2x+y=14$ y $x+2y=16$, que da $(x,y)=(4,6)$.\n\n### d) Máximo beneficio\n\nEvaluamos el beneficio en los vértices:\n\n| Vértice | Beneficio |\n|---|---:|\n| $(0,0)$ | $0$ € |\n| $(7,0)$ | $350$ € |\n| $(4,6)$ | $440$ € |\n| $(0,8)$ | $320$ € |\n\nPor tanto, se deben fabricar $4$ placas compactas y $6$ paneles grandes. El beneficio máximo diario es de $440$ euros.\n\n### e) Comprobación de la fabricación de $3$ placas y $2$ paneles\n\nSe necesitan $2\\cdot 3+2=8$ horas de prensa y $3+2\\cdot 2=7$ horas de corte. Como $8\\leq 14$ y $7\\leq 16$, sí es factible fabricar esas cantidades.\n\n## Opción B\n\n### a) Representación de la región factible\n\nLa región está en el rectángulo $0\\leq x\\leq 7$, $0\\leq y\\leq 6$ y en el semiplano $x+y\\geq 4$, es decir, por encima de la recta $x+y=4$. Esta recta corta los ejes en $(4,0)$ y $(0,4)$. El polígono factible, recorriendo su contorno, tiene vértices $(0,4)$, $(0,6)$, $(7,6)$, $(7,0)$ y $(4,0)$.\n\n### b) Vértices\n\nLos vértices son\n\n$$(0,4),\\quad (0,6),\\quad (4,0),\\quad (7,0),\\quad (7,6).$$\n\n### c) Máximo y mínimo de $F(x,y)=2x-y$\n\nEvaluamos $F$ en todos los vértices:\n\n| Vértice | $F(x,y)$ |\n|---|---:|\n| $(0,4)$ | $-4$ |\n| $(0,6)$ | $-6$ |\n| $(4,0)$ | $8$ |\n| $(7,0)$ | $14$ |\n| $(7,6)$ | $8$ |\n\nEl máximo es $14$ y se alcanza en $(7,0)$. El mínimo es $-6$ y se alcanza en $(0,6)$.",
+   "resultado": "Opción A: vértices (0,0), (7,0), (4,6), (0,8); máximo en (4,6), con beneficio de 440 euros; fabricar (3,2) es factible. Opción B: vértices (0,4), (0,6), (4,0), (7,0), (7,6); máximo 14 en (7,0) y mínimo -6 en (0,6).",
+   "criterios": "Opción A (2 puntos): a) 0,5 por la función objetivo y todas las restricciones; b) 0,5 por representar las rectas y sombrear correctamente la región factible; c) 0,25 por los cuatro vértices; d) 0,5 por identificar las cantidades óptimas y calcular el beneficio máximo; e) 0,25 por comprobar ambas restricciones y concluir que la fabricación propuesta es factible. Opción B (2 puntos): a) 0,75 por representar correctamente el rectángulo, la recta x+y=4 y el semiplano factible; b) 0,5 por determinar todos los vértices; c) 0,75 por evaluar la función en los vértices e indicar correctamente los puntos y valores máximo y mínimo.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "matrices",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "OPCIÓN A\nSe considera la matriz $A(k)=\\begin{pmatrix}k&1\\\\2&k-1\\end{pmatrix}$.\na) Calcule $\\det(A(k))$ y determine para qué valores de $k$ la matriz $A(k)$ es regular. [0,5 puntos]\nb) Para $k=1$, calcule $A^{-1}$. [0,75 puntos]\nc) Para $k=1$, resuelva la ecuación matricial $XA+A=D$, donde $D=\\begin{pmatrix}6&2\\\\4&0\\end{pmatrix}$. [0,75 puntos]\n\nOPCIÓN B\nUn taller prepara lotes de cuadernos en tres formatos. Sean $x$, $y$ y $z$ los números de lotes de cada formato. En total prepara $12$ lotes. Cada lote de los formatos primero, segundo y tercero requiere, respectivamente, $2$, $1$ y $3$ unidades de cartulina; en total se utilizan $22$ unidades. Además, cada lote de esos formatos requiere, respectivamente, $4$, $2$ y $1$ horas de encuadernación, y se emplean $29$ horas en total.\na) Plantee un sistema de ecuaciones que permita determinar cuántos lotes se preparan de cada formato. [1 punto]\nb) Resuelva el sistema e interprete la solución en el contexto del problema. [1 punto]",
+   "solucion": "Como se han incluido las dos opciones, se resuelven ambas. En el campo `numeros`, los tres primeros valores son los coeficientes de $\\det(A(k))$ en orden decreciente de potencias; después aparecen los valores excluidos de $k$, las entradas de las matrices de la opción A por filas y, finalmente, $x$, $y$, $z$ de la opción B.\n\n### Opción A\n\n**a)**\n\n$$\n\\det(A(k))=k(k-1)-2=k^2-k-2=(k-2)(k+1).\n$$\n\nLa matriz es regular cuando su determinante es distinto de cero. Por tanto,\n\n$$\nk\\in\\mathbb{R}\\setminus\\{-1,2\\}.\n$$\n\n**b)** Para $k=1$,\n\n$$\nA(1)=\\begin{pmatrix}1&1\\\\2&0\\end{pmatrix},\\qquad \\det(A(1))=-2.\n$$\n\nUsando la fórmula de la inversa de una matriz $2\\times2$:\n\n$$\nA(1)^{-1}=\\frac{1}{-2}\\begin{pmatrix}0&-1\\\\-2&1\\end{pmatrix}\n=\\begin{pmatrix}0&\\frac12\\\\1&-\\frac12\\end{pmatrix}.\n$$\n\n**c)** Despejamos $X$ por la derecha, multiplicando por $A(1)^{-1}$:\n\n$$\nXA(1)+A(1)=D\\quad\\Longrightarrow\\quad X=(D-A(1))A(1)^{-1}.\n$$\n\nAsí,\n\n$$\nX=\\begin{pmatrix}6&2\\\\4&0\\end{pmatrix}\n-\\begin{pmatrix}1&1\\\\2&0\\end{pmatrix}\n\\quad\\text{multiplicado por}\\quad\n\\begin{pmatrix}0&\\frac12\\\\1&-\\frac12\\end{pmatrix}\n=\\begin{pmatrix}5&1\\\\2&0\\end{pmatrix}\n\\begin{pmatrix}0&\\frac12\\\\1&-\\frac12\\end{pmatrix}\n=\\begin{pmatrix}1&2\\\\0&1\\end{pmatrix}.\n$$\n\n### Opción B\n\n**a)** Las ecuaciones correspondientes al número total de lotes, al consumo de cartulina y a las horas de encuadernación son, respectivamente:\n\n$$\n\\begin{cases}\nx+y+z=12,\\\\\n2x+y+3z=22,\\\\\n4x+2y+z=29.\n\\end{cases}\n$$\n\n**b)** Restando la primera ecuación de la segunda se obtiene $x+2z=10$. Restando dos veces la primera ecuación de la tercera se obtiene $2x-z=5$. De este sistema:\n\n$$\nx+2z=10,\\qquad 2x-z=5\n\\quad\\Longrightarrow\\quad x=4,\\ z=3.\n$$\n\nSustituyendo en $x+y+z=12$, resulta $y=5$. Por tanto, se preparan $4$ lotes del primer formato, $5$ del segundo y $3$ del tercero. La solución es entera y no negativa, así que es válida en el contexto del problema.",
+   "resultado": "Opción A: det(A(k))=(k-2)(k+1), regular si k≠-1,2; A(1)⁻¹=[[0,1/2],[1,-1/2]]; X=[[1,2],[0,1]]. Opción B: (x,y,z)=(4,5,3) lotes.",
+   "criterios": "Opción A (2 puntos): a) 0,25 por calcular correctamente el determinante y 0,25 por identificar los valores de k para los que la matriz es regular. b) 0,25 por sustituir k=1 y obtener el determinante; 0,50 por calcular correctamente la inversa. c) 0,25 por despejar X respetando el orden de los productos matriciales; 0,50 por obtener la matriz solución. Opción B (2 puntos): a) 1 punto por plantear correctamente las tres ecuaciones (aproximadamente 0,33 por ecuación). b) 0,75 por resolver correctamente el sistema y 0,25 por interpretar la solución en el contexto. Las opciones son alternativas; cada una se califica sobre 2 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-23",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "funciones",
+   "p": 0.634
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.604
+  },
+  {
+   "id": "inferencia",
+   "p": 0.55
+  },
+  {
+   "id": "matrices",
+   "p": 0.483
+  },
+  {
+   "id": "progl",
+   "p": 0.448
+  },
+  {
+   "id": "integrales",
+   "p": 0.394
+  }
+ ],
+ "referencias": [
+  "https://www.um.es/documents/d/estudios/pau2026-307-matematicas-aplicadas-a-las-cc-ss-pdf",
+  "https://www.um.es/documents/d/estudios/307-matematicas-aplicadas-a-las-ciencias-sociales-pdf",
+  "https://www.um.es/documents/d/estudios/307-matematicas-aplicadas-a-las-ciencias-sociales-pdf",
+  "https://www.um.es/documents/d/estudios/pau-2026-307-matematicas-aplicadas-a-las-cc-ss-modelo-de-examen-pdf",
+  "https://www.um.es/documents/d/estudios/pau2026-307-matematicas-aplicadas-a-las-cc-ss-pdf",
+  "https://www.um.es/documents/d/estudios/pau2026-307-matematicas-aplicadas-a-las-ccss-esquema-de-contenidosv3-pdf"
+ ]
+}
