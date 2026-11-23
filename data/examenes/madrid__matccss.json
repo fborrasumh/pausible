@@ -1,0 +1,95 @@
+{
+ "ccaa": "madrid",
+ "materia": "matccss",
+ "titulo": "Prueba de Acceso a la Universidad 2027 — Matemáticas Aplicadas a las Ciencias Sociales II — Comunidad de Madrid",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de 4 preguntas. La pregunta 1 es obligatoria y no tiene opcionalidad. En cada una de las preguntas 2, 3 y 4, responda únicamente a una de las dos opciones propuestas. Cada pregunta se califica sobre 2,5 puntos. Todas las respuestas deben estar razonadamente justificadas. Puede utilizar la tabla de la distribución normal.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "progl",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Una cooperativa prepara dos tipos de cajas de productos locales, A y B. Cada caja A aporta un beneficio de 30 euros y requiere 2 kg de material de embalaje y 1 hora de preparación. Cada caja B aporta un beneficio de 20 euros y requiere 1 kg de material y 2 horas de preparación. Para el próximo mes hay disponibles 100 kg de material y 80 horas de preparación. Por un compromiso previo se deben preparar al menos 10 cajas A. Sean $x$ e $y$ las cantidades de cajas A y B, respectivamente. 1.a) (1,2 puntos) Defina las variables, plantee la función objetivo y todas las restricciones del problema. Represente gráficamente la región factible. 1.b) (1,3 puntos) Calcule los vértices de la región factible y determine cuántas cajas de cada tipo debe preparar la cooperativa para maximizar el beneficio. Indique el beneficio máximo.",
+   "solucion": "### 1.a) Variables, función objetivo y restricciones\n\nSean $x$ el número de cajas de tipo A e $y$ el número de cajas de tipo B. El beneficio, en euros, es\n\n$$B(x,y)=30x+20y.$$\n\nLas restricciones de material, preparación y compromiso previo son, respectivamente,\n\n$$\\begin{cases}\n2x+y\\leq 100,\\\\\nx+2y\\leq 80,\\\\\nx\\geq 10,\\\\\ny\\geq 0.\n\\end{cases}$$\n\nLa condición $x\\geq 10$ ya implica $x\\geq 0$. Las cantidades de cajas son enteras en la aplicación, aunque para representar gráficamente el problema se considera la región poligonal definida por estas desigualdades.\n\nPara dibujarla, se trazan las rectas $2x+y=100$, con interceptos $(50,0)$ y $(0,100)$, y $x+2y=80$, con interceptos $(80,0)$ y $(0,40)$. Se toma la zona situada por debajo de ambas rectas, a la derecha de $x=10$ y por encima de $y=0$. El polígono factible, recorrido en sentido antihorario, tiene vértices $(10,0)$, $(50,0)$, $(40,20)$ y $(10,35)$.\n\n### 1.b) Vértices y máximo\n\nLos extremos sobre $y=0$ y $x=10$ son $(50,0)$ y $(10,0)$, pues en $y=0$ la restricción más restrictiva es $2x\\leq100$, y en $x=10$ la restricción más restrictiva para $y$ es $10+2y\\leq80$, es decir, $y\\leq35$.\n\nLa intersección de las dos rectas de recursos se obtiene resolviendo\n\n$$\\begin{cases}\n2x+y=100,\\\\\nx+2y=80,\n\\end{cases}\n\\qquad\\Longrightarrow\\qquad (x,y)=(40,20).$$\n\nPor tanto, los vértices son $(10,0)$, $(50,0)$, $(40,20)$ y $(10,35)$. Evaluamos el beneficio:\n\n| Vértice $(x,y)$ | Beneficio $B(x,y)$ |\n|---|---:|\n| $(10,0)$ | $300$ € |\n| $(50,0)$ | $1500$ € |\n| $(40,20)$ | $1600$ € |\n| $(10,35)$ | $1000$ € |\n\nEl máximo se alcanza en $(40,20)$. Como comprobación adicional de optimalidad, se puede obtener una cota superior combinando las restricciones de recursos:\n\n$$30x+20y=\\frac{40}{3}(2x+y)+\\frac{10}{3}(x+2y)\\leq\\frac{40}{3}\\,100+\\frac{10}{3}\\,80=1600.$$\n\nEn $(40,20)$ se alcanza la igualdad, por lo que esta cota confirma que el beneficio máximo es $1600$ euros. Finalmente, $2(40)+20=100$, $40+2(20)=80$ y $40\\geq10$; la solución es factible y, además, las cantidades obtenidas son enteras.",
+   "resultado": "Vértices: $(10,0)$, $(50,0)$, $(40,20)$ y $(10,35)$; máximo en $x=40$, $y=20$, con beneficio de $1600$ euros.",
+   "criterios": "1.a (1,2 puntos): definición de variables y función objetivo, 0,20; restricciones completas y correctas, 0,40; trazado e identificación de la región factible, 0,60. 1.b (1,3 puntos): cálculo de los vértices, 0,70; evaluación del beneficio y justificación del máximo, 0,45; respuesta final con cantidades, beneficio y comprobación, 0,15.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "probabilidad",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Responda únicamente a una de las dos opciones, 2.1 o 2.2. Opción 2.1. Una empresa recibe el 70 % de sus componentes del proveedor A y el resto del proveedor B. La probabilidad de que un componente de A sea defectuoso es 0,02, mientras que la de que uno de B sea defectuoso es 0,06. Se elige al azar un componente recibido. 2.1.a) (1,5 puntos) Calcule la probabilidad de que el componente sea defectuoso. 2.1.b) (1 punto) Si el componente elegido es defectuoso, calcule la probabilidad de que proceda del proveedor B. Defina los sucesos que utilice. Opción 2.2. Se consideran las matrices $A=((1,2),(0,1))$, $B=((2,0),(1,1))$ y $C=((5,4),(3,2))$. 2.2.a) (1,5 puntos) Calcule la matriz $X$ que verifica $AX+B=C$. 2.2.b) (1 punto) Calcule el determinante de la matriz $2A-B$ e indique si es invertible.",
+   "solucion": "### Opción 2.1\n\nDefinimos los sucesos $A$: «el componente procede del proveedor A», $B$: «el componente procede del proveedor B» y $D$: «el componente es defectuoso».\n\nLos datos son $P(A)=0{,}70$, $P(B)=0{,}30$, $P(D\\mid A)=0{,}02$ y $P(D\\mid B)=0{,}06$.\n\n#### 2.1.a)\n\nComo $A$ y $B$ forman una partición, por el teorema de la probabilidad total:\n\n$$\nP(D)=P(D\\mid A)P(A)+P(D\\mid B)P(B)\n=0{,}02\\cdot 0{,}70+0{,}06\\cdot 0{,}30\n=0{,}014+0{,}018=0{,}032.\n$$\n\nLa probabilidad de que el componente sea defectuoso es $0{,}032$, es decir, $3{,}2\\%$.\n\n#### 2.1.b)\n\nAplicando el teorema de Bayes:\n\n$$\nP(B\\mid D)=\\frac{P(D\\mid B)P(B)}{P(D)}\n=\\frac{0{,}06\\cdot 0{,}30}{0{,}032}\n=\\frac{0{,}018}{0{,}032}=0{,}5625.\n$$\n\nLa probabilidad de que proceda de B, dado que es defectuoso, es $0{,}5625$, es decir, $56{,}25\\%$.",
+   "resultado": "2.1.a) $P(D)=0{,}032$. 2.1.b) $P(B\\mid D)=0{,}5625$.",
+   "criterios": "2.1.a) 1,5 puntos: definición adecuada de los sucesos y uso de las probabilidades de los proveedores (0,3); aplicación de la fórmula de la probabilidad total (0,6); cálculo correcto y resultado $0{,}032$ o $3{,}2\\%$ (0,6). 2.1.b) 1 punto: aplicación correcta del teorema de Bayes (0,5); sustitución, cálculo y resultado $0{,}5625$ o $56{,}25\\%$ (0,5).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "funciones",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Responda únicamente a una de las dos opciones, 3.1 o 3.2. Opción 3.1. Un centro cultural modeliza el beneficio neto semanal, en cientos de euros, obtenido con una campaña de promoción mediante la función $B(t)=-t^3+6t^2+15$, donde $t$ es el nivel de intensidad de la campaña y $0\\leq t\\leq 5$. 3.1.a) (1,5 puntos) Calcule la derivada de $B$ y determine los intervalos en los que el beneficio crece y decrece en el intervalo considerado. 3.1.b) (1 punto) Determine el máximo absoluto del beneficio en dicho intervalo e interprételo en el contexto. Opción 3.2. La tasa de carga de una instalación de almacenamiento de energía, en kW, durante las primeras 4 horas de funcionamiento se modeliza mediante $r(t)=3(t-2)^2$, donde $t$ es el tiempo en horas. 3.2.a) (1,25 puntos) Justifique que la tasa no es negativa y calcule la energía almacenada durante las primeras 4 horas. 3.2.b) (1,25 puntos) La instalación también tiene una tasa de referencia constante de 3 kW. Calcule el área encerrada entre la gráfica de $r(t)$ y la recta $y=3$.",
+   "solucion": "## Opción 3.1\n\n### a) Derivada y crecimiento/decrecimiento\n\nLa función está definida para $0\\leq t\\leq 5$. Derivamos:\n\n$$B'(t)=-3t^2+12t=-3t(t-4).$$\n\nLos puntos del dominio donde la derivada se anula son $t=0$ y $t=4$. Para determinar el signo en el interior del dominio:\n\n- Si $0<t<4$, entonces $t>0$ y $t-4<0$, por lo que $B'(t)>0$.\n- Si $4<t<5$, entonces $t>0$ y $t-4>0$, por lo que $B'(t)<0$.\n\nPor tanto, $B$ es estrictamente creciente en $[0,4]$ y estrictamente decreciente en $[4,5]$.\n\n### b) Máximo absoluto e interpretación\n\nComo comprobación directa —sin depender únicamente de comparar los puntos críticos y los extremos— factorizamos la diferencia respecto al valor en $t=4$:\n\n$$B(t)-47=-t^3+6t^2-32=-(t-4)^2(t+2).$$\n\nEn todo el intervalo $[0,5]$ se cumple $t+2>0$ y $(t-4)^2\\geq 0$, así que $B(t)-47\\leq 0$. La igualdad se alcanza en $t=4$; luego el máximo absoluto es $B(4)=47$ cientos de euros. Como verificación adicional, $B(0)=15$ y $B(5)=40$, ambos menores que $47$.\n\nEn el contexto, el beneficio neto semanal máximo es de $47\\cdot100=4700$ euros y se obtiene con una intensidad de campaña $t=4$.\n\nEl orden de los números de `numeros` y de la salida del programa es: extremos del intervalo de crecimiento, extremos del intervalo de decrecimiento, intensidad que maximiza el beneficio, máximo en cientos de euros y máximo en euros.",
+   "resultado": "Crece en [0,4] y decrece en [4,5]; el máximo absoluto es 47 cientos de euros (4700 €), alcanzado en t=4.",
+   "criterios": "Total: 2,5 puntos. a) 1,5 puntos: derivada correcta (0,5); resolución de B'(t)=0 e identificación de los puntos relevantes (0,3); análisis correcto del signo de la derivada (0,4); intervalos de crecimiento y decrecimiento (0,3). b) 1 punto: prueba de que el máximo absoluto es 47 (0,45); evaluación y comprobación de los valores pertinentes (0,25); interpretación con la intensidad y las unidades correctas (0,30).",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "4",
+   "tema": "inferencia",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Responda únicamente a una de las dos opciones, 4.1 o 4.2. Opción 4.1. El tiempo de espera, en minutos, de los usuarios de un servicio se distribuye normalmente, con media de 50 minutos y desviación típica de 10 minutos. 4.1.a) (1 punto) Calcule la probabilidad de que una persona elegida al azar espere entre 40 y 60 minutos. 4.1.b) (1,5 puntos) En una muestra aleatoria de 100 usuarios, el tiempo medio de espera fue de 52 minutos. Calcule el intervalo de confianza al 95 % para el tiempo medio de espera de todos los usuarios. Opción 4.2. En una encuesta aleatoria a 400 personas, 200 indicaron que utilizan habitualmente una aplicación municipal. 4.2.a) (1,25 puntos) Calcule el intervalo de confianza al 95 % para la proporción de personas que utilizan habitualmente la aplicación. 4.2.b) (1,25 puntos) Para planificar una nueva encuesta, determine el tamaño mínimo de la muestra que permite estimar dicha proporción con un error inferior a 0,04 y un nivel de confianza del 95 %, utilizando el caso conservador $p=q=0,5$.",
+   "solucion": "### Opción 4.1\n\n#### 4.1.a)\nSea $X$ el tiempo de espera. Entonces $X\\sim N(50,10^2)$ y, tipificando, $Z=\\frac{X-50}{10}\\sim N(0,1)$.\n\n$$P(40\\leq X\\leq 60)=P\\left(\\frac{40-50}{10}\\leq Z\\leq\\frac{60-50}{10}\\right)=P(-1\\leq Z\\leq 1).$$\n\nPor simetría de la normal estándar:\n\n$$P(-1\\leq Z\\leq 1)=\\Phi(1)-\\Phi(-1)=2\\Phi(1)-1\\approx 0,6827.$$\n\nLa probabilidad es aproximadamente $0,6827$, es decir, un $68,27\\%$.\n\n#### 4.1.b)\nComo se conoce la desviación típica poblacional, el intervalo de confianza del $95\\%$ para la media se calcula mediante\n\n$$\\bar{x}\\pm z_{0,975}\\frac{\\sigma}{\\sqrt{n}}.$$\n\nCon $\\bar{x}=52$, $\\sigma=10$, $n=100$ y $z_{0,975}=1,96$, el error máximo es\n\n$$1,96\\frac{10}{\\sqrt{100}}=1,96.$$\n\nPor tanto,\n\n$$IC_{95\\%}=52\\pm1,96=[50,04,\\ 53,96]\\text{ minutos}.$$\n\n",
+   "resultado": "4.1.a) $P(40\\leq X\\leq60)\\approx0,6827$ (68,27 %). 4.1.b) $IC_{95\\%}=[50,04;53,96]$ minutos.",
+   "criterios": "4.1.a) 1 punto: tipificación de los límites y formulación correcta de la probabilidad (0,4); uso de la normal estándar y cálculo numérico (0,6). 4.1.b) 1,5 puntos: identificación del valor crítico 1,96 (0,3); cálculo del error típico $\\sigma/\\sqrt{n}$ (0,3); cálculo del margen de error (0,4); obtención y expresión correcta de los dos extremos del intervalo, con unidades (0,5).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-23",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "funciones",
+   "p": 0.828
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.828
+  },
+  {
+   "id": "inferencia",
+   "p": 0.828
+  },
+  {
+   "id": "integrales",
+   "p": 0.757
+  },
+  {
+   "id": "matrices",
+   "p": 0.742
+  },
+  {
+   "id": "progl",
+   "p": 0.714
+  }
+ ],
+ "referencias": [
+  "https://www.ucm.es/file/maccss-ii-2",
+  "https://drive.google.com/file/d/17N2CaMOLqi535w2ynJU6rE51GvNe1Kyu/view?usp=drive_link",
+  "https://drive.google.com/file/d/11uqySs4uVrEUccWNDVFuiln3opSnOAzK/view?usp=drive_link",
+  "https://drive.google.com/file/d/17N2CaMOLqi535w2ynJU6rE51GvNe1Kyu/view?usp=drive_link",
+  "https://drive.google.com/file/d/1KjhzAPaV6QRtaMNRaUdMbahDp4msKDWC/view?usp=sharing",
+  "https://drive.google.com/file/d/1W3Yzqh0q8ApU8JISshQmOou4Umep_F3d/view?usp=drive_link",
+  "https://www.ucm.es/file/maccss-ii-2"
+ ]
+}
