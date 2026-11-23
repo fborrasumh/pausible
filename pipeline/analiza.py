@@ -115,6 +115,19 @@ def tendencia(examenes, tid):
     return 'sube' if fn - fv >= 0.25 else 'baja' if fv - fn >= 0.25 else 'estable'
 
 
+def agrupa_variantes(ex):
+    """Las «coincidencias» (examen alternativo de la misma convocatoria) se suman al examen principal:
+    sus temas cuentan, pero la materia no pesa el doble en esa convocatoria."""
+    princ = {(e['anio'], e['conv']): e for e in ex if not e.get('var')}
+    out = [e for e in ex if not e.get('var')]
+    for e in ex:
+        if not e.get('var'): continue
+        p = princ.get((e['anio'], e['conv']))
+        if p is None: out.append(e); princ[(e['anio'], e['conv'])] = e; continue
+        p['hits'] = {t: max(p['hits'].get(t, 0), e['hits'].get(t, 0)) for t in set(p['hits']) | set(e['hits'])}
+    return out
+
+
 def main():
     temario = {m['id']: m for m in json.loads((R / 'pipeline' / 'temario.json').read_text(encoding='utf-8'))['materias']}
     fuentes = json.loads((R / 'pipeline' / 'fuentes.json').read_text(encoding='utf-8'))
@@ -129,7 +142,8 @@ def main():
     acum = defaultdict(lambda: defaultdict(list))
     for (cid, mid), docs in sorted(grupos.items()):
         temas = temario[mid]['temas']
-        ex = [{'anio': d['anio'], 'conv': d['conv'], 'url': d['url'], 'hits': etiqueta(txt, temas), 'txt': txt} for d, txt in docs]
+        ex = [{'anio': d['anio'], 'conv': d['conv'], 'url': d['url'], 'hits': etiqueta(txt, temas), 'txt': txt, 'var': d.get('variante')} for d, txt in docs]
+        ex = agrupa_variantes(ex)
         reg = {'nombre': temario[mid]['nombre'], 'n_examenes': len(ex), 'anios': sorted({e['anio'] for e in ex}),
                'examenes': [{'anio': e['anio'], 'conv': e['conv'], 'url': e['url']} for e in sorted(ex, key=lambda e: (e['anio'], e['conv']))]}
         if temas:

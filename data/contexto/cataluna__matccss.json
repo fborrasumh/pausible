@@ -1,7 +1,7 @@
 {
 "ccaa": "cataluna",
 "materia": "matccss",
-"generado": "2026-11-19",
+"generado": "2026-11-23",
 "formato": [
 {
 "anio": 2026,
@@ -26,15 +26,15 @@
 },
 {
 "anio": 2026,
-"conv": "ext",
+"conv": "nd",
 "url": "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/matematiques-aplicades-cc/ext/pau_macs26e.pdf",
 "texto": "Exercici 2\n\n a) Considerem les variables 𝑥, 𝑦 i 𝑧, que corresponen al nombre d’alumnes que\n han anat a Roma, que han anat a Londres i que no han marxat enlloc,\n respectivament. Obtenim el següent sistema d’equacions:\n\n 𝑥 + 𝑦 + 𝑧 = 84\n {\n 3𝑦 − 𝑧 = 0\n\n Apliquem el mètode de Gauss prenent les variables en l’ordre 𝑥, 𝑦 i 𝑧 i obtenim\n la matriu:\n\n 1 1 1 84\n ( | )\n 0 3 −1 0\n\n Clarament, es tracta d’un sistema compatible indeterminat, ja que tenim dues\n equacions i tres incògnites. Per tant, no és possible determinar quants alumnes\n han anat a cada viatge i quants no han marxat.\n\n b) Resolem el sistema anterior fent servir com a paràmetre la variable 𝑦, obtenim\n 𝑧 = 3𝑦 i 𝑥 = 84 − 𝑦 − 𝑧 = 84 − 4𝑦 = 4(21 − 𝑦). Veiem clarament que,\n efectivament, el nombre d’alumnes que no han marxat enlloc, 𝑧, és múltiple de 3\n i que el nombre d’alumnes que han anat a Roma, 𝑥, és múltiple de 4.\n c) Ara afegim la …"
 },
 {
 "anio": 2025,
-"conv": "ext",
-"url": "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/matematiques-aplicades-cc/ext/pau_macs25sl.pdf",
-"texto": "Exercici 4\n Una empresa fabrica cotxes elèctrics i cotxes de motor de combustió. L’empresa té tres\n línies de fabricació: L1, L2 i L3. La taula següent mostra el nombre de vehicles de cada tipus\n que hi ha en aquest moment en cada línia. D’altra banda, sabem que el preu de venda dels\n vehicles elèctrics és de 40.000 € i el preu de venda dels vehicles de motor de combustió és de\n 30.000 €.\n Cotxes elèctrics Cotxes de motor de combustió\n L1 20 80\n L2 30 100\n L3 40 110\n El cost mitjà de manteniment i consum per cada 100 km és d’1 € per als vehicles elèctrics\n i de 6 € per als de motor de combustió.\n El 2 % de la producció de vehicles de motor de combustió surt de l’empresa amb algun\n defecte, mentre que només l’1 % dels vehicles elèctrics surt amb alguna tara.\n\n Trieu UNA de les dues opcions (A o B) i responeu a les qüestions que s’hi plantegen.\n OPCIÓ A\n a) Obteniu, mitjançant un producte …"
+"conv": "ord",
+"url": "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/matematiques-aplicades-cc/ord/pau_macs25jl.pdf",
+"texto": "Exercici 4\n Al Congrés Català d’Educació Matemàtica (C2EM), que se celebrarà a Lleida el proper\n mes de juliol, hi assistiran docents d’universitat, d’educació secundària i d’educació infantil\n i primària.\n A hores d’ara, un 10 % dels docents inscrits són d’universitat, un 50 % són de secundària\n i la resta són d’infantil i primària. D’altra banda, un 40 % dels docents inscrits d’universitat,\n un 52 % dels docents inscrits de secundària i un 65 % dels docents inscrits d’infantil i primària\n són dones.\n\n Trieu UNA de les dues opcions (A o B) i responeu a les qüestions que s’hi plantegen.\n OPCIÓ A\n a) Calculeu la probabilitat que una persona escollida a l’atzar d’entre tots els inscrits\n sigui una dona. Si d’entre totes les dones inscrites n’escollim una a l’atzar, quina pro-\n babilitat hi ha que sigui docent de secundària?\n [1,25 punts]\n b) Calculeu el nombre de docents que s’han inscrit …"
 }
 ],
 "progl": [],
@@ -47,15 +47,15 @@
 },
 {
 "anio": 2026,
-"conv": "ext",
+"conv": "nd",
 "url": "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/matematiques-aplicades-cc/ext/pau_macs26e.pdf",
 "texto": "Exercici 1\n\n a) Comencem calculant l’ingrés setmanal en funció del preu.\n\n 𝐼(𝑝) = 𝑝 ⋅ 𝑑(𝑝 ) = 𝑝 (500 − 10𝑝 − 𝑝2 ) = 500𝑝 − 10𝑝2 − 𝑝3 ,\n\n per a valors de 𝑝 tals que 0 < 𝑝 < 15.\n\n Per a trobar el màxim, hem de calcular la derivada d’aquesta funció\n\n 𝐼’(𝑝) = 500 − 20𝑝 − 3𝑝2 .\n\n L’igualem a zero, 𝐼’(𝑝) = 0,\n\n 500 − 20𝑝 − 3𝑝2 = 0.\n\n I resolem l’equació de segon grau\n\n 20 ± √(−20)2 − 4(−3)(500) 20 ± √6400 20 ± 80\n 𝑝= = = .\n 2(−3) 2(−3) −6\n 50\n Trobem dues solucions, − i 10. En el context del problema, només té sentit la\n 3\n solució positiva 𝑝 = 10 €.\n\n Com que la derivada és contínua, per a comprovar que efectivament es tracta\n d’un màxim, estudiem el signe de la derivada abans i després d’aquest valor:\n\n 𝐼′(9) = 77 𝑖 𝐼′(11) = −83.\n\n Observem, per tant, que la funció és creixent per a valors inferiors a 𝑝 = 10 i és\n decreixent per a valors superiors. Per tant, a 𝑝 = 10 hi trobem un màxim. La\n …"
 },
 {
-"anio": 2025,
-"conv": "ext",
-"url": "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/matematiques-aplicades-cc/ord/pau_macs25jl_es_tei.pdf",
-"texto": "3. Venta. La estrategia de venta y el precio de los paquetes se determinan realizando un\n estudio de mercado.\n\n Escoja UNA de las dos opciones (A o B) y responda a las cuestiones que se plantean.\n OPCIÓN A\n a) La empresa necesita 300 litros de aceite, 700 kg de harina y 25 kg de sal. Escriba esta\n información junto con los precios por producto de cada proveedor en forma matricial\n (dejando muy claro qué representan las filas y las columnas) y calcule mediante un\n producto de matrices el coste total del pedido por cada proveedor. ¿Cuál de los tres\n proveedores es el más económico?\n [1,25 puntos]\n b) Cada paquete de pasta tiene un coste total de producción de 0,5 €. Si la empresa lo\n vende por 1,1 €, se venden 1.000 paquetes diarios de pasta. También han comprobado\n que la relación entre el precio de venta y el número de paquetes vendidos es lineal,\n de forma que por cada 0,01 € que se sub…"
+"anio": 2024,
+"conv": "nd",
+"url": "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2024/matematiques-aplicades-cc/ext/pau_macs24sl_es.pdf",
+"texto": "1. Los beneficios o pérdidas diarios de una nueva empresa durante su primer año de funcio-\n namiento vienen dados por la función B(x) = –x2 + 260x – 12.000, en la que x representa\n el día desde el inicio de la actividad de la empresa.\n a) ¿Qué beneficio o pérdida tuvo la empresa el día 45? ¿Qué días obtuvo un beneficio de\n 4.000 €?\n [1 punto]\n\n–2–\n\fb) Calcule qué día la empresa obtuvo el beneficio máximo y cuál es este valor. Calcule\n también entre qué días la empresa no tuvo pérdidas.\n [1,5 puntos]\n\n Espai per a la correcció\n a"
 }
 ],
 "integrales": [],
@@ -68,15 +68,15 @@
 },
 {
 "anio": 2026,
-"conv": "ext",
+"conv": "nd",
 "url": "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/matematiques-aplicades-cc/ext/pau_macs26e.pdf",
 "texto": "Exercici 3\n\n a) Considerem els esdeveniments:\n\n 𝑃1 = l’estudiant és de primer any\n\n 𝑃2 = l’estudiant és de segon any\n\n 𝐴 = l’estudiant aprova l’assignatura\n\n A partir de l’enunciat, sabem les probabilitats següents:\n\n 𝑃(𝑃1 ) = 0,70, 𝑃(𝑃2 ) = 1 − 0,70 = 0,30\n\n 𝑃(𝐴|𝑃1 ) = 0,60, 𝑃(𝐴|𝑃2 ) = 0,85\n\n Per a calcular la probabilitat que un estudiant escollit a l’atzar aprovi, utilitzem el\n teorema de les probabilitats totals:\n\n 𝑃(𝐴) = 𝑃(𝐴 ∩ 𝑃1 ) + 𝑃(𝐴 ∩ 𝑃2 ) = 𝑃(𝐴|𝑃1 )𝑃(𝑃1 ) + 𝑃(𝐴|𝑃2 )𝑃(𝑃2 )\n = (0,60 × 0,70) + (0,85 × 0,30) = 0,42 + 0,255 = 0,675\n\n Per tant, la probabilitat que un estudiant escollit a l’atzar aprovi l’assignatura és\n de 0,675.\n\n També ho podem plantejar mitjançant un diagrama d’arbre:\n\n 0,6 Aprova\n Primer\n curs\n 0,7 0,4 No aprova\n\n 0,85\n 0,3 Aprova\n Segon\n curs\n 0,15 No aprova\n\n Ara hem de calcular quina és la probabilitat que un estudiant sigui de primer curs,\n si sabem que ha a…"
 },
 {
 "anio": 2025,
-"conv": "ext",
-"url": "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/matematiques-aplicades-cc/ext/pau_macs25sl.pdf",
-"texto": "Exercici 3\n En un parc natural, els visitants hi poden accedir en cotxe, en bicicleta o a peu. Un cop\n dins del parc, els visitants poden fer una ruta guiada o bé visitar-lo pel seu compte.\n a) Sabem que el 60 % dels visitants hi accedeixen en cotxe, el 15 % en bicicleta i el 25 %\n restant a peu. També sabem que dels que hi arriben en cotxe el 80 % fan la ruta guiada,\n mentre que dels que hi arriben en bicicleta la fan el 60 % i dels que hi arriben a peu\n només la fan el 30 %.\n Si escollim un visitant a l’atzar, quina és la probabilitat que faci la ruta guiada? Si\n sabem que ha fet la ruta guiada, quina és la probabilitat que hagi accedit al parc en\n cotxe?\n [1,25 punts]\n\n6\n\fb) Volem fer un estudi del temps que passen de mitjana els visitants dins del parc. Hem\n preguntat a 100 visitants quanta estona han estat dins del parc i hem obtingut una\n mitjana de 231 minuts amb una desviació típ…"
+"conv": "ord",
+"url": "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/matematiques-aplicades-cc/ord/pau_macs25jl.pdf",
+"texto": "Exercici 3\n Fa uns anys una granja de vaques frisones dedicada a la producció de llet va fer un estudi\n sobre el pes de les seves vaques i va arribar a la conclusió que aquesta variable seguia una\n distribució normal amb una mitjana de 580 kg i una desviació típica de 25 kg.\n\n Fórmules per a resoldre l’exercici:\n • Z ∼ normal (0, 1) → P(–1,96 ≤ Z ≤ 1,96) = 0,95 i P(–2,58 ≤ Z ≤ 2,58) = 0,99\n • Intervals de confiança amb un nivell de confiança γ ∈ (0, 1)\n — per a la proporció (mostres grans):\n\n — per a la mitjana (mostres normals amb la variància σ2 coneguda):\n\n — per a la mitjana (mostres grans amb la variància σ2 desconeguda):\n\n a) Calculeu, de manera raonada, la probabilitat que si agafem a l’atzar una vaca frisona\n d’aquesta granja, el seu pes estigui entre 531 i 629 kg.\n [1 punt]\n\n6\n\fb) Creiem que un canvi en el tipus de farratge que es dona a les vaques n’ha modificat la\n mitjana del…"
 }
 ],
 "inferencia": [
@@ -88,15 +88,15 @@
 },
 {
 "anio": 2026,
-"conv": "ext",
+"conv": "nd",
 "url": "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2026/matematiques-aplicades-cc/ext/pau_macs26e.pdf",
 "texto": "Exercici 4\nOPCIÓ A\n\n a) Durant el curs passat es van dur a terme 96 + 84 = 180 activitats presencials,\n d’un total de 240 activitats. Per tant, la probabilitat que una inscripció\n correspongui a una activitat presencial és\n 180\n 𝑝 = 𝑃(presencial) = = 0,75.\n 240\n\n Per tant, la probabilitat que una inscripció sigui d’una activitat no presencial és\n 𝑞 = 1 − 𝑝 = 0,25.\n\n Considerem la variable aleatòria\n 𝑋 = nombre d’inscripcions a activitats presencials.\n\n Atès que es reben 15 inscripcions independents, la variable 𝑋 segueix una\n distribució binomial\n 𝑋 ∼ B(15, 0,75).\n\n La probabilitat que exactament 10 de les 15 inscripcions siguin per a activitats\n presencials és\n 15\n 𝑃(𝑋 = 10) = ( ) (0,75)10 (0,25)5 ≈ 0,1651.\n 10\n\n El valor esperat d’una variable binomial és\n 𝐸(𝑋) = 𝑛 ⋅ 𝑝 = 15 ⋅ 0,75 = 11,25.\n\n És a dir, la probabilitat que hi hagi exactament 10 inscripcions d’activitats\n presencials és d…"
 },
 {
 "anio": 2025,
-"conv": "ext",
-"url": "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/matematiques-aplicades-cc/ext/pau_macs25sl_es.pdf",
-"texto": "Ejercicio 3\n En un parque natural, los visitantes pueden acceder en coche, en bicicleta o a pie. Una vez\n dentro del parque, los visitantes pueden hacer una ruta guiada o bien visitarlo por su cuenta.\n a) Se sabe que el 60 % de los visitantes acceden al parque en coche, el 15 % en bicicleta y\n el 25 % restante a pie. También se sabe que de los que llegan en coche el 80 % hacen la\n ruta guiada, mientras que de los que llegan en bicicleta la hacen el 60 % y de los que\n llegan a pie solo la hacen el 30 %.\n Si se escoge un visitante al azar, ¿cuál es la probabilidad de que haga la ruta guiada?\n Si se sabe que ha hecho la ruta guiada, ¿cuál es la probabilidad de que haya accedido\n al parque en coche?\n [1,25 puntos]\n\n6\n\fb) Se quiere realizar un estudio del tiempo que pasan de media los visitantes dentro\n del parque. Se ha preguntado a 100 visitantes cuánto rato han permanecido den-\n tro del pa…"
+"conv": "ord",
+"url": "https://universitats.gencat.cat/web/.content/06_pau/models-examen-anys-anteriors/examens-2025/matematiques-aplicades-cc/ord/pau_macs25jl_es.pdf",
+"texto": "Ejercicio 3\n Hace unos años una granja de vacas frisonas dedicada a la producción de leche realizó\n un estudio sobre el peso de sus vacas y llegó a la conclusión de que esta variable seguía una\n distribución normal con una media de 580 kg y una desviación típica de 25 kg.\n\n Fórmulas para resolver el ejercicio:\n • Z ∼ normal (0, 1) → P(–1,96 ≤ Z ≤ 1,96) = 0,95 y P(–2,58 ≤ Z ≤ 2,58) = 0,99\n • Intervalos de confianza con un nivel de confianza γ ∈ (0, 1)\n — para la proporción (muestras grandes):\n\n — para la media (muestras normales con la varianza σ2 conocida):\n\n — para la media (muestras grandes con la varianza σ2 desconocida):\n\n a) Calcule, de forma razonada, la probabilidad de que si se coge al azar una vaca frisona\n de esta granja, su peso esté entre 531 y 629 kg.\n [1 punto]\n\n6\n\fb) Se cree que un cambio en el tipo de forraje que se da a las vacas ha modificado la media\n de su peso. Para …"
 }
 ]
 }

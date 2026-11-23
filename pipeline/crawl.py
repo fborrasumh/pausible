@@ -261,7 +261,9 @@ def texto_pdf(pdf, txt):
 def clasifica(url, info, anios):
     fich = fichero_de(url)
     mat = materia_de(fich, info['texto'], info['contexto']) or materia_abrev(fich, info['texto'])
-    anio = anio_de(fich, info['texto'], url, info['contexto'], info.get('titulo', ''), info.get('pagina', ''), info.get('ruta', ''), anios=anios)
+    a_enl = anio_de(info['texto'], anios=range(2000, 2040))      # «Alemán 2018-2019»: el curso del enlace manda
+    if a_enl and a_enl not in anios: return mat, None, 'nd', 'fuera'
+    anio = a_enl or anio_de(fich, info['texto'], url, info['contexto'], info.get('titulo', ''), info.get('pagina', ''), info.get('ruta', ''), anios=anios)
     conv = conv_de(fich, info['texto'], info['contexto'])
     if conv == 'nd' and info.get('ruta'):            # carpeta «Junio»/«Julio» más cercana en el camino de enlaces
         conv = next((c for c in (conv_de(x) for x in reversed(info['ruta'].split('›'))) if c != 'nd'), 'nd')
@@ -415,6 +417,7 @@ def rastrea(cid, cc, cfg, anios, s, sin_descarga, tiempo):
     pend = []
     for url, info in encontrados.items():
         mat, anio, conv, tipo = clasifica(url, info, anios)
+        if tipo == 'fuera': continue                    # el enlace dice un curso fuera de 2022-2026
         if not anio:
             if not cc.get('cabecera_manda'): continue   # fuera de 2022-2026 o sin año reconocible
             anio = 0                                    # se decide con la cabecera del PDF al descargarlo
