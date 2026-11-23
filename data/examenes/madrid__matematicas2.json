@@ -1,0 +1,130 @@
+{
+ "ccaa": "madrid",
+ "materia": "matematicas2",
+ "titulo": "Simulacro original orientativo de Matemáticas II — PAU 2027, Comunidad de Madrid",
+ "duracion_min": 90,
+ "instrucciones": "Responda razonadamente a las tres preguntas obligatorias, escogiendo en la pregunta 3 una sola opción para el apartado b. Además, responda a una de las dos opciones de la pregunta 4 y a una de las dos opciones de la pregunta 5. Todas las respuestas deberán estar debidamente justificadas. Cada pregunta se calificará sobre 2 puntos. En las preguntas 4 y 5, cualquiera de las dos opciones tiene una calificación máxima de 2 puntos.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "matrices",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Una estación de inspección representa mediante matrices las transformaciones lineales que aplica a los datos de sus sensores. Se consideran las matrices $A=\\begin{pmatrix}1&1&0\\\\0&1&1\\\\0&0&2\\end{pmatrix}$ y $B=\\begin{pmatrix}1&0\\\\1&1\\\\2&0\\end{pmatrix}$.\\n\\na) (1 punto) Calcule $\\det(A)$ y determine si la transformación repetida $2027$ veces, representada por $A^{2027}$, es invertible.\\n\\nb) (1 punto) Halle la matriz $X$ de tamaño $3\\times 2$ que verifica $AX=B$.",
+   "solucion": "### a) Determinante e invertibilidad\nLa matriz $A$ es triangular superior, así que su determinante es el producto de los elementos de la diagonal:\n\n$$\\det(A)=1\\cdot 1\\cdot 2=2.$$\n\nPor la propiedad del determinante de una potencia,\n\n$$\\det(A^{2027})=\\det(A)^{2027}=2^{2027}\\ne 0.$$\n\nPor tanto, $A^{2027}$ es invertible.\n\n### b) Cálculo de $X$\nEn vez de calcular explícitamente $A^{-1}$, resolvemos $AX=B$ mediante sustitución regresiva por filas. Escribimos $X_{i,*}$ para la fila $i$ de $X$. Las ecuaciones son:\n\n$$2X_{3,*}=(2,0),\\qquad X_{2,*}+X_{3,*}=(1,1),\\qquad X_{1,*}+X_{2,*}=(1,0).$$\n\nDe la primera ecuación, $X_{3,*}=(1,0)$. Luego, la segunda da $X_{2,*}=(0,1)$, y la tercera, $X_{1,*}=(1,-1)$. Por tanto,\n\n$$X=\\begin{pmatrix}1&-1\\\\0&1\\\\1&0\\end{pmatrix}.$$\n\n**Comprobación:**\n\n$$AX=\\begin{pmatrix}1&1&0\\\\0&1&1\\\\0&0&2\\end{pmatrix}\\begin{pmatrix}1&-1\\\\0&1\\\\1&0\\end{pmatrix}=\\begin{pmatrix}1&0\\\\1&1\\\\2&0\\end{pmatrix}=B.$$\n\nLa matriz obtenida satisface la ecuación; además, como $A$ es invertible, la solución es única.",
+   "resultado": "$\\det(A)=2$; $A^{2027}$ es invertible; $X=\\begin{pmatrix}1&-1\\\\0&1\\\\1&0\\end{pmatrix}$.",
+   "criterios": "Total: 2 puntos. a) 0,5 puntos por calcular correctamente $\\det(A)=2$; 0,5 puntos por justificar que $\\det(A^{2027})=2^{2027}\\ne0$ y concluir que es invertible. b) 0,5 puntos por plantear y resolver correctamente las ecuaciones de $AX=B$; 0,5 puntos por escribir la matriz $X$ correcta. La comprobación de $AX=B$ confirma el resultado.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "2",
+   "tema": "derivadas",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Una cooperativa quiere habilitar una zona rectangular junto a una nave, cuya pared recta se utilizará como uno de los lados de la zona. Para cercar los otros tres lados dispone de $60$ metros de valla. ¿Qué dimensiones debe tener la zona para que su área sea máxima? Justifique que las dimensiones obtenidas proporcionan un máximo.",
+   "solucion": "Sea $x$ la distancia perpendicular a la nave y $y$ la longitud paralela a la pared del lado que se cerca. La valla cubre dos lados de longitud $x$ y uno de longitud $y$, por lo que $2x+y=60$ y, en consecuencia, $y=60-2x$, con $0<x<30$. El área es $A=xy=x(60-2x)=-2x^2+60x=-2(x-15)^2+450$. Como $(x-15)^2\\geq 0$, se tiene $A\\leq 450$, y la igualdad se alcanza únicamente cuando $x=15$. Entonces $y=60-2\\cdot15=30$. Por tanto, el área máxima es $450\\,\\text{m}^2$ y las dimensiones son $15$ m de fondo y $30$ m a lo largo de la pared. Comprobación: la valla utilizada es $2\\cdot15+30=60$ m y el área es $15\\cdot30=450\\,\\text{m}^2$.",
+   "resultado": "15 m de fondo y 30 m a lo largo de la pared; área máxima: 450 m².",
+   "criterios": "2 puntos: 0,4 por definir las variables y establecer correctamente la restricción; 0,4 por expresar el área en función de una variable; 0,7 por completar el cuadrado y justificar que se obtiene un máximo; 0,3 por indicar las dimensiones con sus unidades y comprobar la valla utilizada.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "geometria",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Se consideran el punto $P(1,0,0)$, el plano $\\pi: 2x+y+2z=3$ y la recta $r: (x,y,z)=(0,1,0)+t(1,0,-1)$, con $t\\in\\mathbb{R}$.\\n\\na) (1 punto) Halle las coordenadas del punto simétrico de $P$ respecto del plano $\\pi$.\\n\\nb) (1 punto) Responda solo a uno de los dos apartados siguientes:\\n\\nb1) Calcule la distancia entre la recta $r$ y el plano $\\pi$.\\n\\nb2) Halle una ecuación del plano que contiene a la recta $r$ y es perpendicular al plano $\\pi$.",
+   "solucion": "Elijo responder al apartado b1).\n\n### a) Simétrico de $P$ respecto de $\\pi$\n\nUn vector normal al plano es $n=(2,1,2)$ y su norma al cuadrado es $\\|n\\|^2=2^2+1^2+2^2=9$. Para $P=(1,0,0)$, se tiene $n\\cdot P-3=2-3=-1$. La reflexión de un punto respecto del plano $n\\cdot X=3$ viene dada por\n\n$$P'=P-2\\frac{n\\cdot P-3}{\\|n\\|^2}n.$$\n\nPor tanto,\n\n$$P'=(1,0,0)-2\\frac{-1}{9}(2,1,2)=(1,0,0)+\\frac{2}{9}(2,1,2)=\\left(\\frac{13}{9},\\frac{2}{9},\\frac{4}{9}\\right).$$\n\n### b1) Distancia entre $r$ y $\\pi$\n\nLa recta pasa por $A=(0,1,0)$ y tiene vector director $v=(1,0,-1)$. Como\n\n$$n\\cdot v=(2,1,2)\\cdot(1,0,-1)=2-2=0,$$\n\nla recta es paralela al plano. La distancia entre ellos es, por tanto, la distancia de $A$ al plano:\n\n$$d(r,\\pi)=\\frac{|2\\cdot0+1+2\\cdot0-3|}{\\sqrt{2^2+1^2+2^2}}=\\frac{2}{3}.$$\n\nAsí, el simétrico es $\\left(\\frac{13}{9},\\frac{2}{9},\\frac{4}{9}\\right)$ y la distancia pedida en el apartado elegido es $\\frac{2}{3}$.",
+   "resultado": "a) $P'=\\left(\\frac{13}{9},\\frac{2}{9},\\frac{4}{9}\\right)$; b1) $d(r,\\pi)=\\frac{2}{3}$.",
+   "criterios": "Total: 2 puntos. a) 1 punto: 0,25 por identificar un vector normal al plano y aplicar correctamente la fórmula de reflexión; 0,25 por determinar el factor de proyección; 0,5 por obtener las tres coordenadas correctas. b1) 1 punto: 0,25 por comprobar que la recta es paralela al plano; 0,5 por plantear y calcular la distancia de un punto de la recta al plano; 0,25 por expresar correctamente el resultado. Se corrige únicamente b1), que es la opción elegida.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "4.1",
+   "tema": "probabilidad",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En una línea de producción se controla el error de medida de unos sensores. El error $X$, expresado en las unidades correspondientes, sigue una distribución normal $N(0,2^2)$. Una medida se acepta si su error está entre $-2$ y $2$, ambos incluidos. Puede utilizar que, para una normal estándar $Z$, $P(Z\\leq 1)=0{,}8413$.\\n\\na) (1 punto) Calcule la probabilidad de que una medida elegida al azar sea aceptada.\\n\\nb) (1 punto) Se examinan cuatro medidas independientes. Calcule la probabilidad de que al menos tres sean aceptadas. Dé el resultado aproximado con cuatro cifras decimales.",
+   "solucion": "### a) Probabilidad de aceptación\n\nComo $X\\sim N(0,2^2)$, al tipificar se obtiene $Z=\\frac{X}{2}\\sim N(0,1)$. Por tanto,\n\n$$\nP(-2\\leq X\\leq 2)=P(-1\\leq Z\\leq 1).\n$$\n\nPor simetría de la normal estándar, $P(Z\\leq -1)=1-P(Z\\leq 1)=1-0{,}8413=0{,}1587$. Luego,\n\n$$\np=P(-1\\leq Z\\leq 1)=0{,}8413-0{,}1587=0{,}6826.\n$$\n\nLa probabilidad de que una medida sea aceptada es $0{,}6826$.\n\n### b) Al menos tres medidas aceptadas\n\nSea $Y$ el número de medidas aceptadas entre las cuatro. Por independencia, $Y\\sim B(4,0{,}6826)$. Así,\n\n$$\nP(Y\\geq 3)=P(Y=3)+P(Y=4)\n=\\binom{4}{3}(0{,}6826)^3(1-0{,}6826)+(0{,}6826)^4.\n$$\n\nEvaluando,\n\n$$\nP(Y\\geq 3)=0{,}6209021451\\ldots\\approx 0{,}6209.\n$$",
+   "resultado": "a) 0,6826; b) 0,6209",
+   "criterios": "a) 1 punto: 0,5 por tipificar correctamente los límites y expresar el suceso como P(-1 ≤ Z ≤ 1); 0,5 por usar la simetría y obtener 0,6826. b) 1 punto: 0,5 por plantear el modelo binomial y sumar las probabilidades de exactamente tres y exactamente cuatro aceptadas; 0,5 por calcular y redondear correctamente a 0,6209.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.2",
+   "tema": "sistemas",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "Un modelo lineal para tres magnitudes $x,y,z$ depende de un parámetro real $a$ y viene dado por el sistema $\\begin{cases}x+y+z=1,\\\\x-y+z=0,\\\\x+y+az=1.\\end{cases}$\\n\\na) (1 punto) Discuta el sistema según los valores de $a$, indicando cuándo es compatible determinado, compatible indeterminado o incompatible.\\n\\nb) (1 punto) Para $a=1$, resuelva el sistema.",
+   "solucion": "### Método: combinaciones lineales\nEn lugar de calcular el determinante, restamos ecuaciones para obtener directamente las condiciones del sistema.\n\nRestando la segunda ecuación de la primera:\n$$ (x+y+z)-(x-y+z)=1-0 \\quad\\Longrightarrow\\quad 2y=1 \\quad\\Longrightarrow\\quad y=\\frac12. $$\n\nRestando la primera ecuación de la tercera:\n$$ (x+y+az)-(x+y+z)=1-1 \\quad\\Longrightarrow\\quad (a-1)z=0. $$\n\nCon $y=\\frac12$, la primera ecuación queda $x+z=\\frac12$.\n\n### a) Discusión\n- Si $a\\neq 1$, la condición $(a-1)z=0$ obliga a que $z=0$. Entonces $x=\\frac12$ e $y=\\frac12$. El sistema es **compatible determinado**.\n- Si $a=1$, la tercera ecuación coincide con la primera y queda la relación $x+z=\\frac12$, con $y=\\frac12$. Hay infinitas soluciones, así que el sistema es **compatible indeterminado**.\n- No hay ningún valor de $a$ para el que el sistema sea **incompatible**.\n\n### b) Para $a=1$\nLa familia de soluciones es\n$$ (x,y,z)=\\left(t,\\frac12,\\frac12-t\\right),\\qquad t\\in\\mathbb R. $$\n\n**Comprobación:** al sustituir esta familia, la primera y la tercera ecuaciones dan $t+\\frac12+\\frac12-t=1$, y la segunda da $t-\\frac12+\\frac12-t=0$. Por tanto, todas las soluciones indicadas satisfacen el sistema.",
+   "resultado": "Si $a\\neq 1$, el sistema es compatible determinado y $(x,y,z)=(1/2,1/2,0)$. Si $a=1$, es compatible indeterminado: $(x,y,z)=(t,1/2,1/2-t)$, con $t\\in\\mathbb R$. Nunca es incompatible.",
+   "criterios": "Total: 2 puntos. a) 1 punto: 0,25 por obtener $y=1/2$ mediante una combinación de ecuaciones; 0,25 por obtener $(a-1)z=0$; 0,50 por clasificar correctamente los casos y señalar que no hay incompatibilidad. b) 1 punto: 0,30 por reducir correctamente el sistema para $a=1$ a $y=1/2$ y $x+z=1/2$; 0,50 por expresar la familia completa de soluciones; 0,20 por comprobar la sustitución.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5.1",
+   "tema": "integrales",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En el plano de diseño de una zona ajardinada, su perfil superior viene representado por la parábola $y=4x-x^2$, para $0\\leq x\\leq 4$, y su base está sobre el eje de abscisas. Calcule el área de la región delimitada por el perfil y la base.",
+   "solucion": "La parábola y la base delimitan la región entre $x=0$ y $x=4$. En ese intervalo, $4x-x^2=x(4-x)\\geq 0$, por lo que el área se calcula integrando el perfil respecto del eje de abscisas:\n\n$$A=\\int_0^4(4x-x^2)\\,dx.$$\n\nUna primitiva es $2x^2-\\frac{x^3}{3}$. Por tanto,\n\n$$A=\\left[2x^2-\\frac{x^3}{3}\\right]_0^4=32-\\frac{64}{3}=\\frac{32}{3}.$$\n\nEl área de la región es $\\frac{32}{3}$ unidades cuadradas.",
+   "resultado": "$A=\\frac{32}{3}$ unidades cuadradas.",
+   "criterios": "2 puntos: 0,5 por establecer correctamente los límites y el planteamiento de la integral; 0,75 por hallar una primitiva correcta; 0,5 por evaluar la integral; 0,25 por expresar el resultado como área en unidades cuadradas. Se admite cualquier procedimiento equivalente correcto.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5.2",
+   "tema": "limites",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Calcule los siguientes límites:\\n\\na) (1 punto) $\\displaystyle\\lim_{x\\to 0}\\frac{e^{3x}-1}{x}$.\\n\\nb) (1 punto) $\\displaystyle\\lim_{x\\to +\\infty}\\left(\\sqrt{9x^2+2x}-3x\\right)$.",
+   "solucion": "### a)\nUsamos el límite notable $\\displaystyle \\lim_{u\\to 0}\\frac{e^u-1}{u}=1$. Tomando $u=3x$, cuando $x\\to 0$ también $u\\to 0$, y\n$$\n\\frac{e^{3x}-1}{x}=3\\,\\frac{e^{3x}-1}{3x}\\longrightarrow 3\\cdot 1=3.\n$$\nPor tanto, $\\displaystyle \\lim_{x\\to 0}\\frac{e^{3x}-1}{x}=3$.\n\n### b)\nRacionalizamos la diferencia. Como $x\\to +\\infty$, se tiene $x>0$ y podemos escribir\n$$\n\\sqrt{9x^2+2x}-3x\n=\\frac{(9x^2+2x)-9x^2}{\\sqrt{9x^2+2x}+3x}\n=\\frac{2x}{\\sqrt{9x^2+2x}+3x}\n=\\frac{2}{\\sqrt{9+\\frac{2}{x}}+3}.\n$$\nAl hacer $x\\to +\\infty$, $\\frac{2}{x}\\to 0$, luego\n$$\n\\lim_{x\\to +\\infty}\\left(\\sqrt{9x^2+2x}-3x\\right)\n=\\frac{2}{\\sqrt{9}+3}=\\frac{1}{3}.\n$$",
+   "resultado": "a) 3; b) 1/3.",
+   "criterios": "a) (1 punto): 0,5 puntos por transformar el cociente usando u=3x y aplicar correctamente el límite notable; 0,5 puntos por obtener y expresar el resultado 3. b) (1 punto): 0,5 puntos por racionalizar correctamente y simplificar la expresión; 0,5 puntos por calcular el límite resultante y obtener 1/3.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-23",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "derivadas",
+   "p": 0.854
+  },
+  {
+   "id": "integrales",
+   "p": 0.854
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.854
+  },
+  {
+   "id": "geometria",
+   "p": 0.797
+  },
+  {
+   "id": "sistemas",
+   "p": 0.707
+  },
+  {
+   "id": "matrices",
+   "p": 0.696
+  }
+ ],
+ "referencias": [
+  "https://drive.google.com/file/d/1NM1gOswmsko_2IXGCo8wg21UEhWeK7wx/view?usp=sharing",
+  "https://drive.google.com/file/d/1UWVjjaylAJAONJXLNKG2A-8yaw2U25LM/view?usp=drive_link",
+  "https://drive.google.com/file/d/1Hx-IZOFmrEH0I_M9xiGqYQfEig3J9krH/view?usp=drive_link",
+  "https://drive.google.com/file/d/1NM1gOswmsko_2IXGCo8wg21UEhWeK7wx/view?usp=sharing",
+  "https://drive.google.com/file/d/1UWVjjaylAJAONJXLNKG2A-8yaw2U25LM/view?usp=drive_link",
+  "https://www.ucm.es/file/matemÁticas-ii-25"
+ ]
+}
