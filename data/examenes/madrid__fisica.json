@@ -1,0 +1,130 @@
+{
+ "ccaa": "madrid",
+ "materia": "fisica",
+ "titulo": "Física — PAU 2027 (modelo original de práctica)",
+ "duracion_min": 90,
+ "instrucciones": "Responda obligatoriamente a la pregunta 1. Además, elija una sola pregunta entre 2.A y 2.B, una entre 3.A y 3.B y una entre 4.A y 4.B. Cada pregunta elegida se calificará sobre 2,5 puntos; la puntuación máxima total es de 10 puntos. En cada apartado se indica su valoración. Exprese los resultados con sus unidades.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "gravitacion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una sonda de cartografiado describe una órbita circular alrededor de un planeta rocoso. El análisis Doppler de sus comunicaciones permite estimar que la órbita tiene un radio de $1,0\\times10^{7}\\,\\mathrm{m}$ y que la rapidez de la sonda es de $2,0\\times10^{3}\\,\\mathrm{m\\,s^{-1}}$. La masa de la sonda es de $500\\,\\mathrm{kg}$. Determine: a) (1 punto) La masa del planeta. b) (1 punto) El periodo orbital de la sonda. c) (0,5 puntos) La energía mecánica de la sonda en esa órbita. Dato: constante de gravitación universal, $G=6,67\\times10^{-11}\\,\\mathrm{N\\,m^{2}\\,kg^{-2}}$.",
+   "solucion": "### a) Masa del planeta\n\nEn una órbita circular, la fuerza gravitatoria proporciona la fuerza centrípeta:\n\n$$\\frac{GMm}{r^2}=\\frac{mv^2}{r}$$\n\nSe simplifica la masa de la sonda $m$ y se despeja $M$:\n\n$$M=\\frac{v^2r}{G}=\\frac{(2,0\\times10^3\\,\\mathrm{m\\,s^{-1}})^2(1,0\\times10^7\\,\\mathrm{m})}{6,67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}}=5,997\\times10^{23}\\,\\mathrm{kg}$$\n\nCon las cifras significativas de los datos: $M\\approx 6,0\\times10^{23}\\,\\mathrm{kg}$.\n\n### b) Periodo orbital\n\nEl periodo es la longitud de la órbita dividida por la rapidez:\n\n$$T=\\frac{2\\pi r}{v}=\\frac{2\\pi(1,0\\times10^7\\,\\mathrm{m})}{2,0\\times10^3\\,\\mathrm{m\\,s^{-1}}}=3,1416\\times10^4\\,\\mathrm{s}$$\n\nCon las cifras significativas de los datos: $T\\approx 3,1\\times10^4\\,\\mathrm{s}$.\n\n### c) Energía mecánica\n\nLa energía mecánica es la suma de las energías cinética y potencial gravitatoria. De la condición de órbita circular, $GM/r=v^2$:\n\n$$E=K+U=\\frac12 mv^2-\\frac{GMm}{r}=\\frac12 mv^2-mv^2=-\\frac12 mv^2$$\n\nPor tanto,\n\n$$E=-\\frac12(500\\,\\mathrm{kg})(2,0\\times10^3\\,\\mathrm{m\\,s^{-1}})^2=-1,0\\times10^9\\,\\mathrm{J}$$",
+   "resultado": "a) $M\\approx 6,0\\times10^{23}\\,\\mathrm{kg}$; b) $T\\approx 3,1\\times10^4\\,\\mathrm{s}$; c) $E=-1,0\\times10^9\\,\\mathrm{J}$.",
+   "criterios": "Total: 2,5 puntos. a) 1 punto: 0,5 por plantear la igualdad entre fuerza gravitatoria y centrípeta y despejar correctamente $M=v^2r/G$; 0,25 por la sustitución numérica; 0,25 por el valor y la unidad. b) 1 punto: 0,5 por plantear $T=2\\pi r/v$; 0,25 por la sustitución; 0,25 por el resultado con unidad. c) 0,5 puntos: 0,25 por expresar la energía mecánica y usar la condición de órbita circular para obtener $E=-mv^2/2$; 0,25 por el valor, el signo negativo y la unidad. Se aceptan diferencias de redondeo compatibles con los datos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.A",
+   "tema": "optica",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "En un sistema de inspección de etiquetas se utiliza una lente delgada convergente de distancia focal $10\\,\\mathrm{cm}$. Una etiqueta de $3,0\\,\\mathrm{cm}$ de altura se coloca a $15\\,\\mathrm{cm}$ a la izquierda de la lente. Use el convenio en el que la distancia objeto es $s=-15\\,\\mathrm{cm}$ y la distancia focal es $f=+10\\,\\mathrm{cm}$. a) (1 punto) Calcule la posición y la altura de la imagen. b) (0,5 puntos) Indique si la imagen es real o virtual y si es derecha o invertida. c) (1 punto) Represente el trazado de rayos principales que permite localizar la imagen.",
+   "solucion": "### a) Posición y altura de la imagen\n\nCon el convenio de signos indicado, la ecuación de la lente delgada es\n\n$$\\frac{1}{s'}-\\frac{1}{s}=\\frac{1}{f}.$$\n\nSustituyendo $s=-15\\,\\mathrm{cm}$ y $f=+10\\,\\mathrm{cm}$:\n\n$$\\frac{1}{s'}-\\frac{1}{-15}=\\frac{1}{10}\n\\quad\\Longrightarrow\\quad\n\\frac{1}{s'}=\\frac{1}{10}-\\frac{1}{15}=\\frac{1}{30}.$$\n\nPor tanto, $s'=+30\\,\\mathrm{cm}$: la imagen se forma $30\\,\\mathrm{cm}$ a la derecha de la lente.\n\nEl aumento lateral es\n\n$$m=\\frac{y'}{y}=\\frac{s'}{s}=\\frac{30}{-15}=-2,$$\n\nde modo que, para $y=3,0\\,\\mathrm{cm}$,\n\n$$y'=m y=(-2)(3,0\\,\\mathrm{cm})=-6,0\\,\\mathrm{cm}.$$\n\nLa imagen tiene una altura de $6,0\\,\\mathrm{cm}$ y el signo negativo indica que queda invertida respecto al eje óptico.\n\n### b) Naturaleza y orientación\n\nComo $s'>0$, la imagen está al lado opuesto al objeto y es **real**. Como $m<0$ (o, equivalentemente, $y'<0$), es **invertida**.\n\n### c) Trazado de rayos principales\n\nNo a escala. Se sitúan el objeto en $s=-15\\,\\mathrm{cm}$, la lente en $x=0$, los focos en $x=-10\\,\\mathrm{cm}$ y $x=+10\\,\\mathrm{cm}$, y la imagen en $(x,y)=(+30\\,\\mathrm{cm},-6,0\\,\\mathrm{cm})$. Desde la punta del objeto se trazan:\n\n1. Un rayo paralelo al eje óptico hasta la lente; después de refractarse pasa por el foco imagen $F'$.\n2. Un rayo que pasa por el centro óptico $O$ y no se desvía.\n3. Un rayo que pasa por el foco objeto $F$ antes de llegar a la lente; después de refractarse sale paralelo al eje.\n\nLos tres rayos convergen en la punta de la imagen:\n\n```text\nA (-15 cm, +3 cm) ── paralelo al eje ──> lente ── hacia F' ──┐\n         \\                         centro O                │\n          └────────────────────────── sin desviarse ────────┤──> I\n           ── pasa por F antes de la lente ──> lente ── paralelo ─┘\n                                                             (+30 cm, -6 cm)\n```",
+   "resultado": "s'=+30 cm; y'=-6,0 cm (imagen de 6,0 cm de altura).",
+   "criterios": "Total: 2,5 puntos. a) 1,0 punto: 0,35 por plantear correctamente la ecuación con el convenio de signos; 0,35 por obtener s'=+30 cm; 0,30 por calcular el aumento y la altura y'=-6,0 cm. b) 0,5 puntos: 0,25 por indicar que es real y 0,25 por indicar que es invertida, justificándolo mediante los signos correspondientes. c) 1,0 punto: 0,20 por situar correctamente objeto, lente, focos e imagen; 0,60 por trazar correctamente los tres rayos principales (0,20 cada uno); 0,20 por mostrar que convergen en la punta de una imagen invertida. Se admiten diagramas equivalentes claramente rotulados.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2.B",
+   "tema": "ondas",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un sensor registra la oscilación transversal de un punto de una cuerda tensa situado en $x=0$. Su desplazamiento viene dado por $y(0,t)=3,0\\,\\mathrm{mm}\\cos(10\\pi t)$, con $t$ en segundos. La onda se propaga en el sentido positivo del eje $x$ con rapidez $5,0\\,\\mathrm{m\\,s^{-1}}$. a) (1 punto) Determine el periodo y la longitud de onda. b) (0,5 puntos) Escriba la ecuación de la onda, usando unidades del SI. c) (1 punto) Calcule la velocidad de oscilación del punto de la cuerda situado en $x=0,25\\,\\mathrm{m}$ en el instante $t=0,10\\,\\mathrm{s}$ y la velocidad de oscilación máxima.",
+   "solucion": "### a) Periodo y longitud de onda\n\nDe $y(0,t)=A\\cos(\\omega t)$ se identifica $\\omega=10\\pi\\,\\mathrm{rad\\,s^{-1}}$. Por tanto,\n\n$$T=\\frac{2\\pi}{\\omega}=\\frac{2\\pi}{10\\pi}=0,20\\,\\mathrm{s}.$$\n\nLa frecuencia es $f=1/T=5,0\\,\\mathrm{Hz}$. Como la rapidez de propagación es $v=5,0\\,\\mathrm{m\\,s^{-1}}$,\n\n$$\\lambda=\\frac{v}{f}=1,0\\,\\mathrm{m}.$$\n\n### b) Ecuación de la onda\n\nLa amplitud en unidades del SI es $A=3,0\\times10^{-3}\\,\\mathrm{m}$. La propagación en el sentido positivo de $x$ corresponde a una fase $\\omega t-kx$, donde\n\n$$k=\\frac{2\\pi}{\\lambda}=2\\pi\\,\\mathrm{rad\\,m^{-1}}.$$\n\nAsí, con $x$ en metros y $t$ en segundos, la onda es\n\n$$y(x,t)=3,0\\times10^{-3}\\cos(10\\pi t-2\\pi x)\\;\\mathrm{m}.$$\n\n### c) Velocidad de oscilación\n\nLa velocidad transversal se obtiene derivando respecto del tiempo a posición fija:\n\n$$v_y(x,t)=\\frac{\\partial y}{\\partial t}=-A\\omega\\sin(\\omega t-kx).$$\n\nPara $x=0,25\\,\\mathrm{m}$ y $t=0,10\\,\\mathrm{s}$, la fase vale\n\n$$\\omega t-kx=10\\pi(0,10)-2\\pi(0,25)=\\frac{\\pi}{2}.$$\n\nPor tanto,\n\n$$v_y=-\\left(3,0\\times10^{-3}\\right)(10\\pi)\\sin\\left(\\frac{\\pi}{2}\\right)=-0,03\\pi\\,\\mathrm{m\\,s^{-1}}\\approx-0,0942\\,\\mathrm{m\\,s^{-1}}.$$\n\nEl signo negativo indica que en ese instante el punto se mueve en el sentido negativo del desplazamiento $y$. La velocidad de oscilación máxima, entendida como módulo máximo, es\n\n$$v_{y,\\max}=A\\omega=0,03\\pi\\,\\mathrm{m\\,s^{-1}}\\approx0,0942\\,\\mathrm{m\\,s^{-1}}.$$\n\n",
+   "resultado": "$T=0,20\\,\\mathrm{s}$; $\\lambda=1,0\\,\\mathrm{m}$; $y(x,t)=3,0\\times10^{-3}\\cos(10\\pi t-2\\pi x)\\,\\mathrm{m}$; $v_y(0,25\\,\\mathrm{m},0,10\\,\\mathrm{s})=-0,0942\\,\\mathrm{m\\,s^{-1}}$; $v_{y,\\max}=0,0942\\,\\mathrm{m\\,s^{-1}}$.",
+   "criterios": "Total: 2,5 puntos. a) 1,0 punto: 0,5 por obtener el periodo $T=0,20\\,\\mathrm{s}$ y 0,5 por obtener la longitud de onda $\\lambda=1,0\\,\\mathrm{m}$, con procedimiento y unidades adecuados. b) 0,5 puntos: ecuación coherente con la amplitud, la frecuencia angular y la propagación en el sentido positivo de $x$, expresada en unidades del SI. c) 1,0 punto: 0,5 por derivar correctamente y evaluar la velocidad transversal con signo en el punto e instante dados; 0,5 por calcular la velocidad máxima en módulo. Se valorarán resultados equivalentes correctamente redondeados y se podrá descontar por errores de unidades o de signo cuando corresponda.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.A",
+   "tema": "magnetico",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una bobina de $40$ espiras y área $5,0\\,\\mathrm{cm^{2}}$ gira en un campo magnético uniforme de módulo $0,25\\,\\mathrm{T}$. El ángulo entre la normal positiva de la bobina y el campo es $\\theta=\\omega t$, con $\\omega=20\\pi\\,\\mathrm{rad\\,s^{-1}}$, de modo que el flujo total es $\\Phi(t)=NBS\\cos(\\omega t)$. La resistencia de la bobina es $10\\,\\Omega$. a) (1,5 puntos) Calcule el módulo de la fuerza electromotriz inducida en $t_1=1/120\\,\\mathrm{s}$ y en $t_2=1/40\\,\\mathrm{s}$. b) (1 punto) Determine la intensidad de corriente inducida en $t_1$ e indique su sentido. Considere positivo el sentido antihorario visto desde el extremo hacia el que apunta la normal positiva.",
+   "solucion": "### Datos y convención de signos\nEl área de la bobina en unidades del SI es $S=5,0\\,\\mathrm{cm^2}=5,0\\times10^{-4}\\,\\mathrm{m^2}$. Tomamos como sentido positivo de la corriente el antihorario visto desde el extremo hacia el que apunta la normal positiva; esta orientación es la asociada al flujo positivo indicado.\n\nPor la ley de Faraday-Lenz, la fuerza electromotriz con signo en esa orientación es\n$$\\mathcal{E}(t)=-\\frac{d\\Phi}{dt}=NBS\\omega\\sin(\\omega t).$$\nAdemás, $NBS\\omega=40(0,25)(5,0\\times10^{-4})(20\\pi)=0,1\\pi\\,\\mathrm{V}$.\n\n### a) Módulo de la fuerza electromotriz\nPara $t_1=1/120\\,\\mathrm{s}$, $\\omega t_1=\\pi/6$, por lo que\n$$|\\mathcal{E}(t_1)|=0,1\\pi\\sin(\\pi/6)=\\frac{\\pi}{20}\\,\\mathrm{V}\\approx0,157\\,\\mathrm{V}\\approx0,16\\,\\mathrm{V}.$$\n\nPara $t_2=1/40\\,\\mathrm{s}$, $\\omega t_2=\\pi/2$, de modo que\n$$|\\mathcal{E}(t_2)|=0,1\\pi\\sin(\\pi/2)=0,1\\pi\\,\\mathrm{V}\\approx0,314\\,\\mathrm{V}\\approx0,31\\,\\mathrm{V}.$$\n\n### b) Corriente inducida en $t_1$\nPor la ley de Ohm,\n$$I(t_1)=\\frac{\\mathcal{E}(t_1)}{R}=\\frac{\\pi/20}{10}=\\frac{\\pi}{200}\\,\\mathrm{A}\\approx1,57\\times10^{-2}\\,\\mathrm{A}.$$\nLa corriente tiene signo positivo con la convención dada: circula en sentido antihorario vista desde el extremo hacia el que apunta la normal positiva. Esto concuerda con que, en $t_1$, el flujo positivo está disminuyendo y la corriente inducida tiende a mantenerlo.",
+   "resultado": "a) |ε(t₁)| = 0,157 V y |ε(t₂)| = 0,314 V. b) I(t₁) = 0,0157 A, sentido antihorario visto desde el extremo hacia el que apunta la normal positiva.",
+   "criterios": "Total: 2,5 puntos. a) 1,5 puntos: conversión correcta del área al SI y aplicación de la ley de Faraday, obteniendo ε(t)=NBSω sin(ωt) (0,5); cálculo del módulo en t₁ (0,5); cálculo del módulo en t₂ (0,5). b) 1,0 punto: cálculo de la intensidad mediante la ley de Ohm (0,5); determinación y justificación del sentido antihorario según la convención dada, coherente con la ley de Lenz (0,5).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.B",
+   "tema": "electrico",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "En un dispositivo de calibración se fijan dos cargas puntuales sobre el eje $x$: $q_1=+4,0\\,\\mathrm{nC}$ en el origen y $q_2=-1,0\\,\\mathrm{nC}$ en $x=3,0\\,\\mathrm{m}$. a) (1,5 puntos) Calcule el vector campo eléctrico y el potencial eléctrico en el punto $P=(1,0)\\,\\mathrm{m}$. b) (1 punto) Determine el trabajo realizado por la fuerza eléctrica al trasladar una carga de prueba $q_0=+2,0\\,\\mathrm{nC}$ desde $P$ hasta $Q=(4,0)\\,\\mathrm{m}$. Dato: constante de Coulomb, $K=9,0\\times10^{9}\\,\\mathrm{N\\,m^{2}\\,C^{-2}}$.",
+   "solucion": "### a) Campo eléctrico y potencial en $P$\n\nEl campo de una carga positiva apunta alejándose de ella; el de una carga negativa apunta hacia ella. En $P=(1,0,0)\\,\\mathrm{m}$, ambos campos apuntan en el sentido $+x$: $q_1$ está a la izquierda de $P$ y $q_2$ está a su derecha y es negativa.\n\nLas distancias son $r_{1P}=1,0\\,\\mathrm{m}$ y $r_{2P}=2,0\\,\\mathrm{m}$. Por la ley de Coulomb,\n\n$$\\vec E_1(P)=\\frac{Kq_1}{r_{1P}^2}\\,\\hat{\\mathbf x}=36,0\\,\\mathrm{N/C}\\,\\hat{\\mathbf x},\\qquad \\vec E_2(P)=\\frac{K|q_2|}{r_{2P}^2}\\,\\hat{\\mathbf x}=2,25\\,\\mathrm{N/C}\\,\\hat{\\mathbf x}.$$\n\nPor superposición,\n\n$$\\boxed{\\vec E(P)=(38,25\\,\\hat{\\mathbf x}+0\\,\\hat{\\mathbf y}+0\\,\\hat{\\mathbf z})\\,\\mathrm{N/C}}.$$\n\nEl potencial es escalar y se suma con el signo de cada carga:\n\n$$V(P)=K\\left(\\frac{q_1}{r_{1P}}+\\frac{q_2}{r_{2P}}\\right)=9,0\\times10^9\\left(\\frac{4,0\\times10^{-9}}{1,0}-\\frac{1,0\\times10^{-9}}{2,0}\\right)=\\boxed{31,5\\,\\mathrm{V}}.$$\n\n### b) Trabajo de la fuerza eléctrica de $P$ a $Q$\n\nEn $Q=(4,0,0)\\,\\mathrm{m}$, las distancias a las cargas son $r_{1Q}=4,0\\,\\mathrm{m}$ y $r_{2Q}=1,0\\,\\mathrm{m}$. Por tanto,\n\n$$V(Q)=K\\left(\\frac{q_1}{r_{1Q}}+\\frac{q_2}{r_{2Q}}\\right)=9,0\\times10^9\\left(\\frac{4,0\\times10^{-9}}{4,0}-\\frac{1,0\\times10^{-9}}{1,0}\\right)=0\\,\\mathrm{V}.$$\n\nEl trabajo realizado por la fuerza eléctrica es el opuesto de la variación de energía potencial:\n\n$$W_{P\\to Q}=q_0\\bigl[V(P)-V(Q)\\bigr]=(2,0\\times10^{-9})(31,5-0)=\\boxed{6,30\\times10^{-8}\\,\\mathrm{J}}.$$\n\n**Comprobación independiente:** sumando los trabajos debidos a cada carga, $W_i=Kq_0q_i(1/r_{iP}-1/r_{iQ})$. Se obtiene $W_1=5,40\\times10^{-8}\\,\\mathrm{J}$ y $W_2=9,00\\times10^{-9}\\,\\mathrm{J}$; su suma es $6,30\\times10^{-8}\\,\\mathrm{J}$, con signo positivo. El segmento recto sobre el eje $x$ pasa por la carga situada en $x=3,0\\,\\mathrm{m}$, donde el campo es singular; por ello no se integra el campo a través de ese punto. El resultado por diferencia de potencial corresponde a cualquier trayectoria que evite la carga puntual. Los valores se muestran sin redondear; a dos cifras significativas, $E_x\\simeq38\\,\\mathrm{N/C}$ y $V(P)\\simeq32\\,\\mathrm{V}$.",
+   "resultado": "$\\vec E(P)=38,25\\,\\hat{\\mathbf x}\\,\\mathrm{N/C}$; $V(P)=31,5\\,\\mathrm{V}$; $W_{P\\to Q}=6,30\\times10^{-8}\\,\\mathrm{J}$.",
+   "criterios": "Total: 2,5 puntos. a) Campo eléctrico (0,8): 0,3 por identificar correctamente las distancias y los sentidos de los campos; 0,3 por calcular sus módulos; 0,2 por la suma vectorial y las unidades. Potencial en P (0,7): 0,3 por aplicar la superposición con los signos de las cargas y las distancias correctas; 0,4 por el resultado y las unidades. b) Trabajo (1,0): 0,2 por calcular correctamente el potencial en Q; 0,4 por plantear el trabajo como $q_0[V(P)-V(Q)]$ con el signo adecuado; 0,4 por el resultado numérico y las unidades. Se aceptan redondeos coherentes con los datos.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "4.A",
+   "tema": "moderna",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Un sensor fotoeléctrico puede fabricarse con dos superficies de distinto material, cuyas funciones de trabajo son $\\phi_1=2,0\\,\\mathrm{eV}$ y $\\phi_2=3,0\\,\\mathrm{eV}$. a) (1 punto) Calcule la longitud de onda umbral de cada superficie. b) (1 punto) Determine la energía cinética máxima de los fotoelectrones emitidos por cada superficie cuando incide luz de energía $4,0\\,\\mathrm{eV}$ por fotón. c) (0,5 puntos) Para la superficie 2, calcule la corriente fotoeléctrica si inciden $2,0\\times10^{14}$ fotones por segundo y cada fotón incidente extrae un electrón que es recogido por el circuito. Datos: constante de Planck, $h=6,63\\times10^{-34}\\,\\mathrm{J\\,s}$; velocidad de la luz, $c=3,00\\times10^{8}\\,\\mathrm{m\\,s^{-1}}$; carga elemental, $e=1,60\\times10^{-19}\\,\\mathrm{C}$; $1\\,\\mathrm{eV}=1,60\\times10^{-19}\\,\\mathrm{J}$.",
+   "solucion": "### a) Longitud de onda umbral\n\nLa longitud de onda umbral satisface $\\phi=hc/\\lambda_0$, por lo que $\\lambda_0=hc/\\phi$. Convertimos las funciones de trabajo a julios usando $1\\,\\text{eV}=1.60\\times10^{-19}\\,\\text{J}$.\n\nPara la superficie 1:\n$$\\phi_1=2.0\\times1.60\\times10^{-19}=3.20\\times10^{-19}\\,\\text{J}$$\n$$\\lambda_{0,1}=\\frac{(6.63\\times10^{-34})(3.00\\times10^8)}{3.20\\times10^{-19}}=6.215625\\times10^{-7}\\,\\text{m}\\approx6.22\\times10^{-7}\\,\\text{m}$$\n\nPara la superficie 2:\n$$\\phi_2=3.0\\times1.60\\times10^{-19}=4.80\\times10^{-19}\\,\\text{J}$$\n$$\\lambda_{0,2}=\\frac{(6.63\\times10^{-34})(3.00\\times10^8)}{4.80\\times10^{-19}}=4.14375\\times10^{-7}\\,\\text{m}\\approx4.14\\times10^{-7}\\,\\text{m}$$\n\n### b) Energía cinética máxima\n\nPor la ecuación de Einstein del efecto fotoeléctrico, $K_{\\max}=E_\\gamma-\\phi$. Como $E_\\gamma=4.0\\,\\text{eV}$, para la superficie 1:\n$$K_{\\max,1}=4.0-2.0=2.0\\,\\text{eV}=3.20\\times10^{-19}\\,\\text{J}$$\n\nPara la superficie 2:\n$$K_{\\max,2}=4.0-3.0=1.0\\,\\text{eV}=1.60\\times10^{-19}\\,\\text{J}$$\n\n### c) Corriente fotoeléctrica\n\nCada fotón extrae un electrón, de modo que la tasa de emisión de electrones es $2.0\\times10^{14}\\,\\text{s}^{-1}$. Por tanto,\n$$I=e\\dot{N}=(1.60\\times10^{-19})(2.0\\times10^{14})=3.20\\times10^{-5}\\,\\text{A}$$",
+   "resultado": "λ₀,₁ = 6,22×10⁻⁷ m; λ₀,₂ = 4,14×10⁻⁷ m; Kₘₐₓ,₁ = 2,0 eV; Kₘₐₓ,₂ = 1,0 eV; I = 3,20×10⁻⁵ A.",
+   "criterios": "a) 1,0 punto: 0,5 por cada longitud de onda umbral; se requiere aplicar λ₀=hc/φ y convertir correctamente la función de trabajo de eV a J. b) 1,0 punto: 0,5 por cada energía cinética máxima; se requiere aplicar Kₘₐₓ=Eγ−φ y expresar el resultado correctamente. c) 0,5 puntos: aplicar I=eṄ, usando que se recoge un electrón por fotón, y obtener la corriente con unidad correcta.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.B",
+   "tema": "moderna",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "En una instalación piloto se utiliza sodio-24 como trazador radiactivo para comprobar el recorrido de un fluido en un circuito cerrado. La muestra contiene inicialmente $8,0\\times10^{12}$ núcleos y el periodo de semidesintegración del isótopo es de $15,0\\,\\mathrm{h}$. a) (0,5 puntos) Calcule la constante de desintegración en unidades del SI. b) (1,25 puntos) Determine cuántos núcleos quedan sin desintegrarse y cuántos se han desintegrado tras $45,0\\,\\mathrm{h}$. c) (0,75 puntos) Calcule la actividad de la muestra en ese instante.",
+   "solucion": "### a) Constante de desintegración\n\nLa constante de desintegración se obtiene a partir del periodo de semidesintegración, expresado en segundos:\n\n$$T_{1/2}=15,0\\,\\mathrm{h}\\times 3600\\,\\frac{\\mathrm{s}}{\\mathrm{h}}=5,40\\times10^4\\,\\mathrm{s}$$\n\n$$\\lambda=\\frac{\\ln 2}{T_{1/2}}=\\frac{\\ln 2}{5,40\\times10^4\\,\\mathrm{s}}=1,28\\times10^{-5}\\,\\mathrm{s}^{-1}$$\n\n### b) Núcleos restantes y desintegrados tras $45,0\\,\\mathrm{h}$\n\nHan transcurrido tres periodos de semidesintegración, pues $45,0/15,0=3$. Aplicando la ley de desintegración radiactiva:\n\n$$N(t)=N_0 e^{-\\lambda t}=N_0\\left(\\frac{1}{2}\\right)^{t/T_{1/2}}=8,0\\times10^{12}\\left(\\frac{1}{2}\\right)^3=1,0\\times10^{12}\\ \\text{núcleos}$$\n\nEl número de núcleos desintegrados es:\n\n$$N_{\\mathrm{desintegrados}}=N_0-N(t)=8,0\\times10^{12}-1,0\\times10^{12}=7,0\\times10^{12}\\ \\text{núcleos}$$\n\n### c) Actividad en ese instante\n\nLa actividad se calcula mediante $A(t)=\\lambda N(t)$:\n\n$$A(45,0\\,\\mathrm{h})=(1,2836\\times10^{-5}\\,\\mathrm{s}^{-1})(1,0\\times10^{12})=1,28\\times10^7\\,\\mathrm{Bq}$$\n\nCon dos cifras significativas, coherentes con los datos, la actividad es $1,3\\times10^7\\,\\mathrm{Bq}$.",
+   "resultado": "λ = 1,28×10⁻⁵ s⁻¹; núcleos restantes = 1,0×10¹²; núcleos desintegrados = 7,0×10¹²; actividad = 1,28×10⁷ Bq (1,3×10⁷ Bq con dos cifras significativas).",
+   "criterios": "a) 0,50 puntos: conversión de 15,0 h a segundos y uso de λ = ln(2)/T₁/₂ (0,25); valor numérico con unidad SI correcta (0,25). b) 1,25 puntos: identificación de que transcurren tres semividas o aplicación correcta de la ley de desintegración (0,50); cálculo de los núcleos restantes (0,375); cálculo de los núcleos desintegrados como N₀ − N (0,375). c) 0,75 puntos: uso de A = λN(t) con los datos del instante indicado (0,50); resultado numérico con unidad Bq (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-23",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "gravitacion",
+   "p": 0.9
+  },
+  {
+   "id": "electrico",
+   "p": 0.9
+  },
+  {
+   "id": "magnetico",
+   "p": 0.9
+  },
+  {
+   "id": "optica",
+   "p": 0.9
+  },
+  {
+   "id": "moderna",
+   "p": 0.879
+  },
+  {
+   "id": "ondas",
+   "p": 0.83
+  }
+ ],
+ "referencias": [
+  "https://www.ucm.es/file/fisica-24",
+  "https://www.ucm.es/file/fisica-25",
+  "https://drive.google.com/file/d/18qaoS5fMfycdZbLl5RggFsh9YWs1kNOw/view?usp=drive_link",
+  "https://drive.google.com/file/d/1l9kkavylPk6l_zs9PLXmRRJPrjsuQNOF/view?usp=drive_link",
+  "https://www.ucm.es/file/fisica-24",
+  "https://www.ucm.es/file/fÍsica-18"
+ ]
+}
