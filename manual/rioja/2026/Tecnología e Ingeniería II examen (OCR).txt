@@ -1,0 +1,251 @@
+[Fuente: https://unirioja.sharepoint.com/:b:/s/academica_publico/IQBf-gNIgOWkQ40aHuwqAa7IAWrsB7zXE-t5fysrYgMY01E?download=1 · OCR Tesseract]
+Prueba de Acceso a la Universidad (PAU)
+
+ap. UNIVERSIDAD E
+DE LA RIOJA Curso Académico: 2025-2026 E
+ASIGNATURA: TECNOLOGÍA E INGENIERÍA ll
+
+INSTRUCCIONES:
+
+4. El examen consta de 4 preguntas con una puntuación de valor 2.5 puntos cada una; la primera pregunta
+aparece sin opciones y las tres siguientes cuentan con dos opciones posibles.
+
+2. En las preguntas con opcionalidad sólo se contestará a una de las dos opciones posibles (a elección).
+
+Nota: En el supuesto de que el alumnado responda de forma voluntaria o involuntaria a un número de
+preguntas/opciones superior al establecido previamente, únicamente se corregirán las primeras respuestas de
+cada pregunta, según el orden en que aparezcan, hasta completar el número de preguntas exigido. Las
+restantes preguntas/opciones contestadas no serán objeto de corrección ni calificación.
+
+PREGUNTA 1.- SISTEMAS AUTOMÁTICOS
+
+Un sistema de control de un invernadero activa un sistema de calefacción/ventilación cuando las condiciones
+atmosféricas hacen que la temperatura interior del invernadero sea diferente de un valor de consigna o
+temperatura de referencia de 22 *C. El sistema envía la señal de entrada de referencia E (en voltios) a un
+comparador que proporciona una señal de error (e en voltios) a un controlador que tiene una ganancia de valor
+K = 5. El controlador activa el regulador del sistema de calefacción/ventilación (con ganancia P = 4 *C/V) que
+actúa sobre el sistema para aumentar o disminuir la temperatura interior controlada (aumentando o disminuyendo
+la transferencia de calor al aire interior del invernadero). Para medir la temperatura interior del invernadero se
+utiliza un transductor de temperatura (ganancia T = 0.2 V/*C), cuya señal de tensión se envía al comparador para
+
+formar la señal de error que alimenta al controlador.
+Determinar: a
+a. La función de transferencia global del sistema de control G = S/E (0.5 puntos)-
+b. La tensión de referencia que actúa como señal de entrada al sistema de control E(V) cuando en el
+invernadero se alcanza la temperatura de referencia de 22 *C (0.5 puntos)
+c. El invernadero cierra sus puertas y controla las aberturas de ventilación en el momento de la puesta en
+
+marcha del sistema, que muestra un error inicial eg = 1.8 V; calcula la acción de control en el instante
+inicial, cp, así como la temperatura inicial (es decir, la temperatura ambiente del aire exterior al
+
+invernadero en el momento de cerrarlo) (1 punto)
+
+d. Si la velocidad de calentamiento/enfriamiento en el invernadero es de 0.25 *C/min mientras se está
+fuera de consigna, y la temperatura ambiente exterior se mantiene constante, averiguar el tiempo (en
+minutos) que el sistema necesita para llegar a la temperatura de referencia en el interior del invernadero
+
+(0.5 puntos)
+
+Controlador Planta
+E(V) > . JU)
+0 » K=5 » P=4C/V >
+Realimentación
+h 4
+T=0.2 V/"C [e
+
+(0) CAMPUS campus or exceLencia
+
+INTERNACIONAL
+
+www.unirioja.es — ¡iberus DEL VALLE DEL EBRO
+
+
+a UNIVERSIDAD Prueba de cin a la Universidad (PAU)
+DE LA RIOJA Curso Académico: 2025-2026
+
+ASIGNATURA: TECNOLOGÍA E INGENIERÍA Il
+
+PREGUNTA 2.- MATERIALES Y FABRICACIÓN
+OPCIÓN 1: ENSAYO DE MATERIALES
+Una aleación determinada de latón tiene un módulo de elasticidad de 120x109 N/m? y un límite elástico de
+250x106 N/m2. Un redondo de esta aleación, de 12 mm? de sección, está colgado verticalmente y lleva en su
+extremo libre una carga de 2000 N. Determina:
+a. El alargamiento unitario en las condiciones descritas. Indicar si al quitar la carga se recupera la longitud
+inicial y por qué (0.75 puntos) .
+b. La carga máxima que puede soportar ese redondo con una tensión máxima de trabajo con coeficiente
+de seguridad igual a 2.5 (0.75 puntos)
+c. Qué sección mínima debe tener (en mm2) una barra de este material para que, sin deformación
+permanente, pueda soportar una carga máxima de 100 000 N. Compárala con la sección que se obtiene
+si se aplica a este caso la misma tensión máxima admisible anterior, con el coeficiente de seguridad de
+2.5 (1 punto)
+
+PREGUNTA 2.- MATERIALES Y FABRICACIÓN
+OPCIÓN 2: ENSAYOS DE DUREZA
+En una maquinaria pesada se requiere el uso de una pieza formada por dos placas de acero, una normal y otra
+templada. Según los ensayos de dureza realizados a probetas de estos materiales:
+a. Seleccionar el tipo de acero de las probetas según el ensayo a realizar, señalando qué tipo de ensayo
+es más adecuado según el tipo de acero a ensayar (0.5 puntos)
+b. Determinar la dureza Brinell si se emplea una bola de 8 mm de diámetro (constante del ensayo para el
+tipo de acero de la probeta: K = 30), y se obtiene una huella de 3.2 mm de diámetro (1 punto)
+c. Calcular la dureza Vickers si con una carga de 12 kp se obtienen unos valores para las diagonales de
+la huella de 0.110 mm y 0.114 mm (1 punto)
+
+INTERNACIONAL
+
+(0) campus CAMPUS DE EXCELENCIA
+www.unirioja.es — iberus DEL VALLE DEL EBRO
+
+
+D Prueba de Acceso a la Universidad (PAU)
+
+[31/4 UNIVERSIDA E
+DE LA RIOJA Curso Académico: 2025-2026
+: ASIGNATURA: TECNOLOGÍA E INGENIERÍA ll
+
+PREGUNTA 3.- SISTEMAS MECÁNICOS
+
+OPCIÓN 1: ESTRUCTURAS
+
+Se quiere analizar una viga de 8 m de longitud que forma parte de una estructura, siendo sus apoyos uno, de
+tipo fijo (A) y otro móvil (B); las dos cargas puntuales indicadas en la figura están situadas a las distancias
+señaladas. Se pide: PESE ESIN
+
+a. Los grados de libertad en los apoyos y
+sus reacciones, en N (0.5 puntos) l |
+
+b. La ecuación de esfuerzos cortantes, en
+N, en cada tramo de la viga, en función A B
+de la coordenada x con origen en A A 2m a A
+(1 punto) E ros L=asm A
+
+ena moteles A A A
+N-m en cada tramo de la viga, en función de la coordenada x con origen en A, indicando en qué punto
+
+o tramo de la viga se tiene el momento flector de valor absoluto máximo (1 punto)
+Nota: Representar gráficamente ambas ecuaciones a lo largo de la longitud de la viga.
+
+PREGUNTA 3.- SISTEMAS MECÁNICOS
+OPCIÓN 2: SISTEMAS NEUMÁTICOS E HIDRÁULICOS
+Para conformar una pieza plástica cada 15 segundos en un proceso productivo, se ha seleccionado una máquina
+con ún cilindro de simple efecto en un circuito neumático de 8 bar de presión manométrica; el diámetro del cilindro
+es de 80 mm y la carrera de 100 mm.
+
+a. Calcula la fuerza útil empleada por el cilindro neumático para conformar cada pieza, teniendo en cuenta
+
+un rendimiento con respecto a la fuerza teórica del 85 % (1 punto)
+
+b. El trabajo útil desarrollado para producir 1000 piezas conformadas (1 carrera = 1 pieza) (0.5 puntos)
+
+c. El caudal de aire consumido en condiciones normales, en L/min (1 punto)
+Nota: se puede considerar que 1 bar equivale a 1 atm.
+
+0) CAMPUS camrus pEexceLencia
+
+INTERNACIONAL
+
+www.unirloja.es — ¡berus DEL VALLE DEL EBRO
+
+
+DE LA RIOJA Curso Académico: 2025-2026
+
+UNIVERSIDAD Prueba de Acceso a la Universidad (PAU)
+ASIGNATURA: TECNOLOGÍA E INGENIERÍA ll
+
+PREGUNTA 4.- SISTEMAS ELÉCTRICOS Y ELECTRÓNICOS
+OPCIÓN 1: CIRCUITOS DE CORRIENTE ALTERNA MONOFÁSICA
+
+Un hervidor eléctrico de inducción, empleado para calentar agua para
+cocinar, puede ser modelizado por el circuito RL paralelo de la figura.
+
+En el laboratorio donde se usa para hacer café, se ha realizado un
+ensayo de funcionamiento del hervidor, conectándolo a una tensión
+
+alterna de 230 V de valor eficaz y 50 Hz de frecuencia y midiendo la q
+intensidad que proporciona la fuente, 8A. Durante el ensayo, la A) L
+
+potencia activa proporcionada por la resistencia del circuito ha
+servido para, en 4 minutos y 10 segundos, calentar un litro de agua
+desde 21 *C hasta 100 *C. Determinar:
+a. El factor de potencia del conjunto y la potencia activa, reactiva
+y aparente que consume el circuito. Dibujar el triángulo de
+potencias (0.75 puntos)
+b. La corriente que circula por cada rama del circuito. Dibujar el diagrama de fasores de intensidades y
+tensiones del circuito, considera como origen de desfases el fasor tensión de la resistencia
+(0.75 puntos)
+c. El valor de la resistencia R y de la autoinducción L del circuito (0.5 puntos)
+d. La impedancia serie equivalente del circuito RL paralelo (módulo y argumento) (0.5 puntos)
+
+Nota: Considerar la capacidad Calama del agua empleada, constante e igual a 4.18 vAk9 K) y su densidad,
+también constante e igual a 1.02, kg/m3
+
+PREGUNTA 4.- SISTEMAS ELÉCTRICOS Y ELECTRÓNICOS
+OPCIÓN 2: ELECTRÓNICA DIGITAL COMBINACIONAL
+
+Un sistema electrónico de alarma está constituido por tres detectores a, b y c. La alarma F (a, b, c) debe actuar
+cuando se activen los tres detectores o solo dos de ellos. La alarma nunca debe dispararse si no se activa ningún
+detector o solo uno, salvo que este sea el detector a. Se solicita:
+
+a. La tabla de verdad del sistema de alarma y la expresión de la función lógica F en la primera forma
+canónica (MINTERMS, sumas de productos de entradas) y en la segunda forma canónica
+(MAXTERMS, productos de sumas de entradas) (1.5 puntos)
+
+b. Simplificar la función F en MINTERMS por el método de Karnaugh (0.5 puntos)
+
+c. Diseñar un circuito de control para este sistema con el menor número posible de puertas “universales”
+NAND de dos entradas (0.5 puntos)
+
+Q CAMPUS Camus DE ExcELENciA
+
+at . INTERNACIONAL
+www.unirloja.es — ¡berus DEL VALLE DEL EBRO
+
+
+DE LA RIOJA Curso Académico: 2025-2026
+ASIGNATURA: TECNOLOGÍA E INGENIERÍA II
+
+m UNIVERSIDAD Prueba de Acceso a la Universidad (PAU)
+
+| CRITERIOS ESPECÍFICOS DE CORRECCIÓN:
+
+En la valoración de las preguntas de la prueba de la materia Tecnología e Ingeniería Il se tendrán en cuenta los
+siguientes aspectos:
+
+Las preguntas deben resolverse expresando de forma razonada el proceso seguido en'su resolución. Si
+es necesario, se incluirán: diagramas, esquemas, dibujos, etc., que ayuden a la comprensión de la
+respuesta dada. s
+
+Los datos de las preguntas pueden facilitarse en unidades que no sean del Sistema Internacional de
+Unidades (SI) pero los resultados, para que sean considerados correctos, deben expresarse en el Slo en
+las unidades que de forma explicita se indique.
+
+La mera descripción del planteamiento, sin que se lleve a cabo la resolución de manera efectiva, no es
+suficiente para obtener una valoración completa de la pregunta.
+
+Los errores en las operaciones aritméticas elementales se penalizarán con un máximo del 10 % del valor
+del apartado donde se produzcan.
+
+En las preguntas donde haya que resolver varios apartados y en los que la solución obtenida en uno de
+ellos sea imprescindible para la resolución del siguiente, se puntuará éste independientemente del
+resultado anterior, siempre que resulte una resolución de una complejidad equivalente y la solución no sea
+manifiestamente incoherente.
+
+Si como consecuencia de un error se obtiene un resultado incorrecto o incoherente, absolutamente
+incompatible con los conceptos evaluados, se valorará positivamente que el alumno reconozca el error en
+el resultado.
+
+Notas:
+
+Los datos de los problemas se pueden facilitar en unidades que no sean del Sistema Internacional de
+Unidades (Sl) pero los resultados deben expresarse en el SI excepto si se indica, de forma explícita, en qué
+unidades deben presentarse.
+
+En el supuesto de que el alumnado responda de forma voluntaria o involuntaria a un número de preguntas
+lopciones superior al establecido previamente, Únicamente se corregirán las primeras respuestas de cada
+pregunta, según el orden en que aparezcan, hasta completar el número de preguntas exigido. Las restantes
+preguntas/opciones contestadas no serán objeto de corrección ni calificación.
+
+0) CAMPUS Campus or exceLencia
+
+INTERNACIONAL
+
+www.unirioja.es — iberus DEL VALLE DEL EBRO
