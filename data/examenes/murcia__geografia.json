@@ -1,0 +1,121 @@
+{
+ "ccaa": "murcia",
+ "materia": "geografia",
+ "titulo": "PRUEBA DE ACCESO A LA UNIVERSIDAD — 317 Geografía — PAU 2027 — Región de Murcia",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro bloques, valorados en 2,5 puntos cada uno. Las preguntas 1 y 2 son obligatorias. En el bloque 3, elige una de las preguntas 3.1 o 3.2; en el bloque 4, elige una de las propuestas 4.1 o 4.2, sin mezclar sus apartados. Si respondes las dos opciones de un bloque, solo se corregirá la primera que hayas realizado, salvo que taches una. En todos los bloques se valorarán el razonamiento, la precisión geográfica y la expresión. Los datos de las situaciones planteadas son didácticos.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "clima",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "BLOQUE 1. PREGUNTA 1 (OBLIGATORIA). Un equipo de planificación hídrica compara la precipitación media anual registrada en cuatro estaciones de una red didáctica: costa del noroeste peninsular, 1.100 mm; interior de la Meseta, 450 mm; litoral del sureste peninsular, 300 mm; y vertiente meridional de una isla canaria, 150 mm. Calcula el intervalo entre el valor máximo y el mínimo (0,5 puntos). Explica los factores geográficos que ayudan a entender las diferencias entre las estaciones, relacionándolos con la distribución de las precipitaciones en España (1,25 puntos). Señala dos consecuencias de este reparto desigual para la gestión del agua y propone una medida de adaptación sostenible (0,75 puntos).",
+   "solucion": "### 1. Cálculo del intervalo\nEl intervalo pluviométrico es la diferencia entre el valor máximo y el mínimo. Ordenando los datos, el máximo es $1100$ mm (costa del noroeste) y el mínimo, $150$ mm (vertiente meridional canaria):\n\n$$1100-150=950\\text{ mm}$$\n\nComo comprobación por tramos: $1100-450=650$, $450-300=150$ y $300-150=150$; su suma es $650+150+150=950$ mm. También se verifica que $150+950=1100$ mm.\n\n### 2. Factores geográficos\n- **Costa del noroeste peninsular (1100 mm):** recibe con frecuencia frentes y borrascas atlánticas transportados por los vientos del oeste. La proximidad al océano aporta humedad y el relieve favorece el ascenso del aire y las precipitaciones orográficas.\n- **Interior de la Meseta (450 mm):** la distancia al mar reduce la influencia húmeda y la disposición de los relieves puede dejar zonas a sotavento. La continentalidad contribuye a una precipitación menor que en el noroeste.\n- **Litoral del sureste peninsular (300 mm):** la influencia del anticiclón de las Azores y la menor llegada de frentes atlánticos favorecen la aridez. Los relieves pueden obstaculizar la entrada de humedad; las lluvias mediterráneas, además, suelen ser irregulares y a veces torrenciales.\n- **Vertiente meridional canaria (150 mm):** la latitud subtropical favorece condiciones secas y, al situarse en la vertiente de sotavento, queda menos expuesta a la humedad de los alisios. La inversión térmica limita el desarrollo vertical de las nubes. En Canarias existen contrastes entre vertientes: las orientadas al norte y a barlovento pueden ser más húmedas.\n\nEn conjunto, los datos reflejan el contraste entre el norte y noroeste húmedos y el sureste y parte de Canarias secos, condicionado por la circulación atmosférica, la distancia al mar y el relieve; no depende únicamente de la latitud.\n\n### 3. Consecuencias y adaptación\nEl reparto desigual puede generar **escasez y mayor riesgo de sequía** en el sureste y en las vertientes secas canarias, con competencia entre abastecimiento urbano, agricultura y conservación de los ecosistemas. También puede exigir una gestión diferenciada: en las áreas húmedas, una mayor disponibilidad media no elimina la posibilidad de crecidas y de escorrentía rápida, mientras que en las secas aumenta la presión sobre embalses y acuíferos.\n\nUna medida sostenible es **reutilizar agua depurada para usos compatibles, especialmente el riego**, con controles de calidad y evitando comprometer los caudales ecológicos. Esto reduce la demanda de agua dulce y la extracción de acuíferos.\n\n**Puntuación esperable: 2,5/2,5**, si se expresan correctamente el intervalo, los factores y las consecuencias con una medida adecuada.",
+   "resultado": "Intervalo entre la precipitación máxima y la mínima: 950 mm.",
+   "criterios": "Cálculo del intervalo: 0,5 puntos (1100 − 150 = 950 mm). Explicación de los factores y su relación con la distribución española: 1,25 puntos (influencia atlántica y relieve; continentalidad y barreras; aridez del sureste; condiciones subtropicales y contraste de vertientes canarias). Consecuencias del reparto: 0,5 puntos (dos consecuencias pertinentes, 0,25 cada una). Medida sostenible de adaptación, explicada y adecuada: 0,25 puntos. Total: 2,5 puntos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "sectores",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "BLOQUE 2. PREGUNTA 2 (OBLIGATORIA). Una comarca ficticia estudia cómo ha cambiado su empleo durante una década para orientar un plan de desarrollo local. La tabla recoge el número de personas ocupadas: en 2016, sector primario 2.000, industria 3.000, construcción 1.000 y servicios 4.000; en 2026, sector primario 1.000, industria 3.000, construcción 2.000 y servicios 6.000. Calcula qué porcentaje del empleo total corresponde a los servicios en cada año (0,5 puntos). Calcula la variación absoluta y porcentual del empleo primario entre ambos años (0,5 puntos). Interpreta los principales cambios en la estructura económica y explica dos oportunidades o riesgos que podrían derivarse de ellos para el empleo y la sostenibilidad de la comarca (1,5 puntos).",
+   "solucion": "### 1. Porcentaje del empleo en servicios\n\nEl empleo total de 2016 es $2.000+3.000+1.000+4.000=10.000$ personas. Por tanto, la proporción correspondiente a los servicios es:\n\n$$\\frac{4.000}{10.000}\\times 100=40\\%$$\n\nEl empleo total de 2026 es $1.000+3.000+2.000+6.000=12.000$ personas. La proporción de los servicios es:\n\n$$\\frac{6.000}{12.000}\\times 100=50\\%$$\n\n### 2. Variación del empleo primario\n\nLa variación absoluta se calcula restando el valor inicial al final:\n\n$$1.000-2.000=-1.000\\text{ personas}$$\n\nLa variación porcentual, tomando 2016 como base, es:\n\n$$\\frac{-1.000}{2.000}\\times 100=-50\\%$$\n\nPor tanto, el empleo primario disminuyó en 1.000 personas, un 50 %.\n\n### 3. Interpretación y consecuencias\n\nLa comarca aumentó su empleo total de 10.000 a 12.000 personas, es decir, en 2.000 personas (un 20 %). Se aprecia un desplazamiento hacia los servicios: estos crecieron de 4.000 a 6.000 empleos y pasaron del 40 % al 50 % del total. La construcción también aumentó, de 1.000 a 2.000 empleos; la industria se mantuvo en 3.000, aunque perdió peso relativo, del 30 % al 25 %. El sector primario se redujo a la mitad y pasó del 20 % al 8,3 % del empleo.\n\n- **Oportunidad:** el crecimiento de los servicios puede diversificar la economía y crear empleo en actividades como el comercio, los cuidados o el turismo. Para que sea una mejora duradera, convendría favorecer empleos estables y cualificados, y no depender exclusivamente de actividades estacionales.\n- **Riesgo:** la fuerte reducción del empleo primario puede debilitar la producción local y contribuir al abandono de actividades y paisajes rurales. Además, el aumento de la construcción puede generar presión sobre el suelo y los recursos si no se planifica de forma sostenible.",
+   "resultado": "Servicios: 40 % en 2016 y 50 % en 2026; empleo primario: variación absoluta de −1.000 personas y variación porcentual de −50 %.",
+   "criterios": "Total: 2,5 puntos. Porcentaje del empleo en servicios (0,5): 0,25 por el cálculo correcto de 2016 y 0,25 por el de 2026. Variación del empleo primario (0,5): 0,25 por la variación absoluta con signo y unidad, y 0,25 por la variación porcentual tomando 2016 como base. Interpretación y consecuencias (1,5): 0,5 por describir correctamente los principales cambios sectoriales y del empleo total; 0,5 por explicar una oportunidad vinculada a esos cambios; y 0,5 por explicar un riesgo o una segunda consecuencia, relacionándola con la estructura económica o la sostenibilidad comarcal.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.1",
+   "tema": "poblacion",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "BLOQUE 3. DESARROLLA UNA DE LAS DOS OPCIONES. PREGUNTA 3.1. Un municipio del interior prepara un informe para reorganizar sus servicios públicos. Su población se distribuye así: 0-14 años, 12 %; 15-64 años, 64 %; 65 años o más, 24 %. Calcula el índice de envejecimiento, expresado como el número de personas de 65 años o más por cada 100 menores de 15 años (0,75 puntos). Describe qué revela este resultado sobre la estructura demográfica municipal y explica dos posibles consecuencias para la localidad (1 punto). Propón una medida que responda al reto demográfico y justifica cómo podría contribuir a mejorar la calidad de vida o fijar población (0,75 puntos).",
+   "solucion": "### 1. Cálculo del índice de envejecimiento\n\nEl índice expresa cuántas personas de 65 años o más hay por cada 100 menores de 15 años:\n\n$I = (P_{65+} / P_{0-14}) × 100$\n\nSustituyendo los datos del municipio:\n\n$I = (24 / 12) × 100 = 200$\n\nPor tanto, hay **200 personas de 65 años o más por cada 100 menores de 15 años**.\n\n### 2. Interpretación y consecuencias\n\nEl resultado muestra una estructura demográfica envejecida: el grupo de 65 años o más duplica al de menores de 15 años. El índice compara ambos grupos, pero por sí solo no permite conocer el tamaño total de la población ni demostrar que esta esté disminuyendo.\n\nDos posibles consecuencias son:\n\n- **Mayor necesidad de servicios de atención y cuidados**, como ayuda a domicilio, atención sanitaria y recursos para personas dependientes.\n- **Menor peso de la población infantil y juvenil**, lo que puede reducir la matrícula escolar y, si esta cae suficientemente, dificultar el mantenimiento de algunos servicios educativos.\n\n### 3. Medida propuesta\n\nSe podría reforzar un **programa municipal de atención a domicilio y acompañamiento para personas mayores**. Facilitaría que permanecieran en su entorno con mayor autonomía y reduciría el aislamiento y la carga de cuidados de sus familias. Así contribuiría directamente a mejorar la calidad de vida y orientaría los servicios públicos a las necesidades que refleja la estructura demográfica.",
+   "resultado": "200 personas de 65 años o más por cada 100 menores de 15 años.",
+   "criterios": "Total: 2,5 puntos. Cálculo del índice (0,75): 0,25 por identificar la relación entre población de 65 años o más y población menor de 15 años; 0,25 por sustituir correctamente los porcentajes; 0,25 por obtener 200 personas por cada 100 menores. Interpretación y consecuencias (1 punto): 0,40 por explicar que el resultado revela envejecimiento y que se trata de una comparación entre grupos; 0,30 por cada una de dos consecuencias pertinentes y explicadas. Medida (0,75): 0,35 por proponer una medida concreta y adecuada al reto demográfico; 0,40 por justificar de forma coherente cómo mejoraría la calidad de vida o ayudaría a fijar población.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3.2",
+   "tema": "urbano",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "BLOQUE 3. DESARROLLA UNA DE LAS DOS OPCIONES. PREGUNTA 3.2. Un plano esquemático de una ciudad española muestra tres sectores: un núcleo histórico de calles estrechas y usos residenciales, comerciales y administrativos; un cinturón próximo a la antigua estación ferroviaria, con viviendas construidas durante la industrialización y antiguos talleres; y una periferia reciente junto a una ronda de circunvalación, con urbanizaciones de baja densidad, un centro comercial y nuevas áreas de actividad. Explica qué etapas de crecimiento urbano pueden reconocerse y qué rasgos caracterizan cada sector (1,25 puntos). Analiza dos problemas de movilidad o sostenibilidad que podrían surgir de esta organización espacial (0,75 puntos). Propón una actuación de planificación urbana que contribuya a resolver uno de esos problemas, justificándola (0,5 puntos).",
+   "solucion": "### Método de análisis\nEn lugar de limitarse a enumerar las etapas cronológicamente, se parte de la forma y las funciones de cada sector y se relacionan con su etapa de crecimiento. Las fechas son aproximadas: el plano permite identificar procesos urbanos, pero no datarlos con precisión.\n\n### 1. Etapas de crecimiento y características\n\n1. **Núcleo histórico o ciudad preindustrial.** Es el sector más antiguo y compacto, con calles estrechas, probablemente de trazado irregular. La mezcla de viviendas, comercio y funciones administrativas muestra su papel de centro urbano. La concentración de usos y la estrechez viaria son características de una ciudad desarrollada antes de la expansión industrial.\n\n2. **Expansión de la ciudad industrial.** El cinturón próximo a la antigua estación corresponde al crecimiento asociado a la industrialización y al ferrocarril. Las viviendas vinculadas a esa etapa y los antiguos talleres reflejan la proximidad entre residencia obrera, actividades productivas e infraestructuras de transporte. Según su trazado, este crecimiento pudo incluir ensanches planificados y/o barrios obreros, pero la información del enunciado no permite afirmarlo con mayor precisión.\n\n3. **Periferia reciente y suburbanización.** La ronda de circunvalación ha favorecido una expansión periférica posterior. Las urbanizaciones de baja densidad, el centro comercial y las nuevas áreas de actividad indican una organización más dispersa y una mayor separación entre vivienda, comercio y empleo. Es un modelo de crecimiento dependiente de las vías de acceso y, potencialmente, del automóvil.\n\n### 2. Problemas de movilidad o sostenibilidad\n\n- **Dependencia del automóvil y congestión:** la baja densidad y la separación de usos en la periferia pueden hacer necesarios desplazamientos largos entre vivienda, comercio y trabajo. Esto aumenta el tráfico en la ronda y en los accesos al centro comercial, además de las emisiones contaminantes.\n- **Consumo y fragmentación del suelo:** la expansión dispersa ocupa más suelo por habitante y puede fragmentar espacios agrícolas o naturales. También exige extender redes y servicios urbanos a distancias mayores.\n\n### 3. Actuación de planificación\nSe propone crear un **corredor de transporte público frecuente y competitivo** que conecte el núcleo histórico, el entorno de la antigua estación y la periferia, con buenas conexiones peatonales y ciclistas a la ronda, al centro comercial y a las áreas de actividad. Al ofrecer una alternativa práctica al automóvil, puede reducir los desplazamientos privados, la congestión y las emisiones; además, puede favorecer la regeneración de los antiguos espacios industriales próximos a la estación.\n\n### Comprobación final\nLa respuesta identifica las tres etapas a partir de los rasgos descritos, analiza dos problemas distintos y propone una actuación vinculada expresamente a uno de ellos. La puntuación prevista suma 2,5 puntos.",
+   "resultado": "Núcleo preindustrial, expansión industrial ligada al ferrocarril y periferia reciente dispersa; problemas de dependencia del automóvil y consumo de suelo, mitigables mediante un corredor de transporte público.",
+   "criterios": "Total: 2,5 puntos. Etapas y rasgos (1,25): 0,40 por caracterizar el núcleo histórico como ciudad preindustrial; 0,40 por explicar la expansión industrial ligada a la estación, los talleres y la vivienda; 0,45 por identificar la periferia reciente, su baja densidad y la separación de usos. Problemas (0,75): 0,375 por cada problema correctamente explicado y relacionado con la organización espacial. Actuación (0,5): 0,25 por proponer una medida concreta y pertinente; 0,25 por justificar cómo contribuye a resolver uno de los problemas. Se valorará la precisión geográfica y la relación causa-efecto; no se exigirá atribuir fechas exactas ni afirmar un tipo concreto de trazado industrial que el enunciado no especifica.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.1",
+   "tema": "sectores",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "BLOQUE 4. ELIGE UNA DE LAS DOS PROPUESTAS DE VOCABULARIO; NO SE PUEDEN MEZCLAR. PREGUNTA 4.1. a) Define los siguientes términos geográficos y añade un ejemplo referido a España cuando proceda (1,5 puntos; 0,5 cada uno): a.1) agricultura de regadío; a.2) reconversión industrial; a.3) Fondo Europeo de Desarrollo Regional (FEDER). b) Identifica el término geográfico correspondiente a cada definición (1 punto; 0,5 cada uno): b.1) Diferencia entre el valor de las exportaciones y el de las importaciones de bienes de un territorio durante un periodo determinado. b.2) Espacio delimitado y acondicionado para agrupar establecimientos industriales y facilitar sus servicios e infraestructuras comunes.",
+   "solucion": "### Resolución paso a paso\n\n**Método de identificación:** en vez de empezar por memorizar una lista de términos, se identifica primero el rasgo decisivo de cada descripción y se asocia después con el concepto geográfico correspondiente.\n\n#### a) Definición de términos\n\n1. **Agricultura de regadío.** Sistema agrícola en el que se aporta agua a los cultivos mediante técnicas de riego, además de la procedente de las precipitaciones. **Ejemplo en España:** los cultivos de regadío de la huerta valenciana o del valle del Ebro.\n\n2. **Reconversión industrial.** Proceso de adaptación de sectores industriales en crisis a las nuevas condiciones del mercado mediante medidas como la modernización, la reorganización productiva o el cierre de instalaciones no competitivas. En España afectó, entre otros, a la siderurgia y a la construcción naval durante las décadas de 1980 y 1990.\n\n3. **Fondo Europeo de Desarrollo Regional (FEDER).** Fondo de la Unión Europea que financia actuaciones para favorecer el desarrollo regional y reducir las desigualdades entre regiones, por ejemplo mediante inversiones en infraestructuras, innovación y actividad empresarial. **Ejemplo en España:** financiación de actuaciones de desarrollo e infraestructuras en regiones como Extremadura.\n\n#### b) Identificación a partir de las definiciones\n\n4. La diferencia entre el valor de las exportaciones y el de las importaciones de **bienes** es la **balanza comercial**.\n\n5. El espacio planificado y acondicionado para reunir industrias y ofrecerles infraestructuras y servicios comunes es un **polígono industrial**.\n\n#### Comprobación final\n\nLas tres definiciones de la parte a) corresponden a conceptos de agricultura, política industrial y financiación regional, respectivamente. En la parte b), la referencia exclusiva a bienes identifica la balanza comercial, y el espacio acondicionado para reunir industrias identifica el polígono industrial. La puntuación máxima suma $3\\times0{,}5 + 2\\times0{,}5 = 2{,}5$ puntos.",
+   "resultado": "Agricultura de regadío; reconversión industrial; FEDER; balanza comercial; polígono industrial. Total: 2,5/2,5 puntos.",
+   "criterios": "Puntuación máxima: 2,5 puntos. a.1, a.2 y a.3: 0,5 puntos cada término; como pauta orientativa, hasta 0,25 por una definición precisa y hasta 0,25 por un ejemplo pertinente referido a España cuando proceda. b.1 y b.2: 0,5 puntos por cada término correctamente identificado. Se admite una formulación equivalente si conserva el significado geográfico; se resta crédito si la definición es vaga o confunde la balanza comercial con el saldo de servicios.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4.2",
+   "tema": "relieve",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "BLOQUE 4. ELIGE UNA DE LAS DOS PROPUESTAS DE VOCABULARIO; NO SE PUEDEN MEZCLAR. PREGUNTA 4.2. a) Define los siguientes términos geográficos y añade un ejemplo referido a España cuando proceda (1,5 puntos; 0,5 cada uno): a.1) cuenca sedimentaria; a.2) rambla; a.3) área metropolitana. b) Identifica el término geográfico correspondiente a cada definición (1 punto; 0,5 cada uno): b.1) Línea dibujada en un mapa que une puntos con igual precipitación. b.2) Depresión cerrada, generalmente circular, formada en terrenos calizos por disolución de la roca.",
+   "solucion": "### a) Definición de términos\n\n1. **Cuenca sedimentaria:** zona deprimida de la corteza terrestre en la que, durante un periodo prolongado, se acumulan sedimentos procedentes de la erosión de los relieves circundantes. En España son ejemplos las cuencas del Duero, del Tajo y del Ebro.\n2. **Rambla:** cauce normalmente seco o con caudal muy irregular, propio de regiones de clima mediterráneo seco o semiárido, que puede llevar una crecida súbita y torrencial tras lluvias intensas. Son características del sureste peninsular; por ejemplo, las ramblas de la Región de Murcia.\n3. **Área metropolitana:** conjunto urbano formado por una ciudad principal y municipios próximos, relacionados e integrados funcionalmente por desplazamientos cotidianos, actividades económicas y servicios compartidos. Ejemplos son las áreas metropolitanas de Madrid y Barcelona.\n\n### b) Identificación del término\n\n1. Línea que une en un mapa puntos con igual precipitación: **isoyeta**.\n2. Depresión cerrada, generalmente circular, originada por la disolución de roca caliza: **dolina**.",
+   "resultado": "Cuenca sedimentaria; rambla; área metropolitana; isoyeta; dolina.",
+   "criterios": "Total: 2,5 puntos. a) 1,5 puntos: 0,5 por cada término; se valorará la definición correcta y, cuando proceda, un ejemplo español adecuado. b) 1 punto: 0,5 por cada identificación correcta: isoyeta y dolina. Se aceptará terminología equivalente si expresa con precisión el concepto.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-23",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "sectores",
+   "p": 0.725
+  },
+  {
+   "id": "clima",
+   "p": 0.702
+  },
+  {
+   "id": "poblacion",
+   "p": 0.561
+  },
+  {
+   "id": "urbano",
+   "p": 0.412
+  },
+  {
+   "id": "relieve",
+   "p": 0.35
+  },
+  {
+   "id": "territorio",
+   "p": 0.272
+  }
+ ],
+ "referencias": [
+  "https://www.um.es/documents/d/estudios/pau2026-317-geografia-junio-pdf",
+  "https://www.um.es/documents/d/estudios/317-geografia-1-pdf",
+  "https://www.um.es/documents/1083928/30935544/PAU+2025+317+GEOGRAFI%CC%81A+Estructura+y+criterios.pdf/04a4c97a-91f6-1636-dd9c-071e73c86780?t=1729092092794",
+  "https://www.um.es/documents/d/estudios/317-geografia-1-pdf",
+  "https://www.um.es/documents/d/estudios/317-geografia-pdf",
+  "https://www.um.es/documents/d/estudios/317-geografia-pdf-1",
+  "https://www.um.es/documents/d/estudios/pau2026-317-geografia-ejemplo-de-examen-pdf",
+  "https://www.um.es/documents/d/estudios/pau2026-317-geografia-estructura-y-modelo-de-examen-pdf",
+  "https://www.um.es/documents/d/estudios/pau2026-317-geografia-junio-pdf"
+ ]
+}
