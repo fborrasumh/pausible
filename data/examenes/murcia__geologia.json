@@ -1,0 +1,121 @@
+{
+ "ccaa": "murcia",
+ "materia": "geologia",
+ "titulo": "Examen de Geología y Ciencias Ambientales — PAU 2027, Región de Murcia",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de siete preguntas. La pregunta 1 vale 2 puntos y no tiene opciones; cada una de las preguntas 2 a 7 vale 1 punto. En estas últimas, elija y responda solo una de las opciones A o B. Si responde las dos, solo se corregirá la primera. La puntuación de cada apartado se indica en el enunciado.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "procesos",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En un mapa geológico esquemático de un sector de la Sierra del Carche, el perfil I-II, perpendicular al eje de un pliegue, atraviesa de oeste a este las unidades A-B-C-B-A. Los estratos son concordantes, no hay fallas ni discordancias y, en ambos flancos, las capas buzan hacia el centro del pliegue. La leyenda indica: A, calizas del Jurásico inferior; B, margas del Jurásico superior; C, areniscas del Cretácico inferior. En la unidad B se ha encontrado un ammonite. Responda: a) Ordene las unidades de más antigua a más moderna. (0,5 p.) b) Identifique el tipo de pliegue. (0,5 p.) c) Represente mediante un corte geológico esquemático la disposición de las unidades a lo largo de I-II. (0,5 p.) d) Indique el grupo fósil al que pertenece el ammonite y el medio de sedimentación de la unidad B. (0,25 p. cada respuesta.)",
+   "solucion": "### a) Orden de más antigua a más moderna\nA corresponde al Jurásico inferior, B al Jurásico superior y C al Cretácico inferior. Por tanto, el orden es **A → B → C**.\n\n### b) Tipo de pliegue\nEs un **sinclinal**: los estratos de ambos flancos buzan hacia el centro y la unidad más moderna (C) ocupa la zona central.\n\n### c) Corte geológico esquemático\nLa sucesión de unidades aflorantes de oeste a este es A-B-C-B-A. El esquema representa los estratos concordantes plegados en una estructura cóncava hacia arriba, con buzamiento hacia el eje:\n\n```text\nOeste                                                        Este\nsuperficie  ─────────────────────────────────────────────────────\nA               \\\\                                  //             A\n                  \\\\ B                          B //\n                    \\\\                          //\n                      \\\\________ C __________//\n\nAfloramiento:       A       B       C       B       A\n```\n\n### d) Ammonite y medio de sedimentación\nEl ammonite pertenece a los **moluscos cefalópodos** y era un organismo marino. Su presencia, junto con el carácter margoso de B, es compatible con un **medio de sedimentación marino**.",
+   "resultado": "A-B-C, de más antigua a más moderna; pliegue sinclinal; corte A-B-C-B-A con buzamiento hacia el centro; ammonite: molusco cefalópodo; medio de B: marino.",
+   "criterios": "Puntuación total: 2 puntos. a) 0,5 puntos por ordenar correctamente A, B y C de más antigua a más moderna. b) 0,5 puntos por identificar el pliegue como sinclinal, justificándolo con el buzamiento hacia el centro o la posición de la unidad más moderna en el núcleo. c) 0,5 puntos por un corte coherente con la sucesión A-B-C-B-A, la geometría sinclinal y los buzamientos hacia el centro. d) 0,25 puntos por clasificar el ammonite como molusco cefalópodo y 0,25 puntos por indicar un medio marino para la sedimentación de B.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una campaña de seguimiento geológico en Islandia se registran desplazamientos opuestos de puntos situados a ambos lados de una fractura, y se observan emisiones de lava basáltica. Elija una opción y responda: Opción 2A: a) ¿Qué tipo de límite de placas indica que los puntos se separen? (0,5 p.) b) ¿Qué proceso de formación de litosfera ocurre en ese límite? (0,5 p.) Opción 2B: a) Nombre las dos placas que interactúan en Islandia. (0,25 p. cada una.) b) Indique el tipo de límite entre ellas. (0,25 p.) c) Además de los terremotos, ¿qué riesgo geológico se relaciona directamente con las emisiones de lava descritas? (0,25 p.)",
+   "solucion": "**Opción elegida: 2A**\n\n1. Los puntos situados a ambos lados de la fractura se separan; por tanto, las placas se alejan entre sí. El límite es **divergente** (o constructivo).\n2. En un límite divergente asciende material mantélico, que puede fundirse por descompresión. El magma basáltico se enfría y solidifica, formando **nueva litosfera**, principalmente oceánica; este proceso se denomina expansión del fondo oceánico o acreción.\n3. **Comprobación:** la separación de los puntos concuerda con un límite divergente, y las emisiones de lava basáltica son coherentes con el ascenso de magma y la formación de litosfera en ese límite. No se requiere un método de cálculo alternativo, pues la pregunta es conceptual.",
+   "resultado": "Límite divergente; formación de nueva litosfera por ascenso y solidificación de magma basáltico.",
+   "criterios": "Opción 2A: 0,5 puntos por identificar el límite divergente (se acepta «constructivo»); 0,5 puntos por indicar la formación de nueva litosfera, por ejemplo mediante expansión del fondo oceánico o acreción de magma basáltico.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "tectonica",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Durante una salida de campo en la Región de Murcia se estudia un corte en el que una falla buza 60° hacia el este. El bloque oriental, que es el techo de la falla, se encuentra desplazado hacia abajo 3 m respecto al bloque occidental. Elija una opción y responda: Opción 3A: a) Clasifique la falla. (0,5 p.) b) Indique si el régimen tectónico que la genera es distensivo o compresivo. (0,5 p.) Opción 3B: en otro afloramiento, los estratos forman un pliegue convexo hacia arriba y los materiales más antiguos ocupan su núcleo. a) Identifique el tipo de pliegue. (0,5 p.) b) Indique el régimen tectónico asociado a su formación. (0,5 p.)",
+   "solucion": "### Opción elegida: 3A\n\n**a) Clasificación de la falla.** Se identifica primero el bloque de techo: es el bloque situado sobre el plano de falla, que en este caso es el bloque oriental. El enunciado indica que ese bloque se ha desplazado 3 m hacia abajo respecto al bloque occidental. Cuando el bloque de techo desciende respecto al bloque de muro, la falla es **normal**.\n\n**b) Régimen tectónico.** Las fallas normales se generan por extensión o distensión de la corteza. Por tanto, el régimen tectónico es **distensivo**.\n\n**Comprobación:** el desplazamiento descrito —descenso del bloque de techo— coincide con el criterio cinemático de una falla normal y, por ello, con un régimen distensivo.",
+   "resultado": "Falla normal; régimen tectónico distensivo.",
+   "criterios": "Opción 3A: 0,5 puntos por clasificarla como falla normal, justificándolo por el descenso del bloque de techo respecto al de muro; 0,5 puntos por indicar que el régimen es distensivo. Total: 1 punto.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "procesos",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "En una práctica de geomorfología se comparan dos formas de acumulación de sedimentos. Elija una opción y responda: Opción 4A: a la salida de un barranco de montaña, el cauce se abre en forma de abanico y los depósitos muestran clastos gruesos cerca del ápice y sedimentos progresivamente más finos hacia el exterior. a) Nombre la forma del relieve. (0,5 p.) b) ¿Qué cambio en la competencia del flujo explica la deposición y la disminución del tamaño de los clastos hacia el exterior? (0,5 p.) Opción 4B: en un meandro, las mediciones muestran mayor velocidad del agua junto a la orilla cóncava y menor velocidad junto a la orilla convexa. a) ¿En cuál de las dos orillas predomina la erosión? (0,5 p.) b) ¿En cuál predomina la sedimentación? (0,5 p.)",
+   "solucion": "### Opción 4A\n\n**a) Forma del relieve:** es un **abanico aluvial** (o cono de deyección), formado por la acumulación de sedimentos en la salida de un barranco cuando el cauce se abre y pierde confinamiento.\n\n**b) Cambio en la competencia del flujo:** al expandirse el flujo sobre el abanico disminuyen su velocidad y energía, por lo que también disminuye su competencia, es decir, su capacidad para transportar clastos de gran tamaño. Los clastos más gruesos se depositan primero, cerca del ápice; los materiales más finos pueden ser transportados más lejos y se depositan hacia el exterior.",
+   "resultado": "Abanico aluvial; la disminución de la velocidad y la energía reduce la competencia del flujo y produce una deposición progresivamente más fina hacia el exterior.",
+   "criterios": "Total: 1 punto. a) 0,5 puntos por nombrar correctamente el abanico aluvial (o cono de deyección). b) 0,5 puntos por explicar que la expansión del flujo reduce su velocidad o energía y, con ello, su competencia, favoreciendo la deposición de los clastos gruesos primero y de los finos más lejos. Se aceptan formulaciones equivalentes.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "5",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "Un equipo prepara fichas para una colección didáctica de materiales geológicos. Elija una opción y responda: Opción 5A: una muestra presenta cristales visibles e intercrecidos de cuarzo, feldespato potásico y biotita; se sabe que el magma se enfrió lentamente en profundidad. a) Identifique la roca. (0,5 p.) b) Clasifíquela según su origen como plutónica o volcánica. (0,5 p.) Opción 5B: una muestra metamórfica presenta bandas alternas claras, ricas en cuarzo y feldespato, y bandas oscuras con biotita; se formó durante metamorfismo regional de alto grado. a) Identifique la roca. (0,5 p.) b) Indique si presenta foliación o textura no foliada. (0,5 p.)",
+   "solucion": "### Opción elegida: 5A\n\n1. **Identificación por la asociación mineralógica:** el cuarzo y el feldespato potásico son minerales característicos de una roca ígnea félsica; la biotita puede aparecer como mineral oscuro acompañante. La asociación y los cristales intercrecidos corresponden a un **granito**.\n2. **Clasificación por textura y enfriamiento:** los cristales visibles y el enfriamiento lento del magma en profundidad indican que tuvo tiempo para cristalizar y crecer. Por tanto, es una roca **plutónica** (intrusiva).\n3. **Comprobación:** la identificación es coherente con los datos: el granito presenta habitualmente cuarzo, feldespato potásico y biotita, y se forma por enfriamiento lento en profundidad. No procede clasificarla como volcánica.\n\n**Nota:** 1,0/1,0 puntos.",
+   "resultado": "Opción 5A: granito; roca plutónica (intrusiva).",
+   "criterios": "0,5 puntos por identificar correctamente el granito. 0,5 puntos por clasificarlo como plutónico o intrusivo. Se concede la puntuación completa si las dos respuestas son correctas; la justificación es coherente con los datos del enunciado.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "6",
+   "tema": "minerales",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Para completar el inventario de una colección mineralógica se mide la masa y el volumen de una muestra. Elija una opción y responda: Opción 6A: la muestra tiene una masa de $79.5\\ \\text{g}$ y un volumen de $30\\ \\text{cm}^3$. Su dureza es 7 en la escala de Mohs y presenta fractura concoidea. Calcule su densidad usando $\\rho=\\frac{m}{V}$ y nombre el mineral. (0,5 p. cada respuesta.) Opción 6B: la muestra tiene una masa de $156\\ \\text{g}$ y un volumen de $30\\ \\text{cm}^3$; presenta raya negra y es atraída por un imán. Calcule su densidad usando $\\rho=\\frac{m}{V}$ y nombre el mineral. (0,5 p. cada respuesta.)",
+   "solucion": "### Opción 6A\n\n1. Aplicamos la expresión de la densidad:\n   $$\\rho=\\frac{m}{V}$$\n2. Sustituimos los datos de la muestra:\n   $$\\rho=\\frac{79.5\\ \\text{g}}{30\\ \\text{cm}^3}=2.65\\ \\text{g/cm}^3$$\n3. Una dureza de 7 en la escala de Mohs y una fractura concoidea son características del **cuarzo**.",
+   "resultado": "Densidad: 2,65 g/cm³; mineral: cuarzo.",
+   "criterios": "Opción 6A: 0,5 puntos por calcular correctamente la densidad y expresarla con unidades (2,65 g/cm³); 0,5 puntos por identificar el mineral como cuarzo.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "7",
+   "tema": "recursos",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Una comunidad de regantes revisa la gestión de los recursos hídricos de un acuífero. Elija una opción y responda: Opción 7A: la recarga anual estimada es de $3.6\\ \\text{hm}^3/\\text{año}$ y las extracciones son de $4.5\\ \\text{hm}^3/\\text{año}$. Calcule el balance anual, definido como recarga menos extracción, e indique si existe sobreexplotación. (0,5 p. cada respuesta.) Opción 7B: un municipio recoge $16\\ \\text{t}$ de restos vegetales al año y composta el 75 % de esa cantidad. Calcule cuántas toneladas se compostan y cuántas quedan sin compostar. (0,5 p. cada resultado.)",
+   "solucion": "### Opción 7B\n\nSe composta el $75\\%$ de las $16\\ \\text{t}$ recogidas:\n\n$16\\ \\text{t}\\times 0{,}75=12\\ \\text{t}$.\n\nLa cantidad que queda sin compostar es:\n\n$16\\ \\text{t}-12\\ \\text{t}=4\\ \\text{t}$.\n\nPor tanto, se compostan $12\\ \\text{t}$ y quedan sin compostar $4\\ \\text{t}$.",
+   "resultado": "Se compostan 12 t y quedan sin compostar 4 t.",
+   "criterios": "Opción 7B (1 punto): 0,5 puntos por calcular correctamente las toneladas compostadas (16 × 0,75 = 12 t); 0,5 puntos por calcular correctamente las toneladas sin compostar (16 − 12 = 4 t).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-23",
+ "modelo": "gpt-6-luna",
+ "rondas": 3,
+ "temas_base": [
+  {
+   "id": "minerales",
+   "p": 0.9
+  },
+  {
+   "id": "recursos",
+   "p": 0.9
+  },
+  {
+   "id": "tectonica",
+   "p": 0.512
+  },
+  {
+   "id": "procesos",
+   "p": 0.512
+  }
+ ],
+ "referencias": [
+  "https://www.um.es/documents/d/estudios/pau2026-318-geologia-y-ciencias-ambientales-ejemplo-de-examen-pdf",
+  "https://www.um.es/documents/d/estudios/pau2027-318-geologia-y-ciencias-ambientales-acta-reunion-24-9-26-pdf",
+  "https://www.um.es/documents/d/estudios/pau-2025-adap-318-geologia-y-ciencias-ambientales-modelo-de-examen-pdf",
+  "https://www.um.es/documents/d/estudios/pau2026-318-geologia-y-ciencias-ambientales-ejemplo-de-examen-pdf",
+  "https://www.um.es/documents/d/estudios/pau2027-318-geologia-y-ciencias-ambientales-acta-reunion-24-9-26-pdf"
+ ]
+}
