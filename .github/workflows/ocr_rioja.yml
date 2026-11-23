@@ -1,0 +1,24 @@
+name: OCR La Rioja (exámenes escaneados)
+# Lee con Tesseract los exámenes escaneados de La Rioja (manual/rioja/escaneados.json) y sube el texto a manual/rioja/.
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: {group: ocr-rioja, cancel-in-progress: false}
+jobs:
+  ocr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - run: sudo apt-get -qq update && sudo apt-get -qq install -y tesseract-ocr tesseract-ocr-spa poppler-utils > /dev/null
+      - run: pip install -q requests
+      - name: OCR
+        run: python3 pipeline/ocr_rioja.py --tiempo 19000
+      - name: Guardar en el repositorio
+        if: always()
+        run: |
+          git config user.name "pausible-bot"; git config user.email "actions@users.noreply.github.com"
+          git add manual/rioja
+          git diff --cached --quiet || (git commit -q -m "La Rioja: exámenes escaneados leídos con OCR" && git pull -q --rebase -X theirs && git push -q)
