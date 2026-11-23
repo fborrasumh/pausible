@@ -52347,15 +52347,44 @@
    "materias": {
     "aleman": {
      "nombre": "Lengua Extranjera II: Alemán",
-     "n_examenes": 1,
+     "n_examenes": 6,
      "anios": [
-      2024
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2022/Alemán junio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2023/Alemán julio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Alemán junio examen (OCR).txt"
+      },
       {
        "anio": 2024,
        "conv": "ord",
        "url": "manual:manual/rioja/2024/Alemán junio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2025/Alemán junio examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Alemán examen (OCR).txt"
       }
      ],
      "temas": [],
@@ -52364,15 +52393,31 @@
     },
     "audiovisual": {
      "nombre": "Cultura Audiovisual",
-     "n_examenes": 1,
+     "n_examenes": 4,
      "anios": [
+      2022,
       2023
      ],
      "examenes": [
       {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Cultura Audiovisual II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2022/Cultura Audiovisual II junio examen (OCR).txt"
+      },
+      {
        "anio": 2023,
        "conv": "ext",
        "url": "manual:manual/rioja/2023/Cultura Audiovisual II julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Cultura Audiovisual II junio examen (OCR).txt"
       }
      ],
      "temas": [],
@@ -52381,7 +52426,7 @@
     },
     "biologia": {
      "nombre": "Biología",
-     "n_examenes": 6,
+     "n_examenes": 10,
      "anios": [
       2022,
       2023,
@@ -52394,6 +52439,16 @@
        "anio": 2022,
        "conv": "ext",
        "url": "manual:manual/rioja/2022/Biología julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2022/Biología junio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2023/Biología julio examen (OCR).txt"
       },
       {
        "anio": 2023,
@@ -52412,6 +52467,11 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Biología julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "manual:manual/rioja/2025/Biología junio examen.txt"
       },
@@ -52419,6 +52479,11 @@
        "anio": 2026,
        "conv": "modelo",
        "url": "manual:manual/rioja/2026/Biología examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Biología examen (OCR).txt"
       }
      ],
      "temas": [
@@ -52426,8 +52491,8 @@
        "id": "biomoleculas",
        "nombre": "Biomoléculas",
        "p": 0.9,
-       "veces": 6,
-       "de": 6,
+       "veces": 10,
+       "de": 10,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "4.A.1) El empalme alternativo permite que un único gen codifique múltiples proteínas distintas. (0,5 puntos)",
@@ -52437,8 +52502,8 @@
        "id": "celula",
        "nombre": "La célula",
        "p": 0.9,
-       "veces": 6,
-       "de": 6,
+       "veces": 10,
+       "de": 10,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "a) ¿A qué orgánulos corresponden? (0,2 puntos)",
@@ -52448,8 +52513,8 @@
        "id": "molecular",
        "nombre": "Genética molecular y biotecnología",
        "p": 0.9,
-       "veces": 6,
-       "de": 6,
+       "veces": 10,
+       "de": 10,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "4.A.2) Todas las mutaciones silenciosas son neutras desde el punto de vista funcional y evolutivo. (0,5 puntos)",
@@ -52459,8 +52524,8 @@
        "id": "inmunologia",
        "nombre": "Inmunología",
        "p": 0.9,
-       "veces": 6,
-       "de": 6,
+       "veces": 10,
+       "de": 10,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "Bloque Biotecnología e inmunología (2 puntos)",
@@ -52469,42 +52534,42 @@
       {
        "id": "metabolismo",
        "nombre": "Metabolismo",
-       "p": 0.775,
-       "veces": 5,
-       "de": 6,
+       "p": 0.771,
+       "veces": 8,
+       "de": 10,
        "ultimo": 2026,
        "tendencia": "sube",
        "muestra": "El metabolismo celular es el conjunto integrado de reacciones químicas que tienen lugar en la célula y que permiten el intercambio de materia y energía con el entorno.",
        "muestra_url": "manual:manual/rioja/2026/Biología examen.txt"
       },
       {
-       "id": "division",
-       "nombre": "División celular",
-       "p": 0.324,
-       "veces": 3,
-       "de": 6,
-       "ultimo": 2024,
-       "tendencia": "baja",
-       "muestra": "Pregunta 6.- Identifique las fases de la mitosis en que se encuentran las células de cada una de las micrografías del dibujo adjunto.",
-       "muestra_url": "manual:manual/rioja/2024/Biología julio examen.txt"
-      },
-      {
        "id": "microbiologia",
        "nombre": "Microbiología",
-       "p": 0.324,
-       "veces": 3,
-       "de": 6,
-       "ultimo": 2024,
+       "p": 0.534,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "baja",
-       "muestra": "Pregunta 12.- La siguiente secuencia de nucleótidos corresponde a la cadena codificante de un gen de una cepa bacteriana:",
-       "muestra_url": "manual:manual/rioja/2024/Biología julio examen.txt"
+       "muestra": "Apartado 4.A. 4.A.1) En bacterias, la traducción puede iniciarse antes de que haya finalizado la transcripción del mRNA. (0,5 puntos)",
+       "muestra_url": "manual:manual/rioja/2026/Biología examen (OCR).txt"
+      },
+      {
+       "id": "division",
+       "nombre": "División celular",
+       "p": 0.531,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "baja",
+       "muestra": "Cuestión 4A.- El cáncer es una patología con múltiples orígenes y elementos inductores, pero es indudable que el cáncer supone una alteración del ciclo celular “normal”.",
+       "muestra_url": "manual:manual/rioja/2025/Biología julio examen (OCR).txt"
       },
       {
        "id": "genetica",
        "nombre": "Genética mendeliana",
-       "p": 0.199,
-       "veces": 2,
-       "de": 6,
+       "p": 0.232,
+       "veces": 4,
+       "de": 10,
        "ultimo": 2023,
        "tendencia": "baja",
        "muestra": "Pregunta 11.- Un granjero ha cruzado dos líneas puras de gallinas, unas de plumaje marrón (M) y cresta sencilla (s) y otras de plumaje blanco (m) y cresta en roseta (S). Si los caracteres marrón y cresta roseta son dominantes:",
@@ -52536,9 +52601,10 @@
     },
     "ciencias": {
      "nombre": "Ciencias Generales",
-     "n_examenes": 2,
+     "n_examenes": 4,
      "anios": [
-      2024
+      2024,
+      2026
      ],
      "examenes": [
       {
@@ -52550,6 +52616,16 @@
        "anio": 2024,
        "conv": "ord",
        "url": "manual:manual/rioja/2024/Ciencias Generales junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Ciencias Generales examen (OCR 2).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Ciencias Generales examen (OCR).txt"
       }
      ],
      "temas": [],
@@ -52558,14 +52634,20 @@
     },
     "dibujo": {
      "nombre": "Dibujo Técnico II",
-     "n_examenes": 10,
+     "n_examenes": 15,
      "anios": [
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Dibujo Técnico II julio examen (OCR).txt"
+      },
       {
        "anio": 2022,
        "conv": "ord",
@@ -52575,6 +52657,11 @@
        "anio": 2023,
        "conv": "ext",
        "url": "manual:manual/rioja/2023/Dibujo Técnico II julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Dibujo Técnico II junio examen (OCR).txt"
       },
       {
        "anio": 2024,
@@ -52615,6 +52702,21 @@
        "anio": 2025,
        "conv": "ord",
        "url": "manual:manual/rioja/2025/Dibujo Técnico aplicado junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2026/Dibujo Técnico II julio examen (OCR 2).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2026/Dibujo Técnico II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Dibujo Técnico Aplicado a las Artes Plás examen (OCR).txt"
       }
      ],
      "temas": [
@@ -52622,56 +52724,56 @@
        "id": "normalizacion",
        "nombre": "Normalización y vistas",
        "p": 0.9,
-       "veces": 10,
-       "de": 10,
-       "ultimo": 2025,
+       "veces": 15,
+       "de": 15,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "Pregunta 1: Dibujar a escala 2:1 en isométrico la figura dada por sus vistas ortogonales diédricas. Tomar las medidas directamente de las vistas dadas. No es necesario aplicar coeficientes de reducción. Utilizar el sistema de ejes dado. Diferenciar las aristas vistas y las oculta…",
-       "muestra_url": "manual:manual/rioja/2025/Dibujo Técnico II junio examen.txt"
+       "muestra": "CONTENIDOS VALORACIÓN Apartado A | Fundamentos geométricos 2,5 puntos Apartado B | Geometría Proyectiva (Diédrico l) 2,5 puntos Apartado C | Geometría Proyectiva (Diédrico 11) 2,5 puntos Resto de sistemas (Axonométrico, cónica y planos acotados) Apartado D 2,5 puntos Normalizació…",
+       "muestra_url": "manual:manual/rioja/2026/Dibujo Técnico II julio examen (OCR 2).txt"
       },
       {
        "id": "conicas",
        "nombre": "Cónicas",
-       "p": 0.609,
-       "veces": 7,
-       "de": 10,
-       "ultimo": 2025,
+       "p": 0.746,
+       "veces": 12,
+       "de": 15,
+       "ultimo": 2026,
        "tendencia": "baja",
-       "muestra": "Pregunta 1: La sección de un tejado tiene forma de triángulo isósceles (1-2-3), con un ángulo de 90° en el vértice superior. Para reforzar la estructura del tejado, se quiere construir una estructura interna de sección semielíptica que sea tangente a los lados iguales del triángu…",
-       "muestra_url": "manual:manual/rioja/2025/Dibujo Técnico II julio examen.txt"
+       "muestra": "CONTENIDOS VALORACIÓN Apartado A | Fundamentos geométricos 2,5 puntos Apartado B | Geometría Proyectiva (Diédrico l) 2,5 puntos Apartado C | Geometría Proyectiva (Diédrico 11) 2,5 puntos Resto de sistemas (Axonométrico, cónica y planos acotados) Apartado D 2,5 puntos Normalizació…",
+       "muestra_url": "manual:manual/rioja/2026/Dibujo Técnico II julio examen (OCR 2).txt"
       },
       {
        "id": "geometriaplana",
        "nombre": "Geometría plana (tangencias, transformaciones)",
-       "p": 0.601,
-       "veces": 6,
-       "de": 10,
-       "ultimo": 2025,
+       "p": 0.74,
+       "veces": 11,
+       "de": 15,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "Pregunta 1: Se desea reconstruir un tramo de acequia mediante dos arcos de circunferencia tangentes entre sí. El primer arco será tangente a las rectas r 1 y r 2 y pasará por el punto P 1 . Definir claramente los puntos de tangencia T 1 (en la recta r 1 ) y T 2 (en la recta r 2 )…",
-       "muestra_url": "manual:manual/rioja/2025/Dibujo Técnico II junio examen.txt"
+       "muestra": "Pregunta 1: En una parcela, con un patio trasero y una casa, se quiere ubicar una piscina de forma elíptica, así como dos caminos que unan la puerta de casa y sean tangentes al borde la piscina. Dados los ejes de la elipse AB y CD y el punto P de ubicación de la puerta, se pide:",
+       "muestra_url": "manual:manual/rioja/2026/Dibujo Técnico II julio examen (OCR 2).txt"
       },
       {
        "id": "diedrico",
        "nombre": "Sistema diédrico",
-       "p": 0.601,
-       "veces": 6,
-       "de": 10,
-       "ultimo": 2025,
+       "p": 0.74,
+       "veces": 11,
+       "de": 15,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "Dadas la traza vertical del plano P y las proyecciones horizontal y vertical del punto A, se pide: 1. dibujar la traza horizontal del plano P sabiendo que forma 45º con el plano horizontal. 2. dibujar las proyecciones horizontal y vertical de la circunferencia situada en el plano…",
-       "muestra_url": "manual:manual/rioja/2025/Dibujo Técnico II junio examen.txt"
+       "muestra": "CONTENIDOS VALORACIÓN Apartado A | Fundamentos geométricos 2,5 puntos Apartado B | Geometría Proyectiva (Diédrico l) 2,5 puntos Apartado C | Geometría Proyectiva (Diédrico 11) 2,5 puntos Resto de sistemas (Axonométrico, cónica y planos acotados) Apartado D 2,5 puntos Normalizació…",
+       "muestra_url": "manual:manual/rioja/2026/Dibujo Técnico II julio examen (OCR 2).txt"
       },
       {
        "id": "axonometrico",
        "nombre": "Axonométrico y perspectiva",
-       "p": 0.497,
-       "veces": 6,
-       "de": 10,
-       "ultimo": 2024,
+       "p": 0.598,
+       "veces": 10,
+       "de": 15,
+       "ultimo": 2026,
        "tendencia": "baja",
-       "muestra": "· Representar la perspectiva caballera a escala 1:1, sin aplicar coeficientes de reducción, tomando medidas directamente del dibujo dado. Representar las aristas vistas y las ocultas. O Y X Z Z Y X X",
-       "muestra_url": "manual:manual/rioja/2024/Dibujo Técnico II junio examen.txt"
+       "muestra": "CONTENIDOS VALORACIÓN Apartado A | Fundamentos geométricos 2,5 puntos Apartado B | Geometría Proyectiva (Diédrico l) 2,5 puntos Apartado C | Geometría Proyectiva (Diédrico 11) 2,5 puntos Resto de sistemas (Axonométrico, cónica y planos acotados) Apartado D 2,5 puntos Normalizació…",
+       "muestra_url": "manual:manual/rioja/2026/Dibujo Técnico II julio examen (OCR 2).txt"
       }
      ],
      "validacion": {
@@ -52691,15 +52793,37 @@
     },
     "dibujoartistico": {
      "nombre": "Dibujo Artístico II",
-     "n_examenes": 1,
+     "n_examenes": 5,
      "anios": [
-      2024
+      2024,
+      2025,
+      2026
      ],
      "examenes": [
       {
        "anio": 2024,
        "conv": "ext",
        "url": "manual:manual/rioja/2024/Dibujo Artístico julio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Dibujo Artístico julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2025/Dibujo Artístico junio examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "modelo",
+       "url": "manual:manual/rioja/2026/Dibujo Artístico II examen (OCR 2).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "modelo",
+       "url": "manual:manual/rioja/2026/Dibujo Artístico II examen (OCR).txt"
       }
      ],
      "temas": [],
@@ -52708,11 +52832,35 @@
     },
     "diseno": {
      "nombre": "Diseño",
-     "n_examenes": 2,
+     "n_examenes": 10,
      "anios": [
-      2024
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Diseño julio examen (OCR).txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2022/Diseño junio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2023/Diseño julio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Diseño junio examen (OCR).txt"
+      },
       {
        "anio": 2024,
        "conv": "ext",
@@ -52722,6 +52870,26 @@
        "anio": 2024,
        "conv": "ord",
        "url": "manual:manual/rioja/2024/Diseño junio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Diseño julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2025/Diseño junio examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Diseño examen (OCR 2).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Diseño examen (OCR).txt"
       }
      ],
      "temas": [],
@@ -52730,7 +52898,7 @@
     },
     "empresa": {
      "nombre": "Empresa y Diseño de Modelos de Negocio / Economía de la Empresa",
-     "n_examenes": 7,
+     "n_examenes": 10,
      "anios": [
       2022,
       2023,
@@ -52739,6 +52907,11 @@
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Economía julio examen (OCR).txt"
+      },
       {
        "anio": 2022,
        "conv": "ord",
@@ -52766,8 +52939,18 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Empresa y Modelos de negocio julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "manual:manual/rioja/2025/Empresa y Modelos de negocio junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "modelo",
+       "url": "manual:manual/rioja/2026/Empresa y Diseño de Modelos de Negocio examen (OCR).txt"
       },
       {
        "anio": 2026,
@@ -52779,64 +52962,64 @@
       {
        "id": "financiacion",
        "nombre": "Inversión y financiación (VAN, TIR, payback)",
-       "p": 0.762,
-       "veces": 6,
-       "de": 7,
-       "ultimo": 2025,
+       "p": 0.804,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "baja",
-       "muestra": "La empresa “El Perfecto, S.L.” pretende llevar a cabo dos proyectos de inversión (Proyecto A y Proyecto B). El desembolso inicial del Proyecto A es de 8.500€ y del Proyecto B es 5.150€. Cada uno de los proyectos de inversión genera los flujos de caja que se indican en la siguient…",
-       "muestra_url": "manual:manual/rioja/2025/Empresa y Modelos de negocio junio examen.txt"
+       "muestra": "a) Elaborar el balance por masas patrimoniales y calcular el importe de la cuenta \"Maquinaria\". (1,5 puntos). b) Comentar la situación de liquidez de la empresa a partir del análisis de las siguientes ratios: (1) Liquidez, (2) Tesorería y (3) Tesorería inmediata. (0,5 puntos).",
+       "muestra_url": "manual:manual/rioja/2026/Empresa y Diseño de Modelos de Negocio examen (OCR).txt"
       },
       {
        "id": "contabilidad",
        "nombre": "Balance y análisis financiero (ratios)",
-       "p": 0.762,
-       "veces": 6,
-       "de": 7,
-       "ultimo": 2025,
+       "p": 0.804,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "baja",
-       "muestra": "a) Elaborar el balance por masas patrimoniales y calcular el importe de la cuenta “Caja y bancos” (1.5 puntos).",
-       "muestra_url": "manual:manual/rioja/2025/Empresa y Modelos de negocio junio examen.txt"
+       "muestra": "a) Elaborar el balance por masas patrimoniales y calcular el importe de la cuenta \"Maquinaria\". (1,5 puntos). b) Comentar la situación de liquidez de la empresa a partir del análisis de las siguientes ratios: (1) Liquidez, (2) Tesorería y (3) Tesorería inmediata. (0,5 puntos).",
+       "muestra_url": "manual:manual/rioja/2026/Empresa y Diseño de Modelos de Negocio examen (OCR).txt"
       },
       {
        "id": "produccion",
        "nombre": "Producción, costes y umbral de rentabilidad",
-       "p": 0.762,
-       "veces": 6,
-       "de": 7,
-       "ultimo": 2025,
+       "p": 0.804,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "baja",
-       "muestra": "La empresa “El confidencial, S.A.” comercializa un producto por el que ha obtenido un beneficio de 520.000€. En el desarrollo de su actividad comercial ha incurrido en unos costes fijos de 95.000€ y un coste variable de 15€ por unidad producida. El beneficio anterior ha sido posi…",
-       "muestra_url": "manual:manual/rioja/2025/Empresa y Modelos de negocio junio examen.txt"
+       "muestra": "c) Proponer una opción de financiación (propia o ajena) para una inversión de 40.000 € en una nueva línea de producción, justificando la elección según los resultados obtenidos. (0,5 puntos)",
+       "muestra_url": "manual:manual/rioja/2026/Empresa y Diseño de Modelos de Negocio examen (OCR).txt"
       },
       {
        "id": "marketing",
        "nombre": "Marketing",
-       "p": 0.762,
-       "veces": 6,
-       "de": 7,
-       "ultimo": 2025,
+       "p": 0.804,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "baja",
-       "muestra": "a) Calcular el precio al que se ha vendido el producto (0.5 puntos).",
-       "muestra_url": "manual:manual/rioja/2025/Empresa y Modelos de negocio junio examen.txt"
+       "muestra": "Distribución del examen: Preguntas tipo problema Pregunta 1: responder 1 de las 2 cuestiones propuestas (2 puntos). Pregunta 2: responder 1 de las 2 cuestiones propuestas (2 puntos). Preguntas abiertas 4 Pregunta 3: elegir y responder 2 de las 4 cuestiones propuestas (2 puntos en…",
+       "muestra_url": "manual:manual/rioja/2026/Empresa y Diseño de Modelos de Negocio examen (OCR).txt"
       },
       {
        "id": "modelonegocio",
        "nombre": "Modelo de negocio y emprendimiento (Canvas)",
-       "p": 0.234,
-       "veces": 1,
-       "de": 7,
-       "ultimo": 2025,
+       "p": 0.259,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "sube",
-       "muestra": "Imagine que está creando una tienda de productos ecológicos. Utilizando el modelo Canvas, se pide completar los dos siguientes apartados: (1) Propuesta de Valor y (2) Actividades clave.",
-       "muestra_url": "manual:manual/rioja/2025/Empresa y Modelos de negocio junio examen.txt"
+       "muestra": "PREGUNTA 7.1.- Imagine que está creando una plataforma digital de clases particulares para alumnado de ESO y Bachillerato. Utilizando el modelo Canvas, complete los dos siguientes apartados: (1) Canales y (2) Asociaciones clave.",
+       "muestra_url": "manual:manual/rioja/2026/Empresa y Diseño de Modelos de Negocio examen (OCR).txt"
       },
       {
        "id": "organizacion",
        "nombre": "Organización y dirección",
-       "p": 0.198,
-       "veces": 2,
-       "de": 7,
+       "p": 0.184,
+       "veces": 3,
+       "de": 10,
        "ultimo": 2023,
        "tendencia": "baja",
        "muestra": "Pregunta 7.- Función de planificación. Explique qué se entiende por función de planificación y los pasos a seguir para llevar a cabo una buena planificación.",
@@ -52868,11 +53051,35 @@
     },
     "escenicas": {
      "nombre": "Artes Escénicas II",
-     "n_examenes": 2,
+     "n_examenes": 10,
      "anios": [
-      2024
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Artes Escénicas julio examen (OCR).txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2022/Artes Escénicas junio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2023/Artes Escénicas julio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Artes Escénicas junio examen (OCR).txt"
+      },
       {
        "anio": 2024,
        "conv": "ext",
@@ -52882,6 +53089,26 @@
        "anio": 2024,
        "conv": "ord",
        "url": "manual:manual/rioja/2024/Artes Escénicas junio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Artes Escénicas julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2025/Artes Escénicas junio examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Artes Escénicas examen (OCR 2).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Artes Escénicas examen (OCR).txt"
       }
      ],
      "temas": [],
@@ -52890,12 +53117,35 @@
     },
     "filosofia": {
      "nombre": "Historia de la Filosofía",
-     "n_examenes": 3,
+     "n_examenes": 10,
      "anios": [
+      2022,
+      2023,
       2024,
-      2025
+      2025,
+      2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Historia de la Filosofía julio examen (OCR).txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2022/Historia de la Filosofía junio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2023/Historia de la Filosofía julio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Historia de la Filosofía junio examen (OCR).txt"
+      },
       {
        "anio": 2024,
        "conv": "ext",
@@ -52908,50 +53158,65 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Historia de la Filosofía julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "manual:manual/rioja/2025/Historia de la Filosofía junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Historia de la Filosofía examen (OCR 2).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Historia de la Filosofía examen (OCR).txt"
       }
      ],
      "temas": [
       {
-       "id": "descartes",
-       "nombre": "Descartes",
-       "p": 0.643,
-       "veces": 2,
-       "de": 3,
-       "ultimo": 2025,
-       "tendencia": "sube",
-       "muestra": "Descartes, Discurso del método . Madrid, Alfaguara. Trad. Guillermo Quintás.",
-       "muestra_url": "manual:manual/rioja/2025/Historia de la Filosofía junio examen.txt"
+       "id": "medieval",
+       "nombre": "Agustín de Hipona / Tomás de Aquino",
+       "p": 0.627,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Pregunta 3.- Desarrollo de una teoría (2,5 puntos) Explica detalladamente lo que Aristóteles propone en su antropología, o lo que Tomás de Aquino propone en su teología; sitúala brevemente en su contexto; y desarróllala haciendo referencia a todos tus conocimientos",
+       "muestra_url": "manual:manual/rioja/2026/Historia de la Filosofía examen (OCR).txt"
       },
       {
        "id": "platon",
        "nombre": "Platón",
-       "p": 0.563,
-       "veces": 2,
-       "de": 3,
-       "ultimo": 2024,
+       "p": 0.602,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2025,
        "tendencia": "baja",
-       "muestra": "Entonces, lo que aporta la verdad a las cosas cognoscibles y otorga al que conoce el poder de conocer, puedes decir que es la Idea del Bien. Y por ser causa de la ciencia y de la verdad, concíbela como cognoscible; y aun siendo bellos tanto el conocimiento como la verdad, si esti…",
-       "muestra_url": "manual:manual/rioja/2024/Historia de la Filosofía junio examen.txt"
+       "muestra": "Explica detalladamente lo que Platón propone en su teoría de las ideas, o lo que Tomás de Aquino propone en su teoría sobre fe y razón, sitúala en su contexto, desarrolla brevemente la evolución histórica de dicha problemática y evalúa su implicación en la actualidad haciendo ref…",
+       "muestra_url": "manual:manual/rioja/2025/Historia de la Filosofía julio examen (OCR).txt"
       },
       {
-       "id": "medieval",
-       "nombre": "Agustín de Hipona / Tomás de Aquino",
-       "p": 0.563,
-       "veces": 2,
-       "de": 3,
-       "ultimo": 2024,
+       "id": "descartes",
+       "nombre": "Descartes",
+       "p": 0.568,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "baja",
-       "muestra": "5a. Relaciona algún aspecto del pensamiento de un autor de la época antigua o medieval (Platón/Aristóteles/Tomás de Aquino) con el pensamiento de otro autor o autores de la misma o de otra época.",
-       "muestra_url": "manual:manual/rioja/2024/Historia de la Filosofía junio examen.txt"
+       "muestra": "Descartes, Discurso del método, 2? parte.",
+       "muestra_url": "manual:manual/rioja/2026/Historia de la Filosofía examen (OCR 2).txt"
       },
       {
        "id": "nietzsche",
        "nombre": "Nietzsche",
-       "p": 0.563,
-       "veces": 2,
-       "de": 3,
+       "p": 0.339,
+       "veces": 5,
+       "de": 10,
        "ultimo": 2024,
        "tendencia": "baja",
        "muestra": "4d. Crítica a la cultura occidental, el superhombre y el eterno retorno de Nietzsche",
@@ -52960,20 +53225,20 @@
       {
        "id": "kant",
        "nombre": "Kant",
-       "p": 0.437,
-       "veces": 1,
-       "de": 3,
+       "p": 0.246,
+       "veces": 3,
+       "de": 10,
        "ultimo": 2025,
-       "tendencia": "sube",
+       "tendencia": "estable",
        "muestra": "Por todas partes encontramos limitaciones de la libertad. Pero ¿qué limitación impide la Ilustración? y, por el contrario, ¿cuál la fomenta? Mi respuesta es la siguiente: el uso público de la razón debe ser siempre libre; sólo este uso puede traer Ilustración entre los hombres. E…",
        "muestra_url": "manual:manual/rioja/2025/Historia de la Filosofía junio examen.txt"
       },
       {
        "id": "marx",
        "nombre": "Marx",
-       "p": 0.257,
-       "veces": 1,
-       "de": 3,
+       "p": 0.187,
+       "veces": 3,
+       "de": 10,
        "ultimo": 2024,
        "tendencia": "baja",
        "muestra": "5b. Relaciona algún aspecto del pensamiento de un autor de la época contemporánea (Marx/Nietzsche/Ortega) con el pensamiento de otro autor o autores de la misma o de otra época.",
@@ -52982,42 +53247,42 @@
       {
        "id": "empirismo",
        "nombre": "Hume / Locke",
-       "p": 0.206,
-       "veces": 1,
-       "de": 3,
+       "p": 0.166,
+       "veces": 3,
+       "de": 10,
        "ultimo": 2024,
        "tendencia": "baja",
        "muestra": "4d. Crítica a la idea de causalidad y a las sustancias de Hume",
        "muestra_url": "manual:manual/rioja/2024/Historia de la Filosofía julio examen.txt"
       },
       {
-       "id": "aristoteles",
-       "nombre": "Aristóteles",
-       "p": 0.05,
-       "veces": 0,
-       "de": 3,
-       "ultimo": null,
-       "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
-      },
-      {
        "id": "ortega",
        "nombre": "Ortega y Gasset",
-       "p": 0.05,
-       "veces": 0,
-       "de": 3,
-       "ultimo": null,
-       "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
+       "p": 0.124,
+       "veces": 1,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "Explica detalladamente lo que Ortega y Gasset propone en su teoría del Raciovitalismo (razón vital y razón histórica), o lo que Simone de Beauvoir propone en su teoría sobre existencialismo y feminismo; sitúala brevemente en su contexto; y desarróllala haciendo referencia a todos…",
+       "muestra_url": "manual:manual/rioja/2026/Historia de la Filosofía examen (OCR 2).txt"
+      },
+      {
+       "id": "aristoteles",
+       "nombre": "Aristóteles",
+       "p": 0.11,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2023,
+       "tendencia": "baja",
+       "muestra": "Pregunta A. Explica la teoría de la ciencia y el conocimiento de Aristóteles o la teoría política de Aristóteles",
+       "muestra_url": "manual:manual/rioja/2023/Historia de la Filosofía julio examen (OCR).txt"
       },
       {
        "id": "contemporanea",
        "nombre": "Filosofía contemporánea (Arendt, Wittgenstein, Beauvoir…)",
        "p": 0.05,
        "veces": 0,
-       "de": 3,
+       "de": 10,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -53032,7 +53297,7 @@
       "azar": 0.2,
       "top": [
        "platon",
-       "medieval"
+       "nietzsche"
       ],
       "reales": [
        "descartes",
@@ -53043,17 +53308,34 @@
     },
     "fisica": {
      "nombre": "Física",
-     "n_examenes": 4,
+     "n_examenes": 10,
      "anios": [
       2022,
+      2023,
       2024,
-      2025
+      2025,
+      2026
      ],
      "examenes": [
       {
        "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Física II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2022,
        "conv": "ord",
        "url": "manual:manual/rioja/2022/Física II junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2023/Física II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Física II junio examen (OCR).txt"
       },
       {
        "anio": 2024,
@@ -53067,8 +53349,23 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Física II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "manual:manual/rioja/2025/Física II junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Física II examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Física examen (OCR).txt"
       }
      ],
      "temas": [
@@ -53076,67 +53373,67 @@
        "id": "electrico",
        "nombre": "Campo eléctrico",
        "p": 0.9,
-       "veces": 4,
-       "de": 4,
-       "ultimo": 2025,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "Problema 2.1 (2 puntos) Cinco cargas iguales Q>0 están igualmente espaciadas en un semicírculo de radio R como indica la figura.",
-       "muestra_url": "manual:manual/rioja/2025/Física II junio examen.txt"
+       "muestra": "circular de radio R en el plano YZ como muestra la figura. si a) Calcular el módulo de la fuerza magnética En que actúa sobre el electrón y el radio R de la órbita circular que describe. b) Determina de manera razonada la dirección y sentido de 3 y F,, cuando el electrón pasa por…",
+       "muestra_url": "manual:manual/rioja/2026/Física II examen (OCR).txt"
       },
       {
        "id": "ondas",
        "nombre": "Ondas y sonido",
        "p": 0.9,
-       "veces": 4,
-       "de": 4,
-       "ultimo": 2025,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "a) Razonar qué tipo de lente se está usando.",
-       "muestra_url": "manual:manual/rioja/2025/Física II junio examen.txt"
+       "muestra": "se activa en esa zona un campo magnético uniforme B de módulo 7.8 x 10% T cd E perpendicular a ú de manera que el electrón se desvía y describe una órbita ¿ ¿RA",
+       "muestra_url": "manual:manual/rioja/2026/Física II examen (OCR).txt"
       },
       {
        "id": "optica",
        "nombre": "Óptica",
        "p": 0.9,
-       "veces": 4,
-       "de": 4,
-       "ultimo": 2025,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "Problema 3.1 (2 puntos) Una lente situada a 1,8 m a la izquierda de una pantalla proyecta sobre dicha pantalla la imagen real de u n objeto luminoso que está situado a la izquierda de la lente. El tamaño de la imagen es nueve veces más grande que el tamaño del objeto.",
-       "muestra_url": "manual:manual/rioja/2025/Física II junio examen.txt"
+       "muestra": "Problema 3.2 (3 puntos) Un objeto que está situado a 15 cm a la izquierda de una lente delgada divergente produce una imagen cuyo tamaño es una tercera parte del tamaño del objeto. a) Calcular la posición de la imagen y la potencia de la lente. b) Se cambia la posición del objeto…",
+       "muestra_url": "manual:manual/rioja/2026/Física II examen (OCR).txt"
       },
       {
        "id": "gravitacion",
        "nombre": "Campo gravitatorio",
-       "p": 0.68,
-       "veces": 3,
-       "de": 4,
-       "ultimo": 2025,
-       "tendencia": "sube",
-       "muestra": "Problema 1.1 (2 puntos) Un satélite de masa m =300 kg se mueve en órbita circular alrededor de la Tierra a una altura de 50000 km sobre la superficie terrestre.",
-       "muestra_url": "manual:manual/rioja/2025/Física II junio examen.txt"
+       "p": 0.812,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "a) El planeta Urano tiene un periodo orbital alrededor del Sol de 84.3 años terrestres. La masa del Sol es de 2 x 10% kg. Suponiendo que Urano describe una órbita circular alrededor del Sol, calcular el radio de la órbita de Urano.",
+       "muestra_url": "manual:manual/rioja/2026/Física II examen (OCR).txt"
       },
       {
        "id": "moderna",
        "nombre": "Física moderna (cuántica, nuclear, relatividad)",
-       "p": 0.68,
-       "veces": 3,
-       "de": 4,
-       "ultimo": 2025,
+       "p": 0.755,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "sube",
-       "muestra": "Problema 4.1 (2 puntos) El isótopo 234 U tiene un 100% de probabilidad de desintegrarse mediante emisión alfa. El periodo de semidesintegración (semivida) del 234 U es de aproximadamente 2,5 × 10 5 años. Si se parte de una muestra de 10 g de dicho isótopo, determinar:",
-       "muestra_url": "manual:manual/rioja/2025/Física II junio examen.txt"
+       "muestra": "GRUPO 4 ' Problema 4.1 (2 puntos) En un experimento de efecto fotoeléctrico, se hace incidir radiación monocromática de frecuencia f sobre una superficie de aluminio. Se sabe que los electrones emitidos por la superficie metálica se mueven con velocidad no relativista y tienen as…",
+       "muestra_url": "manual:manual/rioja/2026/Física II examen (OCR).txt"
       },
       {
        "id": "magnetico",
        "nombre": "Campo magnético e inducción",
-       "p": 0.307,
-       "veces": 2,
-       "de": 4,
-       "ultimo": 2024,
+       "p": 0.638,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "baja",
-       "muestra": "Problema 5 (2 puntos) Un haz de iones de 58 Ni + y 60 Ni + se acelera mediante una diferencia de potencial ∆ V. El haz de iones, todos ellos de igual carga + q , penetra en una región de campo magnético B constante (región sombreada de la figura). Determinar la relación entre los…",
-       "muestra_url": "manual:manual/rioja/2024/Física II julio examen.txt"
+       "muestra": "se activa en esa zona un campo magnético uniforme B de módulo 7.8 x 10% T cd E perpendicular a ú de manera que el electrón se desvía y describe una órbita ¿ ¿RA",
+       "muestra_url": "manual:manual/rioja/2026/Física II examen (OCR).txt"
       }
      ],
      "validacion": {
@@ -53164,16 +53461,34 @@
     },
     "frances": {
      "nombre": "Lengua Extranjera II: Francés",
-     "n_examenes": 3,
+     "n_examenes": 10,
      "anios": [
       2022,
-      2024
+      2023,
+      2024,
+      2025,
+      2026
      ],
      "examenes": [
       {
        "anio": 2022,
        "conv": "ext",
        "url": "manual:manual/rioja/2022/Francés julio examen.txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2022/Francés junio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2023/Francés julio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Francés junio examen (OCR).txt"
       },
       {
        "anio": 2024,
@@ -53184,6 +53499,26 @@
        "anio": 2024,
        "conv": "ord",
        "url": "manual:manual/rioja/2024/Francés junio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Francés julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2025/Francés junio examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Francés examen (OCR 2).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Francés examen (OCR).txt"
       }
      ],
      "temas": [],
@@ -53192,13 +53527,35 @@
     },
     "fundamentosart": {
      "nombre": "Fundamentos Artísticos",
-     "n_examenes": 6,
+     "n_examenes": 12,
      "anios": [
+      2022,
+      2023,
       2024,
       2025,
       2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Fundamentos del Arte II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2022/Fundamentos del Arte II junio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2023/Fundamentos del Arte II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Fundamentos del Arte II junio examen (OCR).txt"
+      },
       {
        "anio": 2024,
        "conv": "ext",
@@ -53221,8 +53578,18 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Fundamentos Artísticos julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "manual:manual/rioja/2025/Fundamentos Artísticos junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Fundamentos Artísticos examen (OCR).txt"
       },
       {
        "anio": 2026,
@@ -53236,17 +53603,34 @@
     },
     "geografia": {
      "nombre": "Geografía",
-     "n_examenes": 4,
+     "n_examenes": 10,
      "anios": [
       2022,
+      2023,
       2024,
-      2025
+      2025,
+      2026
      ],
      "examenes": [
       {
        "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Geografía julio examen (OCR).txt"
+      },
+      {
+       "anio": 2022,
        "conv": "ord",
        "url": "manual:manual/rioja/2022/Geografía junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2023/Geografía julio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Geografía junio examen (OCR).txt"
       },
       {
        "anio": 2024,
@@ -53260,72 +53644,87 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Geografía julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "manual:manual/rioja/2025/Geografía junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Geografía examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2026/Geografía junio examen (OCR).txt"
       }
      ],
      "temas": [
       {
-       "id": "clima",
-       "nombre": "Clima y aguas",
-       "p": 0.549,
-       "veces": 2,
-       "de": 4,
-       "ultimo": 2025,
-       "tendencia": "sube",
-       "muestra": "a. Identifica los climas representados en los cuatro climogramas",
-       "muestra_url": "manual:manual/rioja/2025/Geografía junio examen.txt"
-      },
-      {
        "id": "poblacion",
        "nombre": "Población",
-       "p": 0.549,
-       "veces": 2,
-       "de": 4,
-       "ultimo": 2025,
+       "p": 0.766,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "sube",
-       "muestra": "PREGUNTA 2 (2 PUNTOS). UTILIZA LA SIGUIENTE NOTICIA DE PRENSA PARA EXPLICAR LAS ACTUALES CARACTERÍSTICAS DE LA POBLACIÓN ESPAÑOLA.",
-       "muestra_url": "manual:manual/rioja/2025/Geografía junio examen.txt"
+       "muestra": "a. Analiza la evolución de las tasas brutas de natalidad y mortalidad en España, centrándola especialmente en el régimen demográfico actual (a partir de 1975) y explica cómo ha influido esa evolución en las características actuales de la población española.",
+       "muestra_url": "manual:manual/rioja/2026/Geografía junio examen (OCR).txt"
       },
       {
-       "id": "relieve",
-       "nombre": "Relieve",
-       "p": 0.495,
-       "veces": 2,
-       "de": 4,
-       "ultimo": 2024,
-       "tendencia": "baja",
-       "muestra": "Pregunta 1 (2 puntos). LAS UNIDADES MORFOESTRUCTURALES DEL RELIEVE PENINSULAR: LAS SIERRAS INTERIORES DE LA MESETA.",
-       "muestra_url": "manual:manual/rioja/2024/Geografía junio examen.txt"
+       "id": "clima",
+       "nombre": "Clima y aguas",
+       "p": 0.596,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "[Fuente: https://unirioja.sharepoint.com/:b:/s/academica_publico/IQAACQp_XwPNSZLmYF_vB1gVAVUA3UX4GgUx5axKZhCRy4o?download=1 · OCR Tesseract] Prueba de Acceso a la Universidad (PAU)",
+       "muestra_url": "manual:manual/rioja/2026/Geografía junio examen (OCR).txt"
+      },
+      {
+       "id": "sectores",
+       "nombre": "Sectores económicos",
+       "p": 0.337,
+       "veces": 4,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Fuentes: INE, Producción de energía Ministerio de Energía, Turismo y Agenda Digital, Balances energéticos,",
+       "muestra_url": "manual:manual/rioja/2026/Geografía examen (OCR).txt"
       },
       {
        "id": "territorio",
        "nombre": "Organización territorial y Europa",
-       "p": 0.495,
-       "veces": 2,
-       "de": 4,
+       "p": 0.311,
+       "veces": 5,
+       "de": 10,
        "ultimo": 2024,
        "tendencia": "baja",
        "muestra": "Pregunta 9 (2 puntos). IDENTIFICA LAS 14 PROVINCIAS ESPAÑOLAS NUMERADAS EN EL MAPA Y SEÑALA 3 PROVINCIAS CON UNA RENTA SUPERIOR A LA MEDIA Y OTRAS 3 CUYA RENTA SEA INFERIOR A LA MEDIA.",
        "muestra_url": "manual:manual/rioja/2024/Geografía junio examen.txt"
       },
       {
-       "id": "sectores",
-       "nombre": "Sectores económicos",
-       "p": 0.176,
-       "veces": 1,
-       "de": 4,
+       "id": "relieve",
+       "nombre": "Relieve",
+       "p": 0.271,
+       "veces": 4,
+       "de": 10,
        "ultimo": 2024,
        "tendencia": "baja",
-       "muestra": "Pregunta 7 (2 puntos). A PARTIR DE LA SIGUIENTE IMAGEN, IDENTIFICA Y ANALIZA LAS CARACTERÍSTICAS DE ESTE PAISAJE AGRARIO.",
-       "muestra_url": "manual:manual/rioja/2024/Geografía julio examen.txt"
+       "muestra": "Pregunta 1 (2 puntos). LAS UNIDADES MORFOESTRUCTURALES DEL RELIEVE PENINSULAR: LAS SIERRAS INTERIORES DE LA MESETA.",
+       "muestra_url": "manual:manual/rioja/2024/Geografía junio examen.txt"
       },
       {
        "id": "urbano",
        "nombre": "Espacio urbano",
        "p": 0.05,
        "veces": 0,
-       "de": 4,
+       "de": 10,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -53333,28 +53732,30 @@
       }
      ],
      "validacion": {
-      "anio": 2025,
+      "anio": 2026,
       "k": 2,
-      "aciertos": 0,
-      "tasa": 0.0,
+      "aciertos": 2,
+      "tasa": 1.0,
       "azar": 0.33,
       "top": [
-       "relieve",
-       "territorio"
+       "poblacion",
+       "clima"
       ],
       "reales": [
        "clima",
        "poblacion"
       ]
      },
-     "confianza": "baja"
+     "confianza": "alta"
     },
     "geologia": {
      "nombre": "Geología y Ciencias Ambientales",
-     "n_examenes": 3,
+     "n_examenes": 6,
      "anios": [
       2022,
-      2023
+      2023,
+      2025,
+      2026
      ],
      "examenes": [
       {
@@ -53371,6 +53772,21 @@
        "anio": 2023,
        "conv": "ord",
        "url": "manual:manual/rioja/2023/Geología junio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2025/Geología junio examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Geología y Ciencias Ambientales examen (OCR 2).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Geología y Ciencias Ambientales examen (OCR).txt"
       }
      ],
      "temas": [
@@ -53378,49 +53794,49 @@
        "id": "tectonica",
        "nombre": "Tectónica y riesgos geológicos",
        "p": 0.9,
-       "veces": 3,
-       "de": 3,
-       "ultimo": 2023,
+       "veces": 6,
+       "de": 6,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "Pregunta 7. Ayudándote de un esquema, explica qué es un pliegue (0.4) y los elementos que podemos distinguir en é l (0.3). ¿Qué procesos hacen que se formen los pliegues? (0.3).",
-       "muestra_url": "manual:manual/rioja/2023/Geología junio examen.txt"
+       "muestra": "d) ¿De qué tipo es la falla? ¿Cuál es su edad relativa? (0,5 puntos)",
+       "muestra_url": "manual:manual/rioja/2026/Geología y Ciencias Ambientales examen (OCR 2).txt"
       },
       {
        "id": "minerales",
        "nombre": "Minerales y rocas",
        "p": 0.9,
-       "veces": 3,
-       "de": 3,
-       "ultimo": 2023,
+       "veces": 6,
+       "de": 6,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "Pregunta 3. ¿Qué es un mineral? (0.3) Cita tres propiedades de los minerales (0.4) y explica dos de ellas (0.3).",
-       "muestra_url": "manual:manual/rioja/2023/Geología junio examen.txt"
-      },
-      {
-       "id": "procesos",
-       "nombre": "Procesos externos y mapas geológicos",
-       "p": 0.9,
-       "veces": 3,
-       "de": 3,
-       "ultimo": 2023,
-       "tendencia": "estable",
-       "muestra": "Pregunta 1. En las secuencias estratigráficas existen a menudo discontinuidades. ¿Qué queremos decir con esto? (0.4) ¿Qué tipos de discontinuidades conoces? Cítala dos de ellas (0.4) y explica una (0.2).",
-       "muestra_url": "manual:manual/rioja/2023/Geología junio examen.txt"
+       "muestra": "Pregunta 4.A.1. Existen distintos tipos de rocas metamórficas que se pueden clasificar según su textura. a) Explíquelas brevemente. (0,6 puntos) É",
+       "muestra_url": "manual:manual/rioja/2026/Geología y Ciencias Ambientales examen (OCR 2).txt"
       },
       {
        "id": "recursos",
        "nombre": "Recursos y medio ambiente",
        "p": 0.9,
-       "veces": 3,
-       "de": 3,
-       "ultimo": 2023,
+       "veces": 6,
+       "de": 6,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "Pregunta 16. En La Rioja hay varias zonas en las que los acuíferos están contaminados por nitratos. ¿Qué origen tienen estos contaminantes? (0.5) ¿Qué consecuencias tiene la contaminación de los acuíferos para la utilización del agua que almacenan? (0.5).",
-       "muestra_url": "manual:manual/rioja/2023/Geología junio examen.txt"
+       "muestra": "Bloque Capas Fluidas y Recursos y gestión (2 puntos)",
+       "muestra_url": "manual:manual/rioja/2026/Geología y Ciencias Ambientales examen (OCR 2).txt"
+      },
+      {
+       "id": "procesos",
+       "nombre": "Procesos externos y mapas geológicos",
+       "p": 0.703,
+       "veces": 5,
+       "de": 6,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "Pregunta 1.- Dado el corte geológico siguiente, contestar a las cuestiones que se plantean (2 puntos)",
+       "muestra_url": "manual:manual/rioja/2026/Geología y Ciencias Ambientales examen (OCR 2).txt"
       }
      ],
      "validacion": {
-      "anio": 2023,
+      "anio": 2025,
       "k": 4,
       "aciertos": 4,
       "tasa": 1.0,
@@ -53442,7 +53858,7 @@
     },
     "graficoplastica": {
      "nombre": "Técnicas de Expresión Gráfico-Plástica",
-     "n_examenes": 3,
+     "n_examenes": 4,
      "anios": [
       2024,
       2025,
@@ -53462,6 +53878,11 @@
       {
        "anio": 2026,
        "conv": "nd",
+       "url": "manual:manual/rioja/2026/Técnicas de Expresión Gráfico-Plástica examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
        "url": "manual:manual/rioja/2026/Técnicas de Expresión Gráfico-Plástica examen.txt"
       }
      ],
@@ -53471,17 +53892,34 @@
     },
     "griego": {
      "nombre": "Griego II",
-     "n_examenes": 4,
+     "n_examenes": 9,
      "anios": [
       2022,
+      2023,
       2024,
+      2025,
       2026
      ],
      "examenes": [
       {
        "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Griego II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2022,
        "conv": "ord",
        "url": "manual:manual/rioja/2022/Griego II junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2023/Griego II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Griego II junio examen (OCR).txt"
       },
       {
        "anio": 2024,
@@ -53494,6 +53932,16 @@
        "url": "manual:manual/rioja/2024/Griego II junio examen.txt"
       },
       {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Griego II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Griego II examen (OCR).txt"
+      },
+      {
        "anio": 2026,
        "conv": "nd",
        "url": "manual:manual/rioja/2026/Griego II examen.txt"
@@ -53504,58 +53952,99 @@
        "id": "traduccion",
        "nombre": "Traducción",
        "p": 0.9,
-       "veces": 4,
-       "de": 4,
+       "veces": 9,
+       "de": 9,
        "ultimo": 2026,
        "tendencia": "estable",
        "muestra": "- Comprensión global y de las oraciones (50% del total asignado a esta cuestión). Supone el elemento determinante para la calificación de una traducción; por tanto, le asignamos un 50% de la valoración. En caso de que fracase la comprensión global, se valorará cada una de las ora…",
-       "muestra_url": "manual:manual/rioja/2026/Griego II examen.txt"
-      },
-      {
-       "id": "morfosintaxis",
-       "nombre": "Morfosintaxis",
-       "p": 0.568,
-       "veces": 3,
-       "de": 4,
-       "ultimo": 2024,
-       "tendencia": "baja",
-       "muestra": "Notas: ¹ ᾿Αλέξανδρος, - ου, ὁ, Alejandro . ² ἵνα…διακριθῶσι: para que fuesen juzgadas (3ª pl. Subjuntivo aoristo",
-       "muestra_url": "manual:manual/rioja/2024/Griego II junio examen.txt"
+       "muestra_url": "manual:manual/rioja/2026/Griego II examen (OCR).txt"
       },
       {
        "id": "lexico",
        "nombre": "Léxico y etimología",
-       "p": 0.568,
-       "veces": 3,
-       "de": 4,
-       "ultimo": 2024,
+       "p": 0.751,
+       "veces": 8,
+       "de": 9,
+       "ultimo": 2026,
        "tendencia": "baja",
-       "muestra": "3 . Dé un derivado en español de cada una de las siguientes palabras griegas: ἄγγελος , κρίνω , καλός, περί .",
-       "muestra_url": "manual:manual/rioja/2024/Griego II junio examen.txt"
+       "muestra": "INSTRUCCIONES: 4. El examen consta de tres apartados de preguntas con calificación diferente entre ellos. El segundo apartado no tiene optatividad. Los otros dos apartados ofrecen la posibilidad de elegir entre varias opciones: Apartado |. Se elegirá y traducirá uno de los textos…",
+       "muestra_url": "manual:manual/rioja/2026/Griego II examen (OCR).txt"
       },
       {
        "id": "literatura",
        "nombre": "Literatura griega",
-       "p": 0.568,
-       "veces": 3,
-       "de": 4,
-       "ultimo": 2024,
+       "p": 0.751,
+       "veces": 8,
+       "de": 9,
+       "ultimo": 2026,
        "tendencia": "baja",
-       "muestra": "2. Tragedia: Esquilo, Sófocles y Eurípides.",
-       "muestra_url": "manual:manual/rioja/2024/Griego II junio examen.txt"
+       "muestra": "Apartado lll. Desarrolle uno de los siguientes temas (2 puntos): 1. Épica: Homero y Hesíodo. 2. Tragedia: Esquilo, Sófocles y Eurípides.",
+       "muestra_url": "manual:manual/rioja/2026/Griego II examen (OCR).txt"
+      },
+      {
+       "id": "morfosintaxis",
+       "nombre": "Morfosintaxis",
+       "p": 0.552,
+       "veces": 6,
+       "de": 9,
+       "ultimo": 2025,
+       "tendencia": "baja",
+       "muestra": "Notas: * XOevw, -ouc, Esteno. ? EúpuáAn, ns, n, Euríale. ? Médouca, -nc, f, Medusa. *Fopyúv, -ovoc, Ñ, Gorgona. De Trepi-oTTeipáw, rodear. $ políc, -iSos, 1, escama. 7 De trétopIaI (se puede confundir con érrerov). 8 Nominativo singular del participio de aoristo activo de ¿q-íotn…",
+       "muestra_url": "manual:manual/rioja/2025/Griego II julio examen (OCR).txt"
       }
      ],
-     "validacion": null,
+     "validacion": {
+      "anio": 2024,
+      "k": 4,
+      "aciertos": 4,
+      "tasa": 1.0,
+      "azar": 1.0,
+      "top": [
+       "traduccion",
+       "lexico",
+       "literatura",
+       "morfosintaxis"
+      ],
+      "reales": [
+       "lexico",
+       "literatura",
+       "morfosintaxis",
+       "traduccion"
+      ]
+     },
      "confianza": "baja"
     },
     "historia": {
      "nombre": "Historia de España",
-     "n_examenes": 2,
+     "n_examenes": 9,
      "anios": [
+      2022,
+      2023,
       2024,
-      2025
+      2025,
+      2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Historia de España julio examen (OCR).txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2022/Historia de España junio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2023/Historia de España julio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Historia de España junio examen (OCR).txt"
+      },
       {
        "anio": 2024,
        "conv": "ext",
@@ -53563,112 +54052,157 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Historia de España julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "manual:manual/rioja/2025/Historia de España junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2026/Historia de España julio examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Historia de España examen (OCR).txt"
       }
      ],
      "temas": [
       {
-       "id": "liberalismo",
-       "nombre": "Crisis del Antiguo Régimen y liberalismo (1808-1874)",
-       "p": 0.9,
-       "veces": 2,
-       "de": 2,
-       "ultimo": 2025,
-       "tendencia": "estable",
-       "muestra": "Pregunta 1.- Isabel II: Del bienio progresista a la desintegración de la monarquía (1854-1868).",
-       "muestra_url": "manual:manual/rioja/2025/Historia de España junio examen.txt"
+       "id": "franquismo",
+       "nombre": "Franquismo (1939-1975)",
+       "p": 0.601,
+       "veces": 5,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "1. Crisis sucesoria. La Primera Guerra Carlista. 2. Proclamación de la Il República y período constituyente. 3. Violencia y represión durante la Guerra Civil española. Consecuencias de la guerra. 4. La consolidación de la dictadura (1951-1959). PARTE B",
+       "muestra_url": "manual:manual/rioja/2026/Historia de España julio examen (OCR).txt"
       },
       {
        "id": "restauracion",
        "nombre": "Restauración (1874-1931)",
-       "p": 0.9,
-       "veces": 2,
-       "de": 2,
-       "ultimo": 2025,
-       "tendencia": "estable",
-       "muestra": "Pregunta 2.- El canovismo: Constitución de 1876, bipartidismo, turnismo y caciquismo.",
-       "muestra_url": "manual:manual/rioja/2025/Historia de España junio examen.txt"
+       "p": 0.524,
+       "veces": 4,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "A partir de las siguientes fuentes históricas, explica el turnismo y el caciquismo durante el régimen de la Restauración. (2,5 puntos) Ñ",
+       "muestra_url": "manual:manual/rioja/2026/Historia de España julio examen (OCR).txt"
       },
       {
        "id": "republica",
        "nombre": "Segunda República (1931-1936)",
-       "p": 0.9,
-       "veces": 2,
-       "de": 2,
+       "p": 0.447,
+       "veces": 4,
+       "de": 9,
        "ultimo": 2025,
        "tendencia": "estable",
        "muestra": "Pregunta 1.- Isabel II: Del bienio progresista a la desintegración de la monarquía (1854-1868).",
        "muestra_url": "manual:manual/rioja/2025/Historia de España junio examen.txt"
       },
       {
-       "id": "franquismo",
-       "nombre": "Franquismo (1939-1975)",
-       "p": 0.9,
-       "veces": 2,
-       "de": 2,
+       "id": "liberalismo",
+       "nombre": "Crisis del Antiguo Régimen y liberalismo (1808-1874)",
+       "p": 0.297,
+       "veces": 3,
+       "de": 9,
        "ultimo": 2025,
        "tendencia": "estable",
-       "muestra": "Pregunta 3.- Dictadura de Primo de Rivera y “dictablanda” de Berenguer (1923-1931).",
+       "muestra": "Pregunta 1.- Isabel II: Del bienio progresista a la desintegración de la monarquía (1854-1868).",
        "muestra_url": "manual:manual/rioja/2025/Historia de España junio examen.txt"
       },
       {
        "id": "guerracivil",
        "nombre": "Guerra Civil (1936-1939)",
-       "p": 0.288,
-       "veces": 1,
-       "de": 2,
-       "ultimo": 2024,
-       "tendencia": "baja",
-       "muestra": "Pregunta 5.- Segunda República (1931-1936): Bienio reformista.",
-       "muestra_url": "manual:manual/rioja/2024/Historia de España julio examen.txt"
-      },
-      {
-       "id": "transicion",
-       "nombre": "Transición y democracia",
-       "p": 0.288,
-       "veces": 1,
-       "de": 2,
-       "ultimo": 2024,
-       "tendencia": "baja",
-       "muestra": "[Fuente: /sites/academica_publico/Grado/Exámenes EBAU/Historia de España/Historia_jul_24.pdf] Evaluación de Bachillerato para Acceso a la Universidad (EBAU) Curso Académico: 2023-2024",
-       "muestra_url": "manual:manual/rioja/2024/Historia de España julio examen.txt"
+       "p": 0.207,
+       "veces": 2,
+       "de": 9,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "Pregunta 4.- Segunda República (1931-1936): Bienio reformista.",
+       "muestra_url": "manual:manual/rioja/2025/Historia de España julio examen (OCR).txt"
       },
       {
        "id": "antigua",
        "nombre": "Prehistoria a Edad Media (Al-Ándalus, reinos cristianos)",
-       "p": 0.05,
-       "veces": 0,
-       "de": 2,
-       "ultimo": null,
+       "p": 0.138,
+       "veces": 2,
+       "de": 9,
+       "ultimo": 2023,
+       "tendencia": "baja",
+       "muestra": "poder la Iglesia y la nobleza. Pregunta 2 (2 puntos). Describe la evolución política de Al Ándalus.",
+       "muestra_url": "manual:manual/rioja/2023/Historia de España junio examen (OCR).txt"
+      },
+      {
+       "id": "transicion",
+       "nombre": "Transición y democracia",
+       "p": 0.077,
+       "veces": 1,
+       "de": 9,
+       "ultimo": 2024,
        "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
+       "muestra": "[Fuente: /sites/academica_publico/Grado/Exámenes EBAU/Historia de España/Historia_jul_24.pdf] Evaluación de Bachillerato para Acceso a la Universidad (EBAU) Curso Académico: 2023-2024",
+       "muestra_url": "manual:manual/rioja/2024/Historia de España julio examen.txt"
       },
       {
        "id": "moderna",
        "nombre": "Monarquía hispánica (Reyes Católicos, Austrias, Borbones s. XVIII)",
-       "p": 0.05,
-       "veces": 0,
-       "de": 2,
-       "ultimo": null,
+       "p": 0.061,
+       "veces": 1,
+       "de": 9,
+       "ultimo": 2023,
        "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
+       "muestra": "Pregunta 3 (2 puntos). Compara los imperios territoriales de Carlos | y el de Felipe ll, y explica los diferentes problemas que acarrearon.",
+       "muestra_url": "manual:manual/rioja/2023/Historia de España julio examen (OCR).txt"
       }
      ],
-     "validacion": null,
-     "confianza": "baja"
+     "validacion": {
+      "anio": 2025,
+      "k": 4,
+      "aciertos": 3,
+      "tasa": 0.75,
+      "azar": 0.5,
+      "top": [
+       "liberalismo",
+       "republica",
+       "franquismo",
+       "antigua"
+      ],
+      "reales": [
+       "franquismo",
+       "liberalismo",
+       "republica",
+       "restauracion"
+      ]
+     },
+     "confianza": "alta"
     },
     "historiaarte": {
      "nombre": "Historia del Arte",
-     "n_examenes": 5,
+     "n_examenes": 11,
      "anios": [
+      2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Historia del Arte julio examen (OCR).txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2022/Historia del Arte junio examen (OCR).txt"
+      },
       {
        "anio": 2023,
        "conv": "ext",
@@ -53691,61 +54225,81 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Historia del Arte julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Técnicas de Expresión julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "manual:manual/rioja/2025/Historia del Arte junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2026/Historia del Arte examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Historia del Arte examen (OCR 2).txt"
       }
      ],
      "temas": [
       {
        "id": "vanguardias",
        "nombre": "Vanguardias y siglo XX",
-       "p": 0.31,
+       "p": 0.13,
        "veces": 1,
-       "de": 5,
+       "de": 11,
        "ultimo": 2025,
-       "tendencia": "sube",
+       "tendencia": "estable",
        "muestra": "Las imágenes corresponden a diferentes vanguardias artísticas. Relaciona el nombre de la vanguardia con la imagen: Surrealismo, Expresionismo, Futurismo, Dadaismo. Razona por qué explicando algún rasgo de cada una de ellas.",
        "muestra_url": "manual:manual/rioja/2025/Historia del Arte junio examen.txt"
       },
       {
+       "id": "barroco",
+       "nombre": "Barroco",
+       "p": 0.123,
+       "veces": 1,
+       "de": 11,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "4.1. Compara la escultura renacentista con la barroca a través de la representación de David por Miguel Angel y por Bernini",
+       "muestra_url": "manual:manual/rioja/2026/Historia del Arte examen (OCR).txt"
+      },
+      {
        "id": "clasico",
        "nombre": "Arte clásico (Grecia y Roma)",
-       "p": 0.05,
-       "veces": 0,
-       "de": 5,
-       "ultimo": null,
+       "p": 0.107,
+       "veces": 1,
+       "de": 11,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
+       "muestra": "4. “Parte o sala posterior del templo griego, sin comunicación con la cella o naos”:",
+       "muestra_url": "manual:manual/rioja/2026/Historia del Arte examen (OCR 2).txt"
+      },
+      {
+       "id": "renacimiento",
+       "nombre": "Renacimiento",
+       "p": 0.104,
+       "veces": 1,
+       "de": 11,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "5.1. Describe las características de la pintura renacentista italiana y explica su evolución desde el Quattrocento al Manierismo a través de sus principales representantes",
+       "muestra_url": "manual:manual/rioja/2025/Historia del Arte julio examen (OCR).txt"
       },
       {
        "id": "medieval",
        "nombre": "Románico y gótico",
        "p": 0.05,
        "veces": 0,
-       "de": 5,
-       "ultimo": null,
-       "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
-      },
-      {
-       "id": "renacimiento",
-       "nombre": "Renacimiento",
-       "p": 0.05,
-       "veces": 0,
-       "de": 5,
-       "ultimo": null,
-       "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
-      },
-      {
-       "id": "barroco",
-       "nombre": "Barroco",
-       "p": 0.05,
-       "veces": 0,
-       "de": 5,
+       "de": 11,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -53756,7 +54310,7 @@
        "nombre": "Goya y siglo XIX",
        "p": 0.05,
        "veces": 0,
-       "de": 5,
+       "de": 11,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -53780,14 +54334,20 @@
     },
     "ingles": {
      "nombre": "Lengua Extranjera II: Inglés",
-     "n_examenes": 5,
+     "n_examenes": 9,
      "anios": [
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Inglés julio examen (OCR).txt"
+      },
       {
        "anio": 2022,
        "conv": "ord",
@@ -53797,6 +54357,11 @@
        "anio": 2023,
        "conv": "ext",
        "url": "manual:manual/rioja/2023/Inglés julio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Inglés junio examen (OCR).txt"
       },
       {
        "anio": 2024,
@@ -53812,6 +54377,16 @@
        "anio": 2025,
        "conv": "ord",
        "url": "manual:manual/rioja/2025/Inglés junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Inglés examen (OCR 2).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Inglés examen (OCR).txt"
       }
      ],
      "temas": [
@@ -53819,43 +54394,43 @@
        "id": "reading",
        "nombre": "Comprensión lectora (true/false, preguntas)",
        "p": 0.9,
-       "veces": 5,
-       "de": 5,
-       "ultimo": 2025,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "1. Indicate whether the following sentences about the text are true or false. In each case, justify your answer with only ONE sentence from the text. (2 points; 0.5 each)",
-       "muestra_url": "manual:manual/rioja/2025/Inglés junio examen.txt"
+       "muestra": "PART 1. READING COMPREHENSION (4 POINTS) Read the following text and answer the questions below:",
+       "muestra_url": "manual:manual/rioja/2026/Inglés examen (OCR 2).txt"
       },
       {
        "id": "vocab",
        "nombre": "Vocabulario (sinónimos, definiciones)",
        "p": 0.9,
-       "veces": 5,
-       "de": 5,
-       "ultimo": 2025,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "If we don’t make big changes, experts warn that by 2027 AI could use a total amount of water similar to what four to six countries like Denmark use in one year. This is a serious issue, especially as many areas of the world are already facing water shortages. There are ways to re…",
-       "muestra_url": "manual:manual/rioja/2025/Inglés junio examen.txt"
+       "muestra": "The idea originated when Shiro Oguni, a television director, visited a care home for people living with dementia. Initially, he assumed that such people were unable to perform even the simplest tasks independently. However, he later realised that many residents could cook, clean,…",
+       "muestra_url": "manual:manual/rioja/2026/Inglés examen (OCR 2).txt"
       },
       {
        "id": "writing",
        "nombre": "Redacción (opinión, carta, email)",
        "p": 0.9,
-       "veces": 5,
-       "de": 5,
-       "ultimo": 2025,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "2. Choose TWO of the following questions about the text and answer them IN YOUR OWN WORDS. (2 points; 1 each)",
-       "muestra_url": "manual:manual/rioja/2025/Inglés junio examen.txt"
+       "muestra": "Questions: 1. Answer the following questions about the text IN YOUR OWN WORDS. (2 points; 1 each) a. What did Oguni learn about the abilities and quality of life of people with dementia on his first visit to a care home? ] b. What happened when Oguni received the wrong dish on th…",
+       "muestra_url": "manual:manual/rioja/2026/Inglés examen (OCR 2).txt"
       },
       {
        "id": "grammar",
        "nombre": "Gramática (reescritura, transformaciones)",
-       "p": 0.114,
+       "p": 0.061,
        "veces": 1,
-       "de": 5,
+       "de": 9,
        "ultimo": 2022,
-       "tendencia": "baja",
+       "tendencia": "estable",
        "muestra": "Does the program encourage children to ask questions, to use their imaginations, or to be active or creative? Television watching doesn’t have to be passive. In fact, you can watch TV either in a passive or in an active way.",
        "muestra_url": "manual:manual/rioja/2022/Inglés junio examen.txt"
       },
@@ -53864,7 +54439,7 @@
        "nombre": "Mediación",
        "p": 0.05,
        "veces": 0,
-       "de": 5,
+       "de": 9,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -53888,20 +54463,61 @@
        "writing"
       ]
      },
-     "confianza": "media"
+     "confianza": "alta"
     },
-    "latin": {
-     "nombre": "Latín II",
-     "n_examenes": 3,
+    "italiano": {
+     "nombre": "Lengua Extranjera II: Italiano",
+     "n_examenes": 2,
      "anios": [
       2022,
-      2024
+      2023
      ],
      "examenes": [
       {
        "anio": 2022,
        "conv": "ord",
+       "url": "manual:manual/rioja/2022/Italiano junio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Italiano junio examen (OCR).txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "latin": {
+     "nombre": "Latín II",
+     "n_examenes": 9,
+     "anios": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Latín II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
        "url": "manual:manual/rioja/2022/Latín II junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2023/Latín II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Latín II junio examen (OCR).txt"
       },
       {
        "anio": 2024,
@@ -53912,6 +54528,21 @@
        "anio": 2024,
        "conv": "ord",
        "url": "manual:manual/rioja/2024/Latín II junio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2025/Latín II junio examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Latín II examen (OCR 2).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Latín II examen (OCR).txt"
       }
      ],
      "temas": [
@@ -53919,63 +54550,96 @@
        "id": "traduccion",
        "nombre": "Traducción",
        "p": 0.9,
-       "veces": 3,
-       "de": 3,
-       "ultimo": 2024,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "1. El examen contiene un bloque que plantea la traducción de un texto, otro bloque de preguntas asociadas a cada texto y un tercer bloque con cuestiones de desarrollo:",
-       "muestra_url": "manual:manual/rioja/2024/Latín II junio examen.txt"
-      },
-      {
-       "id": "morfosintaxis",
-       "nombre": "Morfosintaxis",
-       "p": 0.9,
-       "veces": 3,
-       "de": 3,
-       "ultimo": 2024,
-       "tendencia": "estable",
-       "muestra": "No se puntuarán elementos oracionales inferiores a las proposiciones y construcciones sintácticas (tipo ablativo absoluto).",
-       "muestra_url": "manual:manual/rioja/2024/Latín II junio examen.txt"
+       "muestra": "El examen contiene un apartado que plantea la traducción de un texto y dos preguntas de morfología y sintaxis respectivamente, otro apartado de preguntas de tipo léxico y un tercer apartado con cuestiones referentes a textos o imágenes relacionados con la historia, la cultura y e…",
+       "muestra_url": "manual:manual/rioja/2026/Latín II examen (OCR 2).txt"
       },
       {
        "id": "lexico",
        "nombre": "Léxico y etimología",
        "p": 0.9,
-       "veces": 3,
-       "de": 3,
-       "ultimo": 2024,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "1. Busca en el texto las palabras relacionadas etimológicamente con CUATRO de las siguientes formas:",
-       "muestra_url": "manual:manual/rioja/2024/Latín II junio examen.txt"
+       "muestra": "Apartado 2. Se le atribuye como máximo el 20 % de la calificación y se evaluará, según la pregunta, (1) que se identifique la palabra patrimonial que resulta de la evolución fonética del término latino y que se expliquen con claridad y precisión los fenómenos fonéticos que produc…",
+       "muestra_url": "manual:manual/rioja/2026/Latín II examen (OCR 2).txt"
       },
       {
        "id": "literatura",
        "nombre": "Literatura latina",
-       "p": 0.9,
-       "veces": 3,
-       "de": 3,
+       "p": 0.614,
+       "veces": 7,
+       "de": 9,
+       "ultimo": 2025,
+       "tendencia": "baja",
+       "muestra": "2. La historiografía de la época republicana. Orígenes. Catón. Salustio y César. 3. La épica. Orígenes. Virgilio.",
+       "muestra_url": "manual:manual/rioja/2025/Latín II junio examen (OCR).txt"
+      },
+      {
+       "id": "morfosintaxis",
+       "nombre": "Morfosintaxis",
+       "p": 0.541,
+       "veces": 6,
+       "de": 9,
        "ultimo": 2024,
-       "tendencia": "estable",
-       "muestra": "3. La historiografía de la época imperial. Tito Livio y Tácito.",
+       "tendencia": "baja",
+       "muestra": "No se puntuarán elementos oracionales inferiores a las proposiciones y construcciones sintácticas (tipo ablativo absoluto).",
        "muestra_url": "manual:manual/rioja/2024/Latín II junio examen.txt"
       }
      ],
-     "validacion": null,
+     "validacion": {
+      "anio": 2025,
+      "k": 3,
+      "aciertos": 2,
+      "tasa": 0.67,
+      "azar": 0.75,
+      "top": [
+       "traduccion",
+       "morfosintaxis",
+       "lexico"
+      ],
+      "reales": [
+       "lexico",
+       "literatura",
+       "traduccion"
+      ]
+     },
      "confianza": "baja"
     },
     "lengua": {
      "nombre": "Lengua Castellana y Literatura II",
-     "n_examenes": 3,
+     "n_examenes": 10,
      "anios": [
       2022,
+      2023,
       2024,
-      2025
+      2025,
+      2026
      ],
      "examenes": [
       {
        "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Lengua Castellana y Literatura II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2022,
        "conv": "ord",
        "url": "manual:manual/rioja/2022/Lengua Castellana y Literatura II junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2023/Lengua Castellana y Literatura II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Lengua Castellana y Literatura II junio examen (OCR).txt"
       },
       {
        "anio": 2024,
@@ -53983,9 +54647,29 @@
        "url": "manual:manual/rioja/2024/Lengua Castellana y Literatura II julio examen.txt"
       },
       {
+       "anio": 2024,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2024/Lengua Castellana y Literatura II junio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Lengua Castellana y Literatura II julio examen (OCR).txt"
+      },
+      {
        "anio": 2025,
        "conv": "ord",
        "url": "manual:manual/rioja/2025/Lengua Castellana y Literatura II junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "modelo",
+       "url": "manual:manual/rioja/2026/Lengua Castellana y Literatura II examen (OCR 2).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "modelo",
+       "url": "manual:manual/rioja/2026/Lengua Castellana y Literatura II examen (OCR).txt"
       }
      ],
      "temas": [
@@ -53993,74 +54677,74 @@
        "id": "comprension",
        "nombre": "Comprensión y resumen del texto",
        "p": 0.9,
-       "veces": 3,
-       "de": 3,
-       "ultimo": 2025,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "a) ¿Cuál es el tema del texto A? ¿Qué opina la autora al respecto?",
-       "muestra_url": "manual:manual/rioja/2025/Lengua Castellana y Literatura II junio examen.txt"
+       "muestra": "1.1. ¿Cuál es el tema del texto? 1.2. ¿Qué opina el autor al réspecto? 2. Conteste a UNA DE ESTAS DOS cuestiones (1 p.; extensión recomendada, entre 60 y 100 palabras):",
+       "muestra_url": "manual:manual/rioja/2026/Lengua Castellana y Literatura II examen (OCR 2).txt"
       },
       {
        "id": "morfologia",
        "nombre": "Léxico, morfología y semántica",
        "p": 0.9,
-       "veces": 3,
-       "de": 3,
-       "ultimo": 2025,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "Las realidades, según la palabra, se amplían o acotan. No es lo mismo sin hogar que hacer uso del nuevo término sinhogarismo , porque no solo afecta al derecho a la vivienda, sino también a la salud o al empleo. Amplía la pérdida de dignidad integral y el efecto devastador que pr…",
-       "muestra_url": "manual:manual/rioja/2025/Lengua Castellana y Literatura II junio examen.txt"
+       "muestra": "Ese primer señor era un muchacho de buena familia en la ciudad más culta de esos días: Amerigo Vespucci, que había nacido en 1454 y se educó leyendo, escuchando a sabios parlanchines, disfrutando de las mejores cuadros y sus modelos de más carne que hueso. Así, cuando llegó el mo…",
+       "muestra_url": "manual:manual/rioja/2026/Lengua Castellana y Literatura II examen (OCR 2).txt"
       },
       {
        "id": "argumentacion",
        "nombre": "Texto argumentativo / opinión",
-       "p": 0.726,
-       "veces": 2,
-       "de": 3,
-       "ultimo": 2025,
-       "tendencia": "sube",
-       "muestra": "4. Desarrolle un comentario personal, argumentando su opinión, a partir de UNA de las dos opciones siguientes (1 punto; extensión recomendada, entre 200 y 300 palabras):",
-       "muestra_url": "manual:manual/rioja/2025/Lengua Castellana y Literatura II junio examen.txt"
+       "p": 0.842,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "Elabore un texto expositivo-argumentativo personal, con lenguaje formal, aportando datos y/o argumentos, sobre la verdad y la mentira en su entorno personal (por ejemplo, en el ámbito educativo o en las relaciones familiares o de amistad).",
+       "muestra_url": "manual:manual/rioja/2026/Lengua Castellana y Literatura II examen (OCR 2).txt"
       },
       {
        "id": "sintaxis",
        "nombre": "Sintaxis (oración compuesta)",
-       "p": 0.726,
-       "veces": 2,
-       "de": 3,
-       "ultimo": 2025,
-       "tendencia": "sube",
-       "muestra": "5. Complete el análisis sintáctico de la siguiente oración (2 puntos; si lo considera conveniente, puede realizar el análisis con el cuaderno dispuesto en apaisado):",
-       "muestra_url": "manual:manual/rioja/2025/Lengua Castellana y Literatura II junio examen.txt"
-      },
-      {
-       "id": "lit98",
-       "nombre": "Literatura: Modernismo y 98, novecentismo",
-       "p": 0.232,
-       "veces": 1,
-       "de": 3,
-       "ultimo": 2024,
-       "tendencia": "baja",
-       "muestra": "Pío Baroja, El árbol de la ciencia (1911)",
-       "muestra_url": "manual:manual/rioja/2024/Lengua Castellana y Literatura II julio examen.txt"
+       "p": 0.842,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "6. Tras elegir UNA de las dos oraciones siguientes, analícela sintácticamente de manera completa (2 p.; se recomienda realizar el análisis con el cuaderno dispuesto en apaisado):",
+       "muestra_url": "manual:manual/rioja/2026/Lengua Castellana y Literatura II examen (OCR 2).txt"
       },
       {
        "id": "teatro",
        "nombre": "Teatro del siglo XX",
-       "p": 0.232,
-       "veces": 1,
-       "de": 3,
-       "ultimo": 2024,
-       "tendencia": "baja",
-       "muestra": "Andrés habló de la gente de la vecindad de Lulú, de las escenas del hospital, como casos extraños, dignos de un comentario; de Manolo el Chafandín, del tío Miserias, de don Cleto, de doña Virginia...",
-       "muestra_url": "manual:manual/rioja/2024/Lengua Castellana y Literatura II julio examen.txt"
+       "p": 0.303,
+       "veces": 3,
+       "de": 10,
+       "ultimo": 2025,
+       "tendencia": "estable",
+       "muestra": "",
+       "muestra_url": "manual:manual/rioja/2025/Lengua Castellana y Literatura II julio examen (OCR).txt"
+      },
+      {
+       "id": "lit98",
+       "nombre": "Literatura: Modernismo y 98, novecentismo",
+       "p": 0.234,
+       "veces": 3,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "A) “Era un niño que soñaba” (Campos de Castilla, 1912), Antonio Machado",
+       "muestra_url": "manual:manual/rioja/2026/Lengua Castellana y Literatura II examen (OCR 2).txt"
       },
       {
        "id": "lit27",
        "nombre": "Literatura: 27, Lorca, poesía de posguerra",
        "p": 0.05,
        "veces": 0,
-       "de": 3,
+       "de": 10,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -54071,7 +54755,7 @@
        "nombre": "Novela del siglo XX y actual",
        "p": 0.05,
        "veces": 0,
-       "de": 3,
+       "de": 10,
        "ultimo": null,
        "tendencia": "estable",
        "muestra": "",
@@ -54097,14 +54781,15 @@
        "sintaxis"
       ]
      },
-     "confianza": "baja"
+     "confianza": "alta"
     },
     "literaturadram": {
      "nombre": "Literatura Dramática",
-     "n_examenes": 2,
+     "n_examenes": 4,
      "anios": [
       2024,
-      2025
+      2025,
+      2026
      ],
      "examenes": [
       {
@@ -54114,8 +54799,18 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Literatura Dramática julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "manual:manual/rioja/2025/Literatura Dramática junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Literatura Dramática examen (OCR).txt"
       }
      ],
      "temas": [],
@@ -54124,11 +54819,35 @@
     },
     "matccss": {
      "nombre": "Matemáticas Aplicadas a las CC. Sociales II",
-     "n_examenes": 2,
+     "n_examenes": 9,
      "anios": [
-      2024
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Matemáticas aplicadas CCSS II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2022/Matemáticas aplicadas CCSS II junio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2023/Matemáticas aplicadas CCSS II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Matemáticas aplicadas CCSS II junio examen (OCR).txt"
+      },
       {
        "anio": 2024,
        "conv": "ext",
@@ -54138,86 +54857,147 @@
        "anio": 2024,
        "conv": "ord",
        "url": "manual:manual/rioja/2024/Matemáticas aplicadas CCSS II junio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2025/Matemáticas aplicadas CCSS II junio examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Matemáticas aplicadas CCS II examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Matemáticas aplicadas CCSS II examen (OCR).txt"
       }
      ],
      "temas": [
       {
-       "id": "funciones",
-       "nombre": "Funciones y derivadas",
-       "p": 0.9,
-       "veces": 2,
-       "de": 2,
-       "ultimo": 2024,
-       "tendencia": "estable",
-       "muestra": "1.3.– Un artesano fabrica hilo de algod´ on ecol´ ogico e hilo de lino de alta calidad, y planifica su trabajo para los pr´ oximos tres d´ ıas. Cada metro de algod´ on le lleva una hora de trabajo, y para cada metro de lino necesita tres horas. No quiere emplear m´ as de 21 horas…",
-       "muestra_url": "manual:manual/rioja/2024/Matemáticas aplicadas CCSS II junio examen.txt"
-      },
-      {
        "id": "probabilidad",
        "nombre": "Probabilidad",
        "p": 0.9,
-       "veces": 2,
-       "de": 2,
-       "ultimo": 2024,
+       "veces": 9,
+       "de": 9,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "3.1.– De cada diez autobuses que llegan al enclave de un concierto en Asturias cuatro proceden de Gij´ on, tres de Oviedo, dos de Avil´ es y uno de Mieres. El 40 % de las personas que llegan de Gij´ on y de Oviedo son mujeres, pero el porcentaje es del 60 % entre las que llegan d…",
-       "muestra_url": "manual:manual/rioja/2024/Matemáticas aplicadas CCSS II junio examen.txt"
+       "muestra": "a.1. Calcula la probabilidad de que haya consumido algún tipo de sustancia prohibida y la prueba haya dado positiva.",
+       "muestra_url": "manual:manual/rioja/2026/Matemáticas aplicadas CCS II examen (OCR).txt"
+      },
+      {
+       "id": "funciones",
+       "nombre": "Funciones y derivadas",
+       "p": 0.835,
+       "veces": 8,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "2. Una empresa fabrica dos tipos de herramientas, A y B. Para su elaboración utiliza madera y acero. Para fabricar una herramienta A se necesitan 300 gramos de madera y 100 gramos de acero; en el caso de B, las cantidades requeridas son 100 y 200 gramos respectivamente. Dispone d…",
+       "muestra_url": "manual:manual/rioja/2026/Matemáticas aplicadas CCS II examen (OCR).txt"
       },
       {
        "id": "matrices",
        "nombre": "Matrices y sistemas",
-       "p": 0.5,
-       "veces": 1,
-       "de": 2,
-       "ultimo": 2024,
+       "p": 0.818,
+       "veces": 8,
+       "de": 9,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": ". Elige una matriz A cuadrada de orden 2 tal que, de sus cuatro componentes, tres valen 1 y la otra vale − 1. Escribe expl´ ıcitamente tu matriz A , y encuentra entonces la matriz X que cumple que",
-       "muestra_url": "manual:manual/rioja/2024/Matemáticas aplicadas CCSS II junio examen.txt"
-      },
-      {
-       "id": "integrales",
-       "nombre": "Integrales y áreas",
-       "p": 0.5,
-       "veces": 1,
-       "de": 2,
-       "ultimo": 2024,
-       "tendencia": "estable",
-       "muestra": "Todas las respuestas deben ser debidamente justificadas . Se permite el uso de calculadoras cient´ ıficas siempre que no sean ni programables ni gr´ aficas, y que no calculen integrales. Para contestar a algunas preguntas se puede usar la tabla de la distribuci´ on normal que se …",
-       "muestra_url": "manual:manual/rioja/2024/Matemáticas aplicadas CCSS II julio examen.txt"
+       "muestra": "3.2. (2 PUNTOS) Dadas las matrices A= 6 A) y B= E $) , a, b: números reales, se pide:",
+       "muestra_url": "manual:manual/rioja/2026/Matemáticas aplicadas CCS II examen (OCR).txt"
       },
       {
        "id": "inferencia",
        "nombre": "Inferencia y distribución normal",
-       "p": 0.5,
-       "veces": 1,
-       "de": 2,
-       "ultimo": 2024,
+       "p": 0.798,
+       "veces": 8,
+       "de": 9,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "Se toma una muestra aleatoria independiente de 25 ni˜ nas de tres a˜ nos. ¿Cu´ al es la media y la desviaci´ on t´ ıpica de su estatura promedio?",
-       "muestra_url": "manual:manual/rioja/2024/Matemáticas aplicadas CCSS II julio examen.txt"
+       "muestra": "b) (2 PUNTOS) Una fábrica de café envasa su producto en paquetes cuyo peso sigue una distribución normal de media 1 desconocida y desviación típica O. Se ha tomado una muestra aleatoria de 100 paquetes, cuyo peso medio ha sido 500 gramos, y se ha calculado el siguiente intervalo …",
+       "muestra_url": "manual:manual/rioja/2026/Matemáticas aplicadas CCS II examen (OCR).txt"
+      },
+      {
+       "id": "integrales",
+       "nombre": "Integrales y áreas",
+       "p": 0.667,
+       "veces": 6,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "determina cuándo se alcanzarán. c) (1,25 PUNTOS) Considera la función g(x) = f '(x): calcula el área limitada por la gráfica",
+       "muestra_url": "manual:manual/rioja/2026/Matemáticas aplicadas CCS II examen (OCR).txt"
       },
       {
        "id": "progl",
        "nombre": "Programación lineal",
-       "p": 0.05,
-       "veces": 0,
-       "de": 2,
-       "ultimo": null,
-       "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
+       "p": 0.606,
+       "veces": 5,
+       "de": 9,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "a) (0,5 PUNTOS) Plantea el problema de programación lineal para maximizar el beneficio de la empresa.",
+       "muestra_url": "manual:manual/rioja/2026/Matemáticas aplicadas CCS II examen (OCR).txt"
       }
      ],
-     "validacion": null,
+     "validacion": {
+      "anio": 2025,
+      "k": 6,
+      "aciertos": 6,
+      "tasa": 1.0,
+      "azar": 1.0,
+      "top": [
+       "probabilidad",
+       "inferencia",
+       "funciones",
+       "matrices",
+       "integrales",
+       "progl"
+      ],
+      "reales": [
+       "funciones",
+       "inferencia",
+       "integrales",
+       "matrices",
+       "probabilidad",
+       "progl"
+      ]
+     },
      "confianza": "baja"
     },
     "matematicas2": {
      "nombre": "Matemáticas II",
-     "n_examenes": 2,
+     "n_examenes": 10,
      "anios": [
-      2024
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
      ],
      "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Matemáticas II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2022/Matemáticas II junio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2023/Matemáticas II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Matemáticas II junio examen (OCR).txt"
+      },
       {
        "anio": 2024,
        "conv": "ext",
@@ -54227,6 +55007,26 @@
        "anio": 2024,
        "conv": "ord",
        "url": "manual:manual/rioja/2024/Matemáticas II junio examen.txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Matemáticas II julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2025/Matemáticas II junio examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "modelo",
+       "url": "manual:manual/rioja/2026/Matemáticas II examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Matemáticas II examen (OCR 2).txt"
       }
      ],
      "temas": [
@@ -54234,88 +55034,172 @@
        "id": "matrices",
        "nombre": "Matrices y determinantes",
        "p": 0.9,
-       "veces": 2,
-       "de": 2,
-       "ultimo": 2024,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "halla x e y para que su inversa, A − 1 , coincida con su traspuesta, A T . En tal caso, halla A T A 2 − 2 A .",
-       "muestra_url": "manual:manual/rioja/2024/Matemáticas II junio examen.txt"
-      },
-      {
-       "id": "sistemas",
-       "nombre": "Sistemas de ecuaciones (discusión)",
-       "p": 0.9,
-       "veces": 2,
-       "de": 2,
-       "ultimo": 2024,
-       "tendencia": "estable",
-       "muestra": "5.– (2 puntos) A˜ nade una ecuaci´ on al sistema de ecuaciones lineales:",
-       "muestra_url": "manual:manual/rioja/2024/Matemáticas II junio examen.txt"
+       "muestra": "a) Escribe la matriz que expresa el número de productos según el tamaño y la variante. [0.5 puntos]",
+       "muestra_url": "manual:manual/rioja/2026/Matemáticas II examen (OCR).txt"
       },
       {
        "id": "geometria",
        "nombre": "Geometría en el espacio",
        "p": 0.9,
-       "veces": 2,
-       "de": 2,
-       "ultimo": 2024,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "Prueba de Evaluaci´ on de Bachillerato para el Acceso a la Universidad (EBAU) Curso 2023–2024 Convocatoria:Ordinaria/Extraordinaria ASIGNATURA: MATEM ´ ATICAS II El alumno contestar´ a a S ´ OLO 5 ejercicios de entre los planteados. En caso contrario, el corrector corregir´ a los…",
-       "muestra_url": "manual:manual/rioja/2024/Matemáticas II junio examen.txt"
-      },
-      {
-       "id": "limites",
-       "nombre": "Límites y continuidad",
-       "p": 0.9,
-       "veces": 2,
-       "de": 2,
-       "ultimo": 2024,
-       "tendencia": "estable",
-       "muestra": "Analiza la continuidad de la funci´ on f en las abcisas x = − 2 y x = 1.",
-       "muestra_url": "manual:manual/rioja/2024/Matemáticas II junio examen.txt"
-      },
-      {
-       "id": "derivadas",
-       "nombre": "Derivadas y aplicaciones",
-       "p": 0.9,
-       "veces": 2,
-       "de": 2,
-       "ultimo": 2024,
-       "tendencia": "estable",
-       "muestra": "1.– (2 puntos) Escribe la ecuaci´ on de la recta tangente a la curva y = 1 /x en el punto (3 , 1 / 3). Comprueba que el segmento de esta recta comprendido entre los ejes de coordenadas est´ a dividido en dos partes iguales por el punto de tangencia.",
-       "muestra_url": "manual:manual/rioja/2024/Matemáticas II junio examen.txt"
+       "muestra": "(b) En dicha parcela el propietario decide hacer una piscina rectangular, de tal manera que uno de sus lados está en el eje y = 0, véase la Figura 1. Calcula el área máxima de la piscina. [1 punto]",
+       "muestra_url": "manual:manual/rioja/2026/Matemáticas II examen (OCR).txt"
       },
       {
        "id": "probabilidad",
        "nombre": "Probabilidad y distribuciones",
        "p": 0.9,
-       "veces": 2,
-       "de": 2,
-       "ultimo": 2024,
+       "veces": 10,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "10.– (2 puntos) Dados los sucesos A y B de un experimento aleatorio, se sabe que P",
-       "muestra_url": "manual:manual/rioja/2024/Matemáticas II junio examen.txt"
+       "muestra": "En el grado de Matemáticas la probabilidad de aprobar las asignaturas: Métodos Algorítmicos en Matemáticas, Estadística y Bases de datos son 60%, 75% y 80%, respectivamente.",
+       "muestra_url": "manual:manual/rioja/2026/Matemáticas II examen (OCR).txt"
+      },
+      {
+       "id": "derivadas",
+       "nombre": "Derivadas y aplicaciones",
+       "p": 0.845,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "c) Se quiere instalar un altavoz para poner música y este debe estar como mínimo a 2 metros de distancia del toldo, ¿estará correctamente colocado si el altavoz está en el punto (0, 0, 5)? [0.5 puntos]",
+       "muestra_url": "manual:manual/rioja/2026/Matemáticas II examen (OCR).txt"
+      },
+      {
+       "id": "sistemas",
+       "nombre": "Sistemas de ecuaciones (discusión)",
+       "p": 0.808,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "a) Determinar los valores del parámetro a para que el sistema sea compatible de- terminado. En este caso, los planos se cortan en un punto. [1 punto]",
+       "muestra_url": "manual:manual/rioja/2026/Matemáticas II examen (OCR 2).txt"
       },
       {
        "id": "integrales",
        "nombre": "Integrales y áreas",
-       "p": 0.5,
-       "veces": 1,
-       "de": 2,
-       "ultimo": 2024,
-       "tendencia": "estable",
-       "muestra": "Se permite el uso de calculadoras cient´ ıficas siempre que no sean programables ni gr´ aficas ni calculen integrales. Si alg´ un alumno es sorprendido con una calculadora no autorizada, podr´ a ser expulsado del examen; en todo caso, se le retirar´ a la calculadora sin que tenga…",
-       "muestra_url": "manual:manual/rioja/2024/Matemáticas II junio examen.txt"
+       "p": 0.782,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "y = Vi=x, y = v1- 4x e y = 0. Ayudándote de la Figura 1, determina el área de esa parcela. [1 punto]",
+       "muestra_url": "manual:manual/rioja/2026/Matemáticas II examen (OCR).txt"
+      },
+      {
+       "id": "limites",
+       "nombre": "Límites y continuidad",
+       "p": 0.718,
+       "veces": 8,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "baja",
+       "muestra": "(a) En un reparto de tierras una de las parcelas esta delimitada por las curvas",
+       "muestra_url": "manual:manual/rioja/2026/Matemáticas II examen (OCR).txt"
       }
      ],
-     "validacion": null,
+     "validacion": {
+      "anio": 2025,
+      "k": 6,
+      "aciertos": 5,
+      "tasa": 0.83,
+      "azar": 0.86,
+      "top": [
+       "matrices",
+       "sistemas",
+       "geometria",
+       "limites",
+       "probabilidad",
+       "derivadas"
+      ],
+      "reales": [
+       "derivadas",
+       "geometria",
+       "integrales",
+       "matrices",
+       "probabilidad",
+       "sistemas"
+      ]
+     },
      "confianza": "baja"
+    },
+    "musica": {
+     "nombre": "Análisis Musical II / Historia de la Música",
+     "n_examenes": 5,
+     "anios": [
+      2025,
+      2026
+     ],
+     "examenes": [
+      {
+       "anio": 2025,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2025/Análisis Musical II junio examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Análisis Musical II examen (OCR 2).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Análisis Musical II examen (OCR).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Historia de la Música y de la Danza examen (OCR 2).txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Historia de la Música y de la Danza examen (OCR).txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
+    },
+    "portugues": {
+     "nombre": "Lengua Extranjera II: Portugués",
+     "n_examenes": 2,
+     "anios": [
+      2022,
+      2023
+     ],
+     "examenes": [
+      {
+       "anio": 2022,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2022/Portugués junio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Portugués junio examen (OCR).txt"
+      }
+     ],
+     "temas": [],
+     "validacion": null,
+     "confianza": "sin_temario"
     },
     "quimica": {
      "nombre": "Química",
-     "n_examenes": 5,
+     "n_examenes": 10,
      "anios": [
       2022,
+      2023,
       2024,
       2025,
       2026
@@ -54323,8 +55207,23 @@
      "examenes": [
       {
        "anio": 2022,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2022/Química julio examen (OCR).txt"
+      },
+      {
+       "anio": 2022,
        "conv": "ord",
        "url": "manual:manual/rioja/2022/Química junio examen.txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2023/Química julio examen (OCR).txt"
+      },
+      {
+       "anio": 2023,
+       "conv": "ord",
+       "url": "manual:manual/rioja/2023/Química junio examen (OCR).txt"
       },
       {
        "anio": 2024,
@@ -54338,6 +55237,11 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Química julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "manual:manual/rioja/2025/Química junio examen.txt"
       },
@@ -54345,111 +55249,116 @@
        "anio": 2026,
        "conv": "modelo",
        "url": "manual:manual/rioja/2026/Química examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Química examen (OCR).txt"
       }
      ],
      "temas": [
       {
        "id": "equilibrio",
        "nombre": "Equilibrio químico y solubilidad",
-       "p": 0.724,
-       "veces": 4,
-       "de": 5,
-       "ultimo": 2025,
+       "p": 0.808,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "baja",
-       "muestra": "El producto de solubilidad del cloruro de plata (AgCl) a 25ºC de temperatura es 1,6·10 -10 .",
-       "muestra_url": "manual:manual/rioja/2025/Química junio examen.txt"
+       "muestra": "El yodato de plomo(I!) (Pb(IO3)2) es una sal poco soluble que presentan una Kps = 3,2:10-13,",
+       "muestra_url": "manual:manual/rioja/2026/Química examen (OCR).txt"
       },
       {
        "id": "acidobase",
        "nombre": "Ácido-base",
-       "p": 0.724,
-       "veces": 4,
-       "de": 5,
-       "ultimo": 2025,
+       "p": 0.808,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "baja",
-       "muestra": "La lejía es una disolución acuosa de hipoclorito de sodio (NaClO), un compuesto químico oxidante que tiene propiedades bactericidas y desinfectantes. El ácido conjugado del NaClO es el ácido hipocloroso (HClO) y tiene una constante de acidez igual a 3,2·10 -8 .",
-       "muestra_url": "manual:manual/rioja/2025/Química junio examen.txt"
+       "muestra": "En un laboratorio se dispone 500 mL de una disolución de ácido clorhídrico (HCI) 0,083 M (disolución 1). Además, se dispone de otra botella de ácido clorhídrico comercial en cuya etiqueta se indica que la densidad es igual a 1,09 g/mL y la concentración es 2,7 %(m/m) (disolución …",
+       "muestra_url": "manual:manual/rioja/2026/Química examen (OCR).txt"
       },
       {
        "id": "redox",
        "nombre": "Redox y electroquímica",
-       "p": 0.724,
-       "veces": 4,
-       "de": 5,
-       "ultimo": 2025,
+       "p": 0.808,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "baja",
-       "muestra": "3. Si en una pregunta se hace referencia a un proceso químico, el alumno tendrá que expresar este proceso con la correspondiente ecuación química ajustada.",
-       "muestra_url": "manual:manual/rioja/2025/Química junio examen.txt"
+       "muestra": "2. Todas las preguntas tienen la misma puntuación: 2 puntos Eh Si en una pregunta se hace referencia a un proceso químico, el alumno tendrá que expresar este proceso con la correspondiente ecuación química ajustada. 4. Todas las RESPUESTAS deberán ser JUSTIFICADAS de forma razona…",
+       "muestra_url": "manual:manual/rioja/2026/Química examen (OCR).txt"
       },
       {
        "id": "organica",
        "nombre": "Química orgánica",
-       "p": 0.724,
-       "veces": 4,
-       "de": 5,
-       "ultimo": 2025,
+       "p": 0.808,
+       "veces": 9,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "baja",
-       "muestra": "Nombre los siguientes compuestos orgánicos, indique el grupo funcional de cada uno y nombre o dibuje un isómero (de cualquier tipo) de cada uno.",
-       "muestra_url": "manual:manual/rioja/2025/Química junio examen.txt"
-      },
-      {
-       "id": "estructura",
-       "nombre": "Estructura atómica y tabla periódica",
-       "p": 0.582,
-       "veces": 3,
-       "de": 5,
-       "ultimo": 2025,
-       "tendencia": "estable",
-       "muestra": "b) Dada la electronegatividad de los átomos de Cl (3,16), O (3,44) y Be (1,57), discuta razonadamente la polaridad de los enlaces y la polaridad global de ambas moléculas (1,0 puntos)",
-       "muestra_url": "manual:manual/rioja/2025/Química junio examen.txt"
+       "muestra": "El grupo funcional alcohol (-OH) es fundamental en muchos compuestos orgánicos con diferentes aplicaciones industriales o biológicas. Describa:",
+       "muestra_url": "manual:manual/rioja/2026/Química examen (OCR).txt"
       },
       {
        "id": "enlace",
        "nombre": "Enlace químico",
-       "p": 0.441,
-       "veces": 2,
-       "de": 5,
-       "ultimo": 2025,
+       "p": 0.661,
+       "veces": 7,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "b) Dada la electronegatividad de los átomos de Cl (3,16), O (3,44) y Be (1,57), discuta razonadamente la polaridad de los enlaces y la polaridad global de ambas moléculas (1,0 puntos)",
-       "muestra_url": "manual:manual/rioja/2025/Química junio examen.txt"
+       "muestra": "Indique, razonadamente, la estructura de Lewis, la hibridación del átomo central, la geometría de la molécula y la polaridad en los siguientes compuestos:",
+       "muestra_url": "manual:manual/rioja/2026/Química examen (OCR).txt"
+      },
+      {
+       "id": "estructura",
+       "nombre": "Estructura atómica y tabla periódica",
+       "p": 0.631,
+       "veces": 6,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "sube",
+       "muestra": "Escriba uno de los conjuntos de números cuánticos (n, |, m, s) válido para describir un electrón que se encuentre en un orbital:",
+       "muestra_url": "manual:manual/rioja/2026/Química examen (OCR).txt"
       },
       {
        "id": "cinetica",
        "nombre": "Cinética química",
-       "p": 0.141,
-       "veces": 1,
-       "de": 5,
-       "ultimo": 2024,
-       "tendencia": "baja",
-       "muestra": "Pregunta 7.- La velocidad de reacción, a una temperatura de 298 K, de la descomposición de N 2 O 5 en NO 2 y NO 3 se duplica al duplicar la concentración inicial de N 2 O 5 .",
-       "muestra_url": "manual:manual/rioja/2024/Química julio examen.txt"
+       "p": 0.56,
+       "veces": 5,
+       "de": 10,
+       "ultimo": 2026,
+       "tendencia": "estable",
+       "muestra": "cinético de una reacción general del tipo: A(g) + B(9) > C(g) Se determinó que la reacción era de segundo orden para A y de primer orden para B. a) Determine la ecuación de velocidad de reacción y el orden total de la reacción. (0,5 puntos) b) Determine las unidades de la constan…",
+       "muestra_url": "manual:manual/rioja/2026/Química examen (OCR).txt"
       },
       {
        "id": "termo",
        "nombre": "Termoquímica y espontaneidad",
-       "p": 0.05,
-       "veces": 0,
-       "de": 5,
-       "ultimo": null,
+       "p": 0.188,
+       "veces": 2,
+       "de": 10,
+       "ultimo": 2026,
        "tendencia": "estable",
-       "muestra": "",
-       "muestra_url": ""
+       "muestra": "a) Sabiendo que la energía de activación directa es de 100 KJ/mol y la energía de activación inversa es de 160 KJ/mol, dibuje un diagrama de energía de la reacción indicando los reactivos, el producto, el complejo activado (o estado de transición), las energías de activación dire…",
+       "muestra_url": "manual:manual/rioja/2026/Química examen (OCR).txt"
       }
      ],
      "validacion": {
       "anio": 2025,
       "k": 6,
-      "aciertos": 6,
-      "tasa": 1.0,
+      "aciertos": 5,
+      "tasa": 0.83,
       "azar": 0.75,
       "top": [
        "equilibrio",
        "acidobase",
        "redox",
        "organica",
-       "estructura",
-       "enlace"
+       "enlace",
+       "cinetica"
       ],
       "reales": [
        "acidobase",
@@ -54460,11 +55369,11 @@
        "redox"
       ]
      },
-     "confianza": "media"
+     "confianza": "alta"
     },
     "tecnologia": {
      "nombre": "Tecnología e Ingeniería II",
-     "n_examenes": 4,
+     "n_examenes": 6,
      "anios": [
       2024,
       2025,
@@ -54483,8 +55392,18 @@
       },
       {
        "anio": 2025,
+       "conv": "ext",
+       "url": "manual:manual/rioja/2025/Tecnología e Ingeniería julio examen (OCR).txt"
+      },
+      {
+       "anio": 2025,
        "conv": "ord",
        "url": "manual:manual/rioja/2025/Tecnología e Ingeniería junio examen.txt"
+      },
+      {
+       "anio": 2026,
+       "conv": "nd",
+       "url": "manual:manual/rioja/2026/Tecnología e Ingeniería II examen (OCR).txt"
       },
       {
        "anio": 2026,
@@ -54497,7 +55416,7 @@
      "confianza": "sin_temario"
     }
    },
-   "predecibilidad": 0.58
+   "predecibilidad": 0.72
   },
   "valenciana": {
    "nombre": "Comunitat Valenciana",
@@ -58434,43 +59353,43 @@
    {
     "id": "molecular",
     "nombre": "Genética molecular y biotecnología",
-    "p": 0.783,
+    "p": 0.785,
     "ccaa": 17
    },
    {
     "id": "biomoleculas",
     "nombre": "Biomoléculas",
-    "p": 0.768,
+    "p": 0.77,
     "ccaa": 17
    },
    {
     "id": "inmunologia",
     "nombre": "Inmunología",
-    "p": 0.714,
+    "p": 0.717,
     "ccaa": 17
    },
    {
     "id": "metabolismo",
     "nombre": "Metabolismo",
-    "p": 0.7,
+    "p": 0.701,
     "ccaa": 17
    },
    {
     "id": "celula",
     "nombre": "La célula",
-    "p": 0.646,
+    "p": 0.65,
     "ccaa": 17
    },
    {
     "id": "microbiologia",
     "nombre": "Microbiología",
-    "p": 0.556,
+    "p": 0.561,
     "ccaa": 17
    },
    {
     "id": "division",
     "nombre": "División celular",
-    "p": 0.471,
+    "p": 0.477,
     "ccaa": 17
    },
    {
@@ -58484,31 +59403,31 @@
    {
     "id": "normalizacion",
     "nombre": "Normalización y vistas",
-    "p": 0.72,
+    "p": 0.724,
     "ccaa": 17
    },
    {
     "id": "axonometrico",
     "nombre": "Axonométrico y perspectiva",
-    "p": 0.658,
+    "p": 0.661,
     "ccaa": 17
    },
    {
     "id": "diedrico",
     "nombre": "Sistema diédrico",
-    "p": 0.577,
+    "p": 0.585,
     "ccaa": 17
    },
    {
     "id": "geometriaplana",
     "nombre": "Geometría plana (tangencias, transformaciones)",
-    "p": 0.559,
+    "p": 0.568,
     "ccaa": 17
    },
    {
     "id": "conicas",
     "nombre": "Cónicas",
-    "p": 0.469,
+    "p": 0.48,
     "ccaa": 17
    }
   ],
@@ -58516,37 +59435,37 @@
    {
     "id": "contabilidad",
     "nombre": "Balance y análisis financiero (ratios)",
-    "p": 0.764,
+    "p": 0.766,
     "ccaa": 17
    },
    {
     "id": "marketing",
     "nombre": "Marketing",
-    "p": 0.73,
+    "p": 0.732,
     "ccaa": 17
    },
    {
     "id": "financiacion",
     "nombre": "Inversión y financiación (VAN, TIR, payback)",
-    "p": 0.688,
+    "p": 0.691,
     "ccaa": 17
    },
    {
     "id": "produccion",
     "nombre": "Producción, costes y umbral de rentabilidad",
-    "p": 0.688,
+    "p": 0.691,
     "ccaa": 17
    },
    {
     "id": "modelonegocio",
     "nombre": "Modelo de negocio y emprendimiento (Canvas)",
-    "p": 0.427,
+    "p": 0.425,
     "ccaa": 17
    },
    {
     "id": "organizacion",
     "nombre": "Organización y dirección",
-    "p": 0.358,
+    "p": 0.355,
     "ccaa": 17
    }
   ],
@@ -58554,61 +59473,61 @@
    {
     "id": "platon",
     "nombre": "Platón",
-    "p": 0.561,
+    "p": 0.563,
     "ccaa": 17
    },
    {
     "id": "kant",
     "nombre": "Kant",
-    "p": 0.367,
+    "p": 0.36,
     "ccaa": 17
    },
    {
     "id": "descartes",
     "nombre": "Descartes",
-    "p": 0.346,
+    "p": 0.352,
     "ccaa": 17
    },
    {
     "id": "aristoteles",
     "nombre": "Aristóteles",
-    "p": 0.285,
+    "p": 0.28,
     "ccaa": 17
    },
    {
     "id": "nietzsche",
     "nombre": "Nietzsche",
-    "p": 0.269,
+    "p": 0.268,
     "ccaa": 17
    },
    {
     "id": "empirismo",
     "nombre": "Hume / Locke",
-    "p": 0.264,
+    "p": 0.26,
     "ccaa": 17
    },
    {
     "id": "contemporanea",
     "nombre": "Filosofía contemporánea (Arendt, Wittgenstein, Beauvoir…)",
-    "p": 0.252,
+    "p": 0.245,
     "ccaa": 17
    },
    {
     "id": "medieval",
     "nombre": "Agustín de Hipona / Tomás de Aquino",
-    "p": 0.217,
+    "p": 0.231,
     "ccaa": 17
    },
    {
     "id": "marx",
     "nombre": "Marx",
-    "p": 0.204,
+    "p": 0.203,
     "ccaa": 17
    },
    {
     "id": "ortega",
     "nombre": "Ortega y Gasset",
-    "p": 0.087,
+    "p": 0.089,
     "ccaa": 17
    }
   ],
@@ -58616,37 +59535,37 @@
    {
     "id": "gravitacion",
     "nombre": "Campo gravitatorio",
-    "p": 0.775,
+    "p": 0.779,
     "ccaa": 17
    },
    {
     "id": "ondas",
     "nombre": "Ondas y sonido",
-    "p": 0.672,
+    "p": 0.678,
     "ccaa": 17
    },
    {
     "id": "electrico",
     "nombre": "Campo eléctrico",
-    "p": 0.663,
+    "p": 0.67,
     "ccaa": 17
    },
    {
     "id": "optica",
     "nombre": "Óptica",
-    "p": 0.661,
+    "p": 0.667,
     "ccaa": 17
    },
    {
     "id": "moderna",
     "nombre": "Física moderna (cuántica, nuclear, relatividad)",
-    "p": 0.647,
+    "p": 0.652,
     "ccaa": 17
    },
    {
     "id": "magnetico",
     "nombre": "Campo magnético e inducción",
-    "p": 0.639,
+    "p": 0.645,
     "ccaa": 17
    }
   ],
@@ -58654,37 +59573,37 @@
    {
     "id": "sectores",
     "nombre": "Sectores económicos",
-    "p": 0.635,
+    "p": 0.63,
     "ccaa": 17
    },
    {
     "id": "clima",
     "nombre": "Clima y aguas",
-    "p": 0.604,
+    "p": 0.605,
     "ccaa": 17
    },
    {
     "id": "poblacion",
     "nombre": "Población",
-    "p": 0.501,
+    "p": 0.512,
     "ccaa": 17
    },
    {
     "id": "relieve",
     "nombre": "Relieve",
-    "p": 0.464,
+    "p": 0.454,
     "ccaa": 17
    },
    {
     "id": "territorio",
     "nombre": "Organización territorial y Europa",
-    "p": 0.45,
+    "p": 0.443,
     "ccaa": 17
    },
    {
     "id": "urbano",
     "nombre": "Espacio urbano",
-    "p": 0.44,
+    "p": 0.429,
     "ccaa": 17
    }
   ],
@@ -58692,25 +59611,25 @@
    {
     "id": "minerales",
     "nombre": "Minerales y rocas",
-    "p": 0.761,
+    "p": 0.763,
     "ccaa": 17
    },
    {
     "id": "tectonica",
     "nombre": "Tectónica y riesgos geológicos",
-    "p": 0.757,
+    "p": 0.76,
     "ccaa": 17
    },
    {
     "id": "procesos",
     "nombre": "Procesos externos y mapas geológicos",
-    "p": 0.614,
+    "p": 0.612,
     "ccaa": 17
    },
    {
     "id": "recursos",
     "nombre": "Recursos y medio ambiente",
-    "p": 0.505,
+    "p": 0.512,
     "ccaa": 17
    }
   ],
@@ -58718,25 +59637,25 @@
    {
     "id": "morfosintaxis",
     "nombre": "Morfosintaxis",
-    "p": 0.667,
+    "p": 0.663,
     "ccaa": 17
    },
    {
     "id": "lexico",
     "nombre": "Léxico y etimología",
-    "p": 0.609,
+    "p": 0.618,
     "ccaa": 17
    },
    {
     "id": "traduccion",
     "nombre": "Traducción",
-    "p": 0.568,
+    "p": 0.578,
     "ccaa": 17
    },
    {
     "id": "literatura",
     "nombre": "Literatura griega",
-    "p": 0.503,
+    "p": 0.515,
     "ccaa": 17
    }
   ],
@@ -58744,49 +59663,49 @@
    {
     "id": "guerracivil",
     "nombre": "Guerra Civil (1936-1939)",
-    "p": 0.368,
+    "p": 0.363,
     "ccaa": 17
    },
    {
     "id": "liberalismo",
     "nombre": "Crisis del Antiguo Régimen y liberalismo (1808-1874)",
-    "p": 0.367,
+    "p": 0.361,
     "ccaa": 17
    },
    {
     "id": "franquismo",
     "nombre": "Franquismo (1939-1975)",
-    "p": 0.35,
+    "p": 0.354,
     "ccaa": 17
    },
    {
     "id": "restauracion",
     "nombre": "Restauración (1874-1931)",
-    "p": 0.285,
-    "ccaa": 17
-   },
-   {
-    "id": "transicion",
-    "nombre": "Transición y democracia",
-    "p": 0.251,
+    "p": 0.288,
     "ccaa": 17
    },
    {
     "id": "republica",
     "nombre": "Segunda República (1931-1936)",
-    "p": 0.247,
+    "p": 0.249,
+    "ccaa": 17
+   },
+   {
+    "id": "transicion",
+    "nombre": "Transición y democracia",
+    "p": 0.246,
     "ccaa": 17
    },
    {
     "id": "moderna",
     "nombre": "Monarquía hispánica (Reyes Católicos, Austrias, Borbones s. XVIII)",
-    "p": 0.241,
+    "p": 0.237,
     "ccaa": 17
    },
    {
     "id": "antigua",
     "nombre": "Prehistoria a Edad Media (Al-Ándalus, reinos cristianos)",
-    "p": 0.19,
+    "p": 0.189,
     "ccaa": 17
    }
   ],
@@ -58794,25 +59713,25 @@
    {
     "id": "writing",
     "nombre": "Redacción (opinión, carta, email)",
-    "p": 0.876,
+    "p": 0.877,
     "ccaa": 17
    },
    {
     "id": "reading",
     "nombre": "Comprensión lectora (true/false, preguntas)",
-    "p": 0.625,
+    "p": 0.629,
     "ccaa": 17
    },
    {
     "id": "vocab",
     "nombre": "Vocabulario (sinónimos, definiciones)",
-    "p": 0.601,
+    "p": 0.606,
     "ccaa": 17
    },
    {
     "id": "grammar",
     "nombre": "Gramática (reescritura, transformaciones)",
-    "p": 0.182,
+    "p": 0.179,
     "ccaa": 17
    },
    {
@@ -58826,25 +59745,25 @@
    {
     "id": "traduccion",
     "nombre": "Traducción",
-    "p": 0.631,
+    "p": 0.64,
     "ccaa": 16
    },
    {
     "id": "morfosintaxis",
     "nombre": "Morfosintaxis",
-    "p": 0.587,
+    "p": 0.58,
     "ccaa": 16
    },
    {
     "id": "lexico",
     "nombre": "Léxico y etimología",
-    "p": 0.471,
+    "p": 0.485,
     "ccaa": 16
    },
    {
     "id": "literatura",
     "nombre": "Literatura latina",
-    "p": 0.451,
+    "p": 0.452,
     "ccaa": 16
    }
   ],
@@ -58852,49 +59771,49 @@
    {
     "id": "morfologia",
     "nombre": "Léxico, morfología y semántica",
-    "p": 0.461,
+    "p": 0.467,
     "ccaa": 17
    },
    {
     "id": "sintaxis",
     "nombre": "Sintaxis (oración compuesta)",
-    "p": 0.376,
+    "p": 0.384,
     "ccaa": 17
    },
    {
     "id": "argumentacion",
     "nombre": "Texto argumentativo / opinión",
-    "p": 0.316,
+    "p": 0.325,
     "ccaa": 17
    },
    {
     "id": "comprension",
     "nombre": "Comprensión y resumen del texto",
-    "p": 0.267,
+    "p": 0.277,
     "ccaa": 17
    },
    {
     "id": "novela",
     "nombre": "Novela del siglo XX y actual",
-    "p": 0.238,
+    "p": 0.235,
     "ccaa": 17
    },
    {
     "id": "teatro",
     "nombre": "Teatro del siglo XX",
-    "p": 0.192,
+    "p": 0.194,
     "ccaa": 17
    },
    {
     "id": "lit27",
     "nombre": "Literatura: 27, Lorca, poesía de posguerra",
-    "p": 0.178,
+    "p": 0.176,
     "ccaa": 17
    },
    {
     "id": "lit98",
     "nombre": "Literatura: Modernismo y 98, novecentismo",
-    "p": 0.158,
+    "p": 0.16,
     "ccaa": 17
    }
   ],
@@ -58902,37 +59821,37 @@
    {
     "id": "probabilidad",
     "nombre": "Probabilidad",
-    "p": 0.796,
+    "p": 0.8,
     "ccaa": 17
    },
    {
     "id": "matrices",
     "nombre": "Matrices y sistemas",
-    "p": 0.627,
+    "p": 0.637,
     "ccaa": 17
    },
    {
     "id": "inferencia",
     "nombre": "Inferencia y distribución normal",
-    "p": 0.627,
+    "p": 0.636,
     "ccaa": 17
    },
    {
     "id": "funciones",
     "nombre": "Funciones y derivadas",
-    "p": 0.626,
+    "p": 0.633,
     "ccaa": 17
    },
    {
     "id": "progl",
     "nombre": "Programación lineal",
-    "p": 0.411,
+    "p": 0.424,
     "ccaa": 17
    },
    {
     "id": "integrales",
     "nombre": "Integrales y áreas",
-    "p": 0.254,
+    "p": 0.271,
     "ccaa": 17
    }
   ],
@@ -58940,43 +59859,43 @@
    {
     "id": "geometria",
     "nombre": "Geometría en el espacio",
-    "p": 0.803,
+    "p": 0.807,
     "ccaa": 17
    },
    {
     "id": "probabilidad",
     "nombre": "Probabilidad y distribuciones",
-    "p": 0.775,
+    "p": 0.78,
     "ccaa": 17
    },
    {
     "id": "matrices",
     "nombre": "Matrices y determinantes",
-    "p": 0.731,
+    "p": 0.737,
     "ccaa": 17
    },
    {
     "id": "integrales",
     "nombre": "Integrales y áreas",
-    "p": 0.612,
+    "p": 0.621,
     "ccaa": 17
    },
    {
     "id": "sistemas",
     "nombre": "Sistemas de ecuaciones (discusión)",
-    "p": 0.611,
+    "p": 0.618,
     "ccaa": 17
    },
    {
     "id": "derivadas",
     "nombre": "Derivadas y aplicaciones",
-    "p": 0.608,
+    "p": 0.617,
     "ccaa": 17
    },
    {
     "id": "limites",
     "nombre": "Límites y continuidad",
-    "p": 0.508,
+    "p": 0.515,
     "ccaa": 17
    }
   ],
@@ -58984,49 +59903,49 @@
    {
     "id": "acidobase",
     "nombre": "Ácido-base",
-    "p": 0.819,
+    "p": 0.821,
     "ccaa": 16
    },
    {
     "id": "equilibrio",
     "nombre": "Equilibrio químico y solubilidad",
-    "p": 0.798,
+    "p": 0.801,
     "ccaa": 16
    },
    {
     "id": "organica",
     "nombre": "Química orgánica",
-    "p": 0.782,
+    "p": 0.785,
     "ccaa": 16
    },
    {
     "id": "redox",
     "nombre": "Redox y electroquímica",
-    "p": 0.669,
-    "ccaa": 16
-   },
-   {
-    "id": "termo",
-    "nombre": "Termoquímica y espontaneidad",
-    "p": 0.596,
+    "p": 0.675,
     "ccaa": 16
    },
    {
     "id": "enlace",
     "nombre": "Enlace químico",
-    "p": 0.591,
+    "p": 0.599,
+    "ccaa": 16
+   },
+   {
+    "id": "termo",
+    "nombre": "Termoquímica y espontaneidad",
+    "p": 0.589,
     "ccaa": 16
    },
    {
     "id": "estructura",
     "nombre": "Estructura atómica y tabla periódica",
-    "p": 0.545,
+    "p": 0.549,
     "ccaa": 16
    },
    {
     "id": "cinetica",
     "nombre": "Cinética química",
-    "p": 0.27,
+    "p": 0.289,
     "ccaa": 16
    }
   ],
@@ -59034,37 +59953,37 @@
    {
     "id": "sigloxix",
     "nombre": "Goya y siglo XIX",
-    "p": 0.356,
+    "p": 0.343,
     "ccaa": 16
    },
    {
     "id": "clasico",
     "nombre": "Arte clásico (Grecia y Roma)",
-    "p": 0.334,
+    "p": 0.326,
     "ccaa": 16
    },
    {
     "id": "renacimiento",
     "nombre": "Renacimiento",
-    "p": 0.321,
+    "p": 0.314,
     "ccaa": 16
    },
    {
     "id": "barroco",
     "nombre": "Barroco",
-    "p": 0.295,
+    "p": 0.291,
     "ccaa": 16
    },
    {
     "id": "vanguardias",
     "nombre": "Vanguardias y siglo XX",
-    "p": 0.292,
+    "p": 0.279,
     "ccaa": 16
    },
    {
     "id": "medieval",
     "nombre": "Románico y gótico",
-    "p": 0.284,
+    "p": 0.274,
     "ccaa": 16
    }
   ]
