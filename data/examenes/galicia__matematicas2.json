@@ -1,0 +1,94 @@
+{
+ "ccaa": "galicia",
+ "materia": "matematicas2",
+ "titulo": "PAU 2027 Galicia — Matemáticas II (propuesta original)",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de 4 preguntas y suma 10 puntos. La pregunta 1 es obligatoria. En la pregunta 2, responda únicamente uno de los apartados 2.1 o 2.2. En la pregunta 3, resuelva exactamente dos de los tres apartados; cada uno vale 2 puntos. En la pregunta 4, responda únicamente uno de los apartados 4.1 o 4.2. Justifique todas las respuestas e indique con claridad qué opciones ha elegido.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "probabilidad",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "CONTEXTO. Un centro municipal quiere dimensionar la reserva de agua de un edificio público. El consumo diario, expresado en litros, se modela mediante una distribución normal de media 120 litros y desviación típica 15 litros. Responda obligatoriamente los dos apartados. Para los cálculos, puede utilizar los valores $P(Z\\leq 1)=0.8413$ y $P(Z\\leq 1.28)=0.8997$, donde $Z\\sim\\mathcal{N}(0,1)$. 1.1. (1 punto) Calcule la probabilidad de que el consumo diario supere los 135 litros. 1.2. (1 punto) Determine la capacidad $C$ de reserva para que la probabilidad de que el consumo diario no supere dicha capacidad sea $0.8997$.",
+   "solucion": "Sea $X$ el consumo diario, con $X\\sim\\mathcal{N}(120,15)$.\n\n**1.1.** Estandarizamos el consumo de $135$ litros:\n$$z=\\frac{135-120}{15}=1.$$\nPor tanto, usando el valor proporcionado,\n$$P(X>135)=P(Z>1)=1-P(Z\\leq 1)=1-0.8413=0.1587.$$\nLa probabilidad es $0.1587$, es decir, un $15.87\\%$.\n\n**1.2.** El valor acumulado $0.8997$ corresponde al cuantil $z=1.28$, según los datos proporcionados. Así,\n$$\\frac{C-120}{15}=1.28,$$\ny, despejando,\n$$C=120+1.28\\cdot 15=139.2\\text{ litros}.$$\n",
+   "resultado": "P(X>135)=0,1587; C=139,2 litros.",
+   "criterios": "Total: 2 puntos. 1.1 (1 punto): 0,5 por estandarizar correctamente y obtener z=1; 0,5 por usar el complemento de la probabilidad acumulada y obtener 0,1587. 1.2 (1 punto): 0,5 por identificar que el cuantil acumulado 0,8997 corresponde a z=1,28; 0,5 por deshacer la estandarización y obtener C=139,2 litros. Se aceptan procedimientos equivalentes y resultados con redondeo adecuado.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "matrices",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "ÁLGEBRA. Responda únicamente uno de estos dos apartados: 2.1 o 2.2. 2.1. Sean $A=\\begin{pmatrix}2&1\\\\1&1\\end{pmatrix}$, $B=\\begin{pmatrix}1&2\\\\0&1\\end{pmatrix}$ y $C=\\begin{pmatrix}3&4\\\\1&2\\end{pmatrix}$. 2.1.1. (1 punto) Calcule el determinante y la matriz inversa de $A$. 2.1.2. (1 punto) Calcule la matriz $X$ que verifica $AX+B=C$. 2.2. Discuta, según los valores del parámetro real $m$, el sistema $\\begin{cases}(m-1)x+y+z=1,\\\\x+(m-1)y+z=1,\\\\x+y+(m-1)z=1.\\end{cases}$",
+   "solucion": "Respondo al apartado 2.1.\n\n### 2.1.1. Determinante e inversa de $A$\n\nCalculamos el determinante:\n\n$$\n\\det(A)=\\begin{vmatrix}2&1\\\\1&1\\end{vmatrix}=2\\cdot1-1\\cdot1=1.\n$$\n\nComo $\\det(A)\\ne 0$, la matriz es invertible. Para una matriz $2\\times2$, usamos la fórmula de la inversa:\n\n$$\nA^{-1}=\\frac{1}{\\det(A)}\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}\n=\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}.\n$$\n\n### 2.1.2. Cálculo de $X$\n\nDe $AX+B=C$, restamos $B$ y multiplicamos por la izquierda por $A^{-1}$:\n\n$$\nX=A^{-1}(C-B).\n$$\n\nAsí,\n\n$$\nC-B=\\begin{pmatrix}3&4\\\\1&2\\end{pmatrix}-\\begin{pmatrix}1&2\\\\0&1\\end{pmatrix}\n=\\begin{pmatrix}2&2\\\\1&1\\end{pmatrix},\n$$\n\n$$\nX=\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}\n\\begin{pmatrix}2&2\\\\1&1\\end{pmatrix}\n=\\begin{pmatrix}1&1\\\\0&0\\end{pmatrix}.\n$$\n\nComprobación: $AX+B=\\begin{pmatrix}2&2\\\\1&1\\end{pmatrix}+\\begin{pmatrix}1&2\\\\0&1\\end{pmatrix}=C$.",
+   "resultado": "$\\det(A)=1$, $A^{-1}=\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}$, $X=\\begin{pmatrix}1&1\\\\0&0\\end{pmatrix}$.",
+   "criterios": "2 puntos en total. 2.1.1 (1 punto): 0,5 por calcular correctamente el determinante y 0,5 por obtener la matriz inversa. 2.1.2 (1 punto): 0,5 por despejar correctamente $X=A^{-1}(C-B)$ y 0,5 por efectuar correctamente las operaciones matriciales y dar $X$.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "limites",
+   "puntos": 4,
+   "tipo": "calculo",
+   "enunciado": "ANÁLISIS. Resuelva exactamente dos de los tres apartados siguientes; cada apartado vale 2 puntos. 3.1. Para $x\\neq 4$, considérese la expresión $f(x)=\\dfrac{\\sqrt{x+5}-3}{x-4}$. 3.1.1. Calcule $\\displaystyle\\lim_{x\\to 4}f(x)$. 3.1.2. ¿Qué valor hay que asignar a $f(4)$ para que la función resultante sea continua en $x=4$? 3.2. Una cooperativa estima que, si produce $x$ centenas de unidades, con $0\\leq x\\leq 10$, su beneficio es $P(x)=-2x^2+24x+5$ miles de euros. Determine el nivel de producción que maximiza el beneficio y el beneficio máximo, justificando que se trata de un máximo absoluto en el intervalo. 3.3. La sección transversal de la cubierta de un invernadero queda descrita, entre sus dos apoyos, por la parábola $h(x)=3x(4-x)$, donde $x$ y $h(x)$ se miden en metros y $0\\leq x\\leq 4$. Calcule el área de la sección encerrada entre la parábola y el suelo.",
+   "solucion": "Se resuelven exactamente los apartados 3.1 y 3.2.\n\n### 3.1.1. Límite\n\nRacionalizamos el numerador:\n\n$$\nf(x)=\\frac{\\sqrt{x+5}-3}{x-4}\\cdot\\frac{\\sqrt{x+5}+3}{\\sqrt{x+5}+3}\n=\\frac{x+5-9}{(x-4)(\\sqrt{x+5}+3)}\n=\\frac{1}{\\sqrt{x+5}+3},\\qquad x\\ne 4.\n$$\n\nPor tanto,\n\n$$\n\\lim_{x\\to4}f(x)=\\frac{1}{\\sqrt{9}+3}=\\boxed{\\frac16}.\n$$\n\n### 3.1.2. Valor para la continuidad\n\nPara que la función sea continua en $x=4$, se debe asignar a $f(4)$ el valor del límite:\n\n$$\n\\boxed{f(4)=\\frac16}.\n$$\n\n### 3.2. Maximización del beneficio\n\nLa función de beneficio es $P(x)=-2x^2+24x+5$, con $x\\in[0,10]$. Derivamos:\n\n$$\nP'(x)=-4x+24.\n$$\n\nEl único punto crítico satisface $P'(x)=0$, de donde $x=6$, que pertenece al intervalo. Además, $P''(x)=-4<0$, así que la función es estrictamente cóncava y el punto crítico es un máximo absoluto. También se comprueba comparando con los extremos:\n\n$$\nP(0)=5,\\qquad P(6)=77,\\qquad P(10)=45.\n$$\n\nAsí, el beneficio máximo se alcanza produciendo $x=6$ centenas, es decir, $600$ unidades, y es de $77$ miles de euros:\n\n$$\n\\boxed{x=6\\text{ centenas }(600\\text{ unidades}),\\qquad P_{\\max}=77\\text{ miles de euros}.}\n$$",
+   "resultado": "3.1: límite = 1/6 y f(4) = 1/6. 3.2: producción = 6 centenas (600 unidades) y beneficio máximo = 77 miles de euros.",
+   "criterios": "3.1 (2 puntos): 0,75 por racionalizar y obtener una expresión equivalente para x ≠ 4; 0,5 por calcular correctamente el límite 1/6; 0,75 por indicar que ese es el valor que debe asignarse a f(4) para garantizar continuidad. 3.2 (2 puntos): 0,5 por calcular la derivada y localizar el punto crítico x = 6; 0,5 por justificar que está en [0,10] y que P''(x) < 0; 0,5 por justificar el carácter absoluto del máximo, por concavidad o comparando con los extremos; 0,5 por calcular el beneficio máximo y expresar correctamente las unidades de producción y beneficio.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "geometria",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "GEOMETRÍA EN EL ESPACIO. Responda únicamente uno de estos dos apartados: 4.1 o 4.2. 4.1. Sean $A(1,0,0)$, $B(3,1,-1)$ y $C(0,2,1)$. 4.1.1. (1 punto) Obtenga la ecuación implícita del plano que pasa por $A$, $B$ y $C$. 4.1.2. (1 punto) Calcule la distancia del punto $S(4,-1,5)$ a dicho plano. 4.2. Tres puntos de referencia de una zona de vuelo son $A(1,0,0)$, $B(0,1,0)$ y $C(0,0,1)$. 4.2.1. (1 punto) Compruebe que no están alineados y determine la ecuación del plano que los contiene. 4.2.2. (1 punto) Una trayectoria rectilínea de un dron está dada por $(x,y,z)=(2,2,2)+t(-1,-1,-1)$, con $t\\in\\mathbb{R}$. Calcule el punto en que la trayectoria corta el triángulo de vértices $A$, $B$ y $C$.",
+   "solucion": "Se responde al apartado 4.1.\n\n### 4.1.1. Plano que pasa por $A$, $B$ y $C$\n\nCalculamos dos vectores del plano:\n\n$$\\overrightarrow{AB}=B-A=(2,1,-1),\\qquad \\overrightarrow{AC}=C-A=(-1,2,1).$$\n\nUn vector normal al plano es su producto vectorial:\n\n$$\\overrightarrow{AB}\\times\\overrightarrow{AC}=(3,-1,5).$$\n\nPor tanto, usando el punto $A(1,0,0)$, la ecuación del plano es\n\n$$3(x-1)-y+5z=0,$$\n\no, en forma implícita,\n\n$$3x-y+5z-3=0.$$\n\n### 4.1.2. Distancia de $S$ al plano\n\nLa distancia de $S(4,-1,5)$ al plano $3x-y+5z-3=0$ es\n\n$$d(S,\\pi)=\\frac{|3(4)-(-1)+5(5)-3|}{\\sqrt{3^2+(-1)^2+5^2}}=\\frac{35}{\\sqrt{35}}=\\sqrt{35}\\approx 5.9161.$$\n\n",
+   "resultado": "Plano: $3x-y+5z-3=0$. Distancia: $\\sqrt{35}\\approx 5.9161$.",
+   "criterios": "Total: 2 puntos. 4.1.1 (1 punto): 0,5 por obtener un vector normal correcto, por ejemplo mediante el producto vectorial de dos vectores del plano; 0,5 por plantear y expresar correctamente la ecuación implícita del plano. 4.1.2 (1 punto): 0,5 por aplicar correctamente la fórmula de la distancia de un punto a un plano; 0,5 por sustituir los datos y obtener $\\sqrt{35}$ (aproximadamente $5.9161$).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-24",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "matrices",
+   "p": 0.9
+  },
+  {
+   "id": "geometria",
+   "p": 0.799
+  },
+  {
+   "id": "sistemas",
+   "p": 0.673
+  },
+  {
+   "id": "limites",
+   "p": 0.673
+  },
+  {
+   "id": "derivadas",
+   "p": 0.673
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.673
+  }
+ ],
+ "referencias": [
+  "https://ciug.gal/link/BPoVVZK9kjoZdVj7",
+  "https://ciug.gal/link/smbJ6ECpjEA5ThmY",
+  "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/20.pdf",
+  "https://ciug.gal/PDF/2025/PAU/ordinaria/exames/20.pdf",
+  "https://ciug.gal/link/BPoVVZK9kjoZdVj7",
+  "https://ciug.gal/link/smbJ6ECpjEA5ThmY"
+ ]
+}
