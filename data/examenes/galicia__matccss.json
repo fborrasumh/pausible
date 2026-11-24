@@ -1,0 +1,96 @@
+{
+ "ccaa": "galicia",
+ "materia": "matccss",
+ "titulo": "PAU 2027 · Matemáticas Aplicadas a las Ciencias Sociales II · Galicia",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de 4 preguntas, con una puntuación total de 10 puntos. Las preguntas 1 y 2 son obligatorias y no tienen apartados optativos. En la pregunta 3, responda únicamente uno de los apartados 3.1 o 3.2. En la pregunta 4, responda un apartado de Estadística (4.1 o 4.2) y un apartado de Álgebra (4.3 o 4.4). Se valorará que las respuestas estén justificadas y contextualizadas cuando proceda.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "probabilidad",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "CONTEXTO. Un ayuntamiento estudia ampliar el horario de dos espacios de estudio para jóvenes: el aula municipal y la biblioteca. En una encuesta, el 55 % afirma que utiliza el aula, el 40 % que utiliza la biblioteca y el 25 % que utiliza ambos espacios. El ayuntamiento ampliará el horario si más de dos tercios de las personas encuestadas utilizan al menos uno de los dos espacios. Sean $A$ el suceso «utiliza el aula» y $B$ el suceso «utiliza la biblioteca». Responda los dos apartados. 1.1. Calcule $P(A\\cup B)$ y determine si, según el criterio indicado, se ampliará el horario. 1.2. Si se elige una persona que no utiliza el aula, calcule la probabilidad de que utilice la biblioteca.",
+   "solucion": "### 1.1. Probabilidad de utilizar al menos uno de los espacios\nAplicamos la regla de la unión:\n\n$$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)=0{,}55+0{,}40-0{,}25=0{,}70.$$\n\nPor tanto, el $70\\%$ de las personas utiliza al menos uno de los espacios. Como\n\n$$0{,}70>\\frac{2}{3}\\approx 0{,}6667,$$\n\nse cumple el criterio del ayuntamiento y **se ampliará el horario**.\n\n### 1.2. Probabilidad de que utilice la biblioteca si no utiliza el aula\nUsamos la definición de probabilidad condicionada y que $B=(B\\cap A)\\cup(B\\cap A^c)$, unión disjunta:\n\n$$P(B\\mid A^c)=\\frac{P(B\\cap A^c)}{P(A^c)}=\\frac{P(B)-P(A\\cap B)}{1-P(A)}=\\frac{0{,}40-0{,}25}{1-0{,}55}=\\frac{0{,}15}{0{,}45}=\\frac{1}{3}.$$\n\nLa probabilidad pedida es $\\frac{1}{3}$, aproximadamente el $33{,}33\\%$.",
+   "resultado": "$P(A\\cup B)=0{,}70$; sí, se ampliará el horario; $P(B\\mid A^c)=\\frac{1}{3}$.",
+   "criterios": "Puntuación total: 2 puntos.\n- Apartado 1.1 (1 punto): 0,5 por aplicar correctamente la regla de la unión; 0,25 por obtener $P(A\\cup B)=0{,}70$; 0,25 por compararlo con $\\frac{2}{3}$ y concluir que sí se ampliará el horario.\n- Apartado 1.2 (1 punto): 0,25 por identificar $P(A^c)=1-P(A)$; 0,35 por calcular $P(B\\cap A^c)=P(B)-P(A\\cap B)$; 0,4 por aplicar la probabilidad condicionada y obtener $\\frac{1}{3}$.\nSe admitirán procedimientos equivalentes correctamente justificados.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "progl",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "CONTEXTO. Una cooperativa prepara dos tipos de kits escolares. Las variables $x$ e $y$ representan, respectivamente, los lotes de 100 kits de cada tipo que se producirán. Por la disponibilidad de cartón y el tiempo de trabajo, el plan debe cumplir $x\\geq 0$, $y\\geq 0$, $x+y\\leq 6$ y $2x+y\\leq 8$. La contribución al beneficio es de 300 euros por lote del primer tipo y 200 euros por lote del segundo tipo, por lo que el beneficio, en cientos de euros, es $f(x,y)=3x+2y$. En este modelo se admiten valores reales para $x$ e $y$. Responda los dos apartados. 2.1. Represente gráficamente la región factible y calcule sus vértices. (1 punto) 2.2. Determine los valores máximo y mínimo de $f(x,y)$ en dicha región e indique en qué puntos se alcanzan. (1 punto)",
+   "solucion": "### 2.1. Región factible y vértices\nLas rectas que delimitan la región son $x+y=6$, con interceptos $(6,0)$ y $(0,6)$, y $2x+y=8$, con interceptos $(4,0)$ y $(0,8)$. La intersección de ambas se obtiene resolviendo el sistema:\n$$\n\\begin{cases}\nx+y=6,\\\\\n2x+y=8,\n\\end{cases}\n\\qquad x=2,\\quad y=4.\n$$\nEn el primer cuadrante, el eje $x$ queda limitado por $(4,0)$ y el eje $y$ por $(0,6)$. Por tanto, se representa la región bajo ambas rectas, uniendo en orden los vértices $(0,0)$, $(4,0)$, $(2,4)$ y $(0,6)$.\n\n### 2.2. Máximo y mínimo\nUsamos una combinación de las restricciones para acotar directamente la función, sin depender solo de evaluar los vértices. Como\n$$\nf(x,y)=(x+y)+(2x+y),\n$$\ny en la región factible $x+y\\leq 6$ y $2x+y\\leq 8$, se tiene\n$$\nf(x,y)\\leq 6+8=14.\n$$\nLa igualdad se alcanza cuando las dos restricciones son igualdades, es decir, en su intersección $(2,4)$. En ese punto $f(2,4)=14$.\n\nAdemás, como $x\\geq 0$ e $y\\geq 0$, $f(x,y)=3x+2y\\geq 0$. La igualdad se alcanza en $(0,0)$, que es factible. Por tanto, el mínimo es $0$ y el máximo es $14$, en cientos de euros; corresponden a $0$ euros y $1400$ euros, respectivamente.\n\n**Comprobación:** los valores de $f$ en los vértices $(0,0)$, $(4,0)$, $(2,4)$ y $(0,6)$ son, respectivamente, $0$, $12$, $14$ y $12$. Confirman el mínimo y el máximo obtenidos; además, las cotas anteriores prueban que no hay valores fuera de ese intervalo.",
+   "resultado": "Vértices: $(0,0)$, $(4,0)$, $(2,4)$ y $(0,6)$. Mínimo: $f=0$ en $(0,0)$. Máximo: $f=14$ en $(2,4)$ (1400 euros).",
+   "criterios": "Total: 2 puntos. **2.1 (1 punto):** 0,25 por identificar y representar correctamente las rectas frontera; 0,25 por hallar la intersección $(2,4)$; 0,50 por dibujar la región factible e indicar correctamente sus cuatro vértices. **2.2 (1 punto):** 0,25 por justificar $f\\geq 0$ y localizar el mínimo en $(0,0)$; 0,50 por obtener la cota $f=(x+y)+(2x+y)\\leq 14$; 0,25 por justificar que la igualdad se alcanza en el punto factible $(2,4)$ e indicar el máximo.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "funciones",
+   "puntos": 3,
+   "tipo": "abierta",
+   "enunciado": "Responda únicamente uno de los dos apartados siguientes. 3.1. CONTEXTO. El beneficio diario de una pequeña empresa, en cientos de euros, se modeliza mediante $B(x)=-x^2+12x-20$, donde $x$ es el número de miles de unidades vendidas al día y $0\\leq x\\leq 10$. Responda estos tres subapartados: 3.1.1. Determine los intervalos de aumento y disminución de $B$. (1 punto) 3.1.2. Calcule el beneficio máximo y el número de unidades vendidas necesario para alcanzarlo. Contextualice la respuesta. (1 punto) 3.1.3. Determine para qué valores de $x$ obtiene la empresa un beneficio positivo. (1 punto) 3.2. CONTEXTO. Durante las primeras cuatro horas de funcionamiento de una instalación solar, su potencia instantánea, en megavatios, viene dada por $P(t)=3t(4-t)$, donde $t$ es el tiempo en horas y $0\\leq t\\leq 4$. Responda estos tres subapartados: 3.2.1. Determine la potencia máxima y el momento en que se alcanza. (1 punto) 3.2.2. Escriba la integral definida que permite calcular la energía producida durante las cuatro horas. (1 punto) 3.2.3. Calcule dicha energía y exprésela en megavatios hora. (1 punto)",
+   "solucion": "Resuelvo únicamente el apartado 3.1. Uso un método algebraico basado en completar el cuadrado, en lugar de derivar.\n\n### 3.1.1. Intervalos de aumento y disminución\n\nCompletamos el cuadrado:\n\n$B(x)=-x^2+12x-20=-(x^2-12x+36)+16=-(x-6)^2+16$.\n\nEl vértice está en $x=6$, que pertenece al dominio $[0,10]$. Si $x$ aumenta desde $0$ hasta $6$, la distancia $|x-6|$ disminuye y, por tanto, también disminuye $(x-6)^2$; al estar precedido por un signo negativo, $B(x)$ aumenta. Desde $x=6$ hasta $x=10$, la distancia $|x-6|$ aumenta y $B(x)$ disminuye.\n\nAsí, $B$ es creciente en $[0,6]$ y decreciente en $[6,10]$ (estrictamente en sus interiores).\n\n### 3.1.2. Beneficio máximo y ventas necesarias\n\nLa expresión $B(x)=-(x-6)^2+16$ alcanza su máximo cuando $(x-6)^2=0$, es decir, cuando $x=6$. El beneficio máximo es $B(6)=16$ cientos de euros, o sea, $1600$ euros. Como $x$ representa miles de unidades, se alcanza vendiendo $6000$ unidades al día.\n\n### 3.1.3. Beneficio positivo\n\nResolvemos la desigualdad:\n\n$B(x)>0 \\iff -(x-6)^2+16>0 \\iff (x-6)^2<16 \\iff |x-6|<4 \\iff 2<x<10$.\n\nAl intersectar con el dominio $[0,10]$, queda el intervalo $(2,10)$. Por tanto, la empresa obtiene beneficio positivo cuando vende más de $2000$ y menos de $10000$ unidades al día.\n\n### Comprobación\n\n$B(2)=0$, $B(10)=0$ y $B(6)=16$. Esto confirma que el beneficio es positivo entre las dos raíces y que su máximo se alcanza en $x=6$.",
+   "resultado": "Aumenta en [0,6] y disminuye en [6,10]; el beneficio máximo es 1600 € al vender 6000 unidades; el beneficio es positivo para 2<x<10.",
+   "criterios": "3 puntos en total. 3.1.1 (1 punto): 0,5 por identificar el vértice o justificar el comportamiento mediante la forma canónica y 0,5 por indicar correctamente los intervalos de aumento y disminución. 3.1.2 (1 punto): 0,5 por localizar y calcular el máximo; 0,5 por convertirlo a 1600 euros y contextualizar $x=6$ como 6000 unidades. 3.1.3 (1 punto): 0,75 por plantear y resolver correctamente $B(x)>0$; 0,25 por aplicar el dominio e interpretar el intervalo, excluyendo los extremos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "inferencia",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Responda un apartado de Estadística, 4.1 o 4.2 (1,5 puntos), y un apartado de Álgebra, 4.3 o 4.4 (1,5 puntos). 4.1. El tiempo de espera, en minutos, para recibir atención en un servicio se distribuye normalmente y tiene desviación típica conocida de 8 minutos. En una muestra aleatoria de 64 personas, el tiempo medio de espera fue de 43 minutos. Obtenga un intervalo de confianza del 95 % para el tiempo medio de espera de toda la población. Para resolver este apartado puede utilizar $P(Z>1{,}96)=0{,}025$, donde $Z$ sigue una distribución normal estándar. 4.2. El 80 % de las personas que reciben una notificación de una campaña municipal la lee. Se seleccionan al azar 4 personas, suponiendo que sus respuestas son independientes. Calcule: 4.2.1. La probabilidad de que exactamente 3 lean la notificación. (0,75 puntos) 4.2.2. La probabilidad de que al menos una la lea. (0,75 puntos) 4.3. Sean $A=\\begin{pmatrix}2&1\\\\1&1\\end{pmatrix}$ y $C=\\begin{pmatrix}5&-1\\\\3&0\\end{pmatrix}$. Calcule $A^{-1}$ y, a continuación, despeje y calcule $X$ en la ecuación matricial $AX=C$. (1,5 puntos) 4.4. Para preparar kits de semillas, una entidad utiliza dos tipos de cajas. Una caja del tipo A contiene 3 sobres de semillas y 2 etiquetas; una del tipo B contiene 2 sobres de semillas y 5 etiquetas. Para completar un pedido se utilizaron 22 sobres de semillas y 33 etiquetas. Formule el sistema de ecuaciones que modeliza la situación y calcule cuántas cajas de cada tipo se utilizaron. (1,5 puntos)",
+   "solucion": "Se resuelven los apartados 4.1 y 4.3, uno de cada bloque.\n\n### 4.1. Intervalo de confianza del 95 %\n\nComo la desviación típica poblacional es conocida, el intervalo de confianza para la media es $\\bar{x}\\pm z_{0,975}\\dfrac{\\sigma}{\\sqrt{n}}$. Con los datos del enunciado, $\\bar{x}=43$, $\\sigma=8$, $n=64$ y $z_{0,975}=1{,}96$.\n\nEl error típico es $\\dfrac{8}{\\sqrt{64}}=1$ minuto, por lo que el margen de error es $1{,}96\\cdot1=1{,}96$ minutos. Así,\n\n$$43\\pm1{,}96=[41{,}04,\\ 44{,}96].$$\n\nEl intervalo de confianza del 95 % para el tiempo medio poblacional es $[41{,}04,\\ 44{,}96]$ minutos.\n\n### 4.3. Inversa y ecuación matricial\n\nPara $A=\\begin{pmatrix}2&1\\\\1&1\\end{pmatrix}$, $\\det(A)=2\\cdot1-1\\cdot1=1$. Por tanto,\n\n$$A^{-1}=\\frac{1}{1}\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}=\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}.$$\n\nMultiplicando $AX=C$ por la izquierda por $A^{-1}$, se obtiene $X=A^{-1}C$. Entonces,\n\n$$X=\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}\\begin{pmatrix}5&-1\\\\3&0\\end{pmatrix}=\\begin{pmatrix}2&-1\\\\1&1\\end{pmatrix}.$$\n\nPor tanto, $A^{-1}=\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}$ y $X=\\begin{pmatrix}2&-1\\\\1&1\\end{pmatrix}$.",
+   "resultado": "IC del 95 %: [41,04; 44,96] min; A⁻¹ = [[1, −1], [−1, 2]]; X = [[2, −1], [1, 1]].",
+   "criterios": "Puntuación total: 3 puntos. Apartado 4.1 (1,5 puntos): identificar y aplicar correctamente la expresión del intervalo con desviación típica conocida y valor crítico 1,96 (0,5); calcular el error típico y el margen de error (0,5); dar e interpretar correctamente los dos extremos del intervalo en minutos (0,5). Apartado 4.3 (1,5 puntos): calcular correctamente el determinante de A (0,25); obtener la inversa correcta (0,5); despejar X=A⁻¹C (0,25); efectuar correctamente el producto matricial y presentar X (0,5).",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  }
+ ],
+ "generado": "2026-11-24",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "matrices",
+   "p": 0.605
+  },
+  {
+   "id": "progl",
+   "p": 0.605
+  },
+  {
+   "id": "probabilidad",
+   "p": 0.605
+  },
+  {
+   "id": "inferencia",
+   "p": 0.491
+  },
+  {
+   "id": "funciones",
+   "p": 0.385
+  },
+  {
+   "id": "integrales",
+   "p": 0.154
+  }
+ ],
+ "referencias": [
+  "https://ciug.gal/link/7vujfW2MhCdfaiyp",
+  "https://ciug.gal/link/7kSYHtmr5JpMCVDD",
+  "https://ciug.gal/PDF/2025/PAU/extraordinaria/exames/40.pdf",
+  "https://ciug.gal/PDF/2025/PAU/ordinaria/exames/40.pdf",
+  "https://ciug.gal/link/7kSYHtmr5JpMCVDD",
+  "https://ciug.gal/link/7vujfW2MhCdfaiyp",
+  "https://ciug.gal/link/9NfSAaJCDAQ5b97Q",
+  "https://ciug.gal/link/QfmGJfF3mwe7L6uQ"
+ ]
+}
