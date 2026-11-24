@@ -1,0 +1,167 @@
+{
+ "ccaa": "castillalamancha",
+ "materia": "fisica",
+ "titulo": "Prueba de acceso a la Universidad (PAU) 2027 — Física — Castilla-La Mancha",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro apartados y se califica sobre 10 puntos. Apartado A (2 puntos): se deben realizar A1 y A2, de 1 punto cada una. Apartado B (3 puntos): B1 es obligatoria y vale 0,5 puntos; se debe elegir una sola pregunta entre B2.A y B2.B, que valen 2,5 puntos cada una. Apartado C (3 puntos): C1 es obligatoria y vale 0,5 puntos; se debe elegir una sola pregunta entre C2.A y C2.B, que valen 2,5 puntos cada una. Apartado D (2 puntos): se debe elegir una sola pregunta entre D1 y D2. Indica claramente las preguntas elegidas; si respondes a más opciones de las requeridas, solo se corregirán las que correspondan por orden alfabético. Se valorarán la aplicación de los principios físicos, la claridad y el orden de la resolución, y el uso de diagramas cuando proceda. Se permite el uso de calculadora no programable ni comunicable.",
+ "preguntas": [
+  {
+   "n": "A1",
+   "tema": "gravitacion",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "Un orbitador de comunicaciones describe una órbita circular alrededor de la Luna a una altura igual a su radio. Para un instrumento de masa $m=120\\,\\mathrm{kg}$ situado en el orbitador, calcula la intensidad del campo gravitatorio a esa altura y la fuerza gravitatoria que experimenta. Expón las expresiones utilizadas. Datos: masa lunar $M_L=7{,}35\\times10^{22}\\,\\mathrm{kg}$, radio lunar $R_L=1{,}74\\times10^6\\,\\mathrm{m}$ y constante de gravitación universal $G=6{,}67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}$.",
+   "solucion": "La altura sobre la superficie lunar es $h=R_L$, por lo que la distancia del instrumento al centro de la Luna es $r=R_L+h=2R_L$.\n\nLa intensidad del campo gravitatorio a esa distancia es\n$$g(r)=\\frac{GM_L}{r^2}=\\frac{GM_L}{(2R_L)^2}=\\frac{(6{,}67\\times10^{-11})(7{,}35\\times10^{22})}{(2\\cdot1{,}74\\times10^6)^2}=0{,}4048\\ \\mathrm{N\\,kg^{-1}}.$$\n\nLa fuerza gravitatoria sobre el instrumento tiene módulo\n$$F_g=mg=(120)(0{,}4048)=48{,}58\\ \\mathrm{N}.$$\n\nAmbas magnitudes están dirigidas hacia el centro de la Luna. Con tres cifras significativas: $g=0{,}405\\ \\mathrm{N\\,kg^{-1}}$ y $F_g=48{,}6\\ \\mathrm{N}$.",
+   "resultado": "g = 0,405 N·kg⁻¹; F_g = 48,6 N, dirigida hacia el centro de la Luna.",
+   "criterios": "Total: 1 punto. Identificación de la distancia al centro, r = R_L + h = 2R_L: 0,20 puntos. Expresión g = GM_L/r², sustitución y valor numérico con unidades: 0,40 puntos. Expresión F_g = mg, sustitución y valor numérico con unidades: 0,30 puntos. Indicación correcta de la dirección hacia el centro lunar: 0,10 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "A2",
+   "tema": "gravitacion",
+   "puntos": 1,
+   "tipo": "calculo",
+   "enunciado": "En una propuesta para una misión lunar, un ascensor espacial ideal transporta lentamente un módulo de $120\\,\\mathrm{kg}$ desde la superficie lunar hasta una plataforma situada a una altura $h=R_L$. El módulo parte y termina en reposo. Despreciando el rozamiento, calcula el trabajo realizado por el mecanismo. Explica por qué puede relacionarse con la variación de energía potencial gravitatoria. Datos: $M_L=7{,}35\\times10^{22}\\,\\mathrm{kg}$, $R_L=1{,}74\\times10^6\\,\\mathrm{m}$ y $G=6{,}67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}$.",
+   "solucion": "La energía potencial gravitatoria de un módulo a distancia $r$ del centro lunar es $U(r)=-\\frac{GM_Lm}{r}$. En la superficie, $r_i=R_L$; al elevarlo una altura $h=R_L$, la distancia final al centro es $r_f=R_L+h=2R_L$. Por tanto,\n\n$$\n\\Delta U=U_f-U_i=-\\frac{GM_Lm}{2R_L}+\\frac{GM_Lm}{R_L}=\\frac{GM_Lm}{2R_L}.\n$$\n\nComo el módulo parte y termina en reposo, $\\Delta K=0$. Al despreciar el rozamiento, el trabajo del mecanismo y el de la gravedad suman el cambio de energía cinética: $W_{\\mathrm{mec}}+W_g=0$. Además, al ser la gravedad una fuerza conservativa, $W_g=-\\Delta U$. Así, $W_{\\mathrm{mec}}=\\Delta U$.\n\nSustituyendo los datos:\n\n$$\nW_{\\mathrm{mec}}=\\frac{(6{,}67\\times10^{-11})(7{,}35\\times10^{22})(120)}{2(1{,}74\\times10^6)}=1{,}6905\\times10^8\\ \\mathrm{J}.\n$$\n\nEl mecanismo realiza trabajo positivo porque eleva el módulo contra la atracción gravitatoria.",
+   "resultado": "El trabajo realizado por el mecanismo es $1{,}6905\\times10^8\\ \\mathrm{J}$.",
+   "criterios": "Total: 1,00 punto. Identificar que la distancia final al centro lunar es $2R_L$ y plantear correctamente el cambio de energía potencial, 0,35 puntos. Relacionar el trabajo del mecanismo con dicho cambio, justificándolo mediante $\\Delta K=0$, ausencia de rozamiento y $W_g=-\\Delta U$, 0,35 puntos. Sustituir correctamente los datos y obtener el valor numérico con unidades, 0,30 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "B1",
+   "tema": "electrico",
+   "puntos": 0.5,
+   "tipo": "calculo",
+   "enunciado": "En una calibración electrostática se desplaza una carga $q=+2{,}0\\,\\mu\\mathrm{C}$ desde un punto de potencial $V_i=150\\,\\mathrm{V}$ hasta otro de potencial $V_f=450\\,\\mathrm{V}$. Calcula la variación de energía potencial eléctrica de la carga y el trabajo realizado por el campo eléctrico. Justifica el signo de ambos resultados.",
+   "solucion": "La variación de energía potencial eléctrica es\n$$\\Delta U=q(V_f-V_i).$$\nCon $q=2{,}0\\times10^{-6}\\,\\mathrm{C}$ y $V_f-V_i=450-150=300\\,\\mathrm{V}$:\n$$\\Delta U=(2{,}0\\times10^{-6})(300)=6{,}0\\times10^{-4}\\,\\mathrm{J}.$$\nEl trabajo realizado por el campo eléctrico es el opuesto de la variación de energía potencial:\n$$W_{\\mathrm{campo}}=-\\Delta U=-6{,}0\\times10^{-4}\\,\\mathrm{J}.$$\nLa carga positiva se desplaza a un potencial mayor, por lo que aumenta su energía potencial ($\\Delta U>0$). En consecuencia, el campo realiza trabajo negativo ($W_{\\mathrm{campo}}<0$).",
+   "resultado": "$\\Delta U=+6{,}0\\times10^{-4}\\,\\mathrm{J}$; $W_{\\mathrm{campo}}=-6{,}0\\times10^{-4}\\,\\mathrm{J}$.",
+   "criterios": "Total: 0,5 puntos. 0,2 puntos por plantear y calcular correctamente $\\Delta U=q(V_f-V_i)=+6{,}0\\times10^{-4}\\,\\mathrm{J}$. 0,2 puntos por usar $W_{\\mathrm{campo}}=-\\Delta U$ y obtener $-6{,}0\\times10^{-4}\\,\\mathrm{J}$. 0,1 puntos por justificar correctamente los signos de ambos resultados.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "B2.A",
+   "tema": "electrico",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "En un sensor electrostático se fijan dos cargas puntuales sobre el eje $x$: $q_1=+4{,}0\\,\\mathrm{nC}$ en $(-0{,}30\\,\\mathrm{m},0)$ y $q_2=-4{,}0\\,\\mathrm{nC}$ en $(+0{,}30\\,\\mathrm{m},0)$. Se pide: a) (1,25 puntos) Calcula el potencial eléctrico y el campo eléctrico en el origen, indicando la dirección y el sentido del campo. b) (1,25 puntos) Determina la fuerza eléctrica que experimenta una carga de prueba $q_0=+2{,}0\\,\\mathrm{nC}$ situada en el origen. Dato: $K=9{,}0\\times10^9\\,\\mathrm{N\\,m^2\\,C^{-2}}$.",
+   "solucion": "### a) Potencial y campo eléctrico en el origen\n\nLa distancia del origen a cada carga es $r_1=r_2=0{,}30\\,\\mathrm{m}$. El potencial es una magnitud escalar, por lo que se suman directamente las contribuciones:\n\n$$V(0)=K\\left(\\frac{q_1}{r_1}+\\frac{q_2}{r_2}\\right)=9{,}0\\times10^9\\left(\\frac{4{,}0\\times10^{-9}}{0{,}30}-\\frac{4{,}0\\times10^{-9}}{0{,}30}\\right)=0\\,\\mathrm{V}.$$\n\nEl campo creado por una carga puntual cumple $\\vec E_i=Kq_i\\frac{\\vec r-\\vec r_i}{|\\vec r-\\vec r_i|^3}$. En el origen, el campo de $q_1>0$ apunta alejándose de $q_1$, hacia $+x$; el campo de $q_2<0$ apunta hacia $q_2$, también hacia $+x$. Cada contribución tiene módulo\n\n$$E_1=E_2=K\\frac{|q_i|}{(0{,}30)^2}=9{,}0\\times10^9\\frac{4{,}0\\times10^{-9}}{0{,}09}=400\\,\\mathrm{N/C}.$$\n\nPor tanto,\n\n$$\\vec E(0)=(400+400)\\,\\mathrm{N/C}\\text{ hacia }+x=800\\,\\mathrm{N/C}\\text{ hacia }+x.$$\n\n### b) Fuerza sobre la carga de prueba\n\nLa fuerza eléctrica es $\\vec F=q_0\\vec E$. Como $q_0$ es positiva, la fuerza tiene el mismo sentido que el campo:\n\n$$\\vec F=(2{,}0\\times10^{-9})(800)\\,\\mathrm{N}=1{,}6\\times10^{-6}\\,\\mathrm{N}\\text{ hacia }+x.$$\n",
+   "resultado": "V(0)=0 V; campo eléctrico: 800 N/C hacia +x; fuerza sobre q₀: 1,6×10⁻⁶ N hacia +x.",
+   "criterios": "a) (1,25 puntos): cálculo del potencial como suma escalar y obtención de 0 V por cancelación (0,50); cálculo correcto del módulo de cada contribución al campo (0,50); suma vectorial, dirección y sentido hacia +x (0,25). b) (1,25 puntos): aplicación de la relación vectorial entre fuerza y campo (0,50); cálculo del módulo, 1,6×10⁻⁶ N (0,50); dirección y sentido hacia +x y unidad correcta (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "B2.B",
+   "tema": "magnetico",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Una bobina plana de $N=50$ espiras circulares, radio $r=10\\,\\mathrm{cm}$ y resistencia total $R=2{,}0\\,\\Omega$ se utiliza como detector de variaciones de campo magnético. Su plano es perpendicular a un campo uniforme saliente del plano de la bobina, cuyo módulo aumenta linealmente de $0{,}20\\,\\mathrm{T}$ a $0{,}80\\,\\mathrm{T}$ en $0{,}30\\,\\mathrm{s}$. Se pide: a) (1,25 puntos) Calcula el módulo de la fuerza electromotriz inducida durante ese intervalo. b) (1,25 puntos) Calcula la intensidad de corriente inducida e indica su sentido, observado desde el lado hacia el que sale el campo externo. Justifica el sentido mediante la ley de Lenz.",
+   "solucion": "### a) Fuerza electromotriz inducida\n\nEl área de cada espira circular es\n\n$$A=\\pi r^2=\\pi(0{,}10\\,\\mathrm{m})^2=0{,}01\\pi\\,\\mathrm{m^2}.$$\n\nComo el campo aumenta linealmente, su variación por unidad de tiempo es\n\n$$\\left|\\frac{\\Delta B}{\\Delta t}\\right|=\\frac{0{,}80-0{,}20}{0{,}30}=2{,}0\\,\\mathrm{T/s}.$$\n\nPor la ley de Faraday, el módulo de la fuerza electromotriz inducida en una bobina de $N$ espiras es\n\n$$|\\mathcal{E}|=N A\\left|\\frac{\\Delta B}{\\Delta t}\\right|=50(0{,}01\\pi)(2{,}0)=\\pi\\,\\mathrm{V}\\approx 3{,}14\\,\\mathrm{V}.$$\n\n### b) Intensidad y sentido de la corriente\n\nAplicando la ley de Ohm a la bobina,\n\n$$I=\\frac{|\\mathcal{E}|}{R}=\\frac{\\pi}{2{,}0}\\,\\mathrm{A}\\approx 1{,}57\\,\\mathrm{A}.$$\n\nEl campo externo sale del plano de la bobina y está aumentando. Según la ley de Lenz, el campo magnético creado por la corriente inducida debe oponerse a ese aumento; por tanto, apunta hacia dentro del plano. Aplicando la regla de la mano derecha, visto desde el lado hacia el que sale el campo externo, la corriente inducida circula en sentido horario.",
+   "resultado": "|ε| = π V ≈ 3,14 V; I = π/2 A ≈ 1,57 A, en sentido horario visto desde el lado hacia el que sale el campo externo.",
+   "criterios": "a) 1,25 puntos: cálculo correcto del área de una espira y de la variación temporal del campo (0,50); aplicación de la ley de Faraday incluyendo las 50 espiras (0,50); resultado numérico con unidades (0,25). b) 1,25 puntos: cálculo de la intensidad mediante la ley de Ohm (0,50); explicación mediante la ley de Lenz de que el campo inducido apunta hacia dentro del plano (0,50); determinación correcta del sentido horario usando la regla de la mano derecha y especificando desde qué lado se observa (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "C1",
+   "tema": "optica",
+   "puntos": 0.5,
+   "tipo": "abierta",
+   "enunciado": "Un técnico analiza una lente divergente para corregir un dispositivo óptico. Realiza un trazado de rayos para un objeto real situado delante de la lente y describe las características de la imagen formada. Explica las reglas de trazado empleadas.",
+   "solucion": "### Trazado de rayos\n\nSe dibuja el eje principal, la lente divergente y sus focos, uno a cada lado. Desde la punta del objeto se pueden trazar, entre otros, estos rayos:\n\n1. Un rayo paralelo al eje principal emerge divergente; su prolongación hacia atrás pasa por el foco situado en el mismo lado que el objeto.\n2. Un rayo que atraviesa el centro óptico de la lente continúa sin desviarse.\n3. Como regla alternativa, un rayo dirigido hacia el foco del lado opuesto emerge paralelo al eje principal.\n\nLos rayos refractados divergen, así que se prolongan hacia atrás. La intersección de esas prolongaciones determina la imagen: es **virtual**, está **en el mismo lado de la lente que el objeto**, **entre la lente y el foco**, es **derecha** y **menor** que el objeto.\n\n### Comprobación mediante la ecuación de la lente\n\nCon la convención de objeto real $s_o>0$, imagen virtual $s_i<0$ y distancia focal de lente divergente $f<0$:\n\n$$\\frac{1}{f}=\\frac{1}{s_o}+\\frac{1}{s_i}$$\n\nDe aquí, $\\frac{1}{s_i}=\\frac{1}{f}-\\frac{1}{s_o}<0$, por lo que la imagen es virtual. Además, si $f=-F$ con $F>0$, entonces $s_i=-\\frac{F s_o}{F+s_o}$; por tanto, $|s_i|<F$ y queda entre la lente y su foco. El aumento es $m=-\\frac{s_i}{s_o}=\\frac{F}{F+s_o}$, de modo que $0<m<1$: la imagen es derecha y reducida. Esto confirma el trazado.",
+   "resultado": "Imagen virtual, derecha y reducida, situada entre la lente divergente y su foco, en el mismo lado que el objeto.",
+   "criterios": "Puntuación total: 0,5 puntos. Reglas de trazado correctas (0,15); construcción mediante prolongaciones y carácter virtual (0,10); posición y orientación de la imagen (0,10); tamaño reducido y comprobación coherente con la ecuación de la lente y el aumento (0,15).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "C2.A",
+   "tema": "ondas",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "En un medio transparente, el campo eléctrico de una onda electromagnética que se propaga a lo largo del eje $y$ viene dado por $E(y,t)=80\\cos\\!\\left(4\\pi\\times10^6y+0{,}8\\pi\\times10^{15}t\\right)\\,\\mathrm{V/m}$, con $y$ en metros y $t$ en segundos. Se pide: a) (1,25 puntos) Determina la frecuencia, la longitud de onda y el sentido de propagación. b) (1,25 puntos) Calcula la velocidad de propagación y el índice de refracción del medio. Dato: velocidad de la luz en el vacío, $c=3{,}0\\times10^8\\,\\mathrm{m/s}$.",
+   "solucion": "### a) Frecuencia, longitud de onda y sentido de propagación\n\nComparando con la forma $E(y,t)=E_0\\cos(ky+\\omega t)$, se obtiene $k=4\\pi\\times10^6\\ \\mathrm{rad/m}$ y $\\omega=0{,}8\\pi\\times10^{15}\\ \\mathrm{rad/s}$.\n\nLa frecuencia es:\n$$\nf=\\frac{\\omega}{2\\pi}=\\frac{0{,}8\\pi\\times10^{15}}{2\\pi}=4{,}0\\times10^{14}\\ \\mathrm{Hz}.\n$$\n\nLa longitud de onda es:\n$$\n\\lambda=\\frac{2\\pi}{k}=\\frac{2\\pi}{4\\pi\\times10^6}=5{,}0\\times10^{-7}\\ \\mathrm{m}.\n$$\n\nPara determinar el sentido, imponemos fase constante: $ky+\\omega t=\\mathrm{constante}$. Entonces $y=-(\\omega/k)t+\\mathrm{constante}$, por lo que la onda se propaga en el sentido negativo del eje $y$.\n\n### b) Velocidad de propagación e índice de refracción\n\nEl módulo de la velocidad de propagación es:\n$$\nv=\\frac{\\omega}{k}=\\frac{0{,}8\\pi\\times10^{15}}{4\\pi\\times10^6}=2{,}0\\times10^8\\ \\mathrm{m/s}.\n$$\n\nPor definición, el índice de refracción del medio es:\n$$\nn=\\frac{c}{v}=\\frac{3{,}0\\times10^8}{2{,}0\\times10^8}=1{,}5.\n$$",
+   "resultado": "f=4,0×10^14 Hz; λ=5,0×10^-7 m; propagación en el sentido −y; v=2,0×10^8 m/s; n=1,5.",
+   "criterios": "Total: 2,5 puntos. a) 1,25 puntos: identificación correcta de k y ω y cálculo de la frecuencia (0,40); cálculo de la longitud de onda (0,40); deducción justificada del sentido de propagación hacia −y a partir del signo de la fase (0,45). b) 1,25 puntos: cálculo de la velocidad de propagación (0,70); cálculo del índice de refracción usando n=c/v (0,55). Se valoran el planteamiento, las unidades y el resultado; pueden asignarse puntos parciales por errores aritméticos si el procedimiento es correcto.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "C2.B",
+   "tema": "optica",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Para proyectar una señal luminosa sobre una pantalla, se coloca un objeto de altura $2{,}0\\,\\mathrm{cm}$ a $18\\,\\mathrm{cm}$ a la izquierda de una lente convergente de distancia focal $f'=12\\,\\mathrm{cm}$. Se pide: a) (1,25 puntos) Calcula la posición de la imagen, la potencia de la lente y el aumento lateral. b) (1,25 puntos) Calcula el tamaño de la imagen y realiza un trazado de rayos; indica si la imagen es real o virtual, derecha o invertida.",
+   "solucion": "### Convención de signos\nTomamos el centro de la lente como origen y el sentido positivo hacia la derecha. Así, la posición del objeto es $s=-18\\,\\mathrm{cm}$ y, al ser convergente, la distancia focal imagen es $f'=+12\\,\\mathrm{cm}$.\n\n### a) Posición de la imagen, potencia y aumento\nLa ecuación de las lentes delgadas es\n$$\n\\frac{1}{s'}-\\frac{1}{s}=\\frac{1}{f'}.\n$$\nSustituyendo los datos:\n$$\n\\frac{1}{s'}-\\frac{1}{-18}=\\frac{1}{12}\n\\quad\\Longrightarrow\\quad\n\\frac{1}{s'}=\\frac{1}{12}-\\frac{1}{18}=\\frac{1}{36},\n$$\npor lo que $s'=+36\\,\\mathrm{cm}$. La imagen se forma $36\\,\\mathrm{cm}$ a la derecha de la lente.\n\nLa potencia de la lente, expresando la distancia focal en metros, es\n$$\nP=\\frac{1}{f'(\\mathrm{m})}=\\frac{1}{0.12\\,\\mathrm{m}}=+8.33\\,\\mathrm{D}.\n$$\nEl aumento lateral es\n$$\n\\beta=\\frac{s'}{s}=\\frac{36}{-18}=-2.\n$$\n\n### b) Tamaño y trazado de rayos\nLa altura de la imagen con signo es\n$$\ny'=\\beta y=(-2)(2.0\\,\\mathrm{cm})=-4.0\\,\\mathrm{cm}.\n$$\nPor tanto, el tamaño de la imagen es $4.0\\,\\mathrm{cm}$; el signo negativo indica que está invertida.\n\nPara el trazado, el objeto está entre el foco objeto, a $12\\,\\mathrm{cm}$ a la izquierda, y el doble foco objeto, a $24\\,\\mathrm{cm}$ a la izquierda. Desde la punta del objeto se traza un rayo paralelo al eje principal, que tras la lente pasa por el foco imagen; y un segundo rayo por el centro óptico, que no se desvía. Ambos se cruzan a $36\\,\\mathrm{cm}$ a la derecha de la lente, por debajo del eje principal. La imagen es real, invertida y aumentada al doble.",
+   "resultado": "s' = +36 cm; P = +8,33 D; β = −2; tamaño de la imagen = 4,0 cm (altura con signo: −4,0 cm).",
+   "criterios": "Total: 2,5 puntos. a) 1,25 puntos: planteamiento correcto de la ecuación de la lente y signos (0,20); posición de la imagen, con signo y unidades (0,45); cálculo de la potencia con conversión de cm a m y unidades (0,25); cálculo del aumento lateral con signo (0,35). b) 1,25 puntos: cálculo de la altura con signo y del tamaño de la imagen (0,45); trazado de dos rayos principales correctamente descrito, con intersección en la posición imagen obtenida (0,50); identificación justificada de la imagen como real, invertida y aumentada (0,30).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "D1",
+   "tema": "moderna",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Un fotocátodo empleado en un sensor se ilumina con luz de longitud de onda $\\lambda=400\\,\\mathrm{nm}$. La función de trabajo del material es $W_0=2{,}00\\,\\mathrm{eV}$. Se pide: a) (1 punto) Calcula la energía de cada fotón y comprueba si se produce efecto fotoeléctrico. b) (1 punto) Determina la energía cinética máxima de los fotoelectrones y el potencial de frenado. Dato: $hc=1240\\,\\mathrm{eV\\,nm}$.",
+   "solucion": "### a) Energía del fotón y efecto fotoeléctrico\nLa energía de un fotón es $E_\\gamma=\\dfrac{hc}{\\lambda}$. Con los datos del enunciado:\n\n$$E_\\gamma=\\frac{1240\\,\\mathrm{eV\\,nm}}{400\\,\\mathrm{nm}}=3{,}10\\,\\mathrm{eV}.$$\n\nComo $E_\\gamma=3{,}10\\,\\mathrm{eV}>W_0=2{,}00\\,\\mathrm{eV}$, la energía del fotón supera la función de trabajo y **sí se produce efecto fotoeléctrico**.\n\n### b) Energía cinética máxima y potencial de frenado\nSegún la ecuación de Einstein del efecto fotoeléctrico:\n\n$$K_{\\max}=E_\\gamma-W_0=3{,}10-2{,}00=1{,}10\\,\\mathrm{eV}.$$\n\nEl potencial de frenado satisface $eV_f=K_{\\max}$. Por tanto, al expresar la energía cinética en electronvoltios, el valor numérico del potencial en voltios coincide con ella:\n\n$$V_f=1{,}10\\,\\mathrm{V}.$$\n\nEl potencial de frenado se da como magnitud; se aplica en sentido retardador.",
+   "resultado": "Eγ = 3,10 eV; se produce efecto fotoeléctrico; Kmáx = 1,10 eV; Vf = 1,10 V.",
+   "criterios": "Total: 2 puntos. a) 0,5 puntos por aplicar $E_\\gamma=hc/\\lambda$ y calcular $3,10\\,\\mathrm{eV}$; 0,5 puntos por compararla correctamente con $W_0$ y concluir que se produce efecto fotoeléctrico. b) 0,5 puntos por aplicar $K_{\\max}=E_\\gamma-W_0$ y obtener $1,10\\,\\mathrm{eV}$; 0,5 puntos por relacionar $K_{\\max}=eV_f$ y obtener $V_f=1,10\\,\\mathrm{V}$.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "D2",
+   "tema": "moderna",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Una muestra de sodio-24, utilizada como trazador en una prueba de laboratorio, tiene inicialmente una actividad de $800\\,\\mathrm{kBq}$. Su periodo de semidesintegración es de $15\\,\\mathrm{h}$. Se pide: a) (1 punto) Calcula la constante de desintegración radiactiva en $\\mathrm{h^{-1}}$. b) (1 punto) Determina la actividad de la muestra al cabo de $45\\,\\mathrm{h}$.",
+   "solucion": "### a) Constante de desintegración\n\nLa relación entre el periodo de semidesintegración y la constante de desintegración es\n\n$$T_{1/2}=\\frac{\\ln 2}{\\lambda}.$$\n\nPor tanto, con $T_{1/2}=15\\,\\mathrm{h}$:\n\n$$\\lambda=\\frac{\\ln 2}{15\\,\\mathrm{h}}=0.0462098\\,\\mathrm{h^{-1}}\\approx 0.0462\\,\\mathrm{h^{-1}}.$$\n\n### b) Actividad a las $45\\,\\mathrm{h}$\n\nLa actividad evoluciona según\n\n$$A(t)=A_0e^{-\\lambda t}.$$\n\nComo $45\\,\\mathrm{h}=3T_{1/2}$, también puede calcularse directamente mediante\n\n$$A(45\\,\\mathrm{h})=800\\,\\mathrm{kBq}\\left(\\frac{1}{2}\\right)^3=100\\,\\mathrm{kBq}.$$\n\n",
+   "resultado": "λ = 0.0462 h⁻¹; A(45 h) = 100 kBq",
+   "criterios": "a) 1 punto: 0,5 por plantear correctamente λ = ln(2)/T₁/₂ y 0,5 por obtener λ = 0,0462 h⁻¹ con unidades. b) 1 punto: 0,5 por aplicar correctamente la ley de desintegración (o reconocer que han transcurrido tres periodos de semidesintegración) y 0,5 por obtener A = 100 kBq.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-24",
+ "modelo": "gpt-6-luna",
+ "rondas": 2,
+ "temas_base": [
+  {
+   "id": "electrico",
+   "p": 0.9
+  },
+  {
+   "id": "optica",
+   "p": 0.861
+  },
+  {
+   "id": "gravitacion",
+   "p": 0.848
+  },
+  {
+   "id": "ondas",
+   "p": 0.761
+  },
+  {
+   "id": "moderna",
+   "p": 0.649
+  },
+  {
+   "id": "magnetico",
+   "p": 0.531
+  }
+ ],
+ "referencias": [
+  "manual:manual/castillalamancha/2026/Física junio examen __Fisica_PAU_2026.txt",
+  "manual:manual/castillalamancha/2026/Física julio examen __Fisica.txt",
+  "manual:manual/castillalamancha/2024/Física junio examen __FISICA.txt",
+  "manual:manual/castillalamancha/2025/Física julio examen __Fisica.txt",
+  "manual:manual/castillalamancha/2025/Física junio examen __FISICA.txt",
+  "manual:manual/castillalamancha/2026/Física julio examen __Fisica.txt",
+  "manual:manual/castillalamancha/2026/Física junio examen __Fisica_PAU_2026.txt"
+ ]
+}
