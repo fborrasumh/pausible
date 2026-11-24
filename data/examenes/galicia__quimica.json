@@ -1,0 +1,94 @@
+{
+ "ccaa": "galicia",
+ "materia": "quimica",
+ "titulo": "PAU 2027 · Química · Galicia",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de 4 preguntas obligatorias, puntuadas con 2,5 puntos cada una. La pregunta 1 no tiene apartados optativos. En la pregunta 2, responda los apartados 2.1 y 2.2 y elija entre 2.3 y 2.4. En las preguntas 3 y 4, responda solo una de las dos opciones propuestas en cada pregunta. Si responde más de una opción, solo se corregirá la primera que no aparezca totalmente tachada. Justifique los razonamientos y exprese los resultados con sus unidades. Los datos necesarios se incluyen en los enunciados.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "termo",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Una planta de producción de cal emplea un horno para transformar la piedra caliza. La reacción global es $\\ce{CaCO3(s) -> CaO(s) + CO2(g)}$, para la que $\\Delta H^\\circ=178\\ \\mathrm{kJ\\,mol^{-1}}$ y $\\Delta S^\\circ=160\\ \\mathrm{J\\,mol^{-1}\\,K^{-1}}$.\\n1.1. Calcule $\\Delta G^\\circ$ a $1200\\ \\mathrm{K}$ e indique si la reacción es espontánea en esas condiciones. (0,5 puntos)\\n1.2. Determine la temperatura mínima a partir de la cual la reacción será espontánea, suponiendo que $\\Delta H^\\circ$ y $\\Delta S^\\circ$ no varían con la temperatura. (0,5 puntos)\\nPara alimentar un sensor que monitoriza el horno se construye una pila con electrodos de cinc y cobre, disoluciones de $\\ce{Zn^2+}$ y $\\ce{Cu^2+}$ y un puente salino. Se dispone de los potenciales estándar de reducción $E^\\circ(\\ce{Zn^2+/Zn})=-0,76\\ \\mathrm{V}$ y $E^\\circ(\\ce{Cu^2+/Cu})=+0,34\\ \\mathrm{V}$.\\n1.3. Describa el montaje de la pila e indique las semirreacciones, los polos, el sentido del flujo de electrones y el potencial estándar de la pila. Calcule también $\\Delta G^\\circ$ por mol de reacción global, usando $F=96485\\ \\mathrm{C\\,mol^{-1}}$, y justifique si la pila puede funcionar espontáneamente. (1,5 puntos)",
+   "solucion": "### 1.1. Energía libre estándar a $1200\\ \\mathrm{K}$\n\nSe expresan la entalpía y la entropía en unidades compatibles:\n\n$$\\Delta H^\\circ=178\\ \\mathrm{kJ\\,mol^{-1}},\\qquad \\Delta S^\\circ=160\\ \\mathrm{J\\,mol^{-1}\\,K^{-1}}=0.160\\ \\mathrm{kJ\\,mol^{-1}\\,K^{-1}}.$$\n\nAplicando $\\Delta G^\\circ=\\Delta H^\\circ-T\\Delta S^\\circ$:\n\n$$\\Delta G^\\circ(1200\\ \\mathrm{K})=178-(1200)(0.160)=-14\\ \\mathrm{kJ\\,mol^{-1}}.$$\n\nComo $\\Delta G^\\circ<0$, la reacción es espontánea en condiciones estándar a $1200\\ \\mathrm{K}$.\n\n### 1.2. Temperatura umbral\n\nLa temperatura límite se obtiene imponiendo $\\Delta G^\\circ=0$:\n\n$$T_{\\mathrm{umbral}}=\\frac{\\Delta H^\\circ}{\\Delta S^\\circ}=\\frac{178\\ \\mathrm{kJ\\,mol^{-1}}}{0.160\\ \\mathrm{kJ\\,mol^{-1}\\,K^{-1}}}=1112.5\\ \\mathrm{K}.$$\n\nComo $\\Delta S^\\circ>0$, por encima de esa temperatura $\\Delta G^\\circ<0$. Por tanto, la reacción es espontánea para $T>1112.5\\ \\mathrm{K}$; exactamente a $1112.5\\ \\mathrm{K}$ se tiene $\\Delta G^\\circ=0$.\n\n### 1.3. Pila de cinc y cobre\n\nSe introduce un electrodo de cinc en una disolución de $\\mathrm{Zn^{2+}}$ y un electrodo de cobre en una disolución de $\\mathrm{Cu^{2+}}$. Se conectan ambos electrodos mediante un conductor externo y las disoluciones mediante un puente salino, que permite la migración de iones y mantiene la electroneutralidad. La notación de la pila es:\n\n$$\\mathrm{Zn(s)}\\,|\\,\\mathrm{Zn^{2+}(aq)}\\,\\|\\,\\mathrm{Cu^{2+}(aq)}\\,|\\,\\mathrm{Cu(s)}.$$\n\nEl cinc se oxida en el ánodo, que es el polo negativo:\n\n$$\\mathrm{Zn(s)}\\rightarrow\\mathrm{Zn^{2+}(aq)}+2e^-.$$\n\nEl cobre(II) se reduce en el cátodo, que es el polo positivo:\n\n$$\\mathrm{Cu^{2+}(aq)}+2e^-\\rightarrow\\mathrm{Cu(s)}.$$\n\nLa reacción global es:\n\n$$\\mathrm{Zn(s)}+\\mathrm{Cu^{2+}(aq)}\\rightarrow\\mathrm{Zn^{2+}(aq)}+\\mathrm{Cu(s)}.$$\n\nLos electrones circulan por el circuito externo desde el electrodo de cinc hacia el de cobre. El potencial estándar de la pila es:\n\n$$E^\\circ_{\\mathrm{pila}}=E^\\circ_{\\mathrm{cátodo}}-E^\\circ_{\\mathrm{ánodo}}=0.34-(-0.76)=+1.10\\ \\mathrm{V}.$$\n\nPara la reacción global se transfieren $n=2$ moles de electrones por mol de reacción. Así,\n\n$$\\Delta G^\\circ=-nFE^\\circ_{\\mathrm{pila}}=-(2)(96485)(1.10)=-212267\\ \\mathrm{J\\,mol^{-1}}\\approx-212.3\\ \\mathrm{kJ\\,mol^{-1}}.$$\n\nLa pila puede funcionar espontáneamente: su potencial estándar es positivo y su variación de energía libre estándar es negativa. Como comprobación, en la parte térmica $1200\\ \\mathrm{K}>1112.5\\ \\mathrm{K}$, coherente con el valor negativo de $\\Delta G^\\circ$ calculado.\n\n### Criterios de corrección (2,5 puntos)\n\n- **1.1 (0,5 puntos):** conversión de unidades y uso de $\\Delta G^\\circ=\\Delta H^\\circ-T\\Delta S^\\circ$ (0,30); resultado $-14\\ \\mathrm{kJ\\,mol^{-1}}$ e identificación de espontaneidad (0,20).\n- **1.2 (0,5 puntos):** condición $\\Delta G^\\circ=0$ y cálculo de $T_{\\mathrm{umbral}}=1112.5\\ \\mathrm{K}$ (0,35); indicación de que la espontaneidad se da estrictamente por encima del umbral (0,15).\n- **1.3 (1,5 puntos):** montaje, disoluciones y puente salino (0,30); semirreacciones y reacción global correctas (0,35); identificación de ánodo, cátodo, polos y sentido de los electrones (0,25); cálculo de $E^\\circ_{\\mathrm{pila}}$ (0,20); cálculo de $\\Delta G^\\circ$ con $n=2$ (0,30); conclusión de espontaneidad coherente con los signos (0,10).",
+   "resultado": "$\\Delta G^\\circ(1200\\ \\mathrm{K})=-14\\ \\mathrm{kJ\\,mol^{-1}}$; umbral $1112.5\\ \\mathrm{K}$ (espontánea para $T>1112.5\\ \\mathrm{K}$); $E^\\circ_{\\mathrm{pila}}=+1.10\\ \\mathrm{V}$; $\\Delta G^\\circ_{\\mathrm{pila}}=-212.3\\ \\mathrm{kJ\\,mol^{-1}}$.",
+   "criterios": "Reparto sobre 2,5 puntos: apartado 1.1, 0,5 puntos (unidades y planteamiento: 0,30; resultado y espontaneidad: 0,20); apartado 1.2, 0,5 puntos (condición de equilibrio y cálculo del umbral: 0,35; interpretación de la desigualdad: 0,15); apartado 1.3, 1,5 puntos (montaje: 0,30; semirreacciones y reacción global: 0,35; polos y flujo electrónico: 0,25; potencial: 0,20; energía libre: 0,30; justificación de espontaneidad: 0,10).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "equilibrio",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "En un recipiente cerrado de $1,00\\ \\mathrm{L}$ se introducen $1,00\\ \\mathrm{mol}$ de $\\ce{H2(g)}$ y $1,00\\ \\mathrm{mol}$ de $\\ce{I2(g)}$. A cierta temperatura se establece el equilibrio $\\ce{H2(g) + I2(g) <=> 2 HI(g)}$. En el equilibrio se han formado $1,00\\ \\mathrm{mol}$ de $\\ce{HI(g)}$.\\n2.1. Calcule los moles de cada especie presentes en el equilibrio. (1 punto)\\n2.2. Determine el valor de $K_c$ a esa temperatura. (1 punto)\\nResponda solo uno de estos dos apartados:\\n2.3. Razone si añadir un catalizador, manteniendo constantes la temperatura y el volumen, aumentará la cantidad de $\\ce{HI(g)}$ presente en el equilibrio. (0,5 puntos)\\n2.4. Razone si en este equilibrio $K_p$ tiene el mismo valor que $K_c$. (0,5 puntos)",
+   "solucion": "### 2.1. Moles en el equilibrio\n\nLa reacción es $\\ce{H2(g) + I2(g) <=> 2 HI(g)}$. Si $\\xi$ es el avance de reacción, se forman $2\\xi$ moles de $\\ce{HI}$. Como se han formado $1,00\\ \\mathrm{mol}$ de $\\ce{HI}$:\n\n$$2\\xi=1,00\\quad\\Rightarrow\\quad \\xi=0,50\\ \\mathrm{mol}$$\n\nLa tabla de variación de moles da:\n\n| Especie | Inicial (mol) | Variación (mol) | Equilibrio (mol) |\n|---|---:|---:|---:|\n| $\\ce{H2}$ | $1,00$ | $-0,50$ | $0,50$ |\n| $\\ce{I2}$ | $1,00$ | $-0,50$ | $0,50$ |\n| $\\ce{HI}$ | $0$ | $+1,00$ | $1,00$ |\n\nPor tanto, en el equilibrio hay $0,50\\ \\mathrm{mol}$ de $\\ce{H2}$, $0,50\\ \\mathrm{mol}$ de $\\ce{I2}$ y $1,00\\ \\mathrm{mol}$ de $\\ce{HI}$.\n\n### 2.2. Cálculo de $K_c$\n\nEn un volumen de $1,00\\ \\mathrm{L}$, las concentraciones de equilibrio son $[\\ce{H2}]=0,50\\ \\mathrm{mol\\,L^{-1}}$, $[\\ce{I2}]=0,50\\ \\mathrm{mol\\,L^{-1}}$ y $[\\ce{HI}]=1,00\\ \\mathrm{mol\\,L^{-1}}$. Así,\n\n$$K_c=\\frac{[\\ce{HI}]^2}{[\\ce{H2}][\\ce{I2}]}=\\frac{(1,00)^2}{(0,50)(0,50)}=4,00$$\n\n### 2.3. Efecto de un catalizador\n\nNo. A temperatura y volumen constantes, un catalizador no modifica la composición del equilibrio ni el valor de la constante de equilibrio. Aumenta la velocidad de las reacciones directa e inversa, por lo que se alcanza el equilibrio más rápidamente, pero la cantidad de $\\ce{HI}$ en el equilibrio sigue siendo $1,00\\ \\mathrm{mol}$.",
+   "resultado": "n(H₂) = 0,50 mol; n(I₂) = 0,50 mol; n(HI) = 1,00 mol; Kc = 4,00; el catalizador no cambia la cantidad de HI en el equilibrio.",
+   "criterios": "2.1 (1,00 punto): 0,50 puntos por determinar el avance de reacción a partir de la formación de HI; 0,50 puntos por obtener correctamente los moles de equilibrio de las tres especies. 2.2 (1,00 punto): 0,50 puntos por calcular las concentraciones de equilibrio usando el volumen; 0,50 puntos por plantear y evaluar correctamente Kc. 2.3 (0,50 puntos): indicar que el catalizador no cambia la composición de equilibrio y justificar que acelera por igual las reacciones directa e inversa. Se responde el apartado 2.3; no se desarrolla el 2.4.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "3",
+   "tema": "cinetica",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "En una experiencia de laboratorio se estudia la descomposición del peróxido de hidrógeno catalizada por una enzima: $\\ce{2 H2O2(aq) -> 2 H2O(l) + O2(g)}$. A temperatura constante se mide la velocidad inicial de desaparición del peróxido, definida como $v_0=-\\mathrm{d}[\\ce{H2O2}]/\\mathrm{d}t$. Los resultados son: en el experimento 1, $[\\ce{H2O2}]_0=0,10\\ \\mathrm{mol\\,L^{-1}}$ y $v_0=0,020\\ \\mathrm{mol\\,L^{-1}\\,s^{-1}}$; en el experimento 2, $[\\ce{H2O2}]_0=0,20\\ \\mathrm{mol\\,L^{-1}}$ y $v_0=0,080\\ \\mathrm{mol\\,L^{-1}\\,s^{-1}}$.\\nResponda solo una de estas dos opciones:\\n3.1.\\n3.1.1. Determine el orden de reacción respecto al peróxido y escriba la ley de velocidad. (1 punto)\\n3.1.2. Calcule la constante de velocidad, con sus unidades. (1 punto)\\n3.1.3. Calcule la velocidad inicial de desaparición del peróxido si su concentración inicial es $0,15\\ \\mathrm{mol\\,L^{-1}}$. (0,5 puntos)\\n3.2.\\n3.2.1. Escriba las fórmulas semidesarrolladas de cada compuesto de las parejas but-1-eno/ciclobutano y propan-1-ol/metoxietano, e indique el tipo de isomería que presenta cada pareja. (1 punto)\\n3.2.2. Complete la reacción entre propeno y bromuro de hidrógeno en condiciones ordinarias, formule y nombre el producto mayoritario e indique el tipo de reacción. (1 punto)\\n3.2.3. Escriba la reacción entre ácido propanoico y metanol que produce un éster; formule y nombre el éster e indique el tipo de reacción. (0,5 puntos)",
+   "solucion": "### Opción 3.1\n\n#### 3.1.1. Orden y ley de velocidad\n\nSuponiendo una ley de velocidad de la forma $v_0=k[\\mathrm{H_2O_2}]_0^n$, comparamos los dos experimentos:\n\n$$\\frac{v_{0,2}}{v_{0,1}}=\\left(\\frac{[\\mathrm{H_2O_2}]_{0,2}}{[\\mathrm{H_2O_2}]_{0,1}}\\right)^n$$\n\n$$\\frac{0{,}080}{0{,}020}=\\left(\\frac{0{,}20}{0{,}10}\\right)^n \\quad\\Longrightarrow\\quad 4=2^n \\quad\\Longrightarrow\\quad n=2$$\n\nEl orden respecto al peróxido es **2** y la ley de velocidad es $v_0=k[\\mathrm{H_2O_2}]_0^2$.\n\n#### 3.1.2. Constante de velocidad\n\n$$k=\\frac{v_0}{[\\mathrm{H_2O_2}]_0^2}=\\frac{0{,}020\\ \\mathrm{mol\\,L^{-1}\\,s^{-1}}}{(0{,}10\\ \\mathrm{mol\\,L^{-1}})^2}=2{,}0\\ \\mathrm{L\\,mol^{-1}\\,s^{-1}}$$\n\n#### 3.1.3. Velocidad para $[\\mathrm{H_2O_2}]_0=0{,}15\\ \\mathrm{mol\\,L^{-1}}$\n\n$$v_0=k[\\mathrm{H_2O_2}]_0^2=(2{,}0\\ \\mathrm{L\\,mol^{-1}\\,s^{-1}})(0{,}15\\ \\mathrm{mol\\,L^{-1}})^2=0{,}045\\ \\mathrm{mol\\,L^{-1}\\,s^{-1}}$$",
+   "resultado": "3.1: orden 2; $v_0=k[\\mathrm{H_2O_2}]_0^2$; $k=2{,}0\\ \\mathrm{L\\,mol^{-1}\\,s^{-1}}$; para $[\\mathrm{H_2O_2}]_0=0{,}15\\ \\mathrm{mol\\,L^{-1}}$, $v_0=0{,}045\\ \\mathrm{mol\\,L^{-1}\\,s^{-1}}$.",
+   "criterios": "Total: 2,5 puntos. 3.1.1 (1 punto): 0,5 por comparar correctamente las velocidades y concentraciones relativas y deducir el orden 2; 0,5 por escribir la ley de velocidad correcta. 3.1.2 (1 punto): 0,5 por calcular correctamente k mediante la ley de velocidad; 0,5 por indicar el valor y las unidades correctas. 3.1.3 (0,5 puntos): 0,25 por sustituir la concentración en la ley de velocidad y calcular; 0,25 por dar el resultado con unidades.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "acidobase",
+   "puntos": 2.5,
+   "tipo": "calculo",
+   "enunciado": "Responda solo una de estas dos opciones:\\n4.1. Se prepara una disolución acuosa de un ácido débil monoprótico $\\ce{HA}$ de concentración $0,110\\ \\mathrm{mol\\,L^{-1}}$. A esa temperatura, $K_a=1,0\\times10^{-3}$ y $K_w=1,0\\times10^{-14}$. Para los cálculos, desprecie la autoionización del agua.\\n4.1.1. Calcule las concentraciones de $\\ce{HA}$, $\\ce{A^-}$ y $\\ce{H3O^+}$ en el equilibrio. (1 punto)\\n4.1.2. Determine el pH de la disolución y el valor de $K_b$ de $\\ce{A^-}$. (1 punto)\\n4.1.3. Se compara $\\ce{A^-}$ con la base conjugada $\\ce{B^-}$ de otro ácido $\\ce{HB}$, para el que $K_a=1,0\\times10^{-5}$. Razone cuál de las dos bases conjugadas es más fuerte. (0,5 puntos)\\n4.2. Se consideran los elementos $X$, $Y$ y $Z$, cuyas configuraciones electrónicas son $X: 1s^2\\,2s^2\\,2p^6\\,3s^2$, $Y: 1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^5$ y $Z: 1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^1$.\\n4.2.1. Ordénelos de menor a mayor radio atómico y justifique la tendencia. (1 punto)\\n4.2.2. Indique el tipo de enlace que se forma entre $X$ e $Y$ y formule el compuesto resultante. Asigne razonadamente a este compuesto y a $\\ce{Cl2}$ los puntos de fusión $714\\ ^\\circ\\mathrm{C}$ y $-101\\ ^\\circ\\mathrm{C}$. (0,75 puntos)\\n4.2.3. Determine cuáles de estos conjuntos de números cuánticos están permitidos y, para cada conjunto permitido, indique el orbital correspondiente: $(3,1,0)$, $(2,2,0)$ y $(4,0,0)$. (0,75 puntos)",
+   "solucion": "**Opción elegida: 4.1**\n\n### 4.1.1. Concentraciones en el equilibrio\n\nLa ionización del ácido es $HA + H_2O \\rightleftharpoons H_3O^+ + A^-$. Si $x$ es la concentración de ácido que se ioniza, las concentraciones de equilibrio son $[HA]=0.110-x$, $[H_3O^+]=x$ y $[A^-]=x$, en $mol\\,L^{-1}$. Se desprecia la autoionización del agua, tal como indica el enunciado.\n\nAplicando la expresión de la constante de acidez:\n\n$$K_a=\\frac{[H_3O^+][A^-]}{[HA]}=\\frac{x^2}{0.110-x}=1.0\\times10^{-3}$$\n\nDe aquí se obtiene $x^2+1.0\\times10^{-3}x-1.10\\times10^{-4}=0$. La raíz físicamente admisible es $x=0.0100\\ mol\\,L^{-1}$. Por tanto, $[HA]=0.110-0.0100=0.100\\ mol\\,L^{-1}$, $[A^-]=0.0100\\ mol\\,L^{-1}$ y $[H_3O^+]=0.0100\\ mol\\,L^{-1}$.\n\n### 4.1.2. pH y constante de basicidad\n\n$$pH=-\\log[H_3O^+]=-\\log(0.0100)=2.00$$\n\nPara un par ácido-base conjugado se cumple $K_aK_b=K_w$. Así, para $A^-$:\n\n$$K_b(A^-)=\\frac{K_w}{K_a}=\\frac{1.0\\times10^{-14}}{1.0\\times10^{-3}}=1.0\\times10^{-11}$$\n\n### 4.1.3. Comparación de las bases conjugadas\n\nComo $K_a(HA)=1.0\\times10^{-3}$ es mayor que $K_a(HB)=1.0\\times10^{-5}$, $HA$ es el ácido más fuerte. La base conjugada de un ácido más débil es más fuerte; por tanto, $B^-$ es más fuerte que $A^-$. Equivalentemente, $K_b(B^-)=K_w/K_a(HB)=1.0\\times10^{-9}$, mayor que $K_b(A^-)=1.0\\times10^{-11}$.\n\n**Nota:** se ha resuelto únicamente la opción 4.1, como pide el enunciado.",
+   "resultado": "$[HA]=0.100\\ mol\\,L^{-1}$; $[A^-]=[H_3O^+]=0.0100\\ mol\\,L^{-1}$; $pH=2.00$; $K_b(A^-)=1.0\\times10^{-11}$; $B^-$ es más fuerte que $A^-$.",
+   "criterios": "Total: 2,5 puntos. 4.1.1 (1 punto): planteamiento de la ionización y de la expresión de $K_a$ (0,4); resolución de la ecuación y selección de la raíz física (0,4); concentraciones de equilibrio correctas (0,2). 4.1.2 (1 punto): cálculo correcto del pH (0,5); relación $K_aK_b=K_w$ y cálculo de $K_b(A^-)$ (0,5). 4.1.3 (0,5 puntos): establece que la fuerza de la base conjugada es inversa a la fuerza de su ácido (0,25); concluye correctamente que $B^-$ es más fuerte que $A^-$ (0,25).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-24",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "estructura",
+   "p": 0.9
+  },
+  {
+   "id": "enlace",
+   "p": 0.9
+  },
+  {
+   "id": "equilibrio",
+   "p": 0.9
+  },
+  {
+   "id": "acidobase",
+   "p": 0.9
+  },
+  {
+   "id": "organica",
+   "p": 0.9
+  },
+  {
+   "id": "termo",
+   "p": 0.781
+  }
+ ],
+ "referencias": [
+  "https://ciug.gal/link/7zU6MkbzVQg9UqWF",
+  "https://ciug.gal/link/D5PgcvAbWQQzzUma",
+  "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/24.pdf",
+  "https://ciug.gal/PDF/2025/PAU/ordinaria/criterios/24.pdf",
+  "https://ciug.gal/link/7zU6MkbzVQg9UqWF",
+  "https://ciug.gal/link/D5PgcvAbWQQzzUma"
+ ]
+}
