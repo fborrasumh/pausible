@@ -1,0 +1,129 @@
+{
+ "ccaa": "valenciana",
+ "materia": "fisica",
+ "titulo": "Prueba de Acceso a la Universidad 2027 — Física — Comunitat Valenciana",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro apartados y tiene una puntuación máxima de 10 puntos. El apartado 1 es obligatorio. En cada uno de los apartados 2, 3 y 4, conteste únicamente a una de las dos opciones propuestas; cada opción tiene la misma puntuación. Justifique todos los resultados y exprese las unidades. Realice primero el planteamiento simbólico y después el cálculo numérico. Puede utilizar una calculadora no gráfica ni programable.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "gravitacion",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "Un nanosatélite de observación gira en una órbita circular alrededor de un pequeño planeta sin atmósfera. El parámetro gravitatorio del planeta es $GM=4,0\\times10^{12}\\,\\mathrm{m^3\\,s^{-2}}$ y el radio orbital del satélite es $r=1,0\\times10^6\\,\\mathrm{m}$. Desprecie la influencia de otros astros. a) Deduzca y calcule la rapidez orbital del satélite y su periodo de revolución. (1 punto) b) Para un módulo de masa $m=250\\,\\mathrm{kg}$ en esa órbita, calcule su energía mecánica total. Determine también la rapidez mínima que tendría que alcanzar en ese punto para escapar del campo gravitatorio del planeta. (1 punto)",
+   "solucion": "### a) Rapidez orbital y periodo\n\nSea $\\mu=GM=4,0\\times10^{12}\\,\\mathrm{m^3\\,s^{-2}}$. Para una órbita circular, la fuerza gravitatoria proporciona la fuerza centrípeta:\n\n$$\\frac{GMm}{r^2}=\\frac{mv^2}{r}.$$\n\nDespejando la rapidez orbital y sustituyendo los datos:\n\n$$v=\\sqrt{\\frac{GM}{r}}=\\sqrt{\\frac{4,0\\times10^{12}}{1,0\\times10^6}}=2,0\\times10^3\\,\\mathrm{m\\,s^{-1}}.$$\n\nEl periodo es la longitud de la órbita dividida por la rapidez:\n\n$$T=\\frac{2\\pi r}{v}=\\frac{2\\pi(1,0\\times10^6)}{2,0\\times10^3}=1000\\pi\\,\\mathrm{s}\\approx3,14\\times10^3\\,\\mathrm{s}.$$\n\n### b) Energía mecánica y rapidez de escape\n\nLa energía mecánica total es la suma de la energía cinética y la potencial gravitatoria. En una órbita circular, $v^2=GM/r$:\n\n$$E=\\frac12mv^2-\\frac{GMm}{r}=-\\frac{GMm}{2r}=-\\frac{(4,0\\times10^{12})(250)}{2(1,0\\times10^6)}=-5,0\\times10^8\\,\\mathrm{J}.$$\n\nPara escapar, la energía mecánica mínima en el límite de alcance infinito es cero. En el punto orbital:\n\n$$\\frac12m v_{\\mathrm{esc}}^2-\\frac{GMm}{r}=0,$$\n\npor lo que\n\n$$v_{\\mathrm{esc}}=\\sqrt{\\frac{2GM}{r}}=\\sqrt{\\frac{2(4,0\\times10^{12})}{1,0\\times10^6}}\\approx2,83\\times10^3\\,\\mathrm{m\\,s^{-1}}.$$\n\nEsta es la rapidez total mínima que debe alcanzar en ese punto para escapar.",
+   "resultado": "v = 2,0×10³ m/s; T = 3,14×10³ s; E = −5,0×10⁸ J; v_esc = 2,83×10³ m/s.",
+   "criterios": "Total: 2 puntos. a) 1 punto: planteamiento de la igualdad entre fuerza gravitatoria y centrípeta y deducción de v = √(GM/r), 0,25; cálculo correcto de v, 0,25; relación T = 2πr/v, 0,25; cálculo correcto del periodo, 0,25. b) 1 punto: expresión de la energía mecánica orbital E = −GMm/(2r), 0,25; sustitución y resultado con unidades, 0,25; condición de escape E = 0 en el infinito y deducción de v_esc = √(2GM/r), 0,25; cálculo correcto de la rapidez de escape con unidades, 0,25.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "2A",
+   "tema": "electrico",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Un sensor electrostático de un equipo de control analiza el campo producido por dos cargas puntuales fijas sobre el eje $x$: $q_1=+4,0\\,\\mathrm{nC}$ en $x=0$ y $q_2=-1,0\\,\\mathrm{nC}$ en $x=0,30\\,\\mathrm{m}$. El punto de medida es $P$, situado en $x=0,10\\,\\mathrm{m}$. a) Calcule el vector campo eléctrico total en $P$, indicando la contribución de cada carga y el sentido del campo resultante. (1 punto) b) Determine el potencial eléctrico total en $P$, tomando como referencia el potencial nulo en el infinito. (1 punto) c) Calcule el vector fuerza eléctrica que experimentaría en $P$ una partícula de carga $-2,0\\,\\mathrm{nC}$. (1 punto) Dato: $k=9,0\\times10^9\\,\\mathrm{N\\,m^2\\,C^{-2}}$.",
+   "solucion": "### Convención y método\nTomamos $+x$ hacia la derecha y usamos componentes con signo: así, el signo de cada componente incorpora el sentido del campo, sin sumar primero módulos.\n\nLas distancias desde $P$ son $r_1=|0{,}10-0|=0{,}10\\,\\mathrm{m}$ y $r_2=|0{,}10-0{,}30|=0{,}20\\,\\mathrm{m}$.\n\n### a) Campo eléctrico total\nEn una dimensión, la componente del campo de una carga situada en $x_i$ es $E_x=kq(x_P-x_i)/|x_P-x_i|^3$.\n\nPara $q_1$:\n$$E_{1x}=\\frac{kq_1(x_P-x_1)}{|x_P-x_1|^3}=\\frac{(9{,}0\\times10^9)(4{,}0\\times10^{-9})(0{,}10)}{(0{,}10)^3}=+3{,}60\\times10^3\\,\\mathrm{N/C}.$$\n\nPara $q_2$:\n$$E_{2x}=\\frac{kq_2(x_P-x_2)}{|x_P-x_2|^3}=\\frac{(9{,}0\\times10^9)(-1{,}0\\times10^{-9})(-0{,}20)}{(0{,}20)^3}=+2{,}25\\times10^2\\,\\mathrm{N/C}.$$\n\nAmbas contribuciones apuntan hacia $+x$, por lo que\n$$\\vec E(P)=(E_{1x}+E_{2x})\\hat{\\mathbf{x}}=+3{,}825\\times10^3\\,\\hat{\\mathbf{x}}\\,\\mathrm{N/C}.$$\n\n### b) Potencial eléctrico total\nEl potencial es una magnitud escalar y se suman algebraicamente las contribuciones, con referencia nula en el infinito:\n$$V(P)=k\\left(\\frac{q_1}{r_1}+\\frac{q_2}{r_2}\\right)=9{,}0\\times10^9\\left(\\frac{4{,}0\\times10^{-9}}{0{,}10}+\\frac{-1{,}0\\times10^{-9}}{0{,}20}\\right)=360-45=315\\,\\mathrm{V}.$$\n\n### c) Fuerza sobre la carga de prueba\nLa fuerza es $\\vec F=q_{\\mathrm{pr}}\\vec E$. Como la carga de prueba es negativa, la fuerza apunta en sentido contrario al campo:\n$$\\vec F=(-2{,}0\\times10^{-9})(3{,}825\\times10^3)\\hat{\\mathbf{x}}=-7{,}65\\times10^{-6}\\,\\hat{\\mathbf{x}}\\,\\mathrm{N}.$$\n\n### Comprobación\nCalculando directamente las fuerzas de Coulomb sobre la carga de prueba, ambas van hacia $-x$: $\\vec F_1=-7{,}20\\times10^{-6}\\hat{\\mathbf{x}}\\,\\mathrm{N}$ y $\\vec F_2=-4{,}50\\times10^{-7}\\hat{\\mathbf{x}}\\,\\mathrm{N}$. Su suma es $-7{,}65\\times10^{-6}\\hat{\\mathbf{x}}\\,\\mathrm{N}$, igual al resultado obtenido con $q_{\\mathrm{pr}}\\vec E$. Los sentidos y las unidades son coherentes.",
+   "resultado": "$\\vec E(P)=+3{,}825\\times10^3\\hat{\\mathbf{x}}\\,\\mathrm{N/C}$; $V(P)=315\\,\\mathrm{V}$; $\\vec F=-7{,}65\\times10^{-6}\\hat{\\mathbf{x}}\\,\\mathrm{N}$.",
+   "criterios": "Total: 3 puntos. a) 1 punto: 0,20 por distancias y planteamiento vectorial con signo; 0,25 por cada contribución correcta (campo de q1 y de q2); 0,30 por la suma vectorial correcta y el sentido hacia +x. b) 1 punto: 0,30 por aplicar la expresión del potencial con las distancias; 0,50 por sumar correctamente las contribuciones con sus signos; 0,20 por el valor final y la unidad. c) 1 punto: 0,25 por aplicar F=q_prueba E; 0,45 por el módulo y el signo correctos; 0,30 por expresar el vector y su sentido hacia -x. Se aceptan redondeos coherentes y métodos equivalentes; los errores de arrastre no se penalizan de nuevo si el procedimiento posterior es correcto.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "2B",
+   "tema": "magnetico",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Una bobina de captación de un pequeño generador tiene $N=50$ espiras, cada una de área $A=4,0\\,\\mathrm{cm^2}$, y está conectada a una resistencia de $R=2,0\\,\\Omega$. El campo magnético uniforme es perpendicular al plano de la bobina y apunta hacia fuera de la página. Durante $0,030\\,\\mathrm{s}$, su módulo disminuye uniformemente de $0,20\\,\\mathrm{T}$ a $0,050\\,\\mathrm{T}$. a) Calcule el valor absoluto de la fuerza electromotriz inducida media. (1,5 puntos) b) Determine la intensidad de la corriente inducida y su sentido, justificando este último mediante la ley de Lenz. (1,5 puntos) Suponga que la resistencia de la bobina es despreciable frente a la resistencia indicada.",
+   "solucion": "Tomamos como sentido positivo el antihorario, que corresponde por la regla de la mano derecha a un campo saliente de la página. Calculamos directamente el cambio de flujo magnético enlazado durante el intervalo, usando la forma media de la ley de Faraday.\n\n**a) Fuerza electromotriz inducida media**\n\nConvertimos el área a unidades del SI:\n\n$$A=4,0\\,\\mathrm{cm^2}=4,0\\times10^{-4}\\,\\mathrm{m^2}.$$\n\nEl cambio de campo es $\\Delta B=B_f-B_i=0,050-0,20=-0,150\\,\\mathrm{T}$. Por espira, el cambio de flujo es $\\Delta\\Phi=A\\Delta B=-6,0\\times10^{-5}\\,\\mathrm{Wb}$. Para las $N=50$ espiras, el cambio de flujo enlazado resulta:\n\n$$\\Delta(N\\Phi)=N A\\Delta B=-3,0\\times10^{-3}\\,\\mathrm{Wb}.$$\n\nPor tanto, la fuerza electromotriz media, con el sentido positivo elegido, es\n\n$$\\overline{\\mathcal E}=-\\frac{\\Delta(N\\Phi)}{\\Delta t}=-\\frac{-3,0\\times10^{-3}}{0,030}=+0,10\\,\\mathrm{V}.$$\n\nAsí, su valor absoluto es $|\\overline{\\mathcal E}|=0,10\\,\\mathrm{V}$.\n\n**b) Intensidad y sentido de la corriente**\n\nComo la resistencia de la bobina es despreciable, la resistencia total es $R=2,0\\,\\Omega$. Por la ley de Ohm:\n\n$$I=\\frac{|\\overline{\\mathcal E}|}{R}=\\frac{0,10}{2,0}=0,050\\,\\mathrm{A}.$$\n\nEl flujo saliente está disminuyendo. Según la ley de Lenz, la corriente inducida debe crear un campo saliente para oponerse a esa disminución. Por la regla de la mano derecha, esto requiere una corriente **antihoraria**, vista de frente a la página.\n\n**Comprobación:** $|\\Delta B|/\\Delta t=0,150/0,030=5,0\\,\\mathrm{T\\,s^{-1}}$, de modo que $N A|\\Delta B|/\\Delta t=50(4,0\\times10^{-4})(5,0)=0,10\\,\\mathrm{V}$. Además, $IR=(0,050)(2,0)=0,10\\,\\mathrm{V}$, en acuerdo con la fem calculada.",
+   "resultado": "|ε̄| = 0,10 V; I = 0,050 A, en sentido antihorario (vista de frente a la página).",
+   "criterios": "Total: 3,0 puntos. a) (1,5 puntos): conversión correcta del área al SI, 0,25; cálculo del cambio de flujo enlazado en las N espiras, 0,50; aplicación de la ley de Faraday y obtención de la magnitud de la fem media, 0,50; unidades, 0,25. b) (1,5 puntos): aplicación de la ley de Ohm con la resistencia total indicada, 0,50; intensidad numérica correcta con unidades, 0,50; aplicación razonada de la ley de Lenz y sentido antihorario correcto, 0,50.",
+   "verificacion": "codigo",
+   "resoluciones": 3
+  },
+  {
+   "n": "3A",
+   "tema": "ondas",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Un sensor instalado en una boya registra una onda transversal que se propaga por la superficie del agua en el sentido positivo del eje $x$. En el modelo utilizado, la elongación viene dada por $y(x,t)=0,040\\cos\\!\\left(4\\pi t-\\frac{4\\pi}{3}x\\right)\\,\\mathrm{m}$, con $x$ en metros y $t$ en segundos. a) Determine la amplitud, el periodo, la frecuencia y la longitud de onda. (1,5 puntos) b) Calcule la rapidez de propagación y la elongación del punto situado en $x=0,375\\,\\mathrm{m}$ en el instante $t=0,125\\,\\mathrm{s}$. (1,5 puntos)",
+   "solucion": "### a) Amplitud, periodo, frecuencia y longitud de onda\n\nSe compara la expresión dada con la forma de una onda que avanza en el sentido positivo de $x$, $y(x,t)=A\\cos(\\omega t-kx)$. Por identificación:\n\n$$A=0{,}040\\,\\mathrm{m},\\qquad \\omega=4\\pi\\,\\mathrm{rad\\,s^{-1}},\\qquad k=\\frac{4\\pi}{3}\\,\\mathrm{rad\\,m^{-1}}.$$\n\nEl periodo y la frecuencia son\n\n$$T=\\frac{2\\pi}{\\omega}=\\frac{2\\pi}{4\\pi}=0{,}50\\,\\mathrm{s},\\qquad f=\\frac{1}{T}=2{,}0\\,\\mathrm{Hz}.$$\n\nLa longitud de onda es\n\n$$\\lambda=\\frac{2\\pi}{k}=\\frac{2\\pi}{4\\pi/3}=1{,}50\\,\\mathrm{m}.$$\n\n### b) Rapidez y elongación\n\nLa rapidez de propagación vale\n\n$$v=\\frac{\\omega}{k}=\\frac{4\\pi}{4\\pi/3}=3{,}0\\,\\mathrm{m\\,s^{-1}}.$$\n\nPara $x=0{,}375\\,\\mathrm{m}=3/8\\,\\mathrm{m}$ y $t=0{,}125\\,\\mathrm{s}=1/8\\,\\mathrm{s}$, la fase es\n\n$$\\omega t-kx=4\\pi\\left(\\frac18\\right)-\\frac{4\\pi}{3}\\left(\\frac38\\right)=0.$$\n\nPor tanto, la elongación es\n\n$$y(0{,}375,0{,}125)=0{,}040\\cos(0)=0{,}040\\,\\mathrm{m}.$$",
+   "resultado": "A = 0,040 m; T = 0,50 s; f = 2,0 Hz; λ = 1,50 m; v = 3,0 m/s; y(0,375 m; 0,125 s) = 0,040 m.",
+   "criterios": "Total: 3 puntos. a) 1,5 puntos: identificación de la amplitud (0,25); obtención del periodo mediante T = 2π/ω (0,35); frecuencia mediante f = 1/T (0,25); longitud de onda mediante λ = 2π/k (0,40); identificación correcta de ω y k en la ecuación (0,25). b) 1,5 puntos: cálculo de la rapidez mediante v = ω/k (0,75); sustitución correcta de x y t en la fase y cálculo de la elongación (0,75). Se valorará el uso de unidades y se aceptarán resultados equivalentes por redondeo.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "3B",
+   "tema": "optica",
+   "puntos": 3,
+   "tipo": "calculo",
+   "enunciado": "Para inspeccionar detalles de una pieza arqueológica sin tocarla, una conservadora utiliza una lente delgada convergente de distancia focal $f=12\\,\\mathrm{cm}$. Coloca un detalle de altura $h_o=2,0\\,\\mathrm{cm}$ a $8,0\\,\\mathrm{cm}$ de la lente. a) Calcule la posición y la altura de la imagen, indicando si es real o virtual, derecha o invertida, y aumentada o reducida. (1,5 puntos) b) Calcule la potencia de la lente en dioptrías y describa un trazado de rayos que justifique las características de la imagen. (1,5 puntos) Utilice la convención de signos habitual para lentes delgadas.",
+   "solucion": "### a) Posición y características de la imagen\n\nTomamos $f=+12\\,\\mathrm{cm}$ para una lente convergente y $s_o=+8,0\\,\\mathrm{cm}$ para el objeto real. Usamos la ecuación de lentes delgadas $\\frac{1}{f}=\\frac{1}{s_o}+\\frac{1}{s_i}$, donde $s_i<0$ corresponde a una imagen virtual:\n\n$$\\frac{1}{s_i}=\\frac{1}{12}-\\frac{1}{8}=-\\frac{1}{24}\\;\\mathrm{cm}^{-1},\\qquad s_i=-24\\,\\mathrm{cm}.$$\n\nLa imagen está a $24\\,\\mathrm{cm}$ de la lente, en el mismo lado que el objeto, por lo que es virtual. El aumento lateral es $m=-\\frac{s_i}{s_o}=-\\frac{-24}{8}=+3$. Así, $h_i=m h_o=3(2,0\\,\\mathrm{cm})=+6,0\\,\\mathrm{cm}$. El signo positivo indica que la imagen es derecha; como $|m|>1$, es aumentada (tres veces).\n\n### b) Potencia y trazado de rayos\n\nLa potencia es $P=\\frac{1}{f}$ con la distancia focal expresada en metros. Por tanto, $P=\\frac{1}{0,12\\,\\mathrm{m}}=+8,33\\,\\mathrm{D}$.\n\nPara el trazado, desde la punta del objeto se dibuja un rayo paralelo al eje principal, que al atravesar la lente converge pasando por el foco del lado opuesto. Se dibuja también un rayo que atraviesa el centro óptico, que no se desvía. Como el objeto está dentro de la distancia focal ($8,0\\,\\mathrm{cm}<12\\,\\mathrm{cm}$), los rayos refractados salen divergentes; al prolongarlos hacia atrás, se cortan en el lado del objeto, a $24\\,\\mathrm{cm}$ de la lente. Esto justifica que la imagen sea virtual, derecha y aumentada.",
+   "resultado": "s_i=-24,0 cm; h_i=+6,0 cm; P=+8,33 D; imagen virtual, derecha y aumentada (3×).",
+   "criterios": "Total: 3 puntos. a) 1,5 puntos: planteamiento correcto de la ecuación y convención de signos (0,4); posición de la imagen con signo y unidades (0,4); cálculo del aumento y de la altura de la imagen (0,4); identificación razonada de imagen virtual, derecha y aumentada (0,3). b) 1,5 puntos: potencia con conversión de unidades y signo correctos (0,5); trazado descrito correctamente con dos rayos principales y prolongación hacia atrás, justificando la posición y las características de la imagen (1,0).",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4A",
+   "tema": "moderna",
+   "puntos": 2,
+   "tipo": "calculo",
+   "enunciado": "En un fotodetector empleado para analizar la luz de una lámpara germicida, una superficie metálica tiene un trabajo de extracción de $2,0\\,\\mathrm{eV}$. Se ilumina con luz monocromática de longitud de onda $310\\,\\mathrm{nm}$. a) Calcule la energía de cada fotón y la energía cinética máxima de los fotoelectrones emitidos. (1 punto) b) Determine el potencial de frenado y la longitud de onda umbral del metal. Explique qué ocurriría si se iluminara con una longitud de onda mayor que la umbral. (1 punto) Dato: $hc=1240\\,\\mathrm{eV\\,nm}$.",
+   "solucion": "### a) Energía del fotón y energía cinética máxima\n\nLa energía de un fotón de longitud de onda $\\lambda=310\\,\\mathrm{nm}$ es\n\n$$E_\\gamma=\\frac{hc}{\\lambda}=\\frac{1240\\,\\mathrm{eV\\,nm}}{310\\,\\mathrm{nm}}=4,0\\,\\mathrm{eV}.$$\n\nAplicando la ecuación de Einstein del efecto fotoeléctrico, la energía cinética máxima es la energía del fotón menos el trabajo de extracción $W=2,0\\,\\mathrm{eV}$:\n\n$$K_{\\max}=E_\\gamma-W=4,0-2,0=2,0\\,\\mathrm{eV}.$$\n\n### b) Potencial de frenado y longitud de onda umbral\n\nEl potencial de frenado satisface $eV_f=K_{\\max}$. Por tanto, expresando la energía cinética en electronvoltios, el valor numérico del potencial en voltios es\n\n$$V_f=2,0\\,\\mathrm{V}.$$\n\nEn el umbral, la energía del fotón es igual al trabajo de extracción, de modo que\n\n$$\\lambda_0=\\frac{hc}{W}=\\frac{1240\\,\\mathrm{eV\\,nm}}{2,0\\,\\mathrm{eV}}=620\\,\\mathrm{nm}.$$\n\nSi se ilumina el metal con una longitud de onda mayor que $620\\,\\mathrm{nm}$, la energía de cada fotón es menor que el trabajo de extracción y no se emiten fotoelectrones. En la longitud de onda umbral, la emisión es posible idealmente, pero los electrones salen con energía cinética máxima nula.",
+   "resultado": "$E_\\gamma=4,0\\,\\mathrm{eV}$; $K_{\\max}=2,0\\,\\mathrm{eV}$; $V_f=2,0\\,\\mathrm{V}$; $\\lambda_0=620\\,\\mathrm{nm}$; para $\\lambda>\\lambda_0$ no hay emisión fotoeléctrica.",
+   "criterios": "Total: 2 puntos. a) Energía del fotón correctamente calculada mediante $E_\\gamma=hc/\\lambda$: 0,5 puntos; aplicación de la ecuación fotoeléctrica y cálculo de $K_{\\max}$: 0,5 puntos. b) Relación entre energía cinética máxima y potencial de frenado, con resultado y unidad: 0,4 puntos; cálculo de la longitud de onda umbral: 0,4 puntos; explicación de que para longitudes de onda mayores que la umbral no se produce emisión fotoeléctrica: 0,2 puntos.",
+   "verificacion": "codigo",
+   "resoluciones": 2
+  },
+  {
+   "n": "4B",
+   "tema": "moderna",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "En una aplicación de diagnóstico por imagen se utiliza una muestra que contiene el isótopo radiactivo flúor-18, que se desintegra por emisión beta positiva y se transforma en oxígeno-18. La semivida del flúor-18 es $110\\,\\mathrm{min}$. En un instante inicial, la muestra contiene $160\\,\\mu\\mathrm{g}$ de flúor-18 y su actividad es $480\\,\\mathrm{MBq}$. a) Escriba la ecuación nuclear de la desintegración e indique el número másico y el número atómico de la partícula emitida. (1 punto) b) Calcule la masa de flúor-18 que queda y la actividad de la muestra $330\\,\\mathrm{min}$ después del instante inicial. Justifique el procedimiento. (1 punto)",
+   "solucion": "### a) Ecuación nuclear\n\nEn la emisión beta positiva, el número másico se conserva y el número atómico del núcleo hijo disminuye en una unidad. La ecuación es\n\n$$ {}^{18}_{9}\\mathrm{F}\\longrightarrow{}^{18}_{8}\\mathrm{O}+{}^{0}_{+1}\\mathrm{e}+\\nu_e $$\n\nLa partícula beta positiva es el positrón, con número másico $A=0$ y número atómico $Z=+1$. También se emite un neutrino electrónico, $\\nu_e$, de número másico y carga nulos.\n\n### b) Masa y actividad después de $330\\,\\mathrm{min}$\n\nUsamos directamente el número de semividas transcurridas: $330/110=3$. Tras cada semivida se reduce a la mitad tanto el número de núcleos radiactivos como la masa de flúor-18 y la actividad. Por tanto, la fracción restante es $1/2^3=1/8$.\n\n$$m=160\\,\\mu\\mathrm{g}\\times\\frac{1}{8}=20\\,\\mu\\mathrm{g}$$\n\n$$A=480\\,\\mathrm{MBq}\\times\\frac{1}{8}=60\\,\\mathrm{MBq}$$\n\n**Comprobación:** usando la ley exponencial, $N/N_0=e^{-\\lambda t}$, con $\\lambda=\\ln 2/(110\\,\\mathrm{min})$ y $t=330\\,\\mathrm{min}$, se obtiene $e^{-3\\ln 2}=1/8$, lo que confirma ambos resultados.\n\n**Observación sobre los datos:** si $160\\,\\mu\\mathrm{g}$ es la masa del propio flúor-18, los datos iniciales no son físicamente compatibles. Esa masa contiene aproximadamente $5.35\\times10^{18}$ núcleos y, con la semivida indicada, tendría una actividad inicial de alrededor de $5.62\\times10^{14}\\,\\mathrm{Bq}$, no $480\\,\\mathrm{MBq}$. Los resultados anteriores son los obtenidos al aplicar por separado la ley de decaimiento a cada dato inicial proporcionado.",
+   "resultado": "Positrón: $A=0$, $Z=+1$; tras $330\\,\\mathrm{min}$: $m=20\\,\\mu\\mathrm{g}$ y actividad $60\\,\\mathrm{MBq}$, aplicando el decaimiento a los datos iniciales dados.",
+   "criterios": "Total: 2 puntos. a) 1 punto: 0,7 por escribir correctamente la ecuación nuclear y conservar número másico y carga; 0,3 por identificar el positrón con $A=0$ y $Z=+1$. b) 1 punto: 0,4 por determinar que transcurren tres semividas y aplicar el factor $1/8$; 0,3 por obtener la masa restante; 0,3 por obtener la actividad restante. La observación sobre la incompatibilidad de los datos iniciales es una comprobación de consistencia y no altera esos resultados formales.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-24",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "electrico",
+   "p": 0.862
+  },
+  {
+   "id": "gravitacion",
+   "p": 0.785
+  },
+  {
+   "id": "magnetico",
+   "p": 0.785
+  },
+  {
+   "id": "ondas",
+   "p": 0.785
+  },
+  {
+   "id": "optica",
+   "p": 0.785
+  },
+  {
+   "id": "moderna",
+   "p": 0.785
+  }
+ ],
+ "referencias": [
+  "https://universitats.gva.es/documents/389338055/389339991/FISI+Modelo+de+Examen+PAU+2026.pdf/9efb6606-e8dd-c62d-4547-00dbfcfb5fac?t=1781007396706",
+  "https://universitats.gva.es/documents/389338055/410661353/Examen+FISI+Junio+2025.pdf/b0620d53-94c3-3756-a081-296543f474f9?t=1781007397251",
+  "https://universitats.gva.es/documents/389338055/389339991/FISI+Modelo+de+Examen+PAU+2026.pdf/9efb6606-e8dd-c62d-4547-00dbfcfb5fac?t=1781007396706",
+  "https://universitats.gva.es/documents/389338055/410661353/Examen+FISI+Junio+2025.pdf/b0620d53-94c3-3756-a081-296543f474f9?t=1781007397251",
+  "https://universitats.gva.es/documents/389338055/410661416/Examen+FISI+Julio+2025.pdf/49e99a55-7380-2c13-79d0-e56ce653e73f?t=1781007397076"
+ ]
+}
