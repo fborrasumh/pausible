@@ -1,0 +1,99 @@
+{
+ "ccaa": "valenciana",
+ "materia": "biologia",
+ "titulo": "PAU 2027 – Biología – Propuesta original de examen",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro preguntas de 2,5 puntos cada una. La pregunta 1 es obligatoria. En cada una de las preguntas 2, 3 y 4, responda únicamente a uno de los dos apartados propuestos. Si responde a los dos, solo se evaluará el primero que aparezca, salvo que esté claramente tachado. Justifique las respuestas cuando se solicite.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "biomoleculas",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Una empresa de zumos utiliza la enzima poligalacturonasa para facilitar la clarificación del producto. Al comparar dos variantes de la enzima, se detecta un cambio en un triplete de la cadena codificante de ADN: en una variante es $5'-GCT-3'$ y en la otra es $5'-GAT-3'$. a) ¿A qué grupo de biomoléculas pertenece esta enzima? Indique cuál es su monómero y qué enlace une sus monómeros (0,5 puntos). b) Describa brevemente qué representa cada uno de los cuatro niveles estructurales de una proteína (0,75 puntos). c) Escriba el codón de ARN mensajero correspondiente a cada triplete de ADN y determine qué cambio de aminoácido se produce (0,75 puntos). d) Clasifique el tipo de mutación que origina este cambio y explique por qué podría afectar a la actividad de la enzima, indicando si los datos permiten saber con certeza si esta aumentará o disminuirá (0,5 puntos).",
+   "solucion": "### a) Naturaleza de la enzima\nLa poligalacturonasa es una **proteína**. Sus monómeros son los **aminoácidos**, unidos mediante **enlaces peptídicos**, que son enlaces covalentes entre el grupo carboxilo de un aminoácido y el grupo amino de otro.\n\n### b) Niveles estructurales de las proteínas\n1. **Estructura primaria:** secuencia lineal de aminoácidos de la cadena polipeptídica.\n2. **Estructura secundaria:** plegamientos locales regulares, como la hélice α y la lámina β, estabilizados principalmente por puentes de hidrógeno entre grupos del esqueleto peptídico.\n3. **Estructura terciaria:** conformación tridimensional global de una cadena polipeptídica, debida a interacciones entre sus grupos laterales y con el medio.\n4. **Estructura cuaternaria:** asociación espacial de varias cadenas polipeptídicas o subunidades, cuando la proteína las posee. No está presente en todas las proteínas.\n\n### c) Transcripción y cambio de aminoácido\nComo los tripletes dados corresponden a la **cadena codificante**, el ARNm conserva su secuencia en la dirección indicada, sustituyendo timina por uracilo:\n\n- ADN $5'-GCT-3'$ → ARNm $5'-GCU-3'$ → **alanina**.\n- ADN $5'-GAT-3'$ → ARNm $5'-GAU-3'$ → **ácido aspártico (aspartato)**.\n\nPor tanto, el cambio es **alanina → ácido aspártico**. Se ha usado la lectura directa de la cadena codificante y se comprueba la traducción con el código genético: $GCU$ codifica alanina y $GAU$ codifica ácido aspártico.\n\n### d) Tipo y posible efecto de la mutación\nEs una **mutación génica puntual por sustitución** de una base, concretamente $C \\to A$ en la segunda posición del triplete. Es una **transversión** (pirimidina por purina) y, al cambiar el aminoácido codificado, una mutación **missense** o de cambio de sentido; no es una mutación silenciosa ni un cambio del marco de lectura.\n\nLa sustitución de alanina, pequeña y apolar, por ácido aspártico, con carga negativa habitual en condiciones fisiológicas, podría alterar el plegamiento, la estabilidad, las interacciones o el centro activo de la enzima y, por ello, su actividad. Sin conocer la posición del residuo y el contexto estructural y funcional, **no se puede determinar con certeza si la actividad aumentará o disminuirá**.\n\n**Comprobación final:** la transcripción de la cadena codificante da $GCU$ y $GAU$; el código genético asigna, respectivamente, alanina y ácido aspártico. El cambio de aminoácido y la clasificación como mutación missense son coherentes.",
+   "resultado": "Mutación puntual por sustitución C→A (transversión y missense): el cambio de codón GCU a GAU sustituye alanina por ácido aspártico; su efecto sobre la actividad no puede predecirse con certeza.",
+   "criterios": "a) 0,50 puntos: identificación como proteína (0,20), aminoácidos como monómeros (0,15) y enlace peptídico (0,15). b) 0,75 puntos: descripción correcta de estructura primaria (0,20), secundaria (0,20), terciaria (0,20) y cuaternaria (0,15). c) 0,75 puntos: cada codón de ARNm (0,20 cada uno) y traducción y cambio alanina→ácido aspártico (0,35). d) 0,50 puntos: clasificación como sustitución puntual/transversión y missense (0,20); posible efecto sobre estructura o actividad (0,15); indicación de que no puede determinarse con estos datos si aumentará o disminuirá la actividad (0,15). Se aceptan repartos equivalentes que respeten la puntuación total de cada apartado.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "celula",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Responda SOLO a uno de los dos apartados siguientes. Apartado 2.1. a) Relacione cada estructura celular con su función: núcleo; mitocondria; aparato de Golgi; lisosoma. Funciones: modificación, clasificación y empaquetamiento de moléculas; obtención de ATP mediante respiración celular; almacenamiento de la mayor parte del ADN celular; digestión intracelular (1 punto). b) Una célula produce una enzima que debe ser secretada al exterior. Describa el recorrido de esa proteína desde su síntesis hasta su liberación fuera de la célula, indicando las estructuras celulares implicadas y el proceso final de salida (1,5 puntos). Apartado 2.2. En un invernadero se cultivan microalgas para capturar dióxido de carbono. a) Indique dónde tienen lugar las reacciones dependientes de la luz y el ciclo de Calvin en una célula fotosintética eucariota (1 punto). b) Cite tres productos de las reacciones dependientes de la luz que se utilizan o se liberan durante la fotosíntesis, e indique cuál aporta poder reductor al ciclo de Calvin (0,75 puntos). c) Considerando que se necesitan fijar 3 moléculas de dióxido de carbono para obtener una molécula neta de G3P, calcule cuántas moléculas netas de G3P pueden obtenerse al fijar 18 moléculas de dióxido de carbono (0,75 puntos).",
+   "solucion": "## Apartado 2.2\n\n### a) Localización de las fases\n- Las reacciones dependientes de la luz tienen lugar en las **membranas de los tilacoides** del cloroplasto.\n- El ciclo de Calvin tiene lugar en el **estroma** del cloroplasto.\n\n### b) Productos de las reacciones dependientes de la luz\nSe producen **ATP**, **NADPH** y **O₂**. El ATP y el NADPH se utilizan en el ciclo de Calvin; el O₂ se libera. El **NADPH** aporta el poder reductor.\n\n### c) Obtención neta de G3P\nAgrupamos las 18 moléculas de CO₂ en grupos de 3. Cada grupo permite obtener 1 molécula neta de G3P:\n\n$$18\\div 3=6$$\n\nPor tanto, se obtienen **6 moléculas netas de G3P**.\n\n**Comprobación:** las 6 moléculas de G3P corresponden a fijar $6\\times 3=18$ moléculas de CO₂, como indica el enunciado.",
+   "resultado": "Se obtienen 6 moléculas netas de G3P al fijar 18 moléculas de CO₂.",
+   "criterios": "Total: 2,5 puntos. a) 1 punto: 0,5 por situar correctamente las reacciones dependientes de la luz en las membranas de los tilacoides y 0,5 por situar el ciclo de Calvin en el estroma. b) 0,75 puntos: 0,25 por cada producto correcto (ATP, NADPH y O₂); debe identificarse el NADPH como fuente de poder reductor. c) 0,75 puntos: planteamiento proporcional o agrupación correcta de las 18 moléculas de CO₂ en grupos de 3 (0,25) y resultado de 6 moléculas netas de G3P (0,5).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "inmunologia",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Responda SOLO a uno de los dos apartados siguientes. Apartado 3.1. Un laboratorio desarrolla una prueba rápida para detectar una proteína de un virus en muestras respiratorias. La zona de lectura de la tira contiene un anticuerpo inmovilizado que reconoce esa proteína; además, la muestra se mezcla con anticuerpos específicos unidos a partículas coloreadas. a) Describa la estructura básica de un anticuerpo e indique qué región reconoce al antígeno (1 punto). b) ¿Qué tipo de célula produce anticuerpos y a partir de qué célula se origina? (0,5 puntos). c) Explique por qué la presencia de la proteína viral puede producir una señal coloreada en la zona de lectura y qué indica un resultado positivo en esta prueba (1 punto). Apartado 3.2. En un estudio de reproducción de una planta se observan células que están formando gametos. a) ¿En qué fase de la meiosis se produce normalmente el intercambio de fragmentos entre cromátidas de cromosomas homólogos? Nombre el proceso y explique cómo contribuye a la variabilidad genética (1 punto). b) Una célula con $2n=8$ completa la meiosis. Indique cuántas células se forman y cuántos cromosomas tendrá cada una (0,75 puntos). c) Indique dos diferencias entre la mitosis y la meiosis (0,75 puntos).",
+   "solucion": "### Apartado elegido: 3.1\n\n**a) Estructura y reconocimiento del antígeno (1 punto).** Un anticuerpo es una glucoproteína formada por cuatro cadenas polipeptídicas: dos cadenas pesadas iguales y dos cadenas ligeras iguales, unidas entre sí, entre otros enlaces, por puentes disulfuro. Presenta una región constante y regiones variables situadas en los extremos de sus brazos. Las regiones variables, en particular sus zonas hipervariables, forman los sitios de unión que reconocen específicamente un epítopo del antígeno.\n\n**b) Célula productora (0,5 puntos).** Los anticuerpos son secretados por las células plasmáticas, que se originan por diferenciación de linfocitos B activados.\n\n**c) Señal de la prueba (1 punto).** Si la muestra contiene la proteína viral, esta se une a los anticuerpos específicos marcados con partículas coloreadas. El complejo migra por la tira y queda retenido en la zona de lectura al unirse al anticuerpo inmovilizado, que reconoce la proteína; así se acumulan partículas coloreadas y aparece una señal visible. Para que ambos anticuerpos puedan unirse simultáneamente, deben reconocer regiones compatibles de la proteína. Un resultado positivo indica que se ha detectado la proteína viral en la muestra; por sí solo no demuestra que el virus esté viable ni determina necesariamente la infectividad de la persona.",
+   "resultado": "En el apartado 3.1, la prueba detecta la proteína viral mediante la acumulación de anticuerpos marcados en la zona de lectura.",
+   "criterios": "Puntuación total: 2,5 puntos. a) 1 punto: 0,6 por describir la estructura básica del anticuerpo y 0,4 por identificar las regiones variables como responsables del reconocimiento específico del antígeno. b) 0,5 puntos: 0,25 por indicar que la célula productora es la célula plasmática y 0,25 por señalar que deriva de un linfocito B activado. c) 1 punto: 0,7 por explicar la unión de la proteína a los anticuerpos marcados y la retención del complejo en la zona de lectura, que produce la señal coloreada; 0,3 por interpretar el positivo como detección de la proteína viral en la muestra.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "microbiologia",
+   "puntos": 2.5,
+   "tipo": "abierta",
+   "enunciado": "Responda SOLO a uno de los dos apartados siguientes. Apartado 4.1. Una planta depuradora incorpora bacterias a un biorreactor aireado para reducir la concentración de un contaminante orgánico del agua. Las bacterias utilizan ese contaminante como fuente de carbono y energía. a) Indique qué tipo de organización celular tienen estas bacterias y cite dos características que la distingan de la organización eucariota (0,75 puntos). b) Clasifique su nutrición según la fuente de carbono y la fuente de energía (0,5 puntos). c) Defina biorremediación y explique cómo contribuye el proceso descrito a reducir la contaminación (1,25 puntos). Apartado 4.2. En una variedad vegetal, el alelo $R$ confiere resistencia a una enfermedad y es dominante sobre el alelo $r$, que determina susceptibilidad. Se cruzan dos plantas heterocigóticas, y se supone que los alelos se segregan de acuerdo con las leyes de Mendel. a) Indique los genotipos posibles de la descendencia y sus proporciones esperadas (1 punto). b) Calcule cuántas plantas resistentes y cuántas susceptibles se esperan entre 80 descendientes (1 punto). c) Calcule la probabilidad de que dos descendientes elegidos al azar sean ambos susceptibles (0,5 puntos).",
+   "solucion": "**Apartado elegido: 4.2.** Se calcula usando las probabilidades de los gametos, sin recurrir al cuadro de Punnett.\n\n**a) Genotipos de la descendencia.** Cada planta heterocigótica tiene genotipo $Rr$ y produce gametos $R$ y $r$ con probabilidad $1/2$ cada uno. Al combinar gametos de ambos progenitores:\n\n- $P(RR)=P(R\\text{ de un progenitor})P(R\\text{ del otro})=(1/2)(1/2)=1/4$.\n- $P(Rr)=P(R\\text{ y }r)+P(r\\text{ y }R)=(1/2)(1/2)+(1/2)(1/2)=1/2$.\n- $P(rr)=P(r\\text{ de un progenitor})P(r\\text{ del otro})=(1/2)(1/2)=1/4$.\n\nPor tanto, las proporciones genotípicas esperadas son $1/4\\,RR$, $1/2\\,Rr$ y $1/4\\,rr$ (proporción $1:2:1$). Como $R$ es dominante, $RR$ y $Rr$ son resistentes, mientras que $rr$ es susceptible.\n\n**b) Número esperado entre 80 descendientes.** La proporción resistente es $1/4+1/2=3/4$ y la susceptible es $1/4$. Así:\n\n- Resistentes: $80(3/4)=60$.\n- Susceptibles: $80(1/4)=20$.\n\nSon valores esperados; no implican que una descendencia concreta tenga necesariamente esas cantidades exactas.\n\n**c) Dos descendientes susceptibles.** Los genotipos de dos descendientes son sucesos independientes, cada uno con probabilidad de susceptibilidad $1/4$. Por tanto, $P(\\text{ambos susceptibles})=(1/4)(1/4)=1/16=0,0625=6,25\\%$.\n\n**Comprobación:** las probabilidades genotípicas suman $1/4+1/2+1/4=1$; los números esperados suman $60+20=80$; y la probabilidad conjunta de dos susceptibles es el producto de sus probabilidades individuales.",
+   "resultado": "RR: 25 %; Rr: 50 %; rr: 25 %; 60 resistentes y 20 susceptibles esperados; probabilidad de dos susceptibles: 1/16 (6,25 %).",
+   "criterios": "Total: 2,5 puntos. a) 1,0 punto: 0,75 por los genotipos posibles y sus proporciones correctas; 0,25 por relacionar correctamente genotipo y fenotipo según la dominancia. b) 1,0 punto: 0,5 por calcular las 60 resistentes esperadas y 0,5 por las 20 susceptibles. c) 0,5 puntos: aplicar la independencia de los dos descendientes y obtener $1/16$ (6,25 %).",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-24",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "microbiologia",
+   "p": 0.841
+  },
+  {
+   "id": "biomoleculas",
+   "p": 0.776
+  },
+  {
+   "id": "celula",
+   "p": 0.776
+  },
+  {
+   "id": "molecular",
+   "p": 0.776
+  },
+  {
+   "id": "inmunologia",
+   "p": 0.776
+  },
+  {
+   "id": "metabolismo",
+   "p": 0.604
+  }
+ ],
+ "referencias": [
+  "https://universitats.gva.es/documents/389338055/389339991/BIOL+Modelo+de+Examen+PAU+2026.pdf/dc53c275-68b1-99b0-ae94-7f08487c1343?t=1781007396705",
+  "https://universitats.gva.es/documents/389338055/410661353/Examen+BIOL+Junio+2025.pdf/65e7b45b-8ae1-4156-ea8b-ba9ca6ff9fec?t=1781007397251",
+  "https://universitats.gva.es/documents/389338055/389339991/BIOL+Modelo+de+Examen+PAU+2026.pdf/dc53c275-68b1-99b0-ae94-7f08487c1343?t=1781007396705",
+  "https://universitats.gva.es/documents/389338055/389340513/Examen+Junio2023+BIO.pdf/1bfb62a4-ed74-1a8d-fc92-c7229cf36336?t=1781007397843",
+  "https://universitats.gva.es/documents/389338055/389340525/Examen+Julio+2023+BIO.pdf/160435a7-143a-755e-bd92-b5c65f15233c?t=1781007397721",
+  "https://universitats.gva.es/documents/389338055/389340552/Examen+BIOL+Junio+2024.pdf/4c58e054-977e-82bd-0b01-abdc8332f53f?t=1781007397578",
+  "https://universitats.gva.es/documents/389338055/389340561/Examen+BIOL+Julio+2024.pdf/c6bf64a7-a335-bf19-290b-b3a0a9ed209b?t=1781007397499",
+  "https://universitats.gva.es/documents/389338055/399457292/BIOL+Acta+Octubre+2024+PAU+2025.pdf/a56732ee-231b-96e9-5fd6-de18a36966b4?t=1781007403027",
+  "https://universitats.gva.es/documents/389338055/410661353/Examen+BIOL+Junio+2025.pdf/65e7b45b-8ae1-4156-ea8b-ba9ca6ff9fec?t=1781007397251",
+  "https://universitats.gva.es/documents/389338055/410661416/Examen+BIOL+Julio+2025.pdf/d875681e-ad7b-d635-9afa-14ec2a07b204?t=1781007397076",
+  "https://universitats.gva.es/documents/389338055/410662188/Examen+BIOL+Julio+2025_extraDANA.pdf/5c3b99a9-e3ec-f3bc-6c7b-6afede8ceb2e?t=1781007396865"
+ ]
+}
