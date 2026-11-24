@@ -1,0 +1,87 @@
+{
+ "ccaa": "galicia",
+ "materia": "latin",
+ "titulo": "PAU 2027 · Latín II · Modelo original",
+ "duracion_min": 90,
+ "instrucciones": "El examen consta de cuatro preguntas obligatorias, de 5, 1, 2 y 2 puntos, respectivamente. En la pregunta 1 se elegirá una sola opción: traducir el texto al gallego o al castellano, o responder en latín a las cinco cuestiones. Si se responden ambas opciones, solo se valorará la primera presentada. En las preguntas 3 y 4 se responderá únicamente uno de los dos apartados propuestos en cada una. La puntuación total es de 10 puntos.",
+ "preguntas": [
+  {
+   "n": "1",
+   "tema": "traduccion",
+   "puntos": 5,
+   "tipo": "abierta",
+   "enunciado": "PREGUNTA 1. COMPRENSIÓN E INTERPRETACIÓN DE TEXTOS. (5 puntos)\n\nCONTEXTO:\nEn una conversación de clase sobre cómo afrontar la escasez de agua en las ciudades, usted sostiene que las infraestructuras y las normas que protegen los recursos comunes son importantes desde antiguo. Como ejemplo, presenta este texto latino sobre una medida adoptada en Roma. Demuestre su comprensión mediante una sola de estas opciones: traduzca el texto al gallego o al castellano, o responda en latín a las cinco cuestiones.\n\nTEXTO:\nCum longa siccitas agros circa Romam vastaret, consules aquam ex monte in urbem duci iusserunt. Marcus, curator operis, non solum pontes firmos aedificavit, sed etiam fontes publicos prope forum posuit. Aqua per fistulas lapideas ad omnes regiones perveniebat; itaque cives, qui antea longum iter ad flumen faciebant, nunc domi aquam habebant. Marcus autem vetuit ne quis aquam venderet aut rivos clauderet, quod utilitas communis privato lucro maior erat.\n\nCUESTIONES:\n1. Quid consules aquae causa fieri iusserunt?\n2. Quis operis curator fuit?\n3. Ubi Marcus fontes publicos posuit?\n4. Quomodo aqua ad omnes regiones perveniebat?\n5. Quid Marcus civibus facere vetuit?",
+   "solucion": "### Opción elegida: traducción al castellano\n\n**Traducción:**\n\nCuando una prolongada sequía devastaba los campos de los alrededores de Roma, los cónsules ordenaron que se condujera agua desde el monte hasta la ciudad. Marco, encargado de la obra, no solo construyó puentes resistentes, sino que también instaló fuentes públicas cerca del foro. El agua llegaba a todas las regiones a través de tuberías de piedra; por eso, los ciudadanos, que antes recorrían un largo camino hasta el río, ahora tenían agua en casa. Marco, sin embargo, prohibió que alguien vendiera el agua o cerrara los canales, porque la utilidad común era mayor que el beneficio privado.\n\n### Comprensión de las construcciones\n\n1. *Cum ... vastaret* introduce la circunstancia temporal: «cuando ... devastaba».\n2. *aquam ... duci iusserunt* significa «ordenaron que se condujera el agua»; *duci* es infinitivo pasivo.\n3. *non solum ... sed etiam* se traduce «no solo ..., sino que también ...».\n4. *per fistulas lapideas* expresa el medio o recorrido: «a través de tuberías de piedra».\n5. *qui antea ... faciebant* es una oración de relativo referida a los ciudadanos.\n6. *vetuit ne quis ... venderet aut ... clauderet* significa «prohibió que alguien vendiera ... o cerrara ...».\n7. *quod* introduce la causa: la utilidad común era mayor que el beneficio privado.",
+   "resultado": "Traducción completa al castellano: 5 puntos.",
+   "criterios": "Propuesta de corrección sobre 5 puntos, valorando la fidelidad del sentido y la corrección sintáctica y léxica: oración temporal sobre la sequía, 0,50; orden de conducir el agua, 0,50; identificación de Marco como encargado de la obra, 0,25; construcción de puentes resistentes, 0,50; instalación de fuentes públicas cerca del foro, 0,50; conducción del agua por tuberías de piedra a todas las regiones, 0,75; situación de los ciudadanos y disponibilidad de agua en casa, 0,50; traducción de la oración de relativo sobre el trayecto anterior al río, 0,50; prohibición de vender el agua o cerrar los canales, 0,75; explicación de la prioridad de la utilidad común, 0,25. Se admiten formulaciones distintas que conserven correctamente el sentido del original.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "2",
+   "tema": "morfosintaxis",
+   "puntos": 1,
+   "tipo": "abierta",
+   "enunciado": "PREGUNTA 2. COMPRENSIÓN E INTERPRETACIÓN DE TEXTOS. (1 punto)\n\nAnalice morfológica y sintácticamente este fragmento del texto anterior:\n\nMarcus fontes publicos prope forum posuit.",
+   "solucion": "### Análisis por dependencias (del núcleo hacia sus complementos)\n\n1. **`posuit`**: verbo *pono, ponere, posui, positum*, tercera persona del singular, perfecto de indicativo activo: «colocó» o «puso». Es el núcleo del predicado.\n2. **`Marcus`**: nombre propio, masculino, nominativo singular; funciona como **sujeto** de `posuit`. Su singular concuerda con la persona y el número del verbo.\n3. **`fontes publicos`**: `fontes` es sustantivo masculino, acusativo plural, de *fons, fontis*; funciona como **complemento directo** de `posuit`. `publicos` es adjetivo masculino, acusativo plural, de *publicus, -a, -um*; concuerda con `fontes` y es su **adyacente**.\n4. **`prope forum`**: `prope` es una preposición que rige acusativo. `forum` es sustantivo neutro, acusativo singular, de *forum, -i*, término de la preposición. El sintagma preposicional funciona como **complemento circunstancial de lugar** (proximidad).\n\n**Comprobación:** el sujeto `Marcus` es singular y concuerda con `posuit`; `publicos` concuerda en género, número y caso con `fontes`; y `forum` aparece en acusativo porque lo exige `prope`.\n\n**Traducción:** «Marco colocó fuentes públicas cerca del foro».",
+   "resultado": "Marcus: sujeto; posuit: núcleo verbal; fontes publicos: complemento directo con adyacente; prope forum: complemento circunstancial de lugar.",
+   "criterios": "1 punto en total: morfología, 0,5 (identificación correcta de las formas y sus rasgos); sintaxis, 0,5 (sujeto y predicado, complemento directo con su adyacente y complemento circunstancial de lugar). Se admite una terminología equivalente si las funciones y las relaciones de concordancia y régimen están bien justificadas.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "3",
+   "tema": "lexico",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "PREGUNTA 3. LATÍN Y PLURILINGÜISMO. (2 puntos)\n\nResponda uno de estos dos apartados:\n\n3.1. Señale el prefijo de origen latino y explique qué significado aporta en cada una de estas palabras: «relectura», «subacuático», «anteponer», «contradecir», «exportar».\n\n3.2. Explique el significado de estas expresiones latinas y utilice cada una en un ejemplo adecuado: «ad hoc», «curriculum vitae», «in extremis», «persona non grata», «sine die».",
+   "solucion": "### Apartado 3.1\n\nSe identifica en cada palabra el prefijo latino y se explica su valor:\n\n1. **relectura**: **re-**, «de nuevo» o «otra vez»; *relectura* es la acción de leer de nuevo.\n2. **subacuático**: **sub-**, «debajo de» o «por debajo»; se refiere a lo que está o sucede bajo el agua.\n3. **anteponer**: **ante-**, «delante de» o «antes»; significa poner algo delante de otra cosa.\n4. **contradecir**: **contra-**, «en contra de» u «opuesto a»; significa oponerse a lo dicho por alguien o afirmar lo contrario.\n5. **exportar**: **ex-**, «fuera de» o «hacia el exterior»; significa enviar o llevar productos fuera del lugar o país de origen.",
+   "resultado": "re-: de nuevo; sub-: debajo de; ante-: delante/antes; contra-: en contra; ex-: hacia fuera.",
+   "criterios": "Total: 2 puntos. Se asignan 0,4 puntos por cada palabra: 0,2 por identificar correctamente el prefijo de origen latino y 0,2 por explicar adecuadamente el significado que aporta. Se aceptan formulaciones equivalentes que expresen con claridad esos valores.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  },
+  {
+   "n": "4",
+   "tema": "literatura",
+   "puntos": 2,
+   "tipo": "abierta",
+   "enunciado": "PREGUNTA 4. LA LITERATURA LATINA EN SUS TEXTOS. (2 puntos)\n\nResponda uno de estos dos apartados:\n\n4.1. Explique las principales características de las Metamorfosis de Ovidio, atendiendo a sus temas, organización y propósito literario.\n\n4.2. Caracterice la historiografía de Salustio y explique la finalidad de La conjuración de Catilina.",
+   "solucion": "### 4.1. Las *Metamorfosis* de Ovidio\n\n1. **Tema y materia.** Es un poema épico-mitológico en quince libros, compuesto en hexámetros. Su tema central es la transformación: dioses, seres humanos y otros seres cambian de forma, con frecuencia como consecuencia del deseo, el castigo, la protección divina o el destino. A través de esos cambios, Ovidio reúne relatos de la mitología griega y romana y explora, entre otros asuntos, el amor, la violencia, el poder y la relación entre mortales y dioses.\n\n2. **Organización.** La obra presenta un recorrido temporal amplio: comienza con la creación del mundo a partir del caos y llega hasta la época de Augusto. Aunque no narra las hazañas de un único héroe, constituye un *carmen perpetuum*: una sucesión de episodios conectados mediante transformaciones, genealogías, personajes y relatos insertos unos en otros. El conjunto comprende quince libros y culmina con la apoteosis de Julio César; el discurso de Pitágoras en el libro XV contribuye a dar unidad filosófica al tema del cambio.\n\n3. **Propósito y valor literario.** Ovidio convierte la tradición mitológica en una obra de gran variedad narrativa y estilística, en la que destacan la habilidad para enlazar episodios, la vivacidad, la erudición y el tratamiento dramático o ingenioso de los mitos. La transformación proporciona el principio de continuidad del poema y permite presentar un universo sujeto al cambio. El final incorpora una dimensión romana y augustea, al vincular la divinización de César con el presente político; sin embargo, la obra no se reduce a propaganda oficial. También expresa la ambición poética de Ovidio y concluye con la afirmación de la perduración de su fama literaria.",
+   "resultado": "Las *Metamorfosis* son un poema épico-mitológico de quince libros que enlaza relatos sobre transformaciones desde la creación del mundo hasta la época de Augusto y combina la tradición mítica con la innovación narrativa y la afirmación de la fama poética de Ovidio.",
+   "criterios": "Puntuación máxima: 2 puntos. Tema, materia mitológica y centralidad de la metamorfosis: hasta 0,60 puntos. Organización, estructura en quince libros y marco temporal: hasta 0,60 puntos. Propósito literario, recursos narrativos y dimensión romana/augustea: hasta 0,60 puntos. Claridad, precisión terminológica y exposición coherente: hasta 0,20 puntos. Se aceptarán formulaciones equivalentes; no se exige enumerar episodios concretos.",
+   "verificacion": "consenso",
+   "resoluciones": 2
+  }
+ ],
+ "generado": "2026-11-24",
+ "modelo": "gpt-6-luna",
+ "rondas": 1,
+ "temas_base": [
+  {
+   "id": "literatura",
+   "p": 0.498
+  },
+  {
+   "id": "traduccion",
+   "p": 0.473
+  },
+  {
+   "id": "morfosintaxis",
+   "p": 0.05
+  },
+  {
+   "id": "lexico",
+   "p": 0.05
+  }
+ ],
+ "referencias": [
+  "https://ciug.gal/link/bBrG2ZHPW8MG4Z3U",
+  "https://ciug.gal/link/aQsWu34mAGcqxQbX",
+  "https://ciug.gal/PDF/2025/PAU/extraordinaria/criterios/30.pdf",
+  "https://ciug.gal/PDF/2025/PAU/extraordinaria/exames/30.pdf",
+  "https://ciug.gal/link/Hk5GED4JXPqFhPzV",
+  "https://ciug.gal/link/aQsWu34mAGcqxQbX",
+  "https://ciug.gal/link/bBrG2ZHPW8MG4Z3U"
+ ]
+}
